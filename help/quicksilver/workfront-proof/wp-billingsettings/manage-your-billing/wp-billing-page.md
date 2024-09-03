@@ -3,139 +3,139 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: La page de facturation du BAT [!DNL Workfront]
-description: Pour accéder à la page [!UICONTROL Facturation] , ouvrez le menu Paramètres en haut à droite de l’écran et choisissez Facturation dans le menu déroulant.
+title: Page de facturation de  [!DNL Workfront]  Proof
+description: Pour accéder à la page [!UICONTROL Facturation], ouvrez le menu des paramètres en haut à droite de l’écran et sélectionnez « Facturation » dans le menu déroulant.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f3828671-e950-4649-9f6d-881101100a96
 source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# La page de facturation [!DNL Workfront Proof]
+# Page de facturation de [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Page de facturation
 
-Pour accéder à la page [!UICONTROL Facturation], ouvrez le menu **[!UICONTROL Paramètres]** en haut à droite de l’écran et sélectionnez **[!UICONTROL Facturation]** dans le menu déroulant.
+Pour accéder à la page de [!UICONTROL facturation], ouvrez le menu des **[!UICONTROL paramètres]** en haut à droite de l’écran puis sélectionnez **[!UICONTROL Facturation]** dans le menu déroulant.
 
-La page [!UICONTROL Facturation] contient les éléments suivants :
+La page de [!UICONTROL facturation] contient les éléments suivants :
 
 * Nom du compte (1)
-* Liste des comptes (par exemple, si vous disposez de comptes satellites)(2)
-* Changement de plan (3)
-* Modifier les détails du paiement (4)
+* Liste des comptes (par exemple, si vous disposez de comptes satellites) (2)
+* Modification de plan (3)
+* Modification des détails de paiement (4)
 * Nouveau compte satellite (5)
-* Fermer le compte (6)
+* Fermeture du compte (6)
 * Informations sur le plan actuel (7)
 * Contact et adresse de facturation (8)
 * Statistiques d’utilisation (9)
 * Historique de facturation (10)
-* Activité Facturation (11)
+* Activité de facturation (11)
 
   ![Billing_page.jpg](assets/billing-page-350x315.jpg)
 
 ## [!UICONTROL Plan actuel]
 
-Cette section (7) présente les détails de votre plan actuel, notamment :
+Cette section (7) présente les détails de votre plan actuel, notamment les éléments suivants :
 
 * Nom du plan
-* Mode de paiement actuel
+* Méthode de paiement actuelle
 * Dates de début et de fin du plan actuel
 * Type de plan suivant
 * Méthode de paiement du prochain plan
 
-  Pour plus d’informations, voir [Choix de votre mode de paiement dans [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
+  Pour plus d’informations, consultez la section [Choisir votre méthode de paiement dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 
 ## [!UICONTROL Contact et adresse de facturation]
 
-Cette section (8) présente les coordonnées principales de contact et d’adresse de facturation de votre compte.
+Cette section (8) présente les coordonnées du contact principal de facturation et l’adresse de votre compte.
 
-Le contact de facturation ne peut être sélectionné que parmi les utilisateurs configurés en tant qu’administrateurs de facturation sur votre compte. Sur les comptes satellites, seuls les administrateurs de facturation du compte principal peuvent être définis dans ce champ.
+Le contact de facturation ne peut être sélectionné que parmi les utilisateurs et les utilisatrices qui sont responsables de la facturation sur votre compte. Sur les comptes satellites, seules les personnes responsables de la facturation du compte principal peuvent être définies dans ce champ.
 
 ![Billing_Contact.png](assets/billing-contact-350x137.png)
 
 >[!NOTE]
 >
-> Vous pouvez avoir plusieurs administrateurs de facturation sur votre compte, mais un seul d’entre eux, sélectionné dans le champ [!UICONTROL Contact de facturation], recevra toutes les notifications de facturation et les alertes d’utilisation du compte.
+> Plusieurs personnes peuvent être chargées de la facturation sur votre compte, mais seule la personne sélectionnée dans le champ [!UICONTROL Contact de facturation] recevra toutes les notifications de facturation et les alertes relatives à l’utilisation du compte.
 
-Cela inclut les emails de notification suivants :
+Cela inclut les e-mails de notification suivants :
 
-* Utilisation des BAT
-* Facturations
-* Rétrogradation
-* Alerte de suspension de paiement en retard/compte
+* Utilisation des épreuves
+* Factures
+* Baisse de niveau
+* Alerte de retard de paiement/suspension de compte
 * Échec de la carte de crédit
 
   ![Billin_CC.png](assets/billin-cc-350x103.png)
 
-Le champ [!UICONTROL Facturation CC] vous permet également d’ajouter une adresse électronique à copier sur tous les emails liés à la facturation. Cliquez sur le champ pour activer l’édition d’inclusion et saisissez l’adresse électronique de votre choix (il peut également s’agir de l’adresse électronique d’un utilisateur existant).
+Le champ [!UICONTROL CC de facturation] vous permet également d’ajouter en copie une adresse e-mail pour tous les e-mails relatifs à la facturation. Cliquez sur le fichier pour activer la modification en ligne et saisissez l’adresse e-mail de votre choix (il peut s’agir d’une adresse e-mail déjà utilisée lors de l’inscription d’un utilisateur ou d’une utilisatrice).
 
 ## [!UICONTROL Adresse de facturation]
 
-Cette section utilise les modifications intégrées. Il suffit donc de cliquer sur les champs pour saisir/modifier le texte.
+Cette section utilise la modification en ligne, il suffit donc de cliquer sur les champs pour saisir/modifier le texte.
 
 >[!NOTE]
 >
-> Nous incluons cette adresse dans vos factures d&#39;abonnement afin de vous assurer que ces données sont toujours à jour.
+> Nous intégrons cette adresse dans vos factures d’abonnement, alors veillez à ce que ces informations soient toujours actuelles.
 
 ![Billing_Address.png](assets/billing-address-350x199.png)
 
 ## [!UICONTROL Statistiques d’utilisation]
 
-Cette section présente les statistiques d’utilisation de votre compte au cours de la période de facturation actuelle, notamment :
+Cette section présente les statistiques d’utilisation de votre compte au cours de la période de facturation actuelle, notamment les éléments suivants :
 
 * Stockage utilisé
-* Bons à tirer utilisés
-* Limite d’utilisateurs utilisée
+* Épreuves utilisées
+* Limite d’utilisateurs et d’utilisatrices utilisée
 
 ![Usage_Statistics.png](assets/usage-statistics-350x51.png)
 
 ### [!UICONTROL Avertissements d’utilisation]
 
-Les [[!UICONTROL profils d’autorisations de BAT] dans [!DNL Workfront] BAT](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) définis comme contact de facturation (1) sur votre compte seront avertis par e-mail lorsque votre compte arrivera à :
+Les [[!UICONTROL profils d’autorisations d’épreuve] dans [!DNL Workfront]  Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) définis comme contact de facturation (1) sur votre compte seront notifiés par e-mail lorsque votre compte atteindra :
 
-* 75 %, puis 98 % de votre capacité de stockage
-* 75 % puis 100 % de votre limite de BAT
+* 75 %, puis 98 % de votre capacité de stockage
+* 75 % puis 100 % de votre limite d’épreuves
 
 ![Billing_Contact__1_.png](assets/billing-contact--1--350x74.png)
 
-Une fois les BAT ou les limites de stockage atteintes, les alertes s’affichent également en haut de la page [!UICONTROL Facturation] :
+Une fois les limites d’épreuves ou de stockage atteintes, les alertes s’affichent également en haut de la page [!UICONTROL Facturation] :
 
-* Pour la limite de BAT atteinte
+* Pour la limite d’épreuves atteinte
 
-  ![Proofs_limit_reach.png](assets/proofs-limit-reached-350x65.png)
+  ![Proofs_limit_reached.png](assets/proofs-limit-reached-350x65.png)
 
 * Pour la limite de stockage atteinte
 
-![Storage_limit_reach.png](assets/storage-limit-reached-350x65.png)
+![Storage_limit_reached.png](assets/storage-limit-reached-350x65.png)
 
 >[!NOTE]
 >
->Le nombre de BAT est utilisé lorsque des BAT sont créés dans votre compte et ne peuvent pas être restaurés en supprimant les BAT.
+>Le nombre d’épreuves est utilisé lorsque des épreuves sont créées dans votre compte et ne peuvent pas être restaurées en supprimant les épreuves.
 
-L’espace de stockage peut être libéré en supprimant les bons à tirer et les fichiers et en vidant la [!UICONTROL corbeille] par la suite.
+L’espace de stockage peut être libéré en supprimant les épreuves et fichiers et en vidant la [!UICONTROL Corbeille] par la suite.
 
-N’oubliez pas que si vous avez besoin d’autres BAT, stockage ou utilisateurs, vous pouvez mettre à niveau votre compte à tout moment et cela prend effet immédiatement.
+N’oubliez pas que si vous avez besoin d’autres épreuves, stockage ou utilisateurs et utilisatrices, vous pouvez mettre à niveau votre compte à tout moment. L’effet sera immédiat.
 
 ## [!UICONTROL Historique de facturation]
 
-Cette section présente l&#39;activité pour toutes les périodes de facturation récentes. Vous pouvez également télécharger vos factures à partir de cette section.
+Cette section affiche l’activité pour toutes les périodes de facturation récentes. Vous pouvez également télécharger vos factures depuis cette section.
 
-Pour plus d’informations, voir &quot; [Téléchargement de votre [!DNL Workfront Proof] facture](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)&quot;.
+Pour plus d’informations, voir « [Télécharger votre facture  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md). »
 
 ## [!UICONTROL Activité de facturation]
 
-Cette section présente les modifications récentes apportées à la configuration de la facturation, par exemple les abonnements, les mises à niveau, les mises à niveau, les mises à niveau et les renouvellements de votre formule [!DNL Workfront Proof].
+Cette section présente les modifications récentes apportées à vos paramètres de facturation, tels que les abonnements, les mises à niveau, les passages à une antérieure et les renouvellements de votre formule [!DNL Workfront Proof].
 
-Si vous définissez votre formule d’abonnement sur une limite d’utilisateurs inférieure (1), les utilisateurs qui dépassent la nouvelle limite seront automatiquement désactivés au début du nouveau forfait. Cette activité sera également capturée dans vos logs de compte (2).
+Si vous modifiez votre formule pour réduire la limite d’utilisateurs et d’utilisatrices (1), les personnes en trop seront automatiquement désactivées au début de la nouvelle formule. Cette activité sera également capturée dans vos journaux de compte (2).
 
 ![Billing_Downgrade_log.png](assets/billing-downgrade-log-350x45.png)
 
-![ Account_Activity_-_Deleted_users.png](assets/account-activity---deleted-users-350x94.png)
+![Account_Activity_-_Deleted_users.png](assets/account-activity---deleted-users-350x94.png)

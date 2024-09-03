@@ -2,7 +2,7 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Supprimer et désactiver des portfolios
-description: Les portfolios sont des collections de projets ou de programmes dans Adobe Workfront. Vous pouvez supprimer ou désactiver un portfolio si vous estimez qu’il n’est pas pertinent pour votre système.
+description: Les portfolios sont des collections de projets ou de programmes dans Adobe Workfront. Vous pouvez supprimer ou désactiver un portefeuille si vous estimez qu’il n’est pas pertinent pour votre système.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
@@ -17,9 +17,9 @@ ht-degree: 98%
 
 <!--Audited: 2/2024-->
 
-Les portfolios sont des collections de projets ou de programmes dans [!DNL Adobe Workfront]. Vous pouvez supprimer ou désactiver un portfolio si vous estimez qu’il n’est pas pertinent pour votre système.
+Les portefeuilles sont des collections de projets ou de programmes dans [!DNL Adobe Workfront]. Vous pouvez supprimer ou désactiver un portefeuille si vous estimez qu’il n’est pas pertinent pour votre système.
 
-Nous vous recommandons de désactiver un portfolio qui ne doit plus être associé à des projets futurs plutôt que de le supprimer afin de conserver les informations historiques sur les projets actuellement associés au portfolio et à ses programmes.
+Plutôt que de supprimer un portfolio qui n’a plus besoin d’être associé à des projets futurs, nous recommandons de le désactiver, afin de conserver les informations historiques sur les projets qui sont actuellement associés au portfolio et à ses programmes.
 
 ## Conditions d’accès
 
@@ -33,7 +33,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>N’importe quelle </p> </td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
@@ -57,21 +57,21 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 ## Vue d’ensemble de la suppression et de la désactivation de portfolios
 
-Tenez compte des éléments suivants lors du choix entre suppression et désactivation de portfolios :
+Tenez compte des éléments suivants lorsque vous décidez de supprimer ou de désactiver des portfolios :
 
-* La suppression d’un portfolio supprime les programmes qui lui sont associés.
+* La suppression d’un portfolio entraîne la suppression des programmes qui lui sont associés.
 
   >[!IMPORTANT]
   >
-  >Vous n’avez pas besoin d’autorisations sur les programmes pour pouvoir supprimer le portfolio.
+  >Vous n’avez pas besoin d’avoir des autorisations sur les programmes pour pouvoir supprimer le portfolio.
 
 * La suppression d’un portfolio ne supprime pas les projets qui lui sont associés.
 * Vous ne pouvez pas récupérer les portfolios supprimés.
-* La désactivation d’un portfolio permet de s’assurer que le nom du portfolio et de ses programmes ne peuvent plus être attribués à des projets lors de la création d’un projet.
+* La désactivation d’un portfolio garantit que son nom et ses programmes ne peuvent plus être attribués aux projets lors de la création d’un projet.
 
 ## Désactiver un portfolio
 
-Lorsque vous désactivez un portfolio, vous pouvez toujours y accéder à partir de la zone [!UICONTROL Portfolios], mais il n’apparaît plus dans la liste des portfolios lorsque des utilisateurs ou utilisatrices tentent de l’ajouter à un projet.
+Lorsque vous désactivez un portfolio, vous pouvez toujours y accéder à partir de la zone [!UICONTROL Portfolios], mais il ne s’affiche plus dans la liste des portfolios lorsque les utilisateurs et utilisatrices tentent de l’ajouter à un projet.
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Lorsque vous désactivez un portfolio, vous pouvez toujours y accéder à partir
 
 1. Cliquez sur **[!UICONTROL Portfolios]**.
 1. Cliquez sur le nom du portfolio.
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom du portfolio, puis cliquez sur **[!UICONTROL Désactiver le portefeuille]**.
+1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom du portfolio, puis sur **[!UICONTROL Désactiver le portfolio]**.
 
 ## Supprimer un portfolio
 

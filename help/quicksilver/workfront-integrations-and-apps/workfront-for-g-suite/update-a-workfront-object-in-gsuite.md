@@ -1,6 +1,6 @@
 ---
 product-area: workfront-integrations;projects
-keywords: google,doc,document,sheet,diapositive
+keywords: google,doc,document,feuille,diapositive
 navigation-topic: workfront-for-g-suite
 title: Mettre à jour un objet  [!DNL Adobe Workfront]  à partir de Google Workspace
 description: Sans quitter Google Workspace, vous pouvez publier une nouvelle mise à jour ou une réponse à une mise à jour existante sur un objet  [!DNL Adobe Workfront] .
@@ -10,29 +10,29 @@ exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
 source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 15%
+ht-degree: 83%
 
 ---
 
-# Mettre à jour un objet [!DNL Adobe Workfront] à partir de [!DNL Google Workspace]
+# Mettre à jour un objet [!DNL Adobe Workfront] depuis [!DNL Google Workspace]
 
 >[!NOTE]
 >
->La dernière version du module externe Adobe Workfront pour Google a été publiée le 26 juin 2023.
+>La dernière version en date du plug-in Adobe Workfront pour Google a été publiée le 26 juin 2023.
 
 Sans quitter [!DNL Google Workspace], vous pouvez publier une nouvelle mise à jour ou une réponse à une mise à jour existante sur un objet [!DNL Adobe Workfront].
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
@@ -44,10 +44,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Conditions préalables
 
-Avant de pouvoir mettre à jour un objet [!DNL Workfront] dans [!DNL Google Workspace], vous devez :
+Avant de pouvoir mettre à jour un objet [!DNL Workfront] dans [!DNL Google Workspace], vous devez effectuer ce qui suit :
 
-* Installer [!DNL Workfront for Google Workspace]\
-   Pour obtenir des instructions, voir [Installation [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Installez [!DNL Workfront for Google Workspace].\
+   Pour plus d’informations, voir [Installer  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
 ## Mettre à jour un objet [!DNL Workfront] dans [!DNL Google Workspace]
 
@@ -62,11 +62,11 @@ Avant de pouvoir mettre à jour un objet [!DNL Workfront] dans [!DNL Google Work
 
    Si vous cliquez sur **[!UICONTROL Répondre]**, vous pouvez cliquer sur **[!UICONTROL Afficher toutes les mises à jour]** pour revenir à l’onglet **[!UICONTROL Mises à jour]**.
 
-1. (Facultatif) Pour baliser des utilisateurs ou des équipes :
+1. (Facultatif) Pour baliser des personnes ou des équipes, procédez comme suit :
 
    1. Cliquez sur **[!UICONTROL Notifier]**.
-   1. Cliquez sur **[!UICONTROL Rechercher un utilisateur ou une équipe]**, saisissez le nom de l’utilisateur ou de l’équipe, puis cliquez sur le nom qui s’affiche dans la liste ci-dessous.
+   1. Cliquez sur **[!UICONTROL Rechercher une personne ou une équipe]**, saisissez le nom de la personne ou de l’équipe, puis cliquez sur le nom qui s’affiche dans la liste ci-dessous.
    1. Cliquer sur **[!UICONTROL Enregistrer]**.
-   1. Répétez ces trois étapes pour les autres utilisateurs ou équipes que vous souhaitez avertir.
+   1. Répétez ces trois étapes pour les autres personnes ou équipes que vous souhaitez notifier.
 
-1. Cliquez sur **[!UICONTROL Post]**.
+1. Cliquez sur **[!UICONTROL Publier]**.

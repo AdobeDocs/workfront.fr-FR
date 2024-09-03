@@ -2,33 +2,33 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: Réessayer la gestion des erreurs dans [!DNL Adobe Workfront Fusion]
-description: Dans certains cas, il est utile de réexécuter un module en échec plusieurs fois s’il est possible que la raison de l’échec puisse s’interrompre au fil du temps.
+title: Gestion des erreurs de reprise dans  [!DNL Adobe Workfront Fusion]
+description: Dans certains cas, il est utile de réexécuter un module en échec plusieurs fois s’il est possible que cette situation d’échec passe avec le temps.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
 source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
-# Réessayer la gestion des erreurs dans [!DNL Adobe Workfront Fusion]
+# Gestion des erreurs de reprise dans [!DNL Adobe Workfront Fusion]
 
-Dans certains cas, il est utile de réexécuter un module en échec s’il est possible que la raison de l’échec soit dépassée au fil du temps.
+Dans certains cas, il est utile de réexécuter un module en échec s’il est possible que cette situation d’échec passe avec le temps.
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>[!DNL Pro] ou supérieur</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td> <p>[!DNL Pro] ou une version ultérieure</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
@@ -37,79 +37,79 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
+   <p>Exigence de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
 
-Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Solutions à la directive de gestion des erreurs [!UICONTROL Retry]
+## Solutions de contournement à la directive de gestion des erreurs de [!UICONTROL reprise]
 
-[!UICONTROL Adobe Workfront Fusion] n’offre actuellement pas la directive de gestion des erreurs [!UICONTROL Retry], bien que deux solutions puissent être utilisées pour imiter ses fonctionnalités. Pour plus d’informations, voir [Directives pour la gestion des erreurs dans Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md).
+[!UICONTROL Adobe Workfront Fusion] ne propose actuellement pas de directive de gestion des erreurs de [!UICONTROL reprise] ; cependant, deux solutions peuvent être utilisées pour imiter sa fonctionnalité. Pour plus d’informations, voir [Directives de gestion des erreurs dans Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md).
 
-### Utilisation de la directive [!UICONTROL Break]
+### Utiliser la directive [!UICONTROL Interrompre]
 
-1. Dans le panneau des paramètres du scénario, activez l’option **[!UICONTROL Autoriser le stockage des exécutions incomplètes]** .
+1. Dans le panneau des paramètres du scénario, activez l’option **[!UICONTROL Autoriser le stockage des exécutions incomplètes]**.
 
-   Pour plus d’informations, voir [Panneau des paramètres de scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+   Pour plus d’informations, voir [Panneau des paramètres du scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
-1. Joignez un itinéraire de gestionnaire d’erreurs au module, comme décrit dans [Gestion des erreurs dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md).
-1. Liez la directive [!UICONTROL Break] à l’itinéraire du gestionnaire d’erreurs et configurez-la.
+1. Associez un itinéraire de gestionnaire d’erreur au module, tel que décrit dans [Gestion des erreurs dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md).
+1. Liez la directive [!UICONTROL Interrompre] à l’itinéraire du gestionnaire d’erreur et configurez-la.
 
-   Pour plus d’informations, voir [Directives pour la gestion des erreurs dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
+   Pour plus d’informations, voir [Directives de gestion des erreurs dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
 
    ![](assets/break-directive-350x241.png)
 
 #### Inconvénients
 
 * L’intervalle de reprise minimal est d’une minute.
-* Si le module traite plusieurs lots et que le traitement d’un lot échoue, l’exécution partielle (seul le lot qui a provoqué l’erreur) est déplacée vers le dossier des exécutions incomplètes et planifiée pour les reprises conformément aux paramètres de la directive [!UICONTROL Break]. Cependant, l’exécution actuelle se poursuit et le module continue à traiter les lots suivants. Vous pouvez activer l’option &quot;[!UICONTROL Traitement séquentiel]&quot; dans les [!UICONTROL paramètres du scénario] pour empêcher le scénario de s’exécuter à nouveau jusqu’à ce que l’exécution stockée dans le dossier Exécutions incomplètes ait été résolue.
+* Si le module traite plusieurs lots et que le traitement d’un lot échoue, l’exécution partielle (uniquement le lot à l’origine de l’erreur) est déplacée vers le dossier des exécutions incomplètes et planifiée pour les reprises, conformément aux paramètres de la directive [!UICONTROL Interrompre]. Cependant, l’exécution en cours se poursuit et le module continue à traiter les lots suivants. Vous pouvez activer l’option « [!UICONTROL Traitement séquentiel] » dans les [!UICONTROL Paramètres du scénario] pour empêcher le scénario de s’exécuter à nouveau jusqu’à ce que l’exécution stockée dans le dossier Exécutions incomplètes ait été résolue.
 
-  Pour plus d’informations sur les exécutions incomplètes, voir [Affichage et résolution des exécutions incomplètes dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+  Pour plus d’informations sur les exécutions incomplètes, voir [Afficher et résoudre des exécutions incomplètes dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
-### Utilisation du module [!UICONTROL Répéteur]
+### Utiliser le module [!UICONTROL Répéteur]
 
-1. Appliquez le module **[!UICONTROL Répéteur]** et définissez son champ **[!UICONTROL Répéter]** sur le nombre maximal de tentatives.
-1. Liez le module potentiellement défaillant au module **[!UICONTROL Répéteur]** .
-1. Joignez un itinéraire de gestionnaire d’erreurs à ce module (voir [Gestion des erreurs dans [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md)).
-1. Reliez le module **[!UICONTROL Outils] > [!UICONTROL Dormir]** à l’itinéraire du gestionnaire d’erreurs et définissez son champ **[!UICONTROL Délai]** sur le nombre de secondes entre les tentatives.
+1. Utilisez le module **[!UICONTROL Répéteur]** et définissez son champ **[!UICONTROL Se répète]** sur le nombre maximal de tentatives.
+1. Liez le module potentiellement défaillant au module **[!UICONTROL Répéteur]**.
+1. Associez un itinéraire de gestionnaire d’erreur à ce module (voir [Gestion des erreurs dans  [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md)).
+1. Liez le module **[!UICONTROL Outils] > [!UICONTROL Veille]** sur l’itinéraire du gestionnaire d’erreur et définissez son champ **[!UICONTROL Délai]** sur le nombre de secondes entre les tentatives.
 
-1. Liez la directive **[!UICONTROL Ignorer]** après le module **[!UICONTROL Outils] > [!UICONTROL Dormir]** (voir [Directives pour la gestion des erreurs dans Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md)).
+1. Liez la directive **[!UICONTROL Ignorer]** après le module **[!UICONTROL Outils] > [!UICONTROL Veille]** (voir [Directives de gestion des erreurs dans Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md)).
 
-1. Liez le module **[!UICONTROL Tools] > [!UICONTROL Set variable]** (Définir la variable) après le module potentiellement défaillant et configurez-le pour stocker le résultat du module dans une variable nommée, par exemple, `Result`.
+1. Liez le module **[!UICONTROL Outils] > [!UICONTROL Définir la variable]** après le module potentiellement défaillant et configurez-le pour stocker le résultat du module dans une variable nommée, par exemple : `Result`.
 
-1. Liez le module **[!UICONTROL Agrégateur de tableau]** après le module **[!UICONTROL Outils] > [!UICONTROL Définir la variable]** et sélectionnez le module **[!DNL Repeater]** dans son champ Module Source.
+1. Liez le module **[!UICONTROL Agrégateur de tableau]** après **[!UICONTROL Outils] > [!UICONTROL Définir la variable]** et sélectionnez le module **[!DNL Repeater]** dans son champ Module source.
 
-1. Reliez le module **[!UICONTROL Tools] > [!UICONTROL Get variable]** au module **[!UICONTROL Array aggator]** et configurez-le pour obtenir la valeur de la variable `Result`.
+1. Liez le module **[!UICONTROL Outils] > [!UICONTROL Obtenir une variable]** au module **[!UICONTROL Agrégateur de tableau]** et configurez-le pour obtenir la valeur de la variable `Result`.
 
-1. Insérez le module **[!UICONTROL Tools] > [!UICONTROL Get variable]** entre le module **[!UICONTROL Répéteur]** et le module potentiellement défaillant et configurez-le pour obtenir la valeur de la variable `Result`.
+1. Insérez le module **[!UICONTROL Outils] > [!UICONTROL Obtenir une variable]** entre le module **[!UICONTROL Répéteur]** et le module potentiellement défaillant et configurez-le pour obtenir la valeur de la variable `Result`.
 
-1. Insérez un filtre entre ce module **[!UICONTROL Outils] > [!UICONTROL Obtenir la variable]** et le module potentiellement défaillant à continuer uniquement si la variable `Result` n&#39;existe pas.
+1. Insérez un filtre entre le module **[!UICONTROL Outils] > [!UICONTROL Obtenir une variable]** et le module potentiellement défaillant pour ne continuer que si la variable `Result` n’existe pas.
 
 >[!INFO]
 >
->**Exemple :** Voici un exemple de scénario où le module [!UICONTROL HTTP] >[!UICONTROL Make a request] représente le module potentiellement défaillant :
+>**Exemple :** voici un exemple de scénario où le module [!UICONTROL HTTP] >[!UICONTROL Effectuer une requête] représente le module potentiellement défaillant :
 >
 >![](assets/http-make-request-350x116.png)
 >
->Si le résultat du module potentiellement défaillant est trop complexe pour être stocké dans une variable simple, vous pouvez utiliser une banque de données pour stocker/récupérer le résultat. L’entrepôt de données ne contiendrait qu’un seul enregistrement. La clé de l’enregistrement peut être, par exemple, `Result`.
+>Si le résultat du module potentiellement défaillant est trop complexe pour être stocké dans une variable simple, vous pouvez utiliser un magasin de données pour stocker/récupérer le résultat. Le magasin de données ne contiendrait qu’un seul enregistrement. La clé de l’enregistrement peut être, par exemple, `Result`.
 >
->Pour plus d’informations sur les entrepôts de données, voir [Stockages de données dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+>Pour plus d’informations sur les magasins de données, voir [Magasins de données dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
-#### Bouton arrière
+#### Inconvénient
 
-Cette solution peut sembler un peu trop complexe et plus exigeante en termes d&#39;opérations.
+Cette solution peut sembler trop complexe et est également plus exigeante en termes d’opérations.

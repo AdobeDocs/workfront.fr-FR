@@ -2,32 +2,32 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
 title: Ajouter un e-mail Outlook en tant que tâche à votre liste de travail
-description: Vous pouvez convertir des  [!DNL Outlook] emails en  [!DNL Adobe Workfront]  tâches. Une fois qu’un email a été converti, la tâche est disponible dans votre liste de tâches de la zone Accueil.
+description: Vous pouvez convertir les e-mails  [!DNL Outlook]  en tâches  [!DNL Adobe Workfront] . Une fois qu’un e-mail a été converti, la tâche est disponible dans votre liste de travaux de la zone Accueil.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
 source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
-# Ajouter un email [!DNL Outlook] en tant que tâche à votre liste de travail
+# Ajouter un e-mail [!DNL Outlook] en tant que tâche à votre liste de travaux
 
-Vous pouvez convertir des emails [!DNL Outlook] en tâches [!DNL Adobe Workfront]. Une fois qu’un email a été converti, la tâche est disponible dans votre liste [!UICONTROL Work] de la zone [!UICONTROL Home].
+Vous pouvez convertir les e-mails [!DNL Outlook] en tâches [!DNL Adobe Workfront]. Une fois qu’un e-mail a été converti, la tâche est disponible dans votre liste de [!UICONTROL travaux] dans la zone [!UICONTROL Accueil].
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
@@ -40,30 +40,30 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Conditions préalables
 
-Votre administrateur [!DNL Workfront] doit activer [!DNL Outlook for Office] avec [!DNL Workfront] avant de pouvoir utiliser cette intégration.
+Votre administrateur ou administratrice [!DNL Workfront] doit activer [!DNL Outlook for Office] avec [!DNL Workfront] avant de pouvoir utiliser cette intégration.
 
-## Ajouter un email [!DNL Outlook] en tant que tâche à votre liste de travail
+## Ajouter un e-mail [!DNL Outlook] tant que tâche à votre liste de travaux
 
-1. Sélectionnez l’email dans [!DNL Outlook] que vous souhaitez convertir en tâche.
-1. Cliquez sur l’icône **[!DNL Workfront]** dans le coin supérieur droit du courrier électronique pour afficher le module complémentaire [!DNL Workfront].\
-   Vous devrez peut-être cliquer sur la flèche pointant vers le bas en haut à droite de votre email pour accéder à l’icône [!DNL Workfront].
+1. Sélectionnez l’e-mail dans [!DNL Outlook] que vous souhaitez convertir en tâche.
+1. Cliquez sur l’icône **[!DNL Workfront]** dans le coin supérieur droit de l’e-mail pour afficher le module complémentaire [!DNL Workfront].\
+   Vous devrez peut-être cliquer sur la flèche pointant vers le bas dans le coin supérieur droit de votre e-mail pour accéder à l’icône [!DNL Workfront].
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Menu]** ![ o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) pour afficher la liste des options [!DNL Workfront] disponibles.\
+1. Cliquez sur l’icône **[!UICONTROL Menu]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) pour afficher la liste des options [!DNL Workfront] disponibles.\
 
 
 1. Cliquez sur **[!UICONTROL Ajouter au travail]**.\
 
-1. Désélectionnez le champ **[!UICONTROL Ajouter au projet]** .
-1. (Facultatif) Vous pouvez mettre à jour les informations suivantes du courrier électronique avant de les enregistrer en tant que tâche :
+1. Désélectionnez le champ **[!UICONTROL Ajouter au projet]**.
+1. (Facultatif) Vous pouvez mettre à jour les informations suivantes de l’e-mail avant de l’enregistrer en tant que tâche :
 
-   * **[!UICONTROL Nom de la tâche] :** Par défaut, le nom de la tâche est identique à celui de l’objet de l’email. Vous pouvez modifier le nom de la tâche selon vos besoins.
-   * **[!UICONTROL Description] :** Par défaut, la description est identique à celle du corps de l’email. Vous pouvez modifier la description selon vos besoins.
-   * **[!UICONTROL Pièces jointes] :** Toutes les pièces jointes d’un courrier électronique sont enregistrées dans la zone [!UICONTROL Documents] de la tâche. Vous pouvez supprimer toutes les pièces jointes avant d’enregistrer l’email comme tâche.
+   * **[!UICONTROL Nom de la tâche] :** par défaut, le nom de la tâche est identique à celui de l’objet de l’e-mail. Vous pouvez modifier le nom de la tâche selon vos besoins.
+   * **[!UICONTROL Description] :** par défaut, la description est identique à celle du corps de l’e-mail. Vous pouvez modifier la description selon vos besoins.
+   * **[!UICONTROL Pièces jointes] :** toutes les pièces jointes aux e-mails sont enregistrées dans la zone [!UICONTROL Documents] de la tâche. Vous pouvez supprimer toutes les pièces jointes avant d’enregistrer l’e-mail comme tâche.
 
 1. Cliquez sur **[!UICONTROL Ajouter]**.\
-   La tâche est ajoutée à la [!UICONTROL liste de travail] dans votre zone d’accueil sans date de validation.
+   La tâche est ajoutée à la [!UICONTROL Liste de travaux] dans votre zone Accueil sans date d’engagement.
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Afficher dans Workfront]** pour afficher la tâche dans l’application [!DNL Workfront] dans un nouvel onglet.
 
-1. (Facultatif) Revenez à [!DNL Outlook] et sélectionnez l’email d’origine.\
-   Dans la partie supérieure du panneau du module complémentaire [!DNL Workfront], remarquez la confirmation avec un lien que le courrier électronique a été ajouté à Workfront en tant que tâche. Le lien comprend la date à laquelle il a été converti.\
+1. (Facultatif) Revenez à [!DNL Outlook], puis sélectionnez l’e-mail d’origine.\
+   En haut du panneau du module complémentaire [!DNL Workfront], remarquez la confirmation avec un lien qui indique que l’e-mail a été ajouté à Workfront en tant que tâche. Le lien comprend la date à laquelle il a été converti.\

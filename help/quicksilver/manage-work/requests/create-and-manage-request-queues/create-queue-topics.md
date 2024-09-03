@@ -2,7 +2,7 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Créer des rubriques de file d’attente
-description: Les rubriques de file d’attente fonctionnent conjointement avec les règles de routage pour affecter automatiquement le travail entrant à une personne, une fonction, une équipe ou pour le placer sur un projet. Les rubriques de file d’attente définissent les conditions nécessaires à la mise en œuvre de la règle de routage.
+description: Les rubriques de file d’attente fonctionnent conjointement avec les règles de transmission pour affecter automatiquement le travail entrant à une personne, une fonction, une équipe ou pour le placer sur un projet. Les rubriques de la file d’attente définissent les conditions nécessaires à la mise en œuvre de la règle de transmission.
 author: Lisa
 feature: Work Management, Requests
 role: User, Admin
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 <!-- Audited: 12/2023 -->
 
-Les rubriques de file d’attente fonctionnent conjointement avec les règles de routage pour affecter automatiquement le travail entrant à une personne, une fonction, une équipe ou pour le placer sur un projet. Les rubriques de file d’attente définissent les conditions nécessaires à la mise en œuvre de la règle de routage.
+Les rubriques de file d’attente fonctionnent conjointement avec les règles de transmission pour affecter automatiquement le travail entrant à une personne, une fonction, une équipe ou pour le placer sur un projet. Les rubriques de la file d’attente définissent les conditions nécessaires à la mise en œuvre de la règle de transmission.
 
 Le nombre de rubriques de file d’attente pouvant être affectées à un groupe de rubriques ou à un projet n’est pas limité. Les rubriques de file d’attente sont un type d’objet sur lequel un rapport peut être créé.
 
@@ -54,26 +54,26 @@ Le nombre de rubriques de file d’attente pouvant être affectées à un groupe
 </table>
 -->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle </p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-    <p>Nouvelle : standard</p>
+    <p>Nouveau : Standard</p>
     <p>ou</p>
-    <p>Actuelle : formule</p></td>  
+    <p>Actuel : formule</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Modifier l’accès aux projets</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -82,18 +82,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Créer une rubrique de file d’attente
 
-1. Créez une règle de routage, un groupe de rubriques et un formulaire personnalisé, si vous prévoyez de les associer à votre rubrique de file d’attente.\
-   Pour plus d’informations sur la création de règles de routage, de groupes de rubriques ou de formulaires personnalisés, reportez-vous aux articles suivants :
+1. Créez une règle de transmission, un groupe de rubriques et un formulaire personnalisé, si vous prévoyez de les associer à votre rubrique de file d’attente.\
+   Pour plus d’informations sur la création de règles de transmission, de groupes de rubriques ou de formulaires personnalisés, reportez-vous aux articles suivants :
 
-   * [Créer des règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+   * [Créer des règles de transmission](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [Créer des groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Concevoir un formulaire avec le créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. Accédez au projet que vous avez choisi d’activer en tant que file d’attente des demandes d’aide et où vous souhaitez créer une rubrique de file d’attente.\
    Pour plus d’informations sur la désignation d’un projet comme file d’attente des demandes d’aide, voir [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -102,11 +102,11 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
    Ou
 
-   Vous pouvez imbriquer les rubriques de file d’attente directement sous le projet désigné comme une file d’attente des demandes d’aide, sans groupe de rubriques.
+   Vous pouvez imbriquer les rubriques de la file d’attente directement sous le projet désigné comme une file d’attente des demandes d’aide, sans groupe de rubriques.
 
    Pour plus d’informations sur la création de groupes de rubriques, voir [Créer des groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Cliquez sur **Rubriques de file d’attente** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Rubriques de file d’attente**.
+1. Cliquez sur **Rubriques de file d’attente** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis **Rubriques de file d’attente**.
 1. Cliquez sur **Nouvelle rubrique de file d’attente**.
 1. Sur le formulaire **Nouvelle rubrique de file d’attente**, saisissez le texte suivant :
 
@@ -120,7 +120,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Description</strong> </td> 
-      <td>Décrivez la file d’attente des demandes. La description s’affiche lorsque les personnes sélectionnent la rubrique de file d’attente dans le processus d’envoi d’une nouvelle demande. </td> 
+      <td>Décrivez la file d’attente des demandes. La description s’affiche lorsque les personnes sélectionnent la rubrique de la file d’attente dans le processus d’envoi d’une nouvelle demande. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Ajouter au groupe de rubriques</strong> </td> 
@@ -132,13 +132,13 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Approbation par défaut</strong></td> 
-      <td> <p>Associez un processus d’approbation à cette rubrique de file d’attente. Seuls les processus d’approbation des problèmes sont visibles dans ce menu déroulant. Tous les problèmes envoyés à cette file d’attente seront associés à ce processus d’approbation. Votre administrateur ou administratrice Adobe Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer aux rubriques de file d’attente. <span>Une personne disposant d’un accès administratif aux processus d’approbation peut également créer des processus d’approbation spécifiques à un groupe.</span>Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les éléments de travail</a>.<br></p> 
+      <td> <p>Associez un processus d’approbation à cette rubrique de file d’attente. Seuls les processus d’approbation des problèmes sont visibles dans ce menu déroulant. Tous les problèmes envoyés à cette file d’attente seront associés à ce processus d’approbation. Votre administrateur ou administratrice Adobe Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer aux rubriques de file d’attente. <span>Une personne disposant d’un accès administratif aux processus d’approbation peut également créer des processus d’approbation spécifiques à un groupe.</span>Pour plus d’informations sur la création de processus d’approbation, voir la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les éléments de travail</a>.<br></p> 
        <div> 
-        <p>Important : si le groupe du projet change, le processus d’approbation spécifique au groupe, associé aux problèmes existants, devient un processus d’approbation à usage unique. Pour plus d’informations sur la manière dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications apportées aux groupes et aux processus d’approbation affectent les processus d’approbation attribués</a>.</p> 
+        <p>Important : si le groupe du projet change, le processus d’approbation spécifique au groupe, associé aux problèmes existants, devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Effets des modifications du processus d’approbation et de groupe sur les processus d’approbation affectés</a>.</p> 
         <p>Tenez compte des points suivants lors de l’ajout de processus d’approbation aux rubriques de file d’attente : </p> 
         <ul style="list-style-type: circle;"> 
          <li>Seuls les processus d’approbation actifs sont affichés dans la liste. </li> 
-         <li> <p>Les processus d’approbation à l’échelle du système et du groupe s’affichent dans la liste. Un processus d’approbation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste.</p> </li> 
+         <li> <p>Les processus d’approbation à l’échelle du système et spécifiques au groupe s’affichent dans la liste. Un processus d’approbation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -148,21 +148,21 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Route par défaut</strong> </td> 
-      <td>Indiquez la règle de routage que vous souhaitez associer à la rubrique de file d’attente. Vous devez créer la règle de routage avant de pouvoir la joindre à une rubrique de file d’attente. Pour plus d’informations, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Créer des règles de routage</a>. </td> 
+      <td>Indiquez la règle de transmission que vous souhaitez associer à la rubrique de file d’attente. Vous devez créer la règle de transmission avant de pouvoir la joindre à une rubrique de file d’attente. Pour plus d’informations, voir la section <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Créer des règles de transmission</a>. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Types de demandes</strong> </td> 
-      <td> <p>Sélectionnez le type des demandes conservées dans cette rubrique de file d’attente. Les options visibles sont définies dans l’onglet <strong>Détails de la file d’attente</strong> du projet. Il s’agit d’un champ obligatoire. </p>
+      <td> <p>Sélectionnez le type des demandes conservées dans cette rubrique de file d’attente. Les options visibles sont définies dans l’onglet <strong>Détails de la file d’attente</strong> du projet. Champ obligatoire. </p>
 
    <p><b>NOTE</b> :
 
-   Les types s’affichent sous forme de sélection dans la zone Demandes uniquement si le type de demande est sélectionné dans les pages Détails de la file d’attente et Rubrique de file d’attente. Pour plus d’informations sur la configuration de la zone Détails de la file d’attente d’un projet, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente des demandes</a>. </p> <p>Choisissez parmi les types suivants :</p>
+   Les types s’affichent sous forme de sélection dans la zone Demandes uniquement si le type de demande est sélectionné dans les pages Détails de la file d’attente et Rubrique de file d’attente. Pour plus d’informations sur la configuration de la zone Détails de la file d’attente d’un projet, voir la section <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente de demandes</a>. </p> <p>Choisissez parmi les types suivants :</p>
    <ul>
    <li>Rapport sur les bogues</li>
-   <li>Modifier l’ordre</li>
+   <li>Modifier l&#39;ordre</li>
    <li>Problème</li>
    <li>Demande</li>
-   </ul> <p>Votre administrateur ou administratrice Workfront a peut-être renommé certaines de ces options. </p> </td>
+   </ul> <p>Votre équipe d’administration Workfront a peut-être renommé certaines de ces options. </p> </td>
    </tr> 
     </tbody> 
    </table>

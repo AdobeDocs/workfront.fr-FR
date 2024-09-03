@@ -2,46 +2,46 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Présentation de la contrainte de tâche : dates fixes"
-description: Vous pouvez utiliser la contrainte de tâche Dates fixes lorsque vous souhaitez être précis quant à la date exacte de début et de fin de vos tâches. Pour plus d’informations sur les contraintes de tâche, voir Présentation de la contrainte de tâche .
+title: '« Vue d’ensemble de la contrainte de tâche : dates fixes »'
+description: Vous pouvez utiliser la contrainte de tâche de dates fixes lorsque vous souhaitez de la précision quant à la date de début et à la date de fin exactes de vos tâches. Pour plus d’informations sur les contraintes de tâche, voir vue d’ensemble de la contrainte de tâche.
 author: Alina
 feature: Work Management
 exl-id: 084f54a6-e757-405c-b388-5d5f61608e71
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Vue d’ensemble des contraintes de tâches : dates fixes
+# Vue d’ensemble de la contrainte de tâche : dates fixes
 
-Vous pouvez utiliser la contrainte de tâche Dates fixes lorsque vous souhaitez être précis quant à la date exacte de début et de fin de vos tâches. Pour plus d’informations sur les contraintes de tâche, voir [Vue d’ensemble de la contrainte de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+Vous pouvez utiliser la contrainte de tâche de dates fixes lorsque vous souhaitez de la précision quant à la date de début et à la date de fin exactes de vos tâches. Pour plus d’informations sur les contraintes de tâche, voir [Vue d’ensemble de la contrainte de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
-## Présentation de la contrainte Dates fixes
+## Vue d’ensemble de la contrainte de dates fixes
 
-Tenez compte des points suivants lors de l’utilisation de la contrainte Dates fixes :
+Tenez compte des points suivants lors de l’utilisation de la contrainte de dates fixes :
 
-* Lorsque vous sélectionnez la contrainte de tâche Dates fixes (FIXT), vous devez spécifier la Date de début planifiée et la Date de fin planifiée de la tâche. Dans ce cas, la relation précédente de la tâche est ignorée.
-* Le champ Durée de la tâche n’est pas modifiable lors de l’utilisation de la contrainte FIXT. La durée est calculée comme la différence entre les dates de début planifié et de fin planifiée de la tâche.
-* Si le Type de durée de la tâche est piloté par l’effort, le nombre de personnes désignées sur la tâche affecte également la Durée de la tâche.
-* Lorsque vous déplacez ou copiez une tâche avec une contrainte FIXT vers un autre projet, la contrainte de la tâche ou des dates du projet peut changer en fonction des dates de contrainte et des dates de début et de fin du projet. Les scénarios suivants sont possibles :
+* Lorsque vous sélectionnez la contrainte de tâche Dates fixes (FIXT), vous devez préciser la Date de début prévue et la Date d’achèvement prévue de la tâche. Dans ce cas, la relation antérieure de la tâche est ignorée.
+* Le champ Durée de la tâche n’est pas modifiable lors de l’utilisation de la contrainte FIXT. La durée est calculée comme la différence entre les dates de début et d’achèvement prévues de la tâche.
+* Si le Type de durée de la tâche est piloté par l’effort, le nombre de personnes affectées à la tâche a également un impact la Durée de la tâche.
+* Lorsque vous déplacez ou copiez une tâche avec une contrainte FIXT vers un autre projet, la contrainte de la tâche ou les dates du projet peuvent changer en fonction des dates de contrainte et des dates de début et d’achèvement du projet. Les scénarios suivants sont possibles :
 
-   * Lorsque le projet de destination est planifié à partir du début :
+   * Lorsque le projet de destination est planifié à partir du début :
 
-      * Lorsque les dates de contrainte de la tâche sont antérieures à la date de début du projet, la contrainte de tâche passe à Dès que possible.
-      * Si l’une des dates de contrainte de la tâche ou les deux sont postérieures à la date d’achèvement prévu du projet, la date d’achèvement prévu du projet change pour correspondre à la date de contrainte d’achèvement de la tâche.
+      * Lorsque les dates de contrainte de tâche sont antérieures à la date de début du projet, la contrainte de tâche passe à Aussi Tôt Que Possible.
+      * Si l’une des dates de contrainte de tâche ou les deux sont postérieures à la date d’achèvement prévue du projet, la date d’achèvement prévue du projet change pour correspondre à la date de contrainte d’achèvement de la tâche.
 
-   * Lorsque le projet de destination est planifié à partir de la fin :
+   * Lorsque le projet de destination est planifié à partir de l’achèvement :
 
-      * Lorsque les dates de contrainte de la tâche sont postérieures à la date d’achèvement du projet, la contrainte de tâche devient Aussi tardive que possible.
-      * Lorsque les dates de contrainte de la tâche sont antérieures à la date de début planifiée du projet, la date de début planifiée du projet change pour correspondre à la date de contrainte de début de la tâche.
+      * Lorsque les dates de contrainte de la tâche sont postérieures à la date d’achèvement du projet, la contrainte de tâche devient Aussi Tard Que possible.
+      * Lorsque les dates de contrainte de tâche sont antérieures à la date de début prévue du projet, la date de début prévue du projet change pour correspondre à la date de contrainte de début de la tâche.
 
-   * Quelle que soit la planification du projet, lorsque les dates de contrainte de la tâche se trouvent dans les dates de début et de fin du projet, aucune modification n’est apportée à la contrainte de tâche ou aux dates du projet.
+   * Quelle que soit le planning du projet, lorsque les dates de contrainte de la tâche sont comprises entre les dates de début et d’achèvement du projet, aucune modification n’est apportée à la contrainte de tâche ou aux dates du projet.
 
-  Pour plus d’informations sur le déplacement des tâches, voir [Déplacer les tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md). Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md). Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mise à jour de la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mettre à jour la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

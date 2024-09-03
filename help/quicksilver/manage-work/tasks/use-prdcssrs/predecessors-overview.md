@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
 title: Vue d’ensemble des tâches antérieures
-description: Un prédécesseur est la tâche dont dépend une autre tâche (appelée successeur ou tâche dépendante). Adobe Workfront prend en charge cinq types de dépendances de prédécesseur.
+description: Une tâche antérieure est celle dont dépend une autre tâche (appelée tâche ultérieure ou dépendante). Adobe Workfront prend en charge cinq types de dépendance de tâches antérieures.
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
 source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
@@ -22,121 +22,121 @@ ht-degree: 3%
 
 CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! -->
 
-Un prédécesseur est la tâche dont dépend une autre tâche (appelée successeur ou tâche dépendante). Adobe Workfront prend en charge cinq types de dépendances de prédécesseur. Pour comprendre les dépendances de prédécesseur, voir [Présentation des types de dépendances de tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+Une tâche antérieure est celle dont dépend une autre tâche (appelée tâche ultérieure ou dépendante). Adobe Workfront prend en charge cinq types de dépendance de tâches antérieures. Pour comprendre les dépendances de tâche antérieure, voir [Vue d’ensemble des types de dépendance de tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-## Présentation des prédécesseurs
+## Vue d‘ensemble des tâches antérieures
 
-Il est important de bien comprendre les fonctionnalités de prédécesseur pour connaître les calendriers de vos projets.
+Il est important de bien comprendre les fonctionnalités des tâches antérieures pour comprendre la chronologie de vos projets.
 
-Les relations de prédécesseur de tâche existent à la fois entre les tâches d’un seul projet et entre les tâches de différents projets.
+Les relations avec les tâches antérieures existent à la fois entre les tâches d’un seul projet et entre les tâches de différents projets.
 
-Dans le cas d’une dépendance multiprojet, vous pouvez établir des prédécesseurs inter-projets entre les tâches de deux projets différents.
+Dans le cas d’une dépendance multiprojet, vous pouvez établir des tâches antérieures inter-projets entre les tâches de deux projets différents.
 
-Que les tâches précédentes et successeurs appartiennent au même projet ou à deux projets différents, les dépendances et les calendriers de chaque projet sont calculés de la même manière.
+Que les tâches antérieures et ultérieures appartiennent au même projet ou à deux projets différents, les dépendances et la chronologie de chaque projet sont calculées de la même manière.
 
-En ce qui concerne les prédécesseurs, la chronologie du projet est affectée par les éléments suivants :
+En ce qui concerne les tâches antérieures, la chronologie du projet est affectée par les éléments suivants :
 
-* Dépendance du prédécesseur
-* Valeur de balise et type\
-  Pour plus d&#39;informations sur les dépendances et les décalages, voir [Exemples de valeurs de prédécesseur dans une liste de tâches](#examples-of-predecessor-values-in-a-task-list).
+* Dépendance à la tâche antérieure
+* Valeur et type du décalage\
+  Pour plus d’informations sur les dépendances et les décalages, voir [Exemples de valeurs de tâche antérieure dans une liste de tâches](#examples-of-predecessor-values-in-a-task-list).
 
-  Par exemple, si la tâche A est un prédécesseur de la tâche B dans une relation de finalisation et de démarrage, et que la tâche B a une contrainte de tâche Dès que possible, Workfront attribue à la tâche B une date de début planifiée immédiatement après la date d’achèvement prévue de la tâche A, que le prédécesseur soit appliqué ou non.
+  Par exemple, si la tâche A est antérieure à la tâche B dans une relation de finalisation et de démarrage, et que la tâche B a une contrainte de tâche Aussi tôt que possible, Workfront attribue à la tâche B une date de début prévue immédiatement après la date d’achèvement prévue de la tâche A, que la tâche antérieure soit appliquée ou non.
 
-Pour comprendre les relations de prédécesseur, vous devez comprendre :
+Pour comprendre les relations d’antériorité, vous devez comprendre :
 
-* **Types de dépendances :** Les prédécesseurs sont liés par différents types de dépendances. Pour plus d’informations sur les types de dépendances, voir [Présentation des types de dépendances de tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+* **Types de dépendance :** les tâches antérieures sont liées par différents types de dépendance. Pour plus d’informations sur les types de dépendance, voir [Vue d’ensemble des types de dépendance des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* **Application d’un prédécesseur :** Lors de l’application d’un prédécesseur, la tâche de succession ne peut absolument pas commencer tant que le prédécesseur n’est pas terminé. La tâche de remplacement s’affiche comme démarrant immédiatement une fois que le prédécesseur est terminé.
+* **Application d’une tâche antérieure :** lors de l’application d’une tâche antérieure, la tâche ultérieure ne peut absolument pas démarrer tant que la tâche antérieure n’est pas terminée. La tâche ultérieure s’affiche comme démarrant immédiatement une fois que la tâche antérieure est terminée.
 
-  Lorsque le prédécesseur n’est pas terminé (ou démarré) et qu’il n’est pas appliqué, la tâche qui lui succède peut commencer, mais la chronologie du projet est toujours affectée par les dates des tâches précédentes et de celles qui lui succèdent.
+  Lorsque la tâche antérieure n’est pas terminée (ou démarrée) et qu’elle n’est pas appliquée, la tâche ultérieure peut démarrer, mais la chronologie du projet est toujours affectée par les dates des tâches antérieure et ultérieure.
 
-  Avec un prédécesseur appliqué, Workfront ne permet pas que la tâche qui lui succède soit marquée comme En cours ou Terminé tant que le prédécesseur n’est pas terminé.
+  Avec une tâche antérieure appliquée, Workfront ne permet pas que la tâche ultérieure soit marquée comme En cours ou Terminée tant que la tâche antérieure n’est pas terminée.
 
   Workfront permet toutefois de générer des rapports sur les heures de la tâche.\
-  Pour plus d’informations sur l’application des prédécesseurs, voir [Application des prédécesseurs](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+  Pour plus d’informations sur l’application des tâches antérieures, voir [Appliquer les tâches antérieures](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
-* **Balises :** Vous pouvez créer des décalages dans vos dépendances, ce qui crée un délai qui doit survenir après l’achèvement d’une tâche de prédécesseur et avant que la tâche qui lui succède puisse commencer. Les décalages ont un impact sur la chronologie du projet.
+* **Décalage :** vous pouvez créer des décalages dans vos dépendances, ce qui crée un retard qui doit survenir après l’achèvement d’une tâche antérieure et avant que la tâche ultérieure puisse commencer. Les décalages ont un impact sur la chronologie du projet.
 
-  Pour comprendre les types de décalages, reportez-vous à la section [Présentation des types de balises](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  Pour comprendre les types de décalage, voir [Vue d’ensemble des types de décalage](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-## Créer des relations de prédécesseur
+## Créer des relations d’antériorité
 
-Pour créer des prédécesseurs, reportez-vous aux articles suivants :
+Pour créer des tâches antérieures, reportez-vous aux articles suivants :
 
-* Pour établir des prédécesseurs à l’aide de l’onglet Prédécesseurs de la tâche, voir [Créer une relation de prédécesseur à l’aide de la zone Prédécesseurs](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
-* Pour établir des prédécesseurs dans une liste de tâches, voir [Création d’une relation de prédécesseur sur la liste de tâches](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
-* Pour établir des relations de prédécesseur en associant des tâches, voir [Créer des relations de prédécesseur en associant des tâches](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
-* Pour établir des prédécesseurs sur plusieurs projets, voir [Création de prédécesseurs sur plusieurs projets](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+* Pour établir des tâches antérieures à l’aide de l’onglet Tâches antérieures de la tâche, voir [Créer une relation d’antériorité à l’aide de la zone Tâches antérieures](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+* Pour établir des tâches antérieures dans une liste de tâches, voir [Créer une relation d’antériorité sur la liste des tâches](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+* Pour établir des relations d’antériorité en chaînant des tâches, voir [Créer des relations d’antériorité en chaînant les tâches](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
+* Pour établir des tâches antérieures inter-projets, voir [Créer des tâches antérieures inter-projets](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
 
-## Localisation des prédécesseurs d’une tâche {#locate-the-predecessors-of-a-task}
+## Localiser les tâches antérieures d’une tâche {#locate-the-predecessors-of-a-task}
 
-Pour trouver les prédécesseurs d&#39;une tâche, effectuez l&#39;une des opérations suivantes :
+Pour trouver les tâches antérieures d’une tâche, effectuez l’une des opérations suivantes :
 
-* Accédez au projet sur lequel vous travaillez et procédez comme suit :
+* Accédez au projet sur lequel vous travaillez et procédez comme suit :
 
-   1. Recherchez la tâche pour laquelle vous souhaitez retrouver les prédécesseurs et cliquez sur la tâche.
-   1. Cliquez sur **Prédécesseurs** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Tâches antérieures**.
-   1. Le nom du projet sur lequel se trouve le prédécesseur s&#39;affiche dans la colonne **Projet**.
+   1. Recherchez la tâche pour laquelle vous souhaitez retrouver les tâches antérieures et cliquez sur la tâche.
+   1. Cliquez sur **Tâches antérieures** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis **Tâches antérieures**.
+   1. Le nom du projet sur lequel se trouve la tâche antérieure s’affiche dans la colonne **Projet**.
 
-      Le nombre de la colonne **#** affiche le numéro de la tâche précédente. Par exemple, &quot;6&quot; signifie la sixième tâche du projet.
+      Le nombre indiqué dans la colonne **#** affiche le numéro de la tâche antérieure. Par exemple, « 6 » signifie la sixième tâche du projet.
 
-      ![Section Prédécesseurs de la tâche](assets/predecessors-area-with-task-header.png)
+      ![Section Tâches antérieures de la tâche](assets/predecessors-area-with-task-header.png)
 
-* Accédez au projet sur lequel vous travaillez et procédez comme suit :
+* Accédez au projet sur lequel vous travaillez et procédez comme suit :
 
-   1. Cliquez sur l’onglet **Tâches** .
-   1. Sélectionnez la **vue standard** en haut de la liste des tâches.
-   1. La colonne **Prédécesseurs** affiche les numéros des tâches du prédécesseur.
+   1. Cliquez sur l’onglet **Tâche**.
+   1. Choisissez la **Vue standard** en haut de la liste des tâches.
+   1. La colonne **Tâches antérieures** affiche les numéros des tâches antérieures.
 
-      Pour un prédécesseur multi-projet, la colonne Prédécesseurs indique le numéro de référence du projet auquel appartient le prédécesseur et le numéro de la tâche, séparés par deux points.
+      Pour une tâche antérieure inter-projet, la colonne Tâches antérieures indique le numéro de référence du projet auquel appartient la tâche antérieure et le numéro de la tâche, séparés par deux points.
 
       L’icône de la tâche antérieure devient verte lorsque la tâche antérieure est marquée comme terminée. Cela indique que la tâche dépendante est prête à être exécutée.
 
-      Passez la souris sur cette valeur pour obtenir plus d’informations sur le prédécesseur, le projet et les dates.
+      Pointez sur cette valeur pour obtenir plus d’informations sur la tâche antérieure, le projet et les dates.
 
-      ![Détails du prédécesseur](assets/predecessor-details-in-task-list.png)
+      ![Détails de la tâche antérieure](assets/predecessor-details-in-task-list.png)
 
-## Exemples de valeurs de prédécesseur dans une liste de tâches {#examples-of-predecessor-values-in-a-task-list}
+## Exemples de valeurs de tâche antérieure dans une liste de tâches {#examples-of-predecessor-values-in-a-task-list}
 
-Lorsque vous affichez les prédécesseurs dans une liste de tâches, vous pouvez voir l’un des types de prédécesseurs suivants avec leurs types de dépendances et leurs quantités de charge respectifs :
+Lorsque vous affichez les tâches antérieures dans une liste de tâches, vous pouvez voir l’un des types de tâches antérieures suivants avec leurs types de dépendances et leurs décalages respectifs :
 
-* **1fs -** Le numéro de tâche du prédécesseur est 1. Le type de dépendance est Finish-Start. Dans la chronologie du projet, cette tâche doit commencer immédiatement une fois la tâche 1 terminée. Malgré cela, il peut toujours être marqué comme En cours ou Terminé.
-* **1 -** Le numéro de tâche du prédécesseur est 1. C&#39;est la même chose que **1fs**, car **fs** est la relation de prédécesseur par défaut dans Workfront.
+* **1fs -** Le numéro de la tâche antérieure est 1. Le type de dépendance est Terminer-Démarrer. Dans la chronologie du projet, cette tâche doit commencer immédiatement après l’achèvement de la tâche 1. Malgré cela, elle peut toujours être marquée comme En cours ou Terminée.
+* **1 -** Le numéro de la tâche antérieure est 1. Il s’agit de la même chose que **1fs**, car **fs** est la relation de tâche antérieure par défaut dans Workfront.
 
-* **1fse -** Le numéro de la tâche du prédécesseur est 1. Le type de dépendance est Finish-Start-Enforced. Dans la chronologie du projet, cette tâche s’affiche comme démarrant immédiatement une fois la tâche 1 terminée. Workfront ne permet pas de la marquer comme En cours ou Terminé tant que la tâche 1 n’est pas terminée. Workfront permet toutefois de générer des rapports sur les heures de la tâche.
-* **1fs+3d -** Le numéro de la tâche du prédécesseur est 1. Le type de dépendance est Terminer-Démarrer avec un délai de 3 jours. Dans la chronologie du projet, cette tâche se présente comme commençant 3 jours ouvrés après la fin de la tâche 1.
-* **1fs-3d -** Le numéro de la tâche du prédécesseur est 1. Le type de dépendance est Terminer-Démarrer avec un délai de 3 jours. Dans la chronologie du projet, cette tâche commence 3 jours ouvrés avant que la tâche du prédécesseur ne soit terminée.
-* **1fs+3de** - Le numéro de la tâche du prédécesseur est 1. Le type de dépendance est Finish-Start-Enforced avec un délai de 3 jours. Dans la chronologie du projet, cette tâche se présente comme commençant 3 jours ouvrés après la fin de la tâche 1. Workfront ne permet pas qu’elle soit marquée comme En cours ou Terminée tant que la tâche 1 n’est pas terminée. Workfront permet toutefois de générer des rapports sur les heures de la tâche.
+* **1fse -** Le numéro de la tâche antérieure est 1. Le type de dépendance est Terminer-Démarrer-Forcé. Dans la chronologie du projet, cette tâche s’affiche comme démarrant immédiatement après l’achèvement de la tâche 1. Workfront ne permet pas de la marquer comme En cours ou Terminée tant que la tâche 1 n’est pas terminée. Workfront permet toutefois de générer des rapports sur les heures de la tâche.
+* **1fs+3d -** Le numéro de la tâche antérieure est 1. Le type de dépendance est Terminer-Démarrer avec un décalage de 3 jours. Dans la chronologie du projet, cette tâche se présente comme commençant 3 jours ouvrés après l’achèvement de la tâche 1.
+* **1fs-3d -** Le numéro de la tâche antérieure est 1. Le type de dépendance est Terminer-Démarrer avec un décalage de 3 jours. Dans la chronologie du projet, cette tâche commence 3 jours ouvrés avant l’achèvement de la tâche antérieure.
+* **1fs+3de** - Le numéro de la tâche antérieure est 1. Le type de dépendance est Terminer-Démarrer-Forcé avec un décalage de 3 jours. Dans la chronologie du projet, cette tâche se présente comme commençant 3 jours ouvrés après l’achèvement de la tâche 1. Workfront ne permet pas de la marquer comme En cours ou Terminée tant que la tâche 1 n’est pas terminée. Workfront permet toutefois de générer des rapports sur les heures de la tâche.
 
   >[!NOTE]
   >
-  >Vous devez ajouter la valeur appliquée (**e**) au journal, et non au prédécesseur.
+  >Vous devez ajouter la valeur appliquée (**e**) au décalage, et non à la tâche antérieure.
 
-* **4515:2** Le numéro de tâche du prédécesseur est 2. - Il s’agit d’une dépendance Terminer au début non appliquée avec le prédécesseur du projet avec le numéro de référence **4515**.
+* **4515:2** Le numéro de la tâche antérieure est 2. - Il s’agit d’une dépendance Terminer-Démarrer non forcée avec la tâche antérieure du projet portant le numéro de référence **4515**.
 
-## Afficher les informations du prédécesseur
+## Afficher les informations sur la tâche antérieure
 
-Vous pouvez afficher les informations du prédécesseur dans les zones suivantes de Workfront. Cela inclut des informations sur les prédécesseurs sur plusieurs projets :
+Vous pouvez afficher les informations sur la tâche antérieure dans les zones suivantes de Workfront. Cela inclut des informations sur les projets transversaux antérieurs :
 
-* Au niveau de la tâche, dans la section Prédécesseurs .
+* Au niveau de la tâche, dans la section Tâches antérieures.
 
-  Pour plus d’informations sur l’affichage des informations de prédécesseur dans la section Prédécesseurs , reportez-vous à la section [Localisation des prédécesseurs d’une tâche](#locate-the-predecessors-of-a-task) de cet article.
+  Pour plus d’informations sur l’affichage des informations sur les tâches antérieures dans la section Tâches antérieures, voir la section [Localiser les tâches antérieures d’une tâche](#locate-the-predecessors-of-a-task) dans cet article.
 
-* Dans le diagramme de Gantt.
+* Dans le graphique de Gantt.
 
-  Pour plus d’informations sur l’affichage des prédécesseurs dans le diagramme de Gantt, voir [Configuration de l’affichage des informations sur le graphique de Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+  Pour plus d’informations sur l’affichage des tâches antérieures dans le graphique de Gantt, voir [Configurer l’affichage des informations sur le graphique de Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 * Dans une liste de tâches.
 
-  Pour afficher des informations sur les prédécesseurs de vos tâches dans une liste de tâches, vous pouvez effectuer l’une des opérations suivantes :
+  Pour afficher des informations sur les tâches antérieures dans une liste de tâches, vous pouvez effectuer l’une des opérations suivantes :
 
-   * Appliquez la vue standard intégrée dans une liste de tâches.
+   * Appliquez la vue Standard intégrée dans une liste de tâches.
 
-     Pour plus d’informations sur l’affichage des informations de prédécesseur dans la vue Standard, reportez-vous à la section [Localisation des prédécesseurs d’une tâche](#locate-the-predecessors-of-a-task) de cet article.
+     Pour plus d’informations sur l’affichage des informations sur les tâches antérieures dans la vue Standard, voir la section [Localiser les tâches antérieures d’une tâche](#locate-the-predecessors-of-a-task) dans cet article.
 
-   * Créez une vue de tâche ou un rapport et ajoutez la colonne Prédécesseurs à cette vue.
+   * Créez une vue de tâche ou un rapport et ajoutez la colonne Tâches antérieures à cette vue.
 
-     Pour plus d’informations sur la création d’une vue personnalisée pour les tâches contenant les informations du prédécesseur, voir [Affichage : détails du prédécesseur](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
+     Pour plus d’informations sur la création d’une vue personnalisée pour les tâches avec les informations sur les tâches antérieures, voir [Afficher : détails de la tâche antérieure](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
 
 * Dans l’en-tête de la tâche lors de l’accès à la tâche.
 

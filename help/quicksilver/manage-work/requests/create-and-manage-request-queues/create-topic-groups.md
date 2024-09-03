@@ -1,8 +1,8 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Créer les groupes de rubriques
-description: Les groupes de rubriques sont associés aux files d’attente des demandes. Ils vous permettent de regrouper vos files d’attente des demandes en plusieurs catégories, selon la nature des demandes.
+title: Créer des groupes de sujets
+description: Les groupes de sujets sont associés aux files d’attente des demandes. Ils vous permettent de classer vos files d’attente des demandes en plusieurs catégories, en fonction de la nature des demandes.
 author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
@@ -15,37 +15,37 @@ ht-degree: 100%
 
 ---
 
-# Créer les groupes de rubriques
+# Créer des groupes de sujets
 
 <!-- Audited: 2/2024 -->
 
-Les groupes de rubriques sont associés aux files d’attente des demandes. Ils vous permettent de regrouper vos files d’attente des demandes en plusieurs catégories, selon la nature des demandes.
+Les groupes de sujets sont associés aux files d’attente des demandes. Ils vous permettent de classer vos files d’attente des demandes en plusieurs catégories, en fonction de la nature des demandes.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle </p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront</p> </td> 
    <td>   
-      <p>Nouvelle : standard</p>
+      <p>Nouveau : Standard</p>
       <p>Ou</p> 
-      <p>Actuelle : formule</p>
+      <p>Actuel : formule</p>
  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Modifier l’accès aux projets</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -60,37 +60,37 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 ## Vue d’ensembe des groupes de rubriques
 
-Si, par exemple, vous disposez d’une file d’attente des demandes pour les demandes marketing, vous pouvez avoir un groupe de rubriques « Campagne pour la fête des mères », avec un groupe de rubriques de second niveau « Médias numériques » et un autre groupe de rubriques de second niveau « Médias papier ». Vous pouvez ensuite avoir plusieurs rubriques de files d’attente dans chaque groupe de rubriques. Par exemple, « Bannière publicitaire » et « Blog » peuvent être des rubriques de files d’attente pour le groupe de rubriques « Média numérique ».
+Si, par exemple, vous disposez d’une file d’attente des demandes pour des requêtes marketing, vous pouvez avoir un groupe de sujets « Campagne Fête des mères », avec deux groupes de sujets de second niveau : l’un intitulé « Médias numériques » et l’autre « Médias imprimés ». Vous pouvez ensuite avoir plusieurs rubriques de file d’attente dans chaque groupe de sujets. Par exemple, « Bannière publicitaire » et « Blog » peuvent être des rubriques de file d’attente pour le groupe de sujets « Médias numériques ».
 
 Pour plus d’informations sur la création de files d’attente des demandes, consultez la section [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!TIP]
 >
->* Vous pouvez créer jusqu’à 10 niveaux de groupes de rubriques dans une file d’attente des demandes.
->* Le nombre de rubriques de files d’attente pouvant être associées à un groupe de rubriques est illimité.
->* Les groupes de rubriques peuvent faire l’objet de rapports.
+>* Vous pouvez créer jusqu’à 10 niveaux de groupes de sujets dans une file d’attente des demandes.
+>* Le nombre de rubriques de file d’attente pouvant être associées à un groupe de sujets n’est pas limité.
+>* Les groupes de sujets sont un objet sur lequel un rapport peut être créé.
 >
 
-## Créer les groupes de rubriques
+## Créer des groupes de sujets
 
-Nous vous recommandons de créer des groupes de rubriques avant de créer une rubrique de files d’attente. Cependant, un groupe de rubriques peut être créé dans le créateur de rubriques de files d’attente. Pour plus d’informations sur la création de rubriques de files d’attente, consultez la section [Créer des rubriques de files d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Nous vous recommandons de créer des groupes de sujets avant de créer une rubrique de file d’attente. Cependant, un groupe de sujets peut être créé dans le créateur de rubriques de file d’attente. Pour plus d’informations sur la création de rubriques de file d’attente, consultez la section [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-Pour créer un groupe de rubriques, procédez comme suit :
+Pour créer un groupe de sujets :
 
-1. Accédez au projet que vous avez publié en tant que file d’attente des demandes d’aide.\
-   Pour plus d’informations sur la publication d’un projet en tant que file d’attente des demandes d’aide, consultez la section [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+1. Accédez au projet que vous avez publié en tant que file d’attente des requêtes d’aide.\
+   Pour plus d’informations sur la publication d’un projet en tant que file d’attente des requêtes d’aide, consultez la section [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Cliquez sur **Groupes de rubriques** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Groupes de rubriques**.
-1. Cliquez sur **Nouveau groupe de rubriques**.
+1. Cliquez sur **Groupes de sujets** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Groupes de sujets**.
+1. Cliquez sur **Nouveau groupe de sujets**.
 
    ![](assets/new-topic-group-box-nwe-350x306.png)
 
 1. Indiquez les informations suivantes :
 
-   * **Nom** : le nom est visible des personnes qui envoient des demandes vers cette file d’attente des demandes.
-   * **Description** : la description s’affiche lorsque les personnes sélectionnent le groupe de rubriques dans le processus d’envoi d’une nouvelle demande.
-   * **Ajouter au groupe de rubriques** : vous pouvez ajouter le nouveau groupe de rubriques à un groupe de rubriques existant, ou vous pouvez l’ajouter directement au projet publié en tant que file d’attente des demandes d’aide.
+   * **Nom** : le nom est visible pour les utilisateurs et les utilisatrices qui soumettent des demandes vers cette file d’attente des demandes.
+   * **Description** : la description s’affiche lorsque les utilisateurs et les utilisatrices sélectionnent le groupe de sujets dans le processus d’envoi d’une nouvelle requête.
+   * **Ajouter au groupe de sujets** : le nouveau groupe de sujets peut être soit ajouté à un groupe de sujets existant, soit ajouté directement au projet publié en tant que file d’attente des requêtes d’aide.
 
-1. Cliquez sur **Enregistrer**.\
-   Un nouveau groupe de rubriques est ainsi créé dans la file d’attente des demandes. Vous pouvez désormais sélectionner d’autres catégories dans le premier menu déroulant sous une file d’attente des demandes.\
-   Pour plus d’informations sur l’envoi de demandes, consultez la section [Créer et envoyer des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. Cliquer sur **Enregistrer**.\
+   Un nouveau groupe de sujets est ainsi créé dans la file d’attente des demandes. Vous pouvez désormais sélectionner des catégories supplémentaires dans le premier menu déroulant sous une file d’attente des demandes.\
+   Pour plus d’informations sur l’envoi de requêtes, consultez la section [Créer et envoyer des requêtes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).

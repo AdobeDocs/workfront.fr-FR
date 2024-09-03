@@ -2,64 +2,64 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Vue d’ensemble de la tâche
-description: Une tâche est un élément de travail au sein d’un projet. Il représente une quantité finie de travail plus petite que le projet.
+title: Vue d’ensemble des tâches
+description: Une tâche est un élément de travail au sein d’un projet. Elle représente une quantité de travail déterminée, moins importante que celle du projet.
 author: Alina
 feature: Work Management
 exl-id: 060918b2-8c3f-4f85-a8ac-bcd36141d071
 source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Vue d’ensemble de la tâche
+# Vue d’ensemble des tâches
 
 <!-- Audited: 01/2024 -->
 
-Une tâche est un élément de travail au sein d’un projet. Il représente une quantité finie de travail plus petite que le projet.
+Une tâche est un élément de travail au sein d’un projet. Elle représente une quantité de travail déterminée, moins importante que celle du projet.
 
-Les tâches peuvent être affectées aux utilisateurs à terminer. Une fois toutes les tâches d’un projet terminées, l’état du projet peut être marqué Terminé.
+Les tâches sont affectées aux utilisateurs et aux utilisatrices pour être accomplies. Lorsque toutes les tâches d’un projet sont accomplies, le statut du projet devient « Terminé ».
 
-Pour plus d’informations sur les projets dans Adobe Workfront, voir [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
+Pour plus d’informations sur les projets dans Adobe Workfront, consultez la section [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
 
-Voici les types de tâches d’un projet :
+Voici les types de tâches d’un projet :
 
-* Tâches parentes
-* Tâches secondaires ou tâches enfants
+* Tâches parent
+* Sous-tâches ou tâches enfant
 * Tâches de niveau supérieur
 * Tâches opérationnelles
 * Tâches récurrentes
 
-## Présentation des tâches parents  {#overview-of-parent-tasks}
+## Vue d’ensemble des tâches parent  {#overview-of-parent-tasks}
 
-Vous pouvez ventiler une tâche plus volumineuse en plusieurs tâches plus petites plus faciles à réaliser. Les tâches plus petites deviennent les tâches enfants ou les sous-tâches de la tâche d’origine. La tâche d’origine devient la tâche parente.
+Vous pouvez ventiler une tâche plus volumineuse en plusieurs tâches plus petites et plus faciles à réaliser. Les tâches plus petites deviennent les tâches enfant ou les sous-tâches de la tâche d’origine. La tâche d’origine devient la tâche parent.
 
-Selon le mode d’achèvement du résumé du projet, vous pouvez peut-être terminer une tâche parent indépendamment de ses tâches enfants. Par défaut, vous ne pouvez pas terminer ou mettre à jour une tâche parent indépendamment de ses enfants.
+Selon le mode d’achèvement du résumé du projet, vous pouvez terminer une tâche parent indépendamment de ses tâches enfant. Par défaut, vous ne pouvez pas terminer ou mettre à jour une tâche parent indépendamment de ses enfants.
 
-Pour plus d’informations sur le mode d’achèvement du résumé des projets, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+Pour plus d’informations sur le mode d’achèvement du résumé des projets, consultez la section [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-## Présentation des sous-tâches ou des tâches enfants
+## Vue d’ensemble des sous-tâches ou tâches enfant
 
-Les tâches de sous-tâche ou les tâches enfants sont des tâches répertoriées sous une tâche parent. Elles influencent généralement la mise à jour et la résolution de la tâche parent.
+Les sous-tâches ou tâches enfant sont des tâches répertoriées sous une tâche parent. Elles influencent généralement la mise à jour et la résolution de la tâche parent.
 
-Pour plus d’informations sur les tâches parentes, voir [Présentation des tâches parentes](#overview-of-parent-tasks) dans cet article.
+Pour plus d’informations sur les tâches parent, consultez dans cet article la section [Vue d’ensemble des tâches parent](#overview-of-parent-tasks).
 
-Pour plus d’informations sur la création d’une tâche enfant, voir [Création de tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+Pour plus d’informations sur la création d’une tâche enfant, consultez la section [Créer des tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-## Présentation des tâches de niveau supérieur
+## Vue d’ensemble des tâches de niveau supérieur
 
-Les tâches de niveau supérieur sont un type de tâches opérationnelles, qui peut être soit une tâche mère, soit une tâche autonome sans parent ni enfants. Vous pouvez mettre à jour et exécuter des tâches de niveau supérieur sans influer sur la mise à jour ou la résolution d’autres tâches.
+Les tâches de niveau supérieur sont un type de tâches de travail qui peuvent être soit une tâche parent, soit une tâche autonome sans parent ni enfant. Vous pouvez mettre à jour et terminer les tâches de niveau supérieur sans influencer la mise à jour ou la résolution des autres tâches.
 
-## Présentation des tâches de travail
+## Vue d’ensemble des tâches opérationnelles
 
-Les tâches de travail sont des tâches qui n’ont pas d’enfants ou de sous-tâches, ou des tâches qui ne sont pas répertoriées sous un autre parent.
+Les tâches opérationnelles sont des tâches qui n’ont pas de tâches enfant ou de sous-tâches propres, ou des tâches qui ne sont pas répertoriées sous un autre parent.
 
-Il s’agit d’une distinction importante car il est possible que les tâches pour enfants aient des tâches pour enfants.
+Il s’agit d’une distinction importante, car des tâches enfant peuvent avoir leurs propres tâches enfant.
 
-Vous pouvez mettre à jour et terminer des tâches de travail sans influer sur la mise à jour ou la résolution d’autres tâches.
+Les tâches opérationnelles peuvent être mises à jour et terminées sans influencer la mise à jour ou la résolution d’autres tâches.
 
 ## Tâches récurrentes
 
-Si vous avez une tâche qui se produit à plusieurs reprises, vous pouvez la créer en tant que tâche récurrente avec plusieurs répétitions. Pour plus d’informations sur les tâches récurrentes, voir [Présentation des tâches récurrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+Si une tâche se répète, vous pouvez la créer en tant que tâche récurrente avec plusieurs récurrences. Pour plus d’informations sur les tâches récurrentes, consultez la section [Vue d’ensemble des tâches récurrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

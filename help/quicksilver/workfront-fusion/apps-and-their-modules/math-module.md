@@ -3,33 +3,33 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Math
-description: Dans un scénario de fusion Adobe Workfront, vous pouvez utiliser le module mathématique pour calculer les expressions mathématiques.
+title: Mathématiques
+description: Dans un scénario Adobe Workfront Fusion, vous pouvez utiliser le module Math pour calculer des expressions mathématiques.
 author: Becky
 feature: Workfront Fusion
 exl-id: 677d722f-3a9f-498e-939a-1cfe8e943fb6
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
-# [!UICONTROL Mathématiques]
+# [!UICONTROL Math]
 
-Dans un [!DNL Adobe Workfront Fusion scenario], vous pouvez utiliser le module mathématique pour calculer les expressions mathématiques.
+Dans un [!DNL Adobe Workfront Fusion scenario], vous pouvez utiliser le module Math pour calculer des expressions mathématiques.
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
-  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td>
+  <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
@@ -38,25 +38,25 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
+   <p>Exigences de licence actuelles : aucune exigence de licence [!DNL Workfront Fusion] requise.</p>
    <p>Ou</p>
-   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Exigences en matière de licences héritées : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
 
-Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez la section Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL Évaluer une expression mathématique]
 
@@ -68,7 +68,7 @@ Vous pouvez utiliser ce module pour calculer facilement des expressions mathéma
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Expression]</td> 
-   <td> <p>Saisissez l’expression que le module doit évaluer. </p> <p> </p> <p>Pour plus d’informations sur la façon d’écrire une expression mathématique, voir <a href="https://mathjs.org/docs/expressions/syntax.html">Syntaxe d’expression</a> à l’adresse mathjs.org.</p> </td> 
+   <td> <p>Saisissez l’expression que le module doit évaluer. </p> <p> </p> <p>Pour plus d’informations sur la création d’une expression mathématique, consultez la section <a href="https://mathjs.org/docs/expressions/syntax.html">Syntaxe des expressions</a> sur mathjs.org.</p> </td> 
   </tr> 
  </tbody> 
 </table>

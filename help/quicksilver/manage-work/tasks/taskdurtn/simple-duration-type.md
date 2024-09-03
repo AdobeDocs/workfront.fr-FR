@@ -39,9 +39,9 @@ Les événements suivants se produisent lorsqu’une tâche a un type de durée 
   >Votre administrateur ou administratrice Workfront définit la variable `Typical hours per work day` dans la zone Préférences du projet de la configuration de votre instance.
 
 * Le pourcentage d’attribution est masqué et les heures d’attribution peuvent être modifiées à la place.
-* Pour l’ensemble des nouvelles clientes et nouveaux clients, le type de durée à l’échelle du système est défini sur « simple ».
+* Pour tous les nouveaux clientes et clients, le type de durée à l’échelle du système est défini sur simple.
 
-## Remplacer le type de durée d’une tâche par « simple »
+## Remplacer le type de durée d’une tâche sur simple
 
 Pour plus d’informations sur la modification du type de durée d’une tâche, voir [Mettre à jour le type de durée d’une tâche](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 

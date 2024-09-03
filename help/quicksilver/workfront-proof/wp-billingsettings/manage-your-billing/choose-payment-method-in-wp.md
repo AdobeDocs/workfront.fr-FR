@@ -2,72 +2,72 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: Choix de votre mode de paiement dans  [!DNL Workfront] BAT
-description: En savoir plus sur les paiements dans Workfront Proof.
+title: Choisir votre méthode de paiement dans  [!DNL Workfront]  Proof
+description: En savoir plus sur les paiements dans Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Choix de votre mode de paiement dans [!DNL Workfront Proof]
+# Choisir votre méthode de paiement dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-## Présentation des options de paiement
+## Comprendre les options de paiement
 
-Les options de paiement suivantes sont disponibles :
+Les options de paiement suivantes sont disponibles :
 
 | **Abonnements mensuels** | **Abonnements annuels** |
 |---|---|
-| carte de crédit | carte de crédit |
-| transfert bancaire |
+| Carte de crédit | Carte de crédit |
+| Virement bancaire |
 
 {style="table-layout:auto"}
 
-Nous n’acceptons pas les vérifications
+Nous n’acceptons pas les chèques.
 
-## Modification du mode de paiement et des détails de la carte de crédit {#changing-your-payment-method-and-credit-card-details}
+## Modifier votre méthode de paiement et les détails de votre carte de crédit {#changing-your-payment-method-and-credit-card-details}
 
 >[!NOTE]
 >
->Tenez compte des points suivants avant de modifier votre mode de paiement :
+>Avant de modifier votre méthode de paiement, prenez en compte les points suivants :
 >
->* Le changement de mode de paiement n’est pas appliqué à votre abonnement actuel. Si vous souhaitez modifier cette valeur pour une facture déjà émise, contactez notre équipe financière à l’adresse [finance@proofhq.com](mailto:finance@proofhq.com).
->* Vous ne pouvez pas modifier votre mode de paiement ni ajouter une carte de crédit si un plan d’évaluation est défini sur votre compte. Vous pourrez définir ces détails lors de la mise à niveau de votre compte.
+>* Le changement de méthode de paiement n’est pas appliqué à votre abonnement actuel. Si vous souhaitez modifier cette information pour une facture déjà émise, veuillez contacter notre équipe financière à l’adresse suivante : [finance@proofhq.com](mailto:finance@proofhq.com).
+>* Vous ne pouvez pas modifier votre méthode de paiement ou ajouter une carte de crédit si un plan d’essai est défini sur votre compte. Vous pourrez définir ces détails lors de la mise à jour de votre compte.
 >
 
 
 
-Pour modifier votre prochain mode de paiement et mettre à jour les détails de votre carte de crédit :
+Pour modifier votre prochaine méthode de paiement et mettre à jour les détails de votre carte de crédit, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Modifier les détails du paiement]** (1) en haut de la page.\
    Ou\
    Cliquez sur **[!UICONTROL Méthode de paiement suivante]**. (2)\
-   ![payment_and_CC_details1.png](assets/payment-and-cc-details1-350x205.png)
+   ![Payment_and_CC_details1.png](assets/payment-and-cc-details1-350x205.png)
 
-1. Dans la fenêtre contextuelle **[!UICONTROL Modifier les détails de paiement]**, sélectionnez votre prochain mode de paiement. (3)
-1. (Conditionnel) Pour les paiements par carte de crédit, saisissez les détails de votre carte.\
-   Si vous souhaitez modifier uniquement les détails de votre carte de crédit, renseignez uniquement les champs de détails de la carte de crédit (4) avec vos nouvelles données de carte et enregistrez (5) les modifications. Vous pouvez modifier les détails de votre carte de crédit à tout moment. La nouvelle carte est utilisée pour tous les paiements d’abonnement en vigueur immédiatement.\
+1. Dans la fenêtre **[!UICONTROL Modifier les détails du paiement]**, sélectionnez votre prochaine méthode de paiement. (3)
+1. (Le cas échéant) Pour les paiements par carte de crédit, saisissez les détails de votre carte.\
+   Si vous souhaitez modifier uniquement les détails de votre carte de crédit, renseignez uniquement les champs relatifs aux détails de la carte de crédit (4) avec les données de votre nouvelle carte et enregistrez (5) les modifications. Vous pouvez modifier les données de votre carte de crédit à tout moment. La nouvelle carte est utilisée pour tous les paiements d’abonnements à partir de maintenant.\
    Nous acceptons [!DNL Visa], [!DNL American Express] et [!DNL MasterCard].
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**. (4)\
-   ![payment_and_CC_details.png](assets/payment-and-cc-details-350x217.png)
+   ![Payment_and_CC_details.png](assets/payment-and-cc-details-350x217.png)
 
-## Modification des détails du mode de paiement pour les comptes satellites
+## Modifier les détails de la méthode de paiement pour les comptes satellites
 
-Si vous disposez de comptes Satellite, vous devez mettre à jour les détails de votre carte de crédit et le mode de paiement séparément pour chaque compte. Pour plus d’informations sur les comptes satellites, voir [Comptes satellites.](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
+Si vous avez des comptes satellites, vous devez mettre à jour les détails de votre carte de crédit et de votre méthode de paiement séparément pour chaque compte. Pour plus d’informations sur les comptes satellites, consultez la section [Comptes satellites.](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
 
-1. Accédez à la page [!UICONTROL Facturation] de votre compte Hub.\
-   Pour plus d’informations sur la page Facturation, voir [La [!DNL Workfront] page de facturation du BAT](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+1. Accédez à la page [!UICONTROL Facturation] dans votre compte hub.\
+   Pour plus d’informations sur la page de facturation, consultez la section [Page de facturation de  [!DNL Workfront]  Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-1. Ouvrez le menu déroulant [!UICONTROL liste de comptes] . (1)
-1. Sélectionnez le compte satellite (2) associé à la carte de crédit que vous souhaitez mettre à jour.
-1. Poursuivez en [modifiant le mode de paiement et les détails de la carte de crédit](#changing-your-payment-method-and-credit-card-details).\
+1. Ouvrez le menu déroulant de la [!UICONTROL liste des comptes]. (1)
+1. Choisissez le compte satellite (2) associé à la carte de crédit que vous souhaitez mettre à jour.
+1. Continuez avec [Modifier votre méthode de paiement et les détails de votre carte de crédit](#changing-your-payment-method-and-credit-card-details).\
    ![Satellite_Account_Billing_Page.png](assets/satellite-account-billing-page-350x167.png)

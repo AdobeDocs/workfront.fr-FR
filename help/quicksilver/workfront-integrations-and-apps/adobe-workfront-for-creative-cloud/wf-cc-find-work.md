@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Rechercher votre travail à l’aide du plug-in Adobe Workfront
-description: Recherchez le travail qui vous est assigné dans Adobe Workfront sans quitter les applications Adobe Creative Cloud.
+title: Trouvez votre travail à l’aide du plug-in Adobe Workfront
+description: Retrouvez le travail qui vous a été confié dans Adobe Workfront sans quitter les applications Adobe Creative Cloud.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
 source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
-# Recherchez votre travail à l’aide du module externe [!DNL Adobe Workfront]
+# Trouvez votre travail à l’aide du plug-in [!DNL Adobe Workfront]
 
-Recherchez le travail qui vous a été assigné dans [!DNL Adobe Workfront] sans quitter les applications [!DNL Adobe Creative Cloud] suivantes :
+Trouvez le travail qui vous a été confié dans [!DNL Adobe Workfront] sans quitter les applications [!DNL Adobe Creative Cloud] suivantes :
 
 {{cc-app-list}}
 
@@ -52,13 +52,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 {{cc-install-prereq}}
 
-## Utilisez la [!UICONTROL liste de travail] pour accéder à des informations importantes.
+## Utiliser la [!UICONTROL liste de travail] pour accéder à des informations importantes
 
-La [!UICONTROL liste de travail] vous permet d’afficher toutes les tâches et tous les problèmes qui vous sont affectés à un seul endroit. Vous pouvez utiliser l’option [!UICONTROL Trier par] pour regrouper des éléments, puis utiliser le [!UICONTROL filtre] pour vous concentrer sur le travail qui doit être terminé.
+La [!UICONTROL liste de travail] vous permet de visualiser en un seul endroit toutes les tâches et tous les problèmes qui vous ont été attribués. Vous pouvez utiliser l’option [!UICONTROL Trier par] pour regrouper les éléments, puis utiliser l’option [!UICONTROL Filtrer] pour vous concentrer sur le travail à effectuer.
 
-### Regrouper des tâches similaires avec l’option [!DNL Sort By]
+### Regrouper les travaux similaires à l’aide de l’option [!DNL Sort By]
 
-Utilisez l’option [!UICONTROL Trier par] pour regrouper des éléments similaires dans la [!UICONTROL liste de travail]. Vous pouvez trier en procédant comme suit :
+Utilisez l’option [!UICONTROL Trier par] pour regrouper les éléments similaires dans la [!UICONTROL liste de travail]. Vous pouvez trier par :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,19 +67,19 @@ Utilisez l’option [!UICONTROL Trier par] pour regrouper des éléments similai
   <tr> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Échéance]</li> 
+     <li>[!UICONTROL Due Date]</li> 
      <li>[!UICONTROL Name]</li> 
-     <li>[!UICONTROL Nom du projet]</li> 
-     <li>[!UICONTROL Ma priorité]</li> 
+     <li>[!UICONTROL Project Name]</li> 
+     <li>[!UICONTROL My Priority]</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-sort-by-350x606.png" style="width: 350;height: 606;"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Restreindre la cible d’action avec des filtres
+### Réduire votre champ d’action grâce à des filtres
 
-Utilisez le [!UICONTROL filtre] pour vous concentrer sur des tâches spécifiques. Il existe plusieurs façons d’utiliser le filtre :
+Utilisez le [!UICONTROL filtre] pour vous concentrer sur des éléments de travail spécifiques. Il existe plusieurs façons d’utiliser le filtre :
 
  
 
@@ -88,19 +88,19 @@ Utilisez le [!UICONTROL filtre] pour vous concentrer sur des tâches spécifique
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Le premier est le filtrage basé uniquement sur le type ou les attributs d’élément de travail :</p> 
+   <td> <p>La première est le filtrage basé uniquement sur le type ou les attributs de l’élément de travail :</p> 
     <ul> 
-     <li><strong>Élément de travail</strong> : tâches, sous-tâches, problèmes ou tâches personnelles</li> 
-     <li><strong>État de l’élément de travail</strong> : [!UICONTROL Travail sur], [!UICONTROL Prêt pour le démarrage] ou [!UICONTROL Non prêt]</li> 
-    </ul> <p>La seconde consiste à filtrer l’élément de travail à l’aide de l’état de l’élément de travail. Par exemple, vous pouvez sélectionner Tâches et [!UICONTROL Prêt pour le démarrage] pour trouver toutes les tâches de votre liste de travail prêtes pour le travail.</p> <p>Vous pouvez également utiliser [!UICONTROL Correspondance de champ] pour rechercher un élément spécifique dans votre jeu de filtres. </p> </td> 
+     <li><strong>Élément de travail</strong> : tâches, sous-tâches, problèmes ou tâches personnelles.</li> 
+     <li><strong>Statut de l’élément de travail</strong> : [!UICONTROL Working On], [!UICONTROL Ready to Start] ou [!UICONTROL Not Ready].</li> 
+    </ul> <p>La seconde est un filtrage utilisant les éléments de travail et le statut de l’élément de travail ensemble. Par exemple, vous pouvez sélectionner Tâches et [!UICONTROL Ready to Start] pour rechercher toutes les tâches de votre liste de travail qui sont prêtes à être réalisées.</p> <p>Vous pouvez également utiliser [!UICONTROL Field Match] pour rechercher un élément spécifique dans votre ensemble de filtres. </p> </td> 
    <td> <img src="assets/copy-of-filter-p-350x603.png" style="width: 350;height: 603;"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Recherche de votre travail
+## Rechercher votre travail
 
-Utilisez la barre [!UICONTROL Recherche] pour localiser les projets, les tâches, les problèmes et les documents dont vous avez besoin.
+Utilisez la barre de [!UICONTROL recherche] pour localiser les projets, les tâches, les problèmes et les documents dont vous avez besoin.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,17 +109,17 @@ Utilisez la barre [!UICONTROL Recherche] pour localiser les projets, les tâches
   <tr> 
    <td> 
     <ul> 
-     <li>Voir les éléments récents : vous pouvez afficher jusqu’à 5 de vos tâches les plus récentes accessibles par le biais des versions de bureau ou de module externe de Workfront.</li> 
-     <li>Localisez les éléments épinglés : vous pouvez accéder aux projets, tâches, problèmes et documents que vous avez épinglés dans la nouvelle expérience Adobe Workfront.</li> 
-     <li>Trouvez vos favoris : vous pouvez voir n’importe quel projet, tâche, problème ou document enregistré comme favori.</li> 
+     <li>Voir les éléments récents : vous pouvez afficher jusqu’à 5 de vos éléments de travail les plus récents auxquels vous avez accédé par le biais de la version de bureau ou de la version plug-in de Workfront.</li> 
+     <li>Localiser les éléments épinglés : vous pouvez accéder aux projets, tâches, problèmes et documents que vous avez épinglés dans la nouvelle interface Adobe Workfront.</li> 
+     <li>Retrouvez vos favoris : vous pouvez voir tous les projets, tâches, problèmes ou documents que vous avez enregistrés en tant que favoris.</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-search-p.png"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Utilisez le [!UICONTROL menu] pour parcourir les projets.
+## Utiliser le [!UICONTROL menu] pour naviguer dans les projets
 
-Vous pouvez utiliser l’icône [!UICONTROL Menu] pour accéder aux éléments parents dans un projet.
+Vous pouvez utiliser l’icône [!UICONTROL Menu] pour naviguer vers les éléments parent d’un projet.
 
 ![](assets/go-back-to-work-list-350x314.png)

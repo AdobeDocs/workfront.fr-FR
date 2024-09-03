@@ -2,112 +2,112 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Gérer les détails du BAT dans [!DNL Workfront Proof]
-description: La page Détails du BAT vous permet de gérer un BAT existant. Par exemple, vous pouvez ajouter de nouveaux opérateurs validants, modifier la date limite, modifier les paramètres initialement définis pour le BAT et vérifier l'activité qui s'est produite sur ce BAT.
+title: Gérer les détails de l’épreuve dans  [!DNL Workfront Proof]
+description: La page Détails de l’épreuve vous permet de gérer une épreuve existante. Par exemple, vous pouvez ajouter de nouveaux réviseurs et réviseuses, modifier l’échéance, modifier les paramètres que vous avez définis à l’origine pour l’épreuve et vérifier l’activité de cette épreuve.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Gérer les détails du bon à tirer dans [!DNL Workfront Proof]
+# Gérer les détails de l’épreuve dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-La page [!UICONTROL Détails du bon à tirer] vous permet de gérer un BAT existant. Par exemple, vous pouvez ajouter de nouveaux opérateurs validants, modifier la date limite, modifier les paramètres initialement définis pour le BAT et vérifier l&#39;activité qui s&#39;est produite sur ce BAT.
+La page [!UICONTROL Détails de l’épreuve] vous permet de gérer une épreuve existante. Par exemple, vous pouvez ajouter de nouveaux réviseurs et réviseuses, modifier l’échéance, modifier les paramètres que vous avez définis à l’origine pour l’épreuve et vérifier l’activité de cette épreuve.
 
-La page [!UICONTROL Détails du bon à tirer] est particulièrement utile pour les personnes chargées des projets, qui doivent effectuer le suivi de toutes les modifications sur un bon à tirer. Sur cette page, ils peuvent trouver en quelques clics tout ce qu&#39;ils ont besoin de savoir sur un BAT.
+La page [!UICONTROL Détails de l’épreuve] est particulièrement utile pour les personnes responsables de projets qui doivent garder une trace de toutes les modifications apportées à une épreuve. Sur cette page, elles peuvent trouver en quelques clics tout ce qu’elles ont besoin de savoir sur une épreuve.
 
-Pour savoir comment gérer les BAT de workflow automatisé, voir [Gestion d’un BAT configuré avec un workflow automatisé dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md).
+Pour savoir comment gérer les épreuves de type Workflow automatisé, voir [Gérer une épreuve configurée avec un workflow automatisé dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md).
 
-## Ouverture de la page Détails du BAT à partir d’une liste d’affichages
+## Ouvrir la page Détails de l’épreuve à partir d’une liste de vues
 
-1. Cliquez sur le menu **[!UICONTROL Plus]** (trois points) à droite du BAT, puis cliquez sur **[!UICONTROL Afficher les détails du BAT]**.
+1. Cliquez sur le menu **[!UICONTROL Plus]** (trois points) à droite de l’épreuve, puis cliquez sur **[!UICONTROL Afficher les détails de l’épreuve]**.
 
-## Ouverture de la page Détails du BAT à partir de la visionneuse de vérification
+## Ouvrir la page Détails de l’épreuve à partir du visionneuse de relecture
 
-1. si la barre d’outils gauche ne s’affiche pas, cliquez sur l’icône **[!UICONTROL Menu]** située dans le coin supérieur gauche.\
+1. Si la barre d’outils de gauche n’est pas affichée, cliquez sur l’icône **[!UICONTROL Menu]**, située dans le coin supérieur gauche.\
    ![](assets/menu-icon-in-proofing-viewer-350x188.png)
 
-1. Pointez sur la barre d’outils de gauche, puis cliquez sur **[!UICONTROL Détails du bon à tirer]**.\
+1. Pointez sur la barre d’outils de gauche, puis cliquez sur **[!UICONTROL Détails de l’épreuve]**.\
    ![](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >
-   >Seuls les utilisateurs [!DNL Workfront Proof] ont accès à la page Détails du bon à tirer à partir de la visionneuse de bons à tirer. Voir [Users](https://support.workfront.com/hc/en-us/sections/115000911887-Users) pour plus d’informations.
+   >Seuls les utilisateurs et utilisatrices de [!DNL Workfront Proof] ont accès à la page Détails de l’épreuve à partir de la visionneuse de relecture. Voir [Utilisateurs et utilisatrices](https://support.workfront.com/hc/en-us/sections/115000911887-Users) pour plus d’informations.
 
-   Voir aussi [Modifier les étapes du BAT et les réviseurs](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md) et [Configurer les paramètres de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+   Voir également [Modifier les étapes et les personnes chargées de la révision de l’épreuve](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md) et [Configurer les paramètres de l’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
 
-## Informations et options sur la page Détails du bon à tirer
+## Informations et options sur la page Détails de l’épreuve
 
-Vous trouverez les informations suivantes sur la page Détails du bon à tirer . Si vous disposez de droits d’édition sur le BAT, vous pouvez modifier certains de ces détails. [!DNL Workfront Proof] vous enregistre automatiquement les modifications. Pour plus d’informations, voir [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Gérer les rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+Vous trouverez les informations suivantes sur la page Détails de l’épreuve. Si vous avez des droits de modification sur l’épreuve, vous pouvez modifier certains de ces détails. [!DNL Workfront Proof] enregistre automatiquement vos modifications. Pour plus d’informations, voir [Profils d’autorisations d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Gérer les rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 >[!NOTE]
 >
->Vous ne verrez peut-être pas tous les éléments de la page, car l’option disponible dépend de votre rôle sur le BAT, de votre profil d’autorisations et des paramètres du BAT. Pour plus d’informations, voir [Gérer les rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md), [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Configuration des paramètres de BAT dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+>Il se peut que vous ne voyiez pas tous les éléments de la page, car les options disponibles dépendent de votre rôle dans l’épreuve, de votre profil d’autorisations et des paramètres de l’épreuve. Pour plus d’informations, voir [Gérer les rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md), [Profils d’autorisations d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Configurer les paramètres d’épreuve dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
 
-* Nom du BAT : [!DNL Workfront Proof] crée le nom du BAT (en gros caractères dans le coin supérieur gauche) à l’aide du nom du fichier d’origine utilisé pour créer le BAT, sauf si vous nommez le BAT lors de sa création. Vous pouvez cliquer ici sur le nom pour le modifier.
-* Informations de base du BAT :
+* Nom de l’épreuve : [!DNL Workfront Proof] crée le nom de l’épreuve (en gros caractères dans le coin supérieur gauche) en utilisant le nom du fichier original utilisé pour créer l’épreuve, sauf si vous nommez l’épreuve lors de sa création. Vous pouvez cliquer sur le nom ici pour le modifier.
+* Informations de base sur l’épreuve :
 
-   * **Dossier :** Si le BAT est stocké dans un dossier, le nom du dossier s’affiche avec le nombre de personnes avec lesquelles le dossier a été partagé. Vous pouvez modifier l’emplacement du BAT en un autre emplacement ici. Pour plus d’informations, voir [Gestion des dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+   * **Dossier :** si l’épreuve est stockée dans un dossier, le nom du dossier s’affiche ainsi que le nombre de personnes avec lesquelles le dossier a été partagé. Vous pouvez modifier l’emplacement de l’épreuve en cliquant ici. Pour plus d’informations, voir [Gérer les dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-   * **Nom de fichier** : pour les bons à tirer combinés, vous pouvez **[!UICONTROL cliquer pour afficher]** une liste de fichiers contenus dans le BAT.
+   * **Nom du fichier** : pour les épreuves combinées, vous pouvez **[!UICONTROL Cliquer pour afficher]** une liste des fichiers contenus dans l’épreuve.
 
-   * **Propriétaire :** La personne propriétaire du BAT. Vous pouvez choisir un autre propriétaire pour le BAT ici. Pour plus d’informations, voir [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+   * **Personne propriétaire :** personne qui possède l’épreuve. Vous pouvez choisir une autre personne propriétaire pour l’épreuve ici. Pour plus d’informations, voir [Profils d’autorisations d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-   * **Délégué :** Si la fonction Absence du bureau est activée, le propriétaire délégué du BAT s’affiche. Pour plus d’informations, voir [Désignation des propriétaires de BAT temporaires dans [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
+   * **Délégué :** si la fonction « Absence du bureau » est activée, la personne propriétaire déléguée de l’épreuve s’affiche. Pour plus d’informations, voir [Désigner des personnes propriétaies d’épreuves temporaires dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
 
-   * **Créé :** Heure et date de téléchargement du BAT.
-   * **Etat :** Etat actuel du BAT. Vous pouvez changer l&#39;état du BAT ici. Pour plus d’informations, voir [Affichage de l’état et de l’état d’un bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+   * **Créé le :** heure et date auxquelles l’épreuve a été chargée.
+   * **Statut :** statut actuel de l’épreuve. Vous pouvez modifier le statut de l’épreuve ici. Pour plus d’informations, voir [Afficher la progression et le statut d’une épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
-   * **ID** : numéro unique attribué à chaque BAT créé dans [!DNL Workfront Proof].
+   * **ID** : numéro unique attribué à chaque épreuve créée dans [!DNL Workfront Proof].
 
-* Boutons d’action au-dessus des détails de base du BAT :
+* Boutons d’action au-dessus des détails de base de l’épreuve :
 
-   * **[!UICONTROL Aller au BAT]** : ouvre le BAT dans la visionneuse de vérification.
-   * **[!UICONTROL Partager]** : vous permet de partager le BAT avec les réviseurs. Voir [Partager un BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+   * **[!UICONTROL Accéder à l’épreuve]** : ouvre l’épreuve dans la visionneuse de relecture.
+   * **[!UICONTROL Partager]** : permet de partager l’épreuve avec les réviseurs et réviseuses. Voir [Partager une épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-   * **[!UICONTROL Télécharger]** : pour les bons à tirer combinés, vous permet de télécharger des fichiers individuels (compressés dans un fichier ZIP). Voir [Téléchargement de fichiers stockés dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
+   * **[!UICONTROL Télécharger]** : pour les épreuves combinées, permet de télécharger des fichiers individuels (regroupés dans un fichier ZIP). Voir [Télécharger des fichiers stockés dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
 
-   * **[!UICONTROL Imprimer les commentaires]**. Permet de créer un rapport imprimable du BAT qui comprend toutes les décisions, commentaires et annotations. Voir [Imprimer et exporter des commentaires dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
+   * **[!UICONTROL Imprimer les commentaires]**. Permet de créer un rapport imprimable de l’épreuve qui comprend toutes les décisions, les commentaires et les balises. Voir la section [Imprimer et exporter des commentaires dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
 
-   * **[!UICONTROL Plus]** : ce menu fournit plusieurs actions.
+   * **[!UICONTROL Plus]** : ce menu propose plusieurs actions.
 
-      * **[!UICONTROL Exporter vers Excel]** : pour plus d’informations sur l’exportation d’un BAT vers Excel, voir [Imprimer et exporter des commentaires dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
+      * **[!UICONTROL Exporter vers Excel]** : pour plus d’informations sur l’export d’une épreuve vers Excel, voir la section [Imprimer et exporter des commentaires dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
 
-      * **[!UICONTROL Copiez cette version]** et **[!UICONTROL Copier avec un nouveau fichier]** : pour plus d’informations sur la copie d’une version d’un BAT, voir [Copie de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
+      * **[!UICONTROL Copier cette version]** et **[!UICONTROL Copier avec le nouveau fichier]** : pour plus d’informations sur la copie d’une version d’une épreuve, voir la section [Copier des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 
-      * **[!UICONTROL Verrouiller]** : le verrouillage d’un BAT le déplace de l’état actif vers un état verrouillé.
+      * **[!UICONTROL Verrouiller]** : le verrouillage d’une épreuve la fait passer de l’état actif à l’état verrouillé.
 
-        Lorsqu&#39;un BAT est verrouillé, il n&#39;est plus possible de commenter et de prendre des décisions sur le BAT. Vous pouvez définir un BAT pour qu’il se verrouille automatiquement lorsque toutes les décisions sont prises en appliquant ce paramètre au BAT.
+        Lorsqu’une épreuve est verrouillée, il n’est plus possible de la commenter ni de prendre des décisions à son sujet. Vous pouvez faire en sorte qu’une épreuve se verrouille automatiquement lorsque toutes les décisions ont été prises en appliquant ce paramètre à l’épreuve.
 
-      * Si vous téléchargez une nouvelle version d&#39;un BAT, la version précédente est automatiquement verrouillée. Pour plus d’informations, poursuivez votre lecture.
-      * **[!UICONTROL Modifier la version précédente]** : permet de lier des BAT distincts en tant que versions dans la même chaîne de BAT (et de conserver tous les commentaires et annotations sur chacun des BAT). Cela doit être effectué à partir de la page des détails du BAT qui doit être la version la plus récente du BAT. Pour plus d’informations, voir [Gestion des versions de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md) .
+      * Si vous chargez une nouvelle version d’une épreuve, la version précédente est automatiquement verrouillée. Pour plus d’informations, voir :
+      * **[!UICONTROL Modifier la version précédente]** : permet de lier des épreuves distinctes en tant que versions dans la même chaîne d’épreuves (et de conserver toutes les balises et tous les commentaires sur chacune des épreuves). Cette opération doit être effectuée à partir de la page de détails de l’épreuve, laquelle doit être la version la plus récente. Pour plus d’informations, voir la section [Gérer des versions d’épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).
 
-      * **[!UICONTROL Supprimer le lien vers la version précédente]** : permet de dissocier le BAT que vous affichez actuellement de son BAT parent (version précédente) sans le lier à un autre BAT de votre compte. Pour plus d’informations, voir [Gestion des versions de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md) dans [Gestion des versions de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).
+      * **[!UICONTROL Supprimer le lien vers la version précédente]** : permet de dissocier l’épreuve en cours de visualisation de son épreuve parent (version précédente) sans la lier à une autre épreuve de votre compte. Pour plus d’informations, voir la section [Gérer les versions d’épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md) dans [Gérer les versions d’épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).
 
-      * **[!UICONTROL Convertir en workflow automatisé]** : permet de convertir le workflow du BAT de base en automatisé. Pour plus d’informations, voir [Présentation du processus automatisé](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
-   * **[!UICONTROL Workflow]** : permet de vérifier la progression et l&#39;échéance du BAT et de modifier les paramètres des étapes du workflow et des validants individuels.
+      * **[!UICONTROL Convertir en workflow automatisé]** : permet de convertir le workflow de l’épreuve, d’un workflow de base à un workflow automatisé. Pour en savoir plus, voir la section [Vue d’ensemble des workflows automatisés](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+   * Section **[!UICONTROL Workflow]** : permet de vérifier la progression et la date d’échéance de l’épreuve et de modifier les paramètres des étapes du workflow et de chaque personne chargée de la révision.
 
-     Les étapes de workflow sont créées automatiquement par les validants de groupement système, selon les délais qui leur sont définis. Vous pouvez ajouter des personnes à des scènes en leur indiquant la date limite d’affichage (à condition que la date limite ne soit pas passée). Vous pouvez également consulter l&#39;état d&#39;avancement et les décisions des différents opérateurs validants sur le BAT et modifier leur rôle sur les alertes du BAT et des emails.
+     Les étapes du workflow sont créées automatiquement par le système, qui regroupe les réviseurs et réviseuses en fonction des dates d’échéance qui leur ont été fixées. Vous pouvez ajouter des personnes à des étapes en fixant pour elles la date d’échéance de l’étape (à condition que cette date ne soit pas antérieure). Vous pouvez également consulter la progression et les décisions de chaque réviseur et réviseuse sur l’épreuve et modifier leurs rôles sur l’épreuve, ainsi que les alertes par e-mail.
 
-     Pour plus d’informations sur la modification d’une étape, voir [Modification des étapes de BAT et des réviseurs](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md).
+     Pour plus d’informations sur la modification d’une étape, voir la section [Modifier les étapes de l’épreuve et les personnes chargées de la révision](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md).
 
      >[!NOTE]
      >
-     >Vous devez disposer de droits d&#39;édition sur le BAT pour modifier les étapes du BAT et les détails des validants. Pour plus d’informations, voir [Gestion des rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) et [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) .
+     >Vous devez disposer de droits de modification sur l’épreuve pour modifier les étapes de l’épreuve et les détails des réviseurs et réviseuses. Pour plus d’informations, voir la section [Gérer les rôles sur les épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) et [Profils d’autorisations sur les épreuves dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-   * **[!UICONTROL Autres options de partage]** : vous permet d’activer l’URL du BAT et le code intégré. Si vous utilisez l&#39;intégration Basecamp avec [!DNL Workfront] BAT, cette section vous permet également d&#39;ajouter le BAT à un projet [!DNL Basecamp], de modifier le projet auquel le BAT a été ajouté (cliquez sur **[!UICONTROL Modifier]**) et d&#39;accéder au BAT dans Basecamp (cliquez sur le lien fourni).
+   * Section **[!UICONTROL Autres options de partage]** : permet d’activer l’URL de l’épreuve et le code d’intégration. Si vous utilisez l’intégration Basecamp avec [!DNL Workfront] Proof, cette section vous permet également d’ajouter l’épreuve à un projet [!DNL Basecamp], de modifier le projet auquel la preuve a été ajoutée (cliquez sur **[!UICONTROL Modifier]**) et d’accéder à l’épreuve dans Basecamp (cliquez sur le lien fourni).
 
-   * **[!UICONTROL Paramètres]** : vous permet de modifier les paramètres comme décrit dans la section [[!UICONTROL Configuration des paramètres de BAT] dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+   * Section **[!UICONTROL Paramètres]** : permet de modifier les paramètres, tel que décrit dans [[!UICONTROL Configurer les paramètres de l’épreuve] dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
 
-   * **[!UICONTROL Activité]** : présente la liste de toutes les actions effectuées sur le BAT par ordre chronologique, fournissant un journal d’audit pour le BAT. Cela inclut la date et les détails de toute activité récente sur le BAT. Outre la section [!UICONTROL Messages], la section [!UICONTROL Activité] donne un aperçu complet du processus de révision sur le BAT, ce qui est particulièrement utile aux responsables de projet chargés du processus de validation.
-   * **[!UICONTROL Messages]** : répertorie les détails de toutes les activités d’email pour le BAT. Pour plus d’informations, voir [Configuration des paramètres de notification électronique dans [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   * Section **[!UICONTROL Activité]** : affiche une liste de toutes les actions effectuées sur l’épreuve dans l’ordre chronologique, sous forme de journal d’audit pour l’épreuve. Le journal comprend notamment la date et les détails de toutes les activités récentes sur l’épreuve. En plus de la section [!UICONTROL Messages], la section [!UICONTROL Activité] donne une vue d’ensemble complète du processus de révision sur l’épreuve, ce qui est particulièrement utile pour les personnes responsables de projet chargées du processus d’approbation.
+   * Section **[!UICONTROL Messages]** : liste les détails de toutes les activités réalisées par e-mail sur l’épreuve. Pour plus d’informations, voir la section [Configurer les paramètres de notification par e-mail dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
-     Vous pouvez également afficher l’intégralité du message envoyé aux réviseurs en pointant sur l’icône &quot;i&quot; à droite du message, puis en cliquant sur **[!UICONTROL Afficher le message complet]**.
+     Vous pouvez également afficher l’intégralité du message envoyé aux réviseurs et réviseuses en survolant l’icône « i » à droite du message, puis en cliquant sur **[!UICONTROL Afficher le message complet]**.

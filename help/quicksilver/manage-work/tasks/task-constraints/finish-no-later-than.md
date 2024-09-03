@@ -2,45 +2,45 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Présentation de la contrainte de tâche : Terminer au plus tard"
-description: Finish No Later Than (FNLT) est une contrainte de tâche qui planifie l’achèvement d’une tâche avant la date que vous spécifiez.
+title: '« Vue d’ensemble des contraintes de tâches : Finir Au Plus Tard »'
+description: Finir Au Plus Tard (Finish No Later Than, FNLT) est une contrainte de tâche qui planifie l’achèvement d’une tâche avant la date que vous avez spécifiée.
 author: Alina
 feature: Work Management
 exl-id: ea0e74fb-45a0-4466-b57d-294a9babb340
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # Vue d’ensemble des contraintes de tâches : Terminer au plus tard
 
-Finish No Later Than (FNLT) est une contrainte de tâche qui planifie l’achèvement d’une tâche avant la date que vous spécifiez.
+Finir Au Plus Tard (Finish No Later Than, FNLT) est une contrainte de tâche qui planifie l’achèvement d’une tâche avant la date que vous avez spécifiée.
 
-## Présentation de la contrainte Terminer au plus tard
+## Vue d’ensemble de la contrainte Finir Au Plus Tard
 
-Tenez compte de ce qui suit lorsque vous utilisez la contrainte Terminer plus tard que (FNLT) pour une tâche :
+Tenez compte de ce qui suit lorsque vous utilisez la contrainte Finir Au Plus Tard (FNLT) pour une tâche :
 
-* Vous devez utiliser cette contrainte lorsque le projet est planifié à partir de la date de début. Dans ce cas, vous pouvez fournir une contrainte souple sur une tâche avant qu’elle ne force d’autres tâches dépendantes à s’afficher comme En danger.
-* Lorsque vous utilisez la contrainte FNLT avec un projet de date de fin de planification, cette contrainte planifie la tâche comme si elle était en retard.
-* Lorsque vous déplacez ou copiez une tâche avec une contrainte FNET vers un autre projet, la contrainte de la tâche ou des dates du projet peut changer en fonction des dates de contrainte et des dates de début et de fin du projet. Les scénarios suivants sont possibles :
+* Vous devez utiliser cette contrainte lorsque le projet est planifié à partir de la date de début. Dans ce cas, vous pouvez imposer une contrainte souple sur une tâche avant qu’elle ne force d’autres tâches dépendantes à s’afficher comme À risque.
+* Lorsque vous utilisez la contrainte FNLT avec un projet Planifier à partir de la date d’achèvement, cette contrainte planifie la tâche comme une tâche Aussi Tard Que Possible.
+* Lorsque vous déplacez ou copiez une tâche avec une contrainte FNET vers un autre projet, la contrainte de la tâche ou les dates du projet peuvent changer en fonction des dates de la contrainte ainsi que des dates de début et de fin du projet. Les scénarios suivants sont possibles :
 
-   * Lorsque le projet de destination est planifié à partir du début :
+   * Lorsque le projet de destination est planifié à partir du début :
 
-      * Lorsque la date de contrainte de la tâche est antérieure à la date de début prévue du projet, la contrainte de tâche passe à Dès que possible.
-      * Lorsque la date de contrainte de la tâche est postérieure à la date de fin planifiée du projet, la date de fin prévue du projet est modifiée pour correspondre à la date de contrainte d’achèvement de la tâche.
+      * Lorsque la date de contrainte de la tâche est antérieure à la date de début prévue du projet, la contrainte de tâche passe à Aussi Tôt Que Possible.
+      * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement prévue du projet, la date d’achèvement prévue du projet est modifiée pour correspondre à la date de contrainte d’achèvement de la tâche.
 
-      * Lorsque le projet de destination est planifié à partir de la fin :
+      * Lorsque le projet de destination est planifié à partir de l’achèvement :
 
-         * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement du projet, la contrainte de la tâche passe à Aussi tard que possible.
-         * Lorsque la date de contrainte de la tâche est antérieure à la date de début planifiée du projet, la date de début planifiée du projet change pour correspondre à la date de contrainte de début de la tâche.
+         * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement du projet, la contrainte de la tâche passe à Aussi Tard Que Possible.
+         * Lorsque la date de contrainte de la tâche est antérieure à la date de début prévue du projet, la date de début prévue du projet change pour correspondre à la date de contrainte de début de la tâche.
 
-      * Quelle que soit la planification du projet, lorsque la date de contrainte de la tâche se trouve dans les dates de début et de fin du projet, aucune modification n’est apportée à la contrainte de tâche ou aux dates du projet.
+      * Quel que soit le planning du projet, lorsque la date de contrainte de la tâche se trouve entre les dates de début et d’achèvement du projet, aucune modification n’est apportée à la contrainte de tâche ou aux dates du projet.
 
-  Pour plus d’informations sur le déplacement des tâches, voir [Déplacer les tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md). Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md). Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mise à jour de la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mettre à jour la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

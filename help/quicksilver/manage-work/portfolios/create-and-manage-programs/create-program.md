@@ -2,7 +2,7 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Création d’un programme
-description: Un programme représente une collection de projets qui partagent une stratégie ou un objectif commun qui transcende les limites du projet. Les programmes sont une subdivisions de portefeuilles et ils ne peuvent exister en dehors d'un portefeuille. Les programmes partagent généralement les mêmes ressources que les autres programmes du même portefeuille. Vous pouvez créer des programmes pour organiser vos portefeuilles lorsqu’ils deviennent trop volumineux.
+description: Un programme représente un ensemble de projets qui partagent une stratégie ou un objectif commun qui transcende les limites du projet. Les programmes sont une subdivisions de portefeuilles et ils ne peuvent exister en dehors d'un portefeuille. Les programmes partagent généralement les mêmes ressources que les autres programmes du même portefeuille. Vous pouvez créer des programmes pour organiser vos portefeuilles lorsqu’ils deviennent trop volumineux.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
@@ -37,30 +37,30 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td>
 
-<td> <p>N’importe quelle</p> </td> 
+<td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td> <p>Nouvelle : [!UICONTROL Standard] </p><p>Ou </p><p>Actuelle : [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès [!UICONTROL Edit] aux portfolios et aux programmes </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations [!UICONTROL Manage] sur le portfolio</p> <p>Une fois que vous avez créé un programme, vous disposez par défaut des autorisations [!UICONTROL Manage].</p>  </td> 
+   <td> <p>Autorisations [!UICONTROL Manage] pour le portfolio</p> <p>Une fois que vous avez créé un programme, vous disposez par défaut des autorisations de [!UICONTROL Manage].</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Créer un programme
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
 
 1. Utilisez l’une des méthodes suivantes :
 
@@ -109,11 +109,11 @@ Vous pouvez indiquer les informations suivantes :
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
-      <td> <p>Commencez à saisir le nom de l’utilisateur ou de l’utilisatrice que vous souhaitez utiliser comme responsable de programme, puis cliquez sur son nom lorsqu’il apparaît dans la liste déroulante. Il s’agit du même nom que le ou la [!UICONTROL Program Owner]. </p> <p>Conseil : vous pouvez également mettre à jour le ou la responsable du programme dans l’en-tête du programme. </p> </td> 
+      <td> <p>Commencez à saisir le nom de l’utilisateur ou utilisatrice que vous souhaitez utiliser comme responsable de programme, puis cliquez sur son nom lorsqu’il apparaît dans la liste déroulante. Il s’agit du même nom que le ou la [!UICONTROL Program Owner]. </p> <p>Conseil : vous pouvez également mettre à jour le ou la responsable du programme dans l’en-tête du programme. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Group] </td> 
-      <td> <p>Ajoutez le nom d’un seul groupe si le groupe est responsable du programme ou s’il est responsable de l’exécuter. </p> <p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en le survolant et en cliquant sur l’icône [!UICONTROL information] <img src="assets/info-icon.png"> qui s’affiche en regard de celui-ci. Cette option permet d’afficher une infobulle contenant des informations sur le groupe, telles que la hiérarchie des groupes qui le précèdent et ses administrateurs et administratrices.</p> 
+      <td> <p>Ajoutez le nom d’un seul groupe si le groupe est responsable du programme ou s’il est responsable de l’exécuter. </p> <p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en pointant dessus et en cliquant sur l’icône [!UICONTROL information] <img src="assets/info-icon.png"> qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
        </div> </td> 
@@ -184,7 +184,7 @@ Les informations suivantes s’affichent dans l’en-tête d’un programme :
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Program Manager]</td> 
-   <td> <p>Vous pouvez modifier le ou la responsable du programme dans l’en-tête. Il s’agit du même nom que le ou la [!UICONTROL Program Owner]. </p> </td> 
+   <td> <p>Vous pouvez modifier la personne gestionnaire de programmes dans l’en-tête. Il s’agit du même nom que le ou la [!UICONTROL Program Owner]. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
@@ -192,7 +192,7 @@ Les informations suivantes s’affichent dans l’en-tête d’un programme :
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Active Projects Condition]</td> 
-   <td>Il s’agit d’un calcul du pourcentage de projets du programme pour lesquels la [!UICONTROL Condition] est définie sur [!UICONTROL On Target], [!UICONTROL At Risk] ou [!UICONTROL In Trouble]. Les projets représentés ici sont des projets dont le statut est [!UICONTROL Current] et [!UICONTROL Approved]. </td> 
+   <td>Il s’agit d’un calcul du pourcentage de projets du programme pour lesquels le [!UICONTROL Condition] est définie sur [!UICONTROL On Target], [!UICONTROL At Risk] ou [!UICONTROL In Trouble]. Les projets représentés ici sont des projets dont le statut est [!UICONTROL Current] et [!UICONTROL Approved]. </td> 
   </tr> 
  </tbody> 
 </table>

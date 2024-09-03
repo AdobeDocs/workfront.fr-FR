@@ -2,8 +2,8 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Vue d’ensemble des sections d’Objectifs Adobe Workfront
-description: Vous pouvez accéder à des listes d’objectifs ou d’objectifs individuels et les gérer à partir de plusieurs sections dans Objectifs Adobe Workfront. La section que vous utilisez dépend du but que vous souhaitez atteindre lorsque vous travaillez avec des objectifs.
+title: Vue d’ensemble des sections d’Objectifs Adobe Workfront
+description: Vous pouvez accéder à des listes de buts ou d’objectifs individuels et les gérer à partir de plusieurs sections dans Objectifs Adobe Workfront. La section que vous utilisez dépend du but que vous souhaitez atteindre lorsque vous travaillez avec des objectifs.
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 ---
 
-# Vue d’ensemble des sections d’Objectifs Adobe Workfront
+# Vue d’ensemble des sections d’Objectifs Adobe Workfront
 
 >[!IMPORTANT]
 >
@@ -31,11 +31,11 @@ ht-degree: 98%
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
 > 
->Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditions requises pour utiliser Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Une fois que l’équipe d’administration Workfront vous a accordé l’accès aux Objectifs Workfront, vous pouvez afficher les objectifs que vous ou toute autre personne de votre organisation avez créés dans la zone Objectifs Workfront.
+Une fois que l’équipe d’administration Workfront vous a accordé l’accès aux Objectifs Workfront, vous pouvez afficher les objectifs que vous ou toute autre personne de votre entreprise avez créés dans la zone Objectifs Workfront.
 
-Vous pouvez accéder à des listes d’objectifs ou d’objectifs individuels et les gérer à partir de plusieurs sections dans les Objectifs Workfront. La section que vous utilisez dépend de l’objectif que vous souhaitez atteindre lorsque vous travaillez avec des objectifs.
+Vous pouvez accéder à des listes de buts ou d’objectifs individuels et les gérer à partir de plusieurs sections dans les Objectifs Workfront. La section que vous utilisez dépend de l’objectif que vous souhaitez atteindre lorsque vous travaillez avec des objectifs.
 
 Vous pouvez appliquer des filtres pour n’afficher que les objectifs qui vous sont importants dans chaque section.
 
@@ -43,18 +43,18 @@ Vous pouvez appliquer des filtres pour n’afficher que les objectifs qui vous s
 >
 >Les filtres mis à jour dans une section sont automatiquement appliqués aux sections Liste des objectifs, Graphiques et Alignement des objectifs. De cette façon, vous ne pouvez les mettre à jour qu’une seule fois. Pour plus d’informations, voir [Filtrer les informations dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-Vous trouverez ci-dessous une brève vue d’ensemble des sections des Objectifs Workfront et des options disponibles pour la gestion des objectifs. Pour plus d’informations sur les actions supplémentaires que vous pouvez effectuer dans chaque section des Objectifs Workfront, nous vous recommandons également les articles suivants :
+Vous trouverez ci-dessous un bref aperçu des sections des Objectifs Workfront et des options disponibles pour la gestion des objectifs. Pour plus d’informations sur les actions supplémentaires que vous pouvez effectuer dans chaque section des Objectifs Workfront, nous vous recommandons également les articles suivants :
 
-* [Créer des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
-* [Mettre à jour la progression des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
-* [Filtrer des informations dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md)
+* [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
+* [Mettre à jour la progression des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [Filtrer les informations dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 
 
 ## Liste d’objectifs
 
-Vous pouvez utiliser la Liste des objectifs pour passer en revue les objectifs qui vous appartiennent, ainsi qu’à vos équipes, à vos groupes ou à votre organisation. Vous pouvez afficher les objectifs dans n’importe quel statut et à partir de n’importe quelle période.
+Vous pouvez utiliser la Liste des objectifs pour passer en revue les objectifs qui vous appartiennent, à vos équipes, à vos groupes ou à votre organisation. Vous pouvez afficher les objectifs dans n’importe quel statut et à partir de n’importe quelle période.
 
-Pour plus d’informations sur la navigation dans la Liste des objectifs et la gestion des objectifs, voir [Gérer les objectifs dans la Liste des objectifs d’Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+Pour plus d’informations sur la navigation dans la Liste des objectifs et la Gestion des objectifs, voir [Gérer les objectifs dans la Liste des objectifs d’Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
 ![](assets/goal-list-unshimmed.png)
 
@@ -66,7 +66,7 @@ Utilisez la Liste des objectifs pour effectuer les opérations suivantes :
 
   Pour plus d’informations, voir [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
-* Accéder à la page d’un objectif et le modifier, le metttre à jour, ainsi que ses résultats et ses activités
+* Accédez à la page d’un objectif et modifiez-le, mettez-le à jour, ses résultats ou ses activités.
 
   Pour plus d’informations, voir [Modifier les objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/edit-goals.md).
 
@@ -88,22 +88,22 @@ Utilisez la section Graphiques pour effectuer les opérations suivantes :
 
 ## Alignement des objectifs
 
-Si vos objectifs sont harmonisés, utilisez la section Alignement des objectifs pour afficher et revoir tous les objectifs de votre organisation, ainsi que leur alignement les uns par rapport aux autres. Les objectifs alignés s’affichent ici sur les cartes connectées afin d’illustrer l’alignement entre eux. Les objectifs parent s’affichent en premier, et les objectifs enfant sont empilés derrière eux. Vous pouvez afficher les objectifs dans n’importe quel statut et à n’importe quelle période dans cette section.
+Si vos objectifs sont harmonisés, utilisez la section Alignement des objectifs pour afficher et revoir tous les objectifs de votre organisation, ainsi que leur alignement les uns par rapport aux autres. Les objectifs alignés s’affichent ici sur les cartes connectées afin d’illustrer l’alignement entre eux. Les objectifs parents s’affichent en premier, et les objectifs enfants sont empilés derrière eux. Vous pouvez afficher les objectifs dans n’importe quel statut et à n’importe quelle période de cette section.
 
 Pour plus d’informations sur la navigation dans la section Alignement des objectifs pour gérer les objectifs, voir [Naviguer dans la section Alignement des objectifs d’Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
 Pour plus d’informations sur l’alignement des objectifs, consultez les articles suivants :
 
-* [Aligner des objectifs en les connectant à Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
-* [Alignement des objectifs en convertissant les résultats et les activités en objectifs](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+* [Aligner les objectifs en les connectant dans Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Aligner les objectifs en convertissant les résultats et les activités en objectifs](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ![](assets/goal-alignment-section-unshimmed.png)
 
-Utilisez la section Alignement des objectifs pour effectuer les opérations suivantes :
+Utilisez la section Alignement de l’objectif pour effectuer les opérations suivantes :
 
-* Afficher les objectifs qui vous appartiennent ou qui appartiennent à votre organisation au format d’une carte.
+* Affichez les objectifs qui vous appartiennent ou qui appartiennent à votre organisation au format d’une carte.
 * Afficher la hiérarchie des objectifs et afficher les objectifs enfants alignés.
-* Accéder à la page de l’objectif et mettre à jour l’objectif, ses résultats ou ses activités.
+* Accédez à la page de l’objectif et mettez à jour l’objectif, ses résultats ou ses activités.
 
 <!--
 ## Pulse

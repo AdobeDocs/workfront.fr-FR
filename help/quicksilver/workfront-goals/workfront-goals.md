@@ -30,14 +30,14 @@ ht-degree: 92%
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
 > 
->Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditions requises pour utiliser Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Cette section contient les sous-sections suivantes :
 
 * [Vue d’ensemble d’Objectifs Adobe Workfront](../workfront-goals/goal-management/wf-goals-overview.md)
 * [Gestion des objectifs dans Objectifs Adobe Workfront](../workfront-goals/goal-management/goal-management.md)
 * [Alignement des objectifs dans Objectifs Adobe Workfront](../workfront-goals/goal-alignment/goal-alignment.md)
-* [Examen des objectifs et sections d’Objectifs Adobe Workfront](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
+* [Réviser les objectifs et les sections d’Objectifs Adobe Workfront](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
 * [Résultats et activités dans Objectifs Adobe Workfront](../workfront-goals/results-and-activities/results-and-activities.md)
 
   <!--

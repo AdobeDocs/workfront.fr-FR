@@ -2,148 +2,148 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Marque le site  [!DNL Workfront] Proof - advanced
-description: La valorisation de marque avancée est disponible sur les plans Select et Premium et est incluse dans le coût du plan.
+title: Branding du site  [!DNL Workfront]  Proof - Avancé
+description: Le branding avancé est disponible pour les formules Select et Premium et est inclus dans le tarif de la formule.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Marque le site [!DNL Workfront Proof] - Avancé
+# Branding du site [!DNL Workfront Proof] - Avancé
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-La valorisation de marque avancée est disponible sur les plans Select et Premium et est incluse dans le coût du plan.
+Le branding avancé est disponible pour les formules Select et Premium et est inclus dans le tarif de la formule.
 
-Pour plus d’informations sur l’identité graphique de base, qui inclut la page de connexion, les notifications électroniques et les bons à tirer, voir [Marque du [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Pour plus d’informations sur le banding de base, qui comprend la page de connexion, les notifications par e-mail et les épreuves, voir [Branding du site  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
-Les options de branding avancées incluent la personnalisation des zones suivantes :
+Les options de branding avancé comprennent la personnalisation des domaines suivants :
 
-* Couleur d’en-tête et de texte
-* En-tête de l&#39;application web
-* Barre de menus et couleur du texte
-* Zone de bienvenue du tableau de bord et zone de démarrage rapide
+* Couleur de l’en-tête et du texte
+* En-tête de l’application web
+* Couleur de la barre de menu et du texte
+* Zone d’accueil du tableau de bord et zone de démarrage rapide
 * Texte du pied de page
-* Favicon
+* Icône Favicon
 * Titre de la page
 * Liens d’aide
 
-Les sections suivantes décrivent plus en détail les marques avancées :
+Les sections suivantes décrivent plus en détail le branding avancé :
 
-## Présentation de la marque avancée
+## Vue d’ensemble du branding avancé
 
-Vous trouverez la section [!UICONTROL Configuration de la marque] dans l’onglet de votre page [Paramètres du compte](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings). Pour appliquer les modifications à votre compte, assurez-vous que l’option Valorisation de marque est définie sur [!UICONTROL Activé] (1).
+Vous trouverez la section [!UICONTROL Configuration du branding] dans l’onglet de votre page [Paramètres du compte](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings). Pour appliquer les modifications à votre compte, vérifiez que l’option Branding est définie sur [!UICONTROL Activé] (1).
 ![Advanced_Branding.png](assets/advanced-branding-350x618.png)
 
-Consultez la section ci-dessous pour plus d’informations sur la configuration des options de branding avancées (2-14).
+Veuillez consulter la section ci-dessous pour obtenir des informations plus détaillées sur la configuration des options de branding avancé (2-14).
 
-## Configuration avancée de la marque
+## Configuration du branding avancé
 
-Vous pouvez marquer les zones suivantes de [!DNL Workfront Proof] :
+Vous pouvez appliquer le branding aux zones suivantes de [!DNL Workfront Proof] :
 
 * [Application web](#web-application)
 * [En-tête](#header)
 * [Liens d’en-tête](#header-links)
 * [Barre latérale](#sidebar)
-* [Zone de bienvenue](#welcome-box)
+* [Zone d’accueil](#welcome-box)
 * [En-têtes de section](#section-headers)
 
 ### Application web {#web-application}
 
 ![Web_branding_image.png](assets/web-branding-image-350x181.png)
 
-Vous avez le choix entre trois options de branding pour l’en-tête de l’application web (2) :
+Vous avez le choix entre trois options de branding pour l’en-tête de l’application web (2) :
 
 * Image de marque dans l’en-tête
 * Votre nom de compte dans l’en-tête
-* Si vous désactivez l’identité graphique, le logo [!DNL Workfront Proof] restera dans l’en-tête de l’application web.
+* Si vous désactivez le branding, le logo [!DNL Workfront Proof] reste dans l’en-tête de l’application web.
 
-Image de marque : redimensionne la taille maximale à 550 x 90 pixels. Vous pouvez utiliser des GIFs, des  ou des PNG JPG les arrière-plans transparents sont pris en charge.
+Image de marque - Redimensionnée à une taille maximale de 550 x 90 px. Vous pouvez utiliser des fichiers JPG, GIF ou PNG, et les arrière-plans transparents sont pris en charge.
 
-Nom du compte : extrait des détails du compte et affiché à l’aide d’une police blanche. Le nom de votre compte peut contenir jusqu’à 60 caractères (espaces et signes de ponctuation inclus).
+Nom du compte - Repris des détails de votre compte et affiché en caractères blancs. Le nom de votre compte peut comporter jusqu’à 60 caractères (y compris les espaces et les signes de ponctuation).
 
 ### En-tête {#header}
 
 Dans ce champ (3), vous pouvez définir l’arrière-plan de l’en-tête et choisir une couleur unie ou une image d’arrière-plan.
 
-Couleur : ici, comme dans tous les autres champs de valorisation de marque de la configuration du modèle de couleurs, vous pouvez saisir une valeur de couleur hexadécimale de votre choix ou utiliser un sélecteur de couleurs pratique (lorsque vous cliquez sur le champ de texte pour ouvrir la fenêtre contextuelle). La couleur d’arrière-plan de l’en-tête par défaut est #232d2e.
+Couleur - Ici, comme dans tous les autres champs de branding de la configuration du modèle de couleurs, vous pouvez soit saisir une valeur de couleur hexadécimale de votre choix, soit utiliser un sélecteur de couleur pratique (un clic sur le champ de texte ouvre la fenêtre contextuelle). La couleur d’arrière-plan par défaut de l’en-tête est #232d2e.
 
-![Marque_-_color_picker.png](assets/branding---color-picker-350x131.png)
+![Branding_-_color_picker.png](assets/branding---color-picker-350x131.png)
 
-Image d’arrière-plan : peut être combinée à l’image de marque.
+Image d’arrière-plan - Peut être combinée avec l’image de marque.
 
-* Vous pouvez utiliser des GIFs, des  ou des PNG JPG : pour les fichiers en transparence, une couleur d’arrière-plan blanche s’affiche.
-* La hauteur de l’en-tête est de 96 px et l’image chargée ne sera pas redimensionnée pour l’option [!UICONTROL Aucune répétition] .
-* L’image d’arrière-plan est positionnée en haut à gauche.
+* Vous pouvez utiliser des fichiers JPG, GIF ou PNG. Pour les fichiers transparents, un arrière-plan blanc s’affiche.
+* La hauteur de l’en-tête est de 96 px et l’image chargée ne sera pas redimensionnée pour l’option [!UICONTROL Pas de répétition].
+* L’image d’arrière-plan est placée en haut à gauche.
 
 ### Liens d’en-tête {#header-links}
 
-Dans ce champ (4), vous pouvez modifier la couleur et la couleur du nom d’utilisateur des liens dans le menu En-tête visible dans le coin supérieur droit de votre compte.
+Dans ce champ (4), vous pouvez modifier la couleur du nom d’utilisateur ou d’utilisatrice et la couleur des liens dans le menu d’en-tête visible dans le coin supérieur droit de votre compte.
 ![Header_links.png](assets/header-links-350x140.png)
 
 ### Barre latérale {#sidebar}
 
-Sélectionnez les couleurs de la barre de menus (5) et de la police de menus (6) pour personnaliser la barre latérale.
+Choisissez des couleurs pour la barre de menu (5) et la police de caractères du menu (6) pour personnaliser votre barre latérale.
 
 ![Menu_bar.png](assets/menu-bar-350x490.png)
 
 >[!NOTE]
 >
->La couleur de survol s’ajuste automatiquement en ajoutant une valeur hexadécimale constante à la couleur de la barre de menus sélectionnée.
+>Lorsque vous pointez la couleur, elle s’ajuste automatiquement en ajoutant une valeur Hex constante à la couleur de la barre de menu sélectionnée.
 
-La couleur du bouton Nouveau BAT ne peut pas être personnalisée.
+La couleur du bouton Nouvelle épreuve ne peut pas être personnalisée.
 
-### Zone de bienvenue {#welcome-box}
+### Zone d’accueil {#welcome-box}
 
-Dans ce champ (7), vous pouvez définir la couleur de la zone de bienvenue qui s’affiche sur la page Tableau de bord .
+Dans ce champ (7), vous pouvez définir la couleur de la zone de bienvenue qui s’affiche sur la page du tableau de bord.
 ![Welcome_box.png](assets/welcome-box-350x110.png)
 
 ### En-têtes de section {#section-headers}
 
-Ces champs vous permettent de personnaliser l’arrière-plan (8) et la couleur de police (9) des en-têtes de section sur les pages [[!UICONTROL Paramètres du compte]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings).
+Ces champs vous permettent de personnaliser l’arrière-plan (8) et la couleur de la police (9) des en-têtes de section sur les pages [[!UICONTROL Paramètres du compte]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings).
 ![Section_headers.png](assets/section-headers-350x138.png)
 
 **Pied de page**
 
-Dans ce champ (10) de la configuration Valorisation de marque, vous pouvez composer un pied de page qui s&#39;affichera au bas de toutes les pages du compte. Vous pouvez utiliser l’éditeur WYSIWYG intégré ou simplement coller votre propre conception.
+Dans ce champ (10) de la configuration du branding, vous pouvez composer un pied de page qui sera affiché au bas de toutes les pages du compte. Vous pouvez utiliser l’éditeur WYSIWYG intégré ou simplement coller votre propre conception.
 ![Footer.png](assets/footer-350x157.png)
 
 >[!NOTE]
 >
->Vous ne pouvez pas modifier l’HTML dans l’éditeur de texte de pied de page, mais vous pouvez coller une conception copiée (comprenant tous les liens et les images).
+>Vous ne pouvez pas modifier le code HTML dans l’éditeur de texte du pied de page, mais vous pouvez coller une conception copiée (y compris tous les liens et toutes les images).
 
-**Favicon et titre de la page**
+**Favicon et titre de page**
 
-Vous pouvez personnaliser la présentation de vos [!DNL Workfront Proof] pages dans les navigateurs en définissant vos propres images favicon (fichier .ICO) (11) et le titre de la page (12). Ceux-ci s’afficheront dans les en-têtes des onglets/fenêtres des navigateurs pour toutes les pages du compte.
+Vous pouvez personnaliser la présentation de vos pages [!DNL Workfront Proof] dans les navigateurs en définissant votre propre image favicon (fichier .ICO) (11) et votre titre de page (12) - ceux-ci seront affichés dans les en-têtes des onglets/fenêtres des navigateurs pour toutes les pages du compte.
 ![Favico_and_Page_title.png](assets/favico-and-page-title-350x95.png)
 
 >[!NOTE]
 >
->Votre favicon s’affichera également dans les en-têtes des fenêtres de visionneuse [!DNL Workfront Proof] pour tous les bons à tirer créés sur votre compte.
+>Votre favicon sera également affiché dans les en-têtes des fenêtres de visionneuse [!DNL Workfront Proof] pour toutes les épreuves créées sur votre compte.
 
 **Liens d’aide**
 
-Vous pouvez personnaliser vos propres liens d’aide pour diriger vos utilisateurs et réviseurs vers votre propre contenu. Pour activer cette fonction, définissez l’option [!UICONTROL Liens d’aide] (13) sur Activé et ajoutez vos liens dans les champs suivants (14). Vous pouvez configurer jusqu’à quatre liens qui seront disponibles :
+Vous pouvez personnaliser vos propres liens d’aide afin de diriger vos utilisateurs et utilisatrices ainsi que vos réviseurs et réviseuses vers votre propre contenu. Pour activer cette fonctionnalité, définissez l’option [!UICONTROL Liens d’aide] (13) sur Activé et ajoutez vos liens dans les champs suivants (14). Vous pouvez configurer jusqu’à quatre liens et ils seront disponibles :
 
-* dans le menu [!UICONTROL En-tête] sous le lien [!UICONTROL Aide]
+* dans le menu [!UICONTROL En-tête] sous le lien [!UICONTROL Aide] ;
   ![Help_links1.png](assets/help-links1-350x170.png)
 
-* dans le panneau [!UICONTROL Aide] de la barre latérale [!DNL Workfront Proof] [!UICONTROL Visionneuse]
+* dans le panneau [!UICONTROL Aide] de la barre latérale [!UICONTROL Visionneuse] [!DNL Workfront Proof].
   ![Help_links2.png](assets/help-links2-350x532.png)
 
-Pour des frais supplémentaires, les clients qui bénéficient d’un abonnement Entreprise ont également la possibilité de personnaliser entièrement les éléments suivants :
+Moyennant un supplément, les clientes et clients des plans Entreprise ont également la possibilité de personnaliser entièrement les éléments suivants :
 
-* Personnalisez entièrement vos landing pages (par exemple, pages de connexion et de déconnexion, page de mot de passe oublié).
-* Personnalisation complète de votre domaine
+* Personnaliser entièrement les pages de destination (par exemple, les pages de connexion et de déconnexion, la page de mot de passe oublié)
+* Personnaliser entièrement le domaine
 
-Contactez-nous à l’adresse sales.team@workfront.com pour en savoir plus sur les autres options de branding.
+Pour en savoir plus sur les options de branding supplémentaires, contactez-nous à l’adresse sales.team@workfront.com.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Domains</h2>

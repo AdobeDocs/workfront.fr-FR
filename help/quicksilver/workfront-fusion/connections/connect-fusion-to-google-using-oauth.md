@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto">
  <col> 
@@ -26,11 +26,11 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
@@ -79,7 +79,7 @@ Pour établir cette connexion, vous devez créer et configurer un projet sur la 
 
 Pour créer un projet sur la plateforme [!DNL Google Cloud], procédez comme suit :
 
-1. Connectez-vous à la plateforme [[!DNL Google Cloud] ](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) à l’aide de vos informations d’identification [!DNL Google].
+1. connectez-vous à la plateforme [[!DNL Google Cloud] ](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) à l’aide de vos identifiants [!DNL Google].
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Tableau de bord]**.
 1. Cliquez sur **[!UICONTROL Créer un projet]** dans le coin supérieur droit de l’écran.
 1. Saisissez le **[!UICONTROL Nom du projet]**, puis cliquez sur **[!UICONTROL Créer]**.
@@ -97,7 +97,7 @@ Pour créer un projet sur la plateforme [!DNL Google Cloud], procédez comme sui
 1. Dans l’écran qui s’affiche, cliquez sur **[!UICONTROL Créer des informations d’identification]** dans le coin supérieur droit.
 1. Passez à la section [Configurer les paramètres de consentement OAuth](#configure-oauth-consent-settings) dans cet article.
 
-### Configurer les paramètres de [!UICONTROL consentement OAuth]
+### Configurer les paramètres du [!UICONTROL consentement OAuth]
 
 1. Dans le panneau de gauche, cliquez sur l’**[!UICONTROL écran de consentement OAuth]**.
 1. Sélectionnez **[!UICONTROL Externe]**, puis cliquez sur **[!UICONTROL Créer]**.
@@ -176,7 +176,7 @@ Il se peut que vous deviez développer la liste ou passer à la page suivante de
    >
    >Si ce n’est pas la première API ou le premier service ([!DNL Gmail] ou [!DNL Google Drive]) que vous activez, vous n’avez pas besoin de créer de nouvelles informations d’identification.
 
-1. Cliquez sur **[!UICONTROL Créer des informations d’identification]** en haut de l’écran, puis sélectionnez **[!UICONTROL ID client OAuth]** dans le menu déroulant.
+1. Cliquez sur **[!UICONTROL Créer des informations d’identification]** en haut de l’écran, puis sélectionnez **[!UICONTROL Identifiant client OAuth]** dans le menu déroulant.
 
 1. Remplissez les champs obligatoires comme suit :
 
@@ -195,7 +195,7 @@ Il se peut que vous deviez développer la liste ou passer à la page suivante de
     </tbody> 
    </table>
 
-1. Sous [!UICONTROL URI de redirection autorisés], cliquez sur **[!UICONTROL Ajouter un URI]** et saisissez **un** des éléments suivants :
+1. Dans [!UICONTROL URI de redirection autorisés], cliquez sur **[!UICONTROL Ajouter un URI]** et saisissez **un** des éléments suivants :
 
    * Pour [!DNL Gmail] ou [!DNL Google Drive] : `https://app.workfrontfusion.com/oauth/cb/google-restricted`
 
@@ -203,9 +203,9 @@ Il se peut que vous deviez développer la liste ou passer à la page suivante de
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-   L’[!UICONTROL ID client] et le [!UICONTROL secret client] s’affichent.
+   L’[!UICONTROL identifiant client] et le [!UICONTROL secret client] s’affichent.
 
-1. Copiez l’[!UICONTROL ID client] et le [!UICONTROL secret client] dans un endroit sûr. Vous les utiliserez pour vous connecter à [!DNL Workfront Fusion].
+1. Copiez l’[!UICONTROL identifiant client] et le [!UICONTROL secret client] dans un endroit sûr. Vous les utiliserez pour vous connecter à [!DNL Workfront Fusion].
 1. Continuez vers [Se connecter à  [!DNL Google]  dans  [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion).
 
 ### Se connecter à [!DNL Google] dans [!DNL Workfront Fusion]
@@ -220,7 +220,7 @@ Le processus de création d’une connexion à [!DNL Google] diffère selon que 
 1. Dans [!DNL Workfront Fusion], localisez le module [!DNL Google] pour lequel vous devez créer une connexion.
 1. Cliquez sur **[!UICONTROL Créer une connexion]**, puis cliquez sur **[!UICONTROL Afficher les paramètres avancés]**.
 
-1. Saisissez l’[!UICONTROL ID client] et le [!UICONTROL secret client] que vous avez récupérés dans [[!UICONTROL Créer des informations d’identfication OAuth]](#create-oauth-credentials) dans les champs respectifs, puis cliquez sur **[!UICONTROL Continuer]**.
+1. Saisissez l’[!UICONTROL identifiant client] et le [!UICONTROL secret client] que vous avez récupérés dans [[!UICONTROL Créer des informations de connexion OAuth]](#create-oauth-credentials) dans les champs respectifs, puis cliquez sur **[!UICONTROL Continuer]**.
 
 1. Connectez-vous avec votre compte [!DNL Google].
 

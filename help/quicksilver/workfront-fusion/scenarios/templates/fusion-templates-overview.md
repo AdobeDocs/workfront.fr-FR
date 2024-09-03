@@ -10,11 +10,11 @@ exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
 source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 13%
+ht-degree: 20%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] - Aperçu des modèles
+# Vue d’ensemble des modèles [!DNL Adobe Workfront Fusion]
 
 La fonction [!DNL Workfront Fusion] de modèles vous permet de créer et d’utiliser des modèles existants comme point de départ pour vos scénarios [!DNL Workfront Fusion]. Les modèles représentent des cas d’utilisation courants que vous pouvez configurer et modifier pour répondre aux besoins de votre entreprise et à des cas d’utilisation spécifiques.
 
@@ -22,7 +22,7 @@ Pour obtenir la liste des modèles Fusion actuellement disponibles, voir [Modèl
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto"> 
  <col>  
@@ -30,26 +30,26 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
  <tbody>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront] plan</td>  
-   <td> <p>N’importe quelle</p> </td>  
+   <td> <p>Tous</p> </td>  
   </tr>  
   <tr data-mc-conditions="">  
    <td role="rowheader">[!DNL Adobe Workfront] licence</td>  
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td>  
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td>  
   </tr>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td>  
    <td> 
-   <p>Actuel : aucune exigence de licence [!DNL Workfront Fusion].</p> 
+   <p>Actuelle : aucune exigence de licence [!DNL Workfront Fusion] requise.</p> 
    <p>Ou</p> 
-   <p>Hérité : Tout </p> 
+   <p>Héritée : n’importe laquelle. </p> 
    </td>  
   </tr>  
   <tr>  
    <td role="rowheader">Produit</td>  
    <td> 
-   <p>Nouveau :</p> <ul><li>Formule [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>Plan [!UICONTROL Ultimate] [!DNL Workfront] : [!DNL Workfront Fusion] est inclus.</li></ul> 
+   <p>Nouveau :</p> <ul><li>Forfait [!DNL Workfront] [!UICONTROL Select] ou [!UICONTROL Prime] : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>Forfait [!DNL Workfront] [!UICONTROL Ultimate] : [!DNL Workfront Fusion] est inclus.</li></ul> 
    <p>Ou</p> 
-   <p>Actuel : votre organisation doit acheter [!DNL Adobe Workfront Fusion].</p> 
+   <p>Actuel : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  

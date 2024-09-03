@@ -9,7 +9,7 @@ exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
 source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -28,9 +28,9 @@ Le fait de remplir l’analyse de rentabilité et de soumettre le projet à appr
 Vous pouvez demander un projet en l’ajoutant dans les zones suivantes d’Adobe Workfront :
 
 * Dans la zone Projets
-* Dans la zone Projets d’un portfolio
+* Dans la zone Projets d’un Portfolio
 * Dans la zone Projets d’un programme
-* Dans la zone Groupes du groupe du projet, si vous êtes administrateur ou administratrice du groupe
+* Dans la zone Groupes du groupe du projet, lorsque vous êtes administrateur ou administratrice de groupe
 
 ## Conditions d’accès
 
@@ -41,23 +41,23 @@ Vous pouvez demander un projet en l’ajoutant dans les zones suivantes d’Adob
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront*</p> </td> 
-   <td> <p>Nouvelle : standard </p>
+   <td> <p>Nouveau : Standard </p>
    Ou
    <p>Actuelle : formule </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
-   <td> <p>Modifier l’accès aux projets</p> </td> 
+   <td> <p>Accès en modification aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Lorsque vous créez une demande projet, vous recevez automatiquement les autorisations de gestion pour le projet. </p> </td> 
+   <td> <p>Lorsque vous créez une demande de projet, vous recevez automatiquement les droits de gestion du projet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ Vous pouvez demander un projet en l’ajoutant dans les zones suivantes d’Adob
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Suivez les mêmes étapes que pour créer un projet lors de la définition d’une analyse de rentabilité (recommandé).
+   * Suivez les mêmes étapes que pour créer un projet lors de la définition d’une analyse de rentabilité. (Recommandé)
 
      Pour plus d’informations sur la définition d’une analyse de rentabilité et la demande d’un projet, voir [Créer une analyse de rentabilité pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 

@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Créer un scénario d’intégration pratique dans Adobe Workfront Fusion
+title: Créer un scénario d’intégration des pratiques dans Adobe Workfront Fusion
 description: Cet article décrit comment créer un scénario d’intégration avec Adobe Workfront Fusion. Les scénarios d’intégration connectent des applications distinctes, ce qui permet à vos données d’évoluer dans différentes applications.
 author: Becky
 feature: Workfront Fusion
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Créer un scénario d’intégration pratique dans Adobe Workfront Fusion
+# Créer un scénario d’intégration des pratiques dans Adobe Workfront Fusion
 
 Cet article décrit comment créer un scénario d’intégration avec Adobe Workfront Fusion. Les scénarios d’intégration connectent des applications distinctes, ce qui permet à vos données d’évoluer dans différentes applications.
 
@@ -26,19 +26,19 @@ Pour plus d’informations sur les licences Workfront Fusion, voir [Licences Ad
 
 >[!NOTE]
 >
->Votre entreprise peut ne pas autoriser l’accès à Google Sheets. Si tel est le cas, vous ne pourrez pas configurer cette intégration, mais les informations présentées ici pourront être utilisées comme exemple général du fonctionnement des scénarios d’intégration.
+>Votre entreprise peut ne pas autoriser l’accès aux Google Sheets. Si tel est le cas, vous ne pourrez pas configurer cette intégration, mais les informations présentées ici pourront être utilisées comme exemple général du fonctionnement des scénarios d’intégration.
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>[!DNL Pro] ou supérieur</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td> <p>[!DNL Pro] ou une version ultérieure</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
@@ -47,41 +47,41 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
+   <p>Exigence de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences du produit actuel : si vous disposez du forfait  [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter  et  pour utiliser les fonctionnalités décrites dans cet article. [!DNL Adobe Workfront][!DNL Adobe Workfront Fusion][!DNL Adobe Workfront]. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
 
-Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Créer un scénario de test
+## Créer un scénario pratique
 
-[!DNL Adobe Workfront Fusion] vise à automatiser vos processus afin que vous puissiez vous concentrer sur de nouvelles tâches, plutôt que de répéter les mêmes tâches encore et encore. L’application fonctionne en reliant les actions au sein et entre les applications et les services, pour créer un scénario qui transfère et transforme vos données automatiquement. Le scénario que vous créez recherche les données dans une application ou un service et traite ces données pour obtenir le résultat souhaité.
+Le rôle d’[!DNL Adobe Workfront Fusion] consiste à automatiser vos processus afin que vous puissiez vous concentrer sur de nouvelles tâches, plutôt que de répéter les mêmes tâches encore et encore. La plateforme fonctionne en liant les actions dans et entre les applications et les services pour créer un scénario qui transfère et transforme vos données automatiquement. Le scénario que vous créez recherche les données dans une application ou un service et traite ces données pour obtenir le résultat souhaité.
 
 Un scénario se compose d’une série de modules qui indiquent comment les données doivent être transformées dans une application ou transférées entre les applications et les services web.
 
-Pour expliquer comment créer un scénario et renforcer les bonnes pratiques à mesure que vous apprenez à utiliser , cet article vous guide tout au long du processus, étape par étape. [!DNL Workfront Fusion] Nous allons créer un scénario qui crée un nouvel enregistrement dans [!DNL Workfront] pour chaque ligne d’une feuille de calcul [!DNL Google Sheets].
+Pour expliquer comment créer un scénario et renforcer les bonnes pratiques à mesure que vous apprenez à utiliser [!DNL Workfront Fusion], cet article vous guide tout au long du processus, étape par étape. Nous allons créer un scénario qui crée un nouvel enregistrement dans [!DNL Workfront] pour chaque ligne d’une feuille de calcul [!DNL Google Sheets].
 
 ![](assets/finished-scenario-1-350x180.png)
 
 >[!TIP]
 >
->Un tel scénario serait utile si vous aviez une feuille de calcul répertoriant les projets sur lesquels vous devez travailler à l’aide de projets dans . [!DNL Workfront] Le scénario peut « regarder » la feuille de calcul pour trouver de nouvelles lignes et ajouter un nouveau projet dans [!DNL Workfront] pour chacune d’elles.
+>Un tel scénario serait utile si vous aviez une feuille de calcul répertoriant les projets sur lesquels vous devez travailler à l’aide de projets dans [!DNL Workfront]. Le scénario peut « regarder » la feuille de calcul pour trouver de nouvelles lignes et ajouter un nouveau projet dans [!DNL Workfront] pour chacune d’elles.
 
-La création d’un scénario se compose de plusieurs tâches principales :
+La création d’un scénario comporte plusieurs tâches principales :
 
 ## Choisir les applications et nommer le scénario
 
@@ -94,11 +94,11 @@ La création d’un scénario se compose de plusieurs tâches principales :
    ![](assets/spreadsheet-headers-350x55.png)
 
 1. Connectez-vous à votre compte [!DNL Workfront Fusion].
-1. Cliquez sur **[!UICONTROL Scénarios]** ![](assets/scenarios-icon.png) dans le panneau de gauche.
+1. Cliquez sur **[!UICONTROL Scénarios]**![](assets/scenarios-icon.png) dans le panneau de gauche.
 
    >[!NOTE]
    >
-   >Si le panneau de navigation de gauche ou ses icônes ne s’affichent pas, cliquez sur l’icône de menu ![Menu](assets/main-menu-icon-left-nav.png).
+   >Si le panneau de navigation de gauche ou ses icônes ne s’affichent pas, cliquez sur l’icône menu ![Menu](assets/main-menu-icon-left-nav.png).
 
    Dans le panneau gris [!UICONTROL Dossiers] qui s’affiche, vous pouvez organiser vos scénarios en dossiers.
 
@@ -108,49 +108,49 @@ La création d’un scénario se compose de plusieurs tâches principales :
    ![](assets/scenarios-left-panel-350x215.png)
 -->
 
-1. Dans le panneau [!UICONTROL Dossiers], cliquez sur l’icône **[!UICONTROL Ajouter un dossier]** ![](assets/add-folder-icon.png), puis saisissez un nom tel que « Scénarios de test » pour votre premier dossier.
+1. Dans le panneau [!UICONTROL Dossiers], cliquez sur l’icône **[!UICONTROL Ajouter un dossier]**![](assets/add-folder-icon.png), puis saisissez un nom tel que « Scénarios pratique » pour votre premier dossier.
 
-1. Ouvrez le dossier, puis cliquez sur **[!UICONTROL Créer un scénario]** dans le coin supérieur droit de la page.
+1. Ouvrez le dossier, puis cliquez sur **[!UICONTROL Créer un nouveau scénario]** dans le coin supérieur droit de la page.
 
-   La page de destination qui s’affiche vous permet de précharger toutes les applications que vous souhaitez utiliser dans le scénario que vous allez créer.
+   La page de destination qui s’affiche vous permet de précharger les applications que vous souhaitez utiliser dans le scénario que vous allez créer.
 
-1. Pour cet exercice, recherchez et sélectionnez l’application **[!UICONTROL Google Sheets]**.
+1. Pour cet exercice, recherchez et sélectionnez l’application **[!UICONTROL Google Sheets]**.
 1. Cliquez sur **[!UICONTROL Continuer]** dans le coin supérieur droit.
 
-   L’éditeur de scénario s’affiche avec un module vide au centre, l’application [!DNL Google Sheets] que vous avez préchargée et certaines options dans la barre d’outils en bas.
+   L’éditeur de scénarios s’affiche, contenant un module vide au centre, l’application [!DNL Google Sheets] que vous avez pré-chargée et certaines options de la barre d’outils située en bas.
 
 <!--
    ![](assets/scenario-editor.png)
 -->
 
-Lorsque vous créez un scénario, il est préférable de commencer par lui donner un nom.
+Lorsque vous commencez à créer un nouveau scénario, il est bon de commencer par lui donner un nom.
 
-1. Sélectionnez le nom de l’espace réservé **[!UICONTROL Nouveau scénario]** dans le coin supérieur gauche, puis saisissez un nom tel que « Scénario de test 1 ».
-1. Passez à l’étape [Ajouter et configurer le premier module](#add-and-configure-the-first-module) ci-dessous.
+1. Sélectionnez le nom de l’espace réservé **[!UICONTROL Nouveau scénario]** dans le coin supérieur gauche, puis saisissez un nom tel que « Scénario pratique 1 ».
+1. Passez à la section [Ajouter et configurer le premier module](#add-and-configure-the-first-module) ci-dessous.
 
 ## Ajouter et configurer le premier module
 
-Le module vide avec un point d’interrogation représente le module de déclenchement que vous devez ajouter. Ce module démarre le scénario à chaque exécution. L’icône d’horloge sur le module vide indique qu’il s’agit d’un module planifié.
+Le module vide avec un point d’interrogation représente le module déclencheur que vous devez ajouter. Ce module démarre le scénario à chaque exécution. L’icône de l’horloge sur le module vide indique qu’il s’agit d’un module planifié.
 
 ![](assets/empty-module.png)
 
-Ce module contient les données que le scénario doit surveiller.
+Ce module contient les données que vous souhaitez que le scénario surveille.
 
 1. Cliquez sur le module vide pour choisir l’application à partir de laquelle vous allez sélectionner un module.
 
-   L’application que vous avez préchargée précédemment s’affiche en regard du module vide. Vous pouvez ajouter toute autre application qui comporte des modules dans la zone [!UICONTROL Rechercher].
+   L’application que vous avez préchargée précédemment s’affiche en regard du module vide. Vous pouvez ajouter toute autre application qui comporte des modules à l’aide de la zone [!UICONTROL Rechercher].
 
    ![](assets/pre-loaded-apps-350x139.png)
 
 1. Cliquez sur **[!DNL Google Sheets]**.
 
-   La liste affiche alors tous les modules [!DNL Google Sheets] que vous pouvez utiliser comme module déclencheur.
+   La liste change pour afficher tous les modules [!DNL Google Sheets] que vous pouvez utiliser comme module déclencheur.
 
 1. Cliquez sur le module déclencheur **[!UICONTROL Surveiller des enregistrements]**.
 
-   Vous devez maintenant établir une connexion authentifiée à votre compte Google. Chaque module que vous ajoutez à un scénario doit avoir une connexion avec son application.
+   Vous devez maintenant établir une connexion authentifiée à votre compte Google. Chaque module que vous ajoutez à un scénario doit avoir une connexion à son application.
 
-1. Dans la zone **[!DNL Google Sheets]** sous **[!UICONTROL Connexion]**, cliquez sur **[!UICONTROL Ajouter]**, saisissez un nom pour la connexion, par exemple « Compte Google d’Olivia », puis cliquez sur **[!UICONTROL Continuer]**.
+1. Dans la zone **[!DNL Google Sheets]** sous **[!UICONTROL Connexion]**, cliquez sur **[!UICONTROL Ajouter]**, puis saisissez un nom pour la connexion, par exemple « Compte Google d’Olivia », puis cliquez sur **[!UICONTROL Continuer]**.
 1. Authentifiez la connexion dans la fenêtre qui s’affiche.
 
    Le processus d’authentification d’une connexion peut varier légèrement d’une application à l’autre. Vous devrez peut-être vous connecter à l’application. Vous devrez certainement cliquer sur un bouton Autoriser. **** Si vous avez besoin d’aide, voir [Vue d’ensemble des connexions](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
@@ -159,7 +159,7 @@ Ce module contient les données que le scénario doit surveiller.
 
 Après avoir connecté [!DNL Workfront Fusion] à votre compte [!DNL Google Sheets], vous pouvez définir une feuille de calcul [!DNL Google Sheets] à laquelle vous avez accès et les données que vous souhaitez que le premier module traite.
 
-1. Cliquez sur la zone **[!UICONTROL Feuille de calcul]**, puis sélectionnez la feuille de calcul **[!UICONTROL Scénario pratique Workfront Fusion] #1** dans la liste qui s’affiche.
+1. Cliquez sur la zone **[!UICONTROL Feuille de calcul]**, puis sélectionnez la feuille de calcul **[!UICONTROL Scénario pratique Workfront Fusion] #1** dans la liste qui s’affiche.
 
    Cette feuille de calcul contient 2 feuilles (onglets). Nous devons donc indiquer quelle feuille contient les données souhaitées :
 
@@ -172,7 +172,7 @@ Après avoir connecté [!DNL Workfront Fusion] à votre compte [!DNL Google Shee
 1. Laissez **[!UICONTROL Oui]** sélectionné pour **[!UICONTROL Le tableau contient des en-têtes]**.
 
 1. Dans la zone **[!UICONTROL Lignes avec en-têtes]**, vous pouvez spécifier une plage de lignes à inclure, mais laissez la valeur A1:Z1 par défaut pour cet exercice.
-1. Dans la zone **[!UICONTROL Limite]**, saisissez 1.
+1. Dans la zone **[!UICONTROL Limite]** , saisissez 1.
 
    Ainsi, chaque fois que vous exécutez le scénario, le module ne traite qu’une ligne dans la feuille de calcul. Cela s’avère utile pour simplifier les exécutions de test pendant que vous créez le scénario.
 
@@ -180,37 +180,37 @@ Après avoir connecté [!DNL Workfront Fusion] à votre compte [!DNL Google Shee
 
    La zone **[!UICONTROL Choix de l’emplacement de départ]** vous invite à indiquer où, dans la feuille de calcul, vous souhaitez que le module commence le traitement.
 
-1. Cliquez sur **[!UICONTROL Sélection manuelle]**, sélectionnez la première option dans la liste qui s’affiche, puis cliquez sur **[!UICONTROL OK]**.
+1. Cliquez sur **[!UICONTROL Sélection manuelle]**, sélectionnez l’option supérieure dans la liste qui s’affiche, puis cliquez sur **[!UICONTROL OK]**.
 1. Cliquez avec le bouton droit sur le module, cliquez sur **[!UICONTROL Renommer]**, saisissez un nom qui décrit ce que le module doit faire (par exemple « Surveiller la liste de projets »), puis cliquez sur **[!UICONTROL OK]**.
 
-   Le nom apparaît juste en dessous du module. En dessous du nom, [!DNL Workfront Fusion] présente une brève description du type d’action effectuée par le module.
+   Le nom apparaît juste en dessous du module. En dessous, [!DNL Workfront Fusion] inclut une brève description du type d’action effectuée par le module.
 
    ![](assets/module-renamed-350x388.png)
 
-1. Passez à l’étape [Ajouter et configurer le deuxième module](#add-and-configure-the-second-module).
+1. Continuez avec [Ajouter et configurer le deuxième module](#add-and-configure-the-second-module).
 
 ## Ajouter et configurer le deuxième module
 
-1. Cliquez sur le cercle partiel à droite du du module pour **[!UICONTROL Ajouter un autre module]**.
+1. Cliquez sur le cercle partiel à droite du module pour **[!UICONTROL Ajouter un autre module]**.
 
    Ce deuxième module doit être un module [!DNL Workfront], mais nous n’avons pas préchargé l’application [!DNL Workfront].
 
 1. Pour rechercher l’application [!DNL Workfront], commencez à saisir « [!DNL Workfront] » et cliquez sur l’application lorsqu’elle apparaît.
 1. Dans la liste des modules [!DNL Workfront] qui s’affiche, cliquez sur **[!UICONTROL Créer un enregistrement]**.
 
-1. Comme vous l’avez fait auparavant avec l’application Google Sheets, cliquez sur **[!UICONTROL Ajouter]** dans la zone [!DNL Workfront] pour ajouter une connexion entre Workfront Fusion et Workfront.
+1. Comme vous l’avez fait auparavant avec l’application Google Sheets, cliquez sur **[!UICONTROL Ajouter]** dans la zone [!DNL Workfront] pour ajouter une connexion entre Workfront Fusion et Workfront.
 
-   Nous allons maintenance commencer à spécifier ce que nous voulons faire avec les données de la feuille de calcul.
+   Maintenant, nous allons commencer à spécifier ce que nous voulons faire avec les données de la feuille de calcul.
 
 1. Pour créer un projet dans [!DNL Workfront] à l’aide d’une ligne de la feuille de calcul, cliquez sur **[!UICONTROL Type d’enregistrement]**, puis sélectionnez **[!UICONTROL Projet]**.
 
    >[!TIP]
    >
-   >Vous trouverez **[!UICONTROL Projet]** dans la liste si vous commencez à saisir le mot « [!UICONTROL projet] ».
+   >**[!UICONTROL Projet]** apparaît dans la liste dès que vous commencez à saisir le mot « [!UICONTROL projet] ».
 
-   La zone est développée pour afficher tous les champs de projet [!DNL Workfront] disponibles dans lesquels vous pouvez placer les informations trouvées par le premier module.
+   La zone se développe pour afficher tous les champs de projet [!DNL Workfront] disponibles dans lesquels vous pouvez placer les informations trouvées par le premier module.
 
-   Nous allons utiliser le champ **[!UICONTROL Nom]** : le module doit nommer chaque projet dans [!DNL Workfront] en utilisant le texte de la ligne correspondante dans [!UICONTROL Google Sheets].
+   Nous allons utiliser le champ **[!UICONTROL Nom]** : le module doit nommer chaque projet dans [!DNL Workfront] en utilisant le texte de la ligne correspondante dans [!UICONTROL Google Sheets].
 
 1. Recherchez et cliquez sur le champ **[!UICONTROL Nom]**.
 
@@ -236,19 +236,19 @@ Après avoir connecté [!DNL Workfront Fusion] à votre compte [!DNL Google Shee
 
 1. Recherchez et cliquez sur le champ **[!UICONTROL Date de début prévue]**, puis cliquez sur la variable **[!UICONTROL Date prévue de début (E)]** pour extraire les données de cette colonne dans la feuille de calcul.
 
-1. Cliquez sur **[!UICONTROL OK]**.
+1. Cliquez sur **[!UICONTROL OK]**.
 
-   Vous disposez maintenant d’un scénario de travail.
+   Vous disposez à présent d’un scénario opérationnel.
 
 1. Donnez au deuxième module un nom tel que « Créer un projet Workfront », puis continuez avec [Tester le scénario](#test-the-scenario).
 
 ## Tester le scénario
 
-Avant d’activer votre scénario, il est important de le tester en l’exécutant au moins une fois et en consultant les résultats. Vous pouvez ainsi comprendre le flux des données dans le scénario et rechercher les erreurs.
+Avant d’activer votre scénario, il est important de le tester en l’exécutant au moins une fois et en visualisant les résultats. Cela vous permet de comprendre comment les données circulent dans le scénario et de détecter les éventuelles erreurs.
 
-Pour la création d’un projet dans Workfront, nous avons choisi de traiter une ligne de la feuille de calcul. Exécutons le scénario et jugeons de son efficacité.
+Pour la création d’un projet dans Workfront, nous avons choisi de traiter une ligne de la feuille de calcul. Si vous exécutez le scénario, c’est ce qui devrait se produire.
 
-1. Cliquez sur **[!UICONTROL Exécuter une seule fois]** dans le coin inférieur gauche de l’éditeur de scénario.
+1. Cliquez sur **[!UICONTROL Exécuter une fois]** dans le coin inférieur gauche de l’éditeur de scénario.
 1. Une fois l’exécution du scénario terminée, cliquez sur la bulle située au-dessus du module [!DNL Google Sheets].
 
    ![](assets/click-bubble.png)
@@ -257,28 +257,28 @@ Pour la création d’un projet dans Workfront, nous avons choisi de traiter une
 
    ![](assets/execution-inspector-g-sheets-350x637.png)
 
-1. Cliquez sur la bulle de l’inspecteur d’exécution au-dessus du module  pour voir l’entrée et la sortie des informations, à savoir l’ID du projet créé dans . [!DNL Workfront][!DNL Workfront]
+1. Cliquez sur la bulle de l’inspecteur d’exécution au-dessus du module [!DNL Workfront] pour voir l’entrée et la sortie des informations, à savoir l’ID du projet créé dans [!DNL Workfront].
 
    ![](assets/execution-inspector-wf-350x384.png)
 
-   Pour en savoir plus sur la lecture des informations d’exécution de scénario, consultez les articles suivants :
+   Pour en savoir plus sur la lecture des informations relatives à l’exécution des scénarios, consultez les articles suivants :
 
-   * Pour obtenir des informations générales, voir [Flux d’exécution du scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
-   * Pour plus d’informations sur les lots traités, voir [Exécution, cycles et phases d’un scénario [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+   * Pour obtenir des informations générales, consultez la section [Flux d’exécution d’un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   * Pour plus d’informations sur les lots traités, consultez la section [Exécution, cycles et phases d’un scénario [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
-1. Accédez à  et recherchez « loft du centre-ville de soho » pour voir le projet que le scénario a créé. [!DNL Workfront] Il s’agissait de la dernière ligne de la feuille de calcul.
-1. Dans [!DNL Workfront Fusion], cliquez sur **[!UICONTROL Enregistrer]** ![](assets/save-icon.png) près du coin inférieur gauche pour enregistrer votre progression dans le scénario.
+1. Accédez à [!DNL Workfront] et recherchez « loft du centre-ville de soho » pour voir le projet que le scénario a créé. Il s’agissait de la dernière ligne de la feuille de calcul.
+1. Dans [!DNL Workfront Fusion], cliquez sur **[!UICONTROL Enregistrer]** ![](assets/save-icon.png) dans le coin inférieur gauche pour enregistrer votre progression dans le scénario.
 
    >[!IMPORTANT]
    >
-   >Enregistrez à intervalles réguliers lorsque vous affinez et testez un scénario.
+   >Sauvegardez souvent lorsque vous affinez et testez un scénario.
 
 ## Finalisez le scénario et testez-le à nouveau.
 
 Le scénario doit encore être configuré pour créer des projets pour toutes les autres lignes de la feuille de calcul.
 
 1. Cliquez sur le module **[!UICONTROL Surveiller les lignes]** que vous avez créé pour Google Sheets.
-1. Modifiez la **[!UICONTROL limite]** en la fixant à 100.
+1. Modifiez la **[!UICONTROL limite]** en la fixant à 100.
 
    Spécifier un nombre supérieur au nombre de lignes connues dans la feuille de calcul permet de s’assurer que le scénario les capturera toutes.
 
@@ -286,7 +286,7 @@ Le scénario doit encore être configuré pour créer des projets pour toutes le
 
 1. Cliquez sur **[!UICONTROL Exécuter une fois]** et observez ce qui se passe dans les bulles de l’inspecteur d’exécution.
 
-   Le module Surveiller les lignes de  Sheets s’exécute une fois pour lire toutes les lignes. ****[!DNL Google] Puis le module Workfront **[!UICONTROL Créer un enregistrement]** s’exécute 20 fois afin de créer un projet pour chacune des 20 lignes restantes de la feuille de calcul.
+   Le module **[!UICONTROL Surveiller les lignes]** de [!DNL Google] Sheets s’exécute une fois pour lire toutes les lignes. Puis le module Workfront **[!UICONTROL Créer un enregistrement]** s’exécute 20 fois afin de créer un projet pour chacune des 20 lignes restantes de la feuille de calcul.
 
 1. Cliquez sur la bulle de l’inspecteur d’exécution du module [!DNL Workfront] pour afficher les 20 opérations, puis cliquez sur l’une d’entre elles pour afficher les informations relatives au projet créé.
 1. Cliquez sur **[!UICONTROL Enregistrer]** ![](assets/save-icon.png) près du coin inférieur gauche.
@@ -294,10 +294,10 @@ Le scénario doit encore être configuré pour créer des projets pour toutes le
 
 >[!TIP]
 >
->Nous recommandons d’ajouter des notes sur chaque module pour indiquer ses objectifs.
+>Nous vous recommandons d’ajouter des notes sur chaque module, ce qui est facultatif mais utile.
 >
 >1. Cliquez avec le bouton droit de la souris sur le module [!DNL Workfront], puis cliquez sur **[!UICONTROL Ajouter une note]**.
->1. Dans la note qui s’affiche, saisissez une description générale du module.
+>1. Dans la note qui s’affiche, saisissez un aperçu du module.
 >
 >    Cette option est utile car elle vous évite d’ouvrir continuellement le module pour voir ce qu’il fait. Vous pouvez saisir un texte comme « Crée un projet dont le nom, la date de début prévue et la priorité sont mappés à partir d’une feuille de calcul ».
 >
@@ -305,18 +305,18 @@ Le scénario doit encore être configuré pour créer des projets pour toutes le
 >
 >    Vous pouvez ajouter plusieurs notes pour un module.
 >
->1. Fermez la zone **[!UICONTROL Remarques]**.
+>1. Fermez la zone **[!UICONTROL Notes]**.
 >
->    Après avoir ajouté une note à un scénario, un point orange s’affiche sur l’icône **[!UICONTROL Remarques]** ![](assets/notes-icon-w-dot.png) au bas de l’éditeur de scénario.
+>    Après avoir ajouté une note à un scénario, un point orange s’affiche sur l’icône **[!UICONTROL Notes]**![](assets/notes-icon-w-dot.png) au bas de l’éditeur de scénario.
 >
->1. Cliquez sur l’icône **[!UICONTROL Remarques]** ![](assets/notes-icon-w-dot.png) pour afficher vos notes.
+>1. Cliquez sur l’icône **[!UICONTROL Notes]** ![](assets/notes-icon-w-dot.png) pour afficher vos notes.
 >
 
 
 
 ## Activer le scénario
 
-S’il s’agissait d’un scénario que vous utilisiez pour des données réelles, la dernière chose que vous feriez serait de l’activer. Une fois que vous avez activé un scénario, celui-ci s’exécute par défaut toutes les 15 minutes. Vous pouvez modifier ce paramètre en définissant le moment et la fréquence d’exécution.
+Si c’était un scénario que vous utilisiez pour des données réelles, la dernière chose que vous feriez est de l’activer. Une fois que vous avez activé un scénario, celui-ci s’exécute par défaut toutes les 15 minutes. Vous pouvez modifier cela en définissant quand et à quelle fréquence vous souhaitez qu’il s’exécute.
 
 Pour plus d’informations sur l’activation de scénarios, voir [Activer ou désactiver un scénario dans Adobe Workfront Fusion](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 

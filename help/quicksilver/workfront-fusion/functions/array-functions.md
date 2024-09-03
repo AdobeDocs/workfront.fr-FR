@@ -11,7 +11,7 @@ exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
 source-git-commit: 033a9f4aa1f191e5e3cabd0c0f232128fa6bce5d
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto"> 
  <col>  
@@ -27,26 +27,26 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
  <tbody>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront] plan</td>  
-   <td> <p>N’importe quelle</p> </td>  
+   <td> <p>Tous</p> </td>  
   </tr>  
   <tr data-mc-conditions="">  
    <td role="rowheader">[!DNL Adobe Workfront] licence</td>  
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td>  
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td>  
   </tr>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td>  
    <td> 
-   <p>Actuel : aucune exigence de licence [!DNL Workfront Fusion].</p> 
+   <p>Actuelle : aucune exigence de licence [!DNL Workfront Fusion] requise.</p> 
    <p>Ou</p> 
-   <p>Hérité : Tout </p> 
+   <p>Héritée : n’importe laquelle. </p> 
    </td>  
   </tr>  
   <tr>  
    <td role="rowheader">Produit</td>  
    <td> 
-   <p>Nouveau :</p> <ul><li>Formule [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>Plan [!UICONTROL Ultimate] [!DNL Workfront] : [!DNL Workfront Fusion] est inclus.</li></ul> 
+   <p>Nouveau :</p> <ul><li>Forfait [!DNL Workfront] [!UICONTROL Select] ou [!UICONTROL Prime] : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>Forfait [!DNL Workfront] [!UICONTROL Ultimate] : [!DNL Workfront Fusion] est inclus.</li></ul> 
    <p>Ou</p> 
-   <p>Actuel : votre organisation doit acheter [!DNL Adobe Workfront Fusion].</p> 
+   <p>Actuel : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -61,7 +61,7 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 * [join](#join-array-separator)
 * [length](#length-array)
 * [keys](#keys-object)
-* [tranche](#slice-array-start-end)
+* [slice](#slice-array-start-end)
 * [merge](#merge-array1-array2)
 * [contient](#contains-array-value)
 * [remove](#remove-array-value1-value2)
@@ -111,7 +111,7 @@ Ajoute les valeurs spécifiées dans les paramètres à un tableau et renvoie ce
 
 ### [!UICONTROL map (complex array; key;[key for filtering];[valeurs possibles pour le filtrage])]
 
-Renvoie un tableau primitif contenant les valeurs d’un tableau complexe. Cette fonction permet de filtrer les valeurs. Utilisez des noms de variable bruts pour les clés.
+Renvoie un tableau primitif contenant les valeurs d’un tableau complexe. Cette fonction permet de filtrer les valeurs. Utilisez des noms de variables bruts pour les clés.
 
 >[!INFO]
 >
@@ -143,15 +143,15 @@ Trie les valeurs d’un tableau. Les valeurs valides du paramètre `order` sont 
 
 * `asc ci`
 
-  ordre croissant qui ne respecte pas la casse : A, a, B, b, C, c, ... pour le type Texte.
+  ordre croissant insensible à la casse : A, a, B, b, C, c, ... pour le type Texte.
 
 * `desc ci`
 
-  ordre décroissant qui ne respecte pas la casse : ..., C, c, B, b, A, a pour le type Texte.
+  ordre décroissant insensible à la casse : ..., C, c, B, b, A, a pour le type Texte.
 
 Utilisez le paramètre `key` pour accéder aux propriétés des objets complexes.
 
-Utilisez des noms de variable bruts pour les clés.
+Utilisez des noms de variables bruts pour les clés.
 
 Pour accéder aux propriétés imbriquées, utilisez la notation avec point.
 
@@ -167,15 +167,15 @@ Le premier élément d’un tableau est l’index 1.
 >
 >* `sort(Contacts[];desc;name)`
 >
->   Trie un tableau de contacts par propriété « name » dans l’ordre décroissant.
+>   Trie un tableau de contacts en fonction de la propriété « name » dans l’ordre décroissant.
 >
 >* `sort(Contacts[];asc ci;name)`
 >
->    Trie un tableau de contacts par propriété « name » dans l’ordre croissant sans respect de la casse.
+>    Trie un tableau de contacts en fonction de la propriété « name » dans l’ordre croissant insensible à la casse.
 >
 >* `sort(Emails[];sender.name)`
 >
->    Trie un tableau d’e-mails par la propriété « sender.name ».
+>    Trie un tableau d’e-mails en fonction de la propriété « sender.name ».
 
 ### [!UICONTROL reverse (array)]
 
@@ -193,7 +193,7 @@ Supprime les doublons dans un tableau. Utilisez l’argument « [!UICONTROL key
 >
 >**Exemple :** `distinct(Contacts[];name)`
 >
->Supprime les doublons dans un tableau de contacts en comparant la propriété « name ».
+>Supprime les doublons dans un tableau de contacts en comparant la propriété « nom ».
 
 ### toCollection
 
@@ -233,7 +233,7 @@ Saisissez l’une des valeurs suivantes pour le paramètre `mode`.
   >
   >**Exemples :**
   >
-  >Prenons l’exemple des tableaux suivants :
+  >Les tableaux suivants :
   >
   >```
   >myArray = [1,2,3,4,5]
@@ -245,7 +245,7 @@ Saisissez l’une des valeurs suivantes pour le paramètre `mode`.
   >
   >* `arrayDifference [myArray, yourArray, classic]`
   >
-  >    Renvoie `[1,2]`
+  >    Retourne `[1,2]`
   >
   >* `arrayDifference [yourArray, myArray, classic]`
   >
@@ -255,7 +255,7 @@ Saisissez l’une des valeurs suivantes pour le paramètre `mode`.
   >
   >    Renvoie `[1,2,6,7]`
 
-### dédupliquer
+### deDuplicate
 
 ## Mots-clés
 

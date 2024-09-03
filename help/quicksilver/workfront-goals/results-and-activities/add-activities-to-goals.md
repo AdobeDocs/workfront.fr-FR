@@ -2,7 +2,7 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Ajouter des activités aux objectifs dans Objectifs Adobe Workfront
+title: Ajouter des activités aux objectifs dans Objectifs Adobe Workfront
 description: Les activités mesurent la progression d’un objectif. Sans résultats associés, activités ou objectifs alignés, un objectif ne peut pas être activé et la progression ne peut pas être enregistrée.
 author: Alina
 feature: Workfront Goals
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Ajouter des activités aux objectifs dans Objectifs Adobe Workfront
+# Ajouter des activités aux objectifs dans Objectifs Adobe Workfront
 
 Les activités mesurent la progression d’un objectif. Sans associer de résultats, d’activités, de projets ou d’objectifs alignés, vous ne pouvez pas activer un objectif et vous ne pouvez pas y enregistrer la progression.
 
@@ -42,9 +42,9 @@ Vous devez disposer des éléments suivants :
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
  <td>
- <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
+ <p>Nouvelle licence : contributeur ou contributrice ou niveau supérieur</p>
  Ou
- <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
+ <p>Licence actuelle : demande ou niveau supérieur</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
@@ -66,11 +66,11 @@ Vous devez disposer des éléments suivants :
   <div>
   <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
   <p>Autorisations de gestion sur l’objectif pour le modifier</p>
-  <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
+  <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
@@ -87,9 +87,9 @@ Pour plus d’informations sur la création d’objectifs, voir la section [Cré
 
 >[!IMPORTANT]
 >
->Un objectif ne peut pas avoir plus de 1 000 résultats, activités et objectifs alignés au total.
+>Un objectif ne peut pas avoir plus de 1 000 résultats, activités et objectifs alignés.
 
-Pour plus d’informations sur les activités, voir [Commencer avec les résultats et les activités dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
+Pour plus d’informations sur les activités, voir [Prise en main des résultats et des activités dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
 
 ## Ajouter une activité à un objectif
 
@@ -153,7 +153,7 @@ Adding activities to goals differs depending on which environment you use.
 
    ![](assets/new-activity-box-unshimmed.png)
 
-1. Saisissez un nom pour l’activité dans le champ Nom de l’activité. Il s’agit d’un champ obligatoire.
+1. Saisissez un nom pour l’activité dans le champ Nom de l’activité. Champ obligatoire.
 1. (Facultatif) Supprimez votre nom du champ **Personne propriétaire de l’activité** si vous souhaitez affecter l’activité à un autre utilisateur ou une autre utilisatrice. Par défaut, vous êtes la personne propriétaire d’une activité que vous créez.
 
    >[!NOTE]

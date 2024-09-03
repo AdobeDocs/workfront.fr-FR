@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Recalculer les délais d’un projet
-description: Recalculer les chronologies permet aux gestionnaires de déterminer l’impact de différents facteurs liés au projet sur la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévues.
+title: Recalculer les chronologies des projets
+description: Recalculer les chronologies permet aux personnes chargées de la gestion de déterminer l’impact de différents facteurs liés au projet sur la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévisionnelles.
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
-# Recalculer les délais d’un projet
+# Recalculer les chronologies des projets
 
-Recalculer les chronologies permet aux gestionnaires de déterminer l’impact de différents facteurs liés au projet sur la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévues.
+Recalculer les chronologies permet aux personnes chargées de la gestion de déterminer l’impact de différents facteurs liés au projet sur la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévisionnelles.
 
 Les modifications apportées aux plannings, aux congés du personnel et à d’autres éléments en dehors de la portée d’un projet n’ont pas d’incidence immédiate sur la chronologie du projet. La chronologie du projet est affectée lorsque la chronologie est recalculée. Les influences externes ne prennent effet sur votre projet que lorsque le nouveau calcul est effectué.
 
@@ -53,61 +53,61 @@ Cet article décrit comment le recalcul de la chronologie se produit.
  </tbody> 
 </table>
 -->
-Le recalcul automatique de la chronologie se produit sans accès spécial pour les utilisateurs impliqués dans le projet.
+Le recalcul automatique de la chronologie se produit sans accès spécial pour les personnes impliquées dans le projet.
 
-Cependant, vous devez disposer des droits d’accès suivants pour recalculer manuellement la chronologie d’un projet :
+Cependant, vous devez disposer des droits d’accès suivants pour recalculer manuellement la chronologie d’un projet :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux projets</p> <p>Administrateur système pour recalculer la chronologie de tous les projets du système</p> <p><b>NOTE</b>
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Accès en modification aux projets</p> <p>Administrateur ou administratrice système pour recalculer la chronologie de tous les projets du système.</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion d’un projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations de gestion d’un projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
-## recalcul automatique
+## Recalcul automatique
 
-Par défaut, les chronologies de projet sont automatiquement recalculées tous les jours lorsque la portée du projet change ou toutes les nuits. L’administrateur de Workfront détermine s’il faut calculer automatiquement les chronologies toutes les nuits ou à chaque changement de portée en gérant les paramètres Chronologies dans la zone Préférences du projet de la configuration. Pour plus d’informations, voir [Configuration des recalculations de la chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Par défaut, les chronologies des projets sont automatiquement recalculées tous les jours lorsque la portée des projets change ou toutes les nuits. L’administrateur ou administratice de Workfront détermine s’il faut calculer automatiquement les chronologies toutes les nuits ou à chaque changement de portée en gérant les paramètres Chronologies dans la zone de configuration Préférences du projet. Pour plus d’informations, voir [Configurer les nouveaux calculs de chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 >[!NOTE]
 >
->Si le délai d’un projet dépasse 15 ans, le recalcul automatique est désactivé pour ce projet. Vous pouvez uniquement sélectionner un type de mise à jour du manuel pour un projet de plus de 15 ans. Si vous définissez les dates du projet sur moins de 15 ans, vous devez recalculer manuellement votre chronologie une fois avant qu’elle ne soit calculée automatiquement.
+>Si la chronologie d’un projet dépasse 15 ans, le recalcul automatique est désactivé pour ce projet. Vous pouvez uniquement sélectionner un type de mise à jour manuel pour un projet de plus de 15 ans. Si vous définissez les dates du projet sur moins de 15 ans, vous devez recalculer manuellement votre chronologie une fois avant qu’elle ne soit calculée automatiquement.
 
-* [Nouveau calcul automatique des chronologies de projet](#automatic-recalculation-of-project-timelines)
-* [Actions qui déclenchent un nouveau calcul automatique des chronologies de projet](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+* [Recalcul automatique des chronologies des projets](#automatic-recalculation-of-project-timelines)
+* [Actions qui déclenchent un recalcul automatique des chronologies des projets.](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
-### recalcul automatique des calendriers du projet {#automatic-recalculation-of-project-timelines}
+### Recalcul automatique des chronologies des projets {#automatic-recalculation-of-project-timelines}
 
-Adobe Workfront recalcule les chronologies tous les jours uniquement pour les projets pour lesquels toutes les conditions suivantes sont remplies :
+Adobe Workfront recalcule les chronologies tous les jours uniquement pour les projets pour lesquels toutes les conditions suivantes sont remplies :
 
-* avoir un état actuel ;
-* Le type de mise à jour du projet est défini sur Automatique ou Automatique et Après modification
+* Le statut est défini sur Actif.
+* Le type de mise à jour du projet est défini sur Automatique ou Automatique et en cas de modification.
 
-  Pour plus d’informations sur le type de mise à jour de projet, voir [Présentation du type de mise à jour de projet](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+  Pour plus d’informations sur le type de mise à jour des projets, voir [Vue d’ensemble des types de mise à jour des projets](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
-* avoir une date de dernière mise à jour au cours des trois derniers mois ;\
-  L’administrateur de Workfront peut modifier cette fonctionnalité par défaut, comme décrit dans la section [Configuration des recalculs de la chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+* La dernière mise à jour a été faite au cours des trois derniers mois.\
+  L’administrateur ou administratice de Workfront peut modifier cette fonctionnalité par défaut, comme décrit dans [Configurer des nouveaux calculs de chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-* La date du dernier calcul de la chronologie du projet ne figure pas dans la journée civile en cours. Cela signifie que la date du dernier calcul de la chronologie du projet est antérieure à 00:00 du jour en cours.
+* La date du dernier calcul de la chronologie du projet ne figure pas dans la journée civile en cours. Cela signifie que la date du dernier calcul de la chronologie du projet est antérieure à 00:00 du jour en cours.
 
 Vous pouvez configurer la fréquence de mise à jour de la chronologie de votre projet. Lorsque la chronologie du projet est mise à jour, elle est recalculée en fonction des modifications apportées au projet.
 
@@ -122,7 +122,7 @@ or changes made to another project that the timeline is dependent on
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, the last part is drafted because of this: I don't think this is right because we told people that in the case of cross-project predecessors, the timeline must be calculated manually for the successor to see the updates in the predecessor's project. Drafting for now.)</p>
 -->
 
-Pour plus d’informations, voir [Sélectionner le type de mise à jour de projet](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+Pour plus d’informations, voir [Sélectionner le type de mise à jour du projet.](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -145,59 +145,59 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 </div>
 -->
 
-### Actions qui déclenchent un nouveau calcul automatique des chronologies de projet {#actions-that-trigger-an-automatic-recalculation-of-project-timelines}
+### Actions qui déclenchent un recalcul automatique des chronologies des projets. {#actions-that-trigger-an-automatic-recalculation-of-project-timelines}
 
-Diverses modifications de portée dans la durée d’un projet recalculent automatiquement la chronologie du projet, notamment les actions suivantes :
+Diverses modifications de portée dans la durée d’un projet recalculent automatiquement la chronologie du projet, notamment les actions suivantes :
 
-* Mise à jour de l’état de la tâche.
-* Déplacement d’une tâche vers un autre projet.
-* Mise à jour de la date planifiée ou de la date de fin planifiée des tâches.
-* Mise à jour du type de durée, de la contrainte de tâche ou du nombre de personnes désignées pour les tâches.
-* Mise à jour des relations de prédécesseur de tâche.
-* Ajouter une validation à une tâche qui ajoute également du temps à la Date d’achèvement planifiée de la tâche.\
-  Pour plus d’informations sur les paramètres d’approbation, voir [Configuration des paramètres d’approbation globaux](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+* Mettre à jour le statut de la tâche.
+* Déplacer une tâche vers un autre projet.
+* Mettre à jour la date prévue ou de la date d’achèvement prévue des tâches.
+* Mettre à jour le type de durée, la contrainte de tâche ou le nombre de personnes cessionnaires pour les tâches.
+* Mettre à jour les relations antérieures de la tâche.
+* Ajouter une approbation à une tâche, entraînant l’ajout d’heures à la date d’achèvement prévue de la tâche.\
+  Pour plus d’informations sur les paramètres d’approbation, consultez la section [Configurer des paramètres d’approbation globaux](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
-## recalcul manuel {#manual-recalculation}
+## Recalcul manuel {#manual-recalculation}
 
-En tant que propriétaire de projet, vous pouvez recalculer manuellement les chronologies pour les projets individuels. L’administrateur Workfront peut manuellement recalculer toutes les chronologies dans Workfront.
+En tant que personne propriétaire de projet, vous pouvez recalculer manuellement les chronologies de projets individuels. L’administration Workfront peut recalculer manuellement toutes les chronologies dans Workfront.
 
 * [Recalculer les chronologies pour des projets individuels ou en bloc](#recalculate-timelines-for-individual-projects-or-in-bulk)
-* [recalculer manuellement les chronologies en bloc dans la zone Modifier les projets](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
-* [Recalculer les chronologies pour tous les projets du système (administrateurs Workfront uniquement)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
+* [Recalculer manuellement les chronologies en bloc dans la zone Modifier les projets](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
+* [Recalculer les chronologies pour tous les projets du système (réservé à l’administration Workfront)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
 
 ### Recalculer les chronologies pour des projets individuels ou en bloc {#recalculate-timelines-for-individual-projects-or-in-bulk}
 
 Vous pouvez recalculer la chronologie d’un projet dans Workfront à partir de la page du projet ou d’une liste de projets ou d’un rapport.
 
-1. Accédez au projet pour lequel vous souhaitez recalculer la chronologie et cliquez sur l’icône **Plus** ![](assets/qs-more-menu.png) située à gauche du nom du projet.
+1. Accédez au projet pour lequel vous souhaitez recalculer la chronologie et cliquez sur l’icône **Plus** ![](assets/qs-more-menu.png) à gauche du nom du projet.
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   Accédez à une liste de projets ou à un rapport et sélectionnez un ou plusieurs projets, puis cliquez sur l’icône **Plus** ![](assets/qs-more-menu.png) en haut de la liste.
+   Dans une liste de projets ou un rapport, sélectionnez un ou plusieurs projets, puis cliquez sur l’icône **Plus** ![](assets/qs-more-menu.png) en haut de la liste.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
-   >En fonction de la complexité de vos projets, nous vous recommandons de ne pas sélectionner un grand nombre de projets lorsque vous recalculez en bloc leur calendrier afin d’assurer des performances optimales. Certaines choses qui peuvent rendre un projet trop complexe peuvent être des dépendances ou des affectations multiples ou un grand nombre de champs personnalisés.
+   >En fonction de la complexité de vos projets, nous vous recommandons de ne pas sélectionner un grand nombre de projets lorsque vous recalculez en bloc leur chronologie afin d’assurer des performances optimales. La complexité d’un projet dépend de facteurs tels que le nombre de dépendances, d’affectations et de champs personnalisés.
 
-1. Cliquez sur **Recalculer la chronologie**.
+1. Cliquez sur **Recalculer la chronologie**.
 
-   Une fois la frise chronologique recalculée, un message s’affiche indiquant que le recalcul a réussi.
+   Une fois l’opération effectuée, un message s’affiche indiquant que le recalcul a réussi.
 
    >[!TIP]
    >
-   >Avant que le recalcul de la chronologie ne soit terminé, certaines dates prévues ou prévues peuvent s’afficher en grisé. Cela signifie que le recalcul n&#39;est pas encore terminé et que les dates peuvent être modifiées.
+   >Avant que le recalcul de la chronologie ne soit terminé, certaines dates prévues ou estimées peuvent être grisées. Cela signifie que le recalcul n’est pas encore terminé et que les dates sont susceptibles d’être modifiées.
 
-### recalculer manuellement les chronologies en bloc dans la zone Modifier les projets {#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box}
+### Recalculer manuellement les chronologies en bloc dans la zone Modifier les projets {#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box}
 
 Vous pouvez recalculer manuellement les chronologies de plusieurs projets en les modifiant en bloc.
 
 >[!TIP]
 >
->En fonction de la complexité de vos projets, nous vous recommandons de ne pas sélectionner un grand nombre de projets lors de leur modification en bloc afin d’assurer des performances optimales. Certaines choses qui peuvent rendre un projet trop complexe peuvent être des dépendances ou des affectations multiples ou un grand nombre de champs personnalisés.
+>En fonction de la complexité de vos projets, nous vous recommandons de ne pas sélectionner un grand nombre de projets lors de leur modification en bloc afin d’assurer des performances optimales. Un projet peut être trop complexe s’il comporte de multiples dépendances ou affectations ou un grand nombre de champs personnalisés.
 
 1. Accédez à une liste de projets.
 1. Sélectionnez plusieurs projets dans la liste, puis cliquez sur **Modifier**.
@@ -205,11 +205,11 @@ Vous pouvez recalculer manuellement les chronologies de plusieurs projets en les
 
 1. Cliquez sur **Enregistrer les modifications**.
 
-### Recalculer les chronologies pour tous les projets du système (administrateurs Workfront uniquement) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
+### Recalculer les chronologies pour tous les projets du système (réservé à l’administration Workfront) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
 
-Les administrateurs de Workfront peuvent exécuter le diagnostic Recalculate Timeline pour recalculer immédiatement toutes les chronologies du système Workfront. Cela permet à tous les chefs de projet de voir immédiatement l’influence des modifications externes sur les dates prévues et prévues.
+L’administration Workfront peut exécuter le diagnostic Recalculer les chronologies afin de recalculer immédiatement toutes les chronologies du système Workfront. Cela permet à toutes les personnes gestionnaires de projet de voir immédiatement l’influence des modifications externes sur les dates prévues et prévisionnelles.
 
-Pour plus d’informations sur le nouveau calcul des chronologies pour l’ensemble du site Workfront, consultez la section &quot;Recalculer les chronologies pour l’ensemble de l’instance Workfront&quot; dans [Configuration des recalculations de la chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Pour plus d’informations sur le recalcul des chronologies pour l’ensemble du site Workfront, consultez la section « Recalculer les chronologies pour l’ensemble de l’instance Workfront » dans [Configurer de nouveaux calculs de chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

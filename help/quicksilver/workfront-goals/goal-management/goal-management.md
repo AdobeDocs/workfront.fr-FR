@@ -2,7 +2,7 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Gestion des objectifs dans Objectifs Adobe Workfront
+title: Gérer des objectifs dans Objectifs Adobe Workfront
 description: Consultez les articles suivants pour savoir comment commencer avec les Objectifs Workfront, l’importance de l’utilisation des objectifs, comment créer, éditer, commenter et gérer des objectifs, ainsi que comment filtrer et imprimer les informations relatives aux objectifs.
 author: Alina
 feature: Workfront Goals
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 ---
 
-# Gestion des objectifs dans Objectifs Adobe Workfront
+# Gérer des objectifs dans Objectifs Adobe Workfront
 
 >[!IMPORTANT]
 >
@@ -35,13 +35,13 @@ ht-degree: 94%
 
 Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
 
-Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditions requises pour utiliser Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Consultez les articles suivants pour savoir comment commencer avec les Objectifs Workfront, l’importance de l’utilisation des objectifs, comment créer, éditer, commenter et gérer des objectifs, ainsi que comment filtrer et imprimer les informations relatives aux objectifs.
+Consultez les articles suivants pour savoir comment commencer avec les Objectifs Workfront, l’importance de l’utilisation des objectifs, comment créer, éditer, commenter et gérer des objectifs, ainsi que comment filtrer et imprimer les informations relatives aux objectifs :
 
 * [Vue d’ensemble d’Objectifs Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md)
-* [Prise en main d’Objectifs Adobe Workfront](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)
-* [Conditions d’utilisation d’Objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)
+* [Commencer avec les Objectifs Adobe Workfront](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)
+* [Conditions d’utilisation des Objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)
 * [Accéder aux objectifs et les ouvrir dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 * [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
 * [Activer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
@@ -54,4 +54,4 @@ Consultez les articles suivants pour savoir comment commencer avec les Objectifs
 * [Filtrer des informations dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 * [Gérer les commentaires sur les objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md)
 * [Mettre à jour les objectifs dans la section Détails de l’objectif dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
-* [Réviser les objectifs en difficulté dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/view-in-trouble-goals.md)
+* [Revoir les objectifs en difficulté dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/view-in-trouble-goals.md)

@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adresses IP pour accéder à Adobe Workfront Fusion
-description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion et une licence Adobe Workfront.
+description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion en plus d’une licence Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
@@ -15,15 +15,15 @@ ht-degree: 100%
 
 ---
 
-# Adresses IP pour l’accès à [!DNL Adobe Workfront Fusion]
+# Adresses IP pour accéder à [!DNL Adobe Workfront Fusion]
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] nécessite une licence [!DNL Adobe Workfront Fusion] et une licence [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] nécessite une licence [!DNL Adobe Workfront Fusion] en plus d’une [!DNL Adobe Workfront license].
 
-Si votre pare-feu ou serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter certaines adresses IP à sa liste autorisée afin d’autoriser une communication ouverte entre votre environnement et [!DNL Adobe Workfront Fusion].
+Si votre pare-feu ou serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter certaines adresses IP à sa liste autorisée afin d’autoriser une communication ouverte entre votre environnement et [!DNL Adobe Workfront Fusion].
 
-Ajoutez les adresses IP suivantes à votre liste autorisée pour permettre à [!DNL Workfront Fusion] d’accéder à votre système.
+Ajoutez les adresses IP suivantes à votre liste autorisée pour permettre à [!DNL Workfront Fusion] d’accéder à votre système.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,7 +62,7 @@ Ajoutez les adresses IP suivantes à votre liste autorisée pour permettre à [!
  </tbody> 
 </table>
 
-En outre, si votre entreprise utilise le filtrage réseau sortant, ajoutez le domaine suivant à votre liste autorisée pour permettre à votre système d’accéder à Workfront Fusion.
+En outre, si votre organisation utilise le filtrage réseau sortant, ajoutez le domaine suivant à votre liste autorisée pour permettre à votre système d’accéder à Workfront Fusion.
 
 <table style="table-layout:auto">
  <col> 
@@ -85,6 +85,6 @@ En outre, si votre entreprise utilise le filtrage réseau sortant, ajoutez le do
 
 >[!NOTE]
 >
->Le filtrage de réseau sortant n’est pas monnaie courante. Vérifiez auprès de l’administration réseau si vous devez mettre à jour votre liste autorisée pour autoriser le trafic sortant.
+>Le filtrage de réseau sortant est rare. Vérifiez auprès de votre équipe d’administration réseau si vous devez mettre à jour votre liste autorisée pour l’adapter.
 
-Pour plus d’informations sur la configuration de la liste autorisée de votre entreprise, voir [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Pour plus d’informations sur la configuration de la liste autorisée de votre organisation, voir [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

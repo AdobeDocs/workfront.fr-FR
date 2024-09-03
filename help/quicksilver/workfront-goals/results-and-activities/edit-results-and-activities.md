@@ -2,8 +2,8 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Modifier des résultats et des activités dans Objectifs Adobe Workfront
-description: Une fois que votre administrateur ou administratrice Adobe Workfront vous a accordé l’accès correct à Objectifs Adobe Workfront, vous pouvez créer et modifier des objectifs, des résultats et des activités.
+title: Modification des résultats et des activités dans Objectifs Adobe Workfront
+description: Une fois que votre administrateur ou administratrice Adobe Workfront vous a accordé l’accès correct aux Objectifs Adobe Workfront, vous pouvez créer et modifier des objectifs, des résultats et des activités.
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
@@ -14,16 +14,16 @@ ht-degree: 100%
 
 ---
 
-# Modifier des résultats et des activités dans Objectifs Adobe Workfront
+# Modification des résultats et des activités dans Objectifs Adobe Workfront
 
-Une fois que votre administrateur ou administratrice Adobe Workfront vous a accordé l’accès correct à Objectifs Adobe Workfront, vous pouvez créer et modifier des objectifs, des résultats et des activités.
+Une fois que votre administrateur ou administratrice Adobe Workfront vous a accordé l’accès correct aux Objectifs Adobe Workfront, vous pouvez créer et modifier des objectifs, des résultats et des activités.
 
 Pour plus d’informations sur la création d’objectifs, de résultats et d’activités, consultez les articles suivants :
 
-* [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
+* [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
 * [Commencer avec les résultats et les activités dans les Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-* [Ajouter des résultats aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Ajouter des activités aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [Ajout de résultats aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Ajouter des activités aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 
 ## Conditions d’accès
 
@@ -49,9 +49,9 @@ Vous devez disposer des éléments suivants :
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
  <td>
- <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
+ <p>Nouvelle licence : contributeur ou contributrice ou niveau supérieur</p>
  Ou
- <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
+ <p>Licence actuelle : demande ou niveau supérieur</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
@@ -73,11 +73,11 @@ Vous devez disposer des éléments suivants :
   <div>
   <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
   <p>Autorisations de gestion sur l’objectif pour le modifier</p>
-  <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
+  <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
@@ -93,11 +93,11 @@ According to Vazgen, access levels will add more considerations.)
 -->
 
 * Vous pouvez modifier les résultats et les activités qui appartiennent aux objectifs que vous avez créés ou aux objectifs que vous avez l’autorisation de gérer.
-* Vous ne pouvez pas modifier la progression des projets liés aux objectifs en tant qu’activités d’Objectifs Workfront. La progression du projet est mise à jour une fois les tâches du projet terminées. Vous pouvez supprimer des projets de l’objectif en les déconnectant. Pour plus d’informations, voir la section « Déconnecter des projets » de l’article [Supprimer des résultats, des activités et des projets des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+* Vous ne pouvez pas modifier la progression des projets liés aux objectifs en tant qu’activités des Objectifs Workfront. La progression du projet est mise à jour une fois les tâches du projet terminées. Vous pouvez supprimer des projets de l’objectif en les déconnectant. Pour plus d’informations, voir la section « Déconnexion de projets » de l’article [Supprimer des résultats, des activités et des projets des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 
   >[!NOTE]
   >
-  >Si les informations de projet suivantes sont mises à jour au niveau du projet, Objectifs Workfront les met automatiquement à jour au niveau de l’objectif :
+  >Si les informations de projet suivantes sont mises à jour au niveau du projet, les Objectifs Workfront les mettent automatiquement à jour au niveau de l’objectif :
   >
   >   
   >   
@@ -106,10 +106,10 @@ According to Vazgen, access levels will add more considerations.)
   >   * Pourcentage terminé du projet
   >   
   >   
-  >Pour plus d’informations sur la connexion de projets avec des objectifs, voir la section [Ajouter des projets aux objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  >Pour plus d’informations sur la connexion des projets aux objectifs, voir [Ajouter des projets aux objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * Vous pouvez supprimer des résultats et des activités des objectifs lorsqu’ils ne sont plus pertinents pour la progression de l’objectif. Les résultats et activités supprimés ne peuvent pas être récupérés. Pour plus d’informations sur la suppression de résultats et d’activités, voir [Supprimer des résultats, des activités et des projets des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
-* Vous pouvez modifier les résultats et les activités associés aux objectifs pour n’importe quelle période, y compris dans le passé.
+* Vous pouvez modifier les résultats et les activités associées aux objectifs pour n’importe quelle période, y compris dans le passé.
 * La modification des résultats et des activités met à jour leurs paramètres et ne met pas à jour leur progression. Vous devez mettre à jour la progression des résultats et des activités. Pour plus d’informations sur la mise à jour de la progression des objectifs, des résultats et des activités, voir [Mettre à jour la progression des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 ## Modifier les résultats
@@ -139,7 +139,7 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Cliquez sur le bouton **Menu principal** ![](assets/main-menu-icon.png), puis sur **Objectifs**.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png), puis sur **Objectifs**.
 1. Dans la liste des objectifs, cliquez sur le nom d’un objectif pour ouvrir la page de l’objectif.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 1. Sélectionnez un résultat dans la liste Indicateurs de progression et cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
@@ -151,7 +151,7 @@ Editing results differs depending on which environment you use.
 1. Modifiez les informations suivantes :
    * **Nom du résultat** : nom du résultat. Utilisez un nom explicite qui illustre le résultat à obtenir pour atteindre l’objectif.
    * **Personne propriétaire du résultat** : personne propriétaire du résultat. La personne propriétaire doit être active sur Workfront.
-   * **Type de valeur** : manière de mesurer la progression du résultat.
+   * **Type de valeur** : comment vous mesurez la progression du résultat.
    * **Valeur initiale** : valeur d’origine du résultat.
    * **Valeur cible** : valeur souhaitée une fois le résultat atteint.
 Pour plus d’informations sur les champs de résultat, voir [Ajouter des résultats aux objectifs](../results-and-activities/add-results-to-goals.md).
@@ -184,18 +184,18 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Cliquez sur le bouton **Menu principal** ![](assets/main-menu-icon.png), puis sur **Objectifs**.
+1. Cliquez sur l’icône **Menu Principal** ![](assets/main-menu-icon.png), puis sur **Objectifs**.
 1. Dans la liste des objectifs, cliquez sur le nom d’un objectif pour ouvrir la page de l’objectif.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 1. Sélectionnez une activité dans la liste Indicateurs de progression et cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
 
-   La zone Modifier l’activité s’ouvre.
+   La boîte de dialogue Modifier l’activité s’ouvre.
 
    ![](assets/edit-activity-box-unshimmed.png)
 
 1. Modifiez les informations suivantes :
    * **Nom de l’activité** : nom de l’activité. Utilisez un nom explicite qui illustre l’activité que vous devez exécuter pour indiquer que l’objectif va être atteint.
-   * **Personne propriétaire de l’activité :** personne propriétaire de l’activité. La personne propriétaire doit être active sur Workfront.\
+   * **Personne propriétaire de l’activité :**: personne propriétaire de l’activité. La personne propriétaire doit être active sur Workfront.\
      Pour plus d’informations sur les champs d’activité, voir [Ajouter des activités aux objectifs](../results-and-activities/add-activities-to-goals.md).
 1. Cliquer sur **Enregistrer**.
 

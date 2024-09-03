@@ -62,7 +62,7 @@ Vous devez créer le scénario décrit dans [Créer un scénario de base](/help/
 ### Tester et activer
 
 1. Accédez à l’environnement Workfront auquel Fusion se connecte et ajoutez un problème au projet que vous avez spécifié dans le filtre. Ajoutez un autre problème à un autre projet.
-1. Cliquez sur **[!UICONTROL Exécuter une seule fois]** dans le coin inférieur gauche de l’éditeur de scénario.
+1. Cliquez sur **[!UICONTROL Exécuter une fois]** dans le coin inférieur gauche de l’éditeur de scénario.
 1. Examinez la sortie pour vous assurer que le scénario s’est exécuté comme prévu.
 
    Les deux problèmes doivent apparaître dans la sortie du premier scénario, mais seul le problème du projet spécifié doit apparaître comme entrée dans le second scénario,
@@ -73,7 +73,7 @@ Vous devez créer le scénario décrit dans [Créer un scénario de base](/help/
 
    >[!IMPORTANT]
    >
-   >Enregistrez à intervalles réguliers lorsque vous affinez et testez un scénario.
+   >Sauvegardez souvent lorsque vous affinez et testez un scénario.
 
 ## Ressources
 

@@ -1,5 +1,5 @@
 ---
-title: Prise en main d’Objectifs Adobe Workfront
+title: Commencer avec les Objectifs Adobe Workfront
 description: Les Objectifs Workfront vous aident à définir, communiquer et atteindre des résultats stratégiques en connectant la stratégie à l’exécution et à la diffusion du travail.
 author: Alina
 draft: Probably
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 ---
 
-# Prise en main d’Objectifs Adobe Workfront
+# Commencer avec les Objectifs Adobe Workfront
 
 >[!IMPORTANT]
 >
@@ -29,15 +29,15 @@ ht-degree: 99%
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
 > 
->Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditions requises pour utiliser Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Chaque organisation doit définir et communiquer des objectifs clairs pour que ses équipes restent productives, concentrées et engagées. La clé du succès réside dans le fait de savoir comment le travail s’aligne sur la stratégie. Cependant, sans un système d’enregistrement qui relie votre stratégie et vos objectifs au travail de l’organisation, l’alignement peut être très difficile.
 
 Les Objectifs Workfront vous aident à définir, communiquer et atteindre des résultats stratégiques en connectant la stratégie à l’exécution et à la diffusion du travail. Vous pouvez concentrer les efforts de chacun sur ce qui importe vraiment, rendre les progrès mesurables et permettre aux équipes d’atteindre des résultats extraordinaires. Les personnes peuvent faire de leur mieux en sachant que leurs contributions ont un impact significatif.
 
-Les Objectifs Workfront sont un module complémentaire de la plateforme principale de gestion de travail Workfront. Il est destiné à travailler avec la plateforme Workfront et exploite de nombreuses entités de configuration de la plateforme, telles que les utilisateurs et utilisatrices, les équipes, les groupes et les projets.
+Objectifs Workfront est un module complémentaire de la plateforme principale de gestion de travail Workfront. Il est destiné à travailler avec la plateforme Workfront et exploite de nombreuses entités de configuration de la plateforme, telles que les utilisateurs et utilisatrices, les équipes, les groupes et les projets.
 
-Pour plus d’informations sur les Objectifs Workfront, voir [Vue d’ensemble des Objectifs Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md).
+Pour plus d’informations sur Objectifs Workfront, voir [Vue d’ensemble d’Objectifs Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 ## Définir une vision et une stratégie pour votre organisation
 
@@ -59,7 +59,7 @@ Un objectif doit représenter une déclaration de valeur qui indique le résulta
 
 >[!TIP]
 >
->Imaginez une déclaration que vous souhaitez faire sur votre entreprise, votre marque, votre organisation après une réussite et réfléchissez à la manière dont vous souhaitez mesurer votre réussite. Par exemple, votre objectif peut être « Notre marque est mondialement reconnue comme leader dans notre secteur. » et le résultat associé, qui mesure sa réalisation, pourrait être « Nous obtenons 55 % de parts de marché dans notre secteur ».
+>Imaginez une déclaration que vous souhaitez faire sur votre entreprise, votre marque, votre organisation après une réussite et réfléchissez à la manière dont vous souhaitez mesurer votre réussite. Par exemple, votre objectif peut être « Notre marque est mondialement reconnue comme leader dans notre industrie. » et le résultat associé, qui mesure sa réalisation, pourrait être « Nous obtenons 55 % de parts de marché dans notre industrie ».
 
 Nous recommandons ce qui suit :
 
@@ -70,7 +70,7 @@ Nous recommandons ce qui suit :
 Pour plus d’informations sur la création d’objectifs et l’ajout de résultats, consultez les articles suivants :
 
 * [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
-* [Ajouter des résultats aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Ajouter des résultats aux objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
 ### Collaborer autour des objectifs de l’entreprise et de l’organisation {#collaborate-around-enterprise-and-organizational-goals}
 
@@ -88,7 +88,7 @@ Tenez compte des recommandations suivantes lors de la création et de l’aligne
 Pour plus d’informations sur la création et l’alignement des objectifs, voir les articles suivants :
 
 * [Créer des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
-* [Vue d’ensemble de l’alignement des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [Vue d’ensembe de l’alignement des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 
 ### Aligner les groupes et les équipes sur votre stratégie {#align-groups-and-teams-to-strategy}
 
@@ -102,7 +102,7 @@ Procédez comme suit :
 
   Après avoir activé vos objectifs, communiquez avec les équipes qui exécuteront et géreront le travail qui permettra d’atteindre ces objectifs. Comme Workfront peut se connecter aux objectifs dans Objectifs Workfront, les équipes voient vraiment le lien entre leur travail et les résultats.
 
-* Cascadez et alignez des objectifs trimestriels, et ajoutez des activités aux objectifs.
+* Cascadez et alignemez des objectifs trimestriels et ajoutez des activités aux objectifs.
 
   Si vous avez défini des objectifs dans le cadre d’un plan annuel, vous pouvez ensuite définir des objectifs trimestriels. Lorsque vous définissez et affinez les plans de projet pour la manière dont vous commencerez à réaliser ces objectifs, vous commencerez également à les aligner sur les activités.
 
@@ -112,11 +112,11 @@ Procédez comme suit :
 
 * Mettez à jour régulièrement vos objectifs. Il s’agit d’un moment où vous faites le point sur la progression d’un objectif.
 
-  Pour plus d’informations sur l’activation, l’ajout d’activités et la mise à jour des objectifs, consultez les articles suivants :
+  Pour plus d’informations sur l’activation, l’ajout d’activités et la mise à jour des objectifs, voir les articles suivants :
 
    * [Activer des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
    * [Ajouter des activités aux objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-   * [Mettre à jour la progression des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+   * [Mettre à jour la progression des objectifs dans Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
 ## Instructions relatives à la configuration des Objectifs Workfront
 
@@ -135,13 +135,13 @@ Pour plus d’informations sur la configuration de l’accès aux Objectifs Work
 
 ## Objets des Objectifs Workfront
 
-Le tableau ci-dessous décrit les objets des Objectifs Workfront. Vous pouvez personnaliser leur nom en modifiant un modèle de mise en page et en l’affectant à des utilisateurs et utilisatrices, des équipes ou des groupes. Pour plus d’informations sur la personnalisation des noms d’objet à l’aide d’un modèle de mise en page, voir [Personnaliser la terminologie de l’interface d’utilisation à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Le tableau ci-dessous décrit les objets des Objectifs Workfront. Vous pouvez personnaliser leur nom en modifiant un modèle de mise en page et en l’affectant à des utilisateurs et utilisatrices, des équipes ou des groupes. Pour plus d’informations sur la personnalisation des noms d’objet à l’aide d’un modèle de mise en page, voir [Personnaliser la terminologie de l’interface utilisateur à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
 Les Objectifs Workfront utilisent les objets principaux suivants :
 
 | Objet | Description |
 |---|---|
-| Objectif | Résultat global que vous souhaitez obtenir. Vous pouvez créer plusieurs objectifs pour une période définie. Chaque objectif possède une personne propriétaire, généralement une personne ou une équipe (bien que vous puissiez également attribuer un objectif à un groupe). Vous pouvez aligner des objectifs les uns par rapport aux autres, afin de montrer comment la progression sur plusieurs objectifs (objectifs enfant) influence la progression d’un autre (objectif parent). |
+| Objectif | Résultat global que vous souhaitez obtenir. Vous pouvez créer plusieurs objectifs pour une période définie. Chaque objectif possède une entité propriétaire, généralement une personne ou une équipe (bien que vous puissiez également attribuer un objectif à un groupe). Vous pouvez aligner des objectifs les uns par rapport aux autres, afin de montrer comment la progression sur plusieurs objectifs (objectifs enfant) influence la progression d’un autre (objectif parent). |
 | Résultat | Indicateur de mesure du succès de l’objectif. Chaque objectif peut avoir un ou plusieurs résultats et leur progression indique la progression de l’objectif. |
 | Activité | Action principale qui doit avoir lieu pour obtenir un résultat. Vous pouvez ajouter une ou plusieurs activités à un objectif afin d’indiquer le travail prévu pour atteindre cet objectif. |
 
@@ -153,5 +153,5 @@ En plus des résultats et des activités, vous pouvez également connecter des p
 
 Pour plus d’informations sur les objectifs, les résultats et les activités, consultez ce qui suit :
 
-* [Vue d’ensemble d’Objectifs Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md)
-* [Prise en main des résultats et des activités dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
+* [Vue d’ensemble des Objectifs Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md)
+* [Commencer avec les résultats et les activités dans les Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)

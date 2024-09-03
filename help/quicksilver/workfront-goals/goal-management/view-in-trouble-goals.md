@@ -1,8 +1,8 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Réviser les objectifs en difficulté dans Objectifs Adobe Workfront
-description: Les objectifs dont la progression est En difficulté risquent de ne pas être atteints et sont représentés par une barre de progression rouge dans Objectifs Adobe Workfront. Vous devez examiner régulièrement vos objectifs et comprendre pourquoi la progression est lente.
+title: Revoir les objectifs en difficulté dans Objectifs Adobe Workfront
+description: Les objectifs dont la progression est En difficulté risquent de ne pas être atteints et sont représentés par une barre de progression rouge dans les Objectifs Adobe Workfront. Vous devez examiner régulièrement vos objectifs et comprendre pourquoi la progression est lente.
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
@@ -13,13 +13,13 @@ ht-degree: 100%
 
 ---
 
-# Examiner les objectifs en difficulté dans Objectifs Adobe Workfront
+# Examiner les objectifs en difficulté dans les Objectifs Adobe Workfront
 
 <!--
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
 -->
 
-Les objectifs dont la progression est En difficulté risquent de ne pas être atteints et sont représentés par une barre de progression rouge dans Objectifs Adobe Workfront. Vous devez examiner régulièrement vos objectifs et comprendre pourquoi la progression est lente. Pour plus d’informations sur la progression des objectifs, voir [Vue d’ensemble de la progression et de la condition des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
+Les objectifs dont la progression est En difficulté risquent de ne pas être atteints et sont représentés par une barre de progression rouge dans les Objectifs Adobe Workfront. Vous devez examiner régulièrement vos objectifs et comprendre pourquoi la progression est lente. Pour plus d’informations sur la progression de l’objectif, voir [Vue d’ensemble de la progression du statut des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Conditions d’accès
 
@@ -45,9 +45,9 @@ Vous devez disposer des éléments suivants :
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
  <td>
- <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
+ <p>Nouvelle licence : contributeur ou contributrice ou niveau supérieur</p>
  Ou
- <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
+ <p>Licence actuelle : demande ou niveau supérieur</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
@@ -69,11 +69,11 @@ Vous devez disposer des éléments suivants :
   <div>
   <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
   <p>Autorisations de gestion sur l’objectif pour le modifier</p>
-  <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
+  <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
@@ -84,16 +84,16 @@ Vous devez disposer des éléments suivants :
 
 ## Recommandations pour éviter que la progression des objectifs ne devienne En difficulté
 
-Avant que la progression des objectifs ne devienne En difficulté, vous pouvez les surveiller régulièrement et ajuster leur progression lorsque celle-ci devient En danger. Les objectifs En danger risquent de se retrouver En difficulté.Pour plus d’informations sur la progression des objectifs, voir [Vue d’ensemble de la progression et de la condition des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md)
+Avant que la progression des objectifs ne devienne En difficulté, vous pouvez les surveiller régulièrement et ajuster leur progression lorsque celle-ci devient En danger. Les objectifs En danger risquent de se retrouver En difficulté.Pour plus d’informations sur la progression des objectifs, voir [Vue d’ensemble de la progression et du statut des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 Avant que la progression de vos objectifs ne devienne En difficulté, nous vous recommandons ce qui suit :
 
-* Examinez les objectifs dont la condition est En danger qui vous sont affectés, ainsi que les objectifs organisationnels affectés à vos équipes, à vos groupes ou à votre organisation qui pourraient être affectés par la progression de vos objectifs. Les objectifs En danger risquent de devenir des objectifs En difficulté. Les objectifs En danger sont marqués par une barre de progression jaune. Utilisez la liste des objectifs pour afficher les objectifs qui vous appartiennent, qui appartiennent à vos équipes, à vos groupes ou à votre organisation.
+* Examinez les objectifs ayant un état En danger qui vous sont assignés ainsi que les objectifs organisationnels assignés à vos équipes, à vos groupes ou à votre organisation qui pourraient être affectés par la progression de vos objectifs. Les objectifs En danger risquent de devenir des objectifs En difficulté. Les objectifs En danger sont marqués par une barre de progression jaune. Utilisez la liste des objectifs pour afficher les objectifs qui vous appartiennent, qui appartiennent à vos équipes, à vos groupes ou à votre organisation.
 
 
 ## Examiner les objectifs En difficulté dans la liste des objectifs
 
-Vous pouvez examiner les objectifs dans n’importe quelle section d’Objectifs Workfront.Pour plus d’informations sur les sections d’Objectifs Workfront, voir [Vue d’ensemble des sections d’Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Vous pouvez examiner les objectifs dans n’importe quelle section des Objectifs Workfront.Pour plus d’informations sur les sections d’Objectifs Workfront, voir [Vue d’ensemble des sections d’Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 Cet article décrit comment passer en revue les objectifs dans la liste des objectifs.
 
@@ -110,17 +110,17 @@ Cet article décrit comment passer en revue les objectifs dans la liste des obje
 
      >[!TIP]
      >
-     >Dans Objectifs Adobe Workfront, le filtre Entreprise affiche les objectifs pour lesquels votre entreprise est sélectionnée en tant que propriétaire.
+     >Le filtre « Entreprise » des Objectifs Adobe Workfront affiche les objectifs dont l’entité propriétaire est votre entreprise.
      >
      >
-     >Vous ne pouvez pas rechercher d’entreprise à l’aide de ce champ. Seule votre organisation propriétaire de votre instance Workfront est sélectionnée par défaut.
+     >Ce champ ne permet pas de rechercher des entreprises. Par défaut, seule votre entreprise, propriétaire de votre instance Workfront, est sélectionnée.
 
-   * Pour chacune des unités organisationnelles sélectionnées ci-dessus, cliquez sur **Nouveau filtre** > **Progression** > **En difficulté** > **Appliquer**.
+   * Pour chacune des unités organisationnelles sélectionnées ci-dessus, cliquez sur **Nouveau filtre** > **Progression** > **En difficulté** > **Appliquer.**
    * (Facultatif) Sélectionnez la période pour laquelle vous souhaitez afficher les objectifs.
 
      L’indicateur de la barre de progression s’affiche en rouge pour chaque objectif de la liste des objectifs.
 
-     Pour plus d’informations sur le filtrage des objectifs à l’aide de tous les autres critères dans le panneau de droite, consultez la section [Filtrer les informations dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+     Pour plus d’informations sur le filtrage des objectifs à l’aide de tous les autres critères dans le panneau de droite, consultez la section [Filtrer les informations dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 1. Pointez sur l’indicateur de la barre de progression pour voir quel est le pourcentage de progression actuel et quelle est la valeur attendue pour la journée en cours.
 
@@ -132,7 +132,7 @@ Cet article décrit comment passer en revue les objectifs dans la liste des obje
 
 1. Cliquez sur le nom d’un objectif pour ouvrir la page de l’objectif, puis cliquez sur **Indicateurs de progression** dans le panneau de gauche. Affichez l’indicateur de progression qui provoque le retard de l’objectif et mettez à jour la progression de l’indicateur en ligne, dans la colonne **Progression en cours** de la liste des indicateurs de progression.
 
-   Pour plus d’informations sur la mise à jour des résultats et des activités, voir [Mettre à jour la progression des objectifs dans Objectifs Adobe Workfront](../goal-review-and-workfront-goals-sections/check-in-goals.md).
+   Pour plus d’informations sur la mise à jour des résultats et des activités, voir [Mettre à jour la progression des objectifs dans Objectifs Adobe Workfront](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
    ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 

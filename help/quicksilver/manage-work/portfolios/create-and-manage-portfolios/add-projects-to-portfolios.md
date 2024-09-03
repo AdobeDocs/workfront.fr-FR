@@ -2,14 +2,14 @@
 product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
 title: Ajouter des projets à un portfolio
-description: Nous vous recommandons d’ajouter des projets aux portefeuilles lorsque vous les lancez. Vous pouvez toutefois les ajouter à un portfolio à tout moment de leur vie.
+description: Nous vous recommandons d’ajouter des projets aux portfolios lorsque vous les lancez. Cependant, vous pouvez les ajouter à un portfolio à tout moment de leur durée de vie.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 7%
+ht-degree: 95%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 7%
 
 <!--Audited: 7/2024-->
 
-Nous vous recommandons d’ajouter des projets aux portefeuilles lorsque vous les lancez. Vous pouvez toutefois les ajouter à un portfolio à tout moment de leur vie.
+Nous vous recommandons d’ajouter des projets aux portfolios lorsque vous les lancez. Cependant, vous pouvez les ajouter à un portfolio à tout moment de leur durée de vie.
 
-Tenez compte des points suivants lors de l’ajout de projets à des portefeuilles :
+Tenez compte des éléments suivants lorsque vous ajoutez des projets aux portfolios :
 
 * Bien qu’un portfolio puisse contenir un nombre illimité de projets, vous ne pouvez associer qu’un seul portfolio à un projet.
 * Un projet reste dans un portfolio jusqu’à ce qu’il soit supprimé ou associé à un autre portfolio.
@@ -33,22 +33,22 @@ Tenez compte des points suivants lors de l’ajout de projets à des portefeuill
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
    <td> <p>Nouveau : Tous</p>
    <p>Actuel :[!UICONTROL Entreprise] ou version ultérieure</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td><p>Nouvelle : standard</p> 
-   <p>Actuel :[!UICONTROL Plan] </p> </td> 
+   <td><p>Nouveau : Standard</p> 
+   <p>Actuelle : [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
-   <td> <p>Portfolios d’accès [!UICONTROL Modifier]</p> <p>Accès à [!UICONTROL Modifier] dans Projets</p> </td> 
+   <td> <p>Portfolios d’accès [!UICONTROL Modifier]</p> <p>[!UICONTROL Edit] l’accès aux Projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations [!UICONTROL Gérer] pour le portfolio</p> <p>Autorisations [!UICONTROL Gérer] pour les projets</p>  </td> 
+   <td> <p>Autorisations [!UICONTROL Manage] pour le portfolio</p> <p>[!UICONTROL Manage] les permissions des projets</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Tenez compte des points suivants lors de l’ajout de projets à des portefeuill
 
 +++
 
-## Ajout d’un projet à un portfolio
+## Ajouter un projet à un portfolio
 
 1. Accédez à un portfolio, puis cliquez sur **[!UICONTROL Projets]** dans le panneau de gauche.
 
@@ -67,7 +67,7 @@ Tenez compte des points suivants lors de l’ajout de projets à des portefeuill
 
    >[!TIP]
    >
-   >Vous ne pouvez pas ajouter de projet lorsque vous affichez la liste des projets dans la vue [!UICONTROL Milestone].
+   >Vous ne pouvez pas ajouter de projet lorsque vous consultez la liste des projets dans la vue [!UICONTROL Jalon].
 
    Sélectionnez l’une des options suivantes :
 
@@ -76,34 +76,34 @@ Tenez compte des points suivants lors de l’ajout de projets à des portefeuill
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Projet existant]</td> 
-      <td> <p>Ajoutez un projet qui a déjà été créé.</p> </td> 
+      <td role="rowheader">[!UICONTROL Existing Project]</td> 
+      <td> <p>Ajoutez un projet déjà créé.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nouveau projet]</td> 
-      <td> <p>Ajoutez un nouveau projet. </p> <p>Pour plus d’informations sur la création d’un projet, voir <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Création d’un projet</a>. </p> </td> 
+      <td role="rowheader">[!UICONTROL New Project]</td> 
+      <td> <p>Ajoutez un nouveau projet. </p> <p>Pour plus d’informations sur la création d’un nouveau projet, consultez la section <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Créer un projet</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Importer un projet depuis [!DNL MS Project]] </td> 
-      <td> <p>Ajoutez un projet précédemment exporté depuis [!DNL MS Project] et enregistré sur votre ordinateur. </p> <p>Pour plus d'informations sur la création d'un projet en l'important à partir de [!DNL Microsoft Project], voir <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importer un projet à partir de [!DNL Microsoft Project]</a>.</p> </td> 
+      <td role="rowheader">[!UICONTROL Import a Project from [!DNL MS Project]] </td> 
+      <td> <p>Ajoutez un projet que vous avez précédemment exporté depuis [!DNL MS Project] et que vous avez enregistré sur votre ordinateur. </p> <p>Pour plus d’informations sur la création d’un nouveau projet en l’important à partir de [!DNL Microsoft Project], consultez la section <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importer un projet à partir de [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Project]</td> 
-      <td> <p>Demandez qu’un projet soit approuvé.</p> <p>Pour plus d’informations sur la demande de projets, voir <a href="../../../manage-work/projects/create-projects/request-project.md">Demande d’un projet</a>. </p> </td> 
+      <td> <p>Demander l’approbation d’un projet.</p> <p>Pour plus d’informations sur les demandes de projets, consultez la section <a href="../../../manage-work/projects/create-projects/request-project.md">Demander un projet</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nouveau à partir d’un modèle]</td> 
-      <td> <p>Ajoutez un nouveau projet en utilisant un modèle existant. </p> <p>Pour plus d’informations sur la création d’un projet à partir d’un modèle, voir <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Création d’un projet à l’aide d’un modèle</a>.</p> </td> 
+      <td role="rowheader">[!UICONTROL New from Template]</td> 
+      <td> <p>Ajouter un nouveau projet en utilisant un modèle existant. </p> <p>Pour plus d’informations sur la création d’un projet à partir d’un modèle, consultez la section <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Créer un projet à l’aide d’un modèle</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Conditionnel) Si vous avez choisi d’ajouter un projet existant, commencez à saisir le nom d’un projet dans la zone **[!UICONTROL Ajouter des projets]**, puis cliquez dessus lorsqu’il apparaît dans la liste. Vous pouvez ajouter plusieurs projets à la fois.
+1. (Le cas échéant) Si vous avez choisi d’ajouter un projet existant, commencez à taper son nom dans la zone **[!UICONTROL Ajouter des projets]**, puis cliquez sur les projets lorsqu’ils apparaissent dans la liste. Vous pouvez ajouter plusieurs projets à la fois.
 
    ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
 1. Cliquez sur **[!UICONTROL Ajouter des projets]**.
 
-   Le ou les projets que vous avez sélectionnés sont maintenant associés au portfolio.
+   Le ou les projets sélectionnés sont désormais associés au portfolio.

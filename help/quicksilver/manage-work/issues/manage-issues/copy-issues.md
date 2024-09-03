@@ -2,102 +2,102 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Copier les problèmes
-description: Vous pouvez copier un problème ou une requête et les enregistrer sur le même projet ou sur un autre. Vous pouvez également copier un problème d’une tâche vers un autre projet.
+description: Vous pouvez copier un problème ou une demande et les enregistrer dans le même projet ou dans un autre. Vous pouvez également copier un problème d’une tâche vers un autre projet.
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
 source-wordcount: '1046'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
 # Copier les problèmes
 
-Vous pouvez copier un problème ou une requête et les enregistrer sur le même projet ou sur un autre. Vous pouvez également copier un problème d’une tâche vers un autre projet.
+Vous pouvez copier un problème ou une demande et les enregistrer dans le même projet ou dans un autre. Vous pouvez également copier un problème d’une tâche vers un autre projet.
 
-Vous pouvez copier des problèmes à partir des objets suivants :
+Vous pouvez copier des problèmes à partir des objets suivants :
 
-* D’un projet au même projet (dupliquez-le sur le même projet)
-* D’une tâche à la même tâche (dupliquer si sur la même tâche)
-* D’un projet à un autre
-* d’une tâche à un projet ;
+* D’un projet vers le même projet (duplication sur le même projet)
+* D’une tâche vers la même tâche (duplication si sur la même tâche)
+* D’un projet à un autre.
+* D’une tâche vers un projet
 
 >[!TIP]
 >
->&quot;Problèmes&quot; et &quot;requêtes&quot; sont interchangeables dans Workfront. Vous pouvez enregistrer les problèmes sur les projets et les tâches pour indiquer les travaux imprévus qui doivent être résolus. Vous pouvez également envoyer des requêtes qui sont enregistrées en tant que problèmes sur un projet désigné comme file d’attente de requêtes.
+>« Problèmes » et « demandes » sont interchangeables dans Workfront. Vous pouvez enregistrer des problèmes sur les projets et les tâches afin d’indiquer les travaux imprévus qui doivent être traités. Vous pouvez également soumettre des demandes qui sont enregistrées en tant que problèmes dans un projet désigné comme file d’attente des demandes.
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> <p>Passez en revue la licence ou une licence supérieure pour copier un problème dans la section Problèmes d’un projet.</p> </td> 
+   <td> <p>Requête ou supérieure</p> <p>Licence de révision ou supérieure pour copier un problème dans la section Problèmes d’un projet.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur à Projets et tâches</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur l’accès aux problèmes de votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a>. Pour plus d’informations sur la façon dont un administrateur ou une administratrice de Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>. </p> </td> 
+   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur aux Projets et aux Tâches</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur l’accès aux problèmes liés à votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a>. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations liées au problème</p> <p>Autorisations Contribute pour l’élément dans lequel vous copiez le problème avec la possibilité d’ajouter des problèmes.</p> <p> Pour plus d’informations sur l’octroi d’autorisations pour les problèmes, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a></p> <p>Pour plus d'informations sur la demande d'autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d'accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations liées aux problèmes</p> <p>Autorisations de contribution à l’élément dans lequel vous copiez le problème avec la possibilité d’ajouter des problèmes.</p> <p> Pour plus d’informations sur l’octroi d’autorisations aux problèmes, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partager un problème</a></p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
 
-## Remarques concernant les problèmes de copie
+## Considérations relatives à la copie de problèmes
 
-### Remarques générales concernant la copie de problèmes
+### Considérations générales relatives à la copie de problèmes
 
-Vous avez la possibilité de choisir de copier certains éléments associés au problème dans le problème copié au cours du processus de copie. Cependant, certains éléments sont transférés par défaut vers le nouveau problème, tandis que d’autres ne le sont pas, comme décrit dans les listes ci-dessous.
+Vous avez la possibilité de choisir de copier certains éléments associés au problème dans le problème copié pendant le processus de copie. Toutefois, certains éléments sont transférés par défaut vers le nouveau problème, tandis que d’autres ne le sont pas, comme décrit dans les listes ci-dessous.
 
-Par défaut, les éléments suivants sont copiés vers le nouveau numéro :
+Les éléments suivants sont copiés par défaut dans le nouveau problème :
 
 * Contact principal
-* Formulaires personnalisés. Les informations contenues dans les champs personnalisés ne sont copiées vers le nouveau problème que lorsque vous sélectionnez Données personnalisées dans le processus de copie.
+* Formulaires personnalisés. Les informations contenues dans les champs personnalisés ne sont copiées dans le nouveau problème que si vous sélectionnez Données personnalisées dans le processus de copie.
 * Approbations
-* Dates de début et de fin planifiées
+* Dates de début et d’achèvement prévues
 
-Par défaut, les objets suivants ne sont pas copiés vers le nouveau problème :
+Par défaut, les objets suivants ne sont pas copiés dans le nouveau problème :
 
 * Heures consignées
 
-### Considérations pour les problèmes liés aux documents ou aux files d’attente de demandes
+### Considérations relatives aux problèmes liés aux documents ou aux files d’attente de demandes
 
-Tenez compte des points suivants lors de la copie de problèmes qui contiennent des documents ou qui sont associés à une file d’attente de demandes :
+Tenez compte des points suivants lorsque vous copiez des problèmes contenant des documents ou associés à une file d’attente des demandes :
 
-* **Lorsqu’un problème est associé à une file d’attente de demandes :** Lorsque vous copiez un problème vers un autre objet et que le problème est associé à une file d’attente de demandes, le problème copié n’est plus associé à la file d’attente d’origine du premier problème.
-* **Lorsqu’un document est attaché au problème :** Lorsque vous copiez un problème sur un autre objet et qu’un document y est associé, le document et ses versions passent également au nouveau problème. Les bons à tirer ou les validations associées au document ne sont pas déplacés.
-* **Lorsqu’un problème est lié à un document ou à un dossier :** Lorsque vous copiez un problème dont les documents ou dossiers sont liés à un service tiers comme Google Drive, les liens vers les documents sont transférés vers le problème copié.
+* **Lorsqu’un problème est associé à une file d’attente des demandes :** lorsque vous copiez un problème dans un autre objet et que le problème est associé à une file d’attente des demandes, le problème copié n’est plus associé à la file d’attente d’origine du premier problème.
+* **Lorsqu’un document est attaché au problème :** lorsque vous copiez un problème dans un autre objet et que le problème est accompagné d’un document, le document et ses versions sont également transférés dans le nouveau problème. Les épreuves ou approbations associées au document ne sont pas déplacées.
+* **Lorsqu’un problème est lié à un document ou à un dossier :** lorsque vous copiez un problème qui contient des documents ou des dossiers liés à un service tiers tel que Google Drive, les liens vers les documents sont transférés vers le problème copié.
 
-## Copie des problèmes dans une liste
+## Copier des problèmes dans une liste
 
-Vous pouvez copier un ou plusieurs problèmes à partir d’une liste de problèmes ou d’un rapport de problèmes.
+Vous pouvez copier un ou plusieurs problèmes à partir d’une liste de problèmes ou d’un rapport de problème.
 
-1. Accédez au projet contenant le ou les problèmes que vous souhaitez copier.
+1. Accédez au projet qui contient le ou les problèmes que vous souhaitez copier.
 
    Ou
 
    Accédez à un rapport de problèmes.
 
 1. Si vous avez choisi d’accéder à un projet, cliquez sur **Problèmes** dans le panneau de gauche.
-1. Sélectionnez le ou les problèmes que vous souhaitez copier, puis cliquez sur le **menu Plus** en haut de la liste des problèmes, puis cliquez sur **Copier vers**.
+1. Sélectionnez le ou les problèmes que vous souhaitez copier et cliquez sur le **menu Plus** en haut de la liste des problèmes, puis cliquez sur **Copier sur**.
 
    ![](assets/copy-issue-in-list-nwe-350x169.png)
 
-1. Continuez à copier le problème, comme décrit dans la section [Copier un seul problème](#copy-a-single-issue) commençant par l’étape 2.
+1. Continuez à copier le problème, comme décrit dans la section [Copier un seul problème](#copy-a-single-issue) en commençant par l’étape 2.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -107,9 +107,9 @@ Vous pouvez copier un ou plusieurs problèmes à partir d’une liste de problè
 
 ## Copier un seul problème {#copy-a-single-issue}
 
-Vous pouvez copier un problème lors de son affichage.
+Vous pouvez copier un problème lorsque vous le consultez.
 
-1. Accédez à un problème que vous souhaitez copier, puis cliquez sur le menu **Plus** ![](assets/more-icon.png) situé à droite du nom du problème, puis sur **Copier** vers .
+1. Accédez à un problème que vous souhaitez copier, puis cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom du problème, puis sur **Copier sur**.
 
    ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
@@ -117,26 +117,26 @@ Vous pouvez copier un problème lors de son affichage.
 
    ![](assets/copy-issue-box-nwe-350x285.png)
 
-1. Dans la section **Select Destination Project** , indiquez le nom du projet dans lequel vous souhaitez copier les problèmes. Le nom du projet actif s’affiche par défaut.
+1. Dans la section **Sélectionner le projet de destination**, indiquez le nom du projet dans lequel vous souhaitez copier les problèmes. Le nom du projet actuel s’affiche par défaut.
 
    >[!TIP]
    >
-   >Seuls 100 projets s’affichent dans la liste.
+   >Seuls 100 projets s’affichent dans la liste.
 
-1. (Conditionnel) Cliquez sur **demander l’accès** si vous n’avez pas accès aux problèmes de copie dans le projet.
-1. (Conditionnel) Continuez à copier le problème vers le projet de destination sélectionné sans demander l’accès si vous avez accès à l’une des tâches du projet de destination pour ajouter des problèmes.
+1. (Le cas échéant) Cliquez sur **Demander l’accès** si vous n’avez pas le droit de copier des problèmes dans le projet.
+1. (Le cas échéant) Continuer à copier le problème dans le projet de destination sélectionné sans demander d’accès si vous avez le droit d’ajouter des problèmes à l’une des tâches du projet de destination.
 
    ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Des messages similaires s’affichent si le projet sélectionné est en attente d’approbation, terminé ou mort, lorsque l’administrateur de Workfront empêche l’ajout de problèmes à ces projets. Pour plus d’informations, voir [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Des messages similaires s’affichent si le projet sélectionné est en attente d’approbation, terminé ou immobilisé, lorsque l’administration de Workfront empêche l’ajout de problèmes à ces projets. Pour plus d’informations, voir [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. (Facultatif) Dans la section **Options**, désélectionnez l’un des éléments répertoriés dans le tableau ci-dessous pour les supprimer du nouveau problème. Toutes les options sont sélectionnées par défaut.
+1. (Facultatif) Dans la section **Options**, désélectionnez l’un des éléments répertoriés dans le tableau ci-dessous pour le supprimer du nouveau problème. Toutes les options sont sélectionnées par défaut.
 
    >[!NOTE]
    >
-   >Cela a un impact uniquement sur les problèmes copiés et non sur les problèmes d’origine.
+   >Cela n’a d’incidence que sur les problèmes copiés et non sur les problèmes d’origine.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -144,15 +144,15 @@ Vous pouvez copier un problème lors de son affichage.
     <tbody> 
      <tr> 
       <td role="rowheader">Affectations</td> 
-      <td>Supprime les utilisateurs, les rôles de tâche ou les équipes affectés au problème.</td> 
+      <td>Supprime les personnes, les fonctions ou les équipes affectées au problème.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Progression</td> 
-      <td>Supprime le pourcentage de réussite, le cas échéant, du problème.</td> 
+      <td>Supprime le pourcentage terminé, le cas échéant, du problème.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documents</td> 
-      <td><span style="line-height: 1.5;">Supprime tous les éléments de l’onglet documents, y compris les versions de documents, les documents liés et les dossiers.</span> <br>Par défaut, les BAT et les approbations de document ne peuvent pas être copiés vers un autre problème.</td> 
+      <td><span style="line-height: 1.5;">Supprime tout ce qui se trouve dans l’onglet des documents, y compris les versions des documents, les documents liés et les dossiers.</span> <br>Par défaut, les épreuves et les approbations de documents ne peuvent pas être copiées dans un autre dossier.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Autorisations</td> 
@@ -164,13 +164,13 @@ Vous pouvez copier un problème lors de son affichage.
      </tr> 
      <tr> 
       <td role="rowheader">Données personnalisées</td> 
-      <td>Supprime les informations du formulaire personnalisé sur le problème, ainsi que les informations sur les formulaires personnalisés associés aux documents joints au problème, si ceux-ci sont également copiés avec le problème. Les formulaires personnalisés resteront attachés aux problèmes et documents, mais les informations sur les formulaires ne seront pas transférées vers le nouveau numéro. </td> 
+      <td>Supprime les informations du formulaire personnalisé relatif au problème, ainsi que les informations des formulaires personnalisés associés aux documents joints à la question, si celles-ci sont également copiées avec le problème. Les formulaires personnalisés resteront joints aux problèmes et aux documents, mais les informations qu’ils contiennent ne seront pas transférées au nouveau problème. </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. (Facultatif) Dans la section **Sélectionner la tâche**, sélectionnez la tâche dans laquelle vous souhaitez déplacer le problème.
-1. Cliquez sur **Problème de copie** ou **Problèmes de copie** si vous avez sélectionné plusieurs problèmes dans une liste.
+1. Cliquez sur **Copier le problème** ou **Copier les problèmes** si vous avez sélectionné plusieurs problèmes dans une liste.
 
    Les problèmes copiés sont ajoutés au projet spécifié.
 

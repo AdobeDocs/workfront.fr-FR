@@ -3,66 +3,66 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculer la valeur nette
-description: La valeur nette d’un projet est la valeur totale attendue du projet après avoir calculé ses avantages et supprimé les coûts.
+description: La valeur nette d’un projet correspond à la valeur totale attendue du projet après avoir calculé ses avantages et supprimé les coûts.
 author: Alina
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 # Calculer la valeur nette
 
-La valeur nette d’un projet est la valeur totale attendue du projet après avoir calculé ses avantages et supprimé les coûts. 
+La valeur nette d’un projet correspond à la valeur totale attendue du projet après avoir calculé ses avantages et supprimé les coûts. 
 
-## Présentation de la valeur nette du projet
+## Vue d’ensemble de la valeur nette des projets
 
-Adobe Workfront calcule la valeur nette d’un projet à l’aide de la formule suivante : 
+Adobe Workfront calcule la valeur nette d’un projet à l’aide de la formule suivante :
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
 ```
 
-Les champs suivants peuvent affecter la valeur nette d’un projet :
+Les champs suivants peuvent affecter la valeur nette d’un projet :
 
-* **Avantage planifié** : il s’agit d’une entrée manuelle spécifiée par le propriétaire du projet lors de l’achèvement de la zone **Informations sur le projet** de l’analyse de cas client.\
-  Pour plus d’informations sur les avantages prévus d’un projet, consultez la section [Informations sur le projet](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) de l’article [Présentation des domaines de l’analyse de cas](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+* **Bénéfice prévu** : il s’agit d’une entrée manuelle spécifiée par la personne propriétaire du projet lors du remplissage de la zone **Informations sur le projet** du business case.\
+  Pour plus d’informations sur le bénéfice prévu d’un projet, voir la section [Informations sur le projet](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) de l’article [Vue d’ensemble des zones du business case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-* **Coût budgété** : coût total associé au projet tel qu’estimé lors du premier lancement du projet.
+* **Coût budgété** : il s’agit du coût total associé au projet tel qu’il a été estimé lors de son lancement.
 
-  Le **Coût budgété** utilise la valeur **Coût du travail budgété** qui est calculée dans la zone Ressource/Budget de l’analyse de performances et qui prend en compte les heures budgétisées pour vos rôles de travail dans le planificateur de ressources et le taux de coût par heure de chaque rôle de tâche.\
-  Le coût budgété affecte la **valeur nette** du projet. Pour plus d’informations sur le mode de calcul du coût budgété, voir [Calcul du coût budgété](../../../manage-work/projects/project-finances/budgeted-cost.md).
+  Le **coût budgété** utilise la valeur **Coût budgété de la main-d’œuvre**, qui est calculée dans la zone Établissement du budget de ressources du business case et prend en compte les heures budgétées pour vos fonctions dans le planificateur de ressources et le taux de coût horaire de chaque fonction.\
+  Le coût budgété affecte la **valeur nette** du projet.Pour plus d’informations sur le calcul du coût budgété, voir [Calculer le coût budgété](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
-* **Coût des risques potentiels** : coût associé à tout risque sur le projet, tel qu’il est défini dans l’analyse de cas ou dans l’onglet Risques du projet.\
-  Pour plus d’informations sur le calcul du coût potentiel de risque d’un projet, consultez l’article [Calculer le coût potentiel de risque](../../../manage-work/projects/project-finances/potential-risk-cost.md).
+* **Coût potentiel des risques** : il s’agit du coût associé aux risques du projet, tels qu’ils sont définis dans le business case ou dans l’onglet Risques du projet.\
+  Pour plus d’informations sur le calcul du coût potentiel des risques d’un projet, voir l’article [Calculer le coût potentiel des risques](../../../manage-work/projects/project-finances/potential-risk-cost.md).
 
-   
+   
 
-## Localisation de la valeur nette du projet
+## Localiser la valeur nette du projet
 
-Vous trouverez la valeur nette d’un projet dans les zones suivantes de Workfront :
+Vous pouvez trouver la valeur nette d’un projet dans les zones suivantes de Workfront :
 
-* Dans la zone Résumé des cas d’entreprise de l’analyse de cas \
-  Pour plus d’informations sur la zone de résumé de l’analyse de cas, reportez-vous à la section &quot;Comprendre le résumé de l’analyse de cas&quot; de l’article [Créer une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Créer une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* Dans la zone Récapitulatif du business case du business case.\
+  Pour plus d’informations sur la zone Récapitulatif du business case, voir la section « Comprendre le Récapitulatif du business case » de l’article [Créer un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Créer un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
   ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
-* Dans Portfolio Optimizer si le projet est associé à un portfolio
+* Dans l’optimisateur de portfolio, si le projet est associé à un portfolio.
 
   >[!TIP]
   >
-  >Le total de toutes les valeurs nettes du projet est la valeur nette du portefeuille.
+  >Le total des valeurs nettes de tous les projets est la valeur nette du portfolio.
 
-  Pour plus d’informations sur Portfolio Optimizer, consultez la [présentation de Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Pour plus d’informations sur l’optimisateur de portfolio, voir [Vue d’ensemble de l’optimisateur de portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* Dans le champ Valeur nette du projet des listes et rapports suivants :
+* Dans le champ Valeur nette du projet des listes et rapports suivants :
 
    * Projet
    * Tâche
    * Problème
    * Projet (données financières)
 
-  Pour plus d’informations sur la création d’un rapport, consultez l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Pour plus d’informations sur la création d’un rapport, voir l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

@@ -2,81 +2,81 @@
 product-area: projects;user-management
 navigation-topic: manage-projects
 title: Supprimer des utilisateurs et utilisatrices d’un projet
-description: Vous pouvez supprimer des utilisateurs d’un projet lorsqu’ils ne sont plus impliqués dans la réalisation du projet.
+description: Vous pouvez supprimer des personnes d’un projet lorsqu’elles ne sont plus impliquées dans la réalisation du projet.
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
 source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
 # Supprimer des utilisateurs et utilisatrices d’un projet
 
-Vous pouvez supprimer des utilisateurs d’un projet lorsqu’ils ne sont plus impliqués dans la réalisation du projet. La suppression des utilisateurs des projets a des implications sur les affectations de tâche et de problème, ainsi que sur les rôles de projet. Suppression des utilisateurs qui ne reçoivent plus de notifications destinées à l’équipe de projet. Pour plus d’informations sur les notifications des équipes de projet, voir [Types de notification d’événement](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Vous pouvez supprimer des personnes d’un projet lorsqu’elles ne sont plus impliquées dans la réalisation du projet. La suppression de personnes des projets a des implications sur les affectations de tâche et de problème, ainsi que sur les rôles de projet. Les personnes supprimées ne reçoivent plus de notifications destinées à l’équipe du projet. Pour plus d’informations sur les notifications destinées aux équipes du prrojet, voir [Types de notification d’événement](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Les utilisateurs associés à un projet sont répertoriés dans la zone Personnes d’un projet. Ils représentent l’équipe de projet. Pour plus d’informations sur l’équipe de projet, consultez la [présentation de l’équipe de projet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Les personnes associées à un projet sont répertoriées dans la zone Personnes d’un projet. Elles représentent l’équipe du projet. Pour plus d’informations sur les équipes du projet, voir [Vue d’ensemble des équipes du projet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b>
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Accès en modification aux projets</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations sur le projet</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Gérer les autorisations sur le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
-## Comment la suppression d’un utilisateur affecte les tâches, problèmes et projets existants
+## Supprimer une personne affecte les tâches, problèmes et projets existants
 
-Lorsqu’un utilisateur est supprimé d’un projet, toutes les tâches ou tous les problèmes qui lui sont affectés peuvent être affectés, selon que la tâche ou le problème a été terminé lorsque l’utilisateur a été supprimé :
+Lorsqu’une personne est supprimée d’un projet, toutes les tâches ou tous les problèmes qui lui sont affectés peuvent en souffrir, selon que la tâche ou le problème a été terminé lorsque la personne été supprimée :
 
-* **Si l’élément n’est pas terminé lorsque l’utilisateur est supprimé :** L’élément est réaffecté à un rôle de tâche si un rôle de tâche a déjà été attribué, ou il est affecté au rôle de tâche que l’utilisateur remplissait sur l’élément. Si l’élément ou l’utilisateur n’avait pas de rôle de tâche attribué, vous devez le réaffecter manuellement.
-* **Si l’élément est terminé lorsque l’utilisateur est supprimé :** Le nom de l’utilisateur supprimé reste sur l’élément.
-* **Si l’utilisateur supprimé est également le créateur d’un projet :** Le projet n’est pas supprimé de sa liste **Projets sur lesquels je suis sur** dans la zone Projets. Le projet est supprimé des listes de tous les autres utilisateurs qui filtrent pour ce projet par le champ Entré par .
-* **Si l’utilisateur est le propriétaire ou le parrain du projet :** L’utilisateur reste dans ses rôles de parrain ou de propriétaire du projet.
+* **Si l’élément n’est pas terminé lorsque la personne est supprimée :** l’élément est réaffecté à une fonction si une fonction a déjà été affectée ou si elle est affectée à la fonction que la personne remplissait sur l’élément. Si l’élément ou la personne n’avait pas de fonction affectée, vous devez le ou la réaffecter manuellement.
+* **Si l’élément est terminé lorsque la personne est supprimée :** le nom de la personne supprimée reste sur l’élément.
+* **Si la personne supprimée est également la personne créatrice d’un projet :** le projet n’est pas supprimé de sa liste **Projets auxquels je participe** dans la zone Projets. Le projet est supprimé des listes de toutes les autres personnes qui filtrent pour ce projet par le champ Saisi par.
+* **Si la personne est propriétaire ou sponsor du projet :** la personne reste dans ses rôles de sponsor ou de propriétaire du projet.
 
-## Suppression d’utilisateurs d’un projet et d’une équipe de projet
+## Supprimer des personnes d’un projet et d’une équipe de projet
 
-Vous pouvez supprimer des utilisateurs d’un projet en les supprimant de l’équipe de projet.
+Vous pouvez supprimer des personnes d’un projet en les supprimant de l’équipe de projet.
 
-Lorsque les utilisateurs remplissent des rôles sur un projet, ils font partie de l’équipe de projet.
+Lorsque les personnes remplissent des rôles sur un projet, elles font partie de l’équipe de projet.
 
-Lorsque vous supprimez des utilisateurs de leurs rôles sur le projet, ils restent membres de l’équipe du projet.
+Lorsque vous supprimez le rôle d’une personne dans le projet, celle-ci continue à faire partie de l’équipe du projet.
 
-Pour plus d’informations sur les rôles des utilisateurs sur un projet, voir [Gérer l’équipe de projet](../planning-a-project/manage-project-team.md).
+Pour plus d’informations sur les rôles des personnes dans un projet, voir [Gérer l’équipe de projet](../planning-a-project/manage-project-team.md).
 
-Pour supprimer des utilisateurs de l’équipe de projet :
+Pour supprimer des personnes de l’équipe de projet :
 
-1. Accédez au projet dans lequel vous souhaitez supprimer les utilisateurs.
+1. Accédez au projet dans lequel vous souhaitez supprimer les personnes.
 
-1. Cliquez sur **Personnes** dans le panneau de gauche, puis sélectionnez les utilisateurs à supprimer. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Personnes**.
+1. Cliquez sur **Personnes** dans le panneau de gauche, sélectionnez les personnes à supprimer. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Personnes**.
 
-1. Cliquez sur l’icône **Supprimer** ![Supprimer l’élément](assets/remove-icon---x-in-circle.png) en haut de la liste des utilisateurs.
+1. Cliquez sur l’icône **Supprimer** ![Supprimer un élément](assets/remove-icon---x-in-circle.png) en haut de la liste des personnes.
 
-1. Cliquez sur **Oui, Supprimer les utilisateurs sélectionnés** pour confirmer la suppression.
+1. Cliquez sur **Oui, supprimer les personnes sélectionnées** pour confirmer la suppression.
 
-   Les utilisateurs sont supprimés de l’équipe du projet et de toutes les tâches ou problèmes incomplets auxquels ils peuvent être affectés. Ils ne reçoivent plus de notifications destinées à l’équipe de projet.
+   Les personnes sont supprimées de l’équipe du projet et de toutes les tâches ou problèmes incomplets auxquels elles peuvent être affectées. Elles ne reçoivent plus de notifications destinées à l’équipe de projet.

@@ -2,47 +2,47 @@
 product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Définition des types de requête pour un projet
-description: Vous pouvez organiser le type de problèmes ou de requêtes connectés dans Adobe Workfront par types de requêtes.
+description: Vous pouvez organiser le type de problèmes ou de demandes consignés dans Adobe Workfront par types de demandes.
 author: Lisa
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
 source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 22%
+ht-degree: 87%
 
 ---
 
 # Définir les types de demandes pour un projet
 
-Vous pouvez organiser le type de problèmes ou de requêtes connectés dans Adobe Workfront par types de requêtes.
+Vous pouvez organiser le type de problèmes ou de demandes consignés dans Adobe Workfront par types de demandes.
 
-Cette organisation est utile pour des raisons de création de rapports et pour aider les utilisateurs à comprendre le type de travail inattendu qui peut se produire pendant la durée de vie d’un projet.
+Cette organisation est utile pour des raisons de reporting et pour aider les utilisateurs et utilisatrices à comprendre le type de travail inattendu qui peut survenir pendant la durée de vie d’un projet.
 
 ## Conditions d’accès
 
 +++
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-    <p>Nouvelle : standard</p>
+    <p>Nouveau : Standard</p>
     <p>ou</p>
-    <p>Actuelle : formule</p></td>  
+    <p>Actuel : formule</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Modifier l’accès aux projets</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux projets</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -51,46 +51,46 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Conditions préalables
 
-Avant de commencer, vous devez effectuer les opérations suivantes :
+Avant de commencer, vous devez effectuer les opérations suivantes :
 
 * Avoir ou créer un projet
 
-  Pour plus d’informations sur la création de projets, voir [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
+  Pour plus d’informations sur la création de projets, voir [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
 
-## Considérations sur les types de requête
+## Considérations relatives aux types de demandes
 
-* Vous pouvez spécifier le type de problèmes ou de requêtes pouvant être consignés dans un projet lorsque vous configurez la zone **Détails de la file d’attente** pour le projet.
-* Vous n’avez pas besoin d’activer le projet pour qu’il devienne une file d’attente de requêtes afin de pouvoir définir des types de requêtes pour un projet. Les problèmes consignés pour un projet peuvent être étiquetés avec un type de requête différent.
-* Si vous ajoutez des rubriques de file d’attente à votre projet, vous devez définir des types de requêtes sur chaque rubrique de file d’attente pour l’afficher lors de l’ajout d’un nouveau problème ou d’une nouvelle requête. Pour plus d’informations, voir [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* Vous pouvez spécifier le type de problèmes ou de demandes pouvant être consignés dans un projet lorsque vous configurez la zone **Détails de la file d’attente** du projet.
+* Vous n’avez pas besoin d’activer le projet pour qu’il devienne une file d’attente de demandes pour pouvoir définir des types de demandes pour un projet. Les problèmes consignés pour un projet peuvent être étiquetés avec un type de demande différent.
+* Si vous ajoutez des rubriques de file d’attente à votre projet, vous devez définir des types de demandes sur chaque rubrique de file d’attente pour l’afficher lors de l’ajout d’un nouveau problème ou d’une nouvelle demande. Pour plus d’informations, voir [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-## Définition du problème ou des types de requête pour un projet
+## Définir les types de problèmes ou de demandes pour un projet
 
 {{step1-to-projects}}
 
 1. Cliquez sur le nom du projet pour l’ouvrir.
 1. Dans le panneau de gauche, cliquez sur **Détails de la file d’attente**.
-1. Dans la section **Propriétés de la file d’attente**, sélectionnez les **types de requête** que vous souhaitez pour le projet.
+1. Dans la section **Propriétés de file d’attente**, sélectionnez les **Types de demande** que vous voulez pour le projet.
 
    >[!NOTE]
    >
-   >Vous devez avoir sélectionné au moins un type de requête. Vous pouvez sélectionner plusieurs types de requête.
+   >Vous devez disposer d’au moins un type de demande sélectionné. Vous pouvez sélectionner plusieurs types de demandes.
 
    Choisissez parmi les types suivants :
 
    * Rapport sur les bogues
-   * Modifier l’ordre
+   * Modifier l&#39;ordre
    * Problème
    * Demande
 
    >[!TIP]
    >
-   >Votre administrateur Workfront a peut-être renommé certaines de ces options. Pour plus d’informations, voir [Configuration des types de requête](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
+   >Votre équipe d’administration Workfront a peut-être renommé certaines de ces options. Pour plus d’informations, voir [Configurer les types de demande](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
 1. Cliquer sur **Enregistrer**.
 

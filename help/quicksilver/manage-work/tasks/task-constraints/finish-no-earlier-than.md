@@ -2,45 +2,45 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Présentation de la contrainte de tâche : ne pas terminer avant"
-description: Terminer plus tôt que (FNET) est une contrainte de tâche qui planifie la fin d’une tâche après la date que vous spécifiez.
+title: '« Vue d’ensemble de la contrainte de tâche : Finir Au Plus Tôt »'
+description: Finir Au Plus Tôt (Finish No Earlier Than, FNET) est une contrainte de tâche qui planifie l’achèvement d’une tâche après la date que vous avez spécifiée.
 author: Alina
 feature: Work Management
 exl-id: b1dbf5c9-34b6-4c25-b582-ce9454501e03
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Vue d’ensemble des contraintes de tâches : Finir Au Plus Tôt
+# Vue d’ensemble de la contrainte de tâche : Finir Au Plus Tôt
 
-Terminer plus tôt que (FNET) est une contrainte de tâche qui planifie la fin d’une tâche après la date que vous spécifiez.
+Finir Au Plus Tôt (Finish No Earlier Than, FNET) est une contrainte de tâche qui planifie l’achèvement d’une tâche après la date que vous avez spécifiée.
 
-## Présentation de la contrainte Terminer le plus tôt possible
+## Vue d’ensemble de la contrainte de tâche Finir Au Plus Tôt
 
-Tenez compte de ce qui suit lorsque vous utilisez la contrainte Terminer le plus tôt possible (FNET) pour une tâche :
+Tenez compte des éléments suivants lorsque vous utilisez la contrainte « Finir Au Plus Tôt » (FNET) pour une tâche :
 
-* Utilisez cette contrainte lorsque le projet est planifié à partir de la date de fin. Dans ce cas, vous pouvez fournir une contrainte souple sur la tâche avant de forcer d’autres tâches dépendantes à afficher à risque.
-* Lorsque vous utilisez FNET sur un projet planifié **À partir de la date de début**, la contrainte planifie la tâche comme elle le planifierait si la contrainte était aussi tôt que possible.
-* Lorsque vous déplacez ou copiez une tâche avec une contrainte FNET vers un autre projet, la contrainte de la tâche ou des dates du projet peut changer en fonction des dates de contrainte et des dates de début et de fin du projet. Les scénarios suivants sont possibles :
+* Utilisez cette contrainte lorsque le projet est planifié à partir de la date d’achèvement. Dans ce cas, vous pouvez imposer une contrainte souple à la tâche avant de forcer d’autres tâches dépendantes à afficher « À risque ».
+* Si vous utilisez FNET sur un projet planifié **À partir de la date de début**, la contrainte planifie la tâche comme si elle était définie comme Aussi Tôt Que Possible.
+* Lorsque vous déplacez ou copiez une tâche avec une contrainte FNET vers un autre projet, la contrainte de la tâche ou les dates du projet peuvent changer en fonction des dates de la contrainte ainsi que des dates de début et de fin du projet. Les scénarios suivants sont possibles :
 
-   * Lorsque le projet de destination est planifié à partir du début :
+   * Lorsque le projet de destination est planifié à partir du début :
 
-      * Lorsque la date de contrainte de la tâche est antérieure à la date de début prévue du projet, la contrainte de tâche passe à Dès que possible.
-      * Lorsque la date de contrainte de la tâche est postérieure à la date de fin planifiée du projet, la date de fin prévue du projet est modifiée pour correspondre à la date de contrainte d’achèvement de la tâche.
+      * Lorsque la date de contrainte de la tâche est antérieure à la date de début prévue du projet, la contrainte de tâche passe à Aussi Tôt Que Possible.
+      * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement prévue du projet, la date d’achèvement prévue du projet est modifiée pour correspondre à la date de contrainte d’achèvement de la tâche.
 
-   * Lorsque le projet de destination est planifié à partir de la fin :
+   * Lorsque le projet de destination est planifié à partir de l’achèvement :
 
-      * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement du projet, la contrainte de la tâche passe à Aussi tard que possible.
-      * Lorsque la date de contrainte de la tâche est antérieure à la date de début planifiée du projet, la date de début planifiée du projet change pour correspondre à la date de contrainte de début de la tâche.
+      * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement du projet, la contrainte de la tâche passe à Aussi Tard Que Possible.
+      * Lorsque la date de contrainte de la tâche est antérieure à la date de début prévue du projet, la date de début prévue du projet change pour correspondre à la date de contrainte de début de la tâche.
 
-   * Quelle que soit la planification du projet, lorsque la date de contrainte de la tâche se trouve dans les dates de début et de fin du projet, aucune modification n’est apportée à la contrainte de tâche ou aux dates du projet.
+   * Quel que soit le planning du projet, lorsque la date de contrainte de la tâche se trouve entre les dates de début et d’achèvement du projet, aucune modification n’est apportée à la contrainte de tâche ou aux dates du projet.
 
-  Pour plus d’informations sur le déplacement des tâches, voir [Déplacer les tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md). Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md). Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-  Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mise à jour de la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+  Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mettre à jour la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

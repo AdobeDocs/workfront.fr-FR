@@ -1,21 +1,21 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Utiliser les workflows dans l’intégration d’Experience Manager Assets Essentials
-description: Utiliser les workflows dans l’intégration d’Experience Manager Assets Essentials
+title: Utiliser des workflows dans l’intégration d’Experience Manager Assets Essentials
+description: Utiliser des workflows dans l’intégration d’Experience Manager Assets Essentials
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
 source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Utiliser des workflows dans l’intégration d’Experience Manager Assets
 
-Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. Un administrateur ou une administratrice Workfront peut configurer des workflows dans Workfront, puis les affecter à des modèles de projet. Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est attribué, les actions définies dans le workflow sont déclenchées.
+Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. Un administrateur ou une administratrice Workfront peut configurer des workflows dans Workfront, puis les affecter à des modèles de projet. Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est affecté, les actions définies dans le workflow sont déclenchées.
 
 >[!NOTE]
 >
@@ -30,9 +30,9 @@ Vous devez disposer des éléments suivants :
 
 <table>
   <tr>
-   <td><strong>Formules Adobe Workfront*</strong>
+   <td><strong>Plan Adobe Workfront*</strong>
    </td>
-   <td>N’importe quelle
+   <td>Tous
    </td>
   </tr>
   <tr>
@@ -44,15 +44,15 @@ Vous devez disposer des éléments suivants :
   <tr>
    <td><strong>Produit</strong>
    </td>
-   <td><p>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials, et quelqu’un doit vous ajouter au produit en tant qu’utilisateur ou utilisatrice dans Admin Console.</p><p>Vous devez disposer d’un accès en écriture au référentiel dans Adobe Experience Manager.</p>
+   <td><p>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials, et quelqu’un doit vous ajouter au produit en tant qu’utilisateur ou utilisatrice dans Admin Console.</p><p>Vous devez disposer d’un accès en écriture au référentiel dans Adobe Experience Manager.</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Configurations des niveaux d’accès*</strong>
+   <td><strong>Configurations du niveau d’accès*</strong>
    </td>
-   <td>Accès en modification aux documents
+   <td>Modifier l’accès aux documents
 <p>
-<strong>Note :</strong> si vous ne disposez toujours pas d’un accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires ont été configurées pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <strong>Créer ou modifier les niveaux d’accès personnalisés</strong>.
+<strong>Remarque :</strong> si vous ne disposez toujours pas d’un accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires ont été configurées pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <strong>Créer ou modifier des niveaux d’accès personnalisés</strong>.
    </td>
   </tr>
   <tr>
@@ -60,7 +60,7 @@ Vous devez disposer des éléments suivants :
    </td>
    <td>Accès Gérer ou de niveau supérieur au projet 
 <p>
-Pour plus d’informations sur la demande d’accès supplémentaire, voir <strong>Demander l’accès aux objets</strong>.
+Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <strong>Demander un accès aux objets</strong>.
    </td>
   </tr>
 </table>

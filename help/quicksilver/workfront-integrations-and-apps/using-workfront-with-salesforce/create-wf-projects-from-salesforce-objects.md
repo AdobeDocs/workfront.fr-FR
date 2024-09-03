@@ -1,33 +1,33 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-salesforce
-title: Créer des  [!DNL Adobe Workfront]  projets à partir d'objets  [!DNL Salesforce]
-description: Après avoir installé  [!DNL Adobe Workfront] pour Salesforce, vous pouvez définir des déclencheurs qui créent des projets  [!DNL Workfront] lorsque certains critères sont satisfaits sur [!DNL Salesforce] Opportunités et comptes.
+title: Créer des projets  [!DNL Adobe Workfront]  à partir d’objets  [!DNL Salesforce]
+description: Après l’installation d’ [!DNL Adobe Workfront] pour Salesforce, vous pouvez définir des déclencheurs qui créent des projets  [!DNL Workfront]  lorsque certains critères sont remplis sur les Opportunités et Comptes  [!DNL Salesforce] .
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
 source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
 source-wordcount: '1496'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 # Créer des projets [!DNL Adobe Workfront] à partir d’objets [!DNL Salesforce]
 
-Après avoir installé [!DNL Adobe Workfront] pour Salesforce, vous pouvez définir des déclencheurs qui créent des projets [!DNL Workfront] lorsque certains critères sont satisfaits sur les [!DNL Salesforce] [!UICONTROL opportunités] et les [!UICONTROL comptes].
+Après l’installation d’[!DNL Adobe Workfront] pour Salesforce, vous pouvez définir des déclencheurs qui créent des projets [!DNL Workfront] lorsque certains critères sont remplis sur [!UICONTROL Opportunités] et [!UICONTROL Comptes] [!DNL Salesforce].
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités décrites dans cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des accès suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
@@ -40,139 +40,132 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités décr
 
 ## Conditions préalables
 
-Pour envoyer une requête [!DNL Workfront] à partir d&#39;une [!DNL Salesforce] [!UICONTROL Opportunity] ou d&#39;un compte
-vérifiez que vous disposez des éléments suivants dans votre environnement :
+Pour envoyer une demande [!DNL Workfront] à partir d’une [!UICONTROL Opportunité] ou d’un Compte [!DNL Salesforce], assurez-vous que les éléments suivants sont présents dans votre environnement :
 
-* Votre administrateur [!DNL Workfront] a installé [!DNL Workfront for Salesforce].\
-   Pour plus d&#39;informations sur l&#39;installation de [!DNL Workfront for Salesforce], voir [Installation [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+* Votre administrateur ou administratrice [!DNL Workfront] a installé [!DNL Workfront for Salesforce].\
+   Pour plus d’informations sur l’installation de [!DNL Workfront for Salesforce], voir [Installer  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
-* Votre administrateur [!DNL Workfront] a ajouté la section [!DNL Workfront] à votre [!UICONTROL opportunité] et votre compte
-mises en page.\
-   Pour plus d’informations sur l’ajout de la section [!DNL Workfront] à une mise en page, voir [Configuration de la section  [!DNL Adobe Workfront] pour les  [!DNL Salesforce] utilisateurs](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+* Votre administrateur ou administratrice [!DNL Workfront] a ajouté la section [!DNL Workfront] à vos dispositions de page [!UICONTROL Opportunité] et Compte.\
+   Pour plus d’informations sur l’ajout de la section [!DNL Workfront] à une disposition de page, voir [Configurer la section  [!DNL Adobe Workfront]  pour les utilisateurs et utilisatrices de  [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-* Vous disposez d&#39;un compte [!DNL Workfront] et vous pouvez vous y connecter à partir de la section [!DNL Workfront] de votre [!UICONTROL Opportunité] ou de votre compte
-.
+* Vous avez un compte [!DNL Workfront] et vous pouvez vous y connecter à partir de la section [!DNL Workfront] dans votre [!UICONTROL Opportunité] ou Compte.
 
-## Configuration de la création de [!DNL Workfront] projets à partir de [!DNL Salesforce]
+## Configurer la création de projets [!DNL Workfront] à partir de [!DNL Salesforce]
 
-* [Présentation de la création automatique de projets](#understanding-the-automatic-creation-of-projects-understanding-the-automatic-creation-of-projects)
-* [Configuration des Triggers](#configuring-triggers-configuring-triggers)
+* [Comprendre la création automatique de projets](#understanding-the-automatic-creation-of-projects-understanding-the-automatic-creation-of-projects)
+* [Configurer des déclencheurs](#configuring-triggers-configuring-triggers)
 * [Présentation des noms de projet](#understanding-project-names-understanding-project-names)
 
-### Présentation de la création automatique de projets {#understanding-the-automatic-creation-of-projects}
+### Comprendre la création automatique de projets {#understanding-the-automatic-creation-of-projects}
 
-En tant qu&#39;administrateur système [!DNL Salesforce], vous pouvez définir des déclencheurs qui peuvent automatiquement créer des projets dans [!DNL Workfront] lorsque les événements suivants se produisent dans [!DNL Salesforce] :
+En tant qu’administrateur ou administratrice système de [!DNL Salesforce], vous pouvez définir des déclencheurs pouvant créer automatiquement des projets dans [!DNL Workfront] lorsque les événements suivants se produisent dans [!DNL Salesforce] :
 
-* L’ [!UICONTROL état] d’une [!UICONTROL opportunité] est mis à jour.
-* [!UICONTROL Type] d’un compte
-est mise à jour.
+* L’[!UICONTROL étape] d’une [!UICONTROL Opportunité] est mise à jour.
+* Le [!UICONTROL Type] d’un compte est mis à jour.
 
-Les déclencheurs ne peuvent être configurés qu&#39;après l&#39;installation de [!DNL Workfront for Salesforce].  \
-Pour plus d&#39;informations sur l&#39;installation de [!DNL Workfront for Salesforce], voir [Installation [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+Les déclencheurs ne peuvent être configurés qu’après l’installation de [!DNL Workfront for Salesforce].  \
+Pour plus d’informations sur l’installation de [!DNL Workfront for Salesforce], voir [Installer  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
-Tenez compte de ce qui suit lors de la configuration des déclencheurs pour créer automatiquement des projets [!DNL Workfront] lorsque des éléments [!DNL Salesforce] sont créés ou mis à jour :
+Tenez compte des points suivants lors de la configuration de déclencheurs pour créer automatiquement des projets [!DNL Workfront] lorsque des éléments [!DNL Salesforce] sont créés ou mis à jour :
 
-* Pour configurer des déclencheurs, vous devez être un administrateur système [!DNL Salesforce] et [!DNL Workfront].
-* Une fois que vous avez configuré les déclencheurs, toute personne qui met à jour l’[!UICONTROL état] d’une [!UICONTROL opportunité] ou le [!UICONTROL type] d’un compte
-peut déclencher la création d’un projet [!DNL Workfront]. Cela inclut les utilisateurs de [!DNL Salesforce] qui n&#39;ont pas de compte [!DNL Workfront].
+* Vous devez être un administrateur ou une administratrice système de [!DNL Salesforce] et [!DNL Workfront] pour configurer des déclencheurs.
+* Une fois que vous avez configuré des déclencheurs, toute personne qui met à jour l’[!UICONTROL étape] d’une [!UICONTROL Opportunité] ou le [!UICONTROL type] d’un compte peut déclencher la création d’un projet [!DNL Workfront]. Cela inclut les utilisateurs et utilisatrices de [!DNL Salesforce] qui n’ont pas de compte [!DNL Workfront].
 * Le nombre de déclencheurs que vous pouvez avoir n’est pas limité.
 * Vous ne pouvez pas créer plusieurs déclencheurs en fonction des mêmes conditions. Les déclencheurs sont uniques par défaut.
-* Une fois le projet créé, il est automatiquement lié à l&#39;opportunité ou au compte sur lequel il a été généré. Une fois établi, ce lien ne peut pas être rompu.
-* Une opportunité ou un compte peut être lié à plusieurs projets dans [!DNL Workfront] lorsqu’une condition déclenchée a été remplie plusieurs fois au cours de la vie de l’opportunité ou du compte.
+* Une fois le projet créé, il est automatiquement lié à l’opportunité ou au compte sur lequel il a été généré. Une fois établi, ce lien ne peut pas être rompu.
+* Une opportunité ou un compte peut être lié à plusieurs projets dans [!DNL Workfront] lorsqu’une condition déclenchée a été remplie plusieurs fois au cours de la durée de vie de l’opportunité ou du compte.
 
-  Par exemple, si vous définissez plusieurs [!UICONTROL Étape] pour qu’une [!UICONTROL Opportunité] déclenche un projet, un projet est créé pour chaque étape définie à laquelle l’opportunité atteint, pour la durée de vie de cette opportunité. En outre, si vous mettez à jour l’[!UICONTROL état] d’une [!UICONTROL opportunité] d’une étape définie vers une autre, puis que vous la remettez à jour vers l’étape définie, un deuxième projet est créé pour la deuxième fois que vous mettez à jour le champ [!UICONTROL état] vers la même étape définie.
+  Par exemple, si vous définissez plusieurs [!UICONTROL étapes] pour qu’une [!UICONTROL Opportunité] déclenche un projet, un projet est créé pour chaque étape définie que l’opportunité atteint, pour la durée de vie de cette opportunité. En outre, si vous mettez à jour l’[!UICONTROL étape] d’une [!UICONTROL Opportunité] en passant d’une étape définie à une autre, puis effectuez une mise à jour vers l’étape définie, un second projet est créé pour la deuxième mise à jour du champ [!UICONTROL Étape] de la même étape définie.
 
-* Un projet de [!DNL Workfront] ne peut être lié qu’à une seule opportunité ou à un seul compte de [!DNL Salesforce] à un moment donné, mais pas aux deux en même temps.
+* Un projet dans [!DNL Workfront] ne peut être lié qu’à une seule opportunité ou à un seul compte dans [!DNL Salesforce] à un moment donné, mais pas aux deux en même temps.
 
-### Configuration des Triggers {#configuring-triggers}
+### Configurer des déclencheurs {#configuring-triggers}
 
-Une fois que vous avez configuré les déclencheurs, le processus de création de projets [!DNL Workfront] est activé pour les structures [!UICONTROL Salesforce Classic] ou [!DNL Lightning Experience].
+Une fois que vous avez configuré des déclencheurs, le processus de création de projets [!DNL Workfront] est activé pour les deux frameworks [!UICONTROL Salesforce Classic] ou [!DNL Lightning Experience].
 
-Pour configurer des déclencheurs dans [!UICONTROL Salesforce] :
+Pour configurer des déclencheurs dans [!UICONTROL Salesforce], procédez comme suit :
 
-1. Connectez-vous à [!DNL Salesforce] en tant qu’administrateur système.
-1. (Conditionnel) Dans [!DNL Salesforce Classic], cliquez sur **[!UICONTROL Configuration]**, puis, sous la section **[!UICONTROL Build]** , développez **[!UICONTROL Éclair de foudre]**.
+1. Connectez-vous à [!DNL Salesforce] en tant qu’administrateur ou administratrice système.
+1. (Le cas échéant) Dans [!DNL Salesforce Classic], cliquez sur **[!UICONTROL Configuration]** et sous la section **[!UICONTROL Créer]**, développez **[!UICONTROL Éclair]**.
 
    Ou
 
-   Dans [!DNL Salesforce] Lightning Experience, cliquez sur l&#39;icône **[!UICONTROL Setup]**, puis sur **[!UICONTROL Setup]**, et sous **[!UICONTROL PLATFORM TOOLS]**, développez **[!UICONTROL Apps]**.
+   Dans Expérience éclair de [!DNL Salesforce], cliquez sur l’icône **[!UICONTROL Configuration]**, puis sur **[!UICONTROL Configuration]** et sous **[!UICONTROL OUTILS DE PLATEFORME]** développez **[!UICONTROL Applications]**.
 
 1. Cliquez sur **[!UICONTROL Packages installés]**.
 
-   Notez que le package **[!DNL Workfront]** a été installé.
+   Remarquez que le package **[!DNL Workfront]** a été installé.
 
 1. Cliquez sur **[!UICONTROL Configurer]** en regard de **[!DNL Workfront]**.
 
-1. Connectez-vous à [!DNL Workfront] en tant qu’administrateur système.
+1. Connectez-vous à [!DNL Workfront] en tant qu’administrateur ou administratrice système.
 
-   La page **[!UICONTROL Triggers]** s’affiche.
+   La page **[!UICONTROL Déclencheurs]** s’affiche.
 
    ![salesforce_triggers_page_empty.png](assets/salesforce-triggers-page-empty-350x134.png)
 
-1. Cliquez sur **[!UICONTROL New Trigger]**.
-1. Dans le menu déroulant **[!UICONTROL [!DNL Salesforce]Object]**, sélectionnez **[!UICONTROL Opportunity]**.
+1. Cliquez sur **[!UICONTROL Nouveau déclencheur]**.
+1. Dans le menu déroulant Objet **[!UICONTROL [!DNL Salesforce]]**, sélectionnez **[!UICONTROL Opportunité]**.
 
-   Il s’agit d’un champ obligatoire.
+   Champ obligatoire.
 
-1. (Conditionnel) Indiquez les informations suivantes :
+1. (Le cas échéant) Indiquez les informations suivantes :
 
-   1. Dans le menu déroulant **[!UICONTROL Stage]**, sélectionnez un **[!UICONTROL Stage]**.\
+   1. Dans le menu déroulant **[!UICONTROL Étape]**, sélectionnez une **[!UICONTROL Étape]**.
 
-      Lorsqu’une opportunité atteint l’[!UICONTROL état] spécifié ici, un projet est créé dans [!DNL Workfront]. Il s’agit d’un champ obligatoire.
+      Lorsqu’une opportunité atteint l’[!UICONTROL étape] spécifiée ici, un projet est créé dans [!DNL Workfront]. Champ obligatoire.
 
-   1. Dans le champ **[!UICONTROL Portfolio ou Programme]** , commencez à saisir le nom d’un Portfolio ou d’un programme dans lequel vous souhaitez que le projet soit placé dans [!DNL Workfront], puis sélectionnez-le lorsqu’il apparaît dans la liste.\
+   1. Dans le champ **[!UICONTROL Portfolio ou programme]**, commencez à saisir le nom d’un portfolio ou d’un programme dans lequel vous souhaitez placer le projet dans [!DNL Workfront], puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
-      Si vous ne spécifiez aucun Portfolio ou programme, le nouveau projet est créé et ajouté à la liste [!UICONTROL Projets que je possède] de l’utilisateur connecté à [!DNL Workfront] lors de la configuration des déclencheurs. Cet utilisateur est également le propriétaire du projet.
+      Si vous ne spécifiez aucun portfolio ou programme, le nouveau projet est créé et ajouté à la liste [!UICONTROL Projets dont je suis propriétaire] de la personne connectée à [!DNL Workfront] lors de la configuration des déclencheurs. Cette personne est également propriétaire du nouveau projet.
 
-   1. Commencez à saisir le nom d’un modèle que vous souhaitez associer au nouveau projet [!DNL Workfront], puis sélectionnez-le lorsqu’il apparaît dans la liste.\
+   1. Commencez à saisir le nom d’un modèle que vous souhaitez associer au nouveau projet [!DNL Workfront], puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
-      Il s’agit d’un champ obligatoire.
+      Champ obligatoire.
 
 
       >[!NOTE]
       >
-      >Si vous avez spécifié un propriétaire de modèle sur le modèle que vous prévoyez d’utiliser pour cette intégration, cela devient le propriétaire du projet du nouveau projet. Les nouveaux projets apparaissent sous la liste [!UICONTROL Projets que je possède] de l’utilisateur propriétaire du nouveau projet, selon le modèle.
+      >Si vous avez spécifié une personne propriétaire de modèle sur le modèle que vous prévoyez d’utiliser pour cette intégration, elle devient la personne propriétaire du nouveau projet. Les nouveaux projets s’affichent sous la liste [!UICONTROL Projets dont je suis propriétaire] de l’utilisateur ou de l’utilisatrice propriétaire du nouveau projet, en fonction du modèle.
 
-   1. (Facultatif) Sélectionnez le champ **[!UICONTROL Créer un projet pour chaque type de produit vendu]** si vous souhaitez créer un projet pour chaque type de produit vendu à une occasion donnée.
-   1. (Conditionnel) Sélectionnez un **[!UICONTROL Produit]** dans le menu déroulant **[!UICONTROL Produit]** .
+   1. (Facultatif) Sélectionnez le champ **[!UICONTROL Créez un projet pour chaque type de produit vendu]**, si vous souhaitez créer un projet pour chaque type de produit vendu dans le cadre d’une opportunité.
+   1. (Le cas échéant) Sélectionnez un **[!UICONTROL produit]** dans le menu déroulant **[!UICONTROL Produit]**.
 
-      Il s’agit d’un champ obligatoire.
+      Champ obligatoire.
 
-   1. (Conditionnel) Commencez à saisir le nom d’un **[!UICONTROL modèle]** que vous souhaitez associer au nouveau projet [!DNL Workfront] si le produit spécifié se trouve sur l’ [!UICONTROL opportunité]. Sélectionnez-le lorsqu’il apparaît dans la liste.
+   1. (Le cas échéant) Commencez à saisir le nom d’un **[!UICONTROL Modèle]** que vous souhaitez associer au nouveau projet [!DNL Workfront] si le produit spécifié se trouve sur l’[!UICONTROL Opportunité]. Sélectionnez le nom qui apparaît dans la liste.
 
-      Il s’agit d’un champ obligatoire.
+      Champ obligatoire.
 
-      Le projet créé lorsqu’un nouveau produit est ajouté à l’opportunité [!DNL Salesforce] est placé dans le même Portfolio ou programme que celui sélectionné pour l’opportunité.
+      Le projet créé lorsqu’un nouveau produit ajouté à l’opportunité [!DNL Salesforce] est placé dans le même portfolio ou programme sélectionné pour l’opportunité.
 
       >[!IMPORTANT]
       >
-      >Le projet est créé uniquement lorsque l’étape est mise à jour sur l’ [!UICONTROL opportunité]. Un projet unique est créé pour chaque produit spécifié lorsque le champ Stage est mis à jour, et non lorsque les produits sont ajoutés à [!UICONTROL Opportunités].
+      >Le projet est créé uniquement lorsque l’étape est mise à jour sur l’[!UICONTROL Opportunité]. Un projet unique est créé pour chaque produit spécifié lors de la mise à jour du champ Étape, et non au fur et à mesure que les produits sont ajoutés aux [!UICONTROL Opportunités].
 
-1. (Facultatif) Cliquez sur **[!UICONTROL New Trigger]**.
-1. (Facultatif) Dans le menu déroulant **[!UICONTROL [!DNL Salesforce]Object]**, sélectionnez **Account
-**.
+1. (Facultatif) Cliquez sur **[!UICONTROL Nouveau déclencheur]**.
+1. (Facultatif) Dans le menu déroulant **[!UICONTROL [!DNL Salesforce]Objet]**, sélectionnez **Compte**.
 
-   Il s’agit d’un champ obligatoire.
-1. (Conditionnel) Indiquez les informations suivantes :
+   Champ obligatoire.
+1. (Le cas échéant) Indiquez les informations suivantes :
 
-   1. Sélectionnez un **[!UICONTROL Type]** dans le menu déroulant **[!UICONTROL Type]** .
+   1. Sélectionnez un **[!UICONTROL Type]** de le menu déroulant **[!UICONTROL Type]**.
 
-      Lorsqu’un compte **
-** est désigné comme **[!UICONTROL Type]** spécifié ici dans [!DNL Salesforce], un **[!UICONTROL Projet]** est créé dans [!DNL Workfront].
+      Lorsqu’un **Compte** est désigné comme le **[!UICONTROL Type]** spécifié ici dans [!DNL Salesforce], un **[!UICONTROL Projet]** est créé dans [!DNL Workfront].
 
-      Il s’agit d’un champ obligatoire.
+      Champ obligatoire.
 
-   1. (Facultatif) Commencez à saisir le nom d’un **[!UICONTROL Portfolio]** ou **[!UICONTROL Programme]** où vous souhaitez placer le projet dans [!DNL Workfront] dans le champ **[!UICONTROL Portfolio ou Programme]** , puis sélectionnez-le lorsqu’il apparaît dans la liste.
+   1. (Facultatif) Commencez à saisir le nom d’un **[!UICONTROL portfolio]** ou **[!UICONTROL programme]** où vous souhaitez placer le projet dans [!DNL Workfront] dans le champ **[!UICONTROL Portfolio ou programme]**, puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
-      Si vous ne spécifiez aucun Portfolio ou programme, le nouveau projet est créé et ajouté à la liste **[!UICONTROL Projets que je possède]** de l’utilisateur connecté à [!DNL Workfront] à partir de [!DNL Salesforce]. L’utilisateur est également le propriétaire du projet pour le nouveau projet.
+      Si vous ne spécifiez aucun portfolio ou programme, le nouveau projet est créé et ajouté à la liste **[!UICONTROL Projets dont je suis propriétaire]** des personnes connectées à [!DNL Workfront] à partir de [!DNL Salesforce]. La personne est également propriétaire du nouveau projet.
 
    1. Commencez à saisir le nom d’un **[!UICONTROL modèle]** que vous souhaitez associer au nouveau projet [!DNL Workfront], puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
-      Il s’agit d’un champ obligatoire.
+      Champ obligatoire.
 
       >[!NOTE]
       >
-      >Si vous avez spécifié un propriétaire de modèle sur le modèle que vous prévoyez d’utiliser pour cette intégration, cela devient le propriétaire du projet du nouveau projet. Les nouveaux projets apparaissent sous la liste **[!UICONTROL Projets que je possède]** de l’utilisateur propriétaire du nouveau projet, selon le modèle.
+      >Si vous avez spécifié une personne propriétaire de modèle sur le modèle que vous prévoyez d’utiliser pour cette intégration, elle devient la personne propriétaire du nouveau projet. Les nouveaux projets s’affichent dans la liste **[!UICONTROL Projets dont je suis propriétaire]** de la personne propriétaire du nouveau projet, en fonction du modèle.
 
    ![salesforce_triggers_page_with_cleaned_up_template_names.png](assets/salesforce-triggers-page-with-cleaned-up-template-names-350x157.png)
 
@@ -182,42 +175,37 @@ Pour configurer des déclencheurs dans [!UICONTROL Salesforce] :
 
 ### Présentation des noms de projet {#understanding-project-names}
 
-Selon le déclencheur qui a généré les projets, les noms des projets dans [!DNL Workfront] peuvent suivre l’un de ces modèles :
+Selon le déclencheur qui a généré les projets, les noms des projets dans [!DNL Workfront] peuvent suivre l’un de ces modèles :
 
-* Si le projet est créé en fonction d’une opportunité ou d’un déclencheur de compte, le nom du projet est : *`<Salesforce object name>`: `<Project template name>` (via [!DNL Salesforce])*.
-* Si le projet est créé à partir d’un déclencheur d’opportunité qui inclut également l’ajout d’un nouveau produit, le nom du projet est : *`<Salesforce object name>`: `<Salesforce product name>` (via [!DNL Salesforce])*.
+* Si le projet est créé en fonction d’une opportunité ou d’un déclencheur de compte, le nom du projet est : *`<Salesforce object name>` : `<Project template name>` (via [!DNL Salesforce])*.
+* Si le projet est créé en fonction d’un déclencheur d’opportunité qui inclut également l’ajout d’un nouveau produit, le nom du projet est : *`<Salesforce object name>` : `<Salesforce product name>` (via [!DNL Salesforce])*.
 
-## Affichage de [!DNL Workfront] projets
+## Afficher les projets [!DNL Workfront]
 
-Si votre administrateur [!DNL Workfront] a ajouté la section [!DNL Workfront] à votre [!UICONTROL opportunité] ou compte
-mise en page, vous pouvez voir les projets créés automatiquement dans l’onglet [!UICONTROL Projets] de cette section.\
-Pour plus d’informations sur l’ajout de la section [!DNL Workfront] à la mise en page d’une [!UICONTROL opportunité] ou d’un compte
-, voir [Configuration de la section  [!DNL Adobe Workfront] pour les  [!DNL Salesforce] utilisateurs](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+Si votre équipe d’administration [!DNL Workfront] a ajouté la section [!DNL Workfront] à votre disposition de page d’[!UICONTROL Opportunité] ou de compte, vous pouvez voir les projets créés automatiquement dans l’onglet [!UICONTROL Projets] de cette section.\
+Pour plus d’informations sur l’ajout de la section [!DNL Workfront] à la disposition de la page d’une [!UICONTROL Opportunité] ou d’un compte, voir [Configurer la section  [!DNL Adobe Workfront]  pour les utilisateurs et utilisatrices de  [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-Vous devez disposer d’un compte [!DNL Workfront] et être connecté à [!DNL Workfront] pour afficher l’onglet [!UICONTROL Projets].
+Vous devez disposer d’un compte [!DNL Workfront] et d’une connexion à [!DNL Workfront] pour afficher l’onglet [!UICONTROL Projets].
 
-Pour afficher les projets créés à partir d’une [!UICONTROL opportunité] ou d’un compte
-:
+Pour afficher les projets créés à partir d’une [!UICONTROL Opportunité] ou d’un compte, procédez comme suit :
 
-1. Accédez à une [!UICONTROL opportunité] ou à un compte
-.
-1. Accédez à la section **[!DNL Workfront]** .
+1. Accédez à une [!UICONTROL Opportunité] ou à un compte.
+1. Accédez à la section **[!DNL Workfront]**.
 
    >[!NOTE]
    >
-   >Selon la façon dont votre administrateur [!DNL Workfront] a configuré cette section, elle peut porter un nom différent.
+   >Selon la manière dont votre administrateur ou administratrice [!DNL Workfront] a configuré cette section. elle peut porter un nom différent.
 
-1. Sélectionnez l’onglet **[!UICONTROL Projets]** .
+1. Sélectionnez l’onglet **[!UICONTROL Projets]**.
 
-   Tous les projets créés par des déclencheurs définis sont répertoriés dans cet onglet. Tout utilisateur de [!DNL Salesforce] qui dispose également d’un compte [!DNL Workfront] et qui peut être autorisé à voir ces projets dans [!DNL Workfront] peut également les voir dans [!DNL Salesforce] pour l’ [!UICONTROL opportunité] ou le compte
-qui les ont générés.
+   Tous les projets créés par des déclencheurs définis sont répertoriés dans cet onglet. N’importe quelle personne dans [!DNL Salesforce] qui a également un compte [!DNL Workfront] et qui peut être autorisée à voir ces projets dans [!DNL Workfront] peut également les voir dans [!DNL Salesforce] pour l’[!UICONTROL Opportunité] ou le compte qui les a générés.
 
-   Vous pouvez afficher les informations suivantes sur les projets créés par l’intégration :
+   Vous pouvez afficher les informations suivantes sur les projets créés par l’intégration :
 
    * Nom du projet
    * Numéro de référence
    * Date d’entrée
-   * Nom du propriétaire
+   * Nom de la personne propriétaire
    * Statut
    * Condition
    * Date d&#39;achèvement prévue
@@ -226,9 +214,8 @@ qui les ont générés.
      Lorsque ces informations sont mises à jour dans [!DNL Workfront], vous pouvez voir les champs mis à jour dans cette liste.
 
 1. (Facultatif) Cliquez sur le nom d’un projet pour l’ouvrir dans Workfront.
-1. (Facultatif) Cliquez sur [!UICONTROL **[!UICONTROL Accéder à Salesforce]**] dans la zone [!UICONTROL Détails du projet] ou dans l’en-tête du projet pour accéder à l’[!UICONTROL opportunité] ou au compte
-d’où provient le projet. L’administrateur du système ou du groupe doit ajouter le champ [!UICONTROL Intégrations] à votre modèle de mise en page pour le trouver dans l’en-tête du projet.
+1. (Facultatif) Cliquez sur [!UICONTROL **[!UICONTROL Accéder à Salesforce]**] dans la zone [!UICONTROL Détails du projet] ou dans l’en-tête de projet pour accéder à l’[!UICONTROL Opportunité] ou au compte d’origine du projet. Votre administrateur ou administratrice système ou de groupes doit ajouter le champ [!UICONTROL Intégrations] à votre modèle de mise en page pour le trouver dans l’en-tête du projet.
 
    >[!NOTE]
    >
-   >Le lien [!UICONTROL Aller à Salesforce] est visible par tous les utilisateurs de [!DNL Workfront] qui peuvent afficher le projet. Vous devez disposer d’un compte [!DNL Salesforce] pour pouvoir accéder à l’opportunité ou au compte [!DNL Salesforce] à partir duquel le projet a été généré.
+   >Le lien [!UICONTROL Accéder à Salesforce] est visible pour toutes les personnes utilisant [!DNL Workfront] qui peuvent afficher le projet. Vous devez disposer d’un compte [!DNL Salesforce] pour pouvoir accéder à l’opportunité ou au compte [!DNL Salesforce] à partir de l’emplacement où le projet a été généré.

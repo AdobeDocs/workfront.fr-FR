@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Activer des objectifs dans Objectifs Adobe Workfront
+title: Activer les objectifs dans Objectifs Adobe Workfront
 description: Lorsque vous créez un objectif, Objectifs Adobe Workfront l’enregistre avec le statut Brouillon. Les brouillons d’objectifs ne font pas partie de la gestion des objectifs.
 author: Alina
 feature: Workfront Goals
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Activer des objectifs dans Objectifs Adobe Workfront
+# Activer les objectifs dans Objectifs Adobe Workfront
 
 Lorsque vous créez un objectif, Objectifs Adobe Workfront l’enregistre avec le statut Brouillon. Les brouillons d’objectifs ne font pas partie de la gestion des objectifs.
 
@@ -23,7 +23,7 @@ Pour plus d’informations sur la création d’un objectif, voir la section [Cr
 
 >[!IMPORTANT]
 >
->Vous devez activer un objectif avant de pouvoir mettre à jour la progression de ses résultats et activités.
+>Vous devez activer un objectif avant de pouvoir mettre à jour l’avancement de ses résultats et activités.
 
 
 ## Conditions d’accès
@@ -50,9 +50,9 @@ Vous devez disposer des éléments suivants :
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
  <td>
- <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
+ <p>Nouvelle licence : contributeur ou contributrice ou niveau supérieur</p>
  Ou
- <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
+ <p>Licence actuelle : demande ou niveau supérieur</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
@@ -74,11 +74,11 @@ Vous devez disposer des éléments suivants :
   <div>
   <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
   <p>Autorisations de gestion sur l’objectif pour le modifier</p>
-  <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
+  <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
@@ -112,7 +112,7 @@ Pour pouvoir activer un objectif, procédez à au moins l’une des actions suiv
 
 ## Activer des objectifs
 
-Vous pouvez activer des objectifs que vous avez créés ou un objectif pour lequel vous avez des autorisations en gestion.
+Vous pouvez activer des objectifs que vous avez créés ou un objectif pour lequel vous avez des autorisations de gestion.
 
 1. Accédez à un objectif que vous souhaitez activer. La page de l’objectif s’ouvre.
 

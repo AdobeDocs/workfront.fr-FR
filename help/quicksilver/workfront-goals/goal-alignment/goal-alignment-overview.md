@@ -2,8 +2,8 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Vue d’ensemble de l’alignement des objectifs dans Objectifs Adobe Workfront
-description: L’alignement des objectifs garantit que toutes les personnes de votre organisation se trouvent sur la même longeur d’onde à propos de ce qui doit être réalisé en alignant leurs objectifs les uns sur les autres et sur les objectifs organisationnels des équipes, des groupes et de l’entreprise.
+title: Vue d’ensembe de l’alignement des objectifs dans les Objectifs Adobe Workfront
+description: L’alignement des objectifs garantit que toutes les personnes de votre organisation se trouvent sur la même longeur d’onde sur ce qui doit être réalisé en alignant leurs objectifs les uns sur les autres et sur les objectifs organisationnels des équipes, des groupes et de l’entreprise.
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 ---
 
-# Vue d’ensemble de l’alignement des objectifs dans Objectifs Adobe Workfront
+# Vue d’ensembe de l’alignement des objectifs dans les Objectifs Adobe Workfront
 
 >[!IMPORTANT]
 >
@@ -31,10 +31,10 @@ ht-degree: 98%
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
 > 
->Pour plus d’informations sur l’accès aux Objectifs Workfront, voir [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
-L’alignement des objectifs est un élément important de la gestion des objectifs. Vous pouvez vous assurer que toutes les personnes de votre organisation se trouvent sur la même longueur d’onde à propos de ce qui doit être réalisé pour faire avancer la stratégie en alignant leurs objectifs les uns sur les autres et sur les objectifs organisationnels des équipes, des groupes et de l’entreprise.
+L’alignement des objectifs est un élément important de la gestion des objectifs. Vous pouvez vous assurer que toutes les personnes de votre organisation se trouvent sur la même longueur d’onde sur ce qui doit être réalisé pour faire avancer la stratégie en alignant leurs objectifs les uns sur les autres et sur les objectifs organisationnels des équipes, des groupes et de l’entreprise.
 
 Une fois les objectifs de niveau supérieur de l’entreprise, de l’équipe ou du groupe définis et révisés, les personnes qui sont des rapports directs et les personnes membres de l’équipe doivent créer des objectifs plus ciblés, en cascade à partir du niveau supérieur. La portée de ces objectifs devrait être plus étroite et tenir compte de la personne désignée comme responsable de l’objectif et de la portée de son influence. L’objectif doit répondre à la question de savoir ce que la personne responsable et son équipe doivent réaliser pour atteindre l’objectif parent sur lequel il est aligné.
 

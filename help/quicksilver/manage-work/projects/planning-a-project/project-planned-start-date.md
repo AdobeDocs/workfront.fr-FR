@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Vue d’ensemble de la date de début prévue du projet
-description: Vue d’ensemble de la date de début prévue du projet
+title: Vue d’ensemble de la Date de début prévue du projet
+description: Vue d’ensemble de la Date de début prévue du projet
 author: Alina
 feature: Work Management, Projects
 role: User
@@ -11,11 +11,11 @@ exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-# Vue d’ensemble de la date de début prévue du projet
+# Vue d’ensemble de la Date de début prévue du projet
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -25,19 +25,19 @@ ht-degree: 5%
 </div>
 -->
 
-Les dates de début planifié et de fin planifiée d’un projet dépendent des dates des tâches du projet. Cet article décrit la date de début prévue d’un projet. Pour plus d’informations sur la date de début planifiée de la tâche, voir [Présentation de la tâche Date de début planifiée](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+Les dates de début et d’achèvement prévues d’un projet dépendent des dates des tâches du projet. Cet article décrit la date de début prévue d’un projet. Pour plus d’informations sur la date de début prévue d’une tâche, voir [Vue d’ensemble de la date de début prévue d’une tâche](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
-La date de début planifiée d’un projet peut être définie manuellement ou automatiquement, selon que vous planifiez le projet à partir de la date de début ou de fin.
+La date de début prévue d’un projet peut être définie manuellement ou automatiquement, selon que vous planifiez le projet à partir de la date de début ou de la date d’achèvement.
 
-## Définition manuelle de la date de début planifiée d’un projet
+## Définir manuellement la date de début prévue d’un projet
 
-Vous devez définir manuellement la date de début planifiée d’un projet lorsque vous planifiez le projet à partir de la date de début.
+Vous devez définir manuellement la date de début prévue d’un projet si vous planifiez le projet à partir de la date de début.
 
 >[!NOTE]
 >
->Lorsque vous définissez manuellement la date de début planifiée d’un projet, Workfront calcule automatiquement la date de fin planifiée du projet en fonction de la durée de toutes les tâches.
+>Lorsque vous définissez manuellement la date de début prévue d’un projet, Workfront calcule automatiquement la date d’achèvement prévue du projet en fonction de la durée de toutes les tâches.
 
-Pour plus d’informations sur la définition de la date de début planifiée du projet, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+Pour plus d’informations sur la définition de la date de début prévue d’un projet, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted below, to keep this as an overview article)</p>
@@ -54,29 +54,29 @@ Pour plus d’informations sur la définition de la date de début planifiée du
 </ol>
 -->
 
-## Définir automatiquement la date de début planifiée d’un projet
+## Définir automatiquement la date de début prévue d’un projet
 
-La Date de début planifiée d’un projet est automatiquement définie lorsque vous créez le projet de la manière suivante :
+La date de début prévue d’un projet est automatiquement définie lorsque vous créez le projet des manières suivantes :
 
-* à partir de zéro et lorsque vous planifiez le projet à partir de la date d’achèvement.
+* À partir de zéro et lorsque vous planifiez le projet à partir de la date d’achèvement.
 
-  La Date de début planifiée est calculée automatiquement par Adobe Workfront, en fonction de la date que vous sélectionnez pour la Date de fin et de la durée de toutes les tâches du projet.
+  La date de début prévue est automatiquement calculée par Adobe Workfront, en fonction de la date d’achèvement que vous sélectionnez et de la durée de toutes les tâches du projet.
 
-  Pour plus d’informations sur la création d’un projet à partir de zéro, voir [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
+  Pour plus d’informations sur la création d’un projet à partir de zéro, voir [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
 
-* importez-le à partir du projet Microsoft.
+* En l’important à partir de Microsoft Project.
 
-  La date de début planifiée correspond à la date de début du projet dans le projet Microsoft.
+  La date de début prévue est la date de début du projet dans Microsoft Project.
 
-  Pour plus d’informations sur l’importation d’un projet à partir du projet Microsoft, voir [Importation d’un projet à partir du projet Microsoft](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Pour plus d’informations sur l’importation d’un projet à partir de Microsoft Project, voir [Importer un projet à partir de Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
-* importez-le à l’aide de Workfront Kick-Starts, lorsque vous êtes administrateur de Workfront.
+* En l’important à l’aide des Kickstarts Workfront, lorsque vous êtes administrateur ou administratrice Workfront.
 
-  La Date de début planifiée correspond toujours à l’heure et à la date de votre ordinateur, sauf si vous spécifiez une autre valeur dans le champ setScheduleStartDate de la feuille Projet du fichier de démarrage rapide.
+  La date de début prévue correspond toujours à la date et à l’heure de votre ordinateur, sauf indication contraire dans le champ setPlannedStartDate de la feuille de projet du fichier Kickstart.
 
-  Pour plus d’informations sur l’importation de données à l’aide de démarrage rapide, voir [Importation de données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Pour plus d’informations sur l’import de données à l’aide de Kickstart, voir [Importer des données dans Adobe Workfront à l’aide d’un modèle Kickstart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-  Pour plus d’informations sur l’importation de projets à l’aide de lancements, voir [Scénario de démarrage : préparation simple de l’importation de projets et de tâches](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Pour plus d’informations sur l’import de projets à l’aide de Kickstarts, consultez la section [Scénario Kickstart : préparer simplement l’import de projets et de tâches](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -93,11 +93,11 @@ La Date de début planifiée d’un projet est automatiquement définie lorsque 
 </div>
 -->
 
-## Date de début planifiée d’une tâche
+## Date de début prévue d’une tâche
 
-Vous pouvez indiquer la Date de début planifiée d&#39;une tâche ou laisser Workfront la choisir pour la calculer selon certains critères.
+Vous pouvez soit spécifier la date de début prévue d’une tâche, soit laisser Workfront la calculer en fonction de certains critères.
 
-Pour plus d’informations sur la date de début planifiée d’une tâche, voir [Présentation de la date de début planifiée de la tâche](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+Pour plus d’informations sur la date de début prévue d’une tâche, voir [Vue d’ensemble de la date de début prévue d’une tâche](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

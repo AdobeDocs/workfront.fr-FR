@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: create-projects
-title: Créer des références pour les projets
+title: Créer des références de projet
 description: Une référence est un instantané de projet qui représente des éléments d’information clés inclus dans le plan initial du projet ou à tout moment pendant la durée du projet.
 author: Alina
 feature: Work Management
@@ -9,11 +9,11 @@ exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
 source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Créer des références pour les projets
+# Créer des références de projet
 
 <!-- Audited: 12/2023 -->
 
@@ -62,18 +62,18 @@ drafted for P&P:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-    <td><p>Nouvelle : standard</p>
+    <td><p>Nouveau : Standard</p>
         <p>ou</p>
-        <p>Actuelle : formule </p> </td> 
+        <p>Actuel : formule </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
-   <td> <p>Modifier l’accès aux projets</p> </td> 
+   <td> <p>Accès en modification aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -89,13 +89,13 @@ drafted for P&P:
 ## Remarques sur l’utilisation des références
 
 * Vous pouvez capturer des instantanés d’un projet au cours de sa durée de vie afin de suivre sa progression, et créer ainsi plusieurs références.
-* Vous pouvez afficher les informations incluses dans les références d’un projet en créant une référence ou un rapport de référence.
-* Lorsque vous créez une référence, les informations de tâche sont également capturées sur les tâches de base de cette référence.
+* Vous pouvez afficher les informations incluses dans les références d’un projet en créant une références ou un rapport de rniveau de référence.
+* Lorsque vous créez une référence, les informations sur les tâches sont également capturées sur les tâches de référence de cette référence.
 * Vous pouvez consulter les informations sur les tâches de référence en créant un rapport de tâche de référence.
 
 >[!IMPORTANT]
 >
->Une référence capture un instantané du nom, des dates et des informations financières du projet. La référence n’inclut pas les valeurs des champs personnalisés du projet. Pour plus d’informations sur les informations financières incluses dans la référence, voir [Informations financières du projet incluses dans les références du projet](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>Une référence capture un instantané du nom, des dates et des informations financières du projet. La référence n’inclut pas les valeurs des champs personnalisés du projet. Pour plus d’informations sur les informations financières incluses dans la référence, consultez la section [Finances du projet incluses dans les références du projet](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
 ## Créer une référence
 
@@ -122,7 +122,7 @@ Pour créer une référence, procédez comme suit :
 
    ![Section Références du projet](assets/baselines-section-on-project-with-header.png)
 
-1. Cliquez sur **Nouvelle référence.**
+1. Cliquez sur **Nouveau niveau de référence.**
 1. Indiquez le nom de la référence.
 1. (Facultatif) S’il s’agit de la première référence, vous pouvez la choisir comme référence par défaut.
 1. Cliquer sur **Enregistrer**.
@@ -141,7 +141,7 @@ Pour créer une référence, procédez comme suit :
      >
      >Vous ne pouvez pas afficher les informations de deux références quelconques en même temps dans la même vue ou dans le même rapport. Vous pouvez uniquement afficher les informations d’une référence donnée et de la référence par défaut dans le même rapport. Vous pouvez modifier la référence que vous considérez être la référence par défaut à tout moment pendant la durée du projet.
 
-1. (Facultatif) Cliquez sur le bouton **Afficher**, puis créez une vue ou modifiez la vue actuelle pour lui ajouter des champs et comparer les informations supplémentaires entre les références. Pour plus d’informations, voir la section [Créer ou modifier des vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+1. (Facultatif) Cliquez sur le bouton **Afficher**, puis créez une vue ou modifiez la vue actuelle pour lui ajouter des champs et comparer les informations supplémentaires entre les références. Pour plus d’informations, voir la section [Créer ou modifier des vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Créer un rapport de niveau de référence ou de tâche de référence
 
@@ -151,8 +151,8 @@ Pour afficher des informations de référence, vous pouvez également créer un 
 >
 >Vous devez créer une référence avant de pouvoir créer un rapport de niveau de référence ou de tâche de référence.
 
-Pour plus d’informations sur la création d’un rapport, voir [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Pour plus d’informations sur la création d’un rapport, voir la section [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Nous vous recommandons d’ajouter un regroupement Nom de projet à votre rapport de référence ou de tâche de référence afin de faciliter la lecture.
+Nous vous recommandons d’ajouter un regroupement Nom de projet à votre rapport de niveau de référence ou de tâche de référence afin de faciliter la lecture.
 
-Pour plus d’informations sur la création d’un regroupement, voir la section [Créer des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+Pour plus d’informations sur la création d’un regroupement, voir la section [Créer des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

@@ -58,25 +58,25 @@ Les projets représentent une grande quantité de travail à effectuer dans Adob
 -->
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle : standard</p>
+   <td> <p>Nouveau : Standard</p>
         <p>ou</p>
-        <p>Actuelle : formule </p> </td> 
+        <p>Actuel : formule </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Modifier l’accès aux projets</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -101,18 +101,18 @@ Vous pouvez créer un projet dans Workfront à l’aide de l’une des méthodes
 * Utilisez un modèle.\
   Pour plus d’informations sur l’utilisation d’un modèle pour créer un projet, consultez la section [Créer un projet à l’aide d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-* Importez un projet depuis Microsoft Project.\
-  Pour plus d’informations sur l’import d’un projet à partir de Microsoft Project, consultez la section [Importer un projet à partir de Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+* Importer un projet à partir de Microsoft Project.\
+  Pour plus d’informations sur l’import d’un projet à partir de Microsoft Project, consultez la section [Importer un projet à partir de Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
-* Importez un projet à l’aide de Kickstarts.
+* Importer un projet à l’aide de Kickstarts.
 
-  En tant qu’administrateur ou administratrice de Workfront, vous pouvez importer des projets à l’aide d’un Kickstart.
+  En tant qu’administrateur ou administratrice Workfront, vous pouvez importer des projets à l’aide d’un Kickstart.
 
-  Pour plus d’informations sur l’import de données dans Workfront à l’aide de Kickstarts, voir [Importer des données dans Adobe Workfront à l’aide d’un modèle Kickstart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Pour plus d’informations sur l’import de données à l’aide de Kickstarts dans Workfront, consulter la section [Importer des données dans Adobe Workfront à l’aide d’un modèle de Kickstart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
   Pour plus d’informations sur l’import de projets à l’aide de Kickstarts, consultez la section [Scénario Kickstart : préparer simplement l’import de projets et de tâches](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publiez une initiative à partir d’un scénario dans le planificateur de scénarios Adobe Workfront. Le planificateur de scénarios nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md). Pour plus d’informations sur la création de projets à partir de la publication d’initiatives, consultez la section [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](../../../scenario-planner/publish-scenarios-update-projects.md).
+* Publiez une initiative à partir d’un scénario dans le planificateur de scénarios Adobe Workfront. Le planificateur de scénarios nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, consultez la section [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md). Pour plus d’informations sur la création de projets à partir de la publication d’initiatives, consultez la section [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Conditions préalables
 
@@ -120,7 +120,7 @@ Avant de commencer, vous devez vous assurer de ce qui suit :
 
 * L’équipe d’administration du système ou de groupes a activé dans la zone de configuration la préférence « Autoriser les utilisateurs et les utilisatrices à créer des projets sans utiliser de modèle ».
 
-  Pour plus d’informations, voir [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Pour plus d’informations, consultez la section [Configurer des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Nouveaux paramètres par défaut du projet
 
@@ -140,17 +140,17 @@ Tenez compte des points suivants :
 
 * Les scénarios suivants sont possibles pour la manière dont Workfront définit le groupe et statut d’un nouveau projet :
 
-   * Si vous créez un projet à partir de zéro, le groupe du projet est votre groupe principal.
+   * Si vous créez un projet à partir de zéro, le groupe du projet est votre groupe interne.
 
-     Le statut du projet est le statut par défaut dans les préférences du projet de votre groupe principal, le cas échéant, ou de votre instance Workfront. Vous pouvez définir le statut par défaut lors de la création du projet sur n’importe quel statut disponible pour le groupe du projet.
+     Le statut du projet est le statut par défaut dans les préférences du projet de votre groupe interne, le cas échéant, ou de votre instance Workfront. Vous pouvez définir le statut par défaut lors de la création du projet sur n’importe quel statut disponible pour le groupe du projet.
 
    * Si vous créez un projet à l’aide d’un modèle, les paramètres du modèle prévalent sur ceux définis par l’administrateur ou l’administratrice Workfront ou de groupes.
 
      Le groupe du nouveau projet est le groupe du modèle. Si le modèle n’est pas associé à un groupe, le groupe du projet est le groupe principal de l’utilisateur ou de l’utilisatrice qui crée le projet.
 
-     Le statut par défaut d’un projet créé à partir d’un modèle correspond au statut défini par votre administrateur ou une administratrice Workfront dans la zone principale Préférences du projet, ou par un administrateur ou une administratrice de groupe (ou un administrateur ou une administratrice Workfront) dans la zone Préférences du projet pour un groupe. Vous pouvez modifier le statut par défaut lors de la création d’un projet à partir d’un modèle, en n’importe quel statut du groupe du projet qui est soit le groupe du modèle, soit le groupe principal de la personne qui crée le projet.
+     Le statut par défaut d’un nouveau projet créé à partir d’un modèle correspond au statut défini par votre administrateur ou administratrice Workfront dans la zone principale Préférences du projet ou par un administrateur ou une administratrice de groupes (ou Workfront) dans la zone Préférences du projet du groupe. Vous pouvez modifier le statut par défaut lors de la création d’un projet à partir d’un modèle, en n’importe quel statut du groupe du projet qui est soit le groupe du modèle, soit le groupe interne de la personne qui crée le projet.
 
-   * Si vous créez un projet en convertissant un problème, le groupe d’un nouveau projet est le groupe du projet existant du problème. Si la personne qui convertit la problème n’a pas accès au projet du problème, ou si le projet du problème ne comporte pas de groupe, le groupe du nouveau projet est le groupe principal de la personne qui convertit le problème.
+   * Si vous créez un projet en convertissant un problème, le groupe d’un nouveau projet est le groupe du projet existant du problème. Si la personne qui convertit la problème n’a pas accès au projet du problème, ou si le projet du problème ne comporte pas de groupe, le groupe du nouveau projet est le groupe interne de la personne qui convertit le problème.
 
      Les statuts du nouveau projet correspondent aux statuts du groupe associé au projet, qui est soit le groupe du projet d’origine, soit le groupe principal de la personne qui convertit le problème.
 
@@ -165,10 +165,10 @@ Tenez compte des points suivants :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur l’icône Menu principal Menu principal dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône Menu principal Menu principal dans le coin supérieur gauche. ****![](/help/_includes/assets/main-menu-icon.png)****![](/help/_includes/assets/main-menu-icon-left-nav.png) Cliquez sur **Projets**, puis développez **Nouveau projet**.
+   * Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche. Cliquez sur **Projets**, puis développez **Nouveau projet**.
    * Accédez à un portfolio, puis développez **Nouveau projet**.
    * Accédez à un programme, puis développez **Nouveau projet**.
-   * Si vous êtes administrateur ou administratrice de groupes, vous pouvez également créer un projet dans la section Projets d’un groupe que vous gérez. Pour plus d’informations, voir [Créer et modifier des projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Si vous êtes administrateur ou administratrice de groupes, vous pouvez également créer un projet dans la section Projets d’un groupe que vous gérez. Pour plus d’informations, voir [Créer et modifier les projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
    ![Menu Nouveau projet](assets/new-project-dropdown-nwe-350x358.png)
 

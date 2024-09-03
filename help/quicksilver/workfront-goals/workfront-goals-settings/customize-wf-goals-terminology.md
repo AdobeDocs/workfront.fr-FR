@@ -30,13 +30,13 @@ ht-degree: 95%
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
 > 
->Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditions requises pour utiliser Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Un administrateur ou une administratrice Workfront ou de groupes peut personnaliser les noms des objets dans Objectifs Workfront afin qu’ils correspondent mieux à la terminologie de votre entreprise.
 
 Par exemple, il est possible que votre organisation n’utilise pas le concept d’« objectifs », mais qu’elle utilise le concept de « buts ». Votre administrateur ou administratrice Workfront ou de groupes peut remplacer le nom « objectif » par « but » dans Objectifs Workfront pour tout le monde, ou pour les membres de votre groupe.
 
-En tant qu’administrateur ou administratrice, vous pouvez personnaliser les noms d’objets suivants d’Objectifs Workfront à l’aide d’un modèle de mise en page et les affecter aux utilisateurs et utilisatrices d’Objectifs Workfront :
+En tant qu’administrateur ou administratrice, vous pouvez personnaliser les noms d’objets suivants d’Objectifs Workfront à l’aide d’un modèle de disposition et les affecter aux utilisateurs et utilisatrices d’Objectifs Workfront :
 
 * Objectif
 * Résultat
@@ -44,4 +44,4 @@ En tant qu’administrateur ou administratrice, vous pouvez personnaliser les no
 
 La personnalisation de la terminologie d’Objectifs Workfront est identique à la personnalisation de la terminologie dans Workfront.
 
-Pour plus d’informations sur la personnalisation de la terminologie dans Workfront, voir [Personnaliser la terminologie de l’interface d’utilisation à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Pour plus d’informations sur la personnalisation de la terminologie dans Workfront, voir [Personnaliser la terminologie de l’interface utilisateur à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).

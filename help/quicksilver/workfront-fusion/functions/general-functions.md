@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Fonctions générales dans Adobe Workfront Fusion
-description: Les fonctions générales suivantes sont disponibles dans le panneau Mappage de fusion Adobe Workfront .
+description: Les fonctions générales suivantes sont disponibles dans le panneau de mappage dAdobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
 source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 45%
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>[!DNL Pro] ou supérieur</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td> <p>[!DNL Pro] ou une version ultérieure</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
@@ -36,27 +36,27 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
+   <p>Exigence de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
 
-Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL get (objet ou tableau ; chemin)]
+## [!UICONTROL get (object or array; path)]
 
 Renvoie le chemin d’accès à la valeur d’un objet ou d’un tableau. Pour accéder aux objets imbriqués, utilisez la notation par points. Le premier élément d’un tableau est l’index 1.
 
@@ -71,7 +71,7 @@ Renvoie le chemin d’accès à la valeur d’un objet ou d’un tableau. Pour a
 
 ## [!UICONTROL if (expression; value1; value2)]
 
-Renvoie le `value1` si l’expression est évaluée à true ; sinon, renvoie le `value2`.
+Renvoie la `value1` si l’expression est considérée comme true ; sinon elle renvoie la `value2`.
 
 >[!INFO]
 >
@@ -87,7 +87,7 @@ Renvoie le `value1` si l’expression est évaluée à true ; sinon, renvoie le 
 
 ## [!UICONTROL ifempty (value1; value2)]
 
-Renvoie la valeur `value1` si cette valeur n’est pas vide, sinon renvoie la valeur `value2`.
+Renvoie la `value1` si cette valeur n’est pas vide ; sinon elle renvoie la `value2`.
 
 >[!INFO]
 >
@@ -105,9 +105,9 @@ Renvoie la valeur `value1` si cette valeur n’est pas vide, sinon renvoie la va
 >
 >   Renvoie B
 
-## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else]){5]
+## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
 
-Evalue une valeur (appelée expression) par rapport à une liste de valeurs ; renvoie le résultat correspondant à la première valeur correspondante.
+Évalue une valeur (appelée expression) par rapport à une liste de valeurs ; renvoie le résultat correspondant à la première valeur correspondante.
 
 >[!INFO]
 >
@@ -135,7 +135,7 @@ Omet les clés données de l’objet et renvoie le reste.
 >
 >`omit(` User `;` password `)`
 >
->Renvoie une collection des informations de l’utilisateur, à l’exclusion du mot de passe.
+>Renvoie une collection des informations de l’utilisateur ou de l’utilisatrice, à l’exclusion du mot de passe.
 
 ## [!UICONTROL pick(object; key1; [key2; ...])]
 
@@ -147,4 +147,4 @@ Sélectionne uniquement les clés données de l’objet.
 >
 >`pick(` User `;` password `;` email `)`
 >
->Renvoie une collection contenant uniquement le mot de passe et l’adresse électronique de l’utilisateur.
+>Renvoie une collection contenant uniquement le mot de passe et l’adresse e-mail de l’utilisateur ou de l’utilisatrice.

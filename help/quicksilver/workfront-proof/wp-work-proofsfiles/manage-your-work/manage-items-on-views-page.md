@@ -2,199 +2,199 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Gérer les éléments sur la page [!UICONTROL Vues] dans [!DNL Workfront Proof]
-description: La page [!UICONTROL Vues] vous permet d’afficher et d’utiliser tous vos bons à tirer, fichiers et dossiers à un seul endroit.
+title: Gérer les éléments de la page [!UICONTROL Vues] dans  [!DNL Workfront Proof]
+description: La page [!UICONTROL Vues] vous permet de voir l’ensemble de vos épreuves, fichiers et dossiers, et de travailler sur ceux-ci dans un même endroit.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
 source-wordcount: '1525'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Gérer les éléments sur la page [!UICONTROL Vues] dans [!DNL Workfront Proof]
+# Gérer les éléments de la page [!UICONTROL Vues] dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], consultez [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-La page [!UICONTROL Vues] vous permet d’afficher et d’utiliser tous vos bons à tirer, fichiers et dossiers à un seul endroit.
+La page [!UICONTROL Vues] vous permet de voir tous vos fichiers, épreuves et dossiers, et de travailler sur ceux-ci dans un même endroit.
 
-## Affichage de la page [!UICONTROL Vues]
+## Afficher la page [!UICONTROL Vues] 
 
 1. Cliquez sur **[!UICONTROL Vues]** dans la barre latérale gauche.
-1. Dans le menu déroulant (2), cliquez sur la vue (3) que vous souhaitez afficher.
+1. Dans le menu déroulant (2), cliquez sur la vue (3) que vous souhaitez consulter.
 
 ![Views.png](assets/views-350x297.png)
 
-## Modification de la mise en page de la page [!UICONTROL Views]
+## Modifier la disposition de la page [!UICONTROL Vues] 
 
-La mise en page par défaut des [!UICONTROL vues] est la liste des miniatures. Dans cette disposition, vous pouvez voir une image miniature de chaque BAT, fichier (si possible à générer) et dossiers (s’il est défini), avec d’autres détails inclus dans des colonnes distinctes.
+La disposition par défaut de la page [!UICONTROL Vues] est une liste de miniatures. Dans cette disposition, vous pouvez voir une image miniature de chaque épreuve, fichier (s’il est possible de la générer) et dossier (si définie), les autres détails étant inclus dans des colonnes séparées.
 
-1. Cliquez sur l’icône **[!UICONTROL Mise en page de page]** (1), puis sélectionnez la mise en page de votre choix.
+1. Cliquez sur l’icône **[!UICONTROL Disposition de la page]** (1), puis choisissez la disposition souhaitée.
 
 ![Views_Page_Layout.png](assets/views-page-layout-350x140.png)
 
-## Modification de la liste [!UICONTROL Views]
+## Modifier la liste de [!UICONTROL Vues]
 
-Pour modifier ce que vous voyez dans la liste [!UICONTROL Vues] :
+Pour modifier ce que vous voyez dans la liste de [!UICONTROL Vues] :
 
-1. Cliquez sur le bouton **[!UICONTROL Modifier la vue]** .\
-   Le nom affiché sur ce bouton dépend de la vue sélectionnée la dernière fois que vous l’avez utilisé.\
-   ![Views-Change_view_button.png](assets/views-chnge-view-button-350x205.png)
+1. Cliquez sur le bouton **[!UICONTROL Modifier la vue]**.\
+   Le nom qui apparaît sur ce bouton dépend de la vue que vous avez sélectionnée la dernière fois que vous l’avez utilisé.\
+   ![Views-Chnge_view_button.png](assets/views-chnge-view-button-350x205.png)
 
-1. Cliquez sur une autre vue dans le menu déroulant :
+1. Cliquez sur une autre vue dans le menu déroulant :
 
-   * **[!UICONTROL Tous les éléments]** : comprend tous les bons à tirer, fichiers et dossiers que vous êtes autorisé à afficher. Il s’agit de la valeur par défaut lorsque vous ouvrez la page [!UICONTROL Vues]. Vous avez la possibilité d’inclure/exclure des BAT archivés dans cette vue.
-   * **[!UICONTROL Éléments actifs]** : tous les BAT, fichiers et dossiers actifs.
-   * **[!UICONTROL BAT actif]** : tous les BAT actifs (non archivés) que vous êtes autorisé à voir.
-   * **[!UICONTROL BAT verrouillé]** : seuls les BAT verrouillés.
-   * **[!UICONTROL BAT archivé]** : seuls les BAT archivés (voir [Archiver dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)).
+   * **[!UICONTROL Tous les éléments]** : inclut tous les fichiers, épreuves et dossiers que vous avez l’autorisation de voir. Il s’agit de la valeur par défaut lorsque vous ouvrez la page [!UICONTROL Vues]. Vous avez la possibilité d’inclure/exclure les épreuves archivées dans cette vue.
+   * **[!UICONTROL Éléments actifs]** : tous les fichiers, épreuves et dossiers actifs.
+   * **[!UICONTROL Épreuves actives]** : toutes les épreuves actives (non archivées) que vous avez l’autorisation de voir.
+   * **[!UICONTROL Épreuves verrouillées]** : uniquement les épreuves verrouillées.
+   * **[!UICONTROL Épreuves archivées]** : uniquement les épreuves archivées (voir [Archivage dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)).
 
-   * **[!UICONTROL Mes BAT]** : affiche uniquement les BAT dont vous êtes le propriétaire et qui vous sont délégués. Pour plus d’informations, voir [Désignation des propriétaires de BAT temporaires dans [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
+   * **[!UICONTROL Mes épreuves]** : affiche uniquement les épreuves dont vous êtes propriétaire et qui vous sont déléguées. Pour plus d’informations, consultez [Désigner des personnes propriétaires temporaires d’épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
 
-   * **[!UICONTROL Bons à tirer en attente de décision]** : affiche uniquement les bons à tirer sur lesquels vous devez prendre une décision.
-   * **[!UICONTROL BAT tardif]** : affiche uniquement les bons à tirer pour lesquels la date limite a été dépassée.
-   * **[!UICONTROL Fichiers]** : affiche uniquement les fichiers
+   * **[!UICONTROL Épreuves en attente de décision]** : affiche uniquement les épreuves sur lesquelles vous devez prendre une décision.
+   * **[!UICONTROL Épreuves en retard]** : affiche uniquement les épreuves pour lesquelles la date d’échéance est dépassée.
+   * **[!UICONTROL Fichiers]** : affiche uniquement les fichiers.
 
-   Dans chacune de ces vues, les colonnes suivantes sont incluses :
+   Dans chacune de ces vues, les colonnes suivantes sont incluses :
 
-   * **Type** : icône de l’élément avec l’icône de BAT, fichier ou dossier
-   * **Nom** : nom du BAT, du fichier ou du dossier
-   * **Progression** : S=Envoyé, O=Ouvert, C=Commentaire, D=Décision (voir Barre de progression)
-   * **État** : [!UICONTROL En attente, modifications requises, Approuvé]
-   * **Décisions** : nombre de décisions prises et nombre requis
-   * **Propriétaire** : nom de la personne propriétaire du BAT\
+   * **Type** : icône de l’élément avec l’icône de l’épreuve, du fichier ou du dossier.
+   * **Nom** : nom de l’épreuve, du fichier ou du dossier.
+   * **Progression** : S=Envoyé, O=Ouvert, C=Commentaire, D=Décision (voir Barre de progression).
+   * **Statut** : [!UICONTROL En attente, Modifications requises, Approuvé].
+   * **Décisions** : nombre de décisions prises et nombre de décisions requises.
+   * **Personne propriétaire** : nom de la personne propriétaire de l’épreuve.
 
-     Mes bons à tirer, BAT en attente de décision et les dernières vues des bons à tirer ont une colonne supplémentaire appelée Ma date limite. Cette colonne affiche vos propres échéances sur les bons à tirer pour lesquels vous êtes explicitement ajouté en tant que réviseur/approbateur.
+     Les vues Mes épreuves, Épreuves en attente de décision et Épreuves en retard comportent une colonne supplémentaire intitulée Ma date d’échéance. Cette colonne affiche vos propres dates d’échéances des épreuves pour lesquelles vous êtes explicitement réviseur ou réviseuse/approbateur ou approbatrice.
 
      >[!NOTE]
      >
-     >Si vous quittez la page Vues pour y revenir ultérieurement au cours de la même session, la dernière vue sélectionnée s’affiche.
+     >Si vous quittez la page Vues et que vous y revenez plus tard lors de la même session, la dernière vue sélectionnée s’affiche.
 
-     Vous pouvez également créer vos propres vues. Voir [Créer et gérer des vues personnalisées dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) pour plus d’informations.
+     Vous pouvez également créer vos propres vues. Pour plus d’informations, consultez [Créer et gérer des vues personnalisées dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 
 
-## Filtrage des éléments
+## Filtrer des éléments
 
-Vous pouvez filtrer les informations répertoriées dans une vue.
+Vous pouvez filtrer les informations listées dans une vue.
 
 1. Cliquez sur l’icône **Afficher les filtres** en haut à droite de la page (1).\
    ![Filters.png](assets/filters-350x107.png)
 
-1. La barre de filtrage (2) apparaît et chaque catégorie dispose d’un menu déroulant de filtrage (3) pour sélectionner la valeur souhaitée. La valeur par défaut de chaque catégorie est Tous.
-1. La barre de filtre ne s’affiche pas dans les vues personnalisées que vous créez. Pour ces vues, vous pouvez appliquer et modifier des filtres dans l’onglet [!UICONTROL Filtres]. Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-1. Pour appliquer tous les filtres sélectionnés, cliquez sur l’icône [!UICONTROL Filtre] (4) à la fin de la barre de filtrage.\
+1. La barre de filtre (2) apparaît et chaque catégorie comprend un menu déroulant de filtrage (3) vous permettant de sélectionner votre valeur préférée. La valeur par défaut de chaque catégorie est Tout.
+1. La barre de filtre ne s’affiche pas dans les vues personnalisées que vous créez. Pour ces vues, vous pouvez appliquer et modifier des filtres dans l’onglet [!UICONTROL Filtres]. Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+1. Pour appliquer tous les filtres choisis, cliquez sur l’icône [!UICONTROL Filtre] (4) à l’extrémité de la barre de filtrage.\
    ![Filters_2.png](assets/filters-2-350x102.png)
 
-Les valeurs de filtre que vous sélectionnez restent en vigueur jusqu’à ce que vous les modifiiez. Si vous souhaitez afficher et accéder à nouveau à la liste complète des éléments, vous devez rétablir toutes les valeurs de filtre par défaut, à savoir **[!UICONTROL All]**.
+Les valeurs de filtre que vous sélectionnez restent effectives jusqu’à ce que vous les modifiiez. Si vous souhaitez voir et accéder à nouveau à la liste complète des éléments, vous devez rétablir les valeurs par défaut de tous les filtres, à savoir **[!UICONTROL Tout]**.
 
 >[!NOTE]
 >
->Si vous définissez des options de filtrage, puis masquez la barre de filtrage en cliquant sur l’icône [!UICONTROL Masquer les filtres] (5), la barre s’affiche de nouveau automatiquement si vous modifiez les vues. Si vous masquez la barre de filtrage alors que tous les filtres sont définis sur l’option Tous par défaut, la barre de filtrage reste masquée lors du changement de vue.
+>Si vous définissez des options de filtrage et que vous masquez ensuite la barre de filtrage en cliquant sur l’icône [!UICONTROL Masquer les filtres] (5), la barre réapparaît automatiquement si vous changez de vue. Si vous masquez la barre de filtrage alors que tous les filtres sont définis sur l’option Tout par défaut, la barre de filtrage reste masquée lorsque vous changez de vue.
 
-## Tri des éléments
+## Trier les éléments
 
-Lorsque vous créez un BAT (ou une version) ou téléchargez un nouveau fichier, il apparaît en haut de votre liste [!UICONTROL Tous les éléments]. L’élément le plus ancien apparaît au bas de la liste.
+Lorsque vous créez une épreuve (ou version) ou que vous chargez un nouveau fichier, celui-ci ou celle-ci apparaît en haut de votre liste [!UICONTROL Tous les éléments]. L’élément le plus ancien apparaît en bas de la liste.
 
-Pour afficher la liste dans un ordre de tri différent :
+Pour afficher la liste dans un ordre de tri différent :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur l’un des en-têtes de colonne de la liste : Type, Nom, État, Décisions ou Propriétaire.\
+   * Cliquez sur l’un des en-têtes de colonne de la liste : Type, Nom, Statut, Décisions ou Personne propriétaire.\
 
-     Par exemple, si vous souhaitez afficher les bons à tirer/fichiers par ordre alphabétique, cliquez une fois sur l’en-tête Nom (1) pour trier la liste par nom dans l’ordre croissant (A - Z).\
-      Vous pouvez à nouveau cliquer sur l’en-tête Nom du BAT (2) pour inverser l’ordre et afficher les BAT dans l’ordre décroissant (Z - A).
+     Par exemple, si vous souhaitez voir les épreuves/fichiers par ordre alphabétique, cliquez une fois sur l’en-tête Nom (1) pour trier la liste par nom dans l’ordre croissant (A - Z).\
+      Vous pouvez cliquer à nouveau sur l’en-tête Nom de l’épreuve (2) pour inverser l’ordre et afficher les épreuves dans l’ordre décroissant (Z - A).
 
-   * Cliquez sur la flèche vers le bas dans le coin supérieur droit de la page [!UICONTROL Vues] pour effectuer un tri par date de création (la plus récente ou la plus ancienne) ou par type, nom, état, décisions ou propriétaire.\
+   * Cliquez sur la flèche vers le bas en haut à droite de la page [!UICONTROL Vues] pour trier par date de création (la plus récente ou la plus ancienne) ou par Type, Nom, Statut, Décisions ou Personne propriétaire.
 
-     ![Views-Sort_down_flèche.png](assets/views-sort-down-arrow-350x124.png)\
-      Si votre colonne est triée par ordre croissant, l’en-tête de colonne affiche une flèche vers le haut en regard du nom de la colonne. Pour inverser l’ordre (vers le bas), cliquez sur l’en-tête de colonne correspondant (une flèche vers le bas s’affiche en regard du nom de la colonne).
+     ![Views-Sort_down_arrow.png](assets/views-sort-down-arrow-350x124.png)\
+      Si votre colonne est triée dans l’ordre croissant, l’en-tête de la colonne affiche une flèche vers le haut en regard du nom de la colonne. Pour inverser l’ordre (par ordre décroissant), cliquez sur l’en-tête de la colonne concernée (une flèche vers le bas apparaît alors en regard du nom de la colonne).
 
-   * Les modifications que vous apportez à l’ordre de tri des éléments ne durent que lorsque vous restez sur la page Tous les éléments . Si vous quittez la page Tous les éléments pour y revenir ultérieurement, les éléments sont de nouveau répertoriés dans l’ordre chronologique inverse par défaut.
+   * Les modifications que vous apportez à l’ordre de tri des éléments ne sont valables que tant que vous restez sur la page Tous les éléments. Si vous quittez la page Tous les éléments et y revenez ultérieurement, les éléments sont à nouveau répertoriés dans l’ordre chronologique inverse par défaut.
 
-## Affichage du résumé d’un bon à tirer
+## Afficher le résumé d’une épreuve
 
-Pour afficher des informations plus détaillées sur un BAT :
+Pour obtenir des informations plus détaillées sur une épreuve :
 
-1. Cliquez sur la flèche située à gauche de l&#39;image du BAT.\
-   La flèche pointe vers le bas et le résumé du BAT s’affiche sous les informations de base sur le BAT. Le résumé du BAT affiche :
+1. Cliquez sur la flèche à gauche de l’image de l’épreuve.\
+   La flèche pointe vers le bas et le résumé de l’épreuve s’affiche sous les informations de base concernant l’épreuve. Le résumé de l’épreuve fournit les informations suivantes :
 
-   * **Résumé du BAT** : état global du BAT
-   * **Stage** : indique la date limite du BAT et le nombre de décisions prises et requises
-   * **Réviseurs** : le nom, le rôle et la progression de chaque réviseur seront répertoriés.
-   * **Versions** : version du BAT affiché et nombre total de versions disponibles
-   * **Dossier** : dossier dans lequel se trouve le BAT
-   * **État** : actif, verrouillé, brouillon ou envoyé
+   * **Résumé de l’épreuve** : statut général de l’épreuve.
+   * **Étape** : indique la date d’échéance de l’épreuve ainsi que le nombre de décisions prises et requises.
+   * **Réviseurs et réviseuses** : le nom, le rôle et la progression de chaque réviseur ou réviseuse sont indiqués.
+   * **Versions** : version de l’épreuve actuellement affichée et nombre total de versions disponibles.
+   * **Dossier** : dossier dans lequel se trouve l’épreuve.
+   * **État** : Actif, Verrouillé, Brouillon ou Soumis.
 
-1. (Facultatif) Si vous disposez de droits d’édition sur le BAT et que le BAT comporte des scènes, cliquez sur le menu **[!UICONTROL Plus]** (trois points) situé à droite de l’étape pour accéder aux options suivantes :
+1. (Facultatif) Si vous disposez de droits d’édition sur l’épreuve et que celle-ci comporte des étapes, cliquez sur le menu **[!UICONTROL Plus]** (trois points) à droite de l’étape pour accéder aux options suivantes :
 
-   * **[!UICONTROL Message all]** : envoyez un email à tous les réviseurs sur l’étape.
-   * **[!UICONTROL Partager]** : ajouter de nouveaux réviseurs
+   * **[!UICONTROL Envoyer un message à tous]** : envoyez un e-mail à tous les réviseurs et réviseuses impliqués dans l’étape.
+   * **[!UICONTROL Partager]** : ajoutez de nouveaux réviseurs et réviseuses.
    * **[!UICONTROL Supprimer l’étape]**
 
-1. (Facultatif) Cliquez sur le menu **[!UICONTROL Plus]** d’un réviseur (à trois points) à droite de son nom pour effectuer l’une des opérations suivantes :
+1. (Facultatif) Cliquez sur le menu **[!UICONTROL Plus]** (trois points) à droite du nom d’un réviseur ou d’une réviseuse pour effectuer l’une des opérations suivantes :
 
-   * Envoyez au réviseur un message de rappel.
-   * Modifiez les paramètres du réviseur sur le BAT.\
+   * Envoyez un message de rappel au réviseur ou à la réviseuse.
+   * Modifiez les paramètres du réviseur ou de la réviseuse sur l’épreuve.\
 
-     La boîte de dialogue Modifier le réviseur qui s’affiche vous permet de modifier non seulement les alertes par rôle et par e-mail, mais également le nom d’affichage du réviseur. Notez que le Nom d&#39;affichage ne peut être modifié que sur le BAT en particulier, et non dans les détails du validant dans la page Contacts. Voir [Contacts](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts) pour plus d’informations.
+     Dans la boîte de dialogue Modifier le réviseur ou la réviseuse qui s’affiche, vous pouvez non seulement modifier le rôle et les alertes par e-mail, mais également le nom d’affichage du réviseur ou de la réviseuse. Notez que le nom d’affichage ne peut être modifié que dans l’épreuve en question, et non dans les détails du réviseur ou de la réviseuse dans la page Contacts. Pour plus d’informations, voir [Contacts](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts).
 
-   * Sélectionnez le validant à être le créateur de décision Principal sur le BAT.
-   * Supprimez le validant du BAT.
-   * Vous pouvez également modifier les alertes Rôle et Email pour un réviseur ajouté au BAT.
+   * Sélectionnez le réviseur ou la réviseuse qui sera la personne décisionnaire principale de l’épreuve.
+   * Supprimez le réviseur ou la réviseuse de l’épreuve.
+   * Vous pouvez également modifier le rôle et les alertes par e-mail d’un réviseur ou d’une réviseuse ayant accès à l’épreuve.
 
-## Inclusion et exclusion de BAT archivés
+## Inclure et exclure les épreuves archivées
 
-La vue [!UICONTROL Tous les éléments] affiche par défaut tous les bons à tirer actifs et verrouillés, les fichiers et les dossiers. Il permet également d’inclure ou d’exclure des BAT archivés dans la vue.\
-Pour inclure les BAT archivés :
+La vue [!UICONTROL Tous les éléments] affiche par défaut l’intégralité des épreuves, fichiers et dossiers actifs et verrouillés. Elle offre également la possibilité d’inclure ou d’exclure les épreuves archivées.\
+Pour inclure les épreuves archivées :
 
-1. Lorsque vous choisissez une vue, cliquez sur **[!UICONTROL Inclure les bons à tirer archivés]**.\
+1. Lorsque vous choisissez une vue, cliquez sur **[!UICONTROL Inclure les épreuves archivées]**.\
    ![Views-include_archived_proofs.png](assets/views-include-archived-proofs-350x188.png)\
-   Les bons à tirer archivés s’affichent avec une icône archivée pour les distinguer des autres bons à tirer.\
+   Les épreuves archivées apparaîtront avec une icône d’archivage pour les distinguer des autres épreuves.\
    ![Views-Archived_icon.png](assets/views-archived-icon.png)
 
-## Ouverture d’un élément à partir d’un mode Liste
+## Ouvrir un élément en mode Liste
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Pour afficher les détails sur un BAT, un fichier ou un dossier, cliquez sur son nom.
-   * Pour ouvrir un BAT dans la visionneuse de BAT, cliquez sur **[!UICONTROL Atteindre le BAT]**.\
+   * Pour afficher les détails d’une épreuve, d’un fichier ou d’un dossier, cliquez sur son nom.
+   * Pour ouvrir une épreuve dans la visionneuse de relecture, cliquez sur **[!UICONTROL Accéder à l’épreuve]**.
 
-     Pour plus d’informations sur la visionneuse de vérification, voir [Vérification d’un BAT](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
+     Pour plus d’informations sur la visionneuse de relecture, consultez [Réviser une épreuve](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
 
-## Exécution d’actions sur plusieurs éléments
+## Effectuer des actions sur plusieurs éléments
 
-Pour sélectionner plusieurs éléments :
+Pour sélectionner plusieurs éléments :
 
-1. Cochez la case située au-dessus de la liste.\
+1. Cliquez sur la case à cocher au-dessus de la liste.\
    ![Views-select_all_items_checkbox.png](assets/views-select-all-items-checkbox-350x193.png)
 
-1. Dans les options supplémentaires qui apparaissent au-dessus de la liste Vues, effectuez l’une des opérations suivantes pour les fichiers que vous avez sélectionnés :
+1. Dans les options supplémentaires qui apparaissent au-dessus de la liste Vues, effectuez l’une des opérations suivantes sur les fichiers que vous avez sélectionnés :
 
    * Cliquez sur **[!UICONTROL Balises]** pour ajouter une balise à ces éléments.
-   * Cliquez sur **[!UICONTROL Déplacer vers]** pour déplacer les éléments sélectionnés vers un autre dossier (ou déplacer les éléments hors du dossier si vous sélectionnez (Aucun dossier sélectionné).
-   * Cliquez sur **[!UICONTROL Partager les éléments sélectionnés]** pour partager tous ces éléments avec des réviseurs supplémentaires.\
+   * Cliquez sur **[!UICONTROL Déplacer vers]** pour déplacer les éléments sélectionnés vers un autre dossier (ou pour déplacer les éléments hors du dossier si vous choisissez Aucun dossier sélectionné).
+   * Cliquez sur **[!UICONTROL Partager les éléments sélectionnés]** pour partager tous ces éléments avec d’autres réviseurs et réviseuses.
 
      ![Share_button-small.png](assets/share-button-small.png)
 
-   * Cliquez sur **[!UICONTROL Supprimer]** pour déplacer les éléments sélectionnés vers la corbeille.\
+   * Cliquez sur **[!UICONTROL Supprimer]** pour déplacer les éléments sélectionnés vers la Corbeille.
 
      ![Trash_button.png](assets/trash-button.png)
 
    * Cliquez sur le menu **[!UICONTROL Plus]** pour accéder à d’autres actions.
 
-   * Les actions ne sont appliquées qu’à celles des éléments sélectionnés pour lesquels une option particulière est disponible. Par exemple, si vous sélectionnez des fichiers et des bons à tirer et que vous choisissez [!UICONTROL Verrouiller], seuls les bons à tirer seront verrouillés (car vous ne pouvez pas verrouiller les fichiers).
+   * Les actions seront appliquées uniquement aux éléments sélectionnés pour lesquels l’option en question est disponible. Par exemple, si vous sélectionnez des fichiers et des épreuves et que vous choisissez [!UICONTROL Verrouiller], seules les épreuves seront verrouillées (car vous ne pouvez pas verrouiller les fichiers).
 
-## Déplacement d’un élément vers un dossier
+## Déplacer un élément vers un dossier
 
-Si vous disposez des droits d’édition nécessaires, vous pouvez déplacer des BAT, des fichiers et des dossiers vers des dossiers spécifiques sur la page [!UICONTROL Vues].
+Si vous disposez des droits de modification nécessaires, vous pouvez déplacer des épreuves, des fichiers et des dossiers vers des dossiers spécifiques sur la page [!UICONTROL Vues].
 
-1. Ouvrez l’arborescence de dossiers dans la barre latérale en cliquant sur la flèche située à gauche du dossier le plus en haut.
+1. Ouvrez l’arborescence des dossiers dans la barre latérale en cliquant sur la flèche située à gauche du dossier supérieur.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Pour déplacer un élément, cliquez dessus et maintenez-le enfoncé, puis faites-le glisser dans le dossier où vous souhaitez le placer.
-   * Pour déplacer plusieurs éléments en même temps, vous pouvez cocher les cases situées à gauche de ces éléments, puis cliquer sur **[!UICONTROL Déplacer vers]**au-dessus de la liste, puis sélectionner le dossier dans lequel vous souhaitez les placer ou créer un nouveau dossier pour eux.
+   * Pour déplacer un élément, cliquez dessus en maintenant le bouton de la souris enfoncé, puis faites-le glisser vers le dossier où vous souhaitez le placer.
+   * Pour déplacer plusieurs éléments en même temps, vous pouvez cocher les cases à gauche des éléments, cliquer sur **[!UICONTROL Déplacer ver]** au-dessus de la liste, puis sélectionner le dossier dans lequel vous voulez les placer (ou créer un nouveau dossier).

@@ -1,30 +1,30 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Naviguer dans la section Alignement des objectifs dans Objectifs Adobe Workfront
-description: Utilisez la section Alignement des objectifs pour afficher une vue d’ensemble de l’alignement des objectifs sur l’ensemble de l’organisation dans un organigramme. Les objectifs alignés s’affichent sur les cartes qui s’interconnectent dans une arborescence hiérarchique.
+title: Naviguer dans la section Alignement des objectifs d’Objectifs Adobe Workfront
+description: Utilisez la section Alignement des objectifs pour afficher une vue holistique de l’alignement des objectifs sur l’ensemble de l’organisation dans un organigramme. Les objectifs alignés s’affichent sur des cartes qui s’interconnectent dans une arborescence hiérarchique.
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
 source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
-# Naviguer dans la section Alignement des objectifs dans Objectifs Adobe Workfront
+# Naviguer dans la section Alignement des objectifs d’Objectifs Adobe Workfront
 
-Utilisez la section Alignement des objectifs pour afficher une vue d’ensemble de l’alignement des objectifs sur l’ensemble de l’organisation dans un organigramme. Les objectifs alignés s’affichent sur les cartes qui s’interconnectent dans une arborescence hiérarchique.
+Utilisez la section Alignement des objectifs pour afficher une vue holistique de l’alignement des objectifs sur l’ensemble de l’organisation dans un organigramme. Les objectifs alignés s’affichent sur des cartes qui s’interconnectent dans une arborescence hiérarchique.
 
-Pour plus d’informations sur l’alignement des objectifs et sur la manière d’y parvenir, voir également les articles suivants :
+Pour plus d’informations sur l’alignement des objectifs et sur la manière d’y parvenir, voir également les articles suivants :
 
-* [Présentation de l’alignement des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
-* [Alignement des objectifs en les reliant dans Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Vue d’ensemble de l’alignement des objectifs d’Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [Aligner des objectifs en les connectant dans les Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 
 ## Conditions d’accès
 
-Pour effectuer les activités décrites dans cet article, vous devez disposer des éléments suivants :
+Pour effectuer les activités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -33,45 +33,45 @@ Pour effectuer les activités décrites dans cet article, vous devez disposer de
 </col>
 <tbody>
 <tr>
-<td role="rowheader">Forfait Adobe Workfront</td>
+<td role="rowheader">Formule Adobe Workfront</td>
 <td>
-<p>N’importe quelle</p>
+<p>Tous</p>
 
 </td>
 </tr>
 <tr>
 <td role="rowheader">Licence Adobe Workfront*</td>
 <td>
-<p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
+<p>Nouvelle licence : contributeur ou contributrice ou niveau supérieur</p>
 Ou
-<p>Licence actuelle : demande ou supérieure</p>  </td>
+<p>Licence actuelle : demande ou niveau supérieur</p>  </td>
 </tr>
 <tr>
 <td role="rowheader">Produit*</td>
 <td>
-<p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+<p> Nouvelle exigence de produit, une des options suivantes : </p>
 <ul>
-<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
-<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
+<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
 <p>Ou</p>
-<p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+<p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
 </tr>
 <tr>
 <td role="rowheader">Niveau d’accès</td>
-<td> <p>Modifier l’accès aux objectifs</p> </td>
+<td> <p>Modifier l’accès aux Objectifs</p> </td>
 </tr>
 <tr data-mc-conditions="">
 <td role="rowheader">Autorisations d’objet</td>
 <td>
 <div>
-<p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
-<p>Gérer les autorisations sur l’objectif pour le modifier</p>
-<p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
+<p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
+<p>Autorisations de gestion sur l’objectif pour le modifier</p>
+<p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans Objectifs Workfront</a>. </p>
 </div> </td>
 </tr>
 <tr>
-<td role="rowheader"><p>Modèle de disposition</p></td>
-<td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+<td role="rowheader"><p>Modèle de mise en page</p></td>
+<td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
 </tr>
 </tbody>
@@ -79,33 +79,33 @@ Ou
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Accédez à la section Alignement de l’objectif .
+## Naviguer dans la section Alignement des objectifs
 
-1. Cliquez sur l’icône **Menu principal** ![Icône de menu principal](../goal-alignment/assets/dots-main-menu-icon.png) dans le coin supérieur droit de votre écran, puis cliquez sur **Objectifs**.
+1. Cliquez sur l’icône **Menu principal** ![Icône Menu principal](../goal-alignment/assets/dots-main-menu-icon.png) dans le coin supérieur droit de l’écran, puis cliquez sur **Objectifs**.
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
-1. Cliquez sur **Alignement de l’objectif** dans le panneau de gauche.
-1. Utilisez les filtres situés dans le coin supérieur droit du graphique d&#39;alignement pour sélectionner uniquement les objectifs qui vous semblent importants. Pour plus d’informations sur l’utilisation des filtres dans les objectifs Workfront, voir [Filtrage des informations dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+1. Cliquez sur **Alignement des objectifs** dans le panneau de gauche.
+1. Utilisez les filtres situés dans le coin supérieur droit du graphique d’alignement pour sélectionner uniquement les objectifs qui vous semblent importants. Pour plus d’informations sur l’utilisation de filtres dans Objectifs Workfront, voir [Filtrer des informations dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    Les objectifs qui correspondent à vos filtres s’affichent dans le graphique d’alignement des cartes.
 
-   Les informations suivantes s’affichent sur une carte d’objectif :
+   Les informations suivantes s’affichent sur une carte d’objectif :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Dates de période </td> 
-      <td> <p>Il s’agit de la période pendant laquelle l’objectif est ouvert. L’objectif doit être atteint d’ici la date de fin de la période. Les objectifs Workfront calculent la progression de l’objectif en fonction de la durée de la période de l’objectif et de la date actuelle.</p> </td> 
+      <td role="rowheader">Dates de la période </td> 
+      <td> <p>Il s’agit de la période pendant laquelle l’objectif est ouvert. L’objectif doit être atteint d’ici la date de fin de la période. Objectifs Workfront calcule la progression vers l’objectif en fonction de la durée de la période de l’objectif et de la date actuelle.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Indicateurs de progression</td> 
-      <td>Nombre d’indicateurs de progression pour l’objectif. Les indicateurs de progression peuvent être harmonisés avec des objectifs, des résultats ou des activités. </td> 
+      <td>Nombre d’indicateurs de progression pour l’objectif. Les indicateurs de progression peuvent être alignés sur des objectifs, des résultats ou des activités. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom du propriétaire</td> 
-      <td>Nom de l’utilisateur, de l’équipe, du groupe ou de l’organisation désigné comme propriétaire de l’objectif. </td> 
+      <td>Nom de l’utilisateur ou de l’utilisatrice, de l’équipe, du groupe ou de l’organisation désigné comme propriétaire de l’objectif. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom de l’objectif</td> 
@@ -113,13 +113,13 @@ Ou
      </tr> 
      <tr> 
       <td role="rowheader">Barre de progression de l’objectif <span>et progression</span></td> 
-      <td> <p>La progression de l’objectif indique la part de l’objectif actuellement atteinte. Il s’agit d’un calcul automatique de la moyenne de la progression de tous les objectifs, résultats et activités harmonisés pour l’objectif en fonction du temps écoulé depuis le début de la période de l’objectif. Pour plus d’informations sur le calcul de la progression des objectifs, voir <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Présentation de la progression et de la condition de l’objectif dans les objectifs Adobe Workfront</a>. </p> 
+      <td> <p>La progression de l’objectif indique la part de l’objectif actuellement atteinte. Il s’agit d’un calcul automatique de la moyenne de la progression de tous les objectifs, résultats et activités alignés pour l’objectif en fonction du temps écoulé depuis le début de la période de l’objectif. Pour plus d’informations sur le calcul de la progression vers les objectifs, voir <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Vue d’ensemble de la progression et de l’état des objectifs dans Objectifs Adobe Workfront</a>. </p> 
        <div> 
-        <p>Progression réelle de l’objectif d’ici la date actuelle. Les valeurs et couleurs de progression suivantes indiquent la probabilité que l’objectif soit atteint à temps : </p> 
+        <p>Progression réelle de l’objectif à la date actuelle.Les valeurs et couleurs de progression suivantes indiquent la probabilité que l’objectif soit atteint à temps : </p> 
         <ul> 
-         <li><span>Sur Target</span> (indicateur vert) : l’objectif est à l’heure et sera atteint à temps.</li> 
-         <li> <span>À risque</span> (indicateur jaune) : l’objectif est en retard et peut ne pas être atteint à temps.</li> 
-         <li> <span>En problème</span> (indicateur rouge) : l’objectif risque de ne pas être atteint à temps. </li> 
+         <li><span>Ciblé</span> (indicateur vert) : l’objectif est dans les délais et sera atteint à temps.</li> 
+         <li> <span>À risque</span> (indicateur jaune) : l’objectif est en retard et pourrait ne pas être atteint à temps.</li> 
+         <li> <span>À problème</span> (indicateur rouge) : l’objectif risque de ne pas être atteint à temps. </li> 
         </ul> 
        </div> </td> 
      </tr> <!--
@@ -130,7 +130,7 @@ Ou
      --> 
      <tr> 
       <td role="rowheader">Statut</td> 
-      <td><span>Les objectifs dans tous les états s’affichent dans la section Alignement des objectifs.</span> </td> 
+      <td><span>Les objectifs dans tous les statuts s’affichent dans la section Alignement des objectifs.</span> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -139,35 +139,35 @@ Ou
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
-1. Cliquez sur l’icône **flèche vers le bas** sous un objectif pour développer davantage et afficher les objectifs enfants.
+1. Cliquez sur l’icône **Flèche pointant vers le bas** dans un objectif pour développer et afficher les objectifs enfant.
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
-   >Les objectifs pour lesquels des objectifs enfants sont alignés affichent le nombre d’objectifs alignés sous leurs cartes respectives.
+   >Les objectifs pour lesquels des objectifs enfant sont alignés affichent le nombre d’objectifs alignés sous leurs cartes respectives.
 
-1. (Conditionnel) Si le filtre actuel exclut certains des objectifs qui participent à un alignement, un message d’avertissement s’affiche pour indiquer que tous les objectifs ne s’affichent pas.
+1. (Le cas échéant) Si le filtre actuel exclut certains des objectifs qui participent à un alignement, un message d’avertissement s’affiche pour indiquer que tous les objectifs ne s’affichent pas.
 
    ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
-1. Cliquez sur **Afficher** pour afficher les objectifs actuellement supprimés par le filtre.
+1. Cliquez sur **Les afficher** pour afficher les objectifs actuellement supprimés par le filtre.
 
-   Notez les modifications suivantes dans le graphique d’alignement :
+   Remarquez les modifications suivantes dans le graphique d’alignement :
 
    * Les objectifs connectés précédemment éliminés par le filtre s’affichent désormais dans le graphique d’alignement.
-   * Le filtre dans le coin supérieur droit est indiqué en jaune pour indiquer qu’il n’est actuellement pas appliqué.
+   * Le filtre dans le coin supérieur droit est souligné en jaune pour indiquer qu’il n’est actuellement pas appliqué.
 
      ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
-     Un lien Réappliquer le filtre s’affiche à gauche du nom du filtre.
+     Un lien Appliquer à nouveau le filtre s’affiche à gauche du nom du filtre.
 
-1. (Facultatif) Cliquez sur **Réappliquer le filtre** pour revenir aux résultats d’origine et afficher la hiérarchie des objectifs.
-1. (Facultatif) Pointez sur l’indicateur de progression pour comprendre où doit se trouver l’objectif de progression pour la journée en cours.
+1. (Facultatif) Cliquez sur **Appliquer à nouveau le filtre** pour revenir aux résultats d’origine et afficher la hiérarchie d’objectifs.
+1. (Facultatif) Pointez sur l’indicateur de progression pour comprendre où devrait se trouver l’objectif de progression pour la journée en cours.
 
    ![](assets/progress-mouse-over-alignment-chart-350x163.png)
 
-   Les informations suivantes s’affichent :
+   Les informations suivantes s’affichent :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -175,25 +175,25 @@ Ou
     <tbody> 
      <tr> 
       <td role="rowheader">À partir d’aujourd’hui</td> 
-      <td>L’état de progression est toujours à jour. </td> 
+      <td>Le statut de la progression est toujours à jour. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Réel</span> </td> 
-      <td>La progression réelle (un pourcentage) de l'objectif par date courante calculée en prenant en compte tous les indicateurs de progression de l'objectif. Les indicateurs de progression de l’objectif sont les objectifs, les activités et les résultats harmonisés. </td> 
+      <td role="rowheader"><span>En cours</span> </td> 
+      <td>Progression en cours (un pourcentage) de l’objectif à la date actuelle calculée en prenant en compte tous les indicateurs de progression de l’objectif. Les indicateurs de progression des objectifs sont des objectifs, des activités et des résultats alignés. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Attendu</td> 
-      <td> <p>Progression attendue (un pourcentage) de l’objectif d’ici la date actuelle, en supposant que vous atteindriez l’objectif à temps.</p> </td> 
+      <td> <p>Progression attendue (un pourcentage) de l’objectif à la date actuelle, en supposant que vous atteindrez l’objectif dans les délais.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Cliquez sur une carte d’objectif pour ouvrir la page d’objectif. Pour plus d’informations sur la modification des objectifs existants, voir [Modifier les objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/edit-goals.md). Pour plus d’informations sur la mise à jour de la progression des objectifs, voir [Mise à jour de la progression de l’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+1. Cliquez sur une carte d’objectif pour ouvrir la page d’objectif. Pour plus d’informations sur la modification d’objectifs existants, voir [Modifier des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/edit-goals.md). Pour plus d’informations sur la mise à jour de la progression des objectifs, voir [Mettre à jour la progression de l’objectif dans Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
-1. Cliquez sur la flèche pointant vers le haut de l&#39;objectif de niveau actuel pour revenir au niveau précédent dans la hiérarchie du graphique.
+1. Cliquez sur la flèche pointant vers le haut de l’objectif de niveau actuel pour revenir au niveau précédent dans la hiérarchie du graphique.
 
    Ou
 
-   (Facultatif) Cliquez sur **Quitter la hiérarchie d’objectif** pour afficher les cartes de tous les objectifs correspondant au filtre actuel, sans afficher leur connexion entre eux.
+   (Facultatif) Cliquez sur **Quitter la hiérarchie des objectifs** pour afficher les cartes de tous les objectifs correspondant au filtre actuel, sans afficher leur connexion entre eux.
 
 

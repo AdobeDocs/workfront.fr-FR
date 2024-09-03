@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-documents
-title: Résumé de la vue d’ensemble des documents
-description: Le résumé vous permet d’interagir avec des informations importantes directement depuis la liste des documents.
+title: Vue d’ensemble du résumé des documents
+description: Le résumé permet d’interagir avec des informations importantes, directement depuis la liste des documents.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
@@ -31,8 +31,8 @@ Vous devez disposer des éléments suivants :
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p> N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
@@ -41,7 +41,7 @@ Vous devez disposer des éléments suivants :
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès en modification aux documents</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -51,20 +51,20 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ouvrir la vue Résumé
 
 1. Accédez à la zone **Documents** et sélectionnez un élément dans la liste.
 1. Cliquez sur l’**icône Ouvrir le résumé** ![](assets/qs-summary-in-new-toolbar-small.png).
 
-   Une fois le résumé ouvert, il reste ouvert lorsque vous cliquez sur d’autres documents et jusqu’à sa fermeture manuelle.
+   Une fois le résumé ouvert, il reste ouvert lorsque vous cliquez sur d’autres documents, et ce jusqu’à sa fermeture manuelle.
 
    ![](assets/summary-details-350x585.png)
 
 ## Détails
 
-Utilisez la section Détails pour afficher des informations de vue d’ensemble générales et interagir avec des formulaires personnalisés. Cliquez sur **Détails** en haut de la section pour accéder à la page Détails du document.
+Utilisez la section Détails pour afficher des informations de vue d’ensemble générales et interagir avec des formulaires personnalisés. Cliquez sur **Détails** en haut de la section pour accéder à la page complète des Détails du document.
 
 * [Vue d’ensemble](#overview)
 * [Formulaires personnalisés](#custom-forms)
@@ -73,13 +73,13 @@ Utilisez la section Détails pour afficher des informations de vue d’ensemble 
 
 ### Vue d’ensemble {#overview}
 
-Développez la section Vue d’ensemble pour afficher ou télécharger une miniature d’image, ouvrir une épreuve, mettre à jour la description de base, vérifier le document, etc.
+Développez la section Vue d’ensemble pour afficher ou télécharger une image miniature, ouvrir une épreuve, mettre à jour la description de base, vérifier le document, etc.
 
 ![](assets/copy-of-doc-summary-with-overview-350x560.png)
 
 ### Formulaires personnalisés {#custom-forms}
 
-Utilisez la section Formulaires personnalisés pour ajouter, modifier ou afficher tout formulaire personnalisé associé au document. Commencez à saisir le nom du formulaire personnalisé pour l’ajouter au document. Pour plus d’informations, voir [Ajouter ou modifier un formulaire personnalisé à un document](../../documents/managing-documents/add-custom-form-documents.md).
+Utilisez la section Formulaires personnalisés pour ajouter, modifier ou afficher tout formulaire personnalisé associé au document. Commencez à saisir le nom du formulaire personnalisé pour l’ajouter au document. Pour plus d’informations, voir la section [Ajouter ou modifier un formulaire personnalisé à un document](../../documents/managing-documents/add-custom-form-documents.md).
 
 ![](assets/add-custom-form-doc-summary-350x265.png)
 
@@ -91,23 +91,23 @@ Utilisez la section Mises à jour pour lire une mise à jour effectuée sur le d
 
 ## Approbations
 
-Utilisez la section Approbations pour demander l’approbation du document. Vous pouvez également rappeler une approbation à une personne, la soumettre à nouveau et annuler la décision précédente, ou supprimer l’approbation. Les approbateurs et approbatrices de document peuvent utiliser le résumé pour prendre une décision.
+Utilisez la section Approbations pour demander l’approbation d’un document. Vous pouvez également rappeler à une personne d’effectuer une approbation, soumettre l’approbation à nouveau et annuler la décision précédente, ou supprimer l’approbation. Les approbateurs et approbatrices de document peuvent utiliser le résumé pour prendre une décision.
 
-Les approbations d’épreuve doivent être ajoutées dans le workflow de l’épreuve. Pour plus d’informations sur les approbations, voir
+Les approbations d’épreuves doivent être ajoutées dans le workflow des épreuves. Pour plus d’informations sur les approbations, voir
 
-* [Approuver du travail](../../review-and-approve-work/manage-approvals/approving-work.md)
+* [Approuver le travail](../../review-and-approve-work/manage-approvals/approving-work.md).
 * [Demander l’approbation de documents](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versions
 
-Utilisez la section Versions pour afficher le nombre de versions créées pour un document spécifique. Cliquez sur le **menu Plus** pour :
+Utilisez la section Versions pour afficher le nombre de versions créées pour un document spécifique. Cliquez sur le **menu Plus** pour
 
-* ouvrir une épreuve ;
-* télécharger une épreuve ou d’un document ;
-* prévisualiser un document pris en charge par le navigateur ;
-* accéder à Détails du document ;
-* supprimer une épreuve ou un document.
+* Ouvrir une épreuve
+* Télécharger une épreuve ou un document
+* Prévisualiser un document pris en charge par le navigateur
+* Accéder aux Détails du document
+* Supprimer une épreuve ou un document
 
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

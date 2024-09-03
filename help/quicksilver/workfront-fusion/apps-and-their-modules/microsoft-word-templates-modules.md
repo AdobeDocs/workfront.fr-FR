@@ -3,10 +3,10 @@ filename: microsoft-word-templates-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: Connecteur
+keywords: connecteur
 navigation-topic: apps-and-their-modules
 title: Modules de modèle Microsoft Word
-description: Dans un scénario Adobe Workfront Fusion, vous pouvez automatiser les workflows qui utilisent des modèles Microsoft Word et le connecter à plusieurs applications et services tiers.
+description: Dans un scénario d’Adobe Workfront Fusion, vous pouvez automatiser les workflows qui utilisent des modèles Microsoft Word et les connecter à plusieurs applications et services tiers.
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
@@ -19,23 +19,23 @@ ht-degree: 98%
 
 # Modules [!DNL Microsoft Word Template]
 
-Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Microsoft Word Templates] et les connecter à plusieurs applications et services tiers.
+Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Microsoft Word Templates] et le connecter à plusieurs applications et services tiers.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, consultez [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Pour plus d’informations sur les modules, consultez [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Pour plus d’informations sur les modules, voir [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
-  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td>
+  <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
@@ -60,9 +60,9 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
  </tbody> 
 </table>
 
-Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
@@ -104,7 +104,7 @@ Un modèle [!DNL Microsoft Word] est un document [!DNL Microsoft Word] normal (f
 
 Une balise de valeur simple est simplement remplacée par une valeur correspondante. Le nom de la balise correspond à la valeur du champ [!UICONTROL Clé], qui est placée à l’intérieur d’accolades doubles ; par exemple, `{{name}}`.
 
-**Exemple :** pour créer un document qui indique « Hi, Petr! » (Bonjour, Petr !), vous pouvez utiliser un module [!DNL Microsoft Word Template] pour créer le modèle suivant :
+**Exemple :** pour créer un document qui indique « Bonjour, Petr ! », vous pouvez utiliser un module [!DNL Microsoft Word Template] pour créer le modèle suivant :
 
 ```
 > Hi {{name}}!
@@ -204,15 +204,15 @@ Ce module du transformateur permet de remplir un document avec les données indi
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start delimiter of the text being replaced]</td> 
-   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer au début du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>saisissez <code>[[</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer au début du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Entrée<code>[[</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL End delimiter of the text being replaced]</p> </td> 
-   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer à la fin du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>saisissez <code>]]</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer la fin du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>saisissez <code>]]</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p> Mappez le fichier que vous souhaitez charger à partir du module précédent (par exemple, HTTP &gt; Obtenir un fichier ou Dropbox &gt; Obtenir un module de fichier). Vous pouvez également saisir le fichier de données manuellement.</p> </td> 
+   <td> <p> Mappez le fichier que vous souhaitez charger à partir du module précédent (par exemple, HTTP &gt; Obtenir un fichier ou un Dropbox &gt; Obtenir un module de fichier). Vous pouvez également saisir le fichier de données manuellement.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name of filled out file]</td> 
@@ -227,9 +227,9 @@ Ce module du transformateur permet de remplir un document avec les données indi
    <td> <p>Il doit s’agir d’un tableau de collections dans lequel :</p> 
     <ul> 
      <li>chaque collection correspond à une entrée de données et contient un élément ; <code>entry</code></li> 
-     <li>l’élément <code>entry </code> contient une collection du <code>key </code> ; et <code>value</code></li> 
-     <li>l’élément <code>key </code> contient le nom de la balise ;</li> 
-     <li>l’élément <code>value </code> contient la valeur de la balise.</li> 
+     <li>L’élément <code>entry </code> contient une collection du <code>key </code> et <code>value</code></li> 
+     <li>l’élément <code>key </code> contient le nom de la balise.</li> 
+     <li>L’élément <code>value </code> contient la valeur de la balise.</li> 
     </ul> 
     <p>Pour ajouter une entrée :</p>
     <ol> 
@@ -266,11 +266,11 @@ Ce module d’agrégation est particulièrement utile pour la création de liste
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start delimiter of the text being replaced]</td> 
-   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer au début du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>saisissez <code>[[</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer au début du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Entrée<code>[[</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL End delimiter of the text being replaced]</p> </td> 
-   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer à la fin du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>saisissez <code>]]</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer la fin du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Saisissez <code>]]</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group by]</td> 
@@ -278,11 +278,11 @@ Ce module d’agrégation est particulièrement utile pour la création de liste
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Stop processing after an empty aggregation]</td> 
-   <td>Activez cette option pour arrêter le traitement lorsqu’une agrégation ne contient aucun lot.</td> 
+   <td>Activez cette option pour arrêter le traitement lorsqu’une agrégation ne contient aucun bundle.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p> Mappez le fichier que vous souhaitez charger à partir du module précédent (par exemple, HTTP &gt; Obtenir un fichier ou Dropbox &gt; Obtenir un module de fichier). Vous pouvez également saisir le fichier de données manuellement.</p> </td> 
+   <td> <p> Mappez le fichier que vous souhaitez charger à partir du module précédent (par exemple, HTTP &gt; Obtenir un fichier ou un Dropbox &gt; Obtenir un module de fichier). Vous pouvez également saisir le fichier de données manuellement.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name of filled out file]</td> 
@@ -297,9 +297,9 @@ Ce module d’agrégation est particulièrement utile pour la création de liste
    <td> <p>Il doit s’agir d’un tableau de collections dans lequel :</p> 
     <ul> 
      <li>chaque collection correspond à une entrée de données et contient un élément ; <code>entry</code></li> 
-     <li>l’élément <code>entry </code> contient une collection du <code>key </code> ; et <code>value</code></li> 
-     <li>l’élément <code>key </code> contient le nom de la balise ;</li> 
-     <li>l’élément <code>value </code> contient la valeur de la balise.</li> 
+     <li>L’élément <code>entry </code> contient une collection du <code>key </code> et <code>value</code></li> 
+     <li>l’élément <code>key </code> contient le nom de la balise.</li> 
+     <li>L’élément <code>value </code> contient la valeur de la balise.</li> 
     </ul> 
     <p>Pour ajouter une entrée :</p>
     <ol> 

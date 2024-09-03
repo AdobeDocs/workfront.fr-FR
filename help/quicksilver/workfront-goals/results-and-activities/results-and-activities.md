@@ -33,7 +33,7 @@ ht-degree: 95%
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
 > 
->Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditions requises pour utiliser Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Pour enregistrer la progression par rapport aux Objectifs Workfront, vous devez associer des indicateurs de progression aux objectifs. Outre les résultats et les activités, vous pouvez également associer des projets ou des objectifs enfant à un objectif pour enregistrer une progression.
 

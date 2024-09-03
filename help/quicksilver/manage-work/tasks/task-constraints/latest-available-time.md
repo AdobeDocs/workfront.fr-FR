@@ -2,29 +2,29 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Présentation de la contrainte de tâche : heure disponible la plus récente"
-description: La dernière heure disponible (LAT) est un type de contrainte de tâche dans Adobe Workfront.
+title: '« Vue d’ensemble de la contrainte de tâche : Dernière Heure Disponible »'
+description: La Dernière Heure Disponible (LAT) est un type de contrainte de tâche dans Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
 source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Vue d’ensemble des contraintes de tâches : Dernière Heure Disponible
+# Vue d’ensemble de la contrainte de tâche : Dernière Heure Disponible
 
-La dernière heure disponible (LAT) est un type de contrainte de tâche dans Adobe Workfront.
+La Dernière Heure Disponible (LAT) est un type de contrainte de tâche dans Adobe Workfront.
 
-## Utilisation de la dernière contrainte de tâche de temps disponible
+## Utiliser la contrainte de tâche Dernière Heure Disponible
 
-Vous pouvez utiliser la contrainte LAT lorsque vous souhaitez planifier le début d’une tâche au dernier moment disponible après avoir pris en compte les relations entre le prédécesseur et le successeur dans le projet.
+Vous pouvez utiliser la contrainte LAT lorsque vous souhaitez planifier le début d’une tâche à la dernière heure disponible après avoir pris en compte les relations antérieure et ultérieure dans le projet.
 
-Cette contrainte diffère dès que possible du fait qu’elle ne forcera pas les prédécesseurs ou les successeurs à être reprogrammés. En revanche, elle n’affecte que le planning de la tâche à laquelle elle est associée, en la définissant sur l’heure disponible la plus récente en fonction de sa relation avec d’autres tâches.
+Cette contrainte diffère d’Aussi Tôt Que Possible du fait qu’elle ne force pas à changer la planification des tâches antérieures ou ultérieures. En effet, elle n’affecte que le planning de la tâche à laquelle elle est associée, en la définissant sur la dernière heure disponible en fonction de sa relation avec d’autres tâches.
 
-Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mise à jour de la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Pour plus d’informations sur la mise à jour de la contrainte de tâche, voir [Mettre à jour la contrainte de tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -40,29 +40,29 @@ Pour plus d’informations sur la mise à jour de la contrainte de tâche sur un
 </div>
 -->
 
-## Différence entre la dernière heure disponible et aussi tardive que possible
+## La différence entre Dernière Heure Disponible et Aussi Tard Que Possible
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "As Late As Possible"] - inserted snippet in both (Alina)) </p>
 -->
 
-La dernière contrainte Heure disponible diffère de la contrainte Dès que possible lorsqu’il existe les critères suivants :
+La contrainte Dernière Heure Disponible est différente de la contrainte Aussi Tard Que Possible lorsque les critères suivants s’appliquent :
 
-* Le projet est planifié à partir de la date de début
-* Les tâches du projet ont une relation de prédécesseur
-* La tâche qui lui succède présente une contrainte de tâche flexible.
+* Le projet est planifié à partir de la date de début.
+* Les tâches du projet ont une relation antérieure.
+* La tâche utlérieure présente une contrainte de tâche flexible.
 
-Dans ce cas :
+Dans ce cas :
 
-* **Dernière heure disponible :** L’utilisation de la dernière contrainte de temps disponible sur la tâche du prédécesseur donne la priorité à la contrainte flexible du successeur.
+* **Dernière Heure Disponible :** l’utilisation de la contrainte Dernière Heure Disponible sur la tâche antérieure donne la priorité à la contrainte flexible de la tâche ultérieure.
 
-  **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la contrainte de temps disponible la plus récente et la tâche B a la contrainte de temps aussi tôt que possible. Dans ce cas, la tâche A est planifiée aussi près que possible du début du projet.
+  **Exemple :** par exemple, la tâche A est antérieure à la tâche B. La tâche A a la contrainte Dernière Heure Disponible et la tâche B la contrainte Aussi Tôt Que Possible. Dans ce cas, la tâche A est planifiée aussi près que possible du début du projet.
 
   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **Aussi tard que possible :** Dans ce scénario, l’utilisation de la contrainte Aussi tard que possible sur la tâche du prédécesseur donne la priorité à la tâche du prédécesseur.
+* **Aussi Tard Que Possible :** dans ce scénario, l’utilisation de la contrainte Aussi Tard Que Possible sur la tâche antérieure donne la priorité à la tâche antérieure.
 
-  **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la contrainte Aussi tardive que possible et la tâche B la contrainte Dès que possible. Dans ce cas, la tâche A est planifiée aussi près que possible de la fin du projet.
+  **Exemple :** par exemple, la tâche A est antérieure à la tâche B. La tâche A a la contrainte Aussi Tard Que Possible et la tâche B la contrainte Aussi Tôt Que Possible. Dans ce cas, la tâche A est planifiée aussi près que possible de la fin du projet.
 
   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 

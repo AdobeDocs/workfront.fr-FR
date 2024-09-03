@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: Fermez votre compte BAT [!DNL Workfront]
+title: Fermer votre compte  [!DNL Workfront]  Proof
 description: Une fois les étapes de cette section effectuées, votre compte sera fermé immédiatement. Toutes les données de votre compte seront supprimées et ne pourront pas être restaurées.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -10,25 +10,25 @@ exl-id: df19f99b-974d-47ad-87ba-79775cb08a4d
 source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Fermez votre compte [!DNL Workfront Proof]
+# Fermer votre compte [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Une fois les étapes de cette section effectuées, votre compte sera fermé immédiatement. Toutes les données de votre compte seront supprimées et ne pourront pas être restaurées.
 
-Nous essayons continuellement d&#39;améliorer notre produit. Si vous souhaitez fermer votre compte, nous vous serions reconnaissants de bien vouloir prendre quelques minutes et nous faire savoir comment nous pouvons nous améliorer.
+Nous essayons continuellement d’améliorer notre produit. Si vous souhaitez fermer votre compte, nous vous serions reconnaissants de bien vouloir prendre quelques minutes et nous faire savoir comment nous pouvons nous améliorer.
 
-Vous pouvez nous contacter à l’adresse [!DNL support@proofhq.com] avec vos commentaires ; tous les commentaires sont les bienvenus.
+Vous pouvez nous contacter via [!DNL support@proofhq.com] avec vos commentaires ; tout retour d’expérience est le bienvenu.
 
-1. Ouvrez la page [!UICONTROL Facturation] de votre compte en ouvrant le menu [!UICONTROL Paramètres] et en choisissant **[!UICONTROL Facturation]** (1).
+1. Ouvrez la page [!UICONTROL Facturation] dans votre compte. Pour ce faire, ouvrez le menu [!UICONTROL Paramètres] et sélectionnez **[!UICONTROL Facturation]** (1).
 
-   Pour plus d’informations sur la page Facturation, voir [La [!DNL Workfront] page de facturation du BAT](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   Pour plus d’informations sur la page de facturation, consultez la section [Page de facturation de  [!DNL Workfront]  Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
    ![](assets/upgradesdowngrades-billing-settings-350x168.png)
 

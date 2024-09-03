@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Accéder à une épreuve partagée avec vous
-description: Lorsque vous recevez un courrier électronique au sujet d’un BAT, il contient une URL personnelle pour accéder au BAT. Pour plus d’informations, voir la section Email d’un nouveau BAT.
+description: Lorsque vous recevez un e-mail concernant une épreuve, celui-ci contient une URL personnelle permettant d’accéder à l’épreuve. Pour plus d’informations, voir Nouvel e-mail d’épreuve.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 901013f2-833f-4f6b-921c-eddd4f063247
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
@@ -18,29 +18,29 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront] BAT. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront] Proof. Pour plus d’informations sur la relecture à l’intérieur d’[!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-Lorsque vous recevez un courrier électronique au sujet d’un BAT, il contient une URL personnelle pour accéder au BAT. Pour plus d’informations, voir [New BAT email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+Lorsque vous recevez un e-mail concernant une épreuve, celui-ci contient une URL personnelle permettant d’accéder à l’épreuve. Pour plus d’informations, voir [Nouvel e-mail d’épreuve](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
 >[!CAUTION]
 >
->L&#39;URL de l&#39;email vous est personnelle et vous ouvrira le BAT en indiquant que vous avez déjà été identifié comme validant. Il est important de ne pas transférer l’URL à d’autres personnes ; si vous le faites, les commentaires ou décisions qu’elles prennent seront à votre nom. Si vous souhaitez que quelqu’un d’autre consulte le BAT et que vous avez l’autorisation de le faire, utilisez la fonctionnalité de partage de BAT décrite dans [Partager un BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md). Pour plus d’informations sur les autorisations de BAT, voir [Partager un document](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md) ou, si vous utilisez [!DNL Workfront Proof], voir [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+>L’URL de l’e-mail vous est personnelle et ouvrira l’épreuve en vous identifiant au préalable comme personne chargée de la révision. Veillez à ne pas transmettre l’URL à d’autres personnes. Les commentaires ou les décisions qu’elles effectuaient seraient à votre nom. Si vous souhaitez qu’une autre personne puisse consulter l’épreuve et que vous avez l’autorisation adaptée, utilisez la fonctionnalité de partage d’épreuve expliquée dans [Partager une épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md). Pour plus d’informations sur les autorisations d’épreuve, voir [Partager un document](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md), ou, si vous utilisez [!DNL Workfront Proof], voir [Profils d’autorisations d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 >
->Si le partage du BAT est activé sur le BAT, vous pouvez également laisser quelqu’un d’autre afficher le BAT en partageant l’URL du BAT à partir de la visionneuse de BAT ou à partir du lien [!UICONTROL Partager ce BAT avec quelqu’un d’autre] de l’e-mail New BAT).
+>Si le partage des épreuves est activé sur l’épreuve, vous pouvez également permettre à d’autres personnes de la consulter en partageant son URL via la visionneuse de relecture ou le lien [!UICONTROL Partager cette épreuve avec une autre personne] dans votre nouvel e-mail d’épreuve.
 
-Tenez compte des points suivants au sujet des bons à tirer partagés :
+Tenez compte des points suivants concernant les épreuves partagées :
 
-* Toute personne ayant une adresse email valide peut être ajoutée à un BAT. Il n’est pas nécessaire qu’ils soient un utilisateur [!DNL Workfront Proof] avec des informations de connexion.
-* Tout BAT qui a été partagé avec vous apparaîtra sur la page [!DNL Views] de votre compte. Pour plus d’informations, voir [Gestion des éléments sur la page des vues dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
-* Lorsqu’une personne partage une URL de BAT avec vous, vous pouvez accéder au BAT comme décrit dans [[!UICONTROL Partager l’URL publique dans [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
-* Vous pouvez rechercher un BAT qui a été partagé avec vous en fonction des critères suivants :
+* Toute personne disposant d’une adresse e-mail valide peut être ajoutée à une épreuve. Elle n’a pas besoin d’être un utilisateur ou une utilisatrice [!DNL Workfront Proof] et de posséder des informations de connexion.
+* Toute épreuve qui a été partagée avec vous apparaîtra sur la page [!DNL Views] de votre compte. Pour plus d’informations, voir [Gérer les éléments de la page Vues dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
+* Lorsqu’une personne partage l’URL d’une épreuve avec vous, vous pouvez y accéder comme décrit dans [[!UICONTROL Partager l’URL publique dans  [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
+* Vous pouvez rechercher toute épreuve qui vous a été communiquée en fonction des critères suivants :
 
-   * Nom de l&#39;épreuve
-   * Description (message associé à un BAT)
-   * Nom de balise (voir [Créer et gérer des balises dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md))
+   * Nom de l’épreuve
+   * Description (message associé à une épreuve)
+   * Nom de la balise (voir [Créer et gérer des balises dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md))
 
-Pour ouvrir un bon à tirer à partir d’un email que vous avez reçu :
+Pour ouvrir une épreuve via un e-mail que vous avez reçu, procédez comme suit :
 
-1. Cliquez sur **[!UICONTROL Aller au BAT]** dans l&#39;email.
+1. Cliquez sur **[!UICONTROL Accéder à l’épreuve]** dans l’e-mail.
 
-   Le BAT s’ouvre dans la visionneuse de vérification, prête à être examinée. Pour plus d’informations sur la révision du BAT, voir [Vérification d’un BAT](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
+   L’épreuve s’ouvre dans la visionneuse de relecture, prête à la révision. Pour plus d’informations sur la révision de l’épreuve, voir [Réviser une épreuve](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).

@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: create-projects
-title: Création d’un projet connecté à Frame.io
-description: Un projet est une grande unité de travail dans Adobe Workfront. Vous pouvez créer des projets à partir de zéro, utiliser un modèle ou convertir des problèmes ou des tâches en projets.
+title: Créer un projet connecté à Frame.io
+description: Un projet est une grande unité de travail dans Adobe Workfront. Vous pouvez créer des projets à partir de zéro, utiliser un modèle ou convertir des problèmes ou des tâches en projets.
 author: Courtney
 feature: Work Management
 hide: true
@@ -11,11 +11,11 @@ exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
 source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '1169'
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
-# Création d’un projet connecté à Frame.io
+# Créer un projet connecté à Frame.io
 
 L’intégration de Workfront et de Frame.io vous permet de créer des projets dans Workfront qui sont mis en miroir dans Frame.io, ce qui vous permet d’effectuer facilement des révisions et des validations.
 
@@ -41,16 +41,16 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Standard</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Modifier l’accès aux projets</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -59,7 +59,7 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +73,7 @@ Pour plus d’informations sur les conditions préalables ci-dessus, voir [Confi
 
 ## Créer un modèle de projet
 
-Lors de la création d’un modèle, vous pouvez saisir les informations pour toutes les tâches et pour les paramètres futurs du projet. Ces informations seront ensuite transférées vers tout projet que vous créez à partir du modèle.
+Lors de la création d’un modèle, vous pouvez saisir les informations pour toutes les tâches et pour les paramètres futurs du projet. Ces informations seront ensuite transférées à tout projet que vous créerez à partir du modèle.
 
 Les projets de Frame.io sont organisés par des équipes connectées aux groupes Workfront. Nous vous recommandons d’utiliser un modèle de projet pour créer des projets connectés, car vous pouvez définir le groupe de projets auparavant.
 

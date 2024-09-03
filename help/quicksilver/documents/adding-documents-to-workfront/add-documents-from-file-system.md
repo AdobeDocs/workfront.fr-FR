@@ -1,31 +1,31 @@
 ---
 product-area: documents
 navigation-topic: add-documents-to-workfront
-title: Ajouter des documents à Adobe Workfront à partir de votre système de fichiers
-description: Vous pouvez ajouter des documents à des projets, des tâches ou des problèmes dans plusieurs zones d’Adobe Workfront.
+title: Ajouter des documents à Adobe Workfront à partir de votre système de fichiers
+description: Vous pouvez ajouter des documents à des projets, des tâches ou des problèmes dans plusieurs zones d’Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 source-git-commit: 8687e92ffed08e87fcb8c22816fd86bafa7f9e7a
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Ajouter des documents à Adobe Workfront à partir de votre système de fichiers
+# Ajouter des documents à Adobe Workfront à partir de votre système de fichiers
 
-Vous pouvez ajouter des documents à des projets, à des tâches ou à des problèmes dans les zones suivantes d’Adobe Workfront :
+Vous pouvez ajouter des documents à des projets, des tâches ou des problèmes dans les zones suivantes d’Adobe Workfront :
 
 * La zone Documents globale
 * La zone Documents pour un objet Workfront
-* La carte connectée sur un panorama Workfront
+* Une carte connectée sur un panorama Workfront
 
-Vous pouvez également charger de nouvelles versions de documents et ajouter des liens vers des documents provenant de fournisseurs cloud tiers, tels que Google Drive, Dropbox et Microsoft OneDrive. Pour plus d’informations sur l’ajout de nouvelles versions de documents, voir [Charger une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md). Pour plus d’informations sur l’ajout de documents à partir de fournisseurs cloud tiers, voir [Lier des documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Vous pouvez également charger de nouvelles versions de documents et ajouter des liens vers des documents provenant de fournisseurs de cloud tiers, tels que Google Drive, Dropbox et Microsoft OneDrive. Pour plus d’informations sur l’ajout de nouvelles versions de documents, voir [Charger une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md). Pour plus d’informations sur l’ajout de documents provenant de fournisseurs de cloud tiers, voir [Lier des documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-Il n’existe aucune restriction quant aux types et tailles de fichiers que vous pouvez charger dans Workfront. Toutefois, pour garantir la réussite de l’opération, le chargement doit être terminé dans les cinq minutes et vous devez disposer d’un espace de stockage suffisant.
+Il n’y a aucune restriction sur les types et les tailles de fichiers que vous pouvez charger sur Workfront. Toutefois, pour une opération réussie, le chargement doit être effectué en moins de cinq minutes et vous devez disposer d’un espace de stockage adéquat.
 
-Si vous avez besoin d’informations sur le chargement de nouvelles versions d’un document dans Workfront, reportez-vous à la section [Charger une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md).
+Pour plus d’informations sur le chargement de nouvelles versions d’un document dans Workfront, voir [Charger une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Conditions d’accès
 
@@ -38,42 +38,42 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p> N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
    <td> <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès en modification aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 +++
 
 ## Ajouter des documents à Workfront
 
-Vous pouvez ajouter de nouveaux documents à Workfront à partir du système de fichiers de votre poste de travail. Vous pouvez également lier des documents à partir d’applications tierces telles que Google Drive et SharePoint.
+Vous pouvez ajouter de nouveaux documents à Workfront à partir du système de fichiers de votre poste de travail. Vous pouvez également lier des documents provenant d’applications tierces telles que Google Drive et SharePoint.
 
 >[!IMPORTANT]
 >
->* Vous pouvez charger jusqu’à 150 documents à la fois.
+>* Vous pouvez charger jusqu’à 150 documents à la fois.
 >* La taille du fichier n’est pas limitée.
->* Les téléchargements de documents sont limités à 4 Go.
+>* Les téléchargements de documents sont limités à 4 Go.
 
-Pour ajouter un fichier, procédez comme suit :
+Pour ajouter un document
 
-1. Accédez au projet, à la tâche ou au problème auquel vous souhaitez ajouter un nouveau document.
+1. Accédez au projet, à la tâche ou au problème auquel vous souhaitez ajouter un document.
 1. Cliquez sur l’onglet **Documents**, puis sur le menu déroulant **Ajouter**.
 
    ![](assets/add-new-doc.png)
 
-1. Selon le type de document à ajouter, effectuez l’une des opérations suivantes :
+1. Selon le type de document que vous souhaitez ajouter, effectuez l’une des opérations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -84,26 +84,26 @@ Pour ajouter un fichier, procédez comme suit :
       <td> 
        <ol> 
         <li value="1">Dans le menu déroulant <strong>Ajouter</strong>, sélectionnez <strong>Document.</strong></li> 
-        <li value="2"> <p>Recherchez et sélectionnez le document à ajouter à partir du système de fichiers de votre poste de travail.<br></p> <p>Vous pouvez sélectionner plusieurs documents en appuyant sur la touche Maj lorsque vous sélectionnez des fichiers supplémentaires.</p> </li> 
-        <li value="3">Cliquez sur <strong>Ouvrir</strong>.</li> 
+        <li value="2"> <p>Recherchez et sélectionnez le document que vous souhaitez ajouter dans le système de fichiers de votre poste de travail.<br></p> <p>Vous pouvez sélectionner plusieurs documents en appuyant sur la touche Maj lorsque vous sélectionnez des fichiers supplémentaires.</p> </li> 
+        <li value="3">Cliquez sur <strong>Ouvrir</strong>.</li> 
        </ol> 
-       <p><b>NOTE</b> : vous pouvez également faire glisser des fichiers directement depuis votre gestionnaire de fichiers vers la liste de documents.</td> 
+       <p><b>NOTE</b> : vous pouvez également faire glisser et déposer des fichiers directement depuis votre gestionnaire de fichiers dans la liste des documents.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Télécharger des documents à partir d’une application tierce, telle que Google Drive ou SharePoint</td> 
+      <td role="rowheader">Charger des documents à partir d’une application tierce telle que Google Drive ou SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Dans le menu déroulant <strong>Ajouter</strong>, sélectionnez <strong>De &lt;nom_de_l_application_tierce&gt;</strong>.</p> <p>Par exemple, pour charger un document à partir de Google Drive, cliquez sur <strong>Sous Google Drive</strong>.</p> </li> 
-        <li value="2"> <p>Suivez les invites pour sélectionner le document dans l’application tierce.<br></p> <p>Pour plus d’informations sur les documents liés, voir <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Lier des documents à partir d’applications externes</a>.</p> </li> 
+        <li value="1"> <p>Dans le menu déroulant <strong>Ajouter</strong>, sélectionnez <strong>Depuis &lt;name_of_third-party_application&gt;</strong>.</p> <p>Par exemple, pour charger un document de Google Drive, cliquez sur <strong>Depuis Google Drive</strong>.</p> </li> 
+        <li value="2"> <p>Suivez les instructions pour sélectionner le document dans l’application tierce.<br></p> <p>Pour plus d’informations sur les documents liés, voir <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Lier des documents à partir d’applications externes</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Demander un document auprès d’une personne dans Workfront</td> 
+      <td role="rowheader">Demander un document à un autre utilisateur ou une autre utilisatrice Workfront</td> 
       <td> 
        <ol> 
         <li value="1">Dans le menu déroulant <strong>Ajouter</strong>, sélectionnez <strong>Demander un document</strong>.</li> 
         <li value="2">Dans la zone <strong>À qui faites-vous la demande</strong>, tapez le nom de l’utilisateur ou de l’utilisatrice à qui vous demandez le document.</li> 
-        <li value="3">Dans la zone <strong>À qui faites-vous la demande</strong>, tapez le nom de l’utilisateur ou de l’utilisatrice à qui vous demandez le document.</li> 
+        <li value="3">Dans la zone <strong>Expliquez votre demande</strong>, tapez le nom du document.</li> 
         <li value="4"> <p>Cliquez sur <strong>Envoyer la demande</strong>.</p> <p>Votre demande s’affiche dans votre onglet Documents.</p> <p>Pour plus d’informations sur la demande de documents, voir <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Demander un document</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -121,12 +121,12 @@ Le site Workfront empêche les virus et autres contenus malveillants de pénétr
 
 L’analyse des documents n’est possible pour votre organisation que sur demande.
 
-Si l’analyse des documents est activée, les fichiers de moins de 25 Mo sont analysés lorsqu’ils sont chargés. Les fichiers de plus de 25 Mo ne sont pas analysés.
+Si l’analyse des documents est activée, les fichiers de moins de 25 Mo sont analysés lorsqu’ils sont téléchargés. Les fichiers de plus de 25 Mo ne sont pas analysés.
 
-Si Workfront détecte un document corrompu, le processus de chargement est interrompu et un message s’affiche pour indiquer que le fichier est corrompu. Vous recevez également une notification par e-mail lorsque Workfront détecte un contenu potentiellement malveillant et que le fichier doit être supprimé.
+Si Workfront détecte un document corrompu, le processus de téléchargement est interrompu et un message s’affiche pour indiquer que le fichier est corrompu. Vous recevez également une notification par e-mail lorsque Workfront détecte un contenu potentiellement malveillant et que le fichier doit être supprimé.
 
 Les fichiers corrompus sont supprimés dans les 24 heures suivant leur détection, sauf si vous les supprimez manuellement. Si vous supprimez un fichier corrompu, Workfront suit cette action comme une mise à jour. Si vous autorisez Workfront à le supprimer, aucune mise à jour n’est enregistrée.
 
 ### Restrictions sur les noms de fichiers {#file-name-restrictions}
 
-Certains caractères ne peuvent pas figurer dans le nom des fichiers chargés vers Workfront. Si le nom d’un fichier contient l’un des caractères suivants, ces caractères sont supprimés du nom du fichier lorsque celui-ci est chargé : `! # % * \ | ' " / ? < > { } [ ]`.
+Certains caractères ne peuvent pas figurer dans le nom des fichiers téléchargés vers Workfront. Si le nom d’un fichier contient l’un des caractères suivants, ces caractères sont supprimés du nom du fichier lorsque celui-ci est téléchargé : `! # % * \ | ' " / ? < > { } [ ]`.

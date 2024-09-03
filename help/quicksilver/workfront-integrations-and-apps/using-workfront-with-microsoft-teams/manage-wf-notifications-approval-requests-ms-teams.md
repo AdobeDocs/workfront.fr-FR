@@ -1,44 +1,44 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Gérer les  [!DNL Adobe Workfront] notifications dans les  [!DNL Microsoft] équipes
-description: Vous pouvez recevoir des notifications de  [!DNL Adobe Workfront]  sur les éléments à approuver, les affectations qui vous ont été données ou les commentaires et modifications des éléments auxquels vous êtes associé.
+title: Gérer les notifications  [!DNL Adobe Workfront]  dans  [!DNL Microsoft]  Teams
+description: Vous pouvez recevoir des notifications d’ [!DNL Adobe Workfront]  concernant les éléments que vous devez approuver, les affectations que vous avez reçues ou les commentaires et modifications apportés aux éléments auxquels vous vous associez.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
 source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
 source-wordcount: '1351'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-# Gérer [!DNL Adobe Workfront] notifications dans [!DNL Microsoft Teams]
+# Gérer les notifications [!DNL Adobe Workfront] dans [!DNL Microsoft Teams]
 
 >[!NOTE]
 >
->L’intégration d’Adobe Workfront for Microsoft Teams n’est actuellement prise en charge que pour l’expérience de Microsofts Teams classiques.
+>L’intégration d’Adobe Workfront à Microsoft Teams n’est actuellement prise en charge que pour l’expérience Microsoft Teams classique.
 
-Vous pouvez recevoir des notifications de [!DNL Adobe Workfront] sur les éléments à approuver, les affectations qui vous ont été données ou les commentaires et modifications des éléments auxquels vous êtes associé.
+Vous pouvez recevoir des notifications d’[!DNL Adobe Workfront] concernant les éléments que vous devez approuver, les affectations que vous avez reçues ou les commentaires et modifications apportés aux éléments auxquels vous vous associez.
 
-Ces notifications contiennent des actions [!DNL Workfront] que vous pouvez effectuer dans [!DNL Microsoft Teams] sans quitter [!DNL Microsoft Teams] pour les accomplir.
+Ces notifications incluent les actions [!DNL Workfront] que vous pouvez effectuer dans [!DNL Microsoft Teams], sans devoir quitter [!DNL Microsoft Teams] pour les accomplir.
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] ne prend plus en charge [!DNL Internet Explorer]. Pour utiliser le [!DNL Adobe Workfront for Microsoft Teams integration], vous devez utiliser un navigateur web autre que [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] ne prend plus en charge [!DNL Internet Explorer]. Pour utiliser [!DNL Adobe Workfront for Microsoft Teams integration], vous devez utiliser un navigateur web autre qu’[!DNL Internet Explorer].
 
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
@@ -47,35 +47,35 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez l’administration [!DNL Workfront].
 
-## Conditions préalables pour la réception de notifications [!DNL Workfront] dans [!DNL Microsoft Teams]
+## Conditions préalables à la réception de notifications [!DNL Workfront] dans [!DNL Microsoft Teams]
 
-Vous pouvez recevoir [!DNL Workfront] notifications dans [!DNL Microsoft Teams] si les conditions suivantes sont remplies :
+Pour recevoir des notifications [!DNL Workfront] dans [!DNL Microsoft Teams], vous devez remplir les conditions suivantes :
 
-* Un propriétaire d’équipe a installé et configuré [!DNL Workfront for Microsoft Teams] pour votre équipe.
-* Vous êtes connecté à [!DNL Workfront] à partir de [!DNL Microsoft Teams].
-* Vous avez activé les notifications instantanées dans [!DNL Workfront]. Pour plus d’informations sur l’activation des notifications instantanées, voir [Modification de vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Une personne propriétaire d’équipe a installé et configuré [!DNL Workfront for Microsoft Teams] pour votre équipe.
+* Votre équipe est connectée à [!DNL Workfront] dans [!DNL Microsoft Teams].
+* Vous avez activé les notifications instantanées dans [!DNL Workfront]. Pour plus d’informations sur l’activation des notifications instantanées, consultez la section [Modifier vos propres notifications par e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Pour plus d&#39;informations sur l&#39;installation de [!DNL Workfront for Microsoft Teams] et la connexion à [!DNL Workfront from Microsoft Teams], voir [Installation [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Pour plus d’informations sur l’installation de [!DNL Workfront for Microsoft Teams] et la connexion à [!DNL Workfront from Microsoft Teams], consultez la section [Installer [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-## Gestion des notifications [!DNL Workfront] dans [!DNL Microsoft Teams]
+## Gérer les notifications [!DNL Workfront] dans [!DNL Microsoft Teams]
 
-Lorsque l’application [!DNL Workfront for Microsoft Teams] est installée, un canal de conversation [!DNL Workfront] est créé dans [!DNL Microsoft Teams] pour chaque membre de l’équipe. Lorsqu&#39;une action spécifique est effectuée dans [!DNL Workfront], vous pouvez configurer les paramètres de [!DNL Workfront for Microsoft Teams] pour recevoir des notifications sur cette action dans le canal de conversation [!DNL Workfront] de [!DNL Microsoft Teams].
+Lorsque l’application [!DNL Workfront for Microsoft Teams] est installée, un canal de conversation [!DNL Workfront] est créé dans [!DNL Microsoft Teams] pour chaque personne membre de cette équipe. Lorsqu’une action spécifique est effectuée dans [!DNL Workfront], vous pouvez configurer les paramètres de [!DNL Workfront for Microsoft Teams] de façon à recevoir des notifications sur cette action dans le canal de conversation [!DNL Workfront] de [!DNL Microsoft Teams].
 
-Tenez compte des points suivants lorsque vous utilisez des notifications [!DNL Workfront] de [!DNL Microsoft Teams] :
+Tenez compte des points suivants lorsque vous activez les notifications [!DNL Workfront] dans [!DNL Microsoft Teams] :
 
-* Vous ne pouvez pas recevoir tous les messages, mais seulement un nombre restreint de [!DNL Workfront] notifications dans [!DNL Microsoft Teams].
-* Toutes les notifications que vous recevez de [!DNL Workfront] apparaissent dans le canal de conversation de robot [!DNL Workfront].
+* Vous ne pouvez recevoir qu’un nombre restreint de notifications [!DNL Workfront] dans [!DNL Microsoft Teams].
+* Les notifications que vous recevez de [!DNL Workfront] s’affichent dans le canal de conversation avec le robot [!DNL Workfront].
 
-  Pour plus d’informations sur l’installation du canal de robot [!DNL Workfront], reportez-vous à la section [Connexion à [!DNL Workfront] à partir de [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) dans l’article [Installation [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) .
+  Pour plus d’informations sur l’installation du canal avec le robot [!DNL Workfront], consultez la section [Se connecter à  [!DNL Workfront]  dans  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) de l’article [Installer  [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-* Un délai de 5 minutes peut s’écouler entre le moment où une mise à jour est effectuée dans [!DNL Workfront] et celui où vous recevez la notification à son sujet dans [!DNL Microsoft Teams].
-* Pour chaque notification [!DNL Microsoft Teams], vous recevez également une notification électronique.
+* Un délai de 5 minutes peut s’écouler entre le moment où une mise à jour est effectuée dans [!DNL Workfront] et la réception de la notification dans [!DNL Microsoft Teams].
+* Toute notification dans [!DNL Microsoft Teams] génère également une notification par e-mail.
 
-Pour gérer les notifications [!DNL Workfront] que vous pouvez recevoir dans [!DNL Microsoft Teams] :
+Pour gérer les notifications [!DNL Workfront] que vous pouvez recevoir dans [!DNL Microsoft Teams], procédez comme suit :
 
-1. Cliquez sur l’icône des applications **[!UICONTROL Plus ajouté]** (à trois points) dans la barre de navigation de gauche de [!DNL Microsoft Teams].
+1. Cliquez sur l’icône d’applications **[!UICONTROL Afficher d’autres applications]** (à trois points) dans la barre de navigation de gauche de [!DNL Microsoft Teams].
 
 1. Cliquez sur [!DNL Workfront] dans la liste qui s’affiche.
 1. Sélectionnez l’onglet **[!UICONTROL Paramètres]**.
@@ -84,44 +84,44 @@ Pour gérer les notifications [!DNL Workfront] que vous pouvez recevoir dans [!D
 
 1. Désactivez toutes les notifications que vous ne souhaitez pas recevoir. Vous pouvez activer ou désactiver des groupes de notifications, tels que des informations ou des notifications d’approbation, ou vous pouvez gérer les notifications individuellement.
 
-   Toutes les notifications sont activées par défaut.
+   L’option « Toutes les notifications » est activée par défaut.
 
-   Les paramètres de notification pour les équipes [!DNL Workfront for Microsoft] sont enregistrés automatiquement.
+   Les paramètres de notification pour [!DNL Workfront for Microsoft] Teams sont enregistrés automatiquement.
 
    >[!NOTE]
    >
    >Vous ne pouvez pas ajouter d’autres notifications à celles disponibles par défaut.
 
-## Réponse à [!DNL Workfront] notifications et demandes d’approbation dans [!DNL Microsoft Teams]
+## Répondre aux notifications [!DNL Workfront] et aux demandes d’approbation dans [!DNL Microsoft Teams]
 
-1. Connectez-vous à [!DNL Workfront] depuis [!DNL Microsoft Teams].\
-   Pour plus d&#39;informations sur la connexion à [!DNL Workfront], voir [Installation [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+1. Connectez-vous à [!DNL Workfront] dans [!DNL Microsoft Teams].\
+   Pour plus d’informations sur la connexion à [!DNL Workfront], consultez la section [Installer  [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-1. Accédez à la zone **[!UICONTROL Chat]** et cliquez sur le canal de robot **[!DNL Workfront]**.\
-   Ce canal est destiné à votre conversation personnelle avec le robot [!DNL Workfront]. Toutes les notifications [!DNL Workfront] s&#39;affichent ici.
-1. Selon le type de notification que vous recevez, passez à la section correspondante :
+1. Accédez à la zone **[!UICONTROL Conversation]** et cliquez sur le canal du robot **[!DNL Workfront]**.\
+   Ce canal constitue votre conversation privée avec le robot [!DNL Workfront]. Toutes les notifications [!DNL Workfront] s’affichent ici.
+1. Selon le type de notification que vous recevez, passez à la section correspondante :
 
-   * [Notifications de validation](#approval-notifications-approval-notifications)
+   * [Notifications d’approbation](#approval-notifications-approval-notifications)
    * [Notifications d’affectation](#assignment-notifications-assignment-notifications)
    * [Notifications de commentaires](#comment-notifications-comment-notifications)
-   * [Mettre à jour les notifications](#update-notifications-update-notifications)
+   * [Notifications de mise à jour](#update-notifications-update-notifications)
    * [Notifications de changement de date](#date-change-notifications-date-change-notifications)
 
-### Notifications de validation {#approval-notifications}
+### Notifications d’approbation {#approval-notifications}
 
-Vous recevez des notifications de validation lorsque vous êtes invité à valider un objet, tel qu’une tâche, une feuille de temps ou un BAT. Vous pouvez toutefois toujours commenter la notification. Depuis la notification de validation, vous pouvez effectuer les actions suivantes :
+Vous recevez des notifications d’approbation lorsque vous recevez une invitation à approuver un objet, tel qu’une tâche, une feuille de temps ou une épreuve. Toutefois, vous pouvez toujours commenter la notification. Dans la notification d’approbation, vous pouvez effectuer les actions suivantes :
 
-* **[!UICONTROL Approve]** : cliquez pour approuver l’élément.
-* **[!UICONTROL Modifier]** : cliquez pour approuver l’élément avec des modifications.
-* **[!UICONTROL Rejeter]** : cliquez pour rejeter l’élément.
-* **[!UICONTROL Commentaire]** : cliquez pour faire un commentaire. Votre commentaire apparaît également dans [!DNL Workfront] comme une mise à jour de l’objet sur lequel porte la notification.
-* **[!UICONTROL Accéder au BAT]** : cliquez pour ouvrir le BAT. Vous pouvez ensuite prendre une décision directement dans le BAT. Pour plus d’informations, voir [Prise d’une décision sur un BAT dans la visionneuse de correctifs](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+* **[!UICONTROL Approuver]** : cliquez pour approuver l’élément.
+* **[!UICONTROL Modifier]** : cliquez pour approuver l’élément avec les modifications.
+* **[!UICONTROL Rejeter]** : cliquez pour rejeter l’élément.
+* **[!UICONTROL Commenter]** : cliquez pour faire un commentaire. Votre commentaire apparaît également dans [!DNL Workfront] en tant que mise à jour de l’objet sur lequel porte la notification.
+* **[!UICONTROL Accéder à l’épreuve]** : cliquez pour ouvrir l’épreuve. Vous pouvez ensuite prendre une décision directement dans l’épreuve. Pour plus d’informations, voir [Prendre une décision sur une épreuve dans la visionneuse de relecture](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 >[!NOTE]
 >
->Une fois que vous avez pris une décision de validation, vous ne pouvez pas la modifier à partir de la notification.
+>Une fois que vous avez pris une décision d’approbation, vous ne pouvez pas la modifier à partir de la notification.
 
-#### Actions disponibles sur les notifications de validation spécifiques :
+#### Actions disponibles sur des notifications d’approbation spécifiques :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,10 +133,10 @@ Vous recevez des notifications de validation lorsque vous êtes invité à valid
  <thead> 
   <tr> 
    <th>Notification</th> 
-   <th>[!UICONTROL Approuver]</th> 
-   <th>[!UICONTROL Rejeter]</th> 
+   <th>[!UICONTROL Approve]</th> 
+   <th>[!UICONTROL Reject]</th> 
    <th> <p>[!UICONTROL Change]</p> </th> 
-   <th> <p>[!UICONTROL Aller à la preuve] </p> </th> 
+   <th> <p>[!UICONTROL Go to Proof] </p> </th> 
    <th>[!UICONTROL Comment]</th> 
   </tr> 
  </thead> 
@@ -187,51 +187,51 @@ Vous recevez des notifications de validation lorsque vous êtes invité à valid
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Quelqu'un veut que vous approuviez ce BAT</td> 
-   <td> </td> 
+   <td role="rowheader">Quelqu’un souhaite que vous approuviez cette épreuve.</td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Votre feuille de temps est rejetée</td> 
+   <td role="rowheader">Votre feuille de temps est rejetée.</td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Votre feuille de temps est rouverte</td> 
+   <td role="rowheader">Votre feuille de temps est rouverte.</td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Une demande d’approbation de document que vous avez demandée est approuvée</td> 
-   <td> </td> 
+   <td role="rowheader">Une demande d’approbation de document que vous avez demandée est approuvée.</td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Une demande d’approbation de document que vous avez demandée est approuvée avec les modifications</td> 
-   <td> </td> 
+   <td role="rowheader">Une demande d’approbation de document que vous avez demandée est approuvée avec des modifications.</td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Une demande d’approbation de document que vous avez demandée est rejetée</td> 
-   <td> </td> 
+   <td role="rowheader">Une demande d’approbation de document que vous avez demandée est rejetée.</td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -239,26 +239,26 @@ Vous recevez des notifications de validation lorsque vous êtes invité à valid
   </tr> 
   <tr> 
    <td role="rowheader">Votre feuille de temps est approuvée.</td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Notifications d’affectation {#assignment-notifications}
 
-Vous recevez des notifications d’affectation lorsque vous, ou une équipe que vous utilisez, êtes affecté à une tâche ou à un problème dans Workfront. Dans la notification d’affectation, vous pouvez effectuer les actions suivantes :
+Vous recevez des notifications d’affectation lorsque vous, ou une équipe dont vous êtes membre, faites l’objet d’une affectation à une tâche ou à un problème dans Workfront. Dans la notification d’affectation, vous pouvez effectuer les actions suivantes :
 
-* **[!UICONTROL Travailler dessus]** : sélectionnez cette option pour valider le travail sur l’élément. Une notification s’affiche brièvement pour confirmer qu’un nouvel élément a été ajouté à votre liste de travail.
-* **[!UICONTROL Afficher dans[!DNL Workfront]]** : sélectionnez cette option pour afficher le problème ou la tâche assigné dans Workfront, ce qui ouvre un nouvel onglet.
-* **[!UICONTROL Démarrer]** : cliquez pour commencer à travailler sur l’élément. Une notification s’affiche brièvement pour confirmer qu’un nouvel élément a été ajouté à votre liste de travail.
-* **[!UICONTROL Commentaire]** : cliquez pour faire un commentaire sur l’élément. Votre commentaire apparaît également dans le flux de mise à jour de l’élément dans Workfront.
-* **[!UICONTROL Status]** : cliquez sur, puis sélectionnez le nouvel état de l’élément de travail dans le menu déroulant.
+* **[!UICONTROL Travailler sur ce projet]** : sélectionnez cette option pour vous engager à travailler sur l’élément. Une notification s’affiche brièvement pour confirmer qu’un nouvel élément a été ajouté à votre liste de travail.
+* **[!UICONTROL Afficher dans[!DNL Workfront]]** : sélectionnez cette option pour afficher le problème ou la tâche affecté(e) dans Workfront, ce qui ouvre un nouvel onglet.
+* **[!UICONTROL Démarrer]** : cliquez pour commencer à travailler sur l’élément. Une notification s’affiche brièvement pour confirmer qu’un nouvel élément a été ajouté à votre liste de travail.
+* **[!UICONTROL Commenter]** : cliquez pour ajouter un commentaire à l’élément. Votre commentaire apparaît également dans le flux de mise à jour de l’élément dans Workfront.
+* **[!UICONTROL Statut]** : cliquez, puis sélectionnez le nouveau statut de l’élément de travail dans le menu déroulant.
 
-#### Actions disponibles sur les notifications d’affectation spécifiques :
+#### Actions disponibles sur des notifications d’affectation spécifiques :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -275,25 +275,25 @@ Vous recevez des notifications d’affectation lorsque vous, ou une équipe que 
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Vous êtes affecté à une tâche</td> 
+   <td role="rowheader">Une tâche vous est affectée.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Vous êtes affecté à un problème.</td> 
+   <td role="rowheader">Un problème vous est affecté.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Une équipe à laquelle vous êtes affecté reçoit une demande de travail pour une tâche.</td> 
+   <td role="rowheader">Une équipe qui vous est affectée reçoit une demande de travail pour une tâche.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Une équipe à laquelle vous êtes affecté reçoit une demande de travail pour un problème.</td> 
+   <td role="rowheader">Une équipe qui vous est affectée reçoit une demande de travail pour un problème.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -303,13 +303,13 @@ Vous recevez des notifications d’affectation lorsque vous, ou une équipe que 
 
 ### Notifications de commentaires {#comment-notifications}
 
-Vous recevez une notification de communication lorsqu’une personne commente un élément auquel vous êtes associé ou vous inclut dans une mise à jour. A partir de la notification de communication, vous pouvez effectuer les actions suivantes :
+Vous recevez une notification de communication lorsqu’une personne commente un élément associé à vous ou vous inclut dans une mise à jour. Dans la notification de communication, vous pouvez effectuer les actions suivantes :
 
-* **Reply** : cliquez pour répondre au commentaire ou [!UICONTROL update]. Votre réponse apparaît également dans le flux de mise à jour où le commentaire apparaît dans Workfront.
-* **[!UICONTROL Afficher dans Workfront]** : sélectionnez cette option pour afficher le commentaire et l’élément dans Workfront, qui est ouvert dans un nouvel onglet.
-* **[!UICONTROL Status]** : cliquez sur, puis sélectionnez un nouvel état pour l’élément de travail sur lequel porte le commentaire ou la mise à jour.
+* **Répondre** : cliquez pour répondre au commentaire ou à la [!UICONTROL mise à jour]. Votre réponse apparaît également dans le flux de mise à jour où le commentaire apparaît dans Workfront.
+* **[!UICONTROL Afficher dans Workfront]** : sélectionnez cette option pour afficher le commentaire et l’élément dans Workfront, qui est ouvert dans un nouvel onglet.
+* **[!UICONTROL Statut]** : cliquez, puis sélectionnez un nouveau statut pour l’élément de travail sur lequel porte le commentaire ou la mise à jour.
 
-#### Actions disponibles sur les notifications de communication spécifiques :
+#### Actions disponibles sur des notifications de communication spécifiques :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -318,7 +318,7 @@ Vous recevez une notification de communication lorsqu’une personne commente un
  <thead> 
   <tr> 
    <th>Notification</th> 
-   <th>[!UICONTROL Réponse]</th> 
+   <th>[!UICONTROL Reply]</th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 
@@ -334,47 +334,47 @@ Vous recevez une notification de communication lorsqu’une personne commente un
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Quelqu'un commente un fil dans lequel vous vous trouvez</td> 
+   <td role="rowheader">Quelqu’un commente un flux auquel vous participez.</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Quelqu’un commente l’une de vos tâches</td> 
+   <td role="rowheader">Une personne apporte des commentaires sur l’un de vos éléments de travail.</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Quelqu’un commente une feuille de temps que vous approuvez</td> 
+   <td role="rowheader">Une personne apporte des commentaires sur une feuille de temps que vous approuvez.</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Un commentaire est ajouté à votre page de profil utilisateur ou en modifiant en masse plusieurs utilisateurs</td> 
+   <td role="rowheader">Un commentaire est ajouté à votre page de profil d’utilisateur ou d’utilisatrice ou lors de la modification en bloc de plusieurs utilisateurs et utilisatrices.</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Un commentaire est ajouté à l’une de vos mises à jour</td> 
+   <td role="rowheader">Un commentaire est ajouté à l’une de vos mises à jour.</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Un commentaire est ajouté à votre feuille de temps.</td> 
+   <td role="rowheader">Un commentaire a été ajouté sur votre feuille de temps.</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Mettre à jour les notifications {#update-notifications}
+### Notifications de mise à jour {#update-notifications}
 
-Vous recevez une notification d’informations en cas de mise à jour d’un élément auquel vous êtes associé, mais il n’est pas nécessaire d’effectuer une action sur l’élément. A partir de la notification d&#39;information, vous pouvez effectuer les actions suivantes :
+Vous recevez une notification d’informations en cas de mise à jour d’un élément associé à vous, mais il n’est pas nécessaire d’effectuer une action sur l’élément. À partir de la notification d’information, vous pouvez effectuer les actions suivantes :
 
-* **[!UICONTROL Répondre]** : cliquez pour répondre à la [!UICONTROL mise à jour]. Votre réponse apparaît également dans le flux de mise à jour de l’élément dans Workfront.
-* **Afficher dans Workfront** : sélectionnez cette option pour afficher le commentaire et l’élément dans Workfront, qui est ouvert dans un nouvel onglet.
-* **[!UICONTROL Status]** : cliquez sur , puis sélectionnez le nouvel état de l’élément dans le menu déroulant.
+* **[!UICONTROL Répondre]** : cliquez pour répondre à la [!UICONTROL mise à jour]. Votre réponse apparaît également dans le flux de mise à jour de l’élément dans Workfront.
+* **Afficher dans Workfront** : sélectionnez cette option pour afficher le commentaire et l’élément dans Workfront (ouverture dans un nouvel onglet).
+* **[!UICONTROL Statut]** : cliquez et sélectionnez le nouveau statut de l’élément dans le menu déroulant.
 
-#### Actions disponibles sur les notifications d’informations spécifiques :
+#### Actions disponibles pour des notifications d’informations spécifiques :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -383,23 +383,23 @@ Vous recevez une notification d’informations en cas de mise à jour d’un él
  <thead> 
   <tr> 
    <th>Notification</th> 
-   <th>[!UICONTROL Réponse]</th> 
+   <th>[!UICONTROL Reply]</th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Une mise à jour est apportée à une tâche, un problème ou un projet auquel vous êtes abonné.</td> 
+   <td role="rowheader">Une mise à jour est apportée à une tâche, à un problème ou à un projet et j’ai un abonnement à cet élément.</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Quelqu’un vous inclut à une mise à jour dirigée</td> 
+   <td role="rowheader">Une personne m’inclut dans une mise à jour dirigée.</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Quelqu’un inclut votre équipe sur une [!UICONTROL mise à jour dirigée]</td> 
+   <td role="rowheader">Une personne inclut mon équipe dans une [!UICONTROL directed update].</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -408,10 +408,10 @@ Vous recevez une notification d’informations en cas de mise à jour d’un él
 
 ### Notifications de changement de date {#date-change-notifications}
 
-Vous recevez une notification de changement de date lorsque la date change sur un élément de travail auquel vous êtes affecté. À partir de la notification de changement de date, vous pouvez effectuer les actions suivantes.
+Vous recevez une notification de modification de date en cas de modification de la date d’un élément de travail qui vous est affecté. À partir de la notification de modification de date, vous pouvez effectuer les actions suivantes.
 
-* **[!UICONTROL Commentaire]** : cliquez pour faire un commentaire sur l’élément. Votre commentaire apparaît également dans le flux de mise à jour de l’élément dans Workfront.
-* **[!UICONTROL Status]** : cliquez sur, puis sélectionnez le nouvel état de l’élément de travail dans le menu déroulant.
+* **[!UICONTROL Commentaire]** : cliquez dessus pour ajouter un commentaire à l’élément. Votre commentaire apparaît également dans le flux de mise à jour de l’élément dans Workfront.
+* **[!UICONTROL Statut]** : cliquez et sélectionnez le nouveau statut de l’élément de travail dans le menu déroulant.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -426,7 +426,7 @@ Vous recevez une notification de changement de date lorsque la date change sur u
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">La date d’échéance change pour une tâche à laquelle vous êtes affecté</td> 
+   <td role="rowheader">La date d’échéance d’une tâche qui vous est affectée est modifiée.</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

@@ -9,11 +9,11 @@ exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
 source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
-# Utilisation de Workfront Fusion pour convertir un problème Workfront en projet qui comprend des workflows Adobe Experience Manager
+# Utiliser Workfront Fusion pour convertir un problème Workfront en projet qui comprend des workflows Adobe Experience Manager
 
 Si vous créez un projet via Workfront Fusion et que vous souhaitez inclure des processus Adobe Experience Manager sur le projet, vous devez utiliser une configuration de module Fusion spécifique, décrite dans cet article.
 
@@ -30,8 +30,8 @@ Vous devez disposer des éléments suivants :
 
 <table>
   <tr>
-    <td><strong>Forfait Adobe Workfront*</strong></td>
-    <td>N’importe quelle</td>
+    <td><strong>Formule Adobe Workfront*</strong></td>
+    <td>Tous</td>
   </tr>
   <tr>
    <td><strong>Licences Adobe Workfront*</strong></td>
@@ -43,7 +43,7 @@ Vous devez disposer des éléments suivants :
      <p><b>ADOBE EXPERIENCE MANAGER :</b></p>
      <ul>
        <li>
-         <p>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials, et quelqu’un doit vous ajouter au produit en tant qu’utilisateur ou utilisatrice dans Admin Console.</p>
+         <p>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials, et quelqu’un doit vous ajouter au produit en tant qu’utilisateur ou utilisatrice dans Admin Console.</p>
        </li>
        <li>
         <p>Vous devez disposer d’un accès en écriture au référentiel dans Adobe Experience Manager.</p>
@@ -64,11 +64,11 @@ Vous devez disposer des éléments suivants :
    </td>
   </tr>
   <tr>
-   <td><strong>Configurations des niveaux d’accès*</strong>
+   <td><strong>Configurations du niveau d’accès*</strong>
    </td>
-   <td>Accès en modification aux documents
+   <td>Modifier l’accès aux documents
      <p>
-       <strong>Note :</strong> si vous ne disposez toujours pas d’un accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires ont été configurées pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <strong>Créer ou modifier les niveaux d’accès personnalisés</strong>.
+       <strong>Remarque :</strong> si vous ne disposez toujours pas d’un accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires ont été configurées pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <strong>Créer ou modifier des niveaux d’accès personnalisés</strong>.
      </p>
    </td>
   </tr>

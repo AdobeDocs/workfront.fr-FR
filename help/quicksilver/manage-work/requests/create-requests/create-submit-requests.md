@@ -2,7 +2,7 @@
 product-area: requests
 navigation-topic: create-requests
 title: Création et envoi de requêtes
-description: Le travail prévu est représenté dans Adobe Workfront par des projets et des tâches. Cependant, il se peut que vous travailliez dans un environnement où du travail non prévu, sous forme de demandes aléatoires, peut arriver à tout moment. Workfront fournit un workflow permettant de répondre à ce type d’environnement grâce à l’utilisation de files d’attente des demandes.
+description: Le travail prévu est représenté dans Adobe Workfront par des projets et des tâches. Cependant, il se peut que vous travailliez dans un environnement où du travail non prévu - sous forme de demandes aléatoires - peut arriver à tout moment. Workfront fournit un workflow permettant de répondre à ce type d’environnement grâce à l’utilisation de files d’attente des demandes.
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 Le travail prévu est représenté dans Adobe Workfront par des projets et des tâches. Cependant, il se peut que vous travailliez dans un environnement où du travail non prévu, sous forme de demandes, peut arriver à tout moment. Workfront fournit un workflow permettant de répondre à ce type d’environnement grâce à l’utilisation de files d’attente des demandes.
 
-Après avoir créé une demande dans une file d’attente des demandes, vous pouvez soit l’assigner pour qu’elle soit complétée, soit la convertir en tâche ou en projet.\
+Après avoir créé une demande dans une file d’attente, vous pouvez soit l’assigner pour qu’elle soit complétée, soit la convertir en tâche ou en projet.\
 Pour plus d’informations sur la conversion des problèmes en tâches ou en projets, voir l’article [Vue d’ensemble de la conversion des problèmes dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 Vous pouvez créer une demande de la manière suivante :
@@ -40,37 +40,37 @@ Vous pouvez créer une demande de la manière suivante :
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle </p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p>
+   <td> <p>Nouvelle : contributeur ou supérieure</p>
    Ou
    <p>Actuelle : demande ou supérieure</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux problèmes</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Conditions préalables à l’utilisation des files d’attente des demandes
 
-Un administrateur ou une administratrice Workfront doit créer des files d’attente des demandes et les mettre à la disposition des personnes avant que celles-ci ne puissent utiliser cette fonctionnalité. Un utilisateur ou une utilisatrice disposant d’une licence de planification et d’un accès en modification pour des projets et en gestion pour un projet spécifique peut également créer des files d’attente des demandes.
+Un administrateur ou une administratrice Workfront doit créer des files d’attente des demandes et les mettre à la disposition des utilisateurs et utilisatrices avant que ceux-ci ne puissent utiliser cette fonctionnalité. Un utilisateur ou une utilisatrice disposant d’une licence de planification et d’un accès à la modification des projets et à la gestion d’un projet spécifique peut également créer des files d’attente des demandes.
 
 Pour plus d’informations sur la création de files d’attente des demandes, voir l’article [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -80,11 +80,11 @@ Un administrateur ou une administratrice Workfront doit créer les composants su
 * Des rubriques de file d’attente.\
   Pour plus d’informations, voir l’article [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-* Des règles de transmission.\
-  Pour plus d’informations, voir l’article [Créer des règles de transmission](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+* Des règles de routage.\
+  Pour plus d’informations, voir l’article [Créer des règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-* (Facultatif) Des groupes de rubriques.\
-  Pour plus d’informations, voir l’article [Créer des groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+* (Facultatif) Des groupes de sujets.\
+  Pour plus d’informations, voir l’article [Créer des groupes de sujets](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 * (Facultatif) Un formulaire personnalisé de demande.\
   Pour plus d’informations, consultez l’article [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -96,17 +96,17 @@ Un administrateur ou une administratrice Workfront doit créer les composants su
 
 Lorsque vous créez une demande dans l’application web Workfront, Workfront enregistre la demande en tant que brouillon avant que vous ne l’envoyiez. Workfront crée un brouillon dès que vous sélectionnez votre file d’attente des demandes et que vous commencez à saisir des informations.
 
-Vous pouvez continuer à soumettre la demande ou renseigner les informations dont vous disposez pour le moment puis quitter la demande pour revenir la terminer plus tard. Workfront enregistre le projet de demande que vous avez commencé dans le dossier Brouillons.
+Vous pouvez continuer à soumettre la demande ou compléter les informations dont vous disposez pour le moment puis quitter la demande pour revenir la terminer plus tard. Workfront enregistre le projet de demande que vous avez commencé dans le dossier Brouillons.
 
 >[!IMPORTANT]
 >
 >Tenez compte des éléments suivants lorsque vous travaillez avec des brouillons :
 >
->* Workfront ne crée pas des brouillons de demandes lorsque vous les soumettez à partir d’une application tierce, par exemple en les envoyant par e-mail à Workfront ou en les créant à l’aide d’une autre application. Lorsque vous soumettez une demande en dehors de l’application web Workfront, la demande est enregistrée dans la section Envoyées.
+>* Workfront ne crée pas de projets de demande lorsque vous les soumettez à partir d’une application tierce, par exemple en les envoyant par e-mail à Workfront ou en les créant à l’aide d’une autre application. Lorsque vous soumettez une demande depuis l’extérieur de l’application web Workfront, la demande est enregistrée dans la section Envoyées.
 >* Si la structure d’une file d’attente des demandes est modifiée, vous ne pouvez plus accéder aux projets existants. Par exemple, si une rubrique de file d’attente est supprimée ou si un groupe de rubriques est ajouté, les brouillons sauvegardés ne sont plus accessibles.
 >
 
-Pour plus d’informations sur la création de demandes à partir de brouillons existants, voir Créer des demandes à partir de brouillons. [](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) Pour plus d’informations sur la suppression des brouillons de demande, voir également [Supprimer un brouillon de demande](../../../manage-work/requests/create-requests/delete-request-draft.md).
+Pour plus d’informations sur la création de demandes à partir de projets existants, voir [Créer des demandes à partir de brouillons](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). Pour plus d’informations sur la suppression des brouillons de demande, voir également [Supprimer un brouillon de demande](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
 Pour créer une demande dans l’application web Workfront :
 
@@ -121,7 +121,7 @@ Pour créer une demande dans l’application web Workfront :
 
 1. (Le cas échéant) Cliquez dans le champ **Type de demande** et effectuez l’une des opérations suivantes :
 
-   * Dans la section **Chemins d’accès récents,** sélectionnez un chemin que vous avez utilisé récemment pour ouvrir une file d’attente des demandes. Un chemin d’accès comprend la file d’attente des demandes, les groupes de rubriques et la rubrique de file d’attente à laquelle vous avez récemment envoyé une demande. Les trois derniers chemins s’affichent par défaut.
+   * Dans la section **Chemins d’accès récents**, sélectionnez un chemin que vous avez utilisé récemment pour ouvrir une file d’attente des demandes. Un chemin d’accès comprend la file d’attente des demandes, les groupes de rubriques et la rubrique de file d’attente à laquelle vous avez récemment envoyé une demande. Les trois derniers chemins s’affichent par défaut.
 
      >[!NOTE]
      >
@@ -129,7 +129,7 @@ Pour créer une demande dans l’application web Workfront :
 
      ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
-   * Dans la section **Files d’attente des demandes**, sélectionnez-en une.
+   * Dans la section **Files d’attente des demandes**, sélectionnez une file d’attente des demandes.
    * Saisissez un mot-clé appartenant à un chemin précédemment consulté pour rechercher une file d’attente des demandes.
 
      Par exemple, si vous avez une file d’attente des demandes nommée « Centre d’assistance » avec un groupe de rubriques nommé « Emplacement » et une rubrique de file d’attente nommée « Distant », vous pouvez saisir « distant » et toutes les files d’attente des demandes qui contiennent « distant » dans n’importe quel élément de leur chemin d’accès s’affichent.
@@ -181,14 +181,14 @@ Pour créer une demande dans l’application web Workfront :
 
      Un nouveau brouillon est automatiquement enregistré dans la section Brouillons après que vous avez commencé à saisir des informations pour la nouvelle demande et que vous avez donné un nom à la demande dans le champ Objet.
 
-1. (Facultatif) Si votre file d’attente des demandes comprend des groupes de rubriques, sélectionnez le nom du groupe de rubriques dans le premier champ déroulant. Sélectionner une rubrique de file d’attente
+1. (Facultatif) Si votre file d’attente des demandes comprend des groupes de rubriques, sélectionnez le nom du groupe de rubriques dans le premier champ déroulant. Sinon, sélectionnez une rubrique de file d’attente.
 
    >[!TIP]
    >
    >Lorsque vous pointez sur un groupe de rubriques ou une rubrique de file d’attente, le champ Description s’affiche à droite. Il contient des informations supplémentaires sur le groupe de rubriques ou la rubrique de file d’attente.
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   >
+   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)  >
    >
 
    Vous pouvez intégrer jusqu’à 10 niveaux de groupes de rubriques dans votre file d’attente des demandes.\
@@ -206,7 +206,7 @@ Pour créer une demande dans l’application web Workfront :
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Objet</strong> </td> 
-      <td>Indiquez un nom pour votre requête. Ce champ est obligatoire.</td> 
+      <td>Indiquez un nom pour votre demande. Champ obligatoire.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Description</strong> </td> 
@@ -244,7 +244,7 @@ Pour créer une demande dans l’application web Workfront :
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>Affectations</strong> </td> 
-      <td> <p><span>Indiquez le nom d’une personne active, d’une fonction ou d’une équipe à laquelle la demande doit être affectée.</span> </p> <p>Vous ne pouvez spécifier qu’une seule équipe.</p>
+      <td> <p><span>Indiquez le nom d’une personne, d’une fonction ou d’une équipe active à laquelle la demande doit être affectée.</span> </p> <p>Vous ne pouvez spécifier qu’une seule équipe.</p>
 
    <p> Selon la façon dont la file d’attente des demandes a été configurée, il se peut que vous ne puissiez attribuer qu’un ou deux types de ressources à la demande, au lieu des trois (par exemple, vous ne pouvez attribuer la demande qu’à des personnes).</p>
 
@@ -253,10 +253,10 @@ Pour créer une demande dans l’application web Workfront :
    <p> Pour plus d’informations, consultez les articles suivants :</p> 
       <ul> 
       <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente des demandes</a> </p> </li> 
-      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Créer des règles de transmission</a> <br> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Créer des règles de routage</a> <br> </p> </li> 
       </ul> </p>
 
-   <p><span>Nous vous recommandons d’utiliser des règles de transmission pour vos files d’attente des demandes afin qu’elles puissent être automatiquement acheminées vers les ressources appropriées.</span> </p> </td> 
+   <p><span>Nous vous recommandons d’utiliser des règles de routage pour vos files d’attente des demandes afin qu’elles puissent être automatiquement acheminées vers les ressources appropriées.</span> </p> </td> 
      </tr>
 
    <tr> 
@@ -277,24 +277,24 @@ Pour créer une demande dans l’application web Workfront :
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Documents</strong> </td> 
-      <td> <p>Ajoutez des documents à votre demande. </p> <p> En fonction de la configuration de la file d’attente des demandes, la section Documents peut s’afficher avant ou après les champs personnalisés. </p> <p>Les documents que vous téléchargez dans Workfront sont stockés pendant 24 heures dans un brouillon de demande. Par la suite, vous devez les joindre à à nouveau lorsque vous revenez pour modifier et soumettre le brouillon. Les documents liés à partir d’autres lecteurs sont enregistrés de manière permanente sur le brouillon. </p> </td> 
+      <td> <p>Ajoutez des documents à votre demande. </p> <p> En fonction de la configuration de la file d’attente des demandes, la section Documents peut s’afficher avant ou après les champs personnalisés. </p> <p>Les documents que vous téléchargez dans Workfront sont stockés pendant 24 heures dans une demande en préparation. Par la suite, vous devez les rattacher lorsque vous revenez pour éditer et soumettre le brouillon. Les documents liés à d’autres lecteurs sont enregistrés de manière permanente sur le brouillon. </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. (Facultatif) Si votre administrateur ou administratrice Workfront a associé un formulaire personnalisé à la file d’attente des demandes ou à la rubrique de file d’attente, spécifiez les champs du formulaire personnalisé.\
    Les formulaires personnalisés sont différents pour chaque instance Workfront.
-1. (Facultatif et le cas échéant) À tout moment de la saisie de la demande, cliquez sur Ignorer le brouillon si vous souhaitez supprimer le brouillon créé automatiquement. [!UICONTROL ****] Cette opération supprime le brouillon, qui ne pourra plus être récupéré. Un message de confirmation s’affiche pour confirmer la suppression du brouillon.
+1. (Facultatif et le cas échéant) À tout moment de la saisie de la demande, cliquez sur [!UICONTROL **Ignorer le brouillon**] si vous souhaitez supprimer le brouillon créé automatiquement. Cette opération supprime le brouillon, qui ne pourra plus être récupéré. Un message de confirmation s’affiche pour confirmer la suppression du brouillon.
 
 1. (Facultatif) Cliquez sur [!UICONTROL **Annuler**] dans le message de confirmation si vous souhaitez annuler votre action et conserver le brouillon.
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur Soumettre si vous voulez soumettre la demande. **** La demande est enregistrée dans la section Envoyées. En fonction de la règle de transmission de la file d’attente des demandes, cette demande peut être transmise vers un projet différent de celui désigné comme file d’attente des demandes. Pour plus d’informations sur les règles de transmission, consultez [Créer des règles de transmission](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Cliquez sur **Soumettre** si vous voulez soumettre la demande. La demande est enregistrée dans la section Envoyées. En fonction de la règle de transmission de la file d’attente des demandes, cette demande peut être transmise vers un projet différent de celui désigné comme file d’attente des demandes. Pour plus d’informations sur les règles de transmission, voir la section [Créer des règles de transmission](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      Ou
 
-     Cliquez sur Fermer si vous ne souhaitez pas soumettre immédiatement la demande. Vous pouvez revenir la terminer plus tard. **** Votre demande est enregistrée dans la section Brouillons et sera disponible la prochaine fois que vous soumettrez une demande pour cette file d’attente des demandes.
+     Cliquez sur **Fermer** si vous ne souhaitez pas soumettre immédiatement la demande et que vous pouvez revenir la terminer plus tard. Votre demande est enregistrée dans la section Brouillons et sera disponible la prochaine fois que vous soumettrez une demande pour cette file d’attente des demandes.
 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 

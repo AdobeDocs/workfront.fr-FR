@@ -2,53 +2,53 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: "Présentation du type de durée : affectation calculée"
-description: L’affectation calculée est un type de durée que vous pouvez définir pour une tâche dans Adobe Workfront. Pour des informations générales sur les types de durée dans Workfront, voir Vue d’ensemble de la durée de la tâche et du type de durée.
+title: '« Vue d’ensemble du type de durée : calcul d’affectation »'
+description: Le calcul d’affectation est un type de durée que vous pouvez définir pour une tâche dans Adobe Workfront. Pour des informations générales sur les types de durée dans Workfront, voir Vue d’ensemble de la durée de la tâche et du type de durée.
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
 # Vue d’ensemble du type de durée : calcul d’affectation
 
-L’affectation calculée est un type de durée que vous pouvez définir pour une tâche dans Adobe Workfront. Pour des informations générales sur les types de durée dans Workfront, voir [Vue d’ensemble de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Le calcul d’affectation est un type de durée que vous pouvez définir pour une tâche dans Adobe Workfront. Pour des informations générales sur les types de durée dans Workfront, voir [Vue d’ensemble de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-## Présentation du type de durée d’affectation calculée
+## Vue d’ensemble du type de durée Calcul d’affectation
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This Hub issue has a powerpoint that highlights information that is useful to users when using Calculated Assignment duration type. I don't think we can use the powerpoint, because it's old. I also don't know if the things they discuss are still relevant, since the PP is from 2015. I've closed the issue, but I'm putting a link here just in case the info is useful. https://hub.workfront.com/issue/5a9dd7d5007d02a8966014557c23cc89/updates)</p>
 -->
 
-* Lorsque vous utilisez un type de durée d’affectation calculée, vous devez spécifier une durée et un nombre d’heures planifiées pour la tâche. Workfront divise ensuite le montant des heures planifiées par le nombre d’heures dans la durée, puis par le nombre de ressources affectées à la tâche pour calculer le pourcentage d’affectation (calcule l’affectation) pour chaque ressource. Chaque ressource aura également la même valeur pour son pourcentage d’allocation. Dans ce cas, vous ne pouvez pas modifier les valeurs d’attribution de chaque ressource.
-* Votre administrateur Workfront ou un administrateur de groupe peut définir le type de durée par défaut de votre système ou groupe comme affectation calculée.Dans ce cas, toutes les nouvelles tâches seront créées avec ce type de durée. Pour plus d’informations sur la modification de votre tâche et les préférences de problème dans le cadre de vos préférences de projet à l’échelle du système ou du groupe, voir [Configurer les préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Lorsque vous utilisez un type de durée Calcul d’affectation, vous devez spécifier à la fois une durée et un nombre d’heures prévues pour la tâche. Workfront divise ensuite le nombre d’heures prévues par le nombre d’heures de la durée, puis par le nombre de ressources affectées à la tâche pour calculer le pourcentage d’affectation (l’allocation) pour chaque ressource. Chaque ressource aura la même valeur pour son pourcentage d’affectation. Dans ce cas, vous ne pouvez pas modifier les valeurs d’affectation pour chaque ressource.
+* Votre équipe d’administration Workfront ou de groupes peut définir le type de durée par défaut de votre système ou de votre groupe sur Calcul d’affectation.Dans ce cas, toutes les nouvelles tâches seront créées avec ce type de durée. Pour plus d’informations sur la modification de votre tâche et les préférences de problème dans le cadre de vos préférences de projet à l’échelle du système ou du groupe, voir [Configurer les préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-  Dans ce cas, la tâche a par défaut une durée d’un jour et une valeur par défaut de 0 heure planifiée. À moins que le chef de projet ne définisse une durée plus précise et ne renseigne le champ Heures planifiées avec une estimation réaliste, les ressources apparaissent sous-affectées.
+  Dans ce cas, la tâche affiche une durée par défaut d’une journée et un nombre d’heures prévues par défaut de 0. Si la personne responsable du projet ne fixe pas de durée plus précise et ne remplit pas le champ Nombre d’heures prévues avec une estimation réaliste, les ressources apparaissent sous-affectées.
 
-L’affectation calculée est le type de durée préféré dans les situations suivantes :
+Le calcul d’affectation correspond au type de durée préféré dans les situations suivantes :
 
-* Lorsque les affectations disposent d’une fenêtre d’activité, mais ne prennent pas toute la durée allouée pour terminer leur travail. Par exemple, vous devez envoyer un rapport à votre superviseur d’ici la fin de la semaine. Vous avez une durée de cinq jours, mais vous ne devrez attendre que dix heures pour rédiger le document.
-* Lorsqu’une seule ressource est affectée à une tâche, car le chef de projet peut estimer la durée planifiée et le volume d’effort planifié indépendamment l’un de l’autre.
+* Lorsque les affectations ont une fenêtre d’activité mais ne nécessitent pas d’utiliser la totalité de la durée attribuée pour réaliser le travail. Par exemple, vous devez remettre un rapport à la personne chargée de votre supervision avant la fin de la semaine. Vous disposez d’une durée de cinq jours, mais il ne vous faudra que dix heures pour rédiger le document.
+* Lorsqu’une seule ressource est affectée à une tâche parce que la personne responsable du projet peut estimer la durée prévue et le volume d’effort prévu, indépendamment l’un de l’autre.
 
-  Vous pouvez utiliser le type Durée de travail calculée pour le même résultat, mais le chef de projet doit saisir une allocation de pourcentage pour la ressource afin d’affecter la valeur calculée pour les Heures planifiées. Cela rend la planification du projet plus difficile et plus chronophage.
+  Vous pouvez utiliser le type de durée Calcul de travail pour le même résultat, mais la personne responsable du projet doit saisir un pourcentage d’allocation de la ressource afin d’affecter la valeur calculée pour le nombre d’heures prévues. Cela rend la planification des projets plus difficile et plus longue.
 
-Le pourcentage d&#39;allocation pour chaque ressource est calculé comme suit :
+Le pourcentage d’allocation de chaque ressource est calculé comme suit :
 
 ```
 Planned Hours / Duration / Number of Resources = Allocation Percentage for each resource
 ```
 
-Par exemple, dans le scénario décrit ci-dessous, chaque tâche a une durée de 3 jours. Le chef de projet saisit manuellement la durée (3 jours ou 24 heures) et les heures planifiées. Par conséquent, le pourcentage d’affectation (ou pourcentage d’affectation) est calculé comme suit :
+Par exemple, dans le scénario décrit ci-dessous, chaque tâche a une durée de 3 jours. La personne responsable du projet saisit manuellement la durée (3 jours ou 24 heures) et les heures prévues, ce qui permet de calculer le pourcentage d’allocation (ou pourcentage d’affectation) :
 
 ![](assets/calcassign-350x80.png)
 
-## Remplacer le type de durée d’une tâche par affectation calculée
+## Modifier le type de durée d’une tâche en Calcul d’affectation
 
-Pour plus d’informations sur la modification du type de durée d’une tâche, voir [Mettre à jour le type de durée d’une tâche](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+Pour plus d’informations sur la modification du type de durée d’une tâche, voir la section [Mettre à jour le type de durée d’une tâche](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

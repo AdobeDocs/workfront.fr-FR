@@ -1,173 +1,173 @@
 ---
 product-area: projects
 navigation-topic: use-the-gantt-chart
-title: Mettre à jour des informations du graphique de Gantt de la liste de tâches
-description: Le diagramme de Gantt de la liste des tâches affiche des détails sur les tâches qui se trouvent sur un projet ou un modèle.
+title: Mettre à jour des informations dans le graphique de Gantt de la liste des tâches
+description: Le graphique de Gantt de la liste des tâches présente les détails des tâches d’un projet ou d’un modèle.
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
 source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-# Mise à jour des informations dans la liste des tâches [!UICONTROL Graphique de Gantt]
+# Mettre à jour des informations dans le [!UICONTROL graphique de Gantt] de la liste des tâches
 
-La liste des tâches [!UICONTROL Graphique de Gantt] affiche des détails sur les tâches qui se trouvent sur un projet ou un modèle.
+Le [!UICONTROL graphique de Gantt] de la liste des tâches montre les détails des tâches d’un projet ou d’un modèle.
 
-Dans un modèle, le [!UICONTROL diagramme de Gantt] de la liste des tâches reflète les mises à jour effectuées dans la liste des tâches du modèle au niveau de la tâche. Vous ne pouvez pas modifier le [!UICONTROL diagramme de Gantt] associé à un modèle.
+Dans un modèle, le [!UICONTROL graphique de Gantt] de la liste des tâches reflète les mises à jour effectuées dans la liste des tâches du modèle au niveau des tâches. Vous ne pouvez pas modifier le [!UICONTROL graphique de Gantt] associé à un modèle.
 
-Dans un projet, vous pouvez mettre à jour les informations de tâche directement dans la liste de tâches [!UICONTROL Graphique de Gantt].
+Dans un projet, vous pouvez mettre à jour les informations relatives aux tâches directement dans le [!UICONTROL graphique de Gantt] de la liste des tâches.
 
-Cet article décrit les actions suivantes que vous pouvez effectuer directement dans le [!UICONTROL diagramme de Gantt] de la liste des tâches :
+Cet article décrit les actions suivantes que vous pouvez effectuer directement dans le [!UICONTROL graphique de Gantt] de la liste des tâches :
 
-* Modification de la durée de la tâche
-* Création ou suppression de relations de prédécesseur
-* Modification des dates de début et de fin de la tâche
+* Modifier la durée d’une tâche
+* Créer ou supprimer des relations d’antériorité
+* Modifier les dates de début et de fin des tâches
 * Mettre à jour le pourcentage terminé
-* Ressources de projet de niveau
+* Niveler les ressources du projet
 
 ## Conditions d’accès
 
-Pour suivre les étapes de cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants pour suivre les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>N’importe quelle </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès à [!UICONTROL Modifier] aux projets et aux tâches</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur [!DNL Workfront] s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la manière dont un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Accès [!UICONTROL Edit] aux projets et aux tâches</p> <p>Note : si vous n’avez toujours pas d’accès, demandez à votre administrateur ou administratrice [!DNL Workfront] si des restrictions supplémentaires ont été définies dans votre niveau d’accès. Pour plus d’informations sur la manière dont l’administration [!DNL Workfront] peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Accès à [!UICONTROL Gérer] au projet et aux tâches </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Accès [!UICONTROL Manage] au projet et aux tâches </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+&#42;Pour connaître le type de licence, le type de plan ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
 
-## Modification de la durée de la tâche
+## Modifier la durée d’une tâche
 
 1. Accédez au projet que vous souhaitez modifier.
 1. Cliquez sur **[!UICONTROL Tâches]** dans le panneau de gauche.
 
    ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Graphique de Gantt]** .
+1. Cliquez sur l’icône **[!UICONTROL Graphique de Gantt]**.
 
-   ![Cliquez sur l’icône Graphique de Gantt](assets/click-gantt-chart-icon.png)
+   ![Cliquer sur l’icône Graphique de Gantt](assets/click-gantt-chart-icon.png)
 
-   Toutes les modifications sont enregistrées automatiquement lorsque l’option **[!UICONTROL Enregistrement automatique]** est activée. Cette option est activée par défaut.
+   Toutes les modifications sont sauvegardées automatiquement lorsque l’option **[!UICONTROL Enregistrement automatique]** est activée. Elle est activée par défaut.
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel Standard]** ou **[!UICONTROL Planning]** pour enregistrer vos modifications manuellement.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planificaiton chronologique]** pour enregistrer vos modifications manuellement.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
-1. Passez la souris sur la chronologie d’une tâche et faites glisser l’indicateur de chronologie vers une date différente.
-1. Déposez l’indicateur lorsque vous avez atteint la nouvelle date de fin appropriée pour la tâche.
-1. (Facultatif et conditionnel) Si vous avez choisi d’enregistrer manuellement vos modifications, cliquez sur les icônes **[!UICONTROL Annuler]** ou &#x200B;**[!UICONTROL Rétablir]** si vous souhaitez annuler ou dupliquer l’une des modifications.
+1. Pointez sur la chronologie d’une tâche et faites glisser l’indicateur de chronologie vers une autre date.
+1. Déposez l’indicateur lorsque vous avez atteint la nouvelle date d’achèvement correcte pour la tâche.
+1. (Facultatif et le cas échéant) Si vous avez choisi d’enregistrer manuellement vos modifications, cliquez sur l’icône **[!UICONTROL Annuler]** ou **[!UICONTROL Rétablir]** si vous souhaitez annuler ou dupliquer l’une des modifications.
 
    >[!TIP]
    >
-   >Vous pouvez utiliser les raccourcis clavier suivants pour annuler ou rétablir des modifications sur le graphique Gantt :
+   >Vous pouvez utiliser les raccourcis clavier suivants pour annuler ou rétablir les modifications apportées au graphique de Gantt :
    >
    >   
    >   
-   >   * [!DNL Mac] : utilisez [!UICONTROL Commande + Z] pour annuler et [!UICONTROL Commande + Maj + Z] pour rétablir.
-   >   * [!DNL Windows] : utilisez [!UICONTROL Ctrl + Z] pour annuler et [!UICONTROL Ctrl + Y] pour rétablir.
+   >   * [!DNL Mac] : utilisez [!UICONTROL Commande+Z] pour annuler et [!UICONTROL Commande+Maj+Z] pour rétablir.
+   >   * [!DNL Windows] : utilisez [!UICONTROL Ctrl+Z] pour annuler et [!UICONTROL Ctrl+Y] pour rétablir.
    >   
    >
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** dans le coin supérieur droit du [!UICONTROL diagramme de Gantt].
+1. Cliquez sur **[!UICONTROL Enregistrer]** dans le coin supérieur droit du [!UICONTROL graphique de Gantt].
 
-## Créer ou supprimer des relations de prédécesseur
+## Créer ou supprimer des relations d’antériorité
 
 1. Accédez au projet que vous souhaitez modifier.
-1. Dans la zone **[!UICONTROL Tâches]**, cliquez sur l&#39;icône **[!UICONTROL Graphique de Gantt]** .
+1. Dans la zone **[!UICONTROL Tâches]**, cliquez sur l’icône **[!UICONTROL Graphique de Gantt]**.
 
-   L’option **[!UICONTROL Enregistrement automatique]** est sélectionnée par défaut, auquel cas toutes les modifications sont enregistrées automatiquement.
+   L’option **[!UICONTROL Enregistrement automatique]** est sélectionnée par défaut, auquel cas toutes les modifications sont sauvegardées automatiquement.
 
-   ![Cliquez sur l’icône Graphique de Gantt](assets/click-gantt-chart-icon.png)
+   ![Cliquer sur l’icône Graphique de Gantt](assets/click-gantt-chart-icon.png)
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel Standard]** ou **[!UICONTROL Planning]** pour enregistrer vos modifications manuellement.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planificaiton chronologique]** pour enregistrer vos modifications manuellement.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
-1. Pour créer une relation de prédécesseur, cliquez sur le point de départ d’une tâche et faites-la glisser jusqu’au point de fin de la tâche.
-1. Pour supprimer une relation de prédécesseur, cliquez sur une ligne de prédécesseur qui connecte deux tâches pour la sélectionner, puis appuyez sur **[!UICONTROL Supprimer]** sur votre clavier.\
-   ![Delete_prédécesseur.png](assets/delete-predecessor-350x152.png)
+1. Pour créer une relation d’antériorité, cliquez sur le point de départ d’une tâche et faites-le glisser jusqu’au point d’entrée de la tâche.
+1. Pour supprimer une relation d’antériorité, cliquez sur une ligne de tâche antérieure qui relie deux tâches pour la sélectionner, puis appuyez sur **[!UICONTROL Supprimer]** sur votre clavier.\
+   ![Delete_predecessor.png](assets/delete-predecessor-350x152.png)
 
-1. (Facultatif et conditionnel) Si vous avez choisi d’enregistrer vos modifications manuellement, cliquez sur les icônes **[!UICONTROL Annuler]** ou &#x200B;**[!UICONTROL Rétablir]** si vous souhaitez annuler ou dupliquer l’une des modifications.
+1. (Facultatif et le cas échéant) Si vous avez choisi d’enregistrer vos modifications manuellement, cliquez sur l’icône **[!UICONTROL Annuler]** ou **[!UICONTROL Rétablir]** si vous souhaitez annuler ou dupliquer l’une des modifications.
 
    >[!TIP]
    >
-   >Vous pouvez utiliser les raccourcis clavier suivants pour annuler ou rétablir des modifications sur le graphique Gantt :
+   >Vous pouvez utiliser les raccourcis clavier suivants pour annuler ou rétablir les modifications apportées au graphique de Gantt :
    >
    >   
    >   
-   >   * [!DNL Mac] : utilisez [!UICONTROL Commande + Z] pour annuler et [!UICONTROL Commande + Maj + Z] pour rétablir.
-   >   * [!DNL Windows] : [!UICONTROL Utilisez Ctrl + Z] pour annuler et [!UICONTROL Ctrl + Y] pour rétablir.
+   >   * [!DNL Mac] : utilisez [!UICONTROL Commande+Z] pour annuler et [!UICONTROL Commande+Maj+Z] pour rétablir.
+   >   * [!DNL Windows] : utilisez [!UICONTROL Ctrl+Z] pour annuler et [!UICONTROL Ctrl+Y] pour rétablir.
    >   
    >
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** .
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Modification des dates de début et de fin de la tâche
+## Modifier les dates de début et de fin des tâches
 
 1. Accédez au projet que vous souhaitez modifier.
-1. Dans la zone **[!UICONTROL Tâches]**, cliquez sur l&#39;icône **[!UICONTROL Graphique de Gantt]** .
+1. Dans la zone **[!UICONTROL Tâches]**, cliquez sur l’icône **[!UICONTROL Graphique de Gantt]**.
 
-   Toutes les modifications sont enregistrées automatiquement lorsque l’option **[!UICONTROL Enregistrement automatique]** est activée. Cette option est activée par défaut.
+   Toutes les modifications sont automatiquement enregistrées lorsque l’option **[!UICONTROL Enregistrement automatique]** est activée. Elle est activée par défaut.
 
-   ![Cliquez sur l’icône Graphique de Gantt](assets/click-gantt-chart-icon.png)
+   ![Cliquer sur l’icône Graphique de Gantt](assets/click-gantt-chart-icon.png)
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel Standard]** ou **[!UICONTROL Planning]** pour enregistrer vos modifications manuellement.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planification chronologique]** pour enregistrer vos modifications manuellement.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
-1. Pointez sur le centre de la tâche et recherchez la flèche multidirectionnelle.
-1. Cliquez sur la tâche et faites-la glisser jusqu’à la date de votre choix.
+1. Pointez sur le centre de la tâche et localisez la flèche multidirectionnelle.
+1. Cliquez sur la tâche et faites-la glisser jusqu’à la date souhaitée.
 
    ![Change_start_end_date.png](assets/change-start-end-date.png)
 
-1. Si vous modifiez la date de la tâche d’une manière qui affecte la contrainte de tâche, cliquez sur **[!UICONTROL Accepter]** pour accepter la modification de la contrainte de tâche.
+1. Si vous modifiez la date de la tâche d’une manière qui affecte la contrainte de tâche, cliquez sur **[!UICONTROL Accepter]** pour reconnaître la modification de la contrainte de tâche.
 
    >[!NOTE]
    >
-   >Si la tâche présente l’une des contraintes suivantes, le système met à jour la [!UICONTROL contrainte de tâche] vers [!UICONTROL Ne pas démarrer plus tôt] que si le projet est planifié à partir de la [!UICONTROL date de début] ou de [!UICONTROL Terminer plus tard] si le projet est planifié à partir de la [!UICONTROL date d’achèvement] :
+   >Si la tâche est soumise à l’une des contraintes suivantes, le système met à jour la [!UICONTROL Contrainte de tâche] sur [!UICONTROL Commencer Au Plus Tôt] si le projet est planifié à partir de la [!UICONTROL Date de début] ou sur [!UICONTROL Terminer au plus tard] si le projet est planifié à partir de la [!UICONTROL Date d’achèvement] :
    >
    >   
    >   
-   >   * [!UICONTROL Dès Que Possible]
+   >   * [!UICONTROL Aussi Tôt Que Possible]
    >   * [!UICONTROL Aussi Tard Que Possible]
-   >   * [!UICONTROL Temps disponible le plus tôt]
-   >   * [!UICONTROL Dernière heure disponible]
+   >   * [!UICONTROL Première Heure Disponible]
+   >   * [!UICONTROL Dernière Heure Disponible]
    >   
    >   
-   >Dans certains cas, les relations de prédécesseur peuvent empêcher les tâches de commencer plus tôt, et le déplacement de la tâche n’est pas autorisé.
+   >Dans certains cas, les relations antérieures peuvent empêcher les tâches de commencer plus tôt et le déplacement des tâches n’est pas autorisé.
 
-1. (Facultatif et conditionnel) Si vous avez choisi d’enregistrer vos modifications manuellement, cliquez sur les icônes **[!UICONTROL Annuler]** ou &#x200B;**[!UICONTROL Rétablir]** si vous souhaitez annuler ou dupliquer l’une des modifications.
+1. (Facultatif et conditionnel) Si vous avez choisi d’enregistrer vos modifications manuellement, cliquez sur les icônes **[!UICONTROL Annuler]** ou **[!UICONTROL Rétablir]** si vous souhaitez annuler ou dupliquer l’une des modifications.
 
    >[!TIP]
    >
-   >Vous pouvez utiliser les raccourcis clavier suivants pour annuler ou rétablir des modifications sur le [!UICONTROL diagramme de Gantt] :
+   >Vous pouvez utiliser les raccourcis clavier suivants pour annuler ou rétablir les modifications apportées au [!UICONTROL Graphique de Gantt] :
    >
    >   
    >   
-   >   * [!DNL Mac] : utilisez [!UICONTROL Commande + Z] pour annuler et [!UICONTROL Commande + Maj + Z] pour rétablir.
-   >   * [!DNL Windows] : utilisez [!UICONTROL Ctrl + Z] pour annuler et [!UICONTROL Ctrl + Y] pour rétablir.
+   >   * [!DNL Mac] : utilisez [!UICONTROL Commande+Z] pour annuler et [!UICONTROL Commande+Maj+Z] pour rétablir.
+   >   * [!DNL Windows] : utilisez [!UICONTROL Ctrl+Z] pour annuler et [!UICONTROL Ctrl+Y] pour rétablir.
    >   
    >
 
@@ -176,43 +176,43 @@ Pour suivre les étapes de cet article, vous devez disposer des éléments suiva
 ## Mettre à jour le pourcentage terminé
 
 1. Accédez au projet que vous souhaitez modifier.
-1. Dans la zone **[!UICONTROL Tâches]**, cliquez sur l&#39;icône **[!UICONTROL Graphique de Gantt]** .
+1. Dans la zone **[!UICONTROL Tâches]**, cliquez sur l’icône **[!UICONTROL Graphique de Gantt]**.
 
-   ![Cliquez sur l’icône Graphique de Gantt](assets/click-gantt-chart-icon.png)
+   ![Cliquer sur l’icône Graphique de Gantt](assets/click-gantt-chart-icon.png)
 
-   Toutes les modifications sont enregistrées automatiquement lorsque l’option **[!UICONTROL Enregistrement automatique]** est activée. Cette option est activée par défaut.
+   Toutes les modifications sont sauvegardées automatiquement lorsque l’option **[!UICONTROL Enregistrement automatique]** est activée. Elle est activée par défaut.
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel Standard]** ou **[!UICONTROL Planning]** pour enregistrer vos modifications manuellement.
-1. Double-cliquez sur le nombre de pourcentage dans la tâche et saisissez le nombre.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planification chronologique]** pour enregistrer vos modifications manuellement.
+1. Double-cliquez sur le pourcentage à l’intérieur de la tâche et saisissez le nombre.
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL % Complete] doit être sélectionné dans la boîte de dialogue [!UICONTROL Options] pour que le pourcentage de mise à jour soit terminé. Pour ce faire, cliquez sur l’icône **[!UICONTROL Options]** et sélectionnez **[!UICONTROL % Complete]**.
+   >Vous devez avoir sélectionné [!UICONTROL % terminé] dans la boîte de dialogue [!UICONTROL Options] pour pouvoir mettre à jour le pourcentage d’achèvement. Pour ce faire, cliquez sur l’icône **[!UICONTROL Options]** et sélectionnez **[!UICONTROL % terminé]**.
    >
    >
-   >![update_percent_complete.png](assets/update-percent-complete-350x175.png)   >
+   >![update_percent_complete.png](assets/update-percent-complete-350x175.png) >
    >
 
-1. (Facultatif et conditionnel) Si vous avez choisi d’enregistrer vos modifications manuellement, cliquez sur les icônes **[!UICONTROL Annuler]** ou &#x200B;**[!UICONTROL Rétablir]** si vous souhaitez annuler ou dupliquer l’une des modifications.
+1. (Facultatif et le cas échéant) Si vous avez choisi d’enregistrer vos modifications manuellement, cliquez sur l’icône **[!UICONTROL Annuler]** ou **[!UICONTROL Rétablir]** si vous souhaitez annuler ou dupliquer l’une des modifications.
 
    >[!TIP]
    >
-   >Vous pouvez utiliser les raccourcis clavier suivants pour annuler ou rétablir des modifications sur le [!UICONTROL diagramme de Gantt] :
+   >Vous pouvez utiliser les raccourcis clavier suivants pour annuler ou rétablir les modifications apportées au [!UICONTROL Graphique de Gantt] :
    >
    >   
    >   
-   >   * [!DNL Mac] : utilisez [!UICONTROL Commande + Z] pour annuler et [!UICONTROL Commande + Maj + Z] pour rétablir.
-   >   * [!DNL Windows] : utilisez [!UICONTROL Ctrl + Z] pour annuler et [!UICONTROL Ctrl + Y] pour rétablir.
+   >   * [!DNL Mac] : utilisez [!UICONTROL Commande+Z] pour annuler et [!UICONTROL Commande+Maj+Z] pour rétablir.
+   >   * [!DNL Windows] : utilisez [!UICONTROL Ctrl+Z] pour annuler et [!UICONTROL Ctrl+Y] pour rétablir.
    >   
    >
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** dans le coin supérieur droit du [!UICONTROL diagramme de Gantt].
+1. Cliquez sur **[!UICONTROL Enregistret]** dans le coin supérieur droit du [!UICONTROL Graphique de Gantt].
 
-## Ressources de projet de niveau
+## Niveler les ressources du projet
 
-Vous pouvez utiliser le [!UICONTROL diagramme de Gantt] de la liste des tâches pour mettre à niveau vos ressources.
+Vous pouvez utiliser la liste des tâches [!UICONTROL Graphique de Gantt] pour niveler vos ressources.
 
-Pour plus d’informations sur le nivellement des ressources dans le [!UICONTROL diagramme de Gantt], voir [Ressources de niveau dans le [!UICONTROL diagramme de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
+Pour plus d’informations sur le nivellement des ressources dans le [!UICONTROL Graphique de Gantt], voir [Niveler les ressources dans le [!UICONTROL Graphique de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -1,28 +1,28 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Budgétiser les ressources dans l’analyse de rentabilité à l’aide du planificateur de ressources
-description: Dans le cadre de la planification des ressources, vous pouvez utiliser le planificateur de ressources au niveau du projet pour planifier les rôles de tâche nécessaires à l’exécution du travail dans un projet lorsque vous créez l’analyse de cas.
+description: Dans le cadre de la planification des ressources, vous pouvez utiliser le planificateur de ressources au niveau du projet pour budgétiser les fonctions nécessaires à la réalisation des travaux d’un projet lors de l’élaboration de l’analyse de rentabilité.
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
 source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 # Budgétiser les ressources dans l’analyse de rentabilité à l’aide du planificateur de ressources
 
-Dans le cadre de la planification des ressources, vous pouvez utiliser le planificateur de ressources au niveau du projet pour planifier les rôles de tâche nécessaires à l’exécution du travail dans un projet lorsque vous créez l’analyse de cas.
+Dans le cadre de la planification des ressources, vous pouvez utiliser le planificateur de ressources au niveau du projet pour budgétiser les fonctions nécessaires à la réalisation des travaux d’un projet lors de l’élaboration de l’analyse de rentabilité.
 
-Pour plus d’informations sur la création d’un dossier d’affaires, voir [Création d’un dossier d’affaires pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Pour plus d’informations sur la création d’un business case, voir [Créer un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 >[!TIP]
 >
->Les informations que vous saisissez dans le planificateur de ressources au niveau du projet sont également visibles dans le planificateur de ressources au niveau du système. L’inverse est également vrai. Pour plus d’informations sur le planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+>Les informations que vous saisissez dans le planificateur de ressources au niveau du projet sont également visibles dans le planificateur de ressources au niveau du système. Le contraire est également vrai. Pour plus d’informations sur le planificateur de ressources, voir [Vue d’ensemble du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-Vous pouvez également budgétiser des ressources dans l’analyse de cas à l’aide du planificateur de scénario Adobe Workfront. Pour plus d’informations, voir [Ressources budgétaires dans l’analyse de cas à l’aide du planificateur de scénario](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+Vous pouvez également budgétiser les ressources dans l’analyse de rentabilité à l’aide du planificateur de scénarios Adobe Workfront. Pour plus d’informations, voir [Budgétiser les ressources dans l’analyse de rentabilité à l’aide du planificateur de scénarios](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## Conditions d’accès
 
@@ -33,25 +33,25 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Formule Adobe Workfront</a>*</td> 
-   <td> <p>Pro ou version ultérieure</p> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Plan Adobe Workfront</a> *</td> 
+   <td> <p>Pro ou niveau supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>*</td> 
-   <td> <p>Révision ou supérieur</p> <p>Important : Vous devez disposer d’une licence Plan pour modifier les informations de budget des ressources. </p> </td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>*</td> 
+   <td> <p>Révision ou supérieur</p> <p>Important : vous devez disposer d’une licence Plan pour modifier les informations relatives à la budgétisation des ressources. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès en modification aux éléments suivants : </p> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifiez l’accès aux éléments suivants : </p> 
     <ul> 
      <li> <p>Projets</p> </li> 
      <li> <p>Gestion des ressources</p> </li> 
      <li> <p>Données financières</p> </li> 
-    </ul> <p>Pour plus d’informations sur l’accès aux ressources du budget, voir également <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Accès aux ressources du budget dans Adobe Workfront</a>.</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Adobe Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+    </ul> <p>Pour plus d’informations sur l’accès nécessaire pour budgétiser les ressources, voir également <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Accès nécessaire pour budgétiser les ressources dans Adobe Workfront</a>.</p> <p>Note : si vous n’avez toujours pas l’accès nécessaire, demandez à votre équipe d’administration Adobe Workfront si elle a défini des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations sur le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Gérer les autorisations sur le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander un accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,11 +60,11 @@ Vous devez disposer des éléments suivants :
 
 ## Conditions préalables
 
-Avant de commencer, vous devez effectuer les opérations suivantes :
+Avant de commencer, vous devez effectuer les opérations suivantes :
 
-* Respectez toutes les conditions préalables à la planification des ressources dans Adobe Workfront. Pour plus d’informations, voir [Présentation de Resource Planner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* Remplissez toutes les conditions requises pour la planification des ressources dans Adobe Workfront. Pour plus d’informations, voir [Vue d’ensemble du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Associez les groupes de ressources au projet.
+* Associer des groupes de ressources au projet.
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:(you must have tasks assigned to job roles and users on the project - this is optional because the users and their roles come from the pools))</p>
@@ -72,116 +72,116 @@ Avant de commencer, vous devez effectuer les opérations suivantes :
 
   >[!NOTE]
   >
-  >Vous ne pouvez pas budgétiser les ressources affectées aux problèmes dans l’Analyse de cas. Vous pouvez les budgéter dans le planificateur de ressources au niveau du système. Pour plus d’informations sur le planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  >Vous ne pouvez pas budgétiser les ressources affectées aux problèmes dans l’analyse de rentabilité. Vous pouvez les budgétiser dans le planificateur de ressources au niveau du système. Pour plus d’informations sur le planificateur de ressources, voir [Vue d’ensemble du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Bien qu’il ne s’agisse pas d’un prérequis, nous vous recommandons également d’indiquer les Heures planifiées pour les tâches du projet. Cela vous permet de comprendre le temps nécessaire à la réalisation d’une tâche, ce qui vous permet de prendre en compte le temps nécessaire au budget des ressources pour terminer la tâche. Pour plus d’informations sur l’association de tâches avec des heures planifiées, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+* Bien qu’il ne s’agisse pas d’une condition préalable, nous vous recommandons également d’indiquer les heures prévues pour les tâches du projet. Cela vous aide à comprendre la quantité de travail qu’une tâche peut nécessiter, ce qui vous aide à décider du temps pour lequel les ressources doivent être budgétisées afin de mener à bien la tâche. Pour plus d’informations sur l’association des tâches au nombre d’heures prévues, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-## Application de pools de ressources à un projet et à des ressources de budget dans l’analyse de cas
+## Appliquer des groupes de ressources à un projet et budgétiser les ressources dans l’analyse de rentabilité
 
 >[!IMPORTANT]
 >
->Vous pouvez répartir vos ressources sur une période de 15 ans. Si vous planifiez des ressources pour un projet d’une durée supérieure à 15 ans, les informations de budget peuvent ne pas être exactes.
+>Vous pouvez budgétiser vos ressources pour une période de 15 ans. Si vous budgétisez des ressources pour un projet d’une durée supérieure à 15 ans, les informations budgétaires risquent de ne pas être exactes.
 
-Pour appliquer des pools de ressources et des ressources de projet de budget dans l’Analyse de cas pour un projet sans pool de ressources :
+Pour appliquer les groupes de ressources et budgétiser les ressources du projet dans l’analyse de rentabilité d’un projet sans groupe de ressources :
 
 1. Accédez au projet pour lequel vous souhaitez budgétiser les ressources.
-1. Cliquez sur **Business Case** dans le panneau de gauche.
-1. (Conditionnel) Si votre société ne dispose pas d’une licence pour le planificateur de scénario Workfront, cliquez sur **Modifier le budget des ressources** dans la section **Budget des ressources**, puis passez à l’étape 5.
+1. Cliquez sur **Analyse de rentabilité** dans le panneau de gauche.
+1. (Le cas échéant) Si votre entreprise n’a pas de licence pour le planificateur de scénarios Workfront, cliquez sur **Modifier l’établissement du budget de ressources** dans la section **Établissement du budget de ressources**, puis passez à l’étape 5.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">(NOTE: ensure it stays right - this is 5 instead of 6 because step 2 won't print for nwe)</p>
    -->
 
-1. (Facultatif et conditionnel) Si les informations du projet ont été publiées à partir d’une initiative dans le planificateur de scénario, effectuez l’une des opérations suivantes :
+1. (Facultatif et le cas échéant) Si les informations sur le projet ont été publiées à partir d’une initiative sur le planificateur de scénarios, effectuez l’une des opérations suivantes :
 
-   * Sélectionnez Resource Planner dans le champ **Choisir les heures à utiliser pour calculer le coût de la main-d&#39;oeuvre budgétisée du projet**, puis cliquez sur **Choisir > Modifier le budget de la ressource**.
+   * Sélectionnez le planificateur de ressources dans le champ **Choisir les heures à utiliser pour calculer le coût budgétisé de la main d’œuvre du projet**, puis cliquez sur **Choisir > Modifier l’établissement du budget de ressources**.
 
      ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
-   * Si le planificateur de scénario a été sélectionné pour les ressources de budget du projet, cliquez sur **Modifier** > **Modifier le budget des ressources**.
+   * Si le planificateur de scénarios a été sélectionné pour l’établissement du budget de ressources du projet, cliquez sur **Modifier** > **Modifier l’établissement du budget de resources**.
 
      ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
 
-   Cette opération utilise les Heures budgétisées du projet pour calculer le coût de la main-d’oeuvre budgétisée du projet.
+   Cette fonction utilise les heures budgétées du projet pour calculer les coûts budgétés de main-d’œuvre pour le projet.
 
-   Le planificateur de scénarios n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+   Le planificateur de scénarios n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
 
    >[!NOTE]
    >
-   >Nous vous recommandons de prendre la décision d’utiliser le planificateur de ressources ou le planificateur de scénarios lorsque vous commencez à travailler sur un projet. Le fait de basculer fréquemment entre les deux au cours de la vie du projet peut créer des incohérences dans la manière dont vous répartissez les ressources pour le projet.
+   >Nous vous recommandons d’utiliser le planificateur de ressources ou le planificateur de scénarios lorsque vous commencez à travailler sur un projet. Le fait de passer souvent de l’un à l’autre au cours de la vie du projet peut donner lieu à des incohérences dans la manière dont vous budgétez les ressources du projet.
 
-1. Dans le champ **Select Resource Pool** , spécifiez un ou plusieurs **Resource Pools**.
+1. Dans le champ **Sélectionner le groupe de ressources**, spécifiez un ou plusieurs **groupes de ressources**.
 
-   Vous ne devez spécifier que les groupes de ressources contenant des utilisateurs actifs.
+   Vous ne devez spécifier que les groupes de ressources qui contiennent des utilisateurs et utilisatrices actifs.
 
    >[!TIP]
    >
-   >Si le projet est déjà associé à des groupes de ressources, le planificateur de ressources s’affiche par défaut. Pour ajouter d’autres groupes de ressources au projet, modifiez le projet. Pour plus d’informations sur la modification d’un projet, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+   >Si le projet est déjà associé à des groupes de ressources, le planificateur de ressources s’affiche par défaut. Pour ajouter d’autres groupes de ressources au projet, modifiez le projet. Pour plus d’informations sur la modification d’un projet, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Cliquez sur **Appliquer**.
 
    Le planificateur de ressources s’affiche pour le projet sélectionné.
 
-   Par défaut, les 20 premiers rôles de tâche associés à ce projet sont répertoriés dans la section Budget des ressources dans l’ordre alphabétique. 
+   Par défaut, les 20 premières fonctions associées à ce projet sont répertoriées dans la section Établissement du budget de ressources par ordre alphabétique. 
 
-   Pour plus d’informations sur le planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Pour plus d’informations sur le planificateur de ressources, voir [Vue d’ensemble du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-   ![BC_resource_records_area.png](assets/bc-resource-budgeting-area-350x276.png)
+   ![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)
 
-1. (Facultatif et conditionnel) Développez les rôles de tâche pour afficher les utilisateurs qui y sont associés.
+1. (Facultatif et le cas échéant) Développez les fonctions pour voir les personnes qui leur sont associées.
 
    >[!NOTE]
    >
-   >Les utilisateurs actifs ne sont affichés sous les rôles de tâche qui leur sont associés que s’ils répondent aux critères suivants :
+   >Les utilisateurs et utilisatrices actifs sont affichés sous les fonctions qui leur sont associées uniquement s’ils répondent aux critères suivants :
    >
    >   
    >   
    >   * Ils appartiennent à l’un des groupes de ressources du projet.
-   >   * Les Heures budgétaires leur sont affectées.
-   >   * Ils sont associés à l’un des rôles de tâche du projet.
+   >   * Des heures budgétées leur sont attribuées.
+   >   * Ils sont associés à l’une des fonctions du projet.
    >   
    >
 
     
 
-1. Cliquez sur **Today** pour revenir à la période actuelle.
-1. (Facultatif) Cliquez sur **Semaine**, **Mois** ou **Trimestre** pour afficher les informations du projet dans différentes périodes.
-1. (Facultatif) Cliquez sur le menu déroulant **Hours**, puis sélectionnez **Hours**,**FTE** ou **Cost** pour modifier la manière dont les informations s’affichent dans le planificateur de ressources. Les heures s’affichent par défaut.
+1. Cliquez sur **Aujourd’hui** pour revenir à la période d’aujourd’hui.
+1. (Facultatif) Cliquez sur **Semaine**, **Mois** ou **Trimestre** pour afficher les informations relatives au projet dans des périodes différentes.
+1. (Facultatif) Cliquez sur le menu déroulant **Heures** et sélectionnez **Heures**,**Équivalent temps complet** ou **Coût** pour modifier l’affichage des informations dans le planificateur de ressources. Les heures sont affichées par défaut.
 
 1. (Facultatif) Cliquez sur **Exporter** pour exporter le planificateur de ressources vers un fichier Excel.
 
    >[!NOTE]
    >
-   >Vous pouvez exporter des données pendant 12 périodes au maximum.
+   >Vous pouvez exporter des données pour un maximum de 12 périodes à la fois.
 
-1. (Facultatif) Cliquez sur l’icône **Plein écran** ![full_screen_RP_in_BC.png](assets/full-screen-rp-in-bc.png) pour afficher le planificateur de ressources en mode Plein écran.
+1. (Facultatif) Cliquez sur l’icône **Plein écran** ![ full_screen_RP_in_BC.png](assets/full-screen-rp-in-bc.png) pour afficher le planificateur de ressources en mode plein écran.
 
-1. Mettez à jour le champ **BDG** (Heures budgétées) avec les valeurs Heure, ETR ou Coût pour les utilisateurs, les rôles ou le projet en effectuant l’une des opérations suivantes :
+1. Mettez à jour le champ **BDG** (heures budgétées) avec des valeurs d’heures, d’équivalent temps complet ou de coûts pour les personnes, les rôles ou le projet en effectuant l’une des opérations suivantes :
 
-   * Estimez manuellement le nombre de valeurs Heures, ETR ou Coût pour les rôles, les utilisateurs ou le projet.
+   * Estimez manuellement le nombre d’heures, d’équivalent temps complet ou les valeurs de coût pour les rôles, les personnes ou le projet.
 
      Ou
 
-   * Cliquez sur l’icône **Options** pour le projet ou les rôles de tâche et sélectionnez une option pour répartir automatiquement les heures entre les rôles, les utilisateurs ou le projet.
+   * Cliquez sur l’icône **Options** pour le projet ou les fonctions et sélectionnez une option pour budgétiser automatiquement les heures pour les rôles, les personnes ou le projet.
 
-   Pour plus d’informations sur la planification dans la vue Projet du planificateur de ressources, voir [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+   Pour plus d’informations sur la budgétisation dans la vue Projet du planificateur de ressources, voir [Budgétiser les ressources dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
    >[!NOTE]
    >
-   >Vous pouvez budgéter les heures, les EFS ou les coûts de vos ressources pour n’importe quelle période affichée dans la zone Ressource budgétaire, indépendamment de la chronologie du projet. Par exemple, si vous souhaitez indiquer que vos ressources ne seront peut-être pas disponibles dans la chronologie du projet (où elles sont associées aux Heures planifiées), mais qu’elles pourront être disponibles à une autre période, vous pouvez le faire en les budgétisant pour les périodes où les Heures planifiées sont nulles, si c’est le moment où elles deviennent disponibles pour le travail.
+   >Vous pouvez budgétiser les heures, les équivalents temps complet ou les coûts de vos ressources pour n’importe quelle période affichée dans la zone Établissement du budget de ressources, indépendamment de la chronologie du projet. Par exemple, si vous souhaitez indiquer que vos ressources peuvent ne pas être disponibles pendant la durée du projet (où elles sont associées à un nombre d’heures prévues), mais qu’elles peuvent être disponibles à un autre moment, vous pouvez le faire en les budgétisant pour des périodes où le nombre d’heures prévues est zéro, si c’est à ce moment-là qu’elles deviennent disponibles pour le travail.
 
-1. (Facultatif) Pour savoir si vous pouvez déplacer les heures, les ETF ou les coûts budgétés vers une autre période, cliquez sur l’icône **Options**, puis **Ajuster les dates de budget**.
+1. (Facultatif) Pour savoir si vous pouvez déplacer les heures, les équivalents temps complet ou les coûts budgétés vers une autre période, cliquez sur l’icône **Options**, puis sur **Ajuster les dates de budget**.
 
    Pour plus d’informations sur l’ajustement des dates budgétées, voir [Ajuster les dates de budgétisation dans le planificateur de ressources](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md).
 
 1. Cliquer sur **Enregistrer**.
 
-   Si des taux de coût par heure sont associés à vos rôles de tâche, la budgétisation des ressources dans la zone Ressource/Budget calcule le **coût de la main-d’oeuvre budgété** du projet. Le Coût de la main-d&#39;oeuvre budgétisé est affiché dans la zone Budget des ressources de l&#39;Analyse de cas et dans le Récapitulatif des analyses de cas.
+   Si des taux de coût horaire sont associés à vos fonctions, la budgétisation des ressources dans la zone Établissement du budget de ressources calcule le **coût budgété de main-d’œuvre** du projet. Le coût budgété de main-d’œuvre est affiché dans la zone Établissement du budget de ressources du business case et dans le récapitulatif du business case.
 
    >[!TIP]
    >
-   >Le coût s’affiche dans l’Analyse de cas dans la devise du projet.
+   >Le coût s’affiche dans le business case dans la devise du projet.
 
-   Les informations de budget spécifiées dans l&#39;Analyse de cas sont également affichées dans le planificateur de ressources.
+   Les informations budgétaires spécifiées dans le business case sont également affichées dans le planificateur de ressources.
 
-   Lorsque vous copiez un projet, vous avez la possibilité de copier les heures budgétées dans le nouveau projet. Seules les heures budgétées dans le planificateur de ressources sont copiées. Pour plus d’informations, voir [Copier un projet](../manage-projects/copy-project.md).
+   Lorsque vous copiez un projet, vous avez la possibilité de copier également les heures budgétées dans le nouveau projet. Seules les heures budgétées dans le planificateur de ressources sont copiées. Pour plus d’informations, voir [Copier un projet](../manage-projects/copy-project.md).

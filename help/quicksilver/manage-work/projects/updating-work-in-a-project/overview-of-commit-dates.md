@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Vue d’ensemble des dates d’engagement
+title: Vue d’ensemble de la date d’engagement
 description: La date d’engagement est la date à laquelle une personne affectée à une tâche ou à un problème s’engage à le terminer. Cette valeur est différente de la date d’achèvement prévue, car il s’agit d’une estimation plus réaliste de la date d’achèvement fournie par la personne directement responsable du travail.
 author: Alina
 feature: Work Management
@@ -10,7 +10,7 @@ exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
 source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
 source-wordcount: '895'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -30,27 +30,27 @@ Cette valeur est différente de la date d’achèvement prévue d’une tâche o
 
 Pour plus d’informations sur la date d’achèvement prévue, consultez la section [Vue d’ensemble de la date d’achèvement prévu de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
-## Vue d’ensemble des dates d’engagement
+## Vue d’ensemble de la date d’engagement
 
-Tenez compte des points suivants lorsque vous utilisez des dates d’engagement :
+Tenez compte des points suivants lorsque vous travaillez avec des dates d’engagement :
 
 * Seules les tâches et les problèmes ont une date d’engagement.
 * Les dates d’engagement ne sont pas définies automatiquement par Adobe Workfront.\
   Lorsque vous créez une tâche ou un problème, aucune date d’engagement n’est affectée à la tâche ou au problème.
-* Lorsque vous recevez une tâche ou un problème, vous pouvez définir la date d’engagement en effectuant l’une des opérations suivantes :
+* Si on vous affecte une tâche ou un problème, vous pouvez définir la date d’engagement en effectuant l’une des opérations suivantes :
 
-   * Laissez Workfront définir la date d’engagement de sorte qu’elle corresponde à la date d’achèvement prévue existante de la tâche ou du problème en cliquant sur Travailler sur ce projet, Démarrer le problème ou Démarrer la tâche sur la tâche ou le problème. Pour plus d’informations sur le remplacement du bouton Travailler sur ce projet par un bouton Démarrer, consultez la section [Remplacer le bouton Travailler sur ce projet avec un bouton Démarrer](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * Laissez Workfront définir la date d’engagement de sorte qu’elle corresponde à la date d’achèvement prévue existante de la tâche ou du problème en cliquant sur Travailler sur ce projet, Démarrer le problème ou Démarrer la tâche sur la tâche ou le problème. Pour plus d’informations sur le remplacement du bouton Travailler sur ce projet par un bouton Démarrer, voir [Remplacer le bouton Travailler sur ce projet par un bouton Démarrer](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Définissez manuellement vous-même la date d’engagement en fonction de quand vous pensez terminer la tâche ou le problème. En tant que personne cessionnaire, il s’agit de votre estimation et de votre engagement envers la personne chargée de la gestion du projet de terminer la tâche ou le problème à une date spécifique. Pour plus d’informations, consultez la section [Mettre à jour les dates d’engagement pour les tâches et les problèmes](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
->Pour modifier la date d’engagement, vous devez être la personne propriétaire de la tâche. Les personnes suivants ne peuvent pas modifier la date d’engagement d’une tâche :
+>Pour modifier la date d’engagement, vous devez être la personne propriétaire de la tâche. Les utilisateurs et utilisatrices suivants ne peuvent pas modifier la date d’engagement d’une tâche :
 >
 >* Propriétaire du projet
 >* Sponsor du projet
 >* Gestionnaire des ressources
 >* Administrateur ou administratrice système
->* Toute autre personne cessionnaire pour la tâche
+>* Toute autre personne cessionnaire pour la tâche.
 >* Toute autre personne disposant d’autorisations sur la tâche
 >
 >Pour plus d’informations sur la personne propriétaire de la tâche, consultez la section [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -61,7 +61,7 @@ Vous pouvez retrouver la date d’engagement des tâches et des problèmes dans 
 
 * La page de détails
 * Panneau Résumé, une fois qu’un administrateur ou une administratrice Workfront ou de groupes l’a ajouté à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser l’accueil et le résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-* L’en-tête d’une tâche ou d’un problème, après qu’un administrateur de Workfront ou de groupe l’ait ajoutée à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser les en-têtes d’objet à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+* L’en-tête d’une tâche ou d’un problème, après qu’un administrateur de Workfront ou de groupe l’ait ajoutée à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser les en-têtes d’objets à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ## Notifications et mises à jour déclenchées en modifiant la date d’engagement {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -77,7 +77,7 @@ La définition manuelle de la date d’engagement d’une tâche ou d’un probl
 
   ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-  La modification de la date d’engagement s’affiche dans la zone Mises à jour de la tâche ou du problème lorsque l’administrateur ou l’administratrice de Workfront active cette mise à jour dans la zone Flux de mises à jour de Configuration. Pour plus d’informations, consultez la section [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  La modification de la date d’engagement s’affiche dans la zone Mises à jour de la tâche ou du problème lorsque l’administrateur ou l’administratrice de Workfront active cette mise à jour dans la zone Flux de mises à jour de Configuration.Pour plus d’informations, voir [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
   Si une personne propriétaire de projet ne souhaite pas accepter la modification, nous lui recommandons de faire part de ses commentaires à l’utilisateur ou à l’utilisatrice qui propose une nouvelle date dans l’onglet Commentaires de la section Mises à jour, afin de lui demander de redéfinir la date d’engagement sur la date initialement prévue, ou de sélectionner une nouvelle date.
 
@@ -122,9 +122,9 @@ La définition manuelle de la date d’engagement d’une tâche ou d’un probl
 
   >[!TIP]
   >
-  >La notification indiquant que la date d’engagement a changé est envoyée à la personne propriétaire du projet uniquement lorsque l’administrateur ou l’administratrice de Workfront active l’affichage de la date d’engagement dans la zone Flux de mise à jour de Configuration. Pour plus d’informations, consultez la section [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  >La notification indiquant que la date d’engagement a changé est envoyée à la personne propriétaire du projet uniquement lorsque l’administrateur ou l’administratrice de Workfront active l’affichage de la date d’engagement dans la zone Flux de mise à jour de Configuration. Pour plus d’informations, voir [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, consultez la section [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, voir [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Pour plus d’informations sur la mise à jour des dates d’engagement pour les tâches et les problèmes, voir [Mettre à jour les dates d’engagement pour les tâches et les problèmes](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 

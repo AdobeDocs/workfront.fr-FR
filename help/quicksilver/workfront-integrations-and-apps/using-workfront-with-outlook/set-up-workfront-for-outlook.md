@@ -2,7 +2,7 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: Configurer  [!DNL Adobe Workfront]  pour  [!DNL Outlook]
-description: Le module complémentaire  [!DNL Adobe Workfront] [!DNL Outlook] vous permet d’effectuer les tâches clés  [!DNL Workfront]  directement à partir d’Outlook.
+description: Le module complémentaire  [!DNL Adobe Workfront] [!DNL Outlook] vous permet d’effectuer les tâches clés de  [!DNL Workfront]  directement à partir d’Outlook.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
@@ -43,7 +43,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
@@ -54,25 +54,25 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Conditions préalables
 
-Votre administrateur ou administratrice [!DNL Workfront] doit activer [!DNL Outlook for Office] avec [!DNL Workfront] avant que vous ne puissiez utiliser cette intégration.
+Votre équipe d’administration [!DNL Workfront] doit activer [!DNL Outlook for Office] avec [!DNL Workfront] avant de pouvoir utiliser cette intégration.
 
 ## Configuration requise
 
 Les applications suivantes sont disponibles :
 
 * **[!DNL Outlook]sur le web :** le module complémentaire [!DNL Workfront] est disponible lorsque vous utilisez [!DNL Outlook] à partir d’un navigateur web, que ce soit sur un ordinateur de bureau ou un appareil mobile. Cette fonctionnalité est également disponible lorsque vous utilisez l’application web [!DNL Outlook].
-* Application de bureau **[!DNL Outlook] :** le module complémentaire [!DNL Workfront] est disponible lorsque vous utilisez les versions de bureau de [!DNL Windows] et [!DNL Mac] de [!DNL Outlook] incluses dans le package [!DNL Office].
+* Application de bureau **[!DNL Outlook] :** le module complémentaire [!DNL Workfront] est disponible lorsque vous utilisez les versions de bureau de [!DNL Windows] et [!DNL Mac] d’[!DNL Outlook] incluses dans le package [!DNL Office].
 
 Le module complémentaire [!DNL Workfront] pour [!DNL Outlook] est pris en charge dans les environnements qui répondent aux exigences suivantes :
 
 * [Exigences relatives au client](#client-requirements-client-requirements)
-* [Conditions requises pour le serveur de messagerie](#mail-server-requirements-mail-server-requirements)
+* [Exigences relatives au serveur de messagerie](#mail-server-requirements-mail-server-requirements)
 
 ### Exigences relatives au client {#client-requirements}
 
@@ -92,9 +92,9 @@ Lors de la configuration du client, vous devez sélectionner l’un des types de
 * [!DNL Office 365]
 * [!DNL Outlook.com] Si le client est configuré pour se connecter avec POP3 ou IMAP, le module complémentaire [!DNL Workfront] ne se charge pas.
 
-### Conditions requises pour le serveur de messagerie {#mail-server-requirements}
+### Exigences relatives au serveur de messagerie {#mail-server-requirements}
 
-Les conditions requises pour le serveur de messagerie sont remplies par défaut lorsque vous vous connectez à [!DNL Office 365] ou [!DNL Outlook.com]. Toutefois, si vous vous connectez à une installation On-Premise d’[!DNL Exchange Server], les conditions requises suivantes s’appliquent :
+Les conditions requises pour le serveur de messagerie sont remplies par défaut lorsque vous vous connectez à [!DNL Office 365] ou [!DNL Outlook.com]. Toutefois, si vous vous connectez à une installation On-Premise d’[!DNL Exchange Server], les conditions suivantes s’appliquent :
 
 * Workfront prend en charge tous les serveurs [!DNL Exchange On-Premise].
 * [!DNL Exchange Web Services] (EWS) doit être activé et doit être exposé à l’Internet.
@@ -137,7 +137,7 @@ Vous pouvez obtenir le module complémentaire Workfront pour Outlook dans le [Mi
 
 1. Cliquez sur le bouton (bascule) pour activer le module complémentaire **[!UICONTROL [!DNL Workfront]]**.
 
-## Se connecter à [!DNL Workfront] à partir d’ [!DNL Outlook]
+## Connectez-vous à [!DNL Workfront] à partir d’[!DNL Outlook].
 
 1. Dans [!DNL Outlook], sélectionnez un e-mail, puis cliquez sur l’icône **[!DNL Workfront]** dans l’en-tête de l’e-mail.
 1. Sur la page de connexion, cliquez sur **Se connecter à Workfront**.
@@ -147,6 +147,6 @@ Vous pouvez obtenir le module complémentaire Workfront pour Outlook dans le [Mi
 
    >[!NOTE]
    >
-   >* Si vous êtes invité à saisir le domaine de votre compte [!DNL Workfront], saisissez-le au format suivant : *yourCompany&#39;sDomain.my.workfront.com*. Le domaine de votre entreprise correspond généralement à son nom.
+   >* Si vous êtes invité à saisir le domaine de votre compte [!DNL Workfront], saisissez-le au format suivant : *yourCompany&#39;sDomain.my.workfront.com*. Le domaine de votre entreprise est généralement le nom de votre entreprise.
 
 <!--ADDITIONAL BULLET REMOVED FROM NOTE BOX: Enhanced Authentication is not available until a Workfront administrator enables it for this integration.-->

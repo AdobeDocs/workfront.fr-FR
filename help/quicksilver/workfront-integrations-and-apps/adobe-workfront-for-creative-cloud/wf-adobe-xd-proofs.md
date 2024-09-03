@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
-title: Charger des plans de travail XD en tant qu’épreuves dans Workfront
-description: Vous pouvez télécharger vos tableaux de bord en tant que bons à tirer directement vers Adobe Workfront pour une révision et une approbation approfondies.
+title: Charger des plans de travail XD en tant qu’épreuves sur Workfront
+description: Vous pouvez charger vos plans de travail en tant qu’épreuves directement sur Adobe Workfront pour une révision et une approbation approfondies.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
 source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Télécharger [!DNL XD] artefacts en tant que bons à tirer vers [!DNL Workfront]
+# Charger des plans de travail [!DNL XD] en tant qu’épreuves sur [!DNL Workfront]
 
-Vous pouvez télécharger vos plans de travail en tant que bons à tirer directement vers [!DNL Adobe Workfront] pour une révision et une approbation approfondies.
+Vous pouvez charger vos plans de travail en tant qu’épreuves directement sur [!DNL Adobe Workfront] pour une révision et une approbation approfondies.
 
 ## Conditions d’accès
 
@@ -28,12 +28,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>Formule actuelle : [!UICONTROL Pro] ou version ultérieure</p> <p>ou</p> <p>Formule héritée : [!UICONTROL Premium]</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir .</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td> <p>Formule actuelle : [!UICONTROL Pro] ou version ultérieure</p> <p>ou</p> <p>Formule héritée : [!UICONTROL Premium]</p> <p>Pour plus d’informations sur l’accès en relecture avec les différentes formules, voir .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>Plan actuel : [!UICONTROL Travail] ou [!UICONTROL Preuve]</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
+   <td> <p>Formule actuelle : [!UICONTROL Work] ou [!UICONTROL Proof]</p> <p>Plan hérité : n’importe lequel (la relecture doit être activée pour l’utilisateur ou l’utilisatrice)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
@@ -41,64 +41,64 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
-   <td>[!UICONTROL Manager] ou version ultérieure</td> 
+   <td>[!UICONTROL Manager] ou version supérieure</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Modifier l’accès aux [!UICONTROL Documents]</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux [!UICONTROL Documents]</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, consultez la section <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour savoir quel plan, rôle ou profil d’autorisation de BAT vous avez, contactez votre administrateur [!DNL Workfront] ou [!DNL Workfront Proof].
+&#42;Pour connaître le plan, rôle ou profil d’autorisation d’épreuve dont vous disposez, contactez l’administration [!DNL Workfront] ou [!DNL Workfront Proof].
 
 +++
 
 ## Conditions préalables
 
-* Vous devez installer le module externe [!DNL Adobe Workfront for XD] avant de pouvoir télécharger des bons à tirer dans [!DNL Adobe XD].
+* Vous devez installer le plug-in [!DNL Adobe Workfront for XD] avant de pouvoir charger des épreuves sur [!DNL Adobe XD].
 
-  Pour obtenir des instructions, voir [Installation [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+  Pour obtenir des instructions, consultez la section [Installer [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
-## Chargement d’un BAT statique
+## Charger une épreuve statique
 
-1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
+1. Cliquez sur le bouton **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
    ![](assets/menu-350x440.png)
 
-1. Accédez à l’élément de travail dans lequel vous souhaitez charger un BAT statique.
+1. Accédez à l’élément de travail dans lequel vous souhaitez charger une épreuve statique.
 1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation.
 
-1. Cliquez sur **[!UICONTROL New File]** près du bas du module externe.
+1. Cliquez sur **[!UICONTROL Nouveau fichier]** au bas du plug-in.
 1. Sélectionnez les plans de travail que vous souhaitez charger.
 
    >[!TIP]
    >
-   >* Les tableaux d’affichage apparaîtront dans le BAT dans l’ordre dans lequel ils ont été sélectionnés. Le premier plan de travail sélectionné sera la première page du BAT, etc.
-   >* Pour sélectionner rapidement plusieurs plans de travail, cliquez et faites glisser la souris sur les plans de travail de votre choix. Cela ne vous permet pas de contrôler l’ordre des tableaux dans le BAT.
+   >* Les plans de travail s’affichent dans l’épreuve suivant l’ordre de sélection. Le premier plan de travail sélectionné constituera la première page de l’épreuve, etc.
+   >* Pour sélectionner rapidement plusieurs plans de travail, cliquez et faites glisser la souris sur les plans de travail souhaités. Cela ne vous permet pas de contrôler l’ordre des plans de travail dans l’épreuve.
 
-1. Activez **[!UICONTROL Créer un bon à tirer]**.
+1. Cochez **[!UICONTROL Créer une épreuve]**.
 
-1. Nommez le BAT.
+1. Nommez l’épreuve.
 
-1. Choisissez le type de validation du BAT que vous souhaitez :
+1. Choisissez le type d’approbation de l’épreuve que vous souhaitez :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Basic] : </td> 
-      <td> <p>Les processus d’approbation de base sont ad hoc et peuvent inclure différents réviseurs selon les besoins : </p> 
+      <td role="rowheader">[!UICONTROL Basic] : </td> 
+      <td> <p>Les processus d’approbation de base sont ad hoc et peuvent inclure différentes personnes chargées de la révision selon les besoins : </p> 
        <ul> 
-        <li> <p>(Facultatif) Ajoutez <strong>Approvers</strong> dans la zone.</p> </li> 
+        <li> <p>(Facultatif) Ajoutez des <strong>Approbateurs et approbatrices</strong> dans la zone.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Automated]</td> 
-      <td> <p>Les processus d’approbation automatisée sont préconfigurés par les administrateurs et incluent des réviseurs et des étapes spécifiques. Pour plus d’informations, voir <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Présentation du processus automatisé</a>.</p> 
+      <td> <p>Les processus d’approbation automatisée sont préconfigurés par l’équipe d’administration et incluent des réviseurs et réviseuses et des étapes spécifiques. Pour plus d’informations, consultez la section <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Vue d’ensemble des workflows automatisés</a>.</p> 
        <ul> 
-        <li> <p>Sélectionnez un [!UICONTROL Modèle de workflow] dans le menu déroulant.</p> </li> 
+        <li> <p>Sélectionnez un [!UICONTROL Workflow Template] dans le menu déroulant.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -106,75 +106,75 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 {{adjust-proof-settings}}
 
-1. (Facultatif) Saisissez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
+1. (Facultatif) Apportez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
    ![](assets/proof-approvals-xd-350x396.png)
 
-1. Choisissez le format d’exportation dans le menu déroulant **[!UICONTROL Type de ressource]**.
+1. Choisissez le format d’export dans le menu déroulant **[!UICONTROL Type de ressource]**.
 
 
-1. (Facultatif) Si vous sélectionnez PDF comme type de ressource et que plusieurs artefacts sont sélectionnés, choisissez si vous souhaitez exporter vos artefacts en tant que **[!UICONTROL Fichier de PDF unique]s** ou **M[!UICONTROL plusieurs fichiers de PDF]**.
+1. (Facultatif) Si vous sélectionnez le type de ressource PDF et que plusieurs plans de travail sont sélectionnés, choisissez si vous souhaitez exporter vos plans de travail en tant que **[!UICONTROL Fichiers PDF uniques]** ou en tant que **[!UICONTROL Plusieurs fichiers PDF]**.
 
 1. (Facultatif) Nommez le PDF.
 
    ![](assets/pdf-options.png)
 
-1. Cliquez sur **[!UICONTROL Télécharger]**.\
-   Le document apparaît dans la zone [!UICONTROL Documents] du module externe et de l’appli de bureau.
+1. Cliquez sur **[!UICONTROL Charger]**.\
+   Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’application de bureau.
 
-## Chargement d’un BAT interactif {#upload-an-interactive-proof}
+## Charger une épreuve interactive {#upload-an-interactive-proof}
 
-Vous pouvez créer un BAT interactif pour vos tableaux de bord à l’aide du module externe [!DNL Workfront for Adobe]. Il s’agit d’un processus en 2 étapes. Vous devez d’abord créer un lien interactif, puis télécharger le BAT vers un élément de travail.
+Vous pouvez créer une épreuve interactive pour vos tableaux de bord à l’aide du plug-in [!DNL Workfront for Adobe]. Il s’agit d’un processus en 2 étapes. Vous devez d’abord créer un lien interactif, puis charger l’épreuve dans un élément de travail.
 
-### Création d’un lien interactif pour votre plan de travail  {#create-an-interactive-link-for-your-art-board}
+### Créer un lien interactif pour votre plan de travail  {#create-an-interactive-link-for-your-art-board}
 
 1. Ouvrez votre plan de travail, puis cliquez sur **[!UICONTROL Partager]** dans la zone supérieure gauche de l’écran.
-1. Définissez les paramètres du lien :
+1. Indiquez les paramètres du lien :
 
    1. Nommez le lien.
-   1. Choisissez un paramètre d’affichage.
-   1. Dans la section **[!UICONTROL Accès aux liens]** , assurez-vous que **[!UICONTROL Toute personne disposant de ce lien]** est sélectionnée.
+   1. Choisissez un paramètre de vue.
+   1. Dans la section **[!UICONTROL Lier l’accès]**, assurez-vous que l’option **[!UICONTROL Toute personne disposant de ce lien]** est sélectionnée.
 
-      Vous devez activer ce type d’accès pour générer un BAT interactif.
+      Vous devez activer ce type d’accès pour générer une épreuve interactive.
 
    1. Cliquez sur **[!UICONTROL Créer un lien]**.
 
-1. Cliquez sur **[!UICONTROL Conception]** dans la zone supérieure gauche de l’écran. Passez à la section [Télécharger un BAT interactif](#upload-an-interactive-proof) ci-dessous.
+1. Revenez à **[!UICONTROL Conception]** dans la zone supérieure gauche de l’écran. Passez à la section [Charger une épreuve interactive](#upload-an-interactive-proof) ci-dessous.
 
    >[!NOTE]
    >
-   >Vous devrez peut-être rouvrir le panneau du module externe dans le coin inférieur gauche de l’écran.
+   >Vous devrez peut-être rouvrir le panneau du plug-in dans le coin inférieur gauche de l’écran.
 
-### Chargement d’un BAT interactif
+### Charger une épreuve interactive
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
    ![](assets/menu-350x440.png)
 
-1. Accédez à l’élément de travail dans lequel vous souhaitez télécharger un BAT interactif.
+1. Accédez à l’élément de travail dans lequel vous souhaitez charger une épreuve interactive.
 1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation.
 
-1. Cliquez sur **[!UICONTROL New File]** près du bas du module externe.
-1. Activez **[!UICONTROL Créer un bon à tirer]**.
+1. Cliquez sur **[!UICONTROL Nouveau fichier]** près du bas du plug-in.
+1. Activez **[!UICONTROL Créer une épreuve]**.
 
-1. Choisissez le type de validation du BAT que vous souhaitez :
+1. Choisissez le type d’approbation de l’épreuve que vous souhaitez :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Basic] : </td> 
-      <td> <p>Les processus d’approbation de base sont ad hoc et peuvent inclure différents réviseurs selon les besoins : </p> 
+      <td role="rowheader">[!UICONTROL Basic] : </td> 
+      <td> <p>Les processus d’approbation de base sont ad hoc et peuvent inclure différentes personnes chargées de la révision selon les besoins : </p> 
        <ul> 
-        <li> <p>(Facultatif) Ajoutez <strong>Approvers</strong> dans la zone.</p> </li> 
+        <li> <p>(Facultatif) Ajoutez des <strong>Approbateurs et approbatrices</strong> dans la zone.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Automated]</td> 
-      <td> <p>Les processus d’approbation automatisée sont préconfigurés par les administrateurs et incluent des réviseurs et des étapes spécifiques. Pour plus d’informations, voir <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Présentation du processus automatisé</a>.</p> 
+      <td> <p>Les processus d’approbation automatisée sont préconfigurés par l’équipe d’administration et incluent des réviseurs et réviseuses et des étapes spécifiques. Pour plus d’informations, consultez la section <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Vue d’ensemble des workflows automatisés</a>.</p> 
        <ul> 
-        <li> <p>Sélectionnez un [!UICONTROL Modèle de workflow] dans le menu déroulant.</p> </li> 
+        <li> <p>Sélectionnez un [!UICONTROL Workflow Template] dans le menu déroulant.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -186,54 +186,54 @@ Vous pouvez créer un BAT interactif pour vos tableaux de bord à l’aide du mo
 
    ![](assets/proof-approvals-xd-350x396.png)
 
-1. Dans le menu déroulant **[!UICONTROL Type de ressource]**, sélectionnez le lien que vous venez de créer sous l’onglet **Liens partagés** . Pour plus d’informations, voir [Création d’un lien interactif pour votre plan de travail](#create-an-interactive-link-for-your-artboard).\
+1. Dans le menu déroulant **[!UICONTROL Type de ressource]**, sélectionnez le lien que vous venez de créer sous l’onglet **Liens partagés**. Pour plus d’informations, voir [Créer un lien interactif pour votre plan de travail](#create-an-interactive-link-for-your-artboard).\
    ![](assets/shared-links-xd-350x870.png)
 
-1. Cliquez sur **[!UICONTROL Télécharger]**.
+1. Cliquez sur **[!UICONTROL Charger]**.
 
-   Le document apparaît dans la zone [!UICONTROL Documents] du module externe et de l’appli de bureau.
+   Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’application de bureau.
 
    >[!IMPORTANT]
    >
-   >Les utilisateurs doivent avoir accès à la [!UICONTROL Visionneuse de vérification de l’appli de bureau] pour passer en revue et approuver les bons à tirer interactifs. Pour plus d’informations, voir [Installation de la [!UICONTROL visionneuse de vérification de l’appli de bureau]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >Les personnes doivent avoir accès à la [!UICONTROL visionneuse de relecture de bureau] pour réviser et approuver les épreuves interactives. Pour plus d’informations, consultez [Installer la [!UICONTROL visionneuse de relecture de bureau]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
-## Télécharger une nouvelle version du BAT
+## Charger une nouvelle version d’épreuve
 
-Vous pouvez télécharger une nouvelle version d’un BAT. Le module externe mémorise le workflow de vérification défini sur la version précédente, mais vous pouvez le modifier si vous le souhaitez.
+Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve en mémoire le workflow de relecture défini sur la version précédente, mais vous pouvez modifier ce paramètre si vous le souhaitez.
 
-1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
+1. Cliquez sur l’cône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
    ![](assets/menu-350x440.png)
 
-1. Accédez à l’élément de travail sur lequel vous devez charger un document.
-1. Cliquez sur l&#39;icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation.
+1. Accédez à l’élément de travail dans lequel vous devez charger un document.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation.
 
-1. Cliquez sur **[!UICONTROL Nouvelle version]** près du bas du module externe.
-1. Activez **[!UICONTROL Créer un bon à tirer]**.
+1. Cliquez sur **[!UICONTROL Nouvelle version]** près du bas du plug-in.
+1. Activez **[!UICONTROL Créer une épreuve]**.
 1. Sélectionnez les plans de travail que vous souhaitez charger.
 
    >[!NOTE]
    >
    >Si vous souhaitez charger une nouvelle version d’un fichier .svg, .png ou .jpg, vous ne pouvez charger qu’un seul plan de travail.
 
-1. Choisissez le type de validation du BAT que vous souhaitez :
+1. Choisissez le type d’approbation de l’épreuve que vous souhaitez :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Basic] : </td> 
-      <td> <p>Les processus d’approbation de base sont ad hoc et peuvent inclure différents réviseurs selon les besoins : </p> 
+      <td role="rowheader">[!UICONTROL Basic] : </td> 
+      <td> <p>Les processus d’approbation de base sont ad hoc et peuvent inclure différentes personnes chargées de la révision selon les besoins : </p> 
        <ul> 
-        <li> <p>(Facultatif) Ajoutez <strong>Approvers</strong> dans la zone.</p> </li> 
+        <li> <p>(Facultatif) Ajoutez des <strong>Approbateurs et approbatrices</strong> dans la zone.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Automated]</td> 
-      <td> <p>Les processus d’approbation automatisée sont préconfigurés par les administrateurs et incluent des réviseurs et des étapes spécifiques. Pour plus d’informations, voir <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Présentation du processus automatisé</a>.</p> 
+      <td> <p>Les processus d’approbation automatisée sont préconfigurés par l’équipe d’administration et incluent des réviseurs et réviseuses et des étapes spécifiques. Pour plus d’informations, consultez la section <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Vue d’ensemble des workflows automatisés</a>.</p> 
        <ul> 
-        <li> <p>Sélectionnez un [!UICONTROL Modèle de workflow] dans le menu déroulant.</p> </li> 
+        <li> <p>Sélectionnez un [!UICONTROL Workflow Template] dans le menu déroulant.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -241,7 +241,7 @@ Vous pouvez télécharger une nouvelle version d’un BAT. Le module externe mé
 
 {{adjust-proof-settings}}
 
-1. Choisissez le format d’exportation dans le menu déroulant **[!UICONTROL Type de ressource]**.
+1. Choisissez le format d’export dans le menu déroulant **[!UICONTROL Type de ressource]**.
 
    ![](assets/create-a-proof-xd-350x202.png)
 
@@ -249,11 +249,11 @@ Vous pouvez télécharger une nouvelle version d’un BAT. Le module externe mé
 
    ![](assets/proof-approvals-xd-350x396.png)
 
-1. (Facultatif) Si vous sélectionnez PDF comme type de ressource et que plusieurs artefacts sont sélectionnés, choisissez si vous souhaitez exporter vos artefacts en tant que **[!UICONTROL Fichier de PDF unique]s** ou **M[!UICONTROL plusieurs fichiers de PDF]**.
+1. (Facultatif) Si vous sélectionnez PDF comme type de ressource et que plusieurs plans de travail sont sélectionnés, choisissez si vous souhaitez exporter vos plans de travail en tant que **[!UICONTROL Fichiers PDF uniques]** ou **[!UICONTROL Plusieurs fichiers PDF]**.
 
 1. (Facultatif) Nommez le PDF.
 
    ![](assets/pdf-options.png)
 
-1. Cliquez sur **[!UICONTROL Télécharger]**.\
-   Le document apparaît dans la zone [!UICONTROL Documents] du module externe et de l’appli de bureau.
+1. Cliquez sur **[!UICONTROL Charger]**.\
+   Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’appli de bureau.

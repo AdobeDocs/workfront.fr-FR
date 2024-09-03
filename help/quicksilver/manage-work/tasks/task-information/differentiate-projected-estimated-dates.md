@@ -27,7 +27,7 @@ Il existe plusieurs types de dates qui indiquent la chronologie des tâches entr
 
 Cet article décrit les différences entre les dates estimées et les dates prévisionnelles pour les projets.
 
-Lors de la création de la tâche, les dates prévues, prévisionnelles et estimées doivent normalement correspondre. Il existe quelques exceptions.
+Lors de la création de la tâche, les dates prévue, prévisionnelles et estimées doivent normalement correspondre. Il existe quelques exceptions.
 
 Pour plus d’informations sur les dates du projet, de la tâche et du problème dans Adobe Workfront, voir [Vue d’ensemble des dates du projet, de la tâche et du problème dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
@@ -43,7 +43,7 @@ Lorsqu’une tâche est créée, elle n’a pas de dates effectives, car elle n�
 
 Au cours de la vie d’un projet, les dates prévisionnelles et estimées sont plus conformes à la réalité du projet, car elles prennent en compte ce qui peut influencer le début et la fin effectifs d’une tâche. Cela entraîne une modification des dates prévues.
 
-Tenez compte des points suivants lorsque vous utilisez des dates prévisionnelles et estimées pour des tâches :
+Tenez compte des points suivants lorsque vous travaillez avec des dates prévisionnelles et estimées pour des tâches :
 
 * Vous ne pouvez pas modifier manuellement les dates estimées ou prévisionnelles des tâches. Elles sont toutes les deux calculées par Adobe Workfront.
 * Lorsque vous créez une tâche, les dates prévisionnelles et estimées doivent être identiques et illustrer les dates réelles auxquelles les tâches peuvent commencer ou se terminer.\
@@ -60,16 +60,16 @@ La différence entre les dates prévisionnelles et les dates estimées est la su
    * Ajouter une date de contrainte en ajoutant une contrainte de tâche fixe
    * Ajouter une date d’engagement
 
-* Les dates estimées ne tiennent compte que de la progression réelle d’une tâche à un moment donné.
+* Les dates estimées ne tiennent compte que de l’avancement réel d’une tâche à un moment donné.
 
-**Exemple :** si nous avons une tâche dont la date de début prévue est le 20 septembre et la date d’achèvement prévue est le 24 septembre, et qu’elle est soumise à la contrainte « Il Faut Finir Le », la date d’achèvement prévisionnelle est le 24 septembre. Cette tâche a une durée de 4 jours.
+**Exemple :** si nous avons une tâche dont la date de début prévue est le 20 septembre et la date d’achèvement prévue est le 24 septembre, et qu’elle est soumise à la contrainte « Doit se terminer le », la date d’achèvement prévisionnelle est le 24 septembre. Cette tâche a une durée de 4 jours.
 
 La date d’achèvement estimée est calculée sur la base de la progression actuelle du travail sur la tâche. Ainsi, si nous sommes le 23 septembre et que la tâche n’a pas encore commencé, la date d’achèvement estimée est le 27 septembre (elle devrait être terminée après 4 jours, en supposant que le travail soit commencé aujourd’hui).
 
 Si la tâche est achevée à 50 % aujourd’hui, la date d’achèvement estimée est le 25 septembre (elle devrait être achevée après 2 jours, ce qui correspond à la moitié de la durée de la tâche).
 
 
-### Comprendre quand les dates prévisionnelles sont mises à jour sur les tâches {#understand-when-projected-dates-update-on-tasks}
+### Comprendre quand les dates prévisionnelles sont mises à jour sur les tâches. {#understand-when-projected-dates-update-on-tasks}
 
 Les dates prévues peuvent correspondre à d’autres dates de tâche ou il s’agit d’un calcul effectué par Workfront qui prend en compte la progression réelle de la tâche.
 
@@ -97,7 +97,7 @@ La liste suivante présente plusieurs scénarios dans lesquels les dates prévis
 
   `Projected Completion Date = Commit Date`
 
-  Pour plus d’informations sur la date d’engagement, consultez [Vue d’ensemble de la date d’engagement](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Pour plus d’informations sur la date d’engagement, voir [Vue d’ensemble de la date d’engagement](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * Lorsque la tâche n’a pas de date d’engagement mise à jour et que la tâche a une contrainte forcée (Doit se terminer le) pour la date d’achèvement prévue qui est dans le futur :
 
@@ -107,7 +107,7 @@ La liste suivante présente plusieurs scénarios dans lesquels les dates prévis
 
   `Projected Completion Date = system calculation for the Completion Date based on the current progress and the work left to be done`
 
-### Comprendre quand les dates estimées sont mises à jour pour les tâches {#understand-when-the-estimated-dates-update-on-tasks}
+### Comprendre quand les dates estimées sont mises à jour pour les tâches. {#understand-when-the-estimated-dates-update-on-tasks}
 
 Par rapport aux scénarios décrits ci-dessus pour les dates prévisionnelles, les dates estimées reflètent toujours l’analyse réelle de Workfront quant à la date de début ou de fin de la tâche, indépendamment des dates de contrainte ou d’engagement.
 

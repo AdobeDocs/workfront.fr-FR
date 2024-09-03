@@ -2,23 +2,23 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Présentation de la contrainte de tâche : heure disponible la plus tôt"
-description: La première heure disponible est une contrainte de tâche qui planifie qu’une tâche commence au moment le plus tôt possible après avoir pris en compte les relations de prédécesseur.
+title: '« Vue d’ensemble de la contrainte de tâche : "Première Heure Disponible" »'
+description: Le délai le plus court est une contrainte de tâche qui planifie une tâche pour qu’elle commence au plus tôt après avoir pris en compte les relations antérieures.
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
 source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Vue d’ensemble des contraintes de tâches : Première Heure Disponible
+# Vue d’ensemble des contraintes de tâches : Première heure disponible
 
-La première heure disponible est une contrainte de tâche qui planifie qu’une tâche commence au moment le plus tôt possible après avoir pris en compte les relations de prédécesseur.
+Le délai le plus court est une contrainte de tâche qui planifie une tâche pour qu’elle commence au plus tôt après avoir pris en compte les relations antérieures.
 
-Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mise à jour de la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Pour plus d’informations sur la mise à jour de la contrainte de tâche, voir [Mettre à jour la contrainte de tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above) </p>
@@ -52,32 +52,32 @@ Pour plus d’informations sur la mise à jour de la contrainte de tâche sur un
    <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save Changes</strong>.</li>
    -->
 
-## Différence entre le plus tôt temps disponible et le plus tôt possible
+## Différence entre Première heure disponible et Aussi tôt que possible
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])</p>
 -->
 
-La contrainte Heure disponible la plus ancienne diffère de la contrainte Dès que possible lorsque tous les critères suivants existent :
+La contrainte Première heure disponible diffère de la contrainte Aussi tôt que possible lorsque tous les critères suivants sont remplis :
 
-* Le projet est planifié à partir de la fin
-* Les tâches du projet ont une relation de prédécesseur
-* La tâche précédente présente une contrainte de tâche flexible.
+* Le projet est planifié à partir de la date d’achèvement.
+* Les tâches du projet ont une relation antérieure.
+* La tâche antérieure a une contrainte de tâche flexible.
 
-Dans ce cas :
+Dans ce cas :
 
-* **Temps disponible le plus tôt :** L’utilisation de la contrainte Temps disponible le plus tôt sur la tâche qui lui succède donne la priorité à la contrainte flexible du prédécesseur.
-
-  **EXEMPLE**
-
-  La tâche A est un prédécesseur de la tâche B. La tâche B a la contrainte Temps disponible la plus ancienne et la tâche A la contrainte Aussi tardive que possible. Dans ce cas, la tâche B est planifiée aussi près que possible de la fin du projet.
-
-  ![Contrainte horaire disponible la plus tôt lorsque la tâche a des dates proches de la date d’achèvement du projet](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
-
-* **Dès que possible :** Dans ce scénario, l’utilisation de la contrainte Dès que possible sur la tâche qui lui succède donne la priorité à la tâche qui lui succède.
+* **Première Heure Disponible :** l’utilisation de la contrainte « Première Heure Disponible » pour la tâche ultérieure donne la priorité à la contrainte flexible antérieure.
 
   **EXEMPLE**
 
-  La tâche A est un prédécesseur de la tâche B. La tâche B a la contrainte Dès que possible et la tâche A la contrainte Aussi tard que possible. Dans ce cas, la tâche B est planifiée aussi près que possible du début du projet.
+  La tâche A est antérieure à la tâche B. La tâche B est soumise à la contrainte « Première Heure Disponible » et la tâche A est soumise à la contrainte « Aussi Tard Que Possible ». Dans ce cas, la tâche B est programmée le plus près possible de la fin du projet.
 
-  ![Dès que possible la contrainte lorsque les dates de la tâche sont proches de la date de début du projet](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
+  ![Contrainte « Première Heure Disponible » lorsque les dates de la tâche sont proches de la date d’achèvement du projet.](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
+
+* **Aussi Tôt Que Possible :** dans ce scénario, l’utilisation de la contrainte « Aussi Tôt Que Possible » pour la tâche ultérieure donne la priorité à cette dernière.
+
+  **EXEMPLE**
+
+  La tâche A est antérieure à la tâche B. La tâche B a la contrainte « Aussi Tôt Que Possible » et la tâche A a la contrainte « Aussi Tard Que Possible ». Dans ce cas, la tâche B est programmée le plus près possible du début du projet.
+
+  ![Contrainte « Aussi Tôt Que Possible » lorsque les dates de la tâche sont proches de la date de début du projet.](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)

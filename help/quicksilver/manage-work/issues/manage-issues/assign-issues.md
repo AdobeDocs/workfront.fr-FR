@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Attribuer les problèmes
+title: Attribuer des problèmes
 description: Vous pouvez affecter des problèmes aux utilisateurs et utilisatrices, aux rôles et aux équipes afin d’indiquer qui est responsable de la résolution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la Vue d’ensemble de la modification des affectations de problèmes.
 author: Alina
 feature: Work Management
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 ---
 
-# Attribuer les problèmes
+# Attribuer des problèmes
 
 <!--Audited: 07/2024-->
 
@@ -26,18 +26,18 @@ Vous pouvez affecter des problèmes aux utilisateurs et utilisatrices, aux rôle
 >
 >Si une personne, une fonction ou une équipe a été affectée avant d’être désactivée, elle reste affectée à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
 >
->* Réaffectez l’élément de travail aux ressources actives.
->* Associez les personnes d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
+>* Réaffectez la tâche aux ressources actives.
+>* Associez les utilisateurs et utilisatrices d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 
 Outre cet article, nous vous recommandons de lire les articles suivants pour plus d’informations sur l’affectation des problèmes :
 
-* [Vue d’ensemble de la modification des affectations des problèmes](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [Vue d’ensemble de la modification des affectations de problèmes](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [Modifier des problèmes](../../../manage-work/issues/manage-issues/edit-issues.md)
-* [Modifier les affectations des utilisateurs et des utilisatrices pour plusieurs problèmes dans une liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
+* [Modifier des affectations d’utilisateurs et d’utilisatrices pour plusieurs problèmes dans une liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [Créer des affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 * [Créer des affectations intelligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Vue d’ensemble des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
-* [Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+* [Vue d’ensemble de l’affectation de travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 Vous pouvez affecter un problème à une ou plusieurs ressources au niveau d’un problème spécifique, ou vous pouvez affecter plusieurs ressources à plusieurs problèmes simultanément.
 
@@ -54,13 +54,13 @@ L’affectation de problèmes et de tâches est similaire dans Adobe Workfront. 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle </p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p>
-   <p>Actuel : révision ou supérieur</p> </td> 
+   <td> <p>Nouvelle : contributeur ou supérieure</p>
+   <p>Actuel : Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
@@ -77,7 +77,7 @@ L’affectation de problèmes et de tâches est similaire dans Adobe Workfront. 
 
 +++
 
-## Remarques relatives à plusieurs affectations pour les fonctions, les équipes et les utilisateurs et utilisatrices
+## Considérations relatives à plusieurs affectations pour les fonctoins, les équipes et les utilisateurs et utilisatrices
 
 Tenez compte des points suivants lorsque vous affectez plusieurs ressources à un élément de travail :
 
@@ -87,11 +87,11 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
   Si une tâche ou un problème est assigné à une ou plusieurs fonctions, puis que vous affectez également un utilisateur ou une utilisatrice, Adobe Workfront décide quelle fonction associer à l’utilisateur ou à l’utilisatrice supplémentaire (le cas échéant) selon les règles suivantes :
 
-   * Si une seule fonction est attribuée et qu’elle correspond au rôle principal de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté uniquement à l’utilisateur ou à l’utilisatrice qui remplit son rôle principal.
-   * Si plusieurs rôles sont affectés et qu’au moins un des rôles correspond aux rôles secondaires de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est alors assigné à l’utilisateur ou à l’utilisatrice qui remplit l’un de ses autres rôles (que Workfront sélectionne au hasard s’il existe plusieurs correspondances) ainsi que les rôles supplémentaires affectés.
+   * Si une seule fonction est attribuée et qu’elle correspond au rôle principal de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté(e) uniquement à l’utilisateur ou à l’utilisatrice qui remplit son rôle principal.
+   * Si plusieurs rôles sont affectés et qu’au moins un des rôles correspond aux rôles secondaires de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est alors assigné(e) à l’utilisateur ou à l’utilisatrice qui remplit l’un de ses autres rôles (que Workfront sélectionne au hasard s’il existe plusieurs correspondances) ainsi que les rôles supplémentaires affectés.
    * Si une ou plusieurs fonctions sont affectées et qu’il n’y a aucune correspondance avec les rôles de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté à la fois au ou aux rôles et à l’utilisateur ou l’utilisatrice.
 
-* Si une tâche ou un problème est affecté à une équipe et que vous affectez également un utilisateur ou une utilisatrice, la tâche ou le problème reste affecté à la fois à l’équipe et à l’utilisateur ou à l’utilisatrice.
+* Si une tâche ou un problème est affecté à une équipe et que vous affectez également un utilisateur ou une utilisatrice, la tâche ou le problème reste affecté(e) à la fois à l’équipe et à l’utilisateur ou à l’utilisatrice.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -111,7 +111,7 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 ## Affecter un seul problème
 
 1. Accédez au problème que vous souhaitez affecter.
-1. Cliquez sur **Affecter à** dans le coin supérieur droit de l’en-tête du problème, dans la zone **Affectations**.
+1. Cliquez sur **Affecter à** dans le coin supérieur droit de l’en-tête du problème, dans la zones **Affectations**.
 
    Ou
 
@@ -121,7 +121,7 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’une fonction ou d’une équipe que vous souhaitez affecter, puis cliquez dessus lorsqu’il apparaît dans la liste.
+   * Commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’un rôle ou d’une équipe que vous souhaitez affecter, puis cliquez sur celui-ci lorsqu’il apparaît dans la liste.
 
      ![Recherche d’affectations](assets/smart-assignments-issue-header.png)
 
@@ -133,11 +133,11 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
      >[!TIP]
      >
-     >Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, la fonction principale de la personne ou son adresse e-mail pour faire la distinction entre les personnes portant des noms identiques.
+     >Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, le rôle principal de l’utilisateur ou de l’utilisatrice ou son adresse e-mail, pour faire la distinction entre les utilisateurs et utilisatrices portant le même nom.
      >
-     >Les personnes doivent être associées à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
+     >Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
      >
-     >Pour pouvoir voir les adresses e-mail des utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+     >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
 
      <!-- this doesn't apply to issues; if it does, add this to the TIP above: 
@@ -164,7 +164,7 @@ Pour affecter des problèmes dans une liste :
 1. Accédez à la liste des problèmes dont les champs Affecté à, Affecté ou Affectations sont affichés dans la vue.
 1. Pour affecter des problèmes, effectuez l’une des opérations suivantes :
 
-   * Cliquez dans les champs **Affecté à** ou **Affecté** et commencez à saisir le nom d’une personne active que vous souhaitez affecter au problème, puis cliquez sur le nom lorsqu’il apparaît dans la liste.
+   * Cliquez dans le champ **Affecté à** ou **Affecté** et commencez à saisir le nom d’une personne active que vous souhaitez affecter au problème, puis cliquez sur le nom lorsqu’il apparaît dans la liste.
 
      ![](assets/assigned-to-field-task-list-nwe.png)
 
@@ -176,18 +176,18 @@ Pour affecter des problèmes dans une liste :
    >
    >Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, la fonction principale de la personne ou son adresse e-mail pour faire la distinction entre les personnes portant des noms identiques.
    >
-   >Les personnes doivent être associées à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
+   >Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
    >
-   >Pour pouvoir voir les adresses e-mail des utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. (Le cas échéant) Lorsqu’elle est visible dans le champ Affectations, cliquez sur l’icône Personnes  dans le coin supérieur droit de la zone des affectations pour ouvrir la zone Affectations avancées et créer des affectations avancées. ****![](assets/teams.png) Pour plus d’informations, consultez la section [Créer des affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Le cas échéant) Lorsqu’elle est visible dans le champ Affectations, cliquez sur l’**icône Personnes** ![](assets/teams.png) dans le coin supérieur droit de la zone des affectations pour ouvrir la zone Affectations avancées et créer des affectations avancées. Pour plus d’informations, voir [Créer des affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
    >Vous ne pouvez pas créer d’affectations avancées à partir des champs Affecté à ou Affecté.
 
-1. Après avoir ajouté les personnes cessionnaires au problème, appuyez sur la touche Entrée ou cliquez n’importe où sur la page pour enregistrer vos modifications.
+1. Après avoir ajouté les personnes désignées au problème, appuyez sur la touche Entrée ou cliquez n’importe où sur la page pour enregistrer vos modifications.
 
 ## Affecter des problèmes en bloc
 
@@ -203,13 +203,13 @@ Pour affecter des problèmes dans une liste :
    >
    >Si l’un des problèmes est déjà affecté, les ressources que vous indiquez ici y sont ajoutées. Les ressources existantes ne sont pas remplacées sur les problèmes.
 
-1. (Facultatif) Lorsque vous affectez plusieurs ressources au problème, sélectionnez la case d’option dans la colonne Personne propriétaire du problème pour indiquer la ressource qui est la personne cessionnaire principale ou la personne propriétaire du problème. **** Cette option n’est pas disponible pour les équipes.
-1. (Facultatif) Lorsque vous attribuez des personnes à des problèmes, sélectionnez un rôle que la personne doit remplir sur le problème dans le menu déroulant Choisir un rôle de la colonne Rôle de la personne cessionnaire. ******** Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle principal de la personne.
+1. (Facultatif) Lorsque vous affectez plusieurs ressources au problème, sélectionnez la case d’option dans la colonne **Personne propriétaire du problème** pour indiquer la ressource qui est la personne cessionnaire principale ou la personne propriétaire du problème. Cette option n’est pas disponible pour les équipes.
+1. (Facultatif) Lorsque vous attribuez des personnes à des problème, sélectionnez un rôle que la personne doit remplir sur le problème dans **Choisir un rôle** à partir du menu déroulant **Rôle de la personne cessionnaire**. Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle principal de la personne.
 
 1. (Facultatif) Pour supprimer des personnes cessionnaires de tous les problèmes, effectuez l’une des opérations suivantes :
 
    1. Commencez à saisir le nom d’une personne, d’un rôle ou d’une équipe à supprimer du problème. Sélectionnez-le lorsqu’il apparaît dans la liste, puis cliquez sur **Supprimer la personne cessionnaire** pour ajouter d’autres personnes cessionnaires à supprimer.
-   1. Cliquez sur **Supprimer toutes les personnes cessionnaires existantes** pour supprimer toutes les personnes cessionnaires de tous les problèmes sélectionnés.
+   1. Cliquez sur **Supprimer toutes les personnes cessionnaires existantes** pour supprimer toutes les personnes cessionnaires de tous les problèmes sélectionnés.
 
 1. Cliquez sur **Enregistrer les modifications**.
-1. (Facultatif et le cas échéant) Lorsque les champs Affecté à ou Affectations s’affichent dans votre liste de problèmes, cliquez dans l’une des colonnes de problème, puis cliquez sur l’**icône X** en regard du nom d’une personne cessionnaire pour la supprimer du problème.
+1. (Facultatif et le cas échéant) Lorsque les champs Affecté à ou Affectations s’affichent dans votre liste de problèmes, cliquez dans l’une des colonnes de problème, puis cliquez sur l’**icône X** en regard du nom d’une personne cessionnaire pour la supprimer du problème.

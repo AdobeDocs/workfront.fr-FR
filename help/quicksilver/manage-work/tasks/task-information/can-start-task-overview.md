@@ -2,36 +2,36 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Présentation de "Can Start" pour les tâches
-description: Lorsqu’une tâche est prête à démarrer, Adobe Workfront ajoute un indicateur Peut démarrer à la tâche pour identifier facilement qu’il est sans danger pour vous de commencer à travailler sur la tâche. Vous pouvez afficher cet indicateur dans la vue d'une liste de tâches ou d'un rapport.
+title: « Vue d’ensemble des tâches "Peut démarrer" »
+description: Lorsqu’une tâche peut être commencée, Adobe Workfront ajoute un indicateur « Peut démarrer » à la tâche afin d’indiquer clairement que vous pouvez commencer à travailler sur cette tâche. Vous pouvez visualiser cet indicateur dans la vue d’une liste de tâches ou d’un rapport.
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Vue d’ensemble de l’option « Peut démarrer » pour les tâches
+# Vue d’ensemble de l’indicateur « Peut démarrer » pour les tâches
 
-Lorsqu’une tâche est prête à démarrer, Adobe Workfront ajoute un indicateur Peut démarrer à la tâche pour identifier facilement qu’il est sans danger pour vous de commencer à travailler sur la tâche. Vous pouvez afficher cet indicateur dans la vue d&#39;une liste de tâches ou d&#39;un rapport.
+Lorsqu’une tâche peut être commencée, Adobe Workfront ajoute un indicateur « Peut démarrer » à la tâche afin d’indiquer clairement que vous pouvez commencer à travailler sur cette tâche. Vous pouvez visualiser cet indicateur dans la vue d’une liste de tâches ou d’un rapport.
 
-Lorsque la tâche est prête à être travaillée, le champ Peut démarrer sur la tâche est défini sur True.
+Lorsque la tâche peut être commencée, le champ « Peut démarrer » de la tâche adopte la valeur « True ».
 
-## Comment Workfront marque une tâche comme &quot;Peut démarrer&quot;
+## Sur quels critères se base Workfront pour marquer une tâche en tant que « Peut démarrer » ?
 
-Workfront recherche les éléments suivants avant d’attribuer la valeur True à une tâche pour le champ Début possible :
+Workfront vérifie les éléments suivants avant de marquer une tâche comme « True » dans le champ « Peut démarrer » :
 
-* Si la tâche possède un parent, elle vérifie si la valeur de Peut démarrer pour le parent qu’elle a défini sur True. Si la valeur du parent est False, toutes les sous-tâches ont également la valeur Can Start définie sur False. 
-* Il vérifie également si les prédécesseurs de la tâche ainsi que les prédécesseurs de leurs parents sont complets. S’ils sont terminés, la valeur Can Start pour la tâche est définie sur True. Si l’un des prédécesseurs de la tâche ou les prédécesseurs de leurs parents ne sont pas terminés ou ont le statut Terminé en attente d’approbation, alors la valeur Peut commencer de la tâche est définie sur False. 
+* Si la tâche a un parent, elle vérifie si la valeur de « Peut démarrer » pour le parent est définie sur « True ». Si la valeur du parent est « False », l’indicateur « Peut démarrer » de toutes les sous-tâches est également défini sur « False ». 
+* Workfront vérifie également si les tâches antérieures à la tâche ainsi que les tâches antérieures de leurs parents sont terminés. Si elles sont terminées, la valeur « Peut démarrer » de la tâche est définie sur « True ». Si l’une des tâches antérieures à la tâche ou les tâches antérieures de leurs parents ne sont pas terminées ou ont un statut Terminé - En attente d’approbation, la valeur de « Peut démarrer » pour la tâche est définie sur « False ». 
 
-  Pour plus d’informations sur les prédécesseurs de tâches, voir [Présentation des prédécesseurs de tâches](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Pour plus d’informations sur les tâches antérieures, consultez la section [Vue d’ensemble des tâches antérieures](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-## Observations relatives à l’identification des tâches prêtes à démarrer
+## Remarques sur l’identification des tâches prêtes à démarrer
 
-* Si le type de dépendance entre une tâche et ses prédécesseurs est Début de début, le prédécesseur doit commencer avant que la relation précédente ne soit considérée comme résolue et que les tâches qui lui succèdent puissent commencer. Pour plus d’informations sur les types de dépendances, voir [Présentation des types de dépendances de tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
-* Si une tâche a un prédécesseur multi-projet, la fin du prédécesseur ne déclenche pas automatiquement l’indicateur Début de la tâche à appliquer au successeur. Vous devez recalculer manuellement la chronologie du projet du successeur ou Workfront doit la recalculer automatiquement, avant que la tâche qui lui succède ne s’affiche sous la forme d’une tâche Peut démarrer . Pour plus d’informations sur le nouveau calcul des calendriers de projet, voir [Recalculer les chronologies de projet](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+* Si le type de dépendance entre une tâche et ses tâches antérieures est Démarrer-Démarrer, la tâche antérieure doit démarrer avant que la relation de tâche antérieure soit considérée comme résolue et que les tâches suivantes puissent démarrer. Pour plus d’informations sur les types de dépendance, voir [Vue d’ensemble des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+* Si une tâche a un projet transversal antérieur, l’achèvement du projet antérieur ne déclenche pas l’application automatique de l’indicateur « Peut démarrer » au projet ultérieur. Vous devez recalculer manuellement la chronologie du projet ultérieur au projet ou Workfront doit la recalculer automatiquement, avant que la tâche du projet ultérieur ne s’affiche comme une tâche pouvant démarrer. Pour plus d’informations sur le recalcul des chronologies d’un projet, consultez la section [Recalculer les chronologies d’un projet](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-  Pour plus d’informations sur les prédécesseurs sur plusieurs projets, voir [Création de prédécesseurs sur plusieurs projets](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+  Pour plus d’informations sur les projets transversaux antérieurs, consultez la section [Créer des projets transversaux antérieurs](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
