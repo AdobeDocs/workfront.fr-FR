@@ -126,8 +126,7 @@ La version 2019.4 contient les améliorations suivantes :
  </tbody> 
 </table>
 
-### Améliorations de la planification des ressources
- {#resource-scheduling-enhancements}
+### Améliorations de la planification des ressources {#resource-scheduling-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -309,7 +308,6 @@ Replacement of Flash-based tools in Workfront
 [](https://experience.workfront.com/s/article/Replacement-of-Flash-Based-Tools-in-Workfront-194935493).
 -->
 
-### Webinaire Feuille de route du produit du 4e trimestre
- {#q4-product-roadmap-webinar}
+### Webinaire Feuille de route du produit du 4e trimestre {#q4-product-roadmap-webinar}
 
 En savoir plus sur ce qui doit se passer pendant le [Webinaire sur la feuille de route des produits pour le quatrième trimestre](https://webinars.on24.com/workfront/Q4roadmap?partnerref=announcementcenter). Ce webinaire a eu lieu le 6 novembre 2019. Cliquez sur le lien pour vous inscrire et regarder l’enregistrement à la demande.

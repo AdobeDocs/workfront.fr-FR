@@ -84,7 +84,7 @@ Parfois, Workfront peut publier des fonctionnalités qui peuvent ne pas être do
 
 Si vous rencontrez dans le système quelque chose qui ne correspond pas à la documentation et sur laquelle vous avez des questions, nous vous invitons à contacter notre équipe d’assistance clientèle. Pour plus d’informations, voir [Contacter l’assistance clientèle](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-## 
+## &#x200B;
 
 Utilisez les notes de mise à jour de la prochaine version planifiée pour découvrir les nouvelles fonctionnalités disponibles dans la prévisualisation et quand elles seront publiées dans l’environnement de production.
 

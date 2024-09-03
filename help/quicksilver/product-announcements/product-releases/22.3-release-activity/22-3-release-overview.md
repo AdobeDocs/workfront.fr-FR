@@ -23,8 +23,8 @@ Ces améliorations ont été apportées à l’environnement de production au co
 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations apportées aux projets](#project-enhancements)
-* [Amélioration apportées à la gestion des ressources.
-](#resource-management-enhancements)
+* [&#128279;](#resource-management-enhancements)Amélioration apportées à la gestion des ressources.
+
 * [Amélioration des rapports](#reporting-enhancements)
 * [Améliorations de l’intégration](#integration-enhancements)
 * [Améliorations apportées à l’application mobile](#mobile-enhancements)
@@ -316,8 +316,7 @@ Les campagnes ont été publiées en juillet 2022 dans la version préliminaire
  </tbody> 
 </table>
 
-### Amélioration apportées à la gestion des ressources.
- {#resource-management-enhancements}
+### Amélioration apportées à la gestion des ressources. {#resource-management-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 

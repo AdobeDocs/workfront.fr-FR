@@ -76,7 +76,7 @@ Si vous êtes un administrateur ou une administratrice [!DNL Adobe Admin Console
 
 [Regardez un tutoriel vidéo ici](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-Les administrateurs et administratrices [!DNL Adobe Admin Console] peuvent également créer des packages de plug-ins seuls à distribuer aux utilisateurs et utilisatrices. Pour plus d’informations, voir [Créer des packages [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] ] pour vos utilisateurs et utilisatrices dans  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md).
+Les administrateurs et administratrices [!DNL Adobe Admin Console] peuvent également créer des packages de plug-ins seuls à distribuer aux utilisateurs et utilisatrices. Pour plus d’informations, voir [Créer des packages [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] ] pour vos utilisateurs et utilisatrices dans  [!DNL Adobe Admin Console]&rbrack;(/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md).
 
 ## Installer [!DNL Workfront for design and video] individuellement
 

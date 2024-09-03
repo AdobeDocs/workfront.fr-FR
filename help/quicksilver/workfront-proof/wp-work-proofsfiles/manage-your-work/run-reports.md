@@ -32,15 +32,14 @@ Vous pouvez facilement consulter le nombre d’épreuves créées dans votre com
 La disponibilité des rapports dépend du type de votre compte [!DNL Workfront Proof] et des niveaux d’autorisation de l’utilisateur ou de l’utilisatrice.
 
 * [Conditions préalables pour le compte](#account-prerequisites)
-* [Conditions préalables pour les utilisateurs et utilisatrices
-](#user-prerequisites)
+* [&#128279;](#user-prerequisites)Conditions préalables pour les utilisateurs et utilisatrices
+
 
 ### Conditions préalables pour le compte {#account-prerequisites}
 
 Les informations de rapport sont disponibles uniquement pour les plans Premium.
 
-### Conditions préalables pour les utilisateurs et utilisatrices
- {#user-prerequisites}
+### Conditions préalables pour les utilisateurs et utilisatrices {#user-prerequisites}
 
 Les informations de rapport sont disponibles uniquement pour les personnes ayant un accès complet à toutes les épreuves de votre compte (c’est-à-dire les utilisateurs et les utilisatrices qui disposent au moins des [Profils d’autorisations d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)).
 

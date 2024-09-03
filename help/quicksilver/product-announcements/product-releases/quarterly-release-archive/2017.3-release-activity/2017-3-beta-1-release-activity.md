@@ -43,8 +43,7 @@ La version bêta 1 de la version 2017.3 contient des améliorations pour les a
 * [Le tag @ n’est actuellement pas disponible dans l’environnement de prévisualisation.](#tagging-currently-not-available-in-the-preview-environment)
 * [Inclure les informations d’affectation des utilisateurs et utilisatrices dans le rapport d’utilisation d’un projet](#include-user-allocation-information-in-the-utilization-report-on-a-project)
 
-## Améliorations de la planification des ressources
- {#resource-scheduling-improvements}
+## Améliorations de la planification des ressources {#resource-scheduling-improvements}
 
 >[!NOTE]
 >

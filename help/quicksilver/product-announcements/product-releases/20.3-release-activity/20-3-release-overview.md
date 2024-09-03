@@ -150,32 +150,32 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
 >Vous devez disposer des éléments suivants :
 >
 ><table style="table-layout:auto"> 
-&gt; <col> 
-&gt; <col> 
-&gt; <tbody> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Formule Workfront</a>*</p> </td> 
-&gt;   <td>Entreprises ou niveau supérieur</td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p>Type de licence*</p> </td> 
-&gt;   <td> <p>Révision ou niveau supérieur Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">Produit</td> 
-&gt;   <td>Planificateur de scénarios Workfront <p>Pour plus d’informations sur le planificateur de scénarios Workfront, consultez la section <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Vue d’ensemble du planificateur de scénarios</a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"><strong>Niveau d’accès*</strong> </td> 
-&gt;   <td> <p>Accès Affichage ou niveau supérieur au planificateur de scénarios</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"> <p><strong>Autorisations d’objet</strong> </p> </td> 
-&gt;   <td> <p>Autorisations d’affichage ou niveau supérieur pour un plan</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à une formule, consultez la section <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à une formule dans le planificateur de scénarios</a>.</p> </td> 
-&gt;  </tr> 
-&gt; </tbody> 
-&gt;</table>
-&gt;*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou votre administratrice Workfront.
+>&gt; <col> 
+>&gt; <col> 
+>&gt; <tbody> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Formule Workfront</a>*</p> </td> 
+>&gt;   <td>Entreprises ou niveau supérieur</td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p>Type de licence*</p> </td> 
+>&gt;   <td> <p>Révision ou niveau supérieur Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">Produit</td> 
+>&gt;   <td>Planificateur de scénarios Workfront <p>Pour plus d’informations sur le planificateur de scénarios Workfront, consultez la section <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Vue d’ensemble du planificateur de scénarios</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"><strong>Niveau d’accès*</strong> </td> 
+>&gt;   <td> <p>Accès Affichage ou niveau supérieur au planificateur de scénarios</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"> <p><strong>Autorisations d’objet</strong> </p> </td> 
+>&gt;   <td> <p>Autorisations d’affichage ou niveau supérieur pour un plan</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à une formule, consultez la section <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à une formule dans le planificateur de scénarios</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt; </tbody> 
+>&gt;</table>
+>&gt;*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou votre administratrice Workfront.
 
  
 
@@ -232,8 +232,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
  </tbody> 
 </table>
 
-### Amélioration apportées à la gestion des ressources.
- {#resource-management-enhancements}
+### Amélioration apportées à la gestion des ressources. {#resource-management-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -270,8 +269,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
  </tbody> 
 </table>
 
-### Amélioration apportées à la gestion de projets
- {#project-management-enhancements}
+### Amélioration apportées à la gestion de projets {#project-management-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 

@@ -310,8 +310,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
  </tbody> 
 </table>
 
-### Amélioration apportées à la gestion des ressources.
- {#resource-management-enhancements}
+### Amélioration apportées à la gestion des ressources. {#resource-management-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 

@@ -68,8 +68,7 @@ Vous avez la possibilité de vous abonner aux problèmes et aux tâches que vous
 
 Pour plus d’informations sur l’abonnement aux problèmes et aux tâches, voir la section [S’abonner à des éléments dans Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
-## Améliorations de la planification des ressources
- {#resource-scheduling-improvements}
+## Améliorations de la planification des ressources {#resource-scheduling-improvements}
 
 >[!NOTE]
 >

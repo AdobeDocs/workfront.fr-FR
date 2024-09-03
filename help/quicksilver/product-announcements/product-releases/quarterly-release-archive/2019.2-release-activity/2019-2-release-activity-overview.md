@@ -140,13 +140,11 @@ La version 2019.2 contient des améliorations pour les administrateurs et admin
 * [Suppression de l’application Flash](#flash-application-removal)
 * [Suppression de diverses options d’authentification unique](#various-single-sign-on-options-to-be-removed)
 
-### La bibliothèque Workfront est désormais disponible.
- {#workfront-library-now-available}
+### La bibliothèque Workfront est désormais disponible. {#workfront-library-now-available}
 
 La bibliothèque Workfront est un centre de contenu numérique pour entreprise que vous pouvez utiliser pour gérer le cycle de vie complet des ressources numériques de votre organisation.
 
-### La version 3 de l’API n’est plus prise en charge.
- {#api-version-3-no-longer-supported}
+### La version 3 de l’API n’est plus prise en charge. {#api-version-3-no-longer-supported}
 
 La prise en charge de la version 3 de l’API a pris fin en novembre 2018. Pour en savoir plus sur le planning des versions prises en charge de l’API Workfront, voir [Planning de la prise en charge et du contrôle de version de l’API](../../../../wf-api/api/api-version-support-schedule.md).
 

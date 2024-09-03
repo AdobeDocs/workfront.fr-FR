@@ -157,8 +157,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Amélioration apportées à la gestion des ressources.
- {#resource-management-enhancements}
+### Amélioration apportées à la gestion des ressources. {#resource-management-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 

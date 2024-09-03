@@ -121,8 +121,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
  </tbody> 
 </table>
 
-### Amélioration apportées à la gestion des ressources.
- {#resource-management-enhancements}
+### Amélioration apportées à la gestion des ressources. {#resource-management-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 

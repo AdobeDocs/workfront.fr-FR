@@ -93,8 +93,7 @@ Cette page fournit des informations sur les fonctionnalités d’Adobe Workfron
  </tbody> 
 </table>
 
-### Amélioration apportées à la gestion des ressources.
- {#resource-management-enhancements}
+### Amélioration apportées à la gestion des ressources. {#resource-management-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -147,8 +146,7 @@ Cette page fournit des informations sur les fonctionnalités d’Adobe Workfron
  </tbody> 
 </table>
 
-### Amélioration apportées à la gestion de projets
- {#project-management-enhancements}
+### Amélioration apportées à la gestion de projets {#project-management-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
