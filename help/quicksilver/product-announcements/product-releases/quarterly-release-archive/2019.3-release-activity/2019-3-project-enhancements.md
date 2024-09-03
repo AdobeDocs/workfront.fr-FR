@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: 2019-3-release-activity
 title: Améliorations des projets (version 2019.3)
-description: Cette page décrit toutes les modifications apportées au projet avec la version 2019.3. Elle a été rendue disponible dans l’environnement de production dans la semaine du 19 août 2019.
+description: Cette page décrit toutes les améliorations apportées au projet avec la version 2019.3. Elle a été mise à disposition dans l’environnement de production la semaine du 19 août 2019.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,200 +10,200 @@ exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
 source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # Améliorations des projets (version 2019.3)
 
-Cette page décrit toutes les modifications apportées au projet avec la version 2019.3. Elle a été rendue disponible dans l’environnement de production dans la semaine du 19 août 2019.
+Cette page décrit toutes les améliorations apportées au projet avec la version 2019.3. Elle a été mise à disposition dans l’environnement de production la semaine du 19 août 2019.
 
-Pour obtenir la liste de toutes les modifications apportées en 2019.3, consultez la [présentation de l’activité de version 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2019.3, voir [Vue d’ensemble de l’activité de la version 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Modifier le type d’affichage d’un champ dans un formulaire personnalisé
 
 Vous pouvez désormais modifier le type d’affichage d’un champ dans un formulaire personnalisé.
 
-Par exemple, si vous avez créé un champ de cases à cocher, vous pouvez le transformer en champ de liste déroulante ou en champ de boutons radio. Ces trois types d’affichage de champ sont interchangeables.
+Par exemple, si vous avez créé un champ de cases à cocher, vous pouvez le transformer en champ de liste déroulante ou en champ de boutons radio. Ces trois types d’affichage sont interchangeables.
 
-Si vous avez créé un champ de texte d’une seule ligne, vous pouvez également le remplacer par un champ de texte de paragraphe. Ces deux types d’affichage de champ sont interchangeables.
+Si vous avez créé un champ de texte d’une seule ligne, vous pouvez également le remplacer par un champ de texte de paragraphe. Ces deux types d’affichage sont interchangeables.
 
-Auparavant, pour modifier le type d’affichage d’un champ personnalisé, vous deviez créer un nouveau champ et supprimer l’ancien champ. Il fallait pour cela transférer des données, ce qui prenait souvent du temps.
-
->[!NOTE]
->
->Disponibilité de l’aperçu : 9 août 2019
->
->Disponibilité de la production : 30 août 2019
-
-## Créer des calendriers et des rapports de temps d’expiration
-
-Vous pouvez désormais voir le temps de pause de l’utilisateur pour une meilleure planification et une meilleure exécution. Vous pouvez également ajouter de nouveaux rapports et calendriers de désactivation à vos tableaux de bord pour une vue en temps réel de la disponibilité des utilisateurs.
+Auparavant, pour modifier le type d’affichage d’un champ personnalisé, il fallait créer un champ et supprimer l’ancien. Cela nécessitait le transfert de données, ce qui prenait souvent beaucoup de temps.
 
 >[!NOTE]
 >
->Disponibilité de l’aperçu : 9 août 2019
+>Disponibilité en prévisualisation : 9 août 2019
 >
->Disponibilité de la production : 30 août 2019
+>Disponibilité en production : 30 août 2019
 
-## Le filtre Ouvrir affiche désormais d’autres résultats dans une liste de problèmes.
+## Créer des calendriers et des rapports de congés
 
-Lorsque vous appliquez le filtre Ouvrir à une liste de problèmes, la liste inclut des problèmes qui :
-
-* Sont dans un état Fermé - En attente d’approbation
-* Sont associés à un objet de résolution
-
-Avant cette modification, ces problèmes n’étaient pas inclus dans la liste lors de l’application du filtre Ouvrir.
-
-## Nouvelle expérience lors de l’édition en ligne d’informations dans des listes
-
-Lorsque vous insérez des informations d’édition dans les nouvelles listes, les lignes qui ont été modifiées sont grisées, mais les informations restent visibles. Avant cette modification, les lignes modifiées étaient grisées et les informations n’étaient pas visibles.
-
-Vous trouverez les nouvelles listes dans les zones suivantes de Workfront :
-
-* Listes Projets et tâches
-* Onglet Heures pour les projets, les tâches et les problèmes
-
-## Listes mises à jour pour les onglets Projet, Tâche et Heures de publication
-
-Les vues de liste améliorées sont désormais disponibles dans les onglets Heures pour les projets, les tâches et les problèmes.
-
-Avant cette amélioration, les nouvelles listes étaient appliquées uniquement aux éléments suivants :
-
-* Liste des tâches
-* Liste des projets
-
-Pour plus d’informations sur l’affichage des éléments dans une liste, voir [Prise en main des listes dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
-
-## Modifier Gantt sans activer un mode de modification spécial
-
-Vous pouvez maintenant modifier le diagramme de Gantt de la liste des tâches lorsque l’enregistrement automatique est activé ou non. Vous ne pouvez pas annuler les modifications lorsque le bouton activer/désactiver est activé. Dans ce cas, les modifications que vous apportez au projet sont enregistrées automatiquement.
-
-Pour plus d’informations sur la modification du diagramme de Gantt de la liste des tâches, voir [Mise à jour d’informations dans le diagramme de Gantt de la liste des tâches](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
-
-## Suppression de l’onglet Problèmes du panorama Kanban
-
-Nous supprimons l’onglet Problèmes du panorama Kanban de la version de production 19.3. Vous pouvez toujours accéder au sous-onglet Problèmes à partir du journal sur le panorama Kanban.
-
-## Suppression des onglets Documents et Problèmes de la page Détails de l’itération
+Vous pouvez maintenant consulter les congés des utilisateurs et des utilisatrices pour améliorer la planification et l’exécution. Vous pouvez également ajouter de nouveaux rapports et calendriers de congés à vos tableaux de bord pour obtenir une vue en temps réel de la disponibilité des utilisateurs et des utilisatrices.
 
 >[!NOTE]
 >
->Cette modification se produira dans Production avec la version 2019.3. Elle ne sera pas effectuée dans l’environnement Aperçu avant la version de production.
+>Disponibilité en prévisualisation : 9 août 2019
+>
+>Disponibilité en production : 30 août 2019
 
-Nous supprimons les onglets Documents and Issues de la page Agile iteration details :
+## Le filtre Ouvert affiche désormais plus de résultats dans une liste de problèmes.
 
-* **Documents :** Tous les documents stockés dans l’onglet Documents doivent être déplacés avant la version de production. Si vous ne parvenez pas à déplacer vos documents, vous n’y aurez plus accès.
-* **Problèmes :** Cet onglet se trouve généralement sous le menu déroulant Plus. Vous pouvez toujours accéder au sous-onglet Problèmes à partir de l’onglet Éléments de travail de l’itération.
+Lorsque vous appliquez le filtre « Ouvert » à une liste de problèmes, la liste inclut des problèmes qui :
 
-## Envisager ou ignorer le délai d’expiration de l’utilisateur pour les dates de la tâche
+* sont au statut « Fermé - En attente d’approbation » ;
+* sont associés à un objet de résolution.
 
-Vous pouvez maintenant décider d’autoriser ou non le délai de remise d’une tâche au cessionnaire Principal d’une tâche afin d’ajuster les dates prévues.
+Avant cette modification, ces problèmes n’étaient pas inclus dans la liste lors de l’application du filtre « Ouvert ».
 
-Vous pouvez prendre cette décision au niveau du système, en tant qu’administrateur Workfront ou au niveau du projet, en tant que chef de projet.
+## Nouvelle expérience lors de le modfication en ligne d’informations dans des listes
 
-Avant cette modification, le temps de pause du cessionnaire Principal ajustait toujours les dates planifiées de la tâche, si la contrainte de tâche permettait de modifier les dates.
+Lorsque vous modifiez des informations en ligne dans les nouvelles listes, les lignes qui ont été modifiées sont grisées, mais les informations restent visibles. Avant cette modification, les lignes modifiées étaient grisées et les informations n’étaient pas visibles.
 
-Pour plus d’informations sur le paramètre de délai de désactivation de l’utilisateur au niveau du système, voir [Configuration des préférences du projet à l’échelle du système](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Les nouvelles listes se situent dans les zones suivantes de Workfront :
 
-Pour plus d’informations sur le paramètre de délai de désactivation au niveau du projet, voir [Modification de projets](../../../../manage-work/projects/manage-projects/edit-projects.md).
+* Listes de tâches et de projets
+* Onglets « Heures » pour les projets, les tâches et les problèmes
+
+## Listes mises à jour pour les onglets Heures des projets, tâches et problèmes
+
+Les vues de liste améliorées sont désormais disponibles dans les onglets « Heures » pour les projets, les tâches et les problèmes.
+
+Avant cette amélioration, les nouvelles listes étaient appliquées uniquement aux éléments suivants :
+
+* Liste de tâches
+* Liste de projets.
+
+Pour plus d’informations sur l’affichage des éléments dans une liste, consultez la section [Prise en main des listes dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+
+## Modifier le graphique de Gantt sans activer un mode d’édition spécial
+
+Vous pouvez maintenant modifier le graphique de Gantt de la liste des tâches que l’enregistrement automatique soit activé ou non. Vous ne pouvez pas annuler les modifications lorsque le bouton (bascule) d’activation/désactivation est activé. Dans ce cas, les modifications que vous apportez au projet sont enregistrées automatiquement.
+
+Pour plus d’informations sur la modification du graphique de Gantt de la liste des tâches, consultez la section [Mettre à jour des informations dans le graphique de Gantt de la liste des tâches](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+
+## Supprimer l’onglet « Problèmes » du tableau Kanban
+
+Nous supprimons l’onglet « Problèmes » du tableau Kanban dans la version de production 19.3. Vous pouvez toujours accéder au sous-onglet « Problèmes » à partir de la liste d’attente du tableau Kanban.
+
+## Supprimer les onglets « Documents » et « Problèmes » de la page des détails de l’itération
 
 >[!NOTE]
 >
->Disponibilité de l’aperçu : 22 juillet 2019
+>Cette modification se produira dans l’environnement de production de la version 2019.3. Elle ne sera pas effectuée dans l’environnement de prévisualisation avant la version de production.
+
+Nous supprimons les onglets Documents et Problèmes de la page détails de l’itération Agile :
+
+* **Documents :** tous les documents stockés dans l’onglet Documents doivent être déplacés avant la version de production. Si vous ne déplacez pas vos documents, vous n’y aurez plus accès.
+* **Problèmes :** cet onglet se trouve généralement sous le menu déroulant Plus. Vous pouvez toujours accéder au sous-onglet Problèmes à partir de l’onglet Éléments de travail de l’itération.
+
+## Prendre en compte ou ignorer les congés de la personne pour les dates de la tâche
+
+Vous pouvez maintenant décider d’autoriser ou non le planning des congés du ou de la cessionnaire principal d’une tâche afin d’ajuster les dates planifiées.
+
+Vous pouvez prendre cette décision au niveau du système, en tant qu’administrateur ou administratrice Workfront ou au niveau du projet, en tant que personne gestionnaire de projet.
+
+Avant cette modification, les congés de la principale personne cessionnaire ajustaient toujours les dates prévues de la tâche, si la contrainte de tâche permettait de modifier les dates.
+
+Pour plus d’informations sur le paramètre de congés des personnes au niveau du système, voir [Configurer les préférences du projet à l’échelle du système](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+Pour plus d’informations sur le paramètre de congés des personnes au niveau du projet, voir [Modifier les projets](../../../../manage-work/projects/manage-projects/edit-projects.md).
+
+>[!NOTE]
 >
->Disponibilité de la production : 9 août 2019
+>Disponibilité en prévisualisation : 22 juillet 2019
+>
+>Disponibilité en production : 9 août 2019
 
 ## Conditions personnalisées
 
-Vous pouvez maintenant procéder comme suit pour personnaliser les Conditions que vous utilisez pour les projets, tâches et problèmes et mieux répondre aux besoins de votre organisation :
+Vous pouvez maintenant procéder comme suit pour personnaliser les conditions que vous utilisez pour les projets, tâches et problèmes et mieux répondre aux besoins de votre organisation :
 
 * Créez des conditions personnalisées avec vos propres libellés et couleurs.
-* Modifiez l’ordre des Conditions dans les listes déroulantes dans lesquelles les utilisateurs les sélectionnent.
+* Modifiez l’ordre des conditions dans les listes déroulantes dans lesquelles les personnes les sélectionnent.
 * Utilisez des conditions personnalisées que vous créez à la place des conditions par défaut intégrées que Workfront attribue automatiquement aux éléments de travail.
 * Modifiez les noms et les couleurs des conditions par défaut intégrées pour les projets, les tâches et les problèmes.
 
-En outre, si vous disposez des droits de modification d’une tâche ou d’un problème, mais que vous ne lui êtes pas assigné (peut-être parce que vous la supervoyez), vous pouvez désormais modifier sa condition à l’aide de la colonne Conditions dans un mode Liste.
+En outre, si vous disposez des droits de modification sur une tâche ou un problème, mais que l’objet ne vous est pas affecté (peut-être parce que vous le supervisez), vous pouvez désormais modifier sa condition à l’aide de la colonne Conditions dans une vue liste.
 
-Auparavant, les conditions ne pouvaient pas être personnalisées ou modifiées, et seuls les utilisateurs pouvaient modifier la condition d’une tâche ou d’un problème s’ils y étaient affectés.
+Auparavant, les conditions ne pouvaient pas être personnalisées ou modifiées, et seuls les utilisateurs et utilisatrices pouvaient modifier la condition d’une tâche ou d’un problème s’ils y étaient affectés.
 
 Pour plus d’informations, voir [Conditions personnalisées](../../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 >[!NOTE]
 >
->Disponibilité de l’aperçu : 4 juillet 2019
+>Disponibilité en prévisualisation : 4 juillet 2019
 >
->Disponibilité de la production : fin septembre ou début octobre
+>Disponibilité en production : fin septembre ou début octobre
 
-## Nouvelle notification électronique pour les équipes
+## Nouvelle notification par e-mail pour les équipes
 
-Il existe une nouvelle notification d’événement par e-mail pour les équipes. Les membres de l’équipe reçoivent une notification par e-mail lorsqu’un projet avec des tâches affectées à leur équipe devient actif. Ce paramètre est désactivé par défaut.
+Il existe une nouvelle notification d’événement par e-mail pour les équipes. Les personnes membres de l’équipe reçoivent une notification par e-mail lorsqu’un projet avec des tâches affectées à leur équipe devient actif. Ce paramètre est désactivé par défaut.
 
-Auparavant, les membres de l’équipe ne pouvaient pas être avertis lorsque les projets sur lesquels ils étaient actifs.
+Auparavant, les personnes membres de l’équipe ne pouvaient pas être averties lorsque les projets auxquels elles participaient devenaient actifs.
 
-Pour plus d’informations, voir Notifications : informations sur les projets sur lesquels je travaille.
+Pour plus d’informations, voir Notifications : informations sur les projets auxquels je participe.
 
 >[!NOTE]
 >
->Disponibilité de l’aperçu : 4 juillet 2019
+>Disponibilité en prévisualisation : 4 juillet 2019
 >
->Disponibilité de la production : 18 juillet 2019
+>Disponibilité en production : 18 juillet 2019
 
 ## Les mises à jour du document apparaissent maintenant sur l’objet et le projet associés.
 
-Lorsque vous commentez un document, votre mise à jour s’affiche désormais dans l’onglet Mises à jour du document et de l’objet auquel le document est joint.
+Lorsque vous commentez un document, votre mise à jour apparaît désormais dans l’onglet Mises à jour à la fois pour le document et pour l’objet auquel le document est associé.
 
 Si l’objet fait partie d’un projet, votre commentaire sur le document s’affiche également dans l’onglet Mises à jour du projet.
 
 Auparavant, les commentaires de mise à jour s’affichaient uniquement dans l’onglet Mises à jour du document.
 
-Pour plus d’informations, reportez-vous à la section [Mise à jour du travail](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) de l’article [Mise à jour du travail](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations, voir la section [Mettre à jour le travail](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) dans l’article [Mettre à jour le travail](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 >[!NOTE]
 >
->Disponibilité de l’aperçu : 6 juin 2019
+>Disponibilité en prévisualisation : 6 juin 2019
 >
->Disponibilité de la production : 20 juin 2019
+>Disponibilité en production : 20 juin 2019
 
-## Visibilité dans le planning de désactivation d’un utilisateur lors de son attribution aux tâches et aux problèmes
+## Visibilité du planning de congés d’une personne lors de son affectation à des tâches et problèmes
 
-Lorsque vous affectez un utilisateur à une tâche ou à un problème, vous pouvez maintenant voir un avertissement en ligne si l’utilisateur sélectionné a un délai d’expiration planifié entre les dates prévues de la tâche ou du problème.
+Lorsque vous affectez une personne à une tâche ou à un problème, vous pouvez désormais directement voir un avertissement si la personne sélectionnée a des congés planifiés qui coïncident avec les dates planifiées de la tâche ou du problème.
 
-Pour plus d’informations sur l’affectation de tâches, voir [Affecter des tâches](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
+Pour plus d’informations sur l’attribution de tâches, voir [Attribuer des tâches](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md).
 
-Pour plus d&#39;informations sur les heures de congé, voir [Configuration de l&#39;heure personnelle](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+Pour plus d’informations sur les congés, voir [Configurer les congés personnels](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 >[!NOTE]
 >
->Disponibilité de l’aperçu : 30 mai 2019
+>Disponibilité de la version de prévisualisation : 30 mai 2019
 >
->Disponibilité de la production : 13 juin 2019
+>Disponibilité de la version de production : 13 juin 2019
 
-## Ajout de champs représentant des objets dans Forms personnalisé
+## Ajouter des champs représentant des objets dans les formulaires personnalisés
 
-Nous avons créé un nouveau type de champ dans le créateur de formulaires personnalisé appelé Typeforward. Ce champ vous permet d’ajouter des champs qui représentent des objets à vos formulaires personnalisés. Actuellement, l’objet User est activé avec Typeforward, et d’autres objets sont à venir.
+Nous avons créé un nouveau type de champ dans le créateur de formulaire personnalisé appelé champ de saisie semi-automatique. Ce champ vous permet d’ajouter des champs représentant des objets à vos formulaires personnalisés. Actuellement, l’objet Utilisateur ou utilisatrice est activé avec saisie semi-automatique, et d’autres objets sont à venir.
 
-Auparavant, les administrateurs devaient gérer manuellement les utilisateurs en tant qu’options individuelles dans les menus déroulants de formulaire personnalisés.
+Auparavant, les administrateurs et administratrices devaient gérer manuellement les personnes en tant qu’options individuelles dans les menus déroulants de formulaire personnalisés.
 
 >[!NOTE]
 >
->Disponibilité de l’aperçu : 30 mai 2019
+>Disponibilité de la version de prévisualisation : 30 mai 2019
 >
->Disponibilité de la production : 13 juin 2019
+>Disponibilité de la version de production : 13 juin 2019
 >
->Avant la date de publication de la version de production, les nouveaux champs personnalisés ne sont pas pris en charge sur Mobile, Outlook, les équipes MS et l’intégration Salesforce native.
+>Avant la date de publication de la version de production, les nouveaux champs personnalisés ne sont pas pris en charge sur Mobile, Outlook, MS Teams et l’intégration Salesforce native.
 >
->En production, Outlook et les équipes MS sont désormais pris en charge. Mobile est pris en charge à compter de fin juin ou début juillet ; les intégrations Salesforce sont prises en charge à compter de juin.
+>En production, Outlook et MS Teams sont désormais pris en charge. Mobile est pris en charge depuis fin juin ou début juillet et les intégrations Salesforce depuis juin.
 
-## Le nouveau champ &quot;Objet&quot; de la requête a été renommé &quot;Nom&quot;
+## Le nouveau champ « Objet » de la demande a été renommé « Nom »
 
 >[!NOTE]
 >
 >Cette fonctionnalité a été supprimée et ne sera pas incluse dans la version 2019.3.
 
-Désormais, lorsque vous envoyez une nouvelle requête à une file d’attente de requêtes, vous saisissez le nom de la requête dans le champ &quot;Nom&quot; du nouveau formulaire de requête.
+Désormais, lorsque vous envoyez une nouvelle requête à une file d’attente des demandes, vous devez saisir le nom de la demande dans le champ « Nom » du nouveau formulaire de demande.
 
-Avant cette modification, vous devez saisir le nom de la requête dans le champ &quot;Objet&quot;.
+Avant cette modification, vous deviez saisir le nom de la demande dans le champ « Objet ».
 
-Pour plus d’informations sur la création de requêtes, voir [Création et envoi de requêtes Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Pour plus d’informations sur la création de demandes, voir [Créer et envoyer des demandes Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 

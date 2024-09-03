@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
 title: Empêcher les utilisateurs en double
-description: Lors de la création d’un nouvel utilisateur dans Adobe Workfront, vous ne pouvez plus utiliser d’adresse électronique déjà utilisée par un autre utilisateur, même si l’adresse électronique varie selon le cas (par exemple, JohnDoe@example.com et johndoe@example.com). En outre, pour préparer les futures améliorations de l’authentification, assurez-vous que tous les utilisateurs disposent d’adresses électroniques uniques dans une instance Workfront.
+description: Lors de la création d’un utilisateur ou d’une utilisatrice dans Adobe Workfront, vous ne pouvez plus utiliser une adresse e-mail déjà utilisée par un autre utilisateur ou une autre utilisatrice, même si l’adresse e-mail varie selon la casse (par exemple, JohnDoe@example.com et johndoe@example.com). En outre, pour se préparer à de futures améliorations en matière d’authentification, il faut s’assurer que tous les utilisateurs et toutes les utilisatrices disposent d’une adresse e-mail unique dans une instance de Workfront.
 author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,74 +11,74 @@ exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
 source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 13%
+ht-degree: 99%
 
 ---
 
 # Empêcher les doublons d’utilisateurs et d’utilisatrices
 
-Lors de la création d’un nouvel utilisateur dans Adobe Workfront, vous ne pouvez plus utiliser d’adresse électronique déjà utilisée par un autre utilisateur, même si l’adresse électronique varie selon le cas (par exemple, JohnDoe@example.com et johndoe@example.com). En outre, pour préparer les futures améliorations de l’authentification, assurez-vous que tous les utilisateurs disposent d’adresses électroniques uniques dans une instance Workfront.
+Lors de la création d’un utilisateur ou d’une utilisatrice dans Adobe Workfront, vous ne pouvez plus utiliser une adresse e-mail déjà utilisée par un autre utilisateur ou une autre utilisatrice, même si l’adresse e-mail varie selon la casse (par exemple, JohnDoe@example.com et johndoe@example.com). En outre, pour se préparer à de futures améliorations en matière d’authentification, il faut s’assurer que tous les utilisateurs et toutes les utilisatrices disposent d’une adresse e-mail unique dans une instance de Workfront.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Créer des utilisateurs avec des adresses électroniques uniques
+## Créer des utilisateurs et utilisatrices avec des adresses e-mail uniques
 
-À partir de la version 2019.4, lors de la création d’un nouvel utilisateur dans Workfront, vous ne pouvez plus utiliser d’adresse électronique déjà utilisée par un autre utilisateur, même si l’adresse électronique varie selon le cas. Par exemple, vous ne pouvez pas créer un utilisateur avec l’adresse électronique JohnDoe@example.com si un autre utilisateur a l’adresse électronique johndoe@example.com.
+À partir de la version 2019.4, lors de la création d’un utilisateur ou d’une utilisatrice dans Workfront, vous ne pouvez plus utiliser une adresse e-mail déjà utilisée par un autre utilisateur ou une autre utilisatrice, même si la casse des adresses e-mail est différente. Par exemple, vous ne pouvez pas créer un utilisateur ou une utilisatrice avec l’adresse e-mail JohnDoe@example.com si un autre utilisateur ou une autre utilisatrice a l’adresse e-mail johndoe@example.com.
 
-## Mettre à jour les adresses électroniques des utilisateurs existants dans votre instance Workfront
+## Mettre à jour les adresses e-mail des utilisateurs et utilisatrices existants dans votre instance Workfront
 
-En tant qu’administrateur de Workfront, vous devez mettre à jour les utilisateurs existants qui possèdent des adresses électroniques correspondantes qui ne diffèrent que par la casse.
-Pour corriger les adresses électroniques en double dans une instance Workfront :
+En tant qu’administrateur ou administratrice Workfront, vous devez mettre à jour les utilisateurs et utilisatrices existants dont les adresses e-mail correspondent, mais ont une casse différente.
+Pour corriger les adresses e-mail dupliquées dans une instance de Workfront, procédez comme suit :
 
-1. Examinez les utilisateurs en double et décidez quel utilisateur n’est plus nécessaire.
+1. Examinez les éventuels doublons de personnes et décidez celles qui ne sont plus nécessaires.
 
    {{step-1-to-users}}
 
-   1. Dans le menu **Filter**, sélectionnez **All**.
+   1. Dans le menu **Filtre**, sélectionnez **Tout**.
 
-   1. Dans le menu **View**, sélectionnez **User Login**.
+   1. Dans le menu **Afficher**, sélectionnez **Identifiant d’utilisateur ou d’utilisatrice**.
 
-   1. Dans le menu **Groupement**, sélectionnez **Rien**.
+   1. Dans le menu **Regroupement**, sélectionnez **Rien**.
 
-   1. Personnalisez la vue de connexion de l’utilisateur.
+   1. Personnalisez l’affichage de la vue Identifiant d’utilisateur ou d’utilisatrice.
 
-      1. Cliquez sur **Affichage** > **Personnaliser la vue**.
+      1. Cliquez sur **Vue** > **Personnaliser la vue**.
 
-      1. Remplacez la colonne **ID** par la colonne **Adresse électronique**.
+      1. Remplacez la colonne **ID** par la colonne **Adresse e-mail**.
 
       1. Renommez la vue et enregistrez-la.
 
-   1. Créez un groupement.
+   1. Créez un regroupement.
 
-      1. Cliquez sur **Groupement** > **Nouveau groupement**.
+      1. Cliquez sur **Regroupement** > **Nouveau regroupement**.
 
-      1. Cliquez sur **Passer en mode Texte** dans le coin supérieur droit de la page.
-      1. Collez le code de mode Texte suivant :
+      1. Cliquez sur **Basculer en mode texte** dans le coin supérieur droit de la page.
+      1. Collez le code suivant en mode texte :
 
          `group.0.linkedname=direct`
          `group.0.namekey=emailAddr`
@@ -86,34 +86,34 @@ Pour corriger les adresses électroniques en double dans une instance Workfront 
          `group.0.valueformat=string`
          `textmode=true`
 
-   1. Renommez le Groupement et enregistrez-le.
+   1. Renommez le regroupement et enregistrez-le.
 
 1. Effectuez l’une des opérations suivantes :
 
-   * (Méthode préférée) Ajoutez une adresse + à l’adresse électronique de l’utilisateur pour chaque compte supplémentaire.
+   * (Méthode préférée) Ajoutez une adresse + à l’adresse e-mail de l’utilisateur ou de l’utilisatrice pour chaque compte supplémentaire.
 
-     Sélectionnez cette option si un utilisateur unique de votre entreprise doit accéder à plus d’un compte utilisateur. Si l’adressage plus n’est pas pris en charge par votre fournisseur de messagerie, vous devez fournir un compte de messagerie distinct pour chaque compte Workfront.
+     Choisissez cette option si un seul utilisateur ou une seule utilisatrice de votre organisation a besoin d’accéder à plus d’un compte. Si Plus Addressing n’est pas pris en charge par votre fournisseur de messagerie, vous devez fournir un compte de messagerie distinct pour chaque compte Workfront.
 
-     Par exemple, John Doe peut avoir un compte utilisateur pour son compte d’utilisation quotidienne et un autre pour l’utilisation à des fins de test :
+     Par exemple, John Doe peut avoir un compte d’utilisateur pour son utilisation quotidienne et un autre à des fins de test :
 
       * johndoe@workfront.com
       * johndoe+reviewer@workfront.com
 
-   * Modifiez le domaine pour utiliser un faux domaine en ajoutant le texte suivant à l’adresse électronique :
+   * Modifiez le domaine pour utiliser un faux domaine en ajoutant le texte suivant à l’adresse e-mail :
 
      `.inactive`
 
-     Par exemple, John Doe peut avoir les domaines suivants : (Ils doivent être uniques.)
+     Par exemple, John Doe pourrait avoir les domaines suivants : (ceux-ci doivent être uniques).
 
       * johndoe@workfront.inactive
       * johndoe@workfront.inactive2
 
-     Vous ne pouvez plus vous connecter à ces comptes, car les réinitialisations de mot de passe nécessitent une adresse électronique valide. Ces comptes sont accessibles uniquement à l’aide de la fonction Se connecter en tant que .
+     Vous ne pouvez plus vous connecter à ces comptes, car la réinitialisation du mot de passe nécessite une adresse e-mail valide. Ces comptes sont uniquement accessibles à l’aide de la fonction « Connexion en tant que ».
 
-   * Suppression des utilisateurs inutiles
+   * Supprimer les utilisateurs et utilisatrices inutiles
 
      >[!IMPORTANT]
      >
-     >Choisissez cette option uniquement pour les comptes créés par erreur ou pour les comptes de test. Cette option est généralement effectuée uniquement pour les comptes dont la connexion est nulle ou une erreur. Les comptes qui ont été régulièrement utilisés ne doivent jamais être supprimés.
+     >Choisissez cette option uniquement pour les comptes qui ont été créés par erreur ou à des fins de test. Cette option n’est généralement utilisée que pour les comptes ayant zéro connexion ou bien une connexion erronée. Les comptes qui ont régulièrement été utilisés ne doivent jamais être supprimés.
 
-Si des utilisateurs d’une instance Workfront ont des adresses électroniques correspondantes qui ne diffèrent que par la casse, Workfront vous contactera avec des informations supplémentaires et une chronologie du moment où celles-ci doivent être mises à jour.
+Workfront vous informera et vous communiquera une chronologie s’il est découvert que des utilisateurs et des utilisatrices de la même instance ont des adresses e-mail qui ne diffèrent que par la casse des lettres.

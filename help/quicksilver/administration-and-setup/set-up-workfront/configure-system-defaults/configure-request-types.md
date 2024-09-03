@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configuration des types de requête
-description: Lorsque vous travaillez sur un projet, vous pouvez découvrir que des événements inattendus se produisent. Vous pouvez consigner ces événements inattendus comme des problèmes pour un projet ou une tâche spécifique. Vous pouvez également envoyer des requêtes, qui sont enregistrées en tant que problèmes sur un projet désigné comme file d’attente de requêtes. Les problèmes et les requêtes sont considérés comme interchangeables dans Adobe Workfront.
+description: Lorsque vous travaillez sur un projet, des événements inattendus peuvent survenir. Vous pouvez enregistrer ces événements inattendus en tant que problèmes pour un projet ou une tâche spécifique. Vous pouvez également soumettre des requêtes, qui sont enregistrées en tant que problèmes sur un projet désigné comme file d’attente des demandes. Les problèmes et les requêtes sont considérés comme interchangeables dans Adobe Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,15 +11,15 @@ exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
 source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 16%
+ht-degree: 99%
 
 ---
 
-# Configurer les types de requêtes
+# Configurer les types de demandes
 
-Lorsque vous travaillez sur un projet, vous pouvez découvrir que des événements inattendus se produisent. Vous pouvez consigner ces événements inattendus comme des problèmes pour un projet ou une tâche spécifique. Vous pouvez également envoyer des requêtes, qui sont enregistrées en tant que problèmes sur un projet désigné comme file d’attente de requêtes. Les problèmes et les requêtes sont considérés comme interchangeables dans Adobe Workfront.
+Lorsque vous travaillez sur un projet, des événements inattendus peuvent survenir. Vous pouvez enregistrer ces événements inattendus en tant que problèmes pour un projet ou une tâche spécifique. Vous pouvez également soumettre des requêtes, qui sont enregistrées en tant que problèmes sur un projet désigné comme file d’attente des demandes. Les problèmes et les requêtes sont considérés comme interchangeables dans Adobe Workfront.
 
-Pour plus d’informations sur la création de problèmes dans [!DNL Workfront], voir [Création de problèmes](../../../manage-work/issues/manage-issues/create-issues.md). Pour plus d’informations sur la création de requêtes dans [!DNL Workfront], voir [Créer et envoyer [!DNL Adobe Workfront] requêtes](../../../manage-work/requests/create-requests/create-submit-requests.md). Pour plus d’informations sur l’association des types de requête aux projets, voir [Définition des types de requête pour un projet](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+Pour plus d’informations sur la création de problèmes dans [!DNL Workfront], consultez la section [Créer des problèmes](../../../manage-work/issues/manage-issues/create-issues.md). Pour plus d’informations sur la création de requêtes dans [!DNL Workfront], consultez la section [Créer et soumettre des requêtes  [!DNL Adobe Workfront] ](../../../manage-work/requests/create-requests/create-submit-requests.md). Pour plus d’informations sur l’association de types de requêtes à des projets, consultez la section [Définir des types de requêtes pour un projet](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Conditions d’accès
 
@@ -33,15 +33,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>N’importe quelle</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront].</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas un accès, demandez à l’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être administrateur ou administratrice de [!DNL Workfront].</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice de [!DNL Workfront] s’il ou elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour plus d’informations sur la manière dont l’équipe d’administration [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,35 +65,35 @@ You must have at least one request type selected. You can select multiple reques
 </div>
 -->
 
-## Personnalisation des noms des types de requêtes
+## Personnaliser les noms des types de requête
 
-En tant qu’administrateur [!DNL Workfront], vous pouvez configurer les noms des types de requêtes de votre système. Les nouveaux noms sont visibles dans n’importe quelle zone de [!DNL Workfront] où s’affichent les champs **[!UICONTROL Type de problème]** ou **[!UICONTROL Type de demande]** :
+En tant que personne membre de l’équipe d’administration de [!DNL Workfront], vous pouvez configurer les noms des types de requêtes dans votre système. Les nouveaux noms sont visibles dans toutes les zones de [!DNL Workfront] où les champs **[!UICONTROL Type de problème]** ou **[!UICONTROL Type de requête]** s’affichent :
 
 * Dans la zone **[!UICONTROL Détails de la file d’attente]** d’un projet qui recevra les problèmes ou les requêtes.
-* Si plusieurs types de requêtes sont sélectionnés pour une file d’attente des requêtes, dans le formulaire **[!UICONTROL New Issue] Form** du champ **[!UICONTROL Issue Type]** , lorsque vous créez un problème ou envoyez une nouvelle requête.
+* Lorsque vous créez un problème ou soumettez une nouvelle requête, plusieurs types de requêtes sont sélectionnés pour une file d’attente des demandes, dans le champ **[!UICONTROL Type de problème]** du **[!UICONTROL formulaire Nouveau problème]**.
 
-  Pour plus d’informations sur la création de problèmes dans [!DNL Workfront], voir [Création de problèmes](../../../manage-work/issues/manage-issues/create-issues.md)
+  Pour plus d’informations sur la création de problèmes dans [!DNL Workfront], consultez la section [Créer des problèmes](../../../manage-work/issues/manage-issues/create-issues.md).
 
-  Pour plus d’informations sur la création de requêtes dans [!DNL Workfront], voir [Créer et envoyer [!DNL Adobe Workfront] requêtes](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Pour plus d’informations sur la création de requêtes dans [!DNL Workfront], consultez la section [Créer et soumettre des requêtes  [!DNL Adobe Workfront] ](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-* Sur le formulaire **[!UICONTROL Queue Topic Detail]**, lorsque vous configurez la rubrique de la file d’attente.\
-   Pour plus d’informations sur la création de rubriques de files d’attente, consultez la section [Créer des rubriques de files d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* Sur le formulaire **[!UICONTROL Détails de la rubrique de file d’attente]**, lorsque vous configurez la rubrique de file d’attente.\
+   Pour plus d’informations sur la création de rubriques de file d’attente, consultez la section [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-Pour personnaliser les noms des types de requêtes :
+Pour personnaliser les noms des types de requête, procédez comme suit :
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL États]**.
+1. Cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL Statuts]**.
 
-1. Cliquez sur l’onglet **[!UICONTROL Problèmes]** .
-1. Dans la partie supérieure de l’onglet **[!UICONTROL Problèmes]**, passez la souris sur le nom d’un type de requête, puis cliquez sur l’icône **[!UICONTROL Modifier]** qui s’affiche.
+1. Sélectionnez l’onglet **[!UICONTROL Problèmes]**.
+1. En haut de l’onglet **[!UICONTROL Problèmes]**, pointez sur le nom d’un type de requête, puis cliquez sur l’icône **[!UICONTROL Modifier]** qui apparaît.
 
    ![](assets/edit-request-type-name-nwe.png)
 
-1. Dans la zone qui s’affiche, saisissez un nouveau nom, puis appuyez sur **[!UICONTROL Entrée]**.
+1. Dans la zone qui apparaît, saisissez un nouveau nom, puis appuyez sur **[!UICONTROL Entrée]**.
 
-## Configuration des statuts des problèmes dans différents types de requêtes
+## Configurer les statuts des problèmes dans les différents types de requêtes
 
-Vous pouvez associer chaque type de requête à différents statuts de problème. Vous pouvez également modifier l’ordre dans lequel les états s’affichent sur un problème, selon le type de problème.
+Vous pouvez affecter différents statuts de problème à chaque type de requête. Vous pouvez également modifier l’ordre dans lequel les statuts s’affichent sur un problème, en fonction du type de problème.
 
-Pour plus d’informations sur la modification de l’ordre par défaut des statuts des problèmes et la configuration des statuts des problèmes, consultez la section [Créer ou modifier un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) dans [Créer ou modifier un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Pour plus d’informations sur la modification de l’ordre par défaut des statuts d’un problème et la configuration des statuts d’un problème, consultez la section [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) dans l’article [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).

@@ -3,7 +3,7 @@ title: Renommer un formulaire personnalisé
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Vous pouvez renommer des formulaires personnalisés existants à l’aide du concepteur de formulaire.
+description: Vous pouvez renommer des formulaires personnalisés existants à l’aide du créateur de formulaire.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -11,13 +11,13 @@ exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
 source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
 # Renommer un formulaire personnalisé
 
-Vous pouvez renommer un formulaire personnalisé à tout moment après sa création dans le créateur de formulaire.
+Vous pouvez renommer un formulaire personnalisé à tout moment une fois qu’il a été créé avec le créateur de formulaire.
 
 ## Conditions d’accès
 
@@ -30,28 +30,28 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Forfait Adobe Workfront</p> </td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouvelle : standard</p>
+   <p>Nouveau : Standard</p>
    <p>ou</p>
-   <p>Actuelle : formule</p></td> 
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès administratif aux formulaires personnalisés</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Renommer un formulaire personnalisé avec le créateur de formulaires
+## Renommer un formulaire personnalisé avec le créateur de formulaire
 
 {{step-1-to-setup}}
 
@@ -61,10 +61,10 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 1. Sélectionnez le formulaire personnalisé à renommer, puis cliquez sur l’![icône Modifier](assets/edit-icon2.png).
 1. Pour modifier le titre, cliquez sur le nom du formulaire.
-1. Pour modifier la description, cliquez dans la zone de texte Description.
+1. Pour modifier la description, cliquez dans la zone de texte de description.
 
-1. Cliquez sur **Enregistrer et Fermer**.
+1. Cliquez sur **Enregistrer et fermer**.
 
    >[!TIP]
    >
-   >Cliquez sur **Appliquer** lorsque vous créez un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.
+   >Cliquez sur **Appliquer** à tout moment lorsque vous créez un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.

@@ -1,8 +1,8 @@
 ---
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
-title: Informations sur la nouvelle version bêta de l’expérience de commentaire
-description: Le programme bêta de la nouvelle expérience de commentaires est actuellement fermé. Les articles suivants documentent les fonctionnalités mises à disposition dans la nouvelle expérience de commentaire.
+title: Informations sur la nouvelle expérience bêta de commentaires
+description: Le nouveau programme bêta d’expérience de commentaires est actuellement fermé. Les articles suivants présentent les fonctionnalités disponibles dans la nouvelle expérience de commentaires.
 author: Alina
 feature: Product Announcements
 role: User, Admin
@@ -17,7 +17,7 @@ ht-degree: 81%
 
 ---
 
-# Informations sur la nouvelle version bêta de l’expérience de commentaire
+# Informations sur la nouvelle expérience bêta de commentaires
 
 >[!IMPORTANT]
 >

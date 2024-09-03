@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: L’URL de déconnexion ADFS ne fonctionne pas
-description: La procédure décrite sur cette page s’applique uniquement aux entreprises qui ne sont pas encore intégrées à Adobe Admin Console.
+description: La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à Adobe Admin Console.
 author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
@@ -16,15 +16,15 @@ ht-degree: 98%
 
 ---
 
-# L’URL de déconnexion ADFS ne fonctionne pas.
+# L’URL de déconnexion ADFS ne fonctionne pas
 
 <!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à [!UICONTROL Adobe Admin Console].
+>La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à [!UICONTROL Adobe Admin Console].
 >
->Si votre entreprise est intégrée à [!UICONTROL Adobe Admin Console], consultez l’article [Différences d’administration selon les plateformes ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Si votre entreprise est intégrée à [!UICONTROL Adobe Admin Console], consultez l’article [Différences d’administration selon les plateformes ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Problème
 
@@ -36,36 +36,36 @@ Si le problème persiste, contactez l’administration de ce site et indiquez le
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe [!DNL Workfront]</td> 
    <td> 
-   <p>Nouvelle : standard</p>
-   <p>Actuelle : formule</p></td> 
+   <p>Nouveau : Standard</p>
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice . [!DNL Workfront] Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès administratif intégral pour les utilisateurs et utilisatrices</a>.</p>  </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations, consultez l’article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur ou une utilisatrice</a>.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez l’article [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Solution
 
-1. Dans votre serveur de gestion ADFS, accédez aux propriétés **[!UICONTROL Relations de confiance]** > **[!UICONTROL Parties de confiance]** > `<your party trust>`.
+1. Dans votre serveur de gestion ADFS, accédez aux propriétés **[!UICONTROL Relations de confiance]** > **[!UICONTROL Partie de confiance]** > `<your party trust>`.
 
 1. Sous l’onglet **[!UICONTROL Points d’entrée]**, cliquez sur **[!UICONTROL Ajouter]**.
 

@@ -1,34 +1,34 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Suppression de l’usurpation d’adresses email et des réponses POP
-description: Nous apportons deux modifications à la façon dont Adobe Workfront envoie et reçoit des emails avec la version 20.3 (prévue en août 2020).
+title: Usurpation d’adresses e-mail et suppression des réponses POP
+description: Nous apportons deux modifications à la façon dont Adobe Workfront envoie et reçoit des e-mails avec la version 20.3 (prévue en août 2020).
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
 source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# usurpation d’email et réponse POP
+# Usurpation d’adresses e-mail et réponses POP
 
-Nous apportons deux modifications à la façon dont Adobe Workfront envoie et reçoit des emails avec la version 20.3 (prévue en août 2020).
+Nous apportons deux modifications à la façon dont Adobe Workfront envoie et reçoit des e-mails avec la version 20.3 (prévue en août 2020).
 
-## Courrier électronique sortant de Workfront
+## E-mails sortants de Workfront
 
-Afin d&#39;améliorer la diffusion des emails, nous allons éliminer l&#39;usurpation des emails, souvent balisés comme spam (voir la section usurpation d&#39;email). Tous les courriers électroniques de Workfront seront envoyés depuis notifications@my.workfront.com, y compris les alertes automatisées et la communication utilisateur-utilisateur. Voici un exemple de courrier électronique de Joan Harris dans la zone de votre courrier électronique :
+Afin d’accroître la diffusion réussie des e-mails, nous allons éliminer l’usurpation d’adresses e-mail, souvent taguées comme spam (voir la section Usurpation d’adresses e-mail). Tous les e-mails provenant de Workfront seront envoyés depuis l’adresse notifications@my.workfront.com, y compris les alertes automatisées et les communications entre utilisateurs et utilisatrices. Voici un exemple d’e-mail de Joan Harris dans la zone « De » de votre e-mail :
 
 ![](assets/noreply.png)
 
-*Nous vous recommandons vivement de contacter votre équipe informatique* pour vous assurer que les courriers électroniques de notifications@my.workfront.com ne seront pas bloqués pour les courriers électroniques entrants sur votre système. Vous pouvez également référencer [Configuration de la liste autorisée de votre pare-feu](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) pour plus d’informations sur les adresses IP de notre trafic et de notre courrier électronique.
+*Nous vous recommandons vivement de contacter votre équipe informatique* pour vous assurer que les e-mails provenant de notifications@my.workfront.com ne soient pas bloqués en entrant dans votre système. Vous pouvez également consulter la section [Configurer la liste autorisée de votre pare-feu](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) pour plus d’informations sur les adresses IP à l’origine de notre trafic et de nos e-mails.
 
-## Réponses électroniques entrantes aux notifications (réponse POP)
+## Réponses électroniques entrantes aux notifications (réponse POP)
 
-Certaines notifications électroniques permettent aux utilisateurs de répondre par email et de faire copier la réponse dans Workfront en tant que réponse de commentaire dans le système Workfront. Les administrateurs système de Workfront ont toujours pu choisir entre fournir leur propre serveur de messagerie POP pour recevoir ces réponses ou utiliser le système de réponse Workfront intégré. Le choix du serveur de messagerie POP personnalisé est supprimé avec la version 20.3. Tous les comptes configurés pour utiliser un serveur personnalisé seront automatiquement transférés afin d’utiliser le système de réponse aux courriers électroniques natif de Workfront. Aucune action n’est requise pour les administrateurs système ou les autres utilisateurs de Workfront.
+Certaines notifications électroniques permettent de répondre par e-mail. La réponse est alors copiée dans Workfront sous forme de réponse de commentaire dans le système Workfront. Les administrateurs et administratrices système de Workfront ont toujours pu choisir entre fournir leur propre serveur de messagerie POP pour recevoir ces réponses ou utiliser le système de réponse Workfront intégré. Le choix du serveur de messagerie POP personnalisé est supprimé dans la version 20.3. Tous les comptes configurés pour utiliser un serveur personnalisé seront automatiquement modifiés afin d’utiliser le système de réponse par e-mail natif de Workfront. Aucune action n’est requise des équipes d’administration système ni des autres utilisateurs et utilisatrices de Workfront.
 
-Les emails provenant directement du système Workfront Proof ne seront pas modifiés. Vous continuerez à recevoir ces emails comme vous l’avez fait par le passé.
+Les e-mails provenant directement du système Workfront Proof ne seront pas modifiés. Vous continuerez à les recevoir comme par le passé.
 
-Si vous avez d’autres questions ou préoccupations, contactez l’ [équipe d’assistance Workfront](https://one.workfront.com/s/support?language=en_US).
+Pour toute autre question ou préoccupation, contactez l’[Équipe d’assistance Workfront](https://experienceleague.adobe.com/fr?support-tab=home#support).

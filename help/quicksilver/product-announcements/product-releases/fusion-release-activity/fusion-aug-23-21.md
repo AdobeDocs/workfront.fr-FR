@@ -1,6 +1,6 @@
 ---
-title: Activité Publication de fusion Workfront :&nbsp;Semaine du 23 août 2021
-description: Activité Publication de fusion Workfront :&nbsp;Semaine du 23 août 2021
+title: Activité Version de Workfront Fusion : semaine du 23 août 2021
+description: Activité Version de Workfront Fusion : semaine du 23 août 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -10,40 +10,40 @@ hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
-# Activité Publication de fusion Workfront : Semaine du 23 août 2021
+# Activité Version de Workfront Fusion : semaine du 23 août 2021
 
-Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion durant la semaine du 23 août 2021.
+Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion durant la semaine du 23 août 2021.
 
-Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
 
-## Champs de saisie anticipée désormais disponibles dans les modules Workfront
+## Champs de saisie semi-automatique désormais disponibles dans les modules Workfront
 
-Afin de faciliter l’utilisation des modules, a remplacé certaines listes déroulantes par des champs de saisie anticipée. Désormais, au lieu de sélectionner des éléments dans des listes longues, vous pouvez commencer à saisir l’élément, puis cliquer dessus lorsqu’il apparaît.
+Pour rendre les modules plus conviviaux, certaines listes déroulantes ont été remplacées par des champs de saisie semi-automatique. Maintenant, plutôt que de sélectionner des éléments dans de longues listes, vous pouvez commencer à saisir l’élément, puis cliquer dessus lorsqu’il apparaît.
 
-Auparavant, les utilisateurs sélectionnaient des éléments dans les listes déroulantes. Selon l’objet, ces listes peuvent être longues et il peut s’avérer difficile de faire défiler et de localiser les éléments.
+Auparavant, les utilisateurs et les utilisatrices sélectionnaient des éléments dans des listes déroulantes. Selon l’objet, ces listes pouvaient être longues et il pouvait être difficile de faire défiler et de trouver les éléments.
 
-Pour plus d’informations sur les modules Workfront, voir [Modules Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Pour plus d’informations sur les modules Workfront, consultez la section [Modules Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Objet d’enregistrement de facturation désormais disponible dans les modules Workfront
 
-L’objet Enregistrement de facturation est disponible dans les listes de sélection d’objets déroulantes des modules suivants :
+L’objet d’enregistrement de facturation est disponible dans les listes déroulantes de sélection d’objets des modules suivants :
 
-* Surveiller les enregistrements
+* Surveiller l’enregistrement
 * Supprimer l’enregistrement
-* Créer un enregistrement
-* Lecture d’enregistrement
+* Créer l’enregistrement
+* Lire l’enregistrement
 * Mettre à jour l’enregistrement
-* Enregistrement de recherche
+* Rechercher l’enregistrement
 
 Auparavant, l’objet d’enregistrement de facturation n’était disponible que par mappage.
 
-Pour plus d’informations, voir [Modules Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Pour plus d’informations, consulter la section [Modules Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

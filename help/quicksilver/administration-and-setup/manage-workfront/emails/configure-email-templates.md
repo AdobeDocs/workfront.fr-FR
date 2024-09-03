@@ -19,7 +19,7 @@ ht-degree: 99%
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez configurer des modèles d’e-mail pour prendre en charge les notifications de rappel.
 
-Les modèles d’e-mail contiennent le message envoyé aux personnes lorsqu’une notification de rappel est initiée.\
+Les modèles d’e-mail contiennent le message envoyé aux personnes lorsqu’une notification de rappel est initée.\
 Sans modèle d’e-mail, la notification de rappel sera délivrée sous la forme d’un contenu vide dans le corps de l’e-mail.
 
 Des modèles d’e-mail peuvent être associés à des notifications de rappel pour les problèmes, les tâches, les projets et les feuilles de temps. Lors de la création de modèles d’e-mail, votre administrateur ou administratrice Workfront peut fournir le contenu de l’e-mail et une ligne d’objet.
@@ -28,21 +28,21 @@ Des modèles d’e-mail peuvent être associés à des notifications de rappel p
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td><p>Actuelle : formule</p>
+   <td><p>Actuel : formule</p>
    Ou
-   <p>Nouvelle : standard</p></td> 
+   <p>Nouveau : Standard</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuration du niveau d’accès</td> 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les conditions d’accès, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +73,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <tbody> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td>Ajoutez un titre au modèle d’e-mail. Il s’agit d’un champ obligatoire.</td> 
+      <td>Ajoutez un titre au modèle d’e-mail. Champ obligatoire.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Type d’objet</td> 
@@ -93,7 +93,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    <tr> 
       <td role="rowheader">Objet </td> 
-      <td>Ajoutez le texte qui s’affiche dans la ligne Objet de l’e-mail, lorsque le message généré par le modèle est envoyé. Il s’agit d’un champ obligatoire.</td> 
+      <td>Ajoutez le texte qui s’affiche dans la ligne Objet de l’e-mail, lorsque le message généré par le modèle est envoyé. Champ obligatoire.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Corps </td> 
@@ -113,7 +113,7 @@ Le formatage HTML peut enrichir vos modèles d’e-mail, comme le montrent les s
 
 * [Lier à des objets Workfront](#link-to-workfront-objects)
 * [Lier à des champs personnalisés avec HTML](#link-to-custom-fields-with-html)
-* [Exemples d’e-mail HTML](#html-email-examples)
+* [Exemples d’e-mails HTML](#html-email-examples)
 
 ### Lier à des objets Workfront {#link-to-workfront-objects}
 
@@ -197,7 +197,7 @@ Remplacez `<your domain>` par le domaine Workfront de votre entreprise, sans les
 >
 >`DE:Project:Delivery Date`
 
-### Exemples d’e-mail HTML {#html-email-examples}
+### Exemples d’e-mails HTML {#html-email-examples}
 
 * [Notification de rappel de projet en retard (exemple)](#late-project-reminder-notification-example)
 * [Rappel de tâche ou problème sur le point de commencer (exemple)](#task-or-issue-about-to-start-reminder-example)

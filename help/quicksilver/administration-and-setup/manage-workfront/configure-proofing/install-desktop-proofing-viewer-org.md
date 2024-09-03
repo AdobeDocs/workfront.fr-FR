@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
 title: Installation de la visionneuse de vérification de l’appli de bureau pour votre organisation
-description: La visionneuse de relecture de bureau, conçue principalement pour la relecture de contenu interactif, est une application qui doit être installée sur la machine locale de chaque personne. En tant qu’administrateur ou administratrice Adobe Workfront ou Workfront Proof, vous pouvez effectuer cette installation.
+description: La visionneuse de relecture de bureau, conçue principalement pour la relecture de contenu interactif, est une application qui doit être installée sur la machine locale de chaque personne. En tant qu’administrateur ou administratrice Adobe Workfront ou Workfront Proof, vous pouvez effectuer cette installation.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
@@ -19,21 +19,21 @@ ht-degree: 98%
 
 <!--Audited: 05/2024-->
 
-La visionneuse de relecture de bureau, conçue principalement pour la relecture de contenu interactif, est une application qui doit être installée sur la machine locale de chaque personne. En tant qu’administrateur ou administratrice Adobe Workfront ou Workfront Proof, vous pouvez effectuer cette installation.
+La visionneuse de relecture de bureau, conçue principalement pour la relecture de contenu interactif, est une application qui doit être installée sur la machine locale de chaque personne. En tant qu’administrateur ou administratrice Adobe Workfront ou Workfront Proof, vous pouvez effectuer cette installation.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>Forfait actuel : Pro ou version ultérieure</p> <p>ou</p> <p>Formule héritée : Premium ou Select</p> <p>Pour plus d’informations sur l’accès à la relecture avec les différents forfaits, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Plan actuel : Pro ou version supérieure</p> <p>ou</p> <p>Formule héritée : Premium ou Select</p> <p>Pour plus d’informations sur l’accès à la relecture avec les différents forfaits, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -55,7 +55,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 La visionneuse de relecture de bureau est compatible avec les systèmes d’exploitation suivants :
 
 * Windows 7 et versions ultérieures, 32 bits et 64 bits
-* Mac OS X 10.9 et versions supérieures, 64 bits
+* Mac OS X 10.9 et version supérieure, 64 bits
 
 ## Conditions préalables
 
@@ -80,7 +80,7 @@ Après avoir installé la visionneuse de relecture de bureau pour votre organisa
 * [Installation de la visionneuse de relecture de bureau sur Mac](#installing-the-desktop-proofing-viewer-on-mac)
 * [Installation de la visionneuse de relecture de bureau sous Windows](#installing-the-desktop-proofing-viewer-on-windows)
 
-### Installer la visionneuse de relecture de bureau sur Mac {#installing-the-desktop-proofing-viewer-on-mac}
+### Installation de la visionneuse de relecture de bureau sur Mac {#installing-the-desktop-proofing-viewer-on-mac}
 
 1. Sur l’ordinateur de l’utilisateur ou de l’utilisatrice, effectuez l’une des opérations suivantes pour télécharger l’application :
 
@@ -108,5 +108,5 @@ Après avoir installé la visionneuse de relecture de bureau pour votre organisa
 
    La visionneuse de relecture de bureau s’installe et s’exécute.
 
-1. (Le cas échéant) Si vous installez l’application à l’aide d’Internet Explorer, actualisez la page de lancement dans le navigateur après l’installation de l’application.
+1. (Le cas échéant) Si vous installez l’application à l’aide d’Internet Explorer, rafraîchissez la page de lancement dans le navigateur après l’installation de l’application.
 1. Veillez à ce que chaque utilisateur et utilisatrice termine l’installation en ouvrant une épreuve interactive à partir de la zone Documents de Workfront.

@@ -47,13 +47,13 @@ Les équipes et le leadership ont besoin de réponses claires à des questions t
 * Quelle est l’efficacité actuelle des programmes de sensibilisation ?
 * À quoi ressemblent les ressources d’une campagne spécifique ? Lesquelles doivent encore être approuvées ?
 
-Pour répondre à ces questions, le leadership a besoin d’une solution qui puisse fournir une vision holistique de chaque étape du travail, de la planification à l’exécution, de la diffusion à la mesure des résultats. Actuellement, les entreprises disposent d’outils qui peuvent couvrir certaines parties du processus, mais nombre d’entre eux ne sont pas bien en connectés à toutes les phases du travail et ne peuvent pas fournir de résultats fiables.
+Pour répondre à ces questions, les dirigeantes et dirigeants doivent pouvoir disposer d’une solution offrant une vision globale de chaque étape de travail, de la planification à l’exécution en passant par la livraison et la mesure des résultats. Actuellement, les entreprises disposent d’outils qui peuvent couvrir certaines parties du processus, mais nombre d’entre eux ne sont pas bien en connectés à toutes les phases du travail et ne peuvent pas fournir de résultats fiables.
 
 Voici quelques-unes des principales fonctionnalités :
 
 * Résolvez le problème de la gestion du travail à toutes les étapes et pour toutes les parties prenantes qui participent au processus de travail.
-* Personnalisez entièrement vos workflows, du choix des types d’objets (ou des types d’enregistrements) utilisés par votre entreprise à la configuration de la liaison entre ces objets.
-* Liez-les à des types d’objets d’autres systèmes, créant ainsi un cadre cohérent pour tous vos processus.
+* Personnaliser entièrement vos workflows, depuis le choix des types d’objets (ou d’enregistrements) utilisés par votre entreprise jusqu’à la configuration de la façon dont ces objets sont liés les uns aux autres.
+* Lier des types d’objets provenant d’autres systèmes, créant ainsi un cadre cohérent pour tous vos processus.
 
 ## Fonctionnalités de planification Workfront actuellement disponibles
 
@@ -66,7 +66,7 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 Voici les fonctionnalités actuellement disponibles dans la planification Workfront :
 
 * Créer des espaces de travail
-* Créer des types d’enregistrements
+* Créer des types d’enregistrement
 * Créer des champs personnalisés d’enregistrement\
   <!--* Import record types and fields using an Excel or CSV file-->
 
@@ -85,13 +85,13 @@ Voici les fonctionnalités actuellement disponibles dans la planification Workfr
 * Afficher les connexions d’enregistrement dans l’onglet Connexions
 * Personnalisation de la mise en page d’une page d’enregistrement
 * Partager des espaces de travail
-* Partager des vues
+* Partager des affichages
 * Partage des vues publiquement avec des ressources externes
 * Dupliquer les vues
 * Envoi de requêtes pour créer des enregistrements
 * Exportation des détails de l’enregistrement vers Word\
   <!--* Export record details to PDF-->
-* Apporter des commentaires aux enregistrements
+* Ajouter des commentaires aux enregistrements
 * Réception de notifications in-app
 * Recevoir des notifications par e-mail
 * Ajout de miniatures et de pages de garde aux enregistrements
@@ -265,7 +265,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
-  Après avoir établi une connexion entre les types d’enregistrement, vous pouvez connecter les enregistrements individuels de ces types les uns aux autres. La connexion entre les enregistrements s’affiche sous la forme d’un champ d’enregistrement lié.
+  Une fois que vous avez établi une connexion entre les types d’enregistrements, vous pouvez connecter les enregistrements individuels de ces types les uns aux autres. La connexion entre les enregistrements s’affiche sous la forme d’un champ d’enregistrement lié.
 
 * **Champs liés** (ou champs de recherche) : après avoir établi la connexion entre deux types d’enregistrement et lier des enregistrements individuels les uns aux autres, vous pouvez référencer les champs des enregistrements liés sur l’enregistrement à partir duquel vous vous connectez.
 
@@ -282,22 +282,22 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
   >* Dernière modification par
   >* Champs de saisie anticipée Workfront (y compris les champs tels que Propriétaire du projet ou Parrain du projet)
 
-  Pour plus d’informations sur la liaison de types d’enregistrement, d’enregistrements et la création de champs liés, consultez les articles suivants :
+  Pour plus d’informations sur la création de liens entre les types d’enregistrements et les enregistrements, ainsi que sur la création de champs liés, consultez les articles suivants :
 
-   * [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
+   * [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Connect records](/help/quicksilver/planning/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
-* **Vues** : les enregistrements s’affichent sous leur page de type d’enregistrement respectif dans différents types de vues.
+* **Vues** : les enregistrements s’affichent sous leur page de type d’enregistrement respective dans différents types de vues.
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
-  Les vues contiennent des paramètres personnalisés d’un type de vue spécifique, tels que la liste des champs (colonnes), une liste d’enregistrements (lignes), leur ordre (tri), un filtre appliqué ou applicable et un regroupement.
+  Les vues contiennent les paramètres personnalisés d’un type de vue spécifique, tels que la liste des champs (colonnes), une liste des enregistrements (lignes), leur ordre (tri), un filtre appliqué ou applicable et un regroupement.
 
-  Voici les types de vue que vous pouvez appliquer à la page de type enregistrement :
+  Les types de vue suivants peuvent être appliqués à la page des types d’enregistrement :
 
-   * **Vue Tableau** : affiche les enregistrements et leurs champs, y compris les champs connectés et de recherche, dans un format de tableau. Les lignes du tableau sont les enregistrements individuels et les colonnes sont les champs d’enregistrement. La vue de tableau est la vue par défaut.
+   * **Vue Tableau** : affiche les enregistrements et leurs champs, y compris les champs connectés et de recherche, dans un format de tableau. Les lignes du tableau sont les enregistrements individuels et les colonnes sont les champs de l’enregistrement. La vue de tableau est la vue par défaut.
 
      ![](assets/table-view-example.png)
 
@@ -343,11 +343,11 @@ Pour localiser Workfront Planning :
 
    1. Ajoutez des sections au nouvel espace de travail. Pour plus d’informations, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
    1. Renommez les sections existantes dans le nouvel espace de travail.
-   1. Ajoutez des types d’enregistrement au nouvel espace de travail. Pour plus d’informations, voir [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
+   1. Ajoutez des types d’enregistrement au nouvel espace de travail. Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
    1. Cliquez sur le nom d’un type d’enregistrement pour ouvrir la page du type d’enregistrement. Par défaut, la page du type enregistrement s’ouvre dans la vue Tableau.
 
-      Vous pouvez également créer une vue Chronologie ou Calendrier. Pour plus d’informations, voir [Gérer des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+      Vous pouvez également créer une vue Chronologie ou Calendrier. Pour plus d’informations, consultez la section [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
    1. En mode Tableau, commencez à ajouter des enregistrements en ajoutant des lignes.
 

@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Ajouter des utilisateurs
-description: En tant qu’administrateur Workfront ou utilisateur disposant d’un accès administrateur complet, vous pouvez ajouter des utilisateurs dans Workfront.
+description: En tant qu’administrateur ou administratrice de Workfront ou personne disposant d’un accès administratif intégral, vous pouvez ajouter des utilisateurs et utilisatrices dans Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 22%
+ht-degree: 98%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 22%
 
 >[!IMPORTANT]
 >
->Si votre entreprise a été intégrée à Adobe Admin Console, vous devez créer des administrateurs système via Adobe Admin Console.
+>Si votre organisation a été intégrée à Adobe Admin Console, vous devez créer des administrateurs et administratrices système via Adobe Admin Console.
 >
->Pour plus d’informations sur la création d’administrateurs système dans Adobe Admin Console, voir [Gestion des administrateurs système dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Pour obtenir des instructions sur la création d’administrateurs et administratrices système dans Adobe Admin Console, voir [Gérer les administrateurs et administratrices système dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
->Les administrateurs de groupe des organisations intégrées à Adobe Admin Console peuvent suivre cette procédure pour créer des utilisateurs et envoyer l’utilisateur pour approbation par l’administrateur.
+>Les administrateurs et administratrices de groupes des organisations qui ont été intégrées à Adobe Admin console peuvent utiliser cette procédure pour créer des utilisateurs et utilisatrices et les soumettre à l’approbation de l’administrateur ou de l’administratrice.
 >
->Pour obtenir une liste de procédures qui varient selon que votre organisation a été intégrée ou non à Adobe Admin Console, voir [Différences d’administration en fonction de la plateforme (Adobe Workfront Fusion/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Pour obtenir une liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à Adobe Admin Console, consultez la section [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Vous pouvez ajouter des utilisateurs dans Adobe Workfront en créant des utilisateurs individuels à partir de zéro ou en copiant des utilisateurs existants.
+Vous pouvez ajouter des personnes dans Adobe Workfront en créant des utilisateurs individuels et utilisatrices individuelles à partir de zéro ou en copiant des personnes existantes.
 
-Pour plus d’informations sur l’importation simultanée de plusieurs utilisateurs, voir [Importation d’utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+Pour plus d’informations sur l’import simultané de plusieurs utilisateurs et utilisatrices, voir [Importer des utilisateurs et utilisatrices](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 
 <!--
 Replace this intro with something like the following when we switch to Admin Console:
@@ -49,125 +49,125 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouvelle : standard</p><p>Ou</p><p>Actuelle : formule</p></td> 
+   <td><p>Nouveau : Standard</p><p>Ou</p><p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès Administrateur ou administratrice système. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>. </p> </li> 
-     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Parmi ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être administrateur ou administratrice d’un groupe dont l’utilisateur est membre.</p> <p>Pour plus d’informations sur le paramètre <b>Utilisateurs et utilisatrices</b> dans un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. Pour plus d’informations, consultez <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès d’administration complet à un utilisateur ou une utilisatrice</a>. </p> </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Parmi ces deux options, si l’option <b>Administratrion des utilisateurs et utilisatrices (utilisateurs et utilisatrices du groupe)</b> est activée, vous devez être administrateur ou administratrice de groupes d’un groupe dont l’utilisateur ou l’utilisatrice est membre.</p> <p>Pour plus d'informations sur le paramètre <b>Utilisateurs et utilisatrices</b> dans un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder un accès à des utilisateurs et utilisatrices </a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Conditions préalables
 
-Avant d’ajouter un utilisateur, rassemblez les informations sur l’utilisateur répertoriées ci-dessous et déterminez les informations à associer à cet utilisateur :
+Avant d’ajouter une personne, rassemblez les informations sur elle énumérées ci-dessous et déterminez les informations que vous souhaitez associer à cette personne :
 
-* Quelles sont les informations personnelles de l’utilisateur ? Vous avez besoin au minimum des éléments suivants :
+* Quelles sont les informations personnelles de la personne ? Il vous faut au minimum les éléments suivants :
 
    * Nom complet
-   * Un nom d’utilisateur
+   * Nom d’utilisateur ou d’utilisatrice
    * Mot de passe par défaut
    * Adresse e-mail
 
   >[!NOTE]
   >
-  >Vous pouvez déterminer si les utilisateurs peuvent afficher les coordonnées d’autres utilisateurs en affinant le paramètre Affichage utilisateur lors de la spécification des niveaux d’accès aux objets Workfront. Pour plus d’informations, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  >Vous pouvez déterminer si les personnes peuvent voir les coordonnées d’autres personnes en affinant le paramètre Vue utilisateurs et utilisatrices lors de la spécification des niveaux d’accès pour les objets Workfront. Pour plus d’informations, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Quelle est la position du nouvel utilisateur au sein de l’entreprise ? Cette personne a-t-elle des rapports directs ? À qui cette personne se rapporte-t-elle ?
-* Quel est le rôle de la personne ? Ce rôle de tâche existe-t-il dans Workfront ? Y a-t-il une limite au nombre de personnes qui peuvent remplir ce rôle d’employé ? Pour plus d’informations sur la création de rôles de tâche, voir [Création et gestion de rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
-* Quel niveau d’accès doit avoir l’utilisateur ? Existe-t-il déjà ou devez-vous en créer un nouveau ? Pour plus d’informations, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-* Dans quel groupe d’accueil cet utilisateur doit-il se trouver ? La personne doit-elle appartenir à plusieurs groupes ? Pour plus d’informations sur les groupes, voir [Présentation des groupes](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
-* Dans quelle équipe d’accueil cet utilisateur doit-il se trouver ? La personne doit-elle faire partie de plusieurs équipes ? Pour plus d’informations sur les équipes, voir [Présentation des équipes](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
-* Quelles informations personnalisées devez-vous associer à cet utilisateur ?
+* Quelle est la position de la nouvelle personne au sein de l’entreprise ? Cette personne a-t-elle des personnes subordonnées directes ? À qui cette personne rend-elle compte ?
+* Quelle est la fonction de la personne ? Cette fonction existe-t-elle dans Workfront ? Y a-t-il une limite au nombre de personnes pouvant occuper cette fonction ? Pour plus d’informations sur la création de fonctions, voir [Créer et gérer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* Quel doit être le niveau d’accès de la personne ? Existe-t-il déjà ou faut-il en créer un ? Pour plus d’informations, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+* Dans quel groupe principal cette personne doit-elle se trouver ? La personne doit-elle faire partie de plusieurs groupes ? Pour plus d’informations sur les groupes, voir [Vue d’ensemble des groupes](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+* Dans quelle équipe interne cette personne doit-elle se trouver ? La personne doit-elle faire partie de plusieurs équipes ? Pour plus d’informations sur les équipes, voir [Vue d’ensemble des équipes](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
+* Quelles informations personnalisées devez-vous associer à cette personne ?
 
-  Si des informations sur les utilisateurs sont capturées dans des champs personnalisés que vous avez créés, un formulaire personnalisé doit être prêt lors de la création d’un utilisateur. Pour plus d’informations sur les formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Si les informations sur les personnes sont capturées dans des champs personnalisés que vous avez créés, vous devez disposer d’un formulaire personnalisé lors de la création d’un utilisateur ou d’une utilisatrice. Pour plus d’informations sur les formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Création d’un utilisateur à partir de zéro
+## Créer entièrement une personne
 
 {{step-1-to-users}}
 
-1. Cliquez sur **Nouvel utilisateur > Nouvel utilisateur** pour ajouter un utilisateur qui n’a pas encore été ajouté à Workfront.
+1. Cliquez sur **Nouvel utilisateur ou utilisatrice > Nouvel utilisateur ou utilisatrice** pour ajouter une nouvelle personne à Workfront.
 
    Ou
 
-   Cliquez sur **Nouvel utilisateur > Importer des utilisateurs** pour ajouter des utilisateurs en chargeant un fichier d’importation de feuille de calcul.
+   Cliquez sur **Nouvel utilisateur ou utilisatrice > Importer des utilisateurs et utilisatrices** pour ajouter des personnes en chargeant un fichier d’import de feuille de calcul.
 
-   Si vous importez des utilisateurs, vous n’avez pas besoin de poursuivre cette procédure. Pour plus d’informations, voir [Importer des utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+   Si vous importez des personnes, vous n’avez pas besoin de suivre ces étapes. Pour plus d’informations, voir [Importer des personnes](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 
-1. Dans la zone **New User** qui s’affiche, cliquez sur **Afficher les options avancées**, puis configurez les options disponibles pour saisir les informations de la personne.
+1. Dans la boîte **Nouvel utilisateur ou utilisatrice** qui s’affiche, cliquez sur **Afficher les options avancées**, puis configurez les options disponibles pour saisir les informations relatives à la personne.
 
-   Pour plus d’informations sur ces options, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Pour plus d’informations sur ces options, voir [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Laissez **Envoyer un courrier électronique d’invitation à cette personne** activé. Dans ce cas, l’utilisateur reçoit un courrier électronique lui permettant de suivre un lien afin de créer son propre mot de passe pour Workfront. Les utilisateurs qui n’acceptent pas l’invitation par courrier électronique et ne créent pas de mot de passe Workfront sont répertoriés comme Non enregistrés dans Workfront.
-   * Désactivez **Envoyer un courrier électronique d’invitation à cette personne**, puis tapez un **mot de passe** pour la personne et confirmez-le dans la zone **Confirmer le mot de passe**. Vous devrez partager ce mot de passe avec l’utilisateur en dehors de Workfront.
+   * Gardez l’option **Envoyer un e-mail d&#39;invitation à cette personne** activée. Dans ce cas, la personne reçoit un e-mail dans lequel elle peut suivre un lien pour créer son propre mot de passe pour Workfront. Les personnes qui n’acceptent pas l’invitation par e-mail et ne créent pas de mot de passe Workfront sont répertoriées comme non enregistrées dans Workfront.
+   * Désactivez **Envoyez un e-mail d’invitation à cette personne**, puis saisissez un **Mot de passe** pour la personne et confirmez-le dans la boîte **Confirmer le mot de passe**. Vous devrez partager ce mot de passe avec la personne en dehors de Workfront.
 
    >[!NOTE]
    >
-   >* Si votre administrateur Workfront a activé une intégration SSO avec Workfront, le champ Autoriser uniquement l’authentification &lt;configuration SSO> est masqué si vous désactivez l’invitation par courrier électronique. Le champ ID de fédération ou &lt;Configuration SSO> Nom d’utilisateur reste visible.
+   >* Si votre administrateur ou administratrice de Workfront a activé une intégration SSO avec Workfront, le champ Autoriser l’authentification &lt;SSO Configuration> uniquement est masqué si vous désactivez l’invitation par e-mail. Le champ ID de fédération ou nom d’utilisateur ou d’utilisatrice &lt;SSO Configuration> reste visible.
    >
-   * Si votre organisation a été intégrée à l’Admin Console et que vous ajoutez un utilisateur via Workfront, vous n’avez pas la possibilité d’envoyer une invitation par courrier électronique.
+   * Si votre organisation a été intégrée à Admin Console et que vous ajoutez une personne via Workfront, vous n’avez pas la possibilité d’envoyer une invitation par e-mail.
    >
-   Pour les utilisateurs et les utilisatrices d’Adobe existants, l’utilisateur ou l’utilisatrice peut recevoir ou non un e-mail sur la disponibilité de Workfront. Il s’agit d’une préférence contrôlée par l’administrateur ou l’administratrice d’Adobe pour le produit.
+   Pour les utilisateurs et utilisatrices d’Adobe existants, l’utilisateur ou l’utilisatrice peut recevoir ou non un e-mail sur la disponibilité de Workfront. Il s’agit d’une préférence contrôlée par l’administrateur ou l’administratrice d’Adobe pour le produit.
 
-1. Cliquez sur **Ajouter cette personne**.
+1. Sélectionnez **Ajouter cette personne**.
 
    Ou
 
-   Cliquez sur **Ajouter une personne et démarrer une autre** pour enregistrer le nouvel utilisateur et en ajouter un autre.
+   Cliquez sur **Ajouter une personne et en créer une autre** pour enregistrer la nouvelle personne et en ajouter un autre.
 
    >[!NOTE]
    >
-   Si vous êtes administrateur de groupe et que vous ajoutez un utilisateur à une organisation qui a été intégrée à Adobe Admin Console, les options de cette étape sont **Submit user for Admin Approval** et **Submit for Approval &amp; Start Other**. L’utilisateur est créé dans un état Désactivé et En attente d’approbation . Un administrateur Workfront doit approuver l’utilisateur, qui l’active dans Workfront et l’ajoute à Adobe Admin Console.
+   Si vous êtes un administrateur ou une administratrice de groupe et que vous ajoutez une personne à une organisation qui a été intégrée à Adobe Admin Console, vous disposez des options suivantes pour cette étape : **Soumettre une personne pour approbation par l’administration** et **Soumettre pour approbation et en créer une autre**. L’utilisateur ou l’utilisatrice est créé dans un statut désactivé et en attente d’approbation. Un administrateur ou une administratrice de Workfront doit approuver la personne, afin de l’activer dans Workfront et l’ajouter à Adobe Admin Console.
 
-## Copier un utilisateur pour en créer un nouveau
+## Copier une personne existante pour créer un nouvel utilisateur ou une nouvelle utilisatrice
 
-Vous pouvez créer un utilisateur en copiant un utilisateur existant.
+Vous pouvez créer une personne en copiant une personne existante.
 
 >[!NOTE]
 >
-Lorsque vous créez un utilisateur de cette manière, toutes les informations sont copiées de l’utilisateur d’origine vers l’utilisateur nouvellement créé, à l’exception des informations suivantes :
+Lorsque vous créez une personne en procédant ainsi, toutes les informations sont copiées à partir de la personne d’origine vers la personne nouvellement créée, à l’exception des éléments suivants :
 >
-* Les informations de la section Informations personnelles .
-* Lorsque je me connecte, affichez : l&#39;onglet d&#39;entrée par défaut du niveau d&#39;accès est sélectionné dans cette zone.
+* Les informations contenues dans la section « Informations personnelles ».
+* Lors de la connexion, l’onglet de destination par défaut pour le niveau d’accès.
 * Rapports directs
 >
 
-Pour créer un utilisateur en copiant un utilisateur existant :
+Pour créer une nouvelle personne en copiant une personne existante, procédez comme suit :
 
 {{step-1-to-users}}
 
-1. Sélectionnez l’utilisateur à copier, puis cliquez sur l’icône Copier ![](assets/copy-icon.png).
-1. Dans la zone **Copier l’utilisateur** qui s’affiche, modifiez les champs disponibles pour le nouvel utilisateur.
+1. Sélectionnez la personne que vous souhaitez copier, puis cliquez sur l’icône Copier ![](assets/copy-icon.png).
+1. Dans la boîte **Copier l’utilisateur ou l’utilisatrice** qui s’affiche, modifiez les champs disponibles pour la nouvelle personne.
 
-   Pour plus d’informations sur tous les champs associés à un utilisateur, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Pour plus d’informations sur tous les champs associés à une personne, voir [Modifier le profil d’une personne](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. Cliquez sur **Ajouter cette personne**.
+1. Sélectionnez **Ajouter cette personne**.
 
    Ou
 
-   Cliquez sur **Ajouter une personne et démarrer une autre** pour enregistrer le nouvel utilisateur et en ajouter un autre.
+   Cliquez sur **Ajouter une personne et en créer une autre** pour enregistrer la nouvelle personne et en ajouter un autre.
 
-Un nouveau compte est ainsi créé dans Workfront pour l’utilisateur.
+Cela crée un nouveau compte dans Workfront pour l’utilisateur ou l’utilisatrice.
 
-Si vous avez sélectionné l’option permettant d’envoyer une invitation à l’utilisateur, celui-ci doit recevoir un e-mail lui permettant de suivre un lien pour créer son mot de passe Workfront.
+Si vous avez sélectionné l’option d&#39;envoi d’une invitation à la personne, celle-ci devrait recevoir un e-mail dans lequel elle pourra suivre un lien de création de mot de passe pour Workfront.
 
 >[!NOTE]
 >
-Si votre organisation a été intégrée à l’Admin Console et que vous ajoutez un utilisateur via Workfront, vous n’avez pas la possibilité d’envoyer une invitation par courrier électronique.
+Si votre organisation a été intégrée à Admin Console et que vous ajoutez une personne via Workfront, vous n’avez pas la possibilité d’envoyer une invitation par e-mail.
 >
-Pour les utilisateurs et les utilisatrices d’Adobe existants, l’utilisateur ou l’utilisatrice peut recevoir ou non un e-mail sur la disponibilité de Workfront. Il s’agit d’une préférence contrôlée par l’administrateur ou l’administratrice d’Adobe pour le produit.
+Pour les utilisateurs et utilisatrices d’Adobe existants, l’utilisateur ou l’utilisatrice peut recevoir ou non un e-mail sur la disponibilité de Workfront. Il s’agit d’une préférence contrôlée par l’administrateur ou l’administratrice d’Adobe pour le produit.

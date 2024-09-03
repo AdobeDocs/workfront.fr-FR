@@ -1,6 +1,6 @@
 ---
-title: Améliorations de la gestion financière au troisième trimestre 2024
-description: Améliorations de la gestion financière au troisième trimestre 2024
+title: Améliorations de la gestion financière au troisième trimestre 2024
+description: Améliorations de la gestion financière au troisième trimestre 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -8,31 +8,31 @@ exl-id: c8f78a68-41d3-4cb3-ade5-577bd85181b3
 source-git-commit: 0132485ba872dbd5961145e0d46fc7500169d728
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Améliorations de la gestion financière au troisième trimestre 2024
+# Améliorations de la gestion financière au troisième trimestre 2024
 
-Cette page décrit toutes les améliorations apportées à la gestion financière avec la version du troisième trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version du troisième trimestre 2024.
+Cette page décrit toutes les améliorations apportées à la gestion financière dans la version du troisième trimestre 2024 de l’environnement de prévisualisation. Si indiqué, ces améliorations seront disponibles dans l’environnement de production avec la version du premier trimestre 2024.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, consultez la [présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du troisième trimestre 2024, consultez la [Vue d’ensemble de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Champs de dépenses facturables et non facturables disponibles pour les projets et les tâches
 
 >[!NOTE]
 >
->Version d’aperçu : 10 mai 2024 ; Production pour tous les clients : 10 mai 2024
+>Version préliminaire : 10 mai 2024 ; Version de production pour l’ensemble de la clientèle : 10 mai 2024
 
-Pour vous aider à visualiser plus facilement les types de dépenses, les dépenses ont été séparées en dépenses facturables et non facturables sur les projets et les tâches. Vous pouvez ajouter les champs suivants aux vues et aux rapports :
+Pour vous aider à visualiser plus facilement les types de dépenses, les dépenses ont été séparées en dépenses facturables et non facturables dans les projets et les tâches. Vous pouvez ajouter les champs suivants aux vues et aux rapports :
 
 * Coût prévu des dépenses facturables
-* Coût des dépenses non facturables planifié
+* Coût prévu des dépenses non facturables
 * Coût réel des dépenses non facturables
 * Coût réel des dépenses non facturables
 
-Les rapports de ligne de base, modèle et projet (données financières) comprennent également les nouveaux champs. Ces champs ne sont pas disponibles sur les pages de détails du projet et de la tâche.
+Les rapports de niveau de référence, de modèle et de projet (données financières) comprennent également les nouveaux champs. Ces champs ne sont pas disponibles sur les pages de détails du projet et de la tâche.
 
-Les dépenses facturables sont indiquées comme facturables au client. Les dépenses non facturables ne sont pas indiquées comme facturables.
+Les dépenses facturables sont indiquées comme facturables au client ou à la cliente. Les dépenses non facturables ne sont pas indiquées comme facturables.
 
-Pour plus d’informations sur le marquage d’une dépense comme facturable, voir [Gérer les dépenses de projet](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+Pour plus d’informations sur le marquage d’une dépense comme facturable, voir [Gérer les dépenses du projet](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).

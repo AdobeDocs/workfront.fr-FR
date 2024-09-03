@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Affichage et gestion des éléments récemment supprimés d’un groupe
-description: Lorsque vous affichez un groupe que vous gérez dans la zone Groupes , vous pouvez afficher, filtrer, restaurer et exporter les tâches, documents et modèles récemment supprimés.
+description: Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher, filtrer, restaurer et exporter les tâches, documents et modèles récemment supprimés.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -11,21 +11,21 @@ exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
 source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 24%
+ht-degree: 98%
 
 ---
 
 # Afficher et gérer les éléments récemment supprimés d’un groupe
 
-Lorsque vous affichez un groupe que vous gérez dans la zone Groupes , vous pouvez afficher et utiliser ses projets, tâches, problèmes, documents et modèles récemment supprimés comme suit :
+Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher et utiliser ses projets, tâches, problèmes, documents et modèles récemment supprimés comme suit :
 
 * Afficher, filtrer et regrouper une liste d’éléments récemment supprimés
-* Restaurer les éléments récemment supprimés que vous avez sélectionnés
+* Restaurer les éléments récemment supprimés que vous avez sélectionnés.
 * Exporter une liste d’éléments récemment supprimés
 
-S’il existe des groupes au-dessus de votre groupe, leurs administrateurs ou administratrices peuvent également effectuer ces opérations pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
+S’il existe des groupes au-dessus de votre groupe, leurs administrateurs et administratrices peuvent également effectuer ces opérations pour votre groupe. Il en va de même pour les administrateurs et administratrices de Workfront (pour n’importe quel groupe).
 
-Pour plus d’informations sur les éléments supprimés, voir [Gestion des éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md).
+Pour plus d’informations sur les éléments supprimés, consultez [Gérer les éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md).
 
 ## Conditions d’accès
 
@@ -40,12 +40,12 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan Workfront*</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Forfait Workfront*</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Vous devez être un administrateur ou une administratrice de groupe pour le groupe ou un administrateur ou une administratrice de Workfront. Pour plus d’informations, consultez les sections <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à une personne</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Vous devez faire partie de l’équipe d’administration de groupe pour le groupe ou de l’équipe d’administration Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -54,7 +54,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  </tbody> 
 </table>
 
-&#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
+&#42;Si vous devez établir la formule ou le type de licence dont vous disposez, contactez votre équipe d’administration Workfront.
 
 +++
 
@@ -62,11 +62,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe.
-1. Dans le panneau de gauche, cliquez sur **Récemment supprimés**.
-1. Ouvrez l’un des onglets suivants où vous souhaitez afficher et gérer les éléments récemment supprimés du groupe :
+1. Dans le panneau de gauche, cliquez sur **Récemment supprimé**.
+1. Ouvrez l’un des onglets suivants où vous souhaitez afficher et gérer les éléments récemment supprimés du groupe :
 
    * Projets
    * Tâches
@@ -74,11 +74,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    * Documents
    * Modèles
 
-   Chaque onglet répertorie les éléments du type d’objet correspondant qui appartiennent au groupe actif ou à ses sous-groupes et qui ont été supprimés au cours des 30 derniers jours.
+   Chaque onglet répertorie les éléments du type d’objet correspondant qui appartiennent au groupe actif ou à ses sous-groupes et qui ont été supprimés au cours des 30 derniers jours.
 
    >[!NOTE]
    >
-   >Si quelqu’un a supprimé un projet, toutes ses tâches, tous ses problèmes et documents individuels ont été supprimés avec celui-ci. Ils ne s’affichent pas individuellement dans les onglets Tâches, Problèmes, Documents ou Modèles. Cependant, la restauration du projet restaure également tous ces objets enfants dans le projet.
+   >Si une personne a supprimé un projet, toutes les tâches, tous les problèmes et tous les documents qui le composent ont été supprimés en même temps. Ils ne s’affichent pas individuellement dans les onglets Tâches, Problèmes, Documents ou Modèles. Cependant, la restauration du projet restaure également tous les objets enfant dans le projet.
    >
    >
    >Si une personne a supprimé une tâche, un problème, un document ou un modèle individuellement, vous pouvez l’afficher et le gérer dans l’onglet approprié.
@@ -91,15 +91,15 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Restaurer des objets</p> </td> 
-      <td> <p>Sélectionnez jusqu’à 10 objets, puis cliquez sur <strong>Restaurer</strong>.</p> </td> 
+      <td> <p>Sélectionnez jusqu’à dix objets, puis cliquez sur <strong>Restaurer</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Exporter la liste complète des objets de l’onglet</p> </td> 
-      <td> <p>Cliquez sur <strong>Export</strong>.</p> </td> 
+      <td> <p>Cliquez sur <strong>Exporter</strong>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>Modifier l'affichage des informations dans la liste</p> </td> 
-      <td> <p>Dans le coin supérieur droit de la liste, utilisez <strong>Filtre</strong> pour définir ce qui s’affiche en fonction des critères que vous fournissez. Utilisez <strong>View</strong> pour définir les champs affichés sous forme de colonnes. Utilisez <strong>Regroupement</strong> pour regrouper les éléments en catégories.</p> </td> 
+      <td role="rowheader"> <p>Modifier l’affichage des informations dans la liste</p> </td> 
+      <td> <p>Dans le coin supérieur droit de la liste, utilisez <strong>Filtrer</strong> pour définir ce qui s’affiche en fonction des critères que vous fournissez. Utilisez <strong>Affichage</strong> pour définir quels champs sont affichés sous forme de colonnes. Utilisez <strong>Regroupement</strong> pour regrouper les éléments en catégories.</p> </td> 
      </tr> 
     </tbody> 
    </table>

@@ -1,6 +1,6 @@
 ---
-title: Vue d’ensemble de la version du deuxième trimestre 2024
-description: Cette page fournit des informations sur les fonctionnalités incluses dans la version du deuxième trimestre 2024. Ces améliorations sont prévues pour être disponibles dans l’environnement de production tout au long du trimestre.
+title: Vue d’ensemble de la version du deuxième trimestre 2024
+description: Cette page fournit des informations sur les fonctionnalités incluses dans la version du deuxième trimestre 2024. L’intégration de ces améliorations dans l’environnement de production s’effectuera tout au long du trimestre.
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 ---
 
-# Vue d’ensemble de la version du deuxième trimestre 2024
+# Vue d’ensemble de la version du deuxième trimestre 2024
 
 Cette page fournit des informations sur les fonctionnalités incluses dans la version du deuxième trimestre 2024. Ces améliorations ont été apportées à l’environnement de production pour l’ensemble des clientes et clients de la version 24.4 des 10 et 11 avril 2024.
 
@@ -25,31 +25,31 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} détaillant les nouveautés de la version 24.4.
 
-<span class="preview">Les fonctionnalités hors cycle (celles qui sont publiées en production avant la date de version du deuxième trimestre 2024) sont surlignées en jaune.</span>
+<span class="preview">Les fonctionnalités hors cycle (sorties en production avant la date de la version du deuxième trimestre 2024) sont surlignées en jaune.</span>
 
 >[!IMPORTANT]
 >
->La version 23.3 incluait l’option permettant de faire passer votre organisation aux versions mensuelles. Par conséquent, Workfront a modifié le schéma de numérotation des versions afin de tenir compte des suivis des versions mensuelles et trimestrielles. Le premier chiffre désigne l’année, le second le mois de la version. Exemple : la version d’avril 2024 est 24.4.
+>La version 23.3 incluait l’option permettant d’opter pour des versions mensuelles dans votre organisation. Par conséquent, Workfront a modifié le schéma de numérotation des versions afin de tenir compte des suivis de versions mensuels et trimestriels. Le premier chiffre désigne l’année, le second le mois de la version. Exemple : la version d’avril 2024 est 24.4.
 >
->Sauf indication contraire, les versions mensuelles et trimestrielles sont prévues pour être disponibles le jeudi de la deuxième semaine complète du mois.
+>Sauf indication contraire, la sortie des versions mensuelles et trimestrielles est prévue le jeudi de la deuxième semaine complète du mois.
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
 >| <ul><li>24.2 (15 février 2024)</li><li>24.3 (14 mars 2024)</li><li>24.4 (11 avril 2024)</li></ul> | <ul><li>24.4 (11 avril 2024)</li></ul> |
 >
->Pour plus d’informations sur le processus de version rapide, consultez [Activer ou désactiver le processus de version rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Pour plus d’informations sur le processus de publication rapide, voir la section [Activer ou désactiver le processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
-## Améliorations Adobe Workfront
+## Améliorations apportées à Adobe Workfront
 
-* [Améliorations d’administration](#administrator-enhancements)
+* [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations de la gestion des documents](#document-management-enhancements)
-* [Améliorations de la page d’accueil](#home-enhancements)
-* [Améliorations des projets](#project-enhancements)
+* [Amélioration de l’accueil](#home-enhancements)
+* [Améliorations apportées aux projets](#project-enhancements)
 * [Améliorations de la gestion des ressources](#resource-management-enhancements)
 * [Améliorations du flux de mise à jour et des notifications](#update-stream-and-notification-enhancements)
 * [Autres améliorations](#other-enhancements)
 
-### Améliorations d’administration
+### Améliorations apportées aux administrateurs et administratrices
 
 <table>
             <col style="width: 50%;" />
@@ -61,7 +61,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -138,28 +138,28 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Mappage d’attributs désormais disponible pour les organisations qui ont migré vers Adobe IMS</a></p>
-                        <p>[!BADGE In production ]{type=Informative}</p><p>Les administrateurs et administratrices système Workfront peuvent désormais configurer le mappage des attributs d’utilisation pour les organisations qui ont migré vers Adobe IMS. Cela permet aux informations d’utilisation d’être transmises à Workfront à partir du fournisseur d’authentification unique (SSO) de l’organisation, de sorte que les données d’utilisation n’aient pas à être saisies à la fois dans Workfront et dans le fournisseur d’authentification unique.</p>
+                        <p>[!BADGE In production ]{type=Informative}</p><p>Les équipes d’administration système Workfront peuvent désormais configurer le mappage des attributs utilisateur pour les organisations qui ont migré vers Adobe IMS. Cela permet de transmettre les informations des utilisateurs et utilisatrices à Workfront à partir du fournisseur d’authentification unique (SSO) de l’organisation, de sorte qu’il ne soit pas nécessaire de saisir ces données à la fois dans Workfront et dans le fournisseur d’authentification unique.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 22 février 2024</p>
+                                <p>Version préliminaire : 22 février 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Version de production pour toute la clientèle : 22 février 2024</span></p>
+                                <p><span class="preview">Version de production pour l’ensemble des clientes et des clients : 22 février 2024</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La logique de saut et la logique d’affichage sont désormais disponibles dans la version bêta du concepteur de formulaires.</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Les logiques de saut et d’affichage sont désormais disponibles dans la version bêta du concepteur de formulaires.</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Vous pouvez désormais modifier les logiques d’affichage et de saut existantes et ajouter des nouvelles logiques aux formulaires personnalisés dans la version bêta du concepteur de formulaires. Un générateur de logique convivial permet de définir les champs à afficher ou à ignorer en fonction des sélections dans le formulaire.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 8 février 2024</p>
+                                <p>Version préliminaire : 8 février 2024</p>
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.2 (15 février 2024)</p>
@@ -189,7 +189,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -268,7 +268,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
             </tbody>
 </table>
 
-### Améliorations de la page d’accueil
+### Amélioration de l’accueil
 
 <table>
             <col style="width: 50%;" />
@@ -286,7 +286,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Options de colonne ajoutées aux contrôles Administration pour la nouvelle page d’accueil à l’aide des modèles de disposition</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Options de colonne ajoutées aux contrôles d’Administration pour la nouvelle page d’accueil à l’aide des modèles de disposition</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Les administrateurs et administratrices peuvent désormais personnaliser les colonnes disponibles pour les utilisateurs et utilisatrices de nouveaux widgets d’accueil spécifiques à l’aide de modèles de disposition. Les options incluent le masquage ou l’affichage des colonnes par défaut et l’ajout de champs existants en tant que nouvelles colonnes.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -318,7 +318,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -341,7 +341,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
             </tbody>
         </table>
 
-### Améliorations des projets
+### Améliorations apportées aux projets
 
 <table>
             <col style="width: 50%;" />
@@ -353,7 +353,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                  </tr>
@@ -386,7 +386,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 21 décembre 2023</p>
+                                <p>Version de prévisualisation : 21 décembre 2023</p>
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
@@ -400,7 +400,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
            </tbody>
         </table>
 
-### Améliorations de la gestion des ressources
+### Amélioration apportées à la gestion des ressources.
 
 <table>
             <col style="width: 50%;" />
@@ -412,7 +412,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                  </tr>
@@ -449,7 +449,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -475,7 +475,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -549,7 +549,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 22 février 2024</p>
+                                <p>Version préliminaire : 22 février 2024</p>
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.3 (vendredi 14 mars 2024)</p>
@@ -568,7 +568,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 22 février 2024</p>
+                                <p>Version préliminaire : 22 février 2024</p>
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.3 (vendredi 14 mars 2024)</p>
@@ -587,7 +587,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 22 février 2024</p>
+                                <p>Version préliminaire : 22 février 2024</p>
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.3 (vendredi 14 mars 2024)</p>
@@ -625,7 +625,7 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : pendant toute la durée de la version du deuxième trimestre 2024</p>
+                                <p>Version préliminaire : pendant toute la durée de la version du deuxième trimestre 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : passez en revue les notes de mise à jour pour connaître les dates spécifiques.</span></p>
@@ -646,15 +646,15 @@ Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en producti
 
 ### Améliorations du planificateur de scénarios Workfront
 
-Aucune mise à jour du planificateur de scénario n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+Il n’y a pas de mise à jour du planificateur de scénarios à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
-### Améliorations de l’épreuve Workfront
+### Améliorations de Workfront Proof
 
-Aucune mise à jour de l’épreuve Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+Il n’y a pas de mise à jour de Workfront Proof à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
 ### Améliorations des Objectifs Workfront
 
-Aucune mise à jour des Objectifs Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+Il n’y a pas de mise à jour des Objectifs Workfront à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
 ### API version 18
 
@@ -662,13 +662,13 @@ Pour l’API version 18, nous avons modifié certaines ressources et points d�
 
 Pour plus d’informations sur les nouveautés et les mises à jour, consultez les [Nouveautés de l’API version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
-Pour plus d’informations sur les versions d’API, consultez [Contrôle de version des API et planification de la prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Pour plus d’informations sur les versions de l’API, voir [Calendrier des versions et de la prise en charge de l’API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-### Mises à jour de formation
+### Mise à jour des formations
 
-Découvrez les dernières mises à jour apportées aux programmes de formation, aux parcours de formation, aux vidéos et aux guides de chaque version de produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
 

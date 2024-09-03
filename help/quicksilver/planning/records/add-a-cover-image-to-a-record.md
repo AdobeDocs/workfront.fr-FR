@@ -22,9 +22,9 @@ Vous pouvez personnaliser des enregistrements en ajoutant une image de couvertur
 
 Pour plus d&#39;informations sur la modification des enregistrements, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
-Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
+Vous devez créer des types d’enregistrements avant de pouvoir commencer à créer et modifier des enregistrements.
 
-Pour plus d’informations, voir [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
+Pour plus d’informations, consultez [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Conditions d’accès
 
@@ -47,7 +47,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -58,7 +58,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -83,7 +83,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations d’un espace de travail </p>  
-   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> </td> 
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -92,7 +92,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -183,9 +183,9 @@ Vous pouvez personnaliser un enregistrement en ajoutant une image de couverture 
 
    L’espace de travail et les types d’enregistrement s’affichent.
 
-1. Cliquez sur une carte de type d’enregistrement.
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
-   La page du type d’enregistrement s’ouvre.
+   La page de type d’enregistrement s’ouvre.
 
 1. Dans une vue quel que soit le type, cliquez sur un enregistrement.
 

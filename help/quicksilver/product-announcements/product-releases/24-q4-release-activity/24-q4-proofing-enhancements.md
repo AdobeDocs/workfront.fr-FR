@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations de la vérification vidéo apportées à la version du quatrième trimestre 2024 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production avec la version du quatrième trimestre 2024.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2024, consultez la [présentation de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2024, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Mise à jour Chromium pour la visionneuse de vérification de poste de travail
 

@@ -8,7 +8,7 @@ exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
 source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 93%
 
 Cette page décrit les améliorations apportées au flux de mise à jour et aux notifications dans l’environnement Aperçu par la version du deuxième trimestre 2024. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2024, consultez l’article [Vue d’ensemble de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2024, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Nouvelles expériences de commentaires ajoutées aux itérations
 
 >[!NOTE]
 >
->Version d’aperçu : 11 avril 2024 ; Production pour tous les clients : avec la version 24.4 (11 avril 2024)
+>Version d’aperçu : 11 avril 2024. Production pour l’ensemble des clientes et des clients : avec la version 24.4 (11 avril 2024)
 
-Pour vous offrir une expérience cohérente dans l’ensemble de l’application, nous avons ajouté la nouvelle expérience de commentaire aux itérations. Pour plus d’informations, consultez la [présentation de la mise à jour de section](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Afin de vous offrir une expérience cohérente dans l’ensemble de l’application, nous avons ajouté la nouvelle expérience de commentaire aux itérations. Pour plus d’informations, consultez la [Vue d’ensemble de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Suppression de l’accès à la zone de commentaires héritée.
 
@@ -81,9 +81,9 @@ Pour plus d’informations, consultez [Vue d’ensemble de la section Mises à j
 
 Pour vous donner une vue chronologique cohérente des commentaires et des journaux d’activité du système, nous vous proposons un troisième onglet dans la zone Mises à jour de tous les objets. L’onglet « Tous » capture les commentaires des utilisateurs et utilisatrices et les commentaires sur l’activité du système dans un flux cohérent.
 
-L’onglet Tous est un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni identifier d’autres personnes dans les commentaires existants de l’onglet Tous. Pour répondre à un commentaire spécifique, utilisez le lien dans l’onglet Tous vers l’onglet Commentaires.
+L’onglet Tous est un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni taguer d’autres utilisateurs ou utilisatrices dans les commentaires existants dans l’onglet Tous. Pour répondre à un commentaire spécifique, utilisez le lien de l’onglet Tous pointant vers l’onglet Commentaires.
 
-Pour plus d’informations, consultez [Vue d’ensemble de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Pour en savoir plus, consultez la [Vue d’ensemble de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 [Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Cette fonctionnalité est abordée à 0:31).
 
@@ -95,6 +95,6 @@ Pour plus d’informations, consultez [Vue d’ensemble de la section Mises à j
 
 Nous avons ajouté la nouvelle fonctionnalité de commentaires au panneau Résumé des listes de tâches et de problèmes.
 
-Pour plus d’informations, consultez la [Vue d’ensemble du panneau Résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+Pour en savoir plus, consultez la [vue d’ensemble du Résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 [Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427991/){target=_blank}

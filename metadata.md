@@ -7,7 +7,7 @@ mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/workfront.fr-FR
 index: true
 source-git-commit: 5a503571db40307757a8f503b0c7366238649eff
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 100%
 

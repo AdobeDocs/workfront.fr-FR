@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
 title: Configuration de calculs de chronologie pour les projets
-description: Recalculer les chronologies permet aux gestionnaires de voir comment les forces en dehors du projet affectent la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévues pour le projet.
+description: Recalculer les chronologies permet aux personnes gestionnaires de voir comment des forces extérieures au projet affectent la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévisionnelles pour le projet.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,23 +11,23 @@ exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
 source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 13%
+ht-degree: 98%
 
 ---
 
-# Configuration de nouveaux calculs de chronologie pour les projets
+# Configurer les recalculs de chronologies pour les projets
 
-Recalculer les chronologies permet aux gestionnaires de voir comment les forces en dehors du projet affectent la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévues pour le projet.
+Recalculer les chronologies permet aux personnes gestionnaires de voir comment des forces extérieures au projet affectent la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévisionnelles pour le projet.
 
-En tant qu&#39;administrateur [!DNL Adobe Workfront], vous pouvez recalculer manuellement les chronologies pour tous les projets du système. Les propriétaires de projet peuvent également recalculer manuellement les échéances des projets individuels. Pour plus d’informations, voir [Recalculer les chronologies de projet](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+En tant qu’administrateur ou administratrice [!DNL Adobe Workfront], vous pouvez recalculer manuellement les chronologies pour tous les projets du système. Les personnes propriétaires de projet peuvent également recalculer manuellement les chronologies des projets individuels. Pour plus d’informations, voir [Recalculer les chronologies des projets](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-Cet article décrit comment, en tant qu&#39;administrateur [!DNL Workfront], vous pouvez déterminer comment et à quel moment [!DNL Workfront] calcule automatiquement les chronologies de projet en configurant les préférences du projet dans la zone [!UICONTROL Configuration].
+Cet article décrit comment vous, en tant qu’administrateur ou administratrice [!DNL Workfront], pouvez déterminer comment et quand [!DNL Workfront] calcule automatiquement les chronologies de projet en configurant les préférences du projet dans la zone [!UICONTROL Configuration].
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,15 +35,15 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>N’importe quelle</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Niveau d’accès administrateur système</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas un accès, demandez à l’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Niveau d’accès pour l’administration système</p> <p><b>NOTE</b> : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration [!DNL Workfront] si des restrictions supplémentaires sont définies pour votre niveau d’accès. Pour plus d’informations sur la manière dont un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,27 +52,27 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 ## Configurer des recalculs automatiques
 
-En tant qu&#39;administrateur [!DNL Adobe Workfront], vous pouvez configurer lorsque [!DNL Workfront] recalcule automatiquement les chronologies du projet. [!DNL Workfront] peut recalculer les calendriers du projet chaque nuit ou lorsque la portée du projet change, ou les deux.
+En tant qu’administrateur ou administratrice [!DNL Adobe Workfront], vous pouvez configurer quand [!DNL Workfront] recalcule automatiquement les chronologies du projet. [!DNL Workfront] peut recalculer les chronologies du projet chaque nuit ou lorsque l’étendue du projet change, ou les deux.
 
 {{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL Projets].**
 
-1. Dans la section **[!UICONTROL Chronologies]** , activez ou désactivez l’un des paramètres ci-dessous, ou les deux. Par défaut, les deux paramètres sont activés.
+1. Dans la section **[!UICONTROL Chronologies]**, activez ou désactivez l’un des paramètres ci-dessous, ou les deux. Par défaut, les deux paramètres sont activés.
 
-   * **Chaque nuit :** [!DNL Workfront&#x200B;&#x200B;&#x200B;] recalcule les chronologies une fois toutes les 24 heures, la nuit, uniquement pour les projets dont l’état est [!UICONTROL Actuel] et qui ont été mis à jour au cours des trois derniers mois. Selon la charge du système et d&#39;autres facteurs, le temps de recalcul peut être retardé de plus de 24 heures.
+   * **Tous les soirs :** [!DNL Workfront&#x200B;&#x200B;&#x200B;] recalcule les chronologies une fois toutes les 24 heures, la nuit, uniquement pour les projets dont le statut est [!UICONTROL En cours] et qui ont été mis à jour au cours des trois derniers mois. Selon la charge du système et d’autres facteurs, le temps de recalcul peut être retardé de plus de 24 heures.
 
-     Dans ce cas, [!DNL Workfront] recalcule la chronologie de tous les projets dont le [!UICONTROL type de mise à jour] est [!UICONTROL Automatique] ou [!UICONTROL Automatique et Changement].
+     Dans ce cas, [!DNL Workfront] recalcule la chronologie de tous les projets dont le [!UICONTROL Type de mise à jour] est [!UICONTROL Automatique] ou [!UICONTROL Automatique et En cas de modification].
 
-   * **Lorsque la portée d’un projet change** : pour plus d’informations sur ce qui constitue un changement de portée d’un projet, voir [Recalculer les chronologies du projet](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+   * **Lorsque l’étendue d’un projet change** : pour plus d’informations sur ce qui constitue un changement d’étendue d’un projet, voir [Recalculer les chronologies des projets](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-     Dans ce cas, [!DNL Workfront] recalcule la chronologie de tous les projets dont le type de mise à jour est [!UICONTROL Automatique et On Change] ou [!UICONTROL On Change Only].
-Pour plus d’informations sur les types de mise à jour de projet, consultez la [présentation du type de mise à jour de projet](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+     Dans ce cas, [!DNL Workfront] recalcule la chronologie de tous les projets dont le Type de mise à jour est [!UICONTROL Automatique et En cas de modification] ou [!UICONTROL En cas de modification uniquement].
+Pour plus d’informations sur les types de mise à jour de projet, voir [Vue d’ensemble du type de mise à jour d’un projet](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
    La chronologie de tous les projets du système est recalculée automatiquement en fonction du type de mise à jour de chaque projet.
 
-## Recalculer les chronologies pour l’instance [!DNL Workfront] entière
+## Recalculer les chronologies pour l’ensemble de l’instance [!DNL Workfront]
 
-Vous pouvez exécuter le diagnostic [!UICONTROL Recalculate Timeline] pour recalculer manuellement toutes les chronologies dans le système [!DNL Workfront]. Cela permet à tous les chefs de projet de voir immédiatement l’influence des modifications externes sur les dates prévues et prévues. Pour plus d’informations, voir [Utiliser les diagnostics pour déclencher des processus automatisés](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+Vous pouvez exécuter le diagnostic [!UICONTROL Recalculer la chronologie] pour recalculer manuellement toutes les chronologies du système [!DNL Workfront]. Cela permet à toutes les personnes gestionnaires de projet de voir immédiatement l’influence des modifications externes sur les dates prévues et prévisionnelles. Pour plus d’informations, voir [Utiliser les diagnostics pour déclencher des processus automatisés](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).

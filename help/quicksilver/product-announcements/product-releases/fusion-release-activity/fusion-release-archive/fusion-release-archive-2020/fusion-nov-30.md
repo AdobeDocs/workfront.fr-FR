@@ -2,10 +2,10 @@
 product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
-keywords: fusion
+keywords: Fusion
 navigation-topic: fusion-release-activity
-title: "Activité Publication de fusion Workfront : semaine du 30 novembre 2020"
-description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion la semaine du 30 novembre 2020.
+title: '« Activité Version de Workfront Fusion : semaine du 30  novembre 2020 »'
+description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion la semaine du 30 novembre 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -14,33 +14,33 @@ hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
-# Activité Publication de fusion Workfront : semaine du 30 novembre 2020
+# Activité Version de Workfront Fusion : semaine du 30 novembre 2020
 
-Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion la semaine du 30 novembre 2020.
+Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion la semaine du 30 novembre 2020.
 
-Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
 
 ## Limite de taux pour les webhooks Workfront Fusion 2.0.
 
-Nous avons introduit une nouvelle barrière de performance pour Workfront Fusion 2.0. Désormais, les webhooks ont une limite de taux de 100 demandes par seconde. Lorsque cette limite est atteinte, Workfront Fusion 2.0 envoie un état 429 (Too many requests).
+Nous avons introduit une nouvelle sécurisation des performances pour Workfront Fusion 2.0. Désormais, les webhooks ont une limite de taux de 100 demandes par seconde. Lorsque cette limite est atteinte, Workfront Fusion 2.0 envoie un statut 429 (Too many requests).
 
 Auparavant, les demandes webhook n’étaient pas limitées.
 
-Pour plus d’informations, voir [Barrières de sécurité des performances d’Adobe Workfront Fusion](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
+Pour plus d’informations, voir [Sécurisation des performances d’Adobe Workfront Fusion](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
 
-## Ajout d’un formulaire personnalisé à un objet Workfront dans Workfront Fusion 2.0
+## Ajouter un formulaire personnalisé à un objet Workfront dans Workfront Fusion 2.0
 
-Pour que vous puissiez ajouter des formulaires personnalisés à des objets : Workfront Fusion 2.0, nous avons ajouté une action AssignCategories à Workfront > Divers. Module Action.
+Pour que vous puissiez ajouter des formulaires personnalisés à des objets dans Workfront Fusion 2.0, nous avons ajouté une action AssignCategories à Workfront > Divers. Module d’action.
 
 Auparavant, il n’était pas possible d’utiliser un module Workfront Fusion 2.0 pour ajouter un formulaire personnalisé à un objet dans Workfront.
 
-Pour plus d’informations sur Workfront > Divers. Module Action, voir [Modules Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Pour plus d’informations sur le module d’action Workfront > Divers, voir [Modules Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

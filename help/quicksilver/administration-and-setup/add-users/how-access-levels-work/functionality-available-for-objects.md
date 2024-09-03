@@ -52,7 +52,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 | Ajouter/modifier des dépenses | ✓ |   |   |   |
 | Joindre des modèles | ✓ |   |   |   |
 | Enregistrer en tant que modèle | ✓ |   |   |   |
-| Ajouter/modifier une analyse de rentabilité | ✓ |   |   |   |
+| Ajouter/modifier un business case | ✓ |   |   |   |
 | Modifier des détails du projet | ✓ |   |   |   |
 | Modifier le personnel | ✓ |   |   |   |
 | Exporter vers MS Project | ✓ | ✓ |   |   |
@@ -93,7 +93,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut activer ou désactiver cette fonctionnalité.
 
 ## Problèmes
 
@@ -121,11 +121,11 @@ Ils indiquent également les actions que les administrateurs et administratrices
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut activer ou désactiver cette fonctionnalité.
 
 ## Portefeuilles
 
-Seuls les utilisateurs et utilisatrices disposant d’une licence standard peuvent avoir un accès complet aux portfolios.
+Seules les personnes disposant d’une licence standard peuvent avoir un accès complet aux portfolios.
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
 |--------------------------|----------|--------|-------------|---------------|
@@ -139,7 +139,7 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence standard peuve
 | Modifier les champs personnalisés | ✓ |   |   |   |
 | Ajouter et supprimer des projets | ✓ |   |   |   |
 | Approuver des projets | ✓ |   |   |   |
-| Optimisation du portefeuille | ✓ |   |   |   |
+| Optimisation du portfolio | ✓ |   |   |   |
 | Ajouter des documents | ✓ | ✓ |   |   |
 | Ajouter des mises à jour et des commentaires | ✓ | ✓ |   |   |
 
@@ -163,7 +163,7 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 | Modifier les champs personnalisés | ✓ |   |   |   |
 | Ajouter et supprimer des projets | ✓ |   |   |   |
 | Approuver des projets | ✓ |   |   |   |
-| Optimisation du portefeuille | ✓ |   |   |   |
+| Optimisation du portfolio | ✓ |   |   |   |
 | Ajouter des documents | ✓ | ✓ |   |   |
 | Ajouter des mises à jour et des commentaires | ✓ | ✓ |   |   |
 
@@ -232,9 +232,9 @@ Les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avo
 | Ajouter des mises à jour et des commentaires | ✓ | ✓ | ✓ |   |
 | Charger une nouvelle version | ✓ | ✓ | ✓ |   |
 | Supprimer une version | ✓ | ✓ | ✓ |   |
-| Prévisualiser | ✓ | ✓ | ✓ | ✓ |
+| Aperçu | ✓ | ✓ | ✓ | ✓ |
 | Épreuve | ✓ | ✓ | ✓ | ✓ |
-| Générer une épreuve | ✓ |   |   |   |
+| Créer une épreuve | ✓ |   |   |   |
 | Supprimer l’épreuve | ✓ | ✓ | ✓ |   |
 | Ajouter/Supprimer&#42;&#42; | ✓ | ✓ | ✓ |   |
 | Renommer&#42;&#42; | ✓ | ✓ | ✓ |   |
@@ -260,7 +260,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avo
 
 &#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
-&#42;&#42;Les utilisateurs externes ne peuvent rechercher que d’autres utilisateurs.
+&#42;&#42;Les utilisateurs et utilisatrices externes ne peuvent rechercher que d’autres utilisateurs et utilisatrices.
 
 ## Équipes
 
@@ -268,8 +268,8 @@ Les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avo
 |-----------------------------------------|-----------|------------|-------------|------------------|
 | Créer | ✓* |   |   |   |
 | Supprimer | ✓* |   |   |   |
-| Modifier les équipes auxquelles la personne appartient | ✓* |   |   |   |
-| Modifier les équipes dans les groupes que la personne gère | ✓* |   |   |   |
+| Modifier les équipes auxquelles la personne appartient. | ✓* |   |   |   |
+| Modifier les équipes dans les groupes que la personne gère. | ✓* |   |   |   |
 | Afficher toutes les équipes | ✓ | ✓ | ✓ |   |
 | Afficher les équipes associées aux groupes de la personne | ✓ | ✓ | ✓ |   |
 
@@ -308,7 +308,7 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 | Afficher les données financières | ✓&#42; | ✓&#42; |   |   |
 | <span class="preview">Gérer les cartes tarifaires</span> | ✓ |   |   |   |
 | Afficher des informations par coût dans les outils de planification des ressources | ✓ |   |   |   |
-| Ressources budgétaires dans les outils de planification des ressources&#42;&#42; | ✓ |   |   |   |
+| Budgéter les ressources dans les outils de planification des ressources&#42;&#42; | ✓ |   |   |   |
 | Afficher l’affectation des ressources dans les outils de planification des ressources&#42; | ✓ | ✓ |   |   |
 | Créer des risques sur les projets | ✓ |   |   |   |
 | Afficher les risques sur les projets | ✓ | ✓ |   |   |
@@ -319,15 +319,15 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 
 ## Gestion des ressources
 
-Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avoir un accès complet à la gestion des ressources. D’autres types de licences peuvent avoir un accès limité ou non à la gestion des ressources dans Workfront.
+Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avoir un accès complet à la gestion des ressources. D’autres types de licence peuvent avoir un accès limité ou non à la gestion des ressources dans Workfront.
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Modifier les priorités et les heures budgétées dans le Planificateur | ✓&#42; |   |   |   |
-| Créer, modifier et supprimer des pools de ressources&#42;&#42; | ✓&#42; |   |   |   |
+| Créer, modifier et supprimer des groupes de ressources&#42;&#42; | ✓&#42; |   |   |   |
 | Mise à jour des heures planifiées dans l’équilibreur de charge de travail&#42;&#42;&#42; | ✓&#42; |   |   |   |
 | Afficher les priorités du projet dans le planificateur de ressources | ✓&#42; |   |   |   |
-| Afficher l’affectation des ressources dans les outils de planification des ressources | ✓&#42; | ✓&#42; |   |   |
+| Afficher l’allocation des ressources dans les outils de planification des ressources | ✓&#42; | ✓&#42; |   |   |
 | Afficher les groupes de ressources | ✓&#42; | ✓&#42; |   |   |
 | Budgéter les ressources dans les outils de planification des ressources&#42;&#42; | ✓ |   |   |   |
 | Joindre des groupes de ressources à des projets, modèles et utilisateurs et utilisatrices | ✓ |   |   |   |
@@ -336,9 +336,9 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 
 &#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
-&#42;&#42;Nécessite un accès supplémentaire aux données financières et des autorisations sur les finances du projet. Si vous accordez l’accès à la gestion des ressources à une personne utilisant le planificateur, mais qui n’a pas accès aux données financières, elle peut toujours voir les affectations d’heures dans le planificateur de ressources, mais ne peut pas basculer sur la vue Coût ni afficher le business case. Pour plus d’informations, voir [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) et [Partager les autorisations financières sur un objet](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Nécessite un accès supplémentaire aux données financières et des autorisations sur les finances du projet. Si vous accordez l’accès à la gestion des ressources à une personne du planificateur qui n’a pas accès aux données financières, cette personne peut toujours voir les affectations horaires dans le planificateur de ressources, mais elle ne peut pas passer à la vue des coûts ou afficher le business case. Pour plus d’informations, voir [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) et [Partager des autorisations financières sur un objet](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Nécessite l’autorisation de contribution à l’objet, avec l’option Créer des affectations activée sous Paramètres avancés. Pour plus d’informations, consultez la section [Comprendre les autorisations héritées et la hiérarchie des objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) dans l’article [Vue d’ensemble du partage des autorisations sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Nécessite l’autorisation de contribuer à l’objet, avec l‘option Créer des affectations activée sous Paramètres avancés. Pour plus d’informations, voir la section [Comprendre les autorisations héritées et la hiérarchie des objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) dans l’article [Vue d’ensemble des autorisations de partage sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Zone Planificateur de scénarios
 
@@ -370,9 +370,9 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 | Afficher Objectifs dans le menu principal | ✓ | ✓ |
 | Afficher la zone Objectifs à partir d’un lien partagé | ✓ | ✓ |
 | Afficher tous les objectifs du système | ✓ | ✓ |
-| Activer, désactiver et fermer tous les objectifs |   | ✓ |
-| Créer, modifier et supprimer des activités |   | ✓ |
-| Créer, modifier et supprimer des résultats |   | ✓ |
+| Activer/désactiver/fermer tous les objectifs |   | ✓ |
+| Créer/modifier/supprimer des activités |   | ✓ |
+| Créer/modifier/supprimer des résultats |   | ✓ |
 | Ajouter un objectif aligné |   | ✓ |
 | Mettre à jour la progression d’un résultat ou d’une activité |   | ✓ |
 | Posséder un objectif, un résultat ou une activité | ✓ | ✓ |
@@ -381,7 +381,7 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 | Afficher la section Liste des objectifs dans le panneau de gauche | ✓ | ✓ |
 | Afficher la section Graphiques dans le panneau de gauche | ✓ | ✓ |
 | Afficher la section Alignement des objectifs dans le panneau de gauche | ✓ | ✓ |
-| Afficher la section Pulse dans le panneau de gauche | ✓ | ✓ |
+| Afficher la section Pulsation dans le panneau de gauche | ✓ | ✓ |
 | Afficher la zone Vérification dans le panneau de gauche |   | ✓ |
 | Afficher la zone Paramètres dans le panneau de gauche | ✓ | ✓ |
 | Imprimer une liste d’objectifs | ✓ | ✓ |

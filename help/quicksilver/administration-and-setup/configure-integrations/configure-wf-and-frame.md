@@ -13,7 +13,7 @@ exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
 source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -26,7 +26,7 @@ L’administrateur de Workfront active l’intégration entre Workfront et Frame
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible uniquement pour les entreprises qui ont été intégrées à [!DNL Adobe Admin Console].
+>Cette fonctionnalité est disponible uniquement pour les organisations qui ont été intégrées à l’[!DNL Adobe Admin Console].
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
@@ -35,7 +35,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <table>
   <tr>
    <td>[!DNL Adobe Workfront] plan</td>
-   <td>N’importe quelle</td>
+   <td>Tous</td>
   </tr>
   <tr>
    <td>[!DNL Adobe Workfront] licences
@@ -44,15 +44,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <p>Nouvelle : [!UICONTROL Standard]</p></td>
   </tr>
   <tr>
-   <td>Configurations du niveau d’accès
+   <td>Configurations des niveaux d’accès
    </td>
-   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront].
+   <td>Vous devez être administrateur ou administratrice [!DNL Workfront].
    </td>
   </tr>
 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

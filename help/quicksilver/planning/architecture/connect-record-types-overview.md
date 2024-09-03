@@ -21,7 +21,7 @@ Cet article présente un aperçu des connexions de type enregistrement et décri
 
 Pour plus d’informations sur la connexion des types d’enregistrement, voir [Connexion des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-## Remarques concernant la connexion des types d’enregistrements
+## Remarques concernant la connexion des types d’enregistrement
 
 La planification Workfront comprend deux étapes de connexion :
 
@@ -58,17 +58,17 @@ Tenez compte des points suivants concernant la connexion des types d’enregistr
      >
      >Si vous avez des questions relatives à l’intégration à Adobe Admin Console, voir les [questions fréquentes Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-* Après avoir créé des enregistrements pour les types d’enregistrements connectés, vous pouvez les lier les uns aux autres par le biais du champ d’enregistrement connecté.  Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+* Après avoir créé des enregistrements pour les types d’enregistrements connectés, vous pouvez les lier les uns aux autres par le biais du champ d’enregistrement connecté.  Pour plus d’informations, consultez [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
 * Lorsque vous connectez un type d’enregistrement à un autre type d’enregistrement ou à un type d’objet provenant d’une autre application, les scénarios suivants se présentent :
 
-   * **Lorsque vous connectez deux types d’enregistrements Planning** : un champ d’enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Un champ d’enregistrement lié similaire est créé sur le type d’enregistrement auquel vous vous connectez.
+   * **Lorsque vous connectez deux types d’enregistrements Planning** : un champ d’enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Un champ d’enregistrement lié similaire est créé dans le type d’enregistrement auquel vous vous connectez.
 
      Par exemple, si vous connectez le type d’enregistrement &quot;Campagne&quot; au type d’enregistrement &quot;Produit&quot;, un champ d’enregistrement lié (champ de connexion) que vous nommez &quot;Produit lié&quot; est créé dans le type d’enregistrement Campaign. Un type d’enregistrement lié automatiquement nommé &quot;Campaign&quot; est créé sur le type d’enregistrement Produit .
 
    * **Lorsque vous connectez un type d&#39;enregistrement à un type d&#39;objet à partir d&#39;une autre application** :
 
-      * Un champ d’enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Aucun champ d’enregistrement lié n’est automatiquement créé sur le type d’objet de l’autre application.
+      * Un champ d’enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Aucun champ d’enregistrement lié n’est automatiquement créé dans le type d’objet de l’autre application.
       * La planification des champs d’enregistrement n’est pas accessible à partir des objets Workfront.
       * La planification des champs d’enregistrement est accessible à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, voir [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=fr).
       * Les enregistrements de planification sont visibles à partir de l’onglet Planification de l’objet Workfront. Pour plus d’informations, voir [Gestion des enregistrements dans la section Planification des objets Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

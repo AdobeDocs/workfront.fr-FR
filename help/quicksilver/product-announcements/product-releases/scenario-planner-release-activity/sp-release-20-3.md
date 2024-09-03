@@ -3,44 +3,44 @@ product-previous: enterprise-scenario-planner
 content-type: release-notes
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: scenario-planner-release-activity
-title: Planificateur de scénarios Workfront avec la version 20.3 - 14 août 2020
-description: Le planificateur de scénario Workfront est disponible avec la version 20.3 en production uniquement avec la nouvelle expérience Adobe Workfront.
+title: Planificateur de scénarios Workfront avec la version 20.3 - 14 août 2020
+description: Le planificateur de scénarios Workfront est inclus dans la version de production 20.3 uniquement avec la nouvelle expérience Adobe Workfront.
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-# Planificateur de scénarios Workfront avec la version 20.3 - 14 août 2020
+# Planificateur de scénarios Workfront avec la version 20.3 - 14 août 2020
 
-Le planificateur de scénario Workfront est disponible avec la version 20.3 en production uniquement avec la nouvelle expérience Adobe Workfront.
+Le planificateur de scénarios Workfront est inclus dans la version de production 20.3 uniquement avec la nouvelle expérience Adobe Workfront.
 
-Avec le planificateur de scénarios, créez et comparez plusieurs scénarios d’hypothèses afin de choisir le meilleur chemin à suivre. Et quand vos priorités changent, replanifiez-les de manière itérative sans impacter le travail en cours.
+À l’aide du planificateur de scénarios, créez et comparez plusieurs scénarios pour décider de la meilleure marche à suivre. Lorsque vos priorités changent, vous pouvez planifier à nouveau de façon itérative sans affecter le travail en cours.
 
-Le planificateur de scénario vous permet d’effectuer les opérations suivantes :
+Le planificateur de scénarios vous permet de faire ce qui suit :
 
-* Création et comparaison de scénarios
+* Créer et comparer des scénarios
 
-  Créez et visualisez facilement différents scénarios côte à côte avec un minimum de données requises de votre part.
+  Créez et consultez facilement différents scénarios côte à côte avec un minimum de données requises.
 
-* Mettre en surbrillance les goulets d’étranglement des ressources
+* Mettre en évidence les goulets d’étranglement des ressources
 
-  Déterminez où vous avez déjà engagé des personnes ou du budget pour un travail existant ou planifié.
+  Découvrez où vous avez déjà engagé des personnes ou un budget pour des travaux existants ou prévus.
 
-* Déterminer la marche à suivre
+* Déterminer une marche à suivre
 
-  Créez et comparez des scénarios, facilitent la collaboration et le consensus, s’exécutent, puis replanifiez si nécessaire.
+  Créez et comparez des scénarios, facilitez la collaboration et le consensus, exécutez, puis replanifiez si nécessaire.
 
-Le planificateur de scénarios vous aide à être plus agile dans votre planification. Que vous soyez propriétaire du plan stratégique de votre entreprise ou que vous effectuiez une planification trimestrielle pour une unité opérationnelle, un département ou une équipe unique, le planificateur de scénario peut vous aider. Créez et comparez facilement et rapidement plusieurs scénarios en fonction de contraintes, telles que des budgets ou des ressources d’équipe.
+Le planificateur de scénarios vous aide à être plus souple dans votre organisation. Que vous soyez une personne responsable du plan stratégique de votre entreprise ou que vous effectuiez une planification trimestrielle pour une seule unité commerciale, un seul service ou une seule équipe, le planificateur de scénarios peut vous aider. Créez et comparez rapidement et facilement plusieurs scénarios en fonction de contraintes, telles que les budgets ou les ressources de l’équipe.
 
-Avec le planificateur de scénarios, vous pouvez modéliser des scénarios par objectif ou initiative dans le planificateur de scénarios afin de répondre à des questions telles que :
+Dans le planificateur de scénarios, vous pouvez modéliser des scénarios par objectif ou par initiative pour répondre à des questions telles que les suivantes :
 
-* Si nous optimisons la croissance par rapport à la rentabilité, quelles sont les différences dans les scénarios d&#39;investissement ?
-* Pour atteindre un objectif d’optimisation de la croissance, avons-nous besoin de ressources supplémentaires au sein d’un ensemble de compétences spécifique ?
-* Pour atteindre un objectif de rentabilité, devons-nous repousser les initiatives spécifiques à une date ultérieure ?
+* Si nous optimisons la croissance par rapport à la rentabilité, quelles sont les différences entre les scénarios d’investissement ?
+* Pour atteindre un objectif d’optimisation de croissance, avons-nous besoin de ressources supplémentaires dans un domaine de compétences spécifique ?
+* Pour atteindre un objectif de rentabilité, devons-nous reporter certaines initiatives à une date ultérieure ?
 
-Pour plus d’informations sur le planificateur de scénario, voir [Présentation du planificateur de scénario](../../../scenario-planner/scenario-planner-overview.md).
+Pour plus d’informations sur le planificateur de scénarios, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).

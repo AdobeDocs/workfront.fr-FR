@@ -9,7 +9,7 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -45,7 +45,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -56,7 +56,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -80,8 +80,8 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Gérer les autorisations d’un espace de travail</a> </p>  
-   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>  </td> 
+   <td>   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -90,7 +90,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -155,7 +155,7 @@ OLD:
 
 ## Remarques concernant la création de types d’enregistrements
 
-* Vous pouvez créer des types d’enregistrements dans un espace de travail des manières suivantes :
+* Vous pouvez créer des types d’enregistrements dans un espace de travail de la manière suivante :
 
    * Automatiquement :
       * Lorsque vous créez un espace de travail à l’aide d’un modèle.
@@ -192,7 +192,7 @@ Vous pouvez ajouter manuellement des types d’enregistrements dans les sections
 
 Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-Pour plus d’informations sur les types d’enregistrements inclus dans chaque modèle, voir [Liste des modèles d&#39;espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md).
+Pour plus d’informations sur les types d’enregistrements inclus dans chaque modèle, voir [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 ## Créer un type d’enregistrement à partir de zéro
 
@@ -206,7 +206,7 @@ Pour plus d’informations sur les types d’enregistrements inclus dans chaque 
 1. (Facultatif) Cliquez sur **Ajouter une section** pour ajouter une section à l’espace de travail.
 1. Cliquez sur **Ajouter un type d’enregistrement**.
 
-   La zone Ajouter un type d’enregistrement s’affiche.
+   La boîte de dialogue Ajouter un type d’enregistrement s’ouvre.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![](assets/add-record-type-box-with-appearance-options.png)
@@ -216,7 +216,7 @@ Pour plus d’informations sur les types d’enregistrements inclus dans chaque 
    * Remplacez &quot;Untitled record type&quot; par le nom de votre futur type d’enregistrement. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Description** : ajoutez des informations supplémentaires sur le type d’enregistrement.
    * Sélectionnez une couleur et une forme pour l’icône associée au type d’enregistrement. Procédez comme suit :
-      * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. L’option Gris est sélectionnée par défaut.
+      * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. Le gris est sélectionné par défaut.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
 1. Cliquez sur **Créer**.
@@ -235,7 +235,7 @@ La description du type d’enregistrement s’affiche sur la carte.
 
    <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
-   Par défaut, les champs suivants s&#39;affichent dans les colonnes de vue de tableau d’un type d’enregistrement opérationnel :
+   Par défaut, les champs suivants s’affichent dans les colonnes de la vue Tableau d’un type d’enregistrement opérationnel :
 
    * Nom
    * Description
@@ -249,8 +249,8 @@ La description du type d’enregistrement s’affiche sur la carte.
 
    Cliquez sur l&#39;icône **Plus** ![](assets/more-menu.png) à droite du nom du type d&#39;enregistrement et cliquez sur **Modifier** pour le renommer ou modifier les informations le concernant. Pour plus d’informations, voir [Modification des types d’enregistrement](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** pour ajouter des enregistrements du type d’enregistrement sélectionné. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
-1. (Facultatif) Cliquez sur l’icône **+** dans le coin supérieur droit du tableau pour ajouter d’autres champs au type d’enregistrement.
+1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** pour ajouter des enregistrements du type sélectionné. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+1. (Facultatif) Cliquez sur l’icône **+** dans le coin supérieur droit du tableau pour ajouter des champs supplémentaires au type d’enregistrement.
 
    Pour plus d’informations sur la création de champs, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 

@@ -3,8 +3,8 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Environnement de test d’aperçu  [!DNL Adobe Workfront]
-description: L’environnement de test Aperçu Sandbox est un environnement de test qui sert de réplique à votre environnement en ligne. Il est actualisé chaque week-end par Workfront. Les données ajoutées à votre environnement de production le vendredi s’affichent dans votre sandbox d’aperçu le lundi suivant. Tous les modules d’assistance ont accès à cet environnement de test.
+title: Environnement de prévisualisation de sandbox  [!DNL Adobe Workfront]
+description: L’environnement de prévisualisation de sandbox est un environnement de test qui sert de réplique à votre environnement réel. Il est actualisé chaque week-end par Workfront. Les données ajoutées à votre environnement réel le vendredi apparaissent dans votre environnement de prévisualisation de sandbox le lundi suivant. Tous les packages d’assistance ont accès à ce sandbox.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -12,25 +12,25 @@ exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
 source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-# Environnement de test d’aperçu [!DNL Adobe Workfront]
+# Environnement de prévisualisation de sandbox [!DNL Adobe Workfront]
 
 <!-- Audited: 12/2023 -->
 
-Il existe deux environnements de test pour [!DNL Workfront] qui sont des répliques de votre environnement de production [!DNL Workfront] :
+Il existe deux environnements de test pour [!DNL Workfront] qui sont des répliques de votre environnement de production [!DNL Workfront] :
 
-* Aperçu d’un environnement de test
+* Environnement de prévisualisation de sandbox
 
-  L’environnement de test Aperçu Sandbox est un environnement de test qui sert de réplique de votre environnement en ligne et qui est actualisé chaque week-end par [!DNL Workfront]. Les données ajoutées à votre environnement de production le vendredi s’affichent dans votre sandbox d’aperçu le lundi suivant.
+  L’environnement de prévisualisation de sandbox est un environnement de test qui sert de réplique à votre environnement réel et qui est actualisé chaque week-end par [!DNL Workfront]. Les données ajoutées à votre environnement réel le vendredi apparaissent dans votre environnement de prévisualisation de sandbox le lundi suivant.
 
-  Tous les modules de prise en charge ont accès à l’environnement de test de prévisualisation.
+  Tous les packages d’assistance ont accès à l’environnement de prévisualisation de sandbox.
 
-* Environnement de test d’actualisation personnalisé
+* Environnement de sandbox à actualisation personnalisée
 
-  L’environnement de test d’actualisation personnalisée est un environnement de test distinct que vous actualisez manuellement. L’obtention de l’environnement de test d’actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, voir [L’ [!DNL Adobe Workfront] environnement Sandbox d’actualisation personnalisée](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  L’environnement de sandbox à actualisation personnalisée est un environnement de test distinct qui est actualisé manuellement par vos soins. L’obtention du sandbox à actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, consultez la section [Environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,142 +39,142 @@ Il existe deux environnements de test pour [!DNL Workfront] qui sont des répliq
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>[!UICONTROL Standard] Package de support </strong> </p> </th> 
-   <th> <p><strong> Packages d’assistance [!UICONTROL Plus], [!UICONTROL Preferred] et [!UICONTROL Enterprise] </strong> </p> </th> 
+   <th> <p><strong>Package de prise en charge [!UICONTROL Standard]</strong> </p> </th> 
+   <th> <p><strong>Packages de prise en charge [!UICONTROL Plus], [!UICONTROL Preferred] et [!UICONTROL Enterprise]</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"> <p>Aperçu d’un environnement de test</p> </td> 
+   <td scope="col"> <p>Environnement de prévisualisation de sandbox</p> </td> 
    <td scope="col"> <p>✔</p> </td> 
    <td scope="col"> <p>✔</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p>Sandbox d’actualisation personnalisée</p> </td> 
+   <td scope="col"> <p>Environnement de sandbox à actualisation personnalisée</p> </td> 
    <td scope="col"> <p> </p> </td> 
    <td scope="col"> <p>✔</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Aperçu d’un environnement de test
+## Environnement de prévisualisation de sandbox
 
-L’environnement de test Aperçu sert d’environnement dans lequel les utilisateurs de votre entreprise peuvent tester et utiliser en toute sécurité les données de l’environnement de production sans affecter l’environnement de production.
+L’environnement de prévisualisation de sandbox sert d’environnement dans lequel les utilisateurs et les utilisatrices de votre organisation peuvent tester et travailler en toute sécurité avec les données de l’environnement de production sans affecter ce dernier.
 
-L’environnement de test Aperçu contient vos données de production réelles. Cependant, il s’actualise chaque week-end afin que les données puissent se trouver jusqu’à une semaine après l’environnement de production. Les éléments créés depuis la dernière actualisation sont placés dans l’environnement Aperçu de l’environnement de test jusqu’à l’actualisation suivante.
+L’environnement de prévisualisation de sandbox contient vos données de production effectives ; cependant, il est actualisé tous les week-ends, de sorte que les données peuvent avoir jusqu’à une semaine de retard par rapport à l’environnement de production. Les éléments créés depuis la dernière actualisation sont dans l’environnement de prévisualisation de sandbox jusqu’à l’actualisation suivante.
 
-Les flux de données sont unidirectionnels, de la production à la prévisualisation, et non inversés. Une actualisation de l’environnement de prévisualisation est toujours planifiée par [!DNL Workfront] chaque week-end.
+Les données circulent de manière unidirectionnelle, de la production à la prévisualisation, et non en sens inverse. Une mise à jour de l’environnement de prévisualisation est toujours prévue par [!DNL Workfront] chaque week-end.
 
-Preview Sandbox permet également à [!DNL Workfront] de déployer de nouvelles fonctionnalités dans un environnement sécurisé, avant qu’elles ne soient prêtes à être déployées en production. Vous pouvez tester les nouvelles fonctionnalités et donner des commentaires [!DNL Workfront] sur celles-ci en accédant à l’environnement de test de prévisualisation. C’est pourquoi le code de l’environnement de test de prévisualisation est toujours en avance sur le code de production, bien que vos données soient actualisées chaque semaine.
+L’environnement de prévisualisation de sandbox permet également à [!DNL Workfront] de déployer de nouvelles fonctionnalités dans un environnement sûr, avant qu’elles ne soient prêtes à être déployées en production. Vous pouvez tester les nouvelles fonctionnalités et donner votre avis sur leur fonctionnement à [!DNL Workfront] en accédant à l’environnement de prévisualisation de sandbox. Ainsi, le code de l’environnement de prévisualisation de sandbox est toujours en avance sur celui de production, même si vos données sont actualisées chaque semaine.
 
-L’environnement d’aperçu est idéal pour exécuter des formations, tester de nouvelles fonctionnalités et déterminer les fonctionnalités de configuration.
+L’environnement de prévisualisation est idéal pour organiser des formations, tester de nouvelles fonctionnalités et déterminer les fonctions de configuration.
 
 >[!NOTE]
 >
->Lorsque vous accédez à l’environnement de test Aperçu, remarquez la bannière bleue en haut de l’écran. La bannière ne peut pas être supprimée lorsque vous travaillez dans cet environnement.
+>Lorsque vous accédez à l’environnement de prévisualisation de sandbox, vous remarquez la bannière bleue en haut de l’écran. La bannière ne peut pas être retirée pendant que vous travaillez dans cet environnement.
 >
->Le nom de l’environnement auquel vous accédez (Aperçu) et la version de publication du code s’affichent sur la bannière. Cliquez sur **[!UICONTROL Voir les nouveautés]** pour plus d’informations sur cette version.
+>Le nom de l’environnement auquel vous accédez (Prévisualisation) et la version de lancement du code s’affichent sur la bannière. Cliquez sur **[!UICONTROL Voir les nouveautés]** pour obtenir des informations sur cette version.
 >
 >![](assets/preview-banner-nwe-350x161.png)
 
-## Accès à l’environnement de test d’aperçu
+## Accéder à l’environnement de prévisualisation de sandbox
 
-Par défaut, en tant qu’administrateur [!DNL Workfront], vous avez accès à l’environnement Sandbox [!UICONTROL Preview]. Si vous ne pouvez pas accéder à l’environnement sandbox [!UICONTROL Preview] comme décrit dans cette section, contactez votre administrateur [!DNL Workfront] ou notre équipe d’assistance clientèle.
+Par défaut, en tant qu’administrateur ou administratrice de [!DNL Workfront], vous avez accès à l’environnement de [!UICONTROL prévisualisation] de sandbox. Si vous ne pouvez pas accéder à l’environnement de [!UICONTROL prévisualisation] de sandbox comme décrit dans cette section, contactez votre administrateur ou votre administratrice [!DNL Workfront] ou notre équipe d’assistance clientèle.
 
 
-### Accès à l’environnement de test d’aperçu à partir de l’interface [!DNL Workfront] {#accessing-the-preview-sandbox-from-the-workfront-interface}
+### Accéder à l’environnement de prévisualisation de sandbox à partir de l’interface [!DNL Workfront] {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
-En tant qu’administrateur [!DNL Workfront], vous pouvez accéder à l’environnement de test de prévisualisation via l’interface [!DNL Workfront].
+En tant que personne membre de l’équipe d’administration [!DNL Workfront], vous pouvez accéder à l’environnement de prévisualisation de sandbox via l’interface [!DNL Workfront].
 
-Pour accéder à l’environnement de test d’aperçu :
+Pour accéder à l’environnement de prévisualisation de sandbox, procédez comme suit :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **[!UICONTROL Système]** > **[!UICONTROL Préférences]**.
+1. Cliquez sur **[!UICONTROL Système]** > **[!UICONTROL Préférences]**.
 
-1. Dans la section **[!UICONTROL Test Environments]**, cliquez sur **[!UICONTROL Sandbox Preview]**.
+1. Dans la section **[!UICONTROL Environnements de test]**, cliquez sur **[!UICONTROL Prévisualisation de sandbox]**.
 
-1. Connectez-vous à l’aide de vos informations d’identification d’aperçu.
+1. Connectez-vous avec vos identifiants de prévisualisation.
 
-   Elles doivent être identiques à vos informations d’identification de production, sauf si vous les avez modifiées dans Production après l’actualisation de l’aperçu. Les connexions ne sont synchronisées que lorsqu’une actualisation se produit. Elles ne se synchronisent pas automatiquement.
+   Ces identifiants doivent être les mêmes que ceux de production, à moins que vous ne les ayez modifiés dans la production après avoir actualisé la prévisualisation. Les connexions ne sont synchronisées que lorsqu’une actualisation a lieu. Elles ne se synchronisent pas automatiquement.
 
-### Accès à l’environnement de test d’aperçu à l’aide d’une URL {#accessing-the-preview-sandbox-using-a-url}
+### Accéder à la prévisualisation de sandbox à l’aide d’une URL {#accessing-the-preview-sandbox-using-a-url}
 
-Vous pouvez accéder à l’onglet Aperçu de l’environnement de test à l’aide d’une URL.
+Vous pouvez accéder à la prévisualisation de sandbox à l’aide d’une URL.
 
-#### Accès à l’aperçu de l’environnement de test pour les comptes sur une grappe 1, 2, 3 et 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
+#### Accéder à la prévisualisation de sandbox pour les comptes des clusters 1, 2, 3 et 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
-L’URL de l’environnement de test de prévisualisation est : `https://companyname.preview.workfront.com/`.
+L’URL de la prévisualisation de sandbox est : `https://companyname.preview.workfront.com/`.
 
 >[!NOTE]
 >
->Si des signets pointaient vers l’ancienne URL de l’environnement de test d’aperçu, veuillez prendre note de cette modification et mettre à jour l’URL dans vos signets.
+>Si vous aviez des signets qui renvoyaient à l’ancienne URL de la prévisualisation Sandbox, veuillez prendre note de ce changement et mettre à jour l’URL dans vos signets.
 
-Pour vous connecter à l’environnement de test d’aperçu à l’aide d’une URL :
+Pour se connecter à la prévisualisation de sandbox à l’aide d’une URL, procédez comme suit :
 
-1. Accédez à cette URL : `https://companyname.preview.workfront.com/`.
+1. Accédez à cette URL : `https://companyname.preview.workfront.com/`.
 
-   Si vous êtes un client EMEA et que votre compte se trouve sur une grappe 4, reportez-vous à la section Accès à l’aperçu sandbox pour les comptes sur une grappe 4 (comptes EMEA) ci-dessous.
+   Si vous êtes client ou cliente EMEA et que votre compte se trouve sur le cluster 4, consultez la section Accès à la prévisualisation de sandbox pour les comptes sur le cluster 4 (comptes EMEA) ci-dessous.
 
-1. Connectez-vous à l’aide de vos informations d’identification de prévisualisation.
+1. Connectez-vous à l’aide de vos identifiants de prévisualisation.
 
    >[!TIP]
    >
-   >Vos informations d’identification de prévisualisation doivent être identiques à celles de votre production, sauf si vous les avez modifiées dans Production après l’actualisation de prévisualisation. Les connexions ne sont synchronisées que lorsqu’une actualisation se produit. Elles ne se synchronisent pas automatiquement.
+   >Vos identifiants de prévisualisation doivent être les mêmes que vos identifiants de production, à moins que vous ne les ayez modifiés dans la production après l’actualisation de la prévisualisation. Les connexions ne sont synchronisées que lorsqu’une actualisation a lieu. Elles ne se synchronisent pas automatiquement.
 
 
-#### Accès à l’environnement de test d’aperçu pour les comptes d’une grappe 4 (comptes EMEA) {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
+#### Accéder à la prévisualisation de sandbox pour les comptes sur le cluster 4 (comptes EMEA) {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
-Pour vous connecter à l’environnement de test d’aperçu à l’aide d’une URL :
+Pour se connecter à la prévisualisation de sandbox à l’aide d’une URL, procédez comme suit :
 
-1. Accédez à cette URL : `https://companyname.preview.workfront.com/`.
+1. Accédez à cette URL : `https://companyname.preview.workfront.com/`.
 
-   Vous pouvez également accéder à l’environnement de test de prévisualisation en accédant à [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login).
+   Vous pouvez également accéder à la prévisualisation de sandbox en allant sur [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login).
 
-1. Connectez-vous à l’aide de vos informations d’identification de prévisualisation.
+1. Connectez-vous à l’aide de vos identifiants de prévisualisation.
 
-   Vos informations d’identification de prévisualisation doivent être identiques à celles de votre production, sauf si vous les avez modifiées dans Production après l’actualisation de prévisualisation. Les connexions ne sont synchronisées que lorsqu’une actualisation se produit. Elles ne se synchronisent pas automatiquement.
+   Vos identifiants de prévisualisation doivent être les mêmes que vos identifiants de production, à moins que vous ne les ayez modifiés dans la production après l’actualisation de la prévisualisation. Les connexions ne sont synchronisées que lorsqu’une actualisation a lieu. Elles ne se synchronisent pas automatiquement.
 
-## Réception d’emails à partir de l’environnement de test de prévisualisation
+## Recevoir des e-mails à partir de la prévisualisation de sandbox
 
-Workfront désactive toutes les communications par courrier électronique à partir de l’environnement Preview Sandbox. Si vous souhaitez recevoir des notifications par courrier électronique de l’environnement de prévisualisation Sandbox, vous devez activer cette fonctionnalité dans vos paramètres utilisateur. Pour plus d’informations sur l’activation des notifications par courrier électronique dans l’environnement de prévisualisation Sandbox, voir [Activation de la diffusion des emails à partir de l’environnement de prévisualisation Sandbox](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Workfront désactive toute communication par e-mail à partir de l’environnement de prévisualisation de de sandbox. Si vous souhaitez recevoir des notifications par e-mail à partir de l’environnement de prévisualisation de sandbox, vous devez activer cette fonctionnalité dans vos paramètres d’utilisateur ou d’utilisatrice. Pour plus d’informations sur l’activation des notifications par e-mail dans l’environnement de prévisualisation de sandbox, voir [Activer la diffusion d’e-mails à partir de l’environnement de prévisualisation de sandbox](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!NOTE]
 >
->La remise des rapports et les notifications push sur l’application mobile sont toujours désactivées pour l’environnement de prévisualisation Sandbox. Ni vous, ni l’administrateur [!DNL Workfront] ne pouvez activer la remise de rapports ou les notifications push pour l’application mobile lorsque vous accédez à l’environnement Preview Sandbox.
+>La remise de rapports et les notifications push sur l’application mobile sont toujours désactivées dans l’environnement de prévisualisation de sandbox. Ni vous ni l’administrateur ou l’administratrice de [!DNL Workfront] ne pouvez activer la remise de rapports ou les notifications push pour l’application mobile lorsque vous accédez à l’environnement de prévisualisation de sandbox.
 >
->Pour plus d’informations sur les diffusions de rapports pour l’environnement de production, voir [Présentation de la diffusion de rapports](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+>Pour plus d’informations sur les remises de rapports pour l’environnement de production, voir [Vue d’ensemble de la remise des rapports](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 
 ## Authentification Single Sign-On (SSO)
 
-Si vous utilisez la connexion unique, travaillez avec notre équipe du service clientèle pour vous assurer qu’elle est correctement configurée afin que vous puissiez utiliser vos informations d’identification SSO pour vous connecter au sandbox [!UICONTROL Preview]. Si votre connexion initiale échoue, contactez votre contact d&#39;assistance classique ou votre administrateur [!DNL Workfront] pour obtenir de l&#39;aide.
+Si vous utilisez l’authentification unique, assurez-vous auprès de notre équipe d’assistance à la clientèle qu’elle est correctement configurée, afin que vous puissiez utiliser vos informations d’identification SSO pour vous connecter à la [!UICONTROL prévisualisation] de sandbox. Si votre première connexion échoue, veuillez contacter votre contact d’assistance habituel, ou l’administrateur ou administratrice [!DNL Workfront] pour obtenir de l’aide.
 
-Pour plus d’informations sur l’authentification unique, voir [Présentation de l’authentification unique dans Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Pour plus d’informations sur l’authentification unique, voir [Vue d’ensemble de l’authentification unique dans Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
-## Configuration de l’authentification unique dans l’environnement de test de prévisualisation
+## Configurer l’authentification unique dans la prévisualisation de sandbox
 
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore été intégrées à [!DNL Adobe Admin Console]. Si votre organisation a été intégrée à [!DNL Adobe Admin Console], aucune action n’est nécessaire.
+>La procédure décrite sur cette page ne s’applique qu’aux organisations qui n’ont pas encore été intégrées à l’[!DNL Adobe Admin Console]. Si votre organisation a été intégrée à l’[!DNL Adobe Admin Console], aucune action n’est nécessaire.
 >
->Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à [!DNL Adobe Admin Console], voir [Différences d’administration basées sur les plateformes ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Pour une liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à l’[!DNL Adobe Admin Console], voir [Différences d’administration en fonction de la plateforme ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
-Si vous souhaitez configurer votre environnement de test de prévisualisation pour qu’il fonctionne avec une solution de connexion unique, vous pouvez le faire en le configurant séparément de votre environnement de production. La configuration SSO dans l’environnement de test de prévisualisation est indépendante de la configuration SSO dans l’environnement de production.
+Si vous souhaitez configurer votre prévisualisation de sandbox pour qu’elle fonctionne avec une solution d’authentification unique, vous pouvez le faire en la configurant séparément de votre environnement de production. La configuration SSO dans la prévisualisation de sandbox est indépendante de votre configuration SSO dans l’environnement de production.
 
-Lorsque votre environnement de test d’aperçu est actualisé (chaque week-end), les informations d’authentification unique ne sont pas copiées à partir de votre environnement de production pour remplacer la configuration de l’environnement de test d’aperçu.
+Lors de l’actualisation de votre prévisualisation de sandbox (chaque week-end), les informations SSO ne sont pas copiées depuis votre environnement de production pour écraser la configuration de la prévisualisation de sandbox.
 
-Les étapes de configuration de l’authentification unique dans l’environnement de test de prévisualisation sont similaires à celles de configuration dans l’environnement de production.
+Les étapes de la configuration de l’authentification unique dans la prévisualisation de sandbox sont similaires à celles de la configuration dans l’environnement de production.
 
 Pour plus d’informations sur la configuration de [!DNL Workfront] avec l’authentification unique, voir [Vue d’ensemble de l’authentification unique dans Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
-## Prévisualiser les performances et la disponibilité de l’environnement
+## Performances et disponibilité de l’environnement de prévisualisation
 
-[!DNL Workfront] Les environnements d’aperçu ne sont pas destinés aux tests de performance ou de chargement. Utilisez plutôt ces environnements pour valider la fonctionnalité avec les workflows existants de votre organisation.
+Les environnements de prévisualisation [!DNL Workfront] ne sont pas destinés à des tests de performance ou de charge. Utilisez-les plutôt pour valider l’efficacité des fonctionnalités avec les workflows existants de votre entreprise.
 
-[!DNL Workfront] Les environnements d’aperçu sont conçus pour être toujours disponibles.
+Les environnements de prévisualisation [!DNL Workfront] sont censés être toujours disponibles.
 
-Toute panne d’un environnement de prévisualisation [!DNL Workfront] pendant les heures ouvrées normales sera une priorité absolue immédiatement après que tous les problèmes de production seront résolus, le cas échéant.
+Toute interruption d’un environnement de prévisualisation [!DNL Workfront] pendant les heures de bureau sera traitée en priorité, immédiatement après que les problèmes de production auront été résolus, le cas échéant.
 
-Toute panne d’un environnement de prévisualisation [!DNL Workfront] le week-end (le samedi et le dimanche) sera corrigée afin que l’environnement soit en cours d’exécution pendant les heures ouvrables le lundi.
+Toute interruption de l’environnement de prévisualisation [!DNL Workfront] pendant les week-ends (samedi et dimanche) sera résolue de manière à ce que l’environnement soit opérationnel pendant les heures de bureau le lundi.

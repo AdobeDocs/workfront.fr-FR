@@ -7,15 +7,15 @@ recommendations: noDisplay, noCatalog
 source-git-commit: 11a5d4d2e1c7ac5339aa880b494730d75e40a812
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 5%
+ht-degree: 16%
 
 ---
 
 # Autres améliorations apportées au délai de publication du quatrième trimestre 2024
 
-Cette page décrit les améliorations apportées à la version du quatrième trimestre 2024 de l’environnement Aperçu. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
+Cette page décrit les améliorations apportées à la version du quatrième trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2024, consultez la [présentation de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2024, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Assistant d’Adobe AI disponible dans Workfront
 

@@ -35,25 +35,25 @@ An example of how this can be used would be helpful here and/or in the section <
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouvelle : standard </p>
+   <td> <p>Nouveau : Standard </p>
  <p>ou</p> 
-<p>Actuelle : formule</p> 
+<p>Actuel : formule</p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Planificateur ou version ultérieure, avec accès administratif aux notifications de rappel</p></td> 
   </tr> 
  </tbody> 
@@ -65,13 +65,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Personnaliser l’e-mail de rappel
 
-Vous pouvez personnaliser l’objet, le corps et le HTML dans l’e-mail de notification de rappel.
+Vous pouvez personnaliser l’objet, le corps et le code HTML de l’e-mail de notification de rappel.
 
-Vous pouvez également utiliser l’e-mail par défaut inclus dans la notification de rappel. L’e-mail par défaut utilise le nom de la notification de rappel comme objet de l’e-mail et le nom de l’objet dans le corps de l’e-mail, y compris l’événement qui a déclenché la notification.
+Vous pouvez également utiliser l’e-mail par défaut inclus dans la notification de rappel. L’e-mail par défaut utilise le nom de la notification de rappel comme objet de l’e-mail, ainsi que le nom de l’objet dans le corps de l’e-mail, et inclut l’événement qui a déclenché la notification.
 
 Si vous souhaitez personnaliser l’e-mail de rappel, vous devez créer un modèle d’e-mail et le joindre à la notification de rappel.
 
-Pour plus d’informations sur la création d’un modèle d’e-mail, voir [Configurer des modèles d’e-mail](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
+Pour plus d’informations sur la création d’un modèle d’e-mail, consultez la section [Configurer des modèles d’e-mail](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
 
 ## Créer une notification de rappel
 
@@ -83,11 +83,11 @@ Pour plus d’informations sur la création d’un modèle d’e-mail, voir [Con
 
 1. Cliquez sur **Nouvelle notification de rappel**.
 
-1. Dans la liste déroulante, cliquez sur le type d’objet que vous souhaitez associer à la notification de rappel.
+1. Dans la liste déroulante, cliquez sur le type d’objet à associer à la notification de rappel.
 
    Par exemple, si vous souhaitez joindre une notification de rappel à une feuille de temps, cliquez sur **Feuille de temps**.
 
-1. Dans la zone **Nouvelle notification de rappel** qui s’affiche, spécifiez les informations suivantes.
+1. Dans la zone **Nouvelle notification de rappel** qui s’affiche, indiquez les informations suivantes.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -95,41 +95,41 @@ Pour plus d’informations sur la création d’un modèle d’e-mail, voir [Con
     <tbody> 
      <tr> 
       <td role="rowheader">Nom de la notification de rappel</td> 
-      <td>Spécifiez le nom de la notification de rappel.</td> 
+      <td>Indiquez le nom de la notification de rappel.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Période qualifiante</td> 
-      <td> <p>Spécifiez le nombre d’heures, de jours de travail, de jours (jours calendaires), de semaines ou de mois avant ou après la date dans le champ <strong>Planning</strong>.</p> <p><b>REMARQUE</b> :  
+      <td> <p>Spécifiez le nombre d’heures, de jours ouvrables, de jours (calendaires), de semaines ou de mois avant ou après la date dans le champ <strong>Planning</strong>.</p> <p><b>NOTE</b> :  
         <ul> 
          <li> <p>Les notifications de rappel démarrent 24 heures après la date spécifiée et une fois tous les critères satisfaits.</p> </li> 
-         <li> <p>Les notifications de rappel pour les projets, les tâches et les problèmes se déclenchent toutes les nuits à minuit, heure des Rocheuses. Tous les objets qui remplissent les critères d’une notification de rappel à partir de cette journée déclenchent une notification aux utilisateurs et utilisatrices désignés peu de temps après cette date.</p> </li> 
-         <li> <p>Les notifications de rappel pour les feuilles de temps sont envoyées à l’heure spécifiée en fonction du fuseau horaire et de la date de fin, de la date de début ou de la date de dernière mise à jour de la feuille de temps.</p> </li> 
+         <li> <p>Les notifications de rappel liées à des projets, des tâches et à des problèmes se déclenchent toutes les nuits à minuit, heure des Rocheuses. Tous les objets qui remplissent les critères d’une notification de rappel de ce jour déclenchent une notification aux personnes désignées peu de temps après cette heure.</p> </li> 
+         <li> <p>Les notifications de rappel liées aux feuilles de temps sont envoyées à l’heure spécifiée selon votre fuseau horaire et la date de fin, la date de début ou la date de dernière mise à jour de la feuille de temps.</p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Planning</td> 
-      <td> <p>Sélectionnez l’événement déclenchant la notification de rappel à programmer.</p> <p>Si la notification de rappel concerne des projets, des tâches ou des problèmes, les options disponibles sont liées à la date d’achèvement ou à la date de début. La notification de rappel prend en compte l’horodatage des dates d’achèvement et de début des projets, tâches et problèmes.</p>
+      <td> <p>Sélectionnez l’événement déclenchant la notification de rappel à programmer.</p> <p>Si la notification de rappel concerne des projets, des tâches ou des problèmes, les options disponibles sont liées à la date d’achèvement ou à la date de début. La notification de rappel prend en compte l’horodatage des dates d’achèvement et de début des projets, des tâches et des problèmes.</p>
 
-   <p>Si la notification de rappel concerne des feuilles de calcul, les options disponibles sont liées à la date de fin, à la date de début ou à la date de dernière mise à jour. La notification de rappel pour les feuilles de temps prend en compte l’horodatage de la date de fin, de début et de dernière mise à jour de la feuille de temps. La feuille de temps commence à minuit le jour de la date de début (12 h 00) et se termine juste avant minuit à la date de fin (23 h 59).</p>
+   <p>Si la notification de rappel concerne des feuilles de temps, les options disponibles sont liées à la date de fin, à la date de début ou à la date de dernière mise à jour. La notification de rappel concernant les feuilles de temps prend en compte l’horodatage des dates de fin, de début et de dernière mise à jour de la feuille de temps. La feuille de temps commence le jour de la date de début à minuit (00 h 00) et se termine juste avant minuit le jour de la date de fin (23 h 59).</p>
 
    <p><b>NOTE</b></p>
-      <p>Les notifications de rappel de la feuille de temps ne sont distribuées qu’une fois toutes les 24 heures.</p> <p>Lorsque vous configurez plusieurs notifications de rappel dans une période de 24 heures, Workfront envoie un e-mail de notification avec tous les rappels inclus dans cette notification.</p>
-      <p>Par exemple, si vous configurez trois notifications de rappel pour qu’elles se déclenchent 10 heures avant, 2 heures avant et 1 heure avant une date d’échéance, les trois rappels seront tous combinés dans la même notification s’ils se produisent le même jour.</p> <p>Cependant, si vous définissez une notification de rappel 26 heures avant et une autre 1 heure avant une date d’échéance, les utilisateurs et les utilisatrices recevront deux notifications distinctes. </p>
+      <p>Les notifications de rappel concernant les feuilles de temps ne sont envoyées qu’une fois toutes les 24 heures.</p> <p>Lorsque vous configurez plusieurs notifications de rappel dans une période de 24 heures, Workfront envoie un seul e-mail de notification qui regroupe tous les rappels inclus dans cette notification.</p>
+      <p>Par exemple, si vous configurez trois notifications de rappel pour qu’elles se déclenchent 10 heures, 2 heures et 1 heure avant une date d’échéance, les trois rappels seront regroupés dans la même notification s’ils ont lieu le même jour.</p> <p>Cependant, si vous définissez une notification de rappel pour qu’elle se déclenche 26 heures avant l’échéance et une autre pour qu’elle se déclenche 1 heure avant l’échéance, les personnes recevront deux notifications distinctes. </p>
 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Critères</td> 
-      <td> <p>Sélectionnez le critère pour qualifier la notification de rappel à programmer. Les notifications de rappel ne sont pas programmées, sauf si le critère sélectionné est satisfait.</p> <p>Les options de critères suivantes sont disponibles, selon le type d’objet que vous avez sélectionné à l’étape 4 :</p> 
+      <td> <p>Sélectionnez les critères pour qualifier la notification de rappel à planifier. Les notifications de rappel ne sont pas planifiées, sauf si la sélection des critères est respectée.</p> <p>Les options de critères suivantes sont disponibles, selon le type d’objet sélectionné à l’étape 4 :</p> 
        <ul> 
-        <li><strong>Incomplet dans les projets en cours :</strong> <i>(Disponible pour les rappels de tâches et de problèmes)</i> l’envoi de la notification de rappel est programmé uniquement lorsque le statut de l’objet auquel la notification de rappel est associée n’est pas Terminé et que le statut du projet est Actuel.</li> 
-        <li><strong>Tout dans les projets en cours :</strong> <i>(Disponible pour les rappels de tâches et de problèmes)</i> l’envoi de la notification de rappel est programmé quel que soit le statut de l’objet. Cette notification doit être envoyée uniquement lorsque le statut du projet auquel la notification de rappel est associée est Actuel.</li> 
-        <li><strong>Projets incomplets :</strong> <i>(Disponible pour les rappels de projets)</i> l’envoi de la notification de rappel est programmé lorsque le statut du projet est autre que Terminé.</li> 
-        <li><strong>Tous les projets :</strong> <i>(Disponible pour les rappels de projets)</i> l’envoi de la notification de rappel est programmé quel que soit le statut du projet.</li> 
-        <li><strong>Feuilles de temps ouvertes :</strong> <i>(Disponible pour les rappels de feuilles de temps)</i> l’envoi de la notification de rappel est programmé lorsque le statut de la feuille de temps est Ouvert.</li> 
-        <li><strong>Feuilles de temps envoyées :</strong> <i>(Disponible pour les rappels de feuilles de temps)</i> l’envoi de la notification de rappel est programmé lorsque le statut de la feuille de temps est Envoyé.</li> 
-        <li><strong>Feuille de temps ouverte ou moins de 40 heures par semaine :</strong> <i>(Disponible pour les rappels de feuilles de temps)</i> l’envoi de la notification de rappel est programmé lorsque le statut de la feuille de temps est Ouvert ou lorsque la feuille de temps est consignée depuis moins de 40 heures.</li> 
-        <li><strong>Modèles d’e-mail :</strong> dans la liste déroulante, sélectionnez un modèle d’e-mail à joindre à votre rappel.<br>Pour plus d’informations sur la création d’un modèle d’e-mail, reportez-vous à <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configurer des modèles d’e-mail</a>.</li> 
+        <li><strong>Incomplet dans les projets en cours :</strong> <i>(disponible pour les rappels de tâche et de problème)</i> l’envoi de la notification de rappel est planifié uniquement lorsque le statut de l’objet auquel la notification de rappel est associée n’est pas Terminé et que le statut du projet est Actif.</li> 
+        <li><strong>Tout dans les projets en cours :</strong> <i>(disponible pour les rappels de tâche et de problème)</i> l’envoi de la notification de rappel est planifié quel que soit le statut de l’objet. Cette notification doit être envoyée uniquement lorsque le statut du projet auquel la notification de rappel est associée est Actif.</li> 
+        <li><strong>Projets incomplets :</strong> <i>(disponible pour les rappels de projet)</i> l’envoi de la notification de rappel est planifié lorsque le statut du projet est autre que Terminé.</li> 
+        <li><strong>Tous les projets :</strong> <i>(disponible pour les rappels de projet)</i> l’envoi de la notification de rappel est planifié quel que soit le statut du projet.</li> 
+        <li><strong>Feuilles de temps ouvertes :</strong> <i>(disponible pour les rappels de feuille de temps)</i> l’envoi de la notification de rappel est planifié lorsque le statut de la feuille de temps est Ouvert.</li> 
+        <li><strong>Feuilles de temps envoyées :</strong> <i>(disponible pour les rappels de feuille de temps)</i> l’envoi de la notification de rappel est planifié lorsque le statut de la feuille de temps est Envoyé.</li> 
+        <li><strong>Feuille de temps ouverte ou de moins de 40 heures par semaine :</strong> <i>(disponible pour les rappels de feuille de temps)</i> l’envoi de la notification de rappel est planifié lorsque le statut de la feuille de temps est Ouvert ou lorsque la feuille de temps a moins de 40 heures de consignées.</li> 
+        <li><strong>Modèle d’e-mail :</strong> dans la liste déroulante, sélectionnez un modèle d’e-mail à joindre à votre rappel.<br>Pour plus d’informations sur la création d’un modèle d’e-mail, reportez-vous à la section <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configurer des modèles d’e-mail</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -155,15 +155,15 @@ Pour plus d’informations sur la création d’un modèle d’e-mail, voir [Con
 
 ## Recevoir une notification de rappel
 
-Lorsque la condition est remplie sur l’élément auquel la notification de rappel est jointe, une notification par e-mail est déclenchée vers l’utilisateur ou l’utilisatrice défini dans la notification de rappel.
+Lorsque la condition est remplie sur l’élément auquel est jointe la notification de rappel, une notification par e-mail est déclenchée à la personne définie dans la notification de rappel.
 
-Pour plus d’informations sur la réception de notifications de rappel, voir la section [Notifications de rappel](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) dans [Notifications Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
+Pour plus d’informations sur la réception de notifications de rappel, voir la section [Notifications de rappel](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) dans [Notifications Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Tester la diffusion de la notification de rappel
 
-Les notifications de rappel se déclenchent toutes les nuits à minuit, heure des Rocheuses. Tous les objets qui remplissent les critères d’une notification de rappel déclenchent une notification aux utilisateurs et utilisatrices désignés peu de temps après.
+Les notifications de rappel se déclenchent toutes les nuits à minuit, heure des Rocheuses. Tous les objets qui remplissent les critères d’une notification de rappel déclenchent une notification aux personnes désignées peu de temps après.
 
-Pour déclencher manuellement des notifications de rappel, la condition du rappel doit d’abord être remplie.\
+Pour que les notifications de rappel se déclenchent manuellement, la condition du rappel doit d’abord être remplie.\
 Par exemple, si un rappel est défini pour se déclencher une heure après la date d’achèvement prévue d’un projet, ce délai doit s’être écoulé entre le moment où le rappel a été défini et maintenant. Les projets dont la date d’achèvement prévue était antérieure à l’activation du rappel ne déclenchent pas de notification.
 
 Pour déclencher manuellement une notification de rappel :
@@ -172,8 +172,8 @@ Pour déclencher manuellement une notification de rappel :
 
 1. Cliquez sur **Système** > **Diagnostics** dans le coin inférieur gauche de Workfront.
 
-1. Cliquez sur **Envoyer des notifications de rappel** et attendez la confirmation en haut de l’écran qu’ils ont été envoyés.
+1. Cliquez sur **Envoyer des notifications de rappel** et attendez la confirmation d’envoi en haut de l’écran.
 
-   Les utilisateurs et les utilisatrices désignés dans la notification de rappel reçoivent un e-mail.
+   Les personnes désignées dans la notification de rappel reçoivent un e-mail.
 
 ![](assets/reminder-test.png)

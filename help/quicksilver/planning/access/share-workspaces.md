@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 58%
+ht-degree: 59%
 
 ---
 
@@ -24,7 +24,7 @@ This article describes how you can share a view with others. For information abo
 
 >[!NOTE]
 >
->L’octroi d’autorisations à un espace de travail ne donne pas à d’autres personnes les autorisations d’accès aux vues sur les pages de type enregistrement. Vous devez accorder des autorisations pour des vues individuelles dans une page de type d’enregistrement afin de les partager avec d’autres personnes. Pour plus d’informations, consultez la section [Partager une vue](/help/quicksilver/planning/access/share-views.md).
+>L’octroi d’autorisations à un espace de travail ne donne pas à d’autres personnes les autorisations d’accès aux vues sur les pages de type enregistrement. Vous devez accorder des autorisations pour des vues individuelles dans une page de type enregistrement afin de les partager avec d’autres personnes. Pour plus d’informations, consultez la section [Partager une vue](/help/quicksilver/planning/access/share-views.md).
 
 
 ## Conditions d’accès
@@ -48,7 +48,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -59,7 +59,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -92,7 +92,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -161,7 +161,7 @@ OLD:
 
 Les personnes suivantes peuvent partager un espace de travail avec d’autres personnes :
 
-* L’équipe d’administration système peut partager tous les espaces de travail, y compris ceux qu’elle n’a pas créés.
+* Les administrateurs et administratrices système peuvent partager tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.
 * Les autres personnes ne peuvent partager que les espaces de travail pour lesquels elles disposent d’autorisations de gestion.
 
 Pour partager un espace de travail avec d’autres personnes, procédez comme suit :
@@ -183,7 +183,7 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 
      Pour plus d’informations sur les niveaux d’autorisation et les actions que les utilisateurs et les utilisatrices peuvent effectuer pour chaque niveau, consultez la [Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 1. Cliquez sur **Copier le lien** pour copier un lien vers l’espace de travail dans le presse-papiers.
-1. Partagez le lien copié avec d’autres personnes. Les personnes qui reçoivent le lien doivent être des personnes actives et se connecter à Workfront pour pouvoir accéder à l’espace de travail.
+1. Partagez le lien copié avec d’autres personnes. Les personnes qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à l’espace de travail.
 1. Cliquer sur **Enregistrer**.
 
 ## Octroi d’autorisations à un espace de travail à partir d’une demande d’autorisation
@@ -194,7 +194,7 @@ Les utilisateurs qui accèdent à un lien vers un espace de travail auquel ils n
 
    * Une notification in-app
      ![](assets/in-app-notification-for-access-request.png)
-   * Une notification électronique
+   * Notification par e-mail
      ![](assets/email-notification-for-access-request.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app.
 Ou

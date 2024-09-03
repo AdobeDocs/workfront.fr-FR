@@ -1,6 +1,6 @@
 ---
-title: Activité Publication de fusion Workfront :&nbsp;Semaine du 8 novembre 2021
-description: Activité Publication de fusion Workfront :&nbsp;Semaine du 8 novembre 2021
+title: 'Activité Version de Workfront Fusion : semaine du 8 novembre 2021'
+description: 'Activité Version de Workfront Fusion : semaine du 8 novembre 2021'
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -10,26 +10,26 @@ hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
-# Activité Publication de fusion Workfront : semaine du 8 novembre 2021
+# Activité Version de Workfront Fusion : semaine du 8 novembre 2021
 
-Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion durant la semaine du 8 novembre 2021.
+Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion durant la semaine du 8 novembre 2021.
 
-Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
 
-## Conversion d’un module d’enregistrement désormais disponible pour le connecteur Workfront
+## Module de conversion d’enregistrement désormais disponible pour le connecteur Workfront
 
-Nous avons créé un module pour l’une des actions les plus courantes disponibles dans le module Actions diverses . Vous pouvez désormais utiliser le module Convertir un enregistrement pour effectuer les conversions suivantes :
+Nous avons créé un module pour l’une des actions les plus courantes disponibles dans le module Actions diverses : Vous pouvez désormais utiliser le module Convertir un enregistrement pour effectuer les conversions suivantes :
 
-* Problème lié à la tâche
-* Problème lié au projet
-* Tâche à Projet
+* Du problème à la tâche
+* Du problème au projet
+* De la tâche au projet
 
-Auparavant, ces conversions n’étaient disponibles que par le biais du module Actions diverses .
+Auparavant, ces conversions n’étaient disponibles que par le biais du module Actions diverses.
 
-Pour plus d’informations, voir [Modules Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Pour plus d’informations, consultez la section [Modules Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

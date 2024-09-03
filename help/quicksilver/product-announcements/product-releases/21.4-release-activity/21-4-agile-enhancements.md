@@ -1,6 +1,6 @@
 ---
-title: Améliorations apportées à la méthode agile (version 21.4)
-description: Améliorations apportées à la méthode agile (version 21.4)
+title: 21.4 Améliorations relatives à la méthode Agile
+description: 21.4 Améliorations relatives à la méthode Agile
 author: Luke
 draft: Probably
 feature: Product Announcements, Agile
@@ -8,53 +8,53 @@ exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Améliorations apportées à la méthode agile (version 21.4)
+# 21.4 Améliorations relatives à la méthode Agile
 
-Cette page décrit toutes les améliorations apportées à la version 21.4 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 4 octobre 2021.
+Cette page décrit toutes les améliorations relatives à la méthode Agile apportées à l’environnement de prévisualisation avec la version 21.4. Ces améliorations sont disponibles dans l’environnement de production à partir de la semaine du 4 octobre 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, reportez-vous à la [21.4 Release Overview](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications introduites par la version 21.4, consultez la section [Vue d’ensemble de la version 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
-## Affectations d’utilisateurs sur les panoramas Kanban et Scrum
+## Affectation d’utilisateurs et utilisatrices sur les tableaux Kanban et les panoramas Scrum
 
-Nous avons mis à jour les fiches d&#39;information sur les panoramas Kanban et Scrum afin de faciliter l&#39;affectation d&#39;un utilisateur à l&#39;histoire. Vous pouvez désormais cliquer sur l’avatar d’une équipe ou d’un utilisateur pour ajouter une attribution lorsque la carte d’article est développée. Auparavant, vous deviez localiser et cliquer sur une icône plus distincte.
+Nous avons mis à jour les cartes d’histoire sur les tableaux Kanban et panoramas Scrum pour faciliter l’affectation d’utilisateurs et utilisatrices à l’histoire. Désormais, vous pouvez cliquer sur l’avatar d’une équipe, d’un utilisateur ou d’une utilisatrice pour ajouter une affectation lorsque la carte d’histoire est développée. Auparavant, vous deviez localiser et cliquer sur une icône de signe plus (+) distincte.
 
-Pour plus d’informations, voir
+Pour plus d’informations, consultez les ressources suivantes :
 
-* [Affecter des utilisateurs à un article sur le panorama Kanban](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
-* [Assigner des utilisateurs et utilisatrices à une story sur le panorama Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
+* [Affecter des utilisateurs et utilisatrices à une histoire sur le storyboard Kanban](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
+* [Affecter des utilisateurs et utilisatrices à une histoire sur le panorama Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
 
-## Configurer l’application des dates lors de l’ajout d’éléments de travail à une itération Scrum
+## Configurer la façon dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération Scrum
 
-Par défaut, lorsque vous ajoutez un élément de travail à une itération, la Date de début planifiée et la Date de fin planifiée de l’élément de travail sont modifiées pour correspondre aux dates de début et de fin de l’itération. Vous pouvez maintenant choisir de conserver la date de début planifiée et la date de fin planifiée d’origine pour toutes les tâches d’une équipe.
+Par défaut, lorsque vous ajoutez un élément de travail à une itération, la date de début et la date d’achèvement prévue de l’élément de travail sont modifiées pour correspondre aux dates de début et d’achèvement de l’itération. Vous pouvez désormais choisir de conserver la date de début et la date d’achèvement prévues d’origine pour tous les éléments de travail d’une équipe.
 
-Cette option s’applique uniquement aux équipes Scrum et non aux équipes Kanban.
+Cette option ne s’applique qu’aux équipes Scrum et non aux équipes Kanban.
 
-Pour plus d’informations, voir [Configuration de Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Pour plus d’informations, voir [Configurer Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-## Modifications de la vue agile sur les projets
+## Changements de la vue agile des projets
 
 >[!NOTE]
 >
->Cette fonctionnalité a été ajoutée à l’environnement Aperçu le 16 septembre 2021.
+>Cette fonctionnalité a été introduite dans l’environnement de prévisualisation le 16 septembre 2021.
 
-Dans le cadre de la version 21.3, nous avons apporté des améliorations à l’en-tête de carte agile et aux panoramas d’histoires (voir la section [ En-tête de carte agile et mises à jour du panorama d’histoires](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Ces mises à jour s’appliquaient aux itérations ainsi qu’à la vue agile des projets.
+Dans le cadre de la version 21.3, nous avons apporté des améliorations à l’en-tête de la carte et aux storyboards agile (voir [Mises à jour de l’en-tête de la carte et des storyboards agile](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Ces mises à jour s’appliquent aux itérations ainsi qu’à la vue agile des projets.
 
-Avec la version 21.4, ces améliorations ont été apportées à l’affichage agile des projets. Aucune modification n’est apportée aux itérations agiles.
+Avec la version 21.4, nous annulons sur ces améliorations pour la vue agile des projets. Aucun changement n’est apporté aux itérations agiles.
 
-Voici les modifications qui sont annulées concernant l’affichage agile sur les projets :
+Voici les changements annulés en ce qui concerne la vue agile des projets :
 
-* Les cartes d’histoire et les colonnes de tableau ont des largeurs ajustables.
+* Les cartes d’histoire et les colonnes du storyboard sont réglables en largeur.
 * Les colonnes n’ont pas d’ombrage en arrière-plan.
-* Les cartes ne comportent pas de libellés d’identifiant (article parent, sous-tâche, article, tâche ou problème).
-* La colonne Article parent a été renommée Articles.
+* Les cartes n’ont pas d’étiquettes d’identification (histoire parent, sous-tâche, histoire, tâche ou problème).
+* La colonne Histoire parent a été renommée Histoires.
 
-## Ajout de nouvelles histoires et de nouveaux problèmes sur le forum de Kanban
+## Ajouter de nouvelles histoires et de nouveaux problèmes à partir du storyboard Kanban
 
-Vous pouvez maintenant créer un article ou un problème directement à partir du panorama de Kanban. Cela facilite l’ajout rapide d’un nouvel article sans avoir à accéder à un projet, un rapport ou un tableau de bord pour créer une tâche.
+Vous pouvez désormais créer une nouvelle histoire ou un nouveau problème directement à partir du storyboard Kanban. Il est ainsi plus facile d’ajouter rapidement une nouvelle histoire sans avoir à se rendre dans un projet, un rapport ou un tableau de bord pour créer une tâche.
 
-Pour plus d’informations, voir [Ajout d’articles et de problèmes sur le panorama Kanban](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
+Pour plus d’informations, voir [Ajouter des histoires et des problèmes à partir du storyboard Kanban](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
 

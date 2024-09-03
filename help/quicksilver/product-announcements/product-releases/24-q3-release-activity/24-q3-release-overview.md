@@ -22,27 +22,27 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
 
 >[!IMPORTANT]
 >
->La version 23.3 incluait l’option permettant de faire passer votre organisation aux versions mensuelles. Par conséquent, Workfront a modifié le schéma de numérotation des versions afin de tenir compte des suivis des versions mensuelles et trimestrielles. Le premier chiffre désigne l’année, le second le mois de la version. Exemple : la version d’avril 2024 est 24.4.
+>La version 23.3 incluait l’option permettant de faire passer votre organisation aux versions mensuelles. Par conséquent, Workfront a modifié le schéma de numérotation des versions afin de tenir compte des suivis de versions mensuels et trimestriels. Le premier chiffre désigne l’année, le second le mois de la version. Exemple : la version d’avril 2024 est 24.4.
 >
->Sauf indication contraire, les versions mensuelles et trimestrielles sont prévues pour être disponibles le jeudi de la deuxième semaine complète du mois.
+>Sauf indication contraire, la sortie des versions mensuelles et trimestrielles est prévue le jeudi de la deuxième semaine complète du mois.
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
 >| <ul><li>24.5 (16 mai 2024)</li><li>24.6 (13 juin 2024)</li><li>24.7 (18 juillet 2024)</li></ul> | <ul><li>24.7 (18 juillet 2024)</li></ul> |
 >
->Pour plus d’informations sur le processus de version rapide, consultez [Activer ou désactiver le processus de version rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Pour plus d’informations sur le processus de publication rapide, voir la section [Activer ou désactiver le processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
-## Améliorations Adobe Workfront
+## Améliorations apportées à Adobe Workfront
 
-* [Améliorations d’administration](#administrator-enhancements)
+* [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations de la gestion financière](#financial-management-enhancements)
 * [Améliorations de l’intégration](#integration-enhancements)
-* [Améliorations des projets](#project-enhancements)
-* [Améliorations de la vérification](#proofing-enhancements)
-* [Améliorations de la gestion des ressources](#resource-management-enhancements)
+* [Améliorations apportées aux projets](#project-enhancements)
+* [Améliorations apportées à la relecture](#proofing-enhancements)
+* [Amélioration apportées à la gestion des ressources.](#resource-management-enhancements)
 * [Autres améliorations](#other-enhancements)
 
-### Améliorations d’administration
+### Améliorations apportées aux administrateurs et administratrices
 
 <table>
             <col style="width: 50%;" />
@@ -54,7 +54,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -68,7 +68,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 4 juillet 2024</p>
+                                <p>Version de prévisualisation : vendredi 4 juillet 2024</p>
                             </li>
                             <li>
                                 <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
@@ -87,7 +87,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : jeudi 19 juin 2024</p>
+                                <p>Version préliminaire : jeudi 19 juin 2024</p>
                             </li>
                             <li>
                                 <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
@@ -175,7 +175,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -217,7 +217,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -234,7 +234,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 27 juin 2024</p>
+                                <p>Version préliminaire : vendredi 27 juin 2024</p>
                             </li>
                             <li>
                                 <p>Production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
@@ -245,7 +245,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
            </tbody>
         </table>
 
-### Améliorations des projets
+### Améliorations apportées aux projets
 
 <table>
             <col style="width: 50%;" />
@@ -257,7 +257,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -310,7 +310,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 21 décembre 2023</p>
+                                <p>Version de prévisualisation : 21 décembre 2023</p>
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
@@ -324,7 +324,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
            </tbody>
         </table>
 
-### Améliorations de la vérification
+### Améliorations apportées à la relecture
 
 <table>
             <col style="width: 50%;" />
@@ -336,7 +336,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -349,10 +349,10 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 4 juillet 2024</p>
+                                <p>Version de prévisualisation : vendredi 4 juillet 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production pour l’ensemble des clientes et des clients : vendredi 4 juillet 2024</span></p>
+                                <p><span class="preview">Production pour tous les clients : 4 juillet 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -360,7 +360,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
            </tbody>
         </table>
 
-### Améliorations de la gestion des ressources
+### Amélioration apportées à la gestion des ressources.
 
 <table>
             <col style="width: 50%;" />
@@ -372,7 +372,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -408,7 +408,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -434,7 +434,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 20 juin 2024</p>
+                                <p>Version préliminaire : vendredi 20 juin 2024</p>
                             </li>
                             <li>
                                 <p>Production pour des clients spécifiés : avec la version 24.7 (18 juillet 2024)</p>
@@ -507,15 +507,15 @@ Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en producti
 
 ### Améliorations du planificateur de scénarios Workfront
 
-Aucune mise à jour du planificateur de scénario n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+Il n’y a pas de mise à jour du planificateur de scénarios à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
-### Améliorations de l’épreuve Workfront
+### Améliorations de Workfront Proof
 
-Aucune mise à jour de l’épreuve Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+Il n’y a pas de mise à jour de Workfront Proof à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
 ### Améliorations des Objectifs Workfront
 
-Aucune mise à jour des Objectifs Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+Il n’y a pas de mise à jour des Objectifs Workfront à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
 ### API version 18
 
@@ -523,12 +523,12 @@ Pour l’API version 18, nous avons modifié certaines ressources et points d�
 
 Pour plus d’informations sur les nouveautés et les mises à jour, consultez les [Nouveautés de l’API version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
-Pour plus d’informations sur les versions d’API, consultez [Contrôle de version des API et planification de la prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Pour plus d’informations sur les versions de l’API, voir [Calendrier des versions et de la prise en charge de l’API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées au cours de la version du troisième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées au cours de la version du troisième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-### Mises à jour de formation
+### Mise à jour des formations
 
-Découvrez les dernières mises à jour apportées aux programmes de formation, aux parcours de formation, aux vidéos et aux guides de chaque version de produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).

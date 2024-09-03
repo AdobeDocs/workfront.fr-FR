@@ -3,7 +3,7 @@ title: Création ou personnalisation des gravité de problème
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-description: Vos utilisateurs peuvent utiliser des statistiques pour définir la gravité d’un problème. Vous pouvez personnaliser l’une des cinq gravité par défaut d’Adobe Workfront ou créer une nouvelle gravité pour vos utilisateurs.
+description: Vos utilisateurs et utilisatrices peuvent utiliser des gravités pour définir la sévérité d’un problème. Vous pouvez personnaliser l’une des cinq gravités par défaut d’Adobe Workfront ou créer une gravité pour vos utilisateurs et utilisatrices.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,11 +11,11 @@ exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
 source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 17%
+ht-degree: 99%
 
 ---
 
-# Créer ou personnaliser les gravités des problèmes
+# Créer ou personnaliser la gravité des problèmes
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -23,42 +23,42 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 Linked to Understanding Issue Severity.
 -->
 
-Vos utilisateurs peuvent utiliser des statistiques pour définir la gravité d’un problème. Vous pouvez personnaliser l’une des cinq gravité par défaut d’Adobe Workfront ou créer une nouvelle gravité pour vos utilisateurs.
+Vos utilisateurs et utilisatrices peuvent utiliser des gravités pour définir la sévérité d’un problème. Vous pouvez personnaliser l’une des cinq gravités par défaut d’Adobe Workfront ou créer une gravité pour vos utilisateurs et utilisatrices.
 
 >[!NOTE]
 >
->Les tâches et les projets n’ont pas de gravité.
+>Les tâches et les projets ne disposent pas de cette option.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Séparations des problèmes intégrés
+## Gravités des problèmes intégrées
 
-Workfront comporte cinq ruptures de problème intégrées :
+Workfront comporte cinq gravités de problème intégrées :
 
 * Décoratif
 * Cause de la confusion
@@ -66,18 +66,18 @@ Workfront comporte cinq ruptures de problème intégrées :
 * Bogue sans solution
 * Erreur fatale
 
-<p>Vous pouvez modifier les éléments suivants pour ces gravité :</p>
+<p>Vous pouvez modifier les éléments suivants pour ces gravités :</p>
 
 * Nom
 * Couleur
 
-  La couleur d’une gravité est conservée dans un rapport graphique si vous regroupez vos résultats par gravité de problème. Pour plus d’informations sur les rapports de graphique, voir [Ajout d’un graphique à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  La couleur d’une gravité est conservée dans un rapport graphique si vous regroupez vos résultats par gravité de problème. Pour plus d’informations sur les rapports sous forme de graphiques, voir [Ajouter un graphique à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-* Quelle gravité est la valeur par défaut ?
+* Gravité par défaut
 
-  Pour plus d’informations sur les gravité par défaut, voir [Création ou modification d’une gravité de problème](#create-or-edit-an-issue-severity) dans cet article.
+  Pour plus d’informations sur les gravités par défaut, voir [Créer ou modifier une gravité de problème](#create-or-edit-an-issue-severity) dans cet article.
 * Description
-* Si une gravité est masquée dans Workfront
+* Gravité masquée ou non dans Workfront
 
   Pour plus d’informations sur le masquage d’une gravité, voir [Créer ou modifier une gravité de problème](#create-or-edit-an-issue-severity")
 
@@ -85,16 +85,16 @@ Workfront comporte cinq ruptures de problème intégrées :
 
   Pour ce faire, vous devez sélectionner une gravité de remplacement.
 
-## Création ou modification d’une gravité de problème {#create-or-edit-an-issue-severity}
+## Créer ou modifier une gravité de problème {#create-or-edit-an-issue-severity}
 
-En tant qu’administrateur de Workfront, vous pouvez créer et modifier des statistiques de problèmes en fonction des besoins de vos utilisateurs.
+En tant qu’administrateur ou administratrice de Workfront, vous pouvez créer et modifier des gravités de problème en fonction des besoins de vos utilisateurs et utilisatrices.
 
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Préférences du projet** > **Gravités**.
 
-1. Si vous créez une nouvelle gravité, cliquez sur **Ajouter une nouvelle gravité**.
-1. Configurez les options suivantes pour la nouvelle gravité ou modifiez-les pour une autre :
+1. Si vous créez une gravité, cliquez sur **Ajouter une nouvelle gravité**.
+1. Configurez les options suivantes pour la nouvelle gravité ou modifiez-les pour une gravité existante :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -102,22 +102,22 @@ En tant qu’administrateur de Workfront, vous pouvez créer et modifier des sta
     <tbody> 
      <tr> 
       <td role="rowheader">Nom de la gravité</td> 
-      <td>Saisissez le nom de la gravité.</td> 
+      <td>Saisir le nom de la gravité</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Importance</td> 
-      <td>Augmenter ou diminuer le niveau de gravité, initialement attribué par Workfront, pour la gravité.
-      <p>Le numéro d'importance pour chaque gravité doit être unique. Le nombre le plus élevé correspond au niveau de gravité le plus élevé.</p> <p>Vous ne pouvez pas modifier ce nombre après avoir enregistré la gravité.</p> </td> 
+      <td>Augmentez ou diminuez le degré de sévérité, initialement attribué par Workfront, pour la gravité.
+      <p>Le numéro d’importance pour chaque gravité doit être unique. Le nombre le plus élevé correspond au niveau de gravité le plus sévère.</p> <p>Vous ne pouvez pas modifier ce nombre après avoir enregistré la gravité.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Couleur</td> 
       <td> <p>Choisissez une couleur pour la gravité.</p> 
-      <p>La couleur de la gravité est utilisée dans les rapports graphiques lorsque vous regroupez vos résultats par gravité de problème. Pour plus d’informations sur les rapports de graphique, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Ajout d’un graphique à un rapport</a>.</p> </td> 
+      <p>La couleur de la gravité est utilisée dans les rapports graphiques lorsque vous regroupez vos résultats par gravité de problème. Pour plus d’informations sur les rapports sous forme de graphique, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Ajouter un graphique à un rapport</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gravité par défaut</td> 
-      <td>Sélectionnez la gravité que vous souhaitez que Workfront sélectionne automatiquement tous les problèmes nouvellement créés.</p>
-      <p>La mesure est la gravité par défaut des problèmes dans Workfront.</p></td> 
+      <td>Sélectionnez la gravité que vous souhaitez que Workfront sélectionne automatiquement pour tous les problèmes nouvellement créés.</p>
+      <p>Décoratif est la gravité par défaut des problèmes dans Workfront.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
@@ -126,16 +126,16 @@ En tant qu’administrateur de Workfront, vous pouvez créer et modifier des sta
      <tr> 
       <td role="rowheader">Masquer</td> 
       <td> Masquez une gravité qui n’est plus nécessaire. 
-      <p>Une gravité masquée ne s’affiche nulle part dans Workfront, de sorte que les utilisateurs ne peuvent pas la choisir pour leurs problèmes.</p> 
-      <p><b>IMPORTANT</b> : au lieu de supprimer des statistiques que vous ne souhaitez plus utiliser, nous vous suggérons de les masquer. Ainsi, vous conservez toutes vos données historiques sur les objets déjà atteints avec la gravité, tout en empêchant les personnes d’utiliser la gravité à l’avenir.</p> </td> 
+      <p>Une gravité masquée ne s’affiche nulle part dans Workfront, de sorte que les utilisateurs et utilisatrices ne peuvent pas la choisir pour leurs problèmes.</p> 
+      <p><b>IMPORTANT</b> : au lieu de supprimer les gravités que vous ne souhaitez plus utiliser, nous vous suggérons de les masquer. De cette façon, vous conservez toutes vos données historiques sur les objets déjà terminés avec leurs gravités, tout en empêchant les personnes d’utiliser ces gravités à l’avenir.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Facultatif) Modifiez l’ordre de classement de vos statistiques en les faisant glisser et en les déposant dans l’ordre souhaité.
+1. (Facultatif) Modifiez l’ordre de classement de vos gravités en les faisant glisser et en les déposant dans l’ordre souhaité.
 
-   Cela modifie l’ordre dans lequel ils s’affichent pour les problèmes. Il ne modifie pas le numéro **Importance**.
+   Cela modifie l’ordre dans lequel elles s’affichent pour les problèmes. Cela ne modifie pas le numéro d’**Importance**.
 
 1. Cliquer sur **Enregistrer**.
 
-Pour plus d’informations sur l’utilisation des gravité lors de l’utilisation des problèmes, voir [Mise à jour de la gravité des problèmes](../../../manage-work/issues/issue-information/update-issue-severity.md).
+Pour plus d’informations sur l’utilisation des gravités dans le cadre du travail sur les problèmes, consultez la section [Mettre à jour les gravités des problèmes](../../../manage-work/issues/issue-information/update-issue-severity.md).

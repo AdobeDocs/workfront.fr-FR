@@ -134,7 +134,7 @@ Vous trouverez ci-dessous des modèles d’espaces de travail dans Workfront Pl
       * **Cas d’utilisation** : 7 champs
       * **Étapes du Parcours client** : 3 champs
 
-* **Gestion des ventes** : vous pouvez créer un système de vente complet qui simplifie vos processus de vente et améliore votre efficacité. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
+* **Gestion des ventes** : vous pouvez créer un système de vente complet qui rationalise votre processus de vente et améliore l’efficacité. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
 
    * Types d&#39;enregistrement opérationnel :
 
@@ -151,7 +151,7 @@ Vous trouverez ci-dessous des modèles d’espaces de travail dans Workfront Pl
       * **Produit/service** : 1 champ
       * **Concurrence** : 1 champ
 
-* **Gestion des produits** : vous pouvez créer un processus de gestion des produits efficace et structuré à l’aide de ce modèle. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
+* **Gestion des produits** : ce modèle vous permet de créer un processus de gestion des produits efficace et structuré. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
 
    * Types d&#39;enregistrement opérationnel :
 

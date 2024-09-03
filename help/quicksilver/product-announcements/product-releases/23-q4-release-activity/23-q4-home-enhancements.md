@@ -1,6 +1,6 @@
 ---
-title: Améliorations de la page d’accueil du quatrième trimestre 2023
-description: Améliorations de la page d’accueil du quatrième trimestre 2023
+title: Améliorations apportées à la page d’accueil (quatrième trimestre 2023)
+description: Améliorations apportées à la page d’accueil (quatrième trimestre 2023)
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -8,66 +8,66 @@ exl-id: f69cbb95-e7fe-4f8f-a7e7-7693c968e76c
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Améliorations de la page d’accueil du quatrième trimestre 2023
+# Améliorations apportées à la page d’accueil (quatrième trimestre 2023)
 
-Cette page décrit toutes les améliorations apportées à l’accueil de la version du quatrième trimestre 2023 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production avec la version 23.10.
+Cette page décrit toutes les améliorations apportées à la page d’accueil par la version du quatrième trimestre 2023 dans l’environnement de prévisualisation. Ces améliorations ont été apportées à l’environnement de production avec la version 23.10.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2023, consultez la [présentation de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2023, voir [Vue d’ensemble de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
-## Bouton Déléguer le travail pour les widgets Projet, Tâche et Problème
+## Bouton de délégation du travail pour les widgets Projet, Tâche et Problème
 
-Fonctionnalité fréquemment demandée de l’ancienne page d’accueil, nous avons maintenant ajouté un bouton délégué aux widgets Mon travail, Mes tâches et Mes problèmes afin que vous puissiez facilement déléguer du travail lorsque vous êtes absent du bureau. Dans le menu délégué, qui fonctionne de la même manière qu’avant le nouvel accueil, vous pouvez sélectionner à qui et pendant combien de temps vous souhaitez déléguer vos articles et problèmes. Notez que la délégation de travail doit être activée dans votre environnement Workfront pour que le bouton s’affiche.
+Conformément à vos demandes, un bouton « Déléguer » a été ajouté aux widgets « Mon travail », « Mes tâches » et « Mes problèmes » pour faciliter la délégation en cas d’absence du bureau. Dans le menu Déléguer, qui fonctionne de la même manière qu’avant la nouvelle page d’accueil, vous pouvez choisir à qui et pour combien de temps vous souhaitez déléguer vos histoires et vos problèmes. Notez que la délégation de travail doit être activée dans votre environnement Workfront pour que le bouton apparaisse.
 
-Pour plus d’informations sur la délégation dans Workfront, voir [Gérer la délégation de tâche et de problème](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md).
+Pour plus d’informations sur la délégation dans Workfront, voir [Gérer la délégation des tâches et des problèmes](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md).
 
-## Nouveau widget Panoramas pour la nouvelle page d’accueil
+## Nouveau widget Panoramas dans la nouvelle page d’accueil
 
-En plus des options de gestion du travail disponibles dans la nouvelle page d’accueil, vous pouvez désormais afficher un panorama sur votre page d’accueil. Le widget Panoramas vous permet d’afficher un panorama existant ou d’en créer un tout nouveau dans le widget. Vous pouvez ensuite utiliser toutes les fonctionnalités de votre panorama (créer et déplacer des cartes, ajouter des colonnes, etc.) sans quitter votre page d’accueil.
+Les options de gestion du travail disponibles dans la nouvelle page d’accueil s’enrichissent d’une nouveauté majeure : vous pouvez désormais afficher un panorama dans votre page d’accueil. À l’aide du widget Panoramas, vous pouvez choisir d’afficher un panorama existant ou d’en créer un dans le widget. Vous êtes ensuite libre d’utiliser toutes les fonctionnalités de votre panorama - créer et déplacer des cartes, ajouter des colonnes, etc. - sans quitter votre page d’accueil.
 
-Pour plus d’informations sur les widgets disponibles dans Nouvelle page d’accueil, voir [Prise en main de la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations sur les widgets disponibles dans la nouvelle page d’accueil, voir [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Nouvelle page d’entrée par défaut du contributeur : Nouvelle page d’accueil
+## Nouvelle page de destination par défaut du contributeur ou de la contributrice : nouvelle page d’accueil
 
-La nouvelle page d’accueil est désormais la page d’entrée par défaut des comptes du contributeur/demandeur. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécifiquement sélectionnés pour permettre aux contributeurs de gérer leur travail immédiatement. Lors de leur première visite sur la page, les contributeurs seront également invités à utiliser la nouvelle page d’accueil et les widgets spécifiques disponibles par défaut dans une présentation pas à pas personnalisée. Ces widgets par défaut pour les contributeurs sont les suivants : Mes requêtes, Mentions, En attente de mon approbation et Panoramas. Notez que si une mise en page avec une page d’accueil personnalisée est actuellement utilisée par un compte de contributeur, elle reste sa page d’accueil.
+La nouvelle page d’accueil est désormais la page de destination par défaut pour les comptes des personnes qui contribuent ou émettent des requêtes. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécialement sélectionnés pour permettre aux contributeurs et aux contributrices de gérer leur travail immédiatement. Lors de leur première visite sur la page, les contributeurs et contributrices recevront également des instructions sur l’utilisation de la nouvelle page d’accueil et des widgets spécifiques disponibles par défaut dans le cadre d’une présentation personnalisée. Les widgets par défaut pour les contributeurs et les contributrices sont les suivants : Mes demandes, Mentions, En attente de mon approbation et Panoramas. Notez que si une disposition avec une page d’accueil personnalisée est actuellement utilisée par un compte de contributeur ou de contributrice, elle restera sa page d’accueil.
 
-Pour plus d’informations sur l’utilisation de la nouvelle page d’accueil, voir [Prise en main de la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations sur l’utilisation de la nouvelle page d’accueil, voir [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Modifications du suivi de travail dans la nouvelle page d’accueil
+## Changements dans le suivi du travail dans la nouvelle page d’accueil
 
-En fonction des commentaires des utilisateurs, nous avons supprimé le filtre de période et la barre de résumé à l’échelle de la page qui traitaient les tâches en retard et terminées. Les widgets Projet, Tâche et Problème contiennent chacun des fonctionnalités de filtrage intégrées qui vous permettent de personnaliser leur portée individuellement. En outre, ces widgets incluent désormais uniquement le contenu actuellement actif en fonction de l’état, en s’assurant que le travail qu’ils effectuent est toujours pertinent. Nous avons également limité les widgets qui affichent les bulles de nombre d’éléments à ceux qui les plus utiles : Mon travail, Mentions, En attente de mon approbation et Tâches.
+Pour répondre aux commentaires des utilisateurs et des utilisatrices,le filtre de période à l’échelle de la page et la barre de résumé des tâches dues et terminées ont été supprimés. Les widgets Projet, Tâche et Problème sont tous dotés de fonctions de filtrage intégrées qui vous permettent de personnaliser leur portée au cas par cas. En outre, ces widgets n’incluront désormais que le contenu actuellement actif en fonction du statut, ce qui garantit que le travail qu’ils suivent est toujours pertinent. Nous avons également limité les widgets qui affichent des bulles de décompte d’éléments à ceux où cela est le plus utile : Mon travail, Mentions, En attente de mon approbation et À faire.
 
-Pour plus d’informations sur le suivi du travail dans New Home, voir [Prise en main de New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations sur le suivi du travail dans la nouvelle page d’accueil, voir [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Nouveaux boutons d’action rapide pour le widget Mon travail
 
-Afin d’étendre davantage votre capacité à gérer le travail directement à partir de la nouvelle page d’accueil, de nouveaux boutons d’action rapide ont été ajoutés au widget Mon travail. Ces nouveaux boutons situés sur chaque projet, tâche, problème ou requête dans le widget vous permettent d’ouvrir rapidement le volet de résumé, de charger des fichiers, de modifier des formulaires personnalisés, de créer une mise à jour et de consigner le temps sans quitter votre page d’accueil, ainsi qu’un bouton Travailler dessus/Terminé plus grand.
+De nouveaux boutons d’action rapide ont été ajoutés au widget Mon travail, ce qui vous permet de gérer votre travail directement à partir de la nouvelle page d’accueil. Présents sur chaque projet, tâche, problème ou demande dans le widget, ces nouveaux boutons vous permettent d’ouvrir rapidement le volet Résumé, de charger des fichiers, de modifier des formulaires personnalisés, de créer une mise à jour et de consigner des heures sans quitter votre page d’accueil, avec également un plus grand bouton Travailler sur ce projet/Terminé.
 
-Pour plus d’informations sur les fonctionnalités du widget dans New Home, voir [Prise en main de New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations sur les fonctionnalités des widgets dans la nouvelle page d’accueil, voir [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Nouvelles options de filtre pour la nouvelle page d’accueil
+## Nouvelles options de filtrage dans la nouvelle page d’accueil
 
-De nouvelles options de filtre sont désormais disponibles pour le widget Mon travail dans Nouvelle page d’accueil. Les options incluent des filtres pour les types d’objets (tâches, problèmes et requêtes) et les états (non prêts, prêts à démarrer, à travailler et terminés).
+De nouvelles options de filtrage sont désormais disponibles pour le widget « Mon travail » dans la nouvelle page d’accueil. Les options comprennent des filtres pour les types d’objets (tâches, problèmes et requêtes) et les statuts (non prêt, prêt à démarrer, en train de travailler sur et terminé).
 
-Pour plus d’informations sur le filtrage du contenu dans New Home, voir [Prise en main de New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations sur le filtrage de contenu dans la nouvelle page d’accueil, voir [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Prise en charge terminologique personnalisée de la nouvelle page d’accueil
+## Prise en charge de la terminologie personnalisée dans la nouvelle page d’accueil
 
-Pour mieux répondre aux besoins uniques des organisations, New Home utilise désormais une terminologie personnalisée pour les objets telle que définie dans les modèles de mise en page d’une instance. Par exemple, si des objets &quot;Projet&quot; ont été renommés &quot;Campagnes&quot; dans votre instance Workfront, le widget Mes projets s’affichera comme Mes campagnes dans Nouvelle page d’accueil.
+Pour répondre plus efficacement aux besoins spécifiques des organisations, la nouvelle page d’accueil utilise désormais une terminologie personnalisée conforme aux définitions des objets dans les modèles de mise en page d’une instance. Par exemple, si les objets « Projet » ont été renommés « Campagnes » dans votre instance Workfront, le widget « Mes projets » s’affichera à la place de « Mes campagnes » dans la nouvelle page d’accueil.
 
-Pour plus d’informations sur le contenu disponible dans la nouvelle page d’accueil, voir [Prise en main de la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations sur le contenu disponible dans la nouvelle page d’accueil, voir [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Changement du jeu de widgets par défaut Nouvelle page d’accueil
+## Passer au jeu de widgets par défaut dans la nouvelle page d’accueil
 
-Le widget Tâches, qui nécessite l’autorisation de créer des tâches, n’est désormais présent que dans le widget par défaut défini pour les utilisateurs disposant des types de licence Standard, Plan ou Work. En outre, le widget a été automatiquement supprimé des pages d’accueil des utilisateurs avec tous les autres types de licence.
+Le widget « À faire », qui nécessite une autorisation pour créer des tâches, est désormais inclus dans le jeu de widgets par défaut uniquement pour les utilisateurs et les utilisatrices disposant des types de licence Standard, Plan ou Travail. De plus, ce widget a été automatiquement supprimé des pages d’accueil des utilisateurs et des utilisatrices disposant de tous les autres types de licence.
 
-Pour plus d’informations sur les widgets disponibles dans Nouvelle page d’accueil, voir [Prise en main de la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations sur les widgets disponibles dans la nouvelle page d’accueil, voir [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Bouton Essayer une nouvelle page d’accueil supprimé pour les comptes désactivés Nouvelle page d’accueil
+## Suppression du bouton « Essayer la nouvelle page d’accueil » pour les comptes qui ont désactivé la nouvelle page d’accueil.
 
-Le bouton Essayer une nouvelle page d’accueil n’est plus présent pour les comptes pour lesquels la nouvelle page d’accueil a été désactivée. L’administrateur système doit réactiver la nouvelle page d’accueil pour que les utilisateurs puissent utiliser le bouton pour essayer la nouvelle page d’accueil.
+Le bouton « Essayer la nouvelle page d’accueil » n’est plus présent pour les comptes qui ont désactivé la nouvelle page d’accueil. Pour utiliser le bouton permettant d’essayer la nouvelle page d’accueil, les utilisateurs et les utilisatrices doivent d’abord la réactiver via l’administration système.
 
-Pour plus d’informations sur l’activation ou la désactivation de la nouvelle page d’accueil, voir [Prise en main de la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations sur l’activation ou la désactivation de la page d’accueil, voir [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

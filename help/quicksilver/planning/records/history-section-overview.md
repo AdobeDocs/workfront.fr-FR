@@ -26,7 +26,7 @@ Le panneau de droite d’un enregistrement affiche les sections suivantes :
 * **Commentaires** : affiche les commentaires et réponses ajoutées aux enregistrements. Pour plus d’informations sur la gestion des commentaires dans les enregistrements Workfront Planning, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
 * **Historique** : affiche les modifications apportées aux champs d’enregistrement et enregistrées par le système.
 
-## Localiser la section Historique d’un enregistrement
+## Rechercher la section Historique d’un enregistrement
 
 {{step1-to-planning}}
 
@@ -53,13 +53,13 @@ Vous pouvez passer en revue les modifications apportées aux champs d’enregist
 
    * Toute modification de champ
 
-   * L’ancienne et la nouvelle valeur des champs, lorsque les valeurs changent. Les anciennes valeurs s’affichent barrées.
+   * Les anciennes et nouvelles valeurs des champs, en cas de modification des valeurs. Les anciennes valeurs apparaissent barrées.
 
-   * Le nom de l’utilisateur ou de l’utilisatrice qui a procédé à la modification.
+   * Le nom complet de l’utilisateur ou de l’utilisatrice qui a effectué la modification.
 
-   * L’horodatage de la modification.
+   * La date et l’heure de la modification.
 
-* Les champs des types suivants affichent toujours l’ancienne valeur barrée et la nouvelle valeur :
+* Les champs des types suivants affichent toujours l’ancienne valeur (en caractères barrés) et la nouvelle valeur :
 
    * Texte
    * Paragraphe
@@ -69,21 +69,21 @@ Vous pouvez passer en revue les modifications apportées aux champs d’enregist
    * Pourcentage
    * Sélection unique
 
-* Les champs des types suivants affichent l’ancienne valeur barrée uniquement si au moins l’une des valeurs multiples a été supprimée :
+* Si au moins l’une des valeurs multiples a été supprimée, les champs des types suivants affichent uniquement l’ancienne valeur en caractères barrés :
 
    * Sélection multiple
-   * Champs d’enregistrement lié
+   * Champs d’enregistrement liés
    * Personnes
 
-  Si la modification ne fait qu’ajouter des valeurs au champ, l’ancienne valeur ne s’affiche pas et seule la nouvelle valeur de champ s’affiche.
+  Si la modification a consisté uniquement à ajouter des valeurs au champ, l’ancienne valeur ne s’affiche pas et seule la nouvelle valeur du champ s’affiche.
 
-* Les champs de type Case à cocher n’affichent jamais l’ancienne valeur barrée. Si le champ est modifié, seul l’état actuel au moment de la modification s’affiche.
+* Les champs de type case à cocher n’affichent jamais l’ancienne valeur en caractères barrés. Si le champ est modifié, seul l’état actuel au moment de la modification s’affiche.
 
   Pour plus d’informations sur les champs Workfront Planning, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
 * Les modifications apportées aux champs des types suivants ne s’affichent pas dans la section Historique :
 
-   * Modifier les champs (de recherche)
+   * Champs liés (de recherche)
    * Formule
    * Créé par
    * Créé le

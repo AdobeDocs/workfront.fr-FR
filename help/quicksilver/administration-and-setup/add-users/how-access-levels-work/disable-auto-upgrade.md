@@ -3,9 +3,9 @@ title: Désactivation de l’option de mise à niveau automatique pour les utili
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: access,level,system,administrator,standard,light,contributor
+keywords: accès,niveau,système,administrateur,administratrice,standard,léger,contributeur,contributrice
 navigation-topic: access-levels
-description: Chaque utilisateur doit disposer d’un niveau d’accès pour se connecter et travailler dans Workfront. Vous utilisez le niveau d’accès pour contrôler ce qu’un utilisateur peut voir et faire avec certains objets et zones Workfront.
+description: Chaque utilisateur ou utilisatrice doit disposer d’un niveau d’accès pour se connecter et travailler dans Workfront. Vous utilisez le niveau d’accès pour définir ce qu’un utilisateur ou une utilisatrice peut voir et effectuer avec certains objets et zones Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -13,53 +13,53 @@ exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
 source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 24%
+ht-degree: 94%
 
 ---
 
-# Désactiver l’option de mise à niveau automatique pour les utilisateurs et utilisatrices non payants du nouveau forfait de licence
+# Désactiver l’option de mise à niveau automatique pour les utilisateurs et utilisatrices non payants du nouveau plan de licence
 
-Les décisions concernant les BAT et les documents sont limitées pour toutes les licences Workfront non payantes sur les nouveaux plans. Lorsque les utilisateurs atteignent le nombre de décisions qui leur est alloué, ils sont mis à niveau vers une licence Light par défaut.
+Les décisions concernant les épreuves et les documents sont limitées pour toutes les licences Workfront non payantes sur les nouveaux plans. Lorsque les utilisateurs et utilisatrices atteignent leur nombre de décisions imparti, ils sont mis à niveau vers une licence Light par défaut.
 
-Vous pouvez désactiver l’option de mise à niveau automatique dans la zone de configuration. Pour en savoir plus sur le fonctionnement des mises à niveau automatiques, consultez la [présentation d&#39;un document limité et d&#39;une décision de BAT pour les utilisateurs non payants](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+Vous pouvez désactiver l’option de mise à niveau automatique dans la zone de configuration. Pour en savoir plus sur le fonctionnement des mises à niveau automatiques, voir [Vue d’ensemble du statut de décision limitée des documents et de l’épreuve pour les utilisateurs et utilisatrices non payants](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
 >[!IMPORTANT]
 >
->Une fois désactivé, tout utilisateur non payant qui passe en revue le nombre de décisions autorisé ne sera pas automatiquement mis à niveau.
+>Une fois l’option désactivée, toute personne non payante qui dépasse leur nombre de décisions imparti ne sera pas automatiquement mise à niveau.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Nouvelle formule : standard
+   <td>Nouveau plan : standard
    <p>ou</p>
-   <p>Formule actuelle : formule</p></td> 
+   <p>Plan actuel : plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Désactivation des mises à niveau automatiques pour les utilisateurs non payants
+## Désactiver des mises à niveau automatiques pour les utilisateurs et utilisatrices non payants
 
 {{step-1-to-setup}}
 
-1. Développez [!UICONTROL **Système**] dans le volet de navigation de gauche, puis cliquez sur [!UICONTROL **Préférences**].
-1. Dans la section [!UICONTROL **Préférences générales**] , cochez la case [!UICONTROL **Désactiver la mise à niveau automatique dans les niveaux d’accès**] .
+1. Développez [!UICONTROL **Système**] dans la navigation de gauche, puis cliquez sur [!UICONTROL **Préférences**].
+1. Dans la section [!UICONTROL **Préférences générales**], cochez la case [!UICONTROL **Désactiver la mise à niveau automatique dans les niveaux d’accès**].
 1. Cliquer sur [!UICONTROL **Enregistrer**].

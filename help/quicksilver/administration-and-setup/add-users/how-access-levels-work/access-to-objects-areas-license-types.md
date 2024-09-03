@@ -16,7 +16,7 @@ ht-degree: 97%
 
 ---
 
-# Accéder aux objets et aux zones par de nouvelles licences
+# Accéder aux objets et aux zones avec de nouvelles licences
 
 <!-- Audited: 2/2024 -->
 
@@ -64,16 +64,14 @@ Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou 
         <td>Modifier</td>
         <td>Afficher</td>
         <td>Afficher</td>
-        <td>Pas d’accès
-</td>
+        <td>Pas d’accès</td>
     </tr>
     <tr>
         <td>Programmes</td>
         <td>Modifier</td>
         <td>Afficher</td>
         <td>Afficher</td>
-        <td>Pas d’accès
-</td>
+        <td>Pas d’accès</td>
     </tr>
     <tr>
         <td>Rapports, tableaux de bord et calendriers</td>
@@ -147,11 +145,11 @@ Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou 
     </tr>
 </table>
 
-&#42; Les personnes disposant d’une licence Contributeur ou contributrice ne peuvent consulter que les rapports, les tableaux de bord et les calendriers qui sont partagés avec elles.
+&#42; Les personnes disposant d’une licence Contributeur ne peuvent consulter que les rapports, les tableaux de bord et les calendriers qui sont partagés avec elles.
 
 >[!NOTE]
 >
->Les personnes disposant d’une licence Light ou d’une licence Contributeur ou contributrice ont des capacités de partage limitées. Pour plus d’informations, consultez [Vue d’ensemble des licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>Les personnes disposant d’une licence Light ou d’une licence Contributeur des capacités de partage limitées. Pour plus d’informations, voir [Vue d’ensemble des licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 >
 >Les utilisateurs et utilisatrices externes ne peuvent pas rechercher des éléments dans Workfront. Ces personnes peuvent consulter les documents et les calendriers qui sont spécifiquement partagés avec elles. Elles peuvent également voir les utilisateurs et utilisatrices qui partagent des éléments avec elles.
 

@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Mapper les attributs d'utilisateur
-description: Grâce à l’authentification unique (SSO), vous pouvez transmettre des attributs de l’Active Directory de votre fournisseur d’identité à vos utilisateurs et utilisatrices Adobe Workfront.
+description: Grâce à l’authentification unique (SSO), vous pouvez transmettre des attributs de l’Active Directory de votre fournisseur d’identité à vos utilisateurs et utilisatrices Adobe Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -16,38 +16,38 @@ ht-degree: 100%
 
 ---
 
-# Mapper les attributs d’utilisateurs et d’utilisatrices
+# Mapper les attributs utilisateur
 
 <!--Audited 2/2024-->
 
-Grâce à l’authentification unique (SSO), vous pouvez transmettre des attributs de l’Active Directory de votre fournisseur d’identité à vos utilisateurs et utilisatrices Adobe Workfront.
+Grâce à l’authentification unique (SSO), vous pouvez transmettre des attributs de l’Active Directory de votre fournisseur d’identité à vos utilisateurs et utilisatrices Adobe Workfront.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouvelle : standard</p><p>Ou</p><p>Actuelle : formule</p></td> 
+   <td><p>Nouveau : Standard</p><p>Ou</p><p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,25 +61,25 @@ Tenez compte des points suivants lors du mappage des attributs :
 
   Exemple : si vous mappez le « nom » et que vous mettez à jour son nom dans Workfront sans mettre à jour la valeur dans son fournisseur d’identité, le nom sera écrasé pour correspondre à la valeur du fournisseur d’identité la prochaine fois que l’utilisateur ou l’utilisatrice se connectera.
 
-## Mapper les attributs utilisateur et utilisatrice pour votre entreprise
+## Mapper les attributs utilisateur pour votre organisation
 
-La procédure de mappage des attributs diffère selon que votre entreprise utilise ou non Adobe Unified Experience.
+La procédure de mappage des attributs diffère selon que votre organisation utilise ou non Adobe Unified Experience.
 
-Pour déterminer si votre entreprise est sur Adobe Unified Experience, examinez l’URL que vous utilisez pour accéder à Workfront.
+Pour déterminer si votre organisation est sur Adobe Unified Experience, examinez l’URL que vous utilisez pour accéder à Workfront.
 
 | URL | Adobe Experience |
 |---|---|
 | (Nom de l’entreprise).my.workfront.com | Expérience Classic |
 | experience.adobe.com | Adobe Unified Experience |
 
-* [Mapper les attributs utilisateur et utilisatrice dans l’expérience Classic](#map-user-attributes-in-the-classic-experience)
-* [Mapper les attributs utilisateur et utilisatrice dans Adobe Unified Experience](#map-user-attributes-in-the-adobe-unified-experience)
+* [Mapper les attributs utilisateur dans l’expérience Classic](#map-user-attributes-in-the-classic-experience)
+* [Mapper les attributs utilisateur dans Adobe Unified Experience](#map-user-attributes-in-the-adobe-unified-experience)
 
-### Mapper les attributs utilisateur et utilisatrice dans l’expérience Classic
+### Mapper les attributs utilisateur dans l’expérience Classic
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal**![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Système** > **Authentification unique (SSO)**.
+1. Cliquez sur **Système** > **Authentification unique (SSO)**.
 
 1. Dans le menu déroulant **Type**, cliquez sur **SAML 2.0**.
 
@@ -91,7 +91,7 @@ Pour déterminer si votre entreprise est sur Adobe Unified Experience, examine
 
    Vous pouvez mapper des attributs tels que l’adresse, la personne gestionnaire, la fonction, le groupe principal, etc.
 
-   Les mappages d’attributs fonctionnent selon un rapport 1:1. Par exemple, vous ne pouvez pas définir tous les groupes auxquels appartient un utilisateur ou une utilisatrice ; vous ne pouvez en définir qu’un seul par utilisateur ou utilisatrice.
+   Les mappages d’attributs fonctionnent selon un rapport 1:1. Par exemple, vous ne pouvez pas définir tous les groupes auxquels appartient un utilisateur ou une utilisatrice ; vous ne pouvez en définir qu’un seul par utilisateur ou utilisatrice.
 
    >[!IMPORTANT]
    >
@@ -109,11 +109,11 @@ Pour déterminer si votre entreprise est sur Adobe Unified Experience, examine
      </tr> 
      <tr> 
       <td role="rowheader">Attribut de répertoire</td> 
-      <td>Saisissez le libellé de l’attribut SSO que vous souhaitez utiliser.</td> 
+      <td>Saisissez le libellé de l’attribut SSO que vous souhaitez utiliser.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Valeur par défaut</td> 
-      <td> <p>Après avoir choisi un attribut utilisateur et utilisatrice Workfront, si la valeur est NULL lors de la connexion, ce champ se remplit avec la valeur par défaut correspondante dans le système. Ne saisissez une valeur ici que si vous prévoyez d’appliquer des règles de mappage d’attributs (voir l’étape 7). La valeur par défaut constitue une exception à ces règles.</td> 
+      <td> <p>Après avoir choisi un attribut utilisateur Workfront, si la valeur est NULL lors de la connexion, ce champ se remplit avec la valeur par défaut correspondante dans le système. Ne saisissez une valeur ici que si vous prévoyez d’appliquer des règles de mappage d’attributs (voir l’étape 7). La valeur par défaut constitue une exception à ces règles.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -127,18 +127,18 @@ Pour déterminer si votre entreprise est sur Adobe Unified Experience, examine
 
    Vous pouvez cliquer sur **Ajouter une règle** pour ajouter d’autres règles à l’attribut.
 
-1. (Facultatif) Pour mapper d’autres attributs utilisateur et utilisatrice, cliquez sur **Ajouter un mappage** et répétez les étapes 6 et 7.
+1. (Facultatif) Pour mapper d’autres attributs utilisateur, cliquez sur **Ajouter un mappage** et répétez les étapes 6 à 7.
 1. Cliquer sur **Enregistrer**.
 
-### Mapper les attributs utilisateur et utilisatrice dans Adobe Unified Experience
+### Mapper les attributs utilisateur dans Adobe Unified Experience
 
 1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-left.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Système** > **Authentification unique (SSO)**.
+1. Cliquez sur **Système** > **Authentification unique (SSO)**.
 
 1. Sélectionnez l’onglet **Adobe**.
 
-1. (Facultatif et conditionnel) Si votre entreprise a configuré le mappage d’attributs dans l’expérience Classic et que vous souhaitez le copier dans Adobe Unified Experience, cliquez sur Migrer les mappages. **** Vous pouvez ensuite ignorer, supprimer ou modifier ces mappages.
+1. (Facultatif et le cas échéant) Si votre entreprise a configuré le mappage d’attributs dans l’expérience Classic et que vous souhaitez le copier dans Adobe Unified Experience, cliquez sur **Migrer les mappages**. Vous pouvez ensuite ignorer, supprimer ou modifier ces mappages.
 
    >[!NOTE]
    >
@@ -150,7 +150,7 @@ Pour déterminer si votre entreprise est sur Adobe Unified Experience, examine
 
 1. (Facultatif) Si vous souhaitez créer plusieurs règles pour un champ donné, cliquez sur la flèche située à côté de **Toujours** et sélectionnez l’opérateur que la règle doit utiliser.
 
-1. (Conditionnel) Si vous avez sélectionné un opérateur autre que Toujours, sélectionnez le champ Workfront et la valeur auxquels l’opérateur s’applique.
+1. (Le cas échéant) Si vous avez sélectionné un opérateur autre que Toujours, sélectionnez le champ Workfront et la valeur auxquels l’opérateur s’applique.
 
    >[!NOTE]
    >
@@ -160,7 +160,7 @@ Pour déterminer si votre entreprise est sur Adobe Unified Experience, examine
 
 1. Saisissez le nom du champ du gestionnaire d’identité que vous souhaitez appliquer ou saisissez le texte de la valeur constante que vous souhaitez appliquer.
 
-1. (Facultatif) Pour ajouter d’autres règles au même champ Workfront, cliquez sur **Ajouter une nouvelle règle**, et suivez les étapes 4 à 9.
+1. (Facultatif) Pour ajouter d’autres règles au même champ Workfront, cliquez sur **Ajouter une nouvelle règle**, et suivez les étapes 4 à 9.
 
    >[!IMPORTANT]
    >

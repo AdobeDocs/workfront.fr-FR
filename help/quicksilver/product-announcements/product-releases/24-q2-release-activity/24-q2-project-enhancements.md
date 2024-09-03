@@ -1,6 +1,6 @@
 ---
-title: Améliorations du projet au deuxième trimestre 2024
-description: Améliorations du projet au deuxième trimestre 2024
+title: Améliorations apportées aux projets au deuxième trimestre 2024
+description: Améliorations apportées aux projets au deuxième trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -12,28 +12,28 @@ ht-degree: 86%
 
 ---
 
-# Améliorations du projet au deuxième trimestre 2024
+# Améliorations apportées aux projets au deuxième trimestre 2024
 
-Cette page décrit toutes les améliorations apportées aux projets dans l’environnement de prévisualisation par la version du deuxième trimestre 2024. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
+Cette page décrit toutes les améliorations apportées aux projets dans la version du deuxième trimestre 2024 de l’environnement de prévisualisation. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2024, consultez l’article [Vue d’ensemble de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2024, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 
-## Affectations plus pertinentes ajoutées au workflow Nouvelle tâche
+## Affectations les plus pertinentes ajoutées au workflow de la nouvelle tâche
 
 >[!NOTE]
 >
 >Aperçu de la version : 13 février 2024 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024) ; Version de production pour tous les clients : avec la version 24.10 (octobre 2024).
 
-Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans les zones suivantes :
+Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ d’affectations dans les zones suivantes :
 
-* La boîte Nouvelle tâche lors de l’ajout d’une tâche à un projet
+* la zone de la nouvelle tâche lors de l’ajout d’une tâche à un projet.
 
-* Une liste de tâches de projet
+* une liste de tâches de projet.
 
-Pour plus d’informations, consultez la [Vue d’ensemble des affectations intelligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Pour en savoir plus, consultez la section [Vue d’ensemble des affectations intelligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
-## Affectations intelligentes plus pertinentes
+## Affectations intelligentes les plus pertinentes
 
 >[!NOTE]
 >
@@ -41,18 +41,18 @@ Pour plus d’informations, consultez la [Vue d’ensemble des affectations inte
 
 Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.
 
-Désormais, l’algorithme examine les informations suivantes lorsqu’il suggère des affectations intelligentes :
+Désormais, l’algorithme prend en compte les informations suivantes lorsqu’il propose des affectations intelligentes :
 
-* Similarités entre les noms des tâches, des projets et des portfolios.
+* les similarités entre les noms des tâches, des projets et des portfolios.
 
-* Fréquence d’affectation à une tâche dont le nom est similaire.
+* Fréquence à laquelle une affectation est effectuée pour une tâche portant un nom similaire.
 
 Si le nouvel algorithme ne trouve aucune correspondance, les critères existants de calcul des affectations intelligentes sont appliqués.
 
 Tenez également compte des points suivants :
 
-* Le nom de la liste des affectations intelligentes « Voici quelques suggestions » a été remplacé par «Affectations suggérées » dans la liste des tâches.
+* Le nom de la liste des affectations intelligentes dans une liste de tâches a changé, passant de « Voici quelques suggestions » à « Affectations suggérées ».
 
-* Il n’y a aucune modification dans le mode de calcul des affectations intelligentes pour les problèmes. Le nom de la liste des affectations intelligentes dans une liste de problèmes est «Voici quelques recommandations ».
+* Aucune modification n’a été apportée à la manière dont les affectations intelligentes sont calculées pour les problèmes. Le nom de la liste des affectations intelligentes dans une liste des problèmes est « Voici quelques recommandations ».
 
-Pour plus d’informations, consultez [Vue d’ensemble des affectations intelligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Pour en savoir plus, consultez [Vue d’ensemble des affectations intelligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).

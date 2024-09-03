@@ -9,7 +9,7 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
@@ -42,7 +42,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -53,7 +53,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -77,7 +77,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations de gestion d’une vue</p>  
+   <td>   <p>Gérer les autorisations pour une vue</p>  
    <p>Afficher les autorisations d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
   </tr> 
 <tr> 
@@ -87,7 +87,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -177,10 +177,10 @@ Pour gérer une vue de calendrier :
 
    * Cliquez sur les icônes de gauche et de droite ou utilisez le défilement horizontal pour passer d’un calendrier à l’autre.
    * Cliquez sur **Aujourd’hui** pour centrer le calendrier sur la date d’aujourd’hui.
-   * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
+   * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
 
       * Mois
-1. Mettez à jour les éléments de vue suivants comme décrit dans les sous-sections ci-dessous :
+1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
    * [Paramètres](#edit-the-calendar-view-settings)
      <!--* [Grouping](#add-grouping)-->
@@ -188,7 +188,7 @@ Pour gérer une vue de calendrier :
 
 ### Ajouter des filtres
 
-Tirez part ides filtres pour réduire la quantité d’informations affichées à l’écran.
+Vous pouvez réduire la quantité d’informations affichées à l’écran en utilisant des filtres.
 
 Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue Calendrier :
 
@@ -202,11 +202,11 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue C
 
 * Vous ne pouvez pas nommer les filtres que vous créez pour une vue Calendrier.
 
-* La suppression d’un filtre le supprime pour toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
+* En supprimant les filtres, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
 
 * L’ajout de filtres dans la vue Calendrier est identique à l’ajout de filtres dans la vue Tableau.
 
-  Pour plus d’informations, consultez la section « Ajouter des filtres » de l’article [Gérer la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Pour plus d’informations, consultez la section « Ajout de filtres » dans l’article [Gestion de la vue tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 * Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté.
 

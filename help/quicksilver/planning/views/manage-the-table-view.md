@@ -42,7 +42,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -53,7 +53,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -77,7 +77,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations de gestion d’une vue</p>  
+   <td>   <p>Gérer les autorisations pour une vue</p>  
    <p>Afficher les autorisations d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
   </tr> 
 <tr> 
@@ -87,7 +87,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -157,13 +157,13 @@ Vous ne pouvez modifier les informations d’enregistrement que dans la vue de t
 
 Pour plus d’informations sur la modification des enregistrements dans la vue de table, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
-## Gérer une vue de tableau {#manage-a-table-view}
+## Gérer une vue tableau {#manage-a-table-view}
 
 <!--insert screen shot of table view-->
 
-Lors de la création d&#39;une vue de tableau, tous les enregistrements du type sélectionné s’affichent dans un tableau. Chaque ligne est un enregistrement unique et chaque colonne est un champ d’enregistrement. Tous les champs et tous les enregistrements s’affichent par défaut.
+Lors de la création d’une vue tableau, tous les enregistrements du type sélectionné s’affichent dans un tableau. Chaque ligne est un enregistrement unique et chaque colonne est un champ d’enregistrement. Tous les champs et tous les enregistrements s’affichent par défaut.
 
-Pour gérer une vue de tableau, procédez comme suit :
+Pour gérer une vue tableau :
 
 1. Créez une vue de tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
@@ -179,7 +179,7 @@ Pour gérer une vue de tableau, procédez comme suit :
    * [Lignes (ou enregistrements)](#add-rows-or-records)
    * [Filtres](#add-filters)
    * [Regroupement ](#add-groupings)
-   * [Tri](#add-a-sort)
+   * [Trier](#add-a-sort)
    * [Activer l’indicateur de présence en temps réel](#enable-the-real-time-presence-indicator)
 
 
@@ -191,7 +191,7 @@ Les en-têtes de colonne d’une vue de tableau affichent les champs associés a
 
 L’ajout de colonnes à une vue est identique à l’ajout de champs à un type d’enregistrement.
 
-Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
+Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
 1. Accédez à une page de type enregistrement et cliquez sur un onglet de vue de table, ou cliquez sur **+ Afficher** pour ajouter une nouvelle vue, puis sélectionnez **Tableau**.
 
@@ -201,55 +201,55 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau
 
 1. Pour réorganiser les colonnes du tableau, effectuez l’une des opérations suivantes :
 
-   * Faites glisser l’en-tête de colonne et déposez-le à l’emplacement souhaité. La colonne que vous avez déplacée s’affiche brièvement avec un arrière-plan bleu jusqu’à ce que vous apportiez d’autres ajustements au tableau.
+   * Saisissez l’en-tête de colonne et faites-le glisser à l’endroit souhaité. La colonne que vous avez déplacée s’affiche brièvement sur fond bleu jusqu’à ce que vous procédiez à d’autres ajustements dans le tableau.
 
-   * Cliquez sur **Champs** dans la barre d’outils du tableau, effectuez une opération de glisser-déposer pour placer les champs dans l’ordre souhaité, puis cliquez en dehors de la zone **Visibilité et ordre des champs** pour la fermer.
+   * Cliquez sur **Champs** dans la barre d’outils du tableau, puis faites glisser les champs dans l’ordre souhaité et cliquez en dehors de la case **Visibilité et ordre des champs** pour la fermer.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
      >
-     >* Par défaut, le champ Nom est toujours le premier champ de la vue de tableau. Il s’agit d’un champ principal.
+     >* Le champ Nom est toujours le premier champ de la vue tableau, par défaut. Il est considéré comme un champ principal.
      >
-     >* Vous ne pouvez pas déplacer le champ Nom vers un autre emplacement, sauf si vous désigner un autre champ comme champ principal. Pour plus d’informations, passez à l’étape 4. <!--accurate?-->
+     >* Vous ne pouvez pas déplacer le champ Nom, à moins que vous ne désigniez un autre champ comme champ principal. Pour plus d’informations, passez à l’étape 4. <!--accurate?-->
      >
      >
 
-   * Remplacez le champ de la première colonne par un autre champ en modifiant le champ principal. Pour plus d’informations, passez à l’étape 4. <!--accurate?-->
+   * Remplacez le champ de la première colonne par un autre en modifiant le champ principal. Pour plus d’informations, passez à l’étape 4. <!--accurate?-->
 
-1. (Facultatif) Pointez sur un nom de champ dans l’en-tête de colonne d’un champ qui ne s’affiche pas dans la première colonne du tableau, cliquez sur la flèche vers le bas située à droite du nom du champ, puis sur **Définir comme champ principal**.
+1. (Facultatif) Pointez sur un nom de champ dans l’en-tête de colonne d’un champ qui ne s’affiche pas dans la première colonne du tableau, cliquez sur la flèche pointant vers le bas à droite du nom du champ, puis sur **Définir comme champ principal**.
 
    ![](assets/set-as-primary-field-option-table-view.png)
 
-1. Cliquez sur **Définir le champ** pour confirmer l’opération.
+1. Cliquez sur **Définir le champ** pour confirmer.
 
-   Le champ devient un champ principal, ce qui signifie qu’il s’affiche comme la première colonne de la vue de tableau. Le champ principal précédent est déplacé dans la seconde colonne.
+   Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
    Les champs de Principal deviennent le titre et s’affichent dans la zone d’en-tête de la page de l’enregistrement, et partout où les enregistrements s’affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et dans toutes les vues. Pour plus d’informations sur les champs principaux, voir [Présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
 
-1. Cliquez et faites glisser les lignes de séparation des colonnes et déposez-les à l’emplacement souhaité pour augmenter la largeur des colonnes.
+1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
    >[!TIP]
    >
-   >Les modifications apportées à la largeur et à l’ordre des colonnes sont permanentes et visibles par toutes les personnes qui accèdent au type d’enregistrement.
+   >Les modifications de la largeur et de l’ordre des colonnes sont permanentes et visibles par tous les utilisateurs et utilisatrices qui accèdent au type d’enregistrement.
 
-1. Pointez sur l’en-tête de colonne, puis cliquez sur la flèche vers le bas et sur **Masquer le champ**.
+1. Pointez sur l’en-tête de la colonne, cliquez sur la flèche pointant vers le bas, puis sur **Masquer le champ**
 
    Ou
 
-   Cliquez sur **Champs** dans la barre d’outils du tableau et désactivez le bouton (bascule) associé aux champs (ou colonnes) à masquer. La zone **Visibilité et ordre des champs** s’affiche.
+   Cliquez sur **Champs** dans la barre d’outils du tableau et désactivez le bouton (bascule) associé aux champs (ou colonnes) que vous souhaitez masquer. La boîte de dialogue **Visibilité et ordre des champs** s’affiche.
 
    >[!TIP]
    >
-   >Le nombre de champs masqués s’affiche à gauche de l’icône Champs de la barre d’outils.
+   >Le nombre de champs masqués s’affiche à gauche de l’icône Champs dans la barre d’outils.
 
 
 1. Cliquez sur l’icône **Champs** et activez le bouton (bascule) associé aux champs que vous souhaitez afficher dans les colonnes du tableau. Tous les champs s’affichent par défaut.
 
-1. Procédez comme suit pour rechercher rapidement les enregistrements correspondant à un mot-clé :
+1. Procédez comme suit pour trouver rapidement les enregistrements correspondant à un mot-clé :
 
-   1. Cliquez sur l’icône **Rechercher** ![](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche en regard de l’élément de recherche et le champ avec la correspondance correcte est mis en surbrillance.
+   1. Cliquez sur l’icône **Rechercher** ![](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de recherche et le champ correspondant est mis en surbrillance.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 
@@ -257,11 +257,11 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau
 
       Vous ne pouvez pas utiliser de mots-clés associés à des champs masqués dans la vue de tableau.
 
-   1. Appuyez sur **Entrée** avec votre clavier pour accéder au champ suivant trouvé.
+   1. Appuyez sur la touche **Entrée** de votre clavier pour passer au champ suivant.
 
-   1. (Facultatif) S’il existe plusieurs correspondances, cliquez sur les flèches haut et bas situées à droite du mot-clé de recherche pour trouver toutes les correspondances dans le tableau.
+   1. (Facultatif) S’il y a plus d’une correspondance, cliquez sur les flèches haut et bas situées à droite du mot-clé de recherche pour accéder à l’ensemble des correspondances dans le tableau.
 
-   1. Cliquez sur l’icône **x** dans la zone de recherche pour effacer le mot-clé de recherche.
+   1. Cliquez sur l’icône **x** dans le champ de recherche pour effacer le mot-clé de recherche.
 
 
 ### Ajouter des lignes (ou des enregistrements) {#add-rows}
@@ -272,13 +272,13 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d
 
 1. Accédez à une page de type enregistrement et cliquez sur un onglet de vue de table, ou cliquez sur **+ Afficher** pour ajouter une nouvelle vue, puis sélectionnez **Tableau**.
 
-1. Commencez à ajouter des enregistrements (ou des lignes), comme décrit dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+1. Commencez à ajouter des enregistrements (ou lignes), comme décrit dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
-   Les enregistrements que vous ajoutez dans la vue de tableau sont immédiatement enregistrés et visibles par toutes les personnes disposant d’autorisations d’affichage ou supérieures à l’espace de travail.
+   Les enregistrements que vous ajoutez dans la vue de tableau sont enregistrés immédiatement et sont visibles par tous les utilisateurs et utilisatrices qui disposent d’une autorisation d’affichage ou de niveau supérieure sur l’espace de travail.
 
-1. (Facultatif) Ajoutez une miniature à chaque enregistrement, cliquez sur **Champs** dans le coin supérieur droit du tableau, puis sélectionnez le bouton (bascule) du champ **Miniature** pour l’afficher à gauche du champ principal. Cette option est désélectionnée par défaut.
+1. (Facultatif) Ajoutez une miniature à chaque enregistrement et cliquez sur **Champs** dans le coin supérieur droit du tableau, puis sélectionnez le bouton (bascule) du champ **Miniature** pour l’afficher à gauche du champ principal. Il est désélectionné par défaut.
 
-   Pour plus d’informations, consultez la section [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 1. (Facultatif) Sélectionnez un ou plusieurs enregistrements d’une ligne, puis faites glisser l’icône **handle** ![](assets/handle-icon.png) vers la gauche de l’enregistrement pour réorganiser les lignes.
 
@@ -298,15 +298,15 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue T
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* Les filtres que vous créez pour la vue de tableau fonctionnent indépendamment des filtres de la vue de chronologie lorsqu’ils sont appliqués au même type d’enregistrement.
+* Les filtres que vous créez pour la vue en tableau fonctionnent indépendamment des filtres de la vue chronologique lorsqu’ils sont appliqués au même type d’enregistrement.
 
-* Les filtres sont propres à la vue que vous sélectionnez. Des filtres différents peuvent être appliqués à deux vues de tableau d’un même type d’enregistrement. Deux personnes qui visualisent la même vue de tableau voient le même filtre actuellement appliqué.
+* Les filtres sont propres à la vue que vous sélectionnez. Des filtres différents peuvent être appliqués à deux vues en tableau du même type d’enregistrement. Deux utilisateurs et utilisatrices qui consultent la même vue en tableau voient le même filtre que celui qui est actuellement appliqué.
 
-* Vous ne pouvez pas nommer les filtres que vous créez et appliquez à une vue de tableau.
+* Vous ne pouvez pas nommer les filtres que vous créez et appliquez à une vue en tableau.
 
-* Le fait de supprimer des filtres les supprime de toute personne accédant au même type d’enregistrement et utilisant la même vue que vous.
+* Supprimer des filtres les rend inaccessibles à toute personne accédant au même type d’enregistrement que vous et utilisant la même vue que vous.
 
-* L’ajout de filtres à la vue de tableau est identique à l’ajout de filtres à la vue chronologique.
+* Ajouter des filtres à la vue en tableau est identique à l’ajout de filtres à la vue chronologique.
 
 * Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté.
 
@@ -314,10 +314,10 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue T
 
 * Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un filtre pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le budget du projet dans le filtre que vous créez pour le type d’enregistrement Activité .
 
-Pour ajouter un filtre à une vue de tableau, procédez comme suit :
+Pour ajouter un filtre à une vue en tableau, procédez comme suit :
 
-1. Créez une vue de tableau pour une page d’un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
-1. Sélectionnez une vue de tableau, puis cliquez sur **Filtres** dans le coin supérieur droit du tableau.
+1. Créez une vue en tableau pour une page de type enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Sélectionnez une vue en tableau, puis cliquez sur **Filtres** dans le coin supérieur droit du tableau.
 1. Cliquez sur **Ajouter une condition** et ajoutez les informations suivantes :
 
    * **Sélectionnez un champ** que vous souhaitez filtrer par <!-- the tip below might change-->
@@ -335,7 +335,7 @@ Pour ajouter un filtre à une vue de tableau, procédez comme suit :
         </thead>
         <tbody>
         <tr>
-            <td>Une seule ligne, Paragraphe, Formule </td>
+            <td>Ligne unique, paragraphe, formule </td>
             <td><p>Contient</p>
             <p>Ne contient pas</p>
             <p>Est</p>
@@ -352,7 +352,7 @@ Pour ajouter un filtre à une vue de tableau, procédez comme suit :
             <p>N’est pas vide</p></td>
         </tr>
         <tr>
-            <td>Sélection multiple, Personnes</td>
+            <td>Multi-sélection, personnes</td>
             <td><p>A l’un des</p>
             <p>Dispose de tous les</p>
             <p>Est exactement</p>
@@ -361,7 +361,7 @@ Pour ajouter un filtre à une vue de tableau, procédez comme suit :
             <p>N’est pas vide</p></td>
         </tr>
         <tr>
-            <td>Nombre, Pourcentage, Devise</td>
+            <td>Nombre, pourcentage, devise</td>
             <td><p>=</p>
             <p>≠</p>
             <p> &lt; </p>
@@ -388,47 +388,47 @@ Pour ajouter un filtre à une vue de tableau, procédez comme suit :
         </tbody>
         </table>
 
-   * Sélectionnez une valeur pour le champ sélectionné.
+   * Choisissez une valeur pour le champ sélectionné.
 
    ![](assets/filter-ui-table-view.png)
 
-   Le nombre de conditions de filtrage que vous pouvez ajouter est illimité.
+   Il n’y a pas de limite au nombre de conditions de filtrage que vous pouvez ajouter.
 
 1. (Facultatif) Cliquez sur **Ajouter une condition** pour ajouter une autre option de filtrage et répétez les étapes ci-dessus. Le nombre de filtres appliqués s’affiche à gauche de l’icône Filtres.
-1. Cliquez sur les opérateurs suivants pour indiquer comment les conditions de filtrage sont jointes et doivent être appliquées :
+1. Cliquez sur les opérateurs suivants pour indiquer comment les conditions de filtrage sont liées et doivent être appliquées :
 
    * **Et** : toutes les conditions spécifiées doivent être remplies.
    * **Ou** : l’une des conditions spécifiées doit être remplie. Il s’agit de l’option par défaut.
 
-   La liste des enregistrements est filtrée automatiquement.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   La liste des enregistrements est filtrée automatiquement. <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (Facultatif) Cliquez sur **Filtres**, puis cliquez sur l’icône **x** pour supprimer un filtre. <!--right now you cannot "clear all" for filters, but this might come later-->
+1. (Facultatif) Cliquez sur **Filtres**, puis sur l’icône **x** pour supprimer un filtre. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### Ajouter des regroupements {#add-groupings}
 
 <!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
 
-Vous pouvez regrouper des enregistrements selon des informations similaires lors de l’application d’un regroupement à une vue.
+Vous pouvez regrouper des enregistrements par des informations similaires lorsque vous appliquez un regroupement à une vue.
 
-L’ajout de regroupements dans la vue de tableau est similaire à l’ajout de regroupements à la vue chronologique.
+L’ajout de regroupements dans la vue de tableau est similaire à l’ajout de regroupements dans la vue chronologique.
 
 Tenez compte des points suivants :
 
-* Vous pouvez appliquer des regroupements dans les vues de tableau et chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
+* Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
 * Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
-&lt;!--* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. --point à vérifier—>
-* Les regroupements sont propres à la vue sélectionnée. Deux vues de tableau d’un même type d’enregistrement peuvent avoir des regroupements différents. Deux personnes qui consultent le même tableau voient le même regroupement appliqué actuellement.
+&lt;!--* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lorsque vous utilisez l’API. --vérifier celui-ci pour l’instant-->
+* Les regroupements sont propres à la vue que vous sélectionnez. Vous pouvez appliquer des regroupements différents à deux vues de tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue de tableau voient le regroupement qui est actuellement appliqué.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
-* La suppression de regroupements les supprime pour toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
-* Vous pouvez modifier les enregistrements répertoriés sous un regroupement.
+* En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
+* Vous pouvez modifier les enregistrements répertoriés dans un regroupement.
 * Vous pouvez regrouper par champs d’enregistrement ou de recherche connectés.
 * Lorsque vous effectuez un regroupement par champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), les enregistrements sont regroupés selon chaque combinaison unique de valeurs de champ.
 * Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer l’état du projet dans le regroupement que vous créez pour le type d’enregistrement Activité .
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
-Pour ajouter un regroupement, procédez comme suit :
+Pour ajouter un regroupement :
 
 1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue de tableau.
@@ -441,80 +441,80 @@ Pour ajouter un regroupement, procédez comme suit :
 
 1. (Facultatif) Cliquez sur **Ajouter une condition** et répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
 
-   Le nombre de champs sélectionnés pour le regroupement s’affiche en regard de l’icône Regroupement.
+   Le nombre de champs sélectionnés pour le regroupement s’affiche à côté de l’icône de regroupement.
 
    ![](assets/grouping-applied-in-table-view.png)
 
-1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** en regard d’un champ sélectionné pour le regroupement afin de supprimer le regroupement.
+1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement pour le supprimer.
 
    Ou
 
-   Cliquez sur **Effacer tout** pour supprimer tous les champs.
+   Cliquez sur **Tout effacer** pour supprimer tous les champs.
 
 1. Cliquez en dehors de la zone **Regrouper les enregistrements par** pour la fermer.
 1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** à la fin d’un groupe pour ajouter de nouveaux enregistrements, puis actualisez votre page pour ajouter le nouvel enregistrement au regroupement approprié. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-### Appliquer un tri {#sort-information}
+### Ajouter un tri {#sort-information}
 
 En appliquant un tri, vous pouvez organiser les informations dans un ordre donné.
 
 Vous pouvez trier les informations suivantes :
 
-* Tous les enregistrements dans une vue de tableau. <!--or timeline view. ***********verify this is the case for the timeline view*********************-->
+* Tous les enregistrements dans une vue en tableau.<!--or timeline view. ***********verify this is the case for the timeline view*********************-->
   <!--* All groupings. - this is not available yet-->
 
-Tenez compte des points suivants lors du tri des enregistrements dans la vue de tableau :
+Tenez compte des éléments suivants lorsque vous triez les enregistrements dans la vue en tableau :
 
 <!-- if this is available for the timeline view, update both when you update one-->
 
-* Le tri est spécifique à la vue que vous sélectionnez. Des critères de tri différents peuvent être appliqués à deux vues de tableau d’un même type d’enregistrement. Deux personnes qui consultent le même tableau voient le même tri appliqué actuellement.
+* Le tri est propre à la vue que vous sélectionnez. Des critères de tri différents peuvent être appliqués à deux vues en tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue en tableau voient le même tri que celui qui est actuellement appliqué.
 
-* Vous ne pouvez pas nommer les tris que vous créez et appliquez à une vue de tableau.
+* Les tris que vous créez et appliquez à une vue en tableau ne peuvent pas être nommés.
 
-* Le tri que vous créez est conservé lorsque vous quittez la page.
+* Le tri que vous créez est préservé lorsque vous quittez cette vue.
 
-* Vous pouvez trier par autant de champs que comporte la vue de tableau d’un type d’enregistrement.
+* Vous pouvez trier autant de champs que vous le souhaitez dans la vue en tableau d’un type d’enregistrement.
 
 * Vous ne pouvez pas trier par champ d’enregistrement connecté, mais vous pouvez trier par champ de recherche à partir des types d’enregistrement connectés.
 
 * Lorsque vous triez par champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), la première valeur est utilisée pour le tri.
 
-* Le fait de supprimer des critères de tri les supprime de toute personne accédant au même type d’enregistrement et utilisant la même vue que vous.
+* Supprimer des critères de tri les rend inaccessibles à toute personne accédant au même type d’enregistrement que vous et utilisant la même vue que vous.
 
 * Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un tri pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer l’état du projet dans le type que vous créez pour le type d’enregistrement Activité .
 
 Pour trier les enregistrements <!--ungrouped (add this when sorting for groupings will be available-->, procédez comme suit :
 
-1. Créez une vue de tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
-1. Sélectionnez l’icône **Tri** ![](assets/sort-icon.png) dans le coin supérieur droit du tableau.
+1. Créez une vue en tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Cliquez sur l’icône **Trier**![](assets/sort-icon.png) dans le coin supérieur droit du tableau.
 
    Ou
 
-   Pointez sur le nom d’une colonne dans la vue de tableau, cliquez sur la flèche vers le bas située à droite du nom de l’en-tête de colonne, puis cliquez sur **Trier sur la base de ce champ**. Le champ est ajouté en tant que sélection de tri dans l’icône Tri située dans le coin supérieur droit de la vue de tableau.
+   Pointez sur le nom d’une colonne dans la vue en tableau, cliquez sur la flèche pointant vers le bas à droite du nom de l’en-tête de la colonne, puis cliquez sur **Trier par ce champ**. Le champ est ajouté en tant que sélection de tri dans l’icône de tri dans le coin supérieur droit de la vue en tableau.
 
 1. (Conditionnel) Dans la zone **Trier les enregistrements par**, cliquez sur l’un des champs suggérés, ou cliquez sur **Choisir un champ différent** et recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
-   Le tri est appliqué automatiquement à la vue de tableau et les enregistrements s’affichent selon les critères de tri que vous avez spécifiés
+   Le tri est appliqué automatiquement à la vue en tableau et les enregistrements s’affichent triés selon les critères que vous avez sélectionnés.
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
 1. (Facultatif) Cliquez sur **Ajouter une condition** et répétez les étapes ci-dessus pour trier par champs supplémentaires.
 
-   Le nombre de champs spécifiés pour le tri s’affiche à gauche de l’icône Tri dans le coin supérieur droit de la barre d’outils. Vous ne pouvez sélectionner que les champs qui s’affichent dans les colonnes de la vue de tableau.
+   Le nombre de champs que vous triez s’affiche à gauche de l’icône de tri dans le coin supérieur droit de la barre d’outils. Vous ne pouvez sélectionner que les champs qui s’affichent dans les colonnes de la vue de tableau.
 
 1. (Facultatif) Dans la zone **Trier les enregistrements par**, sélectionnez l’icône **x** en regard d’un champ de tri pour supprimer le tri.
 
    Ou
 
-   Cliquez sur **Effacer tout** pour supprimer tous les champs du tri.
+   Cliquez sur **Tout effacer** pour supprimer tous les champs du tri.
 
 1. Cliquez en dehors de la zone **Trier les enregistrements par** pour la fermer.
 
    ![](assets/sorting-in-table-view.png)
 
-   Les informations affichées dans le tableau sont triées selon les critères que vous avez sélectionnés.
+   Les informations affichées dans le tableau sont triées en fonction des critères sélectionnés.
 
-   Les champs sélectionnés pour le tri affichent une icône de tri suivie d’un nombre indiquant l’ordre dans lequel le tri est appliqué.
+   Les champs qui doivent être triés affichent une icône de tri suivie d’un nombre qui indique l’ordre dans lequel le tri est appliqué.
 
 <!-- this is not available yet: 
 

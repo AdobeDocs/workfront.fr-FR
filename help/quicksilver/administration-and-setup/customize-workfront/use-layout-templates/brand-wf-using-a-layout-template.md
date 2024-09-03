@@ -3,7 +3,7 @@ title: Marque Adobe Workfront avec un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: En tant qu’administrateur Adobe Workfront ou administrateur de groupe, vous pouvez utiliser un modèle de mise en page pour personnaliser les logos de la zone de navigation supérieure et du menu principal pour certains groupes, équipes, rôles de travail et utilisateurs. Cela s’avère particulièrement utile pour les groupes d’une grande entreprise qui possèdent leur propre identité graphique.
+description: En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, vous pouvez utiliser un modèle de mise en page pour personnaliser les logos de la zone de navigation supérieure et du menu principal pour des groupes, équipes, fonctions et utilisateurs et utilisatrices. Ceci est particulièrement utile pour les groupes d’une grande organisation qui ont leur propre image de marque.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -11,25 +11,25 @@ exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
 source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 25%
+ht-degree: 98%
 
 ---
 
-# Marque Adobe Workfront avec un modèle de mise en page
+# Appliquer une image de marque dans Adobe Workfront à l’aide d’un modèle de mise en page
 
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique uniquement aux entreprises qui ne sont pas encore intégrées à [!DNL Adobe Experience Cloud].
+>La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à [!DNL Adobe Experience Cloud].
 >
-> Si votre organisation a été intégrée à [!DNL Adobe Experience Cloud], la valorisation de marque n’est pas disponible.
+> Si votre entreprise a été intégrée à [!DNL Adobe Experience Cloud], le branding n’est pas disponible.
 
-Vous pouvez utiliser un modèle de mise en page pour personnaliser les logos de la zone de navigation supérieure et du menu principal pour certains groupes, équipes, rôles de tâche et utilisateurs. Cela s’avère particulièrement utile pour les groupes d’une grande entreprise qui possèdent leur propre identité graphique.
+Vous pouvez utiliser un modèle de mise en page pour personnaliser les logos de la zone de navigation supérieure et du menu principal pour des groupes, équipes, fonctions et utilisateurs et utilisatrices. Ceci est particulièrement utile pour les groupes d’une grande organisation qui ont leur propre image de marque.
 
-Pour plus d’informations sur les modèles de disposition pour les groupes, voir [Créer et modifier des modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Pour plus d’informations sur les modèles de disposition pour les groupes, consultez [Création et modification des modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 >[!NOTE]
 >
->Un administrateur Workfront peut effectuer les mêmes personnalisations de marque pour l’ensemble de l’organisation au niveau du système, comme expliqué dans la section [Marquez votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Mais l’identité graphique d’un modèle de mise en page remplace l’identité graphique au niveau du système.
+>Une équipe d’administration Workfront peut apporter les mêmes personnalisations d’image de marque à l’ensemble de l’organisation au niveau du système, comme expliqué dans [Appliquer une image de marque dans votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Toutefois, l’image de marque appliquée dans un modèle de mise en page a la priorité sur l’image de marque appliquée au niveau du système.
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->
@@ -38,52 +38,52 @@ Pour plus d’informations sur les modèles de disposition pour les groupes, voi
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.
-Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas accès, demandez à votre équipe d’administration Workfront si des restrictions supplémentaires sont définies pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Marque Adobe Workfront avec un modèle de mise en page
+## Appliquer une image de marque dans Adobe Workfront à l’aide d’un modèle de mise en page
 
 1. Commencez à travailler sur un modèle de disposition, comme décrit dans la section [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) sous **Personnaliser ce que les utilisateurs voient**, puis cliquez sur **Valorisation de marque**.
-1. Apportez l’une des modifications suivantes pour personnaliser Workfront avec des images de marque pour ceux qui se voient attribuer ce modèle de mise en page.
+1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) sous **Personnaliser ce que voient les utilisateurs et utilisatrices**, puis sur **Image de marque**.
+1. Effectuez l’une des modifications suivantes pour personnaliser Workfront avec des images de marque pour les personnes auxquelles ce modèle de mise en page a été affecté.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Marque l’icône Accueil <span style="font-weight: normal;"> (s’affiche à l’extrémité gauche de la zone de navigation supérieure)</span></p> </td> 
-      <td> <p>Dans la section <strong>Zone de navigation supérieure</strong>, sous <strong>Icône Accueil</strong>, cliquez n’importe où dans la zone, puis recherchez et sélectionnez votre image de logo. Ou faites glisser une image sur la zone.</p> <p>Pour recadrer l’image, utilisez les commandes de défilement et faites-la glisser jusqu’à la position voulue dans l’espace prévu.</p> <p>Nous vous recommandons une image 120 x 120. Il peut être dans l’un des formats suivants : GIF, JPG, PNG, SVG.</p> <p>Cette icône s’affiche également dans les rapports, les listes, les tableaux de bord et les rapports distribués que les utilisateurs exportent en tant que fichiers PDF.</p> </td> 
+      <td role="rowheader"> <p>Appliquer une image de marque à l’icône d’accueil <span style="font-weight: normal;"> (s’affiche à l’extrémité gauche de la zone de navigation supérieure)</span></p> </td> 
+      <td> <p>Dans la <strong>zone de navigation supérieure</strong>, dans l’<strong>icône Accueil</strong>, cliquez n’importe où dans la zone, puis recherchez et sélectionnez l’image de votre logo. Vous pouvez également faire glisser une image sur la zone.</p> <p>Pour recadrer l’image, utilisez les commandes de défilement et faites-la glisser jusqu’à la position voulue dans l’espace prévu à cet effet.</p> <p>Nous vous recommandons d’utiliser une image de 120 x 120 pixels. Elle peut être dans l’un des formats suivants : GIF, JPG, PNG, SVG.</p> <p>Cette icône s’affiche également dans les rapports, les listes, les tableaux de bord et les rapports distribués que les utilisateurs et utilisatrices exportent en tant que fichiers PDF.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Marque le menu principal <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;"> (s’affiche dans le coin supérieur droit du menu principal)</span></p> </td> 
-      <td> <p> <p> <p>Dans la section <strong>Zone de navigation supérieure</strong>, sous <strong>Logo du menu principal</strong>, cliquez n’importe où dans la zone, puis recherchez et sélectionnez votre image de logo. Ou faites glisser une image sur la zone.</p> <p>Pour recadrer l’image, utilisez les commandes de défilement et faites-la glisser jusqu’à la position voulue dans l’espace prévu.</p> <p>Nous vous recommandons une image de 300 x 120 pixels. Il peut être dans l’un des formats suivants : GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
+      <td role="rowheader"> <p>Personnaliser le <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;"> du menu principal (qui s’affiche dans le coin supérieur droit du menu principal)</span></p> </td> 
+      <td> <p> <p> <p>Dans la <strong>zone de navigation supérieure</strong> dans le <strong>Logo du menu principal</strong>, cliquez n’importe où dans la zone, puis recherchez et sélectionnez l’image de votre logo. Vous pouvez également faire glisser une image sur la zone.</p> <p>Pour recadrer l’image, utilisez les commandes de défilement et faites-la glisser jusqu’à la position voulue dans l’espace prévu à cet effet.</p> <p>Nous vous recommandons d’utiliser une image de 300 x 120 pixels. Elle peut être dans l’un des formats suivants : GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Poursuivez la personnalisation du modèle de disposition.
+1. Poursuivez la personnalisation du modèle de mise en page.
 
    Ou
 
@@ -95,4 +95,4 @@ Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p
 
 1. Cliquer sur **Enregistrer**.
 
-Pour plus d’informations sur les modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Pour plus d’informations sur les modèles de mise en page, voir la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

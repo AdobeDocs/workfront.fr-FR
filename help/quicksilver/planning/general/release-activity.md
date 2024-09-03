@@ -69,7 +69,7 @@ Avec la mise à disposition de Workfront Planning, les fonctionnalités de Workf
 
 ### Nouveaux packages et limites d’objets Adobe Workfront Planning
 
-Version préliminaire et de production : jeudi 28 août 2024
+Prévisualisation et production : jeudi 28 août 2024
 
 Nous avons mis en oeuvre de nouvelles limites pour les objets de planification Workfront, selon les deux packages suivants :
 
@@ -93,7 +93,7 @@ Pour plus d’informations, reportez-vous à la section [Présentation de la lim
 
 ### Activation des notifications Workfront Planning pour les demandes d’accès
 
-Version préliminaire et de production : jeudi 28 août 2024
+Prévisualisation et production : jeudi 28 août 2024
 
 Lorsque vous demandez l’accès à un espace de travail ou à une vue, l’utilisateur auprès duquel vous demandez l’accès reçoit une notification par courrier électronique à propos de la demande. Une fois la demande acceptée, vous recevez une notification par e-mail confirmant que votre demande a été approuvée.
 
@@ -103,7 +103,7 @@ Pour plus d’informations, voir [Demande d’autorisations pour une vue ou un e
 
 ### Définition du format des valeurs de champ de formule
 
-Version préliminaire et de production : jeudi 28 août 2024
+Prévisualisation et production : jeudi 28 août 2024
 
 En tant que gestionnaire d&#39;espace de travail, vous pouvez maintenant définir le format des valeurs affichées dans un champ de formule. Vous pouvez choisir parmi les formats suivants :
 
@@ -118,13 +118,13 @@ Pour plus d’informations, reportez-vous à la section &quot;Formule&quot; de l
 
 ### Indicateurs de présence en temps réel dans une vue d’enregistrement
 
-Version préliminaire et de production : jeudi 28 août 2024
+Prévisualisation et production : jeudi 28 août 2024
 
 Afin de comprendre quelles informations sont modifiées par d’autres utilisateurs lorsqu’ils travaillent dans une vue, nous avons introduit des indicateurs de présence en temps réel pour cette zone de planification Workfront.
 
 Le champ modifié par un autre utilisateur est maintenant mis en surbrillance dans la vue de tableau et les avatars des autres utilisateurs sont visibles dans le coin supérieur droit de toutes les vues.
 
-Pour plus d’informations, voir [Gérer des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+Pour plus d’informations, consultez la section [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
 ### Créer des enregistrements en envoyant une requête
 
@@ -144,7 +144,7 @@ Pour plus d’informations, voir [Création et gestion d’un formulaire de dema
 
 ### Les enregistrements de planification Workfront peuvent être référencés par le biais d’un champ externe
 
-Version préliminaire et de production : jeudi 28 août 2024
+Prévisualisation et production : jeudi 28 août 2024
 
 Avec la publication de l’API publique de Workfront Planning, vous pouvez désormais référencer des enregistrements de planification dans des champs externes dans des formulaires personnalisés Workfront.
 
@@ -155,7 +155,7 @@ Pour plus d’informations, voir les articles suivants :
 
 ### Nouveau menu Paramètres dans la vue Calendrier
 
-Version préliminaire et de production : jeudi 28 août 2024
+Prévisualisation et production : jeudi 28 août 2024
 
 Une nouvelle option Paramètres permet de personnaliser l’aspect des barres d’enregistrement dans la vue Calendrier. Vous pouvez effectuer les opérations suivantes :
 
@@ -165,21 +165,21 @@ Une nouvelle option Paramètres permet de personnaliser l’aspect des barres d�
 
 * Modifiez la couleur des barres d’enregistrement ou de leurs groupements pour qu’ils correspondent à l’un des éléments suivants :
 
-   * La couleur du type d’enregistrement
+   * Couleur du type d’enregistrement
 
-   * La couleur d’un champ que vous sélectionnez
+   * Couleur d’un champ que vous sélectionnez.
 
-   * La couleur du groupement
+   * Couleur du regroupement
 
-   * Aucune couleur (par défaut)
+   * Pas de couleur (par défaut)
 
-Lorsque vous associez des couleurs à un champ donné, vous ne pouvez sélectionner que les champs avec des options codées par couleurs.
+Lorsque vous associez des couleurs à un champ donné, vous pouvez ne sélectionner que les champs avec des options de code couleur.
 
 Pour plus d’informations, consultez la section [Gérer la vue de calendrier](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ### L’assistant d’IA a été réactivé pour la planification Workfront.
 
-Version préliminaire et de production : jeudi 28 août 2024
+Prévisualisation et production : jeudi 28 août 2024
 
 L’assistant Workfront AI a été réactivé pour la zone Planification Workfront.
 
@@ -187,7 +187,7 @@ Pour plus d’informations sur l’assistant de planification Workfront AI, cons
 
 ### Fonctionnalités de création de rapports pour la planification Workfront avec le tableau de bord du canevas
 
-Version préliminaire et de production : jeudi 28 août 2024
+Prévisualisation et production : jeudi 28 août 2024
 
 Vous pouvez désormais afficher les informations de planification Workfront dans un rapport à l’aide du tableau de bord du canevas de Workfront. Pour plus d’informations, voir [Prise en main des tableaux de bord de canevas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
@@ -239,7 +239,7 @@ Il ne s’agit pas d’une hiérarchie réelle (aucun objet n’est plus élevé
 
 Vous pouvez afficher jusqu’à 5 niveaux de types d’enregistrement dans la même chronologie pour un enregistrement.
 
-Pour plus d’informations, consultez la section [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ### Nouvel onglet Connexions dans la zone des détails de l’enregistrement
 
@@ -253,7 +253,7 @@ Nous avons ajouté un nouvel onglet aux zones d’aperçu et de page de l’enre
 
 * **Connexions** : affiche tous les types d’enregistrements ou d’objets et leurs enregistrements ou objets connectés. Vous pouvez ajouter d’autres enregistrements à partir de l’onglet Connexions .
 
-Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+Pour plus d’informations, consultez la section [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
 ### Créez des enregistrements, des projets et des portefeuilles au fur et à mesure de leur connexion.
 
@@ -273,7 +273,7 @@ A ce stade, vous pouvez créer les éléments suivants lors de la connexion des 
 
 Vous ne pouvez pas créer d’autres objets Workfront ou ressources Experience Manager connectés lors de leur connexion à un enregistrement.
 
-Pour plus d’informations, consultez la section [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
 ### Exportation des détails de l’enregistrement vers Word
 
@@ -325,7 +325,7 @@ Prévisualisation : à déterminer
 
 Désormais, lorsque vous ouvrez une vue de chronologie et faites défiler jusqu’à une date antérieure ou ultérieure, la date sélectionnée est conservée après avoir actualisé la page. Avant cette amélioration, la page affichait la date du jour.
 
-Pour plus d’informations, consultez la section [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Semaine du mardi 29 juillet 2024
 
@@ -388,7 +388,7 @@ Nous avons éliminé une étape lors de l’accès aux objets Workfront connect�
 
 Désormais, lorsque vous cliquez sur le nom d’un objet Workfront dans l’enregistrement Planning qui y est connecté, vous ouvrez la page d’objet Workfront. Avant cette amélioration, une page de planification Workfront en lecture seule pour l’objet Workfront connecté s’ouvrait à partir de laquelle vous pouviez accéder plus loin à la page d’objet Workfront.
 
-Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+Pour plus d’informations, consultez la section [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
 ### Seuls les utilisateurs sous licence Standard ou Plan peuvent créer des vues.
 
@@ -418,7 +418,7 @@ Si le champ de recherche contient plusieurs valeurs, tenez compte des points sui
 
 Pour plus d’informations, consultez les articles suivants :
 
-* [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Gérer la vue de table](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 
@@ -452,7 +452,7 @@ Prévisualisation : à déterminer
 
 Pour améliorer et accélérer votre expérience dans la vue de table des enregistrements, nous avons ajouté la possibilité d’ajouter un nouveau champ entre deux colonnes, en l’insérant à droite ou à gauche d’une colonne existante.
 
-Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
+Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Semaine du mardi 17 juin 2024
 
@@ -532,7 +532,7 @@ Prévisualisation : à déterminer
 
 Nous avons ajouté un lien &quot;Afficher plus/Afficher moins&quot; dans un champ d’enregistrement connecté, lorsqu’il existe des enregistrements qui s’afficheraient autrement sur plus de deux lignes dans la page Détails d’un enregistrement.
 
-Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+Pour plus d’informations, consultez la section [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
 ### Remplissez automatiquement le champ Nom avec le nom de l’enregistrement lors de la connexion des types d’enregistrement.
 
@@ -542,7 +542,7 @@ Prévisualisation : à déterminer
 
 Lorsque vous créez une connexion entre deux enregistrements ou entre un enregistrement et un objet à partir d’une autre application, le champ Nom de la connexion est automatiquement renseigné avec le nom de l’enregistrement connecté. Avant cette amélioration, vous deviez ajouter manuellement un Nom pour le champ de connexion.
 
-Pour plus d’informations, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Définition de l’affichage des enregistrements connectés dans les champs connectés
 
@@ -556,7 +556,7 @@ Le titre d’un enregistrement est soit le nom de l’enregistrement, soit un ch
 
 Cette amélioration est disponible pour les enregistrements connectés à Workfront Planning et pour les ressources connectées à partir de Adobe Experience Manager.
 
-Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
+Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Seuls les utilisateurs sous licence Standard ou Plan peuvent disposer des autorisations Gérer sur les espaces de travail (titre).
 
@@ -582,7 +582,7 @@ Vous pouvez désormais référencer des champs situés à 4 niveaux de l’enreg
 
 * Trier
 
-* Regroupement
+* Regroupement 
 
 * Champ de formule
 
@@ -632,7 +632,7 @@ Vous pouvez passer par le processus d’intégration, effectuer les tâches ou l
 
 ### Présentation de l’opérateur de cumul UNIQUE pour les champs de recherche
 
-Version de production : mardi 27 mai 2024
+Production : mardi 27 mai 2024
 
 Prévisualisation : à déterminer
 
@@ -646,11 +646,11 @@ L&#39;opérateur UNIQUE est disponible pour tous les types de champs sauf les su
 * Personnes
 * Champ de case à cocher
 
-Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
+Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Partage des vues avec tous les membres d’un espace de travail par défaut
 
-Version de production : vendredi 30 mai 2024
+Production : vendredi 30 mai 2024
 
 Prévisualisation : à déterminer
 
@@ -660,7 +660,7 @@ Pour plus d’informations, voir [Partage de vues](/help/quicksilver/planning/ac
 
 ### Mise à jour de l’affichage de l’icône Planification dans le menu principal
 
-Version de production : vendredi 30 mai 2024
+Production : vendredi 30 mai 2024
 
 Prévisualisation : à déterminer
 
@@ -676,7 +676,7 @@ Le représentant de votre compte vous informera si vous êtes éligible pour par
 
 ### Nouveau processus de suppression d’un espace de travail
 
-Version de production : vendredi 30 mai 2024
+Production : vendredi 30 mai 2024
 
 Prévisualisation : à déterminer
 
@@ -688,7 +688,7 @@ Pour plus d’informations, voir [Suppression des espaces de travail](/help/quic
 
 ### Les champs de date de recherche sont désormais disponibles dans la vue chronologique.
 
-Version de production : samedi 31 mai 2024
+Production : samedi 31 mai 2024
 
 Prévisualisation : à déterminer
 
@@ -700,7 +700,7 @@ Pour plus d’informations sur la création de vues, voir [Gestion des vues d’
 
 ### Connexion d’enregistrements de planification Workfront à partir d’objets Workfront à l’aide de la section Planification
 
-Version de production : vendredi 23 mai 2024
+Production : vendredi 23 mai 2024
 
 Prévisualisation : à déterminer
 
@@ -722,7 +722,7 @@ Pour plus d’informations, voir [Gestion des enregistrements dans la section Pl
 
 ### Mises à jour en temps réel dans la vue chronologique après modification d’enregistrements
 
-Version de production : mercredi 14 mai 2024
+Production : mercredi 14 mai 2024
 
 Aperçu : à déterminer.
 
@@ -730,7 +730,7 @@ Lorsqu’un utilisateur met à jour les informations sur un enregistrement, d’
 
 ### Ajout d’un enregistrement à partir de l’en-tête de vue
 
-Version de production : mercredi 14 mai 2024
+Production : mercredi 14 mai 2024
 
 Prévisualisation : à déterminer
 
@@ -741,7 +741,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 ### Nouvel avertissement sur la visibilité des objets lors de la connexion des enregistrements
 
-Version de production : jeudi 15 mai 2024
+Production : jeudi 15 mai 2024
 
 Prévisualisation : à déterminer
 
@@ -749,11 +749,11 @@ Lorsque vous créez des connexions à des types d’objets en dehors de Workfron
 
 Par exemple, si vous liez des projets provenant de campagnes de planification Workfront, toute personne ayant accès à Afficher la campagne aura également accès à l&#39;affichage des projets liés et des informations provenant de ses champs de recherche, même si elle n&#39;a aucune autorisation d&#39;accès aux projets liés, ni d&#39;accès aux projets en général. Vous accédez aux enregistrements de planification lorsque vous recevez des autorisations pour les espaces de travail.
 
-Pour plus d’informations, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Ajouter des sections aux pages d’aperçu et de détails de l’enregistrement
 
-Version de production : jeudi 15 mai 2024
+Production : jeudi 15 mai 2024
 
 Prévisualisation : à déterminer
 
@@ -763,7 +763,7 @@ Pour plus d’informations, voir [Gestion de la mise en page de la page d’enre
 
 ### Mises à jour en temps réel pour les modifications de configuration des champs
 
-Version de production : vendredi 16 mai 2024
+Production : vendredi 16 mai 2024
 
 Prévisualisation : à déterminer
 
@@ -783,7 +783,7 @@ Pour plus d’informations, voir [Modifier les paramètres de champ](/help/quick
 
 ### Mise à jour de l’aspect des cartes de type enregistrement dans un espace de travail
 
-Version de production : mercredi 7 mai 2024
+Production : mercredi 7 mai 2024
 
 Prévisualisation : à déterminer
 
@@ -793,11 +793,11 @@ Nous avons mis à jour l’aspect des cartes de type enregistrement lors de leur
 
 * Ajout de la description du type d’enregistrement
 
-Pour plus d’informations, voir [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
+Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ### Activation des notifications de planification Workfront pour les clients Adobe Unified Experience
 
-Version de production : jeudi 8 mai 2024
+Production : jeudi 8 mai 2024
 
 Aperçu : Pour annuler la détermination
 
@@ -810,7 +810,7 @@ Pour plus d’informations sur les notifications de planification Workfront, voi
 
 ### Mises à jour en temps réel dans la zone et la page des détails de l’enregistrement après modification des enregistrements dans la vue de tableau
 
-Version de production : vendredi 2 mai 2024
+Production : vendredi 2 mai 2024
 
 Prévisualisation : à déterminer
 
@@ -820,7 +820,7 @@ Pour plus d&#39;informations sur la modification des enregistrements, voir [Modi
 
 ### Mises à jour en temps réel dans la vue Calendrier après modification des enregistrements
 
-Version de production : samedi 3 mai 2024
+Production : samedi 3 mai 2024
 
 Aperçu : à déterminer.
 
@@ -1090,21 +1090,21 @@ Pour plus d’informations, consultez la section [Gérer la vue de tableau](/hel
 
 ## Semaine du 5 février 2024
 
-### Modification des autorisations en fonction des types de licence
+### Modifier les autorisations en fonction des types de licences
 
 Production : 6 février 2024
 
 Prévisualisation : à déterminer
 
-Nous avons modifié les niveaux d’autorisation afin de prendre en compte les types de licence des personnes. Avant cette amélioration, il n’y avait aucune différence dans les autorisations pour l’espace de travail en fonction des types de licence des personnes.
+Nous avons modifié les niveaux d’autorisation pour prendre en compte les types de licence des utilisateurs et utilisatrices. Avant cette amélioration, il n’y avait aucune différence dans les autorisations pour l’espace de travail en fonction des types de licence des personnes.
 
 Voici les niveaux d’autorisation les plus élevés que les personnes peuvent recevoir en fonction de son type de licence :
 
 * Les titulaires d’une licence de plan (ou Standard, dans le nouveau modèle de licence) peuvent créer et gérer des espaces de travail, des types d’enregistrements et des enregistrements.
 
-* Les titulaires d’une licence de travail (ou Light, dans le nouveau modèle de licence) peuvent afficher et contribuer à un espace de travail pour lequel ils ont un accès en partage, ainsi que les types d’enregistrement et les enregistrements de cet espace de travail.  Les titulaires d’une licence de travail (ou Light) peuvent également créer, modifier et supprimer des enregistrements dans des espaces de travail auxquels ils ont un accès en contribution.
+* Les utilisateurs et utilisatrices disposant d’une licence Travail (ou Light, dans le nouveau modèle de licence) peuvent visualiser et contribuer à un espace de travail partagé avec eux, ainsi que les types d’enregistrements et les enregistrements de cet espace de travail.  Les utilisateurs et utilisatrices de la licence Travail (ou Light) peuvent également créer, modifier et supprimer des enregistrements dans les espaces de travail pour lesquels ils disposent d’un accès Contribuer.
 
-* Les titulaires d’une licence de révision ou de demande (ou de contribution, dans le nouveau modèle de licence) peuvent uniquement afficher les espaces de travail pour lesquels ils ont un accès en partage, ainsi que les types d’enregistrement et les enregistrements de ces espaces de travail. Ils ne peuvent pas créer, modifier ou supprimer des types d’enregistrements ou des enregistrements.
+* Les utilisateurs et utilisatrices disposant d’une licence Révision ou Demande (ou Contribution, dans le nouveau modèle de licence) ne peuvent visualiser que les espaces de travail partagés avec eux, ainsi que les types d’enregistrements et les enregistrements de ces espaces de travail. Ils ne peuvent pas créer, modifier ni supprimer des types d’enregistrements ou des enregistrements.
 
 Pour plus d’informations sur le nouveau modèle de licence, consultez la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -1117,17 +1117,17 @@ Production : 7 février 2024
 
 Prévisualisation : à déterminer
 
-Nous avons mis à jour l’aspect de la barre d’outils Texte enrichi lorsque vous modifiez un champ de type Paragraphe.
+Nous avons modifié l’aspect de la barre d’outils Texte enrichi lorsque vous modifiez un champ de type Paragraphe.
 
 Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
-### Expérience améliorée lors de la modification de champs à sélection unique et multiple, de champs Personnes et lors de l’ajout d’objets connectés
+### Amélioration de l’expérience lors de la modification des champs Sélection unique, Sélection multiple, Personnes, et lors de l’ajout d’objets connectés
 
 Production : 8 février 2024
 
 Prévisualisation : à déterminer
 
-Nous avons repensé et amélioré l’expérience de l’ajout d’options ou d’objets pour les types de champ suivants :
+Nous avons repensé et amélioré l’expérience d’ajout d’options ou d’objets pour les types de champs suivants :
 
 * Sélection unique
 * Sélection multiple
@@ -1136,14 +1136,14 @@ Nous avons repensé et amélioré l’expérience de l’ajout d’options ou d�
 
 Avec la nouvelle amélioration, une boîte plus petite et plus réactive s’affiche en premier.
 
-Pour les champs connectés, vous pouvez les ajouter en effectuant l’une des opérations suivantes :
+Vous pouvez ajouter des champs connectés en procédant de l’une des manières suivantes :
 
-* Ajoutez des objets au champ connecté en les recherchant et en les sélectionnant dans une liste d’une vue de tableau, tout en modifiant en ligne le champ.
-* Cliquez pour ouvrir la zone plus grande Connecter des objets, où vous pouvez afficher tous les noms d’éléments en plus d’informations sur ceux-ci.
+* Ajoutez des objets au champ connecté en les recherchant et en les sélectionnant à partir d’une liste dans la vue tableau, lors de la modification du champ en ligne.
+* Cliquez pour ouvrir la plus grande zone Connecter des objets, dans laquelle vous pouvez voir tous les noms d’éléments ainsi que d’autres informations sur les éléments.
 
-Les améliorations sont désormais disponibles lors de la mise à jour des champs dans la vue de tableau d’un type d’enregistrement.
+Les améliorations sont désormais disponibles lors de la mise à jour des champs dans la vue tableau d’un type d’enregistrement.
 
-Pour plus d’informations, consultez la section [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+Pour plus d’informations, consultez [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
 ## Semaine du 29 janvier 2024
 
@@ -1153,16 +1153,16 @@ Production : 30 janvier 2024
 
 Prévisualisation : à déterminer
 
-Nous avons rehaussé l’expérience de partage pour les espaces de travail et les vues avec les améliorations suivantes :
+Nous avons amélioré l’expérience de partage des espaces de travail et des vues grâce aux améliorations suivantes :
 
-* Pour clarifier les actions que chaque niveau d’autorisation permet à une personne, nous avons ajouté des détails sur chaque niveau d’autorisation lors du partage d’un espace de travail et d’une vue.
+* Afin de clarifier ce que chaque niveau de permission permet à une personne de faire, nous avons ajouté des détails pour chaque niveau de permission lors du partage d’un espace de travail et d’une vue.
 
-* Vous pouvez désormais copier un lien vers un espace de travail ou l’afficher et le partager avec d’autres personnes. Les personnes doivent disposer au moins d’autorisations d’affichage sur l’espace de travail ou sur la vue pour pouvoir y accéder à partir du lien copié.
+* Vous pouvez désormais copier un lien vers un espace de travail ou une vue et le partager avec d’autres personnes. Les personnes doivent avoir au moins les droits d’affichage de l’espace de travail ou de la vue pour pouvoir y accéder à partir du lien copié.
 
 Pour plus d’informations, consultez les articles suivants :
 
 * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
-* [Partager des vues](/help/quicksilver/planning/access/share-views.md)
+* [Partager des affichages](/help/quicksilver/planning/access/share-views.md)
 
 ### Ajouter des miniatures aux enregistrements
 
@@ -1170,11 +1170,11 @@ Production : 1er février 2024
 
 Prévisualisation : à déterminer
 
-Vous pouvez désormais ajouter des miniatures individuelles à chaque enregistrement pour les distinguer dans une vue. Dans la vue de tableau, vous pouvez ajouter des fichiers image que vous avez précédemment enregistrés sur votre ordinateur sous forme de miniatures. Les miniatures peuvent être propres à chaque enregistrement et s’afficher à la fois dans les vues de tableau et chronologique de la page du type d’enregistrement.
+Vous pouvez désormais ajouter des vignettes individuelles à chaque enregistrement pour les distinguer dans une vue. Dans la vue de tableau, vous pouvez ajouter des fichiers images que vous avez préalablement enregistrés sur votre ordinateur sous forme de vignettes. Les vignettes peuvent être propres à chaque enregistrement et s’afficher à la fois dans les vues de tableau et de chronologie de la page du type d’enregistrement.
 
 Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-### Supprimer des cartes de type d’enregistrement connectées
+### Supprimer les cartes de type enregistrement connectées
 
 Production : 1er février 2024
 
@@ -1198,21 +1198,21 @@ Les informations suivantes sont enregistrées dans la nouvelle section Historiqu
 
 * Toute modification de champ
 
-* Les anciennes et nouvelles valeurs de champs, lorsque les valeurs changent.
+* Les anciennes et les nouvelles valeurs des champs, lorsque les valeurs changent.
 
-* Le nom de l’utilisateur ou de l’utilisatrice qui a procédé à la modification.
+* Le nom complet de l’utilisateur ou de l’utilisatrice qui a effectué la modification.
 
-* L’horodatage de la modification.
+* La date et l’heure de la modification.
 
 Pour plus d’informations, voir [Vue d’ensemble de la section Historique](/help/quicksilver/planning/records/history-section-overview.md).
 
-### Nouveau libellé de nouveau lien d’enregistrement
+### Nouveau libellé pour un nouveau lien d’enregistrement
 
 Production : 25 janvier 2024
 
 Prévisualisation : à déterminer
 
-Pour assurer la cohérence lors de la création des enregistrements, nous avons renommé « + Nouveau lien » pour la création d’enregistrements en « + Nouvel enregistrement ».  Avant cette mise à jour, le lien contenait le nom du type d’enregistrement. Le nouveau lien est désormais disponible lors de la création d’enregistrements opérationnels et de taxonomie. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+Afin d’assurer une certaine cohérence lors de la création d’enregistrements, nous avons renommé le lien + Nouveau pour la création d’enregistrements en « + Nouvel enregistrement ».  Avant cette mise à jour, le lien contenait le nom du type d’enregistrement. Le nouveau lien est désormais disponible lors de la création d’enregistrements opérationnels et taxonomiques. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
 ## Semaine du 8 janvier 2024
 
@@ -1228,23 +1228,23 @@ Production : 11 janvier 2024
 
 Prévisualisation : à déterminer
 
-Vous pouvez désormais partager un espace de travail ou une vue avec des utilisateurs et utilisatrices et des groupes. Vous pouvez définir leurs autorisations à différents niveaux, en fonction des informations qu’ils doivent afficher ou modifier.
+Vous pouvez désormais partager un espace de travail ou une vue avec des personnes et des groupes. Vous pouvez définir leurs autorisations à différents niveaux, en fonction des informations qu’ils doivent consulter ou modifier.
 
-Lorsque vous partagez un espace de travail, les utilisateurs et utilisatrices disposent d’autorisations sur les types d’enregistrements, les enregistrements et les champs qu’il contient.
+Lorsque vous partagez un espace de travail, les personnes ont des droits sur les types d’enregistrements, les enregistrements et les champs de cet espace.
 
-Lorsque vous partagez un espace de travail, les utilisateurs et utilisatrices ne reçoivent pas d’autorisations de partage sur les vues associées aux types d’enregistrements de l’espace de travail. Vous devez accorder des autorisations distinctes sur les vues.
+Lorsque vous partagez un espace de travail, les personnes ne reçoivent pas d’autorisations de partage pour les vues associées aux types d’enregistrements de l’espace de travail. Vous devez accorder des autorisations distinctes sur les vues.
 
 Les niveaux d’autorisation pour les espaces de travail sont les suivants :
 
-* Afficher : les utilisateurs et utilisatrices peuvent afficher les espaces de travail qui sont partagés avec eux ou elles. Ils ou elles peuvent également afficher les types d’enregistrements et les enregistrements de l’espace de travail partagé.
+* Afficher : les utilisateurs et utilisatrices peuvent afficher les espaces de travail qui sont partagés avec eux ou elles. Les utilisateurs et utilisatrices peuvent également consulter les types d’enregistrements et les enregistrements de l’espace de travail partagé.
 
-* Contribuer : les utilisateurs et utilisatrices peuvent créer, modifier ou supprimer des enregistrements dans l’espace de travail qui est partagé avec eux ou elles.  Ils ou elles ne peuvent pas créer ou modifier les types d’enregistrement ni les espaces de travail qui sont partagés avec eux ou elles.
+* Contribuer : les utilisateurs et utilisatrices peuvent créer, modifier ou supprimer des enregistrements dans l’espace de travail qui est partagé avec eux.  Ils ne peuvent pas créer ou modifier des types d’enregistrements ou des espaces de travail qui sont partagés avec eux.
 
-* Gérer : les utilisateurs et utilisatrices peuvent créer, modifier et supprimer des espaces de travail, des types d’enregistrements, des enregistrements et des champs dans les espaces de travail qui sont partagés avec eux ou elles.
+* Gérer : les utilisateurs et utilisatrices peuvent créer, modifier et supprimer des espaces de travail, des types d’enregistrements, des enregistrements et des champs dans les espaces de travail qui sont partagés avec eux.
 
-Les niveaux d’autorisation pour les vues d’enregistrement sont les suivantes :
+Les niveaux d’autorisation pour les vues d’enregistrement sont les suivants :
 
-* Afficher : les utilisateurs et utilisatrices peuvent sélectionner la vue dans le menu déroulant Afficher d’une page de type d’enregistrement.
+* Afficher : les utilisateurs et utilisatrices peuvent sélectionner la vue dans le menu déroulant Vue de la page d’un type d’enregistrement.
 * Gérer : les utilisateurs et utilisatrices peuvent modifier, partager et supprimer la vue.
 
 Pour plus d’informations, voir [Vue d’ensemble des accès](/help/quicksilver/planning/access/access-overview.md) et [Vue d’ensemble des autorisations de partage dans les fonctionnalités d’Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
@@ -1255,31 +1255,31 @@ Production : 11 janvier 2024
 
 Prévisualisation : à déterminer
 
-Vous pouvez maintenant ajouter un champ de type Formule à un type d&#39;enregistrement.
+Vous pouvez désormais ajouter un champ de type formule à un type d’enregistrement.
 
-Les champs Formule génèrent une nouvelle valeur en utilisant les valeurs existantes d’autres champs d’un type d’enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
+Les champs de type formule génèrent une nouvelle valeur en utilisant des valeurs existantes provenant d’autres champs d’un type d’enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
 
-Vous ne pouvez pas utiliser de champs de recherche provenant de types d’enregistrement liés dans un calcul de formule. Cette fonctionnalité sera disponible ultérieurement.
+Vous ne pouvez pas utiliser de champs de recherche à partir de types d’enregistrements liés dans un calcul de formule. Cette fonctionnalité sera disponible ultérieurement.
 
-Pour plus d’informations, consultez la section [Vue d’ensemble des champs de formule](/help/quicksilver/planning/fields/formula-fields.md).
+Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/help/quicksilver/planning/fields/formula-fields.md).
 
-### Annuler/rétablir des actions lors de la gestion des enregistrements dans la vue de tableau
+### Actions Annuler/Rétablir lors de la gestion des enregistrements dans la vue tableau
 
 Production : 11 janvier 2024
 
 Prévisualisation : à déterminer
 
-Vous pouvez désormais annuler ou rétablir vos modifications lorsque vous effectuez les actions suivantes dans la vue de tableau :
+Vous pouvez désormais annuler ou rétablir vos modifications lorsque vous effectuez les actions suivantes dans la vue tableau :
 
 * Copier/coller des données
 * Modifier un enregistrement
 * Ajouter un enregistrement
 * Supprimer l’enregistrement
 
-Utilisez les touches suivantes pour annuler ou rétablir des actions :
+Vous pouvez utiliser les touches suivantes pour annuler ou rétablir des actions :
 
-* Annuler : Ctrl/CMD+Z
-* Rétablir : Ctrl/CMD+Maj+Z
+* Annuler : CTRL/CMD+Z
+* Rétablir : CTRL/CMD+Maj+Z
 
 Pour plus d’informations, consultez les articles suivants :
 

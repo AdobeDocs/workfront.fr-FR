@@ -26,4 +26,4 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 Pour plus de clarté sur les ajustements manuels ou les contours dans l’équilibreur de charge de travail, les allocations horaires ajustées manuellement affichent désormais une icône en forme de crayon.
 
-Pour plus d’informations, voir [Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Pour plus d’informations, consultez [Gérer les affectations de personnes dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).

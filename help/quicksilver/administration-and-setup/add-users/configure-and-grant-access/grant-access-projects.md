@@ -23,45 +23,45 @@ En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez uti
 * [Vue d’ensemble des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [Vue d’ensemble des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
 
-Pour plus d’informations sur l’utilisation des niveaux d’accès personnalisés afin de gérer l’accès des personnes à d’autres types d’objets dans Workfront, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Pour plus d’informations sur l’utilisation des niveaux d’accès personnalisés pour gérer l’accès des personnes à d’autres types d’objets dans Workfront, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
     <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouvelle : standard </p>
+   <td> <p>Nouveau : Standard </p>
  <p>ou</p> 
-<p>Actuelle : formule </p> 
+<p>Actuel : formule </p> 
 </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Configurer l’accès des personnes aux projets en utilisant un niveau d’accès personnalisé
 
 1. Commencez à créer ou à modifier le niveau d’accès, comme expliqué dans [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Cliquez sur l’icône en forme d’engrenage ![](assets/gear-icon-settings.png) sur le bouton **Afficher** ou **Modifier** à droite de Projects, puis sélectionnez les capacités que vous souhaitez accorder sous **Ajuster vos paramètres**.
+1. Cliquez sur l’icône en forme d’engrenage ![](assets/gear-icon-settings.png) sur le bouton **Afficher** ou **Modifier** à droite de Projects, puis sélectionnez les capacités que vous souhaitez accorder sous **Affiner vos paramètres**.
 
    ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
@@ -69,8 +69,8 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
    >
    >* Les personnes disposant d’une licence de travail ont des droits limités sur les projets. Elles peuvent contribuer à un projet, mais pas le gérer.
    >* Les personnes disposant d’une licence de révision ont le droit d’afficher des projets issus de problèmes convertis, mais leurs droits d’affichage sont limités.
-   >* Pour plus d’informations sur les autorisations que les personnes peuvent accorder lorsqu’elles partagent des projets avec d’autres personnes, voir [Partager un projet dans Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-   >* Lorsque vous configurez un niveau d’accès pour un certain type d’objet, cette configuration n’affecte pas l’accès des utilisateurs et utilisatrices aux objets de rang inférieur. Par exemple, vous pouvez empêcher les personnes de supprimer des projets dans leur niveau d’accès, mais cela ne les empêche pas de supprimer des tâches, dont le rang est inférieur à celui des projets. Pour plus d’informations sur la hiérarchie des objets, voir la section [Interdépendance et hiérarchie des objets](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) dans l’article [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   >* Pour plus d’informations sur les autorisations que les personnes peuvent accorder lorsqu&#39;elles partagent des projets avec d’autres personnes, voir [Partager un projet dans Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   >* Lorsque vous configurez un niveau d’accès pour un certain type d’objet, cette configuration n’affecte pas l’accès des utilisateurs et utilisatrices aux objets de rang inférieur. Par exemple, vous pouvez empêcher les personnes d’effacer des projets dans leur niveau d’accès, mais cela ne les empêche pas d’effacer des tâches, dont le rang est inférieur à celui des projets. Pour plus d’informations sur la hiérarchie des objets, voir la section [Interdépendance et hiérarchie des objets](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) dans l’article [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Facultatif) Cliquez sur **Définir les paramètres de partage par défaut** à droite de l’option Créer, puis sur **Ajouter une règle** pour ajouter une règle de partage pour les nouveaux projets.
 
@@ -88,15 +88,15 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
    Vous pouvez répéter cette étape pour ajouter autant de règles de partage de projet que nécessaire pour le niveau d’accès.
 
-1. Cliquez sur le X pour fermer la case **Ajuster vos paramètres**.
-1. (Facultatif) Pour configurer les paramètres d’accès pour d’autres objets et zones dans le niveau d’accès sur lequel vous travaillez, continuez avec l’un des articles répertoriés dans [Configurer l’accès à Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), tels que [Accorder l’accès aux tâches](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) et [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. Cliquez sur le X pour fermer la case **Affiner vos paramètres**.
+1. (Facultatif) Pour configurer les paramètres d’accès pour d’autres objets et domaines dans le niveau d’accès sur lequel vous travaillez, poursuivez avec l’un des articles répertoriés dans [Configurer l’accès à Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), tels que [Accorder l’accès aux tâches](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) et [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Lorsque vous avez terminé, cliquez sur **Enregistrer**.
 
-   Une fois le niveau d’accès créé, vous pouvez l’attribuer à un utilisateur ou à une utilisatrice. Pour plus d’informations, voir [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Une fois le niveau d’accès créé, vous pouvez l’attribuer à un utilisateur ou à une utilisatrice. Pour plus d’informations, voir [Modifier le profil d’une personne](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Accéder aux rapports, tableaux de bord et calendriers par type de licence
 
-Pour plus d’informations sur ce que les personnes de chaque niveau d’accès peuvent faire avec les problèmes, voir la section [Projets](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) dans l’article [Fonctionnalités disponibles pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Pour plus d’informations sur ce que les personnes de chaque niveau d’accès peuvent faire avec les problèms, voir la section [Projets](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) dans l’article [Fonctionnalités disponibles pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Accéder à des projets partagés
 

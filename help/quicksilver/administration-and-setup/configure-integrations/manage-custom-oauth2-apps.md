@@ -25,8 +25,8 @@ En tant qu’administrateur ou administratrice d’[!DNL Adobe Workfront], vous 
 >* Vous pouvez avoir jusqu’à dix applications OAuth2 à la fois.
 
 * Pour plus d’informations sur la création d’applications OAuth2 personnalisées, voir [Créer des applications OAuth2 pour les intégrations de  [!DNL Workfront] ](../../administration-and-setup/configure-integrations/create-oauth-application.md).
-* Pour obtenir des instructions sur la configuration et l’utilisation de l’application OAuth2 avec les informations d’identification de l’utilisateur ou utilisatrice (flux de code d’autorisation), voir [Configurer et utiliser des applications OAuth2 personnalisées de votre entreprise à l’aide du flux de code d’autorisation](../../wf-api/api/oauth-app-code-token-flow.md).
-* Pour obtenir des instructions sur la configuration et l’utilisation de l’application OAuth2 à l’aide de l’authentification du serveur (flux JWT), voir [Configurer et utiliser des applications OAuth2 personnalisées de votre entreprise à l’aide du flux JWT](../../wf-api/api/oauth-app-jwt-flow.md).
+* Pour obtenir des instructions sur la configuration et l’utilisation de l’application OAuth2 avec les informations d’identification de l’utilisateur ou utilisatrice (flux de code d’autorisation), voir [Configurer et utiliser des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux de code d’autorisation](../../wf-api/api/oauth-app-code-token-flow.md).
+* Pour plus d’informations sur la configuration et l’utilisation de l’application OAuth2 à l’aide de l’authentification du serveur (flux JWT), voir [Configurer et utiliser les applications OAuth2 personnalisées de votre entreprise à l’aide du flux JWT](../../wf-api/api/oauth-app-jwt-flow.md).
 * Pour obtenir des instructions sur la configuration et l’utilisation de l’application OAuth2 à l’aide de PKCE, voir [Configurer et utiliser des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux PKCE](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Conditions d’accès
@@ -40,17 +40,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>[!DNL Pro] ou supérieur</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td> <p>[!DNL Pro] ou une version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Plan] ou niveau supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> Vous devez être un administrateur ou une administratrice de [!DNL Workfront]. </p>
-    <p>Pour plus d’informations sur les administrateurs et les administratrices [!DNL Workfront], voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder à un utilisateur ou à une utilisatrice un accès administratif complet</a>.</p>
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> Vous devez être un administrateur ou une administratrice [!DNL Workfront]. </p>
+    <p>Pour plus d’informations sur les administrateurs et administratrices [!DNL Workfront], voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès administratif complet à une personne</a>.</p>
      </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ Pour plus d’informations, voir [Créer des applications OAuth2 pour les intég
 {{step-1-to-setup}}
 
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Système]**, puis sélectionnez **[!UICONTROL Applications OAuth]**.
-1. Cliquez sur **[!UICONTROL Créer l’intégration de l’application]**.
+1. Cliquez sur **[!UICONTROL Créer l’intégration d’application]**.
 1. Pointez sur l’application, puis cliquez sur l’icône **[!UICONTROL Modifier]** ![](assets/edit-icon.png) lorsqu’elle apparaît tout à droite.
 1. (Facultatif) Modifiez les détails de l’application.
 
@@ -87,7 +87,7 @@ Pour plus d’informations, voir [Créer des applications OAuth2 pour les intég
 {{step-1-to-setup}}
 
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Système]**, puis sélectionnez **[!UICONTROL Applications OAuth]**.
-1. Cliquez sur **  **.
+1. Cliquez sur **  **.
 1. Pointez sur l’application, puis cliquez sur l’icône **[!UICONTROL Supprimer]** ![](assets/delete.png) lorsqu’elle apparaît tout à droite.
 
 ## Gérer des secrets clients dans les applications OAuth2
@@ -123,7 +123,7 @@ Pour plus d’informations, voir [Créer des applications OAuth2 pour les intég
 {{step-1-to-setup}}
 
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Système]**, puis sélectionnez **[!UICONTROL Applications OAuth]**.
-1. Cliquez sur **[!UICONTROL Créer l’intégration d’application]**
+1. Cliquez sur **[!UICONTROL Créer l’intégration d’application]**.
 1. Pointez sur l’application, puis cliquez sur l’icône **[!UICONTROL Modifier]** lorsqu’elle apparaît tout à droite.
 1. Localisez le secret client pour lequel vous souhaitez ajouter ou modifier une note.
 1. Cliquez sur la zone contenant les détails du secret client.
@@ -141,7 +141,7 @@ Pour plus d’informations, voir [Créer des applications OAuth2 pour les intég
 {{step-1-to-setup}}
 
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Système]**, puis sélectionnez **[!UICONTROL Applications OAuth]**.
-1. Cliquez sur **[!UICONTROL Créer l’intégration d’application]**
-1. Pointez sur l’application, puis cliquez sur l’icône **[!UICONTROL Modifier]** lorsqu’elle apparaît tout à droite.
+1. Cliquez sur **[!UICONTROL Créer l’intégration d’application]**.
+1. Pointtez sur l’application, puis cliquez sur l’icône **[!UICONTROL Modifier]** lorsqu’elle apparaît tout à droite.
 1. Recherchez le secret client que vous souhaitez supprimer.
 1. Cliquez sur l’icône **[!UICONTROL Supprimer]** ![](assets/delete.png) en regard du secret client.

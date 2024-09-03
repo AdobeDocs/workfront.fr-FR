@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
-description: Vous pouvez créer un processus d’approbation que les utilisateurs peuvent joindre à un élément de travail, un document ou un BAT. Vous pouvez également créer des chemins de jalon qui peuvent être appliqués à n’importe quel projet du système.
+description: Vous pouvez créer un processus d’approbation que les utilisateurs et les utilisatrices peuvent joindre à un élément de travail, un document ou une épreuve. Vous pouvez également créer des chemins jalonnés qui peuvent être appliqués à n’importe quel projet dans le système.
 author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
@@ -13,7 +13,7 @@ exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
 source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 19%
+ht-degree: 93%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 19%
 
 Cette section contient les articles suivants :
 
-* [ Créez un processus d’approbation pour les tâches ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+* [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
 * [Modifier un processus d’approbation](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
-* [Configuration des paramètres d’approbation globaux](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
-* [Comment les modifications du processus d&#39;approbation et de groupe affectent-elles les processus d&#39;approbation attribués](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
+* [Configurer des paramètres d’approbation globaux](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+* [Comment les modifications de groupe et de processus d’approbation impactent les processus d’approbation affectés](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
 * [Créer un chemin jalonné](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)

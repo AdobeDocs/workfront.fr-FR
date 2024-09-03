@@ -45,7 +45,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -56,7 +56,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -80,8 +80,8 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Gérer les autorisations d’un espace de travail</a> </p>  
-   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p></td> 
+   <td>   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -90,7 +90,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -159,11 +159,11 @@ OLD
 
 Vous devez tenir compte des points suivants avant d’apporter des modifications à la configuration d’un champ :
 
-* Vous pouvez modifier les champs que vous avez créés ou créés par d’autres utilisateurs et utilisatrices, si vous disposez des autorisations de gestion sur l’espace de travail auquel ces champs appartiennent.
+* Vous pouvez modifier les champs que vous avez créés ou ceux créés par d’autres personnes, si vous disposez des autorisations de gestion sur l’espace de travail auquel ces champs appartiennent.
 * Vous pouvez modifier un champ dans le tableau de type enregistrement.
 * Vous ne pouvez pas modifier un champ sur la page d’enregistrement ni dans une autre vue, en dehors de la vue de tableau.
-* Une fois le champ enregistré, vous ne pouvez pas modifier son type.
-* Vous ne pouvez pas désélectionner le paramètre Autoriser les nombres négatifs précédemment sélectionné, pour un champ Nombre, Pourcentage ou Devise si des valeurs négatives sont déjà stockées dans les enregistrements auxquels il est rattaché.
+* Une fois le champ enregistré, vous ne pouvez plus le modifier.
+* Vous ne pouvez pas désélectionner le paramètre Autoriser les nombres négatifs précédemment sélectionné pour un champ Nombre, Pourcentage ou Devise si des valeurs négatives sont déjà stockées dans les enregistrements auxquels il est joint.
 * Vous pouvez modifier la configuration des éléments de champ suivants, après avoir enregistré le champ :
 
    * Nom ou Description d’un champ
@@ -192,12 +192,12 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
 
 1. Cliquez sur la carte d’un type d’enregistrement.
 
-   La page du type d’enregistrement s’affiche.
+   Cela ouvre la page du type d’enregistrement.
 
 1. (Conditionnel) Cliquez sur l’onglet d’une **vue Tableau**.
 
-   Tous les enregistrements existants associés au type d’enregistrement s’affichent dans les lignes de la vue du tableau.
-1. Pointez sur l’en-tête de colonne d’un champ à modifier, cliquez sur la flèche pointant vers le bas située après le nom du champ, puis cliquez sur **Modifier un champ**.
+   Tous les enregistrements existants associés au type d’enregistrement s’affichent dans les lignes de la vue Tableau.
+1. Pointez sur l’en-tête de colonne d’un champ à modifier, puis cliquez sur la flèche pointant vers le bas située après le nom du champ, puis sur **Modifier le champ**
 
    Ou
 
@@ -209,7 +209,7 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
 
    >[!TIP]
    >
-   >* Une fois le champ enregistré, vous ne pouvez pas mettre à jour son type.
+   >* Une fois le champ enregistré, vous ne pouvez plus le mettre à jour.
    >
    >* Lorsque vous modifiez des configurations de champ (options de champ ou expressions de formule), les enregistrements qui contiennent déjà des informations dans les champs modifiés mettent à jour leurs valeurs en temps réel. Il n’y a aucun avertissement et aucun journal d’audit pour les modifications de valeur déclenchées par les modifications de configuration des champs. Tous les utilisateurs qui visualisent les champs verront immédiatement les nouvelles valeurs avec les modifications.
 

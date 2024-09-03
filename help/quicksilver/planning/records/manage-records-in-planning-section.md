@@ -51,7 +51,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td>
   </tr>  
  <tr>
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td>
    <td>
 <p>L’un des projets Workfront suivants est prévu :</p>
 <ul><li>Sélectionner</li>
@@ -63,7 +63,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr>
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td>
    <td>
-<p>N’importe quelle</p>
+<p>Tous</p>
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p>
    </td>
 
@@ -97,14 +97,14 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page comprenant la zone Planification du menu principal et la zone Planification des projets, portefeuilles et programmes. </p> Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation des accès</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -114,8 +114,8 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
   Pour plus d’informations, voir les articles suivants :
 
-   * [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
+   * [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Connect records](/help/quicksilver/planning/records/connect-records.md)
 * Vous pouvez afficher la section Planification dans un objet Workfront, même lorsqu’aucun enregistrement n’est associé à l’objet Workfront.
 * Vous pouvez connecter des enregistrements de planification à des objets Workfront de Workfront, dans la section Planification lorsqu’au moins un enregistrement est connecté à l’objet Workfront.
 
@@ -128,7 +128,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
 1. Cliquez sur la carte d’un type d’enregistrement connecté à un projet, un portfolio ou un programme Workfront.
-1. Accédez à un champ d’enregistrement connecté qui a une connexion avec un objet Workfront, soit en mode Tableau, soit à partir de la page de détails d’un enregistrement. Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+1. Accédez à un champ d’enregistrement connecté qui a une connexion avec un objet Workfront, soit en mode Tableau, soit à partir de la page de détails d’un enregistrement. Pour plus d’informations, consultez la section [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
 1. Cliquez sur le nom d’un objet Workfront dans le champ d’enregistrement connecté.
 La page des objets s’ouvre dans Workfront.
 
@@ -157,7 +157,7 @@ Les événements suivants se produisent :
    * L’enregistrement n’est plus connecté à l’objet Workfront.
    * L’objet Workfront est également supprimé du champ connecté de l’enregistrement de Workfront Planning.
    * Les valeurs des champs de recherche Workfront connectés à l’enregistrement Planning sont également supprimées.
-1. Cliquez sur **Connect** pour connecter plus d’enregistrements pour les types d’enregistrements connectés. Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+1. Cliquez sur **Connect** pour connecter plus d’enregistrements pour les types d’enregistrements connectés. Pour plus d’informations, consultez [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
    Les événements suivants se produisent :
 

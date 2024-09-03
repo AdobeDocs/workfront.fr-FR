@@ -53,7 +53,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -64,7 +64,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -88,9 +88,9 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>  <p>Autorisations d’affichage ou autorisations supérieures sur un espace de travail permettant de partager un enregistrement à l’aide d’un lien </p>
+   <td>  <p>Autorisations d’affichage ou autorisations supérieures pour un espace de travail afin de partager un enregistrement à l’aide d’un lien </p>
    <p>Gérer les autorisations d’un espace de travail pour partager des enregistrements pendant le partage de l’espace de travail auquel appartient l’enregistrement </p>
-   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>  </td> 
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -99,7 +99,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -160,22 +160,22 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
 -->
 
-## Partager des liens d’enregistrement à partir de la vue Tableau des types enregistrements
+## Partager des liens d’enregistrements à partir de la vue en tableau des types d’enregistrements
 
 {{step1-to-planning}}
 
-L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
-1. Cliquez sur une carte de type d’enregistrement.
+L’espace de travail auquel vous avez accédé en dernier s’ouvre.
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
-   La page du type d’enregistrement s’ouvre.
-1. (Le cas échéant) Dans le menu déroulant **Vue** situé dans le coin supérieur droit du tableau, sélectionnez une vue Tableau. Il s’agit de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue Chronologique lors de votre dernier accès.
+   La page de type d’enregistrement s’ouvre.
+1. (Le cas échéant) Dans le menu déroulant **Vue** situé dans le coin supérieur droit du tableau, sélectionnez la vue en tableau. Il doit s’agir de la vue par défaut, sauf si vous avez affiché le type d’enregistrement dans la vue chronologique la dernière fois que vous y avez accédé.
 
-   Les enregistrements associés au type d’enregistrement sélectionné s’affichent dans la vue Tableau.
-1. Cliquez avec le bouton droit sur une ligne d’enregistrement
+   Les enregistrements associés au type d’enregistrement sélectionné s’affichent dans la vue de tableau.
+1. Effectuez un clic droit sur une ligne d’enregistrement
 
    Ou
 
-   Passez la souris sur le nom d’un enregistrement, cliquez sur le menu **Plus** ![](assets/more-menu.png), puis sur **Copier le lien**.
+   Pointez sur le nom d’un enregistrement, cliquez sur le menu **Plus** ![](assets/more-menu.png), puis cliquez sur **Copier le lien**.
 
    ![](assets/contextual-menu-for-record-row.png)
 
@@ -196,4 +196,4 @@ Vous pouvez partager tous les enregistrements dans un espace de travail lorsque 
 
 Seuls les utilisateurs disposant des autorisations de gestion d’un espace de travail peuvent le partager avec d’autres utilisateurs.
 
-Pour plus d’informations, voir [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md).
+Pour plus d’informations, consultez la section [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md).

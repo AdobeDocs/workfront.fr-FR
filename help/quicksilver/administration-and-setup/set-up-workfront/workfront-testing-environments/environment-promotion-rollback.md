@@ -18,7 +18,7 @@ ht-degree: 22%
 
 # Restauration d’un package de promotion d’environnement
 
-<span class="preview">Les informations sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation de sandbox.</span>
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Après avoir installé un package, vous pouvez le restaurer. Cette opération supprime les modifications apportées par le package dans l’environnement cible et restaure les objets concernés dans leurs configurations précédentes.
 
@@ -42,14 +42,14 @@ Vous devez disposer des éléments suivants :
    </td>
   </tr>
    <tr>
-   <td>Configurations du niveau d’accès
+   <td>Configurations des niveaux d’accès
    </td>
-   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront].
+   <td>Vous devez être administrateur ou administratrice [!DNL Workfront].
    </td>
   </tr>
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, voir la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -71,7 +71,7 @@ Pour savoir si un déploiement de package spécifique peut être restauré, tene
 ## Restauration d’un package de promotion d’environnement installé
 
 1. Accédez à l’environnement dans lequel le package a été installé.
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]**  ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **Promotion de l’environnement** dans le volet de navigation de gauche.
 1. Sélectionnez le module à restaurer, puis cliquez sur **Déploiements**.
 1. Passez la souris sur le déploiement (installation) que vous souhaitez restaurer, puis cliquez sur Restaurer lorsqu’il apparaît à droite de la ligne du déploiement.

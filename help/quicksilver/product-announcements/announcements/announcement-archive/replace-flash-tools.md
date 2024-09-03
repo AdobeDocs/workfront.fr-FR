@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Nous avons supprimé tous les outils Flash d’Adobe Workfront Classic.
 
-De nouveaux outils basés sur les normes actuelles sont désormais disponibles dans Workfront. Ces modifications s’inscrivent dans le cadre de la fin de la prise en charge des produits Flash, comme annoncé par Adobe.
+De nouveaux outils basés sur les normes actuelles sont désormais disponibles dans Workfront. Ces changements s’inscrivent dans la fin de la prise en charge des produits Flash, comme annoncé par Adobe.
 
 ## Dates importantes
 
-Les dates suivantes sont importantes dans le processus de suppression de tous les outils Flash de Workfront :
+Les dates suivantes sont à retenir pour le processus de suppression de tous les outils Flash dans Workfront :
 
 <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>July 1, 2020</strong>: All Flash-based tools will be removed from all Workfront products for those customers who are not using them currently. </p>
@@ -34,7 +34,7 @@ Les dates suivantes sont importantes dans le processus de suppression de tous le
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about contacting our support team, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>. </p>
   -->
 
-* **19 novembre 2020** : tous les outils Flash ont été supprimés de tous les produits Workfront.
+* **19 novembre 2020** : supression des outils Flash de tous les produits Workfront.
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -47,7 +47,7 @@ Les dates suivantes sont importantes dans le processus de suppression de tous le
 
 Les outils répertoriés dans les sections suivantes ont été supprimés du système Workfront et remplacés par de nouvelles solutions.
 
-Pour plus d’informations sur les outils de remplacement, consultez la section [Outils Flash hérités et leurs remplacements](#legacy-flash-based-tools-and-their-replacements) de cet article.
+Pour plus d’informations sur les outils de remplacement, consultez la section [Outils Flashs hérités et leurs héritiers](#legacy-flash-based-tools-and-their-replacements) dans cet article.
 
 ### Gestion des ressources
 
@@ -76,24 +76,24 @@ Pour plus d’informations sur les outils de remplacement, consultez la section 
 
   .
 
-* Sous-onglet Grille des ressources dans l’onglet Personnel d’un projet
+* Sous-onglet Grille des ressources de l’onglet Personnel d’un projet
 * L’option Utiliser la zone Nouvel horaire du sous-onglet Planification de l’onglet Personnel d’un projet supprime l’ancienne zone de planification ou Team Builder. Dans ce cas, la chronologie de planification s’affiche désormais par défaut.
-* Onglet Affectation sous le profil utilisateur ou utilisatrice
+* Onglet Affectation sous le profil utilisateur
 
 ### Rapports
 
-Les fonctionnalités et rapports de création de rapports suivants ont été supprimés :
+Les rapports et fonctionnalités de création de rapports suivants ont été supprimés :
 
 * Suppression des fonctionnalités de création de rapports :
 
-   * Option Grille des ressources dans un rapport utilisateur ou utilisatrice
+   * Option Grille des ressources d’un rapport utilisateur
    * Option Ancien graphique Gantt dans un rapport de projet ou de tâche\
      Pour plus d’informations, consultez la section [Afficher les informations dans le graphique de Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
-* Suppression des rapports :
+* Rapports supprimés :
 
-   * Rapport de l’ancien groupe de ressources
-   * Rapport des estimations de ressources
+   * Rapport Ancien groupe de ressources
+   * Rapport Estimations de ressources
 
   >[!NOTE]
   >
@@ -102,12 +102,12 @@ Les fonctionnalités et rapports de création de rapports suivants ont été sup
 ### Ancien graphique Gantt
 
 * Toutes les vues Ancien graphique de Gantt des listes de projets et de tâches, ainsi que les rapports et options de création de rapports
-* Sous-onglets Ancien graphique de Gantt dans Portfolios et Programmes
-* Le sous-onglet Ancien graphique Gantt dans une liste de tâches de modèle sur un modèle, l’ancienne vue Gantt dans l’onglet Sous-tâches d’une tâche de modèle et dans un rapport Tâche de modèle.
+* Sous-onglets Ancien graphique Gantt dans les portfolios et programmes
+* Sous-onglet Ancien graphique Gantt dans une liste de tâches de modèle d’un modèle, vue Ancien graphique Gantt de l’onglet Sous-tâches d’une tâche de modèle et dans un rapport Tâche de modèle
 
 ### Relecture
 
-L’ancienne visionneuse de relecture a été remplacée par la nouvelle visionneuse de relecture web et la nouvelle visionneuse de relecture de bureau pour la plupart des clientes et clients. Elle a été supprimée pour l’ensemble des clientes et clients en novembre 2020.
+L’ancienne visionneuse de relecture a été remplacée par la nouvelle visionneuse de relecture web et de bureau pour la plupart des clientes et clients. Elle a été supprimée pour l’ensemble des personnes en novembre 2020.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">With the 2018.2 release, the Legacy proofing viewer was removed as the default viewer.</p>
@@ -115,8 +115,8 @@ L’ancienne visionneuse de relecture a été remplacée par la nouvelle visionn
 
 Pour plus d’informations, consultez les ressources suivantes :
 
-* [Vérifier des épreuves dans la visionneuse de relecture web](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
-* [Vérifier des épreuves dans la visionneuse de relecture de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
+* [Réviser les épreuves dans la visionneuse de relecture web](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
+* [Réviser les épreuves dans la visionneuse de relecture de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md" class="MCXref xref">Legacy proofing viewer removed in 2018.3</a> </li>
@@ -133,60 +133,60 @@ Pour plus d’informations, consultez les ressources suivantes :
 </div>
 -->
 
-## Outils Flash hérités et leurs remplacements {#legacy-flash-based-tools-and-their-replacements}
+## Anciens outils Flashs et leurs héritiers {#legacy-flash-based-tools-and-their-replacements}
 
 Sauf indication contraire, toutes les anciennes fonctionnalités ont été remplacées par de nouvelles, comme illustré dans le tableau suivant.
 
 >[!CAUTION]
 >
->Les anciens outils Flash ont été supprimés de tous les environnements.
+>Les anciens outils Flashs ont été supprimés de tous les environnements.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Outils hérités</strong> </p> </th> 
+   <th> <p><strong>Anciens outils</strong> </p> </th> 
    <th> <p><strong>Nouveaux outils</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Anciens groupes de ressources</strong> </p> <p>Les anciens groupes de ressources étaient des groupes ou des collections de fonctions nécessaires en même temps pour la fin d’un projet. Les anciens groupes de ressources présentaient un certain nombre de lacunes :</p> 
+   <td> <p><strong>Anciens groupes de ressources</strong> </p> <p>Les anciens groupes de ressources étaient des groupes ou des collections de fonctions nécessaires simultanément pour l’achèvement d’un projet. Les anciens groupes de ressources présentaient un certain nombre d’inconvénients :</p> 
     <ul> 
-     <li> Vous pouviez associer une personne à un ancien groupe de ressources, mais cette fonctionnalité était réservée à la création de rapports. Comme les anciens groupes de ressources utilisaient des entités de fonctions abstraites, aucune des exceptions d’horaire et de congés des utilisateurs et utilisatrices n’était prise en compte, ce qui entraînait des données inexactes sur la disponibilité de la ressource. </li> 
+     <li> Vous pouviez associer un profil utilisateur à un ancien groupe de ressources, mais il n’était utilisé qu’à des fins de création de rapports. Étant donné que les anciens groupes de ressources fonctionnaient avec des entités de fonctions abstraites, aucune des exceptions de planning et aucun des congés des utilisateurs et utilisatrices n’était pris en compte, ce qui renvoyait des données inexactes sur la disponibilité des ressources. </li> 
     </ul> 
     <ul> 
-     <li>Vous ne pouviez spécifier qu’un seul groupe de ressources hérité par projet, ce qui entraînait la prise en charge de plusieurs groupes de ressources hérités ne prenant en charge que le flux de groupes distincts fonctionnant indépendamment les uns des autres et ne partageant jamais de ressources. Dans tous les autres cas, il était recommandé de conserver un groupe de ressources hérité qui incluait toutes les ressources du système, ce qui entraînait des problèmes de performances avec un grand nombre de projets et de données.</li> 
+     <li>Vous ne pouviez spécifier qu’un seul ancien groupe de ressources par projet ; plusieurs anciens groupes de ressources ne prenaient ainsi en charge que le flux de groupes distincts fonctionnant indépendamment les uns des autres et ne partageant jamais de ressources. Dans tous les autres cas, il était recommandé de conserver un ancien groupe de ressources qui incluait toutes les ressources du système, ce qui entraînait des problèmes de performances lorsque le nombre de projets et de données était important.</li> 
     </ul> </td> 
-   <td> <p><strong>Groupe de ressources</strong> </p> <p>Les nouveaux groupes de ressources sont un ensemble d’utilisateurs et d’utilisatrices qui sont nécessaires en même temps à la réalisation du projet. Workfront se rend également compte qu’il existe des cas où des personnes spécialisées ont besoin que le travail leur soit affecté séparément. Pour cette raison, vous pouvez désormais budgéter les personnes au lieu des fonctions. </p> Les avantages du groupe de ressources par rapport aux anciens groupes de ressources sont les suivants : 
+   <td> <p><strong>Groupe de ressources</strong> </p> <p>Les nouveaux groupes de ressources constituent une collection d’utilisateurs et d’utilisatrices qui sont nécessaires simultanément pour l’achèvement du projet. Workfront réalise également qu’il existe des cas où des utilisateurs et utilisatrices spécialisés doivent se voir affecter du travail séparément. Pour cette raison, vous pouvez désormais budgéter des utilisateurs et utilisatrices au lieu des fonctions. </p> Les avantages du groupe de ressources par rapport aux anciens groupes de ressources incluent les éléments suivants : 
     <ul>
-     <li>Comme les groupes de ressources sont basés sur les personnes, leurs exceptions d’horaire et congés sont déjà prises en compte pour les calculs de disponibilité des personnes et des rôles. Cela se traduit par des données précises et à jour, ce qui permet de prendre des décisions budgétaires correctes et de minimiser la probabilité de modifications lorsque le projet est en cours d’exécution.</li>
+     <li>Comme les groupes de ressources sont basés sur les utilisateurs et utilisatrices, leurs congés et exceptions de planning sont déjà pris en compte pour les calculs de disponibilité des utilisateurs et utilisatrices et des rôles. Cela se traduit par des données précises et à jour, ce qui permet de prendre des décisions budgétaires correctes et de minimiser la probabilité de changements lorsque le projet est en cours d’exécution.</li>
      <li>Comme il existe désormais un meilleur contrôle sur la disponibilité des ressources et la précision des données, Workfront vous permet d’associer plusieurs groupes de ressources à un projet. Une personne peut également appartenir à plusieurs groupes de ressources si elle dispose de plusieurs compétences pouvant être utilisées simultanément dans plusieurs projets. </li>
-    </ul><p>Avec un tel contrôle sur les données, il n’est plus nécessaire d’avoir un seul groupe de ressources qui inclut toutes les ressources pour la répartition du budget disponible. En outre, nous ne recommandons pas cette pratique. Nous vous recommandons plutôt de diversifier vos groupes de ressources et de n’associer que les groupes de ressources appropriés aux projets.</p><p> Pour plus d’informations sur les groupes de ressources, consultez la section <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Vue d’ensemble des groupes de ressources. </a></p></td> 
+    </ul><p>Avec un tel contrôle sur les données, il n’est plus nécessaire d’avoir un seul groupe de ressources qui inclut toutes les ressources pour la répartition du budget disponible. En fait, nous ne le recommandons pas. Nous vous recommandons plutôt de diversifier vos groupes de ressources et de n’associer que les groupes de ressources appropriés aux projets.</p><p> Pour plus d’informations sur les groupes de ressources, voir <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">Vue d’ensemble des groupes de ressources</a>.</p></td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Gestionnaire du budget des ressources</strong> </p> <p>Utilisez le gestionnaire du budget des ressources pour spécifier la disponibilité des ressources de fonctions pour plusieurs groupes de ressources. Cependant, en raison des lacunes de l’ancien groupe de ressources, cette fonctionnalité était peu utilisée. En effet, lors de son utilisation, les utilisateurs et utilisatrices devaient saisir manuellement la disponibilité des fonctions pour rendre le budget plus précis. Les exceptions d’horaire et les congés des personnes n’étaient pas pris en compte.</p> </td> 
-   <td> <p>Avec le calcul automatique de la disponibilité basé sur les personnes des groupes de ressources, le gestionnaire du budget des ressources n’est plus nécessaire. L’outil a été supprimé, ainsi que tous les efforts manuels de calcul de la disponibilité.</p> </td> 
+   <td> <p><strong>Gestionnaire du budget des ressources</strong> </p> <p>Vous pouvez utiliser le gestionnaire du budget des ressources pour spécifier la disponibilité des ressources de fonction pour plusieurs groupes de ressources. Cependant, en raison des inconvénients de l’ancien groupe de ressources, cette fonctionnalité était rarement utilisée. Lorsqu’elle était utilisée, elle obligeait les utilisateurs et les utilisatrices à saisir manuellement la disponibilité des fonctions pour obtenir une budgétisation plus précise. Les exceptions de planning et les congés des utilisateurs et des utilisatrices n’étaient pas pris en compte.</p> </td> 
+   <td> <p>Grâce au calcul automatique de la disponibilité basé sur les utilisateurs et les utilisatrices des groupes de ressources, le gestionnaire du budget des ressources n’est plus nécessaire. L’outil a été supprimé, ainsi que tout le travail manuel de calcul de la disponibilité.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Estimations de ressources</strong> </p> <p>L’onglet Estimations de ressources sous chaque groupe de ressources hérité poursuivait le même objectif que le gestionnaire du budget des ressources, mais uniquement dans le contexte d’un ancien groupe de ressources. Cet outil présentait les mêmes limites que le gestionnaire du budget des ressources et les groupes de ressources hérités : données inexactes et saisie manuelle de la disponibilité. </p> </td> 
-   <td> <p>Avec le calcul automatique de la disponibilité des personnes, les estimations de ressources sont devenues obsolètes et ont été supprimées.</p> <p>L’outil est éliminé des anciens groupes de ressources et des anciennes estimations de ressources dans le business case d’un projet. <!--
+   <td> <p><strong>Estimations de ressources</strong> </p> <p>L’objectif de l’onglet Estimations de ressources sous chaque ancien groupe de ressources était le même que celui du gestionnaire du budget des ressources, dans le cadre d’un ancien groupe de ressources seulement. Cet outil présentait les mêmes limites que le gestionnaire du budget des ressources et les anciens groupes de ressources : données inexactes et saisie manuelle de la disponibilité. </p> </td> 
+   <td> <p>Grâce au calcul automatique de la disponibilité de l’utilisateur ou de l’utilisatrice, les estimations de ressources sont devenues obsolètes et ont été supprimées.</p> <p>L’outil est supprimé dans les anciens groupes de ressources et dans les anciennes estimations de ressources dans le business case d’un projet. <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
       </MadCap:conditionalText>
      --></p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Planificateur de capacités</strong> </p> <p>Le planificateur de capacités était un outil de Workfront permettant de budgéter les ressources et de hiérarchiser les projets dans un ancien groupe de ressources, en fonction de la disponibilité des ressources. En raison du caractère incomplet des données provenant des estimations de ressources et du gestionnaire du budget des ressources qui fournissaient les informations au planificateur de capacités, la hiérarchisation des projets par rapport à la disponibilité des personnes devait faire l’objet d’un examen attentif.</p> <p>L’utilisation d’un seul groupe de ressources qui incluait toutes les fonctions dans le système était le scénario le plus courant, ce qui entraînait des problèmes de performances lorsque le planificateur de capacités tentait de charger un grand nombre de projets.</p> </td> 
-   <td> <p><strong>Vue Projet du planificateur de ressources</strong> </p> <p>Dans la vue Projet du planificateur de ressources, vous pouvez budgéter les ressources et hiérarchiser les projets de la même manière que vous le faisiez auparavant dans l’ancien planificateur de capacités. Contrairement à l’outil hérité, davantage de données sont désormais prises en charge, les informations disponibles étant plus précises en prenant en compte à la fois les congés des personnes et les exceptions d’horaire.</p> <p>Les types d’informations Disponible, Prévu et Budgété sont visibles en un coup d’œil, de sorte que les personnes responsables des ressources puissent voir à la fois s’il y a suffisamment de personnes pour faire le travail et si les estimations du projet dépassent les estimations budgétaires initiales.</p> <p> Pour plus d’informations sur l’utilisation de la vue Projet dans le planificateur de ressources, voir <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Vue d’ensemble du planificateur de ressources</a>.</p> <p><strong>Planificateur de scénarios</strong> </p> <p>Pour la planification des capacités à long terme, la modélisation des scénarios d’hypothèses et la hiérarchisation des priorités, nous avons également introduit le planificateur de scénarios Workfront. </p> <p>Le planificateur de scénarios n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Vue d’ensemble du planificateur de scénarios</a>. </p> </td> 
+   <td> <p><strong>Planificateur de capacités</strong> </p> <p>Le planificateur de capacités était un outil Workfront de budgétisation des ressources et de hiérarchisation des projets dans un ancien groupe de ressources en fonction de la disponibilité des ressources. En raison du caractère incomplet des données provenant des estimations de ressources et du gestionnaire du budget des ressources qui fournissaient les informations au planificateur de capacités, la hiérarchisation des projets devait être vérifiée deux fois par rapport à la disponibilité des utilisateurs et des utilisatrices.</p> <p>Le scénario le plus courant consistait à n’utiliser qu’un seul ancien groupe de ressources qui incluait toutes les fonctions du système, ce qui entraînait des problèmes de performances lorsque le planificateur de capacités tentait de charger un grand nombre de projets.</p> </td> 
+   <td> <p><strong>Vue Projet du planificateur de ressources</strong> </p> <p>Dans la vue Projet du planificateur de ressources, vous pouvez budgétiser les ressources et hiérarchiser les projets comme que vous le faisiez dans l’ancien planificateur de capacités. Contrairement à l’ancien outil, davantage de données sont désormais prises en charge, les informations disponibles étant plus précises en prenant en compte à la fois les congés des utilisateurs et des utilisatrices et les exceptions de planning.</p> <p>Les informations disponibles, prévues et budgétées sont visibles d’un seul coup d’œil, de sorte que les personnes gestionnaires de ressources puissent voir à la fois s’il y a suffisamment de personnes pour faire le travail et si les plans de projet dépassent les estimations de budget initiales.</p> <p> Pour plus d’informations sur l’utilisation de la vue Projet dans le planificateur de ressources, voir <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Vue d’ensemble du planificateur de ressources</a>.</p> <p><strong>Planificateur de scénarios</strong> </p> <p>Pour la planification des capacités à long terme, la modélisation de scénarios d’hypothèses et la hiérarchisation des priorités, nous avons également introduit le planificateur de scénarios Workfront. </p> <p>Le planificateur de scénarios n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Vue d’ensemble du planificateur de scénarios</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Estimations des ressources héritées (business case)</strong> </p> <p>Utilisez la zone Anciennes estimations de ressources du business case pour budgéter un certain nombre d’heures et de coûts de main-d’œuvre dans le cadre de la planification du projet et de la demande de ressources. Cette vue n’offrait aucune visibilité sur la disponibilité des ressources, ce qui entraînait des demandes approximatives de ressources et augmentait les chances de travaux de projet rejetés.</p> </td> 
-   <td> <p><strong>Établissement du budget de ressources (business case)</strong> </p> <p>La section Établissement du budget de ressources du business case offre les fonctionnalités du Planificateur de ressources au business case, ce qui permet de connaître la disponibilité des personnes et des rôles, ainsi que détablir le budget au niveau de la personne. </p> <p> Pour plus d’informations sur la zone Établissement du budget de ressources du business case, voir <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Vue d’ensemble des zones du business case</a>. </p> </td> 
+   <td> <p><strong>Anciennes estimations de ressources (Business case)</strong> </p> <p>Vous pouviez utiliser la zone Anciennes estimations de ressources du business case pour budgéter un certain nombre d’heures et de coûts de main-d’œuvre dans le cadre de la planification de projet et de la demande de ressources. Cette vue n’offrait aucune visibilité sur la disponibilité des ressources, ce qui entraînait des demandes de ressources approximatives et augmentait le risque de rejet de travail du projet.</p> </td> 
+   <td> <p><strong>Établissement du budget de ressources (Business case)</strong> </p> <p>La section Établissement du budget de ressources sous le business case intègre des fonctionnalités du planificateur de ressources dans le business case, offrant ainsi une visibilité sur la disponibilité des utilisateurs et utilisatrices et des rôles, et permettant également de budgéter au niveau de l’utilisateur ou de l’utilisatrice. </p> <p> Pour plus d’informations sur la zone Établissement du budget de ressources du business case, voir <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Vue d’ensemble des zones du business case</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Rapports d’estimation de ressources</strong> </p> <p>Lorsque vous utilisiez les outils hérités pour la gestion des ressources, vous pouviez créer des rapports sur les heures budgétées et le nombre d’heures prévues à partir du Business Case. Cela vous permettait de créer des rapports de matrice affichant le total des tâches budgétées et prévues pour chaque fonction au cours d’une période spécifique. Ce rapport n’était pas modifiable et vous ne pouviez pas apporter de modifications au budget de vos ressources en fonction des résultats du rapport. </p> </td> 
+   <td> <p><strong>Rapports d’estimation de ressources</strong> </p> <p>Lorsque vous utilisez les outils hérités pour la gestion des ressources, vous pouviez créer des rapports sur les heures budgétées et le nombre d’heures prévues à partir du business case. Cela vous permettait de créer des rapports de matrice affichant le total des tâches budgétées et prévues pour chaque fonction au cours d’une période spécifique. Ce rapport n’était pas modifiable et vous ne pouviez pas apporter de modifications au budget de vos ressources en fonction des résultats du rapport. </p> </td> 
    <td> <p><strong>Rapport d’utilisation</strong> </p> <p>Le rapport d’utilisation intégré affiche côte à côte les heures, coûts et revenus prévus, budgétés et réels. </p> <p>Pour plus d’informations sur l’utilisation du rapport d’utilisation, voir <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Afficher des informations sur l’utilisation des ressources</a>. </p> 
     <div> 
      <p><strong>Heures budgétées sur lesquelles créer un rapport</strong> </p> 
@@ -233,11 +233,11 @@ Sauf indication contraire, toutes les anciennes fonctionnalités ont été rempl
   </tr> 
   <tr> 
    <td> <p><strong>Graphique de Gantt hérité, Liste des tâches</strong> </p> <p> Le graphique de Gantt hérité sur la liste des tâches permet aux personnes de voir la chronologie du projet et d’effectuer une planification du scénario d’exécution sans avoir à modifier la base de données. Le graphique de Gantt hérité était basé sur la technologie Flash, qui présentait des risques pour la sécurité. </p> </td> 
-   <td> <p><strong>Graphique de Gantt,</strong> <strong>Liste des tâches</strong></p> <p> Le nouveau graphique de Gantt basé sur HTML a le même objectif que le graphique de Gantt hérité. Vous pouvez visualiser la chronologie du projet et réaliser une planification du scénario d’exécution sans valider les modifications apportées à la base de données en sélectionnant l’option Enregistrer manuellement dans la barre d’outils de la liste des tâches. </p> <p>Le nouveau graphique de Gantt est interactif quand vous utilisez l’option d’enregistrement automatique de vos modifications au fur et à mesure. </p> <p>Le nouveau graphique de Gantt de la liste des tâches est fiable, car il repose sur les technologies les plus récentes. Il se trouve directement dans la liste des tâches et est facilement accessible lorsque vous travaillez dessus, puisque vous n’avez pas à changer d’onglet ni de vue. </p> <p>Bien que le nouveau graphique de Gantt offre les mêmes fonctionnalités que l’ancien graphique, certaines différences existent toutefois. </p> <p> Le sous-onglet Ancien graphique de Gantt d’une liste de tâches de modèle sur un modèle, l’ancienne vue Gantt de l’onglet Sous-tâches d’une tâche de modèle et l’ancien graphique de Gantt d’un rapport Tâche de modèle ont également été remplacés par le graphique de Gantt HTML. </p> <p>Si vous utilisez l’ancien graphique de Gantt principalement pour l’affichage simple et les modifications rapides, mais que vous n’utilisez pas le graphique réel, la nouvelle option Planification chronologique vous permet d’apporter rapidement des modifications aux champs de planification clés. Vous pouvez sélectionner Planification chronologique au lieu de l’enregistrement automatique dans la barre d’outils de la liste des tâches.</p> <p>Pour plus d’informations sur l’enregistrement d’une liste de tâches à l’aide de l’option Planification chronologique, consultez la section « Enregistrer manuellement les modifications dans une liste de tâches lors de la sélection de l’option Planification chronologique » de l’article <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Modifier les tâches dans une liste</a>. </p> </td> 
+   <td> <p><strong>Graphique de Gantt,</strong> <strong>Liste des tâches</strong></p> <p> Le nouveau graphique de Gantt basé sur HTML a le même objectif que le graphique de Gantt hérité. Vous pouvez visualiser la chronologie du projet et réaliser une planification du scénario d’exécution sans valider les modifications apportées à la base de données en sélectionnant l’option Enregistrer manuellement dans la barre d’outils de la liste des tâches. </p> <p>Le nouveau graphique de Gantt est interactif quand vous utilisez l’option d’enregistrement automatique de vos modifications au fur et à mesure. </p> <p>Le nouveau graphique de Gantt de la liste des tâches est fiable, car il repose sur les technologies les plus récentes. Il se trouve directement dans la liste des tâches et est facilement accessible lorsque vous travaillez dessus, puisque vous n’avez pas à changer d’onglet ni de vue. </p> <p>Bien que le nouveau graphique Gantt offre les mêmes fonctionnalités que l’ancien graphique, certaines différences existent toutefois. </p> <p> Le sous-onglet Ancien graphique Gantt d’une liste de tâches de modèle sur un modèle, la vue de l’ancien graphique Gantt de l’onglet Sous-tâches d’une tâche de modèle et l’ancien graphique Gantt d’un rapport Tâche de modèle ont également été remplacés par le graphique de Gantt HTML. </p> <p>Si vous utilisez l’ancien graphique Gantt principalement pour l’affichage simple et les modifications rapides, mais que vous n’utilisez pas le graphique réel, la nouvelle option Planification permet d’apporter rapidement des modifications aux champs de planification clés. Vous pouvez sélectionner Planification chronologique au lieu de l’enregistrement automatiquement dans la barre d’outils de la liste des tâches.</p> <p>Pour plus d’informations sur l’enregistrement d’une liste de tâches à l’aide de l’option Planification chronologique, consultez la section « Enregistrer manuellement les modifications dans une liste de tâches lors de la sélection de l’option Planification chronologique » de l’article <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Modifier les tâches dans une liste</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Ancien graphique de Gantt pour une liste de projets</strong> </p> <p>L’ancien graphique de Gantt sur la liste des projets vous permet d’afficher vos projets et tâches dans une seule vue. Sans quitter le contexte de la liste des projets, vous pouvez afficher les détails des tâches d’un projet, ainsi que les dépendances entre les projets. L’ancien graphique de Gantt sur la liste des projets était basé sur la technologie Flash, qui présentait des risques pour la sécurité. </p> </td> 
-   <td> <p><strong>Graphique de Gantt, liste de projets</strong> </p> <p>Le graphique de Gantt HTML a le même objectif que l’ancien graphique de Gantt. Vous pouvez afficher vos projets et tâches dans une vue unique afin d’identifier visuellement les dépendances entre les projets et les tâches. Le graphique de Gantt de la liste de projets se trouve directement dans la liste des projets. Le nouveau graphique de Gantt présente une interface moderne et repose sur la technologie la plus récente.</p> <p>Pour plus d’informations sur le graphique de Gantt de la liste des projets, consultez la section <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Afficher des informations dans le graphique de Gantt</a>.</p> </td> 
+   <td> <p><strong>Ancien graphique Gantt pour une liste de projets</strong> </p> <p>L’ancien graphique Gantt sur la liste des projets vous permet d’afficher vos projets et tâches sur un seul écran. Sans quitter le contexte de la liste des projets, vous pouvez afficher les détails des tâches d’un projet, ainsi que les dépendances entre les projets. L’ancien graphique Gantt sur la liste des projets était basé sur la technologie Flash, qui présentait des risques pour la sécurité. </p> </td> 
+   <td> <p><strong>Graphique de Gantt, liste de projets</strong> </p> <p>Le graphique de Gantt HTML a le même objectif que l’ancien graphique Gantt. Vous pouvez afficher vos projets et tâches dans une vue unique afin d’identifier visuellement les dépendances entre les projets et les tâches. Le graphique de Gantt de la liste de projets se trouve directement dans la liste des projets. Le nouveau graphique de Gantt présente une interface moderne et repose sur la technologie la plus récente.</p> <p>Pour plus d’informations sur le graphique de Gantt de la liste des projets, consultez la section <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Afficher des informations dans le graphique de Gantt </a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Partager des boîtes de dialogue pour les rapports, les calendriers et les documents</strong> </p> <p>Lors du partage de rapports, de calendriers et de documents, les boîtes de dialogue utilisées tiraient parti de la technologie Flash.</p> </td> 

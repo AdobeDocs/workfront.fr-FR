@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Taux de change
-description: En tant qu’administrateur Workfront, vous pouvez configurer des taux d’exchange de devise dans Workfront.
+description: En tant que personne membre de l’administration Workfront, vous pouvez configurer les taux de change des devises dans Workfront.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
@@ -13,7 +13,7 @@ exl-id: 0e7455c4-5f31-4164-bb4e-d4cad1c6680f
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 

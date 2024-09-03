@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Suppression d’un groupe
-description: Vous pouvez supprimer un groupe que vous gérez. S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
+description: Vous pouvez supprimer un groupe que vous gérez. S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrateurs et administratrices peuvent également le faire pour votre groupe. Il en va de même pour les administrateurs et administratrices de Workfront (pour n’importe quel groupe).
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -11,15 +11,15 @@ exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
 source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 56%
+ht-degree: 99%
 
 ---
 
 # Supprimer un groupe
 
-Vous pouvez supprimer un groupe que vous gérez. S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
+Vous pouvez supprimer un groupe que vous gérez. S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrateurs et administratrices peuvent également le faire pour votre groupe. Il en va de même pour les administrateurs et administratrices de Workfront (pour n’importe quel groupe).
 
-Pour plus d’informations sur la suppression d’un sous-groupe, voir [Gestion d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+Pour plus d’informations sur la suppression d’un sous-groupe, voir [Gérer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
 ## Conditions d’accès
 
@@ -32,17 +32,17 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan Workfront*</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Forfait Workfront*</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Vous devez être un administrateur ou une administratrice de groupe pour le groupe ou un administrateur ou une administratrice de Workfront. Pour plus d’informations, consultez les sections <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à une personne</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Vous devez faire partie de l’équipe d’administration de groupe pour le groupe ou de l’équipe d’administration Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
+&#42;Si vous devez établir la formule ou le type de licence dont vous disposez, contactez votre équipe d’administration Workfront.
 
 +++
 
@@ -50,16 +50,16 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
 
-1. Sélectionnez le groupe à supprimer, puis cliquez sur l’icône Supprimer ![](assets/delete.png).
+1. Sélectionnez le groupe que vous souhaitez supprimer, puis cliquez sur l’icône Supprimer ![](assets/delete.png).
 
    >[!IMPORTANT]
    >
-   >Lorsque vous supprimez un groupe ou un sous-groupe, vous devez conserver les utilisateurs, les éléments de travail et les sous-groupes qui lui sont actuellement affectés. Pour vous assurer qu’elles sont conservées, une invite vous invite à réaffecter les objets du groupe à un autre groupe à l’étape ci-dessous.
+   >Lorsque vous supprimez un groupe ou un sous-groupe, vous devez conserver les utilisateurs et utilisatrices, les éléments de travail et les sous-groupes qui lui sont actuellement affectés. Afin de mieux assurer leur préservation, une invite vous demande de réaffecter les objets du groupe à un autre groupe dans l’étape ci-dessous.
 
-1. Dans la zone **Supprimer le groupe** qui s’affiche, en commençant par saisir , puis sélectionnez le nom du groupe dans lequel vous souhaitez déplacer les membres, les tâches et les sous-groupes du groupe que vous supprimez.
+1. Dans la zone **Supprimer le groupe** qui apparaît, commencez à taper puis sélectionnez le nom du groupe vers lequel vous souhaitez déplacer les membres, les éléments de travail et les sous-groupes du groupe que vous supprimez.
 
-   Vous pouvez vous assurer que vous sélectionnez le bon groupe en le survolant et en cliquant sur l’icône d’information ![](assets/info-icon.png) qui s’affiche en regard. Cette option permet d’afficher une infobulle contenant des informations sur le groupe, telles que la hiérarchie des groupes qui le précèdent et ses administrateurs et administratrices.
+   Vous pouvez vous assurer que vous sélectionnez le bon groupe en pointant dessus et en cliquant sur l’icône d’information ![](assets/info-icon.png) qui s’affiche à côté. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.
 
-1. Cliquez Sur **Les Supprimer**.
+1. Cliquez sur **Les supprimer**.

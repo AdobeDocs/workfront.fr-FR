@@ -47,7 +47,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td>
   </tr>  
  <tr>
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td>
    <td>
 <p>L’un des projets Workfront suivants est prévu :</p>
 <ul><li>Sélectionner</li>
@@ -58,7 +58,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr>
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td>
    <td>
-<p>N’importe quelle </p>  
+<p>Tous </p>  
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </td>
 <tr>
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
@@ -88,7 +88,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> <p>Pour accéder à la zone Planning dans Workfront, vous devez disposer d’un modèle de mise en page comprenant la zone Planning dans le menu principal. </p>
    <p> Toutefois, l’accès à la zone Planification n’est pas nécessaire pour envoyer des requêtes à Workfront Planning. </p>  
 </td>
@@ -96,7 +96,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
  </tbody>
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -121,7 +121,7 @@ Les éléments suivants doivent être en place avant de pouvoir envoyer une requ
 * Vous ne pouvez pas accéder aux formulaires de requêtes de planification Workfront sans lien spécifique vers les formulaires.
 * Vous ne pouvez pas modifier une requête une fois que vous l’avez envoyée à Workfront Planning.
 * Chaque requête envoyée crée un enregistrement pour le type d’enregistrement associé au formulaire que vous utilisez.
-* Les enregistrements créés lors de l’envoi de formulaires de demande ne peuvent pas être différenciés des enregistrements ajoutés par une autre méthode. Pour plus d’informations, consultez la section [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+* Les enregistrements créés lors de l’envoi de formulaires de demande ne peuvent pas être différenciés des enregistrements ajoutés par une autre méthode. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
 ## Envoi d’une requête à Workfront Planning
 
@@ -133,7 +133,7 @@ Les éléments suivants doivent être en place avant de pouvoir envoyer une requ
    >
    >   Si le champ Workfront **Objet** est disponible, il peut ne pas être visible dans la planification Workfront. Nous vous recommandons de mettre à jour autant de champs que possible dans votre requête afin de rendre le nouvel enregistrement identifiable lorsqu’il est ajouté au type d’enregistrement.
 
-1. Cliquez sur **Soumettre**.
+1. Cliquez sur **Soumettre**.
 
    Votre formulaire est envoyé et un nouvel enregistrement est ajouté au type d’enregistrement associé au formulaire.
 

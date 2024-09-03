@@ -12,11 +12,11 @@ exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
 source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 84%
+ht-degree: 98%
 
 ---
 
-# Accès aux objets et aux zones par type de licence
+# Accéder aux objets et zones par type de licence
 
 Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou Afficher) que chacune des licences Adobe Workfront autorise pour les objets et les zones de Workfront.
 
@@ -29,12 +29,12 @@ Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou 
 
 |   | Plan | Travail | Vérifier | Demande | Externe |
 |---|---|---|---|---|---|
-| Projets | Modifier | Modifier (sans autorisations de création) | Afficher | Afficher (uniquement la page Détails) | Pas d’accès  |
+| Projets | Modifier | Modifier (sans autorisations Créer) | Afficher | Afficher (uniquement la page des détails) | Pas d’accès |
 | Tâches | Modifier | Modifier | Afficher | Afficher | Afficher |
 | Problèmes | Modifier | Modifier | Modifier | Modifier | Pas d’accès |
 | Portefeuilles | Modifier | Afficher | Afficher | Pas d’accès | Pas d’accès |
 | Programmes | Modifier | Afficher | Afficher | Pas d’accès | Pas d’accès |
-| Rapports, tableaux de bord et calendriers | Modifier | Afficher | Afficher | View&#42; | Afficher (uniquement pour les calendriers, sans autorisations de partage) |
+| Rapports, tableaux de bord et calendriers | Modifier | Afficher | Afficher | Afficher&#42; | Afficher (uniquement pour les calendriers, sans autorisations de partage) |
 | Filtres, vues et regroupements | Modifier | Modifier | Modifier | Modifier | Pas d’accès |
 | Documents | Modifier | Modifier | Modifier | Modifier | Afficher (sans autorisations de partage) |
 | Utilisateurs | Modifier | Afficher | Afficher | Afficher | Afficher |
@@ -45,11 +45,11 @@ Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou 
 | Planificateur de scénarios | Modifier | Modifier | Modifier | Pas d’accès | Pas d’accès |
 | Objectifs Workfront | Modifier | Modifier | Modifier | Modifier | Pas d’accès |
 
-&#42; Les utilisateurs disposant d’une licence de demande peuvent afficher uniquement les rapports, les tableaux de bord et les calendriers qui sont partagés avec eux.
+&#42; Les personnes disposant d’une licence Demande ne peuvent consulter que les rapports, les tableaux de bord et les calendriers qui sont partagés avec elles.
 
 >[!NOTE]
 >
->Les utilisateurs disposant d’une licence de révision ou d’une licence de demande disposent de fonctionnalités de partage limitées. Pour plus d’informations, voir [Présentation des licences Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Les personnes disposant d’une licence Révision ou d’une licence Demande ont des capacités de partage limitées. Pour plus d’informations, voir [Vue d’ensemble des licences Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >Les utilisateurs et utilisatrices externes ne peuvent pas rechercher des éléments dans Workfront. Ces personnes peuvent consulter les documents et les calendriers qui sont spécifiquement partagés avec elles. Elles peuvent également voir les utilisateurs et utilisatrices qui partagent des éléments avec elles.
 

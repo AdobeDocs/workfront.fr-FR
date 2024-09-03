@@ -52,7 +52,7 @@ La zone [!UICONTROL Mises à jour] comprend les types de mises à jour suivants�
   
   -->
 
-## Considérations sur les mises à jour suivies par le système
+## Considérations relatives aux mises à jour suivies par le système
 
 Les mises à jour suivies par le système ne sont pas disponibles pour tous les objets disposant de la zone Mises à jour.
 
@@ -69,18 +69,18 @@ Les mises à jour suivies par le système ne sont pas disponibles pour tous les 
    * [!UICONTROL Équipe]
    * [!UICONTROL Document]
    * [!UICONTROL Feuille de temps]
-   * [!UICONTROL Story]
+   * [!UICONTROL Histoire]
 
-     Dans [!DNL Workfront], une story est une tâche.
+     Dans [!DNL Workfront], une histoire est une tâche.
    * [!UICONTROL Itération]
-   * [!UICONTROL Objectif]
+   * [!UICONTROL But]
 
-     L’accès à la zone [!UICONTROL Objectifs] nécessite une licence supplémentaire. Pour plus d’informations, consultez la section [Exigences pour l’utilisation des Objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+     Vous devez disposer d’une licence supplémentaire pour avoir accès à la zone [!UICONTROL Objectifs]. Pour plus d’informations, voir la section [Conditions requises pour utiliser Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Carte] sur un panorama
 
-     Pour plus d’informations sur les mises à jour des cartes, consultez la section [Utiliser des cartes connectées sur les panoramas](../../../agile/get-started-with-boards/connected-cards.md).
+     Pour plus d’informations sur les mises à jour des cartes, voir la section [Utiliser des cartes connectées sur les panoramas](../../../agile/get-started-with-boards/connected-cards.md).
 
-* [!DNL Workfront] ne suit pas les mises à jour système pour les objets suivants :
+* [!DNL Workfront] ne suit pas les mises à jour du système pour les objets suivants :
 
    * [!UICONTROL Équipe]
    * [!UICONTROL Modèle]
@@ -119,7 +119,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 -->
 
-* L’administration de [!DNL Workfront] peut définir le type de modifications dont le système doit effectuer le suivi dans la zone [!UICONTROL Mises à jour]. Tous les objets disposant d’une zone [!UICONTROL Mises à jour] ont également des flux de [!UICONTROL mise à jour] configurables. Les objets suivants ont une zone [!UICONTROL Mises à jour] qui capture les flux de mise à jour suivis par le système, mais leurs flux de mise à jour ne sont pas configurables :
+* L’administration de [!DNL Workfront] peut définir le type de modifications dont le système doit effectuer le suivi dans la zone [!UICONTROL Mises à jour]. Tous les objets qui ont une zone [!UICONTROL Mises à jour] ont également des flux [!UICONTROL mise à jour] configurables. Les objets suivants ont une zone [!UICONTROL Mises à jour] qui capture les flux de mise à jour suivis par le système, mais qui ne comporte pas de flux de mise à jour configurables :
 
    * [!UICONTROL Document]
    * [!UICONTROL Feuille de temps]

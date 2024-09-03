@@ -1,6 +1,6 @@
 ---
-title: Présentation de la version du quatrième trimestre 2024
-description: Cette page fournit des informations sur les fonctionnalités incluses dans la version du quatrième trimestre 2024. Ces améliorations sont prévues pour être disponibles dans l’environnement de production tout au long du trimestre.
+title: Vue d’ensemble de la version du quatrième trimestre 2024
+description: Cette page fournit des informations sur les fonctionnalités incluses dans la version du quatrième trimestre 2024. L’intégration de ces améliorations dans l’environnement de production s’effectuera tout au long du trimestre.
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -8,39 +8,39 @@ exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
 source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 43%
+ht-degree: 52%
 
 ---
 
-# Présentation de la version du quatrième trimestre 2024
+# Vue d’ensemble de la version du quatrième trimestre 2024
 
-Cette page fournit des informations sur les fonctionnalités incluses dans la version du quatrième trimestre 2024. Ces améliorations sont prévues pour être disponibles dans l’environnement de production tout au long du trimestre.
+Cette page fournit des informations sur les fonctionnalités incluses dans la version du quatrième trimestre 2024. L’intégration de ces améliorations dans l’environnement de production s’effectuera tout au long du trimestre.
 
-Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées en production avant la date de publication du quatrième trimestre 2024) sont surlignées en jaune.</span>
+<span class="preview">Les fonctionnalités hors cycle (celles qui sont publiées en production avant la date de publication du quatrième trimestre 2024) sont surlignées en jaune.</span>
 
 >[!IMPORTANT]
 >
->La version 23.3 incluait l’option permettant de faire passer votre organisation aux versions mensuelles. Par conséquent, Workfront a modifié le schéma de numérotation des versions afin de tenir compte des suivis des versions mensuelles et trimestrielles. Le premier chiffre désigne l’année, le second le mois de la version. Exemple : la version d’avril 2024 est 24.4.
+>La version 23.3 incluait l’option permettant d’opter pour des versions mensuelles dans votre organisation. Par conséquent, Workfront a modifié le schéma de numérotation des versions afin de tenir compte des suivis de versions mensuels et trimestriels. Le premier chiffre désigne l’année, le second le mois de la version. Exemple : la version d’avril 2024 est 24.4.
 >
->Sauf indication contraire, les versions mensuelles et trimestrielles sont prévues pour être disponibles le jeudi de la deuxième semaine complète du mois.
+>Sauf indication contraire, la sortie des versions mensuelles et trimestrielles est prévue le jeudi de la deuxième semaine complète du mois.
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>24.8 (15 août 2024)</li><li>24.9 (12 septembre 2024)</li><li>24.10 (octobre 2024)</li></ul> | <ul><li>24.10 (octobre 2024)</li></ul> |
+>| <ul><li>24.8 (15 août 2024)</li><li>24.9 (vendredi 12 septembre 2024)</li><li>24.10 (octobre 2024)</li></ul> | <ul><li>24.10 (octobre 2024)</li></ul> |
 >
 >Notez que pour la version finale de chaque trimestre (24.10 ce trimestre), les utilisateurs de la version rapide recevront la version un jour plus tôt.
 >
->Pour plus d’informations sur le processus de version rapide, consultez [Activer ou désactiver le processus de version rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Pour plus d’informations sur le processus de publication rapide, voir la section [Activer ou désactiver le processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
-## Améliorations Adobe Workfront
+## Améliorations apportées à Adobe Workfront
 
-* [Améliorations d’administration](#administrator-enhancements)
+* [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations de l’intégration](#integration-enhancements)
-* [Améliorations des projets](#project-enhancements)
-* [Améliorations de la vérification](#proofing-enhancements)
+* [Améliorations apportées aux projets](#project-enhancements)
+* [Améliorations apportées à la relecture](#proofing-enhancements)
 * [Autres améliorations](#other-enhancements)
 
-### Améliorations d’administration
+### Améliorations apportées aux administrateurs et administratrices
 
 <table>
             <col style="width: 50%;" />
@@ -52,7 +52,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -64,7 +64,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 29 août 2024</p>
+                                <p>Version d’aperçu : 29 août 2024</p>
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.9 (12 septembre 2024)</p>
@@ -83,7 +83,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : mardi 12 août 2024</p>
+                                <p>Version d’aperçu : 12 août 2024</p>
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.9 (12 septembre 2024)</p>
@@ -110,7 +110,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -122,7 +122,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : mercredi 6 août 2024</p>
+                                <p>Version d’aperçu : 6 août 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production pour tous les clients : 6 août 2024</span></p>
@@ -133,7 +133,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
            </tbody>
         </table>
 
-### Améliorations des projets
+### Améliorations apportées aux projets
 
 <table>
             <col style="width: 50%;" />
@@ -145,7 +145,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -171,14 +171,14 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations intelligentes plus pertinentes</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Autres affectations intelligentes pertinentes</a></p>
                         [!BADGE In production ]{type=Informative}
                         <p>Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 21 décembre 2023</p>
+                                <p>Version de prévisualisation : 21 décembre 2023</p>
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
@@ -192,7 +192,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
            </tbody>
         </table>
 
-### Améliorations de la vérification
+### Améliorations apportées à la relecture
 
 <table>
             <col style="width: 50%;" />
@@ -204,7 +204,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -217,7 +217,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 29 août 2024</p>
+                                <p>Version d’aperçu : 29 août 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production pour tous les clients : 29 août 2024</span></p>
@@ -264,23 +264,23 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : jeudi 28 août 2024</p>
+                                <p>Version d’aperçu : 28 août 2024</p>
                             </li>
                             <li>
-                                <p class="preview">Version de production : jeudi 28 août 2024</p>
+                                <p class="preview">Version de production : 28 août 2024</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence au cours du quatrième trimestre 2024</a></p>
-                        <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées dans le délai du quatrième trimestre 2024. Consultez les notes de mise à jour individuelles pour connaître les dates de publication spécifiques.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mise à jour de l’apparence et de la convivialité au cours du quatrième trimestre 2024</a></p>
+                        <p>Des mises à jour mineures de l’aspect et de la convivialité de différentes parties de l’application Adobe Workfront seront réalisées au cours du quatrième trimestre 2024. Consultez les notes de mise à jour individuelles pour connaître les dates de publication spécifiques.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : pendant tout le délai de publication du quatrième trimestre 2024</p>
+                                <p>Version préliminaire : tout au long de la période de publication du quatrième trimestre 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : passez en revue les notes de mise à jour pour connaître les dates spécifiques.</span></p>
@@ -295,7 +295,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
 
 ### Améliorations de Workfront Fusion
 
-Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du calendrier de publication du quatrième trimestre 2024. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence autre que le calendrier des versions du quatrième trimestre 2024. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Améliorations de la planification Workfront
 
@@ -303,15 +303,15 @@ De nouvelles fonctionnalités de la planification Workfront sont disponibles dan
 
 ### Améliorations du planificateur de scénarios Workfront
 
-Aucune mise à jour du planificateur de scénario n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+Il n’y a pas de mise à jour du planificateur de scénarios à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
-### Améliorations de l’épreuve Workfront
+### Améliorations de Workfront Proof
 
-Aucune mise à jour de l’épreuve Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+Il n’y a pas de mise à jour de Workfront Proof à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
 ### Améliorations des Objectifs Workfront
 
-Aucune mise à jour des Objectifs Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+Il n’y a pas de mise à jour des Objectifs Workfront à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
 ### API version 18
 
@@ -319,19 +319,19 @@ Pour l’API version 18, nous avons modifié certaines ressources et points d�
 
 Pour plus d’informations sur les nouveautés et les mises à jour, consultez les [Nouveautés de l’API version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
-Pour plus d’informations sur les versions d’API, consultez [Contrôle de version des API et planification de la prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Pour plus d’informations sur les versions de l’API, voir [Calendrier des versions et de la prise en charge de l’API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Mises à jour de maintenance pour Workfront
+### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du quatrième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du quatrième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-### Mises à jour de formation
+### Mise à jour des formations
 
-Découvrez les dernières mises à jour apportées aux programmes de formation, aux parcours de formation, aux vidéos et aux guides de chaque version de produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, voir la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
 
-### Fonctionnalité bientôt supprimée de Workfront
+### Fonctionnalités bientôt supprimées de Workfront
 
-Les fonctionnalités suivantes seront bientôt supprimées de Workfront :
+Les fonctionnalités suivantes seront bientôt supprimées de Workfront :
 
 #### Obsolescence de l’expérience d’accueil héritée avec la version 24.10
 

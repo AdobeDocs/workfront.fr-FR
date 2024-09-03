@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: "Scénario de démarrage : société, groupe, rôle et préparation du lancement de l’utilisateur"
-description: Lorsque vous commencez à implémenter Adobe Workfront, plutôt que de saisir manuellement des données, vous pouvez importer la liste de vos clients, les services internes, les rôles de tâche et les informations sur les utilisateurs.
+description: Lorsque vous commencez à implémenter Adobe Workfront, plutôt que de saisir manuellement des données, vous pouvez importer la liste de vos clientes et clients, les services internes, les fonctions et les informations relatives aux utilisateurs et utilisatrices.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -12,35 +12,35 @@ exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
 source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 11%
+ht-degree: 96%
 
 ---
 
 # Scénario de démarrage : entreprise, groupe, rôle et utilisateur Préparation de lancement
 
-Lorsque vous commencez à implémenter Adobe Workfront, plutôt que de saisir manuellement des données, vous pouvez importer la liste de vos clients, les services internes, les rôles de tâche et les informations sur les utilisateurs.
+Lorsque vous commencez à implémenter Adobe Workfront, plutôt que de saisir manuellement des données, vous pouvez importer la liste de vos clientes et clients, les services internes, les fonctions et les informations relatives aux utilisateurs et utilisatrices.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,242 +65,242 @@ Le tableau suivant répertorie les entreprises, les groupes et les rôles à imp
  <tbody> 
   <tr> 
    <td valign="top"> <p>Acme, Co</p> <p>Workfront, Inc.</p> <p><em>Votre entreprise</em> </p> <p>XYZ, Inc.</p> </td> 
-   <td valign="top"> <p valign="top" rowspan="7">Finances</p> <p valign="top" rowspan="7">Informatique </p> <p valign="top" rowspan="7">Marketing </p> <p valign="top" rowspan="7">Ventes</p> </td> 
-   <td valign="top"> <p valign="top">Analyste métier</p> <p valign="top">Créatif du contrôleur</p> <p valign="top">Designer</p> <p valign="top">Gestionnaire des ressources</p> <p valign="top">Principal de script</p> <p valign="top">Rédacteur technique</p> <p valign="top">Développeur web</p> </td> 
+   <td valign="top"> <p valign="top" rowspan="7">Finances</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marketing </p> <p valign="top" rowspan="7">Ventes</p> </td> 
+   <td valign="top"> <p valign="top">Personne chargée de l’analyse d’affaires</p> <p valign="top">Personne responsable de la création</p> <p valign="top">Designer</p> <p valign="top">Gestionnaire des ressources</p> <p valign="top">Personnes maîtresse Scrum</p> <p valign="top">Personne chargée de la rédaction technique</p> <p valign="top">Personne chargée du développement web</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Les noms des rôles doivent être uniques. Les rôles de tâche existants ne peuvent pas être importés.
 
-Les tableaux suivants présentent les utilisateurs à importer et plusieurs attributs utilisateur pour chacun d’eux :
+Les tableaux suivants présentent les utilisateurs et utilisatrices à importer et plusieurs attributs utilisateur pour chacun d’eux :
 
-### Utilisateur 1
+### Utilisateur 1
 
 | **Prénom** | Chris |
 |---|---|
 | **Nom** | Manning |
-| **Nom d’utilisateur/Adresse électronique** | mailto:cmanning@foo.com |
+| **Nom d’utilisateur/Adresse e-mail** | mailto:cmanning@foo.com |
 | **Mot de passe** | updateMe |
 | **Accès** | Membre d&#39;équipe |
 | **Entreprise** | &lt;*Votre entreprise>* |
-| **Groupe d’accueil** | Marketing |
-| **Rôle de tâche** | Analyste métier |
+| **Groupe principal** | Marketing |
+| **Fonction** | Personne chargée de l’analyse d’affaires |
 
 {style="table-layout:auto"}
 
-### Utilisateur 2
+### Utilisatrice 2
 
 | **Prénom** | Jennifer |
 |---|---|
 | **Nom** | Campbell |
-| **Nom d’utilisateur/Adresse électronique** | jcampbell@foo.com |
+| **Nom d’utilisatrice/Adresse e-mail** | jcampbell@foo.com |
 | **Mot de passe** | updateMe |
 | **Accès** | Gestionnaire de projet |
 | **Entreprise** | &lt;*Votre entreprise>* |
-| **Groupe d’accueil** | Marketing |
-| **Rôle de tâche** | Gestionnaire de projet |
+| **Groupe principal** | Marketing |
+| **Fonction** | Gestionnaire de projet |
 
 {style="table-layout:auto"}
 
-### Utilisateur 3
+### Utilisatrice 3
 
 | **Prénom** | Jill |
 |---|---|
 | **Nom** | Sullivan |
-| **Nom d’utilisateur/Adresse électronique** | jsullivan@foo.com |
+| **Nom d’utilisatrice/Adresse e-mail** | jsullivan@foo.com |
 | **Mot de passe** | updateMe |
 | **Accès** | Help Desk |
 | **Entreprise** | &lt;*Votre entreprise>* |
-| **Groupe d’accueil** | Ventes |
-| **Rôle de tâche** | représentant commercial |
+| **Groupe principal** | Ventes |
+| **Fonction** | Personne chargée de la représentation commerciale |
 
 {style="table-layout:auto"}
 
-### Utilisateur 4
+### Utilisateur 4
 
 | **Prénom** | Marc |
 |---|---|
 | **Nom** | Lewis |
-| **Nom d’utilisateur/Adresse électronique** | mlewis@foo.com |
+| **Nom d’utilisateur/Adresse e-mail** | mlewis@foo.com |
 | **Mot de passe** | updateMe |
 | **Accès** | Gestionnaire de portefeuille |
 | **Entreprise** | &lt;*Votre entreprise>* |
-| **Groupe d’accueil** | Finances |
-| **Rôle de tâche** | Contrôleur |
+| **Groupe principal** | Finances |
+| **Fonction** | Contrôleur |
 
 {style="table-layout:auto"}
 
-### Utilisateur 5
+### Utilisatrice 5
 
 | **Prénom** | Pam |
 |---|---|
 | **Nom** | Reynolds |
-| **Nom d’utilisateur/Adresse électronique** | preynolds@foo.com |
+| **Nom d’utilisatrice/Adresse e-mail** | preynolds@foo.com |
 | **Mot de passe** | updateMe |
 | **Accès** | Gestionnaire de projet |
 | **Entreprise** | *Votre entreprise>* |
-| **Groupe d’accueil** | Marketing |
-| **Rôle de tâche** | Informatique |
+| **Groupe principal** | Marketing |
+| **Fonction** | IT |
 
 {style="table-layout:auto"}
 
-### Utilisateur 6
+### Utilisateur 6
 
 | **Prénom** | Ray |
 |---|---|
 | **Nom** | Andrews |
-| **Nom d’utilisateur/Adresse électronique** | randrews@foo.com |
+| **Nom d’utilisateur/Adresse e-mail** | randrews@foo.com |
 | **Mot de passe** | updateMe |
-| **Accès** | Administrateur |
+| **Accès** | Administrateur ou administratrice |
 | **Entreprise** | *Votre entreprise>* |
-| **Groupe d’accueil** | Gestionnaire des ressources |
-| **Rôle de tâche** | none |
+| **Groupe principal** | Gestionnaire des ressources |
+| **Fonction** | Aucune |
 
 {style="table-layout:auto"}
 
-## Téléchargement d’un modèle de démarrage rapide
+## Télécharger un modèle Kickstart
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **System** > **Kick-Starts** > **Import Data.**
+1. Cliquez sur **Système** > **Kickstarts** > **Importer des données.**
 
-1. Cliquez sur **Plus d’options** pour afficher la liste complète des options d’importation.
-1. Sélectionnez les objets Niveau d’accès, Société, Groupe, Rôle de tâche et Utilisateur à importer.
+1. Cliquez sur **Plus d’options** pour afficher la liste complète des options d’import.
+1. Sélectionnez les objets Niveau d’accès, Entreprise, Groupe, Fonction et Utilisateur ou utilisatrice à importer.
 
-## Informations sur la société de saisie
+## Saisir les informations sur l’entreprise
 
 1. Ouvrez le fichier **Workfront.xlsx** que vous venez de télécharger.
 
    >[!TIP]
    >
-   >Lorsque vous utilisez des feuilles de données très volumineuses, vous pouvez utiliser l’outil Volet de congélation (ou équivalent) de votre éditeur de feuille de calcul pour faciliter l’utilisation de la feuille de calcul.
+   >Lorsque vous utilisez des feuilles de données très volumineuses, vous pouvez utiliser l’outil « Figer les données » (ou équivalent) de votre éditeur de feuille de calcul pour faciliter l’utilisation de la feuille de calcul.
 
-1. Accédez à la feuille &quot;Société CMPY&quot;.
+1. Accédez à la feuille « Entreprise CMPY ».
 
-   Il devrait être vide, à moins que les entreprises ne soient déjà dans le système. ![](assets/cmpysheet-350x16.png)
+   Elle devrait être vide, à moins que les entreprises ne soient déjà dans le système. ![](assets/cmpysheet-350x16.png)
 
    ![](assets/companyid--1--350x78.png)
 
-1. Spécifiez TRUE dans la colonne **isNew**.
-1. Répétez cette action pour chaque société ajoutée. (Dans cet exemple, exécutez cette action pour les lignes 3 à 6, car quatre sociétés sont ajoutées.)
+1. Indiquez TRUE dans la colonne **isNew**.
+1. Répétez cette action pour chaque entreprise ajoutée. (Dans cet exemple, exécutez cette action pour les lignes 3 à 6, car quatre entreprises sont ajoutées.)
 
    ![](assets/cmpyisnew-350x86.png)
 
-1. Spécifiez un identifiant unique.
+1. Indiquez un identifiant unique.
 
-   Cela doit être effectué pour chaque ligne de la colonne ID. Les entiers commençant à 1 fonctionnent bien lors de la création de nouveaux enregistrements.
+   Cela doit être effectué pour chaque ligne de la colonne Identifiant. Les entiers commençant à 1 fonctionnent bien lors de la création de nouveaux enregistrements.
 
    ![](assets/cmpyisnew-350x86.png)
 
-1. Définissez un Nom.
+1. Définissez un nom.
 
-   Indiquez les noms de chaque client dans la colonne **setName**.
+   Indiquez les noms de chaque client et cliente dans la colonne **setName**.
 
    ![](assets/companyid-350x78.png)
 
-1. Accédez à la feuille Groupe de GROUPE .
+1. Accédez à la feuille de groupe GROUP.
 
    Sauf si vous avez déjà créé des groupes dans Workfront, cette feuille ne doit afficher que le groupe par défaut configuré avec chaque compte de Workfront.
 
    ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
 
-1. Définissez la colonne **isNew**. Selon le scénario, 4 groupes seront importés. Par conséquent, spécifiez TRUE dans les lignes 4 à 7 pour la colonne &quot;isNew&quot;.
-1. Spécifiez un identifiant unique.
+1. Définissez la colonne **isNew**. Selon le scénario, 4 groupes seront importés. Par conséquent, indiquez TRUE dans les lignes 4 à 7 pour la colonne « isNew ».
+1. Indiquez un identifiant unique.
 
-   Cela doit être effectué pour chaque ligne de la colonne ID. Les entiers commençant à 1 fonctionnent bien lors de la création de nouveaux enregistrements.
+   Cela doit être effectué pour chaque ligne de la colonne Identifiant. Les entiers commençant à 1 fonctionnent bien lors de la création de nouveaux enregistrements.
 
    ![](assets/groupids-350x85.png)
 
-1. Définissez un Nom.
+1. Définissez un nom.
 
-   Indiquez les noms de chaque service dans la colonne **setName**.
-
-   ![](assets/groupnames-350x85.png)
-
-   Spécifiez les informations de rôle. Accédez à la feuille Rôle du RÔLE .
-
-1. À moins que vous n’ayez déjà créé ou supprimé des rôles dans votre compte, cette feuille doit afficher 8 rôles configurés avec chaque compte de Workfront.
+   Indiquez les noms de chaque département dans la colonne **setName**.
 
    ![](assets/groupnames-350x85.png)
 
-1. Définissez l’instruction True .
+   Indiquez les informations de rôle. Accédez à la feuille de rôle ROLE.
 
-   Sept rôles de tâche sont en cours d’importation, saisissez TRUE dans les lignes 12 à 18 pour la colonne &quot;isNew&quot;.
+1. À moins que vous n’ayez déjà créé ou supprimé des rôles dans votre compte, cette feuille doit afficher 8 rôles configurés avec chaque compte de Workfront.
+
+   ![](assets/groupnames-350x85.png)
+
+1. Définissez l’instruction True.
+
+   Sept fonctions sont en cours d’import, saisissez TRUE dans les lignes 12 à 18 pour la colonne « isNew ».
 
    ![](assets/roleisnew-350x104.png)
 
-1. Spécifiez un identifiant unique.
+1. Indiquez un identifiant unique.
 
-   Cela doit être effectué pour chaque ligne de la colonne ID. Les entiers commençant à 1 fonctionnent bien lors de la création de nouveaux enregistrements.
+   Cela doit être effectué pour chaque ligne de la colonne Identifiant. Les entiers commençant à 1 fonctionnent bien lors de la création de nouveaux enregistrements.
 
    ![](assets/usersheet-350x16.png)
 
    ![](assets/roleisnew--1--350x104.png)
 
-1. Attribuez des noms à chaque rôle en le tapant dans la colonne setName .
+1. Indiquez des noms pour chaque rôle en le saisissant dans la colonne setName.
 
    ![](assets/roleisnew-350x104.png)
 
-1. Fournissez des détails supplémentaires si nécessaire.
+1. Indiquez des détails supplémentaires si nécessaire.
 
-   Incluez les taux de facturation, les taux de coût et les descriptions des rôles que vous créez, si nécessaire.
+   Incluez les taux de facturation, les taux de coûts et les descriptions des rôles que vous créez, si nécessaire.
 
-1. Accédez à la feuille utilisateur USER pour saisir les informations utilisateur.
+1. Accédez à la feuille utilisateur USER pour saisir les informations des utilisateurs et utilisatrices.
 
-   Sauf si vous avez déjà créé des utilisateurs dans votre compte, cette feuille ne doit afficher que l’ utilisateur administrateur fourni avec chaque compte de Workfront.
+   Sauf si vous avez déjà créé des utilisateurs et utilisatrices dans votre compte, cette feuille ne doit afficher que l’utilisateur ou utilisatrice Admin de chaque compte de Workfront.
 
    ![](assets/rolenames-350x104.png) ![](assets/emptyusersheet-350x52.png)
 
-1. Définissez la valeur True en spécifiant TRUE dans les lignes 4 à 9 pour la colonne &quot;isNew&quot;, puisque 6 utilisateurs sont importés.
+1. Définissez la valeur True en spécifiant TRUE dans les lignes 4 à 9 pour la colonne « isNew », puisque 6 personnes sont importées.
 
    ![](assets/userisnew-350x52.png)
 
-1. Définissez un identifiant unique en spécifiant un identifiant unique dans chaque ligne pour la colonne ID. Généralement, les entiers commençant à 1 fonctionnent bien pour les nouveaux enregistrements.
+1. Définissez un identifiant unique en spécifiant un identifiant unique dans chaque ligne pour la colonne Identifiant. Généralement, les entiers commençant à 1 fonctionnent bien pour les nouveaux enregistrements.
 
    ![](assets/userisnew-350x52.png)
 
-1. Saisissez les noms de chaque utilisateur dans les colonnes &#39;setFirstName&#39; et &#39;setLastName&#39;.
+1. Saisissez les noms de chaque utilisateur et utilisatrice dans les colonnes « setFirstName » et « setLastName ».
 
    ![](assets/usernames-350x52.png)
 
-1. Définissez des valeurs détaillées en spécifiant des valeurs dans les colonnes &#39;setEmail&#39;, &#39;setPassword&#39; et &#39;setUsername&#39;.
+1. Définissez des valeurs détaillées en indiquant des valeurs dans les colonnes « setEmail », « setPassword » et « setUsername ».
 
    ![](assets/usercredentials-350x52.png)
 
-1. Spécifiez les valeurs du niveau d’accès.
+1. Indiquez les valeurs du niveau d’accès.
 
-   Par exemple, Chris Manning, qui est membre de l’équipe, recherche l’identifiant sur la feuille Niveau d’accès ACSLVL pour le niveau d’accès Membre de l’équipe. Copiez l’ID dans votre presse-papiers, puis collez-le dans la feuille utilisateur de la colonne **setAccessLevelID** de la ligne Chris.
+   Par exemple, Chris Manning, qui est membre de l’équipe, recherche l’identifiant sur la feuille de niveau d’accès ACSLVL pour le niveau d’accès Personne membre de l’équipe. Copiez l’identifiant dans le presse-papiers, puis collez-le dans la feuille utilisateur USER dans la colonne **setAccessLevelID** sur la ligne de Chris.
 
-   Répétez cette étape pour chaque utilisateur et niveau d’accès.
+   Répétez cette étape pour chaque personne et niveau d’accès.
 
    ![](assets/copyalid-350x171.png) ![](assets/pastealid-350x59.png)
 
-1. Spécifiez les détails du groupe d’accueil.
+1. Indiquez les détails du groupe principal.
 
-   Selon le scénario, Chris Manning appartient au groupe Marketing. Dans la feuille Groupe GROUP, recherchez l’identifiant du groupe Marketing, copiez-le dans le Presse-papiers, puis, dans la feuille Utilisateur, collez-le dans la colonne **setHomeGroupID** de la ligne Chris. &#x200B;Répétez cette étape pour chaque affectation d’utilisateur et de groupe.
+   Selon le scénario, Chris Manning appartient au groupe Marketing. Dans la feuille de groupe GROUP, recherchez l’identifiant du groupe marketing, copiez-le dans le presse-papiers, puis, dans la feuille utilisateur USER, collez-le dans la colonne **setHomeGroupID** sur la ligne de Chris.Répétez cette étape pour chaque affectation de personne et de groupe.
 
    ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
 
-1. Spécifiez les détails de la société.
+1. Indiquez les détails de l’entreprise.
 
-   Tous les utilisateurs de ce scénario appartiennent à la même société. Dans la feuille Société CMPY, recherchez l’ID de la société *Votre propre entreprise*, copiez l’ID dans le presse-papiers, puis, dans l’onglet Utilisateur, collez cette valeur dans chaque ligne de la colonne &quot;setCompanyID&quot;. &#x200B;
+   Tous les utilisateurs et utilisatrices de ce scénario appartiennent à la même entreprise. Dans la feuille d’entreprise CMPY, recherchez l’identifiant de l’entreprise *Votre propre entreprise*, copiez l’identifiant dans le presse-papiers, puis, dans l’onglet Utilisateur USER, collez cette valeur dans chaque ligne de la colonne « setCompanyID ».
 
-   Répétez cette étape pour chaque affectation d’utilisateur et de groupe.
+   Répétez cette étape pour chaque affectation de personne et de groupe.
 
    ![](assets/companyid--1--350x78.png)
 
    ![](assets/pastecompanyid-350x84.png)
 
-1. Spécifiez les détails du rôle de tâche.
+1. Indiquez les détails de la fonction.
 
-   Selon le scénario, Chris Manning aura le rôle Analyste métier . Dans la feuille Rôle du RÔLE, recherchez l’ID du rôle Analyste métier, copiez-le dans le Presse-papiers, puis, dans la feuille Utilisateur de l’UTILISATEUR, collez-le dans la colonne &quot;setRoleID&quot; de la ligne Chris. &#x200B;Répétez cette étape pour chaque affectation d’utilisateur et de groupe.
+   Selon le scénario, Chris Manning aura le rôle de personne chargée de l’analyse d’affaires. Dans la feuille de rôle ROLE, recherchez l’identifiant du rôle Personne chargée de l’analyse d’affaires, copiez-le dans le presse-papiers, puis, dans la feuille utilisateur USER, collez-le dans la colonne « setRoleID » de la ligne Chris.Répétez cette étape pour chaque affectation de personne et de groupe.
 
    ![](assets/copyroleid-350x149.png)
 
    ![](assets/pasteroleid-350x95.png)
 
-1. Renseignez d’autres informations sur l’utilisateur, si nécessaire, puis enregistrez le fichier.
+1. Renseignez d’autres informations sur l’utilisateur ou l’utilisatrice, si nécessaire, puis enregistrez le fichier.
 1. Importez le fichier Excel.
 
    Suivez les instructions fournies dans [Importer des données dans Adobe Workfront à l’aide d’un modèle Kickstart](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

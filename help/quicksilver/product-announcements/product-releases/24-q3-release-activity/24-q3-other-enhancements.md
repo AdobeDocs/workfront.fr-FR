@@ -37,8 +37,8 @@ Pour permettre aux organisations d’accéder aux avantages d’Adobe Unified 
 
 Adobe Unified Experience comprend ce qui suit :
 
-* Connexion unique pour toutes les applications Adobe via Adobe Experience Cloud
-* Sélecteur d’organisation pour basculer entre les organisations et les environnements Workfront
+* Une seule connexion pour toutes les applications Adobe via Adobe Experience Cloud.
+* Un sélecteur d’organisation à déplacer entre les organisations et les environnements Workfront.
 * Navigation avec options pour les pages Workfront, les préférences Adobe Experience Cloud et votre profil Workfront
 
 Si votre entreprise passe à Adobe Unified Experience avec la version 24.7, votre administrateur ou administratrice de Workfront a reçu un message dans le Centre des annonces concernant la modification.

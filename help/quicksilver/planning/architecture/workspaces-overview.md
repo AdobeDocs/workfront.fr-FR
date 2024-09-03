@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
@@ -22,9 +22,9 @@ Un espace de travail est un ensemble de types d’enregistrement utilisés par u
 
 ![](assets/workspaces-landing-page-admin-account.png)
 
-## Considérations relatives aux espaces de travail
+## Considérations sur les espaces de travail
 
-* Vous pouvez créer des espaces de travail pour des entités organisationnelles spécifiques au sein de votre entreprise, afin de correspondre au fonctionnement unique de chaque entité.
+* Vous pouvez créer des espaces de travail pour des unités organisationnelles spécifiques au sein de votre organisation, afin qu’ils correspondent au mode de travail unique de chaque unité.
 * La planification Workfront ne s’accompagne d’aucun espace de travail préconfiguré. Vous devez les créer en fonction des besoins de votre entreprise.
 * Vous pouvez créer des espaces de travail comme suit :
 
@@ -47,7 +47,7 @@ Un espace de travail est un ensemble de types d’enregistrement utilisés par u
 * Les types d’enregistrements contenus dans un espace de travail doivent refléter le cycle de vie et les concepts d’une entité organisationnelle.
 
   Par exemple, si les objets de travail d’une unité sont des campagnes, des produits et des régions, l’espace de travail de cette unité doit contenir les types d’enregistrement Campagne, Produit et Région.
-* Lorsque vous créez un espace de travail, vous seul êtes autorisé à y accéder et à le gérer. Vous devez le partager avec d’autres utilisateurs afin qu’ils puissent collaborer avec vous dans le même espace.
+* Lorsque vous créez un espace de travail, vous êtes la seule personne à pouvoir y accéder et le gérer. Vous devez le partager avec d’autres utilisateurs afin qu’ils puissent collaborer avec vous dans le même espace.
 
   Pour plus d’informations, voir [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md).
 

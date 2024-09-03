@@ -27,25 +27,25 @@ Dans le cadre de la configuration de votre système Adobe Workfront, vous pouve
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouvelle : standard</p>
+   <p>Nouveau : Standard</p>
    Ou
-   <p>Actuelle : formule</p></td> 
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ Pour accéder à la page Infos client :
 
 1. Dans le panneau de gauche, cliquez sur **Système** > **Infos client**.
 
-   Selon le forfait Workfront que vous avez acheté, il se peut que certaines sections ne figurent pas dans la page Infos client. Contactez votre représentant ou représentante de compte si vous devez déterminer le forfait Workfront utilisé par votre organisation.
+   Selon le plan Workfront que vous avez acheté, il se peut que certaines sections ne figurent pas dans la page Infos client. Contactez votre représentant ou représentante de compte si vous devez déterminer le plan Workfront utilisé par votre organisation.
 
    Les sections disponibles dans la zone Infos client sont les suivantes :
 
@@ -80,7 +80,7 @@ Pour accéder à la page Infos client :
 
    * **Licence**
 
-     Pour plus d’informations sur les licences, voir [Gérer les licences disponibles dans votre système](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     Pour plus d’informations sur les licences, consultez la section [Gérer les licences disponibles dans votre système](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 ## Configurer les informations de base {#configure-basic-info}
 
@@ -90,7 +90,7 @@ Pour configurer votre section Informations de base dans votre zone Infos client�
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Système** > **Infos client**.
+1. Dans le panneau de gauche, cliquez sur **Système** > **Infos client**.
 
 1. Dans la section **Informations de base** en haut de la page **Infos client**, recherchez les informations suivantes sur votre instance avec Workfront :
 
@@ -107,7 +107,7 @@ Pour configurer votre section Informations de base dans votre zone Infos client�
       <td>Le numéro de cluster de votre instance.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Adresse e-mail de l’administrateur</td> 
+      <td role="rowheader">Adresse e-mail de l'administrateur</td> 
       <td> <p>L’adresse e-mail de votre administrateur ou administratrice Workfront. Vous pouvez modifier ce champ pour qu’il corresponde à l’adresse e-mail de l’une de vos personnes administratrices de Workfront. La personne associée à cette adresse e-mail est considérée comme la principale personne administratrice Workfront de votre système Workfront. Toute communication à l’échelle du site provenant de Workfront est dirigée vers cette adresse e-mail. Il est donc important de la mettre à jour.</p> <p><b>NOTE</b> : vous ne pouvez pas désactiver, supprimer ou modifier le niveau d’accès de la personne associée à l’adresse e-mail de la personne administratrice.</p> </td> 
      </tr> 
      <tr> 
@@ -120,11 +120,11 @@ Pour configurer votre section Informations de base dans votre zone Infos client�
        <ul> 
         <li>La date et l’heure qui s’affichent dans les e-mails sortants.</li> 
         <li>Le fuseau horaire par défaut pour les nouveaux utilisateurs et utilisatrices lors de leur création.</li> 
-       </ul> <p>Les utilisateurs et utilisatrices peuvent modifier le fuseau horaire de leur instance Workfront dans leur profil. Lorsque les utilisateurs et les utilisatrices modifient leur fuseau horaire, la date et l’heure de leurs e-mails envoyés à partir de Workfront correspondent à leurs préférences de profil. Pour plus d’informations sur la modification des <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">préférences de profil</a> des utilisateurs et utilisatrices, voir Configurer mes paramètres. Ce fuseau horaire est sélectionné comme fuseau horaire par défaut lorsque vous créez un nouveau planning. Pour plus d’informations sur la création de plannings, voir <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Créer un planning</a>.</p> <p>Pour plus d’informations sur l’utilisation des plannings pour aider les utilisateurs et les utilisatrices à collaborer avec des fuseaux horaires différents dans Workfront, voir <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Travailler avec des fuseaux horaires différents</a>.</p> </td> 
+       </ul> <p>Les utilisateurs et utilisatrices peuvent modifier le fuseau horaire de leur instance Workfront dans leur profil. Lorsque les utilisateurs et les utilisatrices modifient leur fuseau horaire, la date et l’heure de leurs e-mails envoyés à partir de Workfront correspondent à leurs préférences de profil. Pour plus d’informations sur la modification des préférences de profil des utilisateurs et utilisatrices, voir <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurer mes paramètres</a>. Ce fuseau horaire est sélectionné comme fuseau horaire par défaut lorsque vous créez un nouveau planning. Pour plus d’informations sur la création de plannings, voir <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Créer un planning</a>.</p> <p>Pour plus d’informations sur l’utilisation des plannings pour aider les utilisateurs et les utilisatrices à collaborer avec des fuseaux horaires différents dans Workfront, voir <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Travailler avec des fuseaux horaires différents</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Paramètre local</td> 
-      <td>Contrôle les formats de langue, de date et de nombres utilisés dans les e-mails sortants. Le paramètre régional sélectionné ici est le paramètre régional par défaut lors de la création de nouveaux utilisateurs et de nouvelles utilisatrices. Les utilisateurs et les utilisatrices peuvent modifier leurs paramètres régionaux dans leur profil d’utilisateur ou d’utilisatrice. Lorsque les utilisateurs et les utilisatrices modifient leurs paramètres régionaux, les formats de langue, de date et de nombres dans leurs e-mails envoyés à partir de Workfront correspondent à leurs préférences de profil. Pour plus d’informations sur la modification de vos <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">préférences de profil</a>, voir Configurer mes paramètres.</td> 
+      <td>Contrôle les formats de langue, de date et de nombres utilisés dans les e-mails sortants. Le paramètre régional sélectionné ici est le paramètre régional par défaut lors de la création de nouveaux utilisateurs et de nouvelles utilisatrices. Les utilisateurs et les utilisatrices peuvent modifier leurs paramètres régionaux dans leur profil d’utilisateur ou d’utilisatrice. Lorsque les utilisateurs et les utilisatrices modifient leurs paramètres régionaux, les formats de langue, de date et de nombres dans leurs e-mails envoyés à partir de Workfront correspondent à leurs préférences de profil. Pour plus d’informations sur la modification de vos préférences de profil, voir <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurer mes paramètres</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Pourcentage de stockage</td> 

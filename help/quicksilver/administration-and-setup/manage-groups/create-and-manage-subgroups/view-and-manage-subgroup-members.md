@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Affichage et gestion des membres de sous-groupe
-description: Lorsque vous affichez un groupe que vous gérez, vous pouvez afficher et gérer tous les utilisateurs des sous-groupes du groupe.
+description: Lorsque vous affichez un groupe que vous gérez, vous pouvez afficher et gérer tous les utilisateurs et utilisatrices des sous-groupes du groupe.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -11,15 +11,15 @@ exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
 source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 32%
+ht-degree: 98%
 
 ---
 
-# Afficher et gérer les personnes membres d’un sous-groupe
+# Afficher et gérer des membres de sous-groupe
 
-Lorsque vous affichez un groupe que vous gérez, vous pouvez afficher et gérer tous les utilisateurs des sous-groupes du groupe.
+Lorsque vous affichez un groupe que vous gérez, vous pouvez afficher et gérer tous les utilisateurs et utilisatrices des sous-groupes du groupe.
 
-S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
+S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrateurs et administratrices peuvent également le faire pour votre groupe. Il en va de même pour les administrateurs et administratrices de Workfront (pour n’importe quel groupe).
 
 ## Conditions d’accès
 
@@ -32,21 +32,21 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan Workfront*</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Forfait Workfront*</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Vous devez être un administrateur ou une administratrice de groupe pour le groupe ou un administrateur ou une administratrice de Workfront. Pour plus d’informations, consultez les sections <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à une personne</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Vous devez faire partie de l’équipe d’administration de groupe pour le groupe ou de l’équipe d’administration Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Éditer l’accès des utilisateurs, avec l’option Administration utilisateur (tous les utilisateurs) sélectionnée</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice de Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès des utilisateurs et utilisatrices, avec l’option Administration des utilisateurs et utilisatrices (l’ensemble des utilisateur et utilisatrices) sélectionnée</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires ont été configurées pour votre niveau d’accès. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 +++
 
@@ -54,27 +54,27 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Groups**.
+1. Cliquez sur **Groupes**.
 
-   Dans la liste qui s’affiche, vous pouvez voir les groupes que vous gérez, ainsi que les sous-groupes qu’ils possèdent. Les administrateurs Adobe Workfront peuvent voir tous les groupes.
+   Dans la liste qui s’affiche, vous pouvez voir les groupes que vous gérez, ainsi que les sous-groupes qu’ils comportent. Les administrateurs et administratrices Adobe Workfront peuvent voir tous les groupes.
 
 1. Cliquez sur le nom du groupe pour lequel vous souhaitez afficher ou gérer les membres du sous-groupe.
-1. Dans le panneau de gauche, cliquez sur **Subgroup Members**.
+1. Dans le panneau de gauche, cliquez sur **Membres du sous-groupe**.
 
-   Cet élément de panneau de gauche n’est disponible que si le groupe comporte des sous-groupes.
+   Cet élément du panneau de gauche n’est disponible que si le groupe comporte des sous-groupes.
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Sélectionnez un membre dans la liste, puis cliquez sur Modifier ![](assets/edit-icon.png) pour modifier le profil utilisateur de cette personne.
+   * Sélectionnez un membre dans la liste, puis cliquez sur Modifier ![](assets/edit-icon.png) pour modifier son profil utilisateur/utilisatrice.
 
-     Pour plus d’informations, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) ou [Modification des profils utilisateur en masse](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
+     Pour plus d’informations, voir [Modifier le profil utilisateur/utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) ou [Modifier des profils utilisateur/utilisatrice en bloc](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
 
-   * Sélectionnez un nombre quelconque de membres dans la liste, puis cliquez sur Mettre à jour ![](assets/comment-icon.png) pour ajouter un commentaire à leurs profils utilisateur.
+   * Sélectionnez des membres dans la liste, puis cliquez sur Mettre à jour ![](assets/comment-icon.png) pour ajouter un commentaire à leurs profils utilisateur/utilisatrice.
 
-     L’utilisateur ou les utilisateurs reçoivent une notification intégrée (in-app) ainsi qu’une notification par e-mail avec votre commentaire. Le commentaire s’affiche dans la zone Mises à jour du profil de l’utilisateur.
+     Les personnes reçoivent une notification in-app ainsi qu’une notification par e-mail avec votre commentaire. Le commentaire s’affiche dans la zone Mises à jour du profil de l’utilisateur ou de l’utilisatrice.
 
-   * Sélectionnez un nombre quelconque de membres dans la liste, puis cliquez sur Désactiver ![](assets/deactivate-user.png) ou sur Activer ![](assets/activate-user.png).
+   * Sélectionnez des membres dans la liste, puis cliquez sur Désactiver ![](assets/deactivate-user.png) ou Activer ![](assets/activate-user.png).
 
-     Pour plus d’informations, voir [Désactivation ou réactivation d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+     Pour plus d’informations, voir [Désactiver ou réactiver un utilisateur ou une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-   * Exportez ![](assets/export.png) la liste des membres.
+   * Exporter ![](assets/export.png) la liste des membres.

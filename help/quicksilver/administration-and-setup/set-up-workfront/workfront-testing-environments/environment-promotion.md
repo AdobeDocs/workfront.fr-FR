@@ -4,7 +4,7 @@ content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: Déplacer des objets d’un environnement à un autre
-description: La fonctionnalité Promotion environnementale vise à permettre de déplacer des objets liés à la configuration d’un environnement à un autre. Elle n’offre pas la possibilité de déplacer des objets transactionnels (à quelques exceptions près).
+description: La fonctionnalité Promotion environnementale est conçue pour permettre de déplacer des objets liés à la configuration d’un environnement à un autre. Elle n’offre pas la possibilité de déplacer des objets transactionnels (à quelques exceptions près).
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -44,53 +44,53 @@ Vous devez disposer des éléments suivants :
    </td>
   </tr>
    <tr>
-   <td>Configurations du niveau d’accès
+   <td>Configurations des niveaux d’accès
    </td>
-   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront].
+   <td>Vous devez être administrateur ou administratrice [!DNL Workfront].
    </td>
   </tr>
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, voir la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
-Le point d’entrée Créer un package de promotion part du principe que vous avez déjà configuré l’environnement source. Cet appel API nécessite la création manuelle d’un mappage d’objets objCodes  et de GUID d’objets. [!DNL Workfront] La structure spécifique de ce mappage est décrite ci-dessous.
+Le point d’entrée Créer un package de promotion part du principe que vous avez déjà configuré l’environnement source. Cet appel API nécessite la création manuelle d’un mappage d’objets objCodes [!DNL Workfront] et de GUID d’objets. La structure spécifique de ce mappage est décrite ci-dessous.
 
 ## Objets pris en charge pour la promotion environnementale
 
-La fonctionnalité Promotion environnementale vise à permettre de déplacer des objets liés à la configuration d’un environnement à un autre. Elle n’offre pas la possibilité de déplacer des objets transactionnels (à quelques exceptions près).
+La fonctionnalité Promotion environnementale est conçue pour permettre de déplacer des objets liés à la configuration d’un environnement à un autre. Elle n’offre pas la possibilité de déplacer des objets transactionnels (à quelques exceptions près).
 
 Pour obtenir la liste des objets pouvant être promus et de leurs sous-objets pouvant être promus inclus, voir [Objets pris en charge pour la promotion environnementale](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) dans l’article [Vue d’ensemble du déplacement d’objets entre des environnements Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## Authentification
 
-L’API authentifie chaque demande pour s’assurer que la cliente ou le client dispose d’un accès pour afficher ou modifier un objet demandé.
+L’API authentifie chaque demande pour s’assurer que le client a le droit d’afficher ou de modifier l’objet concerné par la requête.
 
-L’authentification est effectuée en transmettant un ID de session ou une clé d’API, qui peut être fournie à l’aide de la méthode suivante :
+L’authentification s’effectue en transmettant un identifiant de session ou une clé API, qui peuvent être fournis à l’aide de la méthode suivante :
 
 ### Authentification de l’en-tête de la demande
 
-La méthode d’authentification préférée consiste à transmettre un en-tête de demande nommé SessionID contenant le jeton de session. Il constitue une protection contre les attaques [Cross-site Request Forgery (CSRF)](https://fr.wikipedia.org/wiki/Cross-site_request_forgery) et n’interfère pas avec l’URI à des fins de mise en cache.
+La méthode d’authentification préférée consiste à transmettre un en-tête de requête nommé SessionID contenant le jeton de session. Cela présente l’avantage d’être à l’abri des attaques [Cross-site Request Forgery (CSRF)](https://fr.wikipedia.org/wiki/Cross-site_request_forgery) et de ne pas interférer avec l’URI à des fins de mise en cache.
 
-Voici un exemple d’en-tête de demande :
+Voici un exemple d’en-tête de requête :
 
 ```
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
 ```
 
-## Points d’entrées d’API
+## Points d’entrée API
 
 * [Créer un package](#create-a-package)
 * [Obtenir une liste de packages](#get-a-list-of-packages)
-* [Obtenir un package par ID](#get-a-package-by-id)
-* [Mettre à jour les propriétés spécifiques d’un package](#update-specific-properties-of-a-package)
+* [Obtenir un package par identifiant](#get-a-package-by-id)
+* [Mettre à jour des propriétés spécifiques d’un package](#update-specific-properties-of-a-package)
 * [Supprimer un package](#delete-a-package)
 * [Effectuer une exécution préalable](#execute-a-pre-run)
 * [Exécuter une installation](#execute-an-installation)
 * [Obtenir la liste des installations pour un package spécifique](#get-a-list-of-installations-for-a-specific-package)
-* [Obtenir les détails d’une installation](#get-the-installation-details-for-an-installation)
+* [Obtenir les détails d’installation d’une installation](#get-the-installation-details-for-an-installation)
 
 ### Créer un package
 
@@ -105,9 +105,9 @@ SessionID: abc1234
 
 Cet appel exécute un processus à plusieurs étapes.
 
-La première étape entraîne la création d’un package de promotion vide au statut « ASSEMBLAGE ».
+La première étape entraîne la création d’un package de promotion vide avec le statut « ASSEMBLING ».
 
-La deuxième étape utilise le tableau `objectCollections` fourni dans le corps POST pour assembler les enregistrements demandés à partir de Workfront. Cette étape peut prendre plusieurs minutes en fonction du nombre d’enregistrements demandés et de votre configuration Workfront. À la fin de ce processus, le package de promotion vide est mis à jour avec les `packageEntities` et le statut est automatiquement défini sur « BROUILLON ».
+La deuxième étape utilise le tableau `objectCollections` fourni dans le corps POST pour assembler les enregistrements demandés à partir de Workfront. Cette étape peut prendre plusieurs minutes, en fonction du nombre d’enregistrements demandés et de votre configuration Workfront. À la fin de ce processus, le package de promotion vide est mis à jour avec les `packageEntities` et le statut est automatiquement défini sur « BROUILLON ».
 
 
 >[!NOTE]
@@ -116,7 +116,7 @@ La deuxième étape utilise le tableau `objectCollections` fourni dans le corps 
 >
 >Chaque élément du tableau contient une clé `objCode` qui correspond au code d’objet documenté dans l’explorateur d’API Workfront.
 >
->Chaque élément contient également une collection d’. `entities` Le champ  est ainsi attendu. `ID` Il peut également accepter un attribut `name` facultatif pour permettre de savoir plus facilement ce que représente `ID`.
+>Chaque élément contient également une collection d’`entities`. Le champ `ID` est ainsi attendu. Il peut également accepter un attribut `name` facultatif pour permettre de savoir plus facilement ce que représente `ID`.
 >
 >Pour obtenir la liste des codes d’objet pouvant être demandés dans la liste `objectCollections`, voir la section [Objets pris en charge pour la promotion environnementale](#supported-objects-for-environment-promotion) dans cet article.
 
@@ -221,9 +221,9 @@ Ou
   </tbody> 
 </table>
 
-Cet appel renvoie une liste non filtrée des packages de promotion appartenant à la cliente ou au client.
+Cet appel renvoie une liste non filtrée des packages de promotion appartenant au client ou à la cliente.
 
-La réponse comprend tous les packages créés à partir de n’importe quelle instance de sandbox, de prévisualisation ou de production de la cliente ou du client de Workfront.
+La réponse comprend tous les packages créés à partir de n’importe quelle instance Workfront de sandbox, de prévisualisation ou de production du client ou de la cliente.
 
 #### URL
 
@@ -273,9 +273,9 @@ _Vide_
 }
 ```
 
-&lt;!-- Vérifier le « statut » ci-dessus. A-t-il été ajouté ? -->
+&lt;!--Vérifiez le « statut » ci-dessus. A-t-il été ajouté ?-->
 
-### Obtenir un package par ID
+### Obtenir un package par identifiant
 
 <table style="table-layout:auto"> 
  <col> 
@@ -353,7 +353,7 @@ _Vide_
 }
 ```
 
-### Mettre à jour les propriétés spécifiques d’un package
+### Mettre à jour des propriétés spécifiques d’un package
 
 <table style="table-layout:auto"> 
  <col> 
@@ -458,7 +458,7 @@ Cet appel supprime l’enregistrement du package de promotion. Cette action est 
 
 >[!NOTE]
 >
->Plutôt que de supprimer un package de promotion, il est recommandé de définir le statut du package sur DÉSACTIVÉ. Cela permet de récupérer le package et de conserver l’historique d’installation de l’emplacement où il a été déployé.
+>Au lieu de supprimer un package de promotion, il est recommandé de modifier le statut du package en DISABLED. Cela permet la récupération du package et conserve l’historique d’installation de l’emplacement où il a été déployé.
 
 #### URL
 
@@ -500,7 +500,7 @@ Deleted
 
 >[!IMPORTANT]
 >
->Avant de pouvoir exécuter une installation, vous devez effectuer cette exécution préalable. Vous utiliserez l’ID généré par cet appel lorsque vous exécuterez l’installation.
+>Avant de pouvoir exécuter une installation, vous devez effectuer cette exécution préalable. Vous utilisez l’identifiant généré par cet appel lorsque vous exécutez l’installation.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -511,11 +511,11 @@ Deleted
   </tbody> 
 </table>
 
-Cet appel effectue une comparaison entre la définition de package et l’environnement cible identifié dans l’URL.
+Cet appel effectue une comparaison entre la définition du package et l’environnement cible identifié dans l’URL.
 
-Le résultat est un corps JSON qui identifie si un objet de promotion est trouvé ou non dans l’environnement cible.
+Le résultat est un corps JSON qui identifie si un objet de promotion est présent ou non dans l’environnement cible.
 
-Pour chaque objet de promotion, l’une des `actions` suivantes est définie :
+Pour chaque objet de promotion, une des `actions` suivantes est définie :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -523,11 +523,11 @@ Pour chaque objet de promotion, l’une des `actions` suivantes est définie :
  <tbody> 
   <tr> 
    <td>CREATE</td> 
-   <td><p>Lorsqu’un enregistrement correspondant est introuvable dans l’environnement cible, l’action est définie sur CREATE.</p><p>Lorsque cette action est définie dans le <code>translationmap</code> qui est fourni au point d’entrée <code>/install</code>, le service d’installation crée l’enregistrement.</p></td> 
+   <td><p>Lorsqu’un enregistrement correspondant est introuvable dans l’environnement cible, l’action est définie sur CREATE.</p><p>Lorsque cette action est définie dans la <code>translationmap</code> qui est fournie au point d’entrée <code>/install</code>, le service d’installation crée l’enregistrement.</p></td> 
   </tr> 
   <tr> 
    <td>USEEXISTING</td> 
-   <td><p>Lorsqu’un enregistrement correspondant est trouvé dans l’environnement cible, l’action est définie sur USEEXISTING et un <code>targetId</code> est également capturé dans le <code>translationmap</code>.</p><p>Lorsque cette action est définie dans le <code>translationmap</code> qui est fourni au point d’entrée <code>/install</code>, le service d’installation ne crée pas l’enregistrement. Il utilisera toutefois le <code>targetId</code> inclus dans l’entrée de mappage pour d’autres objets qui peuvent faire référence à cet enregistrement.</p><p>Par exemple, un « Groupe par défaut » peut être trouvé dans l’environnement cible dans lequel un package est déployé. Il n’est pas possible d’avoir deux enregistrements « Groupe par défaut ». Le service d’installation utilisera donc le GUID du groupe existant dans toute autre action de création d’objet qui inclura une référence au « Groupe par défaut », comme un projet, un formulaire ou toute autre entité liée à ce groupe.</p><p><b>Remarque :</b> <ul><li><p>Lorsque l’action USEEXISTING est affectée, l’enregistrement existant dans l’environnement cible n’est pas modifié. </p><p>Par exemple, si la description du « Groupe par défaut » a changé dans le sandbox à partir duquel le package a été créé et que la valeur de description est différente dans l’environnement cible, la valeur reste inchangée après une installation avec ce <code>translationmap</code>.</li></ul></td> 
+   <td><p>Lorsqu’un enregistrement correspondant est trouvé dans l’environnement cible, l’action est définie sur USEEXISTING et un <code>targetId</code> est également capturé dans la <code>translationmap</code>.</p><p>Lorsque cette action est définie dans la <code>translationmap</code> qui est fournie au point d’entrée <code>/install</code>, le service d’installation ne crée pas l’enregistrement. Cependant, il utilisera les <code>targetId</code> inclus dans l’entrée de mappage pour les autres objets qui peuvent avoir une référence à cet enregistrement.</p><p>Par exemple, un « Groupe par défaut » peut se trouver dans l’environnement cible dans lequel un package est déployé. Il n’est pas possible d’avoir deux enregistrements « Groupe par défaut ». Le service d’installation utilise donc le GUID du groupe existant pour toute autre action de création d’objet qui inclut une référence au « Groupe par défaut », comme un projet, un formulaire ou toute autre entité liée à ce groupe.</p><p><b>Note :</b> <ul><li><p>Lorsque l’action USEEXISTING est affectée, l’enregistrement existant dans l’environnement cible n’est pas modifié. </p><p>Par exemple, si la description du « Groupe par défaut » a changé dans le sandbox à partir duquel le package a été créé et que la valeur de description est différente dans l’environnement cible, la valeur reste inchangée après une installation avec ce <code>translationmap</code>.</li></ul></td> 
   </tr> 
   <tr> 
    <td>OVERWRITING</td> 
@@ -535,12 +535,12 @@ Pour chaque objet de promotion, l’une des `actions` suivantes est définie :
   </tr> 
   <tr> 
    <td>IGNORE</td> 
-   <td><p>Cette action n’est pas définie automatiquement.</p><p>Elle permet de remplacer manuellement une action CREATE ou USEEXISTING affectée avant d’effectuer l’appel <code>/install</code>.</p><p><b>Remarques : </b><ul><li><p>Si un enregistrement qui était initialement défini sur CREATE est défini sur IGNORE, tous les enregistrements enfants doivent également être définis sur IGNORE.</p><p>Par exemple, si un enregistrement de modèle a été mappé avec une action CREATE et que l’utilisateur ou l’utilisatrice qui procède à l’installation souhaite l’exclure du déploiement, il ou elle peut définir l’action du modèle sur IGNORE.</p><p>Dans ce cas, si l’utilisateur ou l’utilisatrice qui procède à l’installation ne définit pas également les tâches de modèle, les affectations de tâches de modèle, les tâches antérieures de modèle, la définition de la file d’attente, les rubriques de file d’attente, les règles de routage, etc. sur IGNORE, le déploiement entraîne l’échec de la tentative d’installation.</p></li><li><p>Si un enregistrement qui était initialement défini sur USEEXISTING est défini sur IGNORE, il peut y avaoir des effets négatifs pendant le processus d’installation.</p><p>Par exemple, si un enregistrement de groupe a été mappé avec l’action USEEXISTING et que l’utilisateur ou l’utilisatrice qui procède à l’installation définit l’action sur IGNORE pour les objets qui nécessitent un groupe (par exemple, un projet ne peut pas exister sans qu’un groupe soit affecté), le groupe par défaut du système est affecté à ce projet.</p></li><li><p>Si un enregistrement qui était initialement défini sur USEEXISTING est défini sur CREATE, il peut y avoir des effets négatifs pendant le processus d’installation, car de nombreuses entités Workfront ont des contraintes de nom unique.</p><p>Par exemple, si un enregistrement de « Groupe par défaut » a été mappé avec l’action USEEXISTING et que l’utilisateur ou l’utilisatrice qui procède à l’installation définit l’action sur CREATE, du fait qu’il existe déjà un « Groupe par défaut », la tentative d’installation échoue à toutes les étapes. Les noms de groupe doivent être uniques.</p><p>Certaines entités n’ont pas de contrainte de nom unique. Pour ces objets, cette modification entraîne deux enregistrements portant le même nom. Par exemple, les modèles, les projets, les vues, les filtres, les regroupements, les rapports et les tableaux de bord n’ont pas de contraintes de nom unique. Une bonne pratique consiste à attribuer des noms uniques à ces enregistrements, mais cela n’est pas exigé.</p></li></ul></p></td> 
+   <td><p>Cette action n’est pas définie automatiquement.</p><p>Elle permet de remplacer manuellement une action CREATE ou USEEXISTING affectée avant d’exécuter l’appel <code>/install</code>.</p><p><b>Notes : </b><ul><li><p>Si un enregistrement qui a été initialement défini sur CREATE est défini sur IGNORE, tous les enregistrements enfant doivent également être définis sur IGNORE.</p><p>Par exemple, si un enregistrement de modèle a été mappé avec une action CREATE et que l’utilisateur ou l’utilisatrice qui effectue l’installation souhaite l’exclure du déploiement, celui-ci peut définir l’action du modèle sur IGNORE.</p><p>Dans ce cas, si l’utilisateur ou l’utilisatrice qui effectue l’installation ne définit pas également sur IGNORE les tâches du modèle, les affectations des tâches du modèle, les prédécesseurs des tâches du modèle, la définition de la file d’attente, les rubriques de la file d’attente, les règles de routage, etc., le déploiement entraîne l’échec de la tentative d’installation.</p></li><li><p>Si un enregistrement qui était initialement défini sur USEEXISTING est défini sur IGNORE, il peut se produire des effets indésirables lors du processus d’installation.</p><p>Par exemple, si un enregistrement Groupe a été mappé avec l’action USEEXISTING et que l’utilisateur ou l’utilisatrice qui effectue l’installation modifie l’action en IGNORE, pour les objets nécessitant un groupe (par exemple, un projet ne peut pas exister sans qu’un groupe lui soit affecté), le groupe par défaut du système est affecté à ce projet.</p></li><li><p>Si un enregistrement qui était initialement défini sur USEEXISTING est défini sur CREATE, il peut y avoir des effets indésirables lors du processus d’installation, car de nombreuses entités Workfront ont des contraintes d’unicité des noms.</p><p>Par exemple, si un enregistrement « Groupe par défaut » a été mappé avec l’action USEEXISTING et que l’utilisateur ou l’utilisatrice qui effectue l’installation modifie l’action en CREATE, étant donné qu’il existe déjà un « Groupe par défaut », la tentative d’installation ne parviendra pas à compléter l’ensemble des étapes. Les noms de groupes doivent être uniques.</p><p>Certaines entités n’ont pas de contrainte d’unicité des noms. Pour ces objets, effectuer cette modification entraîne la création de deux enregistrements portant le même nom. Par exemple, les modèles, les projets, les vues, les filtres, les regroupements, les rapports et les tableaux de bord ne sont pas soumis à une contrainte d’unicité des noms. La bonne pratique consiste à attribuer des noms uniques à ces enregistrements, mais cela n’est pas imposé.</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
 
-L’`action` UPDATE n’est actuellement pas prise en charge dans les fonctionnalités alpha de ce service. L’option permettant d’autoriser une `action` UPDATE est actuellement en cours de recherche.
+Il n’existe actuellement aucune prise en charge pour une `action` UPDATE dans les fonctionnalités alpha de ce service. Nous étudions comment mettre au point l’option permettant de réaliser une `action` UPDATE.
 
 #### URL
 
@@ -747,7 +747,7 @@ Ou
   </tbody> 
 </table>
 
-Les résultats incluent les événements d’installation de tous les environnements dans lesquels le package a été déployé. Ils ne se limitent pas aux installations pour l’environnement dans lequel la demande est effectuée. Vous pouvez ainsi identifier les environnements qui ont reçu ce package.
+Les résultats incluent les événements d’installation de tous les environnements dans lesquels le module a été déployé. Ils ne se limitent pas aux installations pour l’environnement par lequel la requête est faite. Vous pouvez ainsi identifier les environnements qui ont reçu ce package.
 
 #### URL
 
@@ -825,7 +825,7 @@ _Vide_
 ]
 ```
 
-### Obtenir les détails d’une installation
+### Obtenir les détails d’installation d’une installation
 
 <table style="table-layout:auto"> 
  <col> 
@@ -836,15 +836,15 @@ _Vide_
   </tbody> 
 </table>
 
-Cet appel renvoie la valeur finale `translationMap` créée par le service d’installation pour une installation spécifique.
+Cet appel renvoie le dernier `translationMap` produit par le service d’installation pour une installation spécifique.
 
-Chaque enregistrement indique la nature de l’`action` prescrite et si cette action a réussi ou non.
+Chaque enregistrement indique l’`action` prescrite et le succès ou l’échec de l’action.
 
-Pour les enregistrements avec une `action` CREATE, le champ `targetId` est défini sur la valeur de l’enregistrement nouvellement créé dans le système cible. En outre, le champ `installationStatus` est défini sur INSTALLED.
+Pour les enregistrements avec une valeur `action` CREATE, le champ `targetId` sera remplacé par la valeur de l’enregistrement nouvellement créé dans le système cible. De plus, le champ `installationStatus` sera défini sur INSTALLED.
 
-Pour les enregistrements avec une action `action` USEEXISTING, le champ `targetId` est également défini. Le champ `installationStatus` est défini sur REGISTERED. Cela signifie que le processus de mappage est terminé et que le service d’installation reconnaît avoir évalué l’enregistrement et qu’aucune action n’est nécessaire.
+Pour les enregistrements comportant l’`action` USEEXISTING, le champ `targetId` sera également défini, et le champ `installationStatus` sera défini comme REGISTERED. Le processus de mappage est terminé, signifiant que le service d’installation reconnaît avoir évalué l’enregistrement et qu’il n’y a rien à faire.
 
-Si l’enregistrement comporte une `action` CREATE, mais qu’elle ne parvient pas à créer l’enregistrement, le champ `installationStatus` est défini sur FAILED et la raison de l’échec est également fournie.
+Si l’enregistrement a une `action` CREATE mais qu’il ne parvient pas à être créé, le `installationStatus` sera défini comme FAILED et la raison de l’échec sera également fournie.
 
 #### URL
 

@@ -25,14 +25,14 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 Si vous êtes administrateur ou administratrice de Workfront, vous pouvez restaurer des projets, tâches, problèmes, documents et modèles dans Adobe Workfront s’ils ont été supprimés au cours des 30 derniers jours. Au bout de 30 jours, ces éléments sont supprimés définitivement et ne peuvent pas être restaurés.
 
-Lorsque vous restaurez un objet, tous ses objets et champs enfant sont également restaurés. Par exemple, si vous restaurez un projet, tous les problèmes, tâches, documents, heures, notes, affectations et données personnalisées du projet seront également restaurés.
+Lorsque vous restaurez un objet, tous ses objets et champs enfant sont également restaurés. Par exemple, si vous restaurez un projet, tous les tâches, problèmes, documents, heures, notes, affectations et données personnalisées du projet seront également restaurés.
 
 Une personne chargée de l’administration de groupes peut également restaurer ces objets pour un groupe qu’elle gère.
 
 >[!IMPORTANT]
 >
 >* Si vous supprimez un rapport, un tableau de bord, un utilisateur ou une utilisatrice, un groupe, une équipe ou une itération, cet élément ne peut pas être restauré.
->* Dans un groupe, lorsqu’une personne autre que l’administrateur ou l’administratrice du groupe charge un document directement dans la zone Documents d’un objet, il n’y a qu’un administrateur ou une administratrice Workfront qui peut restaurer le document.
+>* Dans un groupe, lorsqu’une personne autre que l’administrateur ou administratrice du groupes charge un document directement dans la zone Documents d’un objet, seulement un administrateur ou une administratrice Workfront peut restaurer le document.
 >
 >* Si vous déplacez une tâche ou un problème et que vous choisissez de ne pas déplacer également les documents joints à la tâche ou au problème, les documents sont supprimés et placés dans la corbeille pendant 30 jours. Un administrateur ou une administratrice peut les restaurer et ils sont rattachés à la tâche déplacée ou au problème déplacé. Si la tâche ou le problème a été supprimé depuis son déplacement, les documents sont restaurés dans la zone Documents de la page de l’utilisateur ou de l’utilisatrice de l’administrateur ou de l’administratrice qui les restaure.
 
@@ -40,26 +40,26 @@ Une personne chargée de l’administration de groupes peut également restaurer
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td><p>Nouvelle : standard</p>
+   <td><p>Nouveau : Standard</p>
    ou
-   <p>Actuelle : formule</p></td> 
+   <p>Actuel : formule</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan ou le type de licence dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+&#42;Pour connaître votre plan ou votre type de licence, contactez l’administration de Workfront.
 
 +++
 
@@ -72,8 +72,8 @@ Lorsque vous restaurez un projet, une tâche ou un problème, les informations a
 * Affectations
 * Formulaires personnalisés
 * Configuration de la file d’attente
-* Business case, notamment cartes de score, objectifs et risques
-* Équipes du projet
+* Dossiers commerciaux, notamment cartes de score, objectifs et risques
+* Équipes de projet
 * Dates
 * Problèmes
 * Tâches
@@ -131,17 +131,17 @@ Lorsque vous restaurez un projet, une tâche ou un problème, les informations a
 
 * Objets de résolution
 
-  Un objet de résolution est un problème converti configuré avec l’option Conserver le problème d’origine et lier sa résolution à ce &lt;projet ou cette tâche)>. ************ Si vous supprimez le projet ou la tâche parent, le problème n’est plus identifié comme un objet de résolution, car il n’existe plus de lien le reliant au projet ou à la tâche. Si vous restaurez le parent, le lien ne sera pas restauré.
+  Un objet de résolution est un problème converti configuré avec l’option **Conserver le problème d’origine et lier sa résolution à ce** &lt;**project** or **task)**>. Si vous supprimez le projet ou la tâche parent, le problème n’est plus identifié comme un objet de résolution, car il n’existe plus de lien le reliant au projet ou à la tâche. Si vous restaurez le parent, le lien ne sera pas restauré.
 
   Pour plus d’informations sur la manière dont un administrateur ou une administratrice Workfront ou de groupes configure les problèmes pour qu’ils correspondent à l’objet de résolution lors de la conversion, voir [Configurer les préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) et [Configurer les préférences de tâche et de problème pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-  Pour plus d’informations sur la conversion des problèmes, voir [Vue d’ensemble de la conversion des problèmes dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+  Pour plus d’informations sur la conversion de problèmes, voir [Vue d’ensemble des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Restaurer des éléments
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Corbeille** > **Récemment supprimés**.
+1. Cliquez sur **Corbeille** > **Récemment supprimés**.
 1. Cliquez sur l’onglet **Projets**, **Tâches**, **Problèmes**, **Modèles** ou **Documents** selon le type d’élément à restaurer.
 
    Les éléments sont triés par la colonne **Date de suppression** par défaut.
@@ -150,7 +150,7 @@ Lorsque vous restaurez un projet, une tâche ou un problème, les informations a
 
    Si vous supprimez une tâche enfant, elle s’affiche dans la liste.
 
-   Si vous supprimez une tâche parent, seule la tâche parent s’affiche dans la liste. Toutefois, toutes les tâches enfant sont restaurées lorsque vous restaurez une tâche parent.
+   Si vous supprimez une tâche parent, seule la tâche parent s’affiche dans la liste. Mais toutes les tâches enfants sont restaurées lorsque vous restaurez une tâche parent.
 
 1. Cliquez sur **Restaurer** pour restaurer les éléments sélectionnés à leur emplacement d’origine.
 1. (Facultatif) Pour afficher rapidement l’élément restauré, suivez les étapes dans [Afficher l’élément restauré](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).

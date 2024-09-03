@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Réorganiser les états du groupe
-description: En tant qu’administrateur de groupe, vous pouvez modifier l’ordre du projet, des tâches et des états des problèmes pour un groupe que vous gérez.
+description: En tant qu’administrateur ou administratrice de groupes, vous pouvez modifier l’ordre des statuts des projets, des tâches et des problèmes d’un groupe que vous gérez.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -11,13 +11,13 @@ exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
 source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 29%
+ht-degree: 99%
 
 ---
 
-# Réorganiser les statuts de groupe
+# Réorganiser les statuts des groupes
 
-En tant qu’administrateur de groupe, vous pouvez modifier l’ordre du projet, des tâches et des états des problèmes pour un groupe que vous gérez.
+En tant qu’administrateur ou administratrice de groupes, vous pouvez modifier l’ordre des statuts des projets, des tâches et des problèmes d’un groupe que vous gérez.
 
 <!--
 The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.
@@ -25,15 +25,15 @@ The system version of this snippet mentions a single group because a sysadmin ca
 
 ![](assets/statuses.png)
 
-S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
+S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrateurs et administratrices peuvent également le faire pour votre groupe. Il en va de même pour les administrateurs et administratrices de Workfront (pour n’importe quel groupe).
 
 >[!NOTE]
 >
->* Un administrateur Workfront peut réorganiser les états au niveau du système. Cela n’a aucune incidence sur l’ordre des états au sein des groupes.
+>* Un administrateur ou une administratrice Workfront peut réorganiser les statuts au niveau du système. Cela n’a aucune incidence sur l’ordre des statuts au sein des groupes.
 >
->  Toutefois, les états d’un groupe de niveau supérieur nouvellement créé héritent de l’ordre des états au niveau du système. (Un nouveau sous-groupe hérite de l’ordre des états du groupe d’un niveau vers le haut.)
+>  Toutefois, les statuts d’un groupe de niveau supérieur nouvellement créé héritent de l’ordre des statuts à l’échelle du système. (Un nouveau sous-groupe hérite de l’ordre des statuts du groupe d’un niveau supérieur.)
 >
->* Vous pouvez réorganiser les états verrouillés. Pour plus d’informations sur les états verrouillés, voir [Création ou modification de l’état d’un groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>* Vous pouvez réorganiser les statuts verrouillés. Pour plus d’informations sur les statuts verrouillés, voir [Créer ou modifier un statut de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 >
 
 ## Conditions d’accès
@@ -47,23 +47,23 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront* </td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront* </td> 
+   <td>Tous</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConditions-wf-groups.groups"> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Vous devez être un administrateur ou une administratrice de groupe pour le groupe ou un administrateur ou une administratrice de Workfront. Pour plus d’informations, consultez les sections <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à une personne</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Vous devez faire partie de l’équipe d’administration de groupe pour le groupe ou de l’équipe d’administration Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
+&#42;Si vous devez établir la formule ou le type de licence dont vous disposez, contactez votre équipe d’administration Workfront.
 
 +++
 
-## Ordre par défaut des états
+## Ordre par défaut des statuts
 
-Par défaut, les états s’affichent dans l’ordre suivant :
+Par défaut, les statuts s’affichent dans l’ordre suivant :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,36 +110,36 @@ Par défaut, les états s’affichent dans l’ordre suivant :
  </tbody> 
 </table>
 
-## Réorganiser les états des tâches et des projets dans un groupe que vous gérez
+## Réorganiser les statuts des tâches et des projets d’un groupe que vous gérez.
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes**, puis sur le nom du groupe.
+1. Dans le panneau de gauche, cliquez sur **Groupes**, puis cliquez sur le nom du groupe.
 1. Dans le panneau de gauche, cliquez sur **Statuts**.
-1. Au-dessus de la liste États qui s’affiche, cliquez sur l’onglet **Projets** ou **Tâches** .
+1. Au-dessus de la liste de statuts qui s’affiche, cliquez sur l’onglet **Projets** ou **Tâches**.
 
-1. Faites glisser les états dans l’ordre de votre choix.
+1. Faites glisser et déposez les statuts dans l’ordre de votre choix.
 
-   Le nouvel ordre d’état est enregistré automatiquement.
+   Le nouvel ordre de statuts est enregistré automatiquement.
 
-1. Pour tester le nouvel ordre de statut, accédez à une tâche ou à un projet associé au groupe, cliquez sur l’état dans le coin supérieur droit, puis vérifiez que les états qui s’affichent sont dans l’ordre que vous avez configuré.
+1. Pour tester le nouvel ordre des statuts, accédez à une tâche associée ou à un projet associé au groupe, cliquez sur le statut dans le coin supérieur droit, puis vérifiez que les statuts s’affichent dans l’ordre que vous avez configuré.
 
-## Réorganiser les états pour les problèmes
+## Réorganiser les statuts pour les problèmes
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes**, puis sur le nom du groupe.
+1. Dans le panneau de gauche, cliquez sur **Groupes**, puis cliquez sur le nom du groupe.
 1. Dans le panneau de gauche, cliquez sur **Statuts**.
-1. Cliquez sur l’onglet **Problèmes** .
-1. (Facultatif) Sélectionnez un type de problème (**Rapport de bogues**, **Modifier l’ordre**, **Problème** ou **Requête**).
+1. Sélectionnez l’onglet **Problèmes**.
+1. (Facultatif) Sélectionnez un type de problème (**Rapport de bogues**, **Ordre de modification**, **Problème**, ou **Demande**).
 
    >[!NOTE]
    >
-   >* Vous ne pouvez pas personnaliser l’ordre des états pour la liste des Principal.
-   >* Nous vous recommandons d’organiser les états pour chaque type de problème de la même manière. Pour plus d’informations sur les types de problèmes, voir [Configuration des types de requêtes](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
+   >* Vous ne pouvez pas personnaliser l’ordre des statuts pour la liste principale des statuts.
+   >* Nous vous recommandons d’organiser les statuts pour chaque type de problème de la même manière. Pour plus d’informations sur les types de problèmes, voir [Configuration des types de demandes](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
-1. Faites glisser les états dans l’ordre de votre choix.
+1. Faites glisser et déposez les statuts dans l’ordre de votre choix.
 
-   Le nouvel ordre d’état est enregistré automatiquement.
+   Le nouvel ordre de statuts est enregistré automatiquement.
 
-1. Pour tester le nouvel ordre de statut, accédez à un problème associé au groupe, cliquez sur l’état dans le coin supérieur droit, puis assurez-vous que les états qui s’affichent sont dans l’ordre que vous avez configuré.
+1. Pour tester le nouvel ordre des statuts, accédez à un problème associé au groupe, cliquez sur le statut dans le coin supérieur droit, puis assurez-vous que les statuts s’affichent dans l’ordre que vous avez configuré.

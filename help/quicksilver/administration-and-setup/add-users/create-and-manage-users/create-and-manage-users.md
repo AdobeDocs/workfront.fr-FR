@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
-description: Vous pouvez ajouter des utilisateurs dans Adobe Workfront en créant des utilisateurs individuels à partir de zéro ou en copiant des utilisateurs existants.
+description: Vous pouvez ajouter des personnes dans Adobe Workfront en créant des utilisateurs individuels et utilisatrices individuelles à partir de zéro ou en copiant des personnes existantes.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -13,7 +13,7 @@ exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
 source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 11%
+ht-degree: 94%
 
 ---
 
@@ -23,19 +23,19 @@ ht-degree: 11%
 
 Cette section contient les articles suivants :
 
-* [Ajouter des utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
-* [Importer des utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)
-* [Modifier le profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
-* [Modifier les profils utilisateur en masse](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
+* [Ajouter des utilisateurs et utilisatrices](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+* [Importer des utilisateurs et utilisatrices](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)
+* [Modifier le profil d’une personne](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+* [Modifier en bloc des profils d’utilisateurs et d’utilisatrices](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
 * [Créer des rapports directs](../../../administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
-* [Connectez-vous en tant qu’autre utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
-* [Réinitialiser les préférences d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
-* [Modifier un nom d’utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
-* [Modification du mot de passe d’un utilisateur avec provisionnement automatique](../../../administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
-* [Mappage des attributs utilisateur et configuration automatique des nouveaux utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
-* [Désactiver ou réactiver un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
-* [Supprimer les utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-* [Logs d’audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* [ Afficher et exporter les journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
-* [Affichage des informations de connexion de l’utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-* [Gestion des administrateurs système dans Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+* [Se connecter en tant qu’une autre personne](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
+* [Réinitialiser les préférences d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
+* [Modifier un nom d’utilisateur ou d’utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
+* [Modifier le mot de passe d’un utilisateur ou d’une utilisatrice ayant un profil auto-alloué](../../../administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
+* [Mapper les attributs de l’utilisateur ou de l’utilisatrice et auto-allouer de nouvelles personnes](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
+* [Désactiver ou réactiver un utilisateur ou une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
+* [Supprimer des utilisateurs et utilisatrices](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
+* [Journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* [Afficher et exporter des journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
+* [Afficher les informations de connexion de l’utilisateur ou de l’utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
+* [Gérer des administrateurs et administratrices système dans Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

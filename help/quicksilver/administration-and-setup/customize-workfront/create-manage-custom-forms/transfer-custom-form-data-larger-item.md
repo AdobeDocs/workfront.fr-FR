@@ -11,20 +11,20 @@ exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
 source-git-commit: aee8673337b7e5294331bc2d571a6bee57114df5
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
-# Transférer les données d’un formulaire personnalisé lors de la conversion d’un objet
+# Transférer des données de formulaire personnalisé lors de la conversion d’un objet
 
-Selon les besoins de votre entreprise, le travail défini dans une tâche ou un problème peut devenir trop volumineux pour être géré dans la tâche ou le problème. Dans ce cas, vous pouvez les convertir en élément de travail plus volumineux :
+Selon les besoins de votre entreprise, le travail défini dans une tâche ou un problème peut devenir trop volumineux pour être géré dans la tâche ou le problème. Dans ce cas, vous pouvez convertir l’élément en un élément de travail plus volumineux :
 
 * Vous pouvez convertir des problèmes en tâches ou en projets.
 * Vous pouvez convertir des tâches en projets.
 
-Pour transférer les données de formulaire personnalisé d’un problème vers une tâche ou un projet, vous devez effectuer les deux tâches de cet article, dans l’ordre ci-dessous.
+Pour transférer des données de formulaire personnalisé d’un problème vers une tâche ou un projet, vous devez effectuer les deux tâches de cet article, dans l’ordre ci-dessous.
 
-Pour plus d’informations, voir [Vue d’ensemble de la conversion de problèmes dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md) ou [Vue d’ensemble de la conversion de problèmes dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Pour plus d’informations, voir [Vue d’ensemble des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md) ou [Vue d’ensemble des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Conditions d’accès
 
@@ -37,24 +37,24 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Forfait Adobe Workfront</p> </td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouvelle : standard</p>
+   <p>Nouveau : Standard</p>
    <p>ou</p>
-   <p>Actuelle : formule</p></td> 
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès administratif aux formulaires personnalisés</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,12 +72,12 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 1. Cliquez sur **Appliquer** au bas du formulaire.
 
-1. Passez à [Deuxièmement : convertir le problème ou la tâche et transférer les données de formulaire personnalisé](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. Passez à [Deuxièmement : convertir le problème ou la tâche et transférer les données du formulaire personnalisé](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
-## Deuxièmement : convertir le problème ou la tâche et transférer les données de formulaire personnalisé {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
+## Deuxièmement : convertir le problème ou la tâche et transférer les données du formulaire personnalisé {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. Ajoutez des objets supplémentaires au formulaire personnalisé sur le problème ou la tâche que vous convertissez, comme expliqué dans la section [Premièrement : ajouter des objets supplémentaires au formulaire personnalisé](#first-add-additonal-objects-to-the-custom-form) de cet article.
-1. Convertissez le problème ou la tâche à l’aide de l’option **Formulaires personnalisés** dans la zone qui s’affiche pour sélectionner le formulaire personnalisé dont vous avez besoin. Pour obtenir des instructions, voir les articles suivants :
+1. Ajoutez des objets supplémentaires au formulaire personnalisé sur le problème ou la tâche que vous convertissez, comme expliqué dans la section [Premièrement : ajouter des objets supplémentaires au formulaire personnalisé](#first-add-additonal-objects-to-the-custom-form) dans cet article.
+1. Convertissez le problème ou la tâche à l’aide de l’option **Formulaires personnalisés** dans la zone qui s’affiche pour sélectionner le formulaire personnalisé dont vous avez besoin. Pour obtenir des instructions, reportez-vous aux articles suivants :
 
    * [Convertir un problème en projet dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [Convertir un problème en tâche dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)

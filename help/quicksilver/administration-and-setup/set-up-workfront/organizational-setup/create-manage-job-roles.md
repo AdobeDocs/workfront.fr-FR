@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Créer et gérer des fonctions
-description: En tant qu’administrateur  [!DNL Adobe Workfront] ou utilisateur disposant d’un accès administratif aux rôles de tâche, vous pouvez créer des rôles de tâche qui peuvent être attribués à des utilisateurs et supprimer les rôles de tâche par défaut qui ne sont pas pertinents pour votre organisation.
+description: En tant qu’administrateur ou administratrice  [!DNL Adobe Workfront]  ou en tant que personne disposant d’un accès administratif aux fonctions, vous pouvez créer des fonctions qui peuvent être affectées à des personnes et supprimer les fonctions par défaut qui ne concernent pas votre organisation.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
 source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-En tant qu’administrateur [!DNL Adobe Workfront] ou utilisateur disposant d’un accès administratif aux rôles de tâche, vous pouvez créer des rôles de tâche qui peuvent être attribués à des utilisateurs et supprimer les rôles de tâche par défaut qui ne sont pas pertinents pour votre organisation. Pour plus d&#39;informations sur l&#39;accès administratif dans [!DNL Workfront], voir [Octroi aux utilisateurs de l&#39;accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+En tant qu’administrateur ou administratrice [!DNL Adobe Workfront] ou en tant que personne disposant d’un accès administratif aux fonctions, vous pouvez créer des fonctions qui peuvent être affectées à des personnes et supprimer les fonctions par défaut qui ne concernent pas votre organisation. Pour plus d’informations sur l’accès administratif dans [!DNL Workfront], voir [Accorder aux utilisateurs et aux utilisatrices un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## Conditions d’accès
 
@@ -35,17 +35,17 @@ Vous devez disposer des éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>N’importe quelle </p> </td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td>
-   <p>Nouvelle : standard</p>
+   <p>Nouveau : Standard</p>
    <p>Actuelle : [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Accès administratif aux rôles de tâche</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès administratif aux fonctions</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,15 +54,15 @@ Vous devez disposer des éléments suivants :
 
 +++
 
-## Création d’un rôle de tâche
+## Créer une fonction
 
-Pour créer un rôle de tâche :
+Pour créer une fonction, procédez comme suit :
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur &#x200B; **[!UICONTROL Rôles de tâche].**
-1. Cliquez sur **[!UICONTROL Nouveau rôle de tâche].**
-1. Configurez les éléments suivants :
+1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Fonctions].**
+1. Cliquez sur **[!UICONTROL Nouvelle fonction].**
+1. Configurez les éléments suivants :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -70,56 +70,56 @@ Pour créer un rôle de tâche :
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Indiquez un nom pour le rôle de tâche. Il s’agit du nom qui s’affiche partout dans [!DNL Workfront] où s’affiche le champ [!UICONTROL Rôle de la tâche]. </p> <p>Conseil : Le nom d’un rôle de tâche peut contenir jusqu’à 255 caractères. Cependant, les noms plus longs peuvent être tronqués dans certaines zones de [!DNL Workfront]. </p> </td> 
+      <td> <p>Indiquez le nom de la fonction. Il s’agit du nom qui s’affiche partout dans [!DNL Workfront], là où apparaît le champ [!UICONTROL Job Role]. </p> <p>Conseil : le nom d’une fonction peut contenir jusqu’à 255 caractères. Toutefois, les noms plus longs peuvent être tronqués dans certaines zones de [!DNL Workfront]. </p> </td> 
      </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
-      <td>Saisissez une description pour le rôle qui indique ce qui est unique à son sujet. </td> 
+      <td>Saisissez une description pour le rôle, précisant ses spécificités. </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Is Active]</span> </td> 
       <td> 
        <ul> 
-        <li> <p>Sélectionnez <b>[!UICONTROL Oui]</b> si vous souhaitez que le rôle soit actif et disponible partout dans [!DNL Workfront] pour être associé aux utilisateurs, aux tâches, etc. </p> </li> 
-        <li> <p>Sélectionnez <b>[!UICONTROL Non]</b> si vous souhaitez que le rôle soit désactivé et qu’il ne soit pas disponible pour être attribué aux utilisateurs, aux tâches, etc. </p> </li> 
-       </ul> <p><span>Pour plus d’informations sur la désactivation des rôles de tâche, voir </span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Désactivation des rôles de tâche</a>. </p> </td> 
+        <li> <p>Sélectionnez <b>[!UICONTROL Yes]</b> pour que le rôle soit actif et disponible partout dans [!DNL Workfront], et associé à des personnes, des éléments de travail, etc. </p> </li> 
+        <li> <p>Sélectionnez <b>[!UICONTROL No]</b> pour que le rôle soit désactivé et ne puisse pas être affecté aux personnes, éléments de travail, etc. </p> </li> 
+       </ul> <p><span>Pour plus d’informations sur la désactivation des fonctions, voir la section</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Désactiver des fonctions</a>. </p> </td> 
      </tr>
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Devise de base]</span> </td> 
-      <td> <p><span>Il s’agit de la [!UICONTROL Devise de base], telle que définie dans la zone [!UICONTROL Configuration] par votre administrateur Workfront. Pour plus d'informations, voir </span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configuration des taux d'exchange</a> .</p> <p>Conseil : <span>Vous ne pouvez pas modifier la [!UICONTROL Devise de base] au niveau du rôle de tâche. Ce champ est grisé et sert de rappel de la devise de base de votre système.</span> </p> </td> 
+      <td role="rowheader"><span>[!UICONTROL Base Currency]</span> </td> 
+      <td> <p><span>Il s’agit de la [!UICONTROL Base Currency], telle que définie dans la zone [!UICONTROL Setup] par votre équipe d’administration Workfront. Pour plus d’informations, voir</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer les taux de change</a>.</p> <p>Conseil : <span>vous ne pouvez pas modifier la [!UICONTROL Base Currency] au niveau de la fonction. Ce champ est grisé et permet de rappeler quelle est la devise de base de votre système.</span> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Cost Rate]</td> 
-      <td><p>Il s’agit du taux de coût par heure du rôle de tâche. Cette valeur calcule les coûts prévus et les coûts réels des tâches et des problèmes associés au rôle, ainsi que, en fin de compte, les coûts prévus et les coûts réels des projets. Saisissez le taux à l’aide de la [!UICONTROL Devise de base].</p> 
-      <p>Pour les taux de coût en vigueur à la date, cliquez sur <strong>[!UICONTROL Ajouter le taux]</strong>. Saisissez la valeur du coût/de l’heure pour la période, puis attribuez une [!UICONTROL Date de début] et une [!UICONTROL Date de fin] si nécessaire. Le premier taux de coût ne comporte pas de date de début et le dernier taux de coût ne comporte pas de date de fin.</p> <p>Certaines dates sont ajoutées automatiquement. Par exemple, si le premier taux de coût n’a pas de date de fin et que vous ajoutez un second taux de coût avec une date de début le 1er mai 2023, une date de fin le 30 avril 2023 est ajoutée au premier taux de coût afin qu’il n’y ait pas d’écart.</p> <p>Conseil : Lors de la modification d’un rôle de tâche existant, vous pouvez sélectionner <strong>Trier par date de début</strong> pour afficher la date de début la plus récente en haut de la liste des taux.</p></td> 
+      <td><p>Il s’agit du coût horaire de la fonction. Cette valeur calcule les coûts prévus et réels des tâches et des problèmes associés au rôle et, par conséquent, les coûts prévus et réels des projets. Saisissez le taux à l’aide de la [!UICONTROL Base Currency].</p> 
+      <p>Pour consulter les coûts applicables à une date donnée, cliquez sur <strong>[!UICONTROL Add Rate]</strong>. Saisissez la valeur du coût/heure pour la période, puis affectez une [!UICONTROL Start Date] et une [!UICONTROL End Date] en fonction des besoins. Le premier taux de coût ne comporte pas de date de début et le dernier taux de coût ne comporte pas de date de fin.</p> <p>Certaines dates sont ajoutées automatiquement. Par exemple, si le premier taux de coût ne comporte pas de date de fin et que vous en ajoutez un second avec une date de début au 1er mai 2023, une date de fin au 30 avril 2023 est ajoutée au premier taux de coût afin d’éviter tout écart.</p> <p>Conseil : lorsque vous modifiez une fonction existante, vous pouvez sélectionner <strong>Trier par date de début</strong> pour afficher la date de début la plus récente en haut de la liste des taux.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Taux de facturation] </td> 
-      <td><p>Il s’agit du taux de facturation par heure du rôle de tâche. Cette valeur calcule les revenus prévus et réels des tâches et des problèmes associés au rôle, ainsi que, en fin de compte, les revenus prévus et réels des projets. Saisissez le taux à l’aide de la [!UICONTROL Devise de base].</p> <p>Pour connaître les taux de facturation en vigueur à la date, cliquez sur <strong>[!UICONTROL Ajouter le taux]</strong>. Saisissez la valeur de la facturation/heure pour la période, puis attribuez une [!UICONTROL Date de début] et une [!UICONTROL Date de fin], le cas échéant. Le premier taux de facturation n'a pas de date de début et le dernier taux de facturation n'a pas de date de fin.</p> <p>Certaines dates sont ajoutées automatiquement. Par exemple, si le premier taux de facturation ne comporte pas de date de fin et que vous ajoutez une seconde avec une date de début le 1er mai 2023, une date de fin du 30 avril 2023 est ajoutée au premier taux de facturation afin qu’il n’y ait pas d’écart.</p> <p>Conseil : Lors de la modification d’un rôle de tâche existant, vous pouvez sélectionner <strong>Trier par date de début</strong> pour afficher la date de début la plus récente en haut de la liste des taux.</p> </td> 
+      <td role="rowheader">[!UICONTROL Billing Rate] </td> 
+      <td><p>Il s’agit du taux horaire de facturation de la fonction. Cette valeur calcule les revenus prévus et réels des tâches et des problèmes associés au rôle et, par conséquent, les revenus prévus et réels des projets. Saisissez le taux à l’aide de la [!UICONTROL Base Currency].</p> <p>Pour connaître les taux de facturation en vigueur à une date donnée, cliquez sur <strong>[!UICONTROL Add Rate]</strong>. Saisissez la valeur de la facturation/heure pour la période, puis affectez une [!UICONTROL Start Date] et une [!UICONTROL End Date] en fonction des besoins. Le premier taux de facturation ne comporte pas de date de début et le dernier taux de facturation ne comporte pas de date de fin.</p> <p>Certaines dates sont ajoutées automatiquement. Par exemple, si le premier taux de facturation ne comporte pas de date de fin et que vous en ajoutez un second avec une date de début au 1er mai 2023, une date de fin au 30 avril 2023 est ajoutée au premier taux de facturation pour éviter tout écart.</p> <p>Conseil : lorsque vous modifiez une fonction existante, vous pouvez sélectionner <strong>Trier par date de début</strong> pour afficher la date de début la plus récente en haut de la liste des taux.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Remplacer la devise]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency]</span> </td> 
       <td>
-        <p>Sélectionnez une devise associée à ce rôle de tâche. Il s’agit de la devise utilisée par [!DNL Workfront] pour calculer les coûts et les recettes associés à ce rôle de tâche. </p> 
-        <p><span>Ceci est différent de la [!UICONTROL Base Currency] configurée par votre administrateur [!DNL Workfront] dans la zone [!UICONTROL Setup] et peut être différente de la devise associée à un projet.</span> </p> 
-        <p>Conseil : Seules les devises disponibles dans la zone [!UICONTROL Taux d’Exchange] de votre système sont disponibles dans ce champ. Si une seule devise est configurée, ce champ n’apparaît pas.</p> 
-       <p><span> Pour plus d’informations sur la configuration de la [!UICONTROL Devise de base] dans [!DNL Workfront], voir </span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref"> </a> Configuration des taux d’exchange.</p> <p><span>Pour plus d’informations sur la modification de la devise d’un projet, voir </span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Modification de la devise du projet</a>.</p> </td> 
+        <p>Sélectionnez une devise associée à cette fonction. Il s’agit de la devise utilisée par [!DNL Workfront] pour calculer les coûts et les revenus associés à cette fonction. </p> 
+        <p><span>Cette devise est différente de la [!UICONTROL Base Currency] configurée par votre administrateur ou administratrice [!DNL Workfront] dans la zone [!UICONTROL Setup] et peut être différente de la devise associée à un projet.</span> </p> 
+        <p>Conseil : seules les devises disponibles dans la zone [!UICONTROL Exchange Rates] de votre système sont disponibles dans ce champ. Si une seule devise est configurée, ce champ n’apparaît pas.</p> 
+       <p><span>Pour plus d’informations sur la configuration de la [!UICONTROL Base Currency] dans [!DNL Workfront], voir</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer les taux de change</a>.</p> <p><span>Pour plus d’informations sur la modification de la devise d’un projet, voir</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Modifier la devise d’un projet</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Remplacer le taux de coût de la devise]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency Cost Rate]</span> </td> 
       <td>
-        <p>Il s’agit du taux de coût par heure du rôle de tâche à l’aide de la [!UICONTROL Devise de remplacement] sélectionnée. [!DNL Workfront] utilise cette valeur pour calculer les coûts prévus et les coûts réels des tâches et des problèmes associés au rôle de tâche. </p> 
-        <p><span>Saisissez le taux dans la devise de remplacement [!UICONTROL] spécifiée ci-dessus. Cela met également à jour le taux de coût de ce rôle de tâche lors de l’utilisation de la [!UICONTROL Devise de base].</span> </p> 
-        <p>Pour plus d'informations sur la façon dont [!DNL Workfront] calcule le coût, voir <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracker les coûts</a>.</p> 
-       <p>Conseil : Lors de la mise à jour d’un rôle de tâche existant auquel est déjà associé un taux de coût, [!DNL Workfront] calcule le taux de [!UICONTROL Override Currency] (devise de remplacement) en fonction du taux de conversion de votre système. Si vous mettez à jour le [!UICONTROL Override Currency Cost Rate] (Taux de coût de la devise de remplacement), le taux de coût du rôle de tâche est également mis à jour automatiquement.</p> </td> 
+        <p>Il s’agit du coût horaire de la fonction selon la [!UICONTROL Override Currency] sélectionnée. [!DNL Workfront] utilise cette valeur pour calculer les coûts prévus et réels des tâches et des problèmes associés à la fonction. </p> 
+        <p><span>Saisissez le taux dans la [!UICONTROL Override Currency] spécifiée ci-dessus. Cela met également à jour le taux de coût de cette fonction lors de l’utilisation de la [!UICONTROL Base Currency].</span> </p> 
+        <p>Pour plus d’informations sur la manière dont [!DNL Workfront] calcule le coût, voir <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suivre les coûts</a>.</p> 
+       <p>Conseil : lors de la mise à jour d’une fonction existante à laquelle est déjà associée un taux de coût, [!DNL Workfront] calcule le taux de la [!UICONTROL Override Currency] selon le taux de conversion de votre système. Si vous mettez à jour le [!UICONTROL Override Currency Cost Rate], le taux de coût de la fonction est également mis à jour automatiquement.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Remplacement du taux de facturation de la devise]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency Billing Rate]</span> </td> 
       <td>
-        <p>Il s’agit du taux de facturation par heure du rôle de tâche à l’aide de la [!UICONTROL Devise de remplacement] sélectionnée. [!DNL Workfront] utilise cette valeur pour calculer les recettes prévues et réelles des tâches et des problèmes associés au rôle de tâche. </p>
-        <p><span>Saisissez le taux dans la devise de remplacement [!UICONTROL] spécifiée ci-dessus. Cela met également à jour le taux de facturation pour ce rôle de tâche lors de l’utilisation de la [!UICONTROL Devise de base].</span> </p>
-        <p>Pour plus d’informations sur la façon dont [!DNL Workfront] calcule les recettes, voir <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Présentation de la facturation et des recettes</a>.</p>
-        <p>Conseil : Lors de la mise à jour d’un rôle de tâche existant auquel est déjà associé un taux de facturation, [!DNL Workfront] calcule le taux de change de remplacement en fonction du taux de conversion de votre système. Si vous mettez à jour le taux de facturation de la devise de remplacement, le taux de facturation du rôle de tâche est également mis à jour automatiquement. </p>
+        <p>Il s’agit du taux horaire de facturation de la fonction selon la [!UICONTROL Override Currency] sélectionnée. [!DNL Workfront] utilise cette valeur pour calculer les revenus prévus et réels des tâches et des problèmes associés à la fonction. </p>
+        <p><span>Saisissez le taux dans la [!UICONTROL Override Currency] spécifiée ci-dessus. Cela met également à jour le taux de facturation pour cette fonction lors de l’utilisation de la [!UICONTROL Base Currency].</span> </p>
+        <p>Pour plus d’informations sur la manière dont [!DNL Workfront] calcule les revenus, voir <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Vue d’ensemble de la facturation et des revenus</a>.</p>
+        <p>Conseil : lors de la mise à jour d’une fonction existante à laquelle est déjà associée un taux de facturation, [!DNL Workfront] calcule le taux de la devise de remplacement selon le taux de conversion de votre système. Si vous mettez à jour le taux de facturation de la devise de remplacement, le taux de facturation de la fonction est également mis à jour automatiquement. </p>
        </td>
      </tr> 
     </tbody> 
@@ -127,9 +127,9 @@ Pour créer un rôle de tâche :
 
    >[!TIP]
    >
-   >Les rôles de tâche font partie intégrante de la gestion des ressources. Pour utiliser les outils de planification des ressources, les rôles de tâche doivent comporter un coût et un taux de facturation. Pour plus d’informations, voir [Prise en main de la gestion des ressources](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+   >Les fonctions font partie intégrante de la gestion des ressources. Pour utiliser les outils de planification des ressources, les fonctions doivent comporter un coût et un taux de facturation qui leurs sont associés. Pour plus d’informations, voir [Commencer avec la gestion des ressources](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-1. Cliquez sur **[!UICONTROL Créer un rôle de tâche]**. Le rôle de tâche peut désormais être attribué à des tâches, des problèmes, des validations ou vous pouvez partager des modèles de mise en page ou d’autres objets avec lui. Pour plus d’informations sur toutes les utilisations des rôles de tâche dans [!DNL Workfront], voir [Présentation des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Pour plus d’informations sur la suppression d’un rôle de tâche, voir [Suppression de rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
+1. Cliquez sur **[!UICONTROL Créer une fonction]**. La fonction peut désormais être affectée à des tâches, des problèmes et des approbations. Vous pouvez aussi partager avec elle des modèles de disposition ou d’autres objets. Pour plus d’informations sur tous les usages des fonctions dans [!DNL Workfront], voir [Vue d’ensemble des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Pour plus d’informations sur la suppression d’une fonction, voir [Supprimer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

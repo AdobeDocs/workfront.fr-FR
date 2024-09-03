@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
 title: Configuration des paramètres de BAT pour votre organisation
-description: En tant qu’administrateur Adobe Workfront ou administrateur Workfront Proof, vous pouvez personnaliser les paramètres de BAT par défaut de votre entreprise. Ces paramètres comprennent les options de partage par défaut, la valorisation de marque, etc.
+description: En tant qu’administrateur ou administratrice Adobe Workfront ou Workfront Proof, vous pouvez personnaliser les paramètres des épreuves par défaut pour votre organisation. Ces paramètres comprennent les options de partage par défaut, l’image de marque, etc.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
@@ -11,13 +11,13 @@ exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 3%
+ht-degree: 99%
 
 ---
 
-# Configuration des paramètres du BAT pour votre organisation
+# Configurer les paramètres des épreuves pour votre organisation
 
-En tant qu’administrateur Adobe Workfront ou administrateur Workfront Proof, vous pouvez personnaliser les paramètres de BAT par défaut de votre entreprise. Ces paramètres comprennent les options de partage par défaut, la valorisation de marque, etc.
+En tant qu’administrateur ou administratrice Adobe Workfront ou Workfront Proof, vous pouvez personnaliser les paramètres des épreuves par défaut pour votre organisation. Ces paramètres comprennent les options de partage par défaut, l’image de marque, etc.
 
 ## Conditions d’accès
 
@@ -30,16 +30,16 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : Premium ou Sélectionner</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Plan actuel : Pro ou version supérieure</p> <p>ou</p> <p>Formule héritée : Premium ou Select</p> <p>Pour plus d’informations sur la relecture de l’accès avec les différents plans, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Plan hérité : n’importe lequel (la relecture doit être activée pour l’utilisateur ou l’utilisatrice)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>L’administrateur doit être sélectionné dans votre profil d’autorisation de BAT. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configuration de l’accès de vérification de l’utilisateur</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>L’option d’administration doit être sélectionnée dans votre profil d’autorisation d’épreuve. Pour plus d’informations, voir la section <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configurer l’accès à la relecture d’un utilisateur ou d’une utilisatrice</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,11 +48,11 @@ Vous devez disposer des éléments suivants :
 
 +++
 
-## Configuration des actions
+## Configurer des actions
 
-Pour plus d’informations sur l’utilisation des actions dans la visionneuse de vérification, voir [Utilisation d’actions sur les commentaires de BAT](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
+Pour plus d’informations sur l’utilisation des actions dans l’affichage de relecture, voir la section [Utiliser des actions sur les commentaires des épreuves](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
 
-Vous pouvez configurer des actions pour votre organisation comme suit :
+Vous pouvez configurer des actions pour votre organisation comme suit :
 
 * [Ajouter ou renommer une action](#add-or-rename-an-action)
 * [Désactiver ou réactiver une action](#deactivate-or-reactivate-an-action)
@@ -62,53 +62,53 @@ Vous pouvez configurer des actions pour votre organisation comme suit :
 
 {{step1-to-proofing}}
 
-1. Cliquez sur **Paramètres** > **Paramètres du compte** dans le coin supérieur droit de l’interface de Workfront Proof, puis cliquez sur l’onglet **Paramètres** .
+1. Cliquez sur **Paramètres** > **Paramètres du compte** en haut à droite de l’interface Workfront Proof, puis cliquez sur l’onglet **Paramètres**.
 
-1. Effectuez l’une des opérations suivantes :
+1. Utilisez l’une des méthodes suivantes :
 
-   * Pour créer une action, dans la section **Actions**, cliquez sur **Nouvelle action**.
+   * Pour créer une action, cliquez sur **Nouvelle action** dans la section **Actions**.
 
      Le nombre d’actions que vous pouvez configurer dans votre compte n’est pas limité.
 
    * Pour renommer une action existante, cliquez sur **Configuration** en regard de l’action.
 
 1. Saisissez le nom de l’action, puis cliquez sur **Enregistrer**.
-1. Cliquez sur **Enregistrer.**
+1. Cliquez sur **Enregistrer**.
 
-### Désactivation ou réactivation d’une action {#deactivate-or-reactivate-an-action}
+### Désactiver ou réactiver une action {#deactivate-or-reactivate-an-action}
 
 {{step1-to-proofing}}
 
-1. Cliquez sur **Paramètres** > **Paramètres du compte** dans le coin supérieur droit de l’interface de Workfront Proof, puis cliquez sur l’onglet **Paramètres** .
+1. Cliquez sur **Paramètres** > **Paramètres du compte** en haut à droite de l’interface de Workfront Proof, puis cliquez sur l’onglet **Paramètres**.
 
-1. Cliquez sur **Configuration** en regard de l’action que vous souhaitez désactiver ou réactiver.
+1. Cliquez sur **Configuration** en regard de l’action à désactiver ou à réactiver.
 1. Sélectionnez **Activer** ou **Désactiver**, puis cliquez sur **Enregistrer**.
 
 ### Réorganiser les actions {#reorder-actions}
 
 {{step1-to-proofing}}
 
-1. Cliquez sur **Paramètres** > **Paramètres du compte** dans le coin supérieur droit de l’interface de Workfront Proof, puis cliquez sur l’onglet **Paramètres** .
+1. Cliquez sur **Paramètres** > **Paramètres du compte** en haut à droite de l’interface de Workfront Proof, puis cliquez sur l’onglet **Paramètres**.
 
-1. Cliquez sur les flèches Haut et Bas bleues en regard de **Configuration** pour réorganiser les actions.
+1. Cliquez sur les flèches bleues vers le haut et le bas en regard de **Configuration** pour réorganiser les actions.
 
    ![Re-order_actions.png](assets/re-order-actions-350x103.png)
 
-## Configuration de périphériques personnalisés pour les bons à tirer
+## Configurer des appareils personnalisés pour les épreuves
 
-Vous pouvez ajouter n’importe quel appareil personnalisé à votre système, ce qui permet aux utilisateurs de passer en revue le contenu interactif et de simuler l’affichage du contenu sur un appareil spécifique.
+Vous pouvez ajouter n’importe quel appareil personnalisé à votre système, ce qui permet aux utilisateurs et utilisatrices de réviser le contenu interactif et de simuler l’affichage du contenu sur un appareil spécifique.
 
-Pour plus d’informations sur la façon dont les utilisateurs peuvent sélectionner les appareils lors de la révision du contenu interactif, voir [Modification de la résolution du BAT interactif dans la visionneuse de vérification de l’orthographe](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
+Pour plus d’informations sur la manière dont les utilisateurs et utilisatrices peuvent sélectionner des appareils lors de la révision d’un contenu interactif, voir la section [Modifier la résolution d’épreuves interactives dans la visionneuse de relecture](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
-Pour ajouter un appareil personnalisé :
+Pour ajouter un appareil personnalisé :
 
 {{step1-to-proofing}}
 
-1. Cliquez sur **Paramètres** > **Paramètres du compte** dans le coin supérieur droit de l’interface de Workfront Proof, puis cliquez sur l’onglet **Paramètres** .
+1. Cliquez sur **Paramètres** > **Paramètres du compte** en haut à droite de l’interface de Workfront Proof, puis cliquez sur l’onglet **Paramètres**.
 
-1. Dans la section **Périphériques personnalisés pour les bons à tirer**, cliquez sur **Ajouter un nouvel appareil**.
+1. Dans la section **Appareils personnalisés pour les épreuves**, cliquez sur **Ajouter un nouvel appareil**.
 
-1. Dans la zone **Ajouter un nouvel appareil** qui s’affiche, spécifiez les informations suivantes :
+1. Dans le **Ajouter un nouvel appareil** qui s’affiche, indiquez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -116,19 +116,19 @@ Pour ajouter un appareil personnalisé :
     <tbody> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td>Le nom que les utilisateurs voient lors de la sélection de l’appareil dans la visionneuse de vérification de l’appli de bureau, comme décrit dans la section <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Modification de la résolution du BAT interactif dans la visionneuse de vérification de l’orthographe</a>.</td> 
+      <td>Nom que les utilisateurs et utilisatrices voient lors de la sélection de l’appareil dans la visionneuse de relecture de l’application de bureau, comme décrit dans la section <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Modifier la résolution d’épreuve interactive dans la visionneuse de relecture</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dimensions</td> 
-      <td>Spécifiez les dimensions à utiliser pour cet appareil. Les utilisateurs voient les dimensions affichées sous le nom de l’appareil.</td> 
+      <td>Spécifiez les dimensions à utiliser pour cet appareil. Les utilisateurs et utilisatrices voient les dimensions affichées sous le nom de l’appareil.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Ratio</td> 
+      <td role="rowheader">Rapport</td> 
       <td>Spécifiez le rapport pour l’appareil.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Type</td> 
-      <td>Indiquez si l’appareil est mobile, tablette ou bureau.</td> 
+      <td>Indiquez si l’appareil est de catégorie Mobile, Tablette ou Bureau.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Chaîne de l’agent utilisateur</td> 
@@ -136,60 +136,60 @@ Pour ajouter un appareil personnalisé :
      </tr> 
      <tr> 
       <td role="rowheader">Désactivé</td> 
-      <td>Si cette option est sélectionnée, l’appareil n’est pas disponible pour que les utilisateurs puissent le sélectionner lors de la révision des BAT interactifs.</td> 
+      <td>Si cette option est sélectionnée, l’appareil n’est pas disponible à la sélection pour les utilisateurs et utilisatrices lors de la révision des épreuves interactives.</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Cliquez sur **Créer**.
 
-## Configuration de messages contextuels pour les bons à tirer
+## Configurer le messages contextuels pour les épreuves
 
-Vous pouvez configurer des messages contextuels sur les bons à tirer pour communiquer des informations générales à tous les réviseurs de votre organisation.
+Vous pouvez configurer des messages contextuels sur les épreuves pour communiquer des informations générales à tous les réviseurs et réviseuses de votre organisation.
 
-Vous pouvez paramétrer l&#39;affichage des messages dans les cas suivants :
+Vous pouvez paramétrer l’affichage des messages dans les cas suivants :
 
-* **Message au chargement** : s’affiche à la première ouverture du BAT. Utile pour expliquer aux utilisateurs comment réviser un BAT ou fournir une clause de non-responsabilité ou tout autre texte juridique.
-* **Au message de décision** : s’affiche lorsqu’un utilisateur sélectionne une décision sur un BAT. Utile pour fournir des listes de contrôle à vos utilisateurs pour des éléments tels que la conformité à la marque ou la réglementation. Pour plus d’informations sur les décisions, voir [Prise d’une décision sur un BAT dans la visionneuse de correctifs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+* **Au message de chargement** : s’affiche lors de la première ouverture de l’épreuve. Utile pour expliquer aux utilisateurs et utilisatrices comment réviser une épreuve ou fournir une clause de non-responsabilité ou tout autre texte juridique.
+* **Message de décision** : s’affiche lorsqu’un utilisateur ou une utilisatrice sélectionne une décision sur une épreuve. Utile pour fournir des listes de contrôle à vos utilisateurs et utilisatrices pour des éléments tels que la conformité à la marque ou la réglementation. Pour plus d’informations sur les décisions, voir [Prendre une décision sur une épreuve dans la visionneuse de relecture](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
-* **Texte du bouton Confirmer** : libellé qui s’affiche sur le bouton dans le message contextuel On load expliqué ci-dessus.
+* **Confirmer le texte du bouton** : libellé qui s’affiche sur le bouton dans le message pop-up Au chargement expliqué ci-dessus.
 
-Pour créer des messages contextuels pour les bons à tirer :
+Pour créer des messages pop-up pour les épreuves :
 
 1. Cliquez sur **Modifier** à droite du message que vous souhaitez personnaliser.
 1. Spécifiez un message et incluez la mise en forme appropriée, puis cliquez sur **Enregistrer**.
-1. (Facultatif) Si vous avez personnalisé le message Au chargement et que vous souhaitez également personnaliser l’étiquette du bouton de confirmation, cliquez sur **Modifier** à droite de **Confirmer le texte du bouton**, spécifiez une étiquette, puis cliquez sur **Enregistrer**.
+1. (Facultatif) Si vous avez personnalisé le message Au chargement et que vous souhaitez également personnaliser le libellé du bouton de confirmation, cliquez sur **Modifier** à droite de **Confirmer le texte du bouton**, spécifiez un libellé, puis cliquez sur **Enregistrer**.
 
-## Configuration des paramètres par défaut du BAT
+## Configurer les paramètres par défaut des épreuves
 
-Pour plus d’informations sur la configuration des paramètres par défaut du BAT pour votre organisation, voir [Configuration des paramètres par défaut du BAT](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Pour plus d’informations sur la configuration des paramètres par défaut de l’épreuve pour votre organisation, voir [Configuration des paramètres d’épreuve par défaut](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 
-## Configuration des paramètres de partage par défaut
+## Configurer les paramètres de partage par défaut
 
-Vous pouvez spécifier avec qui les bons à tirer de votre entreprise peuvent être partagés, les versions disponibles pour les réviseurs et le moment où les bons à tirer avec un workflow automatisé sont visibles pour les utilisateurs associés à une étape donnée.
+Vous pouvez spécifier avec qui les épreuves de votre entreprise peuvent être partagées, les versions disponibles pour les réviseurs et réviseuses et le moment où les épreuves avec un workflow automatisé sont visibles pour les utilisateurs et utilisatrices associés à une étape donnée.
 
-Pour plus d’informations sur le partage des paramètres dans Workfront Proof, voir [Configuration des paramètres de partage pour vos utilisateurs](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
+Pour plus d’informations sur le partage des paramètres dans Workfront Proof voir [Configuration des paramètres de partage pour vos utilisateurs et utilisatrices](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
 
-## Effectuer le branding du site de l’épreuve Workfront
+## Effectuer le branding du site de Workfront Proof
 
-Si vous utilisez Workfront Proof, vous pouvez configurer la valorisation de marque pour les zones suivantes du site :
+Si vous utilisez Workfront Proof, vous pouvez configurer le branding pour les zones suivantes du site :
 
-* Page de démarrage qui s’affiche au chargement du BAT
+* Page de démarrage qui s’affiche au chargement de l’épreuve
 * Écrans de connexion et de déconnexion
 * Notifications par e-mail
 
-Pour plus d’informations sur la manière de personnaliser le site Workfront Proof, voir [Marquer le site Workfront Proof](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Pour plus d’informations sur la manière d’effectuer le branding du site Workfront Proof, voir [Effectuer le branding du site de Workfront Proof](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
-## Configuration des paramètres de mot de passe avancés
+## Configurer les paramètres de mot de passe avancés
 
 >[!IMPORTANT]
 >
->Cette option est disponible uniquement pour les forfaits Workfront hérités. Si vous utilisez un forfait Pro, Entreprise ou Enterprise Workfront, vous ne pouvez plus configurer de paramètres avancés de mot de passe.
+>Cette option est disponible uniquement pour les formules Workfront héritées. Si vous utilisez une formule Pro, Business ou Entreprise de Workfront, vous ne pouvez plus configurer de paramètres avancés de mot de passe.
 
-Sous **Paramètres avancés du mot de passe**, vous pouvez améliorer la sécurité du mot de passe de vos utilisateurs.
+Sous **Paramètres de mot de passe avancés**, vous pouvez améliorer la sécurité des mots de passe de vos utilisateurs et utilisatrices.
 
-1. Cliquez sur **Configuration** à droite du paramètre que vous souhaitez configurer :
+1. Cliquez sur **Configuration** à droite du paramètre que vous souhaitez configurer :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -197,39 +197,39 @@ Sous **Paramètres avancés du mot de passe**, vous pouvez améliorer la sécuri
     <tbody> 
      <tr> 
       <td role="rowheader">Longueur minimale du mot de passe</td> 
-      <td>La longueur du mot de passe Workfront Proof par défaut est de six caractères. Vous pouvez augmenter le nombre en fonction des stratégies de votre entreprise.</td> 
+      <td>La longueur par défaut du mot de passe Workfront Proof est de six caractères. Vous pouvez augmenter le nombre en fonction des politiques de votre entreprise.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Combinaison de caractères</strong> </td> 
-      <td>Vous pouvez forcer les utilisateurs à utiliser un mélange de minuscules, de majuscules, de nombres et de symboles dans leurs mots de passe. Vous décidez du nombre de caractères que doit contenir le mot de passe.</td> 
+      <td>Vous pouvez forcer les utilisateurs et utilisatrices à utiliser une combinaison de minuscules, de majuscules, de nombres et de symboles dans leurs mots de passe. Vous décidez du nombre de caractères que doit contenir le mot de passe.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Nombre maximal de caractères répétés</strong> </td> 
-      <td>Vous pouvez spécifier le nombre de caractères à répéter dans le mot de passe de chaque utilisateur.</td> 
+      <td role="rowheader"><strong>Répétition maximale des caractères</strong> </td> 
+      <td>Vous pouvez spécifier le nombre de caractères pouvant se répéter dans le mot de passe de chaque personne.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Mot de passe automatique</td> 
-      <td>Force les utilisateurs à changer régulièrement leur mot de passe. Vous décidez de la fréquence à laquelle ils le feront.</td> 
+      <td role="rowheader">Expiration automatique de mot de passe</td> 
+      <td>Oblige les utilisateurs et utilisatrices à changer régulièrement leur mot de passe. Vous décidez de la fréquence à laquelle ils le feront.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Nombre de répétitions de mot de passe non autorisées</strong> </td> 
       <td>Configurez le nombre de répétitions de mot de passe non autorisées dans votre compte.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Verrouillage de profil</strong> </td> 
-      <td>Verrouille vos utilisateurs hors du compte après plusieurs tentatives de connexion infructueuses que vous avez spécifiées. Vous pouvez également spécifier la durée pendant laquelle ils doivent attendre avant de pouvoir accéder à nouveau à leur compte.</td> 
+      <td role="rowheader"><strong>Verrouillage du profil</strong> </td> 
+      <td>Empêche les utilisateurs et utilisatrices d’accéder à leur compte après un nombre de tentatives de connexion infructueuses que vous avez spécifié. Vous pouvez également spécifier la durée pendant laquelle ils doivent attendre avant de pouvoir accéder à nouveau à leur compte.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Verrouiller l’utilisateur si le mot de passe n’est pas réinitialisé après 30 jours</td> 
-      <td>Si votre utilisateur ne modifie pas son mot de passe initial dans les 30 jours suivant l’activation de son profil, il est bloqué hors du compte.<br><p>Les administrateurs de compte peuvent déverrouiller (réactiver) les utilisateurs qui sont automatiquement verrouillés par le système. Cela leur donnera sept jours supplémentaires pour modifier leur mot de passe.</p></td> 
+      <td role="rowheader">Verrouiller l’utilisateur ou l’utilisatrice si le mot de passe n’est pas réinitialisé après 30 jours.</td> 
+      <td>Si la personne ne modifie pas son mot de passe initial dans les 30 jours suivant l’activation de son profil, elle ne peut plus accéder à son compte.<br><p>Les équipes d’administration de compte peuvent déverrouiller (réactiver) les personnes dont l’accès est automatiquement bloqué par le système. Cela leur laissera sept jours supplémentaires pour modifier leur mot de passe.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Verrouiller le compte utilisateur s’il est inactif pendant 120 jours</td> 
-      <td>Si votre utilisateur ne se connecte pas à Workfront Proof ou qu’il dispose d’un BAT pour se connecter pendant 120 jours, il est bloqué hors du compte.</td> 
+      <td role="rowheader">Verrouiller le compte d’utilisateur ou d’utilisatrice s’il est inactif pendant 120 jours</td> 
+      <td>Si votre utilisateur ou utilisatrice ne se connecte pas à Workfront Proof ou à une épreuve nécessitant une connexion pendant 120 jours, la personne ne peut plus accéder au compte.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Modifier le mot de passe après la première connexion</strong> </td> 
-      <td>Nécessite que les utilisateurs modifient leur mot de passe temporaire après leur première connexion.<p>Les administrateurs de compte peuvent déverrouiller (réactiver) les utilisateurs qui sont automatiquement verrouillés par le système.</p><p>Pour plus d’informations sur le mot de passe, voir <a href="../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md" class="MCXref xref">Connexion et modification de votre mot de passe et de votre adresse électronique pour Workfront Proof</a>.</p></td> 
+      <td role="rowheader"><strong>Changer de mot de passe après la première connexion</strong> </td> 
+      <td>Nécessite que les utilisateurs et utilisatrices modifient leur mot de passe temporaire après leur première connexion.<p>Les équipes d’administration de compte peuvent déverrouiller (réactiver) les personnes qui sont automatiquement bloquées par le système.</p><p>Pour plus d’informations sur les mots de passe, voir <a href="../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md" class="MCXref xref">Se connecter et changer le mot de passe et l’e-mail pour Workfront Proof</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

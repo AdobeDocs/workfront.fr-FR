@@ -21,7 +21,7 @@ ht-degree: 60%
 
 Vous pouvez créer des champs personnalisés dans la Planification Adobe Workfront en vous référant à des champs existants et en les reliant dans un champ de type Formule .
 
-Les champs Formule génèrent une nouvelle valeur en utilisant les valeurs existantes d’autres champs d’un type d’enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
+Les champs de type formule génèrent une nouvelle valeur en utilisant des valeurs existantes provenant d’autres champs d’un type d’enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
 
 Pour plus d’informations, reportez-vous à la section &quot;Formule&quot; de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
@@ -46,7 +46,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -57,7 +57,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -81,8 +81,8 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Gérer les autorisations d’un espace de travail</a> </p>  
-   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> </td> 
+   <td>   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -91,7 +91,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -154,7 +154,7 @@ OLD:
 
 -->
 
-## Considérations relatives aux champs de formule
+## Remarques sur les champs de formule
 
 * Les champs de formule font référence à des champs qui appartiennent au même type d&#39;enregistrement.
 * Vous ne pouvez référencer des champs provenant d’autres types d’enregistrement que lorsque vous associez un autre type d’enregistrement à celui pour lequel vous créez un champ de formule.
@@ -192,22 +192,22 @@ Nous prenons également en charge les expressions suivantes pour les champs de f
 
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
-   <td> <p>Renvoie une chaîne concaténée par délimiteur.</p> <p>L’expression est mise en forme comme suit :
+   <td> <p>Renvoie une chaîne concaténée par délimiteur.</p> <p>L’expression est formatée comme suit :
 
-<code>ARRAYJOIN(délimiteur,tableau)</code>
+<code>ARRAYJOIN(delimiter,array)</code>
 </p>
    </td></tr>
 
 <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
-   <td> <p>Renvoie un tableau avec des valeurs uniques.</p> <p>L’expression est mise en forme comme suit :
+   <td> <p>Renvoie un tableau avec des valeurs uniques.</p> <p>L’expression est formatée comme suit :
 
-<code>ARRAYUNIQUE(tableau)</code>
+<code>ARRAYUNIQUE(array)</code>
 </p>
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>Renvoie l’ID d’un enregistrement. Chaque enregistrement possède un ID unique.</p> <p>L’expression est mise en forme comme suit :
+   <td> <p>Renvoie l’ID d’un enregistrement. Chaque enregistrement possède un ID unique.</p> <p>L’expression est formatée comme suit :
 
 <code>{ID}</code>
 </p>
@@ -215,15 +215,15 @@ Nous prenons également en charge les expressions suivantes pour les champs de f
 
 <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 
-   <td> <p>Définit le fuseau horaire d’une date et d’une heure sur un fuseau horaire spécifique.</p> <p>L’expression est mise en forme comme suit :
+   <td> <p>Définit le fuseau horaire d’une date et d’une heure sur un fuseau horaire spécifié.</p> <p>L’expression est formatée comme suit :
 
-<code>SETTIMEZONE(date, « Amérique/Los_Angeles »)</code>
+<code>SETTIMEZONE(date, &#39;America/Los_Angeles&#39;)</code>
 </p>
    </td></tr>
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>Renvoie le numéro de la semaine dans une année. Vous pouvez éventuellement indiquer le jour de début de la semaine (utilisez 1 pour dimanche ou 2 pour lundi). Si cette option est omise, les semaines commencent le dimanche, par défaut.</p> <p>L’expression est mise en forme comme suit :
+   <td> <p>Renvoie le numéro de la semaine dans une année. Vous pouvez éventuellement indiquer le jour de début de la semaine (utilisez 1 pour dimanche ou 2 pour lundi). Si cette option est omise, les semaines commencent le dimanche, par défaut.</p> <p>L’expression est formatée comme suit :
 
 <code>WEEKOFYEAR(date,2)</code>
 ou

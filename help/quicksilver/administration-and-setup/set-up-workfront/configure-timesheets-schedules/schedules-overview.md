@@ -2,10 +2,10 @@
 user-type: administrator
 content-type: overview
 product-area: system-administration;timesheets
-keywords: user,schedule
+keywords: utilisateur ou utilisatrice,planning
 navigation-topic: configure-timesheets-and-schedules
 title: Présentation des planifications
-description: Vous pouvez définir votre semaine de travail à l’aide de plannings. Vous pouvez associer un planning à un utilisateur ou à un projet. Cela permet à  [!DNL Adobe Workfront] de calculer la chronologie et la disponibilité de l’utilisateur. Pour plus d’informations, voir Création d’un planning.
+description: Vous pouvez définir votre semaine de travail en utilisant des plannings. Vous pouvez associer un planning à une personne ou à un projet. Cela permet à  [!DNL Adobe Workfront]  de calculer les chronologies et la disponibilité des personnes. Pour savoir obtenir des instructions, voir Créer un planning.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -13,7 +13,7 @@ exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
 source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
@@ -21,62 +21,62 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Vous pouvez définir votre semaine de travail à l’aide de plannings et associer un planning à un utilisateur ou à un projet. Cela permet à [!DNL Adobe Workfront] de calculer la chronologie et la disponibilité de l’utilisateur. Pour obtenir des instructions, voir [Création d’une planification](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Vous pouvez définir votre semaine de travail à l’aide de plannings et associer un planning à une personne ou à un projet. Cela permet à [!DNL Adobe Workfront] de calculer les chronologies et la disponibilité des utilisateurs et utilisatrices. Pour obtenir des instructions, voir [Créer un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-Tenez compte des points suivants lorsque vous utilisez des plannings dans Workfront :
+Tenez compte des points suivants lorsque vous travaillez avec des plannings dans Workfront :
 
-* L’administrateur [!DNL Workfront] identifie les heures d’opération pour l’organisation dans un planning.
+* L’équipe d’administration [!DNL Workfront] définit les heures d’ouverture de l’entreprise dans un planning.
 
-  De même, un administrateur de groupe peut identifier les heures de fonctionnement d’un planning géré par un groupe qu’il gère. Pour plus d’informations sur les administrateurs de groupe, voir [Administrateurs de groupe](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+  De même, une équipe d’administration de groupes peut identifier les heures d’ouverture d’un planning administré par un groupe qu’elle gère. Pour plus d’informations sur les administrateurs et administratrices de groupes, voir [Équipes d’administration de groupes](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
-  Par exemple, une planification peut être définie comme suit : du lundi au vendredi, de 8 h à 17 h, avec une pause d’une heure pour le déjeuner.
+  Par exemple, un planning peut être défini comme suit : du lundi au vendredi, de 8 heures à 17 heures, avec une heure de pause pour le déjeuner.
 
-* [!DNL Workfront] utilise la planification pour déterminer le moment où la journée de travail commence et se termine.
+* [!DNL Workfront] utilise le planning pour déterminer le début et la fin de la journée de travail.
 
-  Cela n’empêche pas un utilisateur de travailler ou d’effectuer un travail dans [!DNL Workfront] en dehors des heures de bureau normales. En règle générale, il n’est pas nécessaire de créer un nouveau planning ou une exception de planning pour se concentrer sur les travaux prévus le soir.
+  Cela n’empêche pas une personne de travailler ou de terminer son travail sur [!DNL Workfront] en dehors des heures normales de travail. En général, il n’est pas nécessaire de créer un planning ou une exception de planning pour se concentrer sur le travail prévu le soir.
 
-  De même, votre entreprise peut avoir des horaires d’arrivée flexibles pour votre journée de travail. Vous pouvez avoir un groupe d’employés qui arrive à 8 heures et un autre groupe qui arrive à 9 heures. Il n’est pas nécessaire de créer des plannings uniques pour chaque groupe, si les groupes ont des plannings similaires ou identiques. Mais si les groupes ont des plannings radicalement différents, leurs utilisateurs doivent être associés à des plannings uniques. Un employé comprend si une tâche doit être terminée à 17 heures, cela signifie que le travail doit être effectué avant la fin de la journée de travail, quelle que soit l’heure à laquelle il entre au travail.
+  De même, votre entreprise peut prévoir des heures d’arrivée flexibles pour votre journée de travail. Vous pouvez avoir un groupe de personnes membres du personnel qui arrive à 8 heures et un autre qui arrive à 9 heures. Il n’est pas nécessaire de créer des plannings uniques pour chaque groupe si les groupes ont des horaires similaires ou identiques. Mais si les groupes ont des horaires radicalement différents, les personnes doivent être associées à des plannings uniques. Une personne membre du personnel comprend que si une affectation doit être terminée à 17 heures, cela signifie que le travail doit être effectué avant la fin de la journée de travail, quelle que soit l’heure d’arrivée au travail.
 
-* Nous vous recommandons de créer des plannings distincts pour chaque fuseau horaire associé à l’organisation.
+* Nous vous recommandons de créer des plannings distincts pour chaque fuseau horaire associé à l’entreprise.
 
-  Vous pouvez affecter un fuseau horaire spécifique à chaque planification afin de vous assurer que le travail est planifié de manière appropriée pour les utilisateurs qui travaillent dans différents fuseaux horaires.
+  Vous pouvez attribuer un fuseau horaire spécifique à chaque planning afin de vous assurer que le travail est planifié de manière appropriée pour les personnes qui travaillent dans des fuseaux horaires différents.
 
-* La planification par défaut [!DNL Workfront] est utilisée dans les calculs de chronologie lorsque les utilisateurs ou les projets ne sont pas associés à une planification.
+* Le planning par défaut [!DNL Workfront] est utilisé dans les calculs de chronologies lorsque les personnes ou les projets ne sont pas associés à un planning.
 
-  La planification par défaut est fournie avec votre système [!DNL Workfront] et ne peut pas être supprimée si elle n’est pas remplacée par une nouvelle planification que vous créez.
+  Le planning par défaut est fourni avec votre système [!DNL Workfront] et ne peut pas être supprimé à moins d’être remplacé par un nouveau planning que vous créez.
 
-* Outre le calcul des chronologies, [!DNL Workfront] utilise des plannings pour calculer la disponibilité des utilisateurs.
+* Outre le calcul des chronologies, [!DNL Workfront] utilise les plannings pour calculer la disponibilité des personnes.
 
   >[!IMPORTANT]
   >
-  >[!DNL Workfront] utilise l’utilisateur ou la planification du projet pour déterminer la disponibilité des ressources dans le planificateur de ressources. La planification utilisée dépend de ce que l’administrateur [!DNL Workfront] a sélectionné pour le paramètre [!UICONTROL Calculate Resource Available Using] . Pour plus d’informations sur les paramètres de gestion des ressources, voir [Configuration des préférences de gestion des ressources](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  >[!DNL Workfront] utilise le planning de la personne ou le planning du projet pour déterminer la disponibilité des ressources dans le planificateur de ressources. Le planning utilisé dépend de ce que l’équipe d’administration [!DNL Workfront] a sélectionné pour le paramètre [!UICONTROL Calculer la disponibilité des ressources avec]. Pour plus d’informations sur les paramètres de la gestion des ressources, voir [Configurer les préférences de la gestion des ressources](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ## Hiérarchie des plannings
 
-Si une tâche est assignée à un utilisateur associé à un planning et réside sur un projet associé à un second planning, au moins deux plannings peuvent éventuellement être appliqués à vos calculs de frise chronologique.
+Si une tâche est affectée à une personne associée à un planning et qu’elle se trouve sur un projet associé à un deuxième planning, vous avez au moins deux plannings qui peuvent potentiellement être appliqués à vos calculs de chronologies.
 
 >[!IMPORTANT]
 >
->[!DNL Workfront] utilise la planification d’un utilisateur uniquement lorsque le paramètre [!UICONTROL Calculer la disponibilité des ressources à l’aide de] est défini sur [!UICONTROL La planification de l’utilisateur] dans la zone [!UICONTROL Gestion des ressources] de [!UICONTROL Configuration]. Pour plus d’informations sur l’impact du paramètre [!UICONTROL Calculate Resource Available Using] sur la planification utilisée pour la gestion des ressources, voir [Configuration des préférences de gestion des ressources](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+>[!DNL Workfront] utilise le planning d’une personne uniquement lorsque le paramètre [!UICONTROL Calculer la disponibilité des ressources avec] est défini sur [!UICONTROL Planning de la personne] dans la zone [!UICONTROL Gestion des ressources] de la [!UICONTROL Configuration]. Pour plus d’informations sur la manière dont le paramètre [!UICONTROL Calculer la disponibilité des ressources avec] affecte le planning utilisé pour la gestion des ressources, voir [Configurer les préférences pour la gestion des ressources](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-L’ordre dans lequel les planifications sont utilisées par le système lorsqu’il en existe plusieurs est le suivant :
+L’ordre dans lequel les plannings sont utilisés par le système lorsqu’il en existe plusieurs est le suivant :
 
-* Lorsqu’un utilisateur est affecté à une tâche, [!DNL Workfront] utilise le planning de l’utilisateur pour calculer la chronologie de la tâche. Cela inclut également l’heure personnelle de l’utilisateur. Le planning du projet est ignoré.
+* Lorsqu’une personne est affectée à une tâche, [!DNL Workfront] utilise le planning de la personne pour calculer la chronologie de la tâche. Cela comprend également le temps personnel de la personne. Le planning du projet n’est pas pris en compte.
 
-  Pour plus d&#39;informations sur l&#39;heure personnelle, voir [Configuration de l&#39;heure personnelle](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  Pour plus d’informations sur le temps libre, voir [Configurer les congés personnels](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-* Lorsque plusieurs utilisateurs sont affectés à une tâche et que les utilisateurs ont des plannings différents pendant la période de la tâche, [!DNL Workfront] utilise l’un des plannings suivants, comme défini dans la zone [!UICONTROL Préférences du projet] de [!UICONTROL Configuration] :
+* Lorsque plusieurs personnes sont affectées à une tâche et ont des horaires différents pendant la durée de la tâche, [!DNL Workfront] utilise l’un des plannings suivants, tels que définis dans la zone [!UICONTROL Préférences du projet] de la [!UICONTROL Configuration] :
 
-   * Planification de l’utilisateur désigné comme responsable du Principal
+   * Planning de la personne désignée comme personne cessionnaire principale.
    * Planning associé au projet.
 
-     Pour plus d’informations sur les préférences du projet, voir [Configuration des préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+     Pour plus d’informations sur les préférences de projet, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* Si l’utilisateur affecté à la tâche n’a pas de planning, ou si la tâche est affectée uniquement à un rôle de tâche, à une équipe ou est non affectée, [!DNL Workfront] utilise le planning du projet pour les calculs de la chronologie.
-* Si l’utilisateur affecté à la tâche n’a pas de planning, ou si la tâche est affectée uniquement à un rôle de tâche, à une équipe, ou n’est pas affectée, et que le projet n’a pas de planning, alors [!DNL Workfront] utilise le planning dans le système désigné comme planning par défaut pour les calculs de la chronologie.
+* Si la personne affectée à la tâche n’a pas de planning, ou si la tâche est affectée uniquement à une fonction, à une équipe ou n’est pas assignée, alors [!DNL Workfront] utilise le planning du projet désigné comme le planning par défaut pour les calculs des chronologies.
+* Si la personne affectée à la tâche n’a pas de planning, ou si la tâche est affectée uniquement à une fonction, à une équipe ou n’est pas assignée, et que le projet n’a pas de planning, alors [!DNL Workfront] utilise le planning du système désigné comme le planning par défaut pour les calculs des chronologies.
 
   ![](assets/default-schedule.png)
 
-## Collaboration dans [!DNL Workfront] à travers les fuseaux horaires
+## Collaboration dans [!DNL Workfront] avec les fuseaux horaires
 
-Pour plus d’informations sur l’utilisation des plannings pour aider les utilisateurs à collaborer dans [!DNL Workfront] fuseaux horaires, voir [Utilisation des fuseaux horaires](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+Pour plus d’informations sur l’utilisation des plannings pour aider les personnes à collaborer dans [!DNL Workfront] avec des fuseaux horaires, voir [Travailler avec des fuseaux horaires](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).

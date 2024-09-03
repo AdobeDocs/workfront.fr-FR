@@ -11,23 +11,23 @@ exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
 source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 15%
+ht-degree: 95%
 
 ---
 
-# Utiliser un état personnalisé comme état par défaut pour un groupe
+# Utiliser un statut personnalisé comme statut par défaut pour un groupe
 
-En tant qu’administrateur de groupe, vous pouvez configurer un état personnalisé comme état par défaut pour un groupe ou un sous-groupe que vous gérez. Cela s’avère utile lorsque le système doit attribuer automatiquement un état Workfront à un projet, à une tâche ou à un problème. Un projet, une tâche ou un problème affiche toujours l’état personnalisé que vous définissez comme état par défaut au lieu d’afficher l’état Workfront auquel il correspond.
+En tant qu’administrateur ou administratrice de groupe, vous pouvez configurer un statut personnalisé comme statut par défaut pour un groupe ou un sous-groupe que vous gérez. Cela se révèle utile lorsque le système doit affecter automatiquement un statut Workfront à un projet, une tâche ou un problème. Un projet, une tâche ou un problème affiche toujours le statut personnalisé que vous définissez comme statut par défaut au lieu d’afficher le statut Workfront auquel il correspond.
 
-L’état que vous configurez peut être tout état personnalisé créé pour le groupe, hérité d’un groupe situé au-dessus du groupe ou hérité au niveau du système.
+Le statut que vous configurez peut être tout statut personnalisé créé pour le groupe, hérité d’un groupe situé au-dessus du groupe ou hérité au niveau du système.
 
-S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
+S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrateurs et administratrices peuvent également le faire pour votre groupe. Il en va de même pour les administrateurs et administratrices de Workfront (pour n’importe quel groupe).
 
 >[!INFO]
 >
->**Exemple :** Vous pouvez créer un état personnalisé appelé Terminé et le définir comme état par défaut associé à l’état Workfront Terminé.
+>**Exemple :** vous pouvez créer un statut personnalisé nommé Fini et le définir comme statut par défaut équivalent au statut Terminé de Workfront.
 >
->Ensuite, pour les tâches définies pour passer à l’état Terminé lorsqu’elles atteignent 100 %, l’état s’affiche comme Terminé au lieu de Terminé.
+>Ensuite, pour les tâches programmées pour passer au statut Terminé lorsqu’elles atteignent 100 %, le statut s’affiche comme Fini au lieu de Terminé.
 
 ## Conditions d’accès
 
@@ -40,65 +40,65 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan Workfront*</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Forfait Workfront*</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Vous devez être un administrateur ou une administratrice de groupe pour le groupe ou un administrateur ou une administratrice de Workfront. Pour plus d’informations, consultez les sections <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à une personne</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Vous devez faire partie de l’équipe d’administration de groupe pour le groupe ou de l’équipe d’administration Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
+&#42;Si vous devez établir la formule ou le type de licence dont vous disposez, contactez votre équipe d’administration Workfront.
 
 +++
 
 ## Statuts des problèmes
 
-Si l’état personnalisé est un état de problème, les quatre types de problème doivent être activés pour celui-ci (rapport de bogue, ordre de modification, problème et requête). Par exemple, dans l’état ci-dessous, l’état Réouvert ne peut pas être utilisé comme état par défaut, car le type de problème Modifier l’ordre n’est pas sélectionné :
+Si le statut personnalisé est un statut de problème, les quatre types de problèmes doivent être activés pour celui-ci (rapport de bug, ordre de modification, problème et requête). Par exemple, dans le statut de problème ci-dessous, le statut Réouvert ne peut pas être utilisé comme statut par défaut, car le type de problème Ordre de modification n’est pas sélectionné :
 
 ![](assets/all-4-issue-types-enabled.png)
 
-## Définir un état personnalisé comme état par défaut pour un groupe
+## Définir un statut personnalisé comme statut par défaut pour un groupe
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png), puis sur le nom du groupe dans lequel vous souhaitez créer ou personnaliser des états.
-1. Dans le panneau de gauche, cliquez sur **États** ![](assets/gear-icon-settings.png).
-1. Ouvrez l’onglet **Projet**, **Tâches** ou **Problèmes**, selon le type d’état que vous souhaitez définir comme état par défaut.
-1. Cliquez sur **Définir les états par défaut** près du coin supérieur droit.
-1. Dans la liste déroulante qui s’affiche, en regard de l’état dans lequel vous souhaitez définir l’état par défaut, sélectionnez l’état par défaut à définir.
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png), puis sur le nom du groupe dans lequel vous souhaitez créer ou personnaliser des statuts.
+1. Dans le panneau de gauche, cliquez sur **Statuts** ![](assets/gear-icon-settings.png).
+1. Ouvrez l’onglet **Projet**, **Tâches**, ou **Problèmes** selon le type de statut que vous souhaitez définir comme statut par défaut.
+1. Cliquez sur **Définir des statuts par défaut** en haut à droite.
+1. Dans la liste déroulante qui s’affiche, en regard du statut que vous souhaitez définir par défaut, sélectionnez le statut par défaut à définir.
 1. Cliquer sur **Enregistrer**.
 
-   L’état est désormais disponible comme état par défaut pour une utilisation avec les projets associés au groupe.
+   Le statut est désormais disponible comme statut par défaut pour une utilisation avec les projets associés au groupe.
 
-1. Associez l’état personnalisé au projet dans lequel vous souhaitez l’utiliser.
+1. Associez le statut personnalisé au projet sur lequel vous souhaitez l’utiliser.
 
-   Vous associez le statut au projet en associant le groupe où il réside au projet. Les utilisateurs ne peuvent utiliser l’état personnalisé que si le groupe où réside l’état est associé au projet.
+   Vous associez le statut au projet en associant au projet le groupe où le statut réside. Les utilisateurs et utilisatrices ne peuvent utiliser le statut personnalisé que si le groupe où réside le statut est associé au projet.
 
    >[!NOTE]
    >
-   >Si vous affectez le projet à un autre groupe, l’état du projet se recharge et peut changer.
+   >Si vous affectez le projet à un autre groupe, le statut du projet se recharge et pourrait changer.
 
-   1. Accédez au projet dans lequel vous souhaitez utiliser l’état personnalisé.
+   1. Accédez au projet dans lequel vous souhaitez utiliser le statut personnalisé.
    1. Cliquez sur le menu Plus ![](assets/more-icon.png), puis sur **Modifier**.
-   1. Dans la zone **Edit Project** (Modifier le projet) qui s’affiche, dans le champ **Group** sous **Project association**, sélectionnez le groupe auquel l’état personnalisé est associé.
+   1. Dans la zone **Modifier le projet** qui s’affiche, dans le champ **Groupe** sous **Association de projets**, sélectionnez le groupe auquel le statut personnalisé est associé.
 
    1. Cliquez sur **Enregistrer les modifications**.
 
-## Les groupes héritent des configurations d’état par défaut.
+## Les groupes héritent de configurations de statuts par défaut.
 
-Lorsqu’un administrateur Workfront configure un état personnalisé comme état par défaut, les nouveaux groupes créés héritent de cette configuration.
+Lorsqu’un administrateur ou une administratrice Workfront configure un statut personnalisé comme statut par défaut, les nouveaux groupes créés héritent de cette configuration.
 
-De même, lorsqu’un administrateur de groupe définit un état personnalisé comme état par défaut, les nouveaux sous-groupes créés directement sous le groupe héritent de cette configuration.
+De même, lorsqu’un administrateur ou une administratrice de groupe définit un statut personnalisé comme statut par défaut, les nouveaux sous-groupes créés directement sous le groupe héritent de cette configuration.
 
-Pour plus d’informations, consultez la section [Héritage de statuts par les groupes](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
+Pour plus d’informations, voir la section [Comment les groupes héritent des statuts](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
-## Lorsqu’un état par défaut est masqué
+## Lorsqu’un statut par défaut est masqué
 
-Si vous masquez un état par défaut (en activant l’option Masquer l’état ), le système tente plutôt de définir un autre état du type équivalent comme valeur par défaut.
+Si vous masquez un statut par défaut (en activant l’option Masquer le statut), le système tente plutôt de définir un autre statut du type équivalent comme valeur par défaut.
 
-S’il n’existe aucun état disponible du type équivalent, le type d’état s’affiche comme **Masqué** et n’est pas disponible pour les tâches.
+S’il n’existe aucun statut disponible du type équivalent, le type de statut s’affiche comme étant **Masqué** et il n’est pas disponible pour les éléments de travail.
 
 ![](assets/when-hide-default-status-no-equivalent.png)

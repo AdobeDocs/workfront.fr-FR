@@ -30,7 +30,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
    <td> <p>[!UICONTROL Enterprise] </p> </td> 
   </tr> 
   <tr> 
@@ -42,8 +42,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>Vous devez avoir un plan [!DNL JumpSeat] actif.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p> Vous devez être un administrateur ou une administratrice . [!DNL Workfront] Pour plus d’informations sur les administrateurs et les administratrices [!DNL Workfront], voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder à un utilisateur ou à une utilisatrice un accès administratif complet</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p> Vous devez être un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations sur les administrateurs et les administratrices [!DNL Workfront], voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder à un utilisateur ou à une utilisatrice un accès administratif complet</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Avant de commencer, vous devez
 
-* Ajouter et activer  en tant qu’application dans . [!DNL Workfront][!DNL JumpSeat] Pour plus d’informations, voir [Comment ajouter ou supprimer une application](https://support.jumpseat.io/article/how-to-add-an-application/).
+* Ajoutez et activez [!DNL Workfront] en tant qu’application dans [!DNL JumpSeat]. Pour plus d’informations, voir [Comment ajouter ou supprimer une application](https://support.jumpseat.io/article/how-to-add-an-application/).
 
 ## Configurer l’intégration de [!DNL JumpSeat]
 
@@ -64,7 +64,7 @@ Nous vous recommandons de configurer une intégration de [!DNL JumpSeat] dans vo
 
 >[!TIP]
 >
->Vous devez ajouter et activer deux applications  distinctes dans  - une pour la prévisualisation et une pour la production. [!DNL Workfront][!DNL JumpSeat] Pour plus d’informations, voir [Comment ajouter ou supprimer une application](https://support.jumpseat.io/article/how-to-add-an-application/).
+>Vous devez ajouter et activer deux applications [!DNL Workfront] distinctes dans [!DNL JumpSeat] - une pour la prévisualisation et une pour la production. Pour plus d’informations, voir [Comment ajouter ou supprimer une application](https://support.jumpseat.io/article/how-to-add-an-application/).
 
 Pour configurer l’intégration de [!DNL JumpSeat] :
 
@@ -75,7 +75,7 @@ Pour configurer l’intégration de [!DNL JumpSeat] :
 
    **Exemple :** [!DNL https]://{mycompanyname}.jumpseat.io
 
-1. Saisissez le jeton de l’intégration . **[!UICONTROL [!DNL JumpSeat]]** Vous pouvez le trouver sur la page **[!UICONTROL Configuration]** dans [!DNL JumpSeat].
+1. Saisissez le jeton de l’intégration **[!UICONTROL [!DNL JumpSeat]]**. Vous pouvez le trouver sur la page **[!UICONTROL Configuration]** dans [!DNL JumpSeat].
 
    **Exemple :** $2y$10$BevsKeQ8....OYR.LurSg2U64O
 

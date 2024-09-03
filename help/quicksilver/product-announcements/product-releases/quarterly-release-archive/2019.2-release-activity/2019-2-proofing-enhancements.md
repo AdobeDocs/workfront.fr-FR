@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Améliorations de la relecture (version 2019.2)
-description: Cette page décrit toutes les améliorations de l’authentification incluses dans la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
+title: 2019.2 Améliorations de la relecture
+description: Cette page décrit toutes les améliorations de la relecture incluses dans la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
@@ -10,40 +10,40 @@ exl-id: e8b67a10-1c9a-427e-96d5-0bcee47333f3
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Améliorations de la relecture (version 2019.2)
+# 2019.2 Améliorations de la relecture
 
-Cette page décrit toutes les améliorations de l’authentification incluses dans la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
+Cette page décrit toutes les améliorations de la relecture incluses dans la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2019.2, consultez la [présentation de l’activité de version 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Pour consulter la liste de toutes les modifications apportées à la version 2019.2, voir [Vue d’ensemble de l’activité de version 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
-## Autoriser les utilisateurs sans licence de vérification à appliquer des actions et à résoudre des commentaires
+## Autoriser les utilisateurs et les utilisatrices sans licence de relecture à appliquer des actions et résoudre des commentaires
 
-Désormais, les utilisateurs sans licence de vérification peuvent appliquer des actions aux commentaires et résoudre les commentaires. Vous pouvez accorder une autorisation pour ces activités lorsque vous ajoutez un utilisateur à un BAT.
+Désormais, les utilisateurs et les utilisatrices sans licence de relecture peuvent appliquer des actions à des commentaires et résoudre des commentaires. Lorsque vous ajoutez un utilisateur ou une utilisatrice à une épreuve, vous pouvez lui accorder une autorisation pour ces activités.
 
-Auparavant, seuls les utilisateurs disposant d’une licence de vérification et du rôle de modération d’auteur ou de modérateur pouvaient appliquer des actions et résoudre des commentaires sur un BAT.
+Auparavant, seuls les utilisateurs et les utilisatrices disposant d’une licence et d’un rôle de relecture en tant que personnes chargées de la création ou de la modération pouvaient appliquer des actions et résoudre des commentaires sur une épreuve.
 
-## Balisage d’un utilisateur lors de la commentaire sur un BAT dans la visionneuse de vérification
+## Taguer un utilisateur ou une utilisatrice lors d’un commentaire sur une épreuve dans la visionneuse de relecture
 
-Lorsque vous commentez un BAT, si vous disposez de droits d&#39;édition sur le BAT, vous pouvez désormais marquer ou &quot;@mention&quot; toute personne ayant une adresse email reconnue par Workfront. Cela inclut :
+Lorsque vous commentez une épreuve, si vous avez des droits d’édition sur l’épreuve, vous pouvez maintenant taguer ou « @mention » toute personne dont l’adresse e-mail est reconnue par Workfront. Cela inclut les éléments suivants :
 
-* Toute personne qui a été ajoutée à un BAT dans le compte Workfront de votre entreprise à l’aide de l’adresse électronique.
-* Toute personne qui a utilisé l’adresse électronique pour s’abonner à un BAT dans le compte Workfront de votre entreprise.
+* Toute personne qui a été ajoutée à une épreuve dans le compte Workfront de votre entreprise à l’aide de l’adresse e-mail.
+* Toute personne qui a utilisé l’adresse e-mail pour s’abonner à une épreuve dans le compte Workfront de votre entreprise.
 
-Auparavant, vous pouviez baliser uniquement les utilisateurs qui avaient été ajoutés au workflow du BAT. C’est toujours ainsi que fonctionne le balisage si vous n’avez pas de modification correcte sur le BAT.
+Vous ne pouviez auparavant taguer que les utilisateurs et les utilisatrices à qui le workflow de l’épreuve avait été affecté. Si vous n’avez pas de droit d’édition sur l’épreuve, le tag fonctionne toujours de cette façon.
 
-## Filtrage du rapport Approbation de BAT pour Omettre les versions de BAT précédentes
+## Filtrer le rapport d’approbation des épreuves pour ne pas tenir compte des versions antérieures des épreuves
 
 >[!NOTE]
 >
->Cette fonctionnalité a été publiée directement dans l’environnement de production au cours de la période d’aperçu 2019.2.
+>Cette fonctionnalité a été publiée directement dans l’environnement de production au cours de la période de version préliminaire 2019.2.
 
-Dans n’importe quel rapport Approbation de BAT, vous pouvez désormais utiliser le nouveau filtre Est la version actuelle du document afin d’inclure uniquement les versions actuelles des BAT en attente de votre approbation.
+Vous pouvez désormais utiliser le nouveau filtre « Version actuelle du document » dans tout rapport d’approbation d’épreuve afin d’inclure uniquement les versions actuelles des épreuves en attente d’approbation.
 
-Cela s’avère utile, par exemple, si vous avez été invité à approuver des bons à tirer qui comportent plusieurs versions. Lorsque vous exécutez le rapport Approbation de BAT avec le filtre Is Current Document Version , il répertorie uniquement la version actuelle de chaque BAT en attente de votre approbation, omettant les versions antérieures sur lesquelles vous n’avez plus besoin de travailler.
+Ceci est utile, par exemple, si l’on vous a demandé d’approuver des épreuves comportant plusieurs versions. Lorsque vous exécutez le rapport d’approbation d’épreuves avec le filtre Est la version actuelle du document, le rapport ne répertorie que la version actuelle de chaque épreuve en attente d’approbation, en omettant les versions antérieures sur lesquelles vous n’avez plus besoin de travailler.
 
-Pour plus d’informations, voir [Rapport d’approbation de BAT pour omettre les versions précédentes du BAT](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md).
+Pour plus d’informations, consultez la section [Filtre : rapport d’approbation des épreuves pour ne pas tenir compte des versions antérieures des épreuves](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md).
 

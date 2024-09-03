@@ -32,28 +32,28 @@ Pour plus d’informations sur l’intégration de Workfront avec un système SS
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouvelle : standard</p><p>Ou</p><p>Actuelle : formule</p></td> 
+   <td><p>Nouveau : Standard</p><p>Ou</p><p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p>  </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +71,7 @@ Pour que vos utilisateurs et utilisatrices puissent utiliser leurs identifiants 
 
 En tant qu’administrateur ou administratrice Workfront, vous pouvez mettre à jour en masse le champ Nom d’utilisateur ou d’utilisatrice SSO pour vos utilisateurs et utilisatrices Workfront en important une liste de noms d’utilisateur ou d’utilisatrice dans Workfront. Cette liste doit respecter les exigences suivantes :
 
-* Contenir l’ID d’utilisateur ou d’utilisatrice Workfront (GUID) ainsi que le nom d’utilisateur ou d’utilisatrice SSO correspondant pour chaque utilisateur ou utilisatrice.
+* Contenir l’identifiant de l’utilisateur ou de l’utilisatrice Workfront (GUID) ainsi que le nom d’utilisateur ou d’utilisatrice SSO correspondant pour chaque utilisateur ou utilisatrice.
 * Être enregistrée sous forme de fichier CSV ou TSV.
 
 Ce processus met à jour les noms d’utilisateur ou d’utilisatrice SSO existants dans Workfront, ou ajoute un nouveau nom d’utilisateur ou d’utilisatrice SSO, s’il en manque un pour les utilisateurs et utilisatrices.
@@ -106,7 +106,7 @@ Vous pouvez commencer à préparer votre fichier d’import en créant un rappor
 
 1. Supprimez les en-têtes de colonne et assurez-vous qu’il n’y a pas de lignes vides en haut du rapport.
 
-   Le fichier que vous utilisez pour mettre à jour vos utilisateurs et utilisatrices Workfront avec les noms d’utilisateur ou d’utilisatrice SSO **doit** ne contenir que 2 colonnes, et dans l’ordre suivant :
+   Le fichier que vous utilisez pour mettre à jour vos utilisateurs et utilisatrices Workfront avec les noms d’utilisateur ou d’utilisatrice SSO **doit** ne contenir que 2 colonnes, et dans l’ordre suivant :
 
    * La première colonne doit afficher l’ID d’utilisateur ou d’utilisatrice Workfront (son GUID tel qu’il se trouve dans Workfront).
    * La deuxième colonne doit contenir le nom d’utilisateur ou d’utilisatrice SSO, tel qu’il s’affiche dans votre système SSO.
@@ -118,7 +118,7 @@ Vous pouvez commencer à préparer votre fichier d’import en créant un rappor
 
 ## Mettre à jour les utilisateurs et utilisatrices pour la SSO {#update-your-users-for-sso}
 
-Le processus de mise à jour des utilisateurs et utilisatrices pour la SSO ajoute le champ Nom d’utilisateur ou d’utilisatrice SSO à vos utilisateurs et utilisatrices Workfront s’il n’existe pas, ou met à jour la valeur de ce champ si une valeur est déjà associée aux utilisateurs et utilisatrices.
+Le processus de mise à jour des utilisateurs et utilisatrices pour la SSO ajoute le champ Nom d’utilisateur ou d’utilisatrice SSO à vos utilisateurs et utilisatrices Workfront s’il n’existe pas, ou met à jour la valeur de ce champ s’il existe déjà une valeur associée aux utilisateurs et utilisatrices.
 
 {{step-1-to-setup}}
 
@@ -132,7 +132,7 @@ Le processus de mise à jour des utilisateurs et utilisatrices pour la SSO ajout
 
    Cette opération insère les identifiants SSO dans Workfront, ce qui permet à tous les utilisateurs et utilisatrices de se connecter à Workfront à l’aide de leurs informations d’identification SSO.
 
-   Le paramètre Autoriser uniquement l’authentification  est activé pour tous les utilisateurs et utilisatrices inclus dans le fichier CSV. **`<SSO Configuration>`** Cela garantit que les utilisateurs et utilisatrices doivent se connecter via la SSO.
+   Le paramètre **Autoriser uniquement l’authentification `<SSO Configuration>`** est activé pour tous les utilisateurs et utilisatrices inclus dans le fichier CSV. Cela garantit que les utilisateurs et utilisatrices doivent se connecter via la SSO.
 
 ## Vérifier la SSO par rapport aux noms de vos utilisateurs et utilisatrices Workfront
 
@@ -147,4 +147,4 @@ Pour obtenir des instructions sur la création d’un rapport sur les utilisateu
 
    ![](assets/users-with-sso-field-updated.png)
 
-   Pour obtenir des instructions sur la mise à jour de vos utilisateurs et utilisatrices pour la SSO, voir [Mettre à jour les utilisateurs et utilisatrices pour la SSO](#update-your-users-for-sso).
+   Pour obtenir des instructions sur la mise à jour de vos utilisateurs et utilisatrices pour la SSO, voir [Mettre à jour vos utilisateurs et utilisatrices pour la SSO](#update-your-users-for-sso).

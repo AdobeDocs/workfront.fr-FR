@@ -55,7 +55,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td>
   </tr>  
  <tr>
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td>
    <td>
 <p>L’un des projets Workfront suivants est prévu :</p>
 <ul><li>Sélectionner</li>
@@ -218,7 +218,7 @@ Les utilisateurs disposant de n’importe quel type de licence Workfront peuvent
 
 <!--For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Accorder des autorisations
+## Octroyer des autorisations
 
 Vous devez accorder aux utilisateurs les autorisations d’accès aux espaces de travail et aux vues de la planification Workfront que vous créez pour qu’ils puissent y accéder.
 

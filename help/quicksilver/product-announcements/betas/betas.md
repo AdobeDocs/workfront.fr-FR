@@ -1,7 +1,7 @@
 ---
 navigation-topic: betas
-title: Programmes en version bêta
-description: Découvrez les versions bêta actuelles dans Adobe Workfront.
+title: Programmes bêta
+description: Découvrez les versions bêta actuelles d’Adobe Workfront.
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -13,9 +13,9 @@ ht-degree: 100%
 
 ---
 
-# Programmes en version bêta
+# Programmes bêta
 
-Les articles liés à cette page décrivent les programmes bêta actuels disponibles dans Adobe Workfront. Les fonctionnalités disponibles en version bêta peuvent ne pas être disponibles pour toutes les clientes et tous les clients.
+Les articles liés à cette page décrivent les programmes en version bêta actuels disponibles dans Adobe Workfront. Les fonctionnalités disponibles en version bêta peuvent ne pas être disponibles pour toutes les clientes et tous les clients.
 
 Les articles suivants contiennent des informations sur les fonctionnalités actuellement en version bêta :
 

@@ -25,23 +25,23 @@ Les sections suivantes décrivent comment mettre à jour vos métadonnées SAML 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,18 +68,18 @@ Par défaut, ADFS est configuré pour vérifier automatiquement les mises à jou
 1. Sélectionnez la partie de confiance que vous avez précédemment configurée pour être utilisée avec Workfront, puis, dans le panneau de droite, cliquez sur **Mettre à jour à partir des métadonnées de fédération**.
 1. (Le cas échéant) Si cette option est désactivée (ce qui signifie que la partie de confiance a été précédemment configurée à l’aide d’un fichier de métadonnées), procédez comme suit.
 
-   1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+   1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
 
    1. Cliquez sur **Système** > **Authentification unique (SSO)**.
 
    1. Cliquez sur **Modifier les paramètres**.
    1. Cliquez sur **Modifier la configuration**, puis sélectionnez **SAML 2.0** dans la liste déroulante **Type**.
 
-   1. Copiez l’**URL des métadonnées**, qui devrait ressembler à ce qui suit :
+   1. Copiez l’**URL des métadonnées**, qui doit ressembler à ce qui suit :
 
       `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
 
-   1. Sur le serveur ADFS, cliquez avec le bouton droit de la souris sur la partie de confiance que vous avez configurée précédemment, puis cliquez sur **Propriétés**.
+   1. Sur le serveur ADFS, cliquez avec le bouton droit sur la partie de confiance que vous avez configurée précédemment, puis cliquez sur **Propriétés**.
    1. Cliquez sur l’onglet **Surveillance**, puis collez l’URL que vous avez copiée depuis Workfront dans le champ **URL des métadonnées de fédération de la partie de confiance**.
 
    1. Cochez les options **Surveiller la partie de confiance** et **Mettre à jour automatiquement la partie de confiance**.
@@ -135,20 +135,20 @@ Pour forcer l’échange de métadonnées entre Workfront et votre fournisseur S
       1. Cliquez sur > **Système** > **Authentification unique (SSO)**.
       1. Cliquez sur **Modifier les paramètres**.
       1. Cliquez sur **Modifier la configuration**, puis sélectionnez **SAML 2.0** dans la liste déroulante **Type**.
-      1. Copiez l’**URL des métadonnées**, qui devrait ressembler à ce qui suit :
+      1. Copiez l’**URL des métadonnées**, qui doit ressembler à ce qui suit :
 
          `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
 
-   1. Sur le serveur ADFS, cliquez avec le bouton droit de la souris sur la partie de confiance que vous avez configurée précédemment, puis cliquez sur **Propriétés**.
+   1. Sur le serveur ADFS, cliquez avec le bouton droit sur la partie de confiance que vous avez configurée précédemment, puis cliquez sur **Propriétés**.
    1. Cliquez sur l’onglet **Surveillance**, puis collez l’URL que vous avez copiée depuis Workfront dans le champ **URL des métadonnées de fédération de la partie de confiance**.
    1. Cochez les options **Surveiller la partie de confiance** et **Mettre à jour automatiquement la partie de confiance**.
    1. Cliquez sur **OK**.
    1. Sélectionnez la partie de confiance que vous avez précédemment configurée pour être utilisée avec Workfront, puis dans le panneau de droite, cliquez sur **Mettre à jour à partir des métadonnées de fédération**.
 
-1. Cliquez sur **OK** pour ignorer le message indiquant que certains contenus des métadonnées de fédération ne sont pas pris en charge par ADFS 2.0.
+1. Cliquez sur **OK** pour ignorer le message indiquant que certains contenus des métadonnées de la fédération ne sont pas pris en charge par ADFS 2.0.
 1. Cliquez sur **Mettre à jour** pour terminer la mise à jour de vos métadonnées de fédération.
 
-Les personnes autorisées à accéder à Workfront via l’écran de connexion natif en utilisant les informations d’identification de Workfront (cela peut être configuré à partir de la page de profil de chaque personne dans la section **Accès**) peuvent se connecter en utilisant leur nom d’utilisateur ou d’utilisatrice et leur mot de passe Workfront en se rendant sur l’URL suivante : `https://<yourdomain>.my.workfront.com/Workfront/login.cmd`.
+Les personnes autorisées à accéder à Workfront via l’écran de connexion natif en utilisant les informations d’identification de Workfront (cela peut être configuré à partir de la page de profil de chaque personne dans la section **Accès**) peuvent se connecter en utilisant leur nom d’utilisateur ou utilisatrice et leur mot de passe Workfront en se rendant sur l’URL suivante : `https://<yourdomain>.my.workfront.com/Workfront/login.cmd`.
 
 ## Utiliser d’autres fournisseurs d’identité
 

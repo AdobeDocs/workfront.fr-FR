@@ -3,7 +3,7 @@ title: Supprimer utilisateurs
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: Lorsqu’un utilisateur quitte votre entreprise, peut le supprimer de Workfront. Nous vous recommandons toutefois de désactiver les utilisateurs au lieu de les supprimer.
+description: Lorsqu’une personne quitte votre entreprise, vous pouvez la supprimer de Workfront. Nous vous recommandons toutefois de désactiver les personnes au lieu de les supprimer.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
 source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 17%
+ht-degree: 95%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 17%
 >
 >La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à Adobe Business Platform. Si vous avez été intégré à Adobe Business Platform, vous devez supprimer des utilisateurs dans Adobe Admin Console.
 >
->Pour obtenir une liste des procédures qui diffèrent selon que votre organisation a été intégrée à Adobe Business Platform, voir [Différences d’administration en fonction de la plateforme (Adobe Workfront Fusion/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Pour obtenir une liste de procédures qui diffèrent selon que votre entreprise a été intégrée ou non à Adobe Business Platform, voir [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Lorsqu’un utilisateur quitte votre entreprise, vous pouvez le supprimer d’Adobe Workfront.
+Lorsqu’une personne quitte votre entreprise, vous pouvez la supprimer d’Adobe Workfront.
 
 >[!IMPORTANT]
 >
->La suppression d’un utilisateur du système supprime également les informations associées à l’utilisateur que vous souhaitez peut-être conserver. Il est recommandé de désactiver les utilisateurs au lieu de les supprimer. Pour plus d’informations, voir [Désactivation ou réactivation d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+>La suppression d’une personne du système entraîne également la suppression des informations associées que vous pourriez souhaiter conserver. Nous recommandons de désactiver les personnes plutôt que de les supprimer. Pour plus d’informations, voir [Désactiver ou réactiver un utilisateur ou une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 <!--
 >* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
@@ -50,19 +50,19 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès Administrateur ou administratrice système. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>. </p> </li> 
-     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Parmi ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être administrateur ou administratrice d’un groupe dont l’utilisateur est membre.</p> <p>Pour plus d’informations sur le paramètre <b>Utilisateurs et utilisatrices</b> dans un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. Pour plus d’informations, consultez <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès d’administration complet à un utilisateur ou une utilisatrice</a>. </p> </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Parmi ces deux options, si l’option <b>Administratrion des utilisateurs et utilisatrices (utilisateurs et utilisatrices du groupe)</b> est activée, vous devez être administrateur ou administratrice de groupes d’un groupe dont l’utilisateur ou l’utilisatrice est membre.</p> <p>Pour plus d’informations sur le paramètre <b>Utilisateurs et utilisatrices</b> dans un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -70,73 +70,73 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 +++
 
-## Suppression ou désactivation d’un utilisateur
+## Suppression ou désactivation d’une personne
 
-La désactivation d’un utilisateur entraîne les événements suivants :
+La désactivation d’une personne entraîne les événements suivants :
 
-* Supprime les licences de l’utilisateur pour Workfront et Workfront Proof si le composant Workfront Proof est associé à votre compte Workfront. Pour plus d’informations sur Workfront Proof, voir [Workfront Proof : article index](../../../workfront-proof/workfront-proof.md).
-* L’utilisateur ne peut plus se voir attribuer une tâche.
-* L’utilisateur ne peut plus être ajouté aux mises à jour.
-* L’utilisateur ne peut plus être ajouté à des équipes ou à des groupes.
-* Les objets ne peuvent plus être partagés avec l’utilisateur.
-* Leur association avec les objets suivants reste intacte :
+* Supprime les licences de l’utilisateur ou l’utilisatrice pour Workfront et Workfront Proof si le composant Workfront Proof est associé à votre compte Workfront. Pour plus d’informations sur Workfront Proof, voir [Workfront Proof : index des articles](../../../workfront-proof/workfront-proof.md).
+* La personne ne peut plus se voir affecter du travail.
+* La personne ne peut plus être ajoutée aux mises à jour.
+* La personne ne peut plus être ajoutée à des équipes ou à des groupes.
+* Les objets ne peuvent plus être partagés avec la personne.
+* Leur association avec les objets suivants reste intacte :
 
    * Tâches, problèmes, projets, portfolios
    * Tableaux de bord
 
      >[!NOTE]
      >
-     >Si vous désactivez un utilisateur et ne pouvez plus afficher les rapports ou les tableaux de bord associés à un utilisateur, vous devrez peut-être mettre à jour le champ **Exécuter ce rapport avec les droits d’accès de :** .\
-     >Pour en savoir plus, consultez la section [Pourquoi ne puis-je pas accéder à un rapport détenu par un utilisateur désactivé ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) de l’article [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) .
+     >Si vous désactivez une personne et ne pouvez plus afficher les rapports ou les tableaux de bord associés à une personne, vous devrez peut-être mettre à jour le champ **Exécuter ce rapport avec les droits d’accès suivants :**.\
+     >Pour en savoir plus, voir la section [Pourquoi ne puis-je pas accéder à un rapport détenu par une personne désactivée ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) de l’article [Questions fréquentes sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
    * Documents
    * Mises à jour
    * Heures
 
-* Si l’utilisateur a extrait des documents, les documents restent extraits lorsque vous les désactivez. Seul un administrateur Workfront peut les archiver à nouveau. Pour plus d’informations sur l’extraction de documents, voir [Extraction de documents](../../../documents/managing-documents/check-out-documents.md).
+* Si la personne a extrait des documents, les documents restent extraits lorsque vous les désactivez. Seul un administrateur ou une administratrice Workfront peut les réenregistrer. Pour plus d’informations sur l’extraction de documents, voir [Extraire des documents](../../../documents/managing-documents/check-out-documents.md).
 
-La suppression d’un utilisateur entraîne les événements suivants :
+La suppression d’une personne entraîne les événements suivants :
 
-* Supprime les licences de l’utilisateur pour Workfront et Workfront Proof, si le composant Workfront Proof est associé à votre compte Workfront. Pour plus d’informations sur Workfront Proof, voir [Workfront Proof : article index](../../../workfront-proof/workfront-proof.md).
-* L’utilisateur ne peut plus se voir attribuer une tâche.
-* L’utilisateur ne peut plus être ajouté aux mises à jour.
-* L’utilisateur ne peut plus être ajouté à des équipes ou à des groupes.
-* Les objets ne peuvent plus être partagés avec l’utilisateur.
-* Supprime l’association de cet utilisateur avec les objets suivants :
+* Supprime les licences de l’utilisateur ou de l’utilisatrice pour Workfront et Workfront Proof, si le composant Workfront Proof est associé à votre compte Workfront. Pour plus d’informations sur Workfront Proof, voir [Workfront Proof : index des articles](../../../workfront-proof/workfront-proof.md).
+* La personne ne peut plus se voir affecter du travail.
+* La personne ne peut plus être ajoutée aux mises à jour.
+* La personne ne peut plus être ajoutée à des équipes ou à des groupes.
+* Les objets ne peuvent plus être partagés avec la personne.
+* Supprime l’association de cette personne avec les objets suivants :
 
    * Tâches, problèmes, projets, portfolio
    * Tableaux de bord
 
      >[!NOTE]
      >
-     >Vous ne pouvez plus accéder aux sections personnalisées qui contenaient des tableaux de bord associés à l’utilisateur supprimé.\
-     >Pour en savoir plus, consultez le [Comment accéder à un tableau de bord contenant un rapport détenu par un utilisateur supprimé ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) de l’article [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) .
+     >Vous ne pouvez plus accéder aux sections personnalisées qui contenaient des tableaux de bord détenus par des personnes supprimées.\
+     >Pour en savoir plus, consultez la section [Comment accéder à un tableau de bord contenant un rapport détenu par une personne supprimée ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) de l’article [Questions fréquentes sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
    * Mises à jour
    * Heures
 
      >[!NOTE]
      >
-     >Ces objets restent dans Workfront, mais le propriétaire de l’objet est désormais vide.
+     >Ces objets restent dans Workfront mais la mention de leur personne propriétaire reste vide.
 
-* Si l’utilisateur a téléchargé des documents dans la zone Documents de la barre de navigation globale, les documents sont également supprimés.
-* Si l’utilisateur a extrait les documents qu’il possède et que les documents sont téléchargés dans la zone Documents principale (accessible à partir du menu principal), les documents sont supprimés avec l’utilisateur. Pour plus d’informations sur l’extraction de documents, voir [Extraction de documents](../../../documents/managing-documents/check-out-documents.md).
+* Lorsque des documents sont ajoutés à la section des documents de la barre de navigation globale par un utilisateur ou une utilisatrice, ils sont également supprimés.
+* Quand un utilisateur ou une utilisatrice extrait ses documents pour les charger dans la zone principale des documents, accessible par le menu principal, ces documents sont supprimés lors de la suppression de cet utilisateur ou de cette utilisatrice. Pour plus d’informations sur l’extraction de documents, consultez la section [Extraire des documents](../../../documents/managing-documents/check-out-documents.md).
 
-Pour plus d’informations sur la désactivation des utilisateurs, voir [Désactivation ou réactivation d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+Pour plus d’informations sur la désactivation des utilisateurs et des utilisatrices, consultez la section [Désactiver ou réactiver un utilisateur ou une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-Vous pouvez supprimer définitivement des utilisateurs un par un ou supprimer plusieurs utilisateurs simultanément. Lorsque vous supprimez des utilisateurs individuels, vous devez attendre que le processus de suppression soit terminé avant de passer à d’autres activités dans Workfront. Le processus de suppression simultanée de plusieurs utilisateurs s’exécute en arrière-plan, ce qui vous permet de continuer à utiliser Workfront lorsque les utilisateurs sont supprimés.
+Vous pouvez supprimer définitivement des utilisateurs et des utilisatrices soit séparément, soit simultanément. Lorsque vous supprimez des utilisateurs ou des utilisatrices séparément, vous devez attendre que le processus de suppression soit terminé avant de passer à d’autres activités dans Workfront. Vous pouvez continuer à travailler sur Workfront pendant que le système supprime simultanément plusieurs utilisateurs et utilisatrices en arrière-plan.
 
-## Suppression d’un ou plusieurs utilisateurs
+## Supprimer séparément ou simultanément des utilisateurs ou des utilisatrices
 
 {{step-1-to-users}}
 
-1. Sélectionnez au moins un utilisateur à supprimer, cliquez sur le menu Plus ![](assets/more-icon.png), puis sur **Supprimer**.
+1. Sélectionnez au moins un utilisateur ou une utilisatrice à supprimer, cliquez sur le menu « Plus » ![](assets/more-icon.png), puis cliquez sur **Supprimer**.
 1. Dans la zone qui s’affiche, cliquez sur **Supprimer** pour confirmer la suppression.
 
-   Le processus de suppression d’utilisateurs s’exécute en arrière-plan, de sorte que vous pouvez continuer à utiliser Workfront lorsque l’utilisateur ou les utilisateurs sont supprimés.
+   Le processus de suppression séparée ou simultanée s’exécute en arrière-plan, de sorte que vous pouvez continuer à utiliser Workfront lorsque la suppression s’effectue.
 
-   Selon le nombre d’utilisateurs que vous supprimez, le processus peut prendre plusieurs minutes, voire quelques heures.
+   Selon le nombre d’utilisateurs et d’utilisatrices que vous supprimez, le processus peut prendre plusieurs minutes, voire quelques heures.
 
-   Après avoir reçu la confirmation dans Workfront que les utilisateurs ont été supprimés, vous pouvez continuer à les voir dans le système jusqu’à ce que le processus de suppression soit terminé en arrière-plan.
+   Bien que Workfront vous informe de la réussite de la suppression des utilisateurs et des utilisatrices, il se peut que vous continuiez à les voir dans le système jusqu’à ce que le processus en arrière-plan soit entièrement finalisé.
 
-   Si vous découvrez ultérieurement qu’un ou plusieurs utilisateurs n’ont pas été supprimés, essayez de les supprimer un par un.
+   Si vous constatez plus tard que certaines suppressions n’ont pas été correctement effectuées, faites les séparément.

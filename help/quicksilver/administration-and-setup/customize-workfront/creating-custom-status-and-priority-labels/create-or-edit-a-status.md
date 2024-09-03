@@ -31,32 +31,32 @@ En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez cr�
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-     <p>Nouvelle : standard</p>
+     <p>Nouveau : Standard</p>
      <p>ou</p>
-     <p>Actuelle : formule</p>
+     <p>Actuel : formule</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p>  </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +68,7 @@ Lorsque vous créez un statut personnalisé pour l’ensemble de l’organisatio
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Préférences du projet**> **Statuts**.
+1. Dans le panneau de gauche, cliquez sur **Préférences du projet** > **Statuts**.
 
 1. (Le cas échéant) Si vous créez ou modifiez un statut destiné à être utilisé à l’échelle du système, assurez-vous que l’option **Statuts du système** est sélectionnée dans la zone située dans le coin supérieur droit.
 
@@ -80,7 +80,7 @@ Lorsque vous créez un statut personnalisé pour l’ensemble de l’organisatio
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâche** ou **Problèmes**) que vous souhaitez associer au statut.
+1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâche**, ou **Problèmes**) que vous souhaitez associer au statut.
 
 1. Si vous créez un statut, cliquez sur **Ajouter un nouveau statut**.
 
@@ -98,33 +98,33 @@ Lorsque vous créez un statut personnalisé pour l’ensemble de l’organisatio
     <tbody> 
      <tr> 
       <td role="rowheader">Nom du statut</td> 
-      <td> <p>Saisissez un nom pour ce modèle. Il s’agit d’un champ obligatoire.</p> <p>Lorsque vous créez un nom de statut, tenez compte du faut que d’autres personnes du système peuvent créer un statut homographe. Il est recommandé d’utiliser un nom unique afin d’éviter toute confusion lors de la sélection de statuts dans Workfront.</p> </td> 
+      <td> <p>Saisissez le nom du statut. Champ obligatoire.</p> <p>Lorsque vous créez un nom de statut, sachez que d’autres utilisateurs et utilisatrices du système peuvent créer un statut portant le même nom. Il est recommandé d’utiliser un nom unique afin d’éviter toute confusion lors de la sélection de statuts dans Workfront.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
-      <td>(Facultatif) Fournissez une description du statut. Les personnes qui l’utilisent seront ainsi informées de sa finalité.</td> 
+      <td>(Facultatif) Saisissez une description du statut. Cette action communique sa fonctionnalité aux personnes qui l’utilisent.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Couleur</td> 
-      <td> <p>Personnalisez la couleur du statut en cliquant sur le champ de couleur et en sélectionnant une couleur dans le panneau d’échantillon. Vous pouvez également saisir un nombre hexadécimal dans le champ.</p> <p>La couleur de statut s’affiche dans le coin supérieur droit de Workfront lorsqu’une personne affiche l’objet.</p> <img src="assets/status-color.png" style="width: 350;height: 211;"> </p> </td> 
+      <td> <p>Personnalisez la couleur du statut en cliquant sur le champ de couleur et en sélectionnant une couleur dans le panneau d’échantillons. Vous pouvez également saisir un nombre hexadécimal dans le champ.</p> <p>La couleur du statut est visible dans le coin supérieur droit de Workfront lorsqu’un utilisateur ou une utilisatrice affiche l’objet.</p> <img src="assets/status-color.png" style="width: 350;height: 211;"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Équivaut à</td> 
-      <td> <p>Sélectionnez l’une des options de la liste qui décrit le mieux la fonction du statut. Par exemple, si le nom du statut est Terminé, l’option à laquelle il correspond doit être Terminé.</p> <p>Chaque statut doit correspondre à l’une de ces options, car cela détermine le fonctionnement du statut.</p> <p>Cette option ne peut pas être modifiée une fois le statut créé.</p> </td> 
+      <td> <p>Sélectionnez l’une des options de la liste qui décrit le mieux la fonction du statut. Par exemple, si le nom du statut est Terminé, l’option à laquelle il correspond doit être Terminé.</p> <p>Chaque statut doit correspondre à l’une de ces options, car celles-ci déterminent le fonctionnement du statut.</p> <p>Cette option ne peut pas être modifiée une fois le statut créé.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Clé</td> 
-      <td> <p>Si vous créez un statut, saisissez un code ou une abréviation pour le statut ou utilisez celui généré pour vous. Cette clé doit être unique dans Workfront, car elle peut être utilisée à des fins de création de rapports. Si vous essayez de spécifier une clé déjà utilisée dans le système, le champ devient rouge.</p> <p>Il peut s’avérer utile d’utiliser une abréviation reconnaissable par les personnes qui l’utiliseront.</p> <p>Cette option ne peut pas être modifiée une fois le statut créé.</p> <p>Vous ne pouvez pas modifier le code clé des statuts Planification, En cours et Terminé. Tenez-en compte lorsque vous créez un rapport en mode texte.</p> </td> 
+      <td> <p>Si vous créez un statut, saisissez un code ou une abréviation pour le statut ou utilisez celui généré pour vous. Cette clé doit être unique dans Workfront, car elle peut être utilisée à des fins de création de rapports. Si vous essayez de spécifier une clé déjà utilisée dans le système, le champ devient rouge.</p> <p>Il peut s’avérer utile d’utiliser une abréviation facilement reconnaissable pour les personnes qui l’utiliseront.</p> <p>Cette option ne peut pas être modifiée une fois le statut créé.</p> <p>Vous ne pouvez pas modifier le code clé des statuts Planification, Actuel et Terminé. Prenez cela en compte lorsque vous créez un rapport en mode texte.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Masquer le statut</td> 
-      <td> <p>(Statuts des projets et des tâches uniquement)</p> <p>Activez cette option si vous souhaitez que l’état soit masqué aux utilisateurs et utilisatrices. Lorsque cette option est désactivée (paramètre par défaut), l’ensemble des utilisateurs et utilisatrices du système peuvent utiliser le statut.</p> <p>Vous pouvez masquer le statut d’un problème en désactivant cette option pour les 4 types de problèmes (rapport de bug, ordre de modification, problème, demande).</p> </td> 
+      <td> <p>(Statuts des projets et des tâches uniquement)</p> <p>Activez cette option si vous souhaitez que le statut soit masqué aux utilisateurs et utilisatrices. Lorsque cette option est désactivée (paramètre par défaut), tous les utilisateurs et toutes les utilisatrices du système peuvent utiliser le statut.</p> <p>Vous pouvez masquer le statut d’un problème en désactivant cette option pour les 4 types de problèmes (rapport de bug, ordre de modification, problème, demande).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verrouiller pour tous les groupes</td> 
       <td>
        <p>Lorsqu’un statut est verrouillé, les personnes de l’ensemble du système peuvent le voir et l’utiliser et les administrateurs et administratrices de groupe ne peuvent pas le personnaliser pour leurs groupes.</p> 
-       <p>Lorsqu’un statut est déverrouillé, les administrateurs et administratrices de groupes peuvent le personnaliser pour leurs groupes individuels.</p>
+       <p>Lorsqu’un statut est déverrouillé, les administrateurs et administratrices de groupe peuvent le personnaliser pour leurs groupes individuels.</p>
 
    <div>
        <p>Vous pouvez utiliser les statuts verrouillés et déverrouillés dans le cadre d’un processus d’approbation de système. Si vous créez un processus d’approbation de système avec un statut déverrouillé, les utilisateurs et utilisatrices dans tout le système peuvent associer le processus d’approbation à n’importe quel objet (projet, tâche ou problème) du système.</p>
@@ -134,7 +134,7 @@ Lorsque vous créez un statut personnalisé pour l’ensemble de l’organisatio
        <li>Une personne commence à modifier un processus d’approbation qui utilise le statut déverrouillé. Un message l’avertit du statut déverrouillé afin qu’elle puisse déterminer s’il est préférable de le reverrouiller ou de le remplacer.</li>
        <li>Un processus d’approbation au niveau du système avec un statut déverrouillé est associé à un objet et le statut a été supprimé pour le groupe affecté à l’objet. Lorsqu’une personne membre du groupe accède à la section Approbations de l’objet, un message explique que le processus d’approbation ne peut pas être lancé pour l’objet.</li>
        </ul>
-       <p>Pour plus d’informations sur le verrouillage des statuts, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Statuts verrouillés et déverrouillés au niveau du système</a>.</p>
+       <p>Pour plus d’informations sur les statuts de verrouillage, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Statuts verrouillés et déverrouillés au niveau du système</a>.</p>
        </div>
       </td>
      </tr> 
@@ -143,6 +143,6 @@ Lorsque vous créez un statut personnalisé pour l’ensemble de l’organisatio
 
 1. Cliquer sur **Enregistrer**.
 
-   Pour plus d’informations sur la définition de ce statut comme statut par défaut, voir [Utiliser des statuts personnalisés comme statuts par défaut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+   Pour savoir comment faire de ce statut un statut par défaut, voir [Utiliser des statuts personnalisés comme statuts par défaut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
-Pour plus d’informations sur la réorganisation des statuts de groupes, voir [Réorganiser les statuts de groupes et à l’échelle du système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+Pour plus d’informations sur la réorganisation des statuts de groupe, voir [Réorganiser les statuts au niveau du système et des groupes](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).

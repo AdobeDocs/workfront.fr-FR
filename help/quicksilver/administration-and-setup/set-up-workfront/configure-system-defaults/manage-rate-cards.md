@@ -11,7 +11,7 @@ exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
 source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 {{highlighted-preview-article-level}}
 
-Les cartes tarifaires vous permettent de définir plusieurs taux de facturation par rôle, en fonction de l’emplacement. Vous pourriez avoir un concepteur basé à Paris et un second basé à New York, chacun ayant des des taux de facturation différents. L’emplacement n’est toutefois pas requis pour les fonctions sur une carte tarifaire. Un taux de facturation pour une fonction (et éventuellement un emplacement) sur une carte tarifaire peut également inclure des dates d’entrée en vigueur.
+Les cartes tarifaires vous permettent de définir plusieurs taux de facturation par rôle, en fonction de l’emplacement. Vous pourriez par exemple avoir une fonction de concepteur ou conceptrice basé à Paris et une seconde fonction de concepteur ou conceptrice basé à New York, avec des taux de facturation différents chacun. Toutefois, il n’est pas nécessaire d’indiquer un emplacement pour les fonctions figurant sur une carte tarifaire. Un taux de facturation pour une fonction (et éventuellement un emplacement) sur une carte tarifaire peut également inclure des dates d’entrée en vigueur.
 
 ## Conditions d’accès
 
@@ -33,7 +33,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>N’importe quelle</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
@@ -43,12 +43,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>    
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Modifier l’accès aux [!UICONTROL Financial Data]</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice de [!DNL Workfront] s’il ou elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour plus d’informations sur la manière dont un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux [!UICONTROL Financial Data]</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas accès, demandez à la personne administratrice [!DNL Workfront] si elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour plus d’informations sur la manière dont un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Pour modifier une carte tarifaire partagée avec vous, vous devez disposer des autorisations Gérer sur la carte tarifaire.</td> 
+   <td>Pour modifier une carte tarifaires partagée avec vous, vous devez disposer des autorisations Gérer sur la carte tarifaire.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,23 +72,23 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Le taux de facturation par défaut affiche le taux au niveau du système pour cette fonction, le cas échéant.
 
-   ![Boîte de dialogue Nouveau taux de facturation](assets/location-rate-for-rate-card.png)
+   ![Boîte de dialogue du nouveau taux de facturation](assets/location-rate-for-rate-card.png)
 
 1. Sélectionnez une [!UICONTROL **Devise**] pour la fonction.
-1. (Facultatif) Sélectionnez une [!UICONTROL **Emplacement**] pour la fonction.
-1. Dans le champ [!UICONTROL **Taux de facturation 1**], saisissez le taux de facturation de cet emplacement. Cliquez ensuite sur [!UICONTROL **Enregistrer**] pour remplacer le taux de facturation une fois.
+1. (Facultatif) Sélectionnez un [!UICONTROL **Emplacement**] pour la fonction.
+1. Dans le champ [!UICONTROL **Taux de facturation 1**], saisissez le taux de facturation pour l’emplacement. Cliquez ensuite sur [!UICONTROL **Enregistrer**] pour remplacer une fois le taux de facturation.
 
    Ou
 
-   Cliquez sur [!UICONTROL **Ajouter des taux**] pour ajouter d’autres taux de facturation spécifiques à un emplacement avec des dates d’entrée en vigueur.
+   Cliquez sur [!UICONTROL **Ajouter un taux**] pour ajouter d’autres taux de facturation spécifique à l’emplacement avec des dates de validité.
 
-1. (Conditionnel) Si vous ajoutez plusieurs taux de facturation pour cet emplacement, saisissez les informations suivantes :
+1. (Le cas échéant) Si vous ajoutez plusieurs taux de facturation pour cet emplacement, saisissez les informations suivantes :
 
-   * **[!UICONTROL Taux de facturation 1], 2, etc.:** La valeur du taux de facturation pour la période.
-   * **[!UICONTROL Date de début] :** la date à laquelle le remplacement de taux commence.
-   * **[!UICONTROL Date de fin] :** la date à laquelle le remplacement de taux se termine.
+   * **[!UICONTROL Taux de facturation 1], 2, etc.** : valeur du taux de facturation pour la période.
+   * **[!UICONTROL Date de début] :** date à laquelle le remplacement de taux commence.
+   * **[!UICONTROL Date de fin] :** date à laquelle le remplacement de taux se termine.
 
-     Le taux de facturation 1 ne comporte pas de date de début et le dernier taux de facturation n’a pas de date de fin. Certaines dates sont ajoutées automatiquement. Par exemple, si le taux de facturation 1 n’a pas de date de fin et que vous ajoutez le taux de facturation 2 avec une date de début le 1er mai 2023, une date de fin le 30 avril 2023 est ajoutée au taux de facturation 1 afin qu’il n’y ait pas d’écart.
+     Le taux de facturation 1 ne comporte pas de date de début de validité et le dernier taux de facturation n’a pas de date de fin de validité. Certaines dates sont ajoutées automatiquement. Par exemple, si le taux de facturation 1 ne comporte pas de date de fin de validité et que vous ajoutez le taux de facturation 2 avec une date de début de validité le 1er mai 2023, une date de fin de validité au 30 avril 2023 est ajoutée au taux de facturation 1 afin qu’il n’y ait pas d’écart.
 
 1. Cliquer sur [!UICONTROL **Enregistrer**].
 1. (Facultatif) Pour ajouter un autre taux de facturation, soit pour la même fonction à un autre emplacement, soit pour une fonction distincte, cliquez sur [!UICONTROL **Ajouter fonction**].

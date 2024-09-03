@@ -3,7 +3,7 @@ title: Accorder l’accès aux documents
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
-description: En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’un utilisateur aux documents dans Workfront.
+description: En tant que personne membre de l’administration Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’un utilisateur ou d’une utilisatrice aux documents dans Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -11,53 +11,53 @@ exl-id: ba1d9a9b-7a1f-498b-a6e5-c548a11ac87c
 source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 13%
+ht-degree: 99%
 
 ---
 
 # Accorder l’accès aux documents
 
-En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’un utilisateur aux documents, comme expliqué dans la [présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+En tant que personne membre de l’administration Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’un utilisateur ou d’une utilisatrice aux documents, comme expliqué dans [Vue d’ensemble des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Cet accès s’applique également aux dossiers de documents.
 
-Pour plus d’informations sur l’utilisation de niveaux d’accès personnalisés pour gérer l’accès des utilisateurs à d’autres types d’objets dans Workfront, voir [Création ou modification de niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Pour plus d’informations sur l’utilisation de niveaux d’accès personnalisés pour gérer l’accès des personnes à d’autres types d’objets dans Workfront, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.&gt;.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.&gt;.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires ont été configurées pour votre niveau d’accès. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Configurer l’accès des utilisateurs aux documents à l’aide d’un niveau d’accès personnalisé
+## Configurer l’accès des utilisateurs et des utilisatrices aux documents à l’aide d’un niveau d’accès personnalisé
 
-1. Commencez à créer ou modifier le niveau d&#39;accès, comme expliqué dans la section [Créer ou modifier des niveaux d&#39;accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Cliquez sur l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton **Afficher** ou **Modifier** à droite de Documents, puis sélectionnez les fonctionnalités que vous souhaitez accorder sous **Ajuster vos paramètres**.
+1. Commencez à créer ou à modifier le niveau d’accès, comme expliqué dans la section [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Cliquez sur l’icône en forme d’engrenage ![](assets/gear-icon-settings.png) sur le bouton **Afficher** ou **Modifier** à droite de la section des documents, puis sélectionnez les capacités que vous souhaitez accorder sous **Ajuster vos paramètres**.
 
    ![document_access.png](assets/document-access.png)
 
-   Vous pouvez permettre aux utilisateurs d’effectuer les opérations suivantes sur les projets, tâches et problèmes auxquels ils ont accès :
+   Vous pouvez autoriser les utilisateurs et les utilisatrices à effectuer les opérations suivantes sur les projets, les tâches et les problèmes pour lesquels les droits d’accès leur ont été accordés :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,26 +65,26 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <tbody> 
      <tr> 
       <td role="rowheader">Créer</td> 
-      <td>Télécharger des documents.</td> 
+      <td>Charger des documents.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Supprimer</td> 
-      <td> <p>Supprimez les documents téléchargés.</p> <p>L’option <b>Créer</b> est activée automatiquement lorsque cette option est activée.</p> </td> 
+      <td> <p>Supprimer des documents chargés.</p> <p>L’option <b>Créer</b> est automatiquement activée lorsque cette option est activée.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Partager</td> 
-      <td>Partagez des documents avec des utilisateurs, des rôles de tâche et des équipes spécifiques.</td> 
+      <td>Partager des documents avec des utilisateurs et des utilisatrices, des fonctions et des équipes spécifiques.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Partager les documents publiquement</td> 
-      <td>Partagez des documents avec des utilisateurs externes (sans licence Workfront).</td> 
+      <td>Partager des documents avec des utilisateurs et des utilisatrices externes (sans licence Workfront).</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Partager sur le système</td> 
-      <td> <p>Mettez les documents à la disposition de tous dans votre instance Workfront.</p> <p>Tout le monde dans le système peut voir un document partagé de cette manière si :</p> 
+      <td> <p>Mettez les documents à la disposition de tous les utilisateurs et de toutes les utilisatrices de votre instance Workfront.</p> <p>Toute personne dans le système peut voir un document partagé de cette manière si les conditions suivantes sont remplies :</p> 
        <ul> 
-        <li> <p>Vous leur envoyez un lien vers la page Documents où il est téléchargé.</p> </li> 
-        <li> <p>Ils la recherchent dans Workfront</p> </li> 
+        <li> <p>Vous lui envoyez un lien vers la page des documents où il est chargé.</p> </li> 
+        <li> <p>Elle le recherche dans Workfront.</p> </li> 
        </ul> <p>L’option <b>Partager</b> est automatiquement activée lorsque cette option est activée.</p> </td> 
      </tr> 
     </tbody> 
@@ -92,21 +92,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!NOTE]
    >
-   >Lorsque vous configurez un paramètre de niveau d’accès pour un certain type d’objet, cette configuration n’affecte pas l’accès des utilisateurs aux objets de rang inférieur. Par exemple, vous pouvez empêcher les utilisateurs de supprimer des projets de niveau d’accès, mais cela ne les empêche pas de supprimer des documents, qui sont de rang inférieur à des projets. Pour plus d’informations sur la hiérarchie des objets, reportez-vous à la section [Interdépendance et hiérarchie des objets](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) de l’article [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   >Lorsque vous configurez un niveau d’accès pour un certain type d’objet, cette configuration n’affecte pas l’accès des utilisateurs et utilisatrices aux objets de rang inférieur. Par exemple, vous pouvez interdire aux utilisateurs et aux utilisatrices de supprimer des projets dans leur niveau d’accès, mais cela ne les empêche pas de supprimer des documents dont le rang est inférieur à celui des projets. Pour plus d’informations sur la hiérarchie des objets, consultez la section [Interdépendance et hiérarchie des objets](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) dans l’article [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-1. (Facultatif) Pour restreindre les autorisations héritées pour les documents provenant d’objets de rang supérieur, cliquez sur **Définir des restrictions supplémentaires**, puis sélectionnez **Ne jamais hériter de l’accès aux documents des projets, tâches, problèmes, etc**.
-1. (Facultatif) Pour configurer les paramètres d’accès pour d’autres objets et zones du niveau d’accès sur lequel vous travaillez, passez à l’un des articles répertoriés dans [Configurer l’accès à Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), tels que [Accorder l’accès aux tâches](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) et [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Facultatif) Pour restreindre les autorisations héritées des objets de rang supérieur pour les documents, cliquez sur **Définir des restrictions supplémentaires**, puis sélectionnez **Ne jamais hériter l’accès aux documents depuis des projets, des tâches, des problèmes, etc.**.
+1. (Facultatif) Pour configurer les paramètres d’accès d’autres objets et domaines dans le niveau d’accès sur lequel vous travaillez, consultez l’un des articles listés dans [Configurer l’accès à Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), comme [Autoriser l’accès aux tâches](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) et [Autoriser l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Lorsque vous avez terminé, cliquez sur **Enregistrer**.
 
-   Une fois le niveau d’accès créé, vous pouvez l’affecter à un utilisateur. Pour plus d’informations, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Une fois le niveau d’accès créé, vous pouvez l’attribuer à un utilisateur ou à une utilisatrice. Pour plus d’informations, consultez la section [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-## Accès aux documents par type de licence
+## Accéder aux documents par type de licence
 
-Pour plus d’informations sur ce que les utilisateurs de chaque niveau d’accès peuvent faire avec les documents, reportez-vous à la section [Documents](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#document) de l’article [Fonctionnalité disponible pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Pour plus d’informations sur ce que les utilisateurs et les utilisatrices de chaque niveau d’accès peuvent faire avec les documents, consultez la section [Documents](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#document) dans l’article [Fonctionnalités disponibles pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
-## Accès aux documents partagés
+## Accéder aux documents partagés
 
-Après avoir téléchargé un document vers Workfront, vous pouvez le partager avec d’autres utilisateurs en leur accordant des autorisations, comme expliqué dans la section [Partager un document](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+Après avoir chargé un document dans Workfront, vous pouvez le partager avec d’autres utilisateurs et utilisatrices en leur en accordant l’accès, comme expliqué dans [Partager un document](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
 
 <!--
 If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:
@@ -115,7 +115,7 @@ If you make changes here, make them also in the "Grant access to" articles where
 * issue
 -->
 
-Lorsque vous partagez un objet avec un autre utilisateur, les droits du destinataire le concernant sont déterminés par une combinaison de deux éléments :
+Lorsque vous partagez un objet avec un autre utilisateur ou une autre utilisatrice, les droits des personnes destinataires sur cet objet sont déterminés par une combinaison de deux éléments :
 
-* Autorisations que vous accordez à votre destinataire pour l’objet
-* Paramètres du niveau d&#39;accès du destinataire pour le type d&#39;objet
+* Les autorisations que vous accordez à votre personne destinataire pour l’objet.
+* Les paramètres du niveau d’accès des personnes destinataires pour le type d’objet.

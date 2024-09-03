@@ -9,7 +9,7 @@ exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
 source-git-commit: 20e8d45264f9441d9576c7d4d5521e4f6053a7f3
 workflow-type: tm+mt
 source-wordcount: '973'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -38,7 +38,7 @@ Les méthodes HTTP standard correspondent aux opérations suivantes :
 
 * **GET** - Récupère un objet par identifiant, recherche tous les objets par une requête
 * **POST** - Insère un nouvel objet.
-* **PUT** - Modifiie un objet existant.
+* **PUT** - Modifie un objet existant.
 * **DELETE** - Supprime un objet.
 
 Pour plus d’informations et d’exemples sur chaque opération, consultez la [documentation destinée aux développeurs de l’API de planification Workfront](https://developer.adobe.com/wf-planning/).
@@ -188,9 +188,9 @@ Vous trouverez ci-dessous la liste des types de champ pris en charge et les modi
 
 | Type de champ | Modificateurs de recherche pris en charge |
 |---|---|
-| text | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
+| Texte | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
 | long-text | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
-| nombre | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
+| Nombre | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
 | pourcentage | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
 | currency | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
 | Date | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
@@ -265,7 +265,7 @@ Dans l’appel API, vous pouvez avoir des filtres qui sont basés sur plusieurs 
 
 ### Utilisation du paramètre de requête de champs
 
-Vous pouvez utiliser le paramètre de requête de champs pour spécifier une liste de champs spécifiques séparés par des virgules qui doivent être renvoyés. Ces noms de champ sont sensibles à la casse.
+Vous pouvez utiliser le paramètre de requête de champs pour spécifier une liste de champs spécifiques séparés par des virgules qui doivent être renvoyés. Les noms de ces champs sont sensibles à la casse.
 
 Par exemple, la requête
 
@@ -293,7 +293,7 @@ Par exemple, la requête
 ....
 ```
 
-renvoie une réponse similaire à celle-ci :
+renvoie une réponse similaire à la suivante :
 
 
 ```

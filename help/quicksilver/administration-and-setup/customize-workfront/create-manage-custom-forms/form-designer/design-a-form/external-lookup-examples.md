@@ -32,8 +32,8 @@ Vous pouvez utiliser la recherche externe pour importer les données de votre in
 Cet exemple montre comment appeler l’API Workfront et importer les données du champ existant &quot;Requête d’état&quot; dans votre champ de recherche externe.
 
 1. Ouvrez le formulaire personnalisé.
-1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites-le glisser vers une section de la zone de travail.
-1. Saisissez le **libellé** et le **nom** pour le champ.
+1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites glisser le champ vers une section du canevas.
+1. Saisissez l’**étiquette** et le **nom** pour le champ.
 1. Sélectionnez le **format** pour le champ.
 1. Saisissez l’appel à l’URL de l’API dans le champ **URL API de base**.
 
@@ -43,13 +43,13 @@ Cet exemple montre comment appeler l’API Workfront et importer les données du
    **Exemple**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
 
-1. Examinez les **dépendances** des champs que ce champ de recherche référence dans l’API.
+1. Consultez le site **Dépendances** pour connaître les champs auxquels ce champ de recherche fait référence dans l’API.
 
    Un champ de dépendance peut être n’importe quel champ personnalisé ou natif existant dans la page de détails de l’objet.
 
-   Dans cet exemple, `{DE:StatusQuery}` sera remplacé par la valeur du champ personnalisé StatusQuery.
+   Dans cet exemple, le site `{DE:StatusQuery}` sera remplacé par la valeur du champ personnalisé StatusQuery.
 
-1. Sélectionnez la **méthode HTTP**.
+1. Sélectionnez la **méthode HTTP** .
 
    Il s’agira le plus souvent de **Get**.
 
@@ -64,7 +64,7 @@ Cet exemple montre comment appeler l’API Workfront et importer les données du
 
 1. Cliquez sur **Appliquer**.
 
-   ![Configuration d’un appel API vers Workfront dans un formulaire personnalisé](assets/external-lookup-to-workfront.png)
+   ![Mettre en place un appel API vers Workfront dans un formulaire personnalisé](assets/external-lookup-to-workfront.png)
 
    Lorsque le formulaire personnalisé est ajouté à un objet Workfront (dans cet exemple, un projet), il ressemble à ceci.
 
@@ -77,19 +77,19 @@ Cet exemple montre comment appeler l’API Workfront et importer les données du
 Cet exemple vous montre comment appeler l’API Workfront et importer les données d’un champ personnalisé dans votre champ de recherche externe. L’exemple de champ personnalisé est appelé &quot;Couleurs personnalisées&quot;.
 
 1. Ouvrez le formulaire personnalisé.
-1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites-le glisser vers une section de la zone de travail.
-1. Saisissez le **libellé** et le **nom** pour le champ.
+1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites glisser le champ vers une section du canevas.
+1. Saisissez l’**étiquette** et le **nom** pour le champ.
 1. Sélectionnez le **format** pour le champ.
 1. Saisissez l’appel à l’URL de l’API dans le champ **URL API de base**.
 
    **Exemple**
    `$$HOST/attask/api/v18.0/PORT/search?ID={portfolioID}&fields=parameterValues`
 
-1. Examinez les **dépendances** des champs que ce champ de recherche référence dans l’API.
+1. Consultez le site **Dépendances** pour connaître les champs auxquels ce champ de recherche fait référence dans l’API.
 
    Un champ de dépendance peut être n’importe quel champ personnalisé ou natif existant dans la page de détails de l’objet.
 
-1. Sélectionnez la **méthode HTTP**.
+1. Sélectionnez la **méthode HTTP** .
 
    Il s’agira le plus souvent de **Get**.
 
@@ -126,12 +126,12 @@ Vous pouvez utiliser la recherche externe pour appeler une API publique externe 
 Cet exemple montre comment appeler une API de pays (telle que <https://api.first.org/data/v1/countries>) afin de ne pas avoir à coder en dur tous les noms de pays dans les options de la liste déroulante.
 
 1. Ouvrez le formulaire personnalisé.
-1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites-le glisser vers une section de la zone de travail.
-1. Saisissez le **libellé** et le **nom** pour le champ.
+1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites glisser le champ vers une section du canevas.
+1. Saisissez l’**étiquette** et le **nom** pour le champ.
 1. Sélectionnez le **format** pour le champ.
 1. Saisissez l’appel à l’URL de l’API dans le champ **URL API de base**.
 
-   * Vous pouvez ajouter $$QUERY pour mettre en œuvre le filtrage des requêtes pour vos utilisateurs et utilisatrices finaux.
+   * Vous pouvez ajouter $$QUERY pour mettre en œuvre le filtrage des requêtes pour vos utilisateurs finaux et utilisatrices finales.
 
    **Exemples**
 Liste de tous les pays : <https://api.first.org/data/v1/countries>
@@ -143,7 +143,7 @@ Liste de tous les pays : <https://api.first.org/data/v1/countries>
    * Les régions disponibles sont définies dans un champ personnalisé distinct dans Workfront.
    * Lorsque l’utilisateur sélectionne une région sur le formulaire, le champ de recherche externe affiche uniquement les pays de cette région (le pays dans lequel la région est définie dans l’API). La personne peut également rechercher un pays dans la région sélectionnée.
 
-1. Examinez les **dépendances** des champs que ce champ de recherche référence dans l’API.
+1. Consultez le site **Dépendances** pour connaître les champs auxquels ce champ de recherche fait référence dans l’API.
 
    Un champ de dépendance peut être n’importe quel champ personnalisé ou natif existant dans la page de détails de l’objet.
 
@@ -155,28 +155,28 @@ Liste de tous les pays : <https://api.first.org/data/v1/countries>
 
 1. Saisissez le **chemin JSON** pour obtenir les résultats de votre appel API.
 
-   Cette option permet d’extraire des données du code JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du fichier JSON, apparaîtront dans les options de liste déroulante.
+   Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs du JSON qui apparaîtront dans les options de la liste déroulante.
 
    **Exemple**
    `$.data[*].country`
 
-1. (Facultatif) Cliquez sur **Ajouter un en-tête** et saisissez ou collez la paire clé-valeur requise pour l’authentification avec l’API.
+1. (Facultatif) Cliquez sur **Ajouter un en-tête**, et saisissez ou collez la paire clé-valeur requise pour l’authentification avec l’API.
 
    >[!NOTE]
    >
-   >Les champs de l’en-tête ne sont pas un endroit sûr pour stocker des informations d’identification et vous devez faire attention à ce que vous saisissez et enregistrez.
+   >Les champs de l’en-tête ne sont pas un endroit sûr pour stocker des informations d’identification, et vous devez faire attention à ce que vous saisissez et enregistrez.
 
 1. (Facultatif) Sélectionnez **Menu déroulant multi-sélection** pour permettre à la personne de sélectionner plusieurs valeurs dans la liste déroulante.
 
 1. Cliquez sur **Appliquer**.
 
-   ![Configurer un appel API à l’API publique dans un formulaire personnalisé](assets/external-lookup-to-api-for-countries.png)
+   ![Configurer un appel API à l’API public dans un formulaire personnalisé](assets/external-lookup-to-api-for-countries.png)
 
    Lorsque le formulaire personnalisé est ajouté à un objet Workfront (dans cet exemple, un projet), il ressemble à ceci.
 
    ![Formulaire personnalisé avec champ de recherche externe](assets/external-lookup-countries-example1.png)
 
-   ![Options de recherche externe d’un pays en fonction de sa région](assets/external-lookup-countries-example2.png)
+   ![Options de recherche externe pour un pays en fonction de la zone géographique](assets/external-lookup-countries-example2.png)
 
 ## Cas d’utilisation supplémentaires pour les champs de recherche externes
 

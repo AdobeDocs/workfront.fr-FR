@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-description: Vous pouvez utiliser l’état d’un problème pour montrer aux utilisateurs du système à quel stade de développement un problème se trouve à un moment donné.
+description: Vous pouvez utiliser le statut d’un problème pour montrer à quel stade de développement il se trouve à un moment donné.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -12,64 +12,64 @@ exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
 source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '1467'
-ht-degree: 4%
+ht-degree: 99%
 
 ---
 
-# Accéder à la liste des statuts des problèmes système
+# Accéder à la liste des statuts des problèmes du système
 
-Vous pouvez utiliser l’état d’un problème pour montrer aux utilisateurs du système à quel stade de développement un problème se trouve à un moment donné.
+Vous pouvez utiliser le statut d’un problème pour montrer à quel stade de développement il se trouve à un moment donné.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Accès aux statuts des problèmes
+## Accéder aux statuts des problèmes
 
-Vous pouvez accéder aux états des problèmes au niveau du système et les modifier. Vous pouvez modifier des informations sur les états système par défaut ou créer de nouveaux états personnalisés. Pour plus d’informations sur la création d’états personnalisés ou la modification des états du système, voir [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Vous pouvez accéder aux statuts des problèmes au niveau du système et les modifier. Vous pouvez modifier certaines informations sur les statuts système par défaut ou créer de nouveaux statuts personnalisés. Pour plus d’informations sur la création de statuts personnalisés ou la modification de statuts système, voir la section [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-Pour accéder aux états de problème au niveau du système :
+Pour accéder aux statuts des problèmes au niveau du système :
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Préférences du projet** > **États**.
+1. Cliquez sur **Préférences du projet** > **Statuts**.
 
-1. Cliquez sur l’onglet **Problèmes** pour afficher les états des problèmes disponibles dans Workfront.
+1. Cliquez sur l’onglet **Problèmes** pour voir les statuts des problèmes disponibles dans Workfront.
 
    ![](assets/issue-status.png)
 
-## Statuts des problèmes système
+## Statuts des problèmes du système
 
-Workfront est fourni avec 10 statuts de problème originaux. Les 4 premiers du tableau ci-dessous sont obligatoires, ce qui signifie que vous pouvez les déverrouiller, les renommer et les réorganiser, mais vous ne pouvez pas les masquer ni les supprimer.
+Workfront est livré avec 10 statuts de problèmes initiaux. Les quatre premiers du tableau ci-dessous sont obligatoires, ce qui signifie que vous pouvez les déverrouiller, les renommer et les réorganiser, mais ni les masquer ni les supprimer.
 
-Vous pouvez ajouter des états de problème personnalisés pour répondre aux besoins de votre entreprise. Pour plus d’informations, voir [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Vous pouvez ajouter des statuts de problème personnalisés pour répondre aux besoins de votre organisation. Pour plus d’informations, voir la section [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-Pour les utilisateurs, la modification de l’état d’un problème est généralement un processus manuel. Cependant, il existe des situations, décrites dans la liste suivante, où l’état d’un problème change automatiquement, en fonction d’autres facteurs qui se produisent dans le système.
+Pour les utilisateurs ou utilisatrices, la modification du statut d’un problème se fait généralement manuellement. Cependant, il existe des situations, décrites ci-dessous, dans lesquelles le statut d’un problème change automatiquement, en fonction d’autres facteurs qui se produisent dans le système.
 
-Les statuts de problème suivants sont fournis avec votre instance Workfront :
+Les statuts de problèmes suivants sont fournis avec votre instance Workfront :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,67 +77,67 @@ Les statuts de problème suivants sont fournis avec votre instance Workfront :
  <col> 
  <thead> 
   <tr> 
-   <th>Statut du problème système</th> 
-   <th>Utilisation de l’état</th> 
-   <th>Ce qui se passe dans l’état</th> 
+   <th>Statut de problème du système</th> 
+   <th>Comment utiliser le statut</th> 
+   <th>Ce qui se passe dans le statut</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Nouveau (état requis)</td> 
-   <td>Il s’agit de l’état par défaut de chaque problème nouvellement créé.</td> 
-   <td>Si le problème se trouve sur un projet dont l’état est Actuel, il s’affiche dans l’onglet Demandes de travail des utilisateurs affectés au problème. Les utilisateurs peuvent maintenant commencer à travailler sur le problème.</td> 
+   <td>Nouveau (statut obligatoire)</td> 
+   <td>Il s’agit du statut par défaut pour tout problème nouvellement créé.</td> 
+   <td>Si le problème se trouve sur un projet dont le statut est En cours, il s’affiche dans l’onglet Demandes de travail des personnes affectées au problème. Les personnes peuvent maintenant commencer à travailler sur le problème.</td> 
   </tr> 
   <tr> 
-   <td>En cours (statut requis)</td> 
-   <td> <p>Vous pouvez placer un problème dans cet état pour indiquer que le travail sur ce problème a commencé.</p> <p>Si la résolution du problème est connectée à un autre objet (une tâche, un projet ou un autre problème), l’état du problème passe automatiquement à En cours lorsque vous définissez l’état de l’objet de résolution sur En cours. </p> <p>Pour plus d’informations sur la résolution d’objets, voir <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Présentation de la résolution et de la résolution d’objets résolvables </a>.</p> </td> 
-   <td> <p>Si le problème se trouve sur un projet dont l’état est Actuel, il s’affiche dans l’onglet Travail sur les utilisateurs affectés au problème.</p> <p>Lorsqu’un problème est En cours, il affiche une valeur pour la Date de début réelle.</p> <p> </p> </td> 
+   <td>En cours (statut obligatoire)</td> 
+   <td> <p>Vous pouvez placer un problème dans ce statut pour indiquer que le travail sur ce problème a commencé.</p> <p>Si la résolution du problème est liée à un autre objet (une tâche, un projet ou un autre problème), le statut du problème passe automatiquement à En cours lorsque vous modifiez le statut de l’objet de résolution à En cours. </p> <p>Pour plus d’informations sur les objets de résolution, voir la section <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Vue d’ensemble des objets de résolution et des objets résolvables</a>.</p> </td> 
+   <td> <p>Si le problème se trouve sur un projet dont le statut est Actuel, le problème s’affiche dans l’onglet En train de travailler sur des personnes qui sont assignées au problème.</p> <p>Lorsqu’un problème est En cours, il affiche une valeur pour la date de début effective.</p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td>Fermé (état requis)</td> 
-   <td> <p>Vous pouvez marquer manuellement un problème comme Fermé une fois le travail terminé. </p> <p>Si la résolution du problème est connectée à un autre objet (une tâche, un projet ou un autre problème), l’état du problème passe automatiquement à Fermé lorsque vous définissez l’état de l’objet de résolution sur Fermé.</p> <p>Pour plus d’informations sur la résolution d’objets, voir <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Présentation de la résolution et de la résolution d’objets résolvables </a>.</p> </td> 
-   <td> <p>Lorsqu’un problème est Fermé, il est supprimé de la liste de travail sur la personne désignée. Dans ce cas, le problème affiche une valeur pour la date de fin réelle. </p> <p>Une fois toutes les tâches terminées et les problèmes terminés sur un projet, le projet peut être terminé.</p> </td> 
+   <td>Fermé (statut obligatoire)</td> 
+   <td> <p>Vous pouvez marquer manuellement un problème comme Fermé lorsque le travail sur ce problème est terminé. </p> <p>Si la résolution du problème est liée à un autre objet (une tâche, un projet ou un autre problème), le statut du problème passe automatiquement à Fermé lorsque vous modifiez le statut de l’objet de résolution en Fermé.</p> <p>Pour plus d’informations sur les objets de résolution, voir la section <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Vue d’ensemble des objets de résolution et des objets résolvables</a>.</p> </td> 
+   <td> <p>Lorsqu’un problème est Fermé, il est supprimé de la liste En train de travailler sur de la personne assignée. Dans ce cas, le problème indique une valeur pour la date d’achèvement effective. </p> <p>Lorsque toutes les tâches sont terminées et que les problèmes sont résolus dans un projet, le projet peut être achevé.</p> </td> 
   </tr> 
   <tr> 
-   <td>En attente (état requis)</td> 
-   <td> <p>Vous pouvez marquer manuellement un problème comme En attente pour indiquer qu’il y a eu un retard dans l’exécution du problème. </p> </td> 
-   <td> <p>Si le problème se trouve sur un projet dont l’état est Actuel, il s’affiche dans l’onglet Travail sur les utilisateurs affectés au problème. </p> <p>Lorsque toutes les tâches sont terminées sur un projet, mais qu’un problème au moins est en attente, le projet ne peut pas être terminé. </p> </td> 
+   <td>En suspens (statut obligatoire)</td> 
+   <td> <p>Vous pouvez marquer manuellement un problème comme étant En supens, pour indiquer qu’il y a eu un retard dans la résolution du problème. </p> </td> 
+   <td> <p>Si le problème se trouve sur un projet dont le statut est Actuel, le problème s’affiche dans l’onglet En train de travailler sur des personnes qui sont assignées au problème. </p> <p>Lorsque toutes les tâches d’un projet sont terminées, mais qu’il reste au moins un problème En suspens, le projet ne peut pas être achevé. </p> </td> 
   </tr> 
   <tr> 
-   <td>rouvert (correspond à en cours)</td> 
-   <td> <p>Vous pouvez placer un problème dans cet état pour indiquer que les travaux sur ce problème n’étaient pas encore terminés lorsque le problème a été précédemment fermé et qu’il fallait le rouvrir pour terminer le travail.</p> </td> 
-   <td> <p>Si le problème se trouve sur un projet dont l’état est Actuel, il s’affiche dans l’onglet Demandes de travail des utilisateurs affectés au problème. Les utilisateurs peuvent maintenant commencer à travailler sur le problème.</p> <p>Ce statut est important dans les rapports. Il permet de différencier les problèmes ouverts pour la première fois (généralement dans le statut Nouveau) des problèmes ouverts après avoir été fermés auparavant (généralement dans le statut Réouverture). </p> </td> 
+   <td>Rouvert (équivaut à En cours)</td> 
+   <td> <p>Vous pouvez placer un problème dans ce statut pour indiquer que le travail sur ce problème n’était pas tout à fait terminé lorsque le problème a été précédemment fermé, et qu’il a dû être rouvert pour terminer le travail.</p> </td> 
+   <td> <p>Si le problème se trouve sur un projet dont le statut est En cours, il s’affiche dans l’onglet Demandes de travail des personnes affectées au problème. Les personnes peuvent maintenant commencer à travailler sur le problème.</p> <p>Ce statut est important dans les rapports, pour différencier les problèmes ouverts pour la première fois (généralement dans le statut Nouveau), et les problèmes ouverts après avoir été fermés auparavant (généralement dans le statut Rouvert). </p> </td> 
   </tr> 
   <tr> 
-   <td>Commentaires en attente (équivaut à un blocage)</td> 
-   <td>Vous pouvez placer un problème dans cet état pour indiquer que vous attendez les commentaires (généralement de la part du contact de Principal) avant de pouvoir continuer à travailler sur le problème. </td> 
-   <td> <p>Si le problème se trouve sur un projet dont l’état est Actuel, il s’affiche dans l’onglet Travail sur les utilisateurs affectés au problème.</p> <p>Si un problème est En attente de commentaires, un projet ne peut pas être terminé.</p> <p>Ce statut est important dans les rapports. Il permet de différencier les problèmes actuellement ouverts mais sur lesquels on travaille (généralement dans l’état En cours ) et ceux qui sont actuellement ouverts, mais qui ne l’ont pas fait car il faut plus de commentaires pour les résoudre (généralement dans l’état Commentaires en attente).</p> </td> 
+   <td>En attente de commentaires (équivaut à En suspens)</td> 
+   <td>Vous pouvez placer un problème dans ce statut pour indiquer que vous attendez un commentaire (généralement de la part du contact principal) avant de pouvoir continuer à travailler sur le problème. </td> 
+   <td> <p>Si le problème se trouve sur un projet dont le statut est Actuel, le problème s’affiche dans l’onglet En train de travailler sur des personnes qui sont assignées au problème.</p> <p>Si un problème est en attente de commentaire, un projet ne peut pas être achevé.</p> <p>Ce statut est important dans les rapports, pour faire la différence entre les problèmes qui sont actuellement ouverts mais sur lesquels quelqu’un travaille (généralement dans le statut En cours) et les problèmes qui sont actuellement ouverts mais sur lesquels personne ne travaille parce qu’un commentaire supplémentaire est nécessaire pour les achever (généralement dans le statut En attente d’un commentaire).</p> </td> 
   </tr> 
   <tr> 
-   <td>Impossible de dupliquer (correspond à avec Fermé)</td> 
-   <td>Vous pouvez placer un problème dans cet état pour indiquer que vous fermez le problème, mais vous n’avez pas pu voir le problème qui a déclenché l’ouverture du problème. Le problème existe peut-être encore, mais il ne peut être répliqué à un moment donné. </td> 
-   <td> <p>Ce statut est important dans les rapports, afin de différencier les problèmes terminés et dont le problème a été résolu (généralement avec le statut Fermé) et les problèmes dont le problème n’est pas visible à un moment donné (généralement avec le statut Impossible de dupliquer ).</p> <p>Lorsqu’un problème est marqué comme Impossible de dupliquer, il est supprimé de la liste de travail sur la personne désignée. Dans ce cas, le problème affiche une valeur pour la Date de fin réelle.</p> <p>Si toutes les tâches d’un projet sont terminées et que certains problèmes sont à l’état Impossible de dupliquer , le projet peut être terminé.</p> </td> 
+   <td>Impossible à dupliquer (équivaut à Fermé)</td> 
+   <td>Vous pouvez placer un problème dans ce statut pour indiquer que vous le fermez, mais que vous n’avez pas pu voir la raison qui a déclenché l’ouverture du problème. La raison peut toujours exister, mais elle ne peut pas être reproduite à un moment donné. </td> 
+   <td> <p>Ce statut est important dans les rapports, pour différencier les problèmes qui sont terminés et dont la raison a été traitée (généralement dans le statut Fermé) des problèmes dont la raison n’est pas visible à un moment donné (généralement dans le statut Impossible à dupliquer).</p> <p>Lorsqu’un problème est marqué comme ne pouvant pas être dupliqué, il est supprimé de la liste En train de travailler sur de la personne cessionnaire. Dans ce cas, le problème indique une valeur pour la date d’achèvement réelle.</p> <p>Si toutes les tâches d’un projet sont achevées et que certains problèmes sont dans un statut Impossible de reproduire, le projet peut être achevé.</p> </td> 
   </tr> 
   <tr> 
-   <td>Résolu (correspond à avec Fermé)</td> 
-   <td>Vous pouvez placer un problème dans cet état pour indiquer que vous fermez le problème et que le problème qui l’a créé a été résolu.</td> 
-   <td> <p>Ce statut est important dans les rapports, afin de différencier les problèmes fermés avec ou sans résolution (généralement dans le statut Fermé ) et les problèmes fermés avec une résolution réelle (généralement dans le statut Résolu ).</p> <p>Lorsqu’un problème est marqué comme résolu, il est supprimé de la liste de travail sur la personne désignée. Dans ce cas, le problème affiche une valeur pour la date de fin réelle.</p> <p>Si toutes les tâches d’un projet sont terminées et qu’au moins un problème est à l’état Résolu, le projet peut être terminé. </p> </td> 
+   <td>Résolu (équivalent à Fermé)</td> 
+   <td>Vous pouvez placer un problème dans ce statut pour indiquer que vous le clôturez et que la raison qui l’a créé a été résolue.</td> 
+   <td> <p>Ce statut est important dans les rapports, pour différencier les problèmes qui sont clôturés avec ou sans résolution (généralement dans le statut Fermé) et les problèmes qui sont clôturés avec une résolution réelle (généralement dans le statut Résolu).</p> <p>Lorsqu’un problème est marqué comme Résolu, il est supprimé de la liste En train de travailler sur de la personne cessionnaire. Dans ce cas, le problème indique une valeur pour la date d’achèvement effective.</p> <p>Si toutes les tâches d’un projet sont terminées et qu’au moins un problème a le statut Résolu, le projet peut être achevé. </p> </td> 
   </tr> 
   <tr> 
-   <td>Vérifié terminé (correspond à Fermé)</td> 
-   <td>Vous pouvez placer un problème dans cet état pour indiquer que vous fermez le problème et que vous avez vérifié que le problème qui a généré le problème a été résolu.</td> 
-   <td> <p>Lorsqu’un problème est marqué comme terminé par la vérification, il est supprimé de la liste de travail sur la personne désignée. Dans ce cas, le problème affiche une valeur pour la date de fin réelle.</p> <p>Si toutes les tâches d’un projet sont terminées et que certains problèmes sont à l’état Terminé vérifié, le projet peut être terminé.</p> </td> 
+   <td>Achèvement vérifié (équivalent à Fermé)</td> 
+   <td>Vous pouvez placer un problème dans ce statut pour indiquer que vous clôturez le problème et que vous avez vérifié que la raison qui l’a généré a été résolue.</td> 
+   <td> <p>Lorsqu’un problème est marqué comme Achèvement vérifié, il est supprimé de la liste En train de travailler sur de la personne cessionnaire. Dans ce cas, le problème indique une valeur pour la date d’achèvement effective.</p> <p>Si toutes les tâches d’un projet sont achevées et que certains problèmes sont dans un statut Achèvement vérifié, le projet peut être achevé.</p> </td> 
   </tr> 
   <tr> 
-   <td>Ne pas résoudre (correspond à avec Fermé)</td> 
-   <td>Vous pouvez placer un problème dans cet état pour indiquer que vous fermez le problème, mais le problème qui l’a généré ne peut pas être résolu.</td> 
-   <td> <p>Ce statut est important dans les rapports, afin de différencier les problèmes qui sont fermés avec ou sans résolution (généralement dans le statut Fermé ) et les problèmes qui sont fermés sans résolution réelle (généralement dans le statut Ne pas résoudre).</p> <p>Lorsqu’un problème est signalé comme ne sera pas résolu, le problème est supprimé de la liste de travail sur les personnes désignées. Dans ce cas, le problème affiche une valeur pour la date de fin réelle.</p> <p>Si toutes les tâches d’un projet sont terminées et qu’au moins un problème est à l’état Ne pas résoudre, le projet peut être terminé.</p> </td> 
+   <td>Impossible de résoudre (équivalent à Fermé)</td> 
+   <td>Vous pouvez placer un problème dans ce statut pour indiquer que vous le clôturez, mais que la raison qui l’a généré ne peut pas être résolue.</td> 
+   <td> <p>Ce statut est important dans les rapports, car il permet de différencier les problèmes qui sont clôturés avec ou sans résolution (généralement dans le statut Fermé) des problèmes qui sont clôturés sans résolution réelle (généralement dans le statut Impossible de résoudre).</p> <p>Lorsqu’un problème est marqué comme Impossible de résoudre, il est supprimé de la liste En train de travailler sur de la personne cessionnaire. Dans ce cas, le problème indique une valeur pour la date d’achèvement effective.</p> <p>Si toutes les tâches d’un projet sont achevées et qu’au moins un problème est dans le statut Impossible de résoudre, le projet peut être achevé.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Personnalisation des statuts des problèmes
+## Personnaliser les statuts du problème
 
-Un administrateur Workfront peut ajouter des statuts de problème au niveau du système et du groupe à Workfront et modifier l’ordre dans lequel les utilisateurs les voient. Pour plus d’informations, voir [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Un administrateur ou une administratrice Workfront peut ajouter des statuts de problèmes au niveau du système et du groupe dans Workfront et modifier l’ordre dans lequel les personness les voient. Pour plus d’informations, voir [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-Un administrateur de groupe peut ajouter un état personnalisé spécifique à un groupe. Pour plus d’informations, voir [Création ou modification de l’état d’un groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+Un administrateur ou une administratrice de groupes peut ajouter un statut personnalisé spécifique à un groupe. Pour plus d’informations, voir [Créer ou modifier un statut de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).

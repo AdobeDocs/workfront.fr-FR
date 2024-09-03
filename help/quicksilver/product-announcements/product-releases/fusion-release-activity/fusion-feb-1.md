@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: "Activité Publication de fusion Workfront : semaine du 1er février 2021"
-description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 1er février 2021.
+title: '« Activité Version de Workfront Fusion : semaine du 1er février 2021 »'
+description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 1er février 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -13,17 +13,17 @@ hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
-# Activité Publication de fusion Workfront : semaine du 1er février 2021
+# Activité Version de Workfront Fusion : semaine du 1er février 2021
 
-Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 1er février 2021.
+Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 1er février 2021.
 
-Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -33,28 +33,28 @@ Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-v
 </div>
 -->
 
-## Connecteur et modules MariaDB désormais disponibles
+## Le connecteur et les modules MariaDB sont désormais disponibles.
 
-Vous pouvez désormais utiliser Workfront Fusion pour vous connecter à votre compte MariaDB.
+Vous pouvez désormais utiliser Workfront Fusion pour vous connecter à votre compte MariaDB.
 
-Avec les modules MariaDB, vous pouvez :
+Avec les modules MariaDB, vous pouvez effectuer les opérations suivantes :
 
 * Exécuter une requête
-* Sélectionner des lignes d’un tableau
+* Sélectionner des lignes dans un tableau
 
 Pour plus d’informations, voir [Modules MariaDB](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md).
 
-## Connecteur et modules Marketo désormais disponibles
+## Les connecteurs et modules Marketo sont désormais disponibles.
 
-* Vous pouvez désormais utiliser Workfront Fusion pour vous connecter à votre compte Marketo. Avec le connecteur Marketo, vous pouvez
-* Déclenchez un scénario lorsqu’un enregistrement est créé ou mis à jour.
+* Vous pouvez désormais utiliser Workfront Fusion pour vous connecter à votre compte Marketo. Avec le connecteur Marketo, vous pouvez effectuer les opérations suivantes :
+* Déclencher un scénario lorsqu’un enregistrement est créé ou mis à jour.
 * Créer, lire ou mettre à jour des enregistrements
-* Chargement ou téléchargement de fichiers
+* Charger ou télécharger des fichiers
 * Répertorier ou rechercher des enregistrements d’un type donné
-* Ajouter des pistes ou supprimer des pistes d’une liste
-* Planification d’une campagne
+* Ajouter des leads à une liste ou en supprimer
+* Planifier une campagne
 * Copier un programme
-* Effectuer un appel API personnalisé
+* Effectuer un appel API personnalisé.
 
 Pour plus d’informations, voir [Modules Marketo](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
 

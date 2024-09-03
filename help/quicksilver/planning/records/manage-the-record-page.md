@@ -30,7 +30,7 @@ Vous devez créer des types d’enregistrement et des enregistrements avant de p
 
 Pour plus d’informations, voir les articles suivants :
 
-* [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md)
 
 * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
 
@@ -55,7 +55,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td>
   </tr>  
  <tr>
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td>
    <td>
 <p>L’un des projets Workfront suivants est prévu :</p>
 <ul><li>Sélectionner</li>
@@ -67,7 +67,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr>
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td>
    <td>
-<p>N’importe quelle</p>
+<p>Tous</p>
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p>
    </td>
 
@@ -95,19 +95,19 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr>
    <td role="rowheader"><p>Autorisations d’objet</p></td>
    <td>
-   <p>Gérer les autorisations d’un espace de travail</a> </p>  
-   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> 
+   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> 
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page comprenant la zone Planification du menu principal et la zone Planification des projets, portefeuilles et programmes. </p> Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation des accès</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -145,7 +145,7 @@ Pour ajouter une section à un aperçu d’enregistrement ou à une page :
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
-1. Cliquez sur une carte de type d’enregistrement.
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
    La page du type d’enregistrement s’ouvre.
 
@@ -208,7 +208,7 @@ Par défaut, toutes les sections sont développées.
 
 1. (Facultatif) Sélectionnez le paramètre **Afficher tous les enregistrements** dans le coin supérieur droit de l’onglet Connexions. Tous les types d’enregistrements connectés s’affichent, y compris ceux qui n’ont encore aucun enregistrement connecté. Par défaut, la bascule est désélectionnée et les types d’enregistrements sans enregistrement connecté sont masqués.
 
-1. (Facultatif) Cliquez sur **Se connecter** pour ajouter d’autres enregistrements aux types d’enregistrements connectés. Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+1. (Facultatif) Cliquez sur **Se connecter** pour ajouter d’autres enregistrements aux types d’enregistrements connectés. Pour plus d’informations, consultez [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
 1. (Facultatif) Pointez sur une carte d’enregistrement, puis cliquez sur l’icône de déconnexion d’enregistrement **-**, puis cliquez sur **Déconnecter**. <!--this is copied to the Manage the Planning page in Workfront article; update in both articles-->
 Les événements suivants se produisent :
@@ -224,7 +224,7 @@ Les événements suivants se produisent :
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
-1. Cliquez sur une carte de type d’enregistrement.
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
    La page du type d’enregistrement s’ouvre.
 

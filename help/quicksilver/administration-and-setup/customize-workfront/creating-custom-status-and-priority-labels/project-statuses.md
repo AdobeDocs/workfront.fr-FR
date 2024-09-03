@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-description: Les utilisateurs peuvent spécifier l’état d’un projet afin que d’autres utilisateurs puissent afficher l’état actuel du développement du projet à un moment donné.
+description: Les utilisateurs et utilisatrices peuvent spécifier le statut d’un projet afin que d’autres personnes puissent afficher le statut actuel du développement du projet à un moment donné.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -12,67 +12,67 @@ exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
 source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 18%
+ht-degree: 98%
 
 ---
 
-# Accéder à la liste des états des projets système
+# Accéder à la liste des statuts des projets du système
 
-Les utilisateurs peuvent spécifier l’état d’un projet afin que d’autres utilisateurs puissent afficher l’état actuel du développement du projet à un moment donné.
+Les utilisateurs et utilisatrices peuvent spécifier le statut d’un projet afin que d’autres personnes puissent afficher le statut actuel du développement du projet à un moment donné.
 
-Workfront est fourni avec 9 états de projet système. Vous pouvez modifier le nom de ces états, mais vous ne pouvez pas les supprimer.
+Workfront est fourni avec 9 statuts des projets du système. Vous pouvez modifier le nom de ces statuts, mais vous ne pouvez pas les supprimer.
 
-Vous pouvez également ajouter des états de projet personnalisés pour répondre aux besoins de votre entreprise.
+Vous pouvez également ajouter des statuts de projet personnalisés pour répondre aux besoins de votre entreprise.
 
-En tant qu’administrateur Workfront, vous configurez l’état par défaut de tous les nouveaux projets du système. Pour obtenir des instructions, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+En tant qu’administrateur ou administratrice Workfront, vous configurez le statut par défaut de tous les nouveaux projets du système. Pour obtenir des instructions, voir [Configurer les préférences des projets à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Accès aux statuts du projet
+## Accéder aux statuts des projets
 
-En tant qu’administrateur Workfront, vous pouvez accéder à la liste des états de projet au niveau du système.
+En tant qu’administrateur ou administratrice Workfront, vous pouvez accéder à la liste des statuts des projets au niveau du système.
 
-Pour plus d’informations sur la modification de l’état d’un système et la création d’états personnalisés, voir [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Pour plus d’informations sur la modification du statut d’un système et la création de statuts personnalisés, voir [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Préférences du projet** > **États**.
+1. Cliquez sur **Préférences du projet** > **Statuts**.
 
-1. Cliquez sur l’onglet **Projet** .
+1. Cliquez sur l’onglet **Projet**.
 
-   Les états du projet disponibles dans Workfront sont répertoriés dans cet onglet.
+   Les statuts du projet disponibles dans Workfront sont répertoriés dans cet onglet.
 
    ![](assets/project-status.png)
 
-   Pour plus d’informations sur chacun des états de projet système intégrés, voir [Présentation des états de projet système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+   Pour plus d’informations sur chacun des statuts des projets intégrés du système, voir [Vue d’ensemble des statuts des projets du système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
 
-## Création d’états de projet personnalisés et personnalisation des états du système
+## Créer des statuts de projet personnalisés et personnaliser des statuts du système
 
-En tant qu’administrateur Workfront, vous pouvez ajouter les états du projet système à Workfront. En tant que propriétaire d’un groupe, vous pouvez ajouter un état personnalisé spécifique à un groupe. Pour plus d’informations sur la création d’états personnalisés ou la modification des états système, voir [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+En tant qu’administrateur ou administratrice Workfront, vous pouvez ajouter les statuts des projets du système à Workfront. En tant que personne propriétaire d’un groupe, vous pouvez ajouter un statut personnalisé spécifique à un groupe. Pour plus d’informations sur la création de statuts personnalisés ou la modification des statuts du système, voir [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-Lorsque vous créez un état de projet personnalisé, vous devez toujours associer le nouveau statut à un état système existant. Vous devez comprendre le comportement des états du système pour savoir quel état est approprié pour associer votre état personnalisé à . Une fois que vous avez sélectionné votre état égal, cette sélection ne peut pas être modifiée. Pour plus d’informations sur les états du projet système, voir [Présentation des états du projet système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+Lorsque vous créez un statut de projet personnalisé, vous devez toujours associer le nouveau statut à un statut existant du système. Vous devez comprendre le comportement des statuts du système pour savoir quel statut est approprié pour l’association avec votre statut personnalisé. Une fois que vous avez sélectionné votre statut équivalent, cette sélection ne peut pas être modifiée. Pour plus d’informations sur les statuts des projets du système, voir [Vue d’ensemble des statuts des projets système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).

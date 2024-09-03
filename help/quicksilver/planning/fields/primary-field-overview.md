@@ -46,7 +46,7 @@ Pour plus d’informations sur la désignation d’un champ comme champ principa
    * Vues
 * Vous ne pouvez pas déplacer, masquer ou supprimer le champ principal dans la vue de tableau, à moins que vous ne désigniez un autre champ comme champ principal.
 * Le champ principal est toujours verrouillé et ne fait pas partie du défilement horizontal de la vue du tableau.
-* La modification du champ principal dans la vue de tableau affecte la vue pour toutes les autres personnes qui la choisissent.
+* La modification du champ principal de votre vue de tableau affecte la vue de tous les autres utilisateurs et utilisatrices qui la choisissent.
 * La modification du champ principal dans une vue de tableau affecte toutes les vues de tableau du type d’enregistrement.
 * La valeur indiquée dans le champ principal est toujours associée à la page de l’enregistrement par un lien hypertexte.
 * Si vous disposez d’autorisations Contribute ou d’autorisations supérieures pour un espace de travail, vous pouvez modifier la valeur des champs primaires, à l’exception des champs de formule. Les formules sont des calculs qui se mettent automatiquement à jour.

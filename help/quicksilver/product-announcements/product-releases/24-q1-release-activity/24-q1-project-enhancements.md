@@ -1,6 +1,6 @@
 ---
-title: Améliorations du projet au premier trimestre 2024
-description: Améliorations du projet pour le premier trimestre 2024
+title: Améliorations apportées aux projets au premier trimestre 2024
+description: Améliorations apportées aux projets au premier trimestre 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -8,17 +8,17 @@ exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
 source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 63%
+ht-degree: 91%
 
 ---
 
-# Améliorations du projet au premier trimestre 2024
+# Améliorations apportées aux projets au premier trimestre 2024
 
-Cette page décrit toutes les améliorations de projet apportées à la version du premier trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version du premier trimestre 2024.
+Cette page décrit toutes les améliorations apportées au projet dans l’environnement de prévisualisation avec la version du premier trimestre 2024. Si indiqué, ces améliorations seront disponibles dans l’environnement de production avec la version du premier trimestre 2024.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication Premier trimestre 2024, reportez-vous à la [présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2024, consultez l’article [Vue d’ensemble de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-## Affectations intelligentes plus pertinentes
+## Affectations intelligentes les plus pertinentes
 
 >[!NOTE]
 >
@@ -26,18 +26,18 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.
 
-Désormais, l’algorithme examine les informations suivantes lorsqu’il suggère des affectations intelligentes :
+Désormais, l’algorithme prend en compte les informations suivantes lorsqu’il propose des affectations intelligentes :
 
-* Similarités entre les noms des tâches, des projets et des portfolios.
+* les similarités entre les noms des tâches, des projets et des portfolios.
 
-* Fréquence d’affectation à une tâche dont le nom est similaire.
+* Fréquence à laquelle une affectation est effectuée pour une tâche portant un nom similaire.
 
 Si le nouvel algorithme ne trouve aucune correspondance, les critères existants de calcul des affectations intelligentes sont appliqués.
 
 Tenez également compte des points suivants :
 
-* Le nom de la liste des affectations intelligentes « Voici quelques suggestions » a été remplacé par «Affectations suggérées » dans la liste des tâches.
+* Le nom de la liste des affectations intelligentes dans une liste de tâches a changé, passant de « Voici quelques suggestions » à « Affectations suggérées ».
 
-* Il n’y a aucune modification dans le mode de calcul des affectations intelligentes pour les problèmes. Le nom de la liste des affectations intelligentes dans une liste de problèmes est «Voici quelques recommandations ».
+* Aucune modification n’a été apportée à la manière dont les affectations intelligentes sont calculées pour les problèmes. Le nom de la liste des affectations intelligentes dans une liste des problèmes est « Voici quelques recommandations ».
 
-Pour plus d’informations, consultez [Vue d’ensemble des affectations intelligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Pour en savoir plus, consultez [Vue d’ensemble des affectations intelligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).

@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Personnalisation des types de problème par défaut
-description: Vous pouvez personnaliser les étiquettes pour chaque type de problème par défaut afin de mieux correspondre à la terminologie utilisée dans votre entreprise. Les types de problème sont utiles pour personnaliser les états de problème et créer des files d’attente de requête.
+description: Vous pouvez personnaliser les libellés de chaque type de problème par défaut afin qu’ils correspondent mieux à la terminologie utilisée dans votre organisation. Les types de problème sont utiles pour personnaliser les statuts des problèmes et créer des files d’attente des demandes.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,18 +11,18 @@ exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
 source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 15%
+ht-degree: 99%
 
 ---
 
-# Personnalisation des types de problèmes par défaut
+# Personnaliser les types de problèmes par défaut
 
-Les types de problèmes sont utiles dans les cas suivants :
+Les types de problème sont utiles dans les circonstances suivantes :
 
-* Lors de la personnalisation des états de problème, comme décrit dans [Créer ou modifier un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-* Lors de la création d’une file d’attente de requêtes, comme décrit dans [Création d’une file d’attente de requêtes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Lorsque vous personnalisez les statuts des problèmes, comme décrit dans [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+* Lorsque vous créez une file d’attente des demandes, comme décrit dans [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Vous pouvez personnaliser les étiquettes pour chaque type de problème par défaut afin de mieux correspondre à la terminologie utilisée dans votre entreprise.
+Vous pouvez personnaliser les libellés de chaque type de problème par défaut afin qu’ils correspondent mieux à la terminologie utilisée dans votre organisation.
 
 ## Conditions d’accès
 
@@ -36,53 +36,53 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>N’importe quelle</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront].</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas un accès, demandez à l’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être administrateur ou administratrice de [!DNL Workfront].</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice de [!DNL Workfront] s’il ou elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour plus d’informations sur la manière dont l’administration [!DNL Workfront] peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Types de problèmes par défaut
+## Types de problème par défaut
 
-Si vous disposez de l’accès [!DNL Adobe Workfront] [!UICONTROL administrateur], vous pouvez configurer et renommer quatre types de problèmes par défaut :
+Si vous disposez d’un accès [!UICONTROL administrateur ou administratrice] [!DNL Adobe Workfront], vous pouvez configurer et renommer quatre types de problème par défaut :
 
-* **[!UICONTROL Rapport de bogues]** Utilisé pour effectuer le suivi des bogues signalés dans le système.
-* **[!UICONTROL Modifier l’ordre]** Utilisé pour effectuer le suivi des problèmes qui doivent être mis à jour ou modifiés.
-* **[!UICONTROL Problème]** Objet dans [!DNL Workfront] qui communique un travail non planifié, un problème qui survient ou quelque chose qui doit être résolu pour continuer une tâche.
-* **[!UICONTROL Requête]** Type de problème qui s’applique à une file d’attente de requêtes dans laquelle les utilisateurs effectuent des requêtes dans Workfront.
+* **[!UICONTROL Rapport sur les bugs]** Utilisé pour suivre les bugs signalés dans le système.
+* **[!UICONTROL Ordre de modification]** Utilisé pour suivre les problèmess qui doivent être mis à jour ou révisés.
+* **[!UICONTROL Problème]** Objet dans [!DNL Workfront] qui communique un travail non planifié, un problème qui se pose ou quelque chose qui doit être résolu afin de poursuivre une tâche.
+* **[!UICONTROL Demande]** Type de problème qui s’applique à une file d’attente des demandes dans laquelle les personnes font des demandes dans Workfront.
 
 ![](assets/default-issue-types.png)
 
-## Personnalisation d’un type de problème
+## Personnaliser un type de problème
 
-Tenez compte des points suivants concernant la personnalisation des types de problèmes :
+Tenez compte de ce qui suit pour la personnalisation des types de problème :
 
-* Vous pouvez modifier le libellé d’un type de problème, mais pas sa fonction.
-* Vous ne pouvez pas créer d’autres types de problèmes.
-* Vous ne pouvez pas modifier les valeurs de filtre pour le nom d’un type de problème. Ainsi, si vous créez un filtre sur un rapport de problème, la valeur du filtre (clé) ne reflète pas le nom personnalisé du type de problème.
-* Trois états par défaut sont associés à chaque type de problème : [!UICONTROL New], [!UICONTROL In Progress] et [!UICONTROL Closed]. Vous ne pouvez pas supprimer ces états ou les supprimer d’un type de problème, mais vous pouvez les renommer.
-* Vous pouvez réorganiser les options qui s’affichent dans le menu déroulant pour chaque type de problème.
+* Vous pouvez modifier le libellé d’un type de problème, mais vous ne pouvez pas modifier sa fonction.
+* Vous ne pouvez pas créer d’autres types de problème.
+* Vous ne pouvez pas modifier les valeurs du filtre pour le nom d’un type de problème. Ainsi, si vous créez un filtre sur un rapport de problèmes, la valeur du filtre (clé) ne reflète pas le nom personnalisé du type de problème.
+* Trois statuts par défaut sont associés à chaque type de problème : [!UICONTROL Nouveau], [!UICONTROL En cours] et [!UICONTROL Fermé]. Vous ne pouvez pas supprimer ces statuts ou les retirer d’un type de problème, mais vous pouvez les renommer.
+* Vous pouvez réorganiser les options qui apparaissent dans le menu déroulant pour chaque type de problème.
 
-Pour personnaliser un type de problème :
+Pour personnaliser un type de problème :
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL États]**.
+1. Cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL Statuts]**.
 
-1. Cliquez sur l’onglet **[!UICONTROL Problèmes]** .
+1. Cliquez sur l’onglet **[!UICONTROL Problèmes]**.
 1. Effectuez l’une des opérations suivantes :
 
-   * Passez la souris sur le type de problème à personnaliser, cliquez sur l’icône [!UICONTROL Modifier] ![](assets/edit-icon.png) qui s’affiche à l’extrême droite, puis saisissez un nouveau nom pour le type de problème.
+   * Pointez sur le type de problème que vous souhaitez personnaliser, cliquez sur l’icône [!UICONTROL Modifier] ![](assets/edit-icon.png) qui apparaît à l’extrême droite, puis saisissez un nouveau nom pour le type de problème.
 
      ![](assets/customize-issue-type.png)
 
-   * Cliquez sur un [!UICONTROL type de problème] pour répertorier les états associés, puis faites glisser les poignées qui apparaissent lorsque vous les survolez et déposez-les dans l’ordre dans lequel vous souhaitez qu’elles apparaissent dans le menu déroulant **[!UICONTROL État]** de la question de vos utilisateurs.
+   * Cliquez sur un [!UICONTROL type de problème] pour afficher la liste des statuts associés, puis faites glisser les poignées qui apparaissent lorsque vous pointez sur eux et déposez-les dans l’ordre dans lequel vous souhaitez qu’ils apparaissent dans le menu déroulant du **[!UICONTROL Statut]** des problèmes de vos utilisateurs et utilisatrices.
