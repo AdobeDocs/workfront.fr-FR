@@ -27,8 +27,7 @@ Ces améliorations ont été apportées à l’environnement de production avec 
 
 * [Améliorations de la méthode Agile](#agile-enhancements)
 
-* [&#128279;](#resource-management-enhancements)Amélioration apportées à la gestion des ressources.
-
+* [Amélioration apportées à la gestion des ressources.](#resource-management-enhancements)
 
 * [Autres améliorations](#other-enhancements)
 
