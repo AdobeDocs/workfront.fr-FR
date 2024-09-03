@@ -8,10 +8,10 @@ description: Les fonctions générales suivantes sont disponibles dans le pannea
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
+source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 100%
+source-wordcount: '364'
+ht-degree: 78%
 
 ---
 
@@ -73,6 +73,12 @@ Renvoie le chemin d’accès à la valeur d’un objet ou d’un tableau. Pour a
 
 Renvoie la `value1` si l’expression est considérée comme true ; sinon elle renvoie la `value2`.
 
+Pour créer une instruction if qui renvoie une valeur uniquement si plusieurs expressions sont évaluées sur true, utilisez le mot-clé `and`.
+
+Pour combiner des instructions `if`, utilisez les opérateurs `and` et `or` .
+
+![et opérateur](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
+
 >[!INFO]
 >
 >**Exemples :**
@@ -81,9 +87,14 @@ Renvoie la `value1` si l’expression est considérée comme true ; sinon elle 
 >
 >    Renvoie A
 >
->* `if( = 2 ; A ; B )`
+>* `if( 1 = 2 ; A ; B )`
 >
 >   Renvoie B
+>
+>* `if( 1 = 2 and 1 = 2 ; A ; B )`
+>
+>    Renvoie B
+>   
 
 ## [!UICONTROL ifempty (value1; value2)]
 
@@ -107,7 +118,7 @@ Renvoie la `value1` si cette valeur n’est pas vide ; sinon elle renvoie la `v
 
 ## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
 
-Évalue une valeur (appelée expression) par rapport à une liste de valeurs ; renvoie le résultat correspondant à la première valeur correspondante.
+Evalue une valeur (appelée expression) par rapport à une liste de valeurs ; renvoie le résultat correspondant à la première valeur correspondante. Pour inclure une valeur `else`, ajoutez-la après l’expression ou la valeur finale.
 
 >[!INFO]
 >
@@ -123,7 +134,9 @@ Renvoie la `value1` si cette valeur n’est pas vide ; sinon elle renvoie la `v
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >
->  Renvoie 4
+>   Renvoie 4
+>   
+>   Dans cette fonction, 4 est la valeur à renvoyer si aucune expression ne s’applique (la valeur `else`).
 
 ## [!UICONTROL omit(object; key1; [key2; ...])]
 
