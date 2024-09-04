@@ -6,10 +6,10 @@ description: En tant que chef de projet, vous pouvez déterminer comment la cond
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -41,8 +41,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Autorisations d’objet</td> 
    <td> 
     <ul> 
-     <li> <p>Contribuer aux autorisations relatives à un projet pour modifier le type de condition dans la zone Détails du projet </p> </li> 
-     <li> <p>Gérer les autorisations relatives à un projet pour modifier le type de condition dans la zone Modifier le projet.</p> </li> 
+     <li> <p>Autorisations Contribute pour un projet afin de modifier le type de condition dans la zone Détails du projet </p> </li> 
+     <li> <p>Gérer les autorisations d’un projet pour modifier le type de condition dans la zone Modifier le projet</p> </li> 
     </ul> <p> Pour plus d’informations sur les autorisations de projet, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -72,4 +72,4 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Cliquez sur **Enregistrer les modifications** lorsque vous modifiez le type de condition dans la section Détails du projet.
 
-&#x200B;-
+
