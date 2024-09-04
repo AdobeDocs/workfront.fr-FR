@@ -2,15 +2,15 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Vue d’ensemble de la navigation dans le planificateur de ressources
+title: Présentation de la navigation du planificateur de ressources
 description: En utilisant le planificateur de ressources d’Adobe Workfront, vous pouvez facilement comprendre la disponibilité de vos ressources, ainsi que le temps prévu nécessaire pour terminer le travail sur vos projets. Vous pouvez ensuite gérer l’affectation de vos utilisateurs et utilisatrices et de leurs fonctions sur les projets qui leur ont été affectés.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2621'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

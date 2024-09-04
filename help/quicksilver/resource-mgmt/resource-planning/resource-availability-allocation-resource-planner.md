@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Vérifier la disponibilité et l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront
+title: Vérifiez la disponibilité et l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront.
 description: Vous pouvez afficher la disponibilité de vos ressources et le volume de travail prévu ou budgété pour vos projets dans le planificateur de ressources. Ces valeurs sont affichées en heures, en équivalent temps complet ou en coûts et sont organisées en colonnes.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 100%
+source-wordcount: '1237'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ Vous pouvez afficher la disponibilité de vos ressources et le volume de travail
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -26,39 +28,37 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Pro et supérieur</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td><p>Nouveau : Tous</p>
+       <p>ou</p>
+       <p>Actuel : Pro ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou supérieur </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouveau : Light ou supérieur</p>
+       <p>ou</p>
+       <p>Actuel : Révision ou supérieur</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès Affichage ou niveau supérieur aux éléments suivants :</p> 
     <ul> 
      <li> <p>Gestion des ressources</p> </li> 
      <li> <p>Données financières</p> </li> 
      <li> <p>Utilisateurs</p> </li> 
      <li> <p>Projets</p> </li> 
-    </ul> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations d’affichage ou de niveau supérieur pour les projets que vous souhaitez afficher dans le planificateur de ressources.</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets </a>.</p> </td> 
+   <td> <p>Autorisations d’affichage ou de niveau supérieur pour les projets que vous souhaitez afficher dans le planificateur de ressources.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--note from the table about the license: Review or higher: 
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       (waiting on Vazgen to confirm - working differenly in classic)
-      </MadCap:conditionalText>
-     -->
++++
 
 ## Conditions préalables
 
@@ -173,9 +173,7 @@ Tenez compte des points suivants lorsque vous changez votre vue dans le planific
 
    Lorsque vous sélectionnez cette option, Workfront calcule les valeurs nettes à l’aide de la formule suivante :
 
-   ```
-   Net = Available - Planned
-   ```
+   `Net = Available - Planned`
 
    >[!TIP]
    >

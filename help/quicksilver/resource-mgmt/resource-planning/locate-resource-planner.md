@@ -2,14 +2,14 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Rechercher le planificateur de ressources
-description: '(Ce contenu provient de cet article : rédigez ce contenu dans l’article lorsque celui-ci sera mis en ligne : /Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)'
-author: Alina
+description: Vous pouvez utiliser le planificateur de ressources pour gérer l’affectation de vos ressources aux projets. Vous pouvez accéder au planificateur de ressources pour un ou plusieurs projets en même temps à partir de la zone Business Case du projet.
+author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 100%
+source-wordcount: '500'
+ht-degree: 93%
 
 ---
 
@@ -23,38 +23,42 @@ Vous pouvez utiliser le planificateur de ressources pour gérer l’affectation 
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Pro et supérieur</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td><p>Nouveau : Tous</p>
+       <p>ou</p>
+       <p>Actuel : Pro ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou supérieur<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> <p>Plan ou supérieur pour localiser le planificateur de ressources dans la zone globale</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouveau : clair ou supérieur ;</br>
+          Standard pour localiser le planificateur de ressources dans le menu principal</p>
+       <p>ou</p>
+       <p>Actuel : révision ou version ultérieure ;</br>
+       Prévoyez de localiser le planificateur de ressources dans le menu principal.</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès Afficher ou supérieur à la gestion des ressources</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès Afficher ou supérieur à la gestion des ressources</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Visualiser les autorisations pour les projets et les utilisateurs et utilisatrices </p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets </a>.</p> </td> 
+   <td> <p>Visualiser les autorisations pour les projets et les utilisateurs et utilisatrices </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -79,14 +83,14 @@ Lorsque vous utilisez le planificateur de ressources pour plusieurs projets, les
 
 Pour accéder à la section Planificateur dans la zone Ressources :
 
-1. Cliquez sur l’icône **Menu principal**![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Cliquez sur **Ressources**. Le planificateur s’affiche par défaut.  Pour plus d’informations sur l’établissement d’un budget des ressources dans le planificateur de ressources, consultez l’article [Établir un budget des ressources dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Le planificateur s’affiche par défaut.  Pour plus d’informations sur l’établissement d’un budget des ressources dans le planificateur de ressources, consultez l’article [Établir un budget des ressources dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-   ![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
-1. Survolez le panneau de gauche et cliquez sur **Groupes de ressources**.\
-   Pour plus d’informations sur la création de groupes de ressources, consultez l’article [Créer des groupes de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+1. Cliquez sur **Pools de ressources** dans le panneau de gauche.
+Pour plus d’informations sur la création de groupes de ressources, consultez l’article [Créer des groupes de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ### Utiliser le planificateur de ressources pour un projet {#use-the-resource-planner-for-one-project}
 

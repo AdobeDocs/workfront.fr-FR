@@ -2,15 +2,15 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Vue d’ensemble du planificateur de ressources
+title: Présentation du planificateur de ressources
 description: Grâce au planificateur de ressources, vous pouvez estimer et budgéter l’affectation de vos ressources aux projets et prévoir leur disponibilité pour des travaux futurs.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2075'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

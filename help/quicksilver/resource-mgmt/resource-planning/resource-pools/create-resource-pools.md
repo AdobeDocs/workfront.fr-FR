@@ -6,10 +6,10 @@ description: Les pools de ressources sont des ensembles d’utilisateurs qui vou
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -33,7 +33,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Formule Adobe Workfront</td> 
    <td><p>Nouveau : Tous</p>
        <p>ou</p>
-       <p>Actuel : Pro et supérieur</p> </td> 
+       <p>Actuel : Pro ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 

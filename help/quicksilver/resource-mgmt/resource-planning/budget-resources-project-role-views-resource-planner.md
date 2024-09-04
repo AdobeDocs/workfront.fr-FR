@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Budgétiser des ressources dans le planificateur de ressources à l’aide des vues Projet et Rôle
+title: Ressources de budget dans le planificateur de ressources à l’aide du projet et des vues de rôle
 description: Vous pouvez budgétiser les ressources dans le planificateur de ressources Adobe Workfront à l’aide des vues Projet et Rôle. Vous ne pouvez pas budgétiser les ressources à l’aide de la vue Utilisateur ou utilisatrice dans le planificateur de ressources.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '2165'
-ht-degree: 100%
+source-wordcount: '2121'
+ht-degree: 97%
 
 ---
 
@@ -33,6 +33,8 @@ Avant de commencer à budgétiser les informations dans le planificateur de ress
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -40,27 +42,31 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Pro et supérieur</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+    <td><p>Nouveau : Tous</p>
+       <p>ou</p>
+       <p>Actuel : Pro ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouveau : Standard</p>
+       <p>ou</p>
+       <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès Modifier à la gestion des ressources qui inclut l’accès à l’option Modifier les priorités et les heures budgétées dans le planificateur de ressources.</p> <p>Accès Modifier aux données financières pour budgétiser les ressources par coût</p> <p>Accès Modifier aux projets et aux utilisateurs et utilisatrices</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification à la gestion des ressources qui inclut l’accès en modification des priorités et des heures du budget dans le planificateur de ressources.</p> <p>Modifier l’accès aux données financières pour les ressources du budget par coût</p> <p>Accès Modifier aux projets et aux utilisateurs et utilisatrices</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations Gérer pour les projets dont vous souhaitez budgétiser les informations.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, consultez la section <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations Gérer pour les projets dont vous souhaitez budgétiser les informations.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Budgéter des ressources dans le planificateur de ressources
 
@@ -74,9 +80,8 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
 -->
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Cliquez sur **Ressources**.
 1. Le **planificateur** s’affiche par défaut.
 1. (Le cas échéant) Sélectionnez la vue **Par projet**.
 1. Développez les projets et les fonctions pour gérer l’affectation pour le projet, les fonctions ou les utilisateurs et utilisatrices.
@@ -87,9 +92,7 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
    * Cliquez sur le menu **Plus** de la fonction de l’utilisateur ou de l’utilisatrice, puis sur **Définir le nombre d’heures prévues des utilisateurs et utilisatrices comme budgétées**.\
      Les heures budgétées de chaque utilisateur et utilisatrice sont calculées à l’aide de la formule suivante :
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. Pour budgéter l’affectation pour les fonctions, effectuez l’une des opérations suivantes :
 
@@ -102,17 +105,13 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
    * (Le cas échéant) Si vous avez budgété des heures pour les utilisateurs et utilisatrices, cliquez sur le menu **Plus** de la fonction, puis sur **Heures budgétées totales des utilisateurs et utilisatrices pour le rôle**.\
      Les heures budgétées de chaque rôle sont calculées à l’aide de la formule suivante :
 
-     ```
-     Role Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(User Budgeted Hours)`
 
    * Cliquez sur le menu **Plus** du projet, puis sur **Définir les heures prévues des rôles comme budgété**.\
      Les heures budgétées de chaque rôle sont calculées à l’aide de la formule suivante :\
      *
 
-     ```
-     Role Budgeted Hours = Role Planned Hours
-     ```
+     `Role Budgeted Hours = Role Planned Hours`
 
      >[!NOTE]
      >   
@@ -132,9 +131,7 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
    * Établissez le budget des rôles du projet, comme décrit à l’étape 7.\
      Les heures budgétées du projet sont calculées selon la formule suivante :
 
-     ```
-     Project Budgeted Hours = SUM(Role Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(Role Budgeted Hours)`
 
    * Dans la colonne **BDG**, indiquez manuellement un nombre d’heures, d’équivalent temps complet ou de coûts prévus au budget pour le projet.\
      Cela met à jour les heures budgétées du rôle, comme décrit à l’étape 7.\
@@ -175,9 +172,7 @@ Pour budgéter les affectations dans le planificateur de ressources dans la**** 
    * Cliquez sur le menu **Plus** pour le projet, puis cliquez sur **Définir les heures prévues des utilisateurs et utilisatrices comme budgétées**.\
      Les heures budgétées de chaque utilisateur et utilisatrice sont calculées à l’aide de la formule suivante :
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. Pour budgéter l’affectation pour les fonctions, effectuez l’une des opérations suivantes :
 
@@ -187,15 +182,11 @@ Pour budgéter les affectations dans le planificateur de ressources dans la**** 
    * Cliquez sur le menu **Plus** pour la fonction, puis cliquez sur **Définir les heures prévuees des projets comme budgétées.** Les heures budgétées du rôle sont calculées à l’aide de la formule suivante :\
      *
 
-     ```
-     Role Budgeted Hours = SUM(Project Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
      * Les Heures budgétées du projet sont calculées à l’aide de la formule suivante :
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
    * Dans la colonne **BDG**, spécifiez manuellement un nombre d’heures, d’équivalent temps complet ou de coûts budgétés pour les projets répertoriés sous la fonction.\
      Cela ajoute le nombre d’heures budgétées du projet au rôle.
@@ -213,24 +204,20 @@ Pour budgéter les affectations dans le planificateur de ressources dans la**** 
    * Cliquez sur le menu **Plus** pour la fonction, puis cliquez sur **Définir les heures prévues des projets comme budgétées**.\
      Les heures budgétées du projet sont calculées selon la formule suivante :
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
      Les heures budgétées du projet sont ajoutées aux heures budgétées du rôle.
 
    * (Le cas échéant) Si vous avez budgété des heures pour les utilisateurs et utilisatrices, cliquez sur le menu **Plus** pour le projet, puis cliquez sur **Heures budgétées totales des utilisateurs et utilisatrices pour le projet**.\
      Le calcul des heures budgétées du projet est effectué à l’aide de la formule suivante :
 
-     ```
-     Project Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(User Budgeted Hours)`
 
      ![budget_by_role.png](assets/budget-by-role-350x181.png)
 
 1. Cliquer sur **Enregistrer**.\
-   Une fois que vous avez budgété vos ressources dans le planificateur de ressources, les heures budgétées de vos ressources et les coûts associés sont répertoriés dans le business case de chaque projet.\
-   Pour plus d’informations sur la compréhension de la zone Établissement du budget de ressources du business case, voir l’article [Budgéter les ressources dans le business case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   Une fois que vous avez budgété vos ressources dans le planificateur de ressources, les Heures budgétisées de vos ressources et les coûts associés sont répertoriés dans le Business Case de chaque projet.
+Pour plus d’informations sur la compréhension de la zone Établissement du budget de ressources du business case, voir l’article [Budgéter les ressources dans le business case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Facultatif) Sélectionnez la vue **Afficher par utilisateur ou utilisatrice** pour remarquer toute suraffectation ou sous-utilisation des utilisateurs et utilisatrices entre les heures disponibles et prévues pour chaque personne. Les heures budgétées ne sont pas visibles dans la vue Afficher par utilisateur ou utilisatrice.
 

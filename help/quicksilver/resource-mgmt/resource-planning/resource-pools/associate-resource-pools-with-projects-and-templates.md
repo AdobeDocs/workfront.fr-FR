@@ -6,10 +6,10 @@ description: Les groupes de ressources sont des groupes d’utilisateurs et d’
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -53,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Formule Adobe Workfront</td> 
    <td><p>Nouveau : Tous</p>
        <p>ou</p>
-       <p>Actuel : Pro et supérieur</p> </td> 
+       <p>Actuel : Pro ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 

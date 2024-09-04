@@ -2,19 +2,19 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
-title: Accéder aux ressources de budget nécessaires dans Adobe Workfront
+title: Accès aux ressources de budget nécessaires dans Workfront
 description: Vous pouvez afficher et gérer des informations sur la planification des ressources pour les projets auxquels vous avez accès lorsque vous disposez de certains paramètres de niveau d’accès et des autorisations pour vos tâches, utilisateurs et utilisatrices, fonctions et équipes.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 83%
 
 ---
 
-# Accéder aux ressources de budget nécessaires dans Adobe Workfront
+# Accès aux ressources de budget nécessaires dans Workfront
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -37,33 +37,34 @@ Pour budgétiser les ressources, gérer les groupes de ressources et consulter l
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Pro ou niveau supérieur</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td><p>Nouveau : Tous</p>
+       <p>ou</p>
+       <p>Actuel : Pro ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouveau : Standard</p>
+       <p>ou</p>
+       <p>Actuel : formule</p></td>
+  </tr>  
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> 
     <ul> 
-     <li> <p>Modifiez l’accès à la gestion des ressources dans votre niveau d’accès qui comprend :</p> 
+     <li> <p>Modifiez l’accès à la gestion des ressources dans votre niveau d’accès qui comprend :</p> 
       <ul> 
        <li> <p>L’accès pour modifier les priorités du projet et les heures budgétées. </p> </li> 
-       <li> <p>L’accès à la gestion des groupes de ressources, si vous devez gérer le groupe de ressources.</p> </li> 
+       <li> <p>Accédez à la gestion des groupes de ressources, si vous devez gérer les groupes de ressources.</p> </li> 
       </ul> <p>Pour plus d’informations sur le niveau d’accès à la gestion des ressources, reportez-vous à l’article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Accorder l’accès à la gestion des ressources</a>.</p> </li> 
      <li> <p>Modifiez l’accès aux projets et aux personnes. </p> </li> 
      <li> <p> Modifiez l’accès aux données financières de votre niveau d’accès, si vous devez afficher ou gérer les informations par coût.</p> <p>Pour plus d’informations sur le niveau d’accès aux données financières, consultez l’article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Accorder l’accès aux données financières</a>.</p> </li> 
-    </ul>
-
-<p><b>NOTE</b> </p>
-
-<p> Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+    </ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérez les autorisations sur le projet qui incluent les autorisations de gestion financière.</p> <p>Pour plus d’informations sur les autorisations de projet, voir l’article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur les autorisations financières d’un projet, reportez-vous à l’article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Partager les autorisations financières sur un objet</a></a>.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Demander un accès aux objets </a>.</p>
+   <td> <p>Gérez les autorisations sur le projet qui incluent les autorisations de gestion financière.</p> <p>Pour plus d’informations sur les autorisations de projet, voir l’article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur les autorisations financières d’un projet, reportez-vous à l’article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Partager les autorisations financières sur un objet</a></a>.</p>
 
 <p><b>NOTE</b>
 
@@ -72,4 +73,4 @@ Lors de l’établissement du budget des ressources dans la vue Rôle, si vous d
  </tbody> 
 </table>
 
-*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
