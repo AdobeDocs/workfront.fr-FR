@@ -4,10 +4,10 @@ description: Améliorations apportées à l’administration du quatrième trime
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 23%
+source-wordcount: '395'
+ht-degree: 19%
 
 ---
 
@@ -17,12 +17,21 @@ Cette page décrit toutes les améliorations apportées à l’administration da
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2024, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Une option &quot;Tout sélectionner&quot; est désormais disponible dans les modèles de mise en page.
+
+>[!NOTE]
+>
+>Version de prévisualisation : vendredi 29 août 2024. Version de production pour l’ensemble des clientes et clients : vendredi 29 août 2024.
+
+Pour afficher et masquer plus facilement des champs avec des modèles de mise en page, une case à cocher **Tout sélectionner** a été ajoutée aux zones Aperçu et Finance de la vue Détails d’un modèle de mise en page. Cette option est disponible lorsque vous avez sélectionné Projet, Tâche, Problème, Portfolio ou Programme sous **Personnaliser ce que les utilisateurs voient**. Notez que tous les objets n’affichent pas la zone Finance et que les champs de chaque zone sont différents selon l’objet.
+
+Pour plus d’informations, voir [Personnalisation de la vue Détails à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+
 ## Restauration des packages de promotion d’environnement
 
 >[!NOTE]
 >
 >Aperçu de la version : 29 août 2024 ; Production pour une version rapide : avec la version 24.9 (12 septembre 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
->
 
 Pour rendre la promotion de l’environnement plus flexible et plus facile à utiliser, nous avons activé la fonctionnalité de restauration. Vous pouvez désormais restaurer les packages en moins de 24 heures, ce qui vous permet de restaurer plus facilement les configurations précédentes qui ont été affectées par un package de promotion d’environnement.
 

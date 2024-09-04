@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 51%
+source-wordcount: '1447'
+ht-degree: 48%
 
 ---
 
@@ -54,6 +54,23 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                     <td>
                         <p><span class="bold">Dates de publication</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> Une option "Tout sélectionner" est désormais disponible dans les modèles de mise en page</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>Pour afficher et masquer plus facilement des champs avec des modèles de mise en page, une case à cocher "Tout sélectionner" a été ajoutée aux zones Aperçu et Finance de la vue Détails dans un modèle de mise en page. Cette option est disponible lorsque vous avez sélectionné Projet, Tâche, Problème, Portfolio ou Programme sous "Personnaliser ce que voient les utilisateurs".</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 29 août 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Version de production pour tous les clients : 6 août 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,6 +134,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations de l’expérience de connexion à l’intégration Outlook</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>L’expérience de connexion à l’intégration d’Outlook a été rationalisée afin que tous les clients voient le même bouton pour se connecter à Workfront qu’ils soient activés ou non sur IMS. Les étapes de connexion suivantes restent différentes pour les instances IMS et non IMS, mais la page initiale est la même pour tous les utilisateurs.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>

@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 19%
+source-wordcount: '356'
+ht-degree: 18%
 
 ---
 
@@ -38,11 +38,23 @@ Pour plus d’informations sur les fonctionnalités incluses dans cette version,
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning après la mise à disposition de la version générale le 28 août 2024, voir [Activité de mise à jour d’Adobe Workfront Planning : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Exportation des détails des enregistrements vers PDF
+
+>[!NOTE]
+>
+>Aperçu de la version : 3 septembre 2024 ; Production pour une version rapide : avec la version 24.9 (12 septembre 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
+
+Vous pouvez désormais exporter la page de détails ou l’aperçu d’un enregistrement vers un document de PDF.
+
+Avant cette amélioration, vous pouviez exporter l’onglet Détails d’un enregistrement uniquement vers un fichier Word (.docx).
+
+Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
+
 ## Disponibilité générale de la planification Adobe Workfront
 
 >[!NOTE]
 >
->Version d’aperçu et de production : 28 août 2024
+>Version de prévisualisation : jeudi 28 août 2024. Version de production pour l’ensemble des clientes et clients : jeudi 28 août 2024.
 
 Adobe Workfront Planning est une nouvelle offre d’Adobe Workfront. Workfront Planning a pour objectif d’offrir une visibilité complète sur les détails opérationnels d’une entreprise et de répondre aux questions métier critiques à chaque étape du cycle de vie de la gestion du travail.
 
