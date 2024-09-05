@@ -5,10 +5,10 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 3abfa92e6ad33243a1cdd19de25bbe04a8e81425
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2087'
+ht-degree: 99%
 
 ---
 
@@ -96,7 +96,7 @@ Pour connecter [!DNL Jira Software] à [!DNL Workfront Fusion], vous devez crée
 1. Dans [!DNL Workfront Fusion], ajoutez un module [!DNL Jira] à un scénario pour ouvrir la boîte de dialogue **[!UICONTROL Créer une connexion]**.
 1. Indiquez les informations suivantes :
 
-   * **[!UICONTROL L’URL du service]**
+   * **[!UICONTROL URL du service] :** Il s’agit de l’URL de base que vous utilisez pour accéder à votre compte Jira. Exemple : `yourorganization.atlassian.net`
    * **[!UICONTROL Le nom d’utilisateur ou d’utilisatrice]**
    * **[!UICONTROL Le jeton d’API] :** il s’agit du jeton d’API que vous avez créé dans la section [Créer un jeton d’API dans [!DNL Jira]](#create-an-api-token-in-jira) de cet article.
 
@@ -230,7 +230,7 @@ Pour obtenir une clé privée pour votre connexion [!DNL Workfront Fusion Jira],
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Service URL]</td> 
-      <td>Saisissez l’URL de votre instance [!DNL Jira]. </td> 
+      <td>Saisissez l’URL de votre instance [!DNL Jira]. Exemple : <code>yourorganization.atlassian.net</code></td> 
      </tr> 
     </tbody> 
    </table>
@@ -377,9 +377,7 @@ Lorsque vous configurez ce module, les champs suivants s’affichent.
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
+     <img src="assets/quotes-in-json-350x120.png">  </td> 
   </tr> 
  </tbody> 
 </table>
