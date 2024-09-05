@@ -9,10 +9,10 @@ description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez auto
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '3099'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -637,8 +637,31 @@ Lorsque vous configurez ce module, les champs suivants s’affichent.
 
 ### Recherches
 
-* [[!UICONTROL Rechercher]](#search)
 * [[!UICONTROL Répertorier les modèles de workflows]](#list-workflow-templates)
+* [[!UICONTROL Rechercher]](#search)
+
+#### [!UICONTROL Répertorier les modèles de workflows]
+
+Ce module de recherche répertorie tous les modèles de workflow disponibles.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!DNL Connection]</td> 
+   <td> <p>Pour savoir comment connecter votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Outputs]</td> 
+   <td> <p>Sélectionnez les informations que vous souhaitez inclure dans le bundle de sortie pour ce module.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Limit]</td> 
+   <td> <p>Saisissez ou mappez le nombre maximum de modèles que vous souhaitez que le module renvoie au cours de chaque cycle d’exécution de scénario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Rechercher]
 
@@ -677,29 +700,6 @@ Lorsque vous configurez ce module, les champs suivants s’affichent.
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Sorting Direction]</td> 
    <td> <p>Sélectionnez si vous souhaitez trier les résultats par ordre croissant ou décroissant.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Répertorier les modèles de workflow]
-
-Ce module de recherche répertorie tous les modèles de workflow disponibles.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!DNL Connection]</td> 
-   <td> <p>Pour savoir comment connecter votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Outputs]</td> 
-   <td> <p>Sélectionnez les informations que vous souhaitez inclure dans le bundle de sortie pour ce module.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Limit]</td> 
-   <td> <p>Saisissez ou mappez le nombre maximum de modèles que vous souhaitez que le module renvoie au cours de chaque cycle d’exécution de scénario.</p> </td> 
   </tr> 
  </tbody> 
 </table>

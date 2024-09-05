@@ -10,10 +10,10 @@ description: Avec le connecteur  [!DNL Adobe Experience Manager Assets]  pour co
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -190,9 +190,18 @@ Si le bouton « Mapper » apparaît au-dessus d’un champ ou d’une fonction
 
 ![](assets/map-toggle-350x74.png)
 
+* [Copier un dossier ou une ressource](#copy-a-folder-or-asset)
+* [Créer un enregistrement](#create-a-record)
+* [Suppression d’un dossier, d’une ressource ou d’un rendu](#delete-a-folder-asset-or-rendition)
+* [Obtention d’une liste de dossiers](#get-a-folder-listing)
+* [Effectuer un appel API personnalisé.](#make-a-custom-api-call)
+* [Déplacer un dossier ou une ressource](#move-a-folder-or-asset)
+* [Mettre à jour un enregistrement](#update-a-record)
+* [Chargement d’une ressource](#upload-an-asset)
+
 ### [!UICONTROL Copier un dossier ou une ressource]
 
-Ce module d’action copie un dossier ou une ressource vers un autre emplacement de votre compte Adobe Experience Manager Assets.
+Ce module d’action copie un dossier ou une ressource vers un autre emplacement de votre compte Adobe Experience Manager Assets.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,7 +269,7 @@ Ce module d’action crée un dossier ou un commentaire de ressource.
  </tbody> 
 </table>
 
-### [!UICONTROL Supprimer un enregistrement]
+### [!UICONTROL Supprimer un dossier, une ressource ou un rendu]
 
 Ce module d’action supprime un dossier, une ressource ou un rendu.
 

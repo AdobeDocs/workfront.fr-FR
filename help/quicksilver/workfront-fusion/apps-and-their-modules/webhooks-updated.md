@@ -8,10 +8,10 @@ description: Un webhook est un appel HTTP déclenché par un événement. Vous p
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -134,7 +134,7 @@ Vous pouvez également suivre les étapes ci-dessous pour envoyer les données d
 
    Les éléments du webhook sont désormais disponibles dans le panneau de mappage pour une utilisation avec les modules suivants du scénario.
 
-## File d&#39;attente
+## File d’attente du webhook
 
 Si un webhook reçoit des données et qu’aucun scénario actif n’attend ces données, les données sont stockées dans la file d’attente. Une fois le scénario activé, il traite tous les lots en attente dans la file d’attente de manière séquentielle.
 

@@ -9,7 +9,7 @@ description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez auto
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: a09116572d4f9101740fa976f1d334e99fac3010
+source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
 workflow-type: tm+mt
 source-wordcount: '2699'
 ht-degree: 82%
@@ -656,6 +656,7 @@ Ce module permet de récupérer une liste de pièces jointes appartenant au mess
 ### Autre
 
 * [[!UICONTROL Ajouter une pièce jointe]](#add-an-attachment)
+  <!--Create and send a message-->
 * [[!UICONTROL Effectuer un appel API]](#make-an-api-call)
 
 #### [!UICONTROL Ajouter une pièce jointe]

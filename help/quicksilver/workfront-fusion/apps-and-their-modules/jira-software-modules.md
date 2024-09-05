@@ -5,10 +5,10 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '2072'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -281,8 +281,8 @@ Ce module déclencheur lance un scénario lorsqu’un enregistrement est ajouté
 ### Actions
 
 * [[!UICONTROL Ajouter un problème au sprint]](#add-issue-to-sprint)
-* [[!UICONTROL Appel d’API personnalisé]](#custom-api-call)
 * [[!UICONTROL Créer un enregistrement]](#create-a-record)
+* [[!UICONTROL Appel API personnalisé]](#custom-api-call)
 * [[!UICONTROL Supprimer un enregistrement]](#delete-a-record)
 * [[!UICONTROL Télécharger une pièce jointe]](#download-an-attachment)
 * [[!UICONTROL Lire un enregistrement]](#read-a-record)

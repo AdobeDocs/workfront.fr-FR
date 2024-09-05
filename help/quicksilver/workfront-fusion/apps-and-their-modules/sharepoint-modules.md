@@ -9,10 +9,10 @@ description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez auto
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '2850'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -217,7 +217,7 @@ Ce module de déclenchement lance un scénario lorsqu’un élément est mis à 
 
 ### Élément
 
-* [[!UICONTROL Copier l’élément]](#copy-an-item)
+* [[!UICONTROL Copier un élément]](#copy-an-item)
 * [[!UICONTROL Créer un élément]](#create-an-item)
 * [[!UICONTROL Supprimer un élément]](#delete-an-item)
 * [[!UICONTROL Obtenir un élément]](#get-an-item)
@@ -651,6 +651,10 @@ Ce module d’action recherche des sites en fonction d’un paramètre que vous 
 </table>
 
 ### Autre
+
+* [Obtenir les modifications](#get-changes)
+* [Effectuer un appel API](#make-an-api-call)
+* [Surveiller les événements](#watch-events)
 
 #### Obtenir les modifications
 

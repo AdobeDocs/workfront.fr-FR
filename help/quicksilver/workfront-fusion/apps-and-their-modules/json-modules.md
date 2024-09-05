@@ -8,10 +8,10 @@ description: L’application JSON d’Adobe Workfront Fusion fournit des modul
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 0290772c26ca82af31f14d101b4dde99377d6ce4
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -88,7 +88,7 @@ Si le champ Chaîne de caractères JSON contient une collection `{ ... }`, la so
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Si le champ Chaîne de caractères JSON contient un tableau `[ ... ]`, la sortie
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -125,13 +125,14 @@ Si le bouton « Mapper » apparaît au-dessus d’un champ ou d’une fonction
 
 ![](assets/map-toggle-350x74.png)
 
-* [Agréger en JSON](#aggregate-to-json)
 * [Convertir JSON en XML](#convert-json-to-xml)
 * [Analyser la chaîne JSON](#parse-json)
 * [Créer une chaîne JSON](#create-json)
 * [Transformer la chaîne JSON](#transform-json)
 
-### [!UICONTROL Agréger en chaîne JSON]
+### Agrégateurs
+
+#### [!UICONTROL Agréger en chaîne JSON]
 
 Ce module agrégateur regroupe les résultats d’un module précédent en chaîne JSON.
 
@@ -162,7 +163,14 @@ Ce module agrégateur regroupe les résultats d’un module précédent en chaî
  </tbody> 
 </table>
 
-### [!UICONTROL Convertir la chaîne JSON en XML]
+### Transformateurs
+
+* [Convertir JSON en XML](#convert-json-to-xml)
+* [Créer une chaîne JSON](#create-json)
+* [Analyser la chaîne JSON](#parse-json)
+* [Transformer la chaîne JSON](#transform-json)
+
+#### [!UICONTROL Convertir la chaîne JSON en XML]
 
 Ce module d’action convertit une chaîne JSON en XML.
 
@@ -177,7 +185,22 @@ Ce module d’action convertit une chaîne JSON en XML.
  </tbody> 
 </table>
 
-### [!UICONTROL Analyser le code JSON]
+#### [!UICONTROL Créer un code JSON]
+
+Ce module d’action crée du code JSON à partir d’une structure de données.
+
+<table style="table-layout:auto"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Structures des données</td> 
+   <td> <p>Sélectionnez la structure de données que vous souhaitez utiliser pour créer la chaîne JSON. Pour plus d’informations, voir <a href="#data-structure" class="MCXref xref">Structure des données</a> dans cet article.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Analyser le code JSON]
 
 Ce module d’action analyse une chaîne JSON dans une structure de données, ce qui vous permet d’accéder aux données contenues dans la chaîne JSON.
 
@@ -196,22 +219,7 @@ Ce module d’action analyse une chaîne JSON dans une structure de données, ce
  </tbody> 
 </table>
 
-### [!UICONTROL Créer un code JSON]
-
-Ce module d’action crée du code JSON à partir d’une structure de données.
-
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Structures des données</td> 
-   <td> <p>Sélectionnez la structure de données que vous souhaitez utiliser pour créer la chaîne JSON. Pour plus d’informations, voir <a href="#data-structure" class="MCXref xref">Structure des données</a> dans cet article.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Transformer une chaîne JSON]
+#### [!UICONTROL Transformer une chaîne JSON]
 
 Ce module d’action transforme un objet en une chaîne JSON.
 
@@ -234,48 +242,48 @@ Ce module d’action transforme un objet en une chaîne JSON.
 >
 >1. Placez le module [!DNL Google Sheets] > [!UICONTROL Sélectionner des lignes] dans votre scénario pour récupérer les données. Configurez le module pour récupérer les lignes de votre feuille de calcul [!DNL Google]. Définissez le **[!UICONTROL Nombre maximal de lignes renvoyées]** sur un petit nombre, mais plus grand que 1 à des fins de test (par exemple, trois). Exécutez le module [!DNL Google Sheets] en cliquant dessus avec le bouton droit et en choisissant « **[!UICONTROL Exécuter ce module uniquement]** ». Vérifiez la sortie du module.
 >
->1. Connectez-vous au module [!UICONTROL Agrégateur de tableau] après le module [!DNL Google Sheets]. Dans la configuration du module, choisissez le module [!DNL Google Sheets] dans le champ **[!UICONTROL Nœud source]**. Laissez les autres champs tels quels pour le moment.
+1. Connectez-vous au module [!UICONTROL Agrégateur de tableau] après le module [!DNL Google Sheets]. Dans la configuration du module, choisissez le module [!DNL Google Sheets] dans le champ **[!UICONTROL Nœud source]**. Laissez les autres champs tels quels pour le moment.
 >
->1. Connectez [!UICONTROL JSON] > module [!UICONTROL Créer JSON] après le module [!UICONTROL Agrégateur de tableaux]. La configuration du module nécessite une structure de données qui décrit le format JSON. Cliquez sur **[!UICONTROL Ajouter]** pour ouvrir la configuration de la structure de données. La manière la plus simple de créer cette structure de données est de la générer automatiquement à partir d’un exemple JSON. Cliquez sur **[!UICONTROL Générateur]** et collez votre exemple JSON dans le champ **[!UICONTROL Données d’exemple]** :
+1. Connectez [!UICONTROL JSON] > module [!UICONTROL Créer JSON] après le module [!UICONTROL Agrégateur de tableaux]. La configuration du module nécessite une structure de données qui décrit le format JSON. Cliquez sur **[!UICONTROL Ajouter]** pour ouvrir la configuration de la structure de données. La manière la plus simple de créer cette structure de données est de la générer automatiquement à partir d’un exemple JSON. Cliquez sur **[!UICONTROL Générateur]** et collez votre exemple JSON dans le champ **[!UICONTROL Données d’exemple]** :
 >
->**Exemple :**
+**Exemple :**
 >
->```
->{
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
->"books": [
+1. Cliquer sur **[!UICONTROL Enregistrer]**. Le champ [!UICONTROL Spécification] de la structure de données contient maintenant la structure générée.
+1. Attribuez à votre structure de données un nom plus spécifique et cliquez sur **[!UICONTROL Enregistrer]**. Un champ correspondant à l’attribut de tableau racine apparaît comme champ mappable dans la configuration du module JSON.
 >
->{
+1. Cliquez sur le bouton **[!UICONTROL Mapper]** en regard du champ et mappez-y l’élément `Array[]` de la sortie de l’Agrégateur de tableaux.
 >
->"id": "ID",
+1. Cliquez sur **[!UICONTROL OK]** pour fermer la configuration du module [!UICONTROL JSON].
 >
->"title": "Title",
+1. Ouvrez la configuration du module [!UICONTROL Agrégateur de tableau]. Modifiez la **[!UICONTROL structure cible]** de [!UICONTROL Personnalisée] en champ du module [!UICONTROL JSON] correspondant à l’attribut tableau racine. Mappez les éléments du module [!DNL Google Sheets] aux champs appropriés.
 >
->"author": "Author"
+1. Cliquez sur **[!UICONTROL OK]** pour fermer la configuration du module [!UICONTROL Agrégateur de tableau].
 >
->}
+1. Exécutez le scénario.
 >
->]
+Le module [!UICONTROL JSON] produit le bon format JSON.
 >
->}
->```
->
->1. Cliquer sur **[!UICONTROL Enregistrer]**. Le champ [!UICONTROL Spécification] de la structure de données contient maintenant la structure générée.
->1. Attribuez à votre structure de données un nom plus spécifique et cliquez sur **[!UICONTROL Enregistrer]**. Un champ correspondant à l’attribut de tableau racine apparaît comme champ mappable dans la configuration du module JSON.
->
->1. Cliquez sur le bouton **[!UICONTROL Mapper]** en regard du champ et mappez-y l’élément `Array[]` de la sortie de l’Agrégateur de tableaux.
->
->1. Cliquez sur **[!UICONTROL OK]** pour fermer la configuration du module [!UICONTROL JSON].
->
->1. Ouvrez la configuration du module [!UICONTROL Agrégateur de tableau]. Modifiez la **[!UICONTROL structure cible]** de [!UICONTROL Personnalisée] en champ du module [!UICONTROL JSON] correspondant à l’attribut tableau racine. Mappez les éléments du module [!DNL Google Sheets] aux champs appropriés.
->
->1. Cliquez sur **[!UICONTROL OK]** pour fermer la configuration du module [!UICONTROL Agrégateur de tableau].
->
->1. Exécutez le scénario.
->
->Le module [!UICONTROL JSON] produit le bon format JSON.
->
->1. Ouvrez la configuration du module [!DNL Google Sheets] et augmentez le [!UICONTROL nombre maximal de lignes renvoyées] pour que ce nombre soit supérieur au nombre de lignes de votre feuille de calcul afin de traiter toutes les données.
+1. Ouvrez la configuration du module [!DNL Google Sheets] et augmentez le [!UICONTROL nombre maximal de lignes renvoyées] pour que ce nombre soit supérieur au nombre de lignes de votre feuille de calcul afin de traiter toutes les données.
 
 ## Dépannage
 
@@ -289,6 +297,6 @@ Lorsque vous utilisez des instructions conditionnelles telles que `if` dans JSON
 
 >[!INFO]
 >
->**Exemple :**
+**Exemple :**
 >
->![](assets/quotes-in-json-350x120.png)
+![](assets/quotes-in-json-350x120.png)
