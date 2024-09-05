@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '7446'
+source-wordcount: '7484'
 ht-degree: 37%
 
 ---
@@ -144,6 +144,13 @@ Les fonctionnalités suivantes sont incluses dans cette mise à jour :
 * En tant que gestionnaire d’espace de travail, vous pouvez créer un formulaire de demande et l’associer à un type d’enregistrement. Vous pouvez partager un lien vers ce formulaire avec d’autres utilisateurs, y compris des utilisateurs externes.
 
 * Lorsque les utilisateurs accèdent au formulaire, le remplissent et envoient la demande, un enregistrement est créé pour le type d’enregistrement associé au formulaire de demande.
+
+* Selon son paramétrage, le formulaire de demande peut afficher tous les champs du type d&#39;enregistrement, à l&#39;exception des champs des types suivants :
+
+   * Personnes
+   * Champs connectés (y compris les connexions avec des ressources Experience Manager)
+   * Champs de recherche connectés
+   * Formule
 
 Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 

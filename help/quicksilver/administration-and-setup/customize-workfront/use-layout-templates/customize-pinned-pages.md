@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 98%
+source-wordcount: '516'
+ht-degree: 93%
 
 ---
 
@@ -64,11 +64,38 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
 1. Dans le menu déroulant qui s’affiche, effectuez l’une des opérations suivantes :
 
-   * Cliquez sur un élément du menu principal.
+   * Sélectionnez l’une des zones suivantes :
 
-     >[!IMPORTANT]
-     >
-     >La consultation des zones Scénarios et Objectifs nécessite des licences supplémentaires. Pour plus d’informations sur les Objectifs Workfront, voir [Vue d’ensemble des Objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md) ou pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+      * Analytique
+      * Calendriers
+      * Tableaux de bord
+      * Documents
+      * Objectifs
+      * Page d’accueil
+      * Mes mises à jour
+      * Portefeuilles
+      * Programmes
+      * Projets
+      * Rapports
+      * Demandes
+      * Ressources
+      * Scénarios
+      * Équipes
+      * Modèles
+      * Feuilles de temps
+      * Utilisateurs
+      * Plans directeurs
+      * Planification
+
+   >[!IMPORTANT]
+   >
+   >Pour afficher les scénarios, les objectifs et la planification, des licences supplémentaires sont nécessaires.
+   >
+   >* Pour plus d’informations sur les Objectifs Workfront, voir [Vue d’ensemble des Objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* Pour plus d’informations sur la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 
    * Cliquez sur **Ajouter un tableau de bord**, puis saisissez un **Titre de section personnalisée** descriptif et ajoutez le tableau de bord.
 

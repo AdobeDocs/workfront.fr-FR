@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1357'
 ht-degree: 10%
 
 ---
@@ -216,7 +216,7 @@ Les événements suivants se produisent :
    * L’objet Workfront est également supprimé du champ connecté de l’enregistrement de Workfront Planning.
    * Les valeurs des champs de recherche Workfront connectés à l’enregistrement Planning sont également supprimées.
 
-## Réorganiser les champs dans l’aperçu ou la page de l’enregistrement
+## Réorganiser les champs dans l’onglet Détails de l’enregistrement
 
 {{step1-to-planning}}
 
@@ -240,11 +240,11 @@ Les événements suivants se produisent :
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
-   La page de l’enregistrement s’ouvre.
+   L’onglet **Détails** de l’enregistrement s’ouvre par défaut.
 
    ![](assets/details-page.png)
 
-1. Dans l’aperçu de l’enregistrement ou la page, cliquez sur l’icône **grab** ![](assets/grab-icon.png) située à gauche du nom d’un champ, puis faites-le glisser et déposez-le à l’emplacement de votre choix. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Dans l’onglet **Détails** de l’enregistrement, cliquez sur l’icône **grab** ![](assets/grab-icon.png) à gauche d’un nom de champ, puis faites-le glisser et déposez-le à l’emplacement de votre choix. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    La nouvelle position du champ est mise à jour dans la prévisualisation et la page de tous les enregistrements du même type pour tous les utilisateurs qui visualisent les enregistrements.
 

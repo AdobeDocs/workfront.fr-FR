@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1159'
 ht-degree: 15%
 
 ---
@@ -129,7 +130,17 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    Le formulaire de demande contient les informations suivantes, par défaut :
 
-   * Tous les champs d’enregistrement disponibles dans la vue de tableau du type d’enregistrement sélectionné.
+   * Champs d’enregistrement disponibles dans la vue de tableau du type d’enregistrement sélectionné. <!--they are working on removing the limitation below-->
+
+     >[!IMPORTANT]
+     >
+     >   Les champs des types suivants ne s’affichent pas dans le formulaire de requête :
+     >
+     >    * Personnes
+     >    * Champs connectés (y compris les connexions avec des ressources Experience Manager)
+     >    * Champs de recherche connectés
+     >    * Formule
+
    * **Section par défaut** : il s’agit du saut de section par défaut appliqué par Workfront au formulaire de demande. La section Par défaut ne peut pas être renommée ni supprimée.
    * **Objet** : champ qui identifie la demande dans Workfront. Cette fonctionnalité n’est pas encore disponible.
    * Tous les champs associés au type d&#39;enregistrement.
@@ -198,6 +209,3 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    >
    >Il y a une indication que le lien est partagé publiquement lorsque c&#39;est le cas.
    >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
-
-
-

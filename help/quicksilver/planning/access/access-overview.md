@@ -6,10 +6,10 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3232676a77c8e9fcb58e97374a4e7686620136da
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 36%
+source-wordcount: '666'
+ht-degree: 33%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 36%
 >
 >Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle offre d’Adobe Workfront.
 >
->Pour accéder à Workfront Planning, vous devez disposer des éléments suivants :
+>Votre entreprise doit acheter une licence supplémentaire pour Workfront Planning pour accéder à ses fonctionnalités.
 >
->* Un nouveau forfait et une nouvelle licence Workfront. Workfront Planning n’est pas disponible pour les licences ou les forfaits Workfront hérités.
->* Une licence supplémentaire pour la planification Workfront.
->* L’instance Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe.
+>Pour plus d’informations, contactez votre gestionnaire de compte.
 >
 >Pour plus d’informations sur la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 
 Des restrictions de licence et de partage s’appliquent à l’utilisation d’Adobe Workfront Planning.
+
+Cet article décrit l’accès et les paramètres dont vous avez besoin pour utiliser les fonctionnalités de la planification Workfront.
 
 ## Conditions d’accès
 
@@ -111,13 +111,18 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page comprenant la zone Planning du menu principal et la zone Planning des objets pouvant se connecter à Workfront Planning : projets, portefeuilles et programmes. </p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Personnaliser le menu principal à l’aide d’un modèle de mise en page</a> et <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Affecter des utilisateurs à un modèle de mise en page</a>. </p>  
+   <td> <p>Tous les utilisateurs, y compris les administrateurs Workfront, doivent se voir attribuer un modèle de mise en page incluant l’option Planification dans les zones suivantes :</p>
+   <ul><li>Menu principal</li>
+   <li>Panneau de gauche des projets, portefeuilles et programmes</li>
+   <li>Landing page</li>
+   <li>Épingles</li></ul>
+   <p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Créer et gérer des modèles de disposition</a>.</p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 <!--Acccess and permissions before GA (OLD): 
@@ -188,19 +193,24 @@ You must have the following to be able to access Workfront Planning:
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
 
-
-
-## Partager la zone Planning du menu principal avec d’autres personnes
+## Partage de la zone Planning à l&#39;aide d&#39;un modèle de mise en page
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-Une fois que votre entreprise a été inscrite au programme de planification Workfront, vous pouvez ajouter la zone Planning au menu principal de tous les utilisateurs à l’aide d’un modèle de mise en page.
+Une fois que votre entreprise a acquis une licence Workfront Planning supplémentaire, votre administrateur système peut ajouter l’option Planning aux zones suivantes en vous modifiant et en vous affectant à un modèle de mise en page :
 
-1. Se connecter à **Workfront** en tant qu’administrateur ou administratrice de Workfront.
+* Menu principal
+* Landing page
+* Panneau de gauche pour les projets, portefeuilles et programmes
+* Épingles
 
-1. Ajoutez l’icône **Planning** ![](assets/planning-icon.png) au **Menu Principal** en utilisant un **Modèle de mise en page**.
+Pour ajouter des zones de planification Workfront à votre instance Workfront :
 
-   Pour plus d’informations, consultez la section [Personnaliser le menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+1. Connectez-vous à **Workfront** en tant qu’administrateur ou administratrice système.
+
+1. Accédez au **menu principal** > **Configuration** > **Interface** > **Modèles de mise en page** et ouvrez ou créez un modèle de mise en page.
+
+   Pour plus d’informations sur la personnalisation d’un modèle de mise en page, voir [Créer et gérer des modèles de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 1. Affectez le modèle de mise en page aux personnes auxquelles vous souhaitez accorder l’accès à Workfront Planning.
 

@@ -8,16 +8,21 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 97%
+source-wordcount: '442'
+ht-degree: 88%
 
 ---
 
 # Personnaliser la page de destination à l’aide d’un modèle de disposition
 
 En tant qu’administrateur ou administratrice Workfront, vous pouvez utiliser un modèle de disposition pour spécifier la zone que les utilisateurs et utilisatrices doivent voir chaque fois qu’ils se connectent à Workfront.
+
+Les utilisateurs peuvent ouvrir l’une des options suivantes :
+
+* Zone Workfront désignée
+* Un tableau de bord personnalisé.
 
 Pour plus d’informations sur la création de modèles de disposition, voir [Créer et gérer des modèles de disposition](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -62,9 +67,38 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 1. Commencez à travailler sur un modèle de disposition, comme décrit dans la section [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Dans le **zone de navigation supérieure**, cliquez sur **Sélectionner une page de destination**, puis sélectionnez la zone que les utilisateurs et utilisatrices doivent voir lorsqu’ils se connectent.
 
+   Sélectionnez l’une des zones suivantes ou ajoutez un tableau de bord personnalisé :
+
+   * Analytique
+   * Calendriers
+   * Tableaux de bord
+   * Documents
+   * Objectifs
+   * Page d’accueil
+   * Mes mises à jour
+   * Portefeuilles
+   * Programmes
+   * Projets
+   * Rapports
+   * Demandes
+   * Ressources
+   * Scénarios
+   * Équipes
+   * Modèles
+   * Feuilles de temps
+   * Utilisateurs
+   * Plans directeurs
+   * Planification
+
    >[!IMPORTANT]
    >
-   >La consultation des zones Scénarios et Objectifs nécessite des licences supplémentaires. Pour plus d’informations sur Objectifs Workfront, voir [Vue d’ensemble d’Objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md), ou pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+   >Pour afficher les scénarios, les objectifs et la planification, des licences supplémentaires sont nécessaires.
+   >
+   >* Pour plus d’informations sur les Objectifs Workfront, voir [Vue d’ensemble des Objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* Pour plus d’informations sur la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 
 1. Poursuivez la personnalisation du modèle de mise en page.
 

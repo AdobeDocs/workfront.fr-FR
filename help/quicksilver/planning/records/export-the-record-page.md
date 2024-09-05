@@ -5,15 +5,17 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 22%
+source-wordcount: '499'
+ht-degree: 23%
 
 ---
 
-
 # Exporter les détails d’un enregistrement
+
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Pour collaborer plus efficacement avec d’autres utilisateurs qui ne disposent pas d’un compte Workfront, vous pouvez exporter les détails d’un enregistrement vers un fichier et le partager avec eux.
 
@@ -149,7 +151,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 * Vous pouvez exporter les détails d’un enregistrement vers les formats de fichier suivants :
 
    * .docx Word
-   * pdf
+   * <span class="preview">.pdf</span>
 
 * Vous pouvez exporter l’onglet Détails de la page d’un enregistrement. Vous ne pouvez pas exporter l’onglet Connexions .
 
@@ -177,12 +179,18 @@ La page de type enregistrement s’ouvre et tous les enregistrements de ce type 
 1. Cliquez sur l&#39;icône **Exporter** ![](assets/export-icon-in-record-details-page.png) dans la page d&#39;aperçu ou d&#39;enregistrement, puis cliquez sur l&#39;une des options suivantes :
 
    * **Microsoft Word**
-   * **Adobe PDF**
+   * <span class="preview">**Adobe PDF**</span>
 
-   Un fichier Word (.docx) ou PDF est téléchargé et enregistré sur votre ordinateur.
+   Un fichier Word (.docx) <span class="preview"> ou un PDF</span> est téléchargé et enregistré sur votre ordinateur.
 
    Le nom du fichier exporté est le champ de Principal de l’enregistrement.
 
    ![](assets/exported-word-file.png)
 
+   >[!NOTE]
+   >
+   >    Les informations supplémentaires qui ne s’affichent pas sur la page et ne sont visibles qu’après avoir cliqué sur Afficher plus dans l’onglet Détails ne s’affichent pas dans le fichier de PDF exporté. Seules les informations visibles sur la page s’affichent dans le fichier exporté.
+
+
 1. (Facultatif) Accédez au fichier téléchargé, ouvrez-le et modifiez-le (s’il s’agit d’un fichier Word) ou partagez-le avec d’autres personnes.
+
