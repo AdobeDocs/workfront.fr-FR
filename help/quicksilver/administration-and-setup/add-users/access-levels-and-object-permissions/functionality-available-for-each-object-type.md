@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '1891'
-ht-degree: 99%
+source-wordcount: '1919'
+ht-degree: 97%
 
 ---
 
@@ -357,7 +357,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
   </tr> 
   <tr> 
    <td>Modifier, supprimer, désactiver, se connecter en tant que ou réinitialiser le mot de passe d’un utilisateur ou d’une utilisatrice</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b>REMARQUE</b> : vous ne pouvez pas vous connecter en tant qu’utilisateur administrateur système.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -365,7 +365,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
   </tr> 
   <tr> 
    <td>Modifier, supprimer, désactiver, se connecter en tant que ou réinitialiser le mot de passe d’un utilisateur ou d’une utilisatrice d’un groupe sous son administration</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b>REMARQUE</b> : vous ne pouvez pas vous connecter en tant qu’utilisateur administrateur système.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 

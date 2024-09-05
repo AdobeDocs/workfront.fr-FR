@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 99%
+source-wordcount: '793'
+ht-degree: 97%
 
 ---
 
@@ -95,7 +95,7 @@ Vous pouvez gérer les informations que les utilisateurs et utilisatrices peuven
       <td> <p>Permet d’effectuer les opérations suivantes pour n’importe quelle personne utilisant Workfront :</p> 
        <ul> 
         <li>Modifier, supprimer ou désactiver la personne</li> 
-        <li>Se connecter en tant qu’utilisateur ou utilisatrice</li> 
+        <li>Se connecter en tant qu’utilisateur ou utilisatrice<p><b>REMARQUE</b> : vous ne pouvez pas vous connecter en tant qu’utilisateur administrateur système.</p></li> 
         <li>Réinitialiser le mot de passe de l’utilisateur ou de l’utilisatrice</li> 
        </ul> <p>Cette option est désactivée par défaut.</p> </td> 
      </tr> 
