@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
+source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
 workflow-type: tm+mt
-source-wordcount: '2147'
-ht-degree: 100%
+source-wordcount: '2157'
+ht-degree: 99%
 
 ---
 
@@ -452,6 +452,12 @@ Par exemple, un abonnement à un événement **METTRE À JOUR - TÂCHE** peut ê
 * L’application de plusieurs filtres à un seul abonnement équivaut à utiliser un opérateur logique **ET**.
 * Plusieurs abonnements d’événement peuvent être appliqués à un seul objet tant qu’un ou plusieurs paramètres de champ d’abonnement d’événement sont différents entre chaque abonnement d’événement.
 * Lorsque plusieurs abonnements d’événement sont attribués à un seul objet, tous les abonnements d’événement associés à cet objet peuvent être renvoyés à un seul point d’entrée. Cette pratique peut être utilisée comme équivalent à un opérateur logique **OU** qui ne peut pas être défini à l’aide des paramètres de filtre.
+* Les champs suivants ne peuvent pas être filtrés :
+
+   * DOCU.groups
+   * RECORD.data
+   * RECORD_TYPE.data
+   * RECORD_TYPE.fields
 
 ### Utiliser des opérateurs de comparaison
 
