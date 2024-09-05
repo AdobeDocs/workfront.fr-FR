@@ -7,10 +7,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 93%
+source-wordcount: '524'
+ht-degree: 70%
 
 ---
 
@@ -23,9 +23,15 @@ Pour obtenir la liste de tous les tableaux de bord Zone de travail, voir [Vue d�
 
 **État de Beta**
 
-Les tableaux de bord de la zone de travail sont actuellement en phase de test bêta publique et font donc l’objet de modifications fréquentes. Voir ci-dessous pour obtenir des instructions sur la façon de s’inscrire à la version bêta.
+Les tableaux de bord de la zone de travail sont actuellement en phase de test bêta fermée et sont donc soumis à de fréquentes modifications. Voir ci-dessous pour obtenir des instructions sur la façon de s’inscrire à la version bêta.
 
 ## Participer à la version bêta
+
+>[!IMPORTANT]
+>
+>Les tableaux de bord de la zone de travail sont actuellement en version bêta fermée et ne sont donc disponibles que pour certaines organisations. Nous continuons d’inviter directement les organisations à la version bêta à partir d’une liste d’attente de ceux qui ont exprimé leur intérêt. Vous pouvez ajouter votre organisation à la liste d’attente en envoyant [ce formulaire de programme de retour d’Adobe](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta). En outre, les entreprises qui ont acheté Workfront Planning dans le cadre de leur package ont reçu un accès bêta afin de tester les fonctionnalités de reporting inter-produits.
+>
+>Nous passerons à une version bêta ouverte, à laquelle le processus d’inscription sera disponible pour toutes les organisations.
 
 ### S’inscrire
 
@@ -33,11 +39,7 @@ Pour vous inscrire à la version bêta, procédez comme suit :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
 
-1. Cliquez sur le bouton **Rejoindre la version bêta des tableaux bord Zone de travail** dans le coin supérieur droit de la page.
-
-   >[!NOTE]
-   >
-   >Ce bouton n’est disponible que si votre entreprise participe à la version bêta fermée. Lorsque la version bêta ouverte sera disponible, elle sera accessible à toutes les entreprises.
+1. Cliquez sur le bouton bêta **Rejoindre les tableaux de bord de la zone de travail bêta** dans le coin supérieur droit de la page. Notez que ce bouton ne sera disponible que si votre entreprise a été invitée à la version bêta fermée.
 
 1. Lisez les conditions, puis cliquez sur **Accepter**. Votre inscription à la version bêta est désormais effective. Notez toutefois que quelques minutes sont nécessaires pour que vos données Workfront soient entièrement accessibles dans les tableaux de bord Zone de travail.
 
