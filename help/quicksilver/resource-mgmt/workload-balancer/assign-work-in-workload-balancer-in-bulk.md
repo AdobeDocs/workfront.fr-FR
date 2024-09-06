@@ -1,25 +1,21 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Attribuer du travail en bloc à l’aide de l’équilibreur de charge de travail
+title: Affectation de travail en bloc à l’aide de l’équilibreur de charge de travail
 description: Vous pouvez affecter des ressources à plusieurs tâches et problèmes en bloc à l’aide de l’équilibreur de charge de travail Adobe Workfront.
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 92%
+source-wordcount: '1521'
+ht-degree: 91%
 
 ---
 
 # Attribuer du travail en bloc à l’aide de l’équilibreur de charge de travail
 
 <!--Audited: 07/2024-->
-
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
 
 Vous pouvez affecter des ressources à plusieurs tâches et problèmes en bloc à l’aide de l’équilibreur de charge de travail Adobe Workfront.
 
@@ -28,6 +24,8 @@ Pour des informations générales sur l’attribution de travail aux utilisateur
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,36 +36,31 @@ Pour des informations générales sur l’attribution de travail aux utilisateur
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> 
-   <p>Nouveau : Standard</p>
-   <p>Actuel :</p>
-   <ul>
-   <li><p>Plan, pour l’utilisation de l’équilibreur de charge de travail dans la zone Ressources.</p></li>
-   <li><p>Travail, pour l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet.</p></li></ul>
-
-</td> 
-  </tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouveau : Standard</p>
+       <p>ou</p>
+       <p>Actuel : planifiez, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ;</br>
+       Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifiez l’accès aux éléments suivants :</p> 
     <ul> 
-     <li> <p>Gestion des ressources</p> </li> 
-     <li> <p>Projets</p> </li> 
-     <li> <p>Tâches</p> </li> 
-     <li> <p>Problèmes</p> </li> 
+     <li>Gestion des ressources</li> 
+     <li>Projets</li> 
+     <li>Tâches</li> 
+     <li>Problèmes</li> 
     </ul>
-
-</td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations Contribuer ou supérieures aux projets, tâches et problèmes qui incluent la création d’affectations.</p> </td> 
+   <td>Autorisations Contribuer ou supérieures aux projets, tâches et problèmes qui incluent la création d’affectations.</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -100,27 +93,27 @@ Pour des informations générales sur l’attribution de travail aux utilisateur
 
 1. (Le cas échéant) Si vous accédez à l’équilibreur de charge de travail à partir de la zone Ressources ou pour une équipe, développez le menu déroulant **Projet : nom** et utilisez les modificateurs de filtre pour sélectionner le ou les projets pour lesquels vous souhaitez effectuer des affectations. Vous pouvez sélectionner les projets par nom (option par défaut) ou par statut.
 
-Pour plus d’informations sur les modificateurs de filtre Workfront, voir [Modificateurs de filtre et de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Pour plus d’informations sur les modificateurs de filtre Workfront, voir [Modificateurs de filtre et de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
->[!NOTE]
->
->Le nom du projet est sélectionné par défaut lorsque vous accédez à l’équilibreur de charge de travail pour un projet.
+   >[!NOTE]
+   >
+   >Le nom du projet est sélectionné par défaut lorsque vous accédez à l’équilibreur de charge de travail pour un projet.
 
-![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. (Facultatif) Cliquez sur **Sélectionner les tâches de projet** pour sélectionner la ou les tâches pour lesquelles vous souhaitez effectuer des affectations, puis dans le menu déroulant **Tâche : nom**, sélectionnez les tâches par nom (option par défaut) ou par statut et utilisez les modificateurs de filtre pour rechercher des tâches spécifiques.
 
-Pour plus d’informations sur les modificateurs de filtre Workfront, voir [Modificateurs de filtre et de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Pour plus d’informations sur les modificateurs de filtre Workfront, voir [Modificateurs de filtre et de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
->[!NOTE]
->
->Vous ne pouvez pas sélectionner de tâches dont le statut est Terminé.
+   >[!NOTE]
+   >
+   >Vous ne pouvez pas sélectionner de tâches dont le statut est Terminé.
 
-![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
->[!TIP]
->
->Laissez cette sélection vide si vous souhaitez effectuer des affectations groupées pour les problèmes ainsi que pour les tâches.
+   >[!TIP]
+   >
+   >Laissez cette sélection vide si vous souhaitez effectuer des affectations groupées pour les problèmes ainsi que pour les tâches.
 
 1. (Facultatif) Cliquez sur l’icône **Supprimer** ![](assets/delete.png) en regard de l’un des critères sélectionnés.
 

@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Filtrer des informations dans l’équilibreur de charge de travail
+title: Filtrage des informations dans l’équilibreur de charge de travail
 description: Pour rechercher efficacement des éléments de travail et vous concentrer sur les utilisateurs et utilisatrices ou les éléments que vous gérez, nous vous recommandons vivement d’utiliser des filtres dans l’équilibreur de charge de travail.
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b255a3140629a488d24d1df980ba81faa1064d16
 workflow-type: tm+mt
-source-wordcount: '2497'
-ht-degree: 99%
+source-wordcount: '2470'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,9 @@ Cet article contient des informations sur les filtres dans l’équilibreur de c
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,38 +45,40 @@ Vous devez disposer des éléments suivants :
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous les plans</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan, pour l’utilisation de l’équilibreur de charge de travail dans la zone Ressources.</p>
-   <p>Travail, pour l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet.</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouveau : Standard</p>
+       <p>ou</p>
+       <p>Actuel : planifiez, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ;</br>
+       Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Accès en affichage ou supérieur aux éléments suivants :</p> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès Affichage ou niveau supérieur aux éléments suivants :</p> 
     <ul> 
-     <li> <p>Gestion des ressources</p> </li> 
-     <li> <p>Projets</p> </li> 
-     <li> <p>Tâches</p> </li> 
-     <li> <p>Problèmes</p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Filtres, vues et regroupements</p> </li> 
-    </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>Modifier l’accès aux filtres, vues et regroupements lors de la création ou de la modification de filtres</span> </p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+     <li>Gestion des ressources</li> 
+     <li>Projets</li> 
+     <li>Tâches</li> 
+     <li>Problèmes</li>
+     <li>Filtres, vues et regroupements</li>
+    </ul>
+    <p>Modifier l’accès aux filtres, vues et groupes lors de la création ou de la modification de filtres </p> </td>
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Autorisations d’affichage ou supérieures pour les projets, tâches et problèmes</p>
    <p>Autorisations de gestion pour les filtres que vous souhaitez modifier ou supprimer.</p>
-     </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vue d’ensemble des filtres dans l’équilibreur de charge de travail
 

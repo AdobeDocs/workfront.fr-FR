@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Vue d’ensemble de l’affectation de travail dans l’équilibreur de charge de travail
+title: Présentation de l’affectation de travail dans l’équilibreur de charge de travail
 description: En tant que personne gestionnaire de ressources, vous pouvez utiliser l’équilibreur de charge de travail Adobe Workfront pour afficher les éléments de travail qui n’ont pas encore été attribués à des utilisateurs et utilisatrices et leur attribuer ces éléments.
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

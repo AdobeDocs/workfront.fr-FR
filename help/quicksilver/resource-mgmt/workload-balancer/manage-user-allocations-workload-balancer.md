@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail
+title: Gestion des affectations utilisateur dans l’équilibreur de charge de travail
 description: En tant que personne gestionnaire de ressources, vous pouvez affecter du travail aux utilisateurs et aux utilisatrices et gérer leurs affectations quotidiennes, hebdomadaires ou mensuelles à partir de l’équilibreur de charge de travail.
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ En tant que gestionnaire de ressources, vous pouvez affecter du travail aux util
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,26 +35,21 @@ Vous devez disposer des éléments suivants :
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>
-   <p>Pour utiliser l’équilibreur de charge de travail dans la zone « Ressources », vous avez besoin des éléments suivants :</p>
-   <p>Nouveau : Standard</p>
-   <p>Ou</p>
-   <p>Actuel : formule</p>
-   <p>Pour utiliser l’équilibreur de charge de travail d’une équipe ou d’un projet, vous avez besoin des éléments suivants :</p>
-   <p>Nouveau : Standard</p>
-   <p>Ou</p>
-   <p>Actuelle : Travail</p>
- </td> 
-  </tr> 
+   <td><p>Nouveau : Standard</p>
+       <p>ou</p>
+       <p>Actuel : planifiez, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ;</br>
+       Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configuration du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifiez l’accès aux éléments suivants :</p> 
     <ul> 
-     <li> <p>Gestion des ressources</p> </li> 
-     <li> <p>Projets</p> </li> 
-     <li> <p>Tâches</p> </li> 
-     <li> <p>Problèmes</p> </li> 
-    </ul> </td> 
+     <li>Gestion des ressources</li> 
+     <li>Projets</li> 
+     <li>Tâches</li> 
+     <li>Problèmes</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 

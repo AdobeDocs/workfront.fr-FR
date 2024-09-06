@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Annuler l’affectation de travaux dans l’équilibreur de charge de travail
+title: Annulation de l’affectation du travail dans l’équilibreur de charge de travail
 description: Vous pouvez annuler l’affectation de personnes à des tâches dans la zone de travail affecté de l’équilibreur de charge de travail Adobe Workfront ou réaffecter ces tâches à d’autres personnes, rôles ou équipes.
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: 196d0aa4ed67cf564c823625515ef49d811e0e06
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 93%
 
 ---
 
@@ -25,6 +25,8 @@ Pour plus d’informations sur l’annulation de l’affectation de personnes en
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -32,36 +34,36 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouveau : Standard</p>
+       <p>ou</p>
+       <p>Actuel : planifiez, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ;</br>
+       Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan, pour l’utilisation de l’équilibreur de charge de travail dans la zone Ressources.</p>
-   <p>Travail, pour l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet.</p>
-
-</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifiez l’accès aux éléments suivants :</p> 
     <ul> 
-     <li> <p>Gestion des ressources</p> </li> 
-     <li> <p>Projets</p> </li> 
-     <li> <p>Tâches</p> </li> 
-     <li> <p>Problèmes</p> </li> 
-    </ul> <p>Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+     <li>Gestion des ressources</li> 
+     <li>Projets</li> 
+     <li>Tâches</li> 
+     <li>Problèmes</li> 
+    </ul></td>
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations Contribuer ou supérieures aux projets, tâches et problèmes qui incluent la création d’affectations.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td>Autorisations Contribuer ou supérieures aux projets, tâches et problèmes qui incluent la création d’affectations.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
- 
++++
 
 ## Annuler l’affectation d’éléments de travail dans l’équilibreur de charge de travail
 

@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Partager l’équilibreur de charge de travail avec un lien
+title: Partage de l’équilibreur de charge de travail avec un lien
 description: Vous pouvez partager l’équilibreur de charge de travail avec d’autres utilisateurs et utilisatrices qui ne disposent peut-être pas de la zone Ressources. Pour plus d’informations sur l’utilisation de l’équilibreur de charge de travail, voir Naviguer dans l’équilibreur de charge de travail.
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '693'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Vous pouvez partager l’équilibreur de charge de travail avec d’autres utili
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -26,34 +28,37 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous les plans</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan, pour l’utilisation de l’équilibreur de charge de travail dans la zone Ressources.</p>
-   <p>Travail, pour l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet.</p> </td> 
-  </tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouveau : Standard</p>
+       <p>ou</p>
+       <p>Actuel : planifiez, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ;</br>
+       Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès en affichage ou supérieur aux éléments suivants :</p> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès Affichage ou niveau supérieur aux éléments suivants :</p> 
     <ul> 
-     <li> <p>Gestion des ressources</p> </li> 
-     <li> <p>Projets</p> </li> 
-     <li> <p>Tâches</p> </li> 
-     <li> <p>Problèmes</p> </li> 
-    </ul> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+     <li>Gestion des ressources</li> 
+     <li>Projets</li> 
+     <li>Tâches</li> 
+     <li>Problèmes</li> 
+    </ul>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations en affichage ou autorisations supérieures pour les projets, les tâches et les problèmes </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td>Autorisations en affichage ou autorisations supérieures pour les projets, les tâches et les problèmes</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Informations incluses dans l’équilibreur de charge de travail lors de son affichage à partir d’un lien partagé
 

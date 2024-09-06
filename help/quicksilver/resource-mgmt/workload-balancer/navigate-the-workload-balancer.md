@@ -6,10 +6,10 @@ description: Utilisez l’équilibreur de charge de travail pour vérifier la di
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '4146'
-ht-degree: 100%
+source-wordcount: '4068'
+ht-degree: 99%
 
 ---
 
@@ -21,47 +21,9 @@ L’équilibreur de charge de travail est disponible dans plusieurs zones d’Ad
 
 Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, consultez la section [Localiser l’équilibreur de charge de travail](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=fr).
 
-
 ## Conditions d’accès
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-<td><p>Current license: Standard </p>
-    Or 
-<p>Legacy license:</p>
-    <ul>
-    <li><p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p></li>
-    <li><p>Work, when using the Workload Balancer of a project </p></li>
-    </ul>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the following:</p> 
-    <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -70,33 +32,37 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan, pour l’utilisation de l’équilibreur de charge de travail dans la zone Ressources.</p>
-   <p>Travail, pour l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet.</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouveau : Standard</p>
+       <p>ou</p>
+       <p>Actuel : planifiez, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ;</br>
+       Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès Affichage ou niveau supérieur aux éléments suivants :</p> 
     <ul> 
-     <li> <p>Gestion des ressources</p> </li> 
-     <li> <p>Projets</p> </li> 
-     <li> <p>Tâches</p> </li> 
-     <li> <p>Problèmes</p> </li> 
-    </ul> <p>Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+     <li>Gestion des ressources</li> 
+     <li>Projets</li> 
+     <li>Tâches</li> 
+     <li>Problèmes</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations en affichage ou autorisations supérieures pour les projets, les tâches et les problèmes </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td>Autorisations en affichage ou autorisations supérieures pour les projets, les tâches et les problèmes</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Remarques concernant l’affichage des éléments dans l’équilibreur de charge de travail
 
@@ -156,7 +122,8 @@ Après avoir sélectionné les paramètres que vous souhaitez appliquer à votre
 
 Pour naviguer dans l’équilibreur de charge de travail pour plusieurs projets, procédez comme suit :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis sur **Ressources**.
+{{step1-to-resourcing}}
+
 1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
 
    ![Équilibreur de charge de travail](assets/nwe-balancer-global.png)
@@ -433,9 +400,11 @@ Vous pouvez obtenir de plus amples informations sur les tâches et les problème
 
 La navigation dans l’équilibreur de charge de travail d’une équipe est similaire à celle dans l’équilibreur de charge de travail de plusieurs projets. Pour plus d’informations, voir la section [Naviguer dans l’équilibreur de charge de travail de plusieurs projets](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) dans cet article.
 
-1. Cliquez sur l’icône **Menu principal** ![Menu principal](assets/main-menu-icon.png), puis cliquez sur **Équipes**.
+{{step1-to-team}}
+
 La page de votre équipe interne s’affiche par défaut.
-1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche. L’équilibreur de charge de travail d’une équipe doit s’afficher par défaut.
+
+1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
 
    ![Équilibreur de charge de travail d’une équipe](assets/nwe-balancer-team-350x172.png)
 
@@ -448,7 +417,8 @@ La page de votre équipe interne s’affiche par défaut.
 
 ## Parcourir l’équilibreur de charge de travail d’un projet unique
 
-1. Cliquez sur l’icône **Menu principal** ![Menu principal](assets/main-menu-icon.png), puis cliquez sur **Projets**.
+{{step1-to-projects}}
+
 1. Cliquez sur le nom d’un projet pour ouvrir la page du projet.
 1. Cliquez sur **Équilbreur de charge de travail** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Équilibreur de charge de travail**.
 

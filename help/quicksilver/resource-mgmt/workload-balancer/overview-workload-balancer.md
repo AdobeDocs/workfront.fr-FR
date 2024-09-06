@@ -2,15 +2,15 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Vue d’ensemble de l’équilibreur de charge de travail
+title: Présentation de l’équilibreur de charge de travail
 description: Une fois que les personnes chargées de la gestion de projet ont planifié le travail sur les projets en créant des tâches et une fois que les gestionnaires de ressources ont attribué des ressources de fonctions aux projets dans le planificateur de ressources, les personnes propriétaires de projet et les personnes responsables d’équipes peuvent utiliser l’équilibreur de charge de travail pour attribuer des tâches aux utilisateurs et utilisatrices.
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
 source-wordcount: '1176'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

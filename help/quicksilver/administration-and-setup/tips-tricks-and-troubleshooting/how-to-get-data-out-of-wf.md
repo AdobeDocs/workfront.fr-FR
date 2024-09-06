@@ -9,14 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 72%
+source-wordcount: '565'
+ht-degree: 59%
 
 ---
 
-# Exporter des données historiques à partir d’[!DNL Adobe Workfron]t : avantages et inconvénients
+# Exporter les données historiques de [!DNL Adobe Workfront] : avantages et inconvénients
 
 Cet article explique les avantages et inconvénients de quatre options que vous pouvez utiliser pour exporter des données historiques à partir de [!DNL Workfront].
 
@@ -32,11 +32,11 @@ Cet article explique les avantages et inconvénients de quatre options que vous 
 
 ## Demander un fichier dump de données [!DNL Postgres] à notre équipe chargée des bases de données
 
-Votre personne représentante de compte peut demander à notre équipe chargée des bases de données d’exporter un fichier dump de la base de données (fichier [!DNL Postgres] .dmp) contenant vos données. Une demande supplémentaire sera adressée à notre équipe AOS pour récupérer tous les documents stockés.
+Vous devez envoyer une demande à notre équipe du service clientèle, qui soumettra ensuite une demande à notre équipe Base de données pour exporter un fichier de vidage de base de données (fichier .dmp [!DNL Postgres]) avec vos données. Une demande supplémentaire sera envoyée à notre équipe du centre des opérations réseau pour récupérer tous vos documents stockés.
 
 * **Avantages** : vous obtenez l’ensemble de vos données, y compris les champs personnalisés, ainsi que les documents stockés dans le système.
 
-* **Inconvénients** : le fichier de base de données est difficile à lire : il est impossible de lire ce fichier à moins de le charger dans une base de données [!DNL Postgres] et de rétablir les relations entre les tableaux. Les documents sont stockés sur un serveur de fichiers distinct et doivent être extraits séparément par l’équipe AOS. Ce faisant, les documents ne sont pas organisés et sont tous référencés par leur GUID.
+* **Inconvénients** : le fichier de base de données est difficile à lire : il est impossible de lire ce fichier à moins de le charger dans une base de données [!DNL Postgres] et de rétablir les relations entre les tableaux. Les documents sont stockés sur un serveur de fichiers distinct et doivent être extraits séparément à l’aide d’un processus distinct de l’équipe du centre des opérations réseau. Ce faisant, les documents ne sont pas organisés et sont tous référencés par leur GUID.
 
 * **Coût** : ce téléchargement a un coût, qui dépend du temps nécessaire à l’équipe pour créer le fichier. Consultez votre personne représentante de compte pour plus d’informations ou pour entamer ce processus.
 
