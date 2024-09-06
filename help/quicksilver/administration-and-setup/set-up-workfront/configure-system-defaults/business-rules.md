@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1152'
 ht-degree: 5%
 
 ---
@@ -74,10 +74,17 @@ Pour plus d’informations sur les caractères génériques basés sur des dates
 
 Un caractère générique API est également disponible dans les règles de fonctionnement. Vous pouvez utiliser `$$ISAPI` pour déclencher la règle uniquement dans l’interface utilisateur ou uniquement dans l’API.
 
+Les caractères génériques `$$BEFORE_STATE` et `$$AFTER_STATE` sont utilisés dans les expressions pour accéder aux valeurs de champ de l’objet avant et après toute modification.
+
+* Ces caractères génériques sont disponibles pour le déclencheur de modification. L’état par défaut du déclencheur de modification (si aucun état n’est inclus dans l’expression) est le `$$AFTER_STATE`.
+* Le déclencheur de création d’objet autorise uniquement l’état `$$AFTER_STATE`, car l’état avant n’existe pas.
+* Le déclencheur de suppression d’objet autorise uniquement l’état `$$BEFORE_STATE`, car l’état after n’existe pas.
+
+
 Voici quelques scénarios de règles de fonctionnement simples :
 
 * Les utilisateurs ne peuvent pas ajouter de nouvelles dépenses pendant la dernière semaine de février. Cette formule peut être indiquée comme suit : `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Les utilisateurs ne peuvent pas modifier un projet dont l’état est Terminé. Cette formule peut être indiquée comme suit : `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* Les utilisateurs ne peuvent pas modifier le nom d’un projet à l’état Terminé . Cette formule peut être indiquée comme suit : `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
 
 Un scénario avec des instructions IF imbriquées est le suivant :
 

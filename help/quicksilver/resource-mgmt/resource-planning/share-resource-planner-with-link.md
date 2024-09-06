@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Partager la vue utilisateur ou utilisatrice du planificateur de ressources à l’aide d’un lien
+title: Partage de la vue utilisateur du planificateur de ressources avec un lien
 description: Adobe Workfront peut générer une URL unique pour la vue Utilisateur ou utilisatrice du planificateur de ressources que vous pouvez incorporer dans un tableau de bord en tant que page externe, ou ouvrir séparément dans un nouvel onglet du navigateur. Cela s’avère utile lors du partage des informations du planificateur de ressources avec les personnes qui ne disposent pas d’un accès direct à la zone Ressources.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 100%
+source-wordcount: '651'
+ht-degree: 98%
 
 ---
 
@@ -21,32 +21,40 @@ Adobe Workfront peut générer une URL unique pour la vue Utilisateur ou utilis
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Pro et supérieur</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+    <td><p>Nouveau : Tous</p>
+       <p>ou</p>
+       <p>Actuel : Pro ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouveau : Standard</p>
+       <p>ou</p>
+       <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès Afficher ou supérieur à la gestion des ressources, aux projets et aux personnes</p> <p>Accès Afficher aux données financières pour afficher les informations sur les coûts </p> <p><b>NOTE</b> Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès Afficher ou supérieur à la gestion des ressources, aux projets et aux personnes</p> <p>Accès Afficher aux données financières pour afficher les informations sur les coûts</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations d’affichage ou supérieures sur les projets que vous souhaitez afficher dans le planificateur de ressources.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations d’affichage ou supérieures sur les projets que vous souhaitez afficher dans le planificateur de ressources.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 Tenez compte de ce qui suit lors de la génération de l’URL unique pour la vue Utilisateur ou utilisatrice du planificateur de ressources :
@@ -62,10 +70,9 @@ Tenez compte de ce qui suit lors de la génération de l’URL unique pour la vu
 
 Pour obtenir une URL unique dans la vue Utilisateur ou utilisatrice du planificateur de ressources et la partager avec d’autres personnes, procédez comme suit :
 
-1. Cliquez sur l’icône du **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Cliquez sur **Ressources**.
-1. Dans le planificateur de ressources, sélectionnez **Afficher par utilisateur ou utilisatrice**.
+1. Sélectionnez **Par utilisateur ou utilisatrice**.
 1. (Facultatif) Sélectionnez la période d’affichage des informations dans le planificateur de ressources. Sélectionnez l’une des options suivantes :
 
    * Semaine

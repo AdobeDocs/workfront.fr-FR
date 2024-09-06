@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Filtrer les informations dans le planificateur de ressources
-description: '« (AL :* itérer sur cet article : filtrer par données personnalisées. Autres améliorations ? La mise en garde concernant les caractères spéciaux pourrait changer - suivez l’histoire pour savoir quand. Elle figurait à l’origine dans la version bêta 3 17.3.) »'
-author: Alina
+title: Filtrage des informations dans le planificateur de ressources
+description: Les filtres permettent de modifier les informations qui s’affichent dans le planificateur de ressources à partir de toutes les informations stockées dans le système.
+author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 99%
+source-wordcount: '2374'
+ht-degree: 97%
 
 ---
 
@@ -23,38 +23,40 @@ Les filtres permettent de modifier les informations qui s’affichent dans le pl
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Pro et supérieur</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td><p>Nouveau : Tous</p>
+       <p>ou</p>
+       <p>Actuel : Pro ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou supérieur<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouveau : Light ou supérieur</p>
+       <p>ou</p>
+       <p>Actuel : Révision ou supérieur</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès Affichage ou supérieur aux projets, aux utilisateurs et utilisatrices, et à la gestion des ressources </p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Afficher l’accès ou une version ultérieure à Projets, Utilisateurs et Gestion des ressources</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations d’affichage ou niveau supérieur pour les projets</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets </a>.</p> </td> 
+   <td> <p>Autorisations d’affichage ou niveau supérieur pour les projets</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vue d’ensemble des filtres du planificateur de ressources
 
@@ -117,18 +119,16 @@ Tenez compte des éléments suivants lorsque vous créez un filtre :
 
 Pour créer un filtre dans le planificateur de ressources, procédez comme suit :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Cliquez sur **Ressources**.
+Le **Planificateur** s’affiche par défaut.
 
-   Le **Planificateur** s’affiche par défaut.
+De base, la première fois que vous accédez au planificateur de ressources, le <strong>filtre par défaut</strong> est appliqué.<br>Pour plus d’informations sur le filtre par défaut, voir la section <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Vue d’ensemble du filtre par défaut dans le planificateur de ressources</a> de cet article.
 
-   De base, la première fois que vous accédez au planificateur de ressources, le <strong>filtre par défaut</strong> est appliqué.<br>Pour plus d’informations sur le filtre par défaut, voir la section <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Vue d’ensemble du filtre par défaut dans le planificateur de ressources</a> de cet article.
-
-1. Dans le coin supérieur gauche de la fenêtre, cliquez sur l’icône **Filtre**.\
-   ![filter_icon.png](assets/filter-icon.png)\
-   Ou\
-   Développez le menu déroulant **Filtrer** et cliquez sur **Ajouter un filtre**.\
+1. Dans le coin supérieur gauche de la fenêtre, cliquez sur l’icône **Filtre**.
+   ![filter_icon.png](assets/filter-icon.png)
+Ou
+Développez le menu déroulant **Filtre** et cliquez sur **Ajouter un nouveau filtre**.
    ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. Pour créer un filtre à l’aide des critères intégrés, spécifiez l’un des champs suivants :
