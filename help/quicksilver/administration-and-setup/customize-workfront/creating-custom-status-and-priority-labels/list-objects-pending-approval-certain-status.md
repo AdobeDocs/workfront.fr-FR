@@ -8,16 +8,53 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 88%
+source-wordcount: '523'
+ht-degree: 90%
 
 ---
 
 # Liste des objets dont le processus de validation est en attente avec un certain état
 
 Si vous essayez de supprimer un état, un message d’erreur peut vous indiquer qu’il ne peut pas être supprimé, car il se trouve dans au moins un processus d’approbation en attente de votre système.Vous pouvez exécuter un rapport pour répertorier les objets dans un processus d’approbation en attente, puis décider de ce que vous devez faire pour chacun d’eux.
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+     <p>Nouveau : Standard</p>
+     <p>ou</p>
+     <p>Actuel : formule</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td><p>Accès en modification aux rapports, tableaux de bord et calendriers</p><p>Modifier l’accès aux filtres, vues et groupes</p></td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td>Vous obtenez des autorisations de gestion pour les rapports que vous créez.</td>
+  </tr>
+ </tbody> 
+</table>
+
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## En mode standard
 

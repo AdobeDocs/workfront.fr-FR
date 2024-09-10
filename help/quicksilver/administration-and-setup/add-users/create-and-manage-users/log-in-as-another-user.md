@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 99%
+source-wordcount: '738'
+ht-degree: 91%
 
 ---
 
@@ -61,24 +61,24 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard</p>
+   <p>Ou</p>
    <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Avec le niveau d’accès Administration système, vous pouvez vous connecter en tant que n’importe qui. Pour plus d’informations sur ce niveau d'accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder à une personne un accès administratif complet</a>. </p> <p>Avec un niveau d’accès Planification, vous pouvez vous connecter en tant que personne ayant un niveau de licence inférieur si le paramètre <b>Utilisateurs et utilisatrices</b> du niveau d’accès est configuré sur l’accès <b>Modification</b>, avec <b>Création</b> et au moins l’une des deux options <b>Administration des utilisateurs et utilisatrices</b> activées sous <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>NOTE</b> : parmi ces deux options, si l’option <b>Administration des utilisateurs et utilisatrices (utilisateurs et utilisatrices de groupe)</b> est activée, vous devez être administrateur ou administratrice d’un groupe dont la personne est membre.</p> 
-   <p>Pour plus d’informations sur le paramètre <b>Utilisateurs et utilisatrices</b> dans un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Avec le niveau d’accès Administrateur système, vous pouvez vous connecter comme n’importe qui.</p> <p>Avec un niveau d’accès standard ou planificateur, vous pouvez vous connecter en tant qu’utilisateur avec un niveau de licence inférieur si le paramètre <b>Users</b> du niveau d’accès est configuré pour l’accès <b>Edit</b>, avec <b>Create</b> et au moins l’une des deux options <b>User Admin</b> activées sous <b>Réglage précis de vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p><b>NOTE</b> : parmi ces deux options, si l’option <b>Administration des utilisateurs et utilisatrices (utilisateurs et utilisatrices de groupe)</b> est activée, vous devez être administrateur ou administratrice d’un groupe dont la personne est membre.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Se connecter et effectuer des actions en tant qu’autre utilisateur ou utilisatrice
+## Se connecter et effectuer des actions en tant qu’un autre utilisateur ou qu’une autre utilisatrice
 
 1. Connectez-vous à Workfront en tant qu’administrateur ou administratrice Workfront ou de groupe.
 

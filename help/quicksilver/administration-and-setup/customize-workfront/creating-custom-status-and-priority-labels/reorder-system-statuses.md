@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '507'
 ht-degree: 99%
 
 ---
@@ -37,24 +37,32 @@ En tant qu’administrateur ou administratrice Workfront, vous pouvez modifier l
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront* </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Vous devez être un administrateur ou une administratrice Workfront. Pour plus d’informations sur les administrateurs et administratrices Workfront, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder un accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+     <p>Nouveau : Standard</p>
+     <p>ou</p>
+     <p>Actuel : formule</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si vous devez établir la formule ou le type de licence dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

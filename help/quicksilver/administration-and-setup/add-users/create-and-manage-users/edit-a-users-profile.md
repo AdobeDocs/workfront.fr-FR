@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 1e70620514f180d547c61970c0dd49d281377ce5
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '3336'
+source-wordcount: '3298'
 ht-degree: 96%
 
 ---
@@ -48,26 +48,20 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard</p>
-   Ou
-   <p>Actuel : formule</p></td> 
+   <td><p>Nouveau : Standard</p><p>Ou</p><p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès Administrateur ou administratrice système. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>. </p> </li> 
-     <li> <p>L’objet <b>Utilisateurs et utilisatrices</b> dans votre niveau d’accès configuré sur l’accès en <b>modification</b>, avec <b>Créer</b> et au moins l’une des deux options <b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b><img src="assets/gear-icon-in-access-levels.png">. </p> 
-     <ul><li> Administration des utilisateurs (tous les utilisateurs)</li>
-     <li>Administration des utilisateurs (utilisateurs du groupe)</li></ul>
-     <p>Si l’option <b>Administration des utilisateurs et utilisatrices (utilisateurs et utilisatrices du groupe)</b> est activée, vous devez être administrateur ou administratrice de groupes pour qu’un groupe dont fait partie l’utilisateur ou l’utilisatrice puisse le modifier.</p> 
-     <p>Pour plus d’informations sur le paramètre <b>Utilisateurs et utilisatrices</b> dans un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </li> 
+     <li> <p>Niveau d’accès Administrateur système. </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Parmi ces deux options, si l’option <b>Administratrion des utilisateurs et utilisatrices (utilisateurs et utilisatrices du groupe)</b> est activée, vous devez être administrateur ou administratrice de groupes d’un groupe dont l’utilisateur ou l’utilisatrice est membre.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
