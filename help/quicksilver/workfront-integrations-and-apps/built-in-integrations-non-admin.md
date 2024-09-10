@@ -7,10 +7,10 @@ description: Vous pouvez intégrer  [!DNL Adobe Workfront]  à des applications 
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 97%
+source-wordcount: '550'
+ht-degree: 89%
 
 ---
 
@@ -45,6 +45,17 @@ Les intégrations suivantes sont actuellement disponibles dans Workfront.
      </ul>
      <li><p>Téléchargez/installez depuis <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
      <p>Pour plus d’informations et d’instructions, consultez <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installer le plug-in [!DNL Adobe Workfront] pour les applications [!DNL Creative Cloud]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets et Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Création automatique de dossiers liés entre Workfront et Adobe Experience Manager 
+      <li>Métadonnées de synchronisation pour les ressources liées existantes</p></li>
+      <li>Mettez automatiquement à jour les métadonnées de portefeuille, de programme, de projet, de tâche, de problème et de documents lorsqu’il est modifié dans Workfront.</li>
+      <li>Connecter facilement plusieurs référentiels Experience Manager Assets à un environnement Workfront ou plusieurs environnements Workfront à un référentiel Experience Manager Assets à l’échelle des ID d’organisation</li></ul>
+     <p>Pour plus d’informations et d’instructions, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Présentation des intégrations Adobe Experience Manager Assets</a></p> 
+     </td>
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 

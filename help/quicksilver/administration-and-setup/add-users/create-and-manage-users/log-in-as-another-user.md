@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
 source-wordcount: '738'
-ht-degree: 91%
+ht-degree: 87%
 
 ---
 
@@ -69,7 +69,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Avec le niveau d’accès Administrateur système, vous pouvez vous connecter comme n’importe qui.</p> <p>Avec un niveau d’accès standard ou planificateur, vous pouvez vous connecter en tant qu’utilisateur avec un niveau de licence inférieur si le paramètre <b>Users</b> du niveau d’accès est configuré pour l’accès <b>Edit</b>, avec <b>Create</b> et au moins l’une des deux options <b>User Admin</b> activées sous <b>Réglage précis de vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>NOTE</b> : parmi ces deux options, si l’option <b>Administration des utilisateurs et utilisatrices (utilisateurs et utilisatrices de groupe)</b> est activée, vous devez être administrateur ou administratrice d’un groupe dont la personne est membre.</p></td> 
+   <p><b>REMARQUE</b> : sur ces deux options, si l’option <b>Admin utilisateur (utilisateurs de groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p></td>
   </tr> 
  </tbody> 
 </table>

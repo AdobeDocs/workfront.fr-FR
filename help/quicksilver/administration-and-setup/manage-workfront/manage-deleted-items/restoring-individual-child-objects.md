@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Restaurer des objets enfant individuels
-description: Ce document décrit comment obtenir de l’aide pour récupérer des objets enfants particuliers qui ont été supprimés de vos environnements de production ou de prévisualisation Adobe Workfront il y a moins de 30 jours.
+description: Cet article décrit comment obtenir de l’aide pour récupérer des objets enfants individuels qui ont été supprimés de vos environnements de production ou de prévisualisation Adobe Workfront moins de 30 jours auparavant.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 99%
+source-wordcount: '641'
+ht-degree: 90%
 
 ---
 
 # Restaurer des objets enfants individuels
 
-Ce document décrit comment obtenir de l’aide pour récupérer des objets enfants particuliers qui ont été supprimés de vos environnements de production ou de prévisualisation Adobe Workfront il y a moins de 30 jours.
+Cet article décrit comment obtenir de l’aide pour récupérer des objets enfants individuels qui ont été supprimés de vos environnements de production ou de prévisualisation Adobe Workfront moins de 30 jours auparavant.
 
 Un administrateur ou une administratrice Workfront peut restaurer des projets, des tâches, des problèmes et des documents dans chaque instance Workfront, comme décrit dans la section [Restaurer des éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). Cependant, seule l’équipe de base de données Workfront peut restaurer des objets tels que des tâches, des problèmes, des documents, des formulaires personnalisés, des heures et des notes indépendamment de leur objet parent.
 
@@ -42,6 +42,39 @@ Pour plus d’informations sur les fenêtres de maintenance de l’environnement
 >[!IMPORTANT]
 >
 >Les documents constituent une exception à ces méthodes de restauration. Vous pouvez les télécharger manuellement à partir de l’environnement de prévisualisation et les charger à nouveau dans l’environnement de production. Si vous souhaitez télécharger et charger des documents en masse, vous devez demander une restauration des données à Workfront.
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouveau : Standard</p>
+       <p>Ou</p>
+       <p>Actuel : formule</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>[!UICONTROL System Administrator]</td>
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Informations nécessaires à la restauration des données
 

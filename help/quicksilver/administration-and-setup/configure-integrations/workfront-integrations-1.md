@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 96%
+source-wordcount: '1260'
+ht-degree: 92%
 
 ---
 
@@ -101,6 +101,18 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
      <p>Pour plus d’informations et d’instructions, voir <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installer le plugin [!DNL Adobe Workfront] pour les applications [!DNL Creative Cloud]</a>.</p> 
      </td>  <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets et Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Création automatique de dossiers liés entre Workfront et Adobe Experience Manager 
+      <li>Métadonnées de synchronisation pour les ressources liées existantes</p></li>
+      <li>Mettez automatiquement à jour les métadonnées de portefeuille, de programme, de projet, de tâche, de problème et de documents lorsqu’il est modifié dans Workfront.</li>
+      <li>Connecter facilement plusieurs référentiels Experience Manager Assets à un environnement Workfront ou plusieurs environnements Workfront à un référentiel Experience Manager Assets à l’échelle des ID d’organisation</li></ul>
+     <p>Pour plus d’informations et d’instructions, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Présentation des intégrations Adobe Experience Manager Assets</a></p> 
+     </td>
+   <td><ul><li>Workfront doit être dans un Admin Console avec un ID d’organisation attribué.</li><li>Workfront et Experience Manager Assets ou Assets Essentials doivent être affectés en tant que produit à la personne configurant l’intégration.</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 

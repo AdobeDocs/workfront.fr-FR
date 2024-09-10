@@ -6,18 +6,18 @@ description: Avec l’accès à  [!DNL Workfront]  grâce à Adobe Experience 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: ca74ef02b83a76fad92d2bc8b1a9afc3927693ec
+source-git-commit: 84b63191d2f288b2c280a2634d551d89d594a9f6
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
 # [!DNL Adobe Unified Experience] pour [!DNL Workfront]
 
-Avec l’accès à [!DNL Workfront] grâce à [!DNL Adobe Experience Cloud], vous bénéficiez d’une expérience transparente et unifiée pour gérer l’ensemble de vos applications [!DNL Adobe]. La gestion des identités unique vous permet de vous connecter à un seul emplacement, sans avoir à utiliser plusieurs URL ou ID de connexion.
+Avec l’accès à [!DNL Workfront] grâce à [!DNL Adobe Experience Cloud], vous bénéficiez d’une expérience transparente et unifiée pour gérer l’ensemble de vos applications [!DNL Adobe]. La gestion des identités unique vous permet de vous connecter à un seul emplacement, sans avoir à utiliser plusieurs URL ou identifiants de connexion.
 
-Pour déterminer si votre entreprise est sur Adobe Unified Experience, examinez l’URL que vous utilisez pour accéder à Workfront.
+Si votre organisation utilise l’expérience unifiée de l’Adobe, l’URL que vous utilisez pour accéder à Workfront commence par `experience.adobe.com`.
 
 | URL | Adobe Experience |
 |------------|------------|
@@ -109,3 +109,4 @@ Si votre mot de passe est géré par [!DNL Adobe], vous pouvez modifier le mot d
 [Reportez-vous à cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Pour plus d’informations sur la modification de votre mot de passe, contactez votre administrateur ou administratrice.
+
