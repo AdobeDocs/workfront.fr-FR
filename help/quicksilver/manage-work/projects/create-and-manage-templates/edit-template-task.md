@@ -7,16 +7,18 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '2385'
-ht-degree: 99%
+source-wordcount: '2409'
+ht-degree: 92%
 
 ---
 
 # Modifier une tâche de modèle
 
-Après avoir créé un modèle, vous pouvez modifier les informations relatives aux tâches du modèle. Les informations que vous mettez à jour sur une tâche de modèle sont associées à des tâches de projet une fois que vous avez utilisé le modèle pour créer un projet ou que vous avez joint le modèle à un projet.
+<!--Audited: 09/2024-->
+
+Après avoir créé un modèle, vous pouvez éditer les informations des tâches du modèle. Les informations que vous mettez à jour sur une tâche de modèle sont associées à des tâches de projet une fois que vous avez utilisé le modèle pour créer un projet ou que vous avez joint le modèle à un projet.
 
 Pour plus d’informations sur la création d’un modèle, voir [Créer un modèle de projet](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
@@ -28,6 +30,8 @@ Vous pouvez modifier la tâche de modèle ou modifier les tâches de modèle en 
 
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -55,7 +59,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou le niveau d’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -88,7 +94,7 @@ Vous pouvez modifier une tâche de modèle à l’aide des zones Modifier la tâ
 
    >[!TIP]
    >
-   >Pour plus d’informations sur tous les champs qui s’affichent dans la zone Détails, continuez à modifier tous les champs à l’aide de la zone Modifier la tâche du modèle ci-dessous.
+   >Pour plus d’informations sur tous les champs qui s’affichent dans la zone Détails, continuez à modifier tous les champs à l’aide de la zone Modifier la tâche du modèle , comme décrit ci-dessous.
 
 1. (Le cas échéant) Pour modifier toutes les informations relatives à la tâche de modèle, cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png) en regard du nom de la tâche de modèle, puis cliquez sur **Modifier**.
 
@@ -212,7 +218,7 @@ Vous pouvez modifier une tâche de modèle à l’aide des zones Modifier la tâ
 
 ### Finances {#finance}
 
-1. Commencez à modifier une tâche comme décrit ci-dessus.
+1. Commencez à modifier une tâche de modèle comme décrit ci-dessus.
 1. Cliquez sur **Finances**.
 
    ![edit_task_finance.png](assets/edit-task-finance-350x216.png)
@@ -259,7 +265,7 @@ Vous pouvez modifier une tâche de modèle à l’aide des zones Modifier la tâ
 
 ### Paramètres {#settings}
 
-1. Commencez à modifier une tâche comme décrit ci-dessus.
+1. Commencez à modifier une tâche de modèle comme décrit ci-dessus.
 1. Cliquez sur **Paramètres**.
 
    ![](assets/edit-template-tasks-settings-classic-350x231.png)
@@ -319,7 +325,7 @@ Vous pouvez modifier une tâche de modèle à l’aide des zones Modifier la tâ
 
 ### Affectations {#assignments}
 
-1. Commencez à modifier une tâche comme décrit ci-dessus.
+1. Commencez à modifier une tâche de modèle comme décrit ci-dessus.
 1. Cliquez sur **Affectations**.
 
    ![assignments_edit_tasks.png](assets/assignments-edit-tasks-350x87.png)
@@ -343,14 +349,22 @@ Vous pouvez modifier une tâche de modèle à l’aide des zones Modifier la tâ
 
 ### Formulaires personnalisés {#custom-forms}
 
-Vous pouvez définir des formulaires personnalisés par défaut à associer automatiquement aux tâches lorsque les tâches sont ajoutées à un projet. Pour plus d’informations sur la configuration du projet afin d’inclure des formulaires personnalisés de tâche par défaut, reportez-vous à la section « Tâches » de l’article [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+Vous pouvez définir des formulaires personnalisés à associer automatiquement par défaut aux tâches lorsque les tâches sont ajoutées à un projet. Pour plus d’informations sur la configuration du projet afin d’inclure des formulaires personnalisés de tâche par défaut, reportez-vous à la section &quot;Tâches&quot; de l’article [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Commencez à modifier une tâche comme décrit ci-dessus. test
+Vous pouvez également ajouter des formulaires personnalisés aux tâches futures d’un projet lorsque le projet est créé à partir d’un modèle, en ajoutant les formulaires personnalisés aux tâches du modèle.
+
+1. Commencez à modifier une tâche de modèle comme décrit ci-dessus.
 1. Cliquez sur **Formulaires personnalisés**.
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Sélectionnez le ou les formulaires personnalisés que vous souhaitez associer à la tâche de modèle. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à une tâche de modèle. Les formulaires sont automatiquement ajoutés aux tâches créées à partir du modèle.
+1. Sélectionnez le ou les formulaires personnalisés à associer à la tâche de modèle.
+
+   Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ.
+Seuls les formulaires personnalisés actifs s’affichent dans la liste.
+Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Vous pouvez ajouter jusqu’à dix formulaires personnalisés à une tâche de modèle.
+Les formulaires sont automatiquement ajoutés aux tâches créées à partir du modèle.
 1. (Le cas échéant et facultatif) Si vous avez joint un formulaire personnalisé à la tâche de modèle, modifiez les champs du formulaire concernés. Vous devez spécifier tous les champs requis avant de pouvoir enregistrer la tâche de modèle.
 
    >[!NOTE]
@@ -368,14 +382,12 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
 
 ### Commentaire {#comment}
 
-1. Commencez à modifier une tâche comme décrit ci-dessus.
+1. Commencez à modifier une tâche de modèle comme décrit ci-dessus.
 1. Cliquez sur **Commentaire**.
 
    ![comment_edit_task.png](assets/comment-edit-task-350x138.png)
 
 1. Dans le champ disponible, entrez le commentaire que vous souhaitez afficher dans le flux de mises à jour de la tâche de modèle. Ce commentaire est visible par toutes les personnes ayant un accès en affichage au modèle et à la tâche de modèle, ainsi qu’ayant un accès à l’affichage des notes.
 1. Cliquez sur **Enregistrer les modifications**.
-
-   Vos modifications seront soumises pour cette tâche de modèle.
 
    Lorsque vous ou une autre personne créez un projet à partir de ce modèle, tous les paramètres que vous avez appliqués aux tâches de modèle deviennent les paramètres des tâches du projet.

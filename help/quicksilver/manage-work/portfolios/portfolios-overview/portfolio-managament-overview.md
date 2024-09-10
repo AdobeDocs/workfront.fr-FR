@@ -1,25 +1,29 @@
 ---
-title: Vue d’ensemble de la gestion de portfolio
+title: Présentation de Portfolio Management
 product-area: portfolios
 navigation-topic: portfolios-overview
 description: La gestion de portfolio ou de portfolio de projets (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets en vue d’atteindre des objectifs commerciaux spécifiques. Un portfolio est une collection de projets ayant des objectifs commerciaux communs.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 100%
+source-wordcount: '646'
+ht-degree: 86%
 
 ---
 
 # Vue d’ensemble de la gestion de portfolio
 
-<!--Audited: 12/2023-->
+<!--Audited: 09/2024-->
 
 ## Vue d’ensemble de la gestion de portfolio de projets (PPM)
 
-La gestion de portfolio ou de portfolio de projets (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets en vue d’atteindre des objectifs commerciaux spécifiques. Un portfolio est donc une collection de projets ayant des objectifs commerciaux communs. Le résultat d’une méthodologie de PPM efficace permet à la direction d’effectuer les opérations suivantes :
+La gestion des Portfolios de Portfolio ou de projet (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets afin d’atteindre des objectifs commerciaux spécifiques.
+
+Cet article décrit les concepts généraux de la gestion de portefeuille. Pour obtenir des informations générales sur la gestion des portefeuilles dans Adobe Workfront, consultez la [présentation des Portfolios dans Adobe Workfront](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+
+Un portfolio est un ensemble de projets avec des objectifs commerciaux communs. Le résultat d’une méthodologie de PPM efficace permet à la direction d’effectuer les opérations suivantes :
 
 * Identifier tous les projets d’un portfolio.
 * Comprendre l’impact de chaque projet sur les ressources, les coûts et les revenus.
@@ -40,12 +44,12 @@ Vous pouvez classer vos projets par ordre de priorité et vous assurer qu’ils 
 
 Le diagramme suivant illustre la vue d’ensemble du processus de PPM dans [!DNL Workfront] :
 
-![](assets/pm1-350x88.png)
+![](assets/project-portfolio-management-process-diagram.png)
 
 * [Demande de projet](#project-request)
 * [Révision du projet](#project-review)
 * [Optimisation du portfolio](#portfolio-optimization)
-* [Planification des ressources](#resource-planning)
+* [Gestion des ressources](#resource-management)
 * [Exécution du projet](#project-execution)
 * [Postmortem du projet](#project-postmortem)
 
@@ -59,7 +63,7 @@ Pour plus d’informations sur la création d’un business case et d’une dema
 
 Après avoir soumis la demande de projet, la personne chargée de la gestion de portfolio ou une équipe de direction l’examine et décide d’approuver ou non le projet. Si le projet est approuvé, celui-ci est sélectionné pour le portfolio de projets de l’entreprise.
 
-Pour plus d’informations sur les portfolios, voir [Vue d’ensemble des portoflios dans  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Pour plus d’informations sur l’approbation d’un business case, voir [Approuver un business case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Pour plus d’informations sur les portefeuilles, voir [Présentation des Portfolios dans [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Pour plus d’informations sur l’approbation d’un cas d’entreprise, voir [Approbation d’un cas d’entreprise](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Optimisation du portfolio {#portfolio-optimization}
 
@@ -67,7 +71,7 @@ Après avoir ajouté tous les projets au portfolio, la personne chargée de la g
 
 Pour plus d’informations sur l’optimisation de portfolio, voir [Optimiser les projets dans l’optimisateur de portfolio](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
-### Planification des ressources {#resource-planning}
+### Gestion des ressources {#resource-management}
 
 Outre l’optimisation des performances du portfolio et la hiérarchisation des projets, la personne chargée de la gestion des ressources veille à ce que les ressources appropriées soient allouées aux projets. Elle évalue la disponibilité et l’attribution des ressources à l’aide des outils de gestion des ressources disponibles dans [!DNL Workfront].
 
@@ -79,7 +83,8 @@ Pour plus d’informations sur la gestion des ressources, voir la section [Gére
 
 Après avoir reçu l’approbation du projet de la part de la personne chargée de la gestion de portfolio et la validation des ressources de la part de la personne chargée de la gestion de ressources, en tant que personne propriétaire du projet, vous pouvez placer le projet dans le statut [!UICONTROL Actuel] et vos utilisateurs et utilisatrices peuvent commencer à travailler dessus. Nous vous recommandons d’établir une ligne de référence du projet au cours de cette phase, afin de disposer d’un point de référence pour le projet, dans son état initial.
 
-Pour plus d’informations sur la gestion des projets dans [!DNL Workfront], voir [Gérer les projets : index des articles](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+Pour plus d’informations sur la gestion des projets dans [!DNL Workfront], voir [Gérer les projets : index des articles](../../../manage-work/projects/manage-projects/manage-projects-overview.md).
+
 Pour plus d’informations sur la création de lignes de référence pour les projets, voir [Créer des lignes de référence pour les projets](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Postmortem du projet {#project-postmortem}

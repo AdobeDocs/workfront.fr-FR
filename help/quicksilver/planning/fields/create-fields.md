@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '3620'
 ht-degree: 77%
@@ -247,7 +247,7 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
 >
 >* 20 champs de paragraphe peuvent être associés à un type d’enregistrement.
 >
->* Le contenu d’un champ de paragraphe peut avoir jusqu’à 100 000 caractères.
+>* Le contenu d’un champ de paragraphe peut avoir jusqu’à 10 000 caractères.
 >* Vous pouvez utiliser la mise en forme Texte enrichi pour améliorer le contenu des champs de paragraphe lorsqu’ils s’affichent dans la vue Tableau ou la page Détails d’un enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 >
 

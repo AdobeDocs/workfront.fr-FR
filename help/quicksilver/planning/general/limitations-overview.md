@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
+exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 42%
 
 ---
-
 
 <!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
@@ -34,7 +34,7 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Nombre total d’enregistrements pour une instance de la planification Workfront | 500 000 pour les clients ayant le plan de planification <br>2 millions pour les clients ayant le plan Plus |
 | Nombre de champs pour un type d’enregistrement ou une taxonomie | 500 |
 | Nombre de caractères d’un champ de texte d’une seule ligne | 1 000 caractères |
-| Nombre de caractères d’un champ de paragraphe | 100 000 caractères |
+| Nombre de caractères d’un champ de paragraphe | 10 000 caractères |
 | Nombre de champs de paragraphe pour un type d’enregistrement | 20 champs de paragraphe |
 | Taille du fichier que vous pouvez coller dans un tableau de type d’enregistrement | 1 Mo |
 | Taille du fichier que vous pouvez importer via l’API pour un tableau de type d’enregistrement | 1,5 Mo |
@@ -73,4 +73,3 @@ Pour plus d’informations sur le prix et le package de Workfront Planning, voir
 <!--[!IMPORTANT]
 >
 >*This functionality has been temporarily removed and it will be available at a later date.-->
-
