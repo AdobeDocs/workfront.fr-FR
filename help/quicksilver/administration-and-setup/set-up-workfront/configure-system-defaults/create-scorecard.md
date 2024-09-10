@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '617'
 ht-degree: 99%
 
 ---
@@ -31,21 +31,21 @@ Les questions et les réponses choisies pour une carte de performance doivent ê
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p> 
    Ou
    <p>Nouveau : [!UICONTROL Prime] ou supérieur</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td><p>Actuelle : [!UICONTROL Plan]</p>
    Ou
    <p>Nouvelle : [!UICONTROL Standard]</p>
@@ -53,6 +53,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
   </tr> 
  </tbody> 
 </table>
+
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

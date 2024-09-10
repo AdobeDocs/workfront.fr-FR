@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Désactiver des fonctions
+title: Désactivation des rôles de tâche
 description: En tant qu’administrateur et administratrice d’ [!DNL Adobe Workfront]  ou utilisateur et utilisatrice disposant d’un accès administratif aux fonctions, vous pouvez désactiver les fonctions qui deviennent obsolètes dans votre système. Lorsque vous désactivez une fonction au lieu de la supprimer, vous pouvez conserver toutes les informations historiques qui lui sont associées.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '661'
+ht-degree: 98%
 
 ---
 
@@ -23,28 +23,35 @@ Vous pouvez également réactiver les fonctions précédemment désactivées.
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan [!UICONTROL Adobe Workfront]*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence [!UICONTROL Adobe Workfront]*</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td>
+   <p>Nouvelle : [!UICONTROL Standard]</p>
+   <p>Ou</p>
+   <p>Actuelle : [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès administratif aux fonctions</p> <p><b>NOTE</b> : si votre accès n’est toujours pas activé, demandez à votre administrateur ou à votre administratrice [!DNL Workfront] si des restrictions supplémentaires au niveau de votre accès ont été définies. Pour plus d’informations sur la manière dont une équipe d’administration [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Accès administratif aux rôles de tâche</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Impact de la désactivation des fonctions
 
@@ -100,7 +107,7 @@ Nous vous recommandons d’effectuer les opérations suivantes avant de désacti
 
 ## Désactiver une fonction
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Fonctions].**
 1. (Facultatif) Dans le menu déroulant **[!UICONTROL Filtrer]**, sélectionnez **[!UICONTROL Actif]** pour afficher uniquement les fonctions actives.

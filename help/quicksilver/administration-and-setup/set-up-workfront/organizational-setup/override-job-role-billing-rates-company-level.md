@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Remplacer les taux de facturation des fonctions à l’échelle de l’entreprise
+title: Remplacer les taux de facturation des rôles de tâche au niveau de l’entreprise
 description: Lorsqu’une fonction est créée, vous avez la possibilité de sélectionner un taux de facturation horaire pour cette fonction. Vous pouvez créer un taux de facturation horaire spécifique à une société.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 96%
 
 ---
 
@@ -23,32 +23,40 @@ Au niveau du projet, vous pouvez activer une option pour permettre aux taux de f
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td>
+   <p>Nouvelle : [!UICONTROL Standard]</p>
+   <p>Ou</p>
+   <p>Actuelle : [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès administratif aux entreprises si vous n’êtes pas une personne administratrice du système.</p> <p>Accès en [!UICONTROL Edit] aux données financières</p> <p><b>NOTE</b> : si votre accès n’est toujours pas activé, demandez à votre administrateur ou à votre administratrice [!DNL Workfront] si des restrictions supplémentaires au niveau de votre accès ont été définies. Pour plus d’informations sur la manière dont une équipe d’administration [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès administratif aux entreprises si vous n’êtes pas une personne administratrice du système.</p>
+   <p>Modifier l’accès aux données financières</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Remplacer ou modifier un taux de facturation défini utilisé pour une fonction spécifique
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe] Workfront, puis cliquez sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Entreprises]**.
 1. Localisez l’entreprise à laquelle la fonction est affectée.

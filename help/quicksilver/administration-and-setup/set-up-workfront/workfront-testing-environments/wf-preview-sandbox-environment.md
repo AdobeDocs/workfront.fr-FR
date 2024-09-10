@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: Environnement de prévisualisation de sandbox  [!DNL Adobe Workfront]
 description: L’environnement de prévisualisation de sandbox est un environnement de test qui sert de réplique à votre environnement réel. Il est actualisé chaque week-end par Workfront. Les données ajoutées à votre environnement réel le vendredi apparaissent dans votre environnement de prévisualisation de sandbox le lundi suivant. Tous les packages d’assistance ont accès à ce sandbox.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
@@ -88,7 +88,7 @@ En tant que personne membre de l’équipe d’administration [!DNL Workfront], 
 
 Pour accéder à l’environnement de prévisualisation de sandbox, procédez comme suit :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Système]** > **[!UICONTROL Préférences]**.
 

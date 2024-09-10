@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 5%
@@ -80,7 +80,6 @@ Les caractères génériques `$$BEFORE_STATE` et `$$AFTER_STATE` sont utilisés 
 * Le déclencheur de création d’objet autorise uniquement l’état `$$AFTER_STATE`, car l’état avant n’existe pas.
 * Le déclencheur de suppression d’objet autorise uniquement l’état `$$BEFORE_STATE`, car l’état after n’existe pas.
 
-
 Voici quelques scénarios de règles de fonctionnement simples :
 
 * Les utilisateurs ne peuvent pas ajouter de nouvelles dépenses pendant la dernière semaine de février. Cette formule peut être indiquée comme suit : `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
@@ -92,7 +91,7 @@ Les utilisateurs ne peuvent pas modifier les projets terminés et ne peuvent pas
 
 ```
 IF(
-    {status}="CPL",
+    $$AFTER_STATE.{status}="CPL",
     "You cannot edit a completed project",
     IF(
         MONTH({plannedCompletionDate})=3,

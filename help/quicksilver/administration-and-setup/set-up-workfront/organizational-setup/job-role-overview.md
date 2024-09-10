@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Vue d’ensemble de la fonction
+title: Présentation du rôle de tâche
 description: Une fonction représente une capacité fonctionnelle ou un ensemble de compétences qu’un utilisateur ou une utilisatrice peut remplir. Cet article décrit les différentes utilisations des fonctions dans Adobe Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
