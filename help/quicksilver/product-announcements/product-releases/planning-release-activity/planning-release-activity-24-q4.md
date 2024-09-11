@@ -1,18 +1,18 @@
 ---
 content-type: release-notes
-title: "Activité de planification des versions Adobe Workfront pour la version 24.10"
+title: Activité de planification des versions Adobe Workfront pour la version 24.10
 description: Il s’agit de l’activité de mise à jour du produit Adobe Workfront Planning pour le quatrième trimestre 2024.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 18%
+source-wordcount: '450'
+ht-degree: 16%
 
 ---
-
 
 # Activité de mise à jour du quatrième trimestre 2024 pour la planification Adobe Workfront
 
@@ -37,6 +37,22 @@ Pour plus d’informations sur les fonctionnalités incluses dans cette version,
 <!--remove the general activity mention after fourth quarter 2024 is released-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning après la mise à disposition de la version générale le 28 août 2024, voir [Activité de mise à jour d’Adobe Workfront Planning : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Options d’affichage pour les enregistrements connectés
+
+>[!NOTE]
+>
+>Version d’aperçu : 9 septembre 2024 ; version de production pour tous les clients : avec la version 24.10 (octobre 2024)
+
+Nous avons repensé la zone d’aspect Enregistrement lors de la connexion des types d’enregistrement. Désormais, lorsque vous décidez de l&#39;affichage des enregistrements connectés dans les champs connectés, vous pouvez choisir parmi les options suivantes :
+
+* Nom
+* Nom et image
+* Image
+
+Avant cette amélioration, vous pouvez sélectionner ou désélectionner la bascule Titre pour afficher le nom des enregistrements ou afficher uniquement l’icône ou la miniature. Le bouton bascule Titre a été supprimé.
+
+Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Exportation des détails des enregistrements vers PDF
 
@@ -67,4 +83,3 @@ Voici quelques-unes des principales fonctionnalités de la planification Adobe W
 * Connectez-vous à des types d’objets provenant d’autres systèmes, créant ainsi une structure cohérente pour tous vos processus.
 
 Pour plus d’informations sur la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
-

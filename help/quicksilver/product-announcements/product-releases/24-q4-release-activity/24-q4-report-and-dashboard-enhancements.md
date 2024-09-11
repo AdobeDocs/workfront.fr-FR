@@ -4,9 +4,9 @@ description: Améliorations du rapport et du tableau de bord du quatrième trime
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 15%
 
 ---
@@ -27,4 +27,4 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 
 Workfront Data Connect sera disponible pour les clients sur l’un des nouveaux plans Workfront. Data Connect permet aux entreprises d’accéder à leurs données sous la forme d’un lac de données sécurisé et évolutif, qui peut être analysé et visualisé à l’aide d’outils de Business Intelligence ou stocké en externe. En outre, les entreprises peuvent utiliser Data Connect pour afficher les analyses de données qui n’étaient pas disponibles auparavant, telles que l’analyse des tendances temporelles, le mappage des variables et l’analyse des données système externes en combinaison avec les données Workfront.
 
-Contactez votre gestionnaire de compte pour plus d’informations sur votre formule Adobe Workfront actuelle et sur la manière d’acheter des modules complémentaires. Pour plus d’informations sur Workfront Data Connect, voir [Présentation des formulaires personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Contactez votre gestionnaire de compte pour plus d’informations sur votre formule Adobe Workfront actuelle et sur la manière d’acheter des modules complémentaires. Pour plus d’informations sur Workfront Data Connect, consultez la [présentation de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
