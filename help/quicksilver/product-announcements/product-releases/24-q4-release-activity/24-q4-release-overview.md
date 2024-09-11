@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
+source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 48%
+source-wordcount: '1588'
+ht-degree: 45%
 
 ---
 
@@ -38,7 +38,9 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 * [Améliorations de l’intégration](#integration-enhancements)
 * [Améliorations apportées aux projets](#project-enhancements)
 * [Améliorations apportées à la relecture](#proofing-enhancements)
+* [Améliorations des rapports et tableaux de bord](#report-and-dashboard-enhancements)
 * [Autres améliorations](#other-enhancements)
+
 
 ### Améliorations apportées aux administrateurs et administratrices
 
@@ -259,6 +261,39 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p><span class="preview">Version de production pour tous les clients : 29 août 2024</span></p>
                             </li>
                         </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### Améliorations des rapports et tableaux de bord
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Data Connect disponible pour les nouveaux plans</a></p>
+                        <p>Workfront Data Connect sera disponible pour les organisations qui ont souscrit à l’un des nouveaux plans Workfront. Data Connect permet aux entreprises d’accéder à leurs données sous la forme d’un lac de données sécurisé et évolutif, qui peut être analysé et visualisé à l’aide d’outils de Business Intelligence ou stocké en externe. En outre, les entreprises peuvent utiliser Data Connect pour afficher les analyses de données qui n’étaient pas disponibles auparavant, telles que l’analyse des tendances temporelles, le mappage des variables et l’analyse des données système externes en combinaison avec les données Workfront.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p><span class="preview">Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</span></p>
+                            </li>
+                        </ul>
+                        <p><i>Disponible uniquement pour les organisations sur l’un des nouveaux plans Adobe Workfront. Data Connect est inclus dans le plan Ultimate ou peut être acheté en tant que module complémentaire des plans Prime et Select.</i></p>
                     </td>
                 </tr>
            </tbody>
