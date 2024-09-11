@@ -6,10 +6,10 @@ description: Un portfolio est un ensemble de projets qui se partagent les mêmes
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 97%
+source-wordcount: '668'
+ht-degree: 80%
 
 ---
 
@@ -31,8 +31,7 @@ Vous pouvez utiliser des portfolios pour regrouper des projets qui appartiennent
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>Nouveau : Tous</p>
-   <p>Actuel :[!UICONTROL Entreprise] ou version ultérieure</p> </td> 
+   <td> <p>Tous</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
@@ -53,6 +52,27 @@ Vous pouvez utiliser des portfolios pour regrouper des projets qui appartiennent
 *Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Méthodes de création de portfolios
+
+Vous pouvez créer un portfolio dans Workfront à l’aide de l’une des méthodes suivantes :
+
+* Créez un portfolio à partir de zéro dans la zone Portfolios du menu principal. Cet article décrit comment créer entièrement un portfolio.
+
+* Importez un portfolio à l’aide de lancements.
+
+  En tant qu’administrateur Workfront, vous pouvez importer des portefeuilles à l’aide d’un lancement rapide.
+
+  Pour plus d’informations sur l’import de données à l’aide de Kickstarts dans Workfront, consulter la section [Importer des données dans Adobe Workfront à l’aide d’un modèle de Kickstart](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+* Ajoutez des portefeuilles lorsque vous les connectez à partir d’un type d’enregistrement dans Workfront Planning.
+
+  Vous devez disposer d’une nouvelle licence Workfront et d’une licence Workfront Planning supplémentaire pour Workfront Planning.
+
+  Pour plus d’informations sur l’accès à Workfront Planning, voir [Présentation des accès](/help/quicksilver/planning/access/access-overview.md).
+
+  Pour plus d’informations sur la création de portfolios en les ajoutant aux enregistrements, reportez-vous à la section &quot;Créer des enregistrements lorsque vous les connectez&quot; dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+
 
 ## Créer un portfolio
 

@@ -6,10 +6,10 @@ description: Un projet est une grande unité de travail dans Adobe Workfront. V
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 100%
+source-wordcount: '1299'
+ht-degree: 91%
 
 ---
 
@@ -112,7 +112,22 @@ Vous pouvez créer un projet dans Workfront à l’aide de l’une des méthodes
 
   Pour plus d’informations sur l’import de projets à l’aide de Kickstarts, consultez la section [Scénario Kickstart : préparer simplement l’import de projets et de tâches](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publiez une initiative à partir d’un scénario dans le planificateur de scénarios Adobe Workfront. Le planificateur de scénarios nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, consultez la section [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md). Pour plus d’informations sur la création de projets à partir de la publication d’initiatives, consultez la section [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](../../../scenario-planner/publish-scenarios-update-projects.md).
+* Publish une initiative à partir d’un scénario dans le planificateur de scénario Adobe Workfront.
+
+  Le planificateur de scénario requiert l’une des options suivantes :
+
+   * Une licence supplémentaire pour la structure de licence Workfront actuelle.
+   * Une licence Ultimate pour la nouvelle structure de licence Workfront.
+
+  Pour plus d’informations sur le planificateur de scénarios Workfront, consultez la section [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md). Pour plus d’informations sur la création de projets à partir de la publication d’initiatives, consultez la section [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](../../../scenario-planner/publish-scenarios-update-projects.md).
+
+* Ajoutez des projets lorsque vous les connectez à partir d’un type d’enregistrement dans Workfront Planning. Vous pouvez créer uniquement des projets sans modèles à partir de Workfront Planning.
+
+  Vous devez disposer d’une nouvelle licence Workfront et d’une licence Workfront Planning supplémentaire pour Workfront Planning.
+
+  Pour plus d’informations sur l’accès à Workfront Planning, voir [Présentation des accès](/help/quicksilver/planning/access/access-overview.md).
+
+  Pour plus d’informations sur la création de projets en les ajoutant aux enregistrements, reportez-vous à la section &quot;Créer des enregistrements lorsque vous les connectez&quot; dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
 ## Conditions préalables
 

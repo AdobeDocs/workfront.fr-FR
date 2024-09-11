@@ -6,10 +6,10 @@ description: Vous pouvez modifier les informations sur les programmes que vous a
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 94%
+source-wordcount: '1010'
+ht-degree: 93%
 
 ---
 
@@ -21,32 +21,37 @@ Vous pouvez modifier un programme dans la page du programme ou modifier des prog
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard] </p><p>Ou </p><p>Actuelle : [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Accès [!UICONTROL Edit] aux programmes</p> <p>Remarque : si vous n’avez toujours pas accès, demandez à votre administrateur ou à votre administratrice [!DNL Workfront] si des restrictions supplémentaires ont été définies pour votre niveau d’accès. Pour plus d’informations sur l’accès aux programmes de votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref">Accorder l’accès aux programmes</a>. Pour plus d’informations sur la manière dont un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>. </p> </td> 
+   <td role="rowheader">Niveau d’accès</td> 
+   <td> <p>Accès [!UICONTROL Edit] aux programmes</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations [!UICONTROL Manage] d’un programme</p> <p> Pour plus d’informations sur l’octroi d’autorisations aux programmes, consultez la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md" class="MCXref xref">Partager un programme</a>. </p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Autorisations [!UICONTROL Manage] d’un programme</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modifier des programmes
 

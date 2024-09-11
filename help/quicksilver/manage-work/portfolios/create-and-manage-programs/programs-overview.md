@@ -6,10 +6,10 @@ title: Présentation des programmes dans  [!DNL Adobe Workfront]
 description: Un programme est un ensemble de projets ayant des caractéristiques d’unification. Ces projets sont généralement en concurrence pour les mêmes ressources, le même budget ou le même créneau horaire. Les programmes sont un sous-groupe de portefeuilles. Vous pouvez associer des projets à des programmes avant qu’ils ne soient ajoutés à un portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -34,7 +34,7 @@ Pour créer et gérer des portfolios, vous devez disposer des accès suivants :
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
    <td> <p>Nouveau : Tous</p>
-   <p>Actuel :[!UICONTROL Entreprise] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 

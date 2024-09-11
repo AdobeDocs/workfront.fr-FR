@@ -6,10 +6,10 @@ description: Un programme représente un ensemble de projets qui partagent une s
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 87%
+source-wordcount: '1228'
+ht-degree: 82%
 
 ---
 
@@ -57,6 +57,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Méthodes de création de programmes
+
+Vous pouvez créer un programme dans Workfront à l’aide de l’une des méthodes suivantes :
+
+* Créez un programme à partir de zéro dans la zone Programmes du menu principal, ou dans la section Programmes d&#39;un portfolio. Cet article décrit comment créer entièrement un programme.
+
+* Importez un programme à l’aide de lancements.
+
+  En tant qu’administrateur de Workfront, vous pouvez importer des programmes à l’aide d’un lancement.
+
+  Pour plus d’informations sur l’import de données à l’aide de Kickstarts dans Workfront, consulter la section [Importer des données dans Adobe Workfront à l’aide d’un modèle de Kickstart](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ## Créer un programme
 

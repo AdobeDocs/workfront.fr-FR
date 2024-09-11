@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 53%
+source-wordcount: '2197'
+ht-degree: 52%
 
 ---
 
 
 # Connecter des types d’enregistrements
+
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 {{planning-important-intro}}
 
@@ -183,8 +185,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    * Un autre type d’enregistrement de l’espace de travail sélectionné
 
-     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
      >
      > 
@@ -193,7 +194,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    * Type d’enregistrement d’un autre espace de travail configuré pour se connecter à partir d’autres espaces de travail. Pour plus d’informations, voir [Modification des types d’enregistrement](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
      >[!TIP]
      >
@@ -206,7 +207,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    * **Experience Manager Assets** depuis la section **Adobe Applications**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
 
 1. Mettez à jour les informations suivantes :
 
@@ -221,7 +222,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
      Cette option est disponible uniquement lors de la connexion d’enregistrements provenant de deux espaces de travail différents ou d’un enregistrement et d’un objet de ressource Adobe Experience Manager.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
    * **Type de connexion** : sélectionnez l’une des options suivantes pour indiquer le nombre d’enregistrements auxquels ils peuvent se connecter et à partir de :
 
@@ -232,7 +233,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
      Cette option est disponible uniquement lors de la connexion d’enregistrements du même espace de travail ou d’un enregistrement et d’un type d’objet Workfront.
 
-     ![](assets/many-to-many-connection-picker.png)
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
 
      Pour plus d’informations sur les types de connexions, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -259,13 +260,21 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    >
    >Votre administrateur Workfront peut mapper les champs de planification Workfront aux champs Experience Manager Assets par le biais du mappage des métadonnées dans Workfront. Pour plus d’informations, voir [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=fr).
 
-1. (Conditionnel) Si vous avez choisi de vous connecter à Experience Manager Assets ou à un type d’enregistrement Workfront Planning, désélectionnez le bouton **Titre** dans la zone **Apparence d’enregistrement**, si vous ne souhaitez pas que le titre des enregistrements ou des ressources connectés s’affiche dans le champ lié. Si cette option est désélectionnée, seules les miniatures des enregistrements s’affichent dans les champs liés. Les enregistrements sans miniature affichent une icône d’image à la place. Le bouton bascule est sélectionné par défaut. Un exemple d’affichage des enregistrements connectés s’affiche dans la zone **Apparence des enregistrements**.
+1. (Conditionnel) Si vous avez choisi de vous connecter à Experience Manager Assets ou à un type d’enregistrement Workfront Planning, sélectionnez l’une des options suivantes dans la zone **Apparence d’enregistrement** :
+
+   * <span class="preview">**Nom et image** : le nom et la miniature ou l’icône des enregistrements connectés s’affichent dans le champ d’enregistrement connecté. Il s’agit de l’option par défaut. </span>
+   * <span class="preview">**Nom** : seul le nom des enregistrements connectés s’affichera dans le champ d’enregistrement connecté.</span>
+   * <span class="preview">**Image** : seule la miniature ou l’icône des enregistrements connectés s’affichera dans le champ d’enregistrement connecté.</span>
+
+   Les enregistrements sans miniature affichent à la place l’icône de type d’enregistrement . Un exemple d’affichage des enregistrements connectés s’affiche dans la zone **Apparence des enregistrements**.
 
    >[!TIP]
    >
    >    Lorsque vous autorisez le lien de plusieurs enregistrements, l’affichage de la miniature peut économiser de l’espace dans des zones plus petites, comme les vues d’enregistrement.
    >
-   >Le titre d’un enregistrement est le champ principal de l’enregistrement. Pour plus d’informations, voir [Présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d’informations, voir [Présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >
+   >La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objets Workfront.
 
 1. Cliquez sur **Créer**.
 
@@ -286,7 +295,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    >    Toute personne disposant d’autorisations Afficher ou d’autorisations supérieures dans l’espace de travail peut consulter les informations contenues dans les champs liés, quels que soient ses autorisations ou son niveau d’accès dans l’application des types d’objets liés.
 
 
-1. (Facultatif) Cliquez sur **Ignorer** pour ignorer l’ajout de champs à partir de l’enregistrement ou du type d’objet lié. Le **Nom** ou le **Titre** de l’enregistrement lié est le seul champ visible dans la vue de table du type d’enregistrement à partir duquel vous vous connectez.
+1. (Facultatif) Cliquez sur **Ignorer** pour ignorer l’ajout de champs à partir de l’enregistrement ou du type d’objet lié. Le champ nom ou Principal de l&#39;enregistrement lié est le seul champ visible dans la vue table du type d&#39;enregistrement à partir duquel vous vous connectez.
 
 1. (Facultatif et conditionnel) Si vous choisissez de lier un champ de type nombre, devise, pourcentage ou date, sélectionnez également une valeur d’agrégateur pour résumer plusieurs valeurs. Les valeurs des champs liés s&#39;affichent soit séparés par des virgules, soit sous la forme d&#39;une valeur résumée selon l&#39;agrégateur que vous choisissez, lorsque les utilisateurs sélectionnent plusieurs enregistrements liés dans le champ d&#39;enregistrement lié.
 

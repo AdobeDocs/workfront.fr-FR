@@ -6,9 +6,9 @@ description: Vous pouvez supprimer un projet d’un portfolio et l’associer à
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '227'
 ht-degree: 84%
 
 ---
@@ -30,9 +30,8 @@ Vous pouvez également supprimer des projets d’un portfolio, ce qui les suppri
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>Nouveau : Tous</p>
-   <p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 

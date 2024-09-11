@@ -6,10 +6,10 @@ description: Les demandes de projet s’affichent en tant que projets avec le st
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 98%
 
 ---
 
@@ -30,32 +30,36 @@ Vous pouvez examiner les projets demandés dans les zones suivantes d’[!DNL Ad
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>[!UICONTROL Business] ou niveau supérieur</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td><p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès en [!UICONTROL View] ou de niveau supérieur aux portfolios</p> <p>[!UICONTROL Edit] l’accès aux Projets</p> <p>Remarque : si vous n’avez toujours pas accès, demandez à votre administrateur ou à votre administratrice [!DNL Workfront] si des restrictions supplémentaires ont été définies pour votre niveau d’accès. Pour plus d’informations sur la manière dont un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en [!UICONTROL View] ou de niveau supérieur aux portfolios</p> <p>[!UICONTROL Edit] l’accès aux Projets</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de [!UICONTROL View] ou de niveau supérieur sur le portfolio</p> <p>Autorisations de [!UICONTROL Manage] sur les projets pour mettre à jour leur statut</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Autorisations de [!UICONTROL View] ou de niveau supérieur sur le portfolio</p> <p>Autorisations de [!UICONTROL Manage] sur les projets pour mettre à jour leur statut</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le type de licence, le type de plan ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Examiner les projets demandés dans un rapport de projet
 
