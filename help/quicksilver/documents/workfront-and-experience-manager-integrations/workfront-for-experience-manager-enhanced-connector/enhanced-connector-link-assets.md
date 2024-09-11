@@ -5,18 +5,26 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 100%
+source-wordcount: '582'
+ht-degree: 96%
 
 ---
+
 
 # Lier des ressources et des dossiers à l’aide du connecteur amélioré
 
 Vous pouvez lier une ressource ou un dossier provenant d’Experience Manager Assets à n’importe quel objet Workfront prenant en charge les documents. Les ressources envoyées à partir d’Experience Manager Assets ne sont pas prises en compte dans le stockage global de documents dans Workfront. Les documents chargés et envoyés de Workfront à Experience Assets Essentials sont bien pris en compte dans le stockage global.
 
+
+>[!NOTE]
+>
+>Les fichiers Excel liés par le biais du connecteur amélioré ne peuvent pas être prévisualisés dans Workfront. Vous devez télécharger le fichier pour y accéder.
+
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -30,7 +38,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> </td> 
+   <td> <p>Actuelle : demande ou niveau supérieur</p> 
+   ou
+   <p>Nouvelle : contributeur ou supérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
@@ -48,6 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
++++
 
 ## Conditions préalables
 
