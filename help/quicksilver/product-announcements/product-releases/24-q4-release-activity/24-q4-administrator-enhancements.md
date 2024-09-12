@@ -4,10 +4,11 @@ description: Améliorations apportées à l’administration du quatrième trime
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 19%
+source-wordcount: '402'
+ht-degree: 20%
 
 ---
 
@@ -38,6 +39,8 @@ Pour rendre la promotion de l’environnement plus flexible et plus facile à ut
 Auparavant, les configurations étaient restaurées manuellement ou par le biais d’un autre module de promotion d’environnement.
 
 Pour plus d’informations sur la restauration d’un package de promotion d’environnement, voir [Restauration d’un package de promotion d’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md).
+
+[Voir une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3434025/){target=_blank}
 
 ## Le bouton Disposition du concepteur de formulaire personnalisé permet d’afficher deux ou trois colonnes.
 

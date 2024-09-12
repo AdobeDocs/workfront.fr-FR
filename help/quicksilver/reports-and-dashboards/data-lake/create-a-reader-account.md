@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '496'
 ht-degree: 10%
 
 ---
@@ -23,6 +23,8 @@ Pour plus d’informations sur l’utilisation d’une nouvelle connexion avec u
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -31,7 +33,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>À déterminer</td> 
+   <td><p>Inclus dans les plans suivants :</p>
+    <ul>
+        <li>Final</li> 
+    </ul>    
+   <p>Peuvent être achetées sous la forme d’un module complémentaire pour les forfaits suivants :</p> 
+    <ul>
+        <li>Sélectionner</li> 
+        <li>Principal</li>
+    </ul> 
+    <p>Workfront Data Connect n’est pas disponible pour les plans Workfront hérités.</p> 
+   </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -45,6 +57,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 </table>
 
 Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Créer un compte de lecteur
 

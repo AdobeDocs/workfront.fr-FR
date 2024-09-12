@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 45%
 
 ---
@@ -40,7 +40,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 * [Améliorations apportées à la relecture](#proofing-enhancements)
 * [Améliorations des rapports et tableaux de bord](#report-and-dashboard-enhancements)
 * [Autres améliorations](#other-enhancements)
-
+* [Fonctionnalités bientôt supprimées de Workfront](#functionality-soon-to-be-removed-from-workfront)
 
 ### Améliorations apportées aux administrateurs et administratrices
 
@@ -78,6 +78,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Restauration des packages de promotion d’environnement</a></p>
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>Pour rendre la promotion de l’environnement plus flexible et plus facile à utiliser, nous avons activé la fonctionnalité de restauration. Vous pouvez désormais restaurer les packages en moins de 24 heures, ce qui vous permet de restaurer plus facilement les configurations précédentes qui ont été affectées par un package de promotion d’environnement.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -191,8 +192,8 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Autres affectations intelligentes pertinentes</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations intelligentes plus pertinentes</a></p>
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -362,6 +363,14 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
            </tbody>
         </table>
 
+### Fonctionnalités bientôt supprimées de Workfront
+
+Les fonctionnalités suivantes seront bientôt supprimées de Workfront :
+
+#### Obsolescence de l’expérience d’accueil héritée avec la version 24.10
+
+Nous abandonnerons officiellement l’expérience héritée d’accueil avec la version 24.10. Nous vous recommandons de commencer à utiliser la nouvelle page d’accueil, qui continuera à être enrichie de fonctionnalités supplémentaires avant l’obsolescence. Pour plus d’informations sur la transition, y compris des conseils sur ce que les utilisateurs et les administrateurs peuvent faire pour se préparer, consultez le [Guide d’obsolescence de la page d’accueil héritée](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+
 ## Annonces
 
 ### Améliorations de Workfront Fusion
@@ -398,12 +407,4 @@ Pour plus d’informations sur les mises à jour de maintenance effectuées lors
 
 ### Mise à jour des formations
 
-Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, voir la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
-
-### Fonctionnalités bientôt supprimées de Workfront
-
-Les fonctionnalités suivantes seront bientôt supprimées de Workfront :
-
-#### Obsolescence de l’expérience d’accueil héritée avec la version 24.10
-
-Nous abandonnerons officiellement l’expérience héritée d’accueil avec la version 24.10. Nous vous recommandons de commencer à utiliser la nouvelle page d’accueil, qui continuera à être enrichie de fonctionnalités supplémentaires avant l’obsolescence. Pour plus d’informations sur la transition, y compris des conseils sur ce que les utilisateurs et les administrateurs peuvent faire pour se préparer, consultez le [Guide d’obsolescence de la page d’accueil héritée](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).

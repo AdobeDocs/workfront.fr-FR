@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 21%
 
 ---
@@ -22,7 +22,7 @@ Pour une liste de tous les changements disponibles avec la version du quatrième
 
 >[!NOTE]
 >
->Aperçu de la version : 18 juillet 2024 ; Production pour une version rapide : avec la version 24.9 (septembre 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
+>Aperçu de la version : 18 juillet 2024 ; Production pour une version rapide : avec la version 24.9 (12 septembre 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
 
 Nous avons mis à jour la page Configuration > Système > Préférences afin qu’elle soit plus moderne et cohérente avec les autres zones de Workfront.
 
