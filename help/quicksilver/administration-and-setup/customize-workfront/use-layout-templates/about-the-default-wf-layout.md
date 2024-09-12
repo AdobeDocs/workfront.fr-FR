@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 98%
+source-wordcount: '307'
+ht-degree: 79%
 
 ---
 
 # À propos de la disposition Adobe Workfront par défaut
 
-La disposition par défaut correspond à la disposition du menu principal ![](assets/main-menu-icon.png), du panneau de gauche, ainsi qu’aux vues, aux regroupements et aux filtres avant qu’un administrateur ou une administratrice Adobe Workfront ne procède à des modifications à l’aide d’un modèle de mise en page.
+La disposition par défaut est la disposition du menu principal ![](assets/main-menu-icon.png) ou du menu principal ![](assets/lines-main-menu.png), le cas échéant, le panneau de gauche, ainsi que les vues, les regroupements et les filtres avant qu’un administrateur Adobe Workfront ne procède à des modifications à l’aide d’un modèle de mise en page.
 
 Pour plus d’informations sur la manière dont un administrateur ou une administratrice Workfront peut modifier la disposition par défaut d’un utilisateur ou d’une utilisatrice en lui attribuant un modèle de mise en page, voir [Attribuer un modèle de mise en page à des utilisateurs et des utilisatrices](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur la manière dont un administrateur ou une adminis
 
 La disposition par défaut de chaque personne dépend de son niveau d’accès. Certaines personnes peuvent ne pas voir certaines zones du menu principal ou certains éléments du panneau de gauche, selon le niveau d’accès qui leur est attribué.
 
-Le tableau suivant indique les éléments du panneau de gauche affichés par défaut pour chaque niveau d’accès. La zone de destination par défaut pour chaque niveau d’accès est également indiquée :
+Le tableau suivant indique la zone d’entrée par défaut et les éléments du panneau de gauche qui s’affichent pour chaque niveau d’accès :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
   <tr> 
    <th>Zone</th> 
    <th> Éléments du panneau de gauche </th> 
-   <th> <p>Administrateur ou administratrice système</p> </th> 
-   <th> <p>Planificateur</p> </th> 
+   <th> Administrateur ou administratrice système</th> 
+   <th> Planificateur </th> 
    <th>Employé</th> 
    <th>Réviseur</th> 
    <th>Demandeur</th> 
@@ -150,7 +150,7 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
   </tr> 
   <tr> 
    <td rowspan="3"><strong>Demandes</strong> </td> 
-   <td><strong>Nouvelle demande</strong> </td> 
+   <td>Nouvelle requête </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 

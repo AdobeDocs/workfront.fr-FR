@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez effectuer le suivi des modifications utilisateur déclenchées dans le système au cours des 90 derniers jours à l’aide des journaux d’audit.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 98%
+source-wordcount: '1530'
+ht-degree: 95%
 
 ---
 
@@ -65,10 +65,11 @@ Les champs suivants sont enregistrés dans chaque entrée du journal d’audit 
 ## Types de journaux d’audit et actions qui les déclenchent
 
 * [Niveau d’accès](#access-level)
+* [Règles commerciales](#business-rules)
 * [Entreprise](#company)
 * [Condition](#condition)
 * [Champ personnalisé](#custom-field)
-* [Formulaires personnalisés](#custom-forms)
+* [Formulaire personnalisé](#custom-forms)
 * [Section personnalisée](#custom-section)
 * [Taux de change](#exchange-rate)
 * [Groupe](#group)
@@ -97,6 +98,21 @@ Le système génère une entrée de journal de niveau d’accès lorsqu’une pe
      >Le système n’enregistre aucune modification des autorisations dans les données financières ou dans les types d’accès suivants : Afficher et Modifier.
      >
      >Par exemple, si une personne passe le type d’accès Planificateur ou planificatrice d’Afficher à Modifier, le système n’affiche pas les informations contenues dans le menu déroulant Affiner vos paramètres.
+
+### Règles commerciales
+
+Les règles de fonctionnement ne sont disponibles que pour les clients qui ont acheté un forfait Workfront Ultimate. Pour plus d’informations, voir [Création et modification de règles de fonctionnement](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+Le système génère une entrée de journal d’audit des règles métier lorsqu’un utilisateur effectue l’une des opérations suivantes :
+
+* Crée une règle de fonctionnement
+* Modifie une règle de fonctionnement :
+
+   * Modifie le nom.
+   * Ajoute ou supprime des expressions
+   * Modification d’un déclencheur
+
+* Suppression d’une règle de fonctionnement
 
 ### Entreprise {#company}
 
@@ -160,7 +176,7 @@ Le système génère une entrée de journal d’audit d’un champ personnalisé
 * Supprime un champ personnalisé.
 * Partage un champ personnalisé.
 
-### Formulaires personnalisés {#custom-forms}
+### Formulaire personnalisé {#custom-form}
 
 Le système génère une entrée de journal d’audit de formulaire personnalisé lorsqu’un utilisateur ou une utilisatrice effectue l’une des actions suivantes :
 

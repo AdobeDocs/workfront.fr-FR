@@ -6,10 +6,10 @@ description: Vous pouvez importer des projets existants dans un plan. Les projet
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1670'
-ht-degree: 97%
+source-wordcount: '1689'
+ht-degree: 96%
 
 ---
 
@@ -29,14 +29,17 @@ Vous pouvez importer des projets existants dans un plan. Les projets importés s
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
-   <td> <p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p>
-   <p>Nouveau : Ultimate </p>
+   <td> <ul></li>
+   <li><p>Nouveau : Ultimate </p></li>
+   <p>Le planificateur de scénario n’est pas disponible pour le nouveau plan Workfront Select ou Workfront. </p>
+   <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -46,17 +49,19 @@ Vous pouvez importer des projets existants dans un plan. Les projets importés s
   </tr> 
   <tr> 
    <td>Produit* </td> 
-   <td> 
-   <p>Pour les plans Workfront actuels : </p>
-   <p>Vous devez acheter une licence supplémentaire pour qu’[!DNL Adobe Workfront Scenario Planner] puisse accéder aux fonctionnalités décrites dans cet article.</p> <p>Pour plus d’informations sur l’accès et les autorisations pour [!DNL Workfront Scenario Planner], voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>Pour les nouveaux plans Workfront :</p><p> Adobe Workfront</li></p>
+   <li><p>Pour les plans Workfront actuels : </p>
+   <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
+
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
-   <td> <p>Accès [!UICONTROL Edit] à [!DNL Scenario Planner]</p> </td> 
+   <td> <p>Accès [!UICONTROL Edit] à [!DNL Scenario Planner]</p> <p>Affichage ou accès supérieur à la console Projets.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Autorisations d’objet </p> </td> 
-   <td> <p>Autorisations [!UICONTROL Manage] pour un plan</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à un plan, consultez <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à un plan dans le [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Autorisations [!UICONTROL Manage] pour un plan</p> <p>Affichage ou autorisations supérieures des projets.</p><p>Pour plus d’informations sur la demande d’un accès supplémentaire à un plan, consultez <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à un plan dans le [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

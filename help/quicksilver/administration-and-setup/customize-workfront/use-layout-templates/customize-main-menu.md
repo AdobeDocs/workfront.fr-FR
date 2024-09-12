@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 96%
+source-wordcount: '630'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, v
 >[!NOTE]
 >
 >Les options du menu principal que les personnes voient dépendent de leur type de licence et des paramètres configurés à leur niveau d’accès. Certaines personnes qui utiliseront ce modèle de disposition ne verront peut-être pas toutes les options que vous choisissez ici. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) et [Accès configurable à la fonctionnalité pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+>
+>Si votre entreprise a été intégrée à l’expérience unifiée Adobe Workfront, différentes options s’affichent dans le menu principal. Pour plus d’informations, voir [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Pour plus d’informations sur la création de modèles de disposition, voir [Créer et gérer des modèles de disposition](../use-layout-templates/create-and-manage-layout-templates.md).
 

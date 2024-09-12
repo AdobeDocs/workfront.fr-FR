@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 89%
+source-wordcount: '577'
+ht-degree: 87%
 
 ---
 
@@ -51,7 +51,7 @@ Les modifications apportées à la vue Détails d’un objet déterminent égale
   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* Panneau Résumé ![](assets/summary-panel-icon.png) pour les listes de tâches et de problèmes
+* Panneau récapitulatif ![](assets/summary-panel-icon.png) pour les listes de tâches et de problèmes
 
   ![](assets/summary-area.png)
 
@@ -80,16 +80,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td><p>Nouveau : Standard</p>
+  <p> Actuel : formule</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.
-Pour les exécuter pour un groupe, vous devez être une personne gestionnaire de ce groupe.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont un administrateur ou administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

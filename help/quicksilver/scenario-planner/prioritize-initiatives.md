@@ -6,10 +6,10 @@ description: Il est important de hiérarchiser les initiatives parce que celles-
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 93%
+source-wordcount: '538'
+ht-degree: 91%
 
 ---
 
@@ -33,8 +33,10 @@ Pour plus d’informations sur la création d’initiatives, voir [Créer et mod
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
-   <td> <p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p>
-   <p>Nouveau : Ultimate </p>
+   <td> <ul></li>
+   <li><p>Nouveau : Ultimate </p></li>
+   <p>Le planificateur de scénario n’est pas disponible pour le nouveau plan Workfront Select ou Workfront. </p>
+   <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -44,9 +46,11 @@ Pour plus d’informations sur la création d’initiatives, voir [Créer et mod
   </tr> 
   <tr> 
    <td>Produit* </td> 
-   <td> 
-   <p>Pour les plans Workfront actuels : </p>
-   <p>Vous devez acheter une licence supplémentaire pour qu’[!DNL Adobe Workfront Scenario Planner] puisse accéder aux fonctionnalités décrites dans cet article.</p> <p>Pour plus d’informations sur l’accès et les autorisations pour [!DNL Workfront Scenario Planner], voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>Pour les nouveaux plans Workfront :</p><p> Adobe Workfront</li></p>
+   <li><p>Pour les plans Workfront actuels : </p>
+   <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
+
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 

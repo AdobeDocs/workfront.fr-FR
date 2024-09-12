@@ -1,15 +1,15 @@
 ---
 title: Gestion de la vue Tableau
-description: Vous pouvez afficher les enregistrements et leurs champs dans la vue de tableau lors de l’accès à la page du type d’enregistrement dans Adobe Workfront Planning.
+description: Vous pouvez afficher les enregistrements et leurs champs en mode Tableau lors de l’accès à la page de type enregistrement dans Adobe Workfront Planning. Cet article décrit comment créer une vue de tableau et modifier ou supprimer une vue existante.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2784'
-ht-degree: 71%
+source-wordcount: '2801'
+ht-degree: 70%
 
 ---
 

@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 99%
+source-wordcount: '502'
+ht-degree: 98%
 
 ---
 
@@ -52,20 +52,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td><p>Nouveau : Standard</p>
-   Ou
-   <p>Actuel : formule</p></td> 
+  <p> Actuel : formule</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.</p>
-<p>Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> <p><b>NOTE</b> :</p> <p>Si vous n’y avez pas accès, demandez à l’administration Workfront si des restrictions supplémentaires ont été définies pour votre niveau d’accès.
-
-Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.
+Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,7 +108,7 @@ Pour plus d’informations sur les modèles de mise en page, voir [Modèles de m
 
 1. Continuez à tester votre modèle de mise en page et mettez-le à la disposition des personnes, comme décrit dans les articles ci-dessous :
 
-   * [Tester un nouveau modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+   * [ Tester un nouveau modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
    * [Accorder un accès administratif pour un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [Affecter des utilisateurs et utilisatrices à un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 

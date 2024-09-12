@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 99%
+source-wordcount: '977'
+ht-degree: 93%
 
 ---
 
@@ -49,16 +49,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td><p>Nouveau : Standard</p>
+  <p> Actuel : formule</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.
-Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +72,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
 1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) sous **Personnaliser des éléments affichés par les utilisateurs et utilisatrices**, puis cliquez sur **Accueil et résumé**.
 
-1. Dans la liste qui s’affiche à gauche, cliquez sur le type d’objet (**Tâches**, **Problèmes**, **Projets**, **Documents**, ou **Versions du document**) que vous souhaitez personnaliser dans Accueil et Résumé.
+1. Dans la liste de gauche, cliquez sur le type d’objet (**Tâches**, **Problèmes**, **Projets**, **Documents** ou **Document Versions**) que vous souhaitez personnaliser dans Accueil et résumé.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -139,7 +143,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
         <li>Date d'achèvement prévue</li>
         <li>Date d’engagement</li>
         <li>Date d’envoi</li>
-       </ul><p><b>NOTE</b> : lorsque cette option est activée, les éléments de travail arrivant en retard sont déplacés vers le regroupement En retard dans la liste de travail de la.page d’accueil en fonction de la date uniquement et non de l’heure.</p></td> 
+       </ul><p><b>NOTE</b> :</p> <p> Lorsque cette option est activée, les tâches arrivant en retard sont déplacées vers le regroupement Tard dans la liste des tâches à domicile en fonction de la date uniquement et non de l’heure.</p></td> 
      </tr> 
     </tbody> 
    </table>

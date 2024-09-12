@@ -1,14 +1,14 @@
 ---
 title: Gérer la vue chronologique
-description: Accédez aux enregistrements et modifiez-les dans une vue de chronologie sur la page de type d’enregistrement de la planification Adobe Workfront. Personnalisez la chronologie à l’aide de filtres, de regroupements et de paramètres. Utilisez la fonction Ventilation pour afficher les enregistrements connectés.
+description: Accédez aux enregistrements et modifiez-les dans une vue de chronologie sur la page de type d’enregistrement de la planification Adobe Workfront. Cet article décrit comment créer une vue de chronologie et modifier ou supprimer une vue existante. Personnalisez la chronologie à l’aide de filtres, de regroupements et de paramètres. Utilisez la fonction Ventilation pour afficher les enregistrements connectés.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2637'
 ht-degree: 60%
 
 ---

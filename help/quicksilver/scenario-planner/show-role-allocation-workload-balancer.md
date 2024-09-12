@@ -6,10 +6,10 @@ description: Une fois que vous avez connecté les projets et les initiatives, vo
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 93%
+source-wordcount: '799'
+ht-degree: 92%
 
 ---
 
@@ -33,8 +33,10 @@ Pour des informations générales sur la réconciliation des ressources entre le
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
-   <td> <p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p>
-   <p>Nouveau : Ultimate </p>
+   <td> <ul></li>
+   <li><p>Nouveau : Ultimate </p></li>
+   <p>Le planificateur de scénario n’est pas disponible pour le nouveau plan Workfront Select ou Workfront. </p>
+   <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -44,17 +46,19 @@ Pour des informations générales sur la réconciliation des ressources entre le
   </tr> 
   <tr> 
    <td>Produit* </td> 
-   <td> 
-   <p>Pour les plans Workfront actuels : </p>
-   <p>Vous devez acheter une licence supplémentaire pour qu’[!DNL Adobe Workfront Scenario Planner] puisse accéder aux fonctionnalités décrites dans cet article.</p> <p>Pour plus d’informations sur l’accès et les autorisations pour [!DNL Workfront Scenario Planner], voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>Pour les nouveaux plans Workfront :</p><p> Adobe Workfront</li></p>
+   <li><p>Pour les plans Workfront actuels : </p>
+   <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
+
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
-   <td> <p>[!UICONTROL Affichage] ou accès supérieur à [!UICONTROL Projects]</p> </td> 
+   <td> <p>Affichage ou accès supérieur à la console Projets.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Autorisations d’objet </p> </td> 
-   <td> <p>Autorisations [!UICONTROL View] pour un projet</p> </td> 
+   <td> <p> Autorisation d’affichage ou supérieure d’un projet.</p> </td> 
   </tr> 
  </tbody> 
 </table>

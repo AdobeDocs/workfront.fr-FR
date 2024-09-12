@@ -1,15 +1,15 @@
 ---
 title: "Vues : Index de l’article"
-description: Vous pouvez afficher les enregistrements Adobe Workfront Planning dans un tableau, une chronologie ou un calendrier. Les articles suivants décrivent comment créer et gérer des vues d’enregistrement Adobe Workfront Planning.
+description: Vous pouvez afficher les enregistrements Adobe Workfront Planning dans un tableau, une chronologie ou un calendrier. Cet article contient des liens vers des articles qui décrivent comment créer des vues et modifier ou supprimer des vues existantes.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 96%
+source-wordcount: '84'
+ht-degree: 73%
 
 ---
 

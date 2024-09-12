@@ -1,15 +1,15 @@
 ---
 title: Gérer les vues d’enregistrement
-description: Vous pouvez afficher les enregistrements dans une vue de tableau, chronologique ou de calendrier lors de l’utilisation d’Adobe Workfront Planning.
+description: Vous pouvez afficher les enregistrements dans un tableau, une chronologie ou un calendrier lors de l’utilisation d’Adobe Workfront Planning. Cet article décrit comment créer une vue et modifier ou supprimer une vue existante.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 64%
+source-wordcount: '1406'
+ht-degree: 63%
 
 ---
 
