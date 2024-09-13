@@ -6,9 +6,9 @@ description: Une fois que vous avez connecté les projets et les initiatives, vo
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '800'
 ht-degree: 92%
 
 ---
@@ -35,7 +35,7 @@ Pour des informations générales sur la réconciliation des ressources entre le
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour le nouveau plan Workfront Select ou Workfront. </p>
+   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 

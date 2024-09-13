@@ -6,9 +6,9 @@ description: Lorsque des initiatives entrent en conflit les unes avec les autres
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '2172'
 ht-degree: 97%
 
 ---
@@ -34,7 +34,7 @@ Cela peut se produire dans l’un des cas suivants :
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour le nouveau plan Workfront Select ou Workfront. </p>
+   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 33%
+source-wordcount: '168'
+ht-degree: 32%
 
 ---
 
@@ -28,6 +28,7 @@ Consultez les articles suivants :
 * [Activité de mise à jour du calendrier Adobe Workfront pour 2024](/help/quicksilver/planning/general/release-activity.md)
 * [Activité de mise à jour du calendrier Adobe Workfront pour 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Présentation des limites des objets de la planification Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md)
+* [Bonnes pratiques relatives à la planification Adobe Workfront](/help/quicksilver/planning/general/planning-best-practices.md)
 
 
 

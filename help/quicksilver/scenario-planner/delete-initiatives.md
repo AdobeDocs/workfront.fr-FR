@@ -6,9 +6,9 @@ description: Vous pouvez supprimer des initiatives d’un plan que vous avez cr�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 90%
 
 ---
@@ -29,7 +29,7 @@ Vous pouvez supprimer des initiatives d’un plan que vous avez créé ou d’un
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour le nouveau plan Workfront Select ou Workfront. </p>
+   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 

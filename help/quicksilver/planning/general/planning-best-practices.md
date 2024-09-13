@@ -1,10 +1,11 @@
 ---
 title: Bonnes pratiques de planification d’Adobe Workfront
 description: En tant que personne responsable des opérations marketing, vous pouvez utiliser Adobe Workfront Planning pour organiser le travail de toutes vos équipes au cours du cycle de vie marketing. Voici quelques bonnes pratiques que nous vous recommandons lorsque vous commencez à planifier Workfront.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: ae10d35c61bf40c9e6f0422bd670b9733ad62aae
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
 source-wordcount: '3225'
 ht-degree: 2%

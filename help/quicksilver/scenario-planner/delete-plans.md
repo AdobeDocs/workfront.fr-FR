@@ -6,9 +6,9 @@ description: Vous pouvez supprimer les plans que vous avez créés. Vous ne pouv
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '508'
 ht-degree: 90%
 
 ---
@@ -29,7 +29,7 @@ Vous pouvez supprimer les plans que vous avez créés. Vous ne pouvez pas suppri
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour le nouveau plan Workfront Select ou Workfront. </p>
+   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 

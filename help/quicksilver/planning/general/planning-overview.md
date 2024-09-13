@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '2039'
-ht-degree: 55%
+source-wordcount: '2102'
+ht-degree: 56%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 55%
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles ne sont disponibles que dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Pour plus d’informations sur la version actuelle, consultez la section [Vue d’ensemble de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
 
 >[!IMPORTANT]
 >
@@ -89,8 +95,7 @@ Voici les fonctionnalités actuellement disponibles dans la planification Workfr
 * Partage des vues publiquement avec des ressources externes
 * Dupliquer les vues
 * Envoi de requêtes pour créer des enregistrements
-* Exportation des détails de l’enregistrement vers Word\
-  <!--* Export record details to PDF-->
+* Exporter les détails des enregistrements vers Word <span class="preview"> et PDF.</span>
 * Ajouter des commentaires aux enregistrements
 * Réception de notifications in-app
 * Recevoir des notifications par e-mail
