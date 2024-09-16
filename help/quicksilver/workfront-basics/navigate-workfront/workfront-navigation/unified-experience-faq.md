@@ -6,10 +6,10 @@ description: Certaines fonctionnalités diffèrent entre  [!DNL Workfront]  et A
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b4c1f9c29dd6ad1e07acc741ab52e95a7bae7f67
+source-git-commit: be60ec38495a7c25d88e325cf4ba96decf083ea3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1352'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Ce tableau décrit les fonctionnalités qui diffèrent entre les deux expérienc
 | L’aide est accessible à partir du [!UICONTROL menu principal] et de la zone de navigation supérieure. | L’aide est accessible à partir du [!UICONTROL menu principal] et de la barre de navigation [!DNL Workfront]. |
 | La visionneuse de vérification s’ouvre dans un nouvel onglet. | La visionneuse de vérification s’ouvre dans Workfront |
 | L’URL d’accès à Workfront est `experience.adobe.com` | L’URL d’accès à Workfront est `(CompanyName).my.workfront.com` |
-| Le format de date (MM/JJ/AAAA, par exemple) est basé sur les préférences du navigateur. | Le format de date (MM/JJ/AAAA, par exemple) est basé sur les paramètres de la langue de l’expérience unifiée. Si l’utilisateur n’a pas mis à jour ses paramètres de langue, les paramètres `en-US` sont utilisés. |
+| Le format de date (MM/JJ/AAAA, par exemple) est basé sur les paramètres de la langue de l’expérience unifiée. Si l’utilisateur n’a pas mis à jour ses paramètres de langue, les paramètres `en-US` sont utilisés. | Le format de date (MM/JJ/AAAA, par exemple) est basé sur les préférences du navigateur. |
 
 {style="table-layout:auto"}
 
