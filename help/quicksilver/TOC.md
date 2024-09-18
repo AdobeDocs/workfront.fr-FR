@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 541b2048800b53b6f2302eaafe0598761a1f619b
+source-git-commit: 6d32b7c7427f1f8f9d1858724574cdd13b89fa1f
 workflow-type: tm+mt
-source-wordcount: '14390'
+source-wordcount: '14398'
 ht-degree: 95%
 
 ---
@@ -1017,6 +1017,7 @@ ht-degree: 95%
       * [Processus d’approbation en double apparaissant dans la liste de travail de la zone d’accueil](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [Les boutons de filtre ne s’affichent pas dans les en-têtes de page.](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [Le filtre Projets auxquels je participe inclut des résultats inattendus.](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
+      * [Plusieurs onglets de navigateur entraînent la déconnexion de Workfront.](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * Agile {#agile}
    * [Agile](agile/agile.md)
    * [Vue d’ensemble des panoramas](agile/boards-overview.md)
