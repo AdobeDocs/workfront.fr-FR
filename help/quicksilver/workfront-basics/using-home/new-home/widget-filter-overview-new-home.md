@@ -5,10 +5,11 @@ title: Présentation des filtres de widgets d’accueil
 description: Vous pouvez choisir parmi plusieurs widgets pour personnaliser le contenu qui s’affiche sur votre page d’accueil. Ces widgets peuvent être redimensionnés et organisés sur votre page d’accueil.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a1fcaaa9695fb059ffa9dc670ae4fe3e5609aa23
+exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
+source-git-commit: 6fe37148bbb242f3a954a4fd26284fd7e70a5cdf
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 18%
+source-wordcount: '742'
+ht-degree: 17%
 
 ---
 
@@ -19,6 +20,7 @@ Vous pouvez utiliser des filtres sur les widgets suivants pour rechercher et org
 * [Mes projets](#my-projects)
 * [Mes tâches](#my-tasks)
 * [Mes problèmes](#my-issues)
+* [Mes tâches]
 
 ## Mes projets
 
@@ -229,4 +231,52 @@ Vous pouvez utiliser les filtres suivants dans le widget Mes problèmes :
     <td>Non affectés dans mon rôle</td>
     <td>Affiche tous les problèmes auxquels un utilisateur principal n’a pas été affecté, mais auxquels un rôle a été attribué. </td>
   </tr>
+</table>
+
+## Mon travail
+
+Vous pouvez utiliser les filtres suivants dans le widget Mon travail :
+
+<table>
+  <tbody>
+    <tr>
+      <td>Utilisation de</td>
+      <td>Affiche les éléments sur lesquels vous travaillez actuellement</td>
+    </tr>
+    <tr>
+      <td>Démarrage possible</td>
+      <td>Affiche les éléments avec 
+      <ul>
+      <li>Pas de prédécesseurs incomplets ou de contraintes de tâche</li>
+      <li>La date de début planifiée se situe au-delà ou jusqu’à deux semaines à l’avenir.</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>À préparer</td>
+      <td>Affiche les éléments qui ont
+       <ul>
+      <li>Des prédécesseurs incomplets ou des contraintes de tâche qui empêchent l’utilisation de l’élément</li>
+      ou
+      <li>La date de début planifiée de plus de deux semaines à l’avenir</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>Demandé</td>
+      <td>Affiche les problèmes sur lesquels vous n’avez pas commencé à travailler.</td>
+    </tr>
+    <tr>
+      <td>Délégué par moi-même</td>
+      <td>Affiche les éléments que vous avez délégués à d’autres utilisateurs</td>
+    </tr>
+    <tr>
+      <td>M’a été délégué</td>
+      <td>Affiche les éléments que les utilisateurs vous ont délégués.</td>
+    </tr>
+    <tr>
+      <td>Terminé</td>
+      <td>Affiche le travail terminé au cours des deux dernières semaines. Cette option de filtre n’inclut pas les validations.</td>
+    </tr>
+  </tbody>
 </table>
