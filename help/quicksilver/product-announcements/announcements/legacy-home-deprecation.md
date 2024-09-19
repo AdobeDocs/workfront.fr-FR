@@ -5,9 +5,10 @@ title: Guide d’obsolescence de la page d’accueil
 description: Cette page contient des informations sur l’obsolescence prochaine de la page d’accueil héritée.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
+source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -79,6 +80,10 @@ Presque, à l’exception de :
 * L’affichage des horodatages pour les dates d’échéance des objets n’est actuellement pas disponible.
 
 * L’affichage de la date de validation dans le flux de mise à jour n’est actuellement pas disponible. Cependant, il existe une solution de contournement : afficher la date de validation dans l’en-tête via la personnalisation du modèle de mise en page.
+* Les approbations que j’ai envoyées ne sont actuellement pas prises en charge dans la nouvelle page d’accueil. Si vous avez besoin de cette fonctionnalité, veuillez mettre en forme ou publier un commentaire ici dans les publications de la communauté suivante :
+   * [ Ajoutez le widget &quot;Approbations que j’ai envoyées&quot; à la nouvelle page d’accueil ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+   * [ Ajoutez &quot;Approbations que j’ai envoyées&quot; au nouvel accueil ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+
 +++
 
 +++Comment réguler les widgets auxquels les utilisateurs ont accès dans un nouvel accueil ?

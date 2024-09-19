@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2f731d1ee8381df6a9d0d767743dc8b5b52f4a1b
+source-git-commit: d996e2777060ccd7d264af7f61261737b36a616b
 workflow-type: tm+mt
 source-wordcount: '14404'
 ht-degree: 95%
@@ -414,10 +414,10 @@ ht-degree: 95%
    * Annonces {#announcements}
       * [Annonces](product-announcements/announcements/announcements.md)
       * [Planning des fonctionnalités qui ne sont plus prises en charge.](product-announcements/announcements/feature-removal-timeline.md)
+      * [Guide d’obsolescence de la page d’accueil](product-announcements/announcements/legacy-home-deprecation.md)
       * [FAQ sur la fenêtre de maintenance](product-announcements/announcements/maintenance-window-faq.md)
       * [Modification requise pour ajouter des épreuves à votre liste autorisée](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Se désabonner des messages du Centre des annonces dans la nouvelle expérience Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-      * [Guide d’obsolescence de la page d’accueil](product-announcements/announcements/legacy-home-deprecation.md)
       * Archive des annonces {#announcement-archive}
          * [Archive des annonces](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [Améliorations apportées aux formulaires personnalisés](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
