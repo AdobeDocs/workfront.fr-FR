@@ -5,7 +5,7 @@ title: Passage de la page d’accueil héritée à la nouvelle page d’accueil
 description: La page d’accueil héritée sera supprimée de Workfront le 10/17 avec la version Q4. Cet article fournit des informations sur les fonctionnalités qui seront disponibles dans la nouvelle page d’accueil, ainsi que des recommandations pour déplacer les utilisateurs vers l’expérience de nouvelle page d’accueil.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b34de7dc66d69b030e313ee891a7404e1d5470e8
+source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 34%

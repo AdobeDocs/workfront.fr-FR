@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
 workflow-type: tm+mt
 source-wordcount: '2075'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Il est possible de facilement modifier n’importe quel modèle de workflow auto
 Tenez compte des points suivants lorsque vous utilisez un modèle de workflow automatisé :
 
 1. Les paramètres d’un modèle de workflow automatisé déterminent ce que vous pouvez faire avec le workflow automatisé pour une épreuve. Par exemple, si le bouton Ajouter une étape est désactivé dans le modèle, il n’est pas visible lorsque vous travaillez avec les paramètres de workflow automatisé de l’épreuve.
-1. Lorsqu’une personne est ajoutée à une étape dans un modèle de workflow automatisé, mais qu’elle est déjà présente en tant que réviseur ou réviseuse sur l’épreuve, l’application du modèle supprime le réviseur ou la réviseuse de l’étape. Si vous n’ajoutez pas d’autre réviseur ou réviseuse à l’étape, un message vous invite à le faire.
+1. Lorsqu’une personne est ajoutée à une étape dans un modèle de workflow automatisé, mais également déjà présente en tant que validant sur le BAT, l’application du modèle supprime le validant de l’étape. Si vous n’ajoutez pas d’autre réviseur ou réviseuse à l’étape, un message vous invite à le faire.
 1. Votre capacité à modifier un modèle de workflow automatisé dépend des paramètres de modèle configurés par l’équipe d’administration Workfront, comme décrit dans . Si la possibilité de modifier le modèle est désactivée, seule la personne propriétaire du modèle peut le modifier.
 
 Pour plus d’informations sur les workflows automatisés, consultez la section [Vue d’ensemble des workflows automatisés](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
