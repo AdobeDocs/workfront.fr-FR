@@ -5,10 +5,10 @@ title: Passage de la page d’accueil héritée à la nouvelle page d’accueil
 description: La page d’accueil héritée sera supprimée de Workfront le 10/17 avec la version Q4. Cet article fournit des informations sur les fonctionnalités qui seront disponibles dans la nouvelle page d’accueil, ainsi que des recommandations pour déplacer les utilisateurs vers l’expérience de nouvelle page d’accueil.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
+source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 34%
+source-wordcount: '1632'
+ht-degree: 33%
 
 ---
 
@@ -185,7 +185,7 @@ Vous trouverez ci-dessous les 11 widgets actuellement disponibles, ainsi qu’un
 
 +++
 
-  ![](assets/widgets-menu.png)
+![](assets/widgets-menu.png)
 
 ### Afficher les widgets disponibles pour chaque type de licence
 
@@ -262,3 +262,17 @@ Nous recommandons aux administrateurs :
 1. Réaffectez le reste de vos utilisateurs à la disposition Nouvelle page d’accueil.
 
 Cela donnera dès que possible à vos utilisateurs le temps de s’adapter à la nouvelle expérience et de personnaliser leurs pages d’accueil en fonction de leurs besoins. Voir [Suppression, ajout et réorganisation de widgets dans la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) pour plus d’informations sur la manière dont un utilisateur peut personnaliser les widgets sur sa propre nouvelle page d’accueil.
+
+### Ressources destinées aux utilisateurs finaux
+
+**Articles d’aide**
+
+* [Gérer votre travail avec le widget Mon travail](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+
+**Formation**
+
+* [Principes de traitement dans Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+
+>[!IMPORTANT]
+>
+>Il s’agit d’un cours gratuit, mais vous devez vous connecter et vous inscrire pour y accéder.
