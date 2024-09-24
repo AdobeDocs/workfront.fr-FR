@@ -6,10 +6,10 @@ description: La nouvelle page d’accueil est une nouvelle fonctionnalité puiss
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
+source-git-commit: 233016ccc574118df705b857092d647767c05835
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 98%
+source-wordcount: '1173'
+ht-degree: 89%
 
 ---
 
@@ -33,10 +33,13 @@ Les widgets sont la base de la nouvelle page d’accueil. En ajoutant des widget
 
 Pour plus d’informations sur l’ajout, le déplacement, le redimensionnement ou la suppression de widgets, voir [Ajouter, modifier ou supprimer des widgets dans la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
-Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’un résumé des informations qu’ils affichent :
+Vous trouverez ci-dessous les 11 widgets actuellement disponibles, ainsi qu’un résumé des informations qu’ils affichent :
 
 * **Mes tâches**\
     Ce widget, qui constitue un excellent point de départ pour la gestion d’un grand nombre de tâches, affiche en un seul endroit l’ensemble des tâches, problèmes et demandes qui vous ont été attribués. Vous pouvez cliquer sur le bouton Travailler sur ce projet pour commencer à travailler sur un élément ou sur le bouton Terminé pour le marquer comme terminé. Vous pouvez également mettre à jour des informations (statut, condition, pourcentage terminé) sur les tâches et les problèmes, consigner des heures et ajouter des mises à jour à partir du widget Mon travail.
+
+* **Panoramas**\
+    Affiche tous les panoramas que vous avez créés ou que vous avez été invité à utiliser. Vous pouvez également créer un panorama à partir des modèles suivants : Panorama de base, Panorama Kanban, Panorama rétrospectif, Panorama dynamique
 
 * **Mes projets**\
     Affiche les projets que vous possédez ou les projets auxquels vous participez dans une liste. Vous pouvez utiliser les filtres, les vues ou les regroupements existants pour personnaliser la liste, ou vous pouvez créer un projet directement à partir du widget.
@@ -48,7 +51,7 @@ Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’
     Affiche les problèmes qui vous sont attribués dans une liste. Vous pouvez utiliser des filtres, des vues ou des regroupements existants pour personnaliser la liste, ou créer un problème directement à partir du widget. Ce widget comprend uniquement les problèmes dont les projets associés sont définis sur Actuel et n’incluent pas les projets terminés. Vous pouvez également déléguer vos problèmes lorsque vous n’êtes pas au bureau.
 
 * **Mes demandes**\
-    Affiche toutes les demandes que vous avez envoyées, avec un filtre qui vous permet de n’afficher que les demandes en cours et un bouton qui ouvre le volet récapitulatif d’une demande.
+    Affiche toutes les requêtes que vous avez envoyées, un filtre permettant d’afficher uniquement les requêtes ouvertes et un bouton permettant d’ouvrir le panneau de résumé d’une requête.
 
 * **Demandes de l’équipe**\
     Affiche toutes les demandes en attente classées par équipe pour les équipes dont vous faites partie, ainsi que des boutons permettant d’attribuer directement une demande à un utilisateur ou à une utilisatrice ou d’y travailler soi-même.
@@ -57,10 +60,10 @@ Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’
     Affiche toutes les approbations affectées ou déléguées en attente, un bouton pour déléguer des approbations et des boutons pour prendre des décisions d’approbation directement dans le widget.
 
 * **Toutes les approbations**\
-        <span class="preview"> Affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des listes de vues des approbations en attente et en retard.</span> <span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version déployée par phases et est actuellement disponible uniquement pour des clientes et clients spécifiques.</span>
+        Affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des listes de vues des approbations en attente et en retard. <span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version progressive et n’est actuellement disponible que pour certains clientes et clients.</span>
 
 * **Mentions**\
-    Affiche les fils de commentaires récents de Workfront, de la même manière que la page Mes mises à jour. Vous pouvez utiliser le bouton de réponse pour rédiger une réponse dans le widget. Ce widget affiche également les commentaires sur les tâches et les problèmes qui vous sont affectés, que vous avez affectés à un autre utilisateur ou une autre utilisatrice, qui vous appartiennent, dont vous êtes le contact principal ou que vous avez créés, à condition que l’élément ait été mis à jour au cours des 30 derniers jours.
+    Affiche les fils de commentaires récents provenant de Workfront, comme sur la page Mes mises à jour . Vous pouvez utiliser le bouton de réponse pour rédiger une réponse dans le widget. Ce widget affiche également les commentaires sur les tâches et les problèmes qui vous sont affectés, que vous avez affectés à un autre utilisateur ou une autre utilisatrice, qui vous appartiennent, dont vous êtes le contact principal ou que vous avez créés, à condition que l’élément ait été mis à jour au cours des 30 derniers jours.
 
 * **À faire**\
     Ce widget unique vous permet d’ajouter des éléments à une liste de contrôle personnelle que vous pouvez modifier librement. Les tâches À faire sont suivies en tant que tâches dans votre projet personnel et restent jusqu’à deux semaines après leur achèvement.

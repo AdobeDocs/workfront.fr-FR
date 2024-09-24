@@ -5,9 +5,9 @@ title: Gérer votre travail avec le widget Mon travail
 description: Le widget Mon travail affiche à un seul endroit toutes les tâches, tous les problèmes et toutes les requêtes qui vous sont assignés. Ici, vous pouvez filtrer et organiser votre travail, consigner le temps, effectuer des mises à jour et marquer les tâches comme terminées.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c96169186af3bc83b823ec8870173911cf546091
+source-git-commit: 09dd8d24d021e8a25b3a7a63fe93d074f8a8ee0c
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '704'
 ht-degree: 15%
 
 ---
@@ -74,6 +74,7 @@ Vous pouvez affiner les filtres Mon travail pour vous concentrer sur des éléme
       <td>Affiche les éléments avec 
       <ul>
       <li>Pas de prédécesseurs incomplets ou de contraintes de tâche</li>
+      <p>et</p>
       <li>La date de début planifiée se situe au-delà ou jusqu’à deux semaines à l’avenir.</li>
       </ul>
       </td>
@@ -83,7 +84,7 @@ Vous pouvez affiner les filtres Mon travail pour vous concentrer sur des éléme
       <td>Affiche les éléments qui ont
        <ul>
       <li>Des prédécesseurs incomplets ou des contraintes de tâche qui empêchent l’utilisation de l’élément</li>
-      ou
+      <p>ou</p>
       <li>La date de début planifiée de plus de deux semaines à l’avenir</li>
       </ul>
        </td>
@@ -127,7 +128,7 @@ Les éléments en retard affichent une icône d’avertissement en regard de la 
 
 >[!TIP]
 >
->Pour créer une liste qui affiche tous les éléments en retard dans la partie supérieure du widget Mon travail, triez-les par date d’échéance et n’appliquez pas de groupe.
+>Pour créer une liste qui affiche tous les éléments en retard dans la partie supérieure du widget Mon travail, triez-les par date d’échéance et n’appliquez pas de regroupement.
 
 
 ![](assets/sort-my-work-widget.png)
@@ -156,7 +157,7 @@ Vous pouvez ouvrir le panneau Résumé pour mettre rapidement à jour les inform
 * Ajouter une mise à jour
 * Accédez à la zone Document pour télécharger un document.
 * Affichage des détails de l’élément de travail et mise à jour des champs personnalisés
-Les administrateurs de Workfront peuvent personnaliser les champs qui apparaissent dans le modèle Résumé de la mise en page. Pour plus d’informations, voir [Personnaliser l’accueil et le résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Les administrateurs de Workfront peuvent personnaliser les champs qui apparaissent dans le modèle de mise en page Résumé. Pour plus d’informations, voir [Personnaliser l’accueil et le résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Modification de l’état de l’élément de travail
 * Afficher les sous-tâches
 * Enregistrer des heures
