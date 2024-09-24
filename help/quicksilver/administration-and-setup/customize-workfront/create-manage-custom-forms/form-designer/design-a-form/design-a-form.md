@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
+source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
 workflow-type: tm+mt
-source-wordcount: '5546'
-ht-degree: 91%
+source-wordcount: '5541'
+ht-degree: 88%
 
 ---
 
@@ -82,7 +82,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    * [Ajout de boutons radio, de groupes de cases à cocher et de listes déroulantes](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Ajouter des champs de frappe continue et des champs de date](#add-typeahead-and-date-fields)
    * [Ajouter des champs de recherche externes](#add-external-lookup-fields)
-   * [Ajouter des images, des fichiers PDF et des vidéos](#add-images-pdfs-and-videos)
+   * [Ajouter des images, des fichiers PDF et des vidéos
+](#add-images-pdfs-and-videos)
    * [Ajouter des champs natifs Workfront](#add-workfront-native-fields)
    * [Ajouter des fichiers Adobe XD](#add-adobe-xd-files)
 
@@ -151,9 +152,9 @@ Vous pouvez ajouter plusieurs champs de texte différents à un formulaire perso
 
 +++ **Développer pour voir les descriptions des champs de texte disponibles**
 
-* **Zone de texte à ligne simple** : permet aux personnes de saisir une seule ligne de texte dans le champ.
-* **Zone de texte** : permet aux personnes de saisir plusieurs lignes de texte dans le champ.
-* **Champ de texte avec formatage** : permet aux personnes de saisir plusieurs lignes de texte dans le champ et de formater le texte en gras, italique, souligné, avec des puces, de la numérotation, des liens hypertexte et des blocs de citation. La limite de 15 000 caractères permet d’utiliser du texte et des mises en forme variés.
+* **Champ de texte sur une seule ligne** : permet aux utilisateurs de saisir une seule ligne de texte dans le champ.
+* **Champ de paragraphe** : permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ.
+* **Champ de texte avec formatage** : permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre en forme le texte avec des caractères gras, italique, souligné, puces, numérotation, liens hypertexte et guillemets de bloc. La limite de 15 000 caractères permet d’utiliser du texte et des mises en forme variés.
 
   Ce type de champ personnalisé n’est pas pris en charge dans les filtres sur les listes et les rapports.
 
@@ -172,8 +173,8 @@ Pour ajouter un champ de texte, procédez comme suit :
 1. Dans la partie gauche de l’écran, recherchez l’un des champs de texte suivants et faites-le glisser vers une section de la zone de travail :
 
    * Texte sur une seule ligne
-   * Paragraphe de texte
-   * Champ de texte avec formatage
+   * Paragraphe
+   * Texte avec formatage
    * Texte descriptif
 
    ![](assets/drag-field-to-section.png)
@@ -192,7 +193,7 @@ Pour ajouter un champ de texte, procédez comme suit :
    </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
-    <li>Paragraphe de texte</li>
+    <li>Paragraphe</li>
     <li>Texte avec formatage</li>
     <li>Texte descriptif</li>
     </ul></td>
@@ -203,7 +204,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     <p>IMPORTANT : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p></td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
-    <li>Paragraphe de texte</li>
+    <li>Paragraphe</li>
     <li>Texte avec formatage</li>
     </ul></td>
     </tr>
@@ -214,7 +215,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
-    <li>Paragraphe de texte</li>
+    <li>Paragraphe</li>
     <li>Texte avec formatage</li>
     <li>Texte descriptif</li>
     </ul></td>
@@ -226,7 +227,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
-    <li>Paragraphe de texte</li>
+    <li>Paragraphe</li>
     <li>Texte avec formatage</li>
     </ul></td>
     </tr>
@@ -240,7 +241,7 @@ Pour ajouter un champ de texte, procédez comme suit :
      </ul></p></td> </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
-    <li>Paragraphe de texte</li>
+    <li>Paragraphe</li>
     </ul></td>
     </tr>
     <tr>
@@ -248,7 +249,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     <td>Basculer entre des champs de texte d’une seule ligne et des champs de texte de paragraphe.</td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
-    <li>Paragraphe de texte</li>
+    <li>Paragraphe</li>
     </ul></td>
     </tr>
     <tr>
@@ -285,9 +286,9 @@ Vous pouvez ajouter des boutons radio, des groupes de cases à cocher, des liste
 +++ **Développer pour voir les descriptions des champs disponibles**
 
 * **Cases d’option** : demande aux utilisateurs et aux utilisatrices de ne sélectionner qu’un seul choix.
-* **Groupe de cases à cocher** : permet aux utilisateurs et aux utilisatrices de sélectionner plusieurs choix.
-* **Liste déroulante** : fournit une liste déroulante de choix.
-* **Menu déroulant multi-sélection** : permet aux utilisateurs et utilisatrices de sélectionner plusieurs choix dans une liste déroulante.
+* **Groupe de cases à cocher** : permet aux utilisateurs de sélectionner plusieurs choix.
+* **Liste déroulante à sélection unique** : fournit une liste de choix de liste déroulante.
+* **Liste déroulante à sélection multiple** : permet aux utilisateurs de sélectionner plusieurs choix dans une liste déroulante.
 
 +++
 
@@ -300,9 +301,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
 1. Dans la partie gauche de l’écran, recherchez l’un des champs suivants et faites-le glisser vers une section de la zone de travail.
 
    * Cases d’option
-   * Groupe Case à cocher
-   * Menu déroulant
-   * Menu déroulant multi-sélection
+   * Groupe de cases à cocher
+   * Menu déroulant à sélection unique
+   * Menu déroulant à sélection multiple
 
    ![Faire glisser un champ sur la zone de travail](assets/drag-field-to-section.png)
 
@@ -320,9 +321,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td> 
      <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe Case à cocher</li>
-    <li>Menu déroulant</li>
-    <li>Menu déroulant multi-sélection</li>
+    <li>Groupe de cases à cocher</li>
+    <li>Menu déroulant à sélection unique</li>
+    <li>Menu déroulant à sélection multiple</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -331,9 +332,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td>
      <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe Case à cocher</li>
-    <li>Menu déroulant</li>
-    <li>Menu déroulant multi-sélection</li>
+    <li>Groupe de cases à cocher</li>
+    <li>Menu déroulant à sélection unique</li>
+    <li>Menu déroulant à sélection multiple</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -343,9 +344,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </td> 
     <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe Case à cocher</li>
-    <li>Menu déroulant</li>
-    <li>Menu déroulant multi-sélection</li>
+    <li>Groupe de cases à cocher</li>
+    <li>Menu déroulant à sélection unique</li>
+    <li>Menu déroulant à sélection multiple</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -358,19 +359,19 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
      </ul></p></td> 
      <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe Case à cocher</li>
-    <li>Menu déroulant</li>
-    <li>Menu déroulant multi-sélection</li>
+    <li>Groupe de cases à cocher</li>
+    <li>Menu déroulant à sélection unique</li>
+    <li>Menu déroulant à sélection multiple</li>
     </ul></td>
     </tr> 
     <tr> 
-     <td role="rowheader">Type d’affichage</td> 
-    <td>Basculez entre des boutons radio, des groupes de cases à cocher, des listes déroulantes ou des listes déroulantes à sélection multiple pour le champ.</td> 
+     <td role="rowheader">Type d'affichage</td> 
+    <td>Basculez entre les boutons radio, le groupe de cases à cocher, la liste déroulante à sélection unique ou la liste déroulante à sélection multiple pour le champ.</td> 
     <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe Case à cocher</li>
-    <li>Menu déroulant</li>
-    <li>Menu déroulant multi-sélection</li>
+    <li>Groupe de cases à cocher</li>
+    <li>Menu déroulant à sélection unique</li>
+    <li>Menu déroulant à sélection multiple</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -378,9 +379,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     <td>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur ou l’utilisatrice puisse remplir le formulaire personnalisé. </td> 
     <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe Case à cocher</li>
-    <li>Menu déroulant</li>
-    <li>Menu déroulant multi-sélection</li>
+    <li>Groupe de cases à cocher</li>
+    <li>Menu déroulant à sélection unique</li>
+    <li>Menu déroulant à sélection multiple</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -403,9 +404,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </ol> </td> 
     <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe Case à cocher</li>
-    <li>Menu déroulant</li>
-    <li>Menu déroulant multi-sélection</li>
+    <li>Groupe de cases à cocher</li>
+    <li>Menu déroulant à sélection unique</li>
+    <li>Menu déroulant à sélection multiple</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -441,7 +442,7 @@ Vous pouvez ajouter des champs de saisie semi-automatique et de date à un formu
    * Equipe
    * Modèle
    * Entreprise
-* **Champ de date** : affiche un calendrier permettant de sélectionner une date et une heure.
+* **Date** : affiche un calendrier dans lequel les utilisateurs peuvent sélectionner une date et une heure.
 
 +++
 
@@ -450,7 +451,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
 1. Dans la partie gauche de l’écran, recherchez l’un des champs suivants et faites-le glisser vers une section de la zone de travail.
 
    * Frappe continue
-   * Champ de date
+   * Date
 
    ![](assets/drag-field-to-section.png)
 
@@ -468,7 +469,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
       <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td> 
        <td><ul>
     <li>Frappe continue</li>
-    <li>Champ de date</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -477,7 +478,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
       <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td>
     <td><ul>
     <li>Frappe continue</li>
-    <li>Champ de date</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -487,14 +488,14 @@ Pour ajouter des champs de saisie semi-automatique et de date :
       </td> 
          <td><ul>
     <li>Frappe continue</li>
-    <li>Champ de date</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Afficher l'heure</td> 
       <td>Sélectionnez cette option si vous souhaitez afficher l’heure et la date du jour dans le champ.</td> 
          <td><ul>
-    <li>Champ de date</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -532,7 +533,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
       <td>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur ou l’utilisatrice puisse remplir le formulaire personnalisé. </td> 
        <td><ul>
     <li>Frappe continue</li>
-    <li>Champ de date</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -808,7 +809,7 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
 
 +++
 
-1. Dans la partie gauche de l’écran, trouvez **Champ natif** et faites-le glisser vers une section de la zone de travail.
+1. Sur le côté gauche de l’écran, recherchez la **référence de champ native** et faites-la glisser vers une section du canevas.
 1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
 
    <table style="table-layout:auto"> 

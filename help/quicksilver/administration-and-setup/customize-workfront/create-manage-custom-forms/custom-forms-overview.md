@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 8e6caabfaa347f0595657078e2d08ce70c0cb697
+source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 65%
+ht-degree: 62%
 
 ---
 
@@ -33,7 +33,7 @@ Par exemple, vous pouvez attacher un formulaire personnalisé appelé « Recher
 
 Le concepteur de formulaire dispose d’un espace de travail de style zone de travail qui vous permet d’afficher simultanément les paramètres des champs, de la zone de travail et des champs. Il vous permet également de faire glisser des champs dans les sections lors de la conception de votre formulaire. Vous pouvez redimensionner le côté droit de l’écran afin de libérer de l’espace pour les options de champ.
 
-<span class="preview">Un bouton **Disposition** (non affiché dans cette image) vous permet de choisir parmi une zone de travail de deux ou trois colonnes. Le bouton indique la mise en page actuellement sélectionnée. La mise en page à trois colonnes affiche les paramètres des champs dans la colonne située à l’extrême droite. Dans la mise en page à deux colonnes, les paramètres de champ s’affichent en regard de la bibliothèque de champs dans la colonne située à l’extrême gauche.</span>
+<span class="preview">Un bouton Disposition (non affiché dans cette image) vous permet de choisir parmi une zone de travail de deux ou trois colonnes. Le bouton indique la mise en page actuellement sélectionnée. La mise en page à trois colonnes affiche les paramètres des champs dans la colonne située à l’extrême droite. Dans la mise en page à deux colonnes, les paramètres de champ s’affichent en regard de la bibliothèque de champs dans la colonne située à l’extrême gauche.</span>
 
 Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -48,16 +48,16 @@ Dans un formulaire personnalisé, vous pouvez créer des champs supplémentaires
 Vous pouvez ajouter les types de champs personnalisés suivants à un formulaire personnalisé dans Workfront :
 
 * Texte sur une seule ligne
-* Paragraphe de texte
+* Paragraphe
 * Texte avec formatage
-* Menu déroulant
-* Menu déroulant multi-sélection
+* Menu déroulant à sélection unique
+* Menu déroulant à sélection multiple
 * Recherche externe
-* Champ natif
+* Référence de champ native
 * Frappe continue
 * Calculé
-* Champ de date
-* Groupe Case à cocher
+* Date
+* Groupe de cases à cocher
 * Cases d’option
 * Texte descriptif
 * Saut de section

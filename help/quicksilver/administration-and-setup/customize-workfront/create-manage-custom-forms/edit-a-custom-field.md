@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: aee8673337b7e5294331bc2d571a6bee57114df5
+source-git-commit: 2e526059e240c45ca333bb52cd57e61f87a032f2
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 83%
+source-wordcount: '313'
+ht-degree: 88%
 
 ---
 
@@ -64,7 +64,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Cliquez sur **Nouveau formulaire personnalisé**.
 1. Dans la zone qui s’affiche, saisissez les informations obligatoires et facultatives pour l’élément que vous ajoutez.
 
-   Pour plus d’informations, voir [Concevoir un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Créer**.
 
@@ -77,6 +77,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Sélectionnez le champ personnalisé, le saut de section ou le widget, puis cliquez sur l’![icône Modifier](assets/edit-icon.png).
 1. Dans la zone qui s’affiche, modifiez les options disponibles pour l’élément que vous modifiez.
 
-   Pour plus d’informations, voir [Concevoir un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Lorsque vous avez terminé, cliquez sur **Modifier**.
