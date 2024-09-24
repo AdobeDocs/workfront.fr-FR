@@ -6,10 +6,10 @@ description: À partir du tableau de bord des [!UICONTROL Panoramas], vous pouve
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 96%
+source-wordcount: '858'
+ht-degree: 92%
 
 ---
 
@@ -107,6 +107,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Dans le tableau de bord, sélectionnez le panorama à ouvrir.
 1. Modifier le panorama si nécessaire. Vous pouvez cliquer sur le nom du panorama pour le renommer.
+
+   Pour synchroniser les cartes connectées avec Workfront et apporter de nouvelles tâches et problèmes à la colonne du panorama ou de l’ingestion, cliquez sur le menu **[!UICONTROL Plus]** ![[!UICONTROL Plus de menu]](assets/more-icon-spectrum.png) en regard du nom du panorama et sélectionnez **[!UICONTROL Synchroniser les éléments connectés]**.
 
    Pour plus d’informations, voir [Ajouter ou supprimer des personnes membres d’un panorama](../../agile/get-started-with-boards/add-members-to-board.md), [Gérer les colonnes d’un panorama](../../agile/get-started-with-boards/manage-board-columns.md) et [Ajouter une carte à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 

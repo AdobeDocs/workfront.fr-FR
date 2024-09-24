@@ -6,10 +6,10 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 99%
+source-wordcount: '1483'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,8 @@ Lorsque l’un des détails suivants est mis à jour pour la carte à un emplace
 * [!UICONTROL Estimation] / [!UICONTROL Points de l’histoire]
 * [!UICONTROL Sous-tâches]
 * [!UICONTROL Documents]
+
+Pour synchroniser les cartes connectées avec Workfront, cliquez sur le menu **[!UICONTROL Plus]** ![[!UICONTROL Plus de menu]](assets/more-icon-spectrum.png) en regard du nom du panorama et sélectionnez **[!UICONTROL Synchroniser les éléments connectés]**.
 
 >[!NOTE]
 >

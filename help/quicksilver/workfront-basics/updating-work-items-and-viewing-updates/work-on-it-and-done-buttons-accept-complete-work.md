@@ -8,10 +8,10 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
+source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '816'
+ht-degree: 74%
 
 ---
 
@@ -21,9 +21,14 @@ Lorsqu’une tâche ou un problème vous a été affecté, vous pouvez utiliser 
 
 Le bouton contextuel vous permet d’accepter ou de compléter les éléments de travail, autorisant Adobe Workfront à mettre à jour automatiquement plusieurs champs sans que vous ayez à les mettre à jour vous-même.
 
+Les boutons Travail dessus et Terminé sont visibles par les utilisateurs disposant des éléments suivants :
+
+* Une licence standard (nouvelle) ou une licence Plan ou Travail (en cours)
+* Accès à des modifications limité ou supérieur à la tâche ou au problème
+
 ## Boutons Travailler sur ce projet et Terminé
 
-Selon la zone de Workfront à partir de laquelle vous accédez à votre tâche ou problème, le bouton Travailler sur ce projet ou Terminé peut changer de nom, comme décrit dans les scénarios suivants : 
+Selon la zone de Workfront à partir de laquelle vous accédez à votre tâche ou à votre problème, le bouton Travailler dessus ou Terminé peut changer de nom, comme décrit dans les scénarios suivants :
 
 * Lorsque la tâche ou le problème vous est affecté pour la première fois et que le statut est Nouveau, le bouton indique Travailler sur ce projet.
 
@@ -33,7 +38,7 @@ Selon la zone de Workfront à partir de laquelle vous accédez à votre tâche o
   >
   >Vous pouvez remplacer le bouton Travailler sur ce projet par un bouton Démarrer. Pour plus d’informations sur le remplacement du bouton Travailler sur ce projet par un bouton Démarrer, consultez la section [Remplacer le bouton Travailler sur ce projet par un bouton Démarrer](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-* Après avoir cliqué sur accepter de Travailler sur ce projet, le bouton devient Marquer comme Terminé ou Terminé, selon l’endroit où vous accédez à la tâche ou au problème dans Workfront. Pour savoir où vous pouvez accéder au bouton Travailler sur ce projet, consultez dans cet article la section [Trouver les boutons Travailler sur ce projet et Terminé](#locate-the-work-on-it-and-done-button).
+* Une fois que vous avez cliqué sur l’option Travailler sur l’acceptation, le bouton passe à Marquer comme terminé ou Terminé, en fonction de l’emplacement d’accès à la tâche ou du problème dans Workfront. Pour savoir où vous pouvez accéder au bouton Travailler sur ce projet, consultez dans cet article la section [Trouver les boutons Travailler sur ce projet et Terminé](#locate-the-work-on-it-and-done-button).
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
@@ -41,9 +46,9 @@ Selon la zone de Workfront à partir de laquelle vous accédez à votre tâche o
 
   ![](assets/home-left-done-with-my-part-button-350x184.png)
 
-## Trouver les boutons Travailler sur ce projet et Terminé {#locate-the-work-on-it-and-done-button}
+## Bouton Travailler dessus et Terminer {#locate-the-work-on-it-and-done-button}
 
-Vous pouvez trouver les boutons Travailler sur ce projet et Terminé dans les zones suivantes de Workfront :
+Vous pouvez localiser le bouton Travailler dessus et Terminé dans les zones suivantes de Workfront :
 
 * la zone d’accueil, que ce soit dans la liste de travail ou dans le panneau de détails.
 
@@ -81,9 +86,9 @@ Lorsque vous cliquez sur Travailler sur ce projet, les éléments suivants sont 
 
 ### Bouton Démarrer {#start-button}
 
-Si vous disposez des autorisations nécessaires pour modifier des équipes, vous pouvez remplacer le bouton Travailler sur ce projet par un bouton Démarrer pour une équipe. Lorsque les utilisateurs et les utilisatrices ayant cette équipe comme équipe d’accueil cliquent sur le bouton Démarrer pour les éléments qui leur sont affectés, les champs supplémentaires de leurs éléments de travail sont automatiquement mis à jour. Pour plus d’informations sur le remplacement du bouton Travailler sur ce projet par un bouton Démarrer, consultez la section [Remplacer le bouton Travailler sur ce projet par un bouton Démarrer](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Si vous avez accès aux équipes de modification, vous pouvez remplacer le bouton Travailler dessus par un bouton Démarrer pour une équipe. Lorsque les utilisateurs et les utilisatrices ayant cette équipe comme équipe d’accueil cliquent sur le bouton Démarrer pour les éléments qui leur sont affectés, les champs supplémentaires de leurs éléments de travail sont automatiquement mis à jour. Pour plus d’informations sur le remplacement du bouton Travailler sur ce projet par un bouton Démarrer, consultez la section [Remplacer le bouton Travailler sur ce projet par un bouton Démarrer](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-En plus des champs qui se mettent à jour lorsque vous cliquez sur le bouton Travailler sur ce projet, les champs suivants d’une tâche ou d’un problème se mettent automatiquement à jour lorsque vous cliquez sur le bouton Démarrer :
+Outre les champs qui se mettent à jour lorsque vous cliquez sur le bouton Travailler dessus, les champs suivants se mettent automatiquement à jour sur une tâche ou un problème lorsque vous cliquez sur le bouton Démarrer :
 
 * Statut
 * Date de début effective
@@ -106,11 +111,11 @@ En plus des champs qui se mettent à jour lorsque vous cliquez sur le bouton Tra
 
 ### Bouton Terminé {#the-done-button}
 
-Si vous disposez des autorisations nécessaires pour modifier les équipes, vous pouvez configurer le bouton Terminé pour une équipe, ce qui permettra de mettre à jour automatiquement les statuts des tâches ou des problèmes marqués comme terminés. Lorsque les utilisateurs et les utilisatrices ayant cette équipe comme équipe d’accueil cliquent sur le bouton Terminé de leurs éléments, les champs suivants d’une tâche ou d’un problème sont automatiquement mis à jour :
+Si vous avez accès aux équipes de modification, vous pouvez configurer le bouton Terminé pour qu’une équipe mette à jour l’état de la tâche ou du problème lorsque vous marquez un élément comme terminé. Lorsque les utilisateurs et les utilisatrices ayant cette équipe comme équipe d’accueil cliquent sur le bouton Terminé de leurs éléments, les champs suivants d’une tâche ou d’un problème sont automatiquement mis à jour :
 
 * Statut
-* Mise à jour du statut de l’affectation de « En cours » à « Terminé »
-* Date d’achèvement effective
+* Mises à jour de l’état d’affectation de l’état de travail à terminé
+* Date d&#39;achèvement effective
 
 Pour plus d’informations sur la configuration du bouton Terminé pour une équipe, voir les articles suivants :
 
