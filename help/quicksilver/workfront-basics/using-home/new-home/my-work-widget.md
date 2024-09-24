@@ -5,7 +5,7 @@ title: Gérer votre travail avec le widget Mon travail
 description: Le widget Mon travail affiche à un seul endroit toutes les tâches, tous les problèmes et toutes les requêtes qui vous sont assignés. Ici, vous pouvez filtrer et organiser votre travail, consigner le temps, effectuer des mises à jour et marquer les tâches comme terminées.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 09dd8d24d021e8a25b3a7a63fe93d074f8a8ee0c
+source-git-commit: 20791e9f2cc0716b9b0ddd8f98c31ae0bea7ff45
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 15%
