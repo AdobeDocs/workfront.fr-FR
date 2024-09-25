@@ -6,10 +6,10 @@ description: Planifier la remise automatique d’un rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 100%
+source-wordcount: '1172'
+ht-degree: 95%
 
 ---
 
@@ -130,7 +130,7 @@ Pour planifier la remise automatique d’un rapport ou modifier ou supprimer une
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Heure</p> </td> 
-      <td> <p>Sélectionnez l’heure de la journée à laquelle vous souhaitez envoyer la remise.</p> <p>Conseil : comme les chargements du système peuvent avoir une incidence sur les heures de remise des rapports, il peut y avoir un délai entre l’heure planifiée et l’heure de remise réelle. Si vous devez remettre un rapport à une heure spécifique, nous vous recommandons de planifier la remise au préalable. Par exemple, nous vous recommandons de planifier la remise un jour avant la date à laquelle elle est nécessaire.</p> </td> 
+      <td> <p>Sélectionnez l’heure de la journée à laquelle vous souhaitez envoyer la remise.</p> <p>Conseil : Comme les chargements du système peuvent avoir une incidence sur les heures de remise des rapports, un délai allant jusqu’à 24 heures peut s’écouler entre l’heure planifiée et l’heure de remise réelle. Si vous devez remettre un rapport à une heure spécifique, nous vous recommandons de planifier la remise au préalable. En règle générale, nous vous recommandons de planifier la diffusion au moins un jour avant la date à laquelle elle est nécessaire.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se répète le</p> </td> 

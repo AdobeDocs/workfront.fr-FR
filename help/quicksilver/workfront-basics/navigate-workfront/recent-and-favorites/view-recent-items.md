@@ -6,16 +6,16 @@ description: Le menu [!UICONTROL Récents] se trouve sur la barre de navigation 
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 82%
 
 ---
 
 # Afficher les éléments récents
 
-Le menu [!UICONTROL Récents] se trouve sur la barre de navigation supérieure. Ce menu affiche les projets, rapports, tableaux de bord, tâches, problèmes, etc., récemment consultés.
+Le menu [!UICONTROL Récents] se trouve sur la barre de navigation supérieure. Ce menu affiche les projets, rapports, tableaux de bord, tâches, problèmes récemment consultés, etc. Seuls les objets consultés au cours des deux dernières semaines sont inclus, jusqu’à vingt par type d’objet, et sont répertoriés dans l’ordre du plus récent affichage.
 
 ## Conditions d’accès
 
