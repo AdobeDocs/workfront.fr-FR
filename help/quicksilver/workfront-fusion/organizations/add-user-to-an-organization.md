@@ -7,10 +7,10 @@ description: Vous pouvez ajouter des utilisateurs et des utilisatrices aux organ
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 1b4a6d2b2ad57ddf1afd5dadf8b1fed358f95b61
+source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 55%
+source-wordcount: '663'
+ht-degree: 52%
 
 ---
 
@@ -93,6 +93,9 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 <p><strong>Add a user to an organization that has not been onboarded to the Adobe Business Console</strong></p>
 
 -->
+>[!NOTE]
+>
+>Si votre entreprise est en train de passer à Adobe Admin Console, vous ne pouvez pas gérer les utilisateurs dans Workfront (ajout ou suppression d’utilisateurs). Vous pouvez effectuer ces actions dans Adobe Admin Console une fois la migration terminée.
 
 Pour ajouter des utilisateurs et des utilisatrices à l’organisation, vous devez être un administrateur ou une administratrice de l’organisation à laquelle vous souhaitez ajouter des personnes. Pour plus d’informations sur les rôles, voir [Rôles d’organisation dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
 

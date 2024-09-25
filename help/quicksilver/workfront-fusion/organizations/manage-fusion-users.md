@@ -8,10 +8,10 @@ description: Gérer les utilisateurs et utilisatrices  [!DNL Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 91%
 
 ---
 
@@ -34,6 +34,10 @@ Les administrateurs et administratrices [!DNL Adobe Workfront Fusion] peuvent g�
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md).
 
 -->
+
+>[!NOTE]
+>
+>Si votre entreprise est en train de passer à Adobe Admin Console, vous ne pouvez pas gérer les utilisateurs dans Workfront (ajout ou suppression d’utilisateurs). Vous pouvez effectuer ces actions dans Adobe Admin Console une fois la migration terminée.
 
 ## Conditions d’accès
 
