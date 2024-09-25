@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 60e56dce7c4d0da07ba2d463766c8309e8aca23d
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1612'
 ht-degree: 98%
 
 ---
@@ -39,8 +39,8 @@ Ils indiquent également les actions que les administrateurs et administratrices
 | Mettre à jour des champs personnalisés | ✓ |   |   |   |
 | Ajouter un processus d’approbation | ✓ |   |   |   |
 | Approuver un projet | ✓ | ✓ |   |   |
-| Ajouter un document | ✓ | ✓ |   |   |
-| Ajouter un problème | ✓ | ✓ |   |   |
+| Ajouter un document | ✓ | ✓ | ✓ |   |
+| Ajouter un problème | ✓ | ✓ | ✓ |   |
 | Ajouter des tâches | ✓ |   |   |   |
 | Envoyer des mises à jour/commentaires | ✓ | ✓ | ✓ |   |
 | Modifier le statut | ✓ |   |   |   |
