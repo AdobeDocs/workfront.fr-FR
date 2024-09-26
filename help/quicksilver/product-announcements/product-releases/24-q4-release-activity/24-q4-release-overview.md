@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 45%
+source-wordcount: '1600'
+ht-degree: 46%
 
 ---
 
@@ -26,7 +26,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>24.8 (15 août 2024)</li><li>24.9 (vendredi 12 septembre 2024)</li><li>24.10 (octobre 2024)</li></ul> | <ul><li>24.10 (octobre 2024)</li></ul> |
+>| <ul><li>24.8 (15 août 2024)</li><li>24.9 (12 septembre 2024)</li><li>24.10 (octobre 2024)</li></ul> | <ul><li>24.10 (octobre 2024)</li></ul> |
 >
 >Notez que pour la version finale de chaque trimestre (24.10 ce trimestre), les utilisateurs de la version rapide recevront la version un jour plus tôt.
 >
@@ -103,16 +103,16 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 12 août 2024</p>
+                                <p><s>Version d’aperçu : 12 août 2024</s></p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.9 (12 septembre 2024)</p>
+                                <p>Production pour la version rapide : S.O.</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : à déterminer</p>
+                                <p>Version de production pour tous les clients et toutes les clientes : S/O</p>
                             </li>
                         </ul>
-                        <p><i>Cette fonctionnalité fait partie d’une version par étapes et sera disponible pour un nombre limité de clients en septembre.</i></p>
+                        <p><i>Cette fonctionnalité a été supprimée de l’aperçu et ne sera pas publiée avec les prochaines versions.</i></p>
                     </td>
                 </tr>
            </tbody>
