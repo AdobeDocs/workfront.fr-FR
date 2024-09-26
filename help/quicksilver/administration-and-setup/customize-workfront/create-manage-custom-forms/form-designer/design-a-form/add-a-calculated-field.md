@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
 workflow-type: tm+mt
-source-wordcount: '2319'
-ht-degree: 97%
+source-wordcount: '2353'
+ht-degree: 96%
 
 ---
 
@@ -279,6 +279,8 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 +++
 
    1. Cliquez dans la zone de texte de grande taille, puis cliquez sur **Expressions** et **Champs** qui sont disponibles pour les ajouter à votre calcul.
+
+      Développez un nom d’objet sous **Fields** pour afficher tous les champs disponibles pour cet objet. La liste est limitée à 200 éléments. Si vous connaissez le nom du champ, vous pouvez le rechercher.
 
       Vous pouvez également commencer à saisir une expression ou un champ dans la grande zone de texte, puis le sélectionner lors de son affichage. Chaque élément s’affiche avec un « F » pour « champ » ou un « E » pour « expression ».
 
