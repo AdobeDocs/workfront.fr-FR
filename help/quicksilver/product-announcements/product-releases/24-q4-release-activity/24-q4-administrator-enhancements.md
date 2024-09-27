@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 20%
+source-wordcount: '381'
+ht-degree: 21%
 
 ---
 
@@ -46,9 +46,9 @@ Pour plus d’informations sur la restauration d’un package de promotion d’e
 
 >[!NOTE]
 >
->Aperçu de la version : 12 août 2024 ; Production pour une version rapide : avec la version 24.9 (12 septembre 2024) ; Production pour une version trimestrielle : À déterminer
+>Aperçu de la version : ~~12 août 2024~~ ; Production pour une version rapide : S.O. ; Production pour une version trimestrielle : S.O.
 >
->_Cette fonctionnalité fait partie d’une version par étapes et sera disponible pour un nombre limité de clients en septembre. Il restera dans l’environnement Aperçu pendant une longue période pendant que nous recueillons les commentaires._
+>_Cette fonctionnalité a été supprimée de l’aperçu et ne sera pas publiée avec les prochaines versions._
 
 Un bouton &quot;Disposition&quot; sur le concepteur de formulaire personnalisé vous permet de choisir parmi une zone de travail de deux ou trois colonnes. Le concepteur de formulaire d’origine utilise trois colonnes et les paramètres de champ s’affichent dans la colonne à l’extrême droite. Si vous sélectionnez deux colonnes, les paramètres du champ s’affichent en regard de la bibliothèque de champs dans la colonne située à l’extrême gauche.
 
