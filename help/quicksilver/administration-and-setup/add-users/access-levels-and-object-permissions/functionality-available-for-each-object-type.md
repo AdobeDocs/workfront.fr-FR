@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
 workflow-type: tm+mt
-source-wordcount: '1919'
-ht-degree: 97%
+source-wordcount: '1953'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 97%
 Les tableaux suivants répertorient les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 
 Ils indiquent également les actions que les administrateurs et administratrices Workfront peuvent désactiver ou activer à l’aide d’un niveau d’accès.
+
+>[!NOTE]
+>
+>Cet article décrit les fonctionnalités disponibles pour accéder aux niveaux dans le modèle de plan Workfront actuel. Pour afficher la fonctionnalité disponible dans le nouveau modèle de plan, voir [Fonctionnalité disponible pour chaque type d’objet pour les nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
 
 ## Projets
 
