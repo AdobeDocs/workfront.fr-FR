@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
+source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
 workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 96%
@@ -390,3 +390,4 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 | Afficher la zone Vérification dans le panneau de gauche |   | ✓ |
 | Afficher la zone Paramètres dans le panneau de gauche | ✓ | ✓ |
 | Imprimer une liste d’objectifs | ✓ | ✓ |
+
