@@ -8,16 +8,23 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: d380f495c098e45897ca58627571dfc7dfdcb0f7
+source-git-commit: 630467ca64281df0b257dae8cc5c6edc55ae56ad
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
 # Utilisation de fichiers volumineux dans Adobe Workfront Fusion
 
-La prise en charge des fichiers volumineux est actuellement disponible pour les connecteurs Workfront et HTTP.
+Certains connecteurs Fusion peuvent prendre en charge un fichier dont la taille est supérieure à la limite de 1 Go.
+
+## Connecteurs prenant en charge les fichiers volumineux
+
+La prise en charge des fichiers volumineux est actuellement disponible pour les connecteurs suivants :
+
+* Workfront
+* HTTP
 
 ## Effet de grande taille de fichier sur le temps d’exécution du scénario
 
