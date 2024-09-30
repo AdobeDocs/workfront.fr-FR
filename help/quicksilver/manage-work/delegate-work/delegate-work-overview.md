@@ -7,10 +7,10 @@ description: Lorsque vous prévoyez de quitter le bureau pendant une courte pér
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 100%
+source-wordcount: '886'
+ht-degree: 96%
 
 ---
 
@@ -28,13 +28,13 @@ Vous pouvez déléguer les objets suivants dans [!DNL Adobe Workfront] :
 
 * Tâches qui vous sont affectées.
 * Problèmes qui vous sont affectés.
-* Approbations de projet, de tâche, de problème et de document qui vous sont affectées.
+* Approbations de projet, de tâche ou d’émission qui vous ont été affectées.
 
 Cet article présente des informations générales sur la délégation des tâches et des problèmes.
 
-Pour plus d’informations sur la délégation des approbations de projet, de tâche, de problème et de document, consultez la section [Déléguer des demandes d’approbation](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Pour plus d’informations sur la délégation des approbations de projet, de tâche et de problème, voir [Déléguer la demande d’approbation](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
-Pour plus d’informations sur la manière de déléguer des tâches et des problèmes, consultez la section [Déléguer des tâches et des problèmes](../../manage-work/delegate-work/how-to-delegate-work.md).
+Pour plus d’informations sur la façon de déléguer des tâches et des problèmes, voir [Délégation de tâches et de problèmes](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 ## Vue d’ensemble de la délégation de travail
 
@@ -43,6 +43,7 @@ Tenez compte des points suivants lorsque vous déléguez des tâches et des prob
 * Votre administrateur ou administratrice [!DNL Workfront] ou de groupes doit indiquer les préférences de délégation dans la zone [!UICONTROL Configuration] avant de déléguer votre travail à d’autres personnes.
 
   Pour plus d’informations, consultez la section [Configurer des préférences de tâche et de problème à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * Vous ne pouvez déléguer des tâches et des problèmes qu’à partir de la zone [!UICONTROL Accueil].
 * Des exceptions existent pour les types de licence suivants :
 
