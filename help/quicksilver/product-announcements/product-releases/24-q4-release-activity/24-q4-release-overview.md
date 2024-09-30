@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
+source-git-commit: 0ef7c526b06fc4f040a41e12e2eeec08c486137e
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 46%
+source-wordcount: '1731'
+ht-degree: 44%
 
 ---
 
@@ -36,6 +36,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations de l’intégration](#integration-enhancements)
+* [Amélioration de l’accueil](#home-enhancements)
 * [Améliorations apportées aux projets](#project-enhancements)
 * [Améliorations apportées à la relecture](#proofing-enhancements)
 * [Améliorations des rapports et tableaux de bord](#report-and-dashboard-enhancements)
@@ -154,6 +155,48 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
            </tbody>
         </table>
 
+### Amélioration de l’accueil
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Présentation des priorités : expérience Workfront simple, simple et intuitive pour les propriétaires de tâches.</a></p>
+                        <p>Les priorités améliorent la concentration et la productivité afin d’aider les clients à accomplir plus en moins de temps.</p>
+                        <p>Grâce aux priorités, vous pouvez profiter des avantages suivants :</p>
+                        <ul>
+                        <li>Gérer et hiérarchiser les tâches quotidiennes : organisez votre journée ou votre semaine avec une navigation consolidée pour une meilleure clarté</li>
+                        <li>Plus grande productivité : accédez au contexte du projet et effectuez les tâches plus rapidement avec moins de clics</li>
+                        <li>Fonctionnalités personnalisées : profitez de fonctionnalités conçues de manière unique pour les propriétaires de tâches</li>
+                        </ul>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version préliminaire : vendredi 3 octobre 2024</p>
+                            </li>
+                            <li>
+                                <p>Version de production pour tous les clients : 17 octobre 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### Améliorations apportées aux projets
 
 <table>
@@ -227,6 +270,23 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                     <td>
                         <p><span class="bold">Dates de publication</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Correctif du problème de copier/coller pour la visionneuse de vérification de l’appli de bureau</a></p>
+                        <p>Correction d’un problème en raison duquel le contenu se collait incorrectement dans la section Mises à jour de la visionneuse de vérification de l’appli de bureau.</p>
+                        <p>Nouvelle version : 2.1.39</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version préliminaire : jeudi 2 octobre 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Version de production pour tous les clients : 2 octobre 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

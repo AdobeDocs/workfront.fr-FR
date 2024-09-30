@@ -7,10 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
+source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 94%
+source-wordcount: '133'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,7 @@ Cette section contient les articles suivants :
 
 * [Commencer avec l’[!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
 * [Passage de la page d’accueil héritée à la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+* [Passage de la page d’accueil héritée aux priorités](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 * [Utiliser la zone [!UICONTROL Mes mises à jour]](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [Afficher les éléments de la [!UICONTROL liste de travail] dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Hiérarchiser le travail dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)

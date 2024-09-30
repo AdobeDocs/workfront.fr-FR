@@ -7,10 +7,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 95%
+source-wordcount: '89'
+ht-degree: 92%
 
 ---
 
@@ -22,6 +22,7 @@ Cette section contient les sous-sections suivantes :
 * [Configuration requise pour le navigateur Adobe Workfront](../workfront-basics/workfront-browser-requirements.md)
 * [Langues prises en charge dans Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
 * [Naviguer dans Adobe Workfront : index des articles](../workfront-basics/navigate-workfront/navigate-workfront.md)
+* [Priorités : index des articles](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [Accueil](../workfront-basics/using-home/home.md)
 * [Mettre à jour des éléments de travail et afficher les mises à jour : index des articles](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [Utiliser des formulaires personnalisés](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
