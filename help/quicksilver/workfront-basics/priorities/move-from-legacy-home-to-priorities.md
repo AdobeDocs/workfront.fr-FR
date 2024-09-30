@@ -5,9 +5,9 @@ description: La page d’accueil héritée sera supprimée de Workfront le 10/17
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b530431ea9db318e03ac1f348e40cfbdedefc01
+source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 6%
 
 ---
@@ -49,9 +49,7 @@ Regroupements
 
 #### Déléguer le travail
 
-Actuellement, les utilisateurs ne peuvent pas déléguer ni afficher le travail délégué dans les priorités.
-
-Les utilisateurs peuvent toujours déléguer du travail à partir de la nouvelle page d’accueil dans les widgets suivants :
+Actuellement, les utilisateurs ne peuvent pas déléguer ni afficher le travail délégué dans les priorités. Cependant, les utilisateurs peuvent toujours déléguer du travail à partir de la Nouvelle page d’accueil dans les widgets suivants :
 
 * Mon travail
 * Mes tâches
