@@ -9,24 +9,24 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: fe096ba36da9b56e0e38f6061481b66cfbeee5c6
+source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 5%
+source-wordcount: '408'
+ht-degree: 3%
 
 ---
 
-# Générer un module à l’aide de l’AI
+# Génération d’un segment de scénario à l’aide d’AI
 
 <!--DO NOT DELETE - linked through CSH-->
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité n’étant encore qu’au début du développement, elle est disponible que pour les utilisateurs Workfront internes.
+>Cette fonctionnalité étant disponible dans Beta, elle est réservée à certains utilisateurs de Workfront.
 
-Vous pouvez utiliser l’IA pour saisir une invite de texte décrivant ce que vous devez faire avec un module. Fusion génère ensuite un module HTTP qui se connecte au point de terminaison correct de l’API souhaitée.
+Vous pouvez utiliser l’IA pour saisir une invite de texte décrivant ce que vous avez besoin d’une section de votre scénario. Fusion génère ensuite des modules qui exécuteront ces actions, que vous pouvez utiliser dans votre scénario.
 
-Comme pour tout élément généré à partir de l’IA, nous vous recommandons de vérifier et de tester deux fois le module généré pour vous assurer qu’il fonctionne comme prévu.
+Comme pour tout élément généré à partir de l’IA, nous vous recommandons de vérifier et de tester deux fois les modules générés pour vous assurer qu’ils fonctionnent comme prévu.
 
 ## Applications de module AI actuellement prises en charge
 
@@ -50,43 +50,54 @@ Fusion AI peut actuellement générer des modules qui se connectent aux applicat
 * OpenAI
 * Slack
 
-## Génération d’un module
+## Génération de modules
 
-1. Ajoutez un module et sélectionnez **Générer avec l’IA** dans la liste des applications.
+1. Commencez à ajouter un module et sélectionnez **Générer avec l’IA** dans la liste des applications.
 
    Ou
 
-   Cliquez avec le bouton droit de la souris sur une zone vide de l’éditeur de scénarios, puis sélectionnez **Générer avec l’IA**.
+   Cliquez sur l’icône ![Générer avec l’IA](assets/generate-with-ai-icon-beta.png) de l’icône de génération avec l’IA près du bas de la page de l’éditeur de scénarios.
+
+   Le panneau Assistant d’IA s’ouvre.
 1. Saisissez une invite de texte dans la zone.
 
    Pour obtenir des conseils sur les invites, reportez-vous à la section [Conseils pour créer des invites de texte](#tips-for-creating-text-prompts) de cet article.
-1. Ajoutez votre jeton API pour l’application dans le module .
-1. Vérifiez le module pour vous assurer qu’il semble être configuré pour l’application et l’action appropriées.
-1. (Conditionnel) Si le module n’est pas joint à votre scénario, faites-le glisser sur sa place.
 
-Nous vous recommandons de tester le module pour vous assurer que le module généré fonctionne comme prévu.
+   Le module ou l’ensemble de modules est généré.
+1. (Conditionnel) Si nécessaire, ajoutez votre jeton API pour l’application dans les modules.
+1. Vérifiez les modules pour vous assurer qu’ils doivent être configurés pour l’application et l’action appropriées.
+1. (Conditionnel) Si la section de scénario générée n’est pas jointe à votre scénario, faites-la glisser vers sa place.
+
+Nous vous recommandons de tester les modules pour vous assurer qu’ils fonctionnent comme prévu.
 
 ## Conseils pour créer des invites de texte
 
 Les invites de texte doivent inclure au minimum les informations suivantes :
 
 * Application à laquelle vous vous connectez
-* L’action que vous souhaitez effectuer
+* Action ou actions à effectuer
+
+>[!IMPORTANT]
+>
+>Vous pouvez générer plusieurs modules à la fois, mais vous ne pouvez générer que des modules pour une application à la fois.
 
 >[!INFO]
 >
 >**Exemples** :
 >
->* `Retrieve a list of my calendars from Google Calendar`
+>* `Delete the records 'xyz-123', 'xyz-456', 'xyz-789' from Adobe Workfront Planning`
+>Cela inclut l&#39;application `Workfront Planning` et l&#39;action `delete records`. Cette invite crée trois modules, un pour chaque enregistrement qui sera supprimé.
+>* `Change campaign summary of the record 'xyz-123' from Adobe Workfront Planning`
+>Cela inclut l&#39;application `Workfront Planning` et l&#39;action `change campaign summary`.
+>* `Get all field details in the record type with ID 'test-record' from Adobe Workfront Planning`
+>Cela inclut l&#39;application `Workfront Planning` et l&#39;action `get field details`.
 >
->   Cela inclut l&#39;application `Google Calendar` et l&#39;action `Retrieve a list of my calendars`.
+>L’exemple suivant n’est PAS correct :
+>* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
->* `Retrieve popular songs from Spotify`
->
->   Cela inclut l&#39;application `Spotify` et l&#39;action `Retrieve popular songs`.
+>    Cet exemple est incorrect car il comprend plusieurs applications.
 
 Tenez compte des points suivants lors de la création d’invites de texte :
 
-* Comme chaque module Fusion effectue une seule action, votre invite de texte doit décrire une action spécifique.
 * Utilisez un langage direct et simple.
-* Vérifiez et testez votre module. S’il ne fonctionne pas comme prévu, affinez votre invite et réessayez.
+* Vérifiez et testez vos modules. S’il ne fonctionne pas comme prévu, affinez votre invite et réessayez.
