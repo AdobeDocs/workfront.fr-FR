@@ -8,28 +8,30 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 97%
+source-wordcount: '808'
+ht-degree: 83%
 
 ---
 
-# Personnaliser le nouvel accueil à l’aide d’un modèle de mise en page
+# Personnalisation de la nouvelle page d’accueil à l’aide d’un modèle de mise en page
 
-Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les personnes lorsqu’elles ouvrent le nouvel accueil.
+Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les utilisateurs lorsqu’ils ouvrent la nouvelle page d’accueil pour la première fois.
 
 Vous pouvez configurer les éléments suivants :
 
-* Les widgets qui s’affichent par défaut dans l’espace de travail et leur disposition sur la page.
+* Quels widgets s’affichent par défaut dans l’espace de travail ?
 * L’arrière-plan sélectionné.
 * Les paramètres de widget spécifiques, notamment les filtres et les groupes disponibles pour les widgets Mes projets, Mes tâches et Mes problèmes, ainsi que leurs paramètres par défaut.
 
 >[!IMPORTANT]
 >
->Les choix de modèle de mise en page administrateur décrits sur cette page remplacent les choix de personnalisation de chaque utilisateur ou utilisatrice.
->
->Lors de l’enregistrement des modifications apportées à un modèle de mis en page, la nouvelle page d’accueil des utilisateurs et utilisatrices de ce modèle est modifiée afin qu’elle corresponde au modèle de mise en page. Les sélections de widgets existants sont alors transférées vers le bas de la page. Bien que les widgets sélectionnés par l’administrateur ou l’administratrice puissent être repositionnés et redimensionnés par un utilisateur ou une utilisatrice, ils ne peuvent pas être supprimés.
+>Une fois le modèle de mise en page appliqué, les utilisateurs finaux peuvent modifier leur arrière-plan et réorganiser les widgets sur la page. Ils ne peuvent pas supprimer les widgets inclus par un administrateur Workfront.
+> <br>
+>Les administrateurs peuvent ajouter de nouveaux widgets pour les utilisateurs. Toutefois, si un utilisateur final a déjà personnalisé l’ordre de son widget ou sa sélection en arrière-plan, ces personnalisations spécifiques ne sont pas modifiées.
+
+
 
 Pour plus d’informations sur la nouvelle page d’accueil, voir [Commencer avec le nouvel accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -71,7 +73,9 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
 +++
 
-## Personnaliser le nouvel accueil à l’aide d’un modèle de mise en page
+## Personnalisation de la nouvelle page d’accueil à l’aide d’un modèle de mise en page
+
+Pour personnaliser la nouvelle page d’accueil à l’aide d’un modèle de mise en page :
 
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
