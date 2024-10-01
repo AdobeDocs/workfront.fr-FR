@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
+source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
 workflow-type: tm+mt
-source-wordcount: '5541'
+source-wordcount: '5575'
 ht-degree: 88%
 
 ---
 
 # Concevoir un formulaire avec le concepteur de formulaire
+
+{{highlighted-preview}}
 
 Vous pouvez concevoir un formulaire personnalisé à l’aide du créateur de formulaire. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données en rapport avec ces objets.
 
@@ -90,6 +92,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 ## Ajouter des champs nouveaux ou existants à votre formulaire personnalisé
 
 Vous pouvez utiliser des champs nouveaux ou existants lors de la conception de votre formulaire personnalisé.
+
+<span class="preview"> Les formulaires personnalisés sont limités à 500 champs. Un compteur en bas à gauche indique le nombre de champs utilisés dans le formulaire et il est toujours visible lorsque vous faites défiler le concepteur de formulaire.</span>
 
 ### Réutiliser un champ ou un widget existant déjà utilisé dans un autre formulaire personnalisé
 
@@ -301,9 +305,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
 1. Dans la partie gauche de l’écran, recherchez l’un des champs suivants et faites-le glisser vers une section de la zone de travail.
 
    * Cases d’option
-   * Groupe de cases à cocher
-   * Menu déroulant à sélection unique
-   * Menu déroulant à sélection multiple
+   * Groupe Case à cocher
+   * Liste déroulante à sélection unique
+   * Menu déroulant multi-sélection
 
    ![Faire glisser un champ sur la zone de travail](assets/drag-field-to-section.png)
 
@@ -321,9 +325,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td> 
      <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe de cases à cocher</li>
-    <li>Menu déroulant à sélection unique</li>
-    <li>Menu déroulant à sélection multiple</li>
+    <li>Groupe Case à cocher</li>
+    <li>Liste déroulante à sélection unique</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -332,9 +336,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td>
      <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe de cases à cocher</li>
-    <li>Menu déroulant à sélection unique</li>
-    <li>Menu déroulant à sélection multiple</li>
+    <li>Groupe Case à cocher</li>
+    <li>Liste déroulante à sélection unique</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -344,9 +348,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </td> 
     <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe de cases à cocher</li>
-    <li>Menu déroulant à sélection unique</li>
-    <li>Menu déroulant à sélection multiple</li>
+    <li>Groupe Case à cocher</li>
+    <li>Liste déroulante à sélection unique</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -359,9 +363,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
      </ul></p></td> 
      <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe de cases à cocher</li>
-    <li>Menu déroulant à sélection unique</li>
-    <li>Menu déroulant à sélection multiple</li>
+    <li>Groupe Case à cocher</li>
+    <li>Liste déroulante à sélection unique</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -369,9 +373,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     <td>Basculez entre les boutons radio, le groupe de cases à cocher, la liste déroulante à sélection unique ou la liste déroulante à sélection multiple pour le champ.</td> 
     <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe de cases à cocher</li>
-    <li>Menu déroulant à sélection unique</li>
-    <li>Menu déroulant à sélection multiple</li>
+    <li>Groupe Case à cocher</li>
+    <li>Liste déroulante à sélection unique</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -379,9 +383,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     <td>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur ou l’utilisatrice puisse remplir le formulaire personnalisé. </td> 
     <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe de cases à cocher</li>
-    <li>Menu déroulant à sélection unique</li>
-    <li>Menu déroulant à sélection multiple</li>
+    <li>Groupe Case à cocher</li>
+    <li>Liste déroulante à sélection unique</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -404,9 +408,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </ol> </td> 
     <td><ul>
     <li>Cases d’option</li>
-    <li>Groupe de cases à cocher</li>
-    <li>Menu déroulant à sélection unique</li>
-    <li>Menu déroulant à sélection multiple</li>
+    <li>Groupe Case à cocher</li>
+    <li>Liste déroulante à sélection unique</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
      </tr> 
     </tbody> 
