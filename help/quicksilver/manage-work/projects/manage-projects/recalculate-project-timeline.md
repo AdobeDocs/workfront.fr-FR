@@ -6,10 +6,10 @@ description: Recalculer les chronologies permet aux personnes chargées de la ge
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 100%
+source-wordcount: '1058'
+ht-degree: 92%
 
 ---
 
@@ -86,7 +86,7 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 
 ## Recalcul automatique
 
-Par défaut, les chronologies des projets sont automatiquement recalculées tous les jours lorsque la portée des projets change ou toutes les nuits. L’administrateur ou administratice de Workfront détermine s’il faut calculer automatiquement les chronologies toutes les nuits ou à chaque changement de portée en gérant les paramètres Chronologies dans la zone de configuration Préférences du projet. Pour plus d’informations, voir [Configurer les nouveaux calculs de chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Par défaut, les chronologies des projets sont automatiquement recalculées tous les jours lorsque la portée des projets change ou toutes les nuits. L’administrateur de Workfront détermine s’il faut calculer automatiquement les chronologies toutes les nuits ou à chaque changement de portée en gérant les paramètres Chronologies dans la zone Préférences du projet de la configuration. Pour plus d’informations, voir [Configurer les nouveaux calculs de chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 >[!NOTE]
 >
@@ -95,12 +95,17 @@ Par défaut, les chronologies des projets sont automatiquement recalculées tous
 * [Recalcul automatique des chronologies des projets](#automatic-recalculation-of-project-timelines)
 * [Actions qui déclenchent un recalcul automatique des chronologies des projets.](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
+
+>[!IMPORTANT]
+>
+>Pour les environnements Sandbox Aperçu et Actualisation personnalisée , le recalcul de nuit est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour les environnements Aperçu et Actualisation personnalisée Sandbox.
+
 ### Recalcul automatique des chronologies des projets {#automatic-recalculation-of-project-timelines}
 
 Adobe Workfront recalcule les chronologies tous les jours uniquement pour les projets pour lesquels toutes les conditions suivantes sont remplies :
 
 * Le statut est défini sur Actif.
-* Le type de mise à jour du projet est défini sur Automatique ou Automatique et en cas de modification.
+* Le type de mise à jour du projet est défini sur Automatique ou Automatique et Après modification
 
   Pour plus d’informations sur le type de mise à jour des projets, voir [Vue d’ensemble des types de mise à jour des projets](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 

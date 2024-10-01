@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 98%
+source-wordcount: '469'
+ht-degree: 91%
 
 ---
 
@@ -77,6 +77,11 @@ Pour plus d’informations sur les types de mise à jour de projet, voir [Vue d�
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
    La chronologie de tous les projets du système est recalculée automatiquement en fonction du type de mise à jour de chaque projet.
+
+>[!IMPORTANT]
+>
+>Pour les environnements Sandbox Aperçu et Actualisation personnalisée , le recalcul de nuit est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour les environnements Aperçu et Actualisation personnalisée Sandbox. Pour plus d’informations, voir [Recalculer la chronologie du projet](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
 
 ## Recalculer les chronologies pour l’ensemble de l’instance [!DNL Workfront]
 

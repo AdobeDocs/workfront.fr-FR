@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 94%
 
 ---
 
@@ -168,6 +168,16 @@ Lors de l’actualisation de votre prévisualisation de sandbox (chaque week-end
 Les étapes de la configuration de l’authentification unique dans la prévisualisation de sandbox sont similaires à celles de la configuration dans l’environnement de production.
 
 Pour plus d’informations sur la configuration de [!DNL Workfront] avec l’authentification unique, voir [Vue d’ensemble de l’authentification unique dans Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+
+## Recalcul automatique des chronologies des projets
+
+Recalculer les chronologies permet aux personnes gestionnaires de voir comment des forces extérieures au projet affectent la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévisionnelles pour le projet.
+
+En tant qu’administrateur Workfront, vous pouvez configurer le moment où Workfront recalcule automatiquement les chronologies de projet. Workfront peut recalculer les calendriers du projet chaque nuit ou lorsque la portée du projet change, ou les deux.
+
+Pour plus d’informations, voir [Configuration des recalculations de la chronologie pour les projets](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+
+Pour l’environnement Aperçu , le nouveau calcul de nuit est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour l’environnement Aperçu . Pour plus d’informations, voir [Recalculer la chronologie du projet](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 ## Performances et disponibilité de l’environnement de prévisualisation
 

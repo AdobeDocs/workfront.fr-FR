@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 99%
+source-wordcount: '1749'
+ht-degree: 95%
 
 ---
 
@@ -199,6 +199,16 @@ Pour plus d’informations sur la configuration SSO pour [!DNL Workfront], consu
 >[!NOTE]
 >
 >L’authentification unique n’est pas disponible si l’instance [!DNL Workfront] de votre entreprise utilise l’authentification Adobe IMS. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
+
+## Recalcul automatique des chronologies des projets
+
+Recalculer les chronologies permet aux personnes gestionnaires de voir comment des forces extérieures au projet affectent la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévisionnelles pour le projet.
+
+En tant qu’administrateur Workfront, vous pouvez configurer le moment où Workfront recalcule automatiquement les chronologies de projet. Workfront peut recalculer les calendriers du projet chaque nuit ou lorsque la portée du projet change, ou les deux.
+
+Pour plus d’informations, voir [Configuration des recalculations de la chronologie pour les projets](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+
+Pour l’environnement Sandbox d’actualisation personnalisée, le recalcul de nuit est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour l’environnement Sandbox d’actualisation personnalisée. Pour plus d’informations, voir [Recalculer la chronologie du projet](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 ## Utilisation prévue et disponibilité
 
