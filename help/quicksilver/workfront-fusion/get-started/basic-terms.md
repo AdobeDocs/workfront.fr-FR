@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion nécessite une licence Adobe Workfront F
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: eb39c26b076e89acb8bc4eef1a459b6ef8cd389b
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 100%
+source-wordcount: '858'
+ht-degree: 96%
 
 ---
 
@@ -101,6 +101,10 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader"> <p>Scénario</p> </td> 
    <td> <p>Série d’étapes automatisées créées par l’utilisateur ou par l’utilisatrice, chacune représentée et exécutée par un module. L’objectif d’un scénario est de déplacer et de manipuler des données.</p> <p> <img src="assets/scenario-350x178.jpg" style="width: 350;height: 178;"> </p> <p> Pour plus d’informations, consultez la section <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Segment de scénario</p> </td> 
+   <td> <p> Section d’un scénario composée d’une série de modules qui se connectent tous à la même application. Les segments de scénario représentent souvent un processus court dans l’application.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Transactions</p> </td> 
