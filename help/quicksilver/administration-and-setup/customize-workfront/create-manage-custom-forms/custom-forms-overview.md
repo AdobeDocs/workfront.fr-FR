@@ -8,20 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: db7b5213fb58e219fdabbacfa5bddac7b9da0b00
+source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 62%
+source-wordcount: '383'
+ht-degree: 75%
 
 ---
 
 # Vue d’ensemble des formulaires personnalisés
 
 <!--Audited: 12/2023-->
-
-{{highlighted-preview}}
-
-{{form-designer-default}}
 
 Vous pouvez créer un formulaire personnalisé que les utilisateurs et utilisatrices peuvent attacher à un objet Adobe Workfront. Les utilisateurs et utilisatrices qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
 
@@ -32,8 +28,6 @@ Par exemple, vous pouvez attacher un formulaire personnalisé appelé « Recher
 ## Création d’un formulaire personnalisé
 
 Le concepteur de formulaire dispose d’un espace de travail de style zone de travail qui vous permet d’afficher simultanément les paramètres des champs, de la zone de travail et des champs. Il vous permet également de faire glisser des champs dans les sections lors de la conception de votre formulaire. Vous pouvez redimensionner le côté droit de l’écran afin de libérer de l’espace pour les options de champ.
-
-<span class="preview">Un bouton Disposition (non affiché dans cette image) vous permet de choisir parmi une zone de travail de deux ou trois colonnes. Le bouton indique la mise en page actuellement sélectionnée. La mise en page à trois colonnes affiche les paramètres des champs dans la colonne située à l’extrême droite. Dans la mise en page à deux colonnes, les paramètres de champ s’affichent en regard de la bibliothèque de champs dans la colonne située à l’extrême gauche.</span>
 
 Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -50,14 +44,14 @@ Vous pouvez ajouter les types de champs personnalisés suivants à un formulaire
 * Texte sur une seule ligne
 * Paragraphe
 * Texte avec formatage
-* Menu déroulant à sélection unique
+* Liste déroulante à sélection unique
 * Menu déroulant à sélection multiple
 * Recherche externe
 * Référence de champ native
 * Frappe continue
 * Calculé
 * Date
-* Groupe de cases à cocher
+* Groupe Case à cocher
 * Cases d’option
 * Texte descriptif
 * Saut de section
