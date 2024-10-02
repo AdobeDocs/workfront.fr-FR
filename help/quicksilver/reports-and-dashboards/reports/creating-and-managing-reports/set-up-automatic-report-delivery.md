@@ -6,10 +6,10 @@ description: Planifier la remise automatique d’un rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 95%
+source-wordcount: '1272'
+ht-degree: 88%
 
 ---
 
@@ -130,7 +130,7 @@ Pour planifier la remise automatique d’un rapport ou modifier ou supprimer une
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Heure</p> </td> 
-      <td> <p>Sélectionnez l’heure de la journée à laquelle vous souhaitez envoyer la remise.</p> <p>Conseil : Comme les chargements du système peuvent avoir une incidence sur les heures de remise des rapports, un délai allant jusqu’à 24 heures peut s’écouler entre l’heure planifiée et l’heure de remise réelle. Si vous devez remettre un rapport à une heure spécifique, nous vous recommandons de planifier la remise au préalable. En règle générale, nous vous recommandons de planifier la diffusion au moins un jour avant la date à laquelle elle est nécessaire.</p> </td> 
+      <td> <p>Sélectionnez l’heure de la journée à laquelle vous souhaitez envoyer la remise.</p> <p>Conseil : Étant donné que les charges système peuvent affecter les délais de remise des rapports, il peut y avoir un délai allant jusqu’à 24 heures entre l’heure planifiée et l’heure de remise réelle. Si vous devez remettre un rapport à une heure spécifique, nous vous recommandons de planifier la remise au préalable. En général, nous vous recommandons de planifier la livraison au moins un jour avant la date à laquelle elle est nécessaire.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se répète le</p> </td> 
@@ -160,6 +160,12 @@ Pour planifier la remise automatique d’un rapport ou modifier ou supprimer une
    Le rapport s’affiche dans la section **Remises répétées** (dans la boîte de dialogue **Envoyer le rapport**) et sera envoyé à l’heure prévue.
 
    Pour plus d’informations sur les limitations de taille qui peuvent affecter la remise de vos rapports, consultez les sections [Limitations des remises de rapports](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) et [Limitations d’export](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+
+>[!IMPORTANT]
+>
+>Les rapports planifiés sont soumis à une limite de temps interne lorsqu’ils sont traités pour la diffusion. Si l’envoi d’un rapport prend plus de temps que la limite, vous recevrez une notification et le rapport ne sera plus livré, quelles que soient les livraisons planifiées restantes. Pour continuer à envoyer le rapport, essayez d’abord de réduire la taille du rapport à l’aide de filtres et de vues, puis créez une nouvelle distribution planifiée.
+>
+>Si vous utilisez une remise de rapport planifiée pour analyser les données Workfront via un outil BI, nous vous recommandons d’utiliser Workfront Data Connect à la place. Pour plus d’informations, consultez [Présentation de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 1. (Facultatif) Pour supprimer une remise prévue, procédez comme suit :
 

@@ -6,10 +6,10 @@ description: Vous pouvez afficher les rapports de calendrier et les détails des
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
 source-wordcount: '709'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -54,14 +54,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Selon votre niveau d’accès, vous pouvez voir les calendriers suivants répertoriés :
 
-   * Votre calendrier [!DNL Adobe Workfront] par défaut
+   * Votre calendrier par défaut [!DNL Adobe Workfront]
 
      Workfront crée pour vous un calendrier en fonction des projets, tâches et problèmes qui vous sont attribués ou qui sont attribués à des équipes, des groupes ou des rôles qui vous sont affectés.
-   * Calendriers que vous avez créés.
+   * Calendriers que vous avez créés
 
      Pour en savoir plus sur la création de calendriers, voir [Vue d’ensemble des rapports de calendrier](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-   * Calendriers que d’autres personnes ont partagés avec vous.
+   * Calendriers que d’autres utilisateurs ont partagés avec vous
 
      Pour en savoir plus sur le partage de calendriers, voir [[!UICONTROL Partager un rapport] de calendrier](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 

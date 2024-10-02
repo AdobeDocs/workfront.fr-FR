@@ -4,10 +4,10 @@ description: Améliorations apportées à la page d’accueil (quatrième trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 42%
+source-wordcount: '187'
+ht-degree: 39%
 
 ---
 
@@ -18,6 +18,10 @@ Cette page décrit toutes les améliorations apportées à la page d’accueil p
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2024, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Simplification de l’expérience Workfront pour les propriétaires de tâches avec des priorités
+
+>[!NOTE]
+>
+>Version d’aperçu : 3 octobre 2024 ; version de production pour tous les clients : avec la version 24.10 (17 octobre 2024).
 
 Présentation des priorités : expérience Workfront plus simple, plus simple et plus intuitive pour les propriétaires de tâches.
 

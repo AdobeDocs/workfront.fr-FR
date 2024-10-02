@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '380'
 ht-degree: 21%
 
 ---
@@ -32,7 +32,7 @@ Pour plus d’informations, voir [Personnalisation de la vue Détails à l’aid
 
 >[!NOTE]
 >
->Aperçu de la version : 29 août 2024 ; Production pour une version rapide : avec la version 24.9 (12 septembre 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
+>Aperçu de la version : 29 août 2024 ; Production pour une version rapide : avec la version 24.9 (12 septembre 2024) ; Production pour une version trimestrielle : avec la version 24.10 (17 octobre 2024)
 
 Pour rendre la promotion de l’environnement plus flexible et plus facile à utiliser, nous avons activé la fonctionnalité de restauration. Vous pouvez désormais restaurer les packages en moins de 24 heures, ce qui vous permet de restaurer plus facilement les configurations précédentes qui ont été affectées par un package de promotion d’environnement.
 

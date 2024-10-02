@@ -7,9 +7,9 @@ description: Un rapport de calendrier est un rapport dynamique qui fournit une r
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '352'
 ht-degree: 100%
 
 ---
@@ -57,7 +57,3 @@ Dans chaque rapport de calendrier, vous pouvez créer des groupes d’éléments
 >[!NOTE]
 >
 >Si une erreur 504 s’affiche lors de l’exécution d’un rapport de calendrier, le rapport comporte probablement trop de filtres. La réduction du nombre de filtres doit permettre au rapport de s’exécuter.
-
-## Ajouter vos calendriers à un tableau de bord
-
-Vous pouvez accéder rapidement à vos rapports de calendriers en les affichant dans un tableau de bord. Pour savoir comment ajouter un calendrier à un tableau de bord, voir [Modifier un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

@@ -6,10 +6,10 @@ description: Le tableau de bord permet d’accéder rapidement aux informations.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '536'
+ht-degree: 89%
 
 ---
 
@@ -21,10 +21,6 @@ Le tableau de bord permet d’accéder rapidement aux informations. Vous pouvez 
 
   Pour plus d’informations sur la création de rapports, voir [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Calendriers
-
-  Pour plus d’informations sur la création de calendriers, voir [Calendriers : index des articles](../../../reports-and-dashboards/reports/calendars/calendars.md).
-
 * Pages externes
 
   Pour plus d’informations sur la création de pages externes, voir [Incorporer une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
@@ -33,7 +29,7 @@ Après avoir créé ces éléments et les avoir ajoutés au tableau de bord, vou
 
 Toute modification apportée à un tableau de bord aura un impact sur tous les utilisateurs et utilisatrices qui ont accès à ce tableau de bord.
 
-Lorsque vous partagez un tableau de bord avec des utilisateurs et utilisatrices, tous les rapports, calendriers et pages externes sont également partagés avec les mêmes personnes.
+Lorsque vous partagez un tableau de bord avec des utilisateurs, tous les rapports et pages externes sont également partagés avec les mêmes utilisateurs.
 
 ## Conditions d’accès
 
@@ -86,7 +82,7 @@ Pour plus d’informations sur la création de tableaux de bord, voir [Créer un
    * **Nom** : modifiez le nom du tableau de bord.
    * **Description** : décrivez le tableau de bord.
 
-1. Dans la section **Rapports et calendriers disponibles**, commencez à saisir le nom d’un rapport, d’un calendrier ou d’une page externe dans le champ **Rechercher par nom ou type...** puis faites glisser et déposez le rapport ou le calendrier dans le volet de mise en page à droite.
+1. Dans la section **Rapports disponibles** , commencez à saisir le nom d’un rapport ou d’une page externe dans le champ **Rechercher par nom ou type...** , puis faites glisser le rapport dans le volet de mise en page de droite.
 
    >[!NOTE]
    >

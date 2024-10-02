@@ -4,9 +4,9 @@ description: Améliorations du rapport et du tableau de bord du quatrième trime
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '230'
 ht-degree: 15%
 
 ---
@@ -21,7 +21,7 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 
 >[!NOTE]
 >
->Version de production pour tous les clients : avec la version 24.10 (octobre 2024)
+>Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)
 >
 >_Disponible uniquement pour les organisations sur l’un des nouveaux plans Adobe Workfront. La connexion aux données est incluse dans le plan Ultimate ou peut être achetée en tant que module complémentaire aux plans Prime et Select._
 

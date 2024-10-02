@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 0ef7c526b06fc4f040a41e12e2eeec08c486137e
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1729'
 ht-degree: 44%
 
 ---
@@ -26,7 +26,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>24.8 (15 août 2024)</li><li>24.9 (12 septembre 2024)</li><li>24.10 (octobre 2024)</li></ul> | <ul><li>24.10 (octobre 2024)</li></ul> |
+>| <ul><li>24.8 (15 août 2024)</li><li>24.9 (12 septembre 2024)</li><li>24.10 (17 octobre 2024)</li></ul> | <ul><li>24.10 (17 octobre 2024)</li></ul> |
 >
 >Notez que pour la version finale de chaque trimestre (24.10 ce trimestre), les utilisateurs de la version rapide recevront la version un jour plus tôt.
 >
@@ -91,7 +91,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Production pour une version rapide : avec la version 24.9 (12 septembre 2024)</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -188,7 +188,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Version préliminaire : vendredi 3 octobre 2024</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : 17 octobre 2024</p>
+                                <p>Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -228,7 +228,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -248,7 +248,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -351,7 +351,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p><span class="preview">Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</span></p>
+                                <p><span class="preview">Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)</span></p>
                             </li>
                         </ul>
                         <p><i>Disponible uniquement pour les organisations sur l’un des nouveaux plans Adobe Workfront. Data Connect est inclus dans le plan Ultimate ou peut être acheté en tant que module complémentaire des plans Prime et Select.</i></p>

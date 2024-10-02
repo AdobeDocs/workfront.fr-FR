@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 3%
+source-wordcount: '611'
+ht-degree: 10%
 
 ---
 
@@ -39,6 +39,45 @@ Pour connecter votre lac de données Data Connect à un produit externe, vous de
 >Une fois qu’une entrée est ajoutée à la liste autorisée IP, toutes les autres adresses IP ne sont plus autorisées. Assurez-vous d’avoir saisi toutes les adresses IP requises (pour les expériences de création et de lecture de votre outil de visualisation) avant de tenter d’utiliser l’outil. Dans le cas contraire, vous risquez de rencontrer une erreur concernant les informations d’identification incorrectes.
 >
 >Si vous ne disposez d’aucune adresse IP incluse dans votre liste autorisée mais que vous rencontrez toujours des problèmes de connexion à un outil de BI, vérifiez la configuration du serveur proxy pour l’outil de BI.
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td><p>Inclus dans les plans suivants :</p>
+    <ul>
+        <li>Final</li> 
+    </ul>    
+   <p>Peuvent être achetées sous la forme d’un module complémentaire pour les forfaits suivants :</p> 
+    <ul>
+        <li>Sélectionner</li> 
+        <li>Principal</li>
+    </ul> 
+    <p>Workfront Data Connect n’est pas disponible pour les plans Workfront hérités.</p> 
+   </td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajout d’adresses IP à la liste autorisée
 

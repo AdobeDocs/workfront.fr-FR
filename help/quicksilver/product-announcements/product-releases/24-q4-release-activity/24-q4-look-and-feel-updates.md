@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 21%
+source-wordcount: '476'
+ht-degree: 17%
 
 ---
 
@@ -18,11 +18,21 @@ Cette page décrit les mises à jour mineures apportées à l’apparence et à 
 
 Pour une liste de tous les changements disponibles avec la version du quatrième trimestre 2024, consultez l’article [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Mises à jour de l’apparence des tableaux de bord
+
+>[!NOTE]
+>
+>Version d’aperçu : 19 septembre 2024 ; Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)
+
+Nous avons apporté diverses mises à jour à l’interface des tableaux de bord pour qu’elle corresponde à la conception d’autres zones de Workfront. Ces modifications incluent un nouvel écran Aperçu avant impression lors de l’impression d’un tableau de bord, ainsi que la suppression de la possibilité de placer des calendriers dans des tableaux de bord. Les calendriers existants dans les tableaux de bord affichent à la place un lien vers le calendrier.
+
+Pour plus d’informations sur les tableaux de bord, voir [Création et gestion des tableaux de bord](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). Pour plus d’informations sur les calendriers, consultez la [présentation des rapports de calendrier](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+
 ## Mises à jour de la fonctionnalité de recherche et de ressenti pour la page Préférences système
 
 >[!NOTE]
 >
->Aperçu de la version : 18 juillet 2024 ; Production pour une version rapide : avec la version 24.9 (12 septembre 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
+>Aperçu de la version : 18 juillet 2024 ; Production pour une version rapide : avec la version 24.9 (12 septembre 2024) ; Production pour une version trimestrielle : avec la version 24.10 (17 octobre 2024)
 
 Nous avons mis à jour la page Configuration > Système > Préférences afin qu’elle soit plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -32,7 +42,7 @@ Pour plus d’informations, voir [Configuration des préférences système](/hel
 
 >[!NOTE]
 >
->Aperçu de la version : 1er août 2024 ; Production pour une version rapide : avec la version 24.8 (15 août 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
+>Aperçu de la version : 1er août 2024 ; Production pour une version rapide : avec la version 24.8 (15 août 2024) ; Production pour une version trimestrielle : avec la version 24.10 (17 octobre 2024)
 
 Les messages de confirmation de suppression et de désactivation de l’utilisateur visibles par les utilisateurs lors de la suppression ou de la désactivation d’un utilisateur ont été mis à jour afin d’obtenir une conception plus moderne et cohérente avec d’autres zones de Workfront.
 
@@ -42,7 +52,7 @@ Pour plus d&#39;informations sur la suppression et la désactivation des utilisa
 
 >[!NOTE]
 >
->Aperçu de la version : 1er août 2024 ; Production pour une version rapide : avec la version 24.8 (15 août 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
+>Aperçu de la version : 1er août 2024 ; Production pour une version rapide : avec la version 24.8 (15 août 2024) ; Production pour une version trimestrielle : avec la version 24.10 (17 octobre 2024)
 
 Nous avons mis à jour la page des groupes de ressources avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -62,7 +72,7 @@ Pour plus d&#39;informations sur la suppression d&#39;une tâche, voir [Suppress
 
 >[!NOTE]
 >
->Aperçu de la version : 17 juillet 2024 ; Production pour une version rapide : avec la version 24.8 (15 août 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
+>Aperçu de la version : 17 juillet 2024 ; Production pour une version rapide : avec la version 24.8 (15 août 2024) ; Production pour une version trimestrielle : avec la version 24.10 (17 octobre 2024)
 
 Nous avons mis à jour la page Notification (accessible en cliquant sur l’icône de notification dans la barre d’outils principale, puis en cliquant sur Toutes les notifications) avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
