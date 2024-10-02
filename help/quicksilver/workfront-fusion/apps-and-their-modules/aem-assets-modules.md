@@ -10,10 +10,10 @@ description: Avec le connecteur  [!DNL Adobe Experience Manager Assets]  pour co
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1706'
+ht-degree: 87%
 
 ---
 
@@ -127,20 +127,28 @@ Pour créer une connexion pour vos modules [!DNL Adobe Experience Manager Assets
                   <td>Saisissez l’URL de votre instance [!DNL Adobe Experience Manager]. N’ajoutez pas une barre oblique <code>/</code> à la fin de l’URL.</td>
               </tr>
               <tr>
+                  <td role="rowheader">[!UICONTROL Options de remplissage des détails du compte]</td>
+                  <td>Indiquez si vous souhaitez fournir un fichier JSON décrivant les détails de votre compte ou si vous souhaitez saisir des détails manuellement.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">[!UICONTROL Détails du compte technique au format JSON]</td>
+                  <td>Si vous fournissez du code JSON, saisissez ou collez le code JSON décrivant les détails de votre compte.</td>
+              </tr>
+              <tr>
                   <td role="rowheader">[!UICONTROL Client ID]</td>
-                  <td>Saisissez l’identifiant client généré lors de la configuration [!UICONTROL Server-to-server].</td>
+                  <td>Si vous saisissez des détails manuellement, saisissez l’identifiant du client généré dans la configuration [!UICONTROL Server-to-server].</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Client Secret]</td>
-                  <td>Saisissez le secret client généré lors de la configuration [!UICONTROL Server-to-server].</td>
+                  <td>Si vous saisissez des détails manuellement, saisissez le secret client généré dans la configuration [!UICONTROL Server-to-server].</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Technical account ID]</td>
-                  <td>Saisissez l’identifiant du compte technique. Il s’agit du champ « [!UICONTROL id] » du fichier JSON des informations d’identification client.</td>
+                  <td>Si vous saisissez des détails manuellement, saisissez l’identifiant du compte technique. Il s’agit du champ « [!UICONTROL id] » du fichier JSON des informations d’identification client.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Org ID]</td>
-                  <td class="">Saisissez l’identifiant de votre organisation. Il s’agit du champ « [!UICONTROL org] » du fichier JSON des informations d’identification client.</td>
+                  <td class="">Si vous saisissez des détails manuellement, saisissez l’identifiant de votre organisation. Il s’agit du champ « [!UICONTROL org] » du fichier JSON des informations d’identification client.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Meta Scopes]</td>
