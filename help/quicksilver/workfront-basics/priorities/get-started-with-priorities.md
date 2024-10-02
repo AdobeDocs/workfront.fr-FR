@@ -5,9 +5,9 @@ description: Les priorités sont une expérience simple et intuitive, adaptée a
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: fa7bb26215caba62edfbe8eabc15526427abd0b8
+source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '832'
 ht-degree: 6%
 
 ---
@@ -182,6 +182,7 @@ Utilisez la fonction Me rattraper pour voir ce que vous avez manqué. Le module 
 
 ## Considérations
 
+* Actuellement, les administrateurs de Workfront ne peuvent pas personnaliser les priorités par le biais du modèle de mise en page.
 * L’accès aux tâches dans les priorités s’effectue sur plusieurs onglets. Nous prévoyons d’ajouter d’autres onglets, tels que Documents, Sous-tâches, Approbations, etc., à l’avenir. Dites-nous si vous avez besoin de ces éléments en envoyant vos commentaires à l’aide du bouton **Laisser un commentaire** .
 
 
