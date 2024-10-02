@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
+source-git-commit: 21e81e6395680e3ea7ffd05424217e5352fff0f6
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 83%
+source-wordcount: '830'
+ht-degree: 81%
 
 ---
 
@@ -114,7 +114,7 @@ Pour personnaliser la nouvelle page d’accueil à l’aide d’un modèle de mi
       <p>Une fois que vous avez sélectionné le widget que vous souhaitez modifier, les options disponibles s’affichent à droite. Ces options comprennent <b>Filtres</b>, <b>Colonnes</b> et <b>Groupes</b>. Vous pouvez effectuer les opérations suivantes :</p>
       <ul>
       <li><p><b>Sélectionner et trier les filtres, colonnes ou groupes disponibles pour les utilisateurs et utilisatrices :</b></p>
-      <p>Cochez la case en regard de toutes les options de la liste que vous souhaitez que les personnes puissent utiliser. Les options non cochées ne s’affichent pas pour les utilisateurs et utilisatrices. Faites glisser les options de la liste pour définir un ordre.</li></p>
+      <p>Cochez la case en regard de toutes les options de la liste que vous souhaitez que les personnes puissent utiliser. Ces options ne s’étendent pas au panneau Résumé. Vous devez configurer cette zone dans l’onglet Résumé du modèle de mise en page. Les options non cochées ne s’affichent pas pour les utilisateurs et utilisatrices. Faites glisser les options de la liste pour définir un ordre.</li></p>
       <p>
 
 >[!IMPORTANT]
