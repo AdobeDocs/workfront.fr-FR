@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Mettre à jour le statut du problème
+title: Mettre à jour le statut de l'événement
 description: Vous pouvez mettre à jour le statut d’un problème pour informer les autres personnes de son état d’avancement et de son évolution.
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '645'
 ht-degree: 100%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 100%
 Vous pouvez mettre à jour le statut d’un problème pour informer les autres personnes de son état d’avancement et de son évolution.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -33,9 +35,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle licence : contributeur ou contributrice ou niveau supérieur</p>
+   <td> <p>Nouvelle : contributeur ou supérieure</p>
    Ou
-   <p>Licence actuelle : demande ou niveau supérieur</p>
+   <p>Actuelle : demande ou supérieure</p>
    </td> 
   </tr> 
   <tr> 
@@ -49,7 +51,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-* Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Statuts des problèmes
 

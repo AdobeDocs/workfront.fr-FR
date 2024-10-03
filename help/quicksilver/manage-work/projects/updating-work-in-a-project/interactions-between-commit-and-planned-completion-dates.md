@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Interactions entre la date d’engagement et la date d’achèvement prévue
+title: Interactions entre la date de validation et la date d’achèvement planifiée
 description: La date d’achèvement prévue et la date d’engagement indiquent le moment où la tâche doit être terminée. Mais elles diffèrent en fonction de qui définit chaque date.
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

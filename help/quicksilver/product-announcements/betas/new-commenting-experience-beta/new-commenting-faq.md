@@ -9,10 +9,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 84%
 
 ---
 
@@ -32,7 +32,7 @@ Nous ne prévoyons pas de rétablir la possibilité d’effectuer ces actions ca
 
 ## Prévoyez-vous une vue combinée des commentaires et des mises à jour du système ?
 
-Il n’est actuellement pas prévu de proposer une vue combinée. Veuillez fournir vos commentaires et cas d’utilisation via le bouton Laisser un commentaire in-app ou soumettez vos demandes dans la zone Workfront Ideas de la communauté afin que nous puissions mieux comprendre dans quelle mesure cette fonctionnalité est importante.
+Il n’est actuellement pas prévu de proposer une vue combinée. Si nécessaire, soumettez une demande à l’équipe d’assistance afin que nous puissions mieux comprendre les exigences de la fonctionnalité.
 
 ## Allez-vous réinstaller la fonctionnalité d’annulation d’un commentaire publié ?
 
@@ -40,11 +40,11 @@ Nous avons remplacé la fonctionnalité d’annulation d’un commentaire publi�
 
 ## La fonctionnalité de suppression des participantes et participants au thread sera-t-elle limitée à des types de licence spécifiques ?
 
-Il n’est actuellement pas prévu d’ajouter des contrôles d’accès ou d’autorisation aux personnes pouvant utiliser cette nouvelle fonctionnalité. Veuillez fournir vos commentaires et cas d’utilisation via le bouton Laisser un commentaire in-app ou soumettez vos demandes dans la zone Workfront Ideas de la communauté afin que nous puissions mieux comprendre l’importance de cette fonctionnalité.
+Il n’est actuellement pas prévu d’ajouter des contrôles d’accès ou d’autorisation aux personnes pouvant utiliser cette nouvelle fonctionnalité. Si nécessaire, soumettez une demande à l’équipe d’assistance afin que nous puissions mieux comprendre l’importance de cette fonctionnalité.
 
 ## Existe-t-il un moyen de contrôler qui peut modifier les commentaires ?
 
-Il n’est actuellement pas prévu d’ajouter des contrôles d’autorisation ou d’accès pour savoir qui peut modifier les commentaires. Veuillez fournir vos commentaires et cas d’utilisation via le bouton Laisser un commentaire in-app ou soumettez vos demandes dans la zone Workfront Ideas de la communauté afin que nous puissions mieux comprendre l’importance de cette fonctionnalité.
+Il n’est actuellement pas prévu d’ajouter des contrôles d’autorisation ou d’accès pour savoir qui peut modifier les commentaires. Si nécessaire, soumettez une demande à l’équipe d’assistance afin que nous puissions mieux comprendre l’importance de cette fonctionnalité.
 
 ## Est-il possible de rechercher ou de filtrer des commentaires ?
 

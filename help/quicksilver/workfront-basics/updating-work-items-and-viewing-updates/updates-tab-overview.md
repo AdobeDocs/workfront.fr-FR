@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Vue d’ensemble de la section Mises à jour
+title: Présentation de la section Mises à jour
 description: La section Mises à jour d’un objet affiche les commentaires que les utilisateurs et utilisatrices font sur les mises à jour de l’objet ou du système qui effectuent le suivi des modifications apportées à l’objet.
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
 source-wordcount: '995'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

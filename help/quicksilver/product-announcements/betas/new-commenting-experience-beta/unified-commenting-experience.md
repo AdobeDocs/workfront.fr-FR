@@ -9,10 +9,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 98%
+source-wordcount: '1071'
+ht-degree: 69%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 98%
 >Le programme beta pour la nouvelle expérience de commentaires a commencé en avril 2023 et s’est terminé en octobre 2023, avec la version d’octobre 2023.
 >
 >Depuis le 11 avril 2024, toutes les fonctionnalités relatives à la nouvelle expérience de commentaire sont disponibles dans l’environnement de production pour l’ensemble de la clientèle.
+>
+> L’expérience de commentaire précédente a été supprimée de Workfront.
 
 ## Fonctionnalités
 
@@ -47,7 +49,7 @@ Parmi les améliorations apportées à la nouvelle expérience de commentaire, o
 * Indicateur en temps réel lors de l’ajout de nouveaux commentaires à un objet
 * Modification des commentaires après leur soumission
 
-Les fonctionnalités suivantes ont été supprimées ou seront obsolètes dans la nouvelle expérience :
+Les fonctionnalités suivantes ont été supprimées de la nouvelle expérience :
 
 * Commentaire sur une mise à jour système. Les commentaires ajoutés aux mises à jour système par le passé ont été importés en tant que commentaires en lecture seule dans le nouvel onglet Activité du système.
 * Possibilité de modifier le statut, la condition, la date d’engagement et le pourcentage terminé tout en commentant les tâches et les problèmes.
@@ -81,17 +83,14 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
   <tr>
    <td><strong>Fonctionnalité</strong>
    </td>
-   <td><strong>Existe dans l’ancienne expérience de commentaire.</strong>
+   <td><strong> Existante dans l’ancienne expérience de commentaire </strong>
    </td>
    <td><strong>Existe dans la nouvelle expérience de commentaire.</strong>
    </td>
-   <td><strong>Sera introduite dans la nouvelle expérience de commentaire.</strong>
+
+<td><strong>Introduit dans la nouvelle expérience de commentaire </strong>
    </td>
-   <td><strong>Date d’introduction dans la nouvelle expérience de commentaire</strong>
-   </td>
-   <td><strong>Dans la recherche</strong>
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Créer/lire/répondre à/supprimer des commentaires 
    </td>
@@ -99,13 +98,11 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
   </td>
    <td>✓ 
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Texte enrichi (à l’exclusion des citations et des emojis)
    </td>
@@ -113,12 +110,10 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   &gt;
   </tr>
 
 <tr>
@@ -130,11 +125,8 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>Texte enrichi (citations)
@@ -143,13 +135,10 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> ✓
    </td>
-   <td> 
+    <td> 2e trimestre 2023
    </td>
-   <td> 2e trimestre 2023
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
 <tr>
    <td> Commentaires sur les citations
@@ -158,13 +147,10 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td> 2e trimestre 2023
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Réagir aux commentaires (J’aime) 
    </td>
@@ -174,11 +160,8 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Joindre des images aux commentaires 
    </td>
@@ -186,13 +169,10 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td> 
+      <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Taguer des personnes dans les commentaires 
    </td>
@@ -202,11 +182,8 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Supprimer des participantes et participants au thread
    </td>
@@ -216,23 +193,13 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
-
-
-<tr>
+  <tr>
    <td>Taguer automatiquement tous les participantes et participants au thread
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -247,10 +214,6 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
   <tr>
    <td>Annuler la publication d’un commentaire 
@@ -259,11 +222,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>Remplacé par un commentaire modifié 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
+     <td> 
    </td>
   </tr>
   <tr>
@@ -275,11 +234,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Modifier les commentaires 
    </td>
@@ -289,11 +244,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Sauvegarde des brouillons de commentaires lors de la navigation hors de la page 
    </td>
@@ -303,21 +254,13 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Voir les nouveaux commentaires en temps réel (y compris lors de la suppression d’un commentaire)
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -331,10 +274,6 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
     <tr>
    <td>Copier le lien du thread 
@@ -343,11 +282,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> Remplacé par Copier le lien
    </td>
-   <td> 
-   </td>
    <td>2e trimestre 2023 
-   </td>
-   <td> 
    </td>
   </tr>
   <tr>
@@ -359,11 +294,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Citer le texte du commentaire 
    </td>
@@ -371,13 +302,9 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓
    </td>
-   <td> 
+  <td>2e trimestre 2023 
    </td>
-   <td>2e trimestre 2023 
-   </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Copier le texte du message 
    </td>
@@ -385,13 +312,9 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
    </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
     <tr>
    <td>Rechercher dans les commentaires 
    </td>
@@ -399,13 +322,10 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1er trimestre 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>Copier et coller des images dans un commentaire
@@ -414,13 +334,9 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1er trimestre 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+     </tr>
 
 <tr>
    <td>Faire glisser et déposer des images dans un commentaire
@@ -429,22 +345,14 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1er trimestre 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
 
 <tr>
    <td>Modifier le formulaire personnalisé 
    </td>
    <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -460,10 +368,6 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td>
-   </td>
   </tr>
 <tr>
    <td>Répondre aux mises à jour du système 
@@ -472,11 +376,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 <tr>
@@ -486,11 +386,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 
@@ -499,13 +395,9 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> ✓
    </td>
-   <td> Peut être lancé à une date ultérieure
-   </td>
    <td> 
    </td>
-   <td>
-   </td>
-   <td> ✓
+   <td> 
    </td>
   </tr>
 </table>
@@ -519,41 +411,41 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
 >Pour plus d’informations sur la gestion des mises à jour des objets Workfront, voir [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
-Voici une chronologie prévisionnel avec des étapes clés pour le lancement de la nouvelle expérience de commentaire dans l’environnement de production. En plus des étapes ci-dessous, nous continuerons à améliorer l’expérience de commentaire en y apportant de petites améliorations.
+Les informations suivantes décrivent la chronologie avec des jalons clés pour la publication de la nouvelle expérience de commentaire dans l’environnement de production. En plus des étapes ci-dessous, nous continuerons à améliorer l’expérience de commentaire en y apportant de petites améliorations.
 
-Pour plus d’informations sur les fonctionnalités de la nouvelle expérience de commentaire après la clôture de la période de version bêta, voir la page de vue d’ensemble de la version actuelle.
+Pour plus d’informations sur les fonctionnalités publiées pour la nouvelle expérience de commentaires après la fin de la période bêta, consultez la page de présentation de la version actuelle. Pour plus d’informations, voir [Versions de produit](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-Voici le calendrier prévisionnel pour le lancement de la nouvelle expérience de commentaire :
+Voici un calendrier prévu pour la publication de la nouvelle expérience de commentaires :
 
 * Avec la version 23.2 (6 avril 2023) :
-   * Lancer la version bêta de l’expérience de commentaire pour les problèmes
-   * Lancer la nouvelle expérience de commentaire pour les objectifs (comme expérience unique)
+   * Lancement de l’expérience de commentaires Beta pour les problèmes
+   * Nouvelle expérience de commentaires pour les objectifs (comme seule expérience) publiée.
 * Avec la version 23.3 (20 juillet 2023) :
-   * Lancer la version bêta de l’expérience de commentaire pour les projets, les tâches et les documents.
-   * Lancer la nouvelle expérience de commentaire pour les cartes dans la zone des panoramas (comme expérience unique)
+   * Lancement de l’expérience de commentaires Beta pour les projets, les tâches et les documents.
+   * Nouvelle expérience de commentaires pour les cartes dans la zone Panoramas (la seule expérience).
 * Lors de la version du quatrième trimestre 2023 (version limitée, uniquement pour les clientes et clients ayant choisi la version rapide) :
-   * Lancer la nouvelle expérience de commentaire pour les modèles, les tâches des modèles, les programmes, les portfolios, les équipes, les utilisateurs et utilisatrices et les feuilles de temps (comme expérience unique)
-   * Mettre à jour la version bêta de l’expérience de commentaire pour les projets, les tâches, les problèmes et les documents afin qu’elle devienne l’option par défaut. Le libellé « Version bêta » est supprimé.
+   * Nouvelle expérience de commentaires pour les modèles, les tâches de modèle, les programmes, les portefeuilles, les équipes, les utilisateurs et les feuilles de temps (la seule expérience).
+   * Mise à jour de l’expérience de commentaires Beta pour que les projets, les tâches, les problèmes et les documents deviennent l’option par défaut. Le libellé &quot;Beta&quot; a été supprimé.
 * Avec la version du quatrième trimestre 2023 (23.10) (26 octobre 2023)
-   * Lancer la nouvelle expérience de commentaire pour les modèles, les tâches des modèles, les programmes, les portfolios, les équipes, les utilisateurs et utilisatrices et les feuilles de temps (comme expérience unique) pour tous les clientes et clients.
-   * Faire de la nouvelle expérience de commentaire pour les projets, les tâches, les problèmes et les documents l’option par défaut.
+   * Nouvelle expérience de commentaires pour les modèles, les tâches de modèle, les programmes, les portefeuilles, les équipes, les utilisateurs et les feuilles de temps (la seule expérience) pour tous les clients.
+   * La nouvelle expérience de commentaire pour les projets, les tâches, les problèmes et les documents est devenue l’option par défaut.
 
   >[!IMPORTANT]
   >
-  >    Cette étape clôturera la phase de version bêta de la nouvelle expérience de commentaire.
+  >    Cela a mis fin à l’étape Beta de la nouvelle expérience de commentaire.
 
-   * Incluez toutes les fonctionnalités publiées pour la nouvelle expérience de commentaire à partir de cette date dans les versions mensuelles et trimestrielles normales actuelles.
+   * Toutes les fonctionnalités relatives à la nouvelle expérience de commentaires ont été publiées à partir de cette date dans les versions mensuelles et trimestrielles actuelles.
 * Fin de l’année 2023 :
-   * Conserver l’expérience de commentaire héritée comme option secondaire pour les objets suivants : projets, tâches, problèmes et documents. La nouvelle expérience de commentaire est l’option par défaut pour tous les utilisateurs et utilisatrices de ces objets.
-   * Faire de la nouvelle expérience de commentaire la seule expérience pour tous les autres objets.
-
-  >[!NOTE]
-  >
-  >    Les itérations continueront à utiliser l’expérience de commentaire héritée. La nouvelle expérience de commentaire ne sera pas disponible pour les itérations.
+   * Conservez l’expérience héritée de commentaires comme option secondaire pour les objets suivants : projets, tâches, problèmes et documents. La nouvelle expérience de commentaire est l’option par défaut pour tous les utilisateurs et utilisatrices de ces objets.
+   * La nouvelle expérience de commentaire est devenue la seule expérience pour tous les autres objets.
 
 * Avec la version du deuxième trimestre 2024 (11 avril 2024) :
 
-  Supprimer l’option permettant de revenir au flux de commentaires hérité et définissez le nouveau flux de commentaires comme la seule expérience pour tous les objets.
+  Suppression de l’option permettant de revenir au flux de commentaires hérité et de faire du nouveau flux de commentaires la seule expérience pour tous les objets.
+
+* 3 octobre 2024 :
+
+  Suppression du bouton Laisser un commentaire dans la zone Mises à jour .
 
 ## Localiser la nouvelle expérience de commentaire
 

@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Mettre à jour le statut des tâches
+title: Mettre à jour le statut de la tâche
 description: Vous pouvez mettre à jour le statut d’une tâche pour informer les autres personnes sur l’emplacement de la tâche (et sur le projet global) et son statut d’avancement.
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 100%
 
 ---
 
 # Mettre à jour le statut des tâches
+
+<!--Audited: 10/2024-->
 
 Vous pouvez mettre à jour le statut d’une tâche pour informer les autres personnes sur l’emplacement de la tâche (et sur le projet global) et son statut d’avancement.
 
@@ -22,6 +24,8 @@ Les statuts par défaut sont Nouvelle, En cours et Terminée. Votre administrate
 Vous pouvez mettre à jour les statuts des tâches manuellement ou laisser Workfront les mettre à jour automatiquement lorsque certaines actions ont lieu.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour mettre à jour manuellement les tâches :
 
@@ -51,7 +55,9 @@ Vous devez disposer des accès suivants pour mettre à jour manuellement les tâ
  </tbody> 
 </table>
 
-* Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considérations relatives à la mise à jour du statut des tâches
 

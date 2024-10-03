@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Mettre à jour les dates d’engagement pour les tâches et les problèmes
+title: Mise à jour des dates de validation des tâches et des problèmes
 description: Vous pouvez mettre à jour manuellement la date d’engagement d’un objet (tâche ou problème) qui vous est affecté. Pour plus d’informations sur les dates d’engagement dans Adobe Workfront, voir Vue d’ensemble de la date d’engagement.
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 

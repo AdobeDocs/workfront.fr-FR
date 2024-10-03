@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 29%
 
 ---
-
 
 # Présentation des enregistrements connectés
 
@@ -30,9 +30,9 @@ Pour plus d’informations sur la connexion des enregistrements entre eux ou à 
 * Vous pouvez parcourir et ajouter des enregistrements et des objets de l’enregistrement et des types d’objets liés à partir des champs d’enregistrement liés.
 * Vous pouvez ajouter des champs (champs de recherche) des types d&#39;enregistrements liés dans la table du type d&#39;enregistrement à partir duquel vous effectuez la liaison.
 
-  Vous pouvez ajouter des champs (champs de recherche) des types d’enregistrement que vous associez dans la table du type d’enregistrement auquel vous associez.
+  Vous pouvez également ajouter des champs (champs de recherche) des types d’enregistrement que vous liez dans la table du type d’enregistrement auquel vous êtes lié.
 
-  Par exemple, si vous associez le type d’enregistrement Produit du type d’enregistrement Campagne , vous pouvez afficher les champs Produit pour les campagnes, ainsi que les champs Campagne pour Produits.
+  Par exemple, si vous associez le type d’enregistrement Produit du type d’enregistrement Campagne , vous pouvez afficher les champs de produit pour les campagnes, ainsi que les champs de campagne pour les produits.
 * Vous ne pouvez pas mettre à jour manuellement les valeurs des champs de recherche dans les enregistrements à partir desquels vous créez une liaison.
 
   Les valeurs des champs de recherche renseignent l’enregistrement de planification Workfront à partir duquel vous effectuez la liaison automatique après leur mise à jour sur l’enregistrement ou l’objet d’origine.
@@ -54,4 +54,3 @@ Vous pouvez connecter des enregistrements à d’autres enregistrements ou à de
 * Vous pouvez connecter des objets Workfront à des enregistrements Workfront Planning dans les zones suivantes :
 
    * Dans la section Planification d’un objet Workfront.
-

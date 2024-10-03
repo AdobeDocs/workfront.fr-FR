@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Taguer d’autres personnes sur les mises à jour
+title: Balisage d’autres mises à jour
 description: Lorsque vous fournissez des commentaires de mise à jour sur un objet Adobe Workfront, tous les utilisateurs et utilisatrices du projet peuvent voir les informations envoyées. Cependant, il peut arriver que des utilisateurs et utilisatrices qui ne sont pas sur le projet aient intérêt à consulter ces informations. Plutôt que d’inclure ces utilisateurs et utilisatrices dans le projet, vous pouvez les taguer sur la mise à jour pour la partager avec eux. Les utilisateurs et utilisatrices tagués reçoivent une notification d’événement.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 100%
+source-wordcount: '1008'
+ht-degree: 99%
 
 ---
 
@@ -55,6 +55,8 @@ Plutôt que d’inclure ces utilisateurs et utilisatrices dans l’objet en les 
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto">
@@ -82,6 +84,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 </table>
 
 * Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Baliser d’autres personnes sur les mises à jour
 

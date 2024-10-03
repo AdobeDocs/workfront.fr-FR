@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
+source-git-commit: 7c2fa065045f434b3a761f4742ca496670bfd6b2
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1290'
 ht-degree: 15%
 
 ---
@@ -145,17 +145,33 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    * **Objet** : champ qui identifie la demande dans Workfront. Cette fonctionnalité n’est pas encore disponible.
    * Tous les champs associés au type d&#39;enregistrement.
 
-   Les champs contenus dans le formulaire de demande seront visibles par tous ceux qui envoient une demande à ce type d’enregistrement.
+     Les champs contenus dans le formulaire de demande seront visibles par tous ceux qui envoient une demande à ce type d’enregistrement.
 
 1. (Facultatif) Pointez sur les champs du formulaire que vous souhaitez supprimer, puis cliquez sur l’icône **x** pour les supprimer. Ils sont ajoutés à l’onglet **Champs** situé à gauche du formulaire.
 
    Par exemple, supprimez le champ **Objet**, car celui-ci n’est pas visible dans la planification Workfront. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Cliquez sur n’importe quel champ, puis utilisez les commandes situées à droite du formulaire pour définir sa taille, ou n’importe laquelle des informations suivantes concernant les champs :
+1. Cliquez sur n’importe quel champ, puis utilisez les commandes du panneau de droite du formulaire pour définir leur taille ou l’une des informations suivantes :
 
    * **Libellé** : il s’agit du nom du champ tel qu’il apparaîtra sur le formulaire de demande. Cela ne modifie pas le nom du champ d’enregistrement.
    * **Instructions** : ajoutez des informations supplémentaires sur le champ.
    * **Créer un champ obligatoire** : lorsque cette option est sélectionnée, le champ doit avoir une valeur. Sinon, le formulaire ne peut pas être envoyé.
    * **Ajouter une logique** : définissez les conditions qui doivent être remplies pour que le champ s’affiche ou soit masqué.
+
+   Le type de champ de chaque champ s’affiche en haut du panneau de droite, une fois le champ sélectionné dans le formulaire. Les noms des types de champ sur le formulaire de requête diffèrent de ceux de la vue de tableau. Le tableau suivant décrit les différences entre les noms des types de champ dans la vue de tableau et les noms des mêmes champs dans le formulaire de requête du type d’enregistrement :
+
+   | Type de champ Planification Workfront | Type de champ de formulaire de requête |
+   |-------------------------------|-------------------------|
+   | Texte à une ligne | Texte sur une seule ligne |
+   | Paragraphe | Texte avec formatage |
+   | Devise, Nombre, Pourcentage | Texte sur une seule ligne |
+   | Sélection unique | Liste déroulante à sélection unique |
+   | Sélection multiple | Menu déroulant multi-sélection |
+   | Case à cocher | Groupe Case à cocher |
+
+   >[!NOTE]
+   >
+   >   Les formats des champs sont conservés. Par exemple, bien que les champs Devise et Pourcentage s’affichent sous forme de champs de texte Ligne unique , les informations contenues dans les champs s’affichent sous forme de devise et de valeur en pourcentage.
+
 
 1. (Facultatif) Cliquez sur l’onglet **Eléments de contenu** sur le côté gauche du formulaire, puis ajoutez l’un des éléments suivants :
 

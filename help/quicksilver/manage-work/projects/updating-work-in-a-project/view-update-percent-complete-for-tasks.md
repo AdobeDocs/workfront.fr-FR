@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Afficher et mettre à jour le pourcentage terminé des tâches
+title: Afficher et mettre à jour le pourcentage terminé pour les tâches
 description: Vous pouvez mettre à jour le pourcentage terminé d’une tâche pour indiquer la progression de la tâche vers son achèvement.
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 Vous pouvez mettre à jour le pourcentage terminé d’une tâche pour indiquer la progression de la tâche vers son achèvement.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour mettre à jour manuellement les tâches :
 
@@ -49,8 +51,9 @@ Vous devez disposer des accès suivants pour mettre à jour manuellement les tâ
  </tbody> 
 </table>
 
-* Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Zones dans lesquelles vous pouvez mettre à jour le pourcentage terminé d’une tâche
 

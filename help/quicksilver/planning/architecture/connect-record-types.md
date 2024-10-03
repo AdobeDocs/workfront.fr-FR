@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '2197'
-ht-degree: 52%
+source-wordcount: '2196'
+ht-degree: 44%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 52%
 <!--
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
-Vous pouvez connecter les types d’enregistrements Adobe Workfront Planning les uns aux autres ou à des types d’objets provenant d’autres applications.
+Vous pouvez connecter des types d’enregistrement les uns aux autres ou connecter des types d’enregistrement à des types d’objets provenant d’autres applications.
 
 Cet article décrit comment vous pouvez connecter deux types d’enregistrement Workfront Planning ou un type d’enregistrement Workfront Planning à un objet provenant d’une autre application.
 
@@ -183,7 +183,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
 1. Dans le champ **Type d’enregistrement**, recherchez un type d’enregistrement ou sélectionnez l’un des éléments suivants :
 
-   * Un autre type d’enregistrement de l’espace de travail sélectionné
+   * Autre type d’enregistrement de l’espace de travail actuel
 
      <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
@@ -198,7 +198,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
      >[!TIP]
      >
-     >Si aucun type d’enregistrement n’est configuré pour se connecter à partir d’un autre espace de travail, la section espace de travail ne s’affiche pas.
+     >Si aucun type d’enregistrement n’est configuré pour se connecter à partir d’autres espaces de travail, la section espace de travail ne s’affiche pas.
 
 
    * Un **projet, un portfolio, un programme, une entreprise** ou un **groupe** depuis la section **Types d’objets Workfront**.
@@ -218,7 +218,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    >Vous pouvez avoir plusieurs connexions au même type d’enregistrement ou d’objet. Si vous ne modifiez pas le nom du champ connecté, Workfront ajoute un nombre après le nom de l’enregistrement connecté, afin d’indiquer le nombre de types d’enregistrements connectés par le même nom.
 
    * **Description** : informations supplémentaires sur le champ de l’enregistrement connecté. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
-   * **Autoriser les enregistrements multiples** : sélectionnez cette option pour indiquer que vous autorisez les utilisateurs et les utilisatrices à ajouter plusieurs enregistrements lorsque le champ du type d’enregistrement lié s’affiche dans les enregistrements originaux. Cette option est sélectionnée par défaut.
+   * **Autoriser plusieurs enregistrements** : sélectionnez cette option pour indiquer que vous autorisez les utilisateurs à ajouter plusieurs enregistrements lorsque le champ de type d’enregistrement associé s’affiche sur les enregistrements d’origine. Cette option est sélectionnée par défaut.
 
      Cette option est disponible uniquement lors de la connexion d’enregistrements provenant de deux espaces de travail différents ou d’un enregistrement et d’un objet de ressource Adobe Experience Manager.
 
@@ -237,7 +237,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
      Pour plus d’informations sur les types de connexions, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **Sélectionner les champs de recherche** : sélectionnez cette option pour ajouter les champs du type d’enregistrement sélectionné. Les champs de recherche sont des champs associés au type d’enregistrement ou d’objet vers lequel vous établissez un lien. La création d’un lien affiche les informations de l’enregistrement ou de l’objet vers lequel vous établissez un lien dans l’enregistrement à partir duquel vous établissez un lien. Cette option est sélectionnée par défaut.
+   * **Sélectionner les champs de recherche** : sélectionnez cette option pour ajouter les champs du type d’enregistrement sélectionné. Les champs de recherche sont des champs associés au type d’enregistrement ou d’objet vers lequel vous établissez un lien. Leur liaison affiche des informations sur l’enregistrement ou l’objet auquel vous créez un lien dans l’enregistrement à partir duquel vous créez un lien. Cette option est sélectionnée par défaut.
 
      >[!TIP]
      >
@@ -331,7 +331,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    >[!NOTE]
    >
-   >Par exemple, vous pouvez lier l’enregistrement du produit (enregistrement lié) à l’enregistrement de la campagne (enregistrement original) et le nommer « Champ produit ». Vous pouvez également choisir de lier le champ Budget de l’enregistrement du produit à l’enregistrement de la campagne et de l’appeler « Budget du produit ». Si vous avez le droit de sélectionner plusieurs enregistrements dans le &quot;champ Produit&quot;, vous pouvez sélectionner le Produit 1 dont le budget est de 100 000 € et le Produit 2 dont le budget est de 110 000 €, et le Produit 3 dont le budget est de 100 000 €. Selon l’agrégateur que vous avez choisi, vous pouvez consulter les informations suivantes sur le budget dans le champ lié de l’enregistrement original :
+   >Par exemple, vous pouvez lier l’enregistrement de produit (enregistrement lié) à partir de l’enregistrement de campagne (enregistrement d’origine) et le nommer &quot;champ de produit&quot;. Vous pouvez également choisir de lier le champ Budget de l’enregistrement de produit à partir de l’enregistrement de campagne et de l’appeler &quot;Budget du produit&quot;. Si vous avez autorisé la sélection de plusieurs enregistrements dans le &quot;champ Produit&quot;, vous pouvez sélectionner le Produit 1 dont le budget est de 100 000 € et le Produit 2 dont le budget est de 110 000 €, et le Produit 3 dont le budget est de 100 000 €. Selon l’agrégateur que vous avez choisi, vous pouvez consulter les informations suivantes sur le budget dans le champ lié de l’enregistrement original :
    >
    >* **Aucun** : 100 000 $, 110 000 $, 100 000 $
    >* **MAX** : 110 000 $
@@ -353,11 +353,11 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-     Par exemple, si vous avez lié un type d’enregistrement Campagne avec un type d’enregistrement Programme et que vous nommez le champ d’enregistrement associé au Programme « Informations sur le programme », puis que vous choisissez d’afficher également le champ Budget du programme dans la vue de tableau de la campagne, le champ lié est automatiquement nommé `Budget (from Program information)` dans la vue de tableau de la campagne.
+     Par exemple, si vous avez lié un type d’enregistrement Campaign à un type d’enregistrement Program et que vous nommez le champ d’enregistrement associé au programme &quot;Informations sur le programme&quot;, puis que vous sélectionnez ce champ pour afficher également le champ Budget du programme dans la vue de table de la campagne, le champ lié est automatiquement nommé `Budget (from Program information)` dans la vue de table de la campagne.
 
    * Lorsque vous liez des types d’enregistrement les uns aux autres, un champ d’enregistrement lié est également ajouté au type d’enregistrement auquel vous liez l’enregistrement. Le nom du champ d’enregistrement lié sur le type d’enregistrement lié correspond au nom du type d’enregistrement à partir duquel vous créez un lien.
 
-     Par exemple, si vous associez le type d’enregistrement « Produit » du type d’enregistrement « Campagne » et que vous nommez le champ connecté de la campagne « Produit lié », un champ d’enregistrement lié « Campagne » est créé pour le type d’enregistrement Produit.
+     Par exemple, si vous associez le type d’enregistrement &quot;Produit&quot; du type d’enregistrement &quot;Campagne&quot; et que vous avez nommé le champ connecté de la campagne &quot;Produit lié&quot;, un champ d’enregistrement lié &quot;Campagne&quot; est créé pour le type d’enregistrement Produit .
 
      >[!TIP]
      >
@@ -365,7 +365,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
 1. (Facultatif et le cas échéant) À partir de la vue de tableau du type d’enregistrement d’origine ou d’enregistrement lié, cliquez sur la flèche du bas dans l’en-tête des champs d’enregistrement liés, puis sélectionnez l’une des options suivantes :
 
-   * **Modifier le champ** : vous pouvez mettre à jour le **nom** et les informations **Description** du champ.
+   * **Modifier le champ** : mettez à jour le **nom** et les informations **Description** du champ.
    * **Modifier les champs de recherche** : ajoutez ou supprimez un ou plusieurs champs de l’enregistrement lié.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

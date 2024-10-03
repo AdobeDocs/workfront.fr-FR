@@ -1,13 +1,13 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Enregistrer des heures
+title: Saisir du temps
 description: Vous pouvez consigner les heures passées sur un élément de travail dans&nbsp;Adobe Workfront pour refléter le fruit de vos efforts. Vous pouvez également consigner les heures qui ne sont pas liées au travail, comme les vacances, les congés maladie ou le temps passé en réunion. Les heures que vous consignez s’affichent dans votre feuille de temps.
 author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
 source-wordcount: '3856'
 ht-degree: 89%
