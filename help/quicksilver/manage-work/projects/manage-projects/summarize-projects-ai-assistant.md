@@ -5,14 +5,14 @@ title: Résumer les projets à l’aide de l’assistant d’IA
 description: L’en-tête du projet comprend un bouton qui utilise l’assistant d’IA pour résumer les projets.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 18%
 
 ---
 
-# Résumer les mises à jour à l’aide de l’assistant AI
+# Résumer les projets à l’aide de l’assistant d’IA
 
 L’assistant d’IA Workfront peut synthétiser les projets, ce qui vous permet de comprendre rapidement les informations du projet, telles que l’objectif et l’état du projet, donne des exemples de tâches terminées et toujours en attente et fournit des détails et des notes supplémentaires.
 
