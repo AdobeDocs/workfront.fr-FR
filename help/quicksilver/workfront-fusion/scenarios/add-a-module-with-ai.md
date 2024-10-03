@@ -9,9 +9,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
+source-git-commit: 5de5b96bc74ce9b819acfa7b5f16652509ccade1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 1%
 
 ---
@@ -63,9 +63,9 @@ Fusion AI peut actuellement générer des modules qui se connectent aux applicat
 
    Pour obtenir des conseils sur les invites, reportez-vous à la section [Conseils pour créer des invites de texte](#tips-for-creating-text-prompts) de cet article.
 
-   Le module ou l’ensemble de modules est généré.
+   L’assistant d’IA génère le module ou l’ensemble de modules.
 1. (Conditionnel) Si nécessaire, ajoutez votre jeton API pour l’application dans les modules.
-1. Vérifiez les modules pour vous assurer qu’ils doivent être configurés pour l’application et l’action appropriées.
+1. Vérifiez les modules pour vous assurer qu’ils sont configurés pour l’application et l’action appropriées.
 1. (Conditionnel) Si la section de scénario générée n’est pas jointe à votre scénario, faites-la glisser vers sa place.
 
 Nous vous recommandons de tester les modules pour vous assurer qu’ils fonctionnent comme prévu.
