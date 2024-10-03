@@ -4,10 +4,10 @@ description: Améliorations apportées à la page d’accueil (quatrième trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 0d2bb434b1b52ea175ad912c554b4aa07d5d2f7d
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 39%
+source-wordcount: '319'
+ht-degree: 23%
 
 ---
 
@@ -38,3 +38,15 @@ Les priorités sont conçues pour remplacer la page d’accueil héritée. Les n
 Pour plus d’informations, voir [Prise en main des priorités](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 
 [Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3434848/){target=_blank}
+
+## Obsolescence de l’expérience d’accueil héritée avec la version 24.10
+
+Nous abandonnerons officiellement l’expérience héritée d’accueil avec la version 24.10.
+
+Avec cette modification, la zone _Accueil et résumé_ du modèle de mise en page sera renommée _Panneau de résumé_. Les personnalisations dans cette zone s’appliqueront toujours au panneau Résumé dans la nouvelle page d’accueil. Pour plus d’informations, voir [Personnaliser l’accueil et le résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+Nous vous recommandons de commencer à utiliser la nouvelle page d’accueil, qui continuera à être enrichie de fonctionnalités supplémentaires avant l’obsolescence. Pour plus d’informations sur la transition, y compris des conseils sur ce que les utilisateurs et les administrateurs peuvent faire pour se préparer, consultez le [Guide d’obsolescence de la page d’accueil héritée](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+
+>[!NOTE]
+>
+>Une fois la page d’accueil héritée obsolète, _new Home_ sera appelé _Home_ dans Workfront. Toute la documentation _nouvelle page d’accueil_ sera renommée _Accueil_.

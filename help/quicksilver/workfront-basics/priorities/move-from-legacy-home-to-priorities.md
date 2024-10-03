@@ -5,17 +5,15 @@ description: La page d’accueil héritée sera supprimée de Workfront le 10/17
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 6%
 
 ---
 
 
 # Passage de la page d’accueil héritée aux priorités
-
-<span class="preview">Les priorités seront disponibles dans Aperçu le 10/3/2024</span>
 
 La page d’accueil héritée sera supprimée de Workfront le 10/17 avec la version Q4. Cet article fournit des informations sur les fonctionnalités qui seront disponibles dans les priorités et des recommandations destinées aux administrateurs de Workfront qui déplacent les utilisateurs vers les priorités.
 

@@ -5,17 +5,15 @@ description: Les priorités sont une expérience simple et intuitive, adaptée a
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 6%
+source-wordcount: '883'
+ht-degree: 8%
 
 ---
 
 
 # Prise en main des priorités
-
-<span class="preview">Les priorités seront disponibles dans Aperçu le 10/3/2024</span>
 
 Les priorités sont une expérience simple et intuitive, adaptée aux propriétaires de tâches. Les priorités seront déployées par phases, en commençant par la liste de travail.
 
@@ -118,6 +116,16 @@ La vue Calendrier fournit une représentation visuelle de vos tâches et problè
 ## Travail sur les tâches et les problèmes
 
 Dans Priorités, vous pouvez mettre à jour les tâches afin de garder à jour les détails de vos tâches, consigner le temps de suivi précis de vos heures de travail, charger des ressources sans avoir à accéder à un projet et ajouter des liens rapides pour accéder facilement aux ressources fréquemment utilisées.
+
+>[!NOTE]
+>
+>Les licences Clair, Révision, Contributeur et Demandeur ont un accès limité aux priorités. Pour plus d’informations sur la façon dont ces types de licence peuvent interagir avec des tâches et des problèmes, voir
+>
+>* [Accès aux objets et aux zones par pour les nouvelles licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [Fonctionnalité disponible pour chaque type d’objet pour les nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [Accès aux objets et zones par type de licence](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+>* [Fonctionnalités disponibles pour chaque type d’objet](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+
 
 ### Ajouter et afficher des mises à jour
 

@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 93%
+source-wordcount: '1006'
+ht-degree: 90%
 
 ---
 
 # Personnaliser l’Accueil et le Résumé à l’aide d’un modèle de disposition
+
+<span class="preview">Cet article sera renommé &quot;Personnaliser le panneau de résumé à l’aide d’un modèle de mise en page&quot; lorsque la page d’accueil héritée sera supprimée de Workfront avec la version du 4e trimestre le 17 octobre. 2024.</span>
 
 Vous pouvez utiliser un modèle de disposition pour configurer ce que voient les personnes lorsqu’elles cliquent sur une tâche ou un problème dans Accueil et dans le résumé. Chaque configuration que vous effectuez en suivant les étapes ci-dessous affecte de la même manière la zone Accueil et le panneau Résumé. Ces personnalisations ne s’appliquent pas au panneau Résumé du document.
 
