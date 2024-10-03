@@ -1,31 +1,24 @@
 ---
-title: Résumer à l’aide de l’assistant IA
-content-type: reference
-description: Vous pouvez rapidement résumer les éléments de travail et les documents à l’aide de la fonctionnalité Résumer .
+product-area: projects
+navigation-topic: update-work-items-and-view-updates
+title: Résumer les mises à jour à l’aide de l’assistant AI
+description: Les mises à jour d’un objet comprennent un bouton qui utilise l’assistant d’IA pour résumer les mises à jour.
 author: Becky
 feature: Get Started with Workfront
-exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 17%
+source-wordcount: '401'
+ht-degree: 16%
 
 ---
 
-# Résumer à l’aide de l’assistant IA
+# Résumer les mises à jour à l’aide de l’assistant AI
+
+L’assistant d’IA pour Workfront peut résumer le contenu du flux de mise à jour, ce qui vous permet de comprendre rapidement les commentaires et les discussions qui se produisent autour d’un objet Workfront.
+
+Vous pouvez utiliser le bouton Résumer le contenu pour générer un résumé ou saisir une invite dans l’assistant d’IA.
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
-
-L’assistant d’IA Workfront peut résumer certains objets, ce qui vous donne une vue d’ensemble de l’intention ou des détails de l’objet.
-
-Par exemple, si vous demandez à l’assistant d’IA de résumer un projet, il renvoie de brèves descriptions de l’objectif et de l’état du projet, fournit des exemples de tâches terminées et toujours en attente et fournit des détails et des notes supplémentaires.
-
-L’assistant d’IA peut résumer les objets suivants :
-
-* Projets
-* Tâches
-* Problèmes
-* Documents
 
 >[!NOTE]
 >
@@ -65,22 +58,16 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
   Pour plus d’informations, voir [Conditions préalables à l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) dans l’article Présentation de l’assistant d’IA.
 * Votre administrateur Workfront doit avoir activé l’assistant d’IA pour votre niveau d’accès.
 
-  Pour plus d’informations, voir [Activation ou désactivation de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Pour plus d’informations, voir [Activation ou désactivation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
 
 <div class="preview">
 
-## Résumer à l’aide des boutons Résumer
+## Résumer à l’aide du bouton Résumer le contenu
 
-Les zones suivantes comportent des boutons qui génèrent des résumés à l’aide de l’assistant d’IA :
+1. Accédez au flux de mise à jour que vous souhaitez résumer.
+1. Cliquez sur le bouton **Résumer le contenu** .
 
-* En-tête du projet : résumé du projet
-* Zone Mises à jour : Résumer le contenu
-
-Pour utiliser le bouton Résumé du projet ou Résumer le contenu :
-
-1. Cliquez sur le bouton .
-
-   L’assistant d’IA s’ouvre, vous invitant à résumer le projet ou les 7 derniers jours de commentaires sur le flux de mise à jour.
+   L’assistant d’IA s’ouvre, vous invitant à résumer les 7 derniers jours de commentaires sur le flux de mise à jour.
 
    L’assistant d’IA peut prendre quelques instants pour générer le résumé, selon la taille ou la complexité de l’objet.
 

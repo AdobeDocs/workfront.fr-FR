@@ -5,10 +5,10 @@ description: Vous pouvez rapidement résumer les éléments de travail et les do
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 20%
+source-wordcount: '297'
+ht-degree: 17%
 
 ---
 
@@ -41,7 +41,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Conditions préalables
+
+* Votre administrateur Workfront doit avoir activé l’assistant d’IA pour votre entreprise.
+
+  Pour plus d’informations, voir [Conditions préalables à l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) dans l’article Présentation de l’assistant d’IA.
+* Votre administrateur Workfront doit avoir activé l’assistant d’IA pour votre niveau d’accès.
+
+  Pour plus d’informations, voir [Activation ou désactivation de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Obtenir des informations sur l’assistant d’IA
 

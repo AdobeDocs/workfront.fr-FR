@@ -5,10 +5,10 @@ description: Vous pouvez utiliser l’assistant d’intelligence artificielle po
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 16%
+source-wordcount: '340'
+ht-degree: 14%
 
 ---
 
@@ -39,9 +39,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Générer une expression de champ calculé
+## Conditions préalables
+
+* Votre administrateur Workfront doit avoir activé l’assistant d’IA pour votre entreprise.
+
+  Pour plus d’informations, voir [Conditions préalables à l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) dans l’article Présentation de l’assistant d’IA.
+* Votre administrateur Workfront doit avoir activé l’assistant d’IA pour votre niveau d’accès.
+
+  Pour plus d’informations, voir [Activation ou désactivation de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+
+<!--## Generate a calculated field expression-->
 
 ## Modification d’une expression de champ calculée
 

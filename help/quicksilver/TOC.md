@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ada8aa9f72b57d6008473c6d9dcc17765d8656c4
+source-git-commit: a2810eae52a0392107a214967e50a662239e1e5f
 workflow-type: tm+mt
-source-wordcount: '14445'
+source-wordcount: '14455'
 ht-degree: 95%
 
 ---
@@ -925,6 +925,7 @@ ht-degree: 95%
       * [Taguer d’autres personnes sur les mises à jour](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Afficher toutes les mises à jour dans un rapport de note](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Vue d’ensemble des boutons Travailler sur ce projet et Terminé](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+      * [Résumer les mises à jour à l’aide de l’assistant AI](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
    * Travailler avec des formulaires personnalisés {#work-with-custom-forms}
       * [Travailler avec des formulaires personnalisés](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Ajouter un formulaire personnalisé à un objet](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -1246,6 +1247,7 @@ ht-degree: 95%
          * [Gérer un projet en vue Agile](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [Vue d’ensemble des mesures du projet](manage-work/projects/manage-projects/project-metrics.md)
          * [Vue d’ensemble des limites du projet](manage-work/projects/manage-projects/project-maximums.md)
+         * [Résumer les mises à jour à l’aide de l’assistant AI](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * Créer et gérer des modèles de projet {#create-and-manage-project-templates}
          * [Créer et gérer des modèles de projet : index des articles](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [Vue d’ensemble des modèles de projet](manage-work/projects/create-and-manage-templates/project-template-overview.md)
