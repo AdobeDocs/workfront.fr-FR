@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 17%
@@ -22,11 +22,28 @@ Pour une liste de tous les changements disponibles avec la version du quatrième
 
 >[!NOTE]
 >
->Version d’aperçu : 19 septembre 2024 ; Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)
+>Version d’aperçu : 26 septembre 2024 ; Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)
 
-Nous avons apporté diverses mises à jour à l’interface des tableaux de bord pour qu’elle corresponde à la conception d’autres zones de Workfront. Ces modifications incluent un nouvel écran Aperçu avant impression lors de l’impression d’un tableau de bord, ainsi que la suppression de la possibilité de placer des calendriers dans des tableaux de bord. Les calendriers existants dans les tableaux de bord affichent à la place un lien vers le calendrier.
+Nous avons apporté diverses mises à jour à l’interface des tableaux de bord pour qu’elle corresponde à la conception d’autres zones de Workfront, notamment des améliorations à l’écran d’aperçu avant impression lors de l’impression d’un tableau de bord.
+
+En raison de ces modifications, les calendriers ne peuvent plus être placés dans des tableaux de bord. Les calendriers existants dans les tableaux de bord affichent à la place un lien vers le calendrier.
 
 Pour plus d’informations sur les tableaux de bord, voir [Création et gestion des tableaux de bord](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). Pour plus d’informations sur les calendriers, consultez la [présentation des rapports de calendrier](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+
+<!--
+
+## Look and feel updates for reports
+
+>[!NOTE]
+>
+>Preview release: September 19, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+
+We have made a variety of updates to the reports interface to match the design of other areas of Workfront, including:
+
+* changes to existing reports that improve their use in Canvas Dashboards
+* an expanded color palette for conditional formatting rules in reports
+
+For more information about -->
 
 ## Mises à jour de la fonctionnalité de recherche et de ressenti pour la page Préférences système
 

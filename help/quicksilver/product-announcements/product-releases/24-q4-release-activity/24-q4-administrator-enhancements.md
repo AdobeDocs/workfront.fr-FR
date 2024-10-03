@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 21%
+source-wordcount: '480'
+ht-degree: 19%
 
 ---
 
@@ -17,6 +17,18 @@ ht-degree: 21%
 Cette page décrit toutes les améliorations apportées à l’administration dans l’environnement de prévisualisation par la version du quatrième trimestre 2024. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2024, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Un compteur sur les formulaires personnalisés indique le nombre de champs
+
+>[!NOTE]
+>
+>Version d’aperçu : 1er octobre 2024 ; version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)
+
+Les formulaires personnalisés sont limités à 500 champs. Sur un formulaire long, il peut être difficile de connaître le nombre de champs du formulaire et de savoir si vous approchez de la limite.
+
+Un compteur a été ajouté aux formulaires personnalisés en bas à gauche. Le compteur affiche le nombre de champs utilisés dans le formulaire et il est toujours visible lorsque vous faites défiler le concepteur de formulaires.
+
+Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Une option &quot;Tout sélectionner&quot; est désormais disponible dans les modèles de mise en page.
 

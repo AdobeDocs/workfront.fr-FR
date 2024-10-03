@@ -4,10 +4,11 @@ description: Autres améliorations au cours de la période de publication du qua
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 11a5d4d2e1c7ac5339aa880b494730d75e40a812
+exl-id: 13208dca-afc9-419a-bb08-e063c6d9b480
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 16%
+source-wordcount: '320'
+ht-degree: 10%
 
 ---
 
@@ -16,6 +17,20 @@ ht-degree: 16%
 Cette page décrit les améliorations apportées à la version du quatrième trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2024, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Résumer les projets ou les mises à jour en un seul clic
+
+>[!NOTE]
+>
+>Version d’aperçu : 3 octobre 2024 ; version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)
+
+Afin de faciliter l’affichage rapide des mises en surbrillance d’un projet ou d’un flux de mise à jour, nous avons ajouté des boutons Résumer à ces zones de Workfront. Vous pouvez maintenant cliquer sur le bouton pour générer un résumé dans l’assistant d’IA.
+
+Auparavant, les utilisateurs pouvaient ouvrir l’assistant d’IA et saisir une invite pour créer un résumé du projet ou mettre à jour le flux.
+
+Votre administrateur Workfront peut activer ou désactiver l’assistant d’IA pour votre entreprise. L’assistant d’IA est disponible pour les instances avec des plans Select, Prime et Ultimate.
+
+Pour plus d’informations, voir [Résumer à l’aide de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
 ## Assistant d’Adobe AI disponible dans Workfront
 

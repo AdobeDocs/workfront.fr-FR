@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a2810eae52a0392107a214967e50a662239e1e5f
+source-git-commit: 298411941cafb96ab2c3b7e611dc1fb9db8ec31f
 workflow-type: tm+mt
-source-wordcount: '14455'
+source-wordcount: '14460'
 ht-degree: 95%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 95%
       * Version du 4e trimestre 2024 {#release-24-q4}
          * [Vue d’ensemble de la version du 4e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [Améliorations des équipes d’administrations du 4e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
+         * [Améliorations de la gestion des documents au 4e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md)
          * [Améliorations de l’intégration du 4e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
          * [Améliorations de la page d’accueil du 4e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md)
          * [Améliorations des projets du 4e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
