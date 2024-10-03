@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '691'
 ht-degree: 18%
 
 ---
@@ -62,8 +62,10 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Dans le champ **Nom du module** , saisissez un nom pour le module.
 1. Dans le champ **Description** , saisissez une description pour ce package.
-1. Pour ajouter un objet au package, cliquez sur **Ajouter des objets** dans le volet de navigation de gauche et sélectionnez le type d’objet à ajouter.
-1. Sélectionnez un ou plusieurs objets dans la liste ou saisissez le nom dans la barre de recherche et sélectionnez l’objet lorsqu’il apparaît dans la liste. Vous pouvez sélectionner plusieurs objets dans la liste.
+1. Pour ajouter un objet au package, dans le volet de navigation de gauche, sélectionnez le type d’objet à ajouter.
+1. Sélectionnez un ou plusieurs objets dans la liste qui s’affiche ou saisissez le nom dans la barre de recherche et sélectionnez l’objet lorsqu’il apparaît dans la liste. Vous pouvez sélectionner plusieurs objets dans la liste.
+
+   La liste comprend jusqu’à 500 objets du type d’objet sélectionné. Pour localiser un objet qui ne figure pas dans la liste, utilisez la barre de recherche.
 1. Cliquez sur **Ajouter (X Objets)** pour ajouter les objets sélectionnés au package.
 
    >[!INFO]
