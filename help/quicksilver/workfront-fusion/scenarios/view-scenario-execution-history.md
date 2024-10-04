@@ -2,23 +2,29 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Afficher l’historique d’exécution d’un scénario dans Adobe Workfront Fusion
+title: Affichage de l’historique d’un scénario dans Adobe Workfront Fusion
 description: Vous pouvez afficher des informations sur toutes les exécutions d’un scénario ou rechercher des données spécifiques dans toutes les exécutions du scénario.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 100%
+source-wordcount: '972'
+ht-degree: 82%
 
 ---
 
-# Afficher l’historique d’exécution d’un scénario dans [!DNL Adobe Workfront Fusion]
+# Afficher l’historique d’un scénario dans [!DNL Adobe Workfront Fusion]
 
-Vous pouvez afficher des informations sur toutes les exécutions d’un scénario ou rechercher des données spécifiques dans toutes les exécutions du scénario.
+Vous pouvez afficher des informations sur les événements ou les exécutions d’un scénario, ou rechercher des données spécifiques dans toutes les exécutions du scénario.
 
-L’historique d’exécution d’un scénario affiche toutes les exécutions d’un scénario pour les 30 derniers jours.
+Une exécution de scénario représente une exécution unique du scénario.
+
+Un événement de scénario correspond à une modification du scénario, telle que sa modification, son activation ou sa désactivation.
+
+>[!NOTE]
+>
+>L’historique d’un scénario affiche tous les événements et exécutions d’un scénario au cours des 30 derniers jours.
 
 ## Conditions d’accès
 
@@ -57,21 +63,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
 
 Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
 
-Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Afficher toutes les exécutions d’un scénario
+## Afficher l’historique des scénarios
 
-### Afficher l’historique d’exécution des scénarios sur la page [!UICONTROL Détails du scénario]
+### Affichez l’historique des scénarios sur la page [!UICONTROL Détails du scénario]
 
 1. Cliquez sur l’onglet **[!UICONTROL Scénario]** dans le panneau de gauche, puis sur le scénario.
 
    Ou
 
-   Si vous travaillez sur le scénario dans l’éditeur de scénario, cliquez sur la flèche vers la gauche ![](assets/exit-editing-arrow.png) près du coin supérieur gauche de la fenêtre.
+   Si vous travaillez sur le scénario dans l’éditeur de scénario, cliquez sur la flèche de gauche ![](assets/exit-editing-arrow.png) près du coin supérieur gauche de la fenêtre.
 
-1. Affichez les informations dans la liste de droite.
-
-   Vous pouvez également cliquer pour afficher une page entière de ces informations. La vue en pleine page permet de filtrer l’historique pour afficher des exécutions spécifiques.
+1. Affichez l’historique de l’exécution dans l’onglet **Historique** du panneau de droite.
 
    Les détails suivants sont répertoriés pour chaque exécution du scénario :
 
@@ -80,13 +84,16 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
    * **[!UICONTROL Durée]** de l’exécution
    * Nombre d’**[!UICONTROL opérations]**
    * Taille du **[!UICONTROL transfert de données]**
-   * Lier à **[!UICONTROL Détails]**
 
->[!NOTE]
->
->L’historique des scénarios affiche un badge de **traitement** en regard des scénarios récemment exécutés, tandis que les détails de l’exécution sont écrits dans le stockage. Le traitement se produit immédiatement après l’exécution du scénario et ne doit pas durer plus de quelques minutes. Les détails de l’exécution du scénario peuvent ne pas être visibles pendant le traitement de l’exécution.
+   >[!NOTE]
+   >
+   >L’historique des scénarios affiche un badge de **traitement** en regard des scénarios récemment exécutés, tandis que les détails de l’exécution sont écrits dans le stockage. Le traitement se produit immédiatement après l’exécution du scénario et ne doit pas durer plus de quelques minutes. Les détails de l’exécution du scénario peuvent ne pas être visibles pendant le traitement de l’exécution.
 
-### Afficher l’historique d’exécution du scénario sur l’onglet [!UICONTROL Historique]
+1. Pour afficher les détails d’une exécution de scénario spécifique, cliquez sur cette exécution dans le panneau de droite.
+1. Pour afficher les événements, cliquez sur l’onglet **Événements** du panneau de droite.
+
+
+### Afficher l’historique des scénarios sur l’onglet [!UICONTROL Historique]
 
 L’onglet [!UICONTROL Historique] affiche plus de détails que la page [!UICONTROL Détails du scénario]. Vous pouvez également filtrer et trier les exécutions dans l’onglet [!UICONTROL Historique].
 
@@ -97,7 +104,7 @@ L’onglet [!UICONTROL Historique] affiche plus de détails que la page [!UICONT
    Si vous travaillez sur le scénario dans l’éditeur de scénario, cliquez sur la flèche vers la gauche ![](assets/exit-editing-arrow.png) près du coin supérieur gauche de la fenêtre.
 
 1. Cliquez sur l’onglet **[!UICONTROL Historique]** près du coin supérieur gauche de la page.
-1. (Facultatif) Pour plus d’informations sur une exécution de scénario sélectionnée, y compris sur les lots qui ont été traités, cliquez sur le lien **[!UICONTROL Détails]**.
+1. (Facultatif) Pour plus d’informations sur l’exécution d’un scénario sélectionné, y compris les lots traités, cliquez sur le bouton **[!UICONTROL Détails]** dans la ligne correspondant à cette exécution.
 
    Pour plus d’informations sur le traitement des lots, voir la section [Flux d’exécution des scénarios dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
@@ -107,7 +114,9 @@ L’onglet [!UICONTROL Historique] affiche plus de détails que la page [!UICONT
    >
    >* L’historique des scénarios affiche un badge **Historique de traitement** en regard des scénarios récemment exécutés, tandis que les détails de l’exécution sont écrits dans le stockage. Le traitement se produit immédiatement après l’exécution du scénario et ne doit pas durer plus de quelques minutes. Les détails de l’exécution du scénario peuvent ne pas être visibles pendant le traitement de l’exécution.
 
-## Filtrer l’historique d’exécution d’un scénario
+1. Pour afficher les événements, activez le bouton d’activation/désactivation **Afficher les événements** .
+
+## Filtrer l’historique d’exécution des scénarios
 
 Vous pouvez filtrer l’historique d’exécution pour n’afficher que les exécutions disposant des valeurs spécifiées.
 
@@ -128,13 +137,7 @@ Vous pouvez trier l’historique d’exécution du scénario.
 
 ## Rechercher toutes les exécutions d’un scénario
 
-1. Cliquez sur l’icône **[!UICONTROL Scénario]** ![](assets/scenarios-icon.png) dans le panneau de gauche, puis cliquez sur le scénario.
-
-   Ou
-
-   Si vous travaillez sur le scénario dans l’éditeur de scénario, cliquez sur la flèche de gauche ![](assets/exit-editing-arrow.png) près du coin supérieur gauche de la fenêtre.
-
-1. Cliquez sur le bouton **[!UICONTROL Historique]** dans le coin supérieur gauche de l’écran.
+1. Ouvrez l’historique pleine page d’un scénario comme décrit dans [Afficher l’historique de l’exécution d’un scénario sur l’onglet [!UICONTROL Historique]](#view-scenario-execution-history-on-the-history-tab) de cet article.
 1. Cliquez sur **[!UICONTROL Recherche de texte intégral]** en haut de la liste des exécutions.
 
    Ou
