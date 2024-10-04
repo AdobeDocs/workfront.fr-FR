@@ -5,13 +5,13 @@ title: Utiliser ensemble les nouvelles validations de documents et la vérificat
 description: Vous pouvez utiliser de nouvelles validations de documents avec la vérification.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8dc9df69bbce86f141ac451381fcc41a112ca0bc
+exl-id: be484629-6e70-4809-ad4c-a489d5814da6
+source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '940'
 ht-degree: 4%
 
 ---
-
 
 # Utiliser ensemble les nouvelles validations de documents et la vérification
 
@@ -85,9 +85,9 @@ Pour ajouter une nouvelle version :
 
 1. (Facultatif) Définissez une date limite de validation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date limite spécifiée.
 
-1. Pour ajouter un approbateur, cliquez sur le bouton Approbateur et commencez à saisir le nom d’un utilisateur ou d’une équipe.
+1. Pour ajouter un approbateur, cliquez sur le bouton Approbateur et commencez à saisir un nom d’utilisateur ou d’équipe,<span class="preview"> ou choisissez un approbateur dans la version précédente.</span>
 
-1. Pour ajouter un réviseur, cliquez sur le bouton Réviseur et commencez à saisir le nom d’un utilisateur ou d’une équipe.
+1. Pour ajouter un réviseur, cliquez sur le bouton Réviseur et commencez à saisir le nom d&#39;un utilisateur ou d&#39;une équipe, <span class="preview">, ou choisissez un réviseur de la version précédente. </span>
 
    ![](assets/add-approvers.png)
 
@@ -125,4 +125,3 @@ Pour réviser et approuver un document :
    * **Travail requis** : le document nécessite des modifications et n’est pas prêt à l’emploi. Une fois les modifications spécifiées effectuées, le document doit être téléchargé en tant que nouvelle version et passer par un autre cycle de validations. Pour plus d&#39;informations sur le téléchargement d&#39;une nouvelle version, voir [Créer une version selon les besoins](#create-a-new-version-as-needed) dans cet article.
 
 Une fois que vous avez pris une décision, le propriétaire du document est informé par courrier électronique.
-

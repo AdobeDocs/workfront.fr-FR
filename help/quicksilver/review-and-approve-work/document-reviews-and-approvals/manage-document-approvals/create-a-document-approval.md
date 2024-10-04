@@ -6,16 +6,16 @@ description: Vous pouvez demander l’approbation d’un document à d’autres 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
 # Créer une demande de révision ou d’approbation de document
 
-Vous pouvez demander l’approbation d’un document dans Adobe Workfront à d’autres utilisateurs ou équipes, ou demander à ces utilisateurs de le réviser sans avoir à l’approuver.
+Vous pouvez demander à d’autres personnes ou équipes d’approuver un document dans Adobe Workfront, ou leur demander de réviser un document sans avoir à l’approuver.
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
 
-## Créer une demande de révision ou d’approbation de document à partir du volet Résumé du document
+## Création d’une demande d’approbation ou de révision de document à partir du panneau Document Summary
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 
@@ -96,6 +96,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    ![](assets/add-approver-and-deadline.png)
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
+
+
+
+
 
 <!--
 ## Resubmit an approval on a new version

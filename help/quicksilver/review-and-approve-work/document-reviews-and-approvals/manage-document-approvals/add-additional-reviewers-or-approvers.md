@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des réviseurs et réviseuses ou des approbateu
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 88%
+source-wordcount: '500'
+ht-degree: 84%
 
 ---
 
@@ -75,6 +75,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Faites défiler l’écran vers le bas jusqu’à la section **Approbations** dans le volet Résumé du document, où sont répertoriés tous les approbateurs, approbatrices, réviseurs et réviseuses existants. Pour ajouter un approbateur ou une approbatrice, assurez-vous que la case **Personne approbatrice** est cochée, vous pouvez ensuite saisir du texte dans la zone de texte **Personnes réviseuses**. Vous pouvez ajouter des utilisateurs et des utilisatrices ou des équipes Workfront en utilisant leur nom. Si vous souhaitez plutôt ajouter un réviseur ou une réviseuse, décochez simplement la case **Personne approbatrice** avant la saisie.
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
+
+## Ajout de révisions et d’approbateurs supplémentaires à partir d’une version précédente
+
+Si vous avez besoin d’approbation sur une nouvelle version de document, vous pouvez facilement ajouter des
 
 <!--
 ## Add additional approvers or reviewers from Home
