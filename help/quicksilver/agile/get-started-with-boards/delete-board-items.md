@@ -6,10 +6,10 @@ description: Lorsque vous supprimez une carte d’un panorama, elle est supprim�
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 98%
+source-wordcount: '529'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,8 @@ Si vous supprimez une carte connectée d’un panorama dynamique, elle réappara
 Lorsque vous supprimez une carte connectée d’un autre type de panorama comportant une colonne de saisie, la carte réapparaît dans la colonne de saisie lorsque vous actualisez le panorama si la tâche ou le problème connecté n’est pas encore marqué comme terminé. Pour plus d’informations sur les colonnes de saisie, voir [Ajouter une colonne de saisie à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 L’archivage d’une carte l’envoie dans les archives et vous pouvez la restaurer dans le panorama ultérieurement.
+
+Les cartes archivées ne sont pas synchronisées avec les tâches et les problèmes Workfront. Si vous restaurez une carte, elle sera à nouveau synchronisée.
 
 ## Conditions d’accès
 
@@ -71,7 +73,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
 
 1. Pour restaurer une carte archivée, cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) sur la carte et sélectionnez **[!UICONTROL Restaurer]**.
 
-## Filtrer un panorama pour afficher les cartes archivées {#filter-a-board-to-show-archived-cards}
+## Filtrer un panorama pour afficher les cartes archivées
 
 Par défaut, seules les cartes actives sont affichées sur un panorama. Le panorama peut être également filtré pour afficher les cartes archivées.
 
