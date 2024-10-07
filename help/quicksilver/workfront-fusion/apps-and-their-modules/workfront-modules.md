@@ -9,10 +9,10 @@ description: Vous pouvez utiliser le connecteur Adobe Workfront Fusion Adobe 
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '6518'
+ht-degree: 98%
 
 ---
 
@@ -744,7 +744,7 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouv
 
 +++ **[!UICONTROL Charger le document]**
 
-Ce module d’action charge un document vers un objet [!DNL Workfront] (projet, tâche ou problème, par exemple).
+Ce module d’action télécharge un document vers un objet [!DNL Workfront], tel qu’un projet, une tâche ou un problème. Ce module charge le document par blocs, ce qui rend le processus de chargement plus fluide pour Workfront.
 
 Indiquez l’emplacement du document, le fichier à charger et éventuellement un nouveau nom pour le fichier.
 
@@ -767,6 +767,51 @@ Lorsque vous configurez ce module, les champs suivants s’affichent.
   <tr> 
    <td>[!UICONTROL Related Record Type]</td> 
    <td>Sélectionnez le type d’enregistrement [!DNL Workfront] où le module doit charger le document.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Folder ID]</td> 
+   <td>Selon le type d’enregistrement associé, vous devrez peut-être saisir ou mapper un ID de dossier.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Source file]</td> 
+   <td> <p>Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom et les données du fichier source.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouvez utiliser ce module dans les types d’objet [[!DNL Workfront]  disponibles pour chaque module  [!DNL Workfront] ](#workfront-object-types-available-for-each-workfront-module).
+
++++
+
++++ **[!UICONTROL Télécharger le document (hérité)]**
+
+Ce module d’action télécharge un document vers un objet [!DNL Workfront], tel qu’un projet, une tâche ou un problème. Il télécharge l’intégralité du document à la fois.
+
+Indiquez l’emplacement du document, le fichier à charger et éventuellement un nouveau nom pour le fichier.
+
+Le module renvoie l’ID du document et des champs associés, ainsi que les valeurs et les champs personnalisés auxquels la connexion a accès. Vous pouvez mettre en correspondance ces informations dans les modules suivants du scénario.
+
+Lorsque vous configurez ce module, les champs suivants s’affichent.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], voir <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connecter [!DNL Workfront] à [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Related Record ID]</td> 
+   <td>Saisissez l’ID [!DNL Workfront] unique de l’enregistrement dans lequel charger le document.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Related Record Type]</td> 
+   <td>Sélectionnez le type d’enregistrement [!DNL Workfront] où le module doit charger le document.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Folder ID]</td> 
+   <td>Selon le type d’enregistrement associé, vous devrez peut-être saisir ou mapper un ID de dossier.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
