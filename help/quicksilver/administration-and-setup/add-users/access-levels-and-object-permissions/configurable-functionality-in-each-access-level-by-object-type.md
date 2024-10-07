@@ -5,16 +5,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '3436'
-ht-degree: 99%
+source-wordcount: '3485'
+ht-degree: 97%
 
 ---
 
 # Accès configurable aux fonctionnalités pour chaque type d’objet
 
-Cet article explique ce que vous pouvez autoriser en tant qu’administrateur ou administratrice Adobe Workfront pour chaque type d’objet, à chaque niveau d’accès. Il explique également quelle est la configuration par défaut pour chaque type de niveau d’accès.
+Lors de la configuration d’un niveau d’accès pour votre organisation, vous pouvez déterminer les actions spécifiques disponibles pour le niveau d’accès.
+
+Cet article explique les options qu’un administrateur Adobe Workfront peut sélectionner pour chaque type d’objet, à chaque niveau d’accès. Il explique également quelle est la configuration par défaut pour chaque type de niveau d’accès.
+
+Par exemple, si un administrateur Workfront sélectionne &quot;Afficher&quot; pour les projets d’un niveau d’accès donné, les utilisateurs disposant de ce niveau d’accès pourront uniquement afficher les projets et non les modifier.
 
 Pour plus d’informations sur toutes les fonctionnalités disponibles pour un type d’objet à chaque niveau d’accès, voir [Fonctionnalités disponibles pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 

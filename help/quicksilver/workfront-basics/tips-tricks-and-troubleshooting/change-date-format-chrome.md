@@ -6,10 +6,10 @@ title: Modifier le format des dates dans  [!DNL Adobe Workfront]
 description: Pour modifier le format des dates dans  [!DNL Adobe Workfront] , vous devez modifier les paramètres de langue dans votre navigateur.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: ba67bb2a77247a1cbface139e3ec0afeced65aa3
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '416'
+ht-degree: 85%
 
 ---
 

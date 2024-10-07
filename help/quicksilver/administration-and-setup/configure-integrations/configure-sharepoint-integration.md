@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 99%
+source-wordcount: '1729'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,11 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->La nouvelle intégration [!DNL SharePoint] a été publiée en production avec la version 22.3 (juillet 2022). Bien que vos utilisateurs et utilisatrices puissent toujours accéder aux documents liés par l’intermédiaire de l’intégration [!DNL SharePoint] héritée, ils doivent utiliser la nouvelle intégration [!DNL SharePoint] pour lier des documents à partir de SharePoint.
+>La nouvelle intégration [!DNL SharePoint] a été publiée en production avec la version 22.3 (juillet 2022).
+>
+>* Bien que vos utilisateurs puissent toujours accéder aux documents liés par l’intégration [!DNL SharePoint] héritée, ils ne peuvent pas les lier par le biais de celle-ci. ils doivent utiliser la nouvelle intégration [!DNL SharePoint] pour lier des documents depuis SharePoint.
+>
+>* Si aucune intégration SharePoint héritée n’est configurée, vous ne pouvez pas l’ajouter. Vous devez utiliser la nouvelle intégration SharePoint pour lier des documents à SharePoint.
 >
 >* La nouvelle intégration SharePoint peut ne pas nécessiter une configuration par un administrateur ou une administratrice et peut être configurée par des personnes individuelles. Toutefois, pour garantir une transition en douceur vers la nouvelle intégration de SharePoint, un administrateur ou une administratrice Workfront doit apporter quelques modifications mineures aux paramètres dans la zone Configuration de Workfront.
 >
