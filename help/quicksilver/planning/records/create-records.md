@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 35%
+source-wordcount: '1512'
+ht-degree: 34%
 
 ---
 
@@ -23,13 +23,11 @@ Dans Adobe Workfront Planning, un enregistrement est une instance d’un type 
 
 Vous pouvez créer des enregistrements en effectuant l’une des opérations suivantes :
 
-* Ajout d’enregistrements de la page de type enregistrement dans la vue de tableau
-* Copier et coller une liste d&#39;enregistrements d&#39;une liste externe
-* Duplication d’enregistrements depuis une vue de tableau
-* Créer des enregistrements lors de leur connexion à partir d&#39;autres enregistrements
-* Créez-les en envoyant un formulaire de demande à un type d’enregistrement.
-
-Cet article décrit comment créer des enregistrements.
+* [Ajout d’enregistrements de la page de type enregistrement dans la vue de tableau](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Copier et coller une liste d&#39;enregistrements d&#39;une liste externe](#create-records-by-copying-and-pasting-them-from-an-external-list)
+* [Duplication d’enregistrements depuis une vue de tableau](#create-records-by-duplicating-them)
+* [Créer des enregistrements lors de leur connexion à partir d&#39;autres enregistrements](#create-records-as-you-connect-them)
+* [Créez-les en envoyant un formulaire de demande à un type d’enregistrement.](#create-records-by-submitting-a-request-form-to-a-record-type)
 
 Pour plus d’informations sur la gestion des enregistrements dans les vues « Tableau » ou « Chronologie », consultez les articles suivants :
 
@@ -106,62 +104,6 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </table>
 
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-<!--OLD info: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p>  
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
 
@@ -305,6 +247,15 @@ Pour créer des enregistrements lors de leur connexion à partir d&#39;autres en
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    L’enregistrement est créé et ajouté au champ d’enregistrement connecté.
+
+   >[!IMPORTANT]
+   >
+   >* Vous pouvez créer uniquement des projets et des portefeuilles dans Workfront lors de la connexion à partir d’un enregistrement.
+   >
+   >* Vous ne pouvez pas créer de programmes, de groupes ou d’entreprises lors de leur connexion à partir d’un enregistrement dans Workfront Planning.
+   >
+   >* Vous ne pouvez pas créer de projet à partir d’un modèle lorsque vous créez des projets en les connectant à partir d’un enregistrement. Vous devez ajouter manuellement des tâches et des informations sur le projet ou un modèle au nouveau projet après l’avoir ajouté à l’enregistrement.
+
 1. (Facultatif) Accédez à la vue table du type d’enregistrement dont vous avez créé l’enregistrement. Un nouvel enregistrement s’affiche dans la dernière ligne de la vue.
 1. (Facultatif) Commencez à ajouter des informations pour le nouvel enregistrement dans la vue de tableau.
 Ou

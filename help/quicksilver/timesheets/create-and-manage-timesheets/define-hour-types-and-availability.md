@@ -1,19 +1,21 @@
 ---
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
-title: Définition des types d’heures et de la disponibilité
+title: Définition des types d’heure et de la disponibilité
 description: Un type d’heure est une étiquette qui vous permet de classer les heures saisies par catégorie. Selon les exigences de votre organisation en matière de rapports sur les heures, il peut s’agir d’un élément essentiel de la consignation des heures.
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 52%
+source-wordcount: '1509'
+ht-degree: 43%
 
 ---
 
 # Définition des types d’heures et de la disponibilité
+
+<!--Audited: 10/2024-->
 
 Un type d’heure est une étiquette qui vous permet de classer les heures saisies par catégorie. Selon les exigences de votre organisation en matière de rapports sur les heures, il peut s’agir d’un élément essentiel de la consignation des heures.
 
@@ -34,6 +36,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
+Pour effectuer les étapes décrites dans cet article, vous devez disposer des droits d’accès et des autorisations suivants :
+
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -41,15 +45,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan ou supérieure</p> </td> 
+   <td> <p>Nouveau : Standard</p> 
+   <p>Actuel : formule</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès d’administrateur ou administratrice système pour définir les types d’heures à l’échelle du système et pour modifier tous les utilisateurs et utilisatrices</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +65,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-&#42;Pour connaître votre plan ou votre type de licence, contactez l’administration de Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,24 +78,32 @@ L’administrateur ou l’administratrice système détermine les types d’heur
 La personne propriétaire du projet détermine si tous les types d’heures définis au niveau du système sont disponibles sur le projet (et les tâches et problèmes au sein du projet), ou si seul un sous-ensemble de ces types d’heures est disponible.
 
 1. Accédez au projet dans lequel vous souhaitez déterminer la disponibilité des types d’heures.
-1. Cliquez sur le menu **Plus** en regard du nom de la tâche, puis cliquez sur **Modifier**.
+1. Cliquez sur le menu **Plus** en regard du nom du projet dans l’en-tête, puis cliquez sur **Modifier**.
+La zone **Modifier le projet** s’ouvre.
 
-1. Cliquez sur **Modifier le projet**.
-1. Dans la section **Paramètres**, localisez l’option **Filtrer les types d’heures**.
+1. Dans la section **Paramètres du projet**, recherchez le paramètre **Filtrer les types d’heure** .
 
 1. Sélectionnez **Non** pour rendre tous les types d’heures spécifiques au projet disponibles dans le projet.
 
    Ou
 
-   Sélectionnez **Oui** pour n’afficher qu’un sous-ensemble des types d’heures spécifiques au projet, puis sélectionnez les types d’heures à rendre disponibles. (Maintenez la touche Maj enfoncée pour sélectionner plusieurs types d’heures.)
+   Sélectionnez **Oui** pour n’afficher qu’un sous-ensemble des types d’heures spécifiques au projet, puis sélectionnez les types d’heures à rendre disponibles.
 
-   Si vous sélectionnez cette option, seuls les types d’heures que vous avez sélectionnés seront disponibles lors de l’enregistrement des heures sur le projet (ou sur les tâches et les problèmes au sein du projet). Si vous sélectionnez cette option et que vous ne sélectionnez aucun type d’heure, le projet n’affiche que les types d’heure généraux.
+   Maintenez la touche Maj enfoncée pour sélectionner plusieurs types d’heures.
 
-   Les mêmes sélections doivent être effectuées au niveau de la personne individuelle pour que l’utilisateur ou l’utilisatrice puisse voir ces options de type d’heure sur le projet.
+   >[!NOTE]
+   >
+   >   Tenez compte des points suivants :
+   >   
+   >   * Si vous sélectionnez **Oui**, seuls les types d’heures que vous sélectionnez sont disponibles pour la sélection lors de la journalisation des heures sur le projet (ou sur les tâches et problèmes dans le projet).
+   >   
+   >   * Si vous sélectionnez **Oui** et que vous ne sélectionnez aucun type d’heure, le projet n’affiche que les types d’heure généraux.
+   >
+   >   * Les mêmes sélections doivent être effectuées au niveau de la personne individuelle pour que l’utilisateur ou l’utilisatrice puisse voir ces options de type d’heure sur le projet.
+   >
+   >   * Lorsque le type d’heure par défaut de l’utilisateur et un type d’heure filtré de projet correspondent, ce type d’heure est sélectionné par défaut lors de l’heure de journalisation.
 
-   Lorsque le type d’heure par défaut de l’utilisateur et un type d’heure filtré de projet correspondent, ce type d’heure est sélectionné par défaut lors de l’heure de journalisation.
-
-1. Cliquez sur **Enregistrer les modifications**.
+1. Cliquer sur **Enregistrer**.
 
 ## Définition de la disponibilité au niveau de l’utilisateur
 
@@ -99,12 +113,21 @@ Si vous rendez un type d’heure disponible au niveau de l’utilisateur ou de l
 
 Pour définir les types d’heure disponibles pour un utilisateur ou une utilisatrice, procédez comme suit :
 
-1. Cliquez sur l’icône **Menu princiapl** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur l’avatar de l’utilisateur dans le coin supérieur gauche.
 
-1. Cliquez sur votre avatar d’utilisateur ou d’utilisatrice dans le coin supérieur gauche.
+   Ou
+
+   Cliquez sur l’icône **Menu principal** ![](assets/adobe-main-menu.png) dans le coin supérieur droit, le cas échéant, puis cliquez sur **Profil Workfront**.
+
 1. Cliquez sur le menu **Plus** en regard du nom d’utilisateur ou d’utilisatrice, puis cliquez sur **Modifier**.
 
-1. Seul un administrateur ou une administratrice système peut modifier les autres utilisateurs et utilisatrices. Si vous disposez d’une licence de plan, vous pouvez modifier les types d’heures sur votre propre profil.
+   La zone **Modifier la personne** s’ouvre.
+
+   >[!IMPORTANT]
+   >
+   >Seul un administrateur ou une administratrice système peut modifier les autres utilisateurs et utilisatrices. Si vous disposez d’une licence de plan, vous pouvez modifier les types d’heures sur votre propre profil.
+
+
 1. Dans la section **Planification des ressources**, dans le menu déroulant **Types d’heures disponibles**, effectuez l’une des opérations suivantes, en fonction des types d’heures que vous souhaitez rendre disponibles lors de la consignation de temps pour un projet, une tâche ou un problème :
 
    * **Pour rendre tous les types d’heure disponibles pour l’utilisateur :** sélectionnez tous les types d’heure.\
@@ -119,8 +142,7 @@ Pour définir les types d’heure disponibles pour un utilisateur ou une utilisa
 
 1. Cliquez sur **Enregistrer les modifications**.
 
-   Désormais, lorsque vous consignez le temps pour un projet, une tâche ou un problème, les types d’heures que vous sélectionnez sont disponibles si ces mêmes types d’heures ont été rendus disponibles au niveau du projet.
-
+   Désormais, lorsque vous connectez les heures sur un projet, une tâche ou un problème, les types d’heures que vous sélectionnez sont disponibles si ces mêmes types d’heures ont été rendus disponibles au niveau du projet.
 
 ## Fonctionnement des types d’heures au niveau de l’utilisateur ou de l’utilisatrice et au niveau du projet
 

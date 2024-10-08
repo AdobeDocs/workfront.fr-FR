@@ -6,10 +6,10 @@ description: Votre personne chargée de l’administration d’Adobe Workfront 
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1954'
-ht-degree: 100%
+source-wordcount: '1971'
+ht-degree: 92%
 
 ---
 
@@ -51,11 +51,22 @@ Pour plus d’informations sur le partage de tous les autres objets dans Workfro
 * Pour les dossiers de documents, voir [Partager un dossier de documents](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 * Pour les plans, voir [Partage d’un plan dans le planificateur de scénarios](../../scenario-planner/share-a-plan.md).
 
-  Cette fonction nécessite une licence supplémentaire.
+  Le planificateur de scénario Workfront peut nécessiter une licence supplémentaire.
 
-* Pour les objectifs, voir [Partager un objectif dans les Objectifs Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md). Cette fonction nécessite une licence supplémentaire.
+* Pour les objectifs, voir [Partage d’un objectif dans les objectifs Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+
+  Les objectifs de Workfront peuvent nécessiter une licence supplémentaire.
+
+* Pour les objets de planification Workfront, reportez-vous aux articles suivants :
+
+   * [Partager des affichages](/help/quicksilver/planning/access/share-views.md)
+   * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
+
+  L’accès à Workfront Planning nécessite une licence supplémentaire.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Pour partager des objets, vous devez disposer des éléments suivants :
 
@@ -85,7 +96,9 @@ Pour partager des objets, vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-* Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Partager un projet, une tâche ou un problème à partir de sa page
 
@@ -176,7 +189,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    Cliquez sur le bouton **Partager** en regard du nom de l’objet.
 
-   ![](assets/new-share-button.png)
+   ![](assets/new-share-button-on-portfolio.png)
 
    Ou
 
@@ -186,20 +199,15 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    ![](assets/share-a-document-350x160.png)
 
-1. Dans la zone **Accorder l’accès à &lt; nom de l’objet > à**, commencez à saisir le nom de l’utilisateur ou de l’utilisatrice, de l’équipe, du rôle, du groupe ou de la société avec qui vous souhaitez partager l’objet, puis cliquez sur le nom qui s’affiche dans la liste déroulante.
+1. Dans le champ **Accorder l’accès à &lt; Nom de l’objet >** , commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager l’objet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
-   ![](assets/list-share-add-people.png){width="350"}
-
-   >[!TIP]
-   >
-   >Vous pouvez partager un objet uniquement avec des utilisateurs et utilisatrices, des équipes, des rôles ou des entreprises actifs.
-
-
+   ![](assets/portfolio-access-box.png)
 
    >[!TIP]
    >
-   >Si plusieurs entités sont nommées de la même manière, elles sont toutes répertoriées sous leur type. Les noms des entités s’affichent par ordre alphabétique. Cependant, l’ordre dans lequel les types d’entité apparaissent est aléatoire.
+   >* Si plusieurs entités sont nommées de la même manière, elles sont toutes répertoriées sous leur type. Les noms des entités s’affichent par ordre alphabétique. Cependant, l’ordre dans lequel les types d’entité apparaissent est aléatoire.
    >
+   >* Vous pouvez partager un objet uniquement avec des utilisateurs et utilisatrices, des équipes, des rôles ou des entreprises actifs.
 
 1. (Facultatif) Répétez l’étape 3 pour chaque utilisateur ou utilisatrice, équipe, rôle ou groupe pour qui vous souhaitez accorder l’accès à l’objet.
 
@@ -216,14 +224,12 @@ Pour partager des objets, vous devez disposer des éléments suivants :
      >
      >L’administrateur ou l’administratrice Workfront ou le créateur ou la créatrice d’objets peut supprimer des autorisations de ces entités.
 
-     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
 
 1. (Facultatif) Cliquez sur **Paramètres avancés** pour configurer des autorisations spécifiques sur l’objet.
 
-   Les niveaux d’affichage, de gestion et de contribution ont différentes options avancées selon l’objet sélectionné.\
+   Les options d’affichage et de gestion des autorisations sont différentes selon l’objet sélectionné.\
    Pour plus d’informations sur les niveaux d’autorisation, voir [Vue d’ensemble du partage des autorisations sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (Facultatif) Pour rendre cet objet disponible pour l’ensemble des utilisateurs et utilisatrices du système, cliquez sur l’icône **Engrenage** ![](assets/gear-icon-settings-with-dn-arrow.jpg), puis, dans le menu déroulant, cliquez sur **Rendre ceci visible sur tout le système**.
 
@@ -249,25 +255,26 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
 ## Partager des objets uniques ou en masse à partir d’une liste
 
-1. Accédez à la liste contenant le ou les objets que vous souhaitez partager.
+1. Accédez à la liste contenant les objets que vous souhaitez partager.
 
    Pour plus d’informations sur les objets qui peuvent être partagés, voir [Vue d’ensemble des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. Cochez la case en regard du ou des objets que vous souhaitez partager, puis cliquez sur l’**icône Partager** ![](assets/share-icon.png) en haut de la page.
 
+   La zone **&lt; Objet > Accès** s’ouvre.
+
    ![](assets/list-share-object-select.png){width="350"}
 
-1. Dans la fenêtre **Accès à &lt; Objet >** qui s’affiche, commencez à saisir dans la zone **Modifier l’accès à &lt; Nom de l’objet > pour** le nom de l’utilisateur, de l’utilisatrice, de l’équipe, du rôle, du groupe ou de la société avec qui partager le ou les objets, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans la zone **Modifier le nom de l’objet > accéder à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager les objets, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
-   >Vous pouvez partager un objet uniquement avec des utilisateurs et utilisatrices, des équipes, des rôles ou des entreprises actifs.
-
-   >[!TIP]
+   >* Vous pouvez partager un objet uniquement avec des utilisateurs et utilisatrices, des équipes, des rôles ou des entreprises actifs.
    >
-   >Si plusieurs entités sont nommées de la même manière, elles sont toutes répertoriées sous leur type. Les noms des entités s’affichent par ordre alphabétique. Cependant, l’ordre dans lequel les types d’entité apparaissent est aléatoire.
+   >
+   >* Si plusieurs entités sont nommées de la même manière, elles sont toutes répertoriées sous leur type. Les noms des entités s’affichent par ordre alphabétique. Cependant, l’ordre dans lequel les types d’entité apparaissent est aléatoire.
    >
 
 1. (Facultatif) Répétez l’étape 3 pour chaque utilisateur ou utilisatrice, équipe, rôle ou groupe pour qui vous souhaitez accorder l’accès aux objets.
