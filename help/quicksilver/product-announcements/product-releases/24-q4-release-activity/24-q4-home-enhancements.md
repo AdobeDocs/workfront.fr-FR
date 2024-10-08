@@ -4,10 +4,10 @@ description: Améliorations apportées à la page d’accueil (quatrième trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0d2bb434b1b52ea175ad912c554b4aa07d5d2f7d
+source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 23%
+source-wordcount: '334'
+ht-degree: 22%
 
 ---
 
@@ -43,7 +43,10 @@ Pour plus d’informations, voir [Prise en main des priorités](/help/quicksilve
 
 Nous abandonnerons officiellement l’expérience héritée d’accueil avec la version 24.10.
 
-Avec cette modification, la zone _Accueil et résumé_ du modèle de mise en page sera renommée _Panneau de résumé_. Les personnalisations dans cette zone s’appliqueront toujours au panneau Résumé dans la nouvelle page d’accueil. Pour plus d’informations, voir [Personnaliser l’accueil et le résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Grâce à cette modification, les zones suivantes du modèle de mise en page seront renommées :
+
+* La zone _Home workspace_ sera renommée _Home_.
+* La zone _Accueil et résumé_ sera renommée _Panneau récapitulatif_. Les personnalisations dans cette zone s’appliqueront toujours au panneau Résumé dans la nouvelle page d’accueil. Pour plus d’informations, voir [Personnaliser l’accueil et le résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 Nous vous recommandons de commencer à utiliser la nouvelle page d’accueil, qui continuera à être enrichie de fonctionnalités supplémentaires avant l’obsolescence. Pour plus d’informations sur la transition, y compris des conseils sur ce que les utilisateurs et les administrateurs peuvent faire pour se préparer, consultez le [Guide d’obsolescence de la page d’accueil héritée](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
 

@@ -6,10 +6,10 @@ description: La [!UICONTROL Liste de travail] de la zone [!UICONTROL Accueil] af
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
 workflow-type: tm+mt
-source-wordcount: '1837'
-ht-degree: 100%
+source-wordcount: '1843'
+ht-degree: 99%
 
 ---
 
@@ -94,6 +94,7 @@ Vous pouvez filtrer les éléments de la [!UICONTROL Liste de travail] pour affi
         <p>Affiche uniquement les tâches qui sont prêtes à être démarrées. Les deux affirmations suivantes doivent être vraies :</p> 
         <ul> 
          <li> <p>Les tâches et leurs parents n’ont pas de tâches/parents antérieurs ou de contraintes de tâches qui les empêchent d’être traités.</p> </li> 
+         <li> <p>Toutes les tâches du prédécesseur ont été terminées.</p> </li> 
          <li> <p>La [!UICONTROL Planned Start Date] des tâches se situe dans le passé ou jusqu’à deux semaines dans le futur.</p> </li> 
         </ul> 
        </div> </td> 

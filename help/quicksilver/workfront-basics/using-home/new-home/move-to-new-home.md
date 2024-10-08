@@ -5,9 +5,9 @@ title: Passage de la page d’accueil héritée à la nouvelle page d’accueil
 description: La page d’accueil héritée sera supprimée de Workfront le 10/17 avec la version Q4. Cet article fournit des informations sur les fonctionnalités qui seront disponibles dans la nouvelle page d’accueil, ainsi que des recommandations pour déplacer les utilisateurs vers l’expérience de nouvelle page d’accueil.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
+source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1641'
 ht-degree: 33%
 
 ---
@@ -271,6 +271,7 @@ Cela donnera dès que possible à vos utilisateurs le temps de s’adapter à la
 
 **Formation**
 
+* [Tutoriel sur la suppression, l’ajout et la réorganisation de widgets dans le didacticiel Accueil](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Principes de traitement dans Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
