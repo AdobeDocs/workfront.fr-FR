@@ -2,16 +2,15 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Établir une connexion au lac de données Workfront
-description: Le lac de données Workfront vous permet d’utiliser les données Workfront de votre entreprise avec les outils de renseignements commerciaux les plus courants ou de les stocker dans un entrepôt de données externe.
+title: Établissement d’une connexion à Workfront Data Connect
+description: Workfront Data Connect vous permet d’utiliser les données Workfront de votre entreprise avec des outils de Business Intelligence ou de les stocker dans un entrepôt de données externe.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 10%
+source-wordcount: '591'
+ht-degree: 9%
 
 ---
 
@@ -103,16 +102,16 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Partage de données avec les outils de Business Intelligence
 
-Vous trouverez ci-dessous un certain nombre d’outils de Business Intelligence courants ; les liens vous conduiront au site de documentation du service pour en savoir plus sur la connexion à votre lac de données.
+Vous trouverez ci-dessous un certain nombre d’outils de Business Intelligence courants ; consultez leurs sites de documentation pour en savoir plus sur la connexion à votre lac de données.
 
-* [Tableau](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
-* [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
-* [Domo](https://www.domo.com/appstore/connector/snowflake-connector/overview)
+* Tableau
+* Power BI
+* Domo
 * SAP HANA
 
 ## Stockage des données dans un entrepôt de données externe
 
-Vous trouverez ci-dessous un certain nombre d’entrepôts de données courants. Les liens vous conduiront au site de documentation de chaque service, où vous pourrez en savoir plus sur la connexion à votre lac de données.
+Vous trouverez ci-dessous un certain nombre d’entrepôts de données courants. Consultez leurs sites de documentation pour en savoir plus sur la connexion à votre lac de données.
 
-* [Databricks](https://docs.databricks.com/en/connect/index.html)
-* [AWS Redshift](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)
+* Balises de données
+* AWS Redshift

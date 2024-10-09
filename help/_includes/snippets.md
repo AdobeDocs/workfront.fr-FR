@@ -1,8 +1,8 @@
 ---
-source-git-commit: 385dbe63d0db9b13692fb6f5c78ed56bd0d823c4
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '2550'
-ht-degree: 94%
+source-wordcount: '2586'
+ht-degree: 93%
 
 ---
 # Extraits de code
@@ -154,6 +154,10 @@ Pour configurer les dossiers liés, procédez comme suit :
 >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
 >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit de la page, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]**![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Accueil]**.
 >
+
+## Étape 1 - Atteindre les priorités - {#step1-to-priorities}
+
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Priorités]**.
 
 <!-- Integrations -->
 
