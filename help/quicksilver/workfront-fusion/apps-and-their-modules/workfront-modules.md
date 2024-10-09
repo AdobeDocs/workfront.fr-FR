@@ -9,10 +9,10 @@ description: Vous pouvez utiliser le connecteur Adobe Workfront Fusion Adobe 
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3fde10cfa0428971b289a9de57cf49e24a15a0e8
+source-git-commit: 38b6fef43157f47c93dcd9cf543f1001142d86dd
 workflow-type: tm+mt
-source-wordcount: '6558'
-ht-degree: 97%
+source-wordcount: '6621'
+ht-degree: 96%
 
 ---
 
@@ -138,6 +138,9 @@ Vous pouvez créer une connexion à votre compte [!DNL Workfront] directement de
 >   Pour plus d’informations sur SSO, voir [Vue d’ensemble de l’authentification unique dans  [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 >   
 >* Les connexions OAuth 2.0 à l’API [!DNL Workfront] ne dépendent plus des clés API.
+>* Pour créer une connexion à un environnement Sandbox Workfront, vous devez créer une application OAuth2 dans cet environnement, puis utiliser l’identifiant du client et le secret client générés par cette application dans votre connexion.
+>
+>   Pour plus d’informations sur la création d’une application OAuth2 dans Workfront, voir [Création d’une application OAuth2 à l’aide des informations d’identification de l’utilisateur (flux de code d’autorisation)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) dans l’article Création d’applications OAuth2 pour les intégrations Workfront.
 
 ## Modules [!DNL Workfront] et leurs champs
 
