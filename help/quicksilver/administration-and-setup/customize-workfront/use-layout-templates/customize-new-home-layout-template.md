@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 21e81e6395680e3ea7ffd05424217e5352fff0f6
+source-git-commit: 7bae31a9454c88bd0e5525f4b4d11cd9e76ccd39
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '827'
 ht-degree: 81%
 
 ---
@@ -145,7 +145,6 @@ Pour personnaliser la nouvelle page d’accueil à l’aide d’un modèle de mi
 
    Si vous avez terminé de le personnaliser, cliquez sur **Enregistrer** en bas à gauche.
 
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Les administrateurs qui personnalisent leur propre modèle de mise en page devront actualiser la page pour afficher les modifications.
+>Vous devez actualiser la nouvelle page d’accueil pour afficher les personnalisations à partir du modèle de mise en page.
