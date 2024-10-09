@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '2102'
-ht-degree: 56%
+ht-degree: 55%
 
 ---
 
@@ -181,9 +181,9 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  Pour plus d’informations, consultez [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+  Pour plus d’informations, voir la section [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-* **Type d’enregistrement** : type d’objet ou Workfront Planning.
+* **Type d’enregistrement** : type d’objet de Workfront Planning.
 
   Contrairement à Workfront, où les types d’objets sont prédéfinis, dans Workfront Planning, vous pouvez créer vos propres types d’objets.
 
@@ -199,9 +199,9 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   Après avoir ajouté un type d’enregistrement à un espace de travail, vous pouvez commencer à ajouter des enregistrements de ce type sur la page du type d’enregistrement.
 
-  Par exemple, « Campagne » peut être un type d’enregistrement et « Campagne d’été pour la région EMEA » un enregistrement du type d’enregistrement Campagne.
+  Par exemple, &quot;Campagne&quot; peut être un type d’enregistrement et &quot;Campagne d’été pour la région EMEA&quot; un enregistrement du type d’enregistrement Campaign.
 
-  Pour plus d’informations, consultez [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+  Pour plus d’informations, voir la section [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
 * **Modèle d’espace de travail** : vous pouvez créer un espace de travail à l’aide de modèles prédéfinis. Vous pouvez utiliser les types d’enregistrements et les champs prédéfinis qui se trouvent dans un modèle, ou bien ajouter les vôtres.
 
