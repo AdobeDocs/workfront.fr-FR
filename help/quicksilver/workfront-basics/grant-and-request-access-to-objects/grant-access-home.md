@@ -6,10 +6,10 @@ description: Les utilisateurs et utilisatrices peuvent demander l’accès aux o
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,7 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 
 1. (Le cas échéant) Dans la nouvelle zone d’accueil, procédez comme suit :
 
-   1. Accédez au widget **En attente de mon approbation** et recherchez la demande d’accès supplémentaire, puis cliquez sur **Accorder l’accès**.
+   1. Accédez au widget **Ma validation** et recherchez la demande d’accès plus poussé, puis cliquez sur **Accorder l’accès**.
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 

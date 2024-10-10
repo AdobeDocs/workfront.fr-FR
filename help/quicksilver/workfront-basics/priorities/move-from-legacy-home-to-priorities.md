@@ -5,10 +5,10 @@ description: La page d’accueil héritée sera supprimée de Workfront le 10/17
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 6%
+source-wordcount: '564'
+ht-degree: 5%
 
 ---
 
@@ -80,13 +80,13 @@ Les utilisateurs peuvent marquer les tâches prioritaires avec les options suiva
 
 #### Afficher les validations que j’ai envoyées
 
-Les utilisateurs ne peuvent pas afficher les validations qu’ils ont soumises dans Priorités. Pour pallier ce problème, les utilisateurs peuvent créer un rapport d’approbation afin d’afficher ces informations.
+Les utilisateurs ne peuvent pas afficher les validations qu’ils ont soumises dans Priorités. Pour pallier ce problème, les utilisateurs peuvent consulter ces informations dans le widget Mes approbations de la page d’accueil à l’aide de l’option de filtre Validations que j’ai envoyées .
 
 ### Afficher les approbations et les demandes de l’équipe
 
 Les utilisateurs ne peuvent pas interagir avec les approbations et les demandes de l’équipe dans les priorités. Cependant, ils peuvent gérer les demandes d’approbation et d’équipe dans la nouvelle page d’accueil à l’aide des widgets suivants :
 
-* En attente de mon approbation
+* Mon approbation
 * Toutes les approbations
 * Demandes de l’équipe
 

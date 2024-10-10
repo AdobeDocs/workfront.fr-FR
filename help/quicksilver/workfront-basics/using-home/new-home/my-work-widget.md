@@ -5,10 +5,10 @@ title: Gérer votre travail avec le widget Mon travail
 description: Le widget Mon travail affiche à un seul endroit toutes les tâches, tous les problèmes et toutes les requêtes qui vous sont assignés. Ici, vous pouvez filtrer et organiser votre travail, consigner le temps, effectuer des mises à jour et marquer les tâches comme terminées.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 20791e9f2cc0716b9b0ddd8f98c31ae0bea7ff45
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 15%
+source-wordcount: '703'
+ht-degree: 14%
 
 ---
 
@@ -185,7 +185,7 @@ Pour localiser le menu des actions rapides, passez la souris sur l’élément d
 
 Les approbations et les demandes de l’équipe ne s’affichent pas dans le widget Mon travail. Si vous travaillez régulièrement avec les approbations et les demandes de l’équipe, nous vous recommandons d’ajouter les widgets suivants à votre page d’accueil :
 
-* En attente de mon approbation
+* Mon approbation
 * Toutes les approbations
 * Demandes de l’équipe
 

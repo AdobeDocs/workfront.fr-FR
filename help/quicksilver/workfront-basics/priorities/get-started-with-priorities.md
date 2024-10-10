@@ -5,9 +5,9 @@ description: Les priorités sont une expérience simple et intuitive, adaptée a
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 8%
 
 ---
@@ -176,7 +176,7 @@ Vous pouvez incorporer des liens fréquemment utilisés dans la page de détails
 
 La possibilité de passer en revue et d’approuver les ressources figure sur la feuille de route Priorités .
 
-Pour l’instant, nous vous recommandons d’utiliser le widget En attente de mon approbation et de toutes les approbations dans la nouvelle page d’accueil.
+Pour l’instant, nous vous recommandons d’utiliser les widgets Mon approbation et Toutes les approbations dans Nouvelle page d’accueil.
 
 Pour plus d’informations, voir [Ajout, modification ou suppression de widgets dans Nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 

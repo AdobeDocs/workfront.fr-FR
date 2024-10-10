@@ -5,10 +5,10 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f69cbb95-e7fe-4f8f-a7e7-7693c968e76c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 95%
 
 ---
 
@@ -32,13 +32,13 @@ Pour plus d’informations sur les widgets disponibles dans la nouvelle page d�
 
 ## Nouvelle page de destination par défaut du contributeur ou de la contributrice : nouvelle page d’accueil
 
-La nouvelle page d’accueil est désormais la page de destination par défaut pour les comptes des personnes qui contribuent ou émettent des requêtes. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécialement sélectionnés pour permettre aux contributeurs et aux contributrices de gérer leur travail immédiatement. Lors de leur première visite sur la page, les contributeurs et contributrices recevront également des instructions sur l’utilisation de la nouvelle page d’accueil et des widgets spécifiques disponibles par défaut dans le cadre d’une présentation personnalisée. Les widgets par défaut pour les contributeurs et les contributrices sont les suivants : Mes demandes, Mentions, En attente de mon approbation et Panoramas. Notez que si une disposition avec une page d’accueil personnalisée est actuellement utilisée par un compte de contributeur ou de contributrice, elle restera sa page d’accueil.
+La nouvelle page d’accueil est désormais la page de destination par défaut pour les comptes des personnes qui contribuent ou émettent des requêtes. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécialement sélectionnés pour permettre aux contributeurs et aux contributrices de gérer leur travail immédiatement. Lors de leur première visite sur la page, les contributeurs et contributrices recevront également des instructions sur l’utilisation de la nouvelle page d’accueil et des widgets spécifiques disponibles par défaut dans le cadre d’une présentation personnalisée. Ces widgets par défaut pour les contributeurs sont les suivants : Mes requêtes, Mentions, Mon approbation et Panoramas. Notez que si une disposition avec une page d’accueil personnalisée est actuellement utilisée par un compte de contributeur ou de contributrice, elle restera sa page d’accueil.
 
 Pour plus d’informations sur l’utilisation de la nouvelle page d’accueil, voir [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Changements dans le suivi du travail dans la nouvelle page d’accueil
 
-Pour répondre aux commentaires des utilisateurs et des utilisatrices,le filtre de période à l’échelle de la page et la barre de résumé des tâches dues et terminées ont été supprimés. Les widgets Projet, Tâche et Problème sont tous dotés de fonctions de filtrage intégrées qui vous permettent de personnaliser leur portée au cas par cas. En outre, ces widgets n’incluront désormais que le contenu actuellement actif en fonction du statut, ce qui garantit que le travail qu’ils suivent est toujours pertinent. Nous avons également limité les widgets qui affichent des bulles de décompte d’éléments à ceux où cela est le plus utile : Mon travail, Mentions, En attente de mon approbation et À faire.
+Pour répondre aux commentaires des utilisateurs et des utilisatrices,le filtre de période à l’échelle de la page et la barre de résumé des tâches dues et terminées ont été supprimés. Les widgets Projet, Tâche et Problème sont tous dotés de fonctions de filtrage intégrées qui vous permettent de personnaliser leur portée au cas par cas. En outre, ces widgets n’incluront désormais que le contenu actuellement actif en fonction du statut, ce qui garantit que le travail qu’ils suivent est toujours pertinent. Nous avons également limité les widgets qui affichent les bulles de nombre d’éléments à ceux qui les plus utiles : Mon travail, Mentions, Mon approbation et Tâches.
 
 Pour plus d’informations sur le suivi du travail dans la nouvelle page d’accueil, voir [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

@@ -5,10 +5,10 @@ title: Passage de la page d’accueil héritée à la nouvelle page d’accueil
 description: La page d’accueil héritée sera supprimée de Workfront le 10/17 avec la version Q4. Cet article fournit des informations sur les fonctionnalités qui seront disponibles dans la nouvelle page d’accueil, ainsi que des recommandations pour déplacer les utilisateurs vers l’expérience de nouvelle page d’accueil.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '1641'
-ht-degree: 33%
+source-wordcount: '1596'
+ht-degree: 32%
 
 ---
 
@@ -51,12 +51,12 @@ Les utilisateurs peuvent toujours déléguer du travail à partir de la nouvelle
 * Mon travail
 * Mes tâches
 * Mes problèmes
-* En attente de mes approbations
+* Mes approbations
 
 Les utilisateurs peuvent trouver du travail qui leur est délégué dans les widgets suivants :
 
 * Mon widget de travail à l’aide du filtre Délégué à moi
-* En attente de mes validations à l’aide du filtre des validations déléguées
+* Mes validations à l’aide du filtre Approbations déléguées
 
 | **Page d’accueil héritée** | **New Home** |
 |------------|-----------|
@@ -72,10 +72,7 @@ Les utilisateurs ne peuvent plus créer de tâche personnelle exactement comme i
 
 #### Afficher les validations que j’ai envoyées
 
-Les utilisateurs ne peuvent pas afficher les validations qu’ils ont envoyées dans New Home. Si les utilisateurs de votre entreprise ont besoin de cette fonctionnalité, vous pouvez créer un rapport d’approbation comme solution de contournement, modifier ou publier un commentaire ici dans les publications de la communauté suivantes :
-
-* [ Ajoutez le widget &quot;Approbations que j’ai envoyées&quot; à la nouvelle page d’accueil ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
-* [ Ajoutez &quot;Approbations que j’ai envoyées&quot; au nouvel accueil ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+Les utilisateurs peuvent afficher les validations qu’ils ont soumises dans Nouvelle page d’accueil dans le widget Mes approbations à l’aide du filtre Validations que j’ai envoyées .
 
 #### Ajout d’éléments à ma priorité
 
@@ -131,7 +128,7 @@ Pour localiser le menu des actions rapides, passez la souris sur l’élément d
 
 Les utilisateurs peuvent toujours gérer les approbations et les demandes de l’équipe dans la nouvelle page d’accueil à l’aide des widgets suivants :
 
-* En attente de mon approbation
+* Mon approbation
 * Toutes les approbations
 * Demandes de l’équipe
 
@@ -167,7 +164,7 @@ Vous trouverez ci-dessous les 11 widgets actuellement disponibles, ainsi qu’un
 * **Demandes de l’équipe**\
     Affiche toutes les demandes en attente classées par équipe pour les équipes dont vous faites partie, ainsi que des boutons permettant d’attribuer directement une demande à un utilisateur ou à une utilisatrice ou d’y travailler soi-même.
 
-* **En attente de mon approbation**\
+* **Ma validation**\
     Affiche toutes les approbations affectées ou déléguées en attente, un bouton pour déléguer des approbations et des boutons pour prendre des décisions d’approbation directement dans le widget.
 
 * **Toutes les approbations**\
@@ -202,15 +199,15 @@ Par défaut, la page d’accueil contient quelques widgets spécifiques en fonct
     </tr>
     <tr>
         <td>Léger</td>
-        <td>Mon travail, En attente de mon approbation</td>
+        <td>Mon travail, mon approbation</td>
     </tr>
     <tr>
         <td>Contributeur</td>
-        <td>Mes demandes, Mentions, En attente de mon approbation, Panoramas</td>
+        <td>Mes requêtes, mentions, mon approbation, panoramas</td>
     </tr>
     <tr>
         <td>Externe</td>
-        <td>En attente de mon approbation</td>
+        <td>Mon approbation</td>
     </tr>
 </table>
 
@@ -233,7 +230,7 @@ Par défaut, la page d’accueil contient quelques widgets spécifiques en fonct
     </tr>
     <tr>
         <td>Demande</td>
-        <td>Mes projets, En attente de mon approbation</td>
+        <td>Mes projets, mon approbation</td>
     </tr>
     <tr>
         <td>Contribuer</td>
@@ -241,7 +238,7 @@ Par défaut, la page d’accueil contient quelques widgets spécifiques en fonct
     </tr>
     <tr>
         <td>Externe</td>
-        <td>En attente de mon approbation</td>
+        <td>Mon approbation</td>
     </tr>
 </table>
 

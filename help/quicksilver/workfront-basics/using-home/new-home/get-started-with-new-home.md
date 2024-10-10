@@ -6,10 +6,10 @@ description: La nouvelle page d’accueil est une nouvelle fonctionnalité puiss
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 233016ccc574118df705b857092d647767c05835
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 89%
+source-wordcount: '1168'
+ht-degree: 85%
 
 ---
 
@@ -56,8 +56,8 @@ Vous trouverez ci-dessous les 11 widgets actuellement disponibles, ainsi qu’un
 * **Demandes de l’équipe**\
     Affiche toutes les demandes en attente classées par équipe pour les équipes dont vous faites partie, ainsi que des boutons permettant d’attribuer directement une demande à un utilisateur ou à une utilisatrice ou d’y travailler soi-même.
 
-* **En attente de mon approbation**\
-    Affiche toutes les approbations affectées ou déléguées en attente, un bouton pour déléguer des approbations et des boutons pour prendre des décisions d’approbation directement dans le widget.
+* **Ma validation**\
+    Affiche toutes les approbations en attente, affectées, déléguées et envoyées ; un bouton permettant de déléguer les approbations ; et des boutons permettant de prendre des décisions d’approbation directement dans le widget.
 
 * **Toutes les approbations**\
         Affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des listes de vues des approbations en attente et en retard. <span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version progressive et n’est actuellement disponible que pour certains clientes et clients.</span>
@@ -85,15 +85,15 @@ Par défaut, la page d’accueil contient quelques widgets spécifiques en fonct
     </tr>
     <tr>
         <td>Léger</td>
-        <td>Mon travail, En attente de mon approbation</td>
+        <td>Mon travail, mon approbation</td>
     </tr>
     <tr>
         <td>Contributeur</td>
-        <td>Mes demandes, Mentions, En attente de mon approbation, Panoramas</td>
+        <td>Mes requêtes, mentions, mon approbation, panoramas</td>
     </tr>
     <tr>
         <td>Externe</td>
-        <td>En attente de mon approbation</td>
+        <td>Mon approbation</td>
     </tr>
 </table>
 
@@ -116,7 +116,7 @@ Par défaut, la page d’accueil contient quelques widgets spécifiques en fonct
     </tr>
     <tr>
         <td>Demande</td>
-        <td>Mes projets, En attente de mon approbation</td>
+        <td>Mes projets, mon approbation</td>
     </tr>
     <tr>
         <td>Contribuer</td>
@@ -124,7 +124,7 @@ Par défaut, la page d’accueil contient quelques widgets spécifiques en fonct
     </tr>
     <tr>
         <td>Externe</td>
-        <td>En attente de mon approbation</td>
+        <td>Mon approbation</td>
     </tr>
 </table>
 
