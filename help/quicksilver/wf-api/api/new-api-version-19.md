@@ -6,10 +6,10 @@ description: Adobe Workfront a publié la version 19 de l’API le jeudi 6 avr
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e3f50efa03a43c44e9defd0a724b0516504b0e83
+source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 53%
+source-wordcount: '970'
+ht-degree: 50%
 
 ---
 
@@ -384,7 +384,7 @@ Un objet de paramètre est un champ personnalisé.
             </ul>
           </li>
           <li>
-            <p><b>displayType</b></p><p>Ajout des valeurs possibles suivantes :
+            <p><b>displayType</b></p><p>Pour créer un système plus convivial et flexible, le type de champ <b>Widget (WIDGET)</b> a été abandonné et divisé en plusieurs types de champ :
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>Image (IMAGE)</li>
@@ -444,7 +444,7 @@ Un objet ScoreCardQuestion représente une question qui a été ajoutée à une 
     <tr>
       <td role="rowheader">Champs directs</td>
       <td>
-            <p><b>displayType</b></p><p>Ajout des valeurs possibles suivantes :
+            <p><b>displayType</b></p><p>Pour créer un système plus convivial et flexible, le type de champ <b>Widget (WIDGET)</b> a été abandonné et divisé en plusieurs types de champ :
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>Image (IMAGE)</li>
