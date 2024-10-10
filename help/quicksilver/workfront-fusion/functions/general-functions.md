@@ -8,10 +8,10 @@ description: Les fonctions générales suivantes sont disponibles dans le pannea
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 78%
+source-wordcount: '395'
+ht-degree: 72%
 
 ---
 
@@ -161,3 +161,8 @@ Sélectionne uniquement les clés données de l’objet.
 >`pick(` User `;` password `;` email `)`
 >
 >Renvoie une collection contenant uniquement le mot de passe et l’adresse e-mail de l’utilisateur ou de l’utilisatrice.
+
+## mergeCollections(collection1 ; collection2)
+
+Fusionne deux collections en combinant leurs paires clé-valeur. Si les deux collections contiennent la même clé, la valeur de la deuxième collection remplace cette valeur de la première collection.
+
