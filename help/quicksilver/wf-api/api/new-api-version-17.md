@@ -2,15 +2,15 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Nouveautés de la version 17 de l’API
-description: Adobe Workfront a publié la version 17 de l’API le 6 avril 2022. La version 17 de l’API comprend les modifications suivantes par rapport à la version 15.
+description: Adobe Workfront a publié la version 17 de l’API le 6 avril 2022. La versions 17 de l’API comprend les modifications suivantes par rapport à la version 16.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -297,7 +297,7 @@ Un objet DocumentVersion représente une version spécifique d’un fichier (com
 
 ### ExchangeRate (EXRATE)
 
-Un objet ExchangeRate représente un taux de change de devise configuré dans Workfront. Les objets ExchangeRate ne sont pas dynamiques.
+Un objet ExchangeRate représente un taux d’exchange de devise configuré dans Workfront. Les objets ExchangeRate ne sont pas dynamiques.
 
 <table>
   <col/>
