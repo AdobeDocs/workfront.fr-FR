@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c2fa065045f434b3a761f4742ca496670bfd6b2
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1282'
 ht-degree: 15%
 
 ---
@@ -136,13 +136,15 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
      >
      >   Les champs des types suivants ne s’affichent pas dans le formulaire de requête :
      >
-     >    * Personnes
-     >    * Champs connectés (y compris les connexions avec des ressources Experience Manager)
+     >    * Personnes (y compris Créé par et Dernière modification par)
+     >    * Champs connectés (y compris les connexions avec Workfront et les ressources Experience Manager)
      >    * Champs de recherche connectés
      >    * Formule
+     >    * Date de création
+     >    * Date de dernière modification
 
    * **Section par défaut** : il s’agit du saut de section par défaut appliqué par Workfront au formulaire de demande. La section Par défaut ne peut pas être renommée ni supprimée.
-   * **Objet** : champ qui identifie la demande dans Workfront. Cette fonctionnalité n’est pas encore disponible.
+   * **Objet** : champ qui identifie la demande dans Workfront. Cette fonctionnalité n’est pas encore disponible. La configuration et la valeur du champ Objet ne sont pas modifiables.
    * Tous les champs associés au type d&#39;enregistrement.
 
      Les champs contenus dans le formulaire de demande seront visibles par tous ceux qui envoient une demande à ce type d’enregistrement.
@@ -157,21 +159,23 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    * **Créer un champ obligatoire** : lorsque cette option est sélectionnée, le champ doit avoir une valeur. Sinon, le formulaire ne peut pas être envoyé.
    * **Ajouter une logique** : définissez les conditions qui doivent être remplies pour que le champ s’affiche ou soit masqué.
 
-   Le type de champ de chaque champ s’affiche en haut du panneau de droite, une fois le champ sélectionné dans le formulaire. Les noms des types de champ sur le formulaire de requête diffèrent de ceux de la vue de tableau. Le tableau suivant décrit les différences entre les noms des types de champ dans la vue de tableau et les noms des mêmes champs dans le formulaire de requête du type d’enregistrement :
-
-   | Type de champ Planification Workfront | Type de champ de formulaire de requête |
-   |-------------------------------|-------------------------|
-   | Texte à une ligne | Texte sur une seule ligne |
-   | Paragraphe | Texte avec formatage |
-   | Devise, Nombre, Pourcentage | Texte sur une seule ligne |
-   | Sélection unique | Liste déroulante à sélection unique |
-   | Sélection multiple | Menu déroulant multi-sélection |
-   | Case à cocher | Groupe Case à cocher |
-
    >[!NOTE]
    >
-   >   Les formats des champs sont conservés. Par exemple, bien que les champs Devise et Pourcentage s’affichent sous forme de champs de texte Ligne unique , les informations contenues dans les champs s’affichent sous forme de devise et de valeur en pourcentage.
-
+   >   Le type de champ de chaque champ s’affiche en haut du panneau de droite, une fois le champ sélectionné dans le formulaire.
+   >   
+   >
+   >   Le tableau ci-dessous affiche les noms des types de champ dans la vue de tableau et les noms des mêmes champs dans le formulaire de requête du type d’enregistrement. Les formats de chaque champ correspondent entre la vue de tableau et le formulaire de requête.
+   >
+   >   | Type de champ Planification Workfront | Type de champ de formulaire de requête |
+   >   |-------------------------------|-------------------------|
+   >   | Texte à une ligne | Texte à une ligne |
+   >   | Paragraphe | Paragraphe |
+   >   | Devise, Nombre, Pourcentage | Une seule ligne de texte (les formats de ces champs restent la devise, le nombre et le pourcentage) |
+   >   | Sélection unique | Sélection unique |
+   >   | Sélection multiple | Sélection multiple |
+   >   | Case à cocher | Case à cocher |
+   >   | Date | Date |
+   >
 
 1. (Facultatif) Cliquez sur l’onglet **Eléments de contenu** sur le côté gauche du formulaire, puis ajoutez l’un des éléments suivants :
 

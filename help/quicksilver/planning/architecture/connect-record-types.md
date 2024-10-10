@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 44%
+source-wordcount: '2222'
+ht-degree: 43%
 
 ---
 
@@ -268,13 +268,15 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    Les enregistrements sans miniature affichent à la place l’icône de type d’enregistrement . Un exemple d’affichage des enregistrements connectés s’affiche dans la zone **Apparence des enregistrements**.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    Lorsque vous autorisez le lien de plusieurs enregistrements, l’affichage de la miniature peut économiser de l’espace dans des zones plus petites, comme les vues d’enregistrement.
+   >* Lorsque vous autorisez le lien de plusieurs enregistrements, l’affichage de la miniature peut économiser de l’espace dans des zones plus petites, comme les vues d’enregistrement.
    >
-   >Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d’informations, voir [Présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d’informations, voir [Présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
-   >La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objets Workfront.
+   >* La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objets Workfront.
+   >
+   >* Ce que vous sélectionnez dans la zone d’affichage Enregistrement détermine la manière dont les enregistrements s’affichent dans les connexions partout dans le système, y compris toutes les vues et les pages de détails.
 
 1. Cliquez sur **Créer**.
 
