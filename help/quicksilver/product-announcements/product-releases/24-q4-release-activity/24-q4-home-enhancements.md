@@ -4,10 +4,10 @@ description: Améliorations apportées à la page d’accueil (quatrième trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 22%
+source-wordcount: '407'
+ht-degree: 20%
 
 ---
 
@@ -16,6 +16,19 @@ ht-degree: 22%
 Cette page décrit toutes les améliorations apportées à la page d’accueil par la version du quatrième trimestre 2024 dans l’environnement de prévisualisation. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2024, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Mises à jour du widget J’attends mon approbation dans la nouvelle page d’accueil
+
+>[!NOTE]
+>
+>Version d’aperçu : 10 octobre 2024 ; version de production pour tous les clients : 10 octobre 2024.
+
+Nous avons apporté les modifications suivantes au widget En attente de mon approbation :
+
+* **Le widget a été renommé** : le nom de ce widget est désormais Mes approbations.
+* **Ajout de l’option Approbations que j’ai envoyées en tant que filtre** : vous pouvez désormais afficher les approbations que vous avez envoyées dans le nouvel accueil avec ce widget.
+
+Pour plus d’informations, voir [Commencer avec la nouvelle zone Accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Simplification de l’expérience Workfront pour les propriétaires de tâches avec des priorités
 

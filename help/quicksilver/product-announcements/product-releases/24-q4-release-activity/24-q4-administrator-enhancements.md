@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 19%
@@ -58,7 +58,7 @@ Pour plus d’informations sur la restauration d’un package de promotion d’e
 
 >[!NOTE]
 >
->Aperçu de la version : ~~12 août 2024~~ ; Production pour une version rapide : S.O. ; Production pour une version trimestrielle : S.O.
+>~~Version d’aperçu : 12 août 2024~~ ; Production pour une version rapide : S.O. ; Production pour une version trimestrielle : S.O.
 >
 >_Cette fonctionnalité a été supprimée de l’aperçu et ne sera pas publiée avec les prochaines versions._
 
