@@ -1,15 +1,15 @@
 ---
 title: Présentation de la planification Adobe Workfront
-description: Adobe Workfront Planning est une nouvelle offre d’Adobe Workfront. Vous pouvez créer des espaces de travail entièrement personnalisables afin de définir des workflows qui répondent aux besoins de chaque entité organisationnelle de votre entreprise.
+description: La planification Adobe Workfront est une fonctionnalité supplémentaire d’Adobe Workfront. Vous pouvez créer des espaces de travail entièrement personnalisables afin de définir des workflows qui répondent aux besoins de chaque entité organisationnelle de votre entreprise.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 55%
+source-wordcount: '2116'
+ht-degree: 50%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 55%
 
 >[!IMPORTANT]
 >
->Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle offre d’Adobe Workfront.
+>Les informations de cet article font référence à la planification Adobe Workfront, une fonctionnalité supplémentaire d’Adobe Workfront.
 >
 >Pour accéder à Workfront Planning, vous devez disposer des éléments suivants :
 >
@@ -44,9 +44,9 @@ Pour obtenir la liste complète des articles qui contiennent de la documentation
 
 ## Présentation d’Adobe Workfront Planning
 
-Adobe Workfront Planning est une nouvelle offre d’Adobe Workfront. Workfront Planning a pour objectif d’offrir une visibilité complète sur les détails opérationnels d’une entreprise et de répondre aux questions métier critiques à chaque étape du cycle de vie de la gestion du travail.
+La planification Adobe Workfront est une fonctionnalité supplémentaire d’Adobe Workfront. Workfront Planning a pour objectif d’offrir une visibilité complète sur les détails opérationnels d’une entreprise et de répondre aux questions métier critiques à chaque étape du cycle de vie de la gestion du travail.
 
-Les équipes et le leadership ont besoin de réponses claires à des questions telles que les suivantes :
+Workfront Planning peut répondre à des questions telles que :
 
 * Combien de campagnes réalisons-nous dans la zone EMEA au quatrième trimestre ?
 * Des audiences se chevauchent-elles entre des campagnes simultanées ?
@@ -69,7 +69,7 @@ Voici quelques-unes des principales fonctionnalités :
 
 Pour plus d’informations sur les nouvelles fonctionnalités et leur date de publication, voir [Activité de mise à jour de la planification Adobe Workfront pour 2024](/help/quicksilver/planning/general/release-activity.md).
 
-Voici les fonctionnalités actuellement disponibles dans la planification Workfront :
+Les fonctionnalités suivantes sont actuellement disponibles dans la planification Workfront :
 
 * Créer des espaces de travail
 * Créer des types d’enregistrement
@@ -92,7 +92,7 @@ Voici les fonctionnalités actuellement disponibles dans la planification Workfr
 * Personnalisation de la mise en page d’une page d’enregistrement
 * Partager des espaces de travail
 * Partager des affichages
-* Partage des vues publiquement avec des ressources externes
+* Partager publiquement les vues avec toute ressource externe, même les personnes qui ne sont pas des utilisateurs de Workfront
 * Dupliquer les vues
 * Envoi de requêtes pour créer des enregistrements
 * Exporter les détails des enregistrements vers Word <span class="preview"> et PDF.</span>
@@ -161,11 +161,11 @@ Voici les fonctionnalités actuellement disponibles dans la planification Workfr
 
 ## Activation de la planification Workfront pour les utilisateurs de votre instance Workfront
 
-Une fois que votre entreprise a acheté une licence pour la planification Workfront, les éléments suivants doivent être en place pour pouvoir accéder à la planification Workfront :
+Une fois que votre entreprise a acheté une licence pour Workfront Planning, en tant qu’administrateur Workfront, vous devez vous assurer que les éléments suivants sont en place avant que les utilisateurs puissent accéder à Workfront Planning :
 
-* L’administrateur de Workfront doit vous affecter à un modèle de mise en page qui inclut la planification dans le menu principal. Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) et [Affecter des utilisateurs à un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+* Affectez aux utilisateurs qui doivent accéder à l’option Planification d’un modèle de mise en page qui inclut la planification dans le menu principal. Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) et [Affecter des utilisateurs à un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Votre administrateur Workfront doit vous attribuer une licence Workfront et des autorisations Workfront Planning qui vous permettraient d’afficher ou de créer des objets dans Workfront Planning. Pour plus d’informations sur l’octroi de l’accès à Workfront Planning et sur l’autorisation d’utilisation à d’autres personnes, voir [Vue d’ensemble des accès](/help/quicksilver/planning/access/access-overview.md).
+* Attribuez aux utilisateurs une licence Workfront et des autorisations de planification Workfront qui vous permettraient d’afficher 554 ou de créer des objets dans Workfront Planning. Pour plus d’informations sur l’octroi de l’accès à Workfront Planning et sur l’autorisation d’utilisation à d’autres personnes, voir [Vue d’ensemble des accès](/help/quicksilver/planning/access/access-overview.md).
 
 ## Terminologie de la planification Workfront
 
@@ -183,7 +183,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   Pour plus d’informations, voir la section [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-* **Type d’enregistrement** : type d’objet de Workfront Planning.
+* **Type d’enregistrement** : nom des types d’objets dans Workfront Planning.
 
   Contrairement à Workfront, où les types d’objets sont prédéfinis, dans Workfront Planning, vous pouvez créer vos propres types d’objets.
 
@@ -298,7 +298,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
-  Les vues contiennent les paramètres personnalisés d’un type de vue spécifique, tels que la liste des champs (colonnes), une liste des enregistrements (lignes), leur ordre (tri), un filtre appliqué ou applicable et un regroupement.
+  Les vues contiennent des paramètres personnalisés d&#39;un type de vue spécifique, tels que la liste des champs (colonnes), une liste d&#39;enregistrements (lignes), leur ordre (tri), un filtre appliqué ou applicable et un regroupement.
 
   Les types de vue suivants peuvent être appliqués à la page des types d’enregistrement :
 
@@ -318,7 +318,7 @@ Pour plus d’informations, voir [Gérer les vues d’enregistrement](/help/quic
 
 ## Localiser Adobe Workfront Planning
 
-Assurez-vous que votre organisation a accès à Workfront Planning et que l’administrateur ou l’administratrice du système ou du groupe a ajouté la zone Planning à votre menu principal. Pour plus d’informations, voir [Vue d’ensemble des accès](/help/quicksilver/planning/access/access-overview.md).
+Pour localiser Adobe Planning, assurez-vous que votre entreprise a accès à Workfront Planning et que l’administrateur du système ou du groupe a ajouté la zone Planning à votre menu principal. Pour plus d’informations, voir [Vue d’ensemble des accès](/help/quicksilver/planning/access/access-overview.md).
 
 Pour localiser Workfront Planning :
 

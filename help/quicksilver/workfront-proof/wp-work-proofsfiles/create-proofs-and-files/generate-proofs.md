@@ -7,10 +7,10 @@ description: Workfront Proof vous permet de créer des épreuves à partir de d
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2253'
-ht-degree: 100%
+source-wordcount: '2257'
+ht-degree: 94%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 
      Pour plus d’informations sur le partage d’une épreuve, voir « Ajouter des utilisateurs et utilisatrices à une épreuve » dans [Partager une épreuve dans  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-   * **Automatisé :** sélectionnez cette option pour gérer la révision et l’approbation du contenu lorsque vous disposez de processus de révision complexes, ou si vous envoyez régulièrement du contenu à des groupes de personnes identiques. Avec le workflow automatisé, l’épreuve passe d’une étape à l’autre jusqu’à l’approbation finale. Les utilisateurs et utilisatrices concernés sont avertis lorsqu’ils sont tenus d’effectuer une approbation.
+   * **Automatisé :** sélectionnez cette option pour gérer la révision et l’approbation du contenu lorsque vous disposez de processus de révision complexes, ou si vous envoyez régulièrement du contenu à des groupes de personnes identiques. Avec un workflow automatisé, le BAT passe d’une étape à l’autre jusqu’à l’approbation finale. Les utilisateurs concernés sont informés à tout moment qu’ils sont tenus d’effectuer une approbation.
 
      Pour plus d’informations sur la création d’un workflow automatisé, voir [Configurer une épreuve avec un workflow automatisé dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
@@ -106,7 +106,7 @@ ht-degree: 100%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Une seule décision requise pour cette épreuve</td> 
+      <td role="rowheader">Une seule décision est requise pour ce BAT</td> 
       <td> <p>Lorsque cette option est sélectionnée, la révision est terminée une fois que l’une des personnes décisionnaires a pris sa décision.</p> <p>Cette option est désactivée par défaut.</p> </td> 
      </tr> 
      <tr> 
@@ -122,11 +122,11 @@ ht-degree: 100%
       <td> <p><strong></strong> Lorsque cette option est sélectionnée, les réviseurs et réviseuses peuvent télécharger le fichier original à partir duquel l’épreuve a été créée.</p> <p>Si cette option est désélectionnée, l’icône Télécharger n’est pas visible.<br>Cette option est activée par défaut.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Partager l’épreuve via une URL publique ou un code intégré</td> 
+      <td role="rowheader">Partage du BAT via une URL publique ou un code incorporé</td> 
       <td>Lorsque cette option est sélectionnée, l’épreuve peut être partagée via une URL publique ou un code intégré.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">S’abonner à l’épreuve via une URL publique ou un code intégré</td> 
+      <td role="rowheader">Abonnez-vous au BAT via une URL publique ou un code intégré</td> 
       <td> <p>Lorsque cette option est sélectionnée, les personnes qui n’ont pas été explicitement ajoutées à l’épreuve peuvent s’y abonner. La personne qui s’abonne à l’épreuve se voit attribuer le rôle et l’adresse e-mail que vous définissez dans les paramètres suivants :</p> 
        <ul> 
         <li><strong>Rôle de personne abonnée</strong> : rôle d’épreuve par défaut attribué à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve.</li> 
@@ -199,7 +199,7 @@ Pour générer l’épreuve d’une URL :
      </tr> 
      <tr> 
       <td role="rowheader">Interactif</td> 
-      <td> <p>Crée une épreuve qui permet aux personnes réviseuses de parcourir le site, d’afficher des images en HTML5, des éléments Flash, etc.</p> <p>Pour créer une épreuve interactive, le site web doit être hébergé avec un protocole sécurisé (https). En outre, les sites web qui ne peuvent pas être incorporés dans un iframe ne peuvent pas être générés en tant qu’épreuve interactive (les restrictions d’intégration d’iframe sont contrôlées par le site web que vous tentez d’incorporer).</p> <p>Une fois l’épreuve initiale créée, ce paramètre ne peut plus être modifié lors de la création de versions ultérieures.</p> <p>Pour plus d’informations sur la relecture interactive, voir <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Générer une épreuve pour le contenu interactif</a>.</p> </td> 
+      <td> <p>Crée une épreuve qui permet aux personnes réviseuses de parcourir le site, d’afficher des images en HTML5, des éléments Flash, etc.</p> <p>Pour créer un BAT interactif, le site web doit être hébergé avec un protocole sécurisé (https). En outre, les sites web qui ne peuvent pas être incorporés dans un iframe ne peuvent pas être générés en tant qu’épreuve interactive (les restrictions d’intégration d’iframe sont contrôlées par le site web que vous tentez d’incorporer).</p> <p>Une fois l’épreuve initiale créée, ce paramètre ne peut plus être modifié lors de la création de versions ultérieures.</p> <p>Pour plus d’informations sur la relecture interactive, voir <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Générer une épreuve pour le contenu interactif</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Résolution de la copie d’écran</td> 
@@ -220,7 +220,7 @@ Pour générer l’épreuve d’une URL :
 
 1. Cliquez sur **[!UICONTROL Terminé]**.
 
-   Si vous ajoutez une nouvelle version à une épreuve d’URL existante, toutes les options configurées sur l’épreuve d’origine ou la version précédente sont conservées dans cette version.
+   Si vous ajoutez une nouvelle version à un BAT d’URL existant, toutes les options configurées sur le BAT d’origine ou la version précédente sont conservées dans cette version. Si vous ajoutez une nouvelle version à une épreuve d’URL existante, toutes les options configurées sur l’épreuve d’origine ou la version précédente sont conservées dans cette version.
 
 1. Cliquez sur **[!UICONTROL Créer une épreuve]**.
 
@@ -235,7 +235,7 @@ Pour plus d’informations sur le contenu interactif, voir [Vue d’ensemble des
 
 ### Ajouter du contenu interactif en tant qu’URL {#add-interactive-content-as-a-url}
 
-Pour plus d’informations sur l’ajout d’une épreuve d’URL interactive, voir [Générer l’épreuve d’une URL](#generate-a-proof-for-a-url).
+Pour plus d’informations sur l’ajout d’un BAT d’URL interactif, voir [Générer un BAT pour une URL](#generate-a-proof-for-a-url).
 
 ### Ajouter du contenu interactif en tant que fichier ZIP {#add-interactive-content-as-a-zip-file}
 

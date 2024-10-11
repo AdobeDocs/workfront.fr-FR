@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 60%
+source-wordcount: '591'
+ht-degree: 58%
 
 ---
 
@@ -175,7 +175,7 @@ OLD:
 
 ## Formules prises en charge
 
-Les champs de formule Adobe Workfront Planning prennent en charge toutes les expressions des champs calculés Workfront. Pour plus d’informations, voir [Vue d’ensemble des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Les champs de formule Adobe Workfront Planning prennent en charge toutes les expressions des champs calculés Workfront. Pour obtenir une liste des expressions Workfront, reportez-vous à la section [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Nous prenons également en charge les expressions suivantes pour les champs de formule Workfront Planning :
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '3620'
-ht-degree: 77%
+source-wordcount: '3611'
+ht-degree: 75%
 
 ---
 
@@ -277,8 +277,8 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
-   * **Choix** : options disponibles pour la sélection dans le menu déroulant après l’enregistrement du champ. Vous pouvez avoir des nombres et des lettres pour le nom de chaque choix.
-1. Cliquez sur **Ajouter un choix** pour ajouter autant de choix que nécessaire. Le nombre de choix que vous pouvez ajouter à un champ à sélection multiple est illimité.
+   * **Choix** : options que les utilisateurs peuvent sélectionner lors de la mise à jour de ce champ. Vous pouvez utiliser des chiffres et des lettres pour le nom de chaque choix.
+1. Cliquez sur **Ajouter un choix** pour ajouter d’autres choix. Le nombre de choix que vous pouvez ajouter à un champ à sélection multiple est illimité.
 1. (Facultatif) Faites glisser et déposez manuellement chaque choix dans l’ordre souhaité, ou sélectionnez l’option
    **Trier les choix dans l’ordre alphabétique** si vous souhaitez que les choix soient automatiquement répertoriés dans l’ordre alphabétique. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Facultatif) Pour supprimer un choix, cliquez sur l’icône **x** située à droite.
@@ -301,7 +301,7 @@ Les champs à sélection unique capturent des informations supplémentaires dans
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
    * **Choix** : options disponibles pour la sélection dans le menu déroulant après l’enregistrement du champ. Vous pouvez avoir des nombres et des lettres pour le nom de chaque choix.
 
-1. Cliquez sur **Ajouter un choix** pour ajouter autant de choix que nécessaire. Le nombre de choix que vous pouvez ajouter à un champ à sélection unique n’est pas limité.
+1. Cliquez sur **Ajouter un choix** pour ajouter d’autres choix. Le nombre de choix que vous pouvez ajouter à un champ à sélection unique n’est pas limité.
 1. (Facultatif) Faites glisser et déposez manuellement chaque choix dans l’ordre souhaité, ou sélectionnez l’option **Trier les choix de A-Z** si vous souhaitez que les choix soient automatiquement répertoriés dans l’ordre alphabétique. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Facultatif) Pour supprimer un choix, cliquez sur l’icône **x** située à droite.
 1. Cliquez sur l’échantillon de couleur à gauche d’un choix pour développer le sélecteur de couleurs et personnaliser la couleur de chaque option.
@@ -351,7 +351,7 @@ Les types de champ Nombre capturent les informations au format numérique.
 
    * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement.
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
-   * **Précision** : nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
+   * **Précision** : nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
    * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les nombres négatifs dans ce champ. Cette option n’est pas sélectionnée par défaut.
 
    >[!NOTE]
@@ -373,7 +373,7 @@ Les types de champ en pourcentage capturent les informations au format numériqu
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement.
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
-   * **Précision** : nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
+   * **Précision** : nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
    * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les valeurs en pourcentage négatif dans ce champ. Cette option n’est pas sélectionnée par défaut.
 
    >[!NOTE]
@@ -450,7 +450,10 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
    >
    >* Vous ne pouvez pas ajouter de champs de type Sélection multiple dans une formule.
    >
-   >* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le budget du projet dans la formule que vous créez pour le type d’enregistrement Activité .
+   >* Vous pouvez référencer un champ qui peut contenir jusqu’à 4 champs (et objets) à l’écart du type d’enregistrement actif. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité (1) et que l’activité est connectée au type d’enregistrement Campagne (2) connecté à un projet Workfront (3), vous pouvez référencer le champ Budget du projet (4) dans la formule que vous créez pour le type d’enregistrement Activité.
+   >
+   >![](assets/formula-example-project-budget-four-fields-removed.png)
+   >
 
 1. Dans le champ **Format** , sélectionnez l’un des choix suivants pour identifier le format du résultat affiché dans le champ de type de formule :
 
@@ -604,7 +607,7 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
 
 Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une nouvelle connexion entre deux types d’enregistrement ou un type d’enregistrement et des types d’objet à partir d’autres applications.
 
-Pour plus d’informations sur la connexion des types d’enregistrement Workfront Planning, consultez la section [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
+Pour plus d’informations sur la connexion des types d’enregistrement Workfront Planning, voir [Connexion des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!--## Create fields by importing record types using an Excel or CSV file
 

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2586'
 ht-degree: 93%
@@ -281,7 +281,7 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 >[!IMPORTANT]
 >
->Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle offre d’Adobe Workfront.
+>Les informations de cet article font référence à la planification Adobe Workfront, une fonctionnalité supplémentaire d’Adobe Workfront.
 >
 >Pour accéder à Workfront Planning, vous devez disposer des éléments suivants :
 >

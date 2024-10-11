@@ -8,14 +8,18 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 99%
 
 ---
 
+
 # Configurer des modèles d’e-mail
+
+<!--Audited: 10/2024-->
+
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez configurer des modèles d’e-mail pour prendre en charge les notifications de rappel.
 
@@ -40,9 +44,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td><p>Actuel : formule</p>
+   <td><p>Nouveau : Standard</p>
    Ou
-   <p>Nouveau : Standard</p></td> 
+   <p>Actuelle : formule</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuration du niveau d’accès</td> 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 15%
+source-wordcount: '1236'
+ht-degree: 14%
 
 ---
 
@@ -164,18 +164,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    >   Le type de champ de chaque champ s’affiche en haut du panneau de droite, une fois le champ sélectionné dans le formulaire.
    >   
    >
-   >   Le tableau ci-dessous affiche les noms des types de champ dans la vue de tableau et les noms des mêmes champs dans le formulaire de requête du type d’enregistrement. Les formats de chaque champ correspondent entre la vue de tableau et le formulaire de requête.
-   >
-   >   | Type de champ Planification Workfront | Type de champ de formulaire de requête |
-   >   |-------------------------------|-------------------------|
-   >   | Texte à une ligne | Texte à une ligne |
-   >   | Paragraphe | Paragraphe |
-   >   | Devise, Nombre, Pourcentage | Une seule ligne de texte (les formats de ces champs restent la devise, le nombre et le pourcentage) |
-   >   | Sélection unique | Sélection unique |
-   >   | Sélection multiple | Sélection multiple |
-   >   | Case à cocher | Case à cocher |
-   >   | Date | Date |
-   >
+   >   Les champs Devise, Nombre et Pourcentage s’affichent sous la forme d’un type de champ de texte Une seule ligne. Toutefois, le format du champ est conservé et les valeurs qu’il contient s’affichent sous la forme de valeurs Devise, Nombre et Pourcentage.
 
 1. (Facultatif) Cliquez sur l’onglet **Eléments de contenu** sur le côté gauche du formulaire, puis ajoutez l’un des éléments suivants :
 
