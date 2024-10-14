@@ -7,10 +7,10 @@ description: Vue d’ensemble des heures, des équivalents temps complet et des 
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '2977'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -329,7 +329,7 @@ Cette option n’est appliquée que lorsque vous personnalisez l’affichage dan
 
 >[!NOTE]
 >
->**Lorsque les heures NET, l’équivalent temps complet ou les coûts s’affichent en rouge, cela signifie qu’il n’y a pas assez de temps disponible ou de budget pour couvrir le temps budgété** ou le temps prévu ou les coûts associés au travail. Dans ce cas, les ressources font l’objet d’une affectation trop importante.
+>Lorsque les heures NETTES, ETR ou Coût s&#39;affichent en rouge, il n&#39;y a pas assez de temps ou de budget disponible pour couvrir le budget ou l&#39;heure planifiée ou le coût associé au travail. Dans ce cas, les ressources font l’objet d’une affectation trop importante.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

@@ -7,10 +7,10 @@ description: La synthèse des commentaires est accessible dans Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '465'
+ht-degree: 88%
 
 ---
 
@@ -30,13 +30,13 @@ La synthèse des commentaires est accessible directement à partir des zones sui
 
 ### Visionneuse d’épreuves {#the-proof-viewer}
 
-Vous pouvez imprimer la synthèse des commentaires de l’épreuve, y compris les miniatures ou l’image complète de l’épreuve, en cliquant sur l’icône **[!UICONTROL Imprimer]** dans la visionneuse de l’épreuve. (1)
+Vous pouvez imprimer la synthèse des commentaires du BAT, y compris les miniatures ou l’image complète du BAT, en cliquant sur l’icône **[!UICONTROL Imprimer]** dans la visionneuse de BAT.
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
 ### Page Détails de l’épreuve {#the-proof-details-page}
 
-Vous pouvez imprimer la synthèse des commentaires de l’épreuve en cliquant sur l’icône **[!UICONTROL Imprimer]** sur la page Détails de l’épreuve. (2)
+Vous pouvez imprimer la synthèse des commentaires du BAT en cliquant sur l’icône **[!UICONTROL Imprimer]** sur la page des détails du BAT.
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
@@ -46,17 +46,18 @@ Vous pouvez imprimer la synthèse des commentaires de l’épreuve en cliquant s
 
 Pour accéder à la page [!UICONTROL Synthèse des commentaires] d’une vue de liste, procédez comme suit :
 
-1. Cliquez sur le menu **[!UICONTROL Actions]**. (3)
-1. Sélectionnez **[!UICONTROL Imprimer les commentaires]**. (4)
+1. Cliquez sur le menu **[!UICONTROL Actions]** .
+1. Sélectionnez **[!UICONTROL Imprimer les commentaires]**.
 
-![List_view.png](assets/list-view-350x155.png)\
-Sur la page de synthèse des commentaires, vous avez le choix entre les options d’impression suivantes :
+   ![List_view.png](assets/list-view-350x155.png)
 
-* Vue miniature (1)
-* Vue en pleine page (2)
-* Imprimer la page (3)
-* Exporter l’épreuve avec des commentaires vers un fichier PDF (4)
-* Exporter les commentaires de l’épreuve vers un fichier [!DNL Excel] (5)
+   Sur la page de synthèse des commentaires, vous avez le choix entre les options d’impression suivantes :
+
+   * Vue miniature (1)
+   * Vue en pleine page (2)
+   * Imprimer la page (3)
+   * Exporter l’épreuve avec des commentaires vers un fichier PDF (4)
+   * Exporter les commentaires de l’épreuve vers un fichier [!DNL Excel] (5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
@@ -89,7 +90,8 @@ Pour télécharger la synthèse [!DNL Excel], procédez comme suit :
 Pour télécharger la synthèse [!DNL Excel] à partir de la page Détails de l’épreuve, procédez comme suit :
 
 1. Cliquez sur l’icône Exporter vers **[!DNL Excel]**. (2)
-1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+
+   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## Exporter au format PDF
 

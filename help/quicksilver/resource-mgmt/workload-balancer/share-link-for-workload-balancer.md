@@ -6,10 +6,10 @@ description: Vous pouvez partager l’équilibreur de charge de travail avec d�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 95%
+ht-degree: 86%
 
 ---
 
@@ -103,7 +103,7 @@ L’utilisateur ou utilisatrice qui reçoit le lien partagé ne peut pas effectu
 Vous avez besoin de l’accès suivant pour afficher les informations dans l’équilibreur de charge de travail à partir d’un lien partagé :
 
 * Une licence Adobe Workfront valide et vous devez vous connecter à Workfront.
-* Au moins, l’accès en affichage à la gestion des ressources dans votre niveau d’accès. Pour plus d’informations sur l’octroi de l’accès à la gestion des ressources, voir [Accorder l’accès à la gestion des ressources](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* Au moins, affichez l’accès à la gestion des ressources dans votre niveau d’accès. Pour plus d’informations sur l’octroi de l’accès à la gestion des ressources, voir [Accorder l’accès à la gestion des ressources](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 * Les autorisations Afficher pour les projets, tâches, problèmes, utilisateurs et utilisatrices affichés dans l’équilibreur de charge de travail.
 
 ## Partager l’équilibreur de charge de travail avec d’autres utilisateurs et utilisatrices à partir d’un lien
@@ -132,8 +132,8 @@ Vous avez besoin de l’accès suivant pour afficher les informations dans l’�
    * Collez-le dans un e-mail, un message de chat ou toute autre application, puis partagez-le avec d’autres utilisateurs et utilisatrices.
    * Ajoutez-le à une section personnalisée en tant que page externe, ajoutez la section personnalisée à un profil d’utilisateur ou utilisatrice ou à un modèle de disposition, puis partagez le modèle de disposition avec des utilisateurs, des utilisatrices, des équipes, des fonctions ou des groupes.
 
-     Pour plus d’informations sur la création d’une page externe, voir [Incorporer une page web externe dans un tableau de bord](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Pour plus d’informations sur l’ajout de sections personnalisées à un modèle de disposition, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Pour plus d’informations sur la création d’une page externe, voir [Incorporation d’une page web externe dans un tableau de bord](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Pour plus d’informations sur l’ajout de sections personnalisées à un modèle de disposition, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >
-     >Lorsque vous ajoutez l’équilibreur de charge de travail à la section personnalisée d’un objet, les informations de l’équilibreur de charge de travail ne sont pas filtrées par l’objet.L’équilibreur de charge de travail affiche les informations filtrées par les filtres appliqués initialement.
+     >Lorsque vous ajoutez l’équilibreur de charge de travail à la section personnalisée d’un objet, les informations de l’équilibreur de charge de travail ne sont pas filtrées par l’objet . L’équilibreur de charge de travail affiche les informations filtrées par les filtres appliqués initialement.

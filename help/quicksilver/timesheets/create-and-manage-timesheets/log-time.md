@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '3856'
+source-wordcount: '3830'
 ht-degree: 89%
 
 ---
@@ -335,10 +335,8 @@ Pour supprimer de la feuille de temps un élément qui a été ajouté manuellem
 
 Vous pouvez consigner les heures consacrées à un projet spécifique dans la page d’accueil.
 
-Pour des informations générales sur l’utilisation de la zone d’accueil, voir les sections suivantes :
+Pour obtenir des informations générales sur l’utilisation de la zone d’accueil, voir [Utilisation de la zone d’accueil](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-* Pour plus d’informations sur l’utilisation da zone d’accueil héritée, voir [Utiliser la zone d’accueil](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Pour plus d’informations sur l’utilisation de la nouvelle zone d’accueil, voir [Prise en main de la nouvelle page d’accueil](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Consigner les heures consacrées à un élément de travail depuis la nouvelle zone d’accueil
 

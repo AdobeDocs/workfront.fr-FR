@@ -6,14 +6,16 @@ description: Avec l’accès à  [!DNL Workfront]  grâce à Adobe Experience 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: e6688408c3316a3f99fdb051adeb306f359057d1
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '588'
+ht-degree: 88%
 
 ---
 
 # [!DNL Adobe Unified Experience] pour [!DNL Workfront]
+
+<!--Audited: 10/2024-->
 
 Avec l’accès à [!DNL Workfront] grâce à [!DNL Adobe Experience Cloud], vous bénéficiez d’une expérience transparente et unifiée pour gérer l’ensemble de vos applications [!DNL Adobe]. La gestion des identités unique vous permet de vous connecter à un seul emplacement, sans avoir à utiliser plusieurs URL ou identifiants de connexion.
 
@@ -26,7 +28,9 @@ Si votre organisation utilise l’expérience unifiée de l’Adobe, l’URL que
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,23 +42,26 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td> <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
+   <p>Actuelle : [!UICONTROL Request] ou supérieure</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou votre administratrice [!DNL Workfront].
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
-L’instance de [!DNL Workfront] de votre organisation doit être intégrée à [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console].
+L’instance de [!DNL Workfront] de votre organisation doit être intégrée à [!DNL Adobe Business Platform] ou à [!DNL Adobe Admin Console].
 
 Si vous avez des questions sur l’intégration [!DNL Adobe Admin Console], voir les [[!DNL Adobe Unified Experience] Questions fréquentes](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
 
 ## Se connecter à [!DNL Adobe Experience Cloud]
 
 1. Ouvrez une fenêtre de navigateur et accédez à <https://experience.adobe.com>.
-1. Sur l’écran [!UICONTROL Se connecter], saisissez votre adresse e-mail, puis cliquez sur **[!UICONTROL Continuer]**.
+1. Sur l’écran [!UICONTROL **Se connecter**], saisissez votre adresse e-mail, puis cliquez sur **[!UICONTROL Continuer]**.
 
    ![Connexion à [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
 

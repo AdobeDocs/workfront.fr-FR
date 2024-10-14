@@ -1,15 +1,15 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Créer une feuille de temps à usage unique
+title: Création d’une feuille de calcul à usage unique
 description: Vous pouvez créer manuellement une feuille de temps à usage unique si vous souhaitez qu’elle ne soit pas récurrente. Lorsque la date de fin de la feuille de temps est atteinte et que vous avez besoin d’autres feuilles de temps, vous devez en créer de nouvelles.
 author: Alina
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 100%
+source-wordcount: '1058'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,8 @@ Pour plus d’informations sur la création d’un profil de feuille de temps qu
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -43,19 +45,20 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Nouveau : Standard </p>
+   <p>Actuel : formule </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Vous devez disposer d’un accès administratif aux feuilles de temps. </p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones</a>.</p> <p><b> NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez disposer d’un accès administratif aux feuilles de temps. </p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Créer une feuille de temps à usage unique
 
