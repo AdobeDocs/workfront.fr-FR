@@ -6,10 +6,10 @@ description: Certaines fonctionnalités diffèrent entre  [!DNL Workfront]  et A
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: be60ec38495a7c25d88e325cf4ba96decf083ea3
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 95%
+source-wordcount: '1363'
+ht-degree: 94%
 
 ---
 
@@ -35,6 +35,7 @@ Ce tableau décrit les fonctionnalités qui diffèrent entre les deux expérienc
 | La visionneuse de vérification s’ouvre dans un nouvel onglet. | La visionneuse de vérification s’ouvre dans Workfront |
 | L’URL d’accès à Workfront est `experience.adobe.com` | L’URL d’accès à Workfront est `(CompanyName).my.workfront.com` |
 | Le format de date (MM/JJ/AAAA, par exemple) est basé sur les paramètres de la langue de l’expérience unifiée. Si l’utilisateur n’a pas mis à jour ses paramètres de langue, les paramètres `en-US` sont utilisés. | Le format de date (MM/JJ/AAAA, par exemple) est basé sur les préférences du navigateur. |
+| L’intégration de JumpSeat n’est pas prise en charge | L’intégration Jumpplace est prise en charge |
 
 {style="table-layout:auto"}
 
