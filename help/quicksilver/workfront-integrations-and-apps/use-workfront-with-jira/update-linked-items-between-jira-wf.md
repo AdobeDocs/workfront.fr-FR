@@ -6,10 +6,10 @@ description: Lorsque vous liez des problèmes  [!DNL Jira]  à des tâches ou de
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: e01f5eaf3133fa1bdaedf4dad56e9a8175b70667
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 100%
+source-wordcount: '1576'
+ht-degree: 99%
 
 ---
 
@@ -122,7 +122,7 @@ La liste suivante indique les champs [!DNL Workfront] qui se synchronisent avec 
   </tr> 
   <tr> 
    <td>[!UICONTROL Comments]</td> 
-   <td> <p>Le commentaire est ajouté à l’onglet <strong>[!DNL Workfront]</strong> du problème [!DNL Jira]. Il n’est pas ajouté à l’onglet <strong>[!UICONTROL Comments]</strong> du problème [!DNL Jira].</p> <p>Note : lorsque vous liez manuellement deux éléments existants, les commentaires ajoutés à l’élément [!DNL Workfront] avant sa liaison avec [!DNL Jira] ne se synchronisent pas avec le problème [!DNL Jira].</p> </td> 
+   <td> <p>Le commentaire est ajouté à l’onglet <strong>[!DNL Workfront]</strong> du problème [!DNL Jira]. Il n’est pas ajouté à l’onglet <strong>[!UICONTROL Comments]</strong> du problème [!DNL Jira].</p> <p>Note : lorsque vous liez manuellement deux éléments existants, les commentaires ajoutés à l’élément [!DNL Workfront] avant sa liaison avec [!DNL Jira] ne se synchronisent pas avec le problème [!DNL Jira].</p> <p>Les commentaires Jira sont synchronisés avec Workfront.</td> 
   </tr> 
  </tbody> 
 </table>

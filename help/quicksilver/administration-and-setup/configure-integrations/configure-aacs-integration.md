@@ -6,10 +6,10 @@ description: Vous pouvez connecter votre travail à votre contenu dans  [!DNL Ex
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1687'
-ht-degree: 97%
+source-wordcount: '1700'
+ht-degree: 94%
 
 ---
 
@@ -242,9 +242,11 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ## Configurer des workflows (facultatif)
 
-Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. En tant que personne chargée de l’administration Workfront, vous pouvez configurer des workflows dans Workfront, puis les affecter à des modèles de projet. Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est attribué, les actions définies dans le workflow sont déclenchées.
+Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. En tant qu’administrateur Workfront, vous pouvez configurer des workflows dans Workfront, puis les affecter à des modèles de projet.
 
-Les workflows sont activés et configurés pour Adobe Experience Manager dans son ensemble. Ces workflows peuvent ensuite être appliqués aux modèles de projet et ajustés ou personnalisés au niveau du modèle ou du projet.
+Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est attribué, les actions définies dans le workflow sont déclenchées.
+
+Les workflows sont activés et configurés pour Adobe Experience Manager dans son ensemble. Ces workflows peuvent ensuite être appliqués aux modèles de projet. Ils peuvent être ajustés ou personnalisés au niveau du modèle ou au niveau du projet lorsqu’un projet est créé à partir de ce modèle.
 
 Les workflows suivants sont disponibles dans l’intégration Adobe Experience Manager :
 

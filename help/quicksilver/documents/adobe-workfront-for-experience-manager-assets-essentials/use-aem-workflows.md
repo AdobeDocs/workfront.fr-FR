@@ -6,16 +6,18 @@ description: Utiliser des workflows dans l’intégration d’Experience Manager
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Utiliser des workflows dans l’intégration d’Experience Manager Assets
 
-Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. Un administrateur ou une administratrice Workfront peut configurer des workflows dans Workfront, puis les affecter à des modèles de projet. Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est affecté, les actions définies dans le workflow sont déclenchées.
+Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. Un administrateur Workfront peut configurer des workflows dans Workfront, puis les affecter à des modèles de projet.
+
+Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est affecté, les actions définies dans le workflow sont déclenchées.
 
 >[!NOTE]
 >
