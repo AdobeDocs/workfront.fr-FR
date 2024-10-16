@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 52%
+source-wordcount: '1314'
+ht-degree: 49%
 
 ---
 
@@ -35,10 +35,10 @@ Cet exemple montre comment appeler l’API Workfront et importer les données du
 1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites glisser le champ vers une section du canevas.
 1. Saisissez l’**étiquette** et le **nom** pour le champ.
 1. Sélectionnez le **format** pour le champ.
-1. Saisissez l’appel à l’URL de l’API dans le champ **URL API de base**.
+1. Saisissez l’appel API dans le champ **URL de l’API de base**.
 
-   * Vous pouvez ajouter $$HOST pour faire référence à la même instance.
-   * Vous pouvez ajouter $$QUERY pour filtrer les résultats en fonction de l’interrogation d’un champ différent.
+   * Pour référencer la même instance de Workfront que celle du formulaire personnalisé, utilisez $$HOST pour l’URL.
+   * Pour filtrer les résultats en fonction de l’interrogation d’un autre champ, ajoutez $$QUERY.
 
    **Exemple**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
