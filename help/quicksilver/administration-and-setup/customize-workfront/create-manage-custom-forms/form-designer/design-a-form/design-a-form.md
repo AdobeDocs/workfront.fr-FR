@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
 source-wordcount: '5575'
 ht-degree: 88%
@@ -16,8 +16,6 @@ ht-degree: 88%
 ---
 
 # Concevoir un formulaire avec le concepteur de formulaire
-
-{{highlighted-preview}}
 
 Vous pouvez concevoir un formulaire personnalisé à l’aide du créateur de formulaire. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données en rapport avec ces objets.
 
@@ -93,7 +91,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Vous pouvez utiliser des champs nouveaux ou existants lors de la conception de votre formulaire personnalisé.
 
-<span class="preview"> Les formulaires personnalisés sont limités à 500 champs. Un compteur en bas à gauche indique le nombre de champs utilisés dans le formulaire et il est toujours visible lorsque vous faites défiler le concepteur de formulaire.</span>
+Les formulaires personnalisés sont limités à 500 champs. Un compteur en bas à gauche indique le nombre de champs utilisés dans le formulaire. Il est toujours visible lorsque vous faites défiler le concepteur de formulaires.
 
 ### Réutiliser un champ ou un widget existant déjà utilisé dans un autre formulaire personnalisé
 

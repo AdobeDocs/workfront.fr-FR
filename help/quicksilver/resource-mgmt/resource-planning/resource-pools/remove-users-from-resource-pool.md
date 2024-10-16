@@ -1,21 +1,19 @@
 ---
 product-area: resource-management
 navigation-topic: resource-pools
-title: Supprimer des personnes des groupes de ressources
+title: Suppression d’utilisateurs des groupes de ressources
 description: Même si un groupe de ressources peut contenir un nombre illimité de personnes, la liste des personnes n’affiche que les 2 000 premières personnes, classées par ordre alphabétique.
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 92%
+source-wordcount: '318'
+ht-degree: 85%
 
 ---
 
 # Supprimer des personnes des groupes de ressources
-
-{{preview-and-fast-release-Q424}}
 
 Même si un groupe de ressources peut contenir un nombre illimité de personnes, la liste des personnes n’affiche que les 2 000 premières personnes, classées par ordre alphabétique.
 
@@ -73,15 +71,10 @@ Ou\
    Ou\
    Commencez à saisir le nom d’une entreprise, d’une fonction, d’une équipe ou d’un groupe si vous souhaitez supprimer toutes les personnes associées à ces entités.
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :<span>
-
    ![Supprimer des utilisateurs du pool de ressources](assets/remove-users-from-resource-pool.png)
 
-   Exemple d’image dans l’environnement de production :
-   ![Recherche dans le pool de ressources](assets/search-inside-new-resource-pool-350x314.png)
-
-1. Cliquez sur l’icône « x » au niveau de la personne pour supprimer une personne du groupe de ressources. Les personnes seront supprimées de toutes les listes dans lesquelles elles figurent.\
-   Ou\
-   Pour supprimer toutes les personnes associées à une fonction, à un groupe, à une équipe ou à une entreprise, cliquez sur **Supprimer** au niveau de la fonction, du groupe, de l’équipe ou de l’entreprise. Cette opération supprime du groupe de ressources toutes les personnes associées à cette fonction, à ce groupe, à cette équipe ou à cette entreprise.
+1. Cliquez sur l’icône X au niveau de l’utilisateur pour supprimer un utilisateur du pool de ressources. Les personnes seront supprimées de toutes les listes dans lesquelles elles figurent.
+   <!--Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
 
 1. Cliquer sur **Enregistrer**.
