@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 99%
+source-wordcount: '2110'
+ht-degree: 96%
 
 ---
 
@@ -193,15 +193,22 @@ Activer le paramètre **[!UICONTROL Autoriser les utilisateurs et utilisatrices 
 
 Lorsque ce paramètre est activé, les utilisateurs et les utilisatrices peuvent voir les éléments suivants :
 
-* Le lien [!UICONTROL Déléguer] dans leur zone [!UICONTROL Accueil]. Les utilisateurs et les utilisatrices peuvent y déléguer des affectations d’approbations, de tâches et de problèmes.
+* Le lien [!UICONTROL **Déléguer**] dans leurs widgets [!UICONTROL Mon travail], [!UICONTROL Mes tâches] ou [!UICONTROL Mes problèmes] dans la zone [!UICONTROL Accueil]. Ils peuvent y déléguer des tâches et des affectations d’émission.
+
+  >[!NOTE]
+  >
+  >  Le lien [!UICONTROL **Déléguer les approbations**] est toujours activé dans la zone [!UICONTROL Accueil].
+
 * Indication qu’une tâche ou un problème fait l’objet d’une délégation à un autre utilisateur ou une autre utilisatrice dans la zone [!UICONTROL Affectations et délégations] dans l’en-tête de la tâche ou du problème.
+* Une indication qu’une tâche ou un problème est délégué à un autre utilisateur dans son widget [!UICONTROL My Work] dans [!UICONTROL Home].
 
   Si vous désactivez le paramètre [!UICONTROL Autoriser les utilisateurs et utilisatrices à déléguer leurs tâches et problèmes], les délégations actuellement programmées s’arrêteront et les personnes déléguées recevront une notification par e-mail indiquant que la délégation a été arrêtée.
 
 Pour plus d’informations sur la délégation de tâches, consultez les articles suivants :
 
 * [Vue d’ensemble de la délégation de travail](../../../manage-work/delegate-work/delegate-work-overview.md)
-* [Gérer la délégation des tâches et des problèmes](../../../manage-work/delegate-work/how-to-delegate-work.md)
+* [Déléguer des tâches et problèmes](../../../manage-work/delegate-work/how-to-delegate-work.md)
+
 
 <!--
 <p><strong>Work On It</strong></p>

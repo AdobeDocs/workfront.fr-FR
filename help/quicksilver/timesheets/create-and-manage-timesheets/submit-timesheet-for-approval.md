@@ -1,15 +1,15 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Soumettre une feuille de temps pour approbation
+title: Envoyer une feuille de temps pour approbation
 description: En soumettant votre feuille de temps à l’approbation de votre supérieur ou supérieure, vous lui donnez une visibilité sur vos heures de travail. Les personnes approbatrices peuvent vérifier que toutes les heures enregistrées ont été affectées aux domaines corrects et qu’un nombre suffisant d’heures a été enregistré pour la période concernée.
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 87%
+source-wordcount: '855'
+ht-degree: 84%
 
 ---
 
@@ -34,8 +34,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Light ou supérieur </p>
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Nouveau : Léger ou supérieur </p>
    <p>Actuel : Révision ou supérieur </p>
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +72,7 @@ Pour soumettre une feuille de temps à l’approbation :
 
    Le bouton **Soumettre pour approbation** est remplacé par les boutons **Approuver**, **Rejeter** et **Rappeler**. Le statut de la feuille de temps devient **Soumis**.
 
-   Lorsque votre feuille de temps est soumise pour approbation, la personne approbatrice voit la feuille de temps listée dans la zone **Approbations** sur la page **Accueil**. Les choses suivantes peuvent se produire :
+   Lorsque votre feuille de temps est soumise à approbation, l’approbateur voit la feuille de temps répertoriée dans le widget **Mes approbations** de la zone **Accueil**. Les choses suivantes peuvent se produire :
 
    * Si elle l’approuve, le bouton **Rappeler** devient **Réouvrir** et le statut de la feuille de temps devient **Ouvrir**.
    * S’ils le rejettent, le bouton **Soumettre pour approbation** remplace le bouton **Rappeler** et l’état de la feuille de temps est mis à jour vers **Refusé**.

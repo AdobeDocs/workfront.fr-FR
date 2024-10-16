@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 43%
+source-wordcount: '709'
+ht-degree: 44%
 
 ---
 
@@ -30,7 +30,7 @@ Toutes les modifications que vous apportez à un espace de travail sont visibles
 
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
-Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 

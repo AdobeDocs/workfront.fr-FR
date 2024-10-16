@@ -2,19 +2,21 @@
 product-area: reporting
 keywords: utilisateur ou utilisatrice,délégation,rapport,déléguer,approbation
 navigation-topic: create-and-manage-reports
-title: Créer un rapport sur la délégation d’utilisateurs et d’utilisatrices
+title: Création d’un rapport de délégation d’utilisateur
 description: Créer un rapport sur la délégation d’utilisateurs et d’utilisatrices
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 100%
+source-wordcount: '383'
+ht-degree: 98%
 
 ---
 
 # Créer un rapport sur la délégation d’utilisateurs et d’utilisatrices
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
@@ -39,6 +41,8 @@ Pour en savoir plus sur la délégation des approbations, voir [Déléguer une d
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -46,12 +50,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nouveau : Standard </p>
+   <p>Actuel : formule </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès*</td> 
@@ -59,12 +64,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations d’affichage des éléments dont les approbations sont déléguées et des personnes impliquées dans la délégation.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations d’affichage des éléments dont les approbations sont déléguées et des personnes impliquées dans la délégation.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
++++
 
 ## Créer un rapport sur la délégation d’utilisateurs et d’utilisatrices
 
@@ -79,14 +85,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    |---|---|
    | **De Utilisateur ou utilisatrice** | Personne qui délègue ses approbations de tâches, de problèmes et de projets à une autre personne. |
    | **À Utilisateur ou utilisatrice** | Personne à laquelle sont déléguées les approbations de tâches, de problèmes et de projets. |
-   | **Début** | Début de l’heure d’absence du bureau pour la personne qui a effectué les délégations. |
-   | **Fin** | Fin de l’heure d’absence du bureau pour la personne qui a effectué les délégations. |
+   | **Date de début** | Début de l’heure d’absence du bureau pour la personne qui a effectué les délégations. |
+   | **Date de fin** | Fin de l’heure d’absence du bureau pour la personne qui a effectué les délégations. |
 
    {style="table-layout:auto"}
 
 1. (Facultatif) Dans le générateur de rapports, modifiez les éléments suivants :
 
-   * Colonnes
+   * Colonnes (Affichage)
    * Regroupements
    * Filtres
    * Graphique
@@ -94,7 +100,5 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    Pour en savoir plus sur ces fonctionnalités, voir [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Une fois le rapport terminé, cliquez sur **Enregistrer et fermer**.
-
-1. Saisissez un nouveau nom dans le champ **Nom du rapport**, puis cliquez sur **Enregistrer le rapport**.
 
    Le rapport s’affiche.

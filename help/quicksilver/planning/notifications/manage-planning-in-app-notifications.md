@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 23%
+source-wordcount: '436'
+ht-degree: 26%
 
 ---
 
@@ -30,7 +30,7 @@ Vous pouvez recevoir des notifications in-app de la planification Workfront lors
 
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
-Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 

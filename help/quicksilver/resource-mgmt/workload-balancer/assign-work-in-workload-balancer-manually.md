@@ -7,10 +7,10 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 95%
+source-wordcount: '721'
+ht-degree: 94%
 
 ---
 
@@ -105,7 +105,7 @@ Vous pouvez affecter des tâches qui n’ont pas encore été attribuées à un 
 
    >[!TIP]
    >
-   > Si la fonction de délégation a été activée par l’équipe d’administration de Workfront ou de groupes dans votre environnement, utilisez l’onglet des affectations pour affecter des utilisateurs et des utilisatrices à la tâche ou au problème. L’onglet « Délégations » permet d’afficher les utilisateurs et les utilisatrices qui sont délégués à l’élément de travail. Pour plus d’informations sur la délégation de tâches, consultez la section [Gérer la délégation des tâches et des problèmes](../../manage-work/delegate-work/how-to-delegate-work.md).
+   > Si la fonction de délégation a été activée par l’équipe d’administration de Workfront ou de groupes dans votre environnement, utilisez l’onglet des affectations pour affecter des utilisateurs et des utilisatrices à la tâche ou au problème. L’onglet « Délégations » permet d’afficher les utilisateurs et les utilisatrices qui sont délégués à l’élément de travail. Pour plus d’informations sur la délégation de travail, voir [Délégation de tâches et de problèmes](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 
    Cette opération permet d’attribuer ou de réattribuer l’élément de travail aux destinataires spécifiés.

@@ -5,10 +5,11 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 635045c5-17e6-483e-912b-4e9617571137
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 11%
+source-wordcount: '658'
+ht-degree: 13%
 
 ---
 
@@ -30,7 +31,7 @@ Pour plus d’informations sur la façon dont un gestionnaire d’espace de trav
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -136,8 +137,3 @@ Les éléments suivants doivent être en place avant de pouvoir envoyer une requ
 1. Cliquez sur **Soumettre**.
 
    Votre formulaire est envoyé et un nouvel enregistrement est ajouté au type d’enregistrement associé au formulaire.
-
-
-
-
-

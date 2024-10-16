@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 55%
+source-wordcount: '503'
+ht-degree: 58%
 
 ---
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur les types d’enregistrement, voir [Présentation
 
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
-Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 

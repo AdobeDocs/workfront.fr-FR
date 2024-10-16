@@ -1,15 +1,15 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Approuver une feuille de temps
+title: Approbation d’une feuille de calcul
 description: Le processus d’approbation des feuilles de temps permet aux personnes responsables d’avoir une visibilité sur les heures de travail des personnes travaillant sous leur supervision directe. Les personnes approbatrices peuvent vérifier que toutes les heures consignées ont été affectées aux domaines corrects et qu’un nombre suffisant d’heures a été consigné pour la période.
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 75%
+source-wordcount: '686'
+ht-degree: 53%
 
 ---
 
@@ -67,15 +67,20 @@ Pour plus d’informations sur la désignation des personnes approbatrices des f
 
 ## Approuver une feuille de temps
 
-Vous pouvez approuver toutes les feuilles de temps qui ont été soumises et pour lesquelles vous êtes une personne approbatrice. Lorsqu’une feuille de temps est soumise à approbation, elle est répertoriée dans la zone **Approbations** de votre page **Accueil**. Pour plus d’informations, voir [Approuver un travail](../../review-and-approve-work/manage-approvals/approving-work.md).
+Vous pouvez approuver toutes les feuilles de temps qui ont été soumises et pour lesquelles vous êtes une personne approbatrice. Lorsqu’une feuille de temps est soumise à approbation, elle est répertoriée dans le widget **Mes approbations** de votre zone **Accueil**. Pour plus d’informations, voir [Approuver un travail](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-Si l’administrateur ou administratrice Workfront a activé les gestionnaires d’événements Approbation de la feuille de temps à l’utilisateur ou utilisatrice et Rejet de la feuille de temps à l’utilisateur ou utilisatrice, vous recevez une notification lorsque la feuille de temps est approuvée ou rejetée. Pour plus d’informations sur l’activation des notifications d’événements, voir [Types de notifications d’événements](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Si les paramètres de notification suivants sont en place, l’utilisateur qui envoie la feuille de temps pour approbation reçoit un courrier électronique après la validation d’une feuille de temps :
 
-Pour approuver une feuille de temps :
+* L’administrateur Workfront a activé l’approbation de la feuille de temps pour l’utilisateur et le rejet de la feuille de temps pour les gestionnaires d’événements User. Pour plus d’informations sur l’activation des notifications d’événements, voir [Types de notifications d’événements](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+* La notification personnelle &quot;Ma feuille de temps&quot; est activée sur la page de profil de l’utilisateur. Pour plus d’informations, consultez la section [Modifier vos propres notifications par e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+### Approbation d’une feuille de temps à partir de la zone Feuilles de temps
 
 {{step1-to-timesheets}}
 
 La zone **Fiches horaires** s’ouvre.
+
+1. (Conditionnel) Si la dernière fois que vous avez accédé s’ouvre, cliquez sur **Retour à la feuille de temps** dans le coin supérieur gauche de l’écran.
 
 1. Sélectionnez **Mes approbations de feuille de temps** dans le coin supérieur droit de la page pour afficher uniquement les feuilles de temps que vous avez approuvées.
 
@@ -87,11 +92,9 @@ La zone **Fiches horaires** s’ouvre.
 
    >[!NOTE]
    >
-   >L’option Mes approbations de feuille de temps ne s’affiche pas en haut de la liste des feuilles de temps ni dans la liste des filtres si votre administrateur Workfront ou un administrateur de groupe a supprimé le filtre Mes approbations de feuille de temps des commandes de liste de la zone Configuration ou de votre modèle de mise en page. Pour plus d’informations, voir les articles suivants :
+   >L’option Mes approbations de feuille de temps ne s’affiche pas en haut de la liste des feuilles de temps ni dans la liste des filtres si votre administrateur Workfront ou un administrateur de groupe a supprimé le filtre Mes approbations de feuille de temps des commandes de liste de la zone Configuration ou de votre modèle de mise en page.
    >
-   >   
-   >   
-   >   * [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >Pour plus d’informations, voir [Personnalisation des filtres, des vues et des groupes à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -112,3 +115,21 @@ La zone **Fiches horaires** s’ouvre.
    En cas d’approbation, le statut de la feuille de temps devient **Clos**.
 
    En cas de rejet, le statut de la feuille de temps devient **Rejeté**.
+
+### Approuver une feuille de calcul à partir de la zone Accueil
+
+{{step1-to-home}}
+
+La zone Accueil s’ouvre.
+
+1. Assurez-vous que le widget **Mes approbations** a été ajouté à votre zone d’accueil. Pour plus d’informations, voir [Ajout, modification ou suppression de widgets dans Nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+1. Recherchez une approbation de feuille de temps dans votre widget Mes approbations .
+1. (Facultatif) Développez le menu déroulant à droite des boutons Approuver ou Rejeter pour ajouter un commentaire sur votre décision, puis cliquez sur **Ajouter**.
+1. Cliquez sur l’un des boutons suivants pour effectuer votre décision de validation :
+
+   * Approuver
+   * Rejeter
+
+   L’approbation est supprimée du widget **Mes approbations**.
+
+

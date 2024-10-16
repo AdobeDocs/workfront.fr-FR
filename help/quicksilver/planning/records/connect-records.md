@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2713'
-ht-degree: 50%
+source-wordcount: '2793'
+ht-degree: 49%
 
 ---
 
@@ -56,7 +56,7 @@ Vous pouvez connecter les éléments suivants :
 
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
-Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,12 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <p> Produits</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
+   <li><p> Planification d’Adobe Workfront<p></li>
+   <li><p>Adobe Experience Manager Assets, si vous souhaitez connecter AEM ressources à des enregistrements de planification<p>
+   <p>Vous devez disposer d’une licence Adobe Experience Manager Assets et d’une intégration entre AEM Assets et Workfront.
+    Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials : article index</a>. </p>
+   </li>  
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
@@ -146,7 +151,7 @@ Vous pouvez connecter des enregistrements à partir de Workfront Planning dans l
 * Prévisualisation ou page de l’enregistrement dans les champs d’enregistrement connectés dans l’onglet Détails .
 * Aperçu ou page de l’enregistrement dans l’onglet Connexions .
 
-### Connexion des enregistrements de planification Adobe Workfront depuis la vue Tableau ou l’onglet Détails de la page d’enregistrement
+### Connexion des enregistrements de planification Adobe Workfront depuis la vue Tableau ou la zone Détails
 
 {{step1-to-planning}}
 
@@ -164,6 +169,11 @@ Vous pouvez connecter des enregistrements à partir de Workfront Planning dans l
 
    * Cliquez sur le nom d’un enregistrement connecté dans la liste pour l’ajouter à l’enregistrement sélectionné. L’enregistrement est ajouté automatiquement.
    * Commencez à saisir le nom d’un enregistrement et cliquez dessus lorsqu’il s’affiche dans la liste. L’enregistrement est ajouté automatiquement.
+
+   >[!TIP]
+   >
+   >    Si seule l’image de l’enregistrement a été sélectionnée pour s’afficher lorsque les types d’enregistrement ont été connectés, seule la miniature ou l’icône de l’enregistrement s’affiche dans le champ connecté. Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+
 
 1. (Facultatif) Si vous ne trouvez pas d’enregistrement ou d’objet à connecter et que vous souhaitez l’ajouter, cliquez sur **+ Ajouter** pour ajouter un nouvel enregistrement. Pour plus d’informations, reportez-vous à la section &quot;Créer des enregistrements lors de leur connexion&quot; dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 

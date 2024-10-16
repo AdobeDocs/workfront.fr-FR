@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 14%
+source-wordcount: '614'
+ht-degree: 16%
 
 ---
-
 
 # Demande d’autorisations pour une vue ou un espace de travail
 
@@ -38,7 +38,7 @@ Pour plus d’informations sur l’octroi d’autorisations aux vues et aux espa
 
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
-Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -131,5 +131,3 @@ Lorsqu’une personne partage avec vous un lien vers un espace de travail ou une
      ![](assets/email-notification-for-access-request.png)
 
 1. (Conditionnel) Lorsque le gestionnaire d’affichage ou d’espace de travail vous accorde des autorisations pour l’affichage ou l’espace de travail, vous recevez une notification par e-mail et une notification in-app confirmant que l’autorisation a été accordée. <!--check this - I was not able to test this, but Isk confirmed.-->
-
-

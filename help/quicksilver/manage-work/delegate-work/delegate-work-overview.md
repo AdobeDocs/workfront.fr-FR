@@ -7,10 +7,10 @@ description: Lorsque vous prévoyez de quitter le bureau pendant une courte pér
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 96%
+source-wordcount: '898'
+ht-degree: 92%
 
 ---
 
@@ -30,13 +30,18 @@ Vous pouvez déléguer les objets suivants dans [!DNL Adobe Workfront] :
 * Problèmes qui vous sont affectés.
 * Approbations de projet, de tâche ou d’émission qui vous ont été affectées.
 
-Cet article présente des informations générales sur la délégation des tâches et des problèmes.
+  >[!TIP]
+  >
+  >   Vous ne pouvez pas déléguer l’approbation des feuilles de temps, des documents ou des épreuves.
+
+
+Cet article contient des informations générales sur la délégation des tâches et des problèmes qui vous sont affectés.
 
 Pour plus d’informations sur la délégation des approbations de projet, de tâche et de problème, voir [Déléguer la demande d’approbation](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 Pour plus d’informations sur la façon de déléguer des tâches et des problèmes, voir [Délégation de tâches et de problèmes](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-## Vue d’ensemble de la délégation de travail
+## Vue d’ensemble de la délégation des tâches et des problèmes
 
 Tenez compte des points suivants lorsque vous déléguez des tâches et des problèmes :
 
@@ -62,7 +67,7 @@ Tenez compte des points suivants lorsque vous déléguez des tâches et des prob
 * Si d’autres tâches et problèmes vous sont affectés au cours de la période que vous avez sélectionnée pour que votre travail soit délégué à d’autres personnes, la nouvelle tâche affectée est automatiquement déléguée à la même personne pendant la période que vous avez sélectionnée si les dates pour la tâche ou le problème se situent dans la même période.
 * Une même personne déléguée peut être choisie par plusieurs personnes différentes.
 * Les tâches et problèmes délégués ne s’affichent pas dans les outils de gestion des ressources, tels que l’[!UICONTROL Équilibreur de charge de travail] ou le [!UICONTROL Planificateur de ressources] pour les personnes déléguées.
-* Vous pouvez afficher les noms des tâches déléguées et des personnes déléguées dans plusieurs zones de [!DNL Workfront].Pour plus d’informations, consultez la section « Localiser le travail délégué et les informations sur les personnes déléguées » dans l’article [Gérer la délégation des tâches et des problèmes](../delegate-work/how-to-delegate-work.md).
+* Vous pouvez afficher les noms des tâches déléguées et des personnes déléguées dans plusieurs zones de [!DNL Workfront]. Pour plus d’informations, voir la section &quot;Localisation du travail délégué et informations sur les délégués&quot; dans l’article [Déléguer les tâches et problèmes](../delegate-work/how-to-delegate-work.md).
 
 
   >[!IMPORTANT]

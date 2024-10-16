@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 88%
+source-wordcount: '1091'
+ht-degree: 66%
 
 ---
 
 # Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page
+
+<!--Audited: 10/2024-->
 
 Dans un modèle de mise en page, vous pouvez personnaliser ce que les personnes voient dans la zone du panneau de gauche dans l’ensemble d’[!DNL Adobe Workfront].
 
@@ -68,26 +70,19 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 ## Personnaliser le panneau de gauche d’une zone dans [!DNL Workfront] :
 
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) sous **[!UICONTROL Personnaliser ce que les personnes voient]**, puis cliquez sur le panneau de gauche que vous souhaitez personnaliser.
+1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) sous **[!UICONTROL Personnaliser ce que les utilisateurs voient]**, puis cliquez sur le nom d’un type d’objet ou d’une zone [!DNL Workfront] dont vous souhaitez personnaliser le panneau de gauche.
 
-   >[!NOTE]
-   >
-   >Pour plus d’informations sur l’option [!UICONTROL Accueil] dans cette liste déroulante, voir [Personnaliser l’[!UICONTROL Accueil] et le [!UICONTROL Résumé] à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Pour plus d’informations sur l’option Listes, voir [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   Les types d’objet et les zones [!DNL Workfront] dont vous pouvez personnaliser le panneau de gauche sont répertoriés dans le tableau suivant :
 
-1. Dans la liste **[!UICONTROL Panneau de gauche]**, effectuez l’une des opérations suivantes pour déterminer ce que verront les personnes dans le panneau de gauche pour l’option (zone ou type d’objet [!DNL Workfront]) que vous avez sélectionnée :
-
-   * Affichez ![](assets/add-secondary-nav-item.png) ou masquez ![](assets/delete-secondary-nav-item.png) des éléments. Tout élément sans ![](assets/add-secondary-nav-item.png) ou ![](assets/delete-secondary-nav-item.png) ne peut pas être masqué.
-
-   * Faites glisser des éléments ![](assets/move-icon---dots.png) pour modifier leur ordre dans le panneau de gauche.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>Option</th> 
+      <th>Type d’objet ou zone [!DNL Workfront]</th> 
       <th>Lorsque les personnes cliquent sur ce qui suit...</th> 
-      <th>Elles affichent les éléments du panneau de gauche que vous choisissez parmi les suivants :</th> 
+      <th>Sections du panneau de gauche que les utilisateurs voient après leur affichage dans le modèle de mise en page :</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -206,31 +201,45 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
    *Votre entreprise doit acquérir une licence supplémentaire pour Workfront Planning afin de pouvoir ajouter cette zone au panneau de gauche des projets, portefeuilles et programmes. Pour plus d’informations, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md)
 
+
+1. Dans la liste **[!UICONTROL Panneau de gauche]**, effectuez l’une des opérations suivantes pour déterminer ce que les utilisateurs verront dans le panneau de gauche pour la zone [!DNL Workfront] ou le type d’objet sélectionné :
+
+   * Cliquez sur les icônes **Afficher** ![](assets/add-secondary-nav-item.png) ou **Masquer** ![](assets/delete-secondary-nav-item.png) pour afficher ou masquer les sections dans le panneau de gauche. Vous ne pouvez pas masquer les éléments qui n’ont pas d’icône **Afficher** ou **Masquer** .
+
+   * Faites glisser des éléments ![](assets/move-icon---dots.png) pour modifier leur ordre dans le panneau de gauche.
+
    >[!NOTE]
    >
-   >Les trois derniers éléments de la liste déroulante **[!UICONTROL Personnaliser ce que les utilisateurs et utilisatrices voient]** ([!UICONTROL Listes], [!UICONTROL Accueil et résumé], et [!UICONTROL Branding]) sont destinés à la configuration de zones autres que le panneau de gauche. Pour plus d’informations à leur sujet, voir ces articles :
+   >Les éléments suivants de la liste déroulante **[!UICONTROL Personnaliser ce que les utilisateurs voient]** se rapportent à des zones autres que le panneau de gauche :
+   >* [!UICONTROL Listes]
+   >* [!UICONTROL Panneau Résumé]
+   >* [!UICONTROL Accueil]
+   >* [!UICONTROL Branding]
+   > 
+   >Pour plus d’informations sur la personnalisation des zones supplémentaires, consultez les articles suivants :
    >
    >* [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [Personnaliser [!UICONTROL Accueil] et [!UICONTROL résumé] à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Personnaliser le [!UICONTROL panneau de résumé] à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Personnaliser l’accueil à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    >* [Personnaliser le branding Adobe  [!DNL Workfront]  à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Facultatif) Si vous souhaitez ajouter un élément du panneau de gauche lié à l’un des tableaux de bord de votre entreprise, cliquez sur **[!UICONTROL Ajouter une section personnalisée]**, saisissez un **[!UICONTROL titre de la section personnalisée]** pour l’élément, puis ajoutez le tableau de bord.
 
-   Les éléments du tableau de bord s’affichent au bas du panneau de gauche. Les utilisateurs et utilsiatrices voient le titre de la section personnalisée que vous tapez en regard de l’élément du tableau de bord lorsqu’ils pointent sur le panneau de gauche.
+   Les éléments du tableau de bord s’affichent au bas du panneau de gauche. Les utilisateurs voient le titre de la section personnalisée que vous tapez en regard de l’élément du tableau de bord lorsqu’ils le survolent avec la souris dans le panneau de gauche.
 
    >[!NOTE]
    >
-   >Les utilisateurs et utilisatrices peuvent ajouter des éléments de tableau de bord personnalisés à leur propre panneau de gauche. Lorsque vous ajoutez des éléments de tableau de bord personnalisés dans un modèle de mise en page, vos éléments fusionnent avec les leurs, sans les remplacer ni les réinitialiser. Cela est également vrai si vous affectez des utilisateurs et utilisatrices à un nouveau modèle de mise en page avec des éléments de tableau de bord personnalisés. Pour plus d’informations sur la personnalisation du panneau de gauche par les utilisateurs et utilisatrices, voir [Créer des onglets ou sections personnalisés](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
-
-   Pour plus d’informations sur les tableaux de bord, voir [Tableaux de bord](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
+   >Les utilisateurs et utilisatrices peuvent ajouter des éléments de tableau de bord personnalisés à leur propre panneau de gauche. Lorsque vous ajoutez des éléments de tableau de bord personnalisés dans un modèle de mise en page, les éléments s’affichent en plus de ceux qu’ils ajoutent, sans les remplacer ni les réinitialiser. Cela est également vrai si vous affectez des utilisateurs et utilisatrices à un nouveau modèle de mise en page avec des éléments de tableau de bord personnalisés. Pour plus d’informations sur la personnalisation du panneau de gauche par les utilisateurs et utilisatrices, voir [Créer des onglets ou sections personnalisés](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >
+   >Pour plus d’informations sur les tableaux de bord, voir [Tableaux de bord](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
 1. Poursuivez la personnalisation du modèle de mise en page.
 
    Ou
 
-   Si vous avez terminé la personnalisation, cliquez sur **[!UICONTROL Enregistrer]**.
+   Si vous avez terminé de personnaliser, cliquez sur **[!UICONTROL Enregistrer]**.
 
    >[!TIP]
    >
-   >Vous pouvez cliquer sur [!UICONTROL Enregistrer] à tout moment pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.
+   >Vous pouvez cliquer à tout moment sur [!UICONTROL **Enregistrer**] pour enregistrer votre progression, ce qui ferme l’éditeur de modèles de mise en page, puis continuer à modifier le modèle ultérieurement.

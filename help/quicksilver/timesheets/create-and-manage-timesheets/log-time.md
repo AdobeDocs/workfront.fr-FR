@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '3830'
-ht-degree: 89%
+source-wordcount: '3650'
+ht-degree: 88%
 
 ---
 
@@ -46,9 +46,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : </p>
-   <p>Clair ou plus pour consigner les heures sur un projet, une tâche, un problème ou les Heures générales sur une feuille de temps</p>
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Nouveau : clair ou supérieur pour consigner les heures sur un projet, une tâche, un problème ou les heures générales sur une feuille de temps</p>
    <p>Actuel : 
    <ul><li>Autorisations Réviser ou supérieures pour consigner les heures générales dans une feuille de temps.</li>
    <li>Travail ou supérieur pour consigner les heures liées à un projet, à une tâche ou à un problème</li></ul> </td> 
@@ -64,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -338,36 +337,36 @@ Vous pouvez consigner les heures consacrées à un projet spécifique dans la pa
 Pour obtenir des informations générales sur l’utilisation de la zone d’accueil, voir [Utilisation de la zone d’accueil](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 
-#### Consigner les heures consacrées à un élément de travail depuis la nouvelle zone d’accueil
+<!--#### Log time on a work item from the new Home area-->
 
 Vous pouvez consigner les heures consacrées aux tâches et aux problèmes dans un widget à l’aide du panneau Résumé de la zone Accueil. Pour plus d’informations, voir la section [Panneau Résumé](#summary-panel) de cet article.
 
 En outre, pour consigner les heures consacrées à un élément dans le widget Mon travail :
 
-1. Accédez à la zone **Accueil**.
+1. Accédez à la zone **Home**.
 1. Ajoutez le widget **Mon travail** à votre page d’accueil.
-1. (Facultatif) Sélectionnez une tâche, un problème ou une demande dans une liste, puis cliquez sur **Travailler dessus**.
+1. (Facultatif) Sélectionnez une tâche, un problème ou une requête dans une liste, puis cliquez sur **Travailler dessus**.
 1. Pointez sur la tâche ou le problème pour lequel vous souhaitez consigner des heures, puis cliquez sur l’icône **Consigner des heures** ![](assets/log-time-icon-in-new-home.png) à droite des informations relatives à la tâche.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
 1. Cliquez sur **Consigner des heures**.
 
-   Les heures consignées s’affichent dans la section Heures de l’objet, ainsi que dans votre feuille de temps.
+   L’heure consignée s’affiche dans la section Heures de l’objet, ainsi que dans votre feuille de temps.
 
-#### Consigner les heures consacrées à un élément de travail depuis la zone d’accueil héritée
+<!--#### Log time on a work item from the legacy Home area
 
-1. Dans la zone **Liste de travail**, sélectionnez l’élément dans lequel vous souhaitez consigner les heures.
-1. Dans le panneau de droite, cliquez sur **Consigner des heures**.
+1. In the **Work List** area, select the item where you want to log time.
+1. In the right panel, click **Log Time**.  
+  
+   ![](assets/log-time-home-350x181.png)  
 
-   ![](assets/log-time-home-350x181.png)
+1. In the **Enter Hours** drop-down menu, select the appropriate hour type.  
+   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. Specify the time you want to log, then click **Log Time**.
 
-1. Dans le menu déroulant **Saisir les heures**, sélectionnez le type d’heure approprié.\
-   Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section [Définition des types d’heures et disponibilité](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
-1. (Le cas échéant) Si votre administrateur ou administratrice Workfront ou de groupes a activé le paramètre **Attribuer manuellement des fonctions aux entrées d’heures**, sélectionnez une fonction dans le menu déroulant. La fonction qui vous a été affectée pour l’élément de travail s’affiche par défaut. Si aucun rôle ne vous est attribué sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d&#39;informations sur ce paramètre, voir l&#39;article [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-1. Spécifiez les heures que vous souhaitez consigner, puis cliquez sur **Consigner des heures**.
-
-   Les heures consignées s’affichent dans la section Heures de l’objet, ainsi que dans votre feuille de temps.
+   The logged time displays in the object's Hours section, nad in your timesheet. -->
 
 ### Projet, tâche ou problème {#project-task-or-issue}
 

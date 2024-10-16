@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 14%
+source-wordcount: '1237'
+ht-degree: 16%
 
 ---
 
@@ -31,7 +31,7 @@ Pour plus d’informations sur l’envoi d’une demande à un type d’enregist
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>

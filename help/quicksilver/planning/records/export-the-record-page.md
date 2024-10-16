@@ -6,20 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 29%
+source-wordcount: '480'
+ht-degree: 22%
 
 ---
 
 # Exporter les détails d’un enregistrement
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles ne sont disponibles que dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur la version actuelle, consultez la section [Vue d’ensemble de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 
 Pour collaborer plus efficacement avec d’autres utilisateurs qui ne disposent pas d’un compte Workfront, vous pouvez exporter les détails d’un enregistrement vers un fichier et le partager avec eux.
@@ -28,7 +28,7 @@ Pour collaborer plus efficacement avec d’autres utilisateurs qui ne disposent 
 
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
-Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -156,7 +156,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 * Vous pouvez exporter les détails d’un enregistrement vers les formats de fichier suivants :
 
    * .docx Word
-   * <span class="preview">.pdf</span>
+   * pdf
 
 * Vous pouvez exporter l’onglet Détails de la page d’un enregistrement. Vous ne pouvez pas exporter l’onglet Connexions .
 
@@ -184,9 +184,9 @@ La page de type enregistrement s’ouvre et tous les enregistrements de ce type 
 1. Cliquez sur l&#39;icône **Exporter** ![](assets/export-icon-in-record-details-page.png) dans la page d&#39;aperçu ou d&#39;enregistrement, puis cliquez sur l&#39;une des options suivantes :
 
    * **Microsoft Word**
-   * <span class="preview">**Adobe PDF**</span>
+   * **Adobe PDF**
 
-   Un fichier Word (.docx) <span class="preview"> ou un PDF</span> est téléchargé et enregistré sur votre ordinateur.
+   Un fichier Word (.docx) ou PDF est téléchargé et enregistré sur votre ordinateur.
 
    Le nom du fichier exporté est le champ de Principal de l’enregistrement.
 
@@ -194,7 +194,7 @@ La page de type enregistrement s’ouvre et tous les enregistrements de ce type 
 
    >[!NOTE]
    >
-   >    Les informations supplémentaires qui ne s’affichent pas sur la page et ne sont visibles qu’après avoir cliqué sur Afficher plus dans l’onglet Détails ne s’affichent pas dans le fichier de PDF exporté. Seules les informations visibles sur la page s’affichent dans le fichier exporté.
+   >    Les informations supplémentaires qui ne s’affichent pas sur la page et ne sont visibles qu’après avoir cliqué sur Afficher plus dans la zone des détails de l’enregistrement ne s’affichent pas dans le fichier de PDF exporté. Seules les informations visibles sur la page s’affichent dans le fichier exporté.
 
 
 1. (Facultatif) Accédez au fichier téléchargé, ouvrez-le et modifiez-le (s’il s’agit d’un fichier Word) ou partagez-le avec d’autres personnes.

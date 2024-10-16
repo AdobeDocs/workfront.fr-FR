@@ -6,17 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2222'
-ht-degree: 43%
+source-wordcount: '2248'
+ht-degree: 42%
 
 ---
 
 
 # Connecter des types d’enregistrements
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
 
 {{planning-important-intro}}
 
@@ -41,7 +41,7 @@ Pour un exemple de connexion de types d&#39;enregistrements et d&#39;enregistrem
 
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
-Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,7 +55,12 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <p> Produits</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
+   <li><p> Planification d’Adobe Workfront<p></li>
+   <li><p> Adobe Experience Manager Assets, si vous souhaitez connecter AEM ressources à des types d’enregistrement Planning<p>
+   <p>Vous devez disposer d’une licence Adobe Experience Manager Assets et d’une intégration entre AEM Assets et Workfront.
+    Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials : article index</a>. </p>
+   </li>
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
@@ -185,7 +190,8 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    * Autre type d’enregistrement de l’espace de travail actuel
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
+
      >[!TIP]
      >
      > 
@@ -194,7 +200,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    * Type d’enregistrement d’un autre espace de travail configuré pour se connecter à partir d’autres espaces de travail. Pour plus d’informations, voir [Modification des types d’enregistrement](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
      >[!TIP]
      >
@@ -207,7 +213,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    * **Experience Manager Assets** depuis la section **Adobe Applications**.
 
-     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
+     ![](assets/aem-assets-connection-selection.png)
 
 1. Mettez à jour les informations suivantes :
 
@@ -222,7 +228,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
      Cette option est disponible uniquement lors de la connexion d’enregistrements provenant de deux espaces de travail différents ou d’un enregistrement et d’un objet de ressource Adobe Experience Manager.
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * **Type de connexion** : sélectionnez l’une des options suivantes pour indiquer le nombre d’enregistrements auxquels ils peuvent se connecter et à partir de :
 
@@ -233,7 +239,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
      Cette option est disponible uniquement lors de la connexion d’enregistrements du même espace de travail ou d’un enregistrement et d’un type d’objet Workfront.
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
 
      Pour plus d’informations sur les types de connexions, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -262,9 +268,9 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
 1. (Conditionnel) Si vous avez choisi de vous connecter à Experience Manager Assets ou à un type d’enregistrement Workfront Planning, sélectionnez l’une des options suivantes dans la zone **Apparence d’enregistrement** :
 
-   * <span class="preview">**Nom et image** : le nom et la miniature ou l’icône des enregistrements connectés s’affichent dans le champ d’enregistrement connecté. Il s’agit de l’option par défaut. </span>
-   * <span class="preview">**Nom** : seul le nom des enregistrements connectés s’affichera dans le champ d’enregistrement connecté.</span>
-   * <span class="preview">**Image** : seule la miniature ou l’icône des enregistrements connectés s’affichera dans le champ d’enregistrement connecté.</span>
+   * **Nom et image** : le nom et la miniature ou l’icône des enregistrements connectés s’affichent dans le champ d’enregistrement connecté. Il s’agit de l’option par défaut.
+   * **Nom** : seul le nom des enregistrements connectés s’affichera dans le champ d’enregistrement connecté.
+   * **Image** : seule la miniature ou l’icône des enregistrements connectés s’affichera dans le champ d’enregistrement connecté.
 
    Les enregistrements sans miniature affichent à la place l’icône de type d’enregistrement . Un exemple d’affichage des enregistrements connectés s’affiche dans la zone **Apparence des enregistrements**.
 
@@ -276,7 +282,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    >
    >* La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objets Workfront.
    >
-   >* Ce que vous sélectionnez dans la zone d’affichage Enregistrement détermine la manière dont les enregistrements s’affichent dans les connexions partout dans le système, y compris toutes les vues et les pages de détails.
+   >* Ce que vous sélectionnez dans la zone Enregistrement de l’apparence détermine la manière dont les enregistrements s’affichent dans les connexions partout dans le système, y compris toutes les pages de vues et de détails.
 
 1. Cliquez sur **Créer**.
 
