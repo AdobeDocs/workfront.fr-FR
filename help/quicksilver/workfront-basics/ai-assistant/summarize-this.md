@@ -5,7 +5,7 @@ description: Vous pouvez rapidement résumer les éléments de travail et les do
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 17%
@@ -74,9 +74,9 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 Les zones suivantes comportent des boutons qui génèrent des résumés à l’aide de l’assistant d’IA :
 
 * En-tête du projet : résumé du projet
-* Zone Mises à jour : Résumer le contenu
+* Zone Mises à jour : Résumer les commentaires
 
-Pour utiliser le bouton Résumé du projet ou Résumer le contenu :
+Pour utiliser le bouton Résumer le projet ou Résumer les commentaires :
 
 1. Cliquez sur le bouton .
 
