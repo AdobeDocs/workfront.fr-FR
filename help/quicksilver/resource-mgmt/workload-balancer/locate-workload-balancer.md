@@ -7,10 +7,10 @@ description: Utilisez l’équilibreur de charge de travail pour planifier le tr
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -104,16 +104,16 @@ La page de votre équipe interne s’affiche.
 
 1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
 
-![](assets/nwe-balancer-team-350x172.png)
+   ![](assets/nwe-balancer-team-350x172.png)
 
-L’équilibreur de charge de travail d’une équipe affiche par défaut les informations suivantes :
+   L’équilibreur de charge de travail d’une équipe affiche par défaut les informations suivantes :
 
-* **Travail non affecté** : éléments affectés à l’équipe et non affectés aux utilisateurs et utilisatrices.
-* **Travail assigné** : toutes les personnes membres de l’équipe avec toutes leurs affectations.
+   * **Travail non affecté** : éléments affectés à l’équipe et non affectés aux utilisateurs et utilisatrices.
+   * **Travail assigné** : toutes les personnes membres de l’équipe avec toutes leurs affectations.
 
-  >[!TIP]
-  >
-  >Les personnes membres de l’équipe peuvent être affectées à un travail également attribué à l’équipe ou à un travail affecté à d’autres équipes ou rôles.
+     >[!TIP]
+     >
+     >Les personnes membres de l’équipe peuvent être affectées à un travail également attribué à l’équipe ou à un travail affecté à d’autres équipes ou rôles.
 
 ### Accéder à l’équilibreur de charge de travail pour un projet
 
