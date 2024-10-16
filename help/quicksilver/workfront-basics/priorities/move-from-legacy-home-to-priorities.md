@@ -5,9 +5,9 @@ description: La page d’accueil héritée sera supprimée de Workfront le 10/17
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ Le tableau Priorités affiche les tâches et les problèmes qui vous ont été a
 
 | **Filtre** | **Regroupement** |
 |------------|-----------|
-| - Travail sur <br> - Prêt à démarrer <br> - Non prêt <br> - Demandé <br> - Terminé <br> - Projet <br> - Date d’échéance <br> - État | - Aucun <br> - Échéance de semaine <br> - État <br> - Projet |
+| - Travail sur <br> - Prêt à démarrer <br> - Non prêt <br> - Demandé <br> - Terminé <br> - Projet <br> - Date d’échéance <br> - État <br> - Mon point de mires | - Aucun <br> - Mon point de mires <br> - Échéance de la semaine <br> - État <br> - Projet |
 
 
 **Les options de regroupement et de filtre d’accueil hérités ne sont pas disponibles dans Priorités**

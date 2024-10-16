@@ -3,10 +3,10 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ac14cbb856181f2bef5ab69a9d5408ef8137190f
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '14488'
-ht-degree: 95%
+source-wordcount: '14530'
+ht-degree: 94%
 
 ---
 
@@ -884,6 +884,14 @@ ht-degree: 95%
    * Priorités {#priorities}
       * [Priorités : index des articles](workfront-basics/priorities/priorities-toc.md)
       * [Prise en main des priorités](workfront-basics/priorities/get-started-with-priorities.md)
+      * [Filtrage et regroupement de vos travaux en priorités](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+      * [Personnalisation des colonnes de la liste de travail](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
+      * [Définir la priorité des tâches importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
+      * [Création de tâches et de problèmes dans les priorités](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
+      * [Ajout et affichage de mises à jour dans les priorités](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)
+      * [Temps de connexion aux priorités](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
+      * [Chargement de fichiers dans les priorités](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
+      * [Ajout et gestion de liens rapides dans les priorités](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
    * Accueil {#home}
       * [Page d’accueil](workfront-basics/using-home/home.md)
       * Nouvel accueil {#new-home}
