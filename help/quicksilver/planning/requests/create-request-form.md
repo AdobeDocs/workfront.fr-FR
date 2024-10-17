@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 16%
+source-wordcount: '1262'
+ht-degree: 15%
 
 ---
 
@@ -174,11 +174,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    Pour plus d’informations sur la création d’un formulaire personnalisé, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Facultatif) Cliquez sur **Aperçu** pour afficher comment le formulaire s’affichera pour les autres utilisateurs lorsqu’ils l’utiliseront pour envoyer un nouvel enregistrement.
+1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du nom du formulaire dans l’en-tête, puis cliquez sur **Modifier** pour mettre à jour le nom du formulaire.
 1. Cliquez sur **Publish** pour publier le formulaire et obtenir un lien unique.
 
    Les événements suivants se produisent :
 
-   * Le bouton Publish est supprimé.
+   * Le bouton **Publish** est supprimé.
    * Le bouton **Annuler la publication** est ajouté au formulaire. Si vous cliquez dessus, le formulaire n’est pas accessible.
    * Un bouton **Partager** est ajouté au formulaire.
 

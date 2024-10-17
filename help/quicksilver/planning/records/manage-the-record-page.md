@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1361'
 ht-degree: 11%
 
 ---
@@ -198,7 +198,7 @@ Par défaut, toutes les sections sont développées.
 
    Toutes les modifications apportées aux sections et à l’ordre des champs sont enregistrées automatiquement.
 
-1. (Facultatif) Cliquez sur l’icône **Exporter** ![](assets/export-icon-in-record-details-page.png) pour exporter l’onglet Détails vers un fichier Word. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facultatif) Cliquez sur le menu **Exporter** ![](assets/export-icon-in-record-details-page.png) pour exporter l’onglet Détails vers un fichier Word ou PDF. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Facultatif) Cliquez sur l’onglet **Connexions** en regard de l’onglet **Détails** . Vous devrez peut-être cliquer sur **Plus** avant de cliquer sur l’onglet **Connexions** .
 

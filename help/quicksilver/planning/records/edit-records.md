@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 57%
@@ -304,7 +304,7 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
    Workfront enregistre automatiquement vos modifications.
 
-1. (Facultatif) Cliquez sur l’icône **Exporter** ![](assets/export-icon-in-record-details-page.png) pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facultatif) Cliquez sur le menu **Export** ![](assets/export-icon-in-record-details-page.png) pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page de l’enregistrement](#edit-a-record-from-the-records-page) de cet article.
 
@@ -359,7 +359,7 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
    Workfront enregistre automatiquement vos modifications.
 
-1. (Facultatif) Cliquez sur l’icône **Exporter** ![](assets/export-icon-in-record-details-page.png) pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facultatif) Cliquez sur le menu **Export** ![](assets/export-icon-in-record-details-page.png) pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Modification d’un enregistrement à partir d’un objet Workfront dans la section Planification

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1957'
 ht-degree: 74%
 
 ---
@@ -55,10 +55,13 @@ Pour ce faire :
      >
      >L&#39;option **Type de connexion** n&#39;est pas disponible lors de la connexion d&#39;enregistrements à partir de différents espaces de travail ou lors de la connexion de ressources Experience Manager. Pour plus d’informations, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **Enregistrer l’aspect** : désélectionnez le bouton bascule **Titre** si vous ne souhaitez pas afficher le nom des produits lors de leur ajout au champ Informations sur les produits de la campagne. Si cette option est activée, les enregistrements affichent la miniature et le titre. Le bouton bascule est activé par défaut.
+   * **Enregistrement de l’apparence** : effectuez l’une des options suivantes :
+      * **Nom et image** : affiche le nom et la miniature ou l’icône des enregistrements connectés. Cette option est sélectionnée par défaut.
+      * **Nom** : affiche uniquement le nom des enregistrements connectés.
+      * **Image** : affiche uniquement la miniature ou l’icône des enregistrements connectés.
    * **Sélectionner des champs de recherche** : si vous laissez cette option sélectionnée, la zone **Ajouter des champs de recherche** s’ouvre ensuite pour vous permettre de lier les champs Produit au type d’enregistrement Campagne. Vous pouvez cliquer sur **Ignorer** pour sauter cette étape et ajouter les champs Produits ultérieurement.
 
-   ![](assets/new-connection-with-product-record-type.png)
+     ![](assets/new-connection-with-product-record-type.png)
 
 1. (Le cas échéant) Si vous avez sélectionné l’option **Sélectionner des champs de recherche** à l’étape précédente, dans la liste des champs associés au type d’enregistrement **Produit**, cliquez sur l’icône **+** pour le champ **Budget**, puis cliquez sur **Ajouter des champs**. Cela crée un champ appelé **Budget (à partir des informations sur le produit)**, qui est le nom du champ lié. Toutes les informations relatives au budget du produit s’affichent dans ce champ pour les enregistrements de campagne.
 

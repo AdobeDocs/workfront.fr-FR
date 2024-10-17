@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1321'
 ht-degree: 49%
 
 ---
@@ -111,13 +111,15 @@ Cet exemple vous montre comment appeler l’API Workfront et importer les donné
 
 ## Configuration d’un champ de recherche externe pour l’API de planification Workfront
 
-Un point de terminaison est disponible dans l’ [API de planification Workfront](/help/quicksilver/planning/general/planning-api-basics.md) pour rechercher des enregistrements par identifiant de type d’enregistrement via la méthode Get . Vous pouvez utiliser ce point de terminaison pour référencer des enregistrements de planification dans des champs de recherche externes.
+Un point de terminaison est disponible dans l’API Workfront Planning pour rechercher des enregistrements par identifiant de type d’enregistrement via la méthode Get . Vous pouvez utiliser ce point de terminaison pour référencer des enregistrements de planification dans des champs de recherche externes.
 
 * **URL de l’API de base :** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
 * **Méthode HTTP :** Get
 * **Chemin JSON :** `$.records[*].data.{fieldID}`
 
   **{fieldID}** est le champ à afficher dans les résultats de recherche externe sur le formulaire personnalisé pour les utilisateurs finaux.
+
+Pour plus d’informations, voir [API de planification Workfront](/help/quicksilver/planning/general/planning-api-basics.md).
 
 ## Configuration d’un champ de recherche externe pour une API publique
 
