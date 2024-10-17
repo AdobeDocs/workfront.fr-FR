@@ -9,10 +9,10 @@ description: Dans un scénario Adobe Workfront Fusion, vous pouvez automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
+source-git-commit: ff66cacc86532092e7a6805b7bf3c26d4437d9e9
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 88%
 
 ---
 
@@ -67,7 +67,45 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 
 Pour utiliser les modules [!DNL NetSuite], vous devez disposer d’un compte [!DNL NetSuite].
 
+## Créer une connexion à NetSuite
 
+Pour créer une connexion pour vos modules [!DNL NetSuite], procédez comme suit :
+
+1. Dans le module [!DNL NetSuite], cliquez sur **[!UICONTROL Ajouter]** en regard de la zone Connexion.
+
+1. Remplissez les champs suivants :
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>Saisissez un nom pour cette connexion.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type] </td>
+          <td>Indiquez si vous vous connectez à un compte de service ou à un compte personnel.</p>
+        </tr>
+       <tr>
+          <td role="rowheader">[!UICONTROL ID de compte] </td>
+          <td>Saisissez l’identifiant de votre compte NetSuite.</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]</td>
+          <td>Saisissez l’identifiant du client pour votre compte NetSuite. Vous pouvez le trouver dans vos informations d’identification client NetSuite.</p></td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]</td>
+          <td>Saisissez le secret client correspondant à votre compte NetSuite.</p>
+        </tr>
+        </tbody>
+    </table>
+1. Cliquez sur **[!UICONTROL Continuer]** pour enregistrer la connexion et revenir au module.
 
 ## Modules [!DNL NetSuite] et leurs champs
 
@@ -92,7 +130,7 @@ Lorsque vous configurez ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL NetSuite] à Workfront Fusion, voir la section <a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Créer une connexion à [!DNL NetSuite] dans un module NetSuite Workfront Fusion</a> dans cet article.</p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL NetSuite] à Workfront Fusion, reportez-vous à la section <a href="#create-a-connection-to-netsuite" class="MCXref xref">Création d'une connexion à [!DNL NetSuite]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
