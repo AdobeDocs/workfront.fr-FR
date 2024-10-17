@@ -5,16 +5,14 @@ description: Vous pouvez rapidement résumer les éléments de travail et les do
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
+source-git-commit: 59c74b6530df09cb664e146b611d246465cf0116
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 17%
+source-wordcount: '415'
+ht-degree: 13%
 
 ---
 
 # Résumer à l’aide de l’assistant IA
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 L’assistant d’IA Workfront peut résumer certains objets, ce qui vous donne une vue d’ensemble de l’intention ou des détails de l’objet.
 
@@ -67,8 +65,6 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
   Pour plus d’informations, voir [Activation ou désactivation de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
-<div class="preview">
-
 ## Résumer à l’aide des boutons Résumer
 
 Les zones suivantes comportent des boutons qui génèrent des résumés à l’aide de l’assistant d’IA :
@@ -88,8 +84,6 @@ Pour utiliser le bouton Résumer le projet ou Résumer les commentaires :
 1. (Facultatif) Affinez l’invite pour vous assurer qu’elle vous donne les informations dont vous avez besoin.
 
    Par exemple, vous pouvez affiner l’invite Résumé du contenu afin de résumer les commentaires pour les 14 derniers jours, au lieu des 7 derniers.
-
-   </div>
 
 ## Résumer un objet dans l’assistant d’IA
 
