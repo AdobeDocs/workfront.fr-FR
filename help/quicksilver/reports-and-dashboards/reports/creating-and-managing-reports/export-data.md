@@ -6,10 +6,10 @@ description: Vous pouvez exporter des données Adobe Workfront à partir de dif
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '2164'
-ht-degree: 100%
+source-wordcount: '2255'
+ht-degree: 95%
 
 ---
 
@@ -121,7 +121,6 @@ L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que
   >L’export d’un rapport qui inclut une référence de collection dans une colonne peut entraîner une erreur, même si le rapport respecte les limites d’export spécifiées. Si la collection référencée est trop volumineuse, le processus d’export expire et entraîne par conséquent une erreur.
   >
   >Pour éviter cette erreur, excluez les colonnes qui référencent des collections volumineuses ou réduisez la taille des collections référencées avant l’export.
-  >
 
   Si le nombre d’éléments de votre rapport dépasse ces limites, vous recevez une erreur indiquant que l’export a échoué. Réduisez le nombre d’éléments que vous voyez à l’écran pour qu’il soit inférieur ou égal à ces limites afin de pouvoir exporter les résultats.
 
@@ -151,6 +150,14 @@ L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que
 * **Taille de fichier de 10 Mo :** limite de taille de fichier pour tout rapport exporté dont la remise est planifiée. Si un fichier exporté joint à un e-mail dépasse 5 Mo, un lien pour le téléchargement du fichier est envoyé par e-mail à la place du rapport exporté joint.
 * **65 530 liens hypertexte :** il s’agit d’une limite imposée par Excel aux documents qui contiennent plus de 65 530 liens hypertexte. Ces documents ne peuvent pas être ouverts lorsqu’ils sont exportés manuellement ou envoyés dans un rapport diffusé. Notez qu’un document Excel peut ne contenir que 200 lignes de données, mais s’il existe plus de 65 530 liens dans le document, celui-ci ne s’ouvre pas. Cette limite existe uniquement pour les fichiers Excel et non pour les autres formats pris en charge.
 * **256 colonnes** : il s’agit d’une limite imposée par Excel pour les documents qui contiennent plus de 256 colonnes. Ces documents ne peuvent pas être exportés manuellement ni envoyés dans un rapport diffusé. Cette limite existe uniquement pour les fichiers Excel, et non pour les autres formats pris en charge.
+
+  >[!IMPORTANT]
+  >
+  >L’exportation d’un rapport contenant une colonne Rapports peut entraîner une erreur, même si le rapport se trouve dans les limites d’exportation répertoriées.
+  >
+  >Si vous utilisez la fonction d’exportation pour partager un rapport contenant une colonne Rapports avec d’autres utilisateurs, pensez à partager le rapport en le rendant public à la place. Pour plus d’informations sur la publication d’un rapport, voir [Partage d’un rapport dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  >
+  >Si vous utilisez la fonction d’exportation pour évaluer les données en externe, il est recommandé d’utiliser Workfront Data Connect à la place. Pour plus d’informations, voir [Présentation de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 Si vous tentez d’exporter des données au-delà de cette limite, il se peut que vous ne receviez pas toutes les données attendues dans l’export. Au contraire, un rapport modifié est produit dans les limites autorisées.
 

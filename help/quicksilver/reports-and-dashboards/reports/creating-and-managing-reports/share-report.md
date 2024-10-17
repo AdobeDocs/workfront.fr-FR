@@ -6,10 +6,10 @@ description: Votre administrateur ou administratrice Adobe Workfront accorde au
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 100%
+source-wordcount: '817'
+ht-degree: 89%
 
 ---
 
@@ -111,7 +111,7 @@ Le partage d’un ou de plusieurs rapports d’une liste est identique.
 
      >[!NOTE]
      >
-     >Si le rapport comporte une invite que vous partagez publiquement, les personnes qui l’exécutent doivent être connectées à Workfront pour pouvoir exécuter le rapport à l’aide de l’invite. Si elles ne peuvent pas se connecter à Workfront, le rapport s’affiche sans l’invite. Pour plus d’informations sur les limites du partage des rapports avec des invites, consultez la section . [Limites du partage des rapports contenant des invites](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) dans l’article [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+     >Si le rapport comporte une invite que vous partagez publiquement, les utilisateurs qui l’exécutent via le lien de partage public ne pourront pas exécuter le rapport à l’aide de l’invite. Le rapport s’affiche sans l’invite qui lui est appliquée, sauf s’il se connecte à Workfront et accède au rapport sans utiliser le lien de partage public. Pour plus d’informations sur les limites du partage de rapports avec des invites, reportez-vous à la section [Limitations du partage des rapports demandés](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) de l’article [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
    * **Rendre visible à l’échelle du système :** sélectionnez cette option pour que tous les utilisateurs et utilisatrices de Workfront ayant accès aux rapports puissent voir le rapport.
 

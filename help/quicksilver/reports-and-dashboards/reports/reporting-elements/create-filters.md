@@ -6,7 +6,7 @@ description: Vous pouvez avec un filtre, limiter la quantité d’informations a
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 100%
@@ -399,7 +399,7 @@ Quelle que soit la méthode utilisée pour créer des filtres, la création d’
      >
      >Lorsque vous connectez un groupe d’instructions AND par plusieurs instructions OR, vous devez répéter les champs qui ne changent pas entre les instructions OR pour chaque groupe d’instructions.
      >
-     >![Instructions de filtrage connectées](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >![Instructions de filtrage connectées](assets/filters-and-statements-connected-by-or-statements-builder-ui-legacy-filters.png)
      >
      >Lorsque vous créez un filtre pour les tâches qui contiennent le mot « marketing » et qui se trouvent dans des projets dont le statut est « Actuel » ou « Planification », vous devez avoir les règles de filtrage suivantes :
      >

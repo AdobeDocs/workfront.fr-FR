@@ -6,7 +6,7 @@ description: Vous pouvez généraliser un rapport en utilisant des caractères g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 100%
@@ -78,8 +78,6 @@ Pour insérer un caractère générique basé sur la personne dans un rapport, p
 1. Dans la zone **Commencez à saisir le nom...**, saisissez : `$$USER.ID` ou `$$USER.name` si vous voulez que le rapport affiche des informations sur la personne qui se connecte, sur la base de son nom. Vous pouvez insérer d’autres caractères génériques faisant référence au groupe, à l’équipe, à l’entreprise ou à d’autres informations relatives à la personne connectée.
 
    Pour une liste complète des caractères génériques basés sur la personne, voir [Vue d’ensemble des variables de filtrage des caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-   ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
 1. Cliquez sur **Enregistrer + Fermer**.
 

@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 19%
+source-wordcount: '567'
+ht-degree: 16%
 
 ---
 
@@ -17,6 +17,18 @@ ht-degree: 19%
 Cette page décrit toutes les améliorations apportées à l’administration dans l’environnement de prévisualisation par la version du quatrième trimestre 2024. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2024, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Niveau d’accès désormais disponible dans la promotion de l’environnement
+
+>[!NOTE]
+>
+>Version d’aperçu : 17 octobre 2024 ; Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)
+
+Pour étendre les fonctionnalités de promotion de l’environnement, nous avons ajouté la possibilité d’inclure des niveaux d’accès. Vous pouvez maintenant configurer un niveau d’accès dans un environnement Sandbox, puis le promouvoir dans votre environnement de production.
+
+Auparavant, les niveaux d’accès n’étaient pas disponibles pour la promotion de l’environnement.
+
+Pour plus d’informations sur les objets disponibles pour la promotion de l’environnement, voir [Objets pris en charge pour la promotion de l’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) dans l’article Présentation de la promotion de l’environnement.
 
 ## Un compteur sur les formulaires personnalisés indique le nombre de champs
 

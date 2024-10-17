@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d5cfabe17e4bc0f82c412e9144488160f13c717
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 14%
+source-wordcount: '1075'
+ht-degree: 7%
 
 ---
 
@@ -18,33 +18,51 @@ Cette page décrit les mises à jour mineures apportées à l’apparence et à 
 
 Pour une liste de tous les changements disponibles avec la version du quatrième trimestre 2024, consultez l’article [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
-## Mises à jour de l’apparence des tableaux de bord
-
->[!NOTE]
->
->Version d’aperçu : 15 octobre ; version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)
-
-Nous avons apporté diverses mises à jour à l’interface des tableaux de bord pour qu’elle corresponde à la conception d’autres zones de Workfront, notamment des améliorations à l’écran d’aperçu avant impression lors de l’impression d’un tableau de bord.
-
-Pour plus d’informations sur les tableaux de bord, voir [Création et gestion des tableaux de bord](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). Pour plus d’informations sur les calendriers, consultez la [présentation des rapports de calendrier](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
-
 ## Recherche et ressenti des mises à jour pour les rapports
 
 >[!NOTE]
 >
->Version d’aperçu : à compter du 12 septembre 2024 ; Version de production pour tous les clients : modifiée, toutes les mises à jour seront disponibles d’ici le 8 novembre 2024
+>Mise à jour de la production pour tous les clients : par incréments, à compter de la version 24.10 (17 octobre 2024), disponible jusqu’au 8 novembre 2024
 
 Diverses mises à jour ont été apportées à l’interface des rapports pour correspondre à la conception d’autres zones de Workfront. Ces mises à jour comprennent d’autres modifications apportées aux différentes fonctionnalités de création de rapports, notamment :
 
-* Nouveau bouton pour passer en mode texte lors de la modification d’une colonne de rapport
-* Modifications mineures de la fonction des caractères génériques de date relatifs et des raccourcis de caractères génériques
-* Les règles conditionnelles n’ont plus besoin de cliquer sur un bouton Terminé pour être créées.
-* Palette de couleurs développée pour les règles de mise en forme conditionnelle dans les rapports
-* Modifications apportées aux rapports existants qui améliorent leur utilisation dans les tableaux de bord de la zone de travail
+* Une palette de couleurs étendue a été ajoutée pour les règles de mise en forme conditionnelle dans les rapports. Pour plus d’informations sur la mise en forme conditionnelle, voir [Utilisation de la mise en forme conditionnelle dans les vues](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* Un nouveau bouton &quot;Modifier le mode Texte&quot; a été ajouté pour passer en mode texte lors de l’édition d’une colonne dans le créateur de rapports. Pour plus d’informations sur la modification des vues de rapport en mode texte, voir [Modifier une vue à l’aide du mode texte](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* Un nouveau bouton d’activation/désactivation a été ajouté à l’interface de filtrage des rapports afin de basculer entre un sélecteur de date de calendrier et un champ de texte de caractère générique de date relatif lors du filtrage selon un champ de date. En outre, la sélection d’un raccourci de caractère générique de date relative dans l’interface de filtrage des rapports renseigne désormais automatiquement les champs de caractère générique associés en fonction de votre sélection. Pour plus d’informations sur l’utilisation des caractères génériques de date relative dans les filtres de rapport, voir [Utilisation de caractères génériques basés sur la date pour généraliser les rapports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+* Les caractères génériques basés sur les utilisateurs dans les filtres de rapport suggèrent désormais des caractères génériques appropriés pour la saisie automatique en fonction du type de champ sélectionné. Pour plus d’informations sur les caractères génériques basés sur l’utilisateur dans les filtres de rapports, voir [Utilisation de caractères génériques basés sur l’utilisateur pour généraliser les rapports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+* Les rapports avec des invites qui sont partagées publiquement s’affichent désormais sans que les utilisateurs y accédant par le biais du lien de partage public n’y aient demandé d’invite. Les utilisateurs connectés qui accèdent directement au rapport pourront toujours appliquer des invites. Pour plus d’informations sur les invites de rapport, voir [Ajout d’une invite à un rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* Modifications apportées aux rapports existants afin d’améliorer leur compatibilité avec les tableaux de bord de zone de travail.
 
-Ces mises à jour sont mises en oeuvre individuellement dans la prévisualisation et la production à partir du 12 septembre 2024. Toutes les mises à jour seront entièrement mises en oeuvre en production pour tous les clients d’ici le 8 novembre 2024.
+_Ces mises à jour sont mises en oeuvre progressivement en production à partir de la version 24.10 du 17 octobre 2024. Les modifications seront d’abord disponibles pour un petit nombre de clients, devenant de plus en plus disponibles au fil du temps jusqu’à ce qu’elles soient entièrement disponibles pour tous les clients d’ici le 8 novembre 2024._
 
-Pour plus d’informations sur la création de rapports dans Workfront, voir [Prise en main des rapports](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+## Mises à jour de l’apparence des tableaux de bord
+
+>[!NOTE]
+>
+>Mise à jour de la production pour tous les clients : par incréments, à compter de la version 24.10 (17 octobre 2024), disponible jusqu’au 8 novembre 2024
+
+Nous avons apporté diverses mises à jour à l’interface des tableaux de bord pour qu’elle corresponde à la conception d’autres zones de Workfront. Ces mises à jour comprennent d’autres modifications apportées aux différentes fonctionnalités du tableau de bord, notamment :
+
+* L’écran d’aperçu avant impression lors de l’impression d’un tableau de bord a été amélioré. Pour plus d&#39;informations sur l&#39;impression d&#39;un tableau de bord, voir []
+
+Pour des informations générales sur les tableaux de bord, voir [Création et gestion des tableaux de bord](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
+
+_Ces mises à jour sont mises en oeuvre progressivement en production à partir de la version 24.10 du 17 octobre 2024. Les modifications seront d’abord disponibles pour un petit nombre de clients, devenant de plus en plus disponibles au fil du temps jusqu’à ce qu’elles soient entièrement disponibles pour tous les clients d’ici le 8 novembre 2024._
+
+## Mises à jour de l’apparence pour les filtres et les vues
+
+>[!NOTE]
+>
+>Mise à jour de la production pour tous les clients : par incréments, à compter de la version 24.10 (17 octobre 2024), disponible jusqu’au 8 novembre 2024
+
+Nous avons apporté diverses mises à jour aux filtres et aux interfaces de vues afin de correspondre à la conception d’autres zones de Workfront. Ces mises à jour comprennent d’autres modifications des vues et de l’interface de filtre héritée, notamment :
+
+* Une palette de couleurs étendue a été ajoutée pour les règles de mise en forme conditionnelle dans les rapports. Pour plus d’informations sur la mise en forme conditionnelle, voir [Utilisation de la mise en forme conditionnelle dans les vues](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* Un nouveau bouton &quot;Modifier le mode Texte&quot; a été ajouté pour passer en mode texte lors de l’édition d’une colonne lors de la création d’une nouvelle vue. Pour plus d’informations sur la modification des vues en mode texte, voir [Modification d’une vue à l’aide du mode texte](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
+* Un nouveau bouton d’activation/désactivation a été ajouté à l’interface de filtre hérité pour basculer entre un sélecteur de date de calendrier et un champ de texte de caractère générique de date relatif lors du filtrage selon un champ de date. En outre, la sélection d’un raccourci de caractère générique de date relative dans l’interface de filtrage des rapports renseigne désormais automatiquement les champs de caractère générique associés en fonction de votre sélection.
+* Les caractères génériques basés sur les utilisateurs dans les filtres hérités suggèrent désormais des caractères génériques appropriés pour la saisie automatique en fonction du type de champ sélectionné. Pour plus d’informations sur l’utilisation des filtres hérités, voir [Création ou modification de filtres dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
+_Ces mises à jour sont mises en oeuvre progressivement en production à partir de la version 24.10 du 17 octobre 2024. Les modifications seront d’abord disponibles pour un petit nombre de clients, devenant de plus en plus disponibles au fil du temps jusqu’à ce qu’elles soient entièrement disponibles pour tous les clients d’ici le 8 novembre 2024._
 
 ## Mises à jour de la fonctionnalité de recherche et de ressenti pour la page Préférences système
 

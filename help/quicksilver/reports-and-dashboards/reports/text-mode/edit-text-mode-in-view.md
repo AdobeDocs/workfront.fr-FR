@@ -6,10 +6,10 @@ description: 'NOTE : ajoutez une section dans cet article : /Content/Reports a
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '482'
+ht-degree: 96%
 
 ---
 
@@ -97,13 +97,11 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
    >
    >Pour modifier une vue en mode Texte, vous devez modifier une colonne à la fois.
 
-1. Cliquez sur **Passer en mode Texte** dans le coin supérieur droit du créateur.
+1. Cliquez sur **Passer en mode Texte** dans le coin supérieur droit du créateur, puis cliquez sur **Modifier le mode Texte**.
 
    >[!NOTE]
    >
    >Lorsque vous modifiez une colonne en mode Texte, Workfront ajoute la ligne de code `textmode=true` à la colonne. Cela indique que la colonne est modifiée en mode Texte.
-
-   ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
    Le tableau suivant décrit les lignes clés dans une vue en mode Texte :
 

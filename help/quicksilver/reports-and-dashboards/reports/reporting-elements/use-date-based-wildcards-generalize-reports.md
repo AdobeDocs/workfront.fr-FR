@@ -6,10 +6,10 @@ description: Vous pouvez généraliser un rapport en utilisant des caractères g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 100%
+source-wordcount: '687'
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,6 @@ Pour insérer un caractère générique basé sur des dates dans un rapport :
 
 1. Accédez à un rapport dans lequel vous souhaitez insérer un caractère générique basé sur des dates.
 1. Cliquez sur **Actions de rapport**, puis sur **Modifier**.
-
 1. Cliquez sur l’onglet **Filtres**.
 1. Cliquez sur **Ajouter une règle de filtre**.
 1. Saisissez le nom du champ dont vous souhaitez filtrer les données.\
@@ -79,7 +78,7 @@ Pour insérer un caractère générique basé sur des dates dans un rapport :
    >
    >Vous devez toujours sélectionner la variable de filtre **Égal** lors de l’utilisation de caractères génériques dans Adobe Workfront.
 
-1. Dans la zone **Commencez à saisir le nom...**, saisissez : `$$TODAY` si vous souhaitez afficher des informations sur un événement qui se produit le même jour que l’exécution du rapport.
+1. Cliquez sur le bouton bascule **Définir la date relative** , puis, dans la zone de texte qui s&#39;affiche comme type : `$$TODAY` si vous souhaitez afficher des informations sur un événement qui se produit le jour même de l&#39;exécution du rapport.
 
    Ou
 
@@ -91,8 +90,6 @@ Pour insérer un caractère générique basé sur des dates dans un rapport :
 1. (Facultatif) Si vous souhaitez afficher des informations sur un événement survenu au cours d’une période antérieure à la date d’exécution du rapport, saisissez `$$TODAY-1w` pour afficher les informations de la semaine précédente, ou `$$TODAY-2m` pour afficher les informations des deux mois précédents. Vous pouvez également indiquer les trimestres, heures, jours ou années.
 
    Pour obtenir la liste complète des attributs, qualificateurs et opérateurs que vous pouvez utiliser dans les caractères génériques basés sur la date, consultez l’article [Vue d’ensemble des variables de filtre de caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
 1. Cliquez sur **Enregistrer + Fermer**.
 

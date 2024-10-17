@@ -6,10 +6,10 @@ description: À mesure que vous partagez vos rapports avec d’autres personnes 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 100%
+source-wordcount: '1218'
+ht-degree: 97%
 
 ---
 
@@ -139,7 +139,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Couleur du texte</strong></td> 
-      <td> <p>Sélectionnez la couleur d’affichage du texte. 8 couleurs sont disponibles.</p> <p><b>NOTE</b></p> <p> Si le champ contient un lien hypertexte, les sélections de couleur du texte ne sont pas appliquées à ce champ.</p> </td> 
+      <td> <p>Sélectionnez la couleur d’affichage du texte à l’aide du sélecteur de couleurs.</p> <p><b>NOTE</b></p> <p> Si le champ contient un lien hypertexte, les sélections de couleur du texte ne sont pas appliquées à ce champ.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Format du texte</strong></td> 
@@ -151,7 +151,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Contexte</strong></td> 
-      <td>Sélectionnez la couleur d’arrière-plan du texte. 8 couleurs sont disponibles.</td> 
+      <td>Sélectionnez la couleur de fond du texte à l’aide du sélecteur de couleurs.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Afficher l’icône</strong></td> 
@@ -189,6 +189,6 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
    * Ajoutez à nouveau la règle de colonne stipulant un arrière-plan rouge pour les projets en retard.
    * Lorsque vous enregistrez les règles et la vue, l’arrière-plan rouge n’est pas appliqué à un projet annulé.
 
-1. Cliquez sur **Terminé**.
+1. Cliquer sur **Enregistrer**.
 1. Cliquez sur **Enregistrer + Fermer**.\
    Sur le rapport, les personnes voient des modifications apportées au format si les conditions spécifiées sont remplies.
