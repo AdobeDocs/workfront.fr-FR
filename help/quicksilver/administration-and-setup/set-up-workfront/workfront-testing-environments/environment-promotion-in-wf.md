@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 094a742e62bbf222e695d984efca612b32d9fadf
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1014'
 ht-degree: 51%
 
 ---
@@ -97,6 +97,7 @@ Dans la mesure où la promotion de l’environnement traite de la configuration 
 | Type de dépense (EXPTYP) | Type de frais |
 | Type de risque (RSKTYP) | Type de risque |
 | Groupe de ressources (RSPL) | Pool de ressources |
+| Niveau d’accès (ACSLVL) | Niveau d’accès |
 
 \* Non disponible actuellement
 
