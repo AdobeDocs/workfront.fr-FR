@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '333'
 ht-degree: 100%
 
 ---
@@ -61,5 +61,3 @@ Pour vous aider à gérer et analyser vos demandes d’approbation d’un seul c
 * Approbations en retard
 
 Vous pouvez accéder aux catégories répertoriées ci-dessus pour obtenir une vue plus détaillée. Le widget Toutes les approbations est disponible dans les nouveaux tableaux de bord Accueil et Zone de travail.
-
-Pour plus d’informations, voir [Prise en main du nouvel Accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

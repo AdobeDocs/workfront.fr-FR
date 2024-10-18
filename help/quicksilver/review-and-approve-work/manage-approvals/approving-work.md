@@ -6,10 +6,10 @@ description: Approuver du travail
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 100%
+source-wordcount: '896'
+ht-degree: 85%
 
 ---
 
@@ -66,68 +66,75 @@ Pour plus d’informations sur l’affichage des éléments en attente d’appro
 
 ## Approuver le travail depuis la zone d’accueil
 
-1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations** .
+1. (Conditionnel) Cliquez sur le menu déroulant **Filtre** , puis sélectionnez **Tous** pour voir les approbations qui vous ont été affectées et qui vous ont été déléguées.
 
    >[!NOTE]
    >
-   >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
-   >
-   >   
-   >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
+   >Les approbations affectées à des fonctions ou à des groupes ne s’affichent pas dans la page d’accueil. Les approbations affectées aux équipes s’affichent dans le widget Mes approbations pour chaque membre de l’équipe.
 
-1. Cliquez sur le menu déroulant **Filtrer**.
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
-
-1. Sélectionnez **Approbations**.\
-   Tous les éléments de travail nécessitant votre approbation s’affichent. 
-
-   >[!NOTE]
-   >
-   >Les approbations affectées à des fonctions ou à des groupes ne s’affichent pas dans la page d’accueil. Les approbations affectées aux équipes s’affichent dans le regroupement Demande de l’équipe de la liste des tâches.
-
-1. (Facultatif) Vous pouvez modifier l’ordre d’affichage des approbations selon les instructions fournies dans la section « Grouper et trier par date, projet ou priorité » de l’article [Afficher les éléments de la liste de travail dans la zone d’accueil](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 1. Sélectionnez l’élément pour lequel vous souhaitez prendre une décision d’approbation.
 
-   ![](assets/task-approval-home-350x127.png)
+   ![](assets/my-approvals-widget.png)
 
 1. Cliquez sur l’une des options disponibles lorsque vous prenez une décision d’approbation dans le panneau de droite. Les options suivantes s’affichent dans le coin supérieur droit de la page, en fonction du type d’élément que vous approuvez :
 
-   * **Projets :** cliquez sur **Approuver** ou **Rejeter**.
+   <table>
+   <tr>
+      <td>
+      <p><strong>Accès</strong></p>
+      </td>
+      <td>
+      <p><strong>Éléments de travail</strong></p>
+      </td>
+      <td>
+      <p><strong>Documents</strong></p>
+      </td>
+      <td>
+      <p><strong>Épreuves</strong></p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+       <ul>
+      <li>Subvention</li>
+      <li>Ignorer</li>
+      </ul>
+      Vous pouvez ajuster le niveau d'accès dans le menu déroulant <b>Modifier l'accès</b> si vous le souhaitez.
+      </td>
+      <td>
+         <ul>
+         <li>Approuver</li>
+         <li>Rejeter</li>
+         </ul>
+      Vous pouvez laisser un commentaire avec votre décision en cliquant sur le menu déroulant du bouton de décision.
+      </td>
+      <td>
+   Attribué en tant qu’approbateur
+         <ul>
+         <li>Approuver</li>
+         <li>Approuver avec des modifications</li>
+         <li>Travail nécessaire</li>
+         </ul>
+   Affecté en tant que réviseur
+         <ul>
+         <li>Terminer mon examen</li>
+         </ul>
+      Les options de cette colonne ne s'appliquent qu'aux nouvelles validations de document. Les approbations de documents héritées apparaissent de la même manière que les approbations d’éléments de travail. 
+      </td>
+      <td>
+         <ul>
+         <li>Accéder au BAT</li>
+         </ul>
+         Vous prenez votre décision dans la visionneuse de BAT. Pour plus d’informations sur la révision d’une épreuve, consultez la section <a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Réviser des épreuves dans Adobe Workfront</a>.
+      </td>
+   </tr>
+   </table>
 
-   * **Tâches :** cliquez sur **Approuver** ou **Rejeter**.
+Une fois que vous avez pris une décision, l’approbation est supprimée du widget Mon approbation .
 
-   * **Problèmes :** cliquez sur **Approuver** ou **Rejeter**.
-
-   * **Feuilles de temps :** cliquez sur **Approuver** ou **Rejeter**.
-
-   * **Documents :** cliquez sur **Approuver**, **Rejeter**, ou **Modifications**.\
-     Tenez compte des points suivants lors de l’affichage des approbations :
-
-      * Les approbations d’épreuves s’affichent ici lorsqu’un utilisateur ou une utilisatrice partage une épreuve avec vous, comme décrit dans la section « Partager une épreuve à partir d’un lien » de l’article [Partager une épreuve dans Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-      * Les approbations d’épreuves ne sont visibles sur la page d’accueil que si votre environnement Workfront est intégré à un compte Workfront Proof Premium. Si vous ne pouvez pas utiliser la relecture comme décrit ici, contactez votre administrateur ou administratrice Workfront.
-      * Vous recevez une notification in-app vous informant de l’approbation de l’épreuve.\
-        Pour plus d’informations sur les notifications in-app, consultez la section [Afficher et gérer les notifications in-app](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
-
-      * Le nom de l’utilisateur ou de l’utilisatrice qui a demandé l’approbation est affiché à côté de la miniature de l’image dans la page d’accueil, avec le texte suivant :\
-        « *Personne A* souhaite obtenir votre approbation sur... »
-
-        <!--      
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
-        (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
-        </MadCap:conditionalText>      
-        -->
-
-        Si le nom de l’utilisateur ou de l’utilisatrice n’est pas disponible, le texte suivant s’affiche :\
-        « Une nouvelle version d’une épreuve est prête à être révisée ».
-      * Pour prendre une décision d’approbation sur l’épreuve, cliquez sur **Accéder à l’épreuve**, puis sur **Terminer la vérification**, enfin, cliquez sur l’une des options disponibles. Les options disponibles lors de l’approbation d’une épreuve sont les suivantes : **Approuvé**, **Approuvé avec des modifications**, **Modifications requises**, et **Non pertinent**.
-
-      * Une fois qu’une décision a été prise concernant l’épreuve, celle-ci demeure dans l’onglet « Mes approbations » avec la mention « Décision prise » jusqu’à ce que vous cliquiez sur le bouton **Actualiser** ou jusqu’à ce que vous actualisiez la page du navigateur.
-
-        Pour plus d’informations sur la révision d’une épreuve, consultez la section [Réviser des épreuves dans Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
-
-   * **Accès :** sélectionnez le niveau d’accès à accorder dans le menu déroulant **Modifier l’accès**, puis cliquez sur **Accorder l’accès**. Ou cliquez sur **Ignorer**.
 
 ## Ouvrir une épreuve à partir d’un projet, d’une tâche ou d’un problème
 

@@ -6,22 +6,28 @@ description: Vous pouvez utiliser la vue Calendrier dans  [!DNL Adobe Workfront 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c8801cb4-0485-44a1-9a7d-a17a96bca419
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 1131c2329d194f0c9181b6a5cbd39f19a5247ef0
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '53'
+ht-degree: 79%
 
 ---
 
 # Afficher le [!UICONTROL Calendrier d’accueil]
 
-Vous pouvez utiliser la vue [!UICONTROL Calendrier] dans [!DNL Adobe Workfront Home] pour gérer tous les éléments de travail qui vous sont attribués au même endroit. Votre vue [!UICONTROL Calendrier d’accueil] n’est visible que par vous; et vous êtes la seule personne à pouvoir gérer votre [!UICONTROL Calendrier d’accueil].
+>[!IMPORTANT]
+>
+>Cette fonctionnalité a été supprimée avec l’obsolescence de la page d’accueil héritée le 10/17/2014.
 
-Pour en savoir plus sur le calendrier d’accueil, voir [Vue Calendrier d’accueil](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+<!--
 
-## Conditions d’accès
+You can use the [!UICONTROL Calendar] view in [!DNL Adobe Workfront Home] to manage all your assigned work items in one place. Your [!UICONTROL Home Calendar] view is visible only to you, and only you can manage your [!UICONTROL Home Calendar].
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+To learn more about the Home Calendar, see [Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,45 +37,47 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Work] ou licence supérieure</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Work] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>[!UICONTROL Edit] l’accès aux tâches et aux problèmes</p> <p>Note : si vous n’avez toujours pas d’accès, demandez à votre administrateur ou administratrice [!DNL Workfront] si des restrictions supplémentaires ont été définies dans votre niveau d’accès. Pour plus d’informations sur la manière dont l’administration [!DNL Workfront] peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>[!UICONTROL Edit] access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations [!UICONTROL Contribute] ou supérieures aux tâches et aux problèmes que vous souhaitez ajouter au calendrier</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>[!UICONTROL Contribute] permissions or higher to the tasks and issues you want to add to the calendar</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le type de licence, le type de plan ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Afficher le [!UICONTROL Calendrier d’accueil] [!DNL Workfront]
+## View the [!DNL Workfront] [!UICONTROL Home Calendar]
 
-1. Cliquez sur l’icône **[!UICONTROL Accueil]** icon ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Click the **[!UICONTROL Home]** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
-   >Votre administrateur ou administratrice [!DNL Workfront] peut apporter les modifications suivantes à l’icône [!UICONTROL Accueil] dans votre environnement :
+   >Your [!DNL Workfront] administrator might make the following changes to the [!UICONTROL Home] icon in your environment:
    >
-   >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur le **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **[!UICONTROL Accueil]**.
+   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article.
+   >* Replace the page linked to it with a different page. In this case, click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **[!UICONTROL Home]**.
 
 
-1. Cliquez sur **[!UICONTROL Liste de travail]** dans le coin supérieur gauche de l’accueil, puis cliquez sur **[!UICONTROL Calendrier]** dans le menu déroulant.
+1. Click **[!UICONTROL Work List]** in the upper-left corner of Home, then click **[!UICONTROL Calendar]** in the drop-down menu.
 
    ![](assets/work-list-calendar-drop-down-expanded-home-nwe.png)
 
-   La vue [!UICONTROL Calendrier d’accueil] s’affiche.
+   The [!UICONTROL Home Calendar] view displays.
 
    ![](assets/calendar-group-by-drop-down-home-nwe-350x135.png)
 
-   Toutes les éléments de travail qui vous ont été attribués ou qui ont été attribués à vos groupes, équipes ou rôles s’affichent dans le panneau de gauche.
+   All the work items assigned to you or assigned to your groups, teams, or roles display in the left panel.
 
-   Vous pouvez gérer votre journée de travail en faisant glisser les tâches du panneau de gauche et en les déposant dans votre calendrier. Pour en savoir plus sur la manière de renseigner votre [!UICONTROL Calendrier d’accueil], voir [Utiliser la vue [!UICONTROL Calendrier d’accueil]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+   You can manage your workday by dragging and dropping tasks from the left panel to your calendar. To learn about how to populate your [!UICONTROL Home Calendar], see [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+
+-->

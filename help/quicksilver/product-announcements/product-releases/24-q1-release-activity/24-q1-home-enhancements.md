@@ -4,9 +4,9 @@ description: Améliorations de la page d’accueil du premier trimestre 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 54bbcc0a86516f4e4b561a7fae8c73c3979e59a4
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 Pour faciliter l’affichage du statut des approbations et des révisions pour les projets dont vous êtes responsable, nous avons ajouté un nouveau widget « Approbations en attente » sur la page d’accueil. Vous pouvez y consulter la liste des utilisateurs et des utilisatrices ayant pour mission d’approuver ou de réviser des documents sur des projets qui vous appartiennent, voir le statut de leur révision ou de leur approbation et rappeler aux réviseurs et réviseuses de terminer ces tâches si nécessaire.
 
-Pour plus d’informations sur les widgets de la page d’accueil, consultez la section [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Contrôles d’administration pour la nouvelle page d’accueil à l’aide des modèles de mise en page
 
@@ -34,5 +33,3 @@ Pour plus d’informations, consultez la section [Personnaliser la nouvelle page
 ## Les boutons d’action rapide « Mon travail » ont été modifiés pour ne s’afficher que lorsque vous placez le pointeur de la souris sur un élément de travail.
 
 Pour améliorer les performances, les boutons d’action rapide disponibles dans le widget Mon travail ne s’affichent désormais que lorsque vous placez le pointeur de la souris sur un élément de travail.
-
-Pour plus d’informations sur les boutons d’action rapide disponibles dans le widget « Mon travail », consultez la section [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

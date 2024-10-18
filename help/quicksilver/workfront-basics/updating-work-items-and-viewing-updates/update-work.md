@@ -6,7 +6,7 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
 source-wordcount: '3065'
 ht-degree: 84%
@@ -133,7 +133,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * Dans un objet Workfront, dans la section Mises à jour (pour les projets, les tâches et les problèmes)
    * Dans la zone Accueil (pour les tâches et les problèmes)
 
-     Pour plus d’informations, voir [Gérer votre travail avec le widget Mon travail](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md).
+     Pour plus d’informations, voir [Gérer votre travail avec le widget Mon travail](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
    * Dans le panneau Résumé des zones suivantes (pour les tâches, les problèmes et les documents) :
 
       * Une liste des objets

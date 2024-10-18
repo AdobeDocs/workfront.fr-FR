@@ -4,10 +4,10 @@ description: Améliorations apportées à la page d’accueil (quatrième trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 19%
+source-wordcount: '432'
+ht-degree: 17%
 
 ---
 
@@ -29,7 +29,7 @@ Nous avons apporté les modifications suivantes au widget En attente de mon appr
 * **Ajout de l’option Approbations que j’ai envoyées en tant que filtre** : vous pouvez désormais afficher les approbations que vous avez envoyées dans le nouvel accueil avec ce widget.
 * **Délai** : vous pouvez désormais voir l’échéance du BAT si elle a été définie. Si aucun délai n’est défini, la date limite est définie par défaut sur la date de création.
 
-Pour plus d’informations, voir [Commencer avec la nouvelle zone Accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations, voir [Prise en main de la page d’accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Simplification de l’expérience Workfront pour les propriétaires de tâches avec des priorités
 

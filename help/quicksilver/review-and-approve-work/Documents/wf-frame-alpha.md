@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '969'
 ht-degree: 98%
 
 ---
@@ -96,7 +96,6 @@ Pour vous aider à gérer et analyser vos demandes d’approbation d’un seul c
 
 Vous pouvez accéder aux catégories répertoriées ci-dessus pour obtenir une vue plus détaillée. Le widget Toutes les approbations est disponible dans les nouveaux tableaux de bord Accueil et Zone de travail.
 
-Pour plus d’informations, voir [Commencer avec la nouvelle zone Accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ### Verrouillez vos révisions et approbations une fois qu’une décision globale est prise.
 

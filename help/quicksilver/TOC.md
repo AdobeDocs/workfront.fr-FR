@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 426b7f7d556933dea26d27c82aa2082738d39767
+source-git-commit: c243aafc5d62fdd5ed2f209fe963e92f2548965c
 workflow-type: tm+mt
-source-wordcount: '14529'
+source-wordcount: '14514'
 ht-degree: 94%
 
 ---
@@ -894,22 +894,18 @@ ht-degree: 94%
       * [Ajout et gestion de liens rapides dans les priorités](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
    * Accueil {#home}
       * [Page d’accueil](workfront-basics/using-home/home.md)
-      * Nouvel accueil {#new-home}
-         * [Nouvel accueil](workfront-basics/using-home/new-home/new-home.md)
-         * [Commencer avec la nouvelle page d’accueil](workfront-basics/using-home/new-home/get-started-with-new-home.md)
-         * [Ajouter, modifier ou supprimer des widgets dans la nouvelle page d’accueil](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
-         * [Présentation des filtres de widgets d’accueil](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
-         * [Gérer votre travail avec le widget Mon travail](workfront-basics/using-home/new-home/my-work-widget.md)
       * Utiliser la zone d’accueil {#use-home-area}
          * [Utiliser la zone d’accueil](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [Passage de la page d’accueil héritée à la nouvelle page d’accueil](workfront-basics/using-home/new-home/move-to-new-home.md)
          * [Passage de la page d’accueil héritée aux priorités](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [Commencer avec la page d’accueil](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+         * [Ajouter, modifier ou supprimer des widgets dans la nouvelle page d’accueil](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Afficher les éléments de la liste de travail dans la zone d’accueil](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+         * [Présentation des filtres de widgets d’accueil](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+         * [Gérer votre travail avec le widget Mon travail](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
          * [Hiérarchiser le travail dans zone Accueil](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [Gérer les demandes de travail et d’équipe dans la zone d’accueil](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Mettre à jour ou modifier un élément de travail dans la zone d’accueil](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-         * [Créer des éléments de travail à partir de la zone Accueil](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [Création d’éléments de travail et de projets à partir de la zone d’accueil](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [Consigner les heures passées sur un élément de travail à partir de la zone Accueil](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Marquer un élément comme Terminé dans la zone Accueil](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [Vue Calendrier de l’accueil](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)

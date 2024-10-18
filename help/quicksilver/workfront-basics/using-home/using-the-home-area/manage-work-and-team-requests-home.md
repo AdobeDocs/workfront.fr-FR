@@ -2,20 +2,23 @@
 product-area: projects;agile-and-teams
 navigation-topic: use-the-home-area
 title: Gérer les demandes de travail et d’équipe dans la zone d’accueil
-description: Lorsque des tâches et des problèmes vous sont affectés, ils sont répertoriés dans la [!UICONTROL liste de travail] dans la zone d’[!UICONTROL accueil]. Vous pouvez consulter une demande, la réaffecter, y répondre, y travailler ou la supprimer. Les demandes de travail dans la zone d’[!UICONTROL accueil] ne se limitent pas aux problèmes liés aux files d’attente des demandes.
-author: Lisa
+description: Lorsque des tâches et des problèmes de travail vous sont affectés, ils sont répertoriés dans les widgets Mon travail, Mes tâches et Mes problèmes .  Vous pouvez afficher, travailler ou supprimer des tâches et des requêtes.
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 50%
 
 ---
 
-# Gérer les demandes de travail et d’équipe dans la zone d’[!UICONTROL accueil] 
 
-Lorsque des tâches et des problèmes vous sont attribués, ils sont répertoriés dans la [!UICONTROL liste de travail] dans la zone d’[!UICONTROL accueil]. Vous pouvez consulter une demande, la réaffecter, y répondre, y travailler ou la supprimer. Les demandes de travail dans la zone d’[!UICONTROL accueil] ne se limitent pas aux problèmes liés aux files d’attente des demandes.
+# Gérer les tâches et les demandes de l’équipe dans la zone [!UICONTROL Accueil]
+
+Lorsque des tâches et des problèmes de travail vous sont affectés, ils sont répertoriés dans les widgets Mon travail, Mes tâches et Mes problèmes .  Vous pouvez afficher, travailler ou supprimer des tâches et des requêtes.
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 ## Conditions d’accès
 
@@ -46,20 +49,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-&#42;Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez l’administration [!DNL Workfront].
 
-## Afficher une demande de travail
++++
 
-Les demandes de travail qui vous sont affectées sont affichées dans le panneau de gauche dans l’[!UICONTROL accueil]. Vous pouvez configurer les demandes qui sont affichées dans l’[!UICONTROL accueil] à l’aide du filtre situé en haut de la [!UICONTROL liste de travail].
+## Afficher un élément de travail dans le widget Mon travail
+
+Les éléments de travail qui vous sont affectés sont affichés dans le widget Mon travail dans [!UICONTROL Accueil]. Vous pouvez configurer les tâches qui s’affichent dans le widget Mon travail à l’aide du filtre situé en haut du widget [!UICONTROL worklist].
 
 Vous pouvez sélectionner des filtres qui affichent les éléments prêts à être traités ou les éléments sur lesquels vous travaillez déjà.
 
-Cet article explique comment utiliser les filtres de la zone d’[!UICONTROL accueil] pour afficher les éléments sur lesquels vous travaillez actuellement ou sur lesquels vous pourriez envisager de commencer à travailler. Pour plus d’informations sur tous les filtres de la zone d’[!UICONTROL accueil], voir [Afficher les éléments de la liste de travail dans la zone d’[!UICONTROL accueil]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Cet article explique comment utiliser les filtres de la zone d’[!UICONTROL accueil] pour afficher les éléments sur lesquels vous travaillez actuellement ou sur lesquels vous pourriez envisager de commencer à travailler. Pour plus d’informations sur l’utilisation des filtres dans la zone [!UICONTROL Accueil], voir [Afficher les éléments dans la [!UICONTROL liste de travail] dans la zone [!UICONTROL Accueil]](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+
+Pour afficher un élément de travail dans le widget Mon travail :
 
 1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. Cliquez sur le menu déroulant **[!UICONTROL Filtre]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mon travail**.
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
+1. Cliquez sur l’icône **Filtrer** ![](assets/filter-nwepng.png) dans le coin supérieur gauche de la liste de travail du widget.
 
 1. Cliquez sur l’une ou l’autre des options suivantes pour les tâches :
 
@@ -73,86 +80,86 @@ Cet article explique comment utiliser les filtres de la zone d’[!UICONTROL acc
    * Les tâches et leurs parents peuvent avoir des tâches/parents antérieurs ou des contraintes de tâches qui les empêchent d’être traités.
    * Les tâches ou les problèmes ont une [!UICONTROL date de début planifiée] qui se situe plus de deux semaines dans le futur.
 
-
 1. Cliquez sur **[!UICONTROL En train de travailler sur]** sous [!UICONTROL Tâches] ou [!UICONTROL Problèmes] pour afficher les tâches et les problèmes sur lesquels vous travaillez actuellement.
 1. Cliquez sur **[!UICONTROL Demandés]** sous [!UICONTROL Problèmes] pour afficher les problèmes qui vous ont été demandés (qui vous sont affectés), mais sur lesquels vous n’avez pas encore accepté de travailler.
 
-## Accéder à une demande d’équipe
+## Accès à une requête de l’équipe dans le widget Demande d’équipe
 
-Vous pouvez accéder à une demande assignée à votre équipe directement à partir de la zone  d’[!UICONTROL accueil]. Pour plus d’informations sur les demandes d’équipe, voir [Vue d’ensemble des demandes d’équipe](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Vous pouvez accéder à une requête affectée à votre équipe directement à partir du widget Demandes d’équipe dans la zone [!UICONTROL Accueil]. Pour plus d’informations sur les demandes d’équipe, voir [Vue d’ensemble des demandes d’équipe](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. Dans la zone **[!UICONTROL Liste de travail]**, cliquez pour développer le regroupement **[!UICONTROL Demandes d’équipe]**.
-
-   Si aucune demande n’est affectée à votre équipe, le regroupement ne s’affiche pas.
-
-   ![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x314.png)
-
-1. Cliquez sur le nom de l’équipe.\
-   La section **[!UICONTROL Demandes d’équipe]** affiche toutes les demandes affectées à votre équipe. Pour plus d’informations sur l’utilisation des demandes d’équipe, voir [Gérer les demandes d’équipe et de travail](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
-
-## Réaffecter une demande
+Pour accéder à une demande d’équipe :
 
 1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. Dans la zone **[!UICONTROL Liste de travail]**, sélectionnez la demande que vous souhaitez réaffecter.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Requêtes d’équipe** .
 
-1. Cliquez sur le widget **[!UICONTROL Affectations]** et retirez-vous de la demande, puis tapez le nom de l’utilisateur ou l’utilisatrice à qui vous voulez réattribuer la demande.
+   Le widget affiche les demandes de l’équipe sous des regroupements d’équipe. Le widget **[!UICONTROL Requêtes d’équipe]** s’affiche et affiche toutes les requêtes affectées à toute équipe dans laquelle vous vous trouvez. Pour plus d’informations sur l’utilisation des demandes d’équipe, voir [Gérer les demandes d’équipe et de travail](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+
+   ![](assets/team-request-widget.png)
+
+## Travail sur un élément de travail dans le widget Mon travail
+
+Lorsque vous cliquez sur le bouton [!UICONTROL Travailler dessus], vous indiquez à l’utilisateur qui a envoyé l’élément de travail et à tout autre utilisateur qui pourrait être affecté à l’élément de travail que vous allez démarrer le travail.
+
+Pour travailler sur un élément de travail :
+
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mon travail**.
+
+1. Dans la zone **[!UICONTROL worklist]** du widget, sélectionnez la requête sur laquelle vous souhaitez travailler, puis cliquez sur **[!UICONTROL Work On It]**.
+1. Passez la souris sur l’élément de travail, puis cliquez sur l’icône **Résumé** pour afficher des informations sur l’élément de travail.
+
+   ![](assets/open-summary-new-home.png)
+
+
+## Suppression d’un élément de travail
+
+Si vous décidez de ne pas travailler sur l’élément de travail, vous pouvez le supprimer de votre liste.
+
+Pour supprimer un élément de travail :
+
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mon travail**.
+
+1. Dans la liste de travail du widget, passez la souris sur l’élément de travail, puis cliquez sur l’icône **Résumé** pour afficher des informations sur l’élément de travail.
+   ![](assets/open-summary-new-home.png)
+1. dans la section **Affectations** , supprimez votre nom.
+   ![](assets/remove-assignment.png)
+
+
+
+<!--
+## Reassign a request
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the **[!UICONTROL Work List]** area, select the request you want to reassign.
+
+1. Click on the **[!UICONTROL Assignments]** widget and remove yourself from the request, then type the name of the user you want to reassign the request to.
 
    >[!TIP]
    >
-   >Si la demande de travail est toujours au statut Prête à démarrer ou Pas prête, vous pouvez utiliser le bouton **[!UICONTROL Réaffecter]** dans le menu **[!UICONTROL Plus]** dans la [!UICONTROL Liste de travail].\
-   >![Bouton de réaffectation](assets/reassign-in-left-panel-350x204.png)
+   >If the work request is still in the Ready to Start or Not Ready state, you can use the **[!UICONTROL Reassign]** button in the **[!UICONTROL More]** menu in the [!UICONTROL Work List].\
+   >![Reassign button](assets/reassign-in-left-panel-350x204.png)
 
-1. Si le statut d’une tâche passe à [!UICONTROL Nouvelle] ou [!UICONTROL En cours] après qu’elle ait été achevée, vous devez annuler l’affectation de l’utilisateur ou de l’utilisatrice, enregistrer la tâche, puis réaffecter l’utilisateur ou l’utilisatrice pour que la tâche réapparaisse dans sa Liste de travail de l’accueil.
+1. If a task's status is changed to [!UICONTROL New] or [!UICONTROL In Progress] after it was completed, you must unassign the user, save the task, then reassign the user in order for the task to reappear in their Home Work List.
 
-## Répondre à une demande
 
-Vous pouvez répondre à une demande pour la clarifier davantage ou pour proposer une nouvelle date.
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. Dans la zone **[!UICONTROL Liste de travail]**, sélectionnez la requête à laquelle vous souhaitez répondre.
-1. Localisez la personne qui vous a affecté la requête.
+## Reply to a request
 
-   Vous trouverez ces informations dans l’onglet [!UICONTROL Mises à jour] de la tâche. Assurez-vous que l’option **[!UICONTROL Afficher les mises à jour système]** est activée.
+You can reply to a request to further clarify the request or to propose a new date.
 
-1. Cliquez sur **[!UICONTROL Démarrer une nouvelle mise à jour]** et commencez à saisir votre réponse.
-1. Saisissez le nom de la personne destinataire dans la case **[!UICONTROL Notifier]**, puis cliquez sur **[!UICONTROL Mettre à jour]**.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the **[!UICONTROL Work List]** area, select the request you want to reply to.
+1. Locate the individual who assigned the request to you.
+
+   You can find this information on the [!UICONTROL Updates] tab of the task. Make sure the option to **[!UICONTROL Show System Updates]** is enabled.
+
+1. Click **[!UICONTROL Start new update]** and begin typing your reply.
+1. Enter the name of the recipient in the **[!UICONTROL Notify]** box, then click **[!UICONTROL Update]**.
 
    >[!TIP]
    >
-   >Si la requête de travail a toujours le statut Prêt à démarrer ou [!UICONTROL Pas prêt], vous pouvez utiliser le bouton **[!UICONTROL Répondre]** dans le menu **[!UICONTROL Plus]** de la [!UICONTROL liste de travail].\
-   >![[!UICONTROL Bouton Répondre]](assets/reassign-in-left-panel-350x204.png) >
+   >If the work request is still in the Ready to Start or [!UICONTROL Not Ready] state, you can use the **[!UICONTROL Reply]** button in the **[!UICONTROL More]** menu in the [!UICONTROL Work List].\
+   >![[!UICONTROL Reply button]](assets/reassign-in-left-panel-350x204.png)   
 
-## Travailler sur une requête
-
-Lorsque vous cliquez sur le bouton [!UICONTROL Travailler sur ce projet], vous indiquez à l’utilisateur ou l’utilisatrice qui a soumis la requête et à toute autre personne qui pourrait être affectée à la requête que vous allez commencer à travailler sur celle-ci. Pour plus d’informations sur le traitement des requêtes, consultez [Gérer les requêtes de travail et d’équipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
-
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. Dans la zone **[!UICONTROL Liste de travail]**, sélectionnez la requête sur laquelle vous voulez travailler, puis cliquez sur **[!UICONTROL Travailler sur ce projet]**.\
-   Des informations sur le problème s’affichent dans le panneau de droite.
-
-## Supprimer une requête
-
-Si vous décidez de ne pas travailler sur la requête, vous pouvez soit reconvertir la tâche ou le problème en requête, soit la supprimer de votre liste.
-
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. Dans la **[!UICONTROL liste de travail]**, pointez l’élément en attente de traitement.
-1. Cliquez sur le widget **[!UICONTROL Affectations]** et retirez-vous de la liste. Cette opération supprime l’élément de votre liste de travail. Si la requête n’est affectée à personne d’autre, ni à une autre équipe ou à une autre fonction, elle reste non affectée.
-
-   Ou
-
-   Cliquez sur l’icône de menu **[!UICONTROL Plus]** ![](assets/more-icon.png) à droite du nom de la tâche ou du problème dans la [!UICONTROL Liste de travail de l’accueil].
-
-   ![](assets/more-menu-in-home-work-list-convert-to-request-remove-add-to-priority-options-nwe-350x160.png)
-
-1. Sélectionnez l’une des options suivantes :
-
-   * **[!UICONTROL Convertir en demande de travail] :** sélectionnez cette option pour reconvertir l’élément de travail en requête.
-
-     L’élément de travail redevient une requête et vous restez la personne affectée à la requête.\
-      Vous pouvez accepter la requête ultérieurement en cliquant à nouveau sur **[!UICONTROL Travailler sur ce projet]**.
-
-   * **[!UICONTROL Supprimer] :** sélectionnez cette option pour supprimer une requête de votre [!UICONTROL liste de travail].
-
-     Votre affectation à la requête est annulée et celle-ci n’est plus associée à votre nom dans [!DNL Adobe Workfront].\
-      Si la requête n’est affectée à personne d’autre, ni à une autre équipe ou à une autre fonction, elle reste non affectée.
+   -->

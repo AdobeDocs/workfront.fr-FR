@@ -1,25 +1,24 @@
 ---
-title: Personnalisation de l’accueil et du résumé à l’aide d’un modèle de mise en page
+title: Personnalisation du panneau Résumé à l’aide d’un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Vous pouvez utiliser un modèle de disposition pour configurer ce que voient les personnes lorsqu’elles cliquent sur une tâche ou un problème dans Accueil et dans le résumé. Chaque configuration que vous effectuez en suivant les étapes ci-dessous affecte de la même manière la zone Accueil et le panneau Résumé. Ces personnalisations ne s’appliquent pas au panneau Résumé du document.
+description: Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les utilisateurs lorsqu’ils cliquent sur une tâche ou un problème dans le résumé. Chaque configuration que vous effectuez à l’aide des étapes ci-dessous affecte le panneau Résumé. Ces personnalisations ne s’appliquent pas au panneau Résumé du document.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
+source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 90%
+source-wordcount: '940'
+ht-degree: 70%
 
 ---
 
-# Personnaliser l’Accueil et le Résumé à l’aide d’un modèle de disposition
+# Personnalisation du panneau Résumé à l’aide d’un modèle de mise en page
 
-<span class="preview">Cet article sera renommé &quot;Personnaliser le panneau de résumé à l’aide d’un modèle de mise en page&quot; lorsque la page d’accueil héritée sera supprimée de Workfront avec la version du 4e trimestre le 17 octobre. 2024.</span>
 
-Vous pouvez utiliser un modèle de disposition pour configurer ce que voient les personnes lorsqu’elles cliquent sur une tâche ou un problème dans Accueil et dans le résumé. Chaque configuration que vous effectuez en suivant les étapes ci-dessous affecte de la même manière la zone Accueil et le panneau Résumé. Ces personnalisations ne s’appliquent pas au panneau Résumé du document.
+Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les utilisateurs lorsqu’ils cliquent sur une tâche ou un problème dans le résumé. Chaque configuration que vous effectuez à l’aide des étapes ci-dessous affecte le panneau Résumé. Ces personnalisations ne s’appliquent pas au panneau Résumé du document.
 
 Vous pouvez configurer les éléments suivants :
 
@@ -28,7 +27,7 @@ Vous pouvez configurer les éléments suivants :
 
 Vous pouvez également personnaliser les champs affichés par les personnes dans la zone Accueil lorsque les personnes cliquent sur l’approbation d’un projet, l’approbation de document ou l’approbation de version du document qui leur est affectée.
 
-Pour plus d’informations sur la zone Accueil, voir [Utiliser la zone Accueil](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Pour plus d’informations sur le panneau Résumé, voir [Vue d’ensemble du résumé](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Pour plus d’informations sur le panneau Résumé, voir [Vue d’ensemble du résumé](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 Pour plus d’informations sur la création de modèles de disposition, voir [Créer et gérer des modèles de disposition](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -68,11 +67,11 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
 +++
 
-## Personnaliser l’Accueil et le Résumé à l’aide d’un modèle de disposition
+## Personnalisation du panneau Résumé à l’aide d’un modèle de mise en page
 
-1. Commencez à travailler sur un modèle de mise en page, comme décrit dans [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Commencez à travailler sur un modèle de disposition, comme décrit dans la section [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) sous **Personnaliser des éléments affichés par les utilisateurs et utilisatrices**, puis cliquez sur **Accueil et résumé**.
+1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) sous **Personnaliser ce que les utilisateurs voient**, puis cliquez sur **Panneau de résumé**.
 
 1. Dans la liste de gauche, cliquez sur le type d’objet (**Tâches**, **Problèmes**, **Projets**, **Documents** ou **Document Versions**) que vous souhaitez personnaliser dans Accueil et résumé.
 
@@ -82,23 +81,28 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
     <tbody> 
      <tr> 
       <td role="rowheader">Tâches</td> 
-      <td> <p>Dans Accueil, votre configuration pour ce paramètre affecte la zone située à droite d’une tâche lorsqu’une personne clique sur la tâche. Et, dans une liste de tâches, cela affecte le panneau Résumé qui s’affiche sur le côté droit de la page lorsqu’une personne sélectionne une tâche, puis clique sur l’icône Ouvrir le résumé <img src="assets/summary-panel-icon.png">.</p> <p>Par exemple, vous pouvez déterminer les champs que les personnes voient dans la zone Détails lorsqu’elles sélectionnent des tâches dans Accueil :</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>Et lorsqu’elles sélectionnent une tâche dans le Résumé :</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td><p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Problèmes</td> 
-      <td> <p>Dans Accueil, votre configuration pour ce paramètre affecte la zone située à droite d’un problème lorsqu’une personne clique sur le problème.</p> <p>Dans une liste de problèmes, ce paramètre affecte le panneau Résumé qui s’affiche sur le côté droit de la page lorsqu’une personne sélectionne un problème, puis clique sur l’icône Ouvrir le résumé <img src="assets/summary-panel-icon.png">.</p> </td> 
+      <td><p>Dans une liste de problèmes, ce paramètre affecte le panneau Résumé qui s’affiche sur le côté droit de la page lorsqu’une personne sélectionne un problème, puis clique sur l’icône Ouvrir le résumé <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Projets</td> 
-      <td>Dans Accueil, lorsqu’une personne clique sur une approbation de projet qui lui est affectée, votre configuration pour ce paramètre affecte la zone située à droite de l’approbation.</td> 
+      <td><p>Dans Accueil, lorsqu’une personne clique sur une approbation de projet qui lui est affectée, votre configuration pour ce paramètre affecte la zone située à droite de l’approbation.</p>
+      <p>IMPORTANT : il s’agit d’une fonction obsolète. Toute modification apportée à cette zone est liée à une fonctionnalité supprimée par Workfront. Cette option sera supprimée de Workfront avec une mise à jour de maintenance ultérieure.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documents</td> 
-      <td>Dans Accueil, lorsqu’une personne clique sur une approbation de document qui lui est affectée, votre configuration pour ce paramètre affecte la zone située à droite de l’approbation.</td> 
+      <td><p>Dans Accueil, lorsqu’une personne clique sur une approbation de document qui lui est affectée, votre configuration pour ce paramètre affecte la zone située à droite de l’approbation.</p>
+      <p>IMPORTANT : il s’agit d’une fonction obsolète. Toute modification apportée à cette zone est liée à une fonctionnalité supprimée par Workfront. Cette option sera supprimée de Workfront avec une mise à jour de maintenance ultérieure.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Versions des documents</td> 
-      <td>Dans Accueil, lorsqu’une personne clique sur une approbation qui lui est affectée pour une version spécifique d’un document, votre configuration pour ce paramètre affecte la zone située à droite de l’approbation.</td> 
+      <td><p>Dans Accueil, lorsqu’une personne clique sur une approbation qui lui est affectée pour une version spécifique d’un document, votre configuration pour ce paramètre affecte la zone située à droite de l’approbation.</p>
+      <p>IMPORTANT : il s’agit d’une fonction obsolète. Toute modification apportée à cette zone est liée à une fonctionnalité supprimée par Workfront. Cette option sera supprimée de Workfront avec une mise à jour de maintenance ultérieure.</p>
+      </td> 
      </tr> 
     </tbody> 
    </table>
@@ -119,7 +123,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
-1. Répétez les étapes 3 à 6 pour personnaliser la zone Accueil et le panneau Résumé pour tout autre type d’objet.
+1. Répétez les étapes 3 à 6 pour personnaliser le panneau Résumé pour tout autre type d’objet.
 1. Cliquez sur **Paramètres globaux**, près du coin inférieur gauche, puis activez ou désactivez l’une des options suivantes liées aux objets Adobe Workfront dans Accueil et Résumé :
 
    <table style="table-layout:auto"> 

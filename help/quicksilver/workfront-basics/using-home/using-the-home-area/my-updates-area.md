@@ -3,21 +3,18 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Utiliser la zone Mes mises à jour
 description: Vous pouvez utiliser la zone [!UICONTROL Mes mises à jour] pour consulter rapidement les approbations en attente de votre décision ou les conversations auxquelles vous avez participé.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '778'
 ht-degree: 100%
 
 ---
 
 # Utiliser la zone [!UICONTROL Mes mises à jour]
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
--->
 
 Vous pouvez utiliser la zone [!UICONTROL Mes mises à jour] pour consulter rapidement les approbations en attente de votre décision ou les conversations auxquelles vous avez participé.
 
@@ -29,7 +26,9 @@ Si vous disposez d’un type de licence différent de Révision, l’administrat
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,6 +56,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 </table>
 
 * Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice . [!DNL Workfront] Pour plus d’informations, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 

@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,6 @@ La nouvelle page d’accueil est une nouvelle fonctionnalité majeure que nous s
 
 La nouvelle page d’accueil sera l’expérience par défaut pour tous les utilisateurs et toutes les utilisatrices lors de sa mise à jour. Vous pouvez toutefois choisir de revenir à l’expérience d’accueil existante pendant que nous continuons à développer ses fonctionnalités.
 
-Pour plus d’informations, voir [Commencer avec la nouvelle page d’accueil dans Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 [Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3420969/){target=_blank}
 

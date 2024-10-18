@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 7bae31a9454c88bd0e5525f4b4d11cd9e76ccd39
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 81%
+source-wordcount: '824'
+ht-degree: 75%
 
 ---
 
@@ -33,7 +33,7 @@ Vous pouvez configurer les éléments suivants :
 
 
 
-Pour plus d’informations sur la nouvelle page d’accueil, voir [Commencer avec le nouvel accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations sur la nouvelle page d’accueil, voir [Prise en main de la page d’accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 Pour plus d’informations sur la création de modèles de disposition, voir [Créer et gérer des modèles de disposition](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -91,8 +91,8 @@ Pour personnaliser la nouvelle page d’accueil à l’aide d’un modèle de mi
       <td role="rowheader">Conception et disposition</td> 
       <td>
       <p>Sélectionnez les widgets qui seront présents dans les espaces de travail des utilisateurs et utilisatrices, leur position et choisissez un arrière-plan. Notez que même si les utilisateurs et utilisatrices ne peuvent pas supprimer les widgets sélectionnés, ils et elles peuvent les déplacer et les redimensionner librement et ajouter des widgets supplémentaires.</p>
-      <p>Cet onglet fonctionne essentiellement comme un nouveau petit espace de travail d’accueil. Il peut donc être personnalisé selon les étapes décrites dans la section <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Ajouter, modifier ou supprimer des widgets dans le nouvel accueil</a>. Sélectionnez des widgets et organisez l’espace de travail comme vous le souhaitez pour les utilisateurs et utilisatrices.</p>
-      <p>Pour modifier l’arrière-plan, procédez comme suit : <b>Personnalisation de l’arrière-plan</b> dans <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Commencer avec la nouvelle page d’accueil</a>.</p>
+      <p>Cet onglet fonctionne essentiellement comme un petit nouvel espace de travail d’accueil. Il peut donc être personnalisé selon les étapes décrites dans la section <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Ajouter, modifier ou supprimer des widgets dans l’accueil</a>. Sélectionnez des widgets et organisez l’espace de travail comme vous le souhaitez pour les utilisateurs et utilisatrices.</p>
+      <p>Pour modifier l’arrière-plan, suivez les étapes sous <b>Personnalisation de l’arrière-plan</b> dans <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Prise en main de l’accueil</a>.</p>
       <p>
 
 >[!NOTE]

@@ -6,7 +6,7 @@ description: Vous pouvez déléguer temporairement le travail qui vous est confi
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 82%
@@ -108,7 +108,7 @@ Pour déléguer vos tâches et problèmes à d’autres personnes :
 1. Accédez à la zone [!UICONTROL **Home**].
 1. Assurez-vous que les widgets [!UICONTROL **My Work**], [!UICONTROL **My Tasks**] ou [!UICONTROL **My Issues**] ont été ajoutés à votre [!UICONTROL **Home**].
 
-   Pour plus d’informations, voir [Ajout, modification ou suppression de widgets dans l’accueil](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
+   Pour plus d’informations, voir [Ajout, modification ou suppression de widgets dans l’accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 
 1. Cliquez sur [!UICONTROL **Déléguer**] dans le coin supérieur gauche des widgets [!UICONTROL **Mon travail**], [!UICONTROL **Mes tâches**] ou [!UICONTROL **Mes problèmes**].
 

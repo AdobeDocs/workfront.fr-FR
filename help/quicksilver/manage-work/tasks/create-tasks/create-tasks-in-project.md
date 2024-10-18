@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 100%
+source-wordcount: '749'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ Vous ne pouvez créer des tâches dans un projet qu’après avoir créé le pro
 
 Vous pouvez par exemple, après avoir créé un projet, vouloir créer des tâches et les modifier pour organiser le plan du projet. Pour en savoir plus sur la création d’un projet, voir [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
 
-Pour en savoir plus sur la création de tâches personnelles qui ne figurent pas dans un projet, voir la section [Créer une tâche personnelle](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) dans l’article [Créer des éléments de travail à partir de la zone Accueil](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Pour plus d’informations sur la création de tâches personnelles qui ne font pas partie d’un projet, reportez-vous à la section [Créer une tâche personnelle](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) de l’article [Créer des tâches et des projets à partir de la zone d’accueil](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 Cet article décrit comment créer des tâches à partir de zéro. Vous pouvez également créer des tâches de la manière suivante :
 

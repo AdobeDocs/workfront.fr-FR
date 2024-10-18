@@ -7,10 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
+source-git-commit: 770f9cd41f4d5b8d17928f98dd4cbd1646dd298a
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 90%
+source-wordcount: '154'
+ht-degree: 78%
 
 ---
 
@@ -18,17 +18,22 @@ ht-degree: 90%
 
 Cette section contient les articles suivants :
 
-* [Commencer avec l’[!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
-* [Passage de la page d’accueil héritée à la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
 * [Passage de la page d’accueil héritée aux priorités](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
+  <!--* [Move from Legacy home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
+* [Commencer avec l’[!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+* [Ajouter, modifier ou supprimer des widgets dans la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 * [Utiliser la zone [!UICONTROL Mes mises à jour]](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [Afficher les éléments de la [!UICONTROL liste de travail] dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
-* [Hiérarchiser le travail dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
+* [Présentation des filtres de widgets d’accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
 * [Gérer les demandes de travail et d’équipe dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [Mettre à jour ou modifier un élément de travail dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-* [Créer des éléments de travail à partir de la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* [Créez des tâches et des projets à partir de la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 * [Consigner les heures consacrées à un élément de travail dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [Marquer un élément comme [!UICONTROL Terminé] dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
+
+Les articles suivants contiennent des fonctionnalités qui ont été supprimées avec l’obsolescence de la page d’accueil héritée le 10/17/2014 :
+
+* [Hiérarchiser le travail dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
 * [Vue [!UICONTROL Calendrier d’accueil]](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
 * [Configurer les paramètres d’affichage du [!UICONTROL calendrier d’accueil]](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
 * [Utiliser la vue [!UICONTROL Calendrier d’accueil]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)

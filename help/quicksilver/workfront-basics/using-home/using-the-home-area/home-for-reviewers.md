@@ -5,36 +5,40 @@ description: Zone d’accueil pour les personnes chargées de la révision, zone
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 699199a7-1a11-4025-aa90-6721e5cb6b45
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 1131c2329d194f0c9181b6a5cbd39f19a5247ef0
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '65'
+ht-degree: 83%
 
 ---
 
 # Zond d’[!UICONTROL accueil] pour les personnes chargées de la révision
 
+>[!IMPORTANT]
+>
+>Cette fonctionnalité a été supprimée avec l’obsolescence de la page d’accueil héritée le 10/17/2014.
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: from Alina: not sure if we should still keep this one or not. In the past, Reviewers had a limited "Home" area which was their default page. Since now they created a "My Updates" area which is their new default, not sure if this makes much sense to still keep. The "My Updates" article is linked from this one, right at the top.)</p>
--->
 
-Les personnes chargées de la révision se voient affecter par défaut la zone [!UICONTROL Mes mises à jour]. Elles ne peuvent accéder à une version modifiée de la zone d’[!UICONTROL accueil] que si un administrateur ou une administratrice [!DNL Adobe Workfront] ajoute la zone d’[!UICONTROL accueil] à leur modèle de disposition.
 
-Cet article décrit les activités que vous pouvez effectuer dans la zone d’[!UICONTROL accueil] si vous disposez d’une licence [!UICONTROL Révision].
+Reviewers are assigned the [!UICONTROL My Updates] area by default. They can access a modified version of the [!UICONTROL Home] area only when an [!DNL Adobe Workfront] administrator adds the [!UICONTROL Home] area to their layout template.
 
-Pour plus d’informations sur la navigation par défaut des utilisateurs et utilisatrices de licence [!UICONTROL Révision], voir [Comprendre la navigation pour un utilisateur ou une utilisatrice de licence [!UICONTROL Révision]](../../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md). Pour plus d’informations sur la zone [!UICONTROL Mes mises à jour], voir [Utiliser la zone [!UICONTROL Mes mises à jour]](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
+This article describes activities that you can perform in the [!UICONTROL Home] area if you have a [!UICONTROL Review] license.
+
+For more information about the default navigation of [!UICONTROL Review]-license users, see [Understand the navigation for a [!UICONTROL Review]-license user](../../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md). For more information about the [!UICONTROL My Updates] area, see [Use the [!UICONTROL My Updates] area](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 >[!TIP]
 >
->* Les mises à jour générales entre les utilisateurs et utilisatrices en dehors d’un objet ne sont pas activées.
->* Bien que les personnes disposant d’une licence [!UICONTROL Révision] puissent se voir affecter des tâches, elles ne reçoivent pas d’e-mail ou d’autres notifications concernant les tâches affectées, et elles ne peuvent pas les marquer comme « [!UICONTROL Terminé] ».
+>* General updates between users outside of an object are not enabled.
+>* Although users with a [!UICONTROL Review] license can be assigned tasks, they do not receive email or other notifications regarding assignments, and they cannot mark them as "[!UICONTROL Done]."
 >
 
 
 
-## Conditions d’accès
+## Access requirements
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,93 +48,94 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>[!UICONTROL Review] </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le type de plan ou de licence dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
+&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
-## Approuver le travail
+## Approve work
 
-1. (Le cas échéant) Si votre administrateur ou administratrice [!DNL Workfront] a ajouté la zone d’accueil à votre modèle de disposition, cliquez sur l’icône **[!DNL Workfront]avatar** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche de [!DNL Adobe Workfront].
+1. (Conditional) If your [!DNL Workfront] administrator added the Home area to your layout template, click the **[!DNL Workfront] avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of [!DNL Adobe Workfront].
 
-   Ou
+   Or
 
-   Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png), puis sur **[!UICONTROL Accueil]**.
+   Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png), then click **[!UICONTROL Home]**.
 
    >[!NOTE]
    >
-   >L’administrateur ou administratrice [!DNL Workfront] peut apporter les modifications suivantes à l’icône [!DNL Workfront] dans votre environnement :
+   >The [!DNL Workfront] administrator might make the following changes to the [!DNL Workfront] icon in your environment:
    >
    >   
    >   
-   >   * La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >   * Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **[!UICONTROL Accueil]**.
+   >   * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article.
+   >   * Replace the page linked to it with a different page. In this case, click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **[!UICONTROL Home]**.
 
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
-1. Sélectionnez une approbation dans la [!UICONTROL liste de travail] sur le côté gauche de l’écran.
-1. Cliquez sur **[!UICONTROL Approuver]**, **[!UICONTROL Modifier]** ou **[!UICONTROL Rejeter]**.
+1. Select an approval from the [!UICONTROL Work List] on the left side of the screen.
+1. Click **[!UICONTROL Approve]**, **[!UICONTROL Changes]**, or **[!UICONTROL Reject]**.
 
    >[!IMPORTANT]
    >
-   >Une fois que vous avez pris une décision d’approbation, vous ne pouvez plus la modifier.
+   >Once you've made an approval decision, you can't change it.
 
-1. (Facultatif) Ajoutez un commentaire à votre décision d’approbation.
+1. (Optional) Add a comment to your approval decision.
 
-## Approbations des délégués
+## Delegate approvals
 
-1. (Le cas échéant) Si votre administrateur ou administratrice [!DNL Workfront] a ajouté la zone d’accueil à votre modèle de disposition, cliquez sur l’icône d’avatar ****[!UICONTROL  Workfront] ![](assets/home-icon-30x29.png) dans le coin supérieur gauche de la page d’accueil. [!DNL Adobe Workfront]
+1. (Conditional) If your [!DNL Workfront] administrator added the Home area to your layout template, click the **[!UICONTROL Workfront] avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of [!DNL Adobe Workfront]
 
-   Ou
+   Or
 
-   Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png), puis sur **[!UICONTROL Accueil]**.
+   Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png), then click **[!UICONTROL Home]**.
 
-1. Cliquez sur **[!UICONTROL Déléguer mes approbations]** au-dessus de la liste de travail.
-
-   ![](assets/home-for-reviewers-adobe-350x159.png)
-
-1. Saisissez le nom de la personne à laquelle vous souhaitez déléguer vos approbations. Vous pouvez déléguer des approbations de projets, de tâches et de problèmes.
-1. Choisissez une **[!UICONTROL date de début]**.
-1. Choisissez une **[!UICONTROL date de fin]**.\
-   ou\
-   Choisissez **[!UICONTROL Pas de date de fin]**.
-
-1. Cliquer sur **[!UICONTROL Enregistrer]**.
-
-## Adresser un rappel ou rappeler les approbations que vous avez soumises
-
-1. (Le cas échéant) Si votre administrateur ou administratrice [!DNL Workfront] a ajouté la zone d’accueil à votre modèle de disposition, cliquez sur l’icône d’avatar ****[!UICONTROL  Workfront] ![](assets/home-icon-30x29.png) dans le coin supérieur gauche de [!DNL Adobe Workfront].
-
-   Ou
-
-   Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png), puis sur **[!UICONTROL Accueil]**.
+1. Click **[!UICONTROL Delegate My Approvals]** above the work list.
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
-1. Développez le regroupement **[!UICONTROL Approbations que j’ai soumises]** dans la liste de travail.
-1. Sélectionner une approbation.
-1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Rappeler]** ou **[!UICONTROL Adresser un rappel]**.
+1. Type the name of a user you'd like to delegate your approvals to. You can delegate only Project, Task, and Issue approvals.
+1. Choose a **[!UICONTROL Start Date]**.
+1. Choose an **[!UICONTROL End Date]**.\
+   or\
+   Choose **[!UICONTROL No end date]**.
 
-## Faire des commentaires
+1. Click **[!UICONTROL Save]**.
 
-1. (Le cas échéant) Si votre administrateur ou administratrice [!DNL Workfront] a ajouté la zone [!UICONTROL Accueil] à votre modèle de mise en page, cliquez sur l’icône **[!UICONTROL avatar Workfront]** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’[!DNL Adobe Workfront].
+## Remind or recall approvals you've submitted
 
-   Ou
+1. (Conditional) If your [!DNL Workfront] administrator added the Home area to your layout template, click the **[!UICONTROL Workfront] avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of [!DNL Adobe Workfront].
 
-   Cliquez sur le **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png), puis sur **[!UICONTROL Accueil]**.
+   Or
+
+   Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png), then click **[!UICONTROL Home]**.
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
-1. Sélectionnez une approbation dans la [!UICONTROL liste de travail] sur le côté gauche de l’écran.
-1. Dans le panneau de droite, cliquez sur la zone **[!UICONTROL Démarrer une nouvelle mise à jour]**.
-1. Effectuez votre mise à jour.
-1. Cliquez sur **[!UICONTROL Mettre à jour]**.
+1. Expand the **[!UICONTROL Approvals I've Submitted]** grouping in the work list.
+1. Select an approval.
+1. In the top-right corner, click **[!UICONTROL Recall]** or **[!UICONTROL Remind]**.
 
+## Make comments
 
+1. (Conditional) If your [!DNL Workfront] administrator added the [!UICONTROL Home] area to your layout template, click the **[!UICONTROL Workfront] avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of [!DNL Adobe Workfront].
+
+   Or
+
+   Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png), then click **[!UICONTROL Home]**.
+
+   ![](assets/home-for-reviewers-adobe-350x159.png)
+
+1. Select an approval from the [!UICONTROL Work List] on the left side of the screen.
+1. In the right panel, click in the **[!UICONTROL Start a new update]** box.
+1. Make your update.
+1. Click **[!UICONTROL Update]**.
+
+ 
+-->

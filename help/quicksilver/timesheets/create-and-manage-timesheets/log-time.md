@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 114fb6282924cde478f17a1b754157b6e47a7e3b
 workflow-type: tm+mt
-source-wordcount: '3650'
+source-wordcount: '3652'
 ht-degree: 88%
 
 ---
@@ -79,7 +79,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Les feuilles de temps comprennent le total des heures pour toutes les dates consignées. Les week-ends sont toujours inclus, même lorsque les calculs de chronologie ont été configurés pour les exclure (comme décrit dans la section [Configurer les préférences du projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
 * Le nombre maximal d’éléments affichés dans une feuille de temps est de 45. Si plus de 45 éléments coïncident avec la période de la feuille de temps, seuls les éléments les plus récemment mis à jour s’affichent.
 * Les entrées d’heures correspondant aux enregistrements de facturation sont grisées et ne peuvent pas être modifiées dans la feuille de temps. Pour plus d’informations, voir [Créer des enregistrements de facturation](../../manage-work/projects/project-finances/create-billing-records.md).
-* Les tâches personnelles ne s’affichent pas par défaut sur la feuille de temps. Les tâches personnelles ne s’affichent dans la feuille de temps que lorsque leurs heures ont été consignées. Après avoir consigné les heures passées sur une tâche personnelle, vous pouvez épingler la tâche sur la feuille de temps. Celle-ci restera sur la feuille de temps aussi longtemps qu’elle sera épinglée. Pour plus d’informations, voir [Créer des éléments de travail à partir de la zone Accueil](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+* Les tâches personnelles ne s’affichent pas par défaut sur la feuille de temps. Les tâches personnelles ne s’affichent dans la feuille de temps que lorsque leurs heures ont été consignées. Après avoir consigné les heures passées sur une tâche personnelle, vous pouvez épingler la tâche sur la feuille de temps. Celle-ci restera sur la feuille de temps aussi longtemps qu’elle sera épinglée. Pour plus d’informations, voir [Création d’éléments de travail et de projets à partir de la zone d’accueil](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Enregistrer des heures {#log-time-section}
 
@@ -335,7 +335,6 @@ Pour supprimer de la feuille de temps un élément qui a été ajouté manuellem
 Vous pouvez consigner les heures consacrées à un projet spécifique dans la page d’accueil.
 
 Pour obtenir des informations générales sur l’utilisation de la zone d’accueil, voir [Utilisation de la zone d’accueil](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
 
 <!--#### Log time on a work item from the new Home area-->
 

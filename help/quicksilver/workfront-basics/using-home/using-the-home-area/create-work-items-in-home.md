@@ -1,25 +1,26 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Créer des éléments de travail à partir de la zone Accueil
-description: Vous pouvez créer des éléments de travail à partir de la zone [!UICONTROL Accueil]. Vous pouvez créer des tâches personnelles pour vous-même, demander du travail à d’autres utilisateurs et utilisatrices ou ajouter des tâches à des projets spécifiques.
-author: Nolan
+title: Création d’éléments de travail et de projets à partir de la zone d’accueil
+description: Vous pouvez créer des tâches et des projets à partir de la zone [!UICONTROL Accueil].
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 26%
 
 ---
 
-# Créer des éléments de travail à partir de la zone Accueil
+# Création d’éléments de travail et de projets à partir de la zone d’accueil
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Courtney: Need to rename)</p>
--->
+Vous pouvez créer des tâches et des projets à partir de la zone [!UICONTROL Accueil]. Depuis la page d’accueil, vous pouvez
 
-Vous pouvez créer des éléments de travail à partir de la zone [!UICONTROL Accueil]. Vous pouvez créer des tâches personnelles pour vous-même, demander du travail à d’autres utilisateurs et utilisatrices ou ajouter des tâches à des projets spécifiques.
+* Créer vous-même des tâches personnelles
+* Soumettre des demandes
+* Ajout de tâches et de problèmes à des projets spécifiques
+* Créez des projets à partir d’un modèle, d’un projet vierge ou importez un projet MS.
 
 ## Conditions d’accès
 
@@ -49,73 +50,119 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-&#42;Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez l’administration [!DNL Workfront].
 
-## Créer une tâche personnelle
+## Création d’un élément de tâche personnel
 
-Vous pouvez créer une tâche personnelle qui n’est accessible que par vous dans la zone [!UICONTROL Accueil] :
+Vous pouvez créer un élément de tâche personnel disponible uniquement dans la zone [!UICONTROL Home] :
 
-1. Cliquez sur le **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. Cliquez sur **[!UICONTROL Nouvelle tâche]** > **[!UICONTROL Personnelle]**.
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Ajoutez le widget Tâches à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Tâches**.
+1. Accédez au widget **To-do** , puis cliquez sur **Ajouter to-do**.
+1. Saisissez le
+1. (Facultatif) Cliquez sur l’icône **Date** ![](assets/date-icon.png) pour ajouter une date d’échéance pour l’élément.
+   ![](assets/my-work-to-dos.png)
 
-   ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
 
-1. Dans le champ **[!UICONTROL Nom]**, saisissez le nom de la tâche.
-1. (Facultatif) Cliquez sur **[!UICONTROL Sélectionner la date]**, puis sélectionnez la date d’échéance de la tâche. Cette option définit la [!UICONTROL Date d’achèvement prévue] pour la tâche.\
-   Vous pouvez modifier la **[!UICONTROL Date d’achèvement prévue]** en cliquant sur la date dans le panneau de droite ou en modifiant la date **[!UICONTROL La tâche sera terminée d’ici le...]** directement dans la tâche.
 
-1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer la tâche.\
-   La tâche vous est affectée et est disponible dans la zone [!UICONTROL Accueil].
+## Ajout d’une tâche à un projet
 
->[!NOTE]
->
->* Lorsque vous créez une tâche personnelle, elle est stockée dans un projet « caché » qui n’est pas consultable dans [!UICONTROL Workfront]. Le projet est nommé « Tâches de &lt; User Name > ». Le « User Name » est le nom complet de l’utilisateur ou de l’utilisatrice qui a créé la tâche. Vous ne pouvez accéder à ce projet que lorsque vous cliquez sur la tâche personnelle dans la zone [!UICONTROL Accueil], à partir du chemin de navigation de la tâche, par exemple.
->
->* Contrairement aux tâches de projet ordinaires, les tâches personnelles ont un ensemble limité de champs visibles dans l’interface de Workfront et n’influencent pas le calendrier ou l’avancement d’un projet. La réaffectation d’une tâche personnelle à un autre utilisateur ou à une autre utilisatrice ajoute tous les champs de la tâche à une tâche personnelle, mais la tâche reste dans le projet personnel de l’utilisateur ou de l’utilisatrice qui l’a créée.
->
->
->* Les tâches personnelles ne s’affichent sur les feuilles de temps que lorsqu’elles ont des heures consignées ou qu’elles sont épinglées à la feuille de temps. Vous ne pouvez épingler une tâche personnelle à une feuille de temps que si des heures ont été consignées pour cette tâche. Pour plus d’informations, voir [Consigner le temps](../../../timesheets/create-and-manage-timesheets/log-time.md).
-> 
->* Nous vous conseillons de créer un projet et d’y déplacer toutes vos tâches personnelles, si vous souhaitez que les tâches personnelles fassent partie du workflow normal.
->
-> ![[!UICONTROL Projet pour des tâches personnelles]](assets/createworkitems-personal--project-350x105.png)
+Vous pouvez ajouter une tâche à un projet existant directement depuis la zone Accueil :
 
-## Demander du travail à un autre utilisateur ou à une autre utilisatrice
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Ajoutez le widget **Mes tâches** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes tâches**.
+1. Accédez au widget **Mes tâches** , puis cliquez sur **Nouveau**.
+   ![](assets/create-new-task.png)
+1. Dans la boîte de dialogue **Nouvelle tâche**, saisissez le nom de la tâche.
+1. Commencez à saisir le nom d’un projet, puis sélectionnez-le dans la liste.
+1. (Facultatif) Renseignez les champs suivants :
 
-Vous pouvez demander du travail à un autre utilisateur ou à une autre utilisatrice directement à partir de la zone Accueil. Lorsque vous demandez du travail à un autre utilisateur ou à une autre utilisatrice comme décrit dans cette section, la tâche est affichée comme une demande dans la zone Accueil de la personne jusqu’à ce que celle-ci clique sur **[!UICONTROL Travailler sur cette tâche]**.
+   | champ | Instructions |
+   |----------|----------|
+   | **Description** | Saisissez une description. |
+   | **Affectations** | Affectez des utilisateurs. |
+   | **Durée** | Saisissez la durée. |
+   | **Date d’achèvement prévue** | Choisissez une date d’achèvement prévue. |
+   | **Plus d’options** | Choisissez d’autres options pour configurer d’autres paramètres pour la tâche. Pour plus d&#39;informations sur la création de tâches, voir [Modifier les tâches](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). |
 
-Pour demander du travail à un autre utilisateur ou à une autre utilisatrice à partir de la zone [!UICONTROL Accueil], procédez comme suit :
+1. Cliquez sur **Créer une tâche**.
 
-1. Cliquez sur le **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. Cliquez sur **[!UICONTROL Nouvelle tâche]**, puis sélectionnez **[!UICONTROL Demande]**.
 
-   ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
+## Ajout d’un problème à un projet
 
-1. Dans le champ **[!UICONTROL Nom]**, saisissez le nom de la tâche.
-1. Dans le champ **[!UICONTROL Affecter à]**, commencez à saisir le nom de l’utilisateur, de l’utilisatrice, de l’équipe ou du rôle que vous voulez affecter, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
-1. Dans le menu déroulant [!UICONTROL Ajouter en tant que], choisissez d’ajouter soit une tâche soit un problème.
-1. Cliquez sur **[!UICONTROL Sélectionner une date]**, puis sélectionnez la date et l’heure d’échéance de la tâche.
-1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer la tâche.\
-   La tâche est affichée en tant que demande de travail dans la zone [!UICONTROL Accueil] de l’utilisateur ou de l’utilisatrice de votre choix.
+Vous pouvez ajouter un problème à un projet existant directement à partir de la zone Accueil :
 
-## Ajouter une tâche ou un problème à un projet
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Ajoutez le widget **Mes problèmes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes problèmes**.
+1. Accédez au widget **Mes problèmes** , puis cliquez sur **Nouveau**.
+   ![](assets/create-new-issue.png)
+1. Dans la boîte de dialogue **Nouveau problème**, commencez à saisir un nom de projet, puis sélectionnez le nom dans la liste.
+1. Saisissez un nom de problème.
+1. (Facultatif) Renseignez les champs suivants :
 
-Vous pouvez ajouter une tâche ou un problème à un projet existant directement à partir de la zone Accueil :
+   | champ | Instructions |
+   |----------|----------|
+   | **Description** | Saisissez une description. |
+   | **Affectations** | Affectez des utilisateurs. |
+   | **Priorité** | Choisissez un niveau de priorité. |
+   | **Documents** | Téléchargez un document. |
 
-1. Cliquez sur le **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Accueil**.
-1. Cliquez sur **[!UICONTROL Nouvelle tâche]**, puis sélectionnez **[!UICONTROL Tâche de projet]**.
+1. Cliquez sur **Enregistrer une nouvelle publication**.
 
-   ![](assets/creating-work-items-new-project-task-nwe-350x358.png)
+## Création d’une requête
 
-1. Dans le champ **[!UICONTROL Nom]**, indiquez un nom pour la tâche ou le problème.
-1. Dans le champ **[!UICONTROL Affecter à]**, commencez à saisir le nom de l’utilisateur ou utilisatrice, de l’équipe ou du rôle à qui vous souhaitez l’affecter, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
-1. Commencez à saisir le nom du projet dans lequel vous souhaitez créer la tâche ou le problème, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
+Vous pouvez créer une requête directement à partir de la zone Accueil :
 
-   >[!IMPORTANT]
-   >
-   >La tâche ou le problème apparaît dans la [!UICONTROL liste de travail] uniquement lorsque le [!UICONTROL statut] du projet est défini sur [!UICONTROL Actuel].
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Ajoutez le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**.
+1. Accédez au widget **Mes requêtes** , puis cliquez sur **Nouveau**.
+   ![](assets/create-new-request.png)
 
-1. (Le cas échéant) Pour créer un problème, sélectionnez **[!UICONTROL Problème]** dans le menu déroulant **[!UICONTROL Ajouter en tant que]**. Par défaut, **[!UICONTROL Tâche]** est sélectionné.
+1. Dans la boîte de dialogue **Nouvelle requête**, commencez à saisir le nom de la file d’attente de la requête.
+1. Renseignez les champs correspondants.
+1. Cliquez sur **Soumettre**.
 
-1. Cliquez sur **[!UICONTROL Sélectionner une date]**, puis sélectionnez la date et l’heure d’échéance de la tâche.
-1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer la tâche.
+Pour plus d’informations sur l’envoi de requêtes, voir [Création et envoi de requêtes](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## Créer un projet
+
+Vous pouvez créer un projet directement à partir de la zone Accueil :
+
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Ajoutez le widget **Mes projets** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes projets**.
+1. Accédez au widget **Mes projets** , puis cliquez sur **Nouveau**.
+   ![](assets/create-new-project.png)
+1. Choisissez l’une des options suivantes :
+
+   | champ | Instructions |
+   |----------|----------|
+   | À partir d’un modèle | Accédez à [Créer un projet à l’aide d’un modèle](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) pour obtenir des instructions détaillées sur la création d’un projet à partir d’un modèle. |
+   | Projet vierge | Accédez à [Créer un projet à partir de zéro](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch) pour obtenir des instructions détaillées sur la création d’un projet vierge. |
+   | Importer projet MS | Accédez à [Importer un projet à partir du projet Microsoft](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md) pour obtenir des instructions détaillées sur l’importation d’un projet MS. |
+
+
+<!--
+## Create a board
+
+You can create a board directly from the Home area:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+
+
+
+
+
+<!--
+## Delete a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+
+## Edit a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Edit the item name.
+1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->
