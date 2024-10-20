@@ -6,9 +6,9 @@ description: Le tableau de bord permet d’accéder rapidement aux informations.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '538'
 ht-degree: 89%
 
 ---
@@ -82,7 +82,7 @@ Pour plus d’informations sur la création de tableaux de bord, voir [Créer un
    * **Nom** : modifiez le nom du tableau de bord.
    * **Description** : décrivez le tableau de bord.
 
-1. Dans la section **Rapports disponibles** , commencez à saisir le nom d’un rapport ou d’une page externe dans le champ **Rechercher par nom ou type...** , puis faites glisser le rapport dans le volet de mise en page de droite.
+1. Dans la section **Rapports et calendriers disponibles**, commencez à saisir le nom d’un rapport, d’un calendrier ou d’une page externe dans la barre de recherche, puis faites glisser le rapport, le calendrier ou la page externe dans le volet de mise en page de droite.
 
    >[!NOTE]
    >

@@ -6,10 +6,10 @@ description: Vous pouvez créer des tableaux de bord pour accéder rapidement au
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 100%
+source-wordcount: '496'
+ht-degree: 92%
 
 ---
 
@@ -102,13 +102,13 @@ Vous pouvez ajouter des pages externes existantes à un tableau de bord ou en cr
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Recherchez des rapports, des calendriers ou des pages externes dans le champ **Rechercher par nom ou par type ...** puis faites-les glisser vers le volet de disposition lorsqu’ils apparaissent dans la liste.
+1. Dans la section **Rapports et calendriers disponibles**, commencez à saisir le nom d’un rapport, d’un calendrier ou d’une page externe dans la barre de recherche, puis faites glisser le rapport, le calendrier ou la page externe dans le volet de mise en page de droite.
 
    >[!NOTE]
    >
    >Lors de la recherche d’un élément, la recherche renvoie l’un des 2 000 rapports créés le plus récemment. Les noms de rapports contenant des caractères Unicode ne sont pas renvoyés dans les résultats de recherche. Une bonne pratique est d’éviter d’inclure des caractères Unicode lors de l’attribution d’un nom aux objets dans Workfront en saisissant des noms plutôt que de copier et coller des noms à partir d’une autre source.
 
-   ![Rechercher des rapports](assets/qs-new-dashboard-ui-0722.png)
+   ![Rechercher des rapports](assets/unshimmed-dashboard-ui.png)
 
 1. (Facultatif) Cliquez sur **Ajouter une page externe** pour ajouter une nouvelle page externe au tableau de bord.
 
