@@ -9,7 +9,7 @@ description: Avec les modules Adobe Photoshop, vous pouvez lancer un scénario d
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
+source-git-commit: c3187e3dc21b4705a0e249ed8cc6df66575ef06b
 workflow-type: tm+mt
 source-wordcount: '4308'
 ht-degree: 21%
@@ -240,7 +240,7 @@ Ce module d’action applique diverses modifications au niveau du document et du
       <td role="rowheader">
         <p>[!UICONTROL (Options) Polices]</p>
       </td>
-   <td> Pour chaque police dont le document a besoin, cliquez sur Ajouter un élément et saisissez l’emplacement de stockage et l’emplacement de fichier de la police. </td> 
+   <td> Pour chaque police dont le document a besoin, cliquez sur Ajouter un élément et saisissez l’emplacement de stockage et de fichier de la police. </td> 
     </tr>
     <tr>
       <td role="rowheader">
