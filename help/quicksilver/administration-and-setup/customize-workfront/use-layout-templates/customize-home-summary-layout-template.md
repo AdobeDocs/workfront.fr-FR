@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
+source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 70%
+source-wordcount: '905'
+ht-degree: 59%
 
 ---
 
@@ -73,7 +73,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
 1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) sous **Personnaliser ce que les utilisateurs voient**, puis cliquez sur **Panneau de résumé**.
 
-1. Dans la liste de gauche, cliquez sur le type d’objet (**Tâches**, **Problèmes**, **Projets**, **Documents** ou **Document Versions**) que vous souhaitez personnaliser dans Accueil et résumé.
+1. Dans la liste de gauche, cliquez sur le type d’objet (**Tâches**, **Problèmes**, **Projets**, **Documents** ou **Document Versions**) que vous souhaitez personnaliser dans le panneau Résumé.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,7 +115,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Le cas échéant) Si le menu déroulant **Définir le bouton d’action principal** s’affiche (si vous sélectionnez **Tâches** ou **Problèmes** dans la liste de gauche), cliquez sur l’action principale (**Terminé** ou **Statut**) que vous souhaitez mettre à la disposition des personnes dans la zone Accueil et dans le panneau Résumé lorsqu’elles visualisent une tâche ou un problème.
+1. (Conditionnel) Si le menu déroulant **Définir le bouton d’action principale** s’affiche (si vous sélectionnez **Tâches** ou **Problèmes** dans la liste de gauche), cliquez sur l’action principale (**Terminé** ou **État**) que vous souhaitez mettre à la disposition des utilisateurs dans le panneau Résumé lorsqu’ils affichent une tâche ou un problème.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -124,7 +124,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Répétez les étapes 3 à 6 pour personnaliser le panneau Résumé pour tout autre type d’objet.
-1. Cliquez sur **Paramètres globaux**, près du coin inférieur gauche, puis activez ou désactivez l’une des options suivantes liées aux objets Adobe Workfront dans Accueil et Résumé :
+1. Cliquez sur **Paramètres globaux**, près du coin inférieur gauche, puis activez ou désactivez l’une des options suivantes liées aux objets Adobe Workfront dans le résumé :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
     <tbody> 
      <tr> 
       <td role="rowheader">Afficher les mises à jour pour le travail</td> 
-      <td>Affiche toutes les mises à jour effectuées sur une tâche ou un problème sélectionné dans Accueil ou Résumé. Cela inclut les mises à jour du système et les mises à jour effectuées par un utilisateur ou une utilisatrice. Les personnes peuvent toujours filtrer les mises à jour du système, comme décrit dans la section <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Activer ou désactiver des mises à jour système</a> dans <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Mettre à jour le travail</a>.</td> 
+      <td>Affiche toutes les mises à jour effectuées sur une tâche ou un problème sélectionné dans le panneau Résumé. Cela inclut les mises à jour du système et les mises à jour effectuées par un utilisateur ou une utilisatrice. Les personnes peuvent toujours filtrer les mises à jour du système, comme décrit dans la section <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Activer ou désactiver des mises à jour système</a> dans <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Mettre à jour le travail</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Consigner les heures de travail</td> 
@@ -140,16 +140,16 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
      </tr> 
      <tr> 
       <td role="rowheader">Afficher les documents associés au travail</td> 
-      <td>Affiche une zone Documents dans Accueil et Résumé lorsqu’une tâche ou un problème est sélectionné, répertoriant tous les documents associés à la tâche ou au problème. Les personnes peuvent cliquer sur les documents pour les afficher dans une fenêtre d’aperçu.</td> 
+      <td>Affiche une zone Documents dans le panneau Résumé lorsqu’une tâche ou un problème est sélectionné, répertoriant tous les documents associés à la tâche ou au problème. Les personnes peuvent cliquer sur les documents pour les afficher dans une fenêtre d’aperçu.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Masquer l'horodatage</td> 
-      <td>Masque les horodatages des champs de date suivants dans Accueil et Résumé :
+      <td>Masque les horodatages des champs de date suivants dans le panneau Résumé :
        <ul>
         <li>Date d'achèvement prévue</li>
         <li>Date d’engagement</li>
         <li>Date d’envoi</li>
-       </ul><p><b>NOTE</b> :</p> <p> Lorsque cette option est activée, les tâches arrivant en retard sont déplacées vers le regroupement Tard dans la liste des tâches à domicile en fonction de la date uniquement et non de l’heure.</p></td> 
+       </ul></td> 
      </tr> 
     </tbody> 
    </table>

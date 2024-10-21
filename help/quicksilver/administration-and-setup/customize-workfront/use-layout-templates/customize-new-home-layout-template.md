@@ -3,21 +3,21 @@ title: Personnalisation de la nouvelle page d’accueil à l’aide d’un modè
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les personnes lorsqu’elles ouvrent le nouvel accueil.
+description: Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les utilisateurs lorsqu’ils ouvrent la page d’accueil.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 75%
+source-wordcount: '841'
+ht-degree: 66%
 
 ---
 
-# Personnalisation de la nouvelle page d’accueil à l’aide d’un modèle de mise en page
+# Personnalisation de l’accueil à l’aide d’un modèle de mise en page
 
-Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les utilisateurs lorsqu’ils ouvrent la nouvelle page d’accueil pour la première fois.
+Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les utilisateurs lorsqu’ils ouvrent la page d’accueil pour la première fois.
 
 Vous pouvez configurer les éléments suivants :
 
@@ -33,7 +33,7 @@ Vous pouvez configurer les éléments suivants :
 
 
 
-Pour plus d’informations sur la nouvelle page d’accueil, voir [Prise en main de la page d’accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Pour plus d’informations sur la page d’accueil, voir [Prise en main de la page d’accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 Pour plus d’informations sur la création de modèles de disposition, voir [Créer et gérer des modèles de disposition](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -73,9 +73,9 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
 +++
 
-## Personnalisation de la nouvelle page d’accueil à l’aide d’un modèle de mise en page
+## Personnalisation de l’accueil à l’aide d’un modèle de mise en page
 
-Pour personnaliser la nouvelle page d’accueil à l’aide d’un modèle de mise en page :
+Pour personnaliser Accueil à l’aide d’un modèle de mise en page :
 
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -91,13 +91,13 @@ Pour personnaliser la nouvelle page d’accueil à l’aide d’un modèle de mi
       <td role="rowheader">Conception et disposition</td> 
       <td>
       <p>Sélectionnez les widgets qui seront présents dans les espaces de travail des utilisateurs et utilisatrices, leur position et choisissez un arrière-plan. Notez que même si les utilisateurs et utilisatrices ne peuvent pas supprimer les widgets sélectionnés, ils et elles peuvent les déplacer et les redimensionner librement et ajouter des widgets supplémentaires.</p>
-      <p>Cet onglet fonctionne essentiellement comme un petit nouvel espace de travail d’accueil. Il peut donc être personnalisé selon les étapes décrites dans la section <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Ajouter, modifier ou supprimer des widgets dans l’accueil</a>. Sélectionnez des widgets et organisez l’espace de travail comme vous le souhaitez pour les utilisateurs et utilisatrices.</p>
+      <p>Cet onglet fonctionne essentiellement comme un petit espace de travail d’accueil. Il peut donc être personnalisé selon les étapes décrites dans la section <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Ajouter, modifier ou supprimer des widgets dans l’accueil</a>. Sélectionnez des widgets et organisez l’espace de travail comme vous le souhaitez pour les utilisateurs et utilisatrices.</p>
       <p>Pour modifier l’arrière-plan, suivez les étapes sous <b>Personnalisation de l’arrière-plan</b> dans <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Prise en main de l’accueil</a>.</p>
       <p>
 
 >[!NOTE]
 >
->Seuls le déplacement ou le redimensionnement des widgets dans le modèle de disposition ne déclenchent pas la mise à jour de la disposition des nouvelles pages d’accueil des utilisateurs et utilisatrices. Cependant, l’ajout ou la suppression d’un widget déclenche une mise à jour des pages des utilisateurs et utilisatrices.
+>Seuls les widgets de déplacement ou de redimensionnement du modèle de mise en page ne déclencheront pas la mise en page des pages d’accueil des utilisateurs. Cependant, l’ajout ou la suppression d’un widget déclenche une mise à jour des pages des utilisateurs et utilisatrices.
 
 </p>
      </td> 
@@ -119,7 +119,8 @@ Pour personnaliser la nouvelle page d’accueil à l’aide d’un modèle de mi
 
 >[!IMPORTANT]
 >
->Les utilisateurs et utilisatrices doivent au moins disposer de l’option Créer l’accès aux vues pour que la configuration des colonnes de l’équipe d’administration s’applique correctement à leurs nouvelles pages d’accueil.
+>* Les options Filtre, Colonnes et Groupe sont liées aux options de personnalisation de liste du modèle de mise en page. Les modifications apportées ici s’appliquent également à ces paramètres.
+>* Les utilisateurs doivent au moins disposer de l’option Créer l’accès aux vues pour que la configuration des colonnes de l’administrateur s’applique correctement à leurs pages d’accueil.
 
 </p>
       <li><p><b>Définir un filtre ou un groupe par défaut pour le widget :</b></p>
@@ -147,4 +148,4 @@ Pour personnaliser la nouvelle page d’accueil à l’aide d’un modèle de mi
 
 >[!IMPORTANT]
 >
->Vous devez actualiser la nouvelle page d’accueil pour afficher les personnalisations à partir du modèle de mise en page.
+>Vous devez actualiser la page d’accueil pour afficher les personnalisations à partir du modèle de mise en page.
