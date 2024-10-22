@@ -9,7 +9,7 @@ exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 76%
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="wf_resource_pools"
 >title="Pools de ressources"
->abstract="Un pool de ressources est un ensemble d’utilisateurs qui sont nécessaires en même temps pour la fin d’un projet. Après avoir créé un pool de ressources, vous pouvez l’associer à des projets et des modèles."
+>abstract="Pour achever un projet, un groupe de ressources rassemble dans une collection les utilisateurs et les utilisatrices qui sont nécessaires au même moment. Après avoir créé un groupe de ressources, vous pouvez l’associer à des projets et des modèles."
 
 Les groupes de ressources sont des groupes d’utilisateurs et utilisatrices qui facilitent la gestion des ressources dans Adobe Workfront. Pour plus d’informations sur les groupes de ressources, voir [Vue d’ensemble des groupes de ressources](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
