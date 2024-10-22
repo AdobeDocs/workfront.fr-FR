@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
+source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
 workflow-type: tm+mt
-source-wordcount: '5575'
+source-wordcount: '5540'
 ht-degree: 88%
 
 ---
@@ -563,9 +563,8 @@ Pour des exemples d’utilisation du champ de recherche externe pour appeler la 
 
 >[!NOTE]
 >
->* Les champs de recherche externes de formulaires personnalisés ne sont actuellement pas pris en charge dans les tableaux de bord. Vous ne pouvez pas modifier la valeur du champ en ligne et elle peut ne pas s’afficher correctement dans un tableau de bord. (Les champs de recherche externes sont pris en charge dans les tableaux de bord de zone de travail.)
 >* Les champs de recherche externes ne sont pas pris en charge dans le module externe Outlook.
->* Les champs de recherche externes sont disponibles dans les listes, sauf si le champ dépend d’un autre champ.
+>* Les champs de recherche externes ne sont pas disponibles dans les listes lorsque le champ dépend d’un autre champ.
 
 Pour ajouter une recherche externe, procédez comme suit :
 

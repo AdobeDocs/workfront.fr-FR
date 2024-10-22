@@ -6,10 +6,10 @@ description: La configuration par défaut d’Adobe Workfront comprend un bouton
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 97%
+source-wordcount: '794'
+ht-degree: 96%
 
 ---
 
@@ -75,7 +75,7 @@ Pour configurer le bouton Démarrer :
 
 1. Dans le menu déroulant **[!UICONTROL Équipes]**, sélectionnez une équipe.\
    ou\
-   Sélectionnez **[!UICONTROL Créer une équipe]**.
+   Cliquez sur **[!UICONTROL Créer une nouvelle équipe]**.
 
 1. Cliquez sur l’icône **[!UICONTROL Plus]** ![](assets/more-icon.png), puis cliquez sur **[!UICONTROL Modifier]**.
 

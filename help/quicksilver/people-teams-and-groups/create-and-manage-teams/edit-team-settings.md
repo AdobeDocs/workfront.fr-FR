@@ -6,10 +6,10 @@ description: Les administrateurs et administratrices et les utilisateurs et util
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 95%
+source-wordcount: '495'
+ht-degree: 92%
 
 ---
 
@@ -55,11 +55,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur le menu **[!UICONTROL Plus]** ![](assets/more-icon.png), puis sélectionnez **[!UICONTROL Modifier]**.
 
-   Seules les personnes membres de l’équipe disposant d’une licence [!UICONTROL Plan] ou [!UICONTROL Travail] peuvent accéder à cette option.
+   Seuls les membres de l’équipe possédant une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Work] peuvent voir cette option.
 
    Au cas où vous devriez voir l’option [!UICONTROL Modifier] mais qu’elle n’est pas visible, demandez à votre administrateur ou administratrice Workfront de vérifier que [!UICONTROL Paramètres d’équipe] est visible dans le modèle de mise en page pour [!UICONTROL Équipe Scrum], [!UICONTROL Équipe Kanban] ou [!UICONTROL Équipe Waterfall].
 
-   ![](assets/edit-team-settings-1.png)
+   ![](assets/edit-team-settings.png)
 
 1. Dans les paramètres d’équipe, vous pouvez apporter les modifications suivantes :
 

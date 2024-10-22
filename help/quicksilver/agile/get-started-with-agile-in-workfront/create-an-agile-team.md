@@ -6,10 +6,10 @@ description: Adobe Workfront permet aux équipes Agile d’effectuer leur trava
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 91%
+source-wordcount: '1003'
+ht-degree: 90%
 
 ---
 
@@ -98,7 +98,7 @@ Pour plus d’informations, consultez la [présentation d’un graphique de cond
 
 1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]**![Icône Changer d’équipe](assets/switch-team-icon.png), puis cliquez sur **[!UICONTROL Créer une nouvelle équipe]**.
 
-   ![Sélectionnez Créer une équipe.](assets/create-new-team-350x198.png)
+   ![Sélectionner Créer une nouvelle équipe](assets/create-new-team.png)
 
    La zone Nouvelle équipe s’affiche.
 
@@ -158,7 +158,7 @@ Vous pouvez convertir une équipe existante en équipe agile :
 1. Cliquez sur le bouton **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
    Seuls les membres de l’équipe disposant d’une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Work] peuvent voir cette option.
-   ![](assets/edit-team-settings-350x205.png)
+   ![Sélectionner Modifier](assets/edit-team-settings.png)
 
 1. Dans la section **[!UICONTROL Agile]**, sélectionnez **[!UICONTROL Ceci est une équipe agile]**.
 

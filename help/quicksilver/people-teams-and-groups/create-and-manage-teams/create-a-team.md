@@ -6,7 +6,7 @@ description: Lorsque vous créez une équipe, vous en devenez la personne propri
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 99%
@@ -55,7 +55,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis cliquez sur **[!UICONTROL Créer une équipe]**.
 
-   ![Sélection de Créer une équipe.](assets/create-new-team-350x198.png)
+   ![Sélection de Créer une équipe.](assets/create-new-team.png)
 
 1. Dans la zone **[!UICONTROL Nouvelle équipe]** qui s’affiche, saisissez les informations suivantes :
 
