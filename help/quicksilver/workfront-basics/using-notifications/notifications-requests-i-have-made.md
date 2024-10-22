@@ -6,9 +6,9 @@ description: Les notifications suivantes vous informent sur les demandes que vou
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1412'
 ht-degree: 98%
 
 ---
@@ -45,7 +45,7 @@ Voir aussi [Notifications d’événements](../../workfront-basics/using-notific
    <td><strong>Instantané</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Une tâche personnelle que j’ai affectée à une autre personne est terminée</strong> </p> <p>Une notification est envoyée à la personne qui a affecté une tâche ad hoc à quelqu’un d’autre une fois cette tâche terminée. </p> <p>Pour plus d’informations sur les tâches ad hoc, voir <a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">Création d’éléments de travail et de projets à partir de la zone [!UICONTROL Accueil]</a>.</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>Fin de tâche : &lt;Task Name&gt;</em></p> <p> <p>Remarque : vous ne pouvez pas configurer cette notification pour un e-mail de synthèse quotidienne.</p> </p> </td> 
+   <td> <p><strong>Une tâche personnelle que j’ai affectée à une autre personne est terminée</strong> </p> <p>Une notification est envoyée à l’utilisateur qui a affecté une demande de travail personnel à une autre personne une fois cette demande terminée. </p>  <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>Fin de tâche : &lt;Task Name&gt;</em></p> <p> <p>Remarque : vous ne pouvez pas configurer cette notification pour un e-mail de synthèse quotidienne.</p> </p> </td> 
    <td> Nom de la tâche<br>Nom du projet par défaut (Projet personnel de la personne qui a reçu la tâche personnelle)<br>Numéro de référence de tâche<br>Nom de la personne propriétaire de la tâche<br>Nouveau statut de tâche<br>Date et heure auxquelles la tâche a été terminée<br>Statut de la tâche précédente<br><strong>Bouton [!UICONTROL See More Details]</strong><br><br><br></td> 
    <td><strong>Instantané</strong> </td> 
   </tr> 

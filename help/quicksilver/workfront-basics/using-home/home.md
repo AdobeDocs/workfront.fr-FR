@@ -2,15 +2,15 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Page d’accueil
-description: Consultez ces sections pour mieux comprendre la zone d’accueil d’Adobe Workfront.
-author: Lisa
+description: Passez en revue ces zones pour mieux comprendre la zone d’accueil dans Adobe Workfront.
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 192b73f4-5995-43ae-b5a5-2b2f856c696d
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 100%
+source-wordcount: '26'
+ht-degree: 46%
 
 ---
 

@@ -5,9 +5,9 @@ description: Vous pouvez utiliser le panneau Résumé pour examiner et mettre à
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '960'
 ht-degree: 100%
 
 ---
@@ -187,9 +187,7 @@ Utilisez la section [!UICONTROL Documents] du [!UICONTROL résumé] pour affiche
 
 Utilisez la section [!UICONTROL Détails] du [!UICONTROL résumé] pour afficher les détails généraux de l’élément de travail, effectuer des affectations ou ajouter des dates de début. Cliquez sur **[!UICONTROL Afficher tout]** pour accéder directement à l’onglet [!UICONTROL Détails] de la tâche ou du problème.
 
->[!NOTE]
->
->Les champs qui apparaissent dans cette section sont les mêmes que ceux qui apparaissent dans le panneau de droite de l’écran d’accueil. Vous pouvez personnaliser ces champs : [Personnaliser l’[!UICONTROL accueil] et [!UICONTROL Créer un résumé] à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
 
 ![Section Détails du panneau Résumé](assets/summary-details-section.png)
 

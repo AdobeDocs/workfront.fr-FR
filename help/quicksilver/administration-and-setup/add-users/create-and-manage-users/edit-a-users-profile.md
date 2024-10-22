@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3298'
-ht-degree: 95%
+source-wordcount: '3264'
+ht-degree: 94%
 
 ---
 
@@ -116,7 +116,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       </li>
 
    </li> 
-       <li><b>Envoyer le travail que je me suis affecté dans mon onglet Travailler sur</b>: cochez cette option si vous souhaitez que tout le travail que la personne s’est affecté apparaisse directement dans la liste Travaille sur de la zone Accueil. Par défaut, tout ce qui est affecté à un utilisateur ou une utilisatrice est répertorié dans ses listes Prêt à démarrer ou Pas prêt dans la zone Accueil.</li> 
+       <li><b>Envoyez du travail que je m’assigne à mon onglet Travail sur l’onglet </b> : ce paramètre fait référence à une fonctionnalité obsolète qui a été supprimée de Workfront.</li> 
        <li><b>Générer automatiquement des épreuves lors du chargement de documents</b> : cochez cette option si vous souhaitez que les documents que l’utilisateur ou l’utilisatrice charge génèrent immédiatement une épreuve. </li>
        </ul> </td> 
      </tr> 
@@ -153,7 +153,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <li><b>Rapports directs :</b> si vous avez spécifié une entreprise pour l’utilisateur ou l’utilisatrice, vous pouvez également indiquer les rapports directs de l’utilisateur ou utilisatrice. Un utilisateur ou une utilisatrice peut avoir plusieurs rapports directs. Ce champ ne s’affiche pas si l’utilisateur ou utilisatrice n’est pas d’abord associé à une entreprise.</li> 
       <li><b>Équipe principale</b> : indiquez l’équipe principale de l’utilisateur ou utilisatrice. Les personnes ne peuvent avoir qu’une seule équipe principale. L’équipe principale est importante lors de l’attribution d’un modèle de disposition ou de la définition du bouton Travailler dessus pour les tâches et les problèmes assignés à l’utilisateur ou utilisatrice. </li> 
       <li><b>Autres équipes</b> : les personnes peuvent appartenir à plusieurs équipes. Un utilisateur ou une utilisatrice peut afficher les éléments de travail affectés à l’une de ses équipes dans sa zone d’accueil. </li> 
-      <li> <p><b>Groupe principal :</b> sélectionnez un groupe en guise de groupe principal des personnes. La personne peut ainsi accéder aux objets partagés avec le groupe. Vous pouvez également partager des modèles de disposition avec le groupe principal de l’utilisateur ou utilisatrice.</p> <p>Champ obligatoire. Chaque utilisateur et utilisatrice doit être associé à un groupe principal. Si vous n’en sélectionnez pas un, votre groupe est désigné comme groupe principal du nouvel utilisateur ou de la nouvelle utilisatrice.</p> <p><b>REMARQUE</b> :</p> 
+      <li> <p><b>Groupe principal :</b> sélectionnez un groupe en guise de groupe principal des personnes. La personne peut ainsi accéder aux objets partagés avec le groupe. Vous pouvez également partager des modèles de disposition avec le groupe principal de l’utilisateur ou utilisatrice.</p> <p>Champ obligatoire. Chaque utilisateur et utilisatrice doit être associé à un groupe principal. Si vous n’en sélectionnez pas, votre groupe d’accueil est désigné comme groupe d’accueil du nouvel utilisateur.</p> <p><b>REMARQUE</b> :</p> 
       <p> Vous ne pouvez affecter un groupe à une personne que si l’une des conditions suivantes est vraie :</p>
       <ul><li>Vous êtes un administrateur ou une administratrice Workfront.</li>
       <li>Vous êtes l’administrateur ou l’administratrice du groupe.</li>

@@ -6,10 +6,10 @@ description: Le glossaire  [!DNL Adobe Workfront]  répertorie les termes couram
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '20938'
-ht-degree: 96%
+source-wordcount: '20901'
+ht-degree: 95%
 
 ---
 
@@ -471,7 +471,9 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar]</td> 
-   <td> <p>Il existe deux types de calendriers dans [!DNL Workfront] : le [!UICONTROL Home Calendar] et les rapports de calendrier.</p> <p>Le [!UICONTROL Home Calendar] est un calendrier personnel qui permet à un utilisateur ou une utilisatrice de gérer sa charge de travail par rapport à ses heures disponibles dans [!DNL Workfront]. Les utilisateurs et utilisatrices peuvent également intégrer leur [!UICONTROL Home Calendar] à [!DNL Outlook] (intégration de [!DNL Google] et [!DNL Microsoft] à venir). </p> <p>Pour plus d’informations sur le [!UICONTROL Home Calendar], voir <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">Vue [!UICONTROL Home Calendar]</a>.</p> <p>Un rapport de calendrier est un rapport dynamique dans lequel les utilisateurs et les utilisatrices peuvent afficher la date et d’autres détails importants d’un événement, y compris la date d’échéance, le statut du travail et l’utilisateur ou l’utilisatrice auquel ou à laquelle l’événement est affecté.</p> <p> Pour plus d’informations sur les rapports de calendrier, voir <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Vue d’ensemble des rapports de calendrier</a>.</p> </td> 
+   <td> <p>Dans Workfront, un rapport de calendrier est un rapport dynamique dans lequel les utilisateurs peuvent afficher la date et d’autres détails importants d’un événement, y compris la date d’échéance, l’état du travail et l’utilisateur auquel l’événement est affecté.</p> <p> Pour plus d’informations sur les rapports de calendrier, voir <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Vue d’ensemble des rapports de calendrier</a>.</p>
+   <p> Dans Workfront Planning, une vue Calendrier est un type de vue pour un type d’enregistrement qui affiche les enregistrements sur un calendrier. Vous devez disposer d’une licence supplémentaire pour accéder à Workfront Planning. </p>
+    </td> 
   </tr> 
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
@@ -1644,7 +1646,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Profile]</td> 
-   <td>Collection définie par l’administrateur ou administratrice d’onglets et de sections de portail qui s’affiche sur la page [!UICONTROL Home] de l’application [!DNL Workfront] et autres tableaux de bord.</td> 
+   <td>Collection définie par l’administrateur d’onglets et de sections qui s’affiche dans [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Section]</td> 

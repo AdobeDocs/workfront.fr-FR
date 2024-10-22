@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 91%
+source-wordcount: '631'
+ht-degree: 84%
 
 ---
 
@@ -78,7 +78,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
      >[!TIP]
      >
-     >Par défaut, l’icône Accueil du menu principal affiche la zone Mes mises à jour pour les personnes ayant une licence de révision (dans le plan de licence actuel), sauf si elles disposent d’un modèle de disposition associé à leur profil qui inclut la zone Mes mises à jour du menu principal, en plus de la zone Accueil.
+     >Par défaut, l’icône Accueil du menu principal affiche la zone Mes mises à jour pour les utilisateurs ayant une licence de révision (dans le plan de licence actuel), sauf s’ils disposent d’un modèle de mise en page associé à leur profil qui inclut la zone Mes mises à jour du menu principal, en plus de la zone Accueil.
 
    * Portefeuilles
    * Programmes

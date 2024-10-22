@@ -7,10 +7,10 @@ description: La date d’achèvement prévue d’une tâche est la date à laque
 author: Alina
 feature: Work Management
 exl-id: b0522db5-9c68-4b1a-82c8-5a9e613eb2ff
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 74%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 100%
 
 La date d’achèvement prévue d’une tâche est la date à laquelle la tâche doit être achevée.
 
-Vous pouvez soit spécifier la date d’achèvement prévue d’une tâche, soit laisser Adobe Workfront la calculer en fonction de certains critères. 
+Vous pouvez soit spécifier la date d’achèvement prévue d’une tâche, soit laisser Adobe Workfront la calculer en fonction de certains critères.
 
-Les dates d’achèvement prévues des tâches d’un projet déterminent la date d’achèvement prévue d’un projet lorsque le projet est planifié à partir de la date de début.Pour plus d’informations sur la date d’achèvement prévue du projet, voir [Définir la date d’achèvement prévue du projet](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+Les dates d’achèvement planifiées des tâches d’un projet déterminent la date d’achèvement planifiée d’un projet lorsque le projet est planifié à partir de la date de début. Pour plus d’informations sur la date d’achèvement prévue du projet, voir [Définition de la date d’achèvement prévu du projet](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
 >Les différences entre la date d’achèvement prévue d’une tâche et la date d’engagement de la tâche ou la date d’achèvement prévisionnelle de la tâche sont les suivantes :
 >
->* La date d’engagement est la date à laquelle la personne affectée à la tâche estime manuellement qu’elle aura terminé la tâche. Pour plus d’informations, voir les articles suivants :
+>* La date de validation est la date à laquelle la personne affectée à la tâche estime manuellement qu’elle aura terminé la tâche. Pour plus d’informations, voir les articles suivants :
 >
 >   * [Vue d’ensemble de la date d’engagement](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 >   * [Interactions entre la date d’engagement et la date d’achèvement prévue](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)
@@ -38,19 +38,19 @@ Les dates d’achèvement prévues des tâches d’un projet déterminent la dat
 
 Vous devez disposer d’un accès en modification aux tâches et des autorisations de gestion sur la tâche pour pouvoir mettre à jour la date d’achèvement prévue de la tâche.
 
-La définition de la date d’achèvement prévue d’une tâche dépend du type de contrainte que vous attribuez à la tâche. 
+La définition de la date d’achèvement prévue d’une tâche dépend du type de contrainte que vous attribuez à la tâche.
 
-Vous pouvez définir manuellement la date d’achèvement prévue dans les zones suivantes de Workfront :
+Vous pouvez définir manuellement la date d’achèvement prévue dans les zones suivantes de Workfront :
 
-* Dans la zone de modification de la tâche, lors de la création ou de la modification d’une tâche. Pour plus d’informations, voir [Modifier des tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+* Dans la zone Modifier la tâche, lors de la création ou de la modification d’une tâche. Pour plus d’informations, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 * Dans la zone Détails de la tâche. Pour plus d’informations, voir [Gérer les informations des tâches dans la zone Vue d’ensemble des détails de la tâche](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
-* Dans la zone d’accueil, si la date d’achèvement prévue s’affiche lors de l’affichage d’une tâche. Pour plus d’informations, voir [Mettre à jour ou modifier un élément de travail dans la zone d’accueil](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* Dans la zone Accueil , si la Date de fin planifiée s’affiche lors de l’affichage d’une tâche dans le panneau Résumé. Pour plus d’informations, voir [Mettre à jour ou modifier un élément de travail dans la zone d’accueil](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * Dans l’en-tête de la tâche. Pour plus d’informations, voir [Nouveaux en-têtes d’objets](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * Dans une liste de tâches ou un rapport, lorsque le champ Date d’achèvement prévue s’affiche dans la vue.
 
   Pour plus d’informations, voir [Modifier des tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-Vous pouvez spécifier manuellement la date d’achèvement prévue lorsque vous sélectionnez l’une des contraintes de tâche suivantes : 
+Vous pouvez spécifier manuellement la date d’achèvement planifiée lorsque vous sélectionnez l’une des contraintes de tâche suivantes :
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -86,9 +86,9 @@ Lorsqu’elle est calculée automatiquement par le système, les éléments suiv
   Pour plus d’informations sur les tâches antérieures, voir l’article [Vue d’ensemble des tâches antérieures](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 * Date d’achèvement du projet, lorsque le projet est planifié à partir de la date d’achèvement.
-* Les congés planifiés de la personne cessionnaire principale de la tâche.
+* Le planning de désactivation du Principal cessionnaire de la tâche.
 
-  Lorsque la personne cessionnaire principale prend des congés pendant la durée de la tâche, les dates prévues de la tâche sont ajustées en conséquence lorsque le paramètre **Prendre en compte les congés de l’utilisateur ou de l’utilisatrice dans la durée des tâches** est sélectionné pour le champ **Congés de l’utilisateur ou de l’utilisatrice**. Les nouveaux projets héritent de ce paramètre depuis la zone Préférences du projet, mais vous pouvez modifier ce paramètre au niveau du projet.
+  Lorsque la personne cessionnaire principale prend des congés pendant la durée de la tâche, les dates prévues de la tâche sont ajustées en conséquence lorsque le paramètre **Prendre en compte les congés de l’utilisateur ou de l’utilisatrice dans la durée des tâches** est sélectionné pour le champ **Congés de l’utilisateur ou de l’utilisatrice**. Les nouveaux projets héritent de ce paramètre de la zone Préférences du projet, mais vous pouvez le modifier au niveau du projet.
 
   Par exemple, si une tâche avec une contrainte Aussi tôt que possible est planifiée pour commencer le 1er juin et se terminer le 3 juin, et que la personne cessionnaire principale a planifié un congé le 2 juin, la date d’achèvement prévue pour la tâche devient le 4 juin.
 
@@ -96,7 +96,7 @@ Lorsqu’elle est calculée automatiquement par le système, les éléments suiv
 
 * La durée associée aux paramètres d’approbation si la tâche est associée à une approbation. Pour plus d’informations, voir [Configurer les paramètres globaux d’approbation](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
-Lorsqu’elle est définie automatiquement, la date d’achèvement prévue est déterminée selon le calcul suivant :
+Lorsqu’elle est définie automatiquement, la date d’achèvement planifiée est déterminée selon le calcul suivant :
 
 ```
 Planned Completion Date = Planned Start Date + Duration
@@ -106,5 +106,5 @@ Par exemple, si votre tâche a une date de début définie sur le 16 septembre 
 
 >[!NOTE]
 >
-> Le type de mise à jour du projet doit être défini sur Automatique et en cas de modification ou sur Automatiquement pour que le nombre d’heures prévues et la durée soient automatiquement ajustés.\
->Pour plus d’informations sur le type de mise à jour, voir l’article [Sélectionner le type de mise à jour du projet](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+> Le type de mise à jour du projet doit être défini sur Automatique et Après changement ou Automatiquement pour que les heures et la durée planifiées soient automatiquement ajustées.\
+>Pour plus d’informations sur le type de mise à jour, consultez l’article [Sélectionner le type de mise à jour du projet.](../../../manage-work/projects/manage-projects/select-project-update-type.md).

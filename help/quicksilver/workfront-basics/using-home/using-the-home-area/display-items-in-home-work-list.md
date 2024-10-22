@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Afficher les éléments dans la [!UICONTROL liste de travail] de la zone Accueil
+title: Afficher les éléments dans la [!UICONTROL liste de travail] de la zone d’accueil
 description: Chaque widget contient sa propre liste de travail. Les listes de travail affichent toutes les tâches qui vous sont affectées. Vous pouvez contrôler les éléments affichés dans votre [!UICONTROL liste de travail] à l’aide de filtres et de regroupements.
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 29%

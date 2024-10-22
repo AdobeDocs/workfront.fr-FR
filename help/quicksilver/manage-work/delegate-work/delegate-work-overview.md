@@ -7,10 +7,10 @@ description: Lorsque vous prévoyez de quitter le bureau pendant une courte pér
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 92%
+source-wordcount: '902'
+ht-degree: 91%
 
 ---
 
@@ -50,7 +50,7 @@ Tenez compte des points suivants lorsque vous déléguez des tâches et des prob
   Pour plus d’informations, consultez la section [Configurer des préférences de tâche et de problème à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * Vous ne pouvez déléguer des tâches et des problèmes qu’à partir de la zone [!UICONTROL Accueil].
-* Des exceptions existent pour les types de licence suivants :
+* Lors de la délégation de travail, il existe des exceptions pour les types de licence suivants :
 
    * Vous pouvez déléguer du travail aux personnes réviseuses ou demandeuses, bien que [!DNL Workfront] ne le recommande pas.
    * Les personnes réviseuses peuvent déléguer du travail à d’autres personnes. Elles ne peuvent pas afficher les éléments de travail dans leur zone [!UICONTROL Accueil]. Elles ne peuvent afficher que les approbations.

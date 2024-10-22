@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 98%
+source-wordcount: '510'
+ht-degree: 95%
 
 ---
 
@@ -29,6 +29,7 @@ En tant qu’administrateur ou administratrice Adobe Workfront ou administrateu
 * Menu principal
 * Panneau de navigation de gauche
 * Zone d’accueil
+* Panneau Résumé
 * Vues, filtres et regroupements que les personnes utilisent avec les listes et les rapports.
 * Terminologie à l’écran
 * En-têtes pour les projets, tâches et problèmes
@@ -101,7 +102,8 @@ Pour plus d’informations sur les modèles de mise en page, voir [Modèles de m
    * [Personnaliser le panneau de gauche à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
    * [Personnaliser des pages épinglées à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
    * [Personnaliser la vue Détails à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [Personnaliser l’accueil et le résumé à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [Personnaliser le panneau Résumé à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [Personnalisation de l’accueil à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    * [Personnaliser la page de destination à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Personnaliser la terminologie de l’interface d’utilisation à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

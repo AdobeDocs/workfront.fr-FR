@@ -8,10 +8,10 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
+source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 74%
+source-wordcount: '776'
+ht-degree: 61%
 
 ---
 
@@ -38,19 +38,20 @@ Selon la zone de Workfront à partir de laquelle vous accédez à votre tâche o
   >
   >Vous pouvez remplacer le bouton Travailler sur ce projet par un bouton Démarrer. Pour plus d’informations sur le remplacement du bouton Travailler sur ce projet par un bouton Démarrer, consultez la section [Remplacer le bouton Travailler sur ce projet par un bouton Démarrer](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-* Une fois que vous avez cliqué sur l’option Travailler sur l’acceptation, le bouton passe à Marquer comme terminé ou Terminé, en fonction de l’emplacement d’accès à la tâche ou du problème dans Workfront. Pour savoir où vous pouvez accéder au bouton Travailler sur ce projet, consultez dans cet article la section [Trouver les boutons Travailler sur ce projet et Terminé](#locate-the-work-on-it-and-done-button).
+* Une fois que vous avez cliqué sur l’option Travailler sur l’acceptation, le bouton passe à Marquer comme prévu. Pour savoir où vous pouvez accéder au bouton Travailler sur ce projet, consultez dans cet article la section [Trouver les boutons Travailler sur ce projet et Terminé](#locate-the-work-on-it-and-done-button).
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
-* Si plusieurs personnes ont été affectées à la même tâche que vous ou au même problème et que vous accédez à votre élément de travail à partir de la liste de travail dans la zone d’accueil, le bouton devient J’ai fait ma part.
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)
+<!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-## Bouton Travailler dessus et Terminer {#locate-the-work-on-it-and-done-button}
+  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-Vous pouvez localiser le bouton Travailler dessus et Terminé dans les zones suivantes de Workfront :
+## Localisez le bouton Travailler dessus et Marquer comme effectué . {#locate-the-work-on-it-and-done-button}
 
-* la zone d’accueil, que ce soit dans la liste de travail ou dans le panneau de détails.
+Vous pouvez localiser le bouton Travailler dessus et Marquer comme effectué dans les zones suivantes de Workfront :
+
+* La zone Accueil du widget Mon travail
 
   Pour plus d’informations sur la façon d’indiquer qu’un élément est Terminé dans la zone d’accueil, consultez la section [Marquer un élément comme Terminé dans la zone d’accueil](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
 
@@ -58,13 +59,13 @@ Vous pouvez localiser le bouton Travailler dessus et Terminé dans les zones sui
 
   Pour plus d’informations sur les en-têtes d’objets, consultez la section [Nouveaux en-têtes d’objets](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
-* dans le panneau de résumé de la tâche ou du problème dans une liste ou dans l’équilbreur de charge de travail.
+* Dans le panneau Résumé de la tâche ou du problème
 
   Pour plus d’informations sur l’utilisation du panneau de résumé, consultez la section [Vue d’ensemble du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-## Vue d’ensemble des champs qui se mettent automatiquement à jour lorsque vous cliquez sur les boutons Travailler sur ce projet et Terminé
+## Présentation des champs qui se mettent automatiquement à jour lorsque vous cliquez sur le bouton Travailler dessus et Marquer comme fait
 
-L’avantage d’utiliser les boutons Travailler sur ce projet et Terminé est que vous pouvez permettre à Workfront de mettre à jour automatiquement les informations sur l’élément de travail qui vous a été affecté.
+L’utilisation des boutons Travail dessus et Marquer comme terminé présente l’avantage de permettre à Workfront de mettre à jour automatiquement les informations sur l’élément de travail qui vous est affecté.
 
 * [Bouton Travailler sur ce projet](#work-on-it-button)
 * [Bouton Démarrer](#start-button)
@@ -111,7 +112,11 @@ Outre les champs qui se mettent à jour lorsque vous cliquez sur le bouton Trava
 
 ### Bouton Terminé {#the-done-button}
 
-Si vous avez accès aux équipes de modification, vous pouvez configurer le bouton Terminé pour qu’une équipe mette à jour l’état de la tâche ou du problème lorsque vous marquez un élément comme terminé. Lorsque les utilisateurs et les utilisatrices ayant cette équipe comme équipe d’accueil cliquent sur le bouton Terminé de leurs éléments, les champs suivants d’une tâche ou d’un problème sont automatiquement mis à jour :
+>[!NOTE]
+>
+>Le bouton Terminé s’affiche sous la forme Marquer comme prévu dans toutes les zones de Workfront.
+
+Si vous avez accès aux équipes de modification, vous pouvez configurer le bouton Terminé pour qu’une équipe mette à jour l’état de la tâche ou du problème lorsque vous marquez un élément comme terminé. Lorsque les utilisateurs de cette équipe en tant qu’équipe d’accueil cliquent sur le bouton Marquer comme effectué sur leurs éléments, les champs suivants se mettent automatiquement à jour sur une tâche ou un problème :
 
 * Statut
 * Mises à jour de l’état d’affectation de l’état de travail à terminé

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1363'
 ht-degree: 11%
 
 ---
@@ -101,7 +101,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page comprenant la zone Planification du menu principal et la zone Planification des projets, portefeuilles et programmes. </p> Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation des accès</a>. </p>  </p>  
+   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page comprenant la zone Planification du menu principal et la zone Planification des projets, portefeuilles et programmes. </p> Pour plus d’informations, consultez la <a href="/help/quicksilver/planning/access/access-overview.md">présentation de l’accès à Adobe Planning</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>

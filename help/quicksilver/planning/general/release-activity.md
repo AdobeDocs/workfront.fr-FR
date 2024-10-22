@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7488'
 ht-degree: 37%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 37%
 >
 >Vous devez acheter un plan de planification Workfront, en plus d’un plan Workfront, pour pouvoir accéder aux fonctionnalités de planification Workfront et les utiliser.
 >
->Pour obtenir la liste complète des exigences d’accès à la planification Workfront, consultez la [présentation des accès](/help/quicksilver/planning/access/access-overview.md).
+>Pour obtenir la liste complète des exigences d’accès à Workfront Planning, consultez la [présentation de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 >Pour une présentation de la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 >
 
@@ -1259,9 +1259,9 @@ Les niveaux d’autorisation pour les vues d’enregistrement sont les suivants�
 * Afficher : les utilisateurs et utilisatrices peuvent sélectionner la vue dans le menu déroulant Vue de la page d’un type d’enregistrement.
 * Gérer : les utilisateurs et utilisatrices peuvent modifier, partager et supprimer la vue.
 
-Pour plus d’informations, voir [Vue d’ensemble des accès](/help/quicksilver/planning/access/access-overview.md) et [Vue d’ensemble des autorisations de partage dans les fonctionnalités d’Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Pour plus d’informations, voir [Aperçu de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md) et [Aperçu des autorisations de partage dans les fonctionnalités de planification Adobe Workfront](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-### Nouveau type de champ Formule
+### Nouveau champ de type formule
 
 Production : 11 janvier 2024
 

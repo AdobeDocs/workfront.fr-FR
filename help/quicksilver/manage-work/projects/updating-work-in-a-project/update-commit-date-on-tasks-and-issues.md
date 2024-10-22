@@ -6,10 +6,10 @@ description: Vous pouvez mettre à jour manuellement la date d’engagement d’
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -95,10 +95,10 @@ La mise à jour de la date d’engagement est identique pour les tâches et les 
 >Pour plus d’informations, consultez les articles suivants :
 >
 >* [Vue d’ensemble du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Personnaliser la page d’accueil et le résumé à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Personnalisez le panneau Résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
-1. Accédez à une tâche ou à un problème affectés à vous-même en tant que **Propriétaire**.
+1. Accédez à un élément (tâche ou problème) qui vous est affecté en tant que **Personne propriétaire**.
 
    Pour plus d’informations sur la définition de la personne propriétaire de la tâche pour un problème ou une tâche, consultez la section [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) dans l’article [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 

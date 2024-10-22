@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 99%
+source-wordcount: '407'
+ht-degree: 94%
 
 ---
 
@@ -51,7 +51,7 @@ Les statuts de tâches suivants sont fournis avec votre instance Workfront :
   <tr> 
    <td>Terminée (statut obligatoire)</td> 
    <td> <p>Vous pouvez marquer manuellement une tâche comme terminée lorsque le travail est achevé.</p> <p>Lorsque le mode de suivi d’une tâche est défini sur Achèvement automatique, la tâche est automatiquement marquée comme terminée lorsqu’elle atteint la date d’achèvement prévue.</p> </td> 
-   <td> <p>Lorsqu’une tâche est achevée, le pourcentage terminé de la tâche apparaît sur 100 %. La tâche est supprimée de la liste de travail de la personne assignée dans la zone d’accueil lorsqu’elle est terminée.</p> <p>Lorsque vous marquez une tâche comme Terminée, la tâche affiche une valeur pour la date d’achèvement effective.</p> <p><b>NOTE</b> : si la tâche a des problèmes incomplets et que vous changez le statut de la tâche sur Terminée, le statut devient automatiquement Terminée - Problèmes en attente.</p> </td> 
+   <td> <p>Lorsqu’une tâche est achevée, le pourcentage terminé de la tâche apparaît sur 100 %. La tâche est supprimée de la liste Mon travail de la personne désignée dans la zone Accueil une fois qu’elle est terminée.</p> <p>Lorsque vous marquez une tâche comme Terminée, la tâche affiche une valeur pour la date d’achèvement effective.</p> <p><b>NOTE</b> : si la tâche a des problèmes incomplets et que vous changez le statut de la tâche sur Terminée, le statut devient automatiquement Terminée - Problèmes en attente.</p> </td> 
   </tr> 
  </tbody> 
 </table>

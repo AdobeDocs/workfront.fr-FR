@@ -5,16 +5,16 @@ description: Après avoir complété et soumis le business case d’une demande 
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 100%
+source-wordcount: '733'
+ht-degree: 93%
 
 ---
 
 # Approuver une analyse de rentabilité
 
-Après avoir complété et soumis le business case d’une demande de projet, le business case doit être approuvé. Cela dépend du workflow dans votre organisation. Un projet peut être lancé sans que le business case ne soit approuvé, mais l’administrateur ou administratrice Adobe Workfront et les responsables du projet ne considèrent peut-être pas qu’il s’agit là de la meilleure solution. 
+Après avoir complété et soumis le business case d’une demande de projet, le business case doit être approuvé. Cela dépend du workflow dans votre organisation. Un projet peut être lancé sans que le business case ne soit approuvé, mais l’administrateur ou administratrice Adobe Workfront et les responsables du projet ne considèrent peut-être pas qu’il s’agit là de la meilleure solution.
 
 Pour plus d’informations sur la façon de remplir et de soumettre un business case, voir l’article [Créer un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
@@ -51,16 +51,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 Tenez compte des éléments suivants lors de l’approbation du business case d’un projet :
 
-* Vous devez avoir les droits de gestion d’un projet pour en approuver le business case. 
-* Vous ne pourrez pas voir les projets qui attendent l’approbation du business case dans la rubrique Approbations de votre page d’accueil.
+* Vous devez avoir les droits de gestion d’un projet pour en approuver le business case.
+* Vous ne pourrez pas voir les projets qui attendent que l’analyse de cas soit approuvée sous le widget Mes approbations dans Accueil.
 * Vous devez vous rendre manuellement sur les projets individuels qui nécessitent l’approbation d’un business case pour voir s’ils sont en attente d’approbation. Il n’existe pas de mécanisme de notification Workfront permettant d’avertir quelqu’un qu’il doit approuver le business case d’un projet.
-* Vous pouvez trouver les projets ayant un business case en attente d’approbation soit en créant un rapport de projet, soit en accédant au portfolio auquel ils sont associés. 
+* Vous pouvez trouver les projets ayant un business case en attente d’approbation soit en créant un rapport de projet, soit en accédant au portfolio auquel ils sont associés.
 
   Pour plus d’informations sur les portfolios, voir l’article [Vue d’ensemble des portfolios dans Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Approuver le business case en élaborant un rapport de projet
 
-Vous pouvez créer un rapport pour les projets afin de voir quels sont les projets dont le business case doit être approuvé. 
+Vous pouvez créer un rapport pour les projets afin de voir quels sont les projets dont le business case doit être approuvé.
 
 Pour établir un rapport pour les projets dont le business case est en attente d’approbation :
 
@@ -78,17 +78,17 @@ Pour établir un rapport pour les projets dont le business case est en attente d
 
 1. Commencez à taper « Statut » dans le champ **Afficher seulement les projets dans lesquels le...** et sélectionnez-le lorsqu’il apparaît dans la liste.
 1. Sélectionnez **Égal** pour le modificateur de filtre.
-1. Commencez à saisir « Demandé » dans le champ disponible. 
+1. Commencez à saisir « Demandé » dans le champ disponible.
 
    Cela permet de s&#39;m’assurer que le rapport n’inclut que les projets dont le statut est Demandé.
 
-   ![requested_projects_filter.png](assets/requested-projects-filter-350x14.png)
+   ![}essed_projects_filter.png](assets/requested-projects-filter-350x14.png)
 
 1. (Facultatif) Cliquez sur **Ajouter une autre règle de filtrage**.
 
    Vous pouvez ajouter des filtres supplémentaires pour n’afficher que les projets pour lesquels vous êtes la personne propriétaire du projet, la personne sponsorisant le projet ou la personne propriétaire du portfolio.
 
-   Par exemple, vous pouvez utiliser les instructions de filtrage suivantes :
+   Par exemple, vous pouvez utiliser les instructions de filtre suivantes :
 
    ```
    Project Sponsor ID Equals $$USER.ID
@@ -106,7 +106,7 @@ Pour établir un rapport pour les projets dont le business case est en attente d
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   pour afficher les projets dans lesquels vous êtes la personne désignée comme gestionnaire de portfolio. 
+   pour afficher les projets dans lesquels vous êtes la personne désignée comme gestionnaire de portfolio.
 
 1. Cliquez sur **Enregistrer et fermer**.
 

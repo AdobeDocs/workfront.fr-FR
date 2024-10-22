@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2236'
-ht-degree: 97%
+source-wordcount: '2213'
+ht-degree: 95%
 
 ---
 
@@ -87,7 +87,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
        <ul> 
         <li><b>Fuseau horaire :</b> fuseau horaire des utilisateurs et utilisatrices.</li> 
         <li><b>Paramètre local</b> : paramètre local préféré des utilisateurs et utilisatrices. Cela affecte le format des nombres et des dates dans les e-mails envoyés par Workfront.</li> 
-        <li><b>Envoyer le travail que j’ai affecté à moi-même dans mon onglet Travailler sur</b> : cochez cette option si vous souhaitez que tout ce que les utilisateurs et utilisatrices s’affectent à eux-mêmes apparaisse directement dans leur onglet Travailler sur. Par défaut, tout ce qui est affecté à un utilisateur ou une utilisatrice est répertorié dans l’onglet Demandes de travail.</li> 
+        <li><b>Envoyez du travail que je m’assigne à mon onglet Travail sur l’onglet </b> : ce paramètre fait référence à une fonctionnalité obsolète qui a été supprimée de Workfront.</li> 
        </ul> </td> 
      </tr> 
      <tr> 

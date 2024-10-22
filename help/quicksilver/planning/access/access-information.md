@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 63%
+source-wordcount: '123'
+ht-degree: 60%
 
 ---
 
@@ -23,7 +23,7 @@ En tant qu’administrateur ou administratrice Workfront, vous devez autoriser v
 
 Les articles suivants contiennent des informations sur l’accès dont vos utilisateurs et utilisatrices ont besoin pour utiliser les fonctionnalités de Workfront Planning :
 
-* [Vue d’ensemble des accès](/help/quicksilver/planning/access/access-overview.md)
+* [Présentation de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md)
 * [Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
 * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
 * [Partager des affichages](/help/quicksilver/planning/access/share-views.md)

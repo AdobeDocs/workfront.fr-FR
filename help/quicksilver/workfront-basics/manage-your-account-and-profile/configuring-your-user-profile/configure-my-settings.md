@@ -3,13 +3,13 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Configurer Mes paramètres
 description: Votre profil  [!DNL Adobe Workfront]  contient des informations vous concernant (par exemple, votre nom, votre e-mail, votre adresse, votre numéro de téléphone, votre titre, etc.). Il contient également des informations sur vos interactions avec  [!DNL Workfront]  et d’autres utilisateurs et utilisatrices de votre entreprise.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3319'
-ht-degree: 98%
+source-wordcount: '3306'
+ht-degree: 97%
 
 ---
 
@@ -345,7 +345,7 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
 
 <tr> 
    <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 
-   <td>Sélectionnez ce champ pour afficher le travail que vous vous assignez directement sur votre onglet [!UICONTROL Working On] au lieu de l’onglet [!UICONTROL Work Requests].</td> 
+   <td>Ce champ fait référence à une fonctionnalité obsolète qui a été supprimée de [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Le cas échéant) Générer des épreuves automatiquement lors du chargement de documents</strong></td> 

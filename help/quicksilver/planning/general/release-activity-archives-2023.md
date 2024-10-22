@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2981'
+source-wordcount: '2983'
 ht-degree: 92%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 92%
 >
 >Vous devez acheter un plan de planification Workfront, en plus d’un plan Workfront, pour pouvoir accéder aux fonctionnalités de planification Workfront et les utiliser.
 >
->Pour obtenir la liste complète des exigences d’accès à la planification Workfront, consultez la [présentation des accès](/help/quicksilver/planning/access/access-overview.md).
+>Pour obtenir la liste complète des exigences d’accès à Workfront Planning, consultez la [présentation de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 >Pour une présentation de la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 >
 

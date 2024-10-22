@@ -6,9 +6,9 @@ description: Vous pouvez utiliser des affectations intelligentes pour identifier
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '536'
 ht-degree: 80%
 
 ---
@@ -76,7 +76,6 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
    * En-tête de tâche ou de problème.
    * Panneau Résumé de la tâche ou du problème.
    * <span class="preview">Une nouvelle tâche</span> ou une boîte Nouvelle problématique, lorsque vous ajoutez <span class="preview">une nouvelle tâche</span> ou un problème à un projet
-   * Champ Affectations pour un élément répertorié dans la zone Accueil.
    * Tâche ou problème dans l’équilibreur de charge de travail.
 
 1. Placez le curseur dans le champ d’affectation et attendez deux secondes.

@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
+source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
 workflow-type: tm+mt
-source-wordcount: '14507'
+source-wordcount: '14512'
 ht-degree: 94%
 
 ---
@@ -1342,7 +1342,7 @@ ht-degree: 94%
          * [Vue d’ensemble de la durée initiale de la tâche et des heures prévues à l’origine](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [Différence entre la durée prévue et la durée des tâches](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * Créer des tâches {#create-tasks}
-         * [Créer des tâches](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+         * [Créer des tâches : index de l’article](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [Créer une vue d’ensemble des tâches](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [Créer des tâches dans un projet](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [Créer des sous-tâches](manage-work/tasks/create-tasks/create-subtasks.md)
@@ -2092,7 +2092,7 @@ ht-degree: 94%
       * [Champ Principal - Aperçu](planning/fields/primary-field-overview.md)
    * Accès à Adobe Workfront Planning {#adobe-workfront-planning-access}
       * [Informations sur l’accès à Adobe Workfront Planning : index des articles](planning/access/access-information.md)
-      * [Vue d’ensemble des accès](planning/access/access-overview.md)
+      * [Présentation de l’accès à Adobe Workfront Planning](planning/access/access-overview.md)
       * [Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
       * [Vue d’ensemble du type de licence lors de l’utilisation d’Adobe Workfront Planning](planning/access/license-type-overview.md)
       * [Partager des espaces de travail](planning/access/share-workspaces.md)

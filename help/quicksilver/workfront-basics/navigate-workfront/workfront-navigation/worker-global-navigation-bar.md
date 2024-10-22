@@ -7,10 +7,10 @@ description: Le menu principal change en fonction du niveau d’accès qui vous 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ En tant que [!UICONTROL personne salariée], votre principale responsabilité es
 
 Les zones suivantes sont incluses dans la disposition par défaut [!UICONTROL d’une personne salariée] :
 
-* **[!UICONTROL Accueil]** : les tâches et les problèmes qui vous sont affectés s’affichent ici. Il s’agit de la page de destination par défaut d’une personne salariée, mais elle n’apparaît pas dans le [!UICONTROL Menu principal], sauf si un administrateur ou une administratrice Workfront l’ajoute dans le modèle de disposition.  Pour plus d’informations, consultez [Commencer avec l’[!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+* **[!UICONTROL Accueil]** : les tâches et les problèmes qui vous sont affectés s’affichent ici. Il s’agit de la page d’entrée par défaut d’un traitement. Cependant, elle n’apparaît pas dans le [!UICONTROL menu principal], sauf si un administrateur Workfront l’ajoute dans le modèle de mise en page.  Pour plus d’informations, consultez [Commencer avec l’[!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * **[!UICONTROL Projets]** : les projets partagés avec vous s’affichent ici. Pour plus d’informations, consultez [Projets : index des articles](../../../manage-work/projects/projects-overview.md).
 
