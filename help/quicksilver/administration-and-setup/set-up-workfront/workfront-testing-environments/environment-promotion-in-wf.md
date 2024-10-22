@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 094a742e62bbf222e695d984efca612b32d9fadf
+source-git-commit: a46c6d1f8a0ae58e07f0fb9d14ecdd06a856223f
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1019'
 ht-degree: 51%
 
 ---
@@ -98,6 +98,7 @@ Dans la mesure où la promotion de l’environnement traite de la configuration 
 | Type de risque (RSKTYP) | Type de risque |
 | Groupe de ressources (RSPL) | Pool de ressources |
 | Niveau d’accès (ACSLVL) | Niveau d’accès |
+| Carte de taux (RTCRD) | Carte tarifaire |
 
 \* Non disponible actuellement
 
