@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d7565c00c7c81110e1292d8a1d6057d75036dd43
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 99%
+source-wordcount: '1623'
+ht-degree: 98%
 
 ---
 
@@ -90,7 +90,7 @@ Pour plus d’informations, consultez la section [Afficher le cluster et la form
 
 ### Adresses IP à autoriser pour les clusters 1, 2, 3, 5, 7, 8 et 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
-Si votre environnement de production se trouve sur les clusters 1, 2, 3, 5 ou 7, vous devez autoriser les adresses IP suivantes.
+Si votre environnement de production se trouve sur les clusters 1, 2, 3, 5, 7, 8 ou 9, vous devez autoriser les adresses IP suivantes.
 
 <table style="table-layout:auto"> 
  <col> 
