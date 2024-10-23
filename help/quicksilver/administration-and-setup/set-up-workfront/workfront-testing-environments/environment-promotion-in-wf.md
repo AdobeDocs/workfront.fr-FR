@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: a46c6d1f8a0ae58e07f0fb9d14ecdd06a856223f
+source-git-commit: bff394325882dae7b447c319db9cad8c196340d3
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 51%
+source-wordcount: '1041'
+ht-degree: 52%
 
 ---
 
 # Vue d’ensemble du déplacement d’objets entre les environnements Workfront (promotion environnementale)
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 La fonctionnalité de promotion de l’environnement vous permet de déplacer des objets d’un environnement Workfront vers un autre. Par exemple, vous pouvez créer un modèle et le configurer dans votre environnement de test, tout en sachant que les tests que vous effectuez n’auront aucune incidence sur les données réelles de votre entreprise. Une fois le modèle configuré et testé, vous pouvez le déplacer vers votre environnement de production, prêt à l’emploi.
 
@@ -98,7 +100,7 @@ Dans la mesure où la promotion de l’environnement traite de la configuration 
 | Type de risque (RSKTYP) | Type de risque |
 | Groupe de ressources (RSPL) | Pool de ressources |
 | Niveau d’accès (ACSLVL) | Niveau d’accès |
-| Carte de taux (RTCRD) | Carte tarifaire |
+| <span class="preview">Carte de taux (RTCRD)</span> | <span class="preview">Carte de taux</span> |
 
 \* Non disponible actuellement
 
