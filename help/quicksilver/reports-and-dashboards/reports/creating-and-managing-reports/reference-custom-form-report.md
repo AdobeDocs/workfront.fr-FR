@@ -6,9 +6,9 @@ description: Vous pouvez faire référence aux formulaires personnalisés d’un
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '994'
 ht-degree: 96%
 
 ---
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 Le formulaire personnalisé doit exister avant que vous puissiez le référencer dans un rapport.
 
-Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Référencer le contenu des formulaires personnalisés
 
@@ -61,7 +61,7 @@ Vous pouvez faire référence à des champs dans des formulaires personnalisés.
 >[!NOTE]
 >
 >Pour les champs à options multiples, toutes les options sont disponibles dans les filtres et les invites du rapport, y compris celles qui sont masquées.\
->Pour plus d’informations sur le masquage de choix à partir d’un champ personnalisé avec plusieurs options, consultez l’article [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>Pour plus d’informations sur le masquage de choix à partir d’un champ personnalisé avec plusieurs options, consultez l’article [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Lors de la création du rapport, il suffit d’utiliser le type d’objet du formulaire comme source de champ et le nom du champ personnalisé comme nom de champ.
 

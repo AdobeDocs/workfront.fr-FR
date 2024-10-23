@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1135'
 ht-degree: 98%
 
 ---
@@ -97,4 +97,4 @@ L’introduction d’un nouveau tableau de bord et de ses rapports peut permettr
 
 ### Distribuer les données personnalisées dans les formulaires appropriés
 
-Certains rapports inclus dans le plan directeur d’un tableau de bord comportent des champs de données personnalisés dans la vue, le filtre ou le regroupement du rapport. Dans certains cas, le plan directeur comporte également un formulaire auquel ces champs sont associés. Cependant, le plus souvent, les champs personnalisés ne sont pas appliqués à un formulaire personnalisé. Pour que les colonnes, les filtres ou les regroupements fonctionnent correctement, ces champs doivent être associés à des formulaires liés à un enregistrement d’utilisateur ou utilisatrice, de projet, de tâche ou d’un autre objet. Pour plus d’informations, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Certains rapports inclus dans le plan directeur d’un tableau de bord comportent des champs de données personnalisés dans la vue, le filtre ou le regroupement du rapport. Dans certains cas, le plan directeur comporte également un formulaire auquel ces champs sont associés. Cependant, le plus souvent, les champs personnalisés ne sont pas appliqués à un formulaire personnalisé. Pour que les colonnes, les filtres ou les regroupements fonctionnent correctement, ces champs doivent être associés à des formulaires liés à un enregistrement d’utilisateur ou utilisatrice, de projet, de tâche ou d’un autre objet. Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

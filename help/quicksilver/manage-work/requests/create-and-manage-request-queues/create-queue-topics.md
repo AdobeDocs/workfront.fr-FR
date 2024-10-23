@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '845'
 ht-degree: 98%
 
 ---
@@ -93,7 +93,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    * [Créer des règles de transmission](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [Créer des groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. Accédez au projet que vous avez choisi d’activer en tant que file d’attente des demandes d’aide et où vous souhaitez créer une rubrique de file d’attente.\
    Pour plus d’informations sur la désignation d’un projet comme file d’attente des demandes d’aide, voir [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).

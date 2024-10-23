@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1318'
 ht-degree: 49%
 
 ---
@@ -21,7 +21,7 @@ Un champ de recherche externe dans un formulaire personnalisé appelle une API e
 
 Cet article fournit des exemples d’utilisation du champ de recherche externe pour appeler la même instance de Workfront ou une API publique. Vous pouvez également utiliser la recherche externe pour communiquer avec un système externe tel que Jira, Salesforce ou ServiceNow.
 
-Pour plus d’informations sur l’ajout d’un champ de recherche externe à un formulaire personnalisé et des définitions supplémentaires des composants de recherche externe, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur l’ajout d’un champ de recherche externe à un formulaire personnalisé et des définitions supplémentaires des composants de recherche externe, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configuration d’un champ de recherche externe pour la même instance de Workfront
 

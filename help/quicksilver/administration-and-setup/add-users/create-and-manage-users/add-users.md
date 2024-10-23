@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1129'
 ht-degree: 96%
 
 ---
@@ -93,7 +93,7 @@ Avant d’ajouter une personne, rassemblez les informations sur elle énumérée
 * Dans quelle équipe interne cette personne doit-elle se trouver ? La personne doit-elle faire partie de plusieurs équipes ? Pour plus d’informations sur les équipes, voir [Vue d’ensemble des équipes](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 * Quelles informations personnalisées devez-vous associer à cette personne ?
 
-  Si les informations sur les personnes sont capturées dans des champs personnalisés que vous avez créés, vous devez disposer d’un formulaire personnalisé lors de la création d’un utilisateur ou d’une utilisatrice. Pour plus d’informations sur les formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Si les informations sur les personnes sont capturées dans des champs personnalisés que vous avez créés, vous devez disposer d’un formulaire personnalisé lors de la création d’un utilisateur ou d’une utilisatrice. Pour plus d’informations sur les formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Créer entièrement une personne
 

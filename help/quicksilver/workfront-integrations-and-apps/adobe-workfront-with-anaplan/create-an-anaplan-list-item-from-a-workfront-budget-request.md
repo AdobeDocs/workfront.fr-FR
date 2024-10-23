@@ -6,10 +6,10 @@ description: Ce scénario d’intégration associe un projet (campagne)  [!DNL A
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 96%
+source-wordcount: '801'
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ Pour utiliser ce scénario, vous devez disposer des éléments suivants dans [!D
    </tbody> 
   </table>
 
-  Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Modèles de projet représentant les campagnes et autres projets nécessitant un financement, configurés avec une rubrique de file d’attente [!UICONTROL Demande de budget]. La rubrique de file d’attente [!UICONTROL Demande de budget] est affectée à l’utilisation du formulaire personnalisé [!UICONTROL Demande de budget].
 * Formulaire **[!UICONTROL Résumé de campagne]** pour l’objet Projet.
@@ -141,7 +141,7 @@ Pour utiliser ce scénario, vous devez disposer des éléments suivants dans [!D
    </tbody> 
   </table>
 
-  Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configuration [!DNL Anaplan] attendue
 

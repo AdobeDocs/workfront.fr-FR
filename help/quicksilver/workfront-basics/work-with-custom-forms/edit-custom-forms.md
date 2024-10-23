@@ -7,10 +7,10 @@ description: Vous pouvez modifier les informations d’un formulaire personnalis
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 96%
+source-wordcount: '1030'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ Vous devez disposer des éléments suivants :
 
 ## Conditions préalables
 
-* L’équipe d’administration Workfront ou l’utilisateur ou utilisatrice Plan ayant accès à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement. Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* L’équipe d’administration Workfront ou l’utilisateur ou utilisatrice Plan ayant accès à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement. Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Vous devez avoir des formulaires personnalisés joints à un objet.
 
   Pour plus d’informations sur l’application de formulaires personnalisés à un objet, voir [Ajouter un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -91,7 +91,7 @@ La modification des informations sur un formulaire personnalisé joint à un obj
    * Vous ne pouvez formater les champs de texte (gras, italique ou souligné) que si la personne qui a créé le formulaire les a configurés en tant que type de champ Champ de texte avec formatage. Les types Champs de texte à ligne simple et Champs de texte de paragraphe ne peuvent pas être formatés.
    * Vous pouvez mettre à jour l’heure dans un champ de type de champ Date uniquement si la personne qui a créé le formulaire l’a indiqué lors de la création du champ.
 
-   Pour plus d’informations sur tous les types de champ, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Pour plus d’informations sur tous les types de champ, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Enregistrer les modifications**.
 

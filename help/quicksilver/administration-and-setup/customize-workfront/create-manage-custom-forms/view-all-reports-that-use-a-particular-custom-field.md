@@ -5,10 +5,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 98%
+source-wordcount: '772'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Vous pouvez ajouter une vue personnalisée dans la zone des formulaires personnalisés qui montre quels rapports utilisent un champ personnalisé ou un widget particulier. Cette opération est utile lorsque vous devez modifier ou supprimer le champ ou le widget, car il peut déjà être implémenté dans un ou plusieurs rapports. Il est important d’évaluer si ces rapports doivent être modifiés pour continuer à fonctionner correctement.
 
-Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Conditions d’accès
 

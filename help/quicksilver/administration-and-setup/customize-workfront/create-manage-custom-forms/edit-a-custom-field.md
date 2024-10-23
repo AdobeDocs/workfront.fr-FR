@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 2e526059e240c45ca333bb52cd57e61f87a032f2
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 88%
+source-wordcount: '304'
+ht-degree: 78%
 
 ---
 
@@ -21,7 +21,7 @@ Vous pouvez ajouter un nouveau champ ou widget personnalisé directement à part
 
 Vous pouvez modifier les propriétés d’un champ personnalisé, d’un saut de section ou d’un widget utilisé dans des formulaires personnalisés. Il s’agit notamment du libellé, du nom, des instructions de l’élément, etc.
 
-Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Conditions d’accès
 
@@ -64,7 +64,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Cliquez sur **Nouveau formulaire personnalisé**.
 1. Dans la zone qui s’affiche, saisissez les informations obligatoires et facultatives pour l’élément que vous ajoutez.
 
-   Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Créer**.
 
@@ -77,6 +77,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Sélectionnez le champ personnalisé, le saut de section ou le widget, puis cliquez sur l’![icône Modifier](assets/edit-icon.png).
 1. Dans la zone qui s’affiche, modifiez les options disponibles pour l’élément que vous modifiez.
 
-   Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Lorsque vous avez terminé, cliquez sur **Modifier**.

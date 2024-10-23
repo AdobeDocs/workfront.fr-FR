@@ -6,9 +6,9 @@ description: Vous pouvez modifier les modèles de projet pour refléter les chan
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '4726'
+source-wordcount: '4720'
 ht-degree: 99%
 
 ---
@@ -771,7 +771,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. Cliquez dans le champ **Ajouter un formulaire personnalisé** et sélectionnez le ou les formulaires personnalisés que vous souhaitez associer au modèle. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ.
 
-   Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un modèle.
 
@@ -927,7 +927,7 @@ Pour plus d’informations sur la manière dont ces paramètres affectent la cr�
    ![](assets/edit-template-box-tax-settings-section.png)
 
 1. Dans la zone **Processus d’approbation de tâche par défaut**, sélectionnez le processus d’approbation que vous souhaitez associer à toutes les nouvelles tâches que vous ajoutez à un projet créé à partir de ce modèle. Vous devez créer un processus d’approbation de tâches avant de pouvoir l’associer aux tâches. Seuls les processus d’approbation actifs sont affichés dans la liste. Pour plus d’informations sur la création de processus d’approbation, voir [Créer des processus d’approbation](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. Dans la zone **Formulaires personnalisés de tâche par défaut**, sélectionnez le ou les formulaires personnalisés que vous souhaitez associer à toutes les nouvelles tâches que vous ajoutez à un projet créé à partir de ce modèle. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez associer jusqu’à dix formulaires personnalisés à une tâche.
+1. Dans la zone **Formulaires personnalisés de tâche par défaut**, sélectionnez le ou les formulaires personnalisés que vous souhaitez associer à toutes les nouvelles tâches que vous ajoutez à un projet créé à partir de ce modèle. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez associer jusqu’à dix formulaires personnalisés à une tâche.
 1. (Facultatif) Sélectionnez **Utiliser l’option Effort de travail pour calculer automatiquement les heures prévues de la tâche** si vous souhaitez activer la gestion de l’effort des tâches en utilisant l’effort de travail au lieu des heures prévues dans le projet créé à partir du modèle.
 1. (Le cas échéant et facultatif) Si vous avez sélectionné Utiliser l’option Effort de travail pour calculer automatiquement les heures prévues de la tâche, cliquez sur le menu déroulant pour mettre à jour le pourcentage pour chaque niveau d’effort de travail. Les pourcentages suivants sont les valeurs par défaut :
 

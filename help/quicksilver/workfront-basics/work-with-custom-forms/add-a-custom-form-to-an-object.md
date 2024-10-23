@@ -7,10 +7,10 @@ description: Vous pouvez ajouter un formulaire personnalisé existant à l’un 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 100%
+source-wordcount: '820'
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
 ## Conditions préalables
 
-Votre administrateur ou administratrice Workfront ou une personne disposant d’une licence Plan et d’un accès administratif à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement avant que vous ne puissiez les ajouter aux objets. Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Votre administrateur ou administratrice Workfront ou une personne disposant d’une licence Plan et d’un accès administratif à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement avant que vous ne puissiez les ajouter aux objets. Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Ajouter un formulaire personnalisé à un objet
 

@@ -5,10 +5,10 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7ed37978-b821-488e-9ca1-b81825255be3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 97%
 
 ---
 
@@ -40,4 +40,4 @@ Lorsque le formulaire est ajouté à un objet, les valeurs renvoyées par l’AP
 >
 >Le nouveau type de champ **Recherche externe** n’est pas disponible sur le créateur de formulaires hérité.
 
-Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

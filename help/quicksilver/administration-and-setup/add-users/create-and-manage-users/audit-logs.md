@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1527'
 ht-degree: 95%
 
 ---
@@ -208,7 +208,7 @@ Le système génère une entrée de journal d’audit Section personnalisée lor
 * Modifie le nom ou de la description d’une section personnalisée.
 * Supprime une section personnalisée.
 
-Pour plus d’informations sur les sections personnalisées dans les formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur les sections personnalisées dans les formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Taux de change {#exchange-rate}
 

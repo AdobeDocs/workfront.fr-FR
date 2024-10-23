@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '791'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ Pour plus d’informations sur la prévisualisation d’un formulaire personnali
 
 Les fonctionnalités avancées de formulaire personnalisé telles que les champs de recherche externe et les champs natifs Workfront sont désormais disponibles lorsque vous joignez un formulaire personnalisé à une entreprise ou à un utilisateur ou une utilisatrice. Les fonctionnalités avancées sont disponibles dans les pages Détails de l’entreprise et Détails de l’utilisateur ou de l’utilisatrice, et non dans les boîtes de dialogue Modifier entreprise et Modifier utilisateur ou utilisatrice. Le formulaire personnalisé doit être créé dans le nouveau créateur de formulaire pour tirer parti de ces types de champs.
 
-Pour plus d’informations sur les champs de formulaire personnalisés, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur les champs de formulaire personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Disponibilité de l’intégration JumpSeat pour les nouveaux types de packages
 
@@ -64,7 +64,7 @@ Les champs natifs utilisés dans les formulaires personnalisés sont disponibles
 
 Cette fonctionnalité est disponible uniquement en version bêta du créateur de formulaire, et non dans l’ancien créateur de formulaire.
 
-Pour plus d’informations, voir [Concevoir un formulaire à l’aide du créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 [Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 

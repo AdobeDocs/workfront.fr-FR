@@ -6,9 +6,9 @@ description: Vous pouvez modifier des informations sur les portefeuilles que vou
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1009'
 ht-degree: 91%
 
 ---
@@ -175,7 +175,7 @@ Vous pouvez modifier un [!UICONTROL portfolio] dans la page des portfolios ou mo
 
    >[!NOTE]
    >
-   >Selon la manière dont votre équipe d’administration [!DNL Workfront] définit les autorisations pour les sections de votre formulaire personnalisé, tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le portfolio lui-même. Pour plus d’informations sur la définition des autorisations sur les sections d’un formulaire personnalisé, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Selon la manière dont votre équipe d’administration [!DNL Workfront] définit les autorisations pour les sections de votre formulaire personnalisé, tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le portfolio lui-même. Pour plus d’informations sur la définition des autorisations sur les sections d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Mettez à jour les champs des formulaires personnalisés, puis cliquez sur **[!UICONTROL Enregistrer les modifications]** ou passez à la section suivante.
 

@@ -6,10 +6,10 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 hidefromtoc: true
 hide: true
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 94%
+source-wordcount: '539'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 Lorsque vous consultez la liste des formulaires personnalisés de votre entreprise, ainsi que les champs et widgets personnalisés qui y ont été ajoutés, vous pouvez utiliser les options de la barre d’outils pour modifier leurs propriétés, limiter avec qui ils sont partagés, les copier et les supprimer. Vous pouvez également afficher d’autres informations dans les colonnes qui s’affichent, comme les types d’objet auxquels chaque formulaire personnalisé est associé.
 
-Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Conditions d’accès
 
@@ -55,7 +55,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
    Pour plus d’informations sur ce que vous pouvez faire lorsque vous sélectionnez un formulaire personnalisé dans la liste, consultez les articles suivants :
 
-   * [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Partager un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
    * [Copier un formulaire personnalisé pour en créer un nouveau](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [Supprimer ou désactiver un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 95%
+source-wordcount: '280'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 Vous pouvez savoir quels formulaires personnalisés utilisent un champ personnalisé ou un widget que vous souhaitez modifier ou supprimer. Il est essentiel de déterminer si des ajustements sont nécessaires pour que ces formulaires personnalisés restent fonctionnels ou pertinents après qu’un champ ou un widget a été modifié ou supprimé.
 
-Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Conditions d’accès
 

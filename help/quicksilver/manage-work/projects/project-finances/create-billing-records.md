@@ -5,9 +5,9 @@ description: En plus de définir les revenus et de suivre les dépenses, vous po
 author: Alina
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1931'
 ht-degree: 99%
 
 ---
@@ -105,7 +105,7 @@ Tenez compte des éléments suivants lorsque vous envisagez d’utiliser les enr
 
 1. (Facultatif) Sous **Formulaires personnalisés**, sélectionnez un formulaire personnalisé d’enregistrements de facturation que vous souhaitez ajouter à l’enregistrement de facturation.
 
-   Vous (ou une autre personne ayant accès aux formulaires personnalisés) devez créer un formulaire personnalisé d’enregistrements de facturation avant de pouvoir le sélectionner ici. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Vous (ou une autre personne ayant accès aux formulaires personnalisés) devez créer un formulaire personnalisé d’enregistrements de facturation avant de pouvoir le sélectionner ici. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    Vous pouvez répéter cette étape pour ajouter d’autres formulaires personnalisés dont vous avez besoin pour l’enregistrement de facturation.
 

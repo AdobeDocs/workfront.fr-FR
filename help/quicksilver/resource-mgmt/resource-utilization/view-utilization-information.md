@@ -6,9 +6,9 @@ description: Vous pouvez voir l’utilisation de vos ressources dans le rapport 
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '7255'
+source-wordcount: '7252'
 ht-degree: 99%
 
 ---
@@ -546,7 +546,7 @@ Le rapport d’utilisation ne contient des informations que sur les rôles que v
 
      >[!IMPORTANT]
      >
-     >Vous devez saisir le nom du champ et non le libellé du champ. Le libellé du champ s’affiche sur un formulaire personnalisé associé à un objet. Pour plus d’informations sur la différence entre le libellé et le nom d’un champ personnalisé, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+     >Vous devez saisir le nom du champ et non le libellé du champ. Le libellé du champ s’affiche sur un formulaire personnalisé associé à un objet. Pour plus d’informations sur la différence entre le libellé et le nom d’un champ personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
      Pour plus d’informations sur les champs que vous voyez dans les colonnes, consultez [Glossaire de la terminologie Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).\
      Sélectionnez les modificateurs de filtre et de condition pour le filtre. Les modificateurs disponibles sont décrits dans [Modificateurs de filtre et de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).

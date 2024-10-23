@@ -6,10 +6,10 @@ description: Vous pouvez mettre à jour l’ordre dans lequel les formulaires pe
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 98%
+source-wordcount: '1106'
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
 
 ## Conditions préalables
 
-* L’équipe d’administration Workfront ou l’utilisateur ou utilisatrice Plan ayant accès à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement. Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* L’équipe d’administration Workfront ou l’utilisateur ou utilisatrice Plan ayant accès à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement. Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Vous devez avoir des formulaires personnalisés joints à un objet.
 
   Pour plus d’informations sur l’application de formulaires personnalisés à un objet, voir [Ajouter un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

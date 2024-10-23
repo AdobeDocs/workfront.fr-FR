@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2146'
 ht-degree: 97%
 
 ---
@@ -210,7 +210,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
    La valeur d’un champ est le nom qui apparaît dans les rapports, par exemple, tandis que le nom s’affiche dans les formulaires personnalisés associés aux objets.
 
-   Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
@@ -231,7 +231,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
    * **`setParameterID`** = les options correspondant au champ personnalisé _Marque_ comportent un **`setParameterID`** de 1 et les options correspondant au _Média_ ont un **`setParameterID`**de 2. Les feuilles `PARAM` et `POPT` se croisent pour indiquer quelles options appartiennent à quel champ personnalisé.
    * **`setDisplayOrder`**= la colonne d’ordre d’affichage indique l’ordre dans lequel les options s’afficheront dans votre champ personnalisé. Vous pouvez commencer par 1 et continuer par ordre croissant pour toutes les options, quels que soient les champs auxquels elles appartiennent. L’important ici est d’avoir des nombres uniques pour chaque option.
-   * Les colonnes **`setLabel`** et `**setValue`** contiennent généralement les mêmes informations et doivent refléter les noms souhaités dans l’interface d’utilisation de Workfront. La valeur d’une option est le nom qui s’affiche dans les rapports, par exemple, tandis que le libellé s’affiche dans les formulaires personnalisés lorsqu’il est associé à un objet. Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   * Les colonnes **`setLabel`** et `**setValue`** contiennent généralement les mêmes informations et doivent refléter les noms souhaités dans l’interface d’utilisation de Workfront. La valeur d’une option est le nom qui s’affiche dans les rapports, par exemple, tandis que le libellé s’affiche dans les formulaires personnalisés lorsqu’il est associé à un objet. Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = saisissez `TRUE` si vous souhaitez que l’une des options soit masquée.
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -296,7 +296,7 @@ Après avoir suivi les étapes décrites dans les sections précédentes, procé
    >Les nouveaux formulaires et les champs que vous avez importés ne sont pas encore connectés. Le formulaire est importé sans champ personnalisé. Vous devez ajouter manuellement les champs au nouveau formulaire personnalisé ou à un autre formulaire personnalisé existant.
 
 
-   Pour plus d’informations sur l’ajout de champs aux formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Pour plus d’informations sur l’ajout de champs aux formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Le cas échéant) Si l’import a échoué, vous recevez un message d’erreur signalant le problème. Essayez d’identifier le champ, la feuille et le numéro de ligne dans lesquels le problème s’est produit, corrigez les informations du fichier Excel, puis essayez de réimporter le fichier.
 

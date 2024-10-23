@@ -6,9 +6,9 @@ description: Pour rechercher efficacement des éléments de travail et vous conc
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: b255a3140629a488d24d1df980ba81faa1064d16
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2467'
 ht-degree: 97%
 
 ---
@@ -187,7 +187,7 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
 
       >[!IMPORTANT]
       >
-      >Lorsque vous référencez des champs personnalisés, vous devez saisir le nom du champ et non le libellé du champ. Le libellé du champ s’affiche sur un formulaire personnalisé associé à un objet. Pour plus d’informations sur la différence entre le libellé et le nom d’un champ personnalisé, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+      >Lorsque vous référencez des champs personnalisés, vous devez saisir le nom du champ et non le libellé du champ. Le libellé du champ s’affiche sur un formulaire personnalisé associé à un objet. Pour plus d’informations sur la différence entre le libellé et le nom d’un champ personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    1. (Le cas échéant) Si vous avez cliqué sur **Parcourir les champs**, saisissez le nom d’un champ dans le champ **Rechercher** et sélectionnez-le lorsqu’il s’affiche dans la liste.
 

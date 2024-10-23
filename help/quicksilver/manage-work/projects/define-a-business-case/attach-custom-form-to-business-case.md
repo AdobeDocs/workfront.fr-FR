@@ -5,10 +5,10 @@ description: Les formulaires personnalisés sont utilisés pour collecter des in
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 95%
+source-wordcount: '378'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 Les formulaires personnalisés sont utilisés pour collecter des informations qui ne sont pas affichées dans les champs existants d’Adobe Workfront. 
 
-Pour plus d’informations sur la création d’un Forms personnalisé, consultez l’article [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur la création d’un Forms personnalisé, consultez l’article [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Conditions d’accès
 

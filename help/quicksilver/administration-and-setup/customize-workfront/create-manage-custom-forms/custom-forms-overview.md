@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 75%
+source-wordcount: '380'
+ht-degree: 72%
 
 ---
 
@@ -29,7 +29,7 @@ Par exemple, vous pouvez attacher un formulaire personnalisé appelé « Recher
 
 Le concepteur de formulaire dispose d’un espace de travail de style zone de travail qui vous permet d’afficher simultanément les paramètres des champs, de la zone de travail et des champs. Il vous permet également de faire glisser des champs dans les sections lors de la conception de votre formulaire. Vous pouvez redimensionner le côté droit de l’écran afin de libérer de l’espace pour les options de champ.
 
-Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ![Exemple de créateur de formulaires](assets/form-designer-example.png)
 

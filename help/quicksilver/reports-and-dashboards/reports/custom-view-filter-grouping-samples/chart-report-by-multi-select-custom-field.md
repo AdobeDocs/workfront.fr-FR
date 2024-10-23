@@ -7,10 +7,10 @@ description: Vous ne pouvez tracer un rapport en fonction d’un champ personnal
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 96%
+source-wordcount: '1018'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ Vous ne pouvez pas créer un graphique dans un rapport en faisant référence à
 Pour créer un champ calculé qui fait référence à un champ personnalisé multi-sélection, vous devez disposer des conditions préalables suivantes :
 
 * Un champ personnalisé multi-sélection dans un formulaire personnalisé.\
-  Pour plus d’informations sur la création de formulaires personnalisés et l’ajout de champs personnalisés, reportez-vous à l’article [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Pour plus d’informations sur la création de formulaires personnalisés et l’ajout de champs personnalisés, reportez-vous à l’article [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Un formulaire personnalisé avec le champ personnalisé multi-sélection attaché aux objets.
 * Valeurs du champ personnalisé multi-sélection pour chaque objet.
@@ -95,7 +95,7 @@ Pour créer le champ personnalisé calculé qui fait référence au champ person
 
 1. Créez un formulaire personnalisé ou modifiez un formulaire existant.
 
-   Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Sélectionnez l’objet ou les objets que vous souhaitez utiliser avec le formulaire personnalisé.
 1. Cliquez sur **Ajouter un champ**, puis sur **Calculé** pour ajouter le champ personnalisé multi-sélection au formulaire.

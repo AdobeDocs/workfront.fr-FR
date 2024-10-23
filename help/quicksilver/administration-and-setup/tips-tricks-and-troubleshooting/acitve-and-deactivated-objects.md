@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 307bfb397555c7f9d424e429785dae36c639756a
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '747'
 ht-degree: 96%
 
 ---
@@ -82,7 +82,7 @@ Un formulaire personnalisé doit être actif pour apparaître sur le champ [!UIC
 
 Vous pouvez activer un formulaire personnalisé lors de sa modification.
 
-Pour plus d’informations sur la modification de formulaires personnalisés et pour obtenir la liste des objets auxquels vous pouvez les associer, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur la modification de formulaires personnalisés et pour obtenir la liste des objets auxquels vous pouvez les associer, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Entreprises
 

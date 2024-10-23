@@ -6,10 +6,10 @@ description: Vous pouvez modifier des objets en ligne lorsqu’ils s’affichent
 feature: Get Started with Workfront
 author: Lisa
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 97%
+source-wordcount: '744'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >[!NOTE]
    >
    >Si un champ personnalisé a été configuré pour autoriser le formatage, vous pouvez mettre du texte en gras, en italique ou souligné lorsque vous modifiez le champ en ligne dans une liste mise à jour.
-   >Pour plus d’informations sur la configuration du formatage pour un champ personnalisé, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Pour plus d’informations sur la configuration de la mise en forme pour un champ personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    >Pour plus d’informations sur les listes mises à jour, voir la section « Différence entre les listes mises à jour et héritées » de l’article [Commencer avec les listes dans  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Appuyez sur la touche [!UICONTROL Tabulation] pour passer à la cellule modifiable suivante.

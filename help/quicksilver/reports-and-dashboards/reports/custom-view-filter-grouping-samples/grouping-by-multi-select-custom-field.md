@@ -7,10 +7,10 @@ description: Le regroupement par valeur dans un champ personnalisé à sélectio
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 95%
+source-wordcount: '541'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 Pour pouvoir regrouper un rapport selon un champ personnalisé à sélection multiple, les prérequis suivants doivent être remplis :
 
 * Créez le champ personnalisé à sélection multiple dans un formulaire personnalisé.\
-  Pour plus d’informations sur la création de formulaires personnalisés et l’ajout de champs personnalisés, reportez-vous à l’article [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Pour plus d’informations sur la création de formulaires personnalisés et l’ajout de champs personnalisés, reportez-vous à l’article [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Joignez le formulaire personnalisé aux objets.
 * Renseignez le champ personnalisé à sélection multiple avec une valeur sur chaque objet. 

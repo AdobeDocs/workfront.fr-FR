@@ -1,7 +1,7 @@
 ---
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2583'
 ht-degree: 93%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 93%
 >
 >L’ancien créateur de formulaires n’est plus disponible à compter de la version 24.7 du 18 juillet 2024. Le concepteur de formulaires est désormais l’expérience par défaut pour la création et la modification de formulaires personnalisés dans Adobe Workfront.
 >
->Pour plus d’informations, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Associer le groupe de droite à l’équipe {#right-group-team}
 

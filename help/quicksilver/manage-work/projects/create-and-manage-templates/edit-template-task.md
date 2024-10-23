@@ -7,9 +7,9 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2406'
 ht-degree: 92%
 
 ---
@@ -362,7 +362,7 @@ Vous pouvez également ajouter des formulaires personnalisés aux tâches future
 
    Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ.
 Seuls les formulaires personnalisés actifs s’affichent dans la liste.
-Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 Vous pouvez ajouter jusqu’à dix formulaires personnalisés à une tâche de modèle.
 Les formulaires sont automatiquement ajoutés aux tâches créées à partir du modèle.
 1. (Le cas échéant et facultatif) Si vous avez joint un formulaire personnalisé à la tâche de modèle, modifiez les champs du formulaire concernés. Vous devez spécifier tous les champs requis avant de pouvoir enregistrer la tâche de modèle.

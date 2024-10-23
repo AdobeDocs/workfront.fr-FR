@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 98%
+source-wordcount: '1270'
+ht-degree: 96%
 
 ---
 
@@ -75,7 +75,7 @@ Sélectionnez un champ auquel la logique est appliquée pour afficher les règle
 ## Observations relatives à l’utilisation des logiques d’affichage et de saut
 
 * Pour ajouter une logique d’affichage sur un champ personnalisé, un widget ou un saut de section, il faut placer au moins un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher) avant celui-ci dans le formulaire.
-Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Vous ne pouvez pas ajouter de logique de saut à un widget ou à un saut de section. Vous ne pouvez l’ajouter qu’à un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher).
 * Vous pouvez ajouter une logique d’affichage et une logique de saut à un champ personnalisé si toutes les conditions suivantes sont remplies :
 
@@ -98,7 +98,7 @@ La logique d’affichage définit les champs personnalisés qui apparaissent dan
 {{step-1-to-setup}}
 
 1. Cliquez sur **Formulaires personnalisés**.
-1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) pour plus de détails.
+1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) pour plus d’informations.
 1. Ajoutez des champs au formulaire si nécessaire. Au moins un champ à choix multiple (case d’option, liste déroulante ou case à cocher) doit être placé avant le champ cible qui s’affichera.
 1. Sélectionnez le champ cible et cliquez sur **Ajouter une logique** dans le coin inférieur gauche de l’écran.
 1. Sélectionnez l’onglet **Logique d’affichage**.
@@ -128,7 +128,7 @@ La logique de saut définit des champs de formulaire personnalisés qui sont ign
 {{step-1-to-setup}}
 
 1. Cliquez sur **Formulaires personnalisés**.
-1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) pour plus de détails.
+1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) pour plus d’informations.
 1. Ajoutez des champs au formulaire si nécessaire. Le champ définissant la logique de saut doit être un champ à choix multiple (case d’option, liste déroulante ou case à cocher).
 1. Sélectionnez le champ de définition et cliquez sur **Ajouter une logique** en bas à gauche de l’écran.
 1. Sélectionnez l’onglet **Logique de saut**.

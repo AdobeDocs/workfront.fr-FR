@@ -7,10 +7,10 @@ description: Le champ calculé suivant affiche la date à laquelle le statut de 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '403'
+ht-degree: 97%
 
 ---
 
@@ -62,8 +62,8 @@ Pour ajouter un champ calculé qui affiche l’historique des modifications d’
 
 1. Accédez au formulaire personnalisé dans lequel vous souhaitez ajouter le champ.
 1. Cliquez sur **Calculé** pour ajouter un champ personnalisé calculé au formulaire.
-1. Saisissez un **libellé** pour le champ personnalisé, par exemple *Champ personnalisé Date et heure du statut*.
-1. Cliquez sur **Terminé**, puis sur **Enregistrer et fermer**.
+1. Saisissez un **libellé** pour le champ personnalisé. Par exemple, &quot;Champ personnalisé de l’horodatage d’état&quot;.
+1. Cliquez sur **Enregistrer et fermer**.
 1. Rouvrez le formulaire personnalisé, puis sélectionnez le nouveau **Champ personnalisé Date et heure du statut** dans le formulaire.
 1. Dans la zone **Calcul**, copiez et collez le calcul suivant pour votre champ personnalisé :
 

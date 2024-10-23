@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 5183c9ce50c043dd3053826d4942960ebcf7efbd
+source-git-commit: e3e12718441c030c24a7a0625d3c1d1b63ddf974
 workflow-type: tm+mt
-source-wordcount: '14521'
+source-wordcount: '14518'
 ht-degree: 94%
 
 ---
@@ -614,7 +614,7 @@ ht-degree: 94%
          * [Vue d’ensemble des formulaires personnalisés](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * Concevoir un formulaire personnalisé {#design-a-form}
             * [Conception d’un formulaire : index de l’article](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-            * [Concevoir un formulaire avec le concepteur de formulaire](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+            * [Créer un formulaire personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
             * [Conception d’un formulaire à partir d’une copie](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
             * [Ajouter des champs calculés à un formulaire](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [Ajouter une logique d’affichage et ignorer la logique dans un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)

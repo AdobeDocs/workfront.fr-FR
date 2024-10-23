@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1394'
 ht-degree: 98%
 
 ---
@@ -85,7 +85,7 @@ Envisagez de poser les questions suivantes :
   Pour plus d’informations sur la définition des mises à jour à suivre dans Workfront, consultez l’article [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 * Existe-t-il des informations que vous devez suivre et pour lesquelles il n’existe pas de champ de stockage dans Workfront ? Si oui, créez des formulaires personnalisés pour les projets ou les tâches dans lesquels vous pouvez stocker ces informations.\
-  Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Des points de contrôle d’approbation doivent-ils être accordés avant de pouvoir poursuivre le travail ? Si oui, créez des processus d’approbation pour les projets ou les tâches que vous pouvez utiliser lors de la création de votre projet.\
   Pour plus d’informations sur la création de processus d’approbation, voir l’article [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

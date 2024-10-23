@@ -6,10 +6,10 @@ description: Connectez votre travail à votre contenu dans Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 98%
+source-wordcount: '623'
+ht-degree: 97%
 
 ---
 
@@ -112,7 +112,7 @@ Mappez les données de l’objet Workfront aux champs de média de la ressource 
 Avant de commencer, vous devez
 
 * Configurez un schéma de métadonnées dans Experience Manager Assets Essentials comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=fr).
-* (Facultatif) Configurer les champs de formulaire personnalisés dans Workfront. Workfront dispose de nombreux champs personnalisés intégrés que vous pouvez utiliser. Vous pouvez également créer vos propres champs personnalisés. Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* (Facultatif) Configurer les champs de formulaire personnalisés dans Workfront. Workfront dispose de nombreux champs personnalisés intégrés que vous pouvez utiliser. Vous pouvez également créer vos propres champs personnalisés. Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Champs Workfront et Experience Manager Assets pris en charge
 

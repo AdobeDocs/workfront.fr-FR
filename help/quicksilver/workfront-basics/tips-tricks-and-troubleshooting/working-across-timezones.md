@@ -5,10 +5,10 @@ title: Travailler sur plusieurs fuseaux horaires
 description: Il peut être utile de comprendre comment  [!DNL Adobe Workfront]  utilise les fuseaux horaires pour calculer les champs horaires des objets et les heures dans d’autres domaines tels que les e-mails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 97%
+source-wordcount: '1147'
+ht-degree: 96%
 
 ---
 
@@ -117,4 +117,4 @@ Pour plus d’informations, voir [Ajout de champs calculés à un formulaire](/h
 
 Si vous ne souhaitez pas que [!DNL Workfront] convertisse les heures configurées dans un objet pour des personnes situées dans des fuseaux horaires différents, vous pouvez utiliser un champ de texte dans un formulaire personnalisé que vous attachez à un objet, plutôt qu’un champ de date. De cette façon, l’heure affiche l’heure que vous saisissez pour toutes les personnes qui participent au projet.
 
-Dans ce cas, nous vous recommandons de rappeler aux utilisateurs et utilisatrices du formulaire de calculer la différence entre leur fuseau horaire et le vôtre afin qu’ils puissent déterminer les heures de début et de fin du travail. Vous pouvez l’inclure dans les instructions que vous saisissez pour le formulaire personnalisé ou dans une info-bulle pour ce champ. Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Dans ce cas, nous vous recommandons de rappeler aux utilisateurs et utilisatrices du formulaire de calculer la différence entre leur fuseau horaire et le vôtre afin qu’ils puissent déterminer les heures de début et de fin du travail. Vous pouvez l’inclure dans les instructions que vous saisissez pour le formulaire personnalisé ou dans une info-bulle pour ce champ. Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

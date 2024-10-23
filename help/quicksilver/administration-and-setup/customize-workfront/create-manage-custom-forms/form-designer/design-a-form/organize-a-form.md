@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1288'
 ht-degree: 93%
 
 ---
@@ -61,11 +61,11 @@ Les paramètres d’accès que vous sélectionnez pour une section sont directem
 
 Pour plus d’informations sur les autorisations sur les objets, voir [Vue d’ensemble du partage des autorisations sur les objets](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Créer et configurer l’accès pour une section dans un formulaire personnalisé
 
-1. Commencez à créer ou modifier un formulaire personnalisé et à ajouter des champs, comme décrit dans la section [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Commencez à créer ou modifier un formulaire personnalisé et à ajouter des champs, comme décrit dans la section [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Saut de section** et faites-le glisser à l’emplacement souhaité sur la zone de travail.
 
@@ -147,7 +147,7 @@ Dans un formulaire personnalisé avec un saut de section configuré et l’autor
 ## Positionner des champs et des widgets personnalisés dans un formulaire personnalisé
 
 
-1. Commencez à créer ou modifier un formulaire personnalisé, comme décrit dans [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Commencez à créer ou modifier un formulaire personnalisé, comme décrit dans [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Pour positionner un champ personnalisé et un widget sur la même ligne, faites glisser l’un à côté de l’autre jusqu’à ce qu’une ligne s’affiche entre eux.
 
@@ -166,7 +166,7 @@ Dans un formulaire personnalisé avec un saut de section configuré et l’autor
 
 ## Prévisualiser un formulaire personnalisé
 
-1. Commencez à créer ou modifier un formulaire personnalisé et à ajouter des champs, comme décrit dans la section [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Commencez à créer ou modifier un formulaire personnalisé et à ajouter des champs, comme décrit dans la section [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Prévisualiser** dans le coin supérieur droit pour avoir un aperçu du formulaire lors de son utilisation, puis cliquez sur **Fermer la prévisualisation** pour revenir à la modification du formulaire.
 
