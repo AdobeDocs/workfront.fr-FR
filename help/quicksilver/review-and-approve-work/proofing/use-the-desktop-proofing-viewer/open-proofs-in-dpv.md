@@ -6,7 +6,7 @@ description: Si vous ne parvenez pas à ouvrir une épreuve comme décrit ci-des
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
+source-git-commit: 4311e93964c7161b7de5d5aa680e3a822c67012a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
@@ -67,7 +67,3 @@ Si vous consultez régulièrement du contenu interactif dans la visionneuse de r
    >La visionneuse de relecture de bureau ne prend pas en charge les sites web qui exigent que vous vous connectiez.
 
 1. Cliquez sur **Ouvrir l’épreuve** dans l’écran qui s’affiche.
-
- 
-
- 

@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
+source-git-commit: 5183c9ce50c043dd3053826d4942960ebcf7efbd
 workflow-type: tm+mt
-source-wordcount: '14512'
+source-wordcount: '14521'
 ht-degree: 94%
 
 ---
@@ -1933,6 +1933,7 @@ ht-degree: 94%
             * [Afficher les versions antérieures d’une épreuve dans la visionneuse de relecture](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
             * [Modifier la résolution de l’épreuve interactive dans la visionneuse de relecture](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Configurer des paramètres de la visionneuse de relecture](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
+            * [Vérification du contenu interactif à l’aide de l’outil de révision Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
          * Commenter une épreuve {#comment-on-a-proof}
             * [Commentaire sur les BAT : index de l&#39;article](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Commentaire sur une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
