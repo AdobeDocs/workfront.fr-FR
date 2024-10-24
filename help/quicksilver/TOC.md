@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: d3151a23f18ec91420f7f9b53f84386d8adc2bb1
 workflow-type: tm+mt
-source-wordcount: '14555'
+source-wordcount: '14559'
 ht-degree: 94%
 
 ---
@@ -423,6 +423,7 @@ ht-degree: 94%
    * Annonces {#announcements}
       * [Annonces](product-announcements/announcements/announcements.md)
       * [Planning des fonctionnalités qui ne sont plus prises en charge.](product-announcements/announcements/feature-removal-timeline.md)
+      * [Guide d’obsolescence d’Analytics amélioré](product-announcements/announcements/enhanced-analytics-deprecation.md)
       * [Guide d’obsolescence de la page d’accueil](product-announcements/announcements/legacy-home-deprecation.md)
       * [FAQ sur la fenêtre de maintenance](product-announcements/announcements/maintenance-window-faq.md)
       * [Modification requise pour ajouter des épreuves à votre liste autorisée](product-announcements/announcements/proofhq-domain-change-workfront.md)
