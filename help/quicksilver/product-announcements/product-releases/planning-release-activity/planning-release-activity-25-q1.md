@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 2b2c15f53602fd250ef490fd06a032fa80ccdcd7
+source-git-commit: df5f37e741f5bd771f91383f9b782ffab8e6160f
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 12%
+source-wordcount: '305'
+ht-degree: 14%
 
 ---
 
@@ -53,4 +53,6 @@ Vous pouvez ajouter le nouveau champ aux formulaires pour tous les types d’obj
 La modification en masse des champs Planification de la connexion pour les objets Workfront n’est pas encore disponible.
 
 Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3435633/){target=_blank}
 
