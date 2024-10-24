@@ -1,17 +1,17 @@
 ---
-title: Personnalisation de la nouvelle page d’accueil à l’aide d’un modèle de mise en page
+title: Personnalisation de l’accueil à l’aide d’un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les utilisateurs lorsqu’ils ouvrent la page d’accueil.
+description: Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les utilisateurs lorsqu’ils ouvrent la page d’accueil dans Adobe Workfront.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 66%
+source-wordcount: '853'
+ht-degree: 41%
 
 ---
 
@@ -28,10 +28,8 @@ Vous pouvez configurer les éléments suivants :
 >[!IMPORTANT]
 >
 >Une fois le modèle de mise en page appliqué, les utilisateurs finaux peuvent modifier leur arrière-plan et réorganiser les widgets sur la page. Ils ne peuvent pas supprimer les widgets inclus par un administrateur Workfront.
-> <br>
+> 
 >Les administrateurs peuvent ajouter de nouveaux widgets pour les utilisateurs. Toutefois, si un utilisateur final a déjà personnalisé l’ordre de son widget ou sa sélection en arrière-plan, ces personnalisations spécifiques ne sont pas modifiées.
-
-
 
 Pour plus d’informations sur la page d’accueil, voir [Prise en main de la page d’accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
@@ -81,7 +79,12 @@ Pour personnaliser Accueil à l’aide d’un modèle de mise en page :
 
 1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) sous **Personnaliser ce que les utilisateurs et utilisatrices voient**, puis cliquez sur **l’espace de travail Accueil**.
 
-1. Dans les onglets qui s’affichent à droite, cliquez sur **Conception et disposition** pour choisir et organiser des widgets et l’arrière-plan, ou **Paramètres des widgets** pour gérer les paramètres de widgets individuels, tels que les filtres et les groupes disponibles.
+1. Dans les onglets à droite, cliquez sur l’une des options suivantes :
+
+   * **Conception et mise en page** : choisissez de choisir et d’organiser les widgets et l’arrière-plan.
+   * **Paramètres du widget** : sélectionnez cette option pour gérer les paramètres de widgets individuels, tels que les filtres et les groupes disponibles.
+
+   Le tableau suivant contient des détails sur chaque onglet :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -90,55 +93,66 @@ Pour personnaliser Accueil à l’aide d’un modèle de mise en page :
      <tr> 
       <td role="rowheader">Conception et disposition</td> 
       <td>
-      <p>Sélectionnez les widgets qui seront présents dans les espaces de travail des utilisateurs et utilisatrices, leur position et choisissez un arrière-plan. Notez que même si les utilisateurs et utilisatrices ne peuvent pas supprimer les widgets sélectionnés, ils et elles peuvent les déplacer et les redimensionner librement et ajouter des widgets supplémentaires.</p>
-      <p>Cet onglet fonctionne essentiellement comme un petit espace de travail d’accueil. Il peut donc être personnalisé selon les étapes décrites dans la section <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Ajouter, modifier ou supprimer des widgets dans l’accueil</a>. Sélectionnez des widgets et organisez l’espace de travail comme vous le souhaitez pour les utilisateurs et utilisatrices.</p>
-      <p>Pour modifier l’arrière-plan, suivez les étapes sous <b>Personnalisation de l’arrière-plan</b> dans <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Prise en main de l’accueil</a>.</p>
+      <p>Sélectionnez les widgets qui s’afficheront dans les espaces de travail des utilisateurs, leur position et choisissez un arrière-plan.</p> 
+      <p>Notez que même si les utilisateurs ne peuvent pas supprimer les widgets sélectionnés, ils peuvent les déplacer et les redimensionner librement. Ils peuvent également ajouter d’autres widgets.</p>
+      <p>Cet onglet fonctionne essentiellement comme un aperçu de l’espace de travail d’accueil que les utilisateurs disposant de ce modèle de mise en page verront apparaître.</p> 
+      <p> Effectuez l’une des opérations suivantes : </p>
+      <ul><li>Personnalisez cet onglet en fonction des étapes décrites dans <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Ajout, modification ou suppression de widgets dans Home</a>. </li>
+      <li>Sélectionnez des widgets et organisez l’espace de travail comme vous le souhaitez pour les utilisateurs et utilisatrices.</li>
+      <li>Pour modifier l’arrière-plan, suivez les étapes sous <b>Personnalisation de l’arrière-plan</b> dans <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Prise en main de l’accueil</a>.</li></p>
       <p>
 
->[!NOTE]
->
->Seuls les widgets de déplacement ou de redimensionnement du modèle de mise en page ne déclencheront pas la mise en page des pages d’accueil des utilisateurs. Cependant, l’ajout ou la suppression d’un widget déclenche une mise à jour des pages des utilisateurs et utilisatrices.
+   >[!NOTE]
+   >
+   >Seuls les widgets de déplacement ou de redimensionnement du modèle de mise en page ne déclencheront pas la mise en page des pages d’accueil des utilisateurs. Cependant, l’ajout ou la suppression d’un widget déclenche une mise à jour des pages des utilisateurs et utilisatrices.
 
-</p>
+   </p>
      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Paramètres du widget</td> 
       <td>
-      <p>Modifiez les paramètres de widgets individuels. Actuellement, seuls trois widgets sont pris en charge :</p>
+      <p>Modifiez les paramètres de widgets individuels.</p> 
+      <p>
+
+   >[!NOTE]
+   >
+   >Ces options ne s’étendent pas au panneau Résumé. Vous devez configurer cette zone dans l’onglet Résumé du modèle de mise en page.
+
+   </p>
+      <p> Sélectionnez l’un des widgets suivants dans la liste située à gauche :</p>
       <ul>
         <li>Mes projets</li>
         <li>Mes tâches</li>
         <li>Mes problèmes</li>
       </ul>
-      <p>Une fois que vous avez sélectionné le widget que vous souhaitez modifier, les options disponibles s’affichent à droite. Ces options comprennent <b>Filtres</b>, <b>Colonnes</b> et <b>Groupes</b>. Vous pouvez effectuer les opérations suivantes :</p>
+      <p>Après avoir sélectionné le widget que vous souhaitez modifier, sélectionnez les <b>Filtres</b>, <b>Colonnes</b> et <b>Groupes</b> que vous souhaitez rendre disponibles pour Accueil à droite.</p>
+      <p> Vous pouvez :</p>
       <ul>
-      <li><p><b>Sélectionner et trier les filtres, colonnes ou groupes disponibles pour les utilisateurs et utilisatrices :</b></p>
-      <p>Cochez la case en regard de toutes les options de la liste que vous souhaitez que les personnes puissent utiliser. Ces options ne s’étendent pas au panneau Résumé. Vous devez configurer cette zone dans l’onglet Résumé du modèle de mise en page. Les options non cochées ne s’affichent pas pour les utilisateurs et utilisatrices. Faites glisser les options de la liste pour définir un ordre.</li></p>
+      <li><p>Cochez la case en regard des options de la liste pour classer les filtres, colonnes ou groupes disponibles pour les utilisateurs et classer les filtres. Les options non cochées ne s’affichent pas pour les utilisateurs et utilisatrices.</p></li>
+      <li> <p>Faites glisser les options de la liste pour définir un ordre.</p></li>
       <p>
 
->[!IMPORTANT]
->
->* Les options Filtre, Colonnes et Groupe sont liées aux options de personnalisation de liste du modèle de mise en page. Les modifications apportées ici s’appliquent également à ces paramètres.
->* Les utilisateurs doivent au moins disposer de l’option Créer l’accès aux vues pour que la configuration des colonnes de l’administrateur s’applique correctement à leurs pages d’accueil.
+   >[!IMPORTANT]
+   >
+   >* Les options Filtre, Colonnes et Groupe sont liées aux options de personnalisation de liste du modèle de mise en page. Les modifications apportées ici s’appliquent également à ces paramètres.
+   >* Les utilisateurs doivent au moins disposer de l’option Créer l’accès aux vues pour que la configuration des colonnes de l’administrateur s’applique correctement à leurs pages d’accueil.
 
-</p>
-      <li><p><b>Définir un filtre ou un groupe par défaut pour le widget :</b></p>
-      <p>Passez la souris sur une option pour afficher un bouton permettant de définir cette option comme option par défaut pour les utilisateurs et utilisatrices. La valeur par défaut actuelle comporte un badge bleu Par défaut à sa droite.</li></p>
-      <li><p><b>Ajoutez un filtre, une colonne ou un groupe existant à la liste des options disponibles :</b></p>
-      <p>Cliquez sur le bouton représentant le signe plus au bas de chaque liste pour lui ajouter une option. Notez que seuls les filtres, champs (pour les colonnes) ou groupes existants peuvent être ajoutés de cette manière.</p></li>
+   </p>
+      <li><p>Définissez un filtre ou un groupe par défaut pour le widget, en passant la souris sur une option et en cliquant sur <b>Définir comme valeur par défaut</b>. La valeur par défaut actuelle affiche un badge bleu <b>Default</b> à sa droite.</p></li>
+      <li><p>Ajoutez un filtre, une colonne ou un groupe existant à la liste des options disponibles en cliquant sur le bouton représentant le signe plus au bas de chaque liste pour ajouter une option à cette liste. Notez que seuls les filtres, champs (pour les colonnes) ou groupes existants peuvent être ajoutés de cette manière.</p></li>
       </ul>
       <p>
 
->[!NOTE]
->
->Si vous définissez un filtre ou un regroupement par défaut pour un widget spécifique à l’aide d’un modèle de mise en page, il se peut qu’il ne prenne pas effet immédiatement en raison des préférences existantes de la personne. Pour appliquer immédiatement le nouveau filtre ou regroupement, vous ou la personne concernée devrez peut-être réinitialiser ses préférences en ajoutant « /resetUser » à la fin de l’URL.
+   >[!NOTE]
+   >
+   >Si vous définissez un filtre ou un regroupement par défaut pour un widget spécifique à l’aide d’un modèle de mise en page, il se peut qu’il ne prenne pas effet immédiatement en raison des préférences existantes de la personne. Pour appliquer immédiatement le nouveau filtre ou regroupement, vous ou la personne concernée devrez peut-être réinitialiser ses préférences en ajoutant « /resetUser » à la fin de l’URL.
 
-</p>
-  </td> 
-  </tr>
-  </tbody> 
-  </table>
+   </p>
+      </td> 
+      </tr>
+      </tbody> 
+      </table>
 
 1. Poursuivez la personnalisation du modèle de mise en page.
 
@@ -146,6 +160,6 @@ Pour personnaliser Accueil à l’aide d’un modèle de mise en page :
 
    Si vous avez terminé de le personnaliser, cliquez sur **Enregistrer** en bas à gauche.
 
->[!IMPORTANT]
->
->Vous devez actualiser la page d’accueil pour afficher les personnalisations à partir du modèle de mise en page.
+   >[!IMPORTANT]
+   >
+   >Les utilisateurs doivent actualiser leur page d’accueil pour afficher les personnalisations à partir du modèle de mise en page.

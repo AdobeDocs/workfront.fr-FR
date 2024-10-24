@@ -6,10 +6,10 @@ description: Vous pouvez créer des tâches et des projets à partir de la zone 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 26%
+source-wordcount: '761'
+ht-degree: 22%
 
 ---
 
@@ -54,16 +54,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Création d’un élément de tâche personnel
 
-Vous pouvez créer un élément de tâche personnel disponible uniquement dans la zone [!UICONTROL Home] :
+Vous pouvez créer un élément de tâche personnel dans la zone [!UICONTROL Accueil]. Les tâches sont des tâches personnelles que vous créez vous-même.
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. (Conditionnel) Ajoutez le widget Tâches à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Tâches**.
+Vous et d’autres utilisateurs pouvez afficher vos tâches personnelles dans un rapport de tâches personnelles. À partir de là, ils peuvent les ajouter aux projets, si nécessaire.
+
+Pour créer un élément de tâche :
+
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit ou sur le **menu principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser**, puis sur **Tâches** pour ajouter le widget Tâches à votre écran d’accueil.
 1. Accédez au widget **To-do** , puis cliquez sur **Ajouter to-do**.
-1. Saisissez le
+1. Saisissez le nom de votre élément personnel, puis cliquez sur Entrée.
 1. (Facultatif) Cliquez sur l’icône **Date** ![](assets/date-icon.png) pour ajouter une date d’échéance pour l’élément.
    ![](assets/my-work-to-dos.png)
-
-
+1. (Facultatif) Créez un rapport ou un filtre de tâche personnel. Pour plus d’informations sur la création d’un filtre de tâche personnelle, voir [Filtre : tâche personnelle](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+Vous pouvez afficher vos tâches ainsi que les tâches d’autres utilisateurs dans le rapport de tâches personnelles.
 
 ## Ajout d’une tâche à un projet
 

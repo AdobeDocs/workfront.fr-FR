@@ -6,10 +6,10 @@ description: La date d’achèvement prévue d’un problème est la date à laq
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 54%
+source-wordcount: '592'
+ht-degree: 51%
 
 ---
 
@@ -40,7 +40,7 @@ Pour mettre à jour la date d’achèvement prévue du problème, vous devez dis
 Vous pouvez définir manuellement la date d’achèvement planifiée d’un problème dans les zones suivantes de Workfront :
 
 * Dans la zone Modifier le problème ou dans la zone Détails du problème lors de la création ou de la modification d’un problème. Pour plus d’informations, voir [Modifier des problèmes](../../../manage-work/issues/manage-issues/edit-issues.md).
-* Dans la zone Accueil , si la date d’achèvement prévue s’affiche lors de l’affichage d’un problème. Pour plus d’informations, voir [Mettre à jour ou modifier un élément de travail dans la zone Accueil](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* Dans la zone Accueil , si la Date d’achèvement planifiée s’affiche dans le panneau Résumé d’un problème. Pour plus d’informations, voir [Mettre à jour ou modifier un élément de travail dans la zone Accueil](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * Dans l’en-tête du problème. Pour plus d’informations, voir [Nouveaux en-têtes d’objet](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * Dans une liste de problèmes ou un rapport lorsque le champ Date d’achèvement prévue s’affiche dans la vue.
 

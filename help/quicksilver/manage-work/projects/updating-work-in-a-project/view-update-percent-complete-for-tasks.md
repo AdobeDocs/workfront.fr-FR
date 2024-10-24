@@ -6,7 +6,7 @@ description: Vous pouvez mettre à jour le pourcentage terminé d’une tâche p
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 96%
@@ -91,7 +91,7 @@ Vous pouvez mettre à jour le pourcentage terminé d’une tâche dans l’un de
 
 * **Accueil** : vous pouvez mettre à jour le pourcentage terminé d’une tâche ou d’un problème à partir du panneau Résumé dans la zone Accueil ou à partir du widget Mon travail.
 
-Pour plus d’informations, voir [Prise en main de la page d’accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  Pour plus d’informations, voir [Prise en main de la page d’accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Considérations relatives à la mise à jour du pourcentage terminé d’une tâche
 

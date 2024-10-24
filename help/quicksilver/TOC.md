@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2b1a066bb769b46d50c45f087ccd668266b4639c
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '14549'
+source-wordcount: '14555'
 ht-degree: 94%
 
 ---
@@ -929,6 +929,7 @@ ht-degree: 94%
       * [Vue d’ensemble de la section Mises à jour](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [Mettre à jour le travail](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [Limites de caractères dans les champs](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+      * [Créer des tâches personnelles](workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)
       * [Répondre aux mises à jour](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
       * [Répondre aux notifications par e-mail](workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
       * [Taguer d’autres personnes sur les mises à jour](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
@@ -1619,6 +1620,7 @@ ht-degree: 94%
          * [Exemples de vues, de filtres et de regroupements personnalisés : index des articles](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [Rapports ou listes : afficher les utilisateurs et utilisatrices associés à un objet](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [Filtre : afficher les projets transversaux antérieurs incomplets](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+         * [Filtre : tâches personnelles](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
          * [Filtre : afficher les projets transversaux ultérieurs incomplets](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
          * [Filtre : afficher les projets en cours en attente d’approbation](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
          * [Filtre : afficher uniquement les éléments ayant un statut d’approbation](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
