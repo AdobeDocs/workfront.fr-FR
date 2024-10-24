@@ -6,16 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 29%
+source-wordcount: '545'
+ht-degree: 30%
 
 ---
 
 # Présentation des enregistrements connectés
 
-<!--for the Planning connection field, see commented out below; also add preview tags-->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -56,6 +58,6 @@ Vous pouvez connecter des enregistrements à d’autres enregistrements ou à de
 * Vous pouvez connecter des objets Workfront à des enregistrements Workfront Planning dans les zones suivantes :
 
    * Dans la section Planification d’un objet Workfront.
-  <!--* From a Planning connection field on a Workfront object's custom form. -->
+   * <span class="preview">À partir d’un champ de connexion Planification sur le formulaire personnalisé d’un objet Workfront. </span>
 
   Pour plus d’informations, voir [Gestion des connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)

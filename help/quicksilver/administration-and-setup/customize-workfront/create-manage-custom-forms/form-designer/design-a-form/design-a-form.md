@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '5537'
-ht-degree: 88%
+source-wordcount: '6294'
+ht-degree: 80%
 
 ---
 
 # Créer un formulaire personnalisé
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Vous pouvez concevoir un formulaire personnalisé à l’aide du concepteur de formulaire dans Adobe Workfront. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données en rapport avec ces objets.
 
@@ -85,8 +89,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    * [Ajouter des images, des fichiers PDF et des vidéos
 ](#add-images-pdfs-and-videos)
    * [Ajouter des champs natifs Workfront](#add-workfront-native-fields)
-   * [Ajouter des fichiers Adobe XD](#add-adobe-xd-files)
-     <!--* [Add Planning connection fields](#add-planning-connection-fields)-->
+   * [Ajouter des fichiers Adobe XD](#add-adobe-xd-files)
+   * <span class="preview">[Ajouter des champs de connexion de planification](#add-planning-connection-fields)</span>
 
 ## Ajouter des champs nouveaux ou existants à votre formulaire personnalisé
 
@@ -905,102 +909,102 @@ Pour ajouter un fichier Adobe XD :
 
    Cliquez sur **Enregistrer et fermer**.
 
-<!--
-### Add Planning connection fields
+<div class="preview">
+
+### Ajout de champs de connexion Planification
 
 >[!IMPORTANT]
 >
->The information in this section refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>Les informations de cette section font référence à la planification Adobe Workfront, une fonctionnalité supplémentaire d’Adobe Workfront.
 >
->You must have the following to access Workfront Planning:
+>Pour accéder à Workfront Planning, vous devez disposer des éléments suivants :
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>* Un nouveau forfait et une nouvelle licence Workfront. Workfront Planning n’est pas disponible pour les licences ou les forfaits Workfront hérités.
+>* Une licence supplémentaire pour la planification Workfront.
+>* L’instance Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe.
 >
-> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> Pour obtenir la liste complète des exigences d’accès à Workfront Planning, consultez la [présentation de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>Pour plus d’informations sur la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 
-You can view records connected from Workfront Planning in a custom field on a Workfront object by adding a  Planning connection custom field to an object's custom form. 
+Vous pouvez afficher les enregistrements connectés à partir de la planification Workfront dans un champ personnalisé d’un objet Workfront en ajoutant un champ personnalisé de planification de la connexion au formulaire personnalisé d’un objet.
 
-You can add the Planning connection field to all objects' custom forms. However, you can display connected records only on the custom forms associated with Workfront objects that can be connected from Workfront Planning. 
+Vous pouvez ajouter le champ Planification de la connexion aux formulaires personnalisés de tous les objets. Cependant, vous ne pouvez afficher les enregistrements connectés que sur les formulaires personnalisés associés à des objets Workfront pouvant être connectés à partir de Workfront Planning.
 
 >[!NOTE]
 >
->Users viewing information in the custom field must have access to Workfront Planning and to the workspaces that contain the record types connected to Workfront objects.
+>Les utilisateurs qui visualisent des informations dans le champ personnalisé doivent avoir accès à la planification Workfront et aux espaces de travail qui contiennent les types d’enregistrement connectés aux objets Workfront.
 
+Pour ajouter un champ Connexion planifiée :
 
-To add a Planning connection field:
-
-1. On the left side of the screen, find **Planning connection** and drag it to a section on the canvas. 
-1. On the right side of the screen, configure the options for the custom field:
+1. Sur le côté gauche de l’écran, recherchez **Planification de la connexion** et faites-le glisser vers une section de la zone de travail.
+1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>:</p> <p>Avoid using special characters in this label.</p> 
-      <p>We recommend that you choose a label by which you can easily identify where the Planning record is coming from. Add information like the name of the workspace or the name of the record type. </p>   </td> 
+      <td role="rowheader">Étiquette</td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> :</p> <p>Évitez d’utiliser des caractères spéciaux dans ce libellé.</p> 
+      <p>Nous vous recommandons de choisir un libellé qui vous permet d'identifier facilement d'où vient l'enregistrement Planning. Ajoutez des informations telles que le nom de l’espace de travail ou le nom du type d’enregistrement. </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td>
-      <td> <p>(Required) The name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p></td> 
+      <td role="rowheader">Nom</td>
+      <td> <p>(Obligatoire) Le nom est la manière dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>(Recommended) Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p>
-      <p>Here, you can add explicit information about the record and the objects you are connecting. </p>
+      <td> <p>(Recommandé) Saisissez des informations supplémentaires sur le champ. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations saisies ici.</p>
+      <p>Vous pouvez y ajouter des informations explicites sur l’enregistrement et les objets que vous connectez. </p>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Object type</td> 
-      <td><p>(Required) Select a Workfront object type that is connected to a record type in Workfront Planning.</p>
-      You may select from the following object types:
-      <ul><li> Project</li>
-      <li> Portfolio</li><li> Program</li><li> Company</li><li> Group</li></ul>
-       <p>Only Workfront object types for the form's object types are available.</p> <p> For example, if the Object Types list at the top of the form designer shows Project, you can only select Project in this field, and you cannot select Portfolios, although portfolios can also be connected to record types.</p>
+      <td role="rowheader">Type d’objet</td> 
+      <td><p>(Obligatoire) Sélectionnez un type d’objet Workfront connecté à un type d’enregistrement dans Workfront Planning.</p>
+      Vous pouvez sélectionner l’un des types d’objet suivants :
+      <ul><li> Projet</li>
+      <li> Portfolio</li><li> Programme</li><li> Entreprise</li><li> Groupe</li></ul>
+       <p>Seuls les types d’objets Workfront pour les types d’objets du formulaire sont disponibles.</p> <p> Par exemple, si la liste Types d’objet située en haut du concepteur de formulaire affiche Projet, vous pouvez uniquement sélectionner Projet dans ce champ et vous ne pouvez pas sélectionner Portfolios, bien que les portefeuilles puissent également être connectés à des types d’enregistrement.</p>
       </td>
      </tr>
      <tr> 
-      <td role="rowheader">Workspace</td> 
-      <td> <p>(Required) Select the workspace where the records you want to display in Workfront come from in Workfront Planning.</p> <p> Only workspaces that are connected to the object types you selected in the I=Object type field display. </td> 
+      <td role="rowheader">Espace de travail</td> 
+      <td> <p>(Obligatoire) Sélectionnez l’espace de travail Planification d’où viennent les enregistrements que vous souhaitez afficher dans Workfront.</p> <p> Seuls les espaces de travail connectés aux types d’objets que vous avez sélectionnés dans le champ Type d’objet s’affichent. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Record Type</td> 
-      <td><p>(Required) Select the Workfornt Planning record type whose records are connected to the Workfront object associated with this form.</p><p>Only record types that have connections to the object type you selected in the Object type field display. </p></td> 
+      <td role="rowheader">Type d’enregistrement</td> 
+      <td><p>(Obligatoire) Sélectionnez le type d’enregistrement Workfront Planning associé au type d’objet Workfront.</p><p>Seuls les types d’enregistrement ayant des connexions au type d’objet que vous avez sélectionné dans le champ Type d’objet s’affichent. </p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Connection field</td> 
-      <td><p>(Required) Select the Workfront Planning connection field that displays the Workfront objects that are associated with this form.</p> <p> <b>NOTE</b></p><p>You can have multiple connection fields between the same object and record types.</p>  </td> 
+      <td role="rowheader">Champ de connexion</td> 
+      <td><p>(Obligatoire) Sélectionnez le champ de connexion entre le type d’enregistrement Planification sélectionné que vous souhaitez afficher sur les objets Workfront et le type d’objet Workfront. </p> <p> <b>NOTE</b></p><p>Vous pouvez avoir plusieurs champs de connexion entre le même objet et le même type d’enregistrement, mais vous ne pouvez sélectionner qu’un seul champ.</p>  </td> 
      </tr>
     </tbody> 
    </table>
 
-1. (Optional) Repeat the previous steps to add any other fields. 
+1. (Facultatif) Répétez les étapes précédentes pour ajouter d’autres champs.
 
-    or
+   ou
 
-    To copy a field, hover over a field, and click the copy icon.
+   Pour copier un champ, pointez dessus et cliquez sur l’icône de copie.
 
-    ![copy icon](assets/copy-field.png)
+   ![icône de copie](assets/copy-field.png)
 
-1. To save your changes, click **Apply** and move on to another section to continue building your form.
+1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
-    or
+   ou
 
-    Click **Save and Close**.
+   Cliquez sur **Enregistrer et fermer**.
 
-    You can now attach the form to an object connected from Workfront Planning and do one of the following:
+   Vous pouvez maintenant joindre le formulaire à un objet connecté à Workfront Planning et effectuer l’une des opérations suivantes :
 
-    * View Workfront Planning record types connected to the Workfront object
-    * Connect or disconnect records from the Workfront object associated with the form. 
+   * Affichez les types d’enregistrements de la planification Workfront connectés à l’objet Workfront, le cas échéant.
+   * Connectez ou déconnectez des enregistrements de l’objet Workfront.
 
-    For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+   Pour plus d’informations, voir [Gestion des connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
 
--->
+</div>
 
 ## Organiser et prévisualiser un formulaire avec le concepteur de formulaire
 

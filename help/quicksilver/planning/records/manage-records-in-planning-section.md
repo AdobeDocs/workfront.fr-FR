@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 11%
+source-wordcount: '1493'
+ht-degree: 9%
 
 ---
 
@@ -18,27 +18,16 @@ ht-degree: 11%
 
 # Gestion des connexions d’enregistrement à partir d’objets Workfront
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 {{planning-important-intro}}
 
-Vous pouvez afficher les enregistrements de planification Workfront associés aux objets Adobe Workfront dans la section Planification d’un objet Workfront, dans le panneau de gauche.
+Vous pouvez afficher les enregistrements de planification Workfront et leurs enregistrements respectifs connectés aux objets Adobe Workfront dans les zones suivantes de Workfront :
 
-<!--replace above with this: 
-
-You can display Workfront Planning records and their respective records connected to Adobe Workfront objects in the following areas in Workfront:
-
-* The Planning section of a Workfront object: Displays all record types connected to an object and their respective connected records. 
-* A Planning connection custom field: Displays one record type and its respective connected records .-->
-
-La section Planification est disponible pour les objets Workfront suivants :
-
-* Projet
-* Portfolio
-* Programme
-<!--* Group
-* Company-->
-
-<!--move the above to a lower place below when releasing Planning connection custom field-->
-
+* La section Planification d’un objet Workfront : affiche tous les types d’enregistrements connectés à un objet et leurs enregistrements connectés respectifs.
+* <span class="preview">Un champ personnalisé Planification de la connexion : affiche un type d’enregistrement et ses enregistrements connectés respectifs. </span>
 
 ## Conditions d’accès
 
@@ -102,13 +91,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader"><p>Autorisations d’objet</p></td>
    <td>
    <p>Dans Workfront, affichez ou autorisations supérieures à un projet, un portfolio ou un programme</a> </p> 
-   <p>Dans Workfront Planning, Contribute ou autorisations supérieures à un espace de travail</a> </p>  
+   <p>Dans la planification Workfront, consultez les autorisations d’un espace de travail pour afficher tout enregistrement connecté ou Contribute ou les autorisations supérieures à un espace de travail pour connecter ou déconnecter des enregistrements</a> </p>  
    <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail de planification Workfront, y compris ceux qu’ils n’ont pas créés.</p> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page comprenant la zone Planification du menu principal et la zone Planification des projets, portefeuilles et programmes. </p> Pour plus d’informations, consultez la <a href="/help/quicksilver/planning/access/access-overview.md">présentation de l’accès à Adobe Planning</a>. </p>  </p>  
+   <td> <p>Pour afficher la zone Planification ou la section Planification d’un objet Workfront, tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page comprenant la zone Planification du menu principal et la zone Planification des projets, portefeuilles et programmes. </p> Pour plus d’informations, consultez la <a href="/help/quicksilver/planning/access/access-overview.md">présentation de l’accès à Adobe Planning</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -121,8 +110,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Gestion des enregistrements dans la section Planification
 
 Vous pouvez utiliser la section Planification d’un objet Workfront pour afficher tous les types d’enregistrements et leurs enregistrements respectifs connectés à l’objet Workfront.
+La section Planification est disponible pour les objets Workfront suivants :
 
-<!--move the section above starting with "The Planning section is available ..." here-->
+* Projet
+* Portfolio
+* Programme
+<!--* Group
+* Company-->
 
 ### Points à prendre en compte concernant la section Planification des objets Workfront
 
@@ -165,7 +159,7 @@ La page de l’objet s’ouvre dans Workfront.
       * Nom de l’enregistrement
       * Miniature de l’enregistrement
       * Nom du champ d’enregistrement connecté tel qu’il s’affiche dans Workfront Planning.
-   * Les enregistrements s’affichent sous leur espace de travail respectif.
+   * Les enregistrements s’affichent sous leur espace de travail respectif et leur type d’enregistrement.
 
    ![](assets/planning-section-on-project.png)
 
@@ -186,82 +180,79 @@ Les événements suivants se produisent :
    * L’objet Workfront est ajouté au champ connecté de l’enregistrement Workfront Planning.
    * Les valeurs des champs de recherche Workfront connectés à l’enregistrement Planning sont renseignées dans Workfront Planning.
 
-<!--
+<div class="preview">
 
-## Manage records in the Planning connection field type
+## Gestion des enregistrements dans le type de champ Planning de connexion
 
-You can use a Planning connection custom field on a Workfront object to view one record type and its respective records connected to the Workfront object. 
+Vous pouvez utiliser un champ personnalisé Planification de la connexion sur un objet Workfront pour afficher un type d’enregistrement et ses enregistrements respectifs connectés à l’objet Workfront.
 
-You can control which Planning records display for the Workfront object when you create Planning connection custom fields. 
+Vous pouvez contrôler les types d’enregistrement Planning qui s’affichent pour l’objet Workfront lorsque vous créez des champs personnalisés de connexion Planning .
 
-* The Planning connection field can be populated with Planning records when it is attached to forms for the following Workfront objects:
+* Le champ Planification de la connexion affiche les enregistrements de planification une fois la connexion établie et lorsque le champ est joint aux formulaires pour les objets Workfront suivants :
 
-   * Project
+   * Projet
    * Portfolio
-   * Program
-   * Group
-   * Company
+   * Programme
+   * Groupe
+   * Entreprise
 
-For more information, see [Create a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
+Pour plus d’informations, voir [Création d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-### Considerations about the Planning connection field type
+### Observations relatives au type de champ Planning de connexion
 
-Consider the following when you view Workfront Planning records from a Planning connection field of a Workfront object: 
+Tenez compte de ce qui suit lorsque vous affichez des enregistrements de planification Workfront à partir d’un champ de connexion Planning d’un objet Workfront :
 
-* You can associate only one record type with one Planning connection field.
-* Your Workfront or group administrator must add a Planning connection field on a Workfront custom form.
-* You must attach the custom form to a Workfront object that can be connected from Workfront Planning, if you have the correct access.
-* Workfront Planning record types must first be connected to Workfront object types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
-* You can connect or disconnect records from the Planning connection field of a Workfront object only for objects that can have Workfront Planning connections.
-* You must have Contribute permissions for a workspace in Workfront Planning to be able to connect or disconnect records from the Planning connection field of a Workfront object.
-* You can view a Planning connection field for a Workfront object, even when there are no records connected to the object yet. 
-* You cannot edit a Planning connection field when editing Workfront objects in bulk. 
+* Vous ne pouvez associer qu&#39;un seul type d&#39;enregistrement à un champ de connexion Planning .
+* Si vous disposez d’un accès correct, vous devez joindre un formulaire personnalisé avec un champ personnalisé de connexion Planning à un objet Workfront qui peut être connecté à Workfront Planning.
+* Les types d’enregistrement de la planification Workfront doivent d’abord être connectés aux types d’objets Workfront. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Vous pouvez connecter ou déconnecter des enregistrements du champ Planification de la connexion d’un objet Workfront uniquement pour les objets qui peuvent avoir des connexions Workfront Planning.
+* Vous devez disposer des autorisations Contribute pour un espace de travail dans Workfront Planning pour pouvoir connecter ou déconnecter des enregistrements du champ Planification de la connexion d’un objet Workfront.
+* Vous ne pouvez pas modifier un champ de planification de la connexion lors de la modification en masse d’objets Workfront.
 
-### Manage record connections from the Planning connection field type
+### Gestion des connexions d’enregistrement à partir du type de champ Planification de la connexion
 
-1. Go to one of the following object types that has been connected with a Workfront Planning record type: 
+1. Accédez à l’un des types d’objets suivants qui a été connecté à un type d’enregistrement Workfront Planning :
 
-   * Project
+   * Projet
    * Portfolio
-   * Program
-   * Company
-   * Group
+   * Programme
+   * Entreprise
+   * Groupe
 
-1. Click **< Object > Details** in the left panel.
-1. (Conditional) Add a custom form with at least one Planning connection field for the object you selected, if one is not present. 
+1. Cliquez sur **&lt; Objet > Détails** dans le panneau de gauche.
+1. (Conditionnel) Ajoutez un formulaire personnalisé avec au moins un champ Planification de la connexion pour l’objet sélectionné, le cas échéant.
 
    >[!NOTE]
    >
-   >Your Workfront or group administrator must first create the form and add a Planning connection field on it before you can add it to an object. 
+   >L’administrateur de Workfront ou de groupe doit d’abord créer le formulaire et y ajouter un champ Planification de la connexion avant de pouvoir l’ajouter à un objet.
 
 
-1. Click inside the field to add connected records.
-1. Click the downward-pointing arrow inside the field, to select records from the list. 
+1. Cliquez dans le champ pour ajouter les enregistrements connectés, puis cliquez sur la flèche pointant vers le bas située à l&#39;intérieur du champ pour sélectionner des enregistrements dans la liste.
 
    ![](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
-   >   You cannot add records to Planning connection fields that are associated with Workfront objects other than the object you selected. 
+   >Vous ne pouvez pas ajouter d’enregistrements aux champs de connexion Planification associés à des objets Workfront autres que l’objet sélectionné lors de la configuration du champ.
    >
-   >For example, you cannot add records to a Planning connection field created for a Portfolio connection from a Project's custom form. 
+   >Par exemple, vous ne pouvez pas ajouter d’enregistrements à un champ de connexion Planification créé pour une connexion par Portfolio à partir du formulaire personnalisé d’un projet.
    >
-   >There is an indication that the object of the field and the object you selected don't match.  
+   >Il existe une indication que l’objet du champ et l’objet que vous avez sélectionné ne correspondent pas.
    >
    >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
 
-1. Click outside the list to close it. 
+1. Cliquez en dehors de la liste pour la fermer.
 
-   The following things occur:
+   Les événements suivants se produisent :
 
-   * The records are immediately connected to the Workfront object and they display in the Planning connection field as well as the Planning section of the Workfront object. 
-   * The Workfront object is added to the Workfront Planning record's connected field. 
-   * The values for the Workfront lookup fields connected to the Planning record are populated in Workfront Planning. 
-1. (Optional) Click the name of a record in the Planning connection field to open it in Workfront Planning. 
-   The record details tab opens in Workfront Planning. 
-   You can review information about the record, or navigate to the record type page. 
+   * Les enregistrements sont immédiatement connectés à l’objet Workfront et s’affichent dans le champ Connexion de planification , ainsi que dans la section Planification de l’objet Workfront.
+   * L’objet Workfront est ajouté au champ connecté de l’enregistrement Workfront Planning.
+   * Les valeurs des champs de recherche Workfront connectés à l’enregistrement Planning sont renseignées dans Workfront Planning.
+1. (Facultatif) Cliquez sur le nom d’un enregistrement dans le champ Planification de la connexion pour l’ouvrir dans Workfront Planning.
+L’onglet Détails de l’enregistrement s’ouvre dans la planification Workfront.
+Vous pouvez consulter les informations relatives à l’enregistrement ou accéder à la page du type d’enregistrement.
 
-1. (Optional) From the custom form in Workfront, click the **Remove** icon ![](assets/remove-icon.png) on a record to remove it from the Planning connection field and disconnect it from the Workfront object. 
-   The Workfront object is disconnected from the Planning record, and any lookup information from Workfront is removed from the record. 
+1. (Facultatif) Dans le formulaire personnalisé de Workfront, cliquez sur l’icône **Supprimer** ![](assets/remove-icon.png) sur un enregistrement pour le supprimer du champ Planification de la connexion et le déconnecter de l’objet Workfront.
+L’objet Workfront est déconnecté de l’enregistrement de planification et toutes les informations de recherche de Workfront sont supprimées de l’enregistrement.
 
--->
+</div>
