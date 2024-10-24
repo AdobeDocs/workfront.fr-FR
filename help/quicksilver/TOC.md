@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: e3e12718441c030c24a7a0625d3c1d1b63ddf974
+source-git-commit: 2b1a066bb769b46d50c45f087ccd668266b4639c
 workflow-type: tm+mt
-source-wordcount: '14518'
+source-wordcount: '14549'
 ht-degree: 94%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 94%
       * [Vue d’ensemble des versions de produit](product-announcements/product-releases/product-releases.md)
       * [Calendrier des versions d’Adobe Workfront et processus](product-announcements/product-releases/workfront-release-schedule.md)
       * [Préparation pour une version trimestrielle d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
+      * Version du 1er trimestre 2025 {#release-25-q1}
+         * [Vue d’ensemble de la version du 1er trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+         * [Mises à jour de l’apparence pendant la période de publication du 1er trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * Version du 4e trimestre 2024 {#release-24-q4}
          * [Vue d’ensemble de la version du 4e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [Améliorations des équipes d’administrations du 4e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
@@ -175,6 +178,7 @@ ht-degree: 94%
          * [21.1 Autres améliorations](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Activité Version d’Adobe Workfront Fusion {#fusion-release}
          * [Activité Version d’Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Activité Version de Workfront Fusion : semaine du mardi 21 octobre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
          * [Activité Version de Workfront Fusion : semaine du mardi 7 octobre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-7.md)
          * [Activité Version de Workfront Fusion : semaine du mardi 30 septembre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-30.md)
          * [Activité Version de Workfront Fusion : semaine du mardi 9 septembre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-9.md)
@@ -259,6 +263,7 @@ ht-degree: 94%
          * [Activité Version de Workfront Fusion : semaine du 21 septembre 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
       * Activité de mise à jour de la planification Adobe Workfront{#planning-release-activity}
          * [Activité de version Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Activité de mise à jour du premier trimestre 2025 pour Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Activité de mise à jour du quatrième trimestre 2024 pour la planification Adobe Workfront](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Activité Version du planificateur de scénario Adobe Workfront {#scenario-planner-release}
          * [Activité des versions du planificateur de scénarios Adobe Workfront](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
