@@ -6,20 +6,24 @@ description: Le bouton Terminé permet de définir automatiquement le statut d�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 99%
+source-wordcount: '775'
+ht-degree: 92%
 
 ---
 
 # Configurer le bouton [!UICONTROL Terminé] pour les tâches
 
-Le bouton [!UICONTROL Terminer] permet de définir automatiquement le statut d’une tâche ou d’un problème. Par défaut, [!UICONTROL Adobe Workfront] marque une tâche comme [!UICONTROL Terminé] lorsqu’une personne cessionnaire clique sur Terminé sur son élément de travail.
+Le bouton [!UICONTROL Terminer] permet de définir automatiquement le statut d’une tâche ou d’un problème. Par défaut, [!UICONTROL Adobe Workfront] marque une tâche comme [!UICONTROL Terminée] lorsqu’un cessionnaire clique sur Marquer comme fait sur son élément de travail.
+
+>[!NOTE]
+>
+>Le bouton Terminé s’affiche sous la forme Marquer comme prévu dans toutes les zones de Workfront.
 
 ## Vue d’ensemble
 
-Les personnes disposant de certaines autorisations peuvent configurer le bouton [!UICONTROL Terminé] pour refléter certains statuts dans le système. Le bouton [!UICONTROL Terminé] fonctionne de deux manières pour les tâches dans [!UICONTROL Workfront] :
+Les utilisateurs disposant de certaines autorisations peuvent configurer le bouton [!UICONTROL Terminé] pour l’associer à certains statuts du système. Le bouton [!UICONTROL Terminé] fonctionne de deux manières pour les tâches dans [!UICONTROL Workfront] :
 
 * Si l’utilisateur ou l’utilisatrice a une équipe principale d’affectée, un administrateur ou une administratrice [!DNL Workfront] ou un utilisateur ou une utilisatrice disposant d’une licence de [!UICONTROL plan] peut configurer le bouton [!UICONTROL Terminé] pour refléter certains statuts pour les membres de l’équipe. Voir [Configurer le bouton [!UICONTROL Terminé] pour une équipe](#configure-the-uicontrol-done-button-for-a-team) dans cet article.
 * Si l’utilisateur ou l’utilisatrice n’a pas d’[!UICONTROL équipe principale], mais dispose d’[!UICONTROL autres équipes] dans leur profil, Workfront recherche le paramètre du bouton [!UICONTROL Terminé] sur l’une des équipes associées à l’utilisateur ou l’utilisatrice. La sélection est aléatoire et le statut associé à l’une des équipes est utilisé pour la tâche.
@@ -98,7 +102,7 @@ Pour associer des utilisateurs et des utilisatrices à une équipe d’accueil 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront].
 
 1. Cliquez sur **[!UICONTROL Utilisateurs et utilisatrices]**, puis sélectionnez la ou les personnes que vous souhaitez associer à une équipe principale.
-1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.\
+1. Cliquez sur le menu **[!UICONTROL Plus]**, puis cliquez sur **[!UICONTROL Modifier]**.\
    ![](assets/user-settings-nwe-350x291.png)
 
 1. Dans la section **[!UICONTROL Organisation]**, sélectionnez le champ **[!UICONTROL Équipe principale]**. Commencez à taper le nom de l’équipe dont vous souhaitez associer les paramètres aux utilisateurs et utilisatrices. Cliquez sur le nom de l’équipe lorsque vous le voyez dans la liste.

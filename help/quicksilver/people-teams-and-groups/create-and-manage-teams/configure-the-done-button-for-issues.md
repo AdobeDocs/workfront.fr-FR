@@ -6,16 +6,20 @@ description: Le bouton Terminé permet de définir automatiquement le statut d�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 98%
+source-wordcount: '1183'
+ht-degree: 97%
 
 ---
 
 # Configurer le bouton [!UICONTROL Terminé] pour les problèmes
 
 Le bouton [!UICONTROL Terminer] permet de définir automatiquement le statut d’une tâche ou d’un problème. Par défaut, [!DNL Adobe Workfront] marque un problème comme [!UICONTROL Résolu] lorsqu’une personne cessionnaire clique sur [!UICONTROL Terminé] sur son élément de travail.
+
+>[!NOTE]
+>
+>Le bouton Terminé s’affiche sous la forme Marquer comme prévu dans toutes les zones de Workfront.
 
 ## Vue d’ensemble
 

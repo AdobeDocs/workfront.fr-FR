@@ -6,10 +6,10 @@ description: Vous pouvez consulter et ajouter des mises à jour à un élément 
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 53%
+source-wordcount: '678'
+ht-degree: 55%
 
 ---
 
@@ -69,9 +69,9 @@ Vous pouvez afficher les mises à jour de n’importe quel élément de travail 
 
 ## Ajouter un commentaire à un élément de travail
 
-Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans la Liste de [!UICONTROL travail] :
+Vous pouvez fournir des mises à jour à n’importe quel élément de travail dans la [!UICONTROL Liste de travail] :
 
-1. Cliquez sur le **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **[!UICONTROL Accueil]**.
+1. Cliquez sur le **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur le **Menu principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter l’un des widgets suivants :
 
    | Widget | Description |
@@ -100,9 +100,9 @@ Pour plus d&#39;informations sur l&#39;ajout de mises à jour, voir [Ajout d&#39
 
 ## Modifier un élément de travail
 
-Vous pouvez modifier n’importe quel champ de n’importe quel élément de travail que vous avez le droit de modifier.
+Vous pouvez modifier n’importe quel champ d’un élément de travail auquel vous avez accès en modification.
 
-1. Cliquez sur le **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur le **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur le **Menu principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter l’un des widgets suivants :
 
    | Widget | Description |

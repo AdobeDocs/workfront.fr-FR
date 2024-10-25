@@ -7,10 +7,10 @@ description: Vous pouvez utiliser des filtres dans Adobe Workfront pour réduir
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 100%
+source-wordcount: '1821'
+ht-degree: 99%
 
 ---
 
@@ -71,8 +71,8 @@ Pour plus d’informations sur les filtres dans les listes et les rapports, cons
 
 Vous pouvez utiliser des filtres intégrés ou créer des filtres personnalisés dans les zones suivantes de Workfront :
 
-<!--* Home   
-  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).-->
+* Page d’accueil\
+  Pour plus d’informations, voir [Affichage des éléments dans la liste de travail de la zone d’accueil](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * Zone Requêtes. Vous ne pouvez pas personnaliser les filtres dans la zone Requêtes.
 
   Pour plus d’informations, consultez [Localiser les requêtes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).

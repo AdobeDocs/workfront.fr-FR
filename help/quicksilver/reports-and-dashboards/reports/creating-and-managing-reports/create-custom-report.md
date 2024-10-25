@@ -6,17 +6,17 @@ description: Vous pouvez donner accès aux informations dont votre entreprise a 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
 source-wordcount: '1828'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 
 # Créer un rapport personnalisé
 
-<!--Audited: 12/2023-->
+<!--Audited: 10/2024-->
 
 Vous pouvez donner accès aux informations dont votre entreprise a besoin dans Adobe Workfront en créant des rapports. Vous pouvez utiliser n’importe lequel des rapports intégrés disponibles dans Workfront, ou vous pouvez créer vos propres rapports à partir de zéro.
 
@@ -126,7 +126,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Ou
 
-   Pour modifier une colonne existante, cliquez sur la colonne puis sur l’icône **Supprimer** ![](assets/x-icon-circled.png) à gauche du champ actuel dans la zone **Afficher dans le champ de cette colonne** dans le coin supérieur gauche du Report Builder, commencez à saisir un nouveau champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+   Pour modifier une colonne existante, cliquez sur la colonne, cliquez sur l’icône **Supprimer** ![](assets/remove-column-icon.png) située à droite du champ actif dans la zone **Afficher dans ce champ de colonne** située dans le coin supérieur gauche du créateur de rapports, puis commencez à saisir un nouveau champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    Pour plus d’informations sur les champs que vous voyez dans les colonnes, consultez la section [Glossaire de la terminologie d’Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -196,7 +196,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Commencez à créer un rapport comme décrit dans la section de cet article [Créer un rapport](#create-a-report).
 1. Dans le Report Builder, sélectionnez l’onglet **Regroupements** pour identifier la manière dont vous souhaitez regrouper les éléments dans le rapport.
-1. Cliquez sur **Ajouter un regroupement** pour ajouter un nouveau regroupement.
+1. Cliquez sur **Ajouter un groupement** pour ajouter un nouveau groupement.
 
    Ou
 
