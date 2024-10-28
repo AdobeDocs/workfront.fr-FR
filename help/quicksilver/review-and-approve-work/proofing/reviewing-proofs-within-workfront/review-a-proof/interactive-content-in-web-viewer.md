@@ -6,14 +6,19 @@ description: Nous vous recommandons de vérifier tout le contenu interactif à l
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: eeaf2f2cec65fae9e4b898ed43d8c9b781b29d9e
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 93%
 
 ---
 
 # Configurer la relecture de contenu interactif dans la visionneuse de relecture web
+
+>[!IMPORTANT]
+>
+>Il s’agit d’une extension de navigateur héritée qui n’est plus prise en charge. Nous vous recommandons d’installer la nouvelle extension de navigateur actuellement en version bêta : [outil de révision Adobe Workfront](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).
+
 
 Nous vous recommandons de vérifier tout le contenu interactif à l’aide de la visionneuse de relecture de bureau. Cependant, si les politiques de votre organisation l’empêchent, votre administrateur ou administratrice Workfront peut configurer votre système pour qu’il utilise la visionneuse de relecture web pour la relecture interactive. Pour des informations comparatives sur ces deux visionneuses, consultez [Vue d’ensemble des différences entre la visionneuse de relecture web et la visionneuse de relecture de bureau](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
@@ -47,5 +52,3 @@ La visionneuse de relecture web présente les limites suivantes :
 1. Dans la visionneuse de relecture web, cliquez sur **Recharger l’épreuve**.
 
 Lorsque l’extension est installée sur votre navigateur, la visionneuse de relecture prend une copie d’écran statique de votre contenu chaque fois que vous cliquez sur **Ajouter un commentaire**. Cette copie d’écran vous permet d’ajouter des commentaires avec des annotations.
-
- 
