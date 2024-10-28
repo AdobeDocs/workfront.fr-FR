@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '« Filtre : créer plusieurs règles de filtrage qui font référence au même champ (instructions AND) »'
+title: "Filtre : créer plusieurs règles de filtrage qui référencent le même champ (’instructions AND’)"
 description: Dans l’interface en mode standard, lorsque vous essayez de créer plusieurs filtres qui font référence au même champ (en utilisant le qualificateur AND), l’un des filtres est supprimé lorsque vous enregistrez le rapport et que vous quittez Report Builder.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '395'
+ht-degree: 89%
 
 ---
 
 # Filtre : créer plusieurs règles de filtrage qui font référence au même champ (instructions « AND »)
+
+<!--Audited: 10/2024-->
 
 Dans l’interface en mode standard, lorsque vous essayez de créer plusieurs filtres qui font référence au même champ (en utilisant le qualificateur AND), l’un des filtres est supprimé lorsque vous enregistrez le rapport et que vous quittez Report Builder.
 
@@ -27,6 +29,8 @@ Toutefois, vous pouvez créer ce filtre en mode texte.
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -34,36 +38,41 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Demande de modification d’un filtre </p>
-   <p>Prévoir de modifier un rapport</p> </td> 
+   <td> 
+    <p>Nouveau :</p>
+   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <li><p>Standard pour modifier un rapport</p></li> </ul>
+
+<p>Actuel :</p>
+   <ul><li><p>Demande de modification d’un filtre </p></li>
+   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, aux vues et aux regroupements pour modifier un filtre</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, aux vues et aux regroupements pour modifier un filtre</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Créer plusieurs règles de filtrage faisant référence au même champ
 
 1. Accédez à une liste de tâches.
-1. Cliquez sur le menu déroulant **Filtre** et sélectionnez **Nouveau filtre**.
-1. Cliquez sur **Basculer en mode texte**.
-1. Pointez sur la zone du mode texte et cliquez sur **Cliquez pour modifier le texte**.
-1. Dans la zone Définir les règles de filtrage de la zone Rapport, insérez le code suivant :
+1. Dans le menu déroulant **Filtre**, sélectionnez **Nouveau filtre**.
+1. Cliquez sur **Text Mode**.
+1. Dans la zone qui s&#39;affiche, ajoutez le code suivant :
 
    ```
    name=green
@@ -89,4 +98,4 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
    >   
    >Ces instructions respectent la casse.
 
-1. Cliquez sur **Terminé**, puis sur **Enregistrer le filtre**.
+1. Cliquez sur **Apply**, puis sur **Save as new**.
