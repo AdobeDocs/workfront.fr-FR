@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
+source-git-commit: bd1635dbcd9a49969b99901faf9e3a4744241001
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1335'
 ht-degree: 88%
 
 ---
@@ -160,13 +160,10 @@ Dans un formulaire personnalisé avec un saut de section configuré et l’autor
 
 1. (Facultatif) Pour positionner un champ ou un widget personnalisé au-dessus ou en dessous d’un autre, faites-le glisser au-dessus ou en dessous jusqu’à ce qu’une ligne bleue horizontale apparaisse entre les éléments.
 
-<div class="preview">
+1. Pour déplacer un champ personnalisé vers une autre section du formulaire, vous pouvez le faire glisser et le déposer sur place, <span class="preview"> ou cliquer sur l&#39;icône **Déplacer vers** du champ et sélectionner la section vers laquelle le déplacer.</span>
 
-1. Pour déplacer un champ personnalisé vers une autre section du formulaire, vous pouvez le faire glisser et le déposer sur place ou cliquer sur l’icône **Déplacer vers** du champ et sélectionner la section vers laquelle le déplacer.
-
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
    ![Déplacer un champ vers une section](assets/move-field-to-section.png)
-
-</div>
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer**.
 
