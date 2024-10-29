@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 93%
+source-wordcount: '1329'
+ht-degree: 88%
 
 ---
 
 # Organisation et prévisualisation d’un formulaire
+
+{{highlighted-preview}}
 
 Vous pouvez organiser un formulaire personnalisé avec le créateur de formulaires et le prévisualiser pour vérifier qu’il est correctement configuré.
 
@@ -157,6 +159,14 @@ Dans un formulaire personnalisé avec un saut de section configuré et l’autor
    >* Les champs personnalisés et les widgets peuvent ne pas toujours s’afficher de la même manière dans le formulaire, selon l’espace disponible lorsqu’une personne le visualise. Par exemple, le troisième champ d’une ligne de champs peut être renvoyé à la ligne suivante de champs si l’espace horizontal est limité.
 
 1. (Facultatif) Pour positionner un champ ou un widget personnalisé au-dessus ou en dessous d’un autre, faites-le glisser au-dessus ou en dessous jusqu’à ce qu’une ligne bleue horizontale apparaisse entre les éléments.
+
+<div class="preview">
+
+1. Pour déplacer un champ personnalisé vers une autre section du formulaire, vous pouvez le faire glisser et le déposer sur place ou cliquer sur l’icône **Déplacer vers** du champ et sélectionner la section vers laquelle le déplacer.
+
+   ![Déplacer un champ vers une section](assets/move-field-to-section.png)
+
+</div>
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer**.
 

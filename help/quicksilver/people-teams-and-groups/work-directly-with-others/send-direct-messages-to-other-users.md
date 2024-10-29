@@ -7,9 +7,9 @@ description: Adobe Workfront vous permet d’envoyer rapidement et facilement d
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 8dd932fe0203fb4a0391f1cbc2d6b8b58a87a00a
+source-git-commit: 019701abe441169f1f898df6b5cb1a6f743753f3
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 54%
 
 ---
@@ -82,6 +82,8 @@ Cette option n’est disponible que si vous disposez d’une licence Standard, P
 
 1. Sélectionnez le ou les utilisateurs auxquels vous souhaitez envoyer un message, puis cliquez sur [!UICONTROL **Envoyer la mise à jour à l’utilisateur**].
 1. Saisissez votre message dans la fenêtre [!UICONTROL Envoyer la mise à jour à l’utilisateur] .
+
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
 
    <span class="preview">![Message user sur la fenêtre Envoyer la mise à jour à l’utilisateur](assets/send-message-to-user-dialog-from-user-list.png)</span>
 
