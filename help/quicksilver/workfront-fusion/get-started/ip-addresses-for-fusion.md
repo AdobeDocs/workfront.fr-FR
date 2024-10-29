@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion nécessite une licence Adobe Workfront F
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
+source-git-commit: 2f1244d15ad7729941a35a1dc7ad9f1128d24404
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 70%
+source-wordcount: '353'
+ht-degree: 62%
 
 ---
 
@@ -23,7 +23,34 @@ ht-degree: 70%
 
 Si votre pare-feu ou serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter certaines adresses IP à sa liste autorisée afin d’autoriser une communication ouverte entre votre environnement et [!DNL Adobe Workfront Fusion].
 
-## Identifier votre centre de données
+Vous pouvez ajouter toutes les adresses IP et tous les domaines Fusion à votre liste autorisée ou vous pouvez localiser votre grappe Fusion et ajouter uniquement les adresses et domaines IP de la grappe.
+
+## Ajout de tous les domaines et adresses IP de fusion
+
+Ajoutez les adresses IP suivantes à votre liste autorisée :
+
+* 52.30.133.50
+* 54.220.93.204
+* 34.254.76.122
+* 54.244.142.219
+* 52.39.217.230
+* 44.241.82.96
+* 100.20.126.137
+* 34.223.32.4
+* 52.39.176.220
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
+
+En outre, si votre organisation utilise le filtrage réseau sortant, ajoutez le domaine suivant à votre liste autorisée pour permettre à votre système d’accéder à Workfront Fusion.
+
+* hook.app.workfrontfusion.com
+* hook.app-eu.workfrontfusion.com
+* hook.app-az.workfrontfusion.com
+
+## Ajout des adresses IP et des domaines Fusion pour votre grappe uniquement
+
+### Identifier votre centre de données
 
 Les adresses IP varient en fonction de l’emplacement de stockage de vos données.
 
@@ -43,7 +70,7 @@ Si vous accédez à Fusion via experience.adobe.com, vous pouvez vérifier l’o
 | Appels à `https://eu.fusion.adobe.com` | centre de données de l’UE |
 | Appels à `https://az.fusion.adobe.com` | centre de données Azure |
 
-## Adresses IP de Workfront Fusion
+### Ajout d’adresses IP et de domaines pour votre centre de données
 
 Ajoutez les adresses IP suivantes à votre liste autorisée pour permettre à [!DNL Workfront Fusion] d’accéder à votre système.
 
