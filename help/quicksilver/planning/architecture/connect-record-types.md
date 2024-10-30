@@ -6,17 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '2248'
-ht-degree: 42%
+source-wordcount: '2363'
+ht-degree: 41%
 
 ---
 
 
 # Connecter des types d’enregistrements
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -242,6 +245,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
      ![](assets/many-to-many-connection-picker.png)
 
      Pour plus d’informations sur les types de connexions, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+     >[!NOTE]
+     >
+     ><span class="preview"> Si vous sélectionnez Un à plusieurs ou Un à un pour le type Connexion et que vous souhaitez ensuite connecter un enregistrement ou un objet déjà connecté à un autre emplacement, vous recevrez un avertissement indiquant que la connexion à nouveau le supprimera de la connexion d’origine. Vous pouvez autoriser la suppression ou sélectionner un autre enregistrement.</span>
 
    * **Sélectionner les champs de recherche** : sélectionnez cette option pour ajouter les champs du type d’enregistrement sélectionné. Les champs de recherche sont des champs associés au type d’enregistrement ou d’objet vers lequel vous établissez un lien. Leur liaison affiche des informations sur l’enregistrement ou l’objet auquel vous créez un lien dans l’enregistrement à partir duquel vous créez un lien. Cette option est sélectionnée par défaut.
 

@@ -1,24 +1,28 @@
 ---
 title: Connexion d’enregistrements
-description: Après avoir créé des connexions entre les types d’enregistrement, vous pouvez connecter des enregistrements individuels les uns aux autres.
+description: Après avoir créé des connexions entre les types d’enregistrement, vous pouvez connecter des enregistrements individuels les uns aux autres. Vous pouvez afficher les informations d’un enregistrement sur un autre enregistrement lorsque vous les connectez.
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '2793'
-ht-degree: 49%
+source-wordcount: '2988'
+ht-degree: 45%
 
 ---
 
 
-# Connecter des enregistrements
+# Connect records
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
-Vous pouvez connecter des enregistrements d’Adobe Workfront Planning les uns aux autres ou aux objets d’autres applications.
+Vous pouvez connecter des enregistrements de planification Adobe Workfront les uns aux autres ou aux objets d’autres applications. Vous pouvez afficher les informations d’un enregistrement sur un autre enregistrement lorsque vous les connectez.
 
 Cet article décrit comment connecter des enregistrements. Pour plus d’informations sur la connexion des enregistrements, voir [Présentation des enregistrements connectés](/help/quicksilver/planning/records/connected-records-overview.md).
 
@@ -129,11 +133,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Prérequis pour la connexion des enregistrements
+## Considérations relatives à la connexion des enregistrements
 
-Pour connecter des enregistrements à d&#39;autres enregistrements ou objets, vous devez disposer des éléments suivants :
+* Pour connecter des enregistrements à d&#39;autres enregistrements ou objets, vous devez disposer des éléments suivants :
 
-* Au moins un espace de travail, un type d’enregistrement et un enregistrement
+   * Au moins un espace de travail, un type d’enregistrement et un enregistrement
 
   Pour plus d’informations, consultez les articles suivants :
 
@@ -141,7 +145,9 @@ Pour connecter des enregistrements à d&#39;autres enregistrements ou objets, vo
    * [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md)
    * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
 
-* Connexions entre types d’enregistrement ou entre types d’enregistrement et objets d’autres applications. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Connexions entre types d’enregistrement ou entre types d’enregistrement et objets d’autres applications. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+* Vous pouvez connecter un ou plusieurs enregistrements ou objets les uns par rapport aux autres. Cela dépend du type de connexion que vous avez sélectionné lors de la connexion des types d’enregistrement ou d’objet. Pour plus d’informations, reportez-vous à la section [Présentation des types d’enregistrement Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Connexion d’enregistrements à partir de Workfront Planning
 
@@ -172,9 +178,10 @@ Vous pouvez connecter des enregistrements à partir de Workfront Planning dans l
 
    >[!TIP]
    >
-   >    Si seule l’image de l’enregistrement a été sélectionnée pour s’afficher lorsque les types d’enregistrement ont été connectés, seule la miniature ou l’icône de l’enregistrement s’affiche dans le champ connecté. Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >Si seule l’image de l’enregistrement a été sélectionnée pour s’afficher lorsque les types d’enregistrement ont été connectés, seule la miniature ou l’icône de l’enregistrement s’affiche dans le champ connecté. Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >
 
-
+1. <span class="preview"> (Conditionnel) Si vous avez sélectionné Un à plusieurs ou Un à un pour le type Connexion lorsque vous avez connecté les types d’enregistrement et que vous essayez de connecter un enregistrement ou un objet déjà connecté ailleurs, vous recevrez un avertissement indiquant que le reconnecter le supprimera de la connexion d’origine. Cliquez sur **Se connecter** pour autoriser la suppression et connecter l&#39;enregistrement, ou sur **Annuler** pour revenir au champ et sélectionner un autre enregistrement.</span>
 1. (Facultatif) Si vous ne trouvez pas d’enregistrement ou d’objet à connecter et que vous souhaitez l’ajouter, cliquez sur **+ Ajouter** pour ajouter un nouvel enregistrement. Pour plus d’informations, reportez-vous à la section &quot;Créer des enregistrements lors de leur connexion&quot; dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]

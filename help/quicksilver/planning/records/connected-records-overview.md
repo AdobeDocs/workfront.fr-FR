@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 22a1525658f4ba60d638d5080f8c178fcf500441
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 30%
+source-wordcount: '558'
+ht-degree: 29%
 
 ---
 
@@ -43,7 +43,7 @@ Pour plus d’informations sur la connexion des enregistrements entre eux ou à 
 
 * Toute personne ayant accès à Workfront Planning et disposant d’autorisations d’affichage ou supérieures à l’espace de travail peut voir les connexions que vous effectuez entre des enregistrements ou entre des enregistrements et des objets d’autres applications. Elles peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations dans les applications auxquelles vous vous connectez.
 * Vous pouvez afficher et modifier les connexions de toutes les autres personnes, si vous disposez des autorisations de gestion sur l’espace de travail dans lequel se trouvent les enregistrements connectés.
-* Vous pouvez connecter un enregistrement à un ou plusieurs objets à partir d’une autre application. Pour plus d’informations, reportez-vous à la section &quot;Types de connexions&quot; de l’article [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+* Vous pouvez connecter un enregistrement à un ou plusieurs objets à partir d’une autre application, selon le type de connexion que vous avez sélectionné lors de la connexion des types d’enregistrement. Pour plus d’informations, reportez-vous à la section &quot;Types de connexions&quot; de l’article [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Zones où connecter les enregistrements
 

@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '« Regroupement : modifier le nom d’affichage dans un regroupement »'
+title: "Groupement : modifiez le nom d’affichage dans un groupement"
 description: Vous pouvez renommer les regroupements dans les listes et les rapports et leur donner un nom que vos utilisateurs et utilisatrices connaissent mieux.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 138181de2ad8257785773a5296bc5bcfc144a801
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '350'
+ht-degree: 77%
 
 ---
 
@@ -30,6 +30,8 @@ Vous pouvez modifier ce regroupement en mode texte pour afficher un nom plus fac
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -37,37 +39,34 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td>
+   <td> 
+    <p>Nouveau :</p>
+   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <li><p>Standard pour modifier un rapport</p></li> </ul>
 
-<p>Nouveau : </p>
-   <ul>
-   <li> <p>Personne contributrice pour modifier un regroupement </p></li>
-   <li><p>Standard pour modifier un rapport</p></li></ul>
-
-<p> Actuel :</p>
-   <ul>  
-   <li><p>Demander à modifier un regroupement </p></li>
-   <li><p>Prévoir de modifier un rapport</p></li> </td> 
+<p>Actuel :</p>
+   <ul><li><p>Demande de modification d’un filtre </p></li>
+   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, vues et regroupements pour modifier un regroupement</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, aux vues et aux regroupements pour modifier un filtre</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modifier le nom d’affichage dans un regroupement
 
@@ -76,7 +75,7 @@ Pour modifier le nom d’affichage dans un regroupement de projet, procédez com
 1. Accédez à une liste de projets.
 1. Dans le menu déroulant **Regroupement**, sélectionnez **Nouveau regroupement**.
 
-1. Cliquez sur **Ajouter un regroupement**, puis commencez à saisir « Nom du portfolio » dans le champ **D’abord par :** puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+1. Cliquez sur **Ajouter un groupement** et commencez à saisir &quot;Nom du Portfolio&quot; dans le champ **Group by:** , puis sélectionnez-le lorsqu&#39;il s&#39;affiche dans la liste.
 
 1. Cliquez sur **Basculer en mode texte**.
 1. Effectuez l’une des opérations suivantes :
@@ -87,7 +86,7 @@ Pour modifier le nom d’affichage dans un regroupement de projet, procédez com
      `group.0.displayname=Your Value`
 
 
-     Ou, dans ce cas, effectuez ce qui suit :
+     Par exemple, ajoutez le code suivant pour remplacer le nom d’affichage par &quot;Portfolio&quot; :
 
      `group.0.displayname=Portfolio`
 
@@ -95,7 +94,7 @@ Pour modifier le nom d’affichage dans un regroupement de projet, procédez com
 
      `group.0.name=Your Value`
 
-     Ou, dans ce cas, effectuez ce qui suit :
+     Par exemple, ajoutez le code suivant pour remplacer le nom d’affichage par &quot;Portfolio&quot; :
 
      `group.0.name=Portfolio`
 
@@ -107,5 +106,6 @@ Pour modifier le nom d’affichage dans un regroupement de projet, procédez com
      ![](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Cliquez sur **Terminé**, puis sur **Enregistrer le regroupement**.
+1. (Facultatif) Mettez à jour le nom du groupement, puis cliquez sur **Enregistrer le groupement**.
 
    Le nom par défaut du regroupement est modifié en fonction de vos informations de mode texte.
