@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: df5f37e741f5bd771f91383f9b782ffab8e6160f
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 14%
+source-wordcount: '601'
+ht-degree: 4%
 
 ---
 
@@ -34,13 +34,45 @@ Cet article décrit les fonctionnalités de la version 2025 du premier trimestre
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning après la mise à disposition de la version générale le 28 août 2024, voir [Activité de mise à jour d’Adobe Workfront Planning : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Les champs de connexion sont désormais pris en charge dans les formulaires de demande
+
+>[!NOTE]
+>
+>Aperçu de la version : 31 octobre 2024 ; Production pour une version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+
+Vous pouvez désormais ajouter des champs connectés pour les enregistrements de la planification Workfront à un formulaire de demande de type enregistrement.
+
+Vous ne pouvez pas ajouter de champs de recherche de connexion ni de champs connectés pour les objets Workfront dans le formulaire de requête.
+
+Avant cette amélioration, ces types de champs ne pouvaient pas être ajoutés aux formulaires de demande dans la planification Workfront.
+
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Avertissement de connexion lors de la connexion d&#39;enregistrements déjà liés à d&#39;autres enregistrements
+
+>[!NOTE]
+>
+>Aperçu de la version : 31 octobre 2024 ; Production pour une version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+
+Lorsque vous essayez de connecter des enregistrements déjà connectés ailleurs et qui appartiennent à un type d&#39;enregistrement connecté via un type de connexion Un à plusieurs ou Un à un, vous recevez maintenant un avertissement indiquant que les enregistrements sont déjà connectés. Si vous confirmez que vous souhaitez poursuivre la connexion, les enregistrements sélectionnés sont supprimés de l’enregistrement d’origine et ajoutés à l’enregistrement que vous êtes en train de modifier.
+
+Pour plus d’informations sur les types de connexions, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+## Nouvelle icône d’information avec la description des champs dans la page de détails de l’enregistrement.
+
+>[!NOTE]
+>
+>Aperçu de la version : 30 octobre 2024 ; Production pour une version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+
+Nous avons ajouté une icône d’information à droite des noms de champ dans une page d’enregistrement. Cliquez sur l’icône d’information pour afficher la description du champ, lorsqu’il existe une description. Avant cette amélioration, la description du champ s’affichait lorsque vous survoliez le nom du champ avec la souris.
+
+Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
+
 ## Nouveau type de champ Workfront pour la planification des connexions
 
 >[!NOTE]
 >
->Version de prévisualisation : vendredi 24 octobre 2024. Production pour version rapide : avec la version 24.11 (vendredi 14 novembre 2024). Production pour version trimestrielle : avec la version 25.1 (mercredi 16 janvier 2024).
-
-
+>Aperçu de la version : 24 octobre 2024 ; Production pour une version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Pour continuer à rapprocher les objets Workfront des enregistrements de planification Workfront, nous avons ajouté un nouveau type de champ dans les formulaires personnalisés Workfront appelé Connexion de planification. En ajoutant ce type de champ à un formulaire personnalisé Workfront et, en fin de compte, à un objet Workfront, vous pouvez effectuer les opérations suivantes :
 
@@ -55,4 +87,3 @@ La modification en masse des champs Planification de la connexion pour les objet
 Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 [Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3435633/){target=_blank}
-

@@ -4,9 +4,9 @@ description: Mises à jour de l’apparence pendant la période de publication d
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0736b1913a8b5a58c88da19fefd55558eb7014eb
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées au cours de la période de publication du premier trimestre 2025.
 
 Pour obtenir la liste de toutes les modifications disponibles avec la version du premier trimestre 2025, consultez la [présentation de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Mises à jour de la barre de navigation de Workfront
+
+>[!NOTE]
+>
+>Version de production pour tous les clients : avant la version 24.11 (14 novembre 2024)
+
+Nous avons mis à niveau la barre de navigation de Workfront pour améliorer ses performances. Les changements d’apparence sont minimes.
+
+La modification la plus visible est que les écrans déroulants Favoris et Récents ne comportent plus de bouton de fermeture. Vous pouvez simplement cliquer en dehors de l’écran ou appuyer sur la touche Échap de votre clavier pour le fermer.
 
 ## Mise à jour de l’apparence pour la fenêtre Envoyer la mise à jour à l’utilisateur
 
@@ -28,4 +38,3 @@ La fenêtre Envoyer la mise à jour à l’utilisateur a été mise à jour afin
 Les utilisateurs disposant d’une licence Standard, Plan ou Work peuvent utiliser cette fonctionnalité en accédant à la liste des utilisateurs, en sélectionnant un ou plusieurs utilisateurs et en cliquant sur **Envoyer la mise à jour à l’utilisateur**.
 
 Pour plus d’informations, voir [Envoyer des messages directs à d’autres utilisateurs](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md).
-

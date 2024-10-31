@@ -4,10 +4,10 @@ description: Améliorations de l’équipe d’aministration au premier trimestr
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0736b1913a8b5a58c88da19fefd55558eb7014eb
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 57%
+source-wordcount: '154'
+ht-degree: 43%
 
 ---
 
@@ -21,7 +21,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Version de prévisualisation : vendredi 24 octobre 2024. Production pour version rapide : avec la version 24.11 (vendredi 14 novembre 2024). Production pour version trimestrielle : avec la version 25.1 (mercredi 16 janvier 2024).
+>Aperçu de la version : 29 octobre 2024 ; Production pour une version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône &quot;déplacer vers&quot; a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.
 

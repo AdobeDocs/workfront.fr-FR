@@ -7,10 +7,10 @@ description: Les rapports offrent de la visibilité sur ce qui se passe concerna
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '3295'
-ht-degree: 99%
+source-wordcount: '3296'
+ht-degree: 98%
 
 ---
 
@@ -64,8 +64,7 @@ Pour améliorer vos rapports, vous pouvez ajouter les éléments suivants :
 
 Lors de la création d’un rapport, vous pouvez modifier individuellement chacun de ces éléments dans Report Builder.
 
-Une autre manière d’améliorer la pertinence des informations incluses dans vos rapports consiste à appliquer une mise en forme conditionnelle à vos vues.\
-Pour plus d’informations sur l’utilisation d’une mise en forme conditionnelle, consultez [Utilisation d’une mise en forme conditionnelle dans les vues](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Une autre manière d’améliorer la pertinence des informations incluses dans vos rapports consiste à appliquer une mise en forme conditionnelle à vos vues. Pour plus d’informations sur l’utilisation d’une mise en forme conditionnelle, consultez [Utilisation d’une mise en forme conditionnelle dans les vues](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Rapports système
 
@@ -81,17 +80,20 @@ En plus des rapports système fournis par Workfront, vous pouvez créer vos prop
 Pour créer un rapport, vous pouvez procéder selon l’une des manières suivantes :
 
 * Créez un rapport à partir de zéro.
-* Copiez un rapport existant.\
+* Copiez un rapport existant.
+
   Vous devez disposer au minimum de l’autorisation « Afficher » pour copier un rapport créé par une autre personne. Pour plus d’informations sur la copie d’un rapport, consultez [Créer une copie d’un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Pour plus d’informations sur la création de rapports, consultez [Vue d’ensemble des rapports de calendrier](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Pour plus d’informations sur la création de rapports, voir [Créer un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Conditions préalables à la création de rapports {#prerequisites-for-creating-reports}
 
-* Pour créer vos propres rapports, vous devez disposer d’une licence Plan (licences actuelles) ou d’une licence Standard (nouvelles licences).\
+* Pour créer vos propres rapports, vous devez disposer d’une licence Plan (licences actuelles) ou d’une licence Standard (nouvelles licences).
+
   Pour plus d’informations sur les types de licence Workfront, consultez [Vue d’ensemble des licences](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) pour les licences actuelles, et [Vue d’ensemble des nouvelles licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) pour les nouvelles licences.
 
-* Votre administrateur ou administratrice Workfront doit modifier votre niveau d’accès de façon à vous octroyer l’accès à l’option Modifier les rapports.\
+* Votre administrateur ou administratrice Workfront doit modifier votre niveau d’accès de façon à vous octroyer l’accès à l’option Modifier les rapports.
+
   Pour plus d’informations sur l’octroi de l’accès à l’option Modifier les rapports, consultez [Octroi de l’accès aux rapports, aux tableaux de bord et aux calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * L’équipe d’administration Workfront doit vous donner accès aux options Modifier des filtres, des vues et des regroupements de votre niveau d’accès.
@@ -109,7 +111,7 @@ Pour plus d’informations sur la copie de rapports, voir [Créer une copie d’
 
 Vous pouvez voir qui est la personne propriétaire d’un rapport en examinant le champ **Entré par**.
 
-![Champ Entré par](assets/nwe-entered-by-350x218.png)
+![Champ Entré par](assets/unshimmed-entered-by.png)
 
 ### Créer des rapports dans l’interface de création {#create-reports-in-the-builder-interface}
 
