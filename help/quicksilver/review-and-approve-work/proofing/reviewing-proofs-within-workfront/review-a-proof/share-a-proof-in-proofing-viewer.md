@@ -6,10 +6,10 @@ description: Vous pouvez partager une épreuve à partir de la visionneuse de re
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 100%
+source-wordcount: '1509'
+ht-degree: 98%
 
 ---
 
@@ -134,7 +134,7 @@ Si l’épreuve comporte un workflow automatisé, vous pouvez ajouter la personn
 Par défaut, les personnes que vous ajoutez à l’épreuve :
 
 * Reçoivent une notification par e-mail avec un lien vers l’épreuve.
-* Peuvent prendre des décisions d’approbation sur l’épreuve à partir de la zone Accueil ou Mon travail, comme décrit dans la section [Approuver le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+* Peut prendre des décisions d’approbation sur le BAT depuis la zone d’accueil, comme décrit dans la section [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 * Pour pouvoir relire l’épreuve, il n’est pas nécessaire d’activer la relecture.
 
 Lorsque le workflow automatisé est activé et que vous ajoutez une personne à l’épreuve qui n’a pas la relecture d’activée dans Workfront, une nouvelle étape est créée dans le workflow automatisé. La personne que vous ajoutez est automatiquement ajoutée à cette nouvelle étape lorsqu’elle consulte l’épreuve pour la première fois. Pour plus d’informations, voir [Vue d’ensemble des workflows automatisés](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).

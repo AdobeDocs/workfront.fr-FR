@@ -6,10 +6,10 @@ description: Les approbations de relecture s’affichent dans la zone Accueil un
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '284'
+ht-degree: 91%
 
 ---
 
@@ -52,26 +52,16 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 ## Afficher les approbations d’épreuve envoyées
 
-1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations** .
+1. (Conditionnel) Cliquez sur le menu déroulant **Filtre** , puis sélectionnez **Approbations que j&#39;ai envoyées** pour voir les approbations que vous avez envoyées.
 
-   >[!NOTE]
-   >
-   >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
-   >
-   >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur le **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
-
-1. Dans la zone **Liste de travail**, accédez au regroupement **Approbations que j’ai envoyées**.
-
-1. Cliquez sur une approbation d’**épreuve** dans la liste de travail.
-
-   L’approbation d’épreuve s’affiche alors à droite de la liste de travail.
+   ![](assets/proof-approval.png)
 
    >[!NOTE]
    >
    >Si vous soumettez une approbation à une personne invitée de relecture, l’approbation ne s’affiche pas sur la page d’accueil.
 
-   ![](assets/proof-approval-pending-home-nwe-350x230.png)
 
 1. (Facultatif) Cliquez sur **Accéder à l’épreuve** dans le coin supérieur droit du panneau de droite pour lancer la visionneuse de relecture.
 

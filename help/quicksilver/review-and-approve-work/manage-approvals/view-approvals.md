@@ -6,10 +6,10 @@ description: Les processus d’approbation offrent une flexibilité permettant d
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 85%
+source-wordcount: '796'
+ht-degree: 78%
 
 ---
 
@@ -62,9 +62,9 @@ Vous pouvez afficher ou gérer des approbations dans les zones suivantes :
 
 * Dans la zone Accueil
 
-   * Tous les projets, tâches, problèmes, feuilles de temps, documents et accès en attente de votre approbation s’affichent dans la zone Accueil lorsque vous sélectionnez l’option Tout afficher ou Validations.
-   * Les approbations que vous avez envoyées vous-même s’affichent également dans la zone Accueil, dans la section Approbations que j’ai envoyées de la Liste de travail. Pour plus d’informations, voir la section [Réviser le travail que vous soumettez pour approbation dans la zone Accueil](#review-work-you-submit-for-approval-in-the-home-area) dans cet article.
-   * Les approbations sont supprimées de la zone d’accueil lorsque le projet, la tâche ou le problème associé est marqué Résolu, En attente, Fermé ou Annulé.
+   * Tous les projets, tâches, problèmes, feuilles de temps, documents et accès en attente de votre approbation sont affichés dans le widget Mes approbations de la zone Accueil.
+   * Les approbations que vous avez vous-même soumises s’affichent également dans le widget Mes approbations de la zone Accueil lorsque vous sélectionnez l’option de filtre Approbations que j’ai envoyées . Pour plus d’informations, voir la section [Réviser le travail que vous soumettez pour approbation dans la zone Accueil](#review-work-you-submit-for-approval-in-the-home-area) dans cet article.
+   * Les approbations sont supprimées du widget Mes approbations dans la zone Accueil lorsque le projet, la tâche ou le problème associé est marqué Résolu, En attente, Fermé ou Annulé.
 
   Pour plus d’informations sur l’utilisation de la page d’accueil, voir [Commencer avec la page d’accueil](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
@@ -82,19 +82,10 @@ Vous pouvez afficher ou gérer des approbations dans les zones suivantes :
 
 ## Réviser le travail que vous soumettez pour approbation dans la zone Accueil. {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations** .
+1. (Conditionnel) Cliquez sur le menu déroulant **Filtre** , puis sélectionnez **Approbations que j&#39;ai envoyées** pour voir les approbations que vous avez envoyées.
 
-   >[!NOTE]
-   >
-   >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
-   >
-   >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur le **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
-
-1. Sélectionnez **Liste de travail**, puis cliquez sur le menu déroulant **Filtrer** et sélectionnez **Approbations**.
-1. Développez la section **Approbations que j’ai envoyées** et recherchez les approbations que vous avez envoyées.
-
-   ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
 ## Afficher le statut d’approbation d’un objet
 

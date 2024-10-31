@@ -6,7 +6,7 @@ description: Vous pouvez utiliser la zone [!UICONTROL Mes mises à jour] pour co
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 100%
@@ -146,8 +146,6 @@ Vous devez disposer des éléments suivants avant de commencer :
 1. (Facultatif) Cliquez sur **[!UICONTROL Ignorer]** pour supprimer la demande d’accès de votre liste d’approbation sans l’accorder.
 1. Cliquez sur **[!UICONTROL Déléguer mes approbations]** pour déléguer les approbations qui vous ont été soumises si vous n’êtes pas disponible pour prendre des décisions d’approbation pendant un certain temps. Pour plus d’informations sur la délégation d’approbations, voir [Déléguer une demande d’approbation](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 1. Faites défiler jusqu’à la zone **[!UICONTROL Mentions]** située sous vos approbations. Ici, vous pouvez voir tous les éléments dans lesquels vous avez été inclus dans une conversation.
-
-   ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
    >[!TIP]
    >

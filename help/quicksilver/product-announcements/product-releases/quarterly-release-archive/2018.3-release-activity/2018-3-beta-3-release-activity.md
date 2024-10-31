@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '557'
 ht-degree: 100%
 
 ---
@@ -49,8 +49,6 @@ Nous avons supprimé tous les balises bêta de la zone d’accueil. Tous les mod
 À l’aide de l’option de tri Ma priorité, vous pouvez désormais donner la priorité à tous les éléments de travail de votre liste de travail que vous considérez importants.
 
 Auparavant, vous pouviez hiérarchiser uniquement les tâches et les problèmes dans la zone Mon travail.
-
-Pour plus d’informations, voir [Hiérarchiser votre travail dans la zone d’accueil](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
 
 ## Mise à jour des rôles dans le profil d’utilisateur ou d’utilisatrice en tant qu’administrateur ou administratrice de groupes {#update-roles-in-the-user-profile-as-a-group-administrator}
 

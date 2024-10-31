@@ -6,10 +6,10 @@ description: Vous pouvez partager un document révisé dans Adobe Workfront en p
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 100%
+source-wordcount: '1231'
+ht-degree: 95%
 
 ---
 
@@ -172,6 +172,6 @@ Pour plus d’informations sur le rapport d’objet des approbations d’épreuv
 
 ## Approuver une épreuve partagée
 
-Lorsqu’un utilisateur ou une utilisatrice vous ajoute à une épreuve et vous attribue soit le rôle de personne chargée de l’approbation, soit le rôle de personne chargée de la révision et de l’approbation à l’aide du workflow automatisé, la demande d’approbation s’affiche dans l’onglet des approbations de votre zone d’accueil ou de votre zone Mon travail. Vous pouvez ensuite afficher l’épreuve et prendre une décision d’approbation sur l’épreuve directement à partir de Workfront.
+Lorsqu’un utilisateur vous ajoute à un BAT et accorde le rôle d’approbateur ou de réviseur et d’approbateur à l’aide d’un workflow automatisé, la demande d’approbation s’affiche dans le widget Mes approbations de la zone Accueil. Vous pouvez ensuite afficher l’épreuve et prendre une décision d’approbation sur l’épreuve directement à partir de Workfront.
 
-Pour plus d’informations sur la manière de prendre des décisions d’approbation à partir de la zone « Mon travail », consultez les sections [Approuver du travail à partir de la zone d’accueil](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) ou [Approuver du travail](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) dans [Approuver du travail](../../../review-and-approve-work/manage-approvals/approving-work.md).
+Pour plus d’informations sur la manière de prendre des décisions d’approbation à partir du widget Mes approbations, voir [Approuver le travail à partir de la zone d’accueil](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) ou [Approbation du travail](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) dans [Approbation du travail](../../../review-and-approve-work/manage-approvals/approving-work.md).

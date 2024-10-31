@@ -6,16 +6,16 @@ description: La délégation des demandes d’approbation vous permet de confier
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 97%
+source-wordcount: '1194'
+ht-degree: 83%
 
 ---
 
 # Déléguer une demande d’approbation
 
-Vous pouvez déléguer temporairement le travail qui vous est confié pendant que vous n’êtes pas au bureau. Vous pouvez déléguer l’affectation des tâches et des problèmes ou les demandes d’approbation. Cet article décrit comment déléguer des demandes d’approbation. Pour plus d’informations sur la délégation des tâches et des affectations de problèmes, voir [Délégation de tâches et de problèmes](../../manage-work/delegate-work/how-to-delegate-work.md).
+Vous pouvez déléguer temporairement le travail qui vous est confié pendant que vous n’êtes pas au bureau. Vous pouvez déléguer des tâches et des affectations d’émission, ou déléguer des demandes d’approbation. Cet article décrit comment déléguer des demandes d’approbation. Pour plus d’informations sur la délégation des tâches et des affectations de problèmes, voir [Délégation de tâches et de problèmes](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 Vous pouvez déléguer les types d’approbations suivants, quelle que soit la manière dont l’approbation vous a été affectée (directement, à une équipe dont vous êtes membre ou à votre fonction) :
 
@@ -81,11 +81,7 @@ Après l’arrêt ou l’annulation de la délégation d’approbation, la perso
 * continue d’avoir un accès en affichage aux éléments de travail.\
   Les personnes qui ont reçu un accès en affichage à des objets par le biais d’une délégation d’approbation conservent cet accès en affichage, même après l’arrêt ou l’annulation de la délégation d’approbation. Pour supprimer l’accès en affichage à tous les objets auxquels la personne avait accès pendant la période de délégation des approbations, vous devez accéder à l’objet et supprimer les droits d’accès directement au niveau de l’objet.
 
-## Déléguer des demandes d’approbation dans la zone Accueil
-
-Vous pouvez déléguer des demandes de validation depuis la zone Accueil .
-
-### Déléguer vos approbations à une autre personne {#delegate-your-approvals-to-another-user}
+## Déléguer vos approbations à une autre personne {#delegate-your-approvals-to-another-user}
 
 Vous pouvez déléguer les types d’approbations suivants, quelle que soit la manière dont l’approbation vous a été affectée (directement, à une équipe dont vous êtes membre ou à votre fonction) :
 
@@ -103,61 +99,60 @@ Tenez compte des éléments suivants lorsque vous déléguez des approbations :
 * Au maximum 5 personnes peuvent déléguer des approbations à une même personne en même temps. Ainsi, une même personne ne peut pas être désignée comme approbatrice temporaire pour plus de 5 personnes en même temps.
 * L’activité relative aux approbations s’affiche dans l’onglet Mises à jour. L’option Afficher les mises à jour système doit être activée. La personne qui délègue l’approbation et la personne à laquelle les approbations sont déléguées reçoivent toutes deux une notification par e-mail concernant l’activité d’approbation.
 
+### Déléguer les validations depuis la zone d’accueil
+
+
 Pour déléguer des approbations à une autre personne, procédez comme suit :
 
-1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations** .
+1. Accédez au widget Mes approbations , puis cliquez sur **Déléguer mes approbations**.
 
    >[!NOTE]
    >
-   >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
-   >
-   >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur le **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
+   >Les administrateurs de Workfront peuvent désactiver les délégations d’approbation dans la zone de configuration. Si les délégations de validation sont désactivées, le bouton Déléguer les validations ne s’affiche pas.
 
-   Ou
-
-   Cliquez sur l’icône **Menu principal** > **votre nom** > **Congés** dans le panneau de gauche.
-
-1. (Facultatif et le cas échéant) Dans la zone Accueil, cliquez sur le menu déroulant **Filtre**, puis sur **Approbations**.
-
-1. (Le cas échéant) Cliquez sur **Déléguer mes approbations**.
-
-   Ou
-
-   Si votre administrateur ou administratrice système ou de groupe a activé la délégation des tâches et des problèmes, cliquez sur **Déléguer**, puis sur **Déléguer les approbations**.
-
-   ![](assets/delegate-approvals-nwe.png)
+   ![](assets/delegate-approvals-home.png)
 
 1. Spécifiez les informations suivantes dans la section Déléguer mes approbations :
 
    * **Nom** : commencez à saisir le nom de la personne à laquelle vous souhaitez déléguer des approbations, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
    * **Date de début** : sélectionnez la date à laquelle les approbations doivent commencer à être transférées. Le transfert des approbations commence à 00 h 00 à la date que vous avez choisie.\
      La date de début doit être la date actuelle ou une date dans le futur.
-   * **Date de fin** - Effectuez l’une des opérations suivantes :
-
+   * **Date de fin** : effectuez l’une des opérations suivantes :
       * Sélectionnez la date à laquelle les approbations cesseront d’être transférées. Le transfert prend fin à 23 h 59 à la date que vous avez choisie.
       * Sélectionnez **Aucune date de fin** pour que Workfront délègue les approbations pour une durée indéfinie.
 
 1. Cliquer sur **Enregistrer**.
 
-### Mettre à jour ou arrêter une délégation d’approbation {#update-or-stop-an-approval-delegation}
+### Délégation des approbations à partir de votre profil utilisateur
 
-1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur l’icône **Menu principal** > **votre nom** > **Congés** dans le panneau de gauche.
+1. Cliquez sur **Déléguer les approbations**.
 
    >[!NOTE]
    >
-   >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
-   >
-   >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur le **menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
+   >Les administrateurs de Workfront peuvent désactiver les délégations d’approbation dans la zone de configuration. Si les délégations de validation sont désactivées, le bouton Déléguer les validations ne s’affiche pas.
+1. Spécifiez les informations suivantes dans la section Déléguer mes approbations :
 
-1. Cliquez sur le menu déroulant **Filtre**, puis sur **Approbations**.
+   * **Nom** : commencez à saisir le nom de la personne à laquelle vous souhaitez déléguer des approbations, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
+   * **Date de début** : sélectionnez la date à laquelle les approbations doivent commencer à être transférées. Le transfert des approbations commence à 00 h 00 à la date que vous avez choisie.\
+     La date de début doit être la date actuelle ou une date dans le futur.
+   * **Date de fin** : effectuez l’une des opérations suivantes :
+      * Sélectionnez la date à laquelle les approbations cesseront d’être transférées. Le transfert prend fin à 23 h 59 à la date que vous avez choisie.
+      * Sélectionnez **Aucune date de fin** pour que Workfront délègue les approbations pour une durée indéfinie.
 
-1. (Le cas échéant) Cliquez sur **Modifier la délégation**.
+## Mettre à jour ou arrêter une délégation d’approbation {#update-or-stop-an-approval-delegation}
 
-   Ou
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations** .
 
-   Si l’administrateur ou l’administratrice système ou de groupe a activé la délégation des tâches et des problèmes, cliquez sur **Modifier la délégation**, puis sur **Déléguer les approbations**.
+1. Accédez au widget Mes approbations , puis cliquez sur **Modifier la délégation**.
+   ![](assets/edit-delegations.png)
+<!--
+   Or
+
+   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.   -->
 
 1. (Le cas échéant) Effectuez l’une des opérations suivantes :
 
@@ -165,11 +160,9 @@ Pour déléguer des approbations à une autre personne, procédez comme suit :
 
    * Pour arrêter la délégation existante : cliquez sur **Arrêter la délégation**, puis sur **Arrêter la délégation** pour confirmer l’opération.
 
-     ![](assets/stop-delegation-nwe.png)
+## Afficher les approbations déléguées {#view-delegated-approvals}
 
-### Afficher les approbations déléguées {#view-delegated-approvals}
-
-Seuls les types de délégations d’approbation suivants peuvent être affichés dans la liste de travail :
+Vous ne pouvez afficher que les types de délégations d’approbation suivants dans le widget Mes approbations :
 
 * Approbations de projets
 * Approbations de tâches
@@ -177,16 +170,7 @@ Seuls les types de délégations d’approbation suivants peuvent être affiché
 
 Pour consulter les approbations déléguées :
 
-1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
-
-   >[!NOTE]
-   >
-   >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
-   >
-   >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur le **menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
-
-1. Cliquez sur le menu déroulant **Filtrer**, puis sur **Approbations**.\
-   Par défaut, toutes les approbations s’affichent dans la liste, y compris les approbations qui vous sont attribuées et celles qui vous sont déléguées.
-
-   ![](assets/delegated-to-me-nwe-350x93.png)
+1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations** .
+1. Dans le widget **Mes approbations**, cliquez sur le menu déroulant **Filtre**, puis sur **Approbations déléguées**.\
+   Toutes les validations déléguées s&#39;affichent dans la liste.
