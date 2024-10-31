@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: 8f8a5aea1eeecff76150b87a6e7fe38b21f7d033
+source-git-commit: 7b67358ec1d665fe2012d2c0156db3b928c48ae5
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
@@ -105,9 +105,9 @@ Pour plus d’informations, consultez les ressources suivantes :
 
 Cliquez sur les liens suivants pour télécharger des certificats client.
 
-* [Certificat client - Environnement de production](assets/prod-environment-nov-2024.crt)
-* [Certificat client - Environnement de prévisualisation](assets/preview-environment-nov-2024.crt)
-* [Certificat client - Environnement de sandbox](assets/sandbox-environment-nov-2024.crt)
+* [Certificat client - Environnement de production](assets/event_subscription_nov_2023_production.crt)
+* [Certificat client - Environnement de prévisualisation](assets/event_subscription_nov_2023_preview.crt)
+* [Certificat client - Environnement de sandbox](assets/event_subscription_nov_2023_sandboxes.crt)
 
 >[!NOTE]
 >
