@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1375'
 ht-degree: 15%
 
 ---
@@ -16,11 +16,12 @@ ht-degree: 15%
 # Création et gestion d’un formulaire de requête dans Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -139,33 +140,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
      >[!IMPORTANT]
      >
-     >   Les champs des types suivants ne s’affichent pas dans le formulaire de requête :
+     > Selon l’environnement utilisé pour créer un formulaire de requête, les scénarios suivants existent :
+     >
+     >* Les champs des types suivants ne s’affichent pas dans le formulaire de requête <span class="preview"> dans les environnements Aperçu </span> ou Production :
      >
      >    * Personnes (y compris Créé par et Dernière modification par)
-     >    * Champs connectés (y compris les connexions avec Workfront et les ressources Experience Manager)
-     >    * Champs de recherche connectés
      >    * Formule
      >    * Date de création
      >    * Date de dernière modification
+     >    * Champs associés ou champs de recherche des objets Workfront
+     >    * Champs de recherche connectés des enregistrements de planification Workfront
+     >* Les champs des types suivants ne s’affichent pas dans le formulaire de demande dans l’environnement Production. <span class="preview">Ils s’affichent dans l’environnement Aperçu :</span>
+     >    * <span class="preview"> Champs connectés des enregistrements de planification Workfront (y compris les connexions avec Workfront et les ressources Experience Manager)</span>
 
-     <!--replace the above with this: 
-
-            >[!IMPORTANT]
-            >
-            > Depending on what environment you use to create a request form, the following scenarios exist:
-            >
-            >* Fields of the following types do not display in the request form in the Preview or Production environments: 
-            >
-            >    * People (includes Created by and Last modified by)
-            >    * Formula
-            >    * Created date
-            >    * Last modified date
-            >    * Workfront object connected fields
-            >    * Workfront objects connected lookup fields
-            >* <span class="preview">Fields of the following types do not display in the request form in the Production environment. They display in the Preview environment:</span>
-            >    * <span class="preview">Planning records' connected fields (includes connections with Workfront, and Experience Manager assets)</span>
-            >    * <span class="preview">Planning records' connected lookup fields</span>
-      -->
 
    * **Section par défaut** : il s’agit du saut de section par défaut appliqué par Workfront au formulaire de demande. La section Par défaut ne peut pas être renommée ni supprimée.
    * **Objet** : champ qui identifie la demande dans Workfront. Cette fonctionnalité n’est pas encore disponible. La configuration et la valeur du champ Objet ne sont pas modifiables.
