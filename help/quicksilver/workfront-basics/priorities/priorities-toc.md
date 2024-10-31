@@ -5,10 +5,10 @@ description: Passez en revue ces zones pour mieux comprendre la zone Priorités 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: b27df0431a958774b0933b8c7ea967cf34153fad
+source-git-commit: f6cd525e061ef3e33d8c8b000596aa15897b62f5
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 10%
 
 Cette section contient les sous-sections suivantes :
 
+* [Priorités : Versions à venir](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [Prise en main des priorités](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [Filtrage et regroupement de vos travaux en priorités](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [Personnalisation des colonnes de la liste de travail des priorités](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
