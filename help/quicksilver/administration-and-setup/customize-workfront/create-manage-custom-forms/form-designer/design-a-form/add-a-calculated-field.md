@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
+source-git-commit: 81b003607634f39fbe2dd0ad076f88ce86d275cb
 workflow-type: tm+mt
-source-wordcount: '2353'
-ht-degree: 96%
+source-wordcount: '2403'
+ht-degree: 92%
 
 ---
 
@@ -23,20 +23,35 @@ Un champ personnalisé calculé peut contenir :
 
 * Une référence simple à un seul champ intégré.
 
-  >[!INFO]
-  >
-  > **Exemple :** pour calculer le revenu généré par les projets et les tâches, vous pouvez créer un champ personnalisé calculé qui contient le champ intégré Revenus réels. Lorsqu’une personne joint le formulaire personnalisé à un projet ou à une tâche, le revenu du projet ou de la tâche s’affiche dans le champ.
+<div style="padding-left: 2em">
+
+>[!BEGINSHADEBOX]
+
+**Exemple :** Pour calculer les recettes générées par les projets et les tâches, vous pouvez créer un champ personnalisé calculé qui contient le champ intégré Recettes réelles. Lorsqu’une personne joint le formulaire personnalisé à un projet ou à une tâche, le revenu du projet ou de la tâche s’affiche dans le champ.
+
+>[!ENDSHADEBOX]
+
+</div>
 
 * Une expression qui fait référence à un ou plusieurs champs. Il peut s’agir de champs personnalisés, d’autres champs personnalisés calculés et de champs intégrés.
 
-  >[!INFO]
-  >
-  >**Exemple :** pour calculer le profit généré par les projets et les tâches, vous pouvez créer un champ personnalisé calculé appelé Profit contenant une expression mathématique qui soustrait le coût au revenu.
-  >
-  >Pour ce faire, vous pouvez utiliser l’expression mathématique SUB (soustraire) avec les champs Workfront intégrés Coût réel et Revenus réels.
-  >
-  >Dans les étapes ci-dessous, vous découvrirez comment suivre cet exemple.
+<div style="padding-left: 2em">
 
+>[!BEGINSHADEBOX]
+
+**Exemple :** pour calculer le profit généré par les projets et les tâches, vous pouvez créer un champ personnalisé calculé appelé Profit contenant une expression mathématique qui soustrait le coût au revenu.
+
+Pour ce faire, vous pouvez utiliser l’expression mathématique SUB (soustraire) avec les champs Workfront intégrés Coût réel et Revenus réels.
+
+Dans les étapes ci-dessous, vous pouvez voir comment créer une expression comme dans cet exemple.
+
+>[!ENDSHADEBOX]
+
+</div>
+
+>[!NOTE]
+>
+>Les modifications apportées à un champ direct déclenchent automatiquement une mise à jour de la valeur du champ calculé. (Les champs directs sont des champs disponibles dans l’explorateur d’API Workfront ou des champs personnalisés dans un formulaire personnalisé associé à un objet.) Les modifications apportées à une référence ou à une formule nécessitent un recalcul manuel des valeurs des champs.
 
 ## Conditions d’accès
 
