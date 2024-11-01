@@ -4,9 +4,9 @@ description: Mises à jour de l’apparence pendant la période de publication d
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,10 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version du
 
 Nous avons mis à niveau la barre de navigation de Workfront pour améliorer ses performances. Les changements d’apparence sont minimes.
 
-La modification la plus visible est que les écrans déroulants Favoris et Récents ne comportent plus de bouton de fermeture. Vous pouvez simplement cliquer en dehors de l’écran ou appuyer sur la touche Échap de votre clavier pour le fermer.
+Les modifications les plus visibles sont les suivantes :
+
+* Les écrans déroulants Favoris et Récents ne comportent plus de bouton de fermeture. Vous pouvez simplement cliquer en dehors de l’écran ou appuyer sur la touche Échap de votre clavier pour le fermer.
+* Vous ne pouvez plus faire glisser et déposer des pages épinglées pour les organiser. Il existe plutôt un menu déroulant avec des boutons permettant de déplacer les pages épinglées.
 
 ## Mise à jour de l’apparence pour la fenêtre Envoyer la mise à jour à l’utilisateur
 

@@ -4,10 +4,10 @@ description: Améliorations apportées à la page d’accueil (quatrième trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 17%
+source-wordcount: '460'
+ht-degree: 16%
 
 ---
 
@@ -57,10 +57,16 @@ Pour plus d’informations, voir [Prise en main des priorités](/help/quicksilve
 
 Nous abandonnerons officiellement l’expérience héritée d’accueil avec la version 24.10.
 
-Grâce à cette modification, les zones suivantes du modèle de mise en page seront renommées :
+Grâce à cette modification, les zones suivantes seront affectées :
+
+**Modèles de mise en page**
 
 * La zone _Home workspace_ sera renommée _Home_.
 * La zone _Accueil et résumé_ sera renommée _Panneau récapitulatif_. Les personnalisations dans cette zone s’appliqueront toujours au panneau Résumé dans la nouvelle page d’accueil. Pour plus d’informations, voir [Personnaliser l’accueil et le résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+**Gérer les approbations**
+
+* Vous ne pourrez plus rappeler, rappeler ou supprimer les utilisateurs des validations envoyées dans la zone d’accueil. Vous pouvez plutôt gérer cela sur l’approbation elle-même.
 
 Nous vous recommandons de commencer à utiliser la nouvelle page d’accueil, qui continuera à être enrichie de fonctionnalités supplémentaires avant l’obsolescence. Pour plus d’informations sur la transition, y compris des conseils sur ce que les utilisateurs et les administrateurs peuvent faire pour se préparer, consultez le [Guide d’obsolescence de la page d’accueil héritée](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
 
