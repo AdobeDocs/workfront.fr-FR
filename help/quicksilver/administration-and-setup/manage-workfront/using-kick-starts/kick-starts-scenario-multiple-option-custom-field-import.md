@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 7512f3e79b3a6af4917cebf631c3f8405baafa2b
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 94%
+source-wordcount: '2184'
+ht-degree: 93%
 
 ---
 
@@ -90,7 +90,7 @@ Pour exporter des données existantes à partir de Workfront :
 
 1. Sélectionnez **Données personnalisées** dans la section **Éléments à inclure**.
 
-   Exemple d’image dans l’environnement de prévisualisation :
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
    ![Sélectionner des données personnalisées](assets/kickstarts-select-existing-data.png)
 
    Exemple d’image dans l’environnement de production :
@@ -130,10 +130,11 @@ Après avoir analysé les informations sur les champs personnalisés existants d
 
 1. Dans la zone **Télécharger une feuille de calcul de démarrage rapide vide**, cochez la case **Données personnalisées** et cliquez sur **Télécharger**.
 
-   Exemple d’image dans l’environnement de prévisualisation :
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
    ![Sélectionner des données personnalisées](assets/kickstarts-select-existing-data.png)
 
-   ![](assets/blank-custom-data-option-checked-kick-starts.png)
+   Exemple d’image dans l’environnement de production :
+   ![Sélectionner des données personnalisées](assets/blank-custom-data-option-checked-kick-starts.png)
 
    Un fichier de lancement vierge est téléchargé sur votre ordinateur.
 
@@ -143,7 +144,7 @@ Après avoir analysé les informations sur les champs personnalisés existants d
 
 ## Renseigner la feuille de calcul Excel de lancement
 
-Avant de remplir la feuille de calcul Excel, téléchargez le modèle de lancement comme décrit dans la section ci-dessus.
+Avant de remplir la feuille de calcul Excel, téléchargez le modèle de démarrage rapide comme décrit dans la section ci-dessus.
 
 >[!IMPORTANT]
 >
@@ -182,7 +183,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
      >[!TIP]
      >
-     >    Si une ligne représente un champ existant déjà dans Workfront, vous devez saisir **`isNew`** = **`FALSE`**.
+     >Si une ligne représente un champ existant déjà dans Workfront, vous devez saisir **`isNew`** = **`FALSE`**.
 
    * **`ID`** = doit être un nombre unique pour chaque ligne qui représente un nouveau champ. Vous pouvez utiliser n’importe quel nombre commençant par 1, à condition que chaque nouveau champ ait un numéro unique.
    * **`setDataType`** = pour chaque ligne représentant un nouveau champ, saisissez le type de données pris en charge par le champ. Le type de données doit être renseigné tel qu’il apparaîtrait dans la base de données. Sélectionnez l’un des types de données suivants :
