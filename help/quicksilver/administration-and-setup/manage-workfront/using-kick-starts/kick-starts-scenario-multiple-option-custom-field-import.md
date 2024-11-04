@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 97%
+source-wordcount: '2175'
+ht-degree: 94%
 
 ---
 
 # Scénario de lancement : importer des champs personnalisés à plusieurs options dans Workfront
+
+{{highlighted-preview}}
 
 Vous pouvez importer des champs personnalisés avec plusieurs options dans Adobe Workfront à l’aide de la fonctionnalité de lancement.
 
@@ -86,23 +88,23 @@ Pour exporter des données existantes à partir de Workfront :
 
 1. Développez **System** dans le menu de gauche, puis cliquez sur **Export Data (Kick-Starts)**.
 
-   ![](assets/export-data-kick-starts-link-in-setup.png)
-
 1. Sélectionnez **Données personnalisées** dans la section **Éléments à inclure**.
 
-   ![](assets/existing-custom-data-box-checked-kick-starts.png)
+   Exemple d’image dans l’environnement de prévisualisation :
+   ![Sélectionner des données personnalisées](assets/kickstarts-select-existing-data.png)
+
+   Exemple d’image dans l’environnement de production :
+   ![Sélectionner des données personnalisées](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. Choisissez **fichier .xlsx** dans la section **Format de téléchargement**.
 
    >[!TIP]
    >
-   >    Selon le volume de données personnalisées de votre système, cette opération peut prendre un certain temps.
-
-   ![](assets/download-button-for-kick-starts.png)
+   >Selon le volume de données personnalisées de votre système, cette opération peut prendre un certain temps.
 
 1. Cliquez sur **Télécharger**. Un fichier .xlsx est téléchargé sur votre ordinateur. Accédez-y et ouvrez-le.
 
-   ![](assets/existing-data-excel-parameter-sheet.png)
+   ![Données exportées dans Excel](assets/existing-data-excel-parameter-sheet.png)
 
 1. Examinez le fichier téléchargé et notez les détails suivants :
 
@@ -126,9 +128,10 @@ Après avoir analysé les informations sur les champs personnalisés existants d
 
 1. Cliquez sur **Importer des données (lancement)**.
 
-   ![](assets/import-data-kick-starts-link-in-setup.png)
+1. Dans la zone **Télécharger une feuille de calcul de démarrage rapide vide**, cochez la case **Données personnalisées** et cliquez sur **Télécharger**.
 
-1. Dans la zone **Télécharger une feuille de calcul de lancement vierge**, choisissez la case à cocher **Données personnalisées** et cliquez sur **Télécharger**.
+   Exemple d’image dans l’environnement de prévisualisation :
+   ![Sélectionner des données personnalisées](assets/kickstarts-select-existing-data.png)
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
@@ -280,7 +283,7 @@ Après avoir suivi les étapes décrites dans les sections précédentes, procé
 
 1. Cliquez sur **Choisir un fichier** sous la section **Charger des données avec une feuille de calcul Kickstart**.
 
-1. Recherchez la feuille de calcul Excel que vous avez préparée sur votre ordinateur et sélectionnez-la lorsque vous la trouvez.  Lorsque le fichier est reconnu par Workfront, le bouton Charger devient bleu.
+1. Recherchez la feuille de calcul Excel que vous avez préparée sur votre ordinateur et sélectionnez-la lorsque vous la trouvez. Lorsque Workfront reconnaît le fichier, le bouton Télécharger devient bleu.
 1. Cliquez sur **Charger**.
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)

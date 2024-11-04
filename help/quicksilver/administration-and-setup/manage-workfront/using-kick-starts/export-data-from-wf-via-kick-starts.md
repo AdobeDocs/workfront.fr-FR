@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 98%
+source-wordcount: '1028'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 98%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+{{highlighted-preview}}
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser l’exportateur de données Kickstart pour exporter des données de Workfront. Vous pouvez les utiliser dans d’autres applications après les avoir exportées.
 
@@ -332,18 +334,21 @@ Les restrictions suivantes s’appliquent lors de l’export de données par le 
 
    Les options **Tableau de bord** et **Rapport** permettent de sélectionner des tableaux de bord et des rapports spécifiques à inclure dans le téléchargement. Vous ne pouvez exporter que les tableaux de bord qui sont partagés à l’échelle du système.
 
-   Il n’est pas possible d’exporter les rapports de matrice. Pour plus d’informations sur les rapports de matrice, consultez la section [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+   Il n’est pas possible d’exporter les rapports de matrice. Pour plus d’informations sur les rapports de matrice, voir la section [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-   Kick-Starts ne prend pas en charge les filtres en mode texte. Pour effectuer un export, les filtres de création de rapports doivent être définis en mode standard.
+   Le démarrage rapide ne prend pas en charge les filtres ou les regroupements en mode texte. Pour réussir l’exportation, les filtres et les regroupements de rapports doivent être basculés en mode standard.
 
-   Vous pouvez sélectionner jusqu’à 100 tableaux de bord et 100 rapports pour un seul export.
+   Vous pouvez sélectionner jusqu’à 100 tableaux de bord et 100 rapports dans un seul export.
 
-   ![](assets/kickstart-export-350x381.png)
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   ![Kickstart export](assets/kickstart-export-spreadsheet-options.png)
+
+   Exemple d’image dans l’environnement de production :
+   ![Kickstart export](assets/kickstart-export-350x381.png)
 
    Vous pouvez exporter plusieurs objets simultanément.
 
 1. (Recommandé) Analysez les données exportées pour vous assurer que toutes les informations voulues ont été exportées.
 
-   Pour les exports volumineux, Workfront fonctionne en arrière-plan pour produire le fichier Excel et vous avertit du retard. Le fichier Kickstart vous est envoyé par e-mail à la fin du téléchargement.
+   Pour les exports volumineux, Workfront fonctionne en arrière-plan pour produire le fichier Excel et vous avertit du retard. Le fichier de démarrage est envoyé par courrier électronique à la fin du téléchargement.
 
-   ![](assets/large-kick-start-file-warning-350x65.png)
