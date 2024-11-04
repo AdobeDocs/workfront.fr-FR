@@ -7,9 +7,9 @@ description: Découvrez comment ajouter un module de déclenchement pour permett
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
-source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '493'
 ht-degree: 9%
 
 ---
@@ -41,6 +41,7 @@ Vous devez créer le scénario décrit dans [Créer un scénario de base](/help/
 1. Sélectionnez **Surveiller l’enregistrement**.
 1. Assurez-vous que le module utilise la même connexion que le reste des modules dans le scénario.
 1. Dans le champ Filtre , sélectionnez **Nouveaux enregistrements uniquement**.
+1. Dans le champ Type d’enregistrement, sélectionnez **Problème**.
 1. Dans la zone Outputs, sélectionnez `ID`, `Name` et `Project ID`.
 1. Cliquez sur **OK** pour enregistrer les paramètres du module.
 
