@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1367'
 ht-degree: 15%
 
 ---
@@ -138,20 +138,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * Champs d’enregistrement disponibles dans la vue de tableau du type d’enregistrement sélectionné. <!--they are working on removing the limitation below-->
 
-     >[!IMPORTANT]
-     >
-     > Selon l’environnement utilisé pour créer un formulaire de requête, les scénarios suivants existent :
-     >
-     >* Les champs des types suivants ne s’affichent pas dans le formulaire de requête <span class="preview"> dans les environnements Aperçu </span> ou Production :
-     >
-     >    * Personnes (y compris Créé par et Dernière modification par)
-     >    * Formule
-     >    * Date de création
-     >    * Date de dernière modification
-     >    * Champs associés ou champs de recherche des objets Workfront
-     >    * Champs de recherche connectés des enregistrements de planification Workfront
-     >* Les champs des types suivants ne s’affichent pas dans le formulaire de demande dans l’environnement Production. <span class="preview">Ils s’affichent dans l’environnement Aperçu :</span>
-     >    * <span class="preview"> Champs connectés des enregistrements de planification Workfront (y compris les connexions avec Workfront et les ressources Experience Manager)</span>
+   >[!IMPORTANT]
+   >
+   > Selon l’environnement utilisé pour créer un formulaire de requête, les scénarios suivants existent :
+   >
+   >* Les champs des types suivants ne s’affichent pas dans le formulaire de requête <span class="preview"> dans les environnements Aperçu </span> ou Production :
+   >
+   >    * Personnes (y compris Créé par et Dernière modification par)
+   >    * Formule
+   >    * Date de création
+   >    * Date de dernière modification
+   >    * Champs associés ou champs de recherche des objets Workfront
+   >    * Champs de recherche connectés des enregistrements de planification Workfront
+   >* Les champs des types suivants ne s’affichent pas dans le formulaire de demande dans l’environnement Production. <span class="preview">Ils s’affichent dans l’environnement Aperçu :</span>
+   >    * <span class="preview"> Champs connectés des enregistrements de planification Workfront </span>
 
 
    * **Section par défaut** : il s’agit du saut de section par défaut appliqué par Workfront au formulaire de demande. La section Par défaut ne peut pas être renommée ni supprimée.

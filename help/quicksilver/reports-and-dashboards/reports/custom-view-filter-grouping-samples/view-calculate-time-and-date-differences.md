@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '« Vue : calculer les différences d’heure et de date »'
+title: "Afficher : calculer les différences d’heure et de date"
 description: Découvrez comment calculer les différences d’heure et de date.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 100%
+source-wordcount: '613'
+ht-degree: 92%
 
 ---
 
 # Vue : calculer les différences d’heure et de date
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 >[!IMPORTANT]
 >
@@ -109,10 +109,8 @@ Vous pouvez, par exemple, calculer la différence entre la date d’achèvement 
 
 1. Cliquez sur **Ajouter une colonne** et commencez à saisir la « Date d’achèvement prévue » dans le champ **Afficher dans cette colonne**, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
 
-1. Cliquez sur **Ajouter une colonne**, puis cliquez sur **Passer en mode Texte**.
-
-1. Pointez sur la zone mode texte, puis cliquez sur **Cliquez pour modifier le texte**.
-1. Supprimez le texte que vous trouvez dans la case **Mode texte** et remplacez-le par l’un des codes suivants :
+1. Cliquez sur **Ajouter une colonne**, puis sur **Passer en mode Texte** > **Modifier le mode Texte**.
+1. Supprimez le texte que vous trouvez dans la zone **Edit Text Mode** et remplacez-le par l’un des codes suivants :
 
    * Pour afficher la différence entre la date d’achèvement prévue du projet et celle de la tâche :
 
@@ -131,4 +129,4 @@ Vous pouvez, par exemple, calculer la différence entre la date d’achèvement 
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Cliquez sur **Enregistrer**, puis **Enregistrer la vue**.
+1. Cliquez sur **Terminé**, puis sur **Enregistrer la vue**.

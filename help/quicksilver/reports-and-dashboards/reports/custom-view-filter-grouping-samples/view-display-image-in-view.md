@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '« Vue : afficher une image au lieu d’une chaîne dans une colonne »'
+title: "Afficher : afficher une image à la place d’une chaîne dans une colonne"
 description: Vous pouvez remplacer le nom d’un objet dans une vue par une image en mode texte. Vous pouvez également ajouter un lien vers l’image qui permet d’ouvrir l’objet qu’elle remplace.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 100%
+source-wordcount: '488'
+ht-degree: 90%
 
 ---
 
 # Vue : afficher une image au lieu d’une chaîne dans une colonne
+
+<!--Audited: 11/2024-->
 
 Vous pouvez remplacer le nom d’un objet dans une vue par une image en mode texte. Vous pouvez également ajouter un lien vers l’image qui permet d’ouvrir l’objet qu’elle remplace.
 
@@ -26,6 +28,8 @@ Vous pouvez remplacer le nom d’un objet dans une vue par une image en mode tex
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -33,28 +37,34 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Demander la modification d’un affichage </p>
-   <p>Prévoir de modifier un rapport</p> </td> 
+   <td> 
+    <p>Nouveau :</p>
+   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <li><p>Standard pour modifier un rapport</p></li> </ul>
+
+<p>Actuel :</p>
+   <ul><li><p>Demande de modification d’un filtre </p></li>
+   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, affichages et groupes pour modifier un affichage</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, aux vues et aux regroupements pour modifier un filtre</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exemple : remplacez le nom d’un projet dans une vue de projet par une image :
 
@@ -79,59 +89,26 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 1. Accédez à un projet, cliquez sur le menu **Plus** ![](assets/more-icon-45x33.png) en regard du nom du projet, puis sur **Modifier**.
 
 1. Dans le champ **URL**, ajoutez le lien à l’image.
-1. Accédez à la vue d’un projet dans une liste ou un rapport et personnalisez-la.
+1. Accédez à la vue d’un projet dans une liste de projets.
+1. Cliquez sur le menu déroulant **Afficher**, puis sur **Nouvelle vue**.
 1. Cliquez sur l’en-tête de la colonne pour le **Nom du projet**, puis cliquez sur **Passer en mode Texte**.
 
 1. Ajoutez le code suivant à la colonne au code existant :
 
    ```
    displayname=Link Project
-   ```
-
-   ```
    image.name=Link Project
-   ```
-
-   ```
    image.valuefield=URL
-   ```
-
-   ```
    link.linkproperty.0.name=projectID
-   ```
-
-   ```
    link.linkproperty.0.value=ID
-   ```
-
-   ```
    link.lookup=link.edit
-   ```
-
-   ```
    link.page=/view
-   ```
-
-   ```
    link.valuefield=objCode
-   ```
-
-   ```
    link.valueformat=val
-   ```
-
-   ```
    textmode=true
-   ```
-
-   ```
    type=image
-   ```
-
-   ```
    valueformat=
    ```
 
-   L’image que vous avez sélectionnée remplace le nom du projet dans la vue du projet et l’image est un lien vers le projet.
-
-1. Cliquez sur **Enregistrer la vue**.
+1. Cliquez sur **Terminé** > **Enregistrer la vue**.
+L’image que vous avez sélectionnée remplace le nom du projet dans la vue du projet et l’image est un lien vers le projet.
