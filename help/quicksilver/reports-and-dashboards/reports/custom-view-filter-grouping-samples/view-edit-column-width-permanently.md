@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '« Affichage : modifier définitivement la largeur d’une colonne »'
+title: "Afficher : modifiez définitivement la largeur d’une colonne"
 description: Vous pouvez temporairement modifier la largeur des colonnes en les faisant glisser et en les déposant sur les marges correspondant à la largeur souhaitée. Pour plus d’informations, consultez la section « Modifier la largeur et l’ordre des colonnes ».
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 71c0bf664af66bec7122651c1b62dd1c28022565
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 100%
+source-wordcount: '403'
+ht-degree: 95%
 
 ---
 
 # Vue : modifier définitivement la largeur d’une colonne
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 Vous pouvez temporairement modifier la largeur des colonnes en les faisant glisser et en les déposant sur les marges correspondant à la largeur souhaitée. Pour plus d’informations, consultez la section [Modifier la largeur et l’ordre des colonnes](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
@@ -73,7 +73,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
    Cliquez sur l’en-tête de colonne d’une colonne existante.
 
 1. Cliquez sur **Basculer en mode texte**.
-1. Pointez sur la zone de mode texte, puis cliquez sur **Cliquez pour modifier le texte**.
+1. Cliquez sur **Modifier le mode Texte**.T
 1. Ajoutez le code suivant au mode texte de la colonne :
 
    ```
@@ -83,6 +83,6 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
    Pour la ligne intitulée **largeur**, indiquez un nombre quelconque (en pixels) représentant la largeur de la colonne à afficher dans la vue.
 
-1. Cliquez sur **Enregistrer**, puis **Enregistrer la vue**.
+1. Cliquez sur **Terminé**, puis sur **Enregistrer la vue**.
 
 

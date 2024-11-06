@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '14547'
 ht-degree: 94%
@@ -1658,7 +1658,7 @@ ht-degree: 94%
          * [Vue : détails combinés de la tâche et du problème dans une liste d’heures](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
          * [Vue : afficher une image au lieu d’une chaîne dans une colonne](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
          * [Vue : afficher les objets qui ne sont pas inclus dans l’interface standard](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-         * [Vue : afficher les informations sur le problème original dans les listes de tâches et de projets](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+         * [Afficher : affiche les informations de problème d’origine dans les listes de tâches ou de projets](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
          * [Vue : afficher les informations relatives au programme et au portfolio dans une vue de tâche](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
          * [Vue : afficher les mises en retrait de tâche dans une liste de tâches](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
          * [Vue : afficher la relation parent-enfant dans une tâche en mettant en retrait les tâches](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)

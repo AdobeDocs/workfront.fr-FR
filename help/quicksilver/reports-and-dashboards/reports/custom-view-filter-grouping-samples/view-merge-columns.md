@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '« Vue : fusionner les informations de plusieurs colonnes en une colonne partagée »'
+title: "Afficher : fusionner les informations de plusieurs colonnes dans une colonne partagée"
 description: Vous pouvez fusionner les informations qui s’affichent dans différentes colonnes et les afficher dans une colonne partagée.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 100%
+source-wordcount: '1076'
+ht-degree: 81%
 
 ---
 
 # Vue : fusionner les informations de plusieurs colonnes dans une colonne partagée
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 Vous pouvez fusionner les informations qui s’affichent dans différentes colonnes et les afficher dans une colonne partagée.
 
@@ -94,7 +94,10 @@ Vous pouvez fusionner les données de différentes colonnes pour les afficher da
 
 Pour fusionner les données de deux colonnes sans saut de ligne :
 
-1. En utilisant le mode texte pour une vue, ajoutez le texte suivant à la première colonne que vous souhaitez fusionner :
+1. Accédez à une liste d’objets.
+1. Dans la liste déroulante **Affichage** , sélectionnez une vue, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) pour modifier la vue.
+1. Accédez à la première colonne que vous souhaitez fusionner, puis cliquez sur **Passer en mode Texte** > **Modifier le mode Texte**.
+1. Ajoutez le texte suivant à la première colonne que vous souhaitez fusionner :
 
    `sharecol=true`
 
@@ -104,32 +107,31 @@ Pour fusionner les données de deux colonnes sans saut de ligne :
 
    Si vous partagez plus d’une colonne, veillez à ajouter le numéro de la colonne dans les lignes de code qui contiennent les informations de partage de chaque colonne.
 
-   **Exemple :** voici le code en mode texte pour une colonne fusionnée qui contient trois colonnes distinctes, en commençant par la deuxième colonne de la liste. Les valeurs fusionnées sont le nom du projet, la date de début prévue et le nom de la personne propriétaire du projet, et il n’y a pas de saut entre les trois valeurs :
 
-   `column.1.valuefield=name`
+   **EXEMPLE :** Voici le code du mode texte d’une colonne fusionnée qui contient trois colonnes distinctes, en commençant par la deuxième colonne de la liste. Les valeurs fusionnées sont Nom du projet, Date de début planifiée et Nom du propriétaire du projet et il n’y a pas de pause entre les trois valeurs :
 
-   `column.1.valueformat=HTML`
+   ```
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.1.sharecol=true
+   column.2.valuefield=plannedStartDate
+   column.2.valueformat=atDate
+   column.2.sharecol=true
+   column.3.valuefield=owner:name
+   column.3.valueformat=HTML
+   ```
 
-   `column.1.sharecol=true`
+   ![](assets/shared-column-no-line-breaks-350x142.png)
 
-   `column.2.valuefield=plannedStartDate`
 
-   `column.2.valueformat=atDate`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=owner:name`
-
-   `column.3.valueformat=HTML`
-
-![](assets/shared-column-no-line-breaks-350x142.png)
-
-1. Cliquez sur **Enregistrer**, puis sur **Enregistrer la vue**.
+1. Cliquez sur **Terminé**, puis sur **Enregistrer la vue**.
 
 ## Fusionner les données de deux colonnes avec un saut de ligne
 
 Procédez comme suit pour fusionner les données de plusieurs colonnes et les afficher dans une colonne commune avec un saut de ligne entre les valeurs de chaque colonne :
 
+1. Accédez à une liste d’objets.
+1. Dans la liste déroulante **Affichage** , sélectionnez une vue, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) pour modifier la vue.
 1. Ajoutez une troisième colonne entre les deux colonnes que vous souhaitez fusionner.
 
    >[!TIP]
@@ -137,18 +139,16 @@ Procédez comme suit pour fusionner les données de plusieurs colonnes et les af
    >* Les colonnes à fusionner doivent être adjacentes.
    >* Vous devez cliquer sur la première colonne que vous souhaitez fusionner.
 
-1. Cliquez sur **Passer en mode texte** et ajoutez le code suivant dans la colonne centrale que vous avez ajoutée à l’étape 1 :
+1. Cliquez sur **Passer en mode Texte** > **Modifier le mode Texte**, puis ajoutez le code suivant dans la colonne du milieu que vous avez ajoutée à l’étape 1 :
 
-   `value=<br>`
+   ```
+   value=<br>
+   valueformat=HTML
+   width=1
+   sharecol=true
+   ```
 
-   `valueformat=HTML`
-
-   `width=1`
-
-   `sharecol=true`
-
-
-1. Cliquez sur la première colonne et cliquez sur **Passer en mode texte**, puis ajoutez le texte suivant à la colonne :
+1. Cliquez sur la première colonne et cliquez sur **Passer en mode Texte** > **Modifier le mode Texte**, puis ajoutez le texte suivant à la colonne :
 
    `sharecol=true`
 
@@ -158,49 +158,30 @@ Procédez comme suit pour fusionner les données de plusieurs colonnes et les af
 
    Si vous partagez plus d’une colonne, veillez à ajouter le numéro de la colonne dans les lignes de code qui contiennent les informations de partage.
 
-   **Exemple :** voici le code du mode texte pour une colonne partagée qui contient le nom du projet, la date de début prévue et le nom de la personne propriétaire du projet avec un saut de ligne. La colonne partagée est la deuxième colonne d’une vue de projet.
+   **EXEMPLE :** Voici le code de mode texte d’une colonne partagée qui contient le nom du projet, la date de début planifiée et le nom du propriétaire du projet avec un saut de ligne. La colonne partagée est la deuxième colonne d’une vue de projet.
 
-
-   `column.1.displayname=Project_StartDate_Owner`
-
-   `column.1.sharecol=true`
-
-   `column.1.textmode=true`
-
-   `column.1.valuefield=name`
-
-   `column.1.valueformat=HTML`
-
-   `column.2.value=<br>`
-
-   `column.2.width=1`
-
-   `column.2.valueformat=HTML`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=plannedStartDate`
-
-   `column.3.valueformat=atDate`
-
-   `column.3.sharecol=true`
-
-   `column.4.value=<br>`
-
-   `column.4.width=1`
-
-   `column.4.valueformat=HTML`
-
-   `column.4.sharecol=true`
-
-   `column.5.textmode=true`
-
-   `column.5.valuefield=owner:name`
-
-   `column.5.valueformat=HTML`
-
+   ```
+   column.1.displayname=Project_StartDate_Owner
+   column.1.sharecol=true
+   column.1.textmode=true
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.2.value=<br>
+   column.2.width=1
+   column.2.valueformat=HTML
+   column.2.sharecol=true
+   column.3.valuefield=plannedStartDate
+   column.3.valueformat=atDate
+   column.3.sharecol=true
+   column.4.value=<br>
+   column.4.width=1
+   column.4.valueformat=HTML
+   column.4.sharecol=true
+   column.5.textmode=true
+   column.5.valuefield=owner:name
+   column.5.valueformat=HTML 
+   ```
 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
-
-1. Cliquez sur **Enregistrer**, puis sur **Enregistrer l’affichage**.
+1. Cliquez sur **Terminé**, puis sur **Enregistrer la vue**.

@@ -7,10 +7,10 @@ description: Un objet résolvable est un problème dont la résolution est liée
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1743'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -227,7 +227,7 @@ Le tableau suivant indique les champs que vous pouvez afficher et dans quelles v
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Nom du problème d’origine, Date de saisie du problème d’origine, Nom de l’auteur ou de l’autrice</strong> : affiche le nom et la date de saisie du problème d’origine, ainsi que le nom de l’utilisateur ou l’utilisatrice qui a créé le problème dans une vue personnalisée en mode texte.<br>Pour plus d’informations sur la création d’une vue personnalisée en mode texte pour un projet, un rapport de tâche ou une liste afin d’afficher des informations sur le problème d’origine, voir <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Vue : afficher les informations sur le problème d’origine dans les listes de tâches et de projets</a>.<br></td> 
+   <td><strong>Nom du problème d’origine, Date de saisie du problème d’origine, Nom de l’auteur ou de l’autrice</strong> : affiche le nom et la date de saisie du problème d’origine, ainsi que le nom de l’utilisateur ou l’utilisatrice qui a créé le problème dans une vue personnalisée en mode texte.<br>Pour plus d’informations sur la création d’une vue personnalisée de mode texte pour un projet, un rapport de tâche ou une liste afin d’afficher des informations sur le problème d’origine, voir <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Affichage : afficher les informations du problème d’origine sur les listes de tâches ou de projets</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 

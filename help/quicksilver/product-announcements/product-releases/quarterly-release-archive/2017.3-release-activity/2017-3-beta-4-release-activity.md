@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1676'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -152,7 +152,7 @@ Ces informations peuvent être affichées dans un rapport ou une liste de tâche
 
 Avant ce changement, vous ne pouviez pas générer de rapports sur ces informations.
 
-Pour plus d’informations sur la création d’une vue personnalisée en mode texte qui capture les informations du problème initial, consultez [Vue : afficher les informations du problème initial sur les listes de tâches et de projets](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Pour plus d’informations sur la création d’une vue de mode de texte personnalisé qui capture les informations du problème d’origine, voir [Affichage : afficher les informations du problème d’origine dans les listes de tâches ou de projets](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## L’option Filtrer les mises à jour du système dans le flux de mise à jour est désormais persistante d’un objet à l’autre. {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 

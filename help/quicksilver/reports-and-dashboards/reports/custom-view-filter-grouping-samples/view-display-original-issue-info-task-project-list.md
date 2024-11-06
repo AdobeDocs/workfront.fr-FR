@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '« Vue : afficher les informations sur le problème original dans les listes de tâches et de projets »'
+title: "Afficher : afficher les informations de problème d’origine sur les listes de tâches ou de projets"
 description: Vous pouvez afficher des informations sur le problème original dans une vue des listes de tâches et de projets, après que le problème a été converti en tâches et en projets dans la liste.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
-# Vue : afficher les informations sur le problème original dans les listes de tâches et de projets
+# Afficher : affiche les informations de problème d’origine dans les listes de tâches ou de projets
 
 Vous pouvez afficher les informations suivantes du problème d’origine sur une vue des listes de tâches et de projets, après que le problème a été converti en tâches et projets dans la liste :
 

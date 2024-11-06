@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ Cette section présente des exemples de vues, filtres et regroupements personnal
 * [Vue : détails des tâches et des problèmes combinés dans une liste d’heures](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [Vue : afficher une image au lieu d’une chaîne de caractères dans une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [Vue : afficher les objets qui ne sont pas inclus dans l’interface standard](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [Vue : afficher les informations sur le problème original dans les listes de tâches et de projets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [Affichage : afficher les informations de problème d’origine sur les listes de tâches ou de projets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
 * [Vue : afficher les informations relatives au programme et au portfolio dans une vue de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
 * [Vue : afficher les indentations des tâches dans une liste de tâches](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [Vue : rapport de document avec lien vers une épreuve](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
