@@ -4,10 +4,10 @@ content-type: reference
 description: Vous pouvez rapidement résumer les éléments de travail et les documents à l’aide de la fonctionnalité Résumer .
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 7fdfc7827fd21037aaaaa6df1cca543c1cd9e264
+source-git-commit: 0eeee68c45003525b9593ce985729f7aa12189cf
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 13%
+source-wordcount: '293'
+ht-degree: 7%
 
 ---
 
@@ -31,29 +31,27 @@ L’assistant d’IA peut vous aider à localiser les projets, les tâches et le
 1. Affichez la réponse dans le panneau de l’assistant d’IA.
 1. (Facultatif) Pour accéder à l’élément de travail, cliquez sur le lien dans le panneau Assistant IA.
 
-<!--
+## Création d’un élément de travail
 
-## Create a work item
+1. Cliquez sur l’icône **Assistant IA** ![Icône Assistant IA](assets/ai-assistant-icon.png) près du coin supérieur droit de l’écran.
+1. Saisissez une invite telle que
 
-1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
-1. Enter a prompt such as 
+   * Créer le projet &quot;Campagne de printemps&quot;
+   * Ajout du problème &quot;bogue de l’interface utilisateur&quot; au projet &quot;Nouvelle interface utilisateur&quot;
+   * Créer une tâche &quot;séance photo&quot; dans le projet &quot;Campagne de printemps&quot;
 
-   * Create project "Spring campaign"
-   * Add issue "UI Bug" to project "New UI" 
-   * Create "photoshoot" task in project "Spring campaign"
+1. Vérifiez la réponse de l’assistant AI pour vous assurer qu’il effectue l’action souhaitée.
+1. (Conditionnel) Si la réponse décrit l’action correcte, cliquez sur **Oui**.
 
-1. Check the AI Assistant response to ensure that it is taking the desired action
-1. (Conditional) If the response describes the correct action, click **Yes**.
-
-   AI Assistant may take a few moments to create the item, depending on how large or complex the prompt is and how many records it needs to search.
-1. (Conditional) To cancel the creation of the new item, click **No**.
-1. (Optional) To go to the work item, click the link in the AI Assistant panel.
+   L’assistant d’IA peut prendre quelques instants pour créer l’élément, selon la taille ou la complexité de l’invite et le nombre d’enregistrements à rechercher.
+1. (Conditionnel) Pour annuler la création du nouvel élément, cliquez sur **Non**.
+1. (Facultatif) Pour accéder à l’élément de travail, cliquez sur le lien dans le panneau Assistant IA.
 
 >[!NOTE]
 >
->We recommend checking the new item to ensure that it was created as expected.
+>Nous vous recommandons de vérifier le nouvel élément pour vous assurer qu’il a été créé comme prévu.
 
--->
+
 
 <!--
 
