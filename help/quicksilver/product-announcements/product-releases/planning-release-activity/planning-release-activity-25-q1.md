@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 4%
+source-wordcount: '695'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 4%
 >
 >Pour obtenir la liste complète des exigences d’accès à la planification Workfront, consultez la [présentation des accès](/help/quicksilver/planning/access/access-overview.md).
 >Pour une présentation de la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
->
 
 Cet article décrit les fonctionnalités de la version 2025 du premier trimestre de la planification Workfront.
 
@@ -33,6 +32,24 @@ Cet article décrit les fonctionnalités de la version 2025 du premier trimestre
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning après la mise à disposition de la version générale le 28 août 2024, voir [Activité de mise à jour d’Adobe Workfront Planning : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nouveaux types d’affichage pour les champs de type pourcentage dans la vue de tableau
+
+>[!NOTE]
+>
+>Aperçu de la version : 7 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+
+Pour faciliter la lecture des nombres dans la vue du tableau, vous pouvez désormais choisir parmi les choix suivants pour modifier l&#39;affichage d&#39;un champ de type Pourcentage dans la vue du tableau :
+
+* Nombre
+* Barres
+* Cercle
+
+Ce type d’affichage n’est pris en charge que dans la vue de tableau.
+
+Avant cette amélioration, vous ne pouviez afficher les valeurs en pourcentage que sous forme de nombres.
+
+Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Les champs de connexion sont désormais pris en charge dans les formulaires de demande
 
