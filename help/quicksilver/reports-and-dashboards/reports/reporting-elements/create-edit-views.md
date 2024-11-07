@@ -6,14 +6,16 @@ description: Vous pouvez personnaliser le type d’informations affichées à l�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 100%
+source-wordcount: '1718'
+ht-degree: 95%
 
 ---
 
 # Créer ou modifier des vues dans Adobe Workfront
+
+<!-- Audited: 11/2024 -->
 
 Vous pouvez personnaliser le type d’informations affichées à l’écran à l’aide des vues. Vous pouvez utiliser plusieurs types de vues dans Adobe Workfront.
 
@@ -30,25 +32,36 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Requête ou supérieure</p> </td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Contributeur ou version ultérieure</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Requête ou supérieure</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, aux tableaux de bord et aux calendriers pour créer une vue dans un rapport</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, aux tableaux de bord et aux calendriers pour créer une vue dans un rapport</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Gérer les autorisations d’un rapport pour créer ou modifier une vue dans un rapport</p> <p>Gérer les autorisations d’une vue pour la modifier</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander un accès aux objets</a>.</p> </td> 
+   <td role="rowheader"><strong>Autorisations d’objet*</strong></td> 
+   <td> <p>Gérer les autorisations d’un rapport pour créer ou modifier une vue dans un rapport</p> <p>Gérer les autorisations d’une vue pour la modifier</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,10 +77,11 @@ Le processus de création ou de personnalisation d’une vue diffère selon qu�
 Vous pouvez créer une nouvelle vue standard ou personnaliser une vue standard existante que vous avez créée précédemment.
 
 1. Cliquez sur le menu déroulant **Vue** dans toute liste où vous souhaitez créer ou personnaliser une vue.
-1. (Facultatif) Pour personnaliser une vue existante, sélectionnez la vue standard que vous souhaitez personnaliser.\
-   Les vues standard sont disponibles sur n’importe quel type de liste dans Workfront, tel qu’un rapport, une liste de projets ou une liste de tâches.
-1. Cliquez sur le menu déroulant **Vue**, puis sur **Personnaliser la vue** ou **Nouvelle vue**.\
-   La boîte de dialogue **Personnaliser la vue** s’affiche.
+
+1. Cliquez sur le bouton **+ Nouvelle vue** pour créer une vue.
+Ou
+Cliquez sur l&#39;icône **Modifier** ![Icône Modifier](assets/edit-icon.png) qui s&#39;affiche lorsque vous pointez sur la droite d&#39;une vue existante que vous souhaitez modifier.
+La boîte de dialogue **Personnaliser la vue** s’affiche.
 
 1. Dans la section **Aperçu de la colonne**, effectuez l’une des opérations suivantes :
 
@@ -121,7 +135,7 @@ Vous pouvez créer une nouvelle vue standard ou personnaliser une vue standard e
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Règles de la colonne</strong></td> 
-           <td><p>Cliquez sur <strong>Ajouter une règle à cette colonne</strong> pour définir une règle pour la colonne. Après avoir ajouté une règle, vous pouvez définir des styles de champ et de texte définissant le mode d’affichage des champs correspondant à cette règle. Cliquez sur <strong>Ajouter une règle</strong> lorsque vous avez terminé de définir la règle.</p></td> 
+           <td><p>Cliquez sur <strong>+ Ajouter une règle pour cette colonne </strong> pour définir une règle pour la colonne. Après avoir ajouté une règle, vous pouvez définir des styles de champ et de texte définissant le mode d’affichage des champs correspondant à cette règle. Cliquez sur <strong>Ajouter une règle</strong> lorsque vous avez terminé de définir la règle.</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -234,7 +248,7 @@ Pour créer ou personnaliser une vue Agile :
     </tbody> 
    </table>
 
-1. Dans la section **Agile**, dans la zone **Champs supplémentaires**, cliquez sur **Ajouter un champ**, puis sélectionnez le champ que vous souhaitez ajouter aux cartes d’histoire. (Il s’agit des mêmes champs que ceux que vous pouvez ajouter lors de la personnalisation d’un affichage ou de la création de colonnes pour un rapport.)\
+1. Dans la zone **Champs supplémentaires**, cliquez sur **Ajouter un champ**, puis sélectionnez le champ que vous souhaitez ajouter aux cartes d’article. (Il s’agit des mêmes champs que ceux que vous pouvez ajouter lors de la personnalisation d’un affichage ou de la création de colonnes pour un rapport.)\
    Répétez ce processus pour ajouter jusqu’à trois champs supplémentaires aux cartes d’histoire.\
    Lorsque vous ajoutez des champs à des cartes d’histoire, ces champs ne s’affichent que lorsque le champ est renseigné.
 

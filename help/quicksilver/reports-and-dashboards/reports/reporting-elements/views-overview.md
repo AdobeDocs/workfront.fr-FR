@@ -7,16 +7,16 @@ description: Vous pouvez personnaliser le type d’informations affichées dans 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Vue d’ensemble des vues dans Adobe Workfront
 
-<!--Audited: 01/2024-->
+<!--Audited: 11/2024-->
 
 Vous pouvez personnaliser le type d’informations affichées dans une liste ou un rapport en gérant l’affichage de la liste ou du rapport. Vous pouvez afficher les objets et leurs attributs dans une vue. Pour plus d’informations sur les objets d’Adobe Workfront, consultez la section [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 

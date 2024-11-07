@@ -6,16 +6,16 @@ description: À mesure que vous partagez vos rapports avec d’autres personnes 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1162'
 ht-degree: 97%
 
 ---
 
 # Utiliser une mise en forme conditionnelle dans les vues
 
-<!--Audited: 01/2024-->
+<!-- Audited: 11/2024 -->
 
 À mesure que vous partagez vos rapports avec d’autres personnes dans Adobe Workfront, pensez à personnaliser l’affichage des rapports, à faciliter la lecture de certaines informations ou à simplement vous distinguer.
 
@@ -54,24 +54,23 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td> <p>Nouveau :</p> 
    <ul><li>Standard pour les vues de rapport</li>
   <li> Contribution ou supérieur pour les vues de liste</li></ul>
-
-<p>Actuel :</p>
+   <p>Actuel :</p>
    <ul>
     <li> Plan pour les vues de rapport </li>
     <li> Requête ou supérieur pour les vues de liste </li> </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux Rapports, tableaux de bord et calendriers pour modifier une vue dans un rapport</p> <p><b>NOTE</b></p> <p>Si vous n’y avez pas accès, demandez à l’administration Workfront si des restrictions supplémentaires ont été définies pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux Rapports, tableaux de bord et calendriers pour modifier une vue dans un rapport</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Gérer les autorisations d’un rapport pour créer ou modifier une vue dans un rapport</p> <p>Gérer les autorisations pour une vue</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport pour créer ou modifier une vue dans un rapport</p> <p>Gérer les autorisations pour une vue</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

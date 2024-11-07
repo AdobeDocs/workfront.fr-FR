@@ -6,20 +6,24 @@ description: Vous pouvez supprimer un filtre, une vue ou un regroupement des lis
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 100%
+source-wordcount: '809'
+ht-degree: 98%
 
 ---
 
 # Supprimer des filtres, des vues et des regroupements
 
+<!-- Audited: 11/2024 -->
+
 Vous pouvez supprimer un filtre, une vue ou un regroupement des listes et des rapports si vous les avez créés ou s’ils ont été partagés avec vous. Vous ne pouvez pas supprimer les filtres, les vues ou les regroupements par défaut.
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,20 +37,32 @@ Vous devez disposer des éléments suivants :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Requête ou supérieure</p> </td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Contributeur ou version ultérieure</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Requête ou supérieure</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Accès en affichage ou accès supérieur aux filtres, aux vues et aux regroupements</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td><p>Accès en affichage ou accès supérieur aux filtres, aux vues et aux regroupements</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations en affichage avec accès au partage du filtre, de la vue ou du regroupement que vous souhaitez supprimer.</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td><p>Autorisations en affichage avec accès au partage du filtre, de la vue ou du regroupement que vous souhaitez supprimer.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Supprimer un filtre à l’aide du créateur standard
 
@@ -69,9 +85,6 @@ Les scénarios suivants existent lorsque vous supprimez un filtre à l’aide de
 1. Accédez à une liste de projets, de tâches, de problèmes, de portfolios, de programmes, d’utilisateurs et d’utilisatrices, de modèles ou de groupes.
 1. Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-nwepng.png).
 1. Pointez sur un filtre sous **Partagé avec moi**, cliquez dans le menu **Plus** ![Icône Plus](assets/more-icon-spectrum.png), puis cliquez sur **Supprimer**.
-
-   ![Suppression d’un filtre](assets/new-filters-more-menu-remove-filter.png)
-
 1. Sélectionnez **Supprimer** dans le message de confirmation pour supprimer définitivement le filtre.
 
 ### Supprimer un filtre à l’aide de l’interface de création standard

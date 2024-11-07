@@ -6,14 +6,16 @@ description: Vous pouvez généraliser un rapport en utilisant des caractères g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 95%
+source-wordcount: '644'
+ht-degree: 93%
 
 ---
 
 # Utiliser des caractères génériques basés sur des dates pour la généralisation des rapports
+
+<!-- Audited: 11/2024 -->
 
 Vous pouvez généraliser un rapport en utilisant des caractères génériques au lieu d’informations spécifiques lors de la création de certains éléments de rapport.
 
@@ -29,6 +31,8 @@ Vous pouvez utiliser des caractères génériques basés sur des dates lors de l
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -41,20 +45,31 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, aux tableaux de bord et aux calendriers pour la modification des éléments de rapport dans un rapport</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, aux tableaux de bord et aux calendriers pour la modification des éléments de rapport dans un rapport</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Gérer les autorisations d’un rapport pour modifier les éléments de rapport dans un rapport</p> <p>Gérer les autorisations d’une vue ou d’un filtre pour les modifier</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport pour modifier les éléments de rapport dans un rapport</p> <p>Gérer les autorisations d’une vue ou d’un filtre pour les modifier</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 

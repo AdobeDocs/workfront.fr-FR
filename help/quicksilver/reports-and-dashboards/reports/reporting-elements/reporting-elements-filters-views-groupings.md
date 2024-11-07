@@ -6,24 +6,22 @@ description: Les éléments principaux que chaque liste et rapport doivent avoir
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 100%
 
 ---
 
 # Éléments de rapport : filtres, vues et regroupements
 
-<!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!-- Audited: 11/2024 -->
+
+<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well</p>
-</div>
--->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
 
 Plusieurs éléments rendent possible une liste ou un rapport dans Adobe Workfront. Les éléments principaux que chaque liste et rapport doivent comporter sont un filtre, une vue et un regroupement. Chaque élément fournit des informations différentes dans n’importe quel rapport.
 
@@ -56,11 +54,10 @@ Parmi les attributs de filtres, nous retrouvons les suivants :
 
   Pour plus d’informations sur les filtres, voir l’article [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-![Icône de filtre](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
-
 ## Vues
 
-En définissant la vue d’un rapport, vous définissez les informations que vous incluez dans le rapport. Comme tous les éléments de création de rapports, les vues sont basées sur un type d’objet.\
+En définissant la vue d’un rapport, vous définissez les informations que vous incluez dans le rapport. Comme tous les éléments de création de rapports, les vues sont basées sur un type d’objet.
+
 Par exemple, une vue pour un rapport de tâche peut afficher les dates d’échéance, inclure des détails financiers importants tels que le coût ou servir à afficher les affectations et les détails de la date de livraison. Les vues peuvent être utilisées pour fournir divers détails sur les données du rapport.
 
 Parmi les attributs de vue, nous retrouvons les suivants :

@@ -4,22 +4,24 @@ description: Modifier les regroupements existants
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 88%
 
 ---
 
 # Modifier les regroupements existants
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is the third part of a former artcle split in 3: two how-tos and one refernece article about creating and customizing groupings)</p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--NOTE: This is the third part of a former article split in 3: two how-tos and one reference article about creating and customizing groupings)-->
 
 Vous pouvez personnaliser un regroupement que vous avez créé à l’origine ou qui a été partagé avec vous. Vous pouvez ensuite l’enregistrer en tant que nouveau regroupement.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -33,20 +35,31 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Requête ou supérieure </p> </td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Contributeur ou version ultérieure</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Requête ou supérieure</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Accès en modification aux Rapports, Tableaux de bord et Calendriers pour modifier un regroupement dans un rapport</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Editer l'accès aux Rapports, Tableaux de bord, Calendriers pour modifier un groupement dans un rapport</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations de gestion relatives à un rapport pour modifier un regroupement dans un rapport</p> <p>Autorisations de gestion relatives à un regroupement </p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Autorisations de gestion relatives à un rapport pour modifier un regroupement dans un rapport</p> <p>Autorisations de gestion relatives à un regroupement</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -58,7 +71,7 @@ Pour plus d’informations sur la création d’un regroupement, voir la section
 
 1. Accédez à une liste d’objets contenant le regroupement que vous souhaitez personnaliser.
 1. Cliquez sur l’icône **Regroupement**.
-1. Sélectionnez le regroupement à personnaliser, puis cliquez sur l’icône **Modifier**.
+1. Sélectionnez le groupe que vous souhaitez personnaliser, puis cliquez sur l&#39;icône **Modifier** ![Icône Modifier](assets/edit-icon.png).
 
    ![Sélectionnez l’icône de modification.](assets/customizegrouping-nwe-standard-350x291.png)
 
@@ -83,4 +96,4 @@ Pour plus d’informations sur la création d’un regroupement, voir la section
 1. Répétez les étapes 4, 5 et 6 pour définir des regroupements supplémentaires.\
    Vous pouvez définir jusqu’à trois regroupements pour organiser les informations. Vous pouvez organiser vos informations encore davantage en utilisant jusqu’à quatre regroupements grâce à un rapport de matrice. Pour plus d’informations sur les rapports de matrice, voir la section [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Cliquez sur **Enregistrer en tant que nouveau regroupement** pour remplacer le regroupement actuel par vos modifications.
+1. Cliquez sur **Enregistrer le groupement** pour remplacer le groupement actuel par vos modifications.

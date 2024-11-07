@@ -7,18 +7,18 @@ description: Vous pouvez ajouter des regroupements pour gérer la disposition de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 100%
+source-wordcount: '809'
+ht-degree: 98%
 
 ---
 
 # Vue d’ensemble des regroupements dans Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)-->
 
 Vous pouvez ajouter des regroupements pour gérer la disposition des informations dans vos rapports et listes.
 
@@ -32,13 +32,13 @@ Vous pouvez ajouter des regroupements aux rapports comme suit :
 
   Pour plus d’informations sur la création d’un regroupement, consultez la section [Créer des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-Par défaut, les regroupements s’affichent en surbrillance grise ou bleue dans votre rapport ou liste. Les résultats du rapport ou de la liste sont répertoriés sous leur regroupement individuel, sans mise en surbrillance.
+Par défaut, les regroupements s’affichent en surbrillance grise dans votre rapport ou liste. Les résultats du rapport ou de la liste sont répertoriés sous leur regroupement individuel, sans mise en surbrillance.
+
+![Exemple de groupement](assets/grouping-example-blue.png)
 
 Vous pouvez ajouter jusqu’à trois regroupements à un rapport. Vous pouvez organiser vos informations avec jusqu’à quatre regroupements en créant un rapport de matrice. Pour plus d’informations sur les rapports de matrice, consultez la section [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-Dans un rapport de regroupement standard, le premier regroupement est de couleur plus foncée, tandis que les deuxième et troisième regroupements adoptent une nuance plus claire. Vous ne pouvez pas personnaliser la couleur de surbrillance de votre regroupement, ou la police de son nom. Le nombre entre parenthèses après le nom du regroupement représente le nombre de résultats sous ce regroupement. Si votre rapport s’étend sur plusieurs pages, veillez à afficher *Tous* les résultats dans le rapport ou la liste pour obtenir un nombre précis de résultats sous chaque regroupement.
-
-![Exemple de regroupement](assets/grouping-example-blue.png)
+Le nombre entre parenthèses après le nom du regroupement représente le nombre de résultats sous ce regroupement. Si votre rapport s’étend sur plusieurs pages, veillez à afficher *Tous* les résultats dans le rapport ou la liste pour obtenir un nombre précis de résultats sous chaque regroupement.
 
 Tenez compte des points suivants lorsque vous utilisez des regroupements :
 

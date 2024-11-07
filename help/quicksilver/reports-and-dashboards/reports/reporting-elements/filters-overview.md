@@ -7,7 +7,7 @@ description: Vous pouvez utiliser des filtres dans Adobe Workfront pour réduir
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 99%
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 # Vue d’ensemble des filtres
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 11/2024 -->
 
 Vous pouvez utiliser des filtres dans Adobe Workfront pour réduire la quantité d’informations affichées à l’écran dans les listes, les rapports ou d’autres zones.
 
@@ -71,13 +71,16 @@ Pour plus d’informations sur les filtres dans les listes et les rapports, cons
 
 Vous pouvez utiliser des filtres intégrés ou créer des filtres personnalisés dans les zones suivantes de Workfront :
 
-* Page d’accueil\
+* Page d’accueil
+
   Pour plus d’informations, voir [Affichage des éléments dans la liste de travail de la zone d’accueil](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+
 * Zone Requêtes. Vous ne pouvez pas personnaliser les filtres dans la zone Requêtes.
 
   Pour plus d’informations, consultez [Localiser les requêtes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-* Planificateur de ressources\
+* Planificateur de ressources
+
   Pour plus d’informations, consultez l’article [Filtrer des informations dans le planificateur de ressources](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Rapport d’utilisation
@@ -104,9 +107,7 @@ Vous pouvez utiliser des filtres intégrés ou créer des filtres personnalisés
   >
   >Vous ne pouvez pas personnaliser des filtres dans le planificateur de scénarios.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??)</p>
-  -->
+  <!--(NOTE: the tip above: this might change with the beta filters??)-->
 
   Vous pouvez utiliser des filtres intégrés pour les plans, les initiatives ou les projets et vous pouvez personnaliser les filtres de projet dans le planificateur de scénarios.
 

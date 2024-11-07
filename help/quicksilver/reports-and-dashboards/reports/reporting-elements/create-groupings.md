@@ -6,24 +6,26 @@ description: Vous pouvez créer un regroupement personnalisé à partir de zéro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '458'
+ht-degree: 92%
 
 ---
 
 # Créer des regroupements dans Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)-->
 
 Les résultats d’un rapport ou d’une liste peuvent être organisés avec un regroupement. Les regroupements classent les informations en fonction d’un élément d’information particulier.
 
 Vous pouvez créer un regroupement personnalisé à partir de zéro ou personnaliser un regroupement existant. Suivez les étapes ci-dessous pour créer un regroupement à partir de zéro.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -37,20 +39,31 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Requête ou supérieure </p> </td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Contributeur ou version ultérieure</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Requête ou supérieure</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Accès Modifier aux Rapports, Tableaux de bord et Calendriers pour créer un regroupement dans un rapport</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Accès Modifier aux Rapports, Tableaux de bord et Calendriers pour créer un regroupement dans un rapport</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations de gestion relatives à un rapport pour modifier un regroupement dans un rapport</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td><p>Autorisations de gestion relatives à un rapport pour modifier un regroupement dans un rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Créer un regroupement
 
@@ -59,10 +72,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    ![Sélection d’un nouveau regroupement](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Cliquez sur **Nouveau regroupement**.
+1. Cliquez sur **+ Nouveau regroupement**.
 Le créateur d’interface pour la création du regroupement s’ouvre.
 
-1. Dans la section **Prévisualisation du regroupement**, cliquez sur **Ajouter un regroupement** pour définir le mode d’organisation des informations du rapport. Vous trouverez ci-dessous un aperçu de ce à quoi ressemble un regroupement dans le rapport.
+1. Dans la zone **Aperçu du groupement**, cliquez sur **Ajouter un groupement** pour définir comment vous souhaitez que les informations du rapport soient organisées. Vous trouverez ci-dessous un aperçu de ce à quoi ressemble un regroupement dans le rapport.
 
 1. Commencez à saisir le nom du champ qui représente la manière dont vous souhaitez organiser les informations dans le rapport, puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
 1. (Facultatif et le cas échéant) Lors de la création d’un regroupement dans une liste mise à jour, sélectionnez **Réduire ce regroupement par défaut** si vous souhaitez que les résultats du regroupement s’affichent de manière réduite plutôt que développée.Ce paramètre est désactivé par défaut et les résultats du regroupement s’affichent toujours dans la liste étendue.

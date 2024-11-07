@@ -6,14 +6,16 @@ description: Consultez cet article pour en savoir plus sur les directives relati
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 96%
 
 ---
 
 # Modifier la largeur et l’ordre des colonnes
+
+<!-- Audited: 11/2024 -->
 
 Vous trouverez ci-dessous des directives sur le fonctionnement des largeurs de colonnes dans Adobe Workfront :
 
@@ -36,6 +38,8 @@ Vous trouverez ci-dessous des directives sur le fonctionnement des largeurs de c
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -48,20 +52,31 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Requête ou supérieure </p> </td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Contributeur ou version ultérieure</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Requête ou supérieure</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier la vue d’un rapport.</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier la vue d’un rapport.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Gérer les autorisations d’un rapport pour modifier une vue dans un rapport.</p> <p>Gérer les autorisations d’une vue pour la modifier</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander un accès aux objets</a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport pour modifier une vue dans un rapport.</p> <p>Gérer les autorisations d’une vue pour la modifier</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou votre administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modifier la largeur et l’ordre des colonnes
 
@@ -113,17 +128,13 @@ Pour plus d’informations sur l’export de données à partir de listes et de 
 #### Redimensionner temporairement des colonnes {#resize-columns-temporarily}
 
 1. Accédez à la liste que vous souhaitez modifier.
-1. Faites glisser la bordure de la colonne jusqu’à ce qu’elle atteigne la taille souhaitée.\
+1. Faites glisser la bordure d’un en-tête de colonne jusqu’à ce que la colonne atteigne la taille souhaitée.\
    ![](assets/column-resize-350x124.png)
 
 #### Réorganiser temporairement des colonnes {#reorder-columns-temporarily}
 
 1. Accédez à la liste que vous souhaitez modifier.
-1. Cliquez sur la colonne que vous souhaitez déplacer pour la sélectionner.
-1. Faites la glisser vers l’emplacement souhaité.
-1. Déposez la colonne dans cet emplacement pour la déplacer.
-
-   ![](assets/column-reorder-350x118.png)
+1. Cliquez sur l’en-tête de colonne que vous souhaitez déplacer et faites-le glisser jusqu’à l’emplacement souhaité.
 
 >[!TIP]
 >

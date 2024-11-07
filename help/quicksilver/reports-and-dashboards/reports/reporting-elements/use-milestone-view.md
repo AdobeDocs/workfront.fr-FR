@@ -6,16 +6,16 @@ description: Vous pouvez appliquer la vue Jalon à une liste de projets ou à un
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Utiliser la vue Jalon
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 Vous pouvez appliquer la vue Jalon à une liste de projets ou à un rapport.
 
@@ -42,8 +42,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> 
-   <p>Nouveau : Standard</p>
-   <p>Actuellement : Travail ou licence supérieure </p> </td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Travail ou supérieur</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
