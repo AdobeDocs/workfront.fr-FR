@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: 092c94219e77ba3cef316f581646cb0b4488c5cd
 workflow-type: tm+mt
-source-wordcount: '3689'
-ht-degree: 73%
+source-wordcount: '3847'
+ht-degree: 70%
 
 ---
 
@@ -383,21 +383,20 @@ Les types de champ en pourcentage capturent les informations au format numériqu
 
      >[!NOTE]
      >
-     >    Si vous sélectionnez Autoriser les nombres négatifs et que les valeurs négatives sont stockées sur les enregistrements auxquels le champ est associé, vous ne pouvez plus désélectionner ce paramètre à l’avenir.
+     >Si vous sélectionnez Autoriser les nombres négatifs et que les valeurs négatives sont stockées sur les enregistrements auxquels le champ est associé, vous ne pouvez plus désélectionner ce paramètre à l’avenir.
 
-   <!--<div class="preview">  
+   <div class="preview">
 
-    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
-        * **Number**: The percent value displays as a number followed by the percentage sign. 
-        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
-        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
+   * **Afficher comme** : dans le menu déroulant, choisissez comment afficher les valeurs en pourcentage dans la vue de tableau. Sélectionnez l’une des options suivantes :
+      * **Number** : la valeur de pourcentage s’affiche sous la forme d’un nombre suivi du signe de pourcentage.
+      * **Bar** : la valeur de pourcentage s’affiche sous forme de barre en regard du nombre de pourcentages. La couleur de remplissage de la barre indique la valeur de pourcentage.
+      * **Cercle** : la valeur de pourcentage s’affiche sous forme de contour d’un cercle à côté du nombre de pourcentages. La couleur de remplissage du contour du cercle indique la valeur de pourcentage.
 
-    >[!NOTE]
-    >
-    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
-    >* You can change the Show as selection when editing the field later. 
-    </div>-->
-
+   >[!NOTE]
+   >
+   >* La sélection que vous effectuez dans le champ Afficher sous s’applique uniquement à la valeur de pourcentage visible dans la vue de tableau. La valeur de pourcentage du champ s’affiche sous la forme d’un nombre suivi du signe de pourcentage partout ailleurs dans Workfront Planning. Cela s’applique également au champ de type pourcentage lorsqu’il s’affiche sous la forme d’un champ de recherche dans les vues de table d’autres enregistrements.
+   >* Vous pouvez modifier la sélection Afficher comme lors de la modification ultérieure du champ.
+   </div>
 
 1. Cliquez sur **Créer**.
 
