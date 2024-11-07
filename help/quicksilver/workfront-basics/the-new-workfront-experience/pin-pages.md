@@ -5,10 +5,10 @@ description: Vous pouvez épingler votre travail le plus important dans  [!DNL A
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: b42028c7f4934d7d2538e078372dd32262232729
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '413'
+ht-degree: 80%
 
 ---
 
@@ -70,33 +70,32 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 Vous pouvez modifier le nom d’une page épinglée pour qu’elle ait plus de signification pour vous.
 
 1. Passez la souris sur la page épinglée dans le volet de navigation supérieur ou dans le **[!UICONTROL menu Plus]**.
-1. Cliquez sur la flèche en regard du nom de l’épingle et sélectionnez **[!UICONTROL Renommer l’épingle]**.
+1. Cliquez sur l’icône Plus ![](assets/more-icon.png) en regard du nom de la épingle et sélectionnez **[!UICONTROL Renommer la épingle]**.
 
-   ![Renommer l’épingle](assets/rename-remove-pin.png)
+   ![Renommer l’épingle](assets/pin-menu.png)
 
-1. Saisissez le nouveau nom de l’épingle et cliquez sur l’icône de la coche ou appuyez sur Entrée.
+1. Saisissez le nouveau nom d&#39;épingle, puis cliquez sur **Enregistrer**.
 
-   ![Cliquez sur la case cochée pour renommer l’épingle](assets/rename-pin-click-checkmark.png).
+   ![Cliquez sur la case cochée pour renommer l’épingle](assets/new-pin-name.png).
 
-   Une petite fenêtre pop-up apparaît pendant quelques secondes après que vous avez cliqué sur la coche ou appuyé sur Entrée, vous permettant d‘annuler la modification du nom de l’épingle avant qu’elle ne soit enregistrée.
 
 ## Réorganiser les pages épinglées
 
 Vous pouvez réorganiser l’ordre d’affichage des pages épinglées.
 
-1. Passez la souris sur la page épinglée dans le volet de navigation supérieur ou dans le **[!UICONTROL menu Plus]**. Lorsque vous voyez le curseur manuel, cliquez sur l’épingle et faites-la glisser dans l’ordre souhaité.
+1. Passez la souris sur la page épinglée que vous souhaitez déplacer, puis cliquez sur l’icône **Plus** .
+1. Sélectionnez **Déplacer à gauche** ou **Déplacer à droite** pour déplacer votre épingle.
+1. (Facultatif) Sélectionnez **Déplacer vers l’avant** pour déplacer votre épingle vers la position extrême droite de la barre d’épingles.
+
+   ![déplacer les pin&#39;s](assets/pin-menu.png)
 
    Vos modifications seront automatiquement enregistrées et mémorisées la prochaine fois que vous accéderez à Workfront.
 
 ## Supprimer une page épinglée
 
-1. Cliquez sur la page épinglée que vous souhaitez désépingler.
-1. Cliquez sur **[!UICONTROL Désépingler la page actuelle]** en haut de l’écran.
+1. Cliquez sur l’icône Plus ![](assets/more-icon.png) en regard de la épingle à supprimer.
+1. Cliquez sur **Supprimer le pin**.
 
-   Ou
-
-   Cliquez sur la flèche en regard du nom de l’épingle et sélectionnez **[!UICONTROL Supprimer l’épingle]**.
-
-   ![Supprimer l’épingle](assets/rename-remove-pin.png)
+   ![Supprimer l’épingle](assets/pin-menu.png)
 
    La page n’est plus accessible depuis le haut d’une page dans [!DNL Workfront].

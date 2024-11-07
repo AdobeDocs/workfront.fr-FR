@@ -6,10 +6,10 @@ description: Les statuts de décision des documents sont répertoriés et expliq
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: bb889a181babe8c8641775871292c9a083d92818
+source-git-commit: 37c4b6d5609c429d6e0706e48d1143596eca9ea4
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 87%
+source-wordcount: '163'
+ht-degree: 95%
 
 ---
 
@@ -18,10 +18,6 @@ ht-degree: 87%
 Vous pouvez afficher le statut du document directement dans la liste des documents :
 
 ![](assets/status-in-doc-list.png)
-
->[!IMPORTANT]
->
->La possibilité d’afficher l’état du document dans la liste de documents est temporairement indisponible.
 
 
 Les statuts possibles sont les suivants :

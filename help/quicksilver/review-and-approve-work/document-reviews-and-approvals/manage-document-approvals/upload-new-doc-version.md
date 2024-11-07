@@ -5,10 +5,10 @@ title: Télécharger une nouvelle version de document et demander une approbatio
 description: Vous pouvez charger une nouvelle version de document et demander son approbation à d’autres utilisateurs dans Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 66aa4c29743c031b1aff3b67364ff95f2b810ef8
+source-git-commit: cf2a6353df0ea0e3e1c473092dab5f263a98a2fd
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 64%
+source-wordcount: '432'
+ht-degree: 59%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 64%
 Si un document marqué doit être validé dans une révision précédente, vous pouvez charger une nouvelle version dans le document d’origine et lancer un autre cycle de validations.
 
 Si le nom de fichier de la nouvelle version est différent de celui de la version précédente, Workfront affiche le document avec le nom de fichier le plus récent.
+
+Lorsqu’une nouvelle version est ajoutée à un document avec les validations en attente, la validation de la version précédente s’affiche comme Retiré. Le processus d&#39;approbation précédent se termine, même si certains participants n&#39;ont pas encore pris de décision.
 
 ## Conditions d’accès
 
