@@ -4,10 +4,11 @@ description: Mises à jour de l’apparence pendant la période de publication d
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
+source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 1%
+source-wordcount: '411'
+ht-degree: 2%
 
 ---
 
@@ -49,19 +50,6 @@ Pour plus d&#39;informations sur les taux d&#39;exchange, voir [Configuration de
 Nous avons mis à jour la page Exporter les données (Kick-Starts) dans la zone Configuration avec une conception plus moderne compatible avec d’autres zones de Workfront.
 
 Pour plus d’informations, reportez-vous à la section [Exportation de données de Workfront via Kick-Starts](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
-
-## Mises à jour de la barre de navigation de Workfront
-
->[!NOTE]
->
->Version de production pour tous les clients : avant la version 24.11 (14 novembre 2024)
-
-Nous avons mis à niveau la barre de navigation de Workfront pour améliorer ses performances. Les changements d’apparence sont minimes.
-
-Les modifications les plus visibles sont les suivantes :
-
-* Les écrans déroulants Favoris et Récents ne comportent plus de bouton de fermeture. Vous pouvez simplement cliquer en dehors de l’écran ou appuyer sur la touche Échap de votre clavier pour le fermer.
-* Vous ne pouvez plus faire glisser et déposer des pages épinglées pour les organiser. Il existe plutôt un menu déroulant avec des boutons permettant de déplacer les pages épinglées.
 
 ## Mise à jour de l’apparence pour la fenêtre Envoyer la mise à jour à l’utilisateur
 
