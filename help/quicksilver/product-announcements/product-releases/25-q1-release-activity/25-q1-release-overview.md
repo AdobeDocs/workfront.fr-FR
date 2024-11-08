@@ -4,10 +4,11 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
+source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 54%
+source-wordcount: '920'
+ht-degree: 55%
 
 ---
 
@@ -237,7 +238,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">L’assistant AI peut désormais travailler avec des projets, des tâches et des problèmes</a></p>
-                <p>Afin de faciliter la gestion de vos tâches dans Workfront, nous avons mis à jour l’assistant d’IA pour qu’il traite les projets, les tâches et les problèmes. L’assistant d’IA peut désormais localiser des projets, des tâches et des problèmes en fonction de critères que vous avez spécifiés, tels que "Trouver mes tâches qui doivent être effectuées cette semaine".</p>
+                <p>Afin de faciliter la gestion de vos tâches dans Workfront, nous avons mis à jour l’assistant d’IA pour qu’il traite les projets, les tâches et les problèmes. Désormais, l’assistant d’IA peut localiser ou créer des projets, des tâches et des problèmes en fonction des critères que vous avez spécifiés.</p>
             </td>
             <td><p><b>Disponible à ces dates :</b></p>
                 <ul>
