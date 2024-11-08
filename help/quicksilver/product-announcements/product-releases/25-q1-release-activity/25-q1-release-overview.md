@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '921'
 ht-degree: 55%
 
 ---
@@ -135,7 +135,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau statut Retiré disponible pour les approbations de version de document</a></p>
-                <p>Lorsqu'une nouvelle version est ajoutée à un document avec les validations en attente, les validations de la version précédente s'affichent désormais comme Retiré. Le processus d'approbation précédent se termine, même si certains participants n'ont pas encore pris de décision.</p>
+                <p>Lorsqu’une nouvelle version est ajoutée à un document avec des validations en attente, la validation de la version précédente s’affiche désormais sous la forme "Retiré", indiquant que le processus de validation préalable s’est arrêté en raison de la nouvelle version ajoutée.</p>
             </td>
             <td><p><b>Disponible à ces dates :</b></p>
                 <ul>

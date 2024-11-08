@@ -4,10 +4,11 @@ description: Premier trimestre 2025 Améliorations de la gestion des documents
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 58%
+source-wordcount: '175'
+ht-degree: 53%
 
 ---
 
@@ -27,4 +28,6 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >
 >Aperçu de la version : 7 novembre 2024 ; Production pour une version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Lorsqu&#39;une nouvelle version est ajoutée à un document avec les validations en attente, les validations de la version précédente s&#39;affichent désormais comme Retiré. Le processus d&#39;approbation précédent se termine, même si certains participants n&#39;ont pas encore pris de décision.
+Lorsqu’une nouvelle version est ajoutée à un document avec des validations en attente, la validation de la version précédente s’affiche désormais sous la forme &quot;Retiré&quot;, indiquant que le processus de validation préalable s’est arrêté en raison de la nouvelle version ajoutée.
+
+Pour plus d&#39;informations, voir [Télécharger une nouvelle version de document et demander une approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
