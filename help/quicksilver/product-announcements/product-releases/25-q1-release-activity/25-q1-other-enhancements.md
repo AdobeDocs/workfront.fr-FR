@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 15%
+source-wordcount: '209'
+ht-degree: 16%
 
 ---
 
@@ -24,11 +24,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >
 >Aperçu de la version : 31 octobre 2024 ; Production pour une version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Afin de faciliter la gestion de vos tâches dans Workfront, nous avons mis à jour l’assistant d’IA pour qu’il traite les projets, les tâches et les problèmes. L’assistant d’IA peut désormais :
-
-* Recherchez des projets, des tâches et des problèmes en fonction de critères que vous avez spécifiés, tels que &quot;Trouver mes tâches qui doivent être effectuées cette semaine&quot;.
-* Créez des projets, des tâches et des problèmes en fonction des informations que vous fournissez, par exemple &quot;Créez une tâche appelée Revise BAT dans la campagne de printemps du projet&quot;.
-
+Afin de faciliter la gestion de vos tâches dans Workfront, nous avons mis à jour l’assistant d’IA pour qu’il traite les projets, les tâches et les problèmes. L’assistant d’IA peut désormais localiser des projets, des tâches et des problèmes en fonction de critères que vous avez spécifiés, tels que &quot;Trouver mes tâches qui doivent être effectuées cette semaine&quot;.
 Auparavant, l’assistant IA ne pouvait pas travailler directement avec des projets, des tâches et des problèmes.
 
 Votre administrateur Workfront peut activer ou désactiver l’assistant d’IA pour votre entreprise. L’assistant d’IA est disponible pour les instances avec des plans Select, Prime et Ultimate.
