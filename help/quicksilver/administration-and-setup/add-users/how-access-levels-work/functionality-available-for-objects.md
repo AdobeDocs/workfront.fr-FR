@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 523c2fe466b0afb8f65730ae8f2434f613e31439
+source-git-commit: edbd33cbb343f8c9f3ebd09ebb067444dd9efcf5
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1668'
 ht-degree: 95%
 
 ---
@@ -228,7 +228,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avo
 | Modifier les détails | ✓ | ✓ | ✓ |   |
 | Téléchargement | ✓ | ✓ | ✓ | ✓ |
 | Passage en caisse | ✓ | ✓ | ✓ |   |
-| Ajouter des approbateurs et approbatrices | ✓ | ✓ | ✓ |   |
+| Ajouter des approbateurs (documents) | ✓ | ✓ | ✓ |   |
 | Approuver des documents | ✓ | ✓ | ✓ | ✓ |
 | Joindre des formulaires personnalisés | ✓ | ✓ | ✓ |   |
 | Modifier les champs personnalisés | ✓ | ✓ | ✓ |   |
@@ -238,8 +238,8 @@ Les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avo
 | Charger une nouvelle version | ✓ | ✓ | ✓ |   |
 | Supprimer une version | ✓ | ✓ | ✓ |   |
 | Aperçu | ✓ | ✓ | ✓ | ✓ |
-| Épreuve | ✓ | ✓ | ✓ | ✓ |
-| Créer une épreuve | ✓ |   |   |   |
+| Approuver les épreuves | ✓ | ✓ | ✓ | ✓ |
+| Générer des bons à tirer | ✓ |   |   |   |
 | Supprimer l’épreuve | ✓ | ✓ | ✓ |   |
 | Ajouter/Supprimer&#42;&#42; | ✓ | ✓ | ✓ |   |
 | Renommer&#42;&#42; | ✓ | ✓ | ✓ |   |
