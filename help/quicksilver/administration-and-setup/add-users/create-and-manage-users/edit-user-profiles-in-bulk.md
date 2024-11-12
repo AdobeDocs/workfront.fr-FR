@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 95%
+source-wordcount: '2210'
+ht-degree: 96%
 
 ---
 
@@ -215,7 +215,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
        <p>Pour plus d’informations sur les groupes de ressources, voir <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">Vue d’ensemble des groupes de ressources</a>.</p> </li> 
        <li><b>Coûts par heure</b> : le montant des coûts par heure pour l’utilisateur ou l’utilisatrice. </li> 
        <li><b>Facturation par heure</b> : le montant de la facturation par heure pour l’utilisateur ou l’utilisatrice.</li> 
-       <li><b>Formulaires personnalisés</b> : associez un formulaire personnalisé existant aux utilisateurs et utilisatrices. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à un utilisateur ou une utilisatrice. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Concevoir un formulaire avec le concepteur de formulaires</a>.</li> 
+       <li><b>Formulaires personnalisés</b> : associez un formulaire personnalisé existant aux utilisateurs et utilisatrices. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à un utilisateur ou une utilisatrice. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Création d’un formulaire personnalisé</a>.</li> 
        <li><b>Commenter</b> : saisissez un commentaire dans le champ prévu à cet effet. Tous les utilisateurs et utilisatrices sélectionnés recevront une notification in-app ainsi qu’une notification par e-mail contenant votre commentaire. Le commentaire s’affiche dans l’onglet Mises à jour du profil des utilisateurs et utilisatrices.</li> 
        </ul> </td> 
      </tr> 
