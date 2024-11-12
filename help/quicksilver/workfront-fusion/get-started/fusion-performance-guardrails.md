@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion nécessite une licence Adobe Workfront F
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: ec5ed146456c2f75926820f5421bf4feee121399
+source-git-commit: 7c27dc98c4ce59d598be537a1f09c6eddf9bce42
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 94%
+source-wordcount: '705'
+ht-degree: 80%
 
 ---
 
@@ -50,6 +50,10 @@ L’automatisation du travail exige un traitement rapide, c’est pourquoi [!DNL
 ## Fichiers
 
 * La capacité totale de traitement des fichiers de Fusion est de **1 Go**. La limite est basée sur un coût total en mémoire. Chaque opération contribue à ce coût. Si un seul fichier de 400 Mo est téléchargé et chargé, le coût total de capacité du fichier sera de 800 Mo.
+* Les organisations qui bénéficient de l’offre Workfront Ultimate ont accès à un traitement de fichiers accru supérieur à 1 Go. La plateforme Fusion peut prendre en charge des fichiers individuels allant jusqu’à 15 Go pour une seule action (par exemple, télécharger un fichier), mais d’autres facteurs affectent le transfert de données. La limite de taille de fichier d’une action unique dépend du service Web auquel Fusion se connecte. Le transfert de données est le traitement total d’une seule exécution. Cela signifie que plusieurs actions d’une seule exécution contribuent au transfert total des données. La fusion traitera les fichiers jusqu’à ce que la limite d’exécution de 40 minutes soit atteinte.
+
+  Pour plus d’informations, voir [Utilisation de fichiers volumineux dans Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md).
+
 
 ## Utilisation de la mémoire du serveur
 
