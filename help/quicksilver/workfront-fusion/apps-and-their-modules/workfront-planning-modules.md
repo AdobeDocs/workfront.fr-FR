@@ -11,10 +11,10 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
+source-git-commit: 8cb79a06f46c9a379f7394a6bef14f97d4ff7f98
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 84%
+source-wordcount: '1143'
+ht-degree: 82%
 
 ---
 
@@ -65,15 +65,55 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 Vous pouvez créer une connexion à votre compte [!DNL Workfront Planning] directement depuis l’intérieur d’un module [!DNL Workfront Fusion].
 
-1. Dans n’importe quel module d’application [!DNL Workfront Planning], cliquez sur **[!UICONTROL Ajouter]** à côté de la zone [!UICONTROL Connexion].
-1. Saisissez un nom pour cette connexion.
-1. Indiquez si vous souhaitez vous connecter à un environnement de production ou à un environnement hors production.
-1. Indiquez si vous vous connectez à un compte de service ou à un compte personnel.
-1. Cliquez sur **[!UICONTROL Connexion SAML]** pour créer la connexion et revenir au module.
+1. Dans un module [!DNL Adobe Workfront Planning], cliquez sur **[!UICONTROL Ajouter]** en regard de la zone Connexion.
+
+1. Remplissez les champs suivants :
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>Saisissez un nom pour cette connexion.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Environment]</td>
+          <td>Indiquez si vous vous connectez à un environnement de production ou hors production.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type]</td>
+          <td>Choisissez si vous souhaitez vous connecter à un compte de service ou à un compte personnel.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]<p>(Facultatif)</p></td>
+          <td>Saisissez votre [!UICONTROL Client ID] [!DNL Adobe]. Vous pouvez le trouver dans la section [!UICONTROL Credentials details] d’[!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]<p>(Facultatif)</p></td>
+          <td>Saisissez votre [!UICONTROL Client Secret] [!DNL Adobe]. Vous pouvez le trouver dans la section [!UICONTROL Credentials details] d’[!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Authentication URL]<p>(Facultatif)</p></td>
+          <td>Saisissez l’URL que votre instance de Workfront utilisera pour authentifier cette connexion. <p>La valeur par défaut est <code>https://oauth.my.workfront.com/integrations/oauth2</code>.</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Host prefix]</td>
+          <td>Saisissez votre préfixe d’hôte.<p>La valeur par défaut est <code>origin-</code>.</p>
+        </tr>
+      </tbody>
+    </table>
+1. Cliquez sur **[!UICONTROL Continuer]** pour enregistrer la connexion et revenir au module.
 
 ## Modules [!DNL Adobe Workfront Planning] et leurs champs
 
-### Surveiller les événements
+### Déclencheurs
+
+#### Surveiller les événements
 
 Ce module de déclenchement lance un scénario lorsqu’un enregistrement, un type d’enregistrement ou un espace de travail est créé, mis à jour ou supprimé dans Workfront Planning.
 
@@ -110,7 +150,12 @@ Ce module de déclenchement lance un scénario lorsqu’un enregistrement, un ty
   </tbody>
 </table>
 
-### Supprimer un type d’enregistrement
+### Actions
+
+* [Supprimer un type d’enregistrement](#delete-a-record-type)
+* [Effectuer un appel AI personnalisé](#make-a-custom-api-call)
+
+#### Supprimer un type d’enregistrement
 
 Ce module d’action supprime un seul type d’enregistrement dans la planification Workfront par son identifiant.
 
@@ -135,7 +180,7 @@ Ce module d’action supprime un seul type d’enregistrement dans la planificat
   </tbody>
 </table>
 
-### Effectuer un appel API personnalisé.
+#### Effectuer un appel API personnalisé.
 
 Ce module lance un appel API personnalisé à l’API [!DNL Adobe Workfront Planning].
 
@@ -149,26 +194,10 @@ Ce module lance un appel API personnalisé à l’API [!DNL Adobe Workfront Plan
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Path]</p>
+        <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>Saisissez un chemin relatif à https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL API version]</p>
-      </td>
-      <td>
-        <p>Sélectionnez la version d’API que vous souhaitez utiliser. Si vous ne sélectionnez pas de version, la version la plus récente est utilisée par défaut.</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL API Path override]</p>
-      </td>
-      <td>
-        <p>Saisissez un chemin relatif à https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/</p>
+        <p>Saisir un chemin relatif à <code>https://(YOUR_WORKFRONT_DOMAIN)/maestro/api/</code></p>
       </td>
     </tr>
     <tr>
@@ -193,7 +222,7 @@ Ce module lance un appel API personnalisé à l’API [!DNL Adobe Workfront Plan
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note :  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note :  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre JSON, placez les guillemets à l’extérieur de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -201,57 +230,18 @@ Ce module lance un appel API personnalisé à l’API [!DNL Adobe Workfront Plan
 </table>
 
 <!--
+### Searches
 
-### Delete a field
+#### Search records
 
-This action module deletes a single field in Workfront Planning by its ID.
-
->[!WARNING]
->
->Deleting a field in Workfront Planning deletes it and any data in it from every object of that record type in Workfront Planning.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the record type you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
-
-### Get a field 
-
-
-This action module retrieves a single field in Workfront Planning by its ID.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the field you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
+This action module retrieves a list of records based on criteria you specify.
 
 -->
 
-### Créer un enregistrement
+### Non catégorisé
+
+
+#### Créer un enregistrement
 
 Cette action crée un seul enregistrement dans la planification Workfront.
 
@@ -414,11 +404,3 @@ Cette action met à jour un seul enregistrement dans la planification Workfront.
      <tr>
   </tbody>
 </table>
-
-### Rechercher des enregistrements
-
-Ce module d’action récupère une liste d’enregistrements en fonction des critères que vous spécifiez.
-
->[!NOTE]
->
->Ce module est en construction.
