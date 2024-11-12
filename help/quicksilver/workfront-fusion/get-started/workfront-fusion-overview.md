@@ -8,7 +8,7 @@ description: Le rôle d’ [!DNL Adobe Workfront Fusion]  est d’automatiser vo
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 6c55cb0ad06e25f9ab3b7c483aada91c701f56f1
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 55%
@@ -78,7 +78,9 @@ Lors de vos débuts avec Workfront Fusion, les ressources suivantes pourront vo
 
 * Pour obtenir des ressources d’entraînement sur Workfront Fusion, reportez-vous à la section [Présentation de l’entraînement sur Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
 
+
 * Pour plus d’informations sur les scénarios, voir [Présentation du scénario](/help/quicksilver/workfront-fusion/scenarios/scenario-overview.md).
+
 
 * Pour commencer à créer des scénarios de pratique, voir [Création de scénarios de pratique](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md).
 
