@@ -5,19 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: d8631e16234486479aa70233aa3770b28ea0d218
+source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 
-# Création d’objets Workfront à l’aide d’automatismes d’enregistrement Workfront Planning
+# Création d’objets à l’aide d’automatismes d’enregistrement Workfront Planning
 
-Vous pouvez configurer des automatisations dans la planification Workfront qui, lorsqu’elles sont activées, créent des objets dans Workfront.
+Vous pouvez configurer des automatisations dans la planification Workfront qui, lorsqu’elles sont activées, créent des objets dans la planification Workfront ou Workfront.
 
-Vous activez l&#39;automatisation dans les enregistrements. L’objet dans Workfront est connecté à l’enregistrement Planning dans lequel vous avez activé l’automatisation.
+Vous activez l&#39;automatisation dans les enregistrements. L’objet créé est connecté à l’enregistrement Planning dans lequel vous avez activé l’automatisation.
 
 Par exemple, vous pouvez créer une automatisation qui prend une campagne de planification Workfront et crée un projet dans Workfront pour suivre la progression de cette campagne. Le projet sera connecté à la campagne de planification Workfront.
 
@@ -26,7 +26,7 @@ Pour plus d&#39;informations sur les enregistrements connectés, consultez la [p
 
 ## Configuration d’une automatisation dans la planification Workfront
 
-Vous devez configurer une automatisation dans la planification Workfront avant de pouvoir l’utiliser pour créer des objets Workfront.
+Vous devez configurer une automatisation dans la planification Workfront avant de pouvoir l’utiliser pour créer des objets.
 
 1. Cliquez sur le menu **Plus** ![](assets/more-menu.png) et sélectionnez **Automations**.
 
@@ -44,14 +44,14 @@ Vous devez configurer une automatisation dans la planification Workfront avant d
    * Programme
    * Groupe
 
-1. Dans le champ **Sélectionner le champ à utiliser dans le nom du projet** , sélectionnez un champ d’enregistrement. Le nouveau projet dans Workfront aura pour nom le contenu de ce champ.
-1. Dans le champ **Sélectionner le champ pour lier le projet créé** , sélectionnez un champ d’enregistrement. Le nouveau projet dans Workfront apparaîtra dans ce champ lors de l’affichage de l’enregistrement dans Workfront Planning.
+1. Dans le champ **Sélectionner le champ à utiliser dans le nom du projet** , sélectionnez un champ d’enregistrement. Le contenu de ce champ sera utilisé comme nom pour le nouvel objet.
+1. Dans le champ **Sélectionner le champ pour lier le projet créé** , sélectionnez un champ d’enregistrement. Le nouvel objet apparaît dans ce champ lors de l’affichage de l’enregistrement dans Workfront Planning.
 1. Sélectionnez d’autres options disponibles pour le type d’objet que vous créez.
 1. Cliquez sur **Créer**
 
 L’automatisation apparaît dans la liste des automatisations et peut être utilisée dans les enregistrements.
 
-## Utilisation d’une automatisation de planification Workfront pour créer un objet Workfront
+## Utilisation d’une automatisation de planification Workfront pour créer un objet
 
 1. Dans Workfront Planning, ouvrez la page de type d’enregistrement contenant les enregistrements que vous souhaitez utiliser pour créer des objets Workfront.
 1. Sélectionnez un ou plusieurs enregistrements.

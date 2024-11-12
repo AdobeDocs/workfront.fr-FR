@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
 workflow-type: tm+mt
-source-wordcount: '14576'
+source-wordcount: '14583'
 ht-degree: 94%
 
 ---
@@ -2125,6 +2125,7 @@ ht-degree: 94%
       * [Gérer la mise en page de la page d’enregistrement](planning/records/manage-the-record-page.md)
       * [Gérer des enregistrements dans la section Planning des objets Adobe Workfront](planning/records/manage-records-in-planning-section.md)
       * [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md)
+      * [Création d’objets à l’aide d’automatismes d’enregistrement Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Demandes de planification Adobe Workfront {#adobe-workfront-planning-requests}
       * [Demandes de planification Adobe Workfront : index des articles](planning/requests/requests-article-index.md)
       * [Création et gestion d’un formulaire de requête dans Adobe Workfront Planning](planning/requests/create-request-form.md)
