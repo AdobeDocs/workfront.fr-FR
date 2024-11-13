@@ -6,18 +6,21 @@ title: Utilisation de fichiers volumineux dans Adobe Workfront Fusion
 description: La prise en charge des fichiers volumineux est actuellement disponible pour les connecteurs Workfront et HTTP.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: d9f7f1b9a97faf767965abce4f64c62cb9aad8d2
+exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
+source-git-commit: 5e32c0dd3378fc49f8687668f11daa5dc838c587
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1089'
 ht-degree: 6%
 
 ---
 
 # Utilisation de fichiers volumineux dans Adobe Workfront Fusion
 
-Des fonctionnalités améliorées de transfert de données sont désormais disponibles dans Workfront Fusion, ce qui permet à des scénarios de traiter des fichiers beaucoup plus volumineux.
+>[!IMPORTANT]
+>
+>La fonctionnalité de fichiers volumineux est disponible uniquement pour les clients Workfront Ultimate. Il s’agit d’un déploiement échelonné. Toutes les organisations Fusion disposant d’un plan Workfront Ultimate disposeront d’une importante fonctionnalité de fichier d’ici janvier 2025.
 
-La fonctionnalité de fichiers volumineux n’est disponible que pour les clients Workfront Ultimate.
+Des fonctionnalités améliorées de transfert de données sont désormais disponibles dans Workfront Fusion, ce qui permet à des scénarios de traiter des fichiers beaucoup plus volumineux.
 
 Pour gérer les fichiers plus volumineux, vos scénarios doivent être mis à jour.
 
@@ -240,7 +243,3 @@ If a file is not on this list, it does not support large files. For these connec
 This limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.
 
 -->
-
-
-
-
