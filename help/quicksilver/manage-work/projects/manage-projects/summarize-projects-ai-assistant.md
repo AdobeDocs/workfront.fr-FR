@@ -5,10 +5,11 @@ title: Résumer les projets à l’aide de l’assistant d’IA
 description: L’en-tête du projet comprend un bouton qui utilise l’assistant d’IA pour résumer les projets.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
+exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 18%
+source-wordcount: '367'
+ht-degree: 13%
 
 ---
 
@@ -17,8 +18,6 @@ ht-degree: 18%
 L’assistant d’IA Workfront peut synthétiser les projets, ce qui vous permet de comprendre rapidement les informations du projet, telles que l’objectif et l’état du projet, donne des exemples de tâches terminées et toujours en attente et fournit des détails et des notes supplémentaires.
 
 Vous pouvez utiliser le bouton Résumé du projet pour générer un résumé ou saisir une invite dans l’assistant d’IA.
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 >[!NOTE]
 >
@@ -69,8 +68,6 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 
 
-<div class="preview">
-
 ## Bouton Résumer à l’aide du résumé du projet
 
 1. Accédez au flux de mise à jour que vous souhaitez résumer.
@@ -82,8 +79,6 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 1. Affichez le résumé de l’IA dans le panneau de l’assistant d’IA.
 1. (Facultatif) Affinez l’invite pour vous assurer qu’elle vous donne les informations dont vous avez besoin.
-
-   </div>
 
 ## Résumer un objet dans l’assistant d’IA
 
@@ -99,4 +94,3 @@ Pour afficher la synthèse d’un objet :
    L’assistant d’IA peut prendre quelques instants pour générer le résumé, selon la taille ou la complexité de l’objet.
 
 1. Affichez le résumé de l’IA dans le panneau de l’assistant d’IA.
-

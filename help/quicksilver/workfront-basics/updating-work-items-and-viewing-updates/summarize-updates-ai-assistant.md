@@ -5,10 +5,11 @@ title: Résumer les mises à jour à l’aide de l’assistant AI
 description: Les mises à jour d’un objet comprennent un bouton qui utilise l’assistant d’IA pour résumer les mises à jour.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 16%
+source-wordcount: '379'
+ht-degree: 11%
 
 ---
 
@@ -17,8 +18,6 @@ ht-degree: 16%
 L’assistant d’IA pour Workfront peut résumer le contenu du flux de mise à jour, ce qui vous permet de comprendre rapidement les commentaires et les discussions qui se produisent autour d’un objet Workfront.
 
 Vous pouvez utiliser le bouton Résumer le contenu pour générer un résumé ou saisir une invite dans l’assistant d’IA.
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 >[!NOTE]
 >
@@ -60,8 +59,6 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
   Pour plus d’informations, voir [Activation ou désactivation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
 
-<div class="preview">
-
 ## Résumer à l’aide du bouton Résumer le contenu
 
 1. Accédez au flux de mise à jour que vous souhaitez résumer.
@@ -75,8 +72,6 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 1. (Facultatif) Affinez l’invite pour vous assurer qu’elle vous donne les informations dont vous avez besoin.
 
    Par exemple, vous pouvez affiner l’invite Résumé du contenu afin de résumer les commentaires pour les 14 derniers jours, au lieu des 7 derniers.
-
-   </div>
 
 ## Résumer un objet dans l’assistant d’IA
 
@@ -92,4 +87,3 @@ Pour afficher la synthèse d’un objet :
    L’assistant d’IA peut prendre quelques instants pour générer le résumé, selon la taille ou la complexité de l’objet.
 
 1. Affichez le résumé de l’IA dans le panneau de l’assistant d’IA.
-
