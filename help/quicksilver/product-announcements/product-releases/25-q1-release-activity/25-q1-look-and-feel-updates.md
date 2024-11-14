@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 2%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
@@ -17,6 +17,24 @@ ht-degree: 2%
 Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées au cours de la période de publication du premier trimestre 2025.
 
 Pour obtenir la liste de toutes les modifications disponibles avec la version du premier trimestre 2025, consultez la [présentation de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Mises à jour de l’apparence pour les intégrations de documents
+
+>[!NOTE]
+>
+>Version de prévisualisation : vendredi 14 novembre 2024. Version de production pour l’ensemble des clientes et clients : vendredi 14 novembre 2024.
+
+Nous avons effectué des mises à niveau de performances dans la zone Configuration où vous configurez des intégrations personnalisées : Configuration > Documents > Intégration personnalisée. Cette mise à niveau inclut de légères modifications visuelles de la zone. Aucune fonctionnalité n’a été modifiée.
+
+## Mises à jour de l’apparence pour les pages Membres de l’entreprise et Taux de facturation des entreprises
+
+>[!NOTE]
+>
+>Aperçu de la version : 4 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+
+Nous avons mis à jour les pages Membres de l’entreprise et Taux de facturation de l’entreprise avec une conception plus moderne et cohérente avec d’autres zones de Workfront. Les appartenances à une entreprise sont accessibles via Configuration > Sociétés > sélectionnez le nom d’une société > sélectionnez Membres de la société dans le panneau de gauche. Les taux de facturation des entreprises sont accessibles via Configuration > Sociétés > sélectionnez le nom d’une société > sélectionnez Taux de facturation dans le panneau de gauche.
+
+Pour plus d’informations, voir [Créer et modifier des sociétés](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) et [Gérer les appartenances à une entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## Mises à jour de l’apparence pour les zones de navigation principale et secondaire
 

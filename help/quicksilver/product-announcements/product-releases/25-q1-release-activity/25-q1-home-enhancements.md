@@ -4,10 +4,11 @@ description: Améliorations de la page d’accueil du premier trimestre 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2517e07cacf9563ca3927db0ba3415f81ab41526
+exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 46%
+source-wordcount: '190'
+ht-degree: 33%
 
 ---
 
@@ -17,6 +18,21 @@ Cette page décrit toutes les améliorations apportées à la version du premier
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2025, consultez l’article [Vue d’ensemble de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Mise à jour des options dans la colonne Mon point de mire des priorités
+
+>[!NOTE]
+>
+>Version de prévisualisation : vendredi 14 novembre 2024. Version de production pour l’ensemble des clientes et clients : vendredi 14 novembre 2024.
+
+Nous avons mis à jour les options de la colonne Mon point de mires afin de vous aider à hiérarchiser et à trier votre travail d’une manière plus intuitive. Les nouvelles étiquettes incluent :
+
+* Urgent
+* Élevé
+* Normal
+* Faible
+
+Ce changement facilite l’affichage et l’organisation du travail en fonction de l’urgence. Pour plus d’informations, voir [Hiérarchisation des tâches importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+
 ## Affichage des détails du projet dans les priorités
 
 >[!NOTE]
@@ -25,4 +41,4 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 Vous pouvez désormais afficher les détails et les commentaires du projet à partir de la liste de travail dans Priorités.
 
-<!--For more information, see [View project and task details in the Priorities worklist](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).-->
+Pour plus d’informations, voir [Affichage des détails d’un projet et d’une tâche dans la liste de travail Priorités](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
