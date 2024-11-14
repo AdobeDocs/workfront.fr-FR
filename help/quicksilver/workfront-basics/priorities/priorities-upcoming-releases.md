@@ -5,13 +5,13 @@ description: Affichage des informations sur les prochaines versions des priorit�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e103da5f938fabf01fead5161263c4324e1c703
+exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
+source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # Priorités : versions à venir
 
@@ -21,8 +21,8 @@ Nous sommes ravis de vous montrer ce que nous avons à venir pour Priorités. Ut
   <tr>
     <td><strong>Procoming</strong>
     <ul>
-    <li><strong>Accéder aux détails du projet à partir de la liste de travail</strong> : l’onglet Détails du projet affiche les détails, commentaires et documents du projet.</li>
-   <li><strong>Afficher les documents dans l’onglet Documents</strong> : l’onglet Documents vous permet d’afficher les documents téléchargés vers des tâches et des problèmes. Vous pourrez afficher un aperçu et laisser des commentaires sur un document. </li>
+
+<li><strong>Afficher les documents dans l’onglet Documents</strong> : l’onglet Documents vous permet d’afficher les documents téléchargés vers des tâches et des problèmes. Vous pourrez afficher un aperçu et laisser des commentaires sur un document. </li>
     </ul>
     </td>
   </tr>
