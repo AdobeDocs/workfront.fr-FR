@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-lists
-title: Éléments de modification en ligne dans une liste dans  [!DNL Adobe Workfront]
+title: Modification en ligne des éléments dans une liste dans  [!DNL Adobe Workfront]
 description: Vous pouvez modifier des objets en ligne lorsqu’ils s’affichent dans une liste ou un rapport. Lorsque vous modifiez les informations sur les objets affichés dans une liste ou un rapport, l’objet est immédiatement mis à jour.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 98%
+source-wordcount: '709'
+ht-degree: 95%
 
 ---
 
 # Éléments de modification en ligne dans une liste dans [!DNL Adobe Workfront]
+
+<!--Audited: 11/2024-->
 
 Vous pouvez modifier des objets en ligne lorsqu’ils s’affichent dans une liste ou un rapport. Lorsque vous modifiez les informations sur les objets affichés dans une liste ou un rapport, l’objet est immédiatement mis à jour.
 
@@ -24,14 +26,18 @@ Pour plus d’informations sur les listes, voir [Commencer avec les listes dans 
 Bien que la plupart des objets affichés dans les listes ou les rapports soient modifiables en ligne dans [!DNL Adobe Workfront], il existe certaines limites, notamment :
 
 * Vous ne pouvez pas modifier les champs calculés ou les champs [!DNL Workfront] intégrés qui correspondent à des calculs.
-* Vous ne pouvez modifier que les champs associés directement aux objets de la liste. Vous ne pouvez pas modifier des champs appartenant à des objets associés aux objets de la liste.\
-   Par exemple, vous pouvez modifier le statut d’une tâche dans un rapport de tâche, mais vous ne pouvez pas modifier le nom du projet auquel la tâche est associée dans le même rapport. Vous ne pouvez modifier le nom du projet que dans un rapport de projet.
-* Vous ne pouvez pas modifier de champs en ligne lorsque la vue d’une liste n’affiche pas la devise par défaut.\
-   Pour plus d’informations sur l’affichage de la devise par défaut, voir la section [Modifier des rapports avec des devises uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) dans l’article [Créer des rapports de données financières avec des taux de change uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+* Vous ne pouvez modifier que les champs associés directement aux objets de la liste. Vous ne pouvez pas modifier des champs appartenant à des objets associés aux objets de la liste.
+
+  Par exemple, vous pouvez modifier le statut d’une tâche dans un rapport de tâche, mais vous ne pouvez pas modifier le nom du projet auquel la tâche est associée dans le même rapport. Vous ne pouvez modifier le nom du projet que dans un rapport de projet.
+* Vous ne pouvez pas modifier de champs en ligne lorsque la vue d’une liste n’affiche pas la devise par défaut.
+
+  Pour plus d’informations sur l’affichage de la devise par défaut, voir la section [Modifier des rapports avec des devises uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) dans l’article [Créer des rapports de données financières avec des taux de change uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 * Vous ne pouvez pas modifier les indicateurs et les icônes affichés dans une liste.
 * Vous ne pouvez pas modifier en ligne des champs de rapport issus d’autres rapports.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -40,25 +46,34 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> 
+    <p>Nouveau :</p>
+   <ul><li><p>Contributeur ou version ultérieure </p></li>
+   </ul>
+
+<p>Actuel :</p>
+   <ul><li><p>Requête ou supérieure</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Accès en [!UICONTROL Edit] à la zone dans laquelle se trouve la liste</p> <p>Par exemple, pour modifier des tâches en ligne dans un projet, vous avez besoin de l’accès en [!UICONTROL Edit] aux projets.</p> <p>Note : si vous n’avez toujours pas d’accès, demandez à votre administrateur ou administratrice [!DNL Workfront] si des restrictions supplémentaires ont été définies dans votre niveau d’accès.<br>Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en [!UICONTROL Edit] à la zone dans laquelle se trouve la liste</p> <p>Par exemple, pour modifier des tâches en ligne dans un projet, vous avez besoin de l’accès en [!UICONTROL Edit] aux projets.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>[!UICONTROL Manage]</p> <p>Vous devez également disposer des autorisations nécessaires pour modifier certains champs, tels que les champs personnalisés, le statut, etc.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>[!UICONTROL Manage]</p> <p>Vous devez également disposer des autorisations nécessaires pour modifier certains champs, tels que les champs personnalisés, le statut, etc.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modifier des objets en ligne
 
@@ -72,13 +87,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >
    >Si vous disposez de plusieurs pages, vous pouvez localiser un objet à l’aide des éléments suivants :
    >
-   >   
-   >   
-   >   * **Pagination** : cliquez sur les flèches vers l’arrière et vers l’avant pour naviguer entre les pages.\
+   >   * **Pagination** : cliquez sur les flèches vers l’arrière et vers l’avant pour naviguer entre les pages.
    >     Située dans le coin inférieur droit de la liste, la zone [!UICONTROL pagination] reste visible lorsque vous faites défiler la liste.
-   >   * **Filtre rapide** : cliquez sur l’icône de filtre ou tapez Alt+F pour ouvrir le filtre rapide, puis saisissez du texte pour n’afficher que les éléments qui contiennent le texte saisi.\
+   >   * **Filtre rapide** : cliquez sur l’icône de filtre ou tapez Alt+F pour ouvrir le filtre rapide, puis saisissez du texte pour n’afficher que les éléments qui contiennent le texte saisi.
    >     Le filtre rapide se trouve dans la barre d’outils de la liste. Pour plus d’informations, voir [Appliquer le filtre rapide à une liste](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
-
 
    Si le champ peut être modifié, lui et tous les autres champs affichés dans la liste sont alors transformés en cellules modifiables.
 

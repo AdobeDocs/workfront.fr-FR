@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Tracer un graphique de rapport en fonction d’un champ personnalisé multi-sélection
+title: Graphique d’un rapport selon un champ personnalisé à sélection multiple
 description: Vous ne pouvez tracer un rapport en fonction d’un champ personnalisé multi-sélection qu’après avoir créé un champ calculé supplémentaire qui capture les choix sélectionnés dans le champ personnalisé multi-sélection.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 97%
+source-wordcount: '1004'
+ht-degree: 87%
 
 ---
 
 # Tracer un graphique de rapport en fonction d’un champ personnalisé multi-sélection
+
+<!--Audited: 11/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -39,6 +41,8 @@ Toutefois, s’il n’est pas possible d’avoir des champs distincts pour chaqu
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -46,25 +50,34 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+    <p>Nouveau :</p>
+   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <li><p>Standard pour modifier un rapport</p></li> </ul>
+
+<p>Actuel :</p>
+   <ul><li><p>Demande de modification d’un filtre </p></li>
+   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, aux vues et aux regroupements pour modifier un filtre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -102,7 +115,7 @@ Pour créer le champ personnalisé calculé qui fait référence au champ person
 
 1. Dans la boîte **Libellé**, nommez le nouveau champ calculé pour indiquer qu’il fait référence au champ personnalisé multi-sélection.
 
-   Par exemple : « Champ multi-sélection calculé »
+   Par exemple : &quot;Champ à sélection multiple calculé&quot;.
 
 1. Dans la case **Calcul**, saisissez le code suivant :
 
@@ -114,12 +127,12 @@ Pour créer le champ personnalisé calculé qui fait référence au champ person
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Facultatif) Si le champ personnalisé multi-sélection se trouve déjà dans ce formulaire et si ce formulaire est déjà attaché à des objets, activez l’option **Mettre à jour les calculs (en arrière-plan)**.
+1. (Facultatif) Si le champ personnalisé à sélection multiple figure déjà sur ce formulaire et si ce formulaire est déjà joint aux objets, activez l’option **Appliquer aux calculs existants** .
 
    Cela permet de s’assurer que le nouveau champ calculé est automatiquement rempli avec la valeur du champ personnalisé multi-sélection lorsqu’il est ajouté aux formulaires déjà attachés aux objets.
 
-1. Cliquez sur **Terminé**.
-1. Cliquez sur **Enregistrer + Fermer**.
+1. Cliquez sur **Appliquer**.
+1. Cliquez sur **Enregistrer et fermer**.
 
    Le champ personnalisé calculé est ajouté au formulaire personnalisé et, si le formulaire est actuellement rattaché à des objets, le champ est rempli avec les informations du champ personnalisé multi-sélection.
 
@@ -137,14 +150,14 @@ Pour créer le champ personnalisé calculé qui fait référence au champ person
 1. Cliquez sur **Actions de rapport**, puis sur **Modifier**.
 
 1. Sélectionnez l’onglet <strong>Regroupements</strong>, puis cliquez sur <strong>Ajouter un regroupement</strong>.
-1. Ajoutez le </strong>champ calculé multi-sélection<strong> que vous avez créé comme regroupement.
+1. Ajoutez le <strong>Champ à sélection multiple calculé</strong> que vous avez créé comme regroupement.
 1. Sélectionnez l’onglet <strong>Graphique</strong> et ajoutez un graphique à votre rapport.
 
    Par exemple, choisissez un graphique en **colonnes**.
    <br>Pour plus d’informations sur l’ajout d’un graphique à un rapport, voir la section <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Ajouter un graphique à un rapport</a> dans l’article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Créer un rapport personnalisé</a>.
-1. Dans le champ **Axe du bas (X)**, sélectionnez le <strong>champ calculé multi-sélection</strong> à afficher dans le graphique.
+1. Dans le champ **Axe inférieur (X)** , sélectionnez le <strong> champ à sélection multiple calculée </strong> à afficher dans le graphique.
 1. Cliquez sur <strong>Enregistrer + Fermer</strong>.
 
-   Le rapport affiche les résultats groupés par champ calculé multi-sélection dans un graphique.
+   Le rapport affiche les résultats regroupés par champ à sélection multiple calculée dans un graphique.
 
    ![](assets/chart-multi-select-field-column-chart-example.png)

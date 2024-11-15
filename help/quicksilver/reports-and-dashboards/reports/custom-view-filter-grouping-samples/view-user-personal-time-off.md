@@ -3,18 +3,20 @@ content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '«Vue : congés personnels de l’utilisateur ou de l’utilisatrice »'
-description: '«Vue : congés personnels de l’utilisateur ou de l’utilisatrice »'
-author: Lisa and Nolan
+description: "Affichage : heure personnelle de l’utilisateur désactivée"
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 100%
+source-wordcount: '257'
+ht-degree: 92%
 
 ---
 
 # Vue : congés personnels d’utilisateur ou d’utilisatrice
+
+<!--Audited: 11/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
@@ -24,6 +26,8 @@ Vous avez la possibilité de générer un rapport de congés afin de rassembler 
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -31,33 +35,43 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Demander la modification d’un affichage </p>
-   <p>Prévoir de modifier un rapport</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p> Actuel : 
+   <ul>
+   <li>Demander la modification d’un affichage</li> 
+   <li>Prévoir de modifier un rapport</li>
+   </ul>
+     </p>
+     <p> Nouveau : 
+   <ul>
+   <li>Contributeur à la modification d’une vue</li> 
+   <li>Standard pour modifier un rapport</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, affichages et groupes pour modifier un affichage</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr>  
+   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, affichages et groupes pour modifier un affichage</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Afficher les congés personnels des utilisateurs et utilisatrices
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Rapports > Nouveau rapport**.
-
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Rapports > Nouveau rapport**.
 1. Dans le menu déroulant, sélectionnez **Congés**.
 1. Cliquez sur **Enregistrer + Fermer**.
 

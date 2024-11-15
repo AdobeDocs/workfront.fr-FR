@@ -1,18 +1,20 @@
 ---
 navigation-topic: use-lists
-title: Modifier l’affichage d’une liste
+title: Modification de l’affichage d’une liste
 description: Dans  [!DNL Adobe Workfront], vous pouvez personnaliser l’affichage d’une liste. Les autres personnes qui consultent la liste ne voient pas vos modifications.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 100%
+source-wordcount: '717'
+ht-degree: 97%
 
 ---
 
 # Modifier l’affichage d’une liste
+
+<!--Audited: 11/2024-->
 
 Dans [!DNL Adobe Workfront], vous pouvez personnaliser l’affichage d’une liste. Les autres personnes qui consultent la liste ne voient pas vos modifications.
 
@@ -32,6 +34,8 @@ Pour plus d’informations sur la modification des informations qui s’affichen
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -39,27 +43,36 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> 
+    <p>Nouveau :</p>
+   <ul><li><p>Contributeur ou version ultérieure </p></li>
+   </ul>
+
+<p>Actuel :</p>
+   <ul><li><p>Requête ou supérieure</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Accès [!UICONTROL View] à la zone dans laquelle se trouve la liste.</p> <p>Par exemple, pour modifier la vue d’un projet, vous devez disposer d’un accès [!UICONTROL View] aux projets.</p> <p>Note : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration [!DNL Workfront] si des restrictions supplémentaires sont définies pour votre niveau d’accès.<br>Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès [!UICONTROL View] à la zone dans laquelle se trouve la liste.</p> <p>Par exemple, pour modifier la vue d’un projet, vous devez disposer d’un accès [!UICONTROL View] aux projets.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisation [!UICONTROL View] ou autorisations plus élevées pour la vue appliquée à la liste</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, consultez la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets</a>.</p> </td> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Autorisation [!UICONTROL View] ou autorisations plus élevées pour la vue appliquée à la liste</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez l’administration [!DNL Workfront].
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Modifier l’affichage d’une liste
++++
+
+## Modifier une liste
 
 1. Accédez à la liste que vous souhaitez modifier dans [!DNL Workfront].
 
@@ -101,7 +114,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Pour réorganiser les colonnes d’une liste, passez la souris sur l’en-tête d’une colonne pour afficher l’outil main, puis cliquez pour faire glisser la colonne à l’endroit où vous souhaitez qu’elle s’affiche.
 
-   La position de la colonne est sauvegardée jusqu’à ce que vous actualisiez votre page.\
+   La position de la colonne est sauvegardée jusqu’à ce que vous actualisiez votre page.
+
    Pour plus d’informations sur la personnalisation de la largeur et l’ordre des colonnes dans une liste, voir l’article [Modifier la largeur et l’ordre des colonnes](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 1. Pour modifier l’ordre de tri d’une liste, cliquez sur un en-tête de colonne pour le sélectionner, puis maintenez enfoncée la touche CMD (sur [!DNL Mac]) ou la touche CTRL (sur [!DNL Windows]) de votre clavier et sélectionnez jusqu’à deux en-têtes de colonne supplémentaires pour les trier.

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 667b930290c6e2126c5dc7fa95e279ad3405901c
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '3847'
-ht-degree: 70%
+source-wordcount: '4106'
+ht-degree: 60%
 
 ---
 
@@ -264,7 +264,7 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
 1. Cliquez sur **Créer**.
 
    Le nouveau champ de paragraphe est ajouté en tant que colonne au type d’enregistrement et ses valeurs peuvent être associées à des enregistrements.
@@ -281,7 +281,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
    * **Choix** : options que les utilisateurs peuvent sélectionner lors de la mise à jour de ce champ. Vous pouvez utiliser des chiffres et des lettres pour le nom de chaque choix.
 1. Cliquez sur **Ajouter un choix** pour ajouter d’autres choix. Le nombre de choix que vous pouvez ajouter à un champ à sélection multiple est illimité.
 1. (Facultatif) Faites glisser et déposez manuellement chaque choix dans l’ordre souhaité, ou sélectionnez l’option
@@ -303,7 +303,7 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
    * **Choix** : options disponibles pour la sélection dans le menu déroulant après l’enregistrement du champ. Vous pouvez avoir des nombres et des lettres pour le nom de chaque choix.
 
 1. Cliquez sur **Ajouter un choix** pour ajouter d’autres choix. Le nombre de choix que vous pouvez ajouter à un champ à sélection unique n’est pas limité.
@@ -325,7 +325,7 @@ Vous pouvez utiliser un champ de date pour capturer des informations supplément
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom**: nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
    * **Format de date** : type de format de date à afficher dans ce champ. <!--update this casing - submitted bug for it-->
 
      Sélectionnez l’un des formats suivants :
@@ -355,7 +355,7 @@ Les types de champ Nombre capturent les informations au format numérique.
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
 
    * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement.
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
    * **Précision** : nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
    * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les nombres négatifs dans ce champ. Cette option n’est pas sélectionnée par défaut.
 
@@ -377,7 +377,7 @@ Les types de champ en pourcentage capturent les informations au format numériqu
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement.
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
    * **Précision** : nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
    * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les valeurs en pourcentage négatif dans ce champ. Cette option n’est pas sélectionnée par défaut.
 
@@ -389,7 +389,7 @@ Les types de champ en pourcentage capturent les informations au format numériqu
 
    * **Afficher comme** : dans le menu déroulant, choisissez comment afficher les valeurs en pourcentage dans la vue de tableau. Sélectionnez l’une des options suivantes :
       * **Number** : la valeur de pourcentage s’affiche sous la forme d’un nombre suivi du signe de pourcentage.
-      * **Bar** : la valeur de pourcentage s’affiche sous forme de barre en regard du nombre de pourcentages. La couleur de remplissage de la barre indique la valeur de pourcentage.
+      * **Bar** : la valeur de pourcentage s’affiche sous forme de barre en regard du nombre de pourcentages. La couleur de remplissage de la barre indique la valeur de pourcentage. Il s’agit de la sélection par défaut.
       * **Cercle** : la valeur de pourcentage s’affiche sous forme de contour d’un cercle à côté du nombre de pourcentages. La couleur de remplissage du contour du cercle indique la valeur de pourcentage.
 
    >[!NOTE]
@@ -412,7 +412,7 @@ Les types de champ de devise capturent les informations dans un format numériqu
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom**: nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
    * **Devise** : type de devise à afficher dans ce champ. Il s’agit d’une liste de devises selon l’Organisation internationale de normalisation (ISO).
    * **Précision** : nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
    * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les valeurs de devise négatives dans ce champ. Cette option n’est pas sélectionnée par défaut.
@@ -435,7 +435,7 @@ Vous pouvez utiliser le type de champ Case à cocher pour ajouter une seule opti
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom**: nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
 1. Cliquez sur **Créer**.
 
    Le nouveau champ de case à cocher est ajouté en tant que colonne au type d’enregistrement et ses valeurs peuvent être associées à des enregistrements.
@@ -453,7 +453,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
 
    * **Nom** : saisissez le nom du nouveau champ.
-   * **Description** : ajoutez des informations sur le nouveau champ.
+   * **Description** : ajoutez des informations sur le nouveau champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
    * **Formule** : commencez à saisir au moins un caractère pour accéder à une expression, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
 
 1. Cliquez sur l’expression sélectionnée pour afficher la définition et afficher sa mise en forme.
@@ -509,7 +509,7 @@ Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur ou u
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement.
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
    * **Autoriser plusieurs valeurs** : sélectionnez cette option si vous souhaitez permettre aux personnes d’ajouter plusieurs utilisateurs et utilisatrices dans ce champ. Cette option n’est pas sélectionnée par défaut.
 
    >[!NOTE]
@@ -531,7 +531,7 @@ Vous pouvez utiliser le type de champ Créé par pour ajouter à un enregistreme
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
 
    * **Nom**: nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
 
 1. Cliquez sur **Créer**.
 
@@ -551,7 +551,7 @@ Vous pouvez utiliser le type de champ Date de création pour ajouter à un enreg
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
 
    * **Nom**: nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
    * **Format de date** : sélectionnez l’un des formats suivants :
 
       * **Paramètre local** : correspond au paramètre local de votre navigateur.
@@ -582,7 +582,7 @@ Vous pouvez utiliser le champ Dernière modification par type pour ajouter à un
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
 
    * **Nom**: nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
 
 1. Cliquez sur **Créer**.
 
@@ -602,7 +602,7 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
 
    * **Nom**: nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous passez la souris sur la colonne du champ dans une table, ou <span class="preview"> lorsque vous cliquez sur l&#39;icône d&#39;information en regard du nom du champ dans la page de détails de l&#39;enregistrement.</span>
    * **Format de date** : sélectionnez l’un des formats suivants :
 
       * **Paramètre local** : correspond au paramètre local de votre navigateur.
