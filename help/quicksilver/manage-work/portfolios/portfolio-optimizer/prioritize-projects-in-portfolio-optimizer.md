@@ -6,10 +6,10 @@ description: Vous pouvez hiérarchiser vos projets dans l’Optimisateur de port
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 98%
+source-wordcount: '534'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations [!UICONTROL Manage] pour le portfolio</p> <p>Autorisation Contribuer ou supérieure pour les projets</p>  </td> 
+   <td> <p>Autorisations [!UICONTROL Manage] pour le portfolio</p> <p>Autorisation Contribuer ou supérieure pour les projets</p> 
+   <p>Vous devez disposer des autorisations de gestion pour tous les projets de la liste pour pouvoir utiliser <b>Définir la priorité du projet</b>.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

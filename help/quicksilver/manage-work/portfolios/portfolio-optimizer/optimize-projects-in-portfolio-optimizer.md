@@ -6,10 +6,10 @@ description: Vous pouvez utiliser l’[!UICONTROL optimisateur de portfolio] pou
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 98%
+source-wordcount: '488'
+ht-degree: 87%
 
 ---
 
@@ -42,7 +42,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations [!UICONTROL Manage] pour le portfolio</p> <p>Autorisation Contribuer ou supérieure pour les projets</p>  </td> 
+   <td> <p>Autorisations [!UICONTROL Manage] pour le portfolio</p> <p>Autorisation Contribuer ou supérieure pour les projets</p> 
+   <p>Vous devez disposer des autorisations de gestion pour tous les projets de la liste pour pouvoir utiliser <b>Définir la priorité du projet</b>.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +61,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur l’icône **[!UICONTROL Optimiser]**.
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)\
+   ![](assets/optimize-icon-portfolio-optimizer.png)
+
    Les catégories selon lesquelles un projet peut être noté s’affichent à gauche de l’icône [!UICONTROL Optimiser].
 
 1. À l’aide du cercle mobile, modifiez l’optimisation de l’une des catégories suivantes :
@@ -78,9 +81,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Une fois les coefficients de pondération corrects définis pour la colonne **[!UICONTROL Score]**, cliquez sur l’en-tête de la colonne **[!UICONTROL Score]** pour trier par cette colonne. Le projet ayant obtenu le meilleur score est affiché en haut de la liste.
 
-1. (Facultatif) Faites glisser les projets dans votre ordre de priorité.\
-   Cela modifiera l’ordre des projets dans l’[!UICONTROL optimisateur de portfolio].
-1. (Facultatif) Cliquez sur **[!UICONTROL Définir la priorité]** pour enregistrer la nouvelle priorité des projets.\
+1. (Facultatif) Faites glisser des projets dans l’ordre de votre priorité.
+Cela modifiera l’ordre des projets dans l’[!UICONTROL optimisateur de portfolio].
+1. (Facultatif) Cliquez sur **[!UICONTROL Définir la priorité]** pour enregistrer la nouvelle priorité des projets.
+
+   >[!NOTE]
+   >
+   >   Vous devez disposer des autorisations de gestion pour tous les projets de la liste pour pouvoir utiliser **Définir la priorité du projet**.
+
    Pour plus d’informations sur la priorisation des projets dans l’[!UICONTROL optimisateur de portfolio], consultez l’article [Prioriser les projets dans l’[!UICONTROL optimisateur de portfolio]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer votre [!UICONTROL optimisateur de portfolio].
