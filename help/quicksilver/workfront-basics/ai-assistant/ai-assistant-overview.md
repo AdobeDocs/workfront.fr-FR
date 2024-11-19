@@ -1,17 +1,22 @@
 ---
-title: "Présentation de l’assistant AI"
+title: Présentation de l’assistant AI
 content-type: reference
 description: Présentation de l’assistant AI
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
+source-git-commit: 64ad86e29bf18969f82dbdb54b98ca884d2ec26a
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 6%
+source-wordcount: '711'
+ht-degree: 8%
 
 ---
 
 # Présentation de l’assistant AI
+
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible dans l’environnement Aperçu pour tous les clients et dans l’environnement Production pour les clients qui ont activé les versions mensuelles. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 L’assistant Workfront AI vous aide à accomplir votre travail en proposant des informations et des suggestions dans l’application dans une conversation en langage naturel. L’assistant IA peut vous offrir une expérience professionnelle plus fluide en
 
@@ -79,13 +84,35 @@ L’assistant d’IA propose actuellement les fonctionnalités suivantes :
 
   Pour plus d’informations, voir [Obtenir de l’aide à partir de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
-* Générer ou affiner des formules pour des champs personnalisés calculés.
+<div class="preview">
+
+* Recherche d’éléments spécifiques dans Workfront.
+
+  Pour plus d’informations, voir [Utilisation de l’assistant d’IA pour travailler avec des projets, des tâches et des problèmes](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+
+</div>
+
+* Génération ou affinage de formules pour les champs personnalisés calculés.
 
   >[!NOTE]
   >
   >Cette fonctionnalité est disponible uniquement pour les organisations des plans Workfront Prime ou Ultimate.
 
   Pour plus d’informations, voir [Génération ou révision de formules de champ calculé avec l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
+
+## Types d’objet disponibles pour l’assistant AI
+
+L’assistant AI peut interroger les données associées aux types d’objets suivants si l’utilisateur dispose des autorisations valides dans Workfront :
+
+* Portefeuilles
+* Programmes
+* Projets
+* Tâches
+* Problèmes
+* Formulaires personnalisés
+* Utilisateurs
+* Enregistrements de planification Workfront
+
 
 ## Accéder à l’assistant AI
 
@@ -113,5 +140,3 @@ Pour demander le contrat d’Adobe Gen AI :
 1. Saisissez le nom et l’adresse électronique de la personne de votre entreprise qui signera le contrat Adobe Gen AI.
 
    La convention sera alors transmise à cette personne pour signature. Une fois signé et renvoyé, l’assistant d’IA est activé pour votre entreprise.
-
-
