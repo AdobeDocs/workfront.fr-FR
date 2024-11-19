@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
+source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '292'
 ht-degree: 16%
 
 ---
@@ -59,11 +59,11 @@ Oui. Vous pouvez, par exemple, convertir des environnements de test en environne
 
 Non, le partage n’est actuellement pas pris en charge.
 
-## Quand une fonction de restauration peut-elle être disponible ?
+## La restauration de package est-elle disponible ?
 
 ### Réponse
 
-La restauration est une priorité absolue et est actuellement en cours de développement. La fonctionnalité de restauration devrait être disponible au troisième trimestre ou au quatrième trimestre 2024.
+La restauration de package est disponible pour le package le plus récent, dans les 24 heures suivant l’installation du package.
 
 ## Y aura-t-il une option pour ignorer la promotion de composants individuels ? Là où les options `Use Existing`, `Overwrite` et `Save with a new Name`&quot; existent, peut-on ajouter `Skip` afin que vous puissiez ignorer la promotion de paramètres individuels ?
 
