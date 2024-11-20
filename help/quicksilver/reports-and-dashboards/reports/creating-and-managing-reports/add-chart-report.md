@@ -6,16 +6,16 @@ description: Vous pouvez améliorer vos rapports en ajoutant un graphique. Vous 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
-source-wordcount: '2768'
-ht-degree: 100%
+source-wordcount: '2734'
+ht-degree: 73%
 
 ---
 
 # Ajouter un graphique à un rapport
 
-<!--Audited: 01/2024-->
+<!--Audited: 11/2024-->
 
 Vous pouvez améliorer vos rapports en ajoutant un graphique. Vous pouvez ajouter des graphiques aux rapports existants ou aux rapports que vous créez.
 
@@ -47,9 +47,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Actuel : formule </p>
-   Ou
-   <p>Nouveau : Standard</p> </td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuration du niveau d’accès</td> 
@@ -62,14 +69,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations sur les conditions d’accès, consultez la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Ajouter un graphique à un rapport
 
 1. Accédez à un rapport existant ou créez-en un nouveau. Pour plus d’informations sur la création d’un rapport, consultez la section [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
 1. (Le cas échéant) Si vous avez déjà eu accès à un rapport existant, cliquez sur **Actions de rapport** > **Modifier**.
 
 1. Vérifiez que l’onglet **Colonnes (Affichage)** a été mis à jour pour afficher les informations que vous voulez voir sous forme de graphique dans le rapport.
@@ -87,8 +94,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    Pour plus d’informations sur la création de regroupements, consultez la section [Créer des regroupements dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. Sélectionnez l’onglet **Graphique**.
+
 1. Cliquez sur un type de graphique pour le sélectionner.\
-   ![](assets/qs-report-builder-chart-350x265.png)
+   ![Choix du type de graphique](assets/unshimmed-report-builder-chart.png)
 
 1. Sélectionnez-en un parmi les types suivants :
 
@@ -106,12 +114,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 Pour ajouter un graphique en **colonnes** à votre rapport, procédez comme suit :
 
 1. Ajoutez un graphique à votre rapport, comme décrit dans la section [Ajouter un graphique à un rapport](#add-a-chart-to-a-report).
-1. Dans le champ **Axe gauche (Y)**, sélectionnez les valeurs à inclure sur l’axe Y du graphique, ainsi que le mode de synthèses des informations.
-1. Dans le champ **Axe inférieur (X)**, sélectionnez le regroupement que vous souhaitez inclure dans le graphique.
-1. (Facultatif) Sélectionnez **Couleurs personnalisées** pour affecter les couleurs de votre choix à chacune des colonnes.\
-   Pour plus d’informations sur la personnalisation des couleurs des graphiques, consultez la section [Personnaliser les couleurs des graphiques](#customize-chart-colors).
 
-1. (Facultatif) Sélectionnez **Afficher en 3D** pour afficher le graphique en 3 dimensions.
+1. Dans le champ **Axe gauche (Y)** , sélectionnez les valeurs que vous souhaitez inclure sur l’axe Y du graphique, puis choisissez la manière dont vous souhaitez que les informations soient résumées dans le champ **Résumé par** .
+
+1. (Facultatif) Cliquez sur **Couleurs personnalisées** pour attribuer des couleurs préférées à chacune des colonnes.\
+   Pour plus d’informations sur la personnalisation des couleurs des graphiques, voir [Personnaliser les couleurs des graphiques](#customize-chart-colors).
+
+1. Dans le champ **Axe inférieur (X)**, sélectionnez le regroupement que vous souhaitez inclure dans le graphique.
+
+1. (Facultatif) Cliquez sur **Afficher en 3D** pour afficher le graphique dans une vue en 3 dimensions.
+
 1. (Facultatif) **Colonnes de groupe** : sélectionnez cette option pour définir le mode de regroupement des colonnes.\
    Sélectionnez l’une des options suivantes :
 
@@ -122,15 +134,14 @@ Pour ajouter un graphique en **colonnes** à votre rapport, procédez comme suit
       * **Empilé jusqu’à 100 %**
 
    * Sélectionnez le regroupement que vous souhaitez inclure dans le graphique depuis le menu déroulant **Grouper les données par**.
-   * (Facultatif) Sélectionnez **Couleurs personnalisées** pour personnaliser les couleurs des colonnes.\
+   * (Facultatif) Cliquez sur **Couleurs personnalisées** pour personnaliser les couleurs des colonnes.\
      Pour plus d’informations sur la personnalisation des couleurs des graphiques, voir [Personnaliser les couleurs des graphiques](#customize-chart-colors).
 
-1. (Facultatif) Sélectionnez **Graphique combiné** pour inclure une valeur supplémentaire dans le graphique, ainsi que le mode de synthèse des informations.\
+1. (Facultatif) Cliquez sur **Combinaison de graphique** pour inclure une valeur supplémentaire dans le graphique, ainsi que la manière dont vous souhaitez que les informations soient résumées.\
    Tenez compte des options suivantes :
 
    * **Tracer sur l’axe secondaire** : sélectionnez cette option pour tracer les données sur le côté droit du graphique.
-   * **Type de graphique** : choisissez si vous souhaitez que cette valeur supplémentaire s’affiche sous forme d’une ligne ou d’une troisième colonne.\
-     ![](assets/qs-column-chart-350x163.png)
+   * **Type de graphique** : choisissez si vous souhaitez que cette valeur supplémentaire s’affiche sous forme d’une ligne ou d’une troisième colonne.
 
 1. Cliquez sur **Enregistrer et fermer** pour enregistrer le graphique et le rapport.
 
@@ -139,13 +150,17 @@ Pour ajouter un graphique en **colonnes** à votre rapport, procédez comme suit
 Pour ajouter un graphique à **barres** à votre rapport, procédez comme suit :
 
 1. Commencez à ajouter un graphique à votre rapport, comme décrit dans [Ajouter un graphique à un rapport](#add-a-chart-to-a-report).
-1. Dans le champ **Axe inférieur (X)**, sélectionnez les valeurs à inclure sur l’axe X du graphique, ainsi que le mode de synthèse des informations.
-1. Dans le champ **Axe gauche (Y)**, sélectionnez le regroupement que vous souhaitez inclure dans le graphique.
-1. (Facultatif) Sélectionnez **Couleurs personnalisées** pour personnaliser les couleurs des barres.\
+
+1. Dans le champ **Axe inférieur (X)** , sélectionnez les valeurs que vous souhaitez inclure sur l’axe des x du graphique, puis choisissez la manière dont vous souhaitez que les informations soient résumées dans le champ **Résumé par** .
+
+1. (Facultatif) Cliquez sur **Couleurs personnalisées** pour personnaliser les couleurs des barres.\
    Pour plus d’informations sur la personnalisation des couleurs des graphiques, voir [Personnaliser les couleurs des graphiques](#customize-chart-colors).
 
-1. (Facultatif) Sélectionnez **Afficher en 3D** pour afficher le graphique dans une vue tridimensionnelle.
-1. (Facultatif) Sélectionnez **Regrouper les barres** pour définir le mode de regroupement des barres.\
+1. Dans le champ **Axe gauche (Y)**, sélectionnez le regroupement que vous souhaitez inclure dans le graphique.
+
+1. (Facultatif) Cliquez sur **Afficher en 3D** pour afficher le graphique dans une vue en 3 dimensions.
+
+1. (Facultatif) Cliquez sur **Group Bars** pour définir comment vous souhaitez que les barres soient regroupées.\
    Sélectionnez l’une des options suivantes :
 
    * Cliquez sur l’une des options suivantes pour sélectionner l’affichage des barres regroupées :
@@ -155,11 +170,10 @@ Pour ajouter un graphique à **barres** à votre rapport, procédez comme suit 
       * **Empilés jusqu’à 100 %**
 
    * Sélectionnez le mode de regroupement des informations dans le graphique depuis le menu déroulant **Grouper les données par**.
-   * (Facultatif) Sélectionnez **Couleurs personnalisées** pour personnaliser les couleurs de vos colonnes.\
+   * (Facultatif) Cliquez sur **Couleurs personnalisées** pour personnaliser les couleurs de vos colonnes.\
      Pour plus d’informations sur la personnalisation des couleurs des graphiques, voir [Personnaliser les couleurs des graphiques](#customize-chart-colors).
 
-1. (Facultatif) Sélectionnez **Graphique combiné** pour inclure une valeur supplémentaire dans le graphique, ainsi que le mode de synthèse des informations.\
-   ![](assets/qs-bar-chart-350x167.png)
+1. (Facultatif) Cliquez sur **Combinaison de graphique** pour inclure une valeur supplémentaire dans le graphique, ainsi que la manière dont vous souhaitez que les informations soient résumées.
 
 1. Cliquez sur **Enregistrer et fermer** pour enregistrer le graphique et le rapport.
 
@@ -172,18 +186,19 @@ Pour ajouter un graphique à **barres** à votre rapport, procédez comme suit 
 Pour ajouter un graphique en **secteurs** à votre rapport, procédez comme suit :
 
 1. Commencez à ajouter un graphique à votre rapport, comme décrit dans la section [Ajouter un graphique à un rapport](#add-a-chart-to-a-report).
-1. Dans le champ **Valeurs**, sélectionnez les valeurs à afficher dans le rapport, ainsi que le mode de synthèse.\
+
+1. Dans le champ **Valeurs** , sélectionnez les valeurs que vous souhaitez afficher dans le rapport, puis choisissez la manière dont vous souhaitez que les informations soient résumées dans le champ **Résumé par** .\
    Dans le champ **Tranches**, sélectionnez le regroupement que vous souhaitez inclure dans le graphique. Le regroupement est représenté par les tranches du graphique.
 
-1. (Facultatif) Sélectionnez **Couleurs personnalisées** pour personnaliser les couleurs des tranches du graphique.\
+1. (Facultatif) Cliquez sur **Couleurs personnalisées** pour personnaliser les couleurs des contours du graphique.\
    Pour plus d’informations sur la personnalisation des couleurs des graphiques, voir [Personnaliser les couleurs des graphiques](#customize-chart-colors).
 
-1. (Facultatif) Sélectionnez **Afficher en 3D** pour afficher le graphique dans une vue tridimensionnelle.
+1. (Facultatif) Cliquez sur **Afficher en 3D** pour afficher le graphique dans une vue en 3 dimensions.
+
 1. Dans le champ **Afficher les résultats en tant que**, sélectionnez le mode d’affichage des résultats dans le graphique. Tenez compte des options suivantes :
 
    * **Pourcentage** : les résultats des graphiques sont affichés sous forme de pourcentage.
-   * **Nombres** : les résultats des graphiques sont affichés sous forme d’un nombre.\
-     ![](assets/qs-pie-chart-350x171.png)
+   * **Nombres** : les résultats des graphiques sont affichés sous forme d’un nombre.
 
 1. Cliquez sur **Enregistrer et fermer** pour enregistrer le graphique et le rapport.
 
@@ -192,19 +207,20 @@ Pour ajouter un graphique en **secteurs** à votre rapport, procédez comme suit
 Pour ajouter un graphique en **courbes** à votre rapport, procédez comme suit :
 
 1. Commencez à ajouter un graphique à votre rapport, comme décrit dans [Ajouter un graphique à un rapport](#add-a-chart-to-a-report).
-1. Dans le champ **Axe gauche (Y)**, sélectionnez les valeurs à inclure sur l’axe Y du graphique, ainsi que le mode de synthèses des informations.
-1. Dans le champ **Axe inférieur (X)**, sélectionnez le regroupement que vous souhaitez inclure dans le graphique.
-1. (Facultatif) Sélectionnez une couleur pour personnaliser la courbe.
-1. (Facultatif) Sélectionnez **Lignes de groupe** afin de sélectionner un groupement supplémentaire pour le graphique.\
-   (Facultatif) Sélectionnez **Couleurs personnalisées** pour personnaliser les couleurs de votre nouveau regroupement.\
-   Pour plus d’informations sur la personnalisation des couleurs des graphiques, consultez la section [Personnalisation des couleurs des graphiques](#customize-chart-colors).
 
-1. (Facultatif) Sélectionnez **Graphique combiné** pour combiner vos lignes par une valeur supplémentaire.\
+1. Dans le champ **Axe gauche (Y)** , sélectionnez les valeurs que vous souhaitez inclure sur l’axe Y du graphique, puis choisissez la manière dont vous souhaitez que les informations soient résumées dans le champ **Résumé par** .
+
+1. Dans le champ **Axe inférieur (X)**, sélectionnez le regroupement que vous souhaitez inclure dans le graphique.
+
+1. (Facultatif) Cliquez sur **Lignes de groupe** pour sélectionner un groupement supplémentaire pour le graphique.\
+   (Facultatif) Cliquez sur **Couleurs personnalisées** pour personnaliser les couleurs de votre nouveau regroupement.\
+   Pour plus d’informations sur la personnalisation des couleurs des graphiques, voir [Personnaliser les couleurs des graphiques](#customize-chart-colors).
+
+1. (Facultatif) Cliquez sur **Combinination Chart** pour combiner vos lignes par une valeur supplémentaire.\
    Tenez compte des options suivantes :
 
    * Sélectionnez la valeur que vous souhaitez inclure dans le graphique, ainsi que la manière dont vous souhaitez que les informations soient résumées.
-   * Sélectionnez le champ **Tracer sur l’axe secondaire** pour tracer les données sur le côté droit du graphique.\
-     ![](assets/qs-line-chart-350x172.png)
+   * Cliquez sur le champ **Tracé sur l’axe Secondaire** pour tracer les données sur le côté droit du graphique.
 
 1. Cliquez sur **Enregistrer et fermer** pour enregistrer le graphique et le rapport.
 
@@ -215,16 +231,17 @@ Un graphique de type **Jauge** affiche le nombre d’enregistrements qui répond
 Pour ajouter un graphique de type **Jauge** à votre rapport :
 
 1. Commencez par ajouter un graphique à votre rapport comme décrit dans la section [Ajouter un graphique à un rapport](#add-a-chart-to-a-report).
-1. Dans le champ **Valeurs**, sélectionnez les valeurs à afficher dans le rapport, ainsi que la manière dont vous souhaitez les résumer. Si vous sélectionnez **Nombre d’enregistrements**, les valeurs affichées sont l’objet du rapport.
+
+1. Dans le champ **Valeurs** , sélectionnez les valeurs que vous souhaitez afficher dans le rapport, puis choisissez la manière dont vous souhaitez que les informations soient résumées dans le champ **Résumé par** . Si vous sélectionnez **Nombre d’enregistrements**, les valeurs affichées sont l’objet du rapport.
 
 1. Dans le champ **Indicateurs**, sélectionnez le regroupement que vous souhaitez inclure dans le graphique. Le regroupement est représenté par la ligne d’indicateur sur le graphique.\
    Si un regroupement contient deux éléments, deux indicateurs sont affichés sur le graphique.\
    Par exemple, si vous disposez d’un regroupement du statut du projet et qu’il existe deux statuts du projet (Actuel et Suspendu), votre graphique à jauge contiendra deux indicateurs de jauge. Ils indiquent le nombre de projets qui se trouvent dans ce statut.\
    (Facultatif) Sélectionnez **Total** dans le champ **Indicateurs** pour afficher le total des objets sélectionnés dans le champ **Valeurs**.
 
-1. Dans le champ **Plage de valeurs**, indiquez la plage de valeurs et la couleur à utiliser pour représenter les valeurs à afficher sur le graphique à jauge.
-1. (Facultatif) Cliquez sur **Ajouter une autre plage de valeurs** pour ajouter des plages de valeurs supplémentaires au graphique.\
-   ![](assets/qs-gauge-chart-350x181.png)
+1. (Facultatif) Cliquez sur **Ajouter une plage de valeurs** pour ajouter une plage de valeurs au graphique.
+
+1. (Facultatif) Dans le champ **Plage de valeurs**, spécifiez la plage de valeurs et la couleur à représenter ces valeurs à afficher sur le graphique Jauge.
 
 1. Cliquez sur **Enregistrer et fermer** pour enregistrer le graphique et le rapport.
 
@@ -235,7 +252,9 @@ Vous pouvez afficher jusqu’à trois champs d’un objet dans un graphique à *
 Pour ajouter un graphique à **bulle** à votre rapport :
 
 1. Commencez par ajouter un graphique à votre rapport, comme décrit dans la section [Ajouter un graphique à un rapport](#add-a-chart-to-a-report).
-1. Dans le champ **Axe gauche (Y)**, sélectionnez les valeurs à inclure sur l’axe Y du graphique. Les valeurs proviennent de l’affichage du rapport. Indiquez le mode de résumé des informations.
+
+1. Dans le champ **Axe gauche (Y)**, sélectionnez les valeurs à inclure sur l’axe Y du graphique. Les valeurs proviennent de l’affichage du rapport. Indiquez le mode de résumé des informations dans le champ **Résumé par** .
+
 1. Dans le **champ Axe inférieur (X)**, sélectionnez les valeurs à inclure sur l’axe X du graphique. Les valeurs proviennent de l’affichage du rapport. Indiquez le mode de résumé des informations.
 
    >[!NOTE]
@@ -251,40 +270,20 @@ Pour ajouter un graphique à **bulle** à votre rapport :
    >Pour plus d’informations sur la synthèse des informations dans une colonne de rapport, consultez la section [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Dans le champ **Bulles**, sélectionnez le regroupement que vous souhaitez inclure dans le graphique. Le regroupement est représenté par le positionnement des bulles sur le graphique.
+
 1. Dans le champ **Couleur de bulle**, sélectionnez le champ que vous souhaitez représenter par les couleurs des bulles.
 
-   ![](assets/qs-bubble-chart-350x103.png)
+   La **couleur de bulle** peut être un groupement que vous définissez dans le rapport, mais l’option n’est disponible que si vous choisissez un groupement dans le champ **Bulles** qui contient le **Nom** d’un objet parent par rapport à l’objet du rapport, tel que **Nom du projet** pour un rapport de tâche ou **Nom du programme** pour un rapport de projet.
 
-
-   La **couleur de bulle** peut être un regroupement que vous définissez dans le rapport, mais elle n’est disponible que lorsque vous sélectionnez la colonne **Nom** pour l’objet du rapport dans le champ **Bulles**.
-
-   Par exemple, si vous avez sélectionné **Nom de la tâche** dans un rapport de tâche, vous pouvez ajouter **Statut de la tâche** comme champ **Couleur de la bulle**.
+   Par exemple, si vous avez sélectionné **Nom du projet** dans un rapport de tâche, vous pouvez ajouter **État de la tâche** comme champ **Couleur de la bulle**.
 
    ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
-   Toutefois, si vous avez sélectionné **Statut de la tâche** pour le champ **Bulles**, vous ne pouvez pas sélectionner un champ **Couleur de bulle**. En outre, vous ne pouvez pas sélectionner **Nom du projet** pour le champ **Couleur de bulle**, même lorsque vous sélectionnez **Nom de la tâche** pour le champ **Bulle**.
+   Toutefois, si vous avez sélectionné **Statut de la tâche** pour le champ **Bulles**, vous ne pouvez pas sélectionner un champ **Couleur de bulle**. De plus, vous ne pouvez pas sélectionner **Nom du projet** pour le champ **Couleur de la bulle**, même si vous sélectionnez **Nom du projet** pour le champ **Bulles**.
 
    ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
-
 1. Cliquez sur **Enregistrer et Fermer** pour enregistrer les modifications apportées au créateur d’interface.
-
-## Exporter un graphique
-
-Vous pouvez exporter un graphique dans un fichier .pdf.
-
-Pour exporter un graphique :
-
-1. Cliquez sur **Exporter** pour exporter le graphique au format .pdf.\
-   Un fichier .pdf est téléchargé sur votre ordinateur.
-
-1. Ouvrez le fichier .pdf.\
-   Le fichier exporté comprend les informations suivantes :
-
-   * Une image du graphique
-   * Un titre correspondant au nom du rapport.
-   * Un nom de fichier unique correspondant au nom du rapport
-   * Un pied de page avec la date et l’heure d’export du rapport et le numéro de page
 
 ## Personnaliser les couleurs des graphiques {#customize-chart-colors}
 
@@ -299,12 +298,13 @@ Vous ne pouvez choisir qu’une seule couleur pour les champs affichés dans la 
 Pour personnaliser les couleurs du graphique :
 
 1. Lors de la création d’un rapport, accédez à l’onglet **Graphique** dans le créateur de rapports.
+
 1. Sélectionnez un type de graphique à ajouter à votre rapport.\
    Pour plus d’informations sur l’ajout d’un graphique à votre rapport, voir [Ajouter un graphique à un rapport](#add-a-chart-to-a-report).
 
 1. Cliquez sur **Couleurs personnalisées** lorsque ce champ est disponible.\
    La boîte de dialogue Couleurs personnalisées s’affiche.\
-   ![](assets/custom-colors-in-charts-350x286.png)
+   ![](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >
@@ -313,33 +313,49 @@ Pour personnaliser les couleurs du graphique :
 1. Envisagez de sélectionner l’une des options suivantes :
 
    * **Utiliser une couleur** : tous les éléments du graphique s’affichent dans la couleur sélectionnée.
+   * **Ajouter une couleur** : ajoutez une couleur personnalisée pour une valeur possible du champ sélectionné.
+   * **Tout supprimer** : sélectionnez cette option pour supprimer toutes les valeurs et couleurs de champ spécifiées ci-dessus.
+   * **Aucune valeur** : sélectionnez ce champ et une couleur personnalisée pour afficher la colonne de graphique qui regroupe les éléments &quot;aucune valeur&quot;. Il s’agit d’éléments qui ne peuvent pas être regroupés par l’une des options du champ sélectionné dans votre regroupement.
+   * **Toutes les autres valeurs** : sélectionnez ce champ et une couleur personnalisée pour afficher tous les autres éléments de graphique dont les options ne sont pas définies ci-dessus.
 
-      1. Commencez à saisir le nom d’une option du champ sélectionné, puis sélectionnez une couleur. Cette option s’affiche dans la couleur sélectionnée sur le graphique.
-      1. (Facultatif) Spécifiez une valeur hexadécimale de couleur pour votre couleur, au lieu d’en sélectionner une parmi les échantillons de couleurs disponibles.\
-         Ou\
-         Cliquez sur le sélecteur de couleurs qui s’affiche après avoir cliqué sur le code hexadécimal, puis sélectionnez une autre couleur.
+     >[!NOTE]
+     >
+     >Les couleurs que vous avez modifiées le plus récemment s’affichent à droite du bouton **Couleurs personnalisées**. Lorsque vous placez le pointeur de la souris sur une couleur, le nom du champ qui lui est associé s’affiche. Vous pouvez également cliquer sur une couleur pour la modifier sans rouvrir les **couleurs personnalisées**.
 
-   * **Ajouter une couleur** : continuez à ajouter des couleurs personnalisées pour toutes les autres options possibles du champ sélectionné.
-   * **Tout supprimer** : sélectionnez cette option pour supprimer toutes les couleurs et options du champ sélectionné ci-dessus.
-   * **Options avancées** : effectuez une sélection parmi les choix suivants :
+1. Pour choisir une couleur :
+Cliquez dans le sélecteur de couleurs pour sélectionner une couleur.
+OU
+Spécifiez une valeur hexadécimale pour votre couleur.
 
-      * **Aucune valeur** : sélectionnez ce champ et une couleur personnalisée pour afficher la colonne du graphique qui regroupe les éléments « aucune valeur ». Il s’agit d’éléments qui ne peuvent pas être regroupés par l’une des options du champ sélectionné dans votre regroupement.
-      * **Toutes les autres valeurs** : sélectionnez ce champ et une couleur personnalisée pour afficher tous les autres éléments du graphique dont les options ne sont pas sélectionnées ci-dessus.
+1. Cliquez n’importe où en dehors de la boîte de dialogue Couleurs personnalisées pour la fermer. Les couleurs sélectionnées sont automatiquement enregistrées.
 
-        >[!NOTE]
-        >
-        >Les couleurs que vous avez utilisées le plus récemment s’affichent en haut de la boîte de dialogue Couleurs personnalisées. Lorsque vous passez la souris sur une couleur qui a été récemment utilisée, le nom du champ qui lui est associé s’affiche.
-
-1. Cliquez sur le symbole « x » dans le coin supérieur droit de l’option Couleurs personnalisées pour fermer la boîte de dialogue Couleurs personnalisées. Les couleurs sélectionnées sont automatiquement enregistrées.
 1. Cliquez sur **Enregistrer et Fermer** pour enregistrer le graphique et exécuter le rapport.
+
+## Exporter un graphique
+
+Vous pouvez exporter un graphique dans un fichier .pdf.
+
+Pour exporter un graphique :
+
+1. Dans l’onglet Graphique d’un rapport, cliquez sur **Exporter** pour exporter le graphique au format .pdf.\
+   Un fichier .pdf est téléchargé sur votre ordinateur.
+
+1. Ouvrez le fichier .pdf.\
+   Le fichier exporté comprend les informations suivantes :
+
+   * Une image du graphique
+   * Un titre correspondant au nom du rapport.
+   * Nom de fichier unique basé sur le nom du rapport.
+   * Un pied de page avec la date et l’heure d’export du rapport et le numéro de page
 
 ## Supprimer un graphique d’un rapport
 
 Pour supprimer un graphique d’un rapport :
 
 1. Ouvrez l’onglet **Graphique** du créateur de rapports.
-1. Placez le pointeur de la souris sur l’icône du type de graphique que vous avez choisi. Un bouton « x » s’affiche alors dans le coin supérieur droit de l’icône.
-1. Cliquez sur le « x » pour supprimer le graphique.
+
+1. Cliquez sur le bouton &quot;x&quot; à droite des types de graphique pour supprimer le graphique.
+
 1. Cliquez sur **Enregistrer + Fermer**.
 
 ## Limites lors de l’utilisation de graphiques

@@ -7,18 +7,22 @@ description: Vous pouvez créer une copie de tout rapport auquel vous avez accè
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 82%
 
 ---
 
 # Créer une copie d’un rapport
 
+<!-- Audited: 11/2024 -->
+
 Vous pouvez créer une copie de tout rapport auquel vous avez accès. Vous pouvez soit créer une copie exacte d’un rapport personnalisé, soit enregistrer une nouvelle version d’un rapport par défaut. Après avoir copié un rapport, vous devenez la personne propriétaire du rapport copié et il s’affiche dans la section Mes rapports.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -32,29 +36,40 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et regroupements</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et regroupements</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations d’affichage pour un rapport</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td role="rowheader">Autorisations d’objet*</td> 
+   <td><p>Autorisations d’affichage pour un rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Créer une copie exacte d’un rapport
 
-Si vous souhaitez faire une copie d’un rapport dont vous êtes la personne propriétaire, procédez comme suit :
+Si vous souhaitez effectuer une copie d’un rapport personnalisé, procédez comme suit :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l’icône de **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône de **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Rapports]**.
 
-1. Cliquez sur **Rapports**, puis **Tous les rapports**.
-1. Ouvrez un rapport.
+1. Cliquez sur **Tous les rapports**, puis ouvrez un rapport.
+
 1. Cliquez sur **Actions de rapport**, puis **Copier**.
 
    >[!TIP]
@@ -62,15 +77,11 @@ Si vous souhaitez faire une copie d’un rapport dont vous êtes la personne pro
    >Si le rapport est un rapport par défaut, l’option Copier n’apparaît pas dans le menu Actions de rapport.\
    >Pour plus d’informations sur la création d’une copie d’un rapport par défaut, voir [Créer une version d’un rapport](#create-a-new-version-of-a-report).
 
-   ![Copier le rapport](assets/nwe-fulllistofreportactions-2022.png)
+   ![Copier le rapport](assets/unshimmed-report-actions-copy.png)
 
-   Une copie du rapport d’origine est créée avec le nom par défaut de *Copie de [Nom du rapport d’origine]*. Par exemple, le nom du rapport « Tâches terminées du quatrième trimestre  serait « Copie de Tâches terminées du quatrième trimestre ».
+   Une copie du rapport d’origine est créée avec le nom par défaut _[Nom du rapport d’origine] (Copie)_. Par exemple, une copie du rapport &quot;Tâches terminées du quatrième trimestre&quot; sera nommée &quot;Tâches terminées du quatrième trimestre (copie)&quot;.
 
-1. (Facultatif) Pour renommer le rapport, commencez à saisir un nouveau nom.
-
-   >[!TIP]
-   >
-   >Si vous désélectionnez le titre avant de saisir le nouveau nom, sélectionnez le titre du rapport, supprimez le nom, puis saisissez le nouveau nom.
+1. (Facultatif) Pour renommer le rapport, cliquez sur **Actions de rapport**, puis sur **Modifier**. Saisissez un nouveau nom dans la zone de texte dans le coin supérieur gauche, puis cliquez sur **Enregistrer + Fermer** lorsque vous avez terminé.
 
 1. (Facultatif) Pour partager la nouvelle version du rapport avec d’autres personnes, cliquez sur **Actions de rapport**, puis **Partage**.
 
@@ -84,9 +95,10 @@ Si vous souhaitez faire une copie d’un rapport dont vous êtes la personne pro
    Pour supprimer le rapport d’origine, procédez comme suit :
 
    1. Accédez au rapport.
+
    1. Cliquez sur **Actions de rapport**, puis **Supprimer**.
 
-   1. Cliquez sur **Oui, supprimer** pour confirmer la suppression du rapport.
+   1. Cliquez sur **Oui, supprimez-le** pour confirmer que vous souhaitez supprimer le rapport.
 
 ## Créer une version d’un rapport {#create-a-new-version-of-a-report}
 
@@ -94,11 +106,11 @@ Si vous souhaitez créer une copie d’un rapport par défaut, procédez comme s
 
 1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
-1. Cliquez sur **Rapports**, puis **Tous les rapports**.
+1. Cliquez sur **Rapports**, puis sur **Tous les rapports**.
 1. Cliquez sur le nom d’un rapport par défaut pour l’ouvrir.
 1. Cliquez sur **Actions de rapport**, puis sur **Modifier**.
 
-   ![Modifier le rapport](assets/nwe-reportactionsfordefaultreport-2022.png)
+   ![Modifier le rapport](assets/unshimmed-report-actions-default-report.png)
 
 1. Apportez les modifications nécessaires dans les onglets suivants du rapport :
 
@@ -112,6 +124,6 @@ Si vous souhaitez créer une copie d’un rapport par défaut, procédez comme s
 1. Cliquez sur **Terminer**.
 1. Cliquez sur **Enregistrer en tant que nouveau rapport**.
 
-   ![](assets/nwe-save-as-new-report-350x220.png)
+   ![](assets/unshimmed-save-as-new-report.png)
 
 1. (Facultatif) Pour partager la nouvelle version du rapport avec d’autres personnes, cliquez sur **Actions de rapport**, puis **Partage**.
