@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1223'
 ht-degree: 5%
 
 ---
 
 # Créer et modifier des règles métier
+
+{{preview-fast-release-general}}
 
 Une règle de fonctionnement vous permet d’appliquer la validation aux objets Workfront et d’empêcher les utilisateurs de créer, modifier ou supprimer un objet lorsque certaines conditions sont remplies. Les règles métier permettent d’améliorer la qualité des données et l’efficacité opérationnelle en empêchant les actions susceptibles de compromettre l’intégrité des données.
 
@@ -131,6 +133,10 @@ IF(
    * L’&quot;action&quot; est le déclencheur que vous avez sélectionné pour la règle : créez, modifiez ou supprimez l’objet.
    * Comme l’objet et l’action sont déjà définis, vous ne les incluez pas dans la formule.
    * Le message d’erreur personnalisé s’affiche pour l’utilisateur lorsqu’il déclenche la règle de fonctionnement. Il doit fournir des instructions claires sur ce qui s’est mal passé et comment corriger le problème.
+
+     <span class="preview">Vous pouvez inclure une URL statique dans le message d’erreur, un lien vers la documentation ou d’autres pages utiles pour guider l’utilisateur dans la modification de son action dans la contrainte de la règle.</span>
+
+     <span class="preview">Dans cet exemple, &quot;En savoir plus&quot; renvoie à l’URL. `"You are not allowed to add a new expense in June.[Learn more](http://url)"` L’URL doit être entre parenthèses, mais le texte du lien entre crochets n’est pas obligatoire. Vous pouvez afficher l&#39;URL complète et il s&#39;agira d&#39;un lien cliquable.</span>
 
    ![Boîte de dialogue Ajouter une règle de fonctionnement](assets/add-business-rule-dialog-no-ai-button.png)
 
