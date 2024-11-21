@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 15%
@@ -64,7 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
 
 <tr>
-   <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td>
    <td>
 <p>Tous </p>  
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </td>
@@ -204,7 +204,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * Toute personne disposant d’un accès en contribution ou supérieur à l’espace de travail
    * Toute personne disposant du lien
 
-   >[!IMPORTANT]
+   >[!WARNING]
+   >
    >
    >Lorsque vous sélectionnez **Toute personne disposant du lien**, tout le monde peut accéder au formulaire et envoyer un nouvel enregistrement, même les personnes en dehors de votre organisation qui n’ont pas de compte Workfront.
 

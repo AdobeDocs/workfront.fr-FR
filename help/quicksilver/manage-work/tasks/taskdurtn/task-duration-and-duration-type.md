@@ -8,16 +8,23 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 99%
+source-wordcount: '1402'
+ht-degree: 94%
 
 ---
 
 # Vue d’ensemble de la durée des tâches et du type de durée
 
 <!-- Audited: 12/2023 -->
+
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+-->
 
 La durée de la tâche correspond à la différence entre sa date de début prévue et sa date d’achèvement prévue. La durée indique le délai dont dispose la tâche pour être achevée.
 
@@ -29,9 +36,32 @@ Si les dates de début et d’achèvement effectives de la tâche ne corresponde
 
 **Exemple :** si un planning commence à 9 h 00 et se termine à 12 h 00 et qu’une tâche est planifiée pour commencer à 14 h 00 et se terminer à 16 h 00, la durée de la tâche est zéro.
 
-Voici deux scénarios possibles lors du calcul de la durée dans Adobe Workfront :
+Voici deux scénarios qui existent lors du calcul de la durée dans Adobe Workfront :
 
-* Si la tâche est affectée à un utilisateur ou une utilisatrice Workfront, utilisez l’un des plannings suivants dans cet ordre précis pour calculer la durée :
+<!--
+<div class="preview">
+* If the task is assigned to one user, the following scenarios exist based on what environment you use: 
+
+  * In the Production environment, Workfront uses one of the following schedules, in this exact order to calculate Duration:
+
+   1. Workfront takes into account the user's schedule. 
+   1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
+   1. If the project is not associated with a schedule, Workfront takes into account the Default Schedule of your system. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+   * In the Preview environment:
+
+      1. Workfront takes into account either the schedule of the project or that of the primary assignee.
+
+          Your Workfront or group administrator determines which schedule Workfront uses when a task is assigned to one  user. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+      1. If the user or the project don't have a schedule, Workfront uses the system Default schedule. 
+
+      The steps are similar to the first scenario after understanding which schedule Workfront uses to calculate Duration.
+
+</div>
+-->
+
+* Si la tâche est assignée à un utilisateur, Workfront utilise l’un des plannings suivants, dans cet ordre exact de calcul de la durée :
 
    1. Workfront prend en compte le planning de l’utilisateur ou de l’utilisatrice.
    1. Si la personne n’est pas associée à un planning, Workfront prend en compte le planning du projet.
@@ -41,7 +71,9 @@ Voici deux scénarios possibles lors du calcul de la durée dans Adobe Workfron
 
    1. Workfront prend en compte le planning du projet ou celui de la personne cessionnaire principale.
 
-  Votre administrateur ou administratrice de Workfront détermine le planning utilisé par Workfront lorsqu’une tâche est affectée à plusieurs utilisateurs et utilisatrices. Pour plus d’informations, voir [Configurer les préférences des projets à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+      L’administrateur de Workfront ou de groupe détermine le planning utilisé par Workfront lorsqu’une tâche est affectée à plusieurs utilisateurs. Pour plus d’informations, voir [Configurer des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+   1. Si la personne désignée principale ou le projet ne dispose pas de planification, Workfront utilise la planification par défaut du système.
 
   Les étapes sont similaires au premier scénario après avoir compris quel planning Workfront utilise pour calculer la durée.
 

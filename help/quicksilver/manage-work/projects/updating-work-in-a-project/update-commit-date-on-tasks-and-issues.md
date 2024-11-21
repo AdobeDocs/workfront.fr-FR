@@ -6,10 +6,10 @@ description: Vous pouvez mettre à jour manuellement la date d’engagement d’
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 83%
+source-wordcount: '566'
+ht-degree: 81%
 
 ---
 
@@ -62,7 +62,9 @@ Vous pouvez mettre à jour manuellement la date d’engagement d’un objet (tâ
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion sur la tâche ou le problème</p> </td> 
+   <td> <p>Autorisations de gestion sur la tâche ou le problème</p>
+   <p> Vous devez être affecté à la tâche ou au problème pour mettre à jour la date de validation. </p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

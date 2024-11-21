@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '4106'
+source-wordcount: '4129'
 ht-degree: 60%
 
 ---
@@ -73,7 +73,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -206,6 +206,9 @@ OLD:
    Pointez sur l’en-tête d’une colonne, cliquez sur la flèche pointant vers le bas située après le nom du champ, puis cliquez sur **Insérer à gauche** ou **Insérer à droite** pour ajouter le nouveau champ.
 1. Dans l’onglet **Nouveau champ**, recherchez un type de champ dans la case **Type de champ** ou effectuez une sélection parmi les types de champ suivants :
 
+   Dans l’onglet **Nouveau champ** , recherchez un type de champ dans la zone **Type de champ** <!--using any related keyword--> ou sélectionnez l’un des types de champ répertoriés ci-dessous.
+
+
    * [Texte à une ligne](#single-line-text)
    * [Paragraphe](#paragraph)
    * [Sélection multiple](#multi-select)
@@ -225,6 +228,9 @@ OLD:
    >[!IMPORTANT]
    >
    >    Une fois enregistré, vous ne pouvez pas modifier le type de champ.
+
+   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. Poursuivez en ajoutant chaque champ, comme décrit dans les sections ci-dessous.
 

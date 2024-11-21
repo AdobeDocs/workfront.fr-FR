@@ -6,15 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '612'
 ht-degree: 5%
 
 ---
 
 
 # Présentation de l’assistant de planification Adobe Workfront AI
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+-->
 
 {{planning-important-intro}}
 
@@ -59,9 +65,21 @@ Pour le moment, vous pouvez utiliser l’assistant d’IA pour effectuer les act
 * Supprimer des enregistrements
 * Restaurer les enregistrements que vous venez de supprimer
 
+
+<!-- ## Locate the AI Assistant in Workfront Planning
+
+You can locate the AI Assistant in the following areas of Workfront Planning:
+
+* The main navigation bar, in the upper-right corner of the screen.
+* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page. 
+
+-->
+
 ## Accès à l’assistant d’IA dans la zone Planification
 
-1. Connectez-vous à Workfront, puis accédez à la zone **Planning**.
+1. Connectez-vous à Workfront, puis cliquez sur l’icône **Menu principal** ![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, ou sur l’icône **Menu principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant.
+
+. Cliquez sur **Planning**. La zone Planification s’ouvre.
 
 1. Cliquez sur une carte **espace de travail**.
 
@@ -69,7 +87,7 @@ Pour le moment, vous pouvez utiliser l’assistant d’IA pour effectuer les act
 
 1. (Facultatif) Cliquez sur un **enregistrement** pour ouvrir la page **Détails** de l’enregistrement.
 
-1. Cliquez sur l’icône **Assistant IA** dans le coin supérieur droit de l’écran dans la barre de navigation globale.
+1. Cliquez sur l’icône **Assistant IA** dans le coin supérieur droit de l’écran dans la barre de navigation globale <!--or in the upper-right corner of the record's preview or page.-->
 
    ![](assets/ai-assistant-icon-highlighted.png)
 
@@ -87,3 +105,6 @@ Pour le moment, vous pouvez utiliser l’assistant d’IA pour effectuer les act
    Un indicateur visuel s’affiche pendant que l’assistant d’IA traite les commandes, définissant les attentes en termes de temps de réponse.
 
    Après avoir reçu une réponse réussie, suivez les liens fournis ou notez les modifications sur la gauche.
+
+
+

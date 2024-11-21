@@ -5,16 +5,23 @@ title: Travailler sur plusieurs fuseaux horaires
 description: Il peut être utile de comprendre comment  [!DNL Adobe Workfront]  utilise les fuseaux horaires pour calculer les champs horaires des objets et les heures dans d’autres domaines tels que les e-mails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 96%
+source-wordcount: '1149'
+ht-degree: 93%
 
 ---
 
 # Travailler sur plusieurs fuseaux horaires
 
 <!-- Audited: 2/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 Il peut être utile de comprendre comment [!DNL Adobe Workfront] utilise les fuseaux horaires pour calculer les éléments suivants :
 
@@ -91,20 +98,37 @@ Les administrateurs et administratrices de [!DNL Workfront] créent des planning
 
   Ce planning peut être différent de celui d’un projet. Par exemple, lorsqu’une personne crée une tâche dans le projet, mais n’y a encore affecté personne, la tâche utilise le planning du projet. Lorsqu’une personne est affectée à la tâche, celle-ci utilise le planning de cette personne.
 
-  Si plusieurs utilisateurs et utilisatrices sont affectés à une tâche, le système utilise l’une des options suivantes, conformément à la configuration des préférences du projet à l’échelle du système :
+  Si plusieurs utilisateurs sont affectés à une tâche, le système utilise l’un des éléments suivants, tel que configuré dans les préférences de projet à l’échelle du système ou du groupe :
 
    * Le fuseau horaire pour le planning de la personne propriétaire principale de la tâche.
    * Le fuseau horaire pour le planning du projet.
 
-  Cela peut entraîner une modification des dates des tâches.
+<!--
+   <div class="preview">
 
-  **Exemple :** une personne EST est affectée à une tâche d’une journée dont le début est prévu à 9 h 00 PST, soit midi EST. Comme il ne reste à la personne EST que deux heures de travail pour la journée, la date d’achèvement de la tâche est reportée d’environ six heures au jour ouvrable suivant.
+   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
 
-  Pour plus d’informations sur la zone [!UICONTROL Préférences du projet] dans [!UICONTROL Configuration], consultez [Configurer les préférences de projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   * The time zone for the schedule of the task's assignee
+   * The time zone for the schedule of the project.
 
-  Pour plus d’informations sur l’affectation d’un planning à un projet ou à une personne, consultez [Créer un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+   </div>
+-->
 
-  Pour plus d’informations sur la façon dont le fuseau horaire configuré dans votre planning affecte la distribution du [!UICONTROL nombre d’heures prévues] dans l’[!UICONTROL équilibreur de charge de travail], consultez [Gérer les affectations des personnes dans l’[!UICONTROL équilibreur de charge de travail]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Cela peut entraîner une modification des dates des tâches.
+
+>[!BEGINSHADEBOX]
+
+**EXEMPLE :**
+Un utilisateur EST affecté à une tâche d’une journée planifiée pour commencer à 9 h 00 PST, qui est midi HNE. Comme il ne reste à la personne EST que deux heures de travail pour la journée, la date d’achèvement de la tâche est reportée d’environ six heures au jour ouvrable suivant.
+
+
+>[!ENDSHADEBOX]
+
+Pour plus d’informations sur la zone [!UICONTROL Préférences du projet] dans [!UICONTROL Configuration], consultez [Configurer les préférences de projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+Pour plus d’informations sur l’affectation d’un planning à un projet ou à une personne, consultez [Créer un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+Pour plus d’informations sur la façon dont le fuseau horaire configuré dans votre planning affecte la distribution du [!UICONTROL nombre d’heures prévues] dans l’[!UICONTROL équilibreur de charge de travail], consultez [Gérer les affectations des personnes dans l’[!UICONTROL équilibreur de charge de travail]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Utiliser des champs d’heure calculés dans un formulaire personnalisé {#use-calculated-time-fields-in-a-custom-form}

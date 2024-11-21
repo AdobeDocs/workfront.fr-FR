@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 22%
@@ -55,7 +55,7 @@ Vous pouvez recevoir des notifications par courrier électronique de la part de 
 <p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
