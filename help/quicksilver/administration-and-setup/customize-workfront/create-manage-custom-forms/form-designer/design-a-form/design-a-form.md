@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
-source-wordcount: '6294'
-ht-degree: 80%
+source-wordcount: '6537'
+ht-degree: 78%
 
 ---
 
@@ -264,6 +264,10 @@ Pour ajouter un champ de texte, procédez comme suit :
     <td> Si vous souhaitez appliquer un lien hypertexte au texte descriptif que vous avez saisi, ajoutez-le ici. Le texte descriptif s’affiche sous forme de lien sur les objets auxquels le formulaire est attaché.</td>
     <td><ul><li>Texte descriptif</li></ul></td>
     </tr>
+    <tr> 
+      <td role="rowheader">Créer un champ obligatoire</td>
+      <td><p>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur ou l’utilisatrice puisse remplir le formulaire personnalisé.</p></td>
+    </tr> 
    </table>
 
 1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs ou widgets.
@@ -596,7 +600,7 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Format</td>
       <td><p>Sélectionnez le type de données qui seront capturées dans le champ personnalisé.</p>
       <p><strong>NOTE :</strong></p>
-      <ul><li>Il est possible de modifier le type de format une fois le formulaire enregistré, mais toutes les valeurs existantes sur les objets doivent être convertibles au nouveau type de format. (Par exemple, si le format actuel est Texte et qu’un objet contient la valeur « abc », vous ne pourrez pas changer le format du champ et une erreur se produira, indiquant que le système ne peut pas convertir « abc » en nombre ou en devise.) Pour utiliser votre champ dans des calculs mathématiques, assurez-vous de sélectionner le format « Nombre » ou « Devise ».</li>
+      <ul><li>Il est possible de modifier le type de format une fois le formulaire enregistré, mais toutes les valeurs existantes sur les objets doivent être convertibles au nouveau type de format. (Par exemple, si le type de format est Texte et qu’un objet stocke la valeur "abc", vous ne pouvez pas convertir le champ et obtenez une erreur indiquant que le système ne peut pas convertir "abc" en nombre/devise.) Si vous envisagez d’utiliser votre champ dans des calculs mathématiques, veillez à sélectionner le format Nombre ou Devise .</li>
       <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li>
       <li>Les champs au format « Nombre » sont limités à 16 caractères. Vous pouvez également utiliser un champ Texte pour saisir des nombres et éviter la limite.</li>
       </ul></td>
@@ -839,6 +843,27 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
       <td role="rowheader">Champ de référence</td> 
       <td><p>(Obligatoire) Sélectionnez un champ natif Workfront.<p><p>Seuls les champs natifs des objets du formulaire sont disponibles. Par exemple, si la liste des types d’objets en haut du créateur de formulaire affiche Projet, vous pourrez sélectionner des champs natifs pour les projets, mais pas des champs spécifiques aux tâches.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Ajouter filtre</span></td>
+      <td><span class="preview"><p>Ajoutez un filtre pour le champ de référence afin de limiter la liste des éléments parmi lesquels les utilisateurs peuvent choisir lorsqu’ils utilisent le champ. </p> <p>Par exemple, vous pouvez limiter un champ afin que les noms d’utilisateurs ou d’utilisatrices ne puissent être sélectionnés que s’ils répondent aux critères suivants :</p> 
+       <ul>
+        <li>Ils appartiennent à un ou à des groupes que vous spécifiez.</li> 
+        <li>Ils sont associés à un rôle ou à une fonction que vous spécifiez.</li> 
+        <li>Ils appartiennent au même groupe que la personne qui utilise le champ.</li> 
+       </ul>
+       <p>Vous devez définir le filtre du champ de référence que vous avez sélectionné à l’aide de la syntaxe Mode texte . Pour plus d’informations sur la création d’un filtre à l’aide du mode texte, consultez la section <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modifier un filtre à l’aide du mode texte</a>.</p>
+       <p><b>NOTE</b> :
+       <ul> 
+        <li>L’option de filtre n’est disponible que lorsque vous référencez un champ de type natif, tel que Portfolio, Société ou Propriétaire.</li>
+        <li>Si vous modifiez un formulaire personnalisé existant, l’ajout d’un filtre à un champ natif ne supprime aucun objet (hors de la portée du filtre) déjà ajouté par les utilisateurs à l’aide du champ.</li> 
+        <li>Ce filtre n’est pas disponible sur les appareils mobiles. Si vous utilisez le filtre pour un champ natif, celui-ci s’affiche sur les appareils mobiles des utilisateurs qui ne sont pas affectés par le filtre.</li> 
+        </ul></p></span></td> 
+      <td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Créer un champ obligatoire</td>
+      <td><p>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur ou l’utilisatrice puisse remplir le formulaire personnalisé.</p></td>
+     </tr> 
      <tr> 
       <td role="rowheader">Taille</td> 
       <td>(Facultatif) Modifiez la taille d’affichage du champ selon vos besoins.</td> 

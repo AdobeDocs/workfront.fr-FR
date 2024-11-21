@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 5%
@@ -136,11 +136,11 @@ IF(
 
      <span class="preview">Vous pouvez inclure une URL statique dans le message d’erreur, un lien vers la documentation ou d’autres pages utiles pour guider l’utilisateur dans la modification de son action dans la contrainte de la règle.</span>
 
-     <span class="preview">Dans cet exemple, &quot;En savoir plus&quot; renvoie à l’URL. `"You are not allowed to add a new expense in June.[Learn more](http://url)"` L’URL doit être entre parenthèses, mais le texte du lien entre crochets n’est pas obligatoire. Vous pouvez afficher l&#39;URL complète et il s&#39;agira d&#39;un lien cliquable.</span>
+     <span class="preview">Dans cet exemple, &quot;En savoir plus&quot; renvoie à l’URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` L’URL doit être entre parenthèses, mais le texte du lien entre crochets n’est pas obligatoire. Vous pouvez afficher l&#39;URL complète et il s&#39;agira d&#39;un lien cliquable.</span>
 
    ![Boîte de dialogue Ajouter une règle de fonctionnement](assets/add-business-rule-dialog-no-ai-button.png)
 
-   Cet exemple est une règle de fonctionnement pour les dépenses. Si le mois en cours est le mois de juin, les utilisateurs ne sont pas autorisés à créer de nouvelles dépenses et le message l’explique.
+   Cet exemple est une règle de fonctionnement pour les projets. Si le mois en cours est novembre, les utilisateurs ne sont pas autorisés à créer de nouveaux projets et le message l’explique.
 
    Pour obtenir d’autres exemples de règles de fonctionnement, reportez-vous à la section [Scénarios pour les règles de fonctionnement](#scenarios-for-business-rules) de cet article.
 
