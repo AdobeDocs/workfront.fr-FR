@@ -5,10 +5,10 @@ title: Travailler sur plusieurs fuseaux horaires
 description: Il peut être utile de comprendre comment  [!DNL Adobe Workfront]  utilise les fuseaux horaires pour calculer les champs horaires des objets et les heures dans d’autres domaines tels que les e-mails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 93%
+source-wordcount: '1252'
+ht-degree: 87%
 
 ---
 
@@ -16,12 +16,9 @@ ht-degree: 93%
 
 <!-- Audited: 2/2024 -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
-
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Il peut être utile de comprendre comment [!DNL Adobe Workfront] utilise les fuseaux horaires pour calculer les éléments suivants :
 
@@ -103,18 +100,16 @@ Les administrateurs et administratrices de [!DNL Workfront] créent des planning
    * Le fuseau horaire pour le planning de la personne propriétaire principale de la tâche.
    * Le fuseau horaire pour le planning du projet.
 
-<!--
-   <div class="preview">
+  <div class="preview">
 
-   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
+  Si un utilisateur est affecté à une tâche, le système utilise l’un des éléments suivants, tel que configuré dans les préférences de projet à l’échelle du système ou du groupe :
 
-   * The time zone for the schedule of the task's assignee
-   * The time zone for the schedule of the project.
+   * Le fuseau horaire du planning de la personne désignée de la tâche
+   * Le fuseau horaire pour le planning du projet.
 
-   </div>
--->
+  </div>
 
-Cela peut entraîner une modification des dates des tâches.
+  Cela peut entraîner une modification des dates des tâches.
 
 >[!BEGINSHADEBOX]
 

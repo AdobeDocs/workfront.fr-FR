@@ -10,10 +10,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 99%
+source-wordcount: '864'
+ht-degree: 86%
 
 ---
 
@@ -21,12 +21,9 @@ ht-degree: 99%
 
 <!-- Audited: 1/2024 -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
-
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Vous pouvez définir votre semaine de travail à l’aide de plannings et associer un planning à une personne ou à un projet. Cela permet à [!DNL Adobe Workfront] de calculer les chronologies et la disponibilité des utilisateurs et utilisatrices. Pour obtenir des instructions, voir [Créer un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -68,23 +65,17 @@ Si une tâche est affectée à une personne associée à un planning et qu’ell
 
 L’ordre dans lequel les plannings sont utilisés par le système lorsqu’il en existe plusieurs est le suivant :
 
-<!--Replace the first bullet below with this when the setting releases: 
-* When one user is assigned to a task, the following scenarios exist, depending on what environment you use: 
 
-   * In the Production environment, [!DNL Workfront] uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.
+* Lorsqu’un utilisateur est affecté à une tâche, les scénarios suivants existent, selon l’environnement que vous utilisez :
 
-      For more information about personal time, see [Configure personal time off](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+   * Dans l’environnement de production, [!DNL Workfront] utilise le planning de l’utilisateur pour calculer la chronologie de la tâche. Cela comprend également le temps personnel de la personne. Le planning du projet n’est pas pris en compte.
 
-   * <span class="preview">In the Preview environment, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:</span>
+     Pour plus d’informations sur le temps libre, voir [Configurer les congés personnels](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-      * <span class="preview">The schedule of the user who is assigned to the task </span>
-      * <span class="preview">The schedule associated with the project.</span>
+   * <span class="preview">Dans l’environnement de prévisualisation, [!DNL Workfront] utilise l’une des planifications suivantes, comme défini dans la zone [!UICONTROL Préférences du projet] de [!UICONTROL Configuration] :</span>
 
--->
-
-* Lorsqu’une personne est affectée à une tâche, [!DNL Workfront] utilise le planning de la personne pour calculer la chronologie de la tâche. Cela comprend également le temps personnel de la personne. Le planning du projet n’est pas pris en compte.
-
-  Pour plus d’informations sur le temps libre, voir [Configurer les congés personnels](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+      * <span class="preview">Planification de l’utilisateur affecté à la tâche </span>
+      * <span class="preview">Planification associée au projet.</span>
 
 * Lorsque plusieurs personnes sont affectées à une tâche et ont des horaires différents pendant la durée de la tâche, [!DNL Workfront] utilise l’un des plannings suivants, tels que définis dans la zone [!UICONTROL Préférences du projet] de la [!UICONTROL Configuration] :
 
