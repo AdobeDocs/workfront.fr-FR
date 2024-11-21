@@ -5,10 +5,10 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1946'
-ht-degree: 100%
+source-wordcount: '1959'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -62,6 +62,21 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 ## Conditions préalables
 
 Pour utiliser les modules [!DNL DocuSign], vous devez disposer d’un compte [!DNL DocuSign].
+
+## Informations sur l’API DocuSign
+
+Le connecteur DocuSign utilise les méthodes suivantes :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>1.18.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connecter [!DNL DocuSign] à [!DNL Workfront Fusion] {#connect-docusign-to-workfront-fusion}
 

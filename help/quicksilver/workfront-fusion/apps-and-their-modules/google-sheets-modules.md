@@ -9,10 +9,10 @@ description: Pour utiliser  [!DNL Google Sheets]  avec l’extension  [!DNL Adob
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '4000'
-ht-degree: 99%
+source-wordcount: '4023'
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -64,6 +64,29 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 ## Conditions préalables
 
 Pour utiliser les modules [!UICONTROL Google Sheets], vous devez avoir un compte [!UICONTROL Google].
+
+## Informations sur l’API Google Sheets
+
+Le connecteur Google Sheets utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL de base</td> 
+   <td> https://sheets.googleapis.com/v4</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Version de l’API</td> 
+   <td> v4 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>v2.5.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Déclencheurs
 
@@ -720,7 +743,7 @@ Utilisez le module [!UICONTROL Effectuer une recherche dans les lignes (avancé)
    * Le nom de la fonction doit correspondre au nom que vous avez spécifié à l’étape 9.
    * Remplacez l’URL par l’URL du webhook que vous avez copié à l’étape 2.
 
-     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
+     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("&lt;webhook que vous avez copié&gt;");</pre><pre>}</pre>
 
 1. Appuyez sur **[!UICONTROL Ctrl + S]** pour enregistrer le fichier script, saisissez un nom de projet et cliquez sur **[!UICONTROL OK]**.
 

@@ -10,10 +10,10 @@ description: Adobe Workfront Fusion nécessite une licence Adobe Workfront F
 author: Becky
 feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 8dbb29b297d4f8840d5ecb81f819e89b5325f62c
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2493'
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigence des produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
@@ -63,7 +63,30 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez l’administration [!DNL Workfront].
 
-&#42;&#42;Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir [[!DNL Adobe Workfront Fusion] Licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+&#42;&#42;Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+
+## Informations sur l’API Microsoft Power BI
+
+Le connecteur Microsoft Power BI utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL de base</td> 
+   <td> https://api.powerbi.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Version de l’API</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>v1.0.2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Modules [!DNL Power BI] et leurs domaines
 

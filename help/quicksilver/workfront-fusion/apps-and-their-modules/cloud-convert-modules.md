@@ -5,10 +5,10 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: e21ef8a0-bec0-43fc-a495-c00b4023a273
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '3008'
-ht-degree: 100%
+source-wordcount: '3026'
+ht-degree: 98%
 
 ---
 
@@ -39,13 +39,36 @@ Dans un scénario Adobe Workfront Fusion, vous pouvez automatiser les workflow
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre organisation doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
+
+## Informations sur l’API CloudConvert
+
+Le connecteur CloudConvert utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL de base</td> 
+   <td> https://api.cloudconvert.com/v2/</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Version de l’API</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>2.14.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connecter [!DNL CloudConvert] à [!DNL Workfront Fusion] {#connect-cloudconvert-to-workfront-fusion}
 

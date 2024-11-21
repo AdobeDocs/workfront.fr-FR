@@ -9,10 +9,10 @@ description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez auto
 author: Becky
 feature: Workfront Fusion
 exl-id: 1987156c-e003-4f99-8913-cb47f77efbfc
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1821'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 

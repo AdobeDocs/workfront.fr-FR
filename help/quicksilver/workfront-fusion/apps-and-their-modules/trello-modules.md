@@ -9,10 +9,10 @@ description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez auto
 author: Becky
 feature: Workfront Fusion
 exl-id: 60630b23-e057-4ecf-a014-6e63b6d69b48
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '5095'
-ht-degree: 91%
+source-wordcount: '5113'
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -66,6 +66,29 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 ## Conditions préalables
 
 Pour utiliser les modules [!DNL Trello], vous devez disposer d’un compte [!UICONTROL Trello].
+
+## Informations sur l’API Trello
+
+Le connecteur Trello utilise les fonctionnalités suivantes :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL de base</td> 
+   <td> https://api.trello.com/1</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Version de l’API</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>4.12.37</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connecter [!UICONTROL Trello] à [!DNL Workfront Fusion]
 

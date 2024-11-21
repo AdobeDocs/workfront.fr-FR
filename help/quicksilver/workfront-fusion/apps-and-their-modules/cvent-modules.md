@@ -9,10 +9,10 @@ description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez auto
 author: Becky
 feature: Workfront Fusion
 exl-id: c95b9764-29a5-4d8c-8e6d-68a3969129e0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 100%
+source-wordcount: '1059'
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -66,6 +66,25 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 ## Conditions préalables
 
 Pour utiliser les modules [!DNL Cvent], vous devez disposer d’un compte [!DNL Cvent].
+
+## Informations sur l’API Cvent
+
+Le connecteur Cvent utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Version de l’API</td> 
+   <td> V200611.ASMX </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>v1.7.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connecter [!DNL Cvent] à [!DNL Adobe Workfront Fusion] {#connect-cvent-to-adobe-workfront-fusion}
 

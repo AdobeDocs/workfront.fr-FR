@@ -4,10 +4,10 @@ description: Les modules CRM HubSpot  [!DNL Adobe Workfront Fusion]  vous permet
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: d550ba76a5a6c1d241d1dc73e63e49ef4c22a40d
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '6394'
-ht-degree: 41%
+source-wordcount: '6411'
+ht-degree: 40%
 
 ---
 
@@ -42,7 +42,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -57,6 +57,25 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 ## Conditions préalables
 
 Pour utiliser les modules [!DNL HubSpot CRM], vous devez disposer d’un compte [!DNL HubSpot CRM].
+
+## Informations sur l’API CRM HubSpot
+
+Le connecteur CRM HubSpot utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL de base</td> 
+   <td>https://api.hubapi.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>v2.0.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connecter [!DNL Adobe Workfront Fusion] à [!DNL HubSpot CRM]
 
@@ -949,7 +968,7 @@ Ce module d’action crée un engagement (une note, une tâche ou une activité,
    <td>Saisissez ou mappez les détails ou les notes de l’appel.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Identifiant externe</td> 
+   <td role="rowheader">ID externe</td> 
    <td>Ce champ représente l’identifiant interne d’un appel effectué dans HubSpot. Cela ne nécessite aucune action.</td> 
   </tr> 
   <tr> 
@@ -1421,7 +1440,7 @@ Ce module d’action crée une nouvelle tâche pour un calendrier. La connexion 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Category]</td> 
-   <td>Sélectionnez le type d’événement.<ul><li><b>Blog Post</b><p>Saisissez l’identifiant du groupe de contenu. Il s’agit de l’identifiant de la page de blog.</p></li><li><b>E-mail</b><p>Saisissez ou mappez le chemin d’accès au modèle d’email que vous souhaitez utiliser.</li><li><b>Page d’entrée</b><p>Saisissez ou mappez le chemin d’accès au modèle de landing page que vous souhaitez utiliser.</li><li><b>Personnalisé</b></li><ul></td> 
+   <td>Sélectionnez le type d’événement.<ul><li><b>Blog Post</b><p>Saisissez l’identifiant du groupe de contenu. Il s’agit de l’identifiant de la page de blog.</p></li><li><b>E-mail</b><p>Saisissez ou mappez le chemin d’accès au modèle d’email que vous souhaitez utiliser.</li><li><b>Page d’entrée</b><p>Saisissez ou mappez le chemin d’accès au modèle de landing page que vous souhaitez utiliser.</li><li><b>Valeur personnalisée</b></li><ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL State]</td> 

@@ -9,10 +9,10 @@ description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez auto
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1844'
-ht-degree: 100%
+source-wordcount: '1863'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -69,6 +69,29 @@ Avant d’utiliser le connecteur [!DNL Anaplan], assurez-vous que les conditions
 
 * Vous devez avoir un compte [!UICONTROL Anaplan] actif.
 * Vous devez configurer des espaces de travail, des modèles et d’autres objets [!DNL Anaplan] dans votre compte [!UICONTROL Anaplan] avant que [!DNL Workfront Fusion] puisse interagir avec eux.
+
+## Informations sur l’API Anplan
+
+Le connecteur Anaplan utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL de base</td> 
+   <td>https://api.anaplan.com/2/0/
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Version de l’API</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>v1.11.5/td&gt; 
+ </tbody> 
+</table>
 
 ## Connecter [!DNL Anaplan] à [!DNL Workfront Fusion] {#connect-anaplan-to-workfront-fusion}
 

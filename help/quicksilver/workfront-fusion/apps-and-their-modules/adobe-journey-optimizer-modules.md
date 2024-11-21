@@ -9,10 +9,10 @@ description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez auto
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: a2b9722f3964fccab6e30f2cd79e5ac63f736ba4
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '3673'
-ht-degree: 31%
+source-wordcount: '3692'
+ht-degree: 30%
 
 ---
 
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
     <tr>
       <td role="rowheader">Produit</td>
       <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td>
@@ -78,6 +78,25 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 Avant d’utiliser le connecteur [!DNL Adobe Journey Optimizer], vous devez vous assurer que les conditions préalables suivantes sont remplies :
 
 * Vous devez disposer d’un compte [!DNL Adobe Journey Optimizer].
+
+## Informations sur l’API Adobe Journey Optimizer
+
+Le connecteur Adobe Journey Optimizer utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL de base</td> 
+   <td>{{connection.url}</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>v1.7.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Création d’une connexion à Adobe Journey Optimizer
 
@@ -1018,7 +1037,7 @@ Ce module d’action déclenche un message unitaire à l’intention des destina
    <td>Pour chaque destinataire que vous souhaitez recevoir ce message, cliquez sur <b>Ajouter un destinataire</b> et saisissez ce qui suit :
    <ul>
    <li><p><b>Type</b></p>Sélectionnez <code>aep</code>.</li>
-   <li><p><b>ID d’utilisateur</b></p>Saisissez ou mappez l’identifiant de profil Adobe Experience Platform du destinataire.</li>
+   <li><p><b>Identifiant utilisateur</b></p>Saisissez ou mappez l’identifiant de profil Adobe Experience Platform du destinataire.</li>
    <li><p><b>Espace de noms</b></p>Saisissez ou mappez l’espace de noms du profil Adobe Experience Platform du destinataire.</li>
    <li><p><b>Adresse e-mail</b></p></li>
    <li><p><b>Numéro de téléphone mobile</b></p></li>

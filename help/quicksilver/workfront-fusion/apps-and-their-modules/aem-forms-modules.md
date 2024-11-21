@@ -10,10 +10,10 @@ description: Avec le connecteur  [!DNL Adobe Experience Manager Forms]  pour com
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 100%
+source-wordcount: '573'
+ht-degree: 92%
 
 ---
 
@@ -50,7 +50,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -65,6 +65,21 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 ## Conditions préalables
 
 * Vous devez disposer d’un compte [!DNL Adobe Experience Manager Forms] pour utiliser ce module.
+
+## Informations sur l’API Adobe Experience Manager Assets
+
+Le connecteur Adobe Experience Manager Assets utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>v1.2.27</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Créer une connexion à Adobe Experience Manager Forms
 

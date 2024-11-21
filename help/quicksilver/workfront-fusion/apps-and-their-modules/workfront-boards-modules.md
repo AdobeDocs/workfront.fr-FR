@@ -9,10 +9,10 @@ description: Vous pouvez utiliser le connecteur des panoramas Adobe Workfront po
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 20%
+source-wordcount: '2647'
+ht-degree: 19%
 
 ---
 
@@ -55,7 +55,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -71,6 +71,21 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 ## Conditions préalables
 
 Vous devez avoir configuré un panorama dans Adobe Workfront avant de pouvoir vous y connecter.
+
+## Informations sur l’API des panoramas Adobe Workfront
+
+Le connecteur des panoramas Adobe Workfront utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>1.23.6</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Création d’une connexion aux panoramas Workfront
 

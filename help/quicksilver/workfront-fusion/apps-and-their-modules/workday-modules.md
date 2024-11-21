@@ -10,10 +10,10 @@ description: Dans un scénario Adobe Workfront Fusion, vous pouvez automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 100%
+source-wordcount: '1030'
+ht-degree: 95%
 
 ---
 
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -71,6 +71,25 @@ Pour utiliser les modules [!DNL Workday], vous devez :
 * Disposer d’un compte [!DNL Workday].
 
 * Créer une application OAuth dans [!DNL Workday]. Pour obtenir des instructions, voir la documentation [!DNL Workday].
+
+## Informations sur l’API Workday
+
+Le connecteur Workday utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL de base</td> 
+   <td>https://{{connection.servicesUrl}/api</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>v1.6.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connecter [!DNL Workday] à [!DNL Workfront Fusion]
 

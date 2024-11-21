@@ -8,10 +8,10 @@ description: Vous pouvez utiliser l’outil d’analyse de texte pour analyser l
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 100%
+source-wordcount: '1048'
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -57,6 +57,21 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
 Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
 
 Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Informations sur l’API d’analyse de texte
+
+Le connecteur d’analyseur de texte utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>v2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Modules de l’[!UICONTROL analyseur de texte] et leurs champs
 
@@ -180,7 +195,7 @@ Le présent article ne vise pas à aborder la question des expressions réguliè
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Activez cette option pour vous assurer que le point (.) correspond aux caractères de saut de ligne (<code>\n</code>).</td> 
+   <td>Activez cette option pour vous assurer que le point (.) correspond aux caractères de saut de page (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
@@ -223,7 +238,7 @@ Recherche une valeur ou une expression régulière dans le texte saisi et rempla
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Activez cette option pour vous assurer que le point (.) correspond aux caractères de saut de ligne (<code>\n</code>).</td> 
+   <td>Activez cette option pour vous assurer que le point (.) correspond aux caractères de saut de page (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Text] </td> 

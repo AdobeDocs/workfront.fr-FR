@@ -9,10 +9,10 @@ description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez auto
 author: Becky
 feature: Workfront Fusion
 exl-id: ac966231-251e-44de-be61-00afa5ece3fd
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 91%
+source-wordcount: '1051'
+ht-degree: 87%
 
 ---
 
@@ -49,7 +49,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -63,7 +63,26 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 
 ## Conditions préalables
 
-Pour utiliser les modules [!DNL Azure Active Directory], vous devez avoir un compte [!DNL Azure Active Directory].
+Pour utiliser les modules [!DNL Azure Active Directory], vous devez disposer d’un compte [!DNL Azure Active Directory].
+
+## [!DNL Azure Active Directory] informations sur l’API
+
+Le connecteur Azure Active Directory utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Version de l’API</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>v1.4.5</td> 
+  </tr>
+ </tbody> 
+</table>
 
 ## Modules [!DNL Azure Active Directory] et leurs champs
 

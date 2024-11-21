@@ -9,10 +9,10 @@ description: Les modules S3 d’ [!DNL Adobe Workfront Fusion AWS]  permettent 
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 100%
+source-wordcount: '1392'
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -62,6 +62,25 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 ## Conditions préalables
 
 Pour utiliser les modules [!UICONTROL AWS S3], vous devez disposer d’un compte [!DNL Amazon Web Service].
+
+## Informations sur l’API AWS S3
+
+Le connecteur AWS S3 utilise les fonctionnalités suivantes :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL de base</td> 
+   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>v1.5.21</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connecter [!DNL AWS] à [!DNL Workfront Fusion] {#connect-aws-to-workfront-fusion}
 

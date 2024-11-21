@@ -8,10 +8,10 @@ description: L’application JSON d’Adobe Workfront Fusion fournit des modul
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1214'
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -88,7 +88,7 @@ Si le champ Chaîne de caractères JSON contient une collection `{ ... }`, la so
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Si le champ Chaîne de caractères JSON contient un tableau `[ ... ]`, la sortie
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -248,26 +248,25 @@ Ce module d’action transforme un objet en une chaîne JSON.
 >
 **Exemple :**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. Cliquer sur **[!UICONTROL Enregistrer]**. Le champ [!UICONTROL Spécification] de la structure de données contient maintenant la structure générée.
 1. Attribuez à votre structure de données un nom plus spécifique et cliquez sur **[!UICONTROL Enregistrer]**. Un champ correspondant à l’attribut de tableau racine apparaît comme champ mappable dans la configuration du module JSON.
