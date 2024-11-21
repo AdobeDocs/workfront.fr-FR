@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 347c1484ce24b8aeb3d1e12c35a19afbb937803c
+source-git-commit: f69c974a620d5f39bc4ea18b455476c90cd4908e
 workflow-type: tm+mt
 source-wordcount: '14597'
 ht-degree: 94%
@@ -854,8 +854,8 @@ ht-degree: 94%
       * [Prévenir l’usurpation d’identité et ajouter des enregistrements SPF](administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
       * [Enregistrer un fichier d’en-tête d’e-mail](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [La fenêtre de partage affiche plusieurs autorisations.](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
-      * [Email non authentifié non accepté](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-        [Workfront : les paramètres ZScalar peuvent réduire les performances](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
+      * [L’e-mail non authentifié n’est pas accepté.](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+      * [Workfront : les paramètres ZScalar peuvent réduire les performances](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
       * [Informations d’identification de l’utilisateur ou utilisatrice et informations d’identification SAML](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [Mettre à jour les options de mise à niveau automatique dans les niveaux d’accès](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Concepts de base Adobe Workfront {#basics}
