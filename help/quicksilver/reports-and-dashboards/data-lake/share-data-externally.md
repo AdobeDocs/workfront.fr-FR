@@ -7,9 +7,9 @@ description: Workfront Data Connect vous permet d’utiliser les données Workfr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '607'
 ht-degree: 9%
 
 ---
@@ -18,20 +18,22 @@ ht-degree: 9%
 
 Workfront Data Connect vous permet d’utiliser les données Workfront de votre entreprise avec des outils de Business Intelligence ou de les stocker dans un entrepôt de données externe.
 
-Pour connecter votre lac de données Data Connect à un produit externe, vous devez d’abord ajouter toutes les adresses IP requises à la liste autorisée, comme décrit dans la section [Ajout d’adresses IP à la liste autorisée](#add-ips-to-the-allowlist) ci-dessous. En outre, la plupart des produits nécessiteront des informations supplémentaires sur votre lac de données pour établir une connexion :
+Pour connecter votre lac de données Data Connect à un produit externe, vous devez d’abord créer une connexion comme décrit dans la section [Création d’un compte de lecteur ou d’une connexion pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Ensuite, vous devez ajouter toutes les adresses IP requises à la liste autorisée, comme décrit dans la section [Ajouter des adresses IP à la liste autorisée](#add-ips-to-the-allowlist) ci-dessous.
+
+La plupart des produits auront besoin des informations suivantes sur votre lac de données pour établir une connexion :
 
 | Nom du champ | Valeur |
 |---------------|-------------|
-| Serveur | URL de la connexion, sans la partie `https://` (disponible sur la page **Data access** dans Workfront*) |
+| Serveur | URL de la connexion, sans la partie `https://` (disponible sur la page **Data Connect** dans Workfront*) |
 | Port | `443` |
 | Base | `WORKFRONT` |
 | Entrepôt | `READER_WH` |
 | Schéma | `WF` |
 | Rôle | `READER_ROLE` |
-| Nom d’utilisateur | Nom d’utilisateur choisi lors de la création de la connexion (trouvé sur la page **Accès aux données** dans Workfront*) |
+| Nom d’utilisateur | Nom d’utilisateur choisi lors de la création de la connexion (trouvé sur la page **Data Connect** dans Workfront*) |
 | Mot de passe | Mot de passe choisi lors de la première connexion du Snowflake* |
 
-*Pour plus d’informations sur l’emplacement de la page **Data access** contenant vos connexions Data Connect, voir [ Création d’un compte de lecteur (service) pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*Pour plus d’informations sur l’emplacement de la page **Data Connect** contenant vos connexions, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
 >[!IMPORTANT]
 >
@@ -82,7 +84,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Configuration**.
 
-1. Dans le panneau de gauche, cliquez sur **Système** > **Accès aux données**.
+1. Dans le panneau de gauche, cliquez sur **Système** > **Connexion aux données**.
 
 1. Cliquez sur l’onglet **IP autorisées** , puis sur le bouton **Ajouter une adresse IP à votre Liste autorisée** .
 
@@ -94,7 +96,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Configuration**.
 
-1. Dans le panneau de gauche, cliquez sur **Système** > **Accès aux données**.
+1. Dans le panneau de gauche, cliquez sur **Système** > **Connexion aux données**.
 
 1. Cliquez sur l’onglet **IP autorisées** , puis sur l’icône de corbeille ![Icône Supprimer](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) située à droite de l’adresse IP que vous souhaitez supprimer.
 

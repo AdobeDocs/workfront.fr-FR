@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '902'
 ht-degree: 5%
 
 ---
@@ -32,6 +33,29 @@ Cet article décrit les fonctionnalités de la version 2025 du premier trimestre
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning après la mise à disposition de la version générale le 28 août 2024, voir [Activité de mise à jour d’Adobe Workfront Planning : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Assistant d’Adobe de l’IA disponible dans les zones de détails des enregistrements
+
+>[!NOTE]
+>
+>Aperçu de la version : 21 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+
+Afin de vous faciliter la tâche, nous avons ajouté l’assistant d’Adobe AI à l’aperçu des détails ou à la page d’enregistrement d’un enregistrement. Vous pouvez utiliser l’assistant d’IA situé dans une page d’enregistrement pour mettre à jour les informations sur l’enregistrement.
+
+Pour plus d’informations, reportez-vous à la section [Présentation de l’assistant de planification Adobe Workfront AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
+## Nouvelle expérience lors de l’ajout d’une miniature et d’une image de couverture à une page d’enregistrement
+
+>[!NOTE]
+>
+>Aperçu de la version : 20 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+
+Lorsque vous ouvrez l’aperçu ou la page d’un enregistrement et que l’enregistrement ne comporte pas de miniature ou d’image de couverture, vous devez maintenant pointer sur la zone située au-dessus du nom de l’enregistrement dans l’en-tête pour afficher les options permettant d’ajouter une couverture et une image de miniature à l’enregistrement. Avant cette amélioration, les images d’espace réservé vides pour la miniature et la couverture s’affichaient au-dessus du nom de l’enregistrement.
+
+Pour plus d’informations, consultez les articles suivants :
+
+* [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Ajout d’une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ## Nouveaux types d’affichage pour les champs de type pourcentage dans la vue de tableau
 

@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 11%
+source-wordcount: '403'
+ht-degree: 10%
 
 ---
 
@@ -17,6 +17,17 @@ ht-degree: 11%
 Cette page décrit les améliorations apportées à la version du premier trimestre 2025 de l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2025, consultez l’article [Vue d’ensemble de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Mise à jour sur la gestion des ressources déplacées ou supprimées dans les dossiers liés
+
+>[!NOTE]
+>
+>Version de prévisualisation : vendredi 21 novembre 2024. Version de production pour l’ensemble des clientes et clients : vendredi 5 décembre 2024.
+
+Nous avons modifié la manière dont les ressources déplacées et supprimées sont gérées lors de l’utilisation de l’intégration Adobe Workfront avec Experience Manager Assets et les Assets Essentials :
+
+* Ressources supprimées : lorsqu’une ressource est supprimée dans un dossier lié d’Assets ou d’Assets Essentials, elle est conservée dans la zone Documents du projet.
+* Ressources déplacées : lorsqu’une ressource est déplacée en dehors d’un dossier lié dans Assets ou Assets essentials, elle est conservée dans la zone Documents de projet.
 
 ## Les sections d’un formulaire personnalisé sont désormais réductibles et extensibles.
 
