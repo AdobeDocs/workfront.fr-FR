@@ -77,7 +77,7 @@ Le connecteur Qualtrics utilise les éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader">URL de base</td> 
-   <td> https://{{connection.dataCenterCode}}.qualtrics.com/API/v3 </td> 
+   <td> https://&lbrace;&lbrace;connection.dataCenterCode&rbrace;&rbrace;.qualtrics.com/API/v3 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Version de l’API</td> 
