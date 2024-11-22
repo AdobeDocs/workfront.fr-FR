@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1090'
 ht-degree: 80%
 
 ---
@@ -237,7 +237,13 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
    <td>Document </td> 
    <td>Objet où le document est joint, Projet </td> 
   </tr> 
-  <tr> 
+ </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Épreuve </td> 
+   <td>Document </td> 
+  </tr>
+
+<tr> 
    <td>Programme</td> 
    <td>Portfolio</td> 
   </tr> 

@@ -1,24 +1,30 @@
 ---
 title: Suppression d’enregistrements
-description: Vous pouvez supprimer des enregistrements que vous ou une autre personne avez créés. Vous ne pouvez pas récupérer les enregistrements supprimés.
+description: Vous pouvez supprimer des enregistrements que vous ou une autre personne avez créés.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b528e751d23b04ae1e495f00e06ffef8aa60156
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 79%
+source-wordcount: '764'
+ht-degree: 50%
 
 ---
 
 
 # Supprimer des enregistrements
 
+<!--take Preview and Production references out at release-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
-Vous pouvez supprimer les enregistrements qui ne sont plus pertinents dans Adobe Workfront Planning.
+Vous pouvez supprimer les enregistrements qui ne sont plus pertinents dans la planification Adobe Workfront. <span class="preview">Vous pouvez récupérer les enregistrements supprimés pendant 30 jours après leur suppression. Pour plus d&#39;informations sur la récupération des enregistrements supprimés, voir [Récupération des enregistrements supprimés](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
 
 ## Conditions d’accès
 
@@ -156,10 +162,9 @@ OLD
 ## Considérations sur la suppression des enregistrements
 
 * Vous pouvez supprimer des enregistrements que vous ou une autre personne avez créés.
-* Vous ne pouvez pas récupérer les enregistrements supprimés.<!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
+* Vous ne pouvez pas récupérer les enregistrements supprimés dans l&#39;environnement Production. <span class="preview">Vous pouvez récupérer les enregistrements supprimés dans l&#39;environnement Aperçu.</span>
 * Lorsque des enregistrements supprimés sont liés à d’autres enregistrements, ces enregistrements liés restent intacts, bien que les informations de l’enregistrement supprimé soient éliminées.
-* Vous ne pouvez pas supprimer des enregistrements en masse.<!--this will probably change-->
-* Vous ne pouvez pas supprimer des enregistrements à partir de la vue de chronologie.
+* Vous ne pouvez pas supprimer des enregistrements de la chronologie ou des vues de calendrier.
 
 ## Supprimer des enregistrements
 
@@ -192,7 +197,10 @@ Vous pouvez supprimer un enregistrement à partir des zones suivantes :
 1. Cliquez sur le menu **Plus** ![](assets/more-menu.png) à droite du nom de l’enregistrement, cliquez sur **Supprimer**, puis à nouveau sur **Supprimer** pour confirmer.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-L’enregistrement est supprimé et ne peut être récupéré.
+L’enregistrement est supprimé.
+1. (Facultatif et conditionnel) Si vous supprimez l’enregistrement dans l’environnement Aperçu, accédez à la vue table de la page d’enregistrement, puis cliquez sur l’icône **Annuler** ![](assets/undo-icon.png) dans le coin supérieur droit de la vue, puis cliquez sur **Récemment supprimé** pour récupérer les enregistrements supprimés.
+
+Pour plus d’informations sur la récupération des enregistrements supprimés, voir [Récupération des enregistrements supprimés](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 ### Supprimer un enregistrement de la vue en tableau d’un type enregistrement
 
@@ -211,15 +219,22 @@ L’enregistrement est supprimé et ne peut être récupéré.
 1. Utilisez l’une des méthodes suivantes :
 
    * Cliquez avec le bouton droit de la souris sur une ligne d’enregistrement, puis cliquez sur **Supprimer**.
-   * Cliquez sur le menu **Plus** ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis cliquez sur **Supprimer**.
+   * Cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du nom de l’enregistrement, puis cliquez sur **Supprimer**.
 
      ![](assets/contextual-menu-for-record-row.png)
 
    * Cliquez sur l’icône **Ouvrir les détails** ![](assets/open-details-icon-in-table-name-field.png) pour ouvrir la boîte contenant les informations détaillées de l’enregistrement, cliquez sur **Plus** ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis sur **Supprimer**.
 
-   L’enregistrement est supprimé et ne peut pas être récupéré.
+   L’enregistrement est supprimé.
 
-1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir la suppression d’un enregistrement :
+1. (Facultatif) Pour annuler ou rétablir la suppression d’un enregistrement, effectuez l’une des opérations suivantes :
 
-   * CTRL + Z (⌘ + Z pour Mac) pour annuler une modification
-   * CTRL + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir une modification
+   * <span class="preview"> Cliquez sur l&#39;icône **Annuler** ![](assets/undo-icon.png), puis sur **Récemment supprimé** pour récupérer les enregistrements supprimés. Pour plus d&#39;informations sur la récupération des enregistrements supprimés, voir [Récupération des enregistrements supprimés](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+   * Utilisez les raccourcis clavier suivants pour annuler ou rétablir la suppression d’un enregistrement :
+
+      * Ctrl + Z (⌘ + Z pour Mac) pour annuler la suppression d’un enregistrement
+      * Ctrl + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir la suppression de l’enregistrement
+
+
+
+

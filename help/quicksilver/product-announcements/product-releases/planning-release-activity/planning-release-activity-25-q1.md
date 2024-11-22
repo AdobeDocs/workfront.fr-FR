@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1010'
 ht-degree: 5%
 
 ---
@@ -33,6 +33,21 @@ Cet article décrit les fonctionnalités de la version 2025 du premier trimestre
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning après la mise à disposition de la version générale le 28 août 2024, voir [Activité de mise à jour d’Adobe Workfront Planning : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Restaurer les enregistrements supprimés
+
+>[!NOTE]
+>
+>Aperçu de la version : 22 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+
+Une fois les enregistrements supprimés, ils sont désormais temporairement déplacés dans une corbeille Récemment supprimés pendant 30 jours. Vous pouvez accéder à la corbeille Récemment supprimés de la page du type d&#39;enregistrement et elle ne contient que les enregistrements d&#39;un type spécifique.
+
+Les gestionnaires de Workspace peuvent restaurer les enregistrements de la corbeille pendant 30 jours au maximum après leur suppression. Les enregistrements connectés et leurs informations de champ sont également restaurés.
+
+Avant cette amélioration, les enregistrements supprimés ne pouvaient pas être restaurés.
+
+Pour plus d’informations, voir [Restaurer les enregistrements supprimés](/help/quicksilver/planning/records/records-information.md).
 
 ## Assistant d’Adobe de l’IA disponible dans les zones de détails des enregistrements
 

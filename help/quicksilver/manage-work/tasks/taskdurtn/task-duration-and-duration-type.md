@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 06b5d8d7e3f2f3d0ff7ef614861a8898dd9df4eb
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 87%
+source-wordcount: '1647'
+ht-degree: 82%
 
 ---
 
@@ -31,7 +31,13 @@ Le type de durée d’une tâche identifie la relation entre le nombre de ressou
 
 Si les dates de début et d’achèvement effectives de la tâche ne correspondent pas au planning du projet, de la personne cessionnaire principale, ou au planning par défaut, la durée de la tâche est zéro.
 
-**Exemple :** si un planning commence à 9 h 00 et se termine à 12 h 00 et qu’une tâche est planifiée pour commencer à 14 h 00 et se terminer à 16 h 00, la durée de la tâche est zéro.
+>[!BEGINSHADEBOX]
+
+**EXEMPLE**
+Si un planning commence à 9 heures et se termine à 12 heures et qu’une tâche est planifiée pour commencer à 14 heures et se terminer à 16 heures, la durée de la tâche est zéro.
+
+
+>[!ENDSHADEBOX]
 
 Voici deux scénarios qui existent lors du calcul de la durée dans Adobe Workfront :
 
@@ -71,9 +77,17 @@ Voici deux scénarios qui existent lors du calcul de la durée dans Adobe Workfr
 >
 >Lorsque vous prenez en compte les congés de la personne cessionnaire principale sur un projet, les dates prévues de la tâche peuvent s’ajuster, mais la durée de la tâche reste la même. Pour plus d’informations sur la prise en compte des congés de la personne cessionnaire principale lors de la planification d’un projet, voir [Configurer les préférences des projets à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
+## Durée d’origine d’une tâche parent
+
+La Durée d’origine d’une tâche est la Durée qu’une tâche avait à l’origine avant de devenir une tâche mère, en minutes.
+
+Lorsqu’une tâche devient un parent, la durée entre la date de début prévue du premier enfant et la date d’achèvement prévue du dernier enfant est reportée sur la tâche parent et devient la durée de la tâche parent. Cela remplace la durée de la tâche originale.
+
+Pour plus d’informations, voir [Présentation de la tâche Durée d’origine et Heures planifiées originales](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
+
 ## Unités de temps pour la durée de la tâche
 
-Vous pouvez indiquer la durée de la tâche à la fois en temps normal et en temps écoulé entre les dates de début et d’achèvement prévues.
+Vous pouvez indiquer la durée de la tâche à la fois au moment normal et au temps écoulé entre les dates de début planifié et de fin planifiée.
 
 Lors de la mise à jour de la durée des tâches dans une liste, vous pouvez utiliser les abréviations suivantes pour indiquer les unités de temps dans Workfront :
 

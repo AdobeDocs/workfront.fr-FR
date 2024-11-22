@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 89%
+source-wordcount: '182'
+ht-degree: 65%
 
 ---
 
 
 # Enregistrements : index des articles
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -25,6 +29,7 @@ Les articles suivants décrivent comment créer et gérer des enregistrements et
 * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
 * [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md)
 * [Supprimer des enregistrements](/help/quicksilver/planning/records/delete-records.md)
+* <span class="preview">[Restaurer les enregistrements supprimés](/help/quicksilver/planning/records/restore-deleted-records.md)</span>
 * [Partager des enregistrements](/help/quicksilver/planning/records/share-records.md)
 * [Présentation des enregistrements connectés](/help/quicksilver/planning/records/connected-records-overview.md)
 * [Connect records](/help/quicksilver/planning/records/connect-records.md)
