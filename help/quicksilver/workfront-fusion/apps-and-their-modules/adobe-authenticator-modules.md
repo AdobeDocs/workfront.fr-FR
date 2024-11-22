@@ -9,9 +9,9 @@ description: Avec le module Adobe Authenticator, vous pouvez vous connecter à 
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1223'
 ht-degree: 77%
 
 ---
@@ -73,6 +73,21 @@ Pour obtenir la liste des API d’Adobe disponibles, voir [API d’Adobe](https:
    * Ajoutez l’API à un projet existant.
 
   Pour plus d’informations sur la création ou l’ajout d’une API à un projet dans Adobe Developer Console, voir [Créer un projet](https://developer.adobe.com/dep/guides/dev-console/create-project/) dans la documentation Adobe.
+
+## Informations sur l’API Adobe Authenticator
+
+Le connecteur Adobe Authenticator utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>v1.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Créer une connexion
 

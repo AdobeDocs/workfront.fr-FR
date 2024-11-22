@@ -9,9 +9,9 @@ description: Avec les modules Adobe Lightroom, vous pouvez démarrer un scénari
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2255'
 ht-degree: 23%
 
 ---
@@ -71,7 +71,26 @@ Avant d’utiliser le connecteur [!DNL Adobe Lightroom], vous devez vous assurer
 
 * Vous devez disposer d’un compte [!DNL Adobe Lightroom].
 
-## Création d’une connexion à Adobe Lightroom
+## Informations sur l’API Adobe Lightroom
+
+Le connecteur Adobe Lightroom utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL de base</td> 
+   <td>https://lr.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>1.17.128</td> 
+  </tr>
+ </tbody> 
+ </table>
+
+<!--## Create a connection to Adobe Lightroom-->
 
 
 

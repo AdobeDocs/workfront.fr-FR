@@ -9,10 +9,10 @@ description: Dans un scénario Adobe Workfront Fusion, vous pouvez automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 3a747013-5fb6-4416-8d95-d656dfeeb7db
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 100%
+source-wordcount: '1339'
+ht-degree: 98%
 
 ---
 
@@ -58,6 +58,25 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 ## Conditions préalables
 
 Pour utiliser les modules [!DNL OpenAI (ChatGPT & DALL-E)], vous devez disposer d’un compte [!DNL OpenAI] ainsi que d’une clé API et d’un ID d’organisation.
+
+## Informations sur l’API OpenAI (ChatGPT et DALL-E)
+
+Le connecteur OpenAI (ChatGPT et DALL-E) utilise les fonctionnalités suivantes :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Version de l’API</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>1.11.1</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connexion d’[!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]
 
@@ -330,6 +349,7 @@ Ce module énumère et décrit les différents modèles disponibles dans l’API
     <li><p><b>Récupérer le modèle </b></p><p>Saisissez ou mappez l’ID du modèle que vous souhaitez récupérer. </p></li>
    </ul>
  </td> 
+  </tr>
  </tbody> 
 </table>
 

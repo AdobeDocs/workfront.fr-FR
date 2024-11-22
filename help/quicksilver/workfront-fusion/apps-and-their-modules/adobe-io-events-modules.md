@@ -9,9 +9,9 @@ description: Avec les modules Événements d’Adobe I/O, vous pouvez lancer un 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
-source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '933'
 ht-degree: 42%
 
 ---
@@ -56,6 +56,25 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
 Avant de pouvoir utiliser le connecteur Adobe I/O Events, vous devez vous assurer que les conditions préalables suivantes sont remplies :
 
 * Vous devez disposer d’un compte Adobe actif.
+
+## Informations sur l’API des événements d’Adobe I/O
+
+Le connecteur Adobe I/O Events utilise les éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL de base</td> 
+   <td>https://api.adobe.io/events</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Balise API</td> 
+   <td>v1.6.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Création d’une connexion à des événements d’Adobe I/O
 
