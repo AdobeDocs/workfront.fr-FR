@@ -5,10 +5,10 @@ description: 'Les notifications in-app vous donnent deux types d’informations�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 100%
+source-wordcount: '947'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ L’icône numérotée dans le coin supérieur droit de [!DNL Workfront] affiche
 
    ![Notifications non lues récentes](assets/qs-notifications-350x330.png)
 
-   Jusqu’à 80 notifications s’affichent dans une liste déroulante. Pour en voir plus, vous pouvez cliquer sur **[!UICONTROL Toutes les notifications]** en bas de la liste pour afficher jusqu’à 100 notifications. Les notifications sont automatiquement supprimées après 30 jours.
+   L’icône Nombre affiche une liste déroulante contenant jusqu’à 80 notifications. Pour en voir plus, vous pouvez cliquer sur **[!UICONTROL Toutes les notifications]** en bas de la liste pour afficher jusqu’à 500 notifications. Les notifications sont automatiquement supprimées après 30 jours.
 
    Au bas de chaque notification,vous trouverez le [!UICONTROL type de notification] et une icône d’identification correspondante. Ces éléments vous aident à identifier ce qui s’est passé avec l’élément [!DNL Workfront] mentionné et vous alertent si vous avez un élément action :
 

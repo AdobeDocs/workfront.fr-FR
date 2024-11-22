@@ -6,14 +6,14 @@ description: Vous pouvez télécharger des documents à partir d’Adobe Workfr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Télécharger les documents
+# Téléchargement de documents
 
 Vous pouvez télécharger des documents à partir d’Adobe Workfront individuellement ou en masse. Les documents peuvent être téléchargés à partir de n’importe quelle zone contenant des documents dans Workfront. 
 

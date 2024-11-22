@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
+source-git-commit: 6a881c1d2f7076f1b7f8f98706657851dc6ab454
 workflow-type: tm+mt
 source-wordcount: '14611'
 ht-degree: 93%
@@ -432,7 +432,6 @@ ht-degree: 93%
       * [Annonces](product-announcements/announcements/announcements.md)
       * [Planning des fonctionnalités qui ne sont plus prises en charge.](product-announcements/announcements/feature-removal-timeline.md)
       * [Guide d’obsolescence d’Analytics amélioré](product-announcements/announcements/enhanced-analytics-deprecation.md)
-      * [Guide d’obsolescence de la page d’accueil](product-announcements/announcements/legacy-home-deprecation.md)
       * [FAQ sur la fenêtre de maintenance](product-announcements/announcements/maintenance-window-faq.md)
       * [Modification requise pour ajouter des épreuves à votre liste autorisée](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Se désabonner des messages du Centre des annonces dans la nouvelle expérience Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
@@ -1163,6 +1162,7 @@ ht-degree: 93%
       * [Vérifier les limites de stockage des documents](documents/managing-documents/check-document-storage.md)
       * [Supprimer documents](documents/managing-documents/delete-documents.md)
       * [Coller des images à partir du presse-papiers](documents/managing-documents/paste-image-clipboard.md)
+      * [Modifier des documents en masse](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
       * [AddBuilder dans les détails du document Workfront](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * Organiser les documents {#organize-documents}
       * [Organiser les documents](documents/organizing-documents/organize-documents.md)

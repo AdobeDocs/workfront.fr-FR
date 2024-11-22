@@ -4,10 +4,11 @@ description: Améliorations apportées à la page d’accueil (quatrième trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
+exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
+source-git-commit: 01ea4c72e61cbc808ed76cb18e3f67d893bacf69
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 16%
+source-wordcount: '478'
+ht-degree: 17%
 
 ---
 
@@ -63,12 +64,18 @@ Grâce à cette modification, les zones suivantes seront affectées :
 
 * La zone _Home workspace_ sera renommée _Home_.
 * La zone _Accueil et résumé_ sera renommée _Panneau récapitulatif_. Les personnalisations dans cette zone s’appliqueront toujours au panneau Résumé dans la nouvelle page d’accueil. Pour plus d’informations, voir [Personnaliser l’accueil et le résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Nous supprimerons les onglets suivants du panneau Accueil et Résumé :
+   * Projets
+   * Documents
+   * Versions du document
+
+Remarque : Les versions de document et de document s’appliquaient uniquement à la page d’accueil héritée. Ils ne vous permettaient pas de personnaliser le résumé dans la zone Documents.
 
 **Gérer les approbations**
 
 * Vous ne pourrez plus rappeler, rappeler ou supprimer les utilisateurs des validations envoyées dans la zone d’accueil. Vous pouvez plutôt gérer cela sur l’approbation elle-même.
 
-Nous vous recommandons de commencer à utiliser la nouvelle page d’accueil, qui continuera à être enrichie de fonctionnalités supplémentaires avant l’obsolescence. Pour plus d’informations sur la transition, y compris des conseils sur ce que les utilisateurs et les administrateurs peuvent faire pour se préparer, consultez le [Guide d’obsolescence de la page d’accueil héritée](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+Nous vous recommandons de commencer à utiliser la nouvelle page d’accueil, qui continuera à être enrichie de fonctionnalités supplémentaires avant l’obsolescence.
 
 >[!NOTE]
 >
