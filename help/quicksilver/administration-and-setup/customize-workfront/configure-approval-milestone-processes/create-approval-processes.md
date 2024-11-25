@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2a5040c6a9430dc404097c9836ea38bd8b1c648
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 98%
+source-wordcount: '2189'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td><p>Au niveau du système et de l’élément de travail : Tout</p>
+   <p>Niveau de groupe : Premier ou Ultimate</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
