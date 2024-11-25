@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion nécessite une licence Adobe Workfront F
 author: Becky
 feature: Workfront Fusion
 exl-id: 13d6230d-51f6-4f68-8697-30f8ce6c8599
-source-git-commit: 27158301e491d4ff45ce7987a81f841fb4525b2a
+source-git-commit: f8ea4a1c40cd3fc4664a5a3b1c3a900e874d78b1
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '644'
+ht-degree: 61%
 
 ---
 
@@ -28,6 +28,48 @@ ht-degree: 100%
 Le rôle de [!DNL Adobe Workfront Fusion] est d’automatiser vos processus afin que vous puissiez vous concentrer sur de nouvelles tâches, plutôt que de répéter les mêmes tâches encore et encore. La plateforme fonctionne en liant les actions dans et entre les applications et les services pour créer un scénario qui transfère et transforme vos données automatiquement. Le scénario que vous créez recherche les données dans une application ou un service et traite ces données pour obtenir le résultat souhaité.
 
 Un scénario se compose d’une série de modules qui indiquent comment les données doivent être transformées dans une application ou transférées entre les applications et les services web.
+
+## Présentation des éléments du scénario
+
+Un scénario est constitué d’éléments différents. La compréhension de la terminologie de ces éléments facilite l’utilisation de la documentation.
+
+### Scénario
+
+Un **scénario** est une série d’étapes automatisées créée par l’utilisateur, créée pour déplacer et manipuler des données. Le terme &quot;scénario&quot; fait référence à l’ensemble des étapes connectées.
+
+![Scénario](assets/entire-scenario-scenario.png)
+
+### Déclencheur
+
+Un scénario commence par un **trigger**. Le déclencheur recherche les données nouvelles et mises à jour et lance le scénario lorsque certaines conditions configurées dans le module s’appliquent. Les déclencheurs peuvent être configurés pour démarrer un scénario dans un planning (interrogation) ou chaque fois que des changements de données se produisent (instantanés).
+
+![Déclencheur](assets/scenario-trigger.png)
+
+### Module
+
+Le déclencheur est suivi d&#39;un certain nombre de **modules**. Un module représente une seule étape dans un scénario qui effectue une action spécifique. Les modules sont configurés et assemblés ensemble pour créer des scénarios.
+
+![Module](assets/scenario-module.png)
+
+### Route
+
+Un scénario peut être divisé en **itinéraires**. Un itinéraire est une section du scénario qui peut ou non être utilisée pour un lot donné de données. Les itinéraires sont configurés à l&#39;aide d&#39;un module de routeur et de filtres.
+
+![Route](assets/scenario-route.png)
+
+### Segment de scénario
+
+Un segment de scénario est une section d’un scénario qui consiste en une série de modules contigus qui se connectent tous à la même application. Les segments de scénario représentent souvent un processus court dans l’application.
+
+![Segment de scénario](assets/scenario-segment.png)
+
+### Connecteur
+
+Un connecteur est l’ensemble des modules d’une application donnée. Workfront Fusion offre des connecteurs à de nombreuses applications de travail courantes, telles que Workfront, Salesforce et Jira, ainsi que des connecteurs génériques qui peuvent être utilisés pour n’importe quel service Web.
+
+![Connecteurs](assets/scenario-connectors.png)
+
+
 
 ## Exemple : Automatisation des processus au sein de [!DNL Adobe Workfront]
 
