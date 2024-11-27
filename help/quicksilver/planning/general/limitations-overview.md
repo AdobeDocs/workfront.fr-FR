@@ -6,16 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 42%
+source-wordcount: '437'
+ht-degree: 35%
 
 ---
 
 <!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
 # Présentation des limites des objets de la planification Adobe Workfront
+
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -40,6 +44,9 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Taille du fichier que vous pouvez importer via l’API pour un tableau de type d’enregistrement | 1,5 Mo |
 | Vitesse à laquelle les demandes d’API peuvent être effectuées | 200 demandes par minute |
 | Nombre de vues qu’un utilisateur peut créer pour un type d’enregistrement | 100 |
+| Taille du fichier CSV d’Excel que vous pouvez importer pour créer des types d’enregistrement | 5 Mo |
+| <span class="preview">Nombre de lignes que vous pouvez importer dans un fichier CSV ou Excel pour créer des types d’enregistrement</span> | 10 000 |
+| <span class="preview">Nombre de colonnes que vous pouvez importer dans un fichier CSV ou Excel pour créer des types d’enregistrement</span> | 500 |
 
 *Nous vous recommandons de ne pas avoir trop d’espaces de travail, car ils peuvent devenir difficiles à gérer et vos workflows peuvent être trop fragmentés.
 
@@ -47,7 +54,7 @@ Pour plus d’informations sur le prix et le package de Workfront Planning, voir
 
 <!--
 ****************KEEP THIS COMMENTED OUT:
-| Size of CSV of Excel file you can import** | 5MB |
+
 **This functionality has been temporarily removed and it will be available at a later date.**********************
 -->
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 15%
+source-wordcount: '1397'
+ht-degree: 14%
 
 ---
 
@@ -144,14 +144,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >* Les champs des types suivants ne s’affichent pas dans le formulaire de requête <span class="preview"> dans les environnements Aperçu </span> ou Production :
    >
-   >    * Personnes (y compris Créé par et Dernière modification par)
+   >    * Créé par et Dernière modification par
    >    * Formule
-   >    * Date de création
-   >    * Date de dernière modification
-   >    * Champs associés ou champs de recherche des objets Workfront
-   >    * Champs de recherche connectés des enregistrements de planification Workfront
+   >    * Date de création et date de dernière modification
+   >    * Champs de recherche des objets Workfront
+   >    * Planification Workfront des champs de recherche des enregistrements connectés
+   >    * Champs liés à AEM Assets
    >* Les champs des types suivants ne s’affichent pas dans le formulaire de demande dans l’environnement Production. <span class="preview">Ils s’affichent dans l’environnement Aperçu :</span>
    >    * <span class="preview"> Champs connectés des enregistrements de planification Workfront </span>
+   >    * <span class="preview">Personnes </span>
+   >    * <span class="preview">Champs connectés des objets Workfront</span>
+   >    * <span class="preview"> Champs connectés AEM Assets </span>
+
 
 
    * **Section par défaut** : il s’agit du saut de section par défaut appliqué par Workfront au formulaire de demande. La section Par défaut ne peut pas être renommée ni supprimée.
@@ -207,7 +211,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >[!WARNING]
    >
    >
-   >Lorsque vous sélectionnez **Toute personne disposant du lien**, tout le monde peut accéder au formulaire et envoyer un nouvel enregistrement, même les personnes en dehors de votre organisation qui n’ont pas de compte Workfront.
+   >* Lorsque vous sélectionnez **Toute personne disposant du lien**, tout le monde peut accéder au formulaire et envoyer un nouvel enregistrement, même les personnes en dehors de votre organisation qui n’ont pas de compte Workfront.
+   >
+   > * <span class="preview">Un formulaire contenant les types de champ suivants ne peut pas être partagé publiquement :</span>
+   >
+   >     * <span class="preview">Formule</span>
+   >     * <span class="preview">Connexions Workfront ou AEM Assets</span>
+   >     * <span class="preview">Champs de recherche</span>
+   >     * <span class="preview">Personnes</span>
+   >
 
 1. (Conditionnel) Si vous avez sélectionné **Toute personne ayant le lien** à l’étape précédente, sélectionnez la **date d’expiration du lien** dans le calendrier disponible. Une erreur s’affichera lorsque le lien arrivera à expiration. Vous devrez mettre à jour la date du lien pour pouvoir accéder à nouveau au formulaire.
 

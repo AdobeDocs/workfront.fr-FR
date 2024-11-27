@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: e91423d1520cc5fbfa6cd5085c3d0c7315d88463
 workflow-type: tm+mt
-source-wordcount: '14642'
+source-wordcount: '14647'
 ht-degree: 93%
 
 ---
@@ -2105,6 +2105,7 @@ ht-degree: 93%
       * [Modifier les paramètres de champ](planning/fields/edit-fields.md)
       * [Supprimer des champs](planning/fields/delete-fields.md)
       * [Vue d’ensemble des champs de formule](planning/fields/formula-fields.md)
+      * [Importer des champs depuis Adobe Workfront](planning/fields/import-fields-from-workfront.md)
       * [Champ Principal - Aperçu](planning/fields/primary-field-overview.md)
    * Accès à Adobe Workfront Planning {#adobe-workfront-planning-access}
       * [Informations sur l’accès à Adobe Workfront Planning : index des articles](planning/access/access-information.md)

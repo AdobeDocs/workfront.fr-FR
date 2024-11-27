@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
 workflow-type: tm+mt
-source-wordcount: '4129'
-ht-degree: 60%
+source-wordcount: '4287'
+ht-degree: 58%
 
 ---
 
@@ -39,7 +39,9 @@ Vous pouvez créer des champs de la manière suivante dans la planification Work
 * En connectant des types d’enregistrement
 * En créant un type d’enregistrement
 * En créant un espace de travail à partir d’un modèle
-  <!--* By importing record types using an Excel or CSV file-->
+* <span class="preview"> En important des types d’enregistrement à l’aide d’un fichier Excel ou CSV</span>
+* <span class="preview"> En important des copies des champs Workfront existants</span>
+
 
 Pour plus d’informations sur les champs de planification Workfront, voir [Présentation des champs](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -178,6 +180,8 @@ OLD:
 ## Créer des champs à partir de zéro {#create-fields-from-scratch}
 
 <!--in a table (not sure if this can be done elsewhere?!-->
+
+<!--the first 3 steps are the same as in Import fields from Workfron-->
 
 {{step1-to-planning}}
 
@@ -340,7 +344,7 @@ Vous pouvez utiliser un champ de date pour capturer des informations supplément
       * **Long** : 16 mai 2023
       * **Européen** : 16/05/2023
       * **ISO** : 2023-05-16
-      * **Inclure un champ de l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. <!--update this setting name - submitted bug for it to be changed-->
+      * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure un moment après avoir sécurisé le champ.
 
      Sélectionnez l’une des options suivantes :
 
@@ -467,6 +471,12 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
    ![](assets/description-of-formula-expression.png)
 
    Pour plus d’informations sur les expressions prises en charge, voir [Présentation des champs de formule](/help/quicksilver/planning/fields/formula-fields.md).
+
+
+   >[!TIP]
+   >
+   ><span class="preview">Vous recevrez un message d&#39;avertissement lors de l&#39;édition ou de la création d&#39;un champ de formule qui peut entraîner une référence circulaire à lui-même ou à des champs partagés. Vous ne pouvez pas enregistrer un champ de formule qui se réfère à lui-même ou aux éléments référencés dans son calcul.  </span>
+
 
 1. Ajoutez les noms des champs tels qu’ils s’affichent dans la Planification Workfront pour les référencer dans une formule.
 
@@ -647,3 +657,21 @@ Lorsque vous créez un type d’enregistrement, plusieurs champs associés au no
 Adobe Workfront Planning crée des champs pour les types d’enregistrement lorsque vous créez un espace de travail à partir d’un modèle.
 
 Pour plus d’informations, consultez la section [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+<div class="preview">
+
+## Créer des champs lors de l’importation de types d’enregistrement à partir d’un fichier CSV ou Excel
+
+Vous pouvez importer des champs lorsque vous importez des types d’enregistrement à l’aide d’un fichier CSV ou Excel.
+
+Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Créer des champs à partir de Workfront
+
+Vous pouvez importer des copies de champs Workfront existants. L’importation de champs à partir de Workfront crée une copie de chaque champ pour un type d’enregistrement Workfront Planning.
+
+Une fois les champs copiés, ils sont indépendants les uns des autres et n’exchange pas les informations.
+
+Pour plus d’informations, voir [Importation de champs à partir de Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+
+</div>

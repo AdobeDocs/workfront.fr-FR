@@ -6,16 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 35%
+source-wordcount: '1617'
+ht-degree: 34%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Créer des enregistrements
+
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -28,6 +32,8 @@ Vous pouvez créer des enregistrements en effectuant l’une des opérations sui
 * [Duplication d’enregistrements depuis une vue de tableau](#create-records-by-duplicating-them)
 * [Créer des enregistrements lors de leur connexion à partir d&#39;autres enregistrements](#create-records-as-you-connect-them)
 * [Créez-les en envoyant un formulaire de demande à un type d’enregistrement.](#create-records-by-submitting-a-request-form-to-a-record-type)
+* <span class="preview">[Créer des enregistrements lors de l’importation de types d’enregistrement à partir d’un fichier CSV ou Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+
 
 Pour plus d’informations sur la gestion des enregistrements dans les vues « Tableau » ou « Chronologie », consultez les articles suivants :
 
@@ -270,3 +276,13 @@ Pour plus d’informations, voir [Création et gestion d’un formulaire de dema
 Les utilisateurs de Workfront et les utilisateurs externes à votre organisation peuvent envoyer des requêtes à Planification des types d’enregistrement et créer des enregistrements, s’ils disposent d’un lien vers le formulaire de requête.
 
 Pour plus d’informations, voir [Soumettre des demandes de planification Adobe Workfront pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+
+<div class="preview">
+
+## Créer des enregistrements lors de l’importation de types d’enregistrement à partir d’un fichier CSV ou Excel
+
+Vous pouvez importer des enregistrements lorsque vous importez des types d’enregistrement à l’aide d’un fichier CSV ou Excel.
+
+Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+
+</div>

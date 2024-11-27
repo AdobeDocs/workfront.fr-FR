@@ -6,15 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 63%
+source-wordcount: '1485'
+ht-degree: 61%
 
 ---
 
 
 # Gérer les vues d’enregistrement
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -218,6 +223,9 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 | Rechercher des enregistrements spécifiques | ✓ | ✓ |
 | Partager la vue avec d’autres | ✓ | ✓ | ✓ |
 | Ouvrir la page de l’enregistrement à partir de la vue. | ✓ | ✓ |    |
+| Afficher les enregistrements par année et trimestre |           | ✓ |    |
+| Afficher les enregistrements par mois |           | ✓ | ✓ |
+| <span class="preview"> Afficher les enregistrements par semaine</span> |           |               | ✓ |
 
 
 ## Créer ou modifier des vues {#create-or-edit-views}

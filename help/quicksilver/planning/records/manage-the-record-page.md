@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 11%
+source-wordcount: '1631'
+ht-degree: 10%
 
 ---
 
 
 # Gérer la mise en page de la page d’enregistrement
+
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -249,4 +253,52 @@ Les événements suivants se produisent :
    La nouvelle position du champ est mise à jour dans la prévisualisation et la page de tous les enregistrements du même type pour tous les utilisateurs qui visualisent les enregistrements.
 
    Toutes les modifications apportées à la mise en page de l’aperçu de l’enregistrement ou de la page sont automatiquement enregistrées.
+
+<span class="preview">
+
+## Ajout d’une page Vue connectée à une page d’enregistrement
+
+Vous pouvez ajouter une page Vue connectée à une page d’enregistrement.
+
+Vous ne pouvez pas ajouter de page Vue connectée à la zone d’aperçu d’un enregistrement.
+
+Les pages d’affichage connectées affichent une page d’enregistrement connectée dans le tableau. Le mode Tableau est en lecture seule.
+
+Vous pouvez ajouter une page Vue connectée pour chaque type d’enregistrement connecté.  <!--edit this when we can remove fields from this page-->
+
+Pour ajouter une page Vue connectée :
+
+1. Dans une page d’enregistrement vue, cliquez sur le nom d’un enregistrement pour l’ouvrir, puis cliquez sur l’icône Ouvrir dans un nouvel onglet ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la page d’aperçu.
+1. Cliquez sur **Ajouter une page** > **Vue connectée**.
+1. Ajoutez le **nom de page**, puis cliquez sur **Créer**.
+
+   Une page supplémentaire est ajoutée à la page de l’enregistrement dans un nouvel onglet.
+1. Recherchez ou cliquez sur le nom d’un enregistrement ou d’un type d’objet connecté dans la liste.
+La vue tabulaire du type d’enregistrement que vous avez sélectionné s’affiche et les enregistrements connectés s’affichent dans la vue tabulaire.
+Le mode Tableau est en lecture seule.
+
+   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. (Facultatif) Double-cliquez sur le nom de l’onglet.
+
+   Ou
+
+   Passez la souris sur le nom de l’onglet, puis cliquez sur **Plus** ![](assets/more-menu.png), puis sur **Renommer** pour renommer le nouvel onglet Vue connectée.
+1. (Facultatif) Utilisez les éléments de vue de la barre d’outils pour gérer la vue de tableau. Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+</span>
+
+<!--
+## Add a Brief page to a record's page
+
+You can add a Brief page to the record's preview or pages. 
+
+Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+
+<!--
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Brief**. 
+1. Add the **Page name**, then click **Create**. 
+-->
+
+
 

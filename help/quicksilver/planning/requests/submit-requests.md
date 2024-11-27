@@ -6,16 +6,21 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 13%
+source-wordcount: '811'
+ht-degree: 12%
 
 ---
+
 
 # Soumettre des demandes de planification Adobe Workfront pour créer des enregistrements
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -112,17 +117,21 @@ Les éléments suivants doivent être en place avant de pouvoir envoyer une requ
 
 * Le formulaire de demande doit être partagé avec un lien d’une manière accessible. Les scénarios suivants sont possibles :
 
-   * Si vous disposez d’un compte Workfront, le lien a été partagé uniquement avec les personnes internes et vous avez accès à l’espace de travail. Les personnes en dehors de Workfront ne peuvent pas accéder à un lien partagé en interne.
+   * Si vous disposez d’un compte Workfront, le lien a été partagé uniquement avec les personnes internes et vous disposez d’un accès à l’espace de travail comportant une contribution ou un accès supérieur. Les personnes en dehors de Workfront ne peuvent pas accéder à un lien partagé en interne.
    * Si vous ne disposez pas d’un compte Workfront, le lien a été partagé avec des personnes externes. Les utilisateurs de Workfront peuvent également accéder à un lien partagé avec des personnes externes.
 
 * Le lien vers le formulaire ne doit pas avoir expiré.
 
 ## Observations relatives à l’envoi de requêtes à la planification Workfront
 
-* Vous ne pouvez pas accéder aux formulaires de requêtes de planification Workfront sans lien spécifique vers les formulaires.
+* Vous ne pouvez accéder à un formulaire de demande pour les demandes de planification Workfront qu’à partir d’un lien spécifique vers le formulaire.
 * Vous ne pouvez pas modifier une requête une fois que vous l’avez envoyée à Workfront Planning.
-* Chaque requête envoyée crée un enregistrement pour le type d’enregistrement associé au formulaire que vous utilisez.
+* Chaque requête envoyée crée un enregistrement pour le type d’enregistrement associé au formulaire que vous utilisez <!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> -->.
 * Les enregistrements créés lors de l’envoi de formulaires de demande ne peuvent pas être différenciés des enregistrements ajoutés par une autre méthode. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+* <span class="preview">Les demandes envoyées s’affichent dans l’onglet Planification de la section Envoyées de la zone Demandes de Workfront </span>.
+
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+
 
 ## Envoi d’une requête à Workfront Planning
 
@@ -132,8 +141,35 @@ Les éléments suivants doivent être en place avant de pouvoir envoyer une requ
 
    >[!TIP]
    >
-   >   Si le champ Workfront **Objet** est disponible, il peut ne pas être visible dans la planification Workfront. Nous vous recommandons de mettre à jour autant de champs que possible dans votre requête afin de rendre le nouvel enregistrement identifiable lorsqu’il est ajouté au type d’enregistrement.
+   >   Si le champ **Objet** est disponible, il ne sera pas visible dans la planification Workfront une fois la demande envoyée.
+   >
+   >Nous vous recommandons de mettre à jour autant de champs que possible dans votre requête pour que le nouvel enregistrement soit identifiable lorsqu’il est ajouté au type d’enregistrement dans Workfront Planning.
 
 1. Cliquez sur **Soumettre**.
 
-   Votre formulaire est envoyé et un nouvel enregistrement est ajouté au type d’enregistrement associé au formulaire.
+   Votre formulaire est envoyé et les événements suivants se produisent :
+
+   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->Un nouvel enregistrement est ajouté au type d’enregistrement associé au formulaire.
+
+
+   * <!--If the request form was not associated with an approval, the--> <span class="preview"> La demande est ajoutée à la section Envoyée de la zone Requêtes Workfront et un nouvel enregistrement est ajouté à la page de type enregistrement.</span>
+
+     ![](assets/planning-tab-in-requests.png)
+
+     >[!IMPORTANT]
+     >
+     ><span class="preview">Tous les utilisateurs ayant accès à au moins un espace de travail peuvent afficher l’onglet Planification dans la zone Demandes . Vous pouvez afficher uniquement les requêtes que vous avez envoyées. Les administrateurs de Workfront peuvent afficher toutes les requêtes du système. </span> <!--ensure this is correct; asking team in slack-->
+
+   <!--
+   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+
+      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
+   -->
+   <!--
+
+   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
+   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
+   -->
+
+
+

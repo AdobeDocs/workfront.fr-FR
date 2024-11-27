@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 28%
+source-wordcount: '841'
+ht-degree: 25%
 
 ---
 
 # Gérer la vue de calendrier
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -179,7 +183,16 @@ Pour gérer une vue de calendrier :
    * Cliquez sur **Aujourd’hui** pour centrer le calendrier sur la date d’aujourd’hui.
    * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
 
-      * Mois
+      * **Mois** : les enregistrements s’affichent dans un calendrier mensuel.
+
+     <div class="preview">
+
+      * **Semaine** : les enregistrements s’affichent dans les zones suivantes :
+
+         * Les enregistrements qui s’étendent sur plusieurs jours s’affichent en haut du calendrier.
+         * Les enregistrements qui durent un jour ou moins s’affichent dans la moitié inférieure de la vue Calendrier. Si vous choisissez d’afficher l’heure des dates de début et de fin, l’enregistrement s’affiche au moment approprié dans la journée où il se produit.
+     </div>
+
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
    * [Paramètres](#edit-the-calendar-view-settings)
