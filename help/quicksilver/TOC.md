@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: e91423d1520cc5fbfa6cd5085c3d0c7315d88463
+source-git-commit: 301f8c1b55a91a93616f59e2f530ac51a3696cbf
 workflow-type: tm+mt
 source-wordcount: '14647'
 ht-degree: 93%
@@ -856,7 +856,7 @@ ht-degree: 93%
       * [Enregistrer un fichier d’en-tête d’e-mail](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [La fenêtre de partage affiche plusieurs autorisations.](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [L’e-mail non authentifié n’est pas accepté.](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-      * [Workfront : les paramètres ZScalar peuvent réduire les performances](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
+      * [Workfront : les paramètres de ZScaler peuvent réduire les performances](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [Informations d’identification de l’utilisateur ou utilisatrice et informations d’identification SAML](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [Mettre à jour les options de mise à niveau automatique dans les niveaux d’accès](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Concepts de base Adobe Workfront {#basics}
