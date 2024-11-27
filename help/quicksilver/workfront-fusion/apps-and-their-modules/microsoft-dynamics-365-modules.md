@@ -9,10 +9,10 @@ description: Dans un scénario [!DNL Adobe Workfront Fusion] , vous pouvez autom
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 98%
+source-wordcount: '1733'
+ht-degree: 97%
 
 ---
 
@@ -23,8 +23,10 @@ Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les wor
 >[!NOTE]
 >
 >Le connecteur [!DNL Microsoft Dynamics 365] ne prend pas en charge [!DNL Dynamics Finance and Operations].
+>
+>Pour les modules Finance et Opérations Microsoft Dynamics 365, voir [[!DNL Microsoft Dynamics 365 Finance and Operations modules]](/help/quicksilver/workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md).
 
-Si vous avez besoin d’instructions sur la création d’un scénario, consultez [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Pour plus d’informations sur les modules, voir [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 

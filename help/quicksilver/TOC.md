@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d74bf60a66326c71447679c463de0469cd0de9fa
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '14614'
+source-wordcount: '14642'
 ht-degree: 93%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 93%
          * [21.1 Autres améliorations](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Activité Version d’Adobe Workfront Fusion {#fusion-release}
          * [Activité Version d’Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Activité de sortie Workfront Fusion : semaine du mardi 25 novembre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Activité de sortie Workfront Fusion : semaine du mardi 11 novembre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
          * [Activité de sortie Workfront Fusion : semaine du mardi 4 novembre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
          * [Activité Version de Workfront Fusion : semaine du mardi 21 octobre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
@@ -1844,6 +1845,7 @@ ht-degree: 93%
       * [Révision et approbation des ressources et des documents : index des articles](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Vue d’ensemble des approbations de document](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Présentation de l’état de décision du document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+      * [Créer un tableau de bord de rapport pour révision et approbation](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Configuration et gestion des approbations de ressources et de documents {#manage-asset-review-and-approval}
          * [Configuration et gestion des validations de ressources et de documents : index des articles](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Créer une demande de révision ou d’approbation de document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -2339,6 +2341,7 @@ ht-degree: 93%
       * [Modules Marketo](workfront-fusion/apps-and-their-modules/marketo-modules.md)
       * [Mathématiques](workfront-fusion/apps-and-their-modules/math-module.md)
       * [Modules Microsoft Dynamics 365](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+      * [Gestion et exploitation des modules Microsoft Dynamics 365](workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md)
       * [Calendrier Microsoft Office 365](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
       * [Messagerie e-mail Microsoft Office 365](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
       * [Modules Microsoft Office 365 Excel](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
@@ -2798,6 +2801,7 @@ ht-degree: 93%
       * [Échantillons de code](proofhq-api/general/code-samples.md)
       * [Questions fréquentes sur l’API SOAP](proofhq-api/general/soap-api-faqs.md)
 * [Document de test masqué](hidden-test.md)
+* [Présentation de la version du premier trimestre 2025 - test](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/release-overview-test.md)
 
 
 <!--
