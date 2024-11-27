@@ -3,10 +3,10 @@ title: Approbation d’une requête
 description: Lorsqu’un utilisateur envoie une requête à un formulaire de demande associé à une validation dans Adobe Workfront Planning, les approbateurs reçoivent une notification et un e-mail sur la validation en attente. Il doit approuver la requête avant que Workfront Planning ne crée un objet.
 hide: true
 hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 20%
+source-wordcount: '783'
+ht-degree: 19%
 
 ---
 
@@ -54,7 +54,7 @@ Nous vous recommandons de consulter également les articles suivants :
 Les requêtes envoyées s’affichent dans l’onglet Planification de la section Envoyées de la zone Demandes de Workfront avec l’un des états de requête suivants :
 
 * **En attente d’examen** : cet état s’affiche lorsqu’aucun approbateur n’a ouvert l’objet de requête.
-* **In review** : l’état devient **In review** lorsque au moins un approbateur ouvre l’objet de requête.
+* **In review** : l’état devient **In review** lorsque au moins un approbateur ouvre l’objet de requête. L’état de la requête reste **En révision** jusqu’à ce que tous les approbateurs aient approuvé la requête.
 * **Approuvé** : lorsqu’un approbateur approuve l’objet de demande, son état individuel devient
 * **Approuvé**, mais l’état global de l’objet de requête reste **En révision** jusqu’à ce que tous les approbateurs aient pris leurs décisions.
 * **Completed** : si tous les approbateurs approuvent l’objet de demande, son état passe à **Completed**, ou si la demande n’a pas besoin d’une approbation.
@@ -151,7 +151,13 @@ Pour approuver une requête :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Dans le **menu principal** ![](assets/dots-menu.png) de Workfront situé dans le coin supérieur droit de l’écran, ou dans le **menu principal** ![](assets/lines-menu.png) dans le coin supérieur gauche, si disponible, cliquez sur **Demandes** > **Envoyées** > **Planification** et cliquez sur la demande avec le statut **Dans la révision**}}. 4}<!--did they change this to Pending approval; logged  a bug-->
+   * Si vous avez accès à la planification Workfront, cliquez sur **Menu principal** ![](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur le **Menu principal** ![](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Envoyées** > **Planification**, et cliquez sur la demande avec l’état **Dans la révision 13}. <!--did they change this to Pending approval; logged  a bug-->**
+
+     >[!TIP]
+     >
+     >    Si vous n’avez pas accès à la planification Workfront, vous ne pouvez accéder qu’à une requête pour l’approuver à l’aide de vos notifications.
+
+
    * Accédez à la zone **Notifications** dans le coin supérieur droit de l’écran et cliquez sur la notification à propos d’une demande en attente de votre approbation pour ouvrir la demande.
    * Accédez à la notification électronique dans votre email vous informant d’une demande en attente de votre approbation, puis cliquez pour ouvrir la demande. <!--add the name of the button here, from the email-->
 
@@ -161,5 +167,5 @@ Pour approuver une requête :
 1. (Facultatif) Cliquez sur l’icône **Validations** ![](assets/approvals-icon.png) dans le coin supérieur droit de la requête pour afficher les approbateurs.
 1. Cliquez sur **Réviser et approuver**, puis sélectionnez l’une des options suivantes : <!--did they fix the button and removed the &??-->
 
-   * **Approve** : pour approuver la demande. Un enregistrement est immédiatement créé pour le type d’enregistrement associé au formulaire de demande.
-   * **Rejeter** : pour rejeter la demande. Aucun enregistrement n’est créé pour le type d’enregistrement associé au formulaire de demande. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??-->
+   * **Approve** : cela approuve la demande. Un enregistrement est immédiatement créé pour le type d’enregistrement associé au formulaire de demande.
+   * **Rejeter** : la demande est rejetée. Aucun enregistrement n’est créé pour le type d’enregistrement associé au formulaire de demande. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->

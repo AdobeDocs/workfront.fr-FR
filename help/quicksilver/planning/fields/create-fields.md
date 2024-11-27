@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
 source-wordcount: '4287'
 ht-degree: 58%
@@ -668,7 +668,9 @@ Pour plus d’informations, consultez la section [Créer des types d’enregistr
 
 ## Créer des champs à partir de Workfront
 
-Vous pouvez importer des copies de champs Workfront existants. L’importation de champs à partir de Workfront crée une copie de chaque champ pour un type d’enregistrement Workfront Planning.
+Vous pouvez importer des copies de champs Workfront existants.
+
+L’importation de champs à partir de Workfront crée une copie de chaque champ pour un type d’enregistrement Workfront Planning.
 
 Une fois les champs copiés, ils sont indépendants les uns des autres et n’exchange pas les informations.
 

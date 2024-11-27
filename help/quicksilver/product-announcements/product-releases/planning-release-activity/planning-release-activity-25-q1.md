@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1769'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >
 >Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Désormais, lorsque vous ajoutez des champs à un type d’enregistrement, vous avez la possibilité d’importer des champs personnalisés ou natifs Workfront existants et de les associer au type d’enregistrement que vous avez sélectionné.
+Désormais, lorsque vous ajoutez des champs à un type d’enregistrement, vous avez la possibilité d’importer des champs personnalisés ou natifs Workfront existants et de les associer au type d’enregistrement que vous avez sélectionné. L’importation de champs existants crée une copie des champs Workfront dans Workfront Planning. Les champs copiés sont indépendants de leurs versions d’origine.
 
 Avant cette amélioration, vous deviez créer manuellement tous les champs et les associer aux types d’enregistrement.
 
@@ -89,13 +89,16 @@ Les pages ajoutées sont en lecture seule.
 
 Pour plus d’informations, voir [Gestion de la mise en page de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
 
-## Nouvel onglet Planning de la section Soumis de la zone Demandes
+## Nouveaux onglets Workfront et Planification dans la section Envoyé de la zone Demandes
 
 >[!NOTE]
 >
 >Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Vous trouverez désormais les requêtes de planification Workfront dans la section Envoyés de la zone Demandes de Workfront. La section Envoyé affiche désormais deux onglets : les requêtes envoyées dans Workfront sous l’onglet Workfront et les requêtes envoyées à l’aide d’un formulaire de demande de planification Workfront dans l’onglet Planning .
+Vous trouverez désormais les requêtes de planification Workfront dans la section Envoyés de la zone Demandes de Workfront. La section Envoyé affiche désormais les onglets suivants :
+
+* Workfront : affiche les requêtes envoyées dans Workfront.
+* Planification : affiche les demandes envoyées à l’aide d’un formulaire de demande de planification Workfront.
 
 Vous devez utiliser un lien vers le formulaire de requête pour pouvoir ajouter des requêtes à un type d’enregistrement Workfront Planning. L’envoi d’une demande de planification Workfront à partir de la zone Demandes de Workfront sera disponible ultérieurement.
 
@@ -127,7 +130,7 @@ Pour plus d’informations, voir Création et gestion d’un formulaire de deman
 Vous ne pouvez plus partager un formulaire de demande publiquement si le formulaire contient l’un des types de champs suivants :
 
 * Formule
-* Connexions
+* Connexions Workfront et AEM Assets
 * Champs de recherche
 * Personnes
 

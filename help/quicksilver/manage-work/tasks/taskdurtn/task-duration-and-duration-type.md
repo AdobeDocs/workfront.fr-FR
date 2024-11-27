@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 82%
+source-wordcount: '1677'
+ht-degree: 74%
 
 ---
 
@@ -106,7 +106,14 @@ Lors de la mise à jour de la durée des tâches dans une liste, vous pouvez uti
 
 {style="table-layout:auto"}
 
-**Exemple :** si vous souhaitez indiquer que la durée d’une tâche est de 3 jours écoulés, vous devez saisir « 3 JE » dans le champ Durée d’une liste de tâches.  Vous pouvez également sélectionner l’option de votre choix pour l’unité de durée dans le menu déroulant disponible lors de la modification d’une tâche ou dans la section Détails de la tâche. Pour plus d’informations sur la modification des tâches, consultez [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>[!BEGINSHADEBOX]
+
+**EXEMPLE**
+
+Si vous souhaitez indiquer que la durée d’une tâche est de 3 jours écoulés, vous devez saisir &quot;3 DE&quot; dans le champ Durée d’une liste de tâches .  Vous pouvez également sélectionner l’option de votre choix pour l’unité de temps de la durée dans le menu déroulant disponible lors de la modification d’une tâche ou dans la section Détails de la tâche . Pour plus d’informations sur la modification des tâches, consultez [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -117,9 +124,9 @@ Lors de la mise à jour de la durée des tâches dans une liste, vous pouvez uti
 Tenez compte des points suivants lorsque vous indiquez la durée d’une tâche :
 
 * Le temps écoulé est une unité de temps pour la durée d’une tâche. Il s’agit de la durée entre la date de début et la date d’achèvement prévues d’une tâche qui comprend les jours fériés, les week-ends et les jours de congé. En d’autres termes, le temps écoulé est le nombre de jours calendaires écoulés.
-* Le temps normal prend en compte les jours fériés, les week-ends et les jours de congé et les exclut de la durée de la tâche.
-
-* Lorsque vous indiquez la durée d’une tâche en semaines, Workfront calcule la durée en jours et heures en fonction des paramètres Journées de travail habituelles par semaine et Heures habituelles par journée de travail définis par votre administrateur ou administratrice Workfront dans la zone Préférences du projet de la configuration.
+* Les jours représentent les jours de travail définis dans le système et configurables dans la zone Configuration . Dans la plupart des cas, une journée consiste en 8 heures.
+* L’heure normale (jours ou jours de travail) prend en compte les jours fériés, les week-ends et les jours de congé et les exclut de la durée de la tâche.
+* Lorsque vous indiquez la durée d’une tâche en semaines, Workfront calcule la durée en jours et heures en fonction des paramètres Type de jour de travail par semaine et Type d’heure par jour de travail définis par votre administrateur Workfront dans la zone Préférences du projet de la configuration.
 * Workfront utilise la durée par défaut de 4 semaines pour un mois lors du calcul de la durée en mois.
 
 ## Vue d’ensemble du type de durée des tâches
