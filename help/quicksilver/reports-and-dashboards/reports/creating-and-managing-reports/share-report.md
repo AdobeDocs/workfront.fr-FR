@@ -6,14 +6,16 @@ description: Votre administrateur ou administratrice Adobe Workfront accorde au
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 89%
+source-wordcount: '820'
+ht-degree: 73%
 
 ---
 
 # Partager un rapport dans Adobe Workfront
+
+<!-- Audited: 11/2024 -->
 
 Votre administrateur ou administratrice Adobe Workfront accorde aux utilisateurs et utilisatrices l’accès à l’affichage ou à la modification des rapports lorsque des niveaux d’accès leur sont attribués. Pour plus d’informations sur l’octroi d’un accès aux problèmes, voir [Accorder l’accès aux rapports, tableaux de bord et calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -27,6 +29,8 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Pour partager des objets, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
@@ -39,20 +43,31 @@ Pour partager des objets, vous devez disposer des éléments suivants :
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou supérieur</p> </td> 
+      <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Clair ou plus élevé</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Révision ou supérieur</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès en affichage ou supérieur aux rapports, tableaux de bord et calendriers</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Accès en affichage ou supérieur aux rapports, tableaux de bord et calendriers</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations Afficher ou supérieures sur le rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations Afficher ou supérieures sur le rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Remarques sur le partage de rapports
 
@@ -79,7 +94,7 @@ Le partage d’un ou de plusieurs rapports d’une liste est identique.
 
    Cliquez sur le nom d’un rapport, puis sur **Actions du rapport >****Partage**.
 
-   ![](assets/qs-report-actions-sharing.png)
+   ![](assets/unshimmed-report-actions-sharing.png)
 
 1. Dans la zone qui s’affiche, dans le champ **Ajouter des personnes, des équipes, des rôles, des groupes ou des entreprises...**, commencez à saisir le nom de la personne, de l’équipe, de la fonction, du groupe ou de l’entreprise avec lequel vous souhaitez partager le rapport, puis appuyez sur **Entrée** lorsque le nom s’affiche.
 
@@ -91,7 +106,7 @@ Le partage d’un ou de plusieurs rapports d’une liste est identique.
     <tbody> 
      <tr> 
       <td role="rowheader">L'afficher</td> 
-      <td> <p>Permet à la personne destinataire de visualiser le rapport dans la zone <strong>Rapports</strong> <img src="assets/reports-in-main-menu.png"> et de l’exécuter.</p> <p>Vous pouvez cliquer sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez que les utilisateurs et les utilisatrices puissent le <strong>Partager</strong> avec n’importe qui dans le système.</p> </td> 
+      <td> <p>Permet à vos destinataires d’afficher le rapport dans la zone <strong>Rapports</strong> et de l’exécuter.</p> <p>Vous pouvez cliquer sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez que les utilisateurs et les utilisatrices puissent le <strong>Partager</strong> avec n’importe qui dans le système.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Le gérer</td> 
@@ -101,9 +116,15 @@ Le partage d’un ou de plusieurs rapports d’une liste est identique.
    </table>
 
 1. (Facultatif) Répétez les 2 étapes précédentes pour ajouter d’autres noms à la liste et configurer leurs options.
-1. (Facultatif) Cliquez sur l’icône **Engrenage** ![](assets/gear-icon-settings-with-dn-arrow.jpg) dans le coin supérieur droit de la zone de partage, puis sélectionnez l’une des options suivantes :
+1. (Facultatif) Cliquez sur le menu déroulant **Seules les personnes invitées peuvent accéder à** dans la boîte de partage, puis choisissez l’une des options suivantes :
 
-   * **Rendre public pour les utilisateurs et utilisatrices externes :** sélectionnez cette option pour générer une URL qui peut être partagée avec d’autres personnes. Toute personne disposant de l’URL peut accéder au rapport, sans posséder de licence Adobe Workfront.
+   * **Seules les personnes invitées peuvent accéder à** Sélectionnez cette option afin que seuls les utilisateurs qui ont reçu l’accès au rapport puissent l’afficher.
+
+   * **Tous les utilisateurs du système peuvent afficher** Sélectionnez cette option pour que tous les utilisateurs de Workfront ayant accès aux rapports puissent afficher le rapport.
+
+1. (Facultatif) Cliquez sur l’icône **Gear** ![](assets/gear-icon-settings-with-dn-arrow.jpg) dans le coin supérieur droit de la boîte de partage, puis sélectionnez éventuellement l’option suivante :
+
+   * **Rendre ce public aux utilisateurs externes** Sélectionnez cette option pour générer une URL qui peut être partagée avec d’autres utilisateurs. Toute personne disposant de l’URL peut accéder au rapport, sans posséder de licence Adobe Workfront.
 
      >[!CAUTION]
      >
@@ -112,7 +133,5 @@ Le partage d’un ou de plusieurs rapports d’une liste est identique.
      >[!NOTE]
      >
      >Si le rapport comporte une invite que vous partagez publiquement, les utilisateurs qui l’exécutent via le lien de partage public ne pourront pas exécuter le rapport à l’aide de l’invite. Le rapport s’affiche sans l’invite qui lui est appliquée, sauf s’il se connecte à Workfront et accède au rapport sans utiliser le lien de partage public. Pour plus d’informations sur les limites du partage de rapports avec des invites, reportez-vous à la section [Limitations du partage des rapports demandés](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) de l’article [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
-
-   * **Rendre visible à l’échelle du système :** sélectionnez cette option pour que tous les utilisateurs et utilisatrices de Workfront ayant accès aux rapports puissent voir le rapport.
 
 1. Cliquer sur **Enregistrer**.

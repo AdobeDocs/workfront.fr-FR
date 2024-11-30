@@ -6,14 +6,16 @@ description: Planifier la remise automatique d’un rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 88%
+source-wordcount: '1197'
+ht-degree: 87%
 
 ---
 
 # Planifier la remise automatique d’un rapport
+
+<!-- Audited: 11/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
@@ -24,6 +26,8 @@ Vous pouvez planifier la remise automatique des rapports aux utilisateurs et aux
 Pour plus d’informations, y compris les limites de taille qui peuvent affecter la remise de vos rapports, voir [Vue d’ensemble des remises de rapports](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -37,20 +41,31 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+      <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et regroupements</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et regroupements</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -130,7 +145,7 @@ Pour planifier la remise automatique d’un rapport ou modifier ou supprimer une
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Heure</p> </td> 
-      <td> <p>Sélectionnez l’heure de la journée à laquelle vous souhaitez envoyer la remise.</p> <p>Conseil : Étant donné que les charges système peuvent affecter les délais de remise des rapports, il peut y avoir un délai allant jusqu’à 24 heures entre l’heure planifiée et l’heure de remise réelle. Si vous devez remettre un rapport à une heure spécifique, nous vous recommandons de planifier la remise au préalable. En général, nous vous recommandons de planifier la livraison au moins un jour avant la date à laquelle elle est nécessaire.</p> </td> 
+      <td> <p>Sélectionnez l’heure de la journée à laquelle vous souhaitez envoyer la remise.</p> <p>Conseil : Comme les chargements du système peuvent avoir une incidence sur les heures de remise des rapports, un délai allant jusqu’à 24 heures peut s’écouler entre l’heure planifiée et l’heure de remise réelle. Si vous devez remettre un rapport à une heure spécifique, nous vous recommandons de planifier la remise au préalable. En règle générale, nous vous recommandons de planifier la diffusion au moins un jour avant la date à laquelle elle est nécessaire.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se répète le</p> </td> 
@@ -163,22 +178,22 @@ Pour planifier la remise automatique d’un rapport ou modifier ou supprimer une
 
 >[!IMPORTANT]
 >
->Les rapports planifiés sont soumis à une limite de temps interne lorsqu’ils sont traités pour la diffusion. Si l’envoi d’un rapport prend plus de temps que la limite, vous recevrez une notification et le rapport ne sera plus livré, quelles que soient les livraisons planifiées restantes. Pour continuer à envoyer le rapport, essayez d’abord de réduire la taille du rapport à l’aide de filtres et de vues, puis créez une nouvelle distribution planifiée.
+>Les rapports planifiés sont soumis à une limite de temps interne lors du traitement en vue de leur diffusion. Dans le cas où l&#39;envoi d&#39;un rapport prend plus de temps, vous recevrez une notification et le rapport ne sera plus remis, quelle que soit la ou les diffusions planifiées restantes. Pour continuer à envoyer le rapport, essayez d’abord de réduire sa taille par le biais de filtres et d’affichages, puis créez une diffusion planifiée.
 >
->Si vous utilisez une remise de rapport planifiée pour analyser les données Workfront via un outil BI, nous vous recommandons d’utiliser Workfront Data Connect à la place. Pour plus d’informations, consultez [Présentation de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+>Si vous utilisez une remise de rapport planifiée pour analyser les données Workfront par le biais d’un outil de BI, il est recommandé d’utiliser plutôt Workfront Data Connect. Pour plus d’informations, voir [Présentation de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 1. (Facultatif) Pour supprimer une remise prévue, procédez comme suit :
 
    1. Dans le panneau **Remises répétées**, cliquez sur la remise prévue, puis sur **Supprimer**.
    1. Cliquez sur **Supprimer** pour confirmer.
 
-## Vidéo de démonstration
+<!--## Video walk-through
 
-Consultez la vidéo suivante pour apprendre à planifier une remise de rapport. Cette vidéo a été enregistrée dans Workfront Classic. Cependant, le contenu s’applique également à la nouvelle expérience Workfront.
+View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 
-[![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
+[ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
-<!--
+
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>
 -->
 
