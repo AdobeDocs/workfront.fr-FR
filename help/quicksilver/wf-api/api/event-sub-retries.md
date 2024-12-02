@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 63%
 
 ---
 
@@ -24,45 +24,54 @@ Certaines intégrations peuvent accepter un échec de diffusion, puis abandonner
 
 Dans la mesure où les clientes et clients tirent parti de la plateforme Workfront comme une composante essentielle de leur travail intellectuel quotidien, la structure d’abonnement à un événement Workfront fournit un mécanisme permettant d’assurer la diffusion de chaque message dans la mesure du possible.
 
-Les messages sortants déclenchés par un événement et qui ne parviennent pas à être diffusés aux points d’entrée clients sont renvoyés jusqu’à ce que la diffusion soit réussie pendant une période maximale de 48 heures. Pendant cette période, les reprises sont réduites progressivement jusqu’à ce que la diffusion soit réussie ou jusqu’à ce que 48 heures se soient écoulées.
+Les messages sortants déclenchés par un événement et qui ne parviennent pas à être diffusés aux points d’entrée clients sont renvoyés jusqu’à ce que la diffusion soit réussie pendant une période maximale de 48 heures. Pendant ce temps, les reprises se produisent à une fréquence incrémentielle accrue jusqu’à ce que la diffusion soit réussie ou jusqu’à ce que 11 tentatives aient été effectuées.
+
+La formule pour ces tentatives de reprise est la suivante :
+
+`((2^attempt) - 1) * 84800ms`
+
+La première reprise se produit après 1,5 minute, la seconde presque 5 minutes et la 11e est d’environ 48 heures.
 
 Les clientes et clients doivent s’assurer que tous les points d’entrée qui consomment des messages sortants provenant des abonnements à Workfront Event sont configurés pour renvoyer un message de réponse de 200 niveaux à Workfront en cas de diffusion réussie.
 
-## Gérer l’échec des messages sortants déclenchés par un événément
+## Règles d’abonnement désactivées et figées
 
-L’organigramme suivant présente la stratégie de rediffusion des messages avec les abonnements à des événements Workfront :
+* Une URL d&#39;abonnement est **désactivée** si son taux d&#39;échec est supérieur à 70 % avec plus de 100 tentatives OU si elle présente 2 000 échecs consécutifs
+* Une URL d’abonnement est **figée** si elle présente plus de 2 000 échecs consécutifs et que le dernier succès a été plus de 72 heures auparavant OU si elle a 50 000 échecs consécutifs dans n’importe quelle période.
+* Une URL d’abonnement **disabled** continuera à tenter une diffusion toutes les 10 minutes et sera réactivée avec une diffusion réussie.
+* Une URL d’abonnement **figée** ne tente jamais une diffusion, sauf si elle est activée manuellement en effectuant une requête API.
+
+
+
+<!--
+
+## Handling Failed Event-Triggered Outbound Messages
+
+The following flowchart shows the strategy for reattempting message deliveries with Workfront Event Subscriptions:
 
 ![](assets/event-subscription-circuit-breaker-retries-350x234.png)
 
-Les explications suivantes correspondent aux étapes décrites dans l’organigramme :
+The following explanations correspond with the steps depicted in the flowchart:
 
-1. La diffusion du message échoue.
-1. Les informations sur l’échec de diffusion du message sont consignées.
+1. Message fails to be delivered. 
+1. Message delivery failure information is logged.
 
-   Tous les échecs de diffusion d’un message sont consignés afin de permettre le débogage et de déterminer la cause première d’un échec donné ou d’une série d’échecs donnée.
+   All failed attempts to deliver a message are logged so that debugging may be performed to determine the root cause of a given failure or series of failures. 
 
-1. Échecs de l’URL incrémentés.
-1. Le nombre de tentatives de messages est incrémenté.
-1. Calculez le délai jusqu’à ce que la diffusion de ce message soit retentée.
-1. Le message est placé dans la file d’attente des reprises de message.
+1. URL failures incremented. 
+1. Message attempt count is incremented. 
+1. Calculate the delay until this message's delivery will be attempted again. 
+1. Message is placed onto the message retry queue.
 
-   Comme illustré dans l’organigramme précédent, la file d’attente des messages utilisée pour le traitement des reprises de diffusion des messages est distincte de celle qui traite la tentative de diffusion initiale pour chaque message. Cela permet au flux de messages en temps quasi réel de continuer sans être entravé par l’échec d’un sous-ensemble de messages.
+   As shown in the preceding flowchart, the message queue used for processing message delivery retries is a separate queue from the one that processes the initial delivery attempt for each message. This allows the near real-time flow of messages to continue unimpeded by the failure of any subset of messages. 
 
-1. Le statut du circuit d’URL est évalué. L’une des opérations suivantes est exécutée :
+1. URL circuit status is evaluated. One of the following occurs:
 
-   * Si le circuit est ouvert et que les diffusions ne sont pas autorisées à ce stade, redémarrez le processus à l’étape 5.
-   * Si le circuit est à moitié ouvert, cela signifie que notre circuit est actuellement ouvert, mais qu’il s’est écoulé suffisamment de temps pour effectuer le test de l’URL et vérifier si le problème de diffusion vers celle-ci a été résolu.
-   * Si les limites des rediffusion du message ont été atteintes (48 heures après une nouvelle tentative), le message est abandonné.
+   * If the circuit is open and not allowing deliveries at this time, restart the process at step 5.
+   * If the circuit is half-open, this implies that our circuit is currently open, but enough time has passed to allow testing of the URL to see if the problem with delivering to it has been resolved.
+   * If the message delivery attempt limits have been reached (48 hours of retrying) then the message is dropped
 
-1. Si le circuit d’URL est fermé et autorise les diffusions, essayez de diffuser le message. Si cette diffusion échoue, le message redémarre à l’étape 1.
+1. If the URL circuit is closed and allowing deliveries, attempt to deliver the message. If this delivery fails, the message will restart at step 1 
 
-1. Si le circuit d’URL est fermé et autorise les diffusions, essayez de diffuser le message. Si cette diffusion échoue, le message redémarre à l’étape 1.
-
-   <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront disables Event Subscriptions when both of the following criteria are met:
-   <ul>
-   <!--
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The Event Subscription has failed 1000 delivery attempts consecutively</li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">48 hours have passed since the last successful delivery</li>
-   </ul></li>
+1. If the URL circuit is closed and allowing deliveries, attempt to deliver the message. If this delivery fails, the message will restart at step 1.
    -->
