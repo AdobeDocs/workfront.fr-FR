@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d5f21f3568f72273aa0843a45b17053fc9ebf727
+source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 26%
+source-wordcount: '1154'
+ht-degree: 25%
 
 ---
 
@@ -38,6 +38,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 <table>
 <col style="width: 20%;" />
+<col style="width: 50%;" />
 <tbody>
     <tr>
     <td>Zone</td>
@@ -89,7 +90,6 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Icône "Déplacer vers" ajoutée aux champs personnalisés</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
             <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
         </td>
         <td>mercredi 29 octobre 2024</td>
@@ -173,8 +173,6 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Icône "Déplacer vers" ajoutée aux champs personnalisés</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
             <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
         </td>
         <td>mercredi 29 octobre 2024</td>

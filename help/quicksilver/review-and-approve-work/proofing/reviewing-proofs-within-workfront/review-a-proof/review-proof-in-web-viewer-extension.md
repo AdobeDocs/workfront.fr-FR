@@ -5,13 +5,13 @@ title: Vérifier le contenu interactif dans l’extension de la visionneuse de p
 description: L’outil de révision d’Adobe Workfront est une extension de navigateur qui vous permet de tester le contenu interactif dans un fichier ZIP ou avec une URL.
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 5650ebfbf115908cbf2b89ffeab0551a4ecacc2d
+exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
+source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
-
 
 # Vérification du contenu interactif à l’aide de l’outil de révision Adobe Workfront
 
@@ -23,7 +23,11 @@ L’outil de révision d’Adobe Workfront est une extension de navigateur web q
 * Chrome
 * Edge
 
-Pour les sites web qui empêchent l’ouverture de leur site dans des iFrames, tels que Figma, nous vous recommandons d’utiliser la visionneuse de BAT pour ordinateur de bureau.
+Nous vous recommandons d’utiliser la visionneuse de vérification de l’appli de bureau si le contenu que vous devez consulter se trouve sur un site web qui
+
+* Authentification SSO requise
+* Revient à ouvrir leur site dans des iFrames, tels que Figma
+
 
 
 ## Faire de l’outil de révision Adobe Workfront la visionneuse par défaut pour les BAT d’URL et de ZIP
@@ -69,7 +73,3 @@ Une fois que vous avez installé l’extension, les bons à tirer interactifs s�
 >[!IMPORTANT]
 >
 >Vous devez supprimer l’extension de visionneuse web héritée pour utiliser l’outil de révision Adobe Workfront.
-
-
-
-
