@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 63%
@@ -40,6 +40,7 @@ Les clientes et clients doivent s’assurer que tous les points d’entrée qui 
 * Une URL d’abonnement est **figée** si elle présente plus de 2 000 échecs consécutifs et que le dernier succès a été plus de 72 heures auparavant OU si elle a 50 000 échecs consécutifs dans n’importe quelle période.
 * Une URL d’abonnement **disabled** continuera à tenter une diffusion toutes les 10 minutes et sera réactivée avec une diffusion réussie.
 * Une URL d’abonnement **figée** ne tente jamais une diffusion, sauf si elle est activée manuellement en effectuant une requête API.
+
 
 
 

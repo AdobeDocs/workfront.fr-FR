@@ -6,7 +6,7 @@ description: Vous pouvez partager ou supprimer des autorisations pour un objet q
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 96%
@@ -166,6 +166,7 @@ Pour plus d’informations sur la hiérarchie et l’interdépendance des objets
 Si vous accordez des autorisations de gestion à un groupe de personnes sur un objet et des autorisations d’affichage à une personne de ce groupe sur le même objet, la personne dispose du niveau d’autorisation le plus élevé (Gérer) accordé sur l’objet via l’appartenance au groupe. 
 
 Si vous souhaitez accorder des autorisations inférieures à une personne qui fait déjà partie d’une entité organisationnelle (Groupe, Équipe, Fonction ou Société) avec un niveau d’autorisation supérieur, vous devez supprimer les autorisations de l’entité organisationnelle et ajouter individuellement les personnes avec un niveau d’autorisation inférieur.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
