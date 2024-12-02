@@ -6,10 +6,10 @@ description: Vous pouvez partager ou supprimer des autorisations pour un objet q
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 97%
+source-wordcount: '1182'
+ht-degree: 96%
 
 ---
 
@@ -108,6 +108,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
     <ul> 
      <li><p>Afficher l’objet</p></li> 
      <li><p>Ajouter des documents à l’objet</p></li> 
+     <li><p>Ajout de problèmes à l’objet (s’il s’agit d’une tâche ou d’un projet)</p></li> 
      <li><p>Afficher des informations financières sur l’objet</p></li> 
      <li> <p>Partager l’objet<br></p> <p>Lorsque vous partagez l’objet, vous pouvez octroyer à d’autres personnes le même niveau d’autorisation que celui dont vous disposez sur l’objet, et non pas un niveau supérieur.</p> </li> 
     </ul> </td> 
@@ -118,7 +119,6 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
     <ul> 
      <li>Toutes les actions incluses avec l’autorisation d’affichage.</li> 
      <li>Y ajouter des dépenses</li> 
-     <li>Y ajouter des problèmes (tâche ou projet)</li> 
      <li>Y ajouter des tâches (projet)</li> 
      <li>Y modifier les formulaires personnalisés</li> 
      <li>Consigner des heures sur l’objet</li> 
