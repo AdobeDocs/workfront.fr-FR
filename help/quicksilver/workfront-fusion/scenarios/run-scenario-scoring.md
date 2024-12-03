@@ -2,17 +2,15 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Exécutez l’expert en notation de scénario
-description: Gérer des scénarios verrouillés dans  [!DNL Adobe Workfront Fusion]
+title: Exécution de l’expert en notation de scénario dans Adobe Workfront Fusion
+description: L’expert en notation de scénario peut vous aider à vous assurer que votre scénario est configuré de manière conforme aux bonnes pratiques. Il vérifie votre scénario et fournit des recommandations pour sa structure et son organisation.
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
 exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
-source-git-commit: 7bc49dcd8988ef7fd781fb88eba5b03576ca7054
+source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 26%
+source-wordcount: '327'
+ht-degree: 22%
 
 ---
 

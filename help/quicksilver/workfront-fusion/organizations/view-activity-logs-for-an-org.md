@@ -7,13 +7,11 @@ title: Affichage des journaux d’activité d’une organisation dans Adobe Work
 description: Vous pouvez afficher un journal des activités, telles que la création ou l’activation de scénarios, pour votre organisation.
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: ff455b5da1db6a4edb9f6de5d9ff50a7658f91bb
+source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 22%
+source-wordcount: '506'
+ht-degree: 13%
 
 ---
 
@@ -25,42 +23,47 @@ Vous pouvez afficher un journal des activités, telles que la création d’un s
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
-<table style="table-layout:auto">  
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>[!DNL Pro] ou une version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td> <p>Nouveau : Ultimate</p> <p>Ou</p> <p>Actuel : non disponible</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : non disponible</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-  <td>
-   <p>Exigence de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion].</p>
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
+   <td>
+   <p>Actuelle : aucune exigence de licence [!DNL Workfront Fusion] requise.</p>
    <p>Ou</p>
-   <p>Exigences en matière de licences héritées : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
-   </td>  
+   <p>Héritée : n’importe laquelle. </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
-   <p>Ou</p>
-   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Nouveau : [!DNL Workfront Fusion] est inclus dans le plan Workfront Ultimate.</p> <p>Ou</p>
+   <p>Actuel : non disponible</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
+
+
 
 ## Affichage des journaux d’activité
 
