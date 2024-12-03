@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
+source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 25%
+source-wordcount: '1388'
+ht-degree: 22%
 
 ---
 
@@ -126,7 +126,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 ### Améliorations apportées aux administrateurs et administratrices
 
-<table style="table-layout:auto">
+<table>
 <col style="width: 50%;" />
 <tbody>
     <tr>
@@ -243,6 +243,53 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 </tbody>
 </table>
 
+### Améliorations de la gestion des documents
+
+
+<table>
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Fonctionnalité</span></p>
+        </td>
+        <td>Aperçu</td>
+        <td>Version rapide</td>
+        <td>Tous les trimestres</td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Préférences pour l’utilisation du planning de projet ou d’utilisateur pour les tâches à affectation unique</a></p>
+            <p>En tant qu’administrateur système ou groupe, vous disposez désormais d’une nouvelle préférence pour indiquer si Workfront doit utiliser la planification du projet ou de l’utilisateur pour calculer la chronologie du projet lorsque vous affectez un utilisateur à une tâche et que le projet et l’utilisateur sont associés à une planification.</p>
+        </td>
+        <td><p>16 novembre 2024</p> <p>[!BADGE New in Preview ]{type=Negative}<p></td>
+        <td>Décembre 2024</td>
+        <td>25,1</td>
+    </tr>     
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Les règles métier prennent désormais en charge les hyperliens.</a></p>
+            <p>Vous pouvez désormais inclure des liens hypertexte dans le message d’erreur personnalisé d’une règle de fonctionnement afin de guider l’utilisateur dans la modification de son action dans le cadre de la contrainte de la règle. L’URL statique peut renvoyer vers la documentation ou d’autres pages qui pourraient être utiles à l’utilisateur.</p>
+        </td>
+        <td>14 novembre </td>
+        <td><p>14 novembre</p> <p>[!BADGE Out-of-cycle ]{type=Negative}</p></td>
+        <td><p>14 novembre</p> <p>[!BADGE Out-of-cycle ]{type=Negative}</p></td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Icône "Déplacer vers" ajoutée aux champs personnalisés</a></p>
+            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
+        </td>
+        <td>29 octobre</td>
+          <td><p>Décembre 2024</p><p> [!BADGE In production for Fast Release ]{type=Positive}</p></td>
+        <td>25,1<p> [!BADGE en production]{type=Positif}</p></td>
+    </tr>
+</tbody>
+</table>
+
 <!--
 ### Functionality soon to be removed from Workfront
 
@@ -253,6 +300,9 @@ The following functionality is soon to be removed from Workfront:
 
 * [Activité de publication Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 * [Activité de mise à jour Adobe Workfront Planning pour le premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+
+À ce stade de la version, les mises à jour suivantes ne sont pas disponibles :
+
 * Planificateur de scénarios
 * Épreuve
 * Objectifs
