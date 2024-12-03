@@ -3,17 +3,19 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Demande d’accès aux objets
 description: La visibilité des objets dans Adobe Workfront dépend de l’accès à ce type d’objet et de vos autorisations sur un objet particulier.
-author: Alina
+author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 95%
+source-wordcount: '1454'
+ht-degree: 92%
 
 ---
 
 # Demander l’accès aux objets
+
+{{preview-fast-release-general}}
 
 La visibilité des objets dans Adobe Workfront dépend de l’accès à ce type d’objet et de vos autorisations sur un objet particulier.
 
@@ -92,14 +94,18 @@ Pour demander l’accès initial à un objet, procédez comme suit :
 1. Cliquez sur **Demander l’accès**.\
    La boîte de dialogue **Demander l’accès** s’affiche.
 
-1. (Le cas échéant) Si plusieurs personnes disposent de l’accès approprié pour vous accorder un accès supplémentaire, une flèche déroulante s’affiche en regard du nom de la personne.
-1. Sélectionnez dans la liste déroulante la personne qui doit recevoir votre demande d’accès.\
+1. (Conditionnel) Si plusieurs utilisateurs disposent de l’accès approprié pour vous accorder un accès supplémentaire, une flèche déroulante s’affiche en regard du nom de l’utilisateur. Sélectionnez dans la liste déroulante l’utilisateur qui doit recevoir votre demande d’accès.
+
    Seuls 10 utilisateurs et utilisatrices sont affichés dans la liste déroulante. La liste est triée par ordre alphabétique.\
    Pour plus d’informations sur l’ordre des utilisateurs et utilisatrices répertoriés dans ce menu déroulant, voir [Hiérarchie des menus déroulants « Demander l’accès » et « Demander davantage d’accès »](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Dans la liste déroulante, sélectionnez le type d’accès que vous demandez.
 1. (Facultatif) Dans le champ **P.S.**, rédigez une note à l’attention de l’utilisateur ou de l’utilisatrice sur les raisons pour lesquelles vous avez besoin d’un accès supplémentaire.
 
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   ![Boîte de dialogue de demande d’accès](assets/request-access-to-project.png)
+
+   Exemple d’image dans l’environnement de production :
    ![](assets/request-access-dialog-350x314.png)
 
 Si vous ne disposez pas des droits de niveau d’accès à un objet et que vous tentez d’y accéder à partir d’un lien, un écran s’affiche pour vous informer de contacter l’administrateur ou administratrice Workfront.
@@ -115,7 +121,7 @@ Pour demander un accès supplémentaire à un objet auquel vous avez déjà un a
 
 1. Cliquez sur le menu **Plus** à droite du nom du projet, puis cliquez sur **Demander plus d’accès**.
 
-   ![](assets/request-access-in-project-350x201.png)
+   ![Demander plus d’accès](assets/more-menu-request-more-access.png)
 
 1. (Le cas échéant) Si plusieurs personnes disposent de l’accès approprié pour vous accorder un accès supplémentaire, une flèche déroulante s’affiche en regard du nom de la personne.
 1. Sélectionnez dans la liste déroulante la personne qui doit recevoir votre demande d’accès.\
@@ -124,7 +130,12 @@ Pour demander un accès supplémentaire à un objet auquel vous avez déjà un a
 
 1. Dans la liste déroulante, sélectionnez le niveau d’accès que vous demandez.
 1. (Facultatif) Dans le champ **P.S.**, indiquez une note expliquant pourquoi vous avez besoin d’un accès supplémentaire.
-1. Cliquez sur **Demander l’accès**.\
+1. Cliquez sur **Demander l’accès**.
+
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   ![Boîte de dialogue de demande d’accès](assets/request-access-to-project.png)
+
+   Exemple d’image dans l’environnement de production :
    ![](assets/request-access-dialog-350x314.png)
 
 ## Hiérarchie des menus déroulants « Demander l’accès » et « Demander plus d’accès » {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
