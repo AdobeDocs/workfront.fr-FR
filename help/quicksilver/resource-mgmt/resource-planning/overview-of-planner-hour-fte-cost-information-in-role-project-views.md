@@ -7,10 +7,10 @@ description: Vue d’ensemble des heures, des équivalents temps complet et des 
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
 workflow-type: tm+mt
-source-wordcount: '2977'
-ht-degree: 98%
+source-wordcount: '3086'
+ht-degree: 94%
 
 ---
 
@@ -96,7 +96,7 @@ Les tableaux suivants présentent les informations d’allocation et de disponib
 * [La colonne VAR (Variance)](#the-var-variance-column)
 * [La colonne NET](#the-net-column)
 
-### La colonne AVL (disponible) {#the-avl-available-column}
+### La colonne AVL (Disponible) {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -140,7 +140,7 @@ Les tableaux suivants présentent les informations d’allocation et de disponib
 
 
 
-### La colonne PLN (prévu) {#the-pln-planned-column}
+### Colonne PLN (prévu) {#the-pln-planned-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -190,7 +190,7 @@ Tenez compte des points suivants lors de l’affichage du nombre d’heures pré
 * Le nombre d’heures prévues ne s’affiche pas dans le planificateur de ressources si la durée de la tâche est nulle.
 * Le nombre d’heures prévues associé aux utilisateurs et utilisatrices désactivés ne s’affiche pas.
 
-### Colonne BDG (budgété) {#the-bdg-budgeted-column}
+### La colonne BDG (Budget) {#the-bdg-budgeted-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -217,12 +217,6 @@ Tenez compte des points suivants lors de l’affichage du nombre d’heures pré
 
 Tenez compte des éléments suivants lorsque vous utilisez des heures budgétées :
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Duplicated below ??)
-</MadCap:conditionalText>
--->
-
 * Pour budgéter des ressources, vous devez disposer d’un accès en modification à la gestion des ressources et aux données financières, ainsi que d’autorisations de gestion des finances pour les projets.
 
   Pour plus d’informations sur l’accès nécessaire à la budgétisation des ressources, consultez l’article [Accès nécessaire à la budgétisation des ressources dans Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
@@ -232,15 +226,23 @@ Tenez compte des éléments suivants lorsque vous utilisez des heures budgétée
   Pour plus d’informations sur les options de projet et de rôle, consultez dans cet article la section [Vue d’ensemble des informations sur les heures, l’équivalent temps complet et les coûts dans les vues « Projet » et « Rôle » du planificateur de ressources](#Budget).
 
 * La plus petite période pour laquelle vous pouvez budgéter des heures, des coûts ou l’équivalent temps complet est une semaine. Vous ne pouvez pas budgéter des heures, des coûts ou l’équivalent temps complet pour une journée.
-* Les heures budgétées sont réparties de manière égale entre chaque jour de la durée des tâches, pour chaque ressource qui y est affectée. La durée de la tâche est basée sur les dates de début et de fin prévues de la tâche et comprend tous les jours calendaires de cette période.\
-  Lorsque les heures budgétées leur sont affectées, Workfront prend en compte le planning de l’utilisateur, de l’utilisatrice ou du projet. Dans ce cas, les heures budgétées sont réparties de manière égale entre chaque jour de la durée des tâches, en excluant les week-ends, mais en tenant compte des congés et des exceptions dans le planning.\
+* Les heures budgétées sont réparties de manière égale entre chaque jour de la durée des tâches, pour chaque ressource qui y est affectée. La durée de la tâche est basée sur les dates de début et de fin prévues de la tâche et comprend tous les jours calendaires de cette période.
+
+  Lorsque les heures budgétées leur sont affectées, Workfront prend en compte le planning de l’utilisateur, de l’utilisatrice ou du projet. Dans ce cas, les heures budgétées sont réparties de manière égale entre chaque jour de la durée des tâches, en excluant les week-ends, mais en tenant compte des congés et des exceptions dans le planning.
+
   Si vous affichez le planificateur de ressources par semaine, par exemple, et que vous avez des tâches s’étendant sur plusieurs semaines, le nombre d’heures budgétées par semaine dépend du nombre de jours de cette semaine qui correspondent à la durée de la tâche. Les jours de week-end sont exclus de cette répartition. Cela fonctionne de la même manière lors de l’affichage du planificateur de ressources par mois ou par trimestre et lorsque les tâches durent plusieurs mois ou trimestres.
 
-* Vous pouvez établir un rapport sur les heures budgétées en sélectionnant « Heure budgétée » comme objet de rapport pour un nouveau rapport.\
-  Pour plus d’informations sur les objets sur lesquels vous pouvez créer des rapports dans Workfront, consultez la section « Rapport sur les objets » dans l’article [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+* Vous pouvez établir un rapport sur les heures budgétées en sélectionnant « Heure budgétée » comme objet de rapport pour un nouveau rapport.
+
+  Pour plus d’informations sur les objets sur lesquels vous pouvez créer des rapports dans Workfront, consultez la section « Rapport sur les objets » dans l’article [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+
   Pour plus d’informations sur la création d’un rapport sur les heures budgétées, consultez l’article [Rapport : heures budgétées](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 * Les heures précédemment budgétées pour les utilisateurs et les utilisatrices dont la désactivation a eu lieu par la suite ne s’affichent pas.
+
+  Notez que le coût de la main-d’oeuvre budgétisée d’un projet inclut toujours les heures budgétisées pour les utilisateurs qui ont été désactivés dans le planificateur de ressources.
+
+  Par exemple : si un rôle est affecté à deux utilisateurs et que des heures sont ajoutées au budget (20 heures par utilisateur, soit 40 heures), puis que le total est défini manuellement pour le rôle, la désactivation de l’un des utilisateurs dans le planificateur de ressources empêche que leurs heures ne soient prises en compte dans le calcul (en réduisant le total à 20 heures). Cependant, le budget du projet conserve correctement le total manuellement défini pour le rôle. Les heures de l’utilisateur désactivé sont donc toujours incluses dans le calcul (40 heures restantes).
 
 ### Colonne VAR (variance) {#the-var-variance-column}
 
