@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: be5c1dcba32efd95ae484c015b66977398f4b762
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '2157'
-ht-degree: 99%
+source-wordcount: '2173'
+ht-degree: 98%
 
 ---
 
@@ -648,6 +648,42 @@ Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l�
             "state": "oldState"
         }
     ]
+}
+```
+
+### Utilisation de filtres imbriqués
+
+L’abonnement aux événements prend en charge le filtrage sur les champs imbriqués des événements à l’aide du mot-clé `fieldValue.fields`.
+
+```
+{
+    "objCode": "RECORD",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedRecords",
+    "filters": [
+        {
+            "fieldName": "data",
+            "fieldValue": {
+                "fields": {
+                    "customerID": "customer1234"
+                }
+            },
+            "comparison": "eq",
+            "state": "newState"
+        },
+        {
+            "fieldName": "options",
+            "fieldValue": {
+                "objects": {
+                    "projectID": "project1234"
+                }
+            },
+            "comparison": "contains",
+            "state": "newState"
+        },
+    ],
+    "filterConnector": 'AND'
 }
 ```
 

@@ -7,16 +7,18 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 96%
+source-wordcount: '757'
+ht-degree: 94%
 
 ---
 
 # Champs de ressources de l’abonnement à un événement
 
 Les champs de ressources de l’abonnement à un événement sont des déclencheurs qui provoquent l’envoi par l’abonnement aux événements d’un message sortant vers un point d’entrée configuré. La modification d’un champ de ressource déclenche un événement de mise à jour.
+
+Notez que les données peuvent être filtrées à l’aide du filtrage imbriqué. Pour plus d’informations, voir [Utilisation de filtres imbriqués](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) dans l’article API Event Subscription.
 
 Le tableau suivant répertorie les champs disponibles pour les ressources de l’abonnement à un événement :
 
