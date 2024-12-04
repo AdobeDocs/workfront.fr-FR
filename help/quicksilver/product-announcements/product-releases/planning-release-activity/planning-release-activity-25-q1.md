@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
@@ -77,7 +77,7 @@ Nous avons ajouté un message d’avertissement lors de l’édition ou de la cr
 
 Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
-## Ajout de pages d’affichage connectées à la page d’un enregistrement pour afficher les enregistrements connectés dans une vue de tableau
+## Ajout de pages de vue Connexion à une page d’enregistrement pour afficher les enregistrements connectés dans une vue de tableau
 
 >[!NOTE]
 >

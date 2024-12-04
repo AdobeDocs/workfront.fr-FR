@@ -3,10 +3,10 @@ title: Approbation d’une requête
 description: Lorsqu’un utilisateur envoie une requête à un formulaire de demande associé à une validation dans Adobe Workfront Planning, les approbateurs reçoivent une notification et un e-mail sur la validation en attente. Il doit approuver la requête avant que Workfront Planning ne crée un objet.
 hide: true
 hidefromTOC: true
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 19%
+source-wordcount: '798'
+ht-degree: 18%
 
 ---
 
@@ -58,7 +58,7 @@ Les requêtes envoyées s’affichent dans l’onglet Planification de la sectio
 * **Approuvé** : lorsqu’un approbateur approuve l’objet de demande, son état individuel devient
 * **Approuvé**, mais l’état global de l’objet de requête reste **En révision** jusqu’à ce que tous les approbateurs aient pris leurs décisions.
 * **Completed** : si tous les approbateurs approuvent l’objet de demande, son état passe à **Completed**, ou si la demande n’a pas besoin d’une approbation.
-* **Refusé** : si un approbateur rejette l’objet de requête, l’état devient **Refusé**.
+* **Refusé** : si un approbateur rejette l’objet de requête, l’état devient **Refusé**. Aucun enregistrement n’est créé et une nouvelle demande doit être envoyée pour créer l’enregistrement.
 
 ## Conditions d’accès
 

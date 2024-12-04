@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1683'
 ht-degree: 10%
 
 ---
@@ -256,23 +256,29 @@ Les événements suivants se produisent :
 
 <span class="preview">
 
-## Ajout d’une page Vue connectée à une page d’enregistrement
+## Ajout d’une page Vue de la connexion à une page d’enregistrement
 
-Vous pouvez ajouter une page Vue connectée à une page d’enregistrement.
+Tenez compte des points suivants lors de l’ajout d’une vue Connexion à une page d’enregistrement :
 
-Vous ne pouvez pas ajouter de page Vue connectée à la zone d’aperçu d’un enregistrement.
+* Vous pouvez ajouter une page Vue de la connexion à la page d’un enregistrement.
 
-Les pages d’affichage connectées affichent une page d’enregistrement connectée dans le tableau. Le mode Tableau est en lecture seule.
+* Vous ne pouvez pas ajouter de page Vue de la connexion à la zone d’aperçu d’un enregistrement.
 
-Vous pouvez ajouter une page Vue connectée pour chaque type d’enregistrement connecté.  <!--edit this when we can remove fields from this page-->
+* Les pages de vue de connexion affichent une page d’enregistrement connectée dans la vue de tableau. Le mode Tableau est en lecture seule.
 
-Pour ajouter une page Vue connectée :
+* Vous pouvez ajouter une page Vue de la connexion pour chaque type d’enregistrement connecté.  <!--edit this when we can remove fields from this page-->
 
-1. Dans une page d’enregistrement vue, cliquez sur le nom d’un enregistrement pour l’ouvrir, puis cliquez sur l’icône Ouvrir dans un nouvel onglet ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la page d’aperçu.
-1. Cliquez sur **Ajouter une page** > **Vue connectée**.
-1. Ajoutez le **nom de page**, puis cliquez sur **Créer**.
+* Une fois que vous avez ajouté une page Vue de la connexion à la page d’un enregistrement, la page est visible à partir de la zone d’aperçu de l’enregistrement.
 
-   Une page supplémentaire est ajoutée à la page de l’enregistrement dans un nouvel onglet.
+Pour ajouter une page Vue de la connexion :
+
+1. Dans une page d’enregistrement vue, cliquez sur le nom d’un enregistrement pour l’ouvrir, puis cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la page d’aperçu.
+1. Cliquez sur **Ajouter une page** > **Vue de connexion**.
+
+   ![](assets/add-connection-view-page-modal.png)
+1. Ajoutez le **nom de page**, cliquez sur **Vue de connexion**, puis cliquez sur **Créer**.
+
+   Un nouvel onglet est ajouté à la page de l’enregistrement.
 1. Recherchez ou cliquez sur le nom d’un enregistrement ou d’un type d’objet connecté dans la liste.
 La vue tabulaire du type d’enregistrement que vous avez sélectionné s’affiche et les enregistrements connectés s’affichent dans la vue tabulaire.
 Le mode Tableau est en lecture seule.
@@ -284,6 +290,7 @@ Le mode Tableau est en lecture seule.
 
    Passez la souris sur le nom de l’onglet, puis cliquez sur **Plus** ![](assets/more-menu.png), puis sur **Renommer** pour renommer le nouvel onglet Vue connectée.
 1. (Facultatif) Utilisez les éléments de vue de la barre d’outils pour gérer la vue de tableau. Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+1. (Facultatif) Pointez sur le nom de l’onglet, puis cliquez sur **Plus** ![](assets/more-menu.png), puis sur **Supprimer** pour le supprimer dans le nouvel onglet Affichage connecté.
 
 </span>
 
