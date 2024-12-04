@@ -5,12 +5,10 @@ title: Créer un tableau de bord de révision et d’approbation
 description: Vous pouvez consulter les mesures de validation dans les tableaux de bord de la zone de travail.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 6abe9f371d8121ccbd66a379ad4b25f47417d885
+source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2054'
 ht-degree: 1%
 
 ---
@@ -48,10 +46,9 @@ Vous pouvez afficher des informations de haut niveau sur les approbations de doc
 
 ### KPI
 
-<!--
->>[!IMPORTANT]
+>[!IMPORTANT]
 >
->New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.-->
+>Les nouvelles données d&#39;approbation de documents sont actuellement actualisées le soir dans le fuseau horaire de la montagne américaine. Des mises à jour en temps réel sont prévues et seront bientôt disponibles.
 
 ![Exemples de KPI](assets/kpi-dashboard.png)
 
@@ -132,6 +129,10 @@ Vous pouvez afficher des informations de haut niveau sur les approbations de doc
 
 ### Graphiques
 
+>[!IMPORTANT]
+>
+>Les nouvelles données d&#39;approbation de documents sont actuellement actualisées le soir dans le fuseau horaire de la montagne américaine. Des mises à jour en temps réel sont prévues et seront bientôt disponibles.
+
 ![Exemples de graphiques](assets/chart-dashboard.png)
 
 #### Approbations par graphique à barres de décision
@@ -178,6 +179,10 @@ Vous pouvez afficher des informations de haut niveau sur les approbations de doc
 1. Cliquez sur **Terminé** dans le coin supérieur droit de l’écran.
 
 ## Ajout d’informations détaillées de révision et d’approbation à l’aide de tableaux
+
+>[!IMPORTANT]
+>
+>Les nouvelles données d&#39;approbation de documents sont actuellement actualisées le soir dans le fuseau horaire de la montagne américaine. Des mises à jour en temps réel sont prévues et seront bientôt disponibles.
 
 ![exemple de table](assets/table-dashboard.png)
 
