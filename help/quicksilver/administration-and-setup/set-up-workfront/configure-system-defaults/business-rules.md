@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 5%
+source-wordcount: '1269'
+ht-degree: 4%
 
 ---
 
@@ -74,7 +74,10 @@ Pour plus d’informations sur les caractères génériques basés sur l’utili
 
 Pour plus d’informations sur les caractères génériques basés sur des dates, voir [Utilisation de caractères génériques basés sur des dates pour généraliser des rapports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
-Un caractère générique API est également disponible dans les règles de fonctionnement. Vous pouvez utiliser `$$ISAPI` pour déclencher la règle uniquement dans l’interface utilisateur ou uniquement dans l’API.
+Un caractère générique API est également disponible dans les règles de fonctionnement. Utilisez `$$ISAPI` pour déclencher la règle uniquement dans l’API. Utilisez `!$$ISAPI` pour appliquer la règle uniquement dans l’interface utilisateur et permettre aux utilisateurs de contourner la règle par le biais de l’API.
+
+* Par exemple, cette règle interdit aux utilisateurs de modifier des projets terminés via l’API. Si le caractère générique n’a pas été utilisé, la règle bloquera l’action dans l’interface utilisateur et dans l’API.
+  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
 
 Les caractères génériques `$$BEFORE_STATE` et `$$AFTER_STATE` sont utilisés dans les expressions pour accéder aux valeurs de champ de l’objet avant et après toute modification.
 
