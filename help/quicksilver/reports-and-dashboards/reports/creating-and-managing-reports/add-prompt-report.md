@@ -6,10 +6,10 @@ description: Les filtres et les invites sont similaires dans la mesure où ils l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 83%
+source-wordcount: '1363'
+ht-degree: 76%
 
 ---
 
@@ -172,3 +172,5 @@ Les restrictions suivantes s’appliquent au partage de rapports contenant des i
 * Lorsque vous planifiez la remise d’un rapport invité, le rapport en pièce jointe inclut les données du rapport sans invite. Lorsque la personne clique sur le lien contenu dans l’e-mail pour accéder au rapport, elle doit d’abord se connecter pour afficher le rapport et lancer l’invite.
 
   Pour plus d’informations sur la planification d’une remise de rapport, voir [Planifier la remise automatique d’un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+
+* Lors de l’exécution d’un rapport avec une invite basée sur les dates, les résultats du rapport sont filtrés en fonction des paramètres de fuseau horaire de votre navigateur. Cela peut entraîner de légères incohérences dans les plages de dates affichées dans un rapport invité pour les dates qui se trouvent au début ou à la fin d’un mois. Si les paramètres de fuseau horaire de votre navigateur sont liés à un emplacement spécifique, les variations de l’heure locale de cet emplacement (telles que l’adhésion à l’heure d’été) seront également prises en compte dans les dates affichées pour un rapport invité. Cela peut entraîner de légères incohérences entre les utilisateurs d’un même fuseau horaire, mais avec des paramètres d’emplacement différents.

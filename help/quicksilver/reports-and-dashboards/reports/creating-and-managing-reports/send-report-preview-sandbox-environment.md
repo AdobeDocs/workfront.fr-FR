@@ -6,14 +6,16 @@ description: Les informations contenues dans cette page font référence à des 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 98%
 
 ---
 
 # Envoyer un rapport dans l’environnement de prévisualisation de sandbox
+
+<!-- Audited: 11/2024 -->
 
 Les informations contenues dans cette page font référence à des fonctionnalités qui ne sont disponibles que dans les environnements de prévisualisation et de sandbox à actualisation personnalisée. Cette fonctionnalité est désormais disponible dans l’environnement de production.
 
@@ -33,6 +35,8 @@ Selon l’endroit où vous planifiez les rapports, la fonctionnalité de diffusi
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -45,20 +49,31 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+      <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et regroupements</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et regroupements</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Planifier des rapports dans l’environnement de prévisualisation
 

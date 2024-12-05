@@ -6,9 +6,9 @@ description: Vous pouvez exporter des données Adobe Workfront à partir de dif
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2247'
 ht-degree: 95%
 
 ---
@@ -61,9 +61,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-    <p>Nouveau : Light ou supérieur</p>
-    <p>ou</p>
-    <p>Actuel : Révision ou supérieur</p> </td> 
+    <p>Nouveau :</p>
+      <ul>
+      <li>Clair ou plus élevé</li>
+      </ul>
+    <p>Actuel :</p>
+      <ul>
+      <li>Révision ou supérieur</li>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -76,7 +81,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

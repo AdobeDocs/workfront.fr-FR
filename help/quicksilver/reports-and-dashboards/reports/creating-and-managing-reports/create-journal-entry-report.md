@@ -5,14 +5,16 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2734'
 ht-degree: 99%
 
 ---
 
 # Créer un rapport sur la zone Mises à jour
+
+<!-- Audited: 11/2024 -->
 
 Le rapport Entrée du journal présente les mises à jour du système à partir de la zone Mises à jour des projets, tâches, problèmes et autres objets qui n’étaient auparavant disponibles que par le biais de l’API Adobe Workfront. Bien qu’il s’agisse d’un rapport avancé destiné à des cas d’utilisation spécifiques, le format plus digeste vous permet de créer plus facilement un rapport sur l’activité du projet et des mises à jour du système dans Workfront.
 
@@ -45,7 +47,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard </p><p>Ou </p><p>Actuel : formule </p> </td> 
+      <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -58,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -439,7 +450,7 @@ Pour observer comment des champs personnalisés ont évolué au cours du cycle d
 
    * **ID du projet** > **Égal à** > **`<project>`**
 
-     ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![](assets/qs-custom-form-changes-filter-350x92.png)
 
    Pour plus d’informations sur l’ajout de filtres, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -629,7 +640,7 @@ Vous pouvez configurer le rapport d’entrée du journal pour montrer combien de
    * **Nom du champ** > **Égal à** > **ownerID**
    * **Identifiant du projet** > **Égal à** > **`<project name>`**
 
-     ![](assets/qs-owner-changes-filter-350x94.png)
+   ![](assets/qs-owner-changes-filter-350x94.png)
 
    Pour plus d’informations sur l’ajout de filtres, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

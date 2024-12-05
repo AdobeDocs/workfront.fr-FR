@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '217'
 ht-degree: 34%
 
 ---
@@ -22,7 +22,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu de la version : 21 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 21 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Vous pouvez désormais modifier plusieurs documents à la fois. Vous pouvez modifier les descriptions et mettre à jour les formulaires personnalisés.
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ Nous avons modifié la manière dont les ressources déplacées et supprimées s
 
 >[!NOTE]
 >
->Aperçu de la version : 11 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 11 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Lorsqu’un formulaire personnalisé avec plusieurs sections est associé à un objet, vous pouvez désormais réduire et développer toutes les sections à l’exception de la section par défaut en haut du formulaire. L’administrateur peut également afficher cette fonctionnalité lors de la prévisualisation du formulaire dans le concepteur de formulaires.
 

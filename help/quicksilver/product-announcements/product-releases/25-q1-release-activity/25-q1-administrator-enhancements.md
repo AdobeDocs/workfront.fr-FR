@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '451'
 ht-degree: 16%
 
 ---
@@ -22,7 +22,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu de la version : 21 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 21 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 En tant qu’administrateur système ou groupe, vous disposez désormais d’une nouvelle préférence pour indiquer si Workfront doit utiliser la planification du projet ou de l’utilisateur pour calculer la chronologie du projet lorsque vous affectez un utilisateur à une tâche et que le projet et l’utilisateur sont associés à une planification. Avant cette amélioration, ce paramètre existait pour les affectations de plusieurs utilisateurs. Le paramètre est désormais disponible pour les affectations d’un utilisateur unique à des tâches.
 
@@ -32,7 +32,7 @@ Pour plus d’informations, consultez la section [Configurer des préférences d
 
 >[!NOTE]
 >
->Aperçu de la version : 21 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 21 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Vous pouvez désormais inclure des liens hypertexte dans le message d’erreur personnalisé d’une règle de fonctionnement afin de guider l’utilisateur dans la modification de son action dans le cadre de la contrainte de la règle. L’URL statique peut renvoyer vers la documentation ou d’autres pages qui pourraient être utiles à l’utilisateur.
 
@@ -42,7 +42,7 @@ Pour plus d’informations, voir [Création et modification de règles de foncti
 
 >[!NOTE]
 >
->Aperçu de la version : 21 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 21 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Lorsque vous ajoutez une référence de champ native à un formulaire personnalisé et qu’elle fait référence à un champ de saisie anticipée (par exemple, Portfolio, Société ou Propriétaire), une option de filtre est désormais disponible. Le filtre permet de limiter les objets que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ. Ce filtre personnalisé fonctionne de la même manière qu’un filtre sur un champ de type personnalisé, à l’aide du mode Texte pour définir le filtre.
 

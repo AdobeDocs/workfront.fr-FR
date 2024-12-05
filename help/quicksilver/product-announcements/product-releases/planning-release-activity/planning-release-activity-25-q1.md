@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 3%
+source-wordcount: '1920'
+ht-degree: 4%
 
 ---
 
@@ -34,12 +34,31 @@ Cet article décrit les fonctionnalités de la version 2025 du premier trimestre
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning après la mise à disposition de la version générale le 28 août 2024, voir [Activité de mise à jour d’Adobe Workfront Planning : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Recherche intelligente lorsque vous recherchez un type de champ
+
+>[!NOTE]
+>
+>Version de prévisualisation : vendredi 5 décembre 2024. Version de production pour l’ensemble des clientes et clients : vendredi 5 décembre 2024.
+
+Nous avons ajouté une fonctionnalité de recherche intelligente lors de la recherche d’un type de champ dans Workfront Planning. Vous pouvez désormais rechercher des types de champ lorsque vous saisissez un mot-clé. Par exemple, la saisie de &quot;Prix&quot; recherche les types de champs Nombre et Devise. Avant cette amélioration, vous ne pouviez rechercher que le nom du type de champ réel.
+
+Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
+
+## Sélecteur de couleurs personnalisé pour les options codées par couleur des champs à sélection unique ou multiple
+
+>[!NOTE]
+>
+>Aperçu de la version : 5 décembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+
+Vous pouvez désormais choisir des couleurs personnalisées lors de la création ou de la modification d’un champ à sélection simple ou multiple. Lorsque vous créez ou modifiez des champs avec des options codées par couleur, cliquez sur l’icône de couleur pour ouvrir une zone de sélection de couleurs. Vous pouvez choisir parmi des couleurs prédéfinies ou créer des couleurs personnalisées à l’aide de codes hexadécimaux ou d’un spectre de couleurs.
+
+Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Importation de champs Workfront existants dans des types d’enregistrement Workfront Planning
 
 >[!NOTE]
 >
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Désormais, lorsque vous ajoutez des champs à un type d’enregistrement, vous avez la possibilité d’importer des champs personnalisés ou natifs Workfront existants et de les associer au type d’enregistrement que vous avez sélectionné. L’importation de champs existants crée une copie des champs Workfront dans Workfront Planning. Les champs copiés sont indépendants de leurs versions d’origine.
 
@@ -53,7 +72,7 @@ Pour plus d’informations, voir [Importation de champs à partir d’Adobe Work
 
 >[!NOTE]
 >
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Vous pouvez désormais importer de nouveaux types d’enregistrements en important un fichier CSV ou Excel.
 
@@ -71,7 +90,7 @@ Pour plus d’informations, voir la section [Créer des types d’enregistrement
 
 >[!NOTE]
 >
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Nous avons ajouté un message d’avertissement lors de l’édition ou de la création d’un champ de formule qui peut créer une référence circulaire à lui-même ou à des champs partagés. Vous ne pouvez pas enregistrer un champ de formule qui se réfère à lui-même ou aux éléments référencés dans son calcul.
 
@@ -81,7 +100,7 @@ Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/plan
 
 >[!NOTE]
 >
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Vous pouvez ajouter des pages à la zone de détails d’un enregistrement pour afficher les enregistrements connectés dans une vue de tableau. Vous pouvez ajouter une page par enregistrement connecté.
 
@@ -93,7 +112,7 @@ Pour plus d’informations, voir [Gestion de la mise en page de la page d’enre
 
 >[!NOTE]
 >
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Vous trouverez désormais les requêtes de planification Workfront dans la section Envoyés de la zone Demandes de Workfront. La section Envoyé affiche désormais les onglets suivants :
 
@@ -110,7 +129,7 @@ Pour plus d’informations, voir [Soumettre des demandes de planification Adobe 
 
 >[!NOTE]
 >
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Vous pouvez maintenant ajouter les types de champ suivants à un formulaire de demande de type enregistrement dans Workfront Planning :
 
@@ -125,7 +144,7 @@ Pour plus d’informations, voir Création et gestion d’un formulaire de deman
 
 >[!NOTE]
 >
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Vous ne pouvez plus partager un formulaire de demande publiquement si le formulaire contient l’un des types de champs suivants :
 
@@ -141,7 +160,7 @@ Pour plus d’informations, voir [Création et gestion d’un formulaire de dema
 
 >[!NOTE]
 >
->Aperçu de la version : 26 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 26 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Vous pouvez désormais afficher les enregistrements dans la vue Calendrier par semaine. Avant cette amélioration, vous ne pouviez afficher le calendrier que par mois.
 
@@ -151,7 +170,7 @@ Pour plus d’informations, voir [Gestion de la vue Calendrier](/help/quicksilve
 
 >[!NOTE]
 >
->Aperçu de la version : 22 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 22 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Une fois les enregistrements supprimés, ils sont désormais temporairement déplacés dans une corbeille Récemment supprimés pendant 30 jours. Vous pouvez accéder à la corbeille Récemment supprimés de la page du type d&#39;enregistrement et elle ne contient que les enregistrements d&#39;un type spécifique.
 
@@ -165,7 +184,7 @@ Pour plus d’informations, voir [Restaurer les enregistrements supprimés](/hel
 
 >[!NOTE]
 >
->Aperçu de la version : 21 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 21 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Afin de vous faciliter la tâche, nous avons ajouté l’assistant d’Adobe AI à l’aperçu des détails ou à la page d’enregistrement d’un enregistrement. Vous pouvez utiliser l’assistant d’IA situé dans une page d’enregistrement pour mettre à jour les informations sur l’enregistrement.
 
@@ -175,7 +194,7 @@ Pour plus d’informations, reportez-vous à la section [Présentation de l’as
 
 >[!NOTE]
 >
->Aperçu de la version : 20 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 20 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Lorsque vous ouvrez l’aperçu ou la page d’un enregistrement et que l’enregistrement ne comporte pas de miniature ou d’image de couverture, vous devez maintenant pointer sur la zone située au-dessus du nom de l’enregistrement dans l’en-tête pour afficher les options permettant d’ajouter une couverture et une image de miniature à l’enregistrement. Avant cette amélioration, les images d’espace réservé vides pour la miniature et la couverture s’affichaient au-dessus du nom de l’enregistrement.
 
@@ -188,7 +207,7 @@ Pour plus d’informations, consultez les articles suivants :
 
 >[!NOTE]
 >
->Aperçu de la version : 7 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Aperçu de la version : 7 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Pour faciliter la lecture des nombres dans la vue du tableau, vous pouvez désormais choisir parmi les choix suivants pour modifier l&#39;affichage d&#39;un champ de type Pourcentage dans la vue du tableau :
 
