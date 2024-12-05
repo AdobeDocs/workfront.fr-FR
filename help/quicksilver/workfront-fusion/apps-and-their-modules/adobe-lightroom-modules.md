@@ -9,7 +9,7 @@ description: Avec les modules Adobe Lightroom, vous pouvez démarrer un scénari
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
 source-wordcount: '2370'
 ht-degree: 25%
@@ -18,7 +18,6 @@ ht-degree: 25%
 
 # Modules [!DNL Adobe Lightroom]
 
-<!--Add Connection info-->
 
 Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Lightroom] et le connecter à plusieurs applications et services tiers.
 

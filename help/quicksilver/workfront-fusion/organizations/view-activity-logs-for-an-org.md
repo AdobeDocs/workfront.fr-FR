@@ -8,10 +8,10 @@ description: Vous pouvez afficher un journal des activités, telles que la créa
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 13%
+source-wordcount: '528'
+ht-degree: 12%
 
 ---
 
@@ -47,11 +47,14 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
    <p>Héritée : n’importe laquelle. </p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Pour utiliser le journal d’activité, vous devez être un administrateur Fusion.</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Nouveau : [!DNL Workfront Fusion] est inclus dans le plan Workfront Ultimate.</p> <p>Ou</p>
-   <p>Actuel : non disponible</p>
+   <p>Cette fonctionnalité est disponible uniquement pour les organisations disposant du forfait Workfront Ultimate, qui comprend [!DNL Workfront Fusion]. Aucun achat de produit supplémentaire n’est nécessaire.</p>
    </td> 
   </tr>
  </tbody> 
