@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
 workflow-type: tm+mt
-source-wordcount: '4419'
+source-wordcount: '4383'
 ht-degree: 97%
 
 ---
@@ -26,10 +26,6 @@ Une bonne connaissance du schéma Workfront vous aidera à comprendre les relati
 Pour garantir des performances système Workfront à la demande cohérentes, l’API Workfront limite les threads API simultanés. Cette barrière de sécurité empêche les problèmes système causés par les appels d’API abusifs. L’environnement Sandbox dispose de la même limite de thread d’API simultanée, ce qui permet aux clients et aux partenaires de tester précisément les appels d’API avant de publier du code en production.
 
 Pour les environnements de production, de prévisualisation et de test, les demandes des utilisateurs et utilisatrices finaux ont une longueur maximale d’URI de 8 892 octets parce qu’elles sont acheminées par le CDN de Workfront (Akamai). Cette limite ne s’applique qu’aux URI acheminés par le CDN.
-
->[!NOTE]
->
->Cette limite ne s’applique pas aux environnements de sandbox, car ceux-ci ne sont pas acheminés via le CDN.
 
 ### Avertissement
 
@@ -110,14 +106,6 @@ Voici un exemple d’en-tête de requête :
 ```
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
-```
-
-#### Authentification avec un paramètre de requête
-
-Vous pouvez vous authentifier en passant un paramètre de requête nommé sessionID, comme le montre l’exemple suivant :
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 ```
 
 #### Authentification basée sur les cookies
