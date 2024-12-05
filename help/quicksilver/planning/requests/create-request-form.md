@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 14%
@@ -130,7 +130,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Cliquez sur **Créer**. Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre.
+1. Cliquez sur **Créer**. Le formulaire de demande pour le type d&#39;enregistrement sélectionné s&#39;ouvre <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.-->.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -155,7 +155,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >    * <span class="preview">Personnes </span>
    >    * <span class="preview">Champs connectés des objets Workfront</span>
    >    * <span class="preview"> Champs connectés AEM Assets </span>
-
 
 
    * **Section par défaut** : il s’agit du saut de section par défaut appliqué par Workfront au formulaire de demande. La section Par défaut ne peut pas être renommée ni supprimée.
@@ -189,6 +188,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    Pour plus d’informations sur la création d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Facultatif) Cliquez sur **Aperçu** pour afficher comment le formulaire s’affichera pour les autres utilisateurs lorsqu’ils l’utiliseront pour envoyer un nouvel enregistrement.
+
+   <!--
+   <div class="preview">
+   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
+      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
+      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+   </div>
+   -->
+
 1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du nom du formulaire dans l’en-tête, puis cliquez sur **Modifier** pour mettre à jour le nom du formulaire.
 1. Cliquez sur **Publish** pour publier le formulaire et obtenir un lien unique.
 
