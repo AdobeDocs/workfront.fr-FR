@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: e049ab7d27cf5eced12a43c3a2c08887a7c206ad
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6524'
 ht-degree: 78%
 
 ---
@@ -752,11 +752,11 @@ Pour ajouter des images, des PDF ou des vidéos, procédez comme suit :
 
    Cliquez sur **Enregistrer et fermer**.
 
-#### Ajouter un widget vidéo à un formulaire personnalisé à partir de la zone Documents{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Ajout d’une image ou d’une vidéo à un formulaire personnalisé à partir de la zone Documents{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
->Lorsque vous ajoutez une vidéo à un formulaire personnalisé, seules les autorisations définies pour le formulaire personnalisé s’appliquent à la vidéo lorsque les utilisateurs et utilisatrices accèdent au formulaire sur un objet, et non aux autorisations définies pour la vidéo dans la zone Documents.
+>Lorsque vous ajoutez ainsi une vidéo à un formulaire personnalisé, les autorisations définies dans la zone Documents s’appliquent à la vidéo lorsque les utilisateurs accèdent au formulaire sur un objet.
 
 1. Accédez à la vidéo dans la zone Documents et générez une épreuve, comme décrit dans [Créer une épreuve interactive pour un site web ou un autre contenu web](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Ouvrez l’épreuve.
