@@ -3,12 +3,12 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Réinitialiser le mot de passe d’un utilisateur ou d’une utilisatrice à l’aide de l’authentification améliorée
 description: Lorsque l’authentification améliorée (eAuth) est activée pour votre environnement  [!DNL Workfront] , un administrateur ou une administratrice  [!DNL Workfront]  ne peut pas réinitialiser les identifiants de connexion d’un autre utilisateur ou d’une autre utilisatrice. Ceci est différent des environnements  [!DNL Workfront]  sans eAuth ou des environnements pour lesquels l’authentification unique (SSO) est activée.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%

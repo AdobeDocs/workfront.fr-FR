@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Se déconnecter d’ [!DNL Adobe Workfront]
 description: Pour des raisons de sécurité, il est important de se déconnecter régulièrement d’ [!DNL Adobe Workfront] . Par défaut,  [!DNL Workfront]  déconnecte automatiquement les utilisateurs et utilisatrices après 8 heures d’inactivité.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 100%

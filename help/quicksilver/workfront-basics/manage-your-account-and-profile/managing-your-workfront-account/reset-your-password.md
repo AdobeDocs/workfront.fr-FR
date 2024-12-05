@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Réinitialiser votre mot de passe
 description: Vous pouvez réinitialiser votre mot de passe  [!DNL Adobe Workfront] . Il est recommandé de le faire régulièrement en tant que mesure de sécurité importante.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
