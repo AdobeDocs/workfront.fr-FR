@@ -7,10 +7,10 @@ description: Les notifications par e-mail générées par Workfront Proof infor
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 100%
+source-wordcount: '2063'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +73,7 @@ Vous pouvez configurer les paramètres des épreuves pour celles que vous créez
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres personnels]**.
+1. Cliquez sur l’image de votre profil dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Paramètres personnels]**.
 
 1. Cliquez sur l’onglet **[!UICONTROL Paramètres de relecture par défaut]**.
 1. Cliquez sur **[!UICONTROL Paramètres de notification par e-mail par défaut]** pour le développer.
@@ -163,7 +163,7 @@ Vous pouvez modifier les alertes par e-mail destinées à une personne destinata
 
 Si vous êtes un administrateur ou une administratrice [!DNL Workfront Proof], vous pouvez définir les valeurs par défaut d’une épreuve pour les personnes de votre compte.
 
-1. Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres du compte]**.
+1. Cliquez sur **[!UICONTROL Paramètres du compte]** en haut de l’écran.
 
 1. Ouvrez l’onglet **[!UICONTROL Utilisateurs et utilisatrices]**.
 1. Ouvrez le menu **[!UICONTROL Plus]** ![More_button_small.png](assets/more-button-small.png) à droite du nom de la personne.

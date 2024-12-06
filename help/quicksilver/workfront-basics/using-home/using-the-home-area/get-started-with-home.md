@@ -6,10 +6,10 @@ description: La maison vous aide à gérer votre travail. Vous pouvez personnali
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 1347911f2d0c03874c759f02b207e3fa93ca5bb4
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 82%
+source-wordcount: '1015'
+ht-degree: 80%
 
 ---
 
@@ -148,32 +148,6 @@ Vous pouvez ajouter une touche personnelle à votre page d’accueil en choisiss
    Le panneau Personnaliser s’ouvre.
 
 1. Dans la section **Arrière-plan** du panneau **Personnaliser**, cliquez sur la couleur que vous souhaitez sélectionner pour l’arrière-plan de votre Accueil. Vous pouvez également cliquer sur **Aucun** pour supprimer l’arrière-plan.
-
-## Rétablir l’expérience d’accueil actuelle
-
-Si vous préférez l’expérience d’accueil existante, vous pouvez désactiver la nouvelle expérience d’accueil.
-
-Pour revenir à l’expérience d’accueil actuelle, procédez comme suit :
-
-1. Accédez à votre page d’accueil en effectuant l’une des opérations suivantes :
-
-   * Si la page d’accueil est définie comme page de destination, cliquez sur l’icône **Adobe Workfront** ![Icône Adobe Workfront](assets/home-icon-30x29.png) dans le coin supérieur gauche de votre écran.
-   * Cliquez sur l’icône **Menu principal** dans le coin supérieur droit de l’écran, ou sur l’icône **Menu principal** ![Icône Menu principal](assets/main-menu-icon.png) dans le coin supérieur gauche, le cas échéant, puis sur **Accueil**.
-
-1. Cliquez sur le bouton **Revenir à l’accueil actuel** dans le coin inférieur droit de la page.
-
-   ![Bouton Revenir à l’accueil actuel](assets/customize-button.png)
-
-   Une fenêtre de confirmation s’affiche.
-
-1. Répondez à une brève enquête sur votre expérience de la nouvelle page d’accueil ou cliquez sur **Revenir à l’accueil actuel** pour rétablir l’expérience d’accueil actuelle.
-
->[!NOTE]
->
-> Les équipes d’administration du système peuvent désactiver la nouvelle page d’accueil par défaut pour leurs utilisateurs et utilisatrices. Pour plus d’informations sur la modification de l’expérience d’accueil par défaut pour les utilisateurs et utilisatrices d’un système, voir [Configurer les préférences du système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
-
-
 
 
 
