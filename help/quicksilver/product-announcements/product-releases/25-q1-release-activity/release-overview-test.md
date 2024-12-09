@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
+source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1381'
 ht-degree: 22%
 
 ---
@@ -38,7 +38,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 <table>
 <col style="width: 20%;" />
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
     <td>Zone</td>
@@ -247,7 +247,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
         <td>
@@ -263,7 +263,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             Préférences pour l’utilisation du planning de projet ou d’utilisateur pour les tâches à affectation unique</a></p>
             <p>En tant qu’administrateur système ou groupe, vous disposez désormais d’une nouvelle préférence pour indiquer si Workfront doit utiliser la planification du projet ou de l’utilisateur pour calculer la chronologie du projet lorsque vous affectez un utilisateur à une tâche et que le projet et l’utilisateur sont associés à une planification.</p>
         </td>
-        <td><p>16 novembre 2024</p> <p>[!BADGE New in Preview ]{type=Negative}<p></td>
+        <td><p>16 novembre 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
         <td>Décembre 2024</td>
         <td>25,1</td>
     </tr>     
@@ -284,8 +284,8 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
         </td>
         <td>29 octobre</td>
-          <td><p>Décembre 2024</p><p> [!BADGE In production for Fast Release ]{type=Positive}</p></td>
-        <td>25,1<p> [!BADGE en production]{type=Positif}</p></td>
+          <td><p>Décembre 2024</p><p> [!BADGE Production ]{type=Positif}</p></td>
+        <td>25,1<p> [!BADGE Production]{type=Positif}</p></td>
     </tr>
 </tbody>
 </table>
