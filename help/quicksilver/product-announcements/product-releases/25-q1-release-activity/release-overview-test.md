@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
+source-git-commit: 33b9faed6265b5e82bf768d4c8ae7f703420a7e5
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 22%
+source-wordcount: '878'
+ht-degree: 29%
 
 ---
 
@@ -33,92 +33,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 >Pour plus d’informations sur le processus de publication rapide, voir la section [Activer ou désactiver le processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 
-## Améliorations apportées à Adobe Workfront
-
-
-<table>
-<col style="width: 20%;" />
-<col style="width: 75%;" />
-<tbody>
-    <tr>
-    <td>Zone</td>
-        <td>
-            <p><span class="bold">Fonctionnalité</span></p>
-        </td>
-        <td>Aperçu</td>
-        <td>Version rapide</td>
-        <td>Tous les trimestres</td>
-    </tr>
-    <tr>
-     <td>Administration et configuration</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Préférences pour l’utilisation du planning de projet ou d’utilisateur pour les tâches à affectation unique</a></p>
-            [!BADGE New in Preview ]{type=Negative}
-            <p>En tant qu’administrateur système ou groupe, vous disposez désormais d’une nouvelle préférence pour indiquer si Workfront doit utiliser la planification du projet ou de l’utilisateur pour calculer la chronologie du projet lorsque vous affectez un utilisateur à une tâche et que le projet et l’utilisateur sont associés à une planification.</p>
-        </td>
-        <td>21 novembre 2024</td>
-        <td>Décembre 2024</td>
-        <td>25,1</td>
-    </tr>     
-    <tr>
-     <td>Administration et configuration</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Les règles métier prennent désormais en charge les hyperliens.</a></p>
-            [!BADGE hors cycle]{type=Attention}
-            <p>Vous pouvez désormais inclure des liens hypertexte dans le message d’erreur personnalisé d’une règle de fonctionnement afin de guider l’utilisateur dans la modification de son action dans le cadre de la contrainte de la règle. L’URL statique peut renvoyer vers la documentation ou d’autres pages qui pourraient être utiles à l’utilisateur.</p>
-        </td>
-        <td>vendredi 14 novembre 2024</td>
-        <td>vendredi 14 novembre 2024</td>
-        <td>vendredi 14 novembre 2024</td>
-    </tr>    
-    <tr>
-     <td>Administration et configuration</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Le filtrage sur les champs de saisie anticipée natifs est désormais disponible.</a></p>
-            [!BADGE Out-of-cycle ]{type=Negative}
-            <p>Lorsque vous ajoutez une référence de champ native à un formulaire personnalisé et qu’elle fait référence à un champ de saisie anticipée (par exemple, Portfolio, Société ou Propriétaire), une option de filtre est désormais disponible. Le filtre permet de limiter les objets que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ. Ce filtre personnalisé fonctionne de la même manière qu’un filtre sur un champ de type personnalisé, à l’aide du mode Texte pour définir le filtre.</p>
-        </td>
-        <td>21 novembre</td>
-        <td>25,12</td>
-        <td>25,1</td>
-    </tr>
-    <tr>
-     <td>Administration et configuration</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Icône "Déplacer vers" ajoutée aux champs personnalisés</a></p>
-            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
-        </td>
-        <td>mercredi 29 octobre 2024</td>
-          <td>Décembre 2024</td>
-        <td>25,1</td>
-    </tr>
-</tbody>
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Améliorations de Workfront
-
-
-
-
-
 
 
 * [Améliorations apportées à l’administration](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
@@ -127,7 +42,10 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 ### Améliorations apportées aux administrateurs et administratrices
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -163,91 +81,25 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Le filtrage sur les champs de saisie anticipée natifs est désormais disponible.</a></p>
-            [!BADGE Out-of-cycle ]{type=Negative}
             <p>Lorsque vous ajoutez une référence de champ native à un formulaire personnalisé et qu’elle fait référence à un champ de saisie anticipée (par exemple, Portfolio, Société ou Propriétaire), une option de filtre est désormais disponible. Le filtre permet de limiter les objets que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ. Ce filtre personnalisé fonctionne de la même manière qu’un filtre sur un champ de type personnalisé, à l’aide du mode Texte pour définir le filtre.</p>
         </td>
         <td>21 novembre</td>
         <td>25,12</td>
         <td>25,1</td>
     </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
-        </td>
-        <td>mercredi 29 octobre 2024</td>
-          <td>Décembre 2024</td>
-        <td>25,1</td>
-    </tr>
+
 </tbody>
 </table>
+
 
 ### Améliorations de la gestion des documents
 
 
 <table>
-<col style="width: 50%;" />
-<tbody>
-    <tr>
-        <td>
-            <p><span class="bold">Fonctionnalité</span></p>
-        </td>
-        <td>Aperçu</td>
-        <td>Version rapide</td>
-        <td>Tous les trimestres</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Préférences pour l’utilisation du planning de projet ou d’utilisateur pour les tâches à affectation unique</a></p>
-            [!BADGE New in Preview ]{type=Negative}
-            <p>En tant qu’administrateur système ou groupe, vous disposez désormais d’une nouvelle préférence pour indiquer si Workfront doit utiliser la planification du projet ou de l’utilisateur pour calculer la chronologie du projet lorsque vous affectez un utilisateur à une tâche et que le projet et l’utilisateur sont associés à une planification.</p>
-        </td>
-        <td>21 novembre 2024</td>
-        <td>Décembre 2024</td>
-        <td>25,1</td>
-    </tr>     
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Les règles métier prennent désormais en charge les hyperliens.</a></p>
-            [!BADGE New in Preview ]{type=Caution}
-            <p>Vous pouvez désormais inclure des liens hypertexte dans le message d’erreur personnalisé d’une règle de fonctionnement afin de guider l’utilisateur dans la modification de son action dans le cadre de la contrainte de la règle. L’URL statique peut renvoyer vers la documentation ou d’autres pages qui pourraient être utiles à l’utilisateur.</p>
-        </td>
-        <td>vendredi 14 novembre 2024</td>
-        <td>vendredi 14 novembre 2024</td>
-        <td>vendredi 14 novembre 2024</td>
-    </tr>    
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Le filtrage sur les champs de saisie anticipée natifs est désormais disponible.</a></p>
-            [!BADGE Out-of-cycle ]{type=Negative}
-            <p>Lorsque vous ajoutez une référence de champ native à un formulaire personnalisé et qu’elle fait référence à un champ de saisie anticipée (par exemple, Portfolio, Société ou Propriétaire), une option de filtre est désormais disponible. Le filtre permet de limiter les objets que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ. Ce filtre personnalisé fonctionne de la même manière qu’un filtre sur un champ de type personnalisé, à l’aide du mode Texte pour définir le filtre.</p>
-        </td>
-        <td>21 novembre</td>
-        <td>25,12</td>
-        <td>25,1</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Icône "Déplacer vers" ajoutée aux champs personnalisés</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
-            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
-        </td>
-        <td>mercredi 29 octobre 2024</td>
-          <td>Décembre 2024</td>
-        <td>25,1</td>
-    </tr>
-</tbody>
-</table>
-
-### Améliorations de la gestion des documents
-
-
-<table>
-<col style="width: 75%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -264,8 +116,8 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p>En tant qu’administrateur système ou groupe, vous disposez désormais d’une nouvelle préférence pour indiquer si Workfront doit utiliser la planification du projet ou de l’utilisateur pour calculer la chronologie du projet lorsque vous affectez un utilisateur à une tâche et que le projet et l’utilisateur sont associés à une planification.</p>
         </td>
         <td><p>16 novembre 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
-        <td>Décembre 2024</td>
-        <td>25,1</td>
+        <td><p>24,12</p></td>
+        <td><p>25,1</p></td>
     </tr>     
     <tr>
         <td>
@@ -273,9 +125,9 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             Les règles métier prennent désormais en charge les hyperliens.</a></p>
             <p>Vous pouvez désormais inclure des liens hypertexte dans le message d’erreur personnalisé d’une règle de fonctionnement afin de guider l’utilisateur dans la modification de son action dans le cadre de la contrainte de la règle. L’URL statique peut renvoyer vers la documentation ou d’autres pages qui pourraient être utiles à l’utilisateur.</p>
         </td>
-        <td>14 novembre </td>
-        <td><p>14 novembre</p> <p>[!BADGE Out-of-cycle ]{type=Negative}</p></td>
-        <td><p>14 novembre</p> <p>[!BADGE Out-of-cycle ]{type=Negative}</p></td>
+        <td><p>14 novembre</p> </td>
+        <td><p>Décembre 2024</p> <p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>25,1</p> </td>
     </tr>    
     <tr>
         <td>
@@ -283,9 +135,29 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             Icône "Déplacer vers" ajoutée aux champs personnalisés</a></p>
             <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
         </td>
-        <td>29 octobre</td>
-          <td><p>Décembre 2024</p><p> [!BADGE Production ]{type=Positif}</p></td>
-        <td>25,1<p> [!BADGE Production]{type=Positif}</p></td>
+        <td><p>5 décembre</p></td>
+          <td><p>15 décembre</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>15 décembre</p> <p> [!BADGE Available ]{type=Positive}</p> <p>[!BADGE Out-of-cycle ]{type=Attention}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Icône "Déplacer vers" ajoutée aux champs personnalisés</a></p>
+            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
+        </td>
+        <td><p>5 décembre</p><p>[!BADGE Out-of-cycle ]{type=Attention}</p></td>
+          <td><p>15 décembre</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>15 décembre</p> <p> [!BADGE Available ]{type=Positive}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Icône "Déplacer vers" ajoutée aux champs personnalisés</a></p>
+            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
+        </td>
+        <td><p>1 novembre</p></td>
+          <td><p>24,11</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>25,1</p> <p> [!BADGE Available ]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
