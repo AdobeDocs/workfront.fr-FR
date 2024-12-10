@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '14673'
+source-wordcount: '14681'
 ht-degree: 93%
 
 ---
@@ -857,7 +857,7 @@ ht-degree: 93%
       * [Enregistrer un fichier d’en-tête d’e-mail](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [La fenêtre de partage affiche plusieurs autorisations.](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [L’e-mail non authentifié n’est pas accepté.](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-      * [Workfront : les paramètres de ZScaler peuvent réduire les performances](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
+      * [Workfront : les paramètres ZScaler peuvent diminuer les performances.](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [Informations d’identification de l’utilisateur ou utilisatrice et informations d’identification SAML](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [Mettre à jour les options de mise à niveau automatique dans les niveaux d’accès](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Concepts de base Adobe Workfront {#basics}
@@ -2138,6 +2138,7 @@ ht-degree: 93%
       * [Demandes de planification Adobe Workfront : index des articles](planning/requests/requests-article-index.md)
       * [Création et gestion d’un formulaire de requête dans Adobe Workfront Planning](planning/requests/create-request-form.md)
       * [Soumettre des demandes de planification Adobe Workfront pour créer des enregistrements](planning/requests/submit-requests.md)
+      * [Annulation de la publication d’un formulaire de requête dans Adobe Workfront Planning](planning/requests/unpublish-request-form.md)
    * Vues d’Adobe Workfront Planning {#adobe-workfront-planning-views}
       * [Vues : index des articles](planning/views/views-information.md)
       * [Gérer les vues d’enregistrement](planning/views/manage-record-views.md)

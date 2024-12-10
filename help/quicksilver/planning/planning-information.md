@@ -1,15 +1,15 @@
 ---
-title: "Informations de planification Adobe Workfront : index de l’article"
+title: 'Informations de planification Adobe Workfront : index des articles'
 description: En tant que personne responsable des opérations marketing, vous pouvez utiliser Adobe Workfront Planning pour organiser le travail de toutes vos équipes au cours du cycle de vie marketing. Les articles de cette section expliquent comment configurer la fonctionnalités de planification et comment commencer à les utiliser dans le cadre de vos opérations de gestion de campagne.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 27%
+source-wordcount: '591'
+ht-degree: 28%
 
 ---
 
@@ -34,22 +34,8 @@ Accédez aux articles suivants pour obtenir des informations générales sur la 
 
 * [Vue d’ensemble d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md) : une vue d’ensemble de haut niveau d’Adobe Workfront Planning, y compris la terminologie et les concepts propres à cette solution. Nous vous recommandons de commencer votre parcours avec Workfront Planning ici.
 * [Présentation des limites des objets de planification Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md) : liste des limites du nombre d’objets que vous pouvez créer dans Workfront Planning.
-* [Activité de mise à jour de la planification Adobe Workfront pour 2024](/help/quicksilver/planning/general/release-activity.md) : liste de toutes les fonctionnalités publiées au début de la planification Workfront, en 2024. Cela inclut des liens vers les versions précédentes qui se sont produites depuis le lancement du programme bêta de planification Adobe Workfront, le 22 mai 2023.
+* [Activité de mise à jour de la planification Adobe Workfront : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) : liste de toutes les notes de mise à jour de la planification Workfront, à partir de la version du quatrième trimestre de 2024.
 * [Bonnes pratiques de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-best-practices.md) : ensemble de questions fréquentes et de bonnes pratiques relatives à l’utilisation de la planification Workfront.
-
-## Fonctionnalités supplémentaires disponibles pour la planification Workfront
-
-* [Principes de base de l’API de planification Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md) : l’objectif de l’API de planification Adobe Workfront est de simplifier la création d’intégrations avec la planification en introduisant une architecture REST-ful qui fonctionne sur HTTP.
-
-* [Modules de planification Adobe Workfront pour Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md) : avec les modules de planification Adobe Workfront, vous pouvez déclencher un scénario lorsque des événements se produisent dans la planification Workfront. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements, ou effectuer un appel API personnalisé vers votre compte de planification Adobe Workfront.
-
-* [Présentation de l’assistant de planification Adobe Workfront AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l’assistant de planification Workfront AI, vous pouvez rechercher des enregistrements, ou créer, mettre à jour et supprimer des enregistrements à l’aide de commandes et laisser l’assistant effectuer le travail à votre place.
-
-  >[!NOTE]
-  >
-  >    L’assistant Workfront AI a été temporairement supprimé et sera disponible ultérieurement.
-
-* **Fonctionnalités de reporting de la planification Workfront** : vous pouvez désormais afficher les informations de planification Workfront dans un rapport à l’aide du tableau de bord du canevas Workfront. Pour plus d’informations, voir [Prise en main des tableaux de bord de canevas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
 ## Architecture et fonctionnalité de Workfront Planning
 
@@ -100,4 +86,18 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
    * Gestion des préférences de notification
    * Planification des notifications in-app
    * Planification des notifications par email
+
+## Fonctionnalités supplémentaires disponibles pour la planification Workfront
+
+* [Principes de base de l’API de planification Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md) : l’objectif de l’API de planification Adobe Workfront est de simplifier la création d’intégrations avec la planification en introduisant une architecture REST-ful qui fonctionne sur HTTP.
+
+* [Modules de planification Adobe Workfront pour Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md) : avec les modules de planification Adobe Workfront, vous pouvez déclencher un scénario lorsque des événements se produisent dans la planification Workfront. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements, ou effectuer un appel API personnalisé vers votre compte de planification Adobe Workfront.
+
+* [Présentation de l’assistant de planification Adobe Workfront AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l’assistant de planification Workfront AI, vous pouvez rechercher des enregistrements, ou créer, mettre à jour et supprimer des enregistrements à l’aide de commandes et laisser l’assistant effectuer le travail à votre place.
+
+  >[!NOTE]
+  >
+  >    L’assistant Workfront AI a été temporairement supprimé et sera disponible ultérieurement.
+
+* **Fonctionnalités de reporting de la planification Workfront** : vous pouvez désormais afficher les informations de planification Workfront dans un rapport à l’aide du tableau de bord du canevas Workfront. Pour plus d’informations, voir [Prise en main des tableaux de bord de canevas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

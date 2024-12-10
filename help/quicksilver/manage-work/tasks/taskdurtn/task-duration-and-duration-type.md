@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 74%
+source-wordcount: '1791'
+ht-degree: 68%
 
 ---
 
@@ -76,14 +76,6 @@ Voici deux scénarios qui existent lors du calcul de la durée dans Adobe Workfr
 >[!NOTE]
 >
 >Lorsque vous prenez en compte les congés de la personne cessionnaire principale sur un projet, les dates prévues de la tâche peuvent s’ajuster, mais la durée de la tâche reste la même. Pour plus d’informations sur la prise en compte des congés de la personne cessionnaire principale lors de la planification d’un projet, voir [Configurer les préférences des projets à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
-## Durée d’origine d’une tâche parent
-
-La Durée d’origine d’une tâche est la Durée qu’une tâche avait à l’origine avant de devenir une tâche mère, en minutes.
-
-Lorsqu’une tâche devient un parent, la durée entre la date de début prévue du premier enfant et la date d’achèvement prévue du dernier enfant est reportée sur la tâche parent et devient la durée de la tâche parent. Cela remplace la durée de la tâche originale.
-
-Pour plus d’informations, voir [Présentation de la tâche Durée d’origine et Heures planifiées originales](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Unités de temps pour la durée de la tâche
 
@@ -181,6 +173,27 @@ Le type de durée permet de répondre aux questions suivantes :
 ## Type de durée des nouvelles tâches
 
 Le type de durée d’une nouvelle tâche correspond au type de durée configuré dans votre système. Le type de durée par défaut est Calcul d’affectation. Votre équipe d’administration Workfront ou de groupes peut mettre à jour le type de durée par défaut de votre système ou du groupe associé au projet. Pour plus d’informations, voir la section [Configurer des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
+## Durée d’origine d’une tâche parent
+
+La Durée d’origine d’une tâche est la Durée qu’une tâche avait à l’origine avant de devenir une tâche mère, en minutes.
+
+Lorsqu’une tâche devient un parent, la durée entre la date de début prévue du premier enfant et la date d’achèvement prévue du dernier enfant est reportée sur la tâche parent et devient la durée de la tâche parent. Cela remplace la durée de la tâche originale.
+
+Lorsque les enfants utilisent l’unité de durée des jours écoulés et que leur parent utilise l’unité de durée des jours, il peut y avoir des incohérences dans la façon dont Workfront calcule la durée de la tâche parent.
+
+Tenez compte des points suivants :
+
+* L’unité de durée Jours écoulés représente les jours calendaires, qui se composent toujours de 24 heures par jour.
+* L’unité de durée Jours représente le jour de travail défini dans le système et peut être configuré. Dans la plupart des cas, il se compose de 8 heures par jour.
+* La formule de calcul de la durée de la tâche mère est la suivante :
+
+  `Parent task duration = Planned Completion Date of the child task that is planned to end the latest - Planned Start Date of the child task that starts the earliest`
+
+* Lors du calcul de la durée de la tâche mère, le système calcule d&#39;abord la durée selon la formule ci-dessus, puis applique le planning.
+
+
+Pour plus d’informations, voir [Présentation de la tâche Durée d’origine et Heures planifiées originales](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Modifier le type de durée d’une tâche
 

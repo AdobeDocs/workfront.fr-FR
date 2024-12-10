@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Créer les projets transversaux antérieurs
+title: Création de prédécesseurs sur plusieurs projets
 description: Un projet transversal antérieur est une tâche dont dépend une autre tâche (appelée tâche ultérieure) dans un autre projet. La tâche antérieure est la tâche qui a la priorité sur la tâche dépendante (tâche ultérieure). Par exemple, vous pouvez créer une dépendance qui exige que la tâche antérieure soit marquée comme étant terminée avant que la tâche dépendante ne puisse démarrer.
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 100%
+source-wordcount: '752'
+ht-degree: 97%
 
 ---
 
 # Créer les projets transversaux antérieurs
 
-<!--Audited: 12/2023-->
+<!--Audited: 12/2024-->
 
 Un projet transversal antérieur est une tâche dont dépend une autre tâche (appelée tâche ultérieure) dans un autre projet. La tâche antérieure est la tâche qui a la priorité sur la tâche dépendante (tâche ultérieure). Par exemple, vous pouvez créer une dépendance qui exige que la tâche antérieure soit marquée comme étant terminée avant que la tâche dépendante ne puisse démarrer.
 
@@ -72,12 +72,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Créer un projet transversal antérieur
 
 1. Accédez à la tâche qui sera votre tâche ultérieure (tâche dépendante).
-1. Cliquez sur **Tâches antérieures** dans le panneau de gauche.
+1. Cliquez sur **Tâches antérieures** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Tâches antérieures**.
+
+   >[!TIP]
+   >
+   >   Votre administrateur Workfront ou de groupe peut supprimer la section **Prédécesseurs** ou d’autres sections du panneau de gauche.
+
 1. Cliquez sur **Ajouter antérieur.**
 1. Dans le champ **Projet parent**, commencez à saisir le nom du projet qui contient la tâche que vous voulez définir comme étant la tâche antérieure de votre tâche actuelle.
 1. Cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 1. Dans le champ **Tâches**, commencez à saisir le nom de la tâche que vous voulez définir comme étant la tâche antérieure de votre tâche actuelle.
 1. Spécifiez les informations suivantes pour définir la relation entre la tâche antérieure et la tâche dépendante :
+
 
    * **Type de dépendance :** sélectionnez la relation entre la tâche antérieure et la tâche dépendante. La relation par défaut est « Terminer-Démarrer », ce qui signifie que la tâche antérieure doit se terminer avant que la tâche dépendante ne puisse commencer. Pour plus d’informations sur les différents types de dépendance, voir [Vue d’ensemble des types de dépendance des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 

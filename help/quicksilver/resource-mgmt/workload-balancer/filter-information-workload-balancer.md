@@ -6,10 +6,10 @@ description: Pour rechercher efficacement des éléments de travail et vous conc
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
 workflow-type: tm+mt
-source-wordcount: '2467'
-ht-degree: 97%
+source-wordcount: '2458'
+ht-degree: 94%
 
 ---
 
@@ -179,8 +179,6 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
 
 1. Cliquez sur **Nouveau filtre.**
 
-   ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
-
 1. Pour créer un filtre, procédez comme suit :
 
    1. Sélectionnez un nom de champ dans le premier menu déroulant ou cliquez sur **Parcourir les champs** pour commencer à saisir le nom d’un champ qui ne s’affiche pas par défaut.
@@ -198,7 +196,7 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
       >Vous pouvez sélectionner un champ parmi les sections suivantes :
       >
       >* **Sélections récentes** : les champs que vous avez récemment filtrés.
-      >* **Champs suggérés** : les champs les plus couramment utilisés.
+      >* **Suggested** : les champs les plus couramment utilisés.
 
 
    1. Sélectionnez un modificateur dans le deuxième menu déroulant. Pour plus d’informations sur les modificateurs de filtre Workfront, consultez [Modificateurs de filtre et de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -206,13 +204,13 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
 
       >[!NOTE]
       >
-      > Lorsque vous souhaitez afficher des objets de travail d’un portfolio spécifique, vous pouvez appliquer le filtre suivant : « Le nom du portfolio contient marketing ». Cette option affiche les éléments de travail appartenant à n’importe quel portfolio dont le nom contient « marketing ».
+      > Lorsque vous souhaitez afficher des objets de travail d’un portfolio spécifique, vous pouvez appliquer le filtre suivant : &quot;ID de Portfolio égal à &lt; nom du portfolio >&quot;.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
-
-      >[!NOTE]
       >
-      >Pour exclure les projets dont le statut est En attente, vous devez appliquer le filtre suivant : « Projet : le statut n’est pas égal à En attente ». Cela empêche les éléments de travail des projets En attente de s’afficher dans l’équilibreur de charge de travail.
+      >Pour exclure les projets dont l’état est En attente, vous devez appliquer le filtre suivant : &quot;Projet : l’état n’est pas égal à En attente&quot;. Cela empêche les éléments de travail des projets En attente de s’afficher dans l’équilibreur de charge de travail.
+      >
+      >![](assets/project-status-filter-statement-wb.png)
 
    1. (Facultatif) Cliquez sur l’icône **Supprimer** ![](assets/delete.png) pour supprimer un critère de filtre.
 
@@ -240,8 +238,8 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
    >
    >En cliquant sur **Annuler** à tout moment, vous revenez à la zone de création des filtres.
 
-1. Sélectionnez **Filtre sans titre** et saisissez le nom du nouveau filtre à la place.
-1. Sélectionnez une icône pour le nouveau filtre dans le menu déroulant **Icône**.
+1. Cliquez dans le champ **Filtre sans titre** et saisissez le nom du nouveau filtre.
+1. (Facultatif) Sélectionnez une icône pour le nouveau filtre dans le menu déroulant **Icône** .
 
    ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 
