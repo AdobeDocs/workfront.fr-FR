@@ -6,10 +6,10 @@ description: Vous pouvez partager ou supprimer des autorisations pour un objet q
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 96%
+source-wordcount: '1289'
+ht-degree: 89%
 
 ---
 
@@ -89,6 +89,13 @@ Vous pouvez partager les objets suivants dans Workfront avec d’autres personne
   >
   >* [Partager un plan dans le planificateur de scénarios](../../scenario-planner/share-a-plan.md)
   >* [Partager un objectif dans les Objectifs Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+
+* Workfront envoie des notifications aux utilisateurs lorsque vous partagez un objet avec eux. Les notifications sortent lorsque ces deux paramètres sont activés :
+
+   * Les notifications électroniques **Partage d’objet avec l’utilisateur** et **Partage d’objet avec l’équipe** sont activées dans la zone Configuration par un administrateur système ou groupe. Pour plus d’informations, consultez l’article [Configurer les notifications d’événements pour tous les utilisateurs et les utilisatrices du système](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   * Les **Quelqu&#39;un partage un objet avec moi** et **Quelqu&#39;un partage un objet avec mon équipe** les notifications sont activées dans la page de profil de l&#39;utilisateur. Pour plus d’informations, voir [Modification de vos propres notifications électroniques](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+  Les paramètres au niveau du système ou du groupe doivent être activés avant de pouvoir activer les paramètres de notification pour l’utilisateur.
 
 ## Limites du partage
 

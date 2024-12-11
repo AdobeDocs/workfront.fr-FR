@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 96%
+source-wordcount: '1314'
+ht-degree: 93%
 
 ---
 
@@ -77,6 +77,7 @@ Sélectionnez un champ auquel la logique est appliquée pour afficher les règle
 * Pour ajouter une logique d’affichage sur un champ personnalisé, un widget ou un saut de section, il faut placer au moins un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher) avant celui-ci dans le formulaire.
 Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Vous ne pouvez pas ajouter de logique de saut à un widget ou à un saut de section. Vous ne pouvez l’ajouter qu’à un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher).
+* Vous ne pouvez pas appliquer de logique d’affichage ou d’exclusion pour les options d’un champ à plusieurs options. Par exemple, vous ne pouvez pas restreindre l’affichage des options d’un menu déroulant, d’un groupe de cases à cocher ou d’un champ de bouton radio, en fonction de l’affichage ou de la logique de saut d’un autre champ.
 * Vous pouvez ajouter une logique d’affichage et une logique de saut à un champ personnalisé si toutes les conditions suivantes sont remplies :
 
    * Il s’agit d’un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher).
