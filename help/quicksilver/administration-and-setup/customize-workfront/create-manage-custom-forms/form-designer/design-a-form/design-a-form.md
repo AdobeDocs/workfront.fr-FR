@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '6522'
-ht-degree: 78%
+source-wordcount: '6534'
+ht-degree: 77%
 
 ---
 
@@ -329,7 +329,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </tr>
     <tr> 
      <td role="rowheader">Étiquette</td> 
-     <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td> 
+     <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : </p> <p>Évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td> 
      <td><ul>
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
@@ -412,13 +412,18 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     <li> <p><strong>Supprimer le choix</strong> : supprimez le choix du champ.</p> <p><b>AVERTISSEMENT</b> : si ce choix est utilisé pour les objets actuels, ne le supprimez pas du champ. Sa suppression entraînera la perte de données historiques. Sélectionnez plutôt l’option pour le masquer, ce qui empêchera les utilisateurs et utilisatrices de le sélectionner à l’avenir.</p> </li> 
     </ul> 
      </li> 
-    </ol> </td> 
+    </ol>
+
+   <p><b>NOTE :</b></p>
+    <p>Le nombre de choix que vous pouvez sélectionner n’est pas limité. </p>    
+    </td> 
     <td><ul>
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
     <li>Liste déroulante à sélection unique</li>
     <li>Menu déroulant multi-sélection</li>
-    </ul></td>
+    </ul>
+    </td>
      </tr> 
     </tbody> 
     </table>

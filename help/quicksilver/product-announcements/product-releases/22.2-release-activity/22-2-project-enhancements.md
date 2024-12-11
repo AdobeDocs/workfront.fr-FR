@@ -1,19 +1,19 @@
 ---
-title: Amélioration apportées aux projets (version 22.2)
-description: Amélioration apportées aux projets (version 22.2)
+title: 2.2 Améliorations du projet
+description: 2.2 Améliorations du projet
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1093'
 ht-degree: 100%
 
 ---
 
-# Amélioration apportées aux projets (version 22.2)
+# 2.2 Améliorations du projet
 
 Cette page décrit toutes les améliorations apportées aux projets par la version 22.2 de l’environnement de prévisualisation. Ces améliorations seront disponibles dans l’environnement de production.
 

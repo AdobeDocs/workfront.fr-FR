@@ -6,9 +6,9 @@ description: Le glossaire  [!DNL Adobe Workfront]  répertorie les termes couram
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '20875'
+source-wordcount: '20930'
 ht-degree: 95%
 
 ---
@@ -812,7 +812,15 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   <tr> 
    <td>[!UICONTROL Document Version]</td> 
    <td> <p>Chaque fois que le même document est chargé vers le même objet, un numéro de version lui est attribué. Les utilisateurs et les utilisatrices peuvent afficher et modifier plusieurs options pour une version précédente d’un document.</p> <p>Pour plus d’informations, consultez <a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">Gérer les versions des documents</a>.</p> </td> 
-  </tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Due Date]</td> 
+   <td> <p>Date à laquelle une tâche ou un problème doit être terminé. La date d’échéance d’une tâche ou d’une émission est la même que la date d’achèvement planifiée.</p>
+    <p>La tâche et le problème Échéance sont visibles dans les listes et rapports de tâches et de problèmes.</p> 
+    <p>Voir aussi Date de fin planifiée dans ce tableau. 
+    </td> 
+  </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Duration]</td> 
    <td> <p>La fenêtre de temps allouée à la réalisation d’une tâche ou d’un projet (déterminée par le nombre de jours entre le [!UICONTROL Planned Start] et la Date d’achèvement prévue).</p> 

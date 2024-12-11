@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 53%
+source-wordcount: '943'
+ht-degree: 56%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 53%
 
 <!--Audited: 11/2024-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les utilisateurs dans le panneau Résumé lorsqu’ils cliquent sur une tâche ou un problème. Chaque configuration que vous effectuez à l’aide des étapes ci-dessous affecte le panneau Résumé. Ces personnalisations ne s’appliquent pas au panneau Résumé du document.
@@ -101,7 +101,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
       <td role="rowheader">Projets</td> 
       <td><ul><li><p>Dans Accueil, lorsqu’une personne clique sur une approbation de projet qui lui est affectée, votre configuration pour ce paramètre affecte la zone située à droite de l’approbation.</p>
       <p><b>IMPORTANT :</b> </p><p>Il s’agit d’une fonctionnalité obsolète. Toute modification apportée à cette zone est liée à une fonctionnalité supprimée par Workfront. Cette option sera supprimée de Workfront avec une mise à jour de maintenance ultérieure.</p></li>
-      <li><span class="preview"><p>Cette zone a été supprimée de l’environnement Aperçu.</p></li></span></ul> 
+      </ul> 
       </td> 
      </tr> 
      <tr> 
@@ -109,14 +109,14 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
       <td>
      <ul><li><p>Dans Accueil, lorsqu’une personne clique sur une approbation de document qui lui est affectée, votre configuration pour ce paramètre affecte la zone située à droite de l’approbation.</p>
       <p><b>IMPORTANT :</b> </p><p> Il s’agit d’une fonctionnalité obsolète. Toute modification apportée à cette zone est liée à une fonctionnalité supprimée par Workfront. Cette option sera supprimée de Workfront avec une mise à jour de maintenance ultérieure.</p></li>
-      <li><span class="preview"><p>Cette zone a été supprimée de l’environnement Aperçu.</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Versions des documents</td> 
       <td><ul><li><p>Dans Accueil, lorsqu’une personne clique sur une approbation qui lui est affectée pour une version spécifique d’un document, votre configuration pour ce paramètre affecte la zone située à droite de l’approbation.</p>
       <p><p><b>IMPORTANT :</b></p> Il s’agit d’une fonctionnalité obsolète. Toute modification apportée à cette zone est liée à une fonctionnalité supprimée par Workfront. Cette option sera supprimée de Workfront avec une mise à jour de maintenance ultérieure.</p></li>
-      <li><span class="preview"><p>Cette zone a été supprimée de l’environnement Aperçu.</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
     </tbody> 
@@ -128,15 +128,15 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
 1. (Le cas échéant) Si vous avez cliqué sur Tâches ou Problèmes à l’étape précédente, sélectionnez la catégorie de tâches ou de problèmes que vous souhaitez personnaliser.
 
-   <span class="preview">![](assets/choose-cat-cstmz-nwe-adobe-branding.png)</span>
+   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (Conditionnel) Si le menu déroulant **Définir le bouton d’action principale** s’affiche (si vous sélectionnez **Tâches** ou **Problèmes** dans la liste de gauche), cliquez sur l’action principale (**Terminé** ou **État**) que vous souhaitez mettre à la disposition des utilisateurs dans le panneau Résumé lorsqu’ils affichent une tâche ou un problème.
 
-   <span class="preview">![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)</span>
+   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
 1. Ajoutez ![](assets/add-item-plus-in-circle-blue.png) ou masquez ![](assets/close-or-hide---x.png) pour le type d’objet sélectionné.
 
-   <span class="preview">![](assets/lt-home-add-hide-fields-adobe-branding.png)</span>
+   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Répétez les étapes 3 à 6 pour personnaliser le panneau Résumé pour tout autre type d’objet.
 1. Cliquez sur **Paramètres globaux**, près du coin inférieur gauche, puis activez ou désactivez l’une des options suivantes liées aux objets Adobe Workfront dans le résumé :

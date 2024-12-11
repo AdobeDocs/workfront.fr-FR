@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 29%
+source-wordcount: '760'
+ht-degree: 28%
 
 ---
-
 
 <!--add to TOC-->
 
@@ -180,3 +180,8 @@ Tous les autres types de champ Workfront ne sont pas pris en charge dans la plan
 1. Cliquez sur **+**, puis **Ajouter des champs**.
 Les champs sont ajoutés à la vue de la table et aux pages de détails des enregistrements.
 
+   >[!IMPORTANT]
+   >
+   >    Il existe une limite de 500 champs pour tout type d’enregistrement. Les champs existants ainsi que les champs importés contribuent à cette limite.
+
+   Les champs ajoutés sont des copies des champs Workfront et ne se connectent plus aux champs d’origine dans Workfront.

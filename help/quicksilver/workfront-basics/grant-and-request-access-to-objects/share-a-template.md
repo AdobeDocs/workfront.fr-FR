@@ -6,10 +6,10 @@ description: En tant que personne membre de l’administration Adobe Workfront,
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 95%
 
 ---
 
@@ -59,7 +59,9 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
 
   Pour plus d’informations sur la gestion de l’accès aux modèles de tâches et de problèmes sur un projet en fonction des droits d’un utilisateur ou d’une utilisatrice sur ce projet, consultez la section [Accès](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) dans l’article [Modifier les modèles de projet](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-* L’administrateur ou l’administratrice Workfront peut indiquer si les documents doivent hériter des autorisations des objets supérieurs dans le niveau d’accès de l’utilisateur ou de l’utilisatrice. Pour plus d’informations sur la restriction des autorisations héritées sur les documents, consultez la section [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+* L’administrateur ou l’administratrice Workfront peut indiquer si les documents doivent hériter des autorisations des objets supérieurs dans le niveau d’accès de l’utilisateur ou de l’utilisatrice. Pour plus d’informations sur la restriction des autorisations héritées sur les documents, voir [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+* Vous ne pouvez pas partager les tâches de modèle, individuellement. Le partage d’un modèle partage également les tâches du modèle. Le partage du projet depuis le modèle partage également les futures tâches du projet.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
