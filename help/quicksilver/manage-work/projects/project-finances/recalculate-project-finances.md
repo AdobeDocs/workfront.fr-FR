@@ -3,13 +3,13 @@ title: Recalculer les finances d’un projet
 product-area: projects
 navigation-topic: financials
 description: Les finances sont calculées sur un projet à mesure que des modifications se produisent dans les heures consignées pour le projet ou dans les taux utilisés pour calculer les coûts et les revenus.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 100%
+source-wordcount: '1678'
+ht-degree: 98%
 
 ---
 
@@ -57,6 +57,8 @@ Lorsque le taux d’une personne ou d’un rôle change au cours de la vie d’u
 
 * Lorsque la modification est effectuée, le taux mis à jour est utilisé à partir de ce moment lorsque les heures sont consignées et les informations financières sont calculées. La modification du taux n’affecte pas la façon dont les éléments ont été calculés avant que la modification ne soit effectuée. Pour toutes les heures existantes consignées, l’ancien taux est utilisé pour calculer les informations financières.
 * Vous pouvez forcer Adobe Workfront à utiliser le nouveau taux rétroactivement pour toutes les heures enregistrées jusqu’à présent, à l’aide de l’option Recalculer les finances. Cela oblige Workfront à recalculer rétroactivement toutes les heures, les coûts prévus et les revenus saisis précédemment, conformément aux nouvelles informations sur les taux.
+
+Le type de rapport Projet (Données financières) ne recalcule pas automatiquement avant de charger les données. Pour mettre à jour les données de ce type de rapport, vous devez recalculer manuellement les finances des différents projets.
 
 >[!CAUTION]
 >

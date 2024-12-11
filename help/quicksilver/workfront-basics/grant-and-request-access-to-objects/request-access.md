@@ -6,9 +6,9 @@ description: La visibilité des objets dans Adobe Workfront dépend de l’acc�
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1398'
 ht-degree: 92%
 
 ---
@@ -108,10 +108,12 @@ Pour demander l’accès initial à un objet, procédez comme suit :
    Exemple d’image dans l’environnement de production :
    ![](assets/request-access-dialog-350x314.png)
 
-Si vous ne disposez pas des droits de niveau d’accès à un objet et que vous tentez d’y accéder à partir d’un lien, un écran s’affiche pour vous informer de contacter l’administrateur ou administratrice Workfront.
+<!--
+If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
 
-Par exemple, si vous ne disposez pas d’un accès au portfolio, mais que vous recevez un lien vers un portfolio, le message suivant s’affiche :\
+For example, if you do not have portfolio access, but you were given a link to a portfolio, you would see the following message:  
 ![](assets/permission-request-initial2-350x96.png)
+-->
 
 ### Demander un accès supplémentaire {#request-additional-access}
 

@@ -5,10 +5,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 98%
+source-wordcount: '596'
+ht-degree: 95%
 
 ---
 
@@ -21,8 +21,7 @@ Pour plus d’informations sur les équipes, voir [Vue d’ensemble des équipes
 >[!NOTE]
 >
 >* Un administrateur ou une administratrice de groupes peut modifier les paramètres d’une équipe pour un groupe qu’il ou elle administre. Pour plus d’informations, voir [Créer et modifier les équipes d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
->* Une personne disposant d’une licence Plan peut modifier les paramètres d’une équipe dans la zone Personnes. Pour plus d’informations, voir [Modifier les paramètres d’une équipe](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
->
+>* Un utilisateur disposant d’une licence Standard ou Plan peut modifier les paramètres d’une équipe dans la zone Équipes. Pour plus d’informations, voir [Modifier les paramètres d’une équipe](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
 ## Conditions d’accès
 
