@@ -4,23 +4,23 @@ product-area: projects
 navigation-topic: financials
 title: Calculer la valeur nette
 description: La valeur nette d’un projet correspond à la valeur totale attendue du projet après avoir calculé ses avantages et supprimé les coûts.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Calculer la valeur nette
 
-La valeur nette d’un projet correspond à la valeur totale attendue du projet après avoir calculé ses avantages et supprimé les coûts. 
+La valeur nette d’un projet correspond à la valeur totale attendue du projet après avoir calculé ses avantages et supprimé les coûts.
 
 ## Vue d’ensemble de la valeur nette des projets
 
-Adobe Workfront calcule la valeur nette d’un projet à l’aide de la formule suivante :
+Adobe Workfront calcule la valeur nette d’un projet à l’aide de la formule suivante :
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost

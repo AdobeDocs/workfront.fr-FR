@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Calculer le retour sur investissement (ROI)
 description: Le retour sur investissement (ROI) est une mesure Adobe Workfront qui permet aux personnes gestionnaires de portfolios de voir rapidement l’état du projet par rapport au bénéfice prévu d’origine et au coût budgété du projet.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%

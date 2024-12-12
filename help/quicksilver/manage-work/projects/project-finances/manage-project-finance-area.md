@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Gérer les informations dans la zone Finances d’un projet
-description: Gérer les informations dans la zone Finances d’un projet
-author: Alina
+title: Gestion des informations dans la zone de financement du projet
+description: Vous pouvez afficher ou modifier les informations financières d’un projet en accédant à la zone Finance de la section Détails du projet .
+author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 100%
+source-wordcount: '1285'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,8 @@ Vous pouvez afficher ou modifier les données financières d’un projet en acc�
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -30,26 +32,30 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td>
+   <td>
+   <p>Nouveau : Light ou supérieur</p>
+   <p>ou</p>
+   <p>Actuel : Révision ou supérieur</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès en affichage ou accès supérieur aux projets et aux données financières</p> <p>Accès en modification aux projets et aux données financières pour modifier les données financières du projet</p> <p><b>NOTE</b></p>
-   <p> Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en affichage ou accès supérieur aux projets et aux données financières</p> <p>Accès en modification aux projets et aux données financières pour modifier les données financières du projet</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations d’affichage ou autorisations supérieures pour le projet, comprenant des autorisations d’affichage de finances</p> <p>Autorisations de gestion du projet qui incluent la gestion des finances pour modifier les données financières du projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations d’affichage ou autorisations supérieures pour le projet, comprenant des autorisations d’affichage de finances</p> <p>Autorisations de gestion du projet qui incluent la gestion des finances pour modifier les données financières du projet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vue d’ensemble de la zone Finances
 

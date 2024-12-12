@@ -2,15 +2,15 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: Finances de projet incluses dans les références de projet
+title: Finances de projet incluses dans les lignes de base du projet
 description: Les niveaux de référence sont des instantanés de ce à quoi ressemblaient les performances d’un projet à un moment donné dans le temps. Elles stockent des informations clés sur le projet, telles que les dates clés et la progression, ainsi que les valeurs des coûts et des revenus.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 705156d0-0daa-40bf-a511-144d56316136
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

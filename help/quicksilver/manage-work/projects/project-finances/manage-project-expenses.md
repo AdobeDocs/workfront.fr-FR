@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Gérer les dépenses liées à un projet
-description: Le processus de création et de gestion des dépenses est le même pour les dépenses liées à un projet ou à une tâche. Toutes les dépenses ajoutées au projet dans le business case sont ajoutées à l’onglet Dépenses en tant que dépenses prévues. Pour plus d’informations sur le business case, voir l’article Créer un business case pour un projet.
-author: Alina
+title: Gérer les dépenses du projet
+description: Le processus de création et de gestion des dépenses est le même pour les dépenses liées à un projet ou à une tâche. Toutes les dépenses ajoutées au projet dans le business case sont ajoutées à l’onglet Dépenses en tant que dépenses prévues. Pour plus d’informations sur l’analyse de cas, reportez-vous à l’article Créer une analyse de cas pour un projet.
+author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 97%
+source-wordcount: '542'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,8 @@ Le montant total de vos dépenses pour toutes les tâches et le projet contribue
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -29,25 +31,29 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Travail ou supérieur </p> </td> 
+   <td>
+   <p>Nouveau : Standard</p>
+   <p>ou</p>
+   <p>Actuellement : Travail ou licence supérieure</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès en modification aux projets et aux données financières</p> <p><b>NOTE</b> </p>
-   <p> Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td>Accès en modification aux projets et aux données financières</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de contribution ou de niveau supérieur sur le projet avec des autorisations d’affichage ou de gestion sur les finances</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td>Autorisations de contribution ou de niveau supérieur sur le projet avec des autorisations d’affichage ou de gestion sur les finances</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajouter des frais
 

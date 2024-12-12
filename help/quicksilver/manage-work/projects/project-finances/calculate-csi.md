@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Calculer l’Indice Coûts Horaire Performances (CSI)
 description: L’Indice Coûts Horaire Performances (CSI) est un calcul automatique qui combine l’Indice Coûts Performance (ICP) et l’Indice Horaire Perdormances (SPI) en une mesure générale qui équilibre les coûts et le planning.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%

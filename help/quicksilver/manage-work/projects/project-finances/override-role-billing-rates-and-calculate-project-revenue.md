@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Vue d’ensemble du remplacement des taux de facturation des fonctions et du calcul des revenus sur un projet
+title: Présentation du remplacement des taux de facturation des rôles de tâche et du calcul des recettes sur un projet
 description: Vous pouvez utiliser les taux de facturation pour calculer les revenus de vos projets lorsque vous les multipliez par les heures passées sur le projet. Pour plus d’informations sur les taux de facturation et les revenus, consultez l’article Vue d’ensemble de la facturation et des revenus.
-author: Alina, Lisa
+author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '3860'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

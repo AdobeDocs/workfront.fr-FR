@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Calculer le coût prévu de main-d’œuvre
 description: Lorsque vous planifiez le travail sur vos projets, Adobe Workfront calcule le coût prévu de main-d’œuvre pour les fonctions et les utilisateurs et utilisatrices affectés à ce travail en fonction de leurs valeurs Coûts par heure.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: af053e9a-09dc-4b4d-8ed4-f681ed611a59
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
