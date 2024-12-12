@@ -3,15 +3,15 @@ title: Personnalisation du panneau Résumé à l’aide d’un modèle de mise e
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les utilisateurs lorsqu’ils cliquent sur une tâche ou un problème dans le résumé. Chaque configuration que vous effectuez à l’aide des étapes ci-dessous affecte le panneau Résumé. Ces personnalisations ne s’appliquent pas au panneau Résumé du document.
+description: Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les utilisateurs lorsqu’ils cliquent sur une tâche ou un événement dans le résumé. Chaque configuration effectuée à l’aide des étapes ci-dessous affecte le panneau Résumé . Ces personnalisations ne s’appliquent pas au panneau Résumé du document.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 56%
+source-wordcount: '753'
+ht-degree: 59%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 56%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
-Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les utilisateurs dans le panneau Résumé lorsqu’ils cliquent sur une tâche ou un problème. Chaque configuration que vous effectuez à l’aide des étapes ci-dessous affecte le panneau Résumé. Ces personnalisations ne s’appliquent pas au panneau Résumé du document.
+Vous pouvez utiliser un modèle de mise en page pour configurer ce que les utilisateurs voient dans le panneau Résumé lorsqu’ils cliquent sur une tâche ou un événement. Chaque configuration effectuée à l’aide des étapes ci-dessous affecte le panneau Résumé . Ces personnalisations ne s’appliquent pas au panneau Résumé du document.
 
 Vous pouvez configurer les éléments suivants :
 
@@ -77,11 +77,11 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
 1. Commencez à travailler sur un modèle de disposition, comme décrit dans la section [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) sous **Personnaliser ce que les utilisateurs voient**, puis cliquez sur **Panneau de résumé**.
+1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Panneau Résumé**.
 
-1. Dans la liste qui s’affiche en dessous, cliquez sur le type d’objet pour lequel vous souhaitez personnaliser le panneau Résumé.
+1. Dans la liste qui s’affiche en dessous, cliquez sur le type d’objet pour lequel vous souhaitez personnaliser le panneau Résumé .
 
-   Le tableau ci-dessous explique ce que vous pouvez personnaliser pour chaque objet :
+   Le tableau ci-dessous explique ce que vous pouvez personnaliser pour chaque objet
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,40 +97,44 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
       <td role="rowheader">Problèmes</td> 
       <td><p>Dans une liste de problèmes, ce paramètre affecte le panneau Résumé qui s’affiche sur le côté droit de la page lorsqu’une personne sélectionne un problème, puis clique sur l’icône Ouvrir le résumé <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Projets</td> 
-      <td><ul><li><p>Dans Accueil, lorsqu’une personne clique sur une approbation de projet qui lui est affectée, votre configuration pour ce paramètre affecte la zone située à droite de l’approbation.</p>
-      <p><b>IMPORTANT :</b> </p><p>Il s’agit d’une fonctionnalité obsolète. Toute modification apportée à cette zone est liée à une fonctionnalité supprimée par Workfront. Cette option sera supprimée de Workfront avec une mise à jour de maintenance ultérieure.</p></li>
+    </tbody> 
+   </table>
+
+<!--These were removed with the new Home: 
+
+<tr> 
+      <td role="rowheader">Projects</td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul> 
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documents</td> 
       <td>
-     <ul><li><p>Dans Accueil, lorsqu’une personne clique sur une approbation de document qui lui est affectée, votre configuration pour ce paramètre affecte la zone située à droite de l’approbation.</p>
-      <p><b>IMPORTANT :</b> </p><p> Il s’agit d’une fonctionnalité obsolète. Toute modification apportée à cette zone est liée à une fonctionnalité supprimée par Workfront. Cette option sera supprimée de Workfront avec une mise à jour de maintenance ultérieure.</p></li>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Versions des documents</td> 
-      <td><ul><li><p>Dans Accueil, lorsqu’une personne clique sur une approbation qui lui est affectée pour une version spécifique d’un document, votre configuration pour ce paramètre affecte la zone située à droite de l’approbation.</p>
-      <p><p><b>IMPORTANT :</b></p> Il s’agit d’une fonctionnalité obsolète. Toute modification apportée à cette zone est liée à une fonctionnalité supprimée par Workfront. Cette option sera supprimée de Workfront avec une mise à jour de maintenance ultérieure.</p></li>
+      <td role="rowheader">Document Versions</td> 
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
-     </tr> 
-    </tbody> 
-   </table>
+     </tr> -->
 
-   >[!IMPORTANT]
-   >
-   >Si une tâche n’est pas affectée, la personne affectée au modèle de disposition ne verra pas les personnalisations des champs dans le résumé.
+
+>[!IMPORTANT]
+>
+>Si une tâche n’est pas affectée, la personne affectée au modèle de disposition ne verra pas les personnalisations des champs dans le résumé.
 
 1. (Le cas échéant) Si vous avez cliqué sur Tâches ou Problèmes à l’étape précédente, sélectionnez la catégorie de tâches ou de problèmes que vous souhaitez personnaliser.
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Conditionnel) Si le menu déroulant **Définir le bouton d’action principale** s’affiche (si vous sélectionnez **Tâches** ou **Problèmes** dans la liste de gauche), cliquez sur l’action principale (**Terminé** ou **État**) que vous souhaitez mettre à la disposition des utilisateurs dans le panneau Résumé lorsqu’ils affichent une tâche ou un problème.
+1. (Conditionnel) Si le menu déroulant **Bouton Définir l’action principale** s’affiche (si vous sélectionnez **Tâches** ou **Événements** dans la liste de gauche), cliquez sur l’action principale (**Terminé** ou **Statut**) que vous souhaitez rendre disponible pour les utilisateurs dans le panneau Résumé lorsqu’ils affichent une tâche ou un événement.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -139,7 +143,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Répétez les étapes 3 à 6 pour personnaliser le panneau Résumé pour tout autre type d’objet.
-1. Cliquez sur **Paramètres globaux**, près du coin inférieur gauche, puis activez ou désactivez l’une des options suivantes liées aux objets Adobe Workfront dans le résumé :
+1. Cliquez sur **Paramètres globaux**, en bas à gauche, puis activez ou désactivez l’une des options suivantes liées aux objets Adobe Workfront dans le résumé :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -147,7 +151,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
     <tbody> 
      <tr> 
       <td role="rowheader">Afficher les mises à jour pour le travail</td> 
-      <td>Affiche toutes les mises à jour effectuées sur une tâche ou un problème sélectionné dans le panneau Résumé. Cela inclut les mises à jour du système et les mises à jour effectuées par un utilisateur ou une utilisatrice. Les personnes peuvent toujours filtrer les mises à jour du système, comme décrit dans la section <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Activer ou désactiver des mises à jour système</a> dans <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Mettre à jour le travail</a>.</td> 
+      <td>Affiche toutes les mises à jour apportées à une tâche ou un événement sélectionné dans le panneau Résumé. Cela inclut les mises à jour du système et les mises à jour effectuées par un utilisateur ou une utilisatrice. Les personnes peuvent toujours filtrer les mises à jour du système, comme décrit dans la section <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Activer ou désactiver des mises à jour système</a> dans <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Mettre à jour le travail</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Consigner les heures de travail</td> 
@@ -155,11 +159,11 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
      </tr> 
      <tr> 
       <td role="rowheader">Afficher les documents associés au travail</td> 
-      <td>Affiche une zone Documents dans le panneau Résumé lorsqu’une tâche ou un problème est sélectionné, répertoriant tous les documents associés à la tâche ou au problème. Les personnes peuvent cliquer sur les documents pour les afficher dans une fenêtre d’aperçu.</td> 
+      <td>Affiche une zone Documents dans le panneau Résumé lorsqu’une tâche ou un événement est sélectionné, répertoriant tous les documents joints à la tâche ou à l’événement. Les personnes peuvent cliquer sur les documents pour les afficher dans une fenêtre d’aperçu.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Masquer l'horodatage</td> 
-      <td>Masque les horodatages des champs de date suivants dans le panneau Résumé :
+      <td>Masque l’horodatage des champs de date suivants dans le panneau Résumé :
        <ul>
         <li>Date d'achèvement prévue</li>
         <li>Date d’engagement</li>
