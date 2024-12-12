@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 2125639c11513439fdd3ae872b336814f8f77adb
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 3%
@@ -32,6 +32,7 @@ Vous pouvez utiliser la colonne Mon point de mires pour classer vos tâches par 
    | **Faible** | Faible correspond aux tâches qui n’ont pas besoin d’attention immédiate et peuvent être différées jusqu’à ce que toutes les tâches de priorité supérieure soient effectuées. |
 
    ![](assets/my-focus.png)
+   <!--new screen for prod ![](assets/my-focus-new.png)-->
 
    >[!TIP]
    >

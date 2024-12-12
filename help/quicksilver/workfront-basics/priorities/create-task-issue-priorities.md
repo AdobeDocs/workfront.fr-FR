@@ -5,13 +5,13 @@ description: Vous pouvez créer de nouvelles tâches et de nouveaux problèmes d
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '241'
 ht-degree: 32%
 
 ---
-
 
 # Création d’une tâche ou d’un problème dans les priorités
 
@@ -69,6 +69,7 @@ Pour créer une tâche ou un problème dans un projet :
 
 1. Cliquez sur **Créer** dans le coin supérieur droit.
    ![](assets/create-new.png)
+&lt;!—new screen pour prod ![](assets/create-new--.png)—>
 1. Indiquez les informations suivantes :
 
    | champ | Instructions |
@@ -81,4 +82,3 @@ Pour créer une tâche ou un problème dans un projet :
    | Date d’échéance (facultatif) | Choisissez une date d&#39;échéance. |
 
 1. Cliquez sur **Créer**.
-

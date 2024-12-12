@@ -5,13 +5,13 @@ description: Vous pouvez consigner les heures passées sur un élément de trava
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 410963f404aa496b2ac4aa43098917d03fc1ca75
+exl-id: 5457f516-c213-4b82-b033-bc8db943a217
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 46%
 
 ---
-
 
 # Temps de connexion aux priorités
 
@@ -61,6 +61,7 @@ Vous pouvez consigner l’heure directement à partir de la liste de travail :
 
 1. Passez la souris sur le nom, puis cliquez sur **Temps du journal**.
    ![](assets/log-time.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. Dans le menu déroulant **Type d’heure**, sélectionnez le type d’heure approprié. Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section Définition des types d’heures et disponibilité.
 
 1. (Conditionnel) Si votre administrateur Workfront ou de groupe a activé manuellement le paramètre Attribuer des rôles de tâche aux entrées d’heure , sélectionnez un rôle de tâche dans le menu déroulant. La fonction qui vous a été affectée pour l’élément de travail s’affiche par défaut. Si aucun rôle ne vous est attribué sur l’objet, votre rôle principal s’affiche par défaut. Si aucun rôle de Principal n’est attribué, aucun rôle de tâche ne s’affiche.
@@ -83,4 +84,3 @@ Vous pouvez consigner l’heure dans une tâche individuelle :
 1. Saisissez l’heure de connexion, puis cliquez sur **Temps du journal**.
 
    ![](assets/log-time-dialog.png)
-

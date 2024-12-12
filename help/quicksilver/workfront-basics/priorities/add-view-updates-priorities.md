@@ -5,13 +5,13 @@ description: Vous pouvez ajouter une mise à jour sur une tâche ou un problème
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: a7237746-0a18-408b-b932-8a608fd72eee
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 13%
 
 ---
-
 
 # Ajout et affichage de commentaires dans les priorités
 
@@ -65,6 +65,7 @@ Vous pouvez ajouter un commentaire à partir de la liste de travail :
 1. Recherchez l’élément de travail à mettre à jour.
 1. Passez la souris sur le nom, puis cliquez sur **Ajouter une nouvelle mise à jour**.
    ![](assets/add-update.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. Commencez à saisir votre commentaire.
 1. (Facultatif) Dans la zone **Baliser les personnes ou les équipes**, commencez à saisir le nom ou l’adresse électronique d’un utilisateur, ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
 1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre commentaire, afin d’améliorer votre contenu.

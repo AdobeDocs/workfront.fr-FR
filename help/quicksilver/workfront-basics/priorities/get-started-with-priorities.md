@@ -5,13 +5,13 @@ description: Les priorités sont une expérience simple et intuitive, adaptée a
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
+exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
+source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '953'
 ht-degree: 8%
 
 ---
-
 
 # Commencer avec [!DNL Priorities]
 
@@ -91,7 +91,6 @@ Trouvez votre travail le plus important avec les filtres. Vous pouvez filtrer le
 
 Après avoir filtré votre travail, vous pouvez regrouper des éléments en fonction de
 
-* Aucun
 * Mon focus
 * Semaine d’échéance
 * Statut
@@ -104,15 +103,16 @@ Pour plus d’informations, voir [Filtrage et regroupement de votre travail dans
 Mon point de mires est une colonne de la liste de tâches qui vous aide à hiérarchiser votre travail. La valeur My Focus est personnelle et n’a aucune incidence sur les données de projet, de tâche ou de problème. Vous pouvez utiliser les niveaux de focus suivants :
 
 * Urgent
-* Principal
-* Secondaire
+* Élevé
 * Normal (par défaut)
+* Faible
 
 Une fois que vous avez attribué des niveaux de focus à vos tâches, vous pouvez trier la colonne pour afficher les éléments urgents en haut de votre liste de travail.
 
 Pour plus d’informations, voir [Hiérarchisation des tâches importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ![](assets/my-focus-column.png)
+<!-- new screen for prod ![](assets/worklist.png) -->
 
 ### Utiliser la vue Calendrier [!BADGE Prochaine étape]{type=Informative}
 
@@ -141,6 +141,7 @@ La section Mises à jour répertorie les mises à jour du système et jusqu’à
 Pour plus d’informations, voir [Ajout et affichage de commentaires dans Priorités](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Enregistrer des heures
 
@@ -149,6 +150,7 @@ Vous pouvez consigner le temps passé sur les éléments de travail pour indique
 Pour plus d’informations, voir [Temps de connexion aux priorités](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![](assets/log-time.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Charger des fichiers
 
@@ -162,6 +164,7 @@ Transférez les fichiers directement dans la zone Documents de la tâche ou du p
 Pour plus d’informations, voir [Téléchargement de fichiers dans les priorités](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![](assets/upload-file.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Afficher les documents [!BADGE Prochainement]{type=Informative}
 
@@ -197,5 +200,3 @@ Utilisez la fonction [!DNL Catch me up] pour voir ce que vous avez manqué. Le m
 
 * Actuellement, les administrateurs de Workfront ne peuvent pas personnaliser les priorités par le biais du modèle de mise en page.
 * L’accès aux tâches dans les priorités s’effectue sur plusieurs onglets. Nous prévoyons d’ajouter d’autres onglets, tels que Documents, Sous-tâches, Approbations, etc., à l’avenir. Dites-nous si vous avez besoin de ces éléments en envoyant vos commentaires à l’aide du bouton **Laisser un commentaire** .
-
-

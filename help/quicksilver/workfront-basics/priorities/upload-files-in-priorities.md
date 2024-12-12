@@ -5,13 +5,13 @@ description: Vous pouvez charger des fichiers à partir de la liste de tâches P
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 33%
 
 ---
-
 
 # Chargement de fichiers dans les priorités
 
@@ -54,6 +54,7 @@ Pour connaître le forfait, le type de licence ou l’accès dont vous disposez,
 
 1. Passez la souris sur le nom, puis cliquez sur **Télécharger**.
    ![](assets/upload-file.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. (Facultatif) Sélectionnez un dossier.
 1. Faites glisser et déposez votre fichier ou Cmd/Ctrl + V pour le coller à partir du Presse-papiers.
 ou
