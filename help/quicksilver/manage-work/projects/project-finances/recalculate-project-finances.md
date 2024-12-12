@@ -6,7 +6,7 @@ description: Les finances sont calculées sur un projet à mesure que des modifi
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
+source-git-commit: 854844b0cb0207085a99403cf8b76573838feb41
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 98%
@@ -18,6 +18,8 @@ ht-degree: 98%
 Les finances sont calculées sur un projet à mesure que des modifications se produisent dans les heures consignées pour le projet ou dans les taux utilisés pour calculer les coûts et les revenus.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -44,6 +46,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Considérations relatives au calcul des finances dans Adobe Workfront
@@ -58,13 +64,11 @@ Lorsque le taux d’une personne ou d’un rôle change au cours de la vie d’u
 * Lorsque la modification est effectuée, le taux mis à jour est utilisé à partir de ce moment lorsque les heures sont consignées et les informations financières sont calculées. La modification du taux n’affecte pas la façon dont les éléments ont été calculés avant que la modification ne soit effectuée. Pour toutes les heures existantes consignées, l’ancien taux est utilisé pour calculer les informations financières.
 * Vous pouvez forcer Adobe Workfront à utiliser le nouveau taux rétroactivement pour toutes les heures enregistrées jusqu’à présent, à l’aide de l’option Recalculer les finances. Cela oblige Workfront à recalculer rétroactivement toutes les heures, les coûts prévus et les revenus saisis précédemment, conformément aux nouvelles informations sur les taux.
 
-Le type de rapport Projet (Données financières) ne recalcule pas automatiquement avant de charger les données. Pour mettre à jour les données de ce type de rapport, vous devez recalculer manuellement les finances des différents projets.
+Le type de rapport Projet (Données financières) n&#39;effectue pas automatiquement un nouveau calcul de vos données financières. Pour mettre à jour les données de ce type de rapport, vous devez recalculer manuellement les finances des différents projets.
 
 >[!CAUTION]
 >
 >Avant de recalculer manuellement les finances d’un projet donné, vous souhaiterez peut-être conserver toutes les données financières déjà calculées à un taux précédent. Nous vous recommandons d’utiliser l’option Recalculer les finances uniquement lorsque vous savez que vous n’apportez pas de modifications aux informations existantes, ou uniquement lorsque de telles modifications sont souhaitées.
->
->Notez que l’exécution d’un rapport Projet (données financières) effectue un nouveau calcul de vos données financières. Vous devez donc tenir compte des mêmes considérations avant d’exécuter le rapport.
 
 ## Préserver les données financières pour les tâches avec des heures existantes {#preserve-financial-data-for-tasks-with-existing-hours}
 
