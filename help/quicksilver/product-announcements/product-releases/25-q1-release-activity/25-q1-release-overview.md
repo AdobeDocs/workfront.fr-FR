@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1728'
 ht-degree: 37%
 
 ---
@@ -26,9 +26,9 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>24.11 (14 novembre 2024)</li><li>24.12 (12 décembre 2024)</li><li>25.1 (15 janvier 2025)</li></ul> | <ul><li>25.1 (16 janvier 2025)</li></ul> |
+>| <ul><li>Version 24.11 (14 Novembre 2024)</li><li>Version 24.12 (12 Décembre 2024)</li><li>25.1 (15 janvier 2025)</li></ul> | <ul><li>25.1 (16 janvier 2025)</li></ul> |
 >
->Notez que pour la version finale de chaque trimestre (25.1 ce trimestre), les utilisateurs du calendrier de version rapide recevront la version un jour plus tôt.
+>Notez que pour la version finale de chaque trimestre (25.1 ce trimestre), les utilisateurs disposant du planning de version rapide recevront la version un jour plus tôt que prévu.
 >
 >Pour plus d’informations sur le processus de publication rapide, voir la section [Activer ou désactiver le processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -38,7 +38,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 * [Améliorations de la gestion des documents](#document-management-enhancements)
 * [Amélioration de l’accueil](#home-enhancements)
 * [Améliorations apportées à la relecture](#proofing-enhancements)
-* [Améliorations des rapports et tableaux de bord](#report-and-dashboard-enhancements)
+* [Améliorations des rapports et des tableaux de bord](#report-and-dashboard-enhancements)
 * [Autres améliorations](#other-enhancements)
 
 ### Améliorations apportées aux administrateurs et administratrices
@@ -58,8 +58,9 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Préférences pour l’utilisation du planning de projet ou d’utilisateur pour les tâches à affectation unique</a></p>
-            <p>En tant qu’administrateur système ou groupe, vous disposez désormais d’une nouvelle préférence pour indiquer si Workfront doit utiliser la planification du projet ou de l’utilisateur pour calculer la chronologie du projet lorsque vous affectez un utilisateur à une tâche et que le projet et l’utilisateur sont associés à une planification.</p>
+            Préférence pour l'utilisation des prévisions de projet ou d'utilisateur pour les tâches à affectation unique</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
+            <p>En tant qu’administrateur système ou de groupe, vous disposez désormais d’une nouvelle préférence qui permet d’indiquer si Workfront doit utiliser le planning du projet ou de l’utilisateur pour calculer la chronologie du projet lorsque vous affectez un utilisateur à une tâche et que le projet et l’utilisateur sont tous deux associés à un planning.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
@@ -73,8 +74,9 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Les règles métier prennent désormais en charge les hyperliens.</a></p>
-            <p>Vous pouvez désormais inclure des liens hypertexte dans le message d’erreur personnalisé d’une règle de fonctionnement afin de guider l’utilisateur dans la modification de son action dans le cadre de la contrainte de la règle. L’URL statique peut renvoyer vers la documentation ou d’autres pages qui pourraient être utiles à l’utilisateur.</p>
+            Les règles métier prennent désormais en charge les liens hypertexte</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
+            <p>Vous pouvez désormais inclure des liens hypertexte dans le message d’erreur personnalisé d’une règle métier, afin de guider l’utilisateur ou l’utilisatrice sur la manière de modifier son action dans la contrainte de la règle. L’URL statique peut renvoyer vers la documentation ou d’autres pages utiles à l’utilisateur ou à l’utilisatrice.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
@@ -88,8 +90,8 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Le filtrage sur les champs de saisie anticipée natifs est désormais disponible.</a></p>
-            <p>Lorsque vous ajoutez une référence de champ native à un formulaire personnalisé et qu’elle fait référence à un champ de saisie anticipée (par exemple, Portfolio, Société ou Propriétaire), une option de filtre est désormais disponible. Le filtre permet de limiter les objets que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ. Ce filtre personnalisé fonctionne de la même manière qu’un filtre sur un champ de type personnalisé, à l’aide du mode Texte pour définir le filtre.</p>
+            Le filtrage sur les champs de saisie semi-automatique natifs est désormais disponible</a></p>
+            <p>Lorsque vous ajoutez une référence de champ native à un formulaire personnalisé et qu’elle fait référence à un champ de saisie semi-automatique (par exemple, Portfolio, Société ou Propriétaire), une option de filtrage est désormais disponible. Le filtre vous permet de limiter les objets que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ . Ce filtre personnalisé fonctionne de la même manière qu’un filtre sur un champ de saisie semi-automatique personnalisé, en utilisant le mode texte pour définir le filtre.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
@@ -103,9 +105,9 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Icône "Déplacer vers" ajoutée aux champs personnalisés</a></p>
+            Icône « Déplacer vers » ajoutée aux champs personnalisés</a></p>
             [!BADGE In production for Fast Release ]{type=Positive}
-            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
+            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections avec de nombreux champs, il peut être difficile de déplacer un champ d’une section à une autre en effectuant un glisser-déposer. Une icône « Déplacer vers » a été ajoutée à chaque champ, vous permettant de sélectionner la section dans laquelle le champ est placé.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
@@ -168,7 +170,8 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Modification simultanée de plusieurs documents</a></p>
+            Modifier plusieurs documents à la fois</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>Vous pouvez désormais modifier plusieurs documents à la fois. Vous pouvez modifier les descriptions et mettre à jour les formulaires personnalisés.</p>
         </td>
         <td>
@@ -185,7 +188,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Nouveau statut Retiré disponible pour les approbations de version de document</a></p>
             [!BADGE In production for Fast Release ]{type=Positive}
-            <p>Lorsqu’une nouvelle version est ajoutée à un document avec des validations en attente, la validation de la version précédente s’affiche désormais sous la forme "Retiré", indiquant que le processus de validation préalable s’est arrêté en raison de la nouvelle version ajoutée.</p>
+            <p>Lorsqu'une nouvelle version est ajoutée à un document avec des approbations en attente, l'approbation de la version précédente s'affiche désormais comme « Retirée », ce qui indique que le processus d'approbation préalable est terminé en raison de l'ajout de la nouvelle version.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
@@ -194,7 +197,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 <li>Production pour une version rapide : avec la version 24.11 (14 novembre 2024)</li>
                 <li>Version de production pour tous les clients : avec la version 25.1 (janvier 2025)</li>
             </ul>
-            <p><i>Cette fonctionnalité fait partie d’une version par étapes et est disponible uniquement pour des clients spécifiques.</i></p>
+            <p><i>Cette fonctionnalité fait partie d’une mise à jour par phases et n’est disponible que pour des clients spécifiques.</i></p>
         </td>
     </tr>
 </tbody>
@@ -217,8 +220,22 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Accédez à la page Détails d’un projet à partir des priorités.</a></p>
+            Mises à jour de la liste de travail des priorités</a></p>
             [!BADGE New in Preview ]{type=Negative}
+            <p>Nous avons mis à jour la liste de travail des priorités afin d'améliorer les capacités et de nous aligner sur d'autres aspects de l'application.</p>
+        </td>
+        <td>
+            <p><b>Disponible à ces dates :</b></p>
+            <ul>
+                <li>Version préliminaire : vendredi 12 décembre 2024</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (janvier 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Accédez à la page Détails d’un projet à partir des priorités</a></p>
             <p>Vous pouvez désormais accéder directement à un projet dans Workfront à partir de la liste de travail Priorités .</p>
         </td>
         <td>
@@ -232,9 +249,9 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Mise à jour des options dans la colonne Mon point de mire des priorités</a></p>
+            Mise à jour des options de la colonne Mon focus dans Priorités</a></p>
             [!BADGE In production ]{type=Informative}
-            <p>Nous avons mis à jour les options de la colonne Mon point de mires afin de vous aider à hiérarchiser et à trier votre travail d’une manière plus intuitive. Les nouvelles étiquettes incluent :</p>
+            <p>Nous avons mis à jour les options de la colonne Mon focus pour vous aider à hiérarchiser et à trier votre travail de manière plus intuitive. Les nouveaux libellés sont les suivants :</p>
             <ul>
                 <li>Urgent</li>
                 <li>Élevé</li>
@@ -253,7 +270,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Affichage des détails du projet dans les priorités</a></p>
+            Afficher les détails du projet dans Priorités</a></p>
             [!BADGE In production for Fast Release ]{type=Positive}
             <p>Vous pouvez désormais afficher les détails et les commentaires du projet à partir de la liste de travail dans Priorités.</p>
         </td>
@@ -288,8 +305,8 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Nouvelle extension de navigateur pour la révision interactive disponible en version bêta</a></p>
             [!BADGE In production ]{type=Informative}
-            <p>Nous introduisons une nouvelle extension de navigateur, l’outil de révision d’Adobe Workfront, pour remplacer l’ancienne extension de navigateur pour la révision du contenu ZIP interactif. Le nouvel outil de révision d’Adobe Workfront prend en charge la révision du contenu ZIP sur tous les navigateurs courants.</p>
-            <p>L’extension de navigateur héritée sera supprimée le 28 février 2025.</p>
+            <p>Nous introduisons une nouvelle extension de navigateur, l’outil de révision Adobe Workfront, qui remplace l’ancienne extension de navigateur pour la révision du contenu ZIP interactif. Le nouvel outil de révision Adobe Workfront prend en charge la révision du contenu ZIP dans tous les navigateurs courants.</p>
+            <p>L’ancienne extension de navigateur sera supprimée le 28 février 2025.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
@@ -302,7 +319,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 </tbody>
 </table>
 
-## Améliorations des rapports et tableaux de bord
+## Améliorations des rapports et des tableaux de bord
 
 <table>
 <col style="width: 50%;" />
@@ -319,9 +336,9 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Bouton de création de compte de la première lecture pour Data Connect</a></p>
+            Bouton de création d’un compte de lecteur pour la première fois pour Data Connect</a></p>
             [!BADGE In production ]{type=Informative}
-            <p>Les administrateurs qui accèdent pour la première fois à Data Connect ont désormais la possibilité de créer un nouveau compte de lecteur de Snowflake en cliquant sur un seul bouton. Le processus prend quelques minutes, mais ne nécessite aucune autre action.</p>
+            <p>Les administrateurs qui accèdent pour la première fois à Data Connect ont désormais la possibilité de créer un compte de lecteur de Snowflake en cliquant sur un seul bouton. Le processus prend quelques minutes, mais ne nécessite aucune autre action.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
@@ -344,10 +361,11 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Mise à jour sur la gestion des ressources déplacées ou supprimées dans les dossiers liés</a></p>
-            <p>Nous avons modifié la manière dont les ressources déplacées et supprimées sont gérées lors de l’utilisation de l’intégration Adobe Workfront avec Experience Manager Assets et les Assets Essentials :</p>
+            [!BADGE In production ]{type=Informative}
+            <p>Nous avons modifié la façon dont les ressources déplacées et supprimées sont traitées lors de l’utilisation de l’intégration d’Adobe Workfront à Experience Manager Assets et aux Assets Essentials :</p>
             <ul>
-                <li>Ressources supprimées : lorsqu’une ressource est supprimée dans un dossier lié d’Assets ou d’Assets Essentials, elle est conservée dans la zone Documents du projet.</li>
-                <li>Ressources déplacées : lorsqu’une ressource est déplacée en dehors d’un dossier lié dans Assets ou Assets essentials, elle est conservée dans la zone Documents de projet.</li>
+                <li>Ressources supprimées : lorsqu’une ressource est supprimée dans un dossier lié dans Assets ou Assets Essentials, la ressource supprimée est conservée dans la zone des Documents de projet.</li>
+                <li>Ressources déplacées : lorsqu’une ressource est déplacée en dehors d’un dossier lié dans Assets ou Assets essentials, la ressource déplacée est conservée dans la zone des Documents de projet.</li>
             </ul>
         </td>
         <td>
@@ -361,8 +379,9 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Les sections d’un formulaire personnalisé sont désormais réductibles et extensibles.</a></p>
-            <p>Lorsqu’un formulaire personnalisé avec plusieurs sections est associé à un objet, vous pouvez désormais réduire et développer toutes les sections à l’exception de la section par défaut en haut du formulaire. L’administrateur peut également afficher cette fonctionnalité lors de la prévisualisation du formulaire dans le concepteur de formulaires.</p>
+            Les sections d’un formulaire personnalisé sont désormais réductibles et extensibles</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
+            <p>Lorsqu’un formulaire personnalisé avec plusieurs sections est joint à un objet, vous pouvez désormais réduire et développer toutes les sections, à l’exception de la section par défaut située en haut du formulaire. L’administrateur peut également voir cette fonctionnalité lors de la prévisualisation du formulaire dans le concepteur de formulaire.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
@@ -376,9 +395,9 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            L’assistant IA peut désormais travailler avec des projets, des tâches et des problèmes.</a></p>
+            L’assistant AI peut désormais travailler sur des projets, des tâches et des événements</a></p>
             [!BADGE In production for Fast Release ]{type=Positive}
-            <p>Afin de faciliter la gestion de vos tâches dans Workfront, nous avons mis à jour l’assistant d’IA pour qu’il traite les projets, les tâches et les problèmes. Désormais, l’assistant d’IA peut localiser les projets, les tâches et les problèmes en fonction des critères que vous avez spécifiés.</p>
+            <p>Pour faciliter la gestion de vos éléments de travail dans Workfront, nous avons mis à jour l’assistant AI pour qu’il fonctionne avec les projets, les tâches et les événements. Désormais, l’assistant AI peut localiser les projets, les tâches et les événements en fonction des critères que vous spécifiez.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
@@ -392,13 +411,13 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Mises à jour de l’apparence au cours du premier trimestre 2025</a></p>
-            <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées au cours du premier trimestre 2025. Consultez les notes de mise à jour individuelles pour connaître les dates de publication spécifiques.</p>
+            Mises à jour de l’apparence au cours du premier trimestre de 2025</a></p>
+            <p>Des mises à jour mineures de l’aspect de diverses zones de l’application Adobe Workfront seront apportées au cours du premier trimestre 2025. Consultez les notes de mise à jour individuelles pour connaître les dates de publication spécifiques.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
             <ul>
-                <li>Aperçu de la version : pendant toute la période de publication du premier trimestre 2025</li>
+                <li>Version préliminaire : tout au long du premier trimestre de 2025.</li>
                 <li><span class="preview">Version de production : passez en revue les notes de mise à jour pour connaître les dates spécifiques.</span></li>
             </ul>
         </td>
@@ -418,9 +437,9 @@ The following functionality is soon to be removed from Workfront:
 
 Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent de celui du calendrier de la version du premier trimestre 2025. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-### Améliorations de la planification Workfront
+### Améliorations apportées à Workfront Planning
 
-De nouvelles fonctionnalités de la planification Workfront sont disponibles dans la production. Pour plus d’informations sur les dernières fonctionnalités, voir [ Activité de mise à jour de la planification Adobe Workfront au premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+De nouvelles fonctionnalités de Workfront Planning sont disponibles en production. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de la version du premier trimestre 2025 de la planification Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
 
 ### Améliorations du planificateur de scénarios Workfront
 
