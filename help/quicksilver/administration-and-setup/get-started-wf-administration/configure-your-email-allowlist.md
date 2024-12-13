@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Configuration de votre Liste autorisée de messagerie
+title: Configurer Votre Place sur la liste autorisée E-Mail
 description: Si votre entreprise utilise la formule Entreprise de Workfront, vous pouvez créer une liste autorisée d’e-mails Workfront pour contrôler les domaines d’e-mails autorisés à recevoir des e-mails de Workfront, mais aussi définir les domaines d’e-mails utilisables dans l’adresse e-mail spécifiée dans le profil de l’utilisateur ou de l’utilisatrice. Cela s’avère utile si la politique de sécurité de votre entreprise empêche les utilisateurs et les utilisatrices d’envoyer des données stockées dans Workfront à des adresses e-mail externes. Vous pouvez inclure uniquement les domaines internes de votre société dans la liste autorisée pour vous assurer que cette politique est respectée.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 95%
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 # Configurer votre liste autorisée d’e-mails
 
-Si votre entreprise utilise le forfait Workfront Enterprise, vous pouvez créer une liste autorisée de messagerie Workfront à contrôler :
+Si votre entreprise utilise le plan d’entreprise Workfront, vous pouvez créer un e-mail Workfront placer sur la liste autorisée afin de contrôler :
 
 * Les domaines d’e-mails autorisés à accepter les e-mails de Workfront.
 * Les domaines d’e-mails pouvant se trouver dans l’adresse e-mail que les utilisateurs et les utilisatrices spécifient dans leur profil.
@@ -64,7 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Autres listes autorisées
 
-Si votre entreprise dispose de la formule Entreprise, vous pouvez configurer une liste autorisée d’adresses IP d’Adobe Workfront qui limite l’accès à Workfront à 45 adresses IP ou plages d’adresses IP que vous spécifiez. Cela fournit une couche supplémentaire de sécurité pour l’application Workfront. Pour plus d’informations, consultez [Limiter l’accès à Adobe Workfront en fonction de l’adresse IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+Si votre entreprise dispose de la formule Entreprise, vous pouvez configurer une liste autorisée d’adresses IP d’Adobe Workfront qui limite l’accès à Workfront à 75 adresses IP ou plages d’adresses IP que vous spécifiez. Cela fournit une couche supplémentaire de sécurité pour l’application Workfront. Pour plus d’informations, consultez [Limiter l’accès à Adobe Workfront en fonction de l’adresse IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 Aussi, si votre pare-feu ou serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter certaines adresses IP à sa liste autorisée. Cela permet d’établir une communication entre votre environnement et les serveurs Adobe Workfront. Pour plus d’informations à ce sujet, consultez [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 

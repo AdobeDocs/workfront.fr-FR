@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: security
-title: Limitation de l’accès à Adobe Workfront par adresse IP
-description: Vous pouvez configurer une liste autorisée d’adresses IP d’Adobe Workfront qui limite l’accès à Workfront à 45 adresses IP ou plages d’adresses IP que vous spécifiez. Cela fournit une couche supplémentaire de sécurité pour l’application Workfront.
+title: Restreindre l’accès à Adobe Workfront par adresse IP
+description: Vous pouvez configurer une liste autorisée d’adresses IP d’Adobe Workfront qui limite l’accès à Workfront à 75 adresses IP ou plages d’adresses IP que vous spécifiez. Cela fournit une couche supplémentaire de sécurité pour l’application Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 98%
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 # Limiter l’accès à Adobe Workfront en fonction de l’adresse IP
 
-Vous pouvez configurer une liste autorisée d’adresses IP d’Adobe Workfront qui limite l’accès à Workfront à 45 adresses IP ou plages d’adresses IP que vous spécifiez. Cela fournit une couche supplémentaire de sécurité pour l’application Workfront.
+Vous pouvez configurer une liste autorisée d’adresses IP d’Adobe Workfront qui limite l’accès à Workfront à 75 adresses IP ou plages d’adresses IP que vous spécifiez. Cela fournit une couche supplémentaire de sécurité pour l’application Workfront.
 
 Ces adresses IP ou plages d’adresses doivent être fournies par votre administrateur ou administratrice réseau.
 
@@ -77,6 +77,6 @@ Une fois que vous avez ajouté des adresses IP à la liste autorisée Workfront,
 1. Cliquez sur **Ajouter une plage d’adresses IP,** indiquez ensuite l’adresse IP ou la plage d’adresses IP que vous souhaitez voir accéder à Workfront.
 1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres adresses IP ou plages d’adresses.
 
-   Vous pouvez ajouter jusqu’à 45 adresses ou plages.
+   Vous pouvez ajouter jusqu’à 75 adresses ou plages.
 
-1. Cliquez sur **Enregistrer**.
+1. Cliquer sur **Enregistrer**.

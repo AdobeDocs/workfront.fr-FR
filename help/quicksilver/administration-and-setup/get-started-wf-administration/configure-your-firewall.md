@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Configuration de la Liste autorisée de votre pare-feu
+title: Configuration de la Place sur la liste autorisée de votre pare-feu
 description: Si votre pare-feu ou serveur de messagerie est configuré pour accorder l’accès uniquement à certains fournisseurs, vous devez ajouter certaines adresses IP à sa liste autorisée. Cette action ouvre la communication entre votre environnement et les serveurs Adobe Workfront et permet à vos utilisateurs et à vos utilisatrices d’envoyer des messages à partir de Workfront et d’utiliser la fonction SSO avec Active Directory ou LDAP.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 2b6f5243de9610947ab6836080379a2293f48a10
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 98%
@@ -51,7 +51,7 @@ Vous devez également ouvrir certains ports pour que les e-mails soient chiffré
 Si votre entreprise dispose de la formule Entreprise, vous pouvez également configurer deux listes autorisées Workfront :
 
 * **Liste autorisée d’e-mails** : vous permet de contrôler où les utilisateurs et les utilisatrices peuvent envoyer par e-mail des données stockées dans Workfront. Pour plus d’informations, consultez la section [Configurer votre liste autorisée d’e-mails](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **Liste autorisée d’adresses IP** : l’accès à Workfront est limité à 45 adresses IP ou plages d’adresses que vous spécifiez, fournissant ainsi une couche de sécurité supplémentaire pour l’application Workfront. Pour plus d’informations, consultez la section [Limiter l’accès à Adobe Workfront par adresse IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **Liste autorisée d’adresses IP** : l’accès à Workfront est limité à 75 adresses IP ou plages d’adresses que vous spécifiez, fournissant ainsi une couche de sécurité supplémentaire pour l’application Workfront. Pour plus d’informations, consultez la section [Limiter l’accès à Adobe Workfront par adresse IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## Localiser votre cluster Workfront
 
@@ -91,7 +91,7 @@ Pour plus d’informations, consultez la section [Afficher le cluster et la form
 
 ### Adresses IP à autoriser pour les clusters 1, 2, 3, 5, 7, 8 et 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
-Si votre environnement de production se trouve sur les clusters 1, 2, 3, 5, 7, 8 ou 9, vous devez autoriser les adresses IP suivantes.
+Si votre environnement de production se trouve sur le cluster 1, 2, 3, 5, 7, 8 ou 9, vous devez autoriser les adresses IP suivantes.
 
 <table style="table-layout:auto"> 
  <col> 
