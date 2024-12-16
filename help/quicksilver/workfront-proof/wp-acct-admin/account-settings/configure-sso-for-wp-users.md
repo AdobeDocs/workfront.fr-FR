@@ -2,12 +2,12 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: Configuration de l’authentification unique pour les utilisateurs et utilisatrices  [!DNL Workfront Proof]
+title: 'Configuration de l’authentification unique pour les utilisateurs et utilisatrices  [!DNL Workfront Proof] '
 description: Si vous disposez de la formule Select ou Premium, vous pouvez fournir une fonctionnalité d’authentification unique (SSO) qui vous permet d’utiliser le nom d’utilisateur ou d’utilisatrice et le mot de passe de votre organisation pour accéder à votre compte  [!DNL Workfront Proof] .
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
+source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 100%
@@ -59,12 +59,12 @@ Il s’agit du lien vers votre serveur d’authentification unique (par exemple�
 1. Saisissez l’**URL de connexion** (3).
 Il s’agit de l’URL qui sera appelée pour rediriger les utilisateurs et utilisatrices vers votre fournisseur d’identité.
 
-1. Il ne s’agit pas d’une URL réelle que vous saisissez dans le navigateur, mais plutôt d’un point d’entrée qui traite les informations que nous lui envoyons afin de présenter l’écran de connexion.
+   Il ne s’agit pas d’une URL réelle que vous saisissez dans le navigateur, mais plutôt d’un point d’entrée qui traite les informations que nous lui envoyons afin de présenter l’écran de connexion.
 
-Saisissez l’**URL de déconnexion** (4).
+1. Saisissez l’**URL de déconnexion** (4).
 Il s’agit de l’URL à laquelle vous revenez après votre déconnexion, par exemple.
 
-**https://www.yourcompany.com/services/logout.asp**
+   **https://www.yourcompany.com/services/logout.asp**
 
 1. Saisissez l’**empreinte du certificat** (5).
 1. L’empreinte SHA1 du certificat SAML fourni par votre fournisseur d’identité SAML.
