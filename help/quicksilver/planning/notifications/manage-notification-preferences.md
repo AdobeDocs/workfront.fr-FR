@@ -1,32 +1,44 @@
 ---
 title: Gérer les préférences de notification d’Adobe Workfront Planning
-description: Vous pouvez gérer vos préférences de notification pour Adobe Workfront Planning. Cet article décrit comment configurer vos préférences de notification.
+description: Vous pouvez peut-être gérer vos préférences de notification pour Adobe Workfront Planning. Cet article décrit comment configurer vos préférences de notifications.
 author: Alina
 feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 27%
+source-wordcount: '562'
+ht-degree: 23%
 
 ---
 
 
 # Gérer les préférences de notification d’Adobe Workfront Planning
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 Vous pouvez recevoir une notification in-app ou par e-mail lorsque les actions suivantes se produisent dans Workfront Planning :
 
-* Quelqu&#39;un vous ajoute à un commentaire sur la page d&#39;enregistrement
-* Une personne demande l’autorisation d’accéder à un affichage ou à un espace de travail.
-* Quelqu&#39;un vous accorde l&#39;autorisation d&#39;accéder à un affichage ou à un espace de travail <!--I could not test this but Isk confirmed-->
+* Quelqu’un vous ajoute à un commentaire sur la page d’enregistrement
+* Quelqu&#39;un demande l&#39;autorisation d&#39;accéder à une vue ou à un espace de travail
+* Quelqu&#39;un vous accorde l&#39;autorisation d&#39;accéder à une vue ou à un espace de travail <!--I could not test this but Isk confirmed-->
+
+<div class="preview">
+
+* Vous devez soumettre une demande Workfront Planning.
+* Une personne approuve ou rejette une demande Workfront Planning que vous avez soumise.
+* Le statut passe à une demande Workfront Planning que vous avez soumise.
+
+</div>
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès pour Workfront Planning.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -47,14 +59,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -62,16 +74,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe.</p> 
-<p>Les utilisateurs de votre entreprise ne reçoivent des notifications de Workfront Planning que lorsque votre entreprise est intégrée à l’expérience unifiée Adobe. </p>
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée d’Adobe.</p> 
+<p>Les utilisateurs et utilisatrices de votre organisation reçoivent des notifications de Workfront Planning uniquement lorsque votre organisation intègre l’expérience unifiée d’Adobe. </p>
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td><p><p>Standard, Clair ou Contributeur
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <td><p><p>Standard, Léger ou Contributeur
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -96,11 +108,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 +++
 
 
-Pour plus d’informations sur les notifications Workfront Planning, consultez également les articles suivants :
+Pour plus d’informations sur les notifications de Workfront Planning, consultez également les articles suivants :
 
-* Pour plus d’informations sur les commentaires sur les enregistrements, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
-* Pour plus d’informations sur les notifications in-app de Workfront Planning, voir [Gestion des notifications in-app pour Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* Pour plus d’informations sur les notifications par e-mail de Workfront Planning, voir [Gestion des notifications par e-mail pour Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
+* Pour plus d’informations sur les commentaires des enregistrements, voir [Gérer les commentaires des enregistrements](/help/quicksilver/planning/records/manage-record-comments.md).
+* Pour plus d’informations sur les notifications in-app depuis Workfront Planning, voir [Gérer les notifications in-app pour Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
+* Pour plus d’informations sur les notifications par e-mail provenant de Workfront Planning, voir [Gérer les notifications par e-mail pour Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 <!--
 
 OLD: 
@@ -159,11 +171,11 @@ OLD:
 </table>
 -->
 
-## Gestion des préférences de notification
+## Gérer les préférences de notification
 
 1. Connectez-vous à Workfront à l’aide de vos informations d’identification Adobe Experience Cloud.
 1. Cliquez sur l’icône **menu du compte** ![](assets/account-menu-icon-on-experience-cloud.png) dans le coin supérieur droit de l’écran, puis cliquez sur **Préférences**.
-1. Sous la section **Notifications**, cliquez sur **Workfront**.
+1. Dans la section **Notifications**, cliquez sur **Workfront**.
 1. Sélectionnez les notifications que vous souhaitez recevoir.
 Ou
 Désélectionnez les notifications que vous souhaitez arrêter de recevoir.
@@ -171,10 +183,15 @@ Désélectionnez les notifications que vous souhaitez arrêter de recevoir.
    ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Les notifications suivantes sont disponibles pour Workfront :
 
-   * **Mentions** : vous recevez une notification lorsqu’un utilisateur vous balise dans un commentaire dans Workfront Planning
-   * **Demandes** : vous recevez une notification lorsqu’une personne vous demande ou vous accorde l’autorisation d’accéder à un objet de planification Workfront
+   * **Mentions** : vous recevez une notification lorsqu’une personne vous identifie dans un commentaire dans Workfront Planning
+   * **Demandes** : vous recevez une notification lorsqu’une personne effectue l’une des opérations suivantes :
 
-   Pour plus d’informations sur la gestion des notifications, voir [ Préférences de compte et notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+      * Demande ou vous accorde l&#39;autorisation d&#39;accéder à un objet Workfront Planning
+      * <span class="preview">Vous avez soumis une demande Workfront Planning</span>
+      * <span class="preview">Statut d’une demande Workfront Planning que vous avez soumise</span>
+      * <span class="preview">Demande, accorde ou rejette une approbation à une demande Workfront Planning</span>
+
+   Pour plus d’informations sur la gestion des notifications, voir [ Préférences du compte et notifications ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 <!--OLD: notifications are not available to non-IMS customers: 
 

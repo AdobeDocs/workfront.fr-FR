@@ -1,20 +1,20 @@
 ---
 content-type: release-notes
-title: Activité de planification des versions Adobe Workfront pour la version 25.1
-description: Il s’agit de l’activité de publication du produit Adobe Workfront Planning pour le premier trimestre 2025.
+title: Adobe Workfront Planning Release Activity pour la version 25.1
+description: Il s’agit de l’activité de publication du produit Planification d’Adobe Workfront pour le premier trimestre 2025.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '2114'
 ht-degree: 4%
 
 ---
 
-# Activité de mise à jour du premier trimestre 2025 pour Adobe Workfront Planning
+# Activité de la version du premier trimestre 2025 pour Adobe Workfront Planning
 
 <!--remove this important intro after the 25.1 release-->
 
@@ -22,67 +22,103 @@ ht-degree: 4%
 >
 >Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle offre d’Adobe Workfront.
 >
->Vous devez acheter un plan de planification Workfront, en plus d’un plan Workfront, pour pouvoir accéder aux fonctionnalités de planification Workfront et les utiliser.
+>Vous devez acheter un plan Workfront Planning, en plus d’un plan Workfront, pour pouvoir accéder aux fonctionnalités Workfront Planning et les utiliser.
 >
->Pour obtenir la liste complète des exigences d’accès à la planification Workfront, consultez la [présentation des accès](/help/quicksilver/planning/access/access-overview.md).
->Pour une présentation de la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+>Pour obtenir la liste complète des conditions requises pour accéder à Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/planning/access/access-overview.md).
+>Pour obtenir un aperçu de Workfront Planning, consultez [Aperçu d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-Cet article décrit les fonctionnalités de la version 2025 du premier trimestre de la planification Workfront.
+Cet article décrit les fonctionnalités publiées pour Workfront Planning dans la version du premier trimestre 2025.
 
 <!--keep the sentence below for all future quarterly release pages-->
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
-Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning après la mise à disposition de la version générale le 28 août 2024, voir [Activité de mise à jour d’Adobe Workfront Planning : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning après la mise à jour de la disponibilité générale du 28 août 2024, voir [Activité de version d’Adobe Workfront Planning : index d’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Recherche intelligente lorsque vous recherchez un type de champ
+
+## Configuration des validations pour les demandes Workfront Planning
+
+>[!NOTE]
+>
+>Version de prévisualisation : mardi 16 décembre 2024. Version de production pour l’ensemble des clientes et clients : vendredi 16 janvier 2025.
+
+Vous pouvez désormais associer une approbation à un formulaire de demande Workfront Planning. Vous ne pouvez ajouter que des utilisateurs en tant qu’approbateurs d’une demande. Une fois la requête soumise, elle est d&#39;abord envoyée à tous les approbateurs pour l&#39;approuver avant de créer un enregistrement.
+
+Pour plus d’informations, voir [Ajouter une approbation à un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+
+## Notifications relatives à l’envoi, à l’approbation et aux changements de statut de la demande
+
+>[!NOTE]
+>
+>Version de prévisualisation : mardi 16 décembre 2024. Version de production pour l’ensemble des clientes et clients : vendredi 16 janvier 2025.
+
+Vous recevrez désormais une notification in-app et une notification par e-mail pour les actions suivantes après l’envoi d’une demande dans Workfront Planning :
+
+* Un demandeur reçoit une notification l’informant qu’une demande a bien été soumise
+
+* Un demandeur reçoit une notification l’informant qu’une demande a été approuvée ou rejetée
+
+* Un approbateur reçoit une notification l&#39;informant qu&#39;une demande lui a été soumise pour approbation.
+
+>[!NOTE]
+>
+>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée d’Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et in-app.
+
+Pour plus d’informations sur l’envoi ou la validation des demandes, consultez les articles suivants :
+
+* [Envoi de requêtes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
+
+* [Valider une demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
+
+## Recherche intelligente lors de la recherche d’un type de champ
 
 >[!NOTE]
 >
 >Version de prévisualisation : vendredi 5 décembre 2024. Version de production pour l’ensemble des clientes et clients : vendredi 5 décembre 2024.
 
-Nous avons ajouté une fonctionnalité de recherche intelligente lors de la recherche d’un type de champ dans Workfront Planning. Vous pouvez désormais rechercher des types de champ lorsque vous saisissez un mot-clé. Par exemple, la saisie de &quot;Prix&quot; recherche les types de champs Nombre et Devise. Avant cette amélioration, vous ne pouviez rechercher que le nom du type de champ réel.
+Nous avons ajouté une fonctionnalité de recherche intelligente lors de la recherche d’un type de champ dans Workfront Planning. Vous pouvez désormais trouver des types de champ lors de la saisie d’un mot-clé. Par exemple, la saisie de « Prix » permet de trouver les types de champs Nombre et Devise . Avant cette amélioration, vous pouviez rechercher uniquement le nom réel du type de champ.
 
 Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
-## Sélecteur de couleurs personnalisé pour les options codées par couleur des champs à sélection unique ou multiple
+## Sélecteur de couleurs personnalisé pour les options à code de couleur de champs à sélection unique ou multiple
 
 >[!NOTE]
 >
->Aperçu de la version : 5 décembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 5 décembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Vous pouvez désormais choisir des couleurs personnalisées lors de la création ou de la modification d’un champ à sélection simple ou multiple. Lorsque vous créez ou modifiez des champs avec des options codées par couleur, cliquez sur l’icône de couleur pour ouvrir une zone de sélection de couleurs. Vous pouvez choisir parmi des couleurs prédéfinies ou créer des couleurs personnalisées à l’aide de codes hexadécimaux ou d’un spectre de couleurs.
+Vous pouvez désormais effectuer des choix de couleurs personnalisés lors de la création ou de la modification d’un champ à sélection unique ou multiple. Lorsque vous créez ou modifiez des champs avec des options codées par couleur, cliquer sur l’icône de couleur ouvre une zone de sélecteur de couleurs. Vous pouvez choisir parmi des couleurs prédéfinies ou en créer des personnalisées à l’aide de codes hexadécimaux ou d’un spectre de couleurs.
 
 Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
-## Importation de champs Workfront existants dans des types d’enregistrement Workfront Planning
+## Importer les champs Workfront existants vers les types d’enregistrements Workfront Planning
 
 >[!NOTE]
 >
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 27 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Désormais, lorsque vous ajoutez des champs à un type d’enregistrement, vous avez la possibilité d’importer des champs personnalisés ou natifs Workfront existants et de les associer au type d’enregistrement que vous avez sélectionné. L’importation de champs existants crée une copie des champs Workfront dans Workfront Planning. Les champs copiés sont indépendants de leurs versions d’origine.
+Désormais, lorsque vous ajoutez des champs à un type d’enregistrement, vous avez la possibilité d’importer des champs personnalisés ou natifs Workfront existants et de les associer au type d’enregistrement que vous avez sélectionné. L&#39;importation de champs existants crée une copie des champs Workfront dans Workfront Planning. Les champs copiés sont indépendants de leur version d’origine.
 
-Avant cette amélioration, vous deviez créer manuellement tous les champs et les associer aux types d’enregistrement.
+Avant cette amélioration, vous deviez créer manuellement tous les champs et les associer à des types d’enregistrements.
 
 Les champs calculés ne sont pas pris en charge pour le moment.
 
-Pour plus d’informations, voir [Importation de champs à partir d’Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
+Pour plus d’informations, voir [Importer des champs depuis Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
 
-## Créer des types d’enregistrement, des enregistrements et des champs en important un fichier CSV ou Excel
+## Créez des types d’enregistrements, des enregistrements et des champs en important un fichier CSV ou Excel
 
 >[!NOTE]
 >
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 27 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
 Vous pouvez désormais importer de nouveaux types d’enregistrements en important un fichier CSV ou Excel.
 
 Les informations importées sont les suivantes :
 
-* Le nom de la feuille ou du fichier est importé en tant que nom de type d’enregistrement.
+* Le nom de la feuille ou du fichier est importé comme nom du type d&#39;enregistrement.
 
-* La première ligne de chaque colonne est importée en tant que nouveau champ. Chaque feuille importée peut contenir jusqu’à 500 champs.
+* La première ligne de chaque colonne est importée en tant que nouveau champ. Vous pouvez avoir jusqu&#39;à 500 champs dans chaque feuille importée.
 
-* Chaque ligne est importée en tant que nouvel enregistrement. Chaque feuille peut contenir jusqu’à 10 000 enregistrements.
+* Chaque ligne est importée en tant que nouvel enregistrement. Vous pouvez avoir jusqu’à 10 000 enregistrements dans chaque feuille.
 
 Pour plus d’informations, voir la section [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
@@ -90,63 +126,63 @@ Pour plus d’informations, voir la section [Créer des types d’enregistrement
 
 >[!NOTE]
 >
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 27 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Nous avons ajouté un message d’avertissement lors de l’édition ou de la création d’un champ de formule qui peut créer une référence circulaire à lui-même ou à des champs partagés. Vous ne pouvez pas enregistrer un champ de formule qui se réfère à lui-même ou aux éléments référencés dans son calcul.
+Nous avons introduit un message d&#39;avertissement lors de la modification ou de la création d&#39;un champ de formule qui peut créer une référence circulaire à lui-même ou à des champs partagés. Vous ne pouvez pas enregistrer un champ de formule qui fait référence à lui-même ou à des éléments référencés dans son calcul.
 
 Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
-## Ajout de pages de vue Connexion à une page d’enregistrement pour afficher les enregistrements connectés dans une vue de tableau
+## Ajouter des pages de vue Connexion à la page d&#39;un enregistrement pour afficher les enregistrements connectés dans une vue Tableau
 
 >[!NOTE]
 >
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 27 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Vous pouvez ajouter des pages à la zone de détails d’un enregistrement pour afficher les enregistrements connectés dans une vue de tableau. Vous pouvez ajouter une page par enregistrement connecté.
+Vous pouvez ajouter des pages à la zone de détails d&#39;un enregistrement pour afficher les enregistrements connectés en mode Tableau. Vous pouvez ajouter une page par enregistrement connecté.
 
 Les pages ajoutées sont en lecture seule.
 
-Pour plus d’informations, voir [Gestion de la mise en page de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
+Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
 
-## Nouveaux onglets Workfront et Planification dans la section Envoyé de la zone Demandes
-
->[!NOTE]
->
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
-
-Vous trouverez désormais les requêtes de planification Workfront dans la section Envoyés de la zone Demandes de Workfront. La section Envoyé affiche désormais les onglets suivants :
-
-* Workfront : affiche les requêtes envoyées dans Workfront.
-* Planification : affiche les demandes envoyées à l’aide d’un formulaire de demande de planification Workfront.
-
-Vous devez utiliser un lien vers le formulaire de requête pour pouvoir ajouter des requêtes à un type d’enregistrement Workfront Planning. L’envoi d’une demande de planification Workfront à partir de la zone Demandes de Workfront sera disponible ultérieurement.
-
-Votre entreprise doit acheter un package de planification Workfront avant que l’onglet Planification ne soit disponible dans la zone Demandes .
-
-Pour plus d’informations, voir [Soumettre des demandes de planification Adobe Workfront pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
-
-## D’autres types de champ sont désormais pris en charge dans les formulaires de demande.
+## Nouveaux onglets Workfront et Planification dans la section Soumis de la zone des Demandes
 
 >[!NOTE]
 >
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 27 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Vous pouvez maintenant ajouter les types de champ suivants à un formulaire de demande de type enregistrement dans Workfront Planning :
+Retrouvez désormais les demandes Workfront Planning dans la section Soumises de la zone des Demandes de Workfront. La section Envoyé affiche désormais les onglets suivants :
+
+* Workfront : affiche les demandes envoyées dans Workfront.
+* Planning : affiche les demandes envoyées à l’aide d’un formulaire de demande Workfront Planning.
+
+Vous devez utiliser un lien vers le formulaire de demande pour pouvoir ajouter des demandes à un type d&#39;enregistrement Workfront Planning. L’envoi d’une demande Workfront Planning à partir de la zone des Demandes Workfront sera disponible à une date ultérieure.
+
+Votre entreprise doit acheter un package Workfront Planning avant que l’onglet Planning ne soit disponible dans la zone des Demandes.
+
+Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+
+## D’autres types de champs sont désormais pris en charge dans les formulaires de demande
+
+>[!NOTE]
+>
+>Version préliminaire : 27 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
+
+Vous pouvez désormais ajouter les types de champs suivants à un formulaire de demande de type d’enregistrement dans Workfront Planning :
 
 * Personnes
 * Connexions Workfront
 
-Avant cette amélioration, ces types de champs ne pouvaient pas être ajoutés aux formulaires de demande dans la planification Workfront.
+Avant cette amélioration, ces types de champs ne pouvaient pas être ajoutés aux formulaires de demande dans Workfront Planning.
 
-Pour plus d’informations, voir Création et gestion d’un formulaire de demande dans Adobe Workfront Planning (/help/quicksilver/planning/requests/create-request-form.md).
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-## Limiter le partage public des formulaires de requête contenant certains types de champs
+## Limiter le partage public des formulaires de demande contenant certains types de champs
 
 >[!NOTE]
 >
->Aperçu de la version : 27 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 27 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Vous ne pouvez plus partager un formulaire de demande publiquement si le formulaire contient l’un des types de champs suivants :
+Vous ne pouvez plus partager publiquement un formulaire de demande si celui-ci contient l’un des types de champs suivants :
 
 * Formule
 * Connexions Workfront et AEM Assets
@@ -160,19 +196,19 @@ Pour plus d’informations, voir [Création et gestion d’un formulaire de dema
 
 >[!NOTE]
 >
->Aperçu de la version : 26 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 26 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Vous pouvez désormais afficher les enregistrements dans la vue Calendrier par semaine. Avant cette amélioration, vous ne pouviez afficher le calendrier que par mois.
+Vous pouvez désormais afficher les enregistrements dans la vue Calendrier par semaine. Avant cette amélioration, vous ne pouviez afficher la vue Calendrier que par mois.
 
-Pour plus d’informations, voir [Gestion de la vue Calendrier](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Restaurer les enregistrements supprimés
 
 >[!NOTE]
 >
->Aperçu de la version : 22 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 22 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Une fois les enregistrements supprimés, ils sont désormais temporairement déplacés dans une corbeille Récemment supprimés pendant 30 jours. Vous pouvez accéder à la corbeille Récemment supprimés de la page du type d&#39;enregistrement et elle ne contient que les enregistrements d&#39;un type spécifique.
+Une fois les enregistrements supprimés, ils sont temporairement déplacés vers une classe Récemment supprimés pendant 30 jours. Vous pouvez accéder au chutier Récemment supprimé à partir de la page du type d’enregistrement ; il ne contient que des enregistrements d’un type spécifique.
 
 Les gestionnaires de Workspace peuvent restaurer les enregistrements de la corbeille pendant 30 jours au maximum après leur suppression. Les enregistrements connectés et leurs informations de champ sont également restaurés.
 
@@ -180,44 +216,44 @@ Avant cette amélioration, les enregistrements supprimés ne pouvaient pas être
 
 Pour plus d’informations, voir [Restaurer les enregistrements supprimés](/help/quicksilver/planning/records/records-information.md).
 
-## Assistant d’Adobe de l’IA disponible dans les zones de détails des enregistrements
+## Adobe AI Assistant disponible dans les zones de détails de l’enregistrement
 
 >[!NOTE]
 >
->Aperçu de la version : 21 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 21 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Afin de vous faciliter la tâche, nous avons ajouté l’assistant d’Adobe AI à l’aperçu des détails ou à la page d’enregistrement d’un enregistrement. Vous pouvez utiliser l’assistant d’IA situé dans une page d’enregistrement pour mettre à jour les informations sur l’enregistrement.
+Pour vous faciliter la tâche, nous avons ajouté l’assistant IA dédiée à l’Adobe à l’aperçu des détails d’un enregistrement ou à la page de l’enregistrement. Vous pouvez utiliser l’assistant AI à l’intérieur d’une page d’enregistrement pour mettre à jour les informations sur l’enregistrement.
 
-Pour plus d’informations, reportez-vous à la section [Présentation de l’assistant de planification Adobe Workfront AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+Pour plus d’informations, consultez [Présentation de l’assistant Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ## Nouvelle expérience lors de l’ajout d’une miniature et d’une image de couverture à une page d’enregistrement
 
 >[!NOTE]
 >
->Aperçu de la version : 20 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 20 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Lorsque vous ouvrez l’aperçu ou la page d’un enregistrement et que l’enregistrement ne comporte pas de miniature ou d’image de couverture, vous devez maintenant pointer sur la zone située au-dessus du nom de l’enregistrement dans l’en-tête pour afficher les options permettant d’ajouter une couverture et une image de miniature à l’enregistrement. Avant cette amélioration, les images d’espace réservé vides pour la miniature et la couverture s’affichaient au-dessus du nom de l’enregistrement.
+Lorsque vous ouvrez l’aperçu ou la page d’un enregistrement et que celui-ci ne comporte pas de miniature ou d’image de couverture, vous devez maintenant pointer sur la zone située au-dessus du nom de l’enregistrement dans l’en-tête pour voir les options permettant d’ajouter une couverture et une image miniature à l’enregistrement. Avant cette amélioration, les images d’espace réservé vides pour la miniature et la couverture affichées au-dessus du nom de l’enregistrement.
 
 Pour plus d’informations, consultez les articles suivants :
 
 * [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [Ajout d’une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
-## Nouveaux types d’affichage pour les champs de type pourcentage dans la vue de tableau
+## Nouveaux types d’affichage pour les champs de type pourcentage en mode Tableau
 
 >[!NOTE]
 >
->Aperçu de la version : 7 novembre 2024 ; Production pour une version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 7 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Pour faciliter la lecture des nombres dans la vue du tableau, vous pouvez désormais choisir parmi les choix suivants pour modifier l&#39;affichage d&#39;un champ de type Pourcentage dans la vue du tableau :
+Pour faciliter la lecture des nombres en mode Tableau, vous pouvez désormais effectuer une sélection parmi les choix suivants pour modifier la façon dont un champ de type Pourcentage s’affiche en mode Tableau :
 
 * Nombre
 * Barres
 * Cercle
 
-Ce type d’affichage n’est pris en charge que dans la vue de tableau.
+Ce type d’affichage est uniquement pris en charge en mode Tableau.
 
-Avant cette amélioration, vous ne pouviez afficher les valeurs en pourcentage que sous forme de nombres.
+Avant cette amélioration, vous pouviez afficher les valeurs de pourcentage uniquement sous forme de nombres.
 
 Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
@@ -225,52 +261,52 @@ Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/
 
 >[!NOTE]
 >
->Aperçu de la version : 31 octobre 2024 ; Production pour une version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 31 octobre 2024 ; Production pour la version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Vous pouvez désormais ajouter des champs connectés pour les enregistrements de la planification Workfront à un formulaire de demande de type enregistrement.
+Vous pouvez désormais ajouter des champs connectés pour les enregistrements Workfront Planning à un formulaire de demande de type d’enregistrement.
 
-Vous ne pouvez pas ajouter de champs de recherche de connexion ni de champs connectés pour les objets Workfront dans le formulaire de requête.
+Vous ne pouvez pas ajouter de champs de recherche de connexion ou de champs connectés pour les objets Workfront dans le formulaire de demande.
 
-Avant cette amélioration, ces types de champs ne pouvaient pas être ajoutés aux formulaires de demande dans la planification Workfront.
+Avant cette amélioration, ces types de champs ne pouvaient pas être ajoutés aux formulaires de demande dans Workfront Planning.
 
 Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-## Avertissement de connexion lors de la connexion d&#39;enregistrements déjà liés à d&#39;autres enregistrements
+## Avertissement de connexion lors de la connexion d&#39;enregistrements déjà associés à d&#39;autres enregistrements
 
 >[!NOTE]
 >
->Aperçu de la version : 31 octobre 2024 ; Production pour une version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 31 octobre 2024 ; Production pour la version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Lorsque vous essayez de connecter des enregistrements déjà connectés ailleurs et qui appartiennent à un type d&#39;enregistrement connecté via un type de connexion Un à plusieurs ou Un à un, vous recevez maintenant un avertissement indiquant que les enregistrements sont déjà connectés. Si vous confirmez que vous souhaitez poursuivre la connexion, les enregistrements sélectionnés sont supprimés de l’enregistrement d’origine et ajoutés à l’enregistrement que vous êtes en train de modifier.
+Lorsque vous essayez de connecter des enregistrements qui sont déjà connectés ailleurs et qui appartiennent à un type d&#39;enregistrement connecté via un type de connexion Un à plusieurs ou Un à un, vous recevez désormais un avertissement indiquant que les enregistrements sont déjà connectés. Si vous confirmez que vous souhaitez poursuivre votre connexion, les enregistrements sélectionnés sont supprimés de l&#39;enregistrement d&#39;origine et ajoutés à l&#39;enregistrement que vous êtes en train de modifier.
 
-Pour plus d’informations sur les types de connexions, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+Pour plus d’informations sur les types de connexion, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-## Nouvelle icône d’information avec la description des champs dans la page de détails de l’enregistrement.
+## Icône Nouvelles informations avec la description des champs dans la page de détails de l’enregistrement
 
 >[!NOTE]
 >
->Aperçu de la version : 30 octobre 2024 ; Production pour une version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 30 octobre 2024 ; Production pour la version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Nous avons ajouté une icône d’information à droite des noms de champ dans une page d’enregistrement. Cliquez sur l’icône d’information pour afficher la description du champ, lorsqu’il existe une description. Avant cette amélioration, la description du champ s’affichait lorsque vous survoliez le nom du champ avec la souris.
+Nous avons ajouté une icône d’information à droite des noms de champ dans une page d’enregistrement. Cliquez sur l’icône d’informations pour afficher la description du champ, lorsqu’il existe une description. Avant cette amélioration, la description du champ affichée lorsque vous passez la souris sur le nom du champ.
 
 Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
-## Nouveau type de champ Workfront pour la planification des connexions
+## Nouveau type de champ Workfront pour les connexions Planning
 
 >[!NOTE]
 >
->Aperçu de la version : 24 octobre 2024 ; Production pour une version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour une version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 24 octobre 2024 ; Production pour la version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Pour continuer à rapprocher les objets Workfront des enregistrements de planification Workfront, nous avons ajouté un nouveau type de champ dans les formulaires personnalisés Workfront appelé Connexion de planification. En ajoutant ce type de champ à un formulaire personnalisé Workfront et, en fin de compte, à un objet Workfront, vous pouvez effectuer les opérations suivantes :
+Pour continuer à relier les objets Workfront aux enregistrements Workfront Planning, nous avons ajouté un nouveau type de champ dans les formulaires personnalisés Workfront appelé Connexion Planning. En ajoutant ce type de champ sur un formulaire personnalisé Workfront et, finalement, sur un objet Workfront, vous pouvez désormais effectuer les opérations suivantes :
 
 * Afficher les enregistrements liés à un objet Workfront dans le formulaire personnalisé.
 
-* Connectez et déconnectez les enregistrements de planification Workfront d’un objet Workfront.
+* Connectez et déconnectez les enregistrements Workfront Planning d’un objet Workfront.
 
-Vous pouvez ajouter le nouveau champ aux formulaires pour tous les types d’objets. Cependant, vous ne pouvez modifier les informations dans le champ qu’à partir de formulaires associés aux objets Workfront suivants qui peuvent être connectés à partir des types d’enregistrements de la planification Workfront : Portfolio, Programme, Projet, Société, Groupe.
+Vous pouvez ajouter le nouveau champ aux formulaires pour tous les types d’objet. Cependant, vous ne pouvez modifier les informations du champ qu’à partir des formulaires joints aux objets Workfront ci-dessous qui peuvent être connectés à partir des types d’enregistrements Workfront Planning : Portfolio, Programme, Projet, Société, Groupe.
 
-La modification en masse des champs Planification de la connexion pour les objets Workfront n’est pas encore disponible.
+La modification en bloc des champs de connexion Planning pour les objets Workfront n’est pas encore disponible.
 
-Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 [Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3435633/){target=_blank}

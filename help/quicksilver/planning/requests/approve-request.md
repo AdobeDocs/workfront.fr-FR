@@ -1,64 +1,49 @@
 ---
-title: Approbation d’une requête
-description: Lorsqu’un utilisateur envoie une requête à un formulaire de demande associé à une validation dans Adobe Workfront Planning, les approbateurs reçoivent une notification et un e-mail sur la validation en attente. Il doit approuver la requête avant que Workfront Planning ne crée un objet.
-hide: true
-hidefromTOC: true
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
-workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 18%
-
----
-
-
-<!--
-
----
-title: Approve a Request
-description: When a user submits a request to a request form associated with an approval in Adobe Workfront Planning, approvers receive a notification and an email about the pending approval. They must approve the request before Workfront Planning creates an object. 
+title: Approuver une demande dans Adobe Workfront Planning
+description: Lorsque l’utilisateur envoie une demande à un formulaire de demande associé à une approbation dans Adobe Workfront Planning, les approbateurs reçoivent une notification et un e-mail concernant l’approbation en attente. Ils doivent approuver la demande avant que Workfront Planning ne crée un objet.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+workflow-type: tm+mt
+source-wordcount: '945'
+ht-degree: 15%
+
 ---
 
--->
 
-
-# Approbation d’une requête
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# Approuver une demande dans Adobe Workfront Planning
 
 <!--take Preview and Production references at Production time-->
 
 <!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
-Lorsqu’un utilisateur envoie une requête à un formulaire de demande associé à une validation dans Adobe Workfront Planning, les approbateurs reçoivent une notification et un e-mail sur la validation en attente. Il doit approuver la requête avant que Workfront Planning ne crée un objet.
+Lorsque l’utilisateur envoie une demande à un formulaire de demande associé à une approbation dans Adobe Workfront Planning, les approbateurs reçoivent une notification et un e-mail concernant l’approbation en attente. Ils doivent approuver la demande avant que Workfront Planning ne crée un objet.
 
-Cet article décrit comment un gestionnaire d’espace de travail peut approuver une requête envoyée à Workfront Planning pour créer un enregistrement.
+Cet article décrit comment un gestionnaire d’espace de travail peut approuver une demande soumise pour que Workfront Planning crée un enregistrement.
 
 Nous vous recommandons de consulter également les articles suivants :
 
-* [Création et gestion d’un formulaire de requête dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
-* [Soumettre des demandes de planification Adobe Workfront pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
-* [Ajouter une validation à un formulaire de demande](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
+* [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+* [Envoi de requêtes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
+* [Ajouter une approbation à un formulaire de demande](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
-## Observations relatives à l’approbation des requêtes et états des requêtes
+## Considérations relatives à l’approbation des demandes et des statuts des demandes
 
-Les requêtes envoyées s’affichent dans l’onglet Planification de la section Envoyées de la zone Demandes de Workfront avec l’un des états de requête suivants :
+Les demandes envoyées s’affichent dans l’onglet Planification de la section Soumises de la zone des Demandes de Workfront avec l’un des statuts de demande suivants :
 
-* **En attente d’examen** : cet état s’affiche lorsqu’aucun approbateur n’a ouvert l’objet de requête.
-* **In review** : l’état devient **In review** lorsque au moins un approbateur ouvre l’objet de requête. L’état de la requête reste **En révision** jusqu’à ce que tous les approbateurs aient approuvé la requête.
-* **Approuvé** : lorsqu’un approbateur approuve l’objet de demande, son état individuel devient
-* **Approuvé**, mais l’état global de l’objet de requête reste **En révision** jusqu’à ce que tous les approbateurs aient pris leurs décisions.
-* **Completed** : si tous les approbateurs approuvent l’objet de demande, son état passe à **Completed**, ou si la demande n’a pas besoin d’une approbation.
-* **Refusé** : si un approbateur rejette l’objet de requête, l’état devient **Refusé**. Aucun enregistrement n’est créé et une nouvelle demande doit être envoyée pour créer l’enregistrement.
+* **Révision en attente** : ce statut s&#39;affiche lorsqu&#39;aucun approbateur n&#39;a ouvert l&#39;objet de la demande.
+* **En révision** : le statut **En attente de révision** passe à **En révision** lorsqu’au moins un approbateur ouvre l’objet de la demande. Le statut de la demande reste **En révision** jusqu&#39;à ce que tous les approbateurs aient approuvé la demande.
+* **Approuvé** : lorsqu&#39;un approbateur approuve l&#39;objet de la demande, son statut individuel devient **Approuvé**, mais le statut global de l&#39;objet de la demande reste **En révision** jusqu&#39;à ce que tous les approbateurs aient pris leurs décisions. Lorsque tous les approbateurs approuvent une demande, le statut de la demande devient **Approuvé**.
+* **Terminé** : si tous les approbateurs approuvent l&#39;objet de la demande, son statut passe à **Terminé** ou si la demande n&#39;avait pas besoin d&#39;approbation.
+* **Rejeté** : si un approbateur rejette l&#39;objet de la demande, le statut devient **Rejeté**. Aucun enregistrement n&#39;est créé et une nouvelle demande doit être soumise pour créer l&#39;enregistrement.
 
 ## Conditions d’accès
 
@@ -83,15 +68,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tr>
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td>
    <td>
-<p>L’un des projets Workfront suivants est prévu :</p>
+<p>L’un des plans Workfront suivants :</p>
 <ul><li>Sélectionner</li>
 <li>Principal</li>
 <li>Final</li></ul>
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p>
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p>
    </td>
 
 <tr>
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td>
    <td>
 <p>Tous </p>  
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </td>
@@ -99,7 +84,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <tr>
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
    <td>
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p>
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p>
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
    </td>
   </tr>
@@ -108,7 +93,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
    <p>Standard</p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p>
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p>
   </td>
   </tr>
   <tr>
@@ -138,34 +123,48 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 +++
 
-## Approuver une requête pour créer un enregistrement
+## Valider une demande de création d’enregistrement
 
-Une fois que les utilisateurs ont ajouté des requêtes à un formulaire de demande de type enregistrement associé à une validation, la demande est envoyée aux approbateurs.
+Une fois que les utilisateurs ont ajouté des demandes à un formulaire de demande de type enregistrement associé à une approbation, la demande est envoyée aux approbateurs.
 
-Les approbateurs reçoivent les notifications suivantes concernant une demande en attente de leur approbation :
+Les approbateurs reçoivent les notifications suivantes sur une demande en attente d&#39;approbation :
 
 * Une notification in-app
 * Notification par e-mail
 
-Pour approuver une requête :
+>[!NOTE]
+>
+>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée d’Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et in-app.
+
+Pour approuver une demande :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Si vous avez accès à la planification Workfront, cliquez sur **Menu principal** ![](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur le **Menu principal** ![](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Envoyées** > **Planification**, et cliquez sur la demande avec l’état **Dans la révision 13}. <!--did they change this to Pending approval; logged  a bug-->**
+   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Demandes** > **Soumises** > **Planning**, puis cliquez sur la demande avec le statut **En attente de révision** ou **En révision**.
 
      >[!TIP]
      >
-     >    Si vous n’avez pas accès à la planification Workfront, vous ne pouvez accéder qu’à une requête pour l’approuver à l’aide de vos notifications.
+     >Si vous n’avez pas accès à Workfront Planning, ou si vous n’avez pas accès à des espaces de travail, vous pouvez uniquement accéder à une demande pour l’approuver à l’aide de vos notifications par e-mail ou in-app.
 
+   * Cliquez sur l’icône de la zone **Notifications** ![](assets/notifications-area-icon-unified-shell.png) dans le coin supérieur droit de l’écran, puis cliquez sur la notification d’une demande en attente de votre approbation pour ouvrir la demande.
+   * Accédez à la notification par e-mail dans votre e-mail qui vous informe qu’une demande est en attente de votre approbation, puis cliquez sur **Ouvrir la demande** pour ouvrir la demande. <!--add the name of the button here, from the email-->
 
-   * Accédez à la zone **Notifications** dans le coin supérieur droit de l’écran et cliquez sur la notification à propos d’une demande en attente de votre approbation pour ouvrir la demande.
-   * Accédez à la notification électronique dans votre email vous informant d’une demande en attente de votre approbation, puis cliquez pour ouvrir la demande. <!--add the name of the button here, from the email-->
-
-   La page de demande s’ouvre en mode lecture seule.
+   La page de requête s’ouvre en mode lecture seule.
 
    ![](assets/read-only-reqeust-page-in-review-status.png)
-1. (Facultatif) Cliquez sur l’icône **Validations** ![](assets/approvals-icon.png) dans le coin supérieur droit de la requête pour afficher les approbateurs.
-1. Cliquez sur **Réviser et approuver**, puis sélectionnez l’une des options suivantes : <!--did they fix the button and removed the &??-->
 
-   * **Approve** : cela approuve la demande. Un enregistrement est immédiatement créé pour le type d’enregistrement associé au formulaire de demande.
-   * **Rejeter** : la demande est rejetée. Aucun enregistrement n’est créé pour le type d’enregistrement associé au formulaire de demande. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->
+1. (Facultatif) Cliquez sur l’icône **Validations** ![](assets/approvals-icon.png) dans le coin supérieur droit de la demande pour afficher les approbateurs.
+1. Cliquez sur **Vérifier et approuver** puis choisissez l’une des options suivantes : <!--did they fix the button and removed the &??-->
+
+   * **Approuver** : permet d’approuver la demande. Un enregistrement est immédiatement créé pour le type d&#39;enregistrement associé au formulaire de demande une fois que tous les approbateurs ont approuvé la demande.
+   * **Rejeter** : la demande est rejetée, même si vous êtes le seul approbateur à la rejeter. Aucun enregistrement n&#39;est créé pour le type d&#39;enregistrement associé au formulaire de demande.
+
+   L’utilisateur qui a soumis la demande reçoit un e-mail et des notifications in-app lorsque sa demande est approuvée ou rejetée.
+
+   Le statut de la demande est alors modifié comme suit, selon la décision d’approbation :
+
+   * **Terminé** : la demande est approuvée.
+   * **Rejeté** : la demande est rejetée.
+
+   La demande reste dans l’onglet Planification de la section Soumis de la zone Demandes de Workfront.
+

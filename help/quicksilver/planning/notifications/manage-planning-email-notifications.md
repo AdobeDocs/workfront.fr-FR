@@ -1,35 +1,47 @@
 ---
-title: Gestion des notifications électroniques de planification Adobe Workfront
-description: Lorsqu’un utilisateur vous balise dans un commentaire d’enregistrement dans Adobe Workfront Planning, vous recevez une notification par courrier électronique pour cette balise.
+title: Gérer les notifications par e-mail de planification d’Adobe Workfront
+description: Lorsqu’une personne vous identifie dans un commentaire d’enregistrement dans Adobe Workfront Planning, vous recevez une notification par e-mail concernant cette balise.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 22%
+source-wordcount: '717'
+ht-degree: 15%
 
 ---
 
 
 # Gérer les notifications par e-mail d’Adobe Workfront Planning
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
-Vous pouvez recevoir des notifications par courrier électronique de la part de Workfront Planning lorsque les scénarios suivants se présentent :
+Vous pouvez recevoir des notifications par e-mail de Workfront Planning lorsque les scénarios suivants existent :
 
-* Quelqu&#39;un vous marquera dans un commentaire d&#39;enregistrement
+* Quelqu’un vous identifie dans un commentaire d’enregistrement
 
-  Pour plus d’informations sur le balisage des autres dans un commentaire d’enregistrement, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
-* Une personne demande votre autorisation d’accéder à une vue ou à un espace de travail.
+  Pour plus d’informations sur le balisage d’autres utilisateurs dans un commentaire d’enregistrement, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
+* Quelqu&#39;un vous demande votre autorisation pour accéder à une vue ou à un espace de travail
 * Quelqu&#39;un confirme que votre accès a été accordé pour une vue ou un espace de travail <!--Isk confirmed that there is nno email for denying access but did not test-->
+
+<div class="preview">
+
+* Vous devez soumettre une demande Workfront Planning. Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+* Une personne approuve ou rejette une demande Workfront Planning que vous avez soumise. Pour plus d’informations, voir [Approuver une demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
+* Le statut passe à une demande Workfront Planning que vous avez soumise.
+
+</div>
 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès pour Workfront Planning.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -48,14 +60,14 @@ Vous pouvez recevoir des notifications par courrier électronique de la part de 
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -63,16 +75,16 @@ Vous pouvez recevoir des notifications par courrier électronique de la part de 
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe.</p> 
-<p>Les utilisateurs de votre entreprise ne reçoivent des notifications de Workfront Planning que lorsque votre entreprise est intégrée à l’expérience unifiée Adobe. </p>
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée d’Adobe.</p> 
+<p>Les utilisateurs et utilisatrices de votre organisation reçoivent des notifications de Workfront Planning uniquement lorsque votre organisation intègre l’expérience unifiée d’Adobe. </p>
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td><p> Standard, Clair ou Contributeur</p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <td><p> Standard, Léger ou Contributeur</p>
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -153,23 +165,42 @@ OLD:
 -->
 
 
-## Gestion des notifications par courrier électronique lorsqu’un utilisateur vous balise dans un commentaire
+## Gérer les notifications par e-mail lorsqu’une personne vous identifie dans un commentaire
 
-1. (Conditionnel) Après qu’un utilisateur vous ait marqué dans un commentaire sur un enregistrement, accédez à la notification électronique qui vous informe de la balise et du commentaire. L’expéditeur de l’email est Adobe Experience Cloud.
+1. (Conditionnel et facultatif) Une fois que quelqu’un vous a identifié dans un commentaire sur un enregistrement, accédez à la notification par e-mail qui vous informe de la balise et du commentaire. L’expéditeur de l’e-mail est Adobe Experience Cloud.
 
    ![](assets/email-notification-example.png)
 
-1. Cliquez sur le message dans la zone **Workfront**.
+1. (Facultatif) Cliquez sur le message dans la zone **Workfront** de l’e-mail.
 
    La page des détails de l’enregistrement s’ouvre dans Workfront. Vous pouvez mettre à jour l’enregistrement ou répondre au commentaire.
 
 1. (Conditionnel) Si disponible, cliquez sur **Afficher toutes les notifications**. <!--check with Lilit - do non-IMS users have this button??-->
 La page **Notifications** s’ouvre dans Adobe Experience Cloud. Toutes les notifications de toutes les applications Adobe Experience Cloud s’affichent.
 
-## Gestion des notifications par e-mail lors de la demande et de l’octroi des autorisations
+## Gérer les notifications par e-mail lors de la demande et de l’octroi d’autorisations
 
-Vous recevez des notifications par courrier électronique lorsqu’une personne vous demande ou vous accorde des autorisations pour un affichage ou un espace de travail.
+1. (Conditionnel et facultatif) Lorsqu’une personne vous demande ou vous accorde des autorisations d’accès à une vue ou à un espace de travail, accédez à l’e-mail qui vous informe de la demande d’autorisation. L’expéditeur de l’e-mail est Adobe Experience Cloud.
 
-Pour plus d’informations sur la demande, l’octroi ou le refus d’accès à une vue ou à un espace de travail, voir [Demande d’accès à une vue ou à un espace de travail](/help/quicksilver/planning/access/request-permissions.md).
+1. (Facultatif) Cliquez sur le message dans la zone **Workfront** de l’e-mail.
 
-Pour plus d’informations sur la gestion de vos notifications Workfront Planning, voir [Gestion des préférences de notification Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+   La page des détails de l’enregistrement s’ouvre dans Workfront. Vous pouvez mettre à jour l’enregistrement ou répondre au commentaire.
+
+1. (Conditionnel) Si disponible, cliquez sur **Afficher toutes les notifications**.
+La page **Notifications** s’ouvre dans Adobe Experience Cloud. Toutes les notifications de toutes les applications Adobe Experience Cloud s’affichent.
+
+
+Pour plus d&#39;informations sur la demande, l&#39;octroi ou le refus d&#39;autorisations pour une vue ou un espace de travail, voir [Demander des autorisations pour une vue ou un espace de travail](/help/quicksilver/planning/access/request-permissions.md).
+
+Pour plus d’informations sur la gestion des notifications Workfront Planning, voir [Gérer les préférences de notification Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+
+## Gérer les notifications par e-mail relatives à la soumission, l’approbation ou le rejet de demandes Workfront Planning
+
+1. (Facultatif) Accédez à l’e-mail que Workfront vous envoie
+après la soumission d&#39;une demande ou après qu&#39;une demande que vous avez soumise a été approuvée ou rejetée. L’expéditeur de l’e-mail est Adobe Workfront.
+
+1. (Facultatif) Cliquez sur **Ouvrir la demande**. La demande s’ouvre alors dans Workfront Planning.
+
+1. Cliquez sur l’icône **Notifications** ![](assets/notifications-area-icon-unified-shell.png) dans le coin supérieur droit de l’écran pour accéder à la page **Notifications**.
+
+   Pour plus d’informations sur la gestion des notifications Workfront Planning, voir [Gérer les préférences de notification Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
