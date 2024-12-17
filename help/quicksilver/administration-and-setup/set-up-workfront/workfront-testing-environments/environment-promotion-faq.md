@@ -4,12 +4,12 @@ content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: FAQ sur la promotion de l’environnement
-description: Explorez les questions les plus fréquemment posées concernant la promotion de l’environnement Workfront.
+description: Consultez les questions fréquentes sur la promotion de l’environnement Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 16%
@@ -18,21 +18,21 @@ ht-degree: 16%
 
 # FAQ sur la promotion de l’environnement
 
-Les questions suivantes sont fréquemment posées à propos de la promotion de l’environnement :
+Les questions suivantes sont fréquemment posées sur la promotion de l’environnement :
 
 ## La promotion inter-domaines est-elle prise en charge ?
 
 ### Réponse
 
-La promotion de l’environnement inter-domaines n’est actuellement pas prise en charge. Vous devez promouvoir entre les environnements d’un même domaine.
+La promotion interdomaines de l’environnement n’est actuellement pas prise en charge. Vous devez effectuer une promotion entre les environnements du même domaine.
 
-## L’Adobe de Business Platform / IMS est-il un prérequis pour la promotion de l’environnement ?
+## La plate-forme d’Adobe Business Platform / IMS est-elle une condition préalable à la promotion de l’environnement ?
 
 ### Réponse
 
-Non. La promotion de l’environnement est disponible pour les instances Workfront IMS et non IMS.
+Non. La promotion d’environnement est disponible pour les instances Workfront compatibles et non compatibles avec IMS.
 
-## Comment savoir si notre instance Workfront est sous une licence Prime ou Ultimate ?
+## Comment déterminer si notre instance Workfront dispose d’une licence Prime ou Ultimate ?
 
 ### Réponse
 
@@ -40,8 +40,8 @@ Non. La promotion de l’environnement est disponible pour les instances Workfro
 
    1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]** ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
    1. Cliquez sur **Système** dans le panneau de gauche.
-   1. Pour afficher votre formule Workfront, sélectionnez **Licences**.
-Votre plan s’affiche près du coin supérieur droit de la page.
+   1. Pour afficher votre plan Workfront, sélectionnez **Licences**.
+Votre plan s’affiche dans le coin supérieur droit de la page.
       ![](assets/locate-plan.png)
 
   Ou
@@ -51,7 +51,7 @@ Votre plan s’affiche près du coin supérieur droit de la page.
 
 ### Réponse
 
-Oui. Vous pouvez, par exemple, convertir des environnements de test en environnement de production ou de production en environnement de test.
+Oui. Par exemple, vous pouvez convertir un sandbox en production ou un sandbox en production.
 
 ## Le partage est-il pris en charge ?
 
@@ -63,13 +63,12 @@ Non, le partage n’est actuellement pas pris en charge.
 
 ### Réponse
 
-La restauration de package est disponible pour le package le plus récent, dans les 24 heures suivant l’installation du package.
+La restauration des packages est disponible pour le package le plus récent, dans les 24 heures suivant l’installation du package.
 
-## Y aura-t-il une option pour ignorer la promotion de composants individuels ? Là où les options `Use Existing`, `Overwrite` et `Save with a new Name`&quot; existent, peut-on ajouter `Skip` afin que vous puissiez ignorer la promotion de paramètres individuels ?
+## Y aura-t-il une option pour ignorer la promotion de composants individuels ? Où se trouvent les options `Use Existing`, `Overwrite` et `Save with a new Name` », peut-`Skip` être ajouté pour que vous puissiez ignorer la promotion de paramètres individuels ?
 
 ### Réponse
 
-
-* &quot;Utiliser existant&quot; est la même chose que &quot;sauter&quot; ou ignorer le déploiement, car il correspond à l’objet existant dans l’environnement cible et n’effectue aucune modification.
-* Pour ignorer les objets, il est recommandé de supprimer les
-tous les objets que vous ne souhaitez pas installer à partir du package de promotion ou directement depuis l’environnement source. Après avoir supprimé les objets, réassemblez le module.
+* « Utiliser existant » revient à « ignorer » ou à ignorer le déploiement, car il correspond à l’objet existant dans l’environnement cible et n’apporte aucune modification.
+* Pour ignorer des objets, nous vous recommandons de les supprimer
+tout objet que vous ne souhaitez pas installer à partir du package de promotion ou directement de l’environnement source. Après avoir supprimé les objets, réassemblez le package.
