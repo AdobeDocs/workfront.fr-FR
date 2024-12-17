@@ -5,14 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 99%
+source-wordcount: '1551'
+ht-degree: 94%
 
 ---
 
 # Accorder à un utilisateur ou à une utilisatrice un accès administratif complet
+
+<!--Audited: 12/2024-->
 
 >[!IMPORTANT]
 >
@@ -47,16 +49,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Nouveau : Standard</p>
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice Workfront. Pour plus d’informations, voir <a href="#" class="MCXref xref selected">Octroyer un accès administratif intégral pour les utilisateurs et utilisatrices</a>.</p> <p><b>NOTE</b> : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront si des restrictions supplémentaires sont définies pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
 
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Accorder un accès administratif complet au système à un utilisateur ou à une utilisatrice unique
@@ -64,11 +68,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 {{step-1-to-users}}
 
 1. Cliquez sur le nom de l’utilisateur ou de l’utilisatrice à qui vous souhaitez accorder des droits d’administration.
-1. Cliquez sur le menu Plus ![](assets/more-icon.png), puis sur **Modifier**.
+1. Cliquez sur le ![](assets/more-icon.png) de menu **Plus** à droite du nom d’utilisateur, puis cliquez sur **Modifier**.
 
-1. Dans la zone **Modifier la personne** qui apparaît, cliquez sur **Accès**.
-
-1. Dans la liste déroulante des **niveaux d’accès**, sélectionnez le niveau **Administrateur ou administratrice système**.
+   La zone **Modifier la personne** s’affiche.
+1. Cliquez sur **Accéder** dans le panneau de gauche.
+1. Dans la liste déroulante **Niveau d&#39;accès**, sélectionnez le niveau d&#39;accès **Administrateur système**.
 
    En fonction des modifications apportées à votre système, le nom de ce niveau d’accès peut avoir changé.
 
@@ -78,7 +82,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Accès d’un administrateur ou d’une administratrice Workfront par rapport à l’accès d’un utilisateur ou d’une utilisatrice disposant d’une licence Plan et ayant des droits d’administration  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-Les deux tableaux ci-dessous montrent la différence entre les droits d’accès d’un utilisateur ou d’une utilisatrice ayant un niveau d’accès à l’administration Workfront et ceux d’un utilisateur ou d’une utilisatrice ayant une licence Plan avec certains droits d’administration.
+Les deux tableaux ci-dessous montrent la différence entre les droits d’accès d’un utilisateur disposant d’un niveau d’accès d’administrateur système Workfront et ceux d’un utilisateur disposant d’une licence de plan avec certains droits d’administration.
 
 Les administrateurs et les administratrices de Workfront peuvent visualiser tous les objets du système (quelle que soit la personne qui les a créés), en créer de nouveaux et modifier ou supprimer des objets existants. Un accès complet à tous les objets du système leur est accordé.
 

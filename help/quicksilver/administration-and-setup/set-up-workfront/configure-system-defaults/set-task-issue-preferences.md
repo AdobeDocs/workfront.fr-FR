@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Configuration des préférences de tâche et de problème à l’échelle du système
+title: Configuration des préférences de tâches et de problèmes à l’échelle du système
 description: Vous pouvez configurer des préférences à l’échelle du système pour les tâches et les problèmes. Ces préférences ont un impact sur la façon dont vos utilisateurs et utilisatrices créent des tâches et des problèmes dans Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f8f86eae11e7f175e130d7f0265d92519923402f
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 96%
@@ -21,6 +21,13 @@ ht-degree: 96%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 En tant qu’administrateur ou administratrice [!DNL Adobe Workfront], vous pouvez configurer les préférences de l’ensemble du système pour les tâches et les problèmes. Ces préférences ont un impact sur la façon dont vos utilisateurs et utilisatrices créent des tâches et des problèmes dans [!DNL Workfront].
 
@@ -42,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td><p>Nouvelle : [!UICONTROL Standard]</p>
    ou
    <p>Actuelle : [!UICONTROL Plan]</p></td> 
@@ -54,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,6 +76,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    * [[!UICONTROL Paramètres par défaut de la nouvelle tâche]](#new-task-defaults)
    * [[!UICONTROL Événements]](#issues)
    * [[!UICONTROL Suppression]](#deletion)
+
+   <!--* <span class="preview">[Move](#move)</span>-->
+
    * [[!UICONTROL Dates effectives]](#actual-dates)
    * [[!UICONTROL Délégation]](#delegation)
    * [[!UICONTROL Accès]](#access)
@@ -119,7 +129,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Lors de la conversion d’un problème en tâche]</td> 
+    <td role="rowheader">[!UICONTROL Lors de la conversion d'un événement en tâche]</td> 
     <td> <p>Les paramètres de cette section déterminent ce qui se passe pendant le processus de conversion d’un problème en tâche :</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong> : lors de la conversion d’un problème, il reste visible en tant que problème jusqu’à ce que la tâche soit terminée. Le statut du problème passe automatiquement à [!UICONTROL Closed] lorsque la tâche est terminée. Lorsque cette option est désélectionnée, le problème est supprimé.</p> <p><b>NOTE</b> :  <p>Les utilisateurs et les utilisatrices qui n’ont pas l’accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème pendant la conversion, quel que soit le statut de ce paramètre. Pour plus d’informations sur l’accès et les autorisations relatives aux problèmes, consultez :</p> 
@@ -163,6 +173,22 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 * Si vous désélectionnez cette option, un avertissement d’interdiction s’affiche lorsque vous supprimez une tâche ou un problème comportant des heures consignées, ou lorsque vous supprimez un projet comportant des heures consignées pour ses tâches ou ses problèmes. L’avertissement spécifie que l’équipe d’administration n’autorise pas la suppression des tâches ou des problèmes pour lesquels des heures ont été consignées. Les tâches, les problèmes ou les projets pour lesquels des heures ont été consignées ne peuvent pas être supprimés.
 
+<!--*****also replace the & with "and" in the Deletion section
+
+<div class="preview">
+
+### Move
+
+**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+
+* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+
+* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+
+</div>
+
+-->
+
 ### [!UICONTROL Dates effectives] {#actual-dates}
 
 <table style="table-layout:auto"> 
@@ -194,14 +220,14 @@ Activer le paramètre **[!UICONTROL Autoriser les utilisateurs et utilisatrices 
 
 Lorsque ce paramètre est activé, les utilisateurs et les utilisatrices peuvent voir les éléments suivants :
 
-* Le lien [!UICONTROL **Déléguer**] dans leurs widgets [!UICONTROL Mon travail], [!UICONTROL Mes tâches] ou [!UICONTROL Mes problèmes] dans la zone [!UICONTROL Accueil]. Ils peuvent y déléguer des tâches et des affectations d’émission.
+* Le lien [!UICONTROL **Déléguer**] dans leurs widgets [!UICONTROL Mon travail], [!UICONTROL Mes tâches] ou [!UICONTROL Mes problèmes] dans la zone [!UICONTROL Accueil]. Il peut déléguer des affectations de tâches et d’événements à partir de là.
 
   >[!NOTE]
   >
   >  Le lien [!UICONTROL **Déléguer les approbations**] est toujours activé dans la zone [!UICONTROL Accueil].
 
 * Indication qu’une tâche ou un problème fait l’objet d’une délégation à un autre utilisateur ou une autre utilisatrice dans la zone [!UICONTROL Affectations et délégations] dans l’en-tête de la tâche ou du problème.
-* Une indication qu’une tâche ou un problème est délégué à un autre utilisateur dans son widget [!UICONTROL My Work] dans [!UICONTROL Home].
+* Indique qu’une tâche ou un événement est délégué à un autre utilisateur dans son widget [!UICONTROL Mon travail] de l’[!UICONTROL Accueil].
 
   Si vous désactivez le paramètre [!UICONTROL Autoriser les utilisateurs et utilisatrices à déléguer leurs tâches et problèmes], les délégations actuellement programmées s’arrêteront et les personnes déléguées recevront une notification par e-mail indiquant que la délégation a été arrêtée.
 

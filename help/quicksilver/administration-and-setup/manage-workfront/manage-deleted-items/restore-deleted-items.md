@@ -8,10 +8,10 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -137,7 +137,7 @@ Lorsque vous restaurez un projet, une tâche ou un problème, les informations a
 
 * Objets de résolution
 
-  Un objet de résolution est un problème converti configuré avec l’option **Conserver le problème d’origine et lier sa résolution à ce** &lt;**project** or **task)**>. Si vous supprimez le projet ou la tâche parent, le problème n’est plus identifié comme un objet de résolution, car il n’existe plus de lien le reliant au projet ou à la tâche. Si vous restaurez le parent, le lien ne sera pas restauré.
+  Un objet de résolution est un problème converti configuré avec l’option **Conserver le problème d’origine et lier sa résolution à ceci** &lt;**(projet** ou **tâche)**>. Si vous supprimez le projet ou la tâche parent, le problème n’est plus identifié comme un objet de résolution, car il n’existe plus de lien le reliant au projet ou à la tâche. Si vous restaurez le parent, le lien ne sera pas restauré.
 
   Pour plus d’informations sur la manière dont un administrateur ou une administratrice Workfront ou de groupes configure les problèmes pour qu’ils correspondent à l’objet de résolution lors de la conversion, voir [Configurer les préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) et [Configurer les préférences de tâche et de problème pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 

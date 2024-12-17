@@ -2,26 +2,27 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filtre : Tâches personnelles'
-description: Ce filtre de tâche renvoie des requêtes de travail ad hoc envoyées à un utilisateur ou des éléments à faire ajoutés par les utilisateurs dans leur zone d’accueil. Les tâches personnelles ne sont pas connectées à un projet, mais elles peuvent être déplacées vers un projet, si nécessaire.
+title: 'Filtrer : tâches personnelles'
+description: Ce filtre de tâches renvoie les demandes de travail ad hoc envoyées à un utilisateur ou une utilisatrice, ou les tâches ajoutées par les utilisateurs et utilisatrices dans leur zone d’Accueil. Les tâches personnelles ne sont pas liées à un projet, mais elles peuvent être déplacées vers un projet, si nécessaire.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 27%
+source-wordcount: '302'
+ht-degree: 26%
 
 ---
 
-# Filtre : tâches personnelles
+# Filtrer : tâches personnelles
 
 <!--Audited: 10/2024-->
 
-Ce filtre de tâche renvoie des requêtes de travail ad hoc envoyées à un utilisateur ou des éléments à faire ajoutés par les utilisateurs dans leur zone d’accueil.
+Ce filtre de tâches renvoie les demandes de travail ad hoc envoyées à un utilisateur ou une utilisatrice, ou les tâches ajoutées par les utilisateurs et utilisatrices dans leur widget Tâches dans la zone d’Accueil.
 
-Les requêtes de travail ad hoc et les tâches sont enregistrées dans Adobe Workfront en tant que tâches personnelles.
+Les demandes de travail ad hoc et les tâches à effectuer sont enregistrées dans Adobe Workfront en tant que tâches personnelles.
 
-Les tâches personnelles ne sont pas connectées à un projet, mais elles peuvent être déplacées vers un projet, si nécessaire.
+Les tâches personnelles ne sont pas liées à un projet, mais elles peuvent être déplacées vers un projet, si nécessaire. Pour plus d’informations, voir [Créer des tâches personnelles](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
 
 ![](assets/personal-tasks-report.png)
 
@@ -43,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -61,21 +62,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Filtrage des tâches personnelles
+## Filtrer les tâches personnelles
 
 Pour créer ce filtre :
 
-1. Accédez à une liste de tâches ou à un rapport de tâches.
+1. Accédez à une liste de tâches ou à un rapport de tâche.
 1. Dans le menu déroulant **Filtre**, cliquez sur **Nouveau filtre**.
-1. (Conditionnel) Cliquez sur **Ajouter une règle de filtre** pour accéder au filtre à partir d’un rapport ou commencez à sélectionner vos critères de filtre dans le premier champ, si vous accédez au filtre à partir d’une liste.
+1. (Conditionnel) Cliquez sur **Ajouter une règle de filtrage** si vous accédez au filtre à partir d’un rapport ou commencez à sélectionner vos critères de filtre dans le premier champ, si vous accédez au filtre à partir d’une liste.
 1. (Conditionnel) Sélectionnez les critères de filtrage suivants :
 
-   * À partir d’un filtre de liste : **Task** > **Personal** **Is true**
-   * À partir d’un filtre de rapport : **Tâche** > **Personnelle** > **Égal À** > **True**.
+   * À partir d’un filtre de liste : **Tâche** > **Personnel** **Est vrai**
+   * À partir d’un filtre de rapport : **Tâche** > **Personnel** > **Égal à (sensible à la casse)** > **Vrai**.
 1. Enregistrez le filtre.
 
-   La liste affiche uniquement les tâches personnelles qui ne figurent sur aucun projet.
+   La liste affiche uniquement les tâches personnelles qui ne font partie d’aucun projet.

@@ -1,19 +1,28 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Déplacer les problèmes
+title: Déplacer les événements
 description: Vous pouvez déplacer des problèmes entre des projets et des tâches.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 6c82c585376b41cff0e57b253b6a214fb00309de
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '827'
+ht-degree: 94%
 
 ---
 
 # Déplacer les problèmes
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 Vous pouvez déplacer des problèmes entre les objets suivants :
 
@@ -24,6 +33,8 @@ Vous pouvez déplacer des problèmes entre les objets suivants :
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -31,25 +42,34 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> <p>Licence de révision ou une licence supérieure pour déplacer les problèmes dans la section Problèmes d’un projet.</p> </td> 
+   <td> <p>Nouveau :</p> 
+   <ul><li>Contributeur ou version ultérieure</li>
+   <li>Léger ou supérieur pour déplacer les problèmes dans la section Problèmes d’un projet</li></ul>
+   <p>Actuel :</p>
+   <ul>
+   <li><p>Requête ou supérieure</p></li>
+   <li><p>Licence de révision ou une licence supérieure pour déplacer les problèmes dans la section Problèmes d’un projet.</p></li></ul>   
+     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur aux Projets et aux Tâches</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur l’accès aux problèmes liés à votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a>. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>. </p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur aux Projets et aux Tâches</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations liées aux problèmes</p> <p>Autorisations Contribuer à l’élément vers lequel vous déplacez le problème avec la possibilité d’ajouter des problèmes.</p> <p> Pour plus d’informations sur l’octroi d’autorisations aux problèmes, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partager un problème</a></p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Gérer les autorisations liées aux problèmes</p> <p>Autorisations Contribuer à l’élément vers lequel vous déplacez le problème avec la possibilité d’ajouter des problèmes.</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Remarques relatives au déplacement de problèmes
 
@@ -58,6 +78,14 @@ Tenez compte des points suivants lors du déplacement de problèmes qui contienn
 * **Lorsqu’un problème est associé à une file d’attente des demandes :** lorsque vous déplacez un problème vers un autre objet et qu’il est associé à une file d’attente des demandes, le problème déplacé n’est plus associé à la file d’attente d’origine de laquelle provenait le premier problème.
 * **Lorsqu’un document est joint au problème :** lorsque vous déplacez un problème vers un autre objet et qu’un document lui est joint, le document, ses versions et ses épreuves sont également déplacés vers le nouveau problème. Les approbations associées au document ne sont pas déplacées.
 * **Lorsqu’un problème est lié à un document ou à un dossier :** lorsque vous déplacez un problème dont les documents ou dossiers sont liés à un service tiers tel que Google Drive, les liens vers les documents sont déplacés avec le problème.
+
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving issues that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
 
 ## Déplacer les problèmes dans une liste
 
@@ -74,13 +102,7 @@ Vous pouvez déplacer un ou plusieurs problèmes à partir d’une liste de prob
 
    ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
-1. Poursuivez le déplacement du problème, comme décrit dans la section [Déplacer un seul problème](#move-a-single-issue) en commençant à l’étape 2.
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: ensure step stays accurate)
-   </MadCap:conditionalText>
-   -->
+1. Continuez à déplacer les problèmes comme décrit dans la section [Déplacer un seul problème](#move-a-single-issue) en commençant par l’étape 2.
 
 ## Déplacer un seul problème {#move-a-single-issue}
 

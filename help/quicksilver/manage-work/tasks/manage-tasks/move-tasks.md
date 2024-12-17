@@ -1,19 +1,28 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Déplacer les tâches
+title: Déplacer tâches
 description: Vous pouvez déplacer des tâches vers différents projets ou vers différentes tâches parent dans Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 100%
+source-wordcount: '1442'
+ht-degree: 99%
 
 ---
 
 # Déplacer les tâches
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 Vous pouvez déplacer des tâches dans Adobe Workfront entre les objets suivants :
 
@@ -27,6 +36,8 @@ Vous pouvez déplacer une seule tâche ou plusieurs tâches à la fois depuis un
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des droits d’accès suivants pour effectuer les actions décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -34,29 +45,29 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licences Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Nouveau plan : standard </p> 
  <p>ou</p>  
 <p>Plan actuel : travail ou supérieur </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux tâches et aux projets</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux tâches et aux projets</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion pour les tâches</p> <p>Autorisations de contribution ou supérieures au projet avec possibilité d’ajouter des tâches</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Autorisations de gestion pour les tâches</p> <p>Autorisations de contribution ou supérieures au projet avec possibilité d’ajouter des tâches</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Remarques concernant le déplacement des tâches
 
@@ -75,6 +86,14 @@ Tenez compte des points suivants lors du déplacement d’une tâche :
 Par défaut, les éléments suivants ne se déplacent pas avec la tâche :
 
 * Jalons
+
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving tasks that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
 
 ## Déplacer des tâches dans une liste
 
@@ -100,7 +119,7 @@ Par défaut, les éléments suivants ne se déplacent pas avec la tâche :
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
-   La zone Déplacer la tâche s’affiche.
+   La zone **Déplacer la tâche** s’affiche
 
 1. Continuez à déplacer la tâche en suivant l’étape 4 de la section [Déplacer une tâche au niveau de la tâche](#move-a-task-at-the-task-level) de cet article.
 

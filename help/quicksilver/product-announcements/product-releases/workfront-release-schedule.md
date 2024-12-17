@@ -8,10 +8,10 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '923'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles sont prévu
 
 Les mises à jour sont généralement disponibles entre 20 et 22 h, heure des Rocheuses, le soir précédant la date de publication.
 
-En règle générale, les fonctionnalités de l’aperçu sont mises à disposition dans votre environnement de production avec la prochaine version. Cependant, dans certains cas, des fonctionnalités sont disponibles dans l’environnement de production en dehors d’une version planifiée. Ces modifications restent dans l’aperçu pendant un minimum de 2 semaines afin que vous ayez le temps de vous familiariser avec les modifications. Ces modifications sont également communiquées par le biais du centre d’annonces au moment de leur ajout à l’aperçu.
+En règle générale, les fonctionnalités de l’aperçu sont mises à disposition dans votre environnement de production avec la prochaine version. Cependant, dans certains cas, des fonctionnalités sont disponibles dans l’environnement de production en dehors d’une version planifiée. Ces modifications restent généralement dans la Prévisualisation pendant au moins 2 semaines afin que vous ayez le temps de vous familiariser avec elles.
 
 Pour plus d’informations sur les processus de versions trimestrielles et rapides, consultez [Activer ou désactiver les versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -84,7 +84,7 @@ Parfois, Workfront peut publier des fonctionnalités qui peuvent ne pas être do
 
 Si vous rencontrez dans le système quelque chose qui ne correspond pas à la documentation et sur laquelle vous avez des questions, nous vous invitons à contacter notre équipe d’assistance clientèle. Pour plus d’informations, voir [Contacter l’assistance clientèle](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-## &#x200B;
+## Notes de mise à jour
 
 Utilisez les notes de mise à jour de la prochaine version planifiée pour découvrir les nouvelles fonctionnalités disponibles dans la prévisualisation et quand elles seront publiées dans l’environnement de production.
 
