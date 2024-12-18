@@ -1,21 +1,25 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Ajout ou suppression de membres d’un panorama
+title: Ajouter ou supprimer des membres d’un panorama
 description: Les personnes doivent être ajoutées au panorama en tant que membres avant qu’elles ne puissent afficher le panorame et être affectées aux cartes.
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 97%
+source-wordcount: '475'
+ht-degree: 65%
 
 ---
 
 # Ajouter ou supprimer des membres d’un panorama
 
+{{highlighted-preview}}
+
 Les personnes et les équipes doivent être ajoutées au panorama en tant que membres avant qu’elles ne puissent afficher le panorama.
+
+Le créateur d’un panorama en est le propriétaire par défaut. Le propriétaire du panorama est la seule personne qui peut supprimer ce panorama ou mettre à jour ses filtres dans le panneau Configurer. <span class="preview">Seul un administrateur système ou le propriétaire actuel du panorama peut modifier le propriétaire du panorama.</span>
 
 ## Conditions d’accès
 
@@ -80,3 +84,23 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
    >[!NOTE]
    >
    >Vous ne pouvez pas supprimer la personne propriétaire du panorama.
+
+<div class="preview">
+
+## Modifier le propriétaire du panorama
+
+>[!NOTE]
+>
+>Seul un administrateur système ou le propriétaire actuel du panorama peut changer de propriétaire. Un panorama ne peut avoir qu’un seul propriétaire.
+
+1. Accédez au panorama.
+1. Cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/more-icon-spectrum.png) en regard du nom du panorama, puis choisissez **[!UICONTROL Modifier le propriétaire du panorama]**.
+1. Dans la boîte de dialogue Modifier le propriétaire du panorama , recherchez et sélectionnez l’utilisateur dont vous souhaitez faire le propriétaire.
+
+   Vous ne pouvez pas rechercher des utilisateurs qui sont déjà membres du panorama. Pour qu’un membre existant devienne le propriétaire, vous devez d’abord le supprimer du panorama. Le fait de définir un utilisateur comme propriétaire du panorama permet de l’ajouter au panorama.
+
+   Seul un utilisateur peut être le propriétaire du panorama. Une équipe ne peut pas être propriétaire.
+
+1. Cliquez sur [!UICONTROL **Mettre à jour**].
+
+</div>

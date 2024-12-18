@@ -7,16 +7,18 @@ description: Vous pouvez supprimer ou archiver un panorama dans Workfront. La su
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 3e33ba722ff066fd7fec8c7762c63e8c8d3fc4b8
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 98%
+source-wordcount: '324'
+ht-degree: 88%
 
 ---
 
 # Supprimer ou archiver un panorama
 
 Vous pouvez supprimer ou archiver un panorama dans [!DNL Workfront]. La suppression d’un panorama le supprime définitivement de [!DNL Workfront], tandis que l’archivage d’un panorama conserve toutes les cartes et permet de le restaurer ultérieurement.
+
+Seul le propriétaire du panorama peut supprimer le panorama.
 
 ## Conditions d’accès
 
@@ -58,7 +60,7 @@ Lorsque vous supprimez un panorama, il est définitivement supprimé de [!DNL Wo
 
    >[!NOTE]
    >
-   >Vous ne pouvez supprimer que les panoramas que vous avez créés, et non ceux pour lesquels vous avez fait l’objet d’un ajout.
+   >Vous pouvez uniquement supprimer les forums que vous avez créés ou dont vous avez été nommé propriétaire, et non les forums auxquels vous avez été ajouté en tant que membre.
 
    ![Menu Plus du panorama](assets/boards-board-more-menu.png)
 
