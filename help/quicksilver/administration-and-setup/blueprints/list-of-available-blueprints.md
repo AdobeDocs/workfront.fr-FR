@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 04d41a8c9c8c04f2e7ef308465328ccc57bd3195
 workflow-type: tm+mt
-source-wordcount: '2019'
-ht-degree: 96%
+source-wordcount: '2017'
+ht-degree: 94%
 
 ---
 
@@ -76,16 +76,14 @@ Ce plan directeur contient la configuration des structures organisationnelles à
 **[!UICONTROL Plan d’intégration des nouveaux employés et nouvelles employées]**
 Ce plan directeur contient un modèle que l’organisation [!DNL Workfront professional services] a utilisé pendant des années durant les engagements de mise en œuvre avec les équipes des ressources humaines pour aider les nouveaux employés et nouvelles employées à suivre leurs activités d’intégration.
 
-**[!UICONTROL Nouvelle préparation à l&#39;embauche]**
-Ce plan directeur contient un modèle que l’entreprise de services professionnels [!DNL Workfront] a utilisé pendant des années lors des réunions de mise en œuvre avec les équipes de RH pour montrer aux spécialistes des ressources humaines et aux gestionnaires d&#39;embauche les activités essentielles qui doivent être menées à bien pour que le premier jour au travail du nouveau personnel soit couronné de succès.
+**[!UICONTROL Préparation à la nouvelle embauche]**
+Ce plan directeur contient un modèle que l’organisation des services professionnels [!DNL Workfront] a utilisé pendant des années durant les engagements de mise en œuvre avec les équipes des ressources humaines pour inciter les spécialistes des ressources humaines et les responsables d’embauche à mener à bien les activités essentielles pour rendre remarquable la première journée d’un nouvel employé ou d’une nouvelle employée.
 
-**Départ | Tableau de bord Départ de l’utilisateur ou de l’utilisatrice**
+**Offboarding | Tableau de bord de l’utilisateur sortant**
+Ce plan directeur contient un seul tableau de bord avec 13 rapports pour vous aider à rechercher, réaffecter ou gérer les objets et affectations associés à un utilisateur quittant Workfront. Vous pouvez également utiliser ces rapports pour une personne qui change de fonction ou de groupe afin de réaffecter son travail.
 
-Ce plan directeur contient un seul tableau de bord comprenant 13 rapports pour vous aider à trouver, réaffecter ou gérer les objets et affectations associés à une personne quittant Workfront. Vous pouvez également utiliser ces rapports pour une personne qui change de fonction ou de groupe afin de réaffecter son travail.
-
-[!BADGE Nouveau]{type=negative}**Tableau de bord People Manager**
-
-Ce plan directeur contient un seul tableau de bord avec 12 rapports pour donner aux gestionnaires de personnes la visibilité sur le travail de leurs rapports directs.
+**Tableau de bord de People Manager**
+Ce plan directeur contient un seul tableau de bord avec 12 rapports afin de donner aux responsables de personnes une visibilité sur le travail de leurs subordonnés directs.
 
 **[!UICONTROL Post-mise en œuvre : nouveau déploiement du cas d’utilisation]**
 Ce plan directeur contient un modèle unique qui organise le travail qu’un client ou une cliente [!DNL Workfront] devra réaliser pour gérer l’extension aux processus suivants après leur mise en œuvre initiale.
@@ -138,9 +136,9 @@ Ce plan directeur contient un tableau de bord unique comprenant 21 rapports pou
 
 Ce plan directeur contient un seul tableau de bord avec 8 rapports pour vous aider à tirer parti des avantages de Workfront. Ces rapports sont conçus pour vous aider à traduire vos services à la clientèle en valeurs mesurables dont vous pouvez effectuer le suivi afin d’obtenir de meilleurs résultats.
 
-[!BADGE Nouveau]{type=negative}**Réalisation de valeur | Tableau de bord des workflows de conformité**
+**Réalisation de valeur | Gouverner le tableau de bord des workflows de conformité**
 
-Ce plan directeur contient un seul tableau de bord avec 7 rapports pour vous aider à réaliser la valeur de Workfront. Pour une utilisation quotidienne ou dans des secteurs hautement réglementés, ces rapports qui permettent de gagner du temps permettent de rendre des comptes et d&#39;améliorer les résultats au fil du temps en aidant à suivre et à gérer les workflows et les besoins de conformité.
+Ce plan directeur contient un seul tableau de bord avec 7 rapports pour vous aider à réaliser la valeur de Workfront. Pour une utilisation quotidienne ou dans des secteurs hautement réglementés, ces rapports qui permettent de gagner du temps encouragent la responsabilité et améliorent les résultats au fil du temps en aidant à suivre et à gérer les workflows et les besoins de conformité.
 
 **Réalisation de la valeur | Tableau de bord de révision et d’approbation**
 
