@@ -9,10 +9,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: e2c8af4428fa7ef910dad3a29abcc375760855cb
+source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 93%
+source-wordcount: '156'
+ht-degree: 89%
 
 ---
 
@@ -45,8 +45,8 @@ Cette section contient les articles suivants :
 * [Copier des modules ou des scénarios dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
 * [Mettre à jour un module vers une nouvelle version dans un scenario  [!DNL Adobe Workfront Fusion] ](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [Afficher et gérer les scénarios verrouillés dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
-* [Exécution de l’expert en notation de scénario dans Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
-
+* [Exécuter l’expert en notation de scénario dans Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
+* [Utiliser cURL pour ajouter un module HTTP](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
 
 
 

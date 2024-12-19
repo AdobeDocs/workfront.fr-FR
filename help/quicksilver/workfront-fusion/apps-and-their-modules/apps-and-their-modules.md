@@ -10,10 +10,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 84246c2720e54e270de217167e88e803a92fdafc
+source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 97%
+source-wordcount: '233'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Cette section contient les articles suivants :
 * [[!DNL Adobe Campaign Classic] modules](../../workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
 * [[!DNL Adobe Creative Cloud Libraries] modules](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
 * [Modules [!DNL Adobe Experience Manager Assets]](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
-* [Adobe I/O des modules d’événements](../../workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
+* [Modules d’événements d’Adobe I/O ](../../workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
 * [Modules [!DNL Adobe Journey Optimizer]](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [Modules Adobe Lightroom](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
 * [Modules Adobe Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
@@ -87,6 +87,7 @@ Cette section contient les articles suivants :
 * [Modules d’image](../../workfront-fusion/apps-and-their-modules/image-module.md)
 * [[!DNL Jira] Modules de logiciel](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)
 * [Modules [!UICONTROL JSON]](../../workfront-fusion/apps-and-their-modules/json-modules.md)
+* [Module [!UICONTROL JSONata]](../../workfront-fusion/apps-and-their-modules/jsonata-module.md)
 * [Module [!UICONTROL JWT]](../../workfront-fusion/apps-and-their-modules/jwt-modules.md)
 * [[!DNL MariaDB] modules](../../workfront-fusion/apps-and-their-modules/mariadb-modules.md)
 * Modules [[!UICONTROL Markdown]](../../workfront-fusion/apps-and-their-modules/markdown-modules.md)

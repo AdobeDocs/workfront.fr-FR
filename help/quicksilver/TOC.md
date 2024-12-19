@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 3f10e64745b95e4c7d668d798a6c71469948d617
 workflow-type: tm+mt
-source-wordcount: '14699'
+source-wordcount: '14715'
 ht-degree: 93%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 93%
          * [21.1 Autres améliorations](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Activité Version d’Adobe Workfront Fusion {#fusion-release}
          * [Activité Version d’Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Activité Version de Workfront Fusion : semaine du mardi 16 décembre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-16.md)
          * [Activité Version de Workfront Fusion : semaine du mardi 2 décembre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
          * [Activité de sortie Workfront Fusion : semaine du mardi 25 novembre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Activité de sortie Workfront Fusion : semaine du mardi 11 novembre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
@@ -2264,6 +2265,7 @@ ht-degree: 93%
       * [Déboguer des scénarios avec le DevTool d’Adobe Workfront Fusion](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
       * [Génération d’un segment de scénario à l’aide de l’IA](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * [Exécuter l’expert en notation de scénario dans Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
+      * [Utiliser cURL pour ajouter un module HTTP](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
       * Modèles de scénarios Adobe Workfront Fusion {#fusion-scenario-templates}
          * [Modèles de scénarios](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [Vue d’ensemble des modèles [!DNL Fusion]](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
@@ -2342,6 +2344,7 @@ ht-degree: 93%
       * [Modules d’image](workfront-fusion/apps-and-their-modules/image-module.md)
       * [Modules de Jira Software](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
       * [Modules JSON](workfront-fusion/apps-and-their-modules/json-modules.md)
+      * [Modules JSONata](workfront-fusion/apps-and-their-modules/jsonata-module.md)
       * [Modules JWT](workfront-fusion/apps-and-their-modules/jwt-modules.md)
       * [Modules MariaDB](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Modules Markdown](workfront-fusion/apps-and-their-modules/markdown-modules.md)
