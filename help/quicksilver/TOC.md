@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 30f94553172113df71c7a5aa965d24d17fd449a1
+source-git-commit: 8706a099b3f8111d78c3625ac1fce02cfbe07452
 workflow-type: tm+mt
-source-wordcount: '14728'
+source-wordcount: '14733'
 ht-degree: 93%
 
 ---
@@ -904,7 +904,7 @@ ht-degree: 93%
       * [Priorités : index des articles](workfront-basics/priorities/priorities-toc.md)
       * [Priorités : prochaines versions](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [Prise en main des priorités](workfront-basics/priorities/get-started-with-priorities.md)
-      * [Afficher les détails du projet et de la tâche dans la liste de travail Priorités](workfront-basics/priorities/view-task-project-details.md)
+      * [Afficher les détails du projet et de la tâche dans Priorités](workfront-basics/priorities/view-task-project-details.md)
       * [Filtrer et regrouper votre travail dans Priorités](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [Personnaliser les colonnes de la liste de tâches](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [Hiérarchiser les éléments de travail importants](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
@@ -913,6 +913,7 @@ ht-degree: 93%
       * [Consigner le temps dans les priorités](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
       * [Charger les fichiers dans les priorités](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
       * [Ajouter et gérer des liens rapides dans les priorités](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
+      * [Charger des documents et créer des épreuves dans les priorités](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
    * Accueil {#home}
       * [Page d’accueil](workfront-basics/using-home/home.md)
       * Utiliser la zone d’accueil {#use-home-area}

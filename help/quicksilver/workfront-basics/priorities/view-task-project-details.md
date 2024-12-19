@@ -1,23 +1,23 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Afficher les détails des projets et des tâches dans la liste de travail Priorités
+title: Afficher les détails du projet et de la tâche dans la liste de travail Priorités
 description: Vous pouvez afficher les détails du projet et de la tâche dans la liste de travail des priorités.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: cd60710c8002d090bf1ed7a300d3e600d98032b1
+source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 39%
+source-wordcount: '395'
+ht-degree: 25%
 
 ---
 
-# Afficher les détails des projets et des tâches dans la liste de travail Priorités
+# Afficher les détails du projet et de la tâche dans Priorités
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
-Vous pouvez afficher les détails du projet et de la tâche dans la liste de travail des priorités.
+Vous pouvez afficher les détails des projets, des tâches et des événements dans la liste de travail des priorités.
 
 ## Conditions d’accès
 
@@ -38,7 +38,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> 
-   <p>Actuel : réviseur ou version ultérieure</p>
+   <p>Current : Reviewer ou supérieur</p>
    <p>Nouveau : Light ou supérieur</p> 
    </td> 
   </tr> 
@@ -57,33 +57,72 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Afficher les détails du projet
+## Afficher les détails dans le panneau latéral de la liste de tâches
+
+### Afficher les détails du projet
 
 {{step1-to-priorities}}
 
-1. Dans la liste de travail, placez le pointeur de la souris sur le nom de l’élément de travail, puis cliquez sur l’icône **Résumé** ![icône de résumé ouverte](assets/summary-icon.png).
-1. Cliquez sur **Projet** dans la partie supérieure du panneau Résumé. Ici, vous pouvez
-   * Affichage et modification des détails et de la description du projet
+1. Dans la liste des tâches, passez la souris sur le nom de l’élément de travail, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
+1. Cliquez sur **Projet** en haut du panneau Résumé . Ici, vous pouvez
+   * Afficher et modifier les détails et la description du projet
    * Afficher et ajouter des commentaires sur le projet
    * Enregistrer des heures
    * Ajouter un fichier
-   * <span class="preview">Accédez directement au projet</span>
+   * <span class="preview">Accéder directement au projet</span>
 
-   ![détails du projet](assets/project-details.png)
+   ![détails du projet ](assets/project-details.png)
    <!--new screen for prod ![](assets/project-details-new.png)-->
 
-## Afficher les détails de la tâche
+### Afficher les détails de la tâche
 
 {{step1-to-priorities}}
 
-1. Dans la liste de travail, passez la souris sur le nom du travail, puis cliquez sur l’icône **Résumé** ![icône de résumé ouverte](assets/summary-icon.png).
+1. Dans la liste des tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
 1. La tâche est sélectionnée par défaut. Ici, vous pouvez
-   * Affichage et modification des détails et de la description du projet
+   * Afficher et modifier les détails et la description du projet
    * Afficher et ajouter des commentaires sur le projet
-   * Affichage et ajout de documents
+   * <span class="preview">Afficher et ajouter des documents</span>
+   * <span class="preview">Création d’un BAT</span>
    * Enregistrer des heures
    * Ajouter un fichier
    * Ajout de liens rapides
 
-   ![détails de la tâche](assets/task-details.png)
+   ![ détails de la tâche ](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
+
+### Afficher les détails de l&#39;événement
+
+{{step1-to-priorities}}
+
+1. Dans la liste des tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
+1. L&#39;événement est sélectionné par défaut. Ici, vous pouvez
+   * Afficher et modifier les détails et la description du projet
+   * Afficher et ajouter des commentaires sur le projet
+* <span class="preview">Afficher et ajouter des documents</span>
+* <span class="preview">Création d’un BAT</span>
+   * Enregistrer des heures
+   * Ajouter un fichier
+   * Ajout de liens rapides
+
+  <!--new screen for prod ![issue details](assets/issue-details.png)-->
+
+## Afficher les détails sur la page Détails
+
+<span class="preview">Vous pouvez afficher des mises à jour en temps réel sur la page Détails d’une tâche ou d’un événement. Vous pouvez également voir si d’autres personnes consultent la page en même temps que vous avec des indicateurs de présence en temps réel.</span>
+
+## Afficher les détails de l’élément de travail
+
+{{step1-to-priorities}}
+
+1. Dans la liste des tâches, cliquez sur le nom de l’élément de travail. Sur la page Détails , vous pouvez effectuer les opérations suivantes :
+
+* Afficher et modifier les détails et la description du projet
+* Afficher et ajouter des commentaires sur le projet
+* <span class="preview">Afficher et ajouter des documents</span>
+* <span class="preview">Création d’un BAT</span>
+* Enregistrer des heures
+* Ajouter un fichier
+* Ajout de liens rapides
+
+<!-- screenshot for prod-->

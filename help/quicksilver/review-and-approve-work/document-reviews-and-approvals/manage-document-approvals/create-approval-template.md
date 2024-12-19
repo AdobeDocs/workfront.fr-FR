@@ -6,16 +6,16 @@ description: Vous pouvez créer des modèles d’approbation afin d’optimiser 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: a077266bf91beca1fb6a7a841220f11ebd6687ea
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 92%
+ht-degree: 79%
 
 ---
 
 # Créer un modèle d’approbation pour les ressources et les documents
 
-Dans la zone Configuration de Workfront, les personnes disposant d’une licence standard peuvent créer des modèles d’approbation réutilisables. Une fois créés, les modèles d’approbation peuvent être appliqués aux ressources dans la zone Documents d’un projet, d’une tâche ou d’un problème.
+Dans la zone Configuration de Workfront , les utilisateurs disposant d’une licence Standard peuvent créer des modèles d’approbation réutilisables. Une fois créés, les modèles d’approbation peuvent être appliqués aux ressources dans la zone Documents d’un projet, d’une tâche ou d’un problème.
 
 >[!IMPORTANT]
 >
@@ -59,7 +59,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
    | Nom de modèle | Commencez à saisir un nom pour ce modèle. |
    |----------------------------|---|
-   | **(Facultatif) Délai** | Saisissez le délai en jours. La date limite d’approbation est calculée à partir de ce champ lorsque le modèle est appliqué à une ressource. |
+   | **(Facultatif) Délai** | Saisissez le délai en jours. La date limite de validation est calculée à partir de ce champ une fois le modèle appliqué à une ressource. |
    | **Ajouter des personnes approbatrices ou des personnes réviseuses** | Commencez à saisir le nom des personnes ou des équipes, puis désigner-les comme réviseuses ou approbatrices. |
 
 1. Cliquer sur **Enregistrer**.

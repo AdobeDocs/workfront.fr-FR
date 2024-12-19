@@ -1,14 +1,14 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Priorités
-description: Passez en revue ces zones pour mieux comprendre la zone Priorités dans Adobe Workfront.
+description: Consultez ces sections pour mieux comprendre la section Priorités dans Adobe Workfront.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
+source-git-commit: b99e7b0f33f950c25aa83e3d1c8f13b08bc27a39
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '87'
 ht-degree: 8%
 
 ---
@@ -17,14 +17,16 @@ ht-degree: 8%
 
 Cette section contient les sous-sections suivantes :
 
-* [Priorités : Versions à venir](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
+* [Priorités : prochaines versions](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [Prise en main des priorités](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
-* [Afficher les détails des projets et des tâches dans la liste de travail Priorités](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
-* [Filtrage et regroupement de vos travaux en priorités](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
-* [Personnalisation des colonnes de la liste de travail des priorités](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
-* [Définir la priorité des tâches importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
-* [Création de tâches et de problèmes dans les priorités](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
-* [Ajout et affichage de mises à jour dans les priorités](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)
-* [Temps de connexion aux priorités](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
-* [Chargement de fichiers dans les priorités](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
-* [Ajout et gestion de liens rapides dans les priorités](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
+* [Afficher les détails du projet et de la tâche dans Priorités](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
+* [Filtrer et regrouper votre travail dans Priorités](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+* [Personnaliser les colonnes de la liste de travail des priorités](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
+* [Hiérarchiser les éléments de travail importants](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
+* [Créer des tâches et des événements dans les priorités](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
+* [Ajouter et afficher des mises à jour dans Priorités](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)
+* [Consigner le temps dans les priorités](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
+* [Charger les fichiers dans les priorités](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
+* [Ajouter et gérer des liens rapides dans Priorités](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
+  <!--* [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)-->
+* [Charger des documents et créer des épreuves dans les priorités](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)

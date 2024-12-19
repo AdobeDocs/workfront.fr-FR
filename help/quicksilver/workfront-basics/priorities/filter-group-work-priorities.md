@@ -1,23 +1,23 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Filtrage et regroupement de vos travaux avec des priorités
-description: Vous pouvez utiliser des filtres pour trouver le travail que vous recherchez, puis appliquer un groupement afin de le maintenir organisé.
+title: Filtrer et regrouper votre travail avec les priorités
+description: Vous pouvez utiliser des filtres pour trouver le travail que vous recherchez, puis appliquer un regroupement pour le garder organisé.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 1f27c7e56681fe8c22141b0a98b3dcdb547366d5
+source-git-commit: 449a8bbdacb77db2f8c697573bc8fa74641522e7
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 17%
+source-wordcount: '929'
+ht-degree: 16%
 
 ---
 
-# Filtrage et regroupement de vos travaux avec des priorités
+# Filtrer et regrouper votre travail avec les priorités
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
-Vous pouvez utiliser des filtres pour trouver le travail que vous recherchez, puis appliquer un groupement afin de le conserver organisé.
+Vous pouvez utiliser des filtres pour trouver le travail que vous recherchez, puis appliquer un regroupement pour le garder organisé.
 
 ## Conditions d’accès
 
@@ -57,16 +57,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Filtrage et regroupement de vos travaux avec des priorités dans la production
+## Filtrer et regrouper votre travail avec les priorités dans la production
 
 ### Filtrer votre travail
 
-Vous pouvez filtrer les tâches et les problèmes qui vous sont affectés.
+Vous pouvez filtrer les tâches et les événements qui vous sont affectés.
 
 {{step1-to-priorities}}
 
 1. Cliquez sur **Filtres** en haut à droite de la liste de travail.
-1. Sélectionnez un ou plusieurs filtres pour réduire vos tâches.
+1. Sélectionnez un ou plusieurs filtres pour affiner vos éléments de travail.
    ![](assets/filters.png)
 
 +++Développer pour afficher des informations détaillées sur les filtres disponibles
@@ -84,9 +84,9 @@ Vous pouvez filtrer les tâches et les problèmes qui vous sont affectés.
       <td>Démarrage possible</td>
       <td>Affiche les éléments avec 
       <ul>
-      <li>Pas de prédécesseurs incomplets ou de contraintes de tâche</li>
+      <li>Aucune contrainte de tâches ou de prédécesseurs incomplète</li>
       <p>et</p>
-      <li>La date de début planifiée se situe au-delà ou jusqu’à deux semaines à l’avenir.</li>
+      <li>La date de début prévue est dans le passé ou peut être dans les deux semaines à venir</li>
       </ul>
       </td>
     </tr>
@@ -94,48 +94,48 @@ Vous pouvez filtrer les tâches et les problèmes qui vous sont affectés.
       <td>À préparer</td>
       <td>Affiche les éléments qui ont
        <ul>
-      <li>Des prédécesseurs incomplets ou des contraintes de tâche qui empêchent l’utilisation de l’élément</li>
+      <li>Prédécesseurs incomplets ou contraintes de tâche empêchant le traitement de l'élément</li>
       <p>ou</p>
-      <li>La date de début planifiée de plus de deux semaines à l’avenir</li>
+      <li>La date de début prévue est dans le futur depuis plus de deux semaines</li>
       </ul>
        </td>
     </tr>
     <tr>
       <td>Demandé</td>
-      <td>Affiche les problèmes sur lesquels vous n’avez pas commencé à travailler.</td>
+      <td>Affiche les problèmes sur lesquels vous n'avez pas encore commencé à travailler</td>
     </tr>
       <td>Terminée</td>
-      <td>Affiche le travail terminé au cours des deux dernières semaines. Cette option de filtre n’inclut pas les validations.</td>
+      <td>Affiche le travail effectué au cours des deux dernières semaines. Cette option de filtre n’inclut pas les validations.</td>
     </tr>
     <tr>
     <td>Projet</td>
-    <td>Affiche les projets qui contiennent des tâches ou des problèmes auxquels vous avez été affecté.</td>
+    <td>Affiche les projets contenant des tâches ou des événements qui vous ont été affectés</td>
     </tr>
     <tr>
     <td>Date d’échéance</td>
-    <td>Affiche le travail par date d’achèvement prévue</td>
+    <td>Affiche le travail par date d'achèvement prévue</td>
     </tr>
     <tr>
     <td>Statut</td>
-    <td>Affiche les tâches ou les problèmes dans les nouveaux états, en cours et complets.</td>
+    <td>Affiche les tâches ou les événements dont le statut est nouveau, en cours ou terminé</td>
     </tr>
     <tr>
     <td>Mon focus</td>
-    <td>Affiche les tâches ou les problèmes dans auxquels des niveaux de focus ont été attribués. Les niveaux de focus sont attribués et gérés par chaque utilisateur.</td>
+    <td>Affiche les tâches ou les événements dans auxquels des niveaux de focus ont été affectés. Les niveaux de focus sont attribués et gérés par l’utilisateur individuel.</td>
     </tr>
   </tbody>
 </table>
 
 +++
 
-1. (Facultatif) Cliquez sur **Retour à la valeur par défaut** pour réinitialiser votre sélection.
+1. (Facultatif) Cliquez sur **Retour aux valeurs par défaut** pour réinitialiser votre sélection.
 
 ### Regrouper votre travail
 
 {{step1-to-priorities}}
 
 1. Cliquez sur **Groupes** en haut à droite de la liste de travail.
-1. Sélectionner un groupe pour organiser votre liste de tâches
+1. Sélectionner un groupe pour organiser votre liste de travail
    ![](assets/groups.png)
 
 +++Développer pour afficher des informations détaillées sur les groupes disponibles
@@ -143,16 +143,16 @@ Vous pouvez filtrer les tâches et les problèmes qui vous sont affectés.
 | Groupe | Description |
 |-----------|-------------|
 | Aucun | Cela supprime les regroupements de la liste de travail. |
-| Mon focus | Ce groupe les éléments en fonction du niveau de focus que vous affectez. |
-| Semaine d’échéance | Ce groupe les éléments en fonction de la semaine où ils doivent être envoyés. Les dates d’échéance sont déterminées par la date d’achèvement planifiée. |
-| Statut | Les éléments sont ainsi regroupés selon les états suivants : Nouveau, En cours, Terminé. <br>Remarque : vous ne pouvez pas utiliser pour l’instant les états personnalisés dans les priorités. |
-| Projet | Il regroupe les éléments par projet. |
+| Mon focus | Cette option regroupe les éléments en fonction du niveau de focus que vous affectez. |
+| Semaine d’échéance | Cette option regroupe les éléments en fonction de la semaine à laquelle ils sont dus. Les dates d&#39;échéance sont déterminées par la date d&#39;achèvement prévue. |
+| Statut | Cette opération regroupe les éléments selon les statuts suivants : Nouveau, En cours, Terminé. <br>Remarque : pour le moment, vous ne pouvez pas utiliser de statuts personnalisés dans Priorités. |
+| Projet | Cette option regroupe les éléments par projet. |
 
 +++
 
-### Tri de votre travail
+### Trier votre travail
 
-Pour trier votre travail, ouvrez **Group** et cliquez sur **Tri croissant** ou **Tri décroissant**.
+Pour trier votre travail, ouvrez **Groupe** et cliquez sur **Tri croissant** ou **Tri décroissant**.
 
 ![](assets/expand-sort-groups.png)
 
@@ -170,16 +170,17 @@ Pour développer ou réduire toutes les sections, ouvrez **Group** et cliquez su
 
 <div class="preview">
 
-## Filtrage et regroupement de vos travaux avec des priorités dans l’aperçu
+## Filtrer et regrouper votre travail avec les priorités dans l’aperçu
 
-### Filtrer votre travail
+### Filtrer votre travail à l’aide de filtres standard
 
-Vous pouvez filtrer les tâches et les problèmes qui vous sont affectés.
+Vous pouvez filtrer les tâches et les événements qui vous sont affectés.
 
 {{step1-to-priorities}}
 
 1. Cliquez sur **Filtres** en haut à gauche de la liste de travail.
-1. Sélectionnez un ou plusieurs filtres pour réduire vos tâches.
+1. cliquez sur **Filtres standard**.
+1. Sélectionnez un ou plusieurs filtres pour affiner vos éléments de travail.
    ![](assets/filter-new.png)
 
 +++Développer pour afficher des informations détaillées sur les filtres disponibles
@@ -197,9 +198,9 @@ Vous pouvez filtrer les tâches et les problèmes qui vous sont affectés.
       <td>Démarrage possible</td>
       <td>Affiche les éléments avec 
       <ul>
-      <li>Pas de prédécesseurs incomplets ou de contraintes de tâche</li>
+      <li>Aucune contrainte de tâches ou de prédécesseurs incomplète</li>
       <p>et</p>
-      <li>La date de début planifiée se situe au-delà ou jusqu’à deux semaines à l’avenir.</li>
+      <li>La date de début prévue est dans le passé ou peut être dans les deux semaines à venir</li>
       </ul>
       </td>
     </tr>
@@ -207,66 +208,85 @@ Vous pouvez filtrer les tâches et les problèmes qui vous sont affectés.
       <td>À préparer</td>
       <td>Affiche les éléments qui ont
        <ul>
-      <li>Des prédécesseurs incomplets ou des contraintes de tâche qui empêchent l’utilisation de l’élément</li>
+      <li>Prédécesseurs incomplets ou contraintes de tâche empêchant le traitement de l'élément</li>
       <p>ou</p>
-      <li>La date de début planifiée de plus de deux semaines à l’avenir</li>
+      <li>La date de début prévue est dans le futur depuis plus de deux semaines</li>
       </ul>
        </td>
     </tr>
     <tr>
       <td>Demandé</td>
-      <td>Affiche les problèmes sur lesquels vous n’avez pas commencé à travailler.</td>
+      <td>Affiche les problèmes sur lesquels vous n'avez pas encore commencé à travailler</td>
     </tr>
       <td>Terminée</td>
-      <td>Affiche le travail terminé au cours des deux dernières semaines. Cette option de filtre n’inclut pas les validations.</td>
+      <td>Affiche le travail effectué au cours des deux dernières semaines. Cette option de filtre n’inclut pas les validations.</td>
     </tr>
     <tr>
     <td>Projet</td>
-    <td>Affiche les projets qui contiennent des tâches ou des problèmes auxquels vous avez été affecté.</td>
+    <td>Affiche les projets contenant des tâches ou des événements qui vous ont été affectés</td>
     </tr>
     <tr>
     <td>Date d’échéance</td>
-    <td>Affiche le travail par date d’achèvement prévue</td>
+    <td>Affiche le travail par date d'achèvement prévue</td>
     </tr>
     <tr>
     <td>Statut</td>
-    <td>Affiche les tâches ou les problèmes dans les nouveaux états, en cours et complets.</td>
+    <td>Affiche les tâches ou les événements dont le statut est nouveau, en cours ou terminé</td>
     </tr>
     <tr>
     <td>Mon focus</td>
-    <td>Affiche les tâches ou les problèmes dans auxquels des niveaux de focus ont été attribués. Les niveaux de focus sont attribués et gérés par chaque utilisateur.</td>
+    <td>Affiche les tâches ou les événements dans auxquels des niveaux de focus ont été affectés. Les niveaux de focus sont attribués et gérés par l’utilisateur individuel.</td>
     </tr>
   </tbody>
 </table>
 
 +++
 
-1. (Facultatif) Cliquez sur **Retour à la valeur par défaut** pour réinitialiser votre sélection.
+1. (Facultatif) Cliquez sur **Retour aux valeurs par défaut** pour réinitialiser votre sélection.
+
+### Filtrer votre travail à l’aide de filtres dynamiques
+
+Utilisez le langage naturel pour filtrer rapidement le travail.
+
+{{step1-to-priorities}}
+
+1. Cliquez sur **Filtres** en haut à gauche de la liste de travail.
+1. Cliquez sur **Filtres intelligents**.
+1. Saisissez la manière dont vous souhaitez filtrer votre travail.
+
+   Vous pouvez saisir des éléments tels que :
+
+   * Afficher les tâches en retard
+   * Afficher mes principales priorités
+   * Afficher le travail dû aujourd&#39;hui
+
 
 ### Regrouper votre travail
 
 {{step1-to-priorities}}
 
 1. Cliquez sur **Groupes** en haut à gauche de la liste de travail.
-1. Sélectionner un groupe pour organiser votre liste de tâches
+1. Sélectionner un groupe pour organiser votre liste de travail
    ![](assets/groups-new.png)
 
 +++Développer pour afficher des informations détaillées sur les groupes disponibles
 
 | Groupe | Description |
 |-----------|-------------|
-| Projet | Il regroupe les éléments par projet. |
-| Mon focus | Ce groupe les éléments en fonction du niveau de focus que vous affectez. |
-| Semaine d’échéance | Ce groupe les éléments en fonction de la semaine où ils doivent être envoyés. Les dates d’échéance sont déterminées par la date d’achèvement planifiée. |
-| Statut | Les éléments sont ainsi regroupés selon les états suivants : Nouveau, En cours, Terminé. <br>Remarque : vous ne pouvez pas utiliser pour l’instant les états personnalisés dans les priorités. |
+| Projet | Cette option regroupe les éléments par projet. |
+| Mon focus | Cette option regroupe les éléments en fonction du niveau de focus que vous affectez. |
+| Semaine d’échéance | Cette option regroupe les éléments en fonction de la semaine à laquelle ils sont dus. Les dates d&#39;échéance sont déterminées par la date d&#39;achèvement prévue. |
+| Statut | Cette opération regroupe les éléments selon les statuts suivants : Nouveau, En cours, Terminé. <br>Remarque : pour le moment, vous ne pouvez pas utiliser de statuts personnalisés dans Priorités. |
 
 +++
 
-### Tri de votre travail
+
+
+### Trier votre travail
 
 **Trier en groupes**
 
-Pour trier votre travail dans un groupe, ouvrez **Group** et cliquez sur **Tri croissant** ou **Tri décroissant**.
+Pour trier votre travail au sein d’un groupe, ouvrez **Groupe** et cliquez sur **Tri croissant** ou **Tri décroissant**.
 
 ![](assets/sort-in-groups.png)
 
@@ -280,7 +300,7 @@ Pour trier des colonnes individuelles, accédez à la colonne et cliquez sur la 
 
 ### Développer ou réduire toutes les sections de groupe
 
-Pour développer ou réduire toutes les sections de groupe, ouvrez **Group** et cliquez sur **Développer tout** ou **Réduire tout**.
+Pour développer ou réduire toutes les sections de groupe, ouvrez **Groupe** et cliquez sur **Développer tout** ou **Tout réduire**.
 
 ![](assets/expand-collapse-groups.png)
 
