@@ -7,10 +7,10 @@ description: Le tableau de bord permet d’accéder rapidement aux informations.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 100%
+source-wordcount: '697'
+ht-degree: 97%
 
 ---
 
@@ -57,7 +57,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Objets que vous pouvez ajouter à un tableau de bord
 
-Vous pouvez renseigner un tableau de bord avec les éléments suivants dans Adobe Workfront :
+Vous pouvez remplir un tableau de bord avec jusqu’à 25 des éléments suivants dans Adobe Workfront :
 
 * Rapports\
   Pour plus d’informations sur la création de rapports, voir [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

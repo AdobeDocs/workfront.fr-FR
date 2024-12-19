@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
 source-wordcount: '1628'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -355,17 +355,14 @@ Le webinaire de la version 24.1 a eu lieu le 11 janvier 2024. Vous pouvez [vo
                         <ul>
                             <li>
                                 <p>Version de prévisualisation : 21 décembre 2023</p>
-                                <p>NOTE : cette fonctionnalité restera en prévisualisation jusqu’à la version 24.4.</p>
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.3 (mars 2024)</p>
                             </li>
-                            <li>
-                                <p>Production pour tous les clients : à annoncer</p>
-                            </li>
                         </ul>
+                    <p><i>Cette fonctionnalité sera supprimée de la prévisualisation le 19 décembre 2024 et de la production en version rapide avec 25.1 (janvier 2025).</i></p>
                     </td>
-                    </tr>
+                </tr>
            </tbody>
         </table>
 

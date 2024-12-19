@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '2240'
-ht-degree: 99%
+source-wordcount: '2260'
+ht-degree: 98%
 
 ---
 
@@ -371,10 +371,8 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
-                            <li>
-                                <p>Mise à jour de production pour tous les clients : à annoncer</p>
-                            </li>
                         </ul>
+                    <p><i>Cette fonctionnalité sera supprimée de la prévisualisation le 19 décembre 2024 et de la production en version rapide avec 25.1 (janvier 2025).</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -391,10 +389,8 @@ Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/u
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
-                            <li>
-                                <p>Mise à jour de production pour tous les clients : à annoncer</p>
-                            </li>
                         </ul>
+                    <p><i>Cette fonctionnalité sera supprimée de la prévisualisation le 19 décembre 2024 et de la production en version rapide avec 25.1 (janvier 2025).</i></p>
                     </td>
                  </tr>
            </tbody>

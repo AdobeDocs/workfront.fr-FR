@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 84%
+source-wordcount: '497'
+ht-degree: 81%
 
 ---
 
@@ -23,11 +23,11 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu de la version : 30 mai 2024 ; Production pour une version rapide : avec la version 24.6 (13 juin 2024) ; Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024).
+>Version préliminaire : 30 mai 2024 ; Production pour la version rapide : avec la version 24.6 (13 juin 2024) ; Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024).
 
 Pour faciliter la mise à jour des tâches et des problèmes, nous avons désormais ajouté les champs Date d’engagement et Condition en tant qu’options à ajouter aux en-têtes de tâches et de problèmes et à la section Détails dans un modèle de mise en page. Les utilisateurs et les utilisatrices peuvent désormais mettre à jour ces champs à partir de l’en-tête ou de la section Détails d’une page lorsqu’ils sont affectés au modèle de mise en page modifié. Avant cette amélioration, vous ne pouviez pas ajouter la condition et la date d’engagement des tâches et des problèmes lors de la personnalisation des en-têtes.
 
-Pour plus d’informations sur la mise à jour de la date et de la condition de validation, voir les articles suivants :
+Pour plus d&#39;informations sur la mise à jour de la date et de la condition d&#39;engagement, consultez les articles suivants :
 
 * [Mettre à jour la condition des tâches et des problèmes](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 * [Mettre à jour la date d’engagement des tâches et des problèmes](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
@@ -38,7 +38,9 @@ Pour plus d’informations sur la mise à jour de la date et de la condition de 
 
 >[!NOTE]
 >
->Aperçu de la version : 13 février 2024 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024) ; Version de production pour tous les clients : à annoncer.
+>Version préliminaire : 13 février 2024 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024).
+>
+>_Cette fonctionnalité sera supprimée de la prévisualisation le 19 décembre 2024 et de la production en version rapide avec 25.1 (janvier 2025)._
 
 Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ d’affectations dans les zones suivantes :
 
@@ -52,7 +54,9 @@ Pour en savoir plus, consultez la section [Vue d’ensemble des affectations int
 
 >[!NOTE]
 >
->Aperçu de la version : 21 décembre 2023 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024) ; Version de production pour tous les clients : à annoncer.
+>Version préliminaire : 21 décembre 2023 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024).
+>
+>_Cette fonctionnalité sera supprimée de la prévisualisation le 19 décembre 2024 et de la production en version rapide avec 25.1 (janvier 2025)._
 
 Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.
 

@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fc1c4466-edc3-4ff0-91bc-40c0e3af5eee
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 87%
+source-wordcount: '343'
+ht-degree: 82%
 
 ---
 
@@ -22,7 +22,9 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 
 >[!NOTE]
 >
->Aperçu de la version : 13 février 2024 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024) ; Version de production pour tous les clients : à annoncer.
+>Version préliminaire : 13 février 2024 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024).
+>
+>_Cette fonctionnalité sera supprimée de la prévisualisation le 19 décembre 2024 et de la production en version rapide avec 25.1 (janvier 2025)._
 
 Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ d’affectations dans les zones suivantes :
 
@@ -36,7 +38,9 @@ Pour en savoir plus, consultez la section [Vue d’ensemble des affectations int
 
 >[!NOTE]
 >
->Aperçu de la version : 21 décembre 2023 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024) ; Version de production pour tous les clients : à annoncer.
+>Version préliminaire : 21 décembre 2023 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024).
+>
+>_Cette fonctionnalité sera supprimée de la prévisualisation le 19 décembre 2024 et de la production en version rapide avec 25.1 (janvier 2025)._
 
 Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.
 

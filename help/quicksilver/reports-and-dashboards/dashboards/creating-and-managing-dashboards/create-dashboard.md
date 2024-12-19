@@ -6,10 +6,10 @@ description: Vous pouvez créer des tableaux de bord pour accéder rapidement au
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 92%
+source-wordcount: '499'
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 <!--Audited: 01/2024-->
 
-Vous pouvez créer des tableaux de bord pour accéder rapidement aux informations dans Adobe Workfront. Des rapports, des calendriers et des pages externes peuvent être ajoutés aux tableaux de bord que vous pouvez partager avec d’autres personnes pour une collaboration optimale.
+Vous pouvez créer des tableaux de bord pour accéder rapidement aux informations dans Adobe Workfront. Vous pouvez ajouter jusqu’à 25 rapports, calendriers et pages externes aux tableaux de bord afin de les partager avec d’autres personnes pour une collaboration optimale.
 
 Pour en savoir plus sur les tableaux de bord, voir [Commencer avec les tableaux de bord](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
@@ -102,7 +102,7 @@ Vous pouvez ajouter des pages externes existantes à un tableau de bord ou en cr
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Dans la section **Rapports et calendriers disponibles**, commencez à saisir le nom d’un rapport, d’un calendrier ou d’une page externe dans la barre de recherche, puis faites glisser le rapport, le calendrier ou la page externe dans le volet de mise en page de droite.
+1. Dans la section **Rapports et calendriers disponibles**, commencez à saisir le nom d’un rapport, d’un calendrier ou d’une page externe dans la barre de recherche, puis faites glisser et déposez le rapport, le calendrier ou la page externe dans le volet de disposition à droite.
 
    >[!NOTE]
    >

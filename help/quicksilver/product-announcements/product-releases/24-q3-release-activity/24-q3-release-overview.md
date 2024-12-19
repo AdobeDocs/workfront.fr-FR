@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '1824'
-ht-degree: 77%
+source-wordcount: '1844'
+ht-degree: 76%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 Cette page fournit des informations sur les fonctionnalités incluses dans la version du troisième trimestre 2024. Ces améliorations sont prévues pour être disponibles dans l’environnement de production tout au long du trimestre.
 
-Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez toujours [regarder une démonstration vidéo des fonctionnalités 24.7 ici](https://video.tv.adobe.com/v/3430532/%20).
+Le webinaire en direct sur la version 24.7 a été annulé, mais vous pouvez toujours [regarder une démonstration vidéo des fonctionnalités 24.7 ici](https://video.tv.adobe.com/v/3430532/%20).
 
 <span class="preview">Les fonctionnalités hors cycle (celles qui sont publiées en production avant la date de version du troisième trimestre 2024) sont surlignées en jaune.</span>
 
@@ -28,7 +28,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>24.5 (16 mai 2024)</li><li>24.6 (13 juin 2024)</li><li>24.7 (18 juillet 2024)</li></ul> | <ul><li>24.7 (18 juillet 2024)</li></ul> |
+>| <ul><li>24.5 (16 mai 2024)</li><li>24.6 (13 juin 2024)</li><li>24.7 (18 Juillet 2024)</li></ul> | <ul><li>24.7 (18 Juillet 2024)</li></ul> |
 >
 >Pour plus d’informations sur le processus de publication rapide, voir la section [Activer ou désactiver le processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -60,10 +60,10 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> Des règles métier sont désormais disponibles</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Les règles métier sont désormais disponibles</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Les administrateurs peuvent désormais ajouter des règles de fonctionnement dans la zone Configuration de Workfront.</p>
-                        <p>Une règle de fonctionnement vous permet d’appliquer la validation aux objets Workfront et d’empêcher les utilisateurs de créer, modifier ou supprimer un objet lorsque certaines conditions sont remplies. Les règles sont créées à l’aide d’une formule similaire aux champs calculés dans les formulaires personnalisés.</p>
+                        <p>Les administrateurs peuvent désormais ajouter des règles métier dans la zone Configuration de Workfront.</p>
+                        <p>Une règle métier vous permet d’appliquer une validation aux objets Workfront et d’empêcher les utilisateurs de créer, modifier ou supprimer un objet lorsque certaines conditions sont remplies. Les règles sont créées à l’aide d’une formule similaire aux champs calculés dans les formulaires personnalisés.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -74,15 +74,15 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
-                        <p><i>Uniquement disponible pour les organisations utilisant le nouveau plan Ultimate.</i></p>
+                        <p><i>Disponible uniquement pour les organisations dans le cadre du nouveau plan Ultimate.</i></p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Concepteur de formulaire personnalisé généralement disponible dans Adobe Workfront</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Le créateur de formulaire personnalisé est généralement disponible dans Adobe Workfront</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Avec la version 24.7, le concepteur de formulaires sera disponible en général et deviendra l’expérience par défaut pour la création et la modification de formulaires personnalisés dans Adobe Workfront. Lorsque vous créez un formulaire personnalisé ou ouvrez un formulaire existant, l’espace de travail du concepteur de formulaire dans le style de zone de travail s’affiche.</p>
-                        <p>Après cette version, vous n’aurez plus la possibilité de revenir à l’ancien créateur de formulaires.</p>
+                        <p>Avec la version 24.7, le créateur de formulaire sera disponible pour tous et deviendra l’expérience par défaut pour la création et la modification de formulaires personnalisés dans Adobe Workfront. Lorsque vous créez un formulaire personnalisé ou ouvrez un formulaire existant, l’espace de travail de style zone de travail du concepteur du formulaire s’affiche.</p>
+                        <p>Après cette version, vous n’aurez plus la possibilité de revenir au créateur de formulaires hérité.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -223,12 +223,12 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations de Workfront pour Experience Manager Assets et les Assets Essentials</a></p>
+                        Améliorations de <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront pour Experience Manager Assets et Assets Essentials </a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Nous avons apporté les améliorations suivantes aux intégrations Workfront pour Experience Manager Assets et Assets Essentials :</p>
+                        <p>Nous avons apporté les améliorations suivantes aux intégrations de Workfront pour Experience Manager Assets et Assets Essentials :</p>
                         <ul>
                             <li><p>L’intégration prend désormais en charge GCP en tant que fournisseur de services cloud. AWS et Azure étaient auparavant pris en charge.</p></li>
-                            <li><p>La taille limite des fichiers envoyés à Experience Manager par le biais de l’intégration a été augmentée à 30 Go. Auparavant, la limite était de 5 Go.</p></li>
+                            <li><p>La taille maximale des fichiers envoyés à l’Experience Manager via l’intégration est passée à 30 Go. Auparavant, la limite était de 5 Go.</p></li>
                         </ul>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -295,10 +295,8 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
-                            <li>
-                                <p>Mise à jour de production pour tous les clients : à annoncer</p>
-                            </li>
                         </ul>
+                    <p><i>Cette fonctionnalité sera supprimée de la prévisualisation le 19 décembre 2024 et de la production en version rapide avec 25.1 (janvier 2025).</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -315,10 +313,8 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
-                            <li>
-                                <p>Mise à jour de production pour tous les clients : à annoncer</p>
-                            </li>
                         </ul>
+                    <p><i>Cette fonctionnalité sera supprimée de la prévisualisation le 19 décembre 2024 et de la production en version rapide avec 25.1 (janvier 2025).</i></p>
                     </td>
                  </tr>
            </tbody>
@@ -342,9 +338,9 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> Mises à jour de sécurité pour la visionneuse de vérification de l’appli de bureau </a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Mises à jour de sécurité pour le lecteur de vérification pour bureau</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>La mise à jour de sécurité de Workfront Proof Desktop Proofing Viewer 2.1.35 fournit des correctifs de bogues de sécurité pour les vulnérabilités identifiées dans les versions précédentes.</p>
+                        <p>La mise à jour de sécurité du lecteur de vérification pour bureau Workfront Proof version 2.1.35 fournit des correctifs de sécurité pour les vulnérabilités qui ont été identifiées dans les versions précédentes.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -414,13 +410,13 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Modification du serveur principal vers les guides internes au produit</a></p>
-                        <p>Au cours des prochaines semaines, nous allons mettre en oeuvre un changement technologique pour nos guides intégrés au produit. Bien que nous ayons essayé de minimiser l’impact de cette transition, certains utilisateurs peuvent rencontrer des guides qu’ils ont précédemment vus.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Modification du serveur principal dans les guides intégrés au produit</a></p>
+                        <p>Nous apporterons un changement technologique à nos guides intégrés au produit au cours des prochaines semaines. Bien que nous ayons essayé de minimiser l’impact de cette transition, certains utilisateurs peuvent rencontrer des guides qu’ils ont déjà vus.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Production pour tous les clients : par incréments jusqu’à la mi-août 2024</p>
+                                <p>Production pour tous les clients : de manière progressive jusqu’à la mi-août 2024</p>
                             </li>
                          </ul>
                     </td>
@@ -437,7 +433,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version préliminaire : vendredi 20 juin 2024</p>
                             </li>
                             <li>
-                                <p>Production pour des clients spécifiés : avec la version 24.7 (18 juillet 2024)</p>
+                                <p>Production pour les clients spécifiés : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                          </ul>
                          <span style="color: #ff0000;">Adobe Unified Shell est mis à disposition selon un déploiement échelonné. Des organisations supplémentaires seront intégrées à Adobe Unified Shell avec les versions 24.10 et 25.1. </p>
@@ -475,7 +471,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
-                                <p>Production pour une version trimestrielle : avec la version 24.7 (18 juillet 2024)</p>
+                                <p>Production pour la version trimestrielle : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
