@@ -6,10 +6,11 @@ title: Utiliser cURL pour ajouter un module HTTP
 description: Vous pouvez coller une requête cURL dans votre scénario, puis Fusion crée un module HTTP configuré à partir de la requête cURL.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
+exl-id: 5eac3e87-0dd3-4bad-ae3e-77264329b717
+source-git-commit: 785f39fabcb19233fd1bc79c14222225a3ea72a2
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 19%
+source-wordcount: '283'
+ht-degree: 21%
 
 ---
 
@@ -69,10 +70,6 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 Pour créer un module HTTP à l’aide de cURL :
 
 1. Créez le texte de la requête cURL en dehors de Fusion, par exemple dans un éditeur de texte.
-
-   >[!IMPORTANT]
-   >
-   >Si vous utilisez Fusion sur un ordinateur Windows, votre requête cURL ne doit pas inclure de sauts de ligne.
 1. Copiez la requête cURL dans le presse-papiers.
 1. Cliquez sur l’onglet **[!UICONTROL Scénario]** dans le panneau de gauche.
 1. Sélectionnez le scénario dans lequel vous souhaitez créer le module.
@@ -89,10 +86,6 @@ Pour créer un module HTTP à l’aide de cURL :
 
 ## Dépannage
 
-Si votre cURL n’est pas collée dans votre scénario, vérifiez les points suivants :
-
-* Vérifiez les paramètres de votre navigateur pour vous assurer que le collage depuis le presse-papiers est activé.
-* Si vous exécutez Windows, vérifiez la requête cURL pour vous assurer qu’elle n’inclut pas de sauts de ligne.
-
+Si votre cURL n’est pas collée dans votre scénario, vérifiez les paramètres de votre navigateur pour vous assurer que le collage à partir du presse-papiers est activé.
 
 
