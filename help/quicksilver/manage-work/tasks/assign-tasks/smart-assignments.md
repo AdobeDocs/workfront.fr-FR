@@ -7,10 +7,10 @@ description: Lors de la gestion des tâches et des affectations de problèmes, v
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 86%
+source-wordcount: '1255'
+ht-degree: 81%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 86%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles ne sont disponibles que dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités disponibles uniquement dans l’environnement de production pour les clients qui ont activé les versions rapides.</span>
 
 <span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur la version actuelle, consultez la section [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
+<span class="preview"> Cette fonctionnalité sera supprimée de l’environnement de production pour les clients qui ont activé la version rapide avec la version 25.1 en janvier 2025. Pour plus d’informations sur la version 25.1, voir [Présentation de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 Lors de la gestion des affectations de tâches et de problèmes, les affectations intelligentes vous permettent d’identifier la meilleure ressource pour terminer le travail. Les affectations intelligentes sont des suggestions qu’Adobe Workfront vous présente lorsque vous affectez des éléments de travail à des ressources en fonction d’un algorithme qui détermine la ressource la plus appropriée pour le traitement. Les affectations intelligentes peuvent être des utilisateurs et des utilisatrices, des fonctions ou des équipes.
 
@@ -38,9 +38,9 @@ Cet article contient des informations générales sur les affectations intellige
 
 Tenez compte des points suivants lorsque vous utilisez des affectations intelligentes :
 
-* <span class="preview">L’algorithme fonctionne indépendamment pour les tâches et les problèmes. Cela signifie que la liste des utilisateurs suggérés pour les problèmes peut différer de celle des utilisateurs suggérés pour une tâche, car Workfront crée les listes en fonction de critères relatifs aux problèmes et aux tâches séparément. </span>
+* <span class="preview">L’algorithme fonctionne indépendamment pour les tâches et les événements. Cela signifie que la liste des utilisateurs suggérés pour les problèmes peut différer de la liste des utilisateurs suggérés pour une tâche, car Workfront crée les listes en fonction de critères relatifs aux problèmes et aux tâches séparément. </span>
 <!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
-* Les affectations suggérées sont toujours des utilisateurs, des rôles de tâche ou des équipes actifs.
+* Les affectations suggérées sont toujours des utilisateurs actifs, des fonctions ou des équipes.
 * La ressource répertoriée en premier doit correspondre le mieux à la tâche.
 
 ## Localiser des suggestions d’affectation intelligente
@@ -51,7 +51,7 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">Une liste de tâches ou un rapport dans la colonne Affectations</span>
+* <span class="preview">Liste de tâches ou rapport dans la colonne Affectations</span>
 
   ![](assets/smart-assignments-task-list.png)
 
@@ -77,7 +77,7 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* <span class="preview">Équilibreur de charge de travail dans la zone Affecté à lorsque vous affectez une tâche ou un problème</span>
+* <span class="preview">Équilibreur de charge de travail dans la zone Affecté à lorsque vous affectez une tâche ou un événement</span>
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
@@ -88,9 +88,9 @@ Les affectations intelligentes fonctionnent différemment pour les tâches et le
 
 ### Critères d’affectation intelligente des tâches
 
-Le calcul des affectations intelligentes de tâche fonctionne en <span class="preview">deux phases qui utilisent deux algorithmes différents.</span>
+Le calcul des affectations intelligentes de tâche fonctionne en <span class="preview">deux phases qui utilisent deux algorithmes différents</span>.
 
-<span class="preview">Selon l’algorithme qui trouve l’affectation dynamique, les affectations sont répertoriées sous deux sections distinctes dans le champ Affectations.</span> Pour plus d’informations, voir [Effectuer des affectations dynamiques](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+<span class="preview">Selon l’algorithme qui trouve l’affectation dynamique, les affectations sont répertoriées sous deux sections distinctes dans le champ Affectations .</span> Pour plus d’informations, voir [Créer des affectations intelligentes](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
 ![](assets/smart-assignments-task-list.png)
 
@@ -140,14 +140,14 @@ Si la première étape des affectations intelligentes de tâche n’a trouvé au
 
 Pour plus d’informations, voir la section [Critères d’affectations intelligentes pour les tâches et les problèmes](#smart-assignments-criteria-for-tasks-and-issues) dans cet article.
 
-Les affectations identifiées dans cette phase sont répertoriées dans les sections Utilisateurs, utilisatrices et équipes, Affectations de fonctions et Rôles de carte tarifaire du champ Affectations. ********<span class="preview">****</span> <span class="preview">Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+Les affectations identifiées dans cette phase sont répertoriées dans les sections Utilisateurs, utilisatrices et équipes, Affectations de fonctions et Rôles de carte tarifaire du champ Affectations. ********<span class="preview">****</span> <span class="preview">Pour plus d&#39;informations sur les cartes tarifaires, voir [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Critères d’affectations intelligentes pour les tâches et les problèmes
 
 
 >[!NOTE]
 >
->Les critères suivants s’appliquent aux tâches uniquement lorsque la première phase du calcul d’affectation dynamique de tâche n’a trouvé aucune correspondance. Pour plus d’informations, voir la section [Première phase de calcul de l’affectation intelligente pour les tâches](#first-phase-of-smart-assignment-calculation-for-tasks) dans cet article. Par défaut, les critères suivants s’appliquent toujours aux problèmes.
+>Les critères suivants s&#39;appliquent aux tâches uniquement lorsque la première phase du calcul d&#39;affectation dynamique de tâche n&#39;a trouvé aucune correspondance. Pour plus d’informations, voir la section [Première phase de calcul de l’affectation intelligente pour les tâches](#first-phase-of-smart-assignment-calculation-for-tasks) dans cet article. Par défaut, les critères suivants s’appliquent toujours aux événements.
 
 ![](assets/smart-assignments-issue-header.png)
 

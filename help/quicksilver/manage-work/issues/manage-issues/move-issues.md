@@ -6,10 +6,10 @@ description: Vous pouvez déplacer des problèmes entre des projets et des tâch
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 94%
+source-wordcount: '932'
+ht-degree: 86%
 
 ---
 
@@ -17,12 +17,9 @@ ht-degree: 94%
 
 <!--Audited: 12/2024-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Vous pouvez déplacer des problèmes entre les objets suivants :
 
@@ -79,13 +76,11 @@ Tenez compte des points suivants lors du déplacement de problèmes qui contienn
 * **Lorsqu’un document est joint au problème :** lorsque vous déplacez un problème vers un autre objet et qu’un document lui est joint, le document, ses versions et ses épreuves sont également déplacés vers le nouveau problème. Les approbations associées au document ne sont pas déplacées.
 * **Lorsqu’un problème est lié à un document ou à un dossier :** lorsque vous déplacez un problème dont les documents ou dossiers sont liés à un service tiers tel que Google Drive, les liens vers les documents sont déplacés avec le problème.
 
-<!--
 <div class="preview">
 
-* Your system or group administrator can prevent you from moving issues that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+* L’administrateur de votre système ou de votre groupe peut vous empêcher de déplacer des événements pour lesquels des heures ont été consignées, selon la manière dont il configure la préférence Autoriser les utilisateurs à déplacer les tâches et les événements pour lesquels des heures ont été consignées dans la zone Configuration. Pour plus d’informations, voir [Configurer les préférences de tâche et de problème à l’échelle du système](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 </div>
--->
 
 ## Déplacer les problèmes dans une liste
 

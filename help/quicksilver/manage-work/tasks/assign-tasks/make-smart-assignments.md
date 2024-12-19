@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des affectations intelligentes pour identifier
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 80%
+source-wordcount: '544'
+ht-degree: 70%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 80%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles ne sont disponibles que dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités disponibles uniquement dans l’environnement de production pour les clients qui ont activé les versions rapides.</span>
 
 <span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur la version actuelle, consultez la section [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
+<span class="preview"> Cette fonctionnalité sera supprimée de l’environnement de production pour les clients qui ont activé la version rapide avec la version 25.1 en janvier 2025. Pour plus d’informations sur la version 25.1, voir [Présentation de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 Vous pouvez utiliser des affectations intelligentes pour identifier la meilleure personne pour effectuer le travail.
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur les critères utilisés pour déterminer les affe
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +75,7 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
    * Tâche, liste de problèmes ou rapport.
    * En-tête de tâche ou de problème.
    * Panneau Résumé de la tâche ou du problème.
-   * <span class="preview">Une nouvelle tâche</span> ou une boîte Nouvelle problématique, lorsque vous ajoutez <span class="preview">une nouvelle tâche</span> ou un problème à un projet
+   * <span class="preview">Zone Nouvelle tâche</span> ou Nouveau problème, lorsque vous ajoutez <span class="preview">une nouvelle tâche</span> ou un nouveau problème à un projet
    * Tâche ou problème dans l’équilibreur de charge de travail.
 
 1. Placez le curseur dans le champ d’affectation et attendez deux secondes.
@@ -89,14 +89,14 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
 
    Pour les tâches, les affectations intelligentes s’affichent dans les sections suivantes, selon la phase du calcul de l’algorithme qui a identifié les affectations :
 
-   * <span class="preview">**Affectations proposées** : affiche les affectations identifiées dans la première phase de l’algorithme d’affectation dynamique de tâche.</span>
-   * **Utilisateurs et équipes**, **Rôles de tâche** ou <span class="preview">**Taux des rôles de tâche de carte**</span> : Affectations identifiées dans la seconde phase du calcul de l’algorithme de l’affectation dynamique de tâche.
+   * <span class="preview">**Affectations suggérées** : affiche les affectations identifiées dans la première phase de l’algorithme d’affectation dynamique de tâche.</span>
+   * **Utilisateurs et équipes**, **Fonctions** ou <span class="preview">**Fonctions de carte tarifaire**</span> : affectations identifiées lors de la deuxième phase du calcul de l’algorithme d’affectation dynamique de tâche.
 
    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    Pour en savoir plus, consultez la section [Vue d’ensemble des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
-1. Sélectionnez la ressource dans la liste de recommandations en cliquant sur son nom.
+1. Sélectionnez la ressource dans la liste des recommandations en cliquant sur son nom.
 
 1. (Facultatif) Cliquez sur **Me l’affecter** pour vous attribuer l’élément de travail.
 

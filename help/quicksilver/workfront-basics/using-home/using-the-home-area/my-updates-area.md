@@ -6,14 +6,19 @@ description: Vous pouvez utiliser la zone [!UICONTROL Mes mises à jour] pour co
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 100%
+source-wordcount: '847'
+ht-degree: 92%
 
 ---
 
+
 # Utiliser la zone [!UICONTROL Mes mises à jour]
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 Vous pouvez utiliser la zone [!UICONTROL Mes mises à jour] pour consulter rapidement les approbations en attente de votre décision ou les conversations auxquelles vous avez participé.
@@ -77,9 +82,13 @@ Vous devez disposer des éléments suivants avant de commencer :
 
    Les approbations et demandes d’accès qui vous sont affectées sont répertoriées dans la première moitié de la page, sous **Mes mises à jour**.
 
+   <div class="preview">
+
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
-1. (Facultatif) Faites défiler l’écran jusqu’au bas de la zone [!UICONTROL Mes mises à jour] et cliquez sur la flèche droite pour afficher davantage d’approbations sur d’autres pages.
+   </div>
+
+1. (Facultatif) Faites défiler l’écran jusqu’au bas de la zone [!UICONTROL **Mes mises à jour**] et cliquez sur la flèche droite pour afficher davantage d’approbations sur d’autres pages.
 
    >[!TIP]
    >
@@ -157,7 +166,14 @@ Vous devez disposer des éléments suivants avant de commencer :
    * Utilisez la barre d’outils de texte enrichi pour mettre en forme votre texte, ajouter des liens, des listes, des émoticônes, des citations ou des images à votre message.
    * Ajoutez des utilisateurs, des utilisatrices ou des équipes pour les avertir de votre réponse.
 
-     Une fois la réponse ajoutée, cliquez sur **[!UICONTROL Répondre]** encore une fois.
+     Pour plus d’informations sur la réponse aux mises à jour, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+     <span class="preview">Lorsque vous avez terminé d’ajouter la réponse, cliquez sur **[!UICONTROL Envoyer]**.</span>
+
+     <div class="preview">
 
      ![](assets/reply-in-the-my-updates-area.png)
-1. (Facultatif) Cliquez sur **[!UICONTROL Épingler la page active]** pour épingler la zone [!UICONTROL Mes mises à jour] dans votre navigation supérieure.
+
+     </div>
+
+1. (Facultatif) Cliquez sur **[!UICONTROL Épingler la page actuelle]** pour épingler la zone [!UICONTROL Mes mises à jour] à votre navigation supérieure.

@@ -6,10 +6,10 @@ description: Vous pouvez déplacer des tâches vers différents projets ou vers 
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 99%
+source-wordcount: '1547'
+ht-degree: 93%
 
 ---
 
@@ -17,12 +17,11 @@ ht-degree: 99%
 
 <!--Audited: 12/2024-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Vous pouvez déplacer des tâches dans Adobe Workfront entre les objets suivants :
 
@@ -87,13 +86,12 @@ Par défaut, les éléments suivants ne se déplacent pas avec la tâche :
 
 * Jalons
 
-<!--
 <div class="preview">
 
-* Your system or group administrator can prevent you from moving tasks that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+* Votre administrateur système ou de groupe peut vous empêcher de déplacer des tâches comportant des heures consignées, selon la manière dont il configure la préférence Autoriser les utilisateurs à déplacer les tâches et les événements comportant des heures consignées dans la zone Configuration. Pour plus d’informations, voir [Configurer les préférences de tâche et de problème à l’échelle du système](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 </div>
--->
+
 
 ## Déplacer des tâches dans une liste
 

@@ -9,14 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 98%
+source-wordcount: '2226'
+ht-degree: 86%
 
 ---
 
 # Configurer les préférences de tâches et de problèmes pour un groupe
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Si des groupes de votre entreprise doivent configurer une préférence de tâche ou de problème indépendamment de sa configuration au niveau du système, un administrateur ou une administratrice Adobe Workfront peut déverrouiller la préférence. Ensuite, en tant qu’administrateur ou administratrice de groupes, vous pouvez configurer les préférences de votre groupe, ce qui aura une incidence sur toutes les tâches associées ou tous les problèmes associés à votre groupe.
 
@@ -91,10 +95,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    * [Paramètres par défaut de la nouvelle tâche](#new-task-defaults)
    * [Événements](#issues)
    * [Suppression](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[ Déplacer ](#move)</span>
    * [Dates effectives](#actual-dates)
+   * [Délégation](#delegation)
    * [Accès](#access)
 
 ### Paramètres par défaut de la nouvelle tâche {#new-task-defaults}
@@ -166,7 +169,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Autoriser les utilisateurs à supprimer les tâches et les événements comportant des heures consignées</td> 
+      <td role="rowheader">Autoriser les utilisateurs à supprimer des tâches et des événements avec des heures consignées</td> 
       <td> <p> Permet de déterminer si vous autorisez la suppression de tâches ou de problèmes lorsque des heures sont enregistrées. Cette option est sélectionnée par défaut.</p> 
        <div> 
         <p><b>Conseil</b> : ce paramètre s’applique également à la suppression de projets comportant des tâches ou des problèmes avec des heures enregistrées. Ce paramètre ne s’applique pas à la suppression de projets dont les heures sont enregistrées directement pour le projet. </p> 
@@ -181,31 +184,27 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    </table>
 
 
-<!-- *****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### Déplacer
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Allow users to move tasks and issues with logged hours</td> 
-      <td> <p> Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.</p> 
-       <p>Consider the following:</p> 
+      <td role="rowheader">Autoriser les utilisateurs à déplacer les tâches et les événements avec des heures consignées</td> 
+      <td> <p> Permet de déterminer si vous autorisez le déplacement des tâches ou des événements pour lesquels des heures sont consignées. Cette option est sélectionnée par défaut.</p> 
+       <p>Tenez compte des points suivants :</p> 
         <ul> 
-         <li> When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. </li>
-      <li>When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. </li></ul>
+         <li> Lorsqu’il est sélectionné, vous pouvez déplacer les tâches et les événements dont le temps est consigné. Les heures se déplacent également avec les tâches ou les événements. </li>
+      <li>Lorsque vous désélectionnez cette option, vous recevez un avertissement lorsque vous déplacez une tâche ou un problème avec des heures consignées. L'avertissement indique que l'administrateur n'autorise pas le déplacement des tâches ou des événements comportant des heures consignées. Impossible de déplacer les tâches ou les événements pour lesquels des heures ont été enregistrées. </li></ul>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
 </div>
-
--->
 
 ### Dates effectives {#actual-dates}
 
@@ -255,6 +254,28 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.
    If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.
    -->
+
+### Délégation
+
+L’activation du paramètre **[!UICONTROL Autoriser les utilisateurs à déléguer leurs tâches et problèmes]** permet à tous les utilisateurs du groupe de déléguer temporairement leur travail à d’autres.
+
+Lorsque ce paramètre est activé, les utilisateurs du groupe peuvent voir les éléments suivants :
+
+* Le lien [!UICONTROL **Déléguer**] dans leurs widgets [!UICONTROL Mon travail], [!UICONTROL Mes tâches] ou [!UICONTROL Mes problèmes] dans la zone [!UICONTROL Accueil]. Il peut déléguer des affectations de tâches et d’événements à partir de là.
+
+  >[!NOTE]
+  >
+  >  Le lien [!UICONTROL **Déléguer les approbations**] est toujours activé dans la zone [!UICONTROL Accueil].
+
+* Indication qu’une tâche ou un problème fait l’objet d’une délégation à un autre utilisateur ou une autre utilisatrice dans la zone [!UICONTROL Affectations et délégations] dans l’en-tête de la tâche ou du problème.
+* Indique qu’une tâche ou un événement est délégué à un autre utilisateur dans son widget [!UICONTROL Mon travail] de l’[!UICONTROL Accueil].
+
+  Si vous désactivez le paramètre [!UICONTROL Autoriser les utilisateurs à déléguer leurs tâches et problèmes], les délégations actuellement planifiées s’arrêteront et les utilisateurs délégués recevront une notification par e-mail indiquant que la délégation a été arrêtée.
+
+Pour plus d’informations sur la délégation de tâches, consultez les articles suivants :
+
+* [Vue d’ensemble de la délégation de travail](../../../manage-work/delegate-work/delegate-work-overview.md)
+* [Déléguer des tâches et problèmes](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
 ### Accès {#access}
 

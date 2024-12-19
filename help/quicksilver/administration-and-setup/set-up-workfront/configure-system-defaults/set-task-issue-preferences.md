@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '2107'
-ht-degree: 96%
+source-wordcount: '2279'
+ht-degree: 86%
 
 ---
 
@@ -22,12 +22,10 @@ ht-degree: 96%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 En tant qu’administrateur ou administratrice [!DNL Adobe Workfront], vous pouvez configurer les préférences de l’ensemble du système pour les tâches et les problèmes. Ces préférences ont un impact sur la façon dont vos utilisateurs et utilisatrices créent des tâches et des problèmes dans [!DNL Workfront].
 
@@ -76,9 +74,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * [[!UICONTROL Paramètres par défaut de la nouvelle tâche]](#new-task-defaults)
    * [[!UICONTROL Événements]](#issues)
    * [[!UICONTROL Suppression]](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[ Déplacer ](#move)</span>
    * [[!UICONTROL Dates effectives]](#actual-dates)
    * [[!UICONTROL Délégation]](#delegation)
    * [[!UICONTROL Accès]](#access)
@@ -159,7 +155,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ### [!UICONTROL Suppression] {#deletion}
 
-**[!UICONTROL Autoriser les utilisateurs et utilisatrices à supprimer les tâches et les problèmes comportant des heures consignées]** : vous permet de déterminer si vous autorisez la suppression des tâches ou des problèmes pour lesquels des heures ont été consignées. Cette option est sélectionnée par défaut.
+**[!UICONTROL Autoriser les utilisateurs à supprimer des tâches et des événements avec des heures consignées]** : vous permet de déterminer si vous autorisez la suppression des tâches ou des événements où des heures sont consignées. Cette option est sélectionnée par défaut.
 
 >[!TIP]
 >
@@ -173,21 +169,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 * Si vous désélectionnez cette option, un avertissement d’interdiction s’affiche lorsque vous supprimez une tâche ou un problème comportant des heures consignées, ou lorsque vous supprimez un projet comportant des heures consignées pour ses tâches ou ses problèmes. L’avertissement spécifie que l’équipe d’administration n’autorise pas la suppression des tâches ou des problèmes pour lesquels des heures ont été consignées. Les tâches, les problèmes ou les projets pour lesquels des heures ont été consignées ne peuvent pas être supprimés.
 
-<!--*****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### Déplacer
 
-**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+**[!UICONTROL Autoriser les utilisateurs à déplacer les tâches et les événements avec des heures consignées]** : vous permet de déterminer si vous autorisez le déplacement des tâches ou des événements pour lesquels des heures sont consignées. Cette option est sélectionnée par défaut.
 
-* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+* Lorsqu’il est sélectionné, vous pouvez déplacer les tâches et les événements dont le temps est consigné. Les heures se déplacent également avec les tâches ou les événements.
 
-* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+* Lorsque vous désélectionnez cette option, vous recevez un avertissement lorsque vous déplacez une tâche ou un problème avec des heures consignées. L&#39;avertissement indique que l&#39;administrateur n&#39;autorise pas le déplacement des tâches ou des événements comportant des heures consignées. Impossible de déplacer les tâches ou les événements pour lesquels des heures ont été enregistrées.
 
 </div>
-
--->
 
 ### [!UICONTROL Dates effectives] {#actual-dates}
 
@@ -216,7 +208,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ### Délégation
 
-Activer le paramètre **[!UICONTROL Autoriser les utilisateurs et utilisatrices à déléguer leurs tâches et problèmes]** permet à toutes les personnes de déléguer temporairement leur travail à d’autres.
+L’activation du paramètre **[!UICONTROL Autoriser les utilisateurs à déléguer leurs tâches et problèmes]** permet à tous les utilisateurs du système de déléguer temporairement leur travail à d’autres.
 
 Lorsque ce paramètre est activé, les utilisateurs et les utilisatrices peuvent voir les éléments suivants :
 
@@ -229,7 +221,7 @@ Lorsque ce paramètre est activé, les utilisateurs et les utilisatrices peuvent
 * Indication qu’une tâche ou un problème fait l’objet d’une délégation à un autre utilisateur ou une autre utilisatrice dans la zone [!UICONTROL Affectations et délégations] dans l’en-tête de la tâche ou du problème.
 * Indique qu’une tâche ou un événement est délégué à un autre utilisateur dans son widget [!UICONTROL Mon travail] de l’[!UICONTROL Accueil].
 
-  Si vous désactivez le paramètre [!UICONTROL Autoriser les utilisateurs et utilisatrices à déléguer leurs tâches et problèmes], les délégations actuellement programmées s’arrêteront et les personnes déléguées recevront une notification par e-mail indiquant que la délégation a été arrêtée.
+  Si vous désactivez le paramètre [!UICONTROL Autoriser les utilisateurs à déléguer leurs tâches et problèmes], les délégations actuellement planifiées s’arrêteront et les utilisateurs délégués recevront une notification par e-mail indiquant que la délégation a été arrêtée.
 
 Pour plus d’informations sur la délégation de tâches, consultez les articles suivants :
 
