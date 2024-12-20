@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '604'
 ht-degree: 12%
 
 ---
@@ -48,14 +48,14 @@ Pour plus d’informations, voir [Afficher les détails du projet et de la tâch
 >
 >Version préliminaire : 19 décembre 2024 ; Version de production pour tous les clients : avec la version 25.1 (janvier 2025)
 
-Vous pouvez désormais interagir avec des documents et des épreuves pour les tâches et les événements. Dans le nouvel onglet Documents, vous pouvez :
+Vous pouvez désormais interagir avec des documents et des BAT pour les tâches et les événements dans la liste de travail et le calendrier. Dans le nouvel onglet Documents, vous pouvez :
 
 * charger un document ;
 * Créer une épreuve
 * Lancer la visionneuse de relecture
 * Et plus encore
 
-<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+Pour plus d’informations, voir [ Charger des documents et créer des épreuves dans Priorités ](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
 
 ## La vue Calendrier est désormais disponible dans Priorités
 
@@ -63,12 +63,14 @@ Vous pouvez désormais interagir avec des documents et des épreuves pour les t�
 >
 >Version préliminaire : 19 décembre 2024 ; Version de production pour tous les clients : avec la version 25.1 (janvier 2025)
 
-Suivez facilement votre travail avec un calendrier mensuel clair et visuel. Avec le calendrier Priorités, vous pouvez :
+Vous pouvez désormais suivre votre travail à l’aide d’un calendrier visuel clair. Avec le calendrier Priorités, vous pouvez :
 
 * Utiliser des filtres pour trouver votre travail
-* Afficher les champs tels que le statut et le niveau de focus
-* Application de couleurs pour une hiérarchisation rapide
+* Appliquer des champs personnalisés tels que le statut et le niveau de focus pour identifier le travail hautement prioritaire
+* Appliquer des couleurs pour une organisation rapide
 * Et plus encore
+
+Pour plus d’informations, voir [ Gérer votre travail dans le calendrier Priorités ](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
 
 ## Mises à jour de la liste de travail des priorités
 

@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Afficher les détails du projet et de la tâche dans la liste de travail Priorités
+title: Afficher les détails du projet et de l’élément de travail dans la liste de travail Priorités
 description: Vous pouvez afficher les détails du projet et de la tâche dans la liste de travail des priorités.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 25%
+source-wordcount: '401'
+ht-degree: 24%
 
 ---
 
-# Afficher les détails du projet et de la tâche dans Priorités
+# Afficher les détails du projet et de l&#39;élément de travail dans Priorités
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
@@ -80,13 +80,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Dans la liste des tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
 1. La tâche est sélectionnée par défaut. Ici, vous pouvez
-   * Afficher et modifier les détails et la description du projet
+   * Afficher et modifier les détails et la description des projets et des tâches
    * Afficher et ajouter des commentaires sur le projet
    * <span class="preview">Afficher et ajouter des documents</span>
    * <span class="preview">Création d’un BAT</span>
    * Enregistrer des heures
    * Ajouter un fichier
    * Ajout de liens rapides
+
 
    ![ détails de la tâche ](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
@@ -97,7 +98,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Dans la liste des tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
 1. L&#39;événement est sélectionné par défaut. Ici, vous pouvez
-   * Afficher et modifier les détails et la description du projet
+   * Afficher et modifier les détails et la description des projets et des événements
    * Afficher et ajouter des commentaires sur le projet
 * <span class="preview">Afficher et ajouter des documents</span>
 * <span class="preview">Création d’un BAT</span>

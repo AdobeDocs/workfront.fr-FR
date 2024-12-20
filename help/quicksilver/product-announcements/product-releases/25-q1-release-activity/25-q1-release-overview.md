@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2306'
 ht-degree: 31%
 
 ---
@@ -267,7 +267,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Charger et afficher des documents et des épreuves dans Priorités</a></p>
-            <p>Vous pouvez désormais interagir avec des documents et des épreuves pour les tâches et les événements. Dans le nouvel onglet Documents, vous pouvez :</p>
+            <p>Vous pouvez désormais interagir avec des documents et des BAT pour les tâches et les événements dans la liste de travail et le calendrier. Dans le nouvel onglet Documents, vous pouvez :</p>
             <ul>
                 <li>charger un document ;</li>
                 <li>Créer une épreuve</li>
@@ -287,11 +287,11 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             La vue Calendrier est désormais disponible dans Priorités</a></p>
-            <p>Suivez facilement votre travail avec un calendrier mensuel clair et visuel. Avec le calendrier Priorités, vous pouvez :</p>
+            <p>Vous pouvez suivre votre travail à l’aide d’un calendrier mensuel visuel clair. Avec le calendrier Priorités, vous pouvez :</p>
             <ul>
                 <li>Utiliser des filtres pour trouver votre travail</li>
-                <li>Afficher les champs tels que le statut et le niveau de focus</li>
-                <li>Application de couleurs pour une hiérarchisation rapide</li>
+                <li>Appliquer des champs personnalisés tels que le statut et le niveau de focus pour identifier le travail hautement prioritaire</li>
+                <li>Appliquer des couleurs pour une organisation rapide</li>
                 <li>Et plus encore</li>
             </ul>
         </td>
