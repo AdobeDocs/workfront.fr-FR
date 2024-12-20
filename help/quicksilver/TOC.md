@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: fe41b9209d4034e6685db313c8cbfef9c13eda28
+source-git-commit: 046bbabbfe3944d9fea9008ac60547b602f95f68
 workflow-type: tm+mt
-source-wordcount: '14747'
+source-wordcount: '14757'
 ht-degree: 93%
 
 ---
@@ -918,7 +918,7 @@ ht-degree: 93%
    * Accueil {#home}
       * [Page d’accueil](workfront-basics/using-home/home.md)
       * Utiliser la zone d’accueil {#use-home-area}
-         * [Utiliser la zone d’accueil](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+         * [Utilisez la zone Accueil : index des articles](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Commencer avec la page d’accueil](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Ajouter, modifier ou supprimer des widgets dans la nouvelle page d’accueil](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Afficher les éléments de la liste de travail dans la zone d’accueil](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
@@ -1038,7 +1038,7 @@ ht-degree: 93%
          * [Conseils, astuces et dépannage pour les applications mobiles Adobe Workfront](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
          * [Message d’erreur sur l’application mobile Adobe Workfront : « Votre compte n’est pas compatible avec l’API ».](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
    * Conseils, astuces et dépannage pour les concepts de bases d’Adobe Workfront {#tips-tricks-for-basics}
-      * [Conseils, astuces et dépannage pour les concepts de base d’Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
+      * [Conseils, astuces et dépannage pour Adobe Workfront : index d’article](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [Guide rapide pour trouver de l’aide dans Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
       * [Modifier le format des dates dans Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
       * [Contacter l’assistance clientèle](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
@@ -1049,7 +1049,8 @@ ht-degree: 93%
       * [Résolution des problèmes d’autorisations de gestion Workfront Proof](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
       * [Les boutons de filtre ne s’affichent pas dans les en-têtes de page.](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [Le filtre Projets auxquels je participe inclut des résultats inattendus.](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
-      * [Plusieurs onglets de navigateur entraînent la déconnexion de Workfront](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [Plusieurs onglets de navigateur entraînent la déconnexion de Workfront](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [Comment partager des objets sans générer de notifications](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
 * Agile {#agile}
    * [Agile](agile/agile.md)
    * [Vue d’ensemble des panoramas](agile/boards-overview.md)

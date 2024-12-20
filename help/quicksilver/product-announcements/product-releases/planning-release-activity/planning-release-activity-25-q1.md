@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '2114'
-ht-degree: 4%
+source-wordcount: '2182'
+ht-degree: 5%
 
 ---
 
@@ -34,6 +34,18 @@ Cet article décrit les fonctionnalités publiées pour Workfront Planning dans 
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning après la mise à jour de la disponibilité générale du 28 août 2024, voir [Activité de version d’Adobe Workfront Planning : index d’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Les champs de connexion avec des ressources Adobe Experience Manager sont désormais pris en charge dans les formulaires de demande
+
+>[!NOTE]
+>
+>Version de prévisualisation : samedi 20 décembre 2024. Version de production pour l’ensemble des clientes et clients : vendredi 16 janvier 2025.
+
+Vous pouvez désormais ajouter des champs de connexion contenant des ressources AEM à un formulaire de demande de type d’enregistrement dans Workfront Planning.
+
+Avant cette amélioration, ces types de champs ne pouvaient pas être ajoutés aux formulaires de demande.
+
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Configuration des validations pour les demandes Workfront Planning
 

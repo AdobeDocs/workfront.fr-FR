@@ -6,14 +6,16 @@ description: Lisez cet article pour savoir comment vous connecter à Workfront.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 76%
+source-wordcount: '898'
+ht-degree: 75%
 
 ---
 
 # Se connecter à [!DNL Adobe Workfront]
+
+<!--Audited: 2024-->
 
 {{important-not-on-aec}}
 
@@ -33,7 +35,9 @@ Vous avez besoin des informations suivantes pour vous connecter à [!DNL Adobe W
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,17 +46,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td> 
+   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p>
+   <p>Actuelle : [!UICONTROL Request] ou supérieure</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le type de formule ou de licence dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Se connecter à [!DNL Workfront] sans authentification unique
 
@@ -96,11 +104,11 @@ Pour vous connecter à [!DNL Workfront] en utilisant votre nom d’utilisateur o
 
 1. Terminez votre connexion.
 
-## Connectez-vous à l’application mobile [!DNL Workfront] à l’aide du domaine de l’entreprise.
+## Connectez-vous à l’application mobile [!DNL Workfront] à l’aide du domaine de l’entreprise
 
 1. Lancez l’application mobile [!DNL Workfront], puis cliquez sur **Se connecter avec le domaine de l’entreprise**.
 
-1. Saisissez le domaine de votre entreprise.
+1. Saisissez le domaine de votre organisation.
 
    Il s’agit du domaine SAML si votre organisation utilise l’authentification unique.
 
@@ -125,27 +133,27 @@ Pour vous connecter à [!DNL Workfront] en utilisant votre nom d’utilisateur o
 1. Specify the **[!UICONTROL Username]** of your [!DNL Workfront] account or SAML user.
 1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.-->
 
-1. (Conditionnel) Si vous vous connectez pour la première fois, une page demandant l’autorisation à l’application mobile [!DNL Workfront] d’accéder à votre compte s’affiche. Cliquez sur **Autoriser l’accès** pour continuer.
+1. (Sous condition) Si vous vous connectez pour la première fois, une page demandant l’autorisation d’accès à votre compte pour l’application mobile [!DNL Workfront] s’affiche. Cliquez sur **Autoriser l’accès** pour continuer.
 
-1. Vous êtes redirigé vers une page web qui vous permet de vous connecter de manière identique au site de bureau. Ce processus varie en fonction de la configuration Workfront de votre entreprise. Pour plus d’informations, voir [Connexion à  [!DNL Workfront] sans authentification unique](#log-in-to-workfront-without-sso) ou [Connexion à [!DNL Workfront] avec authentification unique](#log-in-to-workfront-with-sso) ci-dessus.
+1. Vous êtes redirigé vers une page web qui vous permet de vous connecter de manière identique au site Desktop. Ce processus varie en fonction de la configuration Workfront de votre organisation. Pour plus d’informations, reportez-vous à la section [Connexion à [!DNL Workfront] sans SSO](#log-in-to-workfront-without-sso) ou [Connexion à [!DNL Workfront] avec SSO](#log-in-to-workfront-with-sso) ci-dessus.
 
-   Une fois l’opération terminée, vous êtes redirigé vers l’application mobile et vous êtes connecté.
+   Une fois l’opération terminée, vous êtes redirigé par vers l’application mobile et connecté.
 
 1. Appuyez sur **[!UICONTROL Ok, j’ai compris]** ou **[!UICONTROL COMMENCER]** pour naviguer dans les tutoriels affichés.
 
    Ces tutoriels ne s’affichent que la première fois que vous accédez à l’application. Ils ne s’affichent à nouveau que lorsque vous désinstallez et réinstallez l’application mobile [!DNL Workfront], ou si vous vous connectez en tant qu’une autre personne. Après avoir fermé les tutoriels, la zone qui s’affiche est celle que vous avez choisi d’afficher
 
-## Connectez-vous à l&#39;application mobile [!DNL Workfront] à l&#39;aide de l&#39;ID [!DNL Adobe]
+## Connectez-vous à l’application mobile [!DNL Workfront] à l’aide de l’identifiant [!DNL Adobe]
 
 1. Lancez l&#39;application mobile [!DNL Workfront], puis cliquez sur **Se connecter avec [!DNL Adobe] ID**.
 
 >[!NOTE]
 >
->Pour les utilisateurs iOS sur IMS, vous pouvez sélectionner **Se connecter avec le domaine de l’entreprise** et utiliser le domaine fourni par votre administrateur [!DNL Workfront] pour vous connecter à l’aide de votre [!DNL Adobe] ID.
+>Pour les utilisateurs d’iOS sur IMS, vous pouvez sélectionner **Se connecter avec le domaine de la société** et utiliser le domaine fourni par votre administrateur [!DNL Workfront] pour vous connecter à l’aide de votre identifiant de [!DNL Adobe].
 
-1. Saisissez votre email, puis cliquez sur **Continuer**.
+1. Saisissez votre adresse e-mail, puis cliquez sur **Continuer**.
 
-1. (Conditionnel) Sélectionnez le compte que vous souhaitez utiliser pour vous connecter. En règle générale, il s’agira de **compte de société ou d’école** si votre [!DNL Adobe] ID est associé à une organisation.
+1. (Conditionnel) Sélectionnez le compte que vous souhaitez utiliser pour vous connecter. En règle générale, il s’agit du compte **d’entreprise ou d’école** si votre identifiant [!DNL Adobe] est associé à une organisation.
 
 1. (Conditionnel) Sélectionnez un profil à utiliser si votre compte est associé à plusieurs organisations.
 

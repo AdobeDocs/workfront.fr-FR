@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 13%
 
 ---
@@ -149,13 +149,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >    * Date de création et date de dernière modification
    >    * Champs de recherche d’objets Workfront
    >    * Champs de recherche des enregistrements connectés de Workfront Planning
-   >    * Champs connectés AEM Assets
    >* Les champs des types suivants ne s’affichent pas dans le formulaire de demande dans l’environnement de production. <span class="preview">Elles s’affichent dans l’environnement de Prévisualisation :</span>
    >    * <span class="preview"> les champs connectés des enregistrements Workfront Planning</span>
    >    * <span class="preview">Personnes </span>
    >    * <span class="preview">Champs connectés des objets Workfront</span>
    >    * <span class="preview"></span> des champs connectés AEM Assets
-
 
    * **Section par défaut** : il s’agit du saut de section par défaut que Workfront applique au formulaire de demande. La section Par défaut ne peut pas être renommée ni supprimée.
    * Champ **Subject** : champ qui identifiera la demande dans Workfront. Cette fonctionnalité n’est pas encore disponible dans l’environnement de production. <span class="preview">Il est disponible dans l’environnement de prévisualisation.</span> La configuration et la valeur du champ Objet ne sont pas modifiables.

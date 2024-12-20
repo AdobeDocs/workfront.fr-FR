@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1476'
 ht-degree: 100%
 
 ---
@@ -33,6 +33,11 @@ Pour plus d’informations sur la conversion de problèmes en projets, voir [Con
 
    * Pendant la conversion, on vous demandera peut-être si vous souhaitez conserver le problème et sa résolution liés projet ou la tâche que vous créez.
    * Si vous conservez le problème, le statut et le pourcentage terminé du projet ou de la tâche mettent automatiquement à jour le statut et le pourcentage terminé du problème lorsque des modifications se produisent sur le projet, la tâche ou le problème, ou lorsque Workfront recalcule la chronologie.
+
+  >[!NOTE]
+  >
+  >   Une fois que le statut du problème est défini sur Fermé (suite à la fermeture de la tâche ou du projet), quel que soit le statut de la tâche ou du projet après leur fermeture, le problème restera Fermé.
+
 
 * Lors de la conversion d’un problème en une tâche ou un projet, le problème est supprimé de la zone Accueil de la personne affectée au problème.
 
