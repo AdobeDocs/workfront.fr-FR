@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 046bbabbfe3944d9fea9008ac60547b602f95f68
+source-git-commit: 998f30661c4bc3e6a16328b194a950f942319335
 workflow-type: tm+mt
-source-wordcount: '14757'
+source-wordcount: '14763'
 ht-degree: 93%
 
 ---
@@ -913,6 +913,7 @@ ht-degree: 93%
       * [Consigner le temps dans les priorités](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
       * [Charger les fichiers dans les priorités](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
       * [Ajouter et gérer des liens rapides dans les priorités](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
+      * [Rattrapage du travail dans les priorités](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
       * [Charger des documents et créer des épreuves dans les priorités](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
       * [Gérer votre travail dans le calendrier des priorités](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
    * Accueil {#home}

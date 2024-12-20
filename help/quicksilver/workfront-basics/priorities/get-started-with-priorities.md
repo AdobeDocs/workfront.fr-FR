@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: b637694c598540343383af15658a069c305f6bbf
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1000'
 ht-degree: 7%
 
 ---
@@ -115,7 +115,7 @@ Pour plus d’informations, voir [ Hiérarchiser les éléments de travail impor
 ![](assets/my-focus-column.png)
 <!-- new screen for prod ![](assets/worklist.png) -->
 
-### Utiliser la vue Calendrier [!BADGE bientôt disponible]{type=Informative}
+### Utiliser la vue Calendrier [!BADGE Disponible dans l’aperçu]{type=Informative}
 
 La vue Calendrier fournit une représentation visuelle de vos tâches et problèmes. Vous aurez le choix entre une vue sur un jour, une semaine ou un mois. Vous pourrez également filtrer les éléments de la même manière que dans la liste de travail.
 
@@ -190,11 +190,11 @@ Depuis l’onglet Documents d’une tâche ou d’un événement, vous pouvez :
 * Lancez le lecteur de vérification pour laisser des commentaires et prendre des décisions
 
 
-## Utilisez [!DNL Catch me up] pour voir ce que vous avez manqué [!BADGE bientôt disponible]{type=Informative}
+## Utilisez [!DNL Catch me up] pour voir ce que vous avez manqué [!BADGE Disponible en aperçu]{type=Informative}
 
 Utilisez la fonction [!DNL Catch me up] pour voir ce que vous avez manqué. Catch me up résumera les mises à jour, les documents téléchargés, les approbations et autres modifications notables concernant vos projets dans les délais suivants : 24 heures, 3 jours, 7 jours.
 
-<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
+Pour de plus amples renseignements, voir [Rattrapage du travail dans Priorités](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![](assets/catch-me-up.png)
 
