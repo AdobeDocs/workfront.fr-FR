@@ -7,10 +7,10 @@ description: Vous pouvez intégrer  [!DNL Adobe Workfront]  à des applications 
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 89%
+source-wordcount: '502'
+ht-degree: 88%
 
 ---
 
@@ -50,11 +50,11 @@ Les intégrations suivantes sont actuellement disponibles dans Workfront.
    <td role="rowheader"> <p>Adobe Experience Manager Assets et Assets Essentials </p>  </p> </td> 
    <td> 
     <ul> 
-     <li>Création automatique de dossiers liés entre Workfront et Adobe Experience Manager 
-      <li>Métadonnées de synchronisation pour les ressources liées existantes</p></li>
-      <li>Mettez automatiquement à jour les métadonnées de portefeuille, de programme, de projet, de tâche, de problème et de documents lorsqu’il est modifié dans Workfront.</li>
+     <li>Création automatique des dossiers liés entre Workfront et Adobe Experience Manager 
+      <li>Synchroniser les métadonnées des ressources liées existantes</p></li>
+      <li>Mettez automatiquement à jour les métadonnées des portefeuilles, programmes, projets, tâches, problèmes et documents lors des modifications dans Workfront.</li>
       <li>Connecter facilement plusieurs référentiels Experience Manager Assets à un environnement Workfront ou plusieurs environnements Workfront à un référentiel Experience Manager Assets à l’échelle des ID d’organisation</li></ul>
-     <p>Pour plus d’informations et d’instructions, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Présentation des intégrations Adobe Experience Manager Assets</a></p> 
+     <p>Pour plus d’informations et d’instructions, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref"> Présentation des intégrations Adobe Experience Manager Assets </a></p> 
      </td>
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ Les intégrations suivantes sont actuellement disponibles dans Workfront.
    <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Ajout d’un courrier électronique Google Workspace à un projet ou à une tâche </li> 
+     <li>Ajouter un e-mail Google Workspace à un projet ou à une tâche </li> 
      <li>Afficher et gérer les notifications [!DNL Workfront] dans Gmail</li> 
      <li>Soumettre des demandes via Gmail </li> 
     </ul> </td> 
@@ -99,8 +99,7 @@ Les intégrations suivantes sont actuellement disponibles dans Workfront.
    <td role="rowheader">Calendriers Microsoft (Office 365/Outlook Live)</td> 
    <td> 
     <ul> 
-     <li> <p>Effectuez une intégration à une version web d’Outlook hébergée dans le cloud Office 365 ou Outlook Live. </p> </li> 
-     <li> <p>Affichez tous les événements de votre calendrier [!DNL Outlook] et tous les calendriers associés que vous sélectionnez, tels que les calendriers d’anniversaires et de congés, dans votre calendrier de page d’accueil.</p>  <p>Remarque : la configuration du calendrier Outlook est complètement distincte du module complémentaire Outlook (Intégration Outlook ou Workfront pour Outlook). Aucune installation n’est requise pour configurer le calendrier.</p></li> 
+     <li> <p>Effectuez une intégration à une version web d’Outlook hébergée dans le cloud Office 365 ou Outlook Live. </p>
     </ul> </td> 
   </tr> 
   <tr> 
