@@ -6,10 +6,10 @@ description: Approuver du travail
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
+source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -67,8 +67,8 @@ Pour plus d’informations sur l’affichage des éléments en attente d’appro
 ## Approuver le travail depuis la zone d’accueil
 
 1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations** .
-1. (Conditionnel) Cliquez sur le menu déroulant **Filtre** , puis sélectionnez **Tous** pour voir les approbations qui vous ont été affectées et qui vous ont été déléguées.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations**.
+1. (Conditionnel) Cliquez sur le menu déroulant **Filtre**, puis sélectionnez **Toutes** pour voir les approbations qui vous sont affectées et qui vous sont déléguées.
 
    >[!NOTE]
    >
@@ -102,38 +102,38 @@ Pour plus d’informations sur l’affichage des éléments en attente d’appro
       <li>Subvention</li>
       <li>Ignorer</li>
       </ul>
-      Vous pouvez ajuster le niveau d'accès dans le menu déroulant <b>Modifier l'accès</b> si vous le souhaitez.
+      Vous pouvez ajuster le niveau d’accès dans le menu déroulant <b>Modifier l’accès</b> si vous le souhaitez.
       </td>
       <td>
          <ul>
          <li>Approuver</li>
          <li>Rejeter</li>
          </ul>
-      Vous pouvez laisser un commentaire avec votre décision en cliquant sur le menu déroulant du bouton de décision.
+      Vous pouvez laisser un commentaire avec votre décision en cliquant sur le menu déroulant dans le bouton de décision.
       </td>
       <td>
-   Attribué en tant qu’approbateur
+   Affecté en tant qu'approbateur
          <ul>
          <li>Approuver</li>
          <li>Approuver avec des modifications</li>
          <li>Travail nécessaire</li>
          </ul>
-   Affecté en tant que réviseur
+   Affecté en tant que réviseur/réviseuse
          <ul>
          <li>Terminer mon examen</li>
          </ul>
-      Les options de cette colonne ne s'appliquent qu'aux nouvelles validations de document. Les approbations de documents héritées apparaissent de la même manière que les approbations d’éléments de travail. 
+      Les options de cette colonne s'appliquent uniquement aux nouvelles approbations de documents. Les approbations de documents hérités apparaissent comme les approbations d’éléments de travail. 
       </td>
       <td>
          <ul>
          <li>Accéder au BAT</li>
          </ul>
-         Vous prenez votre décision dans la visionneuse de BAT. Pour plus d’informations sur la révision d’une épreuve, consultez la section <a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Réviser des épreuves dans Adobe Workfront</a>.
+         Vous prenez votre décision dans la visionneuse d’épreuves. Pour plus d’informations sur la révision d’une épreuve, consultez la section <a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Réviser des épreuves dans Adobe Workfront</a>.
       </td>
    </tr>
    </table>
 
-Une fois que vous avez pris une décision, l’approbation est supprimée du widget Mon approbation .
+Une fois la décision prise, l’approbation est supprimée du widget Mon approbation .
 
 
 ## Ouvrir une épreuve à partir d’un projet, d’une tâche ou d’un problème
