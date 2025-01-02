@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion nécessite une licence Adobe Workfront F
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: 2f1244d15ad7729941a35a1dc7ad9f1128d24404
+source-git-commit: 800cf889ff2729fca0c9d75d0ace0ecc1ee53a79
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 62%
+source-wordcount: '358'
+ht-degree: 55%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 62%
 
 Si votre pare-feu ou serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter certaines adresses IP à sa liste autorisée afin d’autoriser une communication ouverte entre votre environnement et [!DNL Adobe Workfront Fusion].
 
-Vous pouvez ajouter toutes les adresses IP et tous les domaines Fusion à votre liste autorisée ou vous pouvez localiser votre grappe Fusion et ajouter uniquement les adresses et domaines IP de la grappe.
+Placer sur la liste autorisée Vous pouvez ajouter tous les domaines et adresses IP Fusion à votre cluster, ou vous pouvez localiser votre cluster Fusion et ajouter uniquement les domaines et adresses IP de ce cluster.
 
-## Ajout de tous les domaines et adresses IP de fusion
+## Ajouter tous les domaines et adresses IP Fusion
 
-Ajoutez les adresses IP suivantes à votre liste autorisée :
+Ajoutez les adresses IP suivantes à votre place sur la liste autorisée :
 
 * 52.30.133.50
 * 54.220.93.204
@@ -42,35 +42,35 @@ Ajoutez les adresses IP suivantes à votre liste autorisée :
 * 20.81.156.240/28
 * 172.172.84.48/28
 
-En outre, si votre organisation utilise le filtrage réseau sortant, ajoutez le domaine suivant à votre liste autorisée pour permettre à votre système d’accéder à Workfront Fusion.
+De même, si votre entreprise utilise le filtrage de réseau sortant, ajoutez le domaine suivant à votre place sur la liste autorisée pour permettre à votre système d’accéder à Workfront Fusion. Ils sont utilisés pour les Webhooks.
 
 * hook.app.workfrontfusion.com
 * hook.app-eu.workfrontfusion.com
 * hook.app-az.workfrontfusion.com
 
-## Ajout des adresses IP et des domaines Fusion pour votre grappe uniquement
+## Ajoutez des adresses IP et des domaines Fusion pour votre cluster uniquement
 
-### Identifier votre centre de données
+### Identification de votre centre de données
 
 Les adresses IP varient en fonction de l’emplacement de stockage de vos données.
 
-Si vous accédez à Fusion via une URL, vous pouvez examiner l’URL pour localiser votre centre de données.
+Si vous accédez à Fusion par le biais d’une URL, vous pouvez examiner l’URL pour localiser votre centre de données.
 
 | URL | Datacenter |
 | --- | --- |
-| `https://app.workfrontfusion.com/` | centre de données américain |
-| `https://app-eu.workfrontfusion.com/` | centre de données de l’UE |
-| `https://app-az.workfrontfusion.com/` | centre de données Azure |
+| `https://app.workfrontfusion.com/` | centre de données des États-Unis |
+| `https://app-eu.workfrontfusion.com/` | centre de données de l&#39;UE |
+| `https://app-az.workfrontfusion.com/` | Centre de données Azure |
 
-Si vous accédez à Fusion via experience.adobe.com, vous pouvez vérifier l’onglet réseau de votre navigateur pour identifier le centre de données.
+Si vous accédez à Fusion via experience.adobe.com, vous pouvez vérifier l’onglet réseau dans votre navigateur pour identifier le centre de données.
 
 | URL | Datacenter |
 | --- | --- |
-| Appels à `https://fusion.adobe.com` | centre de données américain |
-| Appels à `https://eu.fusion.adobe.com` | centre de données de l’UE |
-| Appels à `https://az.fusion.adobe.com` | centre de données Azure |
+| Appels à `https://fusion.adobe.com` | centre de données des États-Unis |
+| Appels à `https://eu.fusion.adobe.com` | centre de données de l&#39;UE |
+| Appels à `https://az.fusion.adobe.com` | Centre de données Azure |
 
-### Ajout d’adresses IP et de domaines pour votre centre de données
+### Ajouter des adresses IP et des domaines pour votre centre de données
 
 Ajoutez les adresses IP suivantes à votre liste autorisée pour permettre à [!DNL Workfront Fusion] d’accéder à votre système.
 
