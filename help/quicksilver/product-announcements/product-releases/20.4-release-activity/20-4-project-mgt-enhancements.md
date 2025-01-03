@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
+source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1365'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Le nouveau champ Chef ou cheffe d’entreprise peut être utilisé dans les filt
 
 Pour plus d’informations, voir [Vue d‘ensemble du rôle de chef ou cheffe d’entreprise](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
 
-Cette fonctionnalité est désormais incluse dans la section [Principes fondamentaux de l’administrateur et de l’administratrice, partie 1 du parcours d’apprentissage](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Nouveauté pour les administrateurs et les administratrices : association de portfolios, de programmes et d’entreprises à des groupes
 
@@ -83,7 +83,7 @@ Par exemple, vous pouvez répertorier tous les portfolios de votre entreprise da
 
 Pour plus d’informations, voir la section « Association d’un groupe à un objet » dans l’article [Vue d’ensemble des groupes](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-Cette fonctionnalité est désormais incluse dans la section [Principes fondamentaux de l’administrateur et de l’administratrice, partie 1 du parcours d’apprentissage](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Nouveauté pour les administrateurs et administratrices : les administrateurs et administratrices d’un groupe affecté à une entreprise peuvent gérer l’entreprise.
 
@@ -93,7 +93,7 @@ Pour plus d’informations, voir [Créer et modifier des entreprises](../../../a
 
 Pour plus d’informations sur l’accès administratif aux entreprises, voir [Accorder aux utilisateurs et aux utilisatrices un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Cette fonctionnalité est désormais incluse dans la section [Principes fondamentaux de l’administrateur et de l’administratrice, partie 1 du parcours d’apprentissage](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Remplacer le bouton Travailler sur ce projet avec un bouton Démarrer
 
@@ -103,7 +103,7 @@ Mise à jour du 24 septembre : après avoir cliqué sur Démarrer la tâche ou
 
 Pour plus d’informations sur la configuration de cette option, voir [Remplacer le bouton Travailler sur ce projet par un bouton Démarrer](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-Cette fonctionnalité est désormais incluse dans le [Parcours d’apprentissage des principes fondamentaux des personnes salariées](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) et dans les [Principes fondamentaux de l’administrateur et de l’administratrice, partie 1 du parcours d’apprentissage](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
+<!--This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Autoriser plusieurs brouillons pour une rubrique de file d’attente
 
@@ -111,7 +111,7 @@ Pour vous donner plus de liberté lorsque vous utilisez des demandes, il n’y a
 
 Avant cette amélioration, Workfront n’enregistrait qu’un seul brouillon pour chaque rubrique de file d’attente de votre file d’attente des demandes.
 
-Pour plus d’informations sur l’envoi de demandes, voir [Créer et envoyer des demandes Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Pour plus d’informations sur l’envoi de demandes, voir [Créer et soumettre des demandes Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Affecter un groupe à une équipe
 
@@ -121,7 +121,7 @@ Lorsque vous affectez une équipe à un groupe, ses administrateurs et administr
 
 Pour plus d’informations, voir [Créer une équipe](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-Cette fonctionnalité est désormais incluse dans les [Principes fondamentaux de l’administrateur et de l’administratrice, partie 1 du parcours d’apprentissage](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Les nouveaux champs vous permettent de créer des rapports sur les données d’un groupe de niveau supérieur et de l’ensemble de ses sous-groupes.
 
