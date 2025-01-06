@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Approbation des ressources et des documents - Aperçu
+title: Fonctionnalités disponibles pour la révision et l’approbation des ressources et des documents
 description: Présentation des systèmes disponibles pour révision et approbation dans Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9bce16218e002912883994ce2ced6c9d2fce93e7
+exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '339'
 ht-degree: 3%
 
 ---
 
-
-# Approbation des ressources et des documents - Aperçu
+# Fonctionnalités disponibles pour la révision et l’approbation des ressources et des documents
 
 Il existe actuellement 3 systèmes différents disponibles dans Workfront pour la révision et l’approbation des ressources et des documents :
 
@@ -85,4 +85,6 @@ Fonctionnalités disponibles pour la relecture :
 
 * Utilisation de workflows de base ou automatisés
 
-
+<!--
+## Upcoming deprecations
+-->
