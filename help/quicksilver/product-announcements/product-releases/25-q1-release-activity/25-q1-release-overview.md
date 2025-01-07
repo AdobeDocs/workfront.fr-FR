@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: 5755894ff320db368d07a3ab3ff18bbc9e157e0a
 workflow-type: tm+mt
-source-wordcount: '2380'
-ht-degree: 31%
+source-wordcount: '2478'
+ht-degree: 30%
 
 ---
 
@@ -61,6 +61,34 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+           Comparaison d’objets entre des environnements pour la promotion de l’environnement</a></p>
+            <p>Pour faciliter la détermination de l’objet à inclure dans un package de promotion d’environnement, nous avons ajouté la possibilité de comparer des objets entre les environnements. Vous pouvez ensuite ajouter des objets à un package directement à partir de cette comparaison.</p>
+        </td>
+        <td>
+            <p><b>Disponible à ces dates :</b></p>
+            <ul>
+                <li>Version préliminaire : 5 janvier 2023</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (janvier 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Plus d’objets disponibles pour la promotion de l’environnement</a></p>
+            <p>Nous avons ajouté d'autres objets pour étendre les fonctionnalités de promotion d'environnement.</p>
+        </td>
+        <td>
+            <p><b>Disponible à ces dates :</b></p>
+            <ul>
+                <li>Version préliminaire : 5 janvier 2023</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (janvier 2025)</li>
+            </ul>
+        </td>
+    </tr>  
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Empêcher le déplacement de tâches en cas d'heures consignées</a></p>
             <p>Comme le déplacement de tâches ou d’événements pour lesquels des heures ont été consignées peut parfois entraîner des problèmes de conformité ou d’audit, nous avons ajouté une préférence dans les Préférences des tâches et des événements de la Configuration qui vous permet d’empêcher les utilisateurs de déplacer des tâches et des événements si des heures y sont consignées.</p>
         </td>
@@ -71,7 +99,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 <li>Version de production pour tous les clients : avec la version 25.1 (janvier 2025)</li>
             </ul>
         </td>
-    </tr>  
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
