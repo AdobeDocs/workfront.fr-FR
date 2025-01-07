@@ -8,10 +8,10 @@ description: Vous pouvez comparer des objets entre des environnements pour vous 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
+source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 17%
+source-wordcount: '465'
+ht-degree: 15%
 
 ---
 
@@ -82,6 +82,12 @@ Dans cet exemple :
 * La troisième ligne montre un objet qui n’est pas présent dans l’environnement cible.
 
 >[!ENDSHADEBOX]
+
+Pour afficher les différences d’objet spécifiques :
+
+1. Cliquez sur l’icône de loupe ![](assets/compare-icon.png) dans la ligne correspondant à cet objet.
+
+   Une fenêtre s’ouvre avec tous les champs de cet objet. les différences sont indiquées en rouge.
 
 ## Créer un package à partir d’une comparaison d’objets
 
