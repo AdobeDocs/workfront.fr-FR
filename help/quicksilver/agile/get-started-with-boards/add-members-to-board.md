@@ -6,10 +6,10 @@ description: Les personnes doivent être ajoutées au panorama en tant que membr
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
+source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 65%
+source-wordcount: '494'
+ht-degree: 63%
 
 ---
 
@@ -92,6 +92,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
 >[!NOTE]
 >
 >Seul un administrateur système ou le propriétaire actuel du panorama peut changer de propriétaire. Un panorama ne peut avoir qu’un seul propriétaire.
+>
+>La possibilité de changer le propriétaire du panorama est disponible sur les panoramas de base, rétrospectifs et kanban, mais pas sur les panoramas dynamiques.
 
 1. Accédez au panorama.
 1. Cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/more-icon-spectrum.png) en regard du nom du panorama, puis choisissez **[!UICONTROL Modifier le propriétaire du panorama]**.
