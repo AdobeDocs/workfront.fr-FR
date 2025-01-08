@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 24%
+source-wordcount: '426'
+ht-degree: 23%
 
 ---
 
@@ -18,6 +18,11 @@ ht-degree: 24%
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Vous pouvez afficher les détails des projets, des tâches et des événements dans la liste de travail des priorités.
+
+>[!IMPORTANT]
+>
+>Les projets doivent avoir le statut Actuel ou un statut équivalent au statut actuel pour afficher les projets ainsi que leurs tâches et événements enfants.
+
 
 ## Conditions d’accès
 

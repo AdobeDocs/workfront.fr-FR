@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: da688217a1240b74667f31d20e086164e1536576
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 17%
+source-wordcount: '929'
+ht-degree: 16%
 
 ---
 
@@ -244,23 +244,25 @@ Vous pouvez filtrer les tâches et les événements qui vous sont affectés.
 
 1. (Facultatif) Cliquez sur **Retour aux valeurs par défaut** pour réinitialiser votre sélection.
 
-<!--### Filter your work with Smart filters
+<div class="preview">
 
-Use natural language to filter quickly filter work.
+### Filtrer votre travail à l’aide de filtres dynamiques
+
+Utilisez le langage naturel pour filtrer rapidement le travail.
 
 {{step1-to-priorities}}
 
-1. Click **Filters** in the top left of the worklist.
-1. Click **Smart filters**. 
-1. Type how you want to filter your work. 
+1. Cliquez sur **Filtres** en haut à gauche de la liste de travail.
+1. Cliquez sur **Filtres intelligents**.
+1. Saisissez la manière dont vous souhaitez filtrer votre travail.
 
-    You can type things like
+   Vous pouvez saisir des éléments tels que :
 
-    * Show me late tasks
-    * Show my top priorities
-    * Show work due today
+   * Afficher les tâches en retard
+   * Afficher mes principales priorités
+   * Afficher le travail dû aujourd&#39;hui
 
--->
+</div>
 
 ### Regrouper votre travail
 

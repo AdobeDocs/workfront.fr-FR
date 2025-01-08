@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: da688217a1240b74667f31d20e086164e1536576
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1014'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,7 @@ Dans Priorités, vous pouvez filtrer et regrouper votre travail pour vous aider 
 
 ### Rechercher votre travail avec les filtres
 
-Trouvez votre travail le plus important avec les filtres. <!--<span class="preview">You can use a natural language to find work with the Smart filter</span>, or -->
+Trouvez votre travail le plus important avec les filtres. <span class="preview">Vous pouvez utiliser un langage naturel pour rechercher du travail avec le filtre intelligent</span> ou
 Vous pouvez utiliser le filtre Standard pour rechercher les tâches et les événements qui vous sont affectés :
 
 <table>

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 90%
@@ -21,9 +21,9 @@ ht-degree: 90%
 
 ## Aperçu et version rapide - Général {#preview-fast-release-general}
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 ## Version préliminaire et version rapide du 4e trimestre 2024 {#preview-and-fast-release-Q424}
 
@@ -75,13 +75,13 @@ ht-degree: 90%
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône de configuration](/help/_includes/assets/gear-icon-setup.png).
 
-## Concepteur de formulaire pour la disponibilité générale {#form-designer-default}
+## Concepteur de formulaire vers GA {#form-designer-default}
 
 >[!IMPORTANT]
 >
->L’ancien créateur de formulaires n’est plus disponible à compter de la version 24.7 du 18 juillet 2024. Le concepteur de formulaires est désormais l’expérience par défaut pour la création et la modification de formulaires personnalisés dans Adobe Workfront.
+>Le créateur de formulaires hérité n’est plus disponible à compter de la version 24.7 du 18 juillet 2024. Le concepteur de formulaire est désormais l’expérience par défaut pour la création et la modification de formulaires personnalisés dans Adobe Workfront.
 >
->Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Associer le groupe de droite à l’équipe {#right-group-team}
 
@@ -161,7 +161,7 @@ Pour configurer les dossiers liés, procédez comme suit :
 >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit de la page, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]**![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Accueil]**.
 >
 
-## Étape 1 - Atteindre les priorités - {#step1-to-priorities}
+## Étape 1 - Établissement des priorités - {#step1-to-priorities}
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Priorités]**.
 
@@ -276,7 +276,7 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
    La page de destination de la planification Workfront s’ouvre.
 
-1. (Facultatif et conditionnel) Si vous êtes administrateur Workfront, cliquez sur l’un des onglets suivants :
+1. (Facultatif et conditionnel) Si vous êtes un administrateur Workfront, cliquez sur l’un des onglets suivants :
 
    * **Mes espaces de travail** : affiche les espaces de travail que vous avez créés.
    * **Autres espaces de travail** : affiche tous les espaces de travail de la planification Workfront, y compris ceux partagés avec vous.
@@ -287,17 +287,17 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 >[!IMPORTANT]
 >
->Les informations de cet article font référence à la planification Adobe Workfront, une fonctionnalité supplémentaire d’Adobe Workfront.
+>Les informations de cet article font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
 >
 >Pour accéder à Workfront Planning, vous devez disposer des éléments suivants :
 >
->* Un nouveau package Workfront et une nouvelle licence. Workfront Planning n’est pas disponible pour les packages ou licences Workfront hérités.
->* Un module de planification Workfront.
->* L’instance Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe.
+>* Un nouveau package et une nouvelle licence Workfront. Workfront Planning n’est pas disponible pour les packages ou licences Workfront hérités.
+>* Un package Workfront Planning.
+>* L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée d’Adobe.
 >
-> Pour obtenir la liste complète des exigences d’accès à la planification Workfront, consultez la [présentation des accès](/help/quicksilver/planning/access/access-overview.md).
+> Pour obtenir la liste complète des conditions requises pour accéder à Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/planning/access/access-overview.md).
 > 
->Pour plus d’informations sur la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+>Pour plus d’informations sur Workfront Planning, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 <!--OLD: 
 >[!IMPORTANT]
@@ -360,8 +360,8 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 ## Dernière version DPV {#latest-version}
 
 **Dernière version** :
-* Mac : 2.1.39 à partir du 10/2/2024
-* Windows : 2.1.39 de 10/2/2024
+* Mac : 2.1.44 au 1/2/2025
+* Windows : 2.1.44 du 1/2/2025
 
 <!-- Release -->
 
