@@ -1,28 +1,26 @@
 ---
 title: Améliorations de la page d’accueil du premier trimestre 2025
-description: Améliorations de la page d’accueil du premier trimestre 2025
+description: Améliorations des priorités du premier trimestre de 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 8%
+source-wordcount: '801'
+ht-degree: 7%
 
 ---
 
-# Améliorations de la page d’accueil du premier trimestre 2025
+# Améliorations des priorités du premier trimestre de 2025
 
-Cette page décrit toutes les améliorations de l’accueil apportées à l’environnement de Prévisualisation avec la version du premier trimestre 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
+Cette page décrit toutes les améliorations apportées aux Priorités avec la version du premier trimestre 2025 de l’environnement de Prévisualisation. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2025, consultez l’article [Vue d’ensemble de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Présentation des améliorations des priorités
 
-Regardez la vidéo ci-dessous pour un aperçu général des nouvelles fonctionnalités ajoutées aux Priorités ce trimestre.
-
-[Vidéo de présentation des améliorations apportées aux priorités](https://video.tv.adobe.com/v/3442750/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
 Consultez la [ vidéo de démonstration des améliorations des priorités ](#priorities-enhancements-demo-video) ci-dessous pour une démonstration complète des fonctionnalités incluses dans cette présentation.
 
@@ -165,4 +163,6 @@ Pour plus d’informations, voir [Afficher les détails du projet et de la tâch
 
 Regardez la vidéo ci-dessous pour une démonstration détaillée des nouvelles fonctionnalités ajoutées à Priorités ce trimestre.
 
-[ Vidéo de démonstration des améliorations des priorités ](https://video.tv.adobe.com/v/3442751/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442751/?quality=12&learn=on)
+
+

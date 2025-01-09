@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
 source-wordcount: '2527'
-ht-degree: 30%
+ht-degree: 29%
 
 ---
 
@@ -37,7 +37,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations des panoramas](#boards-enhancements)
 * [Améliorations de la gestion des documents](#document-management-enhancements)
-* [Amélioration de l’accueil](#home-enhancements)
+* [Améliorations des priorités](#priorities-enhancements)
 * [Améliorations apportées aux projets](#project-enhancements)
 * [Améliorations apportées à la relecture](#proofing-enhancements)
 * [Améliorations des rapports et des tableaux de bord](#report-and-dashboard-enhancements)
@@ -248,7 +248,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 </tbody>
 </table>
 
-### Amélioration de l’accueil
+### Améliorations des priorités
 
 <table>
 <col style="width: 50%;" />
