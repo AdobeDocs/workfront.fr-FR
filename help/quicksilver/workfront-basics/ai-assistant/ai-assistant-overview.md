@@ -5,9 +5,9 @@ description: Présentation de l’assistant AI
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: d58088eed3c23652226f5d3f104705ed112c0b9f
+source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '741'
 ht-degree: 8%
 
 ---
@@ -100,12 +100,12 @@ L’assistant AI offre actuellement les fonctionnalités suivantes :
 
   Pour plus d’informations, voir [Générer ou réviser des formules de champs calculés avec l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
 
-<!--<div class="preview">
-* Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
+<div class="preview">
+* Résumé des mises à jour, documents chargés et autres modifications notables concernant vos projets dans les délais suivants : 24 heures, 3 jours, 7 jours dans Priorités.
 
-For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Pour de plus amples renseignements, voir [Rattrapage du travail dans Priorités](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-</div>-->
+</div>
 
 ## Types d’objet disponibles pour l’assistant AI
 
