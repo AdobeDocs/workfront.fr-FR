@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '466'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 <!-- Audited: 2/2024 -->
 
-Les groupes de sujets sont associés aux files d’attente des demandes. Ils vous permettent de classer vos files d’attente des demandes en plusieurs catégories, en fonction de la nature des demandes.
+Les groupes de sujets sont associés aux files d’attente des demandes. Vous pouvez regrouper vos files d’attente de demandes en plusieurs catégories, selon la nature des demandes à l’aide de groupes de rubriques.
 
 ## Conditions d’accès
 
@@ -64,12 +64,12 @@ Si, par exemple, vous disposez d’une file d’attente des demandes pour des re
 
 Pour plus d’informations sur la création de files d’attente des demandes, consultez la section [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
->[!TIP]
->
->* Vous pouvez créer jusqu’à 10 niveaux de groupes de sujets dans une file d’attente des demandes.
->* Le nombre de rubriques de file d’attente pouvant être associées à un groupe de sujets n’est pas limité.
->* Les groupes de sujets sont un objet sur lequel un rapport peut être créé.
->
+Tenez compte des points suivants lorsque vous utilisez des groupes de sujets :
+
+* Vous pouvez créer jusqu’à 10 niveaux de groupes de sujets dans une file d’attente des demandes.
+* Le nombre de rubriques de file d’attente pouvant être associées à un groupe de sujets n’est pas limité.
+* Les groupes de sujets sont un objet sur lequel un rapport peut être créé.
+* Vous ne pouvez pas déplacer des groupes de sujets d&#39;un projet à un autre.
 
 ## Créer des groupes de sujets
 

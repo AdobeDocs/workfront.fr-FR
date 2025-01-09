@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 98%
+source-wordcount: '854'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 98%
 Les rubriques de file d’attente fonctionnent conjointement avec les règles de transmission pour affecter automatiquement le travail entrant à une personne, une fonction, une équipe ou pour le placer sur un projet. Les rubriques de la file d’attente définissent les conditions nécessaires à la mise en œuvre de la règle de transmission.
 
 Le nombre de rubriques de file d’attente pouvant être affectées à un groupe de rubriques ou à un projet n’est pas limité. Les rubriques de file d’attente sont un type d’objet sur lequel un rapport peut être créé.
+
+Une fois créées, vous ne pouvez pas déplacer les rubriques de file d’attente d’un projet à un autre.
 
 ## Conditions d’accès
 
@@ -128,7 +130,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formulaires personnalisés</strong> </td> 
-      <td>Sélectionnez les formulaires personnalisés à associer à la rubrique de file d’attente. Vous devez créer des formulaires personnalisés pour les problèmes avant de pouvoir les associer aux rubriques de file d’attente. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Création d’un formulaire personnalisé</a>.</td> 
+      <td>Sélectionnez les formulaires personnalisés à associer à la rubrique de file d’attente. Vous devez créer des formulaires personnalisés pour les problèmes avant de pouvoir les associer aux rubriques de file d’attente. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Créer un formulaire personnalisé</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Approbation par défaut</strong></td> 

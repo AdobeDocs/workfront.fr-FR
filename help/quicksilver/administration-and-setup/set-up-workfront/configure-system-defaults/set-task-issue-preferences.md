@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2296'
 ht-degree: 86%
 
 ---
@@ -177,7 +177,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 * Lorsqu’il est sélectionné, vous pouvez déplacer les tâches et les événements dont le temps est consigné. Les heures se déplacent également avec les tâches ou les événements.
 
-* Lorsque vous désélectionnez cette option, vous recevez un avertissement lorsque vous déplacez une tâche ou un problème avec des heures consignées. L&#39;avertissement indique que l&#39;administrateur n&#39;autorise pas le déplacement des tâches ou des événements comportant des heures consignées. Impossible de déplacer les tâches ou les événements pour lesquels des heures ont été enregistrées.
+* Lorsque vous désélectionnez cette option, vous recevez un avertissement prohibitif lorsque vous déplacez une tâche ou un problème avec des heures consignées vers un autre projet. L&#39;avertissement indique que l&#39;administrateur n&#39;autorise pas le déplacement des tâches ou des événements comportant des heures consignées. Impossible de déplacer les tâches ou les événements pour lesquels des heures ont été enregistrées. Vous pouvez déplacer des tâches au sein du même projet, même si cette option est désélectionnée.
 
 </div>
 

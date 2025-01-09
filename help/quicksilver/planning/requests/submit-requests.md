@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '975'
 ht-degree: 10%
 
 ---
@@ -149,9 +149,10 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
    Votre formulaire est envoyé et les événements suivants se produisent :
 
-   * Si le formulaire de demande n&#39;a pas été associé à une approbation, ou <span class="preview">si l&#39;approbation a été accordée par tous les approbateurs</span> un nouvel enregistrement est ajouté au type d&#39;enregistrement associé au formulaire.
+   * Si le formulaire de demande n’a pas été associé à une approbation, la demande est ajoutée à l’onglet <span class="preview">Planification) de la section Envoyés de la zone des Demandes Workfront </span> et un nouvel enregistrement est ajouté au type d’enregistrement associé au formulaire.
 
-   * Si le formulaire de demande n’était pas associé à une approbation, la demande de <span class="preview"> est ajoutée à l’onglet Planification de la section Envoyés de la zone Demandes Workfront et un nouvel enregistrement est ajouté à la page du type d’enregistrement.</span>
+   * Si le formulaire de demande a été associé à une approbation, la demande de <span class="preview"> est ajoutée à l’onglet Planification de la section Soumis de la zone Demandes Workfront . Un nouvel enregistrement n&#39;est ajouté à la page de type d&#39;enregistrement qu&#39;une fois que tous les approbateurs l&#39;ont approuvé.</span>
+     <span class="preview">Pour plus d’informations, voir [Ajouter une approbation à un formulaire de demande](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
 
      ![](assets/planning-tab-in-requests.png)
 
@@ -159,9 +160,6 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
      >
      ><span class="preview">Tous les utilisateurs ayant accès à au moins un espace de travail peuvent afficher l&#39;onglet Planification dans la zone Demandes. Vous pouvez afficher uniquement les requêtes que vous ou une autre personne avez envoyées aux espaces de travail que vous êtes au moins autorisé à afficher. Les administrateurs et administratrices de Workfront peuvent afficher toutes les demandes envoyées à n’importe quel espace de travail du système. </span> <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">Si le formulaire de demande a été associé à une approbation, la demande est temporairement enregistrée dans l&#39;onglet Planification dans la section Soumis de la zone Demandes Workfront. Aucun enregistrement n&#39;est créé pour le type d&#39;enregistrement associé au formulaire de demande.</span>
-
-     <span class="preview">Pour plus d’informations, voir [Ajouter une approbation à un formulaire de demande](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
    * <span class="preview">Vous recevez une notification in-app et par e-mail indiquant que la demande a été soumise avec succès ou a été envoyée pour révision.</span>
    * <span class="preview">Si le formulaire de demande a été associé à une approbation, les approbateurs reçoivent une notification in-app et par e-mail pour examiner et approuver la demande.</span>
 

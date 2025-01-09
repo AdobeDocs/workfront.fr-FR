@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2226'
+source-wordcount: '2245'
 ht-degree: 86%
 
 ---
@@ -169,7 +169,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Autoriser les utilisateurs à supprimer des tâches et des événements avec des heures consignées</td> 
+      <td role="rowheader">Autoriser les utilisateurs et utilisatrices à supprimer les tâches et les problèmes comportant des heures consignées</td> 
       <td> <p> Permet de déterminer si vous autorisez la suppression de tâches ou de problèmes lorsque des heures sont enregistrées. Cette option est sélectionnée par défaut.</p> 
        <div> 
         <p><b>Conseil</b> : ce paramètre s’applique également à la suppression de projets comportant des tâches ou des problèmes avec des heures enregistrées. Ce paramètre ne s’applique pas à la suppression de projets dont les heures sont enregistrées directement pour le projet. </p> 
@@ -193,12 +193,12 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Autoriser les utilisateurs à déplacer les tâches et les événements avec des heures consignées</td> 
+      <td role="rowheader">Autoriser les personnes à supprimer les tâches et les problèmes comportant des heures consignées</td> 
       <td> <p> Permet de déterminer si vous autorisez le déplacement des tâches ou des événements pour lesquels des heures sont consignées. Cette option est sélectionnée par défaut.</p> 
        <p>Tenez compte des points suivants :</p> 
         <ul> 
          <li> Lorsqu’il est sélectionné, vous pouvez déplacer les tâches et les événements dont le temps est consigné. Les heures se déplacent également avec les tâches ou les événements. </li>
-      <li>Lorsque vous désélectionnez cette option, vous recevez un avertissement lorsque vous déplacez une tâche ou un problème avec des heures consignées. L'avertissement indique que l'administrateur n'autorise pas le déplacement des tâches ou des événements comportant des heures consignées. Impossible de déplacer les tâches ou les événements pour lesquels des heures ont été enregistrées. </li></ul>
+      <li>Lorsque vous désélectionnez cette option, vous recevez un avertissement lorsque vous déplacez une tâche ou un problème avec des heures consignées. L'avertissement indique que l'administrateur n'autorise pas le déplacement des tâches ou des événements comportant des heures consignées. Les tâches ou événements pour lesquels des heures ont été enregistrées ne peuvent pas être déplacés vers un autre projet. Vous pouvez déplacer des tâches avec des heures consignées dans le même projet, même si cette option est désélectionnée.  </li></ul>
       </td> 
      </tr> 
     </tbody> 

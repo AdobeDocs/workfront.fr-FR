@@ -2,16 +2,16 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Créer des règles de routage
-description: Les règles de routage contrôlent ce qu’Adobe Workfront fait avec les problèmes lorsqu’elles sont envoyées à une file d’attente de requêtes.
+description: Les règles de transmission contrôlent ce qu’Adobe Workfront fait des problèmes lorsqu’ils sont envoyés à une file d’attente des demandes.
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 8ec279ece400c10a37e67664b77b1e0df6639724
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 90%
+source-wordcount: '516'
+ht-degree: 88%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 90%
 Les règles de routage contrôlent ce qu’Adobe Workfront fait des problèmes lorsqu’ils sont soumis à une file d’attente des demandes. Pour plus d’informations sur la création de files d’attente des demandes, voir [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Les règles de routage envoient les problèmes aux personnes ou aux fonctions spécifiques les mieux équipées pour résoudre le problème ou la demande soumis. Les règles de routage sont généralement associées à des rubriques de file d’attente, qui sont utilisées pour contrôler la règle de routage qui sera appliquée au problème ou à la demande.
+
+Une fois créées, vous ne pouvez pas déplacer les règles de transmission d&#39;un projet à un autre.
 
 ## Conditions d’accès
 
@@ -60,7 +62,7 @@ Les règles de routage envoient les problèmes aux personnes ou aux fonctions sp
 
 1. Accédez au projet dans lequel vous souhaitez ajouter des règles de routage pour vos requêtes.
 1. Cliquez sur **Règles de routage** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Règles de routage**.
-1. Cliquez sur **Nouvelle règle de routage** pour ajouter la nouvelle règle. La zone **Nouvelle règle de routage** s’ouvre.
+1. Cliquez sur **Nouvelle règle de transmission** pour ajouter la nouvelle règle. La boîte **Nouvelle règle de transmission** s&#39;ouvre.
 
    ![Zone Nouvelle règle de routage](assets/new-routing-rule-box.png)
 1. Saisissez les informations suivantes pour la règle de routage :

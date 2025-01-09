@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1564'
 ht-degree: 13%
 
 ---
@@ -138,33 +138,40 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * Champs d’enregistrement disponibles dans la vue Tableau du type d’enregistrement sélectionné. <!--they are working on removing the limitation below-->
 
-   >[!IMPORTANT]
-   >
-   > Selon l’environnement que vous utilisez pour créer un formulaire de demande, les scénarios suivants existent :
-   >
-   >* Les champs des types suivants ne s’affichent pas dans le formulaire de demande <span class="preview">dans les environnements de prévisualisation </span> ou de production :
-   >
-   >    * Créé par et Dernière modification par
-   >    * Formule
-   >    * Date de création et date de dernière modification
-   >    * Champs de recherche d’objets Workfront
-   >    * Champs de recherche des enregistrements connectés de Workfront Planning
-   >* Les champs des types suivants ne s’affichent pas dans le formulaire de demande dans l’environnement de production. <span class="preview">Elles s’affichent dans l’environnement de Prévisualisation :</span>
-   >    * <span class="preview"> les champs connectés des enregistrements Workfront Planning</span>
-   >    * <span class="preview">Personnes </span>
-   >    * <span class="preview">Champs connectés des objets Workfront</span>
-   >    * <span class="preview"></span> des champs connectés AEM Assets
+<!-- when we go to prod, the Preview batch below will become the only batch-->
 
-   * **Section par défaut** : il s’agit du saut de section par défaut que Workfront applique au formulaire de demande. La section Par défaut ne peut pas être renommée ni supprimée.
-   * Champ **Subject** : champ qui identifiera la demande dans Workfront. Cette fonctionnalité n’est pas encore disponible dans l’environnement de production. <span class="preview">Il est disponible dans l’environnement de prévisualisation.</span> La configuration et la valeur du champ Objet ne sont pas modifiables.
+>[!IMPORTANT]
+>
+> Selon l’environnement que vous utilisez pour créer un formulaire de demande, les scénarios suivants existent :
+>
+>* Les champs des types suivants ne s’affichent pas dans le formulaire de demande dans l’environnement de production :
+>
+>    * Créé par et Dernière modification par
+>    * Date de création et date de dernière modification
+>    * Formule
+>    * Personnes
+>    * Champs connectés Workfront
+>    * Champs de recherche d’objets Workfront
+>    * Champs connectés des enregistrements Workfront Planning
+>    * Champs de recherche des enregistrements connectés de Workfront Planning
+>    * Champs de connexion AEM Assets
+>* Les champs des types suivants ne s’affichent pas dans le formulaire de demande dans <span class="preview">l’environnement de prévisualisation :</span>
+>    * <span class="preview"> créés par et modifiés en dernier par </span>
+>    * <span class="preview">Date de création et Date de dernière modification</span>
+>    * <span class="preview">Formule</span>
+>    * <span class="preview"> les champs de recherche d’objets Workfront</span>
+>    * <span class="preview">Champs de recherche des enregistrements connectés de Workfront Planning </span>
 
-     >[!TIP]
-     >
-     >Le champ **Objet** nécessite une valeur lorsqu’il est visible sur le formulaire de demande. Cependant, vous pouvez supprimer le champ **Objet** si nécessaire, et les demandeurs ne le verront pas dans le formulaire.
+* **Section par défaut** : il s’agit du saut de section par défaut que Workfront applique au formulaire de demande. La section Par défaut ne peut pas être renommée ni supprimée.
+* Champ **Subject** : champ qui identifiera la demande dans Workfront. Cette fonctionnalité n’est pas encore disponible dans l’environnement de production. <span class="preview">Il est disponible dans l’environnement de prévisualisation.</span> La configuration et la valeur du champ Objet ne sont pas modifiables.
 
-   * Tous les champs associés au type d’enregistrement.
+  >[!TIP]
+  >
+  >Le champ **Objet** nécessite une valeur lorsqu’il est visible sur le formulaire de demande. Cependant, vous pouvez supprimer le champ **Objet** si nécessaire, et les demandeurs ne le verront pas dans le formulaire.
 
-     Les champs contenus dans le formulaire de demande seront visibles pour toutes les personnes soumettant une demande à ce type d&#39;enregistrement.
+* Tous les champs associés au type d’enregistrement.
+
+  Les champs contenus dans le formulaire de demande seront visibles pour toutes les personnes soumettant une demande à ce type d&#39;enregistrement.
 
 1. (Facultatif) Pointez sur un champ du formulaire à supprimer, puis cliquez sur l’icône **x** pour le supprimer. Elles sont ajoutées à l’onglet **Champs** situé à gauche du formulaire.
 
@@ -232,9 +239,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    > * <span class="preview">Un formulaire contenant les types de champs suivants ne peut pas être partagé publiquement :</span>
    >
-   >     * <span class="preview">Formule</span>
    >     * <span class="preview">Connexions Workfront ou AEM Assets</span>
-   >     * <span class="preview">Champs de recherche</span>
    >     * <span class="preview">Personnes</span>
    >
 
