@@ -1,5 +1,5 @@
 ---
-title: Modification du profil d’un utilisateur
+title: Modifier le profil d’un utilisateur
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 532a7badf236d0d9568bc6c632b7badf3576cce3
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3273'
 ht-degree: 94%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 94%
 -->
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des utilisateurs et utilisatrices et gérer les profils existants. Pour plus d’informations sur la création d’utilisateurs et utilisatrices, voir [Ajouter des utilisateurs et utilisatrices](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+
+Pour plus d’informations sur les utilisateurs qui mettent à jour leur propre profil, voir [Configurer mes paramètres](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 ## Conditions d’accès
 
@@ -54,8 +56,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès Administrateur système. </li> 
-     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si <b>User Admin (Group Users)</b> est activé, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
+     <li> <p>Niveau d’accès de l’administrateur système. </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -108,7 +110,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <li> <p><b>Fuseau horaire :</b> fuseau horaire des utilisateurs et utilisatrices.</p> <p>Pour plus d’informations sur l’aide apportée aux utilisateurs et utilisatrices par le biais de Workfront dans les différents fuseaux horaires, voir <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Utilisation des fuseaux horaires</a>.</p> </li>
 
    <li><p><b>Locale d’e-mail</b> : paramètres régionaux d’e-mails préférés des utilisateurs et utilisatrices. Cela affecte le format des nombres et des dates dans les e-mails envoyés par Workfront à cet utilisateur ou cette utilisatrice.</p>
-      <p><b>REMARQUE :</b> Lorsque votre organisation se trouve dans l’expérience unifiée de l’Adobe, les préférences linguistiques de l’utilisateur sont stockées dans son profil d’Adobe et la langue de l’email n’est pas utilisée. Pour plus d’informations sur l’accès à ces préférences, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li>
+      <p><b>REMARQUE :</b> lorsque votre organisation se trouve sur l’Adobe Expérience unifiée, les préférences linguistiques de l’utilisateur sont stockées dans son profil d’Adobe et les paramètres régionaux de l’e-mail ne sont pas utilisés. Pour plus d’informations sur l’accès à ces préférences, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe de l’expérience unifiée pour Workfront</a>.</p></li>
 
    <li><b>Recevoir des e-mails de cet environnement de test</b> : cochez cette option si vous souhaitez recevoir des notifications par e-mail de l’environnement actuellement connecté.
       <p><b>NOTE</b></p>
@@ -116,7 +118,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       </li>
 
    </li> 
-       <li><b>Envoyez du travail que je m’assigne à mon onglet Travail sur l’onglet </b> : ce paramètre fait référence à une fonctionnalité obsolète qui a été supprimée de Workfront.</li> 
+       <li><b>Envoyer le travail que je me suis affecté dans mon onglet Travailler sur </b> : ce paramètre fait référence à une fonctionnalité obsolète qui a été supprimée de Workfront.</li> 
        <li><b>Générer automatiquement des épreuves lors du chargement de documents</b> : cochez cette option si vous souhaitez que les documents que l’utilisateur ou l’utilisatrice charge génèrent immédiatement une épreuve. </li>
        </ul> </td> 
      </tr> 
@@ -153,7 +155,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <li><b>Rapports directs :</b> si vous avez spécifié une entreprise pour l’utilisateur ou l’utilisatrice, vous pouvez également indiquer les rapports directs de l’utilisateur ou utilisatrice. Un utilisateur ou une utilisatrice peut avoir plusieurs rapports directs. Ce champ ne s’affiche pas si l’utilisateur ou utilisatrice n’est pas d’abord associé à une entreprise.</li> 
       <li><b>Équipe principale</b> : indiquez l’équipe principale de l’utilisateur ou utilisatrice. Les personnes ne peuvent avoir qu’une seule équipe principale. L’équipe principale est importante lors de l’attribution d’un modèle de disposition ou de la définition du bouton Travailler dessus pour les tâches et les problèmes assignés à l’utilisateur ou utilisatrice. </li> 
       <li><b>Autres équipes</b> : les personnes peuvent appartenir à plusieurs équipes. Un utilisateur ou une utilisatrice peut afficher les éléments de travail affectés à l’une de ses équipes dans sa zone d’accueil. </li> 
-      <li> <p><b>Groupe principal :</b> sélectionnez un groupe en guise de groupe principal des personnes. La personne peut ainsi accéder aux objets partagés avec le groupe. Vous pouvez également partager des modèles de disposition avec le groupe principal de l’utilisateur ou utilisatrice.</p> <p>Champ obligatoire. Chaque utilisateur et utilisatrice doit être associé à un groupe principal. Si vous n’en sélectionnez pas, votre groupe d’accueil est désigné comme groupe d’accueil du nouvel utilisateur.</p> <p><b>REMARQUE</b> :</p> 
+      <li> <p><b>Groupe principal :</b> sélectionnez un groupe en guise de groupe principal des personnes. La personne peut ainsi accéder aux objets partagés avec le groupe. Vous pouvez également partager des modèles de disposition avec le groupe principal de l’utilisateur ou utilisatrice.</p> <p>Champ obligatoire. Chaque utilisateur et utilisatrice doit être associé à un groupe principal. Si vous n’en sélectionnez pas un, votre groupe principal est affecté comme groupe principal du nouvel utilisateur.</p> <p><b>REMARQUE</b> :</p> 
       <p> Vous ne pouvez affecter un groupe à une personne que si l’une des conditions suivantes est vraie :</p>
       <ul><li>Vous êtes un administrateur ou une administratrice Workfront.</li>
       <li>Vous êtes l’administrateur ou l’administratrice du groupe.</li>
@@ -198,7 +200,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
        <li>En tant qu’utilisateur ou utilisatrice disposant d’une licence intégrale et d’un accès pour modifier les utilisateurs et les utilisatrices, vous ne pouvez afficher que les profils de feuille de temps au niveau du système. Pour plus d’informations sur les profils de feuille de temps au niveau du groupe, consultez la section <a href="../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md" class="MCXref xref">Créer, modifier et affecter des profils de feuille de temps</a>.</li>
       </ul></p> </li> 
        <li><b>Type d’heure par défaut</b> : sélectionner le type d’heure par défaut pour l’utilisateur ou l’utilisatrice. Il s’agit du type d’heure utilisé par défaut lorsque l’utilisateur ou l’utilisatrice consigne les heures.</li> 
-       <li><b>Types d’heure disponibles</b> : sélectionner les types d’heures qui doivent être disponibles pour l’utilisateur ou l’utilisatrice. Ces types d’heures sont visibles dans tous les emplacements Workfront où l’utilisateur ou l’utilisatrice peut consigner des heures. Une personne ne peut voir que les types d’heures qui sont activés au niveau du projet et au niveau de la personne. Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Définition des types d’heures et disponibilité</a>.</li> 
+       <li><b>Types d’heure disponibles</b> : sélectionner les types d’heures qui doivent être disponibles pour l’utilisateur ou l’utilisatrice. Ces types d’heures sont visibles dans tous les emplacements Workfront où l’utilisateur ou l’utilisatrice peut consigner des heures. Une personne ne peut voir que les types d’heures qui sont activés au niveau du projet et au niveau de la personne. Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref"> Définir les types d’heures et la disponibilité </a>.</li> 
        <li><b>Temps de connexion :</b> sélectionner si l’utilisateur ou l’utilisatrice doit consigner le temps des éléments de travail en heures ou en jours. Pour plus d’informations, consultez la section <a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">Configurer si le temps est enregistré en heures ou en jours</a>.</li>
 
    <li> <b>Équivalent temps complet</b> : il s’agit de l’équivalent temps complet de l’utilisateur ou de l’utilisatrice. Workfront utilise ce nombre pour calculer la disponibilité de la personne en fonction du planning par défaut uniquement lorsque les préférences de gestion des ressources au niveau du système sont définies sur « Le planning par défaut ».
@@ -232,7 +234,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
      <tr> 
       <td role="rowheader">Formulaires personnalisés</td> 
-      <td><p>Associez un formulaire personnalisé existant à cet utilisateur ou cette utilisatrice. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à un utilisateur ou une utilisatrice. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Les champs que vous ne pouvez pas modifier ne s’affichent pas dans un formulaire personnalisé individuel.</p> <p><strong>Remarque :</strong> Les fonctionnalités de formulaire personnalisées avancées telles que les champs de recherche externes et les champs natifs de Workfront ne sont disponibles que lorsque vous ouvrez l’enregistrement de l’utilisateur sur la page de détails, et non dans la boîte de dialogue Modifier l’utilisateur. (Dans la liste des personnes, cliquez sur un nom pour ouvrir les détails.)</p> <p>Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref">Création d’un formulaire personnalisé</a>.</p></td> 
+      <td><p>Associez un formulaire personnalisé existant à cet utilisateur ou cette utilisatrice. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à un utilisateur ou une utilisatrice. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Les champs que vous ne pouvez pas modifier ne s’affichent pas dans un formulaire personnalisé individuel.</p> <p><strong>Remarque :</strong> les fonctionnalités avancées de formulaires personnalisés telles que les champs de recherche externe et les champs natifs de Workfront ne sont disponibles que lorsque vous ouvrez l’enregistrement de l’utilisateur sur la page de détails, et non dans la boîte de dialogue Modifier l’utilisateur. (Dans la liste des personnes, cliquez sur un nom pour ouvrir les détails.)</p> <p>Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref">Créer un formulaire personnalisé</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Commentaire</td> 
