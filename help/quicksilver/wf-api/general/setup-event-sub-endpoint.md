@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 96%
 
 ---
 
@@ -35,3 +35,5 @@ Les points d’entrée des services qui utilisent les messages d’abonnement au
 
    1. le point d’entrée enregistre les informations du message à la réception et réponde immédiatement avec un statut de niveau 200.
    1. Une fois qu’un point d’entrée a répondu à une demande de diffusion d’abonnement à un événement, les messages enregistrés peuvent être traités.
+
+* Les objets ou messages d’abonnement à un événement ne peuvent pas dépasser 1 Mo.

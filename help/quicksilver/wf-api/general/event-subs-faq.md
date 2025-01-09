@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 100%
+source-wordcount: '970'
+ht-degree: 97%
 
 ---
 
@@ -51,6 +51,7 @@ Examinez les scénarios suivants et utilisez la solution recommandée :
 * Les événements peuvent ne pas se générer de la manière que vous pensez. Assurez-vous de ne pas faire d’hypothèses sur la manière ou le moment du déclenchement prévu et réel des événements. Par exemple, vous pouvez penser que la mise à jour d’un document sur une tâche génère un événement de mise à jour de tâche, mais cette mise à jour génère en fait un événement de création de document ou de mise à jour de document.
 * Votre abonnement peut ne pas être configuré comme prévu. Vous pouvez créer des abonnements à des événements dans différents environnements et vous attendre à ce qu’ils soient transférés comme leurs autres données Workfront. Toutefois, les données d’abonnement aux événements ne sont pas configurées pour être copiées ou promues dans d’autres environnements. Assurez-vous d’émettre des demandes d’API dans l’environnement approprié et que les abonnements dans cet environnement sont configurés comme prévu.
 * Le payload n’a pas été reçu, car l’adresse IP Workfront nécessaire n’a pas été ajoutée à la liste autorisée de votre pare-feu. Les événements d’abonnement aux événements ne sont envoyés que par quelques adresses IP. Assurez-vous que le réseau de destination comporte toutes les exceptions IP nécessaires pour recevoir les payloads des abonnements aux événements Workfront.
+* La payload n’a pas été reçue, car elle dépassait 1 Mo. Les messages d&#39;abonnement à un événement ou l&#39;objet ne peuvent pas dépasser 1 Mo.
 
 ## Pourquoi mes messages prennent autant de temps pour atteindre mon point d’entrée ?
 
