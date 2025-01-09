@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 13%
+source-wordcount: '250'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Version préliminaire : 16 décembre 2024 ; Version de production pour tous les clients : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 16 décembre 2024 ; Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)
 
 Pour maintenir les performances des tableaux de bord, nous avons implémenté une limite au nombre total de rapports, de pages externes ou de calendriers pouvant être placés dans un tableau de bord. Lors de la création d’un tableau de bord, 25 éléments au maximum peuvent être ajoutés.
 

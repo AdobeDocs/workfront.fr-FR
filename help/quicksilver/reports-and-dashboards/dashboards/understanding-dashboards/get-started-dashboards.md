@@ -7,16 +7,16 @@ description: Le tableau de bord permet d’accéder rapidement aux informations.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '689'
 ht-degree: 97%
 
 ---
 
 # Commencer avec les tableaux de bord
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 1/2025 -->
 
 Le tableau de bord permet d’accéder rapidement aux informations issues de plusieurs rapports. Rassemblez d’abord les informations dans des rapports, puis disposez plusieurs rapports sur les tableaux de bord pour faciliter l’accès aux informations.
 
@@ -38,7 +38,16 @@ Vous devez disposer des éléments suivants :
   </tr> 
   <tr> 
    <td> <p><strong>Licence Adobe Workfront</strong></p> </td> 
-   <td> <p>Nouvelle : contributeur ou supérieure</p><p>Ou</p><p>Actuel : Révision ou supérieur</p> </td> 
+      <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Contributeur ou version ultérieure</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Révision ou supérieur</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td><strong>Niveau d’accès</strong> </td> 
@@ -51,7 +60,7 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

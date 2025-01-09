@@ -6,14 +6,16 @@ description: Vous pouvez imprimer ou exporter un tableau de bord vers un fichier
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: efae17458f2aa08ca2286ef5e43c68d1f9334b7b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 98%
 
 ---
 
 # Imprimer un tableau de bord
+
+<!-- Audited: 1/2025 -->
 
 Vous pouvez imprimer ou exporter un tableau de bord vers un fichier PDF. Pour imprimer un tableau de bord, vous devez disposer des autorisations nécessaires pour le visualiser.
 
@@ -23,6 +25,8 @@ Vous pouvez imprimer ou exporter un tableau de bord vers un fichier PDF. Pour i
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
@@ -30,25 +34,36 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Travail ou supérieur</p> </td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+      <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Travail ou supérieur</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Afficher l’accès aux rapports, aux tableaux de bord et aux calendriers</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
+   <td> <p>Afficher l’accès aux rapports, aux tableaux de bord et aux calendriers</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong>/td&gt; 
-   <td> <p>Afficher des autorisations pour le tableau de bord</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Afficher des autorisations pour le tableau de bord</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -86,7 +101,7 @@ Les informations suivantes ne sont pas incluses dans le fichier de tableau de bo
 1. Accédez au tableau de bord que vous souhaitez imprimer.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur **Actions du tableau de bord** > **Imprimer**
+   * Cliquez sur **Actions du tableau de bord** > **Aperçu avant impression**
 
    * Appuyez sur **Ctrl+P** (sous Windows) ou **Commande+P** (sur Mac).
 

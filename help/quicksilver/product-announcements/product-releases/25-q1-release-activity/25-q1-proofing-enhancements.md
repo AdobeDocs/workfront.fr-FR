@@ -1,19 +1,20 @@
 ---
-title: Améliorations de la vérification au premier trimestre 2025
-description: Améliorations de la vérification au premier trimestre 2025
+title: Améliorations de la relecture du premier trimestre 2025
+description: Améliorations de la relecture du premier trimestre 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 22%
 
 ---
 
-# Améliorations de la vérification au premier trimestre 2025
+# Améliorations de la relecture du premier trimestre 2025
 
-Cette page décrit toutes les améliorations de la vérification vidéo apportées à la version du premier trimestre 2025 de l’environnement Aperçu. Si indiqué, ces améliorations seront disponibles dans l’environnement de production avec la version du premier trimestre 2025.
+Cette page décrit toutes les améliorations de relecture apportées à l’environnement Aperçu de la version du premier trimestre 2025. Si indiqué, ces améliorations seront disponibles dans l’environnement de production avec la version du premier trimestre 2025.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2025, consultez l’article [Vue d’ensemble de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
@@ -21,10 +22,10 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Version d’aperçu : 30 août 2024 ; version de production pour tous les clients : 30 août 2024.
+>Version préliminaire : 7 novembre 2024 ; Version de production pour tous les clients : 7 novembre 2024.
 
-Nous introduisons une nouvelle extension de navigateur, l’outil de révision d’Adobe Workfront, pour remplacer l’ancienne extension de navigateur pour la révision du contenu ZIP interactif. L’extension de navigateur héritée sera supprimée le 28 février 2025.
+Nous introduisons une nouvelle extension de navigateur, l’outil de révision Adobe Workfront, qui remplace l’ancienne extension de navigateur pour la révision du contenu ZIP interactif. L’ancienne extension de navigateur sera supprimée le 28 février 2025.
 
-Le nouvel outil de révision d’Adobe Workfront prend en charge la révision du contenu ZIP sur tous les navigateurs courants. Outre le contenu ZIP, la nouvelle extension prend également en charge la révision du contenu de l’URL et est actuellement en version bêta.
+Le nouvel outil de révision Adobe Workfront prend en charge la révision du contenu ZIP dans tous les navigateurs courants. En plus du contenu ZIP, la nouvelle extension prend également en charge la révision du contenu de l’URL et est actuellement en version bêta.
 
-Pour installer la nouvelle extension, reportez-vous à la section [Installation de l’extension](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension) dans [Révision de contenu interactif avec l’outil de révision Adobe Workfront](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).
+Pour installer la nouvelle extension, reportez-vous à la section [Installer l’extension](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension) dans [Vérifier le contenu interactif avec l’outil de révision Adobe Workfront](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).

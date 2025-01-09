@@ -4,10 +4,11 @@ description: Améliorations apportées aux panoramas (1er trimestre 2025)
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 8f88e9e4-3f87-48f8-a37b-cca50348daaf
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 35%
+source-wordcount: '187'
+ht-degree: 32%
 
 ---
 
@@ -25,7 +26,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 Le créateur d’un panorama en est le propriétaire par défaut. Le propriétaire du panorama est la seule personne qui peut supprimer ce panorama ou mettre à jour ses filtres dans le panneau Configurer.
 
-Une fonctionnalité a été ajoutée pour permettre aux administrateurs système de Workfront de changer le propriétaire d’un panorama. Le propriétaire actuel d’un panorama peut également changer le propriétaire de ce panorama spécifique.
+Une fonctionnalité a été ajoutée pour permettre aux administrateurs système de Workfront de changer le propriétaire d’un panorama. Le propriétaire actuel d’un panorama peut également changer le propriétaire de ce panorama spécifique. Cette fonctionnalité est disponible sur les tableaux de base, rétrospectifs et kanban, mais pas sur les tableaux dynamiques.
 
 Auparavant, le propriétaire du panorama ne pouvait pas être modifié sans intervention sur le serveur principal.
 

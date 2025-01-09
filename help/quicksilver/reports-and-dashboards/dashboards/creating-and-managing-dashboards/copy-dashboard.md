@@ -6,18 +6,22 @@ description: Vous pouvez copier un tableau de bord et tout son contenu (rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '896'
 ht-degree: 100%
 
 ---
 
 # Copier un tableau de bord
 
+<!-- Audited: 1/2025 -->
+
 Vous pouvez copier un tableau de bord et tout son contenu (rapports, calendriers et pages externes). Lorsque vous copiez le contenu d’un tableau de bord, vous pouvez choisir de le conserver tel qu’il apparaît dans le tableau de bord d’origine ou de créer de nouveaux éléments qui sont des copies de ceux du tableau de bord d’origine. Vous pouvez également choisir de ne pas transférer ni copier d’éléments dans le nouveau tableau de bord.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -31,18 +35,31 @@ Vous devez disposer des éléments suivants :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Plan </p> </td> 
+    <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Accès en affichage à un tableau de bord</p> <p>Vous obtiendrez l’accès en gestion au tableau de bord copié.</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Accès en affichage à un tableau de bord</p> <p>Vous obtiendrez l’accès en gestion au tableau de bord copié.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -52,7 +69,7 @@ Pour plus d’informations sur la création de tableaux de bord, voir [Créer un
 
 ## Copier un tableau de bord
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png), puis cliquez sur **Tableaux de bord**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Tableaux de bord]**.
 
 1. Sélectionnez le tableau de bord à copier, puis cliquez sur **Copier** ![](assets/copy-icon.png).\
    Ou\

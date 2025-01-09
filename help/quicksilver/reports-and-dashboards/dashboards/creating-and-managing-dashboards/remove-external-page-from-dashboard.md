@@ -6,14 +6,16 @@ description: Vous pouvez supprimer une page externe d’un tableau de bord si vo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 100%
+source-wordcount: '239'
+ht-degree: 94%
 
 ---
 
 # Supprimer une page externe d’un tableau de bord
+
+<!-- Audited: 1/2025 -->
 
 Vous pouvez supprimer une page externe d’un tableau de bord si vous n’en avez plus besoin.
 
@@ -21,39 +23,53 @@ Cependant, vous ne pouvez pas supprimer une page externe une fois qu’elle a é
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Accès en modification aux rapports, tableaux de bord et calendriers</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
+   <td> <p>Accès en modification aux rapports, tableaux de bord et calendriers</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations en gestion pour le tableau de bord</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Autorisations en gestion pour le tableau de bord</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Supprimer une page externe d’un tableau de bord
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png), puis sur **Tableaux de bords**.
-1. Sélectionnez le tableau de bord dont vous souhaitez supprimer la page externe, puis cliquez sur **Modifier** ![](assets/edit-icon.png).
+1. Accédez au tableau de bord contenant la page externe à supprimer.
 
-   ![Sélectionnez l’icône Modifier.](assets/nwe-editdashboard2021-350x188.png)
+1. Cliquez sur **Actions du tableau de bord**, puis cliquez sur **Modifier**.
+
+   ![](assets/unshimmed-edit-dashboard.png)
 
 1. Sur le côté droit de l’écran, localisez la page externe que vous souhaitez supprimer et cliquez sur l’icône **Supprimer** ![](assets/delete.png).
 

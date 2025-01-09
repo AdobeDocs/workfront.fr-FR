@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 1%
+source-wordcount: '709'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ Une petite modification de fonctionnalité a été appliquée à l’intégratio
 
 >[!NOTE]
 >
->Version préliminaire : 28 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 28 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 La boîte de dialogue permettant de demander l’accès aux objets a été mise à jour pour passer à une conception plus moderne, cohérente avec les autres zones de Workfront. Cette boîte de dialogue est disponible lorsque vous demandez l&#39;accès à des projets, tâches, événements, programmes, portefeuilles, modèles et tâches de modèles.
 
@@ -50,7 +50,7 @@ Nous avons amélioré les performances de la zone Configuration dans laquelle vo
 
 >[!NOTE]
 >
->Version préliminaire : 4 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 4 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 Nous avons mis à jour les pages Membres de l’entreprise et Taux de facturation de l’entreprise avec une conception plus moderne et cohérente avec les autres zones de Workfront. Les appartenances aux sociétés sont accessibles via Configuration > Sociétés > sélectionner un nom de société > sélectionner Membres de la société dans le panneau de gauche. Les taux de facturation de l’entreprise sont accessibles via Configuration > Entreprises > sélectionner le nom d’une entreprise > sélectionner les taux de facturation dans le panneau de gauche.
 
@@ -73,7 +73,7 @@ Les changements les plus notables sont les suivants :
 
 >[!NOTE]
 >
->Version préliminaire : 4 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 4 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 Un nouveau format de liste est disponible dans la zone Configuration de Workfront. La liste Taux d’exchange est la première page à utiliser ce format de tableau. La fonctionnalité d’ajout de nouveaux taux d’exchange et de recherche de taux d’exchange n’a pas changé.
 
@@ -83,7 +83,7 @@ Pour plus d&#39;informations sur les taux d&#39;exchange, voir [Configurer des t
 
 >[!NOTE]
 >
->Version préliminaire : 4 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 4 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 Nous avons mis à jour la page Exporter des données (Kick-Starts) dans la zone Configuration avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -93,7 +93,7 @@ Pour plus d’informations, voir [Exporter des données depuis Workfront via des
 
 >[!NOTE]
 >
->Version préliminaire : 24 octobre 2024 ; Production pour la version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version de prévisualisation : vendredi 24 octobre 2024. Production pour version rapide : avec la version 24.11 (vendredi 14 novembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
 
 La fenêtre Envoyer la mise à jour à l’utilisateur a été mise à jour afin d’adopter une conception plus moderne et cohérente avec les autres zones de Workfront.
 

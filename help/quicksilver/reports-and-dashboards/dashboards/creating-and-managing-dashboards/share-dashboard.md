@@ -6,14 +6,16 @@ description: Votre équipe d’administration Adobe Workfront autorise les utili
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 100%
+source-wordcount: '503'
+ht-degree: 80%
 
 ---
 
 # Partager un tableau de bord
+
+<!-- Audited: 1/2025 -->
 
 Votre équipe d’administration Adobe Workfront autorise les utilisateurs et utilisatrices à afficher ou à modifier les tableaux de bord lorsqu’ils attribuent des niveaux d’accès. Pour plus d’informations sur l’octroi d’un accès aux problèmes, voir [Accorder l’accès aux rapports, tableaux de bord et calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -27,6 +29,8 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Pour partager des objets, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
@@ -34,25 +38,36 @@ Pour partager des objets, vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Révision ou supérieur</p> </td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+    <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Léger ou supérieur</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Révision ou supérieur</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Accès en affichage ou supérieur aux rapports, tableaux de bord et calendriers</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
+   <td> <p>Afficher l'accès ou supérieur aux rapports, tableaux de bord, calendriers</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations d’affichage ou de niveau supérieur sur le tableau de bord</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations d’affichage ou de niveau supérieur sur le tableau de bord</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -83,11 +98,11 @@ Le partage d’un ou de plusieurs tableaux de bord à partir d’une liste s’e
 
    Ou
 
-   Cliquez sur le nom d’un tableau de bord, puis sur **Actions du tableau de bord >****Partage**.
+   Cliquez sur le nom d’un tableau de bord, puis cliquez sur **Actions du tableau de bord** > **Partage**.
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-share-dashboard.png)
 
-1. Dans le champ **Ajouter des personnes, des équipes, des rôles, des groupes ou des entreprises...**, commencez à saisir le nom de l’utilisateur ou utilisatrice, de l’équipe, du rôle, du groupe ou de l’entreprise avec qui vous souhaitez partager le tableau de bord, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
-1. (Facultatif) Pour rendre le tableau de bord accessible à tous les utilisateurs et utilisatrices du système, cliquez sur l’icône **Paramètres** dans le coin supérieur droit de la boîte de dialogue de partage, puis sélectionnez **Rendre ceci visible sur tout le système**.
+1. Dans le champ **Ajouter des personnes, des équipes, des rôles, des groupes ou des entreprises**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de l’entreprise avec lequel vous souhaitez partager le tableau de bord, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. (Facultatif) Pour rendre le tableau de bord accessible à tous les utilisateurs du système, cliquez sur le menu déroulant **Seules les personnes invitées peuvent y accéder** dans la boîte de dialogue de partage, puis sélectionnez **Tout le monde dans le système peut afficher**.
 
 1. Cliquer sur **Enregistrer**.

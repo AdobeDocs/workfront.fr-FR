@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: a7a3272cb7bfa22abfee45211e3154b6e21434b8
+source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 11%
+source-wordcount: '744'
+ht-degree: 14%
 
 ---
 
@@ -50,7 +50,7 @@ Pour plus d&#39;informations sur les objets disponibles pour la promotion de l&#
 
 >[!NOTE]
 >
->Version préliminaire : 19 décembre 2024 ; Version de production pour tous les clients : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 19 décembre 2024 ; Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)
 
 Comme le déplacement de tâches ou d’événements pour lesquels des heures ont été consignées peut parfois entraîner des problèmes de conformité ou d’audit, nous avons ajouté une préférence dans les Préférences des tâches et des événements de la Configuration qui vous permet d’empêcher les utilisateurs de déplacer des tâches et des événements si des heures y sont consignées. Avant cette amélioration, les utilisateurs et utilisatrices pouvaient déplacer des tâches et des événements vers d’autres projets, même si des heures leur étaient affectées.
 
@@ -60,7 +60,7 @@ Pour plus d’informations, voir [Configurer les préférences de tâche et de p
 
 >[!NOTE]
 >
->Version préliminaire : 21 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 21 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 En tant qu’administrateur système ou de groupe, vous disposez désormais d’une nouvelle préférence qui permet d’indiquer si Workfront doit utiliser le planning du projet ou de l’utilisateur pour calculer la chronologie du projet lorsque vous affectez un utilisateur à une tâche et que le projet et l’utilisateur sont tous deux associés à un planning. Avant cette amélioration, ce paramètre existait pour les affectations à plusieurs utilisateurs. Le paramètre est désormais disponible pour les affectations de tâches à un seul utilisateur.
 
@@ -70,7 +70,7 @@ Pour plus d’informations, consultez la section [Configurer des préférences d
 
 >[!NOTE]
 >
->Version préliminaire : 21 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 21 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 Vous pouvez désormais inclure des liens hypertexte dans le message d’erreur personnalisé d’une règle métier, afin de guider l’utilisateur ou l’utilisatrice sur la manière de modifier son action dans la contrainte de la règle. L’URL statique peut renvoyer vers la documentation ou d’autres pages utiles à l’utilisateur ou à l’utilisatrice.
 
@@ -80,7 +80,7 @@ Pour plus d’informations, voir [Créer et modifier des règles métier](/help/
 
 >[!NOTE]
 >
->Version préliminaire : 21 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 21 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 Lorsque vous ajoutez une référence de champ native à un formulaire personnalisé et qu’elle fait référence à un champ de saisie semi-automatique (par exemple, Portfolio, Société ou Propriétaire), une option de filtrage est désormais disponible. Le filtre vous permet de limiter les objets que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ . Ce filtre personnalisé fonctionne de la même manière qu’un filtre sur un champ de saisie semi-automatique personnalisé, en utilisant le mode texte pour définir le filtre.
 
@@ -90,7 +90,7 @@ Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quic
 
 >[!NOTE]
 >
->Version préliminaire : 29 octobre 2024 ; Production pour la version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
+>Version de prévisualisation : mercredi 29 octobre 2024. Production pour version rapide : avec la version 24.11 (vendredi 14 novembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
 
 Lorsqu’un formulaire personnalisé contient plusieurs sections avec de nombreux champs, il peut être difficile de déplacer un champ d’une section à une autre en effectuant un glisser-déposer. Une icône « Déplacer vers » a été ajoutée à chaque champ, vous permettant de sélectionner la section dans laquelle le champ est placé.
 

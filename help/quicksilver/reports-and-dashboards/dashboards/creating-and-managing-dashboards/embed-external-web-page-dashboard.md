@@ -6,16 +6,16 @@ description: Vous pouvez incorporer une page web externe dans un tableau de bord
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 100%
+source-wordcount: '1011'
+ht-degree: 94%
 
 ---
 
 # Incorporer une page web externe dans un tableau de bord
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 Vous pouvez incorporer une page web externe dans un tableau de bord pour permettre l’accès aux informations connexes provenant d’autres systèmes ou d’Adobe Workfront.
 
@@ -64,10 +64,17 @@ Vous devez disposer des éléments suivants :
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Actuel : formule </p>
-   Ou
-   <p>Nouveau : Standard </p> </td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
@@ -75,12 +82,12 @@ Vous devez disposer des éléments suivants :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> </td> 
+   <td> <p>Modifier l’accès au tableau de bord</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -162,7 +169,7 @@ Pour mettre à jour les informations d’une page externe utilisée sur un table
 
    La zone **Détails du tableau de bord** s’ouvre.
 
-1. Dans la zone **Sélectionner une disposition/Ajouter des rapports/Ajouter des calendriers** de la zone **Détails du tableau de bord** recherchez la page externe à mettre à jour, survolez-la avec la souris, puis cliquez sur l’icône **Modifier**.\
+1. Dans la zone **Sélectionner la mise en page / Ajouter des rapports** de la zone **Détails du tableau de bord**, recherchez la page externe à mettre à jour, survolez-la avec la souris et cliquez sur l’icône **Modifier**.\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Dans la zone **Modifier la page externe**, mettez à jour les champs à modifier, puis cliquez sur **Enregistrer**.
@@ -175,7 +182,7 @@ Vous pouvez afficher toutes les pages externes de Workfront dans un rapport de p
 
 {{step1-to-reports}}
 
-1. Cliquez sur **Nouveau rapport** et sélectionnez **Page externe**.
+1. Cliquez sur **Nouveau rapport** > sélectionnez **Section externe**.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
@@ -183,8 +190,7 @@ Vous pouvez afficher toutes les pages externes de Workfront dans un rapport de p
 
    Pour plus d’informations, voir [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Cliquez sur **Enregistrer et fermer**.
+1. Cliquez sur **Enregistrer + Fermer**.
 
-   Vous pouvez afficher le nom et l’URL associés aux pages externes de votre système dans le nouveau rapport.
+   Vous pouvez afficher le nom et l’URL associés à toute page externe de votre système dans le nouveau rapport.
 
-   ![](assets/external-page-report-name-url-columns-nwe-350x213.png)

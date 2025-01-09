@@ -6,18 +6,22 @@ description: Si vous n’avez plus besoin d’un tableau de bord, vous pouvez le
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
 
 # Supprimer un tableau de bord
 
+<!-- Audited: 1/2025 -->
+
 Si vous n’avez plus besoin d’un tableau de bord, vous pouvez le supprimer d’Adobe Workfront.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -26,25 +30,36 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
+   <td> <p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations en gestion pour le tableau de bord</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Autorisations en gestion pour le tableau de bord</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Supprimer un tableau de bord à partir du menu Actions
 
@@ -57,7 +72,7 @@ Pour supprimer un tableau de bord :
 1. Accédez au tableau de bord que vous souhaitez modifier.
 1. Cliquez sur **Actions de tableau de bord**, puis sur **Supprimer**.
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-delete-dashboard.png)
 
 1. Pour confirmer la suppression du tableau de bord, cliquez sur **Oui, supprimer.**
 Le tableau de bord est supprimé de Workfront.
@@ -68,10 +83,10 @@ Si vous supprimez plusieurs tableaux de bord, vous pouvez les supprimer à parti
 
 Pour supprimer plusieurs tableaux de bord :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis sur **Tableaux de bord**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Tableaux de bord]**.
 1. Sélectionnez dans la liste les tableaux de bord que vous souhaitez supprimer, puis cliquez sur **Supprimer** ![](assets/delete.png).
 
-   ![](assets/nwe-deletedashboard2021-350x182.png)
+   ![](assets/unshimmed-delete-dashboard-list.png)
 
 1. Pour confirmer la suppression du tableau de bord, cliquez sur **Oui, supprimer.**
 Le tableau de bord est supprimé de Workfront.

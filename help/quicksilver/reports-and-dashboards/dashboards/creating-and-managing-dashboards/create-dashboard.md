@@ -6,16 +6,16 @@ description: Vous pouvez créer des tableaux de bord pour accéder rapidement au
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '484'
 ht-degree: 87%
 
 ---
 
 # Créer un tableau de bord
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 Vous pouvez créer des tableaux de bord pour accéder rapidement aux informations dans Adobe Workfront. Vous pouvez ajouter jusqu’à 25 rapports, calendriers et pages externes aux tableaux de bord afin de les partager avec d’autres personnes pour une collaboration optimale.
 
@@ -38,8 +38,8 @@ Vous devez disposer des éléments suivants :
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Licence Adobe Workfront*</strong></p> </td> 
-   <td> <p>Actuel : formule </p>
+   <td> <p><strong>Licence Adobe Workfront</strong></p> </td> 
+   <td> <p>Actuelle : formule </p>
    Ou
    <p>Nouveau : Standard </p> </td> 
   </tr> 
@@ -54,7 +54,7 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-* Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

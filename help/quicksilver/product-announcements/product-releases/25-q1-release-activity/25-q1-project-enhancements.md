@@ -4,9 +4,10 @@ description: Améliorations apportées aux projets au premier trimestre 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 40%
 
 ---
@@ -21,7 +22,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Version préliminaire : 19 décembre 2024 ; Version de production pour tous les clients : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 19 décembre 2024 ; Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)
 
 Une fonctionnalité présente dans l’environnement de Prévisualisation depuis décembre 2023 et dans l’environnement de Production à version rapide depuis mars 2024 a été supprimée. Les fonctionnalités ont ajouté des suggestions d’affectations intelligentes plus pertinentes lors de l’affectation de tâches.
 

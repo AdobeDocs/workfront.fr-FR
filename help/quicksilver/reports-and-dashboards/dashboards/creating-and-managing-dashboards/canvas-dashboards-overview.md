@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
@@ -14,6 +14,7 @@ ht-degree: 100%
 
 # Vue d’ensemble des tableaux de bord de zone de travail
 
+<!-- This page is hidden as it is outdated, delete once full Canvas Dashboard docs are live-->
 <!-- Audited: 12/2023 -->
 
 Tableaux de bord de zones de travail, une nouvelle fonctionnalité en cours de développement pour les tableaux de bord, offrent une nouvelle option pour créer des tableaux de bord performants dans Workfront. Avec les tableaux de bord de zones de travail, il est plus facile d’inclure les visualisations de la zone de travail de reporting dans les rapports existants, offrant ainsi plus de flexibilité et de nouvelles options de disposition.
@@ -81,6 +82,7 @@ Une nouvelle option « Tableaux de bord de zones de travail » dans le panneau
 1. Commencez à saisir le nom du rapport que vous souhaitez afficher dans le champ **Rechercher un rapport**. Lorsque le rapport s’affiche dans la liste, cliquez sur l’icône **Rapport sur les listes** ou **Rapport sur les graphiques** à côté de son nom pour afficher les informations de ce rapport dans le format de votre choix.
 
 >[!WARNING]
+>
 > Bien qu’il soit actuellement possible d’ajouter plusieurs widgets affichant des informations issues du même rapport, il est recommandé de n’afficher chaque rapport qu’une seule fois, car cela peut affecter les performances du tableau de bord.
 
 ### Modifier un widget dans un tableau de bord de zones de travail
