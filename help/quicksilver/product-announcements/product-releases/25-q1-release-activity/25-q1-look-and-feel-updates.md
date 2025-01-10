@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 4%
+source-wordcount: '769'
+ht-degree: 3%
 
 ---
 
@@ -17,6 +17,19 @@ ht-degree: 4%
 Cette page décrit les mises à jour mineures apportées à l’aspect de différentes zones de l’application Adobe Workfront au cours du premier trimestre 2025.
 
 Pour obtenir la liste de toutes les modifications disponibles dans la version du premier trimestre 2025, voir [Présentation de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+
+## Mises à jour de l’apparence pour la modification des entrées d’heures d’une liste ou d’un rapport d’heures
+
+>[!NOTE]
+>
+>Version préliminaire : 9 janvier 2025 ; Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)
+
+Nous avons mis à jour l’aspect de la zone Modifier l’heure lors de la modification des heures d’une liste d’heures ou d’un rapport afin qu’elles correspondent à la conception d’autres zones de Workfront.
+
+Pour plus d’informations, voir [Consigner le temps](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+
 
 ## Mise à jour de l’expérience sur la page Fournisseurs de cloud dans la zone Configuration
 
