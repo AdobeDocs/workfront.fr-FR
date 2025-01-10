@@ -1,15 +1,15 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Utiliser les champs de date personnalisés dans un rapport de calendrier
+title: Utilisation de champs de date personnalisés dans un rapport de calendrier
 description: Un rapport de calendrier est un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez utiliser des champs de date personnalisés dans un rapport de calendrier pour les tâches, les problèmes et les projets.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 97%
+source-wordcount: '646'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,9 @@ Un rapport de [!UICONTROL calendrier] est un rapport dynamique qui fournit une r
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,25 +34,29 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td><p>Nouveau : Standard</p>
+       <p>ou</p>
+       <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Accès [!UICONTROL Edit] aux [!UICONTROL Reports], [!UICONTROL Dashboards] et [!UICONTROL Calendars]</p> <p>Remarque : si l’accès n’est toujours pas disponible pour vous, demandez à votre équipe d’administration [!DNL Workfront] si des restrictions supplémentaires sont définies pour votre niveau d’accès. Pour plus d’informations sur la manière dont l’administration [!DNL Workfront] peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès [!UICONTROL Edit] aux [!UICONTROL Reports], [!UICONTROL Dashboards] et [!UICONTROL Calendars]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>[!UICONTROL Manage] l’accès au rapport de calendrier</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td>[!UICONTROL Manage] l’accès au rapport de calendrier</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez l’administration [!DNL Workfront].
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -61,11 +67,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 Vous pouvez choisir la manière dont le groupe d’éléments doit s’afficher sur votre calendrier.
 
-1. Cliquez sur l’icône **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Calendriers]**.
+{{step1-to-calendars}}
 
-1. Sélectionnez le calendrier auquel vous souhaitez ajouter un nouveau groupe d’éléments.\
-   Ou\
-   Cliquez sur **[!UICONTROL + Nouveau calendrier]** et saisissez le nom du calendrier.
+1. Sélectionnez le calendrier auquel vous souhaitez ajouter un nouveau groupe d&#39;éléments.
+Ou
+Cliquez sur **[!UICONTROL + Nouveau calendrier]** puis saisissez le nom du calendrier.
 
    >[!NOTE]
    >
@@ -118,7 +124,7 @@ Après avoir défini le mode d’affichage des éléments, vous devez ajouter au
    * **[!UICONTROL Projets]**
    * **[!UICONTROL Événements]**
 
-1. Cliquez sur **[!UICONTROL Ajouter des tâches]**, **[!UICONTROL Ajouter des projets]** ou **[!UICONTROL Ajouter des problèmes]**, selon le type d’objet que vous ajoutez au calendrier.\
+1. Cliquez sur **[!UICONTROL Ajouter des tâches]**, **[!UICONTROL Ajouter des projets]** ou **[!UICONTROL Ajouter des problèmes]**, selon le type d’objet que vous ajoutez au calendrier.
    ![Sélection d’un objet pour le calendrier](assets/field-name.png)
 
 1. Dans le menu déroulant, commencez à saisir le nom du champ, puis sélectionnez la source du champ de l’objet que vous souhaitez afficher dans le calendrier (par exemple, **[!UICONTROL Tâches en retard]**).

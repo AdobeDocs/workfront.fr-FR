@@ -6,10 +6,10 @@ description: Vous pouvez partager un calendrier avec d’autres utilisateurs et 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,9 @@ Vous pouvez partager un calendrier avec d’autres utilisateurs et utilisatrices
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,25 +30,29 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td><p>Nouveau : Léger</p>
+       <p>ou</p>
+       <p>Actuel : révision</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>[!UICONTROL View] ou accès supérieur [!UICONTROL to Reports], [!UICONTROL Dashboards] et [!UICONTROL Calendars]</p> <p>Remarque : si l’accès n’est toujours pas disponible pour vous, demandez à votre équipe d’administration [!DNL Workfront] si des restrictions supplémentaires sont définies pour votre niveau d’accès. Pour plus d’informations sur la manière dont l’administration [!DNL Workfront] peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>[!UICONTROL View] ou un accès supérieur à [!UICONTROL Reports], [!UICONTROL Dashboards] et [!UICONTROL Calendars]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>[!UICONTROL View] ou autorisations supérieures au rapport de calendrier, avec accès au partage</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td>[!UICONTROL View] ou autorisations supérieures au rapport de calendrier, avec accès au partage</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Partager un calendrier avec des utilisateurs ou utilisatrices [!DNL Workfront] {#share-a-calendar-with-workfront-users}
 
