@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: a1c94dd17f96fbd1fb397fd927403317335cefa0
+source-git-commit: 90b863fe27b05524ff9d89f1bdeaa8d056dc1cec
 workflow-type: tm+mt
-source-wordcount: '2181'
-ht-degree: 98%
+source-wordcount: '2198'
+ht-degree: 97%
 
 ---
 
@@ -653,7 +653,7 @@ Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l�
 
 ### Utilisation de filtres imbriqués
 
-L’abonnement aux événements prend en charge le filtrage sur les champs imbriqués des événements à l’aide du mot-clé `fieldValue.fields`.
+L’abonnement aux événements prend en charge le filtrage sur des champs d’événements imbriqués à l’aide des noms de champs imbriqués. Par exemple, pour filtrer un message dans lequel `newState.data.customField1 = 'myCustomeFieldValue'`, l’abonnement avec le filtre suivant peut être créé :
 
 ```
 {
@@ -665,29 +665,15 @@ L’abonnement aux événements prend en charge le filtrage sur les champs imbri
         {
             "fieldName": "data",
             "fieldValue": {
-                "fields": {
-                    "customerID": "customer1234"
-                }
+                    "customField1": "myCustomFieldValue"
             },
             "comparison": "eq",
             "state": "newState"
-        },
-        {
-            "fieldName": "options",
-            "fieldValue": {
-                "objects": {
-                    "projectID": "project1234"
-                }
-            },
-            "comparison": "contains",
-            "state": "newState"
-        },
-    ],
-    "filterConnector": 'AND'
+        }
 }
 ```
 
-Les filtres imbriqués doublement peuvent également être corrigés.
+Les filtres doublement imbriqués peuvent également être adressés.
 
 ```
 "filters": [
