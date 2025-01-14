@@ -7,10 +7,10 @@ description: Une fois que les personnes chargées de la gestion de projet ont pl
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
 workflow-type: tm+mt
 source-wordcount: '1176'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -64,7 +64,7 @@ Tenez compte des avantages suivants lors de l’utilisation de l’équilibreur 
 
 * Les cadres peuvent prendre des décisions opportunes en matière de personnel en faisant preuve de transparence quant à la manière dont les membres de leur organisation sont utilisés.
 * Les membres de l’équipe bénéficient d’une meilleure collaboration, car ils peuvent tous et toutes voir sur quoi travaillent leurs collègues à tout moment. Pour plus d’informations sur l’accès nécessaire pour afficher ou gérer les ressources dans l’équilibreur de charge de travail, voir [Accès nécessaire pour gérer les ressources dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
-* Partagez-le avec toute personne qui n’a pas accès à la zone Ressources en y incorporant un lien dans un onglet personnalisé. Pour plus d’informations, voir [Partager l’équilibreur de charge de travail avec un lien](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
+* Partagez-le avec toute personne qui n&#39;a pas de ressources dans son menu principal en y incorporant un lien dans un onglet personnalisé. Pour plus d’informations, voir [Partager l’équilibreur de charge de travail avec un lien](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
 * Visualisez et gérez les charges de travail et la demande des personnes dans une vue unique au niveau global, du projet ou de l’équipe, en fonction de votre rôle. Dans le cadre de la gestion de projets, cela inclut non seulement l’affectation de ressources pour le projet, mais également la visualisation de l’affectation de ressources à partir du planificateur de scénarios Adobe Workfront. Les personnes gestionnaires de personnes utilisent le planificateur de scénarios Workfront pour gérer les compétences professionnelles dans l’ensemble de l’entreprise. Le planificateur de scénarios n’est disponible que dans la nouvelle expérience Adobe Workfront.
 
   >[!NOTE]
