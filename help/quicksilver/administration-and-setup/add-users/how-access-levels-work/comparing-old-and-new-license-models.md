@@ -9,30 +9,31 @@ description: Consultez une comparaison des fonctionnalités disponibles pour dif
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f2a1d4240f6ddef12daaa352bc46b72199aa21d7
+exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
+source-git-commit: dd6ff5927aaa4f8f2d41d0f2950d98ea32517ff9
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 43%
+source-wordcount: '318'
+ht-degree: 44%
 
 ---
 
 # Comparaison des fonctionnalités entre les modèles de licence
 
-Ce tableau présente les fonctionnalités disponibles pour les licences dans le modèle hérité et le nouveau modèle de licence.
+Ce tableau présente les fonctionnalités disponibles pour les licences dans l’ancien et le nouveau modèle de licence.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
- <!--col> 
- <col> -->
+ <col> 
+ <col>
  <col> 
  <col> 
  <col> 
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="3">[!UICONTROL Hérité]</th> 
+   <th colspan="5">[!UICONTROL Legacy]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
    <th colspan="3">[!UICONTROL New]</th> 
@@ -44,21 +45,21 @@ Ce tableau présente les fonctionnalités disponibles pour les licences dans le 
    <th>[!UICONTROL Planner]</th> 
    <th>[!UICONTROL Worker]</th> 
    <th>[!UICONTROL Reviewer]</th> 
-   <!--<th>[!UICONTROL Requestor]</th> 
-   <th>[!UICONTROL External]</th> -->
+  <th>[!UICONTROL Requestor]</th> 
+   <th>[!UICONTROL External]</th>
    <th>[!UICONTROL Standard]</th> 
    <th>[!UICONTROL Light]</th> 
-   <th>[!UICONTROL Contributeur]</th> 
+   <th>[!UICONTROL Contributor]</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Affichage et révision du contenu (BAT et documents)</td> 
+   <td>Affichage et révision du contenu (épreuves et documents)</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td>✓</td> 
-   <td></td> -->
+  <td>✓</td> 
+   <td></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -68,8 +69,8 @@ Ce tableau présente les fonctionnalités disponibles pour les licences dans le 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -79,30 +80,30 @@ Ce tableau présente les fonctionnalités disponibles pour les licences dans le 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td>✓</td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
    <tr> 
-   <td>Panneaux d’accès</td> 
+   <td>Accéder aux tableaux</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Vérifier et approuver les tâches et les problèmes</td> 
+   <td>Examiner et approuver les tâches et événements de travail</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -112,19 +113,19 @@ Ce tableau présente les fonctionnalités disponibles pour les licences dans le 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Affichage des rapports de gestion des ressources et de planification des capacités</td> 
+   <td>Afficher les rapports de gestion des ressources et de planification des capacités</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -134,19 +135,19 @@ Ce tableau présente les fonctionnalités disponibles pour les licences dans le 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Suivi de la progression et collaboration sur le travail et les requêtes</td> 
+   <td>Suivre les progrès et collaborer au travail et aux demandes</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -156,30 +157,30 @@ Ce tableau présente les fonctionnalités disponibles pour les licences dans le 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Réception de notifications d’affectation de travail</td> 
+   <td>Recevoir des notifications d'affectation de travail</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Révision et approbation de projets</td> 
+   <td>Examen et approbation des projets</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -189,19 +190,19 @@ Ce tableau présente les fonctionnalités disponibles pour les licences dans le 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Afficher le plan du projet et la chronologie</td> 
+   <td>Afficher le plan et la chronologie du projet</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -211,30 +212,30 @@ Ce tableau présente les fonctionnalités disponibles pour les licences dans le 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
   </tr> 
   <tr> 
-   <td>Décisions de contenu illimitées (BAT et documents)</td> 
+   <td>Décisions de contenu illimitées (épreuves et documents)</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
   </tr> 
   <tr> 
-   <td>Suivi de la durée et envoi des feuilles de temps</td> 
+   <td>Suivre les heures et envoyer les feuilles de temps</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -244,51 +245,51 @@ Ce tableau présente les fonctionnalités disponibles pour les licences dans le 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
   </tr> 
-   <td>Création de tâches</td> 
+   <td>Créer des tâches de travail</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
-   <td>✓</td> 
    <td></td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td>Terminer les tâches assignées</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
-   <td>Création et gestion de projets</td> 
+   <td>Terminer les tâches affectées</td> 
+   <td>✓</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
-   <td>Création et gestion des files d’attente de requêtes</td> 
+   <td>Créer et gérer des projets</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
+   <td>✓</td> 
+   <td></td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td>Créer et gérer des files d’attente de demandes</td> 
+   <td>✓</td> 
+   <td></td> 
+   <td></td> 
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -298,30 +299,30 @@ Ce tableau présente les fonctionnalités disponibles pour les licences dans le 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
-   <td>Créer des formulaires personnalisés</td> 
+   <td>Création de formulaires personnalisés</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
-   <td>Créer des modèles</td> 
+   <td>Création de modèles</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -331,8 +332,8 @@ Ce tableau présente les fonctionnalités disponibles pour les licences dans le 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -342,30 +343,30 @@ Ce tableau présente les fonctionnalités disponibles pour les licences dans le 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
-   <td>Créer et distribuer des rapports et des tableaux de bord</td> 
+   <td>Création et distribution de rapports et de tableaux de bord</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
-   <td>Génération de BAT numériques</td> 
+   <td>Générer des épreuves numériques</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
