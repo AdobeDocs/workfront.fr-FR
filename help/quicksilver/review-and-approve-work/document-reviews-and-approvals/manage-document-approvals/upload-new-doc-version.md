@@ -1,25 +1,28 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Télécharger une nouvelle version de document et demander une approbation
-description: Vous pouvez charger une nouvelle version de document et demander son approbation à d’autres utilisateurs dans Adobe Workfront.
+title: Charger une nouvelle version du document et demander une approbation
+description: Vous pouvez charger une nouvelle version du document et demander l’approbation d’autres utilisateurs dans Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: cf2a6353df0ea0e3e1c473092dab5f263a98a2fd
+exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
+source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 59%
+source-wordcount: '471'
+ht-degree: 54%
 
 ---
 
+# Charger une nouvelle version du document et demander une approbation
 
-# Télécharger une nouvelle version de document et demander une approbation
-
-Si un document marqué doit être validé dans une révision précédente, vous pouvez charger une nouvelle version dans le document d’origine et lancer un autre cycle de validations.
+Si un document marqué a besoin d’être retravaillé lors d’une révision précédente, vous pouvez charger une nouvelle version dans le document d’origine et commencer une nouvelle série d’approbations. Une fois que vous avez chargé une nouvelle version du document, les versions précédentes sont verrouillées.
 
 Si le nom de fichier de la nouvelle version est différent de celui de la version précédente, Workfront affiche le document avec le nom de fichier le plus récent.
 
-Lorsqu’une nouvelle version est ajoutée à un document avec les validations en attente, la validation de la version précédente s’affiche comme Retiré. Le processus d&#39;approbation précédent se termine, même si certains participants n&#39;ont pas encore pris de décision.
+Lorsqu&#39;une nouvelle version est ajoutée à un document avec des approbations en attente, l&#39;approbation de la version précédente indique Retiré. Le processus d’approbation précédent se termine, même si certains participants n’ont pas encore pris de décision.
+
+Si la dernière version du document est supprimée, les versions précédentes restent verrouillées. Si vous devez modifier une version précédente, vous devez la déverrouiller manuellement.
+
 
 ## Conditions d’accès
 
@@ -71,19 +74,19 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 1. Déposez la nouvelle version au-dessus du fichier existant sur l’onglet **Documents**.
 
-1. Une fois le document téléchargé, cliquez dessus et ouvrez le panneau Résumé du document.
+1. Une fois le document téléchargé, cliquez dessus et ouvrez le panneau Résumé du document .
 
 1. Faites défiler la page jusqu’à la section **Approbations** dans le volet Résumé du document, puis cliquez sur **Ajouter**.
 
 ![](assets/doc-summary-add-approvers.png)
 
-1. (Facultatif) Définissez une date limite de validation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date limite spécifiée.
+1. (Facultatif) Définissez une date limite pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée.
 
-1. Pour ajouter rapidement des validants et des approbateurs de la version précédente, cliquez sur le bouton Ajouter en regard de leur nom répertorié ci-dessous.
+1. Pour ajouter rapidement des réviseurs et des approbateurs à partir de la version précédente, cliquez sur le bouton d’ajout en regard de leurs noms répertoriés ci-dessous.
    <!--need screenshot when working-->
 
-1. (Facultatif) changez de rôle d’approbateur/de réviseur.
+1. (Facultatif) modifiez le rôle de l’approbateur/réviseur.
 
-1. Pour ajouter de nouveaux approbateurs et réviseurs, cliquez sur **Réviseur** ou **Approbateur** et commencez à saisir l’utilisateur ou l’équipe.
+1. Pour ajouter de nouveaux approbateurs et validants, cliquez sur **Réviseur** ou **Approbateur** et commencez à saisir l’utilisateur, l’utilisatrice ou l’équipe.
 
    ![](assets/add-approver-and-deadline.png)
