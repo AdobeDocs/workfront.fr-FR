@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 71%
+ht-degree: 68%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 71%
 
 <!-- Audited: 10/2024 -->
 
-Vous pouvez créer des tâches dans Adobe Workfront de différentes manières :
+Vous pouvez créer des tâches dans Adobe Workfront des manières suivantes :
 
-* Créez une tâche dans un projet à partir de zéro, une fois le projet créé.
+* Créez entièrement une tâche dans un projet, une fois le projet créé.
 
-  Après avoir créé un projet, vous pouvez ajouter des tâches et les modifier afin d’organiser le plan du projet. Pour en savoir plus sur la création d’un projet, voir [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
+  Après avoir créé un projet, vous pouvez ajouter des tâches et les modifier pour organiser le plan du projet. Pour en savoir plus sur la création d’un projet, voir [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
 
 * Créez des tâches en ajoutant un modèle à un projet.
 
@@ -32,14 +32,14 @@ Vous pouvez créer des tâches dans Adobe Workfront de différentes manières :
 
   Vous pouvez créer des tâches personnelles en effectuant l’une des opérations suivantes :
 
-   * Créer une requête de travail ad hoc et l’envoyer à un utilisateur
-   * Création d’un élément de tâche dans la zone Accueil
+   * Créer une demande de travail ad hoc et l’envoyer à un utilisateur
+   * Création d’une tâche dans la zone d’Accueil
 
-  Pour plus d’informations sur la création de tâches personnelles qui ne se trouvent pas sur un projet, voir [Création de tâches personnelles](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+  Pour plus d&#39;informations sur la création de tâches personnelles ne faisant pas partie d&#39;un projet, voir [Créer des tâches personnelles](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
 
-  Vous pouvez déplacer des tâches personnelles vers un projet et elles deviennent des tâches opérationnelles.
+  Vous pouvez déplacer des tâches personnelles vers un projet et elles deviennent des tâches de travail.
 
-Cet article décrit comment créer entièrement des tâches et comment déplacer des tâches personnelles vers un projet.
+Cet article décrit comment créer des tâches à partir de zéro et comment déplacer des tâches personnelles vers un projet.
 
 Vous pouvez également créer des tâches de la manière suivante :
 
@@ -101,7 +101,7 @@ Pour plus d’informations sur ce tableau, consultez l’article [Conditions d�
 
 1. (Le cas échéant) Si vous avez cliqué sur **Nouvelle tâche**, procédez comme suit :
 
-   1. Spécifiez l’un des champs de la liste limitée des champs dans la boîte de dialogue **Nouvelle tâche**, puis cliquez sur **Créer une tâche** pour créer rapidement une tâche.
+   1. Spécifiez l’un des champs de la liste limitée de champs dans la zone **Nouvelle tâche**, puis cliquez sur **Créer une tâche** si vous souhaitez créer rapidement une tâche.
 
       Ou
 
@@ -172,18 +172,18 @@ Pour plus d’informations sur ce tableau, consultez l’article [Conditions d�
 
 ## Créer des tâches en déplaçant une tâche personnelle vers un projet
 
-1. (Conditionnel) Assurez-vous, ainsi que d’autres utilisateurs, que vous avez créé des tâches personnelles.
+1. (Sous condition) Assurez-vous que vous ou d’autres utilisateurs avez créé des tâches personnelles.
 
-   Pour plus d’informations, voir [Création de tâches personnelles](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+   Pour plus d’informations, voir [Créer des tâches personnelles](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
 1. Créez un filtre de tâche personnel et appliquez-le à un rapport ou à une liste de tâches.
 
-   Pour plus d’informations, voir [Filtre : tâches personnelles](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+   Pour plus d’informations, voir [Filtrer : tâches personnelles](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 
    ![](assets/personal-tasks-report.png)
-1. Cliquez sur le nom d’une tâche dans le rapport de tâches personnelles pour l’ouvrir.
+1. Cliquez sur le nom d&#39;une tâche dans le rapport personnel des tâches pour l&#39;ouvrir.
 
-   Workfront enregistre les tâches personnelles dans un projet personnel non répertorié qui est toujours nommé selon ce modèle : &quot;&lt; Nom complet de l’utilisateur >’s Tasks. Par exemple, un projet personnel peut être appelé &quot;Tâches de Rick&quot;.
+   Workfront enregistre les tâches personnelles dans un projet personnel non répertorié toujours nommé selon ce modèle : « &lt; Nom complet de l’utilisateur > Tâches de . Par exemple, un projet personnel peut être nommé « Tâches de Rick ».
 
-1. Sur la page de la tâche, cliquez sur le **menu Plus** ![](assets/more-icon.png), puis sur **Déplacer**. Pour plus d’informations sur le déplacement des tâches, voir [Déplacer les tâches](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+1. Sur la page de la tâche, cliquez sur le ![](assets/more-icon.png) **Plus**, puis sur **Déplacer**. Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
 
-   Une fois la tâche déplacée, elle s’affiche sur le projet que vous avez sélectionné. La chronologie du projet peut être affectée par la chronologie de la nouvelle tâche.
+   Une fois que vous avez déplacé la tâche, elle s’affiche dans le projet que vous avez sélectionné. La chronologie du projet peut être affectée par la chronologie de la nouvelle tâche.

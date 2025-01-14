@@ -7,10 +7,10 @@ description: Un objet résolvable est un problème dont la résolution est liée
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 97%
+source-wordcount: '1771'
+ht-degree: 94%
 
 ---
 
@@ -120,11 +120,13 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ### Synchroniser les statuts lorsque l’objet de résolution est un problème {#synchronize-statuses-when-the-resolving-object-is-an-issue}
 
-Si un problème est lié manuellement à un autre problème, le statut du deuxième problème (objet de résolution) déclenche une modification du statut du premier problème (objet résolvable). Le statut du premier problème correspond à celui du deuxième problème. Cela s’applique aux statuts des problèmes par défaut et personnalisés.
+Lorsqu&#39;un problème est lié manuellement à un autre problème, le statut du second problème (Objet de résolution) déclenche un changement de statut du premier problème (Objet résolvable). Le statut du premier problème correspond à celui du deuxième problème. Cela s’applique aux statuts des problèmes par défaut et personnalisés.
 
 ### Synchroniser les status lorsque l’objet de résolution est une tâche ou un projet {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
 
 Lorsqu’un problème est l’objet résolvable d’une tâche ou d’un projet, les modifications de statut des tâches et des projets déclenchent des modifications de statut du problème. Dans ce cas, les statuts par défaut sont déclenchés différemment des statuts personnalisés.
+
+Lorsque le statut personnalisé du projet équivaut à un statut par défaut qui ne déclenche pas de modification du statut du problème, il ne déclenche pas de changement de statut pour le problème.
 
 * [Synchroniser le statut par défaut de l’objet de résolution avec le statut par défaut de l’objet résolvable](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Synchroniser le statut personnalisé de l’objet de résolution avec le statut personnalisé de l’objet résolvable](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
@@ -227,7 +229,7 @@ Le tableau suivant indique les champs que vous pouvez afficher et dans quelles v
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Nom du problème d’origine, Date de saisie du problème d’origine, Nom de l’auteur ou de l’autrice</strong> : affiche le nom et la date de saisie du problème d’origine, ainsi que le nom de l’utilisateur ou l’utilisatrice qui a créé le problème dans une vue personnalisée en mode texte.<br>Pour plus d’informations sur la création d’une vue personnalisée de mode texte pour un projet, un rapport de tâche ou une liste afin d’afficher des informations sur le problème d’origine, voir <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Affichage : afficher les informations du problème d’origine sur les listes de tâches ou de projets</a>.<br></td> 
+   <td><strong>Nom du problème d’origine, Date de saisie du problème d’origine, Nom de l’auteur ou de l’autrice</strong> : affiche le nom et la date de saisie du problème d’origine, ainsi que le nom de l’utilisateur ou l’utilisatrice qui a créé le problème dans une vue personnalisée en mode texte.<br>Pour plus d'informations sur la création d'une vue personnalisée en mode texte pour un rapport ou une liste de projets ou de tâches afin d'afficher des informations sur le problème d'origine, voir <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Afficher : afficher les informations sur le problème d'origine sur les listes de tâches ou de projets</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 

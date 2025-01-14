@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2b1b167bd3645431399c2eb60e300cd958dfa03a
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '14782'
+source-wordcount: '14784'
 ht-degree: 93%
 
 ---
@@ -867,7 +867,7 @@ ht-degree: 93%
       * [Informations d’identification de l’utilisateur ou utilisatrice et informations d’identification SAML](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [Mettre à jour les options de mise à niveau automatique dans les niveaux d’accès](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Concepts de base Adobe Workfront {#basics}
-   * [Concepts de base Adobe Workfront](workfront-basics/workfront-basics.md)
+   * [Concepts de base d’Adobe Workfront : index des articles](workfront-basics/workfront-basics.md)
    * [Glossaire de la terminologie Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Configuration requise pour le navigateur Adobe Workfront](workfront-basics/workfront-browser-requirements.md)
    * [Langues prises en charge dans Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)

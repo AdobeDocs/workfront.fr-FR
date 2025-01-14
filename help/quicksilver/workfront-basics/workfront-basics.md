@@ -1,20 +1,24 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Concepts de base Adobe Workfront
-description: Consultez ces sections pour mieux comprendre les principes de base d’Adobe Workfront.
+title: 'Concepts de base d’Adobe Workfront : index des articles'
+description: Consultez ces zones pour mieux comprendre les principes de base d’Adobe Workfront et apprendre à effectuer des fonctions de base, comme utiliser la zone Accueil ou Priorités , gérer votre profil de compte, utiliser l’assistant d’IA ou comprendre les exigences en matière de navigateur et les langues prises en charge. Reportez-vous au Glossaire Workfront pour apprendre la terminologie courante dans Workfront.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 92%
+source-wordcount: '192'
+ht-degree: 32%
 
 ---
 
-# Concepts de base Adobe Workfront
+# Concepts de base d’Adobe Workfront : index des articles
+
+<!--Audited: 01/2025-->
+
+Consultez ces zones pour mieux comprendre les principes de base d’Adobe Workfront et apprendre à effectuer des fonctions de base, comme utiliser la zone Accueil ou Priorités , gérer votre profil de compte, utiliser l’assistant d’IA ou comprendre les exigences en matière de navigateur et les langues prises en charge. Reportez-vous au Glossaire Workfront pour apprendre la terminologie courante dans Workfront.
 
 Cette section contient les sous-sections suivantes :
 
@@ -30,5 +34,5 @@ Cette section contient les sous-sections suivantes :
 * [Accorder et demande des autorisations à des objets](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
 * [Gérer votre compte et votre profil](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [Applications mobiles](../workfront-basics/mobile-apps/mobile-apps.md)
-* [Assistant IA dans Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+* [Assistant AI dans Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Conseils, astuces et dépannage pour les concepts de base d’Adobe Workfront](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

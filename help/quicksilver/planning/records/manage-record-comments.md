@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 72%
+source-wordcount: '941'
+ht-degree: 67%
 
 ---
 
@@ -28,7 +28,7 @@ Le panneau de droite d’un enregistrement affiche les sections suivantes :
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès pour Workfront Planning.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -49,14 +49,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -64,15 +64,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td><p> Contributeur, Clair ou Standard</p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <td><p> Contributeur, Léger ou Standard</p>
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -112,27 +112,27 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 * Vous pouvez taguer des utilisateurs et utilisatrices pour attirer leur attention sur la mise à jour. Ces personnes taguées ne reçoivent pas de notification in-app ni d’e-mail sur votre mise à jour.<!--this might change??-->
 
-* Vous pouvez taguer les utilisateurs et les utilisatrices pour attirer leur attention sur une mise à jour. Les utilisateurs balisés reçoivent une notification in-app ou par e-mail concernant votre mise à jour.
+* Vous pouvez taguer les utilisateurs et les utilisatrices pour attirer leur attention sur une mise à jour. Les utilisateurs identifiés reçoivent une notification in-app ou par e-mail concernant votre mise à jour.
 
   >[!NOTE]
   >
-  >   Seuls les utilisateurs des clients qui ont intégré l’expérience unifiée Adobe reçoivent une notification in-app et une notification par e-mail. Pour déterminer si votre entreprise utilise l’expérience unifiée de l’Adobe, reportez-vous à la section [ Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+  >   Seuls les utilisateurs des clients qui ont intégré l’expérience unifiée d’Adobe reçoivent à la fois une notification in-app et une notification par e-mail. Pour déterminer si votre société utilise l’expérience unifiée d’Adobe, voir [Expérience unifiée d’Adobe pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * Vous pouvez ajouter une mise à jour aux enregistrements et consulter l’historique des modifications dans les sections suivantes de Workfront Planning :
 
-   * Dans la page des détails de l’enregistrement.
-   * Dans une vue, dans la zone des détails de l’enregistrement.
+   * À partir de la page des détails de l’enregistrement.
+   * D’une vue, dans la zone Détails de l’enregistrement .
 
 ### Gérer les commentaires sur les enregistrements
 
 {{step1-to-planning}}
 
-1. Cliquez sur la carte d’un espace de travail.
+1. Cliquez sur la vignette d’un espace de travail.
 
-   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sur les cartes.
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sur les cartes.
 
-1. Cliquez sur une carte de type enregistrement.
-La page de type enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
+1. Cliquez sur une carte de type d’enregistrement.
+La page de type d’enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
 
 1. Choisissez une vue en tableau dans le menu déroulant **Affichage**.
 1. Cliquez sur le nom d’un enregistrement dans la vue de tableau.
@@ -147,18 +147,18 @@ La page de type enregistrement s’ouvre et tous les enregistrements de ce type 
 
    >[!TIP]
    >
-   >Lorsque vous quittez la section Commentaires avant de terminer la saisie et d’envoyer un commentaire, le commentaire reste en mode brouillon sur la page, même après votre déconnexion et reconnexion. Toutes les images ajoutées au commentaire sont également enregistrées dans le brouillon. Les brouillons sont enregistrés pendant 7 jours, après quoi ils sont éliminés et ne peuvent pas être récupérés. Les commentaires en mode brouillon ne sont visibles que par l’utilisateur ou l’utilisatrice qui les saisit.
+   >Si vous quittez la section Commentaires avant d’avoir terminé la saisie et l’envoi d’un commentaire, le commentaire reste sur la page en mode brouillon même après la déconnexion et la reconnexion. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. (Facultatif) Pour annuler ou rétablir une modification, utilisez les raccourcis clavier suivants :
    * Ctrl+Z (⌘+z pour Mac) pour annuler une modification
    * Ctrl+Y (⌘+y pour Mac) pour rétablir la modification
-1. (Facultatif et conditionnel) Si votre instance Workfront fait partie de l’expérience unifiée Adobe, ajoutez **@** suivi du nom d’un utilisateur pour baliser quelqu’un dans la mise à jour. Pour plus d’informations, reportez-vous à la section [Considérations relatives aux commentaires sur un enregistrement](#considerations-about-commenting-on-a-record) de cet article.
+1. (Facultatif et conditionnel) Si votre instance Workfront fait partie de l’expérience unifiée d’Adobe, ajoutez **@** suivi du nom d’un utilisateur pour baliser une personne dans la mise à jour. Pour plus d’informations, consultez la section [Considérations relatives aux commentaires sur un enregistrement](#considerations-about-commenting-on-a-record) dans cet article.
 
-1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre mise à jour, afin d’améliorer votre contenu.
+1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes ou des liens vers votre mise à jour afin d’améliorer votre contenu.
 
 1. Continuez à ajouter des commentaires à l’enregistrement.
 
-   Pour plus d’informations sur la mise à jour des objets, y compris les enregistrements de planification Workfront, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Pour plus d&#39;informations sur la mise à jour des objets, y compris les enregistrements Workfront Planning, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
       >[!TIP]

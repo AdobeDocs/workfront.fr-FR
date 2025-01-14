@@ -7,14 +7,16 @@ description: Vous trouverez le score de l’optimisateur de portfolio dans l’o
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
-# Vue d’ensemble du score de l’[!UICONTROL optimisateur de portfolio]
+# Présentation du score de [!UICONTROL Portfolio Optimizer]
+
+<!--Audited: 01/2025-->
 
 Vous trouverez le score de l’[!UICONTROL optimisateur de portfolio] dans l’[!UICONTROL optimisateur de portfolio]. Il apparaît dans la colonne **[!UICONTROL Score]** pour chaque projet. Cela représente un score pour chaque projet du portfolio.
 
@@ -26,7 +28,8 @@ Pour plus d’informations sur la manière dont [!DNL Adobe Workfront] utilise l
 
 Il existe une différence entre le score d’alignement et le score de l’optimisateur de portfolio d’un projet.
 
-Le score d’alignement d’un projet est calculé sur la base des points obtenus après avoir rempli la carte de performance. Ce score est ensuite utilisé pour déterminer le score d’alignement du portfolio. Le score d’alignement est exprimé en pourcentage.\
+Le score d’alignement d’un projet est calculé sur la base des points obtenus après avoir rempli la carte de performance. Ce score est ensuite utilisé pour déterminer le score d’alignement du portfolio. Le score d’alignement est exprimé en pourcentage.
+
 Le score d’alignement d’un projet s’affiche dans la colonne **[!UICONTROL Alignement]** de l’[!UICONTROL optimisateur de portfolio] ou dans le champ [!UICONTROL Alignement] du [!UICONTROL Récapitulatif du business case].
 
 ![](assets/business-case-summary-aligned-field-highlighted.png)
@@ -68,7 +71,13 @@ Pour connaître le classement d’un projet, procédez comme suit :
 
 L’algorithme de calcul des scores prend en considération les valeurs décrites dans les business cases des projets et les pondérations qu’ils comportent. Il attribue un score à chaque projet dans l’optimisateur et normalise ce score de manière à ce qu’il y ait toujours un projet avec un score de 100. Cela permet d’attribuer un score élevé au meilleur projet.
 
-**Exemple :** par exemple, si le seul facteur à prendre en considération est [!UICONTROL alignement plus élevé], le projet ayant l’alignement le plus élevé obtient un score de 100.
+>[!BEGINSHADEBOX]
+
+**EXEMPLE**
+
+Par exemple, si vous définissez [!UICONTROL alignement supérieur] le seul facteur à prendre en compte, le projet présentant l’alignement le plus élevé obtient le score de 100.
+
+>[!ENDSHADEBOX]
 
 Les critères suivants permettent de noter un projet :
 
