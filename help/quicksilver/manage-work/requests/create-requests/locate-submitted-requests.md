@@ -1,17 +1,17 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Localisation des requêtes envoyées
+title: Localisation des demandes envoyées
 description: Découvrez les zones d’Adobe Workfront dans lesquelles vous pouvez localiser les demandes que vous ou une autre personne avez envoyées ou les demandes que vous n’avez jamais envoyées et que vous avez enregistrées en tant que brouillons.
 author: Lisa
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 98%
+source-wordcount: '949'
+ht-degree: 86%
 
 ---
 
@@ -21,12 +21,19 @@ ht-degree: 98%
 
 Vous pouvez localiser les types de demandes suivants que vous ou une autre personne avez soumises, ou les demandes que vous avez commencées mais que vous n’avez jamais terminé d’envoyer. Vous pouvez localiser ces demandes dans les zones suivantes d’Adobe Workfront :
 
-* **Section Envoyées** : toutes les demandes que vous ou une autre personne avez envoyées et auxquelles vous avez accès à au moins en affichage.
-* **Section Brouillon** : toutes les demandes que vous avez commencées mais que vous n’avez jamais terminées et que vous n’avez jamais envoyées. Pour plus d’informations sur les brouillons des demandes, voir [Créer et envoyer des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* L’onglet **Workfront** de la zone Demandes de Workfront : Recherchez les demandes envoyées aux files d’attente des demandes de Workfront dans les sections suivantes :
+   * **Section Envoyées** : toutes les demandes que vous ou une autre personne avez envoyées et auxquelles vous avez accès à au moins en affichage.
+   * **Section Brouillon** : toutes les demandes que vous avez commencées mais que vous n’avez jamais terminées et que vous n’avez jamais envoyées. Pour plus d’informations sur les brouillons des demandes, voir [Créer et envoyer des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
   >[!TIP]
   >
   >Vous pouvez uniquement afficher vos propres brouillons de demandes.
+
+* L’onglet **Planning** de la zone Demandes de Workfront : Rechercher les demandes envoyées aux formulaires de demande Workfront Planning. Votre entreprise doit acheter un package Workfront Planning. Pour plus d’informations, voir les articles suivants :
+
+   * [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+   * [Envoi de requêtes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
+
 
 ## Conditions d’accès
 
@@ -55,7 +62,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr>
   <tr>
    <td role="rowheader">Autorisations d’objet</td> 
-   <td><p>Affichage des autorisations ou supérieures sur les requêtes</p></td> 
+   <td><p>Autorisations d’affichage ou supérieures pour les requêtes</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,6 +77,7 @@ Pour localiser les demandes que vous ou d’autres utilisateurs et utilisatrices
 
 {{step1-to-requests}}
 
+1. (Conditionnel) Si votre organisation a acheté un package Workfront Planning, cliquez sur l’onglet **Workfront** pour afficher les requêtes Workfront.
 1. Cliquez sur **Envoyées** dans le panneau de gauche pour afficher toutes les demandes envoyées.
 
    Vous pouvez afficher jusqu’à 2 000 demandes, qui peuvent s’afficher sur plusieurs pages.
@@ -191,6 +199,12 @@ Pour localiser les demandes que vous ou d’autres utilisateurs et utilisatrices
    -->
 
 1. Cliquez sur **Brouillons** pour visualiser toutes les demandes en préparation. Workfront enregistre un nombre illimité de brouillons pour chaque file d’attente de demandes dans ce dossier. Lorsque vous saisissez une nouvelle demande pour une rubrique de file d’attente qui comporte déjà un brouillon, l’utilisation d’un brouillon existant vous est proposée. Pour plus d’informations, consultez la section [Créer des demandes à partir de brouillons](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+
+1. (Facultatif et conditionnel) Si votre entreprise a acheté un package Workfront Planning, cliquez sur l’onglet **Planning**, puis sur **Soumis** dans le panneau de gauche pour afficher les demandes Workfront Planning.
+
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+
+   Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
  
 

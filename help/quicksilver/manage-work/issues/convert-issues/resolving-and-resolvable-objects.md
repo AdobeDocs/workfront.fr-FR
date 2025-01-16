@@ -7,9 +7,9 @@ description: Un objet résolvable est un problème dont la résolution est liée
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1778'
 ht-degree: 94%
 
 ---
@@ -126,7 +126,7 @@ Lorsqu&#39;un problème est lié manuellement à un autre problème, le statut d
 
 Lorsqu’un problème est l’objet résolvable d’une tâche ou d’un projet, les modifications de statut des tâches et des projets déclenchent des modifications de statut du problème. Dans ce cas, les statuts par défaut sont déclenchés différemment des statuts personnalisés.
 
-Lorsque le statut personnalisé du projet équivaut à un statut par défaut qui ne déclenche pas de modification du statut du problème, il ne déclenche pas de changement de statut pour le problème.
+Lorsque le statut personnalisé d’un projet équivaut à un statut par défaut qui ne déclenche pas de modification du statut de l’événement, la modification du statut du projet ne déclenche pas de changement de statut pour l’événement.
 
 * [Synchroniser le statut par défaut de l’objet de résolution avec le statut par défaut de l’objet résolvable](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Synchroniser le statut personnalisé de l’objet de résolution avec le statut personnalisé de l’objet résolvable](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

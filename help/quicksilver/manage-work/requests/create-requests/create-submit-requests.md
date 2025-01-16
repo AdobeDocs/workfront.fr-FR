@@ -1,15 +1,15 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Création et envoi de requêtes
+title: Création et soumission de demandes
 description: Le travail prévu est représenté dans Adobe Workfront par des projets et des tâches. Cependant, il se peut que vous travailliez dans un environnement où du travail non prévu - sous forme de demandes aléatoires - peut arriver à tout moment. Workfront fournit un workflow permettant de répondre à ce type d’environnement grâce à l’utilisation de files d’attente des demandes.
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2300'
-ht-degree: 98%
+source-wordcount: '2411'
+ht-degree: 93%
 
 ---
 
@@ -30,11 +30,12 @@ Le travail prévu est représenté dans Adobe Workfront par des projets et des 
 Après avoir créé une demande dans une file d’attente, vous pouvez soit l’assigner pour qu’elle soit complétée, soit la convertir en tâche ou en projet.\
 Pour plus d’informations sur la conversion des problèmes en tâches ou en projets, voir l’article [Vue d’ensemble de la conversion des problèmes dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-Vous pouvez créer une demande de la manière suivante :
+Vous pouvez créer une requête Workfront des manières suivantes :
 
 * À partir de zéro, tel que décrit dans cet article.
 * À partir de brouillons. Pour plus d’informations, voir [Créer des demandes à partir de brouillons](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * À partir d’une demande existante, en copiant et en envoyant une copie. Pour plus d’informations, voir [Copier et envoyer des demandes](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+* À partir d’un formulaire de demande Workfront Planning, pour créer des enregistrements dans Workfront Planning. Votre entreprise doit acheter un package Workfront Planning. Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -87,7 +88,7 @@ Un administrateur ou une administratrice Workfront doit créer les composants su
   Pour plus d’informations, voir l’article [Créer des groupes de sujets](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 * (Facultatif) Un formulaire personnalisé de demande.\
-  Pour plus d’informations, voir l’article [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Pour plus d’informations, voir l’article [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * (Facultatif) Un processus d’approbation des demandes.\
   Pour plus d’informations, voir l’article [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
@@ -112,7 +113,7 @@ Pour créer une demande dans l’application web Workfront :
 
 {{step1-to-requests}}
 
-1. Cliquez sur **Nouvelle requête** dans le coin supérieur droit de la page.
+1. Cliquez sur **Nouvelle demande** dans le coin supérieur droit de la page.
 
    >[!TIP]
    >
@@ -344,6 +345,17 @@ Vous pouvez soumettre des demandes à l’aide de n’importe quelle application
 
 * Vous pouvez soumettre des demandes à partir de Salesforce si vous avez installé l’application Workfront pour Salesforce.\
   Pour plus d’informations sur l’envoi de demandes depuis Salesforce à l’aide de notre application Workfront pour Salesforce, consultez l’article [Soumettre des demandes Adobe Workfront à partir d’objets Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+
+## Création de requêtes à l’aide d’un formulaire de requête Workfront Planning
+
+Vous pouvez ajouter une demande à l’aide d’un formulaire de demande Workfront Planning. L&#39;ajout de demandes Workfront Planning peut créer des enregistrements Planning, si le formulaire de demande est approuvé ou s&#39;il ne nécessite pas d&#39;approbation.
+
+Votre entreprise doit acheter un package Workfront Planning pour pouvoir soumettre des demandes Planning.
+
+Pour plus d’informations, voir les articles suivants :
+
+* [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* [Envoyez des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Localiser les demandes envoyées
 

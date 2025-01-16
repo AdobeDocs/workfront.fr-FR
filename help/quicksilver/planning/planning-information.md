@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 28%
@@ -28,76 +28,76 @@ Les articles des sections répertoriées ci-dessous décrivent comment configure
 >
 >La documentation référencée dans les sections ci-dessous sera disponible une fois les fonctionnalités publiées dans l’environnement de production.
 
-## Informations générales sur la planification Adobe Workfront
+## Informations générales sur Adobe Workfront Planning
 
-Accédez aux articles suivants pour obtenir des informations générales sur la nouvelle planification de Workfront :
+Consultez les articles suivants pour obtenir des informations générales sur la nouvelle planification Workfront :
 
 * [Vue d’ensemble d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md) : une vue d’ensemble de haut niveau d’Adobe Workfront Planning, y compris la terminologie et les concepts propres à cette solution. Nous vous recommandons de commencer votre parcours avec Workfront Planning ici.
-* [Présentation des limites des objets de planification Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md) : liste des limites du nombre d’objets que vous pouvez créer dans Workfront Planning.
-* [Activité de mise à jour de la planification Adobe Workfront : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) : liste de toutes les notes de mise à jour de la planification Workfront, à partir de la version du quatrième trimestre de 2024.
-* [Bonnes pratiques de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-best-practices.md) : ensemble de questions fréquentes et de bonnes pratiques relatives à l’utilisation de la planification Workfront.
+* [Présentation des limitations d&#39;objet Adobe Workfront Planning ](/help/quicksilver/planning/general/limitations-overview.md) : liste des limitations du nombre d&#39;objets que vous pouvez créer dans Workfront Planning.
+* [Activité de mise à jour d’Adobe Workfront Planning : index d’article ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) : liste de toutes les notes de mise à jour de Workfront Planning, à partir de la version du quatrième trimestre 2024.
+* [Bonnes pratiques relatives à Adobe Workfront Planning ](/help/quicksilver/planning/general/planning-best-practices.md) : ensemble de questions fréquentes et de bonnes pratiques relatives à l&#39;utilisation de Workfront Planning.
 
 ## Architecture et fonctionnalité de Workfront Planning
 
 Les sections suivantes contiennent des articles qui décrivent en détail les fonctionnalités actuellement disponibles pour Workfront Planning :
 
-* [Informations d’accès et d’autorisation : l’index d’article](/help/quicksilver/planning/access/access-information.md) contient les informations suivantes :
+* [Informations d’accès et d’autorisation : index d’article](/help/quicksilver/planning/access/access-information.md) contient les informations suivantes :
 
-   * Licences Workfront et autorisations de planification
-   * Planification des autorisations de partage
+   * Licences Workfront et autorisations Planning
+   * Autorisations de partage Planning
    * Partager des affichages
-   * Partage des espaces de travail (types d’enregistrement, enregistrements et champs)
+   * Partager les espaces de travail (types d’enregistrements, enregistrements et champs)
 
-* [Architecture : l’index de l’article](/help/quicksilver/planning/architecture/architecture-information.md) contient les informations suivantes :
+* [Architecture : index d’article](/help/quicksilver/planning/architecture/architecture-information.md) contient les informations suivantes :
 
    * Créer, modifier et supprimer des espaces de travail
-   * Créer, modifier et supprimer des types d’enregistrement
-   * Connexion de types d’enregistrement et d’exemples de connexion de types d’enregistrement
+   * Créer, modifier et supprimer des types d’enregistrements
+   * Connecter des types d’enregistrements et des exemples de types d’enregistrements connectés
    * Modèles Workspace
 
-* [Fields : article index](/help/quicksilver/planning/fields/fields-information.md) contient les informations suivantes :
+* [Champs : index d’article](/help/quicksilver/planning/fields/fields-information.md) contient les informations suivantes :
 
    * Créer, modifier et supprimer des champs
    * Champs de formule
    * Champs de Principal
 
-* [Enregistrements : l’index de l’article](/help/quicksilver/planning/records/records-information.md) contient les informations suivantes :
+* [Enregistrements : index d’article](/help/quicksilver/planning/records/records-information.md) contient les informations suivantes :
 
    * Créer, modifier et supprimer des enregistrements
    * Connect records
    * Ajout d’une image de couverture ou d’une miniature à un enregistrement
-   * Gestion de la mise en page d’une page d’enregistrement
-   * Enregistrement des commentaires et de l’historique
+   * Gérer la mise en page d’une page d’enregistrement
+   * Section Enregistrer les commentaires et l’historique
    * Partager des enregistrements
-   * Gestion des enregistrements de planification Workfront à partir de Workfront
+   * Gérer les enregistrements Workfront Planning à partir de Workfront
 
-* [Requêtes de planification Adobe Workfront : l’index d’article](/help/quicksilver/planning/requests/requests-article-index.md) contient les informations suivantes :
+* [Demandes Adobe Workfront Planning : index d&#39;article](/help/quicksilver/planning/requests/requests-article-index.md) contient les informations suivantes :
 
-   * Comment créer un formulaire de demande pour un type d’enregistrement.
-   * Comment les utilisateurs peuvent envoyer une demande à un formulaire de demande de type enregistrement et créer des enregistrements.
+   * Création d’un formulaire de demande pour un type d’enregistrement.
+   * Comment les utilisateurs peuvent-ils envoyer une demande à un formulaire de demande de type enregistrement et créer des enregistrements ?
 
-* [Vues : l’index de l’article](/help/quicksilver/planning/views/views-information.md) contient les informations suivantes :
+* [Vues : index d’article](/help/quicksilver/planning/views/views-information.md) contient les informations suivantes :
 
    * Créer des vues d’enregistrement
-   * Gestion des affichages de tableau, de chronologie et de calendrier
+   * Gérer les vues Tableau, Chronologie et Calendrier
 
-* [Notifications : l’index de l’article](/help/quicksilver/planning/notifications/notifications-information.md) contient les informations suivantes :
+* [Notifications : index des articles](/help/quicksilver/planning/notifications/notifications-information.md) contient les informations suivantes :
 
-   * Gestion des préférences de notification
-   * Planification des notifications in-app
-   * Planification des notifications par email
+   * Gérer les préférences de notification
+   * Planification de notifications in-app
+   * Planification des notifications par e-mail
 
-## Fonctionnalités supplémentaires disponibles pour la planification Workfront
+## Fonctionnalités supplémentaires disponibles pour Workfront Planning
 
-* [Principes de base de l’API de planification Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md) : l’objectif de l’API de planification Adobe Workfront est de simplifier la création d’intégrations avec la planification en introduisant une architecture REST-ful qui fonctionne sur HTTP.
+* [Principes de base de l’API Adobe Workfront Planning ](/help/quicksilver/planning/general/planning-api-basics.md) : l’objectif de l’API Adobe Workfront Planning est de simplifier la création d’intégrations avec Planning en introduisant une architecture REST-ful qui fonctionne via HTTP.
 
-* [Modules de planification Adobe Workfront pour Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md) : avec les modules de planification Adobe Workfront, vous pouvez déclencher un scénario lorsque des événements se produisent dans la planification Workfront. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements, ou effectuer un appel API personnalisé vers votre compte de planification Adobe Workfront.
+* [Modules Adobe Workfront Planning pour Workfront Fusion ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md) : grâce aux modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements ou effectuer un appel API personnalisé vers votre compte Adobe Workfront Planning.
 
-* [Présentation de l’assistant de planification Adobe Workfront AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l’assistant de planification Workfront AI, vous pouvez rechercher des enregistrements, ou créer, mettre à jour et supprimer des enregistrements à l’aide de commandes et laisser l’assistant effectuer le travail à votre place.
+* [Aperçu de l&#39;assistant IA Planning d&#39;Adobe Workfront ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l&#39;assistant AI Workfront pour Planning, vous pouvez rechercher des enregistrements ou créer, mettre à jour et supprimer des enregistrements à l&#39;aide de commandes et laisser l&#39;assistant faire le travail à votre place.
 
   >[!NOTE]
   >
-  >    L’assistant Workfront AI a été temporairement supprimé et sera disponible ultérieurement.
+  >    L’assistant Workfront AI a été temporairement supprimé et sera disponible à une date ultérieure.
 
-* **Fonctionnalités de reporting de la planification Workfront** : vous pouvez désormais afficher les informations de planification Workfront dans un rapport à l’aide du tableau de bord du canevas Workfront. Pour plus d’informations, voir [Prise en main des tableaux de bord de canevas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+* **Fonctionnalités de création de rapports de Workfront Planning** : vous pouvez désormais afficher les informations de Workfront Planning dans un rapport à l’aide du tableau de bord de la zone de travail Workfront. Pour plus d’informations, voir [Prise en main des tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

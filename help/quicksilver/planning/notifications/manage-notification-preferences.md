@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '502'
 ht-degree: 23%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 23%
 
 # Gérer les préférences de notification d’Adobe Workfront Planning
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -27,14 +27,9 @@ Vous pouvez recevoir une notification in-app ou par e-mail lorsque les actions s
 * Quelqu’un vous ajoute à un commentaire sur la page d’enregistrement
 * Quelqu&#39;un demande l&#39;autorisation d&#39;accéder à une vue ou à un espace de travail
 * Quelqu&#39;un vous accorde l&#39;autorisation d&#39;accéder à une vue ou à un espace de travail <!--I could not test this but Isk confirmed-->
-
-<div class="preview">
-
 * Vous devez soumettre une demande Workfront Planning.
 * Une personne approuve ou rejette une demande Workfront Planning que vous avez soumise.
 * Le statut passe à une demande Workfront Planning que vous avez soumise.
-
-</div>
 
 ## Conditions d’accès
 
@@ -187,9 +182,9 @@ Désélectionnez les notifications que vous souhaitez arrêter de recevoir.
    * **Demandes** : vous recevez une notification lorsqu’une personne effectue l’une des opérations suivantes :
 
       * Demande ou vous accorde l&#39;autorisation d&#39;accéder à un objet Workfront Planning
-      * <span class="preview">Vous avez soumis une demande Workfront Planning</span>
-      * <span class="preview">Statut d’une demande Workfront Planning que vous avez soumise</span>
-      * <span class="preview">Demande, accorde ou rejette une approbation à une demande Workfront Planning</span>
+      * Vous avez soumis une demande Workfront Planning
+      * Statut d’une demande Workfront Planning que vous avez soumise modifications
+      * Demande, accorde ou rejette une approbation à une demande Workfront Planning
 
    Pour plus d’informations sur la gestion des notifications, voir [ Préférences du compte et notifications ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 

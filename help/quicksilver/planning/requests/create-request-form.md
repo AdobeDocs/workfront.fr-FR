@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1429'
 ht-degree: 13%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 13%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -130,7 +132,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Cliquez sur **Créer**. Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre <span class="preview"> dans l’onglet Formulaire </span>.
+1. Cliquez sur **Créer**. Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -138,40 +140,44 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * Champs d’enregistrement disponibles dans la vue Tableau du type d’enregistrement sélectionné. <!--they are working on removing the limitation below-->
 
-<!-- when we go to prod, the Preview batch below will become the only batch-->
+   <!-- when we go to prod, the Preview batch below will become the only batch-->
 
->[!IMPORTANT]
->
-> Selon l’environnement que vous utilisez pour créer un formulaire de demande, les scénarios suivants existent :
->
->* Les champs des types suivants ne s’affichent pas dans le formulaire de demande dans l’environnement de production :
->
->    * Créé par et Dernière modification par
->    * Date de création et date de dernière modification
->    * Formule
->    * Personnes
->    * Champs connectés Workfront
->    * Champs de recherche d’objets Workfront
->    * Champs connectés des enregistrements Workfront Planning
->    * Champs de recherche des enregistrements connectés de Workfront Planning
->    * Champs de connexion AEM Assets
->* Les champs des types suivants ne s’affichent pas dans le formulaire de demande dans <span class="preview">l’environnement de prévisualisation :</span>
->    * <span class="preview"> créés par et modifiés en dernier par </span>
->    * <span class="preview">Date de création et Date de dernière modification</span>
->    * <span class="preview">Formule</span>
->    * <span class="preview"> les champs de recherche d’objets Workfront</span>
->    * <span class="preview">Champs de recherche des enregistrements connectés de Workfront Planning </span>
+   >[!IMPORTANT]
+   >
+   >Les champs des types suivants ne s’affichent pas dans le formulaire de demande :
+   >
+   >* Créé par et Dernière modification par
+   >* Date de création et date de dernière modification
+   >* Formule
+   >* Champs de recherche d’objets Workfront
+   >* Champs de recherche des enregistrements connectés de Workfront Planning
+   >
 
-* **Section par défaut** : il s’agit du saut de section par défaut que Workfront applique au formulaire de demande. La section Par défaut ne peut pas être renommée ni supprimée.
-* Champ **Subject** : champ qui identifiera la demande dans Workfront. Cette fonctionnalité n’est pas encore disponible dans l’environnement de production. <span class="preview">Il est disponible dans l’environnement de prévisualisation.</span> La configuration et la valeur du champ Objet ne sont pas modifiables.
+   <!--before release to prod: 
+    > Depending on what environment you use to create a request form, the following scenarios exist:
+   >
+   >* Fields of the following types do not display in the request form in the Production environment: 
+   >
+   >    * Created by and Last modified by
+   >    * Created date and Last modified date
+   >    * Formula
+   >    * People 
+   >    * Workfront connected fields
+   >    * Workfront objects' lookup fields
+   >    * Workfront Planning records' connected fields
+   >    * Workfront Planning connected records' lookup fields
+   >    * AEM Assets connection fields-->
 
-  >[!TIP]
-  >
-  >Le champ **Objet** nécessite une valeur lorsqu’il est visible sur le formulaire de demande. Cependant, vous pouvez supprimer le champ **Objet** si nécessaire, et les demandeurs ne le verront pas dans le formulaire.
+   * **Section par défaut** : il s’agit du saut de section par défaut que Workfront applique au formulaire de demande. La section Par défaut ne peut pas être renommée ni supprimée.
+   * Champ **Subject** : champ qui identifiera la demande dans Workfront. La configuration et la valeur du champ Objet ne sont pas modifiables.
 
-* Tous les champs associés au type d’enregistrement.
+     >[!TIP]
+     >
+     >Le champ **Objet** nécessite une valeur lorsqu’il est visible sur le formulaire de demande. Cependant, vous pouvez supprimer le champ **Objet** si nécessaire, et les demandeurs ne le verront pas dans le formulaire lorsqu’ils soumettent la demande.
 
-  Les champs contenus dans le formulaire de demande seront visibles pour toutes les personnes soumettant une demande à ce type d&#39;enregistrement.
+   * Tous les champs associés au type d’enregistrement.
+
+     Les champs contenus dans le formulaire de demande seront visibles pour toutes les personnes soumettant une demande à ce type d&#39;enregistrement.
 
 1. (Facultatif) Pointez sur un champ du formulaire à supprimer, puis cliquez sur l’icône **x** pour le supprimer. Elles sont ajoutées à l’onglet **Champs** situé à gauche du formulaire.
 
@@ -199,8 +205,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. (Facultatif) Cliquez sur **Aperçu** pour voir comment le formulaire s’affichera pour les autres utilisateurs lorsqu’ils l’utiliseront pour envoyer un nouvel enregistrement.
 
-1. 
-   <div class="preview">(Facultatif) Cliquez sur l’onglet **Configuration**, puis ajoutez au moins un utilisateur au champ **Approbateurs** pour approuver de nouvelles demandes pour ce formulaire d’enregistrement.
+1. (Facultatif) Cliquez sur l’onglet **Configuration**, puis ajoutez au moins un utilisateur au champ **Approbateurs** pour approuver de nouvelles demandes pour ce formulaire d’enregistrement.
 
    ![](assets/configuration-tab.png)
 
@@ -211,7 +216,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * Si au moins un approbateur rejette la demande, celle-ci est rejetée et l&#39;enregistrement n&#39;est pas créé.
    * Tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
 
-     Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md). </div>
+     Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Facultatif) Cliquez sur le ![](assets/more-menu.png) de menu **Plus** situé à droite du nom du formulaire dans l’en-tête, puis cliquez sur **Modifier** pour mettre à jour le nom du formulaire.
 1. Cliquez sur **Publish** pour publier le formulaire et obtenir un lien unique pour celui-ci.
@@ -234,20 +239,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!WARNING]
    >
-   >
    >* Lorsque vous sélectionnez **Personne disposant du lien**, n’importe qui peut accéder au formulaire et envoyer un nouvel enregistrement, même les personnes extérieures à votre organisation qui ne disposent pas d’un compte Workfront.
    >
-   > * <span class="preview">Un formulaire contenant les types de champs suivants ne peut pas être partagé publiquement :</span>
+   > * Un formulaire contenant les types de champs suivants ne peut pas être partagé publiquement :
    >
-   >     * <span class="preview">Connexions Workfront ou AEM Assets</span>
-   >     * <span class="preview">Personnes</span>
+   >     * Connexions Workfront ou AEM Assets
+   >     * Personnes
    >
 
 1. (Conditionnel) Si vous avez sélectionné **Personne disposant du lien** à l’étape précédente, sélectionnez la **Date d’expiration du lien** dans le calendrier disponible. Les personnes recevront une erreur après l’expiration du lien et vous devez mettre à jour la date du lien et générer un nouveau lien à partager avant que les personnes puissent à nouveau accéder au formulaire.
 
    Vous pouvez sélectionner des dates futures dans les 180 jours à compter de la date actuelle.
 
-1. Cliquez sur **Enregistrer et copier le lien** pour enregistrer les détails de partage du formulaire.
+1. Cliquez sur **Enregistrer et copier le lien** pour enregistrer les détails de partage du formulaire. Si le formulaire a été précédemment enregistré, cliquez sur **Copier le lien**.
 
    Les options de partage de formulaire sont enregistrées et le lien est copié dans le presse-papiers. Vous pouvez maintenant le partager avec d’autres personnes.
 
@@ -259,7 +263,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    La page de type d’enregistrement s’ouvre.
 1. (Facultatif) Cliquez sur le ![](assets/more-menu.png) de menu **Plus** à droite du nom du type d’enregistrement dans l’en-tête, puis effectuez l’une des opérations suivantes :
    * Cliquez sur **Mettre à jour le formulaire de demande** pour apporter des modifications au formulaire de demande.
-   * Cliquez sur **Copier le lien vers le formulaire de demande** pour partager le lien vers le formulaire avec d’autres personnes.
+   * Cliquez sur **Copier le lien pour demander un formulaire** pour partager le lien vers le formulaire avec d’autres personnes.
 
    >[!TIP]
    >

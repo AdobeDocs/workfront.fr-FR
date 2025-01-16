@@ -6,10 +6,10 @@ description: Vous pouvez déplacer des problèmes entre des projets et des tâch
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 86%
+source-wordcount: '868'
+ht-degree: 88%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 86%
 
 <!--Audited: 12/2024-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Vous pouvez déplacer des problèmes entre les objets suivants :
 
@@ -72,15 +72,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 Tenez compte des points suivants lors du déplacement de problèmes qui contiennent des documents ou qui sont associés à une file d’attente des demandes :
 
+* L’administrateur de votre système ou de votre groupe peut vous empêcher de déplacer des événements pour lesquels des heures ont été consignées, selon la manière dont il configure la préférence Autoriser les utilisateurs à déplacer les tâches et les événements pour lesquels des heures ont été consignées dans la zone Configuration. Pour plus d’informations, voir [Configurer les préférences de tâche et de problème à l’échelle du système](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * **Lorsqu’un problème est associé à une file d’attente des demandes :** lorsque vous déplacez un problème vers un autre objet et qu’il est associé à une file d’attente des demandes, le problème déplacé n’est plus associé à la file d’attente d’origine de laquelle provenait le premier problème.
 * **Lorsqu’un document est joint au problème :** lorsque vous déplacez un problème vers un autre objet et qu’un document lui est joint, le document, ses versions et ses épreuves sont également déplacés vers le nouveau problème. Les approbations associées au document ne sont pas déplacées.
 * **Lorsqu’un problème est lié à un document ou à un dossier :** lorsque vous déplacez un problème dont les documents ou dossiers sont liés à un service tiers tel que Google Drive, les liens vers les documents sont déplacés avec le problème.
-
-<div class="preview">
-
-* L’administrateur de votre système ou de votre groupe peut vous empêcher de déplacer des événements pour lesquels des heures ont été consignées, selon la manière dont il configure la préférence Autoriser les utilisateurs à déplacer les tâches et les événements pour lesquels des heures ont été consignées dans la zone Configuration. Pour plus d’informations, voir [Configurer les préférences de tâche et de problème à l’échelle du système](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-
-</div>
 
 ## Déplacer les problèmes dans une liste
 
@@ -103,9 +99,9 @@ Vous pouvez déplacer un ou plusieurs problèmes à partir d’une liste de prob
 
 Vous pouvez déplacer un problème lorsqu’il est affiché.
 
-### Déplacer un seul problème dans l’environnement de prévisualisation
+### Déplacer un seul problème
 
-1. Accédez à un problème que vous souhaitez copier, cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom du problème, puis sélectionnez **Déplacer vers**.
+1. Accédez à un événement à déplacer, cliquez sur l’![](assets/more-icon.png) du menu **Plus** à droite du nom de l’événement, puis cliquez sur **Déplacer vers**.
 
    ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 

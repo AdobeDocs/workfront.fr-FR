@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 10%
+source-wordcount: '915'
+ht-degree: 9%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 10%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -126,9 +126,9 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
 * Vous pouvez accéder à un formulaire de demande pour les demandes Workfront Planning uniquement à partir d’un lien spécifique vers le formulaire.
 * Vous ne pouvez pas modifier une demande après l’avoir envoyée à Workfront Planning.
-* Chaque demande envoyée crée un enregistrement pour le type d’enregistrement associé au formulaire que vous utilisez <span class="preview">si le formulaire n’est pas associé à une approbation ou si l’approbation a été accordée par tous les approbateurs.</span>
+* Chaque demande envoyée crée un enregistrement pour le type d’enregistrement associé au formulaire que vous utilisez si le formulaire n’est pas associé à une approbation ou si l’approbation a été accordée par tous les approbateurs.
 * Les enregistrements créés en soumettant des formulaires de demande ne peuvent pas être différenciés des enregistrements ajoutés par une autre méthode. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
-* <span class="preview">Les demandes envoyées s’affichent dans l’onglet Planification de la section Envoyées de la zone Demandes de la </span> Workfront.
+* Les demandes envoyées s’affichent dans l’onglet Planification de la section Envoyées dans la zone des Demandes de Workfront.
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -149,23 +149,24 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
    Votre formulaire est envoyé et les événements suivants se produisent :
 
-   * Si le formulaire de demande n’a pas été associé à une approbation, la demande est ajoutée à l’onglet <span class="preview">Planification) de la section Envoyés de la zone des Demandes Workfront </span> et un nouvel enregistrement est ajouté au type d’enregistrement associé au formulaire.
+   * Si le formulaire de demande n’a pas été associé à une approbation, la demande est ajoutée à l’onglet Planification de la section Envoyés de la zone Demandes Workfront et un nouvel enregistrement est ajouté au type d’enregistrement associé au formulaire.
 
-   * Si le formulaire de demande a été associé à une approbation, la demande de <span class="preview"> est ajoutée à l’onglet Planification de la section Soumis de la zone Demandes Workfront . Un nouvel enregistrement n&#39;est ajouté à la page de type d&#39;enregistrement qu&#39;une fois que tous les approbateurs l&#39;ont approuvé.</span>
-     <span class="preview">Pour plus d’informations, voir [Ajouter une approbation à un formulaire de demande](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
+   * Si le formulaire de demande a été associé à une approbation, la demande est ajoutée à l’onglet Planification de la section Soumis de la zone Demandes Workfront . Un nouvel enregistrement n&#39;est ajouté à la page de type d&#39;enregistrement qu&#39;une fois que tous les approbateurs l&#39;ont approuvé.
+
+     Pour plus d’informations, voir [Ajouter une approbation à un formulaire de demande](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
      ![](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
-     ><span class="preview">Tous les utilisateurs ayant accès à au moins un espace de travail peuvent afficher l&#39;onglet Planification dans la zone Demandes. Vous pouvez afficher uniquement les requêtes que vous ou une autre personne avez envoyées aux espaces de travail que vous êtes au moins autorisé à afficher. Les administrateurs et administratrices de Workfront peuvent afficher toutes les demandes envoyées à n’importe quel espace de travail du système. </span> <!--ensure this is correct; asking team in slack-->
+     >Tous les utilisateurs ayant accès à au moins un espace de travail peuvent afficher l&#39;onglet Planification dans la zone Demandes. Vous pouvez afficher uniquement les requêtes que vous ou une autre personne avez envoyées aux espaces de travail que vous êtes au moins autorisé à afficher. Les administrateurs et administratrices de Workfront peuvent afficher toutes les demandes envoyées à n’importe quel espace de travail du système. <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">Vous recevez une notification in-app et par e-mail indiquant que la demande a été soumise avec succès ou a été envoyée pour révision.</span>
-   * <span class="preview">Si le formulaire de demande a été associé à une approbation, les approbateurs reçoivent une notification in-app et par e-mail pour examiner et approuver la demande.</span>
+   * Vous recevez une notification in-app et un e-mail vous informant que la demande a été soumise avec succès ou envoyée pour révision.
+   * Si le formulaire de demande a été associé à une approbation, les approbateurs reçoivent une notification in-app et par e-mail pour examiner et approuver la demande.
 
      >[!NOTE]
      >
-     ><span class="preview">Les notifications par e-mail et in-app ne sont visibles que lorsque l’instance de Workfront de votre organisation est intégrée à l’expérience unifiée d’Adobe.</span>
+     >Les notifications par e-mail et in-app ne sont visibles que lorsque l’instance de Workfront de votre organisation est intégrée à l’expérience unifiée d’Adobe.
 
 
 

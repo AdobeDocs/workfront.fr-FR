@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2296'
-ht-degree: 86%
+source-wordcount: '2236'
+ht-degree: 87%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 86%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 En tant qu’administrateur ou administratrice [!DNL Adobe Workfront], vous pouvez configurer les préférences de l’ensemble du système pour les tâches et les problèmes. Ces préférences ont un impact sur la façon dont vos utilisateurs et utilisatrices créent des tâches et des problèmes dans [!DNL Workfront].
@@ -74,15 +74,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * [[!UICONTROL Paramètres par défaut de la nouvelle tâche]](#new-task-defaults)
    * [[!UICONTROL Événements]](#issues)
    * [[!UICONTROL Suppression]](#deletion)
-   * <span class="preview">[ Déplacer ](#move)</span>
+   * [Déplacer](#move)
    * [[!UICONTROL Dates effectives]](#actual-dates)
    * [[!UICONTROL Délégation]](#delegation)
    * [[!UICONTROL Accès]](#access)
-
-<!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
--->
-
 
 
 ### [!UICONTROL Paramètres par défaut de la nouvelle tâche] {#new-task-defaults}
@@ -169,8 +164,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 * Si vous désélectionnez cette option, un avertissement d’interdiction s’affiche lorsque vous supprimez une tâche ou un problème comportant des heures consignées, ou lorsque vous supprimez un projet comportant des heures consignées pour ses tâches ou ses problèmes. L’avertissement spécifie que l’équipe d’administration n’autorise pas la suppression des tâches ou des problèmes pour lesquels des heures ont été consignées. Les tâches, les problèmes ou les projets pour lesquels des heures ont été consignées ne peuvent pas être supprimés.
 
-<div class="preview">
-
 ### Déplacer
 
 **[!UICONTROL Autoriser les utilisateurs à déplacer les tâches et les événements avec des heures consignées]** : vous permet de déterminer si vous autorisez le déplacement des tâches ou des événements pour lesquels des heures sont consignées. Cette option est sélectionnée par défaut.
@@ -178,8 +171,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Lorsqu’il est sélectionné, vous pouvez déplacer les tâches et les événements dont le temps est consigné. Les heures se déplacent également avec les tâches ou les événements.
 
 * Lorsque vous désélectionnez cette option, vous recevez un avertissement prohibitif lorsque vous déplacez une tâche ou un problème avec des heures consignées vers un autre projet. L&#39;avertissement indique que l&#39;administrateur n&#39;autorise pas le déplacement des tâches ou des événements comportant des heures consignées. Impossible de déplacer les tâches ou les événements pour lesquels des heures ont été enregistrées. Vous pouvez déplacer des tâches au sein du même projet, même si cette option est désélectionnée.
-
-</div>
 
 ### [!UICONTROL Dates effectives] {#actual-dates}
 

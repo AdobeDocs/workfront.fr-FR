@@ -1,26 +1,25 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Mettre à jour ou modifier un élément de travail dans la zone d’accueil
+title: Mettre à jour ou modifier un élément de travail dans la zone d’Accueil
 description: Vous pouvez consulter et ajouter des mises à jour à un élément de travail dans la zone [!UICONTROL Accueil] d’Adobe Workfront. Vous pouvez également modifier d’autres données liées à l’élément de travail si vous avez le droit de les modifier.
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '846'
 ht-degree: 35%
 
 ---
 
 # Mettre à jour ou modifier un élément de travail dans la zone [!UICONTROL Accueil]
 
-<!--Audited: April 2024-->
+<!--Audited: 04/2024-->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Vous pouvez consulter et ajouter des mises à jour à un élément de travail dans la zone [!UICONTROL Accueil] d’[!DNL Adobe Workfront]. Vous pouvez également modifier d’autres données liées à l’élément de travail si vous avez le droit de les modifier.
 
@@ -133,22 +132,18 @@ Vous pouvez fournir des mises à jour sur n’importe quel élément de travail 
 
 1. Cliquez sur **Répondre**.
 
-   <div class="preview">
-
    ![](assets/reply-to-comment-in-mentions-widget.png)
 
-   </div>
-
 1. Commencez à saisir votre commentaire.
-1. (Facultatif) Dans la zone <span class="preview">**Baliser les personnes**</span>, commencez à saisir le nom d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+1. (Facultatif) Dans la zone **Baliser les personnes**, commencez à saisir le nom d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre commentaire, afin d’améliorer votre contenu.
-1. <span class="preview">Cliquez sur **Envoyer** pour ajouter le commentaire à l’élément de travail.</span>
+1. Cliquez sur **Envoyer** pour ajouter le commentaire à l’élément de travail.
 
    >[!IMPORTANT]
    >
-   ><span class="preview">Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant son envoi. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.</span>
+   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant sa soumission. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
 
-   <span class="preview">Pour plus d’informations sur l’ajout de mises à jour, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
+   Pour plus d’informations sur l’ajout de mises à jour, voir [Tâche de mise à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Modifier un élément de travail
 

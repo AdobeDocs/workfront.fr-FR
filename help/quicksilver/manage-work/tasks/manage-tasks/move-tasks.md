@@ -6,10 +6,10 @@ description: Vous pouvez déplacer des tâches vers différents projets ou vers 
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1547'
-ht-degree: 93%
+source-wordcount: '1487'
+ht-degree: 96%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 93%
 <!--Audited: 12/2024-->
 
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Vous pouvez déplacer des tâches dans Adobe Workfront entre les objets suivants :
@@ -72,6 +72,8 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
 
 Tenez compte des points suivants lors du déplacement d’une tâche :
 
+* Votre administrateur système ou de groupe peut vous empêcher de déplacer des tâches comportant des heures consignées, selon la manière dont il configure la préférence Autoriser les utilisateurs à déplacer les tâches et les événements comportant des heures consignées dans la zone Configuration. Pour plus d’informations, voir [Configurer les préférences de tâche et de problème à l’échelle du système](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * Lorsque vous déplacez une tâche d’un projet à un autre, les dates de la tâche peuvent être recalculées. Le nouveau calcul prendra en compte le planning utilisé par le nouveau projet, ainsi que les informations « Planifier à partir de » du projet.
 
 * Vous pouvez choisir de déplacer certains éléments associés à la tâche vers la tâche déplacée pendant le processus de déplacement. Toutefois, par défaut, les objets suivants sont transférés vers la tâche déplacée :
@@ -82,16 +84,9 @@ Tenez compte des points suivants lors du déplacement d’une tâche :
    * Formulaires personnalisés et informations sur les champs personnalisés
    * Sous-tâches
 
-Par défaut, les éléments suivants ne se déplacent pas avec la tâche :
+* Par défaut, les éléments suivants ne se déplacent pas avec la tâche :
 
-* Jalons
-
-<div class="preview">
-
-* Votre administrateur système ou de groupe peut vous empêcher de déplacer des tâches comportant des heures consignées, selon la manière dont il configure la préférence Autoriser les utilisateurs à déplacer les tâches et les événements comportant des heures consignées dans la zone Configuration. Pour plus d’informations, voir [Configurer les préférences de tâche et de problème à l’échelle du système](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-
-</div>
-
+   * Jalons
 
 ## Déplacer des tâches dans une liste
 

@@ -6,10 +6,10 @@ description: Dans Adobe Workfront, les tâches peuvent avoir des relations paren
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 85%
+source-wordcount: '566'
+ht-degree: 84%
 
 ---
 
@@ -82,7 +82,7 @@ Vous pouvez créer des sous-tâches à partir de la liste des tâches ou de la s
 
 >[!NOTE]
 >
->Votre administrateur Workfront ou de groupe peut masquer la section Sous-tâches dans votre environnement.
+>Votre administrateur Workfront ou de groupe peut supprimer la section Sous-tâches dans votre environnement à l’aide d’un modèle de mise en page.
 
 1. Accédez au projet dans lequel vous souhaitez créer des sous-tâches.
 1. Cliquez sur la section **Tâches** dans le panneau de gauche.

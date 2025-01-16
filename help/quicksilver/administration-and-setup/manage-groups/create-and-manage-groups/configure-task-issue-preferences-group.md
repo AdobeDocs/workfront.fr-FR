@@ -9,18 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2245'
-ht-degree: 86%
+source-wordcount: '2185'
+ht-degree: 88%
 
 ---
 
 # Configurer les préférences de tâches et de problèmes pour un groupe
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Si des groupes de votre entreprise doivent configurer une préférence de tâche ou de problème indépendamment de sa configuration au niveau du système, un administrateur ou une administratrice Adobe Workfront peut déverrouiller la préférence. Ensuite, en tant qu’administrateur ou administratrice de groupes, vous pouvez configurer les préférences de votre groupe, ce qui aura une incidence sur toutes les tâches associées ou tous les problèmes associés à votre groupe.
 
@@ -95,7 +95,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    * [Paramètres par défaut de la nouvelle tâche](#new-task-defaults)
    * [Événements](#issues)
    * [Suppression](#deletion)
-   * <span class="preview">[ Déplacer ](#move)</span>
+   * [Déplacer](#move)
    * [Dates effectives](#actual-dates)
    * [Délégation](#delegation)
    * [Accès](#access)
@@ -184,8 +184,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    </table>
 
 
-<div class="preview">
-
 ### Déplacer
 
 <table style="table-layout:auto"> 
@@ -203,8 +201,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
     </tbody> 
    </table>
-
-</div>
 
 ### Dates effectives {#actual-dates}
 
