@@ -1,24 +1,24 @@
 ---
 title: Gérer les vues d’enregistrement
-description: Vous pouvez afficher les enregistrements dans un tableau, une chronologie ou un calendrier lors de l’utilisation d’Adobe Workfront Planning. Cet article décrit comment créer une vue et modifier ou supprimer une vue existante.
+description: Vous pouvez afficher les enregistrements dans une vue Tableau, Chronologie ou Calendrier lors de l'utilisation d'Adobe Workfront Planning. Cet article décrit comment créer une vue et modifier ou supprimer une vue existante.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 61%
+source-wordcount: '1425'
+ht-degree: 63%
 
 ---
 
 
 # Gérer les vues d’enregistrement
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 {{planning-important-intro}}
@@ -48,7 +48,7 @@ Cet article présente les informations suivantes sur les vues d’enregistrement
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès pour Workfront Planning.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -69,14 +69,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -84,7 +84,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -92,7 +92,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard </p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
-   <p>Afficher les autorisations d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
+   <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -181,13 +181,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Les vues que vous créez sont visibles uniquement par vous et les personnes avec lesquelles vous les partagez.
 * Lorsque vous modifiez ou supprimez une vue, elle est modifiée et supprimée pour toutes les personnes disposant d’autorisations sur la vue.
 * Chaque utilisateur peut créer un maximum de 100 vues. Vous pouvez afficher plus de 100 vues pour un type d’enregistrement, mais un utilisateur ne peut créer que 100 vues.
-* Vous pouvez partager les vues que vous créez avec d’autres utilisateurs. Pour plus d’informations, voir [Partage de vues](/help/quicksilver/planning/access/share-views.md).
+* Vous pouvez partager des vues que vous créez avec d&#39;autres utilisateurs. Pour plus d’informations, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md).
 * Les éléments suivants sont propres à chaque vue d’enregistrement :
 
    * Filtre
    * Regroupement 
    * Trier
-   * Aspect des barres (pour le mode Chronologie)
+   * Aspect de la barre (pour la vue chronologique)
 
   <!-- some of these are not available in all of the views - edit above-->
 
@@ -195,7 +195,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
   >[!NOTE]
   >
-  > Certains éléments d’affichage peuvent ne pas être disponibles pour toutes les vues.
+  > Certains éléments d&#39;affichage peuvent ne pas être disponibles pour tous les affichages.
 
 
 ## Similarités et différences entre les vues d’enregistrement
@@ -221,11 +221,11 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 | Attribuer des couleurs aux enregistrements |           | ✓ | ✓ |
 | Attribuer des couleurs aux regroupements |           | ✓ |
 | Rechercher des enregistrements spécifiques | ✓ | ✓ |
-| Partager la vue avec d’autres | ✓ | ✓ | ✓ |
+| Partager la vue avec d&#39;autres personnes | ✓ | ✓ | ✓ |
 | Ouvrir la page de l’enregistrement à partir de la vue. | ✓ | ✓ |    |
-| Afficher les enregistrements par année et trimestre |           | ✓ |    |
+| Afficher les enregistrements par année et par trimestre |           | ✓ |    |
 | Afficher les enregistrements par mois |           | ✓ | ✓ |
-| <span class="preview"> Afficher les enregistrements par semaine</span> |           |               | ✓ |
+| Afficher les enregistrements par semaine |           |               | ✓ |
 
 
 ## Créer ou modifier des vues {#create-or-edit-views}
@@ -233,9 +233,9 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 {{step1-to-planning}}
 
 
-1. Cliquez sur la carte d’un espace de travail.
+1. Cliquez sur la vignette d’un espace de travail.
 
-   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
@@ -259,7 +259,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 >
 >Lorsque vous créez un type d’enregistrement, la vue de tableau est également créée par défaut.
 >
->Pour créer une vue de chronologie ou de calendrier, le type d’enregistrement pour lequel vous créez la vue doit comporter au moins deux champs de date.
+>Pour créer une vue de calendrier ou de chronologie, le type d’enregistrement pour lequel vous créez la vue doit comporter au moins deux champs de date.
 >
 >Dans le cas contraire, les options Chronologie et Calendrier sont grisées.
 >
@@ -280,7 +280,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 
    >[!TIP]
    >
-   >    Vous pouvez sélectionner des champs de date d’enregistrement ou des champs de date de recherche à partir des types d’enregistrement ou d’objet connectés. Vous devez utiliser des agrégateurs pour les champs de date (MAX ou MIN) lorsque vous sélectionnez des champs de recherche comme dates de début et de fin pour les vues de calendrier et de calendrier. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    Vous pouvez effectuer un choix parmi les champs de date d’enregistrement ou les champs de date de recherche parmi les types d’objet ou d’enregistrement connectés. Vous devez utiliser des agrégateurs pour les champs de date (MAX ou MIN) lorsque vous sélectionnez des champs de recherche comme dates de début et de fin pour les vues chronologique et Calendrier. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Cliquez sur **Créer**.
 
@@ -305,9 +305,9 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 
 {{step1-to-planning}}
 
-1. Cliquez sur la carte d’un espace de travail.
+1. Cliquez sur la vignette d’un espace de travail.
 
-   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
@@ -336,13 +336,13 @@ Les autorisations de partage de la vue d’origine ne sont pas transférées à 
 
 {{step1-to-planning}}
 
-1. Cliquez sur la carte d’un espace de travail.
+1. Cliquez sur la vignette d’un espace de travail.
 
-   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
-   La page de type enregistrement s’ouvre.
+   La page de type d’enregistrement s’ouvre.
 Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans la vue de tableau.
 
 1. Pointez sur l’onglet de la vue à dupliquer, cliquez sur le menu **Plus** ![](assets/more-menu.png) à droite du nom de la vue, puis sur **Dupliquer**.
@@ -352,24 +352,24 @@ Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans
 
    La vue est dupliquée et le nom de la nouvelle vue suit le modèle suivant : `Original view's name (Copy)`. Le nouvel onglet de vue s’affiche à la fin de tous les onglets de vue.
 
-## Activation de l’indicateur de présence en temps réel dans une vue
+## Activation de l&#39;indicateur de présence en temps réel dans une vue
 
-Les avatars des autres utilisateurs qui modifient les informations d’enregistrement en même temps que vous les affichez dans le coin supérieur droit de toutes les vues d’enregistrement, par défaut.
+Par défaut, les avatars d’autres utilisateurs qui modifient les informations d’enregistrement en même temps que vous s’affichent dans le coin supérieur droit de toutes les vues d’enregistrement.
 
-Lorsque vous affichez le mode Tableau, vous pouvez également afficher le champ qu’un autre utilisateur modifie au moment de l’affichage de l’enregistrement.
+Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un autre utilisateur est en train de modifier au moment où vous affichez l’enregistrement.
 
-1. Accédez à une page de type enregistrement et ouvrez n’importe quelle vue.
-1. (Conditionnel) Si d’autres utilisateurs modifient simultanément les enregistrements du type sélectionné, leurs avatars s’affichent dans le coin supérieur droit de la vue.
-1. Cliquez sur le menu déroulant en regard des avatars, puis sélectionnez l’option **Afficher les collaborateurs** . Le bouton bascule est sélectionné par défaut.
+1. Accédez à une page de type d’enregistrement et ouvrez n’importe quelle vue.
+1. (Conditionnel) Si d’autres utilisateurs modifient les enregistrements du type sélectionné en même temps, leurs avatars s’affichent dans le coin supérieur droit de la vue.
+1. Cliquez sur le menu déroulant en regard des avatars, puis sélectionnez le bouton bascule **Afficher les collaborateurs**. Le bouton (bascule) est sélectionné par défaut.
 
    ![](assets/show-collaborators-toggle-selected.png)
 
-1. (Conditionnel) Ouvrez une vue de tableau et le champ que l’autre personne est en train de modifier est mis en surbrillance dans la couleur correspondant au contour de son avatar dans la vue de tableau.
+1. (Conditionnel) Ouvrez une vue de tableau, et le champ qu’une autre personne modifie activement est mis en surbrillance dans la couleur correspondant au contour de son avatar dans la vue de tableau.
 
-   Si la couleur de surbrillance de l’avatar est grise, l’utilisateur a arrêté de modifier activement l’enregistrement il y a plus de 30 secondes.
+   Si la couleur de surbrillance de l&#39;avatar est grise, l&#39;utilisateur a arrêté de modifier activement l&#39;enregistrement il y a plus de 30 secondes.
 
    ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >
-   >Vous pouvez sélectionner la bascule **Afficher les collaborateurs** à partir de n’importe quelle vue. Le champ actuellement modifié par d’autres champs n’est présenté que dans la vue Tableau.
+   >Vous pouvez sélectionner le bouton bascule **Afficher les collaborateurs** dans n’importe quel mode. Le champ actuellement modifié par d’autres utilisateurs est uniquement indiqué dans la vue Tableau.

@@ -1,14 +1,14 @@
 ---
-title: Importation de champs à partir d’Adobe Workfront
+title: Importer des champs depuis Adobe Workfront
 description: Dans Adobe Workfront Planning, vous pouvez créer des champs personnalisés pour chaque type d’enregistrement. Vous pouvez ensuite associer le champ à des enregistrements Workfront Planning.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '701'
 ht-degree: 28%
 
 ---
@@ -17,19 +17,19 @@ ht-degree: 28%
 
 # Importer des champs depuis Adobe Workfront
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
 
-Vous pouvez importer des copies de champs Workfront existants. L’importation de champs à partir de Workfront crée une copie de chaque champ pour un type d’enregistrement Workfront Planning.
+Vous pouvez importer des copies de champs Workfront existants. L’importation de champs depuis Workfront crée une copie de chaque champ pour un type d’enregistrement Workfront Planning.
 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès pour Workfront Planning.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -50,14 +50,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -65,7 +65,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -73,7 +73,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard </p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -97,10 +97,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Remarques concernant l’importation de champs à partir de Workfront
+## Considérations relatives à l’importation de champs depuis Workfront
 
-* Vous pouvez importer des champs Workfront natifs ou personnalisés dans un type d’enregistrement dans Workfront Planning.
-* L’importation de champs Workfront crée des copies des mêmes champs et conserve leur nom dans Workfront Planning. Une fois copiés dans Workfront Planning, les champs sont indépendants des champs Workfront d’origine et ne partagent pas d’informations.
+* Vous pouvez importer des champs Workfront natifs ou personnalisés dans un type d&#39;enregistrement dans Workfront Planning.
+* L’importation de champs Workfront crée des copies des mêmes champs et conserve le nom du champ dans Workfront Planning. Une fois copiés dans Workfront Planning, les champs sont indépendants des champs Workfront d’origine et ne partagent pas d’informations.
 <!--check this: * You do not need permissions or access to Workfront objects to be able to add their fields to Workfront Planning. -->
 * Vous pouvez ajouter des champs natifs ou personnalisés à partir des objets Workfront suivants :
    * Portfolio
@@ -116,32 +116,32 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * Affectation
    * Heure
    * Enregistrement de facturation
-     <!--Available only to Preview, but might not come to Prod:* Rate card-->
+     <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
    * Frais
    * Itération
-     <!--* Non-labor resource-->
-     <!--* Non-labour resource category-->
-* Une fois importés dans Workfront Planning, les champs Workfront peuvent ne pas conserver leur type de champ.
+     <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+     <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
+* Il se peut que les champs Workfront ne conservent pas leur type de champ après leur importation dans Workfront Planning.
 
-  Le tableau ci-dessous présente les types de champ Workfront et le type de champ Workfront Planning correspondant.
+  Le tableau ci-dessous présente les types de champs Workfront et le type de champ Workfront Planning correspondant.
 
-  | Type de champ Workfront | Type de champ Planification Workfront |
+  | Type de champ Workfront | Type de champ Workfront Planning |
   |------------------------------------------|-------------------------------|
-  | Texte sur une seule ligne au format texte | Texte à une ligne |
-  | Texte mono-ligne au format numérique | Nombre |
-  | Texte sur une seule ligne au format monétaire | Devise |
+  | Texte d’une seule ligne au format texte | Texte à une ligne |
+  | Texte d’une seule ligne au format numérique | Nombre |
+  | Texte d’une seule ligne au format monétaire | Devise |
   | Paragraphe | Paragraphe |
   | Texte avec formatage | Paragraphe |
   | Liste déroulante à sélection unique | Sélection unique |
   | Menu déroulant multi-sélection | Sélection multiple |
-  | Les filtres de type utilisateur ne sont pas pris en charge | Personnes |
+  | Les filtres de saisie semi-automatique ne sont pas pris en charge | Personnes |
   | Calculé* | Formule |
   | Date | Date |
   | Groupe Case à cocher | Sélection multiple |
   | Bouton radio | Sélection multiple |
 
-  *Les champs calculés seront disponibles à une date ultérieure.
-Tous les autres types de champ Workfront ne sont pas pris en charge dans la planification Workfront.
+  *Les champs calculés seront disponibles ultérieurement.
+Tous les autres types de champ Workfront ne sont pas pris en charge dans Workfront Planning.
 
 
 ## Importer les champs depuis Workfront
@@ -150,7 +150,7 @@ Tous les autres types de champ Workfront ne sont pas pris en charge dans la plan
 
 {{step1-to-planning}}
 
-1. Cliquez sur l’espace de travail pour lequel vous souhaitez créer des champs.
+1. Cliquez sur l’espace de travail dont vous souhaitez créer les types d’enregistrements pour les champs.
 
    L’espace de travail et les types d’enregistrement s’affichent.
 
@@ -160,25 +160,25 @@ Tous les autres types de champ Workfront ne sont pas pris en charge dans la plan
 
    >[!TIP]
    >
-   >    Certains champs peuvent être masqués. Cliquez sur **Champs** et activez la bascule pour les champs que vous souhaitez afficher en tant que colonnes dans la vue de tableau.
+   >    Certains champs peuvent être masqués. Cliquez sur **Champs** et activez le bouton (bascule) pour les champs que vous souhaitez afficher en tant que colonnes dans la vue Tableau.
 
-1. Cliquez sur l’icône **+** dans le coin supérieur droit de la vue de tableau.
+1. Cliquez sur l’icône **+** dans le coin supérieur droit de la vue Tableau
 
    Ou
 
-   Pointez sur l’en-tête d’une colonne, cliquez sur la flèche pointant vers le bas située après le nom du champ, puis cliquez sur **Insérer à gauche** ou **Insérer à droite** pour ajouter le nouveau champ.
-1. Cliquez sur **Ajouter existant** dans le coin inférieur droit de l’onglet **Nouveau champ** . <!--check UI - did they change this??-->
+   Pointez sur l’en-tête d’une colonne, cliquez sur la flèche pointant vers le bas après le nom du champ, puis cliquez sur **Insérer à gauche** ou **Insérer à droite** pour ajouter le nouveau champ.
+1. Cliquez sur **Ajouter un existant** dans le coin inférieur droit de l’onglet **Nouveau champ**. <!--check UI - did they change this??-->
 
    ![](assets/add-existing-fields-from-workfront-modal.png)
 
 1. Commencez à saisir le nom d’un champ Workfront existant dans la zone de recherche, puis cliquez sur **+** lorsqu’il s’affiche dans la liste.
 1. (Facultatif) Saisissez un autre champ, puis cliquez sur **+** lorsqu’il s’affiche dans la liste.
-1. (Facultatif) Cliquez sur l&#39;icône **Filtres** ![](assets/filters-in-import-fields-icon.png), puis mettez à jour l&#39;un ou les deux champs suivants :
+1. (Facultatif) Cliquez sur le ![](assets/filters-in-import-fields-icon.png) de l’icône **Filtres**, puis mettez à jour l’un des champs suivants, ou les deux :
 
    * Type d’objet : sélectionnez un type d’objet Workfront dont vous souhaitez importer les champs.
-   * Formulaire personnalisé : sélectionnez un ou plusieurs formulaires personnalisés dans Workfront. Vous pouvez sélectionner un formulaire personnalisé sans d’abord sélectionner un type d’objet.
-1. Cliquez sur **+**, puis **Ajouter des champs**.
-Les champs sont ajoutés à la vue de la table et aux pages de détails des enregistrements.
+   * Formulaire personnalisé : sélectionnez un ou plusieurs formulaires personnalisés dans Workfront. Vous pouvez sélectionner un formulaire personnalisé sans sélectionner au préalable un type d’objet.
+1. Cliquez sur **+**, puis sur **Ajouter des champs**.
+Les champs sont ajoutés en mode Tableau et dans les pages de détails des enregistrements.
 
    >[!IMPORTANT]
    >

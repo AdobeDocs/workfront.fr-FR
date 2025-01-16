@@ -7,10 +7,10 @@ description: Lors de la gestion des tâches et des affectations de problèmes, v
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 81%
+source-wordcount: '556'
+ht-degree: 77%
 
 ---
 
@@ -20,13 +20,15 @@ ht-degree: 81%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités disponibles uniquement dans l’environnement de production pour les clients qui ont activé les versions rapides.</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités disponibles uniquement dans l’environnement de prévisualisation.</span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview"> Cette fonctionnalité sera supprimée de l’environnement de production pour les clients qui ont activé la version rapide avec la version 25.1 en janvier 2025. Pour plus d’informations sur la version 25.1, voir [Présentation de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
-Lors de la gestion des affectations de tâches et de problèmes, les affectations intelligentes vous permettent d’identifier la meilleure ressource pour terminer le travail. Les affectations intelligentes sont des suggestions qu’Adobe Workfront vous présente lorsque vous affectez des éléments de travail à des ressources en fonction d’un algorithme qui détermine la ressource la plus appropriée pour le traitement. Les affectations intelligentes peuvent être des utilisateurs et des utilisatrices, des fonctions ou des équipes.
+Lors de la gestion des affectations de tâches et d&#39;événements, vous pouvez utiliser les affectations intelligentes pour identifier la meilleure ressource pour effectuer le travail.
+
+Les affectations intelligentes sont des suggestions qu’Adobe Workfront vous présente lorsque vous affectez des éléments de travail à des ressources en fonction d’un algorithme qui détermine la ressource la plus appropriée pour le traitement. Les affectations intelligentes peuvent être des utilisateurs et des utilisatrices, des fonctions ou des équipes.
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ Cet article contient des informations générales sur les affectations intellige
 
 Tenez compte des points suivants lorsque vous utilisez des affectations intelligentes :
 
-* <span class="preview">L’algorithme fonctionne indépendamment pour les tâches et les événements. Cela signifie que la liste des utilisateurs suggérés pour les problèmes peut différer de la liste des utilisateurs suggérés pour une tâche, car Workfront crée les listes en fonction de critères relatifs aux problèmes et aux tâches séparément. </span>
+<!--* <span class="preview">The algorithm works independently for tasks and issues. This means that the list of suggested users for issues might differ from the list of suggested users for a task because Workfront builds the lists according to criteria pertaining to issues and tasks separately. </span>-->
 <!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
 * Les affectations suggérées sont toujours des utilisateurs actifs, des fonctions ou des équipes.
 * La ressource répertoriée en premier doit correspondre le mieux à la tâche.
@@ -51,11 +53,11 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">Liste de tâches ou rapport dans la colonne Affectations</span>
+* Une liste de tâches ou un rapport dans la colonne Affectations
 
   ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">En-tête de tâche dans le champ Affectations</span>
+* En-tête de tâche dans le champ Affectations
 
   ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -67,9 +69,9 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">Champ Affectations dans la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet</span>
+<!--* The Assignments field in the New Task box, when adding a task to a project
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  ![](assets/smart-assignments-new-task-modal.png)-->
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,77 +79,79 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* <span class="preview">Équilibreur de charge de travail dans la zone Affecté à lorsque vous affectez une tâche ou un événement</span>
+* Équilibreur de charge de travail dans la zone A affecté ce(tte) lors de l’affectation d’une tâche ou d’un problème
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Critères d’affectation intelligente
 
-Les affectations intelligentes fonctionnent différemment pour les tâches et les problèmes.
+<!--Smart assignments work differently for tasks than for issues.  -->
 
-### Critères d’affectation intelligente des tâches
+<!--### Smart assignments criteria for tasks
 
-Le calcul des affectations intelligentes de tâche fonctionne en <span class="preview">deux phases qui utilisent deux algorithmes différents</span>.
+The task smart assignments calculation works in <span class="preview">two phases which use two different algorithms.</span>
 
-<span class="preview">Selon l’algorithme qui trouve l’affectation dynamique, les affectations sont répertoriées sous deux sections distinctes dans le champ Affectations .</span> Pour plus d’informations, voir [Créer des affectations intelligentes](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+<span class="preview">Depending on which algorithm finds the smart assignment, the assignments are listed under two separate sections in the Assignments field.</span> For information, see [Make smart assignments](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md). 
 
 ![](assets/smart-assignments-task-list.png)
 
 <div class="preview">
 
-#### Première phase de calcul de l’affectation intelligente pour les tâches
+#### First phase of smart assignment calculation for tasks 
 
-Lors de la première phase de calcul des affectations intelligentes, Workfront calcule un score de similarité pour chaque affectation.
+In the first phase of calculating smart assignments, Workfront calculates a similarity score for every assignment. 
 
 >[!NOTE]
 >
->La première phase du calcul des affectations intelligentes ne s’applique pas aux zones de tâches suivantes :
+>The first phase of the smart assignments calculation does not apply to the following task areas:
 >
->* Affectations groupées dans l’équilibreur de charge de travail.
->* Cartes connectées sur des panoramas.
+>* Bulk Assignments in the Workload Balancer.
+>* Connected cards on boards.
 
 
-Le calcul du score de similarité et l’ordre dans lequel les affectations sont répertoriées prennent en compte les éléments suivants :
+The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
 
-* Un score de 100 % est attribué à une affectation existante où les noms des tâches, des projets et des portfolios sont identiques à la tâche que vous essayez d’affecter. Les noms du projet et du portfolio de la tâche d’une affectation existante doivent également correspondre au projet et au portfolio de la tâche que vous essayez d’affecter.
+* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
 
-* Si seule une partie des informations provenant d’autres affectations correspondent aux tâches existantes, le score peut être inférieur à 100 %.
+* If only some of this information from other assignments matches on the existing tasks, the score might be lower than 100%.  
 
-  Par exemple, si vous affectez une tâche nommée « Ma deuxième tâche » à un projet appelé « Mon projet » dans un portfolio désigné « Mon portfolio » et que vous avez une tâche du nom de « Ma tâche » provenant d’un autre projet « Mon projet » dans un portfolio intitulé « Mon portfolio », la personne affectée à « Ma tâche » peut obtenir un score de 95 %, car le nom de la tâche existante et celui de la tâche que vous essayez d’affecter sont similaires, mais pas identiques.
+  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
+ 
+    >[!TIP]
+    >
+    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
 
-  >[!TIP]
-  >
-  >  Workfront recherche des correspondances uniquement dans les champs Nom des tâches, des projets et des portfolios, et dans aucun autre champ.
+* An assignment could get a higher score when they are assigned to a lot of tasks in the system that have similar names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
 
-* Une affectation pourrait obtenir un score plus élevé lorsqu’elle est affectées à de nombreuses tâches du système portant des noms similaires. Par exemple, si une équipe appelée « Développement » est affectée à 50 % des tâches du système contenant « IA » dans leur nom et que vous attribuez maintenant une autre tâche avec « IA » dans le nom, le score de l’équipe « Développement » est plus élevé. Dans ce cas, les noms des projets et des portfolios ne sont pas aussi importants.
+* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
 
-* En tenant compte de ce système d’évaluation, les sept premières suggestions sont répertoriées comme des affectations intelligentes, dans l’ordre décroissant de leurs scores. Les affectations dont les scores sont inférieurs à 40 % ne s’affichent pas.
+* If several assignments have identical scores, they display in order of the date on which the assignments were made, starting from the most recent date.  
 
-* Si plusieurs affectations ont des scores identiques, elles s’affichent dans l’ordre de la date à laquelle les affectations ont été effectuées, à partir de la date la plus récente.
+  For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
 
-  Par exemple, si Rick a été affecté à une tâche similaire plus tôt aujourd’hui et que Jennifer a été affectée à une tâche similaire il y a deux jours, Rick s’affiche en premier.
+* Assignments identified in this phase are listed in the    **Suggested assignments**  section of the Assignments field for tasks. 
 
-* Les affectations identifiées dans cette phase sont répertoriées dans la section **Affectations suggérées** du champ Affectations des tâches.
-
-* S’il n’existe aucune correspondance utilisant ce calcul, la deuxième phase des affectations intelligentes commence, qui est calculée à l’aide d’un autre algorithme.
+* If there are no matches using this calculation, the second phase of smart assignments starts which is calculated using a different algorithm.  
 
 </div>
 
-#### Deuxième phase de calcul de l’affectation intelligente pour les tâches
+#### Second phase of smart assignment calculation for tasks-->
 
-Si la première étape des affectations intelligentes de tâche n’a trouvé aucune correspondance, Workfront calcule les affectations intelligentes pour les tâches de la même manière qu’il les calcule pour les problèmes.
+<!--If the first step of task smart assignments has found no matches,-->
 
-Pour plus d’informations, voir la section [Critères d’affectations intelligentes pour les tâches et les problèmes](#smart-assignments-criteria-for-tasks-and-issues) dans cet article.
+Workfront calcule les affectations intelligentes pour les tâches de la même manière qu’il les calcule pour les problèmes.
 
-Les affectations identifiées dans cette phase sont répertoriées dans les sections Utilisateurs, utilisatrices et équipes, Affectations de fonctions et Rôles de carte tarifaire du champ Affectations. ********<span class="preview">****</span> <span class="preview">Pour plus d&#39;informations sur les cartes tarifaires, voir [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+<!--For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. -->
 
-### Critères d’affectations intelligentes pour les tâches et les problèmes
+Les affectations identifiées sont répertoriées dans les sections **Utilisateurs et équipes**, **Affectations de fonction** et <span class="preview">**Rôles de carte tarifaire**</span> du champ Affectations . <span class="preview">Pour plus d&#39;informations sur les cartes tarifaires, voir [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
+<!--
+### Smart assignments criteria for tasks and issues 
 
 >[!NOTE]
 >
->Les critères suivants s&#39;appliquent aux tâches uniquement lorsque la première phase du calcul d&#39;affectation dynamique de tâche n&#39;a trouvé aucune correspondance. Pour plus d’informations, voir la section [Première phase de calcul de l’affectation intelligente pour les tâches](#first-phase-of-smart-assignment-calculation-for-tasks) dans cet article. Par défaut, les critères suivants s’appliquent toujours aux événements.
+>The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
 ![](assets/smart-assignments-issue-header.png)
 

@@ -1,24 +1,24 @@
 ---
-title: Présentation des champs
+title: Aperçu du champ
 description: Vous pouvez ajouter de nouveaux champs dans Adobe Workfront Planning qui reflètent le cycle de vie de votre entreprise. Les champs sont des attributs des types d’enregistrement.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 83%
+source-wordcount: '441'
+ht-degree: 85%
 
 ---
 
 
 # Vue d’ensemble des champs
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -45,39 +45,43 @@ Vous pouvez ajouter de nouveaux champs dans Adobe Workfront Planning qui refl�
 
    * Manuellement :
 
-      * En ajoutant des colonnes dans la vue tableau d’une page de type enregistrement. Les colonnes du tableau sont les champs associés au type d’enregistrement. Il s’agit des mêmes champs que ceux affichés sur la page d’un enregistrement.
+      * Lorsque vous ajoutez des colonnes dans la vue Tableau d’une page de type d’enregistrement. Les colonnes du tableau sont les champs associés au type d’enregistrement. Il s’agit des mêmes champs que ceux affichés sur la page d’un enregistrement.
 
         Vous ne pouvez pas créer de champs à partir de la page de l’enregistrement.
 
-      * En connectant les types d’enregistrement. Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une nouvelle connexion entre deux types d’enregistrement ou un type d’enregistrement et des types d’objet à partir d’autres applications.
+      * Lorsque vous connectez des types d’enregistrements. Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une nouvelle connexion entre deux types d’enregistrement ou un type d’enregistrement et des types d’objet à partir d’autres applications.
 
         Pour plus d’informations sur la connexion des types d’enregistrement, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-      * <span class="preview">En important des champs existants à partir de Workfront. </span>
-        <span class="preview">Pour plus d&#39;informations, voir [Importer des champs à partir d&#39;Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).</span>
+      * Lorsque vous importez des champs existants depuis Workfront.
 
-      * <span class="preview">En important des types d’enregistrement à l’aide d’un fichier Excel ou CSV. </span>
+        Pour plus d’informations, voir [Importer des champs depuis Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
-        <span class="preview">Pour plus d’informations, voir [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).</span>
 
    * Automatiquement :
 
-     Voici les champs standard créés par défaut pour chaque nouveau type d’enregistrement :
+      * Lorsque vous créez un type d’enregistrement :
 
-      * Nom
-      * Description
-      * Date de début
-      * Date de fin
-      * Statut. Les valeurs par défaut des statuts des enregistrements sont les suivantes :
-         * Développement
-         * Prévu
-         * Actif
-         * Terminé
-         * Suspendu
+         * Nom
+         * Description
+         * Date de début
+         * Date de fin
+         * Statut. Les valeurs par défaut des statuts des enregistrements sont les suivantes :
+            * Développement
+            * Prévu
+            * Actif
+            * Terminé
+            * Suspendu
 
         Vous pouvez ajouter d’autres valeurs ou renommer les valeurs existantes.
 
-     Workfront Planning crée des champs pour les types d’enregistrement lorsque vous créez un espace de travail à partir d’un modèle. Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+      * Lorsque vous créez un espace de travail à partir d’un modèle.
+
+        Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+      * Lorsque vous importez des types d’enregistrements à l’aide d’un fichier Excel ou CSV.
+
+        Pour plus d’informations, voir la section [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * Les champs Workfront Planning ne sont pas accessibles à partir de Workfront.
 

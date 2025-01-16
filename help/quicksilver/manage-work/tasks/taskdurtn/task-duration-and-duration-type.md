@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1791'
-ht-degree: 68%
+source-wordcount: '1649'
+ht-degree: 70%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 68%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 La durée de la tâche correspond à la différence entre sa date de début prévue et sa date d’achèvement prévue. La durée indique le délai dont dispose la tâche pour être achevée.
 
@@ -34,42 +34,30 @@ Si les dates de début et d’achèvement effectives de la tâche ne corresponde
 >[!BEGINSHADEBOX]
 
 **EXEMPLE**
-Si un planning commence à 9 heures et se termine à 12 heures et qu’une tâche est planifiée pour commencer à 14 heures et se terminer à 16 heures, la durée de la tâche est zéro.
+Si vous avez une planification qui commence à 9 h 00 et se termine à 12 h 00 et une tâche qui est planifiée pour commencer à 14 h 00 et se terminer à 16 h 00, la durée de la tâche est nulle.
 
 
 >[!ENDSHADEBOX]
 
 Voici deux scénarios qui existent lors du calcul de la durée dans Adobe Workfront :
 
-* Si la tâche est assignée à un utilisateur, les scénarios suivants existent en fonction de l’environnement que vous utilisez :
+* Si la tâche est affectée à un utilisateur :
 
-   * Dans l’environnement de production, Workfront utilise l’un des plannings suivants, dans cet ordre exact de calcul de la durée :
+   1. Workfront prend en compte le planning du projet ou celui de l&#39;utilisateur affecté à la tâche.
 
-   1. Workfront prend en compte le planning de l’utilisateur ou de l’utilisatrice.
-   1. Si la personne n’est pas associée à un planning, Workfront prend en compte le planning du projet.
-   1. Si le projet n’est pas associé à un planning, Workfront prend en compte le planning par défaut de votre système. Pour plus d’informations sur les plannings, voir [Créer un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+      Votre administrateur Workfront ou de groupe détermine la planification utilisée par Workfront lorsqu’une tâche est affectée à un utilisateur. Pour plus d’informations, voir [Configurer des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-<div class="preview">
-
-* Dans l’environnement Aperçu :
-
-   1. Workfront prend en compte le planning du projet ou celui de l’utilisateur affecté à la tâche.
-
-      L’administrateur de Workfront ou de groupe détermine le planning utilisé par Workfront lorsqu’une tâche est affectée à un utilisateur. Pour plus d’informations, voir [Configurer des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
-   1. Si l’utilisateur ou le projet ne dispose pas de planning, Workfront utilise le planning par défaut du système.
+   1. Si l’utilisateur ou l’utilisatrice ou le projet ne dispose pas de planification, Workfront utilise la planification système par défaut.
 
       Les étapes sont similaires au premier scénario après avoir compris quel planning Workfront utilise pour calculer la durée.
-
-</div>
 
 * Si la tâche est affectée à plusieurs utilisateurs et utilisatrices :
 
    1. Workfront prend en compte le planning du projet ou celui de la personne cessionnaire principale.
 
-      L’administrateur de Workfront ou de groupe détermine le planning utilisé par Workfront lorsqu’une tâche est affectée à plusieurs utilisateurs. Pour plus d’informations, voir [Configurer des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+      Votre Workfront ou votre administrateur de groupes détermine la planification utilisée par Workfront lorsqu’une tâche est affectée à plusieurs utilisateurs. Pour plus d’informations, voir [Configurer des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   1. Si la personne désignée principale ou le projet ne dispose pas de planification, Workfront utilise la planification par défaut du système.
+   1. Si la personne désignée principale ou le projet ne disposent pas de planification, Workfront utilise la planification système par défaut.
 
   Les étapes sont similaires au premier scénario après avoir compris quel planning Workfront utilise pour calculer la durée.
 
@@ -79,7 +67,7 @@ Voici deux scénarios qui existent lors du calcul de la durée dans Adobe Workfr
 
 ## Unités de temps pour la durée de la tâche
 
-Vous pouvez indiquer la durée de la tâche à la fois au moment normal et au temps écoulé entre les dates de début planifié et de fin planifiée.
+Vous pouvez indiquer la durée de la tâche à la fois en temps normal et en temps écoulé entre les dates de début prévu et d&#39;achèvement prévu.
 
 Lors de la mise à jour de la durée des tâches dans une liste, vous pouvez utiliser les abréviations suivantes pour indiquer les unités de temps dans Workfront :
 
@@ -102,7 +90,7 @@ Lors de la mise à jour de la durée des tâches dans une liste, vous pouvez uti
 
 **EXEMPLE**
 
-Si vous souhaitez indiquer que la durée d’une tâche est de 3 jours écoulés, vous devez saisir &quot;3 DE&quot; dans le champ Durée d’une liste de tâches .  Vous pouvez également sélectionner l’option de votre choix pour l’unité de temps de la durée dans le menu déroulant disponible lors de la modification d’une tâche ou dans la section Détails de la tâche . Pour plus d’informations sur la modification des tâches, consultez [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Si vous souhaitez indiquer que la durée d’une tâche est de 3 jours écoulés, vous devez saisir « 3 DE » dans le champ Durée d’une liste de tâches .  Vous pouvez également sélectionner l’option souhaitée pour l’unité de temps Durée dans le menu déroulant disponible lors de la modification d’une tâche ou dans la section Détails de la tâche. Pour plus d’informations sur la modification des tâches, consultez [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 
 >[!ENDSHADEBOX]
@@ -116,14 +104,14 @@ Si vous souhaitez indiquer que la durée d’une tâche est de 3 jours écoulés
 Tenez compte des points suivants lorsque vous indiquez la durée d’une tâche :
 
 * Le temps écoulé est une unité de temps pour la durée d’une tâche. Il s’agit de la durée entre la date de début et la date d’achèvement prévues d’une tâche qui comprend les jours fériés, les week-ends et les jours de congé. En d’autres termes, le temps écoulé est le nombre de jours calendaires écoulés.
-* Les jours représentent les jours de travail définis dans le système et configurables dans la zone Configuration . Dans la plupart des cas, une journée consiste en 8 heures.
-* L’heure normale (jours ou jours de travail) prend en compte les jours fériés, les week-ends et les jours de congé et les exclut de la durée de la tâche.
-* Lorsque vous indiquez la durée d’une tâche en semaines, Workfront calcule la durée en jours et heures en fonction des paramètres Type de jour de travail par semaine et Type d’heure par jour de travail définis par votre administrateur Workfront dans la zone Préférences du projet de la configuration.
+* Les jours représentent les jours ouvrés définis dans le système et configurables dans la zone Configuration. Dans la plupart des cas, une journée dure 8 heures.
+* Les heures normales (jours ou jours ouvrables) prennent en compte les jours fériés, les week-ends et les congés et les excluent de la Durée de la tâche.
+* Lorsque vous indiquez la durée d’une tâche en semaines, Workfront calcule la durée en jours et en heures en fonction des paramètres Jours ouvrables standard par semaine et Heures ouvrables standard définis par l’administrateur Workfront dans les Préférences du projet de la section Configuration.
 * Workfront utilise la durée par défaut de 4 semaines pour un mois lors du calcul de la durée en mois.
 
 ## Vue d’ensemble du type de durée des tâches
 
-La gestion du type de durée d’une tâche vous permet de définir des affectations de ressources cohérentes en fonction des besoins de la tâche.
+La gestion du type de durée d’une tâche permet de définir des affectations de ressources cohérentes en fonction des besoins de la tâche.
 
 Le type de durée permet de répondre aux questions suivantes :
 
@@ -176,24 +164,24 @@ Le type de durée d’une nouvelle tâche correspond au type de durée configur�
 
 ## Durée d’origine d’une tâche parent
 
-La Durée d’origine d’une tâche est la Durée qu’une tâche avait à l’origine avant de devenir une tâche mère, en minutes.
+La durée initiale d’une tâche est la durée qu’une tâche avait à l’origine avant de devenir une tâche parent, en minutes.
 
 Lorsqu’une tâche devient un parent, la durée entre la date de début prévue du premier enfant et la date d’achèvement prévue du dernier enfant est reportée sur la tâche parent et devient la durée de la tâche parent. Cela remplace la durée de la tâche originale.
 
-Lorsque les enfants utilisent l’unité de durée des jours écoulés et que leur parent utilise l’unité de durée des jours, il peut y avoir des incohérences dans la façon dont Workfront calcule la durée de la tâche parent.
+Lorsque les enfants utilisent l’unité de durée Jours écoulés et que leur parent utilise l’unité de durée Jours, il peut y avoir des incohérences dans la façon dont Workfront calcule la durée de la tâche parent.
 
 Tenez compte des points suivants :
 
-* L’unité de durée Jours écoulés représente les jours calendaires, qui se composent toujours de 24 heures par jour.
-* L’unité de durée Jours représente le jour de travail défini dans le système et peut être configuré. Dans la plupart des cas, il se compose de 8 heures par jour.
-* La formule de calcul de la durée de la tâche mère est la suivante :
+* L’unité de durée Jours écoulés représente les jours du calendrier, qui se composent toujours de 24 heures par jour.
+* L’unité de durée Jours représente le jour ouvré défini dans le système et peut être configurée. Dans la plupart des cas, il se compose de 8 heures par jour.
+* La formule de calcul de la durée de la tâche parent est la suivante :
 
   `Parent task duration = Planned Completion Date of the child task that is planned to end the latest - Planned Start Date of the child task that starts the earliest`
 
-* Lors du calcul de la durée de la tâche mère, le système calcule d&#39;abord la durée selon la formule ci-dessus, puis applique le planning.
+* Lors du calcul de la durée de la tâche parent, le système commence par calculer la durée à l&#39;aide de la formule ci-dessus, puis il applique la planification.
 
 
-Pour plus d’informations, voir [Présentation de la tâche Durée d’origine et Heures planifiées originales](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
+Pour plus d&#39;informations, voir [Aperçu de la durée d&#39;origine de la tâche et des heures prévues d&#39;origine](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Modifier le type de durée d’une tâche
 

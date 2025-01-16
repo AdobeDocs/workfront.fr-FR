@@ -1,32 +1,32 @@
 ---
-title: Annulation de la publication d’un formulaire de requête dans Adobe Workfront Planning
-description: Vous pouvez annuler la publication d’un formulaire de requête s’il n’est plus nécessaire ou pertinent. En annulant la publication, vous supprimez les autorisations de tous les utilisateurs pour accéder au formulaire.
+title: Dépublication d’un formulaire de demande dans Adobe Workfront Planning
+description: Vous pouvez dépublier un formulaire de demande s’il n’est plus nécessaire ou pertinent. En dépubliant, vous supprimez les autorisations d’accès au formulaire accordées à tous.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '658'
 ht-degree: 28%
 
 ---
 
-
-# Annulation de la publication d’un formulaire de requête dans Adobe Workfront Planning
+# Dépublication d’un formulaire de demande dans Adobe Workfront Planning
 
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
-Vous pouvez annuler la publication d’un formulaire de requête s’il n’est plus nécessaire ou pertinent. En annulant la publication, vous supprimez les autorisations de tous les utilisateurs pour accéder au formulaire.
+Vous pouvez dépublier un formulaire de demande s’il n’est plus nécessaire ou pertinent. En dépubliant, vous supprimez les autorisations d’accès au formulaire accordées à tous.
 
-Vous pouvez également modifier les entités avec lesquelles vous partagez un formulaire de demande, si vous souhaitez le mettre à disposition d’un plus petit groupe de personnes.
+Vous pouvez également modifier les entités avec lesquelles vous partagez un formulaire de demande, si vous souhaitez qu’il reste disponible pour un plus petit groupe de personnes.
 
 ## Conditions d’accès
 
@@ -51,15 +51,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tr>
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td>
    <td>
-<p>L’un des projets Workfront suivants est prévu :</p>
+<p>L’un des plans Workfront suivants :</p>
 <ul><li>Sélectionner</li>
 <li>Principal</li>
 <li>Final</li></ul>
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p>
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p>
    </td>
 
 <tr>
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td>
    <td>
 <p>Tous </p>  
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </td>
@@ -67,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <tr>
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
    <td>
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p>
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p>
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
    </td>
 
@@ -77,7 +77,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
    <p>Standard</p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p>
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p>
   </td>
   </tr>
   <tr>
@@ -107,53 +107,53 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 +++
 
-## Modifier le partage d’un formulaire de demande
+## Modification du partage d’un formulaire de demande
 
-Si vous partagez publiquement une demande pour , avec toutes les personnes, y compris les utilisateurs de l’extérieur de votre entreprise, vous pouvez envisager de restreindre cet accès à certains utilisateurs qui visualisent ou gèrent l’espace de travail auquel le formulaire est associé.
+Si vous partagez une demande de publiquement, avec tout le monde, y compris les utilisateurs et utilisatrices externes à votre organisation, vous pouvez envisager de restreindre cet accès à certains utilisateurs et utilisatrices qui affichent ou gèrent l’espace de travail auquel le formulaire est associé.
 
 Pour modifier le partage d’un formulaire de demande :
 
 {{step1-to-planning}}
 
-1. Cliquez sur l&#39;espace de travail dans lequel vous souhaitez ajouter des enregistrements.
+1. Cliquez sur l’espace de travail dans lequel vous souhaitez ajouter des enregistrements.
 
-   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre dans la vue de tableau.
+   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
 
-1. Cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Mettre à jour le formulaire de demande**.
+1. Cliquez sur le ![](assets/more-menu.png) de menu **Plus** à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Mettre à jour le formulaire de demande**.
 1. Cliquez sur **Partager** dans le coin supérieur droit de l’écran, puis mettez à jour les choix de partage. Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-1. (Facultatif) Cliquez sur **Copier le lien** si vous avez modifié le partage du formulaire de demande et que vous souhaitez le partager avec le nouveau groupe de personnes disposant d’un nouveau lien.
+1. (Facultatif) Cliquez sur **Copier le lien**, si vous avez modifié le partage du formulaire de demande et que vous souhaitez le partager avec le nouveau groupe de personnes avec un nouveau lien.
 
-## Annuler la publication d’un formulaire de demande pour un type d’enregistrement
+## Dépublication d’un formulaire de demande pour un type d’enregistrement
 
-Lorsqu’un formulaire de demande n’est plus pertinent et que vous ne souhaitez plus que personne y accède, vous pouvez annuler sa publication.
+Lorsqu’un formulaire de demande devient non pertinent et que vous ne souhaitez plus que quiconque y accède, vous pouvez le dépublier.
 
 {{step1-to-planning}}
 
-1. Cliquez sur l&#39;espace de travail dans lequel vous souhaitez ajouter des enregistrements.
+1. Cliquez sur l’espace de travail dans lequel vous souhaitez ajouter des enregistrements.
 
-   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre dans la vue de tableau.
+   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
 
-1. Cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Mettre à jour le formulaire de demande**.
-1. Cliquez sur **Annuler la publication** dans le coin supérieur droit.
+1. Cliquez sur le ![](assets/more-menu.png) de menu **Plus** à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Mettre à jour le formulaire de demande**.
+1. Cliquez sur **Dépublier** dans le coin supérieur droit.
 
    ![](assets/unpublish-button-highlighted.png)
 
-   Une confirmation s’affiche en bas de l’écran pour vous informer que le formulaire a été dépublié.
+   Un message de confirmation s’affiche au bas de l’écran pour vous informer que la publication du formulaire a été annulée.
 
-   Le bouton **Annuler la publication** se transforme en **Publish**.
+   Le bouton **Dépublier** devient **Publish**.
 
 1. Cliquer sur **Enregistrer**.
 
    Le formulaire n&#39;est plus accessible à partir d&#39;un lien <!--or from the request queue in the Requests area of Workfront-->.
 
-   Tout enregistrement précédemment ajouté à l’aide du formulaire de demande reste sur la page de type enregistrement.
+   Tous les enregistrements précédemment ajoutés à l’aide du formulaire de demande restent sur la page du type d’enregistrement.
 
-   <span class="preview">Toutes les requêtes précédemment ajoutées restent dans la zone Demandes de Workfront, dans l’onglet Planification.</span>
+   Toutes les demandes précédemment ajoutées restent dans la zone des Demandes de Workfront, dans l’onglet Planification .

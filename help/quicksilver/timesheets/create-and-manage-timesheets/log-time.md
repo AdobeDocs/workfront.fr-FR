@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '3848'
+source-wordcount: '3824'
 ht-degree: 84%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 84%
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation pour les clientes et les clients.</span>
 
 Vous pouvez consigner les heures passées sur un élément de travail dans Adobe Workfront pour refléter le fruit de vos efforts. Vous pouvez également consigner les heures qui ne sont pas liées au travail, comme les vacances, les congés maladie ou le temps passé en réunion. Les heures que vous consignez s’affichent dans votre feuille de temps.
 
@@ -497,11 +495,8 @@ Selon le type d’entrées d’heures que vous modifiez, les champs suivants peu
    * Affectation de fonction. Vous ne pouvez modifier l’affectation de fonction que si elle a été activée dans la configuration. Pour plus d’informations, voir [Configurer les préférences de feuille de temps et d’heure](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
    * Description de la saisie d&#39;heures.
 
-<div class="preview">
 
-![](assets/edit-hour-box-project-hour-type.png)
-
-</div>
+  ![](assets/edit-hour-box-project-hour-type.png)
 
 * Lorsque vous modifiez des heures générales :
 
@@ -551,7 +546,7 @@ Pour modifier les types d&#39;heures dans un rapport ou une liste d&#39;heures :
    >
    >   Tous les champs ne sont pas disponibles, selon le type d’heure associé aux entrées d’heures sélectionnées.
 
-1. Cliquez sur **Enregistrer <span class="preview">modifications</span>**.
+1. Cliquez sur **Enregistrer les modifications**.
 
    Les informations sur la saisie des heures sont mises à jour.
 Si vous avez sélectionné plusieurs entrées d&#39;heures et modifié le champ Heures, le même nombre d&#39;heures est attribué à toutes les entrées d&#39;heures sélectionnées. Les heures d’origine sont remplacées par la nouvelle valeur pour toutes les entrées d’heures sélectionnées.

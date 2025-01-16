@@ -1,33 +1,33 @@
 ---
 title: Gérer la vue de calendrier
-description: Vous pouvez afficher les enregistrements et leurs champs en mode Calendrier. Cet article explique comment créer une vue Calendrier et modifier ou supprimer une vue existante.
+description: Vous pouvez afficher les enregistrements et leurs champs dans une vue Calendrier. Cet article décrit comment créer une vue de calendrier et modifier ou supprimer une vue existante.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '781'
 ht-degree: 25%
 
 ---
 
 # Gérer la vue de calendrier
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 {{planning-important-intro}}
 
-Vous pouvez afficher les enregistrements et leurs champs dans une vue de calendrier, à partir de la page de type enregistrement.
+Vous pouvez afficher les enregistrements et leurs champs dans une vue Calendrier, à partir de la page Type d’enregistrement.
 
-Pour plus d’informations sur les vues de planification Adobe Workfront et sur la façon de les gérer, voir [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+Pour plus d’informations sur les vues Adobe Workfront Planning et leur gestion, voir [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès pour Workfront Planning.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -48,14 +48,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -63,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -71,7 +71,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard </p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
-   <p>Afficher les autorisations d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
+   <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -153,45 +153,44 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-## Gestion de la vue Calendrier {#manage-a-calendar-view}
+## Gérer une vue Calendrier {#manage-a-calendar-view}
 
 <!--insert screen shot of calendar view-->
 
 Tenez compte des points suivants :
 
-* Vous ne pouvez créer une vue Calendrier que si au moins deux champs de date sont associés à un type d’enregistrement. Lorsqu’un ou plusieurs champs de date sont associés à un type d’enregistrement, l’option Mode Calendrier est grisée.
+* Vous ne pouvez créer une vue Calendrier que si au moins deux champs de date sont associés à un type d’enregistrement. Lorsqu’un type d’enregistrement est associé à un ou à aucun champ de date, l’option Vue Calendrier est grisée.
 
-  Vous pouvez sélectionner des champs de date d’enregistrement ou des champs de date de recherche à partir des types d’enregistrement ou d’objet connectés.
+  Vous pouvez effectuer un choix parmi les champs de date d’enregistrement ou les champs de date de recherche parmi les types d’objet ou d’enregistrement connectés.
 * Les scénarios suivants sont possibles :
 
-   * Lorsque les dates de Début et de Fin n&#39;ont aucune valeur, les enregistrements ne s&#39;affichent pas dans le calendrier.
-   * Lorsque les dates de début ou de fin n’ont aucune valeur, l’enregistrement s’affiche sous la forme d’un événement d’un jour.
+   * Lorsque les dates de début et de fin ne comportent aucune valeur, les enregistrements ne s’affichent pas dans le calendrier
+   * Lorsque les dates de début et de fin n’ont aucune valeur, l’enregistrement s’affiche sous la forme d’un événement d’un jour
    * Lorsque la date de début est postérieure à la date de fin, l&#39;enregistrement ne s&#39;affiche pas dans le calendrier.
 
-Pour gérer une vue de calendrier :
+Pour gérer une vue Calendrier :
 
-1. Accédez à la page de type enregistrement pour laquelle vous souhaitez afficher le calendrier.
+1. Accédez à la page de type d’enregistrement pour laquelle vous souhaitez afficher le calendrier.
 1. Créez une vue Calendrier, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![](assets/calendar-view-example.png)
 
-   Les enregistrements associés au type d’enregistrement que vous avez sélectionné s’affichent sous forme de barres dans un calendrier. La couleur des barres correspond à celle de l’icône d’enregistrement.
+   Les enregistrements associés au type d&#39;enregistrement que vous avez sélectionné s&#39;affichent sous forme de barres dans un calendrier. La couleur des barres correspond à celle de l’icône d’enregistrement.
 
-1. Pour parcourir le calendrier, effectuez l’une des opérations suivantes :
+1. Effectuez l’une des opérations suivantes pour parcourir le calendrier :
 
-   * Cliquez sur les icônes de gauche et de droite ou utilisez le défilement horizontal pour passer d’un calendrier à l’autre.
-   * Cliquez sur **Aujourd’hui** pour centrer le calendrier sur la date d’aujourd’hui.
+   * Cliquez sur les icônes de gauche et de droite ou utilisez le défilement horizontal pour vous déplacer dans le calendrier.
+   * Cliquez sur **Aujourd&#39;hui** pour centrer le calendrier sur la date d&#39;aujourd&#39;hui.
    * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
 
       * **Mois** : les enregistrements s’affichent dans un calendrier mensuel.
 
-     <div class="preview">
 
       * **Semaine** : les enregistrements s’affichent dans les zones suivantes :
 
-         * Les enregistrements qui s’étendent sur plusieurs jours s’affichent en haut du calendrier.
-         * Les enregistrements qui durent un jour ou moins s’affichent dans la moitié inférieure de la vue Calendrier. Si vous choisissez d’afficher l’heure des dates de début et de fin, l’enregistrement s’affiche au moment approprié dans la journée où il se produit.
-     </div>
+         * Les enregistrements qui s&#39;étendent sur plusieurs jours s&#39;affichent en haut du calendrier.
+         * Les enregistrements d&#39;une durée inférieure ou égale à un jour s&#39;affichent dans la moitié inférieure de la vue Calendrier. Si vous avez choisi d&#39;afficher l&#39;heure des dates de début et de fin, l&#39;enregistrement s&#39;affiche à l&#39;heure appropriée dans la journée où il se produit.
+
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
@@ -207,11 +206,11 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue C
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* Les filtres que vous créez pour une vue Calendrier fonctionnent indépendamment des filtres de toute autre vue appliquée au même type d’enregistrement.
+* Les filtres que vous créez pour une vue Calendrier fonctionnent indépendamment des filtres de toute autre vue appliquée au même type d&#39;enregistrement.
 
-* Les filtres sont propres à la vue que vous sélectionnez. Deux vues calendaires du même type d&#39;enregistrement peuvent faire l&#39;objet de filtres différents.
+* Les filtres sont propres à la vue que vous sélectionnez. Des filtres différents peuvent être appliqués à deux vues de calendrier du même type d’enregistrement.
 
-* Deux utilisateurs qui consultent la même vue de calendrier voient le même filtre actuellement appliqué.
+* Deux utilisateurs qui consultent le même affichage Calendrier verront le même filtre qui est actuellement appliqué.
 
 * Vous ne pouvez pas nommer les filtres que vous créez pour une vue Calendrier.
 
@@ -221,12 +220,12 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue C
 
   Pour plus d’informations, consultez la section « Ajout de filtres » dans l’article [Gestion de la vue tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté.
+* Vous pouvez filtrer par champs d’enregistrement connectés ou champs de recherche.
 
 * Vous pouvez filtrer par champs de recherche qui affichent plusieurs valeurs.
 
-### Modification des paramètres de la vue Calendrier
+### Modifier les paramètres de la vue Calendrier
 
-La modification des paramètres de la vue Calendrier est similaire à la modification des paramètres d’une vue de chronologie.
+La modification des paramètres de la vue Calendrier est similaire à la modification des paramètres d’une vue Chronologie.
 
-Pour plus d’informations, voir la section &quot;Modifier les paramètres de vue de la chronologie&quot; dans l’article [Gérer la vue de la chronologie](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Pour plus d’informations, consultez la section « Modifier les paramètres de la vue chronologique » de l’article [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).

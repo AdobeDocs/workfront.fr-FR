@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Configuration des préférences du projet à l’échelle du système
+title: Configuration des préférences de projet à l’échelle du système
 description: En tant que personne membre de l’administration  [!DNL Adobe Workfront] , vous pouvez configurer les préférences par défaut pour tous les projets créés dans l’ensemble du système. Ces préférences ont un impact sur le comportement du projet, de la tâche et du problème.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 93%
+source-wordcount: '2661'
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 93%
 
 <!--Audited: 12/2023-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 En tant que personne membre de l’administration [!DNL Adobe Workfront], vous pouvez configurer les préférences par défaut pour tous les projets créés dans l’ensemble du système. Ces préférences ont un impact sur le comportement du projet, de la tâche et du problème.
@@ -124,7 +124,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calculate Percent Complete based on]</td> 
-   <td> <p>Workfront calcule le pourcentage d’achèvement d’un projet ou d’une tâche mère à l’aide du pourcentage d’achèvement de chaque tâche du projet et soit de la durée, soit des heures planifiées de chaque tâche.</p><p>Le pourcentage d’achèvement de chaque tâche est défini manuellement par les personnes désignées.</p><p>Vous pouvez choisir ici si Workfront utilisera la Durée ou les Heures planifiées des tâches pour calculer le pourcentage de réalisation des projets.</p> <p>Si vous sélectionnez [!UICONTROL Duration], la durée de toutes les tâches d’un projet détermine le pourcentage terminé global du projet, et la durée de toutes les sous-tâches détermine le pourcentage terminé global de sa tâche parent.</p> <p>Si vous sélectionnez [!UICONTROL Duration], veillez à spécifier les [!UICONTROL Typical hours per work day] et les [!UICONTROL Typical work days per week] dans la section [!UICONTROL Timelines]. [!DNL Workfront] utilise ces informations lors du calcul du pourcentage terminé d’une tâche en fonction de la durée. </p> <p>Si vous sélectionnez [!UICONTROL Planned Hours], assurez-vous que toutes les tâches de chaque projet ont le [!UICONTROL Planned Hours] défini et que le montant n’est pas nul.</p><p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">Présentation du pourcentage de projet terminé</a>.</p></td> 
+   <td> <p>Workfront calcule le pourcentage d'achèvement d'un projet ou d'une tâche parent à l'aide du pourcentage d'achèvement de chaque tâche du projet et de la durée ou des heures prévues de chaque tâche.</p><p>Le pourcentage d’achèvement de chaque tâche est défini manuellement par les personnes assignées à la tâche.</p><p>Vous pouvez indiquer ici si Workfront utilisera la durée ou les heures prévues des tâches pour calculer le pourcentage d’achèvement des projets.</p> <p>Si vous sélectionnez [!UICONTROL Duration], la durée de toutes les tâches d’un projet détermine le pourcentage terminé global du projet, et la durée de toutes les sous-tâches détermine le pourcentage terminé global de sa tâche parent.</p> <p>Si vous sélectionnez [!UICONTROL Duration], veillez à spécifier les [!UICONTROL Typical hours per work day] et les [!UICONTROL Typical work days per week] dans la section [!UICONTROL Timelines]. [!DNL Workfront] utilise ces informations lors du calcul du pourcentage terminé d’une tâche en fonction de la durée. </p> <p>Si vous sélectionnez [!UICONTROL Planned Hours], assurez-vous que toutes les tâches de chaque projet ont le [!UICONTROL Planned Hours] défini et que le montant n’est pas nul.</p><p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">Présentation du pourcentage d’achèvement du projet</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically set the project's Condition based on the Progress Status]</td> 
@@ -217,16 +217,16 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
 
 </tr> 
   <tr> 
-   <td role="rowheader"> <p><span class="preview">Lorsqu’un utilisateur ou une utilisatrice est affecté à une tâche, utilisez la planification de...</span></p> </td> 
-   <td> <div class="preview">
+   <td role="rowheader"> <p>Lorsqu’un utilisateur ou une utilisatrice est affecté à une tâche, utilisez la planification de...</p> </td> 
+   <td> 
 <p>Si aucun planning n’est affecté à un projet ou si aucun planning n’est affecté aux personnes affectées à ses tâches, [!DNL Workfront] utilise le planning par défaut du système pour calculer la chronologie des tâches.</p>
 
-<p>Si vous affectez un utilisateur à une tâche dans un projet et que des plannings sont associés au projet et à l’utilisateur affecté aux tâches, [!UICONTROL Workfront] utilise les plannings suivants :</p> 
+<p>Si vous affectez un utilisateur à une tâche dans un projet et que le projet et l'utilisateur affecté aux tâches sont associés à des planifications, [!UICONTROL Workfront] utilise les planifications suivantes :</p> 
     <ul> 
-     <li><strong>[!UICONTROL User]</strong> : [!DNL Workfront] utilise la planification de l’utilisateur affecté sur la tâche pour calculer les chronologies.</li> 
-     <li><strong>[!UICONTROL Project]</strong> : [!DNL Workfront] utilise le planning du projet pour calculer la chronologie de la tâche.</li> 
+     <li><strong>[!UICONTROL User]</strong> : [!DNL Workfront] utilise le planning de l’utilisateur affecté à la tâche pour calculer les chronologies.</li> 
+     <li><strong>[!UICONTROL Project]</strong> : [!DNL Workfront] utilise la planification du projet pour calculer la chronologie de la tâche.</li> 
     </ul> <p>Pour plus d’informations sur les plannings, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Créer un planning</a>.</p>
-</div></td> 
+</td> 
   </tr>
 
 <tr data-mc-conditions=""> 

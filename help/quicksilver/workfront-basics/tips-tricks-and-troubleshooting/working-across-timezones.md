@@ -5,10 +5,10 @@ title: Travailler sur plusieurs fuseaux horaires
 description: Il peut être utile de comprendre comment  [!DNL Adobe Workfront]  utilise les fuseaux horaires pour calculer les champs horaires des objets et les heures dans d’autres domaines tels que les e-mails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 87%
+source-wordcount: '1192'
+ht-degree: 90%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 87%
 
 <!-- Audited: 2/2024 -->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Il peut être utile de comprendre comment [!DNL Adobe Workfront] utilise les fuseaux horaires pour calculer les éléments suivants :
 
@@ -95,26 +95,22 @@ Les administrateurs et administratrices de [!DNL Workfront] créent des planning
 
   Ce planning peut être différent de celui d’un projet. Par exemple, lorsqu’une personne crée une tâche dans le projet, mais n’y a encore affecté personne, la tâche utilise le planning du projet. Lorsqu’une personne est affectée à la tâche, celle-ci utilise le planning de cette personne.
 
-  Si plusieurs utilisateurs sont affectés à une tâche, le système utilise l’un des éléments suivants, tel que configuré dans les préférences de projet à l’échelle du système ou du groupe :
+  Si plusieurs utilisateurs sont affectés à une tâche, le système utilise l’une des options suivantes, telles que configurées dans les préférences du projet à l’échelle du système ou du groupe :
 
    * Le fuseau horaire pour le planning de la personne propriétaire principale de la tâche.
    * Le fuseau horaire pour le planning du projet.
 
-  <div class="preview">
+  Si un utilisateur est affecté à une tâche, le système utilise l’une des options suivantes, telles que configurées dans les préférences du projet à l’échelle du système ou du groupe :
 
-  Si un utilisateur est affecté à une tâche, le système utilise l’un des éléments suivants, tel que configuré dans les préférences de projet à l’échelle du système ou du groupe :
-
-   * Le fuseau horaire du planning de la personne désignée de la tâche
+   * Fuseau horaire du planning de la personne affectée à la tâche
    * Le fuseau horaire pour le planning du projet.
-
-  </div>
 
   Cela peut entraîner une modification des dates des tâches.
 
 >[!BEGINSHADEBOX]
 
-**EXEMPLE :**
-Un utilisateur EST affecté à une tâche d’une journée planifiée pour commencer à 9 h 00 PST, qui est midi HNE. Comme il ne reste à la personne EST que deux heures de travail pour la journée, la date d’achèvement de la tâche est reportée d’environ six heures au jour ouvrable suivant.
+**EXEMPLE:**
+Un utilisateur EST est affecté à une tâche d&#39;une journée qui doit commencer à 9 h 00 (heure du Pacifique), c&#39;est-à-dire midi (heure de Paris). Comme il ne reste à la personne EST que deux heures de travail pour la journée, la date d’achèvement de la tâche est reportée d’environ six heures au jour ouvrable suivant.
 
 
 >[!ENDSHADEBOX]
@@ -130,10 +126,10 @@ Pour plus d’informations sur la façon dont le fuseau horaire configuré dans 
 
 Vous pouvez utiliser une série de champs personnalisés calculés dans un formulaire personnalisé pour afficher l’heure pour les personnes de votre organisation, comme une rangée d’horloges d’aéroport affichant l’heure dans plusieurs villes. Vous pouvez créer un champ pour chacun des fuseaux horaires dans lesquels travaillent vos personnes, chacun calculant l’heure pour son fuseau horaire.
 
-Pour plus d’informations, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md), ainsi que la section [ Champs personnalisés calculés par date et heure](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) de l’article [Présentation des expressions de données calculées](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Pour plus d’informations, consultez la section [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) ainsi que la section [Champs personnalisés calculés en date et heure](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) de l’article [Présentation des expressions de données calculées](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Utiliser des champs de texte au lieu de champs de date dans un formulaire personnalisé {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 
 Si vous ne souhaitez pas que [!DNL Workfront] convertisse les heures configurées dans un objet pour des personnes situées dans des fuseaux horaires différents, vous pouvez utiliser un champ de texte dans un formulaire personnalisé que vous attachez à un objet, plutôt qu’un champ de date. De cette façon, l’heure affiche l’heure que vous saisissez pour toutes les personnes qui participent au projet.
 
-Dans ce cas, nous vous recommandons de rappeler aux utilisateurs et utilisatrices du formulaire de calculer la différence entre leur fuseau horaire et le vôtre afin qu’ils puissent déterminer les heures de début et de fin du travail. Vous pouvez l’inclure dans les instructions que vous saisissez pour le formulaire personnalisé ou dans une info-bulle pour ce champ. Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Dans ce cas, nous vous recommandons de rappeler aux utilisateurs et utilisatrices du formulaire de calculer la différence entre leur fuseau horaire et le vôtre afin qu’ils puissent déterminer les heures de début et de fin du travail. Vous pouvez l’inclure dans les instructions que vous saisissez pour le formulaire personnalisé ou dans une info-bulle pour ce champ. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
