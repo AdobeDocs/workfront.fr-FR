@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: Connecteur
 navigation-topic: apps-and-their-modules
 title: Modules Adobe Campaign v7/v8
-description: Avec les modules  [!DNL Adobe Campaign] , vous pouvez lancer un scènario  [!DNL Adobe Workfront Fusion]  selon les événements de votre compte  [!DNL Adobe Campaign] , créer, lire ou mettre à jour des contrats et d’autres enregistrements, rechercher des enregistrements à l’aide de critères que vous définissez et charger des documents.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 97%
+source-wordcount: '1490'
+ht-degree: 92%
 
 ---
 
 # Modules [!DNL Adobe Campaign]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules Adobe Campaign](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-campaign-classic-connector.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Avec les modules [!DNL Adobe Campaign], vous pouvez démarrer un scénario [!DNL Adobe Workfront Fusion] selon les événements de votre compte [!DNL Adobe Campaign v7/v8], créer, lire ou mettre à jour des enregistrements, rechercher des enregistrements à l’aide des critères que vous définissez et effectuer des appels API personnalisés.
 
@@ -47,7 +59,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous disposez du plan de [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter du [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 

@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connecteur
 navigation-topic: apps-and-their-modules
 title: Modules Adobe Firefly
-description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent  [!DNL Adobe Firefly] et le connecter à plusieurs applications et services tiers.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 37%
+source-wordcount: '1369'
+ht-degree: 34%
 
 ---
 
 # Modules [!DNL Adobe Firefly]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules d’Adobe Firefly ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-firefly-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Firefly] et le connecter à plusieurs applications et services tiers.
 
@@ -114,11 +126,11 @@ Pour créer une connexion pour vos modules [!DNL Adobe Firefly], procédez comme
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Saisissez votre [!UICONTROL Adobe] [!UICONTROL ID client]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de [!DNL Adobe Developer Console].</td>
+        <td>Saisissez votre [!UICONTROL Adobe] [!UICONTROL Client ID]. Vous pouvez le consulter dans la section des détails [!UICONTROL Credentials] de la [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Saisissez votre [!UICONTROL Client Secret] [!DNL Adobe]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de [!DNL Adobe Developer Console].</td>
+        <td>Saisissez votre [!UICONTROL Client Secret] [!DNL Adobe]. Vous pouvez le consulter dans la section des détails [!UICONTROL Credentials] de la [!DNL Adobe Developer Console].</td>
         </tr>
       </tbody>
     </table>
@@ -137,7 +149,7 @@ Si le bouton « Mapper » apparaît au-dessus d’un champ ou d’une fonction
 
 Ce module d’action effectue un appel personnalisé à l’API du Firefly.
 
-Pour connaître les API disponibles spécifiques, reportez-vous à la section [API Adobe Firefly](https://developer.adobe.com/firefly-services/docs/firefly-api/) de la documentation Adobe Developer.
+Pour connaître les API spécifiques disponibles, consultez [API Adobe Firefly](https://developer.adobe.com/firefly-services/docs/firefly-api/) dans la documentation d’Adobe Developer.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -176,9 +188,9 @@ Pour connaître les API disponibles spécifiques, reportez-vous à la section [A
   </tbody>
 </table>
 
-### Développer une image
+### Développement d’une image
 
-Ce module d’action développe une image, éventuellement avec le contenu d’une invite que vous fournissez.
+Ce module d’action développe une image, éventuellement avec du contenu à partir d’une invite que vous fournissez.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -189,34 +201,34 @@ Ce module d’action développe une image, éventuellement avec le contenu d’u
    <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Créer une connexion à [!DNL Adobe Firefly]</a> dans cet article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Invite]</td> 
-   <td>Saisissez ou mappez une invite pour le contenu avec lequel vous souhaitez développer l’image. Si aucune invite n’est fournie, l’image est développée avec du contenu correspondant à l’image d’origine.</td> 
+   <td role="rowheader">[!UICONTROL Prompt]</td> 
+   <td>Saisissez ou mappez une invite pour le contenu avec lequel vous souhaitez développer l’image. Si aucune invite n’est fournie, l’image est développée avec le contenu correspondant à l’image d’origine.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nombre de variations]</td> 
-   <td>Saisissez un nombre compris entre 1 et 4. Le module génère ce nombre de variations d’image étendues.</td> 
+   <td>Entrez un nombre compris entre 1 et 4. Le module génère ce nombre de variations d’image développées.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Format d’image étendu]</td> 
-   <td>Sélectionnez le format de fichier sous lequel l’image étendue sera enregistrée.</td> 
+   <td role="rowheader">[!UICONTROL Format d’image développé]</td> 
+   <td>Sélectionnez le format de fichier sous lequel l’image développée sera enregistrée.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td>  <p>Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom du fichier image et le fichier image (données) du fichier source.</p> </td> 
+   <td>  <p>Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom de fichier image et le fichier image (données) du fichier source.</p> </td> 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Size]</td> 
-   <td>Sélectionnez la taille de l’image étendue.</td> 
+   <td>Sélectionnez la taille de l’image développée.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Seed]</td> 
-   <td>Saisissez ou mappez un entier. Vous pouvez utiliser cette même source dans un autre module Développer une image pour générer une image similaire avec différents styles. </td> 
+   <td>Saisissez ou mappez un entier. Vous pouvez utiliser cette même adresse de contrôle dans un autre module Développer une image pour générer une image similaire avec différents styles. </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Renseignement d’une image
+## Remplir une image
 
 Ce module d’action remplit la zone masquée d’une image, éventuellement avec le contenu d’une invite que vous fournissez.
 
@@ -230,41 +242,41 @@ Ce module d’action remplit la zone masquée d’une image, éventuellement ave
    <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Créer une connexion à [!DNL Adobe Firefly]</a> dans cet article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Invite]</td> 
-   <td>Saisissez ou mappez une invite pour le contenu avec lequel vous souhaitez remplir l’image. Si aucune invite n’est fournie, l’image est remplie avec du contenu correspondant à l’image d’origine.</td> 
+   <td role="rowheader">[!UICONTROL Prompt]</td> 
+   <td>Saisissez ou mappez une invite pour le contenu avec lequel vous souhaitez remplir l’image. Si aucune invite n’est fournie, l’image est remplie avec le contenu correspondant à l’image d’origine.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nombre de variations]</td> 
-   <td>Saisissez un nombre compris entre 1 et 4. Le module génère ce nombre de variations d’image remplies.</td> 
+   <td>Entrez un nombre compris entre 1 et 4. Le module génère ce nombre de variations d’images remplies.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Format d’image rempli]</td> 
+   <td role="rowheader">[!UICONTROL Format d’image plein]</td> 
    <td>Sélectionnez le format de fichier sous lequel l’image remplie sera enregistrée.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Image]</td> 
-   <td>  <p> Cliquez sur <b>Ajouter une image</b>. Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom du fichier image et les données image du fichier source.</p> </td> 
+   <td>  <p> Cliquez sur <b> Ajouter une image </b>. Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom de fichier Image et les données Image du fichier source.</p> </td> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Masque]</td> 
-   <td>  <p> Cliquez sur <b>Ajouter un masque</b>. Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom du fichier de masque et les données de masque du fichier source. Le fichier Masque représente le masque personnalisé qui sera rempli avec le contenu généré.</p> </td> 
+   <td role="rowheader">[!UICONTROL Mask]</td> 
+   <td>  <p> Cliquez sur <b> Ajouter un masque </b>. Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom de fichier de masque et les données de masque du fichier source. Le fichier de masque représente le masque personnalisé qui sera rempli de contenu généré.</p> </td> 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Size]</td> 
-   <td>Sélectionnez la taille de l’image à remplir.</td> 
+   <td>Sélectionnez la taille de l’image remplie.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Seeds]</td> 
-   <td>Pour chaque image que le module va générer, cliquez sur <b>Ajouter un élément<b> et saisissez ou mappez un entier. Vous pouvez utiliser cette même source dans un autre module Développer une image pour générer une image similaire avec différents styles. Le nombre de graines que vous ajoutez doit être égal au champ Nombre de variations .</td> 
+   <td>Pour chaque image que le module va générer, cliquez sur <b>Ajouter un élément<b> et saisissez ou mappez un entier. Vous pouvez utiliser cette même adresse de contrôle dans un autre module Développer une image pour générer une image similaire avec différents styles. Le nombre d’adresses de contrôle que vous ajoutez doit être égal au champ Nombre de variations .</td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Générer une image
 
-Ce module d’action génère une image à partir d’une invite que vous fournissez. Vous pouvez également fournir une image de référence facultative et l’image générée correspond au style de l’image de référence.
+Ce module d’action génère une image et en fonction d’une invite que vous fournissez. Vous pouvez également fournir une image de référence facultative ; l’image générée correspondra au style de l’image de référence.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -275,53 +287,53 @@ Ce module d’action génère une image à partir d’une invite que vous fourni
    <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Créer une connexion à [!DNL Adobe Firefly]</a> dans cet article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Invite]</td> 
+   <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Saisissez ou mappez une invite pour l’image que vous souhaitez créer. Plus de détails dans l’invite vous permettront de mieux contrôler ce qui apparaît dans l’image.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nombre de variations]</td> 
-   <td>Saisissez un nombre compris entre 1 et 4. Le module génère ce nombre de variations d’image.</td> 
+   <td>Entrez un nombre compris entre 1 et 4. Le module génère ce nombre de variations d’image.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Format d’image généré]</td> 
-   <td>Sélectionnez le format de fichier sous lequel l’image étendue sera enregistrée. Si vous sélectionnez la valeur par défaut, le format de fichier sera JPEG si aucune image de référence n’est fournie. Si une image de référence est fournie, le format de fichier de l’image générée est identique à celui de l’image de référence.</td> 
+   <td role="rowheader">[!UICONTROL Generated image format]</td> 
+   <td>Sélectionnez le format de fichier sous lequel l’image développée sera enregistrée. Si vous sélectionnez par défaut, le format du fichier est JPEG si aucune image de référence n’est fournie. Si une image de référence est fournie, le format de fichier de l’image générée est identique à celui de l’image de référence.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td>  <p>Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom du fichier image de référence et le fichier image de référence (données) du fichier source. L’image générée sera créée pour correspondre au style de l’image de référence.</p> </td> 
+   <td>  <p>Sélectionnez un fichier source dans un module précédent ou mappez le nom de fichier image de référence et le fichier image de référence (données) du fichier source. L’image générée est créée pour correspondre au style de l’image de référence.</p> </td> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Paramètres prédéfinis]</td> 
-   <td>Si vous souhaitez utiliser un style prédéfini, cliquez sur Ajouter un élément et saisissez ou mappez le style que vous souhaitez utiliser.<p>Pour obtenir une liste des styles de paramètres prédéfinis, reportez-vous à la section <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-presets/" >Styles de modèle d’image</a> de la documentation destinée aux développeurs d’Adobe.</td> 
+   <td role="rowheader">[!UICONTROL Presets]</td> 
+   <td>Si vous souhaitez utiliser un style prédéfini, cliquez sur Ajouter un élément et saisissez ou mappez le style que vous souhaitez utiliser.<p>Pour obtenir une liste des styles prédéfinis, voir <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-presets/" >Styles de modèle d’image</a> dans la documentation destinée aux développeurs et développeuses d’Adobe.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL invite négative]</td> 
+   <td role="rowheader">[!UICONTROL Invite négative]</td> 
    <td>Saisissez ou mappez les mots à éviter dans le contenu généré. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Classe de contenu]</td> 
-   <td>Choisissez si vous souhaitez que l’image générée ressemble davantage à une photo ou à un art créé. <ul><li><b>Photo</b><p>Saisissez les valeurs des champs Ouverture, Vitesse d’obturation (en secondes) et Champ de vue (en millimètres).</td> 
+   <td role="rowheader">[!UICONTROL Content class]</td> 
+   <td>Choisissez si vous souhaitez que l’image générée ressemble davantage à une photo ou à une illustration créée. <ul><li><b>Photo</b><p>Entrez des valeurs pour l'Ouverture, la Vitesse d'obturation (en secondes) et le champ de vision (en millimètres).</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Seed]</td> 
-   <td>Saisissez ou mappez un entier. Vous pouvez utiliser cette même source dans un autre module Développer une image pour générer une image similaire avec différents styles. </td> 
+   <td>Saisissez ou mappez un entier. Vous pouvez utiliser cette même adresse de contrôle dans un autre module Développer une image pour générer une image similaire avec différents styles. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Size]</td> 
    <td>Sélectionnez la taille de l’image générée.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Force]</td> 
-   <td>Saisissez ou mappez un entier représentant l’intensité avec laquelle l’image générée correspondra au style du style prédéfini ou de l’image de référence. </td> 
+   <td role="rowheader">[!UICONTROL Strength]</td> 
+   <td>Saisissez ou mappez un entier qui représente l’intensité avec laquelle l’image générée correspondra au style du style prédéfini ou de l’image de référence. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Intensité visuelle]</td> 
-   <td>Saisissez ou mappez un entier représentant l’intensité globale des caractéristiques visuelles existantes de la photo. </td> 
+   <td>Saisissez ou mappez un entier qui représente l’intensité globale des caractéristiques visuelles existantes de la photo. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Locale]</td> 
-   <td>Si un paramètre régional est fourni, le module génère du contenu plus pertinent par rapport au paramètre régional spécifié. <p>Les paramètres régionaux doivent être fournis dans le code de langue ISO 639-1 et dans la région ISO 3166-1.</p><p> Exemple : <code>en-US</code></p></td> 
+   <td>Si des paramètres régionaux sont fournis, le module génère du contenu plus pertinent pour les paramètres régionaux spécifiés. <p>Les paramètres régionaux doivent être fournis dans le code de langue ISO 639-1 et la région ISO 3166-1.</p><p> Exemple : <code>en-US</code></p></td> 
   </tr> 
  </tbody> 
 </table>

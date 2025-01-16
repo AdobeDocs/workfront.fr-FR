@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connecteur
 navigation-topic: apps-and-their-modules
 title: Modules AWS S3
-description: Les modules S3 d’ [!DNL Adobe Workfront Fusion AWS]  permettent d’effectuer des opérations sur vos compartiments S3.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 96%
+source-wordcount: '1455'
+ht-degree: 91%
 
 ---
 
 # Modules AWS S3
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules AWS S3](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/aws-s3-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Les modules S3 d’[!DNL Adobe Workfront Fusion AWS] permettent d’effectuer des opérations sur vos compartiments S3.
 
@@ -47,7 +59,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous disposez du plan de [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter du [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -63,9 +75,9 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 
 Pour utiliser les modules [!UICONTROL AWS S3], vous devez disposer d’un compte [!DNL Amazon Web Service].
 
-## Informations sur l’API AWS S3
+## Informations sur l’API S3 d’AWS
 
-Le connecteur AWS S3 utilise les fonctionnalités suivantes :
+Le connecteur AWS S3 utilise les éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +85,7 @@ Le connecteur AWS S3 utilise les fonctionnalités suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader">URL de base</td> 
-   <td>https://s3.&lbrace;&lbrace;parameter.region&rbrace;&rbrace;.amazonaws.com</td> 
+   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">Balise API</td> 

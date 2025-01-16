@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connecteur
 navigation-topic: apps-and-their-modules
 title: Module Adobe Authenticator
-description: Avec le module Adobe Authenticator, vous pouvez vous connecter à n’importe quel produit Adobe à l’aide d’une API, à l’aide d’une connexion unique.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 77%
+source-wordcount: '1278'
+ht-degree: 72%
 
 ---
 
 # Modules Adobe Authenticator
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules Adobe Authenticator](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-authenticator-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Le module Adobe Authenticator vous permet de vous connecter à n’importe quelle API Adobe à l’aide d’une connexion unique. Cela vous permet de vous connecter plus facilement à des produits Adobe qui n’ont pas encore de connecteur Fusion dédié.
 
@@ -173,8 +185,8 @@ Pour créer une connexion, procédez comme suit :
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL URL de base]</td>
-        <td>Vous devez ajouter les URL de base que vous souhaitez que cet authentificateur autorise. Lors de l’utilisation ultérieure du scénario Créer un module d’appel API personnalisé , vous ajouterez un chemin relatif à l’URL choisie. En saisissant ici des URL, vous pouvez contrôler à quoi le module d’appel d’API personnalisé peut se connecter, ce qui renforce la sécurité.<p>Pour chaque URL de base à ajouter à l’authentificateur, cliquez sur <b>Ajouter un élément</b> et saisissez l’URL de base.</td>
+        <td role="rowheader">[!UICONTROL Base URLs]</td>
+        <td>Vous devez ajouter les URL de base que cet authentificateur doit autoriser. Lors de l’utilisation du module « Effectuer un appel API personnalisé » plus loin dans le scénario, vous ajouterez un chemin d’accès relatif à l’URL choisie. En saisissant des URL ici, vous pouvez contrôler à quoi le module Créer un appel API personnalisé peut se connecter, ce qui renforce la sécurité.<p>Pour chaque URL de base que vous souhaitez ajouter à l’authentificateur, cliquez sur <b>Ajouter un élément</b> et saisissez l’URL de base.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Authentication URL]</td>
@@ -200,9 +212,9 @@ Pour créer une connexion, procédez comme suit :
 
 ### Effectuer un appel API personnalisé.
 
-Ce module d’action vous permet d’effectuer un appel à n’importe quelle API Adobe. Il prend en charge les fichiers volumineux, au lieu des corps de texte uniquement.
+Ce module d’action vous permet d’effectuer un appel vers n’importe quelle API Adobe. Il prend en charge les fichiers volumineux, au lieu des corps de texte uniquement.
 
-Ce module a été mis à disposition le 14 novembre 2024. Toute Adobe Authenticator > Effectuer un appel API personnalisé configuré avant cette date ne prend pas en charge les fichiers volumineux et est désormais considéré comme le module Créer un appel API personnalisé (hérité) .
+Ce module a été rendu disponible le 14 novembre 2024. Tout appel Adobe Authenticator > Effectuer un appel API personnalisé configuré avant cette date ne gère pas les fichiers volumineux. Il est désormais considéré comme le module Effectuer un appel API personnalisé (hérité) .
 
 <table>
   <col/>
@@ -249,7 +261,7 @@ Ce module a été mis à disposition le 14 novembre 2024. Toute Adobe Authentica
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body Type]</td>
-   <td> Sélectionnez le type de corps pour cette requête API :
+   <td> Sélectionnez le type de corps de cette requête API :
    <ul>
    <li>application/x-www-form-urlencoded</li>
    <li>Brut</li>
@@ -259,7 +271,7 @@ Ce module a été mis à disposition le 14 novembre 2024. Toute Adobe Authentica
     <tr>
       <td role="rowheader">[!UICONTROL Fields]  </td>
       <td>
-        <p>Pour chaque fichier que vous souhaitez ajouter à la requête APU, cliquez sur <b>Ajouter un élément</b> et saisissez le texte du fichier (pour les données brutes), ou saisissez la clé <code>uploadedFile</code> et mappez les données du fichier.</p>
+        <p>Pour chaque fichier que vous souhaitez ajouter à la requête API, cliquez sur <b>Ajouter un élément</b> et saisissez le texte du fichier (pour les données brutes), ou saisissez le <code>uploadedFile</code> de clé et mappez les données du fichier.</p>
       </td>
     </tr>
     </tr>

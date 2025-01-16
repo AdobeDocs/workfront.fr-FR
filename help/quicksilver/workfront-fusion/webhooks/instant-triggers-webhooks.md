@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Déclencheurs instantanés (webhooks) dans  [!DNL Adobe Workfront Fusion]
-description: De nombreux services proposent des webhooks pour envoyer des notifications instantanées chaque fois que le service est modifié. Pour traiter ces notifications, nous vous recommandons d’utiliser des déclencheurs instantanés. Cet article décrit l’utilisation et la fonctionnalité des déclencheurs instantanés dans Adobe Workfront Fusion.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 100%
+source-wordcount: '971'
+ht-degree: 91%
 
 ---
 
 # Déclencheurs instantanés (webhooks) dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans les articles suivants :
+>
+>* [Déclencheurs instantanés (webhooks)](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/webhooks-reference.html)
+>* [Afficher la file d’attente d’un webhook](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-webhook-queue.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 De nombreux services proposent des webhooks pour envoyer des notifications instantanées chaque fois que le service est modifié. Pour traiter ces notifications, nous vous recommandons d’utiliser des déclencheurs instantanés. Leur balise permet de les reconnaître facilement dans [!DNL Adobe Workfront Fusion] :
 

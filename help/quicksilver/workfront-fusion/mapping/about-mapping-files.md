@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: À propos du mappage de fichiers dans  [!DNL Adobe Workfront Fusion]
-description: Certains modules ont la capacité de traiter des fichiers. Ces modules peuvent soit renvoyer un fichier de sortie à envoyer pour traitement ultérieur, soit exiger qu’un fichier leur soit transmis pour traitement. Avant que ces modules puissent travailler ensemble pour traiter les fichiers, ils doivent être mis en correspondance les uns avec les autres.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 9ed5f176-86d8-4139-b582-c2f58aaed8d4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 84%
 
 ---
 
 # À propos du mappage de fichiers dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Mapper un fichier entre modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-files.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Certains modules ont la capacité de traiter des fichiers. Ces modules peuvent soit renvoyer un fichier de sortie à envoyer pour traitement ultérieur, soit exiger qu’un fichier leur soit transmis pour traitement. Avant que ces modules puissent travailler ensemble pour traiter les fichiers, ils doivent être mis en correspondance les uns avec les autres.
 

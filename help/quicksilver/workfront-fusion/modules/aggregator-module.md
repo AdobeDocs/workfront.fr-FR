@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Module d’agrégation dans Adobe Workfront Fusion
-description: Un module d’agrégation est un type de module conçu pour fusionner plusieurs lots de données en un seul lot.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: cdc32842-8717-4e05-ab19-2661ee14c12c
-source-git-commit: 948fe5fc249e0dcb04655f015c8e46493159c3ed
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 68%
+source-wordcount: '881'
+ht-degree: 61%
 
 ---
 
 # Module d’[!UICONTROL Agrégation] dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Module agrégateur](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/aggregator-module.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Un module d’agrégation est un type de module conçu pour fusionner plusieurs lots de données en un seul lot.
 
@@ -81,12 +93,12 @@ L’illustration suivante présente une configuration standard du module d’[!U
  <tbody> 
   <tr> 
    <td> <p>[!UICONTROL Source Module]</p> </td> 
-   <td> <p>Module de démarrage de l’agrégation du lot. Le module source est généralement un itérateur ou un module de recherche qui génère une série de lots.</p><p>Lorsque vous configurez le module source de l’agrégateur (et fermez la configuration de l’agrégateur), l’itinéraire entre le module source et le module de l’agrégateur est encadré dans une zone grise afin que vous puissiez voir clairement le début et la fin de l’agrégation. 
+   <td> <p>Module où commence l’agrégation des lots. Le module source est généralement un itérateur ou un module de recherche qui génère une série de lots.</p><p>Lorsque vous configurez le module source de l’agrégateur (et fermez la configuration de l’agrégateur), l’itinéraire entre le module source et le module de l’agrégateur est encadré dans une zone grise afin que vous puissiez voir clairement le début et la fin de l’agrégation. 
    </p> <p>Pour plus d’informations sur les itérateurs, voir <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">Module [!UICONTROL Iterator] dans [!DNL Adobe Workfront Fusion]</a>.</p> <p>Pour plus d’informations sur les modules de recherche, voir Modules de recherche dans <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">Types de modules</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Target structure type]</p> </td> 
-   <td> <p>(Applicable uniquement au module [!UICONTROL Array aggregator]). Structure cible dans laquelle les données sont agrégées. L’option par défaut, [!UICONTROL Personnalisé], vous permet de choisir les éléments qui doivent être agrégés dans l’élément <code>Array </code>de l’agrégateur de tableau [!UICONTROL] :</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>Une fois que vous avez connecté plus de modules après le module [!UICONTROL Array aggator] et que vous êtes revenu à la configuration du module, le menu déroulant de type de structure [!UICONTROL Target] contient tous les modules suivants et leurs champs qui sont de type "Tableau de collections", comme illustré dans le champ [!UICONTROL Pièces jointes] du module [!DNL Slack] &gt;[!UICONTROL Créer un message] :</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
+   <td> <p>(Applicable uniquement au module [!UICONTROL Array aggregator].) Structure cible dans laquelle les données sont agrégées. L'option par défaut, [!UICONTROL Custom], vous permet de choisir les éléments qui doivent être agrégés dans l'élément <code>Array </code> du lot de sortie de l'[!UICONTROL Array aggregator] :</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>Une fois que vous avez connecté d’autres modules après le module [!UICONTROL Array aggregator] et que vous êtes revenu à la configuration du module, le menu déroulant [!UICONTROL Target] type de structure contient tous les modules suivants et leurs champs qui sont de type « Tableau de collections », comme indiqué dans le champ [!UICONTROL Attachments] du module [!DNL Slack] &gt;[!UICONTROL Create a Message] :</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Aggregated fields]</td> 
@@ -114,19 +126,19 @@ L’illustration suivante présente une configuration standard du module d’[!U
 
 ## Exemple de scénario de fonctionnement des agrégateurs
 
-Cet exemple de scénario montre comment compresser toutes les pièces jointes d’email et télécharger le fichier ZIP vers [!DNL Dropbox].
+Cet exemple de scénario montre comment compresser toutes les pièces jointes d’e-mail et charger le fichier ZIP vers [!DNL Dropbox].
 
 ![](assets/dropbox-archive-350x87.png)
 
 Le scénario ci-dessous montre comment :
 
-* Le premier module surveille une boîte aux lettres pour les emails entrants : le déclencheur [!UICONTROL Email] >[!UICONTROL Watch emails] génère un lot avec l’élément `Attachments[]`, qui est un tableau contenant toutes les pièces jointes de l’email.
+* Le premier module recherche les e-mails entrants dans une boîte aux lettres : le déclencheur [!UICONTROL E-mail] >[!UICONTROL Surveiller les e-mails] génère un lot avec l’élément `Attachments[]`, qui est un tableau contenant toutes les pièces jointes de l’e-mail.
 
-* Le deuxième modèle itère les pièces jointes de l&#39;email : [!UICONTROL Email] >[!UICONTROL Itérer les pièces jointes] récupère les éléments du tableau `Attachments[]` un par un et les envoie en tant que lots distincts.
+* Le deuxième modèle itère les pièces jointes de l’e-mail : [!UICONTROL E-mail] >[!UICONTROL Itérer les pièces jointes] l’itérateur prend les éléments du tableau `Attachments[]` un par un et les envoie en tant que lots distincts.
 
-* Le troisième module agrège les lots générés par le module [!UICONTROL Email] >[!UICONTROL Itérer les pièces jointes] : [!UICONTROL Archive] >[!UICONTROL Créer un agrégateur d’archive] accumule tous les lots qu’il reçoit et génère un seul lot contenant le fichier ZIP.
+* Le troisième module agrège les lots générés par le module [!UICONTROL E-mail] >[!UICONTROL Itération des pièces jointes] : [!UICONTROL Archive] >[!UICONTROL Créer un agrégateur d’archives] accumule tous les lots qu’il reçoit et génère un seul lot contenant le fichier ZIP.
 
-* Le dernier module charge le fichier ZIP obtenu sur [!DNL Dropbox] : [!DNL Dropbox] > [!UICONTROL Télécharger un fichier] obtient le fichier ZIP à partir du module [!UICONTROL Archive] > [!UICONTROL Créer une archive] et le charge vers [!DNL Dropbox].
+* Le dernier module charge le fichier ZIP obtenu dans [!DNL Dropbox] : [!DNL Dropbox] > [!UICONTROL Charger un fichier] récupère le fichier ZIP à partir du module [!UICONTROL Archiver] > [!UICONTROL Créer une archive] et le charge dans [!DNL Dropbox].
 
 
 

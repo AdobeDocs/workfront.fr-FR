@@ -4,19 +4,29 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Modules dans  [!DNL Adobe]  Workfront Fusion
-description: Les articles répertoriés ici décrivent des modules spécifiques et leurs fonctionnalités dans  [!DNL Adobe Workfront Fusion].
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: b50b918c-7c74-442c-a91a-3f313d40d00b
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 44%
 
 ---
 
 # Modules dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Consultez les articles individuels pour obtenir des liens vers la nouvelle documentation.
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Cette section contient les articles suivants :
 

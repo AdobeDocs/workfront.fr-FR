@@ -4,29 +4,41 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connecteur
 navigation-topic: apps-and-their-modules
-title: Modules Panoramas Adobe Workfront
-description: Vous pouvez utiliser le connecteur des panoramas Adobe Workfront pour automatiser vos processus au sein des panoramas Workfront et les connecter à des applications et services tiers.
+title: Modules des tableaux Adobe Workfront
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2647'
-ht-degree: 19%
+source-wordcount: '2699'
+ht-degree: 18%
 
 ---
 
-# [!DNL Adobe Workfront] modules de panoramas
+# Modules des tableaux [!DNL Adobe Workfront]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules des tableaux Adobe Workfront](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-boards-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 >[!NOTE]
 >
->Le connecteur de fusion des panoramas est en version bêta. Par conséquent, la prise en charge de ce connecteur est limitée et peut changer en raison du développement futur des panoramas. En outre, des modifications peuvent être apportées à l’API GraphQL sans préavis, ce qui peut avoir une incidence sur votre processus de connecteur Fusion.
+>Le connecteur Boards Fusion est en version bêta. Par conséquent, la prise en charge de ce connecteur est limitée et peut changer en raison du développement futur des tableaux. En outre, des modifications apportées sans préavis à l’API GraphQL peuvent avoir une incidence sur votre processus Fusion Connector.
 
 Les panoramas Adobe Workfront sont des outils flexibles qui permettent aux équipes de collaborer entre elles. Ils permettent d’accéder à un panorama partagé contenant des colonnes et des cartes.
 
-Vous pouvez utiliser les modules Panoramas Adobe Workfront pour lire ou mettre à jour des enregistrements, effectuer un appel API vers l’API Panoramas Workfront ou déclencher un scénario lorsqu’une action se produit sur un panorama.
+Vous pouvez utiliser les modules des tableaux Adobe Workfront pour lire ou mettre à jour des enregistrements, effectuer un appel API vers l’API des tableaux Workfront ou déclencher un scénario lorsqu’une action se produit sur un tableau.
 
-Pour obtenir des informations générales sur les panoramas Workfront, consultez la [présentation des panoramas](/help/quicksilver/agile/boards-overview.md).
+Pour obtenir des informations générales sur les tableaux Workfront, voir [Présentation des tableaux](/help/quicksilver/agile/boards-overview.md).
 
 ## Conditions d’accès
 
@@ -55,7 +67,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous disposez du plan de [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter du [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -72,9 +84,9 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 Vous devez avoir configuré un panorama dans Adobe Workfront avant de pouvoir vous y connecter.
 
-## Informations sur l’API des panoramas Adobe Workfront
+## Informations sur l’API des tableaux Adobe Workfront
 
-Le connecteur des panoramas Adobe Workfront utilise les éléments suivants :
+Le connecteur Adobe Workfront Boards utilise les éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,18 +94,18 @@ Le connecteur des panoramas Adobe Workfront utilise les éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader">Balise API</td> 
-   <td>1.23.6</td> 
+   <td>v1.23.6</td> 
   </tr>
  </tbody> 
  </table>
 
-## Création d’une connexion aux panoramas Workfront
+## Création d’une connexion aux tableaux Workfront
 
 >[!NOTE]
 >
->Vous pouvez utiliser une connexion Workfront pour vous connecter aux panoramas Workfront ou créer une connexion à des panoramas Workfront distincte.
+>Vous pouvez utiliser une connexion Workfront pour vous connecter aux tableaux Workfront ou créer une connexion aux tableaux Workfront distincte.
 
-Pour créer une connexion aux panoramas Workfront :
+Pour créer une connexion aux tableaux Workfront :
 
 1. Dans un module [!DNL Adobe Workfront Boards], cliquez sur **[!UICONTROL Ajouter]** en regard de la zone Connexion.
 
@@ -133,15 +145,15 @@ Pour créer une connexion aux panoramas Workfront :
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Host prefix]</td>
-          <td>Saisissez votre préfixe d’hôte.<p>La valeur par défaut est <code>origin-</code>.</p>
+          <td>Saisissez votre préfixe hôte.<p>La valeur par défaut est <code>origin-</code>.</p>
         </tr>
       </tbody>
     </table>
 1. Cliquez sur **[!UICONTROL Continuer]** pour enregistrer la connexion et revenir au module.
 
-## Modules des panoramas Adobe Workfront et leurs champs
+## Modules des tableaux Adobe Workfront et leurs champs
 
-Lorsque vous configurez les modules Panoramas Workfront, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de cela, d’autres champs de panoramas Workfront peuvent s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez les modules des tableaux Workfront, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. D’autres champs de tableaux Workfront peuvent également s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
 Si le bouton « Mapper » apparaît au-dessus d’un champ ou d’une fonction, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mapper des informations d’un module à l’autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -205,12 +217,12 @@ After the webhook is created, you can view the address of the endpoint that even
 * [Ajouter une sous-tâche](#add-subtask)
 * [Création d’une carte](#create-a-card)
 * [Déplacer une carte](#move-a-card)
-* [Lecture d’une carte](#read-a-card)
-* [Mettre à jour une carte](#update-a-card)
+* [Lire une carte](#read-a-card)
+* [Mise à jour d’une carte](#update-a-card)
 
 #### Ajouter un élément de la liste de contrôle
 
-Ce module d’action ajoute un élément de liste de contrôle à la carte spécifiée.
+Ce module d’action ajoute un élément de liste de contrôle à la vignette spécifiée.
 
 <table style="table-layout:auto">
  <col> 
@@ -218,22 +230,22 @@ Ce module d’action ajoute un élément de liste de contrôle à la carte spéc
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
-   <td>Saisissez ou mappez l’identifiant de la carte à laquelle vous souhaitez ajouter un élément de liste de contrôle.<p>L’ID de carte figure dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’identifiant de la carte à laquelle vous souhaitez ajouter un élément de liste de contrôle.<p>L’ID de la carte se trouve dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Éléments de liste de contrôle]</td> 
-   <td>Pour chaque élément de liste de contrôle à ajouter, cliquez sur Ajouter un élément, saisissez le nom de l’élément de liste de contrôle, puis indiquez si l’élément a été terminé.</p></td> 
+   <td>[!UICONTROL Checklist items]</td> 
+   <td>Pour chaque élément de la liste de contrôle que vous souhaitez ajouter, cliquez sur Ajouter un élément, saisissez le nom de l’élément de la liste de contrôle et indiquez si l’élément est terminé.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Ajouter une sous-tâche
 
-Ce module d’action ajoute une sous-tâche à une carte dans les panoramas. La carte doit être une carte connectée. La sous-tâche est également ajoutée à la tâche Workfront représentée par la carte.
+Ce module d’action ajoute une sous-tâche à une carte dans les tableaux. La carte doit être connectée. La sous-tâche est également ajoutée à la tâche Workfront que la carte représente.
 
 <table style="table-layout:auto">
  <col> 
@@ -241,15 +253,15 @@ Ce module d’action ajoute une sous-tâche à une carte dans les panoramas. La 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ID de carte parente]</td> 
-   <td>Saisissez ou mappez l’identifiant de la carte à laquelle vous souhaitez ajouter une sous-tâche.<p>L’ID de carte figure dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
+   <td>[!UICONTROL ID de carte parent]</td> 
+   <td>Saisissez ou mappez l’identifiant de la carte à laquelle vous souhaitez ajouter une sous-tâche.<p>L’ID de la carte se trouve dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
-   <td>Saisissez ou mappez l’identifiant du panorama contenant la carte à laquelle vous souhaitez ajouter une sous-tâche.<p>L’identifiant du panorama figure dans l’URL lors de son affichage dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’ID du panorama contenant la carte à laquelle vous souhaitez ajouter une sous-tâche.<p>L’ID du panorama se trouve dans l’URL lors de l’affichage du panorama dans Workfront.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Name]</td> 
@@ -260,7 +272,7 @@ Ce module d’action ajoute une sous-tâche à une carte dans les panoramas. La 
 
 #### Création d’une carte
 
-Ce module d’action crée une carte sur un panorama Workfront.
+Ce module d’action permet de créer une carte sur un panorama Workfront.
 
 <table style="table-layout:auto">
  <col> 
@@ -268,15 +280,15 @@ Ce module d’action crée une carte sur un panorama Workfront.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
-   <td>Saisissez ou mappez l’identifiant du panorama auquel vous souhaitez ajouter une carte.<p>L’identifiant du panorama figure dans l’URL lors de son affichage dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’ID du panorama auquel vous souhaitez ajouter une carte.<p>L’ID du panorama se trouve dans l’URL lors de l’affichage du panorama dans Workfront.</p></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ID de colonne]</td> 
-   <td>Saisissez ou mappez l’identifiant de la colonne à laquelle vous souhaitez ajouter une sous-tâche.<p>L’identifiant de colonne figure dans les informations renvoyées à partir du module Lecture d’un panorama .</p></td> 
+   <td>[!UICONTROL Column ID]</td> 
+   <td>Saisissez ou mappez l’identifiant de la colonne à laquelle vous souhaitez ajouter une sous-tâche.<p>L’ID de colonne se trouve dans les informations renvoyées par le module Lecture de tableau .</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Name]</td> 
@@ -287,7 +299,7 @@ Ce module d’action crée une carte sur un panorama Workfront.
 
 #### Déplacer une carte
 
-Ce module d’action déplace une carte vers une colonne différente sur le même panorama.
+Ce module d’action déplace une carte vers une autre colonne du même panorama.
 
 <table style="table-layout:auto">
  <col> 
@@ -295,28 +307,28 @@ Ce module d’action déplace une carte vers une colonne différente sur le mêm
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
-   <td>Saisissez ou mappez l’identifiant de la carte que vous souhaitez déplacer.<p>L’ID de carte figure dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’ID de la carte à déplacer.<p>L’ID de la carte se trouve dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
-   <td>Saisissez ou mappez l’identifiant du panorama qui contient la carte que vous souhaitez déplacer.<p>L’ID de carte figure dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’ID du panorama contenant la carte à déplacer.<p>L’ID de la carte se trouve dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de colonne de destination]</td> 
-   <td>Saisissez ou mappez l’identifiant de la colonne vers laquelle vous souhaitez déplacer la carte.<p>L’identifiant de colonne figure dans les informations renvoyées à partir du module Lecture d’un panorama .</p></td> 
+   <td>Saisissez ou mappez l’identifiant de la colonne vers laquelle vous souhaitez déplacer la carte.<p>L’ID de colonne se trouve dans les informations renvoyées par le module Lecture de tableau .</p></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Pour indexer]</td> 
-   <td>Saisissez ou mappez la position que vous souhaitez que la carte occupe dans la nouvelle colonne.<p>Position supérieure dans la colonne de l’index 0.</p></td> 
+   <td>[!UICONTROL To index]</td> 
+   <td>Saisissez ou mappez la position que la carte doit avoir dans la nouvelle colonne.<p>Position supérieure dans la colonne de l'index 0.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Lecture d’une carte
+#### Lire une carte
 
 Ce module d’action récupère des informations sur une carte spécifique.
 
@@ -326,18 +338,18 @@ Ce module d’action récupère des informations sur une carte spécifique.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
-   <td>Saisissez ou mappez l’identifiant de la carte que vous souhaitez lire.<p>L’ID de carte figure dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’identifiant de la carte que vous souhaitez lire.<p>L’ID de la carte se trouve dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Mettre à jour une carte
+#### Mise à jour d’une carte
 
-Ce module d’action met à jour les informations relatives à une carte que vous spécifiez.
+Ce module d’action met à jour les informations d’une carte que vous spécifiez.
 
 <table style="table-layout:auto">
  <col> 
@@ -345,15 +357,15 @@ Ce module d’action met à jour les informations relatives à une carte que vou
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
-   <td>Saisissez ou mappez l’identifiant de la carte à mettre à jour.<p>L’ID de carte figure dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’identifiant de la carte à mettre à jour.<p>L’ID de la carte se trouve dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
-   <td>Saisissez ou mappez l’identifiant du panorama qui contient la carte à mettre à jour.<p>L’ID de carte figure dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’ID du panorama contenant la carte à mettre à jour.<p>L’ID de la carte se trouve dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Name]</td> 
@@ -373,7 +385,7 @@ Ce module d’action met à jour les informations relatives à une carte que vou
 
 #### Créer un panorama
 
-Ce module d’action crée un panorama dans Workfront. Vous pouvez spécifier le type de panorama à créer.
+Ce module d’action crée un panorama dans Workfront. Vous pouvez indiquer le type de panorama à créer.
 
 <table style="table-layout:auto">
  <col> 
@@ -381,10 +393,10 @@ Ce module d’action crée un panorama dans Workfront. Vous pouvez spécifier le
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Nom du panorama]</td> 
+   <td>[!UICONTROL Board name]</td> 
    <td>Saisissez ou mappez un nom pour le nouveau panorama.</td> 
   </tr> 
   <tr> 
@@ -396,7 +408,7 @@ Ce module d’action crée un panorama dans Workfront. Vous pouvez spécifier le
 
 #### Lire un panorama
 
-Ce module d’action renvoie des informations sur un seul panorama, telles que les cartes, colonnes, balises et membres du panorama.
+Ce module d’action renvoie des informations sur un tableau, telles que les cartes, les colonnes, les balises et les membres du tableau.
 
 <table style="table-layout:auto">
  <col> 
@@ -404,24 +416,24 @@ Ce module d’action renvoie des informations sur un seul panorama, telles que l
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
-   <td>Saisissez ou mappez l’identifiant du panorama pour lequel vous souhaitez récupérer des informations.<p>L’identifiant du panorama figure dans l’URL lors de son affichage dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’ID du panorama pour lequel vous souhaitez récupérer des informations.<p>L’ID du panorama se trouve dans l’URL lors de l’affichage du panorama dans Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Colonnes
 
-* [Création d’une colonne](#create-a-column)
-* [Recherche d’une colonne](#search-for-a-column)
-* [Mettre à jour une colonne](#update-a-column)
+* [Créer une colonne](#create-a-column)
+* [Rechercher une colonne](#search-for-a-column)
+* [Mise à jour d’une colonne](#update-a-column)
 
-#### Création d’une colonne
+#### Créer une colonne
 
-Ce module d’action crée une nouvelle colonne sur le panorama spécifié.
+Ce module d’action crée une colonne sur le panorama spécifié.
 
 <table style="table-layout:auto">
  <col> 
@@ -429,28 +441,28 @@ Ce module d’action crée une nouvelle colonne sur le panorama spécifié.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
-   <td>Saisissez ou mappez l’identifiant du panorama auquel vous souhaitez ajouter une colonne.<p>L’identifiant du panorama figure dans l’URL lors de son affichage dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’identifiant du panorama auquel vous souhaitez ajouter une colonne.<p>L’ID du panorama se trouve dans l’URL lors de l’affichage du panorama dans Workfront.</p></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ID de colonne]</td> 
-   <td>Saisissez ou mappez l'identifiant de la colonne que vous souhaitez mettre à jour.<p>L’identifiant de colonne figure dans les informations renvoyées à partir du module Lecture d’un panorama .</p></td> 
+   <td>[!UICONTROL Column ID]</td> 
+   <td>Saisissez ou mappez l’identifiant de la colonne à mettre à jour.<p>L’ID de colonne se trouve dans les informations renvoyées par le module Lecture de tableau .</p></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Nom de la colonne]</td> 
+   <td>[!UICONTROL Nom de colonne]</td> 
    <td>Saisissez ou mappez un nouveau nom pour la colonne.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Limite de travaux en cours]</td> 
+   <td>[!UICONTROL WIP Limit]</td> 
    <td>Saisissez ou mappez une nouvelle limite de travail en cours pour la colonne.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Recherche d’une colonne
+#### Rechercher une colonne
 
 Ce module de recherche renvoie des informations sur la colonne portant le nom spécifié.
 
@@ -460,11 +472,11 @@ Ce module de recherche renvoie des informations sur la colonne portant le nom sp
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
-   <td>Saisissez ou mappez l’identifiant du panorama qui contient la colonne que vous souhaitez récupérer.<p>L’identifiant du panorama figure dans l’URL lors de son affichage dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’identifiant du panorama contenant la colonne à récupérer.<p>L’ID du panorama se trouve dans l’URL lors de l’affichage du panorama dans Workfront.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Nom de colonne]</td> 
@@ -473,9 +485,9 @@ Ce module de recherche renvoie des informations sur la colonne portant le nom sp
  </tbody> 
 </table>
 
-#### Mettre à jour une colonne
+#### Mise à jour d’une colonne
 
-Ce module d’action met à jour la limite de nom ou de travail en cours de la colonne spécifiée.
+Ce module d&#39;action met à jour le nom ou la limite des travaux en cours de la colonne spécifiée.
 
 <table style="table-layout:auto">
  <col> 
@@ -483,11 +495,11 @@ Ce module d’action met à jour la limite de nom ou de travail en cours de la c
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
-   <td>Saisissez ou mappez l’identifiant du panorama qui contient la colonne que vous souhaitez récupérer.<p>L’identifiant du panorama figure dans l’URL lors de son affichage dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’identifiant du panorama contenant la colonne à récupérer.<p>L’ID du panorama se trouve dans l’URL lors de l’affichage du panorama dans Workfront.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Nom de colonne]</td> 
@@ -499,7 +511,7 @@ Ce module d’action met à jour la limite de nom ou de travail en cours de la c
 ### Balises
 
 * [Ajouter une balise à une carte](#add-card-tag)
-* [Création d’une balise](#create-a-tag)
+* [Créer une balise](#create-a-tag)
 
 #### Ajouter une balise à une carte
 
@@ -511,26 +523,26 @@ Ce module d’action ajoute une balise à une carte.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
-   <td>Saisissez ou mappez l’identifiant de la carte à laquelle vous souhaitez ajouter une balise.<p>L’ID de carte figure dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’identifiant de la carte à laquelle vous souhaitez ajouter une balise.<p>L’ID de la carte se trouve dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
-   <td>Saisissez ou mappez l’identifiant du panorama contenant la carte à laquelle vous souhaitez ajouter une balise.<p>L’identifiant du panorama figure dans l’URL lors de son affichage dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’identifiant du panorama contenant la carte à laquelle vous souhaitez ajouter une balise.<p>L’ID du panorama se trouve dans l’URL lors de l’affichage du panorama dans Workfront.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tag ID]</td> 
-   <td>Saisissez ou mappez l’identifiant de la balise à ajouter.<p>Vous trouverez l’ID de balise dans les informations renvoyées à partir du module Lire un panorama .</p></td> 
+   <td>Saisissez ou mappez l’identifiant de la balise que vous souhaitez ajouter.<p>L’ID de balise se trouve dans les informations renvoyées par le module Lecture de tableau .</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Création d’une balise
+#### Créer une balise
 
-Ce module d’action crée une balise et lui attribue une couleur.
+Ce module d’action crée une balise et lui affecte une couleur.
 
 <table style="table-layout:auto">
  <col> 
@@ -538,18 +550,18 @@ Ce module d’action crée une balise et lui attribue une couleur.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
-   <td>Saisissez ou mappez l’identifiant du panorama pour lequel vous souhaitez créer une balise.<p>L’identifiant du panorama figure dans l’URL lors de son affichage dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’identifiant du panorama pour lequel vous souhaitez créer une balise.<p>L’ID du panorama se trouve dans l’URL lors de l’affichage du panorama dans Workfront.</p></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Nom de balise]</td> 
+   <td>[!UICONTROL Tag name]</td> 
    <td>Saisissez ou mappez le nom de la nouvelle balise.</p></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Couleur de balise]</td> 
+   <td>[!UICONTROL Tag Color]</td> 
    <td>Sélectionnez la couleur de cette balise.</td> 
   </tr> 
  </tbody> 
@@ -558,7 +570,7 @@ Ce module d’action crée une balise et lui attribue une couleur.
 ### Commentaires
 
 * [Créer un commentaire](#create-a-comment)
-* [Lire les commentaires de carte](#read-card-comments)
+* [Lire les commentaires de la carte](#read-card-comments)
 
 #### Créer un commentaire
 
@@ -570,20 +582,20 @@ Ce module d’action a créé un commentaire sur la carte spécifiée.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
-   <td>Saisissez ou mappez l’identifiant de la carte à laquelle vous souhaitez ajouter un commentaire.<p>L’ID de carte figure dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’identifiant de la carte à laquelle vous souhaitez ajouter un commentaire.<p>L’ID de la carte se trouve dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Comment]</td> 
-   <td>Saisissez ou mappez le texte du commentaire à ajouter.</p></td> 
+   <td>Saisissez ou mappez le texte du commentaire que vous souhaitez ajouter.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Lire les commentaires de carte
+#### Lire les commentaires de la carte
 
 Ce module d’action récupère les commentaires de la carte spécifiée.
 
@@ -593,15 +605,15 @@ Ce module d’action récupère les commentaires de la carte spécifiée.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
-   <td>Saisissez ou mappez l’identifiant de la carte pour laquelle vous souhaitez récupérer les commentaires.<p>L’ID de carte figure dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
+   <td>Saisissez ou mappez l’identifiant de la carte pour laquelle vous souhaitez récupérer les commentaires.<p>L’ID de la carte se trouve dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limit]</td> 
-   <td>Saisissez le nombre maximal de commentaires que le module doit renvoyer dans un cycle d’exécution.</p></td> 
+   <td>Saisissez le nombre maximal de commentaires que le module doit renvoyer au cours d'un cycle d'exécution.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -610,7 +622,7 @@ Ce module d’action récupère les commentaires de la carte spécifiée.
 
 #### Effectuer un appel API personnalisé.
 
-Ce module d’action effectue un appel personnalisé à l’API des panoramas Workfront.
+Ce module d’action effectue un appel personnalisé à l’API Workfront Boards.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -618,7 +630,7 @@ Ce module d’action effectue un appel personnalisé à l’API des panoramas Wo
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour plus d'informations sur la connexion de votre application [!DNL Workfront] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d'une connexion aux panoramas Workfront</a> de cet article.</p> </td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux tableaux Workfront ou une connexion aux tableaux Workfront spécifique. </p><p>Pour plus d’informations sur la connexion de votre application [!DNL Workfront] aux [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux tableaux Workfront</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -634,15 +646,15 @@ Ce module d’action effectue un appel personnalisé à l’API des panoramas Wo
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> <p>Pour les panoramas Workfront, cette section est généralement laissée vide.</p>  </td> 
+   <td> <p>Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> <p>Pour les tableaux Workfront, cette section est généralement laissée vide.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un graphique JSON incorporé. </p> <p>Exemple :</p><p>Cet exemple met à jour un nom de colonne. Vous pouvez inclure les <code>boardId</code> et <code>columnId</code> comme GUID codés en dur ou mappés à partir d’un module précédent.<p><pre>{
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un Graphql incorporé JSON </p> <p>Exemple :</p><p>Cet exemple montre comment mettre à jour le nom d'une colonne. Vous pouvez inclure les <code>boardId</code> et <code>columnId</code> en tant que GUID codés en dur ou mappés à partir d’un module précédent.<p><pre>{
 
-  &quot;query&quot;: &quot;mutation { updateColumn(boardId: \&quot;\&quot;, columnId: \&quot;\&quot;, updateColumnInput: { name: \&quot;\&quot; }) { id name }}&quot;
+  « query »: « mutation { updateColumn(boardId: \« \ », columnId: \« \ », updateColumnInput: { name: \« \ » }) { id name }} »
 
-}</pre><p>Note :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p>
+}</pre><p>Note :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle .</p>
 <div class="example" data-mc-autonum="<b>Example: </b>">
 <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p>
 </div> </p> </td>

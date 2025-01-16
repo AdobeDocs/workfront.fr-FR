@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Modèles Adobe Workfront Fusion actuellement disponibles
-description: Les modèles publics suivants sont actuellement disponibles dans Adobe Workfront Fusion.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 94%
+source-wordcount: '1323'
+ht-degree: 88%
 
 ---
 
 # Modèles Adobe Workfront Fusion actuellement disponibles
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modèles Adobe Workfront Fusion actuellement disponibles](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/currently-available-fusion-templates.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Les modèles publics suivants sont actuellement disponibles dans Adobe Workfront Fusion.
 
@@ -34,7 +46,7 @@ Ce modèle de fusion crée une liste de contrôle standard pour toutes les carte
 
 <!--new Aug 1. 2024-->
 
-Ce scénario est déclenché par un nouveau projet en cours de création. Avec ce scénario, vous pouvez créer un panorama nommé en fonction du projet, renommer ou créer des colonnes en fonction de vos besoins, créer des balises personnalisées et associer un filtre de colonne d’entrée au projet d’origine.  Des milliers de modifications supplémentaires peuvent être apportées, mais à partir de là, vous verrez les possibilités de créer un point de départ pour la normalisation du conseil d’administration de votre organisation.
+Ce scénario est déclenché par la création d’un projet. Avec ce scénario, vous pouvez créer un panorama nommé en fonction du projet, renommer ou créer des colonnes en fonction de vos besoins, créer des balises personnalisées et associer un filtre de colonne d’entrée au projet d’origine.  Des milliers de modifications supplémentaires pourraient être apportées, mais en commençant ici, vous verrez les possibilités de créer un point de départ pour la normalisation des conseils d’administration de votre organisation.
 
 ### Workfront - Création de projets à partir d’un fichier CSV
 

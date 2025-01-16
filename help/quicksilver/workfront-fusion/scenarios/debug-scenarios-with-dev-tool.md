@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Déboguer des scénarios avec le DevTool d’Adobe Workfront Fusion
-description: Le Devtool d’Adobe Workfront Fusion vous permet de comprendre des scénarios et de résoudre les problèmes qui y sont liés. Le Devtool ajoute un panneau supplémentaire aux outils de développement Chrome. Grâce à ce panneau du débogueur, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, réviser toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, quelle opération ou quelle réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1858'
-ht-degree: 100%
+source-wordcount: '1861'
+ht-degree: 95%
 
 ---
 
 # Déboguer les scénarios avec le Devtool d’[!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Déboguer un scénario](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/debug-a-scenario.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Le Devtool d’[!DNL Adobe Workfront Fusion] vous permet de comprendre des scénarios et de résoudre les problèmes qui y sont liés. Le Devtool ajoute un panneau supplémentaire aux [!DNL Chrome Developer Tools]. Grâce à ce panneau du débogueur, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, réviser toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, quelle opération ou quelle réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
 
@@ -25,7 +37,7 @@ Le Devtool d’[!DNL Adobe Workfront Fusion] vous permet de comprendre des scén
 Pour une vidéo d’introduction et une présentation de l’outil Fusion Devtool, voir
 
 * [Outil de développement Fusion](https://video.tv.adobe.com/v/3427031/){target=_blank}.
-* [Présentation du Devtool](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough)
+* [Présentation du Devtool](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html)
 
 ## Conditions d’accès
 

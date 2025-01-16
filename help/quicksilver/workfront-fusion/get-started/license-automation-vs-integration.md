@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Licences Adobe Workfront Fusion
-description: Adobe Workfront Fusion propose deux licences qui donnent accès à différentes fonctionnalités. Votre entreprise a choisi l’une de ces licences lorsqu’elle a acheté Workfront Fusion.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 1b90566477eb57b97f3484ed7f0eeed5c88c495f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 88%
 
 ---
 
 # Licences [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Licences Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 [!DNL Workfront Fusion] comporte deux modèles d’attribution de licence, un nouveau modèle basé sur les opérations et un modèle basé sur les connecteurs hérités.
 

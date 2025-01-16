@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Vue d’ensemble d’Adobe Workfront Fusion
-description: Le rôle d’ [!DNL Adobe Workfront Fusion]  est d’automatiser vos processus afin que vous puissiez vous concentrer sur de nouvelles tâches plutôt que de répéter les mêmes tâches en boucle. La plateforme fonctionne en liant les actions dans et entre les applications et les services pour créer un scénario qui transfère et transforme vos données automatiquement. Le scénario que vous créez recherche les données dans une application ou un service et traite ces données pour obtenir le résultat souhaité.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: 6c55cb0ad06e25f9ab3b7c483aada91c701f56f1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 55%
+source-wordcount: '469'
+ht-degree: 40%
 
 ---
 
-# Vue d’ensemble [!DNL Adobe Workfront Fusion]
+# Vue d’ensemble du [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 ## Conditions d’accès
 
@@ -58,15 +70,15 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 ## Vue d’ensemble de Workfront Fusion
 
-[!DNL Adobe Workfront Fusion] a pour rôle d’automatiser vos processus afin que vos utilisateurs n’aient pas à passer autant de temps sur des tâches de routine. La plateforme fonctionne en liant les actions dans et entre les applications et les services pour créer un scénario qui transfère et transforme vos données automatiquement. Le scénario que vous créez recherche les données dans une application ou un service et traite ces données pour obtenir le résultat souhaité.
+Le rôle de [!DNL Adobe Workfront Fusion] est d’automatiser vos processus afin que vos utilisateurs n’aient pas besoin de passer autant de temps sur des tâches de routine. La plateforme fonctionne en liant les actions dans et entre les applications et les services pour créer un scénario qui transfère et transforme vos données automatiquement. Le scénario que vous créez recherche les données dans une application ou un service et traite ces données pour obtenir le résultat souhaité.
 
-Un scénario dans Workfront Fusion représente un workflow spécifique. Par exemple, un scénario très simple peut surveiller une file d’attente de requêtes Workfront spécifique pour les requêtes, puis convertir automatiquement ces requêtes en projets à l’aide d’un modèle.
+Un scénario dans Workfront Fusion représente un workflow spécifique. Par exemple, un scénario très simple pourrait regarder une file d’attente de demandes Workfront spécifique pour les demandes, puis convertir automatiquement ces demandes en projets à l’aide d’un modèle.
 
-Il est possible de créer des scénarios afin de répondre à des situations et des cas d’utilisation très spécifiques. Vous pouvez utiliser des filtres pour modifier l’action en fonction des champs de données ou des propriétés, effectuer une itération dans les fichiers ou les données, enregistrer les données dans un entrepôt de données et les utiliser dans un autre scénario, ou configurer votre scénario de plusieurs autres manières.
+Des scénarios peuvent être créés pour répondre à des situations et des cas d’utilisation très spécifiques. Vous pouvez utiliser des filtres pour modifier l’action en fonction des champs ou des propriétés de données, effectuer une itération sur des fichiers ou des données, enregistrer des données dans un magasin de données et les utiliser dans une autre exécution de scénario ou configurer votre scénario de nombreuses autres manières.
 
-Vous pouvez également ajouter d’autres applications que Workfront à votre scénario. Fusion comprend de nombreux connecteurs dédiés pour les applications externes, y compris les applications par Adobe, Google, Microsoft et bien d’autres. S’il n’existe pas de connecteur dédié pour une application, Fusion inclut des moyens de se connecter à n’importe quel service avec une API publique.
+Vous pouvez également ajouter des applications autres que Workfront à votre scénario. Fusion comprend de nombreux connecteurs dédiés pour les applications externes, notamment les applications par Adobe, Google, Microsoft, etc. S’il n’existe pas de connecteur dédié pour une application, Fusion propose des moyens de se connecter à n’importe quel service à l’aide d’une API publique.
 
-Workfront Fusion offre également des fonctionnalités qui prennent en charge les scénarios, tels que les modèles de création de scénarios, l’historique d’exécution et le débogage.
+Workfront Fusion propose également des fonctionnalités qui prennent en charge les scénarios, telles que les modèles de création de scénario, l’historique d’exécution et le débogage.
 
 >[!NOTE]
 >
@@ -76,13 +88,13 @@ Workfront Fusion offre également des fonctionnalités qui prennent en charge le
 
 Lors de vos débuts avec Workfront Fusion, les ressources suivantes pourront vous être utiles :
 
-* Pour obtenir des ressources d’entraînement sur Workfront Fusion, reportez-vous à la section [Présentation de l’entraînement sur Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
+* Pour les ressources de formation Workfront Fusion, consultez [Présentation de la formation Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
 
 
-* Pour plus d’informations sur les scénarios, voir [Présentation du scénario](/help/quicksilver/workfront-fusion/scenarios/scenario-overview.md).
+* Pour plus d’informations sur les scénarios, voir [Présentation des scénarios](/help/quicksilver/workfront-fusion/scenarios/scenario-overview.md).
 
 
-* Pour commencer à créer des scénarios de pratique, voir [Création de scénarios de pratique](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md).
+* Pour commencer à créer des scénarios d&#39;exercices pratiques, voir [Créer des scénarios d&#39;exercices pratiques](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md).
 
 <!--
 

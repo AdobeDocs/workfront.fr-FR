@@ -2,19 +2,31 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: Supprimer les données de l’utilisateur ou de l’utilisatrice dans  [!DNL Adobe Workfront Fusion]
-description: Vous pouvez stocker et supprimer les données de l’utilisateur ou de l’utilisatrice dans votre compte  [!DNL Adobe Workfront Fusion] .
+title: Supprimer des données de l’utilisateur ou de l’utilisatrice dans  [!DNL Adobe Workfront Fusion]
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
-source-git-commit: 759472ada4595625e3a02b55c455564e24343743
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '266'
+ht-degree: 72%
 
 ---
 
 # Supprimer les données de l’utilisateur ou de l’utilisatrice dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Supprimer des éléments de scénario](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/delete-scenario-elements.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Vous pouvez stocker et supprimer les données de l’utilisateur ou de l’utilisatrice dans les zones suivantes de votre compte [!DNL Adobe Workfront Fusion] :
 

@@ -4,20 +4,33 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Gérer les utilisateurs et utilisatrices  [!DNL Adobe Workfront Fusion]  de votre entreprise
-description: Gérer les utilisateurs et utilisatrices  [!DNL Adobe Workfront Fusion]  de votre entreprise
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
-source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 91%
+source-wordcount: '544'
+ht-degree: 77%
 
 ---
 
 # Gérer les utilisateurs et utilisatrices [!DNL Adobe Workfront Fusion] de votre entreprise
 
 Les administrateurs et administratrices [!DNL Adobe Workfront Fusion] peuvent gérer les rôles d’utilisateur ou d’utilisatrice dans [!DNL Workfront Fusion].
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans les articles suivants :
+>
+>* [Affichage ou modification des rôles utilisateur](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-roles.html)
+>* [Affichage ou modification des détails de l’utilisateur](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-details.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 <!--
 
@@ -37,7 +50,7 @@ Les administrateurs et administratrices [!DNL Adobe Workfront Fusion] peuvent g�
 
 >[!NOTE]
 >
->Si votre entreprise est en train de passer à Adobe Admin Console, vous ne pouvez pas gérer les utilisateurs dans Workfront (ajout ou suppression d’utilisateurs). Vous pouvez effectuer ces actions dans Adobe Admin Console une fois la migration terminée.
+>Si votre organisation est en train de passer au Adobe Admin Console, vous ne pouvez pas gérer les utilisateurs dans Workfront (ajout ou suppression d’utilisateurs). Vous pouvez effectuer ces actions dans le Adobe Admin Console une fois la migration terminée.
 
 ## Conditions d’accès
 

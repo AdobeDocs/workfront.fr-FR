@@ -2,19 +2,31 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: "Créer des scénarios de pratique : index de l’article"
-description: Suivez ces exemples pour savoir comment créer des scénarios dans Adobe Workfront Fusion
+title: 'Créer des scénarios pratiques : index d’article'
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: cd00008a-833c-46dd-a82d-22f27809493e
-source-git-commit: 83974e67d6322c0ec0179c5be9cc9de0e1495161
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 66%
+source-wordcount: '135'
+ht-degree: 35%
 
 ---
 
-# Créer des scénarios de pratique dans [!DNL Adobe Workfront Fusion] : index de l’article
+# Créer des scénarios d’exercice dans [!DNL Adobe Workfront Fusion] : index d’article
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Créer des scénarios d’exercice pratique : index d’article](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/build-practice-scenarios-toc.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Cette section contient les articles suivants :
 

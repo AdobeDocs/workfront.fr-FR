@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connecteur
 navigation-topic: apps-and-their-modules
 title: Modules Adobe Workfront
-description: Vous pouvez utiliser le connecteur Adobe Workfront Fusion Adobe Workfront pour automatiser vos processus dans Workfront. Si vous disposez d’une licence Workfront Fusion pour l’automatisation et l’intégration du travail, vous pouvez également l’utiliser pour vous connecter à des applications et services tiers.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 2682c027b2cd248b2674cebe8f0a0b8d1006257b
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '6797'
-ht-degree: 93%
+source-wordcount: '6831'
+ht-degree: 92%
 
 ---
 
 # Modules [!DNL Adobe Workfront]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules Adobe Workfront](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Vous pouvez utiliser le connecteur [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront] pour automatiser vos processus dans [!DNL Workfront]. Si vous disposez d’une licence [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail], vous pouvez également l’utiliser pour vous connecter à des applications et services tiers.
 
@@ -53,7 +65,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous disposez du plan de [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter du [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -138,9 +150,9 @@ Vous pouvez créer une connexion à votre compte [!DNL Workfront] directement de
 >   Pour plus d’informations sur SSO, voir [Vue d’ensemble de l’authentification unique dans  [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 >   
 >* Les connexions OAuth 2.0 à l’API [!DNL Workfront] ne dépendent plus des clés API.
->* Pour créer une connexion à un environnement Sandbox Workfront, vous devez créer une application OAuth2 dans cet environnement, puis utiliser l’identifiant du client et le secret client générés par cette application dans votre connexion.
+>* Pour créer une connexion à un environnement Workfront Sandbox, vous devez créer une application OAuth2 dans cet environnement, puis utiliser l’ID client et le secret client générés par cette application dans votre connexion.
 >
->   Pour plus d’informations sur la création d’une application OAuth2 dans Workfront, voir [Création d’une application OAuth2 à l’aide des informations d’identification de l’utilisateur (flux de code d’autorisation)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) dans l’article Création d’applications OAuth2 pour les intégrations Workfront.
+>   Pour plus d’informations sur la création d’une application OAuth2 dans Workfront, voir [Création d’une application OAuth2 à l’aide des informations d’identification utilisateur (flux de code d’autorisation)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) dans l’article Création d’applications OAuth2 pour les intégrations Workfront.
 
 ## Modules [!DNL Workfront] et leurs champs
 
@@ -154,7 +166,7 @@ Si le bouton « Mapper » apparaît au-dessus d’un champ ou d’une fonction
 >[!NOTE]
 >
 >* Si vous ne voyez pas les champs les plus à jour dans un module Workfront, cela peut être dû à des problèmes de mise en cache. Patientez une heure et réessayez.
->* Les codes d’état HTTP 429 d’Adobe Workfront ne doivent pas provoquer de désactivations, mais déclencher une pause d’exécution courte dans le scénario.
+>* Les codes d’état HTTP 429 d’Adobe Workfront ne doivent pas provoquer de désactivations, mais déclencher une courte pause dans l’exécution du scénario.
 
 * [Déclencheurs](#triggers)
 * [Actions](#actions)
@@ -282,7 +294,7 @@ Lorsque vous configurez ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>(S’affiche une fois que vous avez sélectionné un <strong>filtre</strong>.) Sélectionnez le type d’enregistrement [!DNL Workfront] que vous souhaitez que le module regarde.</p> <p>Par exemple, si vous souhaitez lancer le scénario chaque fois qu’un nouveau projet est créé, sélectionnez [!UICONTROL Project].</p> </td> 
+   <td> <p>(S’affiche après avoir choisi un <strong>Filtre</strong>.) Sélectionnez le type d’enregistrement [!DNL Workfront] que vous souhaitez que le module regarde.</p> <p>Par exemple, si vous souhaitez lancer le scénario chaque fois qu’un nouveau projet est créé, sélectionnez [!UICONTROL Project].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Outputs]</td> 
@@ -613,7 +625,7 @@ Ce module d’action vous permet d’effectuer des actions sur l’API.
 
 >[!NOTE]
 >
->Depuis juillet 2024, l’action `convertToProject` comprend le champ `copyCategories`. Lorsqu’il est défini sur `TRUE`, tous les formulaires personnalisés sont inclus dans le projet dans lequel le problème est converti.
+>Depuis juillet 2024, l’action `convertToProject` inclut les `copyCategories` de terrain. Lorsque la valeur est définie sur `TRUE`, tous les formulaires personnalisés sont inclus dans le projet dans lequel le problème est converti.
 
 Lorsque vous configurez ce module, les champs suivants s’affichent.
 
@@ -654,7 +666,7 @@ Lorsque vous configurez ce module, les champs suivants s’affichent.
 
 Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouvez utiliser ce module dans les types d’objet [[!DNL Workfront]  disponibles pour chaque module  [!DNL Workfront] ](#workfront-object-types-available-for-each-workfront-module).
 
-#### Options d’actions diverses
+#### Options d’action diverses
 
 ##### Tâche
 
@@ -731,9 +743,9 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pou
    <td>Convertir en une tâche</td> 
    <td>
    <ul>
-   <li>preserveIssue<p>Conserver le problème d’origine et lier sa résolution à cette tâche</p></li>
-   <li>preservePrimaryContact<p>Autoriser l’accès principal des contacts des problèmes à cette tâche</p></li>
-   <li>preserveCompletionDate<p>Conserver la date d’achèvement planifiée du problème</p></li>
+   <li>preserveIssue<p>Conserver l'événement d'origine et lier sa résolution à cette tâche</p></li>
+   <li>preservePrimaryContact<p>Autoriser le créateur de l'événement à accéder à cette tâche</p></li>
+   <li>preserveCompletionDate<p>Conserver la date d'achèvement prévue pour l'événement</p></li>
    </ul>
    </td> 
   </tr> 
@@ -741,8 +753,8 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pou
    <td>Convertir en projet</td> 
    <td>
    <ul>
-   <li>preserveIssue<p>Conserver le problème d’origine et lier sa résolution à cette tâche</p></li>
-   <li>preservePrimaryContact<p>Autoriser l’accès principal des contacts des problèmes à cette tâche</p></li>
+   <li>preserveIssue<p>Conserver l'événement d'origine et lier sa résolution à cette tâche</p></li>
+   <li>preservePrimaryContact<p>Autoriser le créateur de l'événement à accéder à cette tâche</p></li>
    </ul>
    </td> 
   </tr> 
@@ -791,7 +803,7 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pou
    <li>clearExpenses</li>
    <li>clearFinancials<p>Efface les données financières</p></li>
    <li>clearHourTypes</li>
-   <li>clearIssueSetup<p>Efface les propriétés de la file d’attente et la configuration des problèmes</p></li>
+   <li>clearIssueSetup<p>Efface les propriétés de file d'attente et la configuration des événements</p></li>
    <li>clearPredecessors</li>
    <li>clearRisks</li>
    <li>clearSharingOptions</li>
@@ -902,7 +914,7 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouv
 
 +++ **[!UICONTROL Charger le document]**
 
-Ce module d’action télécharge un document vers un objet [!DNL Workfront], tel qu’un projet, une tâche ou un problème. Ce module charge le document par blocs, ce qui rend le processus de chargement plus fluide pour Workfront.
+Ce module d&#39;action charge un document dans un objet [!DNL Workfront], tel qu&#39;un projet, une tâche ou un événement. Ce module charge le document par blocs, ce qui rend le processus de chargement plus fluide pour Workfront.
 
 Indiquez l’emplacement du document, le fichier à charger et éventuellement un nouveau nom pour le fichier.
 
@@ -941,9 +953,9 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouv
 
 +++
 
-+++ **[!UICONTROL Télécharger le document (hérité)]**
++++ **[!UICONTROL Charger le document (hérité)]**
 
-Ce module d’action télécharge un document vers un objet [!DNL Workfront], tel qu’un projet, une tâche ou un problème. Il télécharge l’intégralité du document à la fois.
+Ce module d&#39;action charge un document dans un objet [!DNL Workfront], tel qu&#39;un projet, une tâche ou un événement. Il télécharge l’intégralité du document en une seule fois.
 
 Indiquez l’emplacement du document, le fichier à charger et éventuellement un nouveau nom pour le fichier.
 
@@ -2027,7 +2039,7 @@ Nous vous recommandons de vérifier deux fois pour vous assurer que cela fonctio
 
 +++
 
-## Filtres d’abonnement aux événements dans le module [!DNL Workfront] > [!UICONTROL Watch Events]
+## Filtres d’abonnement aux événements dans le module [!DNL Workfront] > [!UICONTROL Événements Espion]
 
 >[!NOTE]
 >

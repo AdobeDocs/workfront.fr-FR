@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Gérer des scénarios verrouillés dans  [!DNL Adobe Workfront Fusion]
-description: Gérer des scénarios verrouillés dans  [!DNL Adobe Workfront Fusion]
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 81%
 
 ---
 
 # Gérer des scénarios verrouillés dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Gérer les scénarios verrouillés](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-manage-locked-scenario.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Dans certains cas, un scénario peut être temporairement verrouillé dans [!DNL Workfront Fusion]. Les exécutions verrouillées seront automatiquement déverrouillées dans les 2 à 4 heures. Vous pouvez également déverrouiller les scénarios manuellement.
 

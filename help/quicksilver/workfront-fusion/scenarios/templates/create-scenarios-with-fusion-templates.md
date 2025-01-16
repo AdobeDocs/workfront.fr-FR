@@ -2,19 +2,31 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Créer des scénarios avec des modèles  [!DNL Adobe Workfront Fusion]
-description: Les modèles Adobe Workfront Fusion vous permettent de créer et d’utiliser des modèles existants comme point de départ pour vos scénarios Workfront Fusion.
+title: 'Créer des scénarios avec des modèles  [!DNL Adobe Workfront Fusion] '
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 43b30244-f4a5-4036-939c-aff7827c21b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 82%
 
 ---
 
 # Créer des scénarios avec des modèles [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Création de scénarios avec des modèles](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/create-scenarios-with-fusion-templates.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Les modèles [!DNL Adobe Workfront Fusion] vous permettent de créer et d’utiliser des modèles existants comme point de départ pour vos scénarios [!DNL Workfront Fusion].
 

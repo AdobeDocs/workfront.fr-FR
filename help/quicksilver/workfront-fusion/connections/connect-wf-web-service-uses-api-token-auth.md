@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Connecter  [!DNL Adobe Workfront Fusion]  à un service web qui utilise l’autorisation de jeton d’API
-description: Certains services n’autorisent pas les solutions d’intégration telles que  [!DNL Adobe Workfront Fusion]  pour créer une application que vous pouvez facilement utiliser dans votre scénario.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '1008'
+ht-degree: 91%
 
 ---
 
 # Connecter [!DNL Adobe Workfront Fusion] à un service web qui utilise l’autorisation de jeton d’API
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Connectez Adobe Workfront Fusion à un service web qui utilise l’autorisation de jeton API](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-wf-web-service-uses-api-token-auth.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Certains services n’autorisent pas les solutions d’intégration telles qu’[!DNL Adobe Workfront Fusion] pour créer une application que vous pouvez facilement utiliser dans votre scénario.
 

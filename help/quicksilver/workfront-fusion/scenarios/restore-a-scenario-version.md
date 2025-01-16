@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Restaurer une version de scénario dans  [!DNL Adobe Workfront Fusion]
-description: Vous pouvez restaurer une version précédente d’un scénario. Cela vous permet d’apporter des modifications à un scénario, puis d’annuler facilement ces modifications si vous préférez la fonctionnalité précédente.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8885fe4e-a9ae-4cfa-895f-68a2f8228034
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 100%
+source-wordcount: '270'
+ht-degree: 72%
 
 ---
 
 # Restaurer une version de scénario dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Restaurer une version de scénario](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/restore-a-scenario-version.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 ## Conditions d’accès
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Mapper un tableau dans  [!DNL Adobe]  Workfront Fusion
-description: Vous pouvez mapper un tableau à un champ de module dans Adobe Workfront Fusion.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 725e0c24-cb4b-46c4-9c00-4f9cc334fbc7
-source-git-commit: f87bc22f4ce70f266a199fcb54c5a74f9e3ba914
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 46%
+source-wordcount: '929'
+ht-degree: 41%
 
 ---
 
 # Mapper un tableau dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Mapper un tableau ou un élément de tableau](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-an-array.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Un tableau est un type spécial d’élément qui peut contenir les éléments suivants :
 
@@ -68,9 +80,9 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 
 
 
-## Mappage d’un tableau entier
+## Mapper un tableau entier
 
-1. Dans les modules vers lesquels vous mappez le tableau, cliquez sur le champ dans lequel vous souhaitez mapper le tableau. Il s’agit du champ auquel le tableau est mappé.
+1. Dans les modules auxquels vous mappez le tableau, cliquez sur le champ dans lequel vous souhaitez mapper le tableau. Il s’agit du champ auquel le tableau est mappé.
 
 1. Dans la zone qui s’affiche, mappez l’élément.
 
@@ -80,45 +92,45 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 
 Vous pouvez diviser un tableau en lots individuels à l’aide d’un itérateur. Pour plus d’informations, consultez Module d’[[!UICONTROL itération] dans  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/modules/iterator-module.md).
 
-## Mappage d’éléments dans un nouveau tableau
+## Mapper des éléments dans un nouveau tableau
 
-Certains champs de Workfront Fusion vous permettent de mapper des éléments dans un tableau. Par exemple, vous pouvez créer un tableau d’éléments de liste de contrôle dans les panoramas Workfront > Ajouter un élément de liste de contrôle . Lorsque le module est exécuté, tous les éléments de liste de contrôle sont ajoutés à la carte.
+Certains champs de Workfront Fusion vous permettent de mapper des éléments dans un tableau. Par exemple, vous pouvez créer un tableau d’éléments de liste de contrôle dans le module Tableaux Workfront > Ajouter un élément de liste de contrôle . Lorsque le module est exécuté, tous les éléments de la liste de contrôle sont ajoutés à la carte.
 
-Tout champ de module qui affiche &quot;Ajouter un élément&quot; crée un tableau.
+Tout champ de module qui affiche « Ajouter un élément » crée un tableau.
 
 ![Ajouter un élément](assets/add-item.png)
 
 Pour ajouter des éléments au tableau :
 
 1. Cliquez sur **Ajouter un élément**
-1. Dans le panneau qui s’ouvre, saisissez des détails sur l’élément.
+1. Dans le panneau qui s’ouvre, saisissez les détails de l’élément.
 1. Cliquez sur **Ajouter**.
 1. (Facultatif) Répétez les étapes 1 à 3 pour chaque élément à ajouter au tableau .
 
-## Mise en correspondance des éléments de tableau
+## Mapper des éléments de tableau
 
 
-### Mappage des éléments de tableau par nombre
+### Mapper des éléments de tableau par nombre
 
-Les éléments du tableau s’affichent sous la forme d’un nombre entre crochets après le nom du tableau. Vous pouvez mapper un élément individuel d’un tableau dans un champ à l’aide de ce numéro d’index.
+Les éléments de tableau s’affichent sous la forme d’un nombre entre crochets après le nom du tableau. Vous pouvez mapper un élément individuel d’un tableau dans un champ à l’aide de ce numéro d’index.
 
 ![](assets/map-array-1st-element.png)
 
 >[!NOTE]
 >
->L’indexation des tableaux dans Workfront Fusion commence à 1.
+>L’indexation des tableaux dans Workfront Fusion commence à partir de 1.
 
 Pour mapper un élément de tableau :
 
-1. Cliquez sur le champ où vous souhaitez mapper l’élément.
+1. Cliquez sur le champ dans lequel vous souhaitez mapper l’élément.
 
    Le panneau de mappage s’ouvre.
 
-1. Localisez le tableau contenant l’élément que vous souhaitez mapper.
-1. Cliquez sur la flèche de liste déroulante en regard du tableau .
+1. Recherchez le tableau contenant l’élément que vous souhaitez mapper.
+1. Cliquez sur la flèche de liste déroulante en regard du tableau.
 1. Cliquez sur l’élément à mapper.
 
-   L’élément est mappé, avec l’index de 1. Cela mappe le premier élément du tableau .
+   L’élément est mappé avec l’index de 1. Cela mappe le premier élément du tableau .
 
 1. Pour mapper un autre élément du tableau, cliquez sur le [1] et saisissez le numéro d’index de l’élément du tableau que vous souhaitez mapper.
 
@@ -126,7 +138,7 @@ Pour mapper un élément de tableau :
 
 ### Mapper l’élément d’un tableau avec une clé donnée
 
-Certains tableaux contiennent des collections avec des éléments à valeur clé tels que des métadonnées, des attributs, etc. Pour utiliser l’une de ces valeurs, vous pouvez rechercher un élément par sa valeur de clé donnée et obtenir la valeur correspondante de l’élément de valeur. Nous vous recommandons d’utiliser une formule combinant les fonctions `map()` et `get()`.
+Certains tableaux contiennent des collections avec des éléments clé-valeur tels que des métadonnées, des attributs, etc. Pour utiliser l’une de ces valeurs, vous pouvez rechercher un élément par sa valeur de clé donnée et obtenir la valeur correspondante à partir de l’élément de valeur. Il est recommandé d’utiliser une formule combinant les fonctions `map()` et `get()`.
 
 
 
@@ -136,7 +148,7 @@ L’exemple suivant illustre la sortie de l’application [!DNL Jira].
 
 ![](assets/output-of-jira-app-350x100.png)
 
-Cet exemple récupère un nom de fichier provenant d’un tableau de pièces jointes, pour la pièce jointe spécifique avec un ID 10108.
+Cet exemple obtient un nom de fichier à partir d’un tableau de pièces jointes, pour la pièce jointe spécifique avec l’ID 10108.
 
 Cet exemple génère la sortie suivante :
 
@@ -153,9 +165,9 @@ La formule peut être expliquée comme suit :
 
       >[!NOTE]
       >
-      >Tous les paramètres respectent la casse. Même si, dans cet exemple particulier, le libellé de l’élément ne diffère de son nom brut qu’en majuscules, il est nécessaire d’utiliser le nom brut.
+      >Tous les paramètres respectent la casse. Même si dans cet exemple particulier, le libellé de l’élément diffère de son nom brut uniquement en majuscules, il est nécessaire d’utiliser le nom brut.
 
-   1. Le troisième paramètre est le nom brut de l’élément clé :
+   1. Le troisième paramètre est le nom brut de l’élément de clé :
 
       ![](assets/3rd-parameter-350x166.png)
 
@@ -167,7 +179,7 @@ La formule peut être expliquée comme suit :
 
    1. Le premier paramètre de la fonction `get()` est le résultat de la fonction `map()`.
 
-   1. Le deuxième paramètre est l’index de l’élément. Dans cet exemple, l’index est `1`.
+   1. Le deuxième paramètre est l’index de l’élément . Dans cet exemple, l’index est `1`.
 
 Cet exemple génère la sortie suivante :
 
@@ -175,13 +187,13 @@ Cet exemple génère la sortie suivante :
 
 >[!ENDSHADEBOX]
 
-Pour plus d’informations sur la fonction `map()`, voir [Fonctions de tableau](/help/quicksilver/workfront-fusion/functions/array-functions.md).
+Pour plus d&#39;informations sur la fonction `map()`, voir [Fonctions de tableau](/help/quicksilver/workfront-fusion/functions/array-functions.md).
 
-Pour plus d’informations sur la fonction `get()`, voir [Fonctions générales](/help/quicksilver/workfront-fusion/functions/general-functions.md).
+Pour plus d&#39;informations sur la fonction `get()`, voir [Fonctions générales](/help/quicksilver/workfront-fusion/functions/general-functions.md).
 
 ## Convertir des éléments de tableau en une série de lots
 
-Les tableaux peuvent être convertis en une série de lots à l’aide du module [!UICONTROL Itérateur]. Pour plus d’informations, voir le [[!UICONTROL module Itérateur]](/help/quicksilver/workfront-fusion/modules/iterator-module.md).
+Les tableaux peuvent être convertis en une série de lots à l’aide du module [!UICONTROL Itérateur]. Pour plus d’informations, voir [[!UICONTROL Module Itérateur]](/help/quicksilver/workfront-fusion/modules/iterator-module.md).
 
 ![](assets/series-of-bundles.png)
 

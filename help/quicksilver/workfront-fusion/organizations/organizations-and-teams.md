@@ -4,18 +4,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Organisations et équipes Adobe Workfront Fusion
-description: Les fonctionnalités Organisation et Équipes Adobe Workfront Fusion permettent aux entreprises de contrôler l’accès aux scénarios et aux autres fonctionnalités dans Fusion.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 063c4a885d43b41ba6ff72ac22a1552486531fa6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 100%
+source-wordcount: '1300'
+ht-degree: 93%
 
 ---
 
 # Organisations et équipes [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans les articles suivants :
+>
+>* [Présentation des organisations et des équipes Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.html)
+>* [Définir les options de notification d’équipe](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Les fonctionnalités Organisation et Équipes [!DNL Adobe Workfront Fusion] permettent aux entreprises de contrôler l’accès aux scénarios et aux autres fonctionnalités dans Fusion.
 

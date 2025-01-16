@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Administration des modèles Adobe Workfront Fusion
-description: Si vous êtes administrateur ou administratrice, vous avez l’autorisation d’afficher, de modifier, de renommer, de publier, d’approuver et de supprimer les modèles créés par d’autres personnes. Vous pouvez effectuer ces actions à partir de la page [!UICONTROL Modèles] dans la zone  [!DNL Adobe Workfront Fusion Administration] .
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
+source-git-commit: 8163f9f12bb27bbc8adfde34fc1e1f0f8c8be7f9
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 100%
+source-wordcount: '686'
+ht-degree: 88%
 
 ---
 
 # Administration des modèles [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans les articles suivants :
+>
+>* [Approuver ou refuser des modèles pour l&#39;onglet Public](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/approve-templates.html)
+>* [Modifier les modèles](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/edit-templates.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Si vous êtes administrateur ou administratrice, vous avez l’autorisation d’afficher, de modifier, de renommer, de publier, d’approuver et de supprimer les modèles créés par d’autres personnes. Vous pouvez effectuer ces actions à partir de la page [!UICONTROL Modèles] dans la zone [!DNL Adobe Workfront Fusion Administration].
 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Jetons d’analyse de la date et de l’heure dans Adobe Workfront Fusion
-description: Les jetons suivants pour l’analyse de la date et de l’heure sont disponibles dans le panneau  [!DNL Adobe Workfront Fusion mapping] .
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: f5a92ccb-cdc6-4f7d-8373-31fd17d314d3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '352'
+ht-degree: 78%
 
 ---
 
 # Jetons d’analyse de la date et de l’heure dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Jetons pour l’analyse de date et d’heure](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/tokens-for-date-and-time-parsing.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 ## Conditions d’accès
 

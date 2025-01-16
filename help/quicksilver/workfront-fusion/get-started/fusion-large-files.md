@@ -3,26 +3,40 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Utilisation de fichiers volumineux dans Adobe Workfront Fusion
-description: La prise en charge des fichiers volumineux est actuellement disponible pour les connecteurs Workfront et HTTP.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 6%
+source-wordcount: '1163'
+ht-degree: 5%
 
 ---
 
 # Utilisation de fichiers volumineux dans Adobe Workfront Fusion
 
+
+
 >[!IMPORTANT]
 >
->La fonctionnalité de fichiers volumineux est disponible uniquement pour les clients Workfront Ultimate. Il s’agit d’un déploiement échelonné. Toutes les organisations Fusion disposant d’un plan Workfront Ultimate disposeront d’une importante fonctionnalité de fichier d’ici janvier 2025.
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Utilisation de fichiers volumineux](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-large-files.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
-Des fonctionnalités améliorées de transfert de données sont désormais disponibles dans Workfront Fusion, ce qui permet à des scénarios de traiter des fichiers beaucoup plus volumineux.
+>[!IMPORTANT]
+>
+>La fonctionnalité de fichiers volumineux est disponible uniquement pour les clients Workfront Ultimate et correspond à un déploiement échelonné. Toutes les organisations Fusion disposant d’un plan Workfront Ultimate disposeront d’une fonctionnalité de fichiers importante d’ici janvier 2025.
 
-Pour gérer les fichiers plus volumineux, vos scénarios doivent être mis à jour.
+Des fonctionnalités améliorées de transfert de données sont désormais disponibles dans Workfront Fusion, ce qui permet aux scénarios de traiter des fichiers beaucoup plus volumineux.
+
+Pour gérer des fichiers plus volumineux, vos scénarios doivent être mis à jour.
 
 ## Conditions d’accès
 
@@ -36,11 +50,11 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td>
-   <td> <p>Nouveau : Ultmate</p> <p>Ou</p> <p>Actuel : non disponible</p></td> 
+   <td> <p>Nouveau : Ultimate</p> <p>Ou</p> <p>Current: Not available</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : non disponible</p> </td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Current: Not available</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
@@ -53,8 +67,8 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Nouveau : [!DNL Workfront Fusion] est inclus dans le plan Workfront Ultimate.</p> <p>Ou</p>
-   <p>Actuel : non disponible</p>
+   <p>Nouveau : [!DNL Workfront Fusion] est inclus dans le plan Ultimate Workfront.</p> <p>Ou</p>
+   <p>Current: Not available</p>
    </td> 
   </tr>
  </tbody> 
@@ -70,19 +84,19 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 Pour la version initiale, les connecteurs suivants prennent en charge les fichiers volumineux.
 
-* Workfront > Télécharger le document
-* Adobe Experience Manager Assets > Télécharger le document
-* Workfront Proof > Télécharger le fichier
+* Workfront > Charger le document
+* Adobe Experience Manager Assets > Charger le document
+* Workfront Proof > Charger un fichier
 * Adobe Authenticator > Effectuer un appel API personnalisé
 * HTTP
 
 D’autres connecteurs seront pris en charge dans les prochaines versions.
 
-## Mise à jour de vos scénarios pour la gestion des fichiers volumineux
+## Mettez à jour vos scénarios pour gérer les fichiers volumineux
 
-Le module Workfront > Télécharger le document a été modifié pour gérer les fichiers plus volumineux. L’ancienne version de ce module affiche désormais `(Legacy)` ajouté au nom du module. Dans la plupart des cas, le module hérité continuera à fonctionner.
+Le module Workfront > Charger le document a été modifié pour gérer les fichiers plus volumineux. L’ancienne version de ce module affiche désormais `(Legacy)` ajouté au nom du module. Dans la plupart des cas, le module hérité continuera à fonctionner.
 
-Si vous envisagez d’utiliser des fichiers plus volumineux, nous vous recommandons de remplacer le module hérité par le nouveau module Télécharger le document . Le nouveau module Télécharger le document empêche les dépassements de délai et d’autres erreurs.
+Si vous envisagez d’utiliser des fichiers plus volumineux, nous vous recommandons de remplacer l’ancien module par le nouveau module Charger un document . Le nouveau module Charger le document empêche les dépassements de délai et autres erreurs.
 
 ![Charger un document](assets/new-upload-document.png)
 
@@ -90,43 +104,43 @@ Si vous envisagez d’utiliser des fichiers plus volumineux, nous vous recommand
 
 ### Quelle est la nouvelle limite de taille de fichier ?
 
-Les utilisateurs peuvent désormais traiter des fichiers dépassant la limite précédente de 1 Go, ce qui améliore l’efficacité et la productivité.  Bien que la plateforme puisse prendre en charge des fichiers individuels allant jusqu’à 15 Go pour une seule action (par exemple le téléchargement d’un fichier), d’autres facteurs affectent le transfert des données. La limite de taille de fichier d’une action unique dépend finalement du service Web auquel Fusion se connecte. Le transfert de données est le traitement total d’une seule exécution. Cela signifie que plusieurs actions d’une seule exécution contribuent au transfert total des données.
+Les utilisateurs peuvent désormais traiter les fichiers dépassant la limite précédente de 1 Go, ce qui améliore l’efficacité et la productivité.  Bien que la plateforme puisse prendre en charge des fichiers individuels allant jusqu’à 15 Go pour une seule action (comme le chargement d’un fichier), d’autres facteurs affectent le transfert de données. La limite de taille de fichier d’une seule action dépend en fin de compte du service web auquel Fusion se connecte. Le transfert de données est le traitement total d’une seule exécution. Cela signifie que plusieurs actions en une seule exécution contribuent au transfert total de données.
 
-Fusion traite les fichiers jusqu&#39;à ce que la limite d&#39;exécution de 40 minutes soit atteinte. Dans votre scénario Fusion, le chargement, le téléchargement ou le traitement de fichiers volumineux peuvent prendre du temps. Bien qu’il n’existe aucune limite concernant la taille de fichier, la durée d’exécution du scénario est limitée à 40 minutes. Par conséquent, si l’exécution prend plus de 40 minutes avec des fichiers volumineux, le scénario échoue. Le temps d’exécution du scénario peut également être affecté par la taille du scénario, la complexité du module et la vitesse du réseau. Par conséquent, nous vous recommandons de tenir compte de ces aspects de vos scénarios lors de l’utilisation de fichiers volumineux.
+Fusion traite les fichiers jusqu’à ce que la limite d’exécution de 40 minutes soit atteinte. Dans votre scénario Fusion, le chargement, le téléchargement ou le traitement des fichiers volumineux peut prendre un certain temps. Bien qu’il n’existe aucune limite sur la taille des fichiers individuels, le temps d’exécution du scénario est limité à 40 minutes. Par conséquent, si des fichiers volumineux entraînent une exécution de plus de 40 minutes, le scénario échoue. Le temps d’exécution du scénario peut également être affecté par la taille du scénario, la complexité du module et la vitesse du réseau. Par conséquent, nous vous recommandons de tenir compte de ces aspects de vos scénarios lors de l’utilisation de fichiers volumineux.
 
-### Comment fonctionne le nouveau transfert de fichier de Fusion ?
+### Comment fonctionne le nouveau transfert de fichiers de Fusion ?
 
-Lorsque Fusion traite les fichiers, les fichiers plus volumineux sont ajoutés au stockage persistant (compartiment S3 ou stockage Azure Blob). Lorsqu’un module Fusion exécute une action de fichier, comme télécharger ou télécharger, Fusion utilise le fichier dans le stockage persistant comme source plutôt que comme mémoire active.
+Lorsque Fusion traite des fichiers, des fichiers plus volumineux sont ajoutés au stockage persistant (stockage de compartiment S3 ou Azure Blob). Lorsqu’un module Fusion exécute une action de fichier, telle que le chargement ou le téléchargement, Fusion utilise le fichier dans le stockage persistant en tant que source plutôt qu’en tant que mémoire active.
 
-### Puis-je travailler avec des fichiers plus volumineux à l’aide d’exécutions incomplètes ?
+### Puis-je travailler avec des fichiers plus volumineux en utilisant des exécutions incomplètes ?
 
-Oui, Fusion prend en charge les exécutions incomplètes avec des fichiers plus volumineux. Notez que les exécutions incomplètes sont de taille limitée pour une organisation et doivent être gérées activement.
+Oui, Fusion prend en charge les exécutions incomplètes avec des fichiers plus volumineux. Notez que les exécutions incomplètes sont limitées en taille pour une organisation et doivent être gérées activement.
 
 ### Puis-je utiliser des fichiers plus volumineux avec n’importe quel connecteur ?
 
-Chaque connecteur Fusion doit être mis à jour pour prendre en charge les fichiers plus volumineux. Les connecteurs pris en charge sont Workfront, HTTP et AEM Assets. Les connecteurs de fusion sont toujours limités par la taille de fichier prise en charge par le service Web. Les limites de taille de fichier sont généralement incluses dans la documentation de l’API pour les points de terminaison de service Web qui téléchargent et chargent des fichiers.
+Chaque connecteur Fusion doit être mis à jour pour prendre en charge les fichiers plus volumineux. Les connecteurs pris en charge sont Workfront, HTTP et AEM Assets. Les connecteurs Fusion sont toujours limités par la taille de fichier prise en charge par le service web. Les limites de taille de fichier sont généralement incluses dans la documentation de l’API pour les points d’entrée de service web qui téléchargent et chargent des fichiers.
 
-### Cela a-t-il une incidence sur les opérations ?
+### Cela affecte-t-il les opérations ?
 
-Non, le nombre d&#39;opérations exécutées par un module est le même.
+Non, le nombre d’opérations exécutées par un module est le même.
 
-### Quand l’interface utilisateur de Fusion sera-t-elle mise à jour pour afficher les données de transfert de fichier ?
+### Quand l’interface utilisateur de Fusion sera-t-elle mise à jour pour afficher les données de transfert de fichiers ?
 
-Nous travaillons activement à des mises à jour de l’interface utilisateur de Fusion pour le transfert de fichiers sur le tableau de bord et la page des détails de l’exécution du scénario, avec une version ciblée au 1er trimestre 2025.
+Nous travaillons activement sur des mises à jour de l’interface utilisateur de Fusion pour le transfert de fichiers sur la page des détails de tableau de bord et d’exécution de scénario, avec une version ciblée au premier trimestre 2025.
 
-### Quelles sont les façons de penser aux nouvelles limites de traitement des fichiers qui m’aideront à concevoir des scénarios ?
+### Quelles sont les différentes manières d’appréhender les nouvelles limites de traitement des fichiers pour faciliter la conception de scénarios ?
 
-Concevoir un scénario pour qu’il fonctionne dans la limite d’exécution de 40 minutes peut sembler compliqué. Nous vous recommandons de garder à l’esprit les éléments suivants lors de la conception d’un scénario :
+Concevoir un scénario qui fonctionne dans la limite d’exécution de 40 minutes peut sembler compliqué. Nous vous recommandons de garder à l’esprit les points suivants lors de la conception d’un scénario :
 
-* **Comprendre les besoins de votre entreprise en termes de temps d’exécution** : la limite de plateforme de Fusion pour le temps d’exécution est de 40 minutes, mais la plupart des automatisations de processus d’entreprise sont censées s’exécuter beaucoup plus rapidement. Par exemple, les automatisations initiées par l’utilisateur avec poursuite dépendante des résultats devraient se terminer bien en dessous de la limite de 40 minutes.
-* **Tenez compte du temps d’exécution lors de la conception de** : lors de la conception de votre scénario, il est essentiel de comprendre le temps d’exécution du module pour les actions de fichiers individuelles, telles que les chargements et les téléchargements. Ces connaissances vous aident à planifier des scénarios qui impliquent plusieurs actions de fichier.  Pour garantir la précision de votre conception, nous vous recommandons d’arrondir le délai d’exécution du module afin d’inclure une mémoire tampon.
-Par exemple, si Fusion télécharge un document en 144 secondes (2,4 minutes), vous pouvez vous attendre à ce qu’une seule exécution puisse effectuer des actions similaires plusieurs fois. Dans cet exemple, l’exécution du module prend 144 secondes et vous devez prévoir 3 minutes d’exécution pour le téléchargement. Si vos besoins incluent à la fois un téléchargement et un téléchargement, le temps d’exécution prévu est d’environ 6 minutes. Notez que les temps d’exécution de fusion sont plafonnés à 40 minutes.
+* **Comprenez les besoins de votre entreprise en termes de temps d’exécution** : la limite de temps d’exécution de la plateforme Fusion est de 40 minutes, mais la plupart des automatisations de processus d’entreprise devraient s’exécuter beaucoup plus rapidement. Par exemple, les automatisations lancées par l’utilisateur avec une continuation dépendante du résultat devraient se terminer bien en deçà de la limite de 40 minutes.
+* **Tenir compte du temps d’exécution lors de la conception** : lors de la conception de votre scénario, il est essentiel de comprendre le temps d’exécution du module pour les actions de fichiers individuels, telles que les chargements et les téléchargements. Ces connaissances vous aident à planifier des scénarios qui impliquent plusieurs actions de fichier.  Pour garantir la précision de votre conception, nous vous recommandons d’arrondir le temps d’exécution du module à l’unité supérieure pour inclure une mémoire tampon.
+Par exemple, si Fusion télécharge un document en 144 secondes (2,4 minutes), vous pouvez vous attendre à ce qu’une seule exécution effectue plusieurs fois des actions similaires. Dans cet exemple, l’exécution du module prend 144 secondes et vous devez prévoir un temps d’exécution de 3 minutes pour le téléchargement. Si vos exigences incluent à la fois un chargement et un téléchargement, le temps d’exécution attendu est d’environ 6 minutes. Notez que les délais d’exécution de Fusion sont plafonnés à 40 minutes.
 
-* **Consolidation des actions de fichier** : l’exemple le plus courant d’actions de fichier dans un scénario Fusion est un téléchargement et un chargement. La plupart des scénarios comportant uniquement ces deux actions s’exécuteront dans quelques minutes. Lorsque cela est possible, les concepteurs de Fusion doivent limiter leurs scénarios à un téléchargement et un chargement.
+* **Actions de consolidation de fichier** : l’exemple le plus courant d’actions de fichier dans un scénario Fusion est un téléchargement et un téléchargement. La plupart des scénarios comportant uniquement ces deux actions s’exécutent en quelques minutes. Dans la mesure du possible, les concepteurs de Fusion doivent limiter leurs scénarios à un téléchargement et à un chargement.
 
-* **Calculez la taille à l’aide du panneau de mappage** : Workfront et d’autres services Web incluent la taille de fichier d’un fichier dans la sortie du module de téléchargement. Vous pouvez utiliser ces données pour filtrer les fichiers trop volumineux pour un chargement de module ou trop volumineux pour le temps d’exécution du scénario.
+* **Calculer la taille à l’aide du panneau de mappage** : Workfront et les autres services web incluent la taille de fichier d’un fichier dans la sortie du module de téléchargement. Vous pouvez utiliser ces données pour filtrer les fichiers trop volumineux pour un chargement de module ou trop volumineux pour le temps d’exécution du scénario.
 
-* **Isolez les actions de fichier dans leur propre scénario lors de l’utilisation de plusieurs fichiers** : les concepteurs de fusion doivent envisager d’isoler les actions de fichier dans des scénarios distincts. Par exemple, un scénario de fusion déclenché par une nouvelle requête Workfront avec plusieurs fichiers joints peut nécessiter une capacité de 30 fichiers au maximum. Étant donné que le chargement et le téléchargement de chaque fichier peuvent prendre jusqu’à 3 minutes, le traitement de tous les fichiers en une seule exécution dépasserait la limite d’exécution de 40 minutes de Fusion. La solution consiste à créer un scénario d’actions de fichier dédié à la gestion du téléchargement et du téléchargement de fichiers individuels. Le scénario déclenché par la requête effectue une itération sur les fichiers joints, en appelant le scénario d’actions de fichier pour chaque fichier à l’aide du module HTTP. Cette approche garantit que chaque fichier est traité dans les limites du temps d’exécution.
+* **Isoler les actions de fichier dans leur propre scénario lorsque vous travaillez avec plusieurs fichiers** : les concepteurs de Fusion doivent envisager d’isoler les actions de fichier dans des scénarios distincts. Par exemple, un scénario Fusion déclenché par une nouvelle demande Workfront avec plusieurs fichiers joints peut devoir contenir jusqu’à 30 fichiers. Étant donné que le chargement et le téléchargement de chaque fichier peuvent prendre jusqu’à 3 minutes, le traitement de tous les fichiers en une seule exécution dépasse la limite d’exécution de 40 minutes de Fusion. La solution consiste à créer un scénario d’actions sur les fichiers dédié à la gestion du chargement et du téléchargement des fichiers individuels. Le scénario déclenché par la requête effectue une itération sur les fichiers joints, invoquant le scénario d’actions sur les fichiers pour chaque fichier à l’aide du module HTTP. Cette approche garantit que chaque fichier est traité dans les délais d’exécution.
 
 <!--
 ## Connectors that do not support large files

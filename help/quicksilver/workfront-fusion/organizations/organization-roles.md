@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Rôles d’organisation dans  [!DNL Adobe Workfront Fusion]
-description: Cet article contient des informations sur l’accès et les autorisations des rôles dans  [!DNL Adobe]  Workfront Fusion.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: cb093fcecd5defd9dbdbb955ad5158d4a794f005
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '593'
+ht-degree: 87%
 
 ---
 
 # Rôles d’organisation et d’équipe dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Rôles au sein de l’organisation et de l’équipe](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/licenses-and-roles/organization-roles.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Cet article décrit l’accès et les fonctionnalités disponibles pour les différents rôles des équipes et des organisations dans [!DNL Workfront Fusion].
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Exécution de scénarios, cycles et phases dans  [!DNL Adobe Workfront Fusion]
-description: Cet article décrit les événements qui se produisent pendant l’exécution d’un scénario  [!DNL Adobe Workfront Fusion] , tels que l’initialisation, les opérations, les engagements et les restaurations.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5403f476-226d-4268-affc-8e06b1117684
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 100%
+source-wordcount: '611'
+ht-degree: 87%
 
 ---
 
 # Exécution de scénarios, cycles et phases dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Exécution du scénario, cycles et phases](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-cycles-phases.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 [!DNL Adobe Workfront Fusion] est un système transactionnel, similaire aux bases de données relationnelles. Chaque exécution de scénario commence par la phase d’initialisation, se poursuit par au moins un cycle composé des phases d’opération et d’engagement/de restauration, puis se termine par la phase de finalisation :
 

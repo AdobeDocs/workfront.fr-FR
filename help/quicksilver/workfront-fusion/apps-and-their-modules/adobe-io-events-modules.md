@@ -4,21 +4,33 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connecteur
 navigation-topic: apps-and-their-modules
-title: Adobe I/O des modules d’événements
-description: Avec les modules Événements d’Adobe I/O, vous pouvez lancer un scénario de fusion Adobe Workfront basé sur les événements de vos applications d’Adobe.
+title: Adobe I/O des modules d’événement
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 42%
+source-wordcount: '987'
+ht-degree: 39%
 
 ---
 
-# Adobe I/O des modules d’événements
+# Adobe I/O des modules d’événement
 
-Avec les modules Événements d’Adobe I/O, vous pouvez lancer un scénario de fusion Adobe Workfront basé sur les événements dans les comptes et services d’Adobe qui n’ont pas de connecteur de fusion Workfront dédié.
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules d’événements d’Adobe I/O ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-io-events-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
+
+Avec les modules Événements d’Adobe I/O , vous pouvez démarrer un scénario Adobe Workfront Fusion en fonction d’événements dans les comptes et services d’Adobe qui ne disposent pas d’un connecteur Workfront Fusion dédié.
 
 ## Conditions d’accès
 
@@ -37,7 +49,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
    <td> <p>Plan, Travail</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront Fusion**</td> 
+   <td role="rowheader">Licence Adobe Workfront Fusion **</td> 
    <td> <p>Workfront Fusion pour l’automatisation et l’intégration du travail </p>  </td> 
   </tr> 
   <tr> 
@@ -49,17 +61,17 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
-&#42;&#42; Pour plus d’informations sur les licences Adobe Workfront Fusion, voir [Licences Adobe Workfront Fusion](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Pour plus d’informations sur les licences Adobe Workfront Fusion, voir [Licences Adobe Workfront Fusion](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Conditions préalables
 
-Avant de pouvoir utiliser le connecteur Adobe I/O Events, vous devez vous assurer que les conditions préalables suivantes sont remplies :
+Avant de pouvoir utiliser le connecteur d’événements d’Adobe I/O, vous devez vous assurer que les conditions préalables suivantes sont remplies :
 
-* Vous devez disposer d’un compte Adobe actif.
+* Vous devez disposer d’un compte d’Adobe actif.
 
-## Informations sur l’API des événements d’Adobe I/O
+## Informations de l’API des événements d’Adobe I/O
 
-Le connecteur Adobe I/O Events utilise les éléments suivants :
+Le connecteur Événements d’Adobe I/O utilise les éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +90,7 @@ Le connecteur Adobe I/O Events utilise les éléments suivants :
 
 ## Création d’une connexion à des événements d’Adobe I/O
 
-Pour créer une connexion pour vos modules Événements d’Adobe I/O :
+Pour créer une connexion pour vos modules d’événements d’Adobe I/O :
 
 1. Cliquez sur Ajouter en regard de la zone Connexion .
 
@@ -99,48 +111,48 @@ Pour créer une connexion pour vos modules Événements d’Adobe I/O :
       <tr>
         <td role="rowheader">Type</td>
         <td>
-          <p>Indiquez si vous souhaitez vous connecter à un compte de service ou à un compte personnel.</p>
+          <p>Choisissez si vous souhaitez vous connecter à un compte de service ou à un compte personnel.</p>
         </td>
       </tr>
       <tr>
         <td role="rowheader">Portées supplémentaires</td>
-        <td>Pour ajouter d’autres portées, cliquez sur <b>Ajouter un élément</b> et saisissez la portée.</td>
+        <td>Pour ajouter des portées supplémentaires, cliquez sur <b>Ajouter un élément</b> et saisissez la portée.</td>
       </tr>
       <tr>
         <td role="rowheader">ID client</td>
-        <td>Saisissez votre ID client d’Adobe. Vous pouvez le trouver dans la section Informations d’identification de Adobe Developer Console</td>
+        <td>Saisissez votre ID client d’Adobe. Vous trouverez cette information dans la section Informations d’identification du Adobe Developer Console</td>
       </tr>
       <tr>
         <td role="rowheader">Clé secrète client</td>
-        <td>Saisissez votre secret client Adobe. Vous pouvez le trouver dans la section Informations d’identification de Adobe Developer Console</td>
+        <td>Saisissez votre Secret client d’Adobe. Vous trouverez cette information dans la section Informations d’identification du Adobe Developer Console</td>
       </tr>
       </tr>
         <tr>
         <td role="rowheader">ID d’organisation du client</td>
-        <td>Saisissez votre ID d’organisation du client. Vous pouvez le trouver dans l’URL d’identification du projet : <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
+        <td>Saisissez votre ID d’organisation client. Elle se trouve dans l’URL d’identification du projet : <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
       </tr>
       <tr>
-        <td role="rowheader">ID d’identification</td>
-        <td>Saisissez votre ID d’identification. Vous pouvez le trouver dans l’URL d’identification du projet : <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
+        <td role="rowheader">Identifiant d’identification</td>
+        <td>Saisissez vos informations d’identification. Elle se trouve dans l’URL d’identification du projet : <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
       </tr>
       <tr>
         <td role="rowheader">Identifiant de l’organisation IMS</td>
-        <td>Saisissez votre ID d’organisation Adobe. Vous pouvez le trouver dans la section Informations d’identification de Adobe Developer Console</td>
+        <td>Saisissez votre ID d’organisation d’Adobe. Vous trouverez cette information dans la section Informations d’identification du Adobe Developer Console</td>
       </tr>
         <tr>
         <td role="rowheader">ID de projet</td>
-        <td>Saisissez votre ID de projet. Vous pouvez le trouver dans l’URL d’identification du projet : <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
+        <td>Saisissez votre ID de projet. Elle se trouve dans l’URL d’identification du projet : <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
       </tr>
       <tr>
         <td role="rowheader">WORKSPACE ID</td>
-        <td>Pour afficher l’Workspace ID de votre projet, téléchargez les détails du projet à partir de la page d’aperçu du projet dans Adobe Developer Console. </td>
+        <td>Pour afficher l’identifiant Workspace de votre projet, téléchargez les détails du projet depuis la page d’aperçu du projet dans Adobe Developer Console. </td>
       </tr>
     </tbody>
     </table>
 
 1. Cliquez sur **Continuer** pour enregistrer la connexion et revenir au module.
 
-## Adobe I/O des modules d’événements et de leurs champs
+## Modules d’événements d’Adobe I/O et leurs champs
 
 Lorsque vous configurez les modules [!DNL Adobe I/O Events], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces derniers, des champs [!DNL Adobe I/O Events] supplémentaires peuvent s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
@@ -154,7 +166,7 @@ Si le bouton « Mapper » apparaît au-dessus d’un champ ou d’une fonction
 
 ### Déclencheurs
 
-#### Création d’une enregistrement d’événement
+#### Créer un enregistrement d’événement
 
 Ce module d’action utilise un webhook pour créer une description d’événement. Vous pouvez configurer un webhook ici. Si vous utilisez un webhook existant, les champs de ce module sont en lecture seule.
 
@@ -177,7 +189,7 @@ Pour créer un webhook :
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Description du webhook]
+           [!UICONTROL Webhook description]
          </td>
          <td>
            Saisissez une description pour ce webhook.
@@ -185,7 +197,7 @@ Pour créer un webhook :
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Event provider]
+           [!UICONTROL Fournisseur d’événements]
          </td>
          <td>
            Sélectionnez le produit ou le compte à partir duquel vous souhaitez créer des événements.
@@ -196,19 +208,19 @@ Pour créer un webhook :
            [!UICONTROL Event type]
          </td>
          <td>
-           Sélectionnez les événements que le webhook doit surveiller. Le scénario se déclenche lorsque ces événements se produisent.
+           Sélectionnez les événements que le webhook doit regarder. Le scénario se déclenche lorsque ces événements se produisent.
          </td>
        </tr>
      </tbody>
    </table>
 
-1. Cliquez sur Enregistrer pour enregistrer le webhook et revenir au module.
+1. Cliquez sur Enregistrer pour enregistrer le webhook et revenir au module .
 
 ### Actions
 
-#### Obtenir tous les événements d’un journal
+#### Récupérer tous les événements d’un journal
 
-Ce module de recherche récupère tous les événements à enregistrer dans un journal.
+Ce module de recherche récupère tous les événements d’un enregistrement dans un journal.
 
 <table>
      <col/>
@@ -220,7 +232,7 @@ Ce module de recherche récupère tous les événements à enregistrer dans un j
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL ID d’enregistrement]
+           [!UICONTROL Registration ID]
          </td>
          <td>
            Sélectionnez l’enregistrement pour lequel vous souhaitez récupérer les événements.
@@ -236,24 +248,24 @@ Ce module de recherche récupère tous les événements à enregistrer dans un j
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Événements de retour qui se produisent après]
+           [!UICONTROL Renvoyer les événements qui se produisent après]
          </td>
          <td>
          </td>
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Rechercher]
+           [!UICONTROL Seek]
          </td>
          <td>
          </td>
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Dernière version]
+           [!UICONTROL Latest]
          </td>
          <td>
-         Activez cette option pour renvoyer le dernier événement.
+         Activez cette option pour renvoyer l’événement le plus récent.
          </td>
        </tr>
      </tbody>
@@ -261,7 +273,7 @@ Ce module de recherche récupère tous les événements à enregistrer dans un j
 
 #### Effectuer un appel API personnalisé.
 
-Ce module d’action effectue un appel API personnalisé à l’API [!DNL Adobe I/O Events].
+Ce module d’action effectue un appel API personnalisé à l’API [!DNL Adobe I/O Events]
 
 <table>
   <col/>
@@ -312,9 +324,9 @@ Ce module d’action effectue un appel API personnalisé à l’API [!DNL Adobe 
 
 ### Recherches
 
-#### Obtention des ID de fournisseur et d’événement
+#### Obtention des identifiants de fournisseur et d’événement
 
-Ce module de recherche récupère les identifiants d’événements d’Adobe I/O pour le fournisseur et les événements spécifiés.
+Ce module de recherche obtient les identifiants d’événements d’Adobe I/O pour le fournisseur et les événements spécifiés.
 
 <table>
      <col/>
@@ -326,10 +338,10 @@ Ce module de recherche récupère les identifiants d’événements d’Adobe I/
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Event provider]
+           [!UICONTROL Fournisseur d’événements]
          </td>
          <td>
-           Sélectionnez le fournisseur pour lequel vous souhaitez récupérer l’ID.
+           Sélectionnez le fournisseur pour lequel vous souhaitez récupérer l’identifiant.
         </td>
        </tr>
        <tr>
@@ -337,7 +349,7 @@ Ce module de recherche récupère les identifiants d’événements d’Adobe I/
            [!UICONTROL Event type]
          </td>
          <td>
-              Sélectionnez les événements pour lesquels vous souhaitez fournir des identifiants. Les événements sont disponibles en fonction du fournisseur d’événements. 
+              Sélectionnez les événements pour lesquels vous souhaitez fournir des identifiants. Les événements sont disponibles en fonction du fournisseur d’événement. 
          </td>
        </tr>
      </tbody>

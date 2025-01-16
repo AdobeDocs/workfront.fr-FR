@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 navigation-topic: apps-and-their-modules
 title: Analyseur de texte
-description: Vous pouvez utiliser l’outil d’analyse de texte pour analyser le texte en vue de l’utiliser dans d’autres modules de scénario  [!DNL Adobe Workfront Fusion] . L’analyseur de texte ne nécessite pas de connexion.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 93%
+source-wordcount: '1097'
+ht-degree: 87%
 
 ---
 
 # [!UICONTROL Analyseur de texte]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Analyseur de texte](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/text-parser.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Vous pouvez utiliser l’[!UICONTROL outil d’analyse de texte] pour analyser le texte en vue de l’utiliser dans d’autres modules de scénario [!DNL Adobe Workfront Fusion]. L’[!UICONTROL analyseur de texte] ne nécessite pas de connexion.
 
@@ -46,7 +58,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous disposez du plan de [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter du [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -58,9 +70,9 @@ Pour connaître la formule, le type de licence ou l’accès dont vous disposez,
 
 Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Informations sur l’API d’analyse de texte
+## Informations sur l’API de l’analyseur de texte
 
-Le connecteur d’analyseur de texte utilise les éléments suivants :
+Le connecteur de l’analyseur de texte utilise les éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -195,7 +207,7 @@ Le présent article ne vise pas à aborder la question des expressions réguliè
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Activez cette option pour vous assurer que le point (.) correspond aux caractères de saut de page (<code>\n</code>).</td> 
+   <td>Activez cette option pour vous assurer que le point (.) correspond aux caractères de nouvelle ligne (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
@@ -238,7 +250,7 @@ Recherche une valeur ou une expression régulière dans le texte saisi et rempla
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Activez cette option pour vous assurer que le point (.) correspond aux caractères de saut de page (<code>\n</code>).</td> 
+   <td>Activez cette option pour vous assurer que le point (.) correspond aux caractères de nouvelle ligne (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Text] </td> 

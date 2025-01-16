@@ -3,18 +3,22 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Navigation dans la nouvelle interface utilisateur de Workfront Fusion
-description: Workfront Fusion a mis à jour son interface utilisateur pour les utilisateurs qui n’ont pas accès à Fusion via Adobe Experience Cloud. Maintenant, leur expérience correspond plus étroitement à Fusion sur le Adobe Experience Cloud.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 66%
+source-wordcount: '416'
+ht-degree: 65%
 
 ---
 
 # Parcourir la nouvelle expérience dans Workfront Fusion
+
+>[!IMPORTANT]
+>
+>Cet article sera supprimé prochainement.
 
 Workfront Fusion a été mis à jour pour les utilisateurs et utilisatrices qui n’accèdent pas à Fusion via Adobe Experience Cloud. La nouvelle interface d’utilisation de Fusion offre une expérience plus transparente avec les autres produits Adobe et facilite la transition de vos utilisateurs et utilisatrices vers Adobe Experience Cloud.
 
@@ -71,8 +75,8 @@ Vous pouvez accéder à vos options de profil et de préférences en cliquant su
 Sous votre profil, vous pouvez afficher les onglets suivants :
 
 * **[!UICONTROL Organisations]** : affichez les organisations Fusion auxquelles vous appartenez.
-* **[!UICONTROL Options de fuseau horaire]** : ici, vous pouvez définir les fuseaux horaires utilisés dans l’interface utilisateur de Fusion, ainsi que les fuseaux horaires utilisés pour des scénarios individuels.
-* **[!UICONTROL API]** : ici, vous pouvez copier des jetons d’API existants ou en créer de nouveaux.
+* **[!UICONTROL Options de fuseau horaire]** : vous pouvez définir les fuseaux horaires utilisés dans l’interface utilisateur de Fusion et ceux utilisés dans des scénarios individuels.
+* **[!UICONTROL API]** : vous pouvez y copier des jetons API existants ou en créer de nouveaux.
 
 
 ## Accéder à vos notifications

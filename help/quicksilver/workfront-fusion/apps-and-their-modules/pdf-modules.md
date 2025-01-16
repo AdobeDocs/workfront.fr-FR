@@ -1,18 +1,30 @@
 ---
 title: Services Adobe PDF
-description: Services Adobe PDF
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3738'
-ht-degree: 98%
+source-wordcount: '3809'
+ht-degree: 96%
 
 ---
 
 # [!DNL Adobe PDF Services]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Services Adobe PDF](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/pdf-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Avec les [!DNL Adobe PDF Services] [!DNL Adobe Workfront Fusion], vous pouvez extraire des données d’un fichier PDF ou générer un nouveau fichier PDF à partir des données que vous fournissez. Vous pouvez également convertir divers types de fichiers en PDF ou des PDF en d’autres types de fichiers. Les services PDF vous permettent également de combiner, de compresser ou de lire les métadonnées d’un fichier PDF, ainsi que de contrôler la protection par mot de passe du fichier.
 
@@ -71,7 +83,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous disposez du plan de [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter du [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -89,9 +101,9 @@ Pour créer une connexion serveur à serveur OAuth, vous devez ajouter l’API A
 
 Pour obtenir des instructions, voir [Ajouter une API au projet à l’aide d’OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) dans la documentation Adobe Developer.
 
-## Informations sur l’API des services Adobe PDF
+## Informations sur l’API Adobe PDF Services
 
-Le connecteur Adobe PDF Services utilise les fonctionnalités suivantes :
+Le connecteur Adobe PDF Services utilise les éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 

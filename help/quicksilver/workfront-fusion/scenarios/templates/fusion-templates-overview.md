@@ -2,23 +2,35 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Modèles Adobe Workfront Fusion - Aperçu
-description: La fonction Modèles de fusion Workfront vous permet de créer et d’utiliser des modèles existants comme point de départ pour vos scénarios  [!DNL Workfront Fusion] .
+title: Présentation des modèles Adobe Workfront Fusion
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 20%
+source-wordcount: '448'
+ht-degree: 18%
 
 ---
 
 # Vue d’ensemble des modèles [!DNL Adobe Workfront Fusion]
 
-La fonction [!DNL Workfront Fusion] de modèles vous permet de créer et d’utiliser des modèles existants comme point de départ pour vos scénarios [!DNL Workfront Fusion]. Les modèles représentent des cas d’utilisation courants que vous pouvez configurer et modifier pour répondre aux besoins de votre entreprise et à des cas d’utilisation spécifiques.
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Afficher, modifier et supprimer des modèles](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/view-edit-and-delete-fusion-templates.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
-Pour obtenir la liste des modèles Fusion actuellement disponibles, voir [Modèles de fusion Adobe Workfront actuellement disponibles](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md).
+[!DNL Workfront Fusion] fonctionnalité de modèles vous permet de créer et d’utiliser des modèles existants comme point de départ pour vos scénarios de [!DNL Workfront Fusion]. Les modèles représentent des cas d’utilisation courants que vous pouvez configurer et modifier en fonction des besoins de votre organisation et des cas d’utilisation spécifiques.
+
+Pour obtenir la liste des modèles Fusion actuellement disponibles, voir [ Modèles Adobe Workfront Fusion actuellement disponibles ](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md).
 
 ## Conditions d’accès
 
@@ -59,27 +71,27 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Affichage et sélection de modèles de fusion
+## Affichage et sélection des modèles Fusion
 
 Dans la zone Modèles , vous pouvez afficher les modèles disponibles, les applications qu’ils incluent et leur structure. Vous pouvez également rechercher des applications ou des noms spécifiques et filtrer par cas d’utilisation.
 
-1. Cliquez sur **Modèles** ![Icône Modèle](assets/fusion-template-icon.png) dans le volet de navigation de gauche.
-1. Pour afficher le modèle disponible pour le public, cliquez sur l’onglet Modèles publics .
+1. Cliquez sur **Modèles** ![Icône de modèle](assets/fusion-template-icon.png) dans le volet de navigation de gauche.
+1. Pour afficher le modèle accessible au public, cliquez sur l’onglet Modèles publics .
 
    Ou
 
-   Pour afficher les modèles qui sont limités à votre équipe, cliquez sur l’onglet Modèles d’équipe .
+   Pour afficher les modèles limités à votre équipe, cliquez sur l&#39;onglet Modèles d&#39;équipe.
 
    >[!NOTE]
    >
-   >Si vous ne voyez pas les modèles attendus sous l’onglet Modèles d’équipe , vérifiez le volet de navigation de gauche ou l’en-tête pour vous assurer que vous êtes en train de consulter l’équipe appropriée.
-1. (Facultatif) Pour rechercher une application ou un nom spécifique, commencez à saisir le nom dans la zone Rechercher une application ou un nom, puis sélectionnez le terme lorsqu’il apparaît dans la liste déroulante.
-1. (Facultatif et conditionnel) Si vous utilisez Fusion sur l’Adobe Unified Shell, filtrez une catégorie spécifique de cas d’utilisation en cliquant sur la catégorie dans la section Par catégorie à droite.
-1. (Facultatif et conditionnel) Si vous utilisez Fusion sur l’Adobe Unified Shell, consultez la structure du modèle de scénario en pointant la souris sur la carte du modèle.
-1. Cliquez sur le modèle à utiliser pour créer un scénario.
+   >Si les modèles attendus ne s’affichent pas sous l’onglet Modèles d’équipe , vérifiez le volet de navigation de gauche de l’en-tête pour vous assurer que vous consultez actuellement la bonne équipe.
+1. (Facultatif) Pour rechercher une application ou un nom spécifique, commencez à saisir dans la zone Rechercher une application ou un nom, puis sélectionnez le terme lorsqu’il apparaît dans la liste déroulante.
+1. (Facultatif et conditionnel) Si vous utilisez Fusion sur Unified Shell Adobe, filtrez une catégorie spécifique de cas d’utilisation en cliquant sur la catégorie dans la section Par catégorie à droite.
+1. (Facultatif et conditionnel) Si vous utilisez Fusion sur Unified Shell Adobe, affichez la structure du modèle de scénario en pointant la souris sur la carte du modèle.
+1. Cliquez sur le modèle que vous souhaitez utiliser pour créer un scénario.
 
    Un diagramme du modèle s’affiche.
 
-1. Pour commencer à créer un scénario à partir du modèle, cliquez sur **Créer un scénario à partir du modèle** dans le coin inférieur gauche.
+1. Pour commencer à créer un scénario à partir du modèle, cliquez sur **Créer un nouveau scénario à partir d’un modèle** dans le coin inférieur gauche.
 
-Pour plus d’informations sur la création d’un scénario à partir d’un modèle, voir [Création de scénarios avec [!DNL Adobe Workfront Fusion] modèles](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).
+Pour obtenir des instructions sur la création d’un scénario à partir d’un modèle, voir [Créer des scénarios avec  [!DNL Adobe Workfront Fusion]  modèles](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).

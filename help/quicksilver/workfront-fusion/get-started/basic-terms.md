@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Termes de base dans Adobe Workfront Fusion
-description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion en plus d’une licence Adobe Workfront.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: eb39c26b076e89acb8bc4eef1a459b6ef8cd389b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 96%
+source-wordcount: '917'
+ht-degree: 88%
 
 ---
 
 # Termes de base dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Glossaire Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/fusion-glossary.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 >[!NOTE]
 >
@@ -104,7 +116,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Segment de scénario</p> </td> 
-   <td> <p> Section d’un scénario composée d’une série de modules qui se connectent tous à la même application. Les segments de scénario représentent souvent un processus court dans l’application.</p> </td> 
+   <td> <p> Section d’un scénario composée d’une série de modules qui se connectent tous à la même application. Les segments de scénario représentent souvent un workflow court dans l’application.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Transactions</p> </td> 

@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: connecteur
 navigation-topic: apps-and-their-modules
 title: Modules Power BI
-description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion en plus d’une licence Adobe Workfront.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 95%
+source-wordcount: '2551'
+ht-degree: 92%
 
 ---
 
 # Modules [!DNL Power BI]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules Power BI ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/powerbi-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 [!DNL Power BI] est une application qui vous permet de visualiser et de présenter des données à vos parties prenantes. Elle peut utiliser des données provenant de diverses sources.
 
@@ -53,7 +65,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous disposez du plan de [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter du [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigence des produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
@@ -104,11 +116,11 @@ Si le bouton « Mapper » apparaît au-dessus d’un champ ou d’une fonction
 
 ### Tableaux de bord
 
-* [Création d’un tableau de bord](#create-a-dashboard)
-* [Obtention d’un tableau de bord](#get-a-dashboard)
-* [Obtention d’une mosaïque de tableau de bord](#get-a-dashboard-tile)
-* [Mosaïques du tableau de bord de liste](#list-dashboard-tiles)
-* [Tableaux de bord de liste](#list-dashboards)
+* [Créer un tableau de bord](#create-a-dashboard)
+* [Obtenir un tableau de bord](#get-a-dashboard)
+* [Obtenir une mosaïque de tableau de bord](#get-a-dashboard-tile)
+* [Mosaïques de tableau de bord de liste](#list-dashboard-tiles)
+* [Liste des tableaux de bord](#list-dashboards)
 
 #### [!UICONTROL Créer un tableau de bord]
 
@@ -265,9 +277,9 @@ Ce module de recherche permet d’obtenir une liste de tableaux de bord.
 
 ### Rapports
 
-* [Copier un rapport](#copy-a-report)
+* [Copie d’un rapport](#copy-a-report)
 * [Suppression d’un rapport](#delete-a-report)
-* [Obtention d’un rapport](#get-a-report)
+* [Obtenir un rapport](#get-a-report)
 * [Rapports de liste](#list-reports)
 
 #### [!UICONTROL Copier un rapport]
@@ -397,12 +409,12 @@ Ce module de recherche permet d’obtenir une liste de rapports.
 
 ### Jeu de données
 
-* [Ajout/suppression de lignes dans un tableau de jeu de données](#add-or-delete-rows-in-a-dataset-table)
-* [Création d’un jeu de données](#create-a-dataset)
+* [Ajouter/supprimer des lignes dans une table de jeu de données](#add-or-delete-rows-in-a-dataset-table)
+* [Créer un jeu de données](#create-a-dataset)
 * [Suppression d’un jeu de données](#delete-a-dataset)
-* [Obtention d’un jeu de données](#get-a-dataset)
-* [Jeux de données de liste](#list-datasets)
-* [Actualisation d’un jeu de données](#refresh-a-dataset)
+* [Obtenir un jeu de données](#get-a-dataset)
+* [Liste des jeux de données](#list-datasets)
+* [Actualiser un jeu de données](#refresh-a-dataset)
 
 #### [!UICONTROL Ajouter ou supprimer des lignes dans un tableau de jeu de données]
 
@@ -797,13 +809,13 @@ Ce module d’action actualise un jeu de données spécifié.
 
 ### Applications
 
-* [Obtention d’une application](#get-an-app)
-* [Obtention du tableau de bord d’une application](#get-an-apps-dashboard)
-* [Obtention du rapport d’une application](#get-an-apps-report)
+* [Obtenir une application](#get-an-app)
+* [Obtenir le tableau de bord d’une application](#get-an-apps-dashboard)
+* [Obtenir un rapport d’application](#get-an-apps-report)
 * [Liste des tableaux de bord de l’application](#list-apps-dashboards)
 * [Liste des rapports de l’application](#list-apps-reports)
-* [Lister des applications](#list-apps)
-* [Watch Apps](#watch-apps)
+* [Liste des applications](#list-apps)
+* [Applications Watch](#watch-apps)
 
 #### [!UICONTROL Obtenir une application]
 

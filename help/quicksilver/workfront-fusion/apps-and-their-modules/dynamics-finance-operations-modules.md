@@ -4,18 +4,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connecteur
 navigation-topic: apps-and-their-modules
-title: Modules Microsoft Dynamics 365 Finance et Opérations
-description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent Microsoft Dynamics 365 Finance et Operations, et les connecter à plusieurs applications et services tiers.
+title: Modules Finances et opérations de Microsoft Dynamics 365
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 130437dd44db5db2a94914fb0e42fd35a7c14291
+exl-id: 19b00ee8-dc05-4cde-9a76-d857090fa543
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 33%
+source-wordcount: '1047'
+ht-degree: 31%
 
 ---
 
 # [!DNL Microsoft Dynamics 365 Finance and Operations modules]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules Finances et opérations de Microsoft Dynamics 365](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/dynamics-finance-operations-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Microsoft Dynamics 365] et le connecter à plusieurs applications et services tiers.
 
@@ -31,9 +44,9 @@ Pour plus d’informations sur les modules, voir [Modules dans  [!DNL Adobe Work
 
 ## Créer une connexion
 
-Pour créer une connexion pour vos modules Finance et Opérations Microsoft Dynamics 365 :
+Pour créer une connexion pour vos modules Finances et opérations Microsoft Dynamics 365 :
 
-1. Dans un module Microsoft Dynamics 365 Finance et Opérations, cliquez sur **[!UICONTROL Ajouter]** en regard de la zone Connexion.
+1. Dans un module Finances et opérations de Microsoft Dynamics 365, cliquez sur **[!UICONTROL Ajouter]** en regard de la zone Connexion.
 
 1. Remplissez les champs suivants :
 
@@ -46,7 +59,7 @@ Pour créer une connexion pour vos modules Finance et Opérations Microsoft Dyna
         <tr>
         <td role="rowheader">[!UICONTROL Connection type]</td>
         <td>
-          <p>Choisissez si vous créez une connexion Dynamics Finance et d’exploitation standard, ou une connexion à l’aide d’un code d’autorisation.</p>
+          <p>Indiquez si vous créez une connexion Dynamics Finance and Operations standard ou une connexion à l’aide d’un code d’autorisation.</p>
         </td>
         </tr>
         <tr>
@@ -57,19 +70,19 @@ Pour créer une connexion pour vos modules Finance et Opérations Microsoft Dyna
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Saisissez votre ID client Dynamics Finance et Opérations [!UICONTROL].</td>
+        <td>Saisissez votre ID client Dynamics Finance and Operations [!UICONTROL].</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Saisissez votre secret client Dynamics Finance et Operations [!UICONTROL]. </td>
+        <td>Saisissez votre clé secrète client Dynamics Finance and Operations [!UICONTROL]. </td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Tenant ID]</td>
-        <td>Saisissez votre ID de tenant Dynamics Finance et Operations.</td>
+        <td>Saisissez votre ID client Dynamics Finance and Operations.</td>
         </tr>
         <tr>
         <td role="rowheader">Ressource</td>
-        <td>Entrez l’URL de votre compte Dynamics Finance et Opérations (sans https://)</td>
+        <td>Saisissez l’URL de votre compte Dynamics Finance and Operations (sans https://)</td>
         </tr>
       </tbody>
     </table>
@@ -78,13 +91,13 @@ Pour créer une connexion pour vos modules Finance et Opérations Microsoft Dyna
 
 
 
-## Modules Microsoft Dynamics 365 Finance et Opérations et leurs champs
+## Modules Finances et opérations de Microsoft Dynamics 365 et leurs champs
 
 >[!IMPORTANT]
 >
->Les entités de données disponibles via l’API Dynamics 365 F&amp;O peuvent varier par instance. Si vous ne savez pas quelles entités sont disponibles via l’API, il est utile de parcourir les entités de votre instance à l’aide du point de terminaison &quot;data&quot;. Le point de terminaison &quot;data&quot; dans Dynamics 365 Finance and Operations est l’URL racine pour accéder aux services OData. Ce point de terminaison vous permet d’interagir avec différentes entités de données exposées par le système à l’aide des protocoles OData standard.
+>Les entités de données disponibles via l’API Dynamics 365 F&amp;O peuvent varier par instance. Si vous ne savez pas quelles entités sont disponibles via l’API, il est utile de parcourir les entités de votre instance à l’aide du point d’entrée « data ». Le point d&#39;entrée « data » dans Dynamics 365 Finance and Operations est l&#39;URL racine pour accéder aux services OData. Ce point d’entrée vous permet d’interagir avec diverses entités de données exposées par le système à l’aide des protocoles OData standard.
 >
->Vous pouvez récupérer ces entités à l’aide du module d’appel d’API personnalisé.
+>Vous pouvez récupérer ces entités à l’aide du module d’appel API personnalisé.
 >
 ><!--For more information -->
 
@@ -92,7 +105,7 @@ Pour créer une connexion pour vos modules Finance et Opérations Microsoft Dyna
 
 ### Créer un élément d’entité
 
-Ce module d’action crée un nouvel élément d’entité dans Microsoft Dynamics 365 Finance et Opérations.
+Ce module d&#39;action crée un nouvel élément d&#39;entité dans Microsoft Dynamics 365 Finance and Operations.
 
 <table style="table-layout:auto">
  <col> 
@@ -100,24 +113,24 @@ Ce module d’action crée un nouvel élément d’entité dans Microsoft Dynami
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-    <td> <p>Pour plus d’informations sur la connexion de Microsoft Dynamics 365 Finance et Opérations à [!DNL Workfront Fusion], voir <a href="#create-a-connection" class="MCXref xref">Création d’une connexion</a> dans cet article.</p> </td> 
+    <td> <p>Pour plus d’informations sur la connexion de Microsoft Dynamics 365 Finance and Operations à [!DNL Workfront Fusion], voir <a href="#create-a-connection" class="MCXref xref">Création d’une connexion</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Entity]</td>
-     <td>Saisissez ou mappez le type d’entité Dynamics Finance et Opérations que vous souhaitez créer.</td> 
+     <td>Saisissez ou mappez le type d'entité Dynamics Finance and Operations que vous souhaitez créer.</td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Body]</td>
-     <td> <p>Entrez ou mappez un corps JSON qui contient les données que vous souhaitez inclure dans le nouvel élément d’entité.</p> </td> 
+     <td> <p>Saisissez ou mappez un corps JSON contenant les données que vous souhaitez inclure dans le nouvel élément d’entité.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 
 
-### Supprimer un élément d’entité
+### Supprimer l’élément d’entité
 
-Ce module d’action supprime un élément d’entité de Dynamics Finance et des opérations. L’élément est identifié par ses champs de clé de Principal.
+Ce module d&#39;action supprime un élément d&#39;entité de Dynamics Finance and Operations. L’élément est identifié par ses champs de clé de Principal.
 
 <table style="table-layout:auto">
  <col> 
@@ -125,11 +138,11 @@ Ce module d’action supprime un élément d’entité de Dynamics Finance et de
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-    <td> <p>Pour plus d’informations sur la connexion de Microsoft Dynamics 365 Finance et Opérations à [!DNL Workfront Fusion], voir <a href="#create-a-connection" class="MCXref xref">Création d’une connexion</a> dans cet article.</p> </td> 
+    <td> <p>Pour plus d’informations sur la connexion de Microsoft Dynamics 365 Finance and Operations à [!DNL Workfront Fusion], voir <a href="#create-a-connection" class="MCXref xref">Création d’une connexion</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Entity]</td>
-     <td>Saisissez ou mappez le type d’entité Dynamics Finance et Opérations que vous souhaitez supprimer.</td> 
+     <td>Saisissez ou mappez le type d'entité Dynamics Finance and Operations que vous souhaitez supprimer.</td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Champs de clé de Principal]</td>
@@ -140,7 +153,7 @@ Ce module d’action supprime un élément d’entité de Dynamics Finance et de
 
 ### Effectuer un appel API personnalisé.
 
-Ce module d’action effectue un appel personnalisé à l’API Dynamics Finance et Operations.
+Ce module d&#39;action effectue un appel personnalisé à l&#39;API Dynamics Finance and Operations.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -148,11 +161,11 @@ Ce module d’action effectue un appel personnalisé à l’API Dynamics Finance
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-    <td> <p>Pour plus d’informations sur la connexion de Microsoft Dynamics 365 Finance et Opérations à [!DNL Workfront Fusion], voir <a href="#create-a-connection" class="MCXref xref">Création d’une connexion</a> dans cet article.</p> </td> 
+    <td> <p>Pour plus d’informations sur la connexion de Microsoft Dynamics 365 Finance and Operations à [!DNL Workfront Fusion], voir <a href="#create-a-connection" class="MCXref xref">Création d’une connexion</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>Saisissez un chemin relatif à votre URL Dynamics Finance et Operations.</p> </td> 
+   <td> <p>Saisissez un chemin d’accès relatif à votre URL Dynamics Finance and Operations.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
@@ -178,9 +191,9 @@ Ce module d’action effectue un appel personnalisé à l’API Dynamics Finance
 
 
 
-### Lire l’élément d’entité
+### Élément d’entité de lecture
 
-Ce module d’action renvoie les données d’un élément d’entité. L’élément est identifié par ses champs de clé de Principal.
+Ce module d&#39;action renvoie les données d&#39;un élément d&#39;entité. L’élément est identifié par ses champs de clé de Principal.
 
 <table style="table-layout:auto">
  <col> 
@@ -188,11 +201,11 @@ Ce module d’action renvoie les données d’un élément d’entité. L’él�
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-    <td> <p>Pour plus d’informations sur la connexion de Microsoft Dynamics 365 Finance et Opérations à [!DNL Workfront Fusion], voir <a href="#create-a-connection" class="MCXref xref">Création d’une connexion</a> dans cet article.</p> </td> 
+    <td> <p>Pour plus d’informations sur la connexion de Microsoft Dynamics 365 Finance and Operations à [!DNL Workfront Fusion], voir <a href="#create-a-connection" class="MCXref xref">Création d’une connexion</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Entity]</td>
-     <td>Saisissez ou mappez le type d’entité Dynamics Finance et Opérations que vous souhaitez lire.</td> 
+     <td>Saisissez ou mappez le type d'entité Dynamics Finance and Operations que vous souhaitez lire.</td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Champs de clé de Principal]</td>
@@ -209,11 +222,11 @@ Ce module d’action renvoie les données d’un élément d’entité. L’él�
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-    <td> <p>Pour plus d’informations sur la connexion de Microsoft Dynamics 365 Finance et Opérations à [!DNL Workfront Fusion], voir <a href="#create-a-connection" class="MCXref xref">Création d’une connexion</a> dans cet article.</p> </td> 
+    <td> <p>Pour plus d’informations sur la connexion de Microsoft Dynamics 365 Finance and Operations à [!DNL Workfront Fusion], voir <a href="#create-a-connection" class="MCXref xref">Création d’une connexion</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Entity]</td>
-     <td>Saisissez ou mappez le type d’entité Dynamics Finance et Opérations que vous souhaitez mettre à jour.</td> 
+     <td>Saisissez ou mappez le type d'entité Dynamics Finance and Operations à mettre à jour.</td> 
   </tr>  
   <tr> 
     <td>[!UICONTROL Champs de clé de Principal]</td>
@@ -221,14 +234,14 @@ Ce module d’action renvoie les données d’un élément d’entité. L’él�
   </tr> 
   <tr> 
     <td>[!UICONTROL Body]</td>
-     <td> <p>Entrez ou mappez un corps JSON qui contient les données que vous souhaitez inclure dans le nouvel élément d’entité.</p> </td> 
+     <td> <p>Saisissez ou mappez un corps JSON contenant les données que vous souhaitez inclure dans le nouvel élément d’entité.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Recherche
 
-Ce module de recherche renvoie des résultats en fonction des critères que vous avez spécifiés.
+Ce module de recherche renvoie les résultats en fonction des critères que vous spécifiez.
 
 <table style="table-layout:auto">
  <col> 
@@ -240,7 +253,7 @@ Ce module de recherche renvoie des résultats en fonction des critères que vous
   </tr> 
   <tr> 
    <td>[!UICONTROL Entity]</td> 
-   <td>Saisissez ou mappez le type d’entité Dynamics Finance et Opérations que vous souhaitez rechercher.</td> 
+   <td>Saisissez ou mappez le type d'entité Dynamics Finance and Operations que vous souhaitez rechercher.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Search criteria]</td> 

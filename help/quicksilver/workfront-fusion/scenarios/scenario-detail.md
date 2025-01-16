@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Détails du scénario dans  [!DNL Adobe Workfront Fusion]
-description: Détails du scénario dans  [!DNL Adobe Workfront Fusion]
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: 28b422b818cd3e6774c28aae994526a0e7d0420c
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 96%
+source-wordcount: '674'
+ht-degree: 85%
 
 ---
 
 # Détails du scénario dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Présentation des détails du scénario](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/scenario-details.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 La page Détails du scénario correspond à la page d’accueil d’un scénario spécifique. Elle permet d’accéder à des informations spécifiques pour le scénario représenté sur la page.
 
@@ -76,7 +88,7 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
       <td>Cet onglet affiche la représentation visuelle du scénario. Le diagramme est le même que celui de l’éditeur de scénario.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Rapports] (onglet) </td> 
+      <td role="rowheader">[!UICONTROL Reports] (onglet) </td> 
       <td> <p>Ouvrez cet onglet pour afficher un graphique du nombre d’opérations effectuées par ce scénario au cours des 30 derniers jours.</p>  </td> 
      </tr> 
      <tr> 

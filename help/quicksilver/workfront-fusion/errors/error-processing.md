@@ -3,19 +3,31 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: Traitement des erreurs dans  [!DNL Adobe Workfront Fusion]
-description: Il arrive qu’une erreur se produise pendant l’exécution d’un scénario. Cela se produit généralement lorsqu’un service n’est pas disponible en raison d’un échec de connexion à un service ou d’un échec de validation. Cet article traite des erreurs courantes que vous pouvez rencontrer.
+title: Traiter les erreurs dans  [!DNL Adobe Workfront Fusion]
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 100%
+source-wordcount: '1276'
+ht-degree: 94%
 
 ---
 
 # Traitement des erreurs dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Types d’erreur](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/error-processing.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Il arrive qu’une erreur se produise pendant l’exécution d’un scénario. Cela se produit généralement lorsqu’un service n’est pas disponible en raison d’un échec de connexion à un service ou d’un échec de validation. Cet article traite des erreurs courantes que vous pouvez rencontrer.
 

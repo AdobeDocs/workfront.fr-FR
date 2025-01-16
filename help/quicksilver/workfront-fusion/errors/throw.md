@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Gestion de la génération d’erreurs dans Adobe Workfront Fusion
-description: Dans certains cas, vous pouvez arrêter de force l’exécution du scénario suivie de la phase Restauration ou Engagement ou arrêter le traitement d’un itinéraire et éventuellement le stocker dans la file d’attente Afficher et résoudre les exécutions incomplètes dans Adobe Workfront Fusion.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 100%
+source-wordcount: '415'
+ht-degree: 82%
 
 ---
 
 # Gestion de la génération d’erreurs dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Configurer `throw` solution de contournement d’erreur](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/throw.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Dans certains cas, vous pouvez arrêter de force l’exécution du scénario suivie de la phase [Restauration](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) ou [Engagement](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit) ou arrêter le traitement d’un itinéraire et éventuellement le stocker dans la file d’attente d’exécutions incomplètes.
 

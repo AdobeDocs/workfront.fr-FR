@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Activer ou désactiver un scénario dans  [!DNL Adobe]  Workfront Fusion
-description: Cet article explique les raisons pour lesquelles les scénarios actifs ou désactivés sont utiles dans différentes situations et comment activer ou désactiver un scénario.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 91%
+source-wordcount: '345'
+ht-degree: 70%
 
 ---
 
 # Activer ou désactiver un scénario dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Activer ou désactiver un scénario](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/activate-deactivate-scenarios.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Vous pouvez utiliser des scénarios à l’état actif ou inactif :
 
@@ -24,7 +36,7 @@ Vous pouvez utiliser des scénarios à l’état actif ou inactif :
 
 * Un scénario inactif s’exécute uniquement lorsque vous l’exécutez manuellement.
 
-  Cela s’avère utile lorsque vous souhaitez exécuter manuellement le scénario à chaque fois.
+  Cela s’avère utile lorsque vous souhaitez exécuter le scénario manuellement à chaque fois.
 
 Vous pouvez à tout moment activer ou désactiver un scénario, selon la manière dont vous souhaitez l’utiliser.
 
@@ -76,6 +88,6 @@ Vous devez créer un scénario avant de pouvoir l’activer.
 ## Activez ou désactivez un scénario en procédant comme suit :
 
 1. Cliquez sur **[!UICONTROL Scénarios]** ![](assets/scenarios-icon.png) dans le panneau de gauche, puis cliquez sur le scénario pour l’ouvrir.
-1. Dans le coin inférieur gauche de la fenêtre, cliquez sur le bouton d’activation/de désactivation **[!UICONTROL .]**
+1. Dans le coin inférieur gauche de la fenêtre, cliquez sur le bouton (bascule) **[!UICONTROL Activé/Désactivé]**.
 
    ![](assets/on-off-switch.jpg)

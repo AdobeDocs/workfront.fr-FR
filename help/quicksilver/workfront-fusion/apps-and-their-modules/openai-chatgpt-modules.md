@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connecteur
 navigation-topic: apps-and-their-modules
 title: Modules OpenAI (ChatGPT)
-description: Dans un scénario Adobe Workfront Fusion, vous pouvez automatiser les workflows qui utilisent OpenAI (ChatGPT), et le connecter à plusieurs applications et services tiers.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 3a747013-5fb6-4416-8d95-d656dfeeb7db
-source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 98%
+source-wordcount: '1389'
+ht-degree: 93%
 
 ---
 
 # Modules [!DNL OpenAI (ChatGPT & DALL-E)]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules OpenAI (ChatGPT et DALL-E)](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/openai-chatgpt-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL OpenAI (ChatGPT & DALL-E)] et le connecter à plusieurs applications et services tiers.
 
@@ -61,7 +73,7 @@ Pour utiliser les modules [!DNL OpenAI (ChatGPT & DALL-E)], vous devez disposer 
 
 ## Informations sur l’API OpenAI (ChatGPT et DALL-E)
 
-Le connecteur OpenAI (ChatGPT et DALL-E) utilise les fonctionnalités suivantes :
+Le connecteur OpenAI (ChatGPT et DALL-E) utilise les éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +85,7 @@ Le connecteur OpenAI (ChatGPT et DALL-E) utilise les fonctionnalités suivantes 
   </tr> 
   <tr> 
    <td role="rowheader">Balise API</td> 
-   <td>1.11.1</td> 
+   <td>v1.11.1</td> 
   </tr>
  </tbody> 
  </table>

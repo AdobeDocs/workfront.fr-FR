@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Méthodes de requête HTTP dans  [!DNL Adobe Workfront Fusion]
-description: Lorsque vous configurez un appel API dans un module, vous devez remplir le champ de la méthode de requête HTTP.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 20b3c0f4-4a4c-4ba0-8570-ac39573ef1c0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 83%
 
 ---
 
 # Méthodes de requête HTTP dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Méthodes de requête HTTP](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/http-request-methods.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Lorsque vous configurez un appel API dans un module, vous devez remplir le champ de la méthode de requête HTTP.
 

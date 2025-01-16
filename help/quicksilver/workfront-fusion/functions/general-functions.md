@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Fonctions générales dans Adobe Workfront Fusion
-description: Les fonctions générales suivantes sont disponibles dans le panneau de mappage dAdobe Workfront Fusion.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 72%
+source-wordcount: '455'
+ht-degree: 59%
 
 ---
 
 # Fonctions générales dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Fonctions générales](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/general-functions.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 ## Conditions d’accès
 
@@ -77,7 +89,7 @@ Pour créer une instruction if qui renvoie une valeur uniquement si plusieurs ex
 
 Pour combiner des instructions `if`, utilisez les opérateurs `and` et `or` .
 
-![et opérateur](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
+![opérateur and](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
 
 >[!INFO]
 >
@@ -118,7 +130,7 @@ Renvoie la `value1` si cette valeur n’est pas vide ; sinon elle renvoie la `v
 
 ## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
 
-Evalue une valeur (appelée expression) par rapport à une liste de valeurs ; renvoie le résultat correspondant à la première valeur correspondante. Pour inclure une valeur `else`, ajoutez-la après l’expression ou la valeur finale.
+Évalue une valeur (appelée expression) par rapport à une liste de valeurs ; renvoie le résultat correspondant à la première valeur correspondante. Pour inclure une valeur `else`, ajoutez-la après l’expression ou la valeur finale.
 
 >[!INFO]
 >
@@ -164,5 +176,5 @@ Sélectionne uniquement les clés données de l’objet.
 
 ## mergeCollections(collection1 ; collection2)
 
-Fusionne deux collections en combinant leurs paires clé-valeur. Si les deux collections contiennent la même clé, la valeur de la deuxième collection remplace cette valeur de la première collection.
+Fusionne deux collections en combinant leurs paires clé-valeur. Si les deux collections contiennent la même clé, la valeur de la deuxième collection remplace celle de la première collection.
 

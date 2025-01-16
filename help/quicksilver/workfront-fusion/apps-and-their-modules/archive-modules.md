@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Modules Archive
-description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez connecter une archive, comme un fichier compressé, à plusieurs applications et services tiers. Par exemple, vous pouvez configurer un scénario qui fait ce qui suit.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 87%
 
 ---
 
 # Modules d’[!UICONTROL archive]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Archiver les modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/archive-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez utiliser une archive, comme un fichier compressé, dans votre scénario, ce qui vous permet de l’utiliser dans vos automatismes ou vos intégrations.
 

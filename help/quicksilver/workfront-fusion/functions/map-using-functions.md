@@ -3,23 +3,35 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Mapper des éléments à l’aide de fonctions dans  [!DNL Adobe Workfront Fusion]
-description: Lorsque vous mappez des éléments, vous pouvez utiliser des fonctions pour créer des formules simples ou complexes.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: e64d9b1e-8576-43db-ac29-0d386a482fbc
-source-git-commit: d175a3d43f13338661d8b7e1cb79038a36522ff9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 73%
+source-wordcount: '566'
+ht-degree: 63%
 
 ---
 
 # Mapper des éléments à l’aide de fonctions dans [!DNL Adobe Workfront Fusion]
 
-Lorsque vous mappez des éléments, vous pouvez utiliser des fonctions pour créer des formules simples ou complexes. Les fonctions disponibles dans [!DNL Adobe Workfront Fusion] sont similaires aux fonctions d’Excel et de certains langages de programmation :
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Mapper un élément à l’aide de fonctions](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-using-functions.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
-* Ils évaluent la logique générale, les maths, le texte, les dates et les tableaux.
-* Ils vous permettent d’effectuer une logique conditionnelle et des transformations des valeurs d’élément, comme convertir du texte en majuscules, rogner du texte, convertir une date dans un format différent, etc.
+Lorsque vous mappez des éléments, vous pouvez utiliser des fonctions pour créer des formules simples ou complexes. Les fonctions disponibles dans [!DNL Adobe Workfront Fusion] sont similaires à celles d’Excel et de certains langages de programmation :
+
+* Ils évaluent la logique générale, les mathématiques, le texte, les dates et les tableaux.
+* Ils vous permettent d’effectuer une logique conditionnelle et des transformations de valeurs d’élément, telles que la conversion d’un texte en majuscules, le rognage de texte, la conversion d’une date dans un autre format, etc.
 
 Pour plus d’informations, voir [Mapper des informations d’un module à un autre dans Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -65,9 +77,9 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 
-## Onglet Mappage - Aperçu
+## Aperçu de l’onglet Mappage
 
-Pour ouvrir le panneau [!UICONTROL mapping] pour un champ :
+Pour ouvrir le panneau [!UICONTROL mappage] pour un champ :
 
 1. Cliquez sur **Scénarios** dans le panneau de gauche.
 1. Choisissez un scénario.
@@ -77,7 +89,7 @@ Pour ouvrir le panneau [!UICONTROL mapping] pour un champ :
 
 ### Onglets du panneau de mappage
 
-Vous trouverez ci-dessous des onglets dans le panneau de mappage :
+Voici des onglets dans le panneau de mappage :
 
 * **Fonctions générales** ![](assets/toolbar-icon-general-function.png) - Voir [Fonctions générales dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) pour plus d’informations.
 
@@ -85,7 +97,7 @@ Vous trouverez ci-dessous des onglets dans le panneau de mappage :
 
 * **Fonctions de texte et binaires** ![](assets/toolbar-icon-text&binary-functions.png) - Voir [Fonctions de chaîne de caractères dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) pour plus d’informations.
 
-* **Date et heure** ![](assets/toolbar-icon-date&time-functions.png) - Voir [Fonctions de date et d’heure dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) et les articles ci-dessous pour plus d’informations :
+* **Date et heure** ![](assets/toolbar-icon-date&time-functions.png) - Consultez la section [Fonctions de date et d’heure dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) et les articles ci-dessous pour plus d’informations :
 
    * [Jetons pour le formatage de la date et de l’heure dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
    * [Jetons pour l’analyse de la date et de l’heure dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)

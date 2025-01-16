@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: connecteur
 navigation-topic: apps-and-their-modules
 title: Modules de modèle Microsoft Word
-description: Dans un scénario d’Adobe Workfront Fusion, vous pouvez automatiser les workflows qui utilisent des modèles Microsoft Word et les connecter à plusieurs applications et services tiers.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 0b8a4e3864cf9ca2c179a824bdb87977819c9383
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 98%
+source-wordcount: '1436'
+ht-degree: 93%
 
 ---
 
 # Modules [!DNL Microsoft Word Template]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules de modèle Word Microsoft](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/microsoft-word-templates-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Microsoft Word Templates] et le connecter à plusieurs applications et services tiers.
 
@@ -102,7 +114,7 @@ Un modèle [!DNL Microsoft Word] est un document [!DNL Microsoft Word] normal (f
 
 ### Balise de valeur simple {#simple-value-tag}
 
-Une balise de valeur simple est simplement remplacée par une valeur correspondante. Le nom de la balise correspond à la valeur du champ [!UICONTROL Clé], qui est placée à l’intérieur d’accolades doubles ; par exemple, `{{name}}`.
+Une balise de valeur simple est simplement remplacée par une valeur correspondante. Le nom de la balise correspond à la valeur du champ [!UICONTROL Key], qui est placée entre des accolades doubles, par exemple `{{name}}`.
 
 **Exemple :** pour créer un document qui indique « Bonjour, Petr ! », vous pouvez utiliser un module [!DNL Microsoft Word Template] pour créer le modèle suivant :
 

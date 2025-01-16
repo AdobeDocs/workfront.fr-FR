@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: scénario, performances
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Sécurisation des performances Adobe Workfront Fusion
-description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion en plus d’une licence Adobe Workfront.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 7c27dc98c4ce59d598be537a1f09c6eddf9bce42
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 80%
+source-wordcount: '765'
+ht-degree: 73%
 
 ---
 
-# Mécanismes de sécurisation des performances [!DNL Adobe Workfront Fusion]
+# Mécanismes de sécurisation des performances d’[!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Mécanismes de sécurisation des performances d’Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-performance-guardrails.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 >[!NOTE]
 >
@@ -50,7 +62,7 @@ L’automatisation du travail exige un traitement rapide, c’est pourquoi [!DNL
 ## Fichiers
 
 * La capacité totale de traitement des fichiers de Fusion est de **1 Go**. La limite est basée sur un coût total en mémoire. Chaque opération contribue à ce coût. Si un seul fichier de 400 Mo est téléchargé et chargé, le coût total de capacité du fichier sera de 800 Mo.
-* Les organisations qui bénéficient de l’offre Workfront Ultimate ont accès à un traitement de fichiers accru supérieur à 1 Go. La plateforme Fusion peut prendre en charge des fichiers individuels allant jusqu’à 15 Go pour une seule action (par exemple, télécharger un fichier), mais d’autres facteurs affectent le transfert de données. La limite de taille de fichier d’une action unique dépend du service Web auquel Fusion se connecte. Le transfert de données est le traitement total d’une seule exécution. Cela signifie que plusieurs actions d’une seule exécution contribuent au transfert total des données. La fusion traitera les fichiers jusqu’à ce que la limite d’exécution de 40 minutes soit atteinte.
+* Les organisations qui souscrivent au plan Workfront Ultimate ont accès à un traitement des fichiers plus important, dépassant 1 Go. La plateforme Fusion peut prendre en charge des fichiers individuels allant jusqu’à 15 Go pour une seule action (par exemple, télécharger un fichier), mais d’autres facteurs affectent le transfert de données. La limite de taille de fichier d’une seule action dépend du service web auquel Fusion se connecte. Le transfert de données est le traitement total d’une seule exécution. Cela signifie que plusieurs actions en une seule exécution contribuent au transfert total de données. Fusion traitera les fichiers jusqu’à ce que la limite d’exécution de 40 minutes soit atteinte.
 
   Pour plus d’informations, voir [Utilisation de fichiers volumineux dans Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md).
 
@@ -76,7 +88,7 @@ L’automatisation du travail exige un traitement rapide, c’est pourquoi [!DNL
 ## Historique de l’exécution
 
 * Les journaux d’historique d’exécution sont limités à une taille de **100 Mo**. Si l’historique d’exécution dépasse cette taille, seuls les 100 premiers Mo s’affichent.
-* Si un scénario comporte plusieurs exécutions simultanées. seules 5 exécutions s’affichent dans la zone Exécutions de la page des détails du scénario. C’est le cas même lorsque plus de 5 exécutions sont en cours d’exécution.
+* Si un scénario comporte plusieurs exécutions simultanées. seules 5 exécutions s’affichent dans la zone Exécutions de la page des détails du scénario. Cela est vrai même lorsque plus de 5 exécutions sont en cours d’exécution.
 
 ## Exécutions incomplètes
 

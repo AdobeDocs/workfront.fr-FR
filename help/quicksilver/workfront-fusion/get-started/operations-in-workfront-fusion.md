@@ -4,18 +4,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Opérations dans Adobe Workfront Fusion
-description: Dans Adobe Workfront Fusion, une opération est une tâche effectuée par un module. À des fins de suivi, toute action effectuée avec succès par un module est une opération.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 34268fb6-e485-42be-b751-3ee79bbf5797
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 80%
 
 ---
 
 # Opérations dans [!DNL Adobe Workfront Fusion]
+
+
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [ Opérations ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/operations-in-workfront-fusion.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Dans [!DNL Adobe Workfront Fusion], une opération est une tâche effectuée par un module. À des fins de suivi, toute action effectuée avec succès par un module est une opération.
 

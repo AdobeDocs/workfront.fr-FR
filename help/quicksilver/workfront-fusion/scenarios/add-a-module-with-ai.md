@@ -2,35 +2,47 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Génération d’un segment de scénario à l’aide d’AI
-description: Vous pouvez saisir une invite de texte pour créer un module HTTP configuré à l’invite.
+title: Génération d’un segment de scénario à l’aide de l’IA
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 5de5b96bc74ce9b819acfa7b5f16652509ccade1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
 
-# Génération d’un segment de scénario à l’aide d’AI
+# Génération d’un segment de scénario à l’aide de l’IA
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Générer un segment de scénario à l’aide de l’IA](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/add-a-module-with-ai.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 <!--DO NOT DELETE - linked through CSH-->
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité étant disponible dans Beta, elle est réservée à certains utilisateurs de Workfront.
+>Cette fonctionnalité étant disponible dans Beta, elle n’est disponible que pour certains utilisateurs et utilisatrices de Workfront.
 
-Vous pouvez utiliser l’IA pour saisir une invite de texte décrivant ce que vous avez besoin d’une section de votre scénario. Fusion génère ensuite des modules qui exécuteront ces actions, que vous pouvez utiliser dans votre scénario.
+Vous pouvez utiliser l’IA pour saisir une invite de texte décrivant ce qu’une section de votre scénario doit faire. Fusion génère alors des modules qui exécutent ces actions, que vous pouvez utiliser dans votre scénario.
 
-Comme pour tout élément généré à partir de l’IA, nous vous recommandons de vérifier et de tester deux fois les modules générés pour vous assurer qu’ils fonctionnent comme prévu.
+Comme pour tout ce qui est généré à partir de l’IA, nous vous recommandons de vérifier et de tester les modules générés pour vous assurer qu’ils fonctionnent comme prévu.
 
-## Applications de module AI actuellement prises en charge
+## Applications de module d’IA actuellement prises en charge
 
-Fusion AI peut actuellement générer des modules qui se connectent aux applications suivantes :
+L’IA dédiée à Fusion peut actuellement générer des modules qui se connectent aux applications suivantes :
 
 * Adobe Firefly
 * Azure OpenAI
@@ -39,13 +51,13 @@ Fusion AI peut actuellement générer des modules qui se connectent aux applicat
 * Adobe Analytics
 * Services Adobe PDF
 * Adobe Marketo
-* Adobe de Frame.io
+* Adobe Frame.io
 * Dropbox
 * NetSuite
 * Calendrier Google
 * Atlassian Jira
 * GitLab
-* Spotify
+* Spotifier
 * Bitbucket
 * OpenAI
 * Slack
@@ -56,17 +68,17 @@ Fusion AI peut actuellement générer des modules qui se connectent aux applicat
 
    Ou
 
-   Cliquez sur l’icône ![Générer avec l’IA](assets/generate-with-ai-icon-beta.png) de l’icône de génération avec l’IA près du bas de la page de l’éditeur de scénarios.
+   Cliquez sur l’icône Générer avec l’IA ![Générer avec l’IA](assets/generate-with-ai-icon-beta.png) en bas de la page de l’éditeur de scénarios.
 
    Le panneau Assistant d’IA s’ouvre.
 1. Saisissez une invite de texte dans la zone.
 
-   Pour obtenir des conseils sur les invites, reportez-vous à la section [Conseils pour créer des invites de texte](#tips-for-creating-text-prompts) de cet article.
+   Pour obtenir des conseils sur les invites, voir [Conseils pour créer des invites de texte](#tips-for-creating-text-prompts) dans cet article.
 
-   L’assistant d’IA génère le module ou l’ensemble de modules.
+   L’assistant AI génère le module ou l’ensemble de modules.
 1. (Conditionnel) Si nécessaire, ajoutez votre jeton API pour l’application dans les modules.
 1. Vérifiez les modules pour vous assurer qu’ils sont configurés pour l’application et l’action appropriées.
-1. (Conditionnel) Si la section de scénario générée n’est pas jointe à votre scénario, faites-la glisser vers sa place.
+1. (Conditionnel) Si la section du scénario généré n’est pas associée à votre scénario, faites-la glisser jusqu’à ce qu’elle soit en place.
 
 Nous vous recommandons de tester les modules pour vous assurer qu’ils fonctionnent comme prévu.
 
@@ -75,30 +87,30 @@ Nous vous recommandons de tester les modules pour vous assurer qu’ils fonction
 Les invites de texte doivent inclure au minimum les informations suivantes :
 
 * Application à laquelle vous vous connectez
-* Action ou actions à effectuer
+* Action(s) à effectuer
 
 >[!IMPORTANT]
 >
->Vous pouvez générer plusieurs modules à la fois, mais vous ne pouvez générer que des modules pour une application à la fois.
+>Vous pouvez générer plusieurs modules à la fois, mais vous ne pouvez générer des modules que pour une seule application à la fois.
 
 >[!INFO]
 >
 >**Exemples** :
 >
 >* `Delete the records 'xyz-123', 'xyz-456', 'xyz-789' from Adobe Workfront Planning`
->Cela inclut l&#39;application `Workfront Planning` et l&#39;action `delete records`. Cette invite crée trois modules, un pour chaque enregistrement qui sera supprimé.
+>Cela inclut le `Workfront Planning` de l’application et le `delete records` d’action. Cette invite crée trois modules, un pour chaque enregistrement qui sera supprimé.
 >* `Change campaign summary of the record 'xyz-123' from Adobe Workfront Planning`
->Cela inclut l&#39;application `Workfront Planning` et l&#39;action `change campaign summary`.
+>Cela inclut le `Workfront Planning` de l’application et le `change campaign summary` d’action.
 >* `Get all field details in the record type with ID 'test-record' from Adobe Workfront Planning`
->Cela inclut l&#39;application `Workfront Planning` et l&#39;action `get field details`.
+>Cela inclut le `Workfront Planning` de l’application et le `get field details` d’action.
 >
 >L’exemple suivant n’est PAS correct :
 >
 >* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
->    Cet exemple est incorrect car il comprend plusieurs applications.
+>    Cet exemple est incorrect, car il comprend plusieurs applications
 
 Tenez compte des points suivants lors de la création d’invites de texte :
 
 * Utilisez un langage direct et simple.
-* Vérifiez et testez vos modules. S’il ne fonctionne pas comme prévu, affinez votre invite et réessayez.
+* Vérifiez et testez vos modules. S’il ne s’exécute pas comme prévu, affinez votre invite et réessayez.

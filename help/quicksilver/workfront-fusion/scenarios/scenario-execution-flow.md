@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Flux d’exécution des scénarios dans Adobe Workfront Fusion
-description: Cet article explique comment un scénario s’exécute et comment les données y circulent. Il explique également où vous pouvez trouver des informations sur vos données traitées et comment les lire.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 95c6e969-66b4-4b57-9e62-aae0cfb9bf98
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 98%
+source-wordcount: '843'
+ht-degree: 89%
 
 ---
 
 # Flux d’exécution du scénario dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Flux d’exécution du scénario](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-flow.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Cet article explique comment un scénario s’exécute et comment les données y circulent. Il explique également où vous pouvez trouver des informations sur vos données traitées et comment les lire.
 
@@ -66,7 +78,7 @@ Au début du scénario, le premier module réagit à un événement qu’il a é
 
 Si les lots sont traités correctement dans tous les modules, le scénario est marqué comme un succès dans la zone de détail du scénario, comme expliqué dans [Détails du scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-detail.md).
 
-* Pour plus d’informations sur la configuration d’un scénario, voir [L’éditeur de scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md).
+* Pour plus d’informations sur la configuration d’un scénario, voir [L’éditeur de scénarios dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md).
 * Pour plus d’informations sur l’activation d’un scénario, voir [Activer ou désactiver un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 * Pour plus d’informations sur la planification d’un scénario, voir [Planifier un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 * Pour plus d’informations sur les modules, voir [Types de modules](../../workfront-fusion/modules/module-types.md).

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Vidéos sur les concepts de base de Fusion
-description: Vidéos sur les concepts de base de Fusion
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7ba95790-1255-4a3e-ba7b-8dc73001b583
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 100%
+source-wordcount: '119'
+ht-degree: 38%
 
 ---
 
 # Vues d’ensemble vidéo d’Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Présentation vidéo](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/fusion-basics-videos.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Ces vidéos vous aideront à vous familiariser avec certaines fonctionnalités d’Adobe Workfront Fusion.
 

@@ -3,20 +3,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Créer un scénario d’automatisation pratique dans  [!DNL Adobe Workfront Fusion]
-description: Cet article explique comment créer un scénario d’automatisation avec Adobe Workfront Fusion. Les scénarios d’automatisation permettent d’automatiser les processus Workfront, y compris la manipulation et la transformation des données. Cet exemple vous présente le processus de création d’un scénario qui recherche un projet et renvoie ensuite toutes les tâches associées à ce projet.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8769ed5844e340e007f844370791e93393696819
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 71%
+source-wordcount: '1562'
+ht-degree: 67%
 
 ---
 
 # Créer un scénario d’automatisation pratique dans [!DNL Adobe Workfront Fusion]
 
-Les scénarios d’automatisation permettent d’automatiser les processus Workfront, y compris la manipulation et la transformation des données. Cet article vous guide tout au long du processus de création d’un scénario qui recherche un projet, puis renvoie toutes les tâches associées au projet.
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Workflow de création d’un scénario](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
+
+Les scénarios d’automatisation permettent d’automatiser les processus Workfront, y compris la manipulation et la transformation des données. Cet article vous guide tout au long du processus de création d’un scénario qui recherche un projet, puis renvoie toutes les tâches associées à ce projet.
 
 <!-- not sure why these are here?
 For instructions on building an integration scenario that connects separate apps, see [Create a practice integration scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
@@ -41,24 +53,24 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
       <td>Licence Adobe Workfront</td>  
       <td>
         Nouveau : Standard<br>
-        Ou<br>
-        Actuel : travail ou plus élevé
+        Ou <br>
+        En cours : Travail ou version ultérieure
       </td>  
     </tr>  
     <tr>  
       <td>Licence Adobe Workfront Fusion</td>  
       <td> 
         Actuel : aucune exigence de licence Workfront Fusion.<br>
-        Ou<br>
-        Hérité : Tout
+        Ou <br>
+        Hérité : Tous
       </td>  
     </tr>  
     <tr>  
       <td>Produit</td>  
       <td> 
-        Nouveau : sélectionnez ou forfait Workfront Prime : votre entreprise doit acheter Adobe Workfront Fusion.<br>
-        Formule Workfront ultime : Workfront Fusion est incluse.<br>
-        Ou<br>
+        Nouveau : sélectionnez ou Prime Workfront Plan : votre entreprise doit acheter Adobe Workfront Fusion.<br>
+        Plan Ultimate Workfront : Workfront Fusion est inclus.<br>
+        Ou <br>
         Actuel : votre entreprise doit acheter Adobe Workfront Fusion.
       </td>  
     </tr> 
@@ -71,23 +83,23 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 +++
 
-## Création d’un scénario de pratique d’automatisation
+## Créer un scénario de pratique d’automatisation
 
-[!DNL Adobe Workfront Fusion] vous aide à vous concentrer sur des tâches importantes en automatisant les tâches répétitives. Il crée des scénarios qui gèrent automatiquement vos données dans différents services et applications.
+[!DNL Adobe Workfront Fusion] vous aide à vous concentrer sur les tâches importantes en automatisant les tâches répétitives. Il crée des scénarios qui gèrent automatiquement vos données sur différents services et applications.
 
-Chaque scénario se compose de modules, qui déterminent la manière dont les données sont traitées dans une application ou transférées entre différentes applications et services. Par exemple, vous pouvez créer un scénario dans Fusion pour trouver automatiquement un projet [!DNL Workfront] et répertorier ses tâches. De cette façon, Fusion vous permet de gagner du temps et de l&#39;effort en gérant les tâches de routine.
+Chaque scénario se compose de modules qui guident le traitement des données au sein d’une application ou leur transfert entre différents services et applications. Par exemple, vous pouvez créer un scénario dans Fusion pour rechercher automatiquement un projet [!DNL Workfront] et répertorier ses tâches. De cette façon, Fusion vous fait gagner du temps et vous évite des tâches de routine.
 
-Ce scénario de pratique vous guide tout au long du processus de création d’un scénario qui recherche un projet [!DNL Workfront] et renvoie les tâches du projet.
+Ce scénario pratique vous guide tout au long du processus de création d’un scénario qui recherche un projet [!DNL Workfront] et renvoie les tâches du projet.
 
 ![](assets/create-practice-scenario-wf-only-350x157.png)
 
 ### Avant de commencer
 
-Créez un projet avec des tâches dans le front de travail que vous pouvez utiliser pour cet exercice. Vous n’avez pas besoin d’effectuer de configuration supplémentaire en dehors de l’ajout de tâches au projet.
+Créez un projet avec des tâches dans Workfront que vous pouvez utiliser pour cet exercice. Vous n’avez pas besoin d’effectuer de configuration supplémentaire en dehors de l’ajout de tâches au projet.
 
-Pour plus d’informations sur la création d’un projet dans Workbench, voir xxx.
+Pour plus d&#39;informations sur la création d&#39;un projet dans Workfront, voir xxx.
 
-### 1. Créez et nommez le scénario
+### 1. Créer et nommer le scénario
 
 1. Connectez-vous à votre compte [!DNL Workfront Fusion].
 1. Cliquez sur **[!UICONTROL Scénarios]**![](assets/scenarios-icon.png) dans le panneau de gauche.
@@ -100,23 +112,23 @@ Pour plus d’informations sur la création d’un projet dans Workbench, voir x
 
 1. Ouvrez le dossier, puis cliquez sur **[!UICONTROL Créer un nouveau scénario]** dans le coin supérieur droit de la page.
 
-1. Pour cet exercice, sélectionnez l’application **[!DNL Adobe Workfront]**, puis cliquez sur **Rechercher** près du bas.
+1. Pour cet exercice, sélectionnez l’application **[!DNL Adobe Workfront]**, puis cliquez sur **Rechercher** en bas.
 
 
 1. Sélectionnez le nom de l’espace réservé **[!UICONTROL Nouveau scénario]** dans le coin supérieur gauche, puis saisissez un nom tel que « Scénario pratique 1 ».
 
    ![](assets/name-the-scenario.png)
 
-1. Poursuivez avec [Connectez le premier module](#2-connect-the-first-module) ci-dessous.
+1. Continuez avec [Connecter le premier module](#2-connect-the-first-module) ci-dessous.
 
-### 2. Connexion au premier module
+### 2. Connecter le premier module
 
-Maintenant, vous devez établir une connexion authentifiée à votre compte [!DNL Workfront]. Chaque module que vous ajoutez à un scénario doit avoir une connexion à son application.
+Vous devez maintenant établir une connexion authentifiée à votre compte [!DNL Workfront]. Chaque module que vous ajoutez à un scénario doit avoir une connexion à son application.
 
 1. Dans la zone **[!DNL Workfront]**, sous **[!UICONTROL Connexion]**, cliquez sur **[!UICONTROL Ajouter]**, tapez un nom pour la connexion, par exemple « Compte Workfront d’Olivia », puis cliquez sur **[!UICONTROL Continuer]**.
 1. Authentifiez la connexion dans la fenêtre qui s’affiche.
 
-   Le processus d’authentification d’une connexion peut varier légèrement d’une application à l’autre. Le processus suivant est spécifique à [!DNL Workfront], mais il est similaire à de nombreuses applications :
+   Le processus d’authentification d’une connexion peut varier légèrement d’une application à l’autre. Le processus suivant est spécifique à [!DNL Workfront], mais il est similaire à celui de nombreuses applications :
 
    1. Entrez votre domaine [!DNL Workfront], puis cliquez sur **[!UICONTROL Continuer]**.
    1. Connectez-vous à [!DNL Workfront].
@@ -124,9 +136,9 @@ Maintenant, vous devez établir une connexion authentifiée à votre compte [!DN
 
    Si vous avez besoin d’aide, voir [Vue d’ensemble des connexions](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
-### 3. Configurer le premier module
+### 3. Configuration du premier module
 
-Après avoir connecté [!DNL Workfront Fusion] à votre compte [!DNL Workfront], vous pouvez spécifier un projet [!DNL Workfront] auquel vous avez accès et les données que vous souhaitez que le premier module soit traité.
+Après la connexion de [!DNL Workfront Fusion] à votre compte [!DNL Workfront], vous pouvez spécifier un projet [!DNL Workfront] auquel vous avez accès et les données que vous souhaitez que le premier module traite.
 
 1. Dans la zone [!UICONTROL Type d’enregistrement], sélectionnez **[!UICONTROL Projet]**. Cette option permet au module de ne rechercher que des projets.
 
@@ -141,8 +153,8 @@ Après avoir connecté [!DNL Workfront Fusion] à votre compte [!DNL Workfront],
    |--------|-------------|
    | Champs de critères de recherche | Sélectionnez le champ dont vous souhaitez rechercher les valeurs. Pour cet exemple, sélectionnez **[!UICONTROL Nom]**. |
    | Critères de recherche | Dans le premier menu déroulant, sélectionnez **[!UICONTROL Nom]**. |
-   | Opérateurs de base | Dans la seconde liste déroulante, sélectionnez [!UICONTROL Contient (non-respect de la casse)]. Cela permet au module de trouver des projets dont le nom contient les mots que vous avez choisis, même si vous ne saisissez pas le nom en entier ou si vous saisissez le nom avec une casse incorrecte (par exemple, tout en majuscules). |
-   | Zone de texte | Saisissez un mot ou une expression que vous savez trouver dans le nom du projet que vous recherchez. |
+   | Opérateurs de base | Dans la deuxième liste déroulante, sélectionnez [!UICONTROL Contient (non-respect de la casse)]. Cela permet au module de trouver des projets dont le nom contient les mots que vous avez choisis, même si vous ne saisissez pas le nom en entier ou si vous saisissez le nom avec une casse incorrecte (par exemple, tout en majuscules). |
+   | Zone de texte | Entrez un mot ou une expression dont vous savez qu&#39;il se trouve dans le nom du projet que vous recherchez. |
 
 +++ Développez pour afficher un exemple à l’écran.
    ![](assets/search-name.png)
@@ -158,7 +170,7 @@ Après avoir connecté [!DNL Workfront Fusion] à votre compte [!DNL Workfront],
 
    >[!NOTE]
    >
-   >Puisqu’il ne s’agit pas d’un module déclencheur, vous ne choisissez pas où le démarrer. Lors de l’utilisation d’un module de déclenchement, vous devez maintenant sélectionner l’endroit où il doit démarrer.
+   >Comme il ne s’agit pas d’un module de déclenchement, vous ne choisissez pas où le démarrer. Lors de l’utilisation d’un module de déclenchement, vous devez maintenant sélectionner l’endroit où il doit démarrer.
    >
    >
    >Pour plus d’informations, consultez [Choisir le point de départ d’un module de déclenchement dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
@@ -190,7 +202,7 @@ Après avoir connecté [!DNL Workfront Fusion] à votre compte [!DNL Workfront],
 
 1. Cliquez sur la variable **[!UICONTROL Identifiant]** pour l’ajouter au champ **[!UICONTROL Identifiant de l’enregistrement parent]**. Cela permet d’utiliser l’identifiant renvoyé par le premier module comme identifiant du projet avec lequel vous souhaitez travailler dans le second module, ce qui garantit que les tâches renvoyées appartiendront à ce projet.
 1. Dans le champ **[!UICONTROL Collections]**, sélectionnez **[!UICONTROL Tâches]**. Cela indique que le module doit renvoyer les tâches associées au projet choisi.
-1. Dans le champ **[!UICONTROL Outputs]** , sélectionnez **[!UICONTROL Id]** et **[!UICONTROL Name]**.
+1. Dans le champ **[!UICONTROL Sorties]**, sélectionnez **[!UICONTROL Id]** et **[!UICONTROL Name]**.
 1. Cliquez sur **[!UICONTROL OK]**.
 
    Vous disposez à présent d’un scénario opérationnel.

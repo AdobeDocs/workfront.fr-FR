@@ -5,22 +5,34 @@ product-area: workfront-integrations
 keywords: connecteur
 navigation-topic: apps-and-their-modules
 title: Modules Adobe Workfront Planning
-description: Avec les modules  [!DNL Adobe Workfront Planning] , vous pouvez lancer un scénario [!DNL Adobe Workfront Fusion] basé sur les événements de votre compte  [!DNL Adobe] Workfront Planning, créer, lire ou mettre à jour des accords et d’autres enregistrements, rechercher des enregistrements à l’aide de critères que vous définissez et télécharger des documents.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 78%
+source-wordcount: '1207'
+ht-degree: 75%
 
 ---
 
 # Modules [!DNL Adobe Workfront Planning]
 
-Avec les modules [!DNL Adobe Workfront Planning], vous pouvez déclencher un scénario lorsque des événements se produisent dans la planification Workfront. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements, ou effectuer un appel API personnalisé vers votre compte [!DNL Adobe Workfront Planning].
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules de planification Adobe Workfront](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
+
+Avec les modules [!DNL Adobe Workfront Planning], vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements, ou effectuer un appel API personnalisé vers votre compte [!DNL Adobe Workfront Planning].
 
 ## Conditions d’accès
 
@@ -49,7 +61,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous disposez du plan de [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter du [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -61,7 +73,7 @@ Pour connaître la formule, le type de licence ou l’accès dont vous disposez,
 
 Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Informations sur l’API de planification Adobe Workfront
+## Informations sur l’API Adobe Workfront Planning
 
 Le connecteur Adobe Workfront Planning utilise les éléments suivants :
 
@@ -71,11 +83,11 @@ Le connecteur Adobe Workfront Planning utilise les éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader">URL de base</td> 
-   <td>https://{{connection.host}/maestro/api/{{common.maestroApiVersion}/</td> 
+   <td>https://{{connection.host}}/maestro/api/{{common.maestroApiVersion}}/</td> 
   </tr>
   <tr> 
    <td role="rowheader">Balise API</td> 
-   <td>1.13.7</td> 
+   <td>v1.13.7</td> 
   </tr>
  </tbody> 
  </table>
@@ -122,7 +134,7 @@ Vous pouvez créer une connexion à votre compte [!DNL Workfront Planning] direc
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Host prefix]</td>
-          <td>Saisissez votre préfixe d’hôte.<p>La valeur par défaut est <code>origin-</code>.</p>
+          <td>Saisissez votre préfixe hôte.<p>La valeur par défaut est <code>origin-</code>.</p>
         </tr>
       </tbody>
     </table>
@@ -134,7 +146,7 @@ Vous pouvez créer une connexion à votre compte [!DNL Workfront Planning] direc
 
 #### Surveiller les événements
 
-Ce module de déclenchement lance un scénario lorsqu’un enregistrement, un type d’enregistrement ou un espace de travail est créé, mis à jour ou supprimé dans Workfront Planning.
+Ce module de déclenchement démarre un scénario lorsqu’un enregistrement, un type d’enregistrement ou un espace de travail est créé, mis à jour ou supprimé dans Workfront Planning.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -154,7 +166,7 @@ Ce module de déclenchement lance un scénario lorsqu’un enregistrement, un ty
     </tr>
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL Events filters]</p> </td> 
-      <td> <p>Vous pouvez définir des filtres pour ne surveiller que les enregistrements qui répondent aux critères sélectionnés.</p> <p>Pour chaque filtre, saisissez le champ que le filtre doit évaluer, l’opérateur et la valeur que le filtre doit autoriser. Vous pouvez utiliser plusieurs filtres en ajoutant des règles ET.</p> <p>Note : vous ne pouvez pas modifier les filtres dans les webhooks [!DNL Workfront] existants. Pour configurer différents filtres pour les abonnements aux événements [!DNL Workfront], supprimez le webhook actuel et créez-en un nouveau.</p> <p>Pour plus d’informations sur les filtres d’événements, voir <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">Filtres d’abonnement aux événements dans les modules [!DNL Workfront] &gt; [!UICONTROL Surveiller les événements]</a> de l’article sur les modules Workfront.</p> </td> 
+      <td> <p>Vous pouvez définir des filtres pour ne surveiller que les enregistrements qui répondent aux critères sélectionnés.</p> <p>Pour chaque filtre, saisissez le champ que le filtre doit évaluer, l’opérateur et la valeur que le filtre doit autoriser. Vous pouvez utiliser plusieurs filtres en ajoutant des règles ET.</p> <p>Note : vous ne pouvez pas modifier les filtres dans les webhooks [!DNL Workfront] existants. Pour configurer différents filtres pour les abonnements aux événements [!DNL Workfront], supprimez le webhook actuel et créez-en un nouveau.</p> <p>Pour plus d’informations sur les filtres d’événement, consultez la section <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref"> Filtres d’abonnement aux événements dans les modules [!DNL Workfront] &gt; [!UICONTROL Watch Events]</a> dans l’article Modules Workfront .</p> </td> 
      </tr> 
     <tr>
       <td role="rowheader">[!UICONTROL Objects to watch]</td>
@@ -172,15 +184,15 @@ Ce module de déclenchement lance un scénario lorsqu’un enregistrement, un ty
 ### Actions
 
 * [Supprimer un type d’enregistrement](#delete-a-record-type)
-* [Effectuer un appel AI personnalisé](#make-a-custom-api-call)
+* [Effectuer un appel d’IA personnalisé](#make-a-custom-api-call)
 
 #### Supprimer un type d’enregistrement
 
-Ce module d’action supprime un seul type d’enregistrement dans la planification Workfront par son identifiant.
+Ce module d&#39;action supprime un seul type d&#39;enregistrement dans Workfront Planning par son identifiant.
 
 >[!WARNING]
 >
->La suppression d’un type d’enregistrement dans Workfront Planning supprime également tous les enregistrements de la table des types d’enregistrement.
+>La suppression d’un type d’enregistrement dans Workfront Planning entraîne la suppression de tous les enregistrements de la table des types d’enregistrement.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -262,7 +274,7 @@ This action module retrieves a list of records based on criteria you specify.
 
 #### Créer un enregistrement
 
-Cette action crée un seul enregistrement dans la planification Workfront.
+Cette action crée un enregistrement unique dans Workfront Planning.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -276,7 +288,7 @@ Cette action crée un seul enregistrement dans la planification Workfront.
       <td role="rowheader">
         <p>[!UICONTROL Record type ID]</p>
       </td>
-      <td>Saisissez ou mappez le type d’enregistrement que vous souhaitez créer. Les types d’enregistrement disponibles sont basés sur votre compte de planification Workfront.</td> 
+      <td>Saisissez ou mappez le type d’enregistrement que vous souhaitez créer. Les types d’enregistrements disponibles dépendent de votre compte Workfront Planning.</td> 
       </tr>
      <tr>
       <td role="rowheader">
@@ -290,7 +302,7 @@ Cette action crée un seul enregistrement dans la planification Workfront.
 
 ### Supprimer un enregistrement
 
-Ce module d’action supprime l’enregistrement spécifié dans la planification Workfront.
+Ce module d&#39;action supprime l&#39;enregistrement spécifié dans Workfront Planning.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -398,7 +410,7 @@ Ce module d’action récupère une liste de types d’enregistrement dans un co
 
 ### Mettre à jour l’enregistrement
 
-Cette action met à jour un seul enregistrement dans la planification Workfront.
+Cette action met à jour un seul enregistrement dans Workfront Planning.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -412,7 +424,7 @@ Cette action met à jour un seul enregistrement dans la planification Workfront.
       <td role="rowheader">
         <p>[!UICONTROL Record ID]</p>
       </td>
-      <td>Saisissez ou mappez le type d’enregistrement que vous souhaitez mettre à jour. Les types d’enregistrement disponibles sont basés sur votre compte de planification Workfront.</td> 
+      <td>Saisissez ou mappez le type d’enregistrement que vous souhaitez mettre à jour. Les types d’enregistrements disponibles dépendent de votre compte Workfront Planning.</td> 
       </tr>
      <tr>
       <td role="rowheader">

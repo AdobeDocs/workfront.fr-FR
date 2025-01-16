@@ -2,38 +2,50 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Ajouter un webhook à un scénario de base
-description: Les webhooks, également appelés déclencheurs instantanés, sont un type spécifique de module de déclenchement qui peut démarrer un scénario chaque fois qu’une modification est effectuée, au lieu d’une planification donnée.
+title: Ajout d’un webhook à un scénario de base
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6694b883-6f94-449c-bcfe-5a4053e8655a
-source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
-# Ajouter un webhook à un scénario de base dans [!DNL Adobe Workfront Fusion]
+# Ajout d’un webhook à un scénario de base dans [!DNL Adobe Workfront Fusion]
 
-Les webhooks, également appelés déclencheurs instantanés, sont un type spécifique de module de déclenchement qui peut démarrer un scénario chaque fois qu’une modification est effectuée, au lieu d’une planification donnée.
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Ajouter un webhook à un scénario de base](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/add-a-webhook-to-basic-scenario.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
-Dans cet exemple, vous allez ajouter un webhook pour démarrer un scénario dès que des requêtes ont été envoyées à une file d’attente spécifique. Le scénario convertit ensuite ces requêtes dans un projet.
+Les Webhooks, également appelés déclencheurs instantanés, sont un type spécifique de module de déclenchement qui peut démarrer un scénario à chaque modification, plutôt que selon un planning donné.
 
-Cet exemple modifie le scénario créé dans [Créer un scénario de base](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
+Dans cet exemple, vous allez ajouter un webhook pour démarrer un scénario dès que les requêtes ont été envoyées à une file d’attente spécifique. Le scénario convertit ensuite ces requêtes en projet.
+
+Cet exemple montre comment modifier le scénario créé dans [Créer un scénario de base](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
 
 ## Conditions préalables
 
 Vous devez créer le scénario décrit dans [Créer un scénario de base](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) avant de suivre cette procédure.
 
-## Ajout et configuration du webhook
+## Ajouter et configurer le webhook
 
-1. Ouvrez le module d’objet Convert .
-1. Dans le champ ID du problème , supprimez le bloc ID noir. Le bloc est noir car le module à partir duquel il a été mappé n’est plus disponible.
-1. Sélectionnez le bloc d’identifiant sous le premier module (événements de contrôle) pour le mapper au deuxième module.
+1. Ouvrez le module Convertir l’objet .
+1. Dans le champ ID de l’événement , supprimez le bloc d’ID noir. Le bloc est noir, car le module à partir duquel il a été mappé n’est plus disponible.
+1. Sélectionnez le bloc d’identifiant sous le premier module (Événements Espion) pour le mapper au second module.
 1. Cliquez sur **OK**.
 
-### Ajout du module webhook
+### Ajouter le module webhook
 
 1. Ouvrez le scénario dans l’éditeur de scénarios.
 1. Cliquez avec le bouton droit sur le premier module et sélectionnez **Supprimer le module**.
@@ -41,9 +53,9 @@ Vous devez créer le scénario décrit dans [Créer un scénario de base](/help/
    Le module est supprimé, laissant un espace réservé vide.
 
 1. Cliquez sur le module vierge, puis sélectionnez **Adobe Workfront** dans la liste des applications.
-1. Sélectionnez **Événements de contrôle**.
+1. Sélectionnez **Observer les événements**.
 1. Cliquez sur **Ajouter** en regard du champ Webhook.
-1. dans le champ Type d’enregistrement , sélectionnez **Problème**, de sorte que le module se déclenche pour les modifications apportées aux problèmes.
-1. Dans le champ État , sélectionnez **Nouvel état**. Il s’agit d’un champ obligatoire utilisé pour le filtre, que cet exemple ne couvre pas.
-1. Dans le champ Record Origin, sélectionnez **New Record Only**. Cela permet au scénario de se déclencher lorsqu’un problème est ajouté, et non lorsqu’il est mis à jour ou supprimé.
+1. dans le champ Type d’enregistrement , sélectionnez **Problème** afin que le module se déclenche pour les modifications dans les problèmes.
+1. Dans le champ Etat , sélectionnez **Nouvel état**. Il s’agit d’un champ obligatoire utilisé pour le filtre, que cet exemple ne couvre pas.
+1. Dans le champ Origine de l’enregistrement , sélectionnez **Nouvel enregistrement uniquement**. Cela permet au scénario de se déclencher lorsqu’un événement est ajouté, et non lorsqu’un événement est mis à jour ou supprimé.
 1. Cliquez sur **Enregistrer** pour enregistrer la configuration du module.

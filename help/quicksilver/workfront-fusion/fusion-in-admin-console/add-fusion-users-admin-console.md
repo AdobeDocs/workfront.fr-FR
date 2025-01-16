@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Ajouter des utilisateurs et des utilisatrices à Adobe Workfront Fusion via Adobe Admin Console
-description: Vous pouvez ajouter un utilisateur ou une utilisatrice à Adobe Admin Console et l’affecter à Adobe Workfront Fusion ou affecter un utilisateur ou une utilisatrice existant d’Adobe Admin Console à Workfront Fusion.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: c8924e00-1154-4cf8-84e8-472251b5fc28
-source-git-commit: b7ceec2750ded516cae20d12b991b8fec94c6029
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 93%
+source-wordcount: '690'
+ht-degree: 83%
 
 ---
 
 # Ajouter des utilisateurs et des utilisatrices à [!DNL Adobe Workfront Fusion] via [!DNL Adobe Admin Console]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Ajouter des utilisateurs et utilisatrices à Adobe Workfront Fusion via Adobe Admin Console](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/add-fusion-users-admin-console.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 >[!IMPORTANT]
 >
@@ -145,4 +157,4 @@ Pour obtenir des instructions, voir [Afficher ou modifier des rôles d’utilisa
 
 Vous pouvez ajouter un utilisateur existant à une équipe dans Fusion. Cela est géré dans Fusion.
 
-Pour obtenir des instructions, reportez-vous à la section [Ajout d’un utilisateur à une équipe](/help/quicksilver/workfront-fusion/organizations/add-user-to-an-organization.md#add-a-user-to-a-team) de l’article Ajout d’un utilisateur à une organisation ou à une équipe dans Adobe Workfront Fusion.
+Pour plus d’informations, consultez la section [Ajouter un utilisateur à une équipe](/help/quicksilver/workfront-fusion/organizations/add-user-to-an-organization.md#add-a-user-to-a-team) dans l’article Ajout d’un utilisateur à une organisation ou à une équipe dans Adobe Workfront Fusion.

@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: connecteur
 navigation-topic: connections-annd-webhooks
 title: Connecter  [!DNL Adobe Workfront Fusion]  à  [!DNL Google Services]  avec des mesures de sécurité mises à jour
-description: Google a récemment ajouté des restrictions sur la manière dont les utilisateurs et les utilisatrices peuvent utiliser leur API. Cet article décrit comment connecter  [!DNL Adobe Workfront Fusion]  à Google, en tenant compte de ces nouvelles mesures de sécurité.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 32dfef7a-7942-4025-8cb9-055d4e28090b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 94%
+source-wordcount: '706'
+ht-degree: 83%
 
 ---
 
 # Connecter [!DNL Adobe Workfront Fusion] à [!DNL Google Services] conformément aux nouvelles mesures de sécurité
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Connexion d’Adobe Workfront Fusion aux services Google avec des mesures de sécurité mises à jour](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-google-with-new-security-measures.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 ## Conditions d’accès
 
@@ -66,13 +78,13 @@ Pour accéder aux portées restreintes, le service connecté ([!DNL Adobe Workfr
 
 Il existe quelques exceptions qui permettent d’envoyer des données à un service tiers non approuvé qui ne possède pas de lettre d’évaluation sans enfreindre aucune des nouvelles restrictions. Elles diffèrent en fonction de [!DNL Google Workspace] avec le client OAuth [!DNL Workfront Fusion], [!DNL Google Workspace] avec un autre client OAuth, ou [!DNL @gmail.com] et [!DNL @google.mail.com].
 
-* [[!DNL Google Workspace] avec  [!DNL Workfront Fusion] client OAuth](#g-suite-with-workfront-fusion-oauth-client)
+* [[!DNL Google Workspace] avec  [!DNL Workfront Fusion]  client OAuth](#g-suite-with-workfront-fusion-oauth-client)
 * [[!DNL Google Workspace] avec un autre client OAuth](#g-suite-with-another-oauth-client)
 * [[!DNL @gmail.com] et  [!DNL @googlemail.com]](#gmailcom-and-googlemailcom)
 
 ### [!DNL Google Workspace] avec client OAuth [!DNL Workfront Fusion]
 
-[!DNL Workfront Fusion] utilise l’exception [!UICONTROL Installation à l’échelle du domaine]. L’installation à l’échelle du domaine est adaptée aux utilisateurs et aux utilisatrices de [!DNL Google Workspace] et permet d’intégrer des services non approuvés sans aucune restriction. Si vous utilisez Google Workspace, vous n’avez pas à effectuer d’étapes supplémentaires et pouvez vous connecter directement aux services non approuvés.
+[!DNL Workfront Fusion] utilise l’exception [!UICONTROL Installation à l’échelle du domaine]. L’installation à l’échelle du domaine est adaptée aux utilisateurs et aux utilisatrices de [!DNL Google Workspace] et permet d’intégrer des services non approuvés sans aucune restriction. Si vous êtes un utilisateur de Google Workspace, vous n’avez aucune étape supplémentaire à effectuer et vous pouvez vous connecter directement à des services non approuvés.
 
 ### [!DNL Google Workspace] avec un autre client OAuth
 
@@ -85,9 +97,9 @@ Utilisateur ou utilisatrice ayant accès à [!DNL Google Services] par le biais 
 ## Questions fréquentes
 
 * [Quelles applications dans  [!DNL Adobe Workfront Fusion]  ont été affectées ?](#what-apps-in-adobe-workfront-fusion-are-affected)
-* [Ai-je un compte  [!DNL Google Workspace] ?](#do-i-have-a-g-suite-account)
+* [Ai-je un compte  [!DNL Google Workspace]  ?](#do-i-have-a-g-suite-account)
 * [Que dois-je faire si je suis un utilisateur ou une utilisatrice de  [!DNL @gmail.com]  ou  [!DNL @googlemail.com]  ?](#what-should-i-do-if-im-gmailcom-or-googlemailcom-user)
-* [Que dois-je faire si je suis un utilisateur de  [!DNL Google Workspace]  ?](#what-should-i-do-if-im-a-g-suite-user)
+* [Que dois-je faire si je suis  [!DNL Google Workspace]  ?](#what-should-i-do-if-im-a-g-suite-user)
 
 ### Quelles applications dans [!DNL Adobe Workfront Fusion] ont été affectées ? {#what-apps-in-adobe-workfront-fusion-are-affected}
 

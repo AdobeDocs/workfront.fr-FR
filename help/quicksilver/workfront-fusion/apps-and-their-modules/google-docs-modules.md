@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: connecteur
 navigation-topic: apps-and-their-modules
 title: Modules Google Docs
-description: Les modules Adobe Workfront Fusion  [!DNL Google Docs]  vous permettent de surveiller, créer, modifier et récupérer des documents dans vos  [!DNL Google Docs]  et  [!DNL Google Docs]  (pour les  [!DNL Google Workspace]  utilisateurs).
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '4105'
-ht-degree: 98%
+source-wordcount: '4160'
+ht-degree: 97%
 
 ---
 
 # Modules [!DNL Google Docs]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules Google Docs](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-docs-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Les modules [!DNL Adobe Workfront Fusion] [!DNL Google Docs] vous permettent de surveiller, de créer, de modifier et de récupérer des documents dans vos [!DNL Google Docs] et dans [!DNL Google Docs] (pour les utilisateurs et utilisatrices de [!DNL Google Workspace]).
 
@@ -53,7 +65,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous disposez du plan de [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter du [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
@@ -69,7 +81,7 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir 
 
 Pour utiliser les modules [!DNL Google Docs], vous devez disposer d’un compte Google.
 
-## Informations sur l’API de documents Google
+## Informations sur l’API Google Docs
 
 Le connecteur Google Docs utilise les éléments suivants :
 

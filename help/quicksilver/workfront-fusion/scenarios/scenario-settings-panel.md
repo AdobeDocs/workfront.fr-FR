@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Panneau des paramètres de scénario dans Adobe Workfront Fusion
-description: Cet article décrit les paramètres disponibles dans le panneau des [!UICONTROL paramètres de scénario] dans vos scénarios  [!DNL Adobe Workfront Fusion] .
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: b9914daa1e176d115226019d6ddf02b0953bc4d6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 85%
+source-wordcount: '1266'
+ht-degree: 80%
 
 ---
 
 # Panneau des paramètres de scénario dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Configurer les paramètres du scénario](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-scenario-settings/configure-scenario-settings.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 ## Conditions d’accès
 
@@ -70,24 +82,24 @@ Cette option détermine comment [!DNL Adobe Workfront Fusion] s’exécute si un
 
 ## [!UICONTROL Traitement séquentiel]
 
-Cette option force toutes les exécutions dans l’ordre. Elle est principalement adaptée aux webhooks et aux exécutions incomplètes.
+Cette option force toutes les exécutions à se produire dans l’ordre. Elle est principalement pertinente pour les Webhooks et pour les exécutions incomplètes.
 
 Lorsque le traitement séquentiel est activé, les exécutions parallèles du scénario sont désactivées.
 
-### Instant Webhooks
+### Webhooks instantanés
 
-Si un déclencheur webhook est configuré comme `instant` et que &quot;le traitement séquentiel&quot; est activé, toutes les payloads de webhook instantanées seront mises en file d’attente et traitées dans l’ordre dans lequel elles arrivent. Cela peut s’avérer utile lors du traitement d’événements à partir de systèmes externes dans un ordre exact.
+Si un déclencheur webhook est configuré comme `instant` et que le « traitement séquentiel » est activé, toutes les payloads webhook instantanées sont mises en file d’attente et traitées dans l’ordre dans lequel elles arrivent. Cela peut s’avérer utile lors du traitement d’événements provenant de systèmes externes dans un ordre exact.
 
 >[!NOTE]
 >
->Il y aura des retards de traitement automatique lorsque chaque charge utile sera traitée avant le prochain démarrage.
+>Le traitement est automatiquement retardé car chaque payload est traitée avant le lancement de la suivante.
 
 ### Exécutions incomplètes
 
-Si l’option &quot;Exécutions incomplètes&quot; est également activée, si une erreur se produit lors de l’exécution d’un scénario, le scénario est suspendu. L’une des actions suivantes se produit alors :
+Si l’option « Exécutions incomplètes » est également activée, si une erreur se produit lors de l’exécution d’un scénario, celui-ci est mis en pause. L’un des événements suivants se produit ensuite :
 
-* Si l’option de traitement séquentiel est **activée**, Workfront Fusion arrête le traitement de la séquence préexistante jusqu’à ce que toutes les exécutions incomplètes soient résolues.
-* Si l’option de traitement séquentiel est **désactivée**, l’exécution du scénario se poursuit conformément à son planning, accompagnée de tentatives répétées d’exécution incomplète.
+* Si l’option Traitement séquentiel est **activée**, Workfront Fusion arrête le traitement de la séquence préexistante jusqu’à ce que toutes les exécutions incomplètes soient résolues.
+* Si l’option Traitement séquentiel est **désactivée**, le scénario continue de s’exécuter selon son planning, accompagné de tentatives répétées de réexécuter les exécutions incomplètes.
 
 Pour plus d’informations sur les exécutions incomplètes, voir [Afficher et résoudre les exécutions incomplètes dans Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
@@ -155,7 +167,7 @@ La définition de davantage de cycles peut s’avérer utile lorsque vous souhai
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
->Le [!UICONTROL nombre maximal de fichiers renvoyés] dans le module [!UICONTROL Workfront] >[!UICONTROL Surveiller les enregistrements] est défini sur `10`.
+>Le paramètre [!UICONTROL Nombre maximal de fichiers renvoyés] dans le module [!UICONTROL Workfront] >[!UICONTROL Enregistrements de contrôle] est défini sur `10`.
 >Si 100 demandes sont envoyées à [!DNL Workfront], et que le champ [!UICONTROL Limite] est défini sur 10, 90 fichiers ne sont pas traités après l’exécution d’un scénario. Les 10 fichiers suivants sont traités lors de la prochaine exécution planifiée du scénario.
 >
 >### Le nombre maximal de cycles est défini sur 10.

@@ -2,21 +2,33 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Assistant IA dans Workfront Fusion
-description: Assistant IA dans Workfront Fusion
+title: Assistant d’IA dans Workfront Fusion
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 99d614da-e900-448b-ab80-13f002638670
-source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 23%
+source-wordcount: '354'
+ht-degree: 18%
 
 ---
 
-# Assistant IA dans Workfront Fusion
+# Assistant d’IA dans Workfront Fusion
 
-L’assistant d’IA peut rechercher des informations dans la documentation de Workfront, ce qui évite d’avoir à vous rendre sur Adobe Experience League pour obtenir l’aide dont vous avez besoin.
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Assistant IA dans Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/fusion-ai-assistant.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
+
+L’assistant d’IA recherche des informations dans la documentation de Workfront, ce qui évite d’avoir à se rendre sur Adobe Experience League pour obtenir l’aide dont vous avez besoin.
 
 ## Conditions d’accès
 
@@ -30,11 +42,11 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td>
-   <td> <p>Nouveau : Tous</p> <p>Ou</p> <p>Actuel : non disponible</p></td> 
+   <td> <p>Nouveau : Tous</p> <p>Ou</p> <p>Current: Not available</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : non disponible</p> </td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Current: Not available</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
@@ -47,8 +59,8 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Nouveau : [!DNL Workfront Fusion] est inclus dans le plan Workfront Ultimate.</p> <p>Ou</p>
-   <p>Actuel : non disponible</p>
+   <p>Nouveau : [!DNL Workfront Fusion] est inclus dans le plan Ultimate Workfront.</p> <p>Ou</p>
+   <p>Current: Not available</p>
    </td> 
   </tr>
  </tbody> 
@@ -64,19 +76,19 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 ## Conditions préalables
 
-Adobe doit avoir signé un contrat d’Adobe Gen AI sur fichier.
+L’Adobe doit avoir un accord IA généralisée d’Adobe signé dans son dossier.
 
-Pour plus d’informations sur la signature de l’accord, consultez la section [Signature de l’accord Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) dans l’article Présentation de l’assistant d’IA dans la documentation Workfront.
+Pour plus d’informations sur la signature du contrat, consultez [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) dans l’article Présentation de l’assistant AI dans la documentation de Workfront.
 
-## Obtenir des informations sur l’assistant d’IA
+## Obtenir des informations à partir de l’assistant AI
 
-Pour obtenir des informations ou des instructions à partir de la documentation de Workfront à l’aide de l’assistant d’IA :
+Pour obtenir des informations ou des instructions à partir de la documentation Workfront à l’aide de l’assistant AI :
 
-1. Cliquez sur l’icône **Assistant IA** ![Icône Assistant IA](assets/ai-assistant-icon.png) près du coin supérieur droit de l’écran.
-1. Dans le panneau Assistant d’IA, saisissez votre invite dans la zone de texte située en bas du panneau.
+1. Cliquez sur l’icône **Assistant AI** ![icône de l’assistant AI](assets/ai-assistant-icon.png) près du coin supérieur droit de l’écran.
+1. Dans le panneau de l’assistant d’IA, saisissez l’invite dans la zone de texte située en bas du panneau.
 
-   L’assistant d’IA peut prendre quelques instants pour localiser les informations, selon la taille ou la complexité de l’invite. Nous vous recommandons des invites simples.
+   L’assistant AI peut prendre quelques instants pour localiser les informations, selon la taille ou la complexité de l’invite. Nous recommandons les invites simples.
 
 1. Affichez la réponse dans le panneau de l’assistant d’IA.
-1. (Facultatif) Si la réponse ne contient pas les informations dont vous avez besoin, affinez votre réponse et réessayez.
+1. (Facultatif) Si la réponse ne contient pas les informations dont vous avez besoin, affinez-la et réessayez.
 1. (Facultatif et conditionnel) Si la réponse inclut un lien vers un article Adobe Experience League, cliquez sur le lien pour ouvrir l’article dans une nouvelle fenêtre.

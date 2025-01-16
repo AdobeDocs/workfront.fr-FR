@@ -3,20 +3,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Éditeur de scénario dans [!DNL Adobe] Workfront Fusion
-description: L’éditeur de scénario vous permet de créer et de modifier des scénarios dans une interface visuelle.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 90%
+source-wordcount: '1172'
+ht-degree: 84%
 
 ---
 
 # Éditeur de scénario dans [!DNL Adobe Workfront Fusion]
 
 L’éditeur de scénario vous permet de créer et de modifier des scénarios dans une interface visuelle.
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Éditeur de scénarios dans Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/scenario-editor.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 ![](assets/scenario-editor.jpg)
 
@@ -167,10 +179,10 @@ Les actions suivantes sont disponibles dans l’éditeur de scénario :
 </td> 
    </tr> 
 <tr>
-<td>Vérification de l’état du scénario</td>
+<td>Vérifier le statut du scénario</td>
 <td>Les scénarios peuvent être actifs ou inactifs. Vous pouvez modifier le statut du scénario en cliquant sur le bouton « Activé/Désactivé » dans les détails du scénario.
 
-Pour plus d’informations, consultez les articles suivants :
+Consultez les articles suivants pour plus d’informations :
 <ul>
 <li><a href="../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md">Activer ou désactiver un scénario dans Adobe Workfront Fusion</a></li>
 <li><a href="../../workfront-fusion/scenarios/scenario-detail.md">Détails du scénario dans Adobe Workfront Fusion</a></li>
@@ -178,8 +190,8 @@ Pour plus d’informations, consultez les articles suivants :
 </td>
 </tr>
 <tr>
-<td>Modification de la planification du scénario</td>
-<td>Les scénarios actifs sont exécutés conformément à une planification. Par défaut, un scénario s’exécute toutes les 15 minutes. Vous pouvez modifier ce paramètre en définissant le moment et la fréquence d’exécution d’un scénario activé. Vous pouvez planifier les scénarios Fusion pour qu’ils s’exécutent toutes les 5 minutes.
+<td>Modifier le planning du scénario</td>
+<td>Les scénarios actifs sont exécutés selon un planning. Par défaut, un scénario s’exécute toutes les 15 minutes. Vous pouvez modifier ce paramètre en définissant le moment et la fréquence d’exécution d’un scénario activé. Vous pouvez planifier les scénarios Fusion pour qu’ils s’exécutent toutes les 5 minutes.
 
 Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/schedule-a-scenario.md">Planification d’un scénario dans Adobe Workfront Fusion</a>.
 </td>
@@ -192,14 +204,14 @@ Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/sched
 <td>Sélectionner le premier lot</td>
 <td>Certains modules déclencheur vous permettent de sélectionner le premier lot à partir duquel vous souhaitez que la récupération des lots démarre.
 
-Pour plus d’informations, voir <a href="../../workfront-fusion/modules/choose-where-trigger-module-starts.md">Choix de l’endroit où un module de déclenchement commence dans Adobe Workfront Fusion</a>.</td>
+Pour plus d’informations, voir <a href="../../workfront-fusion/modules/choose-where-trigger-module-starts.md">Choisir le début d’un module de déclenchement dans Adobe Workfront Fusion</a>.</td>
 </tr>
 <tr>
-<td>Définir le nombre de lots renvoyés</td>
-<td>Par défaut, les modules renvoient toujours deux lots seulement. Cela peut être modifié dans les paramètres du module dans le champ [!UICONTROL Nombre maximum de bundles renvoyés].</td>
+<td>Définissez le nombre de lots renvoyés</td>
+<td>Par défaut, les modules renvoient toujours deux lots seulement. Cette valeur peut être modifiée dans les paramètres du module dans le champ [!UICONTROL Nombre maximal de lots renvoyés].</td>
 </tr>
 <tr>
-<td>Configuration des paramètres avancés du scénario</td>
+<td>Configurer les paramètres avancés du scénario</td>
 <td>[!DNL Adobe Workfront Fusion] vous donne la possibilité de configurer un certain nombre d’autres paramètres avancés.
 
 Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md">Panneau des paramètres de scénario dans Adobe Workfront Fusion</a>.</td>

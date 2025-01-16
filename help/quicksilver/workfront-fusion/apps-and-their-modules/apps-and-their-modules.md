@@ -5,19 +5,31 @@ product-area: workfront-integrations
 keywords: connecteur
 navigation-topic: workfront-fusion-2-0
 title: Applications et leurs modules
-description: Adobe Workfront Fusion propose actuellement des connecteurs dédiés aux applications de cette liste. Si l’application avec laquelle vous souhaitez travailler ne figure pas dans cette liste, vous pouvez vous y connecter à l’aide des modules HTTP, SOAP ou JSON.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 5b24a91a9ea5dadb071dfdd88d9f80b2589a1323
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 97%
+source-wordcount: '275'
+ht-degree: 68%
 
 ---
 
 # Applications et leurs modules
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Références des applications Fusion et de leurs modules : index des articles](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/apps-and-modules-toc.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 >[!IMPORTANT]
 >

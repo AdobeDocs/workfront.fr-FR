@@ -2,19 +2,23 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: '« Exemple de scénario Adobe Workfront Fusion : connecter un e-mail, un analyseur de texte et Google Sheets »'
-description: Ce scénario vous permet de créer un journal de tous les e-mails et de les baliser pour effectuer d’autres actions dans une feuille de calcul. Il capture le corps d’un e-mail dans deux tableaux distincts dans une feuille de calcul à l’aide d’expressions régulières (Regex) comme modèles de recherche. Le premier modèle recherche une expression et le second recherche la même expression et une adresse e-mail.
+title: 'Exemple de scénario Adobe Workfront Fusion : connexion de l’e-mail, analyseur de texte et Google Sheets'
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète.
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 100%
+source-wordcount: '1176'
+ht-degree: 97%
 
 ---
 
 # Exemple de scénario [!DNL Adobe Workfront Fusion] : connecter un e-mail, [!UICONTROL un analyseur de texte] et [!DNL Google Sheets]
+
+>[!IMPORTANT]
+>
+>Cet article sera supprimé prochainement.
 
 Ce scénario vous permet de créer un journal de tous les e-mails et de les baliser pour effectuer d’autres actions dans une feuille de calcul. Il capture le corps d’un e-mail dans deux tableaux distincts dans une feuille de calcul à l’aide d’expressions régulières (Regex) comme modèles de recherche. Le premier modèle recherche une expression et le second recherche la même expression et une adresse e-mail.
 

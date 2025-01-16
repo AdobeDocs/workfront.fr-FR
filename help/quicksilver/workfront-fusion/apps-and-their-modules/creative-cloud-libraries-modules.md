@@ -5,19 +5,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Modules des bibliothèques d’Adobe Creative Cloud
-description: Avec les modules  [!DNL Adobe Workfront Fusion Adobe Creative Cloud] Libraries, vous pouvez lancer un scénario lors de la création ou de la mise à jour d’un élément ou d’une bibliothèque. Vous pouvez également charger, récupérer, archiver ou répertorier des éléments, ou faire un appel à l’API  [!DNL Adobe Creative Cloud Libraries] .
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 81%
+source-wordcount: '1401'
+ht-degree: 76%
 
 ---
 
 # Modules des bibliothèques d’Adobe Creative Cloud
 
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Modules de bibliothèques Adobe Creative Cloud](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/creative-cloud-libraries-modules.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Avec les modules [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries], vous pouvez lancer un scénario lors de la création ou de la mise à jour d’un élément ou d’une bibliothèque. Vous pouvez également charger, récupérer, archiver ou répertorier des éléments, ou faire un appel à l’API [!DNL Adobe Creative Cloud Libraries].
 
@@ -27,7 +39,7 @@ Pour plus d’informations sur les modules, voir [Modules dans  [!DNL Adobe Work
 
 >[!IMPORTANT]
 >
->La création de la connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.
+>La création de connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.
 
 ## Conditions d’accès
 
@@ -60,7 +72,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
     <tr>
       <td role="rowheader">Produit</td>
       <td>
-   <p>Exigences actuelles du produit : si vous avez le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences actuelles du produit : si vous disposez du plan de [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter du [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td>
@@ -79,7 +91,7 @@ Pour utiliser les modules [!DNL Adobe Creative Cloud Libraries], vous devez disp
 
 ## Informations sur l’API des bibliothèques Adobe Creative Cloud
 
-Le connecteur des bibliothèques Adobe Creative Cloud utilise les éléments suivants :
+Le connecteur Bibliothèques Adobe Creative Cloud utilise les éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -137,7 +149,7 @@ Ce module d’action archive un élément d’une bibliothèque.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de la connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
+      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -160,7 +172,7 @@ Ce module d’action renvoie un seul élément d’une bibliothèque.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de la connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
+      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -206,7 +218,7 @@ Ce module d’action permet de récupérer une liste d’éléments dans une bib
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de la connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
+      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -260,7 +272,7 @@ Ce module d’action charge un petit fichier de ressources dans une bibliothèqu
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de la connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
+      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -311,7 +323,7 @@ Ce module de déclenchement lance un scénario lorsqu’un élément est ajouté
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de la connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
+      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -335,7 +347,7 @@ Ce module de déclenchement lance un scénario lorsqu’un élément d’une bib
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de la connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
+      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -365,7 +377,7 @@ Ce module de déclenchement lance un scénario lorsqu’une nouvelle bibliothèq
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de la connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
+      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
@@ -384,7 +396,7 @@ Ce module de déclenchement lance un scénario lorsqu’une bibliothèque exista
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de la connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
+      <td>Sélectionnez une connexion Creative Cloud Libraries existante. La création de connexion n’est actuellement pas disponible dans le connecteur Creative Cloud Libraries. Les connexions existantes fonctionnent comme prévu.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>

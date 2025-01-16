@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Structures de données dans  [!DNL Adobe Workfront Fusion]
-description: Une structure de données est un document qui décrit en détail le format des données transférées vers Adobe Workfront Fusion. Sur la base de ce document, l’éditeur de scénario peut déterminer quel module renvoie ou reçoit quel type de données. Les structures de données sont généralement utilisées pour sérialiser ou analyser des formats de données tels que JSON, XML, CSV, etc
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: 35a7e906-7ca2-433d-87a9-bbb01babffb0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '355'
+ht-degree: 78%
 
 ---
 
 # Structures de données dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Créer et gérer des magasins de données](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Une structure de données est un document qui décrit en détail le format des données transférées vers [!DNL Adobe Workfront Fusion]. Sur la base de ce document, l’éditeur de scénario peut déterminer quel module renvoie ou reçoit quel type de données. Les structures de données sont généralement utilisées pour sérialiser ou analyser des formats de données tels que JSON, XML, CSV, etc
 

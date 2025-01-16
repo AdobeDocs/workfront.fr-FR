@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: Recevoir un webhook à partir d’un service web
-description: Si un service web n’est pas actuellement implémenté en tant qu’application dans  [!DNL Adobe Workfront Fusion], mais qu’il prend en charge l’envoi de webhooks, vous pouvez ajouter le service à un scénario à l’aide du module webhook personnalisé en tant que déclencheur instantané.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: f1a67dbf-c245-4936-9dcc-3fdbfc6ee3b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 77%
 
 ---
 
 # Recevoir un webhook à partir d’un service web
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Configurer un webhook pour un service web sans connecteur](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Si un service web n’est pas actuellement implémenté en tant qu’application dans [!DNL Adobe Workfront Fusion], mais qu’il prend en charge l’envoi de webhooks, vous pouvez ajouter le service à un scénario à l’aide du module webhook personnalisé en tant que déclencheur instantané.
 

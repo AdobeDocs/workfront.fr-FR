@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Clés dans Adobe Workfront Fusion
-description: Le trousseau dans  [!DNL Adobe Workfront Fusion]  vous aide à administrer les clés publiques et privées. Les clés sont utilisées, par exemple, par l’application Encryptor pour chiffrer ou déchiffrer des messages PGP.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: a36947aa-c218-4ff0-879c-2041c3cccae0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '264'
+ht-degree: 73%
 
 ---
 
 # Clés dans Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Clés](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/keys.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Le trousseau dans [!DNL Adobe Workfront Fusion] vous aide à administrer les clés publiques et privées. Les clés sont utilisées, par exemple, par l’application [!UICONTROL Encryptor] pour chiffrer ou déchiffrer des messages PGP.
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Créer un scénario dans Adobe Workfront Fusion
-description: Les tâches suivantes expliquent comment créer un scénario  [!DNL Adobe Workfront Fusion] .
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: ee2283ac159ca26ca473cac28ec4bed85d1dea04
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 96%
+source-wordcount: '1473'
+ht-degree: 91%
 
 ---
 
 # Créer un scénario dans [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans l’article :
+>
+>* [Workflow de création d’un scénario](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Les tâches suivantes expliquent comment créer un scénario [!DNL Adobe Workfront Fusion].
 
@@ -42,24 +54,24 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
       <td>Licence Adobe Workfront</td>  
       <td>
         Nouveau : Standard<br>
-        Ou<br>
-        Actuel : travail ou plus élevé
+        Ou <br>
+        En cours : Travail ou version ultérieure
       </td>  
     </tr>  
     <tr>  
       <td>Licence Adobe Workfront Fusion</td>  
       <td> 
         Actuel : aucune exigence de licence Workfront Fusion.<br>
-        Ou<br>
-        Hérité : Tout
+        Ou <br>
+        Hérité : Tous
       </td>  
     </tr>  
     <tr>  
       <td>Produit</td>  
       <td> 
-        Nouveau : sélectionnez ou forfait Workfront Prime : votre entreprise doit acheter Adobe Workfront Fusion.<br>
-        Formule Workfront ultime : Workfront Fusion est incluse.<br>
-        Ou<br>
+        Nouveau : sélectionnez ou Prime Workfront Plan : votre entreprise doit acheter Adobe Workfront Fusion.<br>
+        Plan Ultimate Workfront : Workfront Fusion est inclus.<br>
+        Ou <br>
         Actuel : votre entreprise doit acheter Adobe Workfront Fusion.
       </td>  
     </tr> 

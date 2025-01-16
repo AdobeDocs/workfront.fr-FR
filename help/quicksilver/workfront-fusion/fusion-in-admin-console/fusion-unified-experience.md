@@ -3,18 +3,31 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Adobe Unified Experience pour Workfront Fusion
-description: L’accès à Workfront Fusion via Adobe Experience Cloud offre une expérience unifiée et transparente pour gérer l’ensemble de vos applications Adobe.
+description: La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement. Cet article est obsolète, mais contient un lien vers le nouvel article qui couvre cette fonctionnalité.
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 100%
+source-wordcount: '631'
+ht-degree: 87%
 
 ---
 
 # [!DNL Adobe Unified Experience] pour [!DNL Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentation d’Adobe Workfront Fusion a été déplacée vers un nouvel emplacement.
+>
+>Les informations contenues dans cet article se trouvent désormais dans les articles suivants :
+>
+>* [Modifier les paramètres de profil](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/change-profile-settings.html)
+>* [Définir les options de notification d’équipe](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>Mettez à jour les signets.
+>
+>Cet article n’est plus mis à jour et sera supprimé prochainement.
 
 Avec l’accès à [!DNL Workfront Fusion] grâce à [!DNL Adobe Experience Cloud], vous bénéficiez d’une expérience transparente et unifiée pour gérer l’ensemble de vos applications [!DNL Adobe]. La gestion des identités unique vous permet de vous connecter à un seul emplacement, sans avoir à utiliser plusieurs URL ou identifiants de connexion.
 
@@ -108,7 +121,7 @@ Vous trouverez vos notifications et annonces dans la zone Notifications de Unifi
 
 Pour afficher vos notifications, cliquez sur l’icône Notifications ![Icône Notifications](assets/notifications-icon.png) près du coin supérieur droit de l’écran. Un point rouge sur l’icône Notifications indique que vous avez des notifications ou des annonces non lues.
 
-Pour plus d’informations sur la configuration de vos notifications dans Adobe Experience Cloud, voir [Configuration des notifications](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=fr#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) dans la documentation d’Adobe.
+Pour plus d’informations sur la configuration de vos notifications dans Adobe Experience Cloud, voir [Configuration des notifications](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) dans la documentation d’Adobe.
 
 Lors de la configuration, notez les points suivants :
 
