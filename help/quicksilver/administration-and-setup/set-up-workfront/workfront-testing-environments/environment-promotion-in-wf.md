@@ -9,16 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: fa70a7ae5d8edce9dab4ca2ac4c2266b2c463734
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 51%
+source-wordcount: '1041'
+ht-degree: 50%
 
 ---
 
 # Vue d’ensemble du déplacement d’objets entre les environnements Workfront (promotion environnementale)
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 La fonctionnalité de promotion d’environnement vous permet de déplacer des objets d’un environnement Workfront à un autre. Par exemple, vous pouvez créer un modèle et le configurer dans votre environnement de sandbox, en sachant que les tests que vous effectuez n’affecteront pas les données réelles de votre organisation. Une fois le modèle configuré et testé, vous pouvez le déplacer vers votre environnement de production, prêt à l’emploi.
 
@@ -100,8 +98,8 @@ La fonctionnalité de promotion d’environnement est destinée à fournir la po
 | Type de risque (RSKTYP) | Type de risque |
 | Groupe de ressources (RSPL) | Pool de ressources |
 | Niveau d’accès (ACSLVL) | Niveau d’accès |
-| <span class="preview">Carte tarifaire (RTCRD)</span> | <span class="preview">Carte tarifaire </span> |
-| <span class="preview">Emplacement / Classificateur (CLSF)</span> | <span class="preview">Emplacement/Classificateur</span> |
+| Carte tarifaire (RTCRD) | Carte tarifaire |
+| Emplacement / Classificateur (CLSF) | Emplacement / Classificateur |
 
 \* Non disponible actuellement
 
