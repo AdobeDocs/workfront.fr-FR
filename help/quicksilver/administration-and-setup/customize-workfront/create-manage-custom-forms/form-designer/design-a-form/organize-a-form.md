@@ -1,5 +1,5 @@
 ---
-title: Organisation et aperçu d’un formulaire
+title: Organisation et prévisualisation d’un formulaire
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1329'
 ht-degree: 88%
 
 ---
 
 # Organisation et prévisualisation d’un formulaire
-
-{{preview-fast-release-general}}
 
 Vous pouvez organiser un formulaire personnalisé avec le créateur de formulaires et le prévisualiser pour vérifier qu’il est correctement configuré.
 
@@ -63,7 +61,7 @@ Les paramètres d’accès que vous sélectionnez pour une section sont directem
 
 Pour plus d’informations sur les autorisations sur les objets, voir [Vue d’ensemble du partage des autorisations sur les objets](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Créer et configurer l’accès pour une section dans un formulaire personnalisé
 
@@ -149,7 +147,7 @@ Dans un formulaire personnalisé avec un saut de section configuré et l’autor
 ## Positionner des champs et des widgets personnalisés dans un formulaire personnalisé
 
 
-1. Commencez à créer ou modifier un formulaire personnalisé, comme décrit dans [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Commencez à créer ou modifier un formulaire personnalisé, comme décrit dans la section [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Pour positionner un champ personnalisé et un widget sur la même ligne, faites glisser l’un à côté de l’autre jusqu’à ce qu’une ligne s’affiche entre eux.
 
@@ -158,12 +156,11 @@ Dans un formulaire personnalisé avec un saut de section configuré et l’autor
    >* Vous pouvez utiliser le bouton **Prévisualiser** dans le coin supérieur droit pour avoir un aperçu de la façon dont les champs personnalisés et les widgets s’affichent dans le formulaire.
    >* Les champs personnalisés et les widgets peuvent ne pas toujours s’afficher de la même manière dans le formulaire, selon l’espace disponible lorsqu’une personne le visualise. Par exemple, le troisième champ d’une ligne de champs peut être renvoyé à la ligne suivante de champs si l’espace horizontal est limité.
 
-1. (Facultatif) Pour positionner un champ ou un widget personnalisé au-dessus ou en dessous d’un autre, faites-le glisser au-dessus ou en dessous jusqu’à ce qu’une ligne bleue horizontale apparaisse entre les éléments.
+1. (Facultatif) Pour positionner un champ ou un widget personnalisé au-dessus ou au-dessous d’un autre, faites-le glisser au-dessus ou au-dessous jusqu’à ce qu’une ligne bleue horizontale s’affiche entre les éléments.
 
-1. Pour déplacer un champ personnalisé vers une autre section du formulaire, vous pouvez le faire glisser et le déposer sur place, <span class="preview"> ou cliquer sur l&#39;icône **Déplacer vers** du champ et sélectionner la section vers laquelle le déplacer.</span>
+1. Pour déplacer un champ personnalisé vers une autre section du formulaire, vous pouvez le faire glisser et le déposer à cet endroit, ou cliquer sur l’icône **Déplacer vers** dans le champ et sélectionner la section vers laquelle le déplacer.
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-   ![Déplacer un champ vers une section](assets/move-field-to-section.png)
+   ![Déplacer le champ vers une section](assets/move-field-to-section.png)
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer**.
 

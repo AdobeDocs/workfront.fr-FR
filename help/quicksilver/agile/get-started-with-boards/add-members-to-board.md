@@ -6,7 +6,7 @@ description: Les personnes doivent être ajoutées au panorama en tant que membr
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 63%
@@ -15,11 +15,9 @@ ht-degree: 63%
 
 # Ajouter ou supprimer des membres d’un panorama
 
-{{highlighted-preview}}
-
 Les personnes et les équipes doivent être ajoutées au panorama en tant que membres avant qu’elles ne puissent afficher le panorama.
 
-Le créateur d’un panorama en est le propriétaire par défaut. Le propriétaire du panorama est la seule personne qui peut supprimer ce panorama ou mettre à jour ses filtres dans le panneau Configurer. <span class="preview">Seul un administrateur système ou le propriétaire actuel du panorama peut modifier le propriétaire du panorama.</span>
+Le créateur d’un panorama en est le propriétaire par défaut. Le propriétaire du panorama est la seule personne qui peut supprimer ce panorama ou mettre à jour ses filtres dans le panneau Configurer. Seul un administrateur système ou le propriétaire actuel du panorama peut changer de propriétaire.
 
 ## Conditions d’accès
 
@@ -85,8 +83,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
    >
    >Vous ne pouvez pas supprimer la personne propriétaire du panorama.
 
-<div class="preview">
-
 ## Modifier le propriétaire du panorama
 
 >[!NOTE]
@@ -104,5 +100,3 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
    Seul un utilisateur peut être le propriétaire du panorama. Une équipe ne peut pas être propriétaire.
 
 1. Cliquez sur [!UICONTROL **Mettre à jour**].
-
-</div>

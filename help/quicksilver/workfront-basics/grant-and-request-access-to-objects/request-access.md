@@ -1,31 +1,29 @@
 ---
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: Demande d’accès aux objets
+title: Demander l'accès aux objets
 description: La visibilité des objets dans Adobe Workfront dépend de l’accès à ce type d’objet et de vos autorisations sur un objet particulier.
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1380'
 ht-degree: 92%
 
 ---
 
 # Demander l’accès aux objets
 
-{{preview-fast-release-general}}
-
 La visibilité des objets dans Adobe Workfront dépend de l’accès à ce type d’objet et de vos autorisations sur un objet particulier.
 
 >[!NOTE]
 >
->Cet article décrit comment vous pouvez demander des autorisations pour tous les objets, à l’exception des éléments suivants :
+>Cet article décrit comment demander des autorisations pour tous les objets, à l’exception des éléments suivants :
 >
->* Plan du planificateur de scénarios dans le planificateur de scénarios Adobe Workfront. Pour plus d’informations, voir [Demande d’accès à un plan dans le planificateur de scénario](../../scenario-planner/request-access-to-plan.md). Cette fonction nécessite une licence supplémentaire.
+>* Plans du Planificateur de scénarios dans le Planificateur de scénarios Adobe Workfront. Pour plus d’informations, voir [Demande d’accès à un plan dans le planificateur de scénarios](../../scenario-planner/request-access-to-plan.md). Cette fonction nécessite une licence supplémentaire.
 >
->* Vues et espaces de travail dans la planification Workfront. Pour plus d’informations, voir [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). Cette fonction nécessite une licence supplémentaire.
+>* Vues et espaces de travail dans Workfront Planning. Pour plus d’informations, voir [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). Cette fonction nécessite une licence supplémentaire.
 
 
 Votre équipe d’administration Workfront configure votre accès à un type d’objet dans votre niveau d’accès. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
@@ -94,7 +92,7 @@ Pour demander l’accès initial à un objet, procédez comme suit :
 1. Cliquez sur **Demander l’accès**.\
    La boîte de dialogue **Demander l’accès** s’affiche.
 
-1. (Conditionnel) Si plusieurs utilisateurs disposent de l’accès approprié pour vous accorder un accès supplémentaire, une flèche déroulante s’affiche en regard du nom de l’utilisateur. Sélectionnez dans la liste déroulante l’utilisateur qui doit recevoir votre demande d’accès.
+1. (Conditionnel) Si plusieurs utilisateurs disposent de l’accès approprié pour vous accorder un accès supplémentaire, une flèche de liste déroulante s’affiche en regard du nom de l’utilisateur. Dans la liste déroulante, sélectionnez l’utilisateur ou l’utilisatrice qui doit recevoir votre demande d’accès.
 
    Seuls 10 utilisateurs et utilisatrices sont affichés dans la liste déroulante. La liste est triée par ordre alphabétique.\
    Pour plus d’informations sur l’ordre des utilisateurs et utilisatrices répertoriés dans ce menu déroulant, voir [Hiérarchie des menus déroulants « Demander l’accès » et « Demander davantage d’accès »](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
@@ -102,11 +100,7 @@ Pour demander l’accès initial à un objet, procédez comme suit :
 1. Dans la liste déroulante, sélectionnez le type d’accès que vous demandez.
 1. (Facultatif) Dans le champ **P.S.**, rédigez une note à l’attention de l’utilisateur ou de l’utilisatrice sur les raisons pour lesquelles vous avez besoin d’un accès supplémentaire.
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-   ![Boîte de dialogue de demande d’accès](assets/request-access-to-project.png)
-
-   Exemple d’image dans l’environnement de production :
-   ![](assets/request-access-dialog-350x314.png)
+   ![Boîte de dialogue Demander l’accès](assets/request-access-to-project.png)
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -123,7 +117,7 @@ Pour demander un accès supplémentaire à un objet auquel vous avez déjà un a
 
 1. Cliquez sur le menu **Plus** à droite du nom du projet, puis cliquez sur **Demander plus d’accès**.
 
-   ![Demander plus d’accès](assets/more-menu-request-more-access.png)
+   ![Demander un accès supplémentaire](assets/more-menu-request-more-access.png)
 
 1. (Le cas échéant) Si plusieurs personnes disposent de l’accès approprié pour vous accorder un accès supplémentaire, une flèche déroulante s’affiche en regard du nom de la personne.
 1. Sélectionnez dans la liste déroulante la personne qui doit recevoir votre demande d’accès.\
@@ -134,11 +128,8 @@ Pour demander un accès supplémentaire à un objet auquel vous avez déjà un a
 1. (Facultatif) Dans le champ **P.S.**, indiquez une note expliquant pourquoi vous avez besoin d’un accès supplémentaire.
 1. Cliquez sur **Demander l’accès**.
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-   ![Boîte de dialogue de demande d’accès](assets/request-access-to-project.png)
-
-   Exemple d’image dans l’environnement de production :
-   ![](assets/request-access-dialog-350x314.png)
+   Exemple d’image dans l’environnement de prévisualisation :
+   ![Boîte de dialogue Demander l’accès](assets/request-access-to-project.png)
 
 ## Hiérarchie des menus déroulants « Demander l’accès » et « Demander plus d’accès » {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 

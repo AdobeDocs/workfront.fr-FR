@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '6534'
-ht-degree: 77%
+source-wordcount: '6474'
+ht-degree: 78%
 
 ---
 
 # Créer un formulaire personnalisé
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Vous pouvez concevoir un formulaire personnalisé à l’aide du concepteur de formulaire dans Adobe Workfront. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données en rapport avec ces objets.
 
@@ -849,8 +845,8 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
       <td><p>(Obligatoire) Sélectionnez un champ natif Workfront.<p><p>Seuls les champs natifs des objets du formulaire sont disponibles. Par exemple, si la liste des types d’objets en haut du créateur de formulaire affiche Projet, vous pourrez sélectionner des champs natifs pour les projets, mais pas des champs spécifiques aux tâches.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Ajouter filtre</span></td>
-      <td><span class="preview"><p>Ajoutez un filtre pour le champ de référence afin de limiter la liste d’éléments que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ. </p> <p>Par exemple, vous pouvez limiter un champ afin que les noms d’utilisateurs ou d’utilisatrices ne puissent être sélectionnés que s’ils répondent aux critères suivants :</p> 
+      <td role="rowheader">Ajouter filtre</td>
+      <td><p>Ajoutez un filtre pour le champ de référence afin de limiter la liste d’éléments que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ. </p> <p>Par exemple, vous pouvez limiter un champ afin que les noms d’utilisateurs ou d’utilisatrices ne puissent être sélectionnés que s’ils répondent aux critères suivants :</p> 
        <ul>
         <li>Ils appartiennent à un ou à des groupes que vous spécifiez.</li> 
         <li>Ils sont associés à un rôle ou à une fonction que vous spécifiez.</li> 
@@ -862,7 +858,7 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
         <li>L’option de filtrage n’est disponible que lorsque vous référencez un champ de saisie semi-automatique natif, tel que Portfolio, Société ou Propriétaire.</li>
         <li>Si vous modifiez un formulaire personnalisé existant, l’ajout d’un filtre à un champ natif ne supprime aucun objet (hors de portée du filtre) que les utilisateurs ont déjà ajouté à l’aide du champ.</li> 
         <li>Ce filtre n’est pas disponible sur les appareils mobiles. Si vous utilisez le filtre pour un champ natif, le champ apparaîtra sur les appareils mobiles des utilisateurs non affectés par le filtre.</li> 
-        </ul></p></span></td> 
+        </ul></p></td> 
       <td>
      </tr>
      <tr> 
@@ -938,8 +934,6 @@ Pour ajouter un fichier Adobe XD :
    ou
 
    Cliquez sur **Enregistrer et fermer**.
-
-<div class="preview">
 
 ### Ajouter des champs de connexion Planning
 
@@ -1033,8 +1027,6 @@ Pour ajouter un champ de connexion Planning :
    * Connecter ou déconnecter des enregistrements de l’objet Workfront.
 
    Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
-
-</div>
 
 ## Organiser et prévisualiser un formulaire avec le concepteur de formulaire
 

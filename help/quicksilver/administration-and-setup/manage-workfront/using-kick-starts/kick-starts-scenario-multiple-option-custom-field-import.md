@@ -3,22 +3,20 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Scénario de démarrage : importation de champs personnalisés à plusieurs options dans Workfront"
+title: 'Scénario de Kickstart : importation de champs personnalisés à options multiples dans Workfront'
 description: Vous pouvez importer des champs personnalisés avec plusieurs options dans Adobe Workfront à l’aide de la fonctionnalité de lancement.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 310333b71d2a92d71a0d8caf73ee8609ed6edd83
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2155'
 ht-degree: 93%
 
 ---
 
 # Scénario de lancement : importer des champs personnalisés à plusieurs options dans Workfront
-
-{{highlighted-preview}}
 
 Vous pouvez importer des champs personnalisés avec plusieurs options dans Adobe Workfront à l’aide de la fonctionnalité de lancement.
 
@@ -86,15 +84,11 @@ Pour exporter des données existantes à partir de Workfront :
 
 {{step-1-to-setup}}
 
-1. Développez **System** dans le menu de gauche, puis cliquez sur **Export Data (Kick-Starts)**.
+1. Développez **Système** dans le menu de gauche, puis cliquez sur **Exporter les données (Kick-Starts)**.
 
 1. Sélectionnez **Données personnalisées** dans la section **Éléments à inclure**.
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-   ![Sélectionner des données personnalisées](assets/kickstarts-select-existing-data.png)
-
-   Exemple d’image dans l’environnement de production :
-   ![Sélectionner des données personnalisées](assets/existing-custom-data-box-checked-kick-starts.png)
+   ![Sélectionner les données personnalisées](assets/kickstarts-select-existing-data.png)
 
 1. Choisissez **fichier .xlsx** dans la section **Format de téléchargement**.
 
@@ -102,7 +96,7 @@ Pour exporter des données existantes à partir de Workfront :
    >
    >Selon le volume de données personnalisées de votre système, cette opération peut prendre un certain temps.
 
-1. Cliquez sur **Télécharger**. Un fichier .xlsx est téléchargé sur votre ordinateur. Accédez-y et ouvrez-le.
+1. Cliquez sur **Télécharger**. Un fichier .xlsx est téléchargé sur votre ordinateur. Accédez-y et ouvrez-la.
 
    ![Données exportées dans Excel](assets/existing-data-excel-parameter-sheet.png)
 
@@ -128,13 +122,9 @@ Après avoir analysé les informations sur les champs personnalisés existants d
 
 1. Cliquez sur **Importer des données (lancement)**.
 
-1. Dans la zone **Télécharger une feuille de calcul de démarrage rapide vide**, cochez la case **Données personnalisées** et cliquez sur **Télécharger**.
+1. Dans la zone **Télécharger une feuille de calcul Kickstart vierge**, cochez la case **Données personnalisées** et cliquez sur **Télécharger**.
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-   ![Sélectionner des données personnalisées](assets/kickstarts-select-existing-data.png)
-
-   Exemple d’image dans l’environnement de production :
-   ![Sélectionner des données personnalisées](assets/blank-custom-data-option-checked-kick-starts.png)
+   ![Sélectionner les données personnalisées](assets/kickstarts-select-existing-data.png)
 
    Un fichier de lancement vierge est téléchargé sur votre ordinateur.
 
@@ -144,7 +134,7 @@ Après avoir analysé les informations sur les champs personnalisés existants d
 
 ## Renseigner la feuille de calcul Excel de lancement
 
-Avant de remplir la feuille de calcul Excel, téléchargez le modèle de démarrage rapide comme décrit dans la section ci-dessus.
+Avant de remplir la feuille de calcul Excel, téléchargez le modèle Kickstart comme décrit dans la section ci-dessus.
 
 >[!IMPORTANT]
 >
@@ -214,7 +204,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
    La valeur d’un champ est le nom qui apparaît dans les rapports, par exemple, tandis que le nom s’affiche dans les formulaires personnalisés associés aux objets.
 
-   Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
@@ -235,7 +225,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
    * **`setParameterID`** = les options correspondant au champ personnalisé _Marque_ comportent un **`setParameterID`** de 1 et les options correspondant au _Média_ ont un **`setParameterID`**de 2. Les feuilles `PARAM` et `POPT` se croisent pour indiquer quelles options appartiennent à quel champ personnalisé.
    * **`setDisplayOrder`**= la colonne d’ordre d’affichage indique l’ordre dans lequel les options s’afficheront dans votre champ personnalisé. Vous pouvez commencer par 1 et continuer par ordre croissant pour toutes les options, quels que soient les champs auxquels elles appartiennent. L’important ici est d’avoir des nombres uniques pour chaque option.
-   * Les colonnes **`setLabel`** et `**setValue`** contiennent généralement les mêmes informations et doivent refléter les noms souhaités dans l’interface d’utilisation de Workfront. La valeur d’une option est le nom qui s’affiche dans les rapports, par exemple, tandis que le libellé s’affiche dans les formulaires personnalisés lorsqu’il est associé à un objet. Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   * Les colonnes **`setLabel`** et `**setValue`** contiennent généralement les mêmes informations et doivent refléter les noms souhaités dans l’interface d’utilisation de Workfront. La valeur d’une option est le nom qui s’affiche dans les rapports, par exemple, tandis que le libellé s’affiche dans les formulaires personnalisés lorsqu’il est associé à un objet. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = saisissez `TRUE` si vous souhaitez que l’une des options soit masquée.
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -280,11 +270,11 @@ Après avoir suivi les étapes décrites dans les sections précédentes, procé
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Système > Importer des données (Démarrages)**.
+1. Cliquez sur **Système > Importer des données (Kick-Starts)**.
 
 1. Cliquez sur **Choisir un fichier** sous la section **Charger des données avec une feuille de calcul Kickstart**.
 
-1. Recherchez la feuille de calcul Excel que vous avez préparée sur votre ordinateur et sélectionnez-la lorsque vous la trouvez. Lorsque Workfront reconnaît le fichier, le bouton Télécharger devient bleu.
+1. Recherchez la feuille de calcul Excel que vous avez préparée, sur votre ordinateur, et sélectionnez-la lorsque vous la trouvez. Lorsque Workfront reconnaît le fichier, le bouton Charger devient bleu.
 1. Cliquez sur **Charger**.
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)
