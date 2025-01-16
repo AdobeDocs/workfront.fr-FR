@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: da688217a1240b74667f31d20e086164e1536576
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '999'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,7 @@ Dans Priorités, vous pouvez filtrer et regrouper votre travail pour vous aider 
 
 ### Rechercher votre travail avec les filtres
 
-Trouvez votre travail le plus important avec les filtres. <span class="preview">Vous pouvez utiliser un langage naturel pour rechercher du travail avec le filtre intelligent</span> ou
+Trouvez votre travail le plus important avec les filtres. Vous pouvez utiliser un langage naturel pour rechercher du travail avec le filtre intelligent, ou
 Vous pouvez utiliser le filtre Standard pour rechercher les tâches et les événements qui vous sont affectés :
 
 <table>
@@ -112,10 +112,9 @@ Une fois que vous avez affecté des niveaux de focus à vos éléments de travai
 
 Pour plus d’informations, voir [ Hiérarchiser les éléments de travail importants ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![](assets/my-focus-column.png)
-<!-- new screen for prod ![](assets/worklist.png) -->
+![](assets/worklist.png)
 
-### Utiliser la vue Calendrier [!BADGE Disponible dans l’aperçu]{type=Informative}
+### Utilisation de la vue Calendrier
 
 La vue Calendrier fournit une représentation visuelle de vos tâches et problèmes. Vous aurez le choix entre une vue sur un jour, une semaine ou un mois. Vous pourrez également filtrer les éléments de la même manière que dans la liste de travail.
 
@@ -141,8 +140,7 @@ La section Mises à jour affiche les mises à jour système et jusqu’à 200 de
 
 Pour plus d&#39;informations, voir [Ajouter et afficher des commentaires dans Priorités](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![](assets/new-update.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Enregistrer des heures
 
@@ -150,8 +148,7 @@ Vous pouvez enregistrer le temps passé pour les éléments de travail afin d’
 
 Pour plus d’informations, voir [Consigner le temps dans les priorités](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Charger des fichiers
 
@@ -164,8 +161,7 @@ Charger des fichiers directement dans la zone Documents de la tâche ou de l’�
 
 Pour plus d’informations, voir [ Charger des fichiers dans Priorités ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
-![](assets/upload-file.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 
 ### Ajout de liens rapides
@@ -176,13 +172,13 @@ Vous pouvez incorporer les liens fréquemment utilisés dans la page de détails
 
 Pour plus d’informations, voir [ Ajouter et gérer des liens rapides dans Priorités ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
-### Affichage des documents [!BADGE disponible en aperçu]{type=Informative}
+### Afficher des documents.
 
 L’onglet Documents vous permet de consulter tous les fichiers liés à un élément de travail. Vous pourrez filtrer les documents par nom, type de fichier ou personne, et les trier par nom et date de chargement.
 
 Vous pourrez également ouvrir le document ou l’épreuve.
 
-### Révision et approbation des ressources [!BADGE disponible en aperçu]{type=Informative}
+### Révision et approbation des ressources
 
 Depuis l’onglet Documents d’une tâche ou d’un événement, vous pouvez :
 
@@ -190,7 +186,7 @@ Depuis l’onglet Documents d’une tâche ou d’un événement, vous pouvez :
 * Lancez le lecteur de vérification pour laisser des commentaires et prendre des décisions
 
 
-## Utilisez [!DNL Catch me up] pour voir ce que vous avez manqué [!BADGE Disponible en aperçu]{type=Informative}
+## Utilisez [!DNL Catch me up] pour voir ce que vous avez manqué
 
 Utilisez la fonction [!DNL Catch me up] pour voir ce que vous avez manqué. Catch me up résumera les mises à jour, les documents téléchargés, les approbations et autres modifications notables concernant vos projets dans les délais suivants : 24 heures, 3 jours, 7 jours.
 
@@ -200,7 +196,7 @@ Pour de plus amples renseignements, voir [Rattrapage du travail dans Priorités]
 
 <!--need new screen for prod-->
 
-## Affichez les mises à jour en temps réel sur la page Détails [!BADGE Disponible en aperçu]{type=Informative}
+## Afficher les mises à jour en temps réel sur la page Détails
 
 Vous pouvez afficher des mises à jour en temps réel sur la page Détails d’une tâche ou d’un événement. Vous pouvez également voir si d’autres personnes consultent la page en même temps que vous avec des indicateurs de présence en temps réel.
 

@@ -1,27 +1,25 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Personnalisation des colonnes de la liste de travail des priorités
-description: Vous pouvez personnaliser les colonnes de la liste de travail dans Priorités pour prendre en charge votre manière de travailler.
+title: Personnaliser les colonnes de la liste de travail des priorités
+description: Vous pouvez personnaliser les colonnes de la liste de tâches dans Priorités pour prendre en charge votre manière de travailler.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 29%
+source-wordcount: '275'
+ht-degree: 24%
 
 ---
 
-# Personnalisation des colonnes de la liste de travail des priorités
+# Personnaliser les colonnes de la liste de travail des priorités
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
-
-Vous pouvez personnaliser les colonnes de la liste de travail dans Priorités pour prendre en charge votre manière de travailler.
+Vous pouvez personnaliser les colonnes de la liste de tâches dans Priorités pour prendre en charge votre manière de travailler.
 
 >[!NOTE]
 >
->Actuellement, vous ne pouvez pas ajouter de données personnalisées aux colonnes.
+>Vous ne pouvez pas ajouter de données personnalisées aux colonnes pour le moment.
 
 ## Conditions d’accès
 
@@ -42,7 +40,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> 
-   <p>Actuel : réviseur ou version ultérieure</p>
+   <p>Current : Reviewer ou supérieur</p>
    <p>Nouveau : Light ou supérieur</p> 
    </td> 
   </tr> 
@@ -61,55 +59,50 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Personnalisation des colonnes de la liste de travail Priorités dans Production
+## Personnaliser les colonnes de la liste de travail des priorités dans l’environnement de production
 
-### Activation ou désactivation de colonnes
+### Activer ou désactiver les colonnes
 
 {{step1-to-priorities}}
 
-1. Cliquez sur **Colonnes** sur le côté droit de l’écran.
+1. Cliquez sur **Colonnes** dans la partie droite de l’écran.
    ![](assets/columns.png)
-1. Utilisez les bascules pour activer ou désactiver les colonnes dans la liste de travail.
+1. Utilisez les bascules pour activer ou désactiver les colonnes de la liste de travail.
 
 ### Réorganiser les colonnes
 
 {{step1-to-priorities}}
 
-1. Cliquez sur **Colonnes** sur le côté droit de l’écran.
-1. Cliquez sur l&#39;icône **Faire glisser** et déplacez la colonne à l&#39;emplacement de votre choix. Déplacement automatique des mises à jour des colonnes dans la liste de travail.
+1. Cliquez sur **Colonnes** dans la partie droite de l’écran.
+1. Cliquez sur l’icône **Faire glisser** et déplacez la colonne vers l’emplacement souhaité. Déplacement automatique des mises à jour de colonnes dans la liste de tâches.
    ![](assets/reorder-columns.png)
 
-### Réinitialisation des largeurs de colonne
+### Réinitialiser les largeurs de colonne
 
 {{step1-to-priorities}}
 
-1. Cliquez sur **Colonnes** sur le côté droit de l’écran.
-1. Cliquez sur l&#39;icône **Plus** ![](assets/more-icon.png) et choisissez **Réinitialiser les largeurs de colonne**.
+1. Cliquez sur **Colonnes** dans la partie droite de l’écran.
+1. Cliquez sur l’![](assets/more-icon.png) de l’icône **Plus** et choisissez **Réinitialiser les largeurs de colonne**.
    ![](assets/columns.png)
 
-<div class="preview">
+## Personnaliser les colonnes de la liste de travail des priorités
 
-## Personnalisation des colonnes de la liste de travail Priorités dans Aperçu
-
-### Activation ou désactivation de colonnes
+### Activer ou désactiver les colonnes
 
 {{step1-to-priorities}}
 
 1. Cliquez sur **Colonnes** sur le côté gauche de l’écran.
    ![](assets/columns-new.png)
-1. Utilisez les bascules pour activer ou désactiver les colonnes dans la liste de travail.
+1. Utilisez les bascules pour activer ou désactiver les colonnes de la liste de travail.
 
 ### Réorganiser les colonnes
 
 {{step1-to-priorities}}
 
 1. Cliquez sur **Colonnes** sur le côté gauche de l’écran.
-1. Cliquez sur l&#39;icône **Faire glisser** et déplacez la colonne à l&#39;emplacement de votre choix. Déplacement automatique des mises à jour des colonnes dans la liste de travail.
+1. Cliquez sur l’icône **Faire glisser** et déplacez la colonne vers l’emplacement souhaité. Déplacement automatique des mises à jour de colonnes dans la liste de tâches.
    ![](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
 >La colonne Nom est fixe et ne peut pas être déplacée.
-
-
-</div>

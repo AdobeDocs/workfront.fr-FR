@@ -5,17 +5,15 @@ description: Documents
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a59d092e700f1f661ad8e3cb74b7d96ee2418f41
+exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 40%
+source-wordcount: '498'
+ht-degree: 38%
 
 ---
 
-
 # Charger des documents et créer des épreuves dans les priorités
-
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Vous pouvez charger des documents et créer des épreuves dans Priorités.
 
@@ -182,6 +180,3 @@ Vous pouvez trier les documents par
 
 * Date d’ajout
 * Type de fichier
-
-
-

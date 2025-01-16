@@ -1,39 +1,38 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Définir la priorité des tâches importantes
-description: Les priorités sont une expérience simple et intuitive, adaptée aux propriétaires de tâches.
+title: Hiérarchiser les éléments de travail importants
+description: Priority offre une expérience rationalisée et intuitive, adaptée aux propriétaires de tâches.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 3%
 
 ---
 
-# Définir la priorité des tâches importantes
+# Hiérarchiser les éléments de travail importants
 
-Vous pouvez utiliser la colonne Mon point de mires pour classer vos tâches par ordre de priorité. La colonne Mon focus est une valeur personnelle qui n’a aucune incidence sur l’ensemble de priorités de la tâche ou du problème.
+Vous pouvez utiliser la colonne Mon focus pour hiérarchiser votre travail. La colonne Mon focus est une valeur personnelle qui n’a aucune incidence sur la priorité définie pour la tâche ou l’événement.
 
-## Définir la priorité de votre travail avec la colonne Mon point de mires
+## Hiérarchisez votre travail à l’aide de la colonne Mon focus
 
 {{step1-to-priorities}}
 
-1. Recherchez l’élément de travail sur lequel vous souhaitez vous concentrer.
-1. Dans la colonne **My Focus** , sélectionnez l’un des niveaux de focus suivants :
+1. Recherchez l’élément de travail sur lequel vous souhaitez mettre l’accent.
+1. Dans la colonne **Mon focus**, choisissez l’un des niveaux de focus suivants :
 
    | Mise au point | Description |
    |-----------|-------------|
-   | **Urgente** | L’urgence concerne les tâches qui nécessitent une attention immédiate. Les tâches urgentes doivent être prioritairement classées par rapport à toutes les autres et traitées dès que possible. |
-   | **Élevé** | Élevée est destinée aux tâches importantes que vous prévoyez de traiter une fois le travail urgent terminé. |
-   | **Normale** | La normale est destinée aux tâches de routine que vous traiterez une fois les tâches urgentes et hautement prioritaires terminées. Il s’agit de la valeur par défaut pour les tâches et les problèmes. |
-   | **Faible** | Faible correspond aux tâches qui n’ont pas besoin d’attention immédiate et peuvent être différées jusqu’à ce que toutes les tâches de priorité supérieure soient effectuées. |
+   | **Urgente** | Urgent pour les éléments de travail qui nécessitent une attention immédiate. Les tâches urgentes doivent être prioritaires sur toutes les autres et traitées dès que possible. |
+   | **Élevé** | Élevée concerne les éléments de travail importants que vous prévoyez de traiter une fois le travail urgent terminé. |
+   | **Normale** | La valeur Normale concerne les tâches de routine sur lesquelles vous travaillerez une fois les tâches urgentes et de haute priorité terminées. Il s’agit de la valeur par défaut pour les tâches et les événements. |
+   | **Faible** | La valeur faible correspond aux éléments de travail qui n’ont pas besoin d’une attention immédiate et qui peuvent être différés jusqu’à ce que tous les éléments de travail de priorité supérieure soient terminés. |
 
-   ![](assets/my-focus.png)
-   <!--new screen for prod ![](assets/my-focus-new.png)-->
+   ![](assets/my-focus-new.png)
 
    >[!TIP]
    >
-   >Vous pouvez filtrer et regrouper votre travail selon vos niveaux de focus.
+   >Vous pouvez filtrer et regrouper votre travail en fonction de vos niveaux de focus.

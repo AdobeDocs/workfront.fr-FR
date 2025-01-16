@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 23%
+source-wordcount: '406'
+ht-degree: 21%
 
 ---
 
 # Afficher les détails du projet et de l&#39;élément de travail dans Priorités
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Vous pouvez afficher les détails des projets, des tâches et des événements dans la liste de travail des priorités.
 
@@ -76,8 +74,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * Ajouter un fichier
    * <span class="preview">Accéder directement au projet</span>
 
-   ![détails du projet ](assets/project-details.png)
-   <!--new screen for prod ![](assets/project-details-new.png)-->
+   ![détails du projet ](assets/project-details-new.png)
 
 ### Afficher les détails de la tâche
 
@@ -87,35 +84,35 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. La tâche est sélectionnée par défaut. Ici, vous pouvez
    * Afficher et modifier les détails et la description des projets et des tâches
    * Afficher et ajouter des commentaires sur le projet
-   * <span class="preview">Afficher et ajouter des documents</span>
-   * <span class="preview">Création d’un BAT</span>
+   * Afficher et ajouter des documents
+   * Créer une épreuve
    * Enregistrer des heures
    * Ajouter un fichier
    * Ajout de liens rapides
 
 
-   ![ détails de la tâche ](assets/task-details.png)
-   <!--new screen for prod ![](assets/task-details-new.png)-->
+   ![ détails de la tâche ](assets/task-details-new.png)
 
 ### Afficher les détails de l&#39;événement
 
 {{step1-to-priorities}}
 
 1. Dans la liste des tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
+
 1. L&#39;événement est sélectionné par défaut. Ici, vous pouvez
    * Afficher et modifier les détails et la description des projets et des événements
    * Afficher et ajouter des commentaires sur le projet
-* <span class="preview">Afficher et ajouter des documents</span>
-* <span class="preview">Création d’un BAT</span>
-   * Enregistrer des heures
-   * Ajouter un fichier
-   * Ajout de liens rapides
+   * Afficher et ajouter des documents
+   * Créer une épreuve
+      * Enregistrer des heures
+      * Ajouter un fichier
+      * Ajout de liens rapides
 
-  <!--new screen for prod ![issue details](assets/issue-details.png)-->
+   ![détails de l&#39;événement](assets/issue-details.png)
 
 ## Afficher les détails sur la page Détails
 
-<span class="preview">Vous pouvez afficher des mises à jour en temps réel sur la page Détails d’une tâche ou d’un événement. Vous pouvez également voir si d’autres personnes consultent la page en même temps que vous avec des indicateurs de présence en temps réel.</span>
+Vous pouvez afficher des mises à jour en temps réel sur la page Détails d’une tâche ou d’un événement. Vous pouvez également voir si d’autres personnes consultent la page en même temps que vous avec des indicateurs de présence en temps réel.
 
 ## Afficher les détails de l’élément de travail
 
@@ -125,8 +122,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 * Afficher et modifier les détails et la description du projet
 * Afficher et ajouter des commentaires sur le projet
-* <span class="preview">Afficher et ajouter des documents</span>
-* <span class="preview">Création d’un BAT</span>
+* Afficher et ajouter des documents
+* Créer une épreuve
 * Enregistrer des heures
 * Ajouter un fichier
 * Ajout de liens rapides
