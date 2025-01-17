@@ -2,24 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Modifier une vue en mode texte
-description: 'NOTE : ajoutez une section dans cet article : /Content/Reports and Dashboard/Reports/Reporting Elements/create-customize-views.html *** Également, faites un brouillon de cette zone dans l’article Vue d’ensemble du mode Texte )'
+description: 'REMARQUE : ajoutez une section dans cet article : /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** également, brouillez cette zone dans l’article Aperçu du mode texte )'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 96%
+source-wordcount: '455'
+ht-degree: 85%
 
 ---
 
 # Modifier une vue en mode texte
 
-<!--Audited: 01/2024-->
-
-<!--
-<add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
--->
+<!-- Audited: 1/2025 -->
 
 Vous pouvez modifier une vue dans une liste ou un rapport à l’aide du mode Texte pour accéder à des champs qui ne sont pas disponibles dans l’interface standard et créer des vues plus complexes.
 
@@ -27,23 +23,31 @@ Vous pouvez modifier une vue dans une liste ou un rapport à l’aide du mode Te
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Standard </p>
-   <p>Actuel : formule </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, aux tableaux de bord et aux calendriers pour la modification des éléments de rapport dans un rapport</p> </td> 
   </tr> 
   <tr> 
@@ -53,8 +57,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
-Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +73,7 @@ Pour plus d’informations, voir :
 
 ## Modifier le mode Texte dans une vue
 
-La modification d’une vue en mode Texte est identique pour les rapports et les listes.L’accès à la vue depuis un rapport ou depuis une liste diffère.
+La modification d’une vue en mode texte est identique pour les rapports et les listes. L’accès à la vue à partir d’un rapport ou d’une liste diffère.
 
 >[!TIP]
 >
@@ -97,7 +100,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
    >
    >Pour modifier une vue en mode Texte, vous devez modifier une colonne à la fois.
 
-1. Cliquez sur **Passer en mode Texte** dans le coin supérieur droit du créateur, puis cliquez sur **Modifier le mode Texte**.
+1. Cliquez sur **Passer en mode texte** dans le coin supérieur droit du créateur, puis cliquez sur **Modifier le mode texte**.
 
    >[!NOTE]
    >

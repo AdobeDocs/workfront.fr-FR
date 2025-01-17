@@ -1,23 +1,21 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Modifier le mode texte dans un regroupement
-description: 'REMARQUE : faites en sorte que tous les articles FVG soient identiques pour modification en mode texte)'
+title: Modification d’un regroupement à l’aide du mode texte
+description: 'REMARQUE : faites en sorte que tous les articles FVG soient identiques pour l''édition en mode texte)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 99%
+source-wordcount: '1520'
+ht-degree: 95%
 
 ---
 
-# Modifier le mode texte dans un regroupement
+# Modification d’un regroupement à l’aide du mode texte
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: make all FVG articles the same for editing in text mode)</p>
--->
+<!-- Audited: 1/2025 -->
 
 Vous pouvez modifier un regroupement dans une liste ou un rapport à l’aide du mode texte afin d’accéder aux champs non disponibles dans l’interface standard et créer des regroupements plus complexes.
 
@@ -27,32 +25,45 @@ Vous pouvez modifier un regroupement dans une liste ou un rapport à l’aide du
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier les regroupements dans un rapport</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier les regroupements dans un rapport</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport pour modifier des regroupements dans un rapport</p> <p>Gérer les autorisations d’un regroupement pour le modifier</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport pour modifier des regroupements dans un rapport</p> <p>Gérer les autorisations d’un regroupement pour le modifier</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -64,7 +75,7 @@ Pour plus d’informations, voir :
 * [Vue d’ensemble de la syntaxe du mode texte](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Exemples de vues, de filtres et de regroupements personnalisés : index des articles](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## Modifier le mode texte dans un regroupement
+## Modification d’un regroupement à l’aide du mode texte
 
 La modification d’un regroupement en mode texte est identique pour les rapports et les listes. L’accès au regroupement à partir d’un rapport ou d’une liste diffère.
 
@@ -83,7 +94,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 
       Le créateur de regroupement s’ouvre.
 
-1. Cliquez sur **Ajouter un regroupement** pour ajouter les regroupements, puis cliquez sur **Passer en mode texte** dans le coin supérieur droit du créateur.
+1. Cliquez sur **Ajouter un regroupement** pour ajouter des regroupements, cliquez sur **Passer en mode Texte** dans le coin supérieur droit du créateur, puis cliquez sur **Modifier le mode Texte**.
 
    >[!TIP]
    >
@@ -195,7 +206,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
       <td> <p>Vous pouvez ajouter cette ligne pour remplacer <code>valuefield</code>, si vous souhaitez associer votre liste par un calcul entre plusieurs champs.</p> <p>Vous devez joindre le <code>valuefield</code> des objets entre accolades chaque fois que vous l’utilisez dans une <code>valueexpression</code>.</p> <p>Les scénarios suivants sont possibles :</p> 
        <ol> 
         <li value="1"> <p>Si vous souhaitez afficher le nom d’un regroupement en majuscules, procédez comme suit :</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>Le <code>valuefield</code> de l’objet est orthographié tel qu’il apparaît dans l’explorateur d’API.</p> </li> 
-        <li value="2">Si vous souhaitez ajouter plusieurs <code>valuefields</code> en les reliant dans une ligne <code>valueexpression </code>, vous devez les séparer par un point.<p>Par exemple, si vous souhaitez afficher le nom du portfolio en majuscules dans une liste de tâches, vous utiliserez le code suivant dans la ligne <code>valueexpression</code> :</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Si vous souhaitez utiliser un champ personnalisé dans une ligne <code>valueexpression</code>, vous devez faire précéder le nom du champ par <code>DE:</code> pour indiquer qu’il s’agit d’un champ personnalisé. Le nom du champ est orthographié tel qu’il apparaît dans l’interface.</p><p>Important : <span>lorsque vous utilisez un champ personnalisé placé dans une section de formulaire personnalisé dotée d’autorisations restreintes pour certaines personnes, le calcul de l’<code>valueexpression </code> est vide lorsque ces personnes affichent ce calcul dans un rapport. Pour plus d'informations sur l'ajustement des autorisations sur les sections de formulaire personnalisées, voir </span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Création d'un formulaire personnalisé</a></span>.</p><p>Par exemple, si vous disposez d’un champ personnalisé intitulé « Nom du développeur ou de la développeuse » et que vous souhaitez le regrouper en fonction de ce champ et l’afficher en majuscules, vous pouvez utiliser <code>valueexpression</code> pour l’indiquer :</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Lors du référencement d’un champ personnalisé de type saisie semi-automatique, utilisez l’expression suivante pour référencer le nom de l’objet sélectionné dans un champ intitulé « Nom du développeur ou de la développeuse » :</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
+        <li value="2">Si vous souhaitez ajouter plusieurs <code>valuefields</code> en les reliant dans une ligne <code>valueexpression </code>, vous devez les séparer par un point.<p>Par exemple, si vous souhaitez afficher le nom du portfolio en majuscules dans une liste de tâches, vous utiliserez le code suivant dans la ligne <code>valueexpression</code> :</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Si vous souhaitez utiliser un champ personnalisé dans une ligne <code>valueexpression</code>, vous devez faire précéder le nom du champ par <code>DE:</code> pour indiquer qu’il s’agit d’un champ personnalisé. Le nom du champ est orthographié tel qu’il apparaît dans l’interface.</p><p>Important : <span>lorsque vous utilisez un champ personnalisé placé dans une section de formulaire personnalisé dotée d’autorisations restreintes pour certaines personnes, le calcul de l’<code>valueexpression </code> est vide lorsque ces personnes affichent ce calcul dans un rapport. Pour plus d’informations sur l’ajustement des autorisations sur les sections de formulaire personnalisé, voir </span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Création d’un formulaire personnalisé</a></span>.</p><p>Par exemple, si vous disposez d’un champ personnalisé intitulé « Nom du développeur ou de la développeuse » et que vous souhaitez le regrouper en fonction de ce champ et l’afficher en majuscules, vous pouvez utiliser <code>valueexpression</code> pour l’indiquer :</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Lors du référencement d’un champ personnalisé de type saisie semi-automatique, utilisez l’expression suivante pour référencer le nom de l’objet sélectionné dans un champ intitulé « Nom du développeur ou de la développeuse » :</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 

@@ -7,16 +7,16 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '1862'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Vue d’ensemble de la syntaxe du mode texte
 
-<!--Audited: 12/2023-->
+<!--Audited: 1/2025-->
 
 Vous pouvez utiliser l’interface en mode texte pour créer des vues, des filtres, des regroupements et des invites personnalisées plus complexes dans les listes et les rapports. En utilisant le mode texte, vous pouvez accéder à des champs et à leurs attributs qui ne sont pas disponibles dans l’interface du mode standard.
 
@@ -29,7 +29,7 @@ Pour plus d’informations sur la création de rapports en mode texte, y compris
 ## Observations sur la syntaxe du mode texte
 
 * Vous devez comprendre la syntaxe d’Adobe Workfront avant de commencer à créer des éléments de rapport en mode texte. La syntaxe Workfront en mode texte est propre à cette application et possède des caractéristiques uniques avec lesquelles vous devez vous familiariser.
-* Avant de commencer à utiliser le mode texte dans vos rapports, nous vous recommandons vivement de suivre nos cours sur les rapports avancés, afin d’acquérir une compréhension plus approfondie de notre langage en mode texte. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* Avant de commencer à utiliser le mode texte dans vos rapports, nous vous recommandons vivement de suivre nos cours sur les rapports avancés, afin de mieux comprendre notre langage en mode texte.
 * Vous pouvez personnaliser les vues, les filtres et les regroupements à l’aide de l’interface du mode standard. Cependant, vous ne pouvez créer des invites personnalisées qu’en mode texte.
 
 ## Lignes directrices communes pour l’élaboration d’éléments de rapport en mode texte
@@ -44,13 +44,11 @@ Les lignes directrices suivantes s’appliquent à la construction de tout élé
 
   **Exemple :** vous pouvez afficher le nom ou le GUID de la personne propriétaire du portfolio dans une vue de tâche :
 
-
   `valuefield=project:portfolio:ownerID`
 
   Vous ne pouvez pas grouper, filtrer ou demander la personne propriétaire du portfolio dans une vue de tâche :
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
-
 
   Dans ces exemples, l’identifiant de la personne propriétaire du portfolio se trouve à trois objets de l’objet de la liste.
 
@@ -90,7 +88,7 @@ Les similitudes suivantes existent entre la syntaxe des ensembles d’éléments
   Pour plus d’informations sur les lignes de code clés des vues et des regroupements lors de leur création en mode texte, voir la section :
 
    * [Modifier une vue en mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [Modifier le mode texte dans un regroupement](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [Modification d’un regroupement à l’aide du mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * Les lignes de code et la syntaxe sont similaires pour les filtres et les invites personnalisées.
 

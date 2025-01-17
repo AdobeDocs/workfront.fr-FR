@@ -6,20 +6,16 @@ description: Utiliser la mise en forme conditionnelle en mode texte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1682'
 ht-degree: 99%
 
 ---
 
 # Utiliser la mise en forme conditionnelle en mode texte
 
-<!--Audited: 01/2024-->
-
-<!--
-(NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
--->
+<!--Audited: 01/2025-->
 
 Le créateur d’interface standard offre une grande flexibilité lors de la création d’éléments de rapport pour répondre aux besoins de votre organisation.
 
@@ -30,7 +26,7 @@ Pour plus d’informations sur l’application de la mise en forme conditionnell
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,13 +38,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard </p> 
-   <p>Ou</p>
-   <p>Actuel : formule</p> 
-   </td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Accès en modification aux rapports, tableaux de bord et calendriers pour modifier les vues d’un rapport</p> </td> 
   </tr> 
   <tr> 
@@ -58,10 +60,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Mise en forme conditionnelle en mode texte
 
@@ -122,126 +123,11 @@ Les dates peuvent être configurées pour être affichées dans différents form
 
 Pour plus d’informations, voir [Formater les dates dans les rapports en mode texte](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above)</p>
-<p>To establish a date format, you must modify the <code>valueformat</code> line of the text mode code in the column.</p>
-<pre>valueformat= [new date format]</pre>
-<p>For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like:</p>
-<pre>valueformat=atDate<br>valuefield=projectedCompletionDate </pre>
-<p>If you wanted to show the Planned Completion Date as <em>Mth, DD, Year</em>, the code would look like:</p>
-<pre>valueformat=mediumAtdate<br>valuefield=plannedCompletionDate</pre>
-<p>You can format dates using the following <code>valueformat</code> text mode values:</p>
-<table style="table-layout:auto">
-<col>
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><strong>Format</strong> </th>
-<th scope="col">Example </th>
-<th scope="col"><em><strong>valueformat=</strong></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>atDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY Time</td>
-<td>10/11/18 12:00pm</td>
-<td><pre>longAtDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>shortAtDate</pre> </td>
-</tr>
-<tr>
-<td>Mth, DD, YR</td>
-<td>Oct, 11, 2018</td>
-<td><pre>mediumAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR</td>
-<td>Mon, Oct, 11, 2018</td>
-<td><pre>partialAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR Time</td>
-<td>Mon, Oct, 11, 2018 12:00 pm</td>
-<td><pre>fullAtDate</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
-
 #### Format des nombres {#format-numbers}
 
 Vous pouvez formater les valeurs numériques pour afficher les informations qui répondent le mieux à vos besoins en matière de rapports.
 
 Pour plus d’informations, voir [Formater les nombres, les devises et les pourcentages dans les rapports en mode texte](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To modify the format of a numeric value, you must edit the <strong>valueformat</strong> line of your column.</p> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above) </p>
-<p>For example, if you wanted to display the Budget column as $1000, the value format line would look like:</p>
-<pre>valueformat=currencyStringCurrencyRounded<br>valuefield=budget</pre>
-<p>You can format numbers using the following values for the <code>valueformat</code> line of your column:</p>
-<table border="2" cellspacing="15" cellpadding="1">
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><strong>Example</strong> </th>
-<th scope="col"><em><code>valueformat=</code></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1234</td>
-<td><pre>doubleAsString</pre> or <pre>int</pre></td>
-</tr>
-<tr>
-<td>1,234</td>
-<td><pre>doubleAsInt</pre> </td>
-</tr>
-<tr>
-<td>$1,234</td>
-<td><pre>currencyStringCurrencyRounded</pre> </td>
-</tr>
-<tr>
-<td>1234.56</td>
-<td><pre>doubleAsDouble</pre> </td>
-</tr>
-<tr>
-<td>$1,234.56</td>
-<td><pre>currencyStringCurrency</pre> </td>
-</tr>
-<tr>
-<td>12%</td>
-<td><pre>doubleAsPercentRounded</pre> </td>
-</tr>
-<tr>
-<td>12.34%</td>
-<td><pre>doubleAsPercent</pre> </td>
-</tr>
-<tr>
-<td>(1,234.56)</td>
-<td><pre>doubleAsFinancial</pre> </td>
-</tr>
-<tr>
-<td>(1,234)</td>
-<td><pre>doubleAsFiancialRounded</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
 
 ### Règles de la colonne {#column-rules}
 
@@ -303,9 +189,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* Si cette instruction peut s’appliquer à la colonne Nom de l’entreprise, elle peut également s’appliquer à n’importe quelle autre colonne du rapport. Le texte vert ne s’affiche que si le projet est associé à une entreprise. N’oubliez pas que `[field name]`, `[value]` et `[qualifier]` déterminent si l’introduction de conditions s’affiche ou non sur la colonne.
 >* Pour les qualificateurs, nous avons recommandé d’utiliser `cicontains` plutôt que `equal`. Par défaut, `equal` recherche les numéros d’identification. En utilisant le qualificateur `cicontains`, vous pouvez accéder aux éléments par leur nom.
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
+![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png)
+
+![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 Qu’une couleur du texte, un alignement, un style de police ou une couleur d’arrière-plan soient appliqués à un mode texte, la même instruction (illustrée ci-dessus) est utilisée.
 
@@ -410,14 +297,13 @@ styledef.case.0.comparison.truetext=not today
 >
 >Les lignes commençant par `case.0.` utilisent des comparaisons de cas pour identifier l’utilisation du texte. Les lignes commençant par `styledef.case.0.` sont les premières instructions de mise en forme conditionnelle où l’utilisation du texte est identifiée par le biais de l’expression `truetext`. Veillez à donner une valeur à `truetext`, plutôt que de la laisser vide.
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
+![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png)
+![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### Appliquer des formats aux lignes {#apply-row-formats}
 
 Si vous souhaitez appliquer une condition à l’ensemble de la ligne, utilisez le code suivant avec le code de votre colonne :
-
 
 ```
 styledef.case.0.comparison.icon=false
@@ -443,7 +329,6 @@ row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]
 row.0.styledef.case.0.comparison.truetext=
 ```
 
-
 #### Appliquer les images {#apply-images}
 
 Comme pour la mise en forme du texte, des images peuvent être utilisées pour afficher des informations dans les rapports. Workfront dispose d’un certain nombre d’images intégrées pour transmettre des informations visuelles dans le cadre d’un rapport. Pour utiliser des images dans le cadre de la mise en forme conditionnelle, l’instruction suivante est nécessaire :
@@ -460,7 +345,6 @@ image.case.0.comparison.truetext=
 
 Par exemple, dans un rapport sur les projets, vous souhaitez créer une colonne dans laquelle vous affichez un visage renfrogné pour chaque date d’achèvement prévue qui ne correspond pas à la date d’aujourd’hui. Utilisez le code en mode texte suivant pour ajouter l’icône à votre colonne :
 
-
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
 image.case.0.comparison.lefttext=plannedCompletionDate
@@ -475,9 +359,9 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >Remarquez que l’instruction utilise l’expression `icon=true`. Cette instruction est également différente des autres instructions de mise en forme conditionnelle, car elle n’utilise pas le format `style.def`, mais plutôt un format d’image unique.
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
+![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png)
+![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 Pour utiliser les images disponibles, appliquez le code et les valeurs suivants :
 
@@ -510,7 +394,7 @@ Pour plus d’informations sur le formatage de `valueexpression line`, voir [Vue
 
 Vous ne pouvez pas formater de manière conditionnelle une colonne qui contient une ligne de code `valueexpression`. Au lieu de cela, vous pouvez ajouter un champ personnalisé calculé à un formulaire personnalisé et l’associer aux objets que vous affichez dans le rapport. Vous pouvez ensuite formater de manière conditionnelle les colonnes affichant ce champ.
 
-Pour plus d’informations sur les champs personnalisés calculés, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Pour plus d’informations sur les champs calculés personnalisés, voir [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 ## Ajouter une valeur d’agrégateur dans une colonne en mode Texte
 

@@ -6,20 +6,16 @@ description: Vous pouvez modifier un filtre dans une liste ou un rapport à l’
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 100%
+source-wordcount: '1042'
+ht-degree: 86%
 
 ---
 
 # Modifier un filtre en mode texte
 
-<!-- Audited: 01/2024 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
--->
+<!-- Audited: 1/2025 -->
 
 Vous pouvez modifier un filtre dans une liste ou un rapport à l’aide du mode texte pour accéder aux champs qui ne sont pas disponibles dans l’interface standard et créer des filtres plus complexes.
 
@@ -29,7 +25,7 @@ Pour plus d’exemples du mode texte lors de la création d’un filtre, voir é
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,9 +37,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-    <p>ou</p>
-    <p>Actuel : formule</p> </td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -56,7 +59,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,12 +87,20 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 
 1. Utilisez l’une des méthodes suivantes :
 
-   1. Pour accéder au filtre à partir d’un rapport, accédez au rapport, puis cliquez sur l’onglet **Actions de rapport** > **Modifier** > **Filtres**.
-   1. Pour accéder au filtre à partir d’une liste, accédez à la liste et à partir du menu **Filtre**, passez la souris sur le filtre à modifier, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
+   Pour accéder au filtre depuis une liste, accédez à la liste et cliquez sur l’icône **Filtre**, puis pointez sur le filtre du panneau latéral **Filtres** que vous souhaitez modifier, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png). Le panneau latéral **Filtres** affiche le filtre sélectionné ou le créateur de filtres hérité s’ouvre.
 
-      Le créateur de filtres s’ouvre.
+   OU
 
-1. Cliquez sur **Ajouter une règle de filtre** pour commencer à ajouter les conditions de votre filtre, puis sur **Mode texte** ou **Basculer en mode texte** sur le côté droit du créateur.
+   Pour accéder au filtre à partir d’un rapport, accédez au rapport, puis cliquez sur l’onglet **Actions du rapport** > **Modifier** > **Filtres** .
+
+1. Utilisez l’une des méthodes suivantes :
+
+   Si vous utilisez le panneau latéral **Filtres** sur une liste, cliquez sur **Mode texte**.
+
+   OU
+
+   Si vous utilisez l’ancien créateur de filtres ou dans un rapport, cliquez sur **Ajouter une règle de filtre** pour commencer à ajouter les conditions de votre filtre. Cliquez ensuite sur **Passer en mode texte** puis **Modifier le mode texte** sur le côté droit du créateur.
+
 1. Ajoutez des instructions de filtre à l’aide du mode texte. Chaque instruction de filtre peut contenir les lignes suivantes et des informations supplémentaires :
 
    <table style="table-layout:auto"> 
@@ -175,7 +186,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. Cliquez sur **Quitter le mode texte** ou **Terminé** pour enregistrer les modifications en mode texte et continuer à modifier le rapport ou le filtre.
+1. Cliquez sur **Appliquer** ou **Terminé** pour enregistrer vos modifications du mode texte et continuer à modifier le rapport ou le filtre.
 1. Cliquez sur **Enregistrer et fermer** pour enregistrer votre rapport ou **Enregistrer le filtre** pour enregistrer le filtre dans la liste.
 
 

@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 14%
+source-wordcount: '834'
+ht-degree: 13%
 
 ---
 
@@ -18,11 +18,25 @@ Cette page décrit toutes les améliorations de l’équipe d’aministration ap
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2025, consultez l’article [Vue d’ensemble de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Les règles métier sont désormais prises en charge pour plus d’objets
+
+>[!NOTE]
+>
+>Version préliminaire : 16 janvier 2025 ; Version de production pour tous les clients : avec version 25.1 (janvier 2025)
+>
+>_Disponible uniquement pour les organisations figurant dans le plan Ultimate._
+
+Vous pouvez maintenant créer des règles métier et appliquer une validation à ces objets supplémentaires : Société, Itération, Catégorie de ressources hors main-d&#39;œuvre, Fonction, Utilisateur, Affectation, Pool de ressources, Congés, Document et Heure.
+
+Les objets suivants étaient déjà pris en charge pour les règles métier : Projet, Tâche, Demande, Portfolio, Programme, Dépense, Enregistrement de facturation, Groupe, Risque et Carte tarifaire.
+
+Pour plus d’informations, voir [Créer et modifier des règles métier](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
 ## Comparaison d’objets entre des environnements pour la promotion de l’environnement
 
 >[!NOTE]
 >
->Version préliminaire : 6 janvier 2024 ; Version de production pour tous les clients : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 6 janvier 2025 ; Version de production pour tous les clients : avec la version 25.1 (janvier 2025)
 
 Pour faciliter la détermination de l’objet à inclure dans un package de promotion d’environnement, nous avons ajouté la possibilité de comparer des objets entre les environnements. Vous pouvez désormais sélectionner des types d’objets et des environnements. Workfront génère une liste d’objets de ce type, indiquant s’ils sont présents dans l’environnement cible et si cet objet présente des différences entre l’environnement source et l’environnement cible. Vous pouvez ensuite ajouter des objets à un package directement à partir de cette liste.
 
@@ -34,7 +48,7 @@ Pour plus d’informations, voir [Comparer des objets entre des environnements](
 
 >[!NOTE]
 >
->Version préliminaire : 6 janvier 2024 ; Version de production pour tous les clients : avec la version 25.1 (janvier 2025)
+>Version préliminaire : 6 janvier 2025 ; Version de production pour tous les clients : avec la version 25.1 (janvier 2025)
 
 Nous avons ajouté d&#39;autres objets pour étendre les fonctionnalités de promotion d&#39;environnement. Vous pouvez maintenant ajouter les objets suivants à un package de promotion d’environnement :
 
