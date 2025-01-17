@@ -3,11 +3,11 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Attribuer des tâches
 description: Vous pouvez affecter des tâches aux utilisateurs et utilisatrices, fonctions ou équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
-author: Alina
+author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 97%
@@ -86,7 +86,7 @@ En plus de cet article, nous vous recommandons de lire les articles suivants pou
 </table>
 
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Considérations relatives à plusieurs affectations pour les fonctoins, les équipes et les utilisateurs et utilisatrices
@@ -213,7 +213,7 @@ Pour affecter des tâches dans une liste, procédez comme suit :
      >
      >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir la section [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
-     ><span class="preview">Lors de l’ajout d’une affectation de fonction, vous pouvez effectuer une recherche sur la fonction ou l’emplacement. Sélectionnez un rôle de tâche pour utiliser le taux de facturation par défaut pour l’affectation ou un rôle de tâche Carte de taux pour utiliser le taux de facturation dans la carte de taux. Pour plus d’informations sur les cartes tarifaires, voir la section [Gérer des cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">Lors de l’ajout d’une affectation de fonction, vous pouvez effectuer une recherche sur la fonction ou l’emplacement. Sélectionnez une fonction pour utiliser le taux de facturation par défaut pour l’affectation, ou sélectionnez une fonction de carte tarifaire pour utiliser le taux de facturation à partir de la carte tarifaire. Pour plus d’informations sur les cartes tarifaires, voir la section [Gérer des cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
 1. (Le cas échéant) Lorsqu’elle est visible dans le champ **Affectations**, cliquez sur l’icône **Personnes** en haut à droite de la zone des affectations pour ouvrir la zone **Affectations avancées** et créer des affectations avancées.

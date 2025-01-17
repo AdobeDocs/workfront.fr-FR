@@ -3,10 +3,10 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Gérer les heures d’affectation des personnes et des rôles sur les tâches
 description: Lors de l’affectation de personnes ou de rôles à une tâche, un certain nombre d’heures de travail leur sont allouées pour accomplir la tâche. Vous pouvez modifier manuellement le nombre d’heures allouées à chaque personne ou fonction lors de l’affectation à une tâche, lorsque le type de durée de la tâche est Simple.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 89%
@@ -43,7 +43,7 @@ ht-degree: 89%
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,7 +60,7 @@ ht-degree: 89%
    * [Vue d’ensemble de la durée des tâches et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
    * [Vue d’ensemble du type de durée : simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
 
-* Lorsque la tâche possède un type de durée simple, vous pouvez modifier manuellement le nombre d’heures allouées pour chaque utilisateur ou rôle de tâche afin d’indiquer que certains des personnes désignées peuvent avoir plus de temps pour travailler sur une tâche que d’autres.
+* Lorsque la tâche a un type de durée simple, vous pouvez modifier manuellement le nombre d’heures allouées pour chaque utilisateur ou fonction afin d’indiquer que certains des cessionnaires de la tâche peuvent avoir plus de temps pour travailler sur une tâche que d’autres.
 * Vous ne pouvez pas modifier le nombre d’heures allouées aux équipes affectées aux tâches.
 * Vous ne pouvez pas modifier manuellement les allocations des personnes ou des fonctions pour les problèmes.
 * Vous pouvez également gérer les allocations quotidiennes, hebdomadaires ou mensuelles des personnes pour les tâches ou les problèmes en utilisant l’équilibreur de charge de travail. Pour plus d’informations, voir [Gérer les allocations des utilisateurs dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
