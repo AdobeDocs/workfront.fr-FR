@@ -7,7 +7,7 @@ description: La documentation d’Adobe Workfront Fusion a été déplacée vers
 author: Becky
 feature: Workfront Fusion
 exl-id: 1475a247-47eb-4fe3-98dc-50df242167e7
-source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
+source-git-commit: ac61d25c87185635acf6119299aad6723ce78bbe
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 4%
@@ -22,7 +22,7 @@ ht-degree: 4%
 >
 >Les informations contenues dans cet article se trouvent désormais dans l’article :
 >
->* [Mettre à jour un module vers une nouvelle version](https://experienceleague.corp.adobe.com/docs/workfront-fusion/using/manage-scenarios/update-module-to-new-version.html?lang=en)
+>* [Mettre à jour un module vers une nouvelle version](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/update-module-to-new-version.html?lang=en)
 >
 >Mettez à jour les signets.
 >

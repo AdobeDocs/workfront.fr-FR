@@ -6,10 +6,10 @@ description: Vous pouvez afficher les rapports de calendrier et les détails des
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 9ddbe09ab99b6b151fc2d052b4c53e004eb0fa44
+source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 78%
+source-wordcount: '691'
+ht-degree: 79%
 
 ---
 
@@ -56,21 +56,23 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Afficher un rapport de calendrier
 
-{{step1-to-calendars}}
+<!--{{step1-to-calendars}}-->
 
-Selon votre niveau d’accès, vous pouvez voir les calendriers suivants répertoriés :
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Calendriers]**.
 
-* Votre calendrier de [!DNL Adobe Workfront] par défaut
+   Selon votre niveau d’accès, vous pouvez voir les calendriers suivants répertoriés :
 
-  Workfront crée pour vous un calendrier en fonction des projets, tâches et problèmes qui vous sont attribués ou qui sont attribués à des équipes, des groupes ou des rôles qui vous sont affectés.
+   * Votre calendrier de [!DNL Adobe Workfront] par défaut
 
-* Calendriers que vous avez créés
+     Workfront crée pour vous un calendrier en fonction des projets, tâches et problèmes qui vous sont attribués ou qui sont attribués à des équipes, des groupes ou des rôles qui vous sont affectés.
 
-  Pour en savoir plus sur la création de calendriers, voir [Vue d’ensemble des rapports de calendrier](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+   * Calendriers que vous avez créés
 
-* Calendriers que d’autres utilisateurs ont partagés avec vous
+     Pour en savoir plus sur la création de calendriers, voir [Vue d’ensemble des rapports de calendrier](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-  Pour en savoir plus sur le partage de calendriers, voir [[!UICONTROL Partager un rapport] de calendrier](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+   * Calendriers que d’autres utilisateurs ont partagés avec vous
+
+     Pour en savoir plus sur le partage de calendriers, voir [[!UICONTROL Partager un rapport] de calendrier](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Le cas échéant) Cliquez sur le bouton **[!UICONTROL Vue]**, puis sélectionnez la durée du calendrier à afficher.
    ![Durée du calendrier](assets/view-menu-calendar-report-350x189.png)
