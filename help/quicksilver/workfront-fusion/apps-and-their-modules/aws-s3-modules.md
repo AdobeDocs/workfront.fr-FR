@@ -85,7 +85,7 @@ Le connecteur AWS S3 utilise les éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader">URL de base</td> 
-   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
+   <td>https://s3.&lbrace;&lbrace;parameters.region&rbrace;&rbrace;.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">Balise API</td> 

@@ -94,7 +94,7 @@ Le connecteur Workday utilise les éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader">URL de base</td> 
-   <td>https://{{connection.servicesUrl}}/api</td> 
+   <td>https://&lbrace;&lbrace;connection.servicesUrl&rbrace;&rbrace;/api</td> 
   </tr>
   <tr> 
    <td role="rowheader">Balise API</td> 

@@ -101,7 +101,7 @@ Le connecteur Adobe Journey Optimizer utilise les éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader">URL de base</td> 
-   <td>{{connection.url}}</td> 
+   <td>&lbrace;&lbrace;connection.url&rbrace;&rbrace;</td> 
   </tr>
   <tr> 
    <td role="rowheader">Balise API</td> 
