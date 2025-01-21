@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 97%
+source-wordcount: '973'
+ht-degree: 94%
 
 ---
 
@@ -78,7 +78,7 @@ Veuillez contacter le support Workfront. Pour savoir comment contacter le suppor
 
 ## Quels types d’authentification différents puis-je utiliser avec les abonnements aux événements Workfront ?
 
-Vous pouvez utiliser n’importe quelle authentification utilisant un jeton porteur. Le champ **authToken** d’un abonnement est une chaîne qui représente un jeton porteur OAuth2 utilisé pour s’authentifier avec l’URL spécifiée dans le champ **url**. En théorie, ce jeton peut prendre n’importe quelle valeur tant que le point d’entrée de destination sait comment gérer son codage, à savoir **utf-8**.
+Vous pouvez utiliser n’importe quelle authentification utilisant un jeton porteur. Le champ **authToken** d’un abonnement est une chaîne qui représente un jeton porteur OAuth2 utilisé pour s’authentifier avec l’URL spécifiée dans le champ **url**. En théorie, cette valeur de jeton peut comporter moins de 255 caractères tant que le point d’entrée de destination sait comment gérer son encodage, qui est **utf-8**.
 
 ## Combien de temps doit s’écouler avant que je ne reçoive ma payload d’événement des abonnements aux événements Workfront ?
 
