@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 98%
+source-wordcount: '1621'
+ht-degree: 99%
 
 ---
 
@@ -360,7 +360,7 @@ Le webinaire de la version 24.1 a eu lieu le 11 janvier 2024. Vous pouvez [vo
                                 <p>Production pour une version rapide : avec la version 24.3 (mars 2024)</p>
                             </li>
                         </ul>
-                    <p><i>Cette fonctionnalité sera supprimée de la prévisualisation le 19 décembre 2024 et de la production en version rapide avec 25.1 (janvier 2025).</i></p>
+                    <p><i>Cette fonctionnalité a été supprimée de la prévisualisation et de la production en version rapide.</i></p>
                     </td>
                 </tr>
            </tbody>

@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 33b9faed6265b5e82bf768d4c8ae7f703420a7e5
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 29%
@@ -26,9 +26,9 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>24.11 (14 novembre 2024)</li><li>24.12 (12 décembre 2024)</li><li>25.1 (15 janvier 2025)</li></ul> | <ul><li>25.1 (16 janvier 2025)</li></ul> |
+>| <ul><li>Version 24.11 (14 Novembre 2024)</li><li>Version 24.12 (12 Décembre 2024)</li><li>25.1 (15 janvier 2025)</li></ul> | <ul><li>25.1 (16 janvier 2025)</li></ul> |
 >
->Notez que pour la version finale de chaque trimestre (25.1 ce trimestre), les utilisateurs du calendrier de version rapide recevront la version un jour plus tôt.
+>Notez que pour la version finale de chaque trimestre (25.1 ce trimestre), les utilisateurs disposant du planning de version rapide recevront la version un jour plus tôt que prévu.
 >
 >Pour plus d’informations sur le processus de publication rapide, voir la section [Activer ou désactiver le processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -42,11 +42,13 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 ### Améliorations apportées aux administrateurs et administratrices
 
 <table>
-<col style="width: 55%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<tbody>
+  <colgroup>
+    <col style="width: 55%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+  </colgroup>
+  <tbody>
     <tr>
         <td>
             <p><span class="bold">Fonctionnalité</span></p>
@@ -58,9 +60,9 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Préférences pour l’utilisation du planning de projet ou d’utilisateur pour les tâches à affectation unique</a></p>
+            Préférence pour l'utilisation des prévisions de projet ou d'utilisateur pour les tâches à affectation unique</a></p>
             [!BADGE New in Preview ]{type=Negative}
-            <p>En tant qu’administrateur système ou groupe, vous disposez désormais d’une nouvelle préférence pour indiquer si Workfront doit utiliser la planification du projet ou de l’utilisateur pour calculer la chronologie du projet lorsque vous affectez un utilisateur à une tâche et que le projet et l’utilisateur sont associés à une planification.</p>
+            <p>En tant qu’administrateur système ou de groupe, vous disposez désormais d’une nouvelle préférence qui permet d’indiquer si Workfront doit utiliser le planning du projet ou de l’utilisateur pour calculer la chronologie du projet lorsque vous affectez un utilisateur à une tâche et que le projet et l’utilisateur sont tous deux associés à un planning.</p>
         </td>
         <td>21 novembre 2024</td>
         <td>Décembre 2024</td>
@@ -69,9 +71,9 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Les règles métier prennent désormais en charge les hyperliens.</a></p>
-            [!BADGE hors cycle ]{type=Attention}
-            <p>Vous pouvez désormais inclure des liens hypertexte dans le message d’erreur personnalisé d’une règle de fonctionnement afin de guider l’utilisateur dans la modification de son action dans le cadre de la contrainte de la règle. L’URL statique peut renvoyer vers la documentation ou d’autres pages qui pourraient être utiles à l’utilisateur.</p>
+            Les règles métier prennent désormais en charge les liens hypertexte</a></p>
+            [!BADGE Hors cycle ]{type=Caution}
+            <p>Vous pouvez désormais inclure des liens hypertexte dans le message d’erreur personnalisé d’une règle métier, afin de guider l’utilisateur ou l’utilisatrice sur la manière de modifier son action dans la contrainte de la règle. L’URL statique peut renvoyer vers la documentation ou d’autres pages utiles à l’utilisateur ou à l’utilisatrice.</p>
         </td>
         <td>vendredi 14 novembre 2024</td>
         <td>vendredi 14 novembre 2024</td>
@@ -80,27 +82,27 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Le filtrage sur les champs de saisie anticipée natifs est désormais disponible.</a></p>
-            <p>Lorsque vous ajoutez une référence de champ native à un formulaire personnalisé et qu’elle fait référence à un champ de saisie anticipée (par exemple, Portfolio, Société ou Propriétaire), une option de filtre est désormais disponible. Le filtre permet de limiter les objets que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ. Ce filtre personnalisé fonctionne de la même manière qu’un filtre sur un champ de type personnalisé, à l’aide du mode Texte pour définir le filtre.</p>
+            Le filtrage sur les champs de saisie semi-automatique natifs est désormais disponible</a></p>
+            <p>Lorsque vous ajoutez une référence de champ native à un formulaire personnalisé et qu’elle fait référence à un champ de saisie semi-automatique (par exemple, Portfolio, Société ou Propriétaire), une option de filtrage est désormais disponible. Le filtre vous permet de limiter les objets que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ . Ce filtre personnalisé fonctionne de la même manière qu’un filtre sur un champ de saisie semi-automatique personnalisé, en utilisant le mode texte pour définir le filtre.</p>
         </td>
         <td>21 novembre</td>
         <td>25,12</td>
         <td>25,1</td>
     </tr>
-
-</tbody>
+  </tbody>
 </table>
 
 
 ### Améliorations de la gestion des documents
 
-
 <table>
-<col style="width: 55%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<tbody>
+  <colgroup>
+    <col style="width: 55%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+  </colgroup>
+  <tbody>
     <tr>
         <td>
             <p><span class="bold">Fonctionnalité</span></p>
@@ -112,8 +114,8 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Préférences pour l’utilisation du planning de projet ou d’utilisateur pour les tâches à affectation unique</a></p>
-            <p>En tant qu’administrateur système ou groupe, vous disposez désormais d’une nouvelle préférence pour indiquer si Workfront doit utiliser la planification du projet ou de l’utilisateur pour calculer la chronologie du projet lorsque vous affectez un utilisateur à une tâche et que le projet et l’utilisateur sont associés à une planification.</p>
+            Préférence pour l'utilisation des prévisions de projet ou d'utilisateur pour les tâches à affectation unique</a></p>
+            <p>En tant qu’administrateur système ou de groupe, vous disposez désormais d’une nouvelle préférence qui permet d’indiquer si Workfront doit utiliser le planning du projet ou de l’utilisateur pour calculer la chronologie du projet lorsque vous affectez un utilisateur à une tâche et que le projet et l’utilisateur sont tous deux associés à un planning.</p>
         </td>
         <td><p>16 novembre 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
         <td><p>24,12</p></td>
@@ -122,44 +124,44 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Les règles métier prennent désormais en charge les hyperliens.</a></p>
-            <p>Vous pouvez désormais inclure des liens hypertexte dans le message d’erreur personnalisé d’une règle de fonctionnement afin de guider l’utilisateur dans la modification de son action dans le cadre de la contrainte de la règle. L’URL statique peut renvoyer vers la documentation ou d’autres pages qui pourraient être utiles à l’utilisateur.</p>
+            Les règles métier prennent désormais en charge les liens hypertexte</a></p>
+            <p>Vous pouvez désormais inclure des liens hypertexte dans le message d’erreur personnalisé d’une règle métier, afin de guider l’utilisateur ou l’utilisatrice sur la manière de modifier son action dans la contrainte de la règle. L’URL statique peut renvoyer vers la documentation ou d’autres pages utiles à l’utilisateur ou à l’utilisatrice.</p>
         </td>
         <td><p>14 novembre</p> </td>
-        <td><p>Décembre 2024</p> <p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>Déc 2024</p> <p> [!BADGE Available ]{type=Positive}</p></td>
         <td><p>25,1</p> </td>
     </tr>    
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Icône "Déplacer vers" ajoutée aux champs personnalisés</a></p>
-            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
+            Icône « Déplacer vers » ajoutée aux champs personnalisés</a></p>
+            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections avec de nombreux champs, il peut être difficile de déplacer un champ d’une section à une autre en effectuant un glisser-déposer. Une icône « Déplacer vers » a été ajoutée à chaque champ, vous permettant de sélectionner la section dans laquelle le champ est placé.</p>
         </td>
         <td><p>5 décembre</p></td>
-          <td><p>15 décembre</p><p> [!BADGE Available ]{type=Positive}</p></td>
-        <td><p>15 décembre</p> <p> [!BADGE Available ]{type=Positive}</p> <p>[!BADGE Out-of-cycle ]{type=Attention}</p></td>
+          <td><p>15 Déc</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>15 Déc</p> <p> [!BADGE Available ]{type=Positive}</p> <p>[!BADGE Hors-cycle ]{type=Caution}</p></td>
     </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Icône "Déplacer vers" ajoutée aux champs personnalisés</a></p>
-            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
+            Icône « Déplacer vers » ajoutée aux champs personnalisés</a></p>
+            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections avec de nombreux champs, il peut être difficile de déplacer un champ d’une section à une autre en effectuant un glisser-déposer. Une icône « Déplacer vers » a été ajoutée à chaque champ, vous permettant de sélectionner la section dans laquelle le champ est placé.</p>
         </td>
-        <td><p>5 décembre</p><p>[!BADGE Out-of-cycle ]{type=Attention}</p></td>
-          <td><p>15 décembre</p><p> [!BADGE Available ]{type=Positive}</p></td>
-        <td><p>15 décembre</p> <p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>5 décembre</p><p>[!BADGE Hors-cycle ]{type=Caution}</p></td>
+          <td><p>15 Déc</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>15 Déc</p> <p> [!BADGE Available ]{type=Positive}</p></td>
     </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Icône "Déplacer vers" ajoutée aux champs personnalisés</a></p>
-            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections comportant de nombreux champs, il peut être difficile de déplacer un champ d’une section à l’autre en le faisant glisser et en le déposant. Une icône "déplacer vers" a été ajoutée à chaque champ, ce qui vous permet de sélectionner la section dans laquelle le champ est placé.</p>
+            Icône « Déplacer vers » ajoutée aux champs personnalisés</a></p>
+            <p>Lorsqu’un formulaire personnalisé contient plusieurs sections avec de nombreux champs, il peut être difficile de déplacer un champ d’une section à une autre en effectuant un glisser-déposer. Une icône « Déplacer vers » a été ajoutée à chaque champ, vous permettant de sélectionner la section dans laquelle le champ est placé.</p>
         </td>
-        <td><p>1 novembre</p></td>
+        <td><p>1Er Nov</p></td>
           <td><p>24,11</p><p> [!BADGE Available ]{type=Positive}</p></td>
         <td><p>25,1</p> <p> [!BADGE Available ]{type=Positive}</p></td>
     </tr>
-</tbody>
+  </tbody>
 </table>
 
 <!--
@@ -170,10 +172,10 @@ The following functionality is soon to be removed from Workfront:
 
 ## Notes de mise à jour pour d’autres zones
 
-* [Activité de publication Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
-* [Activité de mise à jour Adobe Workfront Planning pour le premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+* [Activité de version d’Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+* [Activité de la version du premier trimestre 2025 de la planification Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
 
-À ce stade de la version, les mises à jour suivantes ne sont pas disponibles :
+Il n’existe aucune mise à jour pour les éléments suivants à ce stade de la version :
 
 * Planificateur de scénarios
 * Épreuve

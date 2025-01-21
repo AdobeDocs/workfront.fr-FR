@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2781'
 ht-degree: 30%
 
 ---
@@ -614,6 +614,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Mise à jour de l’expérience de commentaire dans le widget Mentions sur l’Accueil et dans Mes mises à jour</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>Nous mettons à jour l’expérience de commentaires dans le widget Mentions de l’Accueil et dans la section Mentions de la zone Mes mises à jour . Désormais, la même expérience dans la zone Mises à jour de la plupart des objets Workfront est également disponible dans le widget Mentions et dans la section Mentions de Mes mises à jour.</p>
         </td>
         <td>

@@ -7,7 +7,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6d90f544b73f79b545fbcafbc18d7a653554d75f
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
@@ -44,15 +44,6 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 ## Rapports et tableaux de bord
 
-### Mode Texte pour les filtres et les regroupements
-
-**Version préliminaire : 9 janvier 2025 ; Version de production : à partir du 9 janvier 2025**
-
-Nous avons ajouté un nouveau bouton Modifier le mode Texte et modifié la boîte de dialogue modale dans les zones suivantes :
-
-* Filtres hérités
-* Regroupements
-
 ### Mise à jour des rapports d’approbation avec un nouveau style
 
 **Version préliminaire : 16 janvier 2025 ; Version de production : à déterminer**
@@ -64,3 +55,12 @@ Nous avons mis à jour l’interface des rapports d’approbation suivants :
 * Rapport sur le processus d&#39;approbation
 
 Ces mises à jour incluent des modifications visuelles de la zone. Aucune fonctionnalité n’a été modifiée.
+
+### Mode Texte pour les filtres et les regroupements
+
+**Version préliminaire : 9 janvier 2025 ; Version de production : à partir du 9 janvier 2025**
+
+Nous avons ajouté un nouveau bouton Modifier le mode Texte et modifié la boîte de dialogue modale dans les zones suivantes :
+
+* Filtres hérités
+* Regroupements
