@@ -4,16 +4,16 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
-title: Préparation à l’intégration de votre organisation à Adobe Admin Console
+title: Préparation à l’intégration de votre entreprise à Adobe Admin Console
 description: Adobe Workfront étant un produit Adobe, vous pouvez y accéder via l’Adobe Admin Console. Cela vous permet de gérer Workfront ainsi que d’autres comptes et produits Adobe pour vos utilisateurs et utilisatrices depuis un seul endroit.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 98%
+source-wordcount: '647'
+ht-degree: 96%
 
 ---
 
@@ -85,6 +85,6 @@ Pour que votre organisation puisse migrer vers l’Adobe Admin Console, vous d
 
 Une fois que votre Adobe Admin Console est configurée avec Workfront, vous pouvez l’utiliser pour créer vos administrateurs et administratrices de système Workfront.
 
-Pour plus d’informations, voir [Gérer les administrateurs et administratrices système dans l’Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Pour plus d’informations, voir [Gestion des utilisateurs dans Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 Pour obtenir une liste des autres actions qui diffèrent selon que votre entreprise a été intégrée ou non à l’Adobe Admin Console, voir [Différences d’administration en fonction de la plateforme (Adobe Workfront Fusion/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

@@ -1,14 +1,14 @@
 ---
 title: Créer des enregistrements
-description: Lors de l’utilisation d’Adobe Workfront Planning, un enregistrement est une instance d’un type d’enregistrement. Vous pouvez créer des enregistrements uniques pour chaque type d’enregistrement dans le calendrier Workfront en les ajoutant manuellement à la vue de tableau, en les important à partir d’une liste, en les dupliquant ou en les créant lorsque vous les connectez à d’autres enregistrements.
+description: Lors de l'utilisation d'Adobe Workfront Planning, un enregistrement est une instance d'un type d'enregistrement. Vous pouvez créer des enregistrements uniques pour chaque type d'enregistrement dans Workfront Planning en les ajoutant manuellement à la vue Tableau, en les important d'une liste, en les dupliquant ou en les créant lorsque vous les connectez à d'autres enregistrements.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1553'
 ht-degree: 34%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 34%
 
 # Créer des enregistrements
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -27,12 +27,12 @@ Dans Adobe Workfront Planning, un enregistrement est une instance d’un type 
 
 Vous pouvez créer des enregistrements en effectuant l’une des opérations suivantes :
 
-* [Ajout d’enregistrements de la page de type enregistrement dans la vue de tableau](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
-* [Copier et coller une liste d&#39;enregistrements d&#39;une liste externe](#create-records-by-copying-and-pasting-them-from-an-external-list)
-* [Duplication d’enregistrements depuis une vue de tableau](#create-records-by-duplicating-them)
-* [Créer des enregistrements lors de leur connexion à partir d&#39;autres enregistrements](#create-records-as-you-connect-them)
-* [Créez-les en envoyant un formulaire de demande à un type d’enregistrement.](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[Créer des enregistrements lors de l’importation de types d’enregistrement à partir d’un fichier CSV ou Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+* [Ajouter des enregistrements à partir de la page de type d’enregistrement en mode Tableau](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Copier-coller une liste d&#39;enregistrements depuis une liste externe](#create-records-by-copying-and-pasting-them-from-an-external-list)
+* [Dupliquer les enregistrements depuis une vue Tableau](#create-records-by-duplicating-them)
+* [Créer des enregistrements au fur et à mesure que vous les connectez à partir d’autres enregistrements](#create-records-as-you-connect-them)
+* [Créez-les en soumettant un formulaire de demande à un type d’enregistrement](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Créer des enregistrements lors de l’import de types d’enregistrements depuis un fichier CSV ou Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
 
 
 Pour plus d’informations sur la gestion des enregistrements dans les vues « Tableau » ou « Chronologie », consultez les articles suivants :
@@ -42,7 +42,7 @@ Pour plus d’informations sur la gestion des enregistrements dans les vues « 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès pour Workfront Planning.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -63,14 +63,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -78,7 +78,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -86,25 +86,25 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td> Standard
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
    <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p> 
-   <p>Modifiez l’accès dans Workfront pour les types d’objets que vous souhaitez créer (projets et portefeuilles) lorsque vous connectez les enregistrements à ces types d’objets. </p>  
+   <p>Modifiez l’accès dans Workfront pour les types d’objets que vous souhaitez créer (projets et portfolios) lorsque vous connectez les enregistrements à ceux-ci. </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td> <p>Gérez les autorisations de l’espace de travail auquel vous souhaitez ajouter des enregistrements. </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
-   <p>Gérez les autorisations d’accès aux objets Workfront (portfolios) pour ajouter des objets enfants (projets).</p>
+   <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (projets).</p>
    </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Tous les utilisateurs, y compris les administrateurs Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planification dans le menu principal. </p> </td> 
+   <td> <p>Un modèle de mise en page comprenant la zone Planning du menu principal doit être affecté à tous les utilisateurs, y compris les administrateurs Workfront </p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -121,31 +121,31 @@ Pour plus d’informations sur la modification des informations relatives aux en
 
 {{step1-to-planning}}
 
-1. Cliquez sur l&#39;espace de travail dans lequel vous souhaitez ajouter des enregistrements.
+1. Cliquez sur l’espace de travail dans lequel vous souhaitez ajouter des enregistrements.
 
-   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
    La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre sous la forme d’un tableau.
 Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
-1. (Conditionnel) Selon la vue que vous affichez, effectuez l’une des opérations suivantes :
+1. (Conditionnel) Selon la vue affichée, effectuez l’une des opérations suivantes :
 
-   * Dans la vue Tableau :
+   * En mode Tableau :
 
-      * Cliquez sur **Nouvel enregistrement** dans la dernière ligne du tableau.
+      * Cliquez sur **Nouvel enregistrement** dans la dernière ligne du tableau
 
-      * Cliquez sur **Maj + Entrée** sur votre clavier à partir de n’importe quelle colonne ou ligne du tableau. Une ligne vide est alors ajoutée sous l’enregistrement à partir duquel vous commencez.
-      * Passez la souris sur le champ principal d’un enregistrement, cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du champ, puis cliquez sur **Insérer un enregistrement au-dessus** ou **Insérer un enregistrement en dessous**.
+      * Cliquez sur **Maj + Entrée** sur votre clavier à partir de n’importe quelle colonne ou ligne du tableau. Cela ajoute une ligne vide sous l’enregistrement à partir duquel vous commencez.
+      * Pointez sur le champ principal d’un enregistrement, cliquez sur l’![](assets/more-menu.png) du menu **Plus** à droite du champ, puis cliquez sur **Insérer un enregistrement au-dessus** ou **Insérer un enregistrement au-dessous**.
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
-   * Dans n’importe quelle vue :
+   * Quel que soit l’angle de vue :
 
-      * Cliquez sur **Nouvel enregistrement** dans le coin supérieur droit de la page. La boîte d’aperçu des enregistrements s’ouvre.
+      * Cliquez sur **Nouvel enregistrement** dans le coin supérieur droit de la page. La zone de prévisualisation des enregistrements s’ouvre.
 
-     Workfront télécharge automatiquement une miniature et une image de couverture vers chaque nouvel enregistrement. Vous pourrez modifier ces images ultérieurement. Pour plus d’informations, voir les articles suivants :
+     Workfront charge automatiquement une miniature et une image de couverture pour chaque nouvel enregistrement. Vous pouvez modifier ces images ultérieurement. Pour plus d’informations, voir les articles suivants :
 
       * [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
       * [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
@@ -154,11 +154,11 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    >[!NOTE]
    >
-   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Nous vous recommandons toutefois d’ajouter des informations pour le champ principal d’un enregistrement, car il est utile d’identifier les enregistrements lors de la liaison d’enregistrements. Pour plus d’informations sur les champs principaux, voir [Gestion de la vue de table](/help/quicksilver/planning/views/manage-the-table-view.md) et [Présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Les champs qui renvoient à d’autres types d’enregistrements ou à des champs calculés sont en lecture seule.
 
-1. (Conditionnel) Lors de l’ajout d’enregistrements dans le tableau, continuez à ajouter des informations sur chaque ligne, puis cliquez sur **Entrée** sur votre clavier pour enregistrer vos modifications.
+1. (Conditionnel) Lors de l’ajout d’enregistrements dans le tableau, continuez à ajouter des informations sur chaque ligne, puis cliquez sur **Entrée** sur le clavier pour enregistrer vos modifications.
 
    Ou
 
@@ -168,10 +168,10 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
    >
    >Vous ne pouvez accéder à l’icône **Ouvrir les détails** qu’à partir du champ nom de l’enregistrement lorsque le champ Nom est un champ principal.
 
-1. Commencez à modifier les informations de l’enregistrement dans l’aperçu de l’enregistrement. Workfront enregistre automatiquement vos modifications.
-1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Continuez à modifier l’enregistrement sur la page d’enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
+1. Commencez à modifier les informations de l&#39;enregistrement dans l&#39;aperçu de l&#39;enregistrement. Workfront enregistre automatiquement vos modifications.
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement sur la page d’enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
-1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements ou de leurs informations lors de leur ajout dans la vue de tableau :
+1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements ou de leurs informations lors de leur ajout en mode Tableau :
 
    * CTRL + Z (⌘ + Z pour Mac) pour annuler une modification
    * CTRL + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir une modification
@@ -229,60 +229,69 @@ You can import records from other applications by linking them to existing recor
 
 ## Créer des enregistrements en les dupliquant
 
-Pour plus d&#39;informations sur la duplication d&#39;enregistrements, voir [Duplication d&#39;enregistrements](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
+Pour plus d&#39;informations sur la duplication des enregistrements, voir [Dupliquer des enregistrements](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
-## Créer des enregistrements lors de leur connexion
+## Créer des enregistrements au fur et à mesure que vous les connectez
 
-Vous pouvez créer des enregistrements ou des objets Workfront lorsque vous les connectez à partir d&#39;autres enregistrements.
+Vous pouvez créer les types d&#39;objets suivants en les connectant à partir d&#39;autres enregistrements :
 
-Vous devez disposer des éléments suivants avant de pouvoir ajouter de nouveaux enregistrements ou des objets Workfront en les connectant à partir d’enregistrements existants :
+* Enregistrements Workfront Planning
+* Objets Workfront
 
-* Types d’enregistrement connectés. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Enregistrements connectés. Pour plus d’informations, consultez la section [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
-* Accès et autorisations corrects dans Workfront Planning et Workfront, comme décrit dans la section [Exigences d’accès](#access-requirements) de cet article.
+Cette section décrit comment créer des enregistrements Workfront Planning en les connectant à partir d&#39;autres enregistrements.
 
 >[!NOTE]
 >
->La création de projets et de portefeuilles Workfront lorsque vous les connectez aux enregistrements de planification Workfront est similaire à la création d’enregistrements de planification lorsque vous les connectez à partir d’autres enregistrements.
+>La création de projets et de portfolios Workfront lorsque vous les connectez à des enregistrements Workfront Planning est similaire à la création d&#39;enregistrements Planning lorsque vous les connectez à partir d&#39;autres enregistrements.
+>
+>Pour plus d’informations sur la création d’objets Workfront à partir de Workfront Planning, voir [Création d’objets Workfront à partir de Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
 
-Pour créer des enregistrements lors de leur connexion à partir d&#39;autres enregistrements :
+Vous devez disposer des éléments suivants avant de pouvoir ajouter de nouveaux enregistrements en les connectant à partir d’enregistrements existants :
 
-1. Commencez à connecter les enregistrements de la planification Workfront, comme décrit dans l’article [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
-1. (Conditionnel) Si vous ne parvenez pas à trouver un enregistrement en essayant de l’ajouter à partir du champ d’enregistrement connecté d’un autre enregistrement, recherchez un enregistrement, puis cliquez sur **+ Ajouter**. Le bouton **+ Ajouter** est suivi du nom du type d’enregistrement à partir duquel vous vous connectez.
+* Types d’enregistrements connectés. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Enregistrements.
+* L’accès et les autorisations appropriés dans Workfront Planning et Workfront, comme décrit dans la section [Exigences d’accès](#access-requirements) de cet article.
+
+Pour créer des enregistrements au fur et à mesure que vous les connectez à partir d&#39;autres enregistrements :
+
+1. Commencez à connecter les enregistrements Workfront Planning, comme décrit dans l&#39;article [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md). Vous pouvez connecter des enregistrements à partir d&#39;un champ de connexion dans les zones suivantes de Workfront Planning :
+
+   * Vue Tableau
+   * Page de détails ou zone de prévisualisation d’un enregistrement
+
+1. (Conditionnel) Si vous ne trouvez pas un enregistrement lorsque vous tentez de l’ajouter à partir du champ d’enregistrement connecté d’un autre enregistrement, recherchez un enregistrement, puis cliquez sur **+ Ajouter**. Le bouton **+ Ajouter** est suivi du nom du type d’enregistrement auquel vous vous connectez. Par exemple, « Ajouter des marques » lors de l’ajout d’une marque à une campagne existante.
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    L’enregistrement est créé et ajouté au champ d’enregistrement connecté.
 
-   >[!IMPORTANT]
-   >
-   >* Vous pouvez créer uniquement des projets et des portefeuilles dans Workfront lors de la connexion à partir d’un enregistrement.
-   >
-   >* Vous ne pouvez pas créer de programmes, de groupes ou d’entreprises lors de leur connexion à partir d’un enregistrement dans Workfront Planning.
-   >
-   >* Vous ne pouvez pas créer de projet à partir d’un modèle lorsque vous créez des projets en les connectant à partir d’un enregistrement. Vous devez ajouter manuellement des tâches et des informations sur le projet ou un modèle au nouveau projet après l’avoir ajouté à l’enregistrement.
+   <!--
+    >[!IMPORTANT]
+    >
+    >* You can create only projects and portfolios in Workfront when connecting them from a record. 
+    >
+    >* You cannot create programs, groups, or companies when connecting them from a record in Workfront Planning. 
+    >
+    >* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record. -->
 
-1. (Facultatif) Accédez à la vue table du type d’enregistrement dont vous avez créé l’enregistrement. Un nouvel enregistrement s’affiche dans la dernière ligne de la vue.
-1. (Facultatif) Commencez à ajouter des informations pour le nouvel enregistrement dans la vue de tableau.
+1. (Facultatif) Accédez à la vue Table du type d’enregistrement dont vous avez créé l’enregistrement. Un nouvel enregistrement s&#39;affiche dans la dernière ligne de la vue.
+1. (Facultatif) Commencez à ajouter des informations pour le nouvel enregistrement en mode Tableau
 Ou
 Cliquez sur son nom pour ouvrir la page de détails et y ajouter des informations.
 
-## Créer des enregistrements en envoyant un formulaire de demande à un type d’enregistrement
+## Créer des enregistrements en soumettant un formulaire de demande à un type d’enregistrement
 
-Après avoir créé un formulaire de demande pour un type d’enregistrement et partagé un lien avec celui-ci, vous pouvez envoyer une demande qui crée un enregistrement pour ce type d’enregistrement.
+Une fois qu’une personne a créé un formulaire de demande pour un type d’enregistrement et partagé un lien vers celui-ci avec vous, vous pouvez soumettre une demande qui crée un enregistrement pour ce type d’enregistrement.
 
 Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-Les utilisateurs de Workfront et les utilisateurs externes à votre organisation peuvent envoyer des requêtes à Planification des types d’enregistrement et créer des enregistrements, s’ils disposent d’un lien vers le formulaire de requête.
+Les utilisateurs de Workfront et les utilisateurs externes à votre organisation peuvent envoyer des demandes aux types d&#39;enregistrements Planning et créer des enregistrements, s&#39;ils possèdent un lien vers le formulaire de demande.
 
-Pour plus d’informations, voir [Soumettre des demandes de planification Adobe Workfront pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
-<div class="preview">
+## Créer des enregistrements lors de l’import de types d’enregistrements depuis un fichier CSV ou Excel
 
-## Créer des enregistrements lors de l’importation de types d’enregistrement à partir d’un fichier CSV ou Excel
-
-Vous pouvez importer des enregistrements lorsque vous importez des types d’enregistrement à l’aide d’un fichier CSV ou Excel.
+Vous pouvez importer des enregistrements lorsque vous importez des types d&#39;enregistrements à l&#39;aide d&#39;un fichier CSV ou Excel.
 
 Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-</div>

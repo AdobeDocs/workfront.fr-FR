@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '2928'
+source-wordcount: '2912'
 ht-degree: 46%
 
 ---
@@ -228,7 +228,7 @@ Vous pouvez connecter des enregistrements de Workfront Planning dans les zones s
 
    Notez que le champ d’enregistrements liés **Campagne** affiche les noms des campagnes que vous avez liées à des produits dans la page type d’enregistrement du Produit. La mise à jour des informations de Campagne met automatiquement à jour le champ d’enregistrement lié Campagne pour le type d’enregistrement Produit.
 
-### Connectez les enregistrements Adobe Workfront Planning aux objets Workfront à partir de la vue Tableau ou de l&#39;onglet Détails de la page d&#39;enregistrement
+### Connecter des enregistrements Adobe Workfront Planning à des objets Workfront à partir de la vue Tableau ou de la page de détails d&#39;un enregistrement
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -264,7 +264,7 @@ Après avoir établi une connexion entre un type d’enregistrement et un type d
 
 1. (Facultatif) Si vous ne parvenez pas à trouver un objet à connecter et que vous souhaitez l’ajouter, cliquez sur **+ Ajouter** pour créer et ajouter un nouveau projet ou portfolio.
 
-   Vous pouvez uniquement ajouter des projets sans modèle ou portfolios lors de leur connexion à des enregistrements Planning. Vous ne pouvez pas ajouter de nouveaux programmes, groupes ou entreprises.
+   Pour plus d’informations, voir [Création d’objets Workfront à partir de Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 1. (Facultatif) Cliquez sur **Voir tout** pour afficher tous les objets que vous êtes au moins autorisé à consulter.
 

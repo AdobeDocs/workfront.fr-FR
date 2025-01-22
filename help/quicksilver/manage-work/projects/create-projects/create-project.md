@@ -6,20 +6,22 @@ description: Un projet est une grande unité de travail dans Adobe Workfront. V
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 91%
+source-wordcount: '1382'
+ht-degree: 86%
 
 ---
 
 # Créer un projet
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)</p>
--->
+<!--remove Preview and Production references-->
 
 <!-- Audited: 12/2023 -->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Les projets représentent une grande quantité de travail à effectuer dans Adobe Workfront.
 
@@ -112,22 +114,22 @@ Vous pouvez créer un projet dans Workfront à l’aide de l’une des méthodes
 
   Pour plus d’informations sur l’import de projets à l’aide de Kickstarts, consultez la section [Scénario Kickstart : préparer simplement l’import de projets et de tâches](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish une initiative à partir d’un scénario dans le planificateur de scénario Adobe Workfront.
+* Publish d’une initiative à partir d’un scénario dans le planificateur de scénarios Adobe Workfront.
 
-  Le planificateur de scénario requiert l’une des options suivantes :
+  Le planificateur de scénarios nécessite l’un des éléments suivants :
 
    * Une licence supplémentaire pour la structure de licence Workfront actuelle.
    * Une licence Ultimate pour la nouvelle structure de licence Workfront.
 
   Pour plus d’informations sur le planificateur de scénarios Workfront, consultez la section [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md). Pour plus d’informations sur la création de projets à partir de la publication d’initiatives, consultez la section [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-* Ajoutez des projets lorsque vous les connectez à partir d’un type d’enregistrement dans Workfront Planning. Vous pouvez créer uniquement des projets sans modèles à partir de Workfront Planning.
+* Ajoutez des projets au fur et à mesure que vous les connectez à partir d’un type d’enregistrement dans Workfront Planning. Dans l’environnement de production, vous ne pouvez créer que des projets sans modèle à partir de Workfront Planning. <span class="preview">Vous pouvez créer des projets à l’aide d’un modèle dans l’environnement Aperçu.</span>
 
   Vous devez disposer d’une nouvelle licence Workfront et d’une licence Workfront Planning supplémentaire pour Workfront Planning.
 
-  Pour plus d’informations sur l’accès à Workfront Planning, voir [Présentation des accès](/help/quicksilver/planning/access/access-overview.md).
+  Pour plus d’informations sur l’accès à Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/planning/access/access-overview.md).
 
-  Pour plus d’informations sur la création de projets en les ajoutant aux enregistrements, reportez-vous à la section &quot;Créer des enregistrements lorsque vous les connectez&quot; dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+  Pour plus d’informations sur la création de projets en les ajoutant à des enregistrements, reportez-vous à la section « Créer des projets lors de leur connexion avec des enregistrements de Workfront Planning » de l’article [Créer des objets Workfront à partir de Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## Conditions préalables
 

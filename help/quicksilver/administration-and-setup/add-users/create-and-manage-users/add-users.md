@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 96%
+source-wordcount: '1128'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 >
 >Si votre organisation a été intégrée à Adobe Admin Console, vous devez créer des administrateurs et administratrices système via Adobe Admin Console.
 >
->Pour obtenir des instructions sur la création d’administrateurs et administratrices système dans Adobe Admin Console, voir [Gérer les administrateurs et administratrices système dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Pour obtenir des instructions sur la création d’administrateurs système dans Adobe Admin Console, voir [Gérer les utilisateurs dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Les administrateurs et administratrices de groupes des organisations qui ont été intégrées à Adobe Admin console peuvent utiliser cette procédure pour créer des utilisateurs et utilisatrices et les soumettre à l’approbation de l’administrateur ou de l’administratrice.
 >
@@ -60,8 +60,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès Administrateur système. </li> 
-     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si <b>User Admin (Group Users)</b> est activé, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
+     <li> <p>Niveau d’accès de l’administrateur système. </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -93,7 +93,7 @@ Avant d’ajouter une personne, rassemblez les informations sur elle énumérée
 * Dans quelle équipe interne cette personne doit-elle se trouver ? La personne doit-elle faire partie de plusieurs équipes ? Pour plus d’informations sur les équipes, voir [Vue d’ensemble des équipes](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 * Quelles informations personnalisées devez-vous associer à cette personne ?
 
-  Si les informations sur les personnes sont capturées dans des champs personnalisés que vous avez créés, vous devez disposer d’un formulaire personnalisé lors de la création d’un utilisateur ou d’une utilisatrice. Pour plus d’informations sur les formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Si les informations sur les personnes sont capturées dans des champs personnalisés que vous avez créés, vous devez disposer d’un formulaire personnalisé lors de la création d’un utilisateur ou d’une utilisatrice. Pour plus d’informations sur les formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Créer entièrement une personne
 

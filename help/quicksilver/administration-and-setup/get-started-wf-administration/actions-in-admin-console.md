@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)
+title: Différences d’administration basées sur la plateforme (Adobe Workfront/Adobe Business Platform)
 description: Si votre entreprise a été intégrée à Adobe Business Platform, vos utilisateurs et utilisatrices ont recours à Adobe Business Platform pour accéder à Adobe Workfront. Cela signifie que la gestion des utilisateurs et utilisatrices s’effectue en grande partie via Adobe Admin Console et que l’authentification unique (SSO) est gérée via Adobe Business Platform plutôt que par Workfront. En tant qu’administrateur ou administratrice Adobe Workfront, vos responsabilités et procédures d’administration diffèrent selon que votre entreprise a été intégrée à Adobe Business Platform ou non. Cet article répertorie les procédures qui doivent être gérées différemment et fournit des liens vers des instructions pour Workfront et Adobe Admin Console.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 98%
+source-wordcount: '405'
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ Si votre entreprise a été intégrée à Adobe Business Platform, vos utilisa
 >
 >Nous vous recommandons d’ajouter les utilisateurs et utilisatrices qui ne sont pas en charge de l’administration système directement dans Workfront. Vous pouvez ajouter des utilisateurs et utilisatrices dans Adobe Admin Console, mais les ajouter dans Workfront permet de définir leur niveau d’accès lors de leur création, ce qui peut vous faire gagner du temps.
 
-Pour plus d’informations sur la création d’administrateurs et administratrices système Workfront, voir [Gérer les administrateurs et administratrices système dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Pour obtenir des instructions sur la création d’administrateurs système Workfront, voir [Gérer les utilisateurs dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 <!--
 <table style="table-layout:auto"> 
