@@ -9,10 +9,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
+source-git-commit: dee1c75e134309a25ba6c739059048972696f2c1
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 59%
+source-wordcount: '198'
+ht-degree: 57%
 
 ---
 
@@ -53,8 +53,7 @@ Cette section contient les articles suivants :
 * [Exemple de scénario [!DNL Adobe Workfront Fusion] : connecter les e-mails, [!UICONTROL l’analyseur de texte] et  [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Restaurer une version de scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Copier des modules ou des scénarios dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
-* [Mettre à jour un module vers une nouvelle version dans un scenario  [!DNL Adobe Workfront Fusion] ](../../workfront-fusion/scenarios/update-module-to-new-version.md)
-* [Afficher et gérer les scénarios verrouillés dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
+* [Afficher et gérer des scénarios verrouillés dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
 * [Exécuter l’expert en notation de scénario dans Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
 * [Utiliser cURL pour ajouter un module HTTP](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
 
