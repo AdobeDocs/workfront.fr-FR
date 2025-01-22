@@ -5,9 +5,9 @@ description: Présentation de l’assistant AI
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
+source-git-commit: b00032517f2bf048c50fbaf22b79c011017980ea
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '701'
 ht-degree: 7%
 
 ---
@@ -66,6 +66,8 @@ Pour activer l’assistant AI pour votre entreprise, **toutes** les conditions s
 * L’assistant AI Planning Workfront dispose de fonctionnalités différentes de l’assistant AI Workfront.
 
   Pour plus d’informations sur l’assistant AI dans Workfront Planning, consultez [Présentation de l’assistant AI Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
+* L’assistant AI n’est actuellement disponible qu’en anglais.
 
 
 ## Fonctionnalité disponible dans l’assistant d’IA
