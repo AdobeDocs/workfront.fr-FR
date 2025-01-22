@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des réviseurs et réviseuses ou des approbateu
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 1fbb5cb2082e6b926930793984bd34a759c7eec7
+source-git-commit: 5027807d93994b9ce9954be461b571379b36c960
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 60%
+source-wordcount: '610'
+ht-degree: 55%
 
 ---
 
@@ -27,7 +27,9 @@ Les nouvelles approbations de documents représentent une refonte complète du p
 
 * Les boutons de décision d’approbation du document ne sont pas disponibles dans le lecteur de vérification. Les décisions peuvent être prises dans le résumé du document, les widgets d’accueil de Workfront ou dans la page Détails du document .
 * Les participants à l&#39;approbation du document s&#39;affichent dans l&#39;onglet Résumé du document, et non dans le workflow de relecture.
-* Les nouvelles approbations de document ne sont pas prises en charge dans l’outil de création de rapports actuel. Le widget Toutes les approbations disponible dans les nouveaux tableaux de bord d’accueil et de zone de travail fournit les détails suivants sur la nouvelle approbation de documents :
+* Les nouvelles approbations de document ne sont pas prises en charge dans l’outil de création de rapports actuel.
+
+  Vous pouvez rejoindre la version Beta des nouveaux tableaux de bord de la zone de travail pour [Créer un tableau de bord de rapport à des fins de révision et d’approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) ou vous pouvez utiliser le widget Toutes les approbations disponible dans les nouveaux tableaux de bord de l’accueil et de la zone de travail pour obtenir les détails suivants sur les nouvelles approbations de document :
 
    * Approbations par décision
    * Temps moyen d’approbation

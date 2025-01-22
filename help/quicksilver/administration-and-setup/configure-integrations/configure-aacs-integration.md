@@ -6,9 +6,9 @@ description: Vous pouvez connecter votre travail à votre contenu dans  [!DNL Ex
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1708'
 ht-degree: 94%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible uniquement pour les organisations qui ont été intégrées à [!DNL Adobe Admin Console].
+>Cette fonctionnalité n’est disponible que pour les organisations qui ont été intégrées à l’[!DNL Adobe Admin Console].
 
 Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manager Assets] :
 
@@ -242,7 +242,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ## Configurer des workflows (facultatif)
 
-Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. En tant qu’administrateur Workfront, vous pouvez configurer des workflows dans Workfront, puis les affecter à des modèles de projet.
+Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. En tant qu’administrateur ou administratrice Workfront, vous pouvez configurer des workflows dans Workfront, puis les affecter à des modèles de projet.
 
 Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est attribué, les actions définies dans le workflow sont déclenchées.
 
@@ -254,6 +254,8 @@ Les workflows suivants sont disponibles dans l’intégration Adobe Experience�
 * [Publier les ressources envoyées à Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Créer des dossiers liés Adobe Experience Manager
+
+Vous pouvez créer jusqu’à 100 dossiers liés par arborescence de dossiers.
 
 1. Activez **[!UICONTROL Créer un dossier lié]**.
 1. Saisissez le nom du dossier lié que vous créez.
