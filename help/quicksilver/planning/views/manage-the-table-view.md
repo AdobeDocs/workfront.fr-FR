@@ -1,19 +1,23 @@
 ---
 title: Gestion de la vue Tableau
-description: Vous pouvez afficher les enregistrements et leurs champs en mode Tableau lors de l’accès à la page de type enregistrement dans Adobe Workfront Planning. Cet article décrit comment créer une vue de tableau et modifier ou supprimer une vue existante.
+description: Vous pouvez afficher les enregistrements et leurs champs dans une vue Tableau lors de l'accès à la page de type d'enregistrement dans Adobe Workfront Planning. Cet article décrit comment créer une vue de tableau et modifier ou supprimer une vue existante.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '2802'
-ht-degree: 70%
+source-wordcount: '2879'
+ht-degree: 67%
 
 ---
 
 # Gérer la vue de tableau
+
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -23,7 +27,7 @@ Pour plus d’informations sur les vues d’enregistrement et leur gestion, cons
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès pour Workfront Planning.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -44,14 +48,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -59,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -67,7 +71,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard </p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -78,7 +82,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
-   <p>Afficher les autorisations d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
+   <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -151,11 +155,11 @@ OLD:
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-## Modifier des enregistrements à l’aide de la vue de tableau
+## Modifier des enregistrements à l’aide de la vue Tableau
 
-Vous ne pouvez modifier les informations d’enregistrement que dans la vue de tableau.
+Vous ne pouvez modifier les informations d’enregistrement que dans la vue Tableau.
 
-Pour plus d’informations sur la modification des enregistrements dans la vue de table, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
+Pour plus d&#39;informations sur la modification des enregistrements en mode Tableau, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 ## Gérer une vue tableau {#manage-a-table-view}
 
@@ -193,7 +197,7 @@ L’ajout de colonnes à une vue est identique à l’ajout de champs à un type
 
 Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
-1. Accédez à une page de type enregistrement et cliquez sur un onglet de vue de table, ou cliquez sur **+ Afficher** pour ajouter une nouvelle vue, puis sélectionnez **Tableau**.
+1. Accédez à une page de type enregistrement et cliquez sur un onglet de vue Tableau, ou cliquez sur **+ Vue** pour ajouter une nouvelle vue, puis choisissez **Table**.
 
 1. Commencez à ajouter des champs (ou des colonnes), comme décrit dans l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
@@ -226,7 +230,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre et s’affichent dans la zone d’en-tête de la page de l’enregistrement, et partout où les enregistrements s’affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et dans toutes les vues. Pour plus d’informations sur les champs principaux, voir [Présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -270,7 +274,7 @@ Les lignes d’une vue de tableau affichent des enregistrements individuels du t
 
 Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d’enregistrement.
 
-1. Accédez à une page de type enregistrement et cliquez sur un onglet de vue de table, ou cliquez sur **+ Afficher** pour ajouter une nouvelle vue, puis sélectionnez **Tableau**.
+1. Accédez à une page de type enregistrement et cliquez sur un onglet de vue Tableau, ou cliquez sur **+ Vue** pour ajouter une nouvelle vue, puis choisissez **Table**.
 
 1. Commencez à ajouter des enregistrements (ou lignes), comme décrit dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
@@ -280,13 +284,13 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d
 
    Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Facultatif) Sélectionnez un ou plusieurs enregistrements d’une ligne, puis faites glisser l’icône **handle** ![](assets/handle-icon.png) vers la gauche de l’enregistrement pour réorganiser les lignes.
+1. (Facultatif) Sélectionnez un ou plusieurs enregistrements dans une ligne, puis faites glisser et déposez l’icône **handle** ![](assets/handle-icon.png) à gauche de l’enregistrement pour réorganiser les lignes.
 
    >[!NOTE]
    >
    >Vous ne pouvez pas réorganiser les lignes si vous appliquez au moins un tri à la vue de tableau.
    >
-   >Les modifications apportées à l’ordre des lignes sont visibles par tous les utilisateurs qui accèdent au type d’enregistrement.
+   >Les modifications apportées à l’ordre des lignes sont visibles par tous les utilisateurs qui accèdent au type d’enregistrement
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -294,7 +298,7 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d
 
 Les filtres permettent de réduire la quantité d’informations affichées à l’écran.
 
-Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue Tableau :
+Tenez compte des points suivants lorsque vous utilisez des filtres en mode Tableau :
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -308,11 +312,11 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue T
 
 * Ajouter des filtres à la vue en tableau est identique à l’ajout de filtres à la vue chronologique.
 
-* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté.
+* Vous pouvez filtrer par champs d’enregistrement connectés ou champs de recherche.
 
 * Vous pouvez filtrer par champs de recherche qui affichent plusieurs valeurs.
 
-* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un filtre pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le budget du projet dans le filtre que vous créez pour le type d’enregistrement Activité .
+* Vous pouvez référencer un champ qui se trouve à jusqu’à 4 niveaux du type d’enregistrement actuel. Par exemple, si vous créez un filtre pour un type d’enregistrement Activité et que l’Activité est connectée au type d’enregistrement Produit associé au type d’enregistrement Campagne associé à un projet Workfront, vous pouvez référencer le budget du projet dans le filtre que vous créez pour le type d’enregistrement Activité.
 
 Pour ajouter un filtre à une vue en tableau, procédez comme suit :
 
@@ -322,7 +326,7 @@ Pour ajouter un filtre à une vue en tableau, procédez comme suit :
 
    * **Sélectionnez un champ** que vous souhaitez filtrer par <!-- the tip below might change-->
 
-   * **Sélectionnez une option** (ou un modificateur de filtre) pour définir le type de condition que le champ doit remplir.
+   * **Sélectionnez une option** (ou un modificateur de filtre) pour définir le type de condition auquel le champ doit répondre
 
      Le tableau ci-dessous présente les modificateurs disponibles pour chaque type de champ.
 
@@ -397,13 +401,22 @@ Pour ajouter un filtre à une vue en tableau, procédez comme suit :
 1. (Facultatif) Cliquez sur **Ajouter une condition** pour ajouter une autre option de filtrage et répétez les étapes ci-dessus. Le nombre de filtres appliqués s’affiche à gauche de l’icône Filtres.
 1. Cliquez sur les opérateurs suivants pour indiquer comment les conditions de filtrage sont liées et doivent être appliquées :
 
-   * **Et** : toutes les conditions spécifiées doivent être remplies.
-   * **Ou** : l’une des conditions spécifiées doit être remplie. Il s’agit de l’option par défaut.
+   * **AND** : toutes les conditions spécifiées doivent être remplies.
+   * **OR** : l’une des conditions spécifiées doit être remplie. Il s’agit de l’option par défaut.
+
+   <div class="preview">
+
+   1. (Facultatif) Ajoutez des opérateurs **AND** ou **OR** supplémentaires entre plusieurs regroupements de conditions.
+
+      ![](assets/multi-tiered-filters-in-views.png)
+
+   </div>
 
    La liste des enregistrements est filtrée automatiquement. <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (Facultatif) Cliquez sur **Filtres**, puis sur l’icône **x** pour supprimer un filtre. <!--right now you cannot "clear all" for filters, but this might come later-->
+1. (Facultatif) Cliquez sur l’icône **x** pour supprimer une condition de filtre.
+1. (Facultatif) Cliquez sur **Filtres** pour fermer la zone des filtres. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### Ajouter des regroupements {#add-groupings}
 
@@ -422,9 +435,9 @@ Tenez compte des points suivants :
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
 * Vous pouvez modifier les enregistrements répertoriés dans un regroupement.
-* Vous pouvez regrouper par champs d’enregistrement ou de recherche connectés.
-* Lorsque vous effectuez un regroupement par champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), les enregistrements sont regroupés selon chaque combinaison unique de valeurs de champ.
-* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer l’état du projet dans le regroupement que vous créez pour le type d’enregistrement Activité .
+* Vous pouvez effectuer un regroupement par champs d’enregistrement connectés ou champs de recherche.
+* Lorsque vous regroupez des champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), les enregistrements sont regroupés selon chaque combinaison unique de valeurs de champ.
+* Vous pouvez référencer un champ qui se trouve à jusqu’à 4 niveaux du type d’enregistrement actuel. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’Activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le statut du projet dans le regroupement que vous créez pour le type d’enregistrement Activité.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -452,7 +465,7 @@ Pour ajouter un regroupement :
    Cliquez sur **Tout effacer** pour supprimer tous les champs.
 
 1. Cliquez en dehors de la zone **Regrouper les enregistrements par** pour la fermer.
-1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** à la fin d’un groupe pour ajouter de nouveaux enregistrements, puis actualisez votre page pour ajouter le nouvel enregistrement au regroupement approprié. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** à la fin de tout regroupement pour ajouter de nouveaux enregistrements, puis actualisez votre page pour ajouter le nouvel enregistrement au regroupement approprié. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Ajouter un tri {#sort-information}
 
@@ -475,13 +488,13 @@ Tenez compte des éléments suivants lorsque vous triez les enregistrements dans
 
 * Vous pouvez trier autant de champs que vous le souhaitez dans la vue en tableau d’un type d’enregistrement.
 
-* Vous ne pouvez pas trier par champ d’enregistrement connecté, mais vous pouvez trier par champ de recherche à partir des types d’enregistrement connectés.
+* Vous ne pouvez pas trier par champs d’enregistrement connectés, mais vous pouvez trier par champs de recherche à partir de types d’enregistrements connectés.
 
 * Lorsque vous triez par champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), la première valeur est utilisée pour le tri.
 
 * Supprimer des critères de tri les rend inaccessibles à toute personne accédant au même type d’enregistrement que vous et utilisant la même vue que vous.
 
-* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un tri pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer l’état du projet dans le type que vous créez pour le type d’enregistrement Activité .
+* Vous pouvez référencer un champ qui se trouve à jusqu’à 4 niveaux du type d’enregistrement actuel. Par exemple, si vous créez un tri pour un type d’enregistrement Activité et que l’Activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campaign connecté à un projet Workfront, vous pouvez référencer le statut du projet dans le tri que vous créez pour le type d’enregistrement Activité.
 
 Pour trier les enregistrements <!--ungrouped (add this when sorting for groupings will be available-->, procédez comme suit :
 
@@ -492,7 +505,7 @@ Pour trier les enregistrements <!--ungrouped (add this when sorting for grouping
 
    Pointez sur le nom d’une colonne dans la vue en tableau, cliquez sur la flèche pointant vers le bas à droite du nom de l’en-tête de la colonne, puis cliquez sur **Trier par ce champ**. Le champ est ajouté en tant que sélection de tri dans l’icône de tri dans le coin supérieur droit de la vue en tableau.
 
-1. (Conditionnel) Dans la zone **Trier les enregistrements par**, cliquez sur l’un des champs suggérés, ou cliquez sur **Choisir un champ différent** et recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+1. (Conditionnel) Dans la zone **Trier les enregistrements par**, cliquez sur l&#39;un des champs suggérés, ou cliquez sur **Choisir un autre champ** et recherchez un autre champ, puis cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste.
 
    Le tri est appliqué automatiquement à la vue en tableau et les enregistrements s’affichent triés selon les critères que vous avez sélectionnés.
 
@@ -527,8 +540,8 @@ To sort grouped records:
 
 ### Activer l’indicateur de présence en temps réel
 
-Les avatars des autres utilisateurs qui modifient les informations d’enregistrement en même temps que vous les affichez dans le coin supérieur droit de toutes les vues d’enregistrement, par défaut.
+Par défaut, les avatars d’autres utilisateurs qui modifient les informations d’enregistrement en même temps que vous s’affichent dans le coin supérieur droit de toutes les vues d’enregistrement.
 
-Lorsque vous affichez le mode Tableau, vous pouvez également afficher le champ qu’un autre utilisateur modifie au moment de l’affichage de l’enregistrement.
+Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un autre utilisateur est en train de modifier au moment où vous affichez l’enregistrement.
 
-Pour plus d’informations, voir la section &quot;Activer l’indicateur de présence en temps réel&quot; dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+Pour plus d’informations, consultez la section « Activer l’indicateur de présence en temps réel » de l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).

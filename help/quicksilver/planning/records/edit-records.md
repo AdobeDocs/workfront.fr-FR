@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 56%
+source-wordcount: '2007'
+ht-degree: 53%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 56%
 
 # Modifier des enregistrements
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -243,6 +243,16 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
      ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
+   <div class="preview">
+
+   * Copiez une ou plusieurs cellules d’une source externe (par exemple, un fichier Excel), puis collez-les dans l’un des types de champs suivants :
+
+      * Champs de connexion Workfront Planning.
+      * Champs Personnes. Seuls les champs comportant une seule valeur sont pris en charge.
+
+     Vous ne pouvez pas copier des informations provenant d’une source externe et les coller dans d’autres types de champs, y compris des champs de connexion Workfront ou AEM Assets.
+   </div>
+
    >[!NOTE]
    >
    >Tenez compte des points suivants :
@@ -254,8 +264,7 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
    >* Vous ne pouvez pas copier et coller des valeurs de champ dans la page d’enregistrement. Cette fonctionnalité n’est prise en charge que dans la vue de tableau d’un type d’enregistrement.
    >* Vous ne pouvez pas copier et coller les valeurs des champs suivants :
    >
-   >
-   >    * Les champs liés (ou champs de recherche) créés par la connexion de types d’enregistrements. Vous pouvez copier et coller des champs d’enregistrement liés. Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    * Champs de recherche créés lors de la connexion de types d’enregistrements. Vous pouvez copier et coller des champs d’enregistrement liés. Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification
 
 1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir la modification ou la copie et le collage des informations d’enregistrement :
