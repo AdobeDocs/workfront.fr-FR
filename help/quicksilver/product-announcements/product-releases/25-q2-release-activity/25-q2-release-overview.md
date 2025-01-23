@@ -4,10 +4,11 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
+source-git-commit: ef390581f250515983ba51fb4b1f9ee53fcff693
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 53%
+source-wordcount: '651'
+ht-degree: 51%
 
 ---
 
@@ -46,15 +47,15 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            L’assistant AI peut désormais travailler sur des projets, des tâches et des événements</a></p>
-            <p>Pour faciliter la gestion de vos éléments de travail dans Workfront, nous avons mis à jour l’assistant AI pour qu’il fonctionne avec les projets, les tâches et les événements. Désormais, l’assistant AI peut localiser les projets, les tâches et les événements en fonction des critères que vous spécifiez.</p>
+            Représenter les modifications utilisateur de Adobe Admin Console sous la forme « Système » dans le flux de mise à jour de Workfront</a></p>
+            <p>Désormais, lorsque l’administrateur du Adobe Admin Console apporte une modification aux informations utilisateur d’un utilisateur Workfront, Workfront enregistre cette modification dans l’onglet Activité système de la zone Mises à jour de l’utilisateur comme appartenant au « Système ». Fait référence à l’administrateur Adobe Admin Console.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
             <ul>
-                <li>Version préliminaire : vendredi 31 octobre 2024</li>
-                <li>Production pour une version rapide : avec la version 24.11 (14 novembre 2024)</li>
-                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
+                <li>Version préliminaire : vendredi 23 janvier 2025</li>
+                <li>Production pour une version rapide : avec la version 25.2 (février 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.4 (avril 2025)</li>
             </ul>
         </td>
     </tr>
