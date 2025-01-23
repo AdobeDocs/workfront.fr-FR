@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3973'
-ht-degree: 100%
+source-wordcount: '3974'
+ht-degree: 99%
 
 ---
 
@@ -115,7 +115,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nouvelles configurations des niveaux d’accès par défaut</a> </p> <p>Pour mieux répondre aux besoins de la plupart des administrateurs et administratrices qui créent des niveaux d’accès, nous avons modifié la configuration par défaut de plusieurs des options « Affiner vos paramètres » qui s’affichent lorsque vous cliquez sur l’icône d’engrenage d’un bouton Modifier.</p> <p>Précédemment activées par défaut, les options sont désormais désactivées. Si cela ne correspond pas aux besoins de votre organisation, vous pouvez les activer lors de la configuration d’un nouveau niveau d’accès, ou à tout moment par la suite.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nouvelles configurations des niveaux d’accès par défaut</a> </p> <p>Pour mieux répondre aux besoins de la plupart des administrateurs qui créent des niveaux d’accès, nous avons modifié la configuration par défaut de plusieurs des options « Ajuster vos paramètres » qui s’affichent lorsque vous cliquez sur l’icône d’engrenage sur un bouton Modifier.</p> <p>Précédemment activées par défaut, les options sont désormais désactivées. Si cela ne correspond pas aux besoins de votre organisation, vous pouvez les activer lors de la configuration d’un nouveau niveau d’accès, ou à tout moment par la suite.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
      <li> <p>Version préliminaire : 27 janvier 2022<br></p> </li> 
@@ -591,7 +591,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Améliorations de Workfront Fusion
 
-Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent de celui du calendrier de la version 22.2. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de version d’Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent de celui du calendrier de la version 22.2. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Améliorations du planificateur de scénarios Workfront
 

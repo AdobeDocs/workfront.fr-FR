@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Créer un élément de liste  [!DNL Anaplan]  à partir d’une requête de campagne  [!DNL Adobe Workfront]
+title: 'Créer un élément de liste  [!DNL Anaplan]  à partir d’une requête de campagne  [!DNL Adobe Workfront] '
 description: Ce scénario d’intégration relie un projet  [!DNL Adobe Workfront]  à un élément de la liste budgétaire  [!DNL Anaplan] .
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 98%
+source-wordcount: '730'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice de [!DNL Workfront].
 
-&#42;&#42;Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir [[!DNL Adobe Workfront Fusion] licences](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Événement de déclenchement
 
@@ -112,7 +112,7 @@ Pour utiliser ce scénario, vous devez disposer des éléments suivants dans [!D
    </tbody> 
   </table>
 
-  Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Un projet configuré comme une file d’attente des demandes pour capturer les nouvelles demandes de campagne. Le formulaire [!UICONTROL Résumé de campagne] doit être joint à ces requêtes.
 

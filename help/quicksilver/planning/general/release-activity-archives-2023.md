@@ -6,48 +6,48 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2985'
 ht-degree: 92%
 
 ---
 
 
-# Activité de mise à jour du calendrier Adobe Workfront pour 2023
+# Activité de publication de la planification Adobe Workfront pour 2023
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 >[!IMPORTANT]
 >
-><span class="preview">Cet article répertorie les fonctionnalités qui ont été publiées pendant la phase bêta pour Workfront Planning, en 2023.</span>
->Les informations de cet article font référence à la planification Adobe Workfront, une fonctionnalité supplémentaire d’Adobe Workfront.
+><span class="preview">Cet article répertorie les fonctionnalités publiées pendant la phase bêta de Workfront Planning, en 2023.</span>
+>Les informations de cet article font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
 >
->Vous devez acheter un plan de planification Workfront, en plus d’un plan Workfront, pour pouvoir accéder aux fonctionnalités de planification Workfront et les utiliser.
+>Vous devez acheter un plan Workfront Planning, en plus d’un plan Workfront, pour pouvoir accéder aux fonctionnalités Workfront Planning et les utiliser.
 >
->Pour obtenir la liste complète des exigences d’accès à Workfront Planning, consultez la [présentation de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
->Pour une présentation de la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+>Pour obtenir la liste complète des conditions requises pour accéder à Workfront Planning, consultez la présentation de l&#39;accès à Adobe Planning [](/help/quicksilver/planning/access/access-overview.md).
+>Pour obtenir un aperçu de Workfront Planning, consultez [Aperçu d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-Pour plus d’informations sur les activités de mise à jour, voir également les articles suivants :
+Pour plus d’informations sur les activités de publication, consultez également les articles suivants :
 
-* [Activité de mise à jour de la planification Adobe Workfront : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) pour plus d’informations sur l’activité de mise à jour actuelle de la planification Workfront.
+* [Activité de publication d’Adobe Workfront Planning : index d’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) pour plus d’informations sur l’activité de publication actuelle de Workfront Planning.
 
-* [Activité de mise à jour de la planification Adobe Workfront pour 2024](/help/quicksilver/planning/general/release-activity.md) pour plus d’informations sur les fonctionnalités publiées en 2024, avant la mise à disposition générale le 28 août 2024.
+* [Activité de publication d’Adobe Workfront Planning pour 2024](/help/quicksilver/planning/general/release-activity.md) pour plus d’informations sur les fonctionnalités publiées au cours de l’année 2024, avant la disponibilité générale du 28 août 2024.
 
-## Calendrier des versions de Workfront Planning
+## Calendrier de publication de Workfront Planning
 
 <!-- this section is also duplicated in the 2024 release notes article-->
 
-Le tableau suivant présente la chronologie de la publication de Workfront Planning :
+Le tableau ci-dessous présente la chronologie de la publication de Workfront Planning :
 
-| Heure | Version |
+| Heure | Libération |
 |--------------------|-----------------------------------------|
-| Août - décembre 2023 | Version bêta de Workfront Planning* |
-| Janvier - Août 2024 | Workfront Planning - version anticipée |
-| jeudi 28 août 2024 | Disponibilité générale de la planification Workfront |
+| Août - Décembre 2023 | Version bêta de Workfront Planning* |
+| Janvier - Août 2024 | Version préliminaire de Workfront Planning* |
+| 28 août 2024 | Disponibilité générale de Workfront Planning |
 
-*Les phases bêta et de version anticipée étaient disponibles pour un groupe limité de clients.
+*Les phases Beta et de publication anticipée étaient disponibles pour un groupe limité de clients.
 
 ## Semaine du 25 décembre 2023
 
@@ -81,7 +81,7 @@ L’expérience de commentaire des enregistrements de fonctionnalités de planif
 
 Pour plus d’informations, consultez la section [Gérer les commentaires d’enregistrements](/help/quicksilver/planning/records/manage-record-comments.md).
 
-### Connecteur de planification Workfront pour Adobe Workfront Fusion
+### Connecteur Workfront Planning pour Adobe Workfront Fusion
 
 Production : 21 décembre 2023
 
@@ -89,7 +89,7 @@ Production : 21 décembre 2023
 >
 >Votre entreprise doit acheter Adobe Workfront Fusion pour créer des connexions avec les fonctionnalités d’Adobe Workfront Planning.
 >
->Pour plus d’informations, consultez la [Vue d’ensemble d’Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>Pour plus d’informations, consultez la [Vue d’ensemble d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Vous pouvez désormais utiliser Adobe Workfront Fusion pour vous connecter aux fonctionnalités de planification. La nouvelle connexion avec Fusion vous permet de :
 
@@ -105,7 +105,7 @@ Vous pouvez désormais utiliser Adobe Workfront Fusion pour vous connecter aux
 
 * Déclencher un scénario en cas de modification des capacités de planification
 
-Pour plus d’informations, voir [Modules de planification Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+Pour plus d&#39;informations, voir [Modules Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Semaine du 11 décembre 2023
 
@@ -246,7 +246,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 Prévisualisation et production : 31 octobre 2023
 
-Vous pouvez maintenant ouvrir les pages d’objet Workfront à partir des zones suivantes dans Workfront Planning :
+Vous pouvez désormais ouvrir les pages d’objets Workfront à partir des zones suivantes dans Workfront Planning :
 
 * La vue de tableau d’enregistrement d’objet Workfront liée en lecture seule
 

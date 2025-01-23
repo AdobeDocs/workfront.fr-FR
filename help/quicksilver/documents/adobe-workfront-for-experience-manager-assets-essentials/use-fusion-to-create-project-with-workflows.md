@@ -1,21 +1,21 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Utilisation de Workfront Fusion pour créer un projet Workfront contenant des workflows Adobe Experience Manager
-description: Si vous créez un projet via Workfront Fusion et que vous souhaitez inclure des processus Adobe Experience Manager sur le projet, vous devez utiliser une configuration de module Fusion spécifique, décrite dans cet article.
+title: Utilisez Workfront Fusion pour créer un projet Workfront avec des workflows Adobe Experience Manager
+description: Si vous créez un projet par le biais de Workfront Fusion et que vous souhaitez inclure des workflows Adobe Experience Manager dans le projet, vous devez utiliser une configuration de module Fusion spécifique, décrite dans cet article.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 21%
 
 ---
 
 # Utiliser Workfront Fusion pour convertir un problème Workfront en projet qui comprend des workflows Adobe Experience Manager
 
-Si vous créez un projet via Workfront Fusion et que vous souhaitez inclure des processus Adobe Experience Manager sur le projet, vous devez utiliser une configuration de module Fusion spécifique, décrite dans cet article.
+Si vous créez un projet par le biais de Workfront Fusion et que vous souhaitez inclure des workflows Adobe Experience Manager dans le projet, vous devez utiliser une configuration de module Fusion spécifique, décrite dans cet article.
 
 >[!NOTE]
 >
@@ -53,10 +53,10 @@ Vous devez disposer des éléments suivants :
      <p>Nouveau :</p>
      <ul>
        <li>
-         <p>Sélectionnez ou forfait Workfront Prime : votre entreprise doit acheter Adobe Workfront Fusion.</p>
+         <p>Sélectionnez ou Prime Workfront Plan : votre entreprise doit acheter Adobe Workfront Fusion.</p>
        </li>
        <li> 
-         <p>Formule Workfront ultime : Workfront Fusion est incluse.</p>
+         <p>Plan Ultimate Workfront : Workfront Fusion est inclus.</p>
        </li>
      </ul>
      <p>Ou</p>
@@ -81,28 +81,28 @@ Vous devez disposer des éléments suivants :
 Avant de commencer
 
 * Votre administrateur ou administratrice Workfront doit configurer des workflows dans une intégration d’Adobe Experience Manager. Pour plus d’informations, voir [Configurer l’intégration d’Experience Manager Assets as a Cloud Service](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
-* Un modèle de projet doit être configuré avec un workflow de dossier lié à l’intégration Adobe Experience Manager.
-* Vous devez avoir créé une application OAuth dans Workfront pour configurer la connexion pour ce module.
+* Vous devez disposer d’un modèle de projet configuré avec un workflow de dossier lié à l’intégration Adobe Experience Manager .
+* Vous devez avoir créé une application OAuth dans Workfront pour configurer la connexion à ce module.
 
-  Pour obtenir des instructions, reportez-vous à la section [Création d’une application OAuth](#create-an-oauth-application) de cet article.
+  Pour obtenir des instructions, voir [Création d’une application OAuth](#create-an-oauth-application) dans cet article.
 
-## Configuration des modules
+## Configuration du module
 
-Dans Workfront Fusion, si vous souhaitez créer un projet qui comprend des workflows Adobe Experience Manager, vous devez utiliser le module Workfront > Divers événements.
+Dans Workfront Fusion, si vous souhaitez créer un projet qui inclut des workflows Adobe Experience Manager, vous devez utiliser le module Workfront > Action diverse .
 
-1. Ajoutez le module **Workfront** > **Divers actes** à votre scénario.
-1. Dans le champ **Connexion** , sélectionnez la connexion Workfront qui se connecte au compte que ce module va utiliser.
+1. Ajoutez le module **Workfront** > **Misc Action** à votre scénario.
+1. Dans le champ **Connexion**, sélectionnez la connexion Workfront qui se connecte au compte que ce module utilisera.
 
-   Pour plus d’informations sur la création d’une connexion, voir [Se connecter [!DNL Workfront] à [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.
+   Pour obtenir des instructions sur la création d’une connexion, voir [Connexion [!DNL Workfront] à [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.
 
-   Pour plus d’informations sur la création de l’ID client et du secret client, vous devez créer une connexion, voir [Création d’une application OAuth](#create-an-oauth-application) dans cet article.
+   Pour obtenir des instructions sur la création de l’ID client et du secret client, vous devez créer une connexion, voir [Création d’une application OAuth](#create-an-oauth-application) dans cet article.
 
-1. Dans le champ **Type d&#39;enregistrement**, sélectionnez `Issue`.
+1. Dans le champ **Type d’enregistrement**, sélectionnez `Issue`.
 1. Dans le champ **Action**, sélectionnez `convertToProject`.
-1. Dans le champ **ID** , saisissez ou mappez l’ID du problème que vous convertissez en projet.
+1. Dans le champ **ID**, saisissez ou mappez l’ID de l’événement que vous convertissez en projet.
 1. Activez **Afficher les paramètres avancés**.
-1. Faites défiler l’écran jusqu’au bas du module et recherchez le champ **Projet (collection avancée)** .
-1. Collez le texte suivant dans le champ **Projet (collection avancée)**.
+1. Faites défiler jusqu’au bas du module et recherchez le champ **Projet (collecte avancée)**.
+1. Collez le texte suivant dans le champ **Projet (collecte avancée)**.
 
    ```
    {
@@ -120,16 +120,16 @@ Dans Workfront Fusion, si vous souhaitez créer un projet qui comprend des workf
    Pour utiliser plusieurs arborescences de dossiers, séparez les identifiants par une virgule :
 
    `"aemNativeFolderTreeIDs": ["Folder tree ID here","Second folder tree ID here"],`
-1. Remplacez `New project name here` par le nom que le nouveau projet aura.
-1. Remplacez `Template ID here` par l’identifiant du modèle que vous utilisez pour le nouveau projet.
+1. Remplacez `New project name here` par le nom du nouveau projet.
+1. Remplacez `Template ID here` par l’ID du modèle que vous utilisez pour le nouveau projet.
 
-   Vous pouvez mapper l’identifiant du modèle à partir d’un module précédent (tel qu’un module Workfront > Recherche) ou le localiser dans l’URL de la page du modèle dans Workfront.
+   Vous pouvez mapper l’ID du modèle à partir d’un module précédent (tel qu’un module Workfront > Recherche ) ou le localiser dans l’URL de la page du modèle dans Workfront.
 
 1. Cliquez sur **OK** pour enregistrer la configuration du module.
 
 ## Localisation des identifiants d’arborescence de dossiers
 
-Pour localiser les ID d’arborescence de dossiers :
+Pour localiser les identifiants de l’arborescence de dossiers :
 
 >[!NOTE]
 >
@@ -137,13 +137,13 @@ Pour localiser les ID d’arborescence de dossiers :
 
 1. Dans Workfront, ouvrez le modèle que vous souhaitez utiliser pour ce projet. Ce modèle doit inclure la configuration Adobe Experience Manager que vous souhaitez utiliser pour le projet.
 1. Ouvrez les outils de développement de votre navigateur.
-1. Ouvrez l’onglet **Réseau** dans les outils de développement.
-1. Dans la zone **Filter**, saisissez `object-workflow`.
-1. Dans la colonne Nom , cliquez sur l’ID alphanumérique qui s’affiche.
+1. Ouvrez l’onglet **Network** dans les outils de développement.
+1. Dans la zone **Filtre**, saisissez `object-workflow`.
+1. Dans la colonne Nom , cliquez sur l’identifiant alphanumérique qui s’affiche.
 
-   ![Localisation de l’ID de dossier 1](assets/finding-folder-id-1.png)
+   ![Recherche de l’ID de dossier 1](assets/finding-folder-id-1.png)
 
-1. Cliquez sur l’onglet **Aperçu** à droite de l’ID alphanumérique.
+1. Cliquez sur l’onglet **Aperçu** à droite de l’identifiant alphanumérique.
 1. Ouvrez les sections réduites suivantes :
    1. `data`
    1. `objectWorkflow`
@@ -151,21 +151,21 @@ Pour localiser les ID d’arborescence de dossiers :
    1. `enhancedLinkedFolderCreationWorkflow`
    1. `enhancedLinkedFolderCreationWorkflowConfigurations`
 
-   Chaque arborescence de dossiers est représentée par un nombre. 0 (zéro) représente le premier dossier de la liste, 1 le second, etc. Si le modèle n’inclut qu’une seule arborescence de dossiers, il est égal à 0.
+   Chaque arborescence de dossiers est représentée par un nombre. 0 (zéro) représente le premier dossier de la liste, 1 représente le second, etc. Si le modèle ne comprend qu’une seule arborescence de dossiers, il s’agit du numéro 0.
 
-1. Ouvrez l’arborescence de dossiers que vous souhaitez utiliser pour le nouveau projet. Notez la valeur du champ `_id`. Si vous souhaitez utiliser plusieurs arborescences de dossiers, prenez note de toutes les valeurs de champ `_id` pour les arborescences de dossiers que vous souhaitez utiliser.
+1. Ouvrez l’arborescence de dossiers à utiliser pour le nouveau projet. Notez la valeur du champ `_id`. Si vous souhaitez utiliser plusieurs arborescences de dossiers, notez toutes les valeurs de champ `_id` pour les arborescences de dossiers que vous souhaitez utiliser.
 
-   ![Localisation de l’ID de dossier 2](assets/finding-folder-id-2.png)
+   ![Recherche de l’ID de dossier 2](assets/finding-folder-id-2.png)
 
-   Il s’agit des valeurs `aemNativeFolderTreeIDs` que vous allez entrer dans le champ **Projet (collection avancée)** dans le module de fusion **Workfront** > **Divers actions**.
+   Il s’agit des valeurs `aemNativeFolderTreeIDs` que vous entrez dans le champ **Projet (collecte avancée)** du module Fusion **Workfront** > **Actions diverses**.
 
-## Création d’une application OAuth
+## Créer une application OAuth
 
-Vous devez configurer une application OAuth dans Workfront pour la connexion de ce module. Vous ne devez le faire qu’une seule fois pour une connexion Workfront donnée dans Fusion.
+Vous devez configurer une application OAuth dans Workfront pour la connexion de ce module. Vous n’avez à effectuer cette opération qu’une seule fois pour une connexion Workfront donnée dans Fusion.
 
-1. Dans Workfront, commencez à créer une application OAuth, comme décrit dans la section [Création d’une application OAuth2 à l’aide des informations d’identification de l’utilisateur (flux de code d’autorisation)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) de l’article Création d’applications OAuth2 pour les intégrations [!DNL Workfront].
-1. Copiez l’identifiant du client et le secret du client vers un emplacement sécurisé.
-1. Dans le champ **Redirect URIs** , saisissez ce qui suit :
+1. Dans Workfront, commencez à créer une application OAuth, comme décrit dans la section [Créer une application OAuth2 à l’aide des informations d’identification de l’utilisateur (flux de code d’autorisation)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) de l’article Création d’applications OAuth2 pour les intégrations [!DNL Workfront].
+1. Copiez l’ID client et le secret client à un emplacement sécurisé.
+1. Dans le champ **URI de redirection**, saisissez ce qui suit :
 
    ```
    http://app.workfrontfusion.com/oauth/cb/workfront-workfront
@@ -173,6 +173,6 @@ Vous devez configurer une application OAuth dans Workfront pour la connexion de 
 
 1. Cliquer sur **Enregistrer**.
 
-Vous utiliserez cet identifiant client et ce secret client lors de la configuration de la connexion du module dans Fusion.
+Vous utiliserez cet ID client et ce secret client lors de la configuration de la connexion du module dans Fusion.
 
-Pour plus d’informations sur la création d’une connexion, voir [Se connecter [!DNL Workfront] à [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.
+Pour obtenir des instructions sur la création d’une connexion, voir [Connexion [!DNL Workfront] à [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.

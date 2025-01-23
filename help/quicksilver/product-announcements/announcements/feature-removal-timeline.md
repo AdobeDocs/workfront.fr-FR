@@ -7,10 +7,10 @@ description: Plusieurs fonctionnalités du produit Adobe Workfront sont progres
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 99%
 
 ---
 
@@ -44,7 +44,7 @@ Plusieurs fonctionnalités du produit Adobe Workfront sont progressivement supp
    <td> <p>N’est plus pris en charge depuis le 9 novembre 2020 (avec la version 20.4).</p> <p>--</p> <p>Supprimé de la plateforme Workfront après le premier semestre 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Ancienne version de Workfront Fusion</p> <p>Workfront Fusion offre une expérience améliorée par rapport à l’ancienne version de Workfront Fusion.</p> <p>Pour plus d’informations sur Workfront Fusion, voir la section <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Ancienne version de Workfront Fusion</p> <p>Workfront Fusion offre une expérience améliorée par rapport à l’ancienne version de Workfront Fusion.</p> <p>Pour plus d’informations sur Workfront Fusion, voir la section <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Supprimé de la plateforme Workfront le 31 mars 2021</td> 
   </tr> 

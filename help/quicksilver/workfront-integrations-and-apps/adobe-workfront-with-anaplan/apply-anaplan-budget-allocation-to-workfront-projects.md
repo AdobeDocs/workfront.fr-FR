@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Appliquer une attribution budgétaire  [!DNL Anaplan]  à un projet  [!DNL Adobe Workfront]
+title: 'Appliquer une attribution budgétaire  [!DNL Anaplan]  à un projet  [!DNL Adobe Workfront] '
 description: Ce scénario d’intégration synchronise toutes les attributions budgétaires effectuées dans  [!DNL Anaplan]  avec  [!DNL Workfront]. Le scénario extrait tous les postes budgétaires de campagne liés, puis transmet la valeur budgétée au projet Workfront lié si la valeur du budget a été modifiée.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 9b8add8f-1978-4ab4-87ac-f1159e7d6cbb
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 100%
+source-wordcount: '679'
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice de [!DNL Workfront].
 
-&#42;&#42;Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir [[!DNL Adobe Workfront Fusion] licences](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Événement de déclenchement
 

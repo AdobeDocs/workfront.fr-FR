@@ -6,9 +6,9 @@ description: Le glossaire  [!DNL Adobe Workfront]  répertorie les termes couram
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '20930'
+source-wordcount: '20931'
 ht-degree: 95%
 
 ---
@@ -303,7 +303,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>Ce champ est obsolète. Toute information que ce champ peut afficher est liée à une fonctionnalité supprimée par [!DNL Workfront]. Ce champ ne peut pas être mis à jour. </p>
-   <p> Ce champ est toujours visible dans les listes et les rapports [!UICONTROL Projet].</p>  </td> 
+   <p> Ce champ est toujours visible dans les rapports et listes de [!UICONTROL project].</p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Cost]</td>
@@ -443,7 +443,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Budgeted Start Date]</td> 
   <td> <p>Ce champ est obsolète. Toute information que ce champ peut afficher est liée à une fonctionnalité supprimée par [!DNL Workfront]. Ce champ ne peut pas être mis à jour.</p>
   <p>Ces zones ont été supprimées de [!DNL Workfront]. </p> 
-  <p>Le champ est toujours visible dans les listes et les rapports [!UICONTROL Projet].</p>
+  <p>Le champ est toujours visible dans les rapports et listes de [!UICONTROL project].</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -471,8 +471,8 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar]</td> 
-   <td> <p>Dans Workfront, un rapport de calendrier est un rapport dynamique dans lequel les utilisateurs peuvent afficher la date et d’autres détails importants d’un événement, y compris la date d’échéance, l’état du travail et l’utilisateur auquel l’événement est affecté.</p> <p> Pour plus d’informations sur les rapports de calendrier, voir <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Vue d’ensemble des rapports de calendrier</a>.</p>
-   <p> Dans Workfront Planning, une vue Calendrier est un type de vue pour un type d’enregistrement qui affiche les enregistrements sur un calendrier. Vous devez disposer d’une licence supplémentaire pour accéder à Workfront Planning. </p>
+   <td> <p>Dans Workfront, un rapport de calendrier est un rapport dynamique dans lequel les utilisateurs peuvent afficher la date et d’autres détails importants d’un événement, y compris la date d’échéance, le statut du travail et l’utilisateur auquel l’événement est affecté.</p> <p> Pour plus d’informations sur les rapports de calendrier, voir <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Vue d’ensemble des rapports de calendrier</a>.</p>
+   <p> Dans Workfront Planning, une vue Calendrier est un type d'affichage pour un type d'enregistrement qui affiche des enregistrements dans un calendrier. Vous devez disposer d'une licence supplémentaire pour accéder à Workfront Planning. </p>
     </td> 
   </tr> 
    <tr> 
@@ -634,31 +634,31 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr>
 
 <tr> 
-   <td>[!UICONTROL Types d’enregistrement connectés]</td> 
+   <td>[!UICONTROL Types d’enregistrements connectés]</td> 
    <td> <p>Dans Workfront Planning, vous pouvez créer une connexion entre l’un des éléments suivants : </p>
    <ul>
    <li>Deux types d’enregistrements</li>
    <li>Un type d’enregistrement et un type d’objet Workfront</li>
-   <li>Type d’enregistrement et ressource Adobe Experience Manager</li></ul>
-   <p>La connexion des types d’enregistrement vous permet d’afficher des informations d’un type d’enregistrement ou d’objet sur un autre type d’enregistrement.</p>
-   <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md">Présentation des types d’enregistrements connectés</a>  </p>
-  <p>Workfront Planning nécessite une licence supplémentaire. </p>
+   <li>Un type d’enregistrement et une ressource Adobe Experience Manager</li></ul>
+   <p>La connexion de types d'enregistrement permet d'afficher les informations d'un enregistrement ou d'un type d'objet sur un autre.</p>
+   <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md"> Présentation des types d’enregistrements connectés </a>  </p>
+  <p>Workfront Planning requiert une licence supplémentaire. </p>
  </td> 
   </tr>
 
 <tr> 
    <td>[!UICONTROL Enregistrements connectés]</td> 
-   <td> <p>Dans Workfront Planning, une fois que vous avez connecté deux types d’enregistrements, vous pouvez connecter deux enregistrements individuels de ces types l’un à l’autre.  </p>
-   <p>La connexion d'enregistrements permet d'afficher sur un autre enregistrement les informations d'un enregistrement ou d'un objet d'une autre application.</p>
+   <td> <p>Dans Workfront Planning, après avoir connecté deux types d'enregistrements, vous pouvez connecter deux enregistrements individuels de ces types l'un à l'autre.  </p>
+   <p>La connexion d'enregistrements vous permet d'afficher les informations d'un enregistrement ou d'un objet d'une autre application sur un autre enregistrement.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/records/connected-records-overview.md">Présentation des enregistrements connectés</a>. </p>
 
-<p>Workfront Planning nécessite une licence supplémentaire. </p>
+<p>Workfront Planning requiert une licence supplémentaire. </p>
  </td> 
   </tr>
 
 <tr> 
-   <td>[!UICONTROL Connexions]</td> 
-   <td> <p>Dans Workfront Planning, les connexions peuvent faire référence aux types d’enregistrements connectés ou aux enregistrements connectés. Workfront Planning nécessite une licence supplémentaire.</p> </td> 
+   <td>[!UICONTROL Connections]</td> 
+   <td> <p>Dans Workfront Planning, les connexions peuvent faire référence à des types d'enregistrements connectés ou à des enregistrements connectés. Workfront Planning requiert une licence supplémentaire.</p> </td> 
   </tr>
 
 <tr> 
@@ -816,9 +816,9 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
 
 <tr> 
    <td>[!UICONTROL Due Date]</td> 
-   <td> <p>Date à laquelle une tâche ou un problème doit être terminé. La date d’échéance d’une tâche ou d’une émission est la même que la date d’achèvement planifiée.</p>
-    <p>La tâche et le problème Échéance sont visibles dans les listes et rapports de tâches et de problèmes.</p> 
-    <p>Voir aussi Date de fin planifiée dans ce tableau. 
+   <td> <p>Date d’échéance d’une tâche ou d’un événement. La date d'échéance d'une tâche ou d'un événement est identique à la date d'achèvement prévue.</p>
+    <p>La date d'échéance de la tâche et de l'événement est visible dans les listes et rapports de tâches et d'événements.</p> 
+    <p>Voir aussi Date d’achèvement prévue dans ce tableau. 
     </td> 
   </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
@@ -923,7 +923,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
 
 <p>Par défaut, Workfront est fourni avec un ensemble de champs qui définissent les objets et leurs informations. Vous pouvez également créer des champs personnalisés pour définir des objets, mais vous ne pouvez pas créer d’objets personnalisés.</p>
 
-<p>Dans Workfront Planning, vous pouvez créer des champs personnalisés pour tout type d’enregistrement. Les types d’enregistrements Workfront sont fournis avec un nombre très limité de champs. Vous devez créer tous les champs à partir de zéro et les associer aux types d’enregistrement. Pour plus d’informations, voir <a href="/help/quicksilver/planning/fields/fields-overview.md">Présentation des champs</a>. </p> <p>Workfront Planning nécessite une licence supplémentaire. </p>   
+<p>Dans Workfront Planning, vous pouvez créer des champs personnalisés pour tous les types d’enregistrements. Les types d’enregistrements Workfront sont fournis avec un nombre très limité de champs. Vous devez créer tous les champs à partir de zéro et les associer à des types d’enregistrements. Pour plus d’informations, voir <a href="/help/quicksilver/planning/fields/fields-overview.md">Présentation des champs</a>. </p> <p>Workfront Planning requiert une licence supplémentaire. </p>   
   </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
@@ -1283,11 +1283,11 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
    <td> <p>Une partie de la [!UICONTROL Interface Setup] qui permet de lier des filtres, des vues et des regroupements personnalisés à des utilisateurs et utilisatrices individuellement ou globalement à tous les utilisateurs et utilisatrices.</p> </td> 
   </tr> 
 <tr> 
-   <td>[!UICONTROL Champs de recherche]</td> 
-   <td> <p>Dans Workfront Planning, après avoir établi la connexion entre deux types d'enregistrements et lier des enregistrements individuels, vous pouvez référencer les champs des enregistrements liés sur l'enregistrement à partir duquel vous vous connectez.</p>
-   <p>Par exemple, si vous connectez un type d’enregistrement Campaign à un type d’objet Projet Workfront , vous pouvez afficher le champ Budget des projets connectés dans les enregistrements de campagne. Le champ Projet de budget est un champ de recherche des projets d’une campagne.</p> <p>Les valeurs des champs de recherche sont automatiquement renseignées sur les enregistrements à partir desquels ils sont connectés.</p>
+   <td>[!UICONTROL Lookup fields]</td> 
+   <td> <p>Dans Workfront Planning, après avoir établi la connexion entre deux types d'enregistrements et lié des enregistrements individuels entre eux, vous pouvez référencer les champs des enregistrements liés sur l'enregistrement à partir duquel vous vous connectez.</p>
+   <p>Par exemple, si vous connectez un type d’enregistrement Campaign à un type d’objet Projet Workfront, vous pouvez afficher le champ Budget des projets connectés sur les enregistrements Campaign. Le champ Projet budgétaire est un champ de recherche parmi les projets d'une campagne.</p> <p>Les valeurs des champs de recherche sont automatiquement renseignées sur les enregistrements auxquels ils sont connectés.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/records/connected-records-overview.md">Présentation des enregistrements connectés</a>.</p>
-   <p>Workfront Planning nécessite une licence supplémentaire.</p>
+   <p>Workfront Planning requiert une licence supplémentaire.</p>
     </td> 
   </tr> 
  </tbody> 
@@ -1572,7 +1572,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>Vous pouvez définir manuellement la [!UICONTROL Date d’achèvement planifiée] d’une tâche, d’un projet ou d’une émission à une date de votre choix. Si vous ne définissez pas la [!UICONTROL Planned Completion Date], [!DNL Workfront] la définit automatiquement. Lorsqu’elle est définie automatiquement, la [!UICONTROL Planned Completion Date] est : [!UICONTROL Planned Start Date] + [!UICONTROL Duration].</p> <p>Pour plus d’informations, consultez les articles suivants :</p> 
+   <td> <p>Vous pouvez définir manuellement la [!UICONTROL Planned Completion Date] d’une tâche, d’un projet ou d’un événement à une date de votre choix. Si vous ne définissez pas la [!UICONTROL Planned Completion Date], [!DNL Workfront] la définit automatiquement. Lorsqu’elle est définie automatiquement, la [!UICONTROL Planned Completion Date] est : [!UICONTROL Planned Start Date] + [!UICONTROL Duration].</p> <p>Pour plus d’informations, consultez les articles suivants :</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Vue d’ensemble de la [!UICONTROL Planned Completion Date] de la tâche</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Définir la [!UICONTROL Planned Completion Date] du projet</a> </p> </li> 
@@ -1586,14 +1586,14 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
 
 
 <tr> 
-   <td>[!UICONTROL Alignement des dates planifiées]</td> 
-   <td> <p>Il s’agit d’un indicateur automatique selon lequel Workfront attribue des projets, des tâches et des problèmes à afficher lorsqu’un élément sera terminé par rapport à sa date d’achèvement planifiée. </p>
-   <p>Voici les valeurs possibles pour l’indicateur d’alignement de la date planifiée : </p>
+   <td>[!UICONTROL Planned Date Alignment]</td> 
+   <td> <p>Il s’agit d’un indicateur automatique que Workfront affecte des projets, des tâches et des événements pour indiquer quand un élément sera terminé par rapport à sa date d’achèvement prévue. </p>
+   <p>Les valeurs suivantes sont des valeurs possibles pour l’indicateur Alignement de date prévu : </p>
 <ul>
 <li>Sera terminé à la date d'achèvement prévisionnelle</li>
 <li>Sera terminé avant la date d'achèvement prévisionnelle</li>
 <li>Sera terminé après la date d'achèvement prévisionnelle</li></ul>
-<p>L’alignement des dates prévues est visible dans les listes et rapports des projets, des tâches et des problèmes. </p></td> 
+<p>L’alignement des dates prévues est visible dans les listes et les rapports des projets, des tâches et des événements. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 
@@ -1651,7 +1651,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Profile]</td> 
-   <td>Collection définie par l’administrateur d’onglets et de sections qui s’affiche dans [!DNL Workfront].</td> 
+   <td>Collection d’onglets et de sections définie par l’administrateur qui s’affiche dans [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Section]</td> 
@@ -1843,19 +1843,19 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
 
 <tr> 
    <td>[!UICONTROL Record]</td> 
-   <td> <p>Dans Workfront Planning, un enregistrement est une instance unique d’un type d’enregistrement.</p>
+   <td> <p>Dans Workfront Planning, un enregistrement est une instance unique d'un type d'enregistrement.</p>
 <p>Une fois qu’un type d’enregistrement a été ajouté à un espace de travail, vous pouvez commencer à ajouter des enregistrements de ce type sur la page du type d’enregistrement.</p>
-<p>Par exemple, "Campagne" peut être un type d’enregistrement et "Campagne d’été pour la région EMEA" un enregistrement du type d’enregistrement Campaign.</p>
-<p>Pour plus d’informations sur la création d’enregistrements, voir <a href="/help/quicksilver/planning/records/create-records.md">Créer des enregistrements</a>. </p> <p>Workfront Planning nécessite une licence supplémentaire. </p></td> 
+<p>Par exemple, « Campagne » peut être un type d’enregistrement et « Campagne d’été pour la zone EMEA » est un enregistrement du type d’enregistrement Campagne .</p>
+<p>Pour plus d’informations sur la création d’enregistrements, voir <a href="/help/quicksilver/planning/records/create-records.md">Créer des enregistrements</a>. </p> <p>Workfront Planning requiert une licence supplémentaire. </p></td> 
   </tr>
 
 
 <tr> 
    <td>[!UICONTROL Record type]</td> 
-   <td> <p>Type d’objet de la planification Workfront.</p>
-<p>Contrairement à Workfront, où les types d’objets sont prédéfinis, dans Workfront Planning, vous pouvez créer vos propres types d’objets. Les types d’objets Workfront Planning sont appelés types d’enregistrements.</p>
+   <td> <p>Type d'objet de Workfront Planning.</p>
+<p>Contrairement à Workfront, où les types d'objet sont prédéfinis, dans Workfront Planning, vous pouvez créer vos propres types d'objet. Les types d'objet Workfront Planning sont appelés types d'enregistrement.</p>
 <p>Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.</p>
-<p>Dans Workfront Planning, vous pouvez créer tous les types d’enregistrements qui correspondent aux workflows de votre organisation. Vous pouvez ensuite définir la manière dont les types d’enregistrements sont associés les uns aux autres ou aux dépendances des formulaires.</p> Pour plus d’informations sur la création de types d’enregistrement, voir <a href="/help/quicksilver/planning/architecture/create-record-types.md">Création de types d’enregistrement</a>. </p> <p>Workfront Planning nécessite une licence supplémentaire. </p></td> 
+<p>Dans Workfront Planning, vous pouvez créer tous les types d’enregistrements qui correspondent aux workflows de votre organisation. Vous pouvez ensuite définir la manière dont les types d’enregistrements sont associés les uns aux autres ou aux dépendances des formulaires.</p> Pour plus d’informations sur la création de types d’enregistrements, voir <a href="/help/quicksilver/planning/architecture/create-record-types.md">Créer des types d’enregistrements</a>. </p> <p>Workfront Planning requiert une licence supplémentaire. </p></td> 
   </tr>
 
 <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -1875,10 +1875,10 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   <td>Types de relation</td>
   <td><p>Les objets Workfront sont toujours connectés les uns aux autres à l’aide de l’un des types de relations suivants :</p>
 
-<ul><li> <b>Un à plusieurs</b> : dans cette relation, un objet peut être connecté à plusieurs autres objets de différents types. Par exemple, un projet peut comporter plusieurs tâches. La relation Projet-Tâches est une relation unique à plusieurs. Vous ne pouvez pas afficher cette relation dans un rapport à l’aide de l’interface Standard. Vous devez utiliser la création de rapports en mode texte pour afficher une ou plusieurs relations.</li>
-  <li><b>Un à un</b> : dans cette relation, un objet ne peut être connecté qu’à un autre objet d’un type différent. Par exemple, un projet ne peut comporter qu’un seul groupe. La relation Projet-Groupe est une relation de type "un à un". Vous pouvez afficher une relation unique entre les objets d’un rapport standard.</li>
-  <li><b>Plusieurs à un</b> : dans cette relation, plusieurs objets peuvent être connectés à un seul autre objet d’un type différent. Par exemple, plusieurs tâches peuvent être connectées au même projet. La relation Tâches-Projet est une relation multiple-à-un. Vous pouvez afficher plusieurs relations d’un objet à l’autre dans un rapport standard. </li>
-  <li><b>Plusieurs à plusieurs</b> : dans cette relation, plusieurs objets du même type peuvent être connectés à plusieurs objets d’un type différent. Par exemple, plusieurs utilisateurs peuvent appartenir à plusieurs autres équipes et les équipes peuvent appartenir à plusieurs utilisateurs. Vous ne pouvez pas afficher cette relation dans un rapport à l’aide de l’interface Standard. Vous devez utiliser la création de rapports en mode texte pour afficher de nombreuses relations. </li> </ul>
+<ul><li> <b>Un à plusieurs</b> : dans cette relation, un objet peut être connecté à plusieurs autres objets de types différents. Par exemple, un projet peut comporter plusieurs tâches. La relation Projet-Tâches est une relation un-à-plusieurs. Vous ne pouvez pas afficher cette relation dans un rapport à l'aide de l'interface Standard. Vous devez utiliser le mode texte pour afficher les relations un à plusieurs.</li>
+  <li><b>Un à un</b> : dans cette relation, un objet ne peut être connecté qu’à un autre objet d’un type différent. Par exemple, un projet ne peut avoir qu’un seul groupe. La relation Projet-Groupe est une relation un-à-un. Vous pouvez afficher des relations un-à-un entre des objets dans un rapport standard.</li>
+  <li><b>Plusieurs à un</b> : dans cette relation, plusieurs objets ne peuvent être connectés qu’à un seul autre objet d’un type différent. Par exemple, plusieurs tâches peuvent être connectées au même projet. La relation Tâches-Projet est une relation multiple-à-un. Vous pouvez afficher des relations multiples-à-un entre des objets dans un rapport standard. </li>
+  <li><b>Plusieurs à plusieurs</b> : dans cette relation, plusieurs objets du même type peuvent être connectés à plusieurs objets d’un type différent. Par exemple, plusieurs utilisateurs peuvent appartenir à plusieurs autres équipes, et les équipes peuvent appartenir à plusieurs utilisateurs. Vous ne pouvez pas afficher cette relation dans un rapport à l'aide de l'interface Standard. Vous devez utiliser le mode texte pour afficher les relations multiples à multiples. </li> </ul>
   </td></tr>
 <tr> 
    <td>[!UICONTROL Remaining Risk Cost]</td> 
@@ -2044,7 +2044,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (dans [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="../../../workfront-fusion/scenarios/scenario-overview.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
+   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (dans le [!DNL Workfront Scenario Planner]) </td> 
@@ -2399,12 +2399,12 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
    <td>[!UICONTROL View]</td> 
    <td> <p>Les vues se rapportent à un élément de création de rapports qui permet de modifier les colonnes d’un rapport ou d’une liste d’objets.</p> 
    <p> La vue fait également référence au droit d’un utilisateur ou d’une utilisatrice à afficher uniquement les informations sur un objet, en fonction de son niveau d’accès ou à un niveau de partage d’autorisations sur cet objet.</p> 
-   <p>Dans Workfront Planning, les enregistrements s'affichent sur la page de type enregistrement dans l'un des types de vue suivants :</p>
+   <p>Dans Workfront Planning, les enregistrements s'affichent sur la page Type d'enregistrement dans l'un des types de vue suivants :</p>
    <ul><li>Tableau</li>
    <li>Journal</li>
    <li>Calendrier</li></ul>
-   <p>Dans la planification Workfront, les vues incluent les filtres, les regroupements, le tri et d’autres paramètres appliqués aux enregistrements à l’écran.</p> <p>Pour plus d’informations, consultez la section <a href="/help/quicksilver/planning/views/manage-record-views.md">Gérer les vues d’enregistrement</a>.</p>   
-   <p>Workfront Planning nécessite une licence supplémentaire.</p>
+   <p>Dans Workfront Planning, les vues incluent les filtres, les regroupements, le tri et d'autres paramètres appliqués aux enregistrements de l'écran.</p> <p>Pour plus d’informations, consultez la section <a href="/help/quicksilver/planning/views/manage-record-views.md">Gérer les vues d’enregistrement</a>.</p>   
+   <p>Workfront Planning requiert une licence supplémentaire.</p>
    </td> 
   </tr> 
   <tr> 
@@ -2549,8 +2549,8 @@ Vous devez utiliser la ligne de code <code>[!UICONTROL usewidths=true]</code> po
 
 <tr> 
    <td>[!UICONTROL Workspace] </td> 
-   <td> <p>Dans la planification Workfront, un espace de travail est un ensemble de types d’enregistrements qui définissent le cycle de vie opérationnel d’une certaine organisation. Un espace de travail est le cadre de travail d’une unité organisationnelle.</p>
-   <p>Workfront Planning nécessite une licence supplémentaire. </p>
+   <td> <p>Dans Workfront Planning, un espace de travail est un ensemble de types d’enregistrements qui définissent le cycle de vie opérationnel d’une certaine organisation. Un espace de travail est le cadre de travail d’une unité organisationnelle.</p>
+   <p>Workfront Planning requiert une licence supplémentaire. </p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/architecture/create-workspaces.md">Créer des espaces de travail</a>. </p> </td> 
   </tr> 
  </tbody> 

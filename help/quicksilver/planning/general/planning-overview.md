@@ -1,14 +1,14 @@
 ---
-title: Présentation de la planification Adobe Workfront
-description: La planification Adobe Workfront est une fonctionnalité supplémentaire d’Adobe Workfront. Vous pouvez créer des espaces de travail entièrement personnalisables afin de définir des workflows qui répondent aux besoins de chaque entité organisationnelle de votre entreprise.
+title: Présentation de la planification dans Adobe Workfront
+description: Adobe Workfront Planning est une fonctionnalité supplémentaire proposée par Adobe Workfront. Vous pouvez créer des espaces de travail entièrement personnalisables afin de définir des workflows qui répondent aux besoins de chaque entité organisationnelle de votre entreprise.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '1805'
+source-wordcount: '1806'
 ht-degree: 50%
 
 ---
@@ -27,24 +27,24 @@ ht-degree: 50%
 
 >[!IMPORTANT]
 >
->Les informations de cet article font référence à la planification Adobe Workfront, une fonctionnalité supplémentaire d’Adobe Workfront.
+>Les informations de cet article font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
 >
 >Pour accéder à Workfront Planning, vous devez disposer des éléments suivants :
 >
->* Un nouveau package Workfront et une nouvelle licence. Workfront Planning n’est pas disponible pour les packages ou licences Workfront hérités.
->* Un module de planification Workfront.
->* L’instance Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe.
+>* Un nouveau package et une nouvelle licence Workfront. Workfront Planning n’est pas disponible pour les packages ou licences Workfront hérités.
+>* Un package Workfront Planning.
+>* L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée d’Adobe.
 >
-> Pour obtenir la liste complète des exigences d’accès à Workfront Planning, consultez la [présentation de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+> Pour obtenir la liste complète des conditions requises pour accéder à Workfront Planning, consultez la présentation de l&#39;accès à Adobe Planning [](/help/quicksilver/planning/access/access-overview.md).
 > 
 
-Cet article contient des informations générales sur la planification Workfront.
+Cet article contient des informations générales sur Workfront Planning.
 
-Pour obtenir la liste complète des articles qui contiennent de la documentation pour la planification Workfront, voir [Adobe Workfront Planning : article index](/help/quicksilver/planning/planning-information.md).
+Pour obtenir la liste complète des articles contenant de la documentation pour Workfront Planning, consultez [Adobe Workfront Planning : index des articles](/help/quicksilver/planning/planning-information.md).
 
 ## Présentation d’Adobe Workfront Planning
 
-La planification Adobe Workfront est une fonctionnalité supplémentaire d’Adobe Workfront. Workfront Planning a pour objectif d’offrir une visibilité complète sur les détails opérationnels d’une entreprise et de répondre aux questions métier critiques à chaque étape du cycle de vie de la gestion du travail.
+Adobe Workfront Planning est une fonctionnalité supplémentaire proposée par Adobe Workfront. Workfront Planning a pour objectif d’offrir une visibilité complète sur les détails opérationnels d’une entreprise et de répondre aux questions métier critiques à chaque étape du cycle de vie de la gestion du travail.
 
 Workfront Planning peut répondre à des questions telles que :
 
@@ -164,21 +164,21 @@ The following features are currently available in Workfront Planning:
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
 -->
 
-## Activation de la planification Workfront pour les utilisateurs de votre instance Workfront
+## Activez Workfront Planning pour les utilisateurs de votre instance Workfront.
 
 Une fois que votre entreprise a acheté un package Workfront Planning, en tant qu’administrateur Workfront, vous devez vous assurer que les éléments suivants sont en place avant que les utilisateurs puissent accéder à Workfront Planning :
 
-* Affectez aux utilisateurs qui doivent accéder à l’option Planification d’un modèle de mise en page qui inclut la planification dans le menu principal. Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) et [Affecter des utilisateurs à un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+* Attribuez aux utilisateurs qui doivent accéder à Planning un modèle de mise en page qui inclut Planning dans le menu principal. Pour plus d&#39;informations, voir [Personnaliser le menu principal à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) et [Affecter des utilisateurs à un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Attribuez aux utilisateurs une licence Workfront et des autorisations Workfront Planning qui leur permettraient d’afficher ou de créer des objets dans Workfront Planning. Pour plus d’informations sur l’octroi de l’accès à et la possibilité pour d’autres utilisateurs d’utiliser Workfront Planning, consultez la [présentation de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+* Attribuez aux utilisateurs une licence Workfront et des autorisations Workfront Planning qui leur permettront d&#39;afficher ou de créer des objets dans Workfront Planning. Pour plus d&#39;informations sur l&#39;octroi de l&#39;accès à Workfront Planning et l&#39;autorisation d&#39;utilisation d&#39;autres utilisateurs, consultez [Présentation de l&#39;accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
-## Terminologie de la planification Workfront
+## Terminologie de Workfront Planning
 
-Bien que Workfront Planning fasse partie de Workfront, il s’accompagne de concepts et de terminologie propres. Assurez-vous de connaître ces concepts avant de commencer à configurer Workfront Planning pour votre entreprise.
+Bien que Workfront Planning fasse partie de Workfront, il s’accompagne de concepts et de terminologie propres. Assurez-vous d’être familiarisé avec ces concepts avant de vous lancer dans la configuration de la planification Workfront pour votre organisation.
 
 Le cadre de Workfront Planning est entièrement personnalisable. Vous pouvez créer tous les types d’enregistrements, leurs attributs et tous les champs qui leur sont associés en fonction des besoins exacts de votre organisation.
 
-Le nombre d’objets de planification Workfront que vous pouvez créer est limité. Pour plus d’informations, reportez-vous à la section [Présentation des limitations d’objets de la planification Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md).
+Le nombre d’objets Workfront Planning que vous pouvez créer est limité. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [](/help/quicksilver/planning/general/limitations-overview.md).
 
 Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning :
 
@@ -188,9 +188,9 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   Pour plus d’informations, voir la section [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-* **Type d’enregistrement** : nom des types d’objets dans Workfront Planning.
+* **Type d’enregistrement** : nom des types d’objet dans Workfront Planning.
 
-  Les types d’enregistrement renseignent les espaces de travail.
+  Les types d’enregistrements renseignent les espaces de travail.
 
   Contrairement à Workfront, où les types d’objets sont prédéfinis, dans Workfront Planning, vous pouvez créer vos propres types d’objets.
 
@@ -206,7 +206,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   Après avoir ajouté un type d’enregistrement à un espace de travail, vous pouvez commencer à ajouter des enregistrements de ce type sur la page du type d’enregistrement.
 
-  Par exemple, &quot;Campagne&quot; peut être un type d’enregistrement et &quot;Campagne d’été pour la région EMEA&quot; un enregistrement du type d’enregistrement Campaign.
+  Par exemple, « Campagne » peut être un type d’enregistrement et « Campagne d’été pour la zone EMEA » est un enregistrement du type d’enregistrement Campagne .
 
   Pour plus d’informations, voir la section [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
@@ -216,9 +216,9 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   Adobe Workfront Planning contient les modèles suivants :
 
-   * De base : gestion marketing
-   * Avancé : Gestion marketing
-   * Entreprise : gestion marketing
+   * De base : Marketing Management
+   * Avancé : Marketing Management
+   * Entreprise : Marketing Management
    * Gestion des ventes
    * Gestion des produits
 
@@ -266,9 +266,9 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
    * Dernière modification par
    * Date de dernière modification
 
-* **Types d’enregistrements connectés**, **Enregistrements connectés** et **Champs connectés** : vous pouvez créer une connexion entre les entités suivantes dans la planification Workfront :
+* **Types d’enregistrements connectés**, **Enregistrements connectés** et **Champs connectés** : dans Workfront Planning, vous pouvez établir une connexion entre les entités suivantes :
 
-   * Deux types d’enregistrement de la planification Workfront.
+   * Deux types d’enregistrements Workfront Planning.
    * Un type d’enregistrement et un type d’objet de projet, de programme, de portfolio, d’entreprise ou de groupe Workfront.
    * Un type d’enregistrement et une ressource ou un dossier Adobe Experience Manager.
 
@@ -281,18 +281,18 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
 * **Champs liés** (ou champs de recherche) : après avoir établi la connexion entre deux types d’enregistrement et lier des enregistrements individuels les uns aux autres, vous pouvez référencer les champs des enregistrements liés sur l’enregistrement à partir duquel vous vous connectez.
 
-  Par exemple, si vous connectez un type d’enregistrement Campaign à un type d’objet Projet Workfront , vous pouvez afficher le champ Budget des projets connectés dans les enregistrements de campagne.
+  Par exemple, si vous connectez un type d’enregistrement Campaign à un type d’objet Projet Workfront, vous pouvez afficher le champ Budget des projets connectés sur les enregistrements Campaign.
 
   ![](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
-  > Vous ne pouvez pas ajouter les types de champ suivants en tant que champs de recherche à partir de l’enregistrement ou des types d’objet connectés :
+  > Vous ne pouvez pas ajouter les types de champ suivants en tant que champs de recherche à partir des types d’objet ou d’enregistrement connectés :
   >
   >* Personnes
   >* Créé par
   >* Dernière modification par
-  >* Champs de saisie anticipée Workfront (y compris les champs tels que Propriétaire du projet ou Parrain du projet)
+  >* Champs de saisie semi-automatique Workfront (y compris les champs tels que le propriétaire ou le sponsor du projet)
 
   Pour plus d’informations sur la création de liens entre les types d’enregistrements et les enregistrements, ainsi que sur la création de champs liés, consultez les articles suivants :
 
@@ -305,15 +305,15 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
-  Les vues contiennent des paramètres personnalisés d&#39;un type de vue spécifique, tels que la liste des champs (colonnes), une liste d&#39;enregistrements (lignes), leur ordre (tri), un filtre appliqué ou applicable et un regroupement.
+  Les vues contiennent des paramètres personnalisés d’un type d’affichage spécifique, tels que la liste des champs (colonnes), une liste d’enregistrements (lignes), leur ordre (tri), un filtre appliqué ou applicable et un regroupement.
 
   Les types de vue suivants peuvent être appliqués à la page des types d’enregistrement :
 
-   * **Vue Tableau** : affiche les enregistrements et leurs champs, y compris les champs connectés et de recherche, dans un format de tableau. Les lignes du tableau sont les enregistrements individuels et les colonnes sont les champs de l’enregistrement. La vue de tableau est la vue par défaut.
+   * **Vue Tableau** : affiche les enregistrements et leurs champs, y compris les champs connectés et de recherche, sous la forme d’un tableau. Les lignes du tableau sont les enregistrements individuels et les colonnes sont les champs de l’enregistrement. La vue Tableau est la vue par défaut.
 
      ![](assets/table-view-example.png)
 
-   * **Mode Chronologie** : affiche les enregistrements comportant au moins deux champs de type Date dans une chronologie chronologique. Vous pouvez afficher jusqu’à 5 types d’enregistrements connectés et leurs enregistrements dans la vue de chronologie.
+   * **Vue Chronologie** : affiche les enregistrements qui comportent au moins deux champs de type Date dans une chronologie. Vous pouvez afficher jusqu’à 5 types d’enregistrements connectés et leurs enregistrements dans la vue chronologique.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -325,7 +325,7 @@ Pour plus d’informations, voir [Gérer les vues d’enregistrement](/help/quic
 
 ## Localiser Adobe Workfront Planning
 
-Pour localiser Adobe Planning, assurez-vous que votre entreprise a accès à Workfront Planning et que l’administrateur du système ou du groupe a ajouté la zone Planning à votre menu principal. Pour plus d’informations, voir [Aperçu de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+Pour localiser Adobe Planning, vérifiez que votre organisation a eu accès à Workfront Planning et que l&#39;administrateur système ou de groupe a ajouté la zone Planning à votre menu principal. Pour plus d&#39;informations, voir Présentation de l&#39;accès à la planification d&#39;Adobe [](/help/quicksilver/planning/access/access-overview.md).
 
 Pour localiser Workfront Planning :
 
@@ -335,27 +335,27 @@ Pour localiser Workfront Planning :
 
 1. Cliquez sur **Planning** ![](assets/planning-icon.png).
 
-   La page principale Planification Workfront s’affiche.
+   La page principale Planification de Workfront s’ouvre.
 
    ![](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >
-   >    Votre administrateur Workfront peut ajouter la zone Planning à l&#39;option Sélectionner une page d&#39;entrée de votre modèle de mise en page afin que vous puissiez ouvrir la Planification dès que vous vous connectez à Workfront. Pour plus d’informations, voir [Personnaliser la landing page à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+   >    Votre administrateur Workfront peut ajouter la zone Planification à l’option Sélectionner une page de destination de votre modèle de mise en page. Vous pouvez ainsi ouvrir Planning dès que vous vous connectez à Workfront. Pour plus d’informations, voir [Personnaliser la page de destination à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
-1. (Conditionnel et facultatif) Si vous êtes administrateur Workfront, cliquez sur l’un des onglets suivants :
+1. (Conditionnel et facultatif) Si vous êtes un administrateur Workfront, cliquez sur l’un des onglets suivants :
    * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.
    * **Autres espaces de travail** : affiche tous les autres espaces de travail du système.
 
-   Pour tous les autres utilisateurs, les deux espaces de travail qu’ils ont créés ou qu’ils ont partagés avec eux s’affichent dans la zone **Espaces de travail**.
+   Pour tous les autres utilisateurs, les espaces de travail qu’ils ont créés ou qui sont partagés avec eux s’affichent dans la zone **Espaces de travail**.
 
 1. (Facultatif et recommandé) Passez à certaines des actions suivantes pour créer votre structure de travail :
 
-   1. Créez un espace de travail entièrement ou à l’aide d’un modèle. Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+   1. Créez entièrement un espace de travail ou à l’aide d’un modèle. Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
    1. Ajoutez des sections au nouvel espace de travail. Pour plus d’informations, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
    1. Renommez les sections existantes dans le nouvel espace de travail.
-   1. Ajoutez des types d’enregistrement au nouvel espace de travail. Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+   1. Ajoutez des types d’enregistrements au nouvel espace de travail. Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
    1. Cliquez sur le nom d’un type d’enregistrement pour ouvrir la page du type d’enregistrement. Par défaut, la page du type enregistrement s’ouvre dans la vue Tableau.
 
@@ -372,26 +372,26 @@ Pour localiser Workfront Planning :
       * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
       * [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
-## Activité de mise à jour du calendrier Workfront
+## Activité de publication de Workfront Planning
 
 <!--update this with the new release activity page - the article index for all Planning releases-->
 
 Nous publions régulièrement de nouvelles fonctionnalités dans Workfront Planning.
 
-Pour obtenir une liste à jour des fonctionnalités publiées, voir [Activité de publication de la planification Adobe Workfront : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Pour obtenir une liste à jour des fonctionnalités publiées, voir [Activité de version d’Adobe Workfront Planning : index d’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Ressources supplémentaires pour la planification Workfront
+## Ressources supplémentaires pour Workfront Planning
 
-* [Adobe Workfront Planning : index de l’article](/help/quicksilver/planning/planning-information.md) : index de tous les articles qui contiennent de la documentation sur Workfront Planning, regroupés par domaine d’intérêt.
-* [Présentation de l’assistant de planification Adobe Workfront AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l’assistant de planification Workfront AI, vous pouvez rechercher des enregistrements, ou créer, mettre à jour et supprimer des enregistrements à l’aide de commandes et laisser l’assistant effectuer le travail à votre place.
+* [Adobe Workfront Planning : index des articles ](/help/quicksilver/planning/planning-information.md) : index de tous les articles contenant de la documentation sur Workfront Planning, regroupés par zone d&#39;intérêt.
+* [Aperçu de l&#39;assistant IA Planning d&#39;Adobe Workfront ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l&#39;assistant AI Workfront pour Planning, vous pouvez rechercher des enregistrements ou créer, mettre à jour et supprimer des enregistrements à l&#39;aide de commandes et laisser l&#39;assistant faire le travail à votre place.
   <!--
     >[!NOTE]
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Modules de planification Adobe Workfront pour Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md) : avec les modules de planification Adobe Workfront, vous pouvez déclencher un scénario lorsque des événements se produisent dans la planification Workfront. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements, ou effectuer un appel API personnalisé vers votre compte de planification Adobe Workfront.
+* [Modules Adobe Workfront Planning pour Workfront Fusion ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements ou effectuer un appel API personnalisé vers votre compte Adobe Workfront Planning.
 
-* [Principes de base de l’API de planification Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md) : l’objectif de l’API de planification Adobe Workfront est de simplifier la création d’intégrations avec la planification en introduisant une architecture REST-ful qui fonctionne sur HTTP.
+* [Principes de base de l’API Adobe Workfront Planning ](/help/quicksilver/planning/general/planning-api-basics.md) : l’objectif de l’API Adobe Workfront Planning est de simplifier la création d’intégrations avec Planning en introduisant une architecture REST-ful qui fonctionne via HTTP.
 
-* **Fonctionnalités de reporting de la planification Workfront** : vous pouvez désormais afficher les informations de planification Workfront dans un rapport dans Workfront à l’aide du tableau de bord du canevas de Workfront. Pour plus d’informations, voir [Prise en main des tableaux de bord de canevas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+* **Fonctionnalités de création de rapports de Workfront Planning** : vous pouvez désormais afficher les informations de Workfront Planning dans un rapport de Workfront à l’aide du tableau de bord de la zone de travail de Workfront. Pour plus d’informations, voir [Prise en main des tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

@@ -6,16 +6,16 @@ description: Vous pouvez modifier la langue dans laquelle vous affichez Adobe W
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 72%
 
 ---
 
 # Langues prises en charge dans Adobe Workfront
 
-Vous pouvez modifier la langue dans laquelle vous affichez Adobe Workfront et les e-mails provenant de Workfront, en ajustant les préférences linguistiques de votre navigateur (si ce n’est sur IMS) ou vos préférences linguistiques de profil Adobe Experience Cloud (si vous utilisez IMS) et votre paramètre régional de messagerie par défaut dans Workfront.
+Vous pouvez modifier la langue d’affichage d’Adobe Workfront et des e-mails provenant de Workfront en ajustant les préférences linguistiques de votre navigateur (s’il ne fonctionne pas sur IMS) ou les préférences linguistiques de votre profil Adobe Experience Cloud (s’il fonctionne sur IMS) et vos paramètres régionaux d’e-mail par défaut dans Workfront.
 
 La terminologie Workfront est mise à jour pour les langues prises en charge à chaque mise à jour de Workfront.
 
@@ -32,7 +32,7 @@ Workfront prend en charge les langues suivantes :
 * Chinois - simplifié (zh-CN)
 * Chinois - traditionnel (zh-TW)
 
-La langue utilisée pour afficher Workfront dans votre navigateur est contrôlée par les paramètres de langue de votre navigateur si votre entreprise n’est pas sur IMS, ou par la langue de votre profil Adobe Experience Cloud si votre organisation n’est pas sur IMS. Dans les deux cas, veillez à sélectionner une langue répertoriée dans la liste des langues prises en charge.
+La langue utilisée pour afficher Workfront dans votre navigateur est contrôlée par les paramètres de langue de votre navigateur si votre organisation n’est pas sur IMS, ou par la langue de profil de Adobe Experience Cloud si votre organisation n’est pas sur IMS. Dans les deux cas, veillez à sélectionner une langue répertoriée dans la liste des langues prises en charge.
 
 Pour afficher les e-mails sortants dans l’une des langues prises en charge, modifiez vos paramètres régionaux d’e-mails utilisateur ou vos paramètres d’informations client dans Workfront.\
 Pour modifier les paramètres d’informations client, vous devez être un administrateur ou une administratrice Workfront.\
@@ -91,40 +91,40 @@ Actuellement, Workfront Fusion ne prend en charge que l’anglais.
 * Workfront Fusion ne prend pas en charge l’utilisation de caractères de texte autres que l’anglais dans les champs saisis par l’utilisateur ou l’utilisatrice.
 
 Votre entreprise doit acheter une licence Workfront Fusion pour pouvoir y accéder.\
-Pour plus d’informations sur Workfront Fusion, voir [Vue d’ensemble d’Adobe Workfront Fusion](../workfront-fusion/get-started/workfront-fusion-overview.md).
+Pour plus d’informations sur Workfront Fusion, voir [Vue d’ensemble d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Modifier la langue
 
 Vous pouvez modifier la langue dans laquelle vous affichez Workfront et la langue des e-mails sortants en modifiant les paramètres suivants :
 
-* La langue de votre navigateur (pour les utilisateurs ne disposant pas d’IMS)
-* La langue principale et secondaire de votre profil AEM (pour les utilisateurs sur IMS)
+* La langue de votre navigateur (pour les utilisateurs qui ne sont pas sur IMS)
+* Langue principale et secondaire de votre profil AEM (pour les utilisateurs sur IMS)
 * Informations client et paramètres régionaux des e-mails utilisateur de votre compte Workfront.
 
 Pour afficher toutes les traductions disponibles dans la langue de votre choix, le paramètre local Workfront et le paramètre local du navigateur doivent être définis sur la même langue.
 
 * [Modifier la langue du navigateur](#change-the-browser-language)
-* [Modification de la langue Adobe Experience Cloud](#change-the-adobe-experience-cloud-language)
+* [Modification de la langue du Adobe Experience Cloud](#change-the-adobe-experience-cloud-language)
 * [Modifier les paramètres régionaux de Workfront et des e-mails utilisateur](#change-the-workfront-and-user-locales)
 
 ### Modifier la langue du navigateur {#change-the-browser-language}
 
-Si votre entreprise n’utilise pas IMS, lorsque vous modifiez la langue du navigateur, votre interface Workfront s’affiche dans cette langue.\
+Si votre organisation n’est pas sous IMS, lorsque vous modifiez la langue du navigateur, votre interface de Workfront s’affiche dans cette langue.\
 Pour plus d’informations sur les langues prises en charge par Workfront, voir [Langues prises en charge dans Adobe Workfront](#supported-languages).
 
 La langue du navigateur doit être modifiée pour chaque personne.
 
 Consultez le menu « Aide » de votre navigateur pour obtenir des informations spécifiques sur la modification de la langue de votre navigateur.
 
-### Modification de la langue Adobe Experience Cloud
+### Modification de la langue du Adobe Experience Cloud
 
-Si votre organisation se trouve sur IMS, la langue de votre profil Adobe Experience Cloud détermine la langue qui s’affiche dans Workfront.
+Si votre organisation utilise IMS, la langue du profil Adobe Experience Cloud détermine la langue affichée dans Workfront.
 
-1. Cliquez sur l’image de votre profil à l’extrémité droite de la barre d’outils de Adobe Experience Cloud, puis cliquez sur **Préférences**. La barre d’outils Adobe Experience Cloud se trouve directement au-dessus de la barre d’outils Workfront principale.
+1. Cliquez sur l’image de votre profil à l’extrémité droite de la barre d’outils Adobe Experience Cloud, puis sur **Préférences**. La barre d’outils Adobe Experience Cloud se trouve directement au-dessus de la barre d’outils Workfront principale.
 
-1. Sous **Profil** sous votre nom et votre adresse électronique, cliquez sur le nom de la langue actuellement sélectionnée.
+1. Sous **Profil** sous votre nom et votre adresse e-mail, cliquez sur le nom de la langue actuellement sélectionnée.
 
-1. Sélectionnez vos langues préférées dans les listes déroulantes **Première langue** et **Deuxième langue**. La première langue est votre choix de langue par défaut, tandis que la seconde langue s’affiche uniquement si la première langue n’est pas prise en charge par une application spécifique.
+1. Sélectionnez vos langues préférées dans les listes déroulantes **Première langue** et **Seconde langue**. La première langue est votre choix de langue par défaut, tandis que la seconde langue s&#39;affiche uniquement si la première langue n&#39;est pas prise en charge par une application spécifique.
 
 ### Modifier les paramètres régionaux de Workfront et des e-mails utilisateur {#change-the-workfront-and-user-locales}
 
@@ -152,7 +152,7 @@ Lorsque vous modifiez les paramètres régionaux des e-mails utilisateur, vous m
 
 >[!NOTE]
 >
->Lorsque votre entreprise se trouve dans l’expérience unifiée Adobe, les préférences linguistiques sont stockées dans votre profil d’Adobe et les paramètres régionaux de l’email ne sont pas utilisés. Voir [Modification de la langue Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) dans cet article.
+>Lorsque votre organisation se trouve sur l’Adobe Expérience unifiée , les préférences linguistiques sont stockées dans votre profil d’Adobe et les paramètres régionaux de l’e-mail ne sont pas utilisés. Voir [Modifier la langue du Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) dans cet article.
 
 Pour modifier les paramètres régionaux des e-mails utilisateur :
 

@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '2309'
-ht-degree: 100%
+source-wordcount: '2310'
+ht-degree: 99%
 
 ---
 
@@ -249,7 +249,7 @@ De nouvelles fonctionnalités sont disponibles dans la version 21.3 du planific
 
 ## Améliorations de Workfront Fusion
 
-Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du planning de la version 21.3. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de version Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du planning de la version 21.3. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de version Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Améliorations de Workfront Proof
 

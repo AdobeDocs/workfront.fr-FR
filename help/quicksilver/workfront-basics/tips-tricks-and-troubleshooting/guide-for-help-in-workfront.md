@@ -5,10 +5,10 @@ title: Guide rapide pour trouver de l’aide dans  [!DNL Adobe Workfront]
 description: Guide rapide pour trouver de l’aide dans  [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 100%
+source-wordcount: '813'
+ht-degree: 99%
 
 ---
 
@@ -143,7 +143,7 @@ Les ressources suivantes peuvent vous aider à en savoir plus sur l’API [!DNL 
 | [[!DNL Adobe Workfront] Intégrations](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | Vous pouvez intégrer [!DNL Workfront] à des applications tierces. Les intégrations permettent d’étendre l’utilité de [!DNL Workfront] et de l’adapter aux besoins de votre organisation. Cet article de la base de connaissances couvre les options d’intégration et vous indique la marche à suivre. |
 |---|---|
 | Intégrations [[!DNL Workfront]  incluses](https://www.workfront.com/integrations) | Les intégrations incluses gratuites de Workfront vous permettent, à vous et à votre équipe, d’effectuer une transition en douceur vers la plateforme Workfront tout en conservant les mêmes workflows et processus. |
-| [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | Connecte [!DNL Workfront] à plus de 100 applications, ce qui facilite l’automatisation des processus critiques de l’entreprise sans avoir recours au codage. |
+| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | Connecte [!DNL Workfront] à plus de 100 applications, ce qui facilite l’automatisation des processus critiques de l’entreprise sans avoir recours au codage. |
 
 {style="table-layout:auto"}
 

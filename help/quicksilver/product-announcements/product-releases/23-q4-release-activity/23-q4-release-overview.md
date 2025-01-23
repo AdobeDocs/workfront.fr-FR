@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '2772'
-ht-degree: 100%
+source-wordcount: '2773'
+ht-degree: 99%
 
 ---
 
@@ -742,7 +742,7 @@ Le webinaire sur la version 23.10 a eu lieu le 5 octobre 2023. Vous pouvez [v
 
 ### Améliorations de Workfront Fusion
 
-Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence autre que le calendrier des versions du quatrième trimestre 2023. Pour plus d’informations sur les dernières fonctionnalités, consultez la section [Activité Version Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence autre que le calendrier des versions du quatrième trimestre 2023. Pour plus d’informations sur les dernières fonctionnalités, consultez la section [Activité Version Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations du planificateur de scénarios Workfront
 

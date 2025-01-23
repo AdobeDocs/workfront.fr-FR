@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: cafb8aa532647f878bc66d983023141e0c2faeba
+source-git-commit: 3c06f5969c9b7aa254bc2231146783a215689911
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 93%
+source-wordcount: '262'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur l’aide apportée à votre entreprise pour s’a
     <ul> 
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">Vue d’ensemble de la version du premier trimestre 2025</a> </p> </li>
     <td> <ul>     
-     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md" class="MCXref xref" xrefformat="{para}">Activité de mise à jour Adobe Workfront Planning pour le premier trimestre 2025</a> </p> </li></ul>   </td>    </tr>
+     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md" class="MCXref xref" xrefformat="{para}">Activité de la version du premier trimestre 2025 de la planification Adobe Workfront</a> </p> </li></ul>   </td>    </tr>
   <tr data-mc-conditions=""> 
    <td> <p>Versions en 2024</p> 
     <ul> 
@@ -43,8 +43,8 @@ Pour plus d’informations sur l’aide apportée à votre entreprise pour s’a
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md" class="MCXref xref" xrefformat="{para}">Vue d’ensemble de la version du troisième trimestre 2024</a> </p> </li>
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Vue d’ensemble de la version du deuxième trimestre 2024</a> </p> </li>
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">Vue d’ensemble de la version du premier trimestre 2024</a> </p> </li>
- <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Activité Version Adobe Workfront Fusion</a> </p> </li> 
-   <li> <p><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Activité de mise à jour du quatrième trimestre 2024 d’Adobe Workfront Planning</a> </p> </li></ul>   </td> 
+ <td> <ul>    <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}">Activité Version Adobe Workfront Fusion</a> </p> </li> 
+   <li> <p><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Activité de la version du quatrième trimestre 2024 de la planification Adobe Workfront</a> </p> </li></ul>   </td> 
    </tr>
   <tr data-mc-conditions=""> 
    <td> <p>Versions en 2023</p> 
@@ -56,7 +56,7 @@ Pour plus d’informations sur l’aide apportée à votre entreprise pour s’a
     </ul> </td> 
    <td>    <ul> 
      <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md" class="MCXref xref" xrefformat="{para}">Objectifs Adobe Workfront avec la version 23.3</a> </p> </li> 
-     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Activité Version Adobe Workfront Fusion</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}">Activité Version Adobe Workfront Fusion</a> </p> </li> 
     </ul></td> 
   </tr>
   <tr data-mc-conditions=""> 
@@ -68,7 +68,7 @@ Pour plus d’informations sur l’aide apportée à votre entreprise pour s’a
      <li> <p><a href="../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md" class="MCXref xref" xrefformat="{para}">Vue d’ensemble de la version 22.1</a> </p> </li> 
     </ul> </td> 
    <td><ul> 
-     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Activité Version Adobe Workfront Fusion</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}">Activité Version Adobe Workfront Fusion</a> </p> </li> 
     </ul></td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ Pour plus d’informations sur l’aide apportée à votre entreprise pour s’a
    <td> 
     <ul> 
      <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md" class="MCXref xref" xrefformat="{para}">Objectifs Adobe Workfront avec la version 21.2</a> </p> </li> 
-     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Activité Version Adobe Workfront Fusion</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}">Activité Version Adobe Workfront Fusion</a> </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Pour plus d’informations sur l’aide apportée à votre entreprise pour s’a
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-release-activity.md" class="MCXref xref" xrefformat="{para}">Activité Version Objectifs Adobe Workfront</a> <li><a href="../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Activité Version planificateur de scénarios Adobe Workfront</a> </li> <li><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Activité Version Adobe Workfront Fusion</a> </li> </li> 
+     <li><a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-release-activity.md">Activité Version Objectifs Adobe Workfront</a> <li><a href="../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Activité Version planificateur de scénarios Adobe Workfront</a> </li> <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Activité Version Adobe Workfront Fusion</a> </li> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -1,5 +1,5 @@
 ---
-title: Conditions d’accès requises dans la documentation Workfront
+title: Conditions d’accès dans la documentation Workfront
 content-type: reference
 product-area: system-administration
 keywords: niveau d’accès, système, administrateur ou administratrice, planificateur ou planificatrice, travailleur ou travailleuse, réviseur ou réviseuse, demandeur ou demandeuse, utilisateur ou utilisatrice externe
@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '942'
 ht-degree: 97%
 
 ---
@@ -38,7 +38,7 @@ Certaines lignes contiennent des informations intitulées « Nouveau » et «�
    <td role="rowheader">Formule Adobe Workfront</td> 
    <td> Les plans Adobe Workfront se rapportent à l’ensemble des fonctionnalités que votre organisation a achetées. La plupart des fonctionnalités de Workfront sont disponibles dans tous les plans, à quelques exceptions près, notamment en ce qui concerne la planification stratégique et les contrôles d’entreprise. 
    <ul><li>Pour savoir quel plan Adobe Workfront votre organisation utilise, y compris si elle utilise le nouveau modèle de conditionnement ou le modèle actuel, contactez votre administrateur ou administratrice Workfront.</li>
-   <li>Pour obtenir des instructions sur la façon dont un administrateur ou une administratrice Workfront peut localiser le plan Workfront de votre entreprise, consultez <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Afficher le cluster et le plan Workfront de votre entreprise</a>.</li><li>Pour plus d’informations sur les nouveaux plans Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>.</li></ul> </td> 
+   <li>Pour obtenir des instructions sur la façon dont un administrateur ou une administratrice Workfront peut localiser le plan Workfront de votre entreprise, consultez <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Afficher le cluster et le plan Workfront de votre entreprise</a>.</li><li>Pour plus d’informations sur les nouveaux plans Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Tarification et package Adobe Workfront</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -96,7 +96,7 @@ Certaines lignes contiennent des informations intitulées « Nouveau » et «�
    <ul><li>Actuelle : le modèle de licence actuelle est basé sur le nombre d’opérations effectuées et n’a aucune limite sur les actions qu’une organisation peut effectuer. </li>
    <li>Héritée : les licences héritées sont basées sur la capacité des scénarios à se connecter à des applications tierces ou sur l’utilisation des scénarios pour l’automatisation de Workfront uniquement. </li>
    </ul>
-   Pour plus d’informations sur l’attribution de licence Fusion, voir <a href="/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Licences Workfront Fusion</a>.
+   Pour plus d’informations sur l’attribution de licence Fusion, voir <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Licences Workfront Fusion</a>.
    </td> 
   </tr> 
  </tbody> 

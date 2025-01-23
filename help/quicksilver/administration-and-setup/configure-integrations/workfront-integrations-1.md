@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1250'
 ht-degree: 92%
 
 ---
@@ -106,11 +106,11 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
    <td role="rowheader"> <p>Adobe Experience Manager Assets et Assets Essentials </p>  </p> </td> 
    <td> 
     <ul> 
-     <li>Création automatique de dossiers liés entre Workfront et Adobe Experience Manager 
-      <li>Métadonnées de synchronisation pour les ressources liées existantes</p></li>
-      <li>Mettez automatiquement à jour les métadonnées de portefeuille, de programme, de projet, de tâche, de problème et de documents lorsqu’il est modifié dans Workfront.</li>
+     <li>Création automatique des dossiers liés entre Workfront et Adobe Experience Manager 
+      <li>Synchroniser les métadonnées des ressources liées existantes</p></li>
+      <li>Mettez automatiquement à jour les métadonnées des portefeuilles, programmes, projets, tâches, problèmes et documents lors des modifications dans Workfront.</li>
       <li>Connecter facilement plusieurs référentiels Experience Manager Assets à un environnement Workfront ou plusieurs environnements Workfront à un référentiel Experience Manager Assets à l’échelle des ID d’organisation</li></ul>
-     <p>Pour plus d’informations et d’instructions, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Présentation des intégrations Adobe Experience Manager Assets</a></p> 
+     <p>Pour plus d’informations et d’instructions, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref"> Présentation des intégrations Adobe Experience Manager Assets </a></p> 
      </td>
    <td><ul><li>Workfront doit être dans un Admin Console avec un ID d’organisation attribué.</li><li>Workfront et Experience Manager Assets ou Assets Essentials doivent être affectés en tant que produit à la personne configurant l’intégration.</li></ul></td>   <td> </td> 
   </tr> 
@@ -305,7 +305,7 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
 
   [!DNL Adobe Workfront Fusion] relie les actions au sein et entre les applications et les services, pour créer un scénario qui transfère et transforme vos données automatiquement. Il dispose de connecteurs dédiés à de nombreuses applications, mais peut se connecter à n’importe quelle application à l’aide d’une API publique.
 
-  Pour plus d’informations, voir Vue d’ensemble d’[[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/workfront-fusion-overview.md).
+  Pour plus d’informations, voir Vue d’ensemble d’[[!DNL Adobe Workfront Fusion] ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Nécessite [!DNL Workfront Fusion])
@@ -318,9 +318,9 @@ Pour plus d’informations, consultez [Vue d’ensemble des intégrations d’Ad
 
 [!DNL Workfront] propose de nombreuses intégrations de partenaires pour enrichir votre expérience [!DNL Workfront].
 
-Workfront comporte de nombreuses intégrations de partenaires qui enrichissent votre expérience Workfront. Parmi les exemples d’offres de partenaire existantes, citons les intégrations avec Claravine, RWS Group, etc.
+Workfront comporte de nombreuses intégrations de partenaires qui enrichissent votre expérience Workfront. Parmi les exemples d’offres de partenaires existantes, citons les intégrations à Claravine, RWS Group, etc.
 
-Pour plus d’informations sur ces intégrations et d’autres intégrations de partenaires, voir le [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE).
+Pour plus d’informations à ce sujet et sur les autres intégrations de partenaires, consultez le [Marché d’Exchange ](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE).
 
 ## API [!DNL Workfront]
 

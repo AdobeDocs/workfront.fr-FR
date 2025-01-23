@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '5544'
-ht-degree: 100%
+source-wordcount: '5545'
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,7 @@ For specific release dates and times for each cluster, see the
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for4" class="MCXref xref" xrefformat="{para}">Pour les administrateurs et administratrices de groupes : amélioration des contrôles pour le déplacement des sous-groupes et mise à jour de la barre d’outils</a> </p> <p>Nous avons apporté les améliorations suivantes dans la zone des sous-groupes dans Configuration.</p> 
     <ul> 
-     <li> <p>Pour vous permettre de réorganiser rapidement les groupes que vous gérez, nous avons ajouté un bouton « Ajouter des sous-groupes » dans la barre d’outils qui vous permet de créer des sous-groupes et de déplacer les sous-groupes existants.</p> </li> 
+     <li> <p>Pour vous permettre de réorganiser rapidement les groupes que vous gérez, nous avons ajouté un bouton « Ajouter des sous-groupes » dans la barre d’outils qui vous permet de créer de nouveaux sous-groupes et de déplacer les sous-groupes existants.</p> </li> 
      <li> <p>La barre d’outils de la zone des sous-groupes rend désormais les listes cohérentes avec les autres listes modernisées de la nouvelle expérience Workfront. Lorsque vous sélectionnez des groupes, des icônes représentent les fonctions disponibles dans la barre d’outils.</p> </li> 
     </ul> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire bêta : 22 avril 2021<br></p> <p>Version de production : avec la version 21.2</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
@@ -203,7 +203,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible à ces dates :</strong> <p>Version de prévisualisation bêta : 1er avril 2021<br></p> <p>Version de production : 15 avril 2021</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#update" class="MCXref xref" xrefformat="{para}">Mise à jour du paramètre permettant aux utilisateurs et utilisatrices de supprimer des tâches et des problèmes avec des heures enregistrées</a> </p> <p>Pour vous offrir une expérience cohérente à travers tous les objets, nous avons modifié la façon dont le paramètre « Autoriser les utilisateurs et utilisatrices à supprimer des tâches et des problèmes avec des heures enregistrées » fonctionne dans Workfront. Désormais, lorsque votre administrateur ou administratrice Workfront ou de groupe désactive la préférence Tâches et problèmes, vous ne pouvez plus supprimer les projets qui contiennent des tâches ou des problèmes avec des heures enregistrées. </p> <p>Avant cette modification, la désactivation de ce paramètre empêchait les utilisateurs et utilisatrices de supprimer des tâches ou des problèmes, mais pas des projets.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#update" class="MCXref xref" xrefformat="{para}">Mise à jour du paramètre permettant aux utilisateurs et utilisatrices de supprimer des tâches et des problèmes avec des heures enregistrées</a> </p> <p>Pour vous offrir une expérience cohérente à travers tous les objets, nous avons modifié la façon dont le paramètre « Autoriser les personnes à supprimer des tâches et des problèmes avec des heures consignées » fonctionne dans Workfront. Désormais, lorsque votre administrateur ou administratrice Workfront ou de groupe désactive la préférence Tâches et problèmes, vous ne pouvez plus supprimer les projets qui contiennent des tâches ou des problèmes avec des heures enregistrées. </p> <p>Avant cette modification, la désactivation de ce paramètre empêchait les utilisateurs et utilisatrices de supprimer des tâches ou des problèmes, mais pas des projets.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version de prévisualisation bêta : 1er avril 2021<br></p> <p>Version de production : avec la version 21.2</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
  </tbody> 
@@ -220,7 +220,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md#control" class="MCXref xref" xrefformat="{para}">Contrôler le type d’affectations que vous effectuez dans le cadre d’une nouvelle demande</a> </p> <p>Nous avons modifié la façon dont le champ Affectations fonctionne lors de la création d’une nouvelle demande afin d’assurer la cohérence et d’afficher toujours le même champ, quels que soient les types d’affectation que les utilisateurs et utilisatrices peuvent saisir.</p> <p>Lorsque vous activez les champs Affecté à, Fonction ou Équipe pour qu’ils soient visibles lors de la configuration d’une file d’attente des demandes, les demandeurs et demandeuses verront le même champ Affectations qui peut contenir tous ces types d’affectation ou l’un d’entre eux.</p> <p>Le champ Affectations indique quels types d’affectation sont autorisés. Par exemple, si vous avez activé les champs Affecté à et Équipe lors de la configuration de la file d’attente des demandes, vous serez invité à « Rechercher des personnes ou des équipes » au lieu de « Rechercher des personnes, des rôles ou des équipes ».</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md#control" class="MCXref xref" xrefformat="{para}">Contrôler le type d’affectations que vous effectuez dans le cadre d’une nouvelle demande</a> </p> <p>Nous avons modifié la façon dont le champ Affectations fonctionne lors de la création d’une nouvelle demande afin d’assurer la cohérence et d’afficher toujours le même champ, quels que soient les types d’affectation que les utilisateurs et utilisatrices peuvent saisir.</p> <p>Lorsque vous activez les champs Affecté à, Fonction ou Équipe pour qu’ils soient visibles lors de la configuration d’une file d’attente des demandes, les demandeurs et demandeuses verront le même champ Affectations qui peut contenir tous ces types d’affectation ou l’un d’entre eux.</p> <p>Le champ Affectations indique quels types d’affectation sont autorisés. Par exemple, lorsque vous avez activé les champs Affecté à et Équipe lors de la configuration de la file d’attente des demandes, vous pouvez « Rechercher des personnes ou des équipes » au lieu de « Rechercher des personnes, des rôles ou des équipes ».</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire bêta : 8 avril 2021<br></p> <p>Version de production : avec la version 21.2</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -443,7 +443,7 @@ Les nouvelles fonctionnalités du planificateur de scénarios Workfront seront d
 
 ## Améliorations de Workfront Fusion
 
-Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent de celui du planning de la version 21.2. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent de celui du planning de la version 21.2. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Version 13 de l’API
 

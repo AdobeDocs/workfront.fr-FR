@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3271'
-ht-degree: 100%
+source-wordcount: '3272'
+ht-degree: 99%
 
 ---
 
@@ -483,7 +483,6 @@ Remarque : cette fonctionnalité n’est pas disponible pour l’instant dans l
 
 ### Amélioration apportées à la gestion des ressources.
 
-
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
@@ -714,7 +713,7 @@ Avec cette mise à jour, la visionneuse de relecture de bureau prendra en charge
 
 ### Améliorations de Workfront Fusion
 
-Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du calendrier de publication de la version 22.4. Pour plus d’informations sur les dernières fonctionnalités, consultez la section [Activité de version d’Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du calendrier de publication de la version 22.4. Pour plus d’informations sur les dernières fonctionnalités, consultez la section [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations du planificateur de scénarios Workfront
 

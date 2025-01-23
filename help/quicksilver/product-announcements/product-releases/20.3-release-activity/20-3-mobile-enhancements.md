@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 96%
+source-wordcount: '310'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Workfront a récemment acquis une technologie pour une toute nouvelle générati
 
 Les anciennes clientes et les anciens clients de Workfront Fusion peuvent s’attendre à une puissance, une vitesse, une convivialité et une prévisibilité accrues dans Workfront Fusion 2.0. Nous migrons actuellement les clientes et clients existants de Workfront Fusion vers Workfront Fusion 2.0. Contactez votre responsable de compte pour plus de détails.
 
-Pour plus d’informations, voir [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md)
+Pour plus d’informations, voir [Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)
 
 ## Présentation de Workfront pour MobileIron
 

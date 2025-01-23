@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Créer un élément de liste  [!DNL Anaplan]  à partir d’une demande de budget  [!DNL Adobe Workfront]
+title: 'Créer un élément de liste  [!DNL Anaplan]  à partir d’une demande de budget  [!DNL Adobe Workfront] '
 description: Ce scénario d’intégration associe un projet (campagne)  [!DNL Adobe Workfront]  avec un élément de liste de budget  [!DNL Anaplan] . Pour ce faire, ajoutez une demande de budget au projet  [!DNL Workfront]  qui doit recevoir un financement. Ce scénario recherche les demandes de budget non traitées, puis exécute un processus pour créer un élément de liste de budget vide dans  [!DNL Anaplan]  pour lancer les processus d’attribution de budget dans Anaplan.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '802'
 ht-degree: 97%
 
 ---
@@ -50,7 +50,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
-&#42;&#42;Pour plus d’informations sur les licences [!DNL  Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+&#42;&#42;Pour plus d’informations sur les licences [!DNL  Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Événement de déclenchement
 
@@ -99,7 +99,7 @@ Pour utiliser ce scénario, vous devez disposer des éléments suivants dans [!D
    </tbody> 
   </table>
 
-  Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Modèles de projet représentant les campagnes et autres projets nécessitant un financement, configurés avec une rubrique de file d’attente [!UICONTROL Demande de budget]. La rubrique de file d’attente [!UICONTROL Demande de budget] est affectée à l’utilisation du formulaire personnalisé [!UICONTROL Demande de budget].
 * Formulaire **[!UICONTROL Résumé de campagne]** pour l’objet Projet.
@@ -141,7 +141,7 @@ Pour utiliser ce scénario, vous devez disposer des éléments suivants dans [!D
    </tbody> 
   </table>
 
-  Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configuration [!DNL Anaplan] attendue
 

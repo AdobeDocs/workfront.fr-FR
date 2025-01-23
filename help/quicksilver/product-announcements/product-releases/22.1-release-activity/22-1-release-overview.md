@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '4757'
-ht-degree: 100%
+source-wordcount: '4758'
+ht-degree: 99%
 
 ---
 
@@ -84,7 +84,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 8 décembre 2021<br></p> <p>Version de production : avec la version 22.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#interfac" class="MCXref xref" xrefformat="{para}">Améliorations du texte de l’interface dans la zone Entreprises</a> </p> <p>Dans la zone Entreprises dans Configuration, de nouveaux messages de confirmation et de légères modifications de la formulation facilitent la gestion des appartenances à une entreprise. Par exemple, le nom de la section « Personnes » dans le panneau de gauche est désormais « Personnes membres de l’entreprise ».</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#interfac" class="MCXref xref" xrefformat="{para}">Améliorations du texte de l’interface dans la zone Entreprises</a> </p> <p>Dans la zone Entreprises dans Configuration, de nouveaux messages de confirmation et de légères modifications de la formulation facilitent la gestion des appartenances à une entreprise. Par exemple, le nom de section « Personnes » dans le panneau de gauche est désormais « Personnes membres de l’entreprise ».</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 8 décembre 2021<br></p> <p>Version de production : avec la version 22.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -368,7 +368,7 @@ For specific release dates and times for each cluster, see the
 
 ## Améliorations de Workfront Fusion
 
-Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du calendrier de la version 22.1. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du calendrier de la version 22.1. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Améliorations du planificateur de scénarios Workfront
 
