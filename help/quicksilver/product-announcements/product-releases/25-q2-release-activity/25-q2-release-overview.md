@@ -1,0 +1,132 @@
+---
+title: Vue d’ensemble de la version du deuxième trimestre 2025
+description: Cette page fournit des informations sur les fonctionnalités incluses dans la version du deuxième trimestre 2025. L’intégration de ces améliorations dans l’environnement de production s’effectuera tout au long du trimestre.
+author: Nolan
+feature: Product Announcements
+recommendations: noDisplay, noCatalog
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+workflow-type: tm+mt
+source-wordcount: '635'
+ht-degree: 53%
+
+---
+
+# Vue d’ensemble de la version du deuxième trimestre 2025
+
+Cette page fournit des informations sur les fonctionnalités incluses dans la version du deuxième trimestre 2025. L’intégration de ces améliorations dans l’environnement de production s’effectuera tout au long du trimestre.
+
+<span class="preview">Les fonctionnalités hors cycle (sorties en production avant la date de la version du deuxième trimestre 2025) sont surlignées en jaune.</span>
+
+## Calendrier des versions
+
+Les versions de Workfront sont numérotées afin de tenir compte des suivis de version mensuels et trimestriels. Le premier chiffre désigne l&#39;année et le second indique le mois de la libération. Exemple : la version d’avril 2025 est numérotée 25.4.
+
+Sauf indication contraire, les versions mensuelles et trimestrielles devraient être disponibles le jeudi de la deuxième semaine complète du mois.
+
+| Version mensuelle | Version trimestrielle |
+| ----------------- | ----------------- |
+| <ul><li>25.2 (février 2025)</li><li>25.3 (mars 2025)</li><li>25.4 (avril 2025)</li></ul> | <ul><li>25.4 (avril 2025)</li></ul> |
+
+>[!NOTE]
+>
+>Pour la version finale de chaque trimestre (25.4 ce trimestre), les utilisateurs disposant du planning de version rapide recevront la version un jour plus tôt que prévu.
+>
+>Pour plus d’informations sur le processus de publication rapide, voir la section [Activer ou désactiver le processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+
+## Améliorations apportées à Adobe Workfront
+
+* [Autres améliorations](#other-enhancements)
+
+### Autres améliorations
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            L’assistant AI peut désormais travailler sur des projets, des tâches et des événements</a></p>
+            <p>Pour faciliter la gestion de vos éléments de travail dans Workfront, nous avons mis à jour l’assistant AI pour qu’il fonctionne avec les projets, les tâches et les événements. Désormais, l’assistant AI peut localiser les projets, les tâches et les événements en fonction des critères que vous spécifiez.</p>
+        </td>
+        <td>
+            <p><b>Disponible à ces dates :</b></p>
+            <ul>
+                <li>Version préliminaire : vendredi 31 octobre 2024</li>
+                <li>Production pour une version rapide : avec la version 24.11 (14 novembre 2024)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <!--<tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
+            Look-and-feel updates during the First Quarter 2025 timeframe</a></p>
+            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the First Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: Throughout the First Quarter 2025 release timeframe</li>
+                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
+            </ul>
+        </td>
+    </tr>-->                            
+</tbody>
+</table>
+
+<!--
+### Functionality soon to be removed from Workfront
+
+The following functionality is soon to be removed from Workfront:
+-->
+
+## Annonces
+
+### Modernisation des interfaces
+
+Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobes. Ces modifications sont publiées en dehors du planning de publication standard. Pour obtenir la liste de ces modifications, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
+
+### Améliorations de Workfront Fusion
+
+>[!IMPORTANT]
+>
+>La documentation de Workfront Fusion a été déplacée vers un nouvel emplacement. Pour plus d’informations, d’instructions et de versions pour Fusion, consultez la [documentation de Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+>
+>Chaque article de documentation Fusion actuel contient un lien vers l’article correspondant dans le nouvel emplacement. Mettez à jour vos signets.
+>
+>Le jeu de documentation Fusion actuel n’est plus mis à jour et sera supprimé prochainement.
+
+De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+
+### Améliorations apportées à Workfront Planning
+
+De nouvelles fonctionnalités de Workfront Planning sont disponibles en production. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de la version du deuxième trimestre 2025 de la planification Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
+
+### Améliorations du planificateur de scénarios Workfront
+
+Il n’y a pas de mise à jour du planificateur de scénarios à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+
+### Améliorations de Workfront Proof
+
+Il n’y a pas de mise à jour de Workfront Proof à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+
+### Améliorations des Objectifs Workfront
+
+Il n’y a pas de mise à jour des Objectifs Workfront à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+
+### Version 19 de l’API
+
+Pour la version 19 de l’API, nous avons modifié certaines ressources et certains points d’entrée. Certains des changements prennent en charge de nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
+
+Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de la version 19 de l’API](/help/quicksilver/wf-api/api/new-api-version-19.md).
+
+Pour plus d’informations sur les versions de l’API, voir [Calendrier des versions et de la prise en charge de l’API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+
+### Mises à jour de maintenance pour Workfront 
+
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+
+### Mise à jour des formations
+
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).

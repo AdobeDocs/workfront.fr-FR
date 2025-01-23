@@ -7,33 +7,20 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '2182'
-ht-degree: 5%
+source-wordcount: '2112'
+ht-degree: 4%
 
 ---
 
 # Activité de la version du premier trimestre 2025 pour Adobe Workfront Planning
 
-<!--remove this important intro after the 25.1 release-->
-
->[!IMPORTANT]
->
->Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle offre d’Adobe Workfront.
->
->Vous devez acheter un plan Workfront Planning, en plus d’un plan Workfront, pour pouvoir accéder aux fonctionnalités Workfront Planning et les utiliser.
->
->Pour obtenir la liste complète des conditions requises pour accéder à Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/planning/access/access-overview.md).
->Pour obtenir un aperçu de Workfront Planning, consultez [Aperçu d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
-
 Cet article décrit les fonctionnalités publiées pour Workfront Planning dans la version du premier trimestre 2025.
 
 <!--keep the sentence below for all future quarterly release pages-->
-<!--remove the general activity mention after First Quarter 2025 is released-->
 
-Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning après la mise à jour de la disponibilité générale du 28 août 2024, voir [Activité de version d’Adobe Workfront Planning : index d’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
-
+Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Les champs de connexion avec des ressources Adobe Experience Manager sont désormais pris en charge dans les formulaires de demande
 

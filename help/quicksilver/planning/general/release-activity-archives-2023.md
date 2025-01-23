@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 92%
+source-wordcount: '2900'
+ht-degree: 95%
 
 ---
 
@@ -18,22 +18,9 @@ ht-degree: 92%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
->[!IMPORTANT]
->
-><span class="preview">Cet article répertorie les fonctionnalités publiées pendant la phase bêta de Workfront Planning, en 2023.</span>
->Les informations de cet article font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
->
->Vous devez acheter un plan Workfront Planning, en plus d’un plan Workfront, pour pouvoir accéder aux fonctionnalités Workfront Planning et les utiliser.
->
->Pour obtenir la liste complète des conditions requises pour accéder à Workfront Planning, consultez la présentation de l&#39;accès à Adobe Planning [](/help/quicksilver/planning/access/access-overview.md).
->Pour obtenir un aperçu de Workfront Planning, consultez [Aperçu d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
->
+Cet article répertorie les fonctionnalités qui ont été publiées au cours de la phase initiale de Workfront Planning, en 2023, avant la version de disponibilité générale du 28 août 2024.
 
-Pour plus d’informations sur les activités de publication, consultez également les articles suivants :
-
-* [Activité de publication d’Adobe Workfront Planning : index d’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) pour plus d’informations sur l’activité de publication actuelle de Workfront Planning.
-
-* [Activité de publication d’Adobe Workfront Planning pour 2024](/help/quicksilver/planning/general/release-activity.md) pour plus d’informations sur les fonctionnalités publiées au cours de l’année 2024, avant la disponibilité générale du 28 août 2024.
+Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Calendrier de publication de Workfront Planning
 

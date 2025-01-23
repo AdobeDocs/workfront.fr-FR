@@ -3,14 +3,12 @@ title: Mises à jour de l’interface
 description: Cette page répertorie les mises à jour de l’interface que nous effectuons dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobes.
 author: Nolan
 feature: Product Announcements
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +26,7 @@ Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versio
 
 ### Mise à jour de l&#39;interface pour la boîte de dialogue Ajouter SharePoint
 
-**Version préliminaire : 16 janvier 2025 ; Version de production : à déterminer**
+**Version préliminaire : 16 janvier 2025 ; Version de production : à annoncer**
 
 Nous avons mis à jour la boîte de dialogue Ajouter Sharepoint dans Configuration > Documents > Intégration Sharepoint avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -36,7 +34,7 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 ### Mise à jour de l&#39;interface pour la zone Validations dans la Configuration
 
-**Version préliminaire : 16 janvier 2025 ; Version de production : à déterminer**
+**Version préliminaire : 16 janvier 2025 ; Version de production : à annoncer**
 
 Nous avons mis à jour les listes d’approbation de projets, de tâches et d’événements dans Configuration > Processus > Approbations avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -44,9 +42,19 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 ## Rapports et tableaux de bord
 
+### Mise à jour du rapport d’itération avec un nouveau style
+
+**Version préliminaire : 17 janvier 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour le rapport d’itération avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Cette mise à jour inclut des modifications visuelles du rapport. Aucune fonctionnalité n’a été modifiée.
+
+Pour créer un rapport d’itération, accédez à Rapports > Nouveau rapport > Itération.
+
 ### Mise à jour des rapports d’approbation avec un nouveau style
 
-**Version préliminaire : 16 janvier 2025 ; Version de production : à déterminer**
+**Version préliminaire : 16 janvier 2025 ; Version de production : à annoncer**
 
 Nous avons mis à jour l’interface des rapports d’approbation suivants :
 
