@@ -3,15 +3,15 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Environnement sandbox d’actualisation personnalisée [!DNL Adobe Workfront]
+title: Environnement  [!DNL Adobe Workfront]  sandbox d’actualisation personnalisé
 description: Le sandbox à actualisation personnalisée est un environnement dans lequel vous pouvez effectuer des tests et travailler en utilisant les données de votre environnement de production. Il est également idéal pour réaliser des formations et déterminer le fonctionnement d’une configuration.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1739'
 ht-degree: 95%
 
 ---
@@ -118,11 +118,11 @@ Pour accéder à votre sandbox à actualisation personnalisée à l’aide d’u
 
 1. Accédez à cette URL si vous n’avez qu’un seul sandbox à actualisation personnalisée :
 
-   https://companyname.sb01.workfront.com (ancienne URL :https://cr1.attasksandbox.com/).
+   `https://companyname.sb01.workfront.com` (ancienne URL :`https://cr1.attasksandbox.com/`.)
 
    Ou, si vous disposez de deux sandbox à actualisation personnalisée, en plus des URL ci-dessus, vous pouvez également accéder à l’URL suivante pour accéder à votre deuxième sandbox à actualisation personnalisée :
 
-   https://companyname.sb02.workfront.com (ancienne URL :https://cr2.attasksandbox.com/).
+   `https://companyname.sb02.workfront.com` (ancienne URL :`https://cr2.attasksandbox.com/`)
 
 1. Sur l’écran de connexion, connectez-vous à l’aide de vos identifiants de sandbox à actualisation personnalisée.
 1. Les informations d’identification de votre sandbox à actualisation personnalisée sont les mêmes que celles de votre environnement de production, sauf si vous les avez modifiées depuis la dernière actualisation de votre sandbox. Les connexions ne sont synchronisées que lorsqu’une actualisation a lieu. Elles ne se synchronisent pas automatiquement.
@@ -137,15 +137,15 @@ Pour accéder à votre sandbox à actualisation personnalisée à l’aide d’u
 
 1. Accédez à cette URL si vous n’avez qu’un seul sandbox à actualisation personnalisée :
 
-   https://companyname.sb01.workfront.com (ancienne URL :https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (ancienne URL :`https://cr3.attasksandbox.com`)
 
    Ou
 
    Accédez à l’une ou l’autre de ces URL si vous avez deux sandbox à actualisation personnalisée :
 
-   https://companyname.sb01.workfront.com (ancienne URL :https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (ancienne URL :`https://cr3.attasksandbox.com`)
 
-   https://companyname.sb02.workfront.com (ancienne URL :https://cr4.attasksandbox.com).
+   `https://companyname.sb02.workfront.com` (ancienne URL :`https://cr4.attasksandbox.com`)
 
 1. Sur l’écran de connexion, connectez-vous à l’aide de vos identifiants de sandbox à actualisation personnalisée.
 
@@ -204,11 +204,11 @@ Pour plus d’informations sur la configuration SSO pour [!DNL Workfront], consu
 
 Recalculer les chronologies permet aux personnes gestionnaires de voir comment des forces extérieures au projet affectent la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévisionnelles pour le projet.
 
-En tant qu’administrateur Workfront, vous pouvez configurer le moment où Workfront recalcule automatiquement les chronologies de projet. Workfront peut recalculer les calendriers du projet chaque nuit ou lorsque la portée du projet change, ou les deux.
+En tant qu’administrateur ou administratrice Workfront, vous pouvez configurer le moment où Workfront recalcule automatiquement les chronologies de projet. Workfront peut recalculer les chronologies de projet toutes les nuits ou lorsque la portée du projet change, ou les deux.
 
-Pour plus d’informations, voir [Configuration des recalculations de la chronologie pour les projets](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Pour plus d’informations, voir [Configuration des recalculs de chronologie pour les projets](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-Pour l’environnement Sandbox d’actualisation personnalisée, le recalcul de nuit est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour l’environnement Sandbox d’actualisation personnalisée. Pour plus d’informations, voir [Recalculer la chronologie du projet](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+Pour l’environnement de sandbox d’actualisation personnalisée, le recalcul nocturne est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour l’environnement de sandbox d’actualisation personnalisée. Pour plus d’informations, voir [Recalculer la chronologie du projet](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 ## Utilisation prévue et disponibilité
 
