@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
 workflow-type: tm+mt
-source-wordcount: '2661'
-ht-degree: 94%
+source-wordcount: '2693'
+ht-degree: 92%
 
 ---
 
@@ -246,13 +246,6 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
  </tbody> 
 </table>
 
-
-
-
-
-
-
-
 ### [!UICONTROL Analyses de rentabilité] {#business-cases}
 
 Vous pouvez créer une analyse de rentabilité pour les projets nouvellement créés dans tout le système afin d’envoyer des demandes de projet. Vous pouvez définir des préférences afin de déterminer les zones visibles sur le formulaire **[!UICONTROL Analyse de rentabilité]**. Nous vous recommandons d’activer ces options afin que d’autres outils, tels que l’[!UICONTROL Optimisateur de portfolio], se mettent à jour correctement. Pour plus d’informations sur ce que chaque champ affiche, voir [Définir une analyse de rentabilité : index des articles](../../../manage-work/projects/define-a-business-case/define-business-case.md).
@@ -279,11 +272,12 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
    <td role="rowheader"> <p>[!UICONTROL After a Project is marked Complete, Dead, or it is Pending Approval, people can still]</p> </td> 
    <td> <p>Déterminez les règles de votre organisation (ou groupe, si vous configurez les préférences d’un projet pour un groupe) concernant les tâches, les problèmes, les documents et autres objets dans un projet une fois que le statut du projet a été marqué comme <strong>[!UICONTROL Complete]</strong>, <strong>[!UICONTROL Dead]</strong>, ou <strong>[!UICONTROL Pending Approval]</strong>.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Add and edit tasks]</strong> : permet aux utilisateurs et utilisatrices d’effectuer les opérations suivantes :
+     <li><strong>[!UICONTROL Ajouter et modifier des tâches :]</strong> Permet aux utilisateurs de :
       <ul>
-       <li>Modifiez les tâches d’un projet une fois que le projet a été marqué comme [!UICONTROL Complete], [!UICONTROL Dead] ou [!UICONTROL Pending Approval]. Cela inclut l’ajout d’heures et la modification des entrées relatives aux dépenses sur une tâche.</li>
+       <li><p>Modifiez les tâches d'un projet une fois que celui-ci a été marqué [!UICONTROL Terminé], [!UICONTROL Inactif] ou est marqué [!UICONTROL Approbation en attente].</p>
+           <p>Remarque : même si cette option n'est pas sélectionnée, les utilisateurs peuvent ajouter et modifier des entrées de dépenses. La journalisation des heures comporte un paramètre distinct. Pour autoriser ou empêcher les utilisateurs de consigner du temps sur des projets avec un statut Terminé ou À l’arrêt, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurer les préférences de feuille de temps et d’heure</a>.</p></li>
        <li>Ajouter des tâches à un projet.</li>
-      </ul></li> 
+      </ul></li>
      <li><strong>[!UICONTROL Add and edit issues]</strong> : permet aux utilisateurs et utilisatrices d’effectuer les opérations suivantes :
       <ul>
        <li>Modifiez les problèmes d’un projet une fois que le projet a été marqué comme [!UICONTROL Complete], [!UICONTROL Dead] ou [!UICONTROL Pending Approval].</li>
