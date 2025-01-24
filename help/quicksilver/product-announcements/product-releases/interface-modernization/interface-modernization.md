@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: 5620b1023e5708b7acf3aa2304b28a83112dbe55
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 1%
+source-wordcount: '807'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +23,65 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
+### Mise à jour de l’interface pour la page Rôles d’épreuve dans la Configuration
+
+**Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour l’aspect de la page Rôles de BAT avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Au lieu de sélectionner des boutons radio, vous utilisez désormais des menus déroulants pour choisir des rôles de BAT pour les nouveaux utilisateurs et les utilisateurs invités.
+
+Pour afficher cette modification, accédez à Configuration > Révision et approbation.
+
+### Mise à jour de l&#39;interface pour la page Rappels automatiques de la configuration
+
+**Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour la page Rappels automatiques avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+Pour afficher cette page, accédez à Configuration > E-mail > Rappels automatiques.
+Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonctionnalité n’a été modifiée.
+
+### Mise à jour de l’interface pour la page Modèles d’e-mail dans la configuration
+
+**Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour la page Modèles d’e-mail avec un design plus moderne et cohérent avec les autres zones de Workfront.
+
+Au lieu de cliquer directement sur le nom du modèle pour le modifier, vous devez cocher la case, puis cliquer sur icône Modifier dans la barre d’outils.
+
+Pour afficher cette page, accédez à Configuration > E-mail > Notifications > Modèles d’e-mail.
+
+### Mise à jour de l’interface pour la page Invitations par e-mail dans la configuration
+
+**Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour la page Invitations par e-mail avec un design plus moderne et cohérent avec les autres zones de Workfront.
+
+Pour afficher cette page, accédez à Configuration > E-mail > Invitations.
+
+Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonctionnalité n’a été modifiée.
+
+### Mises à jour de l’interface pour la page Notifications d’événement dans un groupe
+
+**Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour la page Notification d’événement dans un groupe avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Pour afficher cette page, accédez à Configuration > Groupes > Sélectionner un groupe > Notifications d’événement
+
+Cette mise à jour comprend des modifications visuelles mineures de la zone. Aucune fonctionnalité n’a été modifiée.
+
+
+### Mises à jour de l’interface pour l’onglet Notifications de rappel dans la configuration
+
+**Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour l’onglet Notifications de rappel ainsi que les boîtes de dialogue d’ajout et de modification avec une conception plus moderne et cohérente avec d’autres zones de Workfront.
+
+Au lieu de cliquer directement sur le nom de la notification pour la modifier, vous devez cocher la case, puis cliquer sur l’icône Modifier dans la barre d’outils.
+
+Pour afficher cette page, accédez à Configuration > E-mail > Notifications > Notifications de rappel.
 
 ### Mise à jour de l&#39;interface pour la boîte de dialogue Ajouter SharePoint
 
@@ -42,6 +101,17 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 ## Rapports et tableaux de bord
 
+## Rapports d’e-mail mis à jour avec un nouveau style
+
+**Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour l’interface des rapports d’e-mail suivants :
+
+* Rapport de modèle d’e-mail
+* Rapport de notification de rappel
+
+Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonctionnalité n’a été modifiée.
+
 ### Mise à jour du rapport d’itération avec un nouveau style
 
 **Version préliminaire : 17 janvier 2025 ; Version de production : à annoncer**
@@ -54,7 +124,7 @@ Pour créer un rapport d’itération, accédez à Rapports > Nouveau rapport > 
 
 ### Mise à jour des rapports d’approbation avec un nouveau style
 
-**Version préliminaire : 16 janvier 2025 ; Version de production : à annoncer**
+**Version préliminaire : 16 janvier 2025 ; Version de production : à partir de la semaine du 20 janvier 2025**
 
 Nous avons mis à jour l’interface des rapports d’approbation suivants :
 
@@ -66,7 +136,7 @@ Ces mises à jour incluent des modifications visuelles de la zone. Aucune foncti
 
 ### Mode Texte pour les filtres et les regroupements
 
-**Version préliminaire : 9 janvier 2025 ; Version de production : à partir du 9 janvier 2025**
+**Version préliminaire : 9 janvier 2025 ; Version de production : à partir de la semaine du 6 janvier 2025**
 
 Nous avons ajouté un nouveau bouton Modifier le mode Texte et modifié la boîte de dialogue modale dans les zones suivantes :
 
