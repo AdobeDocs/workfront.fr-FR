@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 95%
 
 ---
 
@@ -80,5 +80,5 @@ Vous pouvez, par exemple, configurer ce rapport pour qu’il montre l’activit�
 
 Auparavant, vous ne pouviez émettre des rapports sur les mises à jour du système que par l’intermédiaire de l’API Workfront.
 
-Pour en savoir plus sur ce rapport et son utilisation, voir [Rapport sur la zone Mises à jour](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Pour en savoir plus sur ce rapport et sur son utilisation, voir [Rapport sur la zone Mises à jour avec un rapport Entrée du journal](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 

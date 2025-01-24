@@ -1,18 +1,18 @@
 ---
-title: Rapport sur la zone des mises à jour
+title: Rapport sur la zone Mises à jour avec un rapport d'entrée de journal
 description: Le rapport Entrée du journal présente les mises à jour du système à partir de la zone Mises à jour des projets, tâches, problèmes et autres objets qui n’étaient auparavant disponibles que par le biais de l’API Adobe Workfront. Bien qu’il s’agisse d’un rapport avancé destiné à des cas d’utilisation spécifiques, le format plus digeste vous permet de créer plus facilement un rapport sur l’activité du projet et des mises à jour du système dans Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2757'
-ht-degree: 95%
+source-wordcount: '2767'
+ht-degree: 94%
 
 ---
 
-# Créer un rapport sur la zone Mises à jour
+# Rapport sur la zone Mises à jour avec un rapport Entrée du journal
 
 <!-- Audited: 11/2024 -->
 
@@ -69,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -253,7 +253,7 @@ Ces informations peuvent servir à faciliter les audits et illustrer la qualité
 
    Pour plus d’informations sur l’ajout de colonnes, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Dans l’onglet **Filtres**, cliquez sur **Ajouter une règle de filtre**, puis ajoutez la règle de filtre **Nom du champ** > **Égal** > **état**.
+1. Dans l’onglet **Filtres**, cliquez sur **Ajouter une règle de filtre**, puis ajoutez la règle de filtre **Nom du champ** > **Égal** > **statut**.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
@@ -339,7 +339,7 @@ Pour savoir quand la suppression d’une tâche ou d’un problème est survenue
 1. Dans l’onglet **Filtres**, cliquez sur **Ajouter une règle de filtrage**, puis ajoutez les filtres suivants :
 
    * **Type de modification** > **Égal à** > **Supprimer**
-   * **ID de projet** > **Égal** > **&lt; nom du projet >**
+   * **Identifiant du projet** > **Égal** > **&lt; nom du projet >**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -383,7 +383,7 @@ Pour observer comment des champs personnalisés ont évolué au cours du cycle d
 
    Report Builder se charge.
 
-1. Dans l&#39;onglet **Colonnes (vue)**, assurez-vous d&#39;avoir ou cliquez sur **Ajouter une colonne** pour ajouter les colonnes suivantes :
+1. Dans l’onglet **Colonnes (Affichage)** vérifiez que vous avez ou cliquez sur **Ajouter une colonne** pour ajouter les colonnes suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -440,15 +440,15 @@ Pour observer comment des champs personnalisés ont évolué au cours du cycle d
 
    Pour plus d’informations sur l’ajout de colonnes, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Dans l’onglet **Filtres**, cliquez sur **Ajouter une règle de filtre**, puis ajoutez les filtres suivants :
+1. Dans l&#39;onglet **Filtres**, cliquez sur **Ajouter une règle de filtrage** puis ajoutez les filtres suivants :
 
    * **Nom du champ de l’entrée du journal** > **Contient** > **DE**
 
      >[!TIP]
      >
-     >Pour limiter ce rapport à des champs personnalisés spécifiques, ajoutez la règle de filtrage **Nom du champ d’entrée du journal** > **Égal à** > **&lt; nom du champ personnalisé>**.
+     >Pour limiter ce rapport à des champs personnalisés spécifiques, ajoutez la règle de filtrage **Nom du champ de saisie du journal** > **Égal** > **&lt; nom du champ personnalisé>**.
 
-   * **ID de projet** > **Égal** > **&lt; projet >**.
+   * **Identifiant du projet** > **Égal** > **&lt; projet >**.
 
    ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -546,10 +546,10 @@ Vous pouvez paramétrer le rapport d’entrée du journal pour montrer à quelle
 
    Pour plus d’informations sur l’ajout de colonnes, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Dans l’onglet **Filtres**, cliquez sur **Ajouter une règle de filtre**, puis ajoutez ce qui suit :
+1. Dans l&#39;onglet **Filtres**, cliquez sur **Ajouter une règle de filtrage** puis ajoutez ce qui suit :
 
    * **Nom du champ** > **Égal à** > **Date**
-   * **ID de projet** > **Égal** > **&lt; nom du projet >**.
+   * **Identifiant du projet** > **Égal** > **&lt; nom du projet >**.
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -638,7 +638,7 @@ Vous pouvez configurer le rapport d’entrée du journal pour montrer combien de
 1. Dans l’onglet **Filtres**, cliquez sur **Ajouter une règle de filtrage**, puis ajoutez ce qui suit :
 
    * **Nom du champ** > **Égal à** > **ownerID**
-   * **ID de projet** > **Égal** > **&lt; nom du projet >**.
+   * **Identifiant du projet** > **Égal** > **&lt; nom du projet >**.
 
    ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -662,4 +662,4 @@ Vous pouvez configurer le rapport d’entrée du journal pour montrer combien de
 
 1. Cliquez sur **Enregistrer + Fermer**.
 
-   Le nouveau rapport d’entrée de journal s’affiche.
+   Le nouveau rapport d&#39;entrée de journal s&#39;affiche.

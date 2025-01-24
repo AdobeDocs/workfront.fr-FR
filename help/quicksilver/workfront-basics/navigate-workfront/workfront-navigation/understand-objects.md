@@ -1,15 +1,15 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: « Vue d’ensemble des objets [!DNL Adobe Workfront] »
-description: « Les informations que vous affichez dans  [!DNL Adobe Workfront]  sont représentées par des objets qui sont stockés dans la base de données  [!DNL Workfront] . Les objets sont à la base des informations contenues dans  [!DNL Workfront]. Pour en savoir plus sur ces objets, consultez cet article. »
+title: Vue d’ensemble des objets [!DNL Adobe Workfront]
+description: Les informations affichées dans  [!DNL Adobe Workfront]  sont représentées par des objets stockés dans la base  [!DNL Workfront]  données. Les objets sont à la base des informations contenues dans  [!DNL Workfront]. En savoir plus sur ces objets dans cet article.
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2419'
-ht-degree: 100%
+source-wordcount: '2424'
+ht-degree: 98%
 
 ---
 
@@ -283,7 +283,7 @@ Vous pouvez créer des rapports sur les objets suivants lorsque vous utilisez Re
 * [!UICONTROL Itération]
 * [!UICONTROL Fonction]
 * [!UICONTROL Entrée du journal]
-   * Vous pouvez établir un rapport sur les mises à jour du système suivies dans la zone [!UICONTROL Mises à jour] d’objets tels que les tâches, les projets, les problèmes, etc. Pour plus d’informations, voir [Rapports sur la zone [!UICONTROL Mises à jour]](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+   * Vous pouvez établir un rapport sur les mises à jour du système suivies dans la zone [!UICONTROL Mises à jour] d’objets tels que les tâches, les projets, les problèmes, etc. Pour plus d&#39;informations, voir [Rapport sur la zone Mises à jour avec un rapport Entrée de journal](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Modèles de mise en page]
 * [!UICONTROL Jalon]

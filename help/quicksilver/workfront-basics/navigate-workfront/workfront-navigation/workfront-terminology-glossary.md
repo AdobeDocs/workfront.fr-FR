@@ -6,9 +6,9 @@ description: Le glossaire  [!DNL Adobe Workfront]  répertorie les termes couram
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '20931'
+source-wordcount: '20935'
 ht-degree: 95%
 
 ---
@@ -1168,7 +1168,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>[!UICONTROL Journal Entry]</p> </td> 
-   <td> <p>Un objet pouvant faire l’objet d’un rapport qui vous donne des informations sur les mises à jour du système pour les champs suivis qui apparaissent dans la zone des [!UICONTROL Updates] des projets, des tâches, des problèmes et d’autres objets.</p> <p>Pour en savoir plus, consultez la section <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Émettre un rapport sur la zone des [!UICONTROL Updates]</a>.</p> </td> 
+   <td> <p>Un objet pouvant faire l’objet d’un rapport qui vous donne des informations sur les mises à jour du système pour les champs suivis qui apparaissent dans la zone des [!UICONTROL Updates] des projets, des tâches, des problèmes et d’autres objets.</p> <p>Pour en savoir plus, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Rapport sur la zone Mises à jour avec un rapport Entrée du journal</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Kanban Flag]</td> 

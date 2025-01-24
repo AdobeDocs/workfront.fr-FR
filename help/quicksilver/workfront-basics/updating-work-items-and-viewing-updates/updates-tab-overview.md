@@ -7,10 +7,10 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 80%
+source-wordcount: '1095'
+ht-degree: 79%
 
 ---
 
@@ -77,10 +77,10 @@ Les objets suivants comportent une section Mises à jour dans laquelle vous pouv
 * Objectifs
 * Itérations
 
-Les objets suivants comportent des zones dans lesquelles vous pouvez ajouter des commentaires et revoir les mises à jour du système :
+Les objets suivants comportent des zones dans lesquelles vous pouvez ajouter des commentaires et passer en revue les mises à jour du système :
 
 * Cartes sur les panoramas
-* Enregistrements dans la planification Workfront
+* Enregistrements dans Workfront Planning
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
@@ -124,23 +124,23 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Présentation des onglets de la section Mises à jour
+### Présentation des onglets des sections Mises à jour
 
 ![Met à jour la section](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 La section Mises à jour affiche des informations dans les onglets suivants :
 
 * **Commentaires : affiche les commentaires effectués par les utilisateurs et utilisatrices et les réponses à ces commentaires**. Utilisez l’onglet Commentaires pour ajouter de nouveaux commentaires ou répondre à des commentaires existants. Pour plus d’informations sur la mise à jour des objets, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
-* **Activité système** : affiche les mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Par exemple, les modifications du statut, du nom ou des champs personnalisés sont capturées avec des mises à jour du système. Votre administrateur ou administratrice Workfront ou de groupe peut activer les mises à jour système de vos objets. Toutes les réponses apportées aux enregistrements d’activité du système dans l’expérience de commentaire héritée sont renseignées en lecture seule dans l’onglet Activité du système . Pour plus d’informations, consultez la section [Configurer les mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **Activité du système** : affiche les mises à jour du système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Par exemple, les modifications du statut, du nom ou des champs personnalisés sont capturées avec des mises à jour du système. Votre administrateur ou administratrice Workfront ou de groupe peut activer les mises à jour système de vos objets. Toutes les réponses apportées aux enregistrements d&#39;activité du système dans l&#39;expérience de commentaires héritée sont renseignées dans l&#39;onglet Activité du système en lecture seule. Pour plus d’informations, consultez la section [Configurer les mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **Tous (lecture seule)** : affiche à la fois les commentaires d’un utilisateur ou d’une utilisatrice et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni taguer d’autres utilisateurs ou utilisatrices dans les commentaires existants dans l’onglet Tous. Pour répondre à un commentaire spécifique, utilisez le lien dans l’onglet Tous vers l’onglet Commentaires. Pour plus d’informations sur la mise à jour des objets, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
 
   >[!NOTE]
   >
-  >Les onglets Commentaires et Activité système sont mis à jour en temps réel. Vous devez actualiser l’onglet Tous pour afficher les mises à jour les plus récentes.
+  >Les onglets Commentaires et Activité du système sont mis à jour en temps réel. Vous devez actualiser l’onglet Tous pour afficher les mises à jour les plus récentes.
 
-### Similarités et différences entre les zones Mises à jour de différents objets
+### Similitudes et différences entre les zones Mises à jour de différents objets
 
-Il existe des différences entre l’affichage des commentaires et des mises à jour pour différents objets.
+Il existe des différences dans l’affichage des commentaires et des mises à jour pour différents objets.
 
 * Les objets suivants présentent des expériences similaires dans les trois onglets de la section Mises à jour :
 
@@ -152,28 +152,28 @@ Il existe des différences entre l’affichage des commentaires et des mises à 
    * Utilisateurs
    * Feuilles de temps
 
-* Les objets suivants ne comportent pas d’onglet Activité système ou Tous , et l’expérience de l’onglet Commentaires correspond à celle de tous les autres objets :
+* Les objets suivants n’ont pas d’onglet Activité du système ou Tous et l’expérience dans l’onglet Commentaires correspond à celle de tous les autres objets :
 
    * Equipe
    * Modèle
    * Tâche de modèle
 
-* Les objets suivants ne comportent pas d’onglet Activité système ou Tous et l’expérience dans l’onglet Commentaires diffère de celle de tous les autres objets :
+* Les objets suivants n’ont pas d’onglet Activité du système ni d’onglet Tout et l’expérience dans l’onglet Commentaires diffère de celle de tous les autres objets :
 
    * Itérations
-   * Carte ad hoc dans la zone Panoramas
+   * Cartes ad hoc dans la zone Tableaux
 
      Pour plus d’informations sur les mises à jour des cartes, voir [Ajouter une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-* Les objets suivants disposent d’un onglet d’activité Système et n’ont pas de panneau Tous :
+* Les objets suivants ont un onglet Activité du système et ils n’ont pas d’onglet Tous :
 
-   * Cartes connectées dans la zone Panoramas
+   * Cartes connectées dans la zone Tableaux
 
      Pour plus d’informations, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-* Les objets suivants disposent d’un onglet Historique qui remplace l’onglet Activité du système :
+* Les objets suivants comportent un onglet Historique qui remplace l’onglet Activité du système :
 
-   * Enregistrements dans la planification Workfront
+   * Enregistrements dans Workfront Planning
 
      Pour plus d’informations, voir [Présentation de la section Historique](/help/quicksilver/planning/records/history-section-overview.md).
 
@@ -345,4 +345,4 @@ Le rapport vous permet d’obtenir les informations suivantes :
 * Si la priorité a changé au cours d’un projet
 * Si la personne propriétaire d’un projet a changé.
 
-Pour plus d’informations, consultez la section [Rapport sur la zone Mises à jour](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Pour plus d&#39;informations, voir [Rapport sur la zone Mises à jour avec un rapport Entrée de journal](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).

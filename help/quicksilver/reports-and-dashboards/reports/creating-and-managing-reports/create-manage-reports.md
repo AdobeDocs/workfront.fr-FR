@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 100%
+source-wordcount: '132'
+ht-degree: 92%
 
 ---
 
@@ -39,7 +39,7 @@ Cette section contient les articles suivants :
 * [Créer des rapports de données financières avec des taux de change uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
 * [Modifier des paramètres de ressource](../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
 * [Modifier la personne propriétaire d’un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-* [Rapport sur la zone Mises à jour](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+* [Rapport sur la zone Mises à jour avec un rapport Entrée du journal](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
 * [Créer un rapport sur la délégation d’utilisateurs et d’utilisatrices](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
 
 <!--outdated: For in-depth training on reports, see [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->
