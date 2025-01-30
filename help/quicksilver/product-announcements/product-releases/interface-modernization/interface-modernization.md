@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 5620b1023e5708b7acf3aa2304b28a83112dbe55
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,6 @@ Pour afficher cette page, accédez à Configuration > Groupes > Sélectionner un
 
 Cette mise à jour comprend des modifications visuelles mineures de la zone. Aucune fonctionnalité n’a été modifiée.
 
-
 ### Mises à jour de l’interface pour l’onglet Notifications de rappel dans la configuration
 
 **Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
@@ -99,9 +98,21 @@ Nous avons mis à jour les listes d’approbation de projets, de tâches et d’
 
 Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonctionnalité n’a été modifiée.
 
+## Agile
+
+### Mise à jour de l’interface pour la liste des Itérations
+
+**Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour la liste Équipes > Itérations avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonctionnalité n’a été modifiée.
+
+Pour afficher cette modification, accédez à Équipes > choisir une équipe > Itérations.
+
 ## Rapports et tableaux de bord
 
-## Rapports d’e-mail mis à jour avec un nouveau style
+### Rapports d’e-mail mis à jour avec un nouveau style
 
 **Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
 
@@ -114,7 +125,7 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 ### Mise à jour du rapport d’itération avec un nouveau style
 
-**Version préliminaire : 17 janvier 2025 ; Version de production : à annoncer**
+**Version préliminaire : 17 janvier 2025 ; Version de production : à partir de la semaine du 20 janvier 2025**
 
 Nous avons mis à jour le rapport d’itération avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 

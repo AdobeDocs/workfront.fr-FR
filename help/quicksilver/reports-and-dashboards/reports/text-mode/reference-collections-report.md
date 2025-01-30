@@ -6,14 +6,16 @@ description: Collections de référence dans un rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2598'
-ht-degree: 100%
+source-wordcount: '2539'
+ht-degree: 89%
 
 ---
 
 # Collections de référence dans un rapport
+
+<!-- Audited: 1/2025 -->
 
 La création d’un rapport dans Adobe Workfront permet d’afficher un ensemble d’objets, leurs champs respectifs ou les objets liés sous la forme d’une liste, d’une grille ou d’un graphique.
 
@@ -23,32 +25,41 @@ Pour plus d’informations sur la création d’un rapport dans Workfront, voir 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+      <p>Nouveau :</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Actuel :</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> <p>Autorisations Gérer sur une vue, un filtre ou un regroupement </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p> <p>Autorisations Gérer sur une vue, un filtre ou un regroupement </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -128,8 +139,9 @@ Vous pouvez, par exemple, afficher les informations sur une tâche ou un problè
 
 Vous pouvez afficher des informations sur les tâches ou les problèmes, tels que les noms, les dates, les personnes cessionnaires principales, le pourcentage d’achèvement, etc., dans la vue Collection.
 
-La vue affiche des informations sur les tâches ou les problèmes sous forme de liste, chaque ligne de la liste représentant des informations sur une tâche ou un problème. La liste des tâches ou des problèmes et de leurs champs s’affiche sur la même ligne que le projet auquel appartiennent les tâches ou les problèmes.\
-![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
+La vue affiche des informations sur les tâches ou les problèmes sous forme de liste, chaque ligne de la liste représentant des informations sur une tâche ou un problème. La liste des tâches ou des problèmes et de leurs champs s’affiche sur la même ligne que le projet auquel appartiennent les tâches ou les problèmes.
+
+![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
 * [Ajouter une colonne de collection dans une vue de rapport](#add-a-collection-column-in-a-report-view)
 * [Fonctionnement des lignes d’une vue de collection en mode texte](#understand-the-lines-of-a-collection-view-in-text-mode)
@@ -144,7 +156,8 @@ Pour ajouter une colonne de collection dans une vue de rapport, procédez comme 
 1. Sélectionnez l’objet de votre rapport.
 1. Sortez du rapport et, à l’aide de l’[explorateur d’API](../../../wf-api/general/api-explorer.md), déterminez les collections disponibles pour l’objet sélectionné pour votre rapport.
 
-   Pour plus d’informations sur la sélection de l’objet de votre collection, voir la section [Rechercher des objets de collection et leurs champs dans l’explorateur d’API](#find-collection-objects-and-their-fields-in-the-api-explorer) dans cet article.\
+   Pour plus d’informations sur la sélection de l’objet de votre collection, voir la section [Rechercher des objets de collection et leurs champs dans l’explorateur d’API](#find-collection-objects-and-their-fields-in-the-api-explorer) dans cet article.
+
    Notez le nom de l’objet de la collection.
 
 1. En utilisant l’[explorateur d’API](../../../wf-api/general/api-explorer.md), accédez à la liste des champs de l’objet que vous souhaitez afficher dans la collection.
@@ -155,7 +168,7 @@ Pour ajouter une colonne de collection dans une vue de rapport, procédez comme 
 
 1. Revenez à votre rapport et, dans l’onglet **Colonnes (Affichage)**, cliquez sur **Ajouter une colonne**.
 1. Cliquez sur **Basculer en mode texte**.
-1. Pointez la souris sur la boîte de dialogue, puis cliquez sur **Cliquez pour modifier le texte**.
+1. Cliquez sur **Modifier le mode texte**.
 1. Sélectionnez tout le texte dans la boîte de dialogue **Mode texte** et supprimez-le, puis collez le code suivant si vous référencez un champ de l’objet de collection :
 
    ```
@@ -223,7 +236,7 @@ Pour ajouter une colonne de collection dans une vue de rapport, procédez comme 
 
 1. La colonne suivante s’affiche dans le rapport de projet, répertoriant toutes les tâches de chaque projet avec leurs principaux et principales cessionnaires :
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
+   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Cliquer sur **Enregistrer**.
 1. (Facultatif) Poursuivez la modification du rapport.
@@ -311,7 +324,7 @@ Pour ajouter une référence à une collection dans un filtre de rapport :
 
    Notez le champ que vous souhaitez afficher dans la collection.
 
-1. Revenez à votre rapport et dans l’onglet **Filtres**, cliquez sur **Passer en mode Texte**.
+1. Revenez à votre rapport et, dans l’onglet **Filtres**, cliquez sur **Passer en mode texte** puis **Modifier le mode texte**.
 
 1. Dans la zone **Définir des règles de filtrage pour votre rapport**, collez le code suivant :
 
@@ -337,7 +350,7 @@ Pour ajouter une référence à une collection dans un filtre de rapport :
 
    Ce rapport affiche uniquement les projets dont le nom contient au moins une tâche portant le mot « marketing ».
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png)
+   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Pour filtrer le nom d’un problème, utilisez le code suivant :
 
@@ -359,21 +372,21 @@ Pour ajouter une référence à une collection dans un filtre de rapport :
 
 ### Référencer une collection dans l’invite personnalisée d’un rapport {#reference-a-collection-in-the-custom-prompt-of-a-report}
 
-Vous pouvez référencer une collection d’objets dans l’invite personnalisée d’un rapport afin de filtrer les résultats du rapport en fonction des attributs des objets associés à l’objet du rapport.
+Vous pouvez référencer une collection d’objets dans l’invite personnalisée d’un rapport afin de filtrer les résultats du rapport pour les attributs des objets associés à l’objet du rapport.
 
-Par exemple, vous pouvez demander des informations sur la tâche dans un rapport de projet en utilisant une référence aux attributs des tâches du projet dans l’invite personnalisée du rapport.
+Par exemple, vous pouvez demander des informations sur les tâches dans un rapport de projet en utilisant une référence aux attributs des tâches sur le projet dans l&#39;invite personnalisée du rapport.
 
 >[!NOTE]
 >
 >Vous ne pouvez pas référencer des collections dans une invite standard.
 
-Une invite personnalisée est un filtre personnalisé où les déclarations sont jointes par des symboles d’esperluette. Nous vous recommandons de créer votre déclaration dans un filtre, d’abord, puis de joindre les lignes des déclarations avec des esperluettes.
+Une invite personnalisée est un filtre personnalisé dans lequel les instructions sont jointes par des esperluettes et des symboles. Nous vous recommandons de créer votre déclaration dans un filtre, d’abord, puis de joindre les lignes des déclarations avec des esperluettes.
 
 Pour plus d’informations sur la création d’une déclaration de filtre avec une référence de collection, voir la section [Référencer une collection dans le filtre d’un rapport](#reference-a-collection-in-the-filter-of-a-report) dans cet article.
 
-Pour ajouter une référence à une collection dans l’invite personnalisée d’un rapport :
+Pour ajouter une référence à une collection dans l’invite personnalisée d’un rapport :
 
-1. Cliquez sur le menu **Principal** ![](assets/main-menu-icon.png), puis cliquez sur **Rapports**.
+1. Cliquez sur le menu **Principal** ![](assets/main-menu-icon.png), puis sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**.
 1. Sélectionnez l’objet de votre rapport.
 1. Créez un filtre avec une référence de collection comme décrit dans la section [Référencer une collection dans le filtre d’un rapport](#reference-a-collection-in-the-filter-of-a-report) dans cet article.
@@ -381,7 +394,7 @@ Pour ajouter une référence à une collection dans l’invite personnalisée d�
 1. Cliquez sur **Invites de rapports**.
 1. Cliquez sur **Ajouter une invite**.
 1. Cliquez sur **Invite personnalisée**.
-1. Indiquez le nom de l’invite dans le champ **Nom****champ**.
+1. Indiquez le nom de l’invite dans le champ **Field****name**.
 
 1. Indiquez un **Libellé de l’élément de liste déroulante**.
 1. Indiquez les éléments suivants dans le champ **Condition** :
@@ -391,11 +404,11 @@ Pour ajouter une référence à une collection dans l’invite personnalisée d�
    ```
 
 1. (Facultatif) Indiquez si ce choix est affiché par défaut dans l’invite.
-1. Remplacez le **nom de l’objet de collection** avec le nom de votre objet de collection tel qu’il apparaît dans l’[Explorateur d’API](../../../wf-api/general/api-explorer.md).Cette valeur correspond généralement à la forme plurielle du nom de l’objet de collection.
-1. Remplacez le **Champ de l’objet de collection** le avec le nom du champ de votre objet de collection, tel qu’il apparaît dans l’[Explorateur d’API](../../../wf-api/general/api-explorer.md).
+1. Remplacez le **nom de l’objet de collection** avec le nom de votre objet de collection tel qu’il apparaît dans l’[Explorateur d’API](../../../wf-api/general/api-explorer.md). Cette valeur correspond généralement à la forme plurielle du nom de l’objet de collection.
+1. Remplacez **champ d’objet de collection** par le nom du champ de votre objet de collection, tel qu’il apparaît dans l’[explorateur d’API](../../../wf-api/general/api-explorer.md).
 1. Remplacez la **valeur de l’objet de collection** avec la valeur de l’objet de collection tel qu’elle apparaît dans Workfront.
 
-   Par exemple, si vous filtrez les projets dont le nom de la tâche contient « Marketing », remplacez la **valeur de l’objet de collection** par **marketing**.
+   Par exemple, si vous filtrez des projets dans lesquels le nom de la tâche contient « Marketing », remplacez **valeur de l&#39;objet de collection** par **marketing**.
 
 1. Remplacez la **valeur du modificateur** avec un modificateur valide.
 
@@ -407,11 +420,11 @@ Pour ajouter une référence à une collection dans l’invite personnalisée d�
    tasks:assignedToID=57cf1b7a000077c9f02f66cb09c8f86c&tasks:assignedToID_Mod=in
    ```
 
-   Cela génère un rapport dans lequel tous les projets répertoriés comportent au moins une tâche affectée à la personne dont le GUID est 57cf1b7a000077c9f02f66cb09c8f86c.
+   Cette opération génère un rapport dans lequel au moins une tâche est affectée à l&#39;utilisateur dont le GUID est 57cf1b7a000077c9f02f66cb09c8f86c.
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas référencer le nom du cessionnaire principal ou de la cessionnaire principale (champ « Affectée à ») d’une tâche, selon l’[Explorateur d’API](../../../wf-api/general/api-explorer.md). Vous ne pouvez référencer que l’identifiant du cessionnaire principal ou de la cessionnaire principale.
+   >Vous ne pouvez pas référencer le nom du cessionnaire principal ou de la cessionnaire principale (champ « Affectée à ») d’une tâche, selon l’[Explorateur d’API](../../../wf-api/general/api-explorer.md). Vous pouvez uniquement référencer l’identifiant de la personne désignée principale.
 
    Par exemple, pour filtrer les projets pour lesquels l’un des problèmes de projet est affecté à une personne spécifique, utilisez le code suivant pour votre invite personnalisée :
 
@@ -419,11 +432,11 @@ Pour ajouter une référence à une collection dans l’invite personnalisée d�
    issues:assignedToID=57cf1b7a000077c9f02f66cb09c8f86c&issues:assignedToID_Mod=in
    ```
 
-   Cela génère un rapport dans lequel tous les projets répertoriés comportent au moins un problème affecté à la personne dont le GUID est 57cf1b7a000077c9f02f66cb09c8f86c.
+   Cette opération génère un rapport dans lequel au moins un événement est affecté à tous les projets répertoriés pour l&#39;utilisateur dont le GUID est 57cf1b7a000077c9f02f66cb09c8f86c.
 
    >[!NOTE]
    >
-   >Notez que vous devez utiliser **Problèmes** pour le nom de l’objet de collection. Pour l’instant, l’explorateur d’API ne propose pas de nom d’objet de collection pour les problèmes.
+   >Notez que vous devez utiliser **Problèmes** pour le nom de l’objet de collection. L’explorateur d’API ne propose pas de nom d’objet de collection pour les problèmes actuels.
 
 1. Cliquez sur **Terminé**.
 1. (Facultatif) Poursuivez la modification du rapport.
