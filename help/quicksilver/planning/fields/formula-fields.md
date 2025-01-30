@@ -1,15 +1,15 @@
 ---
-title: Présentation des champs de formule
+title: Aperçu des champs de formule
 description: Dans Adobe Workfront Planning, vous pouvez créer des champs de formule qui utilisent des fonctions et des champs existants pour calculer une nouvelle valeur personnalisée.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 60%
+source-wordcount: '664'
+ht-degree: 54%
 
 ---
 
@@ -17,17 +17,21 @@ ht-degree: 60%
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
 {{planning-important-intro}}
 
-Vous pouvez créer des champs personnalisés dans la Planification Adobe Workfront en vous référant à des champs existants et en les reliant dans un champ de type Formule .
+Vous pouvez créer des champs personnalisés dans Adobe Workfront Planning en vous référant à des champs existants et en les connectant dans un champ de type Formule .
 
 Les champs de type formule génèrent une nouvelle valeur en utilisant des valeurs existantes provenant d’autres champs d’un type d’enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
 
-Pour plus d’informations, reportez-vous à la section &quot;Formule&quot; de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
+Pour plus d’informations, consultez la section « Formule » de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès pour Workfront Planning.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -48,14 +52,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -63,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -71,7 +75,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard</p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -156,12 +160,12 @@ OLD:
 
 ## Remarques sur les champs de formule
 
-* Les champs de formule font référence à des champs qui appartiennent au même type d&#39;enregistrement.
-* Vous ne pouvez référencer des champs provenant d’autres types d’enregistrement que lorsque vous associez un autre type d’enregistrement à celui pour lequel vous créez un champ de formule.
-* Une fois enregistré, vous ne pouvez pas modifier le type de champ d&#39;un champ Formule.
+* Les champs de formule font référence à des champs appartenant au même type d&#39;enregistrement.
+* Vous ne pouvez référencer des champs d&#39;autres types d&#39;enregistrements que lorsque vous connectez un autre type d&#39;enregistrement à celui pour lequel vous créez un champ de formule.
+* Vous ne pouvez pas modifier le type de champ d&#39;un champ de formule après l&#39;avoir enregistré.
 * Vous pouvez mettre à jour le calcul d’un champ de formule après l’avoir enregistré, et les résultats du calcul sont automatiquement mis à jour pour tous les enregistrements du même type.
 * Vous devez ajouter les champs que vous référencez dans les formules tel qu’ils s’affichent dans l’interface de Workfront Planning.
-* Vous pouvez référencer uniquement les champs qui s’affichent dans la vue de tableau d’un type d’enregistrement ou sur la page des détails de l’enregistrement.
+* Vous ne pouvez référencer que les champs qui s&#39;affichent dans la vue Tableau d&#39;un type d&#39;enregistrement ou dans la page Détails de l&#39;enregistrement.
 * Vous pouvez définir le format de la valeur d&#39;un calcul de formule en choisissant parmi les options de format suivantes :
 
    * Texte
@@ -171,13 +175,30 @@ OLD:
    * Balises
    * Date
 
-  Pour plus d’informations, reportez-vous à la section &quot;Formule&quot; de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
+  Pour plus d’informations, consultez la section « Formule » de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Formules prises en charge
 
-Les champs de formule Adobe Workfront Planning prennent en charge toutes les expressions des champs calculés Workfront. Pour obtenir une liste des expressions Workfront, reportez-vous à la section [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Les champs de formule Adobe Workfront Planning prennent en charge la plupart des expressions des champs calculés Workfront.
 
-Nous prenons également en charge les expressions suivantes pour les champs de formule Workfront Planning :
+<!-- make the note available when WF releases the expressions listed in it: 
+
+>[!NOTE]
+>
+>The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>
+>* SORTASCARRAY
+>* SORTDESCARRAY
+>* ADDHOUR
+>* SWITCH
+>* FORMAT
+-->
+
+Pour obtenir une liste complète des expressions Workfront, voir [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+En outre, nous prenons en charge les expressions suivantes pour les champs de formule Workfront Planning. Les expressions suivantes ne sont pas prises en charge pour les expressions Workfront :
+
+<!--take these three out when they also come to WF and Lisa has added them to the WF expression article linked above-->
 
 <table style="table-layout:auto"> 
  <col> 
@@ -190,6 +211,21 @@ Nous prenons également en charge les expressions suivantes pour les champs de f
  </thead> 
  <tbody>
 
+<tr>
+   <td><strong>TABLEAU</strong> </td>
+   <td> <p>Convertit une chaîne en tableau. Le délimiteur peut être n’importe quelle chaîne.</p>
+   <p>L’expression est formatée comme suit :</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>ARRAYELEMENT</strong> </td>
+   <td> <p>Renvoie l’élément au nombre spécifié dans le tableau . Si l’index est hors limites, il renvoie vide.</p>
+   <p>L’expression est formatée comme suit :</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p>
+   </td>
+  </tr>
+
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Renvoie une chaîne concaténée par délimiteur.</p> <p>L’expression est formatée comme suit :
@@ -197,6 +233,12 @@ Nous prenons également en charge les expressions suivantes pour les champs de f
 <code>ARRAYJOIN(delimiter,array)</code>
 </p>
    </td></tr>
+  <tr>
+   <td><strong>ARRAYLENGTH</strong> </td>
+   <td> <p>Renvoie le nombre d’éléments dans le tableau et est formaté comme suit :</p>
+   <p><code>ARRAYLENGTH(array)</code></p>
+   </td>
+  </tr>
 
 <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 

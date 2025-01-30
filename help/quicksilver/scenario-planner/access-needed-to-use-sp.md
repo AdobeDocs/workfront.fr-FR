@@ -7,7 +7,7 @@ description: Le planificateur de scénarios nécessite une licence distincte d�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 99711cef67750a04f7a971538a978eff3656ff85
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 90%
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 <!--Audited: 04/2024-->
 
-[!DNL Scenario Planner] a des exigences de licence supplémentaires. Pour plus d’informations sur [!DNL Workfront Scenario Planner], consultez [Vue d’ensemble du  [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md).
+Le [!DNL Scenario Planner] a des exigences de licence supplémentaires. Pour plus d’informations sur [!DNL Workfront Scenario Planner], consultez [Vue d’ensemble du  [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md).
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
@@ -34,11 +34,11 @@ Vous devez vous assurer que toutes les conditions suivantes sont remplies avant 
 
    Selon que vous utilisez le nouveau plan Workfront ou le plan actuel, votre entreprise doit disposer de l’une des options suivantes :
 
-   * Pour les nouveaux plans, votre organisation doit avoir le plan [!UICONTROL Ultimate] [!DNL Workfront]. Le planificateur de scénario est inclus uniquement dans le plan [!UICONTROL Ultimate].
+   * Pour les nouveaux plans, votre organisation doit disposer du plan de [!DNL Workfront] [!UICONTROL Ultimate]. Le planificateur de scénarios est inclus uniquement dans le plan [!UICONTROL Ultimate].
 
    * Pour les plans Workfront actuels, votre organisation doit disposer des deux éléments suivants :
 
-      * Votre entreprise doit souscrire à un plan [!DNL Workfront] [!UICONTROL Entreprises] ou [!DNL Workfront] supérieur. Pour plus d’informations sur les plans [!DNL Workfront], consultez [Plans Workfront](https://workfront.com/plans).
+      * Votre entreprise doit souscrire à un plan [!DNL Workfront] [!UICONTROL Entreprises] ou [!DNL Workfront] supérieur. Pour plus d’informations sur les plans [!DNL Workfront], consultez [Plans Workfront](https://www.workfront.com/plans?lang=fr).
 
       * Votre organisation doit acquérir une licence [!DNL Workfront Scenario Planner], en plus de la licence [!DNL Workfront]. Contactez votre représentant ou représentante de compte [!DNL Workfront] pour en savoir plus sur les licences [!DNL Workfront Scenario Planner].
 
@@ -120,13 +120,13 @@ Les niveaux d’accès fonctionnent avec les autorisations dans [!DNL Workfront]
 
 Tous les utilisateurs, y compris les administrateurs système, n’ont accès qu’aux plans qu’ils ont créés.
 
-Pour afficher les plans créés par d’autres utilisateurs, ils doivent partager leurs plans avec vous de la manière suivante :
+Pour afficher les plans créés par d’autres utilisateurs, ils doivent vous les partager comme suit :
 
 * Partager le plan avec vous
 
   Pour plus d’informations sur le partage de plans, voir [Partager un plan dans le  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
 
-* Envoyer un lien vers un plan qu’il a créé
+* Envoyer un lien vers un plan qu’ils ont créé
 
   Si un utilisateur ou une utilisatrice partage un lien vers un plan, mais sans partager le plan, vous pouvez demander des autorisations pour le plan. Pour plus d’informations sur la demande d’autorisations pour les plans, voir [Demander l’accès à un plan dans le  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 

@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
 source-wordcount: '2007'
 ht-degree: 53%
@@ -296,7 +296,11 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
    Dans la vue Tableau, cliquez sur l’icône **Ouvrir les détails** ![](assets/open-details-icon-in-table-name-field.png) dans la première colonne. L’aperçu de l’enregistrement s’ouvre dans la vue.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png) 
+
+    </div>-->
 
 1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
 
@@ -316,6 +320,18 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 1. (Facultatif) Pointez sur l’icône de miniature, puis cliquez sur **Plus** ![](assets/more-menu.png) > **Modifier la miniature** pour ajouter une image miniature. Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront enregistre automatiquement vos modifications.
+
+   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+
+    The names and avatars of all users accessing the record at the same time display in this area.  
+
+    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
+    
+    <div class="preview">
+
+    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+    </div>-->
 
 1. (Facultatif) Cliquez sur l’![](assets/export-icon-in-record-details-page.png) du menu **Exporter** pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 
@@ -342,6 +358,8 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
      ![](assets/contextual-menu-for-record-row.png)
 
      La page de l’enregistrement s’ouvre.
+
+     <!--update the screen shot below at preview-->
 
      ![](assets/details-page.png)
 
@@ -372,6 +390,18 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
    Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront enregistre automatiquement vos modifications.
+
+   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+
+    The names and avatars of all users accessing the record at the same time display in this area.  
+
+    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
+    
+    <div class="preview">
+
+    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+    </div>-->
 
 1. (Facultatif) Cliquez sur l’![](assets/export-icon-in-record-details-page.png) du menu **Exporter** pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 

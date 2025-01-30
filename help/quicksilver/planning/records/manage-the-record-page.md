@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 10%
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 # Gérer la mise en page de la page d’enregistrement
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -161,7 +161,11 @@ Pour ajouter une section à une prévisualisation d’enregistrement ou à une p
 
    L’aperçu de l’enregistrement s’ouvre dans la vue.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png)  
+
+    </div>-->
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
@@ -240,13 +244,21 @@ Voici ce qui se produit :
 
    L’aperçu de l’enregistrement s’ouvre dans la vue.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png) 
+
+    </div>-->
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    L’onglet **Détails** de l’enregistrement s’ouvre par défaut.
 
+   <!--<div class="preview">
+
    ![](assets/details-page.png)
+
+   </div>-->
 
 1. Dans l’onglet Enregistrement **Détails**, cliquez sur l’icône **saisir** ![](assets/grab-icon.png) à gauche d’un nom de champ, puis faites-le glisser et déposez-le à l’endroit souhaité. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 

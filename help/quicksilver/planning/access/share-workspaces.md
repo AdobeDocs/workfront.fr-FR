@@ -1,19 +1,23 @@
 ---
-title: Partage des espaces de travail
+title: Partager les espaces de travail
 description: Vous pouvez partager un espace de travail avec d’autres personnes pour travailler en collaboration dans Adobe Workfront Planning.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 56%
+source-wordcount: '784'
+ht-degree: 45%
 
 ---
 
 # Partager des espaces de travail
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -29,7 +33,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès pour Workfront Planning.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -50,14 +54,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -65,8 +69,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p>
-<p>Votre entreprise doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent demander et accorder des autorisations à un espace de travail à partir d’une demande d’autorisation. </p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p>
+<p>Votre organisation doit être intégrée à l’expérience unifiée d’Adobe pour que les utilisateurs puissent demander et accorder des autorisations à un espace de travail à partir d’une demande d’autorisation. </p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -74,7 +78,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard </p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -173,9 +177,13 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. Dans le champ **Accorder un accès à l’espace de travail à**, commencez à saisir le nom d’une personne ou d’un groupe, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+1. Dans le champ **Accorder l’accès à l’espace de travail à**, commencez à saisir le nom d’un utilisateur, d’un groupe, d’une <span class="preview">équipe, d’une entreprise ou d’une fonction</span> puis cliquez dessus lorsqu’il s’affiche dans la liste.
+
+   <div class="preview">
 
    ![](assets/sharing-ui-with-groups.png)
+
+   </div>
 
 1. Sélectionnez l’un des niveaux d’autorisation suivants dans le menu déroulant :
    * Afficher
@@ -187,17 +195,17 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 1. Partagez le lien copié avec d’autres personnes. Les personnes qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à l’espace de travail.
 1. Cliquer sur **Enregistrer**.
 
-## Octroi d’autorisations à un espace de travail à partir d’une demande d’autorisation
+## Octroyer des autorisations à un espace de travail à partir d’une demande d’autorisation
 
-Les utilisateurs qui accèdent à un lien vers un espace de travail auquel ils ne sont pas autorisés peuvent demander des autorisations sur l’espace de travail. Tous les utilisateurs disposant des autorisations Manage (Gérer) pour l’espace de travail reçoivent la demande d’autorisation et peuvent accorder ou refuser des autorisations.
+Les utilisateurs et utilisatrices qui accèdent à un lien vers un espace de travail pour lequel ils ne disposent pas d’autorisations peuvent demander des autorisations pour l’espace de travail . Tous les utilisateurs disposant d’autorisations de niveau Gérer pour l’espace de travail reçoivent la demande d’autorisation et peuvent accorder ou refuser les autorisations.
 
-1. (Conditionnel) Si vous êtes le responsable d’un espace de travail, vous pouvez recevoir une demande d’un autre utilisateur pour accéder à la vue dans les zones suivantes :
+1. (Conditionnel) Si vous êtes le responsable d&#39;un espace de travail, il se peut que vous receviez une demande d&#39;un autre utilisateur pour accéder à la vue dans les zones suivantes :
 
    * Une notification in-app
      ![](assets/in-app-notification-for-access-request.png)
    * Notification par e-mail
      ![](assets/email-notification-for-access-request.png)
-1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app.
+1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app
 Ou
 Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications**, puis cliquez sur la notification dans la liste.
 
@@ -209,10 +217,10 @@ Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications
    * **Afficher**
    * **Contribuer**
    * **Gérer**
-1. Sélectionnez l’utilisateur pour lequel vous souhaitez approuver ou refuser l’autorisation, puis cliquez sur **Approuver tout** ou **Refuser tout**.
-1. Cliquez sur la flèche pointant vers la gauche de **Demandes d&#39;accès en attente**, puis cliquez sur **Enregistrer**.
+1. Sélectionnez l’utilisateur pour lequel vous souhaitez approuver ou refuser l’autorisation, puis cliquez sur **Approuver tout** ou **Tout refuser**.
+1. Cliquez sur la flèche pointant vers la gauche de **Demandes d’accès en attente**, puis cliquez sur **Enregistrer**.
 
-   Si vous avez approuvé la requête, les utilisateurs sont ajoutés à la boîte de partage de l’espace de travail. L’utilisateur qui demande l’autorisation reçoit une confirmation par email que sa demande a été approuvée. <!--will they also get an in-app notification??-->
+   Si vous avez approuvé la demande, les utilisateurs sont ajoutés à la zone de partage de l’espace de travail. L’utilisateur demandant l’autorisation reçoit un courrier électronique de confirmation confirmant que sa demande a été approuvée. <!--will they also get an in-app notification??-->
 
 
 ## Supprimer des autorisations d’un espace de travail
@@ -221,7 +229,7 @@ Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications
 {{step1-to-planning}}
 
 1. Ouvrez l’espace de travail pour lequel vous souhaitez supprimer des autorisations, puis cliquez sur **Partager** dans le coin supérieur droit de l’écran.
-1. Cliquez sur le menu déroulant situé à droite du nom d’une personne ou d’un groupe, puis cliquez sur **Supprimer**.
+1. Cliquez sur le menu déroulant situé à droite du nom d&#39;une entité avec laquelle vous partagez l&#39;espace de travail, puis cliquez sur **Supprimer**.
 1. Cliquer sur **Enregistrer**.
 
-   La ou les personnes appartenant au groupe supprimé n’ont plus accès à l’espace de travail ou à ses objets.
+   Les utilisateurs supprimés n’ont plus accès à l’espace de travail ou à ses objets.
