@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: a7166f04f5916aebc07d5a5f73fa4f1f74b7a4a8
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 47%
+source-wordcount: '651'
+ht-degree: 51%
 
 ---
 
@@ -36,10 +36,10 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 
 ## Améliorations apportées à Adobe Workfront
 
-* [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
+<!--* [Administrator enhancements](#administrator-enhancements)-->
 * [Autres améliorations](#other-enhancements)
 
-### Améliorations apportées aux administrateurs et administratrices
+<!--### Administrator enhancements
 
 <table>
 <col style="width: 50%;" />
@@ -48,19 +48,19 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Représenter les modifications utilisateur de Adobe Admin Console sous la forme « Système » dans le flux de mise à jour de Workfront</a></p>
-            <p>Désormais, lorsque l’administrateur du Adobe Admin Console apporte une modification aux informations utilisateur d’un utilisateur Workfront, Workfront enregistre cette modification dans l’onglet Activité système de la zone Mises à jour de l’utilisateur comme appartenant au « Système ». Fait référence à l’administrateur Adobe Admin Console.</p>
+            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
+            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
         </td>
         <td>
-            <p><b>Disponible à ces dates :</b></p>
+            <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Version préliminaire : vendredi 30 janvier 2025</li>
-                <li><span class="preview">Version de production pour tous les clients : 30 janvier 2025</span></li>
+                <li>Preview release: January 30, 2025</li>
+                <li><span class="preview">Production release for all customers: January 30, 2025</span></li>
             </ul>
         </td>
     </tr>                          
 </tbody>
-</table>
+</table>-->
 
 ### Autres améliorations
 
