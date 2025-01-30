@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: business-case-and-scorecards
-title: Créer et modifier des risques sur les projets
+title: Créer et modifier des risques dans les projets
 description: Les risques sont des événements ou des facteurs possibles qui empêchent un projet de se terminer à temps ou dans les limites du budget. Les risques peuvent être enregistrés dans le cadre de la création du business case d’un projet ou à l’aide de l’onglet Risques. Les risques ne sont créés que sur un projet. Vous ne pouvez pas associer des risques à des tâches ou des problèmes.
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 8611c7bf8be6405f8ec8462ff2fd0f5998e8a995
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 100%
+source-wordcount: '1036'
+ht-degree: 97%
 
 ---
 
 # Créer et modifier des risques sur les projets
+
+<!--Audited: 01/2025-->
 
 Les risques sont des événements ou des facteurs possibles qui empêchent un projet de se terminer à temps ou dans les limites du budget. Les risques peuvent être enregistrés dans le cadre de la création du business case d’un projet ou à l’aide de l’onglet Risques. Les risques ne sont créés que sur un projet. Vous ne pouvez pas associer des risques à des tâches ou des problèmes.
 
@@ -27,30 +29,35 @@ Les risques peuvent être associés au coût, mais le coût réel des risques n�
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nouveau : Standard </p>
+   <p>Actuel : formule </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux projets et aux données financières</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux projets et aux données financières</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p> Autorisations de gestion qui incluent la gestion des finances sur le projet pour lequel vous souhaitez créer ou modifier des risques. </p> <p>Pour plus d’informations sur les autorisations de projet, voir l’article <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p> </td> 
+   <td> <p> Autorisations de gestion qui incluent la gestion des finances sur le projet pour lequel vous souhaitez créer ou modifier des risques. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Créer et modifier des risques dans le business case
 

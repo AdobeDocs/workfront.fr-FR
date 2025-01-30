@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1562'
 ht-degree: 34%
 
 ---
@@ -259,7 +259,9 @@ Pour créer des enregistrements au fur et à mesure que vous les connectez à pa
    * Vue Tableau
    * Page de détails ou zone de prévisualisation d’un enregistrement
 
-1. (Conditionnel) Si vous ne trouvez pas un enregistrement lorsque vous tentez de l’ajouter à partir du champ d’enregistrement connecté d’un autre enregistrement, recherchez un enregistrement, puis cliquez sur **+ Ajouter**. Le bouton **+ Ajouter** est suivi du nom du type d’enregistrement auquel vous vous connectez. Par exemple, « Ajouter des marques » lors de l’ajout d’une marque à une campagne existante.
+1. (Conditionnel) Si vous ne trouvez pas un enregistrement lorsque vous tentez de l’ajouter à partir du champ d’enregistrement connecté d’un autre enregistrement, recherchez un enregistrement, puis cliquez sur **+ Ajouter**. Le bouton **+ Ajouter** est suivi du nom du type d’enregistrement auquel vous vous connectez. Par exemple, « Ajouter des marques » lors de l’ajout d’une marque à une campagne existante. Le nom saisi suit également le bouton Ajouter .
+
+   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
