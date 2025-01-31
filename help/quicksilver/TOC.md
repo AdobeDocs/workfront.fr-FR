@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: af7cca08b80dff1baa9a2d9dad421920db008981
+source-git-commit: a9c2abc7f0d75eb9f90a9437eff7ac4d35fbb431
 workflow-type: tm+mt
-source-wordcount: '13017'
+source-wordcount: '13025'
 ht-degree: 92%
 
 ---
@@ -22,7 +22,8 @@ ht-degree: 92%
       * Version du 2e trimestre 2025 {#release-25-q2}
          * [Vue d’ensemble de la version du 2e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [Améliorations concernant les équipes d’administration du 2e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
-         * [Autres améliorations apportées au cours du deuxième trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)<!--* [Look-and-feel updates during the 2025 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)-->
+         * [Autres améliorations au cours du deuxième trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
+         * [Mises à jour de l’aspect pendant la période de publication du 2e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
       * Version du 1er trimestre 2025 {#release-25-q1}
          * [Vue d’ensemble de la version du 1er trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [Améliorations concernant les équipes d’administration du 1er trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)

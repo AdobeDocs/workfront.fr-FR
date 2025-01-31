@@ -8,10 +8,10 @@ description: L’équipe d’administration de Workfront Proof peut configurer 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '546'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## Connexion
 
-1. Accédez à [la page de connexion](https://www.proofhq.com/login) (ou à notre site web à l’adresse [www.proofhq.com](https://www.proofhq.com/)).
+1. Accédez à [la page de connexion](https://app.proofhq.com/login).
 
 1. Cliquez sur le bouton [!UICONTROL Se connecter] en haut à droite.
 1. Saisissez votre adresse e-mail et votre mot de passe.\
@@ -46,7 +46,7 @@ Pour les formules [!UICONTROL Entreprise] et [!UICONTROL Illimité], nous offron
 
 Si vous oubliez votre mot de passe, vous pouvez demander à [!DNL Workfront Proof] de vous envoyer un e-mail de réinitialisation.
 
-1. Accédez à [la page de connexion](https://www.proofhq.com/login) (ou à notre site web à l’adresse [www.proofhq.com](https://www.proofhq.com/)).
+1. Accédez à [la page de connexion](https://app.proofhq.com/login).
 
 1. Cliquez sur **[!UICONTROL Mot de passe oublié ?]**.
 1. Dans la zone qui s’affiche, saisissez votre adresse e-mail, puis cliquez sur **[!UICONTROL Obtenir un lien]**.
