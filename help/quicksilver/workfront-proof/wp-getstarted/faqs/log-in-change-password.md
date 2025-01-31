@@ -8,7 +8,7 @@ description: L’équipe d’administration de Workfront Proof peut configurer 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
+source-git-commit: e842e6714d6fa9c3944f03723f95029af1a85379
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 98%
@@ -22,6 +22,7 @@ ht-degree: 98%
 >Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture à l’intérieur d’[!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Connexion
+
 
 1. Accédez à [la page de connexion](https://app.proofhq.com/login).
 
@@ -45,6 +46,7 @@ Pour les formules [!UICONTROL Entreprise] et [!UICONTROL Illimité], nous offron
 ## Lorsque vous oubliez votre mot de passe. {#when-you-forget-your-password}
 
 Si vous oubliez votre mot de passe, vous pouvez demander à [!DNL Workfront Proof] de vous envoyer un e-mail de réinitialisation.
+
 
 1. Accédez à [la page de connexion](https://app.proofhq.com/login).
 

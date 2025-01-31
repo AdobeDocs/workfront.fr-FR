@@ -6,10 +6,10 @@ description: Chaque widget contient sa propre liste de tâches. Les listes de tr
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 27%
+source-wordcount: '991'
+ht-degree: 21%
 
 ---
 
@@ -59,6 +59,40 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Conditions requises pour que les éléments de travail s’affichent dans la liste de travail
+
+Il existe des exigences intégrées pour lesquelles les éléments de travail s’affichent dans certaines listes de travail de widgets. Les éléments de travail doivent répondre à ces exigences pour apparaître dans les listes de travail du widget suivant.
+
+### Widget Mes tâches
+
+Les tâches doivent répondre aux exigences suivantes pour apparaître dans le widget Mes tâches :
+
+* Le statut de la tâche n’est pas équivalent à Terminé.
+* L&#39;utilisateur connecté doit être affecté à la tâche.
+* Le statut de la tâche n’est pas égal à Terminé.
+* Le projet auquel appartient la tâche doit avoir un statut équivalent à Actuel.
+
+
+### Widget Mes événements
+
+Les événements doivent répondre aux exigences suivantes pour apparaître dans le widget Mes événements :
+
+* L&#39;utilisateur connecté doit être affecté à l&#39;événement.
+* Le statut de l&#39;événement n&#39;est pas défini sur Terminé.
+* Aucun objet non résolu n’est associé au problème.
+* Le statut de l&#39;événement n&#39;est pas égal à Terminé.
+* Le projet auquel appartient le problème doit avoir un statut équivalent à Actuel.
+
+### Widget Mes équipes
+
+Les demandes de l’équipe doivent répondre aux exigences suivantes pour apparaître dans le widget Mes équipes :
+
+* L&#39;utilisateur connecté appartient à l&#39;équipe à laquelle l&#39;élément de travail est affecté.
+* Le statut de l’élément de travail n’est pas équivalent à Terminé.
+* Aucun processus d&#39;approbation non résolu n&#39;est associé à l&#39;élément de travail.
+* L’élément de travail n’est pas une tâche périodique.
+* Le projet auquel appartient l’élément de travail doit avoir un statut équivalent à Actuel.
 
 ## Filtrer votre travail
 
