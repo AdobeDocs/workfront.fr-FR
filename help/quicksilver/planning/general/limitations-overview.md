@@ -6,14 +6,13 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 38%
 
 ---
 
-<!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
 # Présentation des limitations d’objet d’Adobe Workfront Planning
 
@@ -50,7 +49,7 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 
 *Nous vous recommandons de ne pas avoir trop d’espaces de travail, car ils pourraient devenir difficiles à gérer et vos workflows pourraient être trop fragmentés.
 
-Pour plus d’informations sur les prix et le packaging de Workfront Planning, voir [Prix et packaging Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
+Pour plus d’informations sur les prix et les packages de Workfront Planning, contactez votre gestionnaire de compte.
 
 <!--
 ****************KEEP THIS COMMENTED OUT:

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '621'
 ht-degree: 54%
 
 ---
@@ -181,18 +181,16 @@ OLD:
 
 Les champs de formule Adobe Workfront Planning prennent en charge la plupart des expressions des champs calculés Workfront.
 
-<!-- make the note available when WF releases the expressions listed in it: 
-
 >[!NOTE]
 >
->The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>Les expressions Workfront ci-dessous ne sont pas prises en charge pour les champs de formule Workfront Planning :
 >
 >* SORTASCARRAY
 >* SORTDESCARRAY
 >* ADDHOUR
->* SWITCH
+>* COMMUTER
 >* FORMAT
--->
+
 
 Pour obtenir une liste complète des expressions Workfront, voir [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
@@ -211,21 +209,6 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
  </thead> 
  <tbody>
 
-<tr>
-   <td><strong>TABLEAU</strong> </td>
-   <td> <p>Convertit une chaîne en tableau. Le délimiteur peut être n’importe quelle chaîne.</p>
-   <p>L’expression est formatée comme suit :</p>
-   <p><code>ARRAY(string1, "delimiter")</code></p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>ARRAYELEMENT</strong> </td>
-   <td> <p>Renvoie l’élément au nombre spécifié dans le tableau . Si l’index est hors limites, il renvoie vide.</p>
-   <p>L’expression est formatée comme suit :</p>
-   <p><code>ARRAYELEMENT(array, number)</code></p>
-   </td>
-  </tr>
-
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Renvoie une chaîne concaténée par délimiteur.</p> <p>L’expression est formatée comme suit :
@@ -233,14 +216,7 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
 <code>ARRAYJOIN(delimiter,array)</code>
 </p>
    </td></tr>
-  <tr>
-   <td><strong>ARRAYLENGTH</strong> </td>
-   <td> <p>Renvoie le nombre d’éléments dans le tableau et est formaté comme suit :</p>
-   <p><code>ARRAYLENGTH(array)</code></p>
-   </td>
-  </tr>
-
-<tr> 
+    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Renvoie un tableau avec des valeurs uniques.</p> <p>L’expression est formatée comme suit :
 

@@ -6,9 +6,9 @@ description: La progression de l’objectif dépend d’indicateurs de progressi
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Votre organisation doit disposer des éléments suivants pour utiliser les fonct
 
      Ou
 
-     Une licence supplémentaire pour Objectifs Adobe Workfront pour les forfaits Adobe Workfront Prime ou Select. Pour plus d’informations, consultez [Plan Adobe Workfront](https://www.workfront.com/plans?lang=fr).
+     Une licence supplémentaire pour Objectifs Adobe Workfront pour les forfaits Adobe Workfront Prime ou Select.
 
 * Pour la structure de forfait et de licence actuelle :
 
