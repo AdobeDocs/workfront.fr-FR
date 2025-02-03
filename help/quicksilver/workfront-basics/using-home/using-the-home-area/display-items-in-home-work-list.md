@@ -6,7 +6,7 @@ description: Chaque widget contient sa propre liste de tâches. Les listes de tr
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
+source-git-commit: 0bd250b323a4e8e83d7ce8b42d0446c3879d7e6b
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 21%
@@ -182,7 +182,5 @@ Vous pouvez choisir les colonnes qui apparaîtront dans la liste de travail du w
 * **Feuilles de temps** : [!UICONTROL date d’envoi]
 * **Approbations** : [!UICONTROL date d’envoi]
 * **Approbations des épreuves** : [!UICONTROL date d’échéance pour la relecture]
-
-
 
 
