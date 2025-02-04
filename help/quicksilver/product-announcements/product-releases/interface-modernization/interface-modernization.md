@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 99431b88648919c5f4f90228dbedd97cd2efbd65
+source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,17 @@ Nous avons mis à jour les listes d’approbation de projets, de tâches et d’
 Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonctionnalité n’a été modifiée.
 
 ## Agile
+
+## Mise à jour de l’interface pour la zone Équipes > Liste d’attente
+
+**Version préliminaire : 23 janvier 2025 ; Version de production : à partir de la semaine du 13 février 2025**
+
+Nous avons mis à jour la zone Équipes > Liste d’attente avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Cette mise à jour comprend les modifications suivantes :
+
+* Améliorations visuelles de l’onglet Histoires et événements ainsi que de la boîte de dialogue Répartition de l’histoire
+* Nouvelle boîte de dialogue pour l’outil de planification de l’itération
 
 ### Mise à jour de l’interface pour la liste des Itérations
 
