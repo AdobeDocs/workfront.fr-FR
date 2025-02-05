@@ -1,5 +1,5 @@
 ---
-title: Présentation des nouveaux niveaux d’accès
+title: Présentation des nouveaux niveaux d'accès
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: be7377a0c4d933823f65ed09d2b1fc091779f252
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1741'
 ht-degree: 97%
 
 ---
@@ -117,7 +117,6 @@ Attaché à la licence Light, ce niveau d’accès est conçu pour les utilisate
 * Afficher des tableaux de bord et des rapports
 * Effectuer un suivi de l’heure et approuver les feuilles de temps
 * Créer et gérer des problèmes
-* Effectuer des mises à jour sur le travail
 
 Ce qui suit est vrai pour les utilisateurs et utilisatrices avec le niveau d’accès Light :
 
@@ -300,10 +299,10 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 
 >[!IMPORTANT]
 >
->À compter de la version 24.7, les contributeurs disposent par défaut d’un accès en vue aux programmes et aux Portfolios.
+>À compter de la version 24.7, les contributeurs ont un accès en lecture seule aux programmes et Portfolios par défaut.
 >
 > 
->Les contributeurs intégrés avant la version 24.7 continueront par défaut à ne pas avoir accès aux programmes et aux Portfolios. Vous pouvez mettre à jour leur accès pour afficher manuellement, si nécessaire.
+>Les contributeurs intégrés avant la version 24.7 n’auront toujours pas accès aux programmes et Portfolios par défaut. Vous pouvez mettre à jour leur accès pour l’afficher manuellement si nécessaire.
 
 ### Niveau d’accès Utilisateur ou utilisatrice externe
 
