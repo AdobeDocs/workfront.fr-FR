@@ -6,10 +6,10 @@ description: Vous pouvez supprimer une itération pour votre équipe Agile si el
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 91%
+source-wordcount: '165'
+ht-degree: 82%
 
 ---
 
@@ -41,7 +41,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
    <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Vous devez être membre de l’équipe agile à laquelle l’itération est affectée.</td> 
+   <td>Vous devez être membre de l’équipe agile à laquelle l’itération est affectée</td> 
   </tr>
  </tbody> 
 </table>
@@ -57,4 +57,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
 1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Itérations]**.
-1. Sélectionnez l’itération que vous souhaitez supprimer, puis cliquez sur **[!UICONTROL Supprimer]**.
+1. Sélectionnez l’itération à supprimer, puis cliquez sur l’icône [!UICONTROL **Supprimer**] ![Icône Supprimer](assets/delete-icon.png).

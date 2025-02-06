@@ -6,7 +6,7 @@ description: Vous pouvez afficher toutes les itérations d’une équipe donnée
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 88%
@@ -37,7 +37,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td> <p>Nouveau : [!UICONTROL Light] ou version ultérieure</p> 
    ou
-   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -54,14 +54,14 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Itérations]** pour choisir une itération spécifique, ou sélectionnez **[!UICONTROL Itération actuelle]**.
 
-   ![Liste des itérations](assets/view-iteration-NWE.png)
+   ![Liste des itérations](assets/view-iteration-list.png)
 
    >[!NOTE]
    >
    >L’**[!UICONTROL itération actuelle]** s’affiche uniquement dans le panneau de gauche lorsqu’elle est affectée au modèle de mise en page et qu’il y a au moins une tâche ou un problème sur l’itération. Pour plus d’informations, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
-1. (Facultatif) Cliquez sur le nom de l’itération spécifique à afficher.
+1. (Facultatif) Cliquez sur le nom de l’itération spécifique que vous souhaitez afficher.
 Les histoires de l’itération s’affichent.
 
    ![[!UICONTROL Histoires dans l’itération]](assets/iteration-stories-list-NWE.png)

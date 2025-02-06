@@ -6,10 +6,10 @@ description: Les itérations sont un élément clé pour les équipes Agile Scru
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 95%
+source-wordcount: '1060'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td> <p>Nouveau : [!UICONTROL Light] ou version ultérieure</p> 
    ou
-   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -48,18 +48,19 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Ajouter une itération
 
-Utilisez la fonction [!UICONTROL Ajouter une itération] pour créer rapidement une itération, et ajoutez des tâches et des problèmes ultérieurement.
+Vous pouvez ajouter une itération à la liste pour créer rapidement une itération et y ajouter ultérieurement des tâches et des problèmes.
 
 {{step1-to-team}}
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
 1. Dans l’onglet **[!UICONTROL Itérations]**, cliquez sur **[!UICONTROL Ajouter une itération]**.
-   ![](assets/add-iteration-adobe-350x275.png)
+
+   ![Cliquez sur Ajouter une itération](assets/click-add-iteration.png)
 
 1. Indiquez les informations suivantes :
 
-   <table style="table-layout:auto"> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -90,7 +91,7 @@ Utilisez la fonction [!UICONTROL Ajouter une itération] pour créer rapidement 
     </tbody> 
    </table>
 
-1. Cliquez sur **[!UICONTROL Envoyer]**. Maintenant que vous avez créé une itération, vous devez ajouter des histoires. Pour plus d’informations, voir [Ajouter des histoires à une itération existante](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+1. Cliquez sur **[!UICONTROL Ajouter une itération]**. Maintenant que vous avez créé une itération, vous devez ajouter des histoires. Pour plus d’informations, voir [Ajouter des histoires à une itération existante](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Planifier une itération sur l’onglet [!UICONTROL Liste d’attente] 
 
@@ -135,10 +136,10 @@ Utilisez la fonctionnalité [!UICONTROL Planifier une itération] pour créer un
     </tbody> 
    </table>
 
-1. (Facultatif) Sélectionnez les histoires pour les ajouter maintenant à l’itération, ou ignorez cette étape et ajoutez des histoires à une itération ultérieurement. Les histoires situées en haut de la liste d’attente ont la priorité la plus importante. Les histoires sont surlignées en vert lorsqu’elles correspondent à la capacité ; elles sont surlignées en rouge si elles ne le sont pas.
+1. (Facultatif) Sélectionnez les histoires pour les ajouter maintenant à l’itération, ou ignorez cette étape et ajoutez des histoires à une itération ultérieurement. Les histoires situées en haut de la liste d’attente ont la priorité la plus importante. Les histoires sont surlignées en vert quand elles correspondent à la capacité ; elles sont surlignées en rouge si elles ne correspondent pas à la capacité.
 Vous pouvez ajouter des tâches et des problèmes à une seule itération :
 
-   * **Pour ajouter des tâches à l’itération :** dans l’onglet **[!UICONTROL Liste d’attente]**, assurez-vous que l’onglet **[!UICONTROL Histoires]** est sélectionné (cet onglet est sélectionné par défaut lors de l’affichage de la liste d’attente). Sélectionnez les articles à ajouter à l’itération.
+   * **Pour ajouter des tâches à l’itération :** dans l’onglet **[!UICONTROL Liste d’attente]**, assurez-vous que l’onglet **[!UICONTROL Histoires]** est sélectionné (cet onglet est sélectionné par défaut lors de l’affichage de la liste d’attente). Sélectionnez les histoires à ajouter à l’itération.
 
      Lorsque vous ajoutez des tâches à une itération, la date de début de la tâche est calculée comme décrit dans [[!UICONTROL Comprendre] comment les dates de début des tâches sont calculées lorsqu’elles sont ajoutées à une itération](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
