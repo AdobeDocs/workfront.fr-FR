@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Message d’erreur : il y a un léger problème. Ce champ est utilisé dans une configuration multiforme"
+title: 'Message d’erreur : il y a un léger problème. Ce champ est utilisé dans une configuration multi-formulaires.'
 description: Lorsque vous modifiez un calcul dans un champ personnalisé calculé sur un formulaire personnalisé et qu’un message d’erreur vous indique que le champ est utilisé dans une configuration multi-formulaires, vous devez remplacer le champ par un nouveau champ contenant le calcul que vous souhaitez utiliser.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1241'
 ht-degree: 98%
 
 ---
@@ -62,7 +62,7 @@ Cet article explique comment trouver l’objet puis résoudre le problème de l�
 
    **Exemple :** Champ 1 sur le Formulaire 1 = Oui, Champ 2 sur le Formulaire 2 = Oui, Champ 3 sur le Formulaire 3 = Oui. Cela signifie : « Le champ personnalisé calculé existe sur le Formulaire 1 » ou « Le champ personnalisé calculé existe sur le Formulaire 2 », etc.
 
-1. Sur l’**[!UICONTROL icône Rechercher]** ![](assets/search-icon.png) dans le coin supérieur droit de l’écran, cliquez sur **[!UICONTROL Recherche avancée]**.
+1. Dans l’**[!UICONTROL icône Rechercher]** ![icône Rechercher](assets/search-icon.png) dans le coin supérieur droit de l’écran, cliquez sur **[!UICONTROL Recherche avancée]**.
 1. Cliquez sur l’objet de votre formulaire personnalisé (tel que Problème), puis sur **[!UICONTROL Filtrer vos résultats]**, puis cliquez sur **[!UICONTROL Ajouter un filtre]**.
 1. Commencez à saisir le nom d’un champ de case à cocher dans le champ **[!UICONTROL Saisissez le nom du champ]** et sélectionnez-le lorsqu’il s’affiche dans la liste, puis sélectionnez **[!UICONTROL Égal]** et saisissez **[!UICONTROL Oui]** (sans guillemets) dans la case suivante.
 

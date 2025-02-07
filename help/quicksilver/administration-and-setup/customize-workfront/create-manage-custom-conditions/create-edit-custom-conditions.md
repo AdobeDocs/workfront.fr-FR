@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 99%
+source-wordcount: '633'
+ht-degree: 94%
 
 ---
 
@@ -66,7 +66,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Pour modifier une condition existante, passez la souris sur la condition que vous souhaitez modifier, puis cliquez sur le bouton **Modifier** qui s’affiche complètement à droite.
 
-   ![](assets/custom-condition-edit-nwe.jpg)
+   ![Condition personnalisée](assets/custom-condition-edit-nwe.jpg)
 
 1. Configurez votre condition personnalisée à l’aide des options suivantes :
 
@@ -110,21 +110,21 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >
    >Vous pouvez normaliser la terminologie et les couleurs des conditions des trois types d’objets. Pour ce faire, copiez le nom de la condition et le code hexadécimal de la couleur d’un onglet (Projet, Tâche, Problème) de la condition correspondante vers les deux autres onglets.
 
-1. (Facultatif) Faites glisser ![](assets/move-icon---dots.png) toute condition vers une nouvelle position pour modifier l’ordre de la liste.
+1. (Facultatif) Faites glisser ![icône Déplacer](assets/move-icon---dots.png) toute condition vers un nouvel emplacement pour réorganiser la liste.
 
    Cela modifie l’ordre dans lequel les conditions s’affichent dans les projets, tâches et problèmes :
 
    * Lorsqu’un utilisateur ou une utilisatrice modifie un projet.
 
-     ![](assets/change-condition-edit-project.png)
+     ![Modifier la condition lors de la modification du projet](assets/change-condition-edit-project.png)
 
    * Lorsqu’un utilisateur ou une utilisatrice modifie la condition d’une tâche ou d’un problème dans l’onglet Mises à jour :
 
-     ![](assets/change-condition-update-comment.png)
+     ![Modifier la condition lors de la mise à jour du commentaire](assets/change-condition-update-comment.png)
 
    * Lorsqu’une personne modifie la condition d’une tâche ou d’un problème en mode Liste :
 
-     ![](assets/change-conditions-list-dropdown-only.png)
+     ![Modifier la condition dans la liste](assets/change-conditions-list-dropdown-only.png)
 
 1. Cliquer sur **Enregistrer**.
 

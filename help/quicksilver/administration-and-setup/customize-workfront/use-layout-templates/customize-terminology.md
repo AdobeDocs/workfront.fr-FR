@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 98%
+source-wordcount: '641'
+ht-degree: 94%
 
 ---
 
@@ -81,7 +81,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 1. Cliquez sur **Définir la terminologie** près du coin supérieur droit de la page.
 1. Effectuez l’une des opérations suivantes :
 
-   * Pour utiliser un autre terme fourni par Workfront, cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) en regard du libellé, cliquez sur l’autre libellé de votre choix dans la liste déroulante.
+   * Pour utiliser un autre terme fourni par Workfront, cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/dropdown-arrow.png) en regard du libellé, puis cliquez sur le libellé secondaire de votre choix dans la liste déroulante.
 
      >[!NOTE]
      >

@@ -1,5 +1,5 @@
 ---
-title: Modification de l’ordre d’affichage des conditions
+title: Modifier l’ordre d’affichage des conditions
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 96%
+source-wordcount: '175'
+ht-degree: 86%
 
 ---
 
@@ -21,11 +21,11 @@ Vous pouvez modifier l’ordre dans lequel les conditions s’affichent dans les
 
 * Lorsqu’un utilisateur ou une utilisatrice modifie un projet.
 
-  ![](assets/change-condition-edit-project.png)
+  ![Modifier la condition lors de la modification du projet](assets/change-condition-edit-project.png)
 
 * Lorsqu’une personne modifie la condition d’une tâche ou d’un problème
 
-  ![](assets/change-conditions-list-dropdown-only.png)
+  ![Modifier la condition dans la liste](assets/change-conditions-list-dropdown-only.png)
 
 ## Conditions d’accès
 
@@ -68,7 +68,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Sélectionnez l’onglet **Projets**,**Tâches** ou **Problèmes**.
 
-1. Faites glisser les conditions ![](assets/move-icon---dots.png) pour modifier leur ordre.
+1. Faites glisser ![icône Déplacer](assets/move-icon---dots.png) Conditions pour modifier leur ordre.
 
    Le nouvel ordre est enregistré automatiquement.
 

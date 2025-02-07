@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 84%
+source-wordcount: '639'
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, v
 >
 >Les options du menu principal que les personnes voient dépendent de leur type de licence et des paramètres configurés à leur niveau d’accès. Certaines personnes qui utiliseront ce modèle de disposition ne verront peut-être pas toutes les options que vous choisissez ici. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) et [Accès configurable à la fonctionnalité pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 >
->Si votre entreprise a été intégrée à l’expérience unifiée Adobe Workfront, différentes options s’affichent dans le menu principal. Pour plus d’informations, voir [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Il se peut que différentes options s’affichent dans le menu principal si votre organisation a été intégrée à l’expérience unifiée Adobe Workfront. Pour plus d’informations, voir [Adobe de l’expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Pour plus d’informations sur la création de modèles de disposition, voir [Créer et gérer des modèles de disposition](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -78,7 +78,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
      >[!TIP]
      >
-     >Par défaut, l’icône Accueil du menu principal affiche la zone Mes mises à jour pour les utilisateurs ayant une licence de révision (dans le plan de licence actuel), sauf s’ils disposent d’un modèle de mise en page associé à leur profil qui inclut la zone Mes mises à jour du menu principal, en plus de la zone Accueil.
+     >Par défaut, l’icône Accueil du menu principal affiche la zone Mes mises à jour pour les utilisateurs disposant d’une licence de révision (dans le plan de licence actuel), à moins qu’ils n’aient un modèle de mise en page associé à leur profil qui inclut la zone Mes mises à jour du menu principal, en plus de la zone Accueil .
 
    * Portefeuilles
    * Programmes
@@ -98,7 +98,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
      >[!NOTE]
      >
-     >Seules les personnes possédant une licence Plan (dans le modèle de licence actuel) ou une licence Standard (dans le nouveau modèle de licence) peuvent voir la zone Utilisateurs et utilisatrices ![](assets/users-icon-in-main-menu.png) dans le menu principal.
+     >Seuls les utilisateurs disposant d&#39;une licence de plan (dans le modèle de licence actuel) ou d&#39;une licence standard (dans le nouveau modèle de licence) peuvent voir la zone Utilisateurs ![icône Utilisateurs](assets/users-icon-in-main-menu.png) dans le menu principal.
 
    * Demandes
    * Feuilles de temps
@@ -119,13 +119,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
      >[!NOTE]
      >
-     >La planification nécessite une licence supplémentaire. Pour plus d’informations sur la planification Workfront, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md)
+     >Planning requiert une licence supplémentaire. Pour plus d’informations sur Workfront Planning, consultez la [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Masquez les **Éléments actifs** ![](assets/remove-icon---x-in-circle.png)que vous ne souhaitez pas afficher.
-   * Affichez les **Éléments disponibles** ![](assets/add-icon-plus-in-circle.png)que vous souhaitez afficher dans le menu principal.
-   * Faites glisser les **Éléments actifs** ![](assets/move-icon---dots.png) pour modifier l’ordre d’affichage dans le menu principal.
+   * Masquez ![Icône Masquer](assets/remove-icon---x-in-circle.png) **Éléments actifs** que vous ne souhaitez pas afficher
+   * Afficher ![Afficher l&#39;icône](assets/add-icon-plus-in-circle.png) **Éléments disponibles** à afficher dans le menu principal.
+   * Faites glisser ![Icône Faire glisser](assets/move-icon---dots.png) **Éléments actifs** pour modifier leur ordre d&#39;affichage dans le menu principal.
 
 1. Cliquez sur **Terminé**.
 

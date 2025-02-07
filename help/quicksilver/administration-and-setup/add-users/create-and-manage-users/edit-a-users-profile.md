@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 532a7badf236d0d9568bc6c632b7badf3576cce3
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '3273'
-ht-degree: 94%
+source-wordcount: '3275'
+ht-degree: 93%
 
 ---
 
@@ -71,7 +71,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-users}}
 
-1. Sélectionnez l’utilisateur ou l’utilisatrice, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
+1. Sélectionnez l’utilisateur, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png).
 
    La zone Modifier l’utilisateur ou l’utilisatrice s’affiche.
 

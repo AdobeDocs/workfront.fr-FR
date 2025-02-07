@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Création ou modification d’un état de groupe
+title: Création ou modification du statut d’un groupe
 description: En tant qu’administrateur ou administratrice de groupe, vous pouvez créer des statuts personnalisés pour un groupe que vous gérez. Cela permet d’éliminer le besoin de dizaines de statuts personnalisés à l’échelle de l’entreprise et d’accroître l’autonomie de vos hiérarchies de groupe.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1335'
-ht-degree: 98%
+source-wordcount: '1344'
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe dans lequel vous souhaitez créer ou personnaliser des statuts.
 1. Dans le panneau de gauche, cliquez sur **Statuts**.
@@ -88,7 +88,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Le cas échéant, si le statut concerne un problème, assurez-vous que la **Liste principale** est sélectionnée.
 
-   ![](assets/master-list.png)
+   ![Liste de Principal ](assets/master-list.png)
 
    Pour plus d’informations sur la personnalisation des autres types de problèmes (rapport de bugs, ordre de modification, problème, requête), voir [Personnaliser les types de problèmes par défaut](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
@@ -98,7 +98,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Pour modifier un statut existant, placez le pointeur de la souris sur le statut que vous souhaitez modifier, puis cliquez sur l’option **Modifier** qui s’affiche tout à fait à droite.
 
-   ![](assets/group-statuses-edit.jpg)
+   ![Statuts des groupes](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >Vous ne pouvez modifier le statut de votre groupe que si :
@@ -174,11 +174,11 @@ Si vous êtes administrateur ou administratrice de groupe (ou administrateur/adm
 1. Dans la zone située dans le coin supérieur droit, supprimez **Statuts du système**, commencez à saisir le nom d’un groupe dans lequel vous souhaitez masquer le statut, puis cliquez sur le nom qui s’affiche.
 1. Placez la souris sur le statut que vous souhaitez masquer dans le groupe, puis cliquez sur **Modifier** lorsqu’il apparaît.
 
-   ![](assets/hover-click-edit.jpg)
+   ![Modifier le statut ](assets/hover-click-edit.jpg)
 
 1. Activez l’option **Masquer le statut** qui s’affiche.
 
-   ![](assets/hide-group-status.png)
+   ![Masquer le statut](assets/hide-group-status.png)
 
 1. Cliquer sur **Enregistrer**.
 

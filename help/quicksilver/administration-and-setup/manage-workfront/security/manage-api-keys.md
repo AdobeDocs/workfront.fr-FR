@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
-title: Gestion des clés d’API
+title: Gestion des clés API
 description: Afin de minimiser les vulnérabilités en matière de sécurité des API, les administrateurs et administratrices Adobe Workfront peuvent gérer les clés API utilisées afin de permettre aux applications d’accéder à Workfront pour le compte d’un utilisateur ou d’une utilisatrice.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 99%
+source-wordcount: '1330'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +107,7 @@ Vous pouvez générer et gérer des clés API pour les personnes ayant un rôle
    1. Développez **Système**, puis cliquez sur **Authentification unique (SSO)**.
    1. Dans le champ **Type**, sélectionnez le type de SSO utilisé par votre entreprise.
    1. Avec le type sélectionné, faites défiler l’écran vers le bas et décochez la case **Activer**.
-      ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+      ![Activer SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Cliquer sur **Enregistrer**.
 
 
@@ -187,7 +187,7 @@ Obtenez un certificat X.509 valide auprès d’une autorité de certification a
 
 Après avoir obtenu le certificat X.509 auprès de votre autorité de certification, vous devez le charger dans Workfront.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 
 1. Développez **Système**, puis cliquez sur **Infos client**.
 

@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configuration des paramètres de BAT par défaut
+title: Configurer les paramètres d’épreuve par défaut
 description: Ces paramètres vous permettent de définir des valeurs par défaut qui s’appliquent à toutes les épreuves créées par vos utilisateurs et utilisatrices. Toutefois, les utilisateurs et utilisatrices peuvent remplacer la plupart de ces paramètres lors de la création d’une épreuve.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 99%
+source-wordcount: '563'
+ht-degree: 98%
 
 ---
 
@@ -125,15 +125,15 @@ Pour configurer les décisions sur les épreuves :
       >
       >Conservez la logique d’une décision lorsque vous la renommez. Par exemple, la décision par défaut Rejeté peut être remplacée par *Nouvelle version requise*, mais ne doit pas être remplacée par *Envoyer aux imprimantes*.
 
-      ![](assets/rename-decision-350x109.png)
+      ![Renommer la décision](assets/rename-decision-350x109.png)
 
    1. **Réorganiser l’ordre des décisions** : faites glisser les zones de décision dans l’ordre dans lequel vous souhaitez qu’elles apparaissent dans la visionneuse de relecture.
 
-      ![](assets/move-decision-350x110.png)
+      ![Déplacer la décision](assets/move-decision-350x110.png)
 
    1. **Masquer une décision** : pointez sur la zone de décision et cliquez sur l’icône Masquer dans le coin supérieur droit.
 
-      ![](assets/hide-decision-350x109.png)
+      ![Masquer la décision](assets/hide-decision-350x109.png)
 
 1. (Facultatif) Pour revenir aux valeurs par défaut de Workfront, cliquez sur **Rétablir les paramètres par défaut**.
 1. Cliquer sur **Enregistrer**.

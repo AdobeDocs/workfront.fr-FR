@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 59%
+source-wordcount: '770'
+ht-degree: 57%
 
 ---
 
@@ -77,7 +77,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
 1. Commencez à travailler sur un modèle de disposition, comme décrit dans la section [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Panneau Résumé**.
+1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/dropdown-arrow.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Panneau Résumé**.
 
 1. Dans la liste qui s’affiche en dessous, cliquez sur le type d’objet pour lequel vous souhaitez personnaliser le panneau Résumé .
 
@@ -132,15 +132,15 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
 1. (Le cas échéant) Si vous avez cliqué sur Tâches ou Problèmes à l’étape précédente, sélectionnez la catégorie de tâches ou de problèmes que vous souhaitez personnaliser.
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![Choisir la catégorie à personnaliser](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (Conditionnel) Si le menu déroulant **Bouton Définir l’action principale** s’affiche (si vous sélectionnez **Tâches** ou **Événements** dans la liste de gauche), cliquez sur l’action principale (**Terminé** ou **Statut**) que vous souhaitez rendre disponible pour les utilisateurs dans le panneau Résumé lorsqu’ils affichent une tâche ou un événement.
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![Définir l’action principale](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. Ajoutez ![](assets/add-item-plus-in-circle-blue.png) ou masquez ![](assets/close-or-hide---x.png) pour le type d’objet sélectionné.
+1. Ajoutez des champs ![Ajouter un élément](assets/add-item-plus-in-circle-blue.png) ou masquer ![Masquer l’élément](assets/close-or-hide---x.png) pour le type d’objet sélectionné.
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![Ajouter et masquer des champs](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Répétez les étapes 3 à 6 pour personnaliser le panneau Résumé pour tout autre type d’objet.
 1. Cliquez sur **Paramètres globaux**, en bas à gauche, puis activez ou désactivez l’une des options suivantes liées aux objets Adobe Workfront dans le résumé :

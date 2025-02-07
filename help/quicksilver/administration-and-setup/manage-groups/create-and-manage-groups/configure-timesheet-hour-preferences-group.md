@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: groupe,préférences,tâche,groupes,problème,déverrouillage
 navigation-topic: create-and-manage-groups
-title: Configuration des préférences de feuille de temps et d’heure pour un groupe
+title: Configuration des préférences de feuille de temps et d'heures pour un groupe
 description: Au niveau du système, l’équipe d’administration Adobe Workfront peut déverrouiller les sections de préférences de feuilles de temps et d’heures Préférences générales et Préremplir les feuilles de temps avec... Cela permet aux administrateurs et administratrices de groupes de configurer les options de ces sections séparément pour leurs propres groupes.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 98%
+source-wordcount: '1359'
+ht-degree: 97%
 
 ---
 
@@ -91,7 +91,7 @@ Tenez compte des informations suivantes concernant la configuration d’une pré
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe pour lequel vous souhaitez configurer les préférences de feuilles de temps ou d’heures.
 1. Dans le panneau de gauche, cliquez sur **Feuilles de temps et heures**.

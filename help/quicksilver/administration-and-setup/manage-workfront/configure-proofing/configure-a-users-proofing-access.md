@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup;user-management
 navigation-topic: configure-proofing-functionality
-title: Configuration de l’accès à la vérification d’un utilisateur
+title: Configuration de l'accès à la relecture d'un utilisateur
 description: En tant qu’administrateur ou administratrice Adobe Workfront ou Workfront Proof, vous pouvez configurer l’accès d’un utilisateur ou d’une utilisatrice à la création et à l’affichage des épreuves dans Workfront et Workfront Proof.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1242'
 ht-degree: 99%
 
 ---
@@ -135,7 +135,7 @@ Si les personnes de votre entreprise préfèrent utiliser la visionneuse de rele
 
 1. Dans Workfront, cliquez sur l’icône Workfront Proof de la barre de navigation globale pour accéder à Workfront Proof.
 
-   ![](assets/proof-access-proofhq-350x39.png)
+   ![Icône de BAT](assets/proof-access-proofhq-350x39.png)
 
 1. Cliquez sur **Paramètres du compte** près du coin supérieur droit de Workfront Proof, puis cliquez sur l’onglet **Paramètres**.
 

@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration
 keywords: modifier,e-mail,notification,paramètres,en masse,modifier en masse,configurer,multiple,personnes
 navigation-topic: emails-administration
-title: Modification des paramètres de notification électronique de plusieurs utilisateurs
+title: Modifier Les Paramètres De Notification Par E-Mail De Plusieurs Utilisateurs
 description: Cet article fournit à l’équipe d’administration de Workfront ou de groupes des informations sur la façon dont elle peut mettre à jour les notifications par e-mail d’autres personnes.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 98%
+source-wordcount: '465'
+ht-degree: 89%
 
 ---
 
@@ -68,7 +68,7 @@ Pour modifier les paramètres de notification par e-mail pour plusieurs personne
 
 1. Développez une catégorie pour afficher les paramètres de notification associés à cette catégorie.
 
-   Si au moins une personne est sélectionnée alors que les notifications ne correspondent pas à celles des autres personnes sélectionnées, la case à cocher de catégorie de cette notification comporte une ligne horizontale ![](assets/straight-line-instead-of-checkmark.jpg) plutôt qu’une coche.
+   Si au moins un utilisateur est sélectionné et que les notifications ne correspondent pas aux notifications des autres utilisateurs sélectionnés, la case à cocher Catégorie de cette notification contient une ligne horizontale ![Ligne au lieu de Coche](assets/straight-line-instead-of-checkmark.jpg) au lieu d’une coche.
 
 
 1. Cliquez sur les notifications que vous souhaitez que les personnes reçoivent quotidiennement ou instantanément, ou effacez celles que vous souhaitez qu’elles cessent de recevoir.
@@ -80,7 +80,7 @@ Pour modifier les paramètres de notification par e-mail pour plusieurs personne
 
 1. Si vous avez sélectionné des notifications à envoyer sous forme de synthèse quotidienne, sélectionnez l’heure de la journée à laquelle vous souhaitez que la synthèse soit diffusée en haut de la section **Notifications** dans le menu **E-mail de synthèse quotidienne après**.
 
-   ![](assets/daily-digest-time.png)
+   ![Heure de synthèse quotidienne](assets/daily-digest-time.png)
 
    La synthèse quotidienne comprend les événements qui répondent aux critères des notifications 24 heures avant l’heure sélectionnée. Les personnes reçoivent un e-mail de synthèse quotidienne pour chaque type de notification.
 

@@ -1,5 +1,5 @@
 ---
-title: Création d’un processus d’approbation pour les éléments de travail
+title: Créer un processus d'approbation pour les éléments de travail
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: a1ead3895afaf8b601a9c53e08d41b1cab51cb48
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2191'
-ht-degree: 97%
+source-wordcount: '2193'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
    <td><p>Processus de validation au niveau du système ou à usage unique : tout</p>
-   <p>Processus d’approbation au niveau du groupe : Premier ou Ultimate</p></td> 
+   <p>Processus de validation au niveau du groupe : Prime ou Ultimate</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -64,7 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Si vous êtes administrateur système ou si vous avez un accès administratif aux processus d’approbation, vous pouvez créer un processus d’approbation au niveau du système ou un processus d’approbation au niveau du groupe pour un groupe particulier.</p> 
+   <td> <p>Si vous êtes un administrateur système ou que vous disposez d'un accès administratif aux processus d'approbation, vous pouvez créer un processus d'approbation au niveau du système ou un processus d'approbation au niveau du groupe pour un groupe particulier.</p> 
    <p>Si vous êtes administrateur ou administratrice de groupes, vous pouvez créer des processus d’approbation au niveau du groupe pour les groupes que vous gérez.</p> </td> 
   </tr> 
  </tbody> 
@@ -82,10 +82,10 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
 
    Ou
 
-   Si vous créez un processus d’approbation au niveau du groupe, cliquez sur **Groupes** ![](assets/groups-icon.png), sur le nom du groupe, puis sur **Approbations**.
+   Si vous créez un processus d’approbation au niveau du groupe, cliquez sur **Groupes** ![Icône Groupes](assets/groups-icon.png), cliquez sur le nom du groupe, puis sur **Approbations**.
 
    <!--hidden for the new tab redesign - August 2023: 
-   ![](assets/approvals-area-in-setup-processes.png)
+   ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
 1. Sélectionnez l’onglet **Approbations de projets**, **Approbations de tâches**, ou **Approbations de problèmes**.

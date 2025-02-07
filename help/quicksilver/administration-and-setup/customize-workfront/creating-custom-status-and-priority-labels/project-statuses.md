@@ -1,5 +1,5 @@
 ---
-title: Accès à la liste des états du projet système
+title: Accéder à la liste des statuts de projet système
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 98%
+source-wordcount: '367'
+ht-degree: 97%
 
 ---
 
@@ -73,7 +73,7 @@ Pour plus d’informations sur la modification du statut d’un système et la c
 
    Les statuts du projet disponibles dans Workfront sont répertoriés dans cet onglet.
 
-   ![](assets/project-status.png)
+   ![Statut du projet](assets/project-status.png)
 
    Pour plus d’informations sur chacun des statuts des projets intégrés du système, voir [Vue d’ensemble des statuts des projets du système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
 

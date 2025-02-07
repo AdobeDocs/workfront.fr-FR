@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2236'
-ht-degree: 87%
+source-wordcount: '2238'
+ht-degree: 86%
 
 ---
 
@@ -300,7 +300,7 @@ Pour verrouiller ou déverrouiller les préférences d’une tâche ou d’un pr
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Si vous souhaitez que les administrateurs et les administratrices des groupes inférieurs au vôtre puissent configurer les préférences pour leurs groupes, déverrouillez cette option ![](assets/unlock-toggle-button.png).
+   * Si vous souhaitez que les administrateurs des groupes situés sous votre groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la ![bouton Déverrouiller](assets/unlock-toggle-button.png).
    * Si vous souhaitez que votre groupe et tous les groupes inférieurs utilisent votre configuration pour des préférences, assurez-vous qu’elle est verrouillée (par défaut).
 
      >[!IMPORTANT]

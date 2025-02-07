@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 96%
+source-wordcount: '2767'
+ht-degree: 95%
 
 ---
 
@@ -80,7 +80,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![icône Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe dont vous souhaitez configurer les préférences de projet.
 1. Dans le panneau de gauche, cliquez sur **Préférences de projet**.

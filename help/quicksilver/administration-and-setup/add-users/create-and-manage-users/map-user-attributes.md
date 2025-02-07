@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '977'
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ Pour déterminer si votre organisation est sur Adobe Unified Experience, exami
 
 ### Mapper les attributs utilisateur dans l’expérience Classic
 
-1. Cliquez sur l’icône **Menu principal**![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 
 1. Cliquez sur **Système** > **Authentification unique (SSO)**.
 
@@ -85,7 +85,7 @@ Pour déterminer si votre organisation est sur Adobe Unified Experience, exami
 
 1. Cliquez sur **Mapper les attributs utilisateur**.
 
-   ![](assets/map-user-attributes.png)
+   ![Mapper les attributs utilisateur](assets/map-user-attributes.png)
 
 1. Dans la ligne d’options qui s’affiche, mappez les attributs dont vous avez besoin pour vos utilisateurs et utilisatrices Workfront.
 
@@ -123,7 +123,7 @@ Pour déterminer si votre organisation est sur Adobe Unified Experience, exami
    1. Dans la liste déroulante, choisissez le modificateur d’attribut que vous souhaitez utiliser.
    1. Dans les deux champs à droite, saisissez la valeur de l’attribut du répertoire et la valeur par laquelle vous souhaitez le remplacer.
 
-      ![](assets/rule-fields.png)
+      ![Champs de règle](assets/rule-fields.png)
 
    Vous pouvez cliquer sur **Ajouter une règle** pour ajouter d’autres règles à l’attribut.
 
@@ -132,7 +132,7 @@ Pour déterminer si votre organisation est sur Adobe Unified Experience, exami
 
 ### Mapper les attributs utilisateur dans Adobe Unified Experience
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-left.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-left.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **Configuration** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 
 1. Cliquez sur **Système** > **Authentification unique (SSO)**.
 

@@ -1,5 +1,5 @@
 ---
-title: Configuration du mappage des métadonnées
+title: Configurer le mappage des métadonnées
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 97%
+source-wordcount: '602'
+ht-degree: 96%
 
 ---
 
@@ -62,7 +62,7 @@ Lorsqu’une personne envoie un document à partir de [!DNL Workfront] vers une 
 
 Vous pouvez mapper le même champ [!DNL Workfront] à différents champs de métadonnées dans [!DNL Workfront DAM], mais vous ne pouvez pas utiliser un champ de métadonnées dans l’une de ces applications pour plusieurs champs de métadonnées [!DNL Workfront].
 
-Pour configurer plusieurs champs [!DNL Workfront] à exporter vers un champ de métadonnées dans une application [!DNL Workfront], commencez par créer un champ personnalisé calculé dans [!DNL Workfront] pour afficher tous les champs personnalisés d’un objet. Associez ensuite le champ calculé [!DNL Workfront] à un champ de métadonnées dans l’application [!DNL Workfront]. Pour plus d’informations sur les champs personnalisés calculés, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Pour configurer plusieurs champs [!DNL Workfront] à exporter vers un champ de métadonnées dans une application [!DNL Workfront], commencez par créer un champ personnalisé calculé dans [!DNL Workfront] pour afficher tous les champs personnalisés d’un objet. Associez ensuite le champ calculé [!DNL Workfront] à un champ de métadonnées dans l’application [!DNL Workfront]. Pour plus d’informations sur les champs calculés personnalisés, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Avant de pouvoir mapper des champs pour le processus de mappage des métadonnées, vous devez activer l’application dans [!DNL Workfront]. Pour plus d’informations, voir [Configurer des intégrations de documents](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
@@ -72,7 +72,7 @@ Avant de pouvoir mapper des champs pour le processus de mappage des métadonnée
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL Mappage des métadonnées]**.
 
-   ![](assets/metadata-mapping.png)
+   ![Mappage des métadonnées](assets/metadata-mapping.png)
 
 1. Dans la boîte **[!UICONTROL Sélectionner le champ source pour le mappage]**, commencez à saisir le nom du champ Workfront que vous souhaitez mapper à [!DNL Workfront DAM], puis sélectionnez-le lorsque vous le verrez dans la liste.
 1. Dans la boîte **[!UICONTROL Sélectionner le champ cible pour le mappage]**, sélectionnez le champ à renseigner avec les informations du champ [!DNL Workfront] sélectionné.

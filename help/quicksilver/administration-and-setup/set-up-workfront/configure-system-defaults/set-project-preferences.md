@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2693'
-ht-degree: 92%
+source-wordcount: '2695'
+ht-degree: 91%
 
 ---
 
@@ -69,7 +69,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL Projets]**.
 
 1. Sur la page des **préférences du projet**, continuez avec l’une des 4 sections répertoriées ci-dessous pour configurer les préférences des [!UICONTROL Statuts du projet], [!UICONTROL Chronologies], [!UICONTROL Business cases], et [!UICONTROL Reprises après une période d’inactivité].
-1. Si vous souhaitez que tous les groupes de l’organisation utilisent les mêmes préférences de projet, assurez-vous que chaque préférence soit verrouillée ![](assets/lock-toggle-button.png) (il s’agit de la valeur par défaut).
+1. Si vous souhaitez que tous les groupes de l’organisation utilisent les mêmes préférences de projet, assurez-vous que chaque préférence est verrouillée ![bouton Verrouiller](assets/lock-toggle-button.png) (valeur par défaut).
 
    >[!IMPORTANT]
    >

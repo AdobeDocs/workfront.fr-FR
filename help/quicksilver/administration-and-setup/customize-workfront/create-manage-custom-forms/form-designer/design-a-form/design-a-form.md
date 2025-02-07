@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '6474'
-ht-degree: 78%
+source-wordcount: '6492'
+ht-degree: 77%
 
 ---
 
@@ -60,10 +60,10 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Cliquez sur **Nouveau formulaire personnalisé**.
 1. Sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 
-   ![](assets/choose-object-type.jpg)
+   ![Choisir le type d’objet](assets/choose-object-type.jpg)
 
 1. Dans la zone **Titre obligatoire**, saisissez le titre du formulaire personnalisé.
-1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin qu’il puisse être joint à d’autres objets, cliquez sur l’icône **Ajouter** ![](assets/add-objects-icon.png) après **Types d’objet**, puis sélectionnez le type souhaité dans le menu qui s’affiche. Vous pouvez répéter cette opération pour ajouter autant de types d’objet que vous le souhaitez.
+1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin qu’il puisse être joint à d’autres objets, cliquez sur l’icône **Ajouter** ![icône Ajouter des objets](assets/add-objects-icon.png) après **Types d’objets**, puis sélectionnez le type de votre choix dans le menu qui s’affiche. Vous pouvez répéter cette opération pour ajouter autant de types d’objet que vous le souhaitez.
 
    Vous pouvez également cliquer sur le X d’un type d’objet pour le supprimer du formulaire.
 
@@ -180,7 +180,7 @@ Pour ajouter un champ de texte, procédez comme suit :
    * Texte avec formatage
    * Texte descriptif
 
-   ![](assets/drag-field-to-section.png)
+   ![Faire glisser le champ vers la section](assets/drag-field-to-section.png)
 
 1. Dans la partie droite de l’écran, configurez les options disponibles pour le type de champ personnalisé que vous ajoutez :
 
@@ -465,7 +465,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
    * Frappe continue
    * Date
 
-   ![](assets/drag-field-to-section.png)
+   ![Faire glisser le champ vers la section](assets/drag-field-to-section.png)
 
 1. Dans la partie droite de l’écran, configurez les options disponibles pour le type de champ personnalisé que vous ajoutez :
 
@@ -700,7 +700,7 @@ Pour ajouter des images, des PDF ou des vidéos, procédez comme suit :
    * PDF
    * Vidéo
 
-   ![](assets/drag-field-to-section.png)
+   ![Faire glisser le champ vers la section](assets/drag-field-to-section.png)
 
 1. Saisissez ou modifiez l’une des propriétés suivantes du widget :
 

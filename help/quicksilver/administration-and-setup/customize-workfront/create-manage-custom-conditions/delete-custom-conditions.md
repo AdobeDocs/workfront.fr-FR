@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 93%
+source-wordcount: '253'
+ht-degree: 85%
 
 ---
 
@@ -64,7 +64,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâche**, ou **Problème**) dans lequel se trouve la condition à supprimer.
 
-1. Pointez sur la condition que vous souhaitez supprimer, puis cliquez sur l’icône **Supprimer** ![](assets/delete.png) qui apparaît tout à droite.
+1. Pointez sur la condition à supprimer, puis cliquez sur l’icône **Supprimer** ![Supprimer](assets/delete.png) qui s’affiche à l’extrémité droite.
 1. Dans le message de confirmation qui s’affiche, cliquez sur **Supprimer la condition**.
 
 1. Dans la boîte **Supprimer la condition** qui apparaît, sélectionnez une nouvelle condition dans la liste déroulante pour tous les projets qui utilisaient la condition que vous supprimez.

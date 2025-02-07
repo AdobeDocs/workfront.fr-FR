@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Gestion des invitations par courrier électronique aux nouveaux utilisateurs
+title: Gérer les invitations par e-mail pour les nouveaux utilisateurs
 description: En tant qu’administrateur ou administratrice d’Adobe Workfront, vous pouvez ajouter des utilisateurs et des utilisatrices à Workfront et les informer qu’ils ont été ajoutés en leur envoyant des invitations par e-mail.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 99%
+source-wordcount: '932'
+ht-degree: 97%
 
 ---
 
@@ -88,9 +88,9 @@ Pour générer manuellement des invitations par e-mail destinées à des utilisa
 
 1. Sélectionnez l’utilisateur ou l’utilisatrice dont le nom est suivi de l’étiquette **Non enregistré**.
 
-   ![](assets/unreg-user-qs-350x221.png)
+   ![Non enregistré](assets/unreg-user-qs-350x221.png)
 
-1. Cliquez sur l’icône Plus ![](assets/more-icon.png), puis cliquez sur **Rappeler à l’utilisateur ou à l’utilisatrice de s’enregistrer**.
+1. Cliquez sur l’icône Plus ![icône Plus](assets/more-icon.png), puis sur **Rappeler à l’utilisateur de s’enregistrer**.
 
    Une invitation par e-mail est envoyée à la nouvelle personne avec un nouveau lien qu’elle peut utiliser pour créer son mot de passe Workfront.
 

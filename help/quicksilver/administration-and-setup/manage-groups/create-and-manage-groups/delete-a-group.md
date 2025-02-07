@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 94%
+source-wordcount: '314'
+ht-degree: 80%
 
 ---
 
@@ -58,9 +58,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
-1. Sélectionnez le groupe que vous souhaitez supprimer, puis cliquez sur l’icône Supprimer ![](assets/delete.png).
+1. Sélectionnez le groupe à supprimer, puis cliquez sur l’icône Supprimer ![Supprimer](assets/delete.png).
 
    >[!IMPORTANT]
    >
@@ -68,6 +68,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Dans la zone **Supprimer le groupe** qui apparaît, commencez à taper puis sélectionnez le nom du groupe vers lequel vous souhaitez déplacer les membres, les éléments de travail et les sous-groupes du groupe que vous supprimez.
 
-   Vous pouvez vous assurer que vous sélectionnez le bon groupe en pointant dessus et en cliquant sur l’icône d’information ![](assets/info-icon.png) qui s’affiche à côté. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.
+   Vous pouvez vous assurer de sélectionner le groupe approprié en pointant la souris sur celui-ci et en cliquant sur l’icône d’informations ![icône d’informations](assets/info-icon.png) qui s’affiche en regard de celui-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.
 
 1. Cliquez sur **Les supprimer**.

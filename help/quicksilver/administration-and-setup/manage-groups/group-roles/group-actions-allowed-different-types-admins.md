@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 99%
+source-wordcount: '541'
+ht-degree: 93%
 
 ---
 
@@ -226,7 +226,7 @@ Ce tableau répertorie les activités d’administration disponibles pour :
  </tbody> 
 </table>
 
-&#42; Dans le niveau d’accès de l’administrateur ou de l’administratrice du groupe, **Modifier** doit être sélectionné pour le paramètre **Utilisateurs et utilisatrices** avec **Utilisateur administrateur ou utilisatrice administratrice (utilisateurs et utilisatrices de groupe)** sélectionné dans **Ajuster vos paramètres** ![](assets/gear-icon-in-access-levels.png). Pour plus d’informations, voir la section [Configurer l’accès des utilisateurs et des utilisatrices pour la modification d’utilisateurs et d’utilisatrices à l’aide d’un niveau d’accès personnalisé](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) dans l’article [Accorder un accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42; Au niveau d’accès de l’administrateur de groupes, l’option **Modifier** doit être sélectionnée pour le paramètre **Utilisateurs**, l’option **Administrateur d’utilisateurs (Utilisateurs du groupe)** étant sélectionnée sous **Ajuster vos paramètres** ![Icône d’ajustement des paramètres](assets/gear-icon-in-access-levels.png). Pour plus d’informations, voir la section [Configurer l’accès des utilisateurs et des utilisatrices pour la modification d’utilisateurs et d’utilisatrices à l’aide d’un niveau d’accès personnalisé](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) dans l’article [Accorder un accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 &#42;&#42; Dans le niveau d’accès de l’administrateur ou de l’administratrice du groupe, l’accès à cette action doit être activé. Pour plus d’informations, voir [Accorder aux utilisateurs et aux utilisatrices un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 

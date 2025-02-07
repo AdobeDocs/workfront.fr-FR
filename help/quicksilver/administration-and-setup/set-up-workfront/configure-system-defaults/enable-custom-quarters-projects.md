@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Activation des trimestres personnalisés pour les projets
+title: Activer les trimestres personnalisés pour les projets
 description: À des fins de création de rapports, vous pouvez créer des trimestres personnalisés si les trimestres de votre organisation sont basés sur des critères spécifiques autres que les dates du calendrier (tels que les jours ouvrables ou les jours d’achats).
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 98%
+source-wordcount: '272'
+ht-degree: 95%
 
 ---
 
@@ -66,14 +66,14 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Saisissez un nom pour le trimestre personnalisé, par exemple « T1 exercice 2021 ».
 1. Sélectionnez les dates de début et de fin du trimestre personnalisé.
 
-   ![](assets/custom-quarters-nwe.png)
+   ![Trimestres personnalisés](assets/custom-quarters-nwe.png)
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter un trimestre personnalisé]** pour ajouter d’autres trimestres personnalisés au système.
 1. (Facultatif) Créez un élément de création de rapports qui se réfère aux trimestres d’exercice.
 
    **Exemple :** créez un filtre pour une liste de [!UICONTROL projets] et incluez la date d’achèvement prévue d’un projet faisant référence aux trimestres personnalisés.
 
-   ![](assets/example-of-project-filter-with-custom-quarters.png)
+   ![Filtre de projet avec trimestres personnalisés](assets/example-of-project-filter-with-custom-quarters.png)
 
    Les références à « Ce trimestre », « Trimestre prochain » et « Trimestre dernier » sont remplacées par de nouvelles références aux trimestres personnalisés.
 

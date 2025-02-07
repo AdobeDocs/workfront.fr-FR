@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 98%
+source-wordcount: '390'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe pour lequel vous souhaitez créer, afficher ou utiliser des portfolios.
 1. Dans le panneau de gauche, cliquez sur **Portfolios** pour répertorier les portfolios associés au groupe (et tous les sous-groupes situés en dessous).

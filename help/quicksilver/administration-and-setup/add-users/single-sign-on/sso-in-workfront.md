@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Présentation de l’authentification unique dans Adobe Workfront
+title: Présentation de l’authentification SSO dans Adobe Workfront
 description: Workfront fournit une configuration d’authentification unique (SSO) centralisée qui intègre facilement Workfront à votre solution d’authentification unique d’entreprise existante. Cette configuration est facile à définir et à gérer. Elle est disponible pour les clientes et clients d’entreprise OnDemand et OnPremise.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 97%
+source-wordcount: '246'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ Pour utiliser la fonctionnalité SSO dans Workfront, votre entreprise doit confi
 
 Les solutions fédérées permettent aux personnes de se connecter à toutes leurs applications en saisissant leur nom d’utilisateur ou d’utilisatrice et leur mot de passe dans un portail de connexion centralisé.
 
-![](assets/overview-sso-wf-fed-only.png)
+![SSO fédérée](assets/overview-sso-wf-fed-only.png)
 
 
 ## Configurer votre pare-feu

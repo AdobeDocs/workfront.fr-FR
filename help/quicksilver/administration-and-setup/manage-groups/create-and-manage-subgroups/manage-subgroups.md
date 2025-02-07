@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 98%
+source-wordcount: '1251'
+ht-degree: 94%
 
 ---
 
@@ -63,7 +63,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
    Dans la liste qui s’affiche, vous pouvez voir les groupes que vous gérez, ainsi que les sous-groupes qu’ils comportent. Les administrateurs et administratrices Adobe Workfront peuvent voir tous les groupes.
 
@@ -111,7 +111,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
      <tr> 
       <td role="rowheader">Copier un sous-groupe pour créer un groupe de niveau supérieur</td> 
-      <td> <p>(Disponible uniquement pour les administrateurs et administratrices Workfront) Lorsque vous copiez un sous-groupe, celui-ci devient un groupe parent. La totalité des personnes membres et des sous-groupes du groupe est copiée avec. Les personnes membres du groupe conservent toutes les affectations attribuées dans le groupe d’origine.</p> <p>Pour plus d’informations sur la copie d’un sous-groupe, voir <a href="#about-copying-a-subgroup" class="MCXref xref">À propos de la copie d’un sous-groupe</a> dans cet article.</p> 
+      <td> <p>(Disponible uniquement pour les administrateurs et administratrices Workfront.) Lorsque vous copiez un sous-groupe, il devient un groupe parent. La totalité des personnes membres et des sous-groupes du groupe est copiée avec. Les personnes membres du groupe conservent toutes les affectations attribuées dans le groupe d’origine.</p> <p>Pour plus d’informations sur la copie d’un sous-groupe, voir <a href="#about-copying-a-subgroup" class="MCXref xref">À propos de la copie d’un sous-groupe</a> dans cet article.</p> 
        <ol> 
         <li value="1">Sélectionnez un sous-groupe, puis cliquez sur l’icône Copier <img src="assets/copy-icon.png"> pour créer un groupe de niveau supérieur basé sur le groupe sélectionné.</li> 
         <li value="2"> <p>Configurez les paramètres du nouveau groupe.</p> <p>Pour obtenir de l’aide sur ces paramètres, consultez le tableau de la section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">Créer un groupe de niveau supérieur en copiant un groupe ou un sous-groupe existant</a> dans l’article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">Créer un groupe de niveau supérieur en copiant un groupe ou un sous-groupe existant</a>.</p> </li> 
@@ -153,9 +153,9 @@ Vous pouvez faire d’un sous-groupe un groupe de niveau supérieur en le retira
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
-1. Sélectionnez le groupe parent du groupe dont vous voulez faire un groupe de niveau supérieur, puis cliquez sur l’icône Modifier ![](assets/edit-icon.png).
+1. Sélectionnez le groupe parent du groupe dont vous souhaitez créer un groupe de niveau supérieur, puis cliquez sur l’icône Modifier ![icône Modifier](assets/edit-icon.png).
 1. Dans la zone **Modifier un groupe** qui apparaît, sous **Personnes membres du groupe et administrateurs et administratrices de groupe**, commencez à saisir le nom du sous-groupe que vous voulez transformer en groupe de niveau supérieur, puis cliquez sur le X à droite de son nom lorsqu’il apparaît.
 1. Cliquer sur **Enregistrer**.
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 97%
+source-wordcount: '770'
+ht-degree: 91%
 
 ---
 
@@ -76,7 +76,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur le nom du groupe pour ouvrir sa page.
 
-1. Cliquez sur le menu Plus ![](assets/more-icon.png) à côté du nom du groupe, puis sur **Désactiver** ou **Réactiver**.
+1. Cliquez sur le menu Plus ![icône Plus](assets/more-icon.png) en regard du nom du groupe, puis cliquez sur **Désactiver** ou **Réactiver**.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Considérez ce qui suit à propos d’un groupe que vous avez désactivé en dé
 
   Pour plus d’informations sur la réactivation d’un sous-groupe dans cette situation, voir [Réactivation d’un sous-groupe sous un groupe parent inactif](#about-reactivating-a-subgroup-below-an-inactive-parent-group) dans cet article.
 
-* Lorsque vous vous rendez dans la zone Groupes dans Configuration, vous ne pouvez voir que les groupes actifs dans la liste, car Actifs est le filtre ![](assets/filter-nwepng.png) par défaut. Si vous souhaitez afficher tous les groupes que vous gérez, y compris les groupes inactifs, vous pouvez utiliser le filtre Tous. Vous pouvez également utiliser le filtre Inactifs pour ne répertorier que les groupes inactifs.
+* Lorsque vous accédez à la zone Groupes dans Configuration, vous ne pouvez voir que les groupes actifs dans la liste, car Actif est le filtre par défaut ![icône Filtre](assets/filter-nwepng.png). Si vous souhaitez afficher tous les groupes que vous gérez, y compris les groupes inactifs, vous pouvez utiliser le filtre Tous. Vous pouvez également utiliser le filtre Inactifs pour ne répertorier que les groupes inactifs.
 
   Pour plus d’informations sur les filtres dans les listes, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

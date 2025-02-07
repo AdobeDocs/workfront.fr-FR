@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: single-sign-on-in-workfront
-title: Mise à jour des utilisateurs pour l’authentification unique
+title: Mettre à jour les utilisateurs pour l'authentification SSO
 description: Vous pouvez mettre à jour les utilisateurs et utilisatrices pour l’authentification unique dans Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 98%
+source-wordcount: '816'
+ht-degree: 96%
 
 ---
 
@@ -92,7 +92,7 @@ Vous pouvez commencer à préparer votre fichier d’import en créant un rappor
    | ID | L’ID est le GUID alphanumérique de Workfront. |
    | Nom d’utilisateur SSO | L’ajout du champ Nom d’utilisateur ou d’utilisatrice SSO permet de s’assurer qu’il n’y a pas de nom d’utilisateur ou d’utilisatrice écrasé lors de l’import. Ce champ doit être vide pour tous les utilisateurs et utilisatrices, si ceux-ci n’ont pas encore été mis à jour pour la SSO. |
 
-   ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![Utilisateurs avec un nom d’utilisateur SSO mais pas d’accès](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Enregistrez le rapport.
 1. Cliquez sur **Exporter** en haut du rapport et exportez le rapport vers un fichier Excel.
@@ -112,7 +112,7 @@ Vous pouvez commencer à préparer votre fichier d’import en créant un rappor
    * La deuxième colonne doit contenir le nom d’utilisateur ou d’utilisatrice SSO, tel qu’il s’affiche dans votre système SSO.
    * Les colonnes ne doivent pas avoir d’en-tête et il ne doit pas y avoir de lignes vides en haut de la liste des noms.
 
-     ![](assets/update-users-for-sso-csv-file-for-import.png)
+     ![Mettre à jour les utilisateurs au format CSV](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. Enregistrez le rapport en tant que fichier CSV ou TSV sur votre ordinateur.
 
@@ -145,6 +145,6 @@ Pour obtenir des instructions sur la création d’un rapport sur les utilisateu
 1. Assurez-vous que les valeurs de la colonne de Nom d’utilisateur ou d’utilisatrice SSO correspondent à celui sur votre serveur SSO.
 1. Si la colonne Nom d’utilisateur SSO est vide, mettez à jour les noms de vos utilisateurs et utilisatrices.
 
-   ![](assets/users-with-sso-field-updated.png)
+   ![Utilisateurs avec champ SSO](assets/users-with-sso-field-updated.png)
 
    Pour obtenir des instructions sur la mise à jour de vos utilisateurs et utilisatrices pour la SSO, voir [Mettre à jour vos utilisateurs et utilisatrices pour la SSO](#update-your-users-for-sso).

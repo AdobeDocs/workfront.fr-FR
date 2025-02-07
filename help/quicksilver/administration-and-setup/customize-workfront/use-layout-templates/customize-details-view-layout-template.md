@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 87%
+source-wordcount: '596'
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour déterminer les informations qui s’affichent lorsqu’une personne clique sur l’icône Détails ![](assets/project-details-icon.png) dans le panneau de gauche lors de l’affichage d’une tâche, d’un problème, d’un document, d’un programme ou d’un portfolio.
+En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour déterminer les informations qui s’affichent lorsqu’un utilisateur clique sur l’icône Détails ![icône Détails](assets/project-details-icon.png) dans le panneau de gauche lors de l’affichage d’une tâche, d’un événement, d’un document, d’un programme ou d’un portfolio.
 
 <!--
 or billing record
@@ -38,22 +38,22 @@ Les modifications apportées à la vue Détails d’un objet déterminent égale
 
 * Zones « Créer un objet », telles que Créer une tâche
 
-  ![](assets/new-task-dialog.png)
+  ![ Boîte de dialogue Nouvelle tâche ](assets/new-task-dialog.png)
 
 
 * Écrans « Modifier un objet » lors de la modification d’un objet, tels que Modifier une tâche, Modifier un problème et Modifier un projet
 
-  ![](assets/edit-task-screen.png)
+  ![Écran Modifier la tâche](assets/edit-task-screen.png)
 
 
 * Écrans « Modifier des objets » lors de la modification d’objets en masse. Actuellement, cette fonctionnalité est prise en charge pour la modification en masse de projets.
 
-  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![Personnaliser la modification de projets](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* Panneau récapitulatif ![](assets/summary-panel-icon.png) pour les listes de tâches et de problèmes
+* Panneau Résumé ![panneau Résumé](assets/summary-panel-icon.png) pour les listes de tâches et d’événements
 
-  ![](assets/summary-area.png)
+  ![Zone Résumé](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -100,15 +100,15 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 ## Personnaliser ce que voient les utilisateurs et utilisatrices dans la vue Détails.
 
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Créet et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow-12x12.png) sous **Personnaliser ce que les clientes et clients voient**, puis cliquez sur **Projet**, **Tâche**, **Problème**, **Programme**, ou **Portfolio.**
+1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/dropdown-arrow-12x12.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Projet**, **Tâche**, **Problème**, **Program** ou **Portfolio.**
 <!--
 , or billing record
 -->
 
 1. Dans la section **Détails**, pour personnaliser ce que voient les utilisateurs et utilisatrices dans la vue Détails, effectuez l’une des opérations suivantes :
 
-   * Faites glisser les en-têtes de section ![](assets/move-icon---dots.png) pour modifier leur ordre.
-   * Activez ou désactivez des options dans les différentes zones (par exemple **Aperçu**, **Finance** et **Forms personnalisée**) pour les afficher ou les masquer.
+   * Faites glisser les en-têtes de section ![icône Déplacer](assets/move-icon---dots.png) pour modifier leur ordre.
+   * Activez ou désactivez les options dans les différentes zones (telles que **Présentation**, **Finance** et **Forms personnalisé**) pour les afficher ou les masquer.
 
      Si vous masquez tous les champs de l’une de ces sections, la section entière est masquée.
 

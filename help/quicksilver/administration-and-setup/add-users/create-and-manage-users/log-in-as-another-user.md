@@ -1,5 +1,5 @@
 ---
-title: Connexion en tant qu’autre utilisateur
+title: Se connecter en tant qu'utilisateur différent
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 87%
+source-wordcount: '747'
+ht-degree: 84%
 
 ---
 
@@ -68,8 +68,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Avec le niveau d’accès Administrateur système, vous pouvez vous connecter comme n’importe qui.</p> <p>Avec un niveau d’accès standard ou planificateur, vous pouvez vous connecter en tant qu’utilisateur avec un niveau de licence inférieur si le paramètre <b>Users</b> du niveau d’accès est configuré pour l’accès <b>Edit</b>, avec <b>Create</b> et au moins l’une des deux options <b>User Admin</b> activées sous <b>Réglage précis de vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>REMARQUE</b> : sur ces deux options, si l’option <b>Admin utilisateur (utilisateurs de groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p></td>
+   <td> <p>Avec le niveau d'accès Administrateur système, vous pouvez vous connecter en tant que personne.</p> <p>Avec un niveau d’accès Standard ou Planificateur, vous pouvez vous connecter en tant qu’utilisateur avec un niveau de licence inférieur si le paramètre <b>Utilisateurs</b> du niveau d’accès est configuré pour <b>Modifier</b> l’accès, avec <b>Créer</b> et au moins l’une des deux options <b>Administrateur d’utilisateurs</b> activées sous <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p><b>REMARQUE </b> : de ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +86,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >
    >* Si vous êtes administrateur ou administratrice de groupe, vous ne pouvez vous connecter qu’en tant qu’utilisateur ou utilisatrice des groupes que vous gérez. En outre, l’autorisation Administration des utilisateurs et utilisatrices (utilisateurs et utilisatrices de groupe) doit être activée dans votre niveau d’accès :
    >   
-   >  ![](assets/group-admin-user.png)
+   >  ![Utilisateur administrateur de groupe](assets/group-admin-user.png)
    >   
    >  Ce paramètre est désactivé par défaut. Pour plus d’informations, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
    >   
@@ -153,7 +153,7 @@ Par exemple, si vous commentez un élément lors de votre connexion en tant qu�
 ### Afficher des informations sur l’audit {#view-audit-information}
 
 1. Connectez-vous à Workfront en tant qu’administrateur ou administratrice Workfront ou de groupe.
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 
 1. Cliquez sur **Se connecter en tant que**, puis cliquez sur l’onglet **Accéder au journal**.
 

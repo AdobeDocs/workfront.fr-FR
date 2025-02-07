@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
-title: Configuration d’Adobe Workfront avec SAML 2.0 avec ADFS
+title: Configuration d’Adobe Workfront avec SAML 2.0 à l’aide d’ADFS
 description: Vous pouvez activer l’authentification à Workfront avec SAML 2.0.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 99%
+source-wordcount: '882'
+ht-degree: 98%
 
 ---
 
@@ -151,7 +151,7 @@ Pour activer l’authentification à l’application web Workfront et à l’app
 
 1. Cliquez sur **Tester la connexion**. Si la configuration est correcte, vous devez voir apparaître une page similaire à celle présentée ci-dessous :
 
-   ![](assets/success-saml-2.png)
+   ![Message de réussite SAML 2](assets/success-saml-2.png)
 
    >[!NOTE]
    >

@@ -1,5 +1,5 @@
 ---
-title: Personnalisation des filtres, des vues et des groupes à l’aide d’un modèle de mise en page
+title: Personnaliser des filtres, des vues et des regroupements à l'aide d'un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 98%
+source-wordcount: '784'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un modèle de disposition pour spécifier les contrôles de listes qui s’affichent dans les menus déroulants Filtre, Vue et Regroupement. Ces menus apparaissent au-dessus des listes dans Workfront, telles que la liste des tâches d’un projet :
 
-![](assets/filter-view-grouping-layout-templates.png)
+![Filtrer afficher les modèles de disposition de regroupement](assets/filter-view-grouping-layout-templates.png)
 
 Pour plus d’informations sur les modèles de disposition, consultez [Création et gestion des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -62,25 +62,25 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 ## Personnaliser les contrôles de listes Filtrer, Vue et Regroupement :
 
 1. Commencez à travailler sur un modèle de disposition, comme décrit dans la section [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Cliquez sur la flèche vers le bas ![](assets/down-arrow-blue.png) dans **Personnaliser ce que les utilisateurs et utilisatrices voient**, puis cliquez sur **Listes** dans le menu déroulant qui s’affiche.
+1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/down-arrow-blue.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Listes** dans le menu déroulant qui s’affiche.
 
-   ![](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
+   ![Personnaliser ce que voient les utilisateurs](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. Cliquez sur la flèche vers le bas ![](assets/down-arrow-blue.png) dans **Sélectionner une liste à personnaliser**, puis sélectionnez le type d’objet Workfront pour lequel vous souhaitez personnaliser les contrôles des listes Filtre, Vue et Regroupement.
+1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/down-arrow-blue.png) sous **Sélectionnez une liste à personnaliser**, puis sélectionnez le type d&#39;objet Workfront pour lequel vous souhaitez personnaliser les contrôles de liste Filtrer, Afficher et Regrouper.
 
-   ![](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![Sélectionner une liste à personnaliser](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
    >Si vous sélectionnez Projets comme liste à personnaliser, désactivez Projets auxquels je participe ou Projets dont je suis propriétaire dans la section Filtre, les personnes ne verront plus ce filtre ou ne pourront plus l’utiliser :
    >
-   >* dans la liste des filtres qui s’affichent lorsqu’elles cliquent sur l’icône de filtre ![](assets/filter-nwepng.png) au-dessus d’une liste :
+   >* Dans la liste des filtres qui s’affiche lorsqu’ils cliquent sur l’icône de filtre ![icône de filtre](assets/filter-nwepng.png) au-dessus d’une liste :
    >   
-   >  ![](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![Désactiver les filtres](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* dans l’en-tête de la zone Projets :
    >   
-   >  ![](assets/disable-filter-pills.png)
+   >  ![Bouton Désactiver les filtres](assets/disable-filter-pills.png)
 
 1. (Facultatif) Si vous souhaitez modifier le filtre, la vue ou le regroupement par défaut du modèle de disposition, pointez sur le filtre, la vue ou le regroupement, puis cliquez sur **Définir comme valeur par défaut**.
 

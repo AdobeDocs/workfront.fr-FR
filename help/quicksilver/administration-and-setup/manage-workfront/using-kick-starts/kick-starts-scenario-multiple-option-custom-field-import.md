@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2155'
-ht-degree: 93%
+source-wordcount: '2181'
+ht-degree: 91%
 
 ---
 
@@ -154,7 +154,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
    >
    >Pour plus d’informations sur les noms des objets dans la base de données Workfront, voir [Explorateur d’API](../../../wf-api/general/api-explorer.md).
    >
-   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   >![Feuilles incluses dans l&#39;export de données](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Assurez-vous que les informations suivantes sont correctement formatées :
@@ -206,7 +206,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
    Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-   ![](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![Feuille de paramètres remplie](assets/parameter-sheet-filled-out-kick-starts.png)
 
 1. Sélectionnez la feuille **`POPT Parameter Options`** et ajoutez des informations sur les options de chaque champ personnalisé dans les colonnes obligatoires suivantes :
 
@@ -228,7 +228,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
    * Les colonnes **`setLabel`** et `**setValue`** contiennent généralement les mêmes informations et doivent refléter les noms souhaités dans l’interface d’utilisation de Workfront. La valeur d’une option est le nom qui s’affiche dans les rapports, par exemple, tandis que le libellé s’affiche dans les formulaires personnalisés lorsqu’il est associé à un objet. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = saisissez `TRUE` si vous souhaitez que l’une des options soit masquée.
 
-   ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![Feuille de paramètres remplie](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
 1. (Facultatif) Si vous souhaitez également créer un formulaire personnalisé dans lequel vous pourrez ajouter les nouveaux champs ultérieurement, sélectionnez la feuille **`CTGY Category`** et mettez à jour les colonnes requises suivantes pour les informations de formulaire personnalisées :
@@ -239,7 +239,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
    Pour découvrir l’`ID` d’un groupe, vous pouvez créer un rapport Groupe et ajouter l’`ID` dans la vue ou accédez à un groupe et recherchez l’URL du groupe. L’identifiant de groupe se trouve dans l’URL de la page du groupe. Par exemple, si l’URL du groupe est `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, l’identifiant de groupe est `575b000800467a6f66e747932c807464`.
 
-   * **`setCatObjCode` **= il s’agit du code d’objet du type d’objet pour lequel vous souhaitez que le formulaire soit créé. Saisissez un code parmi les options suivantes :
+   * **`setCatObjCode`**= il s’agit du code objet du type d’objet pour lequel vous souhaitez que le formulaire soit créé. Saisissez un code parmi les options suivantes :
       * **`CMPY`** pour l‘entreprise
       * **`TASK`** pour la tâche
       * **`PROJ`** pour le projet
@@ -259,7 +259,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
    * **`setName`** = nom du formulaire personnalisé tel que vous souhaitez le voir apparaître dans l’interface de Workfront.
 
-     ![](assets/category-sheet-filled-out-kick-starts.png)
+     ![Feuille de catégorie remplie](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Enregistrez la feuille de calcul au format .xls ou .xlsx sur votre ordinateur. Votre feuille de calcul Excel est remplie et prête à être importée dans Workfront.
 
@@ -277,11 +277,11 @@ Après avoir suivi les étapes décrites dans les sections précédentes, procé
 1. Recherchez la feuille de calcul Excel que vous avez préparée, sur votre ordinateur, et sélectionnez-la lorsque vous la trouvez. Lorsque Workfront reconnaît le fichier, le bouton Charger devient bleu.
 1. Cliquez sur **Charger**.
 
-   ![](assets/kick-start-file-selected-and-upload-blue-button.png)
+   ![Bouton Fichier sélectionné et charger](assets/kick-start-file-selected-and-upload-blue-button.png)
 
 1. Une notification indiquant que l’importation a réussi s’affiche. Selon le volume d’informations que vous importez, cette étape peut prendre quelques secondes à une minute.
 
-   ![](assets/kick-start-successful.png)
+   ![Démarrage réussi](assets/kick-start-successful.png)
 
    Les nouveaux champs et formulaires personnalisés se trouvent désormais dans votre système Workfront. Vous pouvez les trouver dans la zone Formulaires personnalisés de Configuration.
 
@@ -294,7 +294,7 @@ Après avoir suivi les étapes décrites dans les sections précédentes, procé
 
 1. (Le cas échéant) Si l’import a échoué, vous recevez un message d’erreur signalant le problème. Essayez d’identifier le champ, la feuille et le numéro de ligne dans lesquels le problème s’est produit, corrigez les informations du fichier Excel, puis essayez de réimporter le fichier.
 
-   ![](assets/kick-start-error.png)
+   ![Erreur de démarrage rapide](assets/kick-start-error.png)
 
 1. (Le cas échéant) Selon le problème, comme indiqué dans le message d’erreur, certaines informations ont peut-être déjà été importées. Vous devez effectuer l’une des opérations suivantes avant de pouvoir réimporter la feuille :
 

@@ -1,5 +1,5 @@
 ---
-title: Accès à la liste des états des tâches système
+title: Accéder à la liste des statuts des tâches système
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 97%
+source-wordcount: '282'
+ht-degree: 96%
 
 ---
 
@@ -65,7 +65,7 @@ Pour plus d’informations sur la modification des statuts du système ou la cr�
 
    Les statuts des tâches disponibles dans Workfront sont répertoriés dans cet onglet.
 
-   ![](assets/task-status.png)
+   ![ Statut de la tâche ](assets/task-status.png)
 
    Pour plus d’informations sur chacun des statuts des tâches système intégrés, voir [Statuts des tâches système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
 

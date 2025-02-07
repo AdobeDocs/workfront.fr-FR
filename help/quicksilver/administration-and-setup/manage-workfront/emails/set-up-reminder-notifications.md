@@ -1,13 +1,13 @@
 ---
-title: Configuration des notifications de rappel
+title: Configurer des notifications de rappel
 description: Les notifications de rappel génèrent des e-mails qui sont envoyés aux utilisateurs et utilisatrices selon des critères spécifiés. Les notifications de rappel rappellent aux utilisateurs et utilisatrices qu’une action doit être effectuée pour une tâche, un problème, un projet ou une feuille de temps.
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1232'
 ht-degree: 99%
 
 ---
@@ -79,7 +79,7 @@ Pour plus d’informations sur la création d’un modèle d’e-mail, consultez
 
 1. Cliquez sur **E-mail** > **Notifications** > **Notifications de rappel**.
 
-   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   ![Onglet Notifications de rappel](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
 1. Cliquez sur **Nouvelle notification de rappel**.
 
@@ -176,4 +176,4 @@ Pour déclencher manuellement une notification de rappel :
 
    Les personnes désignées dans la notification de rappel reçoivent un e-mail.
 
-![](assets/reminder-test.png)
+![ Test de notification de rappel ](assets/reminder-test.png)

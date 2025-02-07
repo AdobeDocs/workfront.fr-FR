@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-groups
-title: Déplacement d’un groupe
+title: Déplacer un groupe
 description: Vous pouvez déplacer un groupe sous un autre groupe que vous gérez.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 93%
+source-wordcount: '260'
+ht-degree: 84%
 
 ---
 
@@ -64,9 +64,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
-1. Sélectionnez le groupe de destination dans lequel vous souhaitez déplacer le groupe, puis cliquez sur l’icône Modifier ![](assets/edit-icon.png).
+1. Sélectionnez le groupe de destination vers lequel vous souhaitez déplacer le groupe, puis cliquez sur l’icône Modifier ![icône Modifier](assets/edit-icon.png).
 1. Dans la case **Modifier le groupe** qui s’affiche, sous **Personnes membres du groupe et administrateurs et administratrices de groupe**, commencez à saisir le nom du groupe que vous souhaitez déplacer, puis cliquez dessus lorsqu’il apparaît.
 1. Cliquer sur **Enregistrer**.
 

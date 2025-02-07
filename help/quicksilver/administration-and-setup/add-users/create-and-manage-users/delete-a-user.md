@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 91%
+source-wordcount: '871'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à Adobe Business Platform. Si vous avez été intégré à Adobe Business Platform, vous devez supprimer des utilisateurs dans Adobe Admin Console.
+>La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore intégré Adobe Business Platform. Si vous avez été intégré à Adobe Business Platform, vous devez supprimer les utilisateurs dans Adobe Admin Console.
 >
 >Pour obtenir une liste de procédures qui diffèrent selon que votre entreprise a été intégrée ou non à Adobe Business Platform, voir [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -61,8 +61,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès Administrateur système. </li> 
-     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si <b>User Admin (Group Users)</b> est activé, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
+     <li> <p>Niveau d’accès de l’administrateur système. </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -132,7 +132,7 @@ Vous pouvez supprimer définitivement des utilisateurs et des utilisatrices soit
 
 {{step-1-to-users}}
 
-1. Sélectionnez au moins un utilisateur ou une utilisatrice à supprimer, cliquez sur le menu « Plus » ![](assets/more-icon.png), puis cliquez sur **Supprimer**.
+1. Sélectionnez au moins un utilisateur à supprimer, cliquez sur le menu Plus ![icône Plus](assets/more-icon.png), puis sur **Supprimer**.
 1. Dans la zone qui s’affiche, cliquez sur **Supprimer** pour confirmer la suppression.
 
    Le processus de suppression séparée ou simultanée s’exécute en arrière-plan, de sorte que vous pouvez continuer à utiliser Workfront lorsque la suppression s’effectue.

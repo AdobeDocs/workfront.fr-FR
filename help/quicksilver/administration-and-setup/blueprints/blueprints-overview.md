@@ -3,15 +3,15 @@ user-type: administrator
 content-type: overview
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Présentation des plans directeurs
+title: Aperçu des plans directeurs
 description: Les plans directeurs sont des ensembles d’objets Workfront qui répondent à des cas d’utilisation communs dans Workfront. Vous pouvez télécharger et installer un plan directeur, puis configurer les objets en fonction de votre cas d’utilisation spécifique.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '834'
 ht-degree: 99%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 Les plans directeurs sont des ensembles d’objets Workfront qui répondent à des cas d’utilisation communs dans Workfront. Vous pouvez télécharger et installer un plan directeur, puis configurer les objets en fonction de votre cas d’utilisation spécifique.
 
-![](assets/blueprints-main-page-catalog.png)
+![ Page principale des plans directeurs ](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >

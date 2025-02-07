@@ -8,9 +8,10 @@ description: Vous pouvez comparer des objets entre des environnements pour vous 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
+exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 15%
 
 ---
@@ -85,7 +86,7 @@ Dans cet exemple :
 
 Pour afficher les différences d’objet spécifiques :
 
-1. Cliquez sur l’icône de loupe ![](assets/compare-icon.png) dans la ligne correspondant à cet objet.
+1. Cliquez sur l’icône en forme de loupe ![icône de comparaison](assets/compare-icon.png) sur la ligne correspondant à cet objet.
 
    Une fenêtre s’ouvre avec tous les champs de cet objet. les différences sont indiquées en rouge.
 

@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Réorganiser les états au niveau du système et du groupe
+title: Réorganiser les statuts au niveau du système et du groupe
 description: En tant qu’administrateur ou administratrice Workfront, vous pouvez modifier l’ordre des statuts des projets, des tâches et des problèmes pour toutes les personnes membres du système ou pour un seul groupe.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 99%
+source-wordcount: '520'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ En tant qu’administrateur ou administratrice Workfront, vous pouvez modifier l
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![](assets/statuses.png)
+![États](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -125,9 +125,9 @@ Par défaut, les statuts s’affichent dans l’ordre suivant :
 1. Dans le panneau de gauche, cliquez sur **Préférences du projet > Statuts**.
 1. (Le cas échéant) Si vous réorganisez les statuts d’un groupe, commencez à saisir le nom du groupe dans la zone située dans le coin supérieur droit, puis cliquez sur le nom lorsqu’il s’affiche.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![États du système](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. Au-dessus de la liste Statuts qui s’affiche, cliquez sur l’onglet **Projets** ou **Tâches**.
+1. Au-dessus de la liste de statuts qui s’affiche, cliquez sur l’onglet **Projets** ou **Tâches**.
 
 1. Faites glisser et déposez les statuts dans l’ordre de votre choix.
 
@@ -137,14 +137,14 @@ Par défaut, les statuts s’affichent dans l’ordre suivant :
 
 ## Réorganiser les statuts pour les problèmes
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 
 1. Cliquez sur **Préférences du projet > Statuts.**
 1. (Le cas échéant) Si vous réorganisez les statuts d’un groupe, commencez à saisir le nom du groupe dans la zone située dans le coin supérieur droit, puis cliquez sur le nom lorsqu’il s’affiche.
 
-   ![](assets/issue-statuses-group-name.png)
+   ![Statut des événements pour le groupe](assets/issue-statuses-group-name.png)
 
-1. Cliquez sur l’onglet **Problèmes**.
+1. Sélectionnez l’onglet **Problèmes**.
 1. (Facultatif) Sélectionnez un type de problème (**Rapport de bogues**, **Ordre de modification**, **Problème**, ou **Demande**).
 
    >[!NOTE]

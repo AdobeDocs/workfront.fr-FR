@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Affichage et gestion des membres de sous-groupe
+title: Afficher et gérer les membres des sous-groupes
 description: Lorsque vous affichez un groupe que vous gérez, vous pouvez afficher et gérer tous les utilisateurs et utilisatrices des sous-groupes du groupe.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: 63c2206905f4ebbc35cb162ae6e895b98b5d20eb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 90%
+source-wordcount: '393'
+ht-degree: 75%
 
 ---
 
@@ -47,8 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès Administrateur système. </li> 
-     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-settings.png">. </p> <p>De ces deux options, si <b>User Admin (Group Users)</b> est activé, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
+     <li> <p>Niveau d’accès de l’administrateur système. </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-settings.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr>  
  </tbody> 
@@ -73,16 +73,16 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Sélectionnez un membre dans la liste, puis cliquez sur Modifier ![](assets/edit-icon.png) pour modifier son profil utilisateur/utilisatrice.
+   * Sélectionnez un membre dans la liste, puis cliquez sur Modifier ![icône Modifier](assets/edit-icon.png) pour modifier le profil utilisateur de cette personne.
 
      Pour plus d’informations, voir [Modifier le profil utilisateur/utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) ou [Modifier des profils utilisateur/utilisatrice en bloc](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
 
-   * Sélectionnez des membres dans la liste, puis cliquez sur Mettre à jour ![](assets/comment-icon.png) pour ajouter un commentaire à leurs profils utilisateur/utilisatrice.
+   * Sélectionnez un nombre illimité de membres dans la liste, puis cliquez sur Mettre à jour ![icône de commentaire](assets/comment-icon.png) pour ajouter un commentaire à leurs profils utilisateur.
 
      Les personnes reçoivent une notification in-app ainsi qu’une notification par e-mail avec votre commentaire. Le commentaire s’affiche dans la zone Mises à jour du profil de l’utilisateur ou de l’utilisatrice.
 
-   * Sélectionnez des membres dans la liste, puis cliquez sur Désactiver ![](assets/deactivate-user.png) ou Activer ![](assets/activate-user.png).
+   * Sélectionnez un nombre quelconque de membres dans la liste, puis cliquez sur Désactiver ![Désactiver l’utilisateur](assets/deactivate-user.png) ou Activer ![Activer l’utilisateur](assets/activate-user.png).
 
      Pour plus d’informations, voir [Désactiver ou réactiver un utilisateur ou une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-   * Exporter ![](assets/export.png) la liste des membres.
+   * Exportez ![Exporter](assets/export.png) la liste des membres.

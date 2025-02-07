@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Utilisation d’états personnalisés comme états par défaut
+title: Utiliser les statuts personnalisés comme statuts par défaut
 description: Lorsqu’un statut personnalisé est défini comme statut par défaut, le nouveau statut par défaut est utilisé dans l’ensemble du système de diverses manières. L’utilisation du statut varie selon s’il est le statut par défaut au niveau du système ou au niveau du groupe.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 99%
+source-wordcount: '813'
+ht-degree: 97%
 
 ---
 
@@ -82,7 +82,7 @@ Si vous êtes administrateur ou administratrice de groupe, consultez [Définir u
 
 Si le statut personnalisé est un statut de problème, les quatre types de problèmes doivent être activés pour celui-ci (rapport de bug, ordre de modification, problème et requête). Par exemple, dans le statut de problème ci-dessous, le statut Réouvert ne peut pas être utilisé comme statut par défaut, car le type de problème Ordre de modification n’est pas sélectionné :
 
-![](assets/all-4-issue-types-enabled.png)
+![Tous les types d&#39;événements activés](assets/all-4-issue-types-enabled.png)
 
 ## Définir un statut personnalisé comme statut par défaut
 
@@ -101,6 +101,6 @@ Si le statut personnalisé est un statut de problème, les quatre types de probl
    >Si vous définissez le statut personnalisé d’un groupe et que vous affectez ensuite le projet à un autre groupe, le statut du projet sera rechargé et pourrait changer.
 
    1. Accédez au projet dans lequel vous souhaitez utiliser le statut personnalisé.
-   1. Cliquez sur le menu Plus ![](assets/more-icon.png), puis sur **Modifier**.
+   1. Cliquez sur le menu Plus ![icône Plus](assets/more-icon.png), puis sur **Modifier**.
    1. Dans la zone **Modifier le projet** qui s’affiche, dans le champ **Groupe** sous **Association de projets**, sélectionnez le groupe dans lequel réside le statut.
    1. Cliquez sur **Enregistrer les modifications**.

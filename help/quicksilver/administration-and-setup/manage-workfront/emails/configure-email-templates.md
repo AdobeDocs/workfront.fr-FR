@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: emails-administration
-title: Configuration de modèles de courrier électronique
+title: Configurer les modèles d’e-mail
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez configurer des modèles d’e-mail pour prendre en charge les notifications de rappel.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 99%
+source-wordcount: '828'
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Dans le panneau de gauche, cliquez sur **E-mail** > **Notifications** > **Modèles d’e-mail**.
 
-   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![Onglet Modèles d’e-mail](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Cliquez sur **Nouveau modèle d’e-mail**.
 
@@ -239,7 +239,7 @@ Un projet que vous gérez a pris du retard.
 
 Cela produit un e-mail similaire à ce qui suit :
 
-![](assets/project-became-late-email.png)
+![Le projet est devenu un e-mail en retard](assets/project-became-late-email.png)
 
 #### Rappel de tâche ou problème sur le point de commencer {#task-or-issue-about-to-start-reminder-example}
 

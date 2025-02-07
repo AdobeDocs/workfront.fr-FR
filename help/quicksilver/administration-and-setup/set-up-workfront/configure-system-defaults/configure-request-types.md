@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
-title: Configuration des types de requête
+title: Configurer les types de requêtes
 description: Lorsque vous travaillez sur un projet, des événements inattendus peuvent survenir. Vous pouvez enregistrer ces événements inattendus en tant que problèmes pour un projet ou une tâche spécifique. Vous pouvez également soumettre des requêtes, qui sont enregistrées en tant que problèmes sur un projet désigné comme file d’attente des demandes. Les problèmes et les requêtes sont considérés comme interchangeables dans Adobe Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 99%
+source-wordcount: '469'
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ Pour personnaliser les noms des types de requête, procédez comme suit :
 1. Sélectionnez l’onglet **[!UICONTROL Problèmes]**.
 1. En haut de l’onglet **[!UICONTROL Problèmes]**, pointez sur le nom d’un type de requête, puis cliquez sur l’icône **[!UICONTROL Modifier]** qui apparaît.
 
-   ![](assets/edit-request-type-name-nwe.png)
+   ![Modifier le nom du type de demande](assets/edit-request-type-name-nwe.png)
 
 1. Dans la zone qui apparaît, saisissez un nouveau nom, puis appuyez sur **[!UICONTROL Entrée]**.
 

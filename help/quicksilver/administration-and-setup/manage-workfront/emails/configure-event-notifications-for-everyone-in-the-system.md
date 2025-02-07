@@ -1,14 +1,14 @@
 ---
-title: Configuration des notifications d’événement pour tout le monde dans le système
+title: Configuration des notifications d’événement pour tous les utilisateurs du système
 description: Les notifications d’événements déclenchent l’envoi d’e-mails aux utilisateurs et utilisatrices lorsqu’un certain événement se produit. En tant qu’administrateur ou administratrice Adobe Workfront ou utilisateur ou utilisatrice ayant un niveau d’accès Planificateur, vous pouvez configurer une notification d’événement pour toutes les personnes utilisant le système. La configuration d’une notification d’événement consiste à l’activer ou à la désactiver.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 98%
+source-wordcount: '593'
+ht-degree: 90%
 
 ---
 
@@ -76,7 +76,7 @@ Vous devez activer les notifications dans la zone de configuration de Workfront 
 
 1. Cliquez sur **E-mail** > **Notifications**.
 
-   ![](assets/notifications-area-under-setup-emails.png)
+   ![Zone des notifications sous les e-mails de configuration](assets/notifications-area-under-setup-emails.png)
 
 
 1. Assurez-vous que l’onglet **Notifications d’événements** est ouvert.
@@ -88,7 +88,7 @@ Vous devez activer les notifications dans la zone de configuration de Workfront 
 
    Pour plus d’informations sur la personnalisation des objets des notifications par e-mail, voir [Personnaliser les objets des e-mails pour les notifications d’événements](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Facultatif) Si vous souhaitez déverrouiller la configuration d’une notification par e-mail afin que les administrateurs et administratrices de groupes puissent la configurer séparément pour leurs groupes, cliquez sur le bouton ![](assets/lock-toggle-button.png) à droite de la notification pour la faire passer en position déverrouillée ![](assets/unlock-toggle-button.png).
+1. (Facultatif) Si vous souhaitez déverrouiller la configuration d’une notification par e-mail afin que les administrateurs de groupes puissent la configurer séparément pour leurs groupes, cliquez sur le bouton ![Bouton bascule Verrouiller](assets/lock-toggle-button.png) à droite de la notification pour la faire basculer en position déverrouillée ![Bouton bascule Déverrouiller](assets/unlock-toggle-button.png).
 
    >[!NOTE]
    >

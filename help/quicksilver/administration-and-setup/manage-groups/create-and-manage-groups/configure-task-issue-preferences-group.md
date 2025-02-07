@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 88%
+source-wordcount: '2189'
+ht-degree: 86%
 
 ---
 
@@ -82,13 +82,13 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![icône Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe pour lequel vous souhaitez configurer les préférences de tâche et de problème déverrouillées.
 1. Sur la page qui s’affiche pour le groupe, dans le panneau de gauche, cliquez sur **Préférences de tâche et de problème**.
 1. Sur la page qui s’affiche, passez à l’une des 5 sections répertoriées ci-dessous pour configurer les paramètres des zones Paramètres par défaut de la nouvelle tâche, Problèmes, Suppression, Dates effectives et Accès, puis cliquez sur **Enregistrer**.
 
-   Si vous pointez sur l’icône de verrouillage ![](assets/lock-toggle-button-dimmed.png) d’une préférence que vous devez configurer et qu’une info-bulle vous indiquant qu’elle est verrouillée s’affiche, vous pouvez demander à votre administrateur ou administratrice Workfront de la déverrouiller pour tous les groupes de l’entreprise.
+   Si vous pointez sur l’icône de verrouillage ![icône de verrouillage](assets/lock-toggle-button-dimmed.png) pour une préférence que vous devez configurer et qu’une info-bulle s’affiche pour vous indiquer qu’elle est verrouillée, vous pouvez demander à votre administrateur Workfront de la déverrouiller pour tous les groupes de l’organisation.
 
    Lorsqu’elle est déverrouillée, vous et d’autres administrateurs et administratrices de groupes pouvez la configurer séparément pour vos propres groupes. Vous pouvez également la verrouiller pour votre groupe et tous les sous-groupes situés sous votre groupe.
 

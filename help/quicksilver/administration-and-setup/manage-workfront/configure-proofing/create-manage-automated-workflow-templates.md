@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Création et gestion de modèles de workflow automatisés
+title: Création et gestion de modèles de workflows automatisés
 description: En tant qu’administrateur ou administratrice Adobe Workfront, si le processus de révision du contenu de votre entreprise est souvent effectué ou si le contenu est souvent révisé par les mêmes personnes, vous pouvez créer des modèles de workflow automatisé qui contiennent lesdites personnes réviseuses avec les rôles d’approbation et les paramètres de notification que vous spécifiez. Un modèle de workflow automatisé peut être simple avec une ou deux personnes réviseuses, ou bien complexe avec de nombreuses étapes et dépendances.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2075'
-ht-degree: 98%
+source-wordcount: '2079'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Il est possible de facilement modifier n’importe quel modèle de workflow auto
 Tenez compte des points suivants lorsque vous utilisez un modèle de workflow automatisé :
 
 1. Les paramètres d’un modèle de workflow automatisé déterminent ce que vous pouvez faire avec le workflow automatisé pour une épreuve. Par exemple, si le bouton Ajouter une étape est désactivé dans le modèle, il n’est pas visible lorsque vous travaillez avec les paramètres de workflow automatisé de l’épreuve.
-1. Lorsqu’une personne est ajoutée à une étape dans un modèle de workflow automatisé, mais également déjà présente en tant que validant sur le BAT, l’application du modèle supprime le validant de l’étape. Si vous n’ajoutez pas d’autre réviseur ou réviseuse à l’étape, un message vous invite à le faire.
+1. Lorsqu’une personne est ajoutée à une étape dans un modèle de workflow automatisé, mais qu’elle est également déjà présente en tant que réviseur ou réviseuse sur le BAT, l’application du modèle supprime le réviseur ou la réviseuse de l’étape. Si vous n’ajoutez pas d’autre réviseur ou réviseuse à l’étape, un message vous invite à le faire.
 1. Votre capacité à modifier un modèle de workflow automatisé dépend des paramètres de modèle configurés par l’équipe d’administration Workfront, comme décrit dans . Si la possibilité de modifier le modèle est désactivée, seule la personne propriétaire du modèle peut le modifier.
 
 Pour plus d’informations sur les workflows automatisés, consultez la section [Vue d’ensemble des workflows automatisés](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
@@ -209,7 +209,7 @@ En tant qu’administrateur ou administratrice Workfront proof, vous pouvez mod
     </tbody> 
    </table>
 
-1. Dans la section **Workflow**, modifiez le nom d’une étape et développez ses paramètres ![](assets/arrow-button.png) pour apporter les modifications nécessaires :
+1. Dans la section **Workflow**, modifiez le nom d’une étape et développez ses paramètres ![bouton Développer](assets/arrow-button.png) pour apporter les modifications nécessaires :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -256,7 +256,7 @@ En tant qu’administrateur ou administratrice Workfront proof, vous pouvez mod
 
    Si vous n’avez pas besoin de voir le diagramme, vous pouvez cliquer sur **Masquer le diagramme**.
 
-1. Si vous souhaitez supprimer un utilisateur ou une utilisatrice, cliquez sur le bouton Plus ![](assets/more-icon.png) à droite dans la section **Partagé avec**, puis cliquez sur **Supprimer**.
+1. Dans la section **Partagé avec**, si vous souhaitez supprimer un utilisateur, cliquez sur le bouton Plus ![icône Plus](assets/more-icon.png) à droite, puis cliquez sur **Supprimer**.
 
 ## Créer des groupes de modèles de workflow automatisé {#create-automated-workflow-template-groups}
 

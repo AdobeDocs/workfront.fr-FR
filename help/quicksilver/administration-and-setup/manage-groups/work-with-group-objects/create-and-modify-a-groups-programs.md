@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51111523-8fb7-4379-995e-1834cac51872
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 98%
+source-wordcount: '395'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe pour lequel vous souhaitez créer ou modifier des programmes.
 1. Dans le panneau de gauche, cliquez sur **Programmes** pour répertorier les programmes associés au groupe que vous avez l’autorisation d’afficher (ainsi que les sous-groupes qui se trouvent en dessous).

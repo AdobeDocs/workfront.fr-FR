@@ -4,16 +4,16 @@ content-type: reference
 product-area: system-administration
 keywords: accès,modèle,entonnoir,diagramme,niveaux,autorisations
 navigation-topic: access-levels
-title: Niveaux d’accès intégrés
+title: Niveaux d'accès intégrés
 description: 'Chacun des six niveaux d’accès intégrés actuels est conçu pour un type particulier d’utilisateur ou d’utilisatrice : administrateur et administratrice système, planificateur et planificatrice, employé et employée, réviseur et réviseuse, demandeur et demandeuse, et utilisateur et utilisatrice externes. Ces niveaux d’accès vous permettent de contrôler ce que les personnes peuvent modifier et afficher dans le système. Si vous avez besoin d’un niveau d’accès personnalisé, vous pouvez copier un niveau d’accès intégré et le modifier en fonction de la quantité d’accès que vous souhaitez autoriser pour les différents types d’objets Workfront.'
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 99%
+source-wordcount: '1715'
+ht-degree: 92%
 
 ---
 
@@ -74,7 +74,7 @@ Associé à la licence de plan, le niveau d’accès Administrateur ou administr
 
 Les personnes disposant du niveau d’accès Administrateur ou administratrice système peuvent tout faire dans Workfront. Elles peuvent afficher et modifier tous les objets et informations Workfront saisis dans Workfront par les autres utilisateurs et utilisatrices.
 
-Elles disposent également d’un accès complet à la zone Configuration, où elles peuvent modifier n’importe quel paramètre au niveau du système. Elles peuvent également accéder à toutes les zones du menu principal ![](assets/main-menu-icon.png), ou au menu principal ![](assets/lines-main-menu.png), le cas échéant.
+Elles disposent également d’un accès complet à la zone Configuration, où elles peuvent modifier n’importe quel paramètre au niveau du système. Et ils peuvent accéder à toutes les zones du Menu principal ![icône du menu principal](assets/main-menu-icon.png) ou du Menu principal ![icône du menu principal](assets/main-menu-icon.png), le cas échéant.
 
 Pour plus d’informations, voir [Octroyer un accès administratif intégral pour les utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
@@ -86,7 +86,7 @@ Pour plus d’informations, voir [Octroyer un accès administratif intégral pou
 * toute personne responsable de la planification, de la création et de la gestion des tâches, des projets, des portfolios et des programmes ;
 * toute personne responsable de l’affectation du travail (tâches et problèmes) à d’autres utilisateurs et utilisatrices ;
 * les utilisateurs et utilisatrices qui créent des rapports et approuvent des feuilles de temps, des tâches et des documents ;
-* les utilisateurs et utilisatrices qui doivent accéder à toutes les zones du menu principal ![](assets/main-menu-icon.png) ou au menu principal ![](assets/lines-main-menu.png), le cas échéant.
+* Les utilisateurs qui doivent accéder à toutes les zones du menu principal ![icône du menu principal](assets/main-menu-icon.png) ou du menu principal ![icône du menu principal](assets/main-menu-icon.png), le cas échéant.
 
 Vous pouvez créer une version personnalisée du niveau d’accès intégré Planificateur ou planificatrice et déterminer la quantité d’accès autorisée pour les différents types d’objets Workfront. Pour plus d’informations, consultez [Créer et modifier des niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -122,7 +122,7 @@ Les personnes disposant de ce niveau d’accès :
 * peuventt approuver le travail et les documents, mais pas les feuilles de temps ;
 * peuvent accéder aux rapports et les partager ;
 * peuvent communiquer avec d’autres personnes du système ;
-* ne peuvent pas accéder à toutes les zones du menu principal ![](assets/main-menu-icon.png), ou au menu principal ![](assets/lines-main-menu.png), le cas échéant, et leur zone « Utilisateurs et utilisatrices » est nommée Équipes. Dans la zone Équipes, les personnes disposant de ce niveau d’accès peuvent afficher uniquement les équipes auxquelles elles appartiennent, ainsi que le travail affecté à ces équipes ;
+* Impossible d’accéder à toutes les zones du menu principal ![icône du menu principal](assets/main-menu-icon.png) ou du menu principal ![icône du menu principal](assets/main-menu-icon.png), le cas échéant, et leur zone « Utilisateurs » est nommée Équipes. Dans la zone Équipes, les personnes disposant de ce niveau d’accès peuvent afficher uniquement les équipes auxquelles elles appartiennent, ainsi que le travail affecté à ces équipes ;
 * ont une capacité limitée de créer des objets, elles ne peuvent pas créer de projets, de portfolios, de programmes ou de rapports.
 
 Vous pouvez créer une version personnalisée du niveau d’accès intégré Employé ou employée et déterminer la quantité d’accès autorisée pour les différents types d’objets Workfront. Pour plus d’informations, consultez [Créer et modifier des niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -158,7 +158,7 @@ Par exemple, une partie prenante disposant de ce niveau d’accès peut se conne
 Les personnes avec le niveau d’accès Réviseur ou réviseuse :
 
 * ne peuvent pas se voir attribuer des tâches ni approuver les feuilles de temps ;
-* peuvent accéder aux zones Demandes et Documents dans le menu principal ![](assets/main-menu-icon.png), ou au menu principal ![](assets/lines-main-menu.png), le cas échéant ;
+* Peut accéder aux zones Demandes et Documents du Menu principal ![icône du menu principal](assets/main-menu-icon.png) ou du Menu principal ![icône du menu principal](assets/main-menu-icon.png), le cas échéant
 * ont une capacité limitée de créer des objets, elles ne peuvent pas créer de projets, de portfolios, de programmes ou de rapports.
 
 Vous pouvez créer une version personnalisée du niveau d’accès intégré Réviseur ou réviseuse et déterminer la quantité d’accès autorisée pour les différents types d’objets Workfront. Pour plus d’informations, consultez [Créer et modifier des niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -285,7 +285,7 @@ Les personnes disposant de ce niveau d’accès :
 * peuvent charger et approuver des documents ;
 * peuvent examiner le statut des problèmes qu’elles ont soumis ;
 * ne peuvent pas être affectées aux éléments de travail ;
-* ne peuvent accéder aux demandes qu’à partir de la zone Demandes du menu principal ![](assets/main-menu-icon.png), ou du menu principal ![](assets/lines-main-menu.png), le cas échéant. Pour plus d’informations sur les files d’attente des demandes, voir [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Peut accéder aux demandes uniquement à partir de la zone Demandes du Menu principal ![Icône du menu principal](assets/main-menu-icon.png) ou du Menu principal ![Icône du menu principal](assets/main-menu-icon.png), le cas échéant. Pour plus d’informations sur les files d’attente des demandes, voir [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Vous pouvez créer une version personnalisée du niveau d’accès intégré Demandeur ou demandeuse et déterminer la quantité d’accès autorisée pour les différents types d’objets Workfront. Pour plus d’informations, consultez [Créer et modifier des niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 

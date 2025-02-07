@@ -4,15 +4,15 @@ content-type: reference
 product-area: system-administration
 keywords: accès,modèle,entonnoir,diagramme,niveaux,autorisations
 navigation-topic: access-levels
-title: Fonctionnalité disponible pour chaque type d’objet pour divers niveaux d’accès
+title: Fonctionnalité disponible pour chaque type d’objet pour différents niveaux d’accès
 description: Les tableaux suivants répertorient les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1956'
 ht-degree: 95%
 
 ---
@@ -27,7 +27,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 
 >[!NOTE]
 >
->Cet article décrit les fonctionnalités disponibles pour accéder aux niveaux dans le modèle de plan Workfront actuel. Pour afficher la fonctionnalité disponible dans le nouveau modèle de plan, voir [Fonctionnalité disponible pour chaque type d’objet pour les nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
+>Cet article décrit les fonctionnalités disponibles pour les niveaux d’accès dans le modèle de plan Workfront actuel. Pour connaître les fonctionnalités disponibles dans le nouveau modèle de plan, consultez [Fonctionnalité disponible pour chaque type d&#39;objet pour les nouveaux niveaux d&#39;accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
 
 ## Projets
 
@@ -361,7 +361,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
   </tr> 
   <tr> 
    <td>Modifier, supprimer, désactiver, se connecter en tant que ou réinitialiser le mot de passe d’un utilisateur ou d’une utilisatrice</td> 
-   <td>✓*<p><b>REMARQUE</b> : vous ne pouvez pas vous connecter en tant qu’utilisateur administrateur système.</p></td> 
+   <td>✓*<p><b>REMARQUE </b> : vous ne pouvez pas vous connecter en tant qu'utilisateur administrateur système.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -369,7 +369,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
   </tr> 
   <tr> 
    <td>Modifier, supprimer, désactiver, se connecter en tant que ou réinitialiser le mot de passe d’un utilisateur ou d’une utilisatrice d’un groupe sous son administration</td> 
-   <td>✓*<p><b>REMARQUE</b> : vous ne pouvez pas vous connecter en tant qu’utilisateur administrateur système.</p></td> 
+   <td>✓*<p><b>REMARQUE </b> : vous ne pouvez pas vous connecter en tant qu'utilisateur administrateur système.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -523,7 +523,7 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Plan peuvent a
 |---|---|---|---|---|---|
 | Modifier les priorités et les heures budgétées dans le Planificateur | ✓&#42; |   |   |   |   |
 | Créer, modifier et supprimer des groupes de ressources&#42;&#42; | ✓&#42; |   |   |   |   |
-| Mise à jour des heures planifiées dans l’équilibreur de charge de travail&#42;&#42;&#42; | ✓* |   |   |   |   |
+| Mettez à jour les heures prévues dans l’équilibreur de charge de travail&#42;&#42;&#42; | ✓* |   |   |   |   |
 | Afficher les priorités du projet dans le planificateur de ressources | ✓&#42; |   |   |   |   |
 | Afficher l’allocation des ressources dans les outils de planification des ressources | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
 | Afficher les groupes de ressources | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
@@ -546,7 +546,7 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Plan peuvent a
 | Ajouter ou modifier des informations sur les fonctions dans les plans et les initiatives&#42; | ✓ | ✓ | ✓ |   |   |
 | Ajouter ou modifier des informations sur les coûts des plans et des initiatives&#42; | ✓ | ✓ | ✓ |   |   |
 | Supprimer des plans et des initiatives | ✓ | ✓ | ✓ |   |   |
-| Afficher des scénarios dans le menu principal ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
+| Afficher les scénarios dans le menu principal ![icône du planificateur de scénarios](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
 | Afficher les plans et initiatives créés par l’utilisateur ou l’utilisatrice&#42; | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}

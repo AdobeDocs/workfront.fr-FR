@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 95%
+source-wordcount: '1745'
+ht-degree: 94%
 
 ---
 
@@ -89,7 +89,7 @@ En tant qu’administrateur ou administratrice [!DNL Workfront], vous pouvez acc
 
 Pour accéder à votre sandbox à actualisation personnalisée :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 
 1. Cliquez sur **[!UICONTROL Système]** > **[!UICONTROL Préférences]**.
 

@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Importation de données dans Workfront à l’aide d’un modèle de démarrage rapide
+title: Importer des données dans Workfront à l’aide d’un modèle Kickstart
 description: Les Kickstarts sont des classeurs Excel spécialement formatés que vous pouvez renseigner avec les données à importer dans Workfront. Adobe Workfront fournit un modèle Kickstart que vous pouvez utiliser pour ce faire, comme expliqué dans la rubrique Importateur de données Kickstart.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2754'
+ht-degree: 98%
 
 ---
 
-# Importation de données dans Workfront à l’aide d’un modèle de démarrage rapide
+# Importer des données dans Workfront à l’aide d’un modèle Kickstart
 
 <!--Audited: 12/2023-->
 
@@ -79,7 +79,7 @@ Pour exporter un modèle Kickstart, procédez comme suit :
 {{step-1-to-setup}}
 
 <!--
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  -->
 
 1. Cliquez sur **Système** > **Importer des données (Kickstarts)**.
 
@@ -109,7 +109,7 @@ Pour exporter un modèle Kickstart, procédez comme suit :
       <td scope="col"> <p>Paramètre</p> <p>Texte descriptif</p><p>Option de paramètre</p> <p>Groupe de paramètres</p> <p>Paramètre de catégorie</p> <p>Catégorie</p> <p>Rapport</p> <p>Section d'onglet de portail</p> <p>Tableau de bord</p> <p>Préférences</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>Rapport</p> <p>Tous les rapports du système peuvent être exportés. Vous pouvez sélectionner jusqu’à 100 rapports spécifiques au sein d’une seule exportation.</p> <p>Le démarrage rapide ne prend pas en charge les filtres ou les regroupements en mode texte. Pour réussir l’exportation, les filtres et les regroupements de rapports doivent être basculés en mode standard.</p> </td> 
+      <td scope="col"> <p>Rapport</p> <p>Tous les rapports du système peuvent être exportés. Vous pouvez sélectionner jusqu’à 100 rapports spécifiques au sein d’une seule exportation.</p> <p>Kick-Starts ne prend pas en charge les filtres ou les regroupements en mode texte. Pour une exportation réussie, les filtres et les regroupements de rapports doivent passer en mode standard.</p> </td> 
       <td scope="col">Exporte sous forme de fichier ZIP. </td> 
       <td scope="col"> <p scope="col">Paramètre</p> <p scope="col">Texte descriptif</p> <p scope="col">Option de paramètre</p> <p scope="col">Groupe de paramètres</p> <p scope="col">Paramètre de catégorie</p> <p scope="col">Catégorie</p> <p scope="col">Rapport</p> <p scope="col">Préférences</p> </td> 
      </tr> 
@@ -478,7 +478,7 @@ L’import rapide prend en charge les types de fichiers suivants :
 
 Pour importer les données de feuille de calcul du modèle dans Workfront, procédez comme suit :
 
-<!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
+<!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
 {{step-1-to-setup}}
 

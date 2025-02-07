@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Suppression d’un état de groupe
+title: Supprimer un statut de groupe
 description: En tant qu’administrateur ou administratrice de groupe, vous pouvez supprimer le statut d’un groupe que vous gérez s’il n’est pas configuré comme obligatoire ou verrouillé au niveau du système ou pour un groupe supérieur dans la hiérarchie.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 96%
 
 ---
@@ -70,7 +70,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Dans le panneau de gauche, cliquez sur **Statuts**.
 1. Dans la liste des statuts qui s’affiche, pointez sur le statit que vous souhaitez supprimer, puis cliquez sur **Supprimer** quand il apparaît à l’extrême droite.
 
-   ![](assets/hover-click-delete.jpg)
+   ![Supprimer](assets/hover-click-delete.jpg)
 
 1. Dans la boîte qui s’affiche, sélectionnez un statut pour désigner un statut de remplacement pour les objets (projets, tâches, problèmes et processus d’approbation) qui utilisaient le statut que vous supprimez.
 

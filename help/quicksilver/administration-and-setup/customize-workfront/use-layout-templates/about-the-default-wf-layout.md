@@ -1,5 +1,5 @@
 ---
-title: À propos de la disposition Adobe Workfront par défaut
+title: À propos de la mise en page par défaut d’Adobe Workfront
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 52877ab16210699019c82e709f288b5f98e7d811
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '627'
 ht-degree: 43%
 
 ---
 
 # À propos de la disposition Adobe Workfront par défaut
 
-La disposition par défaut est la disposition du menu principal ![](assets/main-menu-icon.png) ou du menu principal ![](assets/lines-main-menu.png), le cas échéant, le panneau de gauche, ainsi que les vues, les regroupements et les filtres avant qu’un administrateur Adobe Workfront ne procède à des modifications à l’aide d’un modèle de mise en page.
+La disposition par défaut est la disposition du menu principal ![icône du menu principal](assets/main-menu-icon.png) ou du menu principal ![icône du menu principal](assets/main-menu-icon.png), le cas échéant, le panneau de gauche et les vues, regroupements et filtres avant qu’un administrateur Adobe Workfront n’apporte des modifications à l’aide d’un modèle de disposition.
 
 Pour plus d’informations sur la manière dont un administrateur ou une administratrice Workfront peut modifier la disposition par défaut d’un utilisateur ou d’une utilisatrice en lui attribuant un modèle de mise en page, voir [Attribuer un modèle de mise en page à des utilisateurs et des utilisatrices](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -28,7 +28,7 @@ Pour plus d’informations sur la manière dont un administrateur ou une adminis
 
 ## Éléments du menu principal par défaut pour chaque type de licence
 
-La disposition par défaut de chaque utilisateur dépend de son type de licence. Certains utilisateurs peuvent ne pas voir certaines zones dans le menu principal ou certains éléments du panneau de gauche, selon le type de licence qui leur est affecté.
+La mise en page par défaut de chaque utilisateur dépend de son type de licence. Il se peut que certains utilisateurs ne voient pas certaines zones du menu principal ou certains éléments du panneau de gauche, selon le type de licence qui leur est attribué.
 
 Votre entreprise peut attribuer deux types de licences :
 
@@ -41,7 +41,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 ### Menu principal par défaut pour les types de licence actuels
 
-Le tableau suivant répertorie les éléments du menu principal par défaut et les éléments du panneau de gauche qui s’affichent pour chaque type de licence actuel :
+Le tableau suivant présente les éléments par défaut du menu principal et les éléments du panneau de gauche affichés pour chaque type de licence actuel :
 
 <table class="tg"><thead>
   <tr>
@@ -57,10 +57,10 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
 <tbody>
   <tr>
     <td class="tg-0lax">Page d’accueil</td>
-    <td class="tg-0lax">Home<br>Priorités</td>
-    <td class="tg-0lax">✔ (landing page par défaut)</td>
-    <td class="tg-0lax">✔ (landing page par défaut)</td>
-    <td class="tg-0lax">✔ (landing page par défaut)</td>
+    <td class="tg-0lax">Home<br>Priority</td>
+    <td class="tg-0lax">✔ (page de destination par défaut)</td>
+    <td class="tg-0lax">✔ (page de destination par défaut)</td>
+    <td class="tg-0lax">✔ (page de destination par défaut)</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
@@ -97,17 +97,17 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
   </tr>
   <tr>
     <td class="tg-0lax">Rapports</td>
-    <td class="tg-0lax">Mes Rapports <br>Partagés Avec Moi<br>Tous Les Rapports</td>
+    <td class="tg-0lax">Mes Rapports<br>Partagés Avec Moi<br>Tous Les Rapports</td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔ (Partagé avec moi et tous les rapports dans le panneau de gauche)</td>
+    <td class="tg-0lax">✔ (partagé avec moi et tous les rapports dans le panneau de gauche)</td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax">✔ (Partagé avec moi et tous les rapports dans le panneau de gauche)</td>
+    <td class="tg-0lax">✔ (partagé avec moi et tous les rapports dans le panneau de gauche)</td>
     <td class="tg-0lax"></td>
   </tr>
   <tr>
     <td class="tg-0lax">Tableaux de bord</td>
-    <td class="tg-0lax">Mes tableaux de bord<br>Tableaux de bord partagés<br>Tous les tableaux de bord<br>tableaux de bord de canevas*</td>
+    <td class="tg-0lax">My Dashboards<br>Shared Dashboards<br>All Dashboards<br>Canvas Dashboards*</td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax">✔</td>
@@ -127,10 +127,10 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
   </tr>
   <tr>
     <td class="tg-0lax">Ressources</td>
-    <td class="tg-0lax">Planificateur<br>équilibreur de charge de travail<br>Utilisation<br>Pools de ressources</td>
+    <td class="tg-0lax">Planificateur<br>Équilibreur de charge de travail<br>Utilisation<br>Pools de ressources</td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔ (Paniers de planification et de ressources dans le panneau de gauche)</td>
+    <td class="tg-0lax">✔ (Planificateur et pools de ressources dans le panneau de gauche)</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
@@ -197,7 +197,7 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
   </tr>
   <tr>
     <td class="tg-0lax">Analytique</td>
-    <td class="tg-0lax">Work<br>People</td>
+    <td class="tg-0lax">Travail <br> personnes</td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax">✔</td>
@@ -228,7 +228,7 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
   <tr>
     <td class="tg-0lax">Plans directeurs</td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax">✔ (fonction d’installation)</td>
+    <td class="tg-0lax">✔ (Installation de la fonctionnalité)</td>
     <td class="tg-0lax">✔ (fonctionnalité de requête uniquement)</td>
     <td class="tg-0lax">✔ (fonctionnalité de requête uniquement)</td>
     <td class="tg-0lax"></td>
@@ -237,7 +237,7 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
   </tr>
   <tr>
     <td class="tg-0lax">Priorités</td>
-    <td class="tg-0lax">Home<br>Priorités</td>
+    <td class="tg-0lax">Home<br>Priority</td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax">✔</td>
@@ -249,7 +249,7 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
     <td class="tg-0lax">Configuration</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔ (fonctionnalité limitée)</td>
+    <td class="tg-0lax">✔ (fonctionnalités limitées)</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
@@ -261,18 +261,18 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax">✔ (landing page par défaut)</td>
+    <td class="tg-0lax">✔ (page de destination par défaut)</td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
   </tr>
 
 </tbody></table>
 
-*Vous devez être inscrit à la version bêta Tableaux de bord de canevas pour afficher cette zone. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+*Vous devez être inscrit à la version Beta des tableaux de bord de la zone de travail pour afficher cette zone. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 ### Menu principal par défaut pour les nouveaux types de licence
 
-Le tableau suivant répertorie les éléments du menu principal par défaut et les éléments du panneau de gauche qui s’affichent pour chaque nouveau type de licence :
+Le tableau suivant affiche les éléments par défaut du menu principal et les éléments du panneau de gauche affichés pour chaque nouveau type de licence :
 
 <table class="tg"><thead>
   <tr>
@@ -287,11 +287,11 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
 <tbody>
   <tr>
     <td class="tg-0pky">Page d’accueil</td>
-    <td class="tg-0pky">Home<br>Priorités</td>
-    <td class="tg-0pky">✔ (landing page par défaut)</td>
-    <td class="tg-0pky">✔ (landing page par défaut)</td>
+    <td class="tg-0pky">Home<br>Priority</td>
+    <td class="tg-0pky">✔ (page de destination par défaut)</td>
+    <td class="tg-0pky">✔ (page de destination par défaut)</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔ (landing page par défaut)</td>
+    <td class="tg-0pky">✔ (page de destination par défaut)</td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
@@ -323,16 +323,16 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
   </tr>
   <tr>
     <td class="tg-0pky">Rapports</td>
-    <td class="tg-0pky">Mes Rapports <br>Partagés Avec Moi<br>Tous Les Rapports</td>
+    <td class="tg-0pky">Mes Rapports<br>Partagés Avec Moi<br>Tous Les Rapports</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔ (Partagé avec moi et tous les rapports dans le panneau de gauche)</td>
+    <td class="tg-0pky">✔ (partagé avec moi et tous les rapports dans le panneau de gauche)</td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">Tableaux de bord</td>
-    <td class="tg-0pky">Mes tableaux de bord<br>Tableaux de bord partagés<br>Tous les tableaux de bord<br>tableaux de bord de canevas*</td>
+    <td class="tg-0pky">My Dashboards<br>Shared Dashboards<br>All Dashboards<br>Canvas Dashboards*</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
@@ -350,7 +350,7 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
   </tr>
   <tr>
     <td class="tg-0pky">Ressources</td>
-    <td class="tg-0pky">Planificateur<br>équilibreur de charge de travail<br>Utilisation<br>Pools de ressources</td>
+    <td class="tg-0pky">Planificateur<br>Équilibreur de charge de travail<br>Utilisation<br>Pools de ressources</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
@@ -413,7 +413,7 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
   </tr>
   <tr>
     <td class="tg-0pky">Analytique</td>
-    <td class="tg-0pky">Work<br>People</td>
+    <td class="tg-0pky">Travail <br> personnes</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
@@ -441,7 +441,7 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
   <tr>
     <td class="tg-0pky">Plans directeurs</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔ (fonction d’installation)</td>
+    <td class="tg-0pky">✔ (Installation de la fonctionnalité)</td>
     <td class="tg-0pky">✔ (fonctionnalité de requête uniquement)</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
@@ -449,7 +449,7 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
   </tr>
   <tr>
     <td class="tg-0pky">Priorités</td>
-    <td class="tg-0pky">Home<br>Priorités</td>
+    <td class="tg-0pky">Home<br>Priority</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
@@ -460,7 +460,7 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
     <td class="tg-0pky">Configuration</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔ (fonctionnalité limitée)</td>
+    <td class="tg-0pky">✔ (fonctionnalités limitées)</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
@@ -470,13 +470,13 @@ Le tableau suivant répertorie les éléments du menu principal par défaut et l
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔ (landing page par défaut)</td>
+    <td class="tg-0pky">✔ (page de destination par défaut)</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
   </tr>
 </tbody></table>
 
-*Vous devez être inscrit à la version bêta Tableaux de bord de canevas pour afficher cette zone. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+*Vous devez être inscrit à la version Beta des tableaux de bord de la zone de travail pour afficher cette zone. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 <!--
 

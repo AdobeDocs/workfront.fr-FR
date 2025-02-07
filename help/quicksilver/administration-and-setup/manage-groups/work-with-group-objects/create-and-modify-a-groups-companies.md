@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Création et modification d’entreprises d’un groupe
+title: Créer et modifier des sociétés d'un groupe
 description: Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher les entreprises associées au groupe et à ses sous-groupes et travailler avec elles.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 93%
+source-wordcount: '756'
+ht-degree: 86%
 
 ---
 
@@ -50,7 +50,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe pour lequel vous souhaitez créer ou modifier des entreprises.
 1. Dans le panneau de gauche, cliquez sur **Entreprises** pour répertorier les entreprises associées au groupe et aux sous-groupes qu’il peut avoir.
@@ -77,7 +77,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
      </tr>
      <tr> 
       <td role="rowheader">Section de formulaires personnalisés</td> 
-      <td> <p>Si des champs que vous souhaitez ajouter à votre société ne sont pas disponibles dans Workfront, vous pouvez créer un formulaire personnalisé et l’associer à votre société. Vous pouvez joindre ce formulaire à votre entreprise en le sélectionnant dans le menu déroulant. Seules les entreprises actives sont répertoriées dans le menu déroulant. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Création d’un formulaire personnalisé</a>. </p> </td> 
+      <td> <p>Si vous souhaitez ajouter des champs à votre société qui ne sont pas disponibles dans Workfront, vous pouvez créer un formulaire personnalisé et l’associer à votre société. Vous pouvez joindre ce formulaire à votre entreprise en le sélectionnant dans le menu déroulant. Seules les entreprises actives sont répertoriées dans le menu déroulant. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Créer un formulaire personnalisé</a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -86,8 +86,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    >
    >Si vous disposez d’un accès administratif aux entreprises de votre niveau d’accès, vous pouvez également cliquer sur Ajouter d’autres entreprises au bas de la liste. Une ligne est ajoutée et permet de configurer rapidement la nouvelle entreprise.
 
-1. (Facultatif) Pour modifier ou supprimer des entreprises, sélectionnez-en au moins une, puis utilisez les boutons de la barre d’outils pour la modifier ![](assets/edit-icon.png) ou la supprimer ![](assets/delete.png).
+1. (Facultatif) Pour modifier ou supprimer des sociétés, sélectionnez au moins une société, puis utilisez les boutons de la barre d’outils pour la modifier ![icône Modifier](assets/edit-icon.png) ou la supprimer ![icône Supprimer](assets/delete.png).
 
    Pour plus d’informations sur la modification d’une entreprise, voir la section [Créer ou modifier une entreprise dans Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) dans l’article [Créer et modifier des entreprises](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Facultatif) Pour exporter la liste des entreprises, cliquez sur l’icône Exporter ![](assets/export.png), puis sélectionnez le format de fichier souhaité pour la liste exportée.
+1. (Facultatif) Pour exporter la liste des sociétés, cliquez sur l’icône Exporter ![icône Exporter](assets/export.png), puis sélectionnez le format de fichier souhaité pour la liste exportée.

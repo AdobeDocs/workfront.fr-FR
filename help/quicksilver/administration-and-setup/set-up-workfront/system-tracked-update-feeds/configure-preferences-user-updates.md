@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
-title: Configuration des préférences pour les mises à jour des utilisateurs
+title: Configurer des préférences pour les mises à jour utilisateur
 description: Vous pouvez configurer des préférences qui permettent d’accéder à certaines fonctionnalités lorsque les utilisateurs et les utilisatrices ajoutent des commentaires dans la zone [!UICONTROL Mises à jour] d’un objet.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 98%
+source-wordcount: '289'
+ht-degree: 91%
 
 ---
 
@@ -61,7 +61,7 @@ Par défaut, les utilisateurs et utilisatrices ne peuvent pas ajouter d’images
 >* Les images sont accessibles via l’onglet [!UICONTROL Mises à jour] d’un objet et sont également disponibles dans la zone [!UICONTROL Documents] sous le [!UICONTROL menu principal].
 >
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Interface]** > **[!UICONTROL Mettre à jour les flux]**.
 1. Sélectionnez l’onglet **[!UICONTROL Préférences]**.
 

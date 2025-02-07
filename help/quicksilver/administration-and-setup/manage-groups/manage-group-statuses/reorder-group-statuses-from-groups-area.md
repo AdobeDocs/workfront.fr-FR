@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Réorganiser les états du groupe
+title: Réorganiser les statuts de groupe
 description: En tant qu’administrateur ou administratrice de groupes, vous pouvez modifier l’ordre des statuts des projets, des tâches et des problèmes d’un groupe que vous gérez.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '481'
 ht-degree: 96%
 
 ---
@@ -23,7 +23,7 @@ En tant qu’administrateur ou administratrice de groupes, vous pouvez modifier 
 The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.
 -->
 
-![](assets/statuses.png)
+![États](assets/statuses.png)
 
 S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrateurs et administratrices peuvent également le faire pour votre groupe. Il en va de même pour les administrateurs et administratrices de Workfront (pour n’importe quel groupe).
 

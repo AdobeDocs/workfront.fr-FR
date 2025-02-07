@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Modification des profils utilisateur en bloc
+title: Modifier les profils utilisateur en bloc
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez modifier les comptes des utilisateurs et des utilisatrices en masse.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2210'
-ht-degree: 96%
+source-wordcount: '2212'
+ht-degree: 95%
 
 ---
 
@@ -58,8 +58,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès Administrateur système. </li> 
-     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si <b>User Admin (Group Users)</b> est activé, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
+     <li> <p>Niveau d’accès de l’administrateur système. </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -73,7 +73,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-users}}
 
-1. Sélectionnez plusieurs personnes, puis cliquez sur l’icône Modifier ![](assets/edit-icon.png).
+1. Sélectionnez plusieurs utilisateurs, puis cliquez sur l’icône Modifier ![icône Modifier](assets/edit-icon.png).
 
 1. Dans la zone **Modifier l’utilisateur ou l’utilisatrice** qui s’affiche, modifiez l’une des options suivantes :
 
@@ -87,7 +87,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
        <ul> 
         <li><b>Fuseau horaire :</b> fuseau horaire des utilisateurs et utilisatrices.</li> 
         <li><b>Paramètre local</b> : paramètre local préféré des utilisateurs et utilisatrices. Cela affecte le format des nombres et des dates dans les e-mails envoyés par Workfront.</li> 
-        <li><b>Envoyez du travail que je m’assigne à mon onglet Travail sur l’onglet </b> : ce paramètre fait référence à une fonctionnalité obsolète qui a été supprimée de Workfront.</li> 
+        <li><b>Envoyer le travail que je me suis affecté dans mon onglet Travailler sur </b> : ce paramètre fait référence à une fonctionnalité obsolète qui a été supprimée de Workfront.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -191,7 +191,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
        </ul> </p> </li> 
        <li><b>Type d’heure par défaut</b> : sélectionnez le type d’heure par défaut pour les utilisateurs et les utilisatrices. Il s’agit du type d’heure utilisé par défaut lorsque les utilisateurs et les utilisatrices consignent des heures.</li> 
        <li> <p><b>Types d’heures disponibles</b> : sélectionnez les types d’heures qui doivent être disponibles pour la personne. Ces types d’heures sont visibles partout dans Workfront où les personnes peuvent consigner des heures. Une personne ne peut voir que les types d’heures qui sont activés au niveau du projet et au niveau de la personne.</p> 
-       <p>Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Définition des types d’heures et disponibilité</a>.</p> 
+       <p>Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref"> Définir les types d’heures et la disponibilité </a>.</p> 
        </li> 
        <li> <b>Équivalent temps complet</b> : il s’agit de l’équivalent temps complet de l’utilisateur ou de l’utilisatrice. Workfront utilise ce nombre pour calculer la disponibilité de la personne en fonction du planning par défaut uniquement lorsque les préférences de gestion des ressources au niveau du système sont définies sur « Le planning par défaut ».
 
@@ -215,7 +215,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
        <p>Pour plus d’informations sur les groupes de ressources, voir <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">Vue d’ensemble des groupes de ressources</a>.</p> </li> 
        <li><b>Coûts par heure</b> : le montant des coûts par heure pour l’utilisateur ou l’utilisatrice. </li> 
        <li><b>Facturation par heure</b> : le montant de la facturation par heure pour l’utilisateur ou l’utilisatrice.</li> 
-       <li><b>Formulaires personnalisés</b> : associez un formulaire personnalisé existant aux utilisateurs et utilisatrices. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à un utilisateur ou une utilisatrice. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Création d’un formulaire personnalisé</a>.</li> 
+       <li><b>Formulaires personnalisés</b> : associez un formulaire personnalisé existant aux utilisateurs et utilisatrices. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à un utilisateur ou une utilisatrice. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Créer un formulaire personnalisé</a>.</li> 
        <li><b>Commenter</b> : saisissez un commentaire dans le champ prévu à cet effet. Tous les utilisateurs et utilisatrices sélectionnés recevront une notification in-app ainsi qu’une notification par e-mail contenant votre commentaire. Le commentaire s’affiche dans l’onglet Mises à jour du profil des utilisateurs et utilisatrices.</li> 
        </ul> </td> 
      </tr> 

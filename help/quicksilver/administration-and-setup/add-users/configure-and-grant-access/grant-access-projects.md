@@ -1,5 +1,5 @@
 ---
-title: Accorder l’accès aux projets
+title: Accorder l'accès aux projets
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 99%
+source-wordcount: '650'
+ht-degree: 93%
 
 ---
 
@@ -61,9 +61,9 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 ## Configurer l’accès des personnes aux projets en utilisant un niveau d’accès personnalisé
 
 1. Commencez à créer ou à modifier le niveau d’accès, comme expliqué dans [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Cliquez sur l’icône en forme d’engrenage ![](assets/gear-icon-settings.png) sur le bouton **Afficher** ou **Modifier** à droite de Projects, puis sélectionnez les capacités que vous souhaitez accorder sous **Affiner vos paramètres**.
+1. Cliquez sur l’icône en forme d’engrenage ![icône des paramètres d’engrenage](assets/gear-icon-settings.png) sur le bouton **Affichage** ou **Modifier** à droite de Projets, puis sélectionnez les capacités à accorder sous **Ajustez vos paramètres**.
 
-   ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
+   ![Ajuster les paramètres pour la copie de projets](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
    >[!NOTE]
    >

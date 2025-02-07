@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: ad75f6e80d0681b5a769e2fd8fc68285597dbca0
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 95%
@@ -25,11 +25,11 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->La nouvelle intégration [!DNL SharePoint] a été publiée en production avec la version 22.3 (juillet 2022).
+>La nouvelle intégration [!DNL SharePoint] a été mise en production avec la version 22.3 (juillet 2022).
 >
->* Bien que vos utilisateurs puissent toujours accéder aux documents liés par l’intégration [!DNL SharePoint] héritée, ils ne peuvent pas les lier par le biais de celle-ci. ils doivent utiliser la nouvelle intégration [!DNL SharePoint] pour lier des documents depuis SharePoint.
+>* Bien que vos utilisateurs puissent toujours accéder aux documents liés par l’intégration [!DNL SharePoint] héritée, ils ne peuvent pas lier de documents par celle-ci. ils doivent utiliser la nouvelle intégration [!DNL SharePoint] pour lier des documents depuis SharePoint.
 >
->* Si aucune intégration SharePoint héritée n’est configurée, vous ne pouvez pas l’ajouter. Vous devez utiliser la nouvelle intégration SharePoint pour lier des documents à SharePoint.
+>* Si aucune intégration SharePoint héritée n’est configurée, vous ne pouvez pas l’ajouter. Vous devez utiliser la nouvelle intégration de SharePoint pour lier des documents à SharePoint.
 >
 >* La nouvelle intégration SharePoint peut ne pas nécessiter une configuration par un administrateur ou une administratrice et peut être configurée par des personnes individuelles. Toutefois, pour garantir une transition en douceur vers la nouvelle intégration de SharePoint, un administrateur ou une administratrice Workfront doit apporter quelques modifications mineures aux paramètres dans la zone Configuration de Workfront.
 >
@@ -326,7 +326,7 @@ This site app must have [!UICONTROL Write] permission to any site collections th
 When you have created a site app in [!DNL SharePoint], you can now copy information from the site app into [!DNL Workfront]. The site app is an app principal and acts as the conduit through which OAuth requests are made to access documents within site collections.
 
 1. Log into [!DNL Workfront] as an administrator.
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
 
 1. In the left panel, click **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]**.
 1. Click **[!UICONTROL Add [!DNL SharePoint]]**.
@@ -386,7 +386,7 @@ When you have created a site app in [!DNL SharePoint], you can now copy informat
 
 The basic configuration is almost complete.
 
-1. In Workfront, Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Documents]** ![](assets/document-icon.png).
+1. In Workfront, Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Documents]** ![Document icon](assets/document-icon.png).
 1. Click **[!UICONTROL Add new]**.
 1. Click **[!UICONTROL From] `<title of your [!DNL SharePoint] site>`** in the dropdown.
 

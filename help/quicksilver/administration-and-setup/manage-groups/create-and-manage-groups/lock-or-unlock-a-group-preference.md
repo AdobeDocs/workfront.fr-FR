@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Verrouillage ou déverrouillage d’un projet, d’une tâche ou d’une préférence de problème pour les sous-groupes
+title: Verrouiller ou déverrouiller une préférence de projet, de tâche ou d'événement pour des sous-groupes
 description: En tant qu’administrateur ou administratrice de groupes, vous pouvez configurer puis verrouiller une préférence de projet, de tâche ou de problème si un administrateur ou une administratrice Workfront l’a déverrouillée au niveau du système.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 95%
+source-wordcount: '594'
+ht-degree: 88%
 
 ---
 
@@ -85,8 +85,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Sur la page qui s’affiche, effectuez l’une des opérations suivantes pour une préférence déverrouillée au niveau du système ou pour un groupe supérieur au vôtre :
 
-   * Si vous souhaitez que les administrateurs et administratrices des groupes situés sous votre groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la ![](assets/unlock-toggle-button.png).
-   * Si vous souhaitez que tous les groupes inférieurs au vôtre utilisent votre configuration pour une préférence, assurez-vous qu’elle est verrouillée ![](assets/lock-toggle-button.png).
+   * Si vous souhaitez que les administrateurs des groupes situés sous votre groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la ![bouton Déverrouiller](assets/unlock-toggle-button.png).
+   * Si vous souhaitez que tous les groupes situés sous le vôtre utilisent votre configuration pour une préférence, assurez-vous qu’elle est verrouillée ![bouton Verrouiller](assets/lock-toggle-button.png).
 
      >[!IMPORTANT]
      >

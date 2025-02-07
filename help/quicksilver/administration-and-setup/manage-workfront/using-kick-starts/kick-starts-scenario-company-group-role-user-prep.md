@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Scénario de démarrage : société, groupe, rôle et préparation du lancement de l’utilisateur"
+title: 'Scénario Kickstart : préparation Kickstart pour les entreprises, groupes, rôles et utilisateurs et utilisatrices'
 description: Lorsque vous commencez à implémenter Adobe Workfront, plutôt que de saisir manuellement des données, vous pouvez importer la liste de vos clientes et clients, les services internes, les fonctions et les informations relatives aux utilisateurs et utilisatrices.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 96%
+source-wordcount: '1150'
+ht-degree: 90%
 
 ---
 
-# Scénario de démarrage : entreprise, groupe, rôle et utilisateur Préparation de lancement
+# Scénario Kick-Starts : préparation Kick-Starts de l’entreprise, du groupe, du rôle et de l’utilisateur
 
 Lorsque vous commencez à implémenter Adobe Workfront, plutôt que de saisir manuellement des données, vous pouvez importer la liste de vos clientes et clients, les services internes, les fonctions et les informations relatives aux utilisateurs et utilisatrices.
 
@@ -54,7 +54,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Éléments que vous pouvez importer
 
-Le tableau suivant répertorie les entreprises, les groupes et les rôles à importer :
+Le tableau suivant répertorie les sociétés, les groupes et les rôles à importer :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +76,7 @@ Le tableau suivant répertorie les entreprises, les groupes et les rôles à imp
  </tbody> 
 </table>
 
-Les noms des rôles doivent être uniques. Les rôles de tâche existants ne peuvent pas être importés.
+Les noms de rôle doivent être uniques. Les fonctions existantes ne peuvent pas être importées.
 
 Les tableaux suivants présentent les utilisateurs et utilisatrices à importer et plusieurs attributs utilisateur pour chacun d’eux :
 
@@ -183,69 +183,69 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
 1. Accédez à la feuille « Entreprise CMPY ».
 
-   Elle devrait être vide, à moins que les entreprises ne soient déjà dans le système. ![](assets/cmpysheet-350x16.png)
+   Il devrait être vide à moins que des entreprises soient déjà dans le système. ![Feuille de la société](assets/cmpysheet-350x16.png)
 
-   ![](assets/companyid--1--350x78.png)
+   ![Identifiant de la société](assets/companyid--1--350x78.png)
 
 1. Indiquez TRUE dans la colonne **isNew**.
 1. Répétez cette action pour chaque entreprise ajoutée. (Dans cet exemple, exécutez cette action pour les lignes 3 à 6, car quatre entreprises sont ajoutées.)
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![La société est nouvelle](assets/cmpyisnew-350x86.png)
 
 1. Indiquez un identifiant unique.
 
    Cela doit être effectué pour chaque ligne de la colonne Identifiant. Les entiers commençant à 1 fonctionnent bien lors de la création de nouveaux enregistrements.
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![La société est nouvelle](assets/cmpyisnew-350x86.png)
 
 1. Définissez un nom.
 
    Indiquez les noms de chaque client et cliente dans la colonne **setName**.
 
-   ![](assets/companyid-350x78.png)
+   ![Identifiant de la société](assets/companyid-350x78.png)
 
 1. Accédez à la feuille de groupe GROUP.
 
    Sauf si vous avez déjà créé des groupes dans Workfront, cette feuille ne doit afficher que le groupe par défaut configuré avec chaque compte de Workfront.
 
-   ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
+   ![Feuille de groupement](assets/groupsheet-350x15.png) ![Feuille de groupement vide](assets/emptygroupsheet-350x85.png)
 
 1. Définissez la colonne **isNew**. Selon le scénario, 4 groupes seront importés. Par conséquent, indiquez TRUE dans les lignes 4 à 7 pour la colonne « isNew ».
 1. Indiquez un identifiant unique.
 
    Cela doit être effectué pour chaque ligne de la colonne Identifiant. Les entiers commençant à 1 fonctionnent bien lors de la création de nouveaux enregistrements.
 
-   ![](assets/groupids-350x85.png)
+   ![ID de groupe](assets/groupids-350x85.png)
 
 1. Définissez un nom.
 
    Indiquez les noms de chaque département dans la colonne **setName**.
 
-   ![](assets/groupnames-350x85.png)
+   ![Noms de groupe](assets/groupnames-350x85.png)
 
    Indiquez les informations de rôle. Accédez à la feuille de rôle ROLE.
 
 1. À moins que vous n’ayez déjà créé ou supprimé des rôles dans votre compte, cette feuille doit afficher 8 rôles configurés avec chaque compte de Workfront.
 
-   ![](assets/groupnames-350x85.png)
+   ![Noms de groupe](assets/groupnames-350x85.png)
 
 1. Définissez l’instruction True.
 
    Sept fonctions sont en cours d’import, saisissez TRUE dans les lignes 12 à 18 pour la colonne « isNew ».
 
-   ![](assets/roleisnew-350x104.png)
+   ![Rôle nouveau](assets/roleisnew-350x104.png)
 
 1. Indiquez un identifiant unique.
 
    Cela doit être effectué pour chaque ligne de la colonne Identifiant. Les entiers commençant à 1 fonctionnent bien lors de la création de nouveaux enregistrements.
 
-   ![](assets/usersheet-350x16.png)
+   ![Feuille utilisateur](assets/usersheet-350x16.png)
 
-   ![](assets/roleisnew--1--350x104.png)
+   ![Rôle nouveau](assets/roleisnew--1--350x104.png)
 
 1. Indiquez des noms pour chaque rôle en le saisissant dans la colonne setName.
 
-   ![](assets/roleisnew-350x104.png)
+   ![Rôle nouveau](assets/roleisnew-350x104.png)
 
 1. Indiquez des détails supplémentaires si nécessaire.
 
@@ -255,23 +255,23 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
    Sauf si vous avez déjà créé des utilisateurs et utilisatrices dans votre compte, cette feuille ne doit afficher que l’utilisateur ou utilisatrice Admin de chaque compte de Workfront.
 
-   ![](assets/rolenames-350x104.png) ![](assets/emptyusersheet-350x52.png)
+   ![Noms de rôle](assets/rolenames-350x104.png) ![Feuille d’utilisation vide](assets/emptyusersheet-350x52.png)
 
 1. Définissez la valeur True en spécifiant TRUE dans les lignes 4 à 9 pour la colonne « isNew », puisque 6 personnes sont importées.
 
-   ![](assets/userisnew-350x52.png)
+   ![L’utilisateur est nouveau](assets/userisnew-350x52.png)
 
 1. Définissez un identifiant unique en spécifiant un identifiant unique dans chaque ligne pour la colonne Identifiant. Généralement, les entiers commençant à 1 fonctionnent bien pour les nouveaux enregistrements.
 
-   ![](assets/userisnew-350x52.png)
+   ![L’utilisateur est nouveau](assets/userisnew-350x52.png)
 
 1. Saisissez les noms de chaque utilisateur et utilisatrice dans les colonnes « setFirstName » et « setLastName ».
 
-   ![](assets/usernames-350x52.png)
+   ![Noms d’utilisateur](assets/usernames-350x52.png)
 
 1. Définissez des valeurs détaillées en indiquant des valeurs dans les colonnes « setEmail », « setPassword » et « setUsername ».
 
-   ![](assets/usercredentials-350x52.png)
+   ![Informations d’identification utilisateur](assets/usercredentials-350x52.png)
 
 1. Indiquez les valeurs du niveau d’accès.
 
@@ -279,13 +279,13 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
    Répétez cette étape pour chaque personne et niveau d’accès.
 
-   ![](assets/copyalid-350x171.png) ![](assets/pastealid-350x59.png)
+   ![Copier l’ID de niveau d’accès](assets/copyalid-350x171.png) ![Coller l’ID de niveau d’accès](assets/pastealid-350x59.png)
 
 1. Indiquez les détails du groupe principal.
 
    Selon le scénario, Chris Manning appartient au groupe Marketing. Dans la feuille de groupe GROUP, recherchez l’identifiant du groupe marketing, copiez-le dans le presse-papiers, puis, dans la feuille utilisateur USER, collez-le dans la colonne **setHomeGroupID** sur la ligne de Chris.Répétez cette étape pour chaque affectation de personne et de groupe.
 
-   ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
+   ![Copier l’ID de groupe](assets/copygroupid-1-350x133.png) ![Coller l’ID de groupe](assets/pastegroupid-350x59.png)
 
 1. Indiquez les détails de l’entreprise.
 
@@ -293,17 +293,17 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
    Répétez cette étape pour chaque affectation de personne et de groupe.
 
-   ![](assets/companyid--1--350x78.png)
+   ![Identifiant de la société](assets/companyid--1--350x78.png)
 
-   ![](assets/pastecompanyid-350x84.png)
+   ![Coller l’ID d’entreprise](assets/pastecompanyid-350x84.png)
 
 1. Indiquez les détails de la fonction.
 
    Selon le scénario, Chris Manning aura le rôle de personne chargée de l’analyse d’affaires. Dans la feuille de rôle ROLE, recherchez l’identifiant du rôle Personne chargée de l’analyse d’affaires, copiez-le dans le presse-papiers, puis, dans la feuille utilisateur USER, collez-le dans la colonne « setRoleID » de la ligne Chris.Répétez cette étape pour chaque affectation de personne et de groupe.
 
-   ![](assets/copyroleid-350x149.png)
+   ![Copier l’ID de rôle](assets/copyroleid-350x149.png)
 
-   ![](assets/pasteroleid-350x95.png)
+   ![Coller l’ID de rôle](assets/pasteroleid-350x95.png)
 
 1. Renseignez d’autres informations sur l’utilisateur ou l’utilisatrice, si nécessaire, puis enregistrez le fichier.
 1. Importez le fichier Excel.

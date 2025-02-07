@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Activation d’Outlook pour une utilisation avec Workfront et SAML 2.0
+title: Activer Outlook à utiliser avec Workfront et SAML 2.0
 description: Si vous activez l’authentification SAML 2.0 et que vous souhaitez que vos utilisateurs et utilisatrices puissent se connecter à Workfront à partir de Microsoft Outlook en utilisant leurs informations d’identification SAML 2.0, vous devez activer SAML 2.0 pour l’authentification dans les modules complémentaires d’Office.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 97%
+source-wordcount: '308'
+ht-degree: 96%
 
 ---
 
@@ -70,7 +70,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >
    >Si vous activez l’option **Autoriser l’incorporation de Workfront dans un iframe**, l’option **Autoriser l’authentification SAML 2.0 dans les modules complémentaires Office 365** est grisée et activée.
    >
-   >![](assets/if-you-enable.png)
+   >![Option Autoriser l’incorporation](assets/if-you-enable.png)
    >
 
 1. Cliquer sur **Enregistrer**.

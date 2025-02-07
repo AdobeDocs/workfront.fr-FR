@@ -3,15 +3,15 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Environnement de prévisualisation de sandbox  [!DNL Adobe Workfront]
+title: 'Environnement de prévisualisation de sandbox  [!DNL Adobe Workfront] '
 description: L’environnement de prévisualisation de sandbox est un environnement de test qui sert de réplique à votre environnement réel. Il est actualisé chaque week-end par Workfront. Les données ajoutées à votre environnement réel le vendredi apparaissent dans votre environnement de prévisualisation de sandbox le lundi suivant. Tous les packages d’assistance ont accès à ce sandbox.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1284'
 ht-degree: 94%
 
 ---
@@ -75,7 +75,7 @@ L’environnement de prévisualisation est idéal pour organiser des formations,
 >
 >Le nom de l’environnement auquel vous accédez (Prévisualisation) et la version de lancement du code s’affichent sur la bannière. Cliquez sur **[!UICONTROL Voir les nouveautés]** pour obtenir des informations sur cette version.
 >
->![](assets/preview-banner-nwe-350x161.png)
+>![Bannière d’aperçu](assets/preview-banner-nwe-350x161.png)
 
 ## Accéder à l’environnement de prévisualisation de sandbox
 
@@ -173,11 +173,11 @@ Pour plus d’informations sur la configuration de [!DNL Workfront] avec l’aut
 
 Recalculer les chronologies permet aux personnes gestionnaires de voir comment des forces extérieures au projet affectent la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévisionnelles pour le projet.
 
-En tant qu’administrateur Workfront, vous pouvez configurer le moment où Workfront recalcule automatiquement les chronologies de projet. Workfront peut recalculer les calendriers du projet chaque nuit ou lorsque la portée du projet change, ou les deux.
+En tant qu’administrateur ou administratrice Workfront, vous pouvez configurer le moment où Workfront recalcule automatiquement les chronologies de projet. Workfront peut recalculer les chronologies de projet toutes les nuits ou lorsque la portée du projet change, ou les deux.
 
-Pour plus d’informations, voir [Configuration des recalculations de la chronologie pour les projets](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Pour plus d’informations, voir [Configuration des recalculs de chronologie pour les projets](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-Pour l’environnement Aperçu , le nouveau calcul de nuit est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour l’environnement Aperçu . Pour plus d’informations, voir [Recalculer la chronologie du projet](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+Pour l’environnement de Prévisualisation, le recalcul nocturne est désactivé et les chronologies de projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour l’environnement de prévisualisation. Pour plus d’informations, voir [Recalculer la chronologie du projet](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 ## Performances et disponibilité de l’environnement de prévisualisation
 

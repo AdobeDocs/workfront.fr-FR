@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Message d’erreur : erreur SAML 2.0 : Principal StatusCode"
+title: 'Message d’erreur : erreur SAML 2.0 : Principal StatusCode'
 description: Vous ne pouvez pas établir une connexion réussie à ADFS.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 98%
+source-wordcount: '361'
+ht-degree: 97%
 
 ---
 
@@ -70,8 +70,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Sélectionnez **[!UICONTROL Relation de confiance]** > **[!UICONTROL Parties de confiance]** dans le volet de gauche.
 
 1. Cliquez avec le bouton droit de la souris sur sur la partie de confiance liée à [!DNL Adobe Workfront], puis sélectionnez **[!UICONTROL Propriétés]**.
-1. Cliquez sur l’onglet **[!UICONTROL Avancé]**, puis sélectionnez **[!UICONTROL SHA-1]** dans le menu déroulant **[!UICONTROL Algorithme de hachage sécurisé]**.\
-   ![](assets/1-350x287.png)
+1. Cliquez sur l’onglet **[!UICONTROL Avancé]**, puis sélectionnez **[!UICONTROL SHA-1]** dans le menu déroulant **[!UICONTROL Algorithme de hachage sécurisé]**.
+   ![SHA-1](assets/1-350x287.png)
 
 ## Cause 2 : le certificat de signature ADFS est sur le point d’expirer et a été remplacé par un nouveau certificat avec des chevauchements de dates.
 

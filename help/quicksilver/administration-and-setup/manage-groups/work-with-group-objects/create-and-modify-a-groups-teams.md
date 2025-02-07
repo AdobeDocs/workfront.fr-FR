@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Création et modification d’équipes d’un groupe
+title: Création et modification des équipes d’un groupe
 description: Quand vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez voir et modifier les équipes liées au groupe et ses sous-groupes.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 99%
+source-wordcount: '1018'
+ht-degree: 91%
 
 ---
 
@@ -54,10 +54,10 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe pour lequel vous souhaitez créer ou modifier des équipes.
-1. Dans le panneau de gauche, cliquez sur **Équipes** ![](assets/teams.png) pour répertorier les équipes associées au groupe et à ses éventuels sous-groupes.
+1. Dans le panneau de gauche, cliquez sur **Équipes** ![Équipes](assets/teams.png) pour répertorier les équipes associées au groupe et aux sous-groupes qu’il peut avoir.
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -100,7 +100,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
       </tbody> 
      </table>
 
-   * **Modifier les équipes**: sélectionnez au moins une équipe, puis cliquez sur **la valeur** Icône Modifier ![](assets/edit-icon.png), puis utilisez les options suivantes pour la configurer :
+   * **Modifier les équipes** : sélectionnez au moins une équipe, cliquez sur **l&#39;icône** Modifier ![icône Modifier](assets/edit-icon.png), puis utilisez les options suivantes pour la configurer :
 
      <table style="table-layout:auto"> 
       <col> 
@@ -149,5 +149,5 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
       </tbody> 
      </table>
 
-   * **Supprimer des équipes** : sélectionnez au moins une équipe, puis cliquez sur l’icône Supprimer ![](assets/delete.png).
-   * **Exporter la liste des équipes** : cliquez sur **Exporter** ![](assets/export.png), puis sélectionnez le format de fichier souhaité pour la liste exportée.
+   * **Supprimer des équipes** : sélectionnez au moins une équipe, puis cliquez sur l’icône Supprimer ![icône Supprimer](assets/delete.png).
+   * **Exporter la liste des équipes** : cliquez sur **Exporter** ![Icône Exporter](assets/export.png), puis sélectionnez le format de fichier souhaité pour la liste exportée.

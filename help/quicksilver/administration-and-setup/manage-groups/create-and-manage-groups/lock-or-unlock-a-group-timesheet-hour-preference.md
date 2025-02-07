@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Verrouillage ou déverrouillage d’une feuille de temps et d’heure de groupe
+title: Verrouiller ou déverrouiller une feuille de temps de groupe et une préférence horaire
 description: Si vous êtes administrateur ou administratrice de groupes, vous pouvez configurer et verrouiller les préférences en matière de feuilles de temps et d’heures pour votre groupe après qu’un administrateur ou une administratrice Workfront a déverrouillé cette fonctionnalité au niveau du système.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 96%
+source-wordcount: '623'
+ht-degree: 88%
 
 ---
 
@@ -91,8 +91,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Sur la page qui s’affiche, effectuez l’une des opérations suivantes :
 
-   * Si vous souhaitez que les administrateurs et administratrices des groupes situés sous votre groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la ![](assets/unlock-toggle-button.png).
-   * Si vous souhaitez que tous les groupes situés sous le vôtre adoptent la même configuration pour une préférence, assurez-vous qu’elle est verrouillée ![](assets/lock-toggle-button.png) (il s’agit du statut par défaut).
+   * Si vous souhaitez que les administrateurs des groupes situés sous votre groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la ![bouton Déverrouiller](assets/unlock-toggle-button.png).
+   * Si vous souhaitez que tous les groupes situés sous le vôtre utilisent votre configuration pour une préférence, assurez-vous qu’elle est verrouillée ![bascule Verrouiller](assets/lock-toggle-button.png) (il s’agit de la valeur par défaut).
 
      >[!IMPORTANT]
      >

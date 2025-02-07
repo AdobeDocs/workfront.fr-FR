@@ -6,10 +6,10 @@ navigation-topic: configure-proofing-functionality
 title: Configurer la génération automatique des épreuves
 description: Vous pouvez configurer la génération automatique des épreues par le système lorsque les utilisateurs et utilisatrices que vous spécifiez ajoutent des documents à Workfront. Ce paramètre est désactivé par défaut.
 author: Courtney
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '245'
+ht-degree: 82%
 
 ---
 
@@ -45,17 +45,17 @@ Vous devez disposer des éléments suivants :
 
 ## Configurer la génération automatique des épreuves pour un utilisateur ou une utilisatrice unique
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sélectionnez **Utilisateurs et utilisatrices** ![](assets/users-icon-in-main-menu.png).
+1. Cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, puis cliquez sur **Utilisateurs** ![Utilisateurs](assets/users-icon-in-main-menu.png).
 1. Sélectionnez un utilisateur ou une utilisatrice disposant d’un accès de relecture, puis cliquez sur **Modifier**.
 1. Dans la section **Préférences**, cochez ou décochez la case **Générer automatiquement des épreuves lors du chargement de documents**.
 
-   ![](assets/autogenerate-proofs-350x216.png)
+   ![générer automatiquement des épreuves](assets/autogenerate-proofs-350x216.png)
 
 1. Cliquez sur **Enregistrer les modifications**.
 
 ## Configurer la génération automatique des épreuves pour plusieurs utilisateurs et utilisatrices
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Utilisateurs et utilisatrices** ![](assets/users-icon-in-main-menu.png).
+1. Cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, puis cliquez sur **Utilisateurs** ![Icône Utilisateurs](assets/users-icon-in-main-menu.png).
 1. Sélectionnez les utilisateurs et utilisatrices disposant d’un accès de relecture, puis cliquez sur **Modifier**.
 
    >[!IMPORTANT]
@@ -64,7 +64,7 @@ Vous devez disposer des éléments suivants :
 
 1. Dans la section **Préférences**, cochez la case **Générer automatiquement des épreuves lors du chargement de documents**, puis sélectionnez **Oui** ou **Non**.
 
-   ![](assets/autogenerate-proofs-bulk-350x285.png)
+   ![Générer automatiquement des épreuves en bloc](assets/autogenerate-proofs-bulk-350x285.png)
 
 1. Cliquez sur **Enregistrer les modifications**.
 

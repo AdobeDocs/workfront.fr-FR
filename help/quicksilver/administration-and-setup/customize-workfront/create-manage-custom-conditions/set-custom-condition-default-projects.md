@@ -1,5 +1,5 @@
 ---
-title: Définition d’une condition personnalisée comme valeur par défaut pour les projets
+title: Définir une condition personnalisée comme valeur par défaut pour les projets
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 97%
+source-wordcount: '329'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 Si le type de condition d’un projet est défini sur Statut de la progression au lieu de Manuel, Adobe Workfront affiche automatiquement l’une des trois conditions par défaut intégrées au projet (Dans les temps, À risque ou En difficulté) au fur et à mesure de sa progression, comme expliqué dans [Vue d’ensemble de la condition du projet et du type de condition](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
-![](assets/condition-in-project-header-nwe.png)
+![Condition dans l’en-tête du projet](assets/condition-in-project-header-nwe.png)
 
 Vous pouvez définir vos conditions personnalisées comme conditions par défaut au lieu d’utiliser ces trois conditions par défaut intégrées. Par exemple, vous pouvez modifier la condition par défaut Dans les temps pour qu’elle s’affiche comme Bon suivi dans tous les projets.
 

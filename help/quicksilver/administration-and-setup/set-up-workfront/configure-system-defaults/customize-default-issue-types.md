@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Personnalisation des types de problème par défaut
+title: Personnaliser les types d'événements par défaut
 description: Vous pouvez personnaliser les libellés de chaque type de problème par défaut afin qu’ils correspondent mieux à la terminologie utilisée dans votre organisation. Les types de problème sont utiles pour personnaliser les statuts des problèmes et créer des files d’attente des demandes.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 99%
+source-wordcount: '438'
+ht-degree: 90%
 
 ---
 
@@ -65,7 +65,7 @@ Si vous disposez d’un accès [!UICONTROL administrateur ou administratrice] [!
 * **[!UICONTROL Problème]** Objet dans [!DNL Workfront] qui communique un travail non planifié, un problème qui se pose ou quelque chose qui doit être résolu afin de poursuivre une tâche.
 * **[!UICONTROL Demande]** Type de problème qui s’applique à une file d’attente des demandes dans laquelle les personnes font des demandes dans Workfront.
 
-![](assets/default-issue-types.png)
+![Types de problème par défaut](assets/default-issue-types.png)
 
 ## Personnaliser un type de problème
 
@@ -86,8 +86,8 @@ Pour personnaliser un type de problème :
 1. Cliquez sur l’onglet **[!UICONTROL Problèmes]**.
 1. Effectuez l’une des opérations suivantes :
 
-   * Pointez sur le type de problème que vous souhaitez personnaliser, cliquez sur l’icône [!UICONTROL Modifier] ![](assets/edit-icon.png) qui apparaît à l’extrême droite, puis saisissez un nouveau nom pour le type de problème.
+   * Pointez sur le type d’événement à personnaliser, cliquez sur l’icône [!UICONTROL Modifier] ![Icône Modifier](assets/edit-icon.png) qui s’affiche à l’extrémité droite, puis saisissez un nouveau nom pour le type d’événement.
 
-     ![](assets/customize-issue-type.png)
+     ![Personnaliser le type d&#39;événement](assets/customize-issue-type.png)
 
    * Cliquez sur un [!UICONTROL type de problème] pour afficher la liste des statuts associés, puis faites glisser les poignées qui apparaissent lorsque vous pointez sur eux et déposez-les dans l’ordre dans lequel vous souhaitez qu’ils apparaissent dans le menu déroulant du **[!UICONTROL Statut]** des problèmes de vos utilisateurs et utilisatrices.

@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 88%
+source-wordcount: '1281'
+ht-degree: 87%
 
 ---
 
@@ -54,7 +54,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe pour lequel vous souhaitez créer ou modifier des modèles.
 1. Dans le panneau de gauche, cliquez sur **Modèles** pour afficher la liste des modèles associés au groupe et à ses éventuels sous-groupes.
@@ -130,23 +130,23 @@ Lorsque vous créez un modèle de projet, les paramètres énumérés dans les t
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type de condition</p> </td> 
-   <td> <p>Configuré par la préférence de projet au niveau du groupe "Définissez automatiquement la condition du projet en fonction de l’état de progression" si vous associez le nouveau modèle à un groupe, ou la même préférence de projet au niveau du système si vous ne le faites pas.</p> </td> 
+   <td> <p>Configuré par la préférence de projet au niveau du groupe « Définir automatiquement la condition du projet en fonction du statut de progression » si vous associez le nouveau modèle à un groupe, ou la même préférence de projet au niveau du système si vous ne le faites pas.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Planifier à partir de</p> </td> 
-   <td> <p>Configuré par la préférence de projet au niveau du groupe "Planifier à partir de" si vous associez le nouveau modèle à un groupe, ou la même préférence de projet au niveau du système si vous ne le faites pas.</p> </td> 
+   <td> <p>Configuré par la préférence de projet au niveau du groupe « Planifier à partir de » si vous associez le nouveau modèle à un groupe, ou la même préférence de projet au niveau du système si vous ne le faites pas.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Congés de l’utilisateur ou de l’utilisatrice</p> </td> 
-   <td> <p>Configuré par la préférence de projet au niveau du groupe "Délai d’utilisation" si vous associez le nouveau modèle à un groupe, ou la même préférence de projet au niveau du système si vous ne le faites pas.</p> </td> 
+   <td> <p>Configuré par la préférence de projet au niveau du groupe « Congés de l’utilisateur » si vous associez le nouveau modèle à un groupe ou la même préférence de projet au niveau du système si vous ne le faites pas.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type de mise à jour</p> </td> 
-   <td> <p>Configuré par la préférence de projet au niveau du groupe "Les chronologies de projet seront automatiquement recalculées" si vous associez le nouveau modèle à un groupe ou la même préférence de projet au niveau du système si vous ne le faites pas.</p> </td> 
+   <td> <p>Configuré par la préférence de projet au niveau du groupe « Les chronologies de projet seront automatiquement recalculées » si vous associez le nouveau modèle à un groupe, ou la même préférence de projet au niveau du système si vous ne le faites pas.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Paramètres de la section Accès</p> </td> 
-   <td> <p>Configuré par les préférences de tâche au niveau du groupe dans la section "Accès" si vous associez le nouveau modèle à un groupe, ou la même préférence de projet au niveau du système si vous ne le faites pas.</p> </td> 
+   <td> <p>Configuré par les préférences de tâche au niveau du groupe dans la section « Accès » si vous associez le nouveau modèle à un groupe, ou la même préférence de projet au niveau du système si vous ne le faites pas.</p> </td> 
   </tr> 
  </tbody> 
 </table>

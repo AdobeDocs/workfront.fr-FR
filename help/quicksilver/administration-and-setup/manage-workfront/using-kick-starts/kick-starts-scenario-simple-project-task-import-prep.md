@@ -3,26 +3,26 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Scénario de démarrage : préparation simple de l’importation de projet et de tâche"
+title: 'Scénario de démarrage : préparation simple de l’importation d’un projet et d’une tâche'
 description: Décrit en détail les paramètres et les contrôles disponibles pour un projet basique et pour l’import de tâches à l’aide de la méthode Kickstart.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 96%
+source-wordcount: '1493'
+ht-degree: 94%
 
 ---
 
 # Scénario Kickstart : préparation d’un projet simple et de l’import de tâches
 
-Décrit en détail les paramètres et les contrôles disponibles pour un projet de base et l’importation de tâches à l’aide de la méthode de démarrage rapide.
+Décrit en détail les paramètres et commandes disponibles pour une importation de base de projet et de tâche à l&#39;aide de la méthode Kickstart.
 
 ## Scénario
 
-L’équipe d’implémentation préfère importer les informations sur les projets et les tâches pour les projets actifs plutôt que de saisir manuellement ces données dans le système.
+L’équipe d’implémentation préfère importer les informations de projet et de tâche pour les projets actifs plutôt que d’entrer manuellement ces données dans le système.
 
 * [Projets](#projects)
 * [Liste de tâches](#task-list)
@@ -277,10 +277,10 @@ Accédez à la page Kickstart. Sélectionnez les objets Entreprise, Groupe, Proj
 
 Ouvrez le fichier Workfront.xlsx que vous venez de télécharger. Accédez à la feuille de projet PROJ.
 
-![](assets/im2.png)
-À moins que vous n’ayez déjà créé des projets dans Workfront, elle devrait être vide.
+![Ensemble de projets PROJ](assets/im2.png)
+À moins que vous n’ayez déjà créé des projets dans Workfront, il doit être vide.
 
-![](assets/im10.png)
+![Feuille de projet vide](assets/im10.png)
 
 Définissez les valeurs des champs de projet suivants :
 
@@ -305,7 +305,7 @@ Saisissez la date de début prévue de chaque projet dans la colonne setPlannedS
 * **Définir les autres détails nécessaires**
 Renseignez d’autres détails, comme une description ou le statut actuel, si nécessaire. Recherchez les identifiants de groupes de chaque projet sur la feuille de groupe GROUP et saisissez-les dans la colonne setGroupID des projets respectifs. Recherchez l’identifiant d’entreprise des projets sur la feuille d’entreprise CMPY et saisissez-le dans la colonne setCompanyID. Recherchez l’ID d’utilisateur ou d’utilisatrice de chaque personne propriétaire de projet sur la feuille d’utilisateur ou d’utilisatrice USER et saisissez-le dans la colonne setOwnerID. Recherchez l’ID d’utilisateur ou d’utilisatrice de chaque personne sponsor du projet sur la feuille d’utilisateur ou d’utilisatrice USER et saisissez-le dans la colonne setSponsorID.
 
-![](assets/im9.png)
+![Définir les valeurs](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ Ouvrez le fichier Workfront.xlsx que vous venez de télécharger. **Accédez à 
 
 À moins que vous n’ayez déjà créé des tâches dans Workfront, cette feuille doit être vide.
 
-![](assets/im8.png)
+![Tableau des tâches](assets/im8.png)
 
-![](assets/im7.png)
+![Feuille de tâche vide](assets/im7.png)
 
-![](assets/im6.png)
+![Colonnes du tableau des tâches](assets/im6.png)
 
 La façon la plus simple de mapper des tâches consiste à le faire projet par projet (en particulier lorsque les tâches sont les mêmes pour chaque projet). Vous pouvez ensuite copier le plan de tâches du premier projet et y apporter de légères modifications pour les projets suivants. Les étapes suivantes supposent que vous créez des tâches pour le projet Implementez Workfront seulement. Selon le scénario, vous importerez 9 tâches par projet. Saisissez donc TRUE dans les lignes 3 à 11 de la colonne isNew.
 
@@ -364,7 +364,7 @@ Définissez la durée de chaque tâche en saisissant le nombre d’heures, de jo
 * Saisissez la représentation en nombres entiers du pourcentage terminé dans le champ setPercentComplete pour chaque tâche. Cette valeur ne doit pas inclure le symbole de pourcentage (%).
 * Ajoutez une description et d’autres détails pour chaque tâche que vous créez, si nécessaire.
 
-  ![](assets/im5.png)
+  ![Ajouter des détails](assets/im5.png)
 
 * Les colonnes setPlannedStartDate et setTaskConstraint ne sont pas utilisées pour construire la chronologie de ce projet, car nous nous appuyons sur les relations entre tâches antérieures. Vous pouvez en revanche saisir une date pour chaque tâche. Dans ce cas, veillez à fournir également une contrainte de tâche valide dans la colonne setTaskConstraint. Pour plus d’informations sur les valeurs valides de ce champ, consultez la rubrique Contrainte de tâche et les articles connexes.
 

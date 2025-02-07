@@ -1,5 +1,5 @@
 ---
-title: Création ou modification d’un état
+title: Création ou modification d’un statut
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 99%
+source-wordcount: '961'
+ht-degree: 98%
 
 ---
 
@@ -72,13 +72,13 @@ Lorsque vous créez un statut personnalisé pour l’ensemble de l’organisatio
 
 1. (Le cas échéant) Si vous créez ou modifiez un statut destiné à être utilisé à l’échelle du système, assurez-vous que l’option **Statuts du système** est sélectionnée dans la zone située dans le coin supérieur droit.
 
-   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![États du système](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    Ou
 
    Si le statut est pour un groupe ou un sous-groupe, commencez à saisir le nom du groupe dans le coin supérieur droit, puis sélectionnez-le lorsqu’il apparaît.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Statuts système pour le groupe](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâche**, ou **Problèmes**) que vous souhaitez associer au statut.
 
@@ -88,7 +88,7 @@ Lorsque vous créez un statut personnalisé pour l’ensemble de l’organisatio
 
    Si vous modifiez un statut existant, survolez-le, puis cliquez sur l’icône **Modifier** qui s’affiche complètement à droite.
 
-   ![](assets/custom-status-edit.png)
+   ![ Modifier le statut personnalisé ](assets/custom-status-edit.png)
 
 1. Configurez le statut à l’aide des options suivantes :
 

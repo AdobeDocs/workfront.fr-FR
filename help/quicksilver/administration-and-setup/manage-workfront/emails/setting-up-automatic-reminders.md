@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Mettre en place des rappels automatiques
-description: Vous pouvez configurer des rappels automatiques pour déclencher des notifications par e-mail lorsque toutes les tâches ou tous les problèmes sont dus, en retard ou près de la date d’achèvement prévue.
+description: Vous pouvez configurer des rappels automatiques pour déclencher des notifications par e-mail lorsque toutes les tâches ou tous les événements sont dus, en retard ou proches de la date d'achèvement prévue.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 95%
+source-wordcount: '629'
+ht-degree: 89%
 
 ---
 
@@ -64,7 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Email** > **Reminders automatiques**.
+1. Cliquez sur **E-mail** > **Rappels automatiques**.
 
 1. Dans la zone **Envoyer une notification tardive à**, sélectionnez l’une des options suivantes :
 
@@ -86,7 +86,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
     </tr>
     <tr>
         <td>La personne « Affectée à »</td>
-        <td>(Dans la zone <b>Envoyer un rappel d’échéance à</b>.) Sélectionnez cette option si vous souhaitez que la personne affectée à une tâche ou à un problème reçoive une notification sur son élément de travail approchant la date d’échéance.</td>
+        <td>(Dans la zone <b>Envoyer un rappel d’échéance à</b>). Sélectionnez cette option si vous souhaitez que l’utilisateur affecté à une tâche ou à un événement reçoive une notification concernant son élément de travail dont la date d’échéance approche.</td>
         <td></td>
     </tr>
    </table>
@@ -99,7 +99,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Par exemple, si une tâche est affectée le vendredi et a une durée de 3 jours écoulés, la date d’achèvement de la tâche est définie pour le lundi (en supposant que le samedi et le dimanche soient un week-end). Si la tâche a une durée de 3 jours (non écoulés), la date d’achèvement de la tâche est définie pour le mercredi.
 
-   ![](assets/time-increments-for-automatic-reminder.png)
+   ![Incréments temporels](assets/time-increments-for-automatic-reminder.png)
 
 1. Cliquer sur **Enregistrer**.
 

@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Désactivation des rôles de tâche
+title: Désactiver les fonctions
 description: En tant qu’administrateur et administratrice d’ [!DNL Adobe Workfront]  ou utilisateur et utilisatrice disposant d’un accès administratif aux fonctions, vous pouvez désactiver les fonctions qui deviennent obsolètes dans votre système. Lorsque vous désactivez une fonction au lieu de la supprimer, vous pouvez conserver toutes les informations historiques qui lui sont associées.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '664'
 ht-degree: 98%
 
 ---
@@ -44,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>Accès administratif aux rôles de tâche</td> 
+   <td>Accès administratif aux fonctions</td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,7 +114,7 @@ Nous vous recommandons d’effectuer les opérations suivantes avant de désacti
 1. Cliquez sur le nom de la fonction à désactiver.
 1. Dans le menu déroulant **[!UICONTROL Est actif]**, sélectionnez **[!UICONTROL Non]**.
 
-   ![](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![Désactiver la fonction](assets/deactivate-job-role-edit-role-box-nwe.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 

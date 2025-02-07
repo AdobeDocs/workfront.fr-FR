@@ -1,29 +1,29 @@
 ---
-title: Configuration d’une URL d’aide personnalisée
+title: Configurer une URL d’aide personnalisée
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: Si vous créez un site d’aide interne personnalisé contenant des informations sur l’utilisation de Workfront par votre entreprise, vous pouvez configurer l’icône d’aide du menu principal pour accéder à ce site.
+description: Si vous créez un site d’aide interne personnalisé contenant des informations sur la manière dont votre entreprise utilise Workfront, vous pouvez configurer l’icône d’aide du menu principal de manière à renvoyer vers ce site.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 51%
+source-wordcount: '277'
+ht-degree: 50%
 
 ---
 
 # Configurer une URL d’aide personnalisée
 
-Si vous créez un site d’aide interne personnalisé contenant des informations sur l’utilisation de Workfront par votre entreprise, vous pouvez configurer l’icône d’aide du menu principal pour accéder à ce site.
+Si vous créez un site d’aide interne personnalisé contenant des informations sur la manière dont votre entreprise utilise Workfront, vous pouvez configurer l’icône d’aide du menu principal de manière à renvoyer vers ce site.
 
-![](assets/custom-help-button.png)
+![Bouton Aide personnalisé](assets/custom-help-button.png)
 
-Cela n’a aucune incidence sur les liens d’aide contextuels dans Workfront, qui redirigent les utilisateurs vers le site d’aide de Workfront.
+Cela n’affecte pas les liens d’aide contextuelle dans Workfront, qui redirigent les utilisateurs vers le site d’aide de Workfront.
 
-Pour plus d’informations sur la façon dont les utilisateurs accèdent à une URL d’aide personnalisée que vous configurez dans Workfront et au site d’aide Workfront classique, voir [Accès à l’aide d’Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+Pour plus d’informations sur la manière dont les utilisateurs accèdent à la fois à une URL d’aide personnalisée que vous configurez dans Workfront et au site d’aide standard de Workfront, voir [Accès à l’aide d’Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Conditions d’accès
 
@@ -69,4 +69,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquer sur **Enregistrer**.
 
-   Une fois que vous avez enregistré une URL d’aide personnalisée, vous pouvez revenir au site d’aide Workfront par défaut en supprimant l’URL personnalisée et en cliquant sur **Enregistrer**.
+   Une fois que vous avez enregistré une URL d’aide personnalisée, vous pouvez revenir au site d’aide par défaut de Workfront en supprimant l’URL personnalisée et en cliquant sur **Enregistrer**.

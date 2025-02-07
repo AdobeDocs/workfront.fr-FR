@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Modification du mot de passe d’un utilisateur muni d’un profil d’approvisionnement automatique
-description: Nous vous recommandons de remplacer le nom d’utilisateur d’un nouvel utilisateur par son adresse électronique Workfront, puis de lui permettre de modifier son mot de passe.
+title: Modifier le mot de passe d’un utilisateur configuré automatiquement
+description: Nous vous recommandons de remplacer le nom d’utilisateur d’un nouvel utilisateur par son adresse e-mail Workfront, puis de lui permettre de modifier son mot de passe.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 93%
+source-wordcount: '472'
+ht-degree: 89%
 
 ---
 
@@ -80,7 +80,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Vous recevez une réponse similaire à celle-ci :
 
-   ![](assets/get-guid.png)
+   ![Obtenir le GUID](assets/get-guid.png)
 
    Le retour de « username » est le GUID de la personne.
 
@@ -98,7 +98,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Dans la zone **Votre adresse e-mail de connexion**, vérifiez l’adresse e-mail de la personne, puis cliquez sur **Mettre à jour le compte**.
 
-   ![](assets/guidusername-350x272.png)
+   ![Le nom d’utilisateur ou d’utilisatrice](assets/guidusername-350x272.png)
 
    Le nom d’utilisateur ou d’utilisatrice de la personne est remplacé par son adresse e-mail Workfront.
 
@@ -106,7 +106,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 >
 >Pour rechercher l’ID d’une personne :
 >
->1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs et utilisatrices** ![](assets/users-icon-in-main-menu.png).
+>1. Cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, puis cliquez sur **Utilisateurs** ![Icône Utilisateurs](assets/users-icon-in-main-menu.png).
 >
 >1. Sélectionnez la personne.
 >

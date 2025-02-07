@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Configuration des préférences de feuille de temps et heure
+title: Configurer les préférences des feuilles de temps et des heures
 description: En tant qu’administrateur ou administratrice  [!DNL Adobe Workfront] , vous pouvez spécifier des préférences pour les feuilles de temps et les heures dans  [!DNL Workfront]  afin de définir les éléments que les feuilles de temps peuvent préremplir et les éléments pour lesquels les personnes peuvent consigner des heures.
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 99%
+source-wordcount: '1433'
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. (Facultatif) Dans la zone de recherche **Préférences système des feuilles de temps et des heures**, commencez à saisir le nom d’un groupe, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
-   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![Zone Rechercher un groupe](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    La page Préférences de la feuille de temps et des heures se met à jour avec les préférences du groupe que vous avez sélectionné. Les préférences au niveau du système doivent être déverrouillées pour pouvoir modifier les préférences au niveau du groupe. Pour plus d’informations, voir la section [Déverrouiller les préférences de feuille de temps et d’heures pour les groupes](#unlock-timesheet-and-hour-preferences-for-groups) dans cet article.
 
@@ -212,8 +212,8 @@ Pour déverrouiller une préférence de projet afin que les groupes puissent la 
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Si vous souhaitez que les administrateurs et les administratrices de groupes puissent configurer une préférence pour leurs groupes, cliquez sur le bouton (bascule) **déverrouiller** ![](assets/unlock-toggle-button.png) pour le déverrouiller.
-   * Si vous souhaitez que tous les groupes utilisent votre configuration pour une préférence, assurez-vous que le bouton (bascule) est verrouillé ![](assets/locked-preference-toggle.png) (c’est la valeur par défaut).
+   * Si vous souhaitez que les administrateurs de groupes puissent configurer une préférence pour leurs groupes, cliquez sur le bouton bascule **déverrouiller** ![Déverrouiller](assets/unlock-toggle-button.png) pour le déverrouiller .
+   * Si vous souhaitez que tous les groupes utilisent votre configuration pour une préférence, assurez-vous que le bouton (bascule) est verrouillé ![bascule des préférences verrouillées](assets/locked-preference-toggle.png) (valeur par défaut).
 
      >[!IMPORTANT]
      >

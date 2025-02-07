@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: créer,groupe,sous-groupe,nouveau
 navigation-topic: create-and-manage-groups
-title: Création d’un groupe
+title: Créer un groupe
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des groupes pour organiser les personnes et les projets et pour attribuer des droits d’accès dans Workfront.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 99%
+source-wordcount: '1656'
+ht-degree: 91%
 
 ---
 
@@ -69,7 +69,7 @@ Vous devez faire partie de l’équipe d’administration de Workfront pour cré
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
 1. Au-dessus de la liste des groupes, cliquez sur **Nouveau groupe**.
 
@@ -98,7 +98,7 @@ Vous devez faire partie de l’équipe d’administration de Workfront pour cré
      </tr> 
      <tr> 
       <td role="rowheader">Rendre ce groupe et ses sous-groupes publics</td> 
-      <td> <p>(Disponible uniquement si vous consultez les détails d’un groupe de niveau supérieur et non d’un sous-groupe.) Activez cette option pour permettre aux utilisateurs et utilisatrices du groupe ayant un accès en modification (qui ne sont pas administrateurs ou administratrices du groupe) d’ajouter ce groupe et ses sous-groupes au profil d’autres utilisateurs et utilisatrices.</p> <p>Pour un groupe public, toute personne (faisant partie ou non du groupe) disposant d’un accès d’édition peut ajouter le groupe au profil d’autres utilisateurs et utilisatrices. Cette personne ne peut pas effectuer cette action pour un groupe privé.</p> <p>Vous ne pouvez modifier cette option que pour le groupe parent situé au niveau le plus haut d’une hiérarchie de groupes à plusieurs niveaux. Tous les sous-groupes du groupe parent héritent de ce paramètre.</p> <p><b>NOTE</b> :  
+      <td> <p>(Disponible uniquement si vous affichez les détails d’un groupe de niveau supérieur, et non d’un sous-groupe.) Activez cette option pour permettre aux utilisateurs du groupe disposant d’un accès utilisateur en modification (qui ne sont pas administrateurs du groupe) d’ajouter ce groupe et ses sous-groupes au profil utilisateur d’autres utilisateurs.</p> <p>Pour un groupe public, toute personne (faisant partie ou non du groupe) disposant d’un accès d’édition peut ajouter le groupe au profil d’autres utilisateurs et utilisatrices. Cette personne ne peut pas effectuer cette action pour un groupe privé.</p> <p>Vous ne pouvez modifier cette option que pour le groupe parent situé au niveau le plus haut d’une hiérarchie de groupes à plusieurs niveaux. Tous les sous-groupes du groupe parent héritent de ce paramètre.</p> <p><b>NOTE</b> :  
         <ul> 
          <li>Vous ne pouvez pas rendre public un sous-groupe seul, mais vous pouvez rendre public son groupe parent de niveau supérieur, ce qui a pour effet de rendre également publics tous les sous-groupes du groupe parent.</li> 
          <li>Un sous-groupe appartenant à un groupe public est public par défaut. Par conséquent, toute personne disposant d’un accès en modification peut également ajouter le sous-groupe à d’autres utilisateurs et utilisatrices.</li> 
@@ -141,11 +141,11 @@ Pour créer un nouveau groupe de premier niveau en copiant un groupe ou un sous-
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![groupes](assets/groups-icon.png).
 
    Dans la liste qui s’affiche, vous pouvez voir les groupes que vous gérez, ainsi que les sous-groupes qu’ils comportent. Les administrateurs et administratrices Adobe Workfront peuvent voir tous les groupes.
 
-1. Sélectionnez le groupe que vous souhaitez copier, puis cliquez sur l’icône Copier ![](assets/copy-icon.png).
+1. Sélectionnez le groupe à copier, puis cliquez sur l’icône Copier ![icône Copier](assets/copy-icon.png).
 1. Dans la zone **Copier le groupe** qui s’affiche, saisissez un **Nom de groupe** pour le groupe copié.
 
 1. Indiquez les informations suivantes :
@@ -168,7 +168,7 @@ Pour créer un nouveau groupe de premier niveau en copiant un groupe ou un sous-
      </tr> 
      <tr> 
       <td role="rowheader">Rendre ce groupe et ses sous-groupes publics</td> 
-      <td> <p>(Disponible uniquement si vous consultez les détails d’un groupe de niveau supérieur et non d’un sous-groupe.) Activez cette option pour permettre aux utilisateurs et utilisatrices du groupe ayant un accès en modification (qui ne sont pas administrateurs ou administratrices du groupe) d’ajouter ce groupe et ses sous-groupes au profil d’autres utilisateurs et utilisatrices.</p> <p>Pour un groupe public, toute personne (faisant partie ou non du groupe) disposant d’un accès d’édition peut ajouter le groupe au profil d’autres utilisateurs et utilisatrices. Cette personne ne peut pas effectuer cette action pour un groupe privé.</p> <p>Vous ne pouvez modifier cette option que pour le groupe parent situé au niveau le plus haut d’une hiérarchie de groupes à plusieurs niveaux. Tous les sous-groupes du groupe parent héritent de ce paramètre.</p> <p><b>REMARQUE</b> :  
+      <td> <p>(Disponible uniquement si vous affichez les détails d’un groupe de niveau supérieur, et non d’un sous-groupe.) Activez cette option pour permettre aux utilisateurs du groupe disposant d’un accès utilisateur en modification (qui ne sont pas administrateurs du groupe) d’ajouter ce groupe et ses sous-groupes au profil utilisateur d’autres utilisateurs.</p> <p>Pour un groupe public, toute personne (faisant partie ou non du groupe) disposant d’un accès d’édition peut ajouter le groupe au profil d’autres utilisateurs et utilisatrices. Cette personne ne peut pas effectuer cette action pour un groupe privé.</p> <p>Vous ne pouvez modifier cette option que pour le groupe parent situé au niveau le plus haut d’une hiérarchie de groupes à plusieurs niveaux. Tous les sous-groupes du groupe parent héritent de ce paramètre.</p> <p><b>REMARQUE</b> :  
         <ul> 
          <li>Vous ne pouvez pas rendre public un sous-groupe seul, mais vous pouvez rendre public son groupe parent de niveau supérieur, ce qui a pour effet de rendre également publics tous les sous-groupes du groupe parent.</li> 
          <li>Un sous-groupe appartenant à un groupe public est public par défaut. Par conséquent, toute personne disposant d’un accès d’édition peut également ajouter le sous-groupe à d’autres utilisateurs et utilisatrices.</li> 

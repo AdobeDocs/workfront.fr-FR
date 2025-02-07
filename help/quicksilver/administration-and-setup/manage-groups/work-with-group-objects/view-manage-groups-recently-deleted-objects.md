@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Affichage et gestion des éléments récemment supprimés d’un groupe
+title: Afficher et gérer les éléments récemment supprimés d'un groupe
 description: Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher, filtrer, restaurer et exporter les tâches, documents et modèles récemment supprimés.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 98%
+source-wordcount: '442'
+ht-degree: 96%
 
 ---
 
@@ -62,7 +62,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe.
 1. Dans le panneau de gauche, cliquez sur **Récemment supprimé**.

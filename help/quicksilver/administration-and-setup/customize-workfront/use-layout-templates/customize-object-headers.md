@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 98%
+source-wordcount: '531'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, v
 >
 >La personnalisation des en-têtes d’objets est actuellement disponible pour les projets, les tâches et les problèmes.
 
-![](assets/object-header-fields.png)
+![Champs d’en-tête d’objet](assets/object-header-fields.png)
 
 Pour plus d’informations sur la création de modèles de disposition, voir [Créer et gérer des modèles de disposition](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -80,7 +80,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![Les champs d’en-tête d’objet masquent et déplacent les icônes](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. L’en-tête d’un objet peut comporter jusqu’à cinq champs.
 Si vous avez déjà sélectionné cinq champs, vous devez supprimer un champ avant d’en ajouter un nouveau.
@@ -95,7 +95,7 @@ Si vous avez déjà sélectionné cinq champs, vous devez supprimer un champ av
    >* Lorsque vous ajoutez le champ « Résolu par » à l’en-tête d’un problème, le champ devient « Résolution du problème, de la tâche ou du projet », lorsqu’un objet de résolution est associé au problème.
 
 
-   ![](assets/add-field-to-header-in-lt-list.png)
+   ![Ajouter un champ à l’en-tête](assets/add-field-to-header-in-lt-list.png)
 
 
 1. (Facultatif) Faites glisser et déposez les champs ajoutés dans un ordre différent.

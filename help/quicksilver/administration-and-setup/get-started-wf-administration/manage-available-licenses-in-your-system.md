@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1216'
 ht-degree: 97%
 
 ---
@@ -44,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez être administrateur système ou administrateur de groupe. L’administrateur du groupe a une vue limitée des informations de licence.</p> </td> 
+   <td> <p>Vous devez être un administrateur système ou un administrateur de groupe. L’administrateur de groupe a une vue limitée des informations de licence.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -186,7 +186,7 @@ Pour définir le nombre maximum de licences pour un groupe principal, procédez 
 1. Dans la colonne **Max** du groupe, cliquez sur la valeur pour laquelle vous souhaitez définir un maximum.
 1. Saisissez le nombre maximum, puis appuyez sur Entrée.
 
-   ![](assets/updated-max.png)
+   ![Nombre maximal de licences pour le groupe](assets/updated-max.png)
 
    >[!NOTE]
    >

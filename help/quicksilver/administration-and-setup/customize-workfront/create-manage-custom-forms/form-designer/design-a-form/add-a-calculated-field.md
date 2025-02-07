@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 57b76a404b0c965038d48a52a20521883c9f4b53
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 92%
+source-wordcount: '2422'
+ht-degree: 90%
 
 ---
 
-# Ajouter des champs calculés à un formulaire
+# Ajout de champs calculés à un formulaire
 
 Vous pouvez ajouter un champ personnalisé calculé qui utilise les données existantes pour générer de nouvelles données lorsque le formulaire personnalisé est associé à un objet.
 
@@ -25,9 +25,9 @@ Un champ personnalisé calculé peut contenir :
 
   >[!INFO]
   >
-  >**Exemple :** Pour calculer les recettes générées par les projets et les tâches, vous pouvez créer un champ personnalisé calculé qui contient le champ intégré Recettes réelles. Lorsqu’une personne joint le formulaire personnalisé à un projet ou à une tâche, le revenu du projet ou de la tâche s’affiche dans le champ.
+  >**Exemple :** pour calculer le revenu généré par les projets et les tâches, vous pouvez créer un champ personnalisé calculé qui contient le champ intégré Revenu réel. Lorsqu’une personne joint le formulaire personnalisé à un projet ou à une tâche, le revenu du projet ou de la tâche s’affiche dans le champ.
 
-* Une expression qui fait référence à un ou plusieurs champs. Il peut s’agir de champs personnalisés, d’autres champs personnalisés calculés et de champs intégrés.
+* Une expression qui fait référence à un ou plusieurs champs. Il peut s’agir de champs personnalisés, d’autres champs personnalisés calculés et des champs intégrés.
 
   >[!INFO]
   >
@@ -35,11 +35,11 @@ Un champ personnalisé calculé peut contenir :
   >
   >Pour ce faire, vous pouvez utiliser l’expression mathématique SUB (soustraire) avec les champs Workfront intégrés Coût réel et Revenus réels.
   >
-  >Dans les étapes ci-dessous, vous pouvez voir comment créer une expression comme dans cet exemple.
+  >Dans les étapes ci-dessous, vous pouvez voir comment créer une expression comme cet exemple.
 
 >[!NOTE]
 >
->Les modifications apportées à un champ direct déclenchent automatiquement une mise à jour de la valeur du champ calculé. (Les champs directs sont des champs disponibles dans l’explorateur d’API Workfront ou des champs personnalisés dans un formulaire personnalisé associé à un objet.) Les modifications apportées à une référence ou à une formule nécessitent un recalcul manuel des valeurs des champs.
+>Les modifications apportées à un champ direct déclenchent automatiquement une mise à jour de la valeur du champ calculé. (Les champs directs sont des champs disponibles dans l’explorateur de l’API Workfront ou des champs personnalisés d’un formulaire personnalisé joint à un objet.) Les modifications apportées à une référence ou à une formule nécessitent un recalcul manuel des valeurs de champ.
 
 ## Conditions d’accès
 
@@ -85,7 +85,7 @@ Vous pouvez également avoir un calcul différent pour le même champ, sur le no
 >
 >Les modifications apportées aux expressions calculées peuvent rendre la valeur du champ des objets obsolète. Pour vérifier que vous affichez toujours les calculs à jour dans ces champs, effectuez l’une des opérations suivantes :
 >
->* Après avoir enregistré un objet pour lequel vous avez modifié des données dans un formulaire personnalisé joint, cliquez sur l’icône Plus ![](assets/more-icon.png) sur la page principale de l’objet, puis sur Recalculer les expressions personnalisées.
+>* Après avoir enregistré un objet contenant des données modifiées dans un formulaire personnalisé joint, cliquez sur l’icône Plus ![icône Plus](assets/more-icon.png) sur la page principale de l’objet, puis recalculez les expressions personnalisées.
 >* Sélectionnez l’option Recalculer les expressions personnalisées lors de la modification d’objets en masse.
 >* Sélectionnez l’option Mettre à jour les calculs précédents lorsque vous modifiez un champ personnalisé calculé sur un formulaire personnalisé.
 
@@ -104,7 +104,7 @@ Pour réutiliser un champ personnalisé calculé existant :
 
 1. Dans le coin supérieur gauche de l’écran, cliquez sur **Bibliothèque de champs**.
 
-   ![](assets/field-library.png)
+   ![ Bibliothèque de champs ](assets/field-library.png)
 
 1. Utilisez la zone de recherche ou développez la section **Calculé** pour localiser le champ calculé dont vous avez besoin, puis faites glisser le champ où vous souhaitez qu’il apparaisse dans le formulaire personnalisé.
 
@@ -142,7 +142,7 @@ Pour réutiliser un champ personnalisé calculé existant :
 
 1. Dans la partie gauche de l’écran, recherchez **Calculé** et faites-le glisser vers une section de la zone de travail.
 
-   ![](assets/drag-field-to-section.png)
+   ![Faire glisser le champ vers la section](assets/drag-field-to-section.png)
 
 1. Dans la partie droite de l’écran, configurez les options disponibles pour le type de champ personnalisé que vous ajoutez :
 
@@ -242,7 +242,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
         **Champs personnalisés calculés dans des formulaires personnalisés à plusieurs objets**
 
-        Dans un formulaire personnalisé à plusieurs objets, les types d’objet sélectionnés doivent être compatibles avec au moins un champ référencé dans les champs personnalisés calculés du formulaire. Les champs non compatibles avec l’objet s’affichent sous la forme N/A.
+        Dans un formulaire personnalisé multi-objets, les types d’objets sélectionnés doivent être compatibles avec au moins un champ référencé dans les champs personnalisés calculés du formulaire. Les champs non compatibles avec l’objet s’affichent sans objet sur le formulaire.
 
         Pour vous assurer que le champ calculé présente un résultat correct pour tous les types d’objets, vous devez utiliser `$$OBJCODE` pour définir un calcul pour chaque type d’objet.
 
@@ -283,7 +283,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
    1. Cliquez dans la zone de texte de grande taille, puis cliquez sur **Expressions** et **Champs** qui sont disponibles pour les ajouter à votre calcul.
 
-      Développez un nom d’objet sous **Fields** pour afficher tous les champs disponibles pour cet objet. La liste est limitée à 200 éléments. Si vous connaissez le nom du champ, vous pouvez le rechercher.
+      Développez un nom d’objet sous **Champs** pour afficher tous les champs disponibles pour cet objet. La liste est limitée à 200 éléments. Si vous connaissez le nom du champ, vous pouvez le rechercher.
 
       Vous pouvez également commencer à saisir une expression ou un champ dans la grande zone de texte, puis le sélectionner lors de son affichage. Chaque élément s’affiche avec un « F » pour « champ » ou un « E » pour « expression ».
 
@@ -296,14 +296,14 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
       >Vous pouvez effectuer l’une des opérations suivantes pour obtenir de l’aide sur votre calcul :
       > 
       >* Pointez sur une expression de votre calcul pour afficher une description, un exemple illustrant son utilisation et un lien « En savoir plus » pour plus d’informations dans l’article [Vue d’ensemble des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![](assets/hover-expression-help-text.jpg)
+      >  ![Texte d’aide de l’expression](assets/hover-expression-help-text.jpg)
       >* Utilisez les codes de couleurs pour identifier les composants que vous avez ajoutés. Les expressions s’affichent en bleu et les champs en vert.
-      >  ![](assets/colors-fields-expressions.jpg)
+      >  ![Couleurs des expressions de champ](assets/colors-fields-expressions.jpg)
       >* Recherchez les erreurs de calcul, surlignées en rose, au fur et à mesure. Vous pouvez pointer sur une erreur mise en surbrillance pour afficher une brève description de sa cause.
-      >  ![](assets/error-help.png)
+      >  ![Aide d’erreur](assets/error-help.png)
       >* Dans la zone située sous votre calcul, prévisualisez les résultats sur un objet Workfront existant.
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![](assets/preview-calc.jpg)
+      >  ![Aperçu du calcul](assets/preview-calc.jpg)
       >* Référencez des expressions dans un calcul long à l’aide des numéros de ligne s’affichant sur la gauche.
 
 +++

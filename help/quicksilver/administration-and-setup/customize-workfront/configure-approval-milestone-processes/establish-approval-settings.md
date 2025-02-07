@@ -1,5 +1,5 @@
 ---
-title: Configuration des paramètres d’approbation globaux
+title: Configurer les paramètres de validation globale
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
@@ -8,10 +8,10 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 99%
+source-wordcount: '900'
+ht-degree: 97%
 
 ---
 
@@ -52,9 +52,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Traitements** > **Validations**.
+1. Cliquez sur **Processus** > **Validations**.
 
-1. Cliquez sur l’icône **Paramètres** ![](assets/gear-icon-settings.png) à côté du nom de la zone **Approbations**.
+1. Cliquez sur l’icône **Paramètres** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png) en regard du nom de la zone **Validations**.
 
 1. Dans la zone **Paramètres d’approbation** qui s’affiche, indiquez les informations suivantes :
 

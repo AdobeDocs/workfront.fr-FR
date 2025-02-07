@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 96%
+source-wordcount: '919'
+ht-degree: 93%
 
 ---
 
@@ -67,14 +67,14 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
    >[!TIP]
    >
-   >Lorsque votre modèle de mise en page vous satisfait, nous vous recommandons de le tester, comme décrit dans la section [Test d’un nouveau modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
+   >Lorsque vous êtes satisfait de votre modèle de mise en page, nous vous recommandons de le tester, comme décrit dans la section [Tester un nouveau modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
 
 1. Cliquez sur **Affecter ceci à** dans la section supérieure de la page.
 1. Dans la zone qui s’affiche, cliquez sur **Ajouter un utilisateur ou une utilisatrice, une fonction, une équipe ou un groupe**, commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’une fonction, d’une équipe ou d’un groupe, puis cliquez sur le nom qui s’affiche dans la liste déroulante.
 
    Les noms récemment ajoutés s’affichent avec un arrière-plan bleu. Cela s’avère utile lorsque vous modifiez un modèle de mise en page existant, car vous pouvez distinguer les noms que vous venez d’ajouter de ceux qui étaient déjà dans la liste.
 
-   Un icône Informations ![](assets/info-icon.png) s’affiche à droite du nom de la personne, de la fonction, de l’équipe ou du groupe déjà affecté à un autre modèle de mise en page. Vous pouvez pointer sur l’icône pour afficher le nom de ce modèle de mise en page et décider si vous souhaitez remplacer l’affectation existante.
+   Une icône d’informations ![icône d’informations](assets/info-icon.png) s’affiche à droite du nom de tout utilisateur, fonction, équipe ou groupe déjà affecté à un autre modèle de mise en page. Vous pouvez pointer sur l’icône pour afficher le nom de ce modèle de mise en page et décider si vous souhaitez remplacer l’affectation existante.
 
 1. Répétez les deux étapes précédentes pour affecter le modèle de mise en page à d’autres personnes, fonctions, équipes ou groupes, si nécessaire.
 

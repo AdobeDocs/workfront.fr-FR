@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: Mises à jour suivies par le système
+title: Mises À Jour Suivies Par Le Système
 description: Adobe Workfront capture l’activité qui se produit sur certains objets en consignant les informations de statut dans la zone [!UICONTROL Mises à jour] de l’objet.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 99%
+source-wordcount: '390'
+ht-degree: 98%
 
 ---
 
@@ -37,13 +37,13 @@ La zone [!UICONTROL Mises à jour] comprend les types de mises à jour suivants�
 
   Pour plus d’informations sur la configuration des mises à jour apportées par les utilisateurs et utilisatrices, consultez la section [Configurer les préférences en matière de mises à jour apportées par les utilisateurs et utilisatrices](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
-  ![](assets/updates-qs-350x125.png)
+  ![Mises à jour](assets/updates-qs-350x125.png)
 
 * **Mises à jour système :** créés automatiquement par le système. Une mise à jour système comprend une brève note décrivant le type de modification apporté à l’élément. Les mises à jour système s’affichent dans les onglets Activité du système et Tous de la section Mises à jour d’un objet.
 
   Pour plus d’informations sur les flux de mise à jour système et leur activation, consultez la section [Configurer les mises à jour système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  ![](assets/system-updates-example-unified-stream.png)
+  ![ Exemple de mises à jour système ](assets/system-updates-example-unified-stream.png)
 
 
   <!--

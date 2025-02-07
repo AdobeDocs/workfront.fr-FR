@@ -1,14 +1,14 @@
 ---
-title: Affichage du nombre de licences attribuées et utilisées dans un groupe
+title: Afficher le nombre de licences attribuées et utilisées dans un groupe
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez afficher le décompte des différents types de licences actuellement utilisées dans votre groupe et ses sous-groupes. Cette fonction est utile lorsque vous devez déterminer s’il convient de redistribuer les licences.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '490'
+ht-degree: 91%
 
 ---
 
@@ -59,14 +59,14 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe.
 1. Sur la page qui s’affiche, dans la zone d’en-tête située en haut à droite, consultez la zone **Licences utilisées** pour connaître le nombre de licences **Plan** et **Travail** actuellement utilisées.
 
    Si vous visualisez un groupe de premier niveau et que l’administrateur ou l’administratrice Workfront a défini un nombre maximum de chaque type de licence pour le groupe, ces nombres sont également affichés. Par exemple, dans le groupe ci-dessous, au maximum 10 utilisateurs et utilisatrices peuvent disposer d’une licence Plan et au maximum 15 utilisateurs et utilisatrices peuvent disposer d’une licence Travail :
 
-   ![](assets/licenses-used-allocated.png)
+   ![Licences attribuées](assets/licenses-used-allocated.png)
 
    Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront définit un nombre maximum de licences attribuées à un groupe, voir la section [Définir le nombre maximum de licences pour un groupe interne](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) dans l’article [Gérer les licences disponibles dans votre système](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
@@ -74,15 +74,15 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >
    >Si le groupe que vous examinez est un sous-groupe, vous ne pouvez visualiser que le nombre de licences utilisées, et non le nombre maximum de licences attribuées au groupe. En effet, les administrateurs et administratrices Workfront ne définissent pas de nombre maximum de licences pour un sous-groupe.
    >
-   >![](assets/subgroup-used-licenses-only.png)
+   >![Licences utilisées dans le sous-groupe](assets/subgroup-used-licenses-only.png)
    >
 
 1. Pour obtenir un décompte séparé de chaque type de licence actuellement utilisé dans le groupe (y compris Révision et Demande), cliquez sur la zone de texte située juste sous **Licences utilisées :**
 
-   ![](assets/click-text-to-see-more.png)
+   ![Cliquez pour en savoir plus](assets/click-text-to-see-more.png)
 
    La zone qui s’affiche fournit les mêmes informations pour les quatre types de licence Workfront : Plan, Travail, Révision et Demande. En bas de la zone, vous pouvez voir le nombre total de licences utilisées par les personnes membres de ce groupe ou de l’un de ses sous-groupes :
 
-   ![](assets/more-license-info.png)
+   ![Informations de licence supplémentaires](assets/more-license-info.png)
 
    Pour les licences Révision et Demande, la colonne Max affiche toujours Illimité.

@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;reporting
 navigation-topic: configure-reports-administration
-title: Masquage des rapports natifs
+title: Masquer Les Rapports Intégrés
 description: Adobe Workfront dispose d’une liste étendue de rapports intégrés par défaut accessibles et consultables par les utilisateurs et les utilisatrices. En tant que membre de l’administration Workfront, vous pouvez modifier le niveau d’accès d’un utilisateur ou d’une utilisatrice pour restreindre l’accès aux rapports intégrés.
 feature: System Setup and Administration
 role: Admin
 author: Nolan, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 98%
+source-wordcount: '194'
+ht-degree: 96%
 
 ---
 
@@ -60,6 +60,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Sélectionnez le niveau d’accès pour lequel vous souhaitez masquer les rapports intégrés, puis cliquez sur **Modifier**.
 1. Pour l’objet **Rapports**, cliquez sur l’icône **Paramètres** à côté du plus haut niveau d’accès disponible, puis désélectionnez **Afficher les rapports intégrés**.
 
-   ![](assets/edit-access-level.png)
+   ![Modifier le niveau d&#39;accès](assets/edit-access-level.png)
 
 1. Cliquer sur **Enregistrer**.

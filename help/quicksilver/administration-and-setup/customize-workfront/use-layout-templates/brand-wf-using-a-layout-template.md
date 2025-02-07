@@ -1,5 +1,5 @@
 ---
-title: Marque Adobe Workfront avec un modèle de mise en page
+title: Marque Adobe Workfront à l’aide d’un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 98%
+source-wordcount: '548'
+ht-degree: 96%
 
 ---
 
@@ -71,7 +71,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 ## Appliquer une image de marque dans Adobe Workfront à l’aide d’un modèle de mise en page
 
 1. Commencez à travailler sur un modèle de disposition, comme décrit dans la section [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) sous **Personnaliser ce que voient les utilisateurs et utilisatrices**, puis sur **Image de marque**.
+1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/dropdown-arrow.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Branding**.
 1. Effectuez l’une des modifications suivantes pour personnaliser Workfront avec des images de marque pour les personnes auxquelles ce modèle de mise en page a été affecté.
 
    <table style="table-layout:auto"> 

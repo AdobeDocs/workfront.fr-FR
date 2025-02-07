@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '328'
 ht-degree: 98%
 
 ---
@@ -77,7 +77,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >
    >Les options du menu déroulant Type d’action varient en fonction du journal d’audit sélectionné.
 
-   ![](assets/audit-logs.jpg)
+   ![Journaux d’audit](assets/audit-logs.jpg)
 
 1. Cliquez sur **Appliquer**.
 1. (Facultatif) Cliquez sur **Effacer les filtres** pour réinitialiser les modifications apportées aux filtres.

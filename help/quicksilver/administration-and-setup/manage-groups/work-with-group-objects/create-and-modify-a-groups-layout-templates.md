@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 98%
+source-wordcount: '369'
+ht-degree: 95%
 
 ---
 
@@ -56,7 +56,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    Dans la liste qui s’affiche, vous pouvez voir les groupes que vous gérez, ainsi que les sous-groupes qu’ils comportent. Les administrateurs et administratrices Adobe Workfront peuvent voir tous les groupes.
 
 1. Cliquez sur le nom du groupe pour lequel vous souhaitez créer ou modifier des modèles de disposition.
-1. Dans le panneau de gauche, cliquez sur **Modèles de disposition** ![](assets/layout-templates-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Modèles de mise en page** ![Icône Modèles de mise en page](assets/layout-templates-icon.png).
 
 1. Effectuez l’une des opérations suivantes :
 

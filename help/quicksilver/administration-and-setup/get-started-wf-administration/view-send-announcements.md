@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '620'
 ht-degree: 99%
 
 ---
@@ -63,7 +63,7 @@ Vous pouvez facilement transférer les messages que vous recevez de Workfront au
 
 1. Accédez à la page Annonces en cliquant sur l’icône **Notification** dans le coin supérieur droit de l’interface de Workfront, puis cliquez sur **Toutes les annonces**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![Toutes les annonces](assets/announcement-access-350x212.png)
 
 1. Sur la page **Annonces**, sélectionnez le message à transférer.
 1. Cliquez sur **Transférer**.
@@ -79,7 +79,7 @@ Vous pouvez facilement transférer les messages que vous recevez de Workfront au
 
 1. Accédez à la page Annonces en cliquant sur l’icône **Notification** dans le coin supérieur droit de l’interface de Workfront, puis cliquez sur **Toutes les annonces**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![Toutes les annonces](assets/announcement-access-350x212.png)
 
 1. Sur la page **Annonces**, cliquez sur **Nouvelle annonce**.
 

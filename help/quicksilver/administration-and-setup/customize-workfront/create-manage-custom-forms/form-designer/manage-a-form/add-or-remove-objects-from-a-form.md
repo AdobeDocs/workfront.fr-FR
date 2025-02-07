@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 95%
+source-wordcount: '483'
+ht-degree: 94%
 
 ---
 
-# Ajout ou suppression de types d’objet d’un formulaire personnalisé existant
+# Ajouter ou supprimer des types d’objet d’un formulaire personnalisé existant
 
 Vous pouvez ajouter ou supprimer des types d’objet d’un formulaire personnalisé existant à l’aide du créateur de formulaire.
 
@@ -72,9 +72,9 @@ Vous pouvez ajouter d’autres types d’objet au formulaire pour les joindre à
 
 1. En haut du formulaire, cliquez sur le signe + après **Types d’objets**, puis sélectionnez le type souhaité dans le menu qui s’affiche. Vous pouvez répéter cette opération pour ajouter autant de types d’objet que vous le souhaitez.
 
-   ![](assets/add-new-object.png)
+   ![Ajouter un nouvel objet](assets/add-new-object.png)
 
-1. Cliquez sur **Enregistrer + Fermer**.
+1. Cliquez sur **Enregistrer et fermer**.
 
    >[!TIP]
    >
@@ -98,7 +98,7 @@ Pour supprimer un type d’objet :
 1. Sélectionnez le formulaire personnalisé que vous souhaitez modifier, puis cliquez sur l’![icône Modifier](assets/edit-icon2.png).
 1. Cliquez sur X sur l’un des **Types d’objets** que vous souhaitez supprimer du formulaire.
 
-   ![](assets/delete-object-types.png)
+   ![Supprimer des types d’objet](assets/delete-object-types.png)
 
 1. (Facultatif) Répétez l’étape précédente pour tout autre type d’objet que vous souhaitez supprimer du formulaire.
 1. Cliquez sur **Appliquer**, puis sur **Enregistrer et fermer**.

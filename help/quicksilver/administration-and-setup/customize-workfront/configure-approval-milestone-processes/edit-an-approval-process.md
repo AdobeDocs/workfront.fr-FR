@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-title: Modification d’un processus d’approbation
+title: Modifier un processus d'approbation
 description: Si vous êtes administrateur ou administratrice Adobe Workfront ou si vous disposez d’un accès administratif aux processus d’approbation, vous pouvez voir et modifier tous les processus d’approbation du système.
 author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1955'
 ht-degree: 99%
 
 ---
@@ -72,7 +72,7 @@ Vous devez disposer des éléments suivants :
 
    Si vous modifiez un processus d’approbation au niveau du groupe, procédez comme suit :
 
-   1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+   1. Dans le panneau de gauche, cliquez sur **Groupes** ![icône Groupes](assets/groups-icon.png).
    1. Cliquez sur le nom du groupe pour lequel vous souhaitez répertorier ou gérer les processus d’approbation de groupe.
    1. Dans le panneau de gauche, cliquez sur **Approbations**. Il se peut que vous deviez d’abord cliquer sur **Afficher plus**.
 
@@ -80,7 +80,7 @@ Vous devez disposer des éléments suivants :
 
 1. Sélectionnez le processus d’approbation que vous souhaitez modifier, puis cliquez sur **Modifier** en haut de la liste. La boîte de dialogue Modifier le processus d’approbation s’affiche.
 
-   ![](assets/edit-approval-process-global-area-new.png)
+   ![Modifier le processus d’approbation](assets/edit-approval-process-global-area-new.png)
 
 1. Spécifiez les informations suivantes dans la zone qui s’affiche :
 

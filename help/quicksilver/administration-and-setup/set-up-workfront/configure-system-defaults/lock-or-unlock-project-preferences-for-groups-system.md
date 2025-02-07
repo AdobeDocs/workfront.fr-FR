@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Verrouillage ou déverrouillage des préférences de projet pour tous les groupes du système
+title: Verrouiller ou déverrouiller les préférences du projet pour tous les groupes du système
 description: Des groupes de votre organisation peuvent nécessiter qu’une préférence de projet soit configurée différemment pour leurs workflows uniques. Vous pouvez déverrouiller la préférence pour tous les groupes de l’organisation afin qu’ils puissent la configurer eux-mêmes.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '532'
+ht-degree: 94%
 
 ---
 
@@ -75,7 +75,7 @@ Pour obtenir des instructions sur le verrouillage ou le déverrouillage d’une 
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Si vous souhaitez que les administrateurs et administratrices de groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la ![](assets/unlock-toggle-button.png).
+   * Si vous souhaitez que les administrateurs de groupes puissent configurer une préférence pour leurs groupes, déverrouillez-la ![bouton Déverrouiller](assets/unlock-toggle-button.png).
    * Si vous souhaitez que tous les groupes utilisent votre configuration pour une préférence, assurez-vous qu’elle est verrouillée (par défaut).
 
      >[!IMPORTANT]

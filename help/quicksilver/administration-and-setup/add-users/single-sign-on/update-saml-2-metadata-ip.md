@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Mise à jour des métadonnées SAML 2.0 dans votre fournisseur d’identité
+title: Mettre à jour les métadonnées SAML 2.0 dans votre fournisseur d’identité
 description: Vous pouvez mettre à jour des métadonnées SAML 2.0 dans votre fournisseur d’identité.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 99%
+source-wordcount: '1000'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +68,7 @@ Par défaut, ADFS est configuré pour vérifier automatiquement les mises à jou
 1. Sélectionnez la partie de confiance que vous avez précédemment configurée pour être utilisée avec Workfront, puis, dans le panneau de droite, cliquez sur **Mettre à jour à partir des métadonnées de fédération**.
 1. (Le cas échéant) Si cette option est désactivée (ce qui signifie que la partie de confiance a été précédemment configurée à l’aide d’un fichier de métadonnées), procédez comme suit.
 
-   1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+   1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 
    1. Cliquez sur **Système** > **Authentification unique (SSO)**.
 

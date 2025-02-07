@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 86%
+source-wordcount: '546'
+ht-degree: 85%
 
 ---
 
@@ -67,11 +67,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 >[!TIP]
 >
->Si vous êtes administrateur Workfront et que vous vous trouvez déjà sur la page Notifications par e-mail (Configuration > Email > Notifications), vous pouvez effectuer les opérations suivantes, puis passer à l’étape 6 : Supprimer **Notifications d’événement système** dans la zone située au-dessus de la liste, commencer à saisir le nom du groupe dans la zone, puis cliquer dessus lorsqu’il apparaît.
+>Si vous êtes un administrateur Workfront et que vous êtes déjà sur la page Notifications par e-mail (Configuration > E-mail > Notifications), vous pouvez effectuer les opérations suivantes, puis passer à l’étape 6 : Supprimer **Notifications d’événement système** dans la zone située au-dessus de la liste, commencez à saisir le nom du groupe dans la zone, puis cliquez dessus lorsqu’il apparaît.
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe de niveau supérieur.
 1. Dans le menu de gauche, cliquez sur **Notifications d’événement**.

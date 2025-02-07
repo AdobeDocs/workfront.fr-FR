@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 99%
+source-wordcount: '876'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ L’équipe d’administration d’Adobe Workfront détermine le niveau d’acc
 Les utilisateurs et utilisatrices ont également accès à des objets individuels lorsque d’autres personnes partagent et accordent certaines autorisations sur ces objets.
 
 
-![](assets/security-model-hierachy.png)
+![Hiérarchie des modèles de sécurité](assets/security-model-hierachy.png)
 
 Par exemple, si votre niveau d’accès indique que vous pouvez créer des tâches, mais que les autorisations que vous recevez sur un projet spécifique ne vous permettent pas d’y ajouter des tâches, vous ne pourrez pas ajouter de tâches dans le projet, mais uniquement ailleurs dans Workfront.
 

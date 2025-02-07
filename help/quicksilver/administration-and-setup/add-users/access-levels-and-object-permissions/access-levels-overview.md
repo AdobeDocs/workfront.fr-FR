@@ -1,5 +1,5 @@
 ---
-title: Présentation des niveaux d’accès
+title: Présentation des niveaux d'accès
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 99%
+source-wordcount: '307'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Chacun des six niveaux d’accès intégrés est lié à l’une des cinq licenc
 
 La licence externe est non payante et conçue principalement pour partager des documents avec des collaborateurs et collaboratrices qui n’utilisent pas Workfront.
 
-![](assets/access-levels-and-licenses-old.png)
+![Niveaux d’accès et licences hérités](assets/access-levels-and-licenses-old.png)
 
 Pour plus d’informations sur les sujets liés aux niveaux d’accès, voir les articles suivants :
 

@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 92%
+source-wordcount: '1284'
+ht-degree: 90%
 
 ---
 
@@ -102,13 +102,13 @@ Avant d’utiliser Admin Console pour Workfront, vous devriez recevoir un e-mail
 
 1. Dans la [page Adobe Admin Console](https://adminconsole.adobe.com/), sélectionnez l’onglet **Produits** dans la barre de navigation supérieure, puis sélectionnez **Workfront**.
 
-   <!--![](assets/admin-product-1.png)-->
+   <!--![Admin Console product](assets/admin-product-1.png)-->
 
 1. Dans la liste qui s’affiche, sélectionnez le lien en haut.
 
    Il s’agit de votre instance de production où travaillent vos utilisateurs et utilisatrices.
 
-   <!--![](assets/instances-1.png)-->
+   <!--![Admin Console instances](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -119,7 +119,7 @@ Avant d’utiliser Admin Console pour Workfront, vous devriez recevoir un e-mail
 
 1. Dans la liste qui s’affiche, avec l’onglet **Profils de produit** sélectionné, cliquez sur le nom du lien Profil produit Workfront.
 
-   ![](assets/prod-profile-1.png)
+   ![Profils de produit](assets/prod-profile-1.png)
 
    Cette liste comprend toutes les personnes déjà affectées à votre instance de production de Workfront.
 
@@ -145,7 +145,7 @@ Vous devez ajouter un utilisateur ou une utilisatrice à votre instance de produ
 1. Sélectionnez **Ajouter un administrateur ou une administratrice**.
 1. Dans la zone **Ajouter des administrateurs/administratrices de profil de produit**, saisissez les adresses e-mails ou les noms des administrateurs et des administratrices à ajouter, puis sélectionnez **Enregistrer**.
 
-   ![](assets/add-admin-1.png)
+   ![Ajouter un administrateur](assets/add-admin-1.png)
 
    Les administrateurs et administratrices système sont créés dans Workfront.
 
@@ -205,7 +205,7 @@ Pour approuver un utilisateur ou une utilisatrice :
 
 {{step-1-to-users}}
 
-1. Sélectionnez l’utilisateur ou l’utilisatrice, puis cliquez sur l’icône **Plus** ![](assets/more-icon.png).
+1. Sélectionnez l’utilisateur, puis cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png).
 
 1. Pour approuver l’utilisateur ou l’utilisatrice, cliquez sur **Approuver**, puis cliquez sur **Soumettre**.
 

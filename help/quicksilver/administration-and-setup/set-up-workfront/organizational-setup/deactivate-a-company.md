@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Désactivation ou réactivation d’une entreprise
+title: Désactiver ou réactiver une entreprise
 description: Vous pouvez désactiver une entreprise que vous n’utilisez plus tout en conservant toutes les données historiques qui lui sont associées. Si vous désactivez une entreprise déjà utilisée quelque part dans le système, elle continue à fonctionner comme avant. Elle n’est ni supprimée ni bloquée.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 88%
+source-wordcount: '373'
+ht-degree: 86%
 
 ---
 
@@ -29,7 +29,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Workfront] plan</p> </td> 
-   <td><p>Actuel : [!UICONTROL Équipe] ou version ultérieure</p>
+   <td><p>Actuel : [!UICONTROL Team] ou version ultérieure</p>
    <p>Ou</p>
    <p>Nouveau : Tous</p>
    </td> 
@@ -45,8 +45,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader"><strong>Configurations du niveau d’accès</strong> </td> 
    <td> <p>Utilisez l’une des configurations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès [!UICONTROL Administrateur système] qui permet de modifier n’importe quelle entreprise du système.</p> </li> 
-     <li> <p>Accès administratif pour la gestion des entreprises, ce qui vous permet de modifier n’importe quelle entreprise du système.</p> </li> 
+     <li> <p>Le niveau d'accès [!UICONTROL System Administrator], qui permet de modifier n'importe quelle société du système.</p> </li> 
+     <li> <p>Accès administratif pour gérer les sociétés, ce qui vous permet de modifier n’importe quelle société du système.</p> </li> 
     </ul> <p><b>NOTE</b> :  
      <ul> 
       <li> <p>Vous pouvez également gérer les entreprises associées à un groupe pour lequel vous faites partie de l’équipe d’administration.</p> </li> 
@@ -69,7 +69,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Entreprises]** ![](assets/companies-icon-left-panel.png).
+1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Entreprises]** ![Icône Entreprises](assets/companies-icon-left-panel.png).
 
 1. Sélectionnez une ou plusieurs entreprises à désactiver ou réactiver.
 1. Cliquez sur **[!UICONTROL Modifier]**.

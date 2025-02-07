@@ -1,5 +1,5 @@
 ---
-title: Aperçu de Forms personnalisé
+title: Présentation de Custom Forms
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 73%
 
 ---
@@ -23,13 +23,13 @@ Vous pouvez créer un formulaire personnalisé que les utilisateurs et utilisatr
 
 Par exemple, vous pouvez attacher un formulaire personnalisé appelé « Recherche de contenu marketing » à un projet afin que les utilisateurs et les utilisatrices du projet puissent demander du contenu marketing pour le projet :
 
-![](assets/see-image-details-page.png)
+![Page de détails](assets/see-image-details-page.png)
 
 ## Création d’un formulaire personnalisé
 
-Le concepteur de formulaire dispose d’un espace de travail de style zone de travail qui vous permet d’afficher simultanément les paramètres des champs, de la zone de travail et des champs. Il vous permet également de faire glisser des champs dans les sections lors de la conception de votre formulaire. Vous pouvez redimensionner le côté droit de l’écran afin de libérer de l’espace pour les options de champ.
+Le concepteur de formulaire dispose d’un espace de travail de style zone de travail qui vous permet d’afficher simultanément les champs, la zone de travail et les paramètres des champs. Il vous permet également de faire glisser et de déposer des champs dans les sections lors de la conception de votre formulaire. Vous pouvez redimensionner le côté droit de l’écran pour libérer de l’espace pour les options de champ.
 
-Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ![Exemple de créateur de formulaires](assets/form-designer-example.png)
 
@@ -62,7 +62,7 @@ Vous pouvez ajouter les types de champs personnalisés suivants à un formulaire
 
 >[!NOTE]
 >
->Pour effectuer le suivi des modifications de champ dans les flux de mise à jour, accédez à Configuration > Interface > Mettre à jour les flux. Pour plus d’informations, consultez la section [Configurer les mises à jour du système](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+>Pour suivre les modifications de champ dans les flux de mise à jour, accédez à Configuration > Interface > Mettre à jour les flux. Pour plus d’informations, consultez la section [Configurer les mises à jour du système](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 ## Objets auxquels les utilisateurs et les utilisatrices peuvent associer un formulaire personnalisé
 
@@ -85,6 +85,6 @@ Les utilisateurs et utilisatrices peuvent associer des formulaires personnalisé
 
 Pour plus d’informations sur l’association de formulaires personnalisés à des objets, consultez [Ajouter un formulaire personnalisé à un objet](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-Pour plus d’informations sur ce qu’il advient des formulaires personnalisés lors de la conversion d’un objet, voir [Transfert de données de formulaire personnalisé lors de la conversion d’un objet](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+Pour plus d’informations sur ce qui se passe avec les formulaires personnalisés lors de la conversion d’un objet, consultez [Transfert de données de formulaire personnalisé lors de la conversion d’un objet](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 

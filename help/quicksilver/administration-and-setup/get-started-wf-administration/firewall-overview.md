@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '728'
 ht-degree: 96%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 96%
 Pour ce faire, il vous faut une liste autorisée, qui est pour ainsi dire une « liste » des sites « autorisés » à envoyer ou recevoir des données par le biais du pare-feu. Les sites peuvent être identifiés de deux façons :
 
 * **Adresse IP** : une série de nombres comme 52.31.132.175.
-* **Domaine** : fait partie d’une URL, par exemple `thisdomain` dans `www.thisdomain.com`.
+* **Domaine** : partie d’une URL, telle que `thisdomain` dans `www.thisdomain.com`.
 
 Workfront utilise des adresses IP et des domaines spécifiques pour la communication web. Ces éléments doivent être ajoutés à la liste autorisée de votre entreprise pour que vous puissiez utiliser Workfront dans votre organisation.
 
@@ -105,10 +105,10 @@ Fournissez les informations suivantes à votre administrateur ou administratrice
 
    Votre cluster s’affiche près de l’angle supérieur droit de la section **Informations de base**.
 
-   ![](assets/locate-cluster.png)
+   ![Localiser le cluster](assets/locate-cluster.png)
 
 1. Pour afficher votre formule Workfront, sélectionnez **Licences**.
 
-   Votre plan s’affiche près du coin supérieur droit de la page.
+   Votre plan s’affiche dans le coin supérieur droit de la page.
 
-   ![](assets/locate-plan.png)
+   ![Localiser le plan](assets/locate-plan.png)

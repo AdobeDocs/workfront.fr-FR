@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
-title: Configuration des mises à jour système
+title: Configurer les mises à jour système
 description: Workfront génère des mises à jour système automatiques dans la zone [!UICONTROL Mises à jour] d’un objet pour enregistrer les modifications que les personnes effectuent sur l’objet. En tant qu’administrateur ou administratrice  [!DNL Workfront] , vous pouvez configurer quels champs d’objet et actions sont suivis par  [!DNL Workfront]  pour enregistrer les mises à jour du système.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 99%
+source-wordcount: '899'
+ht-degree: 93%
 
 ---
 
@@ -89,7 +89,7 @@ Vous pouvez ajouter les champs que vous souhaitez faire suivre par [!DNL Workfro
 >
 >Vous pouvez effectuer le suivi de jusqu’à 300 champs intégrés et personnalisés dans les flux de mise à jour. Si vous effectuez le suivi du nombre maximal de champs et souhaitez effectuer le suivi de champs supplémentaires qui ne sont pas affichés dans le sous-onglet [!UICONTROL Tous les champs], vous devez d&#39;abord supprimer certains des champs suivis pour effectuer le suivi des nouveaux champs. Pour plus d’informations sur la suppression de champs des champs de mise à jour, voir [Supprimer les champs que vous ne souhaitez pas suivre](#remove-fields-that-you-don-t-want-tracked).
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Flux de mises à jour]**.
 
@@ -111,7 +111,7 @@ Vous pouvez ajouter les champs que vous souhaitez faire suivre par [!DNL Workfro
 
 Vous pouvez supprimer les champs que vous ne voulez pas faire suivre par le système pour un type particulier d’objet grâce à l’interface de [!DNL Workfront].
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 
 1. Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Mettre à jour les flux]**.
 
@@ -198,7 +198,7 @@ Par exemple, vous pouvez demander à [!DNL Workfront] d’enregistrer une mise �
 
 Pour configurer les actions que vous souhaitez que [!DNL Workfront] suive, procédez comme suit :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 
 1. Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Mettre à jour les flux]**.
 
