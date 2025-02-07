@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
+source-git-commit: 36ec1b2e8bdd499718c1a46d2549b46ddce3b4aa
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
+### Mise à jour de l&#39;interface pour les paramètres du processus d&#39;approbation dans la configuration
+
+**Version préliminaire : 6 février 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour la boîte de dialogue Paramètres d’approbation avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Pour afficher les paramètres, accédez à Configuration > Préférences > Validations > Sélectionnez l’icône des paramètres en haut de la page.
 
 ### Mise à jour de l&#39;interface pour la zone Validations dans Configuration > Groupes
 
@@ -110,7 +118,17 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 ## Agile
 
-## Mise à jour de l’interface pour la zone Équipes > Liste d’attente
+### Ajouter des histoires et des événements à une itération
+
+**Version préliminaire : 6 février 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour la boîte de dialogue Ajouter une histoire et Ajouter un problème avec une conception plus moderne qui est cohérente avec d’autres zones de Workfront.
+
+Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonctionnalité n’a été modifiée.
+
+Pour afficher cette modification, accédez à Équipes > choisir une équipe > Itérations > Choisir une itération, puis cliquez sur **Nouvelle histoire** ou **Nouvel événement**.
+
+### Mise à jour de l’interface pour la zone Équipes > Liste d’attente
 
 **Version préliminaire : 23 janvier 2025 ; Version de production : à partir de la semaine du 13 février 2025**
 
@@ -123,7 +141,7 @@ Cette mise à jour comprend les modifications suivantes :
 
 ### Mise à jour de l’interface pour la liste des Itérations
 
-**Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
+**Version préliminaire : 23 janvier 2025 ; Version de production : à partir de la semaine du 3 février 2025**
 
 Nous avons mis à jour la liste Équipes > Itérations avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
