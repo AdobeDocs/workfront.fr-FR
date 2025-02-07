@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 2e72dd6a4ef91a11627a48b52e96033410c4435c
+source-git-commit: adde34e472a762274b00f5c050b76e71002cea15
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 97%
+source-wordcount: '2362'
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 {{highlighted-preview}}
 -->
 
-Lorsqu’une action se produit sur un objet Adobe Workfront pris en charge par les abonnements aux événements, vous pouvez configurer Workfront pour envoyer une réponse au point d’entrée souhaité. Cela signifie que les applications tierces peuvent recevoir des mises à jour provenant d’interactions Workfront via l’API Workfront peu après qu’elles ont eu lieu. En règle générale, vous pouvez vous attendre à recevoir des notifications webhook en moins de 5 secondes à partir du changement de données en cours de journalisation. En moyenne, les clientes et clients reçoivent des notifications webhook en moins d’une seconde à partir de l’enregistrement du changement de données. 
+Lorsqu’une action se produit sur un objet Adobe Workfront pris en charge par les abonnements aux événements, vous pouvez configurer Workfront pour envoyer une réponse au point d’entrée souhaité. Cela signifie que les applications tierces peuvent recevoir des mises à jour provenant d’interactions Workfront via l’API Workfront peu après qu’elles ont eu lieu. En règle générale, vous pouvez vous attendre à recevoir des notifications webhook en moins de 5 secondes à partir du changement de données en cours de journalisation. En moyenne, les clientes et clients reçoivent des notifications webhook en moins d’une seconde à partir de l’enregistrement du changement de données.
 
 Pour recevoir les payloads d’abonnement aux événements par le biais de votre pare-feu, vous devez ajouter les adresses IP suivantes à votre liste autorisée :
 
@@ -74,7 +74,7 @@ Les objets Workfront suivants sont pris en charge par les abonnements aux évén
 
 Pour obtenir la liste des champs pris en charge par les objets d’abonnement aux événements, voir [Champs de ressource d’abonnement aux événements](../../wf-api/api/event-sub-resource-fields.md).
 
-## Authentification de l’abonnement aux événements
+## Authentification par abonnement aux événements
 
 Pour créer, interroger ou supprimer un abonnement à un événement, l’utilisateur ou l’utilisatrice Workfront doit disposer des éléments suivants :
 
@@ -83,9 +83,9 @@ Pour créer, interroger ou supprimer un abonnement à un événement, l’utilis
 
   Pour plus d’informations, consultez la section [Authentification](api-basics.md#authentication) dans [Concepts de base de l’API](api-basics.md).
 
-## Former la ressource d’abonnement
+## Créer la ressource d’abonnement
 
-La ressource d’abonnement contient les champs suivants :
+La ressource d&#39;abonnement contient les champs suivants.
 
 * objID (facultatif)
 
@@ -110,7 +110,7 @@ La ressource d’abonnement contient les champs suivants :
         <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Entreprise</td> 
+        <td scope="col">Entreprise </td> 
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
@@ -119,7 +119,7 @@ La ressource d’abonnement contient les champs suivants :
        </tr> 
        <tr> 
         <td scope="col"><p>Document</p></td> 
-        <td scope="col">DOCU</td> 
+        <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Frais</p></td> 
@@ -193,7 +193,7 @@ La ressource d’abonnement contient les champs suivants :
    * **Chaîne** : valeur qui représente le type d’événement auquel l’objet est abonné. Les types d’événement disponibles sont les suivants :
 
       * CREATE
-      * DELETE
+      * SUPPRIMER
       * UPDATE
 
 * url (obligatoire)
@@ -202,22 +202,22 @@ La ressource d’abonnement contient les champs suivants :
 
 * authToken (obligatoire)
 
-   * **Chaîne** : jeton porteur OAuth2 utilisé pour l’authentification avec l’URL spécifiée dans le champ « URL ».
+   * **Chaîne** - Jeton du porteur OAuth2 utilisé pour l’authentification à l’aide de l’URL spécifiée dans le champ « URL ».
 
-## Créer des requêtes API d’abonnement aux événements
+## Créer des requêtes API d&#39;abonnement aux événements
 
 Après avoir vérifié que la personne dispose d’un accès administratif et avoir créé la ressource d’abonnement, vous êtes en mesure de créer des abonnements à des événements.
 
 Utilisez la syntaxe suivante pour construire l’URL.
 
-**URL de la requête :**
+**URL de la requête**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**En-têtes de la requête :**
+**En-têtes de requête**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -253,18 +253,27 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
             }
 ```
 
+**Exemple de corps de réponse**
+
+```
+{
+    "id": <NEW SUBSCRIPTION ID>,
+    "version": <NEW SUBSCRIPTION VERSION>
+}
+```
+
 | Code de réponse | Description |
 |---|---|
 | 201 (Créé) | L’abonnement à l’événement a bien été créé. |
-| 400 (Requête incorrecte) | Le champ URL de la ressource d’abonnement a été considéré comme non valide. |
+| 400 (Requête incorrecte) | Le champ URL de la ressource d&#39;abonnement a été jugé non valide. |
 | 401 (Non autorisé) | La valeur sessionID fournie était vide ou est considérée comme non valide. |
 | 403 (Interdit) | La personne qui correspond à la valeur sessionID fournie ne dispose pas d’un accès administratif. |
 
-La transmission d’une ressource d’abonnement en tant que corps d’une requête (le type de contenu étant « application/json ») entraîne la création d’un abonnement d’événement pour l’objet spécifié. Un code de réponse 201 (Créé) indique que l’abonnement a été créé. Un code de réponse autre que 201 signifie que l’abonnement n’a **PAS** été créé.
+La transmission d’une ressource d’abonnement comme corps d’une requête (avec le type de contenu « application/json ») entraîne la création d’un abonnement à un événement pour l’objet spécifié. Un code de réponse 201 (Créé) indique que l’abonnement a été créé. Un code de réponse autre que 201 signifie que l’abonnement n’a **PAS** été créé.
 
 >[!NOTE]
 >
->L’en-tête de réponse « Emplacement » contient l’URI de l’abonnement d’événement nouvellement créé.
+> L’en-tête de réponse « Emplacement » contient l’URI de l’abonnement à l’événement nouvellement créé.
 
 **Exemple d’en-têtes de réponse :**
 
@@ -288,7 +297,7 @@ Vous pouvez interroger tous les abonnements à des événements pour un client o
 
 La syntaxe de requête pour répertorier tous les abonnements d’événement pour un client ou une cliente spécifique est la suivante :
 
-**URL de requête :**
+**URL de la requête**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -315,7 +324,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**Codes de réponse :**
+**Codes de réponse**
 
 | Code de réponse | Description |
 |---|---|
@@ -324,7 +333,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 403 (Interdit) | L’utilisateur ou l’utilisatrice, qui correspond à la valeur sessionID fournie, ne dispose pas d’un accès d’administration. |
 
 
-**Exemple d’en-têtes de réponse :**
+**Exemple d’en-têtes de réponse**
 
 | En-tête de réponse | Exemple |
 |---|---|
@@ -334,7 +343,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | Transfer-Encoding | `→chunked` |
 
 
-**Exemple de corps de réponse :**
+**Exemple de corps de réponse**
 
 ```
 {
@@ -368,7 +377,7 @@ Où
 
 Vous pouvez rechercher des abonnements à des événements par l’identifiant d’abonnement à l’événement. La syntaxe de requête pour répertorier les abonnements aux événements est la suivante :
 
-**URL de requête :**
+**URL de la requête**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -376,7 +385,7 @@ Vous pouvez rechercher des abonnements à des événements par l’identifiant d
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**En-têtes de la requête :**
+**En-têtes de requête**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -395,7 +404,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </tbody> 
 </table>
 
-**Codes de réponse :**
+**Codes de réponse**
 
 | Code de réponse | Description |
 |---|---|
@@ -404,7 +413,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403 (Interdit) | L’utilisateur ou l’utilisatrice, qui correspond à la valeur sessionID fournie, ne dispose pas d’un accès d’administration. |
 
 
-**Exemple de corps de réponse :**
+**Exemple de corps de réponse**
 
 
 
@@ -429,6 +438,95 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
    }
 }
 ```
+
+## Contrôle de version de l’abonnement aux événements
+
+Workfront propose deux versions d’abonnements aux événements.
+
+La possibilité de mettre à niveau ou de rétrograder des abonnements aux événements garantit que lorsque des modifications sont apportées à la structure des événements, les abonnements existants ne sont pas rompus, ce qui vous permet de tester et de mettre à niveau vers la nouvelle version sans interruption de votre abonnement aux événements.
+
+Pour plus d&#39;informations sur le contrôle de version des abonnements aux événements, notamment les différences spécifiques entre la version et les dates importantes, consultez [Contrôle de version des abonnements aux événements](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+### Modification de la version d’un abonnement unique
+
+La syntaxe de requête pour modifier la version pour un seul abonnement est la suivante :
+
+**URL de la requête**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>/version 
+```
+
+**Exemple de corps de requête**
+
+```
+{
+    "version": "v2" 
+}
+```
+
+
+**Exemple de corps de réponse (200)**
+
+```
+{
+    "id": <SUBSCRIPTION ID>,
+    "version": "v2" 
+}
+```
+
+**Codes de réponse possibles**
+
+* 200
+* 400
+* 404
+
+
+### Modification de plusieurs versions d’abonnement
+
+Ce point d’entrée modifie la version de plusieurs abonnements, par liste d’abonnements ou indicateur d’abonnements de tous les clients.
+
+La syntaxe de requête pour modifier la version pour un seul abonnement est la suivante :
+
+**URL de la requête**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
+```
+
+**Exemple de corps de requête**
+
+* Demander le corps de la liste des abonnements
+
+  ```
+  {
+      "subscriptionIds": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>],
+      "version": "v2" 
+  }
+  ```
+
+* Demander le corps de tous les abonnements du client
+
+  ```
+  {
+      "allCustomerSubscriptions": true,
+      "version": "v2" 
+  }
+  ```
+
+**Exemple de corps de réponse (200)**
+
+```
+{
+    "subscription_ids": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>, ...],
+    "version": "v2" 
+}
+```
+
+**Codes de réponse possibles**
+
+* 200
+* 400
 
 ## Filtrage des abonnements aux événements
 
@@ -760,7 +858,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <thead> 
   <tr> 
    <th> <p>Code de réponse</p> </th> 
-   <th>Description</th> 
+   <th> Description</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -920,7 +1018,7 @@ Voici un exemple de payload pour un événement CREATE :
 
 ## Encodage Base64
 
-Si un abonnement à un événement est rejeté en raison d’un conflit entre les caractères spéciaux contenus dans vos abonnements aux événements et vos paramètres réseau, vous pouvez utiliser l’encodage Base64 pour transmettre vos abonnements aux événements. Base64 est un ensemble de schémas d’encodage qui peuvent traduire n’importe quelle donnée arbitraire dans un format de chaîne ASCII. Il est important de noter que Base64 n’est pas une forme de chiffrement de sécurité.
+Si un abonnement à un événement est rejeté en raison d’un conflit entre les caractères spéciaux contenus dans vos abonnements aux événements et vos paramètres réseau, vous pouvez utiliser l’encodage Base64 pour transmettre vos abonnements aux événements. Base64 est un ensemble de schémas de codage qui peuvent traduire toutes les données arbitraires dans un format de chaîne ASCII. Il est important de noter que Base64 n’est pas une forme de chiffrement de sécurité.
 
 ### Champ d’encodage Base64
 
@@ -1001,7 +1099,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <thead> 
   <tr> 
    <th> <p>Code de réponse</p> </th> 
-   <th>Description</th> 
+   <th> Description</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1020,7 +1118,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </tbody> 
 </table>
 
- 
+
 
 ### Exemple de corps de réponse
 

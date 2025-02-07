@@ -5,10 +5,10 @@ description: Ressources d’abonnements aux événements
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 1b09f1d69561bd192c4e26bf48da558ed2e8b626
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 100%
+source-wordcount: '49'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,7 @@ Vous trouverez ci-dessous différentes ressources sur les abonnements aux évén
 * [Exigences de diffusion des abonnements aux événements](../../wf-api/general/setup-event-sub-endpoint.md)
 * [Champs de ressources des abonnements aux événements](../../wf-api/api/event-sub-resource-fields.md)
 * [Reprises pour les abonnements aux événements](../../wf-api/api/event-sub-retries.md)
+* [Contrôle de version de l’abonnement aux événements](/help/quicksilver/wf-api/general/event-subs-versioning.md)
 * [Filtrage des messages des abonnements aux événements](../../wf-api/api/filter-event-sub-messages.md)
 * [Format du message sortant pour les abonnements aux événements](../../wf-api/api/message-format-event-subs.md)
 * [Questions fréquentes - Abonnements aux événements](../../wf-api/general/event-subs-faq.md)
