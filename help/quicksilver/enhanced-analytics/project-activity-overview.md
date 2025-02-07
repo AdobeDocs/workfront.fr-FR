@@ -7,10 +7,10 @@ description: La visualisation de l’activité de projet présente une vue agré
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 94%
 
 ---
 
@@ -68,15 +68,15 @@ Les activités du projet s’affichent en différentes couleurs pour résumer le
 
 * **Utilisateurs et utilisatrices connectés** : les cases violettes indiquent que les personnes affectées au projet se sont connectées ce jour-là. Une nuance plus sombre indique un nombre plus élevé de personnes se connectant.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![Utilisateurs connectés](assets/project-activity-users-logged-in.png)
 
 * **Modification du statut de la tâche** : les cases roses montrent que des personnes ont modifié le statut d’une tâche pour le projet ce jour-là. Une nuance plus foncée indique un nombre plus élevé de changements de statut d’une tâche.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![modification du statut de la tâche](assets/project-activity-task-status-changes.png)
 
 * **Tâches terminées** : les cases bleues indiquent que des personnes ont terminé une tâche pour le projet. Une nuance plus foncée indique un nombre plus élevé de tâches terminées.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![Tâches terminées](assets/project-activity-tasks-completed.png)
 
 En pointant sur une case, vous pouvez voir le nombre exact de fois où l’action a été effectuée au cours d’un jour donné. Vous pouvez sélectionner un projet pour afficher la ventilation de ces activités pour chaque personne individuelle contribuant au projet.
 
@@ -90,10 +90,10 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
 ## Afficher la visualisation Activité des projets
 
-1. Cliquez sur l’icône du menu principal ![](assets/main-menu-icon-16x12.png), puis sélectionnez **Analyse**.
+1. Cliquez sur l’icône du menu principal ![icône du menu principal](assets/main-menu-icon-16x12.png), puis sélectionnez **Analytics**.
 1. (Facultatif) Pour utiliser une autre période, sélectionnez de nouvelles dates de début et de fin dans le filtre des périodes.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Sélectionner une période](assets/filters-select-date-range-350x344.png)
 
    Pour plus d’informations sur l’utilisation du filtre de période, voir [Appliquer des filtres dans Analytique améliorée](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -111,7 +111,7 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
    Toutes les autres visualisations sont mises à jour sur la même période et un filtre de délai est créé.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Filtre des délais](assets/timeframe-filter-350x220.png)
 
 1. (Facultatif) Pour modifier le mode de tri des projets, cliquez sur le bouton **Tri par**, puis sélectionnez une nouvelle option de tri :
 
@@ -126,7 +126,7 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
    Toutes les autres visualisations de la page sont mises à jour pour correspondre à votre sélection de page.
 
-   ![](assets/pagination-350x118.png)
+   ![ Pagination ](assets/pagination-350x118.png)
 
 1. Cliquez sur un projet dans la visualisation pour afficher plus de détails sur le projet.
 
@@ -134,9 +134,9 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
 1. Pointez sur une zone pour afficher la date à laquelle les personnes ont terminé une action, ainsi que le nombre de fois où l’action a été terminée pour cette journée.
 
-   ![](assets/project-activity-activity-pop-up-350x137.png)
+   ![ Fenêtre contextuelle d’activité ](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (Facultatif) Pour exporter les données de visualisation, cliquez sur l’**Icône Exporter** ![](assets/export.png) dans le coin supérieur droit de la visualisation, sélectionnez le format d’exportation :
+1. (Facultatif) Pour exporter les données de visualisation, cliquez sur l’icône **Exporter** ![Exporter](assets/export.png) dans le coin supérieur droit de la visualisation, puis sélectionnez le format d’exportation :
 
    * **Graphique (PNG)**
    * **Table de données (XSLX)**

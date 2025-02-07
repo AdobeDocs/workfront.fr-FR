@@ -7,10 +7,10 @@ description: Vous pouvez charger des fichiers vers  [!DNL Workfront Proof]  sans
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ Vous pouvez également utiliser [!DNL Workfront Proof] en tant qu’espace de st
 Pour charger un fichier vers [!DNL Workfront Proof], procédez comme suit :
 
 1. Dans le coin supérieur gauche de [!DNL Workfront Proof], cliquez sur la flèche vers le bas du bouton **[!UICONTROL Nouvelle épreuve]**, puis cliquez sur **[!UICONTROL Charger le fichier]** dans le menu qui s’affiche.\
-   ![](assets/new-proof-button-menu.png)
+   ![Bouton Nouveau BAT](assets/new-proof-button-menu.png)
 
 1. La page **[!DNL New File]** s’affiche.
 1. Pour charger ou ajouter le contenu dont vous avez besoin pour l’épreuve, effectuez l’une des opérations suivantes :

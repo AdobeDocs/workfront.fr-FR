@@ -7,10 +7,10 @@ description: Vous pouvez afficher l’activité récente d’une épreuve donné
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e99f4e8f-eb3f-4575-83fb-97acb8932e25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '195'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez afficher l’activité récente d’une épreuve donnée. Cela inclu
 
 1. Si la barre d’outils de gauche n’est pas affichée, cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur gauche de la visionneuse de relecture.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Menu du lecteur de vérification](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Dans la barre d’outils située à gauche de la visionneuse de relecture, cliquez sur le bouton **[!UICONTROL Détails de l’épreuve]**.
 

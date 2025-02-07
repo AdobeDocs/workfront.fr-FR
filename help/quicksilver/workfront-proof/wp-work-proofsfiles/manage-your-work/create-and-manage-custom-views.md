@@ -7,10 +7,10 @@ description: Vous pouvez créer des vues personnalisées de vos fichiers et épr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2458'
-ht-degree: 100%
+source-wordcount: '2472'
+ht-degree: 98%
 
 ---
 
@@ -46,10 +46,10 @@ Pour créer une vue personnalisée :
 
    * Pour créer une vue personnalisée basée sur une vue standard existante : dans le menu déroulant, sélectionnez la vue standard existante à utiliser comme base de votre nouvelle vue personnalisée. Cliquez sur l’icône **[!UICONTROL Paramètres de la vue]**, puis sur **[!UICONTROL Copier]** dans la nouvelle vue personnalisée.
 
-   * ![](assets/proof-custom-view-icon.png)
+   * ![Icône Vue personnalisée](assets/proof-custom-view-icon.png)
 
    * Pour créer une vue personnalisée à partir de zéro : cliquez sur l’icône **[!UICONTROL Nouvelle vue]**.
-   * ![](assets/proof-newview.png)
+   * ![Nouvel affichage](assets/proof-newview.png)
 
 1. Dans la section **[!UICONTROL Détails]**, renseignez les informations suivantes :
 
@@ -59,7 +59,7 @@ Pour créer une vue personnalisée :
 1. Dans la section **[!UICONTROL Colonnes]**, déterminez les colonnes que vous souhaitez inclure dans la vue personnalisée.
 
    1. Cliquez sur l’icône de flèche vers la droite.
-   1. ![](assets/proof-view-rightarrow.png)
+   1. ![Flèche droite](assets/proof-view-rightarrow.png)
 
    1. Double-cliquez sur le nom de la colonne sélectionnée.
    1. Vous devez sélectionner au moins une colonne et une colonne ne peut être ajoutée qu’une seule fois.
@@ -215,7 +215,7 @@ Pour créer une vue personnalisée :
 1. Pour inclure tous les éléments dans votre vue personnalisée, ignorez la section **[!UICONTROL Filtres]**.
 1. Filtres disponibles :
 
-   * **Champ :** sélectionnez le champ de ce filtre (le champ par défaut est Commentaires). La liste Champ contient tous les champs Standard (comme dans l’onglet [!UICONTROL Colonnes]). La liste ne se limite pas aux colonnes que vous avez sélectionnées pour l’affichage.
+   * **Champ :** sélectionnez le champ de ce filtre (Commentaires est le champ par défaut). La liste Champ contient tous les champs standard (comme dans l&#39;onglet [!UICONTROL Colonnes]). La liste ne se limite pas aux colonnes que vous avez sélectionnées pour l’affichage.
    * **Opérateur :** les opérateurs disponibles pour le filtre dépendent du type de champ sélectionné. Sélectionnez un opérateur qui affiche la relation entre le champ et le champ de valeur. Vous renseignerez ces informations ultérieurement.
    * **Valeur :** sélectionnez ou saisissez la valeur de votre choix dans ce champ, en fonction du champ et de l’opérateur que vous avez sélectionné. Selon l’opérateur que vous avez choisi, il peut y avoir un, deux ou aucun champ Valeur. Consultez les exemples ci-dessous.
    * **Les filtres sont appliqués selon la logique suivante :** les critères de filtre entre différents champs utilisent l’opérateur AND. Plusieurs critères de filtre utilisant le même champ utilisent l’opérateur OR pour le même champ.
@@ -274,10 +274,10 @@ Vous pouvez facilement modifier une vue personnalisée. Pour modifier une vue pe
 
 1. Cliquez sur le bouton [!UICONTROL Vues] bouton (1)
 1. Sélectionnez la vue à modifier dans le menu déroulant.\
-   ![](assets/proof-view-edit.png)
+   ![Vue Modifier](assets/proof-view-edit.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Options de vue]**, puis cliquez sur **[!UICONTROL Modifier la vue]**.\
-   ![](assets/proof-view-options.png)\
+   ![Options d’affichage](assets/proof-view-options.png)\
    La page Modifier la vue personnalisée s’affiche.
 
 1. Cliquez sur le menu [!UICONTROL Actions]. (3)\
@@ -312,7 +312,7 @@ Pour copier une vue personnalisée :
    ![copying_custom_view.png](assets/copying-custom-view-350x258.png)
 
 1. Dans la page Copier la vue personnalisée, tous les paramètres d’origine sont renseignés. Modifiez la vue personnalisée selon votre choix et cliquez sur le bouton **[!UICONTROL Copier la vue]**. Vous aurez immédiatement accès à votre nouvelle vue.\
-   ![](assets/copy-custom-view-page-350x542.png)
+   ![Copier la vue personnalisée](assets/copy-custom-view-page-350x542.png)
 
 ## Partager des vues personnalisées
 

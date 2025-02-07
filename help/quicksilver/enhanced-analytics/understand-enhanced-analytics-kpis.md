@@ -7,10 +7,10 @@ description: Dans la partie supérieure de l’écran de la zone Analytique amé
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 96%
 
 ---
 
@@ -29,22 +29,22 @@ Pour savoir comment ajouter des filtres, voir [Appliquer des filtres dans Analyt
 
 Le KPI « Projets terminés » indique le nombre de projets terminés sur une période filtrée, ainsi que l’augmentation ou la diminution du pourcentage depuis la période précédente. Vous trouverez ci-dessous le nombre de projets terminés au cours de la période précédente ainsi que le nombre de jours de la période précédente.
 
-![](assets/kpi-projects-completed-350x182.png)
+![ Projets d’indicateurs de performance clés terminés ](assets/kpi-projects-completed-350x182.png)
 
 ## Projets terminés dans les délais
 
 Le KPI « Projets terminés dans les délais » indique le pourcentage de projets terminés dans les délais au cours de la période filtrée, ainsi que l’augmentation ou la diminution du pourcentage depuis la période précédente. Vous trouverez ci-dessous le pourcentage de projets terminés dans les délais au cours de la période précédente, ainsi que le nombre de jours de la période précédente.
 
-![](assets/kpi-projects-completed-on-time-350x180.png)
+![Projets d’indicateurs de performance clés terminés dans les délais](assets/kpi-projects-completed-on-time-350x180.png)
 
 ## Durée moy. du projet
 
 Le KPI « Durée moy.du projet » indique la durée moyenne d’achèvement des projets (en jours, semaines ou années) avec des dates de fin effectives au cours de la période filtrée, ainsi que l’augmentation ou la diminution du pourcentage depuis la période précédente. En dessous de ces chiffres, vous pouvez voir la durée moyenne d’achèvement des projets avec des dates de fin effectives dans la période précédente, ainsi que le nombre de jours dans la période précédente.
 
-![](assets/kpi-avg.-project-duration-350x168.png)
+![Durée moyenne du projet basée sur les KPI](assets/kpi-avg.-project-duration-350x168.png)
 
 ## Tâches moy. par projet
 
 Le KPI « Tâches moy. par projet » indique le nombre moyen de tâches affectées aux projets au cours de la période filtrée, ainsi que l’augmentation ou la diminution du pourcentage depuis la période précédente. Vous trouverez ci-dessous le nombre moyen de tâches affectées aux projets au cours de la période précédente, ainsi que le nombre de jours de la période précédente.
 
-![](assets/kpi-average-tasks-per-project-350x179.png)
+![KPI moyen des tâches par projet](assets/kpi-average-tasks-per-project-350x179.png)

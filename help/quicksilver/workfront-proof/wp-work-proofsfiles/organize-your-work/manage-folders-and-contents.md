@@ -7,10 +7,10 @@ description: L’un des avantages qu’est l’organisation de vos projets et é
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 100%
+source-wordcount: '1237'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +82,7 @@ Vous pouvez facilement gérer vos fichiers à partir de la page [!UICONTROL Dét
    * Voir le nom du **créateur ou de la créatrice** du dossier
 
 1. (Facultatif) Pour modifier les informations associées à un élément du dossier, cliquez sur l’icône **[!UICONTROL Plus]** à droite de l’élément, puis utilisez l’une des options qui s’affichent.\
-   ![](assets/more-button-small.png)\
+   ![Menu Plus](assets/more-button-small.png)\
    Les options qui s’affichent varient si l’élément est une épreuve ou un fichier.
 
    * **[!UICONTROL Afficher les détails de l’épreuve]** ou **[!UICONTROL Afficher les détails du fichier]** : ouvre la page Détails de l’épreuve ou Détails du fichier. Pour plus d’informations, voir [Gérer les fichiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) ou [Gérer les détails de l’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
@@ -111,9 +111,9 @@ Vous pouvez facilement gérer vos fichiers à partir de la page [!UICONTROL Dét
 1. (Facultatif) Cliquez sur **[!UICONTROL Activité]** pour afficher toutes les actions effectuées dans le dossier par ordre chronologique.
 1. (Facultatif) Cliquez sur la section **[!UICONTROL Messages]** pour afficher les messages qui ont été envoyés aux personnes du dossier.\
    Lorsque vous survolez un message, vous pouvez cliquer sur l’icône **i** à droite pour afficher le message complet.\
-   ![](assets/messages-1-350x74.png)\
+   ![ Messages ](assets/messages-1-350x74.png)\
    Une fenêtre contextuelle contenant l’intégralité de l’e-mail s’affiche :\
-   ![](assets/messages-2-350x252.png)
+   ![Fenêtre contextuelle de message](assets/messages-2-350x252.png)
 
 ## Gérer les sous-dossiers
 

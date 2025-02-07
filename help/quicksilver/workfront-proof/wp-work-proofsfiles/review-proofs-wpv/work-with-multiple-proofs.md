@@ -7,10 +7,10 @@ description: Dans  [!DNL Workfront]  Épreuve, vous pouvez utiliser des dossiers
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '507'
+ht-degree: 99%
 
 ---
 
@@ -64,4 +64,4 @@ En tant que personne en charge de la révision, vous pouvez utiliser plusieurs �
 
      Lorsque vous comparez des épreuves, si vous souhaitez passer à une nouvelle épreuve, que ce soit sur le côté gauche ou droit de la visionneuse de relecture, cliquez sur le bouton [!UICONTROL Comparer] au-dessus de l’épreuve.
 
-     ![](assets/mceclip0-350x126.png)
+     ![Comparer ](assets/mceclip0-350x126.png)

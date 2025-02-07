@@ -7,10 +7,10 @@ description: En tant qu’administrateur ou administratrice  [!DNL Workfront Pro
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '587'
+ht-degree: 98%
 
 ---
 
@@ -41,10 +41,10 @@ Sur la page [!UICONTROL Groupes], vous pouvez effectuer les opérations suivante
       * Les groupes privés ne sont visibles que par leurs créateurs et créatrices.
       * Supprimer les groupes sélectionnés.
 
-        ![](assets/trash-button.png)
+        ![Icône Supprimer](assets/trash-button.png)
    * Vous pouvez exécuter des actions sur les groupes également dans chaque groupe séparément depuis leur menu **[!UICONTROL Plus]** (trois points) :
 
-     ![](assets/more-button-small.png)
+     ![Menu Plus](assets/more-button-small.png)
 
       * Afficher les détails d’un groupe.
 
@@ -101,7 +101,7 @@ Sur la page qui s’affiche, vous pouvez afficher toutes les personnes actuellem
 
 1. Cochez les cases en regard du nom ou des noms des contacts que vous souhaitez ajouter à un groupe.
 1. Cliquez sur le bouton **[!UICONTROL Ajouter au groupe]**.
-   ![](assets/screenshot-2018-04-06-15-27-17.png)
+   ![Ajouter au groupe](assets/screenshot-2018-04-06-15-27-17.png)
 La boîte de dialogue **[!UICONTROL Ajouter au groupe]** s’affiche.
 
 1. Dans la section **[!UICONTROL Personnes]** :

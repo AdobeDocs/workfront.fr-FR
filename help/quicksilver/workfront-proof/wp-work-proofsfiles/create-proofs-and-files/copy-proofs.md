@@ -7,9 +7,9 @@ description: Les personnes réviseuses disposant de droits de modification sur u
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '681'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Les personnes réviseuses présentes dans l’épreuve originale apparaissent au
 1. Accédez à l’une des pages **[!UICONTROL Vues]**, comme décrit dans [Gérer les éléments de la page Vues dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 1. Ouvrez le menu **[!UICONTROL Plus]** pour l’épreuve.\
-   ![](assets/more-button-small.png)
+   ![Menu Plus](assets/more-button-small.png)
 
 1. Choisissez **[!UICONTROL Copier]** dans le menu déroulant.
 1. Dans la page **[!UICONTROL Copier l’épreuve]** qui s’affiche, indiquez si vous souhaitez créer la copie en tant que nouvelle version de l’épreuve existante ou en tant que nouvelle épreuve.\
@@ -77,7 +77,7 @@ Pour copier les paramètres d’une épreuve existant pour une nouvelle épreuve
 1. Accédez à l’une des pages **[!UICONTROL Vues]**, tel que décrit dans [Gérer des éléments sur la page Vues dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 1. Ouvrez le menu **[!UICONTROL Plus]** pour l’épreuve.\
-   ![](assets/more-button-small.png)
+   ![Menu Plus](assets/more-button-small.png)
 
 1. Choisissez **[!UICONTROL Afficher les détails de l’épreuve]** dans le menu déroulant.
 1. Cliquez sur **[!UICONTROL Plus]**.\

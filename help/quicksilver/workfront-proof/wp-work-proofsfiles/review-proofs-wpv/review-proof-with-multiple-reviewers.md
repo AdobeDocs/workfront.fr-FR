@@ -7,10 +7,10 @@ description: Plusieurs réviseurs et réviseuses peuvent travailler sur une épr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4f55af53-0ca8-4f50-b539-b93d13655f0c
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 99%
 
 ---
 
@@ -32,4 +32,4 @@ Vous pouvez voir les indicateurs de présence lorsque d’autres réviseurs et r
 
 1. (Facultatif) Placez le pointeur de la souris sur un indicateur de présence pour afficher le nom de la personne.
 
-   ![](assets/proof-presence.png)
+   ![Présence du BAT](assets/proof-presence.png)

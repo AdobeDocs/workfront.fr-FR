@@ -7,9 +7,9 @@ description: Les notifications par e-mail générées par Workfront Proof infor
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2065'
 ht-degree: 98%
 
 ---
@@ -151,7 +151,7 @@ Vous pouvez configurer les paramètres des épreuves pour celles que vous créez
 Vous pouvez modifier les alertes par e-mail destinées à une personne destinataire spécifique dans une action par lot.
 
 1. Cliquez sur **[!UICONTROL Contacts]** dans le panneau de navigation de gauche.
-1. Sélectionnez le menu **[!UICONTROL Plus]** ![](assets/more-button-small.png) pour la personne destinataire, puis cliquez sur **[!UICONTROL Afficher les détails de la personne membre]** dans le menu déroulant.
+1. Cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/more-button-small.png) du destinataire, puis cliquez sur **[!UICONTROL Afficher les détails du membre]** dans le menu déroulant.
 
 1. Ouvrez la section **[!UICONTROL Éléments partagés]**.
 1. Cochez la case à gauche de chaque élément pour lequel vous souhaitez modifier l’alerte par e-mail.

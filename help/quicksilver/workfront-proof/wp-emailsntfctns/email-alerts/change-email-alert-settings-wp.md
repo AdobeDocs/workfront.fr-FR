@@ -7,10 +7,10 @@ description: Vous pouvez également modifier les alertes par e-mail de  [!DNL Wo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ac24a339-6f9f-4452-a37b-023752447700
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '181'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez également modifier les alertes par e-mail de [!DNL Workfront Proof]
 
 ## Modifier les alertes par e-mail pour les réviseurs et réviseuses d’une épreuve
 
-1. Dans n’importe quelle vue de liste, cliquez sur le menu **[!UICONTROL Plus]** à droite de l’épreuve. ![](assets/more-button-small.png)
+1. Dans n’importe quelle vue de liste, cliquez sur le menu **[!UICONTROL Plus]** à droite du BAT. ![Menu Plus](assets/more-button-small.png)
 
 1. Cliquez sur **[!UICONTROL Afficher les détails de l’épreuve]**.
 1. Sur la page **[!UICONTROL Détails de l’épreuve]**, ouvrez la menu déroulant [!UICONTROL alerte par e-mail] pour un réviseur ou une réviseuse, puis sélectionnez le nouveau paramètre.

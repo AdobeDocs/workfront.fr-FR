@@ -7,10 +7,10 @@ description: La visualisation d’arborescence du projet est une vue des heures 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 99%
+source-wordcount: '854'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 La visualisation d’arborescence du projet est une vue des heures ou des jours travaillés au cours d’une période spécifique par rapport à d’autres volumes de tâches. Vous obtenez ainsi une meilleure compréhension du temps que les personnes ont consacré à un projet.
 
-![](assets/project-treemap-350x126.png){width="700"}
+![ Arborescence de projets ](assets/project-treemap-350x126.png){width="700"}
 
 ## Conditions d’accès
 
@@ -71,22 +71,22 @@ La visualisation d’arborescence du projet comprend les éléments suivants :
 
 * **Zones plus petites, bleu clair** : les projets qui comportent moins d’heures (ou de jours) s’affichent sous forme de petites zones de couleur bleu clair.
 
-  ![](assets/project-treemap-smaller-box.png)
+  ![Boîte plus petite](assets/project-treemap-smaller-box.png)
 
 * **Zones plus grandes, bleu foncé** : les projets qui comportent plus d’heures (ou de jours) s’affichent sous forme de zones plus grandes avec une couleur bleu foncé.
 
-  ![](assets/project-treemap-larger-box-350x205.png)
+  ![Boîte plus grande](assets/project-treemap-larger-box-350x205.png)
 
 * **Zones de taille moyenne, bleu** : les projets intermédiaires s’affichent sous forme de zones de taille moyenne, avec une nuance de bleu se situant entre le bleu foncé et le bleu clair. Les zones de taille moyenne peuvent présenter 3 nuances de bleu.
 
 La légende à droite indique la ventilation des heures terminées pour chaque nuance de bleu. Cette légende est dynamique et s’actualise en fonction des données.
 
-![](assets/project-treemap-hours-completed.png)
+![Heures de Treemap terminées](assets/project-treemap-hours-completed.png)
 
 >[!NOTE]
 >
 >Si vous observez la visualisation d’arborescence du projet par durée plutôt que par heures prévues, cette légende présente une ventilation des jours travaillés pour chaque nuance de bleu.\
->![](assets/project-treemap-days-worked.png)>
+>![Jours travaillés de l’arborescence](assets/project-treemap-days-worked.png)>
 
 Ces informations vous aident à déterminer :
 
@@ -99,10 +99,10 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
 ## Afficher la visualisation d’arborescence du projet
 
-1. Cliquez sur l’icône Menu principal ![](assets/main-menu-icon-16x12.png), puis sélectionnez **Analytics**.
+1. Cliquez sur l’icône du menu principal ![icône du menu principal](assets/main-menu-icon-16x12.png), puis sélectionnez **Analytics**.
 1. (Facultatif) Pour utiliser une autre période, sélectionnez de nouvelles dates de début et de fin dans le filtre des périodes.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Sélectionner une période](assets/filters-select-date-range-350x344.png)
 
    Pour plus d’informations sur l’utilisation du filtre de période, voir [Appliquer des filtres dans Analytique améliorée](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -125,7 +125,7 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
    Toutes les autres visualisations de la page sont mises à jour pour correspondre à votre sélection de page.
 
-   ![](assets/pagination-350x118.png)
+   ![ Pagination ](assets/pagination-350x118.png)
 
 1. (Facultatif) Modifiez la vue du **nombre d’heures prévues** vers la **durée**.
 
@@ -133,7 +133,7 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
 1. Pointez sur un projet pour afficher la condition du projet, ainsi que le nombre total d’heures prévues, le nombre total d’heures terminées et le nombre moyen d’heures passées sur le projet par jour.
 
-   ![](assets/project-treemap-project-details-350x404.png)
+   ![Détails du projet Treemap](assets/project-treemap-project-details-350x404.png)
 
    >[!NOTE]
    >
@@ -142,11 +142,11 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
    >* **Échéancier prévu** : nombre de jours prévus pour terminer le projet.
    >* **Jours travaillés** : durée prévue de chaque tâche qui a été effectuée sur la période sélectionnée en haut, divisée par le nombre d’heures par jour.
    >   
-   >![](assets/duration-treemap-350x159.png)
+   >![Durée du Treemap](assets/duration-treemap-350x159.png)
    >
    >Pour plus d’informations sur la durée, voir la section « Vue Durée » dans [Vue d’ensemble d’Analytique améliorée](../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. (Facultatif) Pour exporter les données de visualisation, cliquez sur l’**icône Exporter** ![](assets/export.png) dans le coin supérieur droit de la visualisation, puis sélectionnez le format d’export :
+1. (Facultatif) Pour exporter les données de visualisation, cliquez sur l’icône **Exporter** ![Exporter](assets/export.png) dans le coin supérieur droit de la visualisation, puis sélectionnez le format d’exportation :
 
    * **Graphique (PNG)**
    * **Tableau de données (XSLX)**

@@ -7,10 +7,10 @@ description: La visualisation Activité par équipe présente les activités qui
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 99%
+source-wordcount: '727'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ La visualisation Activité par équipe présente les activités qui se produisen
 >La visualisation de l’activité de projet est similaire à cette visualisation, mais elle affiche l’activité en fonction des personnes affectées à des projets plutôt que des personnes affectées à une équipe interne.\
 >Pour plus d’informations sur la visualisation de l’activité de projet, voir [Afficher la visualisation de l’activité de projet dans l’analytique améliorée](../enhanced-analytics/project-activity-overview.md).
 
-![](assets/activity-by-team-350x113.png){width="700"}
+![Activité par équipe](assets/activity-by-team-350x113.png){width="700"}
 
 ## Conditions d’accès
 
@@ -75,15 +75,15 @@ Les différentes activités s’affichent dans différentes couleurs pour résum
 
 * **Personnes connectées dans** : les cases violettes indiquent que les personnes membres de l’équipe interne se sont connectées ce jour-là. Une nuance plus sombre indique un nombre plus élevé de personnes se connectant.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![Utilisateurs connectés](assets/project-activity-users-logged-in.png)
 
 * **Changement de statut d’une tâche** : les cases roses indiquent que les personnes membres de l’équipe interne ont modifié le statut d’une tâche ce jour-là. Une nuance plus foncée indique un nombre plus élevé de changements de statut d’une tâche.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![modifications du statut de la tâche](assets/project-activity-task-status-changes.png)
 
 * **Tâches terminées** : les cases bleues indiquent que les personnes membres de l’équipe interne ont terminé une tâche ce jour-là. Une nuance plus foncée indique un nombre plus élevé de tâches terminées.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![Tâches terminées](assets/project-activity-tasks-completed.png)
 
 En pointant sur une case, vous pouvez voir le nombre exact de fois où l’action a été effectuée au cours d’un jour donné. Vous pouvez sélectionner une équipe pour afficher la répartition de ces activités par personne au sein de l’équipe interne.
 
@@ -97,16 +97,16 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
 ## Afficher la visualisation d’activité par équipe
 
-1. Cliquez sur l’icône du menu principal ![](assets/main-menu-icon-16x12.png), puis sélectionnez **Analyse**.
+1. Cliquez sur l’icône du menu principal ![icône du menu principal](assets/main-menu-icon-16x12.png), puis sélectionnez **Analytics**.
 1. Dans le panneau de gauche, sélectionnez **Personnes**.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![Espace personnes](assets/people-area-cropped-qs-350x276.png)
 
 1. (Facultatif) Pour utiliser une autre période, sélectionnez de nouvelles dates de début et de fin dans le filtre des périodes.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Sélectionner une période](assets/filters-select-date-range-350x344.png)
 
-   Pour plus d’informations sur l’utilisation du filtre de période, voir [Appliquer des filtres dans l’analytique améliorée](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Pour plus d’informations sur l’utilisation du filtre de période, voir la section [Appliquer des filtres dans Analytique améliorée](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Le cas échéant) Si vous n’avez pas défini votre filtre d’équipe, ajoutez-le et sélectionnez chaque équipe dont vous souhaitez voir les données.
 
@@ -118,7 +118,7 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
    Toutes les autres visualisations sont mises à jour sur la même période et un filtre de délai est créé.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Filtre des délais](assets/timeframe-filter-350x220.png)
 
 1. Cliquez sur le nom d’une équipe
 
@@ -140,9 +140,9 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
    Des couleurs plus foncées indiquent une activité plus élevée.
 
-   ![](assets/activity-by-team-activity-pop-up-350x155.png)
+   ![Activité par équipe](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Facultatif) Pour exporter les données de visualisation, cliquez sur l’icône Exporter ![](assets/export.png) dans le coin supérieur droit de la visualisation, sélectionnez le format d’exportation :
+1. (Facultatif) Pour exporter les données de visualisation, cliquez sur l’icône Exporter ![icône Exporter](assets/export.png) dans le coin supérieur droit de la visualisation, puis sélectionnez le format d’exportation :
 
    * **Graphique (PNG)**
    * **Table de données (XSLX)**

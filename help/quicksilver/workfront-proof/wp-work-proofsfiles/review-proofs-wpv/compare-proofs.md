@@ -7,10 +7,10 @@ description: Vous pouvez afficher côte à côte deux épreuves pour les compare
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '949'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez afficher côte à côte deux épreuves pour les comparer. Il peut s�
 1. Ouvrez l’épreuve qui comporte plusieurs versions que vous souhaitez comparer.
 1. Dans le coin supérieur gauche de la visionneuse de relecture qui s’affiche, cliquez sur le nom de l’épreuve. Cliquez ensuite sur l’icône **Comparer** de la liste des versions qui s’affiche à côté de la version que vous souhaitez ouvrir et comparer.
 
-   ![](assets/compare-proofs-choose-version-350x115.jpg)
+   ![Comparer des épreuves choisir la version](assets/compare-proofs-choose-version-350x115.jpg)
 
    Les épreuves s’affichent côte à côte, avec la version la plus récente sur le côté gauche.
 

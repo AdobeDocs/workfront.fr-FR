@@ -7,10 +7,10 @@ description: Analytique améliorée constitue un puissant outil d’Adobe Workf
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 100%
+source-wordcount: '1204'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Analytique améliorée peut vous aider à identifier ce qui suit :
 * La fréquence à laquelle les personnes effectuent des actions spécifiques au cours d’un projet.
 * La progression des projets, ainsi que les tâches individuelles au sein d’un projet.
 
-![](assets/nwe-full-screen-analytics-350x222.png)
+![ Analytics ](assets/nwe-full-screen-analytics-350x222.png)
 
 Pour consulter des cas d’utilisation ou en savoir plus sur la gestion du travail actuel et la planification du travail futur à l’aide d’Analytique améliorée, voir [Parcours de formation Analytique améliorée](https://one.workfront.com/s/enhanced-analytics-program).
 

@@ -7,10 +7,10 @@ description: La visualisation des tâches en cours indique le nombre de tâches 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '749'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 La visualisation des tâches en cours indique le nombre de tâches (dans les critères de filtre appliqués) en cours pour un projet, le pourcentage de travail terminé pour chaque tâche et la planification des tâches.
 
-![](assets/tasks-in-flight-possible-replacement-350x104.png)
+![Tâches en cours](assets/tasks-in-flight-possible-replacement-350x104.png)
 
 ## Conditions d’accès
 
@@ -59,15 +59,15 @@ La visualisation de plan Tâches en cours affiche les détails de tâche suivant
 
 * **Durée prévue de la tâche** : la longueur d’une barre de tâche indique la durée prévue, basée sur la date de début et la date d’achèvement de la tâche.
 
-  ![](assets/tasks-in-flight-duration-350x80.png)
+  ![Durée des tâches en cours](assets/tasks-in-flight-duration-350x80.png)
 
 * **Effort de travail effectué** : la couleur bleue foncée dans une barre de tâche indique la quantité de travail déjà terminée pour une tâche. Ce pourcentage d’achèvement s’affiche à droite de la barre de tâche.
 
-  ![](assets/tasks-in-flight-dark-blue-350x35.png)
+  ![Tâches en cours bleu foncé](assets/tasks-in-flight-dark-blue-350x35.png)
 
 * **Effort de travail restant** : la couleur bleue claire dans une barre de tâche indique la quantité de travail restante à effectuer pour une tâche.
 
-  ![](assets/tasks-in-flight-light-blue-350x35.png)
+  ![Tâches en vol bleu ciel](assets/tasks-in-flight-light-blue-350x35.png)
 
 Ces informations peuvent vous aider à déterminer :
 
@@ -80,10 +80,10 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
 ## Afficher la visualisation des tâches en cours
 
-1. Cliquez sur l’icône Menu principal ![](assets/main-menu-icon-16x12.png), puis sélectionnez **Analytics**.
+1. Cliquez sur l’icône du menu principal ![icône du menu principal](assets/main-menu-icon-16x12.png), puis sélectionnez **Analytics**.
 1. (Facultatif) Pour utiliser une autre période, sélectionnez de nouvelles dates de début et de fin dans le filtre des périodes.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Sélectionner une période](assets/filters-select-date-range-350x344.png)
 
    Pour plus d’informations sur l’utilisation du filtre de période, voir [Appliquer des filtres dans Analytique améliorée](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -113,7 +113,7 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
    Toutes les autres visualisations sont mises à jour sur la même période et un filtre de délai est créé.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Filtre des délais](assets/timeframe-filter-350x220.png)
 
 1. (Facultatif) Pour modifier le classement des tâches, cliquez sur le menu **Classer par**, puis sélectionnez une nouvelle option de classement :
 
@@ -125,13 +125,13 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
 1. Passez en revue la progression des tâches dans le projet sélectionné, puis pointez sur une tâche spécifique pour afficher le nombre d’heures prévues, la date d’échéance prévue et le pourcentage d’achèvement.
 
-   ![](assets/tasks-in-flight-task-details-350x242.png)
+   ![Détails des tâches en cours](assets/tasks-in-flight-task-details-350x242.png)
 
 1. Cliquez sur une tâche pour ouvrir les Détails de la tâche dans la partie droite de l’écran, où vous pouvez voir plus d’informations sur la tâche, afficher ou saisir des mises à jour, ou apporter des modifications à la tâche.
 
-   ![](assets/task-details-qs-350x675.png)
+   ![Détails de la tâche](assets/task-details-qs-350x675.png)
 
-1. (Facultatif) Pour exporter les données de visualisation, cliquez sur l’**icône Exporter** ![](assets/export.png) dans le coin supérieur droit de la visualisation, puis sélectionnez le format d’export :
+1. (Facultatif) Pour exporter les données de visualisation, cliquez sur l’icône **Exporter** ![Exporter](assets/export.png) dans le coin supérieur droit de la visualisation, puis sélectionnez le format d’exportation :
 
    * **Graphique (PNG)**
    * **Table de données (XSLX)**

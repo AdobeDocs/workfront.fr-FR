@@ -7,10 +7,10 @@ description: Dans  [!DNL Workfront Proof], les épreuves existent dans différen
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 98%
 
 ---
 
@@ -71,14 +71,14 @@ Pour plus d’informations sur l’affichage d’une liste de toutes les épreuv
 
 1. Sur le **[!UICONTROL Tableau de bord]**, cliquez sur la flèche **[!UICONTROL Développer]** en regard de l’épreuve dont vous souhaitez afficher ou modifier l’état.
 
-   ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
+   ![Développer](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
    La section **[!UICONTROL Processus de workflow]** s’affiche.
 
-   ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![ Processus de workflow ](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. Affichez l’**[!UICONTROL état]** dans le **[!UICONTROL Processus de workflow]**.
 
 1. (Facultatif) Pour modifier l’état, placez pointez sur l’**[!UICONTROL état]** actuel puis cliquez sur le menu déroulant et sélectionnez un nouvel état.
 
-   ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
+   ![Nouvel état](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

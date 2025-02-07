@@ -7,10 +7,10 @@ description: La visualisation de la feuille de route montre combien de projets (
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 La visualisation de la feuille de route montre combien de projets (selon les critères de filtre appliqués) étaient en cours, quels changements de statuts sont intervenus pendant la durée de vie de ces projets et dans quelle mesure ces projets ont respecté les délais d’achèvement prévus.
 
-![](assets/flight-plan-350x132.png)
+![Plan de vol ](assets/flight-plan-350x132.png)
 
 ## Conditions d’accès
 
@@ -67,11 +67,11 @@ La visualisation de la feuille de route montre les détails suivants du projet 
 
 * **Durée prévue** : la ligne bleue horizontale représente la durée prévue du projet, les triangles à chaque extrémité de la ligne indiquant la date de début et la date de fin.
 
-  ![](assets/planned-duration-line-350x37.png)
+  ![Durée prévue](assets/planned-duration-line-350x37.png)
 
 * **Durée effective** : la ligne épaisse et colorée située sous la durée prévue représente la durée effective du projet. La couleur de la ligne change en fonction du statut du projet à ce moment précis de son cycle de vie.
 
-  ![](assets/actual-duration-line.png)
+  ![Durée réelle](assets/actual-duration-line.png)
 
 * **Statut réel** : la ligne épaisse colorée montre également le statut d’un projet à différents moments. La couleur de la ligne change en fonction du statut du projet :
 
@@ -79,7 +79,7 @@ La visualisation de la feuille de route montre les détails suivants du projet 
    * **Orange** : À risque
    * **Rouge** : À problème
 
-  ![](assets/actual-condition-color.png)
+  ![Condition réelle](assets/actual-condition-color.png)
 
 En pointant sur une ligne de projet dans la visualisation de la feuille de route, vous pouvez obtenir des informations sur le délai prévu du projet, son statut actuel et, le cas échéant, son statut personnalisé. Pour vous faire une idée plus précise de ce qui a pu affecter la durée ou le statut, vous pouvez consulter les autres visualisations dans la zone Analytique améliorée.
 
@@ -95,10 +95,10 @@ Pour plus d’informations sur la manière d’obtenir les meilleures données p
 
 ## Afficher la visualisation de la feuille de route
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon-16x12.png), puis sur **Analyse**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon-16x12.png), puis sélectionnez **Analytics**.
 1. (Facultatif) Pour utiliser une autre période, sélectionnez de nouvelles dates de début et de fin dans le filtre des périodes.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Sélectionner une période](assets/filters-select-date-range-350x344.png)
 
    Pour plus d’informations sur l’utilisation du filtre de période, voir [Appliquer des filtres dans Analytique améliorée](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -112,7 +112,7 @@ Pour plus d’informations sur la manière d’obtenir les meilleures données p
 
    Toutes les autres visualisations sont mises à jour sur la même période et un filtre de délai est créé.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Filtre des délais](assets/timeframe-filter-350x220.png)
 
 1. (Facultatif) Pour modifier la façon dont les projets sont triés, cliquez sur le menu **Trier par** dans le coin supérieur droit de la visualisation de la feuille de route, puis sélectionnez une nouvelle option de tri :
 
@@ -127,7 +127,7 @@ Pour plus d’informations sur la manière d’obtenir les meilleures données p
 
    Toutes les autres visualisations de la page sont mises à jour pour correspondre à votre sélection de page.
 
-   ![](assets/pagination-350x118.png)
+   ![ Pagination ](assets/pagination-350x118.png)
 
 1. Pointez sur le graphique en barres du projet pour voir la ligne bleue de la date, ainsi que les détails suivants :
 
@@ -135,9 +135,9 @@ Pour plus d’informations sur la manière d’obtenir les meilleures données p
    * Statut actuel
    * Statut personnalisé (le cas échéant)
 
-   ![](assets/project-bar-graph-350x143.png)
+   ![Graphique à barres Projet](assets/project-bar-graph-350x143.png)
 
-1. (Facultatif) Pour exporter les données de la visualisation, cliquez sur l’icône **Exporter** ![](assets/export.png) dans le coin supérieur droit de la visualisation, puis sélectionnez le format d’export :
+1. (Facultatif) Pour exporter les données de visualisation, cliquez sur l’icône **Exporter** ![icône Exporter](assets/export.png) en haut à droite de la visualisation, puis sélectionnez le format d’export :
 
    * **Graphique (PNG)**
    * **Table de données (XLSX)**

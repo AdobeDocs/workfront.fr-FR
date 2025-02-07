@@ -7,9 +7,9 @@ description: Si vous disposez de droits d’édition sur une épreuve, vous pouv
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '528'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ Lorsque vous créez une nouvelle épreuve ou chargez une nouvelle version d’é
 ## Ajouter des personnes chargées de la révision à une épreuve existante
 
 1. Dans le tableau de bord ou dans n’importe quelle vue de liste, cliquez sur le bouton **[!UICONTROL Plus]** dans le menu déroulant à droite de l’épreuve.\
-   ![](assets/more-button-small.png)
+   ![Menu Plus](assets/more-button-small.png)
 
 1. Cliquez sur **[!UICONTROL Partager]** dans le menu déroulant.
 1. Dans la page **[!UICONTROL Partager cette version]** qui s’affiche, ajoutez des personnes chargées de la révision en indiquant leurs adresses e-mail.\

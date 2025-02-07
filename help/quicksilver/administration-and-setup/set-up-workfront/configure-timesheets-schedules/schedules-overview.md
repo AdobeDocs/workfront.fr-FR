@@ -10,10 +10,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 95%
+source-wordcount: '761'
+ht-degree: 94%
 
 ---
 
@@ -83,7 +83,7 @@ L’ordre dans lequel les plannings sont utilisés par le système lorsqu’il e
 * Si la personne affectée à la tâche n’a pas de planning, ou si la tâche est affectée uniquement à une fonction, à une équipe ou n’est pas assignée, alors [!DNL Workfront] utilise le planning du projet désigné comme le planning par défaut pour les calculs des chronologies.
 * Si la personne affectée à la tâche n’a pas de planning, ou si la tâche est affectée uniquement à une fonction, à une équipe ou n’est pas assignée, et que le projet n’a pas de planning, alors [!DNL Workfront] utilise le planning du système désigné comme le planning par défaut pour les calculs des chronologies.
 
-  ![](assets/default-schedule.png)
+  ![Planification par défaut](assets/default-schedule.png)
 
 ## Collaboration dans [!DNL Workfront] avec les fuseaux horaires
 

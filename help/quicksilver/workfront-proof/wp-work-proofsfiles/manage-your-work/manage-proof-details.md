@@ -7,10 +7,10 @@ description: La page Détails de l’épreuve vous permet de gérer une épreuve
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 100%
+source-wordcount: '1189'
+ht-degree: 99%
 
 ---
 
@@ -33,10 +33,10 @@ Pour savoir comment gérer les épreuves de type Workflow automatisé, voir [Gé
 ## Ouvrir la page Détails de l’épreuve à partir du visionneuse de relecture
 
 1. Si la barre d’outils de gauche n’est pas affichée, cliquez sur l’icône **[!UICONTROL Menu]**, située dans le coin supérieur gauche.\
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Menu du lecteur de vérification](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Pointez sur la barre d’outils de gauche, puis cliquez sur **[!UICONTROL Détails de l’épreuve]**.\
-   ![](assets/proof-details-in-proofing-viewer-350x215.png)
+   ![Détails du lecteur de vérification](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >

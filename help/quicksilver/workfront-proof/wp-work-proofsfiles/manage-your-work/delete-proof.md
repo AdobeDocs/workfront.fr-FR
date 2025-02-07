@@ -7,9 +7,9 @@ description: Les personnes disposant de droits de modification sur une épreuve 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Pour plus d’informations sur la corbeille, voir [Restaurer et vider la corbeil
 ## Supprimer une épreuve
 
 1. Dans n’importe quelle vue de liste, cliquez sur le menu **[!UICONTROL Plus]** menu à droite de l’épreuve.\
-   ![](assets/more-button-small.png)
+   ![Menu Plus](assets/more-button-small.png)
 
 1. Cliquez sur **[!UICONTROL Afficher les détails de l’épreuve]** dans le menu déroulant qui s’affiche.
 1. Cliquez sur le bouton **[!UICONTROL Supprimer]** en haut à droite de la page.

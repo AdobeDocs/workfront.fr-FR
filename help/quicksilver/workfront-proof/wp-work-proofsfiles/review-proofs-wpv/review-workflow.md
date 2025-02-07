@@ -7,10 +7,10 @@ description: Le panneau Workflow affiche le workflow de votre épreuve tel qu’
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 100%
+source-wordcount: '273'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Pour accéder au panneau [!UICONTROL Workflow] :
 
    Le panneau **[!UICONTROL Workflow]** s’affiche.
 
-   ![](assets/workflow-panel-350x115.png)
+   ![Panneau Workflow](assets/workflow-panel-350x115.png)
 
    Chaque section du panneau Workflow affiche la progression et le statut de l’épreuve, des étapes et des réviseurs et réviseuses.
 

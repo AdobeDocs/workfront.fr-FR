@@ -8,10 +8,10 @@ description: Le tableau de bord est la première page qui s’affiche lorsque vo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 100%
+source-wordcount: '996'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Le tableau de bord contient les éléments suivants :
 >
 >Les menus et liens que vous pouvez afficher et utiliser dans votre tableau de bord dépendent de votre profil d’utilisateur ou d’utilisatrice et de vos autorisations.
 
-![](assets/dashboard-350x495.png)
+![Tableau de bord](assets/dashboard-350x495.png)
 
 Vous pouvez personnaliser le branding de votre compte pour afficher le logo, les couleurs, les liens personnalisés, etc., de votre propre entreprise. Pour plus d’informations, voir [Personnaliser le branding du site  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
@@ -49,7 +49,7 @@ Si vous ne personnalisez pas le branding de votre compte, le logo [!DNL Workfron
 
 ## Menu d’en-tête
 
-![](assets/header-menu-350x150.png)
+![Menu En-tête](assets/header-menu-350x150.png)
 
 ### Nom d’utilisateur ou d’utilisatrice
 
@@ -97,7 +97,7 @@ Pour ouvrir le nouveau menu,
    * Nouvel utilisateur ou nouvelle utilisatrice (12)
    * Nouveau groupe (13)
 
-![](assets/new-proof-350x256.png)
+![Nouvelle épreuve ](assets/new-proof-350x256.png)
 
 ## Menu « Tableau de bord »
 
@@ -116,7 +116,7 @@ Le menu [!UICONTROL Modifier les balises] (1) permet les actions suivantes :
 * Créer de nouvelles balises
 * Gérer les balises (2)
 
-![](assets/edit-tags-350x204.png)
+![Modifier les balises](assets/edit-tags-350x204.png)
 
 ## Déplacer vers
 
@@ -126,7 +126,7 @@ Cette fonction vous permet de déplacer des épreuves et des fichiers dans l’u
 1. Cliquez sur **[!UICONTROL Déplacer vers]** (3) et choisissez le dossier souhaité (4).
 1. Cliquez sur **[!UICONTROL Enregistrer]** (5).
 
-   ![](assets/move-to-350x297.png)
+   ![Déplacer vers](assets/move-to-350x297.png)
 
 ### Plus d&#39;actions
 
@@ -138,7 +138,7 @@ Dans le menu [!UICONTROL Pus d’actions] (6) vous pouvez effectuer les actions 
 * Désarchiver (épreuve uniquement)
 * Changer de personne propriétaire
 
-![](assets/more-actions-350x303.png)
+![Autres actions](assets/more-actions-350x303.png)
 
 ### Supprimer
 
@@ -146,11 +146,11 @@ Pour supprimer des éléments, procédez comme suit :
 
 1. Sélectionnez la case à cocher située à gauche des éléments et cliquez sur **[!UICONTROL Supprimer]** (7).
 
-![](assets/delete-350x109.png)
+![Icône Supprimer](assets/delete-350x109.png)
 
 1. Dans l’écran de confirmation qui s’affiche, vérifiez les détails et confirmez en cliquant sur **[!UICONTROL Oui]** (8).
 
-![](assets/deleteing-items-350x237.png)
+![Suppression d’éléments](assets/deleteing-items-350x237.png)
 
 ### Barre latérale
 
@@ -168,7 +168,7 @@ La barre latérale contient des liens vers les pages suivantes :
 * Dossiers d’autres organisations (10) (pour trouver des éléments partagés avec vous par d’autres organisations)
 * Balises (11)
 
-![](assets/sidebar-350x426.png)
+![Barre latérale](assets/sidebar-350x426.png)
 
 La barre latérale est décrite plus en détail sur la page d’aide de la barre latérale.
 
@@ -181,7 +181,7 @@ La section [!UICONTROL Bienvenue] comporte les liens utiles suivants :
 * Coordonnées de l’assistance (3)
 * Lien « Ne plus afficher la section Bienvenue » (4)
 
-![](assets/welcome-350x73.png)
+![Bienvenue ](assets/welcome-350x73.png)
 
 ### Vue d’ensemble
 
@@ -197,7 +197,7 @@ La section vue d’ensemble affiche également des informations préfiltrées. C
 * Épreuves à gérer : nombre total d’épreuves actives que vous possédez et que l’on vous a déléguées.
 * Épreuves en attente de décision : nombre total d’épreuves actives nécessitant des décisions de votre part.
 
-  ![](assets/dashboard-overview-350x169.png)
+  ![Présentation du tableau de bord](assets/dashboard-overview-350x169.png)
 
 Ici, vous pouvez voir immédiatement combien d’épreuves nécessitent une action immédiate de votre part ou de la part de vos réviseurs et réviseuses :
 
@@ -237,7 +237,7 @@ Pour accéder à la page Détails de l’épreuve, procédez comme suit :
 1. Cliquez sur le menu **[!UICONTROL Actions]** (1) qui se trouve à droite du nom de l’épreuve.
 1. Sélectionnez **[!UICONTROL Afficher les détails de l’épreuve]** (2) dans le menu.
 
-![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
+![Éléments récents](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
 ### Activité récente
 
@@ -258,4 +258,4 @@ Pour accéder à la page Détails de l’épreuve de cette épreuve, procédez c
 1. Cliquez sur le menu **[!UICONTROL Actions]** (1).
 1. Sélectionnez **[!UICONTROL Afficher les détails de l’épreuve]** (2) dans le menu déroulant.
 
-   ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
+   ![Activité récente](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
