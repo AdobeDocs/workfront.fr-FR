@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '362'
+ht-degree: 97%
 
 ---
 
@@ -22,12 +22,12 @@ Lors de l’utilisation de l’API principale de Workfront, l’explorateur d’
 ## Accédez à l’explorateur d’API :
 
 1. Utiliser un navigateur web pour accéder à l’[Explorateur d’API](https://developer.adobe.com/workfront/api-explorer/)\
-   ![](assets/mceclip1-350x149.png)
+   ![Accéder à l’explorateur d’API](assets/mceclip1-350x149.png)
 
 1. Dans l’angle supérieur droit de l’explorateur d’API, sélectionnez la **version de l’API** de votre choix. Par défaut, la version la plus récente est automatiquement sélectionnée.
 1. Le champ **Filtrer** peut être utilisé pour filtrer les objets répertoriés par nom et raccourcir la liste des objets affichés en conséquence :
 
-   ![](assets/mceclip2-350x147.png)
+   ![champs de l’explorateur d’API](assets/mceclip2-350x147.png)
 
    * **Champs** : champs disponibles dans l’objet spécifié.
    * **Références** : variables de référence disponibles pour l’objet spécifié. Une référence est un alias pour une variable. Une fois initialisée, une référence peut être utilisée de manière interchangeable avec le nom de la variable. Une référence utilise la mémoire initialisée.
@@ -36,7 +36,7 @@ Lors de l’utilisation de l’API principale de Workfront, l’explorateur d’
    * **Actions** : actions prises en charge pour l’objet. Les actions peuvent être des procédures simples ou complexes qui s’exécutent sur une ressource ou un ensemble de ressources. Une action donnée peut également affecter les ressources associées.
 
 1. Ouvrez un onglet, puis cliquez sur « ID d’objet » pour afficher les variables applicables.\
-   ![](assets/approval-350x89.png)\
+   ![Afficher les variables](assets/approval-350x89.png)\
    Selon l’objet sélectionné, les variables suivantes peuvent s’appliquer :
 
    | Variable | Définition |

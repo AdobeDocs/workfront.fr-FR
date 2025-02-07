@@ -2,16 +2,16 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: '« Activité Version de Workfront Proof : semaine du 17 mai 2021 »'
+title: 'Activité Version de Workfront Proof : semaine du 17 mai 2021'
 description: Cette page décrit les modifications apportées à Workfront Proof (application de relecture autonome). Les modifications décrites ici ne s’appliquent pas à la fonctionnalité de relecture de l’application Adobe Workfront.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 8b148684-28bf-40e8-8014-d6458c8d14e1
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 98%
 
 ---
 
@@ -33,4 +33,4 @@ Pour vous aider à gérer les menus déroulants volumineux répertoriant tous le
 
 Auparavant, toutes les listes déroulantes de recherche de profil répertoriaient l’ensemble des utilisateurs et utilisatrices du système, ce qui générait un menu volumineux.
 
-![](assets/user-profile-typeahead-350x142.png)
+![Saisie semi-automatique du profil utilisateur](assets/user-profile-typeahead-350x142.png)

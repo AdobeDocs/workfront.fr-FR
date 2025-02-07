@@ -6,10 +6,10 @@ description: Vous pouvez consigner le temps consacré aux projets, tâches et pr
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 97%
 
 ---
 
@@ -68,16 +68,16 @@ Pour consigner le temps à l’aide du plug-in Workfront :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Dans la **[!UICONTROL liste de travail]**, sélectionnez l’élément de travail pour lequel vous souhaitez consigner le temps.
 1. Vous pouvez aussi cliquer sur **[!UICONTROL Temps]** dans la barre de navigation.
 
-   ![](assets/log-time-350x337.png)
+   ![Consigner les heures](assets/log-time-350x337.png)
 
 1. (Facultatif) Choisissez le **[!UICONTROL type d’heure]** dans le menu déroulant.
 1. Saisissez le temps en heures pour le jour souhaité.
 
-   ![](assets/copy-of-log-hours-350x236.png)
+   ![Consigner les heures](assets/copy-of-log-hours-350x236.png)
 
 1. Cliquez sur **[!UICONTROL Soumettre]**.

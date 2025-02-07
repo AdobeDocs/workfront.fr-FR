@@ -6,10 +6,10 @@ description: Vous pouvez rester dans les applications Adobe Creative Cloud et 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,7 @@ Pour connaître la formule, le type de licence ou l’accès dont vous disposez,
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Dans la **[!UICONTROL liste de travail]**, sélectionnez la tâche ou le problème que vous souhaitez marquer comme terminé.
 1. Cliquez sur **[!UICONTROL Terminé]**.  Si vous êtes la seule personne affectée à cette tâche ou à ce problème, cela marque l’élément comme [!UICONTROL Terminé] ou [!UICONTROL Résolu] dans [!DNL Workfront].
@@ -75,6 +75,6 @@ Pour connaître la formule, le type de licence ou l’accès dont vous disposez,
    >[!NOTE]
    >
    >Si l’élément de travail a des tâches antérieures, le bouton Terminé est gris jusqu’à ce que ces tâches antérieures soient marquées comme terminées. Pour afficher les tâches antérieures dans [!DNL Workfront], cliquez sur le nom de la tâche.
-   >![](assets/navigate-to-workfront.png)
+   >![Accéder à Workfront](assets/navigate-to-workfront.png)
 
-<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
+<!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '770'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Certains objets d’Adobe Workfront permettent d’enregistrer du texte avec un
 
 Un champ personnalisé avec formatage en texte enrichi est appelé **Field with rich text** et peut être associé aux valeurs suivantes :
 
-![](assets/rich-text-example-350x158.png)
+![ Exemple de texte enrichi ](assets/rich-text-example-350x158.png)
 
 **Exemple :** requête GET de base pour récupérer la valeur du champ de formulaire personnalisé **Field with rich text** :
 
@@ -48,7 +48,7 @@ Un bloc est un objet JSON qui représente une seule ligne de texte formaté. Ét
 
 **Exemple :** ici, chaque ligne de texte d’un champ personnalisé correspond à un élément du tableau blocks.
 
-![](assets/copy-of-rich-text-mapping-350x159.png)
+![Mappage de texte enrichi](assets/copy-of-rich-text-mapping-350x159.png)
 
 Étant donné que chaque élément de bloc est également un objet JSON, chaque bloc est composé des éléments suivants : **key**, **text**, **type**, **depth**, **inlineStyleRanges**, **entityRanges**, et **data**. Chacun de ces éléments fonctionne comme suit :
 
@@ -61,7 +61,7 @@ Un bloc est un objet JSON qui représente une seule ligne de texte formaté. Ét
 
 **Exemple :** voici un tableau inlineStyleRanges qui décrit chaque style au niveau du caractère. Dans ce cas : 9 caractères (longueur : 9) à partir de l’index 0 (décalage : 0) ont le style **Gras** appliqué :
 
-![](assets/copy-of-rich-text-mapping-2-350x136.png)
+![Mappage de texte enrichi](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 Dans le cas où plusieurs types de formatage ont été appliqués à une seule ligne, les styles seront associés à des éléments supplémentaires dans le tableau **inlineStyleRanges**.
 

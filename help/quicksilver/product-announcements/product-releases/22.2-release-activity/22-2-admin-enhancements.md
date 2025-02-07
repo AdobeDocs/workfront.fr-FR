@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 97%
+source-wordcount: '934'
+ht-degree: 95%
 
 ---
 
@@ -36,8 +36,8 @@ Cette fonctionnalité fonctionne avec tous les formulaires personnalisés créé
 >[!NOTE]
 >
 >* Au moment de la version de prévisualisation initiale de cette fonctionnalité, nous avons temporairement désactivé la possibilité de copier un formulaire personnalisé à plusieurs objets. Cette capacité a été activée le 24 mars.
->* Dans un champ personnalisé calculé, certains champs que vous référencez peuvent ne pas être compatibles avec les types d’objets configurés pour le formulaire. Notre solution est un joker qui permettra au calcul de produire différentes valeurs, selon l’objet auquel le formulaire est attaché. Nous avons ajouté le joker le 24 mars.
->* Pour les sauts de section dans les formulaires personnalisés, nous avons créé un jeu d’autorisations d’affichage et de modification communes qui fonctionnent pour tous les types d’objets que vous pouvez configurer pour un formulaire. Dans un scénario, nous avons constaté que l’une de ces autorisations, Modification limitée, pouvait provoquer des erreurs dans un formulaire. Ce problème a été corrigé le 24 mars.
+>* Dans un champ personnalisé calculé, certains champs que vous référencez peuvent ne pas être compatibles avec les types d’objets configurés pour le formulaire. Notre solution est un joker qui permettra au calcul de produire différentes valeurs, selon l’objet auquel le formulaire est attaché. Nous avons ajouté le caractère joker le 24 mars.
+>* Pour les sauts de section dans les formulaires personnalisés, nous avons créé un jeu d’autorisations d’affichage et de modification communes qui fonctionnent pour tous les types d’objets que vous pouvez configurer pour un formulaire. Dans un scénario, nous avons constaté que l’une de ces autorisations, Modification limitée, pouvait provoquer des erreurs dans un formulaire. Ce problème a été résolu le 24 mars.
 >
 
 ## Le catalogue de plans directeurs est accessible à tous les utilisateurs et utilisatrices, et les administrateurs et administratrices peuvent autoriser les demandes
@@ -61,7 +61,7 @@ Auparavant, les formulaires personnalisés étaient entièrement basés sur du t
 
 ## Nouvelles configurations du niveau d’accès par défaut
 
-Pour mieux répondre aux besoins de la plupart des administrateurs et administratrices qui créent des niveaux d’accès, nous avons modifié la configuration par défaut des options « Ajuster vos paramètres » énumérées ci-dessous. Elles s’affichent lorsque vous cliquez sur l’icône d’engrenage ![](assets/gear-icon-in-access-levels.png) sur un bouton Modifier.
+Pour mieux répondre aux besoins de la plupart des administrateurs et administratrices qui créent des niveaux d’accès, nous avons modifié la configuration par défaut des options « Ajuster vos paramètres » énumérées ci-dessous. Celles-ci s&#39;affichent lorsque vous cliquez sur l&#39;icône d&#39;engrenage ![icône d&#39;engrenage Niveaux d&#39;accès](assets/gear-icon-in-access-levels.png) sur un bouton Modifier.
 
 Toutes ces modifications désactivent une option qui était auparavant activée par défaut. Si cela ne correspond pas aux besoins de votre organisation, vous pouvez les activer lors de la configuration d’un nouveau niveau d’accès, ou à tout moment par la suite.
 
@@ -100,7 +100,7 @@ Lorsque vous installez un plan directeur, un message affiche désormais les obje
 
 Pour plus d’informations, voir [Installer un plan directeur](../../../administration-and-setup/blueprints/blueprints-install.md).
 
-![](assets/blueprints-installation-history-350x95.png)
+![Historique d’installation des plans directeurs](assets/blueprints-installation-history-350x95.png)
 
 ## Un avertissement s’affiche désormais lors de l’installation en production d’un plan directeur de type Prévisualisation.
 

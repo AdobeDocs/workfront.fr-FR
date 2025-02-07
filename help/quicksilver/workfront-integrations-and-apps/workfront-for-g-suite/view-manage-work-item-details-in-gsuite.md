@@ -2,15 +2,15 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,document,feuille,diapositive
 navigation-topic: workfront-for-g-suite
-title: Affichage et gestion des détails d’objet  [!DNL Adobe Workfront] à partir de Google Workspace
-description: Vous pouvez afficher et gérer les détails d’un élément de travail sans quitter Google Workspace. Par exemple, vous pouvez lire la description d’une tâche, afficher son objet parent, modifier son état et le marquer comme terminé, le tout dans  [!DNL Adobe Workfront] pour Google Workspace.
+title: Affichage et gestion  [!DNL Adobe Workfront]  détails des objets à partir de Google Workspace
+description: Vous pouvez afficher et gérer les détails d’une tâche sans quitter Google Workspace. Par exemple, vous pouvez lire la description d’une tâche, afficher son objet parent, modifier son statut et le marquer comme terminé, le tout dans  [!DNL Adobe Workfront]  pour Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 78%
+source-wordcount: '448'
+ht-degree: 77%
 
 ---
 
@@ -52,8 +52,8 @@ Avant de pouvoir afficher et gérer les détails d’un élément de travail dan
 
 ## Afficher et gérer les détails d’un élément de travail dans [!DNL Google Workspace]
 
-1. Si le panneau [!UICONTROL  Workfront for Google Workspace] n’est pas affiché, cliquez sur l’icône [!DNL Workfront] ![](assets/wf-lion-icon.png) dans la barre latérale des modules complémentaires [!DNL Google Workspace] située à l’extrémité droite de la page.
-1. Accédez à la tâche [!DNL Workfront] ou au problème dans [!DNL Google Workspace], comme décrit dans la section [Accès [!DNL Adobe Workfront] [!UICONTROL Accueil] de  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
+1. Si le panneau [!UICONTROL Workfront for Google Workspace] n’est pas affiché, cliquez sur l’icône [!DNL Workfront] ![Workfront](assets/wf-lion-icon.png) dans la barre latérale [!DNL Google Workspace] modules complémentaires située à l’extrême droite de la page.
+1. Accédez à la tâche ou à l’événement [!DNL Workfront] dans [!DNL Google Workspace], comme décrit dans [Accès [!DNL Adobe Workfront] [!UICONTROL Accueil] contenu depuis [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 
    Lorsque vous sélectionnez une tâche ou un problème, l’onglet **[!UICONTROL Détails]** s’ouvre. La zone au-dessus de l’onglet **[!UICONTROL Détails]** affiche le nom de l’objet parent, le nom de la tâche ou du problème, et la [!UICONTROL date d’échéance] (s’il s’agit d’une tâche) ou la [!UICONTROL date de priorité] (s’il s’agit d’un problème).
 
@@ -81,5 +81,5 @@ Avant de pouvoir afficher et gérer les détails d’un élément de travail dan
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Afficher dans[!DNL Workfront]]** pour accéder à l’élément de travail actif dans [!DNL Workfront].
 
-* Pour plus d&#39;informations sur l&#39;utilisation de l&#39;onglet [!UICONTROL Mises à jour] dans [!DNL Workfront for Google Workspace], voir [Mise à jour d&#39;un objet  [!DNL Adobe Workfront]  à partir de [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
+* Pour plus d’informations sur l’utilisation de l’onglet [!UICONTROL Mises à jour] dans [!DNL Workfront for Google Workspace], voir [Mettre à jour un [!DNL Adobe Workfront] objet depuis [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
 * Pour plus d’informations sur l’utilisation de l’onglet [!UICONTROL Documents] dans [!DNL Workfront for Google Workspace], voir [Afficher et gérer des documents à partir de [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md).

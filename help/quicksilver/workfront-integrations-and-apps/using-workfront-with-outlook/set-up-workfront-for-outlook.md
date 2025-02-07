@@ -6,10 +6,10 @@ description: Le module complémentaire  [!DNL Adobe Workfront] [!DNL Outlook] vo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 91%
+source-wordcount: '686'
+ht-degree: 87%
 
 ---
 
@@ -78,8 +78,8 @@ Le module complémentaire [!DNL Workfront] pour [!DNL Outlook] est pris en charg
 
 Workfront prend en charge les versions suivantes d’[!DNL Outlook] :
 
-* [!DNL Outlook 2013] ou version ultérieure le [!DNL Windows]
-* [!DNL Outlook 2016] ou version ultérieure le [!DNL Windows]
+* [!DNL Outlook 2013] ou version ultérieure sur [!DNL Windows]
+* [!DNL Outlook 2016] ou version ultérieure sur [!DNL Windows]
 * [!DNL Outlook] sur [!DNL Mac] ([!DNL Microsoft 365])
 * [!DNL Outlook] sur [!DNL Windows] ([!DNL Microsoft 365])
 * [!DNL Outlook] sur le web
@@ -90,7 +90,7 @@ Lors de la configuration du client, vous devez sélectionner l’un des types de
 
 * [!DNL Exchange]
 * [!DNL Office 365]
-* [!DNL Outlook.com] Si le client est configuré pour se connecter avec POP3 ou IMAP, le module complémentaire [!DNL Workfront] ne se charge pas.
+* [!DNL Outlook.com] Si le client est configuré pour se connecter avec POP3 ou IMAP, le complément [!DNL Workfront] ne se charge pas.
 
 ### Exigences relatives au serveur de messagerie {#mail-server-requirements}
 
@@ -112,7 +112,7 @@ Vous pouvez obtenir le module complémentaire Workfront pour Outlook dans le [Mi
 
 ### [!DNL Workfront] pour [!DNL Outlook 365] {#workfront-for-outlook-365}
 
-1. Dans [!DNL Outlook 365], cliquez sur l’icône **[!UICONTROL Parcourir les modules complémentaires]** ![](assets/outlook-add-in-26x26.png) en haut de l’interface Office 365, puis cliquez sur **[!UICONTROL Gérer les modules complémentaires]**.
+1. Dans [!DNL Outlook 365], cliquez sur l&#39;icône **[!UICONTROL Parcourir les compléments]** ![Parcourir les compléments](assets/outlook-add-in-26x26.png)en haut de l&#39;interface Office 365, puis cliquez sur **[!UICONTROL Gérer les compléments]**.
 
 1. Dans la boîte de dialogue **[!UICONTROL Rechercher des modules complémentaires]**, recherchez **[!DNL Workfront]** puis appuyez sur [!UICONTROL Entrée].
 
@@ -121,7 +121,7 @@ Vous pouvez obtenir le module complémentaire Workfront pour Outlook dans le [Mi
 ### [!DNL Workfront] pour [!DNL Outlook] sur le web {#workfront-for-outlook-on-the-web}
 
 1. Ouvrez [!DNL Microsoft Outlook] dans un navigateur web.
-1. Cliquez sur l’icône **[!UICONTROL Parcourir] les modules complémentaires** ![](assets/outlook-add-in-web-version-20x20.png).
+1. Cliquez sur l’icône **[!UICONTROL Parcourir] modules complémentaires** ![Parcourir les modules complémentaires](assets/outlook-add-in-web-version-20x20.png).
 
    Pour localiser l’icône, voir [Utiliser des modules complémentaires dans  [!DNL Outlook]  sur le web](https://support.microsoft.com/fr-fr/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) dans la documentation Microsoft.
 
@@ -140,7 +140,7 @@ Vous pouvez obtenir le module complémentaire Workfront pour Outlook dans le [Mi
 ## Connectez-vous à [!DNL Workfront] à partir d’[!DNL Outlook].
 
 1. Dans [!DNL Outlook], sélectionnez un e-mail, puis cliquez sur l’icône **[!DNL Workfront]** dans l’en-tête de l’e-mail.
-1. Sur la page de connexion, cliquez sur **Se connecter à Workfront**.
+1. Sur la page de connexion, cliquez sur **Connexion à Workfront**.
 1. Suivez les invites pour vous connecter à [!DNL Workfront] à l’aide d’OAuth 2.0. <!--Enhanced Authentication or your Security Assertion Markup Language (SAML) URL.-->
 
    <!--Before users can log in to the [!DNL Workfront] add-in using SAML, a [!DNL Workfront] administrator must first enable [!DNL Office 365] add-ins to authenticate using a SAML 2.0 solution. For more information, see the section [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) in the article [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).-->

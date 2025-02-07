@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: fc85b4c2-4a76-4226-9120-11635b03aa4e
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1891'
-ht-degree: 100%
+source-wordcount: '1893'
+ht-degree: 99%
 
 ---
 
@@ -59,7 +59,7 @@ La page de détails de chaque plan directeur affiche désormais une image du mod
 
 Pour plus d’informations, consultez [Vue d’ensemble des plans directeurs](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-![](assets/blueprint-detailspage.png)
+![Détails du plan directeur](assets/blueprint-detailspage.png)
 
 ## Préférences des plans directeurs pour les nouveaux problèmes
 

@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 95%
+source-wordcount: '726'
+ht-degree: 94%
 
 ---
 
@@ -44,7 +44,7 @@ Vos utilisateurs et utilisatrices doivent se connecter pour autoriser cette int�
   ```
 
 
-* `client_id` : ID client généré lors de la création de l’application OAuth2 dans Workfront.
+* `client_id` : il s’agit de l’identifiant client généré lors de la création de l’application OAuth2 dans Workfront.
 
 * `redirect_uri` : cette URL doit être identique à l’URL de redirection que vous avez saisie dans Workfront lors de la création de l’application OAuth2. Vos utilisateurs et utilisatrices seront dirigés vers cette page après avoir autorisé l’application pour leur compte.
 
@@ -85,7 +85,7 @@ L’application tierce peut avoir besoin d’être configurée. Le tableau suiva
 
 ## Configurer un flux de code d’autorisation
 
-![](assets/oauth-2-authorization-code-flow.png)
+![ Flux de code OAuth ](assets/oauth-2-authorization-code-flow.png)
 
 Pour connecter vos utilisateurs et utilisatrices avec OAuth2, suivez le processus suivant :
 
@@ -93,7 +93,7 @@ Pour connecter vos utilisateurs et utilisatrices avec OAuth2, suivez le processu
 
    Si la personne est déjà connectée sur Workfront sur ce même navigateur, ou si la personne se connecte avec succès à Workfront, elle est redirigée vers l’écran de consentement :
 
-   ![](assets/consent-screen-350x227.png)
+   ![Écran de consentement](assets/consent-screen-350x227.png)
 
 1. Si l’utilisateur ou l’utilisatrice autorise l’accès, la page est redirigée vers l’`redirect_url`. La redirection doit inclure les paramètres de requête suivants :
 
@@ -172,7 +172,7 @@ Pour connecter vos utilisateurs et utilisatrices avec OAuth2, suivez le processu
 
 ## Configurer l’actualisation du jeton d&#39;accès
 
-![](assets/refresh-access-token-flow-350x142.png)
+![Actualiser le flux du jeton d’accès](assets/refresh-access-token-flow-350x142.png)
 
 Pour actualiser le jeton d’accès, nous devons à nouveau effectuer un appel « POST » vers le point d’entrée du jeton. Cette fois-ci, nous envoyons des données de formulaire différentes comme suit :
 

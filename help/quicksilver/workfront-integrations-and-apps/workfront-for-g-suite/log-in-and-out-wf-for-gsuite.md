@@ -2,15 +2,15 @@
 product-area: workfront-integrations;user-management
 keywords: google,doc,document,feuille,diapositive
 navigation-topic: workfront-for-g-suite
-title: Connexion et déconnexion de [!DNL Adobe Workfront] pour Google Workspace
-description: Cet article décrit comment se connecter ou se déconnecter de l’intégration  [!DNL Adobe Workfront for] Google Workspace.
+title: Connexion et déconnexion  [!DNL Adobe Workfront]  Google Workspace
+description: Cet article décrit comment se connecter ou se déconnecter de l'intégration  [!DNL Adobe Workfront for] Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 81%
+source-wordcount: '251'
+ht-degree: 75%
 
 ---
 
@@ -50,7 +50,7 @@ Avant de pouvoir vous connecter ou vous déconnecter de [!DNL Workfront for Goog
 
 ## Se connecter à [!DNL Adobe Workfront for Google Workspace]
 
-1. Cliquez sur l’icône [!DNL Workfront] ![](assets/wf-lion-icon.png) dans la barre latérale des modules complémentaires [!DNL Google Workspace] à l’extrémité droite de [!DNL Gmail], [!DNL Google Calendar] ou [!DNL Google Drive].
+1. Cliquez sur l’icône [!DNL Workfront] ![Workfront](assets/wf-lion-icon.png) dans la barre latérale des modules complémentaires [!DNL Google Workspace] à l’extrême droite de [!DNL Gmail], [!DNL Google Calendar] ou [!DNL Google Drive].
 
    Si vous venez d’installer le module complémentaire [!DNL Workfront for Google Workspace] et que vous ne voyez pas cette icône, essayez d’actualiser la page du navigateur.
 
@@ -66,7 +66,7 @@ Avant de pouvoir vous connecter ou vous déconnecter de [!DNL Workfront for Goog
 
 ## Se déconnecter de [!DNL Workfront for Google Workspace]
 
-1. Si le panneau [!UICONTROL  Workfront for Google Workspace] n’est pas affiché, cliquez sur l’icône [!DNL Workfront] ![](assets/wf-lion-icon.png) dans la barre latérale des modules complémentaires [!DNL Google Workspace] située à l’extrémité droite de la page.
+1. Si le panneau [!UICONTROL Workfront for Google Workspace] n’est pas affiché, cliquez sur l’icône [!DNL Workfront] ![Workfront](assets/wf-lion-icon.png) dans la barre latérale [!DNL Google Workspace] modules complémentaires située à l’extrême droite de la page.
 1. Cliquez sur l’icône **[!UICONTROL Autres actions]** en haut du panneau [!DNL Workfront for Google Workspace].
 
 1. Cliquez sur **[!UICONTROL Déconnexion]** dans le menu qui apparaît.

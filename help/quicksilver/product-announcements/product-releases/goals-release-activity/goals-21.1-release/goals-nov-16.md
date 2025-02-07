@@ -2,15 +2,15 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: '« Activité de la version des Objectifs Adobe Workfront 21.1 : semaine du 16 novembre 2020 »'
+title: 'Activité Version des Objectifs Adobe Workfront 21.1 : semaine du 16 novembre 2020'
 description: Cette page décrit toutes les améliorations apportées à la version 21.1 des Objectifs Adobe Workfront dans l’environnement de prévisualisation au cours de la semaine du 30 novembre 2020. Ces améliorations seront disponibles dans l’environnement de prévisualisation au cours du premier trimestre de la version 21.1.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 9596ff23-6dd7-4608-9655-410482d56663
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 99%
 
 ---
 
@@ -38,4 +38,4 @@ Pour éviter toute confusion liée à l’affichage d’un onglet vide, nous avo
 
 Pour en savoir plus sur les informations affichées dans Objectifs Workfront, voir [Filtrer les informations dans Objectifs Adobe Workfront](../../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-![](assets/goals-page-with-no-my-teams-tab-350x114.png)
+![Page Objectifs](assets/goals-page-with-no-my-teams-tab-350x114.png)

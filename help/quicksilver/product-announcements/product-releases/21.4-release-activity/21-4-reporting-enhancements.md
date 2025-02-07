@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: db33cee1-45d3-4641-9afa-790de92654c5
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Afin qu’il corresponde mieux à l’aspect moderne des autres zones de la nouv
 
 Pour plus d’informations sur les affectations dans les listes, voir [Affecter des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md) ou [Affecter des problèmes](../../../manage-work/issues/manage-issues/assign-issues.md).
 
-![](assets/assignments-updates-350x193.png)
+![ Mises à jour des affectations ](assets/assignments-updates-350x193.png)
 
 ## Nouvel aspect des champs de saisie semi-automatique dans les listes et rapports mis à jour
 
@@ -60,4 +60,4 @@ Afin qu’il corresponde mieux à l’aspect moderne des autres zones de la nouv
 
 Pour plus d’informations sur les listes mises à jour, voir la section [Différence entre les listes mises à jour et les listes héritées](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) dans l’article [Prise en main des listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-![](assets/typeahead-updates-350x336.png)
+![Champ de saisie semi-automatique](assets/typeahead-updates-350x336.png)

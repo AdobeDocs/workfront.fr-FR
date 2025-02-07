@@ -6,10 +6,10 @@ description: Vous pouvez télécharger vos plans de travail en tant que document
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 95%
 
 ---
 
@@ -65,10 +65,10 @@ Pour obtenir des instructions, voir [Installer [!DNL Adobe Workfront for XD]](/h
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/menu-350x440.png)
+   ![Icône de menu](assets/menu-350x440.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger un document.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** près du bas du plug-in.
 1. Sélectionnez le plan de travail que vous souhaitez charger.
@@ -113,10 +113,10 @@ Pour obtenir des instructions, voir [Installer [!DNL Adobe Workfront for XD]](/h
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/menu-350x440.png)
+   ![Icône de menu](assets/menu-350x440.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger un document.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png)dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur le document auquel vous souhaitez ajouter une nouvelle version.
 1. Cliquez sur **[!UICONTROL Nouvelle version]** près du bas du plug-in.

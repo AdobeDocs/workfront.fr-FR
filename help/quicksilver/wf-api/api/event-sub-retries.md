@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 63%
@@ -24,22 +24,22 @@ Certaines intégrations peuvent accepter un échec de diffusion, puis abandonner
 
 Dans la mesure où les clientes et clients tirent parti de la plateforme Workfront comme une composante essentielle de leur travail intellectuel quotidien, la structure d’abonnement à un événement Workfront fournit un mécanisme permettant d’assurer la diffusion de chaque message dans la mesure du possible.
 
-Les messages sortants déclenchés par un événement et qui ne parviennent pas à être diffusés aux points d’entrée clients sont renvoyés jusqu’à ce que la diffusion soit réussie pendant une période maximale de 48 heures. Pendant ce temps, les reprises se produisent à une fréquence incrémentielle accrue jusqu’à ce que la diffusion soit réussie ou jusqu’à ce que 11 tentatives aient été effectuées.
+Les messages sortants déclenchés par un événement et qui ne parviennent pas à être diffusés aux points d’entrée clients sont renvoyés jusqu’à ce que la diffusion soit réussie pendant une période maximale de 48 heures. Pendant ce temps, les reprises se produisent à une fréquence progressivement accrue jusqu’à ce que la diffusion soit réussie ou jusqu’à ce que 11 tentatives aient été effectuées.
 
-La formule pour ces tentatives de reprise est la suivante :
+La formule pour ces nouvelles tentatives est la suivante :
 
 `((2^attempt) - 1) * 84800ms`
 
-La première reprise se produit après 1,5 minute, la seconde presque 5 minutes et la 11e est d’environ 48 heures.
+La première reprise a lieu après 1,5 min, la seconde à près de 5 min et la 11e à environ 48 heures.
 
 Les clientes et clients doivent s’assurer que tous les points d’entrée qui consomment des messages sortants provenant des abonnements à Workfront Event sont configurés pour renvoyer un message de réponse de 200 niveaux à Workfront en cas de diffusion réussie.
 
-## Règles d’abonnement désactivées et figées
+## Règles d&#39;abonnement désactivées et gelées
 
-* Une URL d&#39;abonnement est **désactivée** si son taux d&#39;échec est supérieur à 70 % avec plus de 100 tentatives OU si elle présente 2 000 échecs consécutifs
-* Une URL d’abonnement est **figée** si elle présente plus de 2 000 échecs consécutifs et que le dernier succès a été plus de 72 heures auparavant OU si elle a 50 000 échecs consécutifs dans n’importe quelle période.
-* Une URL d’abonnement **disabled** continuera à tenter une diffusion toutes les 10 minutes et sera réactivée avec une diffusion réussie.
-* Une URL d’abonnement **figée** ne tente jamais une diffusion, sauf si elle est activée manuellement en effectuant une requête API.
+* Une URL d’abonnement est **désactivée** si son taux d’échec est supérieur à 70 % avec plus de 100 tentatives OU si elle présente 2 000 échecs consécutifs
+* Une URL d’abonnement est **figée** si elle a plus de 2 000 échecs consécutifs et que le dernier succès remonte à plus de 72 heures OU si elle a 50 000 échecs consécutifs dans n’importe quelle période.
+* Une URL d’abonnement **désactivée** continuera à tenter d’être diffusée toutes les 10 minutes et sera réactivée avec une diffusion réussie.
+* Une URL d’abonnement **figée** ne tentera jamais d’être diffusée à moins qu’elle ne soit activée manuellement en effectuant une requête API.
 
 
 
@@ -50,7 +50,7 @@ Les clientes et clients doivent s’assurer que tous les points d’entrée qui 
 
 The following flowchart shows the strategy for reattempting message deliveries with Workfront Event Subscriptions:
 
-![](assets/event-subscription-circuit-breaker-retries-350x234.png)
+![Event sub retries](assets/event-subscription-circuit-breaker-retries-350x234.png)
 
 The following explanations correspond with the steps depicted in the flowchart:
 

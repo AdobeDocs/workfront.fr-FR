@@ -6,10 +6,10 @@ description: Vous pouvez ajouter un commentaire Slack en tant que mise à jour d
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 100%
+source-wordcount: '277'
+ht-degree: 98%
 
 ---
 
@@ -64,4 +64,4 @@ Avant de publier un commentaire [!DNL Slack] en tant que mise à jour, vous deve
 
    Lorsqu’un commentaire provient de [!DNL Slack], il affiche le message « [!UICONTROL Publié à partir de [!DNL Slack]] » dans [!DNL Workfront].
 
-   ![](assets/slack-update-posted-from-slack-350x112.png)
+   ![Mise à jour publiée à partir de Slack](assets/slack-update-posted-from-slack-350x112.png)

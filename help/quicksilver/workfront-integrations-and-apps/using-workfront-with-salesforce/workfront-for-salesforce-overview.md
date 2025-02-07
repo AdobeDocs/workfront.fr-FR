@@ -7,10 +7,10 @@ description: Vous pouvez installer  [!DNL Adobe Workfront]  pour Salesforce afin
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 94%
 
 ---
 
@@ -78,7 +78,7 @@ Tenez compte des points suivants lorsque vous utilisez [!DNL Workfront] pour [!D
    * En-tête d’un projet ou d’un problème.
 
      Votre équipe d’administration système ou de groupes doit ajouter le champ [!UICONTROL Intégrations] à votre modèle de mise en page pour afficher le lien [!UICONTROL Aller à Salesforce] dans l’en-tête du projet ou du problème.
-   * Panneau [!DNL Summary] d’un problème lors de la sélection du problème dans une liste, après que vous avez cliqué sur [!UICONTROL Ouvrir le résumé] ![](assets/summary-panel-icon.png) dans la barre d’outils de la liste.
+   * Panneau [!DNL Summary] d’un événement lors de la sélection de l’événement dans une liste, après avoir cliqué sur l’icône [!UICONTROL Ouvrir le résumé] ![Icône du panneau Résumé](assets/summary-panel-icon.png) dans la barre d’outils de la liste.
 
      >[!NOTE]
      >

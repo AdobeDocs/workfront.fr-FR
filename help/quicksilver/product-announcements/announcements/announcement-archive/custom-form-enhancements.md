@@ -4,10 +4,10 @@ description: Les améliorations significatives suivantes ont été apportées à
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 98%
+source-wordcount: '1117'
+ht-degree: 96%
 
 ---
 
@@ -19,17 +19,17 @@ Les améliorations significatives suivantes ont été apportées à la gestion d
 
 Vous pouvez incorporer une image dans vos formulaires personnalisés. Vous pouvez ainsi communiquer avec les utilisateurs et utilisatrices de formulaires personnalisés de manière plus interactive et visuelle. D’autres types de widgets seront bientôt disponibles.
 
-![](assets/image-in-custom-form.png)
+![Image dans un formulaire personnalisé](assets/image-in-custom-form.png)
 
 Lorsqu’un formulaire personnalisé contenant un widget est associé à un objet, les utilisateurs et utilisatrices qui travaillent avec l’objet peuvent le voir dans les zones suivantes :
 
 * La zone Détails de l’objet (par exemple, pour un projet, la zone Détails du projet)
 
-  ![](assets/see-image-details-page.png)
+  ![Détails de l’image](assets/see-image-details-page.png)
 
 * La boîte Modifier de l’objet, si l’aspect de l’expérience Adobe Workfront est nouvelle (par exemple, les boîtes Modifier le projet et Modifier la tâche)
 
-  ![](assets/image-see-in-edit.png)
+  ![Modification d’image](assets/image-see-in-edit.png)
 
 Actuellement, les utilisateurs et utilisatrices ne peuvent pas voir le widget dans les zones suivantes :
 
@@ -42,11 +42,11 @@ Actuellement, les utilisateurs et utilisatrices ne peuvent pas voir le widget da
 
 Vous pouvez associer plusieurs types d’objet à n’importe quel nouveau formulaire personnalisé :
 
-![](assets/new-custom-form-object-types.png)
+![Types d’objets de formulaire personnalisés](assets/new-custom-form-object-types.png)
 
 Ou tout formulaire personnalisé existant :
 
-![](assets/add-object-type-existing-form.png)
+![Ajouter un type d’objet au formulaire](assets/add-object-type-existing-form.png)
 
 Vous pouvez ainsi créer un formulaire personnalisé unique à utiliser sur les projets, les tâches, les problèmes et tout autre type d’objet pris en charge pour les formulaires personnalisés.
 
@@ -76,11 +76,11 @@ Tenez compte des points suivants lorsque vous créez ou modifiez un formulaire p
 
 L’ensemble des options d’autorisation de saut de section disponibles pour les types d’objets Problème, Tâche, Projet et Utilisation comporte une option d’autorisation en plus de l’ensemble des options d’autorisation pour tous les autres types d’objets : Modification limitée.
 
-![](assets/section-break-permissions-limited-edit.png)
+![Saut de section avec modification limitée](assets/section-break-permissions-limited-edit.png)
 
 L’ensemble des autorisations de saut de section disponibles pour tous les autres types d’objets (Portfolio, Document, Programme, Dépenses, Entreprise, Itération, Enregistrement de facturation et Groupe) n’inclut pas l’option Modification limitée :
 
-![](assets/section-break-permissions-no-limited-edit.png)
+![Saut de section sans modification limitée](assets/section-break-permissions-no-limited-edit.png)
 
 Dans un formulaire personnalisé associé aux types d’objets de ces deux groupes, le système utilise un ensemble commun d’autorisations de saut de section qui fonctionne pour tous les types d’objets. En particulier, au lieu d’utiliser l’option d’autorisation Modification limitée, cet ensemble commun remplace l’option d’autorisation Modifier par l’option d’autorisation Modification limitée. L’option Modifier est compatible avec tous les types d’objets.
 
@@ -92,7 +92,7 @@ Dans un formulaire personnalisé à plusieurs objets, si un champ calculé fait 
 
 Par exemple, si vous disposez d’un formulaire à plusieurs objets pour les projets et les problèmes et que vous ajoutez un champ calculé contenant l’expression {name}, le champ affiche le nom du projet lorsque vous ajoutez le formulaire à un projet et le nom de la tâche lorsque vous ajoutez le formulaire à une tâche.
 
-Les champs non compatibles avec l’objet s’affichent sous la forme N/A.
+Les champs non compatibles avec l’objet s’affichent sans objet sur le formulaire.
 
 >[!INFO]
 >

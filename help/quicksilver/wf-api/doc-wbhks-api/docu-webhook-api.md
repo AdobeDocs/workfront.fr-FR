@@ -8,10 +8,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '3620'
-ht-degree: 100%
+source-wordcount: '3627'
+ht-degree: 99%
 
 ---
 
@@ -851,10 +851,10 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 (Date de publication - à déterminer) Ce point d’entrée permettra à un utilisateur ou une utilisatrice de Workfront (ou peut-être à un événement de workflow automatisé) d’effectuer une action dans le système externe. Le point d’entrée /customAction accepte un paramètre « nom », qui permet au fournisseur du webhook de mettre en œuvre plusieurs opérations personnalisées.
 
 Le fournisseur du webhook enregistre les actions personnalisées avec Workfront en incluant les actions dans la réponse /serviceInfo dans customActions. Workfront charge cette liste lors de la configuration ou de l’actualisation du fournisseur du webhook dans Configuration > Documents > Intégrations personnalisées.\
-![](assets/mceclip0-350x262.png)
+![Exécuter une action personnalisée](assets/mceclip0-350x262.png)
 
 Les utilisateurs et utilisatrices peuvent déclencher l’action personnalisée en sélectionnant la section dans « Actions sur le document ».\
-![](assets/mceclip1-350x95.png)
+![ Déclencher des actions personnalisées ](assets/mceclip1-350x95.png)
 
 **URL**
 
@@ -945,7 +945,7 @@ Teste l’URL d’authentification et l’URL du point d’entrée du jeton pour
 
 1. Dans Workfront, accédez à la page principale des documents en cliquant sur le lien Documents dans la barre de navigation supérieure.
 1. Cliquez sur le menu déroulant « Ajouter des documents » et sélectionnez votre service Document Webhook sous « Ajouter un service ».
-1. (Services OAuth uniquement) Après avoir effectué l’étape précédente, la page d’authentification OAuth2 de votre service s’affiche dans une fenêtre contextuelle. (Note : il est possible que vous deviez d’abord vous connecter à votre service.) À partir de la page d’authentification, accordez à Workfront l’accès au compte d’utilisateur ou d’utilisatrice en cliquant sur le bouton « Faire confiance » ou « Autoriser ».
+1. (Services OAuth uniquement) Après avoir effectué l’étape précédente, la page d’authentification OAuth2 de votre service s’affiche dans une fenêtre contextuelle. (Remarque : il se peut que vous soyez invité à vous connecter d&#39;abord à votre service.) Sur la page d’authentification, accordez à Workfront l’accès au compte de l’utilisateur en cliquant sur le bouton Approbation ou Autoriser .
 1. Vérifiez que votre service a été ajouté à la liste déroulante « Ajouter des documents ». Si en premier lieu vous ne le voyez pas, essayez d’actualiser votre navigateur.
 
 ### Test 2 : lier un document dans Workfront teste les points d’entrée suivants : /files, /metadata.

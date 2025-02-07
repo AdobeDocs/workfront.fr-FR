@@ -6,10 +6,10 @@ description: Vous pouvez mettre à jour votre travail à l’aide du plug-in Ado
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '224'
+ht-degree: 97%
 
 ---
 
@@ -86,11 +86,11 @@ Pour publier une mise à jour :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Dans la **[!UICONTROL Liste de travail]**, sélectionnez l’élément de travail sur lequel vous devez publier une mise à jour.
 1. Cliquez sur **[!UICONTROL Mettre à jour]** dans la barre de navigation.\
-   ![](assets/photoshop-update-350x295.png)
+   ![Mise à jour Photoshop](assets/photoshop-update-350x295.png)
 
 1. Cliquez sur **[!UICONTROL Nouvelle mise à jour]**.
 1. Saisissez votre mise à jour.

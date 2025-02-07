@@ -6,10 +6,10 @@ description: Vous pouvez charger vos panoramas d’art en tant que documents pou
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '331'
+ht-degree: 94%
 
 ---
 
@@ -64,17 +64,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger un document.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** près du bas du plug-in.
 1. (Facultatif) Saisir un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 1. Choisissez le **[!UICONTROL Type de ressource]** dans le menu déroulant.
 1. Ouvrez la boîte de dialogue **[!UICONTROL Définir les paramètres d’export de fichier]**, puis configurez les options d’export souhaitées en fonction du type de ressource sélectionné ci-dessus.
 
-   ![](assets/file-export-settings.png)
+   ![Paramètres d’exportation de fichiers](assets/file-export-settings.png)
 1. Cliquez sur **[!UICONTROL Charger]**.
 Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’application de bureau.
 

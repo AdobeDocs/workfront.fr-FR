@@ -2,15 +2,15 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,document,feuille,diapositive
 navigation-topic: workfront-for-g-suite
-title: Création d’une tâche  [!DNL Adobe Workfront] dans Google Workspace à l’aide du contenu d’email
+title: Création d [!DNL Adobe Workfront] une tâche dans Google Workspace à l’aide du contenu d’un e-mail
 description: Vous pouvez convertir un e-mail externe (non généré par Adobe) [!DNL Workfront]) en une tâche Workfront.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 90%
+source-wordcount: '922'
+ht-degree: 86%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 90%
 
 Vous pouvez convertir un e-mail externe (non généré par [!DNL Adobe Workfront]) en tâche [!DNL Workfront].
 
-Vous pouvez également convertir un e-mail externe en une mise à jour sur une tâche existante. Pour plus d&#39;informations, voir [Mise à jour d&#39;un  [!DNL Adobe Workfront] élément à partir de [!DNL Google Workspace] à l&#39;aide du contenu d&#39;email](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md).
+Vous pouvez également convertir un e-mail externe en une mise à jour sur une tâche existante. Pour plus d’informations, voir [ [!DNL Adobe Workfront]  Mettre à jour un élément à partir de [!DNL Google Workspace] utiliser le contenu de l’e-mail](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md).
 
-Pour plus d&#39;informations sur l&#39;utilisation de [!DNL Google Workspace] pour utiliser les e-mails de notification envoyés par [!DNL Workfront], voir [Gérer [!DNL Adobe Workfront] les détails des notifications de [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).
+Pour plus d’informations sur l’utilisation de [!DNL Google Workspace] pour travailler avec les e-mails de notification envoyés par [!DNL Workfront], voir [Gérer [!DNL Adobe Workfront] les détails des notifications depuis [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).
 
 ## Conditions d’accès
 
@@ -56,7 +56,7 @@ Avant de pouvoir créer une tâche [!DNL Workfront] dans [!DNL Google Workspace]
 
 ## Créer une tâche [!DNL Adobe Workfront] dans [!DNL Google Workspace] à l’aide du contenu d’un e-mails
 
-1. Si le panneau [!UICONTROL  Workfront for Google Workspace] n’est pas affiché, cliquez sur l’icône [!DNL Workfront] ![](assets/wf-lion-icon.png) dans la barre latérale des modules complémentaires [!DNL Google Workspace] située à l’extrémité droite de la page.
+1. Si le panneau [!UICONTROL Workfront for Google Workspace] n’est pas affiché, cliquez sur l’icône [!DNL Workfront] ![Workfront](assets/wf-lion-icon.png) dans la barre latérale [!DNL Google Workspace] modules complémentaires située à l’extrême droite de la page.
 1. Avec l’e-mail ouvert dans [!DNL Google Workspace], cliquez sur une option dans [!DNL Workfront for Google Workspace] pour convertir l’e-mail en une nouvelle tâche [!DNL Workfront].
 
 1. Sélectionnez une option **[!UICONTROL Créer]** pour indiquer si la tâche va faire partie d’un projet ou d’une tâche personnelle indépendante d’un projet.
@@ -89,7 +89,7 @@ Avant de pouvoir créer une tâche [!DNL Workfront] dans [!DNL Google Workspace]
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Include email attachments]</td> 
-      <td> <p>(Disponible uniquement si l’e-mail contient au moins une pièce jointe.) Cliquez sur cette option pour enregistrer les pièces jointes à l’e-mail dans la zone [!UICONTROL Documents] de la tâche. </p> <p>Si vous ne souhaitez pas enregistrer une pièce jointe, cliquez sur le X situé à droite de son nom. </p> <p>Si l’e-mail contient des liens vers des documents dans [!DNL Google Drive], ils sont enregistrés dans l’onglet [!UICONTROL Overview] de la tâche que vous créez. </p> <p>Important : pour que cela fonctionne, votre administrateur ou administratrice [!DNL Workfront] doit autoriser [!DNL Google Drive] à utiliser des documents dans [!DNL Workfront], comme décrit dans la section <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">Configurer les intégrations pour gérer des documents</a> dans l’article <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configurer des intégrations de documents</a>.</p> <p>Si vous activez cette option, elle reste activée pour les autres e-mails que vous convertissez en tâches, problèmes et mises à jour.</p> </td> 
+      <td> <p>(Disponible uniquement si l’e-mail contient au moins une pièce jointe.) Cliquez sur cette option pour enregistrer les pièces jointes de l'e-mail dans la zone [!UICONTROL Documents] de la tâche. </p> <p>Si vous ne souhaitez pas enregistrer une pièce jointe, cliquez sur le X situé à droite de son nom. </p> <p>Si l’e-mail contient des liens vers des documents dans [!DNL Google Drive], ils sont enregistrés dans l’onglet [!UICONTROL Overview] de la tâche que vous créez. </p> <p>Important : pour que cela fonctionne, votre administrateur ou administratrice [!DNL Workfront] doit autoriser [!DNL Google Drive] à utiliser des documents dans [!DNL Workfront], comme décrit dans la section <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">Configurer les intégrations pour gérer des documents</a> dans l’article <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configurer des intégrations de documents</a>.</p> <p>Si vous activez cette option, elle reste activée pour les autres e-mails que vous convertissez en tâches, problèmes et mises à jour.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Include email file]</td> 
@@ -108,7 +108,7 @@ Avant de pouvoir créer une tâche [!DNL Workfront] dans [!DNL Google Workspace]
 
    Vous pouvez cliquer sur le lien pour accéder à la vue Détails, au sein du panneau [!DNL Workfront for Google Workspace] pour la tâche que vous avez créée.
 
-   Vous pouvez répéter ces étapes pour convertir le même e-mail en plusieurs tâches. Lorsque vous actualisez votre navigateur ou revenez à l’e-mail à un autre moment, tous les liens que vous avez créés pour l’e-mail sont répertoriés au bas du panneau [!UICONTROL Workfront for Google Workspace].
+   Vous pouvez répéter ces étapes pour convertir le même e-mail en plusieurs tâches. Lorsque vous actualisez votre navigateur ou revenez à l’e-mail à un autre moment, tous les liens que vous avez créés pour l’e-mail sont répertoriés au bas du panneau [!UICONTROL Workfront pour Google Workspace].
 
 1. (Facultatif) Continuez à travailler sur la tâche dans le panneau [!DNL Workfront for Google Workspace] en effectuant l’une des opérations suivantes :
 

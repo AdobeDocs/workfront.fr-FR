@@ -6,10 +6,10 @@ description: Vous pouvez afficher des informations sur les projets, les tâches,
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '605'
+ht-degree: 82%
 
 ---
 
@@ -66,7 +66,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur le bouton **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Sélectionnez l’élément de travail à afficher.
 
@@ -74,7 +74,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Utilisez l’icône **[!UICONTROL Menu]** pour accéder aux objets parent de l’élément de travail.
 
-1. Cliquez sur l’icône **[!UICONTROL Détails]** ![](assets/details.png) dans la barre de navigation pour afficher les éléments suivants :
+1. Cliquez sur l’icône **[!UICONTROL Détails]** ![Détails](assets/details.png) dans la barre de navigation pour afficher les éléments suivants :
 
    * [!UICONTROL Description]
    * [!UICONTROL Date d’achèvement prévue]
@@ -87,7 +87,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Sélectionnez l’élément de travail à afficher.
 
@@ -95,7 +95,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Utilisez l’icône **[!UICONTROL Menu]** pour accéder aux objets parent de l’élément de travail.
 
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation, puis double-cliquez sur un document à afficher :
+1. Cliquez sur l&#39;icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation, puis double-cliquez sur un document pour l&#39;afficher :
 
    * [!UICONTROL Description]
    * [!UICONTROL Type de fichier]
@@ -108,7 +108,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Sélectionnez l’élément de travail à afficher.
 
@@ -116,7 +116,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Utilisez l’icône **[!UICONTROL Menu]** pour accéder aux objets parent de l’élément de travail.
 
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation, puis double-cliquez sur une épreuve.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation, puis double-cliquez sur une épreuve.
 
 1. Cliquez sur l’icône de flèche dans le coin supérieur droit de la miniature pour ouvrir les détails de l’épreuve dans [!DNL Workfront].
 
@@ -126,7 +126,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Sélectionnez l’élément de travail à afficher.
 
@@ -134,17 +134,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Utilisez l’icône **[!UICONTROL Menu]** pour accéder aux objets parent de l’élément de travail.
 
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation, puis double-cliquez sur l’épreuve.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation, puis double-cliquez sur une épreuve.
 
 1. Faites défiler jusqu’au bas de l’écran pour afficher le statut actuel de l’épreuve. Pour plus d’informations sur les détails Envoyé, Ouvert, Commentaire, Décision (SOCD), consultez [Vue d’ensemble des détails du document](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
-![](assets/proof-status.png)
+![Statut du BAT](assets/proof-status.png)
 
 ## Afficher les sous-tâches et les problèmes
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Sélectionnez l’élément de travail à afficher.
 
@@ -152,9 +152,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Utilisez l’icône **[!UICONTROL Menu]** pour accéder aux objets parent de l’élément de travail.
 
-1. Cliquez sur l’icône **[!UICONTROL Problème]** ![](assets/issues.png) ou sur l’icône **Sous-tâche** ![](assets/subtasks.png).
+1. Cliquez sur l’icône **[!UICONTROL Problème]** ![Icône Problèmes](assets/issues.png) ou **Sous-tâche** icône ![Sous-tâche](assets/subtasks.png).
 
-1. Sélectionnez la tâche ou le problème, puis cliquez sur l’icône **[!UICONTROL Détails]** ![](assets/details.png) dans la barre de navigation pour afficher les éléments suivants :
+1. Sélectionnez la tâche ou l’événement, puis cliquez sur l’icône **[!UICONTROL Détails]** ![Détails](assets/details.png) dans la barre de navigation pour afficher :
 
    * [!UICONTROL Date d’achèvement prévue]
    * [!UICONTROL Statut]

@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 95%
+source-wordcount: '551'
+ht-degree: 94%
 
 ---
 
@@ -44,7 +44,7 @@ Afin qu’il corresponde mieux à l’aspect moderne des autres zones de la nouv
 
 Pour plus d’informations sur les affectations dans les listes, voir [Affecter des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md) ou [Affecter des problèmes](../../../manage-work/issues/manage-issues/assign-issues.md).
 
-![](assets/assignments-updates-350x193.png)
+![ Mises à jour des affectations ](assets/assignments-updates-350x193.png)
 
 ## Nouvel aspect des champs de saisie semi-automatique dans les listes et rapports mis à jour
 
@@ -62,9 +62,9 @@ Afin qu’il corresponde mieux à l’aspect moderne des autres zones de la nouv
 * Lorsque vous cliquez sur un champ de saisie semi-automatique, le menu de suggestions s’affiche désormais avant que vous ne saisissiez le texte.
 * Le menu des suggestions est plus réactif à la longueur des valeurs et celles-ci sont désormais tronquées à la fin, lorsque la limite de caractères est atteinte, au lieu d’être tronquées au milieu de la valeur.
 
-Pour plus d’informations sur les listes mises à jour, voir [Différence entre les listes mises à jour et héritées](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) dans l’article [Commencer avec les listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Pour plus d’informations sur les listes mises à jour, voir la section [Différence entre les listes mises à jour et les listes héritées](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) dans l’article [Prise en main des listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-![](assets/typeahead-updates-350x336.png)
+![Champ de saisie semi-automatique](assets/typeahead-updates-350x336.png)
 
 ## Créer des rapports sur les mises à jour système
 

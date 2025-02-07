@@ -6,10 +6,10 @@ description: Avec la version 20.3 (prévue pour août 2020), Adobe Workfront p
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: 9bc394c718becbac2848c2d91ba3202483699b6f
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Avec la version 20.3 (prévue pour août 2020), Adobe Workfront passe à un no
 
 Pour accéder à cette fonction, connectez-vous en tant qu’administrateur ou administratrice système et accédez à Configuration > E-mail > Configuration. Voici une capture d’écran mettant en évidence cette fonctionnalité :
 
-![](assets/email-server-settings-350x226.png)
+![Paramètres du serveur de messagerie](assets/email-server-settings-350x226.png)
 
 Le paramètre mis en évidence dans cette capture d’écran est automatiquement migré pour utiliser l’option du serveur de messagerie Workfront avec la version 20.3.
 

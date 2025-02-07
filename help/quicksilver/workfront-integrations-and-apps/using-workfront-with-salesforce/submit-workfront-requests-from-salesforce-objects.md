@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
-title: Soumettre des demandes  [!DNL Adobe Workfront]  à partir d’objets  [!DNL Salesforce]
+title: 'Soumettre des demandes  [!DNL Adobe Workfront]  à partir d’objets  [!DNL Salesforce] '
 description: Après avoir installé  [!DNL Adobe Workfront]  pour les demandes  [!DNL Salesforce], you can submit [!DNL Workfront]  à partir d’opportunités et de comptes  [!DNL Salesforce] . Cette fonctionnalité est disponible dans les frameworks d’expérience Classic et Lightning.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 95%
 
 ---
 
@@ -107,7 +107,7 @@ Pour envoyer une demande [!DNL Workfront] à partir d’une opportunité ou d’
 1. (Facultatif) Cliquez sur **[!UICONTROL Accéder à[!DNL Salesforce]]** pour accéder à l’opportunité ou au compte d’où provient le problème dans les zones suivantes de Workfront :
 
    * Dans la section [!UICONTROL Détails] du problème
-   * Dans le panneau Résumé, lors de la sélection du problème dans une liste, après avoir cliqué sur [!UICONTROL Ouvrir le résumé] ![](assets/summary-panel-icon.png) dans la barre d’outils de la liste.
+   * Dans le panneau Résumé, lorsque vous sélectionnez l’événement dans une liste, après avoir cliqué sur [!UICONTROL Ouvrir le résumé] ![Icône du panneau Résumé](assets/summary-panel-icon.png) dans la barre d’outils de la liste.
    * Dans l’en-tête du problème, lorsque le champ [!UICONTROL Intégrations] est disponible. Votre administrateur ou administratrice système ou groupe doit ajouter le champ [!UICONTROL Intégrations] à votre modèle de mise en page pour afficher le lien Accéder à Salesforce dans l’en-tête du problème. Pour plus d’informations, consultez [Personnaliser les en-têtes d’objet à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
    >[!NOTE]

@@ -6,10 +6,10 @@ description: Vous pouvez charger vos plans de travail en tant qu’épreuves dir
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 100%
+source-wordcount: '1055'
+ht-degree: 94%
 
 ---
 
@@ -64,10 +64,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur le bouton **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/menu-350x440.png)
+   ![Icône de menu](assets/menu-350x440.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger une épreuve statique.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** au bas du plug-in.
 1. Sélectionnez les plans de travail que vous souhaitez charger.
@@ -108,7 +108,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. (Facultatif) Apportez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Validations de BAT en XD](assets/proof-approvals-xd-350x396.png)
 
 1. Choisissez le format d’export dans le menu déroulant **[!UICONTROL Type de ressource]**.
 
@@ -117,9 +117,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. (Facultatif) Nommez le PDF.
 
-   ![](assets/pdf-options.png)
+   ![options du PDF ](assets/pdf-options.png)
 
-1. Cliquez sur **[!UICONTROL Charger]**.\
+1. Cliquez sur **[!UICONTROL Charger]**.\
    Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’application de bureau.
 
 ## Charger une épreuve interactive {#upload-an-interactive-proof}
@@ -149,10 +149,10 @@ Vous pouvez créer une épreuve interactive pour vos tableaux de bord à l’aid
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/menu-350x440.png)
+   ![Icône de menu](assets/menu-350x440.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger une épreuve interactive.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** près du bas du plug-in.
 1. Activez **[!UICONTROL Créer une épreuve]**.
@@ -182,14 +182,14 @@ Vous pouvez créer une épreuve interactive pour vos tableaux de bord à l’aid
 
 {{adjust-proof-settings}}
 
-1. (Facultatif) Saisissez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
+1. (Facultatif) Apportez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Validations de BAT en XD](assets/proof-approvals-xd-350x396.png)
 
 1. Dans le menu déroulant **[!UICONTROL Type de ressource]**, sélectionnez le lien que vous venez de créer sous l’onglet **Liens partagés**. Pour plus d’informations, voir [Créer un lien interactif pour votre plan de travail](#create-an-interactive-link-for-your-artboard).\
-   ![](assets/shared-links-xd-350x870.png)
+   ![Liens partagés dans XD](assets/shared-links-xd-350x870.png)
 
-1. Cliquez sur **[!UICONTROL Charger]**.
+1. Cliquez sur **[!UICONTROL Charger]**.
 
    Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’application de bureau.
 
@@ -203,10 +203,10 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
 
 1. Cliquez sur l’cône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/menu-350x440.png)
+   ![Icône de menu](assets/menu-350x440.png)
 
 1. Accédez à l’élément de travail dans lequel vous devez charger un document.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouvelle version]** près du bas du plug-in.
 1. Activez **[!UICONTROL Créer une épreuve]**.
@@ -243,17 +243,17 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
 
 1. Choisissez le format d’export dans le menu déroulant **[!UICONTROL Type de ressource]**.
 
-   ![](assets/create-a-proof-xd-350x202.png)
+   ![Création d’une épreuve dans XD](assets/create-a-proof-xd-350x202.png)
 
 1. (Facultatif) Saisissez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Validations de BAT en XD](assets/proof-approvals-xd-350x396.png)
 
-1. (Facultatif) Si vous sélectionnez PDF comme type de ressource et que plusieurs plans de travail sont sélectionnés, choisissez si vous souhaitez exporter vos plans de travail en tant que **[!UICONTROL Fichiers PDF uniques]** ou **[!UICONTROL Plusieurs fichiers PDF]**.
+1. (Facultatif) Si vous sélectionnez le type de ressource PDF et que plusieurs plans de travail sont sélectionnés, choisissez si vous souhaitez exporter vos plans de travail en tant que **[!UICONTROL Fichiers PDF uniques]** ou en tant que **[!UICONTROL Plusieurs fichiers PDF]**.
 
 1. (Facultatif) Nommez le PDF.
 
-   ![](assets/pdf-options.png)
+   Options du PDF
 
-1. Cliquez sur **[!UICONTROL Charger]**.\
+1. Cliquez sur **[!UICONTROL Charger]**.\
    Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’appli de bureau.

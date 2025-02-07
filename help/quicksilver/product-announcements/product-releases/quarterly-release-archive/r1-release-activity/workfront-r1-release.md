@@ -2,15 +2,15 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: Version R1 de Workfront
-description: GARANTISSEZ L’ENGAGEMENT ET L’EFFICACITÉ DU PERSONNEL Workfront publie de nouvelles fonctionnalités trois fois par an (version 1, version 2 et version 3) pour toutes les lignes de produits. Dans la première version de l’année 2017 (R1), plusieurs améliorations apportées aux fonctionnalités de base de Workfront, ProofHQ et Workfront DAM permettent aux professionnels du savoir d’être plus productifs, plus engagés, et de passer moins de temps à gérer le travail et plus de temps à l’effectuer.
+description: GARDEZ TOUT LE MONDE ENGAGÉ ET EFFICACE Workfront publie trois fois par an de nouvelles fonctionnalités sur toutes les gammes de produits (versions 1, 2 et 3). Dans la première version de l’année 2017 (R1,), plusieurs améliorations des fonctionnalités principales de Workfront, de ProofHQ et de la gestion des ressources numériques de Workfront permettent aux travailleurs du savoir d’être plus productifs, plus engagés et de passer moins de temps à gérer le travail et plus de temps à accomplir des tâches.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 100%
+source-wordcount: '670'
+ht-degree: 78%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## GARANTISSEZ L’ENGAGEMENT ET L’EFFICACITÉ DU PERSONNEL
 
-Workfront publie de nouvelles fonctionnalités pour toutes les lignes de produits trois fois par an (version 1, version 2 et version 3). Dans la première version de l’année 2017 (R1), plusieurs améliorations apportées aux fonctionnalités de base de Workfront, ProofHQ et Workfront DAM permettent aux professionnels du savoir d’être plus productifs, plus engagés, et de passer moins de temps à gérer le travail et plus de temps à l’effectuer.
+Workfront publie trois fois par an de nouvelles fonctionnalités pour toutes les lignes de produits (versions 1, 2 et 3). Dans la première version de l’année 2017 (R1,), plusieurs améliorations des fonctionnalités principales de Workfront, de ProofHQ et de la gestion des ressources numériques de Workfront permettent aux travailleurs du savoir d’être plus productifs, plus engagés et de passer moins de temps à gérer le travail et plus de temps à accomplir des tâches.
 
 ## QUELLES SONT LES NOUVEAUTÉS DE LA DERNIÈRE VERSION ?
 
@@ -34,13 +34,13 @@ L’intégration directe dans Outlook 365 vous permet d’éliminer les doublon
 
 Pour plus d’informations, voir : [Fonctionnalités disponibles dans l’environnement de prévisualisation en 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
-![](assets/mceclip0-350x218.png)\
+![Gérer le travail depuis l’e-mail](assets/mceclip0-350x218.png)\
 **Suivi et budget des projets**
 Gérez vos ressources et leur utilisation, en assurant le suivi et le budget des projets à l’aide du nouveau rapport d’utilisation. Affichez les heures prévues par rapport aux heures effectives par projet et rôle, et comparez régulièrement les ressources et services.
 
 Pour plus d’informations, voir : [Prévisualisation 3 de la version R 1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md).
 
-![](assets/mceclip1-350x169.png)\
+![Maintenir les projets sur la bonne voie](assets/mceclip1-350x169.png)\
 **Terminologie et personnalisation des notifications**
 Adaptez Workfront à votre équipe en utilisant la fonction de terminologie personnalisée pour modifier des termes tels que « portfolio » ou « projet » afin qu’ils s’adaptent au jargon de votre choix, quel que soit le secteur. En outre, tous les utilisateurs et toutes les utilisatrices peuvent désormais personnaliser les types de notifications qu’ils reçoivent en régulant la fréquence des résumés.
 
@@ -51,7 +51,7 @@ Les nouvelles icônes de statut de progression vous permettent d’exploiter dav
 
 Pour plus d’informations, voir : [Prévisualisation 5 de la version R 1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
 
-![](assets/mceclip3-350x122.png)
+![vue Jalon](assets/mceclip3-350x122.png)
 
 **Corbeille Workfront**
 La nouvelle corbeille Workfront permet de restaurer des projets, des tâches, des problèmes et tous les documents, formulaires et mises à jour associés dans les 30 jours suivant la suppression.
@@ -60,13 +60,13 @@ Pour plus d’informations, voir : [Prévisualisations 1 et 2 de la version R�
 
 ### AMÉLIORATIONS DE PROOFHQ {#proofhq-enhancements}
 
-![](assets/mceclip4-350x201.png)\
+![Améliorations de ProofHQ](assets/mceclip4-350x201.png)\
 **Recherche d’épreuves**
 La nouvelle fonctionnalité de recherche de ProofHQ vous permet de rechercher rapidement et facilement toutes les instances d’un mot ou d’une expression directement dans les épreuves lorsque vous effectuez la relecture. Cela s’applique à tous les documents texte, y compris les fichiers PDF et Microsoft Word.
 
 Pour plus d’informations, voir : [Version R 1 finale](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
-![](assets/mceclip5-350x226.png)\
+![Recherche et recherche d&#39;épreuve](assets/mceclip5-350x226.png)\
 **Création de rapports visuels et vues personnalisées améliorées**
 Les nouvelles mesures de rapports dans ProofHQ vous permettent de suivre le temps d’exécution, les pourcentages de retard, le nombre de commentaires et la durée jusqu’à la première activité. De nouvelles vues personnalisées créent une logique de filtre avancée afin d’obtenir les données exactes, au moment où vous en avez besoin.
 
@@ -77,7 +77,7 @@ ProofHQ vous permet désormais de tester de nouvelles fonctionnalités dans un e
 
 ## AMÉLIORATIONS DE WORKFRONT DAM {#workfront-dam-enhancements}
 
-![](assets/mceclip6-350x195.png)\
+![Améliorations de la gestion des ressources numériques de Workfront](assets/mceclip6-350x195.png)\
 **Liens incorporés dans DAM**
 Pour les équipes marketing qui ont besoin d’un meilleur moyen de gérer, publier et suivre l’utilisation des ressources numériques sur des plateformes externes, la fonctionnalité de liens incorporés offre le contrôle dont vous avez besoin pour gérer le processus de partage du contenu approprié au bon moment.
 

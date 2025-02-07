@@ -2,15 +2,15 @@
 product-area: workfront-integrations
 keywords: google,doc,document,feuille,diapositive
 navigation-topic: workfront-for-g-suite
-title: Répondre à une notification de mise à jour de  [!DNL Adobe Workfront]  à partir de Google Workspace
-description: Lorsque vous recevez une notification sur une mise à jour dans  [!DNL Adobe] [!DNL Workfront], vous pouvez rapidement publier une réponse de Workfront pour Google Workspace.
+title: Répondre à une notification  [!DNL Adobe Workfront]  mise à jour de Google Workspace
+description: Lorsque vous recevez une notification concernant une mise à jour dans  [!DNL Adobe] [!DNL Workfront], vous pouvez rapidement publier une réponse de Workfront pour Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 67%
+source-wordcount: '212'
+ht-degree: 66%
 
 ---
 
@@ -52,9 +52,9 @@ Avant de pouvoir créer une tâche [!DNL Workfront] dans [!DNL Google Workspace]
 
 ## Répondre à une notification de mise à jour à partir de [!DNL Google Workspace]
 
-1. Si le panneau [!UICONTROL  Workfront for Google Workspace] n’est pas affiché, cliquez sur l’icône [!DNL Workfront] ![](assets/wf-lion-icon.png) dans la barre latérale des modules complémentaires [!DNL Google Workspace] située à l’extrémité droite de la page.
+1. Si le panneau [!UICONTROL Workfront for Google Workspace] n’est pas affiché, cliquez sur l’icône [!DNL Workfront] ![Workfront](assets/wf-lion-icon.png) dans la barre latérale [!DNL Google Workspace] modules complémentaires située à l’extrême droite de la page.
 1. Ouvrez la notification par e-mail [!DNL Workfront] contenant la mise à jour.
-1. Près du bas du panneau [!UICONTROL Workfront for Google Workspace], cliquez sur **[!UICONTROL Publier un commentaire]**, puis entrez votre réponse.
+1. Près du bas du panneau [!UICONTROL Workfront for Google Workspace], cliquez sur **[!UICONTROL Publier un commentaire]**, puis tapez votre réponse.
 1. (Facultatif) Pour informer des personnes spécifiques de votre réponse, cliquez sur **[!DNL Notify people and teams]**, commencez à saisir un nom, puis cliquez sur le nom qui apparaît dans la liste déroulante.
 
    Vous pouvez répéter cette étape pour tous les autres noms à ajouter.

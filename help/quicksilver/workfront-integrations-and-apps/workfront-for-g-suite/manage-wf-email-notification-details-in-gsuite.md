@@ -2,15 +2,15 @@
 product-area: workfront-integrations
 keywords: google,doc,document,feuille,diapositive
 navigation-topic: workfront-for-g-suite
-title: Gérer les  [!DNL Adobe Workfront] détails de notification depuis Google Workspace
-description: Dans Google Workspace, lorsque vous ouvrez un Adobe de notification envoyé par courrier électronique,  [!DNL Workfront] vous pouvez afficher les détails de l’élément de travail associé et répondre sans quitter votre boîte de réception. Si des actions sont disponibles, telles que l’approbation d’une requête, vous pouvez effectuer ces actions directement à partir de Workfront pour Google Workspace.
+title: Gestion  [!DNL Adobe Workfront]  détails des notifications depuis Google Workspace
+description: Dans Google Workspace Adobe, lorsque vous ouvrez un e-mail de notification que  [!DNL Workfront]  avez envoyé, vous pouvez afficher les détails de l’élément de travail associé et répondre sans quitter votre boîte de réception. Si des actions sont disponibles, telles que l’approbation d’une demande, vous pouvez les effectuer directement depuis Workfront for Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 89%
+source-wordcount: '477'
+ht-degree: 84%
 
 ---
 
@@ -56,7 +56,7 @@ Avant de pouvoir gérer les détails des notifications à partir de [!DNL Google
 
 ## Gérer les détails des notifications [!DNL Adobe Workfront] à partir de [!DNL Google Workspace]
 
-1. Si le panneau [!DNL Workfront for Google Workspace] n’est pas affiché, cliquez sur l’icône [!DNL Workfront] ![](assets/wf-lion-icon.png) dans la barre latérale des modules complémentaires [!DNL Google Workspace] tout à droite de la page.
+1. Si le panneau [!DNL Workfront for Google Workspace] n’est pas affiché, cliquez sur l’icône [!DNL Workfront] ![Workfront](assets/wf-lion-icon.png) dans la barre latérale [!DNL Google Workspace] modules complémentaires située à l’extrémité droite de la page.
 1. Dans [!DNL Google Workspace], ouvrez un e-mail de notification [!DNL Workfront].
 1. Cliquez sur **[!UICONTROL Afficher toutes les mises à jour]** si cette option est affichée en haut du panneau.
 1. Cliquez sur **[!UICONTROL Détails]**.

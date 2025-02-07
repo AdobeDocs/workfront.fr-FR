@@ -6,10 +6,10 @@ description: Vous pouvez charger vos panoramas d’art en tant que documents pou
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 100%
+source-wordcount: '695'
+ht-degree: 92%
 
 ---
 
@@ -64,10 +64,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger une épreuve.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** en bas du plug-in.
 1. Activez le bouton (bascule) **[!UICONTROL Créer une épreuve]**.
 1. (Facultatif) Saisissez un nom pour l’épreuve dans la zone de texte **[!UICONTROL Nom de l’épreuve]**.
@@ -75,14 +75,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. (Facultatif) Ajoutez des approbateurs et approbatrices.
 1. (Facultatif) Saisissez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
-   ![](assets/add-comment.png)
+   ![Ajouter un commentaire](assets/add-comment.png)
 
 1. Choisissez le **[!UICONTROL type de ressource]** dans le menu déroulant.
 
 1. (Facultatif) Sélectionnez **[!UICONTROL Ajouter un fichier externe]** pour ajouter un fichier à partir de votre ordinateur.
 1. Cliquez sur **[!UICONTROL Charger]**, puis configurez les options d’export souhaitées en fonction du type de fichier sélectionné ci-dessus.
 
-   ![](assets/plugin-files-350x307.png)\
+   ![Fichiers dans le plug-in](assets/plugin-files-350x307.png)\
    Le document apparaît dans la zone [!UICONTROL Documents] du plug-in et de l’application de bureau.
 
 
@@ -90,10 +90,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger une épreuve.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** en bas du plug-in.
 1. Activez le bouton (bascule) **[!UICONTROL Créer une épreuve]**.
@@ -110,7 +110,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. (Facultatif) Saisissez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
-   ![](assets/add-comment-automated-approval.png)
+   ![Ajouter un commentaire pour l’approbation automatisée](assets/add-comment-automated-approval.png)
 
 1. Choisissez le **[!UICONTROL type de ressource]** dans le menu déroulant.
 1. (Facultatif) Sélectionnez **[!UICONTROL Ajouter un fichier externe]** pour ajouter un fichier à partir de votre ordinateur.
@@ -123,10 +123,10 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
 
 1. Cliquez sur l’cône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Accédez à l’élément de travail dans lequel vous devez charger un document.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouvelle version]** en bas du plug-in.
 1. Activez l’option **[!UICONTROL Créer une épreuve]**.

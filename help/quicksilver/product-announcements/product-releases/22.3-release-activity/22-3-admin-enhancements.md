@@ -6,10 +6,10 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 100%
+source-wordcount: '770'
+ht-degree: 95%
 
 ---
 
@@ -96,7 +96,7 @@ Pour plus d’informations, consultez la section [Configurer des préférences d
 
 ## Désactiver un groupe à partir de la page Groupes
 
-Récemment, nous avons ajouté la possibilité de désactiver et de réactiver les groupes. Pour rendre cette action plus rapide et plus facile, nous l’avons ajoutée à la page des groupes. Désormais, après avoir cliqué sur le nom d’un groupe pour accéder à sa page, vous pouvez sélectionner le menu Plus ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) en regard du nom du groupe, puis sélectionner Désactiver ou Réactiver.
+Récemment, nous avons ajouté la possibilité de désactiver et de réactiver les groupes. Pour rendre cette action plus rapide et plus facile, nous l’avons ajoutée à la page des groupes. Désormais, après avoir cliqué sur le nom d’un groupe pour accéder à sa page, vous pouvez sélectionner le menu Plus ![icône du menu principal](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) en regard du nom du groupe, puis sélectionner Désactiver ou Réactiver.
 
 Auparavant, vous ne pouviez désactiver ou réactiver un groupe qu’à l’aide de la case à cocher Est actif sur sa page Détails.
 

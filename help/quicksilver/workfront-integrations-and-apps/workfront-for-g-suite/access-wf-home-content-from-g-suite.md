@@ -2,15 +2,15 @@
 product-area: workfront-integrations
 keywords: google,doc,document,feuille,diapositive
 navigation-topic: workfront-for-g-suite
-title: Accès au contenu d’accueil à partir de Google Workspace [!DNL Adobe Workfront]
-description: Vous pouvez accéder au contenu de votre  [!DNL Adobe Workfront] page d’accueil, y compris toutes les tâches, problèmes, approbations et demandes d’accès qui vous ont été attribués, sans quitter Google Workspace.
+title: Accès  [!DNL Adobe Workfront]  contenu d’accueil à partir de Google Workspace
+description: Vous pouvez accéder au contenu de votre page  [!DNL Adobe Workfront] ’accueil, y compris toutes les tâches, les événements, les approbations et les demandes d’accès qui vous sont assignées, sans quitter Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 80%
+source-wordcount: '373'
+ht-degree: 57%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 >
 >La dernière version en date du plug-in Adobe Workfront pour Google a été publiée le 26 juin 2023.
 
-Vous pouvez accéder à votre contenu [!DNL Adobe Workfront] [!UICONTROL Accueil], y compris toutes les tâches, tous les problèmes, toutes les approbations et toutes les demandes d’accès qui vous ont été attribués, sans quitter Google Workspace.
+Vous pouvez accéder au contenu de votre [!DNL Adobe Workfront] [!UICONTROL Accueil], y compris toutes les tâches, les événements, les approbations et les demandes d’accès qui vous sont assignées, sans quitter Google Workspace.
 
 ## Conditions d’accès
 
@@ -53,26 +53,26 @@ Avant de pouvoir accéder au contenu de la page d’[!UICONTROL accueil] à part
 ## Accéder à la page d’[!UICONTROL accueil] d’[!DNL Workfront] à partir de [!DNL Google Workspace]
 
 1. Vérifiez que vous disposez d’une connexion à [!DNL Workfront].
-1. Si le panneau [!UICONTROL  Workfront for Google Workspace] n’est pas affiché, cliquez sur l’icône [!DNL Workfront] ![](assets/wf-lion-icon.png) dans la barre latérale des modules complémentaires [!DNL Google Workspace] située à l’extrémité droite de la page.
+1. Si le panneau [!UICONTROL Workfront for Google Workspace] n’est pas affiché, cliquez sur l’icône [!DNL Workfront] ![Workfront](assets/wf-lion-icon.png) dans la barre latérale [!DNL Google Workspace] modules complémentaires située à l’extrême droite de la page.
 1. Si une flèche vers la gauche est affichée en haut de [!DNL Workfront] pour [!DNL Google Workspace], cliquez dessus pour vous rendre dans la zone d’[!UICONTROL accueil].
 
-1. Dans la zone **[!UICONTROL Trier par]**, cliquez sur la flèche de développement ![](assets/dropdown-arrow.png), puis sur une option pour spécifier la manière dont vous souhaitez regrouper vos éléments de travail afin de pouvoir trouver celui que vous voulez.
+1. Dans la zone **[!UICONTROL Trier par]**, cliquez sur la flèche de développement ![Flèche de développement](assets/dropdown-arrow.png), puis cliquez sur une option pour spécifier comment regrouper vos éléments de travail afin de trouver celui qui vous intéresse.
 
    Lorsque vous effectuez un tri par **[!UICONTROL Date d’engagement]** ou **[!UICONTROL Date d’achèvement prévue]**, les éléments de travail les plus anciens figurent en haut de la liste.
 
    Lorsque vous effectuez un tri par **[!UICONTROL Projet]**, les éléments de travail apparaissent dans l’ordre de leurs projets parents, classés par ordre alphabétique. Les éléments de travail sans projet parent s’affichent sous **[!UICONTROL Pas de projet]**.
 
-1. Cliquez sur la flèche de développement ![](assets/dropdown-arrow.png) pour le regroupement que vous souhaitez afficher.
+1. Cliquez sur la flèche de développement ![flèche de développement](assets/dropdown-arrow.png) correspondant au regroupement que vous souhaitez afficher.
 
    Le nombre d’éléments contenus dans chaque groupe est indiqué entre parenthèses. Lorsque vous cliquez sur la flèche de [!UICONTROL développement], tous les éléments de travail du groupe s’affichent.
 
    Les éléments de travail apparaissent comme suit :
 
-   * ![](assets/task-icon.png) Les **Tâches** affichent le nom du projet parent, le nom de la tâche et la date d’achèvement prévue.
+   * ![Icône Tâche](assets/task-icon.png) **Tâches** affichez le nom du projet parent, le nom de la tâche et la date d&#39;achèvement prévue.
 
-   * ![](assets/issue-icon.png) Les **Problèmes** affichent le nom du projet parent, le nom du problème et la date d’achèvement prévue.
+   * ![Icône Événement](assets/issue-icon.png) **Événements** affichez le nom du projet parent, le nom de l&#39;événement et la date d&#39;achèvement prévue.
 
-   * ![](assets/document-icon.png) Les **Approbations** affichent le nom du demandeur ou de la demandeuse, le nom du document et la date de soumission.
+   * ![Icône de document](assets/document-icon.png) **Approbations** affichez le nom du demandeur, le nom du document et la date d’envoi.
    * Les **Demandes d’accès** affichent le nom du demandeur ou de la demandeuse, le nom de l’objet et la date de soumission. L’icône du type d’objet s’affiche à gauche.
 
 1. Cliquez n’importe où sur un élément de travail pour en afficher les détails, les mises à jour et les documents.

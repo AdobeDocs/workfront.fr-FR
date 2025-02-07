@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 100%
+source-wordcount: '1525'
+ht-degree: 99%
 
 ---
 
@@ -99,7 +99,7 @@ Afin de guider efficacement les administrateurs et les administratrices dans la 
 * Informations sur la hiérarchie au-dessus du nom de chaque sous-page (sur la page d’un seul groupe, par exemple)
 * Styles et tailles de polices modernisés
 
-  ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
+  ![En-têtes mis à jour dans la configuration](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
 Pour plus d’informations sur la zone de configuration, consultez la section [Administration et configuration](../../../administration-and-setup/administration-and-setup.md).
 
