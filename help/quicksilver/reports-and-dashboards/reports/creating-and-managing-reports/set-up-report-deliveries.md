@@ -6,10 +6,10 @@ description: Vue d’ensemble de la diffusion des rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
 workflow-type: tm+mt
 source-wordcount: '1531'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -43,11 +43,11 @@ Tenez compte des points suivants lors de la planification des rapports pour leur
 
 Plusieurs limites de taille affectent la manière dont les rapports s’affichent dans Workfront et dont ils sont exportés au moyen d’un export manuel, d’un rapport diffusé ou via l’API :
 
-* **Taille de fichier de 5 Mo :** limite de taille de fichier pour tout rapport exporté, dont la diffusion est planifiée. Si un fichier exporté joint à un e-mail dépasse 5 Mo, un lien pour le téléchargement du fichier est envoyé par e-mail à la place du rapport exporté joint.
+* **Taille de fichier de 10 Mo :** limite de taille de fichier pour tout rapport exporté dont la remise est planifiée. Si un fichier exporté joint à un e-mail dépasse 5 Mo, un lien pour le téléchargement du fichier est envoyé par e-mail à la place du rapport exporté joint.
 
   >[!NOTE]
   >
-  >Les fichiers .xlsx (Excel) de plus de 5 Mo ne génèrent pas d’e-mail. Vous pouvez exporter manuellement le rapport vers ce format. Pour plus d’informations sur l’export de rapports, voir la section [Exporter des données](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >Les fichiers .xlsx Excel de plus de 10 Mo ne génèrent pas d’e-mail. Vous pouvez exporter manuellement le rapport vers ce format. Pour plus d’informations sur l’export de rapports, voir la section [Exporter des données](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50 000 lignes :** nombre de lignes de données autorisées dans un rapport exporté pour les fichiers .pdf et délimités par des onglets.
 
