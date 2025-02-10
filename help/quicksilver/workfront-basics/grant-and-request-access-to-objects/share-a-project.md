@@ -6,16 +6,14 @@ description: Votre administrateur ou administratrice Adobe Workfront peut vous 
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 95%
+source-wordcount: '986'
+ht-degree: 100%
 
 ---
 
 # Partager un projet dans Adobe Workfront
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 <!-- Audited: 1/2024 -->
 
@@ -31,7 +29,7 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
 
 * Par défaut, le créateur ou la créatrice d’un projet dispose des autorisations nécessaires pour gérer le projet et est également propriétaire du projet. Si le projet est attribué à une autre personne propriétaire, cette personne dispose également des autorisations nécessaires pour gérer le projet. Lorsque le créateur ou créatrice (ou propriétaire) du projet partage le projet avec d’autres personnes, certaines autorisations leur sont accordées pour contrôler ce que ces personnes peuvent faire lorsqu’elles travaillent sur le projet.
 
-  Cependant, si le propriétaire d’un projet ne dispose pas d’une licence de plan ou standard, il ne dispose pas d’un accès complet pour gérer le projet. Seul un utilisateur disposant d’une licence de plan ou standard peut disposer des autorisations pour gérer un projet. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Cependant, si la personne propriétaire d’un projet ne dispose pas d’une licence Planificateur, elle n’a pas un accès complet à la gestion du projet. Seule une personne disposant d’une licence Plan peut disposer des autorisations nécessaires pour gérer un projet. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * Vous pouvez partager des projets individuellement ou partager plusieurs d’entre eux à la fois. Le partage de projets est identique au partage d’autres objets. Pour plus d’informations sur le partage d’éléments dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Vous pouvez accorder les autorisations suivantes à un projet :
@@ -41,10 +39,6 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
    * Contribuer
 
      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
-
-     <span class="preview">Dans l’aperçu :
-     ![](assets/project-permissions.png)
-  </span>
 
 * Lorsque vous partagez un projet, toutes les tâches, tous les problèmes et tous les documents héritent des mêmes autorisations, sauf indication contraire.
 

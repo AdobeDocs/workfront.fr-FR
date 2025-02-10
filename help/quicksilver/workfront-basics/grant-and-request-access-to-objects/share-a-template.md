@@ -6,16 +6,14 @@ description: En tant que personne membre de l’administration Adobe Workfront,
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '584'
 ht-degree: 95%
 
 ---
 
 # Partager un modèle
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 En tant que personne membre de l’administration Adobe Workfront, vous pouvez accorder aux utilisateurs et aux utilisatrices l’accès à l’affichage ou à la modification des modèles lorsque vous leur attribuez un niveau d’accès. Un utilisateur ou une utilisatrice doit disposer d’une licence Plan pour avoir accès à l’option de modification des modèles.
 
@@ -42,13 +40,12 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
      Vous pouvez accorder les autorisations suivantes à un modèle :
 
       * Afficher
+
+        ![](assets/view-on-template-262x221.png)
+
       * Gérer
 
-        ![](assets/view-on-template-262x221.png) ![](assets/manage-on-template-225x280.png)
-
-     <span class="preview">Dans l’aperçu :
-     ![](assets/template-permissions.png)
-  </span>
+        ![](assets/manage-on-template-225x280.png)
 
    * Futurs projets créés à l’aide du modèle. Vous pouvez accorder aux projets créés à partir d’un modèle les mêmes niveaux d’autorisation qu’à un projet individuel. 
 

@@ -7,16 +7,14 @@ description: Votre équipe d’administration Adobe Workfront accorde aux utili
 author: Alina
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 99%
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
 # Partager un document
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Votre équipe d’administration Adobe Workfront accorde aux utilisateurs et utilisatrices l’accès en affichage ou en modification des documents lorsqu’elle attribue des niveaux d’accès, comme expliqué dans la section [Accorder l’accès aux documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
@@ -41,10 +39,6 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble du parta
 
    * Afficher
    * Gérer
-
-  <span class="preview">Dans l’aperçu :
-  ![](assets/document-permissions.png)
-</span>
 
 * Vous pouvez également partager un document publiquement ou à l’échelle du système.
 
