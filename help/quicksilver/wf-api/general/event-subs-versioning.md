@@ -6,21 +6,23 @@ description: API d’abonnement aux événements
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
+source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1124'
 ht-degree: 2%
 
 ---
-
 
 # Contrôle de version de l’abonnement aux événements
 
 Workfront propose deux versions d’abonnements aux événements. Cet article décrit les différences entre eux.
 
-Il ne s’agit pas d’une modification de l’API Workfront, mais d’une modification de la fonctionnalité d’abonnement aux événements.
+La nouvelle version ne constitue pas une modification de l’API Workfront, mais plutôt une modification de la fonctionnalité d’abonnement aux événements.
 
-La possibilité de mettre à niveau ou de rétrograder des abonnements aux événements garantit que lorsque des modifications sont apportées à la structure des événements, les abonnements existants ne sont pas rompus, ce qui vous permet de tester et de mettre à niveau vers la nouvelle version sans interruption dans votre abonnement aux événements.
+La possibilité de mettre à niveau ou de rétrograder des abonnements aux événements garantit que lorsque des modifications sont apportées à la structure des événements, les abonnements existants ne sont pas rompus, ce qui vous permet de tester et de mettre à niveau vers la nouvelle version sans interruption de votre abonnement aux événements.
+
+Pour plus d’informations sur les points d’entrée utilisés pour mettre à niveau ou rétrograder des abonnements aux événements, consultez [Contrôle de version des abonnements aux événements](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) dans l’article API d’abonnement aux événements.
 
 >[!IMPORTANT]
 >
@@ -35,7 +37,6 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
 
 
 ### Modifications générales
-
 
 
 <table style="table-layout:auto"> 
