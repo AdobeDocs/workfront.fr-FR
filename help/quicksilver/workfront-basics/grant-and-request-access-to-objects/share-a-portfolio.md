@@ -5,14 +5,16 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 94%
 
 ---
 
 # Partager un portfolio
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Votre administrateur ou administratrice Adobe Workfront peut vous accorder l’accès en afichage ou en modification aux portfolios lors de l’attribution de votre niveau d’accès. Vous devez disposer d’une licence de plan pour avoir accès à la modification d’un portfolio. Pour plus d’informations, voir [Accorder l’accès aux portfolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -35,9 +37,12 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png) ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
 
-* Lorsque vous partagez un portfolio, les personnes héritent par défaut des mêmes autorisations pour tous les objets enfant associés au portfolio.
+  <span class="preview">Dans l’aperçu :
+  ![](assets/share-portfolio.png)
+</span>
+* Lorsque vous partagez un portfolio, les utilisateurs héritent par défaut des mêmes autorisations pour tous les objets enfants associés au portfolio.
 
-  Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Vous pouvez supprimer les autorisations héritées du portfolio. Pour plus d’informations sur la suppression des autorisations sur les objets, voir [Supprimer les autorisations sur les objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
