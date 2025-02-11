@@ -1,21 +1,23 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Modification de l’ordre des articles sur le Scrum Board
+title: Modifier l’ordre des histoires sur le scrum board
 description: L’ordre dans lequel les histoires apparaissent sur le storyboard n’est pas lié à leur priorité. Cependant, cela peut affecter la priorité perçue en rendant les histoires plus visibles. Par défaut, les histoires s’affichent par ordre alphabétique dans chaque colonne [!UICONTROL Statut] sur le storyboard.
 author: Lisa
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 4dc2d81cd6dc4249f96925b6339fb837c4f67254
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 97%
+source-wordcount: '407'
+ht-degree: 80%
 
 ---
 
 # Modifier l’ordre des histoires sur le panorama [!UICONTROL Scrum]
 
-L’ordre dans lequel les histoires apparaissent sur le storyboard n’est pas lié à leur priorité. Cependant, cela peut affecter la priorité perçue en rendant les histoires plus visibles. Par défaut, les histoires s’affichent par ordre alphabétique dans chaque colonne Statut du storyboard. (Les histoires avec couloirs sont affichées en haut du storyboard, et les histoires sans couloir sont affichées séparément sous n’importe quel couloir.)
+L’ordre dans lequel les histoires apparaissent sur le storyboard n’est pas lié à leur priorité. Cependant, cela peut affecter la priorité perçue en rendant les histoires plus visibles. La priorité est définie dans la liste d’attente et lorsque des histoires sont ajoutées au storyboard, leur priorité n’est pas définie car elles seront traitées pendant la période d’itération. Si des histoires sont renvoyées dans la liste d’attente, vous pouvez les y réorganiser pour y afficher la priorité.
+
+Par défaut, les histoires s’affichent par ordre alphabétique dans chaque colonne Statut du storyboard. Les histoires avec couloirs sont affichées en haut du storyboard, et les histoires sans couloirs sont affichées séparément sous les couloirs.
 
 Lorsque vous réorganisez des colonnes sur le storyboard, toutes les modifications que vous apportez sont enregistrées dans l’itération ou le projet. Les modifications sont donc conservées lors de la prochaine consultation par vous ou une autre personne. (Les modifications que vous effectuez ne sont pas annulées lors de l’effacement du cache du navigateur.)
 
