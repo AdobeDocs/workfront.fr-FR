@@ -6,16 +6,18 @@ description: Vous pouvez supprimer une itération pour votre équipe Agile si el
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 82%
+source-wordcount: '189'
+ht-degree: 71%
 
 ---
 
 # Supprimer une itération
 
 Vous pouvez supprimer une itération pour votre équipe Agile si elle n’est plus nécessaire.
+
+Lorsque vous supprimez une itération, toutes les histoires s’y rapportant sont déplacées vers la liste d’attente. Les tâches et les événements restent également dans leurs projets.
 
 >[!NOTE]
 >

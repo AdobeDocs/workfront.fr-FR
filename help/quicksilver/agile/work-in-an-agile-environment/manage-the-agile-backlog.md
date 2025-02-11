@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
-title: Gestion du journal agile
+title: Gestion de la liste d’attente Agile
 description: Les tâches et les problèmes peuvent être affectés à une équipe Agile et ajoutés à la liste d’attente de cette équipe en tant qu’histoires, en fonction de la méthodologie Agile utilisée par l’équipe.
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 94%
+source-wordcount: '1349'
+ht-degree: 91%
 
 ---
 
@@ -94,7 +94,7 @@ Puisque les histoires de la liste d’attente varient en taille, les utilisateur
 Pour ventiler une histoire :
 
 1. Allez dans la liste d’attente qui contient l’histoire que vous voulez ventiler.
-1. Sélectionnez l’article que vous souhaitez ventiler, puis cliquez sur **[!UICONTROL Article de ventilation]**.
+1. Sélectionnez l’histoire à répartir, puis cliquez sur **[!UICONTROL Répartir l’histoire]**.
 La boîte de dialogue [!UICONTROL Répartition de l’histoire] s’affiche.
    ![Boîte de dialogue pour la ventilation d’histoires](assets/backlog-breakdown-dialog.png)
 
@@ -115,7 +115,7 @@ Dans la liste d’attente, vous pouvez créer des histoires en créant l’histo
 
 ### Créer une histoire à partir de la liste d’attente {#create-a-story-from-the-backlog}
 
-Lorsque vous créez une histoire à partir de la liste d’attente, celle-ci est créée en tant que tâche ou problème au sein d’un projet. Vous ne pouvez pas créer une histoire à partir de la liste d’attente en tant que problème.
+Lorsque vous créez une histoire à partir de la liste d’attente, elle est créée en tant que tâche ou problème dans un projet.
 
 Pour créer une histoire à partir de la liste d’attente :
 
@@ -187,17 +187,17 @@ Pour attribuer une tâche ou un problème à une équipe agile :
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 La tâche ou le problème est maintenant disponible dans la liste d’attente de l’équipe.
 
-## Déplacer des articles dans ou hors du journal
+## Déplacer les histoires vers ou depuis la liste d&#39;attente
 
-* [Déplacer des histoires de la liste d’attente vers un panorama d’itération ou autre.](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [Déplacer des histoires de la liste d’attente vers une itération ou un panorama](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Déplacer des histoires existantes vers la liste d’attente](#move-existing-stories-to-the-backlog)
 * [Exporter les histoires de la liste d’attente](#export-stories-from-the-backlog)
 
-### Déplacer des histoires de la liste d’attente vers un panorama d’itération ou autre.
+### Déplacer des histoires de la liste d’attente vers une itération ou un panorama
 
 1. Rendez-vous dans la liste d’attente de l’équipe Agile.
-1. Sélectionnez les articles que vous souhaitez déplacer vers un panorama d’itération ou Kanban, puis cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Déplacer vers]**.
-Si vous déplacez l’histoire vers un panorama [!UICONTROL Kanban], le panorama [!UICONTROL Déplacer l’article vers le panorama Kanban] s’affiche.
+1. Sélectionnez les histoires à déplacer vers une itération ou un tableau kanban, puis cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Déplacer vers]**.
+Si vous déplacez l’histoire vers un tableau [!UICONTROL Kanban], le tableau [!UICONTROL Déplacer l’histoire vers le tableau Kanban] s’affiche.
 Si vous déplacez l’histoire vers une itération, la boîte de dialogue [!UICONTROL Déplacer l’histoire vers une itération] est affichée.
    ![Boîte de dialogue Déplacer l’histoire](assets/agile-backlog-addtoiteration.png)
 

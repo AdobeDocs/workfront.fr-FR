@@ -1,21 +1,23 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
-title: Gestion des articles et des problèmes sur le panorama
+title: Gérer les histoires et les événements sur le scrum board
 description: Vous pouvez déplacer une histoire ou un problème du panorama Scrum vers une autre itération ou vers la liste d’attente ou supprimer l’élément du panorama Scrum. Lorsque vous supprimez une histoire ou un problème, l’élément est placé dans la Corbeille pendant 30 jours et ne peut être récupéré que par l’administrateur ou l’administratrice système.
 author: Lisa
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 93%
+source-wordcount: '477'
+ht-degree: 84%
 
 ---
 
 # Gérer les histoires et les problèmes sur le panorama [!UICONTROL Scrum]
 
 Vous pouvez déplacer une histoire ou un problème du panorama [!UICONTROL Scrum] vers une autre itération ou vers la liste d’attente ou supprimer l’élément du panorama [!UICONTROL Scrum]. Lorsque vous supprimez une histoire ou un problème, l’élément est placé dans la Corbeille pendant 30 jours et ne peut être récupéré que par l’administrateur ou l’administratrice système.
+
+Pour supprimer une tâche ou un événement de l’itération sans la supprimer ni l’envoyer à la liste d’attente, accédez au projet et supprimez l’équipe Agile de la colonne Affectation . Cela supprime la tâche ou l’événement du scrum board, mais il reste sur le projet.
 
 ## Conditions d’accès
 
@@ -46,7 +48,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Déplacer un article ou un problème du panorama [!UICONTROL Scrum]
+## Déplacer une histoire ou un événement du tableau [!UICONTROL Scrum]
 
 {{step1-to-team}}
 
@@ -75,7 +77,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur **[!UICONTROL Déplacer]**.
 
-## Supprimez un article ou un problème du panorama [!UICONTROL Scrum]
+## Supprimer une histoire ou un événement du tableau [!UICONTROL Scrum]
 
 {{step1-to-team}}
 
