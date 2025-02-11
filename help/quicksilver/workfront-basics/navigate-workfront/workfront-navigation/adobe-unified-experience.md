@@ -6,10 +6,10 @@ description: Avec l’accès à  [!DNL Workfront]  grâce à Adobe Experience 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 88%
+source-wordcount: '593'
+ht-degree: 82%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 
 Avec l’accès à [!DNL Workfront] grâce à [!DNL Adobe Experience Cloud], vous bénéficiez d’une expérience transparente et unifiée pour gérer l’ensemble de vos applications [!DNL Adobe]. La gestion des identités unique vous permet de vous connecter à un seul emplacement, sans avoir à utiliser plusieurs URL ou identifiants de connexion.
 
-Si votre organisation utilise l’expérience unifiée de l’Adobe, l’URL que vous utilisez pour accéder à Workfront commence par `experience.adobe.com`.
+Si votre organisation utilise l’expérience unifiée Adobe, l’URL que vous utilisez pour accéder à Workfront commence par `experience.adobe.com`.
 
 | URL | Adobe Experience |
 |------------|------------|
@@ -54,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Conditions préalables
 
-L’instance de [!DNL Workfront] de votre organisation doit être intégrée à [!DNL Adobe Business Platform] ou à [!DNL Adobe Admin Console].
+L’instance d’[!DNL Workfront] de votre organisation doit être intégrée à l’[!DNL Adobe Business Platform] ou à l’[!DNL Adobe Admin Console].
 
 Si vous avez des questions sur l’intégration [!DNL Adobe Admin Console], voir les [[!DNL Adobe Unified Experience] Questions fréquentes](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
 
@@ -67,7 +67,7 @@ Si vous avez des questions sur l’intégration [!DNL Adobe Admin Console], voir
 
 >[!NOTE]
 >
->Si une session d’onglet de navigateur expire dans une page sur laquelle Workfront est ouvert et que vous avez une session Workfront active dans un autre onglet de navigateur, vous pouvez recharger l’onglet expiré pour rouvrir la page Workfront.
+>Si une session de l’onglet du navigateur expire dans une page sur laquelle Workfront est ouvert et que vous disposez d’une session Workfront active dans un autre onglet du navigateur, vous pouvez recharger l’onglet expiré pour rouvrir la page Workfront.
 
 ## Accéder à [!DNL Workfront]
 
@@ -85,7 +85,7 @@ Après la connexion à [!DNL Adobe Experience Cloud], vous pouvez afficher l’e
 
 ## Parcourir [!DNL Workfront]
 
-Utilisez l’icône [!UICONTROL Menu principal] ![](assets/main-menu-icon-left-nav.png) sur la gauche de la barre de navigation [!DNL Workfront] pour accéder aux pages auxquelles vous avez accès. Les options disponibles dans le [!UICONTROL Menu principal] dépendent des éléments suivants :
+Utilisez l’icône [!UICONTROL Menu principal] ![icône du menu principal](assets/main-menu-icon-left-nav.png) située à gauche de la barre de navigation [!DNL Workfront] pour accéder à toutes les pages auxquelles vous avez accès. Les options disponibles dans le [!UICONTROL Menu principal] dépendent des éléments suivants :
 
 * **Configurations des modèles de mise en page** : pour savoir comment une équipe d’administration [!DNL Workfront] peut modifier le [!UICONTROL Menu principal] à partir d’un modèle de mise en page, voir [Personnaliser le [!UICONTROL Menu principal] à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 * **Type de licence** : pour découvrir les configurations par défaut de différents types de licence, voir [Comprendre la navigation pour un utilisateur ou une utilisatrice d’une licence de [!UICONTROL relecture]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Comprendre la navigation pour un utilisateur ou une utilisatrice d’une licence de [!UICONTROL travail]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
@@ -102,7 +102,7 @@ Ce menu vous permet d’effectuer les opérations suivantes :
 
 * Choisissez le formatage **[!UICONTROL mode sombre]** pour [!DNL Adobe Experience Cloud].
 * Définissez les **[!UICONTROL préférences]** pour [!DNL Adobe Experience Cloud], y compris les préférences de langue principale et secondaire.
-* Accédez à votre profil **[!UICONTROL [!DNL Workfront]]**. Une fois que vous êtes sur le profil, cliquez sur le menu **[!UICONTROL Plus]** ![](assets/more-icon.png) et sélectionnez **[!UICONTROL Modifier]**. Pour plus d’informations sur le profil, voir [Configurer mes paramètres](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* Accédez à votre profil **[!UICONTROL [!DNL Workfront]]**. Une fois que vous êtes sur le profil, cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/more-icon.png) et sélectionnez **[!UICONTROL Modifier]**. Pour plus d’informations sur le profil, voir [Configurer mes paramètres](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Déconnectez-vous]** d’Adobe Experience Cloud.
 
 ## Gérer votre mot de passe

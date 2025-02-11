@@ -5,10 +5,10 @@ description: Dans  [!DNL Adobe Workfront], vous pouvez personnaliser l’afficha
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 97%
+source-wordcount: '721'
+ht-degree: 96%
 
 ---
 
@@ -68,11 +68,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Modifier une liste
+## Modification d’une liste
 
 1. Accédez à la liste que vous souhaitez modifier dans [!DNL Workfront].
 
@@ -94,7 +94,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. (Facultatif et le cas échéant) Si vous souhaitez afficher un nombre spécifique d’éléments à l’écran, cliquez sur le menu déroulant **[!UICONTROL Afficher]** dans le coin inférieur droit de l’écran, puis choisissez d’afficher **100**, **250**, **500**, **[!UICONTROL Tous]**, ou **2 000** éléments.
 
-   ![](assets/list-number-page-350x119.png)
+   ![Numéro de liste sur la page](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >

@@ -6,10 +6,10 @@ description: Vous pouvez consulter et résoudre des commentaires existants sur u
 author: Nolan
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '819'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ Dans la liste des [!UICONTROL commentaires] vous pouvez effectuer différentes a
 
    Cette option n’est disponible que si vous avez sélectionné des commentaires non lus.
 
-1. Pour supprimer les commentaires sélectionnés, sélectionnez l’icône **[!UICONTROL Supprimer]** ![](assets/delete-30x28.png) dans la barre d’outils inférieure. Sélectionnez ensuite **[!UICONTROL Supprimer]** sur le message de confirmation pour supprimer définitivement le commentaire.
+1. Pour supprimer les commentaires sélectionnés, sélectionnez l’icône **[!UICONTROL Supprimer]** ![Icône Supprimer](assets/delete-30x28.png) dans la barre d’outils inférieure. Sélectionnez ensuite **[!UICONTROL Supprimer]** sur le message de confirmation pour supprimer définitivement le commentaire.
 
 ## Commentaire sur une épreuve
 

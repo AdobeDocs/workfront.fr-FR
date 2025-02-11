@@ -6,10 +6,10 @@ description: Cet article fournit des définitions des dates les plus courantes a
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 53%
+source-wordcount: '2357'
+ht-degree: 52%
 
 ---
 
@@ -28,7 +28,7 @@ Pour plus d’informations sur les rapports et les listes, voir les articles sui
 * [Commencer avec les listes dans  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [Commencer avec les rapports](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
-Pour plus d’informations sur les champs de projet, de tâche et de problème, consultez le [Glossaire de [!DNL Adobe Workfront] terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Pour plus d&#39;informations sur les champs Projet, Tâche et Problème, voir [Glossaire  [!DNL Adobe Workfront]  terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 
 ## [!UICONTROL Date de début effective]
@@ -47,9 +47,9 @@ Pour plus d’informations, voir [Vue d’ensemble de la [!UICONTROL date de dé
 >
 >La tâche [!UICONTROL Il Faut Commencer Le] ou les contraintes Dates fixes affectent la [!UICONTROL date de début prévue] d’une tâche, et non la [!UICONTROL date de début effective]. Cette opération met à jour la [!UICONTROL date de début prévue] à la date que vous avez spécifiée. La [!UICONTROL date de début effective] est mise à jour indépendamment de la [!UICONTROL date de début prévue], comme décrit ci-dessus.
 
-![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
+![Date de début effective de la modification de la tâche](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
-![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
+![Date de début effective de la tâche](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## [!UICONTROL Date d’achèvement effective]
 
@@ -68,33 +68,33 @@ La [!UICONTROL date d’achèvement effective] d’un projet coïncide avec la d
 
 Pour plus d’informations, voir [Vue d’ensemble de la [!UICONTROL date d’achèvement effective du projet]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
-![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
+![Date d’achèvement effective dans les détails](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
 ## Date d&#39;achèvement du chemin d&#39;approbation
 
-La date d’achèvement du chemin d’approbation est la date à laquelle l’approbation d’un projet, d’une tâche ou d’un problème a été accordée et que l’état de l’élément a été modifié.
+La date d&#39;achèvement du chemin d&#39;approbation est la date à laquelle l&#39;approbation d&#39;un projet, d&#39;une tâche ou d&#39;un événement a été accordée et le statut de l&#39;élément a été modifié.
 
-La date d’achèvement du chemin d’approbation est visible dans les listes et rapports des projets, tâches et problèmes.
+La date d&#39;achèvement du chemin d&#39;approbation est visible dans les listes et les rapports sur les projets, les tâches et les événements.
 
 ## Date de début du chemin d&#39;approbation
 
-La date de début du chemin d’approbation est la date à laquelle le projet, la tâche ou le statut du problème a été remplacé par &quot;En attente d’approbation&quot; et la demande d’approbation de projet a été envoyée aux approbateurs.
+La date de début du chemin d&#39;approbation est la date à laquelle le statut du projet, de la tâche ou de l&#39;événement a été modifié en « Approbation en attente » et la demande d&#39;approbation du projet a été envoyée aux approbateurs.
 
-La Date de début du chemin d’approbation est visible dans les listes et rapports des projets, tâches et problèmes.
+La date de début du chemin d&#39;approbation est visible dans les listes et les rapports sur les projets, les tâches et les événements.
 
 <!--## Auto Closure Date -->
 
 ## Date d’achèvement budgétée
 
-Il s’agit d’un champ obsolète pour les projets. Toute information que ce champ peut afficher dans une liste ou un rapport est liée à une fonctionnalité supprimée par Workfront. Ce champ ne peut pas être mis à jour.
+Il s’agit d’un champ obsolète pour les projets. Toute information que ce champ peut afficher dans une liste ou un rapport est liée à une fonctionnalité que Workfront a supprimée. Ce champ ne peut pas être mis à jour.
 
-Le champ est visible dans les listes et rapports du projet.
+Le champ est visible dans les rapports et les listes de projet.
 
 ## Date de début budgétée
 
-Il s’agit d’un champ obsolète pour les projets. Toutes les informations que ce champ peut afficher sont liées à une fonctionnalité que Workfront a supprimée. Ce champ ne peut pas être mis à jour.
+Il s’agit d’un champ obsolète pour les projets. Toute information affichée dans ce champ est liée à une fonctionnalité que Workfront a supprimée. Ce champ ne peut pas être mis à jour.
 
-Le champ est visible dans les listes et rapports du projet.
+Le champ est visible dans les rapports et les listes de projet.
 
 ## [!UICONTROL Date d’engagement]
 
@@ -119,120 +119,120 @@ Les contraintes de tâche suivantes mettent à jour le champ Date de contrainte 
 
 >[!TIP]
 >
->Une tâche avec une contrainte de dates fixes n’a pas de date de contrainte.
+>Une tâche avec une contrainte de dates fixes n&#39;a pas de date de contrainte.
 >
 
-La Date de contrainte est visible dans une liste de tâches ou un rapport.
+La date de contrainte est visible dans une liste de tâches ou un rapport.
 
 ## Date d&#39;entrée de l&#39;événement converti
 
-Date à laquelle le problème qui a été converti dans le projet ou la tâche a été créé.
+Date à laquelle l’événement converti en projet ou la tâche a été créé.
 
-La Date d’entrée du problème converti est visible dans les listes et rapports de projets et de tâches.
+La date d&#39;entrée de l&#39;événement converti est visible dans les listes et rapports de projets et de tâches.
 
 ## Date d’échéance
 
-Date à laquelle une tâche ou un problème doit être terminé. La date d’échéance d’une tâche ou d’une émission est la même que la date d’achèvement planifiée.
+Date d’échéance d’une tâche ou d’un événement. La date d&#39;échéance d&#39;une tâche ou d&#39;un événement est identique à la date d&#39;achèvement prévue.
 
-La tâche et le problème Échéance sont visibles dans les listes et rapports de tâches et de problèmes.
+La date d&#39;échéance de la tâche et de l&#39;événement est visible dans les listes et rapports de tâches et d&#39;événements.
 
-Pour plus d’informations, reportez-vous à la section [Date d’achèvement planifiée](#planned-completion-date) de cet article.
+Pour plus d’informations, reportez-vous à la section [Date d’achèvement prévue](#planned-completion-date) de cet article.
 
 ## Dû le
 
-Date à laquelle le projet doit se terminer. La date d’échéance d’un projet est identique à la date d’achèvement prévue du projet.
+Date à laquelle le projet doit être terminé. La date d&#39;échéance d&#39;un projet correspond à la date d&#39;achèvement prévisionnelle du projet.
 
-La date d’échéance du projet est visible dans les listes et les rapports du projet.
+La date d’échéance du projet est visible dans les listes et les rapports de projet.
 
-Pour plus d’informations, reportez-vous à la section [Date d’achèvement planifiée](#planned-completion-date) de cet article.
+Pour plus d’informations, reportez-vous à la section [Date d’achèvement prévue](#planned-completion-date) de cet article.
 
 ## [!UICONTROL Date d’entrée]
 
-[!UICONTROL Date d’entrée] est la date de création d’un projet, d’une tâche ou d’un problème dans [!DNL Workfront].
+La [!UICONTROL Date de saisie] est la date à laquelle un projet, une tâche ou un événement a été créé dans [!DNL Workfront].
 
 La [!UICONTROL date d’entrée] n’a pas d’effet sur le calendrier des projets, des tâches ou des problèmes, mais elle est importante pour le suivi et la création de rapports. [!DNL Workfront] génère automatiquement la [!UICONTROL date d’entrée] lors de la création de l’objet et vous ne pouvez pas la modifier manuellement.
 
-![](assets/entry-date-in-task-details-highlighted-nwe.png)
+![Date de saisie dans les détails de la tâche](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## Échéance estimée
 
-La tâche et la date d’échéance estimée du projet indiquent une date plus réaliste du moment où le projet ou la tâche doit se terminer.
+La date d&#39;échéance estimée de la tâche et du projet indique une date plus réaliste à laquelle le projet ou la tâche doit se terminer.
 
-Les dates estimées correspondent davantage à la réalité du projet et de la tâche, dans la mesure où elles prennent en compte ce qui influence l’achèvement réel du projet ou de la tâche. Les dates d’échéance estimées sont similaires aux dates d’achèvement prévues.
+Les dates estimées sont plus en phase avec la réalité du projet et de la tâche, car elles prennent en compte ce qui influence l&#39;achèvement effectif du projet ou de la tâche. Les dates d&#39;échéance estimées sont similaires aux dates d&#39;achèvement prévues.
 
-Pour plus d’informations, voir [Présentation des dates prévues et estimées](/help/quicksilver/manage-work/tasks/task-information/differentiate-projected-estimated-dates.md).
+Pour plus d&#39;informations, voir [Aperçu des dates prévues et estimées](/help/quicksilver/manage-work/tasks/task-information/differentiate-projected-estimated-dates.md).
 
-Les dates estimées du projet et de la tâche sont visibles dans les listes et rapports de projets et de tâches.
+Les échéances prévues des projets et des tâches sont visibles dans les listes et les rapports de projets et de tâches.
 
 ## Date de début estimée
 
-La date de début estimée de la tâche et du projet indique une date plus réaliste de début du projet ou de la tâche.
+La date de début estimée de la tâche et du projet affiche une date plus réaliste de début du projet ou de la tâche.
 
-Les dates estimées sont plus en phase avec la réalité du projet et de la tâche, car elles prennent en compte ce qui influence le début réel du projet ou de la tâche. Les dates de début estimées sont similaires aux dates de début projetées.
+Les dates estimées sont plus en phase avec la réalité du projet et de la tâche, car elles prennent en compte ce qui influence le début réel du projet ou de la tâche. Les dates de début estimées sont similaires aux dates de début prévues.
 
-Pour plus d’informations, voir [Présentation des dates prévues et estimées](/help/quicksilver/manage-work/tasks/task-information/differentiate-projected-estimated-dates.md).
+Pour plus d&#39;informations, voir [Aperçu des dates prévues et estimées](/help/quicksilver/manage-work/tasks/task-information/differentiate-projected-estimated-dates.md).
 
-Les dates de début estimées du projet et de la tâche sont visibles dans les listes et rapports de projets et de tâches.
+Les dates de début estimées des projets et des tâches sont visibles dans les listes et rapports de projets et de tâches.
 
 <!--## Exchange Rate Date-->
 
 ## Date de fin fixée
 
-Le demandeur ou le propriétaire du projet identifie la date de fin fixe d’un projet lors de l’exécution de l’analyse de cas. Il s’agit de la date à laquelle il recommande que le projet soit terminé.
+Le demandeur ou le propriétaire du projet identifie la date de fin fixée d&#39;un projet lors de la réalisation de l&#39;analyse de rentabilité. Il s’agit de la date à laquelle ils recommandent que le projet soit terminé.
 
-Il s’agit d’une estimation manuelle qui ne prend en compte aucune progression réelle des tâches sur le projet.
+Il s’agit d’une estimation manuelle qui ne prend en compte aucun avancement réel des tâches du projet.
 
-La date de fin fixe d’un projet est visible dans la section Analyse de cas du projet, ainsi que dans les listes et les rapports de projet.
+La date de fin fixée pour un projet est visible dans la section Business case du projet ainsi que dans les listes et les rapports de projets.
 
-![](assets/fixed-end-date-business-case-highlight.png)
+![Date de fin fixée](assets/fixed-end-date-business-case-highlight.png)
 
 ## Date de début fixée
 
-Le demandeur ou le propriétaire du projet identifie la date de début fixe d’un projet lors de l’exécution de l’analyse de cas. Il s’agit de la date à laquelle il est recommandé que le projet commence.
+Le demandeur ou le propriétaire du projet identifie la date de début fixée d&#39;un projet lors de la réalisation de l&#39;analyse de rentabilité. Il s’agit de la date à laquelle ils recommandent que le projet commence.
 
-Il s’agit d’une estimation manuelle qui ne prend en compte aucune progression réelle des tâches sur le projet.
+Il s’agit d’une estimation manuelle qui ne prend en compte aucun avancement réel des tâches du projet.
 
-La date de début fixe d’un projet est visible dans la section Analyse de cas du projet, ainsi que dans les listes et les rapports de projet.
+La date de début fixée d&#39;un projet est visible dans la section Analyse de rentabilité du projet ainsi que dans les listes de projets et les rapports.
 
-![](assets/fixed-start-date-business-case-highlight.png)
+![Date de début fixée](assets/fixed-start-date-business-case-highlight.png)
 
 ## Date de remise
 
-Date à laquelle une tâche devient disponible pour le travail. Cela signifie que toutes les contraintes, validations et dépendances ont été réalisées et que les utilisateurs peuvent commencer à travailler sur la tâche.
+Date à laquelle une tâche devient disponible pour le travail. Cela signifie que toutes les contraintes, validations et dépendances sont terminées et que les utilisateurs peuvent commencer à travailler sur la tâche.
 
-La date de remise est un calcul qui ne peut pas être définie manuellement.
+La date de remise est un calcul qui ne peut pas être défini manuellement.
 
-Pour plus d’informations sur la date de passation, voir [Présentation de la date de passation des tâches](/help/quicksilver/manage-work/tasks/task-information/handoff-task-date.md).
+Pour plus d’informations sur la date de remise, voir [Présentation de la date de remise de la tâche](/help/quicksilver/manage-work/tasks/task-information/handoff-task-date.md).
 
-La Date de remise d’une tâche est visible dans les listes de tâches et les rapports.
+La date de remise d’une tâche est visible dans les listes de tâches et les rapports.
 
 ## Dernière mise à jour financière
 
-Date à laquelle l’une des informations financières sur un projet a été mise à jour. Cela inclut la mise à jour des champs financiers dans la section Finance ou Analyse de cas du projet.
+Date à laquelle les informations financières d&#39;un projet ont été mises à jour. Cela inclut la mise à jour des champs financiers dans la section Finance ou la section Analyse de rentabilité du projet.
 
-La Date de la dernière mise à jour financière est visible dans les listes et les rapports de projet.
+La date de la dernière mise à jour financière est visible dans les listes et les rapports de projet.
 
 ## Date de dernière mise à jour
 
-Date de la dernière mise à jour du projet, de la tâche ou du problème. Une mise à jour est considérée comme toute modification qui déclenche l’enregistrement d’un projet, d’une tâche ou d’un problème. Cela inclut les modifications de l’état, de la condition, de la chronologie, des finances ou de tout autre champ.
+Date de la dernière mise à jour du projet, de la tâche ou de l’événement. Une mise à jour est considérée comme toute modification qui déclenche l’enregistrement d’un projet, d’une tâche ou d’un événement. Cela inclut les changements de statut, de condition, de chronologie, de finances ou de tout autre champ.
 
-La date de la dernière mise à jour est visible dans les listes et rapports des projets, des tâches et des problèmes.
+La date de la dernière mise à jour est visible dans les listes et les rapports sur les projets, les tâches et les événements.
 
 ## [!UICONTROL Date d’entrée des heures]
 
 Lorsque vous consignez des heures pour des projets, des tâches et des problèmes afin d’indiquer le temps réel (en heures) que vous avez passé à travailler sur le projet, la tâche ou le problème, le temps que vous consignez devient les [!UICONTROL heures effectives] du projet, de la tâche ou du problème.
 
-La date pour laquelle vous enregistrez l’heure est le champ [!UICONTROL Date d’entrée de l’heure] sur l’entrée d’heure.
+La date pour laquelle vous enregistrez l’heure est le champ [!UICONTROL Date de saisie des heures] sur la saisie d’heures.
 
-La date d’entrée de l’heure est visible dans les listes d’heures et les rapports.
+La date de saisie horaire est visible dans les listes et les rapports d&#39;heures.
 
 >[!TIP]
 >
->La [!UICONTROL date d’entrée] d’une heure est différente de la [!UICONTROL date d’entrée] d’un autre objet Workfront, dans la mesure où il ne s’agit pas de la date de création du journal d’heure, mais plutôt de la date à laquelle vous souhaitez associer les heures.
+>Le [!UICONTROL Date de saisie] d&#39;une heure est différent du [!UICONTROL Date de saisie] d&#39;un autre objet Workfront, dans la mesure où il ne s&#39;agit pas de la date de création du journal des heures, mais plutôt de la date à laquelle vous souhaitez que les heures soient associées.
 >
->Par exemple, vous pouvez consigner les heures d’une tâche le 5 septembre, mais associer les heures au 1er septembre. La date d’entrée de l’heure est le 1er septembre.
+>Par exemple, vous pouvez consigner les heures d’une tâche le 5 septembre, mais les associer au 1er septembre. La date d&#39;entrée de l&#39;heure est le 1er septembre.
 
-Pour plus d’informations sur la façon de consigner l’heure dans Workfront, voir [Temps du journal](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Pour plus d’informations sur la journalisation du temps dans Workfront, voir [Enregistrer le temps](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!TIP]
 >
@@ -252,22 +252,22 @@ Pour plus d’informations, consultez les articles suivants :
 * [Définir la [!UICONTROL date d’achèvement prévue] du projet](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Vue d’ensemble de la [!UICONTROL date d’achèvement prévue] du problème](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+![Date d’achèvement prévue dans l’en-tête](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
 
-![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+![Date d&#39;achèvement prévue dans la liste des tâches](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
 
 ## Alignement de date planifié
 
-Il s’agit d’un indicateur automatique selon lequel Workfront attribue des projets, des tâches et des problèmes à afficher lorsqu’un élément sera terminé par rapport à sa date d’achèvement planifiée.
+Il s’agit d’un indicateur automatique que Workfront affecte des projets, des tâches et des événements pour indiquer quand un élément sera terminé par rapport à sa date d’achèvement prévue.
 
-Voici les valeurs possibles pour l’indicateur d’alignement de la date planifiée :
+Les valeurs suivantes sont des valeurs possibles pour l’indicateur Alignement de date prévu :
 
 * Sera terminé à la date d&#39;achèvement prévisionnelle
 * Sera terminé avant la date d&#39;achèvement prévisionnelle
 * Sera terminé après la date d&#39;achèvement prévisionnelle
 
-L’alignement des dates prévues est visible dans les listes et rapports des projets, des tâches et des problèmes.
+L’alignement des dates prévues est visible dans les listes et les rapports des projets, des tâches et des événements.
 
 ## [!UICONTROL Date de début prévue]
 
@@ -277,9 +277,9 @@ En fonction de la [!UICONTROL contrainte de tâche], il se peut que vous ne puis
 
 Pour plus d’informations, voir [Vue d’ensemble de la [!UICONTROL date de début prévue du projet]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
+![Date de début prévue pour la modification de la tâche](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
-![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+![Date de début prévue dans la liste des tâches](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
 ## [!UICONTROL Date d’achèvement prévisionnelle]
 
@@ -289,7 +289,7 @@ Si tout se passe bien et comme prévu, la date d’achèvement prévisionnelle d
 
 Pour plus d’informations, voir [Vue d’ensemble de la [!UICONTROL date d’achèvement prévisionnelle] pour les projets, les tâches et les problèmes](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
-![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
+![Date d&#39;achèvement prévue](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## [!UICONTROL Date de début prévisionnelle]
 
@@ -305,7 +305,7 @@ Pour une tâche, une [!UICONTROL date de début prévisionnelle] peut également
 
 Pour plus d’informations, voir [Vue d’ensemble de la [!UICONTROL date de début prévisionnelle du projet]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md).
 
-![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
+![Date de début prévue](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
 <!--## Rejection Date-->
 
@@ -315,17 +315,17 @@ Les tâches peuvent parfois commencer et se terminer en retard sans que cela ait
 
 La date de marge affiche la date exacte à laquelle une tâche pourrait avoir un impact certain sur la date d’achèvement du projet.
 
-Pour plus d’informations sur la date du Slack d’une tâche, voir [Présentation de la date du Slack de la tâche](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).
+Pour plus d’informations sur la date Slack d’une tâche, voir [Aperçu de la date Slack de la tâche](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).
 
-Les dates du Slack de tâches sont visibles dans les listes de tâches et les rapports.
+Les dates Slack de la tâche sont visibles dans les listes de tâches et les rapports.
 
 ## Démarré le
 
-Date prévue pour le démarrage du projet. La date de début d’un projet est identique à la date de début prévue du projet.
+Date de début prévue du projet. La date de début d&#39;un projet correspond à la date de début planifiée du projet.
 
-Ce champ est visible dans les listes et les rapports de projet.
+Ce champ est visible dans les listes de projets et les rapports.
 
-Pour plus d’informations, reportez-vous à la section [Date de début planifiée](#planned-start-date) de cet article.
+Pour plus d’informations, reportez-vous à la section [Date de début prévue](#planned-start-date) de cet article.
 
 
 

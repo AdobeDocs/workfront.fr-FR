@@ -6,10 +6,10 @@ description: Le menu principal change en fonction du niveau d’accès qui vous 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Les zones suivantes sont incluses dans la disposition par défaut des [!UICONTRO
 * **[!UICONTROL Plans directeurs]** : examinez les plans directeurs existants de votre système et demandez à en installer un, si l’équipe d’administration [!DNL Workfront] a configuré la file d’attente des demandes pour les plans directeurs. Pour plus d’informations, voir [Vue d’ensemble des plans directeurs](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 
-![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![Accéder à mes mises à jour à partir du menu principal](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
 ## Personnaliser votre [!UICONTROL Menu principal] par défaut
 

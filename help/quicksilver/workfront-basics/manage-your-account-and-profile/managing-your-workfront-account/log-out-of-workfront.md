@@ -6,10 +6,10 @@ description: Pour des raisons de sécurité, il est important de se déconnecter
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 100%
+source-wordcount: '221'
+ht-degree: 91%
 
 ---
 
@@ -58,5 +58,5 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Se déconnecter du compte [!DNL Workfront]
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis sur **[!UICONTROL Se déconnecter]** ![](assets/logout-icon.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Déconnexion]** ![Icône de déconnexion](assets/logout-icon.png).
 1. Vous revenez alors à la page de connexion dans laquelle vous pouvez saisir à nouveau votre nom d’utilisateur ou d’utilisatrice et votre mot de passe.

@@ -6,10 +6,10 @@ description: Consultez cet article pour devenir bêta-testeur ou bêta-testeuse 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '443'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ Vous devez disposer des applications [!DNL Workfront] et [!DNL TestFlight] sur v
 
 Vous pouvez également scanner le code QR ci-dessous pour vous inscrire à la version bêta et télécharger l’application :
 
-![](assets/ios-qr-code-350x397.png)
+![Code QR iOS](assets/ios-qr-code-350x397.png)
 
 ## Nous faire part de votre retour d’expérience
 

@@ -5,10 +5,10 @@ description: Vous pouvez facilement localiser des éléments dans  [!DNL Adobe W
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 100%
+source-wordcount: '1690'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Vous pouvez facilement localiser des éléments dans [!DNL Adobe Workfront] en l
 
 Vous pouvez voir la zone [!UICONTROL Recherche] dans le coin supérieur droit d’une page dans [!DNL Workfront].
 
-![](assets/search-globalnavigationbar-350x62.png)
+![Icône Rechercher dans la barre de navigation](assets/search-globalnavigationbar-350x62.png)
 
 Vous devez disposer des autorisations nécessaires pour afficher un objet avant de pouvoir le rechercher. Pour cette raison, les résultats de recherche varient d’un utilisateur ou d’une utilisatrice à l’autre.
 
@@ -185,15 +185,15 @@ Vous pouvez effectuer une recherche de base de l’une des façons suivantes :
 
 Pour effectuer une recherche de base, procédez comme suit :
 
-1. Cliquez sur la loupe ![](assets/search-icon.png) dans le coin supérieur droit de la page. Vous pouvez également saisir **[!UICONTROL ALT+/]** ou **[!UICONTROL Option+/]** pour ouvrir le menu [!UICONTROL Rechercher].
+1. Cliquez sur la loupe ![icône Rechercher](assets/search-icon.png) dans le coin supérieur droit de la page. Vous pouvez également saisir **[!UICONTROL ALT+/]** ou **[!UICONTROL Option+/]** pour ouvrir le menu [!UICONTROL Rechercher].
 
 1. (Facultatif) Pour rechercher un objet spécifique, cliquez sur le bouton **[!UICONTROL Tous]** et sélectionnez l’objet à rechercher.
 
-   ![](assets/search-objecttype.png)
+   ![Recherche par type d’objet](assets/search-objecttype.png)
 
 1. Dans la zone **[!UICONTROL Rechercher]**, commencez à saisir les informations que vous recherchez.\
    Pour plus d’informations sur les champs recherchés dans [!DNL Workfront], consultez la section [Comprendre le fonctionnement de la recherche](#understand-search).\
-   ![](assets/qs-search-drop-down-highlighted-350x234.png)\
+   ![Liste déroulante de recherche](assets/qs-search-drop-down-highlighted-350x234.png)\
    Quand vous saisissez du texte dans la barre de recherche, [!DNL Workfront] fait des suggestions basées sur votre historique de consultation et surligne en bleu le mot-clé que vous recherchez.
 
 1. Si l’élément que vous recherchez s’affiche dans le menu de [!UICONTROL saisie semi-automatique], cliquez dessus.
@@ -232,7 +232,7 @@ Pour affiner une recherche, procédez comme suit :
 1. Cliquez dans l’un des champs disponibles pour raccourcir la liste des résultats.\
    Les sélections que vous effectuez sont surlignées en bleu et les valeurs de champ que vous ne sélectionnez pas sont masquées.\
    Les résultats affichés à droite sont mis à jour de manière dynamique après la sélection de chaque nouvelle valeur.\
-   ![](assets/qs-refine-search-350x175.png)
+   ![Affiner la recherche](assets/qs-refine-search-350x175.png)
 
 1. (Facultatif) Cliquez sur les valeurs sélectionnées pour les désélectionner et afficher à nouveau toutes les valeurs de chaque champ.
 
@@ -253,16 +253,16 @@ Ce type de recherche s’avère utile si vous ne vous rappelez pas un mot-clé a
 
 Pour effectuer une recherche avancée, procédez comme suit :
 
-1. Dans le coin supérieur droit d’une page de [!DNL Workfront], cliquez sur l’icône **[!UICONTROL Recherche]** ![](assets/search-icon.png). Le menu [!DNL Search] s’affiche.
+1. Dans l’angle supérieur droit d’une page de [!DNL Workfront], cliquez sur l’icône **[!UICONTROL Rechercher]** ![Icône Rechercher](assets/search-icon.png). Le menu [!DNL Search] s’affiche.
 
 1. Au bas du menu [!UICONTROL Recherche], cliquez sur **[!UICONTROL Recherche avancée]**.\
-   ![](assets/qs-advanced-search-350x224.png)\
+   ![Recherche avancée](assets/qs-advanced-search-350x224.png)\
    La page [!UICONTROL Recherche avancée] s’ouvre à droite et couvre la majeure partie de la page précédente.
 
 1. Sélectionnez le type d’objet que vous recherchez.\
    **[!UICONTROL Projets]** est sélectionné par défaut.
 
-   ![](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![Objets de recherche avancée](assets/advanced-search-objects-qs-remove-after-prod-release.png)
 
 1. (Facultatif) Saisissez un mot-clé dans le champ situé en haut de la liste.
 1. (Facultatif) Cliquez sur **[!UICONTROL Filtrer vos résultats]** pour filtrer les résultats de recherche en fonction de types de champ spécifiques, puis sélectionnez un champ dans la liste. Au besoin, sélectionnez également une valeur pour le champ.\

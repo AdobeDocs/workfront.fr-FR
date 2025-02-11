@@ -6,10 +6,10 @@ description: Vous pouvez réinitialiser votre mot de passe  [!DNL Adobe Workfron
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '253'
+ht-degree: 86%
 
 ---
 
@@ -50,15 +50,15 @@ Pour connaître la formule ou le type de licence dont vous disposez, contactez v
 
 ## Réinitialiser votre mot de passe dans [!DNL Adobe Workfront]
 
-1. Cliquez sur l’icône **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) en haut à droite d’[!DNL Adobe Workfront], puis cliquez sur votre nom d’utilisateur ou d’utilisatrice en regard de votre image de profil.
+1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur votre nom d&#39;utilisateur à côté de l&#39;image de votre profil.
 
    ![Ouvrez le menu principal et sélectionnez votre nom d’utilisateur ou d’utilisatrice.](assets/main-menu-options-350x481.png)
 
-1. Cliquez sur le **[!UICONTROL menu Plus]** ![](assets/more-icon.png), puis sur **[!UICONTROL Modifier]**.
+1. Cliquez sur le **[!UICONTROL menu Plus]** ![icône Plus](assets/more-icon.png), puis sur **[!UICONTROL Modifier]**.
 
 1. Dans la zone **[!UICONTROL Modifier la personne]** qui s’affiche, sous **[!UICONTROL Informations personnelles]**, cliquez sur **[!UICONTROL Réinitialiser le mot de passe]**.
 
-   ![](assets/edit-person-box-350x196.jpg)
+   ![Modifier la personne](assets/edit-person-box-350x196.jpg)
 
    Si votre organisation a intégré [!DNL Workfront] à une solution d’authentification unique, vous devrez peut-être réinitialiser vos mots de passe via votre système d’authentification unique lorsque vous cliquerez sur **[!UICONTROL Réinitialiser le mot de passe]**. L’opération réinitialise votre mot de passe SSO, ce qui influe sur la connexion à toutes les autres applications de votre organisation.
 

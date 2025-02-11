@@ -7,10 +7,10 @@ description: Le menu principal change en fonction du niveau d’accès qui vous 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 94%
+source-wordcount: '482'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ En tant que [!UICONTROL personne salariée], votre principale responsabilité es
 
 Les zones suivantes sont incluses dans la disposition par défaut [!UICONTROL d’une personne salariée] :
 
-* **[!UICONTROL Accueil]** : les tâches et les problèmes qui vous sont affectés s’affichent ici. Il s’agit de la page d’entrée par défaut d’un traitement. Cependant, elle n’apparaît pas dans le [!UICONTROL menu principal], sauf si un administrateur Workfront l’ajoute dans le modèle de mise en page.  Pour plus d’informations, consultez [Commencer avec l’[!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+* **[!UICONTROL Accueil]** : les tâches et les problèmes qui vous sont affectés s’affichent ici. Il s’agit de la page de destination par défaut d’un programme de travail, mais elle n’apparaît pas dans le [!UICONTROL menu principal] sauf si un administrateur Workfront l’ajoute dans le modèle de mise en page.  Pour plus d’informations, consultez [Commencer avec l’[!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * **[!UICONTROL Projets]** : les projets partagés avec vous s’affichent ici. Pour plus d’informations, consultez [Projets : index des articles](../../../manage-work/projects/projects-overview.md).
 
@@ -52,7 +52,7 @@ Les zones suivantes sont incluses dans la disposition par défaut [!UICONTROL d�
 
 * **[!UICONTROL Plans directeurs]** : passez en revue les plans directeurs existants dans votre système et demandez à en installer un, si l’administrateur ou l’administratrice [!DNL Workfront] a configuré la file d’attente des demandes pour les plans directeurs. Pour plus d’informations, voir [Vue d’ensemble des plans directeurs](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-![](assets/worker-main-menu-350x426.png)
+![Menu principal du programme de travail](assets/worker-main-menu-350x426.png)
 
 ## Personnaliser votre [!UICONTROL Menu principal] par défaut
 

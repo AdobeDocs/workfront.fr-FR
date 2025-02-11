@@ -5,9 +5,9 @@ description: Vous pouvez consulter des listes d’objets sur  [!DNL Adobe Workfr
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2290'
 ht-degree: 94%
 
 ---
@@ -60,12 +60,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher ou des autorisations supérieures à un filtre, une vue ou un groupe ayant accès au partage </p>  </td> 
+   <td> <p>Autorisations d’affichage ou supérieures à un filtre, une vue ou un regroupement avec accès à partager </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -331,7 +331,7 @@ Les éléments d’une liste sont les suivants :
 
 Ces éléments s’affichent par défaut en haut de chaque liste. Ils sont épinglés et ne se déplacent pas lorsque vous faites défiler la liste. Passez la souris sur l’icône de chaque élément pour l’identifier.
 
-![](assets/nwe-list-elements.png)
+![Liste des éléments](assets/nwe-list-elements.png)
 
 Vous pouvez personnaliser les éléments de la liste dans les domaines suivants et les partager avec d’autres personnes :
 
@@ -366,15 +366,15 @@ Vous pouvez effectuer les actions suivantes dans une liste :
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong>Mettre à jour avec le [!UICONTROL Summary]</strong> </td> 
-   <td> <p>Mettez à jour les tâches et les problèmes au niveau du projet en utilisant le panneau [!UICONTROL Summary].</p> <p><b>CONSEIL :</b></p> <p>Le résumé n’est pas disponible pour tous les objets et il n’est pas disponible dans les rapports Tâche ou Problème .</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Vue d’ensemble du résumé</a>.</p> </td> 
+   <td> <p>Mettez à jour les tâches et les problèmes au niveau du projet en utilisant le panneau [!UICONTROL Summary].</p> <p><b>CONSEIL :</b></p> <p>Le résumé n'est pas disponible pour tous les objets et n'est pas disponible dans les rapports Tâches ou Événements.</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Vue d’ensemble du résumé</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Personnaliser l’affichage de la liste</strong> </td> 
-   <td> <p>Personnalisez l’aspect et la convivialité d’une liste, la disposition des colonnes, l’ordre de tri des éléments ou le nombre d’éléments affichés.</p> <p><b>NOTE :</b></p> <p>Les modifications apportées au nombre d’éléments à afficher sur une page sont annulées lorsque vous vous déconnectez de [!DNL Workfront] ou fermez votre navigateur. Les modifications peuvent également être annulées après une période de 8 heures.</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modifier l’affichage d’une liste</a>.</p> </td> 
+   <td> <p>Personnalisez l’aspect et la convivialité d’une liste, la disposition des colonnes, l’ordre de tri des éléments ou le nombre d’éléments affichés.</p> <p><b>NOTE :</b></p> <p>Les modifications apportées au nombre d’éléments à afficher sur une page sont annulées lorsque vous vous déconnectez d’[!DNL Workfront] ou fermez votre navigateur. Les modifications peuvent également être annulées après une période de 8 heures.</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modifier l’affichage d’une liste</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Filtre rapide</strong> </td> 
-   <td> <p>Appliquez un filtre rapide pour ne trouver que les éléments qui sont importants pour vous afin de pouvoir les consulter, les mettre à jour ou les partager rapidement avec d’autres personnes.</p> <p><b>IMPORTANT :</b></p> <p> Vous pouvez rechercher les éléments qui contiennent un mot de recherche à l’aide du filtre rapide, que cet élément soit visible à l’écran ou s’affiche après avoir fait défiler la page vers le bas. Lorsque vous utilisez les fonctions de recherche de votre navigateur, vous ne pouvez trouver que des éléments déjà visibles à l’écran. Si votre liste comporte plusieurs pages, les filtres rapides ne recherchent que les éléments de la page en cours.</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Appliquer le filtre rapide à une liste</a>.</p> </td> 
+   <td> <p>Appliquez un filtre rapide pour ne trouver que les éléments qui sont importants pour vous afin de pouvoir les consulter, les mettre à jour ou les partager rapidement avec d’autres personnes.</p> <p><b>IMPORTANT :</b></p> <p> À l’aide du filtre rapide, vous pouvez trouver les éléments qui contiennent un mot de recherche, que cet élément soit visible à l’écran ou qu’il s’affiche après un défilement vers le bas de la page. Lorsque vous utilisez les fonctions de recherche de votre navigateur, vous ne pouvez trouver que des éléments déjà visibles à l’écran. Si votre liste comporte plusieurs pages, les filtres rapides ne recherchent que les éléments de la page en cours.</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Appliquer le filtre rapide à une liste</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Exporter</strong> </td> 
@@ -490,7 +490,7 @@ Le tableau suivant répertorie un grand nombre d’icônes disponibles dans la b
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[!UICONTROL Summary]</td> 
-   <td> <p>Affiche ou masque la case [!UICONTROL Summary] pour l’élément sélectionné.</p> <p>Cette option n’est disponible que pour les tâches et les problèmes.</p> <p>Pour plus d’informations sur le panneau [!UICONTROL Summary], voir <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview</a>.</p> </td> 
+   <td> <p>Affiche ou masque la case [!UICONTROL Summary] pour l’élément sélectionné.</p> <p>Cette option n’est disponible que pour les tâches et les problèmes.</p> <p>Pour plus d’informations sur le panneau [!UICONTROL Summary], consultez <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -624,11 +624,11 @@ Il existe deux types de listes dans [!DNL Workfront] :
 
 * Listes héritées
 
-  ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![Regroupements bleus](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * Listes mises à jour
 
-  ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![Regroupements gris](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 Le tableau suivant présente certaines des différences entre les listes héritées et les listes mises à jour dans [!DNL Workfront] :
 
@@ -653,7 +653,7 @@ Le tableau suivant présente certaines des différences entre les listes hérit�
   </tr> 
   <tr> 
    <td>Vous ne pouvez pas modifier en ligne les champs personnalisés avec un formatage de texte riche.</td> 
-   <td> <p>Le texte des champs personnalisés avec mise en forme peut être configuré pour autoriser les caractères gras, italiques, soulignés, les puces, la numérotation, les liens hypertextes et les guillemets.</p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Création d’un formulaire personnalisé</a>.</p> </td> 
+   <td> <p>Le texte des champs personnalisés avec mise en forme peut être configuré pour autoriser les caractères gras, italiques, soulignés, les puces, la numérotation, les liens hypertextes et les guillemets.</p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Créer un formulaire personnalisé</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>La mise en forme conditionnelle permet de modifier la couleur du texte des liens dans une liste.</td> 

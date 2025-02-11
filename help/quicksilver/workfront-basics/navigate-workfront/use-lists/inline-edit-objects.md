@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: use-lists
-title: Modification en ligne des éléments dans une liste dans  [!DNL Adobe Workfront]
+title: Modification intégrée d’éléments dans une liste dans  [!DNL Adobe Workfront]
 description: Vous pouvez modifier des objets en ligne lorsqu’ils s’affichent dans une liste ou un rapport. Lorsque vous modifiez les informations sur les objets affichés dans une liste ou un rapport, l’objet est immédiatement mis à jour.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '711'
 ht-degree: 95%
 
 ---
@@ -71,7 +71,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,14 +94,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Si le champ peut être modifié, lui et tous les autres champs affichés dans la liste sont alors transformés en cellules modifiables.
 
-   ![](assets/nwe-editable-cells-350x131.png)
+   ![cellules modifiables](assets/nwe-editable-cells-350x131.png)
 
 1. Modifiez les informations dans cette cellule, puis appuyez sur [!UICONTROL Entrée].
 
    >[!NOTE]
    >
    >Si un champ personnalisé a été configuré pour autoriser le formatage, vous pouvez mettre du texte en gras, en italique ou souligné lorsque vous modifiez le champ en ligne dans une liste mise à jour.
-   >Pour plus d’informations sur la configuration de la mise en forme pour un champ personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Pour plus d’informations sur la configuration de la mise en forme d’un champ personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    >Pour plus d’informations sur les listes mises à jour, voir la section « Différence entre les listes mises à jour et héritées » de l’article [Commencer avec les listes dans  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Appuyez sur la touche [!UICONTROL Tabulation] pour passer à la cellule modifiable suivante.

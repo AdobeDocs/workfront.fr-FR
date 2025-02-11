@@ -6,10 +6,10 @@ description: Vous pouvez modifier la langue dans laquelle vous affichez Adobe W
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 72%
+source-wordcount: '1075'
+ht-degree: 70%
 
 ---
 
@@ -98,7 +98,7 @@ Pour plus d’informations sur Workfront Fusion, voir [Vue d’ensemble d’Ado
 Vous pouvez modifier la langue dans laquelle vous affichez Workfront et la langue des e-mails sortants en modifiant les paramètres suivants :
 
 * La langue de votre navigateur (pour les utilisateurs qui ne sont pas sur IMS)
-* Langue principale et secondaire de votre profil AEM (pour les utilisateurs sur IMS)
+* Langue principale et secondaire de votre profil AEM (pour les utilisateurs d’IMS)
 * Informations client et paramètres régionaux des e-mails utilisateur de votre compte Workfront.
 
 Pour afficher toutes les traductions disponibles dans la langue de votre choix, le paramètre local Workfront et le paramètre local du navigateur doivent être définis sur la même langue.
@@ -138,7 +138,7 @@ Lorsque vous modifiez les paramètres régionaux des e-mails Workfront par déf
 Pour modifier les paramètres régionaux des e-mails Workfront par défaut :
 
 1. Connectez-vous à Workfront en tant qu’administrateur ou administratrice Workfront.
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
 1. Cliquez sur **Système** > **Infos client**.
 
@@ -152,7 +152,7 @@ Lorsque vous modifiez les paramètres régionaux des e-mails utilisateur, vous m
 
 >[!NOTE]
 >
->Lorsque votre organisation se trouve sur l’Adobe Expérience unifiée , les préférences linguistiques sont stockées dans votre profil d’Adobe et les paramètres régionaux de l’e-mail ne sont pas utilisés. Voir [Modifier la langue du Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) dans cet article.
+>Lorsque votre organisation se trouve sur l’expérience unifiée Adobe, les préférences linguistiques sont stockées dans votre profil Adobe et les paramètres régionaux des e-mails ne sont pas utilisés. Voir [Modifier la langue du Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) dans cet article.
 
 Pour modifier les paramètres régionaux des e-mails utilisateur :
 

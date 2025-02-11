@@ -6,10 +6,10 @@ description: Consultez cet article pour devenir un bêta-testeur ou une bêta-te
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 98%
 
 ---
 
@@ -34,13 +34,13 @@ Vous devez installer l’application [!DNL Workfront] avant de rejoindre la vers
 
 1. Une fois la progression terminée, vous recevez la confirmation que vous êtes désormais un utilisateur ou une utilisatrice bêta.\
    Le mot « [!UICONTROL bêta] » apparaît après le nom de votre application dans le [!DNL Play Store] indiquant que vous utilisez la version bêta de l’application.\
-   ![](assets/android-beta-tester-adobe-350x468.png)
+   ![testeur bêta Android](assets/android-beta-tester-adobe-350x468.png)
 
 ### Code QR
 
 Vous pouvez également scanner le code QR ci-dessous pour vous inscrire à la version bêta et télécharger l’application :
 
-![](assets/android-qr-code-350x409.png)
+![Code QR Android](assets/android-qr-code-350x409.png)
 
 ## Nous faire part de votre retour d’expérience
 

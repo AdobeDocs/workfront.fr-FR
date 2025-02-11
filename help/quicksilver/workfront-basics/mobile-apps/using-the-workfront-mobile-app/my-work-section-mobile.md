@@ -6,10 +6,10 @@ description: La section [!UICONTROL Mon travail] de la zone [!UICONTROL Accueil]
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ La section [!UICONTROL Mon travail] de la zone [!UICONTROL Accueil] affiche vos 
 >
 >[!UICONTROL Mon travail] dans l’application mobile est distinct de [!UICONTROL Mon travail] dans la version bureau d’[!UICONTROL Adobe Workfront].
 
-![](assets/home-myworksection-338x379.png)
+![Mes tâches](assets/home-myworksection-338x379.png)
 
 ## Personnaliser la section [!UICONTROL Mon travail] 
 
@@ -36,4 +36,4 @@ Vous pouvez choisir les éléments de menu à afficher dans [!UICONTROL Mon trav
    >
    >L’élément de menu [!UICONTROL Tâches et problèmes] est toujours affiché et vous ne pouvez pas le masquer.
 
-   ![](assets/mobile-settings-338x366.png)
+   ![ Paramètres mobiles ](assets/mobile-settings-338x366.png)

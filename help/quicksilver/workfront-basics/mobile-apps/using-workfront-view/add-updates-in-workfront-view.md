@@ -7,10 +7,10 @@ description: Vous pouvez réviser et ajouter des mises à jour aux projets que v
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,7 @@ Vous devez disposer des accès suivants dans [!DNL Workfront] pour suivre les é
 
 1. Saisissez une mise à jour.
 1. (Facultatif) Incluez d’autres personnes dans la mise à jour en appuyant sur l’icône [!UICONTROL personnes] et en spécifiant le nom d’un autre utilisateur ou une autre utilisatrice.\
-   ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![Mises à jour dans l’application mobile](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
 1. Appuyez sur **[!UICONTROL Publier]**.\
    La mise à jour apparaît sur le projet, dans le widget **[!UICONTROL Mises à jour]**.
