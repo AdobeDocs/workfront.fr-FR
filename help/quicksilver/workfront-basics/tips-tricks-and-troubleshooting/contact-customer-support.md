@@ -6,10 +6,10 @@ description: En tant que client ou cliente Adobe Workfront, vous pouvez contacte
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
+source-git-commit: 854b537e3a480d14a35bf7d17d1ed8ed1507660c
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 84%
+source-wordcount: '418'
+ht-degree: 81%
 
 ---
 
@@ -31,9 +31,17 @@ En tant que client ou cliente [!DNL Adobe Workfront], vous pouvez contacter l’
 
 Vous pouvez contacter l’[!DNL Workfront Customer Support] 7 jours sur 7, 24 heures sur 24, aux numéros suivants :
 
-* États-Unis : 844-306-HELP(4357)
-* EMEA : +44 1256 274200
-* Australie : +61 1 800 849259
+* US : 866-329-5273
+* EMEA : +44 800 169 0454
+* Australie : +61 180 035 8683
+
+<!--Old numbers - before 2/10/2025:
+
+* US: 844-306-HELP(4357)
+* EMEA: +44 1256 274200
+* Australia: +61 1800 849259
+
+-->
 
 ## Web
 
@@ -54,7 +62,7 @@ Vous pouvez envoyer un ticket d’assistance depuis le portail libre-service [!D
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
-1. Cliquez sur **[!UICONTROL Ouvrir le ticket]** dans la barre latérale gauche.
+1. Cliquez sur **[!UICONTROL Ouvrir un ticket]** dans la barre latérale gauche.
 La page de [!UICONTROL création de cas] s’ouvre. Vous pouvez saisir votre nom de produit ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), le titre et la description du cas.
 
    >[!TIP]
@@ -82,7 +90,7 @@ Si vous avez des questions ou des problèmes lors de l’envoi d’une demande, 
 
 ## Afficher et gérer vos cas d’assistance
 
-1. Accédez à la page **[!UICONTROL Mes cas]** . Cette page s’ouvre lorsque vous soumettez un dossier, ou vous pouvez l’ouvrir en cliquant sur **[!UICONTROL Mes cas]** dans le volet de navigation de gauche.
+1. Accédez à la page **[!UICONTROL Mes dossiers]**. Cette page s&#39;ouvre lorsque vous soumettez un dossier. Vous pouvez également l&#39;ouvrir en cliquant sur **[!UICONTROL Mes dossiers]** dans le volet de navigation de gauche.
 
 1. (Facultatif) Utilisez les options situées en haut de la page pour filtrer par **Produit (solution [!DNL Experience Cloud])** ou **[!UICONTROL Status]** du cas ([!UICONTROL Ouvert] ou Fermé). Vous pouvez également utiliser la zone de [!UICONTROL recherche] pour rechercher des mots-clés relatifs à vos cas d’assistance.
 
@@ -92,9 +100,9 @@ Si vous avez des questions ou des problèmes lors de l’envoi d’une demande, 
 
 1. (Facultatif) Dans la vue Cas, passez en revue les derniers commentaires avec la personne propriétaire du cas assignée et ajoutez des pièces jointes ou des réponses supplémentaires.
 
-1. (Facultatif) Pour réaffecter la casse, cliquez sur **[!UICONTROL Réaffecter à la gestion]** sur le côté droit de la page sous **[!UICONTROL Détails de la casse]**.
+1. (Facultatif) Pour escalader le dossier, cliquez sur **[!UICONTROL Escalader vers la direction]** sur le côté droit de la page sous **[!UICONTROL Détails du dossier]**.
 
-1. (Facultatif) Pour fermer la casse, cliquez sur le bouton **[!UICONTROL Fermer la casse]** .
+1. (Facultatif) Pour fermer la casse, cliquez sur le bouton **[!UICONTROL Fermer la casse]**.
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)

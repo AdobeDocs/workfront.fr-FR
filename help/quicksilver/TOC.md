@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c67affb14c237f8e4a6cf8a44c707a5ab5893364
+source-git-commit: 7a2549e0d523f211ee13bf13fdc9a54aa7cf4572
 workflow-type: tm+mt
-source-wordcount: '13028'
+source-wordcount: '13030'
 ht-degree: 92%
 
 ---
@@ -855,7 +855,7 @@ ht-degree: 92%
       * [Présentation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Résumer à l’aide de l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [Obtenir de l’aide à partir de l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
-      * [Vérifier des formules de champ calculé à l’aide de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+      * [Vérifier des formules de champ calculé à l’aide de l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
       * [Utiliser l’assistant d’IA pour travailler sur des projets, des tâches et des événements](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [Activer ou désactiver l’assistant IA.](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
    * Mettre à jour des éléments de travail et afficher les mises à jour {#update-work-items-view-updates}
@@ -2460,6 +2460,7 @@ ht-degree: 92%
       * [Utiliser l’API pour synchroniser les données des programmes et services](wf-api/general/api-sync-data.md)
       * [Désactiver un utilisateur ou une utilisatrice via l’API](wf-api/general/deactivate-user-api.md)
    * Abonnements aux événements {#event-subscriptions}
+      * [Abonnements aux événements](wf-api/api/event-subscriptions.md)
       * [API d’abonnement aux événements](wf-api/general/event-subs-api.md)
       * [Bonnes pratiques en matière d’abonnement aux événements](wf-api/general/event-sub-best-practice.md)
       * [Exigences de diffusion de l’abonnement à un événement](wf-api/general/setup-event-sub-endpoint.md)

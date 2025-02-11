@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 38%
+source-wordcount: '364'
+ht-degree: 31%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 38%
 
 Adobe Workfront Planning comporte des limites quant au nombre d’objets que vous pouvez créer dans votre instance. Des limites d’objet sont en place pour améliorer les performances du produit et votre expérience avec Workfront Planning.
 
-Le tableau suivant indique les limites du nombre d’objets que vous pouvez créer dans Workfront Planning. Les limites peuvent changer au fur et à mesure que nous entrons dans les phases suivantes de développement.
+Le tableau suivant indique les limites du nombre d’objets que vous pouvez créer dans Workfront Planning. Les limitations peuvent changer.
 
 | Objet Adobe Workfront Planning | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Nombre d’espaces de travail pour une instance Workfront | illimité* |
 | Nombre de sections d’un espace de travail | 50 |
-| Nombre de types d’enregistrement d’un espace de travail | 1 000 (y compris les types d’enregistrement de toutes les sections et ceux créés lors de l’utilisation d’un modèle d’espace de travail) |
+| Nombre de types d’enregistrements pour un espace de travail | 1 000 (y compris les types d’enregistrement de toutes les sections et ceux créés lors de l’utilisation d’un modèle d’espace de travail) |
 | Nombre d’enregistrements d’un type d’enregistrement | 25 000 |
 | Nombre d’enregistrements pour un espace de travail | 25 000 pour les clients Planning <br> 500 000 pour les clients Planning Plus |
-| Nombre total d&#39;enregistrements pour une instance de Workfront Planning | 500 000 pour les clients disposant du plan de planification <br>2 millions pour les clients disposant de Planning Plus |
+| Nombre total d&#39;enregistrements pour une instance de Workfront Planning | 500 000 pour les clients avec Planning 2 millions de <br> pour les clients avec Planning Plus |
 | Nombre de champs pour un type d’enregistrement ou une taxonomie | 500 |
 | Nombre de caractères d’un champ de texte monoligne | 1 000 caractères |
 | Nombre de caractères d’un champ de paragraphe | 10 000 caractères |
