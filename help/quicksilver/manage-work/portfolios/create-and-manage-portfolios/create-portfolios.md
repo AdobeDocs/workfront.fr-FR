@@ -6,9 +6,9 @@ description: Un portfolio est un ensemble de projets qui se partagent les mêmes
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '671'
 ht-degree: 80%
 
 ---
@@ -49,29 +49,29 @@ Vous pouvez utiliser des portfolios pour regrouper des projets qui appartiennent
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Méthodes de création de portfolios
+## Création de portefeuilles
 
-Vous pouvez créer un portfolio dans Workfront à l’aide de l’une des méthodes suivantes :
+Vous pouvez créer un portefeuille dans Workfront à l’aide de l’une des méthodes suivantes :
 
-* Créez un portfolio à partir de zéro dans la zone Portfolios du menu principal. Cet article décrit comment créer entièrement un portfolio.
+* Créez un portfolio à partir de zéro en commençant dans la zone Portfolios du menu principal. Cet article décrit comment créer un portfolio à partir de zéro.
 
-* Importez un portfolio à l’aide de lancements.
+* Importez un portefeuille à l’aide de Kickstarts.
 
-  En tant qu’administrateur Workfront, vous pouvez importer des portefeuilles à l’aide d’un lancement rapide.
+  En tant qu’administrateur Workfront, vous pouvez importer des portefeuilles à l’aide d’un lancement.
 
   Pour plus d’informations sur l’import de données à l’aide de Kickstarts dans Workfront, consulter la section [Importer des données dans Adobe Workfront à l’aide d’un modèle de Kickstart](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-* Ajoutez des portefeuilles lorsque vous les connectez à partir d’un type d’enregistrement dans Workfront Planning.
+* Ajoutez des portfolios au fur et à mesure que vous les connectez à partir d’un type d’enregistrement dans Workfront Planning.
 
   Vous devez disposer d’une nouvelle licence Workfront et d’une licence Workfront Planning supplémentaire pour Workfront Planning.
 
-  Pour plus d’informations sur l’accès à Workfront Planning, voir [Présentation des accès](/help/quicksilver/planning/access/access-overview.md).
+  Pour plus d’informations sur l’accès à Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/planning/access/access-overview.md).
 
-  Pour plus d’informations sur la création de portfolios en les ajoutant aux enregistrements, reportez-vous à la section &quot;Créer des enregistrements lorsque vous les connectez&quot; dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+  Pour plus d&#39;informations sur la création de portefeuilles en les ajoutant à des enregistrements, reportez-vous à la section « Créer des enregistrements au fur et à mesure que vous les connectez » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
 
 ## Créer un portfolio
@@ -86,7 +86,7 @@ Vous pouvez créer un portfolio dans Workfront à l’aide de l’une des métho
 
 1. (Facultatif) Cliquez sur le nom sous **[!UICONTROL Personne gestionnaire de portfolio]** dans l’en-tête situé en haut de la page afin d’attribuer une autre personne responsable au portfolio.
 
-   ![](assets/portfolio-manager-name-350x51.jpg)
+   ![nom du gestionnaire Portfolio](assets/portfolio-manager-name-350x51.jpg)
 
    En tant que créateur ou créatrice du portfolio, vous êtes gestionnaire de portfolio par défaut.
 

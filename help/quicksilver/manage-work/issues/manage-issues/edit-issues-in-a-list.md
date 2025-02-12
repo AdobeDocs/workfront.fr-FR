@@ -6,10 +6,10 @@ description: Vous pouvez modifier un problème spécifique ou modifier des probl
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 100%
+source-wordcount: '896'
+ht-degree: 90%
 
 ---
 
@@ -65,7 +65,7 @@ Pour modifier en ligne un problème, procédez comme suit :
 1. Accédez à une liste de problèmes dans un projet ou une tâche.
 1. Cliquez à l’intérieur d’un champ pour lequel vous disposez de l’autorisation de mettre à jour manuellement. Le champ devient modifiable et vous pouvez apporter vos modifications.
 
-   ![](assets/edit-issues-inline-350x34.png)
+   ![Modifier les événements intégrés](assets/edit-issues-inline-350x34.png)
 
 1. Appuyez sur Entrée lorsque vous souhaitez accepter vos modifications. Les modifications sont immédiatement enregistrées.
 
@@ -76,9 +76,9 @@ Pour modifier en ligne un problème, procédez comme suit :
 1. Accédez à une liste de problèmes dans un projet ou une tâche.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Sélectionnez le problème dans la liste, puis cliquez sur l’icône Modifier ![](assets/qs-edit-icon.png) dans la barre d’outils.
-   * Cliquez sur le **menu Plus** ![](assets/more-icon-task-list.png) à droite du nom du problème, puis cliquez sur **Ouvrir dans un nouvel onglet**. Cette opération ouvre la page des problèmes dans un nouvel onglet. Cliquez sur **Plus** > **Modifier** sur la page de problèmes.
-   * Cliquez sur le **menu Plus** ![](assets/more-icon-task-list.png) à droite du nom du problème, puis cliquez sur **Modifier**.
+   * Sélectionnez l’événement dans la liste, puis cliquez sur l’icône Modifier ![icône Modifier](assets/qs-edit-icon.png) dans la barre d’outils.
+   * Cliquez sur le **menu Plus** ![menu Plus](assets/more-icon-task-list.png) à droite du nom de l’événement, puis cliquez sur **Ouvrir dans un nouvel onglet**. Cette opération ouvre la page des problèmes dans un nouvel onglet. Cliquez sur **Plus** > **Modifier** sur la page de problèmes.
+   * Cliquez sur le **menu Plus** ![menu Plus](assets/more-icon-task-list.png) à droite du nom de l’événement, puis cliquez sur **Modifier**.
 
      L’une de ces actions ouvre la zone Modifier le problème.
 
@@ -93,7 +93,7 @@ Vous pouvez modifier un problème dans une liste à l’aide du Résumé.
 
    La liste des problèmes du projet s’affiche.
 
-1. Sélectionnez un problème à modifier, puis cliquez sur le l’icône **Ouvrir le Résumé** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) dans le coin supérieur droit de la liste de problèmes.
+1. Sélectionnez un événement à modifier, puis cliquez sur l’icône **Ouvrir le résumé** ![Ouvrir le résumé](assets/qs-open-summary-icon-in-new-toolbar-small.png) dans le coin supérieur droit de la liste des événements.
 
    Le **Résumé** s’ouvre.
 
@@ -119,7 +119,7 @@ Pour modifier les problèmes en masse, procédez comme suit :
 1. Cliquez sur le nom d’un projet pour y accéder.
 1. Cliquez sur **Problèmes** dans le panneau de gauche.
 1. Sélectionnez plusieurs problèmes dans la liste.
-1. Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png).
 
    La boîte de dialogue **Modifier des problèmes** s’ouvre.
 

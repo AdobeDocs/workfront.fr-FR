@@ -6,10 +6,10 @@ description: Informations sur la manière de niveler les ressources dans le diag
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Tenez compte des points suivants lors du nivellement des ressources sur un proje
 * Les relations d’antériorité ont la priorité sur le nivellement des ressources.
 * Le **[!UICONTROL nivellement des ressources]** doit être défini sur **[!UICONTROL Manuel]** pour le projet afin d’ajuster le nivellement dans le [!UICONTROL Diagramme de Gantt]. Si vous disposez des autorisations de gestion pour le projet, le système peut niveler automatiquement les ressources si vous réglez le paramètre dans le projet et si vous sélectionnez **[!UICONTROL Automatique]** au lieu de **[!UICONTROL Manuel]** dans la zone **[!UICONTROL Modifier le projet]**.
 
-  ![](assets/resource-leveling-mode-350x177.png)
+  ![Mode de nivellement des ressources](assets/resource-leveling-mode-350x177.png)
 
 * En tant que personne propriétaire du projet ou personne affectée à une tâche, vous pouvez définir un délai de nivellement pour une tâche afin d’indiquer qu’il est très probable que la tâche nécessite du temps supplémentaire. Pour plus d’informations sur l’ajout d’un délai de nivellement à une tâche, consultez [Mettre à jour le délai de nivellement d’une tâche](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
@@ -83,7 +83,7 @@ Vous pouvez utiliser le [!UICONTROL Diagramme de Gantt] de la liste des tâches 
    >
    >Vous ne pouvez pas niveler les ressources dans le [!UICONTROL Diagramme de Gantt] lorsque l’option [!UICONTROL Enregistrement automatique] est activée.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Paramètre manuel activé](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Cliquez sur le menu déroulant **[!UICONTROL Niveler les ressources]**.
 

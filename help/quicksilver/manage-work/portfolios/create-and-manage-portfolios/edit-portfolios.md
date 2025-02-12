@@ -2,14 +2,14 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Modifier les portefeuilles
-description: Vous pouvez modifier des informations sur les portefeuilles que vous avez créés ou que d’autres utilisateurs ont créés s’ils les ont partagés avec vous. Cet article décrit comment rechercher, rechercher et modifier un portfolio, si vous êtes autorisé à le faire.
+description: Vous pouvez modifier les informations des portefeuilles que vous avez créés ou que d’autres utilisateurs ont créés s’ils les ont partagés avec vous. Cet article décrit comment rechercher, rechercher et modifier un portfolio, si vous disposez des autorisations nécessaires pour le faire.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 91%
+source-wordcount: '1029'
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,7 @@ Vous pouvez modifier un [!UICONTROL portfolio] dans la page des portfolios ou mo
    <td> <p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] licences*</td> 
+   <td role="rowheader">Licences Adobe [!DNL Workfront]*</td> 
    <td> <p>Nouveau : Standard</p>
    <p>Actuelle : [!UICONTROL Plan] </p> </td> 
   </tr> 
@@ -43,12 +43,12 @@ Vous pouvez modifier un [!UICONTROL portfolio] dans la page des portfolios ou mo
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Autorisations [!UICONTROL Manage] pour un portfolio</p>
-   <p> Gérer les autorisations sur les projets du portfolio pour les ajouter ou les supprimer du portfolio</p>  </td> 
+   <p> Gérez les autorisations des projets du portfolio pour les ajouter ou les supprimer du portfolio</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +59,7 @@ Vous pouvez modifier un [!UICONTROL portfolio] dans la page des portfolios ou mo
 1. Cliquez sur le nom d’un portfolio pour l’ouvrir.
 1. (Facultatif) Pour modifier des informations limitées sur le portfolio, cliquez sur **[!UICONTROL Détails du portfolio]** dans le panneau de gauche.
 
-   ![](assets/portfolio-details-tab-nwe-350x163.png)
+   ![Onglet Détails de Portfolio](assets/portfolio-details-tab-nwe-350x163.png)
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
@@ -72,10 +72,10 @@ Vous pouvez modifier un [!UICONTROL portfolio] dans la page des portfolios ou mo
    Pour modifier les informations de la section [!UICONTROL Détails], procédez comme suit :
 
    1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Tout réduire]** en haut à droite pour réduire toutes les zones.
-   1. (Facultatif et le cas échéant) Lorsqu’une zone est réduite, cliquez sur la **flèche pointant vers la droite** ![](assets/right-pointing-arrow.png) à côté de chaque zone pour développer la zone à modifier.
+   1. (Facultatif et conditionnel) Lorsqu’une zone est réduite, cliquez sur la **flèche pointant vers la droite** ![flèche pointant vers la droite](assets/right-pointing-arrow.png) en regard de chaque zone pour développer la zone à modifier.
    1. Pour plus d’informations sur les champs visibles dans la section [!UICONTROL Détails du portfolio], continuez à modifier le portfolio dans la zone [!UICONTROL Modifier le portfolio] comme décrit ci-dessous.
    1. (Facultatif) Si aucun formulaire personnalisé n’est associé au portfolio, commencez à saisir le nom d’un formulaire dans le champ **[!UICONTROL Ajouter un formulaire personnalisé]**, sélectionnez-le lorsqu’il s’affiche dans la liste, puis cliquez sur **[!UICONTROL Enregistrer les modifications]**.
-   1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Exporter]** ![](assets/export.png) pour exporter la [!UICONTROL Vue d’ensemble] et des informations sur les formulaires personnalisés vers un fichier PDF, puis cliquez sur **[!UICONTROL Exporter]**. Sélectionnez l’une des options suivantes :
+   1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Exporter]** ![Icône Exporter](assets/export.png) pour exporter les informations [!UICONTROL Présentation] et de formulaires personnalisés dans un fichier PDF, puis cliquez sur **[!UICONTROL Exporter]**. Sélectionnez l’une des options suivantes :
 
       * Sélectionner tout (ne s’affiche que lorsqu’au moins un formulaire personnalisé est joint)
       * Vue d’ensemble
@@ -83,7 +83,7 @@ Vous pouvez modifier un [!UICONTROL portfolio] dans la page des portfolios ou mo
 
       Le fichier PDF est téléchargé sur votre ordinateur.
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![Exporter les détails du portfolio](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       Pour plus d’informations, voir la section [Exporter des détails sur les formulaires personnalisés et les objets](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
@@ -100,14 +100,14 @@ Vous pouvez modifier un [!UICONTROL portfolio] dans la page des portfolios ou mo
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
      -->
 
-   * Dans la liste des portfolios, sélectionnez un ou plusieurs portfolios à modifier, puis cliquez sur l’icône **[!UICONTROL Modifier]** ![](assets/edit-icon.png) en haut de la liste.
+   * Dans une liste de portefeuilles, sélectionnez un ou plusieurs portefeuilles à modifier, puis cliquez sur l&#39;icône **[!UICONTROL Modifier]** ![Modifier](assets/edit-icon.png) en haut de la liste.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new [!UICONTROL Edit Portfolio] UI)</p>   
      -->
    La boîte de dialogue **[!UICONTROL Modifier le portfolio]** s’affiche.
 
-   ![](assets/edit-portfolio-box-classic-350x224.png)
+   ![Boîte Modifier le portfolio](assets/edit-portfolio-box-classic-350x224.png)
 
    Tous les champs de portfolio sont disponibles dans la zone [!UICONTROL Modifier le portfolio] et sont regroupés en fonction des zones répertoriées dans le panneau de gauche.
 
@@ -175,7 +175,7 @@ Vous pouvez modifier un [!UICONTROL portfolio] dans la page des portfolios ou mo
 
    >[!NOTE]
    >
-   >Selon la manière dont votre équipe d’administration [!DNL Workfront] définit les autorisations pour les sections de votre formulaire personnalisé, tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le portfolio lui-même. Pour plus d’informations sur la définition des autorisations sur les sections d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Selon la manière dont votre équipe d’administration [!DNL Workfront] définit les autorisations pour les sections de votre formulaire personnalisé, tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le portfolio lui-même. Pour plus d’informations sur la définition des autorisations pour les sections d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Mettez à jour les champs des formulaires personnalisés, puis cliquez sur **[!UICONTROL Enregistrer les modifications]** ou passez à la section suivante.
 
@@ -184,7 +184,7 @@ Vous pouvez modifier un [!UICONTROL portfolio] dans la page des portfolios ou mo
 1. Commencez à modifier un portfolio, tel que décrit ci-dessus.
 1. Cliquez sur **[!UICONTROL Commentaire]**.
 
-   ![](assets/comment-box-edit-portfolio-classic-350x227.png)
+   ![zone de commentaire Modifier le portfolio](assets/comment-box-edit-portfolio-classic-350x227.png)
 
 1. Ajoutez un commentaire dans le champ **[!UICONTROL Publier une mise à jour du portfolio]**.
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Personnes]** pour ajouter un utilisateur ou une utilisatrice ou une équipe au commentaire.

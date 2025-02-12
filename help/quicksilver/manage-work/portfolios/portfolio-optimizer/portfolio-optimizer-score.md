@@ -7,14 +7,14 @@ description: Vous trouverez le score de l’optimisateur de portfolio dans l’o
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 96%
+source-wordcount: '737'
+ht-degree: 94%
 
 ---
 
-# Présentation du score de [!UICONTROL Portfolio Optimizer]
+# Présentation du score [!UICONTROL Portfolio Optimizer]
 
 <!--Audited: 01/2025-->
 
@@ -32,9 +32,9 @@ Le score d’alignement d’un projet est calculé sur la base des points obtenu
 
 Le score d’alignement d’un projet s’affiche dans la colonne **[!UICONTROL Alignement]** de l’[!UICONTROL optimisateur de portfolio] ou dans le champ [!UICONTROL Alignement] du [!UICONTROL Récapitulatif du business case].
 
-![](assets/business-case-summary-aligned-field-highlighted.png)
+![Résumé du business case](assets/business-case-summary-aligned-field-highlighted.png)
 
-![](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![Score d&#39;alignement du projet](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
 Pour plus d’informations sur la génération du score d’alignement d’un projet, voir l’article [Appliquer une carte de performance à un projet et générer un score d’alignement](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
@@ -44,7 +44,7 @@ Le score de l’[!UICONTROL optimisateur de portfolio] est un classement automat
 >
 >Un projet ne peut être évalué dans l’[!UICONTROL optimisateur de portfolio] que si son business case a été réalisé. Pour plus d’informations sur la réalisation d’un business case, voir l’article [[!UICONTROL Créer un business case] pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-![](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![Score du projet](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 Le score attribué à chaque projet est calculé en fonction de l’importance des catégories suivantes :
 
@@ -87,7 +87,7 @@ Les critères suivants permettent de noter un projet :
 * [!UICONTROL Ratio risque/bénéfice]
 * [!UICONTROL Retour sur investissement]
 
-![](assets/optimizer-sliding-value-options-350x77.png)
+![Options de valeur glissante](assets/optimizer-sliding-value-options-350x77.png)
 
 Pour plus d’informations sur l’optimisation des projets dans le portfolio, voir [Optimiser les projets dans l’[!UICONTROL optimisateur de portfolio]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 

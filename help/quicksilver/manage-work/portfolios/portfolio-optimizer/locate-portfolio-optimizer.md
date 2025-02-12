@@ -6,10 +6,10 @@ description: Vous trouvez l’[!UICONTROL optimisateur de portfolio] lorsque vou
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 94%
+source-wordcount: '143'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,4 +63,4 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    L’[!UICONTROL optimisateur de portfolio] s’affiche.
 
-   ![](assets/nwe-portfolio-optimizer-350x83.png)
+   ![Portfolio optimizer](assets/nwe-portfolio-optimizer-350x83.png)

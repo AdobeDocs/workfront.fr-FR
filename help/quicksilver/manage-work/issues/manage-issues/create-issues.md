@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 100%
+source-wordcount: '1540'
+ht-degree: 99%
 
 ---
 
@@ -111,7 +111,7 @@ To create an issue on a task or a project:
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-   ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
+   ![New issue screen](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
    * If there is only one Queue Topic set on the project, it is displayed automatically.
    * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
@@ -163,7 +163,7 @@ Pour créer un problème sur une tâche ou un projet :
 1. Cliquez sur **Nouveau problème** en haut de la liste des problèmes.
 La boîte de dialogue Nouveau problème s’affiche.
 
-   ![](assets/new-issue-box-matches-new-request-ui.png)
+   ![Nouvelle boîte d&#39;événement](assets/new-issue-box-matches-new-request-ui.png)
 
 1. (Le cas échéant) Si la personne à l’origine du projet a créé des rubriques de file d’attente ou des groupes de rubriques sur le projet, ils sont ajoutés au formulaire du nouveau problème. Indiquez le **groupe de rubriques** ou la **rubrique de file d’attente** de votre nouveau problème. Les groupes de rubriques et les rubriques de file d’attente ont des noms adaptés à votre environnement.\
    Pour plus d’informations sur la création de groupes de rubriques, voir [Créer des groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Pour plus d’informations sur la création de rubriques de file d’attente, voir [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -231,7 +231,7 @@ Pour créer des problèmes en ligne :
    >
    >Cette option est grisée si le paramètre Autoriser les utilisateurs et utilisatrices à ajouter des problèmes en ligne est désélectionné dans la boîte Modifier le projet. Pour plus d’informations, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   ![](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
+   ![Bouton Ajouter d&#39;autres événements](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
 1. Commencez à saisir le nom du problème dans le champ Nom, puis continuez à ajouter des informations sur le problème en ligne.
 

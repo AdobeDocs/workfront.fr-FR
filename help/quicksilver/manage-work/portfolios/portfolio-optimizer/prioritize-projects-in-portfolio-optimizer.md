@@ -6,10 +6,10 @@ description: Vous pouvez hiérarchiser vos projets dans l’Optimisateur de port
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 94%
+source-wordcount: '541'
+ht-degree: 91%
 
 ---
 
@@ -56,19 +56,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Autorisations [!UICONTROL Manage] pour le portfolio</p> <p>Autorisation Contribuer ou supérieure pour les projets</p> 
-   <p>Vous devez disposer des autorisations de gestion pour tous les projets de la liste pour pouvoir utiliser <b>Définir la priorité du projet</b>.</p>
+   <p>Vous devez disposer d’autorisations de niveau Gérer pour tous les projets de la liste pour pouvoir utiliser <b>Définir la priorité du projet</b>.</p>
     </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès requises pour la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Modifier la priorité des projets dans l’[!UICONTROL Optimisateur de portfolio]
 
-1. Cliquez sur l’icône **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
 1. Cliquez sur **[!UICONTROL Portfolios]**.
 1. (Facultatif) Sélectionnez le filtre approprié dans le menu déroulant **[!UICONTROL Filtrer]** pour afficher la liste appropriée de portfolios.
@@ -76,7 +76,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Cliquez sur **[!UICONTROL Optimisation de portfolio]** dans le panneau de gauche.
 1. Dans la zone [!UICONTROL optimisation de projet], modifiez la priorité de vos projets en les faisant glisser par ordre de priorité, puis en les déposant à la position souhaitée sur l’affichage.
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![Portfolio optimizer avec projets](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    Cliquez sur **[!UICONTROL Définir la priorité]** dans la zone d’optimisation de projet une fois que vous avez terminé de réorganiser vos projets. Les projets reçoivent un nouveau numéro en fonction du nouvel ordre.
 

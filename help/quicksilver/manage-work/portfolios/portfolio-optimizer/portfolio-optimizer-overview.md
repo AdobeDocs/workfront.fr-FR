@@ -7,9 +7,9 @@ description: L’[!UICONTROL optimisateur de portfolio] est l’outil utilisé p
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1657'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 L’[!UICONTROL optimisateur de portfolio] est l’outil utilisé pour l’évaluation et la comparaison des projets. Les personnes gestionnaires de portfolio peuvent hiérarchiser les projets et générer un maximum de valeur pour l’entreprise grâce au processus de révision et de comparaison des valeurs de [!UICONTROL business case] pour les projets affectés à un portfolio.
 
-![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+![Portfolio optimizer avec projets](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
 L’[!UICONTROL optimisateur de portfolio] a pour fonction de fournir une interface permettant aux personnes gestionnaires de portfolio, à un comité de direction ou à un bureau de gestion de produits d’afficher des informations récapitulatives sur le business case de chaque projet. Les projets peuvent ensuite être hiérarchisés en fonction des valeurs et des objectifs stratégiques, ou selon leur score global.
 
@@ -62,7 +62,7 @@ Les champs financiers suivants s’affichent dans l’[!UICONTROL optimisateur d
 
 #### En-tête de portfolio {#portfolio-header}
 
-![](assets/portfolio-header-nwe-350x14.png)
+![En-tête Portfolio](assets/portfolio-header-nwe-350x14.png)
 
 [!DNL Adobe Workfront] calcule les champs financiers de l’en-tête du portfolio grâce aux informations provenant de projets dont le statut correspond uniquement à [!UICONTROL Approuvé] ou [!UICONTROL Actuel].
 
@@ -101,7 +101,7 @@ Les champs financiers suivants s’affichent dans l’[!UICONTROL optimisateur d
 
 #### Finances du portfolio pour les projets sélectionnés {#portfolio-finances-for-selected-projects}
 
-![](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
+![finances de Portfolio](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -169,7 +169,7 @@ Les icônes et options suivantes sont disponibles pour l’[!UICONTROL optimisat
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
    <td>[!UICONTROL Set project priority]</td> 
    <td><p>Utilisez cette icône lorsque vous souhaitez enregistrer l’ordre des projets en fonction de leur priorité.</p>
-   <p>Vous devez disposer des autorisations de gestion pour tous les projets de la liste pour pouvoir utiliser <b>Définir la priorité du projet</b></p>.
+   <p>Vous devez disposer d’autorisations de niveau Gérer pour tous les projets de la liste pour pouvoir utiliser <b>Définir la priorité des projets</b></p>.
     </td> 
   </tr> 
   <tr> 

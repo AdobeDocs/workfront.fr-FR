@@ -6,10 +6,10 @@ description: Convertir un problème en projet dans Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1957'
-ht-degree: 98%
+source-wordcount: '1975'
+ht-degree: 89%
 
 ---
 
@@ -69,12 +69,12 @@ Vous pouvez convertir un problème en un projet vide.
 1. Accédez au projet et cliquez sur **[!UICONTROL Problèmes]** dans le panneau de gauche.
 1. Dans la liste des problèmes qui s’affiche, effectuez l’une des opérations suivantes :
 
-   * Pour convertir un problème en un projet vide, cliquez sur le nom du problème, puis sur le menu **[!UICONTROL Plus]** ![](assets/more-icon.png) à droite du nom du problème, et enfin sur **[!UICONTROL Convertir en projet vide]**.
+   * Pour convertir un événement en projet vierge, cliquez sur le nom de l’événement, cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/more-icon.png) à droite du nom de l’événement, puis cliquez sur **[!UICONTROL Convertir en projet vierge]**.
 
 
      Ou
 
-     Sélectionnez le problème dans la liste des problèmes, cliquez sur le menu **[!UICONTROL Plus]** ![](assets/more-icon.png) en haut de la liste, puis cliquez sur **[!UICONTROL Convertir en projet vide]**.
+     Sélectionnez l’événement dans la liste des événements, cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/more-icon.png) en haut de la liste, puis cliquez sur **[!UICONTROL Convertir en projet vierge]**.
 
      >[!IMPORTANT]
      >
@@ -122,14 +122,14 @@ Vous pouvez convertir un problème en un projet vide.
    * Examinez les formulaires personnalisés joints au problème. Ils seront transférés dans le nouveau projet s’il s’agit de formulaires personnalisés.
    * Ajouter davantage de formulaires personnalisés
    * Assurez-vous que tous les champs obligatoires contiennent des informations valides.
-   * Réorganisez les formulaires personnalisés en les faisant glisser ![](assets/drag-object-icon.png) à l’endroit souhaité.
+   * Réorganisez les formulaires personnalisés en les faisant glisser ![icône Faire glisser](assets/drag-object-icon.png) à l’endroit souhaité.
    * Cliquez sur l’icône **x** à droite de tout formulaire à ne pas transférer au projet. Cette opération supprime le formulaire du projet.
    * Si nécessaire, transférez les informations du formulaire personnalisé du problème au projet.
 
      >[!TIP]
      >
      >* Si un formulaire personnalisé multi-objets attaché au problème est configuré pour être utilisé à la fois avec les problèmes et les projets, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion si les champs existent à la fois dans le problème et dans les formulaires personnalisés du projet.
-     >* Si un formulaire personnalisé multi-objets avec un champ calculé est attaché au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, reportez-vous à la section &quot;Champs personnalisés calculés dans les formulaires personnalisés à plusieurs objets&quot; dans la section [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+     >* Si un formulaire personnalisé multi-objets avec un champ calculé est attaché au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, reportez-vous à la section « Champs calculés personnalisés dans les formulaires personnalisés à plusieurs objets » de la section [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 1. Cliquez sur [!UICONTROL **Convertir en un projet**].
 
@@ -153,7 +153,7 @@ Vous pouvez convertir un problème en un projet vide.
 Vous pouvez convertir un problème en projet à l’aide d’un modèle.
 
 1. Allez dans un projet et cliquez sur **[!UICONTROL Problèmes]** dans le panneau de gauche.
-1. Dans la liste des problèmes qui s’affiche, cliquez sur le nom du problème, cliquez sur le menu **[!UICONTROL Plus]** ![](assets/more-icon.png) à droite du nom du problème, puis cliquez sur **Convertir en projet à partir du modèle**. Commencez à taper le nom d’un modèle dans la zone **Rechercher un modèle**, puis cliquez sur le nom du modèle lorsqu’il s’affiche dans la liste. Passez à l’étape 3.
+1. Dans la liste des événements qui s’affiche, cliquez sur le nom de l’événement, cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/more-icon.png) à droite du nom de l’événement, puis cliquez sur **Convertir en projet à partir d’un modèle** et commencez à saisir le nom d’un modèle dans la zone **Rechercher un modèle**, puis cliquez sur le nom du modèle lorsqu’il s’affiche dans la liste. Passez à l’étape 3.
 
    >[!TIP]
    >
@@ -161,7 +161,7 @@ Vous pouvez convertir un problème en projet à l’aide d’un modèle.
 
    La boîte de dialogue Nouveau projet à partir d’un modèle s’affiche.
 
-   ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+   ![Nouveau projet à partir d’un modèle](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
    >[!TIP]
    >
@@ -180,7 +180,7 @@ Vous pouvez convertir un problème en projet à l’aide d’un modèle.
    * Nombre de toutes les tâches dans le modèle
    * Noms des modèles de formulaires personnalisés
 
-1. (Facultatif) Passez la souris sur le nom d’un modèle et cliquez sur l’icône **Favoris** ![](assets/favorites-icon-small.png) pour le marquer comme favori en vue d’une utilisation ultérieure.
+1. (Facultatif) Placez le pointeur de la souris sur le nom d’un modèle et cliquez sur l’icône **Favoris** ![Favoris](assets/favorites-icon-small.png) pour le marquer comme favori en vue d’une utilisation ultérieure.
 
    >[!TIP]
    >
@@ -190,7 +190,7 @@ Vous pouvez convertir un problème en projet à l’aide d’un modèle.
 
    La zone [!UICONTROL Convertir en un projet] s’ouvre.
 
-   ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![ Convertir en projet ](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
 1. Si un champ est déjà rempli dans le modèle, il est pré-rempli dans la zone [!UICONTROL Convertir en un projet]. Vous pouvez modifier les valeurs pré-remplies pour qu’elles correspondent mieux à votre projet. Pour plus d’informations, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -230,14 +230,14 @@ Vous pouvez convertir un problème en projet à l’aide d’un modèle.
       * Vérifiez les formulaires personnalisés joints au modèle. Ils seront transférés vers le nouveau projet.
       * Examinez les formulaires personnalisés joints au problème. Ils seront transférés vers le projet s’il s’agit également de formulaires de projet.
       * Assurez-vous que tous les champs obligatoires contiennent des informations valides.
-      * Réorganisez les formulaires personnalisés en les faisant glisser ![](assets/drag-object-icon.png) à l’endroit souhaité.
+      * Réorganisez les formulaires personnalisés en les faisant glisser ![icône Faire glisser](assets/drag-object-icon.png) à l’endroit souhaité.
       * Cliquez sur l’icône **x** à droite de tout formulaire que vous ne souhaitez pas transférer vers le projet.
       * Si nécessaire, transférez les informations du formulaire personnalisé du problème au projet.
 
         >[!TIP]
         >
         >* Si un formulaire personnalisé multi-objets attaché au problème est configuré pour être utilisé à la fois avec les problèmes et les projets, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion si les champs existent à la fois dans le problème et dans les formulaires personnalisés du projet.
-        >* Si un formulaire personnalisé multi-objets avec un champ calculé est attaché au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+        >* Si un formulaire personnalisé multi-objets avec un champ calculé est attaché au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
         >* Si un formulaire personnalisé joint au modèle contient un champ personnalisé qui se trouve également dans un formulaire personnalisé joint au problème, la valeur du champ du problème est utilisée pour le nouveau projet. Cependant, si le champ personnalisé est vide sur le problème, la valeur du modèle est utilisée.
 
 1. (Facultatif) Définissez d’autres détails du projet (personne propriétaire du projet, dates du projet) et des tâches si nécessaire.

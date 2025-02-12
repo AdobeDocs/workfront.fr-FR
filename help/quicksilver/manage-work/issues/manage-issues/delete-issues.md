@@ -6,10 +6,10 @@ description: Vous pouvez supprimer des problèmes ou des requêtes dans Adobe W
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -110,7 +110,7 @@ Selon la manière dont votre équipe d’administration Workfront ou de groupes 
 1. Cliquez sur **Projets**.
 1. Cliquez sur le nom du projet qui contient les problèmes que vous souhaitez supprimer.
 1. Cliquez sur **Problèmes** dans le panneau de gauche.
-1. Sélectionnez un problème, puis cliquez sur l’icône **Supprimer** ![](assets/delete.png) en haut de la liste.
+1. Sélectionnez un événement, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png) en haut de la liste.
 
 1. Si la suppression est autorisée, cliquez sur **Oui, supprimer**.\
    Il se peut que votre administrateur ou administratrice Workfront n’autorise pas la suppression des problèmes dans lesquels des heures sont consignées.\
@@ -123,12 +123,12 @@ Selon la manière dont votre équipe d’administration Workfront ou de groupes 
 1. Cliquez sur le nom du projet qui contient le problème que vous souhaitez supprimer.
 1. Cliquez sur **Problèmes** dans le panneau de gauche.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Icône Événements](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Cliquez sur le nom du problème que vous souhaitez supprimer.
 1. Cliquez sur le menu **Plus** à droite du nom du problème.
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![Menu Autres événements](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Cliquez sur **Supprimer le problème**.
 1. Si la suppression est autorisée, cliquez sur **Oui, supprimer**.

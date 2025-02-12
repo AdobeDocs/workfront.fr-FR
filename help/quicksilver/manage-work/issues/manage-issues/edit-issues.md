@@ -2,16 +2,16 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Modifier des problèmes
-description: Vous pouvez modifier les informations sur les problèmes que vous avez créés ou que d’autres utilisateurs ont créés s’ils ont partagé les problèmes avec vous. Cet article décrit comment rechercher, rechercher et modifier un problème, si vous êtes autorisé à le faire.
+description: Vous pouvez modifier les informations relatives aux problèmes que vous avez créés, ou que d’autres utilisateurs ont créés s’ils ont partagé les problèmes avec vous. Cet article décrit comment rechercher, rechercher et modifier un problème, si vous disposez des autorisations nécessaires.
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '2523'
-ht-degree: 97%
+source-wordcount: '2551'
+ht-degree: 94%
 
 ---
 
@@ -74,7 +74,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 1. (Facultatif) Cliquez sur **Tâches**, puis cliquez sur le nom d’une tâche pour l’ouvrir.
 1. Cliquez sur **Problèmes** dans le panneau de gauche.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Icône Événements](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Facultatif) Pour modifier des informations limitées sur un problème, cliquez sur **Détails du problème** dans le panneau de gauche.
 
@@ -85,9 +85,9 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
    Pour modifier les informations de la section Détails, procédez comme suit :
 
    1. (Facultatif) Cliquez sur l’icône **Réduire tout** dans le coin supérieur droit pour réduire toutes les zones.
-   1. (Facultatif et le cas échéant) Lorsqu’une zone est réduite, cliquez sur la **flèche droite** ![](assets/right-pointing-arrow.png) en regard de chaque zone pour développer celle à modifier.
+   1. (Facultatif et conditionnel) Lorsqu’une zone est réduite, cliquez sur la **flèche pointant vers la droite** ![flèche pointant vers la droite](assets/right-pointing-arrow.png) en regard de chaque zone pour développer la zone à modifier.
    1. (Facultatif) Pour joindre un formulaire personnalisé, commencez à saisir le nom d’un formulaire dans le champ **Ajouter un formulaire personnalisé** puis sélectionnez-le lorsqu’il s’affiche dans la liste, puis cliquez sur **Enregistrer les modifications**.
-   1. (Facultatif) Cliquez sur l’icône **Exporter** ![](assets/export.png) pour exporter les informations de vue d’ensemble et de formulaires personnalisés vers un fichier PDF, puis cliquez sur **Exporter**. Sélectionnez l’une des options suivantes :
+   1. (Facultatif) Cliquez sur l’icône **Exporter** ![Icône Exporter](assets/export.png) pour exporter les informations de la Présentation et des formulaires personnalisés dans un fichier PDF, puis cliquez sur **Exporter**. Sélectionnez l’une des options suivantes :
 
       * Sélectionner tout (ne s’affiche que lorsqu’au moins un formulaire personnalisé est joint)
       * Vue d’ensemble
@@ -95,7 +95,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 
       Le fichier PDF est téléchargé sur votre ordinateur.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Exporter les détails du problème](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Pour plus d’informations, voir [Exporter des formulaires personnalisés et des détails d’objet](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
@@ -134,7 +134,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 1. Commencez à modifier un problème comme décrit ci-dessus.
 1. Cliquez sur **Nom du problème**.
 
-   ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   ![Section Nom de l&#39;événement](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. Mettez à jour le champ **Nom du problème**.
 1. Cliquez sur **Enregistrer** ou continuez à modifier les sections suivantes.
@@ -144,7 +144,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 1. Commencez à modifier un problème comme décrit ci-dessus.
 1. Cliquez sur **Vue d’ensemble**.
 
-   ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![Section de présentation des événements](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. Mettez à jour ou vérifiez l’un des champs du tableau suivant :
 
@@ -271,7 +271,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 1. Commencez à modifier le problème comme décrit ci-dessus.
 1. Cliquez sur **Affectations** dans le panneau de gauche.
 
-   ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![Section Affectations d&#39;événement](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. Cliquez sur **Rechercher des personnes, des rôles et des équipes** et commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’un rôle ou d’une équipe que vous souhaitez affecter à la tâche, puis cliquez dessus ou appuyez sur « Entrée » lorsqu’il s’affiche dans la liste.
 
@@ -322,15 +322,15 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 1. Commencez à modifier un problème comme décrit ci-dessus.
 1. Cliquez sur **Formulaires personnalisés**.
 
-   ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![Section Émettre des formulaires personnalisés](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. Dans le champ **Ajouter un formulaire personnalisé**, sélectionnez le ou les formulaires personnalisés à associer au problème. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un problème.
+1. Dans le champ **Ajouter un formulaire personnalisé**, sélectionnez le ou les formulaires personnalisés à associer au problème. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un problème.
 
 1. (Le cas échéant) Si vous avez joint un formulaire personnalisé au problème, modifiez les champs du formulaire. Vous devez spécifier tous les champs obligatoires avant de pouvoir enregistrer le problème.
 
    >[!NOTE]
    >
-   >Selon la manière dont votre équipe d’administration Workfront définit les autorisations pour les sections de votre formulaire personnalisé, tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le problème lui-même. Pour plus d’informations sur la définition des autorisations sur les sections d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Pour plus d’informations sur la définition des autorisations de problème, voir [Partager un problème](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+   >Selon la manière dont votre équipe d’administration Workfront définit les autorisations pour les sections de votre formulaire personnalisé, tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le problème lui-même. Pour plus d’informations sur la définition des autorisations pour les sections d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Pour plus d’informations sur la définition des autorisations de problème, voir [Partager un problème](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 1. Cliquez sur **Enregistrer** ou continuez à modifier la section suivante.
 
@@ -339,7 +339,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 1. Commencez à modifier un problème comme décrit ci-dessus.
 1. Cliquez sur **Paramètres**.
 
-   ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![Icône Paramètres de l&#39;événement](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    Mettez à jour les informations suivantes :
 
@@ -383,7 +383,7 @@ Vous pouvez modifier un nombre limité d’informations dans l’en-tête du pro
 
 L’administrateur ou l’administratrice du système ou de groupes peut personnaliser les champs affichés dans l’en-tête du problème. Pour plus d’informations, voir [Personnaliser les en-têtes d’objets à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-![](assets/issue-header-350x19.png)
+![En-tête de l&#39;événement](assets/issue-header-350x19.png)
 
 Par défaut, les champs suivants sont inclus dans l’en-tête du problème :
 

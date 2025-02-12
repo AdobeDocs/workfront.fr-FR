@@ -7,10 +7,10 @@ description: Un objet résolvable est un problème dont la résolution est liée
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 94%
+source-wordcount: '1788'
+ht-degree: 93%
 
 ---
 
@@ -79,10 +79,10 @@ Selon la manière dont l’administrateur ou l’adminitratrice Workfront, l’a
 Les scénarios suivants sont possibles :
 
 * Si l’administrateur ou l’administratrice Workfront, l’administrateur ou l’administratrice de groupe dispose des options **Conserver le problème d&#39;origine et lier sa résolution à la tâche** et **Conserver le problème d&#39;origine et lier sa résolution au projet** activées et si l’option **Autoriser la modification de ces paramètres pendant la conversion** est désactivée, vous ne pourrez pas modifier ces paramètres lorsque vous convertissez des problèmes en tâches ou en projets.\
-  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![Zone des problèmes liés aux préférences du projet](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * Si l’administrateur ou l’administratrice Workfront, l’administrateur ou l’administratrice de groupe dispose des options **Conserver le problème d&#39;origine et lier sa résolution à la tâche** et **Conserver le problème d&#39;origine et lier sa résolution au projet** activées ou désactivées, et si l’option **Autoriser la modification de ces paramètres pendant la conversion** est activée, vous pourrez modifier ces paramètres pendant la conversion des problèmes en tâches ou projets.\
-  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![Option pour conserver l&#39;événement](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 Pour plus d’informations sur la conversion de problèmes en tâches et projets, consultez [Vue d’ensemble de la conversion des problèmes dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -201,7 +201,7 @@ La localisation de l’objet de résolution est identique pour les tâches et le
 
 Dans une liste de problèmes, vous pouvez identifier les problèmes intitulés objets de résolution à l’aide des icônes de statut en localisant cette icône dans les colonnes **Icônes de statut** ou **Drapeauxs** :
 
-![](assets/ro1.png)
+![Objet de résolution](assets/ro1.png)
 
 ## Afficher les informations d’un objet résolvable ou de résolution dans un rapport
 

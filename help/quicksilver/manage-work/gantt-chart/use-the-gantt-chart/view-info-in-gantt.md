@@ -5,10 +5,10 @@ description: Le graphique de Gantt de la liste des tâches et le graphique de Ga
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '918'
+ht-degree: 98%
 
 ---
 
@@ -79,7 +79,7 @@ Pour afficher les tâches d’un projet à partir d’une liste de projets, proc
 
    Une liste de projets s’affiche.
 
-1. Cliquez sur l’icône **[!UICONTROL Graphique de Gantt]** ![](assets/gantt-icon-nwe.png) dans le coin supérieur droit de la fenêtre.
+1. Cliquez sur l’icône **[!UICONTROL Graphique Gantt]** ![Icône Gantt](assets/gantt-icon-nwe.png) dans le coin supérieur droit de l’écran.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
@@ -113,7 +113,7 @@ Vous pouvez ajuster la période affichée sur le [!UICONTROL graphique de Gantt]
 
 1. Dans le [!UICONTROL graphique de Gantt], cliquez sur le menu déroulant de la période.
 
-   ![](assets/timeline-options.png)
+   ![Options de chronologie](assets/timeline-options.png)
 
 1. Sélectionnez une période parmi les options disponibles suivantes :
 

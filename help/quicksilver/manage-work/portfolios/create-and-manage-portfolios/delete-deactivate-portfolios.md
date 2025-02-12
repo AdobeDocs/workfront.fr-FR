@@ -6,10 +6,10 @@ description: Les portfolios sont des collections de projets ou de programmes dan
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 98%
+source-wordcount: '362'
+ht-degree: 90%
 
 ---
 
@@ -81,12 +81,12 @@ Lorsque vous désactivez un portfolio, vous pouvez toujours y accéder à partir
 
 1. Cliquez sur **[!UICONTROL Portfolios]**.
 1. Cliquez sur le nom du portfolio.
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom du portfolio, puis sur **[!UICONTROL Désactiver le portfolio]**.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) à droite du nom du portfolio, puis cliquez sur **[!UICONTROL Désactiver Portfolio]**.
 
 ## Supprimer un portfolio
 
 {{step1-click-main-menu}}
 
 1. Cliquez sur **[!UICONTROL Portfolios]**.
-1. Sélectionnez le portfolio, puis cliquez sur l’icône **[!UICONTROL Supprimer]** [!UICONTROL Supprimer] ![](assets/delete.png).
-1. Cliquez sur **[!UICONTROL Oui, Supprimer]** pour confirmer.
+1. Sélectionnez le portfolio, puis cliquez sur **[!UICONTROL Supprimer]**&#x200B; l’icône [!UICONTROL Supprimer] ![Icône Supprimer](assets/delete.png).
+1. Cliquez sur **[!UICONTROL Oui, supprimer]** pour confirmer.

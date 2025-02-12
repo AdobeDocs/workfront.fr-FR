@@ -6,10 +6,10 @@ description: Vous pouvez copier un problème ou une demande et les enregistrer d
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 96%
 
 ---
 
@@ -95,7 +95,7 @@ Vous pouvez copier un ou plusieurs problèmes à partir d’une liste de problè
 1. Si vous avez choisi d’accéder à un projet, cliquez sur **Problèmes** dans le panneau de gauche.
 1. Sélectionnez le ou les problèmes que vous souhaitez copier et cliquez sur le **menu Plus** en haut de la liste des problèmes, puis cliquez sur **Copier sur**.
 
-   ![](assets/copy-issue-in-list-nwe-350x169.png)
+   ![Copier le problème dans la liste](assets/copy-issue-in-list-nwe-350x169.png)
 
 1. Continuez à copier le problème, comme décrit dans la section [Copier un seul problème](#copy-a-single-issue) en commençant par l’étape 2.
 
@@ -109,13 +109,13 @@ Vous pouvez copier un ou plusieurs problèmes à partir d’une liste de problè
 
 Vous pouvez copier un problème lorsque vous le consultez.
 
-1. Accédez à un problème que vous souhaitez copier, puis cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom du problème, puis sur **Copier sur**.
+1. Accédez à un événement à copier, puis cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) à droite du nom de l’événement, puis sur **Copier** dans.
 
-   ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+   ![Copier au niveau de l&#39;événement](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
    La zone **Copier le problème** s’affiche.
 
-   ![](assets/copy-issue-box-nwe-350x285.png)
+   ![Copier la boîte de problème](assets/copy-issue-box-nwe-350x285.png)
 
 1. Dans la section **Sélectionner le projet de destination**, indiquez le nom du projet dans lequel vous souhaitez copier les problèmes. Le nom du projet actuel s’affiche par défaut.
 
@@ -126,7 +126,7 @@ Vous pouvez copier un problème lorsque vous le consultez.
 1. (Le cas échéant) Cliquez sur **Demander l’accès** si vous n’avez pas le droit de copier des problèmes dans le projet.
 1. (Le cas échéant) Continuer à copier le problème dans le projet de destination sélectionné sans demander d’accès si vous avez le droit d’ajouter des problèmes à l’une des tâches du projet de destination.
 
-   ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
+   ![Copier l’événement et demander l’accès](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >

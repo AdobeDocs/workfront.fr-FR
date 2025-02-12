@@ -6,10 +6,10 @@ description: Modifier les affectations d’utilisateurs et utilisatrices pour pl
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 91%
+source-wordcount: '751'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-Vous pouvez simultanément modifier les affectations d’utilisateurs pour plusieurs problèmes. Pour plus d’informations sur la modification des problèmes ou leur attribution une par une, reportez-vous également aux articles suivants :
+Vous pouvez modifier simultanément les affectations d’utilisateurs à plusieurs événements. Pour plus d’informations sur la modification des événements ou leur affectation un par un, consultez également les articles suivants :
 
 * [Modifier les problèmes](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Attribuer des problèmes](../../../manage-work/issues/manage-issues/assign-issues.md)
@@ -50,16 +50,16 @@ Pour obtenir des informations générales sur l’affectation de problèmes, voi
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur à Projets et tâches pour affecter un problème</p> </td> 
+   <td> <p>Modifier l’accès aux problèmes</p> <p>Accédez en lecture seule ou à un niveau supérieur aux Projets et Tâches pour affecter un événement.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations liées aux problèmes</p> <p>Autorisations Contribute ou supérieures au projet ou à la tâche où se trouve le problème, lors de l’attribution de plusieurs problèmes.</p>  </td> 
+   <td> <p>Gérer les autorisations liées aux problèmes</p> <p>Accordez des autorisations ou supérieures au projet ou à la tâche où se trouve le problème lors de l’affectation de plusieurs problèmes.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,13 +102,13 @@ Pour obtenir des informations générales sur l’affectation de problèmes, voi
    1. Commencez à saisir le nom de la personne ou du rôle pour lequel vous souhaitez filtrer les données, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
    1. Cliquez sur **Enregistrer le filtre**.
 
-1. Sélectionnez les problèmes pour lesquels vous souhaitez modifier les affectations, puis cliquez sur l’icône **Modifier** ![](assets/qs-edit-icon.png).
+1. Sélectionnez les événements pour lesquels vous souhaitez modifier les affectations, puis cliquez sur l&#39;icône **Modifier** ![Modifier](assets/qs-edit-icon.png).
 
    La boîte **Modifier des problèmes** s’affiche. Les éléments modifiés s’affichent dans le coin supérieur gauche de la page.
 
 1. Accédez à la section **Affectations**, puis sélectionnez **Cessionnaire**.
 
-   ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![Zone Affectations](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. Utilisez l’une des méthodes suivantes :
 

@@ -6,9 +6,9 @@ description: Vous pouvez utiliser l’[!UICONTROL optimisateur de portfolio] pou
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 87%
 
 ---
@@ -43,13 +43,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Autorisations [!UICONTROL Manage] pour le portfolio</p> <p>Autorisation Contribuer ou supérieure pour les projets</p> 
-   <p>Vous devez disposer des autorisations de gestion pour tous les projets de la liste pour pouvoir utiliser <b>Définir la priorité du projet</b>.</p>
+   <p>Vous devez disposer d’autorisations de niveau Gérer pour tous les projets de la liste pour pouvoir utiliser <b>Définir la priorité du projet</b>.</p>
     </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès requises pour la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur l’icône **[!UICONTROL Optimiser]**.
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)
+   ![ Icône Optimiser ](assets/optimize-icon-portfolio-optimizer.png)
 
    Les catégories selon lesquelles un projet peut être noté s’affichent à gauche de l’icône [!UICONTROL Optimiser].
 
@@ -81,13 +81,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Une fois les coefficients de pondération corrects définis pour la colonne **[!UICONTROL Score]**, cliquez sur l’en-tête de la colonne **[!UICONTROL Score]** pour trier par cette colonne. Le projet ayant obtenu le meilleur score est affiché en haut de la liste.
 
-1. (Facultatif) Faites glisser des projets dans l’ordre de votre priorité.
+1. (Facultatif) Faites glisser et déposez des projets dans l’ordre de votre priorité.
 Cela modifiera l’ordre des projets dans l’[!UICONTROL optimisateur de portfolio].
 1. (Facultatif) Cliquez sur **[!UICONTROL Définir la priorité]** pour enregistrer la nouvelle priorité des projets.
 
    >[!NOTE]
    >
-   >   Vous devez disposer des autorisations de gestion pour tous les projets de la liste pour pouvoir utiliser **Définir la priorité du projet**.
+   >   Vous devez disposer d’autorisations de niveau Gérer pour tous les projets de la liste pour pouvoir utiliser **Définir la priorité du projet**.
 
    Pour plus d’informations sur la priorisation des projets dans l’[!UICONTROL optimisateur de portfolio], consultez l’article [Prioriser les projets dans l’[!UICONTROL optimisateur de portfolio]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

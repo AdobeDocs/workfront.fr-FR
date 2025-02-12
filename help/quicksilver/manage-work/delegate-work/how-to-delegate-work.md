@@ -1,15 +1,15 @@
 ---
 filename: how-to-delegate-work
 navigation-topic: delegate-work
-title: Délégation de tâches et de problèmes
+title: Déléguer des tâches et problèmes
 description: Vous pouvez déléguer temporairement le travail qui vous est confié pendant que vous n’êtes pas au bureau. Cet article décrit comment déléguer des attributions de tâches et de problèmes.
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 82%
+source-wordcount: '1547'
+ht-degree: 80%
 
 ---
 
@@ -93,7 +93,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 Avant de pouvoir effectuer les activités décrites dans cet article, vous devez vous assurer des points suivants :
 
-* Votre administrateur [!DNL Workfront] ou de groupe a activé le paramètre [!UICONTROL **Autoriser les utilisateurs à déléguer leurs tâches et problèmes**] dans la section [!UICONTROL Préférences de tâches et de problèmes] de la zone [!UICONTROL Configuration] de votre instance [!DNL Workfront].
+* Votre administrateur de [!DNL Workfront] ou de groupes a activé le paramètre [!UICONTROL **Autoriser les utilisateurs à déléguer leurs tâches et problèmes**] dans la section [!UICONTROL Préférences des tâches et des problèmes] de la zone [!UICONTROL Configuration] de votre instance de [!DNL Workfront].
 
   Pour plus d’informations, voir [Configurer les préférences en matière de tâches et de problèmes à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
@@ -105,14 +105,14 @@ Pour des informations générales sur la délégation de tâches et de problème
 
 Pour déléguer vos tâches et problèmes à d’autres personnes :
 
-1. Accédez à la zone [!UICONTROL **Home**].
-1. Assurez-vous que les widgets [!UICONTROL **My Work**], [!UICONTROL **My Tasks**] ou [!UICONTROL **My Issues**] ont été ajoutés à votre [!UICONTROL **Home**].
+1. Accédez à la zone [!UICONTROL **Accueil**].
+1. Vérifiez que les widgets [!UICONTROL **Mes tâches**], [!UICONTROL **Mes tâches**] ou [!UICONTROL **Mes problèmes**] sont ajoutés à votre [!UICONTROL **Accueil**].
 
-   Pour plus d’informations, voir [Ajout, modification ou suppression de widgets dans l’accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
+   Pour plus d’informations, voir [Ajouter, modifier ou supprimer des widgets dans l’Accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 
 1. Cliquez sur [!UICONTROL **Déléguer**] dans le coin supérieur gauche des widgets [!UICONTROL **Mon travail**], [!UICONTROL **Mes tâches**] ou [!UICONTROL **Mes problèmes**].
 
-   ![](assets/delegate-button-on-my-work-widget.png)
+   ![bouton Déléguer](assets/delegate-button-on-my-work-widget.png)
 
 1. Mettez à jour les informations suivantes :
 
@@ -134,7 +134,7 @@ Pour déléguer vos tâches et problèmes à d’autres personnes :
      >
      >Si le champ Date de fin est vide et que l’option Pas de date de fin n’est pas sélectionnée, la délégation n’est fixée que pour le jour en cours.
 
-     ![](assets/delegate-box-expanded-in-home.png)
+     ![Zone Déléguer développée](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. Cliquer sur [!UICONTROL **Enregistrer**].
@@ -159,7 +159,7 @@ Pour déléguer vos tâches et problèmes à d’autres personnes :
       </MadCap:conditionalText>
       -->
 
-     ![](assets/edit-delegation-button-on-my-work-widget.png)
+     ![bouton Modifier la délégation](assets/edit-delegation-button-on-my-work-widget.png)
 
    * Si vos notifications de l’événement et vos notifications personnelles sont activées, vous recevez également un e-mail de confirmation de votre délégation.
 
@@ -172,7 +172,7 @@ Pour déléguer vos tâches et problèmes à d’autres personnes :
 Vous pouvez laisser une délégation expirer si vous avez sélectionné une date de fin, ou bien l’arrêter manuellement. Vous pouvez également modifier la durée de la délégation, si ses dates ont changé.
 
 1. Accédez à la zone [!UICONTROL **Accueil**], puis cliquez sur [!UICONTROL **Modifier la délégation**] dans l’un des widgets suivants : **Mon travail**, **Mes tâches** ou **Mes problèmes**.
-1. Dans la zone [!UICONTROL Arrêter de déléguer des tâches et des problèmes], effectuez l’une des opérations suivantes :
+1. Dans la zone [!UICONTROL Arrêter la délégation des tâches et problèmes], effectuez l’une des opérations suivantes :
    * Modifiez la [!UICONTROL **date de début**] ou la [!UICONTROL **date de fin**].
    * Cliquez sur [!UICONTROL **Arrêter la délégation**].
 
@@ -180,7 +180,7 @@ Vous pouvez laisser une délégation expirer si vous avez sélectionné une date
    >
    >    Vous ne pouvez modifier que la date de fin d’une délégation si celle-ci a déjà commencé.
 
-   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![bouton Arrêter la délégation](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. (conditionnel) Cliquez sur [!UICONTROL **Enregistrer**] pour enregistrer les nouvelles dates de délégation.
 
@@ -214,11 +214,11 @@ Vous pouvez accéder à la boîte [!UICONTROL Affectations] dans les zones suiva
 
   Le champ [!UICONTROL Affectations] dans l’en-tête de la tâche ou du problème devient [!UICONTROL Affectations et délégations].
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![Panneau Affectations et délégués dans l’en-tête de la tâche](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * L’[!UICONTROL Équilbreur de charge de travail] lors de l’attribution manuelle des tâches ou des problèmes.
 
-  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![Panneau Affectations et délégations dans l’équilibreur](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -235,20 +235,20 @@ Si une tâche ou un problème est délégué et que le sous-onglet [!UICONTROL D
 
 ### Localiser le travail délégué sur la page d’[!UICONTROL accueil]
 
-1. Accédez à la zone [!UICONTROL **Home**] dans le widget [!UICONTROL **My Work**].
-1. Cliquez sur le menu déroulant des filtres et sélectionnez une ou plusieurs des options suivantes :
+1. Accédez à la zone [!UICONTROL **Accueil**] du widget [!UICONTROL **Mon travail**].
+1. Cliquez sur le menu déroulant Filtre et sélectionnez une ou plusieurs des options suivantes :
    * [!UICONTROL **Délégué**] : pour visualiser les tâches et les problèmes qui vous ont été délégués ou qui ont été déléguées par vous.
    * [!UICONTROL **M’a été délégué**] : pour visualiser les tâches et les problèmes qui vous ont été délégués par une autre personne.
    * [!UICONTROL **Délégué par moi-même**] : pour visualiser les tâches et les problèmes que vous avez délégués à d’autres personnes.
 
-     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
+     ![Filtre des tâches et événements délégués](assets/delegated-tasks-and-issues-new-home-filter.png)
 
 1. (Facultatif) Cliquez sur le menu déroulant [!UICONTROL **Trier**] pour trier la liste selon les critères suivants :
    * [!UICONTROL Date d’échéance]. Il s’agit de l’option de tri par défaut.
    * [!UICONTROL Nom]
    * [!UICONTROL Pourcentage d&#39;achèvement]
    * [!UICONTROL Statut]
-1. (Facultatif) Développez le menu déroulant des regroupements dans le coin supérieur droit du widget [!UICONTROL **Mon travail**] et regroupez-le selon l’un des critères suivants :
+1. (Facultatif) Développez le menu déroulant des regroupements dans le coin supérieur droit du widget [!UICONTROL **Mon travail**] et effectuez un regroupement selon l’un des critères suivants :
    * Rien. Il s’agit de l’option de regroupement par défaut.
    * [!UICONTROL Projet]
    * [!UICONTROL Statut]
@@ -256,9 +256,9 @@ Si une tâche ou un problème est délégué et que le sous-onglet [!UICONTROL D
 
 1. Pour afficher les éléments que vous avez délégués ou qui vous ont été délégués, affichez l’un des éléments suivants :
 
-   * Pour les éléments que vous avez délégués à d’autres, recherchez le nom du délégué sous l’état de la tâche ou du problème, après [!UICONTROL **Délégué à**].
+   * Pour les éléments que vous avez délégués à d’autres personnes, recherchez le nom du délégué sous le statut de la tâche ou de l’événement, après [!UICONTROL **Délégué à**].
 
-   * Pour les éléments qui vous sont délégués, recherchez le nom de la personne désignée sous l’état de la tâche ou du problème, après [!UICONTROL **Délégué à vous par**].
+   * Pour les éléments qui vous sont délégués, recherchez le nom de la personne désignée sous le statut de la tâche ou de l’événement, après [!UICONTROL **Délégation par**].
 
      >[!TIP]
      >

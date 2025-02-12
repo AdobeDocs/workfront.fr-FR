@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1412'
-ht-degree: 95%
+source-wordcount: '1419'
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ Outre cet article, nous vous recommandons de lire les articles suivants pour plu
 
 Vous pouvez affecter un problème à une ou plusieurs ressources au niveau d’un problème spécifique, ou vous pouvez affecter plusieurs ressources à plusieurs problèmes simultanément.
 
-L’affectation de problèmes et de tâches est similaire dans Adobe Workfront. Pour obtenir des informations générales sur l’affectation de tâches, consultez la section [Vue d’ensemble de la modification des affectations de tâches](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+L’affectation d’événements et de tâches est similaire dans Adobe Workfront. Pour obtenir des informations générales sur l’affectation de tâches, consultez la section [Vue d’ensemble de la modification des affectations de tâches](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 ## Conditions d’accès
 
@@ -64,16 +64,16 @@ L’affectation de problèmes et de tâches est similaire dans Adobe Workfront. 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur à Projets et tâches pour affecter un problème</p> </td> 
+   <td> <p>Modifier l’accès aux problèmes</p> <p>Accédez en lecture seule ou à un niveau supérieur aux Projets et Tâches pour affecter un événement.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations liées aux problèmes</p> <p> Afficher les autorisations ou des autorisations supérieures au projet ou à la tâche où se trouve le problème, lors de l’attribution d’un problème</p><p>Autorisations Contribute ou supérieures au projet ou à la tâche où se trouve le problème, lors de l’attribution de plusieurs problèmes.</p> </td> 
+   <td> <p>Gérer les autorisations liées aux problèmes</p> <p> Afficher les autorisations ou supérieures pour le projet ou la tâche contenant l’événement lors de l’affectation d’un événement</p><p>Accordez des autorisations ou supérieures au projet ou à la tâche où se trouve le problème lors de l’affectation de plusieurs problèmes.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -166,7 +166,7 @@ Pour affecter des problèmes dans une liste :
 
    * Cliquez dans le champ **Affecté à** ou **Affecté** et commencez à saisir le nom d’une personne active que vous souhaitez affecter au problème, puis cliquez sur le nom lorsqu’il apparaît dans la liste.
 
-     ![](assets/assigned-to-field-task-list-nwe.png)
+     ![Affecté au champ](assets/assigned-to-field-task-list-nwe.png)
 
    * Cliquez dans le champ **Affectations** et commencez à saisir le nom d’une personne active, d’une fonction ou d’une équipe active que vous souhaitez affecter au problème, puis cliquez sur le nom lorsqu’il apparaît dans la liste.
 
@@ -178,10 +178,10 @@ Pour affecter des problèmes dans une liste :
    >
    >Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
    >
-   >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. (Le cas échéant) Lorsqu’elle est visible dans le champ Affectations, cliquez sur l’**icône Personnes** ![](assets/teams.png) dans le coin supérieur droit de la zone des affectations pour ouvrir la zone Affectations avancées et créer des affectations avancées. Pour plus d’informations, voir [Créer des affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Conditionnel) Lorsqu&#39;elle apparaît dans le champ Affectations, cliquez sur l&#39;icône **Personnes** ![Icône Personnes](assets/teams.png) dans le coin supérieur droit de la zone Affectations pour ouvrir la zone Affectations avancées et créer des affectations avancées. Pour plus d’informations, voir la section [Créer des affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -193,7 +193,7 @@ Pour affecter des problèmes dans une liste :
 
 1. Accédez à la liste des problèmes que vous souhaitez affecter en bloc.
 1. Sélectionnez plusieurs problèmes dans la liste.
-1. Cliquez sur l’**icône Modifier** ![](assets/qs-edit-icon.png).
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/qs-edit-icon.png).
 
    La boîte de dialogue **Modifier les problèmes** s’ouvre.
 

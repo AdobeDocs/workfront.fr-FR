@@ -2,14 +2,14 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Modifier des programmes
-description: Vous pouvez modifier les informations sur les programmes que vous avez créés ou que d’autres utilisateurs ont créés s’ils les ont partagés avec vous. Cet article décrit comment rechercher, rechercher et modifier un programme, si vous êtes autorisé à le faire.
+description: Vous pouvez modifier les informations des programmes que vous avez créés ou que d’autres utilisateurs ont créés s’ils les ont partagés avec vous. Cet article décrit comment rechercher, rechercher et modifier un programme, si vous disposez des autorisations pour le faire.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 93%
+source-wordcount: '1034'
+ht-degree: 82%
 
 ---
 
@@ -49,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Si vous souhaitez modifier toutes les informations relatives au programme, passez à l’étape 4.
 
-   ![](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![Détails du programme avec la section de formulaire personnalisé](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -81,10 +81,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    Pour modifier les informations de la section [!UICONTROL Détails], procédez comme suit :
 
    1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Tout réduire]** en haut à droite pour réduire toutes les zones.
-   1. (Facultatif et le cas échéant) Lorsqu’une zone est réduite, cliquez sur la **flèche pointant vers la droite** ![](assets/right-pointing-arrow.png) à côté de chaque zone pour développer la zone à modifier.
+   1. (Facultatif et conditionnel) Lorsqu’une zone est réduite, cliquez sur la **flèche pointant vers la droite** ![flèche pointant vers la droite](assets/right-pointing-arrow.png) en regard de chaque zone pour développer la zone à modifier.
    1. Pour plus d’informations sur les champs visibles dans la section [!UICONTROL Détails du programme], continuez à modifier le programme dans la section [!UICONTROL Modifier le programme] comme décrit ci-dessous.
    1. (Facultatif) S’il n’existe aucun formulaire personnalisé associé au programme, commencez à saisir le nom d’un formulaire dans le champ **[!UICONTROL Ajouter un formulaire personnalisé]**, sélectionnez-le lorsqu’il s’affiche dans la liste, puis cliquez sur **[!UICONTROL Enregistrer les modifications]**.
-   1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Export]** ![](assets/export.png) pour exporter la [!UICONTROL Vue d’ensemble] et les informations sur les formulaires personnalisés dans un fichier PDF, puis cliquez sur **[!UICONTROL Export]**. Sélectionnez l’une des options suivantes :
+   1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Exporter]** ![Icône Exporter](assets/export.png) pour exporter les informations [!UICONTROL Présentation] et de formulaires personnalisés dans un fichier PDF, puis cliquez sur **[!UICONTROL Exporter]**. Sélectionnez l’une des options suivantes :
 
       * Sélectionner tout (ne s’affiche que lorsqu’au moins un formulaire personnalisé est joint)
       * [!UICONTROL Vue d’ensemble]
@@ -92,19 +92,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
       Le fichier PDF est téléchargé sur votre ordinateur.
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![Exporter les détails du portfolio](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       Pour plus d’informations, consultez la section [Exporter les formulaires personnalisés et les détails de l’objet](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
 1. Pour modifier toutes les informations sur un ou plusieurs programmes, effectuez l’une des opérations suivantes :
 
-   * Cliquez sur le menu **[!UICONTROL Plus]** ![](assets/more-icon.png) à côté du nom du programme, puis sur **[!UICONTROL Modifier].**
-   * Dans la liste des programmes, sélectionnez un ou plusieurs programmes à modifier, puis cliquez sur l’icône **[!UICONTROL Modifier]** ![](assets/edit-icon.png) en haut de la liste.
+   * Cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/more-icon.png) en regard du nom du programme, puis&#x200B;**[!UICONTROL Modifier].**
+   * Accédez à une liste de programmes et sélectionnez un ou plusieurs programmes à modifier, puis cliquez sur l’icône **[!UICONTROL Modifier]** ![Icône Modifier](assets/edit-icon.png) en haut de la liste.
 
    La boîte de dialogue **[!UICONTROL Modifier le programme]** s’affiche.
 
-   ![](assets/edit-program-box-nwe-350x236.png)
+   ![Zone Modifier le programme](assets/edit-program-box-nwe-350x236.png)
 
    Tous les champs de programme sont disponibles dans la zone [!UICONTROL Modifier le programme] et sont regroupés par zones répertoriées dans le panneau de gauche.
 
@@ -168,7 +168,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!NOTE]
    >
-   >Selon la manière dont votre équipe d’administration [!DNL Workfront] définit les autorisations pour les sections de votre formulaire personnalisé. tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le programme lui-même. Pour plus d’informations sur la définition des autorisations sur les sections d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Selon la manière dont votre équipe d’administration [!DNL Workfront] définit les autorisations pour les sections de votre formulaire personnalisé. tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le programme lui-même. Pour plus d’informations sur la définition des autorisations pour les sections d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Mettez à jour les champs des formulaires personnalisés, puis cliquez sur **[!UICONTROL Enregistrer les modifications]** ou passez à la section suivante.
 
@@ -177,7 +177,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Commencez à modifier un programme comme décrit ci-dessus.
 1. Cliquez sur **[!UICONTROL Commentaire]**.
 
-   ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
+   ![Zone Commentaire dans la zone Modifier le programme](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
 1. Ajoutez un commentaire dans le champ **[!UICONTROL Publier une mise à jour du programme]**.
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Personnes]** pour ajouter un utilisateur, une utilisatrice ou une équipe au commentaire.

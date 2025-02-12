@@ -6,10 +6,10 @@ description: Le graphique de Gantt de la liste des tâches présente les détail
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ Vous devez disposer des éléments suivants pour suivre les étapes de cet artic
 1. Accédez au projet que vous souhaitez modifier.
 1. Cliquez sur **[!UICONTROL Tâches]** dans le panneau de gauche.
 
-   ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![Zone des tâches](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. Cliquez sur l’icône **[!UICONTROL Graphique de Gantt]**.
 
@@ -73,7 +73,7 @@ Vous devez disposer des éléments suivants pour suivre les étapes de cet artic
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planificaiton chronologique]** pour enregistrer vos modifications manuellement.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Paramètre manuel activé](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Pointez sur la chronologie d’une tâche et faites glisser l’indicateur de chronologie vers une autre date.
 1. Déposez l’indicateur lorsque vous avez atteint la nouvelle date d’achèvement correcte pour la tâche.
@@ -103,7 +103,7 @@ Vous devez disposer des éléments suivants pour suivre les étapes de cet artic
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planificaiton chronologique]** pour enregistrer vos modifications manuellement.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Paramètre manuel activé](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Pour créer une relation d’antériorité, cliquez sur le point de départ d’une tâche et faites-le glisser jusqu’au point d’entrée de la tâche.
 1. Pour supprimer une relation d’antériorité, cliquez sur une ligne de tâche antérieure qui relie deux tâches pour la sélectionner, puis appuyez sur **[!UICONTROL Supprimer]** sur votre clavier.\
@@ -133,9 +133,9 @@ Vous devez disposer des éléments suivants pour suivre les étapes de cet artic
 
    ![Cliquer sur l’icône Graphique de Gantt](assets/click-gantt-chart-icon.png)
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planification chronologique]** pour enregistrer vos modifications manuellement.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planificaiton chronologique]** pour enregistrer vos modifications manuellement.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Paramètre manuel activé](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Pointez sur le centre de la tâche et localisez la flèche multidirectionnelle.
 1. Cliquez sur la tâche et faites-la glisser jusqu’à la date souhaitée.

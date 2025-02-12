@@ -6,10 +6,10 @@ description: Les graphiques de Gantt dans Adobe Workfront fournissent une repr�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
@@ -69,9 +69,9 @@ Pour accéder au [!UICONTROL graphique de Gantt] de la liste des tâches d’un 
    * Une tâche ou une tâche de modèle, puis cliquez sur [!UICONTROL **Sous-tâches**] dans le panneau de gauche.
    * Un rapport de tâche
 
-1. Cliquez sur l’icône [!UICONTROL **Gantt**] ![](assets/gantt-icon-nwe.png) en haut de la liste des tâches.
+1. Cliquez sur l’icône [!UICONTROL **Gantt**] ![Icône Gantt](assets/gantt-icon-nwe.png) en haut de la liste des tâches.
 
-   ![](assets/task-list-gantt.png)
+   ![Liste des tâches Gantt](assets/task-list-gantt.png)
 
    Le [!UICONTROL graphique de Gantt] de la liste des tâches s’ouvre à droite de la liste des tâches.
 
@@ -114,7 +114,7 @@ Pour accéder au [!UICONTROL Graphique de Gantt] de la liste des projets, procé
 
 1. Cliquez sur l’icône [!UICONTROL **Gantt**] en haut de la liste des projets.
 
-   ![](assets/project-list-gantt.png)
+   ![Liste de projets Gantt](assets/project-list-gantt.png)
 
    Le [!UICONTROL graphique de Gantt] de la liste des projets s’ouvre.
 

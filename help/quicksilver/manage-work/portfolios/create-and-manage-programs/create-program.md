@@ -2,14 +2,14 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Création d’un programme
-description: Un programme représente un ensemble de projets qui partagent une stratégie ou un objectif commun qui transcende les limites du projet. Les programmes sont une subdivisions de portefeuilles et ils ne peuvent exister en dehors d'un portefeuille. Les programmes partagent généralement les mêmes ressources que les autres programmes du même portefeuille. Vous pouvez créer des programmes pour organiser vos portefeuilles lorsqu’ils deviennent trop volumineux.
+description: Un programme représente un ensemble de projets qui partagent une stratégie ou un objectif commun qui transcende les limites du projet. Les programmes sont une subdivision des portefeuilles et ils ne peuvent pas exister en dehors d'un portefeuille. Les programmes partagent généralement les mêmes ressources que les autres programmes du même portefeuille. Vous pouvez créer des programmes pour organiser vos portefeuilles lorsqu’ils deviennent trop volumineux.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 82%
+source-wordcount: '1230'
+ht-degree: 81%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 82%
 <!-- Audited: 1/2024 -->
 
 Un programme représente un ensemble de projets qui partagent une stratégie, un objectif ou un objectif commun qui transcende les limites du projet.
-Les programmes sont une subdivisions de portefeuilles et ils ne peuvent exister en dehors d&#39;un portefeuille. Les programmes partagent généralement les mêmes ressources que les autres programmes du même portefeuille.
+Les programmes sont une subdivision des portefeuilles et ils ne peuvent pas exister en dehors d&#39;un portefeuille. Les programmes partagent généralement les mêmes ressources que les autres programmes du même portefeuille.
 
 Vous pouvez créer des programmes pour organiser vos portefeuilles lorsqu’ils deviennent trop volumineux.
 
-Par exemple, vous pouvez disposer d’un Portfolio Année fiscale marketing 2024 qui contient tous les projets de votre division marketing. Vous pouvez envisager d’organiser davantage vos projets en trimestres budgétaires et d’ajouter des programmes du 1er au 4 trimestre 2024 dans le Portfolio de l’exercice 2024.
+Par exemple, vous pouvez avoir un Portfolio Exercice marketing 2024 qui contient tous les projets de votre division Marketing. Vous pouvez envisager d’organiser davantage vos projets en trimestres fiscaux et d’ajouter les programmes des trimestres fiscaux marketing 1 à 4 2024 dans le Portfolio Exercice fiscal marketing 2024.
 
 ## Conditions d’accès
 
@@ -58,15 +58,15 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Méthodes de création de programmes
+## Création de programmes
 
 Vous pouvez créer un programme dans Workfront à l’aide de l’une des méthodes suivantes :
 
-* Créez un programme à partir de zéro dans la zone Programmes du menu principal, ou dans la section Programmes d&#39;un portfolio. Cet article décrit comment créer entièrement un programme.
+* Créez un programme à partir de zéro dans la zone Programmes du menu principal ou dans la section Programmes d&#39;un portefeuille. Cet article décrit comment créer un programme à partir de zéro.
 
-* Importez un programme à l’aide de lancements.
+* Importez un programme à l’aide de Kickstarts.
 
-  En tant qu’administrateur de Workfront, vous pouvez importer des programmes à l’aide d’un lancement.
+  En tant qu’administrateur Workfront, vous pouvez importer des programmes à l’aide d’un Kickstart.
 
   Pour plus d’informations sur l’import de données à l’aide de Kickstarts dans Workfront, consulter la section [Importer des données dans Adobe Workfront à l’aide d’un modèle de Kickstart](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
@@ -146,7 +146,7 @@ Vous pouvez indiquer les informations suivantes :
    Pour plus d’informations sur l’ajout de projets à des programmes, voir [Ajouter un projet à un programme](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
-1. (Facultatif) Cliquez sur le **[!UICONTROL Menu Plus]** ![](assets/more-icon.png) en regard du nom du programme, puis sur **[!UICONTROL Désactiver le programme]**.
+1. (Facultatif) Cliquez sur le **[!UICONTROL menu Plus]** ![menu Plus](assets/more-icon.png) en regard du nom du programme et cliquez sur **[!UICONTROL Désactiver le programme]**.
 
    Lorsque vous désactivez un programme, celui-ci ne s’affiche plus dans la liste des programmes lorsque les utilisateurs et utilisatrices tentent de l’ajouter à un projet. Vous pouvez toujours accéder au programme à partir de la zone [!UICONTROL Programmes].
 

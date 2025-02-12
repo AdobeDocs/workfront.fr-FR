@@ -6,10 +6,10 @@ description: Vous pouvez lier manuellement la résolution d’un problème à la
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 99%
 
 ---
 
@@ -65,7 +65,7 @@ Avant de commencer, vous devez :
 1. Accédez au problème dont vous souhaitez lier la résolution à un autre problème ou à la résolution d’une tâche ou d’un projet.
 1. Cliquez sur **Détails du problème** dans le panneau de gauche, puis développez la zone **Vue d’ensemble**.
 
-   ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![Icône Détails de l’événement](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Cliquez sur le champ **Résolu par** et effectuez une sélection parmi les types d’objets de résolution suivants :
 

@@ -6,10 +6,10 @@ description: Vous pouvez définir une priorité pour un problème afin d’indiq
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '371'
+ht-degree: 99%
 
 ---
 
@@ -103,7 +103,7 @@ Reportez-vous au tableau suivant pour comprendre chaque libellé de priorité pa
 
 1. Cliquez sur le champ **Priorité** dans la zone **Informations de base**.
 
-   ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![Priorité des événements](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
 1. Sélectionnez une valeur pour le champ **Priorité**.
 

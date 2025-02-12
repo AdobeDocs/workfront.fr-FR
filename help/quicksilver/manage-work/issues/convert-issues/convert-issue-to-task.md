@@ -6,10 +6,10 @@ description: Si vous devez fournir plus de travail pour résoudre un problème a
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 99%
+source-wordcount: '1048'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Cliquez sur le problème que vous souhaitez convertir pour accéder à la page de destination du problème.
 1. Cliquez sur le menu [!UICONTROL **Plus**] sur le problème, puis [!UICONTROL **Convertir en une tâche**].
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![Menu Autres événements](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -62,7 +62,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Mettez à jour le nom de la tâche dans la section [!UICONTROL Nom de la tâche]. Par défaut, le nom de la tâche sera le même que celui du problème d’origine.
 
-   ![](assets/convert-to-task-box-nwe.png)
+   ![Convertir en zone de tâche](assets/convert-to-task-box-nwe.png)
 
 1. Cliquez sur [!UICONTROL **Projet de destination**], puis commencez à saisir le nom du projet dans lequel vous souhaitez placer la nouvelle tâche dans le champ [!UICONTROL **Projet de destination**] et sélectionnez-le lorsqu’il s’affiche dans la liste. Le projet du problème est sélectionné par défaut.
 
@@ -109,7 +109,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >[!TIP]
    >
    >* Si un formulaire personnalisé contenant plusieurs objets associés au problème est configuré pour être utilisé avec les problèmes et les tâches, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion, si les champs existent à la fois sur le problème et sur les formulaires personnalisés de la tâche.
-   >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est joint au problème et à la tâche, l’un comme l’autre doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+   >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est joint au problème et à la tâche, l’un comme l’autre doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
    >* Si le projet de destination comporte des formulaires par défaut définis dans le champ Formulaires personnalisés par défaut de la tâche lors de la modification du projet, ces formulaires de tâche sont également ajoutés à la nouvelle tâche. Tous les champs personnalisés communs au problème d’origine et les champs des formulaires de tâches par défaut sont préremplis avec les informations des champs de problème.
 
 

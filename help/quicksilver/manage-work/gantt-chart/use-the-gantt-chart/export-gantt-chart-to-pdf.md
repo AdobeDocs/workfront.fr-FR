@@ -1,13 +1,13 @@
 ---
 navigation-topic: use-the-gantt-chart
 title: Exporter le graphique de Gantt au format PDF
-description: Vous pouvez exporter le diagramme de Gantt vers un PDF. Après avoir exporté le diagramme de Gantt vers PDF, vous pouvez l’imprimer ou le joindre à un email pour le partager avec d’autres utilisateurs.
+description: Vous pouvez exporter le graphique Gantt vers un PDF. Après avoir exporté le graphique Gantt vers PDF, vous pouvez l’imprimer ou le joindre à un e-mail afin de le partager avec d’autres utilisateurs.
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1049'
 ht-degree: 66%
 
 ---
@@ -36,8 +36,8 @@ Vous devez disposer des éléments suivants pour suivre les étapes de cet artic
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront]*</td> 
-   <td> <p>Nouveau :[!UICONTROL Lumière] ou version ultérieure</p>
-   <p>Actuel :[!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <td> <p>Nouveau :[!UICONTROL Light] ou version ultérieure</p>
+   <p>Actuel :[!UICONTROL Review] ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès*</td> 
@@ -50,7 +50,7 @@ Vous devez disposer des éléments suivants pour suivre les étapes de cet artic
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,17 +65,17 @@ Vous devez disposer des éléments suivants pour suivre les étapes de cet artic
 
    Configurez l’une des informations suivantes :
 
-   * Cliquez sur les icônes **Filtres**, **Affichage** et **Groupement** au-dessus du [!UICONTROL Graphique de Gantt] et ajoutez ou modifiez le filtre, la vue ou le regroupement existant appliqué à la liste des éléments dans le [!UICONTROL Graphique de Gantt].
+   * Cliquez sur les icônes **Filtres**, **Affichage** et **Regroupement** au-dessus du [!UICONTROL graphique de Gantt] et ajoutez ou modifiez le filtre, la vue ou le regroupement existant appliqué à la liste des éléments du [!UICONTROL graphique de Gantt].
 
-     Tous les filtres et regroupements sélectionnés en mode Liste sont conservés lors de l’affichage du [!UICONTROL diagramme de Gantt]. Les vues ne sont reflétées sur le [!UICONTROL diagramme de Gantt] exporté que dans la liste qui s’affiche en regard du [!UICONTROL diagramme de Gantt] sur la première page. Les vues ne s’affichent pas sur le [!UICONTROL graphique de Gantt] lui-même.
+     Tous les filtres et regroupements sélectionnés dans la vue Liste sont conservés lors de l’affichage du [!UICONTROL graphique Gantt]. Les vues sont reflétées sur le [!UICONTROL graphique Gantt] exporté uniquement dans la liste qui s’affiche en regard du [!UICONTROL graphique Gantt] sur la première page. Les vues ne s’affichent pas sur le [!UICONTROL graphique de Gantt] lui-même.
 
      >[!TIP]
      >
      >Pour accorder plus de place au [!UICONTROL graphique de Gantt] lui-même, appliquez une vue qui contient le moins de colonnes possible.
 
-   * Sélectionnez l’option **Passer aux dates prévues** pour afficher les dates prévues plutôt que les dates prévues. Par défaut, les dates planifiées s’affichent.
+   * Sélectionnez l’option **Passer aux dates prévues** pour afficher les dates prévues plutôt que les dates prévues. Par défaut, les dates prévues s’affichent.
 
-   * Cliquez sur l’icône **Paramètres** ![](assets/settings-icon.png) dans le coin supérieur droit du graphique Gantt et sélectionnez les informations à afficher dans le graphique Gantt. Une fois cette information sélectionnée, elle est incluse dans le fichier du PDF Gantt exporté.
+   * Cliquez sur l’icône **Paramètres** ![Icône Paramètres](assets/settings-icon.png) dans le coin supérieur droit du graphique Gantt et sélectionnez les informations à afficher dans le graphique Gantt. Une fois sélectionnées, ces informations sont incluses dans le fichier PDF Gantt exporté.
 
      Sélectionnez l’une des options suivantes :
 
@@ -97,11 +97,11 @@ Vous devez disposer des éléments suivants pour suivre les étapes de cet artic
      >
      > Les affectations ne s’affichent pas sur le [!UICONTROL graphique de Gantt] lorsque le [!UICONTROL graphique de Gantt] est exporté au format PDF. Lorsque le [!UICONTROL graphique de Gantt] est exportée au format PDF, les affectations s’affichent uniquement en vue Liste.
 
-   * La période affichée sur le [!UICONTROL diagramme de Gantt].
+   * Période affichée dans le [!UICONTROL graphique Gantt].
 
      Pour plus d’informations, voir [Afficher des informations sur le [!UICONTROL graphique de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
-     La période s’affiche dans le fichier d’exportation selon que vous avez sélectionné par la suite **[!UICONTROL Ce que je vois]** ou **[!UICONTROL Plusieurs pages]**.
+     L’affichage de la période dans le fichier d’exportation dépend de la sélection de **[!UICONTROL Ce que je vois]** ou **[!UICONTROL Plusieurs pages]** à une étape ultérieure.
 
 1. (Facultatif) Pour inclure uniquement certaines tâches dans le PDF exporté, sélectionnez les tâches à inclure.
 
@@ -109,12 +109,12 @@ Vous devez disposer des éléments suivants pour suivre les étapes de cet artic
 
    Par exemple, si vous affichez le [!UICONTROL graphique de Gantt] pour un projet contenant 50 tâches, mais que vous souhaitez afficher uniquement 10 tâches sur le [!UICONTROL graphique de Gantt], sélectionnez les dix tâches à afficher.
 
-1. Cliquez sur l’icône d’imprimante ![](assets/printer-icon.png) dans le coin supérieur droit du graphique Gantt.
-La boîte de dialogue **[!UICONTROL Exporter vers le PDF]** s’affiche.
+1. Cliquez sur l’icône d’imprimante ![icône d’imprimante](assets/printer-icon.png) dans le coin supérieur droit du graphique Gantt.
+La boîte de dialogue **[!UICONTROL Exporter vers PDF]** s’affiche.
 
    ![exported_gantt_UI.png](assets/exported-gantt-ui-350x225.png)
 
-1. Dans la section **Export** , sélectionnez l’une des options suivantes pour indiquer si vous souhaitez exporter uniquement ce que vous voyez ou l’intégralité du [!UICONTROL diagramme de Gantt] :
+1. Dans la section **Exporter**, sélectionnez l’une des options suivantes pour indiquer si vous souhaitez exporter uniquement ce que vous voyez ou l’ensemble du graphique [!UICONTROL Gantt] :
 
    * **[!UICONTROL Ce que je vois] :** exporte toutes les tâches (y compris toutes les sous-tâches) qui s’affichent à l’écran avant d’exporter jusqu’à 500 éléments. (Ce n’est pas ce qui s’affiche dans la section **[!UICONTROL Prévisualisation]** ; la section [!UICONTROL Prévisualisation] ne contient que des données d’exemple.)
 
@@ -122,10 +122,10 @@ La boîte de dialogue **[!UICONTROL Exporter vers le PDF]** s’affiche.
 
      >[!TIP]
      >
-     >Vous pouvez utiliser le menu déroulant **[!UICONTROL Zoom vers]** ou l’outil de curseur pour afficher uniquement une partie du [!UICONTROL diagramme de Gantt], comme décrit dans la section [Affichage des informations dans le [!UICONTROL diagramme de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+     >Vous pouvez utiliser le menu déroulant **[!UICONTROL Zoom vers]** ou l’outil curseur pour afficher uniquement une partie du [!UICONTROL graphique Gantt], comme décrit dans la section [Affichage des informations dans le [!UICONTROL graphique Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 
-   * **[!UICONTROL Plusieurs pages] :** exporte l’intégralité du [!UICONTROL diagramme de Gantt], même celui qui n’est pas visible sur l’écran actuel jusqu’à 500 éléments.
+   * **[!UICONTROL Plusieurs pages] :** exporte l’intégralité du [!UICONTROL graphique Gantt], même celui qui n’est pas visible à l’écran actuel, jusqu’à 500 éléments.
 
      >[!NOTE]
      >
@@ -140,12 +140,12 @@ La boîte de dialogue **[!UICONTROL Exporter vers le PDF]** s’affiche.
      >   * S’il contient plus de 500 éléments.
 
 
-1. Si le PDF est imprimé après l’exportation vers PDF, dans le menu déroulant **[!UICONTROL Format de page]**, sélectionnez le format de papier sur lequel vous souhaitez imprimer.
+1. Si le PDF est imprimé après avoir été exporté vers PDF, dans le menu déroulant **[!UICONTROL Format de page]**, sélectionnez le format de papier sur lequel vous souhaitez imprimer.
 Vous pouvez sélectionner l’une des options suivantes :
 
    * **[!UICONTROL Lettre]**
-   * **[!UICONTROL Legal]**
-   * **[!UICONTROL Ledger]**
+   * **[!UICONTROL Légal]**
+   * **[!UICONTROL Grand livre]**
    * **[!UICONTROL A1]**
    * **[!UICONTROL A2]**
    * **[!UICONTROL A3]** (disponible uniquement pour certaines langues)

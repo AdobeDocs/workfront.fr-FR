@@ -6,10 +6,10 @@ description: Les demandes de projet s’affichent en tant que projets avec le st
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 98%
+source-wordcount: '438'
+ht-degree: 97%
 
 ---
 
@@ -57,7 +57,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -99,7 +99,7 @@ Pour plus d’informations sur l’approbation des demandes de projet en créant
 
    * Remplacez le statut du projet par un autre statut dans le menu déroulant **[!UICONTROL Statut]**.
 
-     ![](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![Modifier le statut du projet dans la liste déroulante](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
  
 
  

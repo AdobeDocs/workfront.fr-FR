@@ -1,14 +1,14 @@
 ---
-title: Présentation de Portfolio Management
+title: Présentation de la gestion de Portfolio
 product-area: portfolios
 navigation-topic: portfolios-overview
 description: La gestion de portfolio ou de portfolio de projets (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets en vue d’atteindre des objectifs commerciaux spécifiques. Un portfolio est une collection de projets ayant des objectifs commerciaux communs.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '650'
 ht-degree: 86%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 86%
 
 ## Vue d’ensemble de la gestion de portfolio de projets (PPM)
 
-La gestion des Portfolios de Portfolio ou de projet (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets afin d’atteindre des objectifs commerciaux spécifiques.
+Portfolio La gestion des Portfolio de projet (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets afin d’atteindre des objectifs commerciaux spécifiques.
 
-Cet article décrit les concepts généraux de la gestion de portefeuille. Pour obtenir des informations générales sur la gestion des portefeuilles dans Adobe Workfront, consultez la [présentation des Portfolios dans Adobe Workfront](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Cet article décrit les concepts généraux de la gestion de portefeuille. Pour obtenir des informations générales sur la gestion des portfolios dans Adobe Workfront, consultez la présentation de [Portfolio dans Adobe Workfront](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
-Un portfolio est un ensemble de projets avec des objectifs commerciaux communs. Le résultat d’une méthodologie de PPM efficace permet à la direction d’effectuer les opérations suivantes :
+Un portefeuille est un ensemble de projets ayant des objectifs commerciaux communs. Le résultat d’une méthodologie de PPM efficace permet à la direction d’effectuer les opérations suivantes :
 
 * Identifier tous les projets d’un portfolio.
 * Comprendre l’impact de chaque projet sur les ressources, les coûts et les revenus.
@@ -44,7 +44,7 @@ Vous pouvez classer vos projets par ordre de priorité et vous assurer qu’ils 
 
 Le diagramme suivant illustre la vue d’ensemble du processus de PPM dans [!DNL Workfront] :
 
-![](assets/project-portfolio-management-process-diagram.png)
+![Processus de gestion du portefeuille de projets](assets/project-portfolio-management-process-diagram.png)
 
 * [Demande de projet](#project-request)
 * [Révision du projet](#project-review)
@@ -63,7 +63,7 @@ Pour plus d’informations sur la création d’un business case et d’une dema
 
 Après avoir soumis la demande de projet, la personne chargée de la gestion de portfolio ou une équipe de direction l’examine et décide d’approuver ou non le projet. Si le projet est approuvé, celui-ci est sélectionné pour le portfolio de projets de l’entreprise.
 
-Pour plus d’informations sur les portefeuilles, voir [Présentation des Portfolios dans [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Pour plus d’informations sur l’approbation d’un cas d’entreprise, voir [Approbation d’un cas d’entreprise](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Pour plus d’informations sur les portfolios, consultez la présentation de Portfolio dans [ [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Pour plus d&#39;informations sur l&#39;approbation d&#39;un business case, voir [Approuver un business case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Optimisation du portfolio {#portfolio-optimization}
 

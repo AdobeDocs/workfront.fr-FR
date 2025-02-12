@@ -6,10 +6,10 @@ description: Naviguer dans un portfolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 90%
+source-wordcount: '608'
+ht-degree: 82%
 
 ---
 
@@ -54,21 +54,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Naviguer dans un portfolio
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront].
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront].
 
 1. Cliquez sur [!UICONTROL Portfolios].
 1. Dans le menu déroulant **[!UICONTROL Filtrer]**, sélectionnez les options suivantes :
 
    * **[!UICONTROL Portfolios m’appartenant]** : inclut une liste des portfolios pour lesquels vous êtes [!UICONTROL Gestionnaire de portfolios].
-   * **[!UICONTROL Tous]** : comprend tous les portefeuilles pour lesquels vous avez au moins accès à la vue.
+   * **[!UICONTROL Tous]** : inclut tous les portefeuilles pour lesquels vous avez au moins accès à l’affichage.
 
-     Pour plus d’informations sur l’accès aux Portfolios, voir [Présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+     Pour plus d&#39;informations sur l&#39;accès aux portefeuilles, voir [Présentation des niveaux d&#39;accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 Pour plus d’informations sur les autorisations aux portfolios, voir [Partager un portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      Pour ajouter de nouveaux portfolios, voir [Créer un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
@@ -102,14 +102,14 @@ Les mesures de performances du portfolio suivantes s’affichent dans la zone [!
      Pour plus d’informations sur la création de filtres, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
-1. Cliquez sur **[!UICONTROL Programmes]** dans le panneau de gauche pour créer des programmes dans le portfolio ou gérer les programmes existants.
+1. Cliquez sur **[!UICONTROL Programmes]** dans le panneau de gauche pour créer des programmes dans le portefeuille ou gérer des programmes existants.
 Pour plus d’informations sur les programmes, voir la section [Créer et gérer des programmes](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md).
 
 1. (Facultatif) Développez la zone **[!UICONTROL Détails du portfolio]** dans le panneau de gauche, puis cliquez sur **[!UICONTROL Vue d’ensemble]** ou **[!UICONTROL Formulaires personnalisés]** pour modifier des informations sur le portfolio.
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Optimisation du portfolio]** dans le panneau de gauche pour optimiser les performances du portfolio.
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![Portfolio optimizer avec projets](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >
@@ -119,7 +119,7 @@ Pour plus d’informations sur les programmes, voir la section [Créer et gérer
 
 1. (Facultatif) Cliquez sur **Documents** dans le panneau de gauche pour joindre des documents au portfolio.
 1. (Facultatif) Cliquez sur **[!UICONTROL Mises à jour]** dans le panneau de gauche pour ajouter des commentaires au flux de mise à jour du portfolio. Pour plus d’informations, voir [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Facultatif) Cliquez sur le **[!UICONTROL menu Plus]** ![](assets/qs-more-icon-on-an-object.png) pour effectuer l’une des opérations suivantes :
+1. (Facultatif) Cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/qs-more-icon-on-an-object.png) pour effectuer l’une des opérations suivantes :
 
    * Désactiver le portfolio. Lorsqu’un portfolio est désactivé, vous ne pouvez plus l’associer aux projets au niveau du projet.
    * Supprimer le portfolio.
@@ -130,4 +130,4 @@ Pour plus d’informations sur les programmes, voir la section [Créer et gérer
 
    * Partager le portfolio avec d’autres utilisateurs et utilisatrices.
 
-1. (Facultatif) Cliquez sur l’icône **Étoile** ![](assets/qs-star-icon-favorites-39x38.png) à droite du nom du portfolio pour ajouter le portfolio à votre liste de favoris.
+1. (Facultatif) Cliquez sur l’icône **Étoile** ![Icône Étoile](assets/qs-star-icon-favorites-39x38.png) à droite du nom du portfolio pour ajouter le portfolio à votre liste de favoris.

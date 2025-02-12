@@ -6,10 +6,10 @@ description: Vous pouvez déplacer des problèmes entre des projets et des tâch
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 88%
+source-wordcount: '887'
+ht-degree: 86%
 
 ---
 
@@ -91,7 +91,7 @@ Vous pouvez déplacer un ou plusieurs problèmes à partir d’une liste de prob
 1. Si vous avez choisi d’accéder à un projet, cliquez sur **Problèmes** dans le panneau de gauche.
 1. Sélectionnez le ou les problèmes que vous souhaitez déplacer, cliquez sur le **menu Plus** en haut de la liste des problèmes, puis sur **Déplacer vers**.
 
-   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![Copier et déplacer vers les liens](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. Continuez à déplacer les problèmes comme décrit dans la section [Déplacer un seul problème](#move-a-single-issue) en commençant par l’étape 2.
 
@@ -101,13 +101,13 @@ Vous pouvez déplacer un problème lorsqu’il est affiché.
 
 ### Déplacer un seul problème
 
-1. Accédez à un événement à déplacer, cliquez sur l’![](assets/more-icon.png) du menu **Plus** à droite du nom de l’événement, puis cliquez sur **Déplacer vers**.
+1. Accédez à un événement à déplacer, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) à droite du nom de l’événement, puis cliquez sur **Déplacer vers**.
 
-   ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![Déplacer au niveau de l&#39;événement](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    La zone **Déplacer le problème** s’affiche.
 
-   ![](assets/move-issue-box-nwe-350x280.png)
+   ![Déplacer la zone d&#39;événement](assets/move-issue-box-nwe-350x280.png)
 
 1. Dans la section **Sélectionner le projet de destination**, indiquez le nom du projet dans lequel vous souhaitez déplacer les problèmes. Le nom du projet actuel s’affiche par défaut.
 
@@ -118,7 +118,7 @@ Vous pouvez déplacer un problème lorsqu’il est affiché.
 1. (Le cas échéant) Cliquez sur **Demander l’accès** si vous n’avez pas accès au déplacement des problèmes vers le projet.
 1. (Le cas échéant) Continuez à déplacer le problème sur le projet de destination sélectionné sans demander l’accès si vous disposez de l’accès à l’une de ses tâches.
 
-   ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![Déplacer l&#39;événement et demander l&#39;accès](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >

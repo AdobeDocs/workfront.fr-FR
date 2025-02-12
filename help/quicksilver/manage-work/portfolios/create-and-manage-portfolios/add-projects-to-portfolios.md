@@ -6,10 +6,10 @@ description: Nous vous recommandons d’ajouter des projets aux portfolios lorsq
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 96%
+source-wordcount: '381'
+ht-degree: 94%
 
 ---
 
@@ -44,7 +44,7 @@ Tenez compte des éléments suivants lorsque vous ajoutez des projets aux portfo
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
-   <td> <p>Portfolios d’accès [!UICONTROL Modifier]</p> <p>[!UICONTROL Edit] l’accès aux Projets</p> </td> 
+   <td> <p>Portefeuilles d'accès [!UICONTROL Edit]</p> <p>[!UICONTROL Edit] l’accès aux Projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -53,7 +53,7 @@ Tenez compte des éléments suivants lorsque vous ajoutez des projets aux portfo
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Tenez compte des éléments suivants lorsque vous ajoutez des projets aux portfo
 
 1. Accédez à un portfolio, puis cliquez sur **[!UICONTROL Projets]** dans le panneau de gauche.
 
-   ![](assets/qs-portfolio-with-projects-350x90.png)
+   ![Portfolio avec projets](assets/qs-portfolio-with-projects-350x90.png)
 
 1. Cliquez sur **[!UICONTROL Nouveau projet]** et sélectionnez une méthode pour ajouter un projet.
 
@@ -98,11 +98,11 @@ Tenez compte des éléments suivants lorsque vous ajoutez des projets aux portfo
     </tbody> 
    </table>
 
-   ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![Liste déroulante du nouveau projet](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Le cas échéant) Si vous avez choisi d’ajouter un projet existant, commencez à taper son nom dans la zone **[!UICONTROL Ajouter des projets]**, puis cliquez sur les projets lorsqu’ils apparaissent dans la liste. Vous pouvez ajouter plusieurs projets à la fois.
 
-   ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   ![Ajouter un projet existant](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
 1. Cliquez sur **[!UICONTROL Ajouter des projets]**.
 

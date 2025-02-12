@@ -6,10 +6,10 @@ description: Vous pouvez afficher les problèmes associés à un projet, une tâ
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 100%
+source-wordcount: '1038'
+ht-degree: 98%
 
 ---
 
@@ -142,7 +142,7 @@ Vous pouvez ajouter des icônes dans la vue d’un projet, d’un rapport de tâ
 
 Pour ajouter des icônes qui indiquent si un projet présente des problèmes dans un rapport de projet :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 1. Cliquez sur **Rapports** > **Nouveau rapport** > **Rapport de projet**.
 1. Dans le champ **Afficher dans cette colonne**, commencer à saisir **Icônes de statut**, puis sélectionnez-la lorsqu’elle apparaît dans la liste.
 
