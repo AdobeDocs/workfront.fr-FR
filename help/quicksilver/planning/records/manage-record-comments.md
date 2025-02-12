@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 67%
+source-wordcount: '954'
+ht-degree: 66%
 
 ---
 
@@ -64,7 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -116,7 +116,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
   >[!NOTE]
   >
-  >   Seuls les utilisateurs des clients qui ont intégré l’expérience unifiée d’Adobe reçoivent à la fois une notification in-app et une notification par e-mail. Pour déterminer si votre société utilise l’expérience unifiée d’Adobe, voir [Expérience unifiée d’Adobe pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+  >   Seuls les utilisateurs des clients qui ont intégré l’expérience unifiée Adobe reçoivent à la fois une notification in-app et une notification par e-mail. Pour déterminer si votre société utilise l’expérience unifiée Adobe, consultez [Expérience unifiée Adobe pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * Vous pouvez ajouter une mise à jour aux enregistrements et consulter l’historique des modifications dans les sections suivantes de Workfront Planning :
 
@@ -143,7 +143,7 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 
 1. Commencez à saisir un commentaire dans la boîte **Nouveau commentaire**.
 
-   ![](assets/empty-comment-box-on-record.png)
+   ![Zone de commentaire vide dans l’enregistrement](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
@@ -152,7 +152,7 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 1. (Facultatif) Pour annuler ou rétablir une modification, utilisez les raccourcis clavier suivants :
    * Ctrl+Z (⌘+z pour Mac) pour annuler une modification
    * Ctrl+Y (⌘+y pour Mac) pour rétablir la modification
-1. (Facultatif et conditionnel) Si votre instance Workfront fait partie de l’expérience unifiée d’Adobe, ajoutez **@** suivi du nom d’un utilisateur pour baliser une personne dans la mise à jour. Pour plus d’informations, consultez la section [Considérations relatives aux commentaires sur un enregistrement](#considerations-about-commenting-on-a-record) dans cet article.
+1. (Facultatif et conditionnel) Si votre instance Workfront fait partie de l’expérience unifiée Adobe, ajoutez **@** suivi du nom d’un utilisateur pour baliser une personne dans la mise à jour. Pour plus d’informations, consultez la section [Considérations relatives aux commentaires sur un enregistrement](#considerations-about-commenting-on-a-record) dans cet article.
 
 1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes ou des liens vers votre mise à jour afin d’améliorer votre contenu.
 

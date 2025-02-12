@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 99%
+source-wordcount: '743'
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ La réponse à un commentaire dans la section Mises à jour d’un objet est sim
 1. (Facultatif) Pour inclure le texte d’une mise à jour précédente dans votre réponse, cliquez sur le menu Plus dans le coin supérieur droit du commentaire auquel vous souhaitez répondre, puis cliquez sur Citer la réponse. ******** Le texte de la mise à jour précédente apparaît dans la zone de saisie, marqué d’une ligne grise verticale.
 1. Cliquez sur **Répondre**.
 
-   ![](assets/reply-to-update-empty-box.png)
+   ![Répondre pour mettre à jour la zone vide](assets/reply-to-update-empty-box.png)
 
    Vous pouvez voir les utilisateurs et les utilisatrices qui participent activement à la conversation en bas de la zone **Ajouter une réponse...** et vous pouvez en ajouter d’autres ou supprimer les personnes qui ne sont plus pertinentes. Ces utilisateurs et utilisatrices, ainsi que toutes les personnes abonnées à l’objet, reçoivent une notification chaque fois qu’une mise à jour ou une réponse est apportée à l’objet. Vous pouvez également taguer d’autres utilisateurs et d’autres utilisatrices pour les inclure dans votre réponse.  Pour taguer davantage d’utilisateurs et d’utilisatrices, consultez la section [Taguer d’autres personnes dans les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
@@ -115,7 +115,7 @@ La réponse à un commentaire dans la section Mises à jour d’un objet est sim
 
 1. Cliquez sur **Soumettre** pour enregistrer la réponse.
 
-1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit du commentaire auquel vous souhaitez répondre pour plus d’options de gestion de la réponse. Pour plus d’informations, consultez la section [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit du commentaire auquel vous souhaitez répondre pour accéder à d’autres options de gestion de la réponse. Pour plus d’informations, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

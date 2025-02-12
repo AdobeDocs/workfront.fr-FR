@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Modifier projets
-description: Vous pouvez modifier un projet dans Adobe Workfront aussi souvent que nécessaire. Idéalement, vous devez modifier un projet lorsque celui-ci est au statut Planification. Cet article décrit comment rechercher, rechercher et modifier un projet, si vous êtes autorisé à le faire.
+description: Vous pouvez modifier un projet dans Adobe Workfront aussi souvent que nécessaire. Idéalement, vous devez modifier un projet lorsque celui-ci est au statut Planification. Cet article décrit comment rechercher, rechercher et modifier un projet, si vous disposez des autorisations nécessaires.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
 workflow-type: tm+mt
-source-wordcount: '7528'
-ht-degree: 98%
+source-wordcount: '7694'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 98%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -98,7 +100,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
 
 1. (Facultatif) Cliquez sur **Projets auxquels je participe** ou **Projets dont je suis propriétaire** dans le coin supérieur droit pour afficher les projets dont vous êtes propriétaire ou ceux pour lesquels vous faites partie de l’équipe de projet.
 
-   ![](assets/projects-on-my-own-buttons-350x302.png)
+   ![Projets sur mes propres boutons](assets/projects-on-my-own-buttons-350x302.png)
 
    >[!NOTE]
    >
@@ -108,7 +110,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
 
 1. (Facultatif) Pour modifier des informations limitées sur un projet, cliquez sur **Détails du projet** dans le panneau de gauche. Si vous souhaitez modifier toutes les informations relatives au projet, passez à l’étape 5. <!--accurate?!-->
 
-   ![](assets/nwe-project-details-expanded-350x298.png)
+   ![Détails du projet développés](assets/nwe-project-details-expanded-350x298.png)
 
    >[!NOTE]
    >
@@ -116,15 +118,15 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
 
    Pour modifier les informations de la section Détails, procédez comme suit :
 
-   1. (Facultatif) Cliquez sur l’icône **Réduire tout** ![](assets/collapse-icon.png) dans le coin supérieur droit pour réduire toutes les zones.
-   1. (Facultatif et le cas échéant) Lorsqu’une zone est réduite, cliquez sur la **flèche droite** ![](assets/right-pointing-arrow.png) en regard de chaque zone pour développer celle à modifier.
+   1. (Facultatif) Cliquez sur l’icône **Tout réduire** ![Tout réduire](assets/collapse-icon.png) dans le coin supérieur droit pour réduire toutes les zones.
+   1. (Facultatif et conditionnel) Lorsqu’une zone est réduite, cliquez sur la **flèche pointant vers la droite** ![flèche pointant vers la droite](assets/right-pointing-arrow.png) en regard de chaque zone pour développer la zone à modifier.
    1. Pour plus d’informations sur la modification des informations dans l’onglet Détails du projet, voir les articles suivants :
 
       * [Gérer les informations dans la zone Vue d’ensemble du projet](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Gérer les informations dans la zone Finances d’un projet](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Facultatif) Pour joindre un formulaire personnalisé, commencez à saisir le nom d’un formulaire dans le champ **Ajouter un formulaire personnalisé**, sélectionnez-le lorsqu’il s’affiche dans la liste, puis cliquez sur **Enregistrer les modifications**.
-   1. (Facultatif) Cliquez sur l’icône **Exporter** ![](assets/export.png) pour exporter les informations de vue d’ensemble et de formulaires personnalisés vers un fichier PDF, puis cliquez sur **Exporter**. Sélectionnez l’une des options suivantes :
+   1. (Facultatif) Cliquez sur l’icône **Exporter** ![Icône Exporter](assets/export.png) pour exporter les informations de la Présentation et des formulaires personnalisés dans un fichier PDF, puis cliquez sur **Exporter**. Sélectionnez l’une des options suivantes :
 
       * Sélectionner tout (ne s’affiche que lorsqu’au moins un formulaire personnalisé est joint)
       * Vue d’ensemble
@@ -132,16 +134,16 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
 
       Le fichier PDF est téléchargé sur votre ordinateur.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Zone de sélection Exporter les détails du problème avec le bouton d’exportation](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Pour plus d’informations, voir [Exporter les formulaires personnalisés et les détails des objets](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    Pour plus d’informations sur les champs visibles dans la section Détails du projet, passez à la modification du projet dans la zone Modifier le projet, comme décrit ci-dessous.
-1. Pour modifier toutes les informations sur le projet, cliquez sur le menu **Plus** ![](assets/qs-more-menu.png) en regard du nom du projet, puis cliquez sur **Modifier**.
+1. Pour modifier toutes les informations sur le projet, cliquez sur le menu **Plus** ![Plus](assets/qs-more-menu.png) en regard du nom du projet, puis cliquez sur **Modifier**.
 
    Ou
 
-   Dans une liste de projets, sélectionnez un ou plusieurs projets, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) en haut de la liste.
+   Dans une liste de projets, sélectionnez un ou plusieurs projets, puis cliquez sur l’icône **Modifier** ![Icône Modifier](assets/edit-icon.png) en haut de la liste.
 
    Pour plus d’informations sur la modification de projets en bloc, voir la section [Modifier des projets en bloc](#edit-projects-in-bulk) dans cet article.
 
@@ -167,6 +169,9 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
    * [Paramètres de la tâche](#task-settings)
    * [Paramètres du problème](#issue-settings)
    * [Accès](#access)
+   * [Dossiers liés](#linked-folders-conditional-availability) (disponibilité conditionnelle)
+     <!--* <span class="preview">[Comment](#comment)</span>-->
+
 
    >[!NOTE]
    >
@@ -177,7 +182,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
 1. Commencez à modifier votre projet comme décrit ci-dessus.
 1. Cliquez sur **Nom du projet** dans le panneau de gauche.
 
-   ![](assets/nwe-project-name-in-edit-project-box-350x125.png)
+   ![Zone du nom du projet dans la zone de modification du projet](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
 1. Mettez à jour le nom du projet.
 
@@ -188,7 +193,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
 1. Commencez à modifier votre projet comme décrit ci-dessus.
 1. Cliquez sur **Vue d’ensemble** dans le panneau de gauche.
 
-   ![](assets/nwe-overview-in-edit-project-box-350x172.png)
+   ![Zone Aperçu dans la zone d’édition du projet](assets/nwe-overview-in-edit-project-box-350x172.png)
 
 1. Mettez à jour les informations suivantes sur le projet :
 
@@ -245,14 +250,14 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
          <td>Indiquez un Portfolio auquel le projet appartient. Vous devez d’abord créer un portfolio avant qu’il n’apparaisse dans la liste déroulante.
 Seuls les portfolios actifs peuvent être associés à un projet. Pour plus d’informations sur la création de portfolios, voir <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Créer un portfolio</a>.
          <p><b>NOTE</b></p>
-         <p>Vous devez disposer des autorisations de gestion sur le portfolio pour pouvoir l’ajouter ou la supprimer au projet.</p>
+         <p>Vous devez disposer des autorisations de niveau Gérer pour le portfolio afin de pouvoir l’ajouter ou le supprimer du projet.</p>
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Programme</strong></td> 
          <td> <p>Si vous avez sélectionné un portfolio pour le projet, spécifiez également un programme. Certains portfolios peuvent ne pas avoir de programmes. Vous devez d’abord créer un programme avant qu’il n’apparaisse dans cette liste déroulante. Seuls les programmes actifs peuvent être associés à un projet. </p> <p>Pour plus d’informations sur la création de programmes, voir <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Créer un programme</a>.</p> 
       <p><b>NOTE</b></p>
-         <p>Pour pouvoir l’ajouter ou la supprimer au projet, vous devez disposer des autorisations de gestion du programme.</p>   
+         <p>Vous devez disposer des autorisations de niveau Gérer pour le programme afin de pouvoir l’ajouter ou le supprimer du projet.</p>   
       </td> 
       </tr> 
       <tr> 
@@ -335,13 +340,13 @@ Pour modifier des informations sur des formulaires personnalisés lors de la mod
 1. Commencez à modifier votre projet comme décrit ci-dessus.
 1. Cliquez sur **Formulaires personnalisés** dans le panneau de gauche.
 
-   ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![Formulaires personnalisés dans la zone de modification du projet](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. Cliquez sur la boîte de dialogue **Ajouter un formulaire personnalisé** et sélectionnez un formulaire dans la liste pour le joindre au projet. Par défaut, les 40 premiers formulaires s’affichent par ordre alphabétique. Si le formulaire ne figure pas dans la liste, commencez à saisir son nom, puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
    >[!NOTE]
    >
-   >Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un projet.
+   >Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un projet.
 
 
 1. (Le cas échéant) Si vous avez joint un formulaire personnalisé au projet, modifiez les champs du formulaire. Vous devez spécifier tous les champs requis avant de pouvoir enregistrer le projet.
@@ -370,7 +375,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
 1. Commencez à modifier votre projet comme décrit ci-dessus.
 1. Cliquez sur **Finances** dans le panneau de gauche.
 
-   ![](assets/nwe-finance-in-edit-project-box-350x183.png)
+   ![Zone Finance dans la zone d’édition du projet](assets/nwe-finance-in-edit-project-box-350x183.png)
 
 1. Mettez à jour les informations financières suivantes pour le projet :
 
@@ -428,7 +433,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
 1. Commencez à modifier votre projet comme décrit ci-dessus.
 1. Cliquez sur **Paramètres du projet** dans le panneau de gauche.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![Zone des paramètres du projet dans la zone d’édition du projet](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Mettez à jour les informations suivantes :
 
@@ -552,7 +557,7 @@ Pour plus d’informations sur la façon dont ces paramètres affectent la créa
 1. Commencez à modifier votre projet comme décrit ci-dessus.
 1. Cliquez sur **Paramètres de la tâche** dans le panneau de gauche.
 
-   ![](assets/nwe-task-settings-in-edit-project-box-350x211.png)
+   ![Paramètres de tâche dans la zone Modifier le projet](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
 1. Dans la zone **Processus d’approbation de tâche par défaut**, sélectionnez le processus d’approbation de tâche que vous souhaitez associer à toutes les nouvelles tâches lorsque vous les ajoutez au projet.
 
@@ -563,10 +568,10 @@ Pour plus d’informations sur la façon dont ces paramètres affectent la créa
    * Lorsque vous sélectionnez plusieurs projets dans le même groupe, les deux processus d’approbation des tâches à l’échelle du système et du groupe s’affichent dans ce champ.
    * Lorsque vous sélectionnez plusieurs projets dans différents groupes, seuls les processus d’approbation des tâches à l’échelle du système s’affichent dans ce champ.
 
-1. Dans la zone **Formulaires personnalisés de tâche par défaut**, sélectionnez le ou les formulaires personnalisés que vous souhaitez associer à toutes les nouvelles tâches lorsque vous les ajoutez au projet. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez associer jusqu’à dix formulaires personnalisés à une tâche.
+1. Dans la zone **Formulaires personnalisés de tâche par défaut**, sélectionnez le ou les formulaires personnalisés que vous souhaitez associer à toutes les nouvelles tâches lorsque vous les ajoutez au projet. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez associer jusqu’à dix formulaires personnalisés à une tâche.
 1. (Facultatif) Sélectionnez **Utiliser l’option Effort de travail pour calculer automatiquement le nombre d’heures prévues de la tâche** si vous souhaitez activer la gestion de l’effort de tâche à l’aide de l’effort de travail au lieu du nombre d’heures prévues.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Effort de travail dans la zone de modification du projet](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. (Le cas échéant et facultatif) Si vous avez sélectionné Utiliser l’option Effort de travail pour calculer automatiquement le nombre d’heures prévues de la tâche, cliquez sur le menu déroulant pour chaque niveau d’effort et sélectionnez un pourcentage pour chaque niveau. Les pourcentages suivants sont des valeurs par défaut :
 
@@ -591,7 +596,7 @@ Pour plus d’informations sur la façon dont ces paramètres affectent la créa
 1. Commencez à modifier votre projet comme décrit ci-dessus.
 1. Cliquez sur **Paramètres de l’événement** dans le panneau de gauche.
 
-   ![](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
+   ![Paramètres des événements dans la zone Modifier le projet](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
 1. (Facultatif) Désélectionnez l’option **Autoriser les utilisateurs et utilisatrices à ajouter des problèmes en ligne**. Elle est sélectionnée par défaut.
 
@@ -623,7 +628,7 @@ Pour plus d’informations sur la façon dont ces paramètres affectent la créa
 1. Commencez à modifier votre projet comme décrit ci-dessus.
 1. Cliquez sur **Accéder** dans le panneau de gauche.
 
-   ![](assets/nwe-access-in-edit-project-box-350x262.png)
+   ![Zone d’accès dans la zone de modification du projet](assets/nwe-access-in-edit-project-box-350x262.png)
 
 1. Spécifiez les informations d’**accès** suivantes pour le projet :
 
@@ -664,7 +669,7 @@ Pour plus d’informations sur la façon dont ces paramètres affectent la créa
 
 1. Cliquer sur **Enregistrer**.
 
-### Dossiers liés
+### Dossiers liés (disponibilité conditionnelle) {#linked-folders}
 
 La fonctionnalité de dossier lié crée automatiquement des dossiers dans Adobe Experience Manager Assets et connecte ces dossiers à Workfront.
 
@@ -674,11 +679,28 @@ Cette section n’apparaît que si toutes les conditions suivantes sont remplies
 * Votre organisation a activé et configuré une intégration avec Adobe Experience Manager.
 * Le modèle utilisé pour créer ce projet a activé et configuré les dossiers liés.
 
-Pour des instructions sur la modification des dossiers liés, voir [Modifier les valeurs de workflow dans un projet](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) dans l’article Utiliser les workflows dans l’intégration Experience Manager Assets.
+Pour plus d’informations sur la modification des dossiers liés, voir [Modifier les valeurs de workflow dans un projet](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) dans l’article [Utiliser des workflows dans l’intégration Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
 
 >[!NOTE]
 >
 >Les dossiers liés étant créés lors de la création du projet, la modification du workflow des dossiers liés sur un projet existant est inefficace. La modification de ces valeurs lors de la création d’un projet fonctionne comme prévu.
+
+<!--
+<div class="preview">
+
+### Comment
+
+1. Begin editing your project as described above.
+1. Click **Comment** in the left panel.
+
+   ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
+
+1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Save**. 
+
+</div>
+
+-->
 
 ## Modifier un projet dans l’en-tête du projet (limité)
 
@@ -686,7 +708,7 @@ Vous pouvez modifier un nombre limité d’informations dans l’en-tête du pro
 
 L’administration système ou du groupe peut personnaliser les champs affichés dans l’en-tête du projet.
 
-![](assets/project-header-350x18.png)
+![En-tête du projet](assets/project-header-350x18.png)
 
 Les champs suivants sont inclus par défaut dans l’en-tête du projet.
 
@@ -720,21 +742,21 @@ Tenez compte des points suivants lorsque vous modifiez des projets en bloc :
 
 * Lorsque vous sélectionnez des projets qui ont des valeurs différentes pour le même champ, le champ affiche un indicateur « Plusieurs valeurs » dans la boîte « Modifier les projets ». L’indicateur « Plusieurs valeurs » s’affiche en regard des champs qui sont des cases à cocher, des cases d’option et des boutons bascules.
 
-  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![Indicateur à valeurs multiples pour les dates de la zone de modification en bloc des projets](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * Outre l’indicateur « Plusieurs valeurs », lorsque les options choisies sont différentes sur au moins un des projets sélectionnés, les champs qui ont des options multiples s’affichent de l’une des manières suivantes :
 
    * Les champs de type case à cocher comportent une ligne au lieu d’une case à cocher pour l’option qui est cochée pour certains projets, mais pas pour tous les projets sélectionnés.
 
-     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![Plusieurs cases à cocher d’indicateur de valeur dans la zone de modification en bloc des projets](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * Les champs de type bouton (bascule) sont grisés. Le bouton (bascule) est positionné au centre pour l’option qui est activée dans certains projets, mais pas dans tous les projets sélectionnés.
 
-  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![Plusieurs valeurs mises en surbrillance dans les projets de modification en bloc](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * Les champs de type case d’option dont certaines options sont sélectionnées, mais pas toutes, affichent toutes les cases d’option comme étant vides.
 
-     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+     ![Zone Modifier le projet en bloc avec des boutons radio d’indicateur à valeurs multiples](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Lorsque vous mettez à jour une option dans un champ à options multiples (tel qu’un champ qui s’affiche sous la forme d’un ensemble de boutons bascules ou de cases à cocher), toutes les autres options doivent correspondre entre les projets sélectionnés.
 
@@ -749,10 +771,10 @@ Pour modifier des projets en bloc, procédez comme suit :
 {{step1-to-projects}}
 
 1. Sélectionnez plusieurs projets dans la liste.
-1. Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) en haut de la liste.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) en haut de la liste.
 La boîte de dialogue **Modifier les projets** s’affiche.
 
-   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+   ![Modification de projets dans la fenêtre modale en bloc](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
 Selon la manière dont l’administrateur ou l’administratrice Workfront ou l’administrateur ou l’administratrice de groupes a modifié votre modèle de disposition, les zones du panneau de gauche de la zone Modifier le projet ou les champs répertoriés dans ces zones peuvent être réorganisés ou ne pas s’afficher. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
@@ -766,7 +788,7 @@ Selon la manière dont l’administrateur ou l’administratrice Workfront ou l�
 
    Les formulaires personnalisés qui sont associés à tous les projets sélectionnés s’affichent dans la sous-section **Formulaires personnalisés communs** de la zone **Formulaires personnalisés**.
 
-   ![](assets/custom-forms-in-common-unshimmed.png)
+   ![Les formulaires personnalisés sont communs aux projets de modification en bloc](assets/custom-forms-in-common-unshimmed.png)
 
    >[!TIP]
    >
@@ -775,7 +797,7 @@ Selon la manière dont l’administrateur ou l’administratrice Workfront ou l�
 1. Commencez à saisir le nom d’un formulaire personnalisé dans le champ **Ajouter un formulaire personnalisé**.
 
 
-   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+   ![Forms a déjà joint un indicateur dans les projets de modification en bloc](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
    Les formulaires personnalisés déjà associés aux projets sélectionnés s’affichent dans la sous-section **Formulaires associés** du champ **Ajouter un formulaire personnalisé**.
 
@@ -803,9 +825,10 @@ Pour plus d’informations sur la modification de la zone Paramètres de la tâc
 Pour plus d’informations sur la modification de la zone Paramètres du problème, voir la section [Paramètres du problème](#issue-settings) de cet article.
 1. Cliquez sur **Accès** pour modifier les paramètres d’accès de tous les projets sélectionnés.
 Pour plus d’informations sur la modification de la zone Accès, voir la section [Accès](#access) de cet article.
+   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
 1. (Facultatif) Pour supprimer les informations que vous avez ajoutées dans la zone Modifier les projets, pointez sur un champ modifié, puis cliquez sur l’icône **x** (ignorer) en haut à droite du champ.
 
-   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+   ![Icône Ignorer pour le champ Modifier les projets en bloc](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. (Facultatif) Cliquez sur **Annuler** en bas de la page **Modifier les projets** pour supprimer toutes les modifications apportées à tous les projets.
 1. Cliquer sur **Enregistrer**.
