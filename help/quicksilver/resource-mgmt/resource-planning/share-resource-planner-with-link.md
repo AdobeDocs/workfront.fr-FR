@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Partage de la vue utilisateur du planificateur de ressources avec un lien
+title: Partager la vue utilisateur du planificateur de ressources avec un lien
 description: Adobe Workfront peut générer une URL unique pour la vue Utilisateur ou utilisatrice du planificateur de ressources que vous pouvez incorporer dans un tableau de bord en tant que page externe, ou ouvrir séparément dans un nouvel onglet du navigateur. Cela s’avère utile lors du partage des informations du planificateur de ressources avec les personnes qui ne disposent pas d’un accès direct à la zone Ressources.
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '655'
 ht-degree: 98%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 Adobe Workfront peut générer une URL unique pour la vue Utilisateur ou utilisatrice du planificateur de ressources que vous pouvez incorporer dans un tableau de bord en tant que page externe, ou ouvrir séparément dans un nouvel onglet du navigateur. Cela s’avère utile lors du partage des informations du planificateur de ressources avec les personnes qui ne disposent pas d’un accès direct à la zone Ressources.
 
-![](assets/rp-user-view-with-link-highlight-350x49.png)
+![Vue utilisateur avec lien](assets/rp-user-view-with-link-highlight-350x49.png)
 
 ## Conditions d’accès
 

@@ -2,14 +2,14 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Présentation du planificateur de ressources
+title: Présentation du planificateur des ressources
 description: Grâce au planificateur de ressources, vous pouvez estimer et budgéter l’affectation de vos ressources aux projets et prévoir leur disponibilité pour des travaux futurs.
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2082'
 ht-degree: 99%
 
 ---
@@ -91,7 +91,7 @@ Afin de bien utiliser le planificateur de ressources pour établir un budget de 
 >Si l’une des conditions préalables suivantes est manquante, vous constaterez peut-être que certaines informations sur l’affectation ou la disponibilité des ressources sont manquantes ou ont une valeur nulle.\
 >Pour plus d’informations sur la raison pour laquelle les champs ne contiennent pas de données ou n’ont aucune valeur, pointez la souris sur les champs.
 
-![](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
+![Aucun utilisateur avec ce rôle](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Assurez-vous que la configuration de tâche et de problème suivante existe avan
 
 Vous devez comprendre comment votre instance de Workfront calcule la disponibilité de la personne en fonction des préférences de gestion des ressources de votre système. Workfront peut calculer la disponibilité de la personne à l’aide de son planning tel que défini dans sa page Profil utilisateur ou dans le planning par défaut de votre système.
 
-![](assets/resource-management-preferences-section-in-setup-350x89.png)
+![Préférences de gestion](assets/resource-management-preferences-section-in-setup-350x89.png)
 
 Votre administrateur ou administratrice Workfront configure vos préférences de gestion des ressources.
 

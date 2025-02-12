@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Gestion des affectations utilisateur dans l’équilibreur de charge de travail
+title: Gérer les allocations d’utilisateurs dans l’équilibreur de charge de travail
 description: En tant que personne gestionnaire de ressources, vous pouvez affecter du travail aux utilisateurs et aux utilisatrices et gérer leurs affectations quotidiennes, hebdomadaires ou mensuelles à partir de l’équilibreur de charge de travail.
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2898'
-ht-degree: 95%
+source-wordcount: '2909'
+ht-degree: 91%
 
 ---
 
@@ -37,8 +37,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
        <p>ou</p>
-       <p>Actuel : planifiez, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ;</br>
-       Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+       <p>Actuelle : planification, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource;</br>
+       Travail, lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
   </tr>
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -110,14 +110,14 @@ Tenez compte des points suivants lors de la localisation d’allocations quotidi
 
 * Pour deux personnes dans des fuseaux horaires ou des plannings différents de ceux des personnes affectées, les quantités affectées peuvent apparaître différemment de celles de deux personnes affichant les mêmes éléments de travail.
 
-* Lorsqu’un utilisateur a programmé des congés, le jour ou la partie de la journée s’affiche en arrière-plan gris et une icône d’avion indique le moment du congé. Si l’administrateur ou l’administratrice Workfront a activé le paramètre Congés de l’utilisateur ou de l’utilisatrice dans la zone Configuration afin de prendre en considération les congés de l’utilisateur ou de l’utilisatrice, les heures affectées sont déplacées vers le jour disponible suivant dans la chronologie. Si le paramètre est désactivé, les heures restent affectées pour le jour désigné pour les congés et l’utilisateur ou l’utilisatrice s’affiche comme étant en suraffectation. Pour plus d’informations, voir [Configurer des préférences de projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Lorsque l’utilisateur a prévu des congés, le jour ou la partie de journée s’affiche sur un arrière-plan gris et une icône d’avion indique des congés. Si l’administrateur ou l’administratrice Workfront a activé le paramètre Congés de l’utilisateur ou de l’utilisatrice dans la zone Configuration afin de prendre en considération les congés de l’utilisateur ou de l’utilisatrice, les heures affectées sont déplacées vers le jour disponible suivant dans la chronologie. Si le paramètre est désactivé, les heures restent affectées pour le jour désigné pour les congés et l’utilisateur ou l’utilisatrice s’affiche comme étant en suraffectation. Pour plus d’informations, voir [Configurer des préférences de projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >Si les congés ont été marqués après l’affectation de l’utilisateur ou de l’utilisatrice à un élément de travail, vous devez recalculer la chronologie du projet pour afficher l’affectation déplacée. Pour plus d’informations, voir [Recalculer la chronologie du projet](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-   * Lorsque plusieurs utilisateurs sont affectés à une tâche et que le cessionnaire principal a programmé un congé, la chronologie est décalée (si les dates ne sont pas fixes) et les heures planifiées de tous les cessionnaires sont redistribuées sur la nouvelle durée de la tâche. Si la tâche comporte des dates fixes, la chronologie n’est pas modifiée en raison d’un temps de congé et les heures sont réaffectées parmi les jours restants.
-   * Si les affectations sont effectuées manuellement, les heures planifiées ne sont pas redistribuées après le congé.
+   * Lorsque plusieurs utilisateurs sont affectés à une tâche et que la personne désignée principale a prévu des congés, la chronologie est décalée (si les dates ne sont pas fixes) et les heures prévues de toutes les personnes désignées sont redistribuées sur la nouvelle durée de la tâche. Si la tâche comporte des dates fixes, la chronologie n’est pas modifiée en raison des congés et les heures sont réaffectées parmi les jours restants.
+   * Si les allocations sont effectuées manuellement, les heures planifiées ne sont pas réaffectées après les congés.
 
 * Si plusieurs utilisateurs et utilisatrices sont affectés à la tâche, le nombre d’heures prévues est réparti uniformément d’abord entre chaque personne, puis uniformément sur chaque jour pour toute la durée de la tâche. Cette répartition devient l’affectation de chaque personne à la tâche.
 
@@ -191,11 +191,11 @@ Lorsque vous affectez du travail à des utilisateurs et utilisatrices, vous pouv
    >
    >Vous pouvez modifier les affectations d’utilisateurs et d’utilisatrices uniquement pour les tâches et les problèmes. Vous ne pouvez pas modifier les affectations d’utilisateurs et d’utilisatrices pour les projets.
 
-1. (Facultatif) Cliquez sur l’icône **Afficher les allocations** ![](assets/show-allocations-icon-small.png) afin d’afficher les allocations pour tous les éléments de travail.
+1. (Facultatif) Cliquez sur l’icône **Afficher les allocations** ![Afficher l’icône des allocations](assets/show-allocations-icon-small.png) pour afficher les allocations pour tous les éléments de travail.
 
    Le nom des tâches et des projets est remplacé par l’affectation de l’utilisateur ou de l’utilisatrice pour la tâche ou le projet.
 
-1. (Facultatif) Cliquez sur l’icône **Paramètres** ![](assets/gear-icon-settings.png) et sélectionnez l’une des options suivantes :
+1. (Facultatif) Cliquez sur l’icône **Paramètres** ![Icône Paramètres](assets/gear-icon-settings.png) et sélectionnez l’une des options suivantes :
 
    1. **Inclure les heures des problèmes**. Cette option vous permet de gérer les affectations de problèmes en plus des affectations de tâches.
    1. **Afficher le travail terminé**. Cette option affiche les éléments qui ont été terminés et qui sont planifiés pendant la chronologie pour laquelle vous gérez les affectations.
@@ -212,7 +212,7 @@ Lorsque vous affectez du travail à des utilisateurs et utilisatrices, vous pouv
       >
       >L’administrateur ou administratrice de Workfront décide du planning à utiliser sur l’ensemble de votre système pour calculer la capacité des utilisateurs et utilisatrices dans la zone Gestion des ressources de Configuration. Pour plus d’informations, consultez [Configurer les préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-1. Cliquez sur le menu **Plus** ![](assets/qs-more-menu.png) pour un élément de travail, puis cliquez sur **Modifier les allocations**.
+1. Cliquez sur le menu **Plus** ![Plus](assets/qs-more-menu.png) d’un élément de travail, puis sur **Modifier les allocations**.
 
    ![Menu Plus d’un élément de travail](assets/more-menu-on-task-wb-nwe.png)
 
@@ -222,11 +222,11 @@ Lorsque vous affectez du travail à des utilisateurs et utilisatrices, vous pouv
 
    Les zones d’allocation deviennent modifiables.
 
-1. Cliquez dans la zone de chaque affectation quotidienne, hebdomadaire ou mensuelle pour mettre à jour manuellement le nombre d’heures ou le pourcentage que vous souhaitez affecter à l’utilisateur ou à l’utilisatrice chaque jour, semaine ou mois, puis cliquez sur l’icône **Enregistrer** ![](assets/checkmark-icon.png).
+1. Cliquez dans la zone de chaque allocation quotidienne, hebdomadaire ou mensuelle pour mettre à jour manuellement le nombre d&#39;heures ou la valeur de pourcentage pour lequel vous souhaitez que l&#39;utilisateur soit affecté chaque jour, semaine ou mois, puis cliquez sur l&#39;icône **Enregistrer** ![Icône Enregistrer](assets/checkmark-icon.png).
 
    >[!TIP]
    >
-   >Cliquez sur l’icône **Annuler** ![](assets/cancel-allocations-wb.png) pour supprimer les affectations que vous avez ajustées.
+   >Cliquez sur l’icône **Annuler** ![Icône Annuler](assets/cancel-allocations-wb.png) pour supprimer les allocations que vous avez ajustées.
 
    ![Enregistrement ou annulation des affectations ajustées](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

@@ -2,15 +2,15 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Présentation de la navigation du planificateur de ressources
+title: Vue d’ensemble de la navigation dans le Planificateur des ressources
 description: En utilisant le planificateur de ressources d’Adobe Workfront, vous pouvez facilement comprendre la disponibilité de vos ressources, ainsi que le temps prévu nécessaire pour terminer le travail sur vos projets. Vous pouvez ensuite gérer l’affectation de vos utilisateurs et utilisatrices et de leurs fonctions sur les projets qui leur ont été affectés.
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2621'
-ht-degree: 99%
+source-wordcount: '2652'
+ht-degree: 98%
 
 ---
 
@@ -24,13 +24,13 @@ En utilisant le planificateur de ressources d’Adobe Workfront, vous pouvez fa
 
 Vous devez respecter les conditions préalables pour utiliser pleinement le planificateur de ressources. Pour plus d’informations sur le planificateur de ressources, consultez la section [Vue d’ensemble du planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-![](assets/rp-project-view-all-functionality-350x117.png)
+![Planificateur de ressources](assets/rp-project-view-all-functionality-350x117.png)
 
 Les sections suivantes décrivent toutes les zones du planificateur de ressources.
 
 ## Chronologie des projets
 
-![](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+![Calendrier chronologique](assets/timeline-calendar-resource-planner-nwe-350x25.png)
 
 
 
@@ -77,7 +77,7 @@ Pour parcourir la chronologie, procédez comme suit :
 
 ## Sélectionner la vue Projet, Rôle ou utilisateur
 
-![](assets/nwe-project-role-user-view-selection-resource-planner.png)
+![Afficher par projet, rôle ou utilisateur](assets/nwe-project-role-user-view-selection-resource-planner.png)
 
 Vous pouvez ajuster la vue dans le planificateur de ressources selon vos préférences d’affichage des informations.
 
@@ -194,7 +194,7 @@ Tenez compte des points suivants lorsque vous sélectionnez la vue utilisateur d
    * Lorsque vous disposez des autorisations nécessaires pour afficher les projets, mais pas les tâches ni les problèmes qui y sont associés, le nom du projet s’affiche et les tâches et problèmes sont répertoriés sous la section **Éléments inaccessibles**.\
      Pour plus d’informations sur les autorisations dans Workfront, voir [Vue d’ensemble des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     ![Éléments inaccessibles](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
    
 
@@ -210,7 +210,7 @@ Tenez compte des points suivants lorsque vous sélectionnez la vue utilisateur d
 
 ## Nom du projet
 
-![](assets/project-name-highlighted-resource-planner-350x445.png)
+![ Nom du projet ](assets/project-name-highlighted-resource-planner-350x445.png)
 
 Vous pouvez voir les projets suivants dans le planificateur de ressources :
 
@@ -232,13 +232,13 @@ Vous pouvez voir les projets suivants dans le planificateur de ressources :
 
 Les projets sont répertoriés par ordre de priorité dans le planificateur de ressources ; le projet le plus important apparaît en premier. La priorité est indiquée par un numéro devant le nom du projet.
 
-![](assets/rp-planner-priority-highlighted-350x186.png)
+![Priorité de planification du projet](assets/rp-planner-priority-highlighted-350x186.png)
 
 Vous pouvez également activer un paramètre pour afficher les priorités du projet en fonction de leur portfolio, lorsqu’elles sont associées à un portfolio. Pour plus d’informations sur la priorité des projets et l’affichage des priorités de portfolio dans le planificateur de ressources, voir [Définir la priorité des projets dans le planificateur de ressources](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 ## Nom de la fonction
 
-![](assets/role-highlighted-resource-planner-350x243.png)
+![Nom de la fonction](assets/role-highlighted-resource-planner-350x243.png)
 
 Les catégories de fonctions suivantes sont répertoriées dans le planificateur de ressources :
 
@@ -254,7 +254,7 @@ Les catégories de fonctions suivantes sont répertoriées dans le planificateur
 
 ## Nom d&#39;utilisateur
 
-![](assets/user-highlighted-resource-planner-350x272.png)
+![Nom d’utilisateur](assets/user-highlighted-resource-planner-350x272.png)
 
 Les utilisateurs et utilisatrices répertoriés dans les vues Projet et Rôle du planificateur de ressources appartiennent aux groupes de ressources associés aux projets.\
 Pour plus d’informations sur l’ajout d’utilisateurs et d’utilisatrices aux groupes de ressources, consultez la section [Associer des groupes de ressources à des utilisateurs et utilisatrices](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
@@ -310,11 +310,11 @@ Pour activer les paramètres dans le planificateur de ressources :
 1. Ouvrez le planificateur de ressources.
 1. Cliquez sur l’icône **Paramètres**.
 
-   ![](assets/rp-settings-icon-edit-1.png)
+   ![Icône des paramètres du Planificateur de ressources](assets/rp-settings-icon-edit-1.png)
 
    La zone des paramètres du planificateur de ressources s’affiche.
 
-   ![](assets/rp-settings-without-actual-hours-350x211.png)
+   ![Paramètres du planificateur des ressources](assets/rp-settings-without-actual-hours-350x211.png)
 
 1. Activez le paramètre **Inclure les heures des problèmes** pour afficher le nombre d’heures prévues dans le planificateur de ressources. Ce paramètre est désactivé par défaut.
 
@@ -348,7 +348,7 @@ Pour afficher le planificateur de ressources en plein écran, procédez comme su
 
 ## Option d’export
 
-![](assets/export-button-highlighted-resource-planner-350x92.png)
+![bouton Exporter](assets/export-button-highlighted-resource-planner-350x92.png)
 
 Vous pouvez exporter des informations vers un fichier Excel (.xlsx) à partir de n’importe quelle vue du planificateur de ressources.\
 Pour plus d’informations sur l’export d’informations à partir du planificateur de ressources, voir [Exporter des informations à partir du planificateur de ressources](../../resource-mgmt/resource-planning/export-resource-planner.md).

@@ -1,15 +1,15 @@
 ---
 product-area: resource-management;projects
 navigation-topic: resource-planning
-title: Définition de la priorité des projets dans le planificateur de ressources
+title: Hiérarchiser les projets dans le planificateur de ressources
 description: Les projets sont répertoriés par ordre de priorité dans le planificateur de ressources ; le projet le plus important apparaît en premier.
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 99%
+source-wordcount: '1308'
+ht-degree: 98%
 
 ---
 
@@ -94,7 +94,7 @@ Pour modifier la priorité de planification de projet :
 1. Accédez au **Planificateur de ressources**.
 
 1. Cliquez dans le champ à gauche du nom du projet qui contient un nombre, saisissez un nombre pour modifier la Priorité de planification, puis appuyez sur Entrée.\
-   ![](assets/mceclip4.png)\
+   ![Modifier la priorité de planification](assets/mceclip4.png)\
    Ou\
    Pointez sur le nom du projet, cliquez sur l’indicateur situé à gauche du nom du projet, puis faites-le glisser et déposez-le à l’endroit approprié pour modifier la priorité.
 
@@ -124,7 +124,7 @@ Pour modifier la priorité de planification de projet :
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Priorité Portfolio](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    Les priorités de portfolio des projets s’affichent uniquement dans la vue Projet du planificateur de ressources.
 
@@ -136,7 +136,7 @@ Pour modifier la priorité de planification de projet :
    1. Date de début prévue
    1. Nom du projet
 
-   ![](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![Priorité Portfolio ordonnée](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. Cliquer sur **Enregistrer**.
 

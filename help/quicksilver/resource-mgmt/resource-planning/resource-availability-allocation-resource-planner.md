@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Vérifiez la disponibilité et l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront.
+title: Vérifier la disponibilité et l’allocation des ressources à l’aide du planificateur de ressources d’Adobe Workfront
 description: Vous pouvez afficher la disponibilité de vos ressources et le volume de travail prévu ou budgété pour vos projets dans le planificateur de ressources. Ces valeurs sont affichées en heures, en équivalent temps complet ou en coûts et sont organisées en colonnes.
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 99%
+source-wordcount: '1243'
+ht-degree: 98%
 
 ---
 
@@ -148,7 +148,7 @@ Tenez compte des points suivants lorsque vous changez votre vue dans le planific
 
 1. (Le cas échéant) Si vous avez sélectionné **Personnaliser**, indiquez les options dans la zone **Personnaliser les mesures affichées** pour configurer votre vue personnalisée.
 
-   ![](assets/planner-customize-view-box-350x114.png)
+   ![Personnaliser la zone d’affichage](assets/planner-customize-view-box-350x114.png)
 
 1. Dans la colonne **Type de vue** sur la gauche, sélectionnez l’une des vues suivantes :
 
@@ -189,7 +189,7 @@ Tenez compte des points suivants lorsque vous changez votre vue dans le planific
    >
    >Vous ne pouvez avoir qu’une seule vue personnalisée.
 
-   ![](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![Liste déroulante des heures du planificateur](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## Afficher le graphique de l’affectation des utilisateurs et utilisatrices
 

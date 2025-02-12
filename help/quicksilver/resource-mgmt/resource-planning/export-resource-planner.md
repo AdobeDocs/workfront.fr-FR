@@ -6,9 +6,9 @@ description: Vous pouvez exporter des informations à partir de n’importe quel
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 96%
 
 ---
@@ -45,7 +45,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Afficher l’accès ou une version ultérieure à Projets, Utilisateurs et Gestion des ressources</p> </td> 
+   <td> <p>Afficher l'accès ou supérieur à Projets, Utilisateurs et Gestion des ressources</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -64,7 +64,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Le **planificateur** s’affiche par défaut.
 
-1. Sélectionnez la vue du planificateur. Vous pouvez sélectionner l’une des options suivantes :
+1. Sélectionnez la vue pour le Planificateur. Vous pouvez sélectionner l’une des options suivantes :
 
    * Par utilisateur
    * Par projet
@@ -74,7 +74,7 @@ Le **planificateur** s’affiche par défaut.
 
    La boîte de dialogue Options d’export s’affiche.
 
-   ![](assets/rp-export-options-box-350x421.png)
+   ![Options d’exportation](assets/rp-export-options-box-350x421.png)
 
 1. Indiquez les informations suivantes :\
    **Date de début** : la date de début de votre export. Le fichier exporté contient des informations sur l’attribution et la disponibilité, en partant du premier jour de la semaine qui contient le jour que vous spécifiez ici.\

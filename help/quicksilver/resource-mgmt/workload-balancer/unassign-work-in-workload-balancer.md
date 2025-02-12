@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Annulation de l’affectation du travail dans l’équilibreur de charge de travail
+title: Annuler l’affectation de tâches dans l’équilibreur de charge de travail
 description: Vous pouvez annuler l’affectation de personnes à des tâches dans la zone de travail affecté de l’équilibreur de charge de travail Adobe Workfront ou réaffecter ces tâches à d’autres personnes, rôles ou équipes.
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 196d0aa4ed67cf564c823625515ef49d811e0e06
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 93%
+source-wordcount: '405'
+ht-degree: 82%
 
 ---
 
@@ -41,8 +41,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
        <p>ou</p>
-       <p>Actuel : planifiez, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ;</br>
-       Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+       <p>Actuelle : planification, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource;</br>
+       Travail, lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -75,9 +75,9 @@ Pour annuler l’affectation d’éléments de travail à des personnes :
 1. Utilisez l’une des méthodes suivantes :
 
    * Recherchez l’élément dont vous souhaitez annuler l’affectation dans la zone d’un utilisateur ou d’une utilisatrice, cliquez dessus, puis faites-le glisser et déposez-le dans la zone Non affecté ou dans la zone d’un autre utilisateur ou d’une autre utilisatrice.
-   * Cliquez sur l’icône **Plus** ![](assets/more-icon-task-list.png) à droite du nom d’un élément de travail, cliquez sur **Affecter ceci à**, supprimez ensuite le nom des entités affectées à l’élément de travail ou saisissez un autre nom, puis cliquez sur **Enregistrer**.
+   * Cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon-task-list.png) à droite du nom d’un élément de travail, cliquez sur **Affecter à**, supprimez le nom des entités affectées à l’élément de travail ou saisissez un autre nom, puis cliquez sur **Enregistrer**.
 
-     ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+     ![Affecter ceci à](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    L’élément s’affiche dans la zone de travail non affecté s’il correspond aux critères de filtrage de cette zone et qu’il n’est affecté à aucune autre personne, ou s’il s’affiche dans la zone de l’utilisateur ou de l’utilisatrice s’il est affecté à une autre personne.
 

@@ -6,10 +6,10 @@ description: Pour rechercher efficacement des éléments de travail et vous conc
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2458'
-ht-degree: 94%
+source-wordcount: '2526'
+ht-degree: 84%
 
 ---
 
@@ -52,8 +52,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
        <p>ou</p>
-       <p>Actuel : planifiez, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ;</br>
-       Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+       <p>Actuelle : planification, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource;</br>
+       Travail, lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
   </tr>
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -65,7 +65,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
      <li>Problèmes</li>
      <li>Filtres, vues et regroupements</li>
     </ul>
-    <p>Modifier l’accès aux filtres, vues et groupes lors de la création ou de la modification de filtres </p> </td>
+    <p>Modifier l’accès aux filtres, vues et regroupements lors de la création ou de la modification de filtres </p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -160,11 +160,11 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
 
    Pour plus d’informations sur l’accès à l’équilibreur de charge de travail, consultez [Parcourir l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Cliquez sur l’icône **Filtrer** ![](assets/filter-icon.png) dans le coin supérieur droit des zones **Travail non affecté** ou **Travail affecté**.
+1. Cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-icon.png) dans le coin supérieur droit des zones **Tâches non affectées** ou **Tâches affectées**.
 
    La zone de créateur de filtres s’affiche à droite. Le nom de la zone pour laquelle vous créez le filtre s’affiche dans l’en-tête de la zone.
 
-   ![](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
+   ![Liste des filtres](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
 
 1. (Facultatif et le cas échéant) Si vous accédez à l’équilibreur de charge de travail dans la zone Ressource, le filtre prédéfini Par défaut peut déjà être appliqué à la zone Travail affecté. Vous pouvez modifier et enregistrer une copie du filtre Par défaut.
 
@@ -185,18 +185,18 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
 
       >[!IMPORTANT]
       >
-      >Lorsque vous référencez des champs personnalisés, vous devez saisir le nom du champ et non le libellé du champ. Le libellé du champ s’affiche sur un formulaire personnalisé associé à un objet. Pour plus d’informations sur la différence entre le libellé et le nom d’un champ personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+      >Lorsque vous référencez des champs personnalisés, vous devez saisir le nom du champ et non le libellé du champ. Le libellé du champ s’affiche sur un formulaire personnalisé associé à un objet. Pour plus d’informations sur la différence entre le libellé et le nom d’un champ personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    1. (Le cas échéant) Si vous avez cliqué sur **Parcourir les champs**, saisissez le nom d’un champ dans le champ **Rechercher** et sélectionnez-le lorsqu’il s’affiche dans la liste.
 
-      ![](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
+      ![Rechercher un champ](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
 
       >[!TIP]
       >
       >Vous pouvez sélectionner un champ parmi les sections suivantes :
       >
       >* **Sélections récentes** : les champs que vous avez récemment filtrés.
-      >* **Suggested** : les champs les plus couramment utilisés.
+      >* **Suggéré** : champs les plus couramment utilisés.
 
 
    1. Sélectionnez un modificateur dans le deuxième menu déroulant. Pour plus d’informations sur les modificateurs de filtre Workfront, consultez [Modificateurs de filtre et de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -204,15 +204,15 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
 
       >[!NOTE]
       >
-      > Lorsque vous souhaitez afficher des objets de travail d’un portfolio spécifique, vous pouvez appliquer le filtre suivant : &quot;ID de Portfolio égal à &lt; nom du portfolio >&quot;.
+      > Lorsque vous souhaitez afficher les objets de travail d’un portfolio spécifique, vous pouvez appliquer le filtre suivant : « Portfolio ID Equals &lt; the name of the portfolio > ».
       >
-      >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+      >![Instruction de filtre de nom de Portfolio](assets/portfolio-name-filter-statement-wb-350x262.png)
       >
-      >Pour exclure les projets dont l’état est En attente, vous devez appliquer le filtre suivant : &quot;Projet : l’état n’est pas égal à En attente&quot;. Cela empêche les éléments de travail des projets En attente de s’afficher dans l’équilibreur de charge de travail.
+      >Pour exclure les projets dont le statut est En attente, vous devez appliquer le filtre suivant : « Projet : Le statut n’est pas égal à En attente ». Cela empêche les éléments de travail des projets En attente de s’afficher dans l’équilibreur de charge de travail.
       >
-      >![](assets/project-status-filter-statement-wb.png)
+      >![Instruction de filtre du statut du projet](assets/project-status-filter-statement-wb.png)
 
-   1. (Facultatif) Cliquez sur l’icône **Supprimer** ![](assets/delete.png) pour supprimer un critère de filtre.
+   1. (Facultatif) Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png) pour supprimer un critère de filtre.
 
 1. (Facultatif) Cliquez sur **Ajouter un filtre** pour ajouter un autre critère de filtre, puis répétez les actions de l’étape 4.
 
@@ -232,16 +232,16 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
 
 1. Cliquez sur **Enregistrer en tant que nouveau** pour enregistrer le filtre pour une utilisation ultérieure.
 
-   ![](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
+   ![Filtrer Enregistrer sous](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
 
    >[!TIP]
    >
    >En cliquant sur **Annuler** à tout moment, vous revenez à la zone de création des filtres.
 
 1. Cliquez dans le champ **Filtre sans titre** et saisissez le nom du nouveau filtre.
-1. (Facultatif) Sélectionnez une icône pour le nouveau filtre dans le menu déroulant **Icône** .
+1. (Facultatif) Sélectionnez une icône pour le nouveau filtre dans le menu déroulant **Icône**.
 
-   ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
+   ![Icône Sélectionner](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 
 1. (Facultatif) Ajoutez une description pour le filtre afin d’indiquer ce qui le rend unique. La description s’affiche sous le nom du filtre dans la liste des filtres.
 1. Cliquer sur **Enregistrer**.
@@ -250,9 +250,9 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
 
    Pour plus d’informations sur l’application des filtres enregistrés, consultez la section [Supprimer un filtre enregistré dans l’équilibreur de charge de travail](#delete-a-saved-filter-in-the-workload-balancer) dans cet article.
 
-1. (Le cas échéant) Passez la souris sur l’**Icône de filtre** ![](assets/filter-icon.png) dans le coin supérieur droit de la zone **Travail non affecté** ou la zone **Travail affecté** pour afficher une infobulle avec le nom ou le nombre de filtres actuellement appliqués.
+1. (Conditionnel) Placez le pointeur de la souris sur l’**icône Filtre** ![icône Filtre](assets/filter-icon.png) dans le coin supérieur droit des zones **Tâches non affectées** ou **Tâches affectées** pour afficher une info-bulle indiquant le nom ou le nombre de filtres actuellement appliqués.
 
-   ![](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
+   ![Icône de filtre avec le nom du filtre](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
 
 ## Dupliquer un filtre
 
@@ -262,13 +262,13 @@ Vous pouvez dupliquer et modifier un filtre pour en créer un nouveau.
 
    Pour plus d’informations sur l’accès à l’équilibreur de charge de travail, consultez [Parcourir l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Cliquez sur l’icône **Filtrer** ![](assets/filter-icon.png) dans le coin supérieur droit de l’une des zones **Travail non affecté** ou **Travail affecté**.
+1. Cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-icon.png) dans le coin supérieur droit des zones **Tâches non affectées** ou **Tâches affectées**.
 
    La zone de créateur de filtres s’affiche à droite. Le nom de la zone pour laquelle vous créez le filtre s’affiche dans l’en-tête de la zone.
 
-1. Placez le pointeur de la souris sur un filtre existant, cliquez sur le menu **Plus** ![](assets/more-menu.png), puis cliquez sur **Dupliquer**.
+1. Placez le pointeur de la souris sur un filtre existant, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur **Dupliquer**.
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Filtrer d’autres options de menu](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -299,20 +299,20 @@ Vous pouvez modifier un filtre enregistré dans l’équilibreur de charge de tr
 
 1. Accédez à l’équilibreur de charge de travail.
 
-   Pour plus d’informations sur l’accès à l’équilibreur de charge de travail, consultez [Naviguer dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   Pour plus d’informations sur l’accès à l’équilibreur de charge de travail, consultez [Parcourir l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Cliquez sur l’**Icône Filtrer** ![](assets/filter-icon.png) dans le coin supérieur droit des zones **Travail non affecté** ou **Travail affecté**.\
+1. Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-icon.png) dans le coin supérieur droit des zones **Non affecté** ou **Tâches affectées**.\
    Le créateur de filtres s’affiche à droite.
 
-1. Placez le pointeur de la souris sur le filtre à modifier, puis cliquez sur **Modifier** ![](assets/wb-edit-filter-icon.png).
+1. Placez le pointeur de la souris sur le filtre à modifier, puis cliquez sur l’icône **Modifier** ![ Modifier le filtre ](assets/wb-edit-filter-icon.png).
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Menu Filtrer plus](assets/filter-more-menu-options-wb.png)
 
 1. Utilisez l’une des méthodes suivantes :
 
    * Modifier une instruction de filtre
    * Cliquez sur **Ajouter un filtre** pour ajouter de nouvelles instructions de filtre.
-   * Cliquez sur l’icône **Supprimer** ![](assets/delete.png) pour supprimer les instructions de filtre existantes.
+   * Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png) pour supprimer les instructions de filtre existantes.
 
 1. (Facultatif) Cliquez sur **Appliquer**.
 
@@ -337,11 +337,11 @@ Tenez compte des points suivants avant de supprimer un filtre :
 >Lorsque vous supprimez un filtre partagé avec d’autres personnes, il est également supprimé pour celles-ci.
 
 1. Accéder à l’équilibreur de charge de travail
-1. Cliquez sur l’**Icône de filtre** ![](assets/filter-icon.png) dans le coin supérieur droit des zones **Travail non affecté** ou **Travail affecté**.\
+1. Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-icon.png) dans le coin supérieur droit des zones **Tâches non affectées** ou **Tâches affectées**.\
    La zone de créateur de filtres s’affiche à droite.
 
-1. Placez le pointeur de la souris sur un filtre, cliquez sur le menu **Plus** ![](assets/more-menu.png), puis cliquez sur **Supprimer**.
-   ![](assets/filter-more-menu-options-wb.png)
+1. Placez le pointeur de la souris sur un filtre, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur **Supprimer**.
+   ![Menu Filtrer plus](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -365,12 +365,12 @@ Tenez compte des points suivants lors du partage de filtres dans l’équilibreu
 Pour partager un filtre :
 
 1. Accéder à l’équilibreur de charge de travail
-1. Cliquez sur l’**Icône de filtre** ![](assets/filter-icon.png) dans le coin supérieur droit des zones **Travail non affecté** ou **Travail affecté**.\
+1. Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-icon.png) dans le coin supérieur droit des zones **Tâches non affectées** ou **Tâches affectées**.\
    La zone de créateur de filtres s’affiche à droite.
 
-1. Placez le pointeur de la souris sur un filtre, cliquez sur le menu **Plus** ![](assets/more-menu.png), puis cliquez sur **Partager**.
+1. Placez le pointeur de la souris sur un filtre, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur **Partager.**
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Menu Filtrer plus](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -388,7 +388,7 @@ Pour partager un filtre :
 
 1. (Facultatif) Cliquez sur la flèche pointant vers la droite située en regard du nom d’une entité pour modifier ses autorisations sur le filtre, puis activez l’option **Afficher** ou **Gérer**.
 
-   ![](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
+   ![Autorisations de filtre](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
 
 1. (Facultatif) Activez ou désactivez les autorisations supplémentaires pour une entité en effectuant l’une des opérations suivantes :
 
@@ -404,7 +404,7 @@ Pour partager un filtre :
 
    Les filtres que vous avez partagés s’affichent dans la zone **Partagé avec moi** de la zone de filtrage.
 
-   ![](assets/new-filters-shared-with-me-area-wb-350x236.png)
+   ![Partagé(s) avec moi](assets/new-filters-shared-with-me-area-wb-350x236.png)
 
 <!--   
 
@@ -415,8 +415,8 @@ You can mark a filter as a favorite for quicker access to it.
 The filters that you mark as a favorite do not count towards your system Favorites list. There is no limit for how many filters you can favorite. 
 
 1. Go to the Workload Balancer
-1. Click the **Filter** icon ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas. The filter builder box displays on the right. 
-1. Mouse over a filter, then click the **Favorite** ![](assets/favorites-icon-small.png). 
+1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas. The filter builder box displays on the right. 
+1. Mouse over a filter, then click the **Favorite** ![Favorites icon](assets/favorites-icon-small.png). 
 (NOTE: insert screen shot here with Favorite as part of this menu - same as above ones but with Favorite)
 1. The filter is listed in the **Favorited** section inside the filter panel. 
 1. (Optional) Click the **Favorite** icon again to remove the filter from the list of favorite filters

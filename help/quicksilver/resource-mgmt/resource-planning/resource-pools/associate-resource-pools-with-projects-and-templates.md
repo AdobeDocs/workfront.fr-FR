@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: resource-pools
-title: Association de groupes de ressources à des projets et des modèles
+title: Associer des pools de ressources à des projets et à des modèles
 description: Les groupes de ressources sont des groupes d’utilisateurs et d’utilisatrices qui vous aident à gérer les ressources dans Adobe Workfront.
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 94%
+source-wordcount: '630'
+ht-degree: 88%
 
 ---
 
@@ -63,11 +63,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès à la gestion des ressources qui inclut l’accès à Gérer les groupes de ressources</p> <p>Modifier l’accès aux projets, aux modèles et aux utilisateurs et utilisatrices</p></td> 
+   <td> <p>Modifier l’accès à la gestion des ressources qui inclut l’accès à la gestion des pools de ressources</p> <p>Modifier l’accès aux projets, aux modèles et aux utilisateurs et utilisatrices</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Gérez les autorisations des projets, modèles et utilisateurs auxquels vous souhaitez associer les groupes de ressources.</td> 
+   <td>Gérez les autorisations des projets, modèles et utilisateurs auxquels vous souhaitez associer les pools de ressources</td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,14 +80,14 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Vous pouvez associer des groupes de ressources à un modèle de la même manière que vous associez des groupes de ressources à un projet. Cet article décrit comment associer des groupes de ressources à des projets.
 
-1. Accédez à un projet et cliquez sur l’icône **Plus** ![](assets/more-icon.png)en regard du nom du projet, puis cliquez sur **Modifier**.
+1. Accédez à un projet et cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png) en regard du nom du projet, puis cliquez sur **Modifier**.
 
 1. Cliquez sur **Paramètres du projet**.
 
 1. Commencez à saisir le nom d’un groupe de ressources dans le champ **Groupes de ressources** puis sélectionnez-le dans la liste lorsqu’il s’affiche.\
    Vous pouvez associer plusieurs groupes de ressources à un projet ou à un modèle.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![Paramètres du projet](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Cliquer sur **Enregistrer**.
 
@@ -104,7 +104,7 @@ Vous pouvez associer des groupes de ressources aux modèles de la même manière
 Pour associer des groupes de ressources à plusieurs projets en bloc :
 
 1. Accédez à une liste de projets.
-1. Sélectionnez plusieurs projets, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) en haut de la liste.
+1. Sélectionnez plusieurs projets, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) en haut de la liste.
 
 1. Cliquez sur **Paramètres**.
 1. Commencez à saisir le nom d’un groupe de ressources dans le champ **Groupes de ressources** puis sélectionnez-le dans la liste lorsqu’il s’affiche.\

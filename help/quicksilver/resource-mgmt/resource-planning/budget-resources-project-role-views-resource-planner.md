@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Ressources de budget dans le planificateur de ressources à l’aide du projet et des vues de rôle
+title: Ressources budgétaires dans le planificateur de ressources à l'aide des vues Projet et Rôle
 description: Vous pouvez budgétiser les ressources dans le planificateur de ressources Adobe Workfront à l’aide des vues Projet et Rôle. Vous ne pouvez pas budgétiser les ressources à l’aide de la vue Utilisateur ou utilisatrice dans le planificateur de ressources.
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 97%
+source-wordcount: '2127'
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Accès en modification à la gestion des ressources qui inclut l’accès en modification des priorités et des heures du budget dans le planificateur de ressources.</p> <p>Modifier l’accès aux données financières pour les ressources du budget par coût</p> <p>Accès Modifier aux projets et aux utilisateurs et utilisatrices</p></td> 
+   <td> <p>Accès en modification à la gestion des ressources qui inclut l’accès en modification des priorités et des heures du budget dans le planificateur de ressources.</p> <p>Modifier l'accès aux données financières pour budgéter les ressources par coût</p> <p>Accès Modifier aux projets et aux utilisateurs et utilisatrices</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -160,7 +160,7 @@ Pour plus d’informations sur l’accès nécessaire à l’établissement d’
 
 Pour budgéter les affectations dans le planificateur de ressources dans la**** vue Rôle, procédez comme suit :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
 1. Cliquez sur **Ressources**.
 1. Le **planificateur** s’affiche par défaut.
@@ -216,7 +216,7 @@ Pour budgéter les affectations dans le planificateur de ressources dans la**** 
      ![budget_by_role.png](assets/budget-by-role-350x181.png)
 
 1. Cliquer sur **Enregistrer**.\
-   Une fois que vous avez budgété vos ressources dans le planificateur de ressources, les Heures budgétisées de vos ressources et les coûts associés sont répertoriés dans le Business Case de chaque projet.
+   Une fois que vous avez budgété vos ressources dans le Planificateur de ressources, les heures budgétées pour vos ressources et tout coût associé à celles-ci sont répertoriés dans l&#39;Analyse de rentabilité de chaque projet.
 Pour plus d’informations sur la compréhension de la zone Établissement du budget de ressources du business case, voir l’article [Budgéter les ressources dans le business case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Facultatif) Sélectionnez la vue **Afficher par utilisateur ou utilisatrice** pour remarquer toute suraffectation ou sous-utilisation des utilisateurs et utilisatrices entre les heures disponibles et prévues pour chaque personne. Les heures budgétées ne sont pas visibles dans la vue Afficher par utilisateur ou utilisatrice.
@@ -225,7 +225,7 @@ Pour plus d’informations sur la compréhension de la zone Établissement du bu
 
 Vous pouvez budgéter les affectations de vos ressources en masse lorsque vous utilisez des liens rapides. Les liens rapides sont disponibles uniquement pour les vues Projet et Rôle.
 
-![](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![Options de budgétisation automatique](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

@@ -6,10 +6,10 @@ description: Vous pouvez partager l’équilibreur de charge de travail avec d�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 83%
+source-wordcount: '697'
+ht-degree: 82%
 
 ---
 
@@ -123,7 +123,7 @@ Vous avez besoin de l’accès suivant pour afficher les informations dans l’�
 
      Pour plus d’informations sur le filtrage des informations dans l’équilibreur de charge de travail, voir [Filtrer des informations dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. Cliquez sur l’**icône de lien** ![](assets/wb-shearable-link-icon-small.png).
+1. Cliquez sur l’**icône de lien** ![icône de lien](assets/wb-shearable-link-icon-small.png).
 
    Le lien est alors ajouté à votre presse-papiers.
 

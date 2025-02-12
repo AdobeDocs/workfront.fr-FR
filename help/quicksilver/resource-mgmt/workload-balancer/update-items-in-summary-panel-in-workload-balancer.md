@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Mise à jour des éléments de travail dans l’équilibreur de charge de travail à l’aide du résumé
+title: Mettre à jour des éléments de travail dans l’équilibreur de charge de travail à l’aide du résumé
 description: Vous pouvez ouvrir le panneau Résumé dans l’équilibreur de charge de travail pour mettre à jour les éléments de travail dans les zones de travail Affecté et Non affecté.
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 86%
+source-wordcount: '410'
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 86%
 
 Vous pouvez utiliser le panneau Résumé d’une tâche ou d’un problème pour mettre à jour des informations importantes de cet élément. Trouver l’équilibreur de charge de travail
 
-Le panneau Résumé est disponible pour les tâches et les problèmes dans les zones de travail Affecté et Non affecté de l’équilibreur de charge de travail.
+Le panneau Résumé est disponible pour les tâches et les événements dans les zones Tâches affectées et Tâches non affectées de l’équilibreur de charge de travail.
 
 ## Conditions d’accès
 
@@ -37,8 +37,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
        <p>ou</p>
-       <p>Actuel : planifiez, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ;</br>
-       Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+       <p>Actuelle : planification, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource;</br>
+       Travail, lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
   </tr>
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -78,11 +78,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Ou
 
-   Cliquez sur l’icône **Ouvrir le résumé** ![](assets/summary-panel-icon.png), puis cliquez sur la barre d’une tâche ou d’un problème pour ouvrir le panneau Résumé.
+   Cliquez sur **Icône Ouvrir le résumé** ![Icône Ouvrir le résumé](assets/summary-panel-icon.png), puis cliquez sur la barre d’une tâche ou d’un événement pour ouvrir le panneau Résumé.
 
    Ou
 
-   Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite d’une tâche ou d’un problème, puis cliquez sur **Ouvrir le résumé**.
+   Cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png) à droite d’une tâche ou d’un événement, puis cliquez sur **Ouvrir le résumé**.
 
    Le panneau Résumé s’ouvre à droite.
 
@@ -97,4 +97,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    Pour plus d’informations sur la mise à jour des informations à l’aide du résumé, voir [Vue d’ensemble du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 1. (Le cas échéant) Si vous avez ouvert l’une des sections de l’élément de travail, cliquez sur le **bouton Précédent** de votre navigateur pour revenir à l’équilibreur de charge de travail.
-1. Cliquez sur l’**icône Fermer** ![](assets/close-icon.png) dans le coin supérieur droit du résumé pour le fermer.
+1. Cliquez sur l’icône **Fermer** ![Fermer](assets/close-icon.png) dans le coin supérieur droit du résumé pour le fermer.

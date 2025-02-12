@@ -7,10 +7,10 @@ description: Utilisez l’équilibreur de charge de travail pour planifier le tr
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 3d7708e674af716657cc287c9f54a8cf56278da3
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 95%
+source-wordcount: '714'
+ht-degree: 94%
 
 ---
 
@@ -54,8 +54,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
        <p>ou</p>
-       <p>Actuel : planifiez, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ;</br>
-       Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+       <p>Actuelle : planification, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource;</br>
+       Travail, lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
   </tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès Affichage ou niveau supérieur aux éléments suivants :</p> 
@@ -87,7 +87,7 @@ Les sections suivantes illustrent les endroits où vous pouvez accéder à l’�
 
 1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
 
-   ![](assets/nwe-balancer-global.png)
+   ![Équilibreur de charge de travail](assets/nwe-balancer-global.png)
 
    L’équilibreur de charge de travail affiche par défaut les informations suivantes dans la zone Ressources :
 
@@ -104,7 +104,7 @@ La page de votre équipe interne s’affiche.
 
 1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
 
-   ![](assets/nwe-balancer-team-350x172.png)
+   ![Équilibreur de charge de travail pour l’équipe](assets/nwe-balancer-team-350x172.png)
 
    L’équilibreur de charge de travail d’une équipe affiche par défaut les informations suivantes :
 
@@ -124,7 +124,7 @@ La page de votre équipe interne s’affiche.
 
    L’équilibreur de charge de travail pour le projet s’affiche.
 
-   ![](assets/nwe-balancer-project-350x152.png)
+   ![Équilibreur de charge de travail pour le projet](assets/nwe-balancer-project-350x152.png)
 
    L’équilibreur de charge de travail d’un projet affiche les informations suivantes par défaut :
 

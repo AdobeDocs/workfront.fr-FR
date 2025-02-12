@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Filtrage des informations dans le planificateur de ressources
+title: Filtrer des informations dans le planificateur de ressources
 description: Les filtres permettent de modifier les informations qui s’affichent dans le planificateur de ressources à partir de toutes les informations stockées dans le système.
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2390'
 ht-degree: 97%
 
 ---
@@ -45,7 +45,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Afficher l’accès ou une version ultérieure à Projets, Utilisateurs et Gestion des ressources</p> </td> 
+   <td> <p>Afficher l'accès ou supérieur à Projets, Utilisateurs et Gestion des ressources</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -129,7 +129,7 @@ De base, la première fois que vous accédez au planificateur de ressources, le 
    ![filter_icon.png](assets/filter-icon.png)
 Ou
 Développez le menu déroulant **Filtre** et cliquez sur **Ajouter un nouveau filtre**.
-   ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
+   ![Liste déroulante des filtres](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. Pour créer un filtre à l’aide des critères intégrés, spécifiez l’un des champs suivants :
 
@@ -146,7 +146,7 @@ Développez le menu déroulant **Filtre** et cliquez sur **Ajouter un nouveau fi
 
    >[!IMPORTANT]
    >
-   >Lorsque vous référencez des champs personnalisés, vous devez saisir le nom du champ et non le libellé du champ. Le libellé du champ s’affiche sur un formulaire personnalisé associé à un objet. Pour plus d’informations sur la différence entre le libellé et le nom d’un champ personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Lorsque vous référencez des champs personnalisés, vous devez saisir le nom du champ et non le libellé du champ. Le libellé du champ s’affiche sur un formulaire personnalisé associé à un objet. Pour plus d’informations sur la différence entre le libellé et le nom d’un champ personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur le nom du champ pour l’ajouter au filtre lorsqu’il apparaît dans la liste.\
    Pour plus d’informations sur les champs affichés de la liste, voir [Glossaire de la terminologie Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
@@ -156,7 +156,7 @@ Développez le menu déroulant **Filtre** et cliquez sur **Ajouter un nouveau fi
    Vous pouvez utiliser des caractères génériques basés sur l’utilisateur ou l’utilisatrice ou sur la date pour filtrer les informations associées à la personne connectée.\
    Pour plus d’informations sur les caractères génériques pris en charge dans les filtres, voir [Vue d’ensemble des variables de filtre de caractères génériques](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-1. Cliquez sur **Enregistrer** pour enregistrer la règle de filtre.
+1. Cliquez sur **Enregistrer** pour enregistrer la règle de filtrage.
 1. (Facultatif) Cliquez sur **Ajouter une règle de filtre** pour ajouter une nouvelle règle pour un autre objet ou champ.
 1. Cliquez sur **Appliquer** pour appliquer le filtre sans l’enregistrer.
 
@@ -214,7 +214,7 @@ Vous pouvez changer le nom d’un filtre sans modifier ses critères. Nous vous 
 1. Développez le menu déroulant **Filtre**. Localisez le filtre que vous souhaitez renommer et pointez sur son nom.
 1. Sélectionnez l’icône **Renommer le filtre** à côté du nom du filtre.
 
-   ![](assets/rp-filter-options-edit-350x154.png)
+   ![Modifier les options de filtre](assets/rp-filter-options-edit-350x154.png)
 
 1. Spécifiez un nouveau nom pour le filtre dans la zone **Nom du filtre**.
 1. Cliquer sur **Enregistrer**.\
@@ -253,7 +253,7 @@ Vous pouvez dupliquer un filtre existant. Les critères de filtre d’origine re
 1. Pointez sur le nom d’un filtre enregistré que vous souhaitez dupliquer.
 1. Cliquez sur l’icône **Dupliquer**.
 
-   ![](assets/rp-filter-options---duplicate-350x154.png)\
+   ![ Dupliquer le filtre ](assets/rp-filter-options---duplicate-350x154.png)\
    La zone Dupliquer le filtre s’affiche.
 
 1. Dans le champ **Nom du filtre**, donnez un nouveau nom au filtre dupliqué.\
@@ -280,7 +280,7 @@ Pour supprimer un filtre, procédez comme suit :
 1. Localisez le filtre que vous souhaitez supprimer et pointez sur son nom.
 1. Sélectionnez l’icône **Supprimer le filtre** en regard du nom du filtre.
 
-   ![](assets/rp-filter-options---delete-350x154.png)
+   ![Supprimer le filtre](assets/rp-filter-options---delete-350x154.png)
 
 1. Cliquez sur **Supprimer** dans la boîte de dialogue **Supprimer le filtre**.
 
@@ -303,13 +303,13 @@ Pour plus d’informations sur la duplication des filtres, consultez la section 
 1. Localisez le filtre que vous souhaitez partager et pointez sur son nom.
 1. Sélectionnez l’icône **Partager le filtre** en regard du nom du filtre.
 
-   ![](assets/rp-filter-options---share-350x154.png)
+   ![Partage d’un filtre](assets/rp-filter-options---share-350x154.png)
 
    La boîte de dialogue Accès au filtre s’affiche.
 
 1. (Facultatif) Pour rendre le filtre accessible à toutes les personnes du planificateur de ressources, cliquez sur l’icône **Paramètres**, puis sélectionnez **Rendre cet élément visible à l’échelle du système**.
 
-   ![](assets/make-this-visible-system-wide-350x119.png)
+   ![Rendre visible dans tout le système](assets/make-this-visible-system-wide-350x119.png)
 
 1. Dans la zone **Accorder l’accès au filtre du planificateur de ressources à :**, commencez à saisir les noms des utilisateurs et des utilisatrices, des équipes, des rôles, des groupes ou des entreprises avec lesquels vous souhaitez partager le filtre.
 1. Sélectionnez l’un des niveaux d’autorisation suivants :
@@ -321,10 +321,10 @@ Pour plus d’informations sur la duplication des filtres, consultez la section 
 
 1. (Facultatif) Sélectionnez **Paramètres avancés** pour ajouter des autorisations à chaque niveau en les sélectionnant ou pour supprimer des autorisations à chaque niveau en les désélectionnant.
 
-   ![](assets/rp-share-filter-manage-advanced-settings-350x271.png)
+   ![Partage d’un filtre](assets/rp-share-filter-manage-advanced-settings-350x271.png)
 
 1. Cliquer sur **Enregistrer**.
 
    Le filtre est partagé avec les entités que vous avez sélectionnées et il apparaît dans la zone **Partagé avec moi**.
 
-   ![](assets/rp-shared-with-me-area.png)
+   ![Partagé(s) avec moi](assets/rp-shared-with-me-area.png)
