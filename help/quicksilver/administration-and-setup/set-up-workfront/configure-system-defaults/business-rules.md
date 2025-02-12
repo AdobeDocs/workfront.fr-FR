@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 38541313ae1c2b330bf4bad994bee43ee6e84227
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 4%
+source-wordcount: '1270'
+ht-degree: 5%
 
 ---
 
@@ -35,7 +35,7 @@ Les règles métier s’appliquent à la création, à la modification et à la 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 

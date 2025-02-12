@@ -1,5 +1,5 @@
 ---
-title: Désactiver ou réactiver un utilisateur
+title: Désactivation ou réactivation d’un utilisateur
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1085'
 ht-degree: 93%
 
 ---
@@ -49,7 +49,7 @@ Vous pouvez réactiver une personne à tout moment.
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,8 +67,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès de l’administrateur système. </li> 
-     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
+     <li> <p>Niveau d’accès Administrateur système. </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Parmi ces deux options, si <b>l’option Administrateur utilisateur (Utilisateurs du groupe)</b> est activée, vous devez être administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +98,7 @@ Pour désactiver un utilisateur ou une utilisatrice :
 
 {{step-1-to-users}}
 
-1. Sélectionnez un utilisateur, cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png), puis sur **Désactiver**.
+1. Sélectionnez un utilisateur, cliquez sur l’icône **![](assets/more-icon.png)Plus** Plus, puis cliquez sur **Désactiver**.
 
 1. Cliquez sur **Désactiver** dans la boîte de dialogue qui apparaît.
 
@@ -118,7 +118,7 @@ Pour planifier la désactivation d’une personne :
 
    (Facultatif) Sélectionnez plusieurs utilisateurs ou utilisatrices pour planifier leur désactivation en bloc.
 
-1. Cliquez sur l’icône Modifier ![icône Modifier](assets/edit-icon.png).
+1. Cliquez sur l’icône ![Modifier l’icône](assets/edit-icon.png) Modifier.
 1. Dans la boîte de dialogue Modifier l’utilisateur ou l’utilisatrice qui s’affiche, cliquez sur **Planification des ressources** pour accéder à cette zone.
 1. Activez l’option **Planifier la désactivation**.
 
@@ -139,7 +139,7 @@ Nous vous recommandons de créer un rapport sur les personnes dont vous avez pla
 
 {{step-1-to-users}}
 
-1. Sélectionnez un utilisateur, cliquez sur l’icône Plus ![icône Plus](assets/more-icon.png), puis sur **Activer**.
+1. Sélectionnez un utilisateur, cliquez sur l’icône ![](assets/more-icon.png)Plus Plus, puis cliquez sur **Activer**.
 
 1. Affectez un nouveau **Niveau d’accès** dans le menu déroulant, puis cliquez sur **Réactiver**.
 <!--

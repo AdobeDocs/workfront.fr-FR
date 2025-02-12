@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Afficher toutes les Forms personnalisées qui utilisent un champ ou un widget personnalisé spécifique
+title: Afficher tous les Forms personnalisés qui utilisent un champ personnalisé ou un widget particulier
 description: Vous pouvez savoir quels formulaires personnalisés utilisent un champ personnalisé ou un widget que vous souhaitez modifier ou supprimer. Il est essentiel de déterminer si des ajustements sont nécessaires pour que ces formulaires personnalisés restent fonctionnels ou pertinents après qu’un champ ou un widget a été modifié ou supprimé.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 90%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 90%
 
 Vous pouvez savoir quels formulaires personnalisés utilisent un champ personnalisé ou un widget que vous souhaitez modifier ou supprimer. Il est essentiel de déterminer si des ajustements sont nécessaires pour que ces formulaires personnalisés restent fonctionnels ou pertinents après qu’un champ ou un widget a été modifié ou supprimé.
 
-Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 

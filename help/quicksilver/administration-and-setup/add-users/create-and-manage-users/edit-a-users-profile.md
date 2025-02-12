@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 93%
 
 ---
@@ -38,7 +38,7 @@ Pour plus d’informations sur les utilisateurs qui mettent à jour leur propre 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +110,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <li> <p><b>Fuseau horaire :</b> fuseau horaire des utilisateurs et utilisatrices.</p> <p>Pour plus d’informations sur l’aide apportée aux utilisateurs et utilisatrices par le biais de Workfront dans les différents fuseaux horaires, voir <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Utilisation des fuseaux horaires</a>.</p> </li>
 
    <li><p><b>Locale d’e-mail</b> : paramètres régionaux d’e-mails préférés des utilisateurs et utilisatrices. Cela affecte le format des nombres et des dates dans les e-mails envoyés par Workfront à cet utilisateur ou cette utilisatrice.</p>
-      <p><b>REMARQUE :</b> lorsque votre organisation se trouve sur l’Adobe Expérience unifiée, les préférences linguistiques de l’utilisateur sont stockées dans son profil d’Adobe et les paramètres régionaux de l’e-mail ne sont pas utilisés. Pour plus d’informations sur l’accès à ces préférences, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe de l’expérience unifiée pour Workfront</a>.</p></li>
+      <p><b>REMARQUE :</b> lorsque votre organisation se trouve sur l’expérience unifiée Adobe, les préférences linguistiques de l’utilisateur sont stockées dans son profil Adobe et les paramètres régionaux de l’e-mail ne sont pas utilisés. Pour plus d’informations sur l’accès à ces préférences, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Expérience unifiée Adobe pour Workfront</a>.</p></li>
 
    <li><b>Recevoir des e-mails de cet environnement de test</b> : cochez cette option si vous souhaitez recevoir des notifications par e-mail de l’environnement actuellement connecté.
       <p><b>NOTE</b></p>

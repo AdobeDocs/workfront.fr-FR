@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 89%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore intégré Adobe Business Platform. Si vous avez été intégré à Adobe Business Platform, vous devez supprimer les utilisateurs dans Adobe Admin Console.
+>La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore intégré Adobe Business Platform. Si vous avez intégré Adobe Business Platform, vous devez supprimer les utilisateurs dans Adobe Admin Console.
 >
 >Pour obtenir une liste de procédures qui diffèrent selon que votre entreprise a été intégrée ou non à Adobe Business Platform, voir [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -43,7 +43,7 @@ Lorsqu’une personne quitte votre entreprise, vous pouvez la supprimer d’Adob
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 

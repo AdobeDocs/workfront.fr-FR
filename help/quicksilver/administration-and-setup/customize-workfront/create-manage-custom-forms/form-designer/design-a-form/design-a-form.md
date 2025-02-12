@@ -1,5 +1,5 @@
 ---
-title: Création d’un formulaire personnalisé
+title: Créer un formulaire personnalisé
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,22 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '6492'
+source-wordcount: '6493'
 ht-degree: 77%
 
 ---
 
 # Créer un formulaire personnalisé
 
-Vous pouvez concevoir un formulaire personnalisé à l’aide du concepteur de formulaire dans Adobe Workfront. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données en rapport avec ces objets.
+Vous pouvez concevoir un formulaire personnalisé avec le concepteur de formulaire dans Adobe Workfront. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données en rapport avec ces objets.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,7 +92,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Vous pouvez utiliser des champs nouveaux ou existants lors de la conception de votre formulaire personnalisé.
 
-Les formulaires personnalisés sont limités à 500 champs. Un compteur en bas à gauche affiche le nombre de champs utilisés dans le formulaire. Il est toujours visible lorsque vous faites défiler l’écran dans le concepteur de formulaire.
+Les formulaires personnalisés sont limités à 500 champs. Un compteur en bas à gauche affiche le nombre de champs utilisés sur le formulaire, et il est toujours visible lorsque vous faites défiler dans le concepteur de formulaire.
 
 ### Réutiliser un champ ou un widget existant déjà utilisé dans un autre formulaire personnalisé
 
@@ -122,7 +122,7 @@ Le **libellé** est disponible pour la plupart des champs. Il s’agit d’un li
 >
 >Évitez d’utiliser des caractères spéciaux dans ce libellé. Ils ne s’affichent pas correctement dans les rapports.
 
-Un **nom** est requis pour chaque champ. Ce nom est la manière dont le système identifie le champ personnalisé lorsque vous l’ajoutez à diverses zones de Workfront, telles que les rapports, l’Accueil et les interactions d’API. Lorsque vous configurez le champ ou le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour le faire correspondre. Les champs Libellé et Nom ne sont toutefois pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.
+Un **nom** est requis pour chaque champ. Ce nom est la manière dont le système identifie le champ personnalisé lorsque vous l’ajoutez à diverses zones de Workfront, telles que les rapports, l’Accueil et les interactions d’API. Lorsque vous configurez le champ ou le widget pour la première fois et que vous tapez l’étiquette, le champ Nom se remplit automatiquement pour le faire correspondre. Les champs Libellé et Nom ne sont toutefois pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.
 
 Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Ainsi, vous pouvez réutiliser un nom de champ déjà créé pour un autre formulaire personnalisé.
 
@@ -135,7 +135,7 @@ Chaque nom de champ personnalisé doit être unique dans l’instance Workfront 
 >
 >Nous vous recommandons de ne pas utiliser le caractère point dans le nom du champ personnalisé afin d’éviter toute erreur lors de l’utilisation du champ dans différentes zones de Workfront.
 
-Les caractères spéciaux suivants ne sont pas pris en charge dans les libellés et noms de champs personnalisés.
+Les caractères spéciaux suivants ne sont pas pris en charge dans les libellés et les noms de champs personnalisés.
 
 * \t
 * \n
@@ -373,7 +373,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </tr> 
     <tr> 
      <td role="rowheader">Type d'affichage</td> 
-    <td>Basculez entre les boutons radio, le groupe de cases à cocher, la liste déroulante à sélection unique ou la liste déroulante à sélection multiple pour le champ.</td> 
+    <td>Basculez entre les boutons radio, les groupes de cases à cocher, la liste déroulante à sélection unique ou la liste déroulante à sélection multiple pour le champ.</td> 
     <td><ul>
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
@@ -569,12 +569,12 @@ Pour ajouter des champs de saisie semi-automatique et de date :
 
 Un champ de recherche externe fait appel à une API externe et renvoie des valeurs sous forme d’options dans un champ déroulant. Les personnes qui travaillent avec l’objet auquel le formulaire personnalisé est attaché peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante. Le champ de recherche externe est également disponible dans les listes et les rapports.
 
-Pour obtenir des exemples d’utilisation du champ de recherche externe pour appeler la même instance de Workfront ou une API publique, voir [Exemples du champ de recherche externe dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+Pour obtenir des exemples d’utilisation du champ de recherche externe pour appeler la même instance de Workfront ou une API publique, voir [Exemples de champ de recherche externe dans un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md) personnalisé.
 
 >[!NOTE]
 >
->* Les champs de recherche externe ne sont pas pris en charge dans le plug-in Outlook.
->* Les champs de recherche externe ne sont pas disponibles dans les listes lorsque le champ possède une dépendance sur un autre champ.
+>* Les champs de recherche externes ne sont pas pris en charge dans le plug-in Outlook.
+>* Les champs de recherche externe ne sont pas disponibles dans les listes lorsque le champ a une dépendance avec un autre champ.
 
 Pour ajouter une recherche externe, procédez comme suit :
 
@@ -829,7 +829,7 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés des</a> champs.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td>
@@ -855,7 +855,7 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
        <p>Vous devez définir le filtre pour le champ de référence que vous avez sélectionné en utilisant la syntaxe du mode texte. Pour plus d’informations sur la création d’un filtre à l’aide du mode texte, consultez la section <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modifier un filtre à l’aide du mode texte</a>.</p>
        <p><b>NOTE</b> :
        <ul> 
-        <li>L’option de filtrage n’est disponible que lorsque vous référencez un champ de saisie semi-automatique natif, tel que Portfolio, Société ou Propriétaire.</li>
+        <li>L’option de filtre n’est disponible que lorsque vous référencez un champ de saisie anticipée natif, tel que Portfolio, Société ou Propriétaire.</li>
         <li>Si vous modifiez un formulaire personnalisé existant, l’ajout d’un filtre à un champ natif ne supprime aucun objet (hors de portée du filtre) que les utilisateurs ont déjà ajouté à l’aide du champ.</li> 
         <li>Ce filtre n’est pas disponible sur les appareils mobiles. Si vous utilisez le filtre pour un champ natif, le champ apparaîtra sur les appareils mobiles des utilisateurs non affectés par le filtre.</li> 
         </ul></p></td> 
@@ -935,17 +935,17 @@ Pour ajouter un fichier Adobe XD :
 
    Cliquez sur **Enregistrer et fermer**.
 
-### Ajouter des champs de connexion Planning
+### Ajouter des champs de connexion de planification
 
 >[!IMPORTANT]
 >
->Les informations de cette section font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
+>Les informations contenues dans cette section font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire de Adobe Workfront.
 >
 >Pour accéder à Workfront Planning, vous devez disposer des éléments suivants :
 >
 >* Un nouveau plan et une nouvelle licence Workfront. Workfront Planning n’est pas disponible pour les plans ou licences Workfront hérités.
 >* Package supplémentaire pour la planification Workfront.
->* L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée d’Adobe.
+>* L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe.
 >
 > Pour obtenir la liste complète des conditions requises pour accéder à Workfront Planning, consultez la [présentation de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
@@ -953,11 +953,11 @@ Pour ajouter un fichier Adobe XD :
 
 Vous pouvez afficher les enregistrements connectés à partir de Workfront Planning dans un champ personnalisé sur un objet Workfront en ajoutant un champ personnalisé de connexion Planning au formulaire personnalisé d&#39;un objet.
 
-Vous pouvez ajouter le champ de connexion Planning aux formulaires personnalisés de tous les objets. Cependant, vous ne pouvez afficher les enregistrements connectés que sur les formulaires personnalisés associés aux objets Workfront qui peuvent être connectés à partir de Workfront Planning.
+Vous pouvez ajouter le champ Planification de la connexion aux formulaires personnalisés de tous les objets. Toutefois, vous pouvez afficher les enregistrements connectés uniquement sur les formulaires personnalisés associés aux objets Workfront qui peuvent être connectés à partir de Workfront Planning.
 
 >[!NOTE]
 >
->Les utilisateurs qui consultent des informations dans le champ personnalisé doivent avoir accès à Workfront Planning et aux espaces de travail qui contiennent les types d’enregistrements connectés aux objets Workfront.
+>Les utilisateurs qui affichent des informations dans le champ personnalisé doivent avoir accès à Workfront Planning et aux espaces de travail qui contiennent les types d’enregistrements connectés aux objets Workfront.
 
 Pour ajouter un champ de connexion Planning :
 
@@ -970,12 +970,12 @@ Pour ajouter un champ de connexion Planning :
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> :</p> <p>Évitez d’utiliser des caractères spéciaux dans ce libellé.</p> 
-      <p>Nous vous recommandons de choisir un libellé qui vous permet d'identifier facilement la provenance de l'enregistrement Planning. Ajoutez des informations telles que le nom de l’espace de travail ou le nom du type d’enregistrement. </p>   </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> :</p> <p>Évitez d’utiliser des caractères spéciaux dans cette étiquette.</p> 
+      <p>Nous vous recommandons de choisir une étiquette permettant d’identifier facilement l’origine de l’enregistrement de planification. Ajoutez des informations telles que le nom de l’espace de travail ou le nom du type d’enregistrement. </p>   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td>
-      <td> <p>(Obligatoire) Le nom correspond à la manière dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p></td> 
+      <td> <p>(Obligatoire) Le nom indique la manière dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
