@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '756'
 ht-degree: 5%
 
 ---
@@ -21,6 +21,16 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Examiner et confirmer les actions entreprises par l’assistant d’IA
+
+>[!NOTE]
+>
+>Version préliminaire : 13 février 2025 ; Production pour la version rapide : avec la version 25.3 (mars 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
+
+Pour vous assurer plus facilement que l’assistant AI exécute les actions prévues, vous pouvez maintenant les examiner et les confirmer avant leur exécution. Désormais, lorsque vous saisissez une invite qui exécute une action telle que la création, la mise à jour ou la suppression d’un enregistrement, l’assistant AI affiche les actions qu’il entreprendra et vous demande de confirmer que ces actions sont correctes.
+
+Auparavant, cette étape de confirmation n’était pas disponible.
 
 ## Fonctions ajoutées aux champs de formule
 
@@ -48,7 +58,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->Version préliminaire : 30 janvier 2025 ; Production pour la version rapide : avec la version 25.2 (février 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
+>Version préliminaire : 30 janvier 2025 ; Production pour la version rapide : avec la version 25.2 (13 février 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
 
 Vous pouvez désormais partager des vues et des espaces de travail avec des équipes, des fonctions et des entreprises dans Workfront Planning. Avant cette amélioration, vous pouviez partager des vues et des espaces de travail avec des utilisateurs et des groupes.
 
@@ -62,7 +72,7 @@ Pour plus d’informations, voir les articles suivants :
 
 >[!NOTE]
 >
->Version préliminaire : 23 janvier 2025 ; Production pour la version rapide : avec la version 25.2 (février 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
+>Version préliminaire : 23 janvier 2025 ; Production pour la version rapide : avec la version 25.2 (13 février 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
 
 Vous pouvez désormais copier du texte provenant d’une source externe vers Workfront et le coller dans un champ connecté de Workfront Planning ou un champ de type Personnes . Cette amélioration est disponible lors de la modification d’enregistrements en mode Tableau.  Le texte doit correspondre à un utilisateur existant (pour les champs de type Personnes) ou à un enregistrement ou un objet existant (pour un enregistrement connecté). Vous pouvez copier et coller plusieurs valeurs pour plusieurs champs et mettre à jour les enregistrements en bloc.
 
@@ -74,7 +84,7 @@ Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilve
 
 >[!NOTE]
 >
->Version préliminaire : 23 janvier 2025 ; Production pour la version rapide : avec la version 25.2 (février 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
+>Version préliminaire : 23 janvier 2025 ; Production pour la version rapide : avec la version 25.2 (13 février 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
 
 Avec cette version, nous avons mis à jour le créateur de filtres dans Workfront Planning afin d’autoriser les filtres à plusieurs niveaux.
 
@@ -92,7 +102,7 @@ Pour plus d’informations, consultez la section [Gérer la vue en tableau](/hel
 
 >[!NOTE]
 >
->Version préliminaire : 22 janvier 2025 ; Production pour la version rapide : avec la version 25.2 (février 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
+>Version préliminaire : 22 janvier 2025 ; Production pour la version rapide : avec la version 25.2 (13 février 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
 
 Vous pouvez désormais créer des projets à l’aide d’un modèle tout en connectant des projets à des enregistrements existants.
 
@@ -106,7 +116,7 @@ Pour plus d’informations, voir [Création d’objets Workfront à partir de Wo
 
 >[!NOTE]
 >
->Version préliminaire : 22 janvier 2025 ; Production pour la version rapide : avec la version 25.2 (février 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
+>Version préliminaire : 22 janvier 2025 ; Production pour la version rapide : avec la version 25.2 (13 février 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
 
 Pour vous donner une meilleure visibilité pour enregistrer les titres dans l’en-tête de la page d’affichage, nous avons apporté une amélioration afin de donner plus d’espace aux titres, d’éviter les chevauchements et de gérer la troncature avec élégance.
 

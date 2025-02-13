@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 49%
+source-wordcount: '965'
+ht-degree: 46%
 
 ---
 
@@ -26,7 +26,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 
 | Version mensuelle | Version trimestrielle |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (février 2025)</li><li>25.3 (mars 2025)</li><li>25.4 (avril 2025)</li></ul> | <ul><li>25.4 (avril 2025)</li></ul> |
+| <ul><li>25.2 (vendredi 13 février 2025)</li><li>25.3 (mars 2025)</li><li>25.4 (avril 2025)</li></ul> | <ul><li>25.4 (avril 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -37,6 +37,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 ## Améliorations apportées à Adobe Workfront
 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
+* [Améliorations apportées aux projets](#project-enhancements)
 * [Autres améliorations](#other-enhancements)
 
 ### Améliorations apportées aux administrateurs et administratrices
@@ -49,13 +50,39 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Expressions ajoutées aux champs calculés personnalisés</a></p>
-            <p>Les expressions suivantes sont désormais disponibles dans les champs personnalisés calculés de Workfront : ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT et ADDHOUR. Des définitions et des exemples de chaque expression sont disponibles dans l’éditeur de calculs et dans l’Experience League.</p>
+            [!BADGE In production ]{type=Informative}
+            <p>Les expressions suivantes sont désormais disponibles dans les champs personnalisés calculés de Workfront : ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT et ADDHOUR. Les définitions et des exemples de chaque expression sont disponibles dans l’éditeur de calcul et sur Experience League.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : samedi 31 janvier 2025</li>
                 <li><span class="preview">Version de production pour tous les clients : 31 janvier 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### Améliorations apportées aux projets
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Ajoutez un commentaire aux projets lorsque vous les modifiez dans la zone Modifier le projet .</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>Vous pouvez maintenant ajouter un commentaire à un projet tel que vous l’avez modifié dans la zone Modifier le projet . Vous pouvez également ajouter un commentaire à plusieurs projets à la fois lors de leur modification en bloc. Avant cette mise à jour, cette fonctionnalité n’existait pas lors de la modification des projets.</p>
+        </td>
+        <td>
+            <p><b>Disponible à ces dates :</b></p>
+            <ul>
+                <li>Version préliminaire : vendredi 13 février 2025</li>
+                <li>Production pour une version rapide : avec la version 25.3 (mars 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.4 (avril 2025)</li>
             </ul>
         </td>
     </tr>                          
@@ -72,45 +99,50 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Représenter les modifications utilisateur de Adobe Admin Console sous la forme « Système » dans le flux de mise à jour de Workfront</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>Désormais, lorsque l’administrateur du Adobe Admin Console apporte une modification aux informations utilisateur d’un utilisateur Workfront, Workfront enregistre cette modification dans l’onglet Activité système de la zone Mises à jour de l’utilisateur comme appartenant au « Système ». Fait référence à l’administrateur Adobe Admin Console.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : vendredi 23 janvier 2025</li>
-                <li>Production pour une version rapide : avec la version 25.2 (février 2025)</li>
+                <li>Production pour une version rapide : avec la version 25.2 (13 février 2025)</li>
                 <li>Version de production pour tous les clients : avec la version 25.4 (avril 2025)</li>
             </ul>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
-            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+            Mises à jour de l’apparence au cours du deuxième trimestre de 2025</a></p>
+            <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées durant le deuxième trimestre 2025. Consultez les notes de mise à jour individuelles pour connaître les dates de publication spécifiques.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Disponible à ces dates :</b></p>
             <ul>
-                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
-                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
+                <li>Version préliminaire : pendant toute la durée de la version du deuxième trimestre 2025</li>
+                <li><span class="preview">Version de production : passez en revue les notes de mise à jour pour connaître les dates spécifiques.</span></li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
 </tbody>
 </table>
 
-<!--
-### Functionality soon to be removed from Workfront
+### Fonctionnalités bientôt supprimées de Workfront
 
-The following functionality is soon to be removed from Workfront:
--->
+Les fonctionnalités suivantes seront bientôt supprimées de Workfront :
+
+#### Nous supprimons l’ancienne vue Agile dans un projet
+
+La vue Agile héritée dans un projet sera supprimée de Workfront avec la version 25.3 le 13 mars 2025. Vous pourrez toujours afficher vos tâches dans une vue Agile d’un projet en cliquant sur l’icône Panoramas.
+
+Pour plus d’informations sur l’utilisation de la vue Agile, voir [ Gérer un projet dans la vue Agile ](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ## Annonces
 
 ### Modernisation des interfaces
 
-Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobes. Ces modifications sont publiées en dehors du planning de publication standard. Pour obtenir la liste de ces modifications, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobe. Ces modifications sont publiées en dehors du planning de publication standard. Pour obtenir la liste de ces modifications, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ### Améliorations de Workfront Fusion
 

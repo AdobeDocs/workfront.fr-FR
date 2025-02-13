@@ -4,9 +4,10 @@ description: Autres améliorations au cours de la période de publication du deu
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 00445ffce2a494952a1d7dd9c02de2ddf6019472
+exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '202'
 ht-degree: 17%
 
 ---
@@ -21,10 +22,10 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Version préliminaire : 23 janvier 2025 ; Production pour la version rapide : avec la version 25.2 (février 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
+>Version préliminaire : 23 janvier 2025 ; Production pour la version rapide : avec la version 25.2 (13 février 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
 
 Désormais, lorsque l’administrateur du Adobe Admin Console apporte une modification aux informations utilisateur d’un utilisateur Workfront, Workfront enregistre cette modification dans l’onglet Activité système de la zone Mises à jour de l’utilisateur comme appartenant au « Système ». Fait référence à l’administrateur Adobe Admin Console.
 
-Avant cette mise à jour, les modifications apportées à l’utilisateur par l’administrateur de l’Admin Console étaient enregistrées comme effectuées par l’administrateur système Workfront principal.
+Avant cette mise à jour, les modifications utilisateur effectuées par l’administrateur de l’Admin Console étaient enregistrées comme effectuées par l’administrateur système Workfront principal.
 
 Pour plus d’informations sur la gestion des utilisateurs dans Adobe Admin Console, voir [ Gérer les utilisateurs dans Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)
