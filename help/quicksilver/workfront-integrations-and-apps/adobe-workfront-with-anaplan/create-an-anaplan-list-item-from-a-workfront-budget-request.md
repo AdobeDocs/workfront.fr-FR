@@ -6,7 +6,7 @@ description: Ce scénario d’intégration associe un projet (campagne)  [!DNL A
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 97%
@@ -60,7 +60,7 @@ Ce scénario est planifié pour s’exécuter toutes les 15 minutes.
 
 Pour utiliser ce scénario, vous devez disposer des éléments suivants dans [!DNL Workfront] :
 
-* Un profil d’utilisateur ou d’utilisatrice dans [!DNL Workfront] nommé *[!UICONTROL *Intégration [!DNL Anaplan]]** disposant de droits d’administration système.
+* Profil d’utilisateur ou d’utilisatrice dans [!DNL Workfront] nommé Intégration **[!DNL Anaplan]**, disposant de droits d’administration système.
 
   Pour plus d’informations sur la création d’un utilisateur ou d’une utilisatrice dans [!DNL Workfront], voir [Ajouter des utilisateurs et des utilisatrices](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
