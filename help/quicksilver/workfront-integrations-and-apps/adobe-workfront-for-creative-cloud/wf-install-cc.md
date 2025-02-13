@@ -6,10 +6,10 @@ description: Vous pouvez installer  [!DNL Adobe Workfront for design and video] 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 99%
+source-wordcount: '643'
+ht-degree: 83%
 
 ---
 
@@ -141,3 +141,25 @@ Vous pouvez installer [!DNL Adobe Workfront for design and video] pour vous-mêm
 1. Cliquez sur **[!UICONTROL Autoriser l’accès]** pour terminer la connexion.
 1. Revenez à [!DNL Adobe Photoshop] pour voir votre travail.
 
+### Dépannage des erreurs de connexion
+
+**’erreur « Un problème est survenu » s’affiche lors de la tentative de connexion**
+
+
+Vous ne pouvez pas utiliser une URL commençant par `experience.adobe.com` pour vous connecter au plug-in.
+
+![erreur de connexion](assets/plugin-log-in-error.png) ![domaine](assets/incorrect-domain.png)
+
+
+Pour résoudre ce problème, procédez comme suit :
+
+1. Supprimez le dossier qui stocke le domaine pour le plug-in .
+
+   >[!TIP]
+   >
+   >Sur un Mac, accédez au Finder, appuyez sur **Commande+Maj+.** afficher les dossiers masqués, accédez à **/Users//Library/Application Support**, puis supprimez le dossier **Workfront**.
+
+
+1. Revenez au plug-in et saisissez votre domaine Workfront. Le domaine doit être `company-name.my.workfront.com` et non `experience.adobe.com`.
+
+   Pour [rechercher votre domaine Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) si vous utilisez l’expérience unifiée Adobe, accédez à Configuration, Informations sur le client.

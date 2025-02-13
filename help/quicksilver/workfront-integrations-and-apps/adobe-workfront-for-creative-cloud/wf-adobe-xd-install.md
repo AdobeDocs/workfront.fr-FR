@@ -6,10 +6,10 @@ description: Vous pouvez installer le plug-in Adobe Workfront for XD depuis Ado
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a5c4479833243bb5817196a3af8acaa063a16747
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 98%
+source-wordcount: '548'
+ht-degree: 85%
 
 ---
 
@@ -122,4 +122,20 @@ Fenêtre du plug-in XD ![](assets/xd-plugin-window-350x620.png)
 
 1. Cliquez sur **[!UICONTROL Autoriser l’accès]** pour terminer la connexion et revenir à [!DNL Adobe XD] pour voir votre travail.
 
- 
+### Résolution des erreurs de connexion
+
+**’erreur « Un problème est survenu » s’affiche lors de la tentative de connexion**
+
+
+Vous ne pouvez pas utiliser une URL commençant par `experience.adobe.com` pour vous connecter au plug-in.
+
+![erreur de connexion](assets/plugin-log-in-error.png) ![domaine](assets/incorrect-domain.png)
+
+
+Pour résoudre ce problème, procédez comme suit :
+
+1. Désinstallez et réinstallez le plug-in Adobe Workfront for XD pour effacer le domaine et générer l’erreur.
+
+1. Entrez votre domaine Workfront. Le domaine doit être `company-name.my.workfront.com` et non `experience.adobe.com`.
+
+Pour rechercher votre domaine Workfront si vous utilisez l’expérience unifiée Adobe, accédez à

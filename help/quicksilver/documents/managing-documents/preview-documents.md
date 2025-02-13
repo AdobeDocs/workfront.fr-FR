@@ -6,10 +6,10 @@ description: Vous pouvez prévisualiser un document dans la zone Documents. Ceci
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: f8ce7b64b117b709328be982339fd28ef4a741a7
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 89%
 
 ---
 
@@ -54,8 +54,20 @@ Vous devez disposer des éléments suivants :
 
 ## Prévisualiser un document
 
+Vous pouvez prévisualiser un document dans Workfront.
+
 1. Dans une liste de documents, pointez sur la ligne contenant le document, puis cliquez sur **Détails du document**.
 1. Sur la page qui s’affiche, cliquez sur l’image miniature du document.
 
    * Si vous n’avez pas préparé le document pour la révision, il s’affiche dans un nouvel onglet du navigateur.
    * Si vous avez préparé le document pour la révision, la visionneuse de relecture s’ouvre pour l’afficher.
+
+Les formats de fichiers suivants ne peuvent pas s’afficher dans la fenêtre d’aperçu :
+
+* .mp4
+* .gif
+* .jpeg
+* .png
+* .tiff
+* .plain
+* pdf
