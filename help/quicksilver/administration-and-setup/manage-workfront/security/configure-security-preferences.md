@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: Configuration des préférences système
+title: Configurer les préférences système
 description: En tant qu’administrateur ou administratrice d’Adobe Workfront, vous pouvez configurer les préférences de votre système Workfront, y compris les préférences de sécurité.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
+source-git-commit: d4ebdcc942f119dc229e2a3216dbe82b3d701cba
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 94%
+source-wordcount: '951'
+ht-degree: 92%
 
 ---
 
@@ -113,11 +113,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
      <tr> 
       <td role="rowheader">Déconnecte automatiquement les utilisateurs après</td> 
-      <td> Vous permet de spécifier le moment où une personne est déconnectée de Workfront après une période d’inactivité. Par défaut, les utilisateurs et utilisatrices sont déconnectés après 8 heures d’inactivité. <p>Cette option affecte également les clientes et clients Workfront qui utilisent une solution d’authentification unique.</p> </td> 
+      <td> Vous permet de spécifier le moment où une personne est déconnectée de Workfront après une période d’inactivité. Par défaut, les utilisateurs et utilisatrices sont déconnectés après 8 heures d’inactivité. <p>Cette option affecte également les clientes et clients Workfront qui utilisent une solution d’authentification unique.</p> <p>Ce paramètre n’est pas disponible pour les organisations qui ont été migrées vers Adobe IMS.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Déconnecter automatiquement les utilisateurs mobiles après </td> 
-      <td>Vous permet de spécifier le moment où une personne est déconnectée de l’application Workfront après une période d’inactivité. Par défaut, les utilisateurs et utilisatrices sont déconnectés après 7 jours d’inactivité. <p>Cette option affecte également les clientes et clients Workfront qui utilisent une solution d’authentification unique.</p></td> 
+      <td>Vous permet de spécifier le moment où une personne est déconnectée de l’application Workfront après une période d’inactivité. Par défaut, les utilisateurs et utilisatrices sont déconnectés après 7 jours d’inactivité. <p>Cette option affecte également les clientes et clients Workfront qui utilisent une solution d’authentification unique.</p> <p>Ce paramètre n’est pas disponible pour les organisations qui ont été migrées vers Adobe IMS.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL Aide</td> 
@@ -128,8 +128,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <td>Vous permet de spécifier si les utilisateurs et les utilisatrices voient la nouvelle expérience d’accueil par défaut. Lorsque cette option est activée, les utilisateurs et les utilisatrices voient la nouvelle expérience d’accueil par défaut, mais peuvent toujours individuellement choisir d’activer ou de désactiver cette dernière. Lorsque cette option est désactivée, les utilisateurs et les utilisatrices ne voient pas la bannière qui leur permet de basculer vers la nouvelle page d’accueil. Toutefois, ils peuvent toujours accéder à la nouvelle page d’accueil en saisissant manuellement <code>/home/workspaces</code> à la fin de l’URL de leur instance. Ce paramètre est activé par défaut.</td> 
      </tr>
      <tr> 
-      <td role="rowheader">Activation de la liste de travail Priorités </td> 
-      <td>Permet d’activer ou de désactiver l’expérience de liste de travail Priorités pour vos utilisateurs. Les utilisateurs continueront à voir les icônes Priorités dans Workfront, mais ils n’auront pas accès à la fonctionnalité. Pour plus d’informations sur les priorités, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Prise en main des priorités</a>.</td> 
+      <td role="rowheader">Activer la liste de travail Priorités </td> 
+      <td>Permet de choisir d’activer ou de désactiver l’expérience de la liste de travail Priorités pour vos utilisateurs. Les utilisateurs verront toujours les icônes Priorités dans Workfront, mais ils n’auront pas accès à la fonctionnalité. Pour plus d'informations sur les priorités, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Prise en main des priorités</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Environnements de test</td> 
