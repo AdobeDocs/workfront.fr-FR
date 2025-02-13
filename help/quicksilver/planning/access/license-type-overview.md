@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 10%
+source-wordcount: '521'
+ht-degree: 9%
 
 ---
 
 
 # Vue d’ensemble du type de licence lors de l’utilisation d’Adobe Workfront Planning
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ Votre type de licence Adobe Workfront fonctionne de concert avec vos autorisatio
 
 Pour plus d’informations sur les autorisations sur les objets Workfront Planning, consultez [Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-Pour plus d’informations sur l’accès à Workfront Planning, consultez la présentation de l’accès à Adobe Planning [](/help/quicksilver/planning/access/access-overview.md).
+Pour plus d’informations sur l’accès à Workfront Planning, consultez [Présentation de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## Relation entre les types de licences Workfront et les autorisations Workfront Planning
 
@@ -60,7 +60,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 ### Types de licences et autorisations d’espace de travail
 
-Seuls les utilisateurs disposant d’une licence Standard peuvent disposer d’autorisations Contribute ou Gérer sur les espaces de travail. Les utilisateurs disposant de tous les autres types de licence peuvent disposer d’autorisations d’affichage des espaces de travail partagés avec eux.
+Seuls les utilisateurs disposant d’une licence Standard peuvent avoir des autorisations de niveau Contribution ou Gérer sur les espaces de travail. Les utilisateurs disposant de tous les autres types de licence peuvent disposer d’autorisations d’affichage des espaces de travail partagés avec eux.
 
 Les administrateurs système peuvent afficher tous les espaces de travail du système, même ceux qu’ils n’ont pas créés.
 
@@ -72,7 +72,7 @@ Les administrateurs système peuvent afficher tous les espaces de travail du sys
 >
 >Le champ Partage indique que les utilisateurs ne peuvent pas être autorisés à contribuer à ou gérer un espace de travail s’ils disposent d’une licence de niveau inférieur, car ces niveaux d’autorisation sont grisés.
 >
-><span class="preview">![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)</span>
+>![Autorisations grisées pour l’utilisateur contributeur sur l’espace de travail](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### Types de licence et autorisations d’affichage
@@ -87,4 +87,4 @@ Seuls les utilisateurs disposant d’une licence Standard peuvent disposer d’a
 >
 >Le champ Partage indique que les utilisateurs ne peuvent pas se voir accorder d’autorisations pour gérer une vue s’ils disposent d’une licence de niveau inférieur, car ces niveaux d’autorisations sont grisés.
 >
-><span class="preview">![](assets/permissions-grayed-out-for-light-user.png)</span>
+>![Autorisations grisées pour un utilisateur léger sur le partage d’affichage](assets/permissions-grayed-out-for-light-user.png)
