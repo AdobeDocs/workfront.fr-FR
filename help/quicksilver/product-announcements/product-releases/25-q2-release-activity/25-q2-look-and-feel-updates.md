@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 35%
@@ -24,7 +24,9 @@ Pour une liste de tous les changements disponibles avec la version du deuxième 
 >
 >Version préliminaire : 13 février 2025 ; Version de production pour tous les clients : 13 février 2025
 
-Les e-mails liés à l’ajout ou au partage de documents n’auront plus de miniature dans le corps de l’e-mail. Certains clients verront également l’e-mail hérité d’affectation de tâche et de problème, qui affiche uniquement l’avatar de la personne désignée.
+Les e-mails liés à l’ajout ou au partage de documents n’auront plus de miniature dans le corps de l’e-mail.
+
+Certains clients verront également l’e-mail hérité d’affectation de tâche et de problème, qui affiche uniquement l’avatar de la personne désignée.
 
 Ces modifications sont temporaires, car nous enquêtons sur les retards dans les e-mails.
 
