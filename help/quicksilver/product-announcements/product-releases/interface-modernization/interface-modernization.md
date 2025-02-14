@@ -1,20 +1,20 @@
 ---
 title: Mises à jour de l’interface
-description: Cette page répertorie les mises à jour de l’interface que nous effectuons dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobes.
+description: Cette page répertorie les mises à jour de l’interface que nous effectuons dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobe.
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 946b7d2ed2d45c3622706a0d0336b3261c22a2ad
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1469'
 ht-degree: 0%
 
 ---
 
 # Modernisation des interfaces
 
-Cette page répertorie les mises à jour de l’interface que nous effectuons dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobes. Ces modifications sont principalement visuelles et ne modifient pas considérablement les workflows, sauf indication contraire.
+Cette page répertorie les mises à jour de l’interface que nous effectuons dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobe. Ces modifications sont principalement visuelles et ne modifient pas considérablement les workflows, sauf indication contraire.
 
 >[!IMPORTANT]
 >
@@ -23,6 +23,22 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
+### Mise à jour de l’interface pour la personnalisation des objets de notification d’événement
+
+**Version préliminaire : 13 février 2025 ; à partir de la semaine du 13 février 2025**
+
+Nous avons mis à jour la boîte de dialogue Objet de la notification d’événement avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Pour afficher cette modification, accédez à Configuration > E-mail > Notifications > Notifications d’événement > Cliquez sur une notification d’événement.
+
+### Mise à jour de l’interface pour la zone Équipes
+
+**Version préliminaire : 13 février 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour la zone Équipes avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Pour afficher les paramètres, accédez à Configuration > Équipes.
 
 ### Mise à jour de l&#39;interface pour les paramètres du processus d&#39;approbation dans la configuration
 
@@ -34,7 +50,7 @@ Pour afficher les paramètres, accédez à Configuration > Préférences > Valid
 
 ### Mise à jour de l&#39;interface pour la zone Validations dans Configuration > Groupes
 
-**Version préliminaire : 30 janvier 2025 ; Version de production : à annoncer**
+**Version préliminaire : 30 janvier 2025 ; Version de production : à partir de la semaine du 6 février 2025**
 
 Nous avons mis à jour les listes d’approbation de projets, de tâches et d’événements dans Configuration > Groupes > Approbations avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -44,7 +60,7 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 ### Mise à jour de l’interface pour la page Rôles d’épreuve dans la Configuration
 
-**Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
+**Version préliminaire : 23 janvier 2025 ; Version de production : à partir de la semaine du 30 janvier 2025**
 
 Nous avons mis à jour l’aspect de la page Rôles de BAT avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -72,7 +88,7 @@ Pour afficher cette page, accédez à Configuration > E-mail > Notifications > M
 
 ### Mise à jour de l’interface pour la page Invitations par e-mail dans la configuration
 
-**Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
+**Version préliminaire : 23 janvier 2025 ; Version de production : à partir de la semaine du 30 janvier 2025**
 
 Nous avons mis à jour la page Invitations par e-mail avec un design plus moderne et cohérent avec les autres zones de Workfront.
 
@@ -82,7 +98,7 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 ### Mises à jour de l’interface pour la page Notifications d’événement dans un groupe
 
-**Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
+**Version préliminaire : 23 janvier 2025 ; début de la semaine du 30 janvier 2025**
 
 Nous avons mis à jour la page Notification d’événement dans un groupe avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -102,7 +118,7 @@ Pour afficher cette page, accédez à Configuration > E-mail > Notifications > N
 
 ### Mise à jour de l&#39;interface pour la boîte de dialogue Ajouter SharePoint
 
-**Version préliminaire : 16 janvier 2025 ; Version de production : à annoncer**
+**Version préliminaire : 16 janvier 2025 ; début de la semaine du 30 janvier 2025**
 
 Nous avons mis à jour la boîte de dialogue Ajouter Sharepoint dans Configuration > Documents > Intégration Sharepoint avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -118,6 +134,14 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 ## Agile
 
+### Mise à jour de l’interface pour la page d’aperçu des itérations
+
+**Version préliminaire : 13 février 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour la page d’aperçu des itérations vers une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Pour afficher cette modification, accédez à Équipes > Choisir une équipe > Itérations > Choisir une itération > Aperçu.
+
 ### Ajouter des histoires et des événements à une itération
 
 **Version préliminaire : 6 février 2025 ; Version de production : à annoncer**
@@ -126,7 +150,7 @@ Nous avons mis à jour la boîte de dialogue Ajouter une histoire et Ajouter un 
 
 Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonctionnalité n’a été modifiée.
 
-Pour afficher cette modification, accédez à Équipes > choisir une équipe > Itérations > Choisir une itération, puis cliquez sur **Nouvelle histoire** ou **Nouvel événement**.
+Pour afficher cette modification, accédez à Équipes > Choisir une équipe > Itérations > Choisir une itération, puis cliquez sur **Nouvelle histoire** ou **Nouvel événement**.
 
 ### Mise à jour de l’interface pour la zone Équipes > Liste d’attente
 
@@ -151,7 +175,7 @@ Pour afficher cette modification, accédez à Équipes > choisir une équipe > I
 
 ### Ajouter des histoires et des événements de la liste d&#39;attente
 
-**Version préliminaire : 30 janvier 2025 ; Version de production : à annoncer**
+**Version préliminaire : 30 janvier 2025 ; à partir de la semaine du 6 février 2025**
 
 Nous avons mis à jour la boîte de dialogue Ajouter une histoire et Ajouter un problème avec une conception plus moderne qui est cohérente avec d’autres zones de Workfront.
 
@@ -159,11 +183,21 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 Pour afficher cette modification, accédez à Équipes > choisir une équipe > Liste d’attente, puis cliquez sur **Nouvelle histoire** ou **Nouvel événement**.
 
+## Documents
+
+### Mise à jour de l&#39;interface pour la zone Validations d&#39;un document
+
+**Version préliminaire : 13 février 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour la zone Approbations d’un document avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Pour afficher cette modification, accédez à un document > Cliquez sur Détails du document > Approbations.
+
 ## Rapports et tableaux de bord
 
 ### Mise à jour du rapport d’équipe avec un nouveau style
 
-**Version préliminaire : 30 janvier 2025 ; Version de production : à annoncer**
+**Version préliminaire : 30 janvier 2025 ; à partir de la semaine du 6 février 2025**
 
 Nous avons mis à jour le rapport d’équipe avec une conception plus moderne et cohérente avec les autres domaines de Workfront.
 
@@ -174,7 +208,7 @@ Pour créer un rapport d’équipe, accédez à Rapports > Nouveau rapport > Éq
 
 ### Rapports d’e-mail mis à jour avec un nouveau style
 
-**Version préliminaire : 23 janvier 2025 ; Version de production : à annoncer**
+**Version préliminaire : 23 janvier 2025 ; Version de production : à partir de la semaine du 6 février 2025**
 
 Nous avons mis à jour l’interface des rapports d’e-mail suivants :
 
