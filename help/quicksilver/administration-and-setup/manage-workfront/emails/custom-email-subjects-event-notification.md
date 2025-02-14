@@ -6,9 +6,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 97%
 
 ---
@@ -82,7 +82,7 @@ Certaines notifications d’événement comportent plusieurs lignes d’objet, s
 
 Par exemple, « Quelqu’un m’a inclus dans une mise à jour dirigée » comporte deux lignes d’objet différentes : d’abord pour les tâches, les problèmes, les tâches de modèle et les documents (également appelée « referenceObject »), puis pour les objets qui permettent aux utilisateurs et utilisatrices de faire des commentaires, comme un portfolio, un programme, etc. (également appelée « topReferenceObject »).
 
-![L’événement ne comporte pas plusieurs lignes d’objet](assets/Ev-not-mult-subj-lines.png)
+![L’événement ne comporte pas plusieurs lignes d’objet](assets/ev-multiple-subject.png)
 
 Si une personne est incluse dans une conversation sur la tâche, le problème, la tâche de modèle ou le document, un e-mail est généré avec la première ligne d’objet. La ligne d’objet contient « referenceObject:name » et le système définit l’objet et affiche le nom approprié dans le champ d’objet. La ligne d’objet de l’e-mail ressemblerait à ceci : « Commentaire sur la tâche 123 sur le projet ABC ».
 
@@ -96,6 +96,8 @@ Certaines notifications d’événement comportent également plusieurs objets d
 
 Par exemple, la demande d’ajout d’un document à un problème peut déclencher deux e-mails différents : un pour le moment où le document est ajouté et un autre pour le moment où le document est modifié.
 
-![Différentes actions d’événement](assets/ev-not-mult-subj-lines-diff-actions.png)
+
+
+![L’événement ne comporte pas plusieurs lignes d’objet](assets/Ev-not-mult-subj-lines.png)
 
 Pour modifier les lignes d’objet de l’e-mail et ajouter des champs supplémentaires à l’une des lignes d’objet, voir la section [Personnaliser les lignes d’objet des e-mails pour les notifications d’événement](#customize-email-subject-lines-for-event-notifications) dans cet article.
