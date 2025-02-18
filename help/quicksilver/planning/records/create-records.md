@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 34%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,8 +31,10 @@ Vous pouvez créer des enregistrements en effectuant l’une des opérations sui
 * [Copier-coller une liste d&#39;enregistrements depuis une liste externe](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Dupliquer les enregistrements depuis une vue Tableau](#create-records-by-duplicating-them)
 * [Créer des enregistrements au fur et à mesure que vous les connectez à partir d’autres enregistrements](#create-records-as-you-connect-them)
-* [Créez-les en soumettant un formulaire de demande à un type d’enregistrement](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Créer des enregistrements en soumettant un formulaire de demande à un type d’enregistrement](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Créer des enregistrements lors de l’import de types d’enregistrements depuis un fichier CSV ou Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+
+<!--* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>-->
 
 
 Pour plus d’informations sur la gestion des enregistrements dans les vues « Tableau » ou « Chronologie », consultez les articles suivants :
@@ -78,7 +80,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -137,9 +139,9 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
       * Cliquez sur **Nouvel enregistrement** dans la dernière ligne du tableau
 
       * Cliquez sur **Maj + Entrée** sur votre clavier à partir de n’importe quelle colonne ou ligne du tableau. Cela ajoute une ligne vide sous l’enregistrement à partir duquel vous commencez.
-      * Pointez sur le champ principal d’un enregistrement, cliquez sur l’![](assets/more-menu.png) du menu **Plus** à droite du champ, puis cliquez sur **Insérer un enregistrement au-dessus** ou **Insérer un enregistrement au-dessous**.
+      * Pointez sur le champ principal d’un enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du champ, puis cliquez sur **Insérer un enregistrement au-dessus** ou **Insérer un enregistrement au-dessous**.
 
-     ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![Ajouter une nouvelle campagne dans la ligne du tableau](assets/adding-a-new-campaign-in-table-row.png)
 
    * Quel que soit l’angle de vue :
 
@@ -162,14 +164,14 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    Ou
 
-   Cliquez sur le nom du nouvel enregistrement ou sur l’icône **Ouvrir les détails** ![](assets/open-details-icon-in-table-name-field.png) à gauche du nom de l’enregistrement. Un aperçu contenant les informations détaillées de l’enregistrement s’ouvre dans le tableau.
+   Cliquez sur le nom du nouvel enregistrement ou sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ nom de la table](assets/open-details-icon-in-table-name-field.png) à gauche du nom de l’enregistrement. Un aperçu contenant les informations détaillées de l’enregistrement s’ouvre dans le tableau.
 
    >[!TIP]
    >
    >Vous ne pouvez accéder à l’icône **Ouvrir les détails** qu’à partir du champ nom de l’enregistrement lorsque le champ Nom est un champ principal.
 
 1. Commencez à modifier les informations de l&#39;enregistrement dans l&#39;aperçu de l&#39;enregistrement. Workfront enregistre automatiquement vos modifications.
-1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement sur la page d’enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement sur la page d’enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements ou de leurs informations lors de leur ajout en mode Tableau :
 
@@ -263,7 +265,7 @@ Pour créer des enregistrements au fur et à mesure que vous les connectez à pa
 
    <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
-   ![](assets/add-button-to-create-records-in-context-highlighted.png)
+   ![Ajouter un bouton pour créer des enregistrements en contexte mis en surbrillance](assets/add-button-to-create-records-in-context-highlighted.png)
 
    L’enregistrement est créé et ajouté au champ d’enregistrement connecté.
 
@@ -297,3 +299,17 @@ Vous pouvez importer des enregistrements lorsque vous importez des types d&#39;e
 
 Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
+<!--
+<div class="preview">
+
+## Create records by using automations
+
+You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+
+You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+
+For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+
+</div>
+
+-->
