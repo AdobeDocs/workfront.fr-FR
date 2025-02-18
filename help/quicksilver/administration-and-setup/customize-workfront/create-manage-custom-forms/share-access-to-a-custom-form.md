@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 2a356b2cc98f8226d2a616cdd907a3aebaeecee0
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 99%
+source-wordcount: '1530'
+ht-degree: 89%
 
 ---
 
@@ -77,7 +77,11 @@ Plutôt que de laisser un formulaire personnalisé dans le statut de partage par
     <tbody> 
      <tr> 
       <td role="rowheader">L'afficher</td> 
-      <td> <p>Possibilité d’afficher et de remplir le formulaire personnalisé sur les objets.</p> <p><b>NOTE</b> : pour les titulaires d’une licence Contribution et Light (ou travail, révision et demande), il s’agit de l’option la plus élevée disponible.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
+      <td> <p>Cette option permet d’afficher et de remplir le formulaire personnalisé sur des objets. Au niveau de l’objet, les utilisateurs doivent également avoir au moins un accès de type Contributeur avec le paramètre avancé <strong>Modifier le formulaire personnalisé</strong> activé. Par exemple, si le formulaire est joint à un projet, les utilisateurs doivent avoir un accès de type Contributeur à ce projet, sinon ils ne pourront pas remplir le formulaire.</p>
+
+   <p><b>NOTE</b> : pour les titulaires d’une licence Contribution et Light (ou travail, révision et demande), il s’agit de l’option la plus élevée disponible.</p>
+
+   <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
        <ul> 
         <li><strong>Joindre aux données personnalisées</strong> : possibilité de joindre un formulaire personnalisé aux projets, tâches et problèmes pour lesquels ils disposent de l’autorisation de gestion.</li> 
         <li> <p><strong>Partager</strong> : possibilité de partager le formulaire personnalisé avec d’autres personnes dans le système.</p> <p>Les titulaires d’une licence Contribution ou Light (ou travail, révision ou demande) peuvent partager un formulaire personnalisé uniquement par le biais de l’API ou d’un rapport de formulaires personnalisés.</p> </li>
@@ -85,7 +89,7 @@ Plutôt que de laisser un formulaire personnalisé dans le statut de partage par
      </tr> 
      <tr> 
       <td role="rowheader">Le gérer</td> 
-      <td> <p>Disponible uniquement pour les personnes titulaires d’une licence de plan ou standard. </p> <p>En plus de pouvoir ajouter le formulaire aux objets auxquels ils ont un accès en modification, les utilisateurs et utilisatrices peuvent également modifier entièrement le formulaire personnalisé, notamment ajouter, modifier et supprimer des champs.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
+      <td> <p>Cette option est disponible uniquement pour les utilisateurs disposant d’une licence Standard ou Plan. </p> <p>En plus de pouvoir ajouter le formulaire aux objets auxquels ils ont un accès en modification, les utilisateurs et utilisatrices peuvent également modifier entièrement le formulaire personnalisé, notamment ajouter, modifier et supprimer des champs.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
        <ul> 
         <li> <p><strong>Joindre aux données personnalisées</strong> : possibilité de joindre un formulaire personnalisé aux projets, tâches et problèmes pour lesquels ils disposent d’un accès Gérer.</p> </li> 
         <li><strong>Supprimer</strong> : supprimer le formulaire personnalisé du système</li> 
@@ -127,7 +131,9 @@ Plutôt que de laisser un formulaire personnalisé dans le statut de partage par
     <tbody> 
      <tr> 
       <td role="rowheader">L'afficher</td> 
-      <td> <p>Possibilité d’afficher et de remplir le formulaire personnalisé sur les objets.</p> <p><b>NOTE</b> : pour les titulaires d’une licence Contribution et Light (ou travail, révision et demande), il s’agit de l’option la plus élevée disponible.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
+      <td> <p>Cette option permet d’afficher et de remplir le formulaire personnalisé sur des objets. Au niveau de l’objet, les utilisateurs doivent également avoir au moins un accès de type Contributeur avec le paramètre avancé <strong>Modifier le formulaire personnalisé</strong> activé. Par exemple, si le formulaire est joint à un projet, les utilisateurs doivent avoir un accès de type Contributeur à ce projet, sinon ils ne pourront pas remplir le formulaire.</p>
+
+   <p><b>NOTE</b> : pour les titulaires d’une licence Contribution et Light (ou travail, révision et demande), il s’agit de l’option la plus élevée disponible.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
        <ul> 
         <li><strong>Joindre aux données personnalisées</strong> : possibilité de joindre un formulaire personnalisé aux projets, tâches et problèmes pour lesquels ils disposent de l’autorisation de gestion.</li> 
         <li> <p><strong>Partager</strong> : possibilité de partager le formulaire personnalisé avec d’autres personnes dans le système.</p> <p>Les titulaires d’une licence Contribution ou Light (ou travail, révision ou demande) peuvent partager un formulaire personnalisé uniquement par le biais de l’API ou d’un rapport de formulaires personnalisés.</p> </li>
@@ -135,7 +141,7 @@ Plutôt que de laisser un formulaire personnalisé dans le statut de partage par
      </tr> 
      <tr> 
       <td role="rowheader">Le gérer</td> 
-      <td> <p>Disponible uniquement pour les personnes titulaires d’une licence de plan ou standard. </p> <p>En plus de pouvoir ajouter le formulaire aux objets auxquels ils ont un accès en modification, les utilisateurs et utilisatrices peuvent également modifier entièrement le formulaire personnalisé, notamment ajouter, modifier et supprimer des champs.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
+      <td> <p>Cette option est disponible uniquement pour les utilisateurs disposant d’une licence Standard ou Plan. </p> <p>En plus de pouvoir ajouter le formulaire aux objets auxquels ils ont un accès en modification, les utilisateurs et utilisatrices peuvent également modifier entièrement le formulaire personnalisé, notamment ajouter, modifier et supprimer des champs.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
        <ul> 
         <li> <p><strong>Joindre aux données personnalisées</strong> : possibilité de joindre un formulaire personnalisé aux projets, tâches et problèmes pour lesquels ils disposent d’un accès Gérer.</p> </li> 
         <li><strong>Supprimer</strong> : supprimer le formulaire personnalisé du système</li> 
