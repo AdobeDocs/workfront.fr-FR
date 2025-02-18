@@ -7,10 +7,10 @@ description: Vous pouvez utiliser des expressions de données pour définir des 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
-source-wordcount: '2425'
-ht-degree: 90%
+source-wordcount: '2433'
+ht-degree: 91%
 
 ---
 
@@ -399,7 +399,7 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
   </tr>
   <tr> 
    <td><strong>ARRAYELEMENT</strong> </td> 
-   <td> <p>Renvoie l’élément au nombre spécifié dans le tableau . Si l’index est hors limites, il renvoie vide.</p> 
+   <td> <p>Renvoie l’élément au numéro spécifié dans le tableau. Si l’index est hors limites, il renvoie un élément vide.</p> 
    <p>L’expression est formatée comme suit :</p>
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
@@ -458,7 +458,8 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
   </tr> 
   <tr> 
    <td><strong>FORMAT </strong> </td> 
-   <td><p>Renvoie le texte formaté. Les options de couleur sont $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE, et les autres options de mise en forme sont $$BOLD, $$ITALIC, $$UNDERLINE. Une seule option de couleur peut être utilisée par fonction, ainsi que jusqu’à trois autres options de mise en forme. Si aucune option de couleur n’est spécifiée, la couleur par défaut du système est appliquée.</p>
+   <td><p>Renvoie le texte formaté. Seules les options de paramètre répertoriées ici sont autorisées avec FORMAT.</p>
+   <p>Les options de couleur sont $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE, et les autres options de mise en forme sont $$BOLD, $$ITALIC, $$UNDERLINE. Une seule option de couleur est autorisée, ainsi que trois autres options de mise en forme. Si aucune option de couleur n’est spécifiée, la couleur par défaut du système est appliquée.</p>
    <p>L’expression est formatée comme suit :</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>Remarque : cette expression n'est pas prise en charge dans Workfront Planning.</p></td> 
@@ -573,7 +574,7 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
   </tr> 
   <tr> 
    <td><strong>SWITCH</strong> </td> 
-   <td> <p>Evalue l'expression par rapport à une liste de valeurs, et retourne le résultat correspondant à la première valeur correspondante.</p>
+   <td> <p>Évalue l’expression par rapport à une liste de valeurs et renvoie le résultat correspondant à la première valeur correspondante.</p>
    <p>L’expression est formatée comme suit :</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
    <p>Cette expression n'est pas prise en charge dans Workfront Planning.</p></td> 
