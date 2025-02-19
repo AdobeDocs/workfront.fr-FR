@@ -5,10 +5,10 @@ description: Adobe Workfront envoie des notifications sur les éléments qui vou
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 100%
+source-wordcount: '1603'
+ht-degree: 91%
 
 ---
 
@@ -75,12 +75,12 @@ Par exemple, pour s’abonner à un problème :
    >
    >Pour vous abonner à des projets, vous pouvez procéder de l’une des manières suivantes :
    >
-   >* Accédez au projet auquel vous voulez vous abonner, cliquez sur l’icône **[!UICONTROL Plus]** ![](assets/qs-more-menu.png) à droite du nom du projet, puis sur **[!UICONTROL S’abonner]**.
-   >* Accédez à une liste de projets ou un rapport et sélectionnez un projet, cliquez sur l’icône **[!UICONTROL Plus]** ![](assets/qs-more-menu.png) en haut de la liste, puis cliquez sur **[!UICONTROL S’abonner]**. Cette action n’est disponible que dans une liste de projets.
+   >* Accédez au projet auquel vous souhaitez vous abonner, cliquez sur l’icône **[!UICONTROL Plus]** ![Menu Plus](assets/qs-more-menu.png) à droite du nom du projet, puis sur **[!UICONTROL S’abonner]**.
+   >* Dans une liste de projets ou un rapport, sélectionnez un projet, cliquez sur l’icône **[!UICONTROL Plus]** ![Menu Plus](assets/qs-more-menu.png) en haut de la liste, puis cliquez sur **[!UICONTROL S’abonner]**. Cette action n’est disponible que dans une liste de projets.
 
-1. Cliquez sur **[!UICONTROL Plus]** ![](assets/more-icon.png), puis sur **[!UICONTROL S’abonner]**.
+1. Cliquez sur **[!UICONTROL Plus]** ![icône Plus](assets/more-icon.png), puis sur **[!UICONTROL S’abonner]**.
 
-   ![](assets/subscribe-to-a-work-item-350x258.png)
+   ![Abonnement à un élément de travail](assets/subscribe-to-a-work-item-350x258.png)
 
    Une coche apparaît sur la cloche et le chiffre à côté se met à jour pour vous ajouter au nombre d’utilisateurs et utilisatrices abonnés.
 
@@ -102,12 +102,12 @@ Par exemple, pour se désabonner d’un problème :
    >
    >Pour vous désabonner des projets, vous pouvez procéder de l’une des manières suivantes :
    >
-   >* Accédez au projet dont vous voulez vous désabonner, cliquez sur l’icône **[!UICONTROL Plus]** ![](assets/qs-more-menu.png) à droite du nom du projet, puis sur **[!UICONTROL Se désabonner]**.
-   >* Accédez à une liste de projets ou un rapport et sélectionnez un projet, cliquez sur l’icône **[!UICONTROL Plus]** ![](assets/qs-more-menu.png) en haut de la liste, puis cliquez sur **[!UICONTROL Se désabonner]**. Cette action n’est disponible que dans une liste de projets.
+   >* Accédez au projet dont vous souhaitez vous désabonner, cliquez sur l’icône **[!UICONTROL Plus]** ![Icône Plus](assets/qs-more-menu.png) à droite du nom du projet, puis sur **[!UICONTROL Se désabonner]**.
+   >* Dans une liste de projets ou un rapport, sélectionnez un projet, cliquez sur l’icône **[!UICONTROL Plus]** ![Icône Plus](assets/qs-more-menu.png) en haut de la liste, puis cliquez sur **[!UICONTROL Se désabonner]**. Cette action n’est disponible que dans une liste de projets.
 
-1. Cliquez sur **[!UICONTROL Plus]** ![](assets/more-icon.png), puis sur **[!UICONTROL Se désabonner]**.
+1. Cliquez sur **[!UICONTROL Plus]** ![icône Plus](assets/more-icon.png), puis sur **[!UICONTROL Se désabonner]**.
 
-   ![](assets/unsubscribe-to-a-work-item-350x258.png)
+   ![Désabonnement d’un élément de travail](assets/unsubscribe-to-a-work-item-350x258.png)
 
 1. Vous pouvez également vous désabonner d’un élément auquel vous avez souscrit un abonnement en cliquant sur le lien [!UICONTROL Se désabonner] dans l’e-mail d’abonnement.
 
@@ -136,7 +136,7 @@ Toutes les personnes abonnées disposent d’autorisations d’[!UICONTROL affic
    >   
    >* accédez à une liste de projets ou à un rapport et sélectionnez un projet.
 
-1. Cliquez sur **[!UICONTROL Plus]** ![](assets/more-icon.png).
+1. Cliquez sur **[!UICONTROL Plus]** ![icône Plus](assets/more-icon.png).
 1. Cliquez sur la bulle numérique en regard du lien **[!UICONTROL S’abonner]**.
 1. Dans la boîte qui apparaît, commencez à entrer le nom de l’utilisateur ou de l’utilisatrice dans la boîte **[!UICONTROL Abonner d’autres personnes]**, puis sélectionnez son nom dans les options affichées.
 
@@ -159,7 +159,7 @@ Lorsqu’une personne ajoute un commentaire à l’onglet [!UICONTROL Mises à j
    >   
    >* accédez à une liste de projets ou à un rapport et sélectionnez un projet.
 
-1. Cliquez sur **[!UICONTROL Plus]** ![](assets/more-icon.png).
+1. Cliquez sur **[!UICONTROL Plus]** ![icône Plus](assets/more-icon.png).
 1. Cliquez sur la bulle numérique en regard du lien **[!UICONTROL S’abonner]** ou **[!UICONTROL Se désabonner]**.
 1. Sur la page **[!UICONTROL Personnes abonnées]** qui s’affiche, cliquez sur le « X » en regard du nom de l’utilisateur ou de l’utilisatrice que vous souhaitez désabonner.
 
@@ -175,7 +175,7 @@ Lorsqu’une personne ajoute un commentaire à l’onglet [!UICONTROL Mises à j
 
 Dès qu’une personne publie un commentaire sur un élément auquel vous avez souscrit un abonnement, vous recevez une notification in-app.
 
-![](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
+![Notification in app](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 Pour plus d’informations, voir [Afficher et gérer les notifications in-app](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 

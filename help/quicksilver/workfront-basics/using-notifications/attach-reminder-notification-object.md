@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Joindre une notification de rappel à un objet
-description: '« Vous pouvez associer des notifications de rappel à plusieurs types d’objets différents : projets, tâches, problèmes, feuilles de temps, modèles, tâches de modèle et profils de feuilles de temps récurrentes. »'
+description: 'Vous pouvez associer des notifications de rappel à plusieurs types d’objets différents : projets, tâches, problèmes, feuilles de temps, modèles, tâches de modèle et profils de feuilles de temps récurrentes.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 97%
 
 ---
 
@@ -56,14 +56,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Joindre des notifications de rappel à un objet
 
 1. Accédez à l’objet auquel vous souhaitez joindre la notification de rappel.
-1. Cliquez sur l’icône Modifier ![](assets/edit-icon.png).
+1. Cliquez sur l’icône Modifier ![icône Modifier](assets/edit-icon.png).
 1. Dans le panneau de gauche de la boîte de dialogue **[!UICONTROL Modifier]** qui s’affiche, cliquez sur **[!UICONTROL Paramètres]**.
 
 1. Dans **[!UICONTROL Notification de rappel]**, sélectionnez les notifications à joindre à l’objet.
 
    Dans cet exemple, l’objet en cours de modification est une tâche :
 
-   ![](assets/reminder-notification-select-one-350x213.png)
+   ![ Notification de rappel ](assets/reminder-notification-select-one-350x213.png)
 
    Si l’administrateur ou l’administratrice [!DNL Workfront] a créé plusieurs notifications de rappel, vous pouvez joindre plusieurs notifications à un seul objet.
 

@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Afficher : URL externe à l’aide d’un champ de données personnalisé"
+title: 'Vue : URL externe utilisant le champ de données personnalisé'
 description: Vous pouvez afficher un lien vers une URL personnalisée interne à l’aide d’un champ personnalisé calculé nommé « URL personnalisée » dans une vue de tâche.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 82%
+source-wordcount: '547'
+ht-degree: 81%
 
 ---
 
@@ -75,7 +75,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Créer le champ personnalisé calculé « URL personnalisée »
 
-Pour plus d’informations sur la création d’un champ personnalisé calculé, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Pour plus d’informations sur la création d’un champ personnalisé calculé, voir [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Si vous avez accès à la création d’un formulaire personnalisé, vous pouvez créer un champ personnalisé calculé pour les tâches appelé « URL personnalisée ». Ce champ est directement lié au sous-onglet **Vue d’ensemble** de l’onglet **Détails de la tâche**.
 
@@ -84,7 +84,7 @@ Si vous avez accès à la création d’un formulaire personnalisé, vous pouvez
 
    CONCAT(&#39;&#39;https://`<domain>`.my.workfront.com&quot;,&quot;/&quot;,&quot;task/&quot;,ID,&quot;/overview&#39;)
 
-1. Remplacez &quot;`<domain>`&quot; par votre nom de domaine réel, sans les crochets. La partie `/overview` de cette URL redirige le lien vers la section **Aperçu** du panneau gauche de la tâche.
+1. Remplacez « `<domain>` » par votre nom de domaine réel, sans les crochets. La partie `/overview` de cette URL dirige le lien vers la section **Aperçu** dans le panneau de gauche de la tâche.
 
 1. Après avoir créé votre **champ personnalisé calculé**, attachez ce **formulaire personnalisé** avec ce champ à plusieurs tâches dans Adobe Workfront que vous souhaitez afficher dans votre nouvelle vue.
 
@@ -92,7 +92,7 @@ Si vous avez accès à la création d’un formulaire personnalisé, vous pouvez
 
 La **Vue** de tâche dans l’exemple ci-dessous, affiche le **Champ personnalisé calculé** appelé « URL personnalisée » en tant que lien direct vers le sous-onglet **Vue d’ensemble** de l’onglet **Détails** de la tâche, ainsi que le champ **URL** de la tâche.
 
-![](assets/task-view-with-custom-url-field-quicksilver-350x70.png)
+(assets/task-view-with-custom-url-field-quicksilver-350x70.png)
 
 Pour personnaliser cette vue :
 
@@ -102,7 +102,7 @@ Pour personnaliser cette vue :
 1. Supprimez toutes les colonnes dans la vue, à l’exception de la première colonne.
 1. Cliquez sur l’en-tête de la première colonne.
 1. Cliquez sur **Passer en mode Texte** > **Modifier le mode Texte**.
-1. Supprimez le texte dans la zone **Edit Text Mode** et remplacez-le par le code suivant :
+1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
 
    ```
@@ -146,6 +146,6 @@ Pour personnaliser cette vue :
    column.2.width=150
    ```
 
-   Dans cet exemple, la colonne « column.1 ». Les lignes affichent la valeur du champ &#39;URL personnalisée&#39; comme un lien dans la section **Aperçu** de la tâche : &#39;colonne.2&#39;. affiche la valeur stockée dans le **champ d’URL** de la tâche.
+   Dans cet exemple, la colonne « column.1 ». Les lignes affichent la valeur dans le champ « URL personnalisée » sous la forme d’un lien vers la section **Aperçu** de la tâche ; « colonne.2. » affiche la valeur stockée dans le **champ d’URL** de la tâche.
 
 1. Cliquez sur **Terminé** > **Enregistrer la vue**.

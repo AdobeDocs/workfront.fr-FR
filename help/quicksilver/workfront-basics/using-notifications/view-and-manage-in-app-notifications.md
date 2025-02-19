@@ -1,14 +1,14 @@
 ---
 navigation-topic: notifications
 title: Afficher et gérer les notifications in-app
-description: 'Les notifications in-app vous donnent deux types d’informations : les notifications d’annonces et les notifications d’éléments de travail. Elles sont disponibles à la fois dans l’application web et dans l’application mobile.'
+description: 'Les notifications in-app vous donnent deux types d’informations : les notifications d’annonce et les notifications d’élément de travail. Elles sont disponibles à la fois dans l’application web et dans l’application mobile.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 98%
+source-wordcount: '971'
+ht-degree: 86%
 
 ---
 
@@ -57,17 +57,17 @@ L’icône numérotée dans le coin supérieur droit de [!DNL Workfront] affiche
 >
 >Vous pouvez consulter toutes les notifications in-app à partir de l’application web et de l’application mobile. Seules certaines notifications sont envoyées sous forme de notifications push dans l’application mobile. Pour plus d’informations sur les notifications dans l’application mobile, voir [[!DNL Adobe Workfront] pour iOS](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) ou [[!DNL Adobe Workfront] pour Android](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
-1. Cliquez sur l’icône numérotée ![](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de [!DNL Workfront] pour ouvrir votre liste de notifications.
+1. Cliquez sur l’icône numérotée ![icône de notification](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de [!DNL Workfront] pour ouvrir votre liste de notifications.
 
    Vos dernières notifications non lues apparaissent sous l’icône numérotée, les plus récentes étant placées en haut.
 
    ![Notifications non lues récentes](assets/qs-notifications-350x330.png)
 
-   L’icône Nombre affiche une liste déroulante contenant jusqu’à 80 notifications. Pour en voir plus, vous pouvez cliquer sur **[!UICONTROL Toutes les notifications]** en bas de la liste pour afficher jusqu’à 500 notifications. Les notifications sont automatiquement supprimées après 30 jours.
+   L’icône de nombre affiche une liste déroulante avec jusqu’à 80 notifications. Pour en voir plus, vous pouvez cliquer sur **[!UICONTROL Toutes les notifications]** en bas de la liste pour afficher jusqu’à 500 notifications. Les notifications sont automatiquement supprimées après 30 jours.
 
    Au bas de chaque notification,vous trouverez le [!UICONTROL type de notification] et une icône d’identification correspondante. Ces éléments vous aident à identifier ce qui s’est passé avec l’élément [!DNL Workfront] mentionné et vous alertent si vous avez un élément action :
 
-   * Les notifications d’annonces sont signalées par l’icône [!UICONTROL Annonces] ![](assets/announcement.png).
+   * Les notifications d’annonce sont indiquées par l’icône [!UICONTROL annonces]. ![Icône d’annonce](assets/announcement.png)
 
    * Toutes les autres notifications sont indiquées par des icônes qui suggèrent le type d’élément de travail auquel elles sont associées.
 
@@ -80,21 +80,21 @@ L’icône située à droite du point bleu affiche l’un des éléments suivant
 
 1. (Facultatif) Si vous souhaitez afficher la date à laquelle vous avez reçu une notification, passez la souris sur l’indicateur de jour ou d’heure dans le coin supérieur droit de la notification.
 
-   ![](assets/hoveroverdate-350x437.png)
+   ![Survoler la date](assets/hoveroverdate-350x437.png)
 
 1. Cliquez sur la notification que vous souhaitez afficher :
 
    * Si la notification sur laquelle vous cliquez concerne un élément de travail, l’objet [!DNL Workfront] associé s’ouvre et affiche le message complet dans l’onglet **[!UICONTROL Mises à jour]**. Vous pouvez **[!UICONTROL Démarrer une nouvelle zone de mise à jour]** ou **[!UICONTROL Saisir une réponse]**.
 
-     ![](assets/object-opens-click-work-ntfctn-qs-350x183.png)
+     ![Mise à jour ou réponse](assets/object-opens-click-work-ntfctn-qs-350x183.png)
 
-   * Si la notification sur laquelle vous cliquez concerne une annonce ![](assets/announcement.png), la page **[!UICONTROL Annonces]** s’affiche, avec la liste de toutes vos annonces. L’annonce sur laquelle vous avez cliqué est sélectionnée à gauche et le message est affiché à droite.
+   * Si la notification sur laquelle vous cliquez concerne une annonce ![icône d’annonce](assets/announcement.png), la page **[!UICONTROL Annonces]** s’affiche et répertorie toutes vos annonces. L’annonce sur laquelle vous avez cliqué est sélectionnée à gauche et le message est affiché à droite.
 
-     ![](assets/announcements-page-qs-350x210.png)
+     ![Page des annonces](assets/announcements-page-qs-350x210.png)
 
 1. (Facultatif) Téléchargez les pièces jointes incluses dans le message de notification ou téléchargez toutes les pièces jointes sous forme de fichier ZIP.
 
-   ![](assets/download-attachments-350x106.png)
+   ![Télécharger les pièces jointes](assets/download-attachments-350x106.png)
 
 ## Confirmer des notifications
 
@@ -111,7 +111,7 @@ Le fait de cliquer sur l’icône numérotée pour ouvrir la liste des notificat
 
 Pour confirmer une notification et la supprimer de la liste des notifications, procédez comme suit :
 
-1. Cliquez sur l’icône numérotée ![](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de [!DNL Workfront] pour ouvrir votre liste de notifications.
+1. Cliquez sur l’icône numérotée ![icône de notification](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de [!DNL Workfront] pour ouvrir votre liste de notifications.
 1. Utilisez l’une des méthodes suivantes :
 
    * Cliquez sur le point bleu dans le coin supérieur gauche de la notification.
@@ -123,7 +123,7 @@ Pour confirmer une notification et la supprimer de la liste des notifications, p
 
 Pour consulter les notifications que vous avez déjà confirmées, procédez comme suit :
 
-1. Cliquez sur l’icône numérotée ![](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de [!DNL Workfront] pour ouvrir votre liste de notifications.
+1. Cliquez sur l’icône numérotée ![icône de notification](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de [!DNL Workfront] pour ouvrir votre liste de notifications.
 1. Cliquez sur **[!UICONTROL Toutes les notifications]** dans le coin inférieur droit de votre liste de notifications.
 1. Sur la page **[!UICONTROL Notifications]** qui s’affiche, faites défiler vers le bas pour afficher les notifications antérieures.
 1. (Facultatif) Pour ramener une notification que vous avez confirmée dans votre liste de notifications, cliquez sur le cercle bleu à côté de la notification.
@@ -139,7 +139,7 @@ Toutefois, vous pouvez supprimer une notification d’annonce. Vous pouvez égal
 
 ### Supprimer une annonce
 
-1. Cliquez sur l’icône numérotée ![](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de [!DNL Workfront] pour ouvrir votre liste de notifications.
+1. Cliquez sur l’icône numérotée ![icône de notification](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de [!DNL Workfront] pour ouvrir votre liste de notifications.
 1. Cliquez sur **[!UICONTROL Annonces]** ou sur **[!UICONTROL Voir toutes les annonces]**.
 
 1. Sur la page **[!DNL Announcements]** qui s’affiche, cliquez sur l’annonce que vous souhaitez supprimer dans la liste de gauche, puis cliquez sur **[!UICONTROL Supprimer]** dans le coin supérieur droit de la page.
@@ -148,7 +148,7 @@ Toutefois, vous pouvez supprimer une notification d’annonce. Vous pouvez égal
 
 Vous pouvez accéder aux notifications que vous avez supprimées au cours des 30 derniers jours.
 
-1. Cliquez sur l’icône numérotée ![](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de [!DNL Workfront] pour ouvrir votre liste de notifications.
+1. Cliquez sur l’icône numérotée ![icône de notification](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de [!DNL Workfront] pour ouvrir votre liste de notifications.
 1. Cliquez sur **[!UICONTROL Annonces]** ou **[!UICONTROL Afficher toutes les annonces]**.
 
 1. Dans la page **[!UICONTROL Annonces]** qui s’affiche, cliquez sur **[!UICONTROL Supprimées]**.

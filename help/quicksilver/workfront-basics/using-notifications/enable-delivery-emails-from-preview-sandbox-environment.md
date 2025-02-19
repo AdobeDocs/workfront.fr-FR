@@ -5,10 +5,10 @@ description: Si vous souhaitez recevoir des notifications par e-mail de l’envi
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 95%
 
 ---
 
@@ -73,7 +73,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Ou
 
-   Pour plusieurs utilisateurs et utilisatrices : cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis sur **[!UICONTROL Utilisateurs et utilisatrices]** ![](assets/users-icon-in-main-menu.png).  Sélectionnez ensuite plusieurs utilisateurs et utilisatrices, et cliquez sur **[!UICONTROL Modifier]**.
+   Pour plusieurs utilisateurs : cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **[!UICONTROL Utilisateurs]** ![Icône de l’utilisateur](assets/users-icon-in-main-menu.png).  Sélectionnez ensuite plusieurs utilisateurs et utilisatrices, et cliquez sur **[!UICONTROL Modifier]**.
 
 1. Cliquez sur **[!UICONTROL Préférences]**.
 1. Sélectionnez **[!UICONTROL Recevoir des e-mails de cet environnement de test]**.

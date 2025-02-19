@@ -7,10 +7,10 @@ description: Cet article décrit comment gérer vos notifications électroniques
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '635'
+ht-degree: 95%
 
 ---
 
@@ -67,13 +67,13 @@ Pour plus d’informations sur ce tableau, consultez l’article [Conditions d�
 
 {{step1-click-profile-pic}}
 
-1. Cliquez sur l’icône **[!UICONTROL Plus]**![](assets/more-icon.png) à côté de votre nom, puis cliquez sur **[!UICONTROL Modifier]**.
+1. Cliquez sur l’icône **[!UICONTROL Plus]** ![Plus](assets/more-icon.png) en regard de votre nom, puis cliquez sur **[!UICONTROL Modifier]**.
 
 1. Dans la zone **[!UICONTROL Modifier une personne]** qui s’affiche, accédez à la section **[!UICONTROL Notifications]**.
 
 1. Cliquez sur une catégorie pour afficher les paramètres de notification associés à cette catégorie.
 
-   ![](assets/my-profile-notifications.png)
+   ![Notifications de mon profil](assets/my-profile-notifications.png)
 
 1. Cochez ou décochez les cases à droite pour recevoir ou non des notifications quotidiennement, instantanément ou les deux.
 
@@ -90,13 +90,13 @@ Pour plus d’informations sur ce tableau, consultez l’article [Conditions d�
 
 1. Si vous avez sélectionné des notifications à envoyer sous forme de synthèse quotidienne, sélectionnez l’heure de la journée à laquelle vous souhaitez la recevoir en haut de la section **[!UICONTROL Notifications]** dans le menu **[!UICONTROL Synthèse quotidienne par e-mail]**.
 
-   ![](assets/digest-time-stamp-my-settings-350x78.png)
+   ![Résumé quotidien choisissez l’heure de la journée](assets/digest-time-stamp-my-settings-350x78.png)
 
    La synthèse quotidienne comprend les événements qui répondent aux critères des notifications 24 heures avant l’heure sélectionnée. Vous recevez un une synthèse quotidienne par e-mail pour chaque type de notification.\
    La synthèse quotidienne peut arriver après l’heure sélectionnée, selon le nombre d’e-mails placés en file d’attente pour diffusion dans le système. L’heure indiquée correspond à l’heure locale spécifiée dans les paramètres du navigateur.
 
 1. (Conditionnel et facultatif) Lors de la modification des paramètres des notifications par e-mail dans l’environnement Prévisualisation, activez le paramètre **[!UICONTROL Recevoir des e-mails à partir de cet environnement de test]** pour recevoir des e-mails. Les e-mails ne sont pas générés automatiquement à partir de l’environnement de prévisualisation.
 
-   ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+   ![Recevoir des e-mails de la sandbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
