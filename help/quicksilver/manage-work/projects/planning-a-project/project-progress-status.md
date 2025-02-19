@@ -7,10 +7,10 @@ description: Adobe Workfront détermine le statut de progression d’un projet 
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Voici les statuts de progression des projets dans Workfront :
   </tr> 
   <tr> 
    <td>En danger</td> 
-   <td> Le statut de progression d’un projet est <strong>En danger</strong> si <strong>tous</strong> les éléments suivants sont vrais :<ul><li>Les dates d’achèvement estimées et projetées se situent toutes deux dans le futur.</li><li> La date d’achèvement projetée et la date d’achèvement estimée sont toutes deux postérieures à la date d’achèvement prévue.</li><li> La date d’achèvement estimée est postérieure à la date d’achèvement projetée.</li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> Le statut de progression d’un projet est <strong>En danger</strong> si <strong>tous</strong> les éléments suivants sont vrais :<ul><li>Les dates d’achèvement estimées et projetées se situent toutes deux dans le futur.</li><li> La date d'achèvement estimée est postérieure à la fois à la date d'achèvement prévue et à la date d'achèvement prévisionnelle </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
    <td>En retard</td> 

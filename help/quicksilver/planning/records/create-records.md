@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1621'
+ht-degree: 32%
 
 ---
 
@@ -256,10 +256,16 @@ Vous devez disposer des éléments suivants avant de pouvoir ajouter de nouveaux
 
 Pour créer des enregistrements au fur et à mesure que vous les connectez à partir d&#39;autres enregistrements :
 
-1. Commencez à connecter les enregistrements Workfront Planning, comme décrit dans l&#39;article [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md). Vous pouvez connecter des enregistrements à partir d&#39;un champ de connexion dans les zones suivantes de Workfront Planning :
+1. Commencez à connecter les enregistrements Workfront Planning, comme décrit dans l&#39;article [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md). Vous pouvez connecter des enregistrements à partir des zones suivantes :
 
-   * Vue Tableau
-   * Page de détails ou zone de prévisualisation d’un enregistrement
+   * Un champ de connexion dans les domaines suivants de Workfront Planning :
+
+      * Vue Tableau
+      * Page de détails ou zone de prévisualisation d’un enregistrement
+
+   * Champ de connexion de la section Planification d’un projet, d’un portfolio ou d’un programme dans Workfront.
+
+     Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 1. (Conditionnel) Si vous ne trouvez pas un enregistrement lorsque vous tentez de l’ajouter à partir du champ d’enregistrement connecté d’un autre enregistrement, recherchez un enregistrement, puis cliquez sur **+ Ajouter**. Le bouton **+ Ajouter** est suivi du nom du type d’enregistrement auquel vous vous connectez. Par exemple, « Ajouter des marques » lors de l’ajout d’une marque à une campagne existante. Le nom saisi suit également le bouton Ajouter .
 

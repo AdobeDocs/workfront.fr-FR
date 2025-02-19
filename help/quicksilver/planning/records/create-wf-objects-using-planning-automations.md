@@ -4,9 +4,9 @@ description: Vous pouvez configurer des automatisations dans Adobe Workfront Pla
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1458'
 ht-degree: 8%
 
 ---
@@ -34,7 +34,7 @@ recommendations: noDisplay, noCatalog
 
 Vous pouvez configurer des automatisations dans Adobe Workfront Planning qui, lorsqu&#39;elles sont activées, créent des objets dans Workfront ou des enregistrements dans Workfront Planning lorsqu&#39;ils sont déclenchés à partir d&#39;un enregistrement Planning. Les objets ou enregistrements créés sont automatiquement connectés aux enregistrements à partir desquels vous déclenchez l’automatisation.
 
-Vous pouvez configurer et activer l’automatisation dans la page de l’enregistrement dans Workfront Planning. L’objet connecté créé est placé dans le champ connecté du type d’enregistrement à partir duquel vous exécutez l’automatisation.
+Vous pouvez configurer et activer l’automatisation dans la page du type d’enregistrement dans Workfront Planning. L’objet connecté créé est placé dans le champ connecté du type d’enregistrement à partir duquel vous exécutez l’automatisation.
 
 Par exemple, vous pouvez créer une automatisation qui prend une campagne Workfront Planning et crée un projet dans Workfront pour suivre la progression de cette campagne. Le projet serait connecté à la campagne de planification Workfront dans le champ Projet connecté de la campagne.
 
@@ -116,8 +116,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Considérations relatives à la création d&#39;objets et d&#39;enregistrements à l&#39;aide d&#39;une automatisation
 
-* Pour les nouveaux objets Workfront, le nom du nouvel objet est identique au nom d’enregistrement à partir duquel vous l’avez créé.
-* Pour les nouveaux enregistrements Planning, vous pouvez indiquer quel champ d&#39;enregistrement d&#39;origine doit être utilisé pour déterminer le nom du nouvel enregistrement.
+* Le nouvel objet ou nom d’enregistrement est identique au nom d’enregistrement à partir duquel vous l’avez créé.
 * Les nouveaux objets ou enregistrements ne remplacent pas les objets ou enregistrements existants dans le même champ. Le déclenchement de la même automatisation plusieurs fois pour les mêmes enregistrements ajoute les nouveaux objets ou enregistrements dans le même champ connecté de l&#39;enregistrement d&#39;origine, en plus de ceux créés précédemment.
 * L’automatisation ajoute des objets supplémentaires uniquement dans les champs de type de connexion Plusieurs à plusieurs ou Un à plusieurs. Dans tous les autres cas, l’automatisation crée l’objet, mais ne le connecte pas à l’enregistrement d’origine à partir duquel l’automatisation est déclenchée.
 
@@ -227,7 +226,7 @@ La page d’informations sur l’automatisation s’ouvre.
 
 You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. The created objects or records are automatically connected to the records you are triggering the automation from. 
 
-You can configure and activate the automation in the record's page in Workfront Planning. The connected object that is created is placed in the connected field of the record type you run the automation from. 
+You can configure and activate the automation in the record type's page in Workfront Planning. The connected object that is created is placed in the connected field of the record type you run the automation from. 
 
 For example, you could create an automation that takes a Workfront Planning campaign and creates a project in Workfront to track that campaign's progress. The project would be connected to the Workfront Planning campaign in the Connected Project field on the campaign.
 
@@ -309,10 +308,10 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about creating objects and records using an automation
 
-* For new Workfront objects, the new object name is the same as the record name from which you create it. 
-* For new Planning records, you can indicate what original record field should be used to determine the new record's name. 
+* The new object or record name is the same as the record name from which you create it. 
 * New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same record adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
-* The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. 
+
+(************hide this for now: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. ***************)
 
 ## Configure an automation in Workfront Planning
 
@@ -437,7 +436,7 @@ You must configure an automation for a record type in Workfront Planning before 
 
 ## Use a Workfront Planning automation to create an object or a record
 
-1. In Workfront Planning, open the record type page that contains the automation you want to use to autoamtically create and connect records or objects. 
+1. In Workfront Planning, open the record type page that contains the automation you want to use to automatically create and connect records or objects. 
 1. Open the table view. 
 1. Select one or more records.
    

@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '3826'
-ht-degree: 83%
+source-wordcount: '3824'
+ht-degree: 84%
 
 ---
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Accès en affichage ou supérieur au type d’élément de travail pour lequel vous enregistrez du temps </p> <p>Par exemple, vous avez besoin d’un accès en affichage aux événements pour consigner le temps consacré aux événements</p> </td> 
+   <td> <p>Accès à la modification pour le type d’élément de travail pour lequel vous consignez les heures. </p> <p>Par exemple, pour consigner les heures consacrées à un problème, vous avez besoin d’un accès en modification aux problèmes.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 11%
 
 ---
 
@@ -64,6 +64,7 @@ Vous pouvez connecter des projets et des portfolios <!--<span class="preview"> a
 
 * Vue Tableau d’un type d’enregistrement
 * Page de détails ou zone de prévisualisation d’un enregistrement
+* Onglet Connexions d’un enregistrement
 
 Pour plus d&#39;informations sur la connexion des enregistrements Planning aux objets Workfront, voir [Connexion des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1475'
 ht-degree: 7%
 
 ---
@@ -69,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr>
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
    <td>
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p>
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p>
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
    </td>
 
@@ -84,20 +84,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr>
   <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Accès en affichage ou supérieur aux projets, programmes et Portfolios</p>  
+   <td> <p>Accès en affichage ou supérieur aux projets, programmes et portefeuilles</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Autorisations d’objet</p></td>
    <td>
    <p>Dans Workfront, autorisations d’affichage ou supérieures pour un projet, un portfolio ou un programme</a> </p> 
-   <p>Dans Workfront Planning, affichez les autorisations relatives à un espace de travail pour afficher tous les enregistrements connectés ou les autorisations Contribute ou supérieures relatives à un espace de travail pour connecter ou déconnecter des enregistrements</a> </p>  
+   <p>Dans Workfront Planning, affichez les autorisations relatives à un espace de travail pour afficher les enregistrements connectés ou les autorisations de niveau Contributeur ou supérieur relatives à un espace de travail pour connecter ou déconnecter des enregistrements</a> </p>  
    <p>Les administrateurs système disposent d’autorisations sur tous les espaces de travail Workfront Planning, y compris ceux qu’ils n’ont pas créés</p> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>Pour afficher la zone Planning ou la section Planning d'un objet Workfront, tous les utilisateurs, y compris les administrateurs Workfront, doivent se voir attribuer un modèle de mise en page qui inclut la zone Planning dans le menu principal et la zone Planning pour les projets, portfolios et programmes. </p> Pour plus d'informations, voir Présentation de l'accès à la planification d'Adobe <a href="/help/quicksilver/planning/access/access-overview.md"></a>. </p>  </p>  
+   <td> <p>Pour afficher la zone Planning ou la section Planning d'un objet Workfront, tous les utilisateurs, y compris les administrateurs Workfront, doivent se voir attribuer un modèle de mise en page qui inclut la zone Planning dans le menu principal et la zone Planning pour les projets, portfolios et programmes. </p> Pour plus d'informations, consultez <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l'accès à Adobe Planning</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -172,7 +172,10 @@ Les événements suivants se produisent :
    * L’enregistrement n’est plus connecté à l’objet Workfront.
    * L’objet Workfront est également supprimé du champ connecté de l’enregistrement dans Workfront Planning.
    * Les valeurs des champs de recherche Workfront liés à l&#39;enregistrement Planning sont également supprimées.
-1. Cliquez sur **Connexion** pour connecter d’autres enregistrements pour les types d’enregistrements connectés. Pour plus d’informations, consultez [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
+1. Cliquez sur **Connexion** pour connecter d’autres enregistrements pour les types d’enregistrements connectés.
+
+   Pour plus d’informations, consultez [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
+1. (Facultatif) Si vous ne parvenez pas à trouver un enregistrement à connecter et que vous souhaitez l’ajouter, cliquez sur **+ Ajouter** pour ajouter un nouvel enregistrement. Pour plus d&#39;informations, reportez-vous à la section « Créer des enregistrements en les connectant à partir d&#39;autres enregistrements » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
    Les événements suivants se produisent :
 
@@ -204,7 +207,7 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
 * Vous devez joindre un formulaire personnalisé avec un champ personnalisé de connexion Planning à un objet Workfront qui peut être connecté à partir de Workfront Planning, si vous disposez des droits d&#39;accès appropriés.
 * Les types d’enregistrements Workfront Planning doivent d’abord être connectés aux types d’objets Workfront. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Vous pouvez connecter ou déconnecter des enregistrements du champ de connexion Planning d&#39;un objet Workfront uniquement pour les objets qui peuvent avoir des connexions Workfront Planning.
-* Vous devez disposer des autorisations Contribute pour un espace de travail dans Workfront Planning afin de pouvoir connecter ou déconnecter des enregistrements du champ de connexion Planning d&#39;un objet Workfront.
+* Vous devez disposer des autorisations de niveau Contribution pour un espace de travail dans Workfront Planning afin de pouvoir connecter ou déconnecter des enregistrements du champ de connexion Planning d&#39;un objet Workfront.
 * Vous ne pouvez pas modifier un champ de connexion Planning lors de la modification en bloc d’objets Workfront.
 
 ### Gérer les connexions d&#39;enregistrement à partir du type de champ de connexion Planning
@@ -233,7 +236,7 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
    >
    >Vous ne pouvez pas ajouter d&#39;enregistrements aux champs de connexion Planning qui sont associés à des objets Workfront autres que l&#39;objet que vous avez sélectionné lors de la configuration du champ.
    >
-   >Par exemple, vous ne pouvez pas ajouter d&#39;enregistrements à un champ de connexion Planning créé pour une connexion de Portfolio à partir du formulaire personnalisé d&#39;un projet.
+   >Par exemple, vous ne pouvez pas ajouter d’enregistrements à un champ de connexion Planning créé pour une connexion Portfolio à partir du formulaire personnalisé d’un projet.
    >
    >Cela indique que l’objet du champ et l’objet que vous avez sélectionné ne correspondent pas.
    >

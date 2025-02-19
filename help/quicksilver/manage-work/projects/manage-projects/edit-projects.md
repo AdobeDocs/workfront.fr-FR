@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7703'
 ht-degree: 93%
 
 ---
@@ -169,7 +169,6 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
    * [Paramètres de la tâche](#task-settings)
    * [Paramètres du problème](#issue-settings)
    * [Accès](#access)
-   * [Dossiers liés](#linked-folders-conditional-availability) (disponibilité conditionnelle)
    * <span class="preview">[Commentaire](#comment)</span>
 
 
@@ -668,22 +667,6 @@ Pour plus d’informations sur la façon dont ces paramètres affectent la créa
    </table>
 
 1. Cliquer sur **Enregistrer**.
-
-### Dossiers liés (disponibilité conditionnelle) {#linked-folders}
-
-La fonctionnalité de dossier lié crée automatiquement des dossiers dans Adobe Experience Manager Assets et connecte ces dossiers à Workfront.
-
-Cette section n’apparaît que si toutes les conditions suivantes sont remplies :
-
-* Votre organisation a été migrée vers Adobe Admin Console.
-* Votre organisation a activé et configuré une intégration avec Adobe Experience Manager.
-* Le modèle utilisé pour créer ce projet a activé et configuré les dossiers liés.
-
-Pour plus d’informations sur la modification des dossiers liés, voir [Modifier les valeurs de workflow dans un projet](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) dans l’article [Utiliser des workflows dans l’intégration Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
->[!NOTE]
->
->Les dossiers liés étant créés lors de la création du projet, la modification du workflow des dossiers liés sur un projet existant est inefficace. La modification de ces valeurs lors de la création d’un projet fonctionne comme prévu.
 
 <div class="preview">
 
