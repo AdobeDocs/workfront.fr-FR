@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 32%
+source-wordcount: '1801'
+ht-degree: 29%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 32%
 
 # Créer des enregistrements
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -33,8 +33,7 @@ Vous pouvez créer des enregistrements en effectuant l’une des opérations sui
 * [Créer des enregistrements au fur et à mesure que vous les connectez à partir d’autres enregistrements](#create-records-as-you-connect-them)
 * [Créer des enregistrements en soumettant un formulaire de demande à un type d’enregistrement](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Créer des enregistrements lors de l’import de types d’enregistrements depuis un fichier CSV ou Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-
-<!--* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>-->
+* <span class="preview">[Création d’enregistrements à l’aide d’automatisations](#create-records-by-using-automations)</span>
 
 
 Pour plus d’informations sur la gestion des enregistrements dans les vues « Tableau » ou « Chronologie », consultez les articles suivants :
@@ -246,7 +245,7 @@ Cette section décrit comment créer des enregistrements Workfront Planning en l
 >
 >La création de projets et de portfolios Workfront lorsque vous les connectez à des enregistrements Workfront Planning est similaire à la création d&#39;enregistrements Planning lorsque vous les connectez à partir d&#39;autres enregistrements.
 >
->Pour plus d’informations sur la création d’objets Workfront à partir de Workfront Planning, voir [Création d’objets Workfront à partir de Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+>Pour plus d&#39;informations sur la création d&#39;objets Workfront à partir de Workfront Planning, consultez [Création d&#39;objets Workfront à partir de Workfront Planning lorsque vous les connectez à des enregistrements](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
 
 Vous devez disposer des éléments suivants avant de pouvoir ajouter de nouveaux enregistrements en les connectant à partir d’enregistrements existants :
 
@@ -267,7 +266,10 @@ Pour créer des enregistrements au fur et à mesure que vous les connectez à pa
 
      Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-1. (Conditionnel) Si vous ne trouvez pas un enregistrement lorsque vous tentez de l’ajouter à partir du champ d’enregistrement connecté d’un autre enregistrement, recherchez un enregistrement, puis cliquez sur **+ Ajouter**. Le bouton **+ Ajouter** est suivi du nom du type d’enregistrement auquel vous vous connectez. Par exemple, « Ajouter des marques » lors de l’ajout d’une marque à une campagne existante. Le nom saisi suit également le bouton Ajouter .
+1. (Conditionnel) Si vous ne trouvez pas un enregistrement lors de la tentative de connexion, <span class="preview">cliquez sur **+ Ajouter**</span>
+
+   Ou
+Commencez à saisir un nom, puis cliquez sur **+ Ajouter**. Le bouton **+ Ajouter** est suivi du nom du type d’enregistrement auquel vous vous connectez. Par exemple, « Ajouter des marques » lors de l’ajout d’une marque à une campagne existante. Le nom saisi suit également le bouton Ajouter .
 
    <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
@@ -275,14 +277,12 @@ Pour créer des enregistrements au fur et à mesure que vous les connectez à pa
 
    L’enregistrement est créé et ajouté au champ d’enregistrement connecté.
 
-   <!--
-    >[!IMPORTANT]
-    >
-    >* You can create only projects and portfolios in Workfront when connecting them from a record. 
-    >
-    >* You cannot create programs, groups, or companies when connecting them from a record in Workfront Planning. 
-    >
-    >* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record. -->
+   >[!IMPORTANT]
+   >
+   >* Vous ne pouvez créer que des projets, portfolios et programmes dans Workfront lors de leur connexion à partir d’un enregistrement.
+   >
+   >* Vous ne pouvez pas créer de groupes ou de sociétés lors de leur connexion à partir d&#39;un enregistrement dans Workfront Planning.
+   > 
 
 1. (Facultatif) Accédez à la vue Table du type d’enregistrement dont vous avez créé l’enregistrement. Un nouvel enregistrement s&#39;affiche dans la dernière ligne de la vue.
 1. (Facultatif) Commencez à ajouter des informations pour le nouvel enregistrement en mode Tableau
@@ -305,17 +305,16 @@ Vous pouvez importer des enregistrements lorsque vous importez des types d&#39;e
 
 Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-<!--
 <div class="preview">
 
-## Create records by using automations
+## Création d’enregistrements à l’aide d’automatisations
 
-You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+Vous pouvez configurer des automatisations dans Workfront Planning qui, une fois activées, créent des enregistrements lorsqu&#39;elles sont déclenchées à partir d&#39;un enregistrement Planning. Les enregistrements créés sont automatiquement connectés aux enregistrements à partir desquels vous déclenchez l’automatisation.
 
-You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+Vous pouvez configurer et activer l’automatisation dans la page de l’enregistrement dans Workfront Planning. L’enregistrement connecté créé est placé dans le champ connecté du type d’enregistrement à partir duquel vous exécutez l’automatisation.
 
-For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+Pour plus d’informations, voir [Création d’objets à l’aide des automatisations d’enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 </div>
 
--->
+

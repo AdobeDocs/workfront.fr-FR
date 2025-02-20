@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 83%
+source-wordcount: '142'
+ht-degree: 75%
 
 ---
 
@@ -27,7 +27,8 @@ Après avoir créé des types d’enregistrements dans Adobe Workfront Plannin
 Les articles suivants décrivent comment créer et gérer des enregistrements et leurs informations dans Adobe Workfront Planning :
 
 * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
-* [Création d’objets Workfront à partir de Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [Créer des objets Workfront à partir de Workfront Planning en les connectant à des enregistrements](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [Création d’objets à l’aide de l’automatisation des enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md)
 * [Supprimer des enregistrements](/help/quicksilver/planning/records/delete-records.md)
 * [Restaurer les enregistrements supprimés](/help/quicksilver/planning/records/restore-deleted-records.md)

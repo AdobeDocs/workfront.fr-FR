@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2956'
-ht-degree: 43%
+source-wordcount: '3082'
+ht-degree: 42%
 
 ---
 
 
 # Connect records
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -112,7 +112,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
-   <td> <p>Il n'existe aucun contrôle de niveau d'accès pour les objets Adobe Workfront Planning</p>   
+   <td> <p>Il n'existe aucun contrôle de niveau d'accès pour les objets Adobe Workfront Planning</p> 
+   <p>Autorisations d’affichage ou supérieures aux types d’objets que vous souhaitez lier à partir de Workfront.</p>   
 </td> 
   </tr> 
 <tr> 
@@ -169,7 +170,7 @@ Vous pouvez connecter des enregistrements de Workfront Planning dans les zones s
 1. (Facultatif) Ajoutez des enregistrements au type d’enregistrement que vous avez sélectionné en ajoutant une nouvelle ligne au tableau. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 1. (Conditionnel) Après avoir connecté le type d’enregistrement sélectionné à un autre type d’enregistrement, accédez au champ connecté d’un enregistrement et cliquez dans le champ ou cliquez sur **Connecter** pour ajouter un enregistrement.
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![Connecter d&#39;autres enregistrements en mode Tableau](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. Utilisez l’une des méthodes suivantes :
 
@@ -182,7 +183,13 @@ Vous pouvez connecter des enregistrements de Workfront Planning dans les zones s
    >
 
 1. (Conditionnel) Si vous avez sélectionné Un à plusieurs ou Un à un pour le type de connexion lorsque vous avez connecté les types d&#39;enregistrements, et que vous essayez de connecter un enregistrement ou un objet déjà connecté ailleurs, vous recevrez un avertissement indiquant que le connecter à nouveau le supprimera de la connexion d&#39;origine. Cliquez sur **Connecter** pour autoriser la suppression et connecter l’enregistrement, ou **Annuler** pour revenir au champ et sélectionner un autre enregistrement.
-1. (Facultatif) Si vous ne parvenez pas à trouver un enregistrement ou un objet à connecter et que vous souhaitez l’ajouter, cliquez sur **+ Ajouter** pour ajouter un nouvel enregistrement. Pour plus d&#39;informations, reportez-vous à la section « Créer des enregistrements en les connectant à partir d&#39;autres enregistrements » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+1. (Facultatif) Si vous ne trouvez pas un objet à connecter et que vous souhaitez l’ajouter, <span class="preview">cliquez sur **+ Ajouter**</span>
+
+   Ou
+
+   Commencez à saisir un nom pour l’objet, puis cliquez sur **+ Ajouter** pour le créer et l’ajouter.
+
+   Pour plus d&#39;informations, reportez-vous à la section « Créer des enregistrements en les connectant à partir d&#39;autres enregistrements » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
@@ -251,7 +258,7 @@ Après avoir établi une connexion entre un type d’enregistrement et un type d
 
 1. (Conditionnel) Après avoir connecté le type d’enregistrement sélectionné à un type d’objet Workfront, accédez au champ connecté d’un enregistrement et cliquez sur le champ ou cliquez sur **Connexion** pour ajouter des objets Workfront.
 
-   ![](assets/connect-projects-smaller-box-in-table-view.png)
+   ![Connecter des projets en mode Tableau](assets/connect-projects-smaller-box-in-table-view.png)
 
 1. Utilisez l’une des méthodes suivantes :
 
@@ -262,7 +269,11 @@ Après avoir établi une connexion entre un type d’enregistrement et un type d
    >
    >Vous pouvez ouvrir la page d&#39;un enregistrement à partir de la vue, double-cliquer sur le champ d&#39;enregistrement lié ou cliquer sur **Connecter** dans le champ pour ajouter des objets à partir du type d&#39;objet connecté.
 
-1. (Facultatif) Si vous ne parvenez pas à trouver un objet à connecter et que vous souhaitez l’ajouter, cliquez sur **+ Ajouter** pour créer et ajouter un nouveau projet ou portfolio.
+1. (Facultatif) Si vous ne trouvez pas un objet à connecter et que vous souhaitez l’ajouter, <span class="preview">cliquez sur **+ Ajouter**</span>
+
+   Ou
+
+   Commencez à saisir un nom pour l’objet, puis cliquez sur **+ Ajouter** pour créer et ajouter un nouveau projet, portfolio ou programme.
 
    Pour plus d’informations, voir [Création d’objets Workfront à partir de Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
@@ -415,7 +426,7 @@ Pour connecter des enregistrements à des ressources Experience Manager :
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page de l’enregistrement.
 1. Cliquez sur l&#39;onglet **Connexions** dans la page ou l&#39;aperçu de l&#39;enregistrement.
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![Onglet Connexions enregistré dans Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
 
    Tous les types d&#39;enregistrement ou d&#39;objet liés au type d&#39;enregistrement sélectionné s&#39;affichent sous forme de sections. Les enregistrements ou objets connectés s’affichent sous leur nom d’enregistrement ou de type d’objet sur les cartes.
 
@@ -428,7 +439,13 @@ Pour connecter des enregistrements à des ressources Experience Manager :
 1. (Facultatif) Cliquez sur la flèche pointant vers le bas à gauche d’une section pour la réduire.
 
 1. (Conditionnel) Cliquez sur **Connexion** pour ajouter d’autres enregistrements ou objets du même type.
-1. (Facultatif) Si vous ne parvenez pas à trouver un enregistrement ou un objet à connecter et que vous souhaitez l’ajouter, cliquez sur **+ Ajouter** pour ajouter un nouvel enregistrement. Pour plus d&#39;informations, reportez-vous à la section « Créer des enregistrements en les connectant à partir d&#39;autres enregistrements » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+1. (Facultatif) Si vous ne parvenez pas à trouver un enregistrement ou un objet à connecter et que vous souhaitez l’ajouter, <span class="preview">cliquez sur **+ Ajouter**</span>
+
+   Ou
+
+   Commencez à saisir un nom pour l’objet, puis cliquez sur **+ Ajouter** pour le créer et l’ajouter à l’enregistrement.
+
+   Pour plus d&#39;informations, reportez-vous à la section « Créer des enregistrements en les connectant à partir d&#39;autres enregistrements » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 1. Suivez les étapes décrites dans les sections précédentes pour connecter des enregistrements de Workfront Planning ou des objets de Workfront ou Experience Manager Assets.
 Les enregistrements et les objets sont immédiatement ajoutés.
 1. (Facultatif) Pointez sur la carte connectée d’un enregistrement ou d’un objet, puis cliquez sur l’icône **Déconnecter l’enregistrement** ![](assets/disconnect-icon-with-tooltip.png) pour le déconnecter de l’enregistrement sélectionné.

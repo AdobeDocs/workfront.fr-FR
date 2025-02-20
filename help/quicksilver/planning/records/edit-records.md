@@ -6,14 +6,13 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2007'
-ht-degree: 53%
+source-wordcount: '2156'
+ht-degree: 50%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Modifier des enregistrements
 
@@ -71,7 +70,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -296,11 +295,11 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
    Dans la vue Tableau, cliquez sur l’icône **Ouvrir les détails** ![](assets/open-details-icon-in-table-name-field.png) dans la première colonne. L’aperçu de l’enregistrement s’ouvre dans la vue.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![](assets/details-box.png) 
+   ![](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
 
@@ -321,17 +320,17 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
    Workfront enregistre automatiquement vos modifications.
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> (Facultatif) Cliquez sur le ![](assets/real-time-indicator-icon.png) **indicateur en temps réel** dans le coin supérieur droit de la zone de prévisualisation de l’enregistrement, puis activez le paramètre **Afficher les collaborateurs** pour mettre en surbrillance les champs modifiés par d’autres personnes en temps réel.
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   Les noms et avatars de tous les utilisateurs accédant à l’enregistrement en même temps s’affichent dans cette zone.
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   Lorsque le paramètre est désactivé, les avatars et les noms sont répertoriés dans la zone des indicateurs en temps réel, et les champs en cours d’édition ne sont pas mis en surbrillance. </span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. (Facultatif) Cliquez sur l’![](assets/export-icon-in-record-details-page.png) du menu **Exporter** pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 
@@ -358,8 +357,6 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
      ![](assets/contextual-menu-for-record-row.png)
 
      La page de l’enregistrement s’ouvre.
-
-     <!--update the screen shot below at preview-->
 
      ![](assets/details-page.png)
 
@@ -391,17 +388,17 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
    Workfront enregistre automatiquement vos modifications.
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> (Facultatif) Cliquez sur le ![](assets/real-time-indicator-icon.png) **indicateur en temps réel** dans le coin supérieur droit de la page de l’enregistrement, puis activez le paramètre **Afficher les collaborateurs** pour mettre en surbrillance les champs modifiés par d’autres personnes en temps réel.
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   Les noms et avatars de tous les utilisateurs accédant à l’enregistrement en même temps s’affichent dans cette zone.
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   Lorsque le paramètre est désactivé, les avatars et les noms sont répertoriés dans la zone des indicateurs en temps réel, et les champs en cours d’édition ne sont pas mis en surbrillance. </span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. (Facultatif) Cliquez sur l’![](assets/export-icon-in-record-details-page.png) du menu **Exporter** pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 

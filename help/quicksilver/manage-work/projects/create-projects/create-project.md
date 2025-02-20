@@ -6,9 +6,9 @@ description: Un projet est une grande unité de travail dans Adobe Workfront. V
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1388'
 ht-degree: 86%
 
 ---
@@ -114,7 +114,7 @@ Vous pouvez créer un projet dans Workfront à l’aide de l’une des méthodes
 
   Pour plus d’informations sur l’import de projets à l’aide de Kickstarts, consultez la section [Scénario Kickstart : préparer simplement l’import de projets et de tâches](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish d’une initiative à partir d’un scénario dans le planificateur de scénarios Adobe Workfront.
+* Publiez une initiative à partir d’un scénario dans le Planificateur de scénarios Adobe Workfront.
 
   Le planificateur de scénarios nécessite l’un des éléments suivants :
 
@@ -129,7 +129,7 @@ Vous pouvez créer un projet dans Workfront à l’aide de l’une des méthodes
 
   Pour plus d’informations sur l’accès à Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/planning/access/access-overview.md).
 
-  Pour plus d’informations sur la création de projets en les ajoutant à des enregistrements, reportez-vous à la section « Créer des projets lors de leur connexion avec des enregistrements de Workfront Planning » de l’article [Créer des objets Workfront à partir de Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  Pour plus d’informations sur la création de projets en les ajoutant à des enregistrements, reportez-vous à la section « Créer des projets lors de leur connexion avec des enregistrements de Workfront Planning » de l’article [Créer des objets Workfront à partir de Workfront Planning lorsque vous les connectez à des enregistrements](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## Conditions préalables
 

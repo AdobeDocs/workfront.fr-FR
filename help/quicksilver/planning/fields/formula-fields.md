@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 54%
+source-wordcount: '651'
+ht-degree: 52%
 
 ---
 
@@ -230,16 +230,13 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
 <code>{ID}</code>
 </p>
    </td></tr>
-  <!--
-   <tr> 
-   <td><strong>JSONELEMENT</strong> </td> 
-   <td> <p>Returns the data from JSON by the provided JSONPath. If the JSONPath doesn't exist in the JSON, an empty result will be returned. </p> <p>The expression is formatted as follows:
+  <tr> 
+   <td><strong> JSONELEMENT </strong> </td> 
+   <td> <p>Renvoie les données du fichier JSON en fonction du chemin JSONP fourni. Si le JSONPath n’existe pas dans le fichier JSON, un résultat vide est renvoyé. </p> <p>L'expression est formatée comme suit :
       <code>JSONELEMENT(JSONString, JSONPathString) </code>
    </p>
    </td></tr>
-   -->
-
-<tr> 
+  <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>Définit le fuseau horaire d’une date et d’une heure sur un fuseau horaire spécifié.</p> <p>L’expression est formatée comme suit :
 
