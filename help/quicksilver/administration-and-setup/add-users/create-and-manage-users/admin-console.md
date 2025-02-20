@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: f9dea6c80c0d681e3638c9baf36e6e511693b59c
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 90%
+source-wordcount: '1322'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ En tant qu’administrateur ou administratrice Adobe, vous pouvez créer des adm
 >
 >Nous vous recommandons d’ajouter les utilisateurs et utilisatrices qui ne sont pas en charge de l’administration système directement dans Workfront. Vous pouvez ajouter des utilisateurs et utilisatrices dans Adobe Admin Console, mais les ajouter dans Workfront permet de définir leur niveau d’accès lors de leur création, ce qui peut vous faire gagner du temps.
 
-<span class="preview">Lorsque vous apportez des modifications aux profils des utilisateurs à partir de l’Admin Console, une mise à jour est ajoutée à l’onglet Activité du système de l’utilisateur dans Workfront. La mise à jour s’affiche comme effectuée par le « Système ». Il s’agit de l’administrateur Adobe Admin Console et non de l’administrateur principal Workfront.</span>
+<span class="preview">Lorsque vous apportez des modifications aux profils des utilisateurs à partir d’Admin Console, une mise à jour est ajoutée à l’onglet Activité du système de l’utilisateur dans Workfront. La mise à jour s’affiche comme effectuée par le « Système ». Il s’agit de l’administrateur Adobe Admin Console et non de l’administrateur principal Workfront.</span>
 
 ## Conditions d’accès
 
@@ -97,6 +97,8 @@ Avant d’utiliser Admin Console pour Workfront, vous devriez recevoir un e-mail
   >[!IMPORTANT]
   >
   >N’apportez aucune modification au profil de produit lui-même.
+
+* Les administrateurs et administratrices de Adobe Admin Console peuvent configurer des règles d’affectation automatique pour automatiser le processus d’attribution de produits Adobe aux utilisateurs et utilisatrices de leur entreprise. Pour plus d’informations et d’instructions, consultez [Gestion des règles d’affectation automatique](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) dans la documentation d’Adobe.
 
 ## Accéder à la zone utilisateur et administration de votre instance de production Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
