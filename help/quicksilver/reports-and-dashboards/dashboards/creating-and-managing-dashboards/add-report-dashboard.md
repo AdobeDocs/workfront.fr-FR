@@ -6,10 +6,10 @@ description: Vous pouvez ajouter un rapport à un tableau de bord nouveau ou exi
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 100%
+source-wordcount: '345'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 <!-- Audited: 1/2025 -->
 
-Vous pouvez ajouter un rapport à un tableau de bord nouveau ou existant directement à partir d’un rapport. Vous pouvez également ajouter un rapport existant à un tableau de bord, comme décrit dans la section [Créer un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Vous pouvez ajouter un rapport à un tableau de bord nouveau ou existant directement à partir d’un rapport. Vous pouvez également ajouter un rapport existant à un tableau de bord, comme décrit dans la section [Créer un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md). Notez qu’un maximum de 25 rapports, calendriers ou pages externes peuvent être ajoutés à un seul tableau de bord.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Vous devez créer un rapport avant de pouvoir l’ajouter à un tableau de bord.
 
-Pour plus d’informations sur la création d’un rapport, voir [Créer un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Pour plus d’informations sur la création d’un rapport, voir [Créer un rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Ajouter un rapport à un tableau de bord existant
 

@@ -6,10 +6,10 @@ description: Vous pouvez créer des tableaux de bord pour accéder rapidement au
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 87%
+source-wordcount: '495'
+ht-degree: 84%
 
 ---
 
@@ -83,7 +83,7 @@ Vous pouvez ajouter des pages externes existantes à un tableau de bord ou en cr
     <tbody>
      <tr>
       <td role="rowheader"><strong>Nom</strong></td>
-      <td><p>Il s’agit du nom de votre tableau de bord.</p><p>Si vous ne spécifiez aucun nom, le nom du premier rapport du tableau de bord devient, par défaut, celui du tableau de bord.</p></td>
+      <td><p>Il s’agit du nom de votre tableau de bord. Nous vous recommandons d’utiliser uniquement des caractères UTF-8 pour éviter des problèmes de compatibilité.</p><p>Si vous ne spécifiez aucun nom, le nom du premier rapport du tableau de bord devient, par défaut, celui du tableau de bord.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Description (facultative)</strong></td>

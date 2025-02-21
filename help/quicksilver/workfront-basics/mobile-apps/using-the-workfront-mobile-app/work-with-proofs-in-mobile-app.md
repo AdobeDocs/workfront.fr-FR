@@ -1,15 +1,15 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Réviser et prendre des décisions sur les épreuves dans l’application mobile  [!DNL Adobe Workfront]
+title: 'Réviser et prendre des décisions sur les épreuves dans l’application mobile  [!DNL Adobe Workfront] '
 description: Lorsqu’une épreuve vous est assignée pour approbation, elle apparaît dans votre liste d’approbations dans l’application mobile. Vous pouvez réviser l’épreuve directement dans l’application et prendre une décision dessus.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 100%
+source-wordcount: '760'
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,10 @@ Votre accès à la révision et à l’approbation des épreuves est le même qu
 1. Sur la page Détails, sélectionnez **[!UICONTROL Accéder à l’épreuve]**.
 
    ![Tâche d’épreuve](assets/mobile-prooftask1-338x516.png)
+
+   >[!NOTE]
+   >
+   >Les épreuves vidéo ne peuvent pas être ouvertes dans l’application mobile.
 
 1. Révisez l’épreuve de document.
 1. (Facultatif) Sélectionnez l’![[!UICONTROL icône Une seule page]](assets/mobile-proofpagingicon1-25x36.png) en haut à droite du document pour basculer de la vue sur une seule page à la vue continue. Sélectionnez l’![[!UICONTROL icône Page continue]](assets/mobile-proofpagingicon2-25x25.png) pour revenir à la vue sur une seule page.

@@ -6,10 +6,10 @@ description: Vous pouvez modifier un calendrier existant en ajoutant ou en suppr
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 75%
+source-wordcount: '331'
+ht-degree: 74%
 
 ---
 
@@ -62,9 +62,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step1-to-calendars}}
 
-1. (Facultatif) Pour modifier le nom du rapport du calendrier, cliquez sur le champ [!UICONTROL nom du calendrier], puis apportez les modifications souhaitées.
+1. (Facultatif) Pour modifier le nom du rapport de calendrier, cliquez sur le champ [!UICONTROL nom du calendrier], puis apportez les modifications souhaitées. Nous vous recommandons d’utiliser uniquement des caractères UTF-8 pour éviter des problèmes de compatibilité.
+
    ![Modifier le nom du rapport](assets/titlechange-250x230.png)
-Si vous avez partagé le rapport de calendrier avec d’autres utilisateurs ou équipes, le nom de calendrier modifié est automatiquement mis à jour dans leur vue de calendrier.
+
+   Si vous avez partagé le rapport du calendrier avec d’autres utilisateurs ou utilisatrices ou d’autres équipes, le nom du calendrier modifié est automatiquement mis à jour dans la vue Calendrier.
 
 1. (Facultatif) Pour ajouter un projet au rapport de calendrier :
 
