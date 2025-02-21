@@ -6,10 +6,10 @@ description: Vous pouvez modifier les objectifs existants de n’importe quelle 
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 92%
 
 ---
 
@@ -104,9 +104,9 @@ Editing goals differs depending on what environment you use.
 ### Edit goals in the Production environment
 
 1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Edit**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Edit**.
 
-   ![](assets/edit-goal-highlighted.png)
+   ![Edit goal](assets/edit-goal-highlighted.png)
 
 1. Update the name of the goal in the **Goal** field. 
 1. Select a time period when the goal should be completed.
@@ -144,17 +144,17 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png), puis cliquez sur **Objectifs**.\
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png), puis sur **Objectifs**.\
    Une liste d’objectifs s’affiche.
 1. Cliquez sur un objectif.\
    La page de l’objectif s’affiche.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![Page d’objectif](assets/goal-page-unshimmed.png)
 
 1. Effectuez l’une des opérations suivantes pour modifier les informations relatives à l’objectif :
    * Cliquez sur les champs qui s’affichent dans l’en-tête de l’objectif pour les mettre à jour. Tous les champs de l’en-tête ne sont pas modifiables.
-   * Cliquez sur l’**icône Plus** ![](assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Modifier**.
-   * Cliquez sur **Détails sur l’objectif** dans le panneau de gauche, ensuite sur l’**icône Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit, puis sur **Tout modifier**. Commencez à mettre à jour les champs de la section Détails sur l’objectif.
+   * Cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Modifier**.
+   * Cliquez sur **Détails de l’objectif** dans le panneau de gauche, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit, puis cliquez sur **Tout modifier**. Commencez à mettre à jour les champs de la section Détails sur l’objectif.
 
      >[!IMPORTANT]
      >

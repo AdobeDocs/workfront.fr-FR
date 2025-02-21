@@ -6,10 +6,10 @@ description: Vous pouvez créer des plans dans le cadre de l’utilisation du pl
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 97%
+source-wordcount: '2434'
+ht-degree: 92%
 
 ---
 
@@ -37,14 +37,14 @@ Vous pouvez créer des plans dans le cadre de l’utilisation du [!DNL Workfront
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
+   <p>Le planificateur de scénarios n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
    <td> <p>Nouveau : Light ou supérieur</p> 
-   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td>Produit* </td> 
@@ -52,7 +52,7 @@ Vous pouvez créer des plans dans le cadre de l’utilisation du [!DNL Workfront
    <li><p>Pour les plans Workfront actuels : </p>
    <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
 
-<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
@@ -65,7 +65,7 @@ Vous pouvez créer des plans dans le cadre de l’utilisation du [!DNL Workfront
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +89,7 @@ Pour créer ou modifier un plan :
 
 Une liste des plans que vous avez créés s’affiche dans le [!DNL Workfront Scenario Planner].
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Filtrer]** ![](assets/filter-icon-34x37.png) dans le coin supérieur droit de la liste des plans, et sélectionnez l’une des options suivantes :
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Filtrer]** ![Icône Filtrer](assets/filter-icon-34x37.png) dans le coin supérieur droit de la liste des plans, puis sélectionnez l’une des options suivantes :
 
    | Filtre | Description |
    |---|---|
@@ -97,9 +97,9 @@ Une liste des plans que vous avez créés s’affiche dans le [!DNL Workfront Sc
    | [!UICONTROL Mes plans] | Affiche les plans que vous avez créés. |
    | [!UICONTROL Partagé(s) avec moi] | Affiche les plans partagés avec vous. |
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![Options de liste déroulante des filtres de plans](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Rechercher]** ![](assets/search-icon.png) pour saisir un mot-clé et retrouver rapidement un plan dans la liste.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Rechercher]** ![Icône Rechercher](assets/search-icon.png) pour saisir un mot-clé et localiser rapidement un plan dans la liste.
 
 1. Cliquez sur le nom d’un plan existant pour le modifier et passez à l’étape 7.
 
@@ -115,11 +115,11 @@ Une liste des plans que vous avez créés s’affiche dans le [!DNL Workfront Sc
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
    -->
 
-   ![](assets/new-plan-button.png)
+   ![bouton Nouveau plan](assets/new-plan-button.png)
 
    La zone [!UICONTROL Nouveau plan] s’affiche.
 
-   ![](assets/new-plan-ui-adding-a-new-plan-350x306.png)
+   ![Zone Nouveau plan](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
 1. (Le cas échéant) Lorsque vous créez un nouveau plan, indiquez les informations suivantes :
 
@@ -172,7 +172,7 @@ Une liste des plans que vous avez créés s’affiche dans le [!DNL Workfront Sc
 
 1. (Facultatif) Dans le menu déroulant de la chronologie, sélectionnez l’une des options du tableau suivant pour modifier la façon dont vous visualisez la chronologie du plan.
 
-   ![](assets/month-dropdown-with-all-options.png)
+   ![Liste déroulante Mois](assets/month-dropdown-with-all-options.png)
 
    | Option de menu déroulant | Description |
    |---|---|
@@ -183,7 +183,7 @@ Une liste des plans que vous avez créés s’affiche dans le [!DNL Workfront Sc
 1. (Facultatif) Faites défiler l’écran de gauche à droite pour afficher la durée totale du plan.
 1. (Facultatif) Cliquez sur la ligne de l’indicateur **[!UICONTROL Aujourd’hui]** pour revenir à la journée en cours.
 
-   ![](assets/today-indicator-350x160.png)
+   ![Indicateur du jour](assets/today-indicator-350x160.png)
 
 1. Cliquez sur la boîte **[!UICONTROL Fonctions]** dans l’en-tête du plan pour ajouter des fonctions qui seront disponibles pour exécuter le plan.
 
@@ -193,7 +193,7 @@ Une liste des plans que vous avez créés s’affiche dans le [!DNL Workfront Sc
    >
    >L’unité d’allocation des rôles (équivalents temps complet ou heures) que [!DNL Workfront] utilise pour ce plan s’affiche entre parenthèses dans le titre de la boîte.
 
-   ![](assets/adding-people-to-plan-350x206.png)
+   ![Ajout de personnes au plan](assets/adding-people-to-plan-350x206.png)
 
 1. Cliquez sur le champ **[!UICONTROL Commencer à saisir la fonction]** et sélectionnez un rôle dans la liste ou commencez à saisir le nom d’une fonction active.
 
@@ -239,12 +239,12 @@ Une liste des plans que vous avez créés s’affiche dans le [!DNL Workfront Sc
     </tbody> 
    </table>
 
-1. (Facultatif) Pointez sur le nom d’une fonction ou cliquez sur l’onglet après avoir mis à jour les informations relatives au rôle, puis cliquez sur l’**[!UICONTROL icône de la corbeille]** ![](assets/delete.png) pour la supprimer du plan.
+1. (Facultatif) Passez la souris sur le nom d’une fonction ou cliquez sur l’onglet après la mise à jour des informations de rôle, puis cliquez sur l’icône **[!UICONTROL corbeille]** ![icône Supprimer](assets/delete.png) pour la supprimer du plan.
 1. Cliquez sur **[!UICONTROL Distribution des fonctions]**.
 
    Le panneau de répartition des fonctions affiche tous les mois de la durée du scénario.
 
-   ![](assets/job-role-monthly-distribution-box-fte-350x144.png)
+   ![Distribution mensuelle des fonctions](assets/job-role-monthly-distribution-box-fte-350x144.png)
 
 1. Saisissez le nom d’une fonction pour l’ajouter au plan dans le **[!UICONTROL champ Commencer à saisir la fonction]**, puis cliquez sur Entrée lorsqu’elle apparaît dans la liste. Cette opération ajoute la fonction à la colonne [!UICONTROL Fonctions].
 1. Mettez à jour ou révisez les informations suivantes pour chaque mois du scénario :
@@ -334,13 +334,13 @@ Une liste des plans que vous avez créés s’affiche dans le [!DNL Workfront Sc
 
 1. Cliquez sur **[!UICONTROL Avancé]** pour voir la distribution du budget mensuel. Les budgets annuels et mensuels sont toujours des chiffres arrondis. Lorsque le montant du budget ne peut pas être distribué de manière égale entre tous les mois d’une année en raison de la présence de décimales, un indicateur **[!UICONTROL Restant]** s’affiche sous la distribution du budget annuel.
 
-   ![](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
+   ![Liens avancés et restants](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
 
 1. Ajustez manuellement les budgets mensuels pour éliminer les dépassements.
 
    Lorsque le total des montants des budgets mensuels est supérieur au budget annuel, un indicateur d’avertissement **[!UICONTROL En excès]** s’affiche sous la distribution du budget annuel. Ajustez manuellement les montants des budgets mensuels jusqu’à ce qu’ils soient égaux ou inférieurs au budget disponible pour le plan.
 
-   ![](assets/exceeding-budget-warning-on-plan-350x483.png)
+   ![Avertissement de budget dépassé](assets/exceeding-budget-warning-on-plan-350x483.png)
 
 1. Désactivez le paramètre **[!UICONTROL Inclure les coûts de main-d’œuvre]** pour exclure les coûts associés aux fonctions du calcul du coût global du plan. Les coûts fixes sont toujours pris en compte dans le coût global du plan. Ce paramètre est activé par défaut et affecte tous les scénarios du plan.
 1. Cliquez n’importe où en dehors de la zone [!UICONTROL Éléments financiers] pour la fermer. Les informations que vous avez saisies sont automatiquement enregistrées.
@@ -360,6 +360,6 @@ Une liste des plans que vous avez créés s’affiche dans le [!DNL Workfront Sc
 
    Votre plan est créé ou mis à jour.
 
-1. (Facultatif) Cliquez sur l’**[!UICONTROL icône Favoris]** ![](assets/favorites-icon-small.png) à droite du nom du plan pour ajouter le plan à votre liste de favoris.
+1. (Facultatif) Cliquez sur l’**[!UICONTROL icône Favoris]** ![icône Favoris](assets/favorites-icon-small.png) à droite du nom du plan pour ajouter le plan à votre liste de favoris.
 
 1. (Facultatif) Copiez l’URL du plan et envoyez-la à toute autre personne qui pourrait avoir besoin de le réviser ou de le mettre à jour. Cette personne doit avoir au moins l’accès [!UICONTROL Afficher] dans leur niveau d’accès pour pouvoir visualiser le plan. Elle doit avoir un accès [!UICONTROL Modifier] pour le modifier. Si elle doit consulter des données financières sur le plan, telles que des informations relatives aux budgets, aux coûts et aux taux des fonctions, elle doit également avoir accès aux [!UICONTROL Données financières] dans son niveau d’accès. Pour plus d’informations sur l’accès nécessaire pour le [!DNL Scenario Planner], voir [Accès nécessaire pour l’utilisation du  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).

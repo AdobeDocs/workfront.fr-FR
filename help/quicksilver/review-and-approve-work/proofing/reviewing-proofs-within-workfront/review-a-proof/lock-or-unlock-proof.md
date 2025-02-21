@@ -6,10 +6,10 @@ description: Vous pouvez verrouiller et déverrouiller manuellement une épreuve
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 69%
 
 ---
 
@@ -61,17 +61,17 @@ Pour verrouiller une épreuve, procédez comme suit :
 
    Ou
 
-   Afin d’ouvrir une épreuve pour une version antérieure du document, cliquez sur l’icône Plus ![](assets/more-icon.png) de cette version dans le résumé, puis sélectionnez **Ouvrir l’épreuve**.
+   Si vous souhaitez ouvrir une épreuve d’une version antérieure du document, cliquez sur l’icône Plus ![icône Plus](assets/more-icon.png) de cette version dans le Résumé, puis cliquez sur **Ouvrir l’épreuve**.
 
-   Pour plus d’informations sur le résumé, voir [Résumé de la vue d’ensemble des documents](../../../../documents/managing-documents/summary-for-documents.md).
+   Pour plus d’informations sur le résumé, voir [Vue d’ensemble du résumé des documents](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Dans le panneau de gauche, cliquez sur l’icône **Verrouiller** ![](assets/unlock-proof-icon.png).
+1. Dans le panneau de gauche, cliquez sur l’icône **cadenas** ![icône cadenas](assets/unlock-proof-icon.png).
 
-   ![](assets/lock-proof-350x277.png)
+   ![Verrouiller l&#39;épreuve](assets/lock-proof-350x277.png)
 
 ## Déverrouiller une épreuve
 
-Déverrouiller une épreuve peut s’avérer utile si vous avez besoin que l’équipe de révision ajoute des commentaires à une version antérieure d’une épreuve. (Une version antérieure est toujours verrouillée jusqu’à ce que la personne propriétaire de l’épreuve la déverrouille manuellement.) Lorsque l’équipe de révision a fini d’ajouter des commentaires à la version antérieure, vous pouvez la verrouiller à nouveau. Pour plus d’informations sur l’affichage d’une version d’épreuve antérieure, voir [Afficher des versions d’épreuve antérieures dans la visionneuse de relecture web](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md).
+Déverrouiller une épreuve peut s’avérer utile si vous avez besoin que l’équipe de révision ajoute des commentaires à une version antérieure d’une épreuve. (Une version précédente est toujours verrouillée jusqu’à ce que le propriétaire de l’épreuve la déverrouille manuellement.) Lorsque les réviseurs ont terminé d’ajouter des commentaires à la version précédente, vous pouvez la verrouiller à nouveau. Pour plus d’informations sur l’affichage d’une version d’épreuve antérieure, voir [Afficher des versions d’épreuve antérieures dans la visionneuse de relecture web](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md).
 
 Pour déverrouiller une épreuve, procédez comme suit :
 
@@ -79,10 +79,10 @@ Pour déverrouiller une épreuve, procédez comme suit :
 
    Ou
 
-   Afin d’ouvrir une épreuve pour une version antérieure du document, cliquez sur l’icône Plus ![](assets/more-icon.png) de cette version dans le résumé, puis sélectionnez **Ouvrir l’épreuve**.
+   Si vous souhaitez ouvrir une épreuve d’une version antérieure du document, cliquez sur l’icône Plus ![icône Plus](assets/more-icon.png) de cette version dans le Résumé, puis cliquez sur **Ouvrir l’épreuve**.
 
-   Pour plus d’informations sur le résumé, voir [Résumé de la vue d’ensemble des documents](../../../../documents/managing-documents/summary-for-documents.md).
+   Pour plus d’informations sur le résumé, voir [Vue d’ensemble du résumé des documents](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Dans le panneau de gauche, cliquez sur l’icône **Déverrouiller** ![](assets/unlock-proof-icon.png), puis sélectionnez **Oui, déverrouiller**.
+1. Dans le panneau de gauche, cliquez sur l’icône **Déverrouiller** ![Icône Déverrouiller](assets/unlock-proof-icon.png), puis sur **Oui, déverrouiller**.
 
-   ![](assets/copy-of-unlock-proof-350x279.png)
+   ![Déverrouiller l’épreuve](assets/copy-of-unlock-proof-350x279.png)

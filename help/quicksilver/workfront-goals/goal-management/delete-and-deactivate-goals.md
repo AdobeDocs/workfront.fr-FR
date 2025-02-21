@@ -6,10 +6,10 @@ description: Lorsque vous commencez à travailler sur un objectif et qu’il n�
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 89%
 
 ---
 
@@ -122,16 +122,16 @@ Deactivating goals differs depending on which environment you use.
    >
    >You can open goals from any sections of Workfront Goals.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Deactivate**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Deactivate**.
 
-   ![](assets/deactivate-goal-highlighted.png)
+   ![Deactivate goal](assets/deactivate-goal-highlighted.png)
 
    The goal status changes to Inactive. 
 
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Objectifs**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
 
    La liste des objectifs s’affiche.
 
@@ -146,9 +146,9 @@ Deactivating goals differs depending on which environment you use.
 
    La page de l’objectif s’ouvre.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![Page d’objectif](assets/goal-page-unshimmed.png)
 
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Désactiver**.
+1. Cliquez sur le menu **Plus** ![Icône Plus](assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Désactiver**.
 
 1. L’objectif est désactivé et son statut devient inactif.
 
@@ -179,23 +179,23 @@ Deleting  goals differs depending on which environment you use.
 
    The Goal Details panel opens on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Delete**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Delete**.
 
-   ![](assets/delete-goal-highlighted.png)
+   ![Delete goal](assets/delete-goal-highlighted.png)
 
 1. Click **Yes, delete**.
 
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Cliquez sur l’icône du menu principal ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+1. Cliquez sur l’icône du menu principal ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
 
    La liste des objectifs s’affiche.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Cliquez sur le nom d’un objectif. La page de l’objectif s’ouvre.
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Supprimer l’objectif**, puis sur **Supprimer**.
+1. Cliquez sur le menu **Plus** ![Icône Plus](assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Supprimer l’objectif** et **Supprimer**.
 
    L’objectif, ses activités et ses résultats sont également supprimés et ne peuvent pas être récupérés. Les projets associés à l’objectif ou aux objectifs enfants ne sont pas supprimés.
 

@@ -6,10 +6,10 @@ description: En tant que personne chargée de la révision, vous pouvez prévisu
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 91%
 
 ---
 
@@ -92,7 +92,7 @@ Add once functionality is added
 
    Cliquez sur **Télécharger** pour télécharger une copie locale du document sur votre appareil.
 
-1. (Facultatif) Une fois que vous avez révisé le document, vous pouvez laisser un commentaire à la personne qui a envoyé la requête dans la section **Mises à jour**. Pour plus d’informations sur les commentaires,consultez la section [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatif) Une fois que vous avez révisé le document, vous pouvez laisser un commentaire à la personne qui a envoyé la requête dans la section **Mises à jour**. Pour plus d’informations sur les commentaires, consultez la section [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Facultatif) Vous pouvez également prévisualiser ou télécharger une version spécifique du document en faisant défiler vers le bas la section **Versions** du volet « Résumé du document », puis en cliquant sur l’icône Plus ![](../assets/more-icon.png) à côté de la version que vous souhaitez réviser et en sélectionnant **Télécharger** ou **Prévisualiser**.
+1. (Facultatif) Vous pouvez également prévisualiser ou télécharger une version spécifique du document en faisant défiler l’écran vers le bas jusqu’à la section **Versions** du volet Résumé du document, puis en cliquant sur l’icône Plus ![icône Plus](../assets/more-icon.png) en regard de la version que vous souhaitez réviser et en sélectionnant **Télécharger** ou **Aperçu**.
 1. Pour enregistrer que vous avez terminé votre révision, cliquez sur **Terminer la révision**.

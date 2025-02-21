@@ -8,10 +8,10 @@ description: Vous pouvez lier les projets aux objectifs pour indiquer la progres
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 100%
+source-wordcount: '931'
+ht-degree: 94%
 
 ---
 
@@ -112,7 +112,7 @@ Vous devez disposer des éléments suivants :
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 
-  ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
+  ![Goal closed](assets/goal-closed-project-active-warning-goal-list-350x94.png)
 -->
 
 * Lorsque vous supprimez un projet associé à un objectif, celui-ci est également supprimé de l’objectif.
@@ -124,14 +124,14 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Ajouter des projets aux objectifs
 
-1. Cliquez sur **Menu principal** ![](assets/main-menu-icon.png) (version préliminaire pour Shell : ou cliquez sur **Menu principal** ![](assets/three-line-main-menu-icon.png) dans le coin supérieur gauche, s’il est disponible.), puis sur **Objectifs**.
+1. Cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) (brouillon pour Shell : ou cliquez sur les **Menu principal** ![lignes du menu principal](assets/three-line-main-menu-icon.png) dans le coin supérieur gauche, s&#39;il est disponible) , puis sur **Objectifs**.
 1. Dans la liste des objectifs, cliquez sur le nom d’un objectif pour ouvrir la page de l’objectif.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 1. Dans le menu déroulant **Nouvel indicateur de progression**, cliquez sur **Ajouter un projet existant**.
 
    La zone Ajouter des projets à un objectif s’affiche.
 1. (Facultatif) Mettez à jour la **Vue**, le **Filtre** ou le **Regroupement** en cliquant sur les icônes correspondantes dans le coin supérieur droit de la liste pour modifier l’affichage de la liste des projets.
-1. (Facultatif) Cliquez sur l’icône **Rechercher** ![](assets/search-icon.png) et commencez à saisir le nom d’un projet pour le retrouver rapidement dans la liste.
+1. (Facultatif) Cliquez sur l’icône **Rechercher** ![Icône Rechercher](assets/search-icon.png) et commencez à saisir le nom d’un projet pour le trouver rapidement dans la liste.
 1. Sélectionnez les projets que vous souhaitez ajouter à l’objectif, puis cliquez sur **Ajouter**.
 
    Les projets sélectionnés sont ajoutés à l’objectif et s’affichent dans la section Indicateurs de progression de la page de l’objectif, sous le regroupement **Projet**.

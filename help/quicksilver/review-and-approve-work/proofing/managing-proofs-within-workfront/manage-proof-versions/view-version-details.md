@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 exl-id: 360d0f4a-a78c-4c17-b4a1-6d4b811f7bb6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Dans une liste de documents, pointez sur la ligne contenant l’épreuve, puis cliquez sur **Détails du document**.
 1. En haut de la page Détails du document, cliquez sur le menu déroulant en regard du nom, puis sur le nom de la version que vous souhaitez afficher et gérer.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![Liste déroulante des versions](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Outre l’affichage des détails de la version, vous pouvez apporter des modifications à la version, telles que son nom, ses métadonnées et ses paramètres de relecture (s’il s’agit d’une épreuve de document).
 

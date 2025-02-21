@@ -6,10 +6,10 @@ description: Vous pouvez mesurer une zone dans une épreuve.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 94%
+source-wordcount: '357'
+ht-degree: 92%
 
 ---
 
@@ -60,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
 
 1. (Facultatif) Cliquez sur **Couleur du balisage de mesure** pour développer les options de couleur, puis cliquez sur une couleur et une **Opacité** faciles à voir sur votre épreuve.\
-   ![](assets/selection-color-350x330.png)
+   ![Couleur de la sélection](assets/selection-color-350x330.png)
 
    La couleur par défaut de l’outil de mesure est le rouge.
 
@@ -79,8 +79,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Faites glisser les coins ou les bords de la fenêtre de mesure pour la redimensionner.
 1. (Facultatif) Si vous avez besoin que la zone de mesure ait une taille exacte, saisissez les valeurs **Taille de la sélection**.
 1. (Facultatif) Si vous devez mesurer un certain pourcentage d’une zone, cochez la case calculer le pourcentage. Une nouvelle zone s’affiche, vous permettant de l’ajuster.\
-   ![](assets/calculate-percentage-350x230.png)
+   ![Calculer le pourcentage](assets/calculate-percentage-350x230.png)
 
-1. Cliquez sur l’icône **Mesurer une zone** en haut de la visionneuse de vérification pour ignorer l’outil lorsque vous avez terminé.
+1. Cliquez sur l’icône **Mesurer une zone** en haut de la visionneuse de relecture pour ignorer l’outil lorsque vous avez terminé.
 
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)

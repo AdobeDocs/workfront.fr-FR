@@ -6,10 +6,10 @@ description: Vous pouvez afficher les versions antérieures d’une épreuve.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 909b8924-c0f6-47a6-ba30-fbff7c2e0d55
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Dans la liste des documents, sélectionnez l’épreuve.
 1. Dans le résumé, faites défiler la section jusqu’à la vue **Toutes les versions**. Ici, vous pouvez consulter toutes les versions d’une épreuve.
 
-   ![](assets/copy-of-versions-350x173.png)
+   ![Copie des versions](assets/copy-of-versions-350x173.png)
 
 ## Prévisualiser une version antérieure d’une épreuve
 
@@ -64,7 +64,7 @@ Les fichiers qui ne peuvent pas être prévisualisés (tels que XLSX et DOC) son
 1. Accédez à la liste des documents et sélectionnez une épreuve.
 1. Dans le résumé, faites défiler l’écran jusqu’à **Versions**, cliquez sur le menu **Plus**, puis sélectionnez **Aperçu**.
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   ![Résumé des versions d’épreuve](assets/proof-versions-in-summary-350x167.png)
 
 ## Afficher une version antérieure d’une épreuve
 
@@ -74,4 +74,4 @@ Toute personne utilisant Workfront ayant accès à l’affichage d’un document
 1. Trouvez l’épreuve dont vous avez besoin.
 1. Dans le résumé, faites défiler l’écran jusqu’à **Versions**, cliquez sur le menu **Plus**, puis sélectionnez **Ouvrir l’épreuve**.
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   ![Résumé des versions d’épreuve](assets/proof-versions-in-summary-350x167.png)

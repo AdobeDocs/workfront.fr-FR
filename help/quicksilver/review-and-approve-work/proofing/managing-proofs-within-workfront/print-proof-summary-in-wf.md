@@ -6,10 +6,10 @@ description: Vous pouvez imprimer un résumé d’épreuve, l’enregistrer au f
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 99%
+source-wordcount: '772'
+ht-degree: 93%
 
 ---
 
@@ -65,7 +65,7 @@ Vous pouvez imprimer un résumé d’épreuve directement à partir de la liste 
 
    Ou
 
-   Tout en révisant l’épreuve dans la visionneuse de relecture, cliquez sur l’icône **Imprimer** ![](assets/print-icon-in-pv.png) dans la barre d’outils de gauche. (Si la barre d’outils de gauche n’est pas visible, cliquez sur l’icône Menu ![](assets/menu-icon-in-pv.png) dans le coin supérieur gauche de la visionneuse de relecture.)
+   Lors de l’affichage du BAT dans la visionneuse de BAT, cliquez sur l’icône **Imprimer** icône ![Imprimer](assets/print-icon-in-pv.png) dans la barre d’outils de gauche. (Si la barre d&#39;outils de gauche n&#39;est pas visible, cliquez sur l&#39;icône Menu ![icône Menu](assets/menu-icon-in-pv.png) dans le coin supérieur gauche de la visionneuse de relecture.)
 
 1. Utilisez l’une des options suivantes :
 
@@ -126,7 +126,7 @@ Vous pouvez exporter un résumé d’épreuve pour le contenu statique sous la f
 
 1. Cliquez sur l’icône XLS ou PDF dans le coin supérieur droit de la page.
 
-   ![](assets/xls-pdf-icons-350x136.png)
+   ![Icône XLS PDF](assets/xls-pdf-icons-350x136.png)
 
 Lorsque le fichier exporté est prêt, vous recevez un e-mail à partir duquel vous pouvez le télécharger.
 

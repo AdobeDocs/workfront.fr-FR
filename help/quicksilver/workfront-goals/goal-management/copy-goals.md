@@ -6,10 +6,10 @@ description: Vous pouvez copier des objectifs dans Objectifs Adobe Workfront po
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 100%
+source-wordcount: '800'
+ht-degree: 97%
 
 ---
 
@@ -117,7 +117,7 @@ To copy goals in the Production environment:
 
    This opens the Goal Details panel.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Copy**. 
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Copy**. 
 
 1. Update any of the following information for the copied goal:
 
@@ -177,9 +177,9 @@ To copy goals in the Production environment:
 -->
 
 
-1. Accédez à un objectif et cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Copier l’objectif**.
+1. Accédez à un objectif et cliquez sur le menu **Plus** ![Icône Plus](assets/more-icon.png), puis sur **Copier l’objectif**.
 
-   ![](assets/copy-goal-box-unshimmed.png)
+   ![Copier la zone d’objectif](assets/copy-goal-box-unshimmed.png)
 
 1. Mettez à jour les informations suivantes pour l’objectif copié :
    * **Nom de l’objectif** : nom du nouvel objectif. Le nom par défaut de l’objectif copié est « Copie de &lt;original goal> ».

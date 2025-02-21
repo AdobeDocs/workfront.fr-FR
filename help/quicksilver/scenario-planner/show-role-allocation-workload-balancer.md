@@ -6,10 +6,10 @@ description: Une fois que vous avez connecté les projets et les initiatives, vo
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 92%
+source-wordcount: '816'
+ht-degree: 86%
 
 ---
 
@@ -35,14 +35,14 @@ Pour des informations générales sur la réconciliation des ressources entre le
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
+   <p>Le planificateur de scénarios n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
    <td> <p>Nouveau : Light ou supérieur</p> 
-   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td>Produit* </td> 
@@ -50,20 +50,20 @@ Pour des informations générales sur la réconciliation des ressources entre le
    <li><p>Pour les plans Workfront actuels : </p>
    <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
 
-<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
-   <td> <p>Affichage ou accès supérieur à la console Projets.</p> </td> 
+   <td> <p>Accès en affichage ou supérieur aux projets.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Autorisations d’objet </p> </td> 
-   <td> <p> Autorisation d’affichage ou supérieure d’un projet.</p> </td> 
+   <td> <p> Autorisation Afficher ou supérieur pour un projet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -87,12 +87,12 @@ Si votre entreprise a acheté une licence [!DNL Workfront Scenario Planner], vou
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur **[!UICONTROL Mois]** pour afficher l’équilibreur de charge de travail par mois, puis sur le menu déroulant à côté d’un mois dans le journal ![](assets/drop-down-next-to-month-month-view-wb.png), et enfin sur **[!UICONTROL Plus]**.
-   * Cliquez sur l’icône **[!UICONTROL Afficher l’affectation des rôles]** ![](assets/show-role-allocation-icon.png) dans le coin supérieur droit de la barre d’outils.
+   * Cliquez sur **[!UICONTROL Mois]** pour afficher l’équilibreur de charge de travail par mois, cliquez sur le menu déroulant à côté d’un mois dans la chronologie ![Liste déroulante à côté du mois](assets/drop-down-next-to-month-month-view-wb.png), puis cliquez sur **[!UICONTROL Plus]**.
+   * Cliquez sur l’icône **[!UICONTROL Afficher l’affectation des rôles]** ![Afficher l’affectation des rôles](assets/show-role-allocation-icon.png) dans le coin supérieur droit de la barre d’outils.
 
    Le panneau [!UICONTROL Affectation des rôles] s’affiche.
 
-   ![](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![Panneau d’affectation des rôles](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -162,7 +162,7 @@ Si votre entreprise a acheté une licence [!DNL Workfront Scenario Planner], vou
 
 1. (Facultatif) Cliquez sur l’icône de liste déroulante pour développer l’un des mois dans le panneau [!UICONTROL Allocation des rôles] ou dans la chronologie de l’[!UICONTROL équilibreur de charge de travail].
 
-   ![](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![Développer le mois dans le panneau d’attribution des rôles](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    Le même type d’informations que celles affichées dans la zone [!UICONTROL Totaux des projets] s’affiche également pour chaque mois.
 

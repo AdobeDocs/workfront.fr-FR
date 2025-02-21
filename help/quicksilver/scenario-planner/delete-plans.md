@@ -6,10 +6,10 @@ description: Vous pouvez supprimer les plans que vous avez créés. Vous ne pouv
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 90%
+source-wordcount: '512'
+ht-degree: 83%
 
 ---
 
@@ -29,14 +29,14 @@ Vous pouvez supprimer les plans que vous avez créés. Vous ne pouvez pas suppri
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
+   <p>Le planificateur de scénarios n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
    <td> <p>Nouveau : Light ou supérieur</p> 
-   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td>Produit* </td> 
@@ -44,7 +44,7 @@ Vous pouvez supprimer les plans que vous avez créés. Vous ne pouvez pas suppri
    <li><p>Pour les plans Workfront actuels : </p>
    <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
 
-<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
@@ -57,7 +57,7 @@ Vous pouvez supprimer les plans que vous avez créés. Vous ne pouvez pas suppri
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +90,7 @@ Pour supprimer un plan :
 Une liste des plans s’affiche.
 
 1. Cliquez sur le nom d’un plan pour l’ouvrir.
-1. Cliquez sur le **[!UICONTROL menu Plus]** ![](assets/more-menu.png) à droite du nom du plan, puis sur **[!UICONTROL Supprimer]** > **[!UICONTROL Oui, supprimer]**.
+1. Cliquez sur le **[!UICONTROL menu Plus]** ![menu Plus](assets/more-menu.png) à droite du nom du plan, puis cliquez sur **[!UICONTROL Supprimer]** > **[!UICONTROL Oui, supprimer]**.
 
    Le plan est supprimé et vous revenez à la liste des plans.
 
@@ -114,7 +114,7 @@ Pour supprimer un scénario :
    Par défaut, c’est le scénario initial qui s’affiche.
 
 1. Cliquez sur **[!UICONTROL Comparer les scénarios]**.
-1. Dans le coin supérieur droit de la carte du scénario, cliquez sur le menu **[!UICONTROL Plus]** ![](assets/more-menu.png), puis sur **[!UICONTROL Supprimer]**.
+1. Dans le coin supérieur droit de la carte de scénario, cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/more-menu.png), puis sur **[!UICONTROL Supprimer]**.
 
    Le scénario est supprimé.
 

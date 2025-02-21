@@ -6,10 +6,10 @@ description: Vous pouvez ajouter d’autres personnes chargées de l’approbati
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 100%
+source-wordcount: '342'
+ht-degree: 94%
 
 ---
 
@@ -52,14 +52,14 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 ## Ajouter d’autres personnes chargées de l’approbation à l’approbation de documents envoyés
 
-1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur l’icône **Accueil** ![Icône Accueil](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
    >
    >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
    >
    >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur le **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
+   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
 1. Dans la zone **Liste de travail**, accédez au regroupement **Approbations que j’ai envoyées**.
 

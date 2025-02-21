@@ -6,10 +6,10 @@ description: Vous pouvez configurer les paramètres de la visionneuse de relectu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 100%
+source-wordcount: '1424'
+ht-degree: 97%
 
 ---
 
@@ -80,13 +80,13 @@ Pour configurer les paramètres de la visionneuse de relecture :
 1. Ouvrez la visionneuse de relecture web ou la visionneuse de relecture de bureau de l’une des manières suivantes :
 
    * Si vous relisez dans Adobe Workfront, accédez à une liste de documents contenant une épreuve à afficher, pointez sur le document, puis cliquez sur **Ouvrir l’épreuve**.
-   * Si vous utilisez Workfront Proof, cliquez sur l’icône **Accéder à l’épreuve** de l’épreuve dans le tableau de bord ou une liste de vues ![](assets/go-to-proof-blue-icon.png).
+   * Si vous utilisez Workfront Proof, cliquez sur l’icône **Accéder à l’épreuve** correspondant à l’épreuve dans le tableau de bord ou dans une liste Vues ![Accéder à l’épreuve](assets/go-to-proof-blue-icon.png).
 
 1. Si la barre d’outils de gauche ne s’affiche pas, cliquez sur l’icône **Menu**, située dans le coin supérieur gauche de la visionneuse de relecture web.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![Icône de menu](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. Dans la barre d’outils de gauche, cliquez sur l’icône **Paramètres** ![](assets/settings-icon-in-pv.png).
+1. Dans la barre d’outils de gauche, cliquez sur l’icône **Paramètres** ![Icône Paramètres](assets/settings-icon-in-pv.png).
 
 1. Configurez l’un des **Paramètres** suivants qui s’affichent.
 

@@ -6,9 +6,9 @@ description: Vous pouvez partager une épreuve à partir de la visionneuse de re
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1511'
 ht-degree: 98%
 
 ---
@@ -60,7 +60,7 @@ Vous pouvez partager une épreuve via une URL si la personne propriétaire a con
 
 1. Si le menu d’icône de gauche n’est pas affiché, cliquez sur l’icône **Menu** dans le coin supérieur gauche de la visionneuse de relecture.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Icône de menu](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Dans le menu des icônes de gauche de la visionneuse de relecture, cliquez sur l’icône **Partager** 
 
@@ -134,7 +134,7 @@ Si l’épreuve comporte un workflow automatisé, vous pouvez ajouter la personn
 Par défaut, les personnes que vous ajoutez à l’épreuve :
 
 * Reçoivent une notification par e-mail avec un lien vers l’épreuve.
-* Peut prendre des décisions d’approbation sur le BAT depuis la zone d’accueil, comme décrit dans la section [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+* Peut prendre des décisions d’approbation concernant l’épreuve depuis la zone d’Accueil, comme décrit dans la section [Approuver le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 * Pour pouvoir relire l’épreuve, il n’est pas nécessaire d’activer la relecture.
 
 Lorsque le workflow automatisé est activé et que vous ajoutez une personne à l’épreuve qui n’a pas la relecture d’activée dans Workfront, une nouvelle étape est créée dans le workflow automatisé. La personne que vous ajoutez est automatiquement ajoutée à cette nouvelle étape lorsqu’elle consulte l’épreuve pour la première fois. Pour plus d’informations, voir [Vue d’ensemble des workflows automatisés](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).

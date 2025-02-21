@@ -7,10 +7,10 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 97%
+source-wordcount: '1914'
+ht-degree: 94%
 
 ---
 
@@ -84,7 +84,7 @@ En plus des remarques décrites ci-dessous, nous vous recommandons de revoir les
 * Vous devez créer le projet, la tâche, le problème, le modèle ou la tâche de modèle avant que le processus d’approbation puisse y être associé.
 * Lorsque vous joignez un processus d’approbation à un élément pour un statut passé et dans lequel l’élément se trouve actuellement, le processus d’approbation n’est pas déclenché et aucune notification n’est envoyée aux personnes approbatrices.
 
-  **Exemple :** Si une tâche est à l’état Terminé et que vous joignez un processus de validation associé à l’état Terminé, la validation ne se déclenche pas.
+  **Exemple :** si une tâche a le statut Terminé et que vous joignez un processus d’approbation associé au statut Terminé, l’approbation ne se déclenche pas.
 
 * Lorsque vous joignez un processus d’approbation au premier statut d’un élément (en utilisant un modèle pour les tâches et les projets, en utilisant les paramètres de configuration de la file d’attente pour les problèmes, ou en définissant les paramètres de tâche d’un projet pour les nouvelles tâches), les processus d’approbation sont contournés si l’approbation soumise est rappelée. Dans ce cas, les personnes approbatrices ne reçoivent aucune notification.
 
@@ -92,7 +92,7 @@ En plus des remarques décrites ci-dessous, nous vous recommandons de revoir les
 
   >[!TIP]
   >
-  >Le premier statut d’une tâche ou d’un problème est Nouveau. Le premier état d’un projet est l’état sélectionné par votre administrateur Workfront dans les préférences du projet de votre système. Pour plus d’informations, voir [Configurer les préférences du projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >Le premier statut d’une tâche ou d’un problème est Nouveau. Le premier statut d’un projet est le statut sélectionné par l’administrateur Workfront dans les Préférences du projet de votre système. Pour plus d’informations, voir [Configurer les préférences du projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * L’association des processus d’approbation à un objet n’est pas enregistrée dans la zone des mises à jour de l’objet.
 * Vous ne pouvez pas associer un processus d’approbation à une tâche parent.
@@ -123,19 +123,19 @@ Pour associer un processus d’approbation globale existant à un projet, une t�
 
    Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Approbations**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Section Validations de la tâche](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
-1. ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
+1. ![Utiliser des approbations existantes ou créer une approbation à usage unique](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
    Le processus d’approbation sélectionné s’affiche.
 
 1. Développez le menu déroulant **Utiliser un existant** et sélectionnez un processus d’approbation existant.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![Menu Validations](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
    Le processus d’approbation sélectionné s’affiche.
 
-   ![](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
+   ![Validation existante jointe à la tâche](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
 
 1. Cliquer sur **Enregistrer**.
 1. (Facultatif) Cliquez sur Modifier le processus d’approbation pour modifier l’approbation existante que vous avez jointe à l’élément. La procédure d’approbation globale devient ainsi une procédure d’approbation à usage unique. Pour plus d’informations, voir la section [Modifier un processus d’approbation global pour l’utiliser sur un objet spécifique](#modify-a-global-approval-process-for-use-on-a-specific-object) dans cet article.
@@ -168,7 +168,7 @@ Pour modifier un processus d’approbation déjà attaché à un élément :
    >
    >Veillez à cliquer sur **Enregistrer** lorsque vous ajoutez l’approbation.
 
-1. Une fois la procédure d’approbation globale ajoutée, cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit de la page d’approbation. Cette action transforme la procédure d’approbation globale ou au niveau du groupe en une procédure d’approbation à usage unique.
+1. Une fois le processus d’approbation global ajouté, cliquez sur l’icône **Modifier** icône ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la page d’approbation. Cette action transforme la procédure d’approbation globale ou au niveau du groupe en une procédure d’approbation à usage unique.
 1. Apportez des modifications à la procédure d’approbation existante. Pour plus d’informations, voir la section [Associer un processus d’approbation à usage unique à un projet, une tâche, un problème, un modèle ou une tâche de modèle](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) dans cet article.
 1. Cliquez sur **Enregistrer**, puis cliquez à nouveau sur **Enregistrer** pour confirmer que vous souhaitez convertir le processus d’approbation global en un processus d’approbation à usage unique disponible uniquement pour cet objet.
 
@@ -193,11 +193,11 @@ Pour créer un processus d’approbation à usage unique :
 
    Vous devrez peut-être cliquer sur **Afficher plus** > **Approbations**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Section Validations de la tâche](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Cliquez sur **Créer une utilisation unique**.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![Menu Validations](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
 1. Effectuez les étapes à partir de l’étape 6 de la section « Créer un processus d’approbation global au niveau du système ou du groupe pour les éléments de travail » dans l’article [Créer un processus d’approbation pour les éléments de travail](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -232,12 +232,12 @@ Pour retirer ou supprimer un processus d’approbation d’un élément de trava
 
    Vous devrez peut-être cliquer sur **Afficher plus** > **Approbations**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Section Validations de la tâche](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Cliquez sur l’une des icônes suivantes dans le coin supérieur droit de la section Approbations, en fonction du type d’approbation associé à l’élément :
 
-   * **Icône Retirer** ![](assets/remove-icon---x-in-circle.png) pour les approbations globales ou au niveau du groupe.
-   * **Icône Supprimer** ![](assets/delete.png) pour les approbations à usage unique.
+   * **Icône Supprimer** Icône ![Supprimer](assets/remove-icon---x-in-circle.png) pour les approbations globales ou au niveau du groupe.
+   * **** Icône Supprimer ![Icône Supprimer](assets/delete.png) pour les validations à usage unique.
 
 1. Cliquez sur **Retirer** ou **Supprimer** pour confirmer.
 

@@ -6,10 +6,10 @@ description: Une fois que vous avez connecté les projets et les initiatives, vo
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 86%
+source-wordcount: '676'
+ht-degree: 83%
 
 ---
 
@@ -35,14 +35,14 @@ Pour obtenir des informations générales sur la réconciliation des ressources 
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
+   <p>Le planificateur de scénarios n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
    <td> <p>Nouveau : Light ou supérieur</p> 
-   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td>Produit* </td> 
@@ -50,20 +50,20 @@ Pour obtenir des informations générales sur la réconciliation des ressources 
    <li><p>Pour les plans Workfront actuels : </p>
    <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
 
-<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
-   <td> <p>Affichage ou accès supérieur à la console Projets.</p> </td> 
+   <td> <p>Accès en affichage ou supérieur aux projets.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Autorisations d’objet </p> </td> 
-   <td> <p> Autorisation d’affichage ou supérieure d’un projet.</p> </td> 
+   <td> <p> Autorisation Afficher ou supérieur pour un projet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +71,7 @@ Pour obtenir des informations générales sur la réconciliation des ressources 
 
 Si votre société a acheté une licence [!DNL Workfront Scenario Planner], vous pouvez réconcilier les allocations de ressources entre l’initiative et le projet qui y est lié dans la section [!UICONTROL Tâche] du projet.
 
-1. (Conditionnel) Un projet doit être connecté à une initiative à l’aide de l’une des méthodes décrites dans la section [Afficher l’attribution des rôles pour les projets et les initiatives dans la liste des tâches](#show-role-allocation-for-projects-and-initiatives-in-the-task-list) de cet article.
+1. (Conditionnel) Un projet doit être associé à une initiative en utilisant l’une des méthodes décrites dans la section [Afficher l’affectation de rôle pour les projets et initiatives dans la liste des tâches](#show-role-allocation-for-projects-and-initiatives-in-the-task-list) de cet article.
 
    >[!IMPORTANT]
    >
@@ -79,7 +79,7 @@ Si votre société a acheté une licence [!DNL Workfront Scenario Planner], vous
 
 1. Accédez au projet pour lequel vous souhaitez revoir l’affectation des fonctions pour le projet et l’initiative associée.
 1. Cliquez sur **[!UICONTROL Tâches]** dans le panneau de gauche.
-1. Cliquez sur l’icône **[!UICONTROL Afficher l’affectation des rôles]** ![](assets/show-role-allocation-icon.png) dans le coin supérieur droit de la barre d’outils.
+1. Cliquez sur l’icône **[!UICONTROL Afficher l’affectation des rôles]** ![Afficher l’affectation des rôles](assets/show-role-allocation-icon.png) dans le coin supérieur droit de la barre d’outils.
 
    Le panneau [!UICONTROL Affectation des rôles] s’affiche.
 

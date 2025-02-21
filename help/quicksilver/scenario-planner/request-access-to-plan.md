@@ -7,10 +7,10 @@ description: Vous pouvez demander l’accès à un plan dans le planificateur de
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 88%
+source-wordcount: '511'
+ht-degree: 86%
 
 ---
 
@@ -30,14 +30,14 @@ Vous pouvez demander l’accès à un plan sur le [!DNL Adobe Workfront Scenario
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
+   <p>Le planificateur de scénarios n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
    <td> <p>Nouveau : Light ou supérieur</p> 
-   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td>Produit* </td> 
@@ -45,7 +45,7 @@ Vous pouvez demander l’accès à un plan sur le [!DNL Adobe Workfront Scenario
    <li><p>Pour les plans Workfront actuels : </p>
    <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
 
-<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
@@ -54,7 +54,7 @@ Vous pouvez demander l’accès à un plan sur le [!DNL Adobe Workfront Scenario
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,7 +80,7 @@ Pour demander des autorisations :
 
 1. Cliquez sur un lien vers un plan.
 
-   ![](assets/request-access-to-plan-350x277.png)
+   ![Demander l’accès au plan](assets/request-access-to-plan-350x277.png)
 
 1. Dans le menu déroulant **[!UICONTROL Demander l’accès à]**, indiquez le niveau d’autorisation que vous souhaitez obtenir. Sélectionnez l’une des options suivantes :
 
@@ -98,11 +98,11 @@ Pour demander des autorisations :
    Ce qui suit se produit :
 
    * [!DNL Workfront] envoie une notification par e-mail au ou à la propriétaire du plan afin qu’il ou elle accorde les autorisations demandées.\
-     ![](assets/request-access-to-plan-email-350x156.png)
+     ![Notification électronique de demande d’accès](assets/request-access-to-plan-email-350x156.png)
 
    * Une fois que le ou la propriétaire du plan a accordé les autorisations demandées, vous recevez un e-mail indiquant que les autorisations ont été accordées si votre administrateur ou administratrice de [!DNL Workfront] a activé la notification Partage d’objet avec l’utilisateur ou l’utilisatrice dans votre système et si vous avez activé la notification par e-mail [!UICONTROL Quelqu’un partage un objet avec moi] dans votre profil.
 
-     ![](assets/access-granted-to-plan-email-350x172.png)
+     ![E-mail d’accès accordé](assets/access-granted-to-plan-email-350x172.png)
 
    * Vous pouvez également accorder des autorisations à des plans à partir de la zone [!UICONTROL Accueil] et de l’application mobile [!DNL Workfront].
 

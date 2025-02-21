@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Suppression des approbateurs ou des réviseurs d’un actif ou d’un document
+title: Supprimer des approbateurs ou des réviseurs d’une ressource ou d’un document
 description: Vous pouvez supprimer individuellement des personnes approbatrices ou des personnes réviseuses d’un document.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 89%
+source-wordcount: '516'
+ht-degree: 79%
 
 ---
 
-# Suppression des approbateurs ou des réviseurs d’un actif ou d’un document
+# Supprimer des approbateurs ou des réviseurs d’une ressource ou d’un document
 
-Vous pouvez supprimer des approbateurs ou des réviseurs individuels d’une ressource ou d’un document après leur attribution.
+Vous pouvez supprimer des approbateurs ou des réviseurs d’une ressource ou d’un document après leur affectation.
 
 >[!IMPORTANT]
 >
@@ -54,13 +54,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Suppression des approbateurs ou des réviseurs de la page Détails du document
+## Supprimer des approbateurs ou des réviseurs de la page Détails du document
 
 1. Accédez à la page du document en cliquant sur le nom du document, puis sélectionnez la version du document pour laquelle retirer une approbation dans le menu déroulant de la version. La version la plus récente est sélectionnée par défaut.
 
 1. Sélectionnez **Approbations** dans le volet de navigation de gauche.
 
-1. Survolez le nom de la personne approbatrice ou réviseuse à supprimer, puis cliquez sur l’icône **Supprimer** ![](../assets/delete.png) en regard de son nom.
+1. Passez la souris sur le nom de l’approbateur ou du réviseur que vous souhaitez supprimer, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](../assets/delete.png) qui s’affiche après leur nom.
 
    La demande d’approbation ou de révision est supprimée et la personne approbatrice reçoit une notification indiquant que son approbation n’est plus nécessaire. L’accès au partage lié à l’approbation est également supprimé.
 
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Répétez l’étape précédente pour supprimer toute personne approbatrice ou réviseuse supplémentaire.
 
-## Suppression des approbateurs ou des réviseurs du résumé du document
+## Supprimer des approbateurs ou des réviseurs du résumé du document
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 
@@ -76,7 +76,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Sélectionnez la version du document pour laquelle supprimer une personne approbatrice ou une personne réviseuse dans la liste déroulante de la version. La version la plus récente est sélectionnée par défaut.
 
-1. Faites défiler la page jusqu’à la section **Approbations** dans le volet Résumé du document. Survolez le nom de la personne approbatrice ou de la personne réviseuse à supprimer, puis cliquez sur l’icône **Supprimer** ![](../assets/delete.png) qui s’affiche après son nom.
+1. Faites défiler la page jusqu’à la section **Approbations** dans le volet Résumé du document. Passez la souris sur le nom de l’approbateur ou du réviseur que vous souhaitez supprimer, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](../assets/delete.png) qui s’affiche après leur nom.
 
    La demande d’approbation ou de révision est supprimée et la personne approbatrice reçoit une notification indiquant que son approbation n’est plus nécessaire. L’accès au partage lié à l’approbation est également supprimé.
 

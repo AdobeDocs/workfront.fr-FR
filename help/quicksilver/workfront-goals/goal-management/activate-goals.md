@@ -6,10 +6,10 @@ description: Lorsque vous créez un objectif, Objectifs Adobe Workfront l’enr
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '501'
+ht-degree: 96%
 
 ---
 
@@ -116,8 +116,8 @@ Vous pouvez activer des objectifs que vous avez créés ou un objectif pour lequ
 
 1. Accédez à un objectif que vous souhaitez activer. La page de l’objectif s’ouvre.
 
-1. Cliquez sur le menu **Plus** ![](../goal-management/assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Activer**.
+1. Cliquez sur le menu **Plus** ![icône Plus](../goal-management/assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Activer**.
 
-   ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   ![Menu Plus développé](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
    Le statut de l’objectif devient Actif. Vous pouvez désormais suivre la progression de l’objectif. Celui-ci s’affiche dans la section Enregistrer et est pris en compte dans les sections Graphiques d’Objectifs Workfront.

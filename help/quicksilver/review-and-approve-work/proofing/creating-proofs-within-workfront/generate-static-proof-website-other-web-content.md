@@ -6,10 +6,10 @@ description: Vous pouvez générer une nouvelle épreuve statique ou une nouvell
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 99%
 
 ---
 
@@ -81,7 +81,7 @@ Pour créer une épreuve statique, le site web doit être accessible publiquemen
 
    Les options de configuration de l’épreuve du site web s’affichent.
 
-   ![](assets/interactive-proof-radio-btn-area-350x199.png)
+   ![BAT interactif](assets/interactive-proof-radio-btn-area-350x199.png)
 
 1. (Facultatif) Si vous souhaitez remplacer le nom de l’épreuve de l’URL du site web par un autre, saisissez le **Nom de l’épreuve**.
 1. Assurez-vous que l’option **Capturer une copie d’écran** est sélectionnée et utilisez l’une des options suivantes :

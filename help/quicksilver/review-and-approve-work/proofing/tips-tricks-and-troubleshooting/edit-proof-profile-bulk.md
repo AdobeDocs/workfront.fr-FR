@@ -7,10 +7,10 @@ description: Découvrez comment modifier en masse le profil d’autorisation d�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 98%
 
 ---
 
@@ -63,6 +63,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >
    >En fonction de votre plan Workfront, il se peut que vous deviez activer la case à cocher **L’utilisateur ou l’utilisatrice peut générer des épreuves** pour que le menu **Profil d’autorisation d’épreuve** apparaisse.
 
-   ![](assets/proof-permission-profile-350x203.png)
+   ![Profil des autorisations d’épreuve](assets/proof-permission-profile-350x203.png)
 
 1. Cliquez sur **Enregistrer les modifications**.

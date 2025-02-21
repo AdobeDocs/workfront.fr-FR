@@ -6,10 +6,10 @@ description: Un workflow automatisé facilite la gestion du processus de révisi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 100%
+source-wordcount: '1838'
+ht-degree: 99%
 
 ---
 
@@ -139,7 +139,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
       En plus des options **Lors de la création de l’épreuve**, **À une date et une heure spécifiques**, ou **Manuellement**, vous pouvez sélectionner une option qui dépend de ce qui s’est passé à l’étape précédente :
 
-      ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![Activer les options d’étape](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. Si vous avez sélectionné une option Activer l’étape qui dépend de ce qui s’est passé à l’étape précédente, utilisez les options qui s’affichent pour configurer le paramètre d’activation.
 
@@ -149,9 +149,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Lorsque vous ajoutez des étapes au processus automatisé, un diagramme s’affiche à l’écran pour les représenter :
 
-   ![](assets/stages-diagram-350x213.png)
+   ![diagramme Étapes](assets/stages-diagram-350x213.png)
 
-1. Continuez vers [Configurer les paramètres d’e-mail de l’épreuve](#configure-email-settings-for-the-proof) ci-dessous.
+1. Passez à [Configurer les paramètres d’e-mail pour l’épreuve](#configure-email-settings-for-the-proof) ci-dessous.
 
 ## Configurer les paramètres d’e-mail de l’épreuve {#configure-email-settings-for-the-proof}
 
@@ -230,6 +230,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Une fois l’épreuve générée, cliquez sur **Ouvrir l’épreuve** pour lancer la visionneuse de relecture.
 
-   ![](assets/open-proof-350x132.png)
+   ![Ouvrir l&#39;épreuve](assets/open-proof-350x132.png)
 
    Les utilisateurs et utilisatrices qui n’ont pas la vérification activée sur leur compte peuvent toujours consulter le document et envoyer des commentaires à l’épreuve[.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

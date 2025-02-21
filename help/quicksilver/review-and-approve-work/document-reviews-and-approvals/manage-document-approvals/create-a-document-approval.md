@@ -6,10 +6,10 @@ description: Vous pouvez demander l’approbation d’un document à d’autres 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 88%
+source-wordcount: '504'
+ht-degree: 85%
 
 ---
 
@@ -58,24 +58,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Créer d’une demande de révision ou d’approbation de document à partir de la page du document
 
 1. Pointez sur le document, puis cliquez sur sélectionnez Détails du document.
-   ![](assets/doc-details.png)
+   ![ Détails du document ](assets/doc-details.png)
 
 
 1. À côté du nom du document, sélectionnez la version du document pour laquelle créer une approbation dans le menu déroulant de la version. La version la plus récente est sélectionnée par défaut.
 
 1. Cliquez sur **Approbations** dans le volet de gauche.
 
-1. (Facultatif) Définissez une date limite de validation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date limite spécifiée.
+1. (Facultatif) Définissez une date limite pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée.
 
 1. Pour ajouter un approbateur ou une approbatrice, cliquez sur **Approbateur** et commencez à saisir le nom d’un utilisateur, d’une utilisatrice ou d’une équipe.
 
 1. Pour ajouter un réviseur ou une réviseuse, cochez la case **Réviseur** et commencez à saisir le nom d’un utilisateur, d’une utilisatrice ou d’une équipe.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Ajouter un approbateur et une date limite](assets/add-approver-and-deadline.png)
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
 
-## Création d’une demande d’approbation ou de révision de document à partir du panneau Document Summary
+## Créer une demande de révision ou d’approbation de document à partir du panneau Résumé du document
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 
@@ -85,15 +85,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Faites défiler la page jusqu’à la section **Approbations** dans le volet Résumé du document, puis cliquez sur **Ajouter**.
 
-![](assets/doc-summary-add-approvers.png)
+![Ajouter des approbateurs dans le résumé du document](assets/doc-summary-add-approvers.png)
 
-1. (Facultatif) Définissez une date limite de validation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date limite spécifiée.
+1. (Facultatif) Définissez une date limite pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée.
 
 1. Pour ajouter un approbateur ou une approbatrice, cliquez sur **Approbateur** et commencez à saisir le nom d’un utilisateur, d’une utilisatrice ou d’une équipe.
 
 1. Pour ajouter un réviseur ou une réviseuse, cochez la case **Réviseur** et commencez à saisir le nom d’un utilisateur, d’une utilisatrice ou d’une équipe.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Ajouter un approbateur et une date limite](assets/add-approver-and-deadline.png)
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
 
@@ -111,5 +111,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

@@ -7,10 +7,10 @@ description: Vous pouvez définir une seule date d’échéance pour une épreuv
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Cliquez sur **Workflow de relecture**.
 1. Dans la zone de **Workflow**, sélectionnez **Aucune date d’échéance**.
 
-   ![](assets/no-deadline-basic-proof-350x70.png)
+   ![Aucune échéance](assets/no-deadline-basic-proof-350x70.png)
 
 1. Choisissez une date et spécifiez une heure, puis cliquez n’importe où sur l’écran.
 1. Choisissez si vous souhaitez informer les réviseurs et réviseuses de la nouvelle date d’échéance.

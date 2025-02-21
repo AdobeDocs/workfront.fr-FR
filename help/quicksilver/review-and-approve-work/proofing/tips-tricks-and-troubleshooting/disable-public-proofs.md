@@ -8,10 +8,10 @@ description: Vous pouvez désactiver la possibilité de partager une épreuve av
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 73f08e12-f70d-4347-8a5b-441f94d24590
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 93%
 
 ---
 
@@ -56,7 +56,7 @@ Vous devez être la personne propriétaire ou créatrice de l’épreuve, ou avo
 1. Pointez sur l’épreuve et sélectionnez **Détails du document**.
 1. Dans le panneau de gauche, cliquez sur **Paramètres de la visionneuse de relecture**, puis désactivez la case à cocher **Autoriser le partage de l’épreuve via une URL publique ou un code incorporé**.
 
-   ![](assets/proofing-viewer-settings-350x200.png)
+   ![Paramètres de la visionneuse de vérification](assets/proofing-viewer-settings-350x200.png)
 
 1. Cliquer sur **Enregistrer**.
 
@@ -64,9 +64,9 @@ Vous devez être la personne propriétaire ou créatrice de l’épreuve, ou avo
 
 Vous pouvez désactiver le paramètre Épreuve publique pour les personnes de votre instance Workfront. Pour apporter cette modification, vous devez disposer du profil d’autorisation d’épreuve de l’administrateur ou administratrice.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Relecture**.
+1. Cliquez sur l&#39;icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, puis cliquez sur **Vérification**.
 1. Cliquez sur **Paramètres du compte** près du coin supérieur droit.
 1. Cliquez sur le bouton **Utilisateurs et utilisatrices**, puis cliquez sur le nom d’un utilisateur ou d’une utilisatrice.
 1. Dans la section **Paramètres d’épreuve par défaut**, désactivez la case à cocher **Partage public**.
 
-   ![](assets/default-proof-settings--public-sharing-350x210.png)
+   ![ Partage public ](assets/default-proof-settings--public-sharing-350x210.png)

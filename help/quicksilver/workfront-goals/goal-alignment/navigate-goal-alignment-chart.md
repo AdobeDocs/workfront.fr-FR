@@ -6,10 +6,10 @@ description: Utilisez la section Alignement des objectifs pour afficher une vue 
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 100%
+source-wordcount: '937'
+ht-degree: 98%
 
 ---
 
@@ -137,11 +137,11 @@ Ou
 
    Les objectifs alignés sur d’autres objectifs affichent le nombre d’objectifs alignés sous la carte d’objectif.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![Flèche du graphique d’alignement](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. Cliquez sur l’icône **Flèche pointant vers le bas** dans un objectif pour développer et afficher les objectifs enfant.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![Flèche du graphique d’alignement](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -149,7 +149,7 @@ Ou
 
 1. (Le cas échéant) Si le filtre actuel exclut certains des objectifs qui participent à un alignement, un message d’avertissement s’affiche pour indiquer que tous les objectifs ne s’affichent pas.
 
-   ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![Objectif parent exclu](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. Cliquez sur **Les afficher** pour afficher les objectifs actuellement supprimés par le filtre.
 
@@ -158,14 +158,14 @@ Ou
    * Les objectifs connectés précédemment éliminés par le filtre s’affichent désormais dans le graphique d’alignement.
    * Le filtre dans le coin supérieur droit est souligné en jaune pour indiquer qu’il n’est actuellement pas appliqué.
 
-     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![Surbrillance du filtre jaune](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      Un lien Appliquer à nouveau le filtre s’affiche à gauche du nom du filtre.
 
 1. (Facultatif) Cliquez sur **Appliquer à nouveau le filtre** pour revenir aux résultats d’origine et afficher la hiérarchie d’objectifs.
 1. (Facultatif) Pointez sur l’indicateur de progression pour comprendre où devrait se trouver l’objectif de progression pour la journée en cours.
 
-   ![](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![Souris sur le graphique en courbes](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    Les informations suivantes s’affichent :
 

@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Approbation d’un document dans Workfront
+title: Approuver un document dans Workfront
 description: Si on vous affecte en tant que personne approbatrice à un document, il existe plusieurs façons de prendre votre décision d’approbation.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 99%
+source-wordcount: '1083'
+ht-degree: 97%
 
 ---
 
-# Approbation d’un document dans Workfront
+# Approuver un document dans Workfront
 
 Si vous êtes affecté en tant qu’approbateur ou approbatrice à un document, vous pouvez prendre votre décision d’approbation de plusieurs façons.
 
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Approuver un document à partir de l’accueil
 
-1. Cliquez sur l’icône **Accueil** ![](../assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur l’icône **Accueil** ![Icône Accueil](../assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >
    >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    >
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur le **Menu principal** ![](../assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
+   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](../assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
 1. Cliquez sur **Filtres** en haut à gauche de la page et assurez-vous de cocher **Approbations**.
 
@@ -103,7 +103,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    Si la version actuellement sélectionnée du document est en attente d’approbation par vous, les boutons de décision d’approbation s’affichent dans le coin supérieur droit de la page. Si d’autres versions du document sont en attente d’approbation par vous, le menu déroulant des versions affiche un point rouge.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Cliquez sur l’une des deux options d’approbation suivantes dans le coin supérieur droit de la page :
@@ -127,7 +127,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    Si la version actuellement sélectionnée du document est en attente de votre approbation, les boutons de décision d’approbation s’affichent dans le coin supérieur droit du volet Résumé du document ; si d’autres versions du document attendent votre approbation, le menu déroulant des versions affiche un point rouge.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Cliquez sur l’une des deux options d’approbation suivantes dans le coin supérieur droit du volet Résumé du document :

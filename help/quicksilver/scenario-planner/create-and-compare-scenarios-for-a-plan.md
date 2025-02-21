@@ -7,10 +7,10 @@ description: Lorsque vous planifiez la stratégie à long terme de votre entrepr
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 93%
+source-wordcount: '964'
+ht-degree: 91%
 
 ---
 
@@ -32,14 +32,14 @@ Lorsque vous planifiez la stratégie à long terme de votre entreprise, il y a d
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
+   <p>Le planificateur de scénarios n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
    <td> <p>Nouveau : Light ou supérieur</p> 
-   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td>Produit* </td> 
@@ -47,7 +47,7 @@ Lorsque vous planifiez la stratégie à long terme de votre entreprise, il y a d
    <li><p>Pour les plans Workfront actuels : </p>
    <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
 
-<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
@@ -61,7 +61,7 @@ Lorsque vous planifiez la stratégie à long terme de votre entreprise, il y a d
 </table>
 
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +71,7 @@ Un scénario est une copie d’un plan. Vous pouvez créer autant de scénarios 
 
 {{step1-to-scenario-planner}}
 
-1. Créez un plan ou cliquez sur le nom d&#39;un plan existant.
+1. Créez un plan ou cliquez sur le nom d’un plan existant.
 
    Pour plus d’informations sur la création de plans, voir [Créer et modifier des plans dans le  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
@@ -79,7 +79,7 @@ Un scénario est une copie d’un plan. Vous pouvez créer autant de scénarios 
 
 1. Cliquez sur la flèche pointant vers le bas en regard d’un scénario existant, puis cliquez sur l’icône **[!UICONTROL Copier]**.
 
-   ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![Copier le scénario](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    Un nouveau scénario est ainsi créé avec les mêmes informations que le scénario copié. Il est automatiquement nommé « [!UICONTROL Scénario 2] » si c’est le deuxième scénario de votre plan, « [!UICONTROL Scénario 3] » s’il s’agit du troisième, etc. Vous ne pouvez pas renommer vos scénarios. Le nombre de copies que vous pouvez effectuer n’est pas limité.
 
@@ -116,7 +116,7 @@ Après avoir créé vos scénarios, vous pouvez les comparer afin de trouver le 
 
    Tous les scénarios existants pour le plan s’affichent côte à côte, au format carte. Le scénario initial est toujours répertorié en premier et il est statique.
 
-   ![](assets/scenario-cards-overlapping-350x166.png)
+   ![Cartes de scénario](assets/scenario-cards-overlapping-350x166.png)
 
 1. (Facultatif) Faites défiler l’écran vers la droite pour afficher toutes les cartes de scénario.
 
@@ -174,7 +174,7 @@ Après avoir créé vos scénarios, vous pouvez les comparer afin de trouver le 
    >Lorsque les informations diffèrent entre le scénario initial et les scénarios supplémentaires, une flèche vers le haut ou vers le bas s’affiche en regard de la valeur modifiée pour indiquer une augmentation ou une diminution de cette valeur par rapport au scénario initial.
    >
    >
-   >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >![Flèches sur les cartes de scénario](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >Par exemple, le budget, le nombre de fonctions et le nombre d’initiatives peuvent changer d’un scénario à l’autre.
 
@@ -188,9 +188,9 @@ Après avoir créé vos scénarios, vous pouvez les comparer afin de trouver le 
 
    Cliquez sur le champ de description pour le mettre à jour, puis cliquez n’importe où à l’écran pour enregistrer vos modifications.
 
-1. (Facultatif) Cliquez sur le menu **[!UICONTROL Plus]** ![](assets/more-icon.png) pour **[!UICONTROL Copier]** ou **[!UICONTROL Supprimer]** le scénario.
+1. (Facultatif) Cliquez sur le menu **[!UICONTROL Plus]** ![icône Plus](assets/more-icon.png) pour **[!UICONTROL Copier]** ou **[!UICONTROL Supprimer]** le scénario.
 
-   ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![Copier ou supprimer un scénario](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    Lorsque vous copiez un scénario, il apparaît automatiquement sur la page de carte et est renommé selon ce modèle : « [!UICONTROL Scénario] `<next number in order>` ».
 

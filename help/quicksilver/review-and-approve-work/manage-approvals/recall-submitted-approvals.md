@@ -6,10 +6,10 @@ description: Vous pouvez rappeler l’un des objets suivants soumis à approbati
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 100%
+source-wordcount: '1251'
+ht-degree: 89%
 
 ---
 
@@ -69,14 +69,14 @@ Si vous rappelez une approbation associée au statut initial du projet, le proce
 
 Pour rappeler une approbation de projet que vous avez envoyée :
 
-1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur l’icône **Accueil** ![Icône Accueil](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
    >
    >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
    >
    >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
+   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
 1. Dans la zone **Liste de tâches**, accédez au regroupement **Approbations que j’ai envoyées**.
 
@@ -84,7 +84,7 @@ Pour rappeler une approbation de projet que vous avez envoyée :
 
    Le projet s’affiche alors à droite de la liste de travail.
 
-   ![](assets/project-pending-approval-phome-nwe-350x106.png)
+   ![Projet en attente d&#39;approbation](assets/project-pending-approval-phome-nwe-350x106.png)
 
 1. Cliquez sur **Rappeler** dans le coin supérieur droit du panneau de droite.
 
@@ -100,14 +100,14 @@ Si vous rappelez une approbation associée au statut initial de la tâche, le pr
 
 Pour rappeler une approbation de tâche que vous avez envoyée :
 
-1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur l’icône **Accueil** ![Icône Accueil](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
    >
    >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
    >
    >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
+   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
 1. Dans la zone **Liste de travail**, accédez au regroupement **Approbations que j’ai envoyées**.
 
@@ -115,7 +115,7 @@ Pour rappeler une approbation de tâche que vous avez envoyée :
 
    La tâche s’ouvre alors à droite de la liste de travail.
 
-   ![](assets/task-pending-approval-home-nwe-350x97.png)
+   ![Tâche en attente d&#39;approbation](assets/task-pending-approval-home-nwe-350x97.png)
 
 1. Cliquez sur **Rappeler** dans le coin supérieur droit du panneau de droite.
 
@@ -129,14 +129,14 @@ Si vous rappelez une approbaation associée au statut de début du problème, le
 >
 >Vous pouvez associer le premier statut d’un problème à un processus d’approbation à l’aide d’un modèle. Pour plus d’informations sur la création d’une file d’attente des demandes, voir [Créer une file d’attente des demandes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur l’icône **Accueil** ![Icône Accueil](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
    >
    >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
    >
    >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
+   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
 1. Dans la zone **Liste de travail**, accédez au regroupement **Approbaations que j’ai envoyées**.
 
@@ -144,7 +144,7 @@ Si vous rappelez une approbaation associée au statut de début du problème, le
 
    Le problème s’affiche alors à droite de la liste de travail.
 
-   ![](assets/issue-pending-approval-home-nwe-350x103.png)
+   ![Événement en attente d&#39;approbation](assets/issue-pending-approval-home-nwe-350x103.png)
 
 1. Cliquez sur **Rappeler** dans le coin supérieur droit du panneau de droite.
 
@@ -152,14 +152,14 @@ Si vous rappelez une approbaation associée au statut de début du problème, le
 
 Lorsque vous rappelez une approbation de feuille de temps, celle-ci revient au statut dans lequel elle se trouvait avant d’être soumise pour approbation.
 
-1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur l’icône **Accueil** ![Icône Accueil](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
    >
    >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
    >
    >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
+   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
 1. Dans la zone **Liste de travail**, accédez au regroupement **Approbations que j’ai envoyées**.
 
@@ -167,7 +167,7 @@ Lorsque vous rappelez une approbation de feuille de temps, celle-ci revient au s
 
    La feuille de temps s’ouvre alors à droite de la liste de travail.
 
-   ![](assets/timesheet-pending-approval-home-nwe-350x157.png)
+   ![Feuille de temps en attente d&#39;approbation](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
 1. Cliquez sur **Rappeler** dans le coin supérieur droit du panneau de droite.
 
@@ -175,14 +175,14 @@ Lorsque vous rappelez une approbation de feuille de temps, celle-ci revient au s
 
 Pour rappeler une approbation de document, vous devez supprimer manuellement une ou toutes les personnes de l’approbation.
 
-1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur l’icône **Accueil** ![Icône Accueil](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
    >
    >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
    >
    >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
+   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
 1. Dans la zone **Liste de travail**, accédez au regroupement **Approbations que j’ai envoyées**.
 
@@ -199,14 +199,14 @@ Pour rappeler une approbation de document, vous devez supprimer manuellement une
 
 ## Demandes d&#39;accès
 
-1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur l’icône **Accueil** ![Icône Accueil](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
    >
    >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
    >
    >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
+   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
 1. Dans la zone **Liste de travail**, accédez au regroupement **Approbations que j’ai envoyées**.
 
@@ -214,6 +214,6 @@ Pour rappeler une approbation de document, vous devez supprimer manuellement une
 
    L’approbation de demande d’accès s’ouvre alors à droite de la liste de travail.
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![Demande d’accès en attente d’approbation](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. Cliquez sur **Rappeler** dans le coin supérieur droit du panneau de droite.

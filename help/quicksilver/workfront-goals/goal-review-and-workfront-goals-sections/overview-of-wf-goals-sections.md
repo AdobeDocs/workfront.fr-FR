@@ -7,10 +7,10 @@ description: Vous pouvez accéder à des listes de buts ou d’objectifs individ
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 98%
+source-wordcount: '699'
+ht-degree: 97%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 98%
 >
 >* Pour la nouvelle structure de forfait et de licence :
 >
->   * Formule Workfront ultime
+>   * Le plan Ultimate Workfront
 >    
 >* Pour la structure de forfait et de licence actuelle :
 >
->   * Formule Workfront Pro ou ultérieure
+>   * Un forfait Workfront Pro ou version ultérieure
 >   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
@@ -56,7 +56,7 @@ Vous pouvez utiliser la Liste des objectifs pour passer en revue les objectifs q
 
 Pour plus d’informations sur la navigation dans la Liste des objectifs et la Gestion des objectifs, voir [Gérer les objectifs dans la Liste des objectifs d’Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/goal-list-unshimmed.png)
+![Liste d’objectifs](assets/goal-list-unshimmed.png)
 
 Utilisez la Liste des objectifs pour effectuer les opérations suivantes :
 
@@ -78,7 +78,7 @@ Vous pouvez utiliser la section Graphiques pour obtenir une vue d’ensemble de 
 
 Pour plus d’informations sur l’utilisation de la section Graphiques, voir [Examiner des graphiques pour comprendre les tendances de progression des objectifs d’Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-![](assets/graphs-section-unshimmed.png)
+![Section Graphiques](assets/graphs-section-unshimmed.png)
 
 Utilisez la section Graphiques pour effectuer les opérations suivantes :
 
@@ -97,7 +97,7 @@ Pour plus d’informations sur l’alignement des objectifs, consultez les artic
 * [Aligner les objectifs en les connectant dans Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Aligner les objectifs en convertissant les résultats et les activités en objectifs](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![](assets/goal-alignment-section-unshimmed.png)
+![Section Alignement des objectifs](assets/goal-alignment-section-unshimmed.png)
 
 Utilisez la section Alignement de l’objectif pour effectuer les opérations suivantes :
 
@@ -118,7 +118,7 @@ You can use the Pulse section to review and request updates to goals that might 
 
 For information about reviewing goals using the Pulse section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
-![](assets/pulse-section-350x141.png)
+![Pulse section](assets/pulse-section-350x141.png)
 
 Use the Pulse section to do the following:
 
@@ -149,7 +149,7 @@ You can use the Check-in section to update active goals and any results and acti
 
 For information about managing goals in the Goal List, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/check-in-section-350x143.png)
+![Check in section](assets/check-in-section-350x143.png)
 
 Use the Check-in section to do the following:
 

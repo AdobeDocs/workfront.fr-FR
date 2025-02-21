@@ -6,10 +6,10 @@ description: Les processus d’approbation offrent une flexibilité permettant d
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 78%
+source-wordcount: '802'
+ht-degree: 76%
 
 ---
 
@@ -62,9 +62,9 @@ Vous pouvez afficher ou gérer des approbations dans les zones suivantes :
 
 * Dans la zone Accueil
 
-   * Tous les projets, tâches, problèmes, feuilles de temps, documents et accès en attente de votre approbation sont affichés dans le widget Mes approbations de la zone Accueil.
-   * Les approbations que vous avez vous-même soumises s’affichent également dans le widget Mes approbations de la zone Accueil lorsque vous sélectionnez l’option de filtre Approbations que j’ai envoyées . Pour plus d’informations, voir la section [Réviser le travail que vous soumettez pour approbation dans la zone Accueil](#review-work-you-submit-for-approval-in-the-home-area) dans cet article.
-   * Les approbations sont supprimées du widget Mes approbations dans la zone Accueil lorsque le projet, la tâche ou le problème associé est marqué Résolu, En attente, Fermé ou Annulé.
+   * Tous les projets, tâches, événements, feuilles de temps, documents et accès en attente de votre approbation sont affichés dans le widget Mes approbations de la zone Accueil.
+   * Les approbations que vous avez envoyées vous-même s’affichent également dans le widget Mes approbations de la zone Accueil lorsque vous sélectionnez l’option de filtre Mes approbations envoyées . Pour plus d’informations, voir la section [Réviser le travail que vous soumettez pour approbation dans la zone Accueil](#review-work-you-submit-for-approval-in-the-home-area) dans cet article.
+   * Les approbations sont supprimées du widget Mes approbations de la zone d’Accueil lorsque le projet, la tâche ou l’événement associé est marqué comme Résolu, En attente, Fermé ou Annulé.
 
   Pour plus d’informations sur l’utilisation de la page d’accueil, voir [Commencer avec la page d’accueil](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
@@ -82,9 +82,9 @@ Vous pouvez afficher ou gérer des approbations dans les zones suivantes :
 
 ## Réviser le travail que vous soumettez pour approbation dans la zone Accueil. {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations** .
-1. (Conditionnel) Cliquez sur le menu déroulant **Filtre** , puis sélectionnez **Approbations que j&#39;ai envoyées** pour voir les approbations que vous avez envoyées.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations**.
+1. (Conditionnel) Cliquez sur le menu déroulant **Filtre**, puis sélectionnez **Approbations que j’ai envoyées** pour afficher les approbations que vous avez envoyées.
 
 
 ## Afficher le statut d’approbation d’un objet
@@ -108,11 +108,11 @@ Vous pouvez afficher le statut d’approbation d’un objet dans les sections su
 
 ### Utiliser la zone Mises à jour pour afficher le statut d’une approbation {#use-the-updates-area-to-view-an-approval-status}
 
-Lorsqu’une approbation est lancée sur un projet, une tâche ou un problème, un état s’affiche dans l’onglet **Mises à jour** de l’objet, indiquant le statut de la validation. Un nouvel état s’affiche chaque fois que l’objet passe par le processus d’approbation. Cela inclut les événements suivants :
+Lorsqu’une approbation est lancée sur un projet, une tâche ou un événement, un statut s’affiche dans l’onglet **Mises à jour** de l’objet, indiquant le statut de l’approbation. Un nouveau statut s’affiche chaque fois que l’objet passe par le processus d’approbation. Cela inclut les événements suivants :
 
 * Un processus d’approbation est lancé sur un objet. Le processus d’approbation est démarré lorsque le statut est modifié.
-* L’objet est rejeté.
-* L’objet est approuvé.
+* L’objet est rejeté
+* L’objet est approuvé
 
 >[!TIP]
 >
@@ -120,7 +120,7 @@ Lorsqu’une approbation est lancée sur un projet, une tâche ou un problème, 
 
 ### Utiliser la zone Approbations pour afficher le statut d’une approbation {#use-the-approvals-area-to-view-an-approval-status}
 
-Vous pouvez déterminer où se trouve une tâche ou un problème sur lequel vous travaillez actuellement dans le processus d’approbation. Vous pouvez voir les informations suivantes :
+Vous pouvez obtenir une visibilité sur l’emplacement où une tâche ou un événement sur lequel vous travaillez actuellement se trouve dans le processus d’approbation. Vous pouvez voir les informations suivantes :
 
 * La phase du processus d’approbation.
 * Les approbateurs et approbatrices qui l’ont déjà approuvé.
@@ -133,6 +133,6 @@ Pour voir l’état actuel d’une tâche ou d’un problème dans le processus 
 
    L’onglet Approbations affiche toutes les informations sur tous les parcours et étapes d’approbation précédents. Vous pouvez voir qui a pris une décision sur l’approbation ou si l’approbation est définie pour une équipe, une fonction, ou bien un utilisateur ou une utilisatrice.
 
-   ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
+   ![Onglet Validations développé](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
    Pour plus d’informations sur la création d’un processus d’approbation, voir [Créer un processus d’approbation pour des éléments de travail](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

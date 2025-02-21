@@ -6,10 +6,10 @@ description: Avec un workflow de base, vous pouvez créer plusieurs réviseurs e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1853'
-ht-degree: 100%
+source-wordcount: '1858'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Dans la section Type de workflow, choisissez **De base**.
 1. Indiquez les utilisateurs et utilisatrices à ajouter, puis choisissez un rôle d’épreuve.
 
-   ![](assets/new-proof---roles-350x213.png)
+   ![Nouveaux rôles de BAT](assets/new-proof---roles-350x213.png)
 
 1. Le tableau suivant répertorie chaque rôle et les droits qui lui sont associés.
 
@@ -347,6 +347,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Une fois l’épreuve générée, cliquez sur **Ouvrir l’épreuve** pour lancer la visionneuse de relecture.
 
-   ![](assets/open-proof-350x132.png)
+   ![Ouvrir l&#39;épreuve](assets/open-proof-350x132.png)
 
    Les personnes pour qui la vérification du compte n’est pas activée peuvent toujours afficher le document et effectuer des commentaires sur l’épreuve.

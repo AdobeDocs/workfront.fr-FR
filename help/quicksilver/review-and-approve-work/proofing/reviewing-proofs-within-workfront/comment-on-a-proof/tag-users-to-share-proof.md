@@ -6,10 +6,10 @@ description: Lorsque vous commentez une épreuve dans la visionneuse de relectur
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 100%
+source-wordcount: '725'
+ht-degree: 99%
 
 ---
 
@@ -83,7 +83,7 @@ Pour taguer quelqu’un et partager une épreuve dans un commentaire :
 1. Terminez le commentaire, puis cliquez sur **Publier**.
 1. (Le cas échéant) Si vous avez tagué une personne qui n’a pas encore été ajoutée à l’épreuve, indiquez un **Rôle d’épreuve** et un paramètre **Alertes par e-mail** pour chaque personne répertoriée dans la zone qui s’affiche, puis cliquez sur **Ajouter des personnes et publier un commentaire**.
 
-   ![](assets/add-people-to-proof-350x220.png)
+   ![Ajouter des personnes à l&#39;épreuve](assets/add-people-to-proof-350x220.png)
 
    Pour plus d’informations sur les rôles d’épreuve, voir . Pour plus d’informations sur les alertes par e-mail d’épreuve, consultez la section de l’article [Configurer les paramètres de notification par e-mail dans Workfront Proof](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 

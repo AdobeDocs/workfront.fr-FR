@@ -6,10 +6,10 @@ description: Gérer les commentaires sur plusieurs versions ou révisions d’un
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1734'
-ht-degree: 99%
+source-wordcount: '1737'
+ht-degree: 98%
 
 ---
 
@@ -105,7 +105,7 @@ Pour créer une version d’une épreuve, procédez comme suit :
 
    Sélectionnez la ligne où l’épreuve est répertoriée, puis cliquez sur **Ajouter** > **Version**, puis cliquez sur l’option que vous souhaitez utiliser pour ajouter la nouvelle version de l’épreuve.
 
-   ![](assets/add-new-version-350x185.png)
+   ![Ajouter une nouvelle version](assets/add-new-version-350x185.png)
 
 ## Créer une version d’une épreuve à partir de la visionneuse de relecture (Workfront Proof uniquement)
 
@@ -232,7 +232,7 @@ Si un objet ou un message personnalisé est inclus dans la version précédente 
 
   >[!NOTE]
   >
-  >Ceci n’est pas affecté par un objet/message personnalisé par défaut enregistré dans vos paramètres personnels.
+  >Aucun objet/message personnalisé par défaut enregistré dans vos paramètres personnels n’a d’incidence sur ce point.
 
 Si vous avez enregistré un objet et un message par défaut dans vos paramètres personnels, le message affiché par défaut sur la page Nouvelle version est affecté :
 

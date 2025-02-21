@@ -6,10 +6,10 @@ description: Vous pouvez afficher l’intégrité globale de vos objectifs et la
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 100%
+source-wordcount: '987'
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,7 @@ Les graphiques suivants sont disponibles dans la section Graphiques ou dans Obje
 
 ## Examiner la progression de l’objectif dans les graphiques
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -122,7 +122,7 @@ Les graphiques suivants sont disponibles dans la section Graphiques ou dans Obje
 
 1. Cliquez sur **Graphiques** dans le panneau de gauche.
 
-   ![](assets/graphs-in-left-panel.png)
+   ![Graphiques dans le panneau de gauche](assets/graphs-in-left-panel.png)
 
    La section « Graphiques » s’affiche.
 
@@ -141,7 +141,7 @@ Les graphiques suivants sont disponibles dans la section Graphiques ou dans Obje
 
 1. Consultez les informations du tableau ci-dessous lorsque vous passez en revue le graphique de l’intégrité de l’objectif.
 
-   ![](assets/gauge-graph-wf-align-350x230.png)
+   ![Graphique de jauge](assets/gauge-graph-wf-align-350x230.png)
 
    | Nombre total d’objectifs | Le nombre au bas du graphique indique le nombre de tous les objectifs de la période sélectionnée, dans tous les statuts que vous avez sélectionnés. |
    |---|---|
@@ -151,7 +151,7 @@ Les graphiques suivants sont disponibles dans la section Graphiques ou dans Obje
 
 1. Consultez les informations du tableau ci-dessous lorsque vous passez en revue le graphique de progression de l’objectif.
 
-   ![](assets/line-graph-wf-align-350x161.png)
+   ![Graphique linéaire](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

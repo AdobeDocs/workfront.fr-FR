@@ -6,10 +6,10 @@ description: Vous pouvez télécharger une seule version ou toutes les versions 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: eb61cc0b-b402-48db-aa88-9a1dea3180d6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 86%
 
 ---
 
@@ -53,9 +53,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Télécharger une seule version d’une épreuve
 
 1. Dans la liste des documents, cliquez sur l’épreuve.
-1. Dans le résumé, sous **Versions**, cliquez sur le menu Plus ![](assets/more-icon.png) à droite de la version, puis cliquez sur **Télécharger** dans la liste déroulante qui s’affiche.
+1. Dans le résumé, sous **Versions**, cliquez sur le menu Plus ![icône Plus](assets/more-icon.png) à droite de la version, puis cliquez sur **Télécharger** dans la liste déroulante qui s’affiche.
 
-   ![](assets/more-versions-350x143.png)
+   ![Télécharger une version](assets/more-versions-350x143.png)
 
 ## Télécharger toutes les versions d’une épreuve
 

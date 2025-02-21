@@ -6,10 +6,10 @@ description: Au cours du processus de révision et d’approbation, vous pouvez 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 98%
 
 ---
 
@@ -61,15 +61,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Recherchez le document de l’épreuve qui contient les utilisateurs et utilisatrices à qui vous voulez envoyer un message.
 1. Pointez sur le document, puis cliquez sur **Workflow de relecture**.
 
-   ![](assets/proof-workflow-doc-list-350x92.png)
+   ![Workflow de vérification](assets/proof-workflow-doc-list-350x92.png)
 
 1. Pour envoyer un message à l’ensemble des utilisateurs et utilisatrices de l’étape, cliquez sur le menu **Plus** sur l’étape et choisissez **Envoyer un message à tous**.
 
-   ![](assets/message-stage-350x122.png)
+   ![ Message sur l’étape ](assets/message-stage-350x122.png)
 
 1. Pour envoyer un message à une personne en particulier, cliquez sur le menu **Plus** à côté de la personne et choisissez **Envoyer un message**.
 
-   ![](assets/message-user-350x121.png)
+   ![Utilisateur du message](assets/message-user-350x121.png)
 
 1. Dans la section **Détails du message**, spécifiez les informations suivantes :
 

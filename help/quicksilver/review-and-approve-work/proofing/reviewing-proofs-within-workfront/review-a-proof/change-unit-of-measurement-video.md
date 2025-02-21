@@ -6,10 +6,10 @@ description: Vous pouvez ajuster l’unité de mesure utilisée dans la chronolo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 553c7cea-6d92-438e-a76e-639daa020ac5
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 99%
 
 ---
 
@@ -57,7 +57,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Dans le coin inférieur gauche de la visionneuse de relecture, cliquez sur l’unité de mesure actuelle.
 
-   ![](assets/phq-viewer-video-timeline.png)
+   ![Chronologie vidéo](assets/phq-viewer-video-timeline.png)
 
 1. Sélectionnez l’une des options suivantes :
 

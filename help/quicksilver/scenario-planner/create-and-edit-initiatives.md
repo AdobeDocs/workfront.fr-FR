@@ -6,10 +6,10 @@ description: Lorsque vous utilisez le planificateur de scénarios Adobe Workfro
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 96%
+source-wordcount: '1637'
+ht-degree: 95%
 
 ---
 
@@ -31,14 +31,14 @@ Lors de l’utilisation du [!UICONTROL planificateur de scénarios Adobe Workfr
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
+   <p>Le planificateur de scénarios n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
    <td> <p>Nouveau : Light ou supérieur</p> 
-   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td>Produit* </td> 
@@ -46,7 +46,7 @@ Lors de l’utilisation du [!UICONTROL planificateur de scénarios Adobe Workfr
    <li><p>Pour les plans Workfront actuels : </p>
    <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
 
-<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
@@ -59,7 +59,7 @@ Lors de l’utilisation du [!UICONTROL planificateur de scénarios Adobe Workfr
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,7 +102,7 @@ Pour créer des initiatives à partir de zéro :
 1. (Facultatif) Faites glisser la fin de la barre d’initiative pour prolonger sa durée au-delà d’un mois et relâchez-la là où vous souhaitez que le mois de fin de l’initiative se situe.
 1. (Facultatif et le cas échéant) Si la durée de l’initiative est inférieure à celle du plan, faites glisser et déposez la barre d’initiative à une autre position dans la chronologie du plan, pour la déplacer vers une autre période.
 
-   ![](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![Déplacer l’initiative selon le calendrier](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -120,7 +120,7 @@ Pour créer des initiatives à partir de zéro :
 1. (Facultatif) Faites défiler la page de gauche à droite pour afficher toute la durée de l’initiative.
 1. (Facultatif) Cliquez sur la ligne de l’indicateur **[!UICONTROL Aujourd’hui]** pour revenir à la date actuelle.
 
-   ![](assets/today-indicator-350x160.png)
+   ![Indicateur du jour](assets/today-indicator-350x160.png)
 
    >[!TIP]
    >
@@ -128,7 +128,7 @@ Pour créer des initiatives à partir de zéro :
 
 1. Cliquez sur la barre d’une initiative. Le panneau Détails de l’initiative s’ouvre à droite.
 
-   ![](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![Panneau Détails de l’initiative](assets/initiative-details-panel-multiple-months-350x626.png)
 
    Spécifiez ou passez en revue les informations suivantes :
 
@@ -197,7 +197,7 @@ Pour créer des initiatives à partir de zéro :
    >
    >Si vous avez déjà défini le nombre de fonctions et le budget pour votre plan, le nombre de fonctions et les coûts de l’initiative que vous modifiez, ainsi que de toutes les initiatives qui y sont supérieures, et qu’elles dépassent toutes les sommes spécifiées pour le plan, il se peut que [!DNL Workfront] trouve que vous ne disposez pas des ressources suffisantes pour terminer l’initiative. [!DNL Workfront] indique qu’il s’agit d’un conflit lors de la tentative de réalisation de cette initiative et il l’affiche comme une barre rouge. Toutes les initiatives qui suivent l’initiative conflictuelle s’affichent sur un fond rouge. Vous devrez peut-être ajuster certains besoins de vos initiatives, en commençant par la première disposant de ressources insuffisantes. Pour plus d’informations sur l’ajustement des initiatives en conflit, voir [Résoudre les conflits d’initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
-1. (Facultatif) Pointez sur le nom d’une fonction, puis cliquez sur l’**[!UICONTROL icône de corbeille]** ![](assets/delete.png) pour la supprimer de l’initiative.
+1. (Facultatif) Passez la souris sur le nom d’une fonction, puis cliquez sur l’**[!UICONTROL icône de corbeille]** ![icône de suppression](assets/delete.png) pour la supprimer de l’initiative.
 
 1. (Le cas échéant) Si vous avez apporté des modifications à l’initiative, cliquez sur **[!UICONTROL Appliquer]**.
 

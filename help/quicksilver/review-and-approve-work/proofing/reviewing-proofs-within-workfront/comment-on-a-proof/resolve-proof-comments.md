@@ -6,10 +6,10 @@ description: Vous pouvez marquer les commentaires comme résolus une fois qu’i
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '371'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Sélectionnez le commentaire.
 1. Cliquez sur l’icône en forme de coche en bas à droite du commentaire. Une coche verte apparaît en haut à gauche du commentaire, et un libellé et un message « Thread résolu » s’affichent en dessous. La personne qui a envoyé le commentaire reçoit une notification par e-mail lui indiquant que le commentaire a été résolu.
 
-   ![](assets/resolve-comment-350x247.png)
+   ![Résoudre le commentaire](assets/resolve-comment-350x247.png)
 
 ## Rouvrir un commentaire résolu
 
@@ -74,4 +74,4 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Sélectionnez le commentaire.
 1. Cliquez sur l’icône en forme de coche verte en bas à droite du commentaire (à droite du bouton **Répondre**). La coche située en haut à gauche du commentaire disparaît et un libellé et un message « Thread rouvert » apparaissent en dessous. La personne qui a envoyé le commentaire reçoit une notification par e-mail l’informant que le commentaire a été rouvert.
 
-   ![](assets/reopen-resolved-comment-350x334.png)
+   ![Rouvrir le commentaire résolu](assets/reopen-resolved-comment-350x334.png)

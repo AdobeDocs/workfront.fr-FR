@@ -6,10 +6,10 @@ description: Vous pouvez demander l’approbation d’un document à des respons
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 9a32fcc876efd5d5250b515c1c285f5375615510
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '582'
+ht-degree: 99%
 
 ---
 
@@ -72,7 +72,7 @@ Les décisions d’approbation des documents ne sont pas automatiquement réinit
 
 1. Faites défiler la page jusqu’à la section **Approbations** dans le résumé, cliquez sur l’icône Plus, puis sur Soumettre à nouveau.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Envoyer à nouveau la validation](assets/nwe-resubmit-approval-350x149.png)
 
 ## Supprimer une demande d’approbation de document
 

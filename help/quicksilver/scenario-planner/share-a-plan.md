@@ -7,10 +7,10 @@ description: Vous pouvez partager un plan que vous avez créé dans le planifica
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 93%
+source-wordcount: '913'
+ht-degree: 90%
 
 ---
 
@@ -36,14 +36,14 @@ Vous pouvez partager un plan dans le [!DNL Adobe Workfront Scenario Planner] ave
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
+   <p>Le planificateur de scénarios n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
    <td> <p>Nouveau : Light ou supérieur</p> 
-   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td>Produit* </td> 
@@ -51,7 +51,7 @@ Vous pouvez partager un plan dans le [!DNL Adobe Workfront Scenario Planner] ave
    <li><p>Pour les plans Workfront actuels : </p>
    <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
 
-<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
@@ -64,7 +64,7 @@ Vous pouvez partager un plan dans le [!DNL Adobe Workfront Scenario Planner] ave
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -186,7 +186,7 @@ Pour plus d’informations sur les autorisations de projet, voir [Partager un pr
    >
    >Vous pouvez partager un plan en cliquant sur les avatars des personnes avec lesquelles le plan est partagé dans le coin supérieur droit de l’en-tête du plan.
 
-1. (Le cas échéant) Si vous avez ouvert un plan, cliquez sur l’icône **[!UICONTROL Plus]** ![](assets/more-icon.png) à droite du nom du [!UICONTROL Plan], puis cliquez sur **[!UICONTROL Partager]**,
+1. (Conditionnel) Si vous avez ouvert un plan, cliquez sur l’icône **[!UICONTROL Plus]** ![Icône Plus](assets/more-icon.png) située à droite du nom [!UICONTROL Plan], puis cliquez sur **[!UICONTROL Partager]**
 
    Ou
 

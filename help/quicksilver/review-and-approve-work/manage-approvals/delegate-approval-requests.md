@@ -6,16 +6,16 @@ description: La délégation des demandes d’approbation vous permet de confier
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 83%
+source-wordcount: '1209'
+ht-degree: 79%
 
 ---
 
 # Déléguer une demande d’approbation
 
-Vous pouvez déléguer temporairement le travail qui vous est confié pendant que vous n’êtes pas au bureau. Vous pouvez déléguer des tâches et des affectations d’émission, ou déléguer des demandes d’approbation. Cet article décrit comment déléguer des demandes d’approbation. Pour plus d’informations sur la délégation des tâches et des affectations de problèmes, voir [Délégation de tâches et de problèmes](../../manage-work/delegate-work/how-to-delegate-work.md).
+Vous pouvez déléguer temporairement le travail qui vous est confié pendant que vous n’êtes pas au bureau. Vous pouvez déléguer des affectations de tâches et d&#39;événements, ou vous pouvez déléguer des demandes d&#39;approbation. Cet article décrit comment déléguer des demandes d’approbation. Pour plus d&#39;informations sur la délégation des affectations de tâches et d&#39;événements, voir [Déléguer des tâches et des événements](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 Vous pouvez déléguer les types d’approbations suivants, quelle que soit la manière dont l’approbation vous a été affectée (directement, à une équipe dont vous êtes membre ou à votre fonction) :
 
@@ -56,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour connaître le plan ou le type de licence dont vous disposez, contactez votre administrateur Workfront.
+Pour connaître le type de licence ou de plan dont vous disposez, contactez votre administrateur Workfront.
 
 +++
 
@@ -99,20 +99,20 @@ Tenez compte des éléments suivants lorsque vous déléguez des approbations :
 * Au maximum 5 personnes peuvent déléguer des approbations à une même personne en même temps. Ainsi, une même personne ne peut pas être désignée comme approbatrice temporaire pour plus de 5 personnes en même temps.
 * L’activité relative aux approbations s’affiche dans l’onglet Mises à jour. L’option Afficher les mises à jour système doit être activée. La personne qui délègue l’approbation et la personne à laquelle les approbations sont déléguées reçoivent toutes deux une notification par e-mail concernant l’activité d’approbation.
 
-### Déléguer les validations depuis la zone d’accueil
+### Déléguer les approbations à partir de la zone d’Accueil
 
 
 Pour déléguer des approbations à une autre personne, procédez comme suit :
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations** .
-1. Accédez au widget Mes approbations , puis cliquez sur **Déléguer mes approbations**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations**.
+1. Accédez au widget Mes approbations, puis cliquez sur **Déléguer mes approbations**.
 
    >[!NOTE]
    >
-   >Les administrateurs de Workfront peuvent désactiver les délégations d’approbation dans la zone de configuration. Si les délégations de validation sont désactivées, le bouton Déléguer les validations ne s’affiche pas.
+   >Les administrateurs Workfront peuvent désactiver les délégations d’approbation dans la zone de configuration. Si les délégations d&#39;approbation sont désactivées, le bouton Déléguer les approbations ne s&#39;affiche pas.
 
-   ![](assets/delegate-approvals-home.png)
+   ![Déléguer les approbations dans l’accueil](assets/delegate-approvals-home.png)
 
 1. Spécifiez les informations suivantes dans la section Déléguer mes approbations :
 
@@ -125,14 +125,14 @@ Pour déléguer des approbations à une autre personne, procédez comme suit :
 
 1. Cliquer sur **Enregistrer**.
 
-### Délégation des approbations à partir de votre profil utilisateur
+### Déléguer les approbations à partir de votre profil utilisateur
 
 1. Cliquez sur l’icône **Menu principal** > **votre nom** > **Congés** dans le panneau de gauche.
 1. Cliquez sur **Déléguer les approbations**.
 
    >[!NOTE]
    >
-   >Les administrateurs de Workfront peuvent désactiver les délégations d’approbation dans la zone de configuration. Si les délégations de validation sont désactivées, le bouton Déléguer les validations ne s’affiche pas.
+   >Les administrateurs Workfront peuvent désactiver les délégations d’approbation dans la zone de configuration. Si les délégations d&#39;approbation sont désactivées, le bouton Déléguer les approbations ne s&#39;affiche pas.
 1. Spécifiez les informations suivantes dans la section Déléguer mes approbations :
 
    * **Nom** : commencez à saisir le nom de la personne à laquelle vous souhaitez déléguer des approbations, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
@@ -144,11 +144,11 @@ Pour déléguer des approbations à une autre personne, procédez comme suit :
 
 ## Mettre à jour ou arrêter une délégation d’approbation {#update-or-stop-an-approval-delegation}
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations** .
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations**.
 
-1. Accédez au widget Mes approbations , puis cliquez sur **Modifier la délégation**.
-   ![](assets/edit-delegations.png)
+1. Accédez au widget Mes approbations, puis cliquez sur **Modifier la délégation**.
+   ![Modifier les délégations](assets/edit-delegations.png)
 <!--
    Or
 
@@ -162,7 +162,7 @@ Pour déléguer des approbations à une autre personne, procédez comme suit :
 
 ## Afficher les approbations déléguées {#view-delegated-approvals}
 
-Vous ne pouvez afficher que les types de délégations d’approbation suivants dans le widget Mes approbations :
+Vous ne pouvez afficher que les types de délégation d’approbation suivants dans le widget Mes approbations :
 
 * Approbations de projets
 * Approbations de tâches
@@ -170,7 +170,7 @@ Vous ne pouvez afficher que les types de délégations d’approbation suivants 
 
 Pour consulter les approbations déléguées :
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations** .
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations**.
 1. Dans le widget **Mes approbations**, cliquez sur le menu déroulant **Filtre**, puis sur **Approbations déléguées**.\
-   Toutes les validations déléguées s&#39;affichent dans la liste.
+   Toutes les approbations qui vous ont été déléguées sont répertoriées dans la liste.

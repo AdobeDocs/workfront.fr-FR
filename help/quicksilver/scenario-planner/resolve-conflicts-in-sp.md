@@ -6,10 +6,10 @@ description: Lorsque des initiatives entrent en conflit les unes avec les autres
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2172'
-ht-degree: 97%
+source-wordcount: '2220'
+ht-degree: 92%
 
 ---
 
@@ -34,14 +34,14 @@ Cela peut se produire dans l’un des cas suivants :
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
+   <p>Le planificateur de scénarios n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
    <td> <p>Nouveau : Light ou supérieur</p> 
-   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td>Produit* </td> 
@@ -49,7 +49,7 @@ Cela peut se produire dans l’un des cas suivants :
    <li><p>Pour les plans Workfront actuels : </p>
    <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
 
-<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
@@ -62,7 +62,7 @@ Cela peut se produire dans l’un des cas suivants :
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,7 +103,7 @@ Cela peut se produire dans l’un des cas suivants :
 
 1. Assurez-vous que l’option **[!UICONTROL Afficher les conflits]** est activée. Elle est activée par défaut.
 
-   ![](assets/show-scenarios-toggle-on.png)
+   ![Basculement entre Afficher les scénarios](assets/show-scenarios-toggle-on.png)
 
    La première initiative en conflit affiche les mois concernés en rouge et une icône d’avertissement s’affiche à côté du nom de l’initiative.
 
@@ -111,13 +111,13 @@ Cela peut se produire dans l’un des cas suivants :
 
    Lorsqu’une initiative présente un conflit, cela signifie que le nombre de fonctions pour au moins un rôle spécifique, les coûts encourus, ou les deux, dépassent le nombre de fonctions ou le budget défini pour le plan pour un mois spécifique.
 
-   ![](assets/initiatives-on-plan-with-conflicts-350x126.png)
+   ![Initiatives sur le plan avec conflit](assets/initiatives-on-plan-with-conflicts-350x126.png)
 
 1. Effectuez l’une des opérations suivantes suivantes pour mieux comprendre les conflits qui peuvent exister :
 
    * Pointez sur l’icône d’avertissement située à côté du nom de l’initiative pour savoir s’il s’agit d’un conflit de fonction ou de budget.
 
-     ![](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
+     ![Conflit de fonction budgétaire](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
 
      Lorsque vous pointez sur l’icône d’avertissement, l’une des options suivantes peut s’afficher, selon que les fonctions de votre initiative font l’objet d’une affectation trop importante ou que ses côuts sont surestimés.
 
@@ -127,7 +127,7 @@ Cela peut se produire dans l’un des cas suivants :
 
    * Pointez sur un mois dans la chronologie du plan lorsque vous consultez le plan par mois, pour afficher les ressources requises pour ce mois et savoir si les conflits du mois sont liés à des personnes ou à des coûts.
 
-     ![](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
+     ![Détails des conflits sur la chronologie mensuelle](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
 
      Examinez les informations mensuelles suivantes au niveau du plan :
 
@@ -140,7 +140,7 @@ Cela peut se produire dans l’un des cas suivants :
 
    * Pour afficher l’encadré d’informations complémentaires sur le conflit qui se déroule ce mois-là, pointez sur la barre rouge d’une initiative pour un mois donné.
 
-     ![](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
+     ![Détails des conflits sur la chronologie de l’initiative](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
 
      Examinez les champs suivants dans la zone d’informations supplémentaires au niveau de l’initiative :
 
@@ -181,7 +181,7 @@ Cela peut se produire dans l’un des cas suivants :
 
    * Cliquez sur l’icône d’avertissement à côté du nom de l’initiative.
    * Cliquez sur la barre d’une initiative.
-   * Cliquez sur l’icône **[!UICONTROL Plus]** ![](assets/more-icon.png) à droite du nom de l’initiative, puis cliquez sur **[!UICONTROL Modifier]**.
+   * Cliquez sur l’icône **[!UICONTROL Plus]** ![Plus](assets/more-icon.png) à droite du nom de l’initiative, puis cliquez sur **[!UICONTROL Modifier]**.
 
      Le panneau des détails de l’initiative s’affiche à droite.
 
@@ -192,11 +192,11 @@ Cela peut se produire dans l’un des cas suivants :
 
 1. (Le cas échéant) Pour les initiatives qui ont des conflits de fonctions, accédez à la section **[!UICONTROL Fonctions requises]** pour voir toutes les fonctions requises pour votre initiative. Identifiez les fonctions qui peuvent faire l’objet d’une affectation excessive. Examinez le nombre d’équivalents temps complet ou le nombre d’heures nécessaires pour chaque fonction pour chaque mois de l’initiative. La case contenant le nombre d’équivalents temps complet ou le nombre d’heures pour les mois présentant des affectations excessives s’affiche dans un cadre rouge.
 
-   ![](assets/details-panel-overallocated-roles-350x275.png)
+   ![Rôles suraffectés](assets/details-panel-overallocated-roles-350x275.png)
 
 1. (Facultatif) Cliquez sur la flèche pointant vers la droite à côté des mois de la chronologie de l’initiative pour voir quels mois supplémentaires présentent des conflits dans les fonctions.
 
-   ![](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
+   ![Flèche droite à l’intérieur de la zone de détails](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Afficher les détails]** sous la fonction qui affiche un conflit pour voir où les conflits apparaissent et pour surligner les mois en conflit dans la zone du graphique du plan. Des informations supplémentaires s’affichent pour chaque fonction.
 
@@ -225,12 +225,12 @@ Cela peut se produire dans l’un des cas suivants :
    >
    >Sur le graphique du plan, les mois où les fonctions sont attribuées affichent le nom et le nombre de fonctions nécessaires pour chaque initiative qui en a besoin. Vous devez sélectionner la vue [!UICONTROL Mois] pour voir le nom des fonctions.
 
-   ![](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
+   ![Fonctions en conflit](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
 
 1. Faites l’une des opérations suivantes pour résoudre les conflits de fonctions :
 
    * Baissez manuellement le nombre de fonctions pour chaque mois de l’initiative.
-   * Pointez sur le nom de la fonction et cliquez sur l’icône **[!UICONTROL Supprimer]** ![](assets/delete.png) pour supprimer la fonction de l’initiative.
+   * Passez la souris sur le nom de la fonction et cliquez sur l’icône **[!UICONTROL supprimer]** ![Supprimer](assets/delete.png) pour supprimer la fonction de l’initiative.
    * Sélectionnez **[!UICONTROL Ajouter des fonctions aux ressources disponibles du scénario]**, puis cliquez sur **[!UICONTROL Appliquer]**.
 
      Ceci ajoute le nombre manquant d’équivalents temps complet ou le nombre d’heures de fonction au champ [!UICONTROL Disponible] du scénario.
@@ -239,7 +239,7 @@ Cela peut se produire dans l’un des cas suivants :
      >
      >Les fonctions que vous ajoutez pour résoudre les conflits modifient les fonctions [!UICONTROL Disponible] du scénario sélectionné et non pour tous les scénarios du plan.
 
-     Une flèche verte orientée vers le haut ![](assets/upward-green-arrow.png) s’affiche pour le mois dans la chronologie du plan pour indiquer que des ressources supplémentaires ont été ajoutées au plan ce mois-là. Vous devez sélectionner la vue [!UICONTROL Mois] pour voir cet indicateur.
+     Une flèche verte pointant vers le haut ![flèche verte pointant vers le haut](assets/upward-green-arrow.png) s’affiche pour le mois dans le journal du plan afin d’indiquer que davantage de ressources ont été ajoutées au plan ce mois-là. Vous devez sélectionner la vue [!UICONTROL Mois] pour voir cet indicateur.
 
    * (Le cas échéant) Fermez le panneau de détails et donnez à l’initiative une priorité plus élevée pour recevoir les ressources budgétaires du plan en premier, si possible. Pour plus d’informations sur la mise à jour de la priorité des initiatives, voir [Mettre à jour les priorités des initiatives dans le planificateur de scénarios](../scenario-planner/prioritize-initiatives.md).
 
@@ -248,7 +248,7 @@ Cela peut se produire dans l’un des cas suivants :
 1. (Le cas échéant) Pour les initiatives qui ont des conflits de coûts, accédez à la section **[!UICONTROL Coûts]** dans le panneau des détails de l’initiative pour examiner les coûts pour chaque mois de la durée de l’initiative. Identifiez les mois pour lesquels le budget du plan pourrait ne pas être suffisant pour couvrir les coûts de l’initiative sélectionnée. La zone où le budget disponible est insuffisant s’affiche avec un contour rouge.
 1. (Facultatif) Cliquez sur la flèche pointant vers la droite à côté des mois de la chronologie de l’initiative pour afficher les mois supplémentaires qui ont un budget insuffisant pour couvrir les coûts.
 
-   ![](assets/details-panel-insufficient-costs-350x239.png)
+   ![Flèche pour coûts insuffisants](assets/details-panel-insufficient-costs-350x239.png)
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Afficher les détails]** sous les informations relatives aux coûts pour voir où le conflit apparaît et pour surligner les mois en conflit sur le graphique du plan. Les champs supplémentaires suivants s’affichent pour chaque type de coût :
 
@@ -275,7 +275,7 @@ Cela peut se produire dans l’un des cas suivants :
    >
    >Sur le graphique du plan, les mois où les coûts sont insuffisants affichent le nom et le nombre de fonctions encore nécessaires pour l’initiative. Vous devez sélectionner la vue Mois pour afficher les montants des coûts.
 
-   ![](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
+   ![Conflit de coûts](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
 
    >[!NOTE]
    >

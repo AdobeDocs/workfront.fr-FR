@@ -6,10 +6,10 @@ description: Vous pouvez afficher les commentaires de l’épreuve rédigés par
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 96%
 
 ---
 
@@ -82,7 +82,7 @@ Pour afficher les commentaires dans la visionneuse de relecture, procédez comme
 Dans Workfront, vous pouvez afficher les commentaires d’épreuve sans lancer la visionneuse de relecture.
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
-1. Cliquez sur la ligne contenant le document, puis cliquez sur l’icône **Résumé** ![](assets/summary-panel-icon.png) sur le côté droit de la page.\
+1. Cliquez sur la ligne contenant le document, puis sur l’icône **Résumé** ![Icône Résumé](assets/summary-panel-icon.png) sur le côté droit de la page.\
    Les commentaires s’affichent dans la section Mises à jour du résumé du document.
 
 ## Marquer tous les commentaires comme lus
@@ -96,7 +96,7 @@ En tant que réviseur ou réviseuse d’une épreuve, vous pouvez rapidement mar
 
 1. Au-dessus de la liste des commentaires, cliquez sur l’icône **Plus** puis cliquez sur **Marquer tout comme lu**.
 
-1. ![](assets/mceclip8-350x173.png)
+1. ![Marquer tout comme lu](assets/mceclip8-350x173.png)
 
 ## Répondre aux commentaires d’épreuve à partir de la visionneuse de relecture
 

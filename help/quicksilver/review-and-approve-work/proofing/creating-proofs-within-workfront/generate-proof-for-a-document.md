@@ -6,10 +6,10 @@ description: Vous pouvez générer une épreuve pour un document au moment où v
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 1. Accédez au projet, à la tâche ou au problème pour qui vous souhaitez créer une épreuve.
 1. Cliquez sur l’onglet **Documents**.
-1. Cliquez sur Documents ![](assets/document-icon.png) dans le panneau de gauche.
+1. Cliquez sur Documents ![icône Documents](assets/document-icon.png) dans le panneau de gauche.
 1. Cliquez sur **Ajouter**, puis sur **Épreuve** dans le menu qui apparaît.
 
    >[!TIP]

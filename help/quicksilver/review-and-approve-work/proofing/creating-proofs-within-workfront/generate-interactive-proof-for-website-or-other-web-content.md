@@ -6,10 +6,10 @@ description: Vous pouvez générer une nouvelle épreuve interactive ou une nouv
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +82,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Cliquez sur l’URL que vous avez ajoutée.
 
-   ![](assets/click-url-350x137.png)
+   ![Cliquez sur URL](assets/click-url-350x137.png)
 
 1. (Facultatif) Si vous souhaitez remplacer le nom de l’épreuve de l’URL du site web par un autre, saisissez un **Nom de l’épreuve**.
 1. Sélectionnez **Interactif**, puis cliquez sur **Terminé**.

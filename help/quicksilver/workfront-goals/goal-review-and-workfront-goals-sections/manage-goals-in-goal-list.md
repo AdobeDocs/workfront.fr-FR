@@ -6,10 +6,10 @@ description: Une fois que vous ou d’autres personnes avez créé des objectifs
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '817'
+ht-degree: 89%
 
 ---
 
@@ -101,7 +101,7 @@ Tenez compte des points suivants quand vous passez en revue la liste des objecti
 
 ### Manage the Goal List in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,14 +155,14 @@ Tenez compte des points suivants quand vous passez en revue la liste des objecti
 
    An arrow displays to the right of the field by which the list is sorted.
 
-   ![](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
+   ![Goal list with goal expanded](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
 
 1. (Optional) Click the field in the column again to sort the same column in a descending order. 
 1. Click the right-pointing arrow to the left of the goal name to expand a goal
 
    Or
 
-   Click the right-pointing arrow ![](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
+   Click the right-pointing arrow ![Right-pointing arrow](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
 
    * Results names, owners, and progress
 
@@ -190,12 +190,12 @@ Tenez compte des points suivants quand vous passez en revue la liste des objecti
 
    For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
 
-1. Click the **Alignment icon** ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. Click the **Alignment icon** ![Alignment icon](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 -->
 
 Pour gérer les objectifs dans la liste des objectifs :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -232,7 +232,7 @@ Pour gérer les objectifs dans la liste des objectifs :
 
      Pour plus d’informations, voir [Calculer la progression des objectifs dans Objectifs Adobe Workfront](../goal-management/calculate-goal-progress.md).
 
-1. Cliquez sur l’icône de filtre ![](assets/filter-icon.png) dans le coin supérieur droit de la liste des objectifs et appliquez des filtres pour n’afficher que les objectifs importants pour vous.
+1. Cliquez sur l’icône de filtre ![icône de filtre](assets/filter-icon.png) dans le coin supérieur droit de la liste des objectifs et appliquez des filtres pour afficher uniquement les objectifs qui sont importants pour vous.
 
    Pour plus d’informations sur l’utilisation de filtres dans les Objectifs Workfront, voir [Filtrer des informations dans Objectifs Adobe Workfront](../goal-management/filter-information-wf-goals.md).
 
@@ -242,10 +242,10 @@ Une flèche s’affiche à droite du champ sur lequel la liste est triée.
 1. (Facultatif) Cliquez à nouveau sur le champ dans la colonne pour trier la même colonne dans un ordre décroissant.
 1. Cliquez sur le nom d’un objectif pour ouvrir la page de l’objectif.
 1. Sélectionnez un objectif dans la liste, puis cliquez sur l’une des options suivantes en haut de la liste :
-   * Icône **Modifier** ![](assets/edit-icon.png) pour modifier des informations sur l’objectif. Pour plus d’informations, voir [Modifier des objectifs dans Objectifs Adobe Workfront](../goal-management/edit-goals.md).
-   * Icône **Partager** ![](assets/share-icon.png) pour partager l’objectif avec d’autres personnes. Pour plus d’informations, voir [Partager un objectif dans Objectifs Adobe Workfront](../workfront-goals-settings/share-a-goal.md).
-   * Icône **Ouvrir l’alignement** ![](assets/align-icon-unshimmed.png) pour ouvrir la zone Alignement des objectifs. Cette option ne s’affiche que lorsque l’objectif que vous sélectionnez est aligné sur un autre objectif.
-   * Icône **Supprimer** ![](assets/delete-icon.png) pour supprimer l’objectif, puis cliquez sur **Supprimer** pour confirmer.  Pour plus d’informations, voir [Supprimer et désactiver des objectifs dans Objectifs Adobe Workfront](../goal-management/delete-and-deactivate-goals.md).
+   * Icône **Modifier** ![Modifier](assets/edit-icon.png) pour modifier les informations sur l’objectif. Pour plus d’informations, voir [Modifier des objectifs dans Objectifs Adobe Workfront](../goal-management/edit-goals.md).
+   * **Icône Partager** ![Icône Partager](assets/share-icon.png) pour partager l’objectif avec d’autres personnes. Pour plus d’informations, voir [Partager un objectif dans Objectifs Adobe Workfront](../workfront-goals-settings/share-a-goal.md).
+   * **Ouvrir l’alignement** icône ![Ouvrir l’icône d’alignement](assets/align-icon-unshimmed.png) pour ouvrir la zone Alignement des objectifs. Cette option ne s’affiche que lorsque l’objectif que vous sélectionnez est aligné sur un autre objectif.
+   * Icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) pour supprimer l’objectif, puis cliquez sur **Supprimer** pour confirmer.  Pour plus d’informations, voir [Supprimer et désactiver des objectifs dans Objectifs Adobe Workfront](../goal-management/delete-and-deactivate-goals.md).
 
 
 

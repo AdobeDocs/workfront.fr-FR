@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Ajouter des approbateurs ou des réviseurs supplémentaires à un actif ou à un document
+title: Ajouter d’autres approbateurs ou réviseurs à une ressource ou un document
 description: Vous pouvez ajouter des réviseurs et réviseuses ou des approbateurs et approbatrices supplémentaires à un document ayant déjà des approbations en attente.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 84%
 
 ---
 
-# Ajouter des approbateurs ou des réviseurs supplémentaires à un actif ou à un document
+# Ajouter d’autres approbateurs ou réviseurs à une ressource ou un document
 
-Vous pouvez ajouter d’autres approbateurs ou réviseurs à une ressource ou à un document pour lequel des validations sont déjà en attente.
+Vous pouvez ajouter des approbateurs ou des réviseurs supplémentaires à une ressource ou un document qui a déjà des approbations en attente.
 
 >[!IMPORTANT]
 >
@@ -54,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Ajout d’approbateurs ou de réviseurs supplémentaires à partir de la page Détails du document
+## Ajouter des approbateurs ou des réviseurs supplémentaires à partir de la page Détails du document
 
 1. Accédez à la page du document en cliquant sur le nom du document, puis sélectionnez la version du document à laquelle vous souhaitez ajouter un approbateur ou une approbatrice ou un réviseur ou une réviseuse dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
 
@@ -64,7 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
 
-## Ajout d’approbateurs ou de réviseurs supplémentaires à partir du résumé du document
+## Ajouter des approbateurs ou des validants supplémentaires à partir du Résumé du document
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 
@@ -76,21 +76,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
 
-## Ajout de révisions et d’approbateurs supplémentaires à partir d’une version précédente
+## Ajouter des révisions et des approbateurs supplémentaires depuis une version précédente
 
-Si vous avez besoin d’approbation sur une nouvelle version de document, vous pouvez facilement ajouter des
+Si vous avez besoin d’une approbation pour une nouvelle version du document, vous pouvez facilement ajouter
 
 <!--
 ## Add additional approvers or reviewers from Home
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![Home icon](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
    >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
 

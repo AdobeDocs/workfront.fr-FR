@@ -6,10 +6,10 @@ description: Découvrez comment modifier les étapes et les réviseurs et révis
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 95%
 
 ---
 
@@ -98,7 +98,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Modifier les détails du réviseur ou de la réviseuse
 
 1. Dans Workfront, pointez sur l’épreuve, puis cliquez sur **Détails de l’épreuve** pour ouvrir la page Détails de la relecture.
-1. Dans la section **Workflow**, cliquez sur le menu **Plus** ![](assets/more-button-small.png) à droite du nom du réviseur ou de la réviseuse, puis cliquez sur **Modifier** dans le menu déroulant qui s’affiche.
+1. Dans la section **Workflow**, cliquez sur le menu **Plus** ![Plus](assets/more-button-small.png) à droite du nom du réviseur ou de la réviseuse, puis cliquez sur **Modifier** dans le menu déroulant qui s’affiche.
 
 1. Dans la zone **Modifier le réviseur our la réviseuse** qui apparaît, modifiez les détails suivants :
 

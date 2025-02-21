@@ -7,10 +7,10 @@ description: Objectifs Adobe Workfront est accompagné d’un ensemble de notif
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 95%
+source-wordcount: '226'
+ht-degree: 94%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 95%
 >
 >* Pour la nouvelle structure de forfait et de licence :
 >
->   * Formule Workfront ultime
+>   * Le plan Ultimate Workfront
 >    
 >* Pour la structure de forfait et de licence actuelle :
 >
->   * Formule Workfront Pro ou ultérieure
+>   * Un forfait Workfront Pro ou version ultérieure
 >   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
@@ -140,4 +140,4 @@ A personal goal is a goal where you are designated as the owner.
 
 Lorsque l’événement défini par la notification que vous avez activée se produit, vous recevez un e-mail décrivant l’événement. Voici un exemple d’e-mail vous informant qu’un nouvel objectif vous a été affecté en tant que personne propriétaire :
 
-![](assets/wf-align-notification-email-350x164.png)
+![E-mail de notification des objectifs](assets/wf-align-notification-email-350x164.png)

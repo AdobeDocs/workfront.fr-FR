@@ -6,10 +6,10 @@ description: Les approbations de relecture s’affichent dans la zone Accueil un
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 91%
+source-wordcount: '289'
+ht-degree: 85%
 
 ---
 
@@ -52,11 +52,11 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 ## Afficher les approbations d’épreuve envoyées
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations** .
-1. (Conditionnel) Cliquez sur le menu déroulant **Filtre** , puis sélectionnez **Approbations que j&#39;ai envoyées** pour voir les approbations que vous avez envoyées.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations**.
+1. (Conditionnel) Cliquez sur le menu déroulant **Filtre**, puis sélectionnez **Approbations que j’ai envoyées** pour afficher les approbations que vous avez envoyées.
 
-   ![](assets/proof-approval.png)
+   ![Validation du BAT](assets/proof-approval.png)
 
    >[!NOTE]
    >

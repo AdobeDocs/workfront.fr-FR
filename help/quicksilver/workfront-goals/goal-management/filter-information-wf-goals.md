@@ -6,10 +6,10 @@ description: Vous pouvez afficher les objectifs que vous ou toute autre personne
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 100%
+source-wordcount: '1379'
+ht-degree: 96%
 
 ---
 
@@ -128,7 +128,7 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
 
 1. Cliquez sur **Filtre** dans le coin supérieur droit de la liste.
 
-   ![](assets/filter-icon-and-label.png)
+   ![Icône de filtre](assets/filter-icon-and-label.png)
 
    Par défaut, Workfront applique le filtre **Tous** qui affiche tous les objectifs de votre système.
 
@@ -172,7 +172,7 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
       </tbody> 
      </table>
 
-   * Pour personnaliser et ajouter des noms spécifiques d’utilisateurs et d’utilisatrices, d’équipes, de groupes ou le nom de votre organisation à un filtre, pointez sur son nom, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) à côté de celui-ci. Sélectionnez-le ensuite dans la liste qui apparaît.
+   * Pointez sur le nom d’un filtre, puis cliquez sur l’icône **Modifier** ![icône Modifier](assets/edit-icon.png) en regard de son nom pour le personnaliser et ajouter des noms spécifiques d’utilisateurs, d’équipes, de groupes ou le nom de votre organisation, puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
    * Pour créer un filtre, cliquez sur **Nouveau filtre** et choisissez parmi les options suivantes pour le personnaliser :
 
@@ -249,11 +249,11 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
 
 1. (Facultatif et le cas échéant) Lors de l’affichage des objectifs dans la section Alignement des objectifs, cliquez sur **Afficher** si vous souhaitez afficher les objectifs filtrés.
 
-   ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![Afficher le lien sur les éléments filtrés](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    Le nom du filtre est indiqué en jaune pour indiquer qu’il est ignoré.
 
-   ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![Contour jaune du filtre](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. (Facultatif et le cas échéant) Cliquez sur **Réappliquer le filtre** pour appliquer le filtre et omettre les éléments affichés à l’étape précédente.

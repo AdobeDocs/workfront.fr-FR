@@ -2,25 +2,25 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Création d’une demande de révision ou d’approbation pour une ressource Frame.io
-description: Vous pouvez créer une demande de révision ou d’approbation pour les ressources connectées à Frame.io.
+title: Créer une demande de révision ou d’approbation pour une ressource Frame.io
+description: Vous pouvez créer une demande de révision ou d’approbation pour les ressources connectées Frame.io.
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 33%
+source-wordcount: '345'
+ht-degree: 31%
 
 ---
 
-# Création d’une demande de révision ou d’approbation pour une ressource Frame.io
+# Créer une demande de révision ou d’approbation pour une ressource Frame.io
 
 >[!IMPORTANT]
 >
->Le contenu de cet article fait référence à la fonctionnalité d’approbation mise à jour disponible uniquement pour des comptes spécifiques. Pour plus d’informations sur les processus d’approbation standard, reportez-vous aux articles répertoriés dans la section [Approbations de travail](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Le contenu de cet article fait référence à une fonctionnalité d’approbation mise à jour qui n’est disponible que pour des comptes spécifiques. Pour plus d’informations sur les processus d’approbation standard, reportez-vous aux articles répertoriés dans la section [Approbations de travail](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 <!--
 ## Access requirements
@@ -53,48 +53,48 @@ You must have the following access to perform the steps in this article:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 -->
 
-## Créer une demande de révision ou d’approbation à partir du résumé du document
+## Créer une demande de révision ou d&#39;approbation à partir du résumé du document
 
-1. Accédez au projet, à la tâche ou au problème qui contient Frame.io connecté, puis sélectionnez **Documents**.
+1. Accédez au projet, à la tâche ou à l&#39;événement contenant le Frame.io connecté, puis sélectionnez **Documents**.
 
    >[!TIP]
    >
-   >Les ressources connectées à Frame.io sont accompagnées du logo Frame.io.
+   >Les ressources connectées Frame.io sont dotées du logo Frame.io.
 
-1. Cliquez sur la ressource connectée Frame.io dont vous avez besoin pour ouvrir le panneau Résumé du document .
+1. Cliquez sur la ressource connectée Frame.io pour ouvrir le panneau Résumé du document .
 
 1. (Facultatif) Dans le menu déroulant **Version**, sélectionnez la version de la ressource pour laquelle vous souhaitez créer une approbation. La dernière version est sélectionnée par défaut.
 
-1. Faites défiler l’écran jusqu’à la section **Approbations**, puis cliquez sur **Ajouter**.
+1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Ajouter**.
 
-   ![](assets/doc-summary-add-approvers.png)
+   ![Ajouter des approbateurs dans le résumé du document](assets/doc-summary-add-approvers.png)
 
-1. (Facultatif) Définissez une date limite de validation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date limite spécifiée.
+1. (Facultatif) Définissez une date limite pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée.
 
 1. Pour ajouter un approbateur ou une approbatrice, cliquez sur **Approbateur** et commencez à saisir le nom d’un utilisateur, d’une utilisatrice ou d’une équipe.
 
 1. Pour ajouter un réviseur ou une réviseuse, cochez la case **Réviseur** et commencez à saisir le nom d’un utilisateur, d’une utilisatrice ou d’une équipe.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Ajouter un approbateur et une date limite](assets/add-approver-and-deadline.png)
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
 
 ## Créer une demande de révision ou d’approbation à partir de la page Détails du document
 
 1. Pointez sur le document, puis cliquez sur **Détails du document**.
-   ![](assets/doc-details.png)
+   ![ Détails du document ](assets/doc-details.png)
 
-1. Près du nom du document, sélectionnez la version du document pour laquelle vous souhaitez créer une approbation. La dernière version est sélectionnée par défaut.
+1. Près du nom du document, sélectionnez la version du document pour lequel vous souhaitez créer une approbation. La dernière version est sélectionnée par défaut.
 
-1. Dans le panneau de gauche, cliquez sur **Approbations**.
+1. Dans le panneau de gauche, cliquez sur **Validations**.
 
-1. (Facultatif) Définissez une date limite de validation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date limite spécifiée.
+1. (Facultatif) Définissez une date limite pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée.
 
 1. Pour ajouter un approbateur ou une approbatrice, cliquez sur **Approbateur** et commencez à saisir le nom d’un utilisateur, d’une utilisatrice ou d’une équipe.
 
 1. Pour ajouter un réviseur ou une réviseuse, cochez la case **Réviseur** et commencez à saisir le nom d’un utilisateur, d’une utilisatrice ou d’une équipe.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Ajouter un approbateur et une date limite](assets/add-approver-and-deadline.png)
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
 
@@ -110,5 +110,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

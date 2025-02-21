@@ -6,10 +6,10 @@ description: Lorsque vous partagez un objectif, vous accordez des autorisations 
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 100%
+source-wordcount: '795'
+ht-degree: 98%
 
 ---
 
@@ -117,7 +117,7 @@ Vous devez disposer des éléments suivants :
 
 ## Partager un objectif
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -128,11 +128,11 @@ Vous devez disposer des éléments suivants :
 
 1. Cliquez sur l’icône **Plus** à côté du nom de l’objectif, puis cliquez sur **Partager**.
 
-   ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
+   ![Menu Plus](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
    La case Accès à l’objectif s’affiche.
 
-   ![](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![Accès aux objectifs](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. Utilisez l’une des méthodes suivantes :
 

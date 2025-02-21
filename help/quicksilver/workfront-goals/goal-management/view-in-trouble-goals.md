@@ -6,10 +6,10 @@ description: Les objectifs dont la progression est En difficulté risquent de ne
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 100%
+source-wordcount: '827'
+ht-degree: 97%
 
 ---
 
@@ -97,7 +97,7 @@ Vous pouvez examiner les objectifs dans n’importe quelle section des Objectifs
 
 Cet article décrit comment passer en revue les objectifs dans la liste des objectifs.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -124,7 +124,7 @@ Cet article décrit comment passer en revue les objectifs dans la liste des obje
 
 1. Pointez sur l’indicateur de la barre de progression pour voir quel est le pourcentage de progression actuel et quelle est la valeur attendue pour la journée en cours.
 
-   ![](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![détails de pointage de la progression globale](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. (Facultatif) Utilisez les filtres pour trouver les objectifs qui appartiennent à une personne spécifique.
 
@@ -134,7 +134,7 @@ Cet article décrit comment passer en revue les objectifs dans la liste des obje
 
    Pour plus d’informations sur la mise à jour des résultats et des activités, voir [Mettre à jour la progression des objectifs dans Objectifs Adobe Workfront](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
-   ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![Progression réelle](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

@@ -6,10 +6,10 @@ description: Approuver du travail
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 84%
+source-wordcount: '914'
+ht-degree: 79%
 
 ---
 
@@ -66,7 +66,7 @@ Pour plus d’informations sur l’affichage des éléments en attente d’appro
 
 ## Approuver le travail depuis la zone d’accueil
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations**.
 1. (Conditionnel) Cliquez sur le menu déroulant **Filtre**, puis sélectionnez **Toutes** pour voir les approbations qui vous sont affectées et qui vous sont déléguées.
 
@@ -77,7 +77,7 @@ Pour plus d’informations sur l’affichage des éléments en attente d’appro
 
 1. Sélectionnez l’élément pour lequel vous souhaitez prendre une décision d’approbation.
 
-   ![](assets/my-approvals-widget.png)
+   ![Widget Mes approbations](assets/my-approvals-widget.png)
 
 1. Cliquez sur l’une des options disponibles lorsque vous prenez une décision d’approbation dans le panneau de droite. Les options suivantes s’affichent dans le coin supérieur droit de la page, en fonction du type d’élément que vous approuvez :
 
@@ -146,7 +146,7 @@ Pour approuver un travail directement à partir d’un projet, d’une tâche ou
 
    Les détails concernant le processus d’approbation d’un projet, d’une tâche ou d’un problème s’affichent dans l’en-tête de l’élément.
 
-   ![](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![Processus d’approbation actuel dans l’en-tête du projet](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    Les informations d’approbation suivantes sont disponibles :
 
@@ -172,8 +172,8 @@ Pour approuver un travail directement à partir d’un projet, d’une tâche ou
 
 1. Accédez à la zone des documents qui contient le document nécessitant votre approbation.
 1. Sélectionnez le document, puis cliquez sur **Approuver**, **Modifier**, ou **Rejeter**.\
-   ![](assets/approval-approve-document-350x215.png)\
-   ![](assets/document-approval-350x199.png)
+   ![Approuver le document](assets/approval-approve-document-350x215.png)\
+   ![Approbation du document](assets/document-approval-350x199.png)
 
 1. (Facultatif) Si une épreuve a été générée pour le document, vous pouvez approuver le document dans l’interface de relecture, comme décrit dans [Approuver un document à partir d’une épreuve](#approve-a-document-from-a-proof).
 
@@ -185,7 +185,7 @@ En fonction de vos paramètres de notification, vous pouvez recevoir par e-mail 
 1. Pour accéder au document, effectuez l’une des actions suivantes :
 
    * Affichez les métadonnées du document.
-   * Si une épreuve a été créée pour réviser le document avec des annotations et des commentaires, cliquez sur **Ouvrir l’épreuve** ![](assets/open-proof-icon-qs.png) dans le coin supérieur droit et révisez l’épreuve.
+   * Si une épreuve a été créée pour la révision du document avec des balises et des commentaires, cliquez sur **Ouvrir l’épreuve** ![Ouvrir l’épreuve](assets/open-proof-icon-qs.png) dans le coin supérieur droit et passez en revue l’épreuve.
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   

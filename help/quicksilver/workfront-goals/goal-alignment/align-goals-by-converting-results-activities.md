@@ -6,10 +6,10 @@ description: Vous pouvez aligner manuellement deux objectifs ou convertir les r�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '649'
+ht-degree: 94%
 
 ---
 
@@ -109,9 +109,9 @@ Tenez compte des éléments suivants lorsque vous convertissez des résultats et
 1. Click the name of the goal to open the **Goal Details** panel.
 1. Expand the **Results** or **Activities** right-pointing arrows to see a list of results or activities for the goal. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
 
-   ![](assets/convert-to-goal-link-highlighted-350x191.png)
+   ![Convert to goal](assets/convert-to-goal-link-highlighted-350x191.png)
 
 1. (Optional) Remove the name of the original activity or result owner from the **Goal Owner** field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
 1. Click **Convert**. The activity or result displays as an aligned goal in the Goal Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
@@ -120,9 +120,9 @@ Tenez compte des éléments suivants lorsque vous convertissez des résultats et
 
 1. Accédez à un objectif dont vous souhaiter convertir le résultat ou l’activité en objectif.
 1. Sur la page de l’objectif, cliquez sur **Indicateurs de progression** dans le panneau de gauche.
-1. Sélectionnez un résultat ou une activité dans la liste des indicateurs de progression, puis cliquez sur l’icône **Convertir en objectif** ![](assets/convert-to-goal-icon-unshimmed.png) en haut de la liste des indicateurs de progression. La boîte de dialogue Convertir en objectif s’affiche.
+1. Sélectionnez un résultat ou une activité dans la liste des indicateurs de progression, puis cliquez sur l’icône **Convertir en objectif** ![Convertir en objectif](assets/convert-to-goal-icon-unshimmed.png) en haut de la liste des indicateurs de progression. La boîte de dialogue Convertir en objectif s’affiche.
 
-   ![](assets/convert-to-goal-box-unshimmed.png)
+   ![ Convertir en zone d’objectif ](assets/convert-to-goal-box-unshimmed.png)
 1. Mettez à jour les informations suivantes :
    * **Nom de l’objectif** : par défaut, le nouvel objectif porte le même nom que le résultat ou l’activité d’origine.
    * **Période** : par défaut, la période du nouvel objectif est le trimestre en cours. Vous pouvez sélectionner le paramètre **Activer les dates personnalisées** pour définir une période personnalisée pour le nouvel objectif.

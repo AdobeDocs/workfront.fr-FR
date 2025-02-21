@@ -7,10 +7,10 @@ description: En tant que personne à la tête d’une entreprise, vous pouvez ut
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 98%
+source-wordcount: '1160'
+ht-degree: 97%
 
 ---
 
@@ -62,7 +62,7 @@ Tenez compte des éléments suivants lors de la création de plans :
 
 Vous pouvez examiner les informations générales sur les fonctions pour les plans qui indiquent le nombre de fonctions disponibles pour le plan, ainsi que le nombre de fonctions nécessaires pour mener à bien les initiatives. Vous pouvez afficher ces informations dans la case [!UICONTROL Fonctions] dans l’en-tête du plan.
 
-![](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+![Zone Fonction du plan](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
 
 Vous pouvez afficher les éléments suivants dans la case fonction :
 
@@ -78,7 +78,7 @@ Pour plus d’informations sur l’accès à un plan et l’affichage d’inform
 
 Vous pouvez consulter les informations financières relatives à un plan, en particulier son budget prévu, la manière dont ce budget est utilisé et la valeur nette du plan. La valeur nette d’un plan est basée sur la valeur nette de ses initiatives. Vous pouvez afficher ces informations dans les zones [!UICONTROL Informations financières] et [!UICONTROL Résumé] dans l’en-tête du plan.
 
-![](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![Zones Budget et valeur nette](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 Vous pouvez afficher les éléments suivants dans les zones [!UICONTROL Informations financièresl] et [!UICONTROL Résumé] du plan :
 

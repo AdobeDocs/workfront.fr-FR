@@ -7,10 +7,10 @@ description: Vous pouvez utiliser la visionneuse de relecture pour comparer deux
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '344'
+ht-degree: 99%
 
 ---
 
@@ -68,13 +68,13 @@ Vous pouvez comparer deux épreuves dans n’importe quelle liste de documents, 
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
    -->
 
-   ![](assets/compare-proofs-select-docs-350x138.jpg)
+   ![Comparer les épreuves](assets/compare-proofs-select-docs-350x138.jpg)
 
    Les deux épreuves s’affichent côte à côte dans la visionneuse de relecture. Vous pouvez réviser chaque document tout en les comparant.
 
    Des chemins de navigation distincts au-dessus de chaque épreuve vous permettent d’afficher et d’accéder à l’élément de travail associé à l’épreuve :
 
-   ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![Comparer les chemins de navigation des épreuves](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    Pour plus d’informations sur les outils que vous pouvez utiliser pour comparer les deux épreuves, voir [Utiliser des outils de comparaison](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) dans [Comparer des épreuves dans la visionneuse de relecture](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 

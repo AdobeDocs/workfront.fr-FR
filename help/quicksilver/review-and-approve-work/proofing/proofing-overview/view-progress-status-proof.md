@@ -6,10 +6,10 @@ description: Vous pouvez afficher des informations sur la progression d’une é
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '376'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Vous pouvez afficher des informations sur la progression d’une épreuve tout a
 
 La progression de la relecture indique le travail effectué sur une épreuve entre le moment où vous envoyez l’épreuve aux personnes destinataires et le moment où elles prennent une décision sur l’épreuve. Les icônes de progression, S, O, C et D, apparaissent en regard du nom de l’épreuve et fournissent des informations sur la progression de la relecture.
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![Modification de l’épreuve en cours](assets/proof-edit-existing-progress-350x62.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -93,9 +93,9 @@ Les icônes de progression peuvent apparaître dans les couleurs suivantes pour 
 
 ## Vue d’ensemble des statuts de l’épreuve
 
-Le statut de l’épreuve indique le statut des décisions requises pour l’épreuve. Le statut de l’épreuve dépend du participant ou de la participante dans le « pire cas ». Par exemple, supposons qu’il y ait trois décisions sur l’épreuve : deux ont le statut **Accepté** et une a le statut **Rejeté**. La décision dans le « pire cas » **Rejeté** est prioritaire sur les autres décisions et le statut global de l’épreuve est affiché comme **Rejeté**.
+Le statut de l’épreuve indique le statut des décisions requises pour l’épreuve. Le statut de l’épreuve dépend du participant du « pire cas ». Par exemple, supposons qu’il y ait trois décisions sur l’épreuve : deux ont le statut **Accepté** et une a le statut **Rejeté**. La décision dans le « pire cas » **Rejeté** est prioritaire sur les autres décisions et le statut global de l’épreuve est affiché comme **Rejeté**.
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![Modification de l’épreuve en cours](assets/proof-edit-existing-progress-350x62.png)
 
 Les options de statut standard sont les suivantes :
 

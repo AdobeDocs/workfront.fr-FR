@@ -7,10 +7,10 @@ description: Non. La visionneuse de relecture de bureau est spécialement conçu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: '441'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Pour plus d’informations, consultez les ressources suivantes :
 
 Ouvrez une épreuve interactive et téléchargez l’application directement à partir de l’écran de lancement.
 
-![](assets/mceclip0-350x114.png) 
+![Écran Launch](assets/mceclip0-350x114.png) 
 
 ## Dois-je réinstaller les nouvelles versions de la visionneuse de bureau ?
 

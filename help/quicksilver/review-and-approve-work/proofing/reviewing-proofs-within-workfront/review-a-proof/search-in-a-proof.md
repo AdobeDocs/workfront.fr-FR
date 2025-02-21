@@ -6,10 +6,10 @@ description: Découvrez comment localiser rapidement du texte dans une épreuve.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 100%
+source-wordcount: '232'
+ht-degree: 99%
 
 ---
 
@@ -63,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Ouvrez l’épreuve dans laquelle vous souhaitez effectuer une recherche.
 1. Dans la barre d’outils située au-dessus de l’épreuve, cliquez sur l’icône **Rechercher dans le document**.
 
-   ![](assets/search-document-icon-search-in-proof-350x129.png)
+   ![Rechercher un document](assets/search-document-icon-search-in-proof-350x129.png)
 
 1. Commencez à saisir le texte à rechercher.
 

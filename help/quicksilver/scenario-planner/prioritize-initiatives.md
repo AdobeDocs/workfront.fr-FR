@@ -6,10 +6,10 @@ description: Il est important de hiérarchiser les initiatives parce que celles-
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 90%
+source-wordcount: '545'
+ht-degree: 89%
 
 ---
 
@@ -35,14 +35,14 @@ Pour plus d’informations sur la création d’initiatives, voir [Créer et mod
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
+   <p>Le planificateur de scénarios n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
    <td> <p>Nouveau : Light ou supérieur</p> 
-   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td>Produit* </td> 
@@ -50,7 +50,7 @@ Pour plus d’informations sur la création d’initiatives, voir [Créer et mod
    <li><p>Pour les plans Workfront actuels : </p>
    <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
 
-<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
@@ -63,7 +63,7 @@ Pour plus d’informations sur la création d’initiatives, voir [Créer et mod
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,7 +92,7 @@ Une liste des plans s’affiche.
 
      Workfront affiche le nombre d’initiatives sélectionnées.
 
-     ![](assets/multi-select-initiative-number.png)
+     ![Numéro d’initiative à sélection multiple](assets/multi-select-initiative-number.png)
 
    * Cliquez sur le bouton **[!UICONTROL Définir la priorité]** en bas du plan, puis choisissez l’une des options suivantes :
 
@@ -100,7 +100,7 @@ Une liste des plans s’affiche.
       * **[!UICONTROL En bas]** : déplace les initiatives sélectionnées en bas de la liste des initiatives. Les initiatives sélectionnées sont répertoriées en dernier dans le plan.
       * **[!UICONTROL Sélectionner un nombre]** : déplace les initiatives sélectionnées après l’initiative que vous indiquez ici.
 
-        ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![Hiérarchiser les initiatives](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront] place immédiatement les initiatives sélectionnées à l’endroit où vous les indiquez et le nombre de toutes les initiatives est mis à jour en conséquence.
 

@@ -6,10 +6,10 @@ description: Les workflows automatisés facilitent la gestion du processus de r�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 100%
+source-wordcount: '1242'
+ht-degree: 97%
 
 ---
 
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Ou
 
-   Si vous vérifiez l’épreuve dans la visionneuse de relecture, cliquez sur **Workflow** ![](assets/workflow-icon-proofing-viewer.png) dans le panneau de gauche, puis cliquez sur l’icône Modifier ![](assets/edit-icon-proofing-viewer.png) pour ouvrir les paramètres de workflow automatisé de l’épreuve.
+   Si vous consultez le BAT dans la visionneuse de BAT, cliquez sur **Workflow** ![icône de workflow](assets/workflow-icon-proofing-viewer.png) dans le panneau de gauche, puis cliquez sur l’icône Modifier ![icône Modifier](assets/edit-icon-proofing-viewer.png) pour ouvrir les paramètres de Workflow automatisé pour le BAT.
 
 1. (Le cas échéant) Si l’épreuve utilise actuellement un workflow de base (sans étapes), cliquez sur **Convertir en workflow automatisé** dans l’écran qui s’affiche.
 
@@ -155,7 +155,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Lorsque vous ajoutez des étapes au processus automatisé, un diagramme s’affiche à l’écran pour les représenter :
 
-   ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![Diagramme de workflow](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. Lorsque vous avez terminé d’ajouter des étapes, cliquez sur **Terminé**.
 

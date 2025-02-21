@@ -6,10 +6,10 @@ description: Découvrez comment contrôler la lecture dans une épreuve vidéo.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Pour un aperçu plus détaillé de l’épreuve vidéo, vous pouvez réviser man
 
 1. Au bas de la visionneuse de relecture, cliquez sur les flèches **Avant** et **Arrière** permettant de visionner la vidéo image par image.
 
-   ![](assets/frame-.png)
+   ![Cadre](assets/frame-.png)
 
 ## Modifier le volume de lecture
 
@@ -82,7 +82,7 @@ Vous pouvez contrôler le volume de la lecture vidéo.
 
 1. Dans le coin inférieur droit de la visionneuse de relecture, placez le pointeur de la souris sur l’icône **Volume** puis faites glisser le curseur pour sélectionner un nouveau volume.
 
-   ![](assets/phq-viewer-volume.png)
+   ![ Volume ](assets/phq-viewer-volume.png)
 
    Ou
 

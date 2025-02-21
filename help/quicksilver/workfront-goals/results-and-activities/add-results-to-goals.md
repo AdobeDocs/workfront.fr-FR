@@ -7,10 +7,10 @@ description: Les résultats mesurent la progression d’un objectif. L’activat
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 100%
+source-wordcount: '593'
+ht-degree: 97%
 
 ---
 
@@ -102,7 +102,7 @@ Adding results to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add a result and click the name to open the **Goal Details** panel.
 1. Click **Add results**.
 
-   ![](assets/add-result-inside-goal-details-highlighted-350x145.png)
+   ![Add result inside goal](assets/add-result-inside-goal-details-highlighted-350x145.png)
 
 1. Start typing the result you want to achieve in the **Result** field. This is the name of the result and it displays wherever the goal displays. 
 1. (Optional) If you want to set the Result Owner as someone other than yourself, click your name in the **Owner** field and start typing the name of the user that you want to assign as the owner of the result, then click it when it appears in the drop-down list.
@@ -113,7 +113,7 @@ Adding results to goals differs depending on which environment you use.
 
 1. In the Value drop-down menu, select the type of value that you want to measure your success by.
 
-   ![](assets/results-value-initial-target-boxes-350x49.png)
+   ![Results value](assets/results-value-initial-target-boxes-350x49.png)
 
    Select from the following options:
 
@@ -137,7 +137,7 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Cliquez sur le menu principal ![](assets/main-menu-icon.png), puis sur **Objectifs**.
+1. Cliquez sur le menu principal ![icône du menu principal](assets/main-menu-icon.png), puis sur **Objectifs**.
 
 1. Pour ouvrir la page d’un objectif, cliquez sur son nom dans la **Liste des objectifs**.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
@@ -145,7 +145,7 @@ Adding results to goals differs depending on which environment you use.
 
    La boîte de dialogue « Nouveau résultat » s’affiche.
 
-   ![](assets/new-result-box-unshimmed.png)
+   ![Nouvelle zone de résultat](assets/new-result-box-unshimmed.png)
 
 1. Saisissez un nom pour le résultat dans le champ **Nom du résultat**. Champ obligatoire.
 1. (Facultatif) Supprimez votre nom du champ **Personne propriétaire du résultat** si vous souhaitez affecter le résultat à un autre utilisateur ou une autre utilisatrice. Par défaut, vous êtes la personne propriétaire d’une activité que vous créez.

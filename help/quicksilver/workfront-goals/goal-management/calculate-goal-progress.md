@@ -6,10 +6,10 @@ description: La progression de l’objectif dépend d’indicateurs de progressi
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 100%
+source-wordcount: '833'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ Une fois que vous avez activé un objectif, la solution Objectifs Workfront comm
 | Pourcentage terminé attendu | Pourcentage de l’objectif qui doit être terminé à ce stade pour que l’objectif soit achevé dans les temps. La solution Objectifs Workfront calcule cette valeur en tenant compte de la durée de l’objectif et du moment présent. Si l’objectif se termine dans les temps, il doit afficher cette valeur à l’heure actuelle. |
 | Progression | Libellé qui indique si l’objectif est dans les temps, ou s’il est en difficulté et risque de ne pas aboutir. |
 
-![](assets/in-trouble-goal-progress-expanded.png)
+![En difficulté](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
@@ -108,7 +108,7 @@ Par exemple, si le pourcentage terminé attendu est de 53 % à l’heure actuel
 
 Le graphique suivant illustre la relation entre les libellés de condition et le pourcentage de progression :
 
-![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![Graphique des libellés de statut de progression](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 Le tableau ci-dessous répertorie les libellés de condition d’objectif et les pourcentages de progression d’objectif associés à chaque libellé.
 

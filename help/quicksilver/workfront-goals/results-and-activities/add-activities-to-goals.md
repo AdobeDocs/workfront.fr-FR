@@ -7,10 +7,10 @@ description: Les activités mesurent la progression d’un objectif. Sans résul
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 100%
+source-wordcount: '455'
+ht-degree: 97%
 
 ---
 
@@ -101,7 +101,7 @@ Adding activities to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
 1. Click **Add activities**.
 
-   ![](assets/add-activity-inside-goal-details-highlighted-350x152.png)
+   ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
 1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
@@ -144,14 +144,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Cliquez sur le bouton **Menu principal** ![](assets/main-menu-icon.png), puis sur **Objectifs**.
+1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png), puis **Objectifs**.
 1. Dans la liste des objectifs, cliquez sur le nom d’un objectif pour ouvrir sa page.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 1. Dans le menu déroulant Nouvel indicateur de progression, cliquez sur **Créer une activité**.
 
    La boîte de dialogue Nouvelle activité s’ouvre.
 
-   ![](assets/new-activity-box-unshimmed.png)
+   ![Zone Nouvelle activité](assets/new-activity-box-unshimmed.png)
 
 1. Saisissez un nom pour l’activité dans le champ Nom de l’activité. Champ obligatoire.
 1. (Facultatif) Supprimez votre nom du champ **Personne propriétaire de l’activité** si vous souhaitez affecter l’activité à un autre utilisateur ou une autre utilisatrice. Par défaut, vous êtes la personne propriétaire d’une activité que vous créez.

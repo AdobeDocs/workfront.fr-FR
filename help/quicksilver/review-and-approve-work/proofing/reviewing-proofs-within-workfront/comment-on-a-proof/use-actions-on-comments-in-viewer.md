@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des actions pour suivre ce qui doit se passer 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '441'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Pour appliquer une action à un commentaire existant dans la visionneuse de rele
 
    * Cliquez sur l’icône du drapeau dans le coin inférieur droit du commentaire, puis cliquez sur l’action souhaitée dans le menu déroulant.
 
-     ![](assets/actions-flag-icon-350x198.png)
+     ![Icône d’indicateur Actions](assets/actions-flag-icon-350x198.png)
 
    * Cliquez sur l’icône **Plus** (trois points horizontaux sur le commentaire), puis cliquez sur l’action souhaitée dans la partie inférieure du menu déroulant qui apparaît.
 

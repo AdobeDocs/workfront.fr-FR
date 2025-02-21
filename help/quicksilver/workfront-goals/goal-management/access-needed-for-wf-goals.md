@@ -7,9 +7,9 @@ description: Votre administrateur ou administratrice Adobe Workfront doit s’a
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 96%
 
 ---
@@ -48,7 +48,7 @@ Votre administrateur ou administratrice Adobe Workfront doit s’assurer que to
 
 Selon le plan Workfront actuellement utilisé par votre entreprise, les scénarios suivants existent :
 
-* Si votre société dispose d’un nouveau plan Workfront, vous devez disposer d’un plan Workfront Ultimate. Les objectifs Workfront sont inclus uniquement dans ce plan.
+* Si votre société dispose d’un nouveau plan Workfront, vous devez disposer d’un plan Ultimate Workfront. Les objectifs Workfront sont inclus uniquement dans ce plan.
 
 * Si votre société dispose du plan Workfront actuel, votre organisation doit acheter une licence supplémentaire, en plus de la licence Workfront, pour que les personnes puissent accéder à Objectifs Workfront.
 
@@ -85,7 +85,7 @@ En tant qu’administrateur ou administratrice Workfront, vous pouvez désormais
 
 Votre administrateur ou administratrice Workfront ou de groupes doit vous attribuer un modèle de disposition qui comprend la zone Objectifs dans le menu principal afin que vous puissiez accéder à Objectifs Workfront.
 
-![](assets/layout-template-align-highlighted-350x220.png)
+![Modèle de disposition](assets/layout-template-align-highlighted-350x220.png)
 
 Votre administrateur ou administratrice Workfront ou votre administrateur ou administratrice de groupes peut également ajouter les éléments suivants à votre modèle de disposition afin que vous puissiez facilement accéder à Objectifs Workfront :
 

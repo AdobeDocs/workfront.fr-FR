@@ -6,10 +6,10 @@ description: Vous pouvez suivre facilement la progression d’une épreuve confi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 82%
 
 ---
 
@@ -69,24 +69,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Les lignes entre les étapes représentent les dépendances entre elles. Les lignes menant aux étapes inactives sont pointillées jusqu’à ce que l’étape soit activée.
 
-   Vous pouvez passer votre souris sur une étape dans le diagramme pour afficher sa progression. Si l’étape n’est pas active et que vous disposez de droits de modification de l’étape, vous pouvez cliquer sur le bouton Activer l’étape ![](assets/activate-stage-btn.png) pour la démarrer. Si l’étape est active et que vous disposez de droits de modification de l’étape, vous pouvez la verrouiller. ![](assets/lock-stage-btn.png)Pour plus d’informations sur la barre de progression (S, O, C, D), voir [Voir la progression et le statut d’une épreuve dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+   Vous pouvez passer votre souris sur une étape dans le diagramme pour afficher sa progression. Si l’étape n’est pas active et que vous disposez des droits de modification sur l’étape, vous pouvez cliquer sur le bouton Activer l’étape ![Activer l’étape](assets/activate-stage-btn.png) pour démarrer l’étape. Si l’étape est active et que vous disposez de droits de modification de l’étape, vous pouvez la verrouiller. ![Étape de verrouillage](assets/lock-stage-btn.png) Pour plus d’informations sur la barre de progression (S, O, C, D) , voir  [Afficher la progression et le statut d’une épreuve dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ## Afficher une étape
 
 1. Dans une liste de documents contenant le document, passez votre souris sur la ligne contenant le document, puis cliquez sur **Workflow de relecture**.
 1. Sur le diagramme, cliquez sur l’étape que vous souhaitez afficher.
 
-   ![](assets/view-stage-diagram-350x204.png)
+   ![Afficher le diagramme d’étape](assets/view-stage-diagram-350x204.png)
 
 1. Pour développer les détails d’une étape, cliquez sur la flèche latérale située sous son nom.
 
-   ![](assets/stage-details-caret-350x167.png)
+   ![Détails de l’étape](assets/stage-details-caret-350x167.png)
 
 ## Afficher toutes les étapes
 
 Pour afficher toutes les étapes d’un workflow automatisé, procédez comme suit :
 
-1. Cliquez sur le bouton Modifier la vue en haut de la page ![](assets/change-view-btn.png), puis cliquez sur **Afficher toutes les étapes**.
+1. Cliquez sur le bouton Modifier l’affichage en haut de la page ![Modifier l’affichage](assets/change-view-btn.png), puis cliquez sur **Afficher toutes les étapes**.
 
    Toutes les étapes du workflow automatisé sont répertoriées dans la section, mais les détails sont masqués.
 
@@ -96,5 +96,5 @@ Pour afficher toutes les étapes d’un workflow automatisé, procédez comme su
 
 Pour afficher toutes les étapes de votre workflow automatisé avec leurs détails développés :
 
-1. Cliquez sur le bouton Modifier la vue en haut de la page ![](assets/change-view-btn.png), puis cliquez sur **Voir toutes les étapes en détail**.
+1. Cliquez sur le bouton Modifier l’affichage en haut de la page ![Modifier l’affichage](assets/change-view-btn.png), puis cliquez sur **Afficher toutes les étapes en détail**.
 1. Pour afficher les détails d’une étape, cliquez sur la flèche vers le bas située sous son nom.

@@ -6,10 +6,10 @@ description: Vous pouvez rechercher, filtrer et trier les commentaires sur les �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '864'
+ht-degree: 97%
 
 ---
 
@@ -120,7 +120,7 @@ Lorsque vous triez la liste des commentaires, l’option de tri que vous choisis
 1. Si la zone de commentaires n’est pas ouverte, cliquez sur **Afficher les commentaires** dans le coin supérieur droit.
 
 1. Cliquez sur le menu de tri pour l’ouvrir.
-1. ![](assets/mceclip3.png)
+1. ![Menu Tri](assets/mceclip3.png)
 
 1. Sélectionnez l’une des options de tri suivantes :
 
@@ -171,7 +171,7 @@ Lorsque vous triez la liste des commentaires, l’option de tri que vous choisis
      </tr> 
      <tr> 
       <td role="rowheader">Appareil (bas)</td> 
-      <td> <p>(Disponible uniquement pour les épreuves interactives.) Affiche les commentaires dans l’ordre des résolutions sélectionnées lors de leur rédaction. Les commentaires rédigés sur les résolutions les plus élevées s’affichent en premier.</p> <p>Pour plus d’informations sur la modification de la résolution d’une épreuve interactive, voir <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Modifier la résolution de l’épreuve interactive dans la visionneuse de relecture</a>.</p> </td> 
+      <td> <p>(Disponible uniquement pour les épreuves interactives.) Affiche les commentaires dans l’ordre en fonction de la résolution sélectionnée au moment où le commentaire a été effectué. Les commentaires rédigés sur les résolutions les plus élevées s’affichent en premier.</p> <p>Pour plus d’informations sur la modification de la résolution d’une épreuve interactive, voir <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Modifier la résolution de l’épreuve interactive dans la visionneuse de relecture</a>.</p> </td> 
       <td>Disponible uniquement pour les épreuves interactives.</td> 
      </tr> 
     </tbody> 

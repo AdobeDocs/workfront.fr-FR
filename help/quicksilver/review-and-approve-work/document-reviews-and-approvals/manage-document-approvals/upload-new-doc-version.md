@@ -6,10 +6,10 @@ description: Vous pouvez charger une nouvelle version du document et demander l�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 54%
+source-wordcount: '480'
+ht-degree: 53%
 
 ---
 
@@ -78,7 +78,7 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 1. Faites défiler la page jusqu’à la section **Approbations** dans le volet Résumé du document, puis cliquez sur **Ajouter**.
 
-![](assets/doc-summary-add-approvers.png)
+![Ajouter des approbateurs dans le résumé du document](assets/doc-summary-add-approvers.png)
 
 1. (Facultatif) Définissez une date limite pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée.
 
@@ -89,4 +89,4 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 1. Pour ajouter de nouveaux approbateurs et validants, cliquez sur **Réviseur** ou **Approbateur** et commencez à saisir l’utilisateur, l’utilisatrice ou l’équipe.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Ajouter un approbateur et une date limite](assets/add-approver-and-deadline.png)

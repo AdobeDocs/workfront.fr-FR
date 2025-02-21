@@ -6,10 +6,10 @@ description: Vous pouvez importer des projets existants dans un plan. Les projet
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1690'
-ht-degree: 96%
+source-wordcount: '1710'
+ht-degree: 92%
 
 ---
 
@@ -38,14 +38,14 @@ Vous pouvez importer des projets existants dans un plan. Les projets importés s
    <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
    <td> <ul></li>
    <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénario n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
+   <p>Le planificateur de scénarios n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
    <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
    <td> <p>Nouveau : Light ou supérieur</p> 
-   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td>Produit* </td> 
@@ -53,20 +53,20 @@ Vous pouvez importer des projets existants dans un plan. Les projets importés s
    <li><p>Pour les plans Workfront actuels : </p>
    <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
 
-<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser [!DNL Scenario Planner]</a>. </p> </td> 
+<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
-   <td> <p>Accès [!UICONTROL Edit] à [!DNL Scenario Planner]</p> <p>Affichage ou accès supérieur à la console Projets.</p> </td> 
+   <td> <p>Accès [!UICONTROL Edit] à [!DNL Scenario Planner]</p> <p>Accès en affichage ou supérieur aux projets.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Autorisations d’objet </p> </td> 
-   <td> <p>Autorisations [!UICONTROL Manage] pour un plan</p> <p>Affichage ou autorisations supérieures des projets.</p><p>Pour plus d’informations sur la demande d’un accès supplémentaire à un plan, consultez <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à un plan dans le [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Autorisations [!UICONTROL Manage] pour un plan</p> <p>Autorisations d’affichage ou supérieures pour les projets.</p><p>Pour plus d’informations sur la demande d’un accès supplémentaire à un plan, consultez <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à un plan dans le [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -164,7 +164,7 @@ Lorsque vous importez un projet dans un plan, certaines informations sur le proj
 
    La boîte [!UICONTROL Importer des projets] s’affiche. Les projets dont les dates sont incluses dans la période de votre plan s’affichent dans une liste.
 
-   ![](assets/project-import-ui-projects-selected-350x72.png)
+   ![Importer des projets](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
@@ -174,9 +174,9 @@ Lorsque vous importez un projet dans un plan, certaines informations sur le proj
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. (Facultatif) Cliquez sur l’**[!UICONTROL icône Filtrer]** ![](assets/filter-nwepng.png)et sélectionnez un filtre disponible dans la liste pour réduire le nombre de projets sur votre liste. Par défaut, la liste des projets est filtrée par le filtre de projet actuellement sélectionné de la personne dans une liste de projets.
+1. (Facultatif) Cliquez sur l’**[!UICONTROL icône Filtre]** ![icône Filtre](assets/filter-nwepng.png) et sélectionnez un filtre disponible dans la liste pour réduire le nombre de projets de votre liste. Par défaut, la liste des projets est filtrée par le filtre de projet actuellement sélectionné de la personne dans une liste de projets.
 
-1. (Facultatif) Cliquez sur l’**[!UICONTROL icône Rechercher]** ![](assets/search-icon.png) et ajoutez un mot-clé affiché dans n’importe quel champ de l’écran. Les éléments contenant le mot de recherche s’affichent automatiquement dans la liste et tous les éléments sont masqués.
+1. (Facultatif) Cliquez sur l’**[!UICONTROL icône Rechercher]** ![icône Rechercher](assets/search-icon.png) et ajoutez un mot-clé affiché dans n’importe quel champ de l’écran. Les éléments contenant le mot de recherche s’affichent automatiquement dans la liste et tous les éléments sont masqués.
 
 1. (Le cas échéant) Cliquez sur l’**[!UICONTROL icône X]** pour supprimer la recherche et afficher tous les projets.
 1. Sélectionnez jusqu’à 100 projets et cliquez sur **[!UICONTROL Importer]**.
@@ -185,10 +185,10 @@ Lorsque vous importez un projet dans un plan, certaines informations sur le proj
 
    Remarquez ce qui suit :
 
-   * Une icône de projet ![](assets/project-icon-sp.png) s’affiche à droite du nom de l’initiative.
+   * Une icône de projet ![icône de projet](assets/project-icon-sp.png) s’affiche à droite du nom de l’initiative.
    * Si la.chronologie du projet dépasse la durée du plan, la barre de l’initiative se termine par une marge pointue à gauche (lorsque la date de début est antérieure à la date du plan) ou à droite (lorsque la date de fin est supérieure à la date du plan).
 
-     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![Barre de projets antérieure à la date de début](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * Le nombre de mois et de.fonctions ont été mis à jour pour correspondre à ceux du projet.
 
@@ -198,7 +198,7 @@ Lorsque vous importez un projet dans un plan, certaines informations sur le proj
 
 1. Cliquez sur la barre représentant la nouvelle initiative pour ouvrir le panneau des détails de l’initiative à droite.
 
-   ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+   ![Durée de l&#39;initiative](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
    Dans la zone **[!UICONTROL Durée de l’initiative]**, consultez les informations suivantes :
 
@@ -234,4 +234,4 @@ Lorsque vous importez un projet dans un plan, certaines informations sur le proj
 1. (Facultatif) Pour mettre à jour les modifications apportées à l’initiative dans le projet à partir duquel elle a été importée, publiez le projet à partir du plan. Pour plus d’informations sur la publication de plans, voir [Mettre à jour ou créer des projets en publiant des initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 1. (Facultatif) Cliquez sur l’icône du projet pour accéder au projet lié.
 
-   ![](assets/project-icon-on-initiative-highlighted-350x49.png)
+   ![Icône de projet sur l’initiative](assets/project-icon-on-initiative-highlighted-350x49.png)
