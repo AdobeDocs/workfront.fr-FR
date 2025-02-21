@@ -6,10 +6,10 @@ description: Vous pouvez personnaliser le type d’informations affichées à l�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 95%
+source-wordcount: '1731'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,9 +78,9 @@ Vous pouvez créer une nouvelle vue standard ou personnaliser une vue standard e
 
 1. Cliquez sur le menu déroulant **Vue** dans toute liste où vous souhaitez créer ou personnaliser une vue.
 
-1. Cliquez sur le bouton **+ Nouvelle vue** pour créer une vue.
+1. Cliquez sur le bouton **+ Nouvel affichage** pour créer un affichage.
 Ou
-Cliquez sur l&#39;icône **Modifier** ![Icône Modifier](assets/edit-icon.png) qui s&#39;affiche lorsque vous pointez sur la droite d&#39;une vue existante que vous souhaitez modifier.
+Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) qui s’affiche lorsque vous pointez à droite d’une vue existante à modifier.
 La boîte de dialogue **Personnaliser la vue** s’affiche.
 
 1. Dans la section **Aperçu de la colonne**, effectuez l’une des opérations suivantes :
@@ -123,7 +123,7 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Personnaliser le libellé de colonne</strong></td> 
-           <td><p>Spécifiez un libellé personnalisé pour la colonne. Ce libellé remplace le libellé par défaut.</p></td> 
+           <td><p>Spécifiez un libellé personnalisé pour la colonne. Ce libellé remplace le libellé par défaut. Nous vous recommandons d’utiliser uniquement des caractères UTF-8 pour éviter des problèmes de compatibilité.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Format du champ</strong></td> 
@@ -135,7 +135,7 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Règles de la colonne</strong></td> 
-           <td><p>Cliquez sur <strong>+ Ajouter une règle pour cette colonne </strong> pour définir une règle pour la colonne. Après avoir ajouté une règle, vous pouvez définir des styles de champ et de texte définissant le mode d’affichage des champs correspondant à cette règle. Cliquez sur <strong>Ajouter une règle</strong> lorsque vous avez terminé de définir la règle.</p></td> 
+           <td><p>Cliquez sur <strong>+ Ajouter une règle pour cette colonne</strong> afin de définir une règle pour la colonne. Après avoir ajouté une règle, vous pouvez définir des styles de champ et de texte définissant le mode d’affichage des champs correspondant à cette règle. Cliquez sur <strong>Ajouter une règle</strong> lorsque vous avez terminé de définir la règle.</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -179,7 +179,7 @@ Pour créer ou personnaliser une vue Agile :
       Vous ne pouvez pas personnaliser la vue Agile par défaut.
 
    1. Cliquez à nouveau sur le menu déroulant **Vue**, puis sur **Personnaliser la vue**.\
-      ![](assets/view-agile-customize.png)
+      ![Personnaliser la vue](assets/view-agile-customize.png)
 
 1. (Le cas échéant) Pour créer une vue Agile, cliquez sur **Nouvelle vue**.\
    La boîte de dialogue **Personnaliser la vue Agile** s’affiche.
@@ -248,7 +248,7 @@ Pour créer ou personnaliser une vue Agile :
     </tbody> 
    </table>
 
-1. Dans la zone **Champs supplémentaires**, cliquez sur **Ajouter un champ**, puis sélectionnez le champ que vous souhaitez ajouter aux cartes d’article. (Il s’agit des mêmes champs que ceux que vous pouvez ajouter lors de la personnalisation d’un affichage ou de la création de colonnes pour un rapport.)\
+1. Dans la zone **Champs supplémentaires**, cliquez sur **Ajouter un champ**, puis sélectionnez le champ à ajouter aux cartes d’histoire. (Il s’agit des mêmes champs que ceux que vous pouvez ajouter lors de la personnalisation d’un affichage ou de la création de colonnes pour un rapport.)\
    Répétez ce processus pour ajouter jusqu’à trois champs supplémentaires aux cartes d’histoire.\
    Lorsque vous ajoutez des champs à des cartes d’histoire, ces champs ne s’affichent que lorsque le champ est renseigné.
 

@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Groupement : parrain de projet pour une liste de tâches"
+title: 'Regroupement : sponsor de projet pour une liste de tâches'
 description: Ce regroupement de tâches permet de regrouper les tâches en fonction de la personne sponsor du projet.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 77%
+source-wordcount: '191'
+ht-degree: 75%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 77%
 
 Ce regroupement de tâches permet de regrouper les tâches en fonction de la personne sponsor du projet.
 
-![](assets/grouping--project-sponsor-for-a-task-350x189.png)
+![Regrouper par sponsor de projet](assets/grouping--project-sponsor-for-a-task-350x189.png)
 
 ## Conditions d’accès
 
@@ -40,7 +40,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,5 +80,5 @@ Pour appliquer ce regroupement :
    ```
 
 1. Cliquez sur **Terminé**.
-1. Mettez à jour le nom du groupement, puis cliquez sur **Enregistrer le groupement**.
+1. Mettez à jour le nom du regroupement, puis cliquez sur **Enregistrer le regroupement**.
 

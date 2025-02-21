@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des rapports dans Adobe Workfront pour consul
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 93%
 
 ---
 
@@ -50,7 +50,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 Pour accéder aux rapports que vous avez créés ou qui ont été partagés avec vous ou publiquement :
 
-1. Depuis le **menu principal** ![](assets/main-menu-icon.png), cliquez sur **Rapports**.
+1. Dans le **Menu principal** ![icône du menu principal](assets/main-menu-icon.png), cliquez sur **Rapports**.
 
 1. Cliquez sur l’une des options suivantes, en fonction du rapport que vous souhaitez afficher :
 
@@ -67,10 +67,10 @@ Vous pouvez utiliser des dossiers pour organiser les rapports que vous créez. V
 
 ### Créer un nouveau dossier de rapports {#create-a-new-folder-for-reports}
 
-1. Dans le **menu principal** ![](assets/main-menu-icon.png), cliquez sur **Rapports**.
+1. Dans le **Menu principal** ![icône du menu principal](assets/main-menu-icon.png), cliquez sur **Rapports**.
 
 1. Cliquez sur l’icône **Nouveau dossier**.\
-   ![](assets/nwe-new-folder-350x346.png)
+   ![Icône Nouveau dossier](assets/nwe-new-folder-350x346.png)
 
 1. Indiquez un nom pour le nouveau dossier, puis appuyez sur « Entrée ».
 1. Depuis le dossier **Mes rapports**, ajoutez des rapports au nouveau dossier.\
@@ -82,7 +82,7 @@ Vous pouvez utiliser des dossiers pour organiser les rapports que vous créez. V
 
 ### Ajouter des rapports à un dossier {#add-reports-to-a-folder}
 
-1. Depuis le **menu principal** ![](assets/main-menu-icon.png), cliquez sur **Rapports**.
+1. Dans le **Menu principal** ![icône du menu principal](assets/main-menu-icon.png), cliquez sur **Rapports**.
 
 1. Cliquez sur **Mes rapports**.\
    Ou\
@@ -94,4 +94,4 @@ Vous pouvez utiliser des dossiers pour organiser les rapports que vous créez. V
    >
    >Vous ne pouvez déplacer les rapports que depuis le dossier **Mes rapports** vers d’autres dossiers imbriqués sous **Mes rapports**. Vous ne pouvez pas déplacer de rapports depuis ou vers le dossier **Partagé(s) avec moi** ou **Tous les rapports** depuis ou vers d’autres dossiers.
 
-   ![](assets/nwe-drag-report-to-folder-350x292.png)
+   ![Faire glisser le rapport dans le dossier](assets/nwe-drag-report-to-folder-350x292.png)

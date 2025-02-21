@@ -4,10 +4,10 @@ description: Filtrer un tableau dans la zone de travail des rapports
 hidefromtoc: true
 hide: true
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '871'
+ht-degree: 93%
 
 ---
 
@@ -46,19 +46,19 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 
 ## Configurer des règles de filtrage pour un tableau
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Reporting**.
 
 1. Cliquez sur **Nouveau rapport**.
 
    Ou
 
-   Accédez à un rapport existant, cliquez sur l’icône **Menu Plus** ![](assets/more-icon.png) dans l’en-tête du rapport, puis sélectionnez **Modifier**.
+   Sur un rapport existant, cliquez sur l’icône **Plus de menu** ![Plus d’icône](assets/more-icon.png) dans l’en-tête du rapport, puis sélectionnez **Modifier**.
 
 1. Pour regrouper des lignes sur un nouveau tableau, faites glisser ou double-cliquez sur un bloc du tableau sur la zone de travail.
 
    Ou
 
-   Pour regrouper des lignes sur un tableau existant, cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans l’en-tête du tableau.
+   Pour regrouper des lignes dans un tableau existant, cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans l’en-tête du tableau.
 
 1. Dans le panneau de droite, localisez le champ selon lequel vous souhaitez filtrer votre tableau, puis faites-le glisser vers la section Filtre 
 

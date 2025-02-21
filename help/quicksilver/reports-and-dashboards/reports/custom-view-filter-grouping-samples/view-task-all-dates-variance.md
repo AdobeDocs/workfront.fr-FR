@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Afficher : tâche avec écart de toutes les dates"
+title: 'Afficher : Tâche avec écart sur toutes les dates'
 description: Cette vue de tâche est similaire à la vue « Toutes les dates » fournie avec votre compte Adobe Workfront. Cette vue spécifique comprend les colonnes d’écart calculant la différence en jours entre les dates.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 86%
+source-wordcount: '335'
+ht-degree: 85%
 
 ---
 
@@ -29,7 +29,7 @@ Cette vue illustre un exemple de colonnes calculées, où vous pouvez prendre le
 
 Pour plus d’informations sur l’utilisation des calculs dans une vue, consultez la section [Vue d’ensemble des utilisations courantes du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) dans [Vue d’ensemble des utilisations courantes du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-![](assets/view-task-with-all-dates-variance.png)
+![Afficher la tâche avec toutes les dates](assets/view-task-with-all-dates-variance.png)
 
 ## Conditions d’accès
 
@@ -83,7 +83,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Dans la zone **Prévisualisation de la colonne**, éliminez toutes les colonnes sauf une.
 1. Cliquez sur l’en-tête de la colonne restante, puis sur **Passer en mode Texte** > **Modifier le mode Texte**.
-1. Supprimez le texte que vous trouvez dans la zone **Edit Text Mode** et remplacez-le par le code suivant :
+1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
    ```
    column.1.descriptionkey=name

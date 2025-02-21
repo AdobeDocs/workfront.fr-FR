@@ -6,10 +6,10 @@ description: Vous pouvez supprimer une page externe d’un tableau de bord si vo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 94%
+source-wordcount: '249'
+ht-degree: 83%
 
 ---
 
@@ -69,11 +69,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Cliquez sur **Actions du tableau de bord**, puis cliquez sur **Modifier**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![Modifier le tableau de bord](assets/unshimmed-edit-dashboard.png)
 
-1. Sur le côté droit de l’écran, localisez la page externe que vous souhaitez supprimer et cliquez sur l’icône **Supprimer** ![](assets/delete.png).
+1. Sur le côté droit de l’écran, recherchez la page externe à supprimer, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png).
 
-   ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![Icône Supprimer la page externe dans le tableau de bord](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. Cliquez sur **Enregistrer et fermer** dans le coin inférieur gauche.
 

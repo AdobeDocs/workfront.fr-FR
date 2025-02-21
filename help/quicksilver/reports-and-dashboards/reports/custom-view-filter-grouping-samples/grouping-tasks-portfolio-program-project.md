@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Groupement : tâches par Portfolio, programme et projet"
+title: 'Regroupement : tâches par Portfolio, programme et projet'
 description: Utilisez ce regroupement de tâches pour classer les tâches par portfolio, programme, puis par projet auxquels elles sont liées.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 79%
+source-wordcount: '214'
+ht-degree: 77%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 
 Utilisez ce regroupement de tâches pour classer les tâches par portfolio, programme, puis par projet auxquels elles sont liées.
 
-![](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+![Regroupement de projets du programme Portfolio](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## Conditions d’accès
 
@@ -40,7 +40,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,10 +68,10 @@ Pour appliquer ce regroupement :
 
 1. Accédez à une liste de tâches.
 1. Dans le menu déroulant **Regroupement**, sélectionnez **Nouveau regroupement**.
-1. Cliquez sur **Ajouter un groupement**.
+1. Cliquez sur **Ajouter un regroupement**.
 
 1. Cliquez sur **Passer en mode texte**.
-1. Supprimez le texte dans la zone **Group by**.
+1. Supprimez le texte de la zone **Regrouper par**.
 1. Remplacez le texte par le code suivant :
 
    ```
@@ -91,6 +91,6 @@ Pour appliquer ce regroupement :
    textmode=true
    ```
 
-1. Cliquez sur **Done** > **Save Grouping**.
-1. (Facultatif) Mettez à jour le nom du groupement, puis cliquez sur **Enregistrer le groupement**.
+1. Cliquez sur **Terminé** > **Enregistrer le regroupement**.
+1. (Facultatif) Mettez à jour le nom du regroupement, puis cliquez sur **Enregistrer le regroupement**.
 

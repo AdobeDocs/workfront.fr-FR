@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Afficher : afficher les instructions de tâche dans une liste de tâches"
+title: 'Afficher : afficher les indentations de tâche dans une liste de tâches'
 description: Dans cette vue de tâche, vous pouvez ajouter du code à la colonne Nom de la tâche pour afficher les tâches mises en retrait selon la structure de répartition du travail du projet.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 71%
+source-wordcount: '255'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 71%
 
 Dans cette vue de tâche, vous pouvez ajouter du code à la colonne Nom de la tâche pour afficher les tâches mises en retrait selon la structure de répartition du travail du projet.
 
-![](assets/view-text-mode-indentation-task-list-350x171.png)
+![Afficher la mise en retrait de la tâche](assets/view-text-mode-indentation-task-list-350x171.png)
 
 ## Conditions d’accès
 
@@ -40,7 +40,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,9 +67,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Accédez à une liste de tâches.
 1. Dans le menu déroulant **Vue**, cliquez sur **Nouvelle vue**.
 
-1. Cliquez sur **Ajouter la colonne** et commencez à saisir &quot;Nom de la tâche&quot; dans le champ **Afficher dans cette colonne** , puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+1. Cliquez sur **Ajouter une colonne** et commencez à saisir « Nom de la tâche » dans le champ **Afficher dans cette colonne** puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
 
-1. Dans la nouvelle colonne, cliquez sur **Passer en mode Texte** > **Modifier le mode Texte**.
+1. Dans la nouvelle colonne, cliquez sur **Basculer vers le mode Texte** > **Modifier le mode Texte**.
 1. Supprimez le texte que vous trouvez dans la ligne `valuefield=` et remplacez-le par le code suivant :
 
    ```

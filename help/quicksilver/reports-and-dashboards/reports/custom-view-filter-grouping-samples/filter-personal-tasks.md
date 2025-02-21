@@ -7,9 +7,9 @@ description: Ce filtre de tâches renvoie les demandes de travail ad hoc envoyé
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '305'
 ht-degree: 26%
 
 ---
@@ -24,7 +24,7 @@ Les demandes de travail ad hoc et les tâches à effectuer sont enregistrées da
 
 Les tâches personnelles ne sont pas liées à un projet, mais elles peuvent être déplacées vers un projet, si nécessaire. Pour plus d’informations, voir [Créer des tâches personnelles](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
 
-![](assets/personal-tasks-report.png)
+![Rapport des tâches personnelles](assets/personal-tasks-report.png)
 
 ## Conditions d’accès
 

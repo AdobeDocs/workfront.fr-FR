@@ -6,10 +6,10 @@ description: Vous pouvez appliquer la vue Jalon à une liste de projets ou à un
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1312'
+ht-degree: 99%
 
 ---
 
@@ -126,16 +126,16 @@ Lors de l’affichage d’une liste de projets ou d’un rapport de projet dans 
 * **Icônes de statut de la tâche :** une icône de statut s’affiche à côté de chaque projet et tâche dans la vue « Jalon ».
 
    * À l’heure\
-     ![](assets/gantt-ontime.png)
+     ![Icône Heure d’activation](assets/gantt-ontime.png)
 
    * En retard\
-     ![](assets/gantt-behind.png)
+     ![Icône Derrière](assets/gantt-behind.png)
 
    * En danger\
-     ![](assets/gantt-atrisk.png)
+     ![ Icône En danger ](assets/gantt-atrisk.png)
 
    * En retard\
-     ![](assets/gantt-late.png)
+     ![Icône de retard](assets/gantt-late.png)
 
   Vous pouvez désactiver l’affichage de ces icônes de statut, comme décrit dans cet article à la section [Configurer les informations qui s’affichent dans la vue « Jalon »](#configure-what-information-displays-in-the-milestone-view).\
   Pour plus d’informations sur chaque type de statut, consultez l’article [Vue d’ensemble du statut de progression de la tâche](../../../manage-work/tasks/task-information/task-progress-status.md).

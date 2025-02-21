@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Graphique d’un rapport selon un champ personnalisé à sélection multiple
+title: Graphique d’un rapport à l’aide d’un champ personnalisé à sélection multiple
 description: Vous ne pouvez tracer un rapport en fonction d’un champ personnalisé multi-sélection qu’après avoir créé un champ calculé supplémentaire qui capture les choix sélectionnés dans le champ personnalisé multi-sélection.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 87%
+source-wordcount: '1019'
+ht-degree: 83%
 
 ---
 
@@ -57,7 +57,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -75,7 +75,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -99,7 +99,7 @@ Vous ne pouvez pas créer un graphique dans un rapport en faisant référence à
 Pour créer un champ calculé qui fait référence à un champ personnalisé multi-sélection, vous devez disposer des conditions préalables suivantes :
 
 * Un champ personnalisé multi-sélection dans un formulaire personnalisé.\
-  Pour plus d’informations sur la création de formulaires personnalisés et l’ajout de champs personnalisés, reportez-vous à l’article [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Pour plus d’informations sur la création de formulaires personnalisés et l’ajout de champs personnalisés à ces formulaires, consultez l’article [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Un formulaire personnalisé avec le champ personnalisé multi-sélection attaché aux objets.
 * Valeurs du champ personnalisé multi-sélection pour chaque objet.
@@ -108,14 +108,14 @@ Pour créer le champ personnalisé calculé qui fait référence au champ person
 
 1. Créez un formulaire personnalisé ou modifiez un formulaire existant.
 
-   Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Sélectionnez l’objet ou les objets que vous souhaitez utiliser avec le formulaire personnalisé.
 1. Cliquez sur **Ajouter un champ**, puis sur **Calculé** pour ajouter le champ personnalisé multi-sélection au formulaire.
 
 1. Dans la boîte **Libellé**, nommez le nouveau champ calculé pour indiquer qu’il fait référence au champ personnalisé multi-sélection.
 
-   Par exemple : &quot;Champ à sélection multiple calculé&quot;.
+   Par exemple : « Champ Multi-sélection calculé ».
 
 1. Dans la case **Calcul**, saisissez le code suivant :
 
@@ -125,9 +125,9 @@ Pour créer le champ personnalisé calculé qui fait référence au champ person
 
 1. Remplacez « Champ personnalisé multi-sélection » par le nom réel de votre champ personnalisé multi-sélection, tel qu’il apparaît dans Workfront.
 
-   ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![Champ personnalisé multi-sélection calculé](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Facultatif) Si le champ personnalisé à sélection multiple figure déjà sur ce formulaire et si ce formulaire est déjà joint aux objets, activez l’option **Appliquer aux calculs existants** .
+1. (Facultatif) Si le champ personnalisé à sélection multiple se trouve déjà dans ce formulaire et si ce formulaire est déjà joint à des objets, activez l’option **Appliquer aux calculs existants**.
 
    Cela permet de s’assurer que le nouveau champ calculé est automatiquement rempli avec la valeur du champ personnalisé multi-sélection lorsqu’il est ajouté aux formulaires déjà attachés aux objets.
 
@@ -140,24 +140,24 @@ Pour créer le champ personnalisé calculé qui fait référence au champ person
 
 1. (Facultatif) Pour vous assurer que tous les champs calculés par lesquels vous souhaitez établir des graphiques sont remplis de valeurs, dans l’onglet Détails du rapport, sélectionnez tous les objets qui contiennent le formulaire personnalisé avec le champ personnalisé multi-sélection et le champ personnalisé calculé, puis cliquez sur **Modifier**.
 1. (Facultatif et le cas échéant) Sélectionnez le champ **Recalculer les expressions personnalisées**, puis cliquez sur **Enregistrer les modifications**.\
-   ![](assets/recalculate-custom-expressions-350x259.png)
+   ![Recalculer les expressions personnalisées](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >Cette option a été supprimée de la modification de projets en bloc.  Vous pouvez toujours recalculer les expressions pour les projets en bloc en cliquant sur l’icône **Plus** ![](assets/more-icon-45x33.png) en haut d’une liste de projets, puis sur **Recalculer les expressions**.
+   >Cette option a été supprimée de la modification de projets en bloc.  Vous pouvez toujours recalculer des expressions pour les projets en bloc en cliquant sur l’icône **Plus** ![Icône Plus](assets/more-icon-45x33.png) en haut d’une liste de projets, puis **Recalculer les expressions**.
 
 1. Accédez au rapport dans lequel vous souhaitez ajouter le graphique pour le champ calculé qui fait référence au champ personnalisé multi-sélection.
 1. Cliquez sur **Actions de rapport**, puis sur **Modifier**.
 
 1. Sélectionnez l’onglet <strong>Regroupements</strong>, puis cliquez sur <strong>Ajouter un regroupement</strong>.
-1. Ajoutez le <strong>Champ à sélection multiple calculé</strong> que vous avez créé comme regroupement.
+1. Ajoutez le <strong>Champ multi-sélection calculé</strong> que vous avez créé en tant que regroupement.
 1. Sélectionnez l’onglet <strong>Graphique</strong> et ajoutez un graphique à votre rapport.
 
    Par exemple, choisissez un graphique en **colonnes**.
    <br>Pour plus d’informations sur l’ajout d’un graphique à un rapport, voir la section <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Ajouter un graphique à un rapport</a> dans l’article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Créer un rapport personnalisé</a>.
-1. Dans le champ **Axe inférieur (X)** , sélectionnez le <strong> champ à sélection multiple calculée </strong> à afficher dans le graphique.
+1. Dans le champ **Bas de l’axe (X)**, sélectionnez le <strong>Champ multi-sélection calculé</strong> à afficher dans le graphique.
 1. Cliquez sur <strong>Enregistrer + Fermer</strong>.
 
-   Le rapport affiche les résultats regroupés par champ à sélection multiple calculée dans un graphique.
+   Le rapport affiche les résultats regroupés par le champ de sélection multiple calculé dans un graphique.
 
-   ![](assets/chart-multi-select-field-column-chart-example.png)
+   ![Champ à sélection multiple dans le graphique](assets/chart-multi-select-field-column-chart-example.png)

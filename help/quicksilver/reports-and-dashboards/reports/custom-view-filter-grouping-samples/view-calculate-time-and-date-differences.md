@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Afficher : calculer les différences d’heure et de date"
+title: 'Afficher : calculer les différences d’heure et de date'
 description: Découvrez comment calculer les différences d’heure et de date.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 92%
+source-wordcount: '621'
+ht-degree: 91%
 
 ---
 
@@ -70,7 +70,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Vous pouvez, par exemple, calculer la différence entre la date d’achèvement prévue et la date d’achèvement réelle d’une tâche.
 
-![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![Afficher la différence de date](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Accédez à une liste de tâches.
 1. Dans le menu déroulant **Vue**, cliquez sur **Nouvelle vue**.
@@ -100,7 +100,7 @@ Vous pouvez, par exemple, calculer la différence entre la date d’achèvement 
 Pour obtenir la liste des objets et de leurs objets parent, reportez-vous à la section « Comprendre l’interdépendance et la hiérarchie des objets » dans la section [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
 Vous pouvez, par exemple, calculer la différence entre la date d’achèvement prévue d’une tâche et la date d’achèvement prévue de sa tâche parent, ou du projet sur lequel la tâche est effectuée.
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![Afficher la différence de date d&#39;achèvement prévue](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Accédez à une liste de tâches.
 1. Dans le menu déroulant **Vue**, cliquez sur **Nouvelle vue**.
@@ -110,7 +110,7 @@ Vous pouvez, par exemple, calculer la différence entre la date d’achèvement 
 1. Cliquez sur **Ajouter une colonne** et commencez à saisir la « Date d’achèvement prévue » dans le champ **Afficher dans cette colonne**, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
 
 1. Cliquez sur **Ajouter une colonne**, puis sur **Passer en mode Texte** > **Modifier le mode Texte**.
-1. Supprimez le texte que vous trouvez dans la zone **Edit Text Mode** et remplacez-le par l’un des codes suivants :
+1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par l’un des codes suivants :
 
    * Pour afficher la différence entre la date d’achèvement prévue du projet et celle de la tâche :
 

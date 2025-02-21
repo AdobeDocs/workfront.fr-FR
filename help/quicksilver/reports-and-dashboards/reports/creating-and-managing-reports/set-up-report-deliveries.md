@@ -6,9 +6,9 @@ description: Vue d’ensemble de la diffusion des rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1534'
 ht-degree: 99%
 
 ---
@@ -189,7 +189,7 @@ Vous pouvez déterminer si un rapport a été configuré pour être diffusé en 
 
 * **Un filtre** pour l’objet de rapport : créez un filtre pour une liste de rapports ou dans un rapport sur les rapports avec l’instruction suivante : *L’ID de rapport planifié n’est pas vide*.\
   Seuls les rapports qui ont été planifiés dans votre liste ou votre rapport s’affichent.\
-  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  ![Filtre de rapport planifié](assets/qs-scheduled-report-filter-350x101.png)\
   Pour plus d’informations sur la création de rapports, consultez la section [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Pour plus d’informations sur la création d’un rapport sur les rapports, consultez la section [Créer un rapport sur les activités de création de rapports](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--

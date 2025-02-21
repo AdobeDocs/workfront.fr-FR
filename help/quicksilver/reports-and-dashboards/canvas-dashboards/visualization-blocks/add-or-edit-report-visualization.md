@@ -4,10 +4,10 @@ description: Ajouter ou modifier un bloc de visualisation dans la zone de travai
 hidefromtoc: true
 hide: true
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 89%
 
 ---
 
@@ -32,12 +32,12 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 >
 >Toutes vos modifications sont enregistrées automatiquement à mesure que vous créez et modifiez les blocs de votre rapport.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Créer des rapports**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Reporting**.
 1. Cliquez sur **Nouveau rapport**, puis créez un rapport avec des tableaux contenant des données, comme décrit dans les sections [Créer un rapport dans la zone de travail de création de rapports](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) et [Ajouter ou modifier un bloc de tableau dans la zone de travail de création de rapports](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
    Ou
 
-   Dans un rapport existant contenant des tableaux de données, cliquez sur l’icône **Menu Plus** ![](assets/more-icon.png) dans l’en-tête du rapport, puis sélectionnez **Modifier**.
+   Dans un rapport existant avec des tableaux contenant des données, cliquez sur l’icône **Plus de menu** ![Plus d’icône](assets/more-icon.png) dans l’en-tête du rapport, puis sélectionnez **Modifier**.
 
 1. Dans la partie droite de l’écran, sous **Ajouter un bloc** :
 
@@ -57,7 +57,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 
 1. (Le cas échéant) Si le rapport contient plusieurs tableaux, dans la zone **Créer votre visualisation** qui s’affiche, sélectionnez le tableau source pour la visualisation.
 
-   ![](assets/select-table-on-vis-350x155.png)
+   ![Sélectionner le tableau lors de la visualisation](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 
 1. Sélectionnez le type de visualisation à ajouter.
 
-   ![](assets/select-vis-type-350x205.png)
+   ![Sélectionnez le type de visualisation](assets/select-vis-type-350x205.png)
 
    Votre visualisation s’affiche, représentant les données du tableau que vous avez sélectionné.
 

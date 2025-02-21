@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '«Vue : congés personnels de l’utilisateur ou de l’utilisatrice »'
-description: "Affichage : heure personnelle de l’utilisateur désactivée"
+title: 'Vue : congés personnels d’utilisateur ou d’utilisatrice'
+description: 'Afficher : Congés Personnels De L''Utilisateur'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 92%
+source-wordcount: '260'
+ht-degree: 91%
 
 ---
 
@@ -71,7 +71,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Afficher les congés personnels des utilisateurs et utilisatrices
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Rapports > Nouveau rapport**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Rapports > Nouveau rapport**.
 1. Dans le menu déroulant, sélectionnez **Congés**.
 1. Cliquez sur **Enregistrer + Fermer**.
 

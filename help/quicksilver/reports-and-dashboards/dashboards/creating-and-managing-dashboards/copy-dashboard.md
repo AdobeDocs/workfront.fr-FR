@@ -6,10 +6,10 @@ description: Vous pouvez copier un tableau de bord et tout son contenu (rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '898'
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ Pour plus d’informations sur la création de tableaux de bord, voir [Créer un
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Tableaux de bord]**.
 
-1. Sélectionnez le tableau de bord à copier, puis cliquez sur **Copier** ![](assets/copy-icon.png).\
+1. Sélectionnez le tableau de bord à copier, puis cliquez sur **Copier** ![icône Copier](assets/copy-icon.png).\
    Ou\
    Ouvrez le tableau de bord à copier, puis cliquez sur **Actions du tableau de bord** > **Copier**.\
    La boîte de dialogue Copie du tableau de bord s’affiche. Tous les éléments du tableau de bord d’origine s’affichent.

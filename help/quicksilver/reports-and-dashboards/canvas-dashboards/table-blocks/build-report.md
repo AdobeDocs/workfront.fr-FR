@@ -4,10 +4,10 @@ description: Créer un rapport dans la zone de travail de reporting
 hidefromtoc: true
 hide: true
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '464'
+ht-degree: 91%
 
 ---
 
@@ -25,11 +25,11 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 >
 >Toutes vos modifications sont enregistrées automatiquement à mesure que vous créez et modifiez les blocs de votre rapport.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Créer des rapports**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Reporting**.
 1. Cliquez sur **Nouveau rapport**.
 1. Dans le coin supérieur gauche de la zone de traval de modification, saisissez le nom de votre rapport.
 
-   Vous pouvez à tout moment modifier le nom du rapport en cliquant sur l’icône **Modifier** ![](assets/edit-icon.png) en regard de son nom.
+   Vous pouvez modifier le nom du rapport à tout moment en cliquant sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) située en regard de son nom.
 
 1. Dans la partie droite de l’écran, faites glisser les blocs à ajouter sur la zone de travail.
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ Une nouvelle option « Tableaux de bord de zones de travail » dans le panneau
 
 1. Cliquez sur le menu déroulant **Personnaliser ce que les utilisateurs et les utilisatrices voient**, puis cliquez sur **Tableaux de bord**.
 
-1. Dans la liste du **panneau de gauche** qui s’affiche ci-dessous, cliquez sur l’icône ![](assets/delete-secondary-nav-item.png) à côté des **tableaux de bord des zones de travail**. L’icône devient ![](assets/add-secondary-nav-item.png) pour indiquer qu’elle est désormais visible dans le panneau de gauche des tableaux de bord.
+1. Dans la liste **Panneau de gauche** qui s’affiche en dessous, cliquez sur l’icône ![Supprimer l’élément de navigation secondaire](assets/delete-secondary-nav-item.png) en regard de **Tableaux de bord de la zone de travail**. L’icône se transforme en ![Ajouter un élément de navigation secondaire](assets/add-secondary-nav-item.png) pour afficher qu’il est désormais visible dans le panneau de gauche Tableaux de bord.
 
 1. Cliquez sur **Enregistrer** au bas de l’écran.
 
@@ -49,7 +49,7 @@ Une nouvelle option « Tableaux de bord de zones de travail » dans le panneau
 
 1. Assurez-vous d’avoir activé l’option des tableaux de bord de zones de travail dans votre modèle de mise en page. Consultez la section **Ajouter des tableaux de bord de zones de travail au menu des tableaux de bord** ci-dessus pour obtenir des instructions.
 
-1. Cliquez sur l’icône ![](assets/main-menu-icon.png) du menu principal, puis cliquez sur **Tableaux de bord**.
+1. Cliquez sur l&#39;icône Menu principal ![icône Menu principal](assets/main-menu-icon.png), puis sur **Tableaux de bord**.
 
 1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
 

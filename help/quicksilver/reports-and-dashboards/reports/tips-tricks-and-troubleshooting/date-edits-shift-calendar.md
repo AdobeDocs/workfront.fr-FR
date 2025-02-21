@@ -7,10 +7,10 @@ description: Lors de la modification en ligne de dates dans une liste d’objets
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 ## Problème
 
 Lors de la modification en ligne de dates dans une liste d’objets, le calendrier affiche plus de dates que prévu. Les jours s’affichent alors en dehors de la zone de calendrier.\
-![](assets/calendar-view-350x134.png)
+![Mode Calendrier](assets/calendar-view-350x134.png)
 
 ## Cause
 

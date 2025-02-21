@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Regroupement : Organiser les résultats de la liste selon une valeur calculée commune à tous les objets du groupement"
+title: 'Regroupement : organise les résultats de la liste selon une valeur calculée commune à tous les objets du regroupement.'
 description: Vous pouvez afficher vos tâches groupées par « Pourcentage d’achèvement » dans des fourchettes de 0 à 25, 26 à 50, 51 à 75, 75 à 99 et 100. Pour ce faire, vous pouvez créer un regroupement en mode texte.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 85%
+source-wordcount: '261'
+ht-degree: 84%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 
 Vous pouvez afficher vos tâches groupées par « Pourcentage d’achèvement » dans des fourchettes de 0 à 25, 26 à 50, 51 à 75, 75 à 99 et 100. Pour ce faire, vous pouvez créer un regroupement en mode texte.
 
-![](assets/grouping-calculated-value-column-to-all-objects.png)
+![Regroupement par valeur calculée](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## Conditions d’accès
 
@@ -40,7 +40,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,4 +81,4 @@ Pour appliquer ce regroupement à une liste de tâches :
    ```
 
 1. Cliquez sur **Terminé**, puis sur **Enregistrer le regroupement**.
-1. (Facultatif) Mettez à jour le nom du groupement, puis cliquez sur **Enregistrer le groupement**.
+1. (Facultatif) Mettez à jour le nom du regroupement, puis cliquez sur **Enregistrer le regroupement**.

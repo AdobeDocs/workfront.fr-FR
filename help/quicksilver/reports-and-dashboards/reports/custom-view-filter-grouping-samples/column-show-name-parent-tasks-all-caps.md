@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Afficher : afficher le nom des tâches parentes en tant que toutes les majuscules"
+title: 'Afficher : afficher les majuscules pour le nom des tâches parents'
 description: Vous pouvez ajouter cette colonne à une vue de tâche pour afficher le nom des tâches parent en majuscules.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 74%
+source-wordcount: '258'
+ht-degree: 71%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 74%
 
 Vous pouvez ajouter cette colonne à une vue de tâche pour afficher le nom des tâches parent en majuscules.
 
-![](assets/column-task-with-all-caps-parent-350x112.png)
+![Colonne avec tâche parent en majuscules](assets/column-task-with-all-caps-parent-350x112.png)
 
 ## Conditions d’accès
 
@@ -40,7 +40,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,12 +67,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 Pour créer cette colonne dans une vue de tâche :
 
 1. Accédez à une liste de tâches.
-1. Dans le menu déroulant **Affichage**, sélectionnez une vue, puis cliquez sur l&#39;icône **Modifier** ![](assets/edit-icon.png).
+1. Dans le menu déroulant **Vue**, sélectionnez une vue, puis cliquez sur l&#39;icône **Modifier** ![Icône Modifier](assets/edit-icon.png).
 Ou\
    Dans le menu déroulant **Vue**, sélectionnez **Nouvelle vue**.
 
-1. Dans la zone **Aperçu des colonnes**, cliquez sur l’en-tête de la colonne qui indique le nom de la tâche dans la liste.
-1. Cliquez sur **Passer en mode Texte**, puis sur **Modifier le mode Texte**.
+1. Dans la zone **Aperçu de la colonne**, cliquez sur l’en-tête de la colonne qui affiche le nom de la tâche dans la liste.
+1. Cliquez sur **Basculer en mode texte** puis sur **Modifier le mode texte**.
 1. Supprimez le texte qui se trouve dans la zone **Mode texte** et remplacez-le par le code suivant :
 
    ```

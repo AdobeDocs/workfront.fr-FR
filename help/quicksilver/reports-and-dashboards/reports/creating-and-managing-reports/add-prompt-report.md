@@ -6,9 +6,9 @@ description: Les filtres et les invites sont similaires dans la mesure où ils l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1369'
 ht-degree: 76%
 
 ---
@@ -75,7 +75,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,9 +90,9 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 1. Accédez au rapport auquel vous souhaitez ajouter une invite.
 1. Développez **Actions de rapport**, puis cliquez sur **Modifier**.
 
-1. Cliquez sur le bouton **Paramètres de rapport** .
-1. Cliquez sur l’onglet **Report Invite** , puis sur **Ajouter une invite**.\
-   ![](assets/create-report-prompt-tab.png)
+1. Cliquez sur le bouton **Paramètres des rapports**.
+1. Cliquez sur l’onglet **Invites de rapport**, puis sur **Ajouter une invite**.\
+   ![Onglet Invites de rapport](assets/create-report-prompt-tab.png)
 
 1. (Le cas échéant) Sélectionnez le champ sur lequel vous souhaitez que l’invite soit basée. Commencez à saisir le nom du champ, puis cliquez pour le sélectionner lorsqu’il apparaît dans la liste.\
    Les options disponibles pour les utilisateurs et les utilisatrices qui exécutent le rapport varient en fonction du champ sélectionné.\
@@ -107,9 +107,9 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
    Renseignez les informations suivantes pour l’invite personnalisée : la condition d’une invite personnalisée ne peut être modifiée qu’en mode texte. Cela permet d’appliquer plusieurs conditions dans un seul champ.
 
    * **Nom du champ :** il s’agit du nom de l’invite tel qu’il s’affiche avant l’exécution du rapport.
-   * **Libellé de l’élément de liste déroulante :** Il s’agit du nom de l’une des options de l’invite telle qu’elle s’affiche avant l’exécution du rapport.
+   * **Libellé d’élément de la liste déroulante :** il s’agit du nom de l’une des options de l’invite telle que vous la voyez avant d’exécuter le rapport.
    * **Condition :** saisissez une condition qui définit l’invite.
-   * **Par défaut :** Vous pouvez sélectionner un élément pour être l’option par défaut de cette invite.
+   * **Par défaut :** vous pouvez sélectionner un élément comme option par défaut pour cette invite.
 
    Utilisez la même syntaxe que celle que vous utiliseriez lors de la saisie d’un filtre de mode texte et joignez vos instructions par « &amp; ». Pour plus d’informations sur la modification d’un filtre en mode texte, voir [Modifier un filtre à l’aide du mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -144,7 +144,7 @@ Pour exécuter un rapport avec une invite :
 
 1. Accédez au rapport à l’aide de l’invite.
 
-   ![](assets/run-report-prompts.png)
+   ![Exécuter les invites de rapport](assets/run-report-prompts.png)
 
 1. Choisissez une condition pour l’une ou toutes les invites affichées dans l’onglet **Invites**.\
    (Facultatif) Vous pouvez laisser les invites vides et ne pas filtrer le rapport selon les conditions d’invite.
@@ -161,16 +161,16 @@ Pour exécuter un rapport avec une invite :
 
 >[!CAUTION]
 >
->Lorsque vous partagez un rapport invité, les utilisateurs connectés et non connectés qui visualisent le rapport à l’aide du lien de partage public ne peuvent pas exécuter le rapport à l’aide de ses invites. Dans ce cas, les résultats du rapport s’affichent sans appliquer d’invites. Les informations affichées seront alors basées sur le niveau d’accès et les autorisations de l’utilisateur, ou sur le niveau d’accès et les autorisations Exécuter en tant qu’utilisateur du rapport, si un niveau est défini.
+>Lorsque vous partagez un rapport à l’invite, les utilisateurs connectés et non connectés qui visualisent le rapport à l’aide du lien de partage public ne peuvent pas exécuter le rapport à l’aide des invites. Dans ce cas, les résultats du rapport s’affichent sans appliquer d’invite, et les informations affichées seront plutôt basées sur le niveau d’accès et les autorisations de l’utilisateur ou sur le niveau d’accès et les autorisations Exécuter en tant qu’utilisateur du rapport, si défini.
 
 Les restrictions suivantes s’appliquent au partage de rapports contenant des invites à partir de Workfront :
 
-* Lorsque vous partagez un rapport publiquement, les utilisateurs ne peuvent pas exécuter le rapport avec des invites appliquées, sauf s’ils disposent : des informations d’identification Workfront, se connectent en premier et accèdent directement au rapport dans Workfront (et non via le lien de partage public).
+* Lorsque vous partagez un rapport publiquement, les utilisateurs ne peuvent pas exécuter le rapport avec des invites appliquées, à moins qu’ils : disposent des informations d’identification Workfront, se connectent en premier et accèdent au rapport directement dans Workfront (et non via le lien de partage public).
 
   Pour plus d’informations sur le partage de rapports, consultez l’article [Partager un rapport dans Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
-* Lorsque vous planifiez la remise d’un rapport invité, le rapport en pièce jointe inclut les données du rapport sans invite. Lorsque la personne clique sur le lien contenu dans l’e-mail pour accéder au rapport, elle doit d’abord se connecter pour afficher le rapport et lancer l’invite.
+* Lorsque vous planifiez la remise d’un rapport à l’invite, le rapport dans la pièce jointe de l’e-mail inclut les données du rapport sans invite. Lorsque la personne clique sur le lien contenu dans l’e-mail pour accéder au rapport, elle doit d’abord se connecter pour afficher le rapport et lancer l’invite.
 
   Pour plus d’informations sur la planification d’une remise de rapport, voir [Planifier la remise automatique d’un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-* Lors de l’exécution d’un rapport avec une invite basée sur les dates, les résultats du rapport sont filtrés en fonction des paramètres de fuseau horaire de votre navigateur. Cela peut entraîner de légères incohérences dans les plages de dates affichées dans un rapport invité pour les dates qui se trouvent au début ou à la fin d’un mois. Si les paramètres de fuseau horaire de votre navigateur sont liés à un emplacement spécifique, les variations de l’heure locale de cet emplacement (telles que l’adhésion à l’heure d’été) seront également prises en compte dans les dates affichées pour un rapport invité. Cela peut entraîner de légères incohérences entre les utilisateurs d’un même fuseau horaire, mais avec des paramètres d’emplacement différents.
+* Lors de l’exécution d’un rapport avec une invite basée sur une date, les résultats du rapport sont filtrés en fonction des paramètres de fuseau horaire de votre navigateur. Cela peut entraîner de légères incohérences dans les périodes affichées dans un rapport à l&#39;invite pour les dates situées au début ou à la fin d&#39;un mois. Si les paramètres de fuseau horaire de votre navigateur sont liés à un emplacement spécifique, les variations de l’heure locale de cet emplacement (telles que le respect de l’heure d’été) seront également prises en compte dans les dates affichées pour un rapport à invite. Cela peut entraîner de légères incohérences de période entre les utilisateurs appartenant au même fuseau horaire, mais avec des paramètres d’emplacement différents.

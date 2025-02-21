@@ -6,10 +6,10 @@ description: Vous pouvez filtrer un rapport en fonction de la période d’une d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 99%
+source-wordcount: '1024'
+ht-degree: 97%
 
 ---
 
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,14 +70,14 @@ Pour plus d’informations sur la création de rapports, consultez [Créer un ra
 
 ## Filtrer un rapport en fonction de la période d’une date. {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png), puis cliquez sur **Création de rapports**.
+1. Cliquez sur l&#39;icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png), puis sur **Rapports**.
 
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez le type de rapport souhaité.\
    Par exemple, sélectionnez **Rapport sur les heures**.
 
 1. Sélectionnez l’onglet **Filtres**.
 1. Cliquez sur **Ajouter une règle de filtre**, puis sélectionnez **Date de saisie des heures**.\
-   ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![Filtrage du rapport sur les heures par période](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. Dans le menu déroulant suivant, sélectionnez l’une des options suivantes :
 

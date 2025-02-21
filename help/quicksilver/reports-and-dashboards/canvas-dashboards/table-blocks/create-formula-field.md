@@ -4,10 +4,10 @@ description: Créer un champ de formule dans la zone de travail de reporting
 hidefromtoc: true
 hide: true
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 92%
 
 ---
 
@@ -22,16 +22,16 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 ## Créer un champ de formule
 
 1. Créez un bloc de tableau ou naviguez jusqu’à lui, comme décrit dans [Ajouter ou modifier un bloc de tableau dans la zone de travail de reporting](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. Dans l’en-tête du tableau du rapport, cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
+1. Dans l’en-tête du tableau du rapport, cliquez sur l’icône **Modifier** ![Icône Modifier](assets/edit-icon.png).
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![Icône Modifier dans l’en-tête du tableau](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
    >Si vous venez de créer le tableau et que vous n’avez pas encore ajouté de champs, cliquez plutôt sur le bouton Modifier au centre du tableau.
 
 1. Cliquez sur **Nouveau +** en haut de la liste **Champs** dans le panneau de droite.
-1. Dans la nouvelle page qui s’ouvre, cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) à côté du nom du champ dans le coin supérieur gauche pour modifier le nom du champ de formule.
+1. Dans la nouvelle page qui s’ouvre, cliquez sur l’icône **Modifier** ![icône Modifier](assets/edit-icon.png) en regard du nom du champ dans le coin supérieur gauche pour modifier le nom du champ de formule.
 1. Faites glisser les **fonctions** ou les **champs** du panneau de gauche sur le créateur de champ au centre pour les ajouter à votre champ de formule.
 
 

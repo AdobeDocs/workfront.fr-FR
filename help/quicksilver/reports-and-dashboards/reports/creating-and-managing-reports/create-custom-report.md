@@ -6,10 +6,10 @@ description: Vous pouvez donner accès aux informations dont votre entreprise a 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 96%
+source-wordcount: '1817'
+ht-degree: 93%
 
 ---
 
@@ -30,35 +30,34 @@ Pour plus d’informations sur la création et la gestion de rapports, y compris
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard </p>
    ou
    <p>Actuel : formule </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès en modification aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p><b>NOTE</b></p>
-   <p> Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Vous obtenez des autorisations de gestion pour les rapports que vous créez.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Vous obtenez des autorisations de gestion pour les rapports que vous créez.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,11 +71,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Pour des informations spécifiques sur les rapports d’objets disponibles, consultez la section [Rapport sur les objets](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) dans l’article [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-   ![](assets/nwe-select-new-report-350x666.png)
+   ![Sélectionner un nouveau rapport](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
    >Vous pouvez également créer un rapport en faisant une copie d’un rapport existant. Pour plus d’informations, consultez la section [Créer une copie d’un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+1. (Facultatif) Pour modifier le titre de votre nouveau rapport, saisissez le titre du rapport de votre choix dans le champ de texte situé dans le coin supérieur gauche du Report Builder. Nous vous recommandons d’utiliser uniquement des caractères UTF-8 pour éviter des problèmes de compatibilité.
 
 1. Dans le générateur de rapports, ajoutez les éléments suivants à votre rapport :
 
@@ -126,11 +127,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Ou
 
-   Pour modifier une colonne existante, cliquez sur la colonne, cliquez sur l’icône **Supprimer** ![](assets/remove-column-icon.png) située à droite du champ actif dans la zone **Afficher dans ce champ de colonne** située dans le coin supérieur gauche du créateur de rapports, puis commencez à saisir un nouveau champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+   Pour modifier une colonne existante, cliquez dessus, puis sur l’icône **Supprimer** ![Icône Supprimer une colonne](assets/remove-column-icon.png) à droite du champ actif dans la zone **Afficher dans cette colonne** dans le coin supérieur gauche du Report Builder, et commencez à saisir un nouveau champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
-   Pour plus d’informations sur les champs que vous voyez dans les colonnes, consultez la section [Glossaire de la terminologie d’Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Pour plus d’informations sur les champs que vous voyez dans les colonnes, consultez [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   ![](assets/nwe-add-column-typeahead-350x459.png)
+   ![Ajouter une saisie semi-automatique de colonne](assets/nwe-add-column-typeahead-350x459.png)
 
 1. (Facultatif) Dans la zone **Paramètres d’une colonne**, sélectionnez **Trier sur la base de cette colonne** pour trier les valeurs de la colonne par ordre alphabétique croissant ou décroissant, puis indiquez si la liste doit utiliser cette colonne comme premier tri.
 
@@ -196,13 +197,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Commencez à créer un rapport comme décrit dans la section de cet article [Créer un rapport](#create-a-report).
 1. Dans le Report Builder, sélectionnez l’onglet **Regroupements** pour identifier la manière dont vous souhaitez regrouper les éléments dans le rapport.
-1. Cliquez sur **Ajouter un groupement** pour ajouter un nouveau groupement.
+1. Cliquez sur **Ajouter un regroupement** pour ajouter un nouveau regroupement.
 
    Ou
 
    Choisissez **Appliquer un regroupement existant** pour sélectionner un regroupement existant lorsqu’il s’affiche dans la liste.
 
-   ![](assets/nwe-add-grouping-350x230.png)
+   ![Ajouter un regroupement](assets/nwe-add-grouping-350x230.png)
 
 1. Commencez à saisir le champ que vous souhaitez ajouter en tant que regroupement. Si le champ est disponible, il est renseigné pour chaque objet auquel il peut être associé. Cliquez sur le nom du champ pour l’ajouter à ce regroupement.
 1. (Facultatif) Vous pouvez choisir de créer un regroupement en mode texte en cliquant sur **Basculer en mode texte**. Pour plus d’informations sur l’utilisation du mode texte, voir [Vue d’ensemble du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
@@ -234,7 +235,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    Ou\
    Choisissez **Appliquer un filtre existant** pour utiliser un filtre existant.
 
-   ![](assets/nwe-add-a-filter-350x93.png)
+   ![Ajouter un filtre](assets/nwe-add-a-filter-350x93.png)
 
 1. Si vous avez cliqué sur **Ajouter une règle de filtre**, commencez à saisir le champ que vous voulez ajouter comme filtre. Si le champ est disponible, il est renseigné pour chaque objet auquel il peut être associé. Cliquez sur le nom du champ pour l’ajouter à ce filtre.\
    Utilisez les modificateurs de filtre pour créer votre filtre. Pour plus d’informations sur les modificateurs de filtre, voir [Modificateurs de filtre et de condition](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -254,7 +255,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Commencez à créer un rapport comme décrit dans la section [Créer un rapport](#create-a-report) de cet article.
 1. Dans le Report Builder, sélectionnez l’onglet **Graphique**, puis sélectionnez le type de graphique que vous souhaitez ajouter.
 
-   ![](assets/nwe-add-a-chart-350x247.png)
+   ![Ajouter un graphique](assets/nwe-add-a-chart-350x247.png)
 
    Pour plus d’informations sur la création d’un graphique dans un rapport, voir [Ajouter un graphique à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 

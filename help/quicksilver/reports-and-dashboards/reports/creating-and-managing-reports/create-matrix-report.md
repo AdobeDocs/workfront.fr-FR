@@ -6,10 +6,10 @@ description: Les rapports de matrice présentent des informations récapitulativ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 99%
+source-wordcount: '1091'
+ht-degree: 97%
 
 ---
 
@@ -23,14 +23,14 @@ Vous pouvez créer un rapport de matrice pour tout rapport qui contient 2 regro
 
 Par exemple, vous souhaitez créer un rapport sur les heures qui affiche les heures consignées au cours d’une période de 3 mois et vous souhaitez que le rapport soit organisé en fonction de la personne ayant saisi les heures, ainsi que par mois et par semaine.
 
-![](assets/report-matrix-overview-350x123.png)
+![Présentation de la matrice des rapports](assets/report-matrix-overview-350x123.png)
 
 ## Affichage des données dans un rapport de matrice
 
 Les informations du rapport de matrice sont toujours affichées sous forme de valeur numérique. Dans la plupart des cas, les colonnes contenant une valeur numérique sont mieux adaptées à l’affichage dans un rapport de matrice (heures consignées et coût réel, par exemple).
 
 Cependant, d’autres colonnes (comme Statut) peuvent toujours être affichées dans le rapport de matrice, comme illustré dans le graphique suivant :\
-![](assets/report-matrix-status-350x73.png)
+![Statut de la matrice](assets/report-matrix-status-350x73.png)
 
 ## Conditions d’accès
 
@@ -70,7 +70,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,7 +91,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
       >
       >Si cette option n’est pas sélectionnée, les informations de la colonne ne s’affichent pas correctement dans le rapport de matrice.
 
-      ![](assets/qs-report-matrix-summarized-350x392.png)
+      ![Matrice résumée](assets/qs-report-matrix-summarized-350x392.png)
 
    1. Répétez cette opération pour chaque colonne de l’onglet Colonnes (vue), puis cliquez sur **Terminé**.
 
@@ -105,10 +105,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    1. Dans la section **Regroupements de colonnes**, identifiez le regroupement des colonnes, qui permet de définir les regroupements verticaux du tableau.
    1. (Facultatif) Pour ajouter un regroupement de colonnes supplémentaire, cliquez sur **Ajouter un regroupement de colonnes secondaire**.
    1. (Le cas échéant) Si vous ajoutez un regroupement par date, indiquez également si les résultats sont regroupés par jour, semaine, mois, trimestre ou année.\
-      ![](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
+      ![Regroupement par options de date](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
    1. (Le cas échéant) Si vous avez choisi de regrouper par date et d’afficher les résultats par trimestre, indiquez par exemple si vous souhaitez afficher les trimestres sans données en sélectionnant la case à cocher **Afficher les trimestres sans résultat**.\
-      ![](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
+      ![Afficher les trimestres sans résultats](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
 
       >[!NOTE]
       >

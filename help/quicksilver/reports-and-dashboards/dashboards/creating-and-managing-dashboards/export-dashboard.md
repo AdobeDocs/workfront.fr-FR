@@ -6,10 +6,10 @@ description: Vous pouvez exporter un tableau de bord vers un fichier .pdf en uti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 92%
+source-wordcount: '375'
+ht-degree: 91%
 
 ---
 
@@ -77,7 +77,7 @@ Pour plus d’informations sur la création de tableaux de bord, voir [Créer un
 1. Accédez au tableau de bord que vous souhaitez exporter.
 1. Cliquez sur **Actions du tableau de bord** puis sélectionnez **Aperçu avant impression**.
 
-   ![](assets/dashboard-actions-print-350x254.png)
+   ![Aperçu avant impression du tableau de bord](assets/dashboard-actions-print-350x254.png)
 
    La fenêtre Aperçu avant impression s’ouvre.
 

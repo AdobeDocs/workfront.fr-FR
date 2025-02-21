@@ -4,10 +4,10 @@ description: Configurer une visualisation à colonnes dans la zone de travail de
 hidefromtoc: true
 hide: true
 exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '327'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 
 1. Commencez par ajouter un bloc de visualisation avec le type de visualisation **Colonne** à un rapport, comme expliqué dans [Ajouter ou modifier un bloc de visualisation dans la zone de travail de reporting](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. Cliquez sur l’icône Modifier la visualisation ![](assets/edit-icon.png) dans le coin supérieur droit de la visualisation, puis effectuez l’une des opérations suivantes.
+1. Cliquez sur l’icône Modifier la visualisation ![icône Modifier](assets/edit-icon.png) dans le coin supérieur droit de la visualisation, puis effectuez l’une des opérations suivantes.
 
    1. Dans l’onglet **Paramètres** :
 

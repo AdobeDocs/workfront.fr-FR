@@ -6,10 +6,10 @@ description: Vous pouvez utiliser la mise en forme conditionnelle pour comparer 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 90%
+source-wordcount: '469'
+ht-degree: 89%
 
 ---
 
@@ -76,7 +76,7 @@ Pour comparer la date de début prévue et la date de début effective d’une t
 1. Saisissez les critères de comparaison en utilisant les valeurs existantes trouvées dans le créateur et spécifiez votre formatage conditionnel.\
    Par exemple, nous voulons mettre en évidence les tâches dont la date de début effective est postérieure (ou supérieure) à la date de début prévue. Sélectionnez le modificateur Supérieur à et sélectionnez une date effective dans le champ de la date.
 
-   ![](assets/cond-format-1-350x84.png)
+   ![Mise en forme conditionnelle de la date de début réelle](assets/cond-format-1-350x84.png)
 
 1. (Facultatif) Sélectionnez **Appliquer à toute la ligne** si vous souhaitez appliquer la mise en forme à l’ensemble de la ligne.
 1. Cliquer sur **Enregistrer**.
@@ -104,7 +104,7 @@ Pour comparer la date de début prévue et la date de début effective d’une t
 
 1. Assurez-vous que la ligne de code `righttext` correspond à la déclaration de la ligne de code `rightmethod`.
 
-   ![](assets/cond-format-2-350x171.png)
+   ![Mise en forme conditionnelle](assets/cond-format-2-350x171.png)
 
 1. Cliquer sur **Enregistrer**.
 1. Cliquez sur **Enregistrer + Fermer**.

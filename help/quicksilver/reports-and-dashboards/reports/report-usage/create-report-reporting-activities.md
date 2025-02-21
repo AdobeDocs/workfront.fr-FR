@@ -7,10 +7,10 @@ description: Lorsque vous créez un rapport sur les rapports, vous pouvez identi
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '659'
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Créer un rapport sur les rapports existants {#create-the-report-about-existing-reports}
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 1. Cliquez sur **Rapports**, puis sur **Nouveau rapport**.
 1. Dans le menu déroulant **Nouveau rapport**, sélectionnez **Rapport** pour créer un rapport sur les rapports existants.
 

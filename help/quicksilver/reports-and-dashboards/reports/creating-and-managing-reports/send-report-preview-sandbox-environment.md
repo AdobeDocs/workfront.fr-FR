@@ -6,10 +6,10 @@ description: Les informations contenues dans cette page font référence à des 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 98%
+source-wordcount: '625'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,7 +85,7 @@ La production ou non d’un rapport dans l’environnement de prévisualisation 
 
 Pour plus d’informations sur l’activation des e-mails à partir de l’environnement Sandbox, voir [Activer la diffusion d’e-mails à partir de l’environnement de prévisualisation de sandbox](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Option Recevoir des e-mails de la sandbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 La planification des rapports pour une diffusion dans l’environnement de prévisualisation est identique à la planification des rapports dans l’environnement de production. Pour plus d’informations sur la planification de la diffusion d’un rapport, voir [Vue d’ensemble de la diffusion des rapports](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
@@ -100,7 +100,7 @@ La production ou non d’un rapport dans l’environnement de sandbox à actuali
 
 Pour plus d’informations sur l’activation des e-mails à partir de l’environnement de prévisualisation, voir la section [Voir et modifier vos paramètres de notification par e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) dans l’article [Modifier vos propres notifications par e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Option Recevoir des e-mails de la sandbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 La planification des rapports pour une diffusion dans l’environnement de sandbox à actualisation personnalisée est identique à la planification des rapports dans l’environnement de production. Pour plus d’informations sur la planification de la diffusion d’un rapport, voir [Vue d’ensemble de la diffusion des rapports](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 

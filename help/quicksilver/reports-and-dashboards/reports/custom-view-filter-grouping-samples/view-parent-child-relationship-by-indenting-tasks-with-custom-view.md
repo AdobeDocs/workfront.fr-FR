@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Afficher : afficher la relation parent-enfant dans une tâche en mettant en retrait les tâches'
+title: 'Afficher : permet d’afficher la relation parent-enfant dans une tâche en mettant en retrait les tâches'
 description: Vous pouvez maintenir la distinction des relations parent-enfant dans une liste de tâches exportée en ajoutant une vue personnalisée à la liste de tâches et en vous assurant que cette vue est sélectionnée avant d’exporter la liste.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 86%
+source-wordcount: '260'
+ht-degree: 85%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 Vous pouvez maintenir la distinction des relations parent-enfant dans une liste de tâches exportée en ajoutant une vue personnalisée à la liste de tâches et en vous assurant que cette vue est sélectionnée avant d’exporter la liste.
 
-![](assets/parent-child-indented-custom-view-350x94.png)
+![Retrait parent enfant](assets/parent-child-indented-custom-view-350x94.png)
 
 ## Conditions d’accès
 
@@ -73,7 +73,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Cliquez sur le menu déroulant **Vue** et sélectionnez **Nouvelle vue**.
 1. Cliquez sur l’en-tête de la colonne **Nom de la tâche**.
 1. Sélectionnez **Passer en mode Texte** dans le coin supérieur droit.
-1. Cliquez sur **Modifier le mode Texte** et supprimez tout le texte existant.
+1. Cliquez sur **Modifier le mode texte** et supprimez tout le texte existant.
 1. Collez le texte suivant :
 
 

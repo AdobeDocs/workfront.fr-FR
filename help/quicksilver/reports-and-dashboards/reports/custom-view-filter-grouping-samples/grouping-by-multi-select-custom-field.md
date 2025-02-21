@@ -7,10 +7,10 @@ description: Le regroupement par valeur dans un champ personnalisé à sélectio
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 85%
+source-wordcount: '518'
+ht-degree: 84%
 
 ---
 
@@ -55,7 +55,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -73,7 +73,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,7 +82,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 Pour pouvoir regrouper un rapport selon un champ personnalisé à sélection multiple, les prérequis suivants doivent être remplis :
 
 * Créez le champ personnalisé à sélection multiple dans un formulaire personnalisé.\
-  Pour plus d’informations sur la création de formulaires personnalisés et l’ajout de champs personnalisés, reportez-vous à l’article [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Pour plus d’informations sur la création de formulaires personnalisés et l’ajout de champs personnalisés à ces formulaires, consultez l’article [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Joignez le formulaire personnalisé aux objets.
 * Renseignez le champ personnalisé à sélection multiple avec une valeur sur chaque objet.
@@ -95,7 +95,7 @@ Pour regrouper un champ personnalisé à sélection multiple dans un rapport, pr
 1. Sélectionnez l’onglet **Regroupements**.
 1. Cliquez sur **Basculer en mode texte**.
 
-1. Sélectionnez le texte dans la zone **Group by** et remplacez-le par le code suivant :
+1. Sélectionnez le texte de la zone **Regrouper par** et remplacez-le par le code suivant :
 
    <pre>
    group.0.displayname=Multi-select Custom Field Name
@@ -104,12 +104,12 @@ group.0.valueformat=HTML
 group.0.textmode=true
    </pre>
 
-1. Remplacez &quot;Nom de champ personnalisé à sélection multiple&quot; par le nom réel de votre champ personnalisé à sélection multiple, tel qu’il apparaît dans votre instance Workfront.
+1. Remplacez « Nom de champ personnalisé à sélection multiple » par le nom réel de votre champ personnalisé à sélection multiple, tel qu’il apparaît dans votre instance Workfront.
 1. Cliquez sur **Enregistrer et fermer**.
 
    Les objets du rapport sont regroupés selon les valeurs du champ personnalisé à sélection multiple.
 
-   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+   ![Regrouper mon champ à sélection multiple](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
    Les noms des regroupements du rapport sont les noms des champs personnalisés à sélection multiple suivis des valeurs sélectionnées dans le champ.
 

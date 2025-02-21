@@ -4,10 +4,10 @@ description: Exporter un rapport dans la zone de travail de reporting
 hidefromtoc: true
 hide: true
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 100%
+source-wordcount: '183'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 ## Exporter un rapport
 
 1. Accédez au rapport à exporter.
-1. Dans l’en-tête du rapport, cliquez sur l’icône **Plus** ![](assets/more-icon-27x15.png), cliquez sur **Exporter**, puis sélectionnez le format de fichier à créer.
+1. Dans l&#39;en-tête du rapport, cliquez sur l&#39;icône **Plus** ![Icône Plus](assets/more-icon-27x15.png), cliquez sur **Exporter**, puis sélectionnez le format de fichier à créer.
 
    >[!NOTE]
    >

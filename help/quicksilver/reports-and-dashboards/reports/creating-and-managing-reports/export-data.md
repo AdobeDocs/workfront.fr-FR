@@ -6,7 +6,7 @@ description: Vous pouvez exporter des données Adobe Workfront à partir de dif
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 95%
@@ -63,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td>
     <p>Nouveau :</p>
       <ul>
-      <li>Clair ou plus élevé</li>
+      <li>Léger ou supérieur</li>
       </ul>
     <p>Actuel :</p>
       <ul>
@@ -81,7 +81,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -158,11 +158,11 @@ L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que
 
   >[!IMPORTANT]
   >
-  >L’exportation d’un rapport contenant une colonne Rapports peut entraîner une erreur, même si le rapport se trouve dans les limites d’exportation répertoriées.
+  >L’exportation d’un rapport qui comprend une colonne Rapports peut entraîner une erreur, même si le rapport se situe par ailleurs dans les limites d’exportation répertoriées.
   >
-  >Si vous utilisez la fonction d’exportation pour partager un rapport contenant une colonne Rapports avec d’autres utilisateurs, pensez à partager le rapport en le rendant public à la place. Pour plus d’informations sur la publication d’un rapport, voir [Partage d’un rapport dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  >Si vous utilisez la fonctionnalité d’exportation pour partager un rapport contenant une colonne Rapports avec d’autres personnes, pensez à partager le rapport en le rendant public à la place. Pour plus d’informations sur la publication d’un rapport, voir [Partager un rapport dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
   >
-  >Si vous utilisez la fonction d’exportation pour évaluer les données en externe, il est recommandé d’utiliser Workfront Data Connect à la place. Pour plus d’informations, voir [Présentation de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+  >Si vous utilisez la fonction d’exportation pour évaluer les données en externe, nous vous recommandons d’utiliser Workfront Data Connect à la place. Pour plus d&#39;informations, consultez [Présentation de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 Si vous tentez d’exporter des données au-delà de cette limite, il se peut que vous ne receviez pas toutes les données attendues dans l’export. Au contraire, un rapport modifié est produit dans les limites autorisées.
 
@@ -190,7 +190,7 @@ Si vous avez des questions ou rencontrez des problèmes concernant votre limite,
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
-   >![](assets/nwe-dashboard-export-note-350x271.png)
+   >![Export dashboard note](assets/nwe-dashboard-export-note-350x271.png)
    -->
 
    Ou

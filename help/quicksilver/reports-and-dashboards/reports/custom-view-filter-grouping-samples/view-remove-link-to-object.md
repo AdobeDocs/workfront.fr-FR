@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Affichage : supprimer le lien vers un objet d’une colonne"
+title: 'Afficher : supprimer le lien vers un objet dans une colonne'
 description: Certains objets affichés dans une vue renvoient par défaut à la page Détails de l’objet. Par exemple, la colonne qui affiche le nom d’un projet est un lien vers le projet ; la colonne qui affiche le nom d’un utilisateur ou d’une utilisatrice est un lien vers la page de profil de cette personne.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 84%
+source-wordcount: '392'
+ht-degree: 83%
 
 ---
 
@@ -75,7 +75,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Ou
 
-   Cliquez sur l’**icône de notification** ![](assets/edit-icon.png)
+   Cliquez sur l’icône **Modifier** ![ Modifier ](assets/edit-icon.png)
 
    pour modifier une vue existante, puis sélectionnez la vue.
 
@@ -86,7 +86,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    Cliquez sur une colonne existante avec un lien vers un objet.
 
 1. Cliquez sur **Passer en mode Texte** > **Modifier le mode Texte**.
-1. Supprimez le texte que vous trouvez dans la zone **Edit Text Mode** et remplacez-le par le code suivant :
+1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
    ```
    displayname=Task Name
@@ -102,7 +102,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >
    >Vous pouvez utiliser un code similaire pour d’autres objets en procédant aux ajustements suivants :
    >
-   >* Remplacez la ligne `valuefield` du code par `valueexpression` et conservez le même nom entre accolades après le signe égal.
+   >* Remplacez la ligne `valuefield` du code par `valueexpression` et conservez le même nom inclus entre crochets après le signe égal.
    >* Éliminez toutes les lignes commençant par `link.` du texte original de la colonne. Par exemple, éliminez toutes les lignes suivantes :
    >
    >  ```

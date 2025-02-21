@@ -5,10 +5,10 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2767'
-ht-degree: 94%
+source-wordcount: '2798'
+ht-degree: 93%
 
 ---
 
@@ -181,7 +181,7 @@ Ces informations peuvent servir à faciliter les audits et illustrer la qualité
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), sélectionnez l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Sélectionner une entrée de journal](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder se charge.
 
@@ -255,7 +255,7 @@ Ces informations peuvent servir à faciliter les audits et illustrer la qualité
 
 1. Dans l’onglet **Filtres**, cliquez sur **Ajouter une règle de filtre**, puis ajoutez la règle de filtre **Nom du champ** > **Égal** > **statut**.
 
-   ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![Filtre de statut des entrées au journal](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -295,7 +295,7 @@ Pour savoir quand la suppression d’une tâche ou d’un problème est survenue
 1. Cliquez sur l’icône du **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône du **[!UICONTROL Menu principal]** ![ Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Sélectionner une entrée de journal](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder se charge.
 
@@ -342,7 +342,7 @@ Pour savoir quand la suppression d’une tâche ou d’un problème est survenue
    * **Identifiant du projet** > **Égal** > **&lt; nom du projet >**
 
      <!--WRITER check link; this png file has spaces
-     [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
    Pour plus d’informations sur l’ajout de filtres, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -379,7 +379,7 @@ Pour observer comment des champs personnalisés ont évolué au cours du cycle d
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si celle-ci est disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Sélectionner une entrée de journal](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder se charge.
 
@@ -450,7 +450,7 @@ Pour observer comment des champs personnalisés ont évolué au cours du cycle d
 
    * **Identifiant du projet** > **Égal** > **&lt; projet >**.
 
-   ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![Filtre des modifications de formulaire personnalisé](assets/qs-custom-form-changes-filter-350x92.png)
 
    Pour plus d’informations sur l’ajout de filtres, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -481,7 +481,7 @@ Vous pouvez paramétrer le rapport d’entrée du journal pour montrer à quelle
 1. Cliquez sur l’icône de **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône de **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Sélectionner une entrée de journal](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder se charge.
 
@@ -551,7 +551,7 @@ Vous pouvez paramétrer le rapport d’entrée du journal pour montrer à quelle
    * **Nom du champ** > **Égal à** > **Date**
    * **Identifiant du projet** > **Égal** > **&lt; nom du projet >**.
 
-   ![](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![Filtre de modification de la date d’achèvement prévue](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    Pour plus d’informations sur l’ajout de filtres, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -582,7 +582,7 @@ Vous pouvez configurer le rapport d’entrée du journal pour montrer combien de
 1. Cliquez sur l’icône de **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône de **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Sélectionner une entrée de journal](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder se charge.
 
@@ -640,7 +640,7 @@ Vous pouvez configurer le rapport d’entrée du journal pour montrer combien de
    * **Nom du champ** > **Égal à** > **ownerID**
    * **Identifiant du projet** > **Égal** > **&lt; nom du projet >**.
 
-   ![](assets/qs-owner-changes-filter-350x94.png)
+   ![Filtre de modification du propriétaire](assets/qs-owner-changes-filter-350x94.png)
 
    Pour plus d’informations sur l’ajout de filtres, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

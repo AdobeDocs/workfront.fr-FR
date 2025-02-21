@@ -4,10 +4,10 @@ description: Configurer une colonne de tableau dans la zone de travail de report
 hidefromtoc: true
 hide: true
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 100%
+source-wordcount: '1052'
+ht-degree: 91%
 
 ---
 
@@ -28,10 +28,10 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 
 ## Modifier les colonnes d’un tableau
 
-1. Accédez à un rapport existant, puis cliquez sur l’icône **Plus** ![](assets/more-icon.png) dans l’en-tête du rapport et sélectionnez **Modifier**.
-1. Dans l’en-tête du tableau du rapport, cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
+1. Sur un rapport existant, cliquez sur l’icône **Plus de menu** ![Plus d’icône](assets/more-icon.png) dans l’en-tête du rapport, puis sélectionnez **Modifier**.
+1. Dans l’en-tête du tableau du rapport, cliquez sur l’icône **Modifier** ![Icône Modifier](assets/edit-icon.png).
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![Icône Modifier dans l’en-tête du tableau](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">Format du champ</td>
-      <td><p>(Disponible uniquement lorsque la colonne contient des données de date, de pourcentage, de devise ou d’heure, et non de texte.) Sélectionnez le format souhaité pour les données dans le menu déroulant <b>Format du champ</b>. Par exemple, vous pouvez afficher des signes de pourcentage après les chiffres d’une colonne ou modifier l’affichage des dates.</p></td>
+      <td><p>(Disponible uniquement lorsque la colonne contient des données de date, de pourcentage, de devise ou d’heure, et non du texte.) Sélectionnez le format souhaité pour les données dans le menu déroulant <b>Format du champ</b>. Par exemple, vous pouvez afficher des signes de pourcentage après les chiffres d’une colonne ou modifier l’affichage des dates.</p></td>
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">Le champ peut être modifié.</td>
@@ -90,7 +90,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
      </tr> 
      <tr> 
       <td role="rowheader">Texte de pointage</td> 
-      <td>(Disponible uniquement lors de la sélection de l’option <strong>Afficher le texte de pointage</strong>.) Personnalisez le texte descriptif qui s’affiche lorsqu’une personne survole le nom d’une colonne.</td> 
+      <td>(Disponible uniquement lorsque l’option <strong>Afficher le texte de pointage</strong> est activée.) Personnalisez le texte explicatif qui s’affiche lorsqu’une personne survole le nom d’une colonne.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mise en forme conditionnelle</strong> </td> 

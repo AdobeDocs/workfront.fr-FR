@@ -6,10 +6,10 @@ description: Si plusieurs taux de change ont été configurés dans Adobe Workf
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 98%
+source-wordcount: '984'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -117,13 +117,13 @@ Pour afficher deux projets avec des devises personnalisées dans un rapport, pro
 
 1. Créez deux projets avec des devises différentes appliquées.
 
-   ![](assets/qs-currency-350x217.png)
+   ![Devise](assets/qs-currency-350x217.png)
 
 1. Consignez des heures sur les deux projets.
 
    Pour plus d’informations sur la consignation des heures, voir [Consigner des heures](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png), puis cliquez sur **Création de rapports**.
+1. Cliquez sur l&#39;icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png), puis sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis **Rapport de projet**.
 1. Dans l’onglet **Colonnes (Affichage)**, ajoutez une colonne **Coût réel** et résumez-la par **Somme**.
 
@@ -182,6 +182,6 @@ Pour modifier en ligne un champ financier dans un rapport, procédez comme suit�
 1. Cliquez sur **Paramètres des rapports**.
 1. Cliquez sur la liste déroulante **Devise par défaut**, puis sélectionnez **Devise d’origine du projet**.
 
-   ![](assets/qs-report-settings-default-currency-350x370.png)
+   ![ Devise par défaut ](assets/qs-report-settings-default-currency-350x370.png)
 
-1. Cliquez sur **Terminé**.
+1. Cliquez sur **Terminé**.

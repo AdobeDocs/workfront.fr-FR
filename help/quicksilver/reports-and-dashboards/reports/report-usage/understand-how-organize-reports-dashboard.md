@@ -7,10 +7,10 @@ description: Vous pouvez voir si un rapport est ajouté à un tableau de bord da
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 93%
 
 ---
 
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 Pour créer une vue contenant les informations sur les tableaux de bord pour une liste de rapports :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
 1. Dans la liste des rapports, cliquez sur le menu déroulant **Affichage**.
 1. Cliquez sur **Nouvelle vue**.
 1. Cliquez sur **Ajouter une colonne**.
@@ -77,13 +77,13 @@ Pour créer une vue contenant les informations sur les tableaux de bord pour une
 
 1. Cliquez sur **Enregistrer la vue**.\
    Les tableaux de bord sur lesquels apparaît un rapport s’affichent dans la colonne Tableaux de bord de la liste des rapports.\
-   ![](assets/qs-dashboards-in-report-view.png)
+   ![Tableaux de bord dans le rapport](assets/qs-dashboards-in-report-view.png)
 
 ## Filtrer une liste de rapports par informations sur les tableaux de bord
 
 Pour filtrer une liste de rapports par informations sur les tableaux de bord :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
 
 1. Dans la liste des rapports, cliquez sur le menu déroulant **Filtrer**.
 1. Cliquez sur **Nouveau filtre**, puis sur **Ajouter une règle de filtre**.
@@ -93,7 +93,7 @@ Pour filtrer une liste de rapports par informations sur les tableaux de bord :
 1. Sous l’objet **Tableaux de bord**, sélectionnez **Nom**.
 
 1. Sélectionnez **Égal à** dans le menu déroulant des modificateurs, puis commencez à saisir le nom du tableau de bord que vous souhaitez filtrer. Vous pouvez sélectionner plusieurs tableaux de bord pour votre filtre.\
-   ![](assets/qs-dashboards-in-report-filters-350x143.png)
+   ![Tableaux de bord dans les filtres de rapport](assets/qs-dashboards-in-report-filters-350x143.png)
 
 1. Cliquez sur **Enregistrer + Fermer**.\
    Cette option affiche la liste des rapports répertoriés uniquement sur les tableaux de bord spécifiés.\

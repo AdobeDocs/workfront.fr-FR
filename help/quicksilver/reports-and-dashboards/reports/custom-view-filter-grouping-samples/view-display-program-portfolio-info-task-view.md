@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Affichage : afficher les informations sur le programme et le Portfolio dans une vue de tâche"
+title: 'Affichage : affichage des informations sur le programme et le Portfolio dans une vue Tâche'
 description: Cette vue de la tâche affiche le programme et le portfolio qui sont associés au projet de la tâche. Ces informations ne sont pas disponibles dans Report Builder lors de la construction d’une vue de tâche. Ces informations ne sont disponibles qu’en mode texte.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 78%
+source-wordcount: '284'
+ht-degree: 77%
 
 ---
 
@@ -20,7 +20,7 @@ Cette vue de la tâche affiche le programme et le portfolio qui sont associés a
 
 La vue fournit également des liens vers le projet, le programme et le portfolio à partir d’une liste de tâches.
 
-![](assets/view--program-and-portfolio-350x116.png)
+![Afficher le programme et le portefeuille](assets/view--program-and-portfolio-350x116.png)
 
 ## Conditions d’accès
 
@@ -40,7 +40,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,8 +68,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Dans le menu déroulant **Affichage**, sélectionnez **Nouvel affichage**.
 
 1. Dans la zone **Prévisualisation de la colonne**, éliminez toutes les colonnes sauf une.
-1. Cliquez sur l’en-tête de la colonne restante, puis sur **Passer en mode Texte**, puis **Modifier le mode Texte**.
-1. Supprimez le texte que vous trouvez dans la zone **Edit Text Mode** et remplacez-le par le code suivant :
+1. Cliquez sur l’en-tête de la colonne restante, puis sur **Passer en mode Texte** et **Modifier le mode Texte**.
+1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
    ```
    column.0.descriptionkey=name

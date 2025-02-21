@@ -6,9 +6,9 @@ description: Vous pouvez modifier un filtre dans une liste ou un rapport à l’
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1044'
 ht-degree: 86%
 
 ---
@@ -87,7 +87,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 
 1. Utilisez l’une des méthodes suivantes :
 
-   Pour accéder au filtre depuis une liste, accédez à la liste et cliquez sur l’icône **Filtre**, puis pointez sur le filtre du panneau latéral **Filtres** que vous souhaitez modifier, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png). Le panneau latéral **Filtres** affiche le filtre sélectionné ou le créateur de filtres hérité s’ouvre.
+   Pour accéder au filtre depuis une liste, accédez à la liste et cliquez sur l’icône **Filtre**, puis pointez sur le filtre du panneau latéral **Filtres** que vous souhaitez modifier, puis cliquez sur l’icône **Modifier** ![Icône Modifier](assets/edit-icon.png). Le panneau latéral **Filtres** affiche le filtre sélectionné ou le créateur de filtres hérité s’ouvre.
 
    OU
 

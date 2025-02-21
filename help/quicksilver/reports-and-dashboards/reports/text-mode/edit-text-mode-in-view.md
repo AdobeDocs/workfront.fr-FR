@@ -6,10 +6,10 @@ description: Vous pouvez modifier une vue dans une liste ou un rapport à l’ai
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 91%
+source-wordcount: '461'
+ht-degree: 84%
 
 ---
 
@@ -86,7 +86,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 1. Utilisez l’une des méthodes suivantes :
 
    1. Pour accéder à la vue depuis un rapport, accédez au rapport, puis cliquez sur l’onglet **Actions de rapport** > **Modifier** > **Colonnes (affichage)**.
-   1. Pour accéder à la vue depuis une liste, accédez à la liste. Depuis le menu déroulant **Affichage**, placez le pointeur de la souris sur la vue à modifier, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
+   1. Pour accéder à la vue depuis une liste, positionnez-vous dans la liste puis, à partir du menu déroulant **Vue**, placez le pointeur de la souris sur la vue à modifier et cliquez sur l&#39;icône **Modifier** ![Icône Modifier](assets/edit-icon.png).
 
       Le créateur de vues s’ouvre.
 

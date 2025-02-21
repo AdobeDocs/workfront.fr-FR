@@ -6,10 +6,10 @@ description: Collections de référence dans un rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2539'
-ht-degree: 89%
+source-wordcount: '2560'
+ht-degree: 87%
 
 ---
 
@@ -151,7 +151,7 @@ La vue affiche des informations sur les tâches ou les problèmes sous forme de 
 
 Pour ajouter une colonne de collection dans une vue de rapport, procédez comme suit :
 
-1. Cliquez sur le menu **Principal** ![](assets/main-menu-icon.png), puis sur **Rapports**.
+1. Cliquez sur le menu **Principal** ![icône du menu principal](assets/main-menu-icon.png), puis sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**.
 1. Sélectionnez l’objet de votre rapport.
 1. Sortez du rapport et, à l’aide de l’[explorateur d’API](../../../wf-api/general/api-explorer.md), déterminez les collections disponibles pour l’objet sélectionné pour votre rapport.
@@ -236,7 +236,7 @@ Pour ajouter une colonne de collection dans une vue de rapport, procédez comme 
 
 1. La colonne suivante s’affiche dans le rapport de projet, répertoriant toutes les tâches de chaque projet avec leurs principaux et principales cessionnaires :
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![Rapport de projet avec collection de tâches et de personnes assignées](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Cliquer sur **Enregistrer**.
 1. (Facultatif) Poursuivez la modification du rapport.
@@ -309,7 +309,7 @@ Vous pouvez, par exemple, filtrer les informations de tâche ou de problème dan
 
 Pour ajouter une référence à une collection dans un filtre de rapport :
 
-1. Cliquez sur le menu **Principal** ![](assets/main-menu-icon.png), puis cliquez sur **Rapports**.
+1. Cliquez sur le menu **Principal** ![icône du menu principal](assets/main-menu-icon.png), puis sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**.
 1. Sélectionnez l’objet de votre rapport.
 1. Sortez du rapport et, à l’aide de l’[explorateur d’API](../../../wf-api/general/api-explorer.md), déterminez les collections disponibles pour l’objet sélectionné pour votre rapport.
@@ -350,7 +350,7 @@ Pour ajouter une référence à une collection dans un filtre de rapport :
 
    Ce rapport affiche uniquement les projets dont le nom contient au moins une tâche portant le mot « marketing ».
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![Tâches marketing uniquement dans le projet](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Pour filtrer le nom d’un problème, utilisez le code suivant :
 
@@ -386,7 +386,7 @@ Pour plus d’informations sur la création d’une déclaration de filtre avec 
 
 Pour ajouter une référence à une collection dans l’invite personnalisée d’un rapport :
 
-1. Cliquez sur le menu **Principal** ![](assets/main-menu-icon.png), puis sur **Rapports**.
+1. Cliquez sur le menu **Principal** ![icône du menu principal](assets/main-menu-icon.png), puis sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**.
 1. Sélectionnez l’objet de votre rapport.
 1. Créez un filtre avec une référence de collection comme décrit dans la section [Référencer une collection dans le filtre d’un rapport](#reference-a-collection-in-the-filter-of-a-report) dans cet article.

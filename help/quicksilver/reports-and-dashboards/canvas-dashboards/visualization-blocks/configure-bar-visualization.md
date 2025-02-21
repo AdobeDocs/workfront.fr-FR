@@ -4,10 +4,10 @@ description: Configurer une visualisation à barres dans la zone de travail de r
 hidefromtoc: true
 hide: true
 exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '349'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 
 1. Commencez par ajouter un bloc de visualisation avec le type de visualisation **Barre** à un rapport, comme expliqué dans [Ajouter ou modifier un bloc de visualisation dans la zone de travail de reporting](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. Cliquez sur l’icône Modifier la visualisation ![](assets/edit-icon.png) dans le coin supérieur droit de la visualisation, puis effectuez l’une des opérations suivantes.
+1. Cliquez sur l’icône Modifier la visualisation ![icône Modifier](assets/edit-icon.png) dans le coin supérieur droit de la visualisation, puis effectuez l’une des opérations suivantes.
 
    1. Dans l’onglet **Paramètres** :
 

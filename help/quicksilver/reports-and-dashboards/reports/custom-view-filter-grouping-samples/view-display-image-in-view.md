@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Afficher : afficher une image à la place d’une chaîne dans une colonne"
+title: 'Afficher : permet d’afficher une image au lieu d’une chaîne dans une colonne'
 description: Vous pouvez remplacer le nom d’un objet dans une vue par une image en mode texte. Vous pouvez également ajouter un lien vers l’image qui permet d’ouvrir l’objet qu’elle remplace.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 90%
+source-wordcount: '497'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez remplacer le nom d’un objet dans une vue par une image en mode tex
 >
 >Les images apparaissent dans leur résolution réelle, essayez donc d’utiliser de petites images.
 
-![](assets/replace-project-name-with-image-and-link-350x125.png)
+![Remplacer le nom du projet par une image et un lien](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## Conditions d’accès
 
@@ -44,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -62,7 +62,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,11 +86,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    1. Cliquez avec le bouton droit et sélectionnez **Copier l’emplacement de l’image**, ou **Obtenir le lien**, selon votre navigateur. Vous disposez maintenant de l’URL de cette image spécifique et pouvez la coller dans le presse-papiers.
    1. Assurez-vous que toutes les personnes disposant de ce lien sont autorisées à afficher l’image en accédant simplement au lien et qu’elles n’ont pas besoin de nom d’utilisateur ou d’utilisatrice pour y accéder.
 
-1. Accédez à un projet, cliquez sur le menu **Plus** ![](assets/more-icon-45x33.png) en regard du nom du projet, puis sur **Modifier**.
+1. Accédez à un projet, cliquez sur le menu **Plus** ![icône Plus](assets/more-icon-45x33.png) en regard du nom du projet, puis cliquez sur **Modifier**.
 
 1. Dans le champ **URL**, ajoutez le lien à l’image.
-1. Accédez à la vue d’un projet dans une liste de projets.
-1. Cliquez sur le menu déroulant **Afficher**, puis sur **Nouvelle vue**.
+1. Accédez à une vue de projet dans une liste de projets.
+1. Cliquez sur le menu déroulant **Affichage**, puis sur **Nouvel affichage**.
 1. Cliquez sur l’en-tête de la colonne pour le **Nom du projet**, puis cliquez sur **Passer en mode Texte**.
 
 1. Ajoutez le code suivant à la colonne au code existant :

@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Vue : vue de projet multi-lignes"
+title: 'Vue : Vue de projet à plusieurs lignes'
 description: Découvrez la vue d’un projet à plusieurs lignes dans les rapports.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 67%
+source-wordcount: '275'
+ht-degree: 65%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 67%
 Dans cette vue Projet, vous pouvez :
 
 * Afficher les informations du projet dans un format à plusieurs lignes.\
-  La vue utilise la balise `sharecol=true` pour combiner plusieurs champs sous le même en-tête de colonne. Pour en savoir plus sur cette balise, consultez la section [Vue : fusionner les informations de plusieurs colonnes dans une seule colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+  L’affichage utilise la balise `sharecol=true` pour combiner plusieurs champs sous le même en-tête de colonne. Pour en savoir plus sur cette balise, consultez la section [Vue : fusionner les informations de plusieurs colonnes dans une seule colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
-* Utilisez une colonne d’espace réservé qui contient une balise de saut de ligne d’HTML (`<br>`) pour forcer l’affichage de la description sous le nom du projet, par exemple.
+* Utilisez une colonne d’espace réservé contenant une balise de saut de ligne HTML (`<br>`) pour forcer l’affichage de la Description sous le nom du projet, par exemple.
 * Affichez la personne propriétaire du projet entre parenthèses après le nom du projet.
 * Affichez le nom du projet comme lien vers le projet.
 
-![](assets/project-multi-row-stacked-view-350x219.png)
+![Ligne de projet avec vue empilée](assets/project-multi-row-stacked-view-350x219.png)
 
 ## Conditions d’accès
 
@@ -78,9 +78,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Accédez à une liste de projets.
 1. Dans le menu déroulant de la **Vue**, cliquez sur **Nouvelle vue**.
-1. Supprimez toutes les colonnes de la vue, sauf une.
-1. Sélectionnez la colonne restante et cliquez sur **Passer en mode Texte**, puis **Modifier le mode Texte**.
-1. Supprimez le texte dans le **mode d’édition de texte**, puis copiez et collez le mode texte ci-dessous dans la colonne :
+1. Supprimez toutes les colonnes de la vue, à l&#39;exception d&#39;une seule.
+1. Sélectionnez la colonne restante et cliquez sur **Passer en mode texte**, puis **Modifier le mode texte**.
+1. Supprimez le texte en mode **Modifier le texte**, puis copiez et collez le mode texte ci-dessous dans la colonne :
 
    ```
    column.0.linkedname=direct

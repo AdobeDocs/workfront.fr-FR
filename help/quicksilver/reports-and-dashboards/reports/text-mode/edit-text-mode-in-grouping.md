@@ -6,10 +6,10 @@ description: Vous pouvez modifier un regroupement dans une liste ou un rapport �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 96%
+source-wordcount: '1539'
+ht-degree: 94%
 
 ---
 
@@ -90,7 +90,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 1. Utilisez l’une des méthodes suivantes :
 
    1. Pour accéder au regroupement à partir d’un rapport, accédez au rapport, puis cliquez sur l’onglet **Actions de rapport** > **Modifier** > **Regroupements**.
-   1. Pour accéder au regroupement à partir d’une liste, accédez à la liste et dans le menu déroulant du **Regroupement**, placez le pointeur de la souris sur le regroupement à modifier, puis cliquez sur le l’icône **Modifier** ![](assets/edit-icon.png).
+   1. Pour accéder au regroupement à partir d&#39;une liste, positionnez-vous dans la liste puis, dans le menu déroulant **Regroupement**, placez le pointeur de la souris sur le regroupement à modifier et cliquez sur l&#39;icône **Modifier** ![Icône Modifier](assets/edit-icon.png).
 
       Le créateur de regroupement s’ouvre.
 

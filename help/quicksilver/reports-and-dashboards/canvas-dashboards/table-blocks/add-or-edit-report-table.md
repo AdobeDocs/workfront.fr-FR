@@ -4,10 +4,10 @@ description: Ajouter ou modifier un bloc de tableau dans la zone de travail de r
 hidefromtoc: true
 hide: true
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '500'
+ht-degree: 82%
 
 ---
 
@@ -21,20 +21,20 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 
 ## Ajouter ou modifier un bloc de tableau
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Créer des rapports**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Reporting**.
 1. Cliquez sur **Nouveau rapport**.
 
    Ou
 
-   Accédez à un rapport existant, cliquez sur l’icône **Plus** ![](assets/more-icon-27x15.png) dans l’en-tête du rapport, puis cliquez sur **Modifier**.
+   Dans un rapport existant, cliquez sur l’icône **Plus** ![Plus](assets/more-icon-27x15.png) dans l’en-tête du rapport, puis sur **Modifier**.
 
 1. Sur le côté droit de l’écran, sous **Ajouter un bloc**, effectuez l’une des actions suivantes :
 
-   Faites glisser l’icône **Tableau** ![](assets/table-icon.png) sur la zone de travail, directement à l’emplacement souhaité.
+   Faites glisser l’icône **Tableau** ![Icône Tableau](assets/table-icon.png) sur la zone de travail directement à l’emplacement souhaité.
 
    Ou
 
-   Double-cliquez sur l’icône **Tableau** ![](assets/table-icon.png) pour ajouter un tableau en haut de la zone de travail.
+   Double-cliquez sur l’icône **Tableau** ![Icône Tableau](assets/table-icon.png) pour ajouter un tableau en haut de la zone de travail.
 
    >[!TIP]
    >
@@ -42,14 +42,14 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 
 1. Cliquez sur **Tableau sans titre** dans l’en-tête du tableau, puis saisissez le titre du tableau.
 
-   ![](assets/table-name-350x142.png)
+   ![ Nom de la table ](assets/table-name-350x142.png)
 
 1. Cliquez sur **Modifier** au centre du bloc de tableau pour configurer le tableau.
 
    >[!NOTE]
    >
-   >Si le tableau faisait déjà partie de la zone de travail (lors de la modification d’un rapport existant, par exemple), le bouton **Modifier** ne s’affiche pas au centre du bloc. Pour modifier le tableau, cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans l’en-tête du tableau.
-   >![](assets/edit-icon-table-header-350x71.png)
+   >Si le tableau faisait déjà partie de la zone de travail (lors de la modification d’un rapport existant, par exemple), le bouton **Modifier** ne s’affiche pas au centre du bloc. Pour modifier le tableau, cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans l’en-tête du tableau.
+   >![Icône Modifier dans l’en-tête du tableau](assets/edit-icon-table-header-350x71.png)
 
 1. Dans le panneau **Champs** à droite, recherchez un champ à ajouter en tant que colonne au tableau, puis faites-le glisser sur le tableau là où vous souhaitez le placer, ou double-cliquez dessus pour l’ajouter en tant que dernière colonne du tableau.
 

@@ -2,15 +2,15 @@
 product-area: reporting
 keywords: utilisateur ou utilisatrice,délégation,rapport,déléguer,approbation
 navigation-topic: create-and-manage-reports
-title: Création d’un rapport de délégation d’utilisateur
+title: Création d’un rapport de délégation d’utilisateurs
 description: Créer un rapport sur la délégation d’utilisateurs et d’utilisatrices
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 96%
+source-wordcount: '333'
+ht-degree: 89%
 
 ---
 
@@ -77,17 +77,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Créer un rapport sur la délégation d’utilisateurs et d’utilisatrices
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Rapports**.
 
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Délégation d’utilisateurs et d’utilisatrices**.
 
-   ![](assets/classic-new-report-user-delegation-350x644.png)
+   ![Nouvelle délégation d’utilisateur de rapport](assets/classic-new-report-user-delegation-350x644.png)
 
    Les champs suivants s’affichent par défaut dans ce rapport :
 

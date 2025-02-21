@@ -6,9 +6,9 @@ description: Votre administrateur ou administratrice Adobe Workfront accorde au
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '823'
 ht-degree: 73%
 
 ---
@@ -46,7 +46,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
       <td> 
       <p>Nouveau :</p>
          <ul>
-         <li><p>Clair ou plus élevé</p></li>
+         <li><p>Léger ou supérieur</p></li>
          </ul>
       <p>Actuel :</p>
          <ul>
@@ -65,7 +65,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -106,7 +106,7 @@ Le partage d’un ou de plusieurs rapports d’une liste est identique.
     <tbody> 
      <tr> 
       <td role="rowheader">L'afficher</td> 
-      <td> <p>Permet à vos destinataires d’afficher le rapport dans la zone <strong>Rapports</strong> et de l’exécuter.</p> <p>Vous pouvez cliquer sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez que les utilisateurs et les utilisatrices puissent le <strong>Partager</strong> avec n’importe qui dans le système.</p> </td> 
+      <td> <p>Permet à votre destinataire d'accéder au rapport dans la zone <strong>Rapports</strong> et de l'exécuter.</p> <p>Vous pouvez cliquer sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez que les utilisateurs et les utilisatrices puissent le <strong>Partager</strong> avec n’importe qui dans le système.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Le gérer</td> 
@@ -116,15 +116,15 @@ Le partage d’un ou de plusieurs rapports d’une liste est identique.
    </table>
 
 1. (Facultatif) Répétez les 2 étapes précédentes pour ajouter d’autres noms à la liste et configurer leurs options.
-1. (Facultatif) Cliquez sur le menu déroulant **Seules les personnes invitées peuvent accéder à** dans la boîte de partage, puis choisissez l’une des options suivantes :
+1. (Facultatif) Cliquez sur le menu déroulant **Seules les personnes invitées peuvent accéder** dans la zone de partage, puis choisissez entre les options suivantes :
 
-   * **Seules les personnes invitées peuvent accéder à** Sélectionnez cette option afin que seuls les utilisateurs qui ont reçu l’accès au rapport puissent l’afficher.
+   * **Seules les personnes invitées peuvent y accéder** Sélectionnez cette option afin que seuls les utilisateurs et utilisatrices ayant obtenu l’accès au rapport puissent l’afficher.
 
-   * **Tous les utilisateurs du système peuvent afficher** Sélectionnez cette option pour que tous les utilisateurs de Workfront ayant accès aux rapports puissent afficher le rapport.
+   * **Tout le monde peut afficher le rapport dans le système** Sélectionnez cette option pour que tous les utilisateurs de Workfront ayant accès aux rapports puissent les afficher.
 
-1. (Facultatif) Cliquez sur l’icône **Gear** ![](assets/gear-icon-settings-with-dn-arrow.jpg) dans le coin supérieur droit de la boîte de partage, puis sélectionnez éventuellement l’option suivante :
+1. (Facultatif) Cliquez sur l’icône **Engrenage** ![Paramètres de l’icône d’engrenage](assets/gear-icon-settings-with-dn-arrow.jpg) dans le coin supérieur droit de la zone de partage, puis sélectionnez éventuellement l’option suivante :
 
-   * **Rendre ce public aux utilisateurs externes** Sélectionnez cette option pour générer une URL qui peut être partagée avec d’autres utilisateurs. Toute personne disposant de l’URL peut accéder au rapport, sans posséder de licence Adobe Workfront.
+   * **Rendre ceci public pour les utilisateurs externes** Sélectionnez cette option pour générer une URL qui peut être partagée avec d’autres utilisateurs. Toute personne disposant de l’URL peut accéder au rapport, sans posséder de licence Adobe Workfront.
 
      >[!CAUTION]
      >
@@ -132,6 +132,6 @@ Le partage d’un ou de plusieurs rapports d’une liste est identique.
 
      >[!NOTE]
      >
-     >Si le rapport comporte une invite que vous partagez publiquement, les utilisateurs qui l’exécutent via le lien de partage public ne pourront pas exécuter le rapport à l’aide de l’invite. Le rapport s’affiche sans l’invite qui lui est appliquée, sauf s’il se connecte à Workfront et accède au rapport sans utiliser le lien de partage public. Pour plus d’informations sur les limites du partage de rapports avec des invites, reportez-vous à la section [Limitations du partage des rapports demandés](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) de l’article [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+     >Si le rapport comporte une invite et que vous le partagez publiquement, les utilisateurs qui exécutent le rapport par le biais du lien de partage public ne pourront pas exécuter le rapport à l’aide de l’invite. Elles verront le rapport sans l’invite qui lui est appliquée, sauf si elles se connectent à Workfront et accèdent au rapport sans utiliser le lien de partage public. Pour plus d’informations sur les limites du partage de rapports avec des invites, consultez la section [Limitations du partage de rapports avec invite](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) dans l’article [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 1. Cliquer sur **Enregistrer**.

@@ -6,9 +6,9 @@ description: Vous pouvez améliorer vos rapports en ajoutant un graphique. Vous 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 72%
 
 ---
@@ -277,11 +277,11 @@ Pour ajouter un graphique à **bulle** à votre rapport :
 
    Par exemple, si vous avez sélectionné **Nom du projet** dans un rapport de tâche, vous pouvez ajouter **Statut de la tâche** comme champ **Couleur de bulle**.
 
-   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+   ![Couleur de la tâche définie comme bulle](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
    Toutefois, si vous avez sélectionné **Statut de la tâche** pour le champ **Bulles**, vous ne pouvez pas sélectionner un champ **Couleur de bulle**. En outre, vous ne pouvez pas sélectionner **Nom du projet** pour le champ **Couleur des bulles**, même si vous sélectionnez **Nom du projet** pour le champ **Bulles**.
 
-   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![Impossible de sélectionner la couleur de la bulle](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
 1. Cliquez sur **Enregistrer et Fermer** pour enregistrer les modifications apportées au créateur d’interface.
 
@@ -304,7 +304,7 @@ Pour personnaliser les couleurs du graphique :
 
 1. Cliquez sur **Couleurs personnalisées** lorsque ce champ est disponible.\
    La boîte de dialogue Couleurs personnalisées s’affiche.\
-   ![](assets/unshimmed-custom-colors-in-charts.png)
+   ![Couleurs personnalisées dans les graphiques](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >

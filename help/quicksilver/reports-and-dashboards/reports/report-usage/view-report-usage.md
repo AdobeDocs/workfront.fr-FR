@@ -6,10 +6,10 @@ description: Afficher le rapport d’utilisation
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 100%
+source-wordcount: '1011'
+ht-degree: 96%
 
 ---
 
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Afficher les informations sur l’utilisation des rapports dans la vue d’une liste de rapports
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
 
 1. Dans la liste des rapports, cliquez sur le menu déroulant **Affichage**.
 1. (Facultatif) Sélectionnez la vue **Utilisation des rapports** pour afficher les informations les plus courantes sur l’utilisation des rapports.\
@@ -97,7 +97,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Filtrer une liste de rapports en fonction des informations d’utilisation {#filter-a-report-list-by-usage-information}
 
-1. Cliquez sur l’icône de **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
 1. Dans la liste des rapports, cliquez sur le menu déroulant **Filtrer**.
 1. Cliquez sur **Nouveau filtre**, puis sur **Ajouter une règle de filtre**.
 1. Commencez à saisir l’un des champs suivants et sélectionnez-le lorsqu’il apparaît dans la liste sous l’objet **Rapport** pour l’ajouter en tant que nouvelle règle de filtrage :
@@ -112,7 +112,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * **Date de dernière consultation** : affiche la date à laquelle le rapport a été consulté pour la dernière fois.
 
 1. Sélectionnez un modificateur pour votre champ, puis indiquez une valeur lorsque l’application vous y invite.\
-   ![](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![Statistiques de filtre d’utilisation des rapports](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. Cliquez sur **Enregistrer le filtre**.\
    Cette option permet d’afficher une liste de rapports correspondant aux informations d’utilisation que vous avez définies.\

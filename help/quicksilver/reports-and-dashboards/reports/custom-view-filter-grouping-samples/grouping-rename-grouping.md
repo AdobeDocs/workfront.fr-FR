@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Groupement : modifiez le nom d’affichage dans un groupement"
+title: 'Regroupement : permet de modifier le nom d’affichage dans un regroupement.'
 description: Vous pouvez renommer les regroupements dans les listes et les rapports et leur donner un nom que vos utilisateurs et utilisatrices connaissent mieux.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 77%
+source-wordcount: '365'
+ht-degree: 74%
 
 ---
 
@@ -22,11 +22,11 @@ Vous pouvez renommer les regroupements et leur donner un nom que vos utilisateur
 
 Par exemple, lorsque vous appliquez le regroupement Nom de portfolio standard à une liste de projets, le nom du regroupement apparaît comme *Portfolio : nom :`<name of portfolio>`*.
 
-![](assets/grouping-unedited-name-350x167.png)
+![Regroupement par nom non modifié](assets/grouping-unedited-name-350x167.png)
 
 Vous pouvez modifier ce regroupement en mode texte pour afficher un nom plus facile à lire.
 
-![](assets/grouping-edited-name-350x160.png)
+![Regroupement par nom modifié](assets/grouping-edited-name-350x160.png)
 
 ## Conditions d’accès
 
@@ -46,7 +46,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -64,7 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +75,7 @@ Pour modifier le nom d’affichage dans un regroupement de projet, procédez com
 1. Accédez à une liste de projets.
 1. Dans le menu déroulant **Regroupement**, sélectionnez **Nouveau regroupement**.
 
-1. Cliquez sur **Ajouter un groupement** et commencez à saisir &quot;Nom du Portfolio&quot; dans le champ **Group by:** , puis sélectionnez-le lorsqu&#39;il s&#39;affiche dans la liste.
+1. Cliquez sur **Ajouter un regroupement** et commencez à saisir « Nom du Portfolio » dans le champ **Regrouper par :**, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
 1. Cliquez sur **Basculer en mode texte**.
 1. Effectuez l’une des opérations suivantes :
@@ -86,7 +86,7 @@ Pour modifier le nom d’affichage dans un regroupement de projet, procédez com
      `group.0.displayname=Your Value`
 
 
-     Par exemple, ajoutez le code suivant pour remplacer le nom d’affichage par &quot;Portfolio&quot; :
+     Par exemple, ajoutez le code suivant pour remplacer le nom d’affichage par « Portfolio » :
 
      `group.0.displayname=Portfolio`
 
@@ -94,7 +94,7 @@ Pour modifier le nom d’affichage dans un regroupement de projet, procédez com
 
      `group.0.name=Your Value`
 
-     Par exemple, ajoutez le code suivant pour remplacer le nom d’affichage par &quot;Portfolio&quot; :
+     Par exemple, ajoutez le code suivant pour remplacer le nom d’affichage par « Portfolio » :
 
      `group.0.name=Portfolio`
 
@@ -103,9 +103,9 @@ Pour modifier le nom d’affichage dans un regroupement de projet, procédez com
      >Vous pouvez également laisser le `group.0.name=` et les lignes `group.0.displayname=` vides, auquel cas le regroupement affiche la valeur pour laquelle vous effectuez le regroupement.
 
 
-     ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![Regroupement par nom modifié sans nom](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Cliquez sur **Terminé**, puis sur **Enregistrer le regroupement**.
-1. (Facultatif) Mettez à jour le nom du groupement, puis cliquez sur **Enregistrer le groupement**.
+1. (Facultatif) Mettez à jour le nom du regroupement, puis cliquez sur **Enregistrer le regroupement**.
 
    Le nom par défaut du regroupement est modifié en fonction de vos informations de mode texte.

@@ -7,10 +7,10 @@ description: Vous pouvez créer une copie de tout rapport auquel vous avez accè
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 82%
+source-wordcount: '649'
+ht-degree: 79%
 
 ---
 
@@ -58,13 +58,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Créer une copie exacte d’un rapport
 
-Si vous souhaitez effectuer une copie d’un rapport personnalisé, procédez comme suit :
+Si vous souhaitez faire une copie d’un rapport personnalisé, procédez comme suit :
 
 1. Cliquez sur l’icône de **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône de **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Rapports]**.
 
@@ -79,9 +79,9 @@ Si vous souhaitez effectuer une copie d’un rapport personnalisé, procédez co
 
    ![Copier le rapport](assets/unshimmed-report-actions-copy.png)
 
-   Une copie du rapport d’origine est créée avec le nom par défaut _[Nom du rapport d’origine] (Copie)_. Par exemple, une copie du rapport &quot;Tâches terminées du quatrième trimestre&quot; sera nommée &quot;Tâches terminées du quatrième trimestre (copie)&quot;.
+   Une copie du rapport d’origine est créée avec le nom par défaut _[Nom du rapport d’origine ] (Copier)_. Par exemple, une copie du rapport « Tâches terminées du 4e trimestre » serait nommée « Tâches terminées du 4e trimestre (copie) ».
 
-1. (Facultatif) Pour renommer le rapport, cliquez sur **Actions de rapport**, puis sur **Modifier**. Saisissez un nouveau nom dans la zone de texte dans le coin supérieur gauche, puis cliquez sur **Enregistrer + Fermer** lorsque vous avez terminé.
+1. (Facultatif) Pour renommer le rapport, cliquez sur **Actions du rapport** puis **Modifier**. Saisissez un nouveau nom dans la zone de texte située dans le coin supérieur gauche, puis cliquez sur **Enregistrer + Fermer** lorsque vous avez terminé.
 
 1. (Facultatif) Pour partager la nouvelle version du rapport avec d’autres personnes, cliquez sur **Actions de rapport**, puis **Partage**.
 
@@ -98,13 +98,13 @@ Si vous souhaitez effectuer une copie d’un rapport personnalisé, procédez co
 
    1. Cliquez sur **Actions de rapport**, puis **Supprimer**.
 
-   1. Cliquez sur **Oui, supprimez-le** pour confirmer que vous souhaitez supprimer le rapport.
+   1. Cliquez sur **Oui, le supprimer** pour confirmer que vous souhaitez supprimer le rapport.
 
 ## Créer une version d’un rapport {#create-a-new-version-of-a-report}
 
 Si vous souhaitez créer une copie d’un rapport par défaut, procédez comme suit :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
 1. Cliquez sur **Rapports**, puis sur **Tous les rapports**.
 1. Cliquez sur le nom d’un rapport par défaut pour l’ouvrir.
@@ -124,6 +124,6 @@ Si vous souhaitez créer une copie d’un rapport par défaut, procédez comme s
 1. Cliquez sur **Terminer**.
 1. Cliquez sur **Enregistrer en tant que nouveau rapport**.
 
-   ![](assets/unshimmed-save-as-new-report.png)
+   ![Enregistrer comme nouveau rapport](assets/unshimmed-save-as-new-report.png)
 
 1. (Facultatif) Pour partager la nouvelle version du rapport avec d’autres personnes, cliquez sur **Actions de rapport**, puis **Partage**.

@@ -6,10 +6,10 @@ description: Vous pouvez incorporer une page web externe dans un tableau de bord
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 94%
+source-wordcount: '1030'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents web, 
 >[!IMPORTANT]
 >
 >* Pour des raisons de sécurité, certains sites web ne vous permettent pas d’incorporer des pages web en tant qu’iframe. Si la page web que vous souhaitez incorporer dans un tableau de bord ne vous le permet pas, elle ne s’affiche pas dans le tableau de bord. Vous pouvez toutefois accéder à la page externe en cliquant sur le nom du tableau de bord.\
->![](assets/qs-empty-external-page-report-350x165.png)\
+>![Rapport de page externe vide](assets/qs-empty-external-page-report-350x165.png)\
 >Pour permettre l’incorporation d’un site web dont vous êtes propriétaire, demandez à votre équipe d’administration web d’ajuster le paramètre **X-Frame-Options**. Pour plus d’informations, voir [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
@@ -118,7 +118,7 @@ ou,\
 
 1. Cliquez sur **Ajouter une page externe** sous la zone **Sélectionner une disposition/Ajouter des rapports/Ajouter des calendriers**.
 
-   ![](assets/qs-add-external-page-350x239.png)
+   ![Ajouter une page externe](assets/qs-add-external-page-350x239.png)
 
    La zone **Ajouter une page externe** s’affiche.
 
@@ -132,7 +132,7 @@ ou,\
 
       * URL HTTPS (chiffrée) vers une page web.\
         Seules les pages HTTPS (chiffrées) sont chargées avec l’URL.\
-        ![](assets/add-external-page-dialog-qs-350x247.png)
+        ![ Boîte de dialogue Ajouter une page externe ](assets/add-external-page-dialog-qs-350x247.png)
 
       * URL de modèle contenant des informations de session pour un site web spécifique.\
         Par exemple : *https://localhost/?session={!$$SESSION}*
@@ -170,10 +170,10 @@ Pour mettre à jour les informations d’une page externe utilisée sur un table
    La zone **Détails du tableau de bord** s’ouvre.
 
 1. Dans la zone **Sélectionner la mise en page / Ajouter des rapports** de la zone **Détails du tableau de bord**, recherchez la page externe à mettre à jour, survolez-la avec la souris et cliquez sur l’icône **Modifier**.\
-   ![](assets/nwe-inline-edit-external-page-350x226.png)
+   ![Modification en ligne d’une page externe](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Dans la zone **Modifier la page externe**, mettez à jour les champs à modifier, puis cliquez sur **Enregistrer**.
-1. (Facultatif) Cliquez sur l’icône **Supprimer** ![](assets/delete.png) pour supprimer la page externe du tableau de bord. Pour plus d’informations, voir [Supprimer une page externe d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. (Facultatif) Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png) pour supprimer la page externe du tableau de bord. Pour plus d’informations, voir [Supprimer une page externe d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Cliquez sur **Enregistrer + Fermer**.
 
 ## Afficher des pages externes dans un rapport
@@ -184,7 +184,7 @@ Vous pouvez afficher toutes les pages externes de Workfront dans un rapport de p
 
 1. Cliquez sur **Nouveau rapport** > sélectionnez **Section externe**.
 
-   ![](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![Section externe](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (Facultatif) Mettez à jour les onglets Vues, Filtres ou Reroupements du rapport.
 

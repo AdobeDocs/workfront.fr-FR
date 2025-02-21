@@ -6,10 +6,10 @@ description: Vous pouvez faire référence aux formulaires personnalisés d’un
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 95%
+source-wordcount: '967'
+ht-degree: 94%
 
 ---
 
@@ -59,7 +59,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 Le formulaire personnalisé doit exister avant que vous puissiez le référencer dans un rapport.
 
-Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Référencer le contenu des formulaires personnalisés
 
@@ -76,13 +76,13 @@ Vous pouvez faire référence à des champs dans des formulaires personnalisés.
 >[!NOTE]
 >
 >Pour les champs à options multiples, toutes les options sont disponibles dans les filtres et les invites du rapport, y compris celles qui sont masquées.\
->Pour plus d’informations sur le masquage de choix à partir d’un champ personnalisé avec plusieurs options, consultez l’article [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>Pour plus d’informations sur le masquage des choix dans un champ personnalisé avec plusieurs options, consultez l’article [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Lors de la création du rapport, il suffit d’utiliser le type d’objet du formulaire comme source de champ et le nom du champ personnalisé comme nom de champ.
 
 Par exemple, vous pouvez avoir un formulaire personnalisé appliqué à tous les projets qui comprend le champ personnalisé **Consultant ou consultante**. Pour créer un rapport qui répertorie tous les projets pour lesquels Olivia Kim est consultante, utilisez le type d’objet **Projet** comme source de champ et **Consultant ou consultante** comme nom de champ. Définissez le qualificateur du filtre sur **Égal à**, puis saisissez Olivia Kim.
 
-![](assets/qs-consultant-filter-example-350x126.png)
+![Filtre consultant](assets/qs-consultant-filter-example-350x126.png)
 
 Pour plus d’informations sur la création d’un rapport, consultez l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -111,13 +111,13 @@ Pour afficher tous les formulaires personnalisés associés à un objet, procéd
 1. Commencez à créer un rapport comme décrit dans l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Dans l’onglet **Colonnes**, développez le type d’objet auquel s’applique le formulaire personnalisé que vous souhaitez référencer, puis cliquez sur **Nom de la catégorie**.\
    Par exemple, pour afficher tous les formulaires personnalisés associés à une tâche, développez la source de champ **Tâche**, puis cliquez sur le nom de champ **Nom de la catégorie**.\
-   ![](assets/qs-category-name-column-350x267.png)
+   ![Colonne de nom de catégorie](assets/qs-category-name-column-350x267.png)
 
 Pour afficher uniquement le formulaire personnalisé principal associé à l’objet, procédez comme suit :
 
 1. Commencez à créer un rapport comme décrit dans l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Dans l’onglet **Colonnes**, développez la source de champ **Catégorie**, puis cliquez sur le nom de champ **Nom**.\
-   ![](assets/qs-category-name-column-2-350x248.png)
+   ![Nom de la catégorie](assets/qs-category-name-column-2-350x248.png)
 
 ### Référencer des formulaires personnalisés dans un rapport via l’onglet Filtre {#reference-custom-forms-in-a-report-filter}
 
@@ -125,7 +125,7 @@ Pour filtrer tous les formulaires personnalisés associés au type d’objet, pr
 
 1. Commencez à créer un rapport comme décrit dans l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Dans l’onglet **Filtres**, développez **Catégories**, puis cliquez sur **Nom**.\
-   ![](assets/qs-categories-name-filter-350x311.png)
+   ![Filtre de nom de catégorie](assets/qs-categories-name-filter-350x311.png)
 
 1. Sélectionnez le qualificateur de condition que vous souhaitez utiliser :
 
@@ -150,7 +150,7 @@ Pour n’effectuer le filtrage que sur le formulaire personnalisé principal ass
 
 1. Commencez à créer un rapport, tel que décrit dans l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Dans l’onglet **Filtres**, développez la source du champ **Catégorie**, puis cliquez sur le champ **Nom**.\
-   ![](assets/qs-category-name-filter-350x437.png)
+   ![Filtre de nom de catégorie](assets/qs-category-name-filter-350x437.png)
 
 1. Sélectionnez le qualificateur de condition que vous souhaitez utiliser :
 
@@ -175,4 +175,4 @@ Pour n’effectuer le filtrage que sur le formulaire personnalisé principal ass
 
 1. Commencez à créer un rapport, tel que décrit dans l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Dans l’onglet **Regroupements**, développez le choix **Catégorie**, puis cliquez sur **Nom**.\
-   ![](assets/qs-category-name-grouping-350x373.png)
+   ![Regroupement de noms de catégories](assets/qs-category-name-grouping-350x373.png)

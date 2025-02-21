@@ -7,10 +7,10 @@ description: Pour aggréger plusieurs champs dans Adobe Workfront et afficher c
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 97%
+source-wordcount: '817'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 Pour aggréger plusieurs champs dans Adobe Workfront et afficher cette valeur agrégée dans un nouveau champ, vous pouvez créer les éléments suivants :
 
 * Champ personnalisé calculé dans un formulaire personnalisé\
-  Pour plus d’informations sur l’ajout d’un champ personnalisé calculé à un formulaire personnalisé, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+  Pour plus d’informations sur l’ajout d’un champ calculé personnalisé à un formulaire personnalisé, voir [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 * Colonne calculée dans une vue\
   Pour plus d’informations sur l’utilisation des calculs dans une vue, voir la section [Utiliser le mode Texte dans les vues](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) dans l’article [Vue d’ensemble des utilisations courantes du mode Texte](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
@@ -85,7 +85,7 @@ Pour plus d’informations sur la syntaxe que vous devez utiliser dans une colon
 
 ## Actions qui déclenchent la mise à jour d’un champ personnalisé calculé
 
-* Sur la page principale d’un objet, cliquez sur l’icône Plus ![](assets/more-icon.png), puis cliquez sur **Recalculer les expressions**.
+* Sur la page principale d&#39;un objet, cliquez sur l&#39;icône Plus ![icône Plus](assets/more-icon.png), puis sur **Recalculer les expressions**
 
 * Modifier en masse plusieurs objets lorsque **Recalculer des expressions personnalisées** est activé
 * Modifier un formulaire personnalisé lorsque **Mettre à jour des calculs précédents** est activé pour le champ personnalisé calculé

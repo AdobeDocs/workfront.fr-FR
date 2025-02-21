@@ -6,10 +6,10 @@ description: Consultez cet article pour en savoir plus sur les directives relati
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 96%
+source-wordcount: '1012'
+ht-degree: 95%
 
 ---
 
@@ -74,7 +74,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -129,12 +129,12 @@ Pour plus d’informations sur l’export de données à partir de listes et de 
 
 1. Accédez à la liste que vous souhaitez modifier.
 1. Faites glisser la bordure d’un en-tête de colonne jusqu’à ce que la colonne atteigne la taille souhaitée.\
-   ![](assets/column-resize-350x124.png)
+   ![Redimensionner la colonne](assets/column-resize-350x124.png)
 
 #### Réorganiser temporairement des colonnes {#reorder-columns-temporarily}
 
 1. Accédez à la liste que vous souhaitez modifier.
-1. Cliquez sur l’en-tête de colonne que vous souhaitez déplacer et faites-le glisser jusqu’à l’emplacement souhaité.
+1. Cliquez sur l’en-tête de colonne à déplacer et faites-le glisser jusqu’à l’emplacement souhaité.
 
 >[!TIP]
 >

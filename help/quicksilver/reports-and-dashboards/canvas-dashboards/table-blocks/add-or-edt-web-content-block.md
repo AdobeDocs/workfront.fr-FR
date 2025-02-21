@@ -4,10 +4,10 @@ description: Les blocs de contenu web vous permettent d’afficher des informati
 hidefromtoc: true
 hide: true
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 84%
 
 ---
 
@@ -21,12 +21,12 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 
 ## Ajouter ou modifier un bloc de contenu web
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Reporting**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Reporting**.
 1. Cliquez sur **Nouveau rapport**.
 
    Ou
 
-   Accédez à un rapport existant, cliquez sur l’icône **Plus** ![](assets/more-icon-27x15.png) dans l’en-tête du rapport, puis cliquez sur **Modifier**.
+   Dans un rapport existant, cliquez sur l’icône **Plus** ![Plus](assets/more-icon-27x15.png) dans l’en-tête du rapport, puis sur **Modifier**.
 
 1. Sur le côté droit de l’écran, sous **Ajouter un bloc**, effectuez l’une des actions suivantes :
 
@@ -41,9 +41,9 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
    >Vous pouvez modifier la taille du bloc une fois qu’il est placé en faisant glisser ses poignées d’angle.
 
 1. Cliquez sur **Contenu web sans titre** dans l’en-tête du bloc, puis saisissez un titre pour le bloc.
-1. Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans l’en-tête du bloc.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans l’en-tête du bloc.
 
-   ![](assets/web-content-block-header-350x76.png)
+   ![Icône Modifier dans l’en-tête du bloc](assets/web-content-block-header-350x76.png)
 
 1. Dans le panneau **Paramètres** qui s’ouvre, saisissez l’URL complète de la page que vous souhaitez afficher (y compris « https:// ») dans le champ **URL**.
 

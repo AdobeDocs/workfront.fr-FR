@@ -7,10 +7,10 @@ description: Questions fréquentes sur les rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 100%
+source-wordcount: '1519'
+ht-degree: 99%
 
 ---
 
@@ -90,7 +90,7 @@ Pour plus d’informations sur la modification des filtres et des regroupements,
 ### Réponse
 
 Le rapport ou le calendrier peut comporter une variable de filtre de caractères génériques qui pointe vers la personne connectée. Dans ce cas, le rapport affiche des informations en fonction de la personne connectée. Réglez le filtre pour supprimer le caractère générique qui pointe vers la personne connectée.\
-![](assets/qs--user.id-filter-variable-350x79.png)
+![Variable de filtre de l’ID utilisateur](assets/qs--user.id-filter-variable-350x79.png)
 
 Pour obtenir la liste complète des variables de filtrage des caractères génériques basées sur la personne, voir [Vue d’ensemble des variables de filtrage des caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
@@ -122,7 +122,7 @@ Pour afficher toutes les tâches ou tous les problèmes qui vous sont affectés,
 1. Sélectionnez le modificateur **Égal**.
 1. Commencez à saisir *$$USER.ID* dans la zone de texte et sélectionnez-le dans la liste déroulante qui s’affiche.\
    Vous affichez ainsi toutes les tâches et tous les problèmes affectés à la personne connectée. Vous pouvez remplacer le caractère générique par un nom de personne spécifique.\
-   ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![Tâches qui me sont affectées](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. Cliquez sur **Enregistrer + Fermer**.
 
@@ -143,7 +143,7 @@ Toutefois, certains éléments peuvent empêcher l’affichage de ces liens :
 * Si vous avez un **Vue** appliquée à ces listes dans lesquelles une devise est sélectionnée autre que la devise par défaut du projet, les liens ne s’affichent pas. Modifiez la **Vue** en **Devise originale du projet** et les liens devraient s’afficher afin que vous puissiez ajouter des problèmes et des tâches à vos projets.\
   Pour plus d’informations sur la modification de la devise dans votre vue, voir [Créer des rapports de données financières avec des taux de change uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
-![](assets/nwe-project-original-currency-350x229.png)
+![Devise du projet ](assets/nwe-project-original-currency-350x229.png)
 
 ## Les informations de mon rapport ou de mon tableau de bord sont-elles actualisées automatiquement ?
 

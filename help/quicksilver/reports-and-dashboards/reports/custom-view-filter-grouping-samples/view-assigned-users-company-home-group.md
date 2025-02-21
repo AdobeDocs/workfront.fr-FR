@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Vue : Société et groupe d’accueil de l’utilisateur attribué"
+title: 'Afficher : société et groupe principal de l''utilisateur affecté'
 description: Cette vue de tâche affiche l’entreprise et le groupe principal de la personne propriétaire principale de la tâche. Il s’agit de valeurs qui ne sont pas disponibles dans l’interface standard, mais qui sont accessibles via le mode texte.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 74%
+source-wordcount: '262'
+ht-degree: 72%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 74%
 
 Cette vue de tâche affiche l’entreprise et le groupe principal de la personne propriétaire principale de la tâche. Il s’agit de valeurs qui ne sont pas disponibles dans l’interface standard, mais qui sont accessibles via le mode texte.
 
-![](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![Afficher la société et le groupe principal de l’utilisateur affecté](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## Conditions d’accès
 
@@ -40,7 +40,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,10 +67,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Accédez à une liste de tâches.
 1. Dans le menu déroulant **Affichage**, sélectionnez **Nouvel affichage**.
 
-1. Dans la zone **Aperçu des colonnes**, supprimez toutes les colonnes sauf une.
+1. Dans la zone **Aperçu des colonnes**, éliminez toutes les colonnes à l’exception d’une seule.
 1. Cliquez sur l’en-tête de la colonne restante, puis cliquez sur **Basculer en mode texte**.
-1. Cliquez sur **Modifier le mode Texte**.
-1. Supprimez le texte que vous trouvez dans la zone **Edit Text Mode** et remplacez-le par le code suivant :
+1. Cliquez sur **Modifier le mode texte**.
+1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
    ```
    column.0.descriptionkey=name

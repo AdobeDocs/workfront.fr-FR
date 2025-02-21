@@ -6,10 +6,10 @@ description: Vous pouvez supprimer un filtre, une vue ou un regroupement des lis
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 98%
+source-wordcount: '811'
+ht-degree: 94%
 
 ---
 
@@ -60,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -116,7 +116,7 @@ Les scénarios suivants existent lorsque vous supprimez un filtre, une vue ou un
 ### Supprimer un filtre, une vue ou un regroupement à l’aide de l’interface de création héritée
 
 1. Accédez à une liste d’objets ou à un rapport.
-1. (Le cas échéant) Dans une liste, cliquez sur l’icône **Filtre**, **Vue** ou **Regroupement**, puis pointez sur le filtre, la vue ou le regroupement que vous souhaitez supprimer, cliquez sur l’icône **Plus** ![](assets/more-icon.png), puis sur **Supprimer**. Le filtre, la vue ou le regroupement est supprimé(e).
+1. (Conditionnel) Dans une liste, cliquez sur l’icône **Filtre**, **Affichage** ou **Regroupement**, puis survolez le filtre, la vue ou le regroupement à supprimer et cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png), puis **Supprimer**. Le filtre, la vue ou le regroupement est supprimé(e).
 1. (Le cas échéant) Dans un rapport, cliquez sur le menu déroulant **Regroupement**, **Filtre** ou **Vue** et sélectionnez **Supprimer le regroupement**, **Supprimer le filtre** ou **Supprimer la vue**.
 
    La boîte de dialogue **Mes regroupements**, **Mes filtres,** ou **Mes vues** s’affiche.

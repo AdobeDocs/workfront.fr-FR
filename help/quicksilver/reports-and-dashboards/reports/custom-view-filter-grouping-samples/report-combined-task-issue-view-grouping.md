@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Rapport : affichage et regroupement des tâches et des problèmes combinés"
+title: 'Rapport : Vue et regroupement des tâches et des événements combinés'
 description: Ce rapport des éléments de travail affiche les tâches et les problèmes que les utilisateurs et les utilisatrices ont accepté de traiter. Il est préférable de le combiner avec un regroupement personnalisé.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: bc99e303047b989b972974b398420a9180e40874
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 54%
+source-wordcount: '417'
+ht-degree: 53%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 54%
 
 <!--Audited: 10/2024-->
 
-Ce rapport d’élément de travail présente les tâches et les problèmes sur lesquels les utilisateurs ont accepté de travailler dans un rapport. Il est préférable de le combiner avec un regroupement personnalisé.
+Ce rapport d’élément de travail affiche les tâches et les événements sur lesquels les utilisateurs ont accepté de travailler dans un seul rapport. Il est préférable de le combiner avec un regroupement personnalisé.
 
 Ce rapport utilise `sharecol=true` dans la vue pour combiner plusieurs champs sous le même en-tête de colonne. Pour plus d’informations sur la balise `sharecol`, consultez la section [Vue : fusionner des informations provenant de plusieurs colonnes dans une colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
->  La vue Élément de travail affiche uniquement les tâches et les problèmes qui ont été acceptés par les utilisateurs qui leur sont affectés. Ce rapport n’affiche pas les tâches qui n’ont pas été déplacées des listes Requêtes de travail ou Requêtes d’équipe vers la liste de travail de l’utilisateur.
+>  La vue Élément de travail affiche uniquement les tâches et les événements qui ont été acceptés par les utilisateurs qui leur sont affectés. Ce rapport n&#39;affiche pas les éléments de travail qui n&#39;ont pas été déplacés des listes Demandes de travail ou Demandes de l&#39;équipe vers la liste Travailler sur de l&#39;utilisateur.
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
@@ -46,7 +46,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -64,7 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,14 +72,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 Pour créer un rapport utilisant cette vue :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit ou sur l’icône **Menu principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Rapports**.
+1. Cliquez sur l&#39;icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Rapports**.
 
 1. Cliquez sur **Nouveau rapport** > **Plus** > **Élément de travail** dans le menu déroulant.
 
-1. Dans la zone **Aperçu des colonnes**, cliquez sur l’en-tête de la seule colonne affichée. Il s’agit de la colonne **Référence externe**.
+1. Dans la zone **Aperçu de la colonne**, cliquez sur l&#39;en-tête de la seule colonne affichée. Il s’agit de la colonne **Ext Ref**.
 1. Cliquez sur **Basculer en mode texte**.
-1. Placez le pointeur de la souris sur la zone de mode Texte, puis cliquez sur **Modifier le mode Texte**.
-1. Supprimez le texte que vous trouvez dans la zone de mode de texte et remplacez-le par le code suivant :
+1. Placez le pointeur de la souris sur la zone de mode texte, puis cliquez sur **Modifier le mode texte**.
+1. Supprimez le texte de la zone Mode texte et remplacez-le par le code suivant :
 
    ```
    column.0.description=Task or Issue 
@@ -272,7 +272,7 @@ Pour créer un rapport utilisant cette vue :
 
 1. Cliquez sur **Terminé**.
 1. (Facultatif) Cliquez sur **Regroupements** pour ajouter un regroupement au rapport.
-1. (Facultatif et conditionnel) Si vous ajoutez un groupement, cliquez sur **Passer en mode Texte**.
+1. (Facultatif et conditionnel) Si vous ajoutez un regroupement, cliquez sur **Basculer en mode Texte**.
 1. (Facultatif) Remplacez le texte à l’intérieur de la zone de mode texte de regroupement par le code suivant :
 
    ```

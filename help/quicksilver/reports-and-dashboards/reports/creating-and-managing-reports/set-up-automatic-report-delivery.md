@@ -6,7 +6,7 @@ description: Planifier la remise automatique d’un rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 87%
@@ -63,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -145,7 +145,7 @@ Pour planifier la remise automatique d’un rapport ou modifier ou supprimer une
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Heure</p> </td> 
-      <td> <p>Sélectionnez l’heure de la journée à laquelle vous souhaitez envoyer la remise.</p> <p>Conseil : Comme les chargements du système peuvent avoir une incidence sur les heures de remise des rapports, un délai allant jusqu’à 24 heures peut s’écouler entre l’heure planifiée et l’heure de remise réelle. Si vous devez remettre un rapport à une heure spécifique, nous vous recommandons de planifier la remise au préalable. En règle générale, nous vous recommandons de planifier la diffusion au moins un jour avant la date à laquelle elle est nécessaire.</p> </td> 
+      <td> <p>Sélectionnez l’heure de la journée à laquelle vous souhaitez envoyer la remise.</p> <p>Conseil : les chargements du système pouvant affecter les délais de livraison des rapports, il peut y avoir un délai de jusqu'à 24 heures entre l'heure planifiée et l'heure réelle de livraison. Si vous devez remettre un rapport à une heure spécifique, nous vous recommandons de planifier la remise au préalable. En règle générale, nous vous recommandons de planifier la diffusion au moins un jour avant la date à laquelle elle est nécessaire.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se répète le</p> </td> 
@@ -178,9 +178,9 @@ Pour planifier la remise automatique d’un rapport ou modifier ou supprimer une
 
 >[!IMPORTANT]
 >
->Les rapports planifiés sont soumis à une limite de temps interne lors du traitement en vue de leur diffusion. Dans le cas où l&#39;envoi d&#39;un rapport prend plus de temps, vous recevrez une notification et le rapport ne sera plus remis, quelle que soit la ou les diffusions planifiées restantes. Pour continuer à envoyer le rapport, essayez d’abord de réduire sa taille par le biais de filtres et d’affichages, puis créez une diffusion planifiée.
+>Les rapports planifiés sont soumis à un délai interne lors de leur traitement pour diffusion. Dans le cas où un rapport dépasse la limite d&#39;envoi, vous recevrez une notification et le rapport ne sera plus diffusé indépendamment des autres diffusions planifiées. Pour continuer à envoyer le rapport, essayez d’abord de réduire sa taille à l’aide de filtres et de vues, puis créez une diffusion planifiée.
 >
->Si vous utilisez une remise de rapport planifiée pour analyser les données Workfront par le biais d’un outil de BI, il est recommandé d’utiliser plutôt Workfront Data Connect. Pour plus d’informations, voir [Présentation de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+>Si vous utilisez une diffusion de rapports planifiée pour analyser les données de Workfront par le biais d’un outil BI, nous vous recommandons d’utiliser plutôt Workfront Data Connect. Pour plus d&#39;informations, consultez [Présentation de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 1. (Facultatif) Pour supprimer une remise prévue, procédez comme suit :
 
@@ -191,7 +191,7 @@ Pour planifier la remise automatique d’un rapport ou modifier ou supprimer une
 
 View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 
-[ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
+[ ![Video walkthrough of report delivery](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
 
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>

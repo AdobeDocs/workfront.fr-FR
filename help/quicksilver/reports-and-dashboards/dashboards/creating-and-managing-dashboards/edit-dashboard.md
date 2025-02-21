@@ -6,10 +6,10 @@ description: Le tableau de bord permet d’accéder rapidement aux informations.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 88%
+source-wordcount: '497'
+ht-degree: 87%
 
 ---
 
@@ -86,7 +86,7 @@ Pour plus d’informations sur la création de tableaux de bord, voir [Créer un
 1. Accédez au tableau de bord que vous souhaitez modifier.
 1. Cliquez sur **Actions du tableau de bord**, puis cliquez sur **Modifier**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![Modifier le tableau de bord](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >

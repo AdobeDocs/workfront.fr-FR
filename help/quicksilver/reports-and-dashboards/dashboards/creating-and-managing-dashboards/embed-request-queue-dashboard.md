@@ -6,10 +6,10 @@ description: Vous pouvez intégrer une nouvelle file d’attente des demandes da
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 99%
+source-wordcount: '1150'
+ht-degree: 98%
 
 ---
 
@@ -100,7 +100,7 @@ Les utilisateurs et utilisatrices peuvent modifier le type de demande ou choisir
 
    Cette opération copie le lien vers la file d’attente des demandes ou la rubrique de la file d’attente lorsque vous l’affichez à l’écran. Les utilisateurs et utilisatrices peuvent mettre à jour le type de demande ou l’un des groupes de rubriques et des rubriques de file d’attente disponibles.
 
-   ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![File d’attente des demandes avec chemin de partage](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### Obtenir un lien vers une file d’attente des demandes et possibilité de modifier le type de demande {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -121,7 +121,7 @@ Lorsque vous partagez un lien vers un type de demande, le type de demande est s�
 
    Les utilisateurs et utilisatrices peuvent sélectionner n’importe quel groupe de rubriques ou rubrique de file d’attente, ou choisir un autre type de demande.
 
-   ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![URL de la file d’attente des demandes](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### Obtenir un lien vers une file d’attente des demandes sans possibilité de modifier le type de demande {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +150,7 @@ Lorsque vous partagez un lien vers un type de demande présélectionné, le type
 
    Les utilisateurs et utilisatrices peuvent sélectionner n’importe quel groupe de rubriques ou rubrique de file d’attente pour le type de demande sélectionné. Les utilisateurs et utilisatrices ne peuvent pas sélectionner un autre type de demande.
 
-   ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![Code de file d’attente de demandes](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## Intégrer une file d’attente des demandes dans un tableau de bord
 
@@ -164,7 +164,7 @@ Vous pouvez incorporer un lien vers la file d’attente des demandes ou vers une
 
 1. Cliquez sur **Ajouter une page externe**.
 
-   ![](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![ Page externe ](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. Dans la zone **Ajouter une page externe**, modifiez les champs suivants :
 

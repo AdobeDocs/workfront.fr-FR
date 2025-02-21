@@ -6,10 +6,10 @@ description: Si vous n’avez plus besoin d’un tableau de bord, vous pouvez le
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 92%
 
 ---
 
@@ -72,7 +72,7 @@ Pour supprimer un tableau de bord :
 1. Accédez au tableau de bord que vous souhaitez modifier.
 1. Cliquez sur **Actions de tableau de bord**, puis sur **Supprimer**.
 
-   ![](assets/unshimmed-delete-dashboard.png)
+   ![Supprimer le tableau de bord](assets/unshimmed-delete-dashboard.png)
 
 1. Pour confirmer la suppression du tableau de bord, cliquez sur **Oui, supprimer.**
 Le tableau de bord est supprimé de Workfront.
@@ -84,9 +84,9 @@ Si vous supprimez plusieurs tableaux de bord, vous pouvez les supprimer à parti
 Pour supprimer plusieurs tableaux de bord :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Tableaux de bord]**.
-1. Sélectionnez dans la liste les tableaux de bord que vous souhaitez supprimer, puis cliquez sur **Supprimer** ![](assets/delete.png).
+1. Sélectionnez dans la liste les tableaux de bord à supprimer, puis cliquez sur **Supprimer** ![Icône Supprimer](assets/delete.png).
 
-   ![](assets/unshimmed-delete-dashboard-list.png)
+   ![Supprimer le tableau de bord](assets/unshimmed-delete-dashboard-list.png)
 
 1. Pour confirmer la suppression du tableau de bord, cliquez sur **Oui, supprimer.**
 Le tableau de bord est supprimé de Workfront.
