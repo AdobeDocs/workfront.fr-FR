@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: f9dea6c80c0d681e3638c9baf36e6e511693b59c
+source-git-commit: 0cbce301426ee42bc00f8b0930a13d0d7875e382
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 88%
+source-wordcount: '1336'
+ht-degree: 87%
 
 ---
 
@@ -98,7 +98,7 @@ Avant d’utiliser Admin Console pour Workfront, vous devriez recevoir un e-mail
   >
   >N’apportez aucune modification au profil de produit lui-même.
 
-* Les administrateurs et administratrices de Adobe Admin Console peuvent configurer des règles d’affectation automatique pour automatiser le processus d’attribution de produits Adobe aux utilisateurs et utilisatrices de leur entreprise. Pour plus d’informations et d’instructions, consultez [Gestion des règles d’affectation automatique](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) dans la documentation d’Adobe.
+* Les administrateurs et administratrices de Adobe Admin Console peuvent configurer des règles d’affectation automatique pour automatiser le processus d’attribution de produits Adobe aux utilisateurs et utilisatrices de leur entreprise. Votre organisation doit être migrée vers l’expérience unifiée Adobe pour utiliser cette fonctionnalité. Pour plus d’informations et d’instructions, consultez [Gestion des règles d’affectation automatique](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) dans la documentation d’Adobe.
 
 ## Accéder à la zone utilisateur et administration de votre instance de production Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
