@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 2a356b2cc98f8226d2a616cdd907a3aebaeecee0
+source-git-commit: a7be72f0a594a21baed2592d8a2e467118ab1b7f
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1531'
 ht-degree: 89%
 
 ---
@@ -23,7 +23,7 @@ Vous pouvez configurer l’accès à un formulaire personnalisé pour contrôler
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 

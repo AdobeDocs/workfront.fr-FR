@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: a7be72f0a594a21baed2592d8a2e467118ab1b7f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 98%
 
 ---
@@ -27,7 +27,7 @@ Vous pouvez réactiver ou désactiver un formulaire personnalisé. Nous vous rec
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
