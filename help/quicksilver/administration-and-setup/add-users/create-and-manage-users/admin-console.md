@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 0cbce301426ee42bc00f8b0930a13d0d7875e382
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 87%
+source-wordcount: '1449'
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,10 @@ En tant qu’administrateur ou administratrice Adobe, vous pouvez créer des adm
 
 >[!NOTE]
 >
->Nous vous recommandons d’ajouter les utilisateurs et utilisatrices qui ne sont pas en charge de l’administration système directement dans Workfront. Vous pouvez ajouter des utilisateurs et utilisatrices dans Adobe Admin Console, mais les ajouter dans Workfront permet de définir leur niveau d’accès lors de leur création, ce qui peut vous faire gagner du temps.
+>* **Les administrateurs Workfront doivent être configurés dans Adobe Admin Console.** Pour plus d’informations et d’instructions, voir [Création d’administrateurs système dans Workfront avec Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console) dans cet article.
+>* **Si votre entreprise utilise l’authentification unique (SSO)** nous vous recommandons de créer des utilisateurs et de les affecter à Workfront dans Adobe Admin Console. La création de ces utilisateurs dans Workfront est possible, mais il peut y avoir des problèmes de transfert de ces informations vers Adobe Admin Console, en fonction de la configuration d’Admin Console dans votre organisation.
+>   Après avoir créé l’utilisateur dans le Adobe Admin Console, vous pouvez configurer ses informations dans Workfront, telles que l’attribution de rôles, de groupes, d’équipes et de niveaux d’accès.
+>* **Si votre entreprise n’utilise pas l’authentification unique (SSO)** vous pouvez ajouter des utilisateurs qui ne sont pas administrateurs système directement dans Workfront. Vous pouvez ajouter des utilisateurs et utilisatrices dans Adobe Admin Console, mais les ajouter dans Workfront permet de définir leur niveau d’accès lors de leur création, ce qui peut vous faire gagner du temps.
 
 <span class="preview">Lorsque vous apportez des modifications aux profils des utilisateurs à partir d’Admin Console, une mise à jour est ajoutée à l’onglet Activité du système de l’utilisateur dans Workfront. La mise à jour s’affiche comme effectuée par le « Système ». Il s’agit de l’administrateur Adobe Admin Console et non de l’administrateur principal Workfront.</span>
 

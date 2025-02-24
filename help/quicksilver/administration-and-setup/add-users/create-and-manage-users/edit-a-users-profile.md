@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '3276'
-ht-degree: 93%
+source-wordcount: '3325'
+ht-degree: 92%
 
 ---
 
@@ -86,8 +86,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <td> 
        <ul> 
         <li><p><b>Prénom</b></p></li>
-        <li><p><b>Nom de famille</b></p></li> 
-        <li> <p><b>Adresse e-mail :</b> l’adresse e-mail d’un utilisateur ou d’une utilisatrice correspond à son nom dans Workfront. Ce champ est sensible à la casse et doit être unique. Si un utilisateur ou une utilisatrice tente d’ajouter une adresse e-mail non unique trois fois en moins de 10 minutes, une réponse reCAPTCHA s’affiche.</p> <p> Sélectionnez <b>Je ne suis pas un robot</b> pour pouvoir continuer.</p><p>Si vous utilisez la liste autorisée d’e-mails et que vous saisissez un domaine d’e-mail qui ne figure pas dans la liste, l’utilisateur ou l’utilisatrice ne recevra pas de notifications par e-mail. Pour plus d’informations sur la liste autorisée, voir <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configurer votre liste autorisée d’e-mails</a>.</p> </li> 
+        <li><p><b>Nom de famille</b></p><p><b>NOTE :</b></p><p>La modification du nom d’un utilisateur dans Workfront ne modifie pas son nom dans Adobe Admin Console.</p></li> 
+        <li> <p><b>Adresse e-mail :</b> l’adresse e-mail d’un utilisateur ou d’une utilisatrice correspond à son nom dans Workfront. Ce champ est sensible à la casse et doit être unique. Si un utilisateur ou une utilisatrice tente d’ajouter une adresse e-mail non unique trois fois en moins de 10 minutes, une réponse reCAPTCHA s’affiche.</p> <p> Sélectionnez <b>Je ne suis pas un robot</b> pour pouvoir continuer.</p><p>Si vous utilisez la liste autorisée d’e-mails et que vous saisissez un domaine d’e-mail qui ne figure pas dans la liste, l’utilisateur ou l’utilisatrice ne recevra pas de notifications par e-mail. Pour plus d’informations sur la liste autorisée, voir <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configurer votre liste autorisée d’e-mails</a>.</p><p>Si votre organisation a été migrée vers Adobe Admin Console, vous ne pouvez pas modifier l’adresse e-mail d’un utilisateur dans Workfront. L’adresse e-mail de l’utilisateur est définie dans le Adobe Admin Console. </li> 
         <li> <p><b>Réinitialisation du mot de passe</b> : cliquez sur ce lien pour réinitialiser le mot de passe de l’utilisateur ou de l’utilisatrice. Vous devez saisir votre propre mot de passe avant de pouvoir réinitialiser le mot de passe d’un autre utilisateur ou d’une autre utilisatrice.</p> <p>Pour réinitialiser le mot de passe d’une autre personne, vous devez être administrateur ou administratrice Workfront ou de groupes.</p> <p><b>NOTE</b> :  
           <ul> 
            <li> <p>Si vous êtes administrateur ou administratrice de groupes, vous ne pouvez réinitialiser les mots de passe que des personnes membres des groupes que vous administrez. En outre, l’autorisation Administration des utilisateurs et utilisatrices (utilisateurs et utilisatrices de groupe) doit être activée dans votre niveau d’accès :</p> <p> <img src="assets/group-admin-user.png" > </p> <p>Ce paramètre est désactivé par défaut. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </li> 
