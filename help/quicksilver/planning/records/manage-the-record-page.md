@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 10%
+source-wordcount: '1772'
+ht-degree: 9%
 
 ---
 
@@ -78,7 +78,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr>
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
    <td>
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p>
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p>
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
    </td>
 
@@ -105,7 +105,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>Un modèle de mise en page comprenant la zone Planification du menu principal et la zone Planification des projets, portfolios et programmes doit être affecté à tous les utilisateurs, y compris les administrateurs Workfront. </p> Pour plus d'informations, voir Présentation de l'accès à la planification d'Adobe <a href="/help/quicksilver/planning/access/access-overview.md"></a>. </p>  </p>  
+   <td> <p>Un modèle de mise en page comprenant la zone Planification du menu principal et la zone Planification des projets, portfolios et programmes doit être affecté à tous les utilisateurs, y compris les administrateurs Workfront. </p> Pour plus d'informations, consultez <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l'accès à Adobe Planning</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -157,29 +157,29 @@ Pour ajouter une section à une prévisualisation d’enregistrement ou à une p
 
    Ou
 
-   Dans la vue Tableau, cliquez sur l’icône **Ouvrir les détails** ![](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
+   Dans la vue du tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
 
    L’aperçu de l’enregistrement s’ouvre dans la vue.
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png)  
+    ![Details box](assets/details-box.png)  
 
     </div>-->
 
-1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    La page d’enregistrement s’ouvre. L’onglet Détails s’ouvre par défaut.
 
-   ![](assets/details-page.png)
+   ![Page de détails](assets/details-page.png)
 
-1. Dans l’onglet **Détails** de l’aperçu de l’enregistrement ou de la page, passez le curseur sur l’espace blanc à gauche des champs, puis cliquez sur l’icône **Ajouter une section** ![](assets/add-section-icon.png) d’ajouter une section.
+1. Dans l’onglet **Détails** de l’aperçu de l’enregistrement ou de la page, passez le curseur sur l’espace blanc à gauche des champs, puis cliquez sur l’icône **Ajouter une section** ![Icône Ajouter une section](assets/add-section-icon.png) pour ajouter une section.
 1. Cliquez dans le nom de la section et remplacez **Section sans titre** par un nom, puis cliquez sur Entrée. Les champs affichés sous la section font automatiquement partie de la nouvelle section.
 1. Commencez à faire glisser et à déposer des champs dans la nouvelle section, comme décrit dans la section [Réorganiser les champs dans la page d’aperçu d’enregistrement ou de détails](#rearrange-fields-in-the-record-preview-or-details-page) dans cet article.
 
-1. (Facultatif) Passez la souris sur le nom d’une section et cliquez sur l’![](assets/more-menu.png) de menu **Plus**.
+1. (Facultatif) Passez la souris sur le nom d’une section et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png).
 
-   ![](assets/more-menu-options-for-section-on-record-page.png)
+   ![Autres options de menu pour la section sur la page d’enregistrement](assets/more-menu-options-for-section-on-record-page.png)
 1. (Facultatif) Effectuez l’une des opérations suivantes pour modifier la section :
 
    * Cliquez sur **Renommer** pour renommer la section
@@ -200,19 +200,19 @@ Tous les champs de la section se déplacent avec la section.
 1. Cliquez sur la flèche pointant vers le bas à gauche d&#39;un nom de section pour le réduire ou sur la flèche pointant vers la droite pour le développer.
 Toutes les sections sont développées par défaut.
 
-1. (Facultatif) Cliquez sur l’icône **saisir** ![](assets/grab-icon.png) à gauche d’un nom de section, puis faites-la glisser et déposez-la à l’endroit souhaité.
+1. (Facultatif) Cliquez sur l’icône **saisir** ![saisir](assets/grab-icon.png) à gauche d’un nom de section, puis faites-la glisser et déposez-la à l’endroit souhaité.
 
    La nouvelle position de la section est mise à jour dans l’aperçu et la page de tous les enregistrements du même type pour tous les utilisateurs qui consultent les enregistrements.
 
    Toutes les modifications apportées aux sections et à l’ordre des champs sont enregistrées automatiquement.
 
-1. (Facultatif) Cliquez sur l’![](assets/export-icon-in-record-details-page.png) du menu **Exporter** pour exporter l’onglet Détails vers un fichier Word ou un fichier de PDF. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facultatif) Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l’enregistrement](assets/export-icon-in-record-details-page.png) pour exporter l’onglet Détails vers un fichier Word ou PDF. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Facultatif) Cliquez sur l’onglet **Connexions** en regard de l’onglet **Détails**. Vous devrez peut-être cliquer sur **Plus** avant de cliquer sur l’onglet **Connexions**.
 
    Tous les enregistrements ou objets connectés à l’enregistrement sélectionné s’affichent sous les noms du type d’enregistrement ou de l’application à laquelle ils appartiennent.
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![Onglet Connexions enregistré dans Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
 
 1. (Facultatif) Sélectionnez le paramètre **Afficher tous les enregistrements** dans le coin supérieur droit de l’onglet Connexions. Tous les types d’enregistrements connectés s’affichent, y compris ceux qui n’ont pas encore d’enregistrements connectés. Par défaut, le bouton (bascule) est désélectionné et les types d’enregistrements sans enregistrements connectés sont masqués.
 
@@ -240,27 +240,27 @@ Voici ce qui se produit :
 
    Ou
 
-   Dans la vue Tableau, cliquez sur l’icône **Ouvrir les détails** ![](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
+   Dans la vue du tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
 
    L’aperçu de l’enregistrement s’ouvre dans la vue.
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png) 
+    ![Details box](assets/details-box.png) 
 
     </div>-->
 
-1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir la zone des détails dans une icône d’un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    L’onglet **Détails** de l’enregistrement s’ouvre par défaut.
 
    <!--<div class="preview">
 
-   ![](assets/details-page.png)
+   ![Details page](assets/details-page.png)
 
    </div>-->
 
-1. Dans l’onglet Enregistrement **Détails**, cliquez sur l’icône **saisir** ![](assets/grab-icon.png) à gauche d’un nom de champ, puis faites-le glisser et déposez-le à l’endroit souhaité. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Dans l’onglet Enregistrement **Détails**, cliquez sur l’icône **saisir** ![Icône saisir](assets/grab-icon.png) à gauche d’un nom de champ, puis faites-le glisser et déposez-le à l’endroit souhaité. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    La nouvelle position du champ est mise à jour dans l’aperçu et la page de tous les enregistrements du même type pour tous les utilisateurs qui consultent les enregistrements.
 
@@ -268,40 +268,64 @@ Voici ce qui se produit :
 
 ## Ajout d’une page d’affichage Connexion à la page d’un enregistrement
 
+<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+
 Tenez compte des points suivants lors de l’ajout d’une vue Connexion à la page d’un enregistrement :
 
 * Vous pouvez ajouter une page d&#39;affichage Connexion à la page d&#39;un enregistrement.
 
 * Vous ne pouvez pas ajouter une page d&#39;affichage Connexion à la zone d&#39;aperçu d&#39;un enregistrement.
 
-* Les pages de vue Connexion affichent une page d&#39;enregistrement connectée en mode Tableau. La vue Tableau est en lecture seule.
+* Les pages de vue Connexion affichent une page d&#39;enregistrement connectée en mode Tableau. La vue Tableau est en lecture seule. <!--more views might be added in the future-->
 
 * Vous pouvez ajouter une page de vue Connexion par type d’enregistrement connecté.  <!--edit this when we can remove fields from this page-->
 
-* Après avoir ajouté une page d&#39;affichage Connexion à la page d&#39;un enregistrement, la page est visible depuis la zone d&#39;aperçu de l&#39;enregistrement.
+* Après avoir ajouté une page d&#39;affichage Connexion à la page d&#39;un enregistrement, l&#39;onglet de page est visible depuis la zone d&#39;aperçu de l&#39;enregistrement. Vous devez accéder à la page complète pour afficher la vue du tableau pour l’enregistrement connecté. <!--this might have changed? check and take disclaimer out-->
 
 Pour ajouter une page de vue Connexion :
 
-1. Dans une page d&#39;enregistrement vue, cliquez sur le nom d&#39;un enregistrement pour l&#39;ouvrir, puis cliquez sur l&#39;icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la page d&#39;aperçu.
+1. Dans une page d&#39;enregistrement vue, cliquez sur le nom d&#39;un enregistrement pour l&#39;ouvrir, puis cliquez sur l&#39;icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d&#39;onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la page d&#39;aperçu.
 1. Cliquez sur **Ajouter une page** > **Vue Connexion**.
 
-   ![](assets/add-connection-view-page-modal.png)
+   ![Boîte de dialogue modale Ajouter une page de vue de connexion](assets/add-connection-view-page-modal.png)
 1. Ajoutez le **Nom de la page**, cliquez sur **Vue de la connexion**, puis sur **Créer**.
 
    Un nouvel onglet est ajouté à la page de l’enregistrement.
 1. Recherchez ou cliquez sur le nom d’un enregistrement ou d’un type d’objet connecté dans la liste.
 La vue Tableau du type d’enregistrement que vous avez sélectionné s’affiche et les enregistrements connectés s’affichent dans la vue Tableau.
-La vue Tableau est en lecture seule.
+Tous les champs de l&#39;enregistrement connecté s&#39;affichent dans la vue Tableau de l&#39;onglet de l&#39;enregistrement connecté.
 
-   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+   <!--<span class="preview">When you access Workfront Planning from the Preview environment, five fields from the connected record display in the connected record's table view by default. Some connection fields display in addition to other fields. All lookup fields are hidden.</span> (*****be more specific about which connected fields show, if Robert responds*******)-->
+
+   La vue Tableau est en lecture seule.
+
+   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
+
+   ![Vue du tableau connecté à l’audience sous les détails de la campagne](assets/audience-connected-table-view-under-campaign-details-page.png)
 1. (Facultatif) Double-cliquez sur le nom de l’onglet
 
    Ou
 
-   Pointez sur le nom de l’onglet, puis cliquez sur **Plus** ![](assets/more-menu.png), puis sur **Renommer** pour renommer en nouvel onglet Vue connectée.
-1. (Facultatif) Utilisez les éléments de vue de la barre d’outils pour gérer la vue du tableau. Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
-1. (Facultatif) Passez la souris sur le nom de l’onglet, puis cliquez sur **Plus** ![](assets/more-menu.png) et sur **Supprimer** pour supprimer le nouvel onglet Vue connectée.
+   Pointez sur le nom de l’onglet, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png), puis cliquez sur **Renommer** pour renommer en nouvel onglet Vue connectée.
+1. (Facultatif) Utilisez l’un des éléments d’affichage suivants dans la barre d’outils pour gérer la vue du tableau
 
+   * Filtres
+   * Trier
+   * Regroupement 
+
+   <!--Add to the list above some of the capabilities in the note with a preview tag when they are available.-->
+
+   Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+   >[!NOTE]
+   >
+   >   Vous ne pouvez effectuer aucune des opérations suivantes dans la vue Tableau de l&#39;onglet d&#39;un enregistrement connecté :
+   >
+   >   * Masquer les champs
+   >   * Créer, modifier ou supprimer des champs
+   >   * Réorganiser les champs
+   >
+1. (Facultatif) Pointez sur le nom de l’onglet, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png), puis sur **Supprimer** pour supprimer vers le nouvel onglet Vue connectée.
 
 
 <!--

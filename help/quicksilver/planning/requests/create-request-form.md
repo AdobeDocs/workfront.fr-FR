@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1479'
 ht-degree: 13%
 
 ---
@@ -74,7 +74,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <tr>
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
    <td>
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p>
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p>
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
    </td>
 
@@ -168,7 +168,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >    * Workfront Planning connected records' lookup fields
    >    * AEM Assets connection fields-->
 
-   * **Section par défaut** : il s’agit du saut de section par défaut que Workfront applique au formulaire de demande. La section Par défaut ne peut pas être renommée ni supprimée.
+   * **Section par défaut** : il s’agit du saut de section par défaut que Workfront applique au formulaire de demande. Tous les champs d’enregistrement s’affichent dans la zone **Section par défaut**.
    * Champ **Subject** : champ qui identifiera la demande dans Workfront. La configuration et la valeur du champ Objet ne sont pas modifiables.
 
      >[!TIP]
@@ -182,6 +182,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. (Facultatif) Pointez sur un champ du formulaire à supprimer, puis cliquez sur l’icône **x** pour le supprimer. Elles sont ajoutées à l’onglet **Champs** situé à gauche du formulaire.
 
    Par exemple, supprimez le champ **Objet**, car il n’est pas visible dans Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+1. (Facultatif) Pour supprimer la **section Par défaut** du formulaire, procédez comme suit :
+
+   1. Supprimez tous les champs de la section Par défaut.
+   1. Cliquez sur **Éléments de contenu** et ajoutez une nouvelle section, puis ajoutez un nom pour la section.
+   1. Ajoutez des champs à la nouvelle section.
+   1. Cliquez sur l’icône **x** pour supprimer la **section par défaut**.
 1. Cliquez sur n’importe quel champ, puis utilisez les commandes du panneau de droite du formulaire pour définir leur taille ou l’une des informations suivantes :
 
    * **Libellé** : il s&#39;agit du nom du champ tel qu&#39;il apparaîtra sur le formulaire de demande. Le nom du champ d’enregistrement n’est pas modifié.
@@ -219,11 +225,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Facultatif) Cliquez sur le ![](assets/more-menu.png) de menu **Plus** situé à droite du nom du formulaire dans l’en-tête, puis cliquez sur **Modifier** pour mettre à jour le nom du formulaire.
-1. Cliquez sur **Publish** pour publier le formulaire et obtenir un lien unique pour celui-ci.
+1. Cliquez sur **Publier** pour publier le formulaire et obtenir un lien unique pour celui-ci.
 
    Les événements suivants se produisent :
 
-   * Le bouton **Publish** est supprimé.
+   * Le bouton **Publier** est supprimé.
    * Le bouton **Dépublier** est ajouté au formulaire. Cliquez dessus pour empêcher l’accès au formulaire.
    * Un bouton **Partager** est ajouté au formulaire.
 

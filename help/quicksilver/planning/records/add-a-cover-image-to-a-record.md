@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 24%
+source-wordcount: '748'
+ht-degree: 23%
 
 ---
 
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -136,53 +136,46 @@ Vous pouvez personnaliser un enregistrement en ajoutant une image de couverture 
 
    Ou
 
-   Dans la vue Tableau, cliquez sur l’icône **Ouvrir les détails** ![](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
+   Dans la vue du tableau, cliquez sur l’icône **Ouvrir les détails** ![Ouvrir les détails](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
 
    L’aperçu de l’enregistrement s’ouvre dans la vue.
 
-   <!--<div class="preview">
+   ![Zone d’aperçu des détails](assets/details-box.png)
 
-    ![](assets/details-box.png) 
 
-    </div>-->
-
-1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Icône Ouvrir dans un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    La page de l’enregistrement s’ouvre.
 
-   <!--<div class="preview">
-
-    ![](assets/details-page.png)
-
-    </div>-->
+   ![Page de détails](assets/details-page.png)
 
 1. Dans la page d’aperçu ou de détails de l’enregistrement, passez le curseur sur l’espace au-dessus du nom de l’enregistrement, puis cliquez sur **Ajouter une couverture**.
 
    Ou
 
-   Pointez sur une image de couverture existante, cliquez sur l’![](assets/more-menu.png) de menu **Plus**, puis cliquez sur **Télécharger**. <!--check the casing here; I logged a bug for this-->
+   Pointez sur une image de couverture existante, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) , puis cliquez sur **Télécharger**. <!--check the casing here; I logged a bug for this-->
 La boîte de dialogue **Couverture d’enregistrement** s’ouvre dans l’onglet **Télécharger**.
 
-   ![](assets/record-cover-box-for-upload.png)
+   ![Zone d’enregistrement pour le chargement](assets/record-cover-box-for-upload.png)
 
 1. Cliquez sur **Parcourir les images** et recherchez une image sur votre ordinateur pour la sélectionner et l’ajouter.
 
-1. (Facultatif) Pour supprimer l’image avant de l’enregistrer, cliquez sur l’icône **Télécharger une nouvelle image** ![](assets/upload-new-image-icon.png) , puis chargez une nouvelle image.
+1. (Facultatif) Pour supprimer l’image avant de l’enregistrer, cliquez sur l’icône **Charger une nouvelle image** ![Charger une nouvelle image](assets/upload-new-image-icon.png) , puis chargez une nouvelle image.
 
 1. (Facultatif) Cliquez sur l’onglet **Galerie**, puis cliquez sur une image dans la galerie d’images. La galerie d’images ne peut pas être modifiée.
 
-   ![](assets/record-cover-box-for-gallery.png)
+   ![Boîte de couverture d&#39;enregistrement pour galerie](assets/record-cover-box-for-gallery.png)
 
 1. Cliquez sur **Utiliser l’image**.
 
    L’image est chargée en haut de la page d’aperçu ou de détails de l’enregistrement et les modifications sont enregistrées automatiquement.
 
-   ![](assets/record-page-with-cover-image.png)
+   ![Enregistrer la page avec l’image de couverture](assets/record-page-with-cover-image.png)
 
-1. (Facultatif) Pointez sur l’image, puis cliquez sur le ![](assets/more-menu.png) de menu **Plus** dans le coin inférieur droit de l’image de couverture, puis effectuez l’une des opérations suivantes :
+1. (Facultatif) Pointez sur l’image, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin inférieur droit de l’image de couverture, puis effectuez l’une des opérations suivantes :
 
    * Cliquez sur **Télécharger** si vous souhaitez remplacer l’image de couverture et répétez l’étape 6 pour télécharger et enregistrer une nouvelle image.
-   * Cliquez sur **Repositionner**, puis utilisez l’outil **Repositionner** ![](assets/reposition-tool-icon.png) pour centrer l’image de couverture, puis cliquez sur **Enregistrer** lorsque vous avez terminé.
+   * Cliquez sur **Repositionner**, puis utilisez l’outil **Repositionner** ![Icône de l’outil de repositionnement](assets/reposition-tool-icon.png) pour centrer l’image de couverture, puis cliquez sur **Enregistrer** lorsque vous avez terminé.
    * Cliquez sur **Supprimer** pour supprimer l’image de couverture.
 
    Workfront enregistre automatiquement vos modifications.

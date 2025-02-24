@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 36%
+source-wordcount: '913'
+ht-degree: 33%
 
 ---
 
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -132,9 +132,9 @@ Vous pouvez ajouter une miniature des manières suivantes :
 
    Cela ouvre la page du type d’enregistrement.
 1. Sélectionnez une vue de tableau dans le menu déroulant **Vue**. Tous les enregistrements du type que vous avez sélectionné s’affichent dans un tableau.
-1. Pointez sur les informations du champ principal, puis cliquez sur le menu **Plus** ![](assets/more-menu.png), et enfin sur **Miniature**.
+1. Pointez sur les informations du champ principal, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur **Miniature**.
 
-   ![](assets/record-more-menu-expanded.png)
+   ![Menu Enregistrer plus développé](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
@@ -180,15 +180,15 @@ Vous pouvez ajouter une miniature des manières suivantes :
 1. Dans n’importe quel affichage, cliquez sur un enregistrement pour l’ouvrir.
 
    La zone d’aperçu des détails s’affiche.
-1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit.
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit.
 
    La page de détails de l’enregistrement s’ouvre.
 
-1. (Conditionnel) Dans la page d’aperçu ou de détails de l’enregistrement, passez le curseur sur l’image ou l’icône de miniature ![](assets/record-thumbnail-icon-on-details-page.png), puis passez le curseur sur l’espace situé au-dessus du nom de l’enregistrement et cliquez sur **Ajouter une miniature** ou **Modifier une miniature**.
+1. (Conditionnel) Dans la page d’aperçu ou de détails de l’enregistrement, passez le curseur sur l’image ou l’icône de miniature ![icône d’enregistrement de miniature sur la page de détails](assets/record-thumbnail-icon-on-details-page.png), puis passez le curseur sur l’espace au-dessus du nom de l’enregistrement et cliquez sur **Ajouter une miniature** ou **Modifier la miniature**.
 
    L’onglet **Charger** s’ouvre par défaut dans la zone **Enregistrer la miniature**.
 
-   ![](assets/record-thumbnail-box-for-upload.png)
+   ![Enregistrer la zone de miniature pour le chargement](assets/record-thumbnail-box-for-upload.png)
 
 1. Glissez-déposez un fichier à ajouter en tant que miniature
 
@@ -197,12 +197,12 @@ Vous pouvez ajouter une miniature des manières suivantes :
    Cliquez sur **Parcourir les images**, puis recherchez un fichier image à ajouter. Le fichier doit être enregistré sur votre ordinateur.
 
 1. (Facultatif) Une fois l’image téléchargée dans la zone **Enregistrer la miniature**, utilisez l’outil de redimensionnement pour recadrer et redimensionner l’image.
-1. (Facultatif) Cliquez sur l’icône **Charger une nouvelle image** ![](assets/upload-new-image-icon.png) pour charger une autre image.
+1. (Facultatif) Cliquez sur l’icône **Charger une nouvelle image** ![Charger une nouvelle image](assets/upload-new-image-icon.png) pour charger une autre image.
 1. (Facultatif) Cliquez sur l’onglet **Galerie**, puis sur une image. La galerie d’images ne peut pas être modifiée.
 
-   ![](assets/record-thumbnail-box-for-gallery.png)
+   ![Zone d’enregistrement des miniatures pour la galerie](assets/record-thumbnail-box-for-gallery.png)
 
-1. (Facultatif) Pour supprimer la miniature avant de l’enregistrer, cliquez sur l’icône **Supprimer** ![](assets/remove-image-icon.png) à droite de l’image.
+1. (Facultatif) Pour supprimer la miniature avant de l’enregistrer, cliquez sur l’icône **Supprimer** ![Icône Supprimer l’image](assets/remove-image-icon.png) à droite de l’image.
 
 1. Cliquez sur **Utiliser l’image** pour ajouter l’image en tant que miniature.
 Cette action ferme la boîte de dialogue **Miniature d’enregistrement**.
@@ -212,7 +212,7 @@ La miniature s’affiche dans les zones de Workfront Planning où s’affiche l�
    >
    >   Vous devez activer le champ Miniature dans la vue Tableau pour afficher les miniatures dans cette vue. Il est désactivé par défaut.
 
-1. (Facultatif) Pour supprimer la miniature après son enregistrement, cliquez sur un enregistrement dans n’importe quel mode pour ouvrir la page de détails, puis passez la souris sur l’image miniature et cliquez sur l’icône de menu **Plus** ![](assets/more-menu.png)> **Supprimer** ![](assets/remove-image-icon.png). La miniature est supprimée.
+1. (Facultatif) Pour supprimer la miniature après son enregistrement, cliquez sur un enregistrement dans n’importe quel mode pour ouvrir la page de détails, puis survolez l’image miniature avec la souris et cliquez sur l’icône **Plus** du menu ![Icône du menu Plus](assets/more-menu.png)> **Supprimer** icône ![Icône Supprimer](assets/remove-image-icon.png). La miniature est supprimée.
 
 
 
