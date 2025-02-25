@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Utiliser la vue Jalon
-description: Vous pouvez appliquer la vue Jalon à une liste de projets ou à un rapport.
+description: Vous pouvez appliquer la vue Jalon à une liste de projets ou à un rapport. Vous pouvez utiliser la vue Jalon pour afficher tous les jalons associés aux tâches dans les projets que vous consultez.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 99%
+source-wordcount: '1360'
+ht-degree: 90%
 
 ---
 
@@ -17,9 +17,13 @@ ht-degree: 99%
 
 <!-- Audited: 11/2024 -->
 
-Vous pouvez appliquer la vue Jalon à une liste de projets ou à un rapport.
+Vous pouvez appliquer la vue Jalon à une liste de projets ou à un rapport. Vous pouvez utiliser la vue Jalon pour afficher tous les jalons associés aux tâches dans les projets que vous consultez.
 
-Avant de pouvoir utiliser la vue de jalon, vous devez configurer les jalons, ajouter les chemins d’accès au jalon aux projets et associer les jalons aux tâches, tel que décrit dans les articles [Créer un chemin jalonné](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) et [Associer des jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Pour pouvoir utiliser la vue Jalon , les éléments suivants doivent exister :
+
+* Les chemins jalonnés sont configurés. Pour plus d’informations, voir [Créer un chemin jalonné](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* Les chemins jalonnés nécessaires sont ajoutés aux projets. Pour plus d’informations, voir [Modifier les projets](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+* Les jalons sont associés aux tâches. Pour plus d’informations, voir [Associer des jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 La vue Jalon est disponible lors de l’affichage d’une liste de projets ou d’un rapport de projet. Les sections suivantes décrivent la manière d’afficher et d’utiliser la vue Jalon.
 

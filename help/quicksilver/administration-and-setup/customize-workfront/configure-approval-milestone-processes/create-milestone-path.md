@@ -1,5 +1,5 @@
 ---
-title: Création d’un chemin Milestone
+title: Créer un chemin jalonné
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 99%
+source-wordcount: '700'
+ht-degree: 74%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 99%
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des chemins jalonnés qui peuvent ensuite être appliqués à n’importe quel projet du système. Les modifications apportées aux chemins jalonnés dans cette zone affectent l’ensemble du système Workfront.
 
@@ -116,3 +120,38 @@ Pour plus d’informations sur l’association d’un chemin jalonné à un proj
    Votre chemin jalonné est prêt à être associé à un projet.
 
    Pour plus d’informations sur l’association des chemins jalonnés à des projets et des jalons à des tâches, voir [Associer des jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+
+
+## Affichage des détails du chemin jalonné dans un rapport
+
+Vous pouvez afficher les détails d’un chemin jalonné dans un rapport de projet.
+
+Vous devez associer un chemin jalonné à un projet avant de pouvoir afficher ses détails dans un rapport de projet.
+
+Pour plus d’informations sur l’association de chemins jalonnés à des projets, voir [Modifier des projets](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+{{step1-to-reports}}
+
+1. Cliquez sur **Nouveau rapport**, puis sur **Projet**.
+1. Cliquez sur **Ajouter une colonne**.
+1. Dans la zone **Afficher dans cette colonne**, commencez à saisir **Chemin jalonné**, puis cliquez sur **Nom du chemin jalonné** lorsqu’il s’affiche.
+1. (Facultatif) Cliquez sur **Filtres** et ajoutez le filtre suivant au rapport : **L’ID de chemin jalonné du projet n’est pas vide**.
+
+   Le filtre vous garantit d’afficher uniquement les projets associés à un chemin jalonné dans le rapport.
+
+1. Cliquez sur **Enregistrer + Fermer**.
+1. Ajoutez un nom à votre rapport, puis cliquez sur **Appliquer**.
+
+   Le rapport de projet s’affiche. Les chemins jalonnés associés à chaque projet s&#39;affichent dans la dernière colonne du rapport.
+1. Cliquez sur le nom d&#39;un chemin jalonné dans la dernière colonne du rapport.
+
+   Les détails du chemin jalonné s’affichent. Des détails sur chaque jalon s’affichent également.
+
+   ![Détails du chemin jalonné du rapport de projet](assets/milestone-details-from-project-report.png)
+
+   <!--replace screen shot above with unshimming and mark it for Preview-->
+
+1. (Facultatif) Cliquez sur **Précédent** pour revenir au rapport du projet.
+
+
+
