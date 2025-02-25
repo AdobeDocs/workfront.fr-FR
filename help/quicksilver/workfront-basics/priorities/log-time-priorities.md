@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 46%
+source-wordcount: '496'
+ht-degree: 44%
 
 ---
 
 # Consigner le temps dans les priorités
 
 Vous pouvez consigner les heures passées sur un élément de travail dans Adobe Workfront pour refléter le fruit de vos efforts. Les heures que vous consignez s’affichent dans votre feuille de temps.
+
+Priorités affiche les éléments de travail qui vous sont affectés. Vous ne pouvez pas voir les éléments de travail affectés à votre équipe.
 
 ## Conditions d’accès
 

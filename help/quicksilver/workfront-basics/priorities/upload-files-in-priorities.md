@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 33%
+source-wordcount: '308'
+ht-degree: 31%
 
 ---
 
 # Charger les fichiers dans les priorités
 
 Vous pouvez charger des fichiers à partir de la liste de travail Priorités ou d’éléments de travail individuels. Les fichiers chargés à partir de Priorités apparaissent dans l’onglet Documents de l’élément de travail.
+
+Priorités affiche les éléments de travail qui vous sont affectés. Vous ne pouvez pas voir les éléments de travail affectés à votre équipe.
 
 ## Conditions d’accès
 
@@ -57,7 +59,7 @@ Pour connaître le forfait, le type de licence ou l’accès dont vous disposez,
 1. (Facultatif) Sélectionnez un dossier.
 1. Glissez-déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V
 ou
-Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur de Document Cloud.
+Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
    ![](assets/add-files.png)
 1. (Facultatif) Ajoutez un commentaire.
 1. (Facultatif) Ajoutez d’autres fichiers.
@@ -78,7 +80,7 @@ Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des
 1. (Facultatif) Sélectionnez un dossier.
 1. Glissez-déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V
 ou
-Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur de Document Cloud.
+Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
    ![](assets/add-files.png)
 1. (Facultatif) Ajoutez un commentaire.
 1. (Facultatif) Ajoutez d’autres fichiers.

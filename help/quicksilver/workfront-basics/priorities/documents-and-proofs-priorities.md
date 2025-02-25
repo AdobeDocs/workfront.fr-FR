@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 38%
+source-wordcount: '514'
+ht-degree: 37%
 
 ---
 
 # Charger des documents et créer des épreuves dans les priorités
 
 Vous pouvez charger des documents et créer des épreuves dans Priorités.
+
+Priorités affiche les éléments de travail qui vous sont affectés. Vous ne pouvez pas voir les éléments de travail affectés à votre équipe.
 
 ## Conditions d’accès
 
@@ -171,7 +173,7 @@ Vous pouvez organiser votre document à l’aide de filtres et d’options de tr
 
 Vous pouvez filtrer les documents par
 
-* Ajouté par
+* Ajout par
 * Type de fichier
 
 ### Trier

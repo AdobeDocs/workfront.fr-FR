@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 223e84eaccbfddb9a798af2528f4d33060bf60f2
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 17%
+source-wordcount: '642'
+ht-degree: 16%
 
 ---
 
 # Filtrer et regrouper votre travail avec les priorités
 
 Vous pouvez utiliser des filtres pour trouver le travail que vous recherchez, puis appliquer un regroupement pour le garder organisé.
+
+Priorités affiche les éléments de travail qui vous sont affectés. Vous ne pouvez pas voir les éléments de travail affectés à votre équipe dans la liste de travail Priorités.
 
 ## Conditions d’accès
 
@@ -101,7 +103,7 @@ Vous pouvez filtrer les tâches et les événements qui vous sont affectés.
       <td>Demandé</td>
       <td>Affiche les problèmes sur lesquels vous n'avez pas encore commencé à travailler</td>
     </tr>
-      <td>Terminée</td>
+      <td>Terminé</td>
       <td>Affiche le travail effectué au cours des deux dernières semaines. Cette option de filtre n’inclut pas les validations.</td>
     </tr>
     <tr>
@@ -129,7 +131,7 @@ Vous pouvez filtrer les tâches et les événements qui vous sont affectés.
 
 ## Filtrer votre travail à l’aide de filtres dynamiques
 
-Utilisez le langage naturel pour filtrer rapidement le travail. Votre instance de Workfront doit figurer dans un nouveau plan Workfront et être activée sur l’expérience unifiée d’Adobe. Pour plus d’informations, voir [Adobe Unified Experience pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Utilisez le langage naturel pour filtrer rapidement le travail. Votre instance Workfront doit figurer dans un nouveau plan Workfront et être activée sur l’expérience unifiée Adobe. Pour plus d’informations, voir [Adobe Unified Experience pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 {{step1-to-priorities}}
 

@@ -1,21 +1,23 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Ajout et affichage de commentaires dans les priorités
-description: Vous pouvez ajouter une mise à jour sur une tâche ou un problème pour communiquer à d’autres l’avancement de l’élément de travail.
+title: Ajouter et afficher des commentaires dans Priorités
+description: Vous pouvez ajouter une mise à jour sur une tâche ou un événement pour communiquer à d’autres personnes l’avancement de l’élément de travail.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 13%
+source-wordcount: '531'
+ht-degree: 12%
 
 ---
 
-# Ajout et affichage de commentaires dans les priorités
+# Ajouter et afficher des commentaires dans Priorités
 
-Vous pouvez ajouter une mise à jour sur une tâche ou un problème pour communiquer à d’autres l’avancement de l’élément de travail.
+Vous pouvez ajouter une mise à jour sur une tâche ou un événement pour communiquer à d’autres personnes l’avancement de l’élément de travail.
+
+Priorités affiche les éléments de travail qui vous sont affectés. Vous ne pouvez pas voir les éléments de travail affectés à votre équipe.
 
 ## Conditions d’accès
 
@@ -36,8 +38,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> 
-   <p>Actuel : demande ou plus pour les problèmes <!--and documents--> ; révision ou plus pour tous les autres objets</p>
-   <p>Nouveau : Contributeur ou version ultérieure pour les problèmes <!--and documents--> : clair ou supérieur pour tous les autres objets</p> 
+   <p>Actuel : demande ou supérieure pour les problèmes <!--and documents--> ; révision ou supérieure pour tous les autres objets</p>
+   <p>Nouveau : Contributeur ou version ultérieure pour les problèmes <!--and documents--> : Léger ou version ultérieure pour tous les autres objets</p> 
    </td> 
   </tr> 
   <tr> 
@@ -67,27 +69,27 @@ Vous pouvez ajouter un commentaire à partir de la liste de travail :
    ![](assets/add-update.png)
    <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. Commencez à saisir votre commentaire.
-1. (Facultatif) Dans la zone **Baliser les personnes ou les équipes**, commencez à saisir le nom ou l’adresse électronique d’un utilisateur, ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+1. (Facultatif) Dans la zone **Identifier des personnes ou des équipes**, commencez à saisir le nom ou l’adresse e-mail d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre commentaire, afin d’améliorer votre contenu.
-1. Cliquez sur **Submit** pour ajouter le commentaire à l’élément de travail.
+1. Cliquez sur **Envoyer** pour ajouter le commentaire à l’élément de travail.
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant son envoi. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
+   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant sa soumission. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
 
-Pour plus d&#39;informations sur l&#39;ajout de mises à jour, voir [Ajout d&#39;une mise à jour à un élément de travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations sur l’ajout de mises à jour, voir [ Ajouter une mise à jour à un élément de travail ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-## Afficher et ajouter des commentaires et des mises à jour système dans une tâche
+## Afficher et ajouter des commentaires et des mises à jour système dans un élément de travail
 
-Vous pouvez ajouter des commentaires et afficher des commentaires et des mises à jour système dans une tâche individuelle :
+Vous pouvez ajouter des commentaires et afficher des commentaires et des mises à jour du système dans un élément de travail individuel :
 
 {{step1-to-priorities}}
 
-1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Overview**.
+1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
 1. Recherchez la zone **Mises à jour** dans le coin inférieur droit de l’écran.
-1. (Facultatif) Utilisez l’onglet **Commentaires** pour mettre à jour les commentaires effectués par d’autres utilisateurs sur l’élément de travail.
-1. (Facultatif) Utilisez l’onglet **Activité système** pour afficher l’activité système associée à l’élément de travail.
-1. (Facultatif) Pour ajouter un commentaire, accédez à l’onglet **Commentaire** et commencez à saisir le texte dans la zone Nouveau commentaire. Cliquez sur **Submit** lorsque vous avez terminé.
+1. (Facultatif) Utilisez l’onglet **Commentaires** pour mettre à jour d’autres personnes sur l’élément de travail.
+1. (Facultatif) Utilisez l’onglet **Activité du système** pour afficher l’activité du système associée à l’élément de travail.
+1. (Facultatif) Pour ajouter un commentaire, accédez à l’onglet **Commentaire** et commencez à saisir du texte dans la zone Nouveau commentaire. Cliquez sur **Soumettre** lorsque vous avez terminé.
    ![](assets/updates-area-in-overview.png)
 
 ## Répondre à un commentaire
@@ -96,15 +98,15 @@ Vous pouvez répondre à un commentaire dans un élément de travail :
 
 {{step1-to-priorities}}
 
-1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Overview**.
+1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
 1. Recherchez la zone **Mises à jour** dans le coin inférieur droit de l’écran.
-1. Dans l’onglet **Comments**, recherchez le commentaire auquel vous souhaitez répondre, puis cliquez sur **Reply**.
-1. (Conditionnel) Si vous souhaitez répondre pour inclure le contenu d’un message dans votre réponse, cliquez sur l’icône de menu **Plus** ![](assets/more-icon.png) en regard du corps du message et sélectionnez **Réponse avec devis**.
+1. Dans l’onglet **Commentaires**, recherchez le commentaire auquel vous souhaitez répondre, puis cliquez sur **Répondre**.
+1. (Conditionnel) Si vous souhaitez répondre pour apporter le contenu d’un message dans votre réponse, cliquez sur l’icône de menu **Plus** en ![](assets/more-icon.png) du corps du message et choisissez **Citer la réponse**.
 
-1. Saisissez votre réponse, puis cliquez sur **Submit**.
+1. Saisissez votre réponse, puis cliquez sur **Envoyer**.
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant son envoi. Pour modifier un commentaire, cliquez sur le menu Plus dans le coin supérieur droit du commentaire, puis cliquez sur Modifier.
+   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant sa soumission. Pour modifier un commentaire, cliquez sur le menu Plus dans le coin supérieur droit du commentaire, puis cliquez sur Modifier.
 
    ![](assets/reply-to-comment.png)

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '537'
 ht-degree: 17%
 
 ---
@@ -66,6 +66,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Afficher votre travail dans le calendrier
 
+Priorités affiche les éléments de travail qui vous sont affectés. Vous ne pouvez pas voir les éléments de travail affectés à votre équipe dans le calendrier Priorités.
+
 {{step1-to-priorities}}
 
 1. Cliquez sur l’icône Calendrier en haut de la liste de travail.
@@ -107,7 +109,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
         <td>Demandé</td>
         <td>Affiche les problèmes sur lesquels vous n'avez pas encore commencé à travailler</td>
         </tr>
-        <td>Terminée</td>
+        <td>Terminé</td>
         <td>Affiche le travail effectué au cours des deux dernières semaines. Cette option de filtre n’inclut pas les validations.</td>
         </tr>
         <tr>

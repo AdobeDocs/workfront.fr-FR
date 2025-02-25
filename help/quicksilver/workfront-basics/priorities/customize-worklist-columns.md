@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 24%
+source-wordcount: '291'
+ht-degree: 23%
 
 ---
 
 # Personnaliser les colonnes de la liste de travail des priorités
 
 Vous pouvez personnaliser les colonnes de la liste de tâches dans Priorités pour prendre en charge votre manière de travailler.
+
+Priorités affiche les éléments de travail qui vous sont affectés. Vous ne pouvez pas voir les éléments de travail affectés à votre équipe.
 
 >[!NOTE]
 >

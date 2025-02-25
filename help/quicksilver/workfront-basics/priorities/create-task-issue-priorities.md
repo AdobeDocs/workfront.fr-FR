@@ -1,21 +1,21 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Création d’une tâche ou d’un problème dans les priorités
-description: Vous pouvez créer de nouvelles tâches et de nouveaux problèmes directement à partir des priorités.
+title: Créer une tâche ou un événement dans Priorités
+description: Vous pouvez créer de nouvelles tâches et de nouveaux événements directement à partir de Priorités.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 32%
+source-wordcount: '263'
+ht-degree: 29%
 
 ---
 
-# Création d’une tâche ou d’un problème dans les priorités
+# Créer une tâche ou un événement dans Priorités
 
-Vous pouvez créer de nouvelles tâches et de nouveaux problèmes directement à partir des priorités :
+Vous pouvez créer de nouvelles tâches et de nouveaux événements directement à partir des Priorités :
 
 ## Conditions d’accès
 
@@ -36,8 +36,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> 
-   <p>Actuel : demande pour les requêtes ; révision ou version ultérieure pour les problèmes ; travail ou version ultérieure pour les tâches</p>
-   <p>Nouveau : contributeur ou plus pour les demandes ; clair ou supérieur pour les problèmes <!--and documents--> : tâches standard ou supérieures</p> 
+   <p>Actuel : Demander ou supérieur pour les demandes ; Vérifier ou supérieur pour les problèmes ; Travailler ou supérieur pour les tâches</p>
+   <p>Nouveau : Contributeur ou version ultérieure pour les demandes ; Léger ou version ultérieure pour les problèmes et documents : Tâches standard ou version ultérieure.</p> 
    </td> 
   </tr> 
   <tr> 
@@ -55,30 +55,30 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Création de tâches ou de problèmes dans les priorités
+## Créer des tâches ou des événements dans les priorités
 
-Vous pouvez créer une tâche ou un problème dans un projet.
+Vous pouvez créer une tâche ou un événement dans un projet. Priorités affiche les éléments de travail qui vous sont affectés. Vous ne pouvez pas voir les éléments de travail affectés à votre équipe dans la liste de travail Priorités.
 
 >[!NOTE]
 >
->Si vous disposez d’une licence de demande ou de contributeur, vous pouvez créer une demande directement dans Priorités.
+>Si vous disposez d’une licence de type Requête ou Contributeur, vous pouvez créer une requête directement dans Priorités.
 
-Pour créer une tâche ou un problème dans un projet :
+Pour créer une tâche ou un événement dans un projet :
 
 {{step1-to-priorities}}
 
 1. Cliquez sur **Créer** dans le coin supérieur droit.
    ![](assets/create-new.png)
-&lt;!—new screen pour prod ![](assets/create-new--.png)—>
+nouvel écran pour prod ![](assets/create-new--.png)
 1. Indiquez les informations suivantes :
 
    | champ | Instructions |
    |---------------|-------------|
-   | Type d’élément de travail (facultatif) | Choisissez si vous souhaitez créer une **tâche** ou **problème**. |
+   | Type d’élément de travail (facultatif) | Choisissez si vous souhaitez créer une **Tâche** ou **Problème**. |
    | Nom | Entrez un nom. |
    | Description (facultative) | Saisissez une description. |
-   | Projet | Commencez à saisir un nom de projet, puis sélectionnez-le dans la liste déroulante. |
-   | Assignation (facultatif) | Affectez des personnes à l’élément de travail. |
+   | Projet | Commencez à saisir le nom d’un projet, puis sélectionnez-le dans la liste déroulante. |
+   | Cessionnaires (Facultatif) | Affectez des personnes à l’élément de travail. |
    | Date d’échéance (facultatif) | Choisissez une date d&#39;échéance. |
 
 1. Cliquez sur **Créer**.

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1019'
 ht-degree: 7%
 
 ---
@@ -22,6 +22,8 @@ Avec Priority, vous pouvez profiter de
 * Gérer et prioriser les tâches quotidiennes : organisez votre journée ou votre semaine avec une navigation consolidée pour une meilleure clarté
 * Plus grande productivité : accédez au contexte du projet et effectuez les tâches plus rapidement avec moins de clics
 * Fonctionnalités personnalisées : bénéficiez de fonctionnalités conçues spécifiquement pour les propriétaires de tâches
+
+La liste de travail Priorités et le calendrier affichent les tâches qui vous sont assignées. Vous ne pouvez pas voir les éléments de travail affectés à votre équipe.
 
 ## Rechercher et organiser votre travail
 
@@ -66,7 +68,7 @@ Vous pouvez utiliser le filtre Standard pour rechercher les tâches et les évé
       <td>Demandé</td>
       <td>Affiche les problèmes sur lesquels vous n'avez pas encore commencé à travailler</td>
     </tr>
-      <td>Terminée</td>
+      <td>Terminé</td>
       <td>Affiche le travail effectué au cours des deux dernières semaines. Cette option de filtre n’inclut pas les validations.</td>
     </tr>
     <tr>

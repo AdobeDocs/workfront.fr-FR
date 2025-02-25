@@ -1,21 +1,23 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Ajout et gestion de liens rapides dans les priorités
-description: Vous enregistrez des liens que vous consultez souvent dans une tâche ou un problème dans Priorités.
+title: Ajouter et gérer des liens rapides dans les priorités
+description: Vous enregistrez les liens que vous consultez souvent au cours d’une tâche ou d’un événement dans les priorités.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 23%
+source-wordcount: '293'
+ht-degree: 22%
 
 ---
 
+# Ajouter et gérer des liens rapides dans les priorités
 
-# Ajout et gestion de liens rapides dans les priorités
+Vous pouvez enregistrer les liens que vous consultez souvent dans une tâche ou un événement et y accéder à partir de l’onglet Aperçu dans Priorités.
 
-Vous pouvez enregistrer les liens que vous consultez souvent dans une tâche ou un problème et y accéder à partir de l’onglet Aperçu des priorités.
+Priorités affiche les éléments de travail qui vous sont affectés. Vous ne pouvez pas voir les éléments de travail affectés à votre équipe.
 
 ## Conditions d’accès
 
@@ -36,8 +38,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> 
-   <p>Actuel : demande pour les problèmes ; travail ou plus élevé pour les tâches</p>
-   <p>Nouveau : contributeur ou problèmes ou plus ; clair ou supérieur pour les tâches</p> 
+   <p>Actuel : demande ou supérieure pour les événements ; travail ou supérieur pour les tâches</p>
+   <p>Nouveau : Contributeur ou version ultérieure ou problèmes ; Léger ou version ultérieure pour les tâches</p> 
    </td> 
   </tr> 
   <tr> 
@@ -60,8 +62,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 {{step1-to-priorities}}
 
 1. Cliquez sur le nom d’un élément de travail pour ouvrir la page Aperçu .
-1. Dans la section **Liens rapides** , cliquez sur **Ajouter un lien**.
-1. Collez l&#39;URL dans la zone **Ajouter un lien**.
+1. Dans la section **Liens rapides**, cliquez sur **Ajouter un lien**.
+1. Collez l’URL dans la zone **Ajouter un lien**.
 1. Cliquer sur **Enregistrer**.
    ![](assets/add-link.png)
 
@@ -70,7 +72,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 {{step1-to-priorities}}
 
 1. Cliquez sur le nom d’un élément de travail pour ouvrir la page Aperçu .
-1. Dans la section **Liens rapides** , recherchez le lien à copier.
+1. Dans la section **Liens rapides**, recherchez le lien à copier.
 1. Cliquez sur l’icône Copier ![](assets/copy-icon.png).
    ![](assets/copy-link.png)
 
@@ -79,11 +81,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 {{step1-to-priorities}}
 
 1. Cliquez sur le nom d’un élément de travail pour ouvrir la page Aperçu .
-1. Dans la section **Liens rapides** , recherchez le lien à ouvrir.
+1. Dans la section **Liens rapides**, recherchez le lien que vous souhaitez ouvrir.
 1. Cliquez sur le lien. Le lien s’ouvre dans un nouvel onglet.
    ![](assets/open-link.png)
 
-## Suppression de liens rapides
+## Supprimer les liens rapides
 
 {{step1-to-priorities}}
 
