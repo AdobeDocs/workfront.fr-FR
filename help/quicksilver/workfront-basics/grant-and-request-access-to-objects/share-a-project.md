@@ -6,10 +6,10 @@ description: Votre administrateur ou administratrice Adobe Workfront peut vous 
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 100%
+source-wordcount: '1007'
+ht-degree: 94%
 
 ---
 
@@ -104,8 +104,8 @@ Vous pouvez partager un projet de l’une des façons suivantes :
 
 ## Restrictions relatives aux différents types de licence
 
-* Les utilisateurs et les utilisatrices disposant d’une licence Travail ne disposent pas des autorisations nécessaires pour gérer des projets. Pour les personnes chargées du travail, l’autorisation de partage la plus élevée est Contribuer.
-* Les utilisateurs et les utilisatrices disposant d’une licence Demande peuvent afficher les informations d’un projet, mais leur accès au projet est limité.
+* Les utilisateurs disposant d’une licence light et inférieure à (ou d’une licence professionnelle et inférieure pour l’ancien modèle de licence) ne sont pas autorisés à gérer les projets. Pour ces utilisateurs, l&#39;autorisation de partage la plus élevée est Contribute.
+* Les utilisateurs disposant d’une licence de contributeur (ou de demande de licence pour l’ancien modèle de licence) peuvent afficher les informations du projet, mais leur accès est limité.
 * Une exception concernant la modification du statut d’un projet se produit lorsqu’une personne disposant des autorisations Afficher ou Contribuer est également incluse dans un processus d’approbation. Celle-ci peut approuver le projet, ce qui modifie le statut du projet, mais le statut est le statut prédéfini d’approbation ou de rejet.
 * Pour pouvoir copier un projet, un utilisateur ou une utilisatrice doit également disposer de l’accès à la création de projets dans son niveau d’accès.
 

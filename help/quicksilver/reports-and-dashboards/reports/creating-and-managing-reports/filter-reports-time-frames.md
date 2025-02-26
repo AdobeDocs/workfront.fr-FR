@@ -6,10 +6,10 @@ description: Vous pouvez filtrer un rapport en fonction de la période d’une d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 97%
+source-wordcount: '1027'
+ht-degree: 94%
 
 ---
 
@@ -129,11 +129,11 @@ Pour plus d’informations sur la création de rapports, consultez [Créer un ra
 
 ## Modificateurs de période intégrés {#built-in-time-frame-modifiers}
 
-Adobe Workfront dispose de modificateurs de période intégrés que vous pouvez utiliser sans définir de date spécifique. 
+Adobe Workfront dispose de modificateurs de période intégrés que vous pouvez utiliser sans définir de date spécifique.
 
-Ces modificateurs sont disponibles pour tout champ de date dans un filtre ou une invite dans un rapport. 
+Ces modificateurs sont disponibles pour tout champ de date dans un filtre ou une invite dans un rapport.
 
-Pour plus d’informations sur la manière de filtrer un rapport en fonction d’une période associée à une date, voir [Filtrer un rapport en fonction de la période d’une date](#filter-a-report-by-the-time-frame-of-a-date).
+Pour plus d’informations sur le filtrage d’un rapport selon une période associée à une date, consultez la section ci-dessus [Filtrer un rapport selon la période d’une date](#filter-a-report-by-the-time-frame-of-a-date).
 
 Par exemple, si vous créez un rapport sur les heures et que vous souhaitez afficher les heures saisies au cours d’une période spécifique, vous pouvez choisir parmi les options de filtrage par période intégrée suivantes :
 

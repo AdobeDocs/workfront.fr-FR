@@ -6,10 +6,10 @@ description: Adobe Workfront dispose d’une liste exhaustive de rapports intég
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '2970'
-ht-degree: 58%
+source-wordcount: '2986'
+ht-degree: 56%
 
 ---
 
@@ -19,9 +19,7 @@ ht-degree: 58%
 
 Adobe Workfront dispose d’une liste étendue de rapports intégrés que vous pouvez utiliser.
 
-Les équipes d’administration de Workfront peuvent masquer les rapports intégrés pour que les utilisateurs et utilisatrices n’y aient pas accès.
-
-Pour plus d’informations sur la façon de masquer les rapports intégrés, voir [Masquer les rapports intégrés](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
+Les administrateurs et administratrices de Workfront peuvent masquer les rapports intégrés afin que les utilisateurs et utilisatrices n’y aient pas accès. Pour plus d’informations sur la façon de masquer les rapports intégrés, voir [Masquer les rapports intégrés](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
 
 ## Conditions d’accès
 
@@ -67,7 +65,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Vue d’ensemble des rapports intégrés {#overview-of-built-in-reports}
 
-Vous pouvez personnaliser un rapport intégré et l’enregistrer en tant que nouveau rapport. Pour plus d’informations sur la personnalisation des rapports intégrés, voir la section [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Vous pouvez copier un rapport intégré et l&#39;enregistrer en tant que nouveau rapport. Pour plus d’informations sur la création de copies de rapports intégrés, consultez la section [Créer une nouvelle version d’un rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report) dans l’article [Créer une copie d’un rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 Les rapports suivants sont fournis avec le package Workfront. Les rapports sont disponibles pour tous les utilisateurs et toutes les utilisatrices qui disposent au moins de droits d’affichage sur les rapports intégrés dans leur niveau d’accès.
 

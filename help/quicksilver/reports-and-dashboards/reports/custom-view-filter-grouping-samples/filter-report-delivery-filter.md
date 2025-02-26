@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtre : afficher les rapports planifiés pour la diffusion"
+title: 'Filtre : affichage des rapports planifiés pour la diffusion'
 description: Ce filtre affiche tous les rapports planifiés pour être remis automatiquement dans Adobe Workfront. Il est préférable de l’utiliser avec la vue standard.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 82%
+ht-degree: 90%
 
 ---
 
@@ -38,7 +38,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -56,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,8 +65,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 Pour appliquer ce filtre :
 
 1. Accédez à une liste de rapports.
+
 1. Dans le menu déroulant **Filtre**, sélectionnez **Nouveau filtre**.
 
-1. Cliquez sur **Passer en mode texte**.
-1. Dans la zone **Définir des règles de filtrage pour votre rapport**, copiez et collez le code suivant : `scheduledReportID=0<br>scheduledReportID_Mod=notnull`
+1. Cliquez sur **Basculer en mode texte**.
+
+1. Dans la zone **Définir les règles de filtrage pour votre rapport**, copiez et collez le code suivant :
+
+   ```
+   scheduledReportID=0
+   scheduledReportID_Mod=notnull
+   ```
+
 1. Cliquez sur **Enregistrer le filtre**.

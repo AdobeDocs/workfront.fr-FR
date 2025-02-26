@@ -7,10 +7,10 @@ description: Vous pouvez créer une copie de tout rapport auquel vous avez accè
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 79%
+ht-degree: 75%
 
 ---
 
@@ -102,12 +102,12 @@ Si vous souhaitez faire une copie d’un rapport personnalisé, procédez comme 
 
 ## Créer une version d’un rapport {#create-a-new-version-of-a-report}
 
-Si vous souhaitez créer une copie d’un rapport par défaut, procédez comme suit :
+Pour créer une copie d&#39;un rapport intégré, procédez comme suit :
 
 1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
 1. Cliquez sur **Rapports**, puis sur **Tous les rapports**.
-1. Cliquez sur le nom d’un rapport par défaut pour l’ouvrir.
+1. Cliquez sur le nom d’un rapport intégré pour l’ouvrir.
 1. Cliquez sur **Actions de rapport**, puis sur **Modifier**.
 
    ![Modifier le rapport](assets/unshimmed-report-actions-default-report.png)

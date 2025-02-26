@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '« Filtre : éliminer les éléments d’une liste en comparant deux champs »'
+title: 'Filtre : éliminer les éléments d’une liste en comparant deux champs'
 description: Vous pouvez filtrer les éléments d’une liste en comparant deux de leurs champs. Par exemple, vous ne pouvez afficher que les tâches dont la date d’achèvement effective est ultérieure à la date d’achèvement prévue.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: 4532e08bddf993426e9d4eed6f7f8bd638663188
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 79%
@@ -38,7 +38,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -56,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,15 +65,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Accédez à une liste de tâches.
 1. Dans le menu déroulant **Filtre**, sélectionnez **Nouveau filtre**.
 
-1. Ajoutez un filtre pour **Tâche : Date d’achèvement réelle** > **Supérieur à** > **Sélectionner une date**.
+1. Ajoutez un filtre pour **Tâche:Date d’achèvement effective** > **Supérieur à** > **Sélectionnez une date**.
 
    >[!TIP]
    >
    >Sélectionnez le modificateur de filtre à utiliser pour le champ sélectionné, le cas échéant.
 
-1. Cliquez sur **Mode Texte**.
+1. Cliquez sur **Mode texte**.
 1. Dans la zone affichée, ajoutez le code suivant :
 
-   `actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt`
+   ```
+   actualCompletionDate=FIELD:plannedCompletionDate
+   actualCompletionDate_Mod=gt
+   ```
 
-1. Cliquez sur **Apply** > **Save as new**.
+1. Cliquez sur **Appliquer** > **Enregistrer comme nouveau**.
