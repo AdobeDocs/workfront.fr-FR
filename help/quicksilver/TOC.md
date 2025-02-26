@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 34fe190983a165a69f9dfbb49f619e84f6216fa8
+source-git-commit: 78538764a5a4551877a7175df83488f74ae1ce3a
 workflow-type: tm+mt
-source-wordcount: '13007'
+source-wordcount: '13010'
 ht-degree: 92%
 
 ---
@@ -1079,6 +1079,7 @@ ht-degree: 92%
       * [La zone Documents](documents/managing-documents/documents-area.md)
       * [Vue d’ensemble des détails du document](documents/managing-documents/document-details-overview.md)
       * [Vue d’ensemble du résumé des documents](documents/managing-documents/summary-for-documents.md)
+      * [Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [Prévisualiser les documents](documents/managing-documents/preview-documents.md)
       * [Approbations et relecture de documents](documents/managing-documents/document-approvals-and-proofing.md)
       * [Ajouter une mise à jour à un document](documents/managing-documents/add-update-documents.md)
@@ -1487,12 +1488,10 @@ ht-degree: 92%
       * Types de rapports du tableau de bord de zones de travail {#report-types}
          * [Vue d’ensemble des types de rapports du tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [Ajouter un rapport existant à un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-<!--
-         * [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-         * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-         * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-         * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
--->
+        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
    * Rapports {#reports}
       * [Rapports](reports-and-dashboards/reports/reports-overview.md)
       * Concepts de base du reporting {#report-basics}
