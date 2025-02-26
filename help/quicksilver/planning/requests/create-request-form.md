@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 13%
+source-wordcount: '1538'
+ht-degree: 12%
 
 ---
 
@@ -114,6 +114,49 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 +++
 
+## Limites d’affichage des champs et des valeurs dans les formulaires de demande
+
+<!--
+
+There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+
+For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+
+* Vous ne pouvez pas ajouter de champs des types suivants à un formulaire de demande :
+
+   * Créé par et Dernière modification par
+   * Date de création et date de dernière modification
+   * Formule. Les champs de formule sont pris en charge dans l’environnement Aperçu.
+   * Champs de recherche d’objets Workfront
+   * Champs de recherche des enregistrements connectés de Workfront Planning
+
+<!--at release to Preview, replace the above with this:  
+>
+>Fields of the following types do not display in the request form:
+>* Created by and Last modified by
+>* Created date and Last modified date
+>* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
+>* Workfront objects' lookup fields
+>* Workfront Planning connected records' lookup fields-->
+
+* Différence entre la façon dont les formats de champ s’affichent dans le créateur de formulaires de demande et la façon dont les valeurs sont formatées dans l’enregistrement ou dans la page des détails de la demande :
+
+   * Les champs Devise, Nombre et Pourcentage s’affichent sous la forme d’un type de champ de texte monoligne dans le créateur de formulaires.
+
+     Toutefois, le format du champ est conservé et les valeurs des nombres de ces champs s’affichent en tant que valeurs de devise, de nombre et de pourcentage sur le type d’enregistrement et dans la page des détails de la demande.
+
+<!--
+* The following describes how some field values display on request forms and the request details pages: 
+
+   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
+   * People field values display as IDs.
+   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
+   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
+   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+-->
+
 ## Création d’un formulaire de demande pour un type d’enregistrement
 
 {{step1-to-planning}}
@@ -139,34 +182,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    Le formulaire de demande contient par défaut les informations suivantes :
 
    * Champs d’enregistrement disponibles dans la vue Tableau du type d’enregistrement sélectionné. <!--they are working on removing the limitation below-->
-
-   <!-- when we go to prod, the Preview batch below will become the only batch-->
-
-   >[!IMPORTANT]
-   >
-   >Les champs des types suivants ne s’affichent pas dans le formulaire de demande :
-   >
-   >* Créé par et Dernière modification par
-   >* Date de création et date de dernière modification
-   >* Formule
-   >* Champs de recherche d’objets Workfront
-   >* Champs de recherche des enregistrements connectés de Workfront Planning
-   >
-
-   <!--before release to prod: 
-    > Depending on what environment you use to create a request form, the following scenarios exist:
-   >
-   >* Fields of the following types do not display in the request form in the Production environment: 
-   >
-   >    * Created by and Last modified by
-   >    * Created date and Last modified date
-   >    * Formula
-   >    * People 
-   >    * Workfront connected fields
-   >    * Workfront objects' lookup fields
-   >    * Workfront Planning records' connected fields
-   >    * Workfront Planning connected records' lookup fields
-   >    * AEM Assets connection fields-->
 
    * **Section par défaut** : il s’agit du saut de section par défaut que Workfront applique au formulaire de demande. Tous les champs d’enregistrement s’affichent dans la zone **Section par défaut**.
    * Champ **Subject** : champ qui identifiera la demande dans Workfront. La configuration et la valeur du champ Objet ne sont pas modifiables.
@@ -195,12 +210,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * **Rendre un champ obligatoire** : lorsqu’il est sélectionné, le champ doit avoir une valeur. Dans le cas contraire, le formulaire ne peut pas être envoyé.
    * **Ajouter une logique** : définissez les conditions qui doivent être remplies pour que le champ s’affiche ou soit masqué.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >   Le type de champ de chaque champ s’affiche dans la partie supérieure du panneau de droite, une fois que vous avez sélectionné le champ dans le formulaire.
-   >   
-   >
-   >   Les champs Devise, Nombre et Pourcentage s’affichent sous la forme d’un type de champ de texte d’une seule ligne. Toutefois, le format du champ est conservé et les valeurs à l’intérieur de ces champs s’affichent sous la forme de valeurs de devise, de nombre et de pourcentage.
+   >     
 
 1. (Facultatif) Cliquez sur l’onglet **Éléments de contenu** sur le côté gauche du formulaire, puis ajoutez l’un des éléments suivants :
 
