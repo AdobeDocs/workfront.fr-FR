@@ -5,10 +5,10 @@ description: Présentation de l’assistant AI
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 7%
+source-wordcount: '817'
+ht-degree: 6%
 
 ---
 
@@ -139,3 +139,30 @@ Pour demander le contrat Adobe Gen AI :
 1. Saisissez le nom et l’adresse e-mail de la personne de votre entreprise qui signera le contrat Adobe Gen AI.
 
    L&#39;accord sera envoyé à cette personne pour signature. Une fois signé et renvoyé, l’assistant AI est activé pour votre organisation.
+
+## Conseils pour la création d’invites dans l’assistant AI
+
+Utilisez les mots-clés suivants dans vos invites pour fournir du contexte et aider à localiser les informations correctes. Les mots-clés ne respectent pas la casse.
+
+Lorsque vous saisissez votre invite, incluez l’expression `using (keyword)`.
+
+| Mot de passe | Effet |
+|---|---|
+| `workfront` | Interagit avec Workfront. |
+| `planning ` | Interagit avec Workfront Planning. |
+| `help` | Renvoie des informations issues de la documentation Experience League. |
+| `formula` | Vérifie et renvoie les formules à utiliser dans Planning, Setup ou les formulaires personnalisés. |
+| `health` | Vérifie l’intégrité du projet auprès du conseiller d’intégrité du projet. |
+| `summarize` | Affiche un résumé des éléments, par exemple lors du chargement d’un fichier ou de la synthèse d’un projet. |
+
+>[!NOTE]
+>
+> Tous les mots-clés ne sont pas disponibles dans toutes les zones.
+>
+>* Le mot-clé `formula` est disponible uniquement dans Planning, Setup et le créateur de formulaires personnalisés.
+>* Le mot-clé `planning` est disponible uniquement dans Workfront Planning.
+
+
+
+
+
