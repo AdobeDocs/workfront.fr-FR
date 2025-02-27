@@ -6,14 +6,16 @@ description: Vous pouvez modifier un calendrier existant en ajoutant ou en suppr
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: c8f4d8e460ed9247ca5d89c9a711ecb1ec5ed1e9
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 74%
+source-wordcount: '510'
+ht-degree: 63%
 
 ---
 
 # Modifier un rapport de calendrier existant
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Vous pouvez modifier un calendrier existant en ajoutant ou en supprimant un lien vers un projet. Vous pouvez également modifier les regroupements de calendrier associés à un rapport de calendrier.
 
@@ -58,7 +60,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Modifier un rapport de calendrier existant
+## Modifier un rapport de calendrier existant dans l’environnement de production
 
 {{step1-to-calendars}}
 
@@ -87,3 +89,34 @@ Les éléments du projet, ainsi que les tâches et problèmes associés, sont aj
       * [Utiliser des [!UICONTROL dates planifiées] dans un rapport de calendrier](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
       * [Utiliser les [!UICONTROL dates prévisionnelles] dans un rapport de calendrier](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Utiliser les champs de date personnalisés dans un rapport de calendrier](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+<div class="preview">
+
+## Modifier un rapport de calendrier existant dans la Prévisualisation
+
+{{step1-to-calendars}}
+
+1. (Facultatif) Pour modifier le nom du rapport de calendrier, cliquez sur le menu **Plus** et sélectionnez **Modifier**.
+   ![menu plus](assets/new-more-menu-calendar.png)
+Si vous avez partagé le rapport de calendrier avec d’autres utilisateurs ou équipes, le nom de calendrier modifié est automatiquement mis à jour dans leur vue de calendrier.
+
+1. (Facultatif) Pour ajouter un projet au rapport de calendrier :
+   1. Cliquez sur **[!UICONTROL Ajouter au calendrier].**
+   1. Commencez à saisir le nom d’un projet à partir duquel vous souhaitez ajouter des événements de calendrier, puis cliquez sur le nom lorsqu’il s’affiche dans la liste déroulante.
+   1. Cliquez sur **Ajouter**.
+      ![ajouter un projet à un calendrier](assets/add-a-calendar-project.png)
+
+
+1. (Facultatif) Pour ajouter un regroupement de calendriers ou modifier un regroupement de calendriers existant :
+   1. Cliquez sur le menu **Plus** en regard du nom du projet, puis cliquez sur **Modifier**.
+      ![modifier projet dans le calendrier](assets/edit-project-in-calendar.png)e
+
+   1. Choisissez le mode de regroupement de vos éléments :
+
+      * [Utiliser des [!UICONTROL dates planifiées] dans un rapport de calendrier](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [Utiliser les [!UICONTROL dates prévisionnelles] dans un rapport de calendrier](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+      * [Utiliser les champs de date personnalisés dans un rapport de calendrier](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+      </div>
