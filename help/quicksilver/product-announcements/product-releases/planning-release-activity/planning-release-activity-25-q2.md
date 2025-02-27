@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 4%
+source-wordcount: '1481'
+ht-degree: 3%
 
 ---
 
@@ -21,6 +21,62 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Afficher le nom d’enregistrement d’une page de détails d’une requête Workfront Planning dans le nom de l’onglet du navigateur
+
+>[!NOTE]
+>
+>Version préliminaire : 27 février 2025 ; Production pour la version rapide : avec la version 25.3 (mars 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
+
+Nous avons mis à jour la façon dont la page de détails d’une requête Workfront Planning s’affiche dans le navigateur. Désormais, le nom de l’enregistrement créé par la requête s’affiche comme nom de l’onglet du navigateur. Avant cette amélioration, l’onglet du navigateur affichait « Workfront ».
+
+## Workflow de demande unifiée pour Workfront et Planning
+
+>[!NOTE]
+>
+>Version préliminaire : 27 février 2025 ; Production pour la version rapide : avec la version 25.3 (mars 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
+
+Vous pouvez désormais envoyer des demandes Workfront et Workfront Planning dans la zone des Demandes du menu principal.
+
+Les fonctionnalités suivantes sont désormais disponibles avec cette mise à jour :
+
+* Un nouveau bouton (bascule) en regard du bouton Nouvelle demande active cette expérience dans la zone des Demandes . En désélectionnant le bouton (bascule), vous ne pouvez envoyer que des requêtes Workfront.
+
+* Vous trouverez les files d’attente des demandes de Workfront et les formulaires de demande de Workfront Planning dans une zone de recherche unifiée.
+
+* Les 6 requêtes les plus récentes s’affichent en premier dans la zone de recherche unifiée.
+
+Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Les champs de formule sont désormais pris en charge dans les formulaires de demande
+
+>[!NOTE]
+>
+>Version préliminaire : 27 février 2025 ; Production pour la version rapide : avec la version 25.3 (mars 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
+
+Vous pouvez désormais ajouter des champs de formule à un formulaire de demande de type enregistrement dans Workfront Planning.
+
+Avant cette amélioration, ces types de champs ne pouvaient pas être ajoutés aux formulaires de demande.
+
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Mises à jour de la page d’affichage Connexion d’un enregistrement
+
+>[!NOTE]
+>
+>Version préliminaire : 27 février 2025 ; Production pour la version rapide : avec la version 25.3 (mars 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
+
+Nous avons mis à jour la vue Connexion d’une page d’enregistrement avec les fonctionnalités suivantes :
+
+* Par défaut, seuls les 5 premiers champs de l’enregistrement connecté s’affichent dans la vue Tableau. Avant cette mise à jour, tous les champs s’affichaient.
+
+* Vous pouvez désormais masquer les colonnes dans la vue Tableau de l&#39;enregistrement connecté.
+
+* Vous pouvez réorganiser les colonnes à l’aide de l’icône Champs dans la barre d’outils du tableau.
+
+* Vous pouvez connecter et déconnecter des enregistrements.
+
+Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Nouvelle expression ajoutée aux champs de formule
 
