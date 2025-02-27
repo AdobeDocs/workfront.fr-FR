@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 35%
+source-wordcount: '317'
+ht-degree: 24%
 
 ---
 
@@ -17,6 +17,22 @@ ht-degree: 35%
 Cette page décrit les mises à jour mineures apportées à l’aspect de diverses zones de l’application Adobe Workfront au cours du deuxième trimestre 2025.
 
 Pour une liste de tous les changements disponibles avec la version du deuxième trimestre 2025, consultez [Vue d’ensemble de la version du deuxième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Mises à jour de l’apparence du calendrier Workfront
+
+>[!NOTE]
+>
+>Version préliminaire : 27 février 2025 ; Version de production pour tous les clients : avec version 25.3 (mars 2025)
+
+Nous avons mis à jour l’aspect du calendrier Workfront pour le rendre moderne et cohérent avec les autres aspects de Workfront. Il existe de petites différences de fonctionnalité par rapport au calendrier Workfront actuel, notamment :
+
+* Comment ajouter des éléments ad hoc au calendrier
+* Comment créer et renommer le calendrier
+* Les actions de calendrier ont été déplacées vers un menu Plus en regard du nom du calendrier
+* Nouveau panneau latéral pour afficher les informations du calendrier
+* Et plus encore
+
+Pour plus d’informations, consultez les articles [Calendriers](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md).
 
 ## Modifications temporaires de l’apparence des e-mails de document
 
