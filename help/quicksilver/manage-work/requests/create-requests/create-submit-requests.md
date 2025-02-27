@@ -6,10 +6,10 @@ description: Le travail prévu est représenté dans Adobe Workfront par des pr
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '2411'
-ht-degree: 93%
+source-wordcount: '2740'
+ht-degree: 81%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 93%
 </div>
 -->
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 Le travail prévu est représenté dans Adobe Workfront par des projets et des tâches. Cependant, il se peut que vous travailliez dans un environnement où du travail non prévu, sous forme de demandes, peut arriver à tout moment. Workfront fournit un workflow permettant de répondre à ce type d’environnement grâce à l’utilisation de files d’attente des demandes.
 
 Après avoir créé une demande dans une file d’attente, vous pouvez soit l’assigner pour qu’elle soit complétée, soit la convertir en tâche ou en projet.\
@@ -35,7 +39,14 @@ Vous pouvez créer une requête Workfront des manières suivantes :
 * À partir de zéro, tel que décrit dans cet article.
 * À partir de brouillons. Pour plus d’informations, voir [Créer des demandes à partir de brouillons](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * À partir d’une demande existante, en copiant et en envoyant une copie. Pour plus d’informations, voir [Copier et envoyer des demandes](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
-* À partir d’un formulaire de demande Workfront Planning, pour créer des enregistrements dans Workfront Planning. Votre entreprise doit acheter un package Workfront Planning. Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+
+Vous pouvez créer entièrement une demande Workfront Planning pour créer des enregistrements dans Workfront Planning, en procédant comme suit :
+
+* À partir d’un lien vers un formulaire de demande Workfront Planning.
+
+* <span class="preview">À partir d’un formulaire de demande Workfront Planning dans la zone des Demandes de Workfront. </span>
+
+  Votre entreprise doit acheter un package Workfront Planning. Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -113,14 +124,35 @@ Pour créer une demande dans l’application web Workfront :
 
 {{step1-to-requests}}
 
+1. <span class="preview"> (facultatif et conditionnel) Sélectionnez le paramètre **Passer à une nouvelle expérience** dans le coin supérieur droit de l’écran, si les éléments suivants s’appliquent à votre organisation et à votre instance Workfront : </span>
+
+   * <span class="preview">Votre entreprise a acheté un package Workfront</span>
+   * <span class="preview">Votre organisation a intégré l’expérience unifiée Adobe.
+   * <span class="preview">Votre administrateur vous a accordé l’accès à Workfront Planning</span>
+   * <span class="preview">Vous disposez au moins des autorisations d’affichage pour un espace de travail Workfront Planning</span>
+
+   Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
+
 1. Cliquez sur **Nouvelle demande** dans le coin supérieur droit de la page.
 
    >[!TIP]
    >
-   >* Vous pouvez accéder à l’option Nouvelle demande à partir de n’importe quelle section de la zone Demandes.
-   >* L’option Nouvelle demande est grisée lorsque vous n’avez pas accès à la création de problèmes.
+   >* Vous pouvez accéder à l’option Nouvelle demande à partir de n’importe quelle section de la zone des Demandes .
+   >* L’option Nouvelle requête est grisée lorsque vous n’avez pas accès à la création de problèmes.
 
-1. (Le cas échéant) Cliquez dans le champ **Type de demande** et effectuez l’une des opérations suivantes :
+   La boîte de dialogue **Nouvelle demande** s’ouvre.
+
+1. <span class="preview">(Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning, la boîte de dialogue **Nouvelle demande** affiche les informations suivantes :</span>
+
+   * <span class="preview">Les 6 dernières files d’attente de demandes Workfront consultées et les formulaires de demandes Planning s’affichent dans la section Récent . </span>
+   * <span class="preview">50 autres files d’attente des demandes Workfront et formulaires de demande Planning s’affichent par ordre alphabétique dans la section **Tous les formulaires de demande**. Vous pouvez rechercher une file d’attente de demandes qui ne s’affiche pas par défaut. </span>
+
+   ![Nouvelle zone de demande avec workflow unifié pour la planification des demandes](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
+
+   <span class="preview">Cliquez sur l’une des cartes de file d’attente des demandes de Workfront ou recherchez-en une, puis cliquez dessus lorsqu’elle s’affiche dans la liste. </span>
+1. (Conditionnel) <span class="preview">Si vous passez à la nouvelle expérience qui inclut Workfront Planning, sélectionnez vos groupes de rubriques et rubriques de file d’attente et continuez à mettre à jour le formulaire</span>
+
+   Sinon, cliquez dans le champ **Type de requête** et effectuez l’une des opérations suivantes :
 
    * Dans la section **Chemins d’accès récents**, sélectionnez un chemin que vous avez utilisé récemment pour ouvrir une file d’attente des demandes. Un chemin d’accès comprend la file d’attente des demandes, les groupes de rubriques et la rubrique de file d’attente à laquelle vous avez récemment envoyé une demande. Les trois derniers chemins s’affichent par défaut.
 
@@ -301,6 +333,8 @@ Pour créer une demande dans l’application web Workfront :
 
    Lorsque vous soumettez la demande, le brouillon est automatiquement supprimé et ne peut pas être restauré.
 
+   Les demandes envoyées sont répertoriées dans la section **Soumises** de la zone des Demandes . <span class="preview">Si vous utilisez la nouvelle expérience qui inclut Workfront Planning, les demandes envoyées par Workfront s’affichent dans l’onglet **Workfront** de la zone des Demandes . </span>
+
    Pour plus d’informations sur le traitement des demandes entrantes, consultez l’article [Gérer les demandes de travail et d’équipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
    Pour plus d’informations sur la localisation des demandes envoyées ou rédigées, consultez également [Localiser les demandes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
@@ -348,7 +382,7 @@ Vous pouvez soumettre des demandes à l’aide de n’importe quelle application
 
 ## Création de requêtes à l’aide d’un formulaire de requête Workfront Planning
 
-Vous pouvez ajouter une demande à l’aide d’un formulaire de demande Workfront Planning. L&#39;ajout de demandes Workfront Planning peut créer des enregistrements Planning, si le formulaire de demande est approuvé ou s&#39;il ne nécessite pas d&#39;approbation.
+Vous pouvez ajouter une demande Planning Workfront à l’aide d’un formulaire de demande Planning. L&#39;ajout de demandes Workfront Planning peut créer des enregistrements Planning, si le formulaire de demande est approuvé ou s&#39;il ne nécessite pas d&#39;approbation.
 
 Votre entreprise doit acheter un package Workfront Planning pour pouvoir soumettre des demandes Planning.
 

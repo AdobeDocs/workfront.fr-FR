@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 74%
+source-wordcount: '779'
+ht-degree: 68%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 74%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des chemins jalonnés qui peuvent ensuite être appliqués à n’importe quel projet du système. Les modifications apportées aux chemins jalonnés dans cette zone affectent l’ensemble du système Workfront.
 
@@ -145,11 +145,19 @@ Pour plus d’informations sur l’association de chemins jalonnés à des proje
    Le rapport de projet s’affiche. Les chemins jalonnés associés à chaque projet s&#39;affichent dans la dernière colonne du rapport.
 1. Cliquez sur le nom d&#39;un chemin jalonné dans la dernière colonne du rapport.
 
-   Les détails du chemin jalonné s’affichent. Des détails sur chaque jalon s’affichent également.
+   Les détails du chemin jalonné s’affichent.
+
+   <div class="preview">
 
    ![Détails du chemin jalonné du rapport de projet](assets/milestone-details-from-project-report.png)
 
-   <!--replace screen shot above with unshimming and mark it for Preview-->
+   La page de détails du chemin jalonné affiche les informations suivantes :
+
+   * Nom, ID et description du chemin jalonné
+   * Groupes de chemins jalonnés
+   * Noms de jalons, descriptions, couleurs et icônes de couleur
+
+   </div>
 
 1. (Facultatif) Cliquez sur **Précédent** pour revenir au rapport du projet.
 

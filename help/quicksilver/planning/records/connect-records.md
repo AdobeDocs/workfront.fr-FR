@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '3082'
-ht-degree: 42%
+source-wordcount: '3249'
+ht-degree: 40%
 
 ---
 
@@ -155,8 +155,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 Vous pouvez connecter des enregistrements de Workfront Planning dans les zones suivantes d&#39;un enregistrement Planning :
 
 * Champs d’enregistrement connectés en mode Tableau.
-* L&#39;aperçu ou la page de l&#39;enregistrement dans les champs d&#39;enregistrement connectés sur l&#39;onglet Détails.
-* L&#39;aperçu ou la page de l&#39;enregistrement dans l&#39;onglet Connexions.
+* la zone ou la page d’aperçu de l’enregistrement dans les champs d’enregistrement connectés sur l’onglet Détails ;
+* La zone ou la page d&#39;aperçu de l&#39;enregistrement dans l&#39;onglet Connexions.
+* <span class="preview">Page de l’enregistrement dans l’onglet Affichage de la connexion.</span> <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### Connecter des enregistrements Workfront Planning à partir de la vue Tableau ou de la zone Détails d&#39;un enregistrement
 
@@ -462,3 +463,25 @@ Vous devez disposer des éléments suivants pour connecter les enregistrements W
 * Votre administrateur Workfront ou de groupe doit ajouter la section Planification aux projets, portfolios et programmes Workfront de votre modèle de mise en page.
 
 Pour plus d’informations, voir [Gérer les enregistrements dans la section Planification des objets Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+<div class="preview">
+
+## Connecter des enregistrements à partir de l&#39;onglet Affichage de la connexion sur la page de détails d&#39;un enregistrement
+
+<!--section needs title edit when they rename the "Connection view" page type-->
+
+1. Accédez à n&#39;importe quelle vue d&#39;un type d&#39;enregistrement qui a été connecté à d&#39;autres types d&#39;enregistrement Planning ou à d&#39;autres types d&#39;objet d&#39;autres applications.
+1. Suivez les étapes décrites dans les sous-sections précédentes pour trouver un enregistrement dans la vue que vous souhaitez connecter à d&#39;autres enregistrements ou objets.
+1. Cliquez sur le nom d’un enregistrement.
+
+   La page d’aperçu s’ouvre.
+1. Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page de l’enregistrement.
+1. Cliquez sur un onglet Connexion existant dans la page ou l&#39;aperçu de l&#39;enregistrement. Vous devez d’abord créer une page de vue Connexion . Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+   Une page de type d’enregistrement connectée s’affiche en mode Tableau.
+1. Cliquez sur **Connexion** pour ajouter ou supprimer des enregistrements.
+
+   ![Bouton Connexion mis en surbrillance dans l’onglet Détails de l’enregistrement connecté](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+1. (Facultatif) Si vous ne trouvez pas d’enregistrement connecté, cliquez sur **+ Ajouter** pour les créer et les connecter.
+
+</div>

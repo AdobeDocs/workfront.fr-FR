@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 12%
+source-wordcount: '1868'
+ht-degree: 11%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 12%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -116,46 +115,37 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Limites d’affichage des champs et des valeurs dans les formulaires de demande
 
-<!--
+Il existe des limitations dans l’affichage de certains champs sur le formulaire de demande et dans l’affichage ultérieur de leurs valeurs sur les enregistrements ou la page des détails de la demande, après l’envoi d’une demande.
 
-There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
-For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+* Vous trouverez ci-dessous les limites d’affichage de certains champs dans les formulaires de demande, les enregistrements créés par un formulaire de demande ou sur la page des détails de la demande :
 
-The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+   * Vous ne pouvez pas ajouter de champs des types suivants à un formulaire de demande :
 
-* Vous ne pouvez pas ajouter de champs des types suivants à un formulaire de demande :
+      * Créé par et Dernière modification par
+      * Date de création et date de dernière modification
+      * Formule. <span class="preview">Les champs de formule sont pris en charge dans l’environnement Aperçu.</span>
+      * Champs de recherche d’objets Workfront
+      * Champs de recherche des enregistrements connectés de Workfront Planning
 
-   * Créé par et Dernière modification par
-   * Date de création et date de dernière modification
-   * Formule. Les champs de formule sont pris en charge dans l’environnement Aperçu.
-   * Champs de recherche d’objets Workfront
-   * Champs de recherche des enregistrements connectés de Workfront Planning
-
-<!--at release to Preview, replace the above with this:  
->
->Fields of the following types do not display in the request form:
->* Created by and Last modified by
->* Created date and Last modified date
->* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
->* Workfront objects' lookup fields
->* Workfront Planning connected records' lookup fields-->
-
-* Différence entre la façon dont les formats de champ s’affichent dans le créateur de formulaires de demande et la façon dont les valeurs sont formatées dans l’enregistrement ou dans la page des détails de la demande :
+* Voici les différences entre la façon dont les formats de champ s’affichent dans le créateur de formulaires de demande et la façon dont les valeurs des champs sont formatées dans l’enregistrement ou dans la page des détails de la demande :
 
    * Les champs Devise, Nombre et Pourcentage s’affichent sous la forme d’un type de champ de texte monoligne dans le créateur de formulaires.
 
      Toutefois, le format du champ est conservé et les valeurs des nombres de ces champs s’affichent en tant que valeurs de devise, de nombre et de pourcentage sur le type d’enregistrement et dans la page des détails de la demande.
 
-<!--
-* The following describes how some field values display on request forms and the request details pages: 
+<div class="preview">
 
-   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
-   * People field values display as IDs.
-   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
-   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
-   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
--->
+* Vous trouverez ci-dessous une description de l’affichage de certaines valeurs de champ dans les formulaires de demande et les pages de détails de la demande :
+
+   * Le formatage spécial des champs Devise, Nombre et Pourcentage n’est pas conservé. Par exemple, la précision décimale n’est pas conservée pour les valeurs de ces champs dans ces zones.
+   * Les valeurs des champs Personnes s’affichent sous la forme d’identifiants.
+   * Les champs de formule qui ne font pas référence à d’autres champs ou calculs n’affichent aucune valeur. Par exemple, un champ avec une formule `STRING` affiche une valeur « N/A ».
+   * Les champs de formule qui font référence à des champs Devise affichent les valeurs sans tenir compte des taux de change.
+   * Les valeurs des champs de paragraphe qui contiennent une mise en forme spéciale affichent une valeur « N/A » sur le formulaire de demande et affichent des balises HTML au lieu du texte mis en forme dans la page des détails de la demande.
+
+</div>
 
 ## Création d’un formulaire de demande pour un type d’enregistrement
 
@@ -169,7 +159,7 @@ The following are limitations for how certain fields display in request forms, r
 
    La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
 
-1. Cliquez sur le ![](assets/more-menu.png) de menu **Plus** à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Créer un formulaire de demande**.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Créer un formulaire de demande**.
 1. Mettez à jour le nom du formulaire de demande. Par défaut, le nom du formulaire est **Formulaire sans titre**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facultatif) Ajoutez une **Description** pour le formulaire de demande.
 
@@ -177,7 +167,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. Cliquez sur **Créer**. Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
 
-   ![](assets/campaigns-request-form-edit-mode.png)
+   ![Mode de modification du formulaire de demande de campagne](assets/campaigns-request-form-edit-mode.png)
 
    Le formulaire de demande contient par défaut les informations suivantes :
 
@@ -196,7 +186,8 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (Facultatif) Pointez sur un champ du formulaire à supprimer, puis cliquez sur l’icône **x** pour le supprimer. Elles sont ajoutées à l’onglet **Champs** situé à gauche du formulaire.
 
-   Par exemple, supprimez le champ **Objet**, car il n’est pas visible dans Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+   Par exemple, supprimez le champ **Objet**, car il n’est pas visible dans Workfront Planning. <!--remove this example if this becomes visible in Planning?-->
+
 1. (Facultatif) Pour supprimer la **section Par défaut** du formulaire, procédez comme suit :
 
    1. Supprimez tous les champs de la section Par défaut.
@@ -226,7 +217,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (Facultatif) Cliquez sur l’onglet **Configuration**, puis ajoutez au moins un utilisateur au champ **Approbateurs** pour approuver de nouvelles demandes pour ce formulaire d’enregistrement.
 
-   ![](assets/configuration-tab.png)
+   ![Onglet Configuration](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
@@ -237,7 +228,7 @@ The following are limitations for how certain fields display in request forms, r
 
      Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. (Facultatif) Cliquez sur le ![](assets/more-menu.png) de menu **Plus** situé à droite du nom du formulaire dans l’en-tête, puis cliquez sur **Modifier** pour mettre à jour le nom du formulaire.
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire dans l’en-tête, puis cliquez sur **Modifier** pour mettre à jour le nom du formulaire.
 1. Cliquez sur **Publier** pour publier le formulaire et obtenir un lien unique pour celui-ci.
 
    Les événements suivants se produisent :
@@ -248,7 +239,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. Cliquez sur **Partager** pour partager le formulaire avec d’autres personnes.
 
-   ![](assets/share-box-for-request-form.png)
+   ![Zone de partage pour le formulaire de demande](assets/share-box-for-request-form.png)
 
 1. Sélectionnez l’une des options suivantes pour indiquer quels types d’utilisateurs peuvent accéder à ce formulaire :
 
@@ -260,7 +251,7 @@ The following are limitations for how certain fields display in request forms, r
    >
    >* Lorsque vous sélectionnez **Personne disposant du lien**, n’importe qui peut accéder au formulaire et envoyer un nouvel enregistrement, même les personnes extérieures à votre organisation qui ne disposent pas d’un compte Workfront.
    >
-   > * Un formulaire contenant les types de champs suivants ne peut pas être partagé publiquement :
+   >* Un formulaire contenant les types de champs suivants ne peut pas être partagé publiquement :
    >
    >     * Connexions Workfront ou AEM Assets
    >     * Personnes
@@ -270,7 +261,12 @@ The following are limitations for how certain fields display in request forms, r
 
    Vous pouvez sélectionner des dates futures dans les 180 jours à compter de la date actuelle.
 
-1. Cliquez sur **Enregistrer et copier le lien** pour enregistrer les détails de partage du formulaire. Si le formulaire a été précédemment enregistré, cliquez sur **Copier le lien**.
+   >[!TIP]
+   >
+   ><span class="preview">Une fois la date de partage expirée, le formulaire de demande n’est plus disponible dans la zone des Demandes de Workfront.</span>
+
+
+1. <span class="preview">(Facultatif)</span> Cliquez sur **Enregistrer et copier le lien** pour enregistrer les détails de partage du formulaire. Si le formulaire a été précédemment enregistré, cliquez sur **Copier le lien**.
 
    Les options de partage de formulaire sont enregistrées et le lien est copié dans le presse-papiers. Vous pouvez maintenant le partager avec d’autres personnes.
 
@@ -280,11 +276,12 @@ The following are limitations for how certain fields display in request forms, r
 1. Cliquez sur la flèche pointant vers la gauche du nom du formulaire dans l’en-tête pour fermer le formulaire.
 
    La page de type d’enregistrement s’ouvre.
-1. (Facultatif) Cliquez sur le ![](assets/more-menu.png) de menu **Plus** à droite du nom du type d’enregistrement dans l’en-tête, puis effectuez l’une des opérations suivantes :
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête, puis effectuez l’une des opérations suivantes :
    * Cliquez sur **Mettre à jour le formulaire de demande** pour apporter des modifications au formulaire de demande.
    * Cliquez sur **Copier le lien pour demander un formulaire** pour partager le lien vers le formulaire avec d’autres personnes.
+   * <span class= "preview"> Accédez à la zone **Demandes** dans Workfront et recherchez le formulaire partagé pour envoyer une demande. Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).</span>
 
    >[!TIP]
    >
    >Lorsque c’est le cas, cela indique que le lien est partagé publiquement.
-   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   >![Lien partagé publiquement vers le formulaire dans le menu de type enregistrement](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)

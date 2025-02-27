@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 9%
+source-wordcount: '1914'
+ht-degree: 8%
 
 ---
 
 
 # Gérer la mise en page de la page d’enregistrement
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -161,11 +161,11 @@ Pour ajouter une section à une prévisualisation d’enregistrement ou à une p
 
    L’aperçu de l’enregistrement s’ouvre dans la vue.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png)  
+   ![Zone Détails](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
@@ -244,23 +244,29 @@ Voici ce qui se produit :
 
    L’aperçu de l’enregistrement s’ouvre dans la vue.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png) 
+   ![Zone Détails](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir la zone des détails dans une icône d’un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    L’onglet **Détails** de l’enregistrement s’ouvre par défaut.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-   ![Details page](assets/details-page.png)
+   ![Page de détails](assets/details-page.png)
 
-   </div>-->
+   </div>
 
-1. Dans l’onglet Enregistrement **Détails**, cliquez sur l’icône **saisir** ![Icône saisir](assets/grab-icon.png) à gauche d’un nom de champ, puis faites-le glisser et déposez-le à l’endroit souhaité. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Dans l’onglet Enregistrement **Détails**, cliquez sur l’icône **saisir** ![Icône saisir](assets/grab-icon.png) à gauche d’un nom de champ, puis faites-le glisser et déposez-le à l’endroit souhaité.
+
+   >[!TIP]
+   >
+   >Vous pouvez faire glisser des champs vers une autre section.
+   >Vous devez avoir au moins un champ dans une section.
+   >
 
    La nouvelle position du champ est mise à jour dans l’aperçu et la page de tous les enregistrements du même type pour tous les utilisateurs qui consultent les enregistrements.
 
@@ -295,23 +301,29 @@ Pour ajouter une page de vue Connexion :
 La vue Tableau du type d’enregistrement que vous avez sélectionné s’affiche et les enregistrements connectés s’affichent dans la vue Tableau.
 Tous les champs de l&#39;enregistrement connecté s&#39;affichent dans la vue Tableau de l&#39;onglet de l&#39;enregistrement connecté.
 
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
+   <span class="preview">Lorsque vous accédez à Workfront Planning à partir de l&#39;environnement de prévisualisation, les cinq premiers champs du tableau d&#39;enregistrements connecté s&#39;affichent par défaut. Aucun champ de recherche n’est affiché par défaut.</span>
 
    La vue Tableau est en lecture seule.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
+   <div class="preview">
+
    ![Vue du tableau connecté à l’audience sous les détails de la campagne](assets/audience-connected-table-view-under-campaign-details-page.png)
+
+   </div>
+
 1. (Facultatif) Double-cliquez sur le nom de l’onglet
 
    Ou
 
    Pointez sur le nom de l’onglet, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png), puis cliquez sur **Renommer** pour renommer en nouvel onglet Vue connectée.
-1. (Facultatif) Utilisez l’un des éléments d’affichage suivants dans la barre d’outils pour gérer la vue du tableau
+1. (Facultatif) Utilisez l’un des éléments d’affichage suivants dans la barre d’outils pour gérer la vue du tableau :
 
    * Filtres
    * Trier
    * Regroupement 
+   * <span class="preview">Champs, pour afficher, masquer ou réorganiser des champs</span>
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -321,11 +333,14 @@ Tous les champs de l&#39;enregistrement connecté s&#39;affichent dans la vue Ta
    >
    >   Vous ne pouvez effectuer aucune des opérations suivantes dans la vue Tableau de l&#39;onglet d&#39;un enregistrement connecté :
    >
-   >   * Masquer les champs
+   >   * Masquez ou réorganisez les champs. <span class="preview">Vous pouvez masquer et réorganiser les champs dans l’environnement Aperçu.</span>
    >   * Créer, modifier ou supprimer des champs
-   >   * Réorganiser les champs
    >
-1. (Facultatif) Pointez sur le nom de l’onglet, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png), puis sur **Supprimer** pour supprimer vers le nouvel onglet Vue connectée.
+
+1. <span class="preview">Cliquez sur **Connexion** pour ajouter ou supprimer des enregistrements. Pour plus d’informations, voir [Connexion des enregistrements](/help/quicksilver/planning/records/connect-records.md)</span>
+1. (Facultatif) Pointez sur le nom de l’onglet Vue de connexion, cliquez sur **Plus** ![Menu Plus](assets/more-menu.png), puis cliquez sur **Supprimer** pour supprimer vers le nouvel onglet Vue connectée.
+
+
 
 
 <!--

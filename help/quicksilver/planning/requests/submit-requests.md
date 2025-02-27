@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 8%
+source-wordcount: '1798'
+ht-degree: 6%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 8%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -136,98 +136,95 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
 ## Envoi d’une demande à Workfront Planning
 
-<!--
+L’envoi de requêtes à Workfront Planning varie en fonction de l’environnement utilisé.
+
 <div class="preview">
 
-Submitting requests to Workfront Planning differs depending on what environment you use. 
-
-### Submit a request to Workfront Planning in the Preview Environment
+### Envoi d’une requête à Workfront Planning dans l’environnement de prévisualisation
 
 >[!NOTE]
 >
->After the monthly releases to Production, the features described in this section are also available in the Production environment for customers who enabled fast releases.
+>Après les versions mensuelles de la production, les fonctionnalités décrites dans cette section sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides.
 
 {{step1-to-requests}}
 
-1. Enable the **Switch to a new experience** setting, in the upper-right corner of he screen. 
-   Enabling this setting makes the Workfront Planning request forms available in the **Requests** area of Workfront.
+1. Activez le paramètre **Basculer vers une nouvelle expérience** dans le coin supérieur droit de l’écran.
+L’activation de ce paramètre rend les formulaires de demande Workfront Planning disponibles dans la zone **Demandes** de Workfront.
 
    >[!TIP]
    >
-   >This setting is available only when the following are in place:
+   >Ce paramètre est disponible uniquement lorsque les éléments suivants sont en place :
    >
-   >* Your company has purchased a Workfront Planning package. 
-   >* Your Workfront instance is onboarded to the Adobe Unified Experience. 
-   >* You have access to view at least one workspace. 
+   >* Votre société a acheté un package Workfront Planning.
+   >* Votre instance Workfront est intégrée à l’expérience unifiée Adobe.
+   >* Vous avez accès à l’affichage d’au moins un espace de travail.
    >
 
-1. Click **New request**. (********* update screen shot at release ********)
+1. Cliquez sur **Nouvelle demande**.
 
-   ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   ![Nouvelle boîte de requête avec des cartes Workfront et Planning unifiées](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
 
-   The New request area opens with the following information: 
+   La boîte de dialogue **Nouvelle demande** s’ouvre avec les informations suivantes :
 
-   * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
-   * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
+   * Les 6 dernières files d’attente de demandes Workfront consultées et les formulaires de demandes Planning s’affichent dans la section Récent .
+   * 50 files d’attente de demandes Workfront supplémentaires et les formulaires de demandes Planning s’affichent par ordre alphabétique dans la section **Tous les formulaires de demandes**. Vous pouvez rechercher une file d’attente de demandes qui ne s’affiche pas par défaut.
 
-1. Do one of the following:
+1. Utilisez l’une des méthodes suivantes :
 
-   * Click the card for one of the Planning request forms in the Recent or All request forms sections
-   * Start typing the name of a Planning request form in the search box, then click the card when it displays in the list. 
+   * Cliquez sur la carte de l&#39;un des formulaires de demande Planning dans les sections Formulaires de demande récents ou Tous les formulaires de demande
+   * Commencez à saisir le nom d&#39;un formulaire de demande Planning dans la zone de recherche, puis cliquez sur la carte lorsqu&#39;elle s&#39;affiche dans la liste.
 
-   The request form opens.
+   Le formulaire de demande s’ouvre.
 
-1. Update the fields available in the request form. Fields with a red asterisk are required. 
-1. Click **Submit**.
-    
-   The request form closes and you return to the **Requests** area. 
+1. Mettez à jour les champs disponibles dans le formulaire de demande. Les champs avec un astérisque rouge sont obligatoires.
+1. Cliquez sur **Soumettre**.
 
-   Your form is submitted and the following things occur:
+   Le formulaire se ferme et vous revenez à la zone **Demandes**.
 
-   * If the request form was not associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area and a new record is added to the record type associated with the form.
-   
-   * If the request form was associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area. A new record is added to the record type page only after all the approvers have approved it.
-   
-      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   Votre formulaire est envoyé et les événements suivants se produisent :
 
-      ![](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
+   * Si le formulaire de demande n’a pas été associé à une approbation, la demande est ajoutée à l’onglet Planification de la section Envoyés de la zone Demandes Workfront et un nouvel enregistrement est ajouté au type d’enregistrement associé au formulaire.
 
-      >[!IMPORTANT]
-      >
-      >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. (******** ensure this is correct; asking team in slack **************)
+   * Si le formulaire de demande a été associé à une approbation, la demande est ajoutée à l’onglet Planification de la section Soumis de la zone Demandes Workfront . Un nouvel enregistrement n&#39;est ajouté à la page de type d&#39;enregistrement qu&#39;une fois que tous les approbateurs l&#39;ont approuvé.
 
-   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
-   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
+     Pour plus d’informations, voir [Ajouter une approbation à un formulaire de demande](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-      >[!NOTE]
-      >
-      >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+     ![Zone des requêtes avec bouton (bascule) pour l’onglet Planification de workflow unifiée](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
 
-1. (Optional) Click the **Planning** tab in the Requests area to view your request, then click the name of the request. 
+     >[!IMPORTANT]
+     >
+     >Tous les utilisateurs ayant accès à au moins un espace de travail peuvent afficher l&#39;onglet Planification dans la zone Demandes. Vous pouvez afficher uniquement les requêtes que vous ou une autre personne avez envoyées aux espaces de travail que vous êtes au moins autorisé à afficher. Les administrateurs et administratrices de Workfront peuvent afficher toutes les demandes envoyées à n’importe quel espace de travail du système.
 
-   The request details page opens. 
+   * Vous recevez une notification in-app et un e-mail vous informant que la demande a été soumise avec succès ou envoyée pour révision.
+   * Si le formulaire de demande a été associé à une approbation, les approbateurs reçoivent une notification in-app et par e-mail pour examiner et approuver la demande.
 
-   ![Request details page](assets/request-details-page.png)
+     >[!NOTE]
+     >
+     >Les notifications par e-mail et in-app ne sont visibles que lorsque l’instance de Workfront de votre organisation est intégrée à l’expérience unifiée Adobe.
 
-1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
+1. (Facultatif) Cliquez sur l’onglet **Planification** dans la zone Demandes pour afficher votre demande, puis cliquez sur son nom.
 
-   The record's page opens in Workfront Planning. 
+   La page des détails de la requête s’ouvre.
+
+   ![Page de détails de la demande](assets/request-details-page.png)
+
+1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Enregistrement**.
+
+   La page de l’enregistrement s’ouvre dans Workfront Planning.
 
    >[!TIP]
    >
-   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
+   >* Si le nom d’enregistrement n’a pas été ajouté au formulaire de demande, le nom de l’enregistrement dans le champ Enregistrement de la demande s’affiche comme **Sans titre**.
    >
-   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+   >* Si le formulaire de demande est associé à une approbation, l&#39;approbation doit être accordée avant que vous puissiez accéder à l&#39;enregistrement à partir de la page de demande.
 
-1. (Optional) Click the name of the **Record type**. 
+1. (Facultatif) Cliquez sur le nom du **Type d’enregistrement**.
 
-   The record type page opens in Workfront Planning. 
+   La page de type d’enregistrement s’ouvre dans Workfront Planning.
 
 </div>
 
-### Submit a request to Workfront Planning in the Production environment
-
--->
+### Envoi d’une demande à Workfront Planning dans l’environnement de production
 
 1. Accédez au lien partagé avec vous à partir d’un type d’enregistrement Workfront Planning .
 
@@ -249,7 +246,7 @@ Submitting requests to Workfront Planning differs depending on what environment 
 
      Pour plus d’informations, voir [Ajouter une approbation à un formulaire de demande](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-     ![](assets/planning-tab-in-requests.png)
+     ![Onglet Planification dans les demandes](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
