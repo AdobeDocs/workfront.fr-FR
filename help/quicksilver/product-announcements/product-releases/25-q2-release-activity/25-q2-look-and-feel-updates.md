@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 24%
+source-wordcount: '424'
+ht-degree: 18%
 
 ---
 
@@ -33,6 +33,18 @@ Nous avons mis à jour l’aspect du calendrier Workfront pour le rendre moderne
 * Et plus encore
 
 Pour plus d’informations, consultez les articles [Calendriers](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md).
+
+## Mise à jour de l’affichage d’un chemin jalonné de projet dans une vue de projet
+
+>[!NOTE]
+>
+>Version préliminaire : 27 février 2025 ; Production pour la version rapide : avec la version 25.3 (mars 2025) ; Production pour la version trimestrielle : avec la version 25.4 (avril 2025)
+
+Lors de l’accès au chemin jalonné à partir d’une liste de projets ou d’un rapport, la page des détails du jalon a désormais une nouvelle apparence. Vous devez ajouter le champ Nom du chemin jalonné à l&#39;affichage de la liste ou du rapport pour pouvoir accéder à la page de détails du chemin jalonné.
+
+Avec cette mise à jour, nous avons également ajouté des informations sur les couleurs et les codes couleur de chaque jalon.
+
+Pour plus d’informations, voir [Créer un chemin jalonné](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 ## Modifications temporaires de l’apparence des e-mails de document
 

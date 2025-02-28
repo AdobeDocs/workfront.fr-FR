@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '959'
 ht-degree: 46%
 
 ---
@@ -26,7 +26,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 
 | Version mensuelle | Version trimestrielle |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (vendredi 13 février 2025)</li><li>25.3 (mars 2025)</li><li>25.4 (avril 2025)</li></ul> | <ul><li>25.4 (avril 2025)</li></ul> |
+| <ul><li>25.2 (13 Février 2025)</li><li>25.3 (mars 2025)</li><li>25.4 (avril 2025)</li></ul> | <ul><li>25.4 (avril 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -74,7 +74,6 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Ajoutez un commentaire aux projets lorsque vous les modifiez dans la zone Modifier le projet .</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>Vous pouvez maintenant ajouter un commentaire à un projet tel que vous l’avez modifié dans la zone Modifier le projet . Vous pouvez également ajouter un commentaire à plusieurs projets à la fois lors de leur modification en bloc. Avant cette mise à jour, cette fonctionnalité n’existait pas lors de la modification des projets.</p>
         </td>
         <td>

@@ -1,54 +1,55 @@
 ---
 navigation-topic: announcements
-title: Guide d’obsolescence d’Analytics amélioré
+title: Guide d’obsolescence amélioré d’Analytics
 description: Cette page contient des informations sur l’obsolescence prochaine d’Enhanced Analytics.
 author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
 
-# Guide d’obsolescence d’Analytics amélioré
+# Guide d’obsolescence amélioré d’Analytics
 
-En raison d’une utilisation déclinante et de fonctionnalités limitées, Analytics amélioré sera bientôt obsolète d’Adobe Workfront. Workfront Data Connect a été publié comme une alternative qui peut répliquer les visualisations d’analyse améliorées que vous utilisez actuellement, en plus de créer de nouvelles visualisations puissantes qui n’étaient pas possibles avec l’amélioration d’Analytics. Pour garantir la réussite de la transition pour votre organisation, cette page contient des informations sur les changements qui seront apportés, des conseils sur la préparation à la transition et des réponses aux questions fréquentes.
+En raison d’une utilisation en déclin et de fonctionnalités limitées, Enhanced Analytics sera bientôt obsolète d’Adobe Workfront. Nous avons publié Workfront Data Connect comme alternative qui peut répliquer les visualisations d’Analytics amélioré que vous utilisez actuellement, en plus de créer de puissantes nouvelles visualisations qui n’étaient pas possibles avec Enhanced Analytics. Pour garantir une transition réussie pour votre organisation, cette page contient des informations sur ce qui va changer exactement, des conseils sur la façon de préparer la transition et des réponses aux questions fréquentes.
 
 ## Informations sur l’obsolescence
 
-**Que va-t-il changer ?**
+**Qu’est-ce qui va changer ?**
 
-* Analytics amélioré ne sera plus disponible.
+* Enhanced Analytics n’est plus disponible.
 
 **Quand ?**
 
-* Avec la version 25.2 (février 2025)
+* La semaine du 26 mai
 
 **Que puis-je utiliser à la place ?**
 
-* Workfront Data Connect peut répliquer les visualisations Analytics améliorées. Pour plus d’informations, voir [Réplication des visualisations Analytics améliorées dans Workfront Data Connect](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect) ci-dessous.
+* Workfront Data Connect peut répliquer des visualisations Analytics améliorées. Pour plus d’informations](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect) consultez la section [ Répliquer des visualisations Analytics améliorées dans Workfront Data Connect ci-dessous.
 
-## Préparation de l’obsolescence
+## Préparation à l’obsolescence
 
-Afin de minimiser les perturbations pour vous et votre entreprise, nous avons fourni ci-dessous des recommandations qui faciliteront la transition d’Analytics amélioré vers Workfront Data Connect.
+Afin de minimiser les perturbations pour vous et votre organisation, nous avons fourni ci-dessous des recommandations qui faciliteront la transition d’Enhanced Analytics vers Workfront Data Connect.
 
 ### Commencer à utiliser Workfront Data Connect
 
-Notre première recommandation consiste à vous assurer que votre entreprise a accès à Workfront Data Connect et à vous familiariser dès que possible avec son utilisation. Pour en savoir plus sur les fonctionnalités de Data Connect et sur la façon de commencer à l’utiliser, consultez la [présentation de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Notre première recommandation est de vous assurer que votre entreprise a accès à Workfront Data Connect et de vous familiariser dès que possible avec son utilisation. Pour en savoir plus sur les fonctionnalités de Data Connect et sur la façon de commencer à l’utiliser, consultez [Présentation de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-Data Connect est inclus dans le nouveau plan Ultimate et peut être acheté en tant que module complémentaire des nouveaux plans Select et Prime. Notez que la connexion aux données n’est pas disponible pour les organisations figurant dans les anciens plans Workfront. Contactez votre représentant de compte Workfront pour savoir quel plan votre entreprise est actuellement en cours et comment acheter Data Connect.
+Data Connect est inclus dans le nouveau plan Ultimate<!--, and can be purchased as an add-on to the new Select and Prime plans-->. Notez que Data Connect n’est pas disponible pour les organisations qui disposent de plans Workfront hérités. Contactez votre représentant de compte Workfront pour connaître le plan actuel de votre organisation et la procédure d’achat de Data Connect.
 
-### Réplication des visualisations Analytics améliorées
+### Réplication des visualisations d’Analytics améliorées
 
-Vous pouvez utiliser Workfront Data Connect pour répliquer les visualisations d’Analytics améliorées qui vous semblent les plus utiles en plus des nombreuses nouvelles options de visualisation. À mesure que nous nous rapprochons de l’obsolescence, nous ajouterons des exemples spécifiques de requêtes qui répliquent les visualisations d’Analytics améliorées à la page [Exemple de requêtes de connexion aux données Workfront](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md).
+Vous pouvez utiliser Workfront Data Connect pour répliquer les visualisations d’Analytics amélioré qui vous semblent les plus utiles, en plus de nombreuses nouvelles options de visualisation. À mesure que nous nous approchons de l’obsolescence, nous ajouterons des exemples spécifiques de requêtes qui répliquent les visualisations Enhanced Analytics sur la page [Requêtes d’exemple de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md).
 
-### Demander de l’aide
+### Demander de l&#39;aide
 
-Si vous rencontrez des problèmes pendant la transition, contactez votre gestionnaire de compte ou l’équipe d’assistance pour obtenir de l’aide.
+Si vous rencontrez des problèmes au cours de la transition, contactez votre représentant de compte ou l’équipe d’assistance pour obtenir de l’aide.
 
 <!--
 ## FAQ
@@ -59,6 +60,7 @@ No, it will be completely removed from the application.
 +++
 
 +++ What do I do if my organization is on a legacy Workfront plan but I want to use Data Connect?
-Contact your account representative about moving to one of the new Workfront plans.
 
+Contact your account representative about moving to one of the new Workfront plans.
++++
 -->
