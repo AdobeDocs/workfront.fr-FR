@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 946b7d2ed2d45c3622706a0d0336b3261c22a2ad
+source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ Pour afficher cette modification, accédez à Équipes > choisir une équipe > L
 
 ### Mise à jour de l&#39;interface pour la zone Validations d&#39;un document
 
-**Version préliminaire : 13 février 2025 ; Version de production : à annoncer**
+**Version préliminaire : 13 février 2025 ; Version de production : à partir de la semaine du 27 février 2025**
 
 Nous avons mis à jour la zone Approbations d’un document avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
