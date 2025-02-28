@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 5%
@@ -75,7 +75,10 @@ Pour plus d’informations sur les caractères génériques basés sur la date, 
 Un caractère générique d’API est également disponible dans les règles métier. Utilisez `$$ISAPI` pour déclencher la règle uniquement dans l’API. Utilisez `!$$ISAPI` pour appliquer la règle uniquement dans l’interface utilisateur et permettre aux utilisateurs de contourner la règle via l’API.
 
 * Par exemple, cette règle interdit aux utilisateurs de modifier des projets terminés via l’API. Si le caractère générique n’était pas utilisé, la règle bloquait l’action à la fois dans l’interface utilisateur et dans l’API.
-  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
+
+  ```
+  IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")
+  ```
 
 Les caractères génériques `$$BEFORE_STATE` et `$$AFTER_STATE` sont utilisés dans les expressions pour accéder aux valeurs de champ de l’objet avant et après toute modification.
 
@@ -85,8 +88,17 @@ Les caractères génériques `$$BEFORE_STATE` et `$$AFTER_STATE` sont utilisés 
 
 Voici quelques scénarios de règles métier simples :
 
-* Les utilisateurs ne peuvent pas ajouter de nouvelles dépenses pendant la dernière semaine de février. Cette formule peut être définie comme suit : `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Les utilisateurs ne peuvent pas modifier le nom d’un projet dont le statut est défini sur Terminé. Cette formule peut être définie comme suit : `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
+* Les utilisateurs ne peuvent pas ajouter de nouvelles dépenses pendant la dernière semaine de février. Cette formule pourrait se présenter comme suit :
+
+  ```
+  IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")
+  ```
+
+* Les utilisateurs ne peuvent pas modifier le nom d’un projet dont le statut est défini sur Terminé. Cette formule pourrait se présenter comme suit :
+
+  ```
+  IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
+  ```
 
 Un scénario avec des instructions IF imbriquées est le suivant :
 
