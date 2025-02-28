@@ -6,10 +6,10 @@ description: Vous pouvez faire des commentaires sur les feuilles de temps, sur l
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 97%
+source-wordcount: '901'
+ht-degree: 85%
 
 ---
 
@@ -22,6 +22,8 @@ Vous pouvez faire des commentaires sur les éléments suivants dans la feuille d
 * Sur la feuille de temps
 * Sur les entrées d’heures
 * Sur un élément individuel, comme une tâche ou un problème
+
+Vous pouvez afficher les mises à jour à partir d&#39;une feuille de temps ou d&#39;entrées d&#39;heures individuelles dans un rapport Note. Pour plus d&#39;informations, voir [Afficher toutes les mises à jour dans un rapport Note](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md).
 
 ## Conditions d’accès
 
@@ -44,7 +46,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Configuration du niveau d’accès</td> 
-   <td> <p>Affichage ou accès supérieur aux tâches et aux problèmes</p> </td> 
+   <td> <p>Afficher ou un accès supérieur aux tâches et aux événements</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -67,13 +69,13 @@ Pour afficher les commentaires sur une feuille de temps, procédez comme suit :
 
 {{step1-to-timesheets}}
 
-La zone **Fiches horaires** s’ouvre.
+La zone **Feuilles de temps** s’ouvre.
 
 1. Ouvrez la feuille de temps dans laquelle afficher les commentaires.
 1. Cliquez sur **Afficher les commentaires** dans le coin supérieur droit de la feuille de temps.
 Les commentaires s’affichent sous l’élément où l’entrée d’heure et le commentaire ont été consignés.
 
-   ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
+   ![Commentaires développés sous les tâches de la feuille de temps modifiée](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
 
 ## Saisir des commentaires sur une feuille de temps {#make-comments-on-a-timesheet}
@@ -86,7 +88,7 @@ Les commentaires s’affichent sous l’élément où l’entrée d’heure et l
 
 Vous pouvez faire des commentaires généraux sur la feuille de temps. L’ajout de commentaires à la feuille de temps globale est similaire à l’ajout sur d’autres objets.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l’icône **Menu principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche ou dans Workfront, le cas échéant.
+1. Cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![Menu principal Lignes](assets/lines-main-menu.png) dans le coin supérieur gauche ou Workfront, le cas échéant.
 
 1. Cliquez sur **Feuilles de temps**.
 1. Accédez à la feuille de temps à laquelle ajouter un commentaire.
@@ -113,7 +115,7 @@ Vous pouvez faire des commentaires généraux sur la feuille de temps. L’ajout
 
 ### Ajouter un commentaire sur une entrée d’heures dans une feuille de temps {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
 1. Cliquez sur **Feuilles de temps**.
 1. Accédez à la feuille de temps dans laquelle vous souhaitez ajouter un commentaire, puis cliquez sur **Feuille de temps** dans le panneau de gauche.
@@ -128,11 +130,11 @@ Vous pouvez faire des commentaires généraux sur la feuille de temps. L’ajout
 
    * Saisissez un nouveau commentaire, puis cliquez sur **Terminé**.
    * Modifiez un commentaire existant, puis cliquez sur **Terminé** ou cliquez sur **Annuler** pour ignorer les modifications.
-   * Cliquez sur l’icône **Supprimer** ![](assets/delete.png) pour supprimer un commentaire enregistré.
+   * Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png) pour supprimer un commentaire enregistré.
 
      Un marqueur bleu apparaît dans le coin supérieur droit de la zone d’entrée des heures pour indiquer la présence de commentaires associés aux heures.
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![Bouton Commentaire sur votre journal : feuille de temps modifiée](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -152,7 +154,7 @@ Vous pouvez faire des commentaires généraux sur la feuille de temps. L’ajout
 
 Vous ne pouvez commenter que les tâches et les problèmes d’une feuille de temps. Vous ne pouvez pas commenter les projets ni le temps général.
 
-1. Cliquez sur l’icône [!UICONTROL **Menu principal**] ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l’icône [!UICONTROL **Menu principal**] ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 1. Cliquez sur [!UICONTROL **Feuilles de temps**].
 1. Accédez à la feuille de temps dans laquelle vous souhaitez ajouter un commentaire, puis cliquez sur [!UICONTROL **Feuille de temps**] dans le panneau de gauche.
 1. Cliquez sur la ligne d’une tâche ou d’un problème, puis cliquez sur [!UICONTROL **Ouvrir le résumé**].

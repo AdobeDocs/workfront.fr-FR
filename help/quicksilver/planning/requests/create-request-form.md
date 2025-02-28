@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1869'
 ht-degree: 11%
 
 ---
@@ -279,6 +279,9 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête, puis effectuez l’une des opérations suivantes :
    * Cliquez sur **Mettre à jour le formulaire de demande** pour apporter des modifications au formulaire de demande.
    * Cliquez sur **Copier le lien pour demander un formulaire** pour partager le lien vers le formulaire avec d’autres personnes.
+
+   Ou
+
    * <span class= "preview"> Accédez à la zone **Demandes** dans Workfront et recherchez le formulaire partagé pour envoyer une demande. Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).</span>
 
    >[!TIP]

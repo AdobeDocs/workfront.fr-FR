@@ -6,10 +6,10 @@ description: 'Notifications : Objectifs'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 99%
+source-wordcount: '575'
+ht-degree: 96%
 
 ---
 
@@ -22,6 +22,8 @@ Vous pouvez activer vos notifications par e-mail pour les événements qui se pr
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -55,18 +57,12 @@ Vous devez disposer des éléments suivants :
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez l’administration [!DNL Workfront].
 
++++
+
 ## Conditions préalables
 
-L’utilisateur ou l’utilisatrice dont les notifications [!DNL Goals] sont mises à jour doit disposer des éléments suivants :
+* L&#39;utilisateur dont vous souhaitez mettre à jour les notifications [!DNL Goals] doit disposer d&#39;un modèle de mise en page incluant la zone [!DNL Goals] dans le [!UICONTROL menu principal].
 
-* Un modèle de disposition qui inclut la zone [!DNL Goals] dans le [!UICONTROL Menu principal].
-* Accédez à la nouvelle expérience [!DNL Adobe Workfront].
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: we need this here because you can see these notifications from Classic)
-  </MadCap:conditionalText>
-  -->
 
 ## Notifications [!DNL Goals] dans la zone [!UICONTROL profil d’utilisateur ou d’utilisatrice]
 

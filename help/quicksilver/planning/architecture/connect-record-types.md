@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2344'
 ht-degree: 41%
 
 ---
@@ -61,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <li><p> Planification d’Adobe Workfront<p></li>
    <li><p> Adobe Experience Manager Assets, si vous souhaitez connecter des ressources AEM à des types d’enregistrements Planning<p>
    <p>Vous devez disposer d’une licence Adobe Experience Manager Assets et d’une intégration entre AEM Assets et Workfront.
-    Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index des articles</a>. </p>
+    Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p>
    </li>
    </ul></td> 
   </tr>   
@@ -83,7 +83,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -201,14 +201,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
      >Si vous n’avez pas d’autres types d’enregistrements dans l’espace de travail sélectionné, la section de l’espace de travail ne s’affiche pas.
 
 
-   * Type d’enregistrement d’un autre espace de travail configuré pour se connecter à partir d’autres espaces de travail. Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
-
-     ![](assets/new-connection-allow-multiple-records-box.png)
+   * Type d’enregistrement d’un autre espace de travail configuré pour se connecter à partir d’autres espaces de travail.
 
      >[!TIP]
      >
-     >Si aucun type d’enregistrement n’est configuré pour se connecter à partir d’autres espaces de travail, la section espace de travail ne s’affiche pas.
+     >Le paramètre **Se connecter à partir d’autres espaces de travail** doit être activé pour un type d’enregistrement dans l’onglet **Paramètres avancés** de la zone **Modifier le type d’enregistrement**, pour qu’un type d’enregistrement soit accessible à partir d’autres espaces de travail. Si aucun type d’enregistrement n’est configuré pour se connecter à partir d’autres espaces de travail, la section espace de travail ne s’affiche pas.
+     > ![Onglet Paramètres avancés de la zone Modifier le type d’enregistrement](assets/edit-record-type-box-advanced-settings-tab.png)
 
+     Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
+
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * Un **projet, un portfolio, un programme, une entreprise** ou un **groupe** depuis la section **Types d’objets Workfront**.
 

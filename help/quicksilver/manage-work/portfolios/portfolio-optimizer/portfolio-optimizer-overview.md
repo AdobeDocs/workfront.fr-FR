@@ -7,10 +7,10 @@ description: L’[!UICONTROL optimisateur de portfolio] est l’outil utilisé p
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 98%
+source-wordcount: '1647'
+ht-degree: 96%
 
 ---
 
@@ -128,7 +128,7 @@ Les champs financiers suivants s’affichent dans l’[!UICONTROL optimisateur d
   </tr> 
   <tr> 
    <td>[!UICONTROL Remaining]</td> 
-   <td> <p>Le budget restant après l’ensemble des [!UICONTROL Budgeted Costs] sur tous les projets du portfolio a été soustrait du budget du portfolio.</p> <p>Le [!UICONTROL Remaining Portfolio Budget] est calculé à l’aide de la formule suivante :</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - total du [!UICONTROL Budgeted Cost] de tous les projets du portfolio</em> </p> <p>Le [!UICONTROL Budgeted Cost] global de tous les projets du portfolio est représenté dans la barre d’indicateurs située sous le champ Budget. </p> <p>Pour plus d’informations sur le suivi des coûts d’un projet, voir <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suivre les coûts</a>.</p> </td> 
+   <td> <p>Le budget restant après le [!UICONTROL Total Cost] pour tous les projets à l'intérieur du portefeuille a été soustrait du budget du portefeuille.</p> <p>Le [!UICONTROL Remaining Portfolio Budget] est calculé à l’aide de la formule suivante :</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - total du [!UICONTROL Budgeted Cost] de tous les projets du portfolio</em> </p> <p>Le budget du portefeuille est une saisie manuelle dans le champ Budget de Portfolio Optimizer. </p> <p>Pour plus d’informations sur le suivi des coûts d’un projet, voir <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suivre les coûts</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Total Cost]</td> 
