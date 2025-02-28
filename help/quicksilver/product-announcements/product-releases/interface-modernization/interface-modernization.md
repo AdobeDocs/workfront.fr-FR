@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Pour afficher cette modification, accédez à Équipes > Choisir une équipe > I
 
 ### Ajouter des histoires et des événements à une itération
 
-**Version préliminaire : 6 février 2025 ; Version de production : à annoncer**
+**Version préliminaire : 6 février 2025 ; Version de production : à partir de la semaine du 13 février 2025**
 
 Nous avons mis à jour la boîte de dialogue Ajouter une histoire et Ajouter un problème avec une conception plus moderne qui est cohérente avec d’autres zones de Workfront.
 
