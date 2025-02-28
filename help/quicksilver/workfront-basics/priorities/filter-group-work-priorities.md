@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 16%
+source-wordcount: '643'
+ht-degree: 15%
 
 ---
 
@@ -131,7 +131,11 @@ Vous pouvez filtrer les tâches et les événements qui vous sont affectés.
 
 ## Filtrer votre travail à l’aide de filtres dynamiques
 
-Utilisez le langage naturel pour filtrer rapidement le travail. Votre instance Workfront doit figurer dans un nouveau plan Workfront et être activée sur l’expérience unifiée Adobe. Pour plus d’informations, voir [Adobe Unified Experience pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Utilisez le langage naturel pour filtrer rapidement le travail.
+
+>[!NOTE]
+>
+>Cette fonctionnalité est uniquement disponible pour les clients disposant d’une expérience Adobe unifiée à l’aide de l’assistant AI. Pour plus d’informations sur l’assistant AI, voir [Présentation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
