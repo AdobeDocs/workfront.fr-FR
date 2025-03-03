@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 96%
+source-wordcount: '591'
+ht-degree: 94%
 
 ---
 
@@ -84,7 +84,7 @@ Pour lier une ressource à Experience Manager Assets :
 
 1. Sélectionnez les ressources de votre choix.
 
-   ![](assets/select-an-asset.png)
+   ![Sélectionner une ressource](assets/select-an-asset.png)
 
 1. Cliquez sur **Lier**.
 
@@ -103,7 +103,7 @@ Pour lier un dossier à Experience Manager Assets :
 
 1. Sélectionnez les dossiers de votre choix.
 
-   ![](assets/select-a-folder.png)
+   ![Sélectionner un dossier](assets/select-a-folder.png)
 
 1. Cliquez sur **Lier**.
 
@@ -127,6 +127,6 @@ Pour lier une nouvelle version provenant d’Experience Manager Assets :
 
 1. Sélectionnez la ressource de votre choix.
 
-   ![](assets/select-an-asset.png)
+   ![Sélectionner une ressource](assets/select-an-asset.png)
 
 1. Cliquez sur **Lier**.

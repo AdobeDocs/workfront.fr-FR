@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '652'
 ht-degree: 15%
 
 ---
@@ -66,7 +66,7 @@ Vous pouvez filtrer les tâches et les événements qui vous sont affectés.
 1. Cliquez sur **Filtres** en haut à gauche de la liste de travail.
 1. cliquez sur **Filtres standard**.
 1. Sélectionnez un ou plusieurs filtres pour affiner vos éléments de travail.
-   ![](assets/filter-new.png)
+   ![Filtre](assets/filter-new.png)
 
 +++Développer pour afficher des informations détaillées sur les filtres disponibles
 <table>
@@ -157,7 +157,7 @@ Utilisez le langage naturel pour filtrer rapidement le travail.
 
 1. Cliquez sur **Groupes** en haut à gauche de la liste de travail.
 1. Sélectionner un groupe pour organiser votre liste de travail
-   ![](assets/groups-new.png)
+   ![Groupes](assets/groups-new.png)
 
 +++Développer pour afficher des informations détaillées sur les groupes disponibles
 
@@ -184,7 +184,7 @@ Vous pouvez faire glisser et déposer des éléments de travail individuels entr
 
 Pour trier votre travail au sein d’un groupe, ouvrez **Groupe** et cliquez sur **Tri croissant** ou **Tri décroissant**.
 
-![](assets/sort-in-groups.png)
+![Trier en groupes](assets/sort-in-groups.png)
 
 ### Colonnes de tri
 
@@ -196,4 +196,4 @@ Pour trier des colonnes individuelles, accédez à la colonne et cliquez sur la 
 
 Pour développer ou réduire toutes les sections de groupe, ouvrez **Groupe** et cliquez sur **Développer tout** ou **Tout réduire**.
 
-![](assets/expand-collapse-groups.png)
+![Développer ou réduire des groupes](assets/expand-collapse-groups.png)

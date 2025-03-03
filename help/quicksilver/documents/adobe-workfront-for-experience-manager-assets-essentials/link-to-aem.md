@@ -6,10 +6,10 @@ description: Vous pouvez lier une ressource ou un dossier provenant d’Experien
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 100%
+source-wordcount: '690'
+ht-degree: 98%
 
 ---
 
@@ -82,7 +82,7 @@ Vous pouvez lier une ressource provenant d’Experience Manager Assets ou d’
 
 1. Sélectionnez les ressources de votre choix.
 
-   ![](assets/select-an-asset.png)
+   ![Sélectionner une ressource](assets/select-an-asset.png)
 
 1. Cliquez sur **Sélectionner**.
 
@@ -99,7 +99,7 @@ Les autorisations d’affichage de ressources individuelles dans un dossier dép
 
 1. Sélectionnez les dossiers de votre choix.
 
-   ![](assets/select-a-folder.png)
+   ![Sélectionner un dossier](assets/select-a-folder.png)
 
 1. Cliquez sur **Sélectionner**.
 
@@ -119,7 +119,7 @@ Pour lier une nouvelle version depuis Assets Essentials :
 
 1. Sélectionnez la ressource de votre choix.
 
-   ![](assets/select-an-asset.png)
+   ![Sélectionner une ressource](assets/select-an-asset.png)
 
 1. Cliquez sur **Sélectionner**.
 

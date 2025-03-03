@@ -6,10 +6,10 @@ description: Cet article décrit les zones du business case d’un projet.
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 99%
+source-wordcount: '1607'
+ht-degree: 98%
 
 ---
 
@@ -115,7 +115,7 @@ Les heures budgétées pour les ressources du projet s’affichent dans la zone 
 
 Pour plus d’informations sur l’établissement du budget des ressources pour le projet dans le business case, voir [Établir le budget des ressources dans le business case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+![Analyse de rentabilité - budgétisation des ressources](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
 Tenez compte des éléments suivants lorsque vous consultez la section Établissement du budget de ressources du business case :
 
@@ -179,7 +179,7 @@ Pour plus d’informations sur l’activation des zones du business case, voir [
 
 Pour appliquer un formulaire personnalisé, votre équipe d’administration Workfront doit d’abord en créer un.
 
-Pour plus d’informations sur la création d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur la création d’un formulaire personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Vous pouvez utiliser des formulaires personnalisés pour collecter des informations supplémentaires qui ne sont pas affichées dans les autres champs du business case.
 

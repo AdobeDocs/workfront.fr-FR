@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 100%
+source-wordcount: '1453'
+ht-degree: 96%
 
 ---
 
@@ -63,13 +63,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Ou
 
-   Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis sur **Vue d’ensemble**. La zone Vue d’ensemble s’ouvre alors pour modification.
+   Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Aperçu**. La zone Vue d’ensemble s’ouvre alors pour modification.
 
    >[!NOTE]
    >
-   >Selon la manière dont votre administrateur ou administratrice Workfront a configuré votre modèle de mise en page, la section Vue d’ensemble peut ne pas être répertoriée en premier, auquel cas elle est réduite. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Selon la manière dont votre administrateur ou administratrice Workfront a configuré votre modèle de mise en page, la section Vue d’ensemble peut ne pas être répertoriée en premier, auquel cas elle est réduite. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Le cas échéant) S’il existe un champ spécifique qui doit être mis à jour sur un projet, mais qui ne s’affiche pas dans cette section, cliquez sur le **menu Plus** ![](assets/more-icon.png) en regard du nom du projet, puis sur **Modifier** pour afficher d’autres champs de projet.
+1. (Conditionnel) Si un champ spécifique doit être mis à jour pour un projet mais ne s’affiche pas dans cette section, cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png) en regard du nom du projet, puis sur **Modifier** pour afficher d’autres champs de projet.
 
    Pour plus d’informations sur la modification de projets, voir [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 

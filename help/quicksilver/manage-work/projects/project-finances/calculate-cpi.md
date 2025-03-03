@@ -7,10 +7,10 @@ description: L’Indice Coûts Performances (ICP) décrit la relation au niveau 
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 99%
 
 ---
 
@@ -200,4 +200,4 @@ Vous pouvez afficher l’ICP d’un projet ou d’une tâche dans une liste ou u
 
    L’ICP s’affiche dans le champ **ICP/SPI/CSI**.
 
-   ![](assets/cpi-on-project-nwe.png)
+   ![ICP du projet](assets/cpi-on-project-nwe.png)

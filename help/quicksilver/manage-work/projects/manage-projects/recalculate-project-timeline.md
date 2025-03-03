@@ -6,10 +6,10 @@ description: Recalculer les chronologies permet aux personnes chargées de la ge
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 92%
+source-wordcount: '1064'
+ht-degree: 87%
 
 ---
 
@@ -86,7 +86,7 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 
 ## Recalcul automatique
 
-Par défaut, les chronologies des projets sont automatiquement recalculées tous les jours lorsque la portée des projets change ou toutes les nuits. L’administrateur de Workfront détermine s’il faut calculer automatiquement les chronologies toutes les nuits ou à chaque changement de portée en gérant les paramètres Chronologies dans la zone Préférences du projet de la configuration. Pour plus d’informations, voir [Configurer les nouveaux calculs de chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Par défaut, les chronologies des projets sont automatiquement recalculées tous les jours lorsque la portée des projets change ou toutes les nuits. L’administrateur Workfront détermine s’il faut calculer automatiquement les chronologies toutes les nuits ou avec chaque modification de la portée en gérant les paramètres des chronologies dans les Préférences du projet de la Configuration. Pour plus d’informations, voir [Configurer les nouveaux calculs de chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 >[!NOTE]
 >
@@ -98,14 +98,14 @@ Par défaut, les chronologies des projets sont automatiquement recalculées tous
 
 >[!IMPORTANT]
 >
->Pour les environnements Sandbox Aperçu et Actualisation personnalisée , le recalcul de nuit est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour les environnements Aperçu et Actualisation personnalisée Sandbox.
+>Pour les environnements Sandbox de prévisualisation et d’actualisation personnalisée, le recalcul nocturne est désactivé et les chronologies de projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour les environnements de prévisualisation et de sandbox d’actualisation personnalisée.
 
 ### Recalcul automatique des chronologies des projets {#automatic-recalculation-of-project-timelines}
 
 Adobe Workfront recalcule les chronologies tous les jours uniquement pour les projets pour lesquels toutes les conditions suivantes sont remplies :
 
 * Le statut est défini sur Actif.
-* Le type de mise à jour du projet est défini sur Automatique ou Automatique et Après modification
+* Le type de mise à jour du projet est défini sur Automatique ou Automatique et En cas de modification
 
   Pour plus d’informations sur le type de mise à jour des projets, voir [Vue d’ensemble des types de mise à jour des projets](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
@@ -174,13 +174,13 @@ En tant que personne propriétaire de projet, vous pouvez recalculer manuellemen
 
 Vous pouvez recalculer la chronologie d’un projet dans Workfront à partir de la page du projet ou d’une liste de projets ou d’un rapport.
 
-1. Accédez au projet pour lequel vous souhaitez recalculer la chronologie et cliquez sur l’icône **Plus** ![](assets/qs-more-menu.png) à gauche du nom du projet.
+1. Accédez au projet pour lequel vous souhaitez recalculer la chronologie et cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-menu.png) à gauche du nom du projet
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Liste déroulante supplémentaire](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   Dans une liste de projets ou un rapport, sélectionnez un ou plusieurs projets, puis cliquez sur l’icône **Plus** ![](assets/qs-more-menu.png) en haut de la liste.
+   Accédez à une liste ou à un rapport de projet et sélectionnez un ou plusieurs projets, puis cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-menu.png) en haut de la liste.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 

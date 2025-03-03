@@ -5,10 +5,10 @@ description: Les formulaires personnalisés sont utilisés pour collecter des in
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 96%
+source-wordcount: '384'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 Les formulaires personnalisés sont utilisés pour collecter des informations qui ne sont pas affichées dans les champs existants d’Adobe Workfront. 
 
-Pour plus d’informations sur la création d’un Forms personnalisé, consultez l’article [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur la création d’un Forms personnalisé, consultez l’article [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Conditions d’accès
 
@@ -73,9 +73,9 @@ Pour joindre un formulaire personnalisé :
 
 1. Dans la section **Formulaire personnalisé**, sélectionnez le formulaire personnalisé à joindre dans le menu déroulant.
 
-   ![](assets/custom-forms-drop-down-menu.png)
+   ![Liste déroulante des formulaires personnalisés](assets/custom-forms-drop-down-menu.png)
 
 1. (Facultatif) Sélectionnez **Modifier le formulaire personnalisé**.\
-   ![](assets/acf1-350x122.png)
+   ![Modifier le formulaire personnalisé](assets/acf1-350x122.png)
 
 1. (Facultatif) Indiquez les informations dans les champs du formulaire personnalisé, puis cliquez sur **Enregistrer**.

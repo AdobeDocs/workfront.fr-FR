@@ -6,10 +6,10 @@ description: Vous pouvez créer des éléments de travail et des projets à part
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 22%
+source-wordcount: '847'
+ht-degree: 16%
 
 ---
 
@@ -71,12 +71,12 @@ Vous et d&#39;autres utilisateurs pouvez afficher vos tâches personnelles dans 
 
 Pour créer une tâche, procédez comme suit :
 
-1. Cliquez sur le ![](assets/main-menu-icon.png) **[!UICONTROL Menu principal]** dans le coin supérieur droit, ou sur le ![](assets/lines-main-menu.png) **Menu principal** dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![Icône des lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, si disponible, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser**, puis sur **Tâches** pour ajouter le widget Tâches à votre écran d’accueil.
 1. Accédez au widget **Tâches**, puis cliquez sur **Ajouter une tâche**.
 1. Saisissez le nom de votre élément de tâche personnel, puis cliquez sur Entrée.
-1. (Facultatif) Cliquez sur l’icône **Date** ![](assets/date-icon.png) ajouter une date d’échéance pour l’élément.
-   ![](assets/my-work-to-dos.png)
+1. (Facultatif) Cliquez sur l’icône **Date** ![Icône de date](assets/date-icon.png) pour ajouter une date d’échéance à l’élément.
+   ![ Mes tâches de travail ](assets/my-work-to-dos.png)
 1. (Facultatif) Créez un rapport ou un filtre de tâche personnel. Pour plus d’informations sur la création d’un filtre de tâche personnel, voir [Filtre : tâche personnelle](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 Vous pouvez afficher vos tâches, ainsi que les tâches des autres utilisateurs, dans le rapport de tâches personnelles.
 
@@ -84,10 +84,10 @@ Vous pouvez afficher vos tâches, ainsi que les tâches des autres utilisateurs,
 
 Vous pouvez ajouter une tâche à un projet existant directement à partir de la zone d’Accueil :
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Ajoutez le widget **Mes tâches** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes tâches**.
 1. Accédez au widget **Mes tâches**, puis cliquez sur **Nouveau**.
-   ![](assets/create-new-task.png)
+   ![Créer une tâche](assets/create-new-task.png)
 1. Dans la boîte de dialogue **Nouvelle tâche**, saisissez le nom de la tâche.
 1. Commencez à saisir le nom d’un projet, puis sélectionnez-le dans la liste.
 1. (Facultatif) Renseignez les champs suivants :
@@ -107,10 +107,10 @@ Vous pouvez ajouter une tâche à un projet existant directement à partir de la
 
 Vous pouvez ajouter un événement à un projet existant directement depuis la zone d’Accueil :
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Ajoutez le widget **Mes problèmes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes problèmes**.
 1. Accédez au widget **Mes événements**, puis cliquez sur **Nouveau**.
-   ![](assets/create-new-issue.png)
+   ![Créer un nouvel événement](assets/create-new-issue.png)
 1. Dans la boîte de dialogue **Nouvel événement**, commencez à saisir le nom d’un projet, puis sélectionnez-le dans la liste.
 1. Saisissez un nom d’événement.
 1. (Facultatif) Renseignez les champs suivants :
@@ -128,10 +128,10 @@ Vous pouvez ajouter un événement à un projet existant directement depuis la z
 
 Vous pouvez créer une requête directement depuis la zone d’Accueil :
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Ajoutez le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**.
 1. Accédez au widget **Mes requêtes**, puis cliquez sur **Nouveau**.
-   ![](assets/create-new-request.png)
+   ![Créer une demande](assets/create-new-request.png)
 
 1. Dans la boîte de dialogue **Nouvelle demande**, commencez à saisir le nom de la file d’attente des demandes.
 1. Renseignez les champs appropriés.
@@ -143,10 +143,10 @@ Pour plus d’informations sur l’envoi de demandes, voir [Création et envoi d
 
 Vous pouvez créer un projet directement depuis la zone d’Accueil :
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Ajoutez le widget **Mes projets** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes projets**.
 1. Accédez au widget **Mes projets**, puis cliquez sur **Nouveau**.
-   ![](assets/create-new-project.png)
+   ![Créer un projet](assets/create-new-project.png)
 1. Choisissez l’une des options suivantes :
 
    | champ | Instructions |
@@ -161,7 +161,7 @@ Vous pouvez créer un projet directement depuis la zone d’Accueil :
 
 You can create a board directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
 
 
@@ -171,13 +171,13 @@ You can create a board directly from the Home area:
 <!--
 ## Delete a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
-1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+1. Hover over the item, then click the **Delete** icon ![Delete icon](assets/delete-to-do.png). 
 
 ## Edit a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->

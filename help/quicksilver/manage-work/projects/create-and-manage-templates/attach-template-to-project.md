@@ -6,10 +6,10 @@ description: Vous pouvez joindre un modèle à un projet pendant la phase de cr�
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 100%
+source-wordcount: '1165'
+ht-degree: 91%
 
 ---
 
@@ -77,15 +77,15 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 Vous pouvez joindre un modèle à un projet dans Workfront à partir de la page du projet ou d’une liste de projets ou d’un rapport.
 
-1. Dans le projet auquel vous souhaitez joindre un modèle, cliquez sur l’icône **Plus** ![](assets/qs-more-icon-on-an-object.png) à droite du nom du projet.
+1. Accédez au projet auquel vous souhaitez joindre un modèle, puis cliquez sur l’icône **Plus** ![Icône Plus](assets/qs-more-icon-on-an-object.png) à droite du nom du projet
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Liste déroulante supplémentaire](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   Accédez à une liste de projets ou à un rapport et sélectionnez un projet, puis cliquez sur l’icône **Plus** ![](assets/qs-more-icon-on-an-object.png) en haut de la liste.
+   Accédez à une liste ou à un rapport de projet et sélectionnez un projet, puis cliquez sur l’icône **Plus** ![Icône Plus](assets/qs-more-icon-on-an-object.png) en haut de la liste.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Menu Plus développé](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 
 1. Cliquez sur **Joindre modèle**.
@@ -106,16 +106,16 @@ Vous pouvez joindre un modèle à un projet dans Workfront à partir de la page 
    * Nombre total de tâches
    * Noms des formulaires personnalisés joints
 
-   ![](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![Joindre une zone de modèle](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Le cas échéant) Cliquez sur l’icône **Favoris** ![](assets/favorites-icon-small.png) à gauche du nom du modèle pour le marquer comme favori. Le modèle est ainsi déplacé dans la liste Favoris.
+1. (Facultatif) Cliquez sur l’icône **Favoris** ![Icône Favoris](assets/favorites-icon-small.png) à gauche du nom du modèle pour le marquer comme favori. Le modèle est ainsi déplacé dans la liste Favoris.
 
-   ![](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+   ![Icône Favoris dans la liste des modèles](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
 
-1. (Le cas échéant) Cliquez à nouveau sur l’icône **Favoris** ![](assets/favorites-icon-selected.png) pour le supprimer de la liste Favoris.
+1. (Facultatif) Cliquez de nouveau sur l’icône **Favoris** ![Icône Favoris](assets/favorites-icon-selected.png) pour la supprimer de la liste des favoris.
 1. Cliquez sur **Personnaliser et joindre**.
 
-   ![](assets/attach-template-large-box-nwe-350x262.png)
+   ![Joindre un modèle](assets/attach-template-large-box-nwe-350x262.png)
 
 1. Mettez à jour les informations dans les sections suivantes avant de joindre le modèle (ou cliquez sur **Joindre modèle** à tout moment) :
 
@@ -193,6 +193,6 @@ Pour comprendre quel modèle est appliqué à un projet, procédez comme suit :
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
 1. Recherchez le nom du modèle associé au projet dans la section **Modèle** au bas de la section **Vue d’ensemble** sous **Relations du projet**.
 
-   ![](assets/nwe-template-info-on-project-350x356.png)
+   ![Informations sur le modèle de projet](assets/nwe-template-info-on-project-350x356.png)
 
 

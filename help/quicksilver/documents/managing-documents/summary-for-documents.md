@@ -7,10 +7,10 @@ description: Le résumé permet d’interagir avec des informations importantes,
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '418'
+ht-degree: 93%
 
 ---
 
@@ -56,11 +56,11 @@ Vous devez disposer des éléments suivants :
 ## Ouvrir la vue Résumé
 
 1. Accédez à la zone **Documents** et sélectionnez un élément dans la liste.
-1. Cliquez sur l’**icône Ouvrir le résumé** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Cliquez sur l’icône **Ouvrir le résumé** ![Ouvrir le résumé](assets/qs-summary-in-new-toolbar-small.png).
 
    Une fois le résumé ouvert, il reste ouvert lorsque vous cliquez sur d’autres documents, et ce jusqu’à sa fermeture manuelle.
 
-   ![](assets/summary-details-350x585.png)
+   ![Détails du résumé](assets/summary-details-350x585.png)
 
 ## Détails
 
@@ -69,19 +69,19 @@ Utilisez la section Détails pour afficher des informations de vue d’ensemble 
 * [Vue d’ensemble](#overview)
 * [Formulaires personnalisés](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+![Détails du résumé du document](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Vue d’ensemble {#overview}
 
 Développez la section Vue d’ensemble pour afficher ou télécharger une image miniature, ouvrir une épreuve, mettre à jour la description de base, vérifier le document, etc.
 
-![](assets/copy-of-doc-summary-with-overview-350x560.png)
+![Présentation du résumé du document](assets/copy-of-doc-summary-with-overview-350x560.png)
 
 ### Formulaires personnalisés {#custom-forms}
 
 Utilisez la section Formulaires personnalisés pour ajouter, modifier ou afficher tout formulaire personnalisé associé au document. Commencez à saisir le nom du formulaire personnalisé pour l’ajouter au document. Pour plus d’informations, voir la section [Ajouter ou modifier un formulaire personnalisé à un document](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+![Ajouter un formulaire personnalisé dans le résumé du document](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Mises à jour
 
@@ -98,7 +98,7 @@ Les approbations d’épreuves doivent être ajoutées dans le workflow des épr
 * [Approuver le travail](../../review-and-approve-work/manage-approvals/approving-work.md).
 * [Demander l’approbation de documents](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Approbations du résumé du document](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versions
 
@@ -110,4 +110,4 @@ Utilisez la section Versions pour afficher le nombre de versions créées pour u
 * Accéder aux Détails du document
 * Supprimer une épreuve ou un document
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Versions récapitulatives du document](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

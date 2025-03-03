@@ -5,9 +5,9 @@ description: Après avoir complété et soumis le business case d’une demande 
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '735'
 ht-degree: 93%
 
 ---
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 Tenez compte des éléments suivants lors de l’approbation du business case d’un projet :
 
 * Vous devez avoir les droits de gestion d’un projet pour en approuver le business case.
-* Vous ne pourrez pas voir les projets qui attendent que l’analyse de cas soit approuvée sous le widget Mes approbations dans Accueil.
+* Vous ne pourrez pas voir les projets qui attendent l’approbation de l’analyse de rentabilité sous le widget Mes approbations dans l’Accueil.
 * Vous devez vous rendre manuellement sur les projets individuels qui nécessitent l’approbation d’un business case pour voir s’ils sont en attente d’approbation. Il n’existe pas de mécanisme de notification Workfront permettant d’avertir quelqu’un qu’il doit approuver le business case d’un projet.
 * Vous pouvez trouver les projets ayant un business case en attente d’approbation soit en créant un rapport de projet, soit en accédant au portfolio auquel ils sont associés.
 
@@ -82,13 +82,13 @@ Pour établir un rapport pour les projets dont le business case est en attente d
 
    Cela permet de s&#39;m’assurer que le rapport n’inclut que les projets dont le statut est Demandé.
 
-   ![}essed_projects_filter.png](assets/requested-projects-filter-350x14.png)
+   ![requested_projects_filter.png](assets/requested-projects-filter-350x14.png)
 
 1. (Facultatif) Cliquez sur **Ajouter une autre règle de filtrage**.
 
    Vous pouvez ajouter des filtres supplémentaires pour n’afficher que les projets pour lesquels vous êtes la personne propriétaire du projet, la personne sponsorisant le projet ou la personne propriétaire du portfolio.
 
-   Par exemple, vous pouvez utiliser les instructions de filtre suivantes :
+   Vous pouvez, par exemple, utiliser les instructions de filtre suivantes :
 
    ```
    Project Sponsor ID Equals $$USER.ID
@@ -116,7 +116,7 @@ Pour établir un rapport pour les projets dont le business case est en attente d
 1. Cliquez sur **Business case** dans le panneau de gauche.
 1. Cliquez sur **Approuver** ou **Rejeter** dans la zone Récapitulatif du business case pour approuver ou rejeter le business case.
 
-   ![](assets/business-case-summary-with-rp-information--1-.png)
+   ![Analyse de rentabilité](assets/business-case-summary-with-rp-information--1-.png)
 
    Le statut du projet passe à **Approuvé** si le business case est approuvé.
 

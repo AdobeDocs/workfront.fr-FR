@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des documents à des projets, des tâches ou de
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 8687e92ffed08e87fcb8c22816fd86bafa7f9e7a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 100%
+source-wordcount: '769'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Pour ajouter un document
 1. Accédez au projet, à la tâche ou au problème auquel vous souhaitez ajouter un document.
 1. Cliquez sur l’onglet **Documents**, puis sur le menu déroulant **Ajouter**.
 
-   ![](assets/add-new-doc.png)
+   ![Ajouter un nouveau document](assets/add-new-doc.png)
 
 1. Selon le type de document que vous souhaitez ajouter, effectuez l’une des opérations suivantes :
 

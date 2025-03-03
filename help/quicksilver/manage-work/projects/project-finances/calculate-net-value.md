@@ -7,10 +7,10 @@ description: La valeur nette d’un projet correspond à la valeur totale attend
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 96%
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ La valeur nette d’un projet correspond à la valeur totale attendue du projet 
 
 ## Vue d’ensemble de la valeur nette des projets
 
-Adobe Workfront calcule la valeur nette d’un projet à l’aide de la formule suivante :
+Adobe Workfront calcule la valeur nette d&#39;un projet à partir de la formule suivante :
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
@@ -48,7 +48,7 @@ Vous pouvez trouver la valeur nette d’un projet dans les zones suivantes de Wo
 * Dans la zone Récapitulatif du business case du business case.\
   Pour plus d’informations sur la zone Récapitulatif du business case, voir la section « Comprendre le Récapitulatif du business case » de l’article [Créer un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Créer un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-  ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  ![Valeur nette sur l’analyse de rentabilité](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
 * Dans l’optimisateur de portfolio, si le projet est associé à un portfolio.
 

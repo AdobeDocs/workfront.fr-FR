@@ -6,10 +6,10 @@ description: En sélectionnant un type de mise à jour pour un projet, vous pouv
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 100%
+source-wordcount: '710'
+ht-degree: 97%
 
 ---
 
@@ -91,7 +91,7 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 Lorsque les tâches sont mises à jour, leurs objets parent (tâches parent ou projet) sont mis à jour au moment indiqué par le type de mise à jour.Pour spécifier un type de mise à jour pour votre projet :
 
 1. Accédez au projet dont vous souhaitez spécifier le type de mise à jour.
-1. Cliquez sur le menu Plus ![](assets/more-icon.png) à côté du nom du projet, puis sur **Modifier**.
+1. Cliquez sur le menu Plus ![icône Plus](assets/more-icon.png) en regard du nom du projet, puis cliquez sur **Modifier** .
 
 1. Cliquez sur **Paramètres** **du projet**.
 

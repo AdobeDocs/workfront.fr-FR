@@ -6,10 +6,10 @@ description: Les finances sont calculées sur un projet à mesure que des modifi
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 97%
+source-wordcount: '1633'
+ht-degree: 92%
 
 ---
 
@@ -65,7 +65,7 @@ Lorsque le taux d’une personne ou d’un rôle change au cours de la vie d’u
 * Lorsque la modification est effectuée, le taux mis à jour est utilisé à partir de ce moment lorsque les heures sont consignées et les informations financières sont calculées. La modification du taux n’affecte pas la façon dont les éléments ont été calculés avant que la modification ne soit effectuée. Pour toutes les heures existantes consignées, l’ancien taux est utilisé pour calculer les informations financières.
 * Vous pouvez forcer Adobe Workfront à utiliser le nouveau taux rétroactivement pour toutes les heures enregistrées jusqu’à présent, à l’aide de l’option Recalculer les finances. Cela oblige Workfront à recalculer rétroactivement toutes les heures, les coûts prévus et les revenus saisis précédemment, conformément aux nouvelles informations sur les taux.
 
-Le type de rapport Projet (Données financières) n&#39;effectue pas automatiquement un nouveau calcul de vos données financières. Pour mettre à jour les données de ce type de rapport, vous devez recalculer manuellement les finances des différents projets.
+Le type de rapport Projet (Données financières) n&#39;effectue pas automatiquement un recalcul de vos données financières. Pour mettre à jour les données de ce type de rapport, vous devez recalculer manuellement les données financières de projets individuels.
 
 >[!CAUTION]
 >
@@ -149,15 +149,15 @@ Vous pouvez recalculer le financement des projets dans Workfront à partir de la
 
 Vous pouvez recalculer le financement lors de leur modification en masse. Pour plus d’informations, voir la section [Recalculer manuellement le financement en masse](#manually-recalculate-finances-in-bulk) dans cet article.
 
-1. Accédez au projet dans lequel vous souhaitez recalculer le financement et cliquez sur l’icône **Plus** ![](assets/qs-more-icon-on-an-object.png) à droite du nom du projet.
+1. Accédez au projet pour lequel vous souhaitez recalculer les données financières et cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-icon-on-an-object.png) à droite du nom du projet.
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Liste déroulante Niveau du projet plus ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   Dans une liste de projets ou un rapport, sélectionnez un ou plusieurs projets, puis cliquez sur l’icône **Plus** ![](assets/qs-more-icon-on-an-object.png) en haut de la liste.
+   Accédez à une liste ou à un rapport de projet et sélectionnez un ou plusieurs projets, puis cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-icon-on-an-object.png) en haut de la liste.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalculer les expressions](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -181,9 +181,9 @@ Vous pouvez recalculer manuellement le financement de plusieurs projets en les m
 Pour recalculer manuellement le financement de plusieurs projets, procédez comme suit :
 
 1. Accédez à une liste de projets.
-1. Sélectionnez plusieurs projets dans la liste, puis cliquez sur l’icône **Plus** ![](assets/qs-more-icon-on-an-object.png) en haut de la liste.
+1. Sélectionnez plusieurs projets dans la liste, puis cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-icon-on-an-object.png) en haut de la liste.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalculer les expressions](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -207,4 +207,4 @@ Les actions suivantes déclenchent un nouveau calcul financier des projets dans 
 >
 >Lorsque vous modifiez le statut d’un projet, seules les valeurs prévues sont recalculées.
 
-Vous pouvez également recalculer manuellement le financement dans le menu **Plus** ![](assets/qs-more-menu.png) au niveau du projet, en cliquant sur **Recalculer finances**.
+Vous pouvez également recalculer les finances manuellement sous le menu **Plus** ![Plus](assets/qs-more-menu.png) au niveau du projet, en cliquant sur **Recalculer les finances**.

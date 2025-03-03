@@ -6,10 +6,10 @@ description: Vous pouvez utiliser la zone [!UICONTROL Mes mises à jour] pour co
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 97%
+source-wordcount: '823'
+ht-degree: 88%
 
 ---
 
@@ -76,23 +76,23 @@ Vous devez disposer des éléments suivants avant de commencer :
 
 1. Cliquez sur **[!UICONTROL Mes mises à jour]** dans le **[!UICONTROL Menu principal]**.
 
-   ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+   ![Mes mises à jour dans le menu principal](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
    La zone [!UICONTROL Mes mises à jour] s’affiche.
 
    Les approbations et demandes d’accès qui vous sont affectées sont répertoriées dans la première moitié de la page, sous **Mes mises à jour**.
 
-   ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+   ![mentions Mes mises à jour pour les réviseurs](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
-1. (Facultatif) Faites défiler l’écran jusqu’au bas de la zone [!UICONTROL **Mes mises à jour**] et cliquez sur la flèche droite pour afficher davantage d’approbations sur d’autres pages.
+1. (Facultatif) Descendez au bas de la zone [!UICONTROL **Mes mises à jour**] et cliquez sur la flèche pointant vers la droite pour afficher d’autres approbations qui s’affichent sur des pages supplémentaires.
 
    >[!TIP]
    >
    >Les cinq premières approbations ou demandes d’accès s’affichent par défaut. Les autres approbations s’affichent sur des pages supplémentaires. Vous pouvez afficher un maximum de 2000 approbations dans la zone [!UICONTROL Mes mises à jour].
 
-   ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   ![ Pagination pour mes mises à jour ](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (Facultatif) Développez le menu déroulant **[!UICONTROL Filtrer]** ![](assets/filter-nwepng.png) dans le coin supérieur droit de la section **[!UICONTROL Mes mises à jour]** et sélectionnez l’une des options suivantes :
+1. (Facultatif) Développez le menu déroulant **[!UICONTROL Filtre]** ![Icône Filtrer](assets/filter-nwepng.png) dans le coin supérieur droit de la section **[!UICONTROL Mes mises à jour]** et sélectionnez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -117,13 +117,13 @@ Vous devez disposer des éléments suivants avant de commencer :
 
 1. Pour approuver ou rejeter un élément ou suggérer des modifications à un document avant de l’approuver, procédez comme suit :
 
-   1. (Facultatif) Cliquez sur l’icône **liste déroulante** ![](assets/down-arrow-blue.png) en regard de votre décision d’approbation (**[!UICONTROL Approuver]**, **[!UICONTROL Modifications]**,**[!UICONTROL Rejeter]**) et ajoutez un commentaire, puis cliquez sur **[!UICONTROL Ajouter]**.
+   1. (Facultatif) Cliquez sur l’icône **liste déroulante** ![icône déroulante](assets/down-arrow-blue.png) en regard de votre décision d’approbation (**[!UICONTROL Approuver]**, **[!UICONTROL Modifications]**,**[!UICONTROL Rejeter]**) et ajoutez un commentaire, puis cliquez sur **[!UICONTROL Ajouter]**.
 
       Ou
 
       Cliquez sur **[!UICONTROL Ignorer]** si vous ne souhaitez pas saisir de commentaire.
 
-      ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![Boutons de décision d’approbation avec zone de commentaire](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
@@ -133,12 +133,12 @@ Vous devez disposer des éléments suivants avant de commencer :
 
       >[!TIP]
       >
-      >Si vous ne souhaitez pas ajouter de commentaire à votre décision, cliquez sur le bouton **[!UICONTROL Approuver]**, **[!UICONTROL Rejeter]** ou **[!UICONTROL Modifications]** pour entériner directement votre décision d’approbation.
+      >Si vous ne souhaitez pas ajouter de commentaire à votre décision, vous pouvez cliquer sur le bouton **[!UICONTROL Approuver]**, **[!UICONTROL Rejeter]** ou **[!UICONTROL Modifications]** et la décision d’approbation sera accordée immédiatement.
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >![Boutons de décision d’approbation](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
-      >Pour plus d’informations sur l’approbation du travail, consultez la section [Approuver le travail](../../../review-and-approve-work/manage-approvals/approving-work.md).
+      >Pour plus d’informations sur l’approbation du travail, voir [Approbation de travail](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 1. Cliquer sur **[!UICONTROL Accorder l’accès]** pour accorder la demande d’accès qui vous a été soumise.
 
@@ -146,7 +146,7 @@ Vous devez disposer des éléments suivants avant de commencer :
 
    Développez le menu déroulant **[!UICONTROL Modifier l’accès]** pour modifier l’accès demandé avant de l’accorder.
 
-   ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+   ![Bouton Modifier l’accès](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Ignorer]** pour supprimer la demande d’accès de votre liste d’approbation sans l’accorder.
 1. Cliquez sur **[!UICONTROL Déléguer mes approbations]** pour déléguer les approbations qui vous ont été soumises si vous n’êtes pas disponible pour prendre des décisions d’approbation pendant un certain temps. Pour plus d’informations sur la délégation d’approbations, voir [Déléguer une demande d’approbation](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
@@ -166,6 +166,6 @@ Vous devez disposer des éléments suivants avant de commencer :
 
      Lorsque vous avez terminé d’ajouter la réponse, cliquez sur **[!UICONTROL Envoyer]**.
 
-     ![](assets/reply-in-the-my-updates-area.png)
+     ![Répondre dans la zone Mes mises à jour](assets/reply-in-the-my-updates-area.png)
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Épingler la page actuelle]** pour épingler la zone [!UICONTROL Mes mises à jour] à votre navigation supérieure.

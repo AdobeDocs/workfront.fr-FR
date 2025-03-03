@@ -6,10 +6,10 @@ description: Vous pouvez télécharger des documents à partir d’Adobe Workfr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 99%
+source-wordcount: '292'
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 
-1. Cliquez sur l’icône **Téléchargement sélectionné** ![](assets/download-icon.png).
+1. Cliquez sur l’icône **Télécharger la sélection** ![Télécharger la sélection](assets/download-icon.png).
 
 ## Télécharger simultanément plusieurs documents
 
@@ -69,6 +69,6 @@ Vous pouvez télécharger plusieurs documents simultanément. 
    >Les documents liés à Workfront depuis Box, Dropbox, Google Drive, etc., ne peuvent pas être téléchargés en masse.
 
 1. (Facultatif) Sélectionnez dans la liste des dossiers les dossiers qui contiennent les documents que vous souhaitez télécharger.
-1. Cliquez sur l’icône Téléchargement sélectionné ![](assets/download-icon.png).
+1. Cliquez sur l’icône Télécharger la sélection ![icône Télécharger la sélection](assets/download-icon.png).
 
    Les dossiers sont téléchargés sous forme de fichiers .zip et sont limités à 4 Go.

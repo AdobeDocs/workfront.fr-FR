@@ -7,10 +7,10 @@ description: Dans la zone Documents, vous pouvez organiser, gérer et afficher l
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 86%
+source-wordcount: '414'
+ht-degree: 76%
 
 ---
 
@@ -18,23 +18,23 @@ ht-degree: 86%
 
 Dans la zone Documents, vous pouvez organiser, gérer et afficher les métadonnées des documents chargés dans Adobe Workfront. Vous pouvez également voir le statut de décision de l’épreuve.
 
-![](assets/documents-area-v2-350x199.png)
+![Zone Documents](assets/documents-area-v2-350x199.png)
 
 Il existe deux types de zones Documents. Les fonctionnalités sont les mêmes pour les deux :
 
-* **Zone Documents dans un programme, un portefeuille, un projet, une tâche ou un problème :** répertorie tous les documents auxquels vous avez accès pour un projet, une tâche ou un problème particulier. Pour accéder à cette zone, cliquez sur **Documents** ![](assets/document-icon-12x14.png) dans le panneau de gauche lors de l’affichage d’un projet, d’une tâche ou d’un problème.
+* **Zone Documents dans un programme, un portefeuille, un projet, une tâche ou un événement :** répertorie tous les documents auxquels vous avez accès pour un projet, une tâche ou un événement spécifique. Pour accéder à cette zone, cliquez sur **Documents** ![icône Documents](assets/document-icon-12x14.png) dans le panneau de gauche lors de l’affichage d’un projet, d’une tâche ou d’un événement.
 
-* **Zone Documents générale :** répertorie tous les documents auxquels vous avez accès dans Workfront. Pour accéder à cette zone, cliquez sur **Documents** ![](assets/document-icon.png) dans le menu principal ![](assets/main-menu-icon.png).
+* **Zone Documents générale :** répertorie tous les documents auxquels vous avez accès dans Workfront. Pour accéder à cette zone, cliquez sur **Documents** ![icône Documents](assets/document-icon.png) dans le menu principal ![icône du menu principal](assets/main-menu-icon.png).
 
 Pour plus d’informations sur le chargement de documents vers Workfront, voir [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 
-La zone Documents enregistre un nombre d’éléments suivants :
+La zone des documents enregistre un décompte des éléments suivants :
 
 * Dossiers Workfront
-* Fichiers chargés à partir du système de fichiers
+* Fichiers téléchargés à partir du système de fichiers
 * Fichiers ajoutés à Workfront à partir des intégrations
-* Linked Experience Manager Assets
+* Experience Manager Assets lié
 
 ## Panneau Résumé
 
@@ -44,7 +44,7 @@ Si la relecture est configurée pour le document, la section Détails contient d
 
 Vous pouvez cliquer sur l’en-tête Détails pour accéder à la zone Détails du document complète lorsque vous avez besoin de toutes les informations sur un document.
 
-![](assets/documents-area-v2-350x199.png)
+![Zone Documents](assets/documents-area-v2-350x199.png)
 
 Pour plus d’informations sur le résumé, voir [Vue d’ensemble du résumé des documents](../../documents/managing-documents/summary-for-documents.md).
 
@@ -52,7 +52,7 @@ Pour plus d’informations sur le résumé, voir [Vue d’ensemble du résumé d
 
 Une fois qu’un statut de décision de l’épreuve a été pris, il apparaît dans la liste des documents.
 
-![](assets/proof-decision---doc-list-350x168.png)
+![Décision sur l&#39;épreuve dans la liste de documents](assets/proof-decision---doc-list-350x168.png)
 
 ## Dossiers
 

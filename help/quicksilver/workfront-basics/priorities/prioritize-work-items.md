@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
+source-wordcount: '202'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
    | **Normale** | La valeur Normale concerne les tâches de routine sur lesquelles vous travaillerez une fois les tâches urgentes et de haute priorité terminées. Il s’agit de la valeur par défaut pour les tâches et les événements. |
    | **Faible** | La valeur faible correspond aux éléments de travail qui n’ont pas besoin d’une attention immédiate et qui peuvent être différés jusqu’à ce que tous les éléments de travail de priorité supérieure soient terminés. |
 
-   ![](assets/my-focus-new.png)
+   ![Ma cible](assets/my-focus-new.png)
 
    >[!TIP]
    >

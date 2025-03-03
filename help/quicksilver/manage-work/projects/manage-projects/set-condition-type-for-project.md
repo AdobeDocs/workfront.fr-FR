@@ -6,10 +6,10 @@ description: En tant que chef de projet, vous pouvez déterminer comment la cond
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 85%
+source-wordcount: '382'
+ht-degree: 80%
 
 ---
 
@@ -41,8 +41,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Autorisations d’objet</td> 
    <td> 
     <ul> 
-     <li> <p>Autorisations Contribute pour un projet afin de modifier le type de condition dans la zone Détails du projet </p> </li> 
-     <li> <p>Gérer les autorisations d’un projet pour modifier le type de condition dans la zone Modifier le projet</p> </li> 
+     <li> <p>Autorisations de contribution à un projet pour modifier le type de condition dans la zone Détails du projet </p> </li> 
+     <li> <p>Gérez les autorisations d’un projet pour modifier le type de condition dans la zone Modifier le projet .</p> </li> 
     </ul> <p> Pour plus d’informations sur les autorisations de projet, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -55,7 +55,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Accédez au projet dont vous souhaitez mettre à jour le type de condition.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur le menu **Plus** ![](assets/qs-more-menu.png) à droite du nom du projet, puis sur **Modifier**.
+   * Cliquez sur le menu **Plus** ![Plus](assets/qs-more-menu.png) à droite du nom du projet, puis cliquez sur **Modifier**.
    * Cliquez sur **Détails du projet** dans le panneau de gauche.
 
    ![](assets/update-condition-type-nwe-350x108.png)

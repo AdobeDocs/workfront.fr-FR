@@ -6,10 +6,10 @@ description: Vous pouvez utiliser l’extension Workfront pour exporter du conte
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '3087'
-ht-degree: 100%
+source-wordcount: '3107'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Tenez compte des points suivants lors du chargement ou de l’export d’un fich
 * Votre niveau d’accès doit permettre le chargement de documents vers Workfront. Pour plus d’informations, voir [Accorder l’accès aux documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 * Vous devez disposer des autorisations nécessaires pour charger des documents vers l’élément qui vous intéresse. Pour plus d’informations, voir [Vue d’ensemble des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 * Le fichier est chargé dans la zone Documents pour l’objet Workfront que vous sélectionnez.
-* Vous ne pouvez pas exporter un document vers la zone Documents du menu principal ![](assets/main-menu-icon.png) à partir d’une application Adobe Creative Cloud.
+* Vous ne pouvez pas exporter un document vers la zone Documents du menu principal ![icône du menu principal](assets/main-menu-icon.png) à partir d’une application Adobe Creative Cloud.
 
 Les sections suivantes expliquent ce qui suit :
 
@@ -135,7 +135,7 @@ Vous pouvez charger vos fichiers vers un projet, une tâche ou u problème sans 
 
 1. (Facultatif) Saisissez un nouveau nom pour le fichier.
 
-   ![](assets/rename-file-uploading.png)
+   ![Renommer le fichier](assets/rename-file-uploading.png)
 
 1. Cliquez sur **Charger**.
 
@@ -165,7 +165,7 @@ Vous pouvez charger vos fichiers vers un projet, une tâche ou u problème sans 
 1. (Le cas échéant) Si l’élément de travail sur lequel vous souhaitez charger le fichier contient des dossiers de documents, sélectionnez un dossier de documents dans le champ **Cliquer pour sélectionner un dossier de documents**, puis cliquez sur **Sélectionner**.
 1. (Facultatif) Pour renommer le document, cliquez sur le nom du document et saisissez un nouveau nom.
 
-   ![](assets/rename-doc-exporting.png)
+   ![Renommer le document à l’exportation](assets/rename-doc-exporting.png)
 
 1. Cliquez sur **Exporter**.
 
@@ -211,7 +211,7 @@ Vous pouvez charger vos fichiers vers un projet, une tâche ou u problème sans 
    >Le nom du document dans Workfront est renseigné par défaut et ne peut pas être modifié. Cela ne change pas non plus le nom du fichier que vous chargez ou exportez en tant que nouvelle version.
    >
    >
-   >![](assets/doc-name-cant-be-changed.png)
+   >![Le nom du document ne peut pas être modifié](assets/doc-name-cant-be-changed.png)
 
 ## Commenter un document Workfront à partir d’Illustrator ou InDesign {#comment-on-a-workfront-document-from-illustrator-or-indesign}
 
@@ -276,7 +276,7 @@ Pour demander l’approbation d’un document depuis une application Adobe, proc
 
    * Saisissez le nom d’un approbateur ou d’une approbatrice, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
-     ![](assets/adobe-cc-adding-a-doc-approver-350x189.png)
+     ![Ajouter un approbateur de document](assets/adobe-cc-adding-a-doc-approver-350x189.png)
 
    * Saisissez l’adresse e-mail d’une personne externe.
 
@@ -350,7 +350,7 @@ Si votre organisation utilise des modèles de workflows automatisés, vous pouve
 
 1. Dans l’application Adobe, cliquez sur **Fenêtre** > **Extensions** > **Workfront**.
 
-1. Cliquez sur le menu **Plus**![](assets/more-menu.png) dans le coin supérieur droit du panneau.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit du panneau.
 
 1. (Facultatif) Cliquez sur **Commentaires** pour ouvrir une enquête rapide et envoyer vos commentaires sur Workfront pour Adobe Creative Cloud à Workfront.
 1. Cliquez sur **Déconnexion**.\

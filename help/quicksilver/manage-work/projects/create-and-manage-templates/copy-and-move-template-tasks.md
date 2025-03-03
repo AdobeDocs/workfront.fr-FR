@@ -6,10 +6,10 @@ description: Vous pouvez copier ou déplacer une tâche de modèle dans le même
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2128'
-ht-degree: 100%
+source-wordcount: '2140'
+ht-degree: 95%
 
 ---
 
@@ -87,9 +87,9 @@ Vous pouvez copier une seule tâche de modèle ou plusieurs tâches de modèle e
 1. Utilisez l’une des méthodes suivantes :
    * Cliquez sur le nom d’une tâche de modèle pour l’ouvrir.
    * Sélectionnez une ou plusieurs tâches de modèle dans la liste.
-1. (Le cas échéant) Cliquez sur le menu **Plus** ![](assets/more-icon.png) en haut de la liste des tâches de modèle ou à droite du nom de la tâche de modèle si vous avez ouvert la tâche, puis cliquez sur **Copier vers** ou **Copier**, selon l’endroit d’où vous accédez à l’option Copier.
+1. (Conditionnel) Cliquez sur le menu **Plus** ![Icône Plus](assets/more-icon.png) en haut de la liste des tâches de modèle ou à droite du nom de la tâche de modèle si vous avez ouvert la tâche, puis cliquez sur **Copier vers** ou **Copier**, selon l’emplacement depuis lequel vous accédez à l’option Copier.
 La zone Copier la tâche de modèle s’affiche.
-   ![](assets/copy-template-task-box-unshimmed.png)
+   ![Zone Copier la tâche de modèle](assets/copy-template-task-box-unshimmed.png)
 1. (Facultatif) Renommez la tâche de modèle dans le champ **Nom de tâche de modèle**.
 
    >[!TIP]
@@ -210,9 +210,9 @@ Vous pouvez déplacer une tâche de modèle vers une autre tâche du même modè
 1. Utilisez l’une des méthodes suivantes :
    * Cliquez sur le nom d’une tâche de modèle pour l’ouvrir.
    * Sélectionnez une ou plusieurs tâches de modèle dans la liste.
-1. (Le cas échéant) Cliquez sur le menu **Plus** ![](assets/more-icon.png) en haut de la liste des tâches de modèle ou à droite du nom de la tâche de modèle si vous avez ouvert la tâche, puis cliquez sur **Déplacer vers** ou **Déplacer**, selon l’endroit d’où vous accédez à l’option Déplacer.
+1. (Conditionnel) Cliquez sur le menu **Plus** ![Icône Plus](assets/more-icon.png) en haut de la liste des tâches de modèle ou à droite du nom de la tâche de modèle si vous avez ouvert la tâche, puis cliquez sur **Déplacer vers** ou **Déplacer**, selon l’endroit où vous accédez à l’option Déplacer.
 La zone Déplacer la tâche de modèle s’ouvre.
-   ![](assets/move-template-task-box-unshimmed.png)
+   ![Déplacer la zone de tâche de modèle](assets/move-template-task-box-unshimmed.png)
 
 1. (Facultatif) Renommez la tâche de modèle dans le champ **Nom de la tâche de modèle**.
 

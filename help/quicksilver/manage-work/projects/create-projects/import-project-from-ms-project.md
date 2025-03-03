@@ -6,10 +6,10 @@ description: Vous pouvez importer des projets de Microsoft Project dans Adobe W
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 93%
+source-wordcount: '512'
+ht-degree: 91%
 
 ---
 
@@ -53,7 +53,7 @@ Vous pouvez importer des projets de Microsoft Project dans Adobe Workfront et g
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -98,14 +98,14 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
 1. Connectez-vous à Workfront.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur le **menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront ou cliquez sur le **menu principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Projets**, puis développez **Nouveau projet**.
+   * Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, ou cliquez sur les **Menu principal** ![Lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, si disponible, cliquez sur **Projets**, puis développez **Nouveau projet**.
    * Accédez à un portfolio, puis développez **Nouveau projet**.
    * Accédez à un programme, puis développez **Nouveau projet**.
    * Si vous êtes administrateur ou administratrice de groupes, vous pouvez également créer un projet dans la section Projets d’un groupe que vous gérez. Pour plus d’informations, voir [Créer et modifier les projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Choisissez l’option **Importer un fichier MS Project**.
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![Liste déroulante du nouveau projet](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Cliquez sur **Sélectionner un fichier**, puis recherchez sur votre ordinateur le fichier .xml que vous avez exporté de Microsoft Project.
 1. Importez le fichier sélectionné.

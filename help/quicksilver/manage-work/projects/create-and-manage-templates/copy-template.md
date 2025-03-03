@@ -6,10 +6,10 @@ description: Au lieu de créer entièrement un modèle de projet, vous pouvez co
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 97%
 
 ---
 
@@ -69,7 +69,7 @@ Les éléments suivants ne sont jamais copiés d’un projet existant vers un no
 ## Copier un modèle
 
 1. Accédez au modèle à copier.
-1. Cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png), puis sur **Copier**.
+1. Cliquez sur le menu **Plus** ![icône Plus](assets/qs-more-icon-on-an-object.png), puis sur **Copier**.
 1. Spécifiez un nom pour le modèle dans le champ **Nouveau nom du modèle**.
 
    Par défaut, le nouveau nom est **Copie de `<original template name>`.**

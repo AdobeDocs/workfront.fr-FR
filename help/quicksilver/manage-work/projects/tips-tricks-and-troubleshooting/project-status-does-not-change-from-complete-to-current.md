@@ -7,10 +7,10 @@ description: (Bien que ce point puisse être ajouté aux questions fréquentes, 
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ Si le mode d’achèvement d’un projet est défini sur Manuel, le statut du pr
 Pour définir le mode d’achèvement d’un projet sur Manuel, procédez comme suit :
 
 1. Accédez au projet que vous souhaitez mettre à jour.
-1. Cliquez sur l’icône **Plus** ![](assets/more-icon.png) à droite du nom du projet, puis cliquez sur **Modifier**.
+1. Cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png) à droite du nom du projet, puis cliquez sur **Modifier**.
 1. Cliquez sur **Paramètres** du **projet**.
 
 1. Localisez le menu déroulant **Mode d’achèvement** et sélectionnez **Manuel**.

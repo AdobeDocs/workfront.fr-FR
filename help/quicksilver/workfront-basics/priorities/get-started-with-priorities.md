@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1041'
 ht-degree: 7%
 
 ---
@@ -114,7 +114,7 @@ Une fois que vous avez affecté des niveaux de focus à vos éléments de travai
 
 Pour plus d’informations, voir [ Hiérarchiser les éléments de travail importants ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![](assets/worklist.png)
+![ Liste de travail ](assets/worklist.png)
 
 ### Utilisation de la vue Calendrier
 
@@ -142,7 +142,7 @@ La section Mises à jour affiche les mises à jour système et jusqu’à 200 de
 
 Pour plus d&#39;informations, voir [Ajouter et afficher des commentaires dans Priorités](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![](assets/update-log-upload.png)
+![Mise à jour, consignation de l’heure et chargement](assets/update-log-upload.png)
 
 ### Enregistrer des heures
 
@@ -150,7 +150,7 @@ Vous pouvez enregistrer le temps passé pour les éléments de travail afin d’
 
 Pour plus d’informations, voir [Consigner le temps dans les priorités](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![](assets/update-log-upload.png)
+![Mise à jour, consignation de l’heure et chargement](assets/update-log-upload.png)
 
 ### Charger des fichiers
 
@@ -163,14 +163,14 @@ Charger des fichiers directement dans la zone Documents de la tâche ou de l’�
 
 Pour plus d’informations, voir [ Charger des fichiers dans Priorités ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
-![](assets/update-log-upload.png)
+![Mise à jour, consignation de l’heure et chargement](assets/update-log-upload.png)
 
 
 ### Ajout de liens rapides
 
 Vous pouvez incorporer les liens fréquemment utilisés dans la page de détails de l’élément de travail. Les liens rapides vous permettent de consulter ou de copier rapidement le lien.
 
-![](assets/quick-links.png)
+![Liens rapides ](assets/quick-links.png)
 
 Pour plus d’informations, voir [ Ajouter et gérer des liens rapides dans Priorités ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
@@ -194,7 +194,7 @@ Utilisez la fonction [!DNL Catch me up] pour voir ce que vous avez manqué. Catc
 
 Pour de plus amples renseignements, voir [Rattrapage du travail dans Priorités](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-![](assets/catch-me-up.png)
+![Rattrape-moi](assets/catch-me-up.png)
 
 <!--need new screen for prod-->
 

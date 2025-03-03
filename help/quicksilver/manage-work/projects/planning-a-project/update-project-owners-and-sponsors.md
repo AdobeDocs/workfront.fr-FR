@@ -6,10 +6,10 @@ description: Lorsque vous créez un projet dans Adobe Workfront, vous devenez a
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 98%
+source-wordcount: '425'
+ht-degree: 89%
 
 ---
 
@@ -89,7 +89,7 @@ Pour plus d’informations sur les propriétaires et les sponsors du projet, voi
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -99,7 +99,7 @@ Lorsque vous ajoutez une personne en tant que propriétaire de projet, Workfront
 
 1. Accédez au projet que vous souhaitez mettre à jour.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Cliquez sur l’icône **Modifier** ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur **Vue d’ensemble**.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur **Aperçu**.
 
 1. Indiquez le nom d’un utilisateur ou d’une utilisatrice pour le champ **Propriétaire du projet**.
 
@@ -121,7 +121,7 @@ Lorsque vous ajoutez une personne en tant que sponsor du projet, Workfront lui a
 
 1. Accédez au projet que vous souhaitez mettre à jour.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Cliquez sur l’icone **Modifier** ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur **Vue d’ensemble**.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur **Aperçu**.
 
 1. Indiquez le nom d’une personne pour le champ **Sponsor du projet**.
 

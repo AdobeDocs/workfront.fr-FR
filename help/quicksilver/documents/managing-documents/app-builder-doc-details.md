@@ -1,37 +1,37 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: AppBuilder dans les détails du document Workfront
-description: Vous pouvez installer AppBuilder dans Détails du document.
+title: Détails de l’AppBuilder dans le document Workfront
+description: Vous pouvez installer AppBuilder dans les Détails du document
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 0%
+source-wordcount: '1357'
+ht-degree: 1%
 
 ---
 
-# AppBuilder dans les détails du document Workfront
+# Détails de l’AppBuilder dans le document Workfront
 
-Vous pouvez installer AppBuilder dans Détails du document.
+Vous pouvez installer AppBuilder dans les Détails du document.
 
 ## Conditions préalables
 
 Vous devez disposer des éléments suivants :
 
-* un compte Workfront activé par IMS ;
-* Une machine de développement avec le noeud v18 et npm
+* Un compte Workfront compatible IMS
+* Une machine de développement avec le nœud v18 et npm
 
-## Ajout de développeurs à la console d’administration
+## Ajout de développeurs à Admin Console
 
 >[!IMPORTANT]
 >
->Assurez-vous d’avoir sélectionné l’organisation IMS appropriée pour toutes les étapes suivantes. Si vous appartenez à plusieurs organisations, il est possible de sélectionner la mauvaise. Assurez-vous que vous agissez sous la bonne organisation, qui est généralement répertoriée dans le coin supérieur droit.
+>Assurez-vous d’avoir sélectionné la bonne organisation IMS pour toutes les étapes suivantes. Si vous appartenez à plusieurs organisations, il est possible de sélectionner la mauvaise. Assurez-vous que vous agissez sous la bonne organisation, qui est généralement répertoriée dans le coin supérieur droit.
 
 
 1. Accédez à l’une des options suivantes :
@@ -39,30 +39,30 @@ Vous devez disposer des éléments suivants :
 * Étape : [https://stage.adminconsole.adobe.com/](https://stage.adminconsole.adobe.com/)
 * Prod : [https://adminconsole.adobe.com/](https://adminconsole.adobe.com/)
 
-1. Dans la section Utilisateurs, cliquez sur **Développeurs** > **Ajouter des développeurs**.
+1. Dans la section Utilisateurs , cliquez sur **Développeurs** > **Ajouter des développeurs**.
 
-   ![](assets/manage-users-admin-console.png)
+   ![Gérer les développeurs dans Admin Console](assets/manage-users-admin-console.png)
 
    >[!NOTE]
    >
-   >Si vous ne voyez pas d’option pour gérer les développeurs, vous ne disposez pas d’un produit qui autorise l’accès des développeurs. Workfront ne fournit pas l’accès développeur, mais AEM le fait. Si vous ne voyez pas cela, nous devrons trouver comment inclure Workfront dans la liste des applications qui permet aux développeurs.
+   >Si vous ne voyez pas d’option pour gérer les développeurs, vous ne disposez pas d’un produit qui autorise l’accès en développement. Workfront ne fournit pas d’accès développeur, contrairement à AEM. Si vous ne le voyez pas, nous devrons trouver comment faire pour que Workfront soit inclus dans la liste des applications qui permettent aux développeurs.
 
-1. Ajoutez l’adresse électronique de l’utilisateur. Il doit rechercher les utilisateurs existants qui ont déjà été ajoutés depuis la console d’administration.
+1. Ajoutez l’e-mail de l’utilisateur. Il doit rechercher des utilisateurs existants qui ont déjà été ajoutés à partir d’Admin Console.
 
-1. Ajoutez les produits nécessaires au profil du développeur, puis cliquez sur **Enregistrer**.
+1. Ajoutez les produits nécessaires au profil de développeur, puis cliquez sur **Enregistrer**.
 
-![](assets/add-developer.png)
+![Ajout d’un développeur](assets/add-developer.png)
 
-## Accès à AppBuilder
+## Obtenir l’accès à AppBuilder
 
-Les entreprises doivent collaborer avec leurs gestionnaires de compte pour acheter AppBuilder. Le processus exact pour cela n&#39;est pas compris parce que nous n&#39;avions pas besoin de le faire pour le bureau de vote.
+Les entreprises doivent collaborer avec leurs gestionnaires de compte pour acheter AppBuilder. Le processus exact n’est pas compris, car nous n’avions pas besoin de le faire pour le PDC.
 
-Si vous souhaitez tester l’intégration d’AppBuilder, vous pouvez demander un essai gratuit pour votre organisation IMS ici :
+Si vous souhaitez tester l’intégration d’AppBuilder, vous pouvez demander une version d’essai gratuite pour votre organisation IMS ici :
 [https://developer.adobe.com/app-builder/trial/#](https://developer.adobe.com/app-builder/trial/#)
 
-J&#39;ai l&#39;impression que même s&#39;il s&#39;agit d&#39;un essai gratuit de 30 jours, ils ne vont pas désactiver le test après ce moment.
+J&#39;ai l&#39;impression que, même s&#39;il s&#39;agit d&#39;un essai gratuit de 30 jours, ils ne désactiveront pas le procès après cette période.
 
-Si AppBuilder est correctement configuré, &quot;Créer un projet à partir d’un modèle&quot; doit s’afficher dans le cadre de la création d’un projet (qui est traitée dans la section suivante).
+Si AppBuilder est correctement configuré, vous devriez voir « Créer un projet à partir d’un modèle » dans le cadre de la création d’un projet (qui est traité dans la section suivante).
 
 ## Créer un projet dans la console de développement
 
@@ -70,65 +70,65 @@ Si AppBuilder est correctement configuré, &quot;Créer un projet à partir d’
 
    >[!IMPORTANT]
    >
-   >Si cette option ne s’affiche pas, vous êtes mal configuré dans la console d’administration et n’avez pas accès au catalogue du créateur d’applications. Cette option s’affiche uniquement lorsque vous avez accès à AppBuilder.
+   >Si cette option n’apparaît pas, cela signifie que vous êtes mal configuré(e) dans l’Admin Console et que vous n’avez pas accès au catalogue de l’App Builder. Cette option s’affiche uniquement lorsque vous avez accès à AppBuilder.
 
-   ![](assets/create-from-template.png)
+   ![Créer un projet à partir d’un modèle](assets/create-from-template.png)
 
 1. Sélectionnez **App Builder**.
 
-1. Saisissez un **Titre du projet** et un **Nom de l’application**. Toutes deux comportent des valeurs par défaut, mais il sera plus facile d’identifier le projet que vous souhaiterez ultérieurement si vous personnalisez la valeur.
+1. Saisissez un **Titre du projet** et **Nom de l’application**. Les deux comportent des valeurs par défaut, mais il sera plus facile d’identifier le projet de votre choix ultérieurement si vous personnalisez la valeur.
 
    >[!NOTE]
    >
-   >Il existe une option pour ajouter des espaces de travail supplémentaires à cette étape. Il nous a été suggéré de créer un espace de travail pour chaque développeur. Cela permet de séparer les secrets et les déploiements les uns des autres au fur et à mesure que les appareils fonctionnent. Vous devez nommer l’espace de travail par le nom du développeur qui l’utilise. L’interface de ligne de commande AIO contient des options pour changer l’espace de travail, que nous aborderons ultérieurement.
+   >Il existe une option pour ajouter des espaces de travail supplémentaires à cette étape. Il nous a été suggéré de créer un espace de travail pour chaque développeur. Cela permet de séparer les secrets et les déploiements lors du fonctionnement des développeurs. Il est conseillé de nommer l’espace de travail par le nom du développeur qui l’utilise. L’interface de ligne de commande de l’AIO offre des options permettant de changer d’espace de travail. Nous en parlerons plus loin.
 
 
-1. Laissez **Inclure l’exécution** sélectionné.
+1. Laissez **Inclure le runtime** sélectionné.
 
 1. Cliquer sur **Enregistrer**.
 
 ## Interface de ligne de commande d’Adobe IO (aio)
 
-Adobe fournit une interface de ligne de commande Open Source qui peut être utilisée pour créer des applications App Builder. Vous trouverez la documentation ici : [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) ainsi que les instructions App Builder d’Adobe [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe fournit une interface de ligne de commande open source qui peut être utilisée pour créer des applications App Builder. La documentation se trouve ici : [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) ainsi que les instructions Adobe App Builder [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
 
 1. Installation
-   1. Pour installer l&#39;outil, (assurez-vous d&#39;abord que vous vous trouvez sur le noeud v18) exécutez : `npm install -g @adobe/aio-cli `.
+   1. Pour installer l’outil (assurez-vous d’être sur le nœud v18), exécutez : `npm install -g @adobe/aio-cli `.
 
-1. Authentification dans le terminal
-   1. Lancez votre terminal et connectez-vous à AIO avec la commande : `aio login`.
+1. S’authentifier dans Terminal
+   1. Lancez votre terminal et connectez-vous à l’AIO avec la commande : `aio login`.
 
-1. Initialisation de l’application
+1. Initialisation De L’Application
    1. Commencez à configurer votre application en exécutant : `aio app init example-app`.
 
-1. Sélection de configuration
-   1. Passez à la sélection de votre organisation et de votre projet parmi les options fournies.\
-      ![](assets/select-org.png)
-      ![](assets/select-project.png)
+1. Sélection de la configuration
+   1. Sélectionnez ensuite votre organisation et votre projet dans les options fournies.\
+      ![Sélectionner l’organisation](assets/select-org.png)
+      ![Sélectionner un projet](assets/select-project.png)
 
 1. Sélection et configuration de modèles
-   1. Parcourez tous les modèles disponibles et sélectionnez le modèle **@adobe/aem-cf-editor-ui-ext-tpl** pour votre projet.
-      ![](assets/search-template.png)
-      ![](assets/select-template.png)
+   1. Parcourez tous les modèles disponibles et choisissez le modèle **@adobe/aem-cf-editor-ui-ext-tpl** pour votre projet.
+      ![Modèle de recherche](assets/search-template.png)
+      ![Sélectionner le modèle](assets/select-template.png)
 
-1. Définition de votre extension
+1. Définition De Votre Extension
    1. Nommez votre extension.
    1. Fournissez un résumé descriptif des fonctionnalités de votre extension.
-   1. Sélectionnez un numéro de version initial avec lequel commencer.
-   1. Confirmez l&#39;achèvement en sélectionnant **J&#39;ai terminé**.
-      ![](assets/define-extension.png)
+   1. Sélectionnez un numéro de version initial pour commencer.
+   1. Confirmez l’achèvement en sélectionnant **J’ai terminé**.
+      ![Définir l’extension](assets/define-extension.png)
 
-1. Accès à votre dossier de projet
+1. Accédez au dossier du projet
    1. Accéder au dossier src
    1. Renommez le dossier `aem-cf-editor-1` en `workfront-doc-details-1`.
 
-1. Modification des fichiers de configuration
+1. Modifier les fichiers de configuration
    1. Ouvrez app.config.yaml.
-   1. Mettez à jour la ligne de `aem/cf-editor/1` vers `workfront/doc-details/1`.
-   1. Ajustez le chemin d’accès d’inclusion de `src/aem-cf-editor-1/ext.config.yaml` à `src/workfront-doc-details-1/ext.config.yaml`.
+   1. Mettez à jour la ligne de `aem/cf-editor/1` à `workfront/doc-details/1`.
+   1. Ajustez le chemin d’inclusion de `src/aem-cf-editor-1/ext.config.yaml` à `src/workfront-doc-details-1/ext.config.yaml`.
 
-1. Modification du composant d’enregistrement d’extension
+1. Modifier le composant Enregistrement d’extension
    1. Ouvrez `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
-   1. Dans la section methods, ajoutez une fonction `secondaryNav` contenant une fonction asynchrone `getButtons`.
+   1. Dans la section des méthodes , ajoutez un `secondaryNav` de fonction contenant un `getButtons` de fonction asynchrone.
    1. `getButtons` doit recevoir un objet avec la structure suivante :
 
       ```
@@ -147,7 +147,7 @@ Adobe fournit une interface de ligne de commande Open Source qui peut être util
           }
       ```
 
-1. Cette fonction renvoie un tableau d’objets de bouton qui apparaîtra dans la navigation :
+1. Cette fonction renvoie un tableau d’objets de bouton qui apparaîtront dans la navigation :
 
    ```
        methods: {
@@ -162,8 +162,8 @@ Adobe fournit une interface de ligne de commande Open Source qui peut être util
        }
    ```
 
-1. Configuration du routage d’application
-   1. Ouvrez votre fichier App.js et configurez les itinéraires pour inclure les nouvelles fonctionnalités développées. Vous devez configurer des itinéraires pour la vue par défaut et pour les vues supplémentaires telles que la page de révision. Voici comment vous pouvez définir ces itinéraires :
+1. Configurer le routage de l&#39;application
+   1. Ouvrez votre fichier App.js et configurez les itinéraires pour inclure les fonctionnalités nouvellement développées. Vous devrez configurer des itinéraires pour la vue par défaut et pour toutes les vues supplémentaires telles que la page de révision. Voici comment définir ces itinéraires :
 
       ```
           <Route index element={<ExtensionRegistration />} />
@@ -171,11 +171,11 @@ Adobe fournit une interface de ligne de commande Open Source qui peut être util
           <Route exact path="review" element={<Review />} />
       ```
 
-1. Accès aux détails du document
-   1. Implémentez la fonction `document.getDocumentDetails` fournie dans votre application pour récupérer les détails essentiels du document. Cette fonction récupère un objet contenant `docId` et `docvId`, ainsi qu’un objet `sharedContext` avec `hostname`, `protocol` et des détails d’authentification. Assurez-vous que votre application gère correctement ces données.
+1. Accéder aux détails du document
+   1. Mettez en œuvre la fonction fournie `document.getDocumentDetails` dans votre application pour récupérer les détails essentiels des documents. Cette fonction récupère un objet contenant des `docId` et des `docvId`, ainsi qu’un objet `sharedContext` avec des détails d’`hostname`, de `protocol` et d’authentification. Assurez-vous que votre application gère correctement ces données.
 
 1. Intégration de la récupération de données dans vos composants
-   1. Ajoutez un nouveau composant au dossier de composants de votre application. Au sein de ce composant, établissez une connexion à Workfront pour récupérer des informations de document et des données d’authentification à l’aide de la connexion établie avec l’application hôte. Voici un exemple de la manière dont vous pouvez structurer votre composant pour gérer ceci :
+   1. Ajoutez un nouveau composant au dossier de composants de votre application. Dans ce composant, établissez une connexion à Workfront pour récupérer les informations sur le document et les données d’authentification à l’aide de la connexion établie avec l’application hôte. Voici un exemple de la manière dont vous pouvez structurer votre composant pour gérer cette situation :
 
       ```
           import { useEffect, useState } from 'react';
@@ -214,15 +214,15 @@ Adobe fournit une interface de ligne de commande Open Source qui peut être util
           export default Review;
       ```
 
-## Configuration des projets AIO existants
+## Configuration pour les projets AIO existants
 
-1. Mise à jour des fichiers de configuration
+1. Mettre à jour les fichiers de configuration
    1. Ouvrez `app.config.yaml`.
-   1. Modifiez la configuration en mettant à jour la référence de `aem/cf-editor/1` vers `workfront/doc-details/1`. Cet ajustement aligne les chemins d’accès aux fichiers sur la structure actuelle du projet.
+   1. Modifiez la configuration en mettant à jour la référence de `aem/cf-editor/1` à `workfront/doc-details/1`. Cet ajustement aligne les chemins d’accès aux fichiers sur la structure actuelle du projet.
 
-1. Modification du composant d’enregistrement d’extension
+1. Révision du composant Enregistrement d’extension
    1. Recherchez et ouvrez le fichier nommé `ExtensionRegistration.js`.
-   1. Dans la section methods, ajoutez une fonction `secondaryNav` contenant une fonction asynchrone `getButtons`.
+   1. Dans la section des méthodes , ajoutez un `secondaryNav` de fonction contenant un `getButtons` de fonction asynchrone.
    1. `getButtons` doit recevoir un objet avec la structure suivante :
 
       ```
@@ -241,7 +241,7 @@ Adobe fournit une interface de ligne de commande Open Source qui peut être util
           }
       ```
 
-1. Cette fonction renvoie un tableau d’objets de bouton qui apparaîtra dans la navigation :
+1. Cette fonction renvoie un tableau d’objets de bouton qui apparaîtront dans la navigation :
 
    ```
        methods: {
@@ -256,8 +256,8 @@ Adobe fournit une interface de ligne de commande Open Source qui peut être util
        }
    ```
 
-1. Configuration du routage d’application
-   1. Ouvrez votre fichier `App.js` et configurez les itinéraires pour inclure les nouvelles fonctionnalités développées. Vous devez configurer des itinéraires pour la vue par défaut et pour les vues supplémentaires telles que la page de révision. Voici comment vous pouvez définir ces itinéraires :
+1. Configurer le routage de l&#39;application
+   1. Ouvrez votre fichier `App.js` et configurez les itinéraires pour inclure les fonctionnalités nouvellement développées. Vous devrez configurer des itinéraires pour la vue par défaut et pour toutes les vues supplémentaires telles que la page de révision. Voici comment définir ces itinéraires :
 
       ```
           <Route index element={<ExtensionRegistration />} />
@@ -265,11 +265,11 @@ Adobe fournit une interface de ligne de commande Open Source qui peut être util
           <Route exact path="review" element={<Review />} />
       ```
 
-1. Accès aux détails du document
-   1. Implémentez la fonction `document.getDocumentDetails` fournie dans votre application pour récupérer les détails essentiels du document. Cette fonction récupère un objet contenant `docId` et `docvId`, ainsi qu’un objet `sharedContext` avec `hostname`, `protocol` et des détails d’authentification. Assurez-vous que votre application gère correctement ces données.
+1. Accéder aux détails du document
+   1. Mettez en œuvre la fonction fournie `document.getDocumentDetails` dans votre application pour récupérer les détails essentiels des documents. Cette fonction récupère un objet contenant des `docId` et des `docvId`, ainsi qu’un objet `sharedContext` avec des détails d’`hostname`, de `protocol` et d’authentification. Assurez-vous que votre application gère correctement ces données.
 
 1. Intégration de la récupération de données dans vos composants
-   1. Ajoutez un nouveau composant au dossier de composants de votre application. Au sein de ce composant, établissez une connexion à Workfront pour récupérer des informations de document et des données d’authentification à l’aide de la connexion établie avec l’application hôte. Voici un exemple de la manière dont vous pouvez structurer votre composant pour gérer ceci :
+   1. Ajoutez un nouveau composant au dossier de composants de votre application. Dans ce composant, établissez une connexion à Workfront pour récupérer les informations sur le document et les données d’authentification à l’aide de la connexion établie avec l’application hôte. Voici un exemple de la manière dont vous pouvez structurer votre composant pour gérer cette situation :
 
       ```
           import { useEffect, useState } from 'react';
@@ -308,47 +308,47 @@ Adobe fournit une interface de ligne de commande Open Source qui peut être util
           export default Review;
       ```
 
-## Applications Publish
+## Publier des applications
 
 >[!IMPORTANT]
 >
->Assurez-vous que l’organisation IMS appropriée est sélectionnée pour chacune des étapes suivantes.
+>Assurez-vous que la bonne organisation IMS est sélectionnée pour chacune des étapes suivantes.
 
-Pour qu’une application invité soit chargée dans Workfront, la demande doit être envoyée à l’espace de travail Production et soumise à validation.
+Pour qu’une application invitée soit chargée dans Workfront, elle doit être envoyée à l’espace de travail de production et soumise pour approbation.
 
-1. Déployer l’application dans l’espace de travail de production
+1. Déployez l’application dans l’espace de travail de production.
    1. `aio app use -w Production `
    1. `aio app deploy `
 
 1. Accédez à [https://developer-stage.adobe.com/](https://developer-stage.adobe.com/) ou [https://developer.adobe.com/](https://developer.adobe.com/).
    1. Cliquez sur **Console** dans le coin supérieur droit.
 
-1. Recherchez le projet utilisé pour créer l’application AppBuilder.
+1. Recherchez le projet que vous avez utilisé pour créer l’application AppBuilder.
 
 1. Sélectionnez le Workspace de production.
-   ![](assets/find-application.png)
+   ![Sélectionner l’espace de travail de production](assets/find-application.png)
 
-1. Envoyez la demande pour révision privée (vous recevrez des avertissements indiquant que nous ne publions pas sur le marketplace de l’exchange de l’application, ce qui est acceptable).
+1. Envoyez la demande pour examen privé (vous recevrez des avertissements indiquant que nous ne publions pas sur le marketplace d&#39;échange d&#39;applications, ce qui est correct).
 
 1. Remplissez le formulaire (titre, description, icône et note au réviseur).
-   ![](assets/submission-details.png)
+   ![Remplissez le formulaire pour une révision privée](assets/submission-details.png)
 
 >[!IMPORTANT]
 >
->Une fois envoyé, un administrateur système de l’organisation doit approuver l’envoi.
+>Une fois la soumission effectuée, un administrateur système de l’organisation devra approuver la soumission.
 
-## Approuver l’envoi
+## Valider l’envoi
 
-1. En tant qu&#39;administrateur système, accédez à [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) ou [https://exchange.adobe.com/](https://exchange.adobe.com/).
+1. En tant qu’administrateur système, accédez à [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) ou [https://exchange.adobe.com/](https://exchange.adobe.com/).
 
 1. Cliquez sur **Gérer** > **Applications Experience Cloud**. Vous devriez voir les applications envoyées avec des options d’approbation/de rejet.
 Une fois approuvées, les extensions d’application publiées doivent se charger automatiquement dans votre environnement Workfront.
 
-   ![](assets/approve-submission.png)
+   ![Envoi approuvé](assets/approve-submission.png)
 
 ## Aide supplémentaire
 
-Adobe contient une excellente documentation sur la prise en main de la création d’applications pour AppBuilder et leur déploiement.
+Adobe dispose d’une excellente documentation sur la prise en main de la création d’applications pour AppBuilder et leur déploiement.
 
 Voici quelques liens utiles :
 
@@ -358,12 +358,12 @@ Voici quelques liens utiles :
 
 * [https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/)
 
-## Développement local
+## Développement Local
 
-Lors du développement de votre application App Builder pour Workfront, vous devrez peut-être tester votre application dans Workfront sans la publier. Heureusement, nous avons une solution pour cela.
+Lors du développement de votre application App Builder pour Workfront, il se peut que vous ayez besoin de tester votre application dans Workfront sans la publier. Heureusement, nous avons une solution à ce problème.
 
-Dans votre application App Builder, vous pouvez lancer `aio app run` pour le développement local. Vous obtiendrez ainsi une URL, généralement du type `https://localhost:9080`. Vous pouvez également exécuter `aio app deploy` pour obtenir un domaine d’Adobe statique. Veillez à noter ces URL pour une utilisation ultérieure.
+Dans votre application App Builder, vous pouvez lancer des `aio app run` de développement local. Vous obtiendrez alors une URL, généralement de type `https://localhost:9080`. Vous pouvez également exécuter `aio app deploy` pour obtenir un domaine Adobe statique. Veillez à noter ces URL pour une utilisation ultérieure.
 
-Accédez ensuite à la page des détails du document spécifique sur laquelle vous souhaitez développer votre navigateur. Ouvrez les outils de développement et accédez au stockage local pour workfront.com ou workfront.adobe.com. Ici, vous devez ajouter une entrée. Utilisez `appBuilderDocDetailsOverride` comme clé et l’URL du générateur d’applications précédemment notée comme valeur.
+Accédez ensuite à la page de détails du document spécifique que vous souhaitez développer dans votre navigateur. Ouvrez les outils de développement et accédez au stockage local pour workfront.com ou workfront.adobe.com. Ici, vous devez ajouter une entrée. Utilisez `appBuilderDocDetailsOverride` comme clé et l’URL App Builder mentionnée précédemment comme valeur.
 
 Lors du rechargement de votre page, les boutons de votre application App Builder s’affichent. Cliquez sur ces boutons pour afficher votre application en action.

@@ -6,10 +6,10 @@ description: Vous pouvez demander l’approbation d’un projet avant de commenc
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 98%
+source-wordcount: '530'
+ht-degree: 92%
 
 ---
 
@@ -62,7 +62,7 @@ Vous pouvez demander un projet en l’ajoutant dans les zones suivantes d’Adob
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,14 +70,14 @@ Vous pouvez demander un projet en l’ajoutant dans les zones suivantes d’Adob
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur **Menu Principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Projets**, puis développez **Nouveau projet**.
+   * Cliquez sur le **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur les **Menu principal** ![lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, si disponible, cliquez sur **Projets**, puis développez **Nouveau projet**.
    * Accédez à un portfolio, puis développez **Nouveau projet**.
    * Accédez à un programme, puis développez **Nouveau projet**.
    * Si vous êtes administrateur ou administratrice de groupes, vous pouvez également créer un projet dans la section Projets d’un groupe que vous gérez. Pour plus d’informations, voir [Créer et modifier des projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Cliquez sur **Demander un projet**.
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![Liste déroulante du nouveau projet](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Utilisez l’une des méthodes suivantes :
 

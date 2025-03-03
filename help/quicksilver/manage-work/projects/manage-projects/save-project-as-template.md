@@ -6,10 +6,10 @@ description: Enregistrer un projet en tant que modèle Enregistrer en tant que m
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 97%
 
 ---
 
@@ -85,7 +85,7 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 ## Enregistrer un projet en tant que modèle
 
 1. Accédez au projet que vous souhaitez enregistrer en tant que modèle.
-1. Cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png), puis sur **Enregistrer en tant que modèle**.
+1. Cliquez sur le menu **Plus** ![icône Plus](assets/qs-more-icon-on-an-object.png), puis sur **Enregistrer en tant que modèle**.
 1. Indiquez les informations suivantes pour le modèle :
 
    <table style="table-layout:auto"> 

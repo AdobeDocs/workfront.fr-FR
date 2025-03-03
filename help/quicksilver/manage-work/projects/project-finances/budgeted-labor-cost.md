@@ -7,10 +7,10 @@ description: Comprendre le coût budgété de la main-d’œuvre et les heures b
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 100%
+source-wordcount: '1140'
+ht-degree: 98%
 
 ---
 
@@ -76,11 +76,11 @@ Si les personnes sont associées aux fonctions sur le projet et que leurs heures
 
 * [!UICONTROL **Coût budgété de la main-d’œuvre**] : la zone Établissement du budget des ressources du business case sous leurs rôles respectifs.
 
-  ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![Coût budgété de la main-d’œuvre dans l’analyse de rentabilité](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**] : planificateur de ressources lors de l’affichage des informations dans la vue Projet et rôle par coût.
 
-  ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![Coût budgété de la main-d’œuvre dans les planifications de ressources](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 Les personnes s’affichent dans la zone Établissement du budget des ressources du business case sous leurs rôles respectifs ou dans le planificateur de ressources si elles répondent aux exigences suivantes :
 

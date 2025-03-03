@@ -7,10 +7,10 @@ description: La page Détails du document permet de visualiser, de communiquer e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ La page Détails du document permet de visualiser, de communiquer et de gérer l
 
 1. Pointez sur le document, puis cliquez sur **Détails du document**.
 
-   ![](assets/document-details-350x179.png)
+   ![ Détails du document ](assets/document-details-350x179.png)
 
 ## Effectuer des actions de base pour les documents et les épreuves
 
@@ -37,7 +37,7 @@ Vous pouvez effectuer les actions suivantes pour les documents et les épreuves 
 * Modifier la description du document
 * Archiver ou extraire un document
 
-En outre, vous pouvez utiliser l’icône Plus ![](assets/more-icon.png) à côté du nom du document pour effectuer les actions suivantes :
+En outre, vous pouvez utiliser l’icône Plus ![menu Plus](assets/more-icon.png) en regard du nom du document pour effectuer les actions suivantes :
 
 * Partager
 * Déplacer

@@ -6,10 +6,10 @@ description: Vous pouvez partager un modèle avec des personnes ou définir comm
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 100%
+source-wordcount: '787'
+ht-degree: 93%
 
 ---
 
@@ -62,10 +62,10 @@ Vous pouvez partager vos modèles avec d’autres personnes à l’aide du parta
 
 Pour partager un modèle :
 
-1. Depuis l’icône **Menu principal** ![](assets/main-menu-icon.png), cliquez sur **Modèles**.
+1. Dans l&#39;icône **Menu principal** icône ![icône du menu principal](assets/main-menu-icon.png), cliquez sur **Modèles**.
 
 1. Utilisez l’une des méthodes suivantes :\
-   Cliquez sur le nom d’un modèle pour l’ouvrir, puis cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png), puis **Partage de modèles**.
+   Cliquez sur le nom d’un modèle pour l’ouvrir, puis cliquez sur le menu **Plus** ![Icône Plus](assets/qs-more-icon-on-an-object.png), puis sur **Partage de modèles**.
 
    Ou
 
@@ -100,7 +100,7 @@ Avec le partage de projets à partir d’un modèle, vous pouvez définir qui di
 Pour partager les projets créés à partir d’un modèle avec des personnes :
 
 1. Utilisez l’une des méthodes suivantes :\
-   Cliquez sur le nom d’un modèle pour l’ouvrir, puis cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png), puis **Partage de modèles**.
+   Cliquez sur le nom d’un modèle pour l’ouvrir, puis cliquez sur le menu **Plus** ![Icône Plus](assets/qs-more-icon-on-an-object.png), puis sur **Partage de modèles**.
 
    ![Partager un projet à partir d’un modèle](assets/project-sharing-on-template-nwe-2022-350x172.png)
 

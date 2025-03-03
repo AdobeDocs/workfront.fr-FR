@@ -6,10 +6,10 @@ description: Si un projet est lié à un groupe, vous pouvez appliquer les statu
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '353'
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,7 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 Quand vous mettez à jour le groupe d’un projet, les choix pour les statuts des tâches, des problèmes ou du projet s’adaptent pour correspondre au groupe.
 
 1. Accédez à un projet ou créez-en un, comme décrit dans la section [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
-1. Cliquez sur l’icône **Plus** ![](assets/more-icon.png), puis cliquez sur **Modifier**.
+1. Cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png), puis sur **Modifier**.
 
 1. Dans la zone **Modifier le projet** qui s’affiche, près du bas de la section **Vue d’ensemble**, sélectionnez le groupe dans le menu déroulant **Groupe**.
 

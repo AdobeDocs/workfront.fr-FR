@@ -5,10 +5,10 @@ description: Vous pouvez utiliser le business case pour demander un projet et d�
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 98%
+source-wordcount: '833'
+ht-degree: 94%
 
 ---
 
@@ -60,7 +60,7 @@ Tenez compte des points suivants lorsque vous demandez un projet par le biais d�
 
 ## Créer un business case
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png), puis cliquez sur **Projets**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png), puis sur **Projets**.
 1. Cliquez sur **Nouveau projet** et sélectionnez **Demander un projet**.\
    Par défaut, le projet est placé dans le statut **Idée**.
 
@@ -69,7 +69,7 @@ Tenez compte des points suivants lorsque vous demandez un projet par le biais d�
    >Si le statut Idée a été supprimé dans votre instance Workfront, le projet est placé dans le statut par défaut pour les nouveaux projets, comme défini dans la zone Préférences du projet. Pour plus d’informations sur la configuration des préférences de projet, voir [Configurer des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. Indiquez un nom pour votre projet, puis appuyez sur Entrée.
-1. (Facultatif) Cliquez sur l’icône **Plus** ![](assets/qs-more-icon-on-an-object.png), puis **Joindre un modèle**, afin de créer la structure de répartition du travail de votre projet.
+1. (Facultatif) Cliquez sur l’icône **Plus** ![Icône Plus](assets/qs-more-icon-on-an-object.png), puis **Joindre un modèle** pour créer la structure de répartition du travail de votre projet.
 
    Ou
 
@@ -106,7 +106,7 @@ Tenez compte des points suivants lorsque vous demandez un projet par le biais d�
 
    Les formulaires personnalisés doivent être créés avant de pouvoir être associés à des projets.
 
-   Pour plus d’informations sur le Forms personnalisé, consultez l’article [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Pour plus d’informations sur Custom Forms, consultez l’article [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Soumettre**.
 

@@ -6,10 +6,10 @@ description: Une personne disposant de droits de gestion sur un document peut d�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 95%
+source-wordcount: '268'
+ht-degree: 93%
 
 ---
 
@@ -63,7 +63,7 @@ Vous devez disposer des éléments suivants :
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 
-1. Cliquez sur l’icône **Déplacer** ![](assets/move-document--25x19.png).
+1. Cliquez sur l’icône **Déplacer** ![Icône Déplacer](assets/move-document--25x19.png).
 1. Dans le menu déroulant de la boîte qui s’affiche, cliquez sur **Problème**, **Projet** ou **Tâche** pour indiquer le type d’objet dans lequel vous souhaitez déplacer le document.
 
 1. Saisissez le nom du **Problème**, du **Projet** ou de la **Tâche** dans la zone de texte.

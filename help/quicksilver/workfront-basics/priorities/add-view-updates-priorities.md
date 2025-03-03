@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '541'
 ht-degree: 12%
 
 ---
@@ -66,8 +66,8 @@ Vous pouvez ajouter un commentaire à partir de la liste de travail :
 
 1. Recherchez l’élément de travail à mettre à jour.
 1. Passez la souris sur le nom, puis cliquez sur **Ajouter une nouvelle mise à jour**.
-   ![](assets/add-update.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![Ajouter une nouvelle mise à jour](assets/add-update.png)
+   <!--new screen for prod ![Update](assets/update-log-upload.png)-->
 1. Commencez à saisir votre commentaire.
 1. (Facultatif) Dans la zone **Identifier des personnes ou des équipes**, commencez à saisir le nom ou l’adresse e-mail d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre commentaire, afin d’améliorer votre contenu.
@@ -90,7 +90,7 @@ Vous pouvez ajouter des commentaires et afficher des commentaires et des mises �
 1. (Facultatif) Utilisez l’onglet **Commentaires** pour mettre à jour d’autres personnes sur l’élément de travail.
 1. (Facultatif) Utilisez l’onglet **Activité du système** pour afficher l’activité du système associée à l’élément de travail.
 1. (Facultatif) Pour ajouter un commentaire, accédez à l’onglet **Commentaire** et commencez à saisir du texte dans la zone Nouveau commentaire. Cliquez sur **Soumettre** lorsque vous avez terminé.
-   ![](assets/updates-area-in-overview.png)
+   ![Zone des mises à jour](assets/updates-area-in-overview.png)
 
 ## Répondre à un commentaire
 
@@ -101,7 +101,7 @@ Vous pouvez répondre à un commentaire dans un élément de travail :
 1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
 1. Recherchez la zone **Mises à jour** dans le coin inférieur droit de l’écran.
 1. Dans l’onglet **Commentaires**, recherchez le commentaire auquel vous souhaitez répondre, puis cliquez sur **Répondre**.
-1. (Conditionnel) Si vous souhaitez répondre pour apporter le contenu d’un message dans votre réponse, cliquez sur l’icône de menu **Plus** en ![](assets/more-icon.png) du corps du message et choisissez **Citer la réponse**.
+1. (Conditionnel) Si vous souhaitez répondre pour apporter le contenu d’un message dans votre réponse, cliquez sur l’icône de menu **Plus** ![Menu Plus](assets/more-icon.png) à côté du corps du message et choisissez **Citer la réponse**.
 
 1. Saisissez votre réponse, puis cliquez sur **Envoyer**.
 
@@ -109,4 +109,4 @@ Vous pouvez répondre à un commentaire dans un élément de travail :
    >
    >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant sa soumission. Pour modifier un commentaire, cliquez sur le menu Plus dans le coin supérieur droit du commentaire, puis cliquez sur Modifier.
 
-   ![](assets/reply-to-comment.png)
+   ![Répondre au commentaire](assets/reply-to-comment.png)

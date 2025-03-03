@@ -7,10 +7,10 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2406'
-ht-degree: 92%
+source-wordcount: '2420'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 
 <!--Audited: 09/2024-->
 
-Après avoir créé un modèle, vous pouvez éditer les informations des tâches du modèle. Les informations que vous mettez à jour sur une tâche de modèle sont associées à des tâches de projet une fois que vous avez utilisé le modèle pour créer un projet ou que vous avez joint le modèle à un projet.
+Après avoir créé un modèle, vous pouvez modifier les informations des tâches de modèle. Les informations que vous mettez à jour sur une tâche de modèle sont associées à des tâches de projet une fois que vous avez utilisé le modèle pour créer un projet ou que vous avez joint le modèle à un projet.
 
 Pour plus d’informations sur la création d’un modèle, voir [Créer un modèle de projet](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
@@ -82,8 +82,8 @@ Vous pouvez modifier une tâche de modèle à l’aide des zones Modifier la tâ
 1. Cliquez sur le nom d’une tâche de modèle dans la liste pour ouvrir la tâche de modèle.
 1. (Facultatif) Pour modifier plusieurs tâches de modèle en masse, sélectionnez plusieurs tâches de modèle, puis cliquez sur **Modifier** en haut de la liste des modèles.
 1. (Le cas échéant) Pour modifier des informations limitées sur une tâche de modèle, cliquez sur **Détails sur la tâche de modèle** dans le panneau de gauche, puis accédez aux zones de la section Détails pour modifier les informations de chaque zone.
-1. (Facultatif) Cliquez sur l’icône **Réduire tout** ![](assets/collapse-all-icon.png) pour réduire toutes les zones.
-1. Pour modifier les informations de la section Détails, cliquez sur l’icône **Modifier** ![](assets/edit-icon.png), puis sélectionnez l’une des zones ci-dessous ou cliquez sur **Tout modifier** pour modifier les informations dans toutes les zones :
+1. (Facultatif) Cliquez sur l’icône **Tout réduire** ![Tout réduire](assets/collapse-all-icon.png) pour réduire toutes les zones.
+1. Pour modifier des informations dans la section Détails, cliquez sur l’icône **Modifier** ![Icône Modifier](assets/edit-icon.png), puis sélectionnez l’une des zones ci-dessous, ou cliquez sur **Modifier tout** pour modifier des informations dans toutes les zones :
 
    * Vue d’ensemble
    * Formulaires personnalisés
@@ -94,9 +94,9 @@ Vous pouvez modifier une tâche de modèle à l’aide des zones Modifier la tâ
 
    >[!TIP]
    >
-   >Pour plus d’informations sur tous les champs qui s’affichent dans la zone Détails, continuez à modifier tous les champs à l’aide de la zone Modifier la tâche du modèle , comme décrit ci-dessous.
+   >Pour plus d’informations sur tous les champs qui s’affichent dans la zone Détails , continuez à modifier tous les champs à l’aide de la zone Modifier la tâche de modèle , comme décrit ci-dessous.
 
-1. (Le cas échéant) Pour modifier toutes les informations relatives à la tâche de modèle, cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png) en regard du nom de la tâche de modèle, puis cliquez sur **Modifier**.
+1. (Conditionnel) Pour modifier toutes les informations relatives à la tâche de modèle, cliquez sur le menu **Plus** ![icône Plus](assets/qs-more-icon-on-an-object.png) en regard du nom de la tâche de modèle, puis cliquez sur **Modifier**.
 
    La zone **Modifier la tâche de modèle** s’affiche.
 
@@ -104,7 +104,7 @@ Vous pouvez modifier une tâche de modèle à l’aide des zones Modifier la tâ
    >
    >Vous pouvez également sélectionner une tâche de modèle dans une liste, puis cliquer sur Modifier pour ouvrir la zone Modifier la tâche de modèle.
 
-   ![](assets/edit-template-tasks-box-classic-350x356.png)
+   ![Modifier la tâche de modèle](assets/edit-template-tasks-box-classic-350x356.png)
 
 1. Pensez à spécifier des informations dans l’une des sections suivantes :
 
@@ -268,7 +268,7 @@ Vous pouvez modifier une tâche de modèle à l’aide des zones Modifier la tâ
 1. Commencez à modifier une tâche de modèle comme décrit ci-dessus.
 1. Cliquez sur **Paramètres**.
 
-   ![](assets/edit-template-tasks-settings-classic-350x231.png)
+   ![Modifier les paramètres de la tâche de modèle](assets/edit-template-tasks-settings-classic-350x231.png)
 
 1. Mettez à jour l’un des éléments suivants :
 
@@ -349,9 +349,9 @@ Vous pouvez modifier une tâche de modèle à l’aide des zones Modifier la tâ
 
 ### Formulaires personnalisés {#custom-forms}
 
-Vous pouvez définir des formulaires personnalisés à associer automatiquement par défaut aux tâches lorsque les tâches sont ajoutées à un projet. Pour plus d’informations sur la configuration du projet afin d’inclure des formulaires personnalisés de tâche par défaut, reportez-vous à la section &quot;Tâches&quot; de l’article [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+Vous pouvez définir des formulaires personnalisés à joindre automatiquement par défaut aux tâches lorsque les tâches sont ajoutées à un projet. Pour plus d’informations sur la configuration du projet afin d’inclure les formulaires personnalisés de tâche par défaut, consultez la section « Tâches » de l’article [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-Vous pouvez également ajouter des formulaires personnalisés aux tâches futures d’un projet lorsque le projet est créé à partir d’un modèle, en ajoutant les formulaires personnalisés aux tâches du modèle.
+Vous pouvez également ajouter des formulaires personnalisés aux tâches futures d’un projet lorsque celui-ci sera créé à partir d’un modèle, en ajoutant les formulaires personnalisés aux tâches de modèle.
 
 1. Commencez à modifier une tâche de modèle comme décrit ci-dessus.
 1. Cliquez sur **Formulaires personnalisés**.
@@ -360,9 +360,9 @@ Vous pouvez également ajouter des formulaires personnalisés aux tâches future
 
 1. Sélectionnez le ou les formulaires personnalisés à associer à la tâche de modèle.
 
-   Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ.
+   Vous devez créer les formulaires personnalisés avant qu’ils ne puissent être sélectionnés dans ce champ.
 Seuls les formulaires personnalisés actifs s’affichent dans la liste.
-Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 Vous pouvez ajouter jusqu’à dix formulaires personnalisés à une tâche de modèle.
 Les formulaires sont automatiquement ajoutés aux tâches créées à partir du modèle.
 1. (Le cas échéant et facultatif) Si vous avez joint un formulaire personnalisé à la tâche de modèle, modifiez les champs du formulaire concernés. Vous devez spécifier tous les champs requis avant de pouvoir enregistrer la tâche de modèle.

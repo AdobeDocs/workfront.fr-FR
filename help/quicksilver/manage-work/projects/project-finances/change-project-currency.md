@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Modification de la devise du projet
+title: Modifier la devise du projet
 description: En tant que personne gestionnaire de projet, vous pouvez configurer un projet afin qu’il utilise une devise autre que la devise par défaut de votre système Adobe Workfront. Vous pouvez ainsi afficher des informations financières sur votre projet dans la devise souhaitée lors du calcul des revenus et des coûts de main-d’oeuvre.
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 99%
+source-wordcount: '532'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Cliquez sur **Détails du projet** dans le panneau de gauche, puis accédez à la zone **Finance**.
 1. Cliquez sur **Ajouter** dans le champ **Devise** et sélectionnez la devise à utiliser comme devise par défaut pour le projet. Toutes les devises que votre administrateur ou administratrice Workfront a définies pour votre instance Workfront s’affichent.
 
-   ![](assets/currency-on-project-expanded-nwe.png)
+   ![Devise du projet](assets/currency-on-project-expanded-nwe.png)
 
 1. (Le cas échéant) Si vous sélectionnez une autre devise que la devise par défaut définie pour votre système Workfront, indiquez le taux de la devise que vous avez sélectionnée, car il est lié à la devise définie comme devise de base dans le système.
 1. Cliquez sur **Enregistrer les modifications**.

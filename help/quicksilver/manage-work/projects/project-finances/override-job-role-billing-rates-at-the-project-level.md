@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Remplacer les taux de facturation des rôles de tâche au niveau du projet
+title: Remplacer les taux de facturation des fonctions au niveau du projet
 description: En tant que personne gestionnaire de projet, vous pouvez spécifier le taux de facturation d’une fonction sur un projet spécifique. Ce taux de facturation au niveau du projet remplace le taux de facturation au niveau du système pour cette fonction. Workfront utilise le taux de facturation au niveau de la fonction pour calculer les revenus, au lieu d’utiliser le taux de facturation au niveau du système.
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 97%
+source-wordcount: '825'
+ht-degree: 96%
 
 ---
 
@@ -50,11 +50,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Accès en modification aux projets et aux données financières</p> <p>Accès administratif pour les rôles de tâche</p></td> 
+   <td> <p>Accès en modification aux projets et aux données financières</p> <p>Accès administratif aux fonctions</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Gérer les autorisations du projet qui inclut la modification des données financières </td> 
+   <td>Gérer les autorisations du projet qui inclut Modifier les données financières </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +87,7 @@ Pour remplacer un taux de facturation dans un projet, procédez comme suit :
 
 1. Sélectionnez dans le champ **Fonction** la fonction dont vous souhaitez modifier le taux de facturation.
 
-   ![](assets/override-billing-rate-on-project-nwe-350x310.png)
+   ![Remplacer le taux de facturation pour le projet](assets/override-billing-rate-on-project-nwe-350x310.png)
 
    Le champ **Taux de facturation par défaut** affiche le taux pour cette fonction au niveau du système.
 

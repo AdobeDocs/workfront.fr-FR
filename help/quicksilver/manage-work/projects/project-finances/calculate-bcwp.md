@@ -7,10 +7,10 @@ description: Appellé également Valeur acquise, le coût budgété du travail e
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '594'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ Vous pouvez configurer le calcul du BCWP en heures ou en coûts en configurant l
 1. Accédez à un projet et développez **Détails du projet** dans le panneau de gauche.
 1. Dans la zone **Finance**, recherchez le champ **Méthode d’indice de performances** et double-cliquez dessus pour le modifier.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![options PIM](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Sélectionnez l’une des options suivantes :
 
@@ -125,7 +125,7 @@ Vous pouvez afficher la valeur du coût budgété du travail effectué dans un r
 1. Cliquez sur **Ajouter une colonne**.
 1. Dans le champ **Afficher dans cette colonne :**, commencez à saisir **BCWP** et cliquez dessus pour le sélectionner lorsqu’il s’affiche dans la liste.
 
-   ![](assets/bcwp-project-view.png)
+   ![CBTE dans la vue Projet](assets/bcwp-project-view.png)
 
 1. Cliquez sur **Enregistrer la vue**.
 1. Le champ BCWP s’affiche dans la vue.

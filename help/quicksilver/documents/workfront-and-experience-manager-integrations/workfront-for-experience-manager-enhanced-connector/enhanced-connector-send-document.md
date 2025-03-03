@@ -6,10 +6,10 @@ description: Vous pouvez envoyer des documents de Workfront vers Experience Mana
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 99%
 
 ---
 
@@ -69,9 +69,9 @@ Pour envoyer un document, procédez comme suit :
    >
    >N’importe quel nom peut être choisi pour cette intégration. Experience Manager Assets peut donc ne pas être mentionné.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Envoyer à](assets/copy-of-send-to-in-toolbar-350x149.png)
 
-1. Sélectionnez l’emplacement où se situera la ressource, puis cliquez sur **Sélectionner un dossier**.
+1. Sélectionnez l’emplacement de la ressource, puis cliquez sur **Sélectionner un dossier**.
 1. Lorsque vous avez trouvé la destination de votre choix, cliquez sur **Enregistrer**.
 
 ## Envoyer une nouvelle version à Experience Manager Assets
@@ -87,6 +87,6 @@ Pour envoyer la version la plus récente, procédez comme suit :
    >
    >N’importe quel nom peut être choisi pour cette intégration. Experience Manager Assets peut donc ne pas être mentionné.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Envoyer à](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Cliquer sur **Enregistrer**. La nouvelle version enregistre au même emplacement que la version précédente.

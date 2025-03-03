@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 99%
+source-wordcount: '895'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -135,7 +135,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 Vous pouvez supprimer des projets d’une liste de projets.
 
 1. Accédez à une liste de projets ou à un rapport de projet.
-1. Sélectionnez le ou les projets que vous souhaitez supprimer, puis cliquez sur l’icône **Supprimer** ![](assets/delete-icon.png) en haut de la liste.
+1. Sélectionnez le ou les projets à supprimer, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) en haut de la liste.
 
 1. Cliquez sur **Oui, supprimer** pour confirmer la suppression.
 
@@ -144,9 +144,9 @@ Vous pouvez supprimer des projets d’une liste de projets.
 ## Supprimer un projet au niveau du projet
 
 1. Accédez au projet que vous souhaitez supprimer.
-1. Cliquez sur l’icôone **Plus** ![](assets/qs-more-menu.png) à droite du nom du projet, puis cliquez sur **Supprimer le projet**.
+1. Cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-menu.png) à droite du nom du projet, puis cliquez sur **Supprimer le projet**.
 
-   ![](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![Menu Plus développé](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. Cliquez sur **Oui, supprimer**.
 

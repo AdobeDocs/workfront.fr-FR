@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 31%
+source-wordcount: '321'
+ht-degree: 30%
 
 ---
 
@@ -55,12 +55,12 @@ Pour connaître le forfait, le type de licence ou l’accès dont vous disposez,
 {{step1-to-priorities}}
 
 1. Pointez sur le nom, puis cliquez sur **Charger**.
-   ![](assets/update-log-upload.png)
+   ![Mise à jour, consignation de l’heure et chargement](assets/update-log-upload.png)
 1. (Facultatif) Sélectionnez un dossier.
 1. Glissez-déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V
 ou
 Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
-   ![](assets/add-files.png)
+   ![Ajouter des fichiers](assets/add-files.png)
 1. (Facultatif) Ajoutez un commentaire.
 1. (Facultatif) Ajoutez d’autres fichiers.
 
@@ -68,7 +68,7 @@ Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des
    >
    >Les fichiers supplémentaires sont chargés en tant que documents distincts.
 1. Cliquez sur **Charger**.
-   ![](assets/upload-file-module.png)
+   ![Charger un fichier](assets/upload-file-module.png)
 
 
 ## Charger un fichier dans un élément de travail
@@ -81,7 +81,7 @@ Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des
 1. Glissez-déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V
 ou
 Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
-   ![](assets/add-files.png)
+   ![Ajouter des fichiers](assets/add-files.png)
 1. (Facultatif) Ajoutez un commentaire.
 1. (Facultatif) Ajoutez d’autres fichiers.
 
@@ -89,4 +89,4 @@ Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des
    >
    >Les fichiers supplémentaires sont chargés en tant que documents distincts.
 1. Cliquez sur **Charger**.
-   ![](assets/upload-file-module.png)
+   ![Charger un fichier](assets/upload-file-module.png)

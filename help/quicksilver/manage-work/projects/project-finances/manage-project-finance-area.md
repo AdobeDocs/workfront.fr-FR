@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Gestion des informations dans la zone de financement du projet
-description: Vous pouvez afficher ou modifier les informations financières d’un projet en accédant à la zone Finance de la section Détails du projet .
+title: Gestion des informations dans la zone de financement des projets
+description: Vous pouvez afficher ou modifier les informations financières d’un projet en accédant à la zone Finances de la section Détails du projet .
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 97%
+source-wordcount: '1297'
+ht-degree: 94%
 
 ---
 
@@ -69,9 +69,9 @@ Tenez compte des points suivants lors de l’affichage ou de la modification de 
 
 1. Accédez à un projet.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Finances**.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Finance**.
 
-   ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![Zone Finance dans la vue détaillée](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
@@ -156,14 +156,14 @@ Pour modifier les informations sur le sous-onglet Finances du projet :
    >Pour effectuer les étapes suivantes, vous devez disposer des autorisations de gestion sur le projet. Nous recommandons également que seule la personne propriétaire du projet modifie le sous-onglet Finances du projet.
 
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis sur **Finances**. La zone Finances s’ouvre alors pour modification.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Finance** . La zone Finances s’ouvre alors pour modification.
 1. Modifier un champ qui peut être modifié en cliquant sur le champ ou cliquez sur **+Ajouter** pour ajouter des informations dans un champ vide.
 
    >[!TIP]
    >
    >Les champs ne peuvent pas être modifiés s’ils sont automatiquement calculés par Workfront ou si vous ne disposez pas d’autorisations de modification.
 
-   ![](assets/edit-finance-area-in-project-details-nwe-350x275.png)
+   ![Modifier la zone financière](assets/edit-finance-area-in-project-details-nwe-350x275.png)
 
 1. Mettez à jour l’un des champs ci-dessous.
 

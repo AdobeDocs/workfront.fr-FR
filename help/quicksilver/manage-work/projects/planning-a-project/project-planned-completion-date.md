@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 94%
 
 ---
 
@@ -96,7 +96,7 @@ Vous devez définir manuellement la date d’achèvement prévue d’un projet l
 
 Pour planifier un projet à partir de la date d’achèvement, procédez comme suit :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite, puis cliquez sur **Projets**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Projets**.
 
 1. Cliquez sur **Nouveau projet**, puis sur **Nouveau projet**.
 
@@ -117,7 +117,7 @@ La date d’achèvement prévue d’un projet est automatiquement calculée par 
 
 Pour planifier un projet à partir de la date de début, procédez comme suit :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite, puis cliquez sur **Projets**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Projets**.
 
 1. Cliquez sur **Nouveau projet**, puis sur **Nouveau projet**.
 

@@ -6,10 +6,10 @@ description: Les dossiers intelligents sont utilisés pour gérer des documents 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 99%
+source-wordcount: '572'
+ht-degree: 94%
 
 ---
 
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 Vous pouvez afficher les dossiers dans la vue miniature, standard ou liste. Pour changer de vue, utilisez les options d’affichage dans le coin supérieur droit.
 
-![](assets/screenshot-2016-07-07-12.46.54.png)
+![Modifier le dossier intelligent](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## Créer un dossier intelligent
 
@@ -68,11 +68,11 @@ Vous pouvez afficher les dossiers dans la vue miniature, standard ou liste. Pour
 ## Modifier un dossier intelligent
 
 1. Accédez à la zone **Documents** qui contient le dossier intelligent que vous souhaitez modifier.
-1. Dans la colonne **Dossiers**, cliquez sur l’icône **Plus** ![](assets/more-icon.png) en regard du dossier intelligent que vous souhaitez modifier.
+1. Dans la colonne **Dossiers**, cliquez sur l’icône **Plus** ![Menu Plus](assets/more-icon.png) en regard du dossier intelligent à modifier.
 1. Cliquez sur **Modifier**.
 
    La boîte de dialogue **Modifier le dossier intelligent** s’affiche.\
-   ![](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
+   ![Modifier le dossier intelligent](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
 
 1. Apportez vos modifications, puis cliquez sur **Enregistrer le dossier**.
 
@@ -92,7 +92,7 @@ Vous pouvez afficher les dossiers dans la vue miniature, standard ou liste. Pour
 
 1. Apportez vos modifications, puis cliquez sur **Enregistrer le dossier**.
 
-## Suppression d’un dossier dynamique
+## Suppression d’un dossier intelligent
 
 1. Accédez à la zone **Documents** qui contient le dossier intelligent que vous souhaitez supprimer.
 1. Dans la colonne **Dossiers**, cliquez sur la flèche de liste déroulante en regard du dossier intelligent à supprimer.

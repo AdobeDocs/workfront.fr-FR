@@ -2,21 +2,21 @@
 product-area: projects;agile-and-teams
 navigation-topic: use-the-home-area
 title: Gérer les demandes de travail et d’équipe dans la zone d’accueil
-description: Lorsque des tâches et des problèmes de travail vous sont affectés, ils sont répertoriés dans les widgets Mon travail, Mes tâches et Mes problèmes .  Vous pouvez afficher, travailler ou supprimer des tâches et des requêtes.
+description: Lorsque des tâches et des événements vous sont affectés, ils sont répertoriés dans les widgets Mes tâches, Mes tâches et Mes événements .  Vous pouvez afficher, modifier ou supprimer des tâches et des demandes.
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 50%
+source-wordcount: '857'
+ht-degree: 44%
 
 ---
 
 
 # Gérer les tâches et les demandes de l’équipe dans la zone [!UICONTROL Accueil]
 
-Lorsque des tâches et des problèmes de travail vous sont affectés, ils sont répertoriés dans les widgets Mon travail, Mes tâches et Mes problèmes .  Vous pouvez afficher, travailler ou supprimer des tâches et des requêtes.
+Lorsque des tâches et des événements vous sont affectés, ils sont répertoriés dans les widgets Mes tâches, Mes tâches et Mes événements .  Vous pouvez afficher, modifier ou supprimer des tâches et des demandes.
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
@@ -55,7 +55,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Afficher un élément de travail dans le widget Mon travail
 
-Les éléments de travail qui vous sont affectés sont affichés dans le widget Mon travail dans [!UICONTROL Accueil]. Vous pouvez configurer les tâches qui s’affichent dans le widget Mon travail à l’aide du filtre situé en haut du widget [!UICONTROL worklist].
+Les éléments de travail qui vous sont affectés s’affichent dans le widget Mon travail de l’[!UICONTROL Accueil]. Vous pouvez configurer les éléments de travail à afficher dans le widget Mes tâches à l’aide du filtre en haut du widget [!UICONTROL liste de travail].
 
 Vous pouvez sélectionner des filtres qui affichent les éléments prêts à être traités ou les éléments sur lesquels vous travaillez déjà.
 
@@ -63,10 +63,10 @@ Cet article explique comment utiliser les filtres de la zone d’[!UICONTROL acc
 
 Pour afficher un élément de travail dans le widget Mon travail :
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mon travail**.
 
-1. Cliquez sur l’icône **Filtrer** ![](assets/filter-nwepng.png) dans le coin supérieur gauche de la liste de travail du widget.
+1. Cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-nwepng.png) dans le coin supérieur gauche de la liste de travail du widget.
 
 1. Cliquez sur l’une ou l’autre des options suivantes pour les tâches :
 
@@ -83,54 +83,54 @@ Pour afficher un élément de travail dans le widget Mon travail :
 1. Cliquez sur **[!UICONTROL En train de travailler sur]** sous [!UICONTROL Tâches] ou [!UICONTROL Problèmes] pour afficher les tâches et les problèmes sur lesquels vous travaillez actuellement.
 1. Cliquez sur **[!UICONTROL Demandés]** sous [!UICONTROL Problèmes] pour afficher les problèmes qui vous ont été demandés (qui vous sont affectés), mais sur lesquels vous n’avez pas encore accepté de travailler.
 
-## Accès à une requête de l’équipe dans le widget Demande d’équipe
+## Accéder à une demande d’équipe dans le widget Demande d’équipe
 
-Vous pouvez accéder à une requête affectée à votre équipe directement à partir du widget Demandes d’équipe dans la zone [!UICONTROL Accueil]. Pour plus d’informations sur les demandes d’équipe, voir [Vue d’ensemble des demandes d’équipe](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Vous pouvez accéder directement à une demande affectée à votre équipe à partir du widget Demandes de l’équipe dans la zone [!UICONTROL Accueil]. Pour plus d’informations sur les demandes d’équipe, voir [Vue d’ensemble des demandes d’équipe](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
-Pour accéder à une demande d’équipe :
+Pour accéder à une demande d&#39;équipe :
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Requêtes d’équipe** .
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Demandes de l’équipe**.
 
-   Le widget affiche les demandes de l’équipe sous des regroupements d’équipe. Le widget **[!UICONTROL Requêtes d’équipe]** s’affiche et affiche toutes les requêtes affectées à toute équipe dans laquelle vous vous trouvez. Pour plus d’informations sur l’utilisation des demandes d’équipe, voir [Gérer les demandes d’équipe et de travail](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   Le widget affiche les requêtes d&#39;équipe sous des regroupements d&#39;équipes. Le widget **[!UICONTROL Demandes de l’équipe]** s’affiche avec toutes les demandes affectées aux équipes auxquelles vous appartenez. Pour plus d’informations sur l’utilisation des demandes d’équipe, voir [Gérer les demandes d’équipe et de travail](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-   ![](assets/team-request-widget.png)
+   ![Widget de requête d’équipe](assets/team-request-widget.png)
 
-## Travail sur un élément de travail dans le widget Mon travail
+## Travailler sur un élément de travail dans le widget Mes tâches
 
-Lorsque vous cliquez sur le bouton [!UICONTROL Travailler dessus], vous indiquez à l’utilisateur qui a envoyé l’élément de travail et à tout autre utilisateur qui pourrait être affecté à l’élément de travail que vous allez démarrer le travail.
+Lorsque vous cliquez sur le bouton [!UICONTROL Travailler sur ce projet], vous indiquez à l’utilisateur qui a envoyé l’élément de travail et à tout autre utilisateur susceptible d’être affecté à l’élément de travail que vous allez commencer à travailler.
 
 Pour travailler sur un élément de travail :
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mon travail**.
 
-1. Dans la zone **[!UICONTROL worklist]** du widget, sélectionnez la requête sur laquelle vous souhaitez travailler, puis cliquez sur **[!UICONTROL Work On It]**.
-1. Passez la souris sur l’élément de travail, puis cliquez sur l’icône **Résumé** pour afficher des informations sur l’élément de travail.
+1. Dans la zone **[!UICONTROL liste de tâches]** du widget, sélectionnez la demande sur laquelle vous souhaitez travailler, puis cliquez sur **[!UICONTROL Travailler sur celle-ci]**.
+1. Pointez sur l’élément de travail, puis cliquez sur l’icône **Résumé** pour afficher des informations sur l’élément de travail.
 
-   ![](assets/open-summary-new-home.png)
+   ![Ouvrir le résumé](assets/open-summary-new-home.png)
 
 
-## Suppression d’un élément de travail
+## Supprimer un élément de travail
 
 Si vous décidez de ne pas travailler sur l’élément de travail, vous pouvez le supprimer de votre liste.
 
 Pour supprimer un élément de travail :
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mon travail**.
 
 1. Dans la liste de travail du widget, passez la souris sur l’élément de travail, puis cliquez sur l’icône **Résumé** pour afficher des informations sur l’élément de travail.
-   ![](assets/open-summary-new-home.png)
-1. dans la section **Affectations** , supprimez votre nom.
-   ![](assets/remove-assignment.png)
+   ![Ouvrir le résumé](assets/open-summary-new-home.png)
+1. dans la section **Affectations**, supprimez votre nom.
+   ![Supprimer l’affectation](assets/remove-assignment.png)
 
 
 
 <!--
 ## Reassign a request
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reassign.
 
 1. Click on the **[!UICONTROL Assignments]** widget and remove yourself from the request, then type the name of the user you want to reassign the request to.
@@ -148,7 +148,7 @@ Pour supprimer un élément de travail :
 
 You can reply to a request to further clarify the request or to propose a new date.
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reply to.
 1. Locate the individual who assigned the request to you.
 

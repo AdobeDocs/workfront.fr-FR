@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: financials
 title: Gérer les dépenses du projet
-description: Le processus de création et de gestion des dépenses est le même pour les dépenses liées à un projet ou à une tâche. Toutes les dépenses ajoutées au projet dans le business case sont ajoutées à l’onglet Dépenses en tant que dépenses prévues. Pour plus d’informations sur l’analyse de cas, reportez-vous à l’article Créer une analyse de cas pour un projet.
+description: Le processus de création et de gestion des dépenses est le même pour les dépenses liées à un projet ou à une tâche. Toutes les dépenses ajoutées au projet dans le business case sont ajoutées à l’onglet Dépenses en tant que dépenses prévues. Pour plus d’informations sur l’analyse de rentabilité, consultez l’article Création d’une analyse de rentabilité pour un projet.
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 93%
+source-wordcount: '544'
+ht-degree: 88%
 
 ---
 
@@ -74,13 +74,13 @@ La boîte de dialogue **Ajouter une dépense** s’affiche.
    * **Montant réel :** ce que la dépense a réellement coûté.\
      Cela a une incidence sur le coût réel du projet.
 
-   * **Date prévue :** date prévue à laquelle aura lieu la dépense. Vous pouvez saisir la date dans le champ en utilisant le format *mm/jj/aa*, ou vous pouvez cliquer sur l’icône du calendrier ![](assets/calendar-icon.png) et sélectionner la date de manière dynamique.
+   * **Date prévue :** date prévue à laquelle aura lieu la dépense. Vous pouvez saisir la date dans le champ au format *mm/jj/aa* ou cliquer sur l’icône de calendrier  ![Icône de calendrier](assets/calendar-icon.png) et sélectionnez la date de manière dynamique.
 
    * **Date du règlement :** date à laquelle la dépense a été payée.
    * **Facturable :** sélectionnez cette option si vous souhaitez facturer cette dépense. Il est important de classer une dépense dans la catégorie des dépenses facturables lors de la création d’enregistrements de facturation.
    * **Remboursable :** sélectionnez cette option si la dépense doit être remboursée. Vous pouvez ensuite marquer la dépense comme remboursée une fois le remboursement effectué.
 
-1. Sélectionnez un **formulaire personnalisé** et spécifiez toute information supplémentaire requise. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à une dépense. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, reportez-vous à l’article [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Sélectionnez un **formulaire personnalisé** et spécifiez toute information supplémentaire requise. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à une dépense. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Enregistrer les modifications**.
 

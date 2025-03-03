@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 23%
+source-wordcount: '300'
+ht-degree: 22%
 
 ---
 
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 {{step1-to-priorities}}
 
 1. Cliquez sur **Colonnes** dans la partie droite de l’écran.
-   ![](assets/columns.png)
+   ![Colonnes ](assets/columns.png)
 1. Utilisez les bascules pour activer ou désactiver les colonnes de la liste de travail.
 
 ### Réorganiser les colonnes
@@ -77,15 +77,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Cliquez sur **Colonnes** dans la partie droite de l’écran.
 1. Cliquez sur l’icône **Faire glisser** et déplacez la colonne vers l’emplacement souhaité. Déplacement automatique des mises à jour de colonnes dans la liste de tâches.
-   ![](assets/reorder-columns.png)
+   ![Réorganiser les colonnes](assets/reorder-columns.png)
 
 ### Réinitialiser les largeurs de colonne
 
 {{step1-to-priorities}}
 
 1. Cliquez sur **Colonnes** dans la partie droite de l’écran.
-1. Cliquez sur l’![](assets/more-icon.png) de l’icône **Plus** et choisissez **Réinitialiser les largeurs de colonne**.
-   ![](assets/columns.png)
+1. Cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png), puis sélectionnez **Réinitialiser les largeurs de colonne**.
+   ![Colonnes ](assets/columns.png)
 
 ## Personnaliser les colonnes de la liste de travail des priorités
 
@@ -94,7 +94,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 {{step1-to-priorities}}
 
 1. Cliquez sur **Colonnes** sur le côté gauche de l’écran.
-   ![](assets/columns-new.png)
+   ![Colonnes ](assets/columns-new.png)
 1. Utilisez les bascules pour activer ou désactiver les colonnes de la liste de travail.
 
 ### Réorganiser les colonnes
@@ -103,7 +103,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Cliquez sur **Colonnes** sur le côté gauche de l’écran.
 1. Cliquez sur l’icône **Faire glisser** et déplacez la colonne vers l’emplacement souhaité. Déplacement automatique des mises à jour de colonnes dans la liste de tâches.
-   ![](assets/reorder-columns-new.png)
+   ![Réorganiser les colonnes](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >

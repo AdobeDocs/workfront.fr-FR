@@ -6,9 +6,9 @@ description: Les risques sont des événements ou des facteurs possibles qui emp
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1037'
 ht-degree: 97%
 
 ---
@@ -85,7 +85,7 @@ Pour créer ou modifier un risque dans le business case :
 
    * **Coût de réduction** : indiquez le coût du plan de réduction des risques que vous devez mettre en place pour éviter que le risque ne se produise.
 
-   ![](assets/crp1-350x117.png)
+   ![Risques](assets/crp1-350x117.png)
 
 1. (Facultatif) Cliquez sur **Ajouter un autre risque** pour ajouter des risques supplémentaires.
 1. Cliquer sur **Enregistrer**.

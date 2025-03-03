@@ -7,10 +7,10 @@ description: L’indice de performance du planning (SPI) décrit la relation ent
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 99%
 
 ---
 
@@ -98,6 +98,6 @@ Par exemple, si vous avez un projet avec une tâche qui comporte 10 heures pré
 
    1. Cliquez sur **Détails de la tâche** dans le panneau de gauche, puis affichez la zone **Finances**.
 
-      ![](assets/spi-on-project-nwe.png)
+      ![IHP sur le projet](assets/spi-on-project-nwe.png)
 
 1. Recherchez le champ **IPC/SPI/CSI**.

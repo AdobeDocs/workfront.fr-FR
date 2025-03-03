@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 95%
 
 ---
 
@@ -62,7 +62,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Créer un modèle à partir d’un projet
 
 1. Accédez au projet que vous souhaitez enregistrer en tant que modèle.
-1. Cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png), puis sur **Enregistrer en tant que modèle**.
+1. Cliquez sur le menu **Plus** ![icône Plus](assets/qs-more-icon-on-an-object.png), puis sur **Enregistrer en tant que modèle**.
 1. Indiquez les informations suivantes pour le modèle :
 
    <table style="table-layout:auto"> 
@@ -94,17 +94,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Cliquez sur **Géer les formulaires** pour supprimer ou réorganiser les formulaires. Pour plus d’informations sur la suppression et la réorganisation des formulaires personnalisés sur le modèle, voir [Formulaires personnalisés](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-   ![](assets/save-as-template-first-step-350x159.png)
+   ![Première étape Enregistrer en tant que modèle ](assets/save-as-template-first-step-350x159.png)
 
 1. Cliquez sur **Étape suivante.**
 1. Dans la section **Options**, cochez la case en regard des informations à effacer du modèle.
 
-   ![](assets/save-as-template-options-step-350x109.png)
+   ![Options Enregistrer en tant que modèle ](assets/save-as-template-options-step-350x109.png)
 
 1. Cliquez sur **Étape suivante.**
 1. Dans la section **Exclure**, sélectionnez les tâches à exclure du projet.
 
-   ![](assets/save-as-template-exclude-350x205.png)
+   ![Enregistrer en tant que modèle à exclure](assets/save-as-template-exclude-350x205.png)
 
 1. Cliquez sur **Terminer et enregistrer le modèle**.
 

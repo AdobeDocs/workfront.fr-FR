@@ -6,14 +6,14 @@ description: Vous pouvez supprimer les documents que vous chargez. Si vous avez 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 99%
+source-wordcount: '236'
+ht-degree: 94%
 
 ---
 
-# Suppression de documents
+# Supprimer des documents
 
 Vous pouvez supprimer les documents que vous chargez. Si vous avez un accès en gestion à des documents spécifiques, vous pouvez également les supprimer.
 
@@ -55,7 +55,7 @@ Pour supprimer un document :
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 
-1. Cliquez sur l’icône **Supprimer**![](assets/delete.png) au-dessus de la zone Documents.
+1. Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png) au-dessus de la zone Documents.
 
 1. Dans la case qui s’affiche, cliquez sur **Oui, supprimer** pour confirmer.
 

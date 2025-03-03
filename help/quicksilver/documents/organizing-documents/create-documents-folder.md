@@ -6,10 +6,10 @@ description: Les documents peuvent être organisés en dossiers. Vous pouvez cr�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '307'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Une fois l’objet Workfront ouvert, cliquez sur **Documents** dans le panneau d
 
 1. Cliquez sur les options d’affichage au-dessus du panneau de droite pour modifier l’affichage des documents.
 
-   ![](assets/screenshot-2016-07-07-12.46.54.png)
+   ![Options d’affichage des documents](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## Créer des dossiers et des sous-dossiers
 

@@ -7,10 +7,10 @@ description: Les projets, les tâches et les problèmes ont une date de début e
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +83,7 @@ Vous pouvez localiser la date de début effective d’un projet dans les zones s
 
 Pour localiser la date de début effective dans la section Détails du projet, procédez comme suit :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Projets**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Projets**.
 1. Cliquez sur le projet pour lequel vous souhaitez afficher la date de début effective.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche, puis accédez à la section **Vue d’ensemble**.
 

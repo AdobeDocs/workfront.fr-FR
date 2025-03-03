@@ -6,9 +6,9 @@ description: Vous pouvez envoyer des documents depuis Workfront vers Experience�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 65805e2ca81a46cce75610ff13b77e3748a6a810
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '919'
 ht-degree: 96%
 
 ---
@@ -19,7 +19,7 @@ Vous pouvez envoyer des documents depuis Workfront vers Experience Manager Ass
 
 Les ressources envoyées vers Experience Manager par le biais de cette intégration sont limitées à une taille de **5 Go**.
 
-Dans l’environnement de prévisualisation, les Assets envoyées à l’Experience Manager par le biais de cette intégration ont une taille limite de **30 Go**.
+Dans l’environnement de Prévisualisation, la taille maximale d’Assets envoyé à Experience Manager par le biais de cette intégration est de 30 Go ****.
 
 Les champs de métadonnées sont mappés pour la première fois lorsque vous envoyez une ressource de Workfront vers Experience Manager Assets ou Assets Essentials. Toutes les métadonnées configurées pour mapper des objets parent sont également envoyées. Pour plus d’informations sur la configuration du mappage des métadonnées, voir [Configurer l’intégration d’Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurer l’intégration d’Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -31,7 +31,7 @@ Les champs de métadonnées sont mappés pour la première fois lorsque vous env
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer de l’accès suivant pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +85,7 @@ Pour envoyer un document, procédez comme suit :
    >
    >L’équipe d’administration de Workfront peut choisir n’importe quel nom pour cette intégration, qui peut donc ne pas contenir spécifiquement les mentions Assets ou Assets Essentials.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Envoyer à](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Sélectionnez l’emplacement de la ressource, puis cliquez sur **Sélectionner un dossier**.
 1. Lorsque vous trouvez la destination souhaitée, cliquez sur **Enregistrer**.
@@ -107,7 +107,7 @@ Pour envoyer la version la plus récente, procédez comme suit :
    >
    >L’administrateur ou l’administratrice de Workfront peut choisir n’importe quel nom pour cette intégration. Il peut donc ne pas mentionner spécifiquement Assets ou Assets Essentials.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Envoyer à](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Cliquer sur **Enregistrer**. La nouvelle version enregistre au même emplacement que la version précédente.
 

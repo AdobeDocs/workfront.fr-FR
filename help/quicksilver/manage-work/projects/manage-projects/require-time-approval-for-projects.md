@@ -6,10 +6,10 @@ description: Demander du temps pour l’approbation d’un projet
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 80%
+source-wordcount: '763'
+ht-degree: 77%
 
 ---
 
@@ -38,11 +38,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Pour avoir le temps d’être approuvé sur le projet :</p>
+   <td> <p>Pour demander du temps pour l’approbation du projet :</p>
    <ul><li>Nouveau : Standard</li>
    <li>Actuel : formule</li></ul>
 
-<p>Pour approuver les heures connectées à un projet :</p>
+<p>Pour approuver les heures consignées dans un projet :</p>
    <ul><li>Nouveau : Light ou supérieur</li>
    <li>Révision ou supérieur</li>
     </td> 
@@ -64,7 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
        <li>Si vous disposez des autorisations de gestion sur le projet, vous pouvez approuver ou rejeter les heures consignées sur le projet par toute autre personne.</li>
        <li> Si vous disposez de l’accès Contribution ou Affichage au projet, vous pourrez approuver ou rejeter uniquement les heures consignées par vous ou par toute autre personne qui vous signale.<br></li>
       </ul></li> 
-     <li>Vous disposez d’une licence Plan avec un accès administratif aux Fiches horaires et heures. Dans ce cas :
+     <li>Vous disposez d’une licence Plan avec un accès administratif aux Feuilles de temps et heures. Dans ce cas :
       <ul>
        <li>Vous pouvez approuver ou rejeter toutes les heures sur les projets pour lesquels vous disposez au moins des autorisations d’affichage. </li>
       </ul></li> 
@@ -73,21 +73,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Demander du temps pour l’approbation d’un projet
 
 Pour exiger que la personne responsable du projet approuve les heures passées sur le projet :
 
 1. Accédez au projet pour lequel vous souhaitez demander une approbation pour des heures.
-1. Cliquez sur l’icône **Plus** ![](assets/more-icon.png) à droite du nom du projet, puis cliquez sur **Modifier**.\
+1. Cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png) à droite du nom du projet, puis cliquez sur **Modifier**.\
    La boîte de dialogue Modifier le projet s’affiche.
 
 1. Dans la section **Paramètres du projet**, sélectionnez **Demander l’approbation d’heures pour ce projet**.
 1. Cliquer sur **Enregistrer**.\
-   Désormais, lorsque l’heure est enregistrée et approuvée, ces heures sont verrouillées et ne peuvent pas être modifiées par l’utilisateur qui les a entrées sur le projet ou la feuille de temps. Seule une personne de l’administration Workfront peut ajuster les heures consignées.
+   Désormais, lorsque des heures sont consignées et approuvées, elles sont verrouillées et ne peuvent plus être modifiées par l’utilisateur qui les a saisies dans le projet ou la feuille de temps. Seule une personne de l’administration Workfront peut ajuster les heures consignées.
 
-## Approbation et rejet de la durée d’un projet
+## Approuver et refuser des heures pour un projet
 
 En tant que responsable de projet, vous pouvez approuver ou rejeter les heures enregistrées pour les tâches, les problèmes ou le projet.
 
@@ -98,7 +98,7 @@ Si vous configurez un projet pour que ses heures consignées soient approuvées,
 Pour approuver ou rejeter des heures sur un projet :
 
 1. Accédez au projet.
-1. Cliquez sur la zone **Hours** dans le panneau de gauche. Elle peut se trouver sous la zone **Afficher plus**.
+1. Cliquez sur la zone **Heures** dans le panneau de gauche. Il se trouve peut-être sous la zone **Afficher plus**.
 
 1. Les heures consignées pour les problèmes, les tâches et le projet s’affichent et doivent avoir le statut **Envoyé**.\
    Cliquez sur la zone située à gauche des entrées d’heures pour sélectionner les heures à approuver.
@@ -108,10 +108,10 @@ Pour approuver ou rejeter des heures sur un projet :
    Si vous rejetez par la suite les heures approuvées, le statut des heures passe à **Non approuvé**.\
    Lorsque vous incluez les heures approuvées dans un enregistrement de facturation, le statut des heures passe à **Facturé et approuvé**. Les heures ajoutées à un enregistrement de facturation ne peuvent pas être supprimées. Pour plus d’informations sur la création d’enregistrements de facturation, voir l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
 
-1. (Facultatif) Cliquez sur l’icône **Rejeter** ![](assets/reject-hours-icon.png) pour rejeter les entrées d’heure sur le projet.\
+1. (Facultatif) Cliquez sur l’icône **Rejeter** ![](assets/reject-hours-icon.png) pour rejeter les entrées de temps dans le projet.\
    Le statut des heures passe à **Rejeté**.
 
    >[!NOTE]
    >
-   >   Si les heures sélectionnées sont incluses dans un enregistrement de facturation qui a été marqué comme Facturé ou Facturé et Approuvé, les icônes Approuver et Rejeter ne s’affichent pas. Vous ne pouvez valider que les heures qui ne sont pas déjà facturées dans un enregistrement de facturation.
+   >   Si les heures que vous sélectionnez sont incluses dans un enregistrement de facturation qui a été marqué comme Facturé ou Facturé et approuvé, les icônes Approuver et Rejeter ne s&#39;affichent pas. Vous ne pouvez approuver que les heures qui ne sont pas déjà facturées dans un enregistrement de facturation.
 

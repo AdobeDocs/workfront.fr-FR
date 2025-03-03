@@ -5,10 +5,10 @@ description: Dans le cadre de la création d’un business case, vous pouvez cr�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Le business case s’affiche.
 
-   ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   ![Informations sur le business case](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. Dans la section **Objectifs**, cliquez sur **Modifier les objectifs**.
 
@@ -88,7 +88,7 @@ Dans le menu déroulant **Importance**, sélectionnez le niveau d’importance 
    * Faible
    * Le plus faible
 
-     ![](assets/g1-350x76.png)
+     Importance(assets/g1-350x76.png)
 
      Vous ne pouvez pas personnaliser les niveaux d’importance des objectifs.
 

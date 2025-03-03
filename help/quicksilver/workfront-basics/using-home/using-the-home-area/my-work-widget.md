@@ -6,10 +6,10 @@ description: Le widget Mon travail affiche toutes les tâches, tous les événem
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 14%
+source-wordcount: '744'
+ht-degree: 13%
 
 ---
 
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
-   <td> <p>Actuel : Contribute</p>
+   <td> <p>Actif : Contribuer</p>
    <p>Ou</p> 
    <p>Nouveau :[!UICONTROL Light] ou version ultérieure<p> 
   </td> 
@@ -50,7 +50,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations Contribute ou supérieures pour les tâches et les événements sur lesquels vous devez travailler</p>  </td> 
+   <td> <p>Accordez des autorisations ou supérieures aux tâches et aux événements sur lesquels vous devez travailler</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Vous pouvez affiner les filtres Mon travail pour qu’ils se concentrent sur des éléments spécifiques de votre liste de travail :
 
-![](assets/filter-my-work-widget.png)
+![Filtre Mon travail](assets/filter-my-work-widget.png)
 
 ### Filtrer les détails
 
@@ -135,7 +135,7 @@ Les éléments en retard affichent une icône d&#39;avertissement en regard de l
 >Pour créer une liste qui affiche tous les éléments en retard en haut du widget Mon travail, triez par Date d&#39;échéance et n&#39;appliquez pas de regroupement.
 
 
-![](assets/sort-my-work-widget.png)
+![Trier dans le widget Mon travail](assets/sort-my-work-widget.png)
 
 ### Groupe
 
@@ -151,7 +151,7 @@ La date d&#39;échéance est déterminée par la date d&#39;achèvement prévue.
 >Lorsque vous appliquez un regroupement, votre sélection dans le menu Trier détermine l’ordre au sein du regroupement.
 
 
-![](assets/group-my-work-widget.png)
+![Regroupement dans le widget Mon travail](assets/group-my-work-widget.png)
 
 ## Mettre à jour les informations sur l’élément de travail dans le résumé
 
@@ -167,7 +167,7 @@ L’administration de Workfront peut personnaliser les champs qui apparaissent d
 * Enregistrer des heures
 * Afficher les processus d&#39;approbation joints
 
-Pour ouvrir le résumé, pointez sur l’élément de travail, puis cliquez sur l’icône **Résumé** ![](assets/open-summary-new-home.png).
+Pour ouvrir le résumé, pointez sur l’élément de travail, puis cliquez sur l’icône **Résumé** ![Icône Résumé](assets/open-summary-new-home.png).
 
 Pour plus d’informations sur l’utilisation du panneau Résumé, voir [Aperçu du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
@@ -182,7 +182,7 @@ Le menu d’actions rapides permet d’effectuer les actions suivantes :
 
 Pour localiser le menu d’actions rapides, passez la souris sur l’élément de travail. La liste des actions rapides s’affiche à côté du bouton **Travailler sur ce projet** ou **Terminé**.
 
-![](assets/quick-actions-new-home.png)
+![Menu Actions rapides](assets/quick-actions-new-home.png)
 
 
 ## Afficher les validations et les demandes d&#39;équipe

@@ -5,10 +5,10 @@ description: Dans le cadre de la planification des ressources, vous pouvez utili
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 100%
+source-wordcount: '945'
+ht-degree: 98%
 
 ---
 
@@ -120,11 +120,11 @@ Avant de commencer, vous devez effectuer les opérations suivantes :
 
    * Si vous venez de publier des informations à partir du planificateur de scénarios, sélectionnez le planificateur de scénarios dans le champ **Choisissez les heures à utiliser pour calculer le coût budgété de la main-d’oeuvre pour le projet** dans la zone Établissement du budget de ressources, puis cliquez sur **Choisir**.
 
-     ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     ![Analyse de rentabilité dans le Planificateur de ressources avec le bouton Choisir](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
    * Si le planificateur de ressources a été précédemment sélectionné pour l’établissement du budget de ressources du projet, cliquez sur **Modifier** > **Planificateur de scénarios** > **Choisir**.
 
-     ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     ![Analyse de rentabilité dans le planificateur de scénarios avec le bouton Choisir](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      Workfront utilise les heures de fonction requises de l’initiative liée pour calculer le coût budgété de la main-d’oeuvre et les heures budgétées du projet. Il s’agit de l’option recommandée. Le coût s’affiche dans le business case dans la devise du projet.
 

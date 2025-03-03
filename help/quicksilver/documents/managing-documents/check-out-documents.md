@@ -6,10 +6,10 @@ description: Vous pouvez extraire un document pour empêcher d’autres personne
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 100%
+source-wordcount: '694'
+ht-degree: 93%
 
 ---
 
@@ -77,9 +77,9 @@ Si vous disposez des autorisations de gestion sur un document, vous pouvez l’e
 
    Pour plus d’informations sur l’ajout de documents, voir [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-1. Cliquez sur l’icône **Extraire** ![](assets/check-out-25x23.png).
+1. Cliquez sur l’icône **Extraire** ![Extraire](assets/check-out-25x23.png).
 
-1. Une icône de verrou ![](assets/lock-icon-locked-qs.png) s’affiche à droite du nom du document. Le document reste extrait après votre déconnexion de Workfront.
+1. Une icône de cadenas ![icône cadenas](assets/lock-icon-locked-qs.png) s’affiche à droite du nom du document. Le document reste extrait après votre déconnexion de Workfront.
 1. Seule la personne qui a extrait le document ou l’administrateur ou l’administratrice Workfront peut l’archiver.
 
 ## Gérer des documents extraits
@@ -103,6 +103,6 @@ Pour archiver un document, procédez comme suit :
 
 1. Accédez à la zone de stockage de votre document et sélectionnez le document. 
 
-   Une icône de verrou ![](assets/lock-icon-locked-qs.png) s’affiche à droite du nom du document.
+   Une icône de cadenas ![icône cadenas](assets/lock-icon-locked-qs.png) s’affiche à droite du nom du document.
 
-1. Cliquez sur l’icône **Archiver** ![](assets/check-in-25x22.png).
+1. Cliquez sur l’icône **Archiver** ![Icône Archiver](assets/check-in-25x22.png).

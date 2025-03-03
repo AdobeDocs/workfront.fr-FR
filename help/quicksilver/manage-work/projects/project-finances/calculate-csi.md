@@ -7,10 +7,10 @@ description: L’Indice Coûts Horaire Performances (CSI) est un calcul automati
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ Le CSI a les trois valeurs possibles suivantes :
 * \>1 = Est inférieur à la combinaison du planning et des coûts.
 * &lt;1 = Est supérieur à la combinaison du planning et des coûts.
 
-![](assets/csi-highlighted.png)
+![ICH](assets/csi-highlighted.png)
 
 ## Localiser l’Indice Coûts Horaire Performances (CSI)
 

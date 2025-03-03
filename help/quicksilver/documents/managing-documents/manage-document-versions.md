@@ -6,10 +6,10 @@ description: Vous pouvez gérer plusieurs versions d’un document dans Workfron
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '542'
+ht-degree: 92%
 
 ---
 
@@ -64,15 +64,15 @@ Vous devez disposer des éléments suivants :
 
 1. En haut de la page Détails du document, cliquez sur le menu déroulant en regard du nom, puis sur le nom de la version que vous souhaitez afficher et gérer.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![Liste déroulante des versions dans les détails du document](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Outre l’affichage des détails de la version, vous pouvez apporter des modifications à la version, telles que son nom, ses métadonnées et ses paramètres de relecture (s’il s’agit d’une épreuve de document).
 
 ## Télécharger une seule version du document
 
-1. Dans le résumé, sous **Versions**, cliquez sur le menu Plus ![](assets/more-icon.png) à droite de la version, puis cliquez sur **Télécharger** dans la liste déroulante qui apparaît.
+1. Dans le résumé, sous **Versions**, cliquez sur le menu Plus ![Plus](assets/more-icon.png) à droite de la version, puis cliquez sur **Télécharger** dans la liste déroulante qui s’affiche.
 
-   ![](assets/more-versions-350x143.png)
+   ![Télécharger un seul document](assets/more-versions-350x143.png)
 
 ## Télécharger toutes les versions d’un document
 
@@ -105,4 +105,4 @@ Pour supprimer une version du document, procédez comme suit :
 
    Si le document est lié à une source extérieure, ce lien est supprimé et le document n’est plus accessible via Workfront.
 
-   ![](assets/more-versions-350x143.png)
+   ![supprimer la version du document](assets/more-versions-350x143.png)

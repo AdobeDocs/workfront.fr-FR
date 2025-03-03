@@ -6,10 +6,10 @@ description: Vous pouvez ajouter un formulaire personnalisé à un document ou �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 96%
+source-wordcount: '334'
+ht-degree: 87%
 
 ---
 
@@ -61,20 +61,20 @@ Pour ajouter un formulaire personnalisé à un document, procédez comme suit :
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 
-1. Cliquez sur l’icône **Résumé** ![](assets/summary-panel-icon.png), puis trouvez la section **Détails**.
+1. Cliquez sur l’icône **Résumé** ![Icône de résumé](assets/summary-panel-icon.png), puis recherchez la section **Détails**.
 1. Dans la zone **Ajouter un formulaire personnalisé**, commencez à saisir le texte et sélectionnez un formulaire personnalisé. Le formulaire est automatiquement enregistré dans le document.
 
    >[!NOTE]
    >
-   >Seuls les formulaires personnalisés actifs s’affichent dans le menu déroulant. Vous pouvez ajouter jusqu’à 10 formulaires personnalisés par document. Si vous devez créer un formulaire personnalisé, reportez-vous à la section [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Seuls les formulaires personnalisés actifs s’affichent dans le menu déroulant. Vous pouvez ajouter jusqu’à 10 formulaires personnalisés par document. Si vous devez créer un formulaire personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Modifier un formulaire personnalisé
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 
-1. Cliquez sur l’icône **Résumé** ![](assets/summary-panel-icon.png), puis trouvez la section **Détails** en haut de la page.
+1. Cliquez sur l’icône **Résumé** ![Icône Résumé](assets/summary-panel-icon.png), puis recherchez la section **Détails** près de la partie supérieure.
 1. Cliquez sur **Modifier** dans le coin supérieur droit, puis développez le formulaire souhaité.
 1. Apportez les modifications nécessaires, puis cliquez sur **Enregistrer**.
 
-   ![](assets/edit-custom-form-350x265.png)
+   ![Modifier le formulaire personnalisé](assets/edit-custom-form-350x265.png)

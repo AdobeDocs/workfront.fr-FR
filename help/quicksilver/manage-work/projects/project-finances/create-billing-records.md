@@ -5,10 +5,10 @@ description: En plus de définir les revenus et de suivre les dépenses, vous po
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1896'
-ht-degree: 99%
+source-wordcount: '1898'
+ht-degree: 98%
 
 ---
 
@@ -112,7 +112,7 @@ Tenez compte des éléments suivants lorsque vous envisagez d’utiliser les enr
 
 1. (Facultatif) Sous **Formulaires personnalisés**, sélectionnez un formulaire personnalisé d’enregistrements de facturation que vous souhaitez ajouter à l’enregistrement de facturation.
 
-   Vous (ou une autre personne ayant accès aux formulaires personnalisés) devez créer un formulaire personnalisé d’enregistrements de facturation avant de pouvoir le sélectionner ici. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Vous (ou une autre personne ayant accès aux formulaires personnalisés) devez créer un formulaire personnalisé d’enregistrements de facturation avant de pouvoir le sélectionner ici. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    Vous pouvez répéter cette étape pour ajouter d’autres formulaires personnalisés dont vous avez besoin pour l’enregistrement de facturation.
 
@@ -242,7 +242,7 @@ Après avoir créé un enregistrement de facturation et inclus les heures, les f
 
    Ou
 
-   Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit, puis modifiez les informations dans les champs disponibles.
+   Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit, puis modifiez les informations dans les champs disponibles.
 
    Mettez à jour les informations suivantes :
 

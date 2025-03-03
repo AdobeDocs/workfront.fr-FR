@@ -6,10 +6,10 @@ description: Si nécessaire, vous pouvez mettre à jour manuellement le statut d
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: 7363e86f5c507e40955e16843c6776777c7ad823
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 91%
 
 ---
 
@@ -67,10 +67,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Accédez au projet dont vous souhaitez mettre à jour le statut.
 1. Dans l’en-tête du projet, cliquez sur le nom du statut dans le champ **Statut**, puis sélectionnez un nouveau statut.
 
-   ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
+   ![Modifier le statut du projet](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    Ou
 
-   Cliquez sur le menu **Plus** ![](assets/qs-more-menu.png) en regard du nom du projet, puis cliquez sur **Modifier** et sélectionnez un nouveau statut dans le champ **Statut**, puis cliquez sur **Enregistrer**.
+   Cliquez sur le menu **Plus** ![Plus](assets/qs-more-menu.png) en regard du nom du projet et cliquez sur **Modifier** et sélectionnez un nouveau statut dans le champ **Statut**, puis cliquez sur **Enregistrer**.
 
    Le statut du projet est mis à jour par rapport au statut que vous avez sélectionné.

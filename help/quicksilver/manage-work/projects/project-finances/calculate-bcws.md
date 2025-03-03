@@ -7,10 +7,10 @@ description: Également appelé Valeur prévue, le coût budgété du travail pr
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 100%
+source-wordcount: '621'
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ Vous pouvez configurer le mode de calcul du BCWS en heures ou en coûts en confi
 1. Accédez à un projet et cliquez sur **Détails du projet** dans le panneau de gauche.
 1. Dans la zone **Finances**, recherchez la **Méthode d’indice de performances** et double-cliquez dessus pour la modifier.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![options PIM](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Sélectionnez l’une des options suivantes :
 
@@ -126,7 +126,7 @@ Vous pouvez afficher la valeur du Coût budgété du travail prévu dans un rapp
 1. Cliquez sur **Ajouter une colonne**.
 1. Dans le champ **Afficher dans cette colonne :**, commencez à saisir **BCWS** et cliquez dessus pour le sélectionner lorsqu’il s’affiche dans la liste.
 
-   ![](assets/bcws-in-project-view.png)
+   ![CBTP dans la vue Projet](assets/bcws-in-project-view.png)
 
 1. Cliquez sur **Enregistrer la vue**.
 1. Le champ **BCWS** s’affiche dans la vue.

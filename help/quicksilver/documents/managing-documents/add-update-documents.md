@@ -6,10 +6,10 @@ description: Vous pouvez ajouter une mise à jour ou répondre aux mises à jour
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 91%
 
 ---
 
@@ -60,7 +60,7 @@ Vous devez disposer des éléments suivants :
 1. Accédez à l’objet qui contient le document, puis sélectionnez **Documents** dans le panneau de gauche.
 1. Recherchez le document dont vous avez besoin et effectuez l’une des opérations suivantes :
 
-   * Cliquez sur le document de la liste, cliquez sur l’icône **Ouvrir le résumé** ![](assets/qs-summary-in-new-toolbar-small.png) dans le coin supérieur droit, ajoutez un nouveau commentaire ou cliquez sur **Répondre** pour ajouter une réponse à un commentaire existant. Pour plus d’informations sur le résumé, voir [Résumé de la vue d’ensemble des documents](../../documents/managing-documents/summary-for-documents.md).
+   * Cliquez sur le document dans la liste, cliquez sur l’icône **Ouvrir le résumé** ![Ouvrir le résumé](assets/qs-summary-in-new-toolbar-small.png) dans le coin supérieur droit, puis ajoutez un nouveau commentaire ou cliquez sur **Répondre** pour ajouter une réponse à un commentaire existant. Pour plus d’informations sur le résumé, voir [Vue d’ensemble du résumé des documents](../../documents/managing-documents/summary-for-documents.md).
    * Pointez sur le document, puis cliquez sur **Détails du document**, puis **Mises à jour** dans le panneau de gauche.
 Pour plus d’informations sur l’ajout de mises à jour aux objets, voir [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

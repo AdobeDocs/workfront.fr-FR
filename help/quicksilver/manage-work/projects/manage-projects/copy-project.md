@@ -7,10 +7,10 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 100%
+source-wordcount: '776'
+ht-degree: 92%
 
 ---
 
@@ -112,15 +112,15 @@ La copie d’un projet copie également certaines informations du projet d’ori
 
 Pour copier un projet :
 
-1. Accédez au projet que vous souhaitez copier, puis cliquez sur l’icône **Plus** ![](assets/qs-more-menu.png) à droite du nom du projet,
+1. Accédez au projet à copier et cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-menu.png) à droite du nom du projet
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Liste déroulante supplémentaire](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   accédez à une liste de projets ou à un rapport et sélectionnez un projet, puis cliquez sur l’icône **Plus** ![](assets/qs-more-menu.png) en haut de la liste.
+   Accédez à une liste ou à un rapport de projet et sélectionnez un projet, puis cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-menu.png) en haut de la liste.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Menu Plus développé](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. Cliquez sur **Copier**.
 
@@ -128,7 +128,7 @@ Pour copier un projet :
 
    Par défaut, le nouveau nom est **Copie de `<Original project name>`.**
 
-   ![](assets/copy-project-box-nwe-350x276.png)
+   ![Zone Copier le projet](assets/copy-project-box-nwe-350x276.png)
 
 1. Sélectionnez le **Statut** pour le nouveau projet.
 

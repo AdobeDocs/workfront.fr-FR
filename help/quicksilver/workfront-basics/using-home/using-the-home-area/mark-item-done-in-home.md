@@ -6,10 +6,10 @@ description: Vous pouvez marquer une tâche ou un problème comme Terminé si vo
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 83%
+source-wordcount: '863'
+ht-degree: 79%
 
 ---
 
@@ -56,24 +56,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Marquez un élément de travail comme Terminé dans le widget Mon travail
+## Marquer un élément de travail comme Terminé dans le widget Mon travail
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mon travail**.
 1. Recherchez l’élément de travail, puis cliquez sur **[!UICONTROL Marquer comme terminé]** sur l’élément de travail.
 Voir [Comprendre les options du bouton [!UICONTROL Terminé]](#understand-the-options-of-the-done-button) pour des informations plus détaillées sur la façon dont ce bouton peut apparaître.
-   ![](assets/my-work-done.png)
+   ![Mon travail marque comme terminé](assets/my-work-done.png)
 
 
-## Marquage d’un élément de travail Terminé dans le panneau Résumé
+## Marquer un élément de travail comme Terminé dans le panneau Résumé
 
-Vous pouvez marquer un élément de travail comme étant Terminé dans le widget Mes tâches et mes problèmes à l’aide du panneau Résumé.
+Vous pouvez marquer un élément de travail comme Terminé dans le widget Mes tâches et mes problèmes à l’aide du panneau Résumé .
 
-1. Cliquez sur le **[!UICONTROL menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter les widgets **Mes tâches** ou **Mes problèmes**.
-1. Passez la souris sur l’élément de travail, puis cliquez sur l’icône **Résumé** .
-   ![](assets/open-summary-new-home.png)
-1. Cliquez sur **Marquer comme fait** en haut du panneau Résumé.
+1. Pointez sur l’élément de travail, puis cliquez sur l’icône **Résumé**.
+   ![Ouvrir le résumé](assets/open-summary-new-home.png)
+1. Cliquez sur **Marquer comme terminé** en haut du panneau Résumé .
 
 
 ## Comprendre les options du bouton [!UICONTROL Terminé]
@@ -106,12 +106,12 @@ Pour comprendre comment vous pouvez associer plusieurs statuts au bouton [!UICON
 
 ### Bouton [!UICONTROL Terminé] pour les éléments affectés à plusieurs ressources
 
-Lorsque la tâche ou le problème est affecté à plus d’une ressource, le bouton affiche le mot **[!UICONTROL Terminé]** suivi d’un menu déroulant. Dans le menu déroulant, vous avez la possibilité de choisir entre **[!UICONTROL Terminé avec ma partie]** (qui indique aux membres de l’équipe que vous avez terminé avec votre partie de la tâche) ou l’état associé au bouton [!UICONTROL Terminé] (qui termine l’élément). Lorsque vous avez sélectionné **[!UICONTROL J’ai fait ma part]**, l’élément de travail est supprimé de votre liste de travail, mais reste dans celle des personnes encore affectées à l’élément de travail.\
+Lorsque la tâche ou le problème est affecté à plus d’une ressource, le bouton affiche le mot **[!UICONTROL Terminé]** suivi d’un menu déroulant. Dans le menu déroulant, vous avez la possibilité de choisir entre **[!UICONTROL Terminé avec ma partie]** (qui permet aux membres de l’équipe de savoir que vous avez terminé votre partie de la tâche), ou le statut associé au bouton [!UICONTROL Terminé] (qui complète l’élément). Lorsque vous avez sélectionné **[!UICONTROL J’ai fait ma part]**, l’élément de travail est supprimé de votre liste de travail, mais reste dans celle des personnes encore affectées à l’élément de travail.\
 Si le bouton Terminé est associé à plusieurs statuts, ceux-ci sont répertoriés sous **J’ai fait ma part**.
 
 >[!NOTE]
 >
 >Dans le cas d’une tâche ou d’un problème comportant plusieurs personnes cessionnaires, chaque personne est tenue d’indiquer que sa propre affectation sur la tâche ou le problème est effectivement terminée. C’est la raison pour laquelle chaque personne cessionnaire doit cliquer sur [!UICONTROL Terminé] pour montrer qu’elle a terminé le travail qui lui a été assigné sur l’élément.
 
-![](assets/done-with-my-part.png)
+![J&#39;ai fait ma part](assets/done-with-my-part.png)
 

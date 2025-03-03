@@ -6,10 +6,10 @@ description: Vous pouvez lier des documents et des dossiers à Adobe Workfront 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: fde2ad9a8ef1b7f659f8f52c157726d0562b972a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '2608'
-ht-degree: 100%
+source-wordcount: '2620'
+ht-degree: 96%
 
 ---
 
@@ -248,7 +248,7 @@ Les personnes qui n’ont pas accès à Workfront peuvent voir le document dans 
 1. Sélectionnez un document chargé dans Workfront.
 1. Cliquez sur **Plus** >**Envoyer à**, puis sélectionnez le fournisseur cloud dans lequel vous souhaitez stocker le document lié.
 
-   Vous pouvez également utiliser le menu Plus ![](assets/more-icon.png) sur la page Détails du document pour effectuer cette opération.
+   Pour ce faire, vous pouvez également utiliser le menu Plus ![menu Plus](assets/more-icon.png) sur la page Détails du document.
 
 1. Sélectionnez dans l’application du fournisseur le dossier dans lequel vous souhaitez stocker le document.
 
@@ -278,7 +278,7 @@ Lors de la synchronisation du contenu d’un dossier à partir d’une applicati
 
 ### Lier un ou plusieurs dossiers externes {#link-one-or-more-external-folders}
 
-1. Allez dans la zone de Workfront où vous souhaitez créer le dossier, puis cliquez sur **Documents** ![](assets/document-icon.png) dans le panneau de gauche.
+1. Dans Workfront, accédez à la zone où vous souhaitez placer le dossier, puis cliquez sur **Documents** ![icône Documents](assets/document-icon.png) dans le panneau de gauche .
 
 1. Cliquez sur **Ajouter**, puis cliquez sur le fournisseur de documents externes à partir duquel vous souhaitez lier un dossier à Workfront.
 1. (Le cas échéant) Si vous n’avez pas encore autorisé le service externe, indiquez vos identifiants de connexion au fournisseur externe, puis cliquez sur **Se connecter**.
@@ -301,9 +301,9 @@ Lors de la synchronisation du contenu d’un dossier à partir d’une applicati
 
    Dans Workfront, le logo du fournisseur de services cloud s’affiche à côté du dossier, indiquant qu’il est lié au fournisseur de services cloud externe.
 
-1. (Le cas échéant) Pour renommer le dossier afin que le nom du dossier dans Workfront soit différent du nom du dossier dans l’application de document externe, sélectionnez le dossier dans la section **Dossiers**, cliquez sur le menu Plus ![](assets/more-icon.png) qui s’affiche à côté du nom du dossier, puis cliquez sur **Renommer**.
+1. (Facultatif) Pour renommer le dossier de sorte que son nom dans Workfront soit différent de celui du dossier dans l’application de document externe, sélectionnez le dossier dans la section **Dossiers**, cliquez sur le menu Plus ![Plus](assets/more-icon.png) qui s’affiche en regard du nom du dossier, puis cliquez sur **Renommer**.
 
-   ![](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![ Renommer le dossier ](assets/documents-folderlink-rename-nwe-350x154.png)
 
 Cette opération ne renomme pas le dossier dans l’application externe.
 
@@ -317,7 +317,7 @@ Vous pouvez créer un dossier à l’intérieur d’un dossier lié existant. Vo
 
    Pour faire glisser un dossier existant dans un dossier lié existant, accédez à la zone Documents où vous souhaitez placer le sous-dossier, puis faites-le glisser dans le dossier lié.
 
-   ![](assets/documents-link-folder-move-nwe-350x113.png)
+   ![Faire glisser dans le dossier lié](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
    >

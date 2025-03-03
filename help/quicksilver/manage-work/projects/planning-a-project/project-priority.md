@@ -7,10 +7,10 @@ description: Il existe plusieurs façons d’utiliser les priorités des projets
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: b08edd8dd7c339dffdba4c9ff5aa0a365229e794
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 100%
+source-wordcount: '663'
+ht-degree: 97%
 
 ---
 
@@ -119,7 +119,7 @@ Tenez compte des points suivants lorsque vous sélectionnez une priorité pour v
 
 1. Accédez au projet dont vous souhaitez mettre à jour la priorité.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Cliquez sur l’icône **Modifier** ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis sur **Vue d’ensemble**.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur **Aperçu**.
 
 1. Dans le champ **Priorité**, sélectionnez l’une des options suivantes :
 

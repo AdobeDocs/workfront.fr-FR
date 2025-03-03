@@ -6,10 +6,10 @@ description: Vous pouvez visualiser l’affectation des rôles pour toutes les f
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 85%
+source-wordcount: '471'
+ht-degree: 81%
 
 ---
 
@@ -100,7 +100,7 @@ Vous devez disposer des éléments suivants :
 
 ## Voir les heures prévues du projet dans le panneau Affectation des rôles
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Projets**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Projets**.
 1. Cliquez sur le nom d’un projet pour y accéder.La page Projet s’ouvre.
 1. Cliquez sur l’un des éléments suivants dans le panneau de gauche :
 
@@ -113,10 +113,10 @@ Vous devez disposer des éléments suivants :
 
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
-1. Consultez les informations suivantes dans le panneau **Affectation de rôle** :
+1. Consultez les informations suivantes dans le panneau **Affectation des rôles** :
 
    | champ | Description |
    |---|---|
-   | **Fonction** | Rôles de tâche affectés aux tâches et problèmes du projet. Il peut s’agir de rôles de tâche affectés directement à des tâches et des problèmes ou de rôles de tâche associés à des utilisateurs affectés à des tâches et des problèmes du projet. |
-   | **Nombre d’heures prévues** | Nombre total d’heures planifiées provenant de tâches et de problèmes affectés à des rôles de tâche ou d’utilisateurs associés à un rôle de tâche sur le projet. |
+   | **Fonction** | Fonctions affectées aux tâches et événements du projet. Il peut s’agir de fonctions affectées directement à des tâches et à des événements, ou de fonctions associées à des utilisateurs affectés à des tâches et à des événements du projet. |
+   | **Nombre d’heures prévues** | Nombre total d&#39;heures prévues pour les tâches et les événements affectés aux fonctions ou aux utilisateurs associés à une fonction dans le projet. |
 

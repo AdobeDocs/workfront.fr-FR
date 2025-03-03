@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des modèles en tant que cadre pour créer des
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 96%
+source-wordcount: '1180'
+ht-degree: 93%
 
 ---
 
@@ -65,14 +65,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Niveau d’accès</td> 
    <td> <p>Modifier l’accès aux projets et aux modèles</p>
 
-<p>modifier l’accès aux Portfolios et aux programmes, si le modèle que vous utilisez contient un Portfolio et un programme ;</p>
+<p>Modifier l’accès aux Portfolios et Programmes, si le modèle que vous utilisez contient un Portfolio et un Programme</p>
 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Autorisations d’affichage pour un modèle</p> 
-  <p>Si le modèle que vous utilisez contient un Portfolio et un programme, vous devez disposer des autorisations de gestion du portfolio et du programme pour créer le projet. </p> 
+  <p>Si le modèle que vous utilisez contient un Portfolio et un programme, vous devez disposer des autorisations de niveau Gérer sur le portfolio et le programme pour créer le projet </p> 
    <p>Lorsque vous créez un projet, vous recevez automatiquement les autorisations de gestion du projet.</p></td> 
   </tr> 
  </tbody> 
@@ -137,7 +137,7 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
       * Nombre de toutes les tâches dans le modèle
       * Noms des modèles de formulaires personnalisés
 
-   1. (Facultatif) Pointez sur le nom d’un modèle dans le volet de gauche, puis cliquez sur l’**icône** **Favoris** ![](assets/favorites-icon-small.png) pour le marquer comme favori pour une utilisation ultérieure.
+   1. (Facultatif) Passez la souris sur le nom d’un nom de modèle dans le volet de gauche et cliquez sur l’**icône Favoris** **icône** ![icône Favoris](assets/favorites-icon-small.png) pour le marquer comme favori en vue d’une utilisation ultérieure.
 
       Ou
 
@@ -175,7 +175,7 @@ Au lieu de commencer dans la zone Projets, vous pouvez créer un projet à parti
 {{step1-to-templates}}
 
 1. Cliquez sur le nom du modèle à utiliser.
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Créer un projet**.
+1. Cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png), puis sur **Créer un projet**.
 
    ![Créer un projet à partir d’un modèle](assets/project-sharing-on-template.png)
 

@@ -6,10 +6,10 @@ description: Remplacer les taux de facturation au niveau du projet par des taux 
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 100%
+source-wordcount: '476'
+ht-degree: 92%
 
 ---
 
@@ -64,7 +64,7 @@ Lorsqu’une entreprise est associée à un projet et que cette option est activ
 Lorsqu’une personne recalcule manuellement les finances du projet, les modifications apportées aux taux de facturation au niveau de l’entreprise sont appliquées. Les calculs de revenus historiques sont également ignorés, à moins qu’ils ne soient marqués comme facturés.
 
 1. Accédez à un projet.
-1. Cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png) à côté du nom du projet dans l’en-tête, puis cliquez sur **Modifier**.
+1. Cliquez sur le menu **Plus** ![Plus](assets/qs-more-icon-on-an-object.png) en regard du nom du projet dans l’en-tête, puis cliquez sur **Modifier**.
 1. Dans la section **Finances**, activez l’option **Autoriser le remplacement des taux de facturation au niveau du projet par des taux de facturation au niveau de l’entreprise**.
 
    >[!CAUTION]
@@ -103,4 +103,4 @@ Après avoir activé l’option de remplacement des taux de facturation au nivea
    * Projet unique :
 
       1. Accédez au projet pour lequel vous avez activé le remplacement par des taux de facturation au niveau de l’entreprise.
-      1. Cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png) à côté du nom du projet dans l’en-tête, puis cliquez sur **Recalculer finances**.
+      1. Cliquez sur le menu **Plus** ![Plus](assets/qs-more-icon-on-an-object.png) en regard du nom du projet dans l’en-tête, puis cliquez sur **Recalculer les finances**.
