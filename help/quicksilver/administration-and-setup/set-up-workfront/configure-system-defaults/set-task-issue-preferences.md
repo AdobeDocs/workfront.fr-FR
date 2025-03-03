@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3f2cc191c316d107f16a12160cb126203b05387c
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: '2251'
 ht-degree: 86%
 
 ---
@@ -96,7 +96,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-    <td> <p>Calcule les estimations de revenus prévus et réels d’une tâche. Lorsque l’option <strong>[!UICONTROL Revenue Type]</strong> est définie sur <strong>[!UICONTROL Not Billable]</strong>, les heures prévues et les heures effectives enregistrées ne génèrent pas d’estimation de revenus pour la tâche, et le travail sur la tâche ne contribue pas aux revenus du projet.</p> </td> 
+    <td> <p>Calcule les estimations de revenus prévus et réels d’une tâche. Lorsque l’option <strong>[!UICONTROL Revenue Type]</strong> est définie sur <strong>[!UICONTROL Not Billable]</strong>, les heures prévues et les heures effectives enregistrées ne génèrent pas d’estimation de revenus pour la tâche, et le travail sur la tâche ne contribue pas aux revenus du projet.</p>
+         <p>Pour plus d'informations sur les différents types de revenus, voir <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Présentation de la facturation et des revenus</a>.</p></td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Cost Type]</td> 
