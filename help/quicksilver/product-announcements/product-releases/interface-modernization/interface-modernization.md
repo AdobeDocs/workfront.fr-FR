@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,14 @@ Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versio
 
 ## Administration et configuration
 
+### Mise à jour de l’interface pour le Centre d’annonces
+
+**Version préliminaire : 27 février 2025 ; à annoncer**
+
+Nous avons mis à jour le Centre des annonces avec un design plus moderne qui est cohérent avec les autres zones de Workfront.
+
+Pour afficher cette modification, accédez à l’icône Notifications dans le coin supérieur droit, puis choisissez Toutes les annonces.
+
 ### Mise à jour de l’interface pour la personnalisation des objets de notification d’événement
 
 **Version préliminaire : 13 février 2025 ; à partir de la semaine du 13 février 2025**
@@ -34,7 +42,7 @@ Pour afficher cette modification, accédez à Configuration > E-mail > Notificat
 
 ### Mise à jour de l’interface pour la zone Équipes
 
-**Version préliminaire : 13 février 2025 ; Version de production : à annoncer**
+**Version préliminaire : 13 février 2025 ; Version de production : à partir de la semaine du 20 février 2025**
 
 Nous avons mis à jour la zone Équipes avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -136,7 +144,7 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 ### Mise à jour de l’interface pour la page d’aperçu des itérations
 
-**Version préliminaire : 13 février 2025 ; Version de production : à annoncer**
+**Version préliminaire : 13 février 2025 ; Version de production : à partir de la semaine du 20 février 2025**
 
 Nous avons mis à jour la page d’aperçu des itérations vers une conception plus moderne et cohérente avec les autres zones de Workfront.
 
