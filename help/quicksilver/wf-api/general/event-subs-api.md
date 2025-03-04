@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: f469147947715dd1bae2718565cd521fa8bc6e96
 workflow-type: tm+mt
 source-wordcount: '2407'
 ht-degree: 83%
@@ -452,11 +452,11 @@ La possibilité de mettre à niveau ou de rétrograder des abonnements aux évé
 
 Pour plus d&#39;informations sur le contrôle de version des abonnements aux événements, notamment les différences spécifiques entre la version et les dates importantes, consultez [Contrôle de version des abonnements aux événements](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
-### Modification de la version d’un abonnement unique
-
 >[!NOTE]
 >
 >Lorsque vous mettez à niveau ou rétrogradez votre abonnement à un événement vers une autre version, vous recevez des événements en double pour chaque diffusion d’événement pendant une période de cinq minutes après le changement de version. Les doublons incluent chacun un abonnement à l&#39;événement version 1 et version 2. Vous êtes ainsi assuré de ne manquer aucun événement lié à la modification de la version d’abonnement à l’événement.
+
+### Modification de la version d’un abonnement unique
 
 La syntaxe de requête pour modifier la version pour un seul abonnement est la suivante :
 
