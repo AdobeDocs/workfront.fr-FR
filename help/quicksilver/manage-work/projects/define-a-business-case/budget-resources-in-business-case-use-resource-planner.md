@@ -5,10 +5,10 @@ description: Dans le cadre de la planification des ressources, vous pouvez utili
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 97%
+source-wordcount: '1247'
+ht-degree: 96%
 
 ---
 
@@ -108,11 +108,11 @@ Pour appliquer les groupes de ressources et budgétiser les ressources du projet
 
    * Sélectionnez le planificateur de ressources dans le champ **Choisir les heures à utiliser pour calculer le coût budgétisé de la main d’œuvre du projet**, puis cliquez sur **Choisir > Modifier l’établissement du budget de ressources**.
 
-     ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     ![Analyse de rentabilité dans le Planificateur de ressources](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
    * Si le planificateur de scénarios a été sélectionné pour l’établissement du budget de ressources du projet, cliquez sur **Modifier** > **Modifier l’établissement du budget de resources**.
 
-     ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     ![Analyse de rentabilité dans le planificateur de scénarios](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
 
    Cette fonction utilise les heures budgétées du projet pour calculer les coûts budgétés de main-d’œuvre pour le projet.
 

@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 3e082ddde7cb84fb8bf3b5a23c363fd3b4cfe3d2
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 2%
+source-wordcount: '1192'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +22,9 @@ La nouvelle version ne constitue pas une modification de l’API Workfront, mais
 
 La possibilité de mettre à niveau ou de rétrograder des abonnements aux événements garantit que lorsque des modifications sont apportées à la structure des événements, les abonnements existants ne sont pas rompus, ce qui vous permet de tester et de mettre à niveau vers la nouvelle version sans interruption de votre abonnement aux événements.
 
+
+Lorsque vous mettez à niveau ou rétrogradez votre abonnement à un événement vers une autre version, vous recevez des événements en double pour chaque diffusion d’événement pendant une période de cinq minutes après le changement de version. Les doublons incluent chacun un abonnement à l&#39;événement version 1 et version 2. Vous êtes ainsi assuré de ne manquer aucun événement lié à la modification de la version d’abonnement à l’événement.
+
 Pour plus d’informations sur les points d’entrée utilisés pour mettre à niveau ou rétrograder des abonnements aux événements, consultez [Contrôle de version des abonnements aux événements](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) dans l’article API d’abonnement aux événements.
 
 >[!IMPORTANT]
@@ -30,6 +33,7 @@ Pour plus d’informations sur les points d’entrée utilisés pour mettre à n
 >
 >* **Version 25.2** (10 avril 2025) : tous les nouveaux abonnements créés après la version 25.2 sont créés en tant que version 2.
 >* Version **25.3** (17 juillet 2025) : les abonnements ne peuvent plus être rétrogradés à la version 1 après la version 25.3.
+>* **1er septembre 2025** : tous les abonnements restants de la version 1 sont migrés vers la version 2.
 
 ## Modifications entre les versions 1 et 2
 
