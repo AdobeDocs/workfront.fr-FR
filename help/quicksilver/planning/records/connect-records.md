@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '3249'
-ht-degree: 40%
+source-wordcount: '3332'
+ht-degree: 39%
 
 ---
 
@@ -200,13 +200,13 @@ Vous pouvez connecter des enregistrements de Workfront Planning dans les zones s
    >Ou
    >Cliquez sur **Connecter des enregistrements** (si le champ est vide) pour ajouter des enregistrements du type d&#39;objet ou d&#39;enregistrement connecté.
    >
-   >![](assets/connect-records-from-record-page-field.png)
+   >![Connecter des enregistrements à partir du champ de page d’enregistrement](assets/connect-records-from-record-page-field.png)
 
 1. (Facultatif) Cliquez sur **Voir tout** pour afficher tous les enregistrements.
 
 1. (Le cas échéant) Si vous avez cliqué sur **Afficher tout** à l’étape précédente, la zone **Connecter des objets** s’affiche.
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![Table des objets connectés pour les enregistrements](assets/connected-objects-table-for-records.png)
 
 1. Commencez à saisir le nom d’un enregistrement dans la zone de recherche, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
@@ -282,7 +282,7 @@ Après avoir établi une connexion entre un type d’enregistrement et un type d
 
    Si vous avez cliqué sur **Voir tout** à l’étape précédente, la zone **Connecter des objets** s’affiche.
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+   ![Zone Connecter des objets pour sélectionner des projets](assets/connect-objects-box-to-select-projects.png)
 
 1. Commencez à saisir le nom d’un objet Workfront dans la zone de recherche, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
@@ -359,7 +359,7 @@ Pour connecter des enregistrements à des ressources Experience Manager :
 
    La zone **Sélectionner les ressources** s’affiche. <!--we might change this to Connect assets-->
 
-   ![](assets/select-assets-box-for-aem-record-connections.png)
+   ![Zone Sélectionner les ressources pour les connexions d’enregistrement AEM](assets/select-assets-box-for-aem-record-connections.png)
 
 1. Cliquez pour sélectionner certains des types de ressource suivants :
 
@@ -389,7 +389,7 @@ Pour connecter des enregistrements à des ressources Experience Manager :
 
 1. (Facultatif) Accédez au type d’enregistrement à partir duquel vous avez créer un lien ver Experience Manager Assets et cliquez sur le nom d’une ressource dans le champ d’enregistrement lié. Les détails Experience Manager de la ressource s’affichent dans une fenêtre pop-up.
 
-   ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+   ![Fenêtre pop-up de ressource avec des détails et une miniature AEM](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
    Les champs suivants s’affichent pour un fichier image :
 
@@ -403,7 +403,7 @@ Pour connecter des enregistrements à des ressources Experience Manager :
    * Date de création
    * Date de modification
 
-1. (Facultatif) Pour ouvrir la page d’enregistrement des ressources Experience Manager dans Experience Manager, accédez à la page de type d’enregistrement de l’enregistrement à partir duquel vous effectuez le lien, cliquez sur le nom d’une ressource dans le champ Enregistrement lié pour ouvrir la fenêtre pop-up, puis cliquez sur l’icône **Ouvrir dans AEM** ![](assets/open-asset-icon.png) pour ouvrir la ressource.
+1. (Facultatif) Pour ouvrir la page d’enregistrement des ressources Experience Manager dans Experience Manager, accédez à la page de type d’enregistrement de l’enregistrement à partir duquel vous effectuez le lien, cliquez sur le nom d’une ressource dans le champ Enregistrement lié pour ouvrir la fenêtre pop-up, puis cliquez sur l’icône **Ouvrir dans AEM** ![Icône Ouvrir une ressource dans AEM](assets/open-asset-icon.png) pour ouvrir la ressource.
 
    Cette opération ouvre la ressource Experience Manager dans Adobe Experience Manager Assets.
 
@@ -424,7 +424,7 @@ Pour connecter des enregistrements à des ressources Experience Manager :
 1. Cliquez sur le nom d’un enregistrement.
 
    La page d’aperçu s’ouvre.
-1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page de l’enregistrement.
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page de l’enregistrement.
 1. Cliquez sur l&#39;onglet **Connexions** dans la page ou l&#39;aperçu de l&#39;enregistrement.
 
    ![Onglet Connexions enregistré dans Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -449,24 +449,15 @@ Pour connecter des enregistrements à des ressources Experience Manager :
    Pour plus d&#39;informations, reportez-vous à la section « Créer des enregistrements en les connectant à partir d&#39;autres enregistrements » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 1. Suivez les étapes décrites dans les sections précédentes pour connecter des enregistrements de Workfront Planning ou des objets de Workfront ou Experience Manager Assets.
 Les enregistrements et les objets sont immédiatement ajoutés.
-1. (Facultatif) Pointez sur la carte connectée d’un enregistrement ou d’un objet, puis cliquez sur l’icône **Déconnecter l’enregistrement** ![](assets/disconnect-icon-with-tooltip.png) pour le déconnecter de l’enregistrement sélectionné.
+1. (Facultatif) Pointez sur la carte connectée d’un enregistrement ou d’un objet, puis cliquez sur l’icône **Déconnecter l’enregistrement** ![Déconnecter l’enregistrement](assets/disconnect-icon-with-tooltip.png) pour le déconnecter de l’enregistrement sélectionné.
 
-   ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![ Icône Déconnecter l’enregistrement avec une info-bulle sur l’onglet Connexions ](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    L&#39;enregistrement est immédiatement déconnecté de toutes les zones de Workfront Planning ou d&#39;autres applications où il peut apparaître comme connecté. Toutes les valeurs de champ de recherche sont également supprimées.
 
-## Connecter des enregistrements à partir d’objets Workfront
-
-Vous devez disposer des éléments suivants pour connecter les enregistrements Workfront Planning à partir d’objets Workfront :
-
-* Connexions entre les types d&#39;enregistrements et les types d&#39;objets Workfront établis dans Workfront Planning.
-* Votre administrateur Workfront ou de groupe doit ajouter la section Planification aux projets, portfolios et programmes Workfront de votre modèle de mise en page.
-
-Pour plus d’informations, voir [Gérer les enregistrements dans la section Planification des objets Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
-
 <div class="preview">
 
-## Connecter des enregistrements à partir de l&#39;onglet Affichage de la connexion sur la page de détails d&#39;un enregistrement
+### Connecter des enregistrements à partir de l&#39;onglet Affichage de la connexion sur la page de détails d&#39;un enregistrement
 
 <!--section needs title edit when they rename the "Connection view" page type-->
 
@@ -485,3 +476,22 @@ Pour plus d’informations, voir [Gérer les enregistrements dans la section Pla
 1. (Facultatif) Si vous ne trouvez pas d’enregistrement connecté, cliquez sur **+ Ajouter** pour les créer et les connecter.
 
 </div>
+
+## Connecter des enregistrements à partir d’objets Workfront
+
+Vous devez disposer des éléments suivants pour connecter les enregistrements Workfront Planning à partir d’objets Workfront :
+
+* Connexions entre les types d&#39;enregistrements et les types d&#39;objets Workfront établis dans Workfront Planning.
+* Votre administrateur Workfront ou de groupe doit ajouter l’un des éléments suivants à un type d’objet Workfront :
+
+   * La section Planification des projets, portfolios et programmes Workfront dans votre modèle de mise en page.
+
+   * Le champ personnalisé Planification se connecte à un formulaire personnalisé pour l&#39;un des objets suivants :
+
+      * Projet
+      * Portfolio
+      * Programme
+      * Groupe
+      * Entreprise
+
+  Pour plus d’informations, voir [Gérer les enregistrements dans la section Planification des objets Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

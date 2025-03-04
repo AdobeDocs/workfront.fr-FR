@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 29%
@@ -33,6 +33,7 @@ Vous pouvez créer des enregistrements en effectuant l’une des opérations sui
 * [Créer des enregistrements au fur et à mesure que vous les connectez à partir d’autres enregistrements](#create-records-as-you-connect-them)
 * [Créer des enregistrements en soumettant un formulaire de demande à un type d’enregistrement](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Créer des enregistrements lors de l’import de types d’enregistrements depuis un fichier CSV ou Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
 * <span class="preview">[Création d’enregistrements à l’aide d’automatisations](#create-records-by-using-automations)</span>
 
 
@@ -304,6 +305,19 @@ Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Plannin
 Vous pouvez importer des enregistrements lorsque vous importez des types d&#39;enregistrements à l&#39;aide d&#39;un fichier CSV ou Excel.
 
 Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+
+<!--
+<div class="preview">
+
+## Create records when importing records from a CSV or Excel file
+
+You can import records for existing record types when you import information from a CSV or Excel file. 
+
+For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+
+</div> 
+
+-->
 
 <div class="preview">
 

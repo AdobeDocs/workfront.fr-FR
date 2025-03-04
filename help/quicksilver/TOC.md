@@ -3,10 +3,10 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: c9a5ba9a35bddfc45756cf04cd1a3da9d7a3105f
 workflow-type: tm+mt
-source-wordcount: '13018'
-ht-degree: 92%
+source-wordcount: '13041'
+ht-degree: 91%
 
 ---
 
@@ -2017,6 +2017,7 @@ ht-degree: 92%
       * [Créer des espaces de travail](planning/architecture/create-workspaces.md)
       * [Vue d’ensemble des types d’enregistrement](planning/architecture/overview-of-record-types.md)
       * [Créer des types d’enregistrements](planning/architecture/create-record-types.md)
+      * [Créer des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel](planning/architecture/import-file-to-create-record-types.md)
       * [Présentation des types d’enregistrements Connect](planning/architecture/connect-record-types-overview.md)
       * [Connecter les types d’enregistrements](planning/architecture/connect-record-types.md)
       * [Modifier des types d’enregistrements](planning/architecture/edit-record-types.md)
@@ -2045,6 +2046,7 @@ ht-degree: 92%
    * Enregistrements d’Adobe Workfront Planning {#adobe-workfront-planning-records}
       * [Enregistrements : index des articles](planning/records/records-information.md)
       * [Créer des enregistrements](planning/records/create-records.md)
+      * [Créer des enregistrements en important des informations à partir d’un fichier CSV ou Excel](planning/records/import-file-to-create-records.md)
       * [Présentation des enregistrements connectés](planning/records/connected-records-overview.md)
       * [Connect records](planning/records/connect-records.md)
       * [Modifier des enregistrements](planning/records/edit-records.md)

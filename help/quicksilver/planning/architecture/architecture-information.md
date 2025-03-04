@@ -1,15 +1,15 @@
 ---
-title: "Architecture : index de l’article"
+title: 'Architecture : index des articles'
 description: Les articles suivants décrivent comment configurer l’architecture d’Adobe Workfront Planning. Dans le cadre de cette configuration, vous découvrez comment créer des espaces de travail, des types d’enregistrements et des champs personnalisés pour mapper les workflows que vous souhaitez gérer dans Workfront Planning.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 95%
+source-wordcount: '201'
+ht-degree: 89%
 
 ---
 
@@ -31,8 +31,9 @@ Les articles présentés dans les sections suivantes décrivent comment configur
 * [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Vue d’ensemble des types d’enregistrement](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Créer des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
 * [Modifier des types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md)
-* [Types d’enregistrement connectés - Aperçu](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
+* [Types d’enregistrements connectés - Aperçu](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Exemple de connexion de types d’enregistrements et d’enregistrements](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)
 * [Supprimer des espaces de travail](/help/quicksilver/planning/architecture/delete-workspaces.md)

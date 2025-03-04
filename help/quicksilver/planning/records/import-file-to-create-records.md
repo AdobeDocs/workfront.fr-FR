@@ -1,0 +1,163 @@
+---
+title: Créer des enregistrements en important des informations depuis un fichier CSV ou Excel
+description: Les enregistrements sont des instances individuelles de types d'enregistrements, qui sont les types d'objet d'Adobe Workfront Planning. Dans Workfront Planning, vous pouvez créer des enregistrements en important des informations à partir d'un fichier CSV ou Excel.
+hide: true
+hidefromtoc: true
+source-git-commit: 9f17fcab210768923e866d2f1596f40ddf8a558e
+workflow-type: tm+mt
+source-wordcount: '884'
+ht-degree: 18%
+
+---
+
+
+<!-- add the following in the metadata when live:
+
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog-->
+
+# Créer des enregistrements en important des informations à partir d’un fichier CSV ou Excel
+
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+{{planning-important-intro}}
+
+Les enregistrements sont des instances individuelles de types d&#39;enregistrements, qui sont les types d&#39;objet d&#39;Adobe Workfront Planning. Dans Workfront Planning, vous pouvez créer des enregistrements en important des informations à partir d&#39;un fichier CSV ou Excel.
+
+Pour plus d&#39;informations sur la création d&#39;enregistrements, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès pour Workfront Planning.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produits</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
+   <td> 
+<p>L’un des plans Workfront suivants :</p> 
+<ul><li>Sélectionner</li> 
+<li>Principal</li> 
+<li>Final</li></ul> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
+   <td> 
+<p>Tous </p> 
+<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
+   <td> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+   <td> Standard
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p> 
+   <p>Modifiez l’accès dans Workfront pour les types d’objets que vous souhaitez créer (projets et portfolios) lorsque vous connectez les enregistrements à ceux-ci. </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Autorisations d’objet</p></td> 
+   <td> <p>Gérez les autorisations de l’espace de travail auquel vous souhaitez ajouter des enregistrements. </p>  
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
+   <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (projets).</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Modèle de mise en page</p></td> 
+   <td> <p>Un modèle de mise en page comprenant la zone Planning du menu principal doit être affecté à tous les utilisateurs, y compris les administrateurs Workfront </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+## Remarques concernant l’importation de types d’enregistrements à l’aide d’un fichier Excel ou CSV
+
+* Les en-têtes des colonnes de chaque feuille deviennent les champs associés aux enregistrements.
+* Chaque ligne de chaque feuille devient un enregistrement unique associé.
+* Si le fichier Excel contient plusieurs feuilles, seules les informations d&#39;une feuille que vous sélectionnez lors du processus d&#39;importation sont importées.
+* Le fichier ne doit pas dépasser les valeurs suivantes :
+   * 10 000 lignes
+   * 500 colonnes
+* La taille du fichier ne doit pas dépasser 5 Mo.
+* Les feuilles vides ne sont pas prises en charge.
+* Les types de champs suivants ne sont pas pris en charge et ne peuvent pas être mappés aux champs de la feuille d’importation :
+   * Champs de recherche des enregistrements connectés ou des objets Workfront connectés
+   * Champs de formule
+   * Date de création, Créé par
+   * Date de dernière modification, Dernière modification par
+   * Personnes
+* Si un champ à sélection multiple ou unique est importé et qu&#39;il offre plus de choix qu&#39;un champ similaire dans Planning, les options supplémentaires sont créées lors de l&#39;importation.
+
+## Créer des enregistrements en important un fichier CSV ou Excel
+
+{{step1-to-planning}}
+
+1. Cliquez sur l’espace de travail dans lequel vous souhaitez créer des types d’enregistrements,
+
+   Ou
+
+   Depuis un espace de travail, développez la flèche pointant vers le bas à droite d’un nom d’espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+1. Cliquez sur la carte du type d’enregistrement sur lequel vous souhaitez importer les enregistrements.
+1. Cliquez sur **Nouvel enregistrement** dans le coin supérieur droit de l’écran.
+1. Cliquez sur **Télécharger à partir du fichier**, puis sur **Continuer**.
+1. Faites glisser un fichier Excel ou CSV préalablement enregistré sur votre ordinateur ou cliquez sur **Sélectionner un fichier CSV ou Excel** pour en rechercher un.
+1. Cliquez sur **Prévisualiser et modifier**.
+1. (Conditionnel) Si le fichier importé comporte plusieurs feuilles, sélectionnez le bouton radio de la feuille à importer dans la zone **Sélectionner une feuille à importer**, puis cliquez sur **Suivant**. Sinon, passez à l’étape suivante.
+
+   ![Sélectionner une feuille pour importer des enregistrements](assets/select-a-sheet-to-import-box.png)
+1. Dans la **Mapper les champs Planning à vos en-têtes de colonne** sélectionnez le **champ Planning** qui correspond le mieux aux informations de chacune des colonnes de la feuille.
+
+   ![Mapper les champs Planning aux colonnes lors de l&#39;import d&#39;enregistrements](assets/map-planning-fields-to-columns-when-importing-records.png)
+
+   Chaque ligne représente un nouvel enregistrement. Seuls les 10 premiers enregistrements s’affichent dans la zone Prévisualiser et modifier.
+
+1. (Facultatif) Sélectionnez l’option **Créer les options manquantes** dans le coin inférieur gauche de l’écran. Lorsqu’ils sont activés, les choix manquants de champs à sélection unique et à sélection multiple sont ajoutés.
+
+   Par exemple, si le type d’enregistrement sélectionné comporte un champ Statut à sélection unique avec les choix Nouveau, En cours et Fermé et qu’un champ Statut importé à partir d’un fichier comporte également un choix Statut En attente , le choix Statut En attente est également ajouté
+
+   <!--when we add connected records and the info icon in the tool changes, also add those items to this step-->
+
+1. Cliquez sur **Importer**.
+
+   Les informations suivantes sont importées dans Workfront Planning :
+
+   * Nouveaux enregistrements qui s’affichent au bas de la vue Tableau du type d’enregistrement sélectionné.
+   * Nouvelles valeurs de champs pour les champs existants associés à chaque enregistrement.
+   * Nouveaux choix d&#39;un champ à sélection multiple ou unique qui n&#39;existait pas dans Planning.
+
+   Vous pouvez commencer à gérer les champs et les enregistrements sur la page des types d’enregistrements.
+
+   Toute personne ayant accès à Workfront Planning et à l’espace de travail peut désormais afficher et modifier les enregistrements importés et leurs informations.

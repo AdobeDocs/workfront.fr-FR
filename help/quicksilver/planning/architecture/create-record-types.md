@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 65%
+source-wordcount: '996'
+ht-degree: 64%
 
 ---
 
@@ -66,7 +66,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -98,7 +98,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-
 ## Remarques concernant la création de types d’enregistrements
 
 * Vous pouvez créer des types d’enregistrements dans un espace de travail de la manière suivante :
@@ -108,11 +107,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
         Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * Lorsque vous les importez à l’aide d’un fichier Excel ou CSV.
+      * Lorsque vous les importez à l’aide d’un fichier CSV ou Excel.
 
      >[!TIP]
      >
-     >Lorsque vous importez un type d&#39;enregistrement à partir d&#39;un fichier Excel ou CSV, vous pouvez également importer des enregistrements et des champs.
+     >Lorsque vous importez un type d’enregistrement à partir d’un fichier CSV ou Excel, vous pouvez également importer des enregistrements et des champs.
 
    * Manuellement :
 
@@ -152,7 +151,7 @@ Pour plus d’informations sur les types d’enregistrements inclus dans chaque 
    La boîte de dialogue Ajouter un type d’enregistrement s’ouvre.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
-   ![](assets/add-record-type-box-with-appearance-options.png)
+   ![Ajout d’une zone de type d’enregistrement avec des options d’apparence](assets/add-record-type-box-with-appearance-options.png)
 
 1. Mettez à jour les informations suivantes :
 
@@ -167,12 +166,12 @@ Pour plus d’informations sur les types d’enregistrements inclus dans chaque 
    La carte du type d’enregistrement est ajoutée à la section et à l’espace de travail que vous avez sélectionné.
 La Description du type d’enregistrement s’affiche sur la carte.
 
-   ![](assets/record-type-card-with-description.png)
+   ![Carte de type enregistrement avec description](assets/record-type-card-with-description.png)
 
-1. (Facultatif) Pointez sur la carte de type d’enregistrement, cliquez sur l’icône **Plus** ![](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Modifier** pour modifier les informations sur le type d’enregistrement.
+1. (Facultatif) Pointez sur la carte de type d’enregistrement, cliquez sur l’icône **Plus** ![Menu Plus](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Modifier** pour modifier les informations sur le type d’enregistrement.
 1. (Facultatif) Cliquez sur la carte du type d’enregistrement pour ouvrir la page du type d’enregistrement.
 
-   ![](assets/operational-record-type-blank.png)
+   ![Type d’enregistrement opérationnel vide](assets/operational-record-type-blank.png)
 
    La page du type d’enregistrement s’affiche par défaut dans la vue de tableau. Les colonnes du tableau sont des champs associés au nouveau type d’enregistrement. Chaque ligne est un enregistrement unique que vous devez ajouter.
 
@@ -188,7 +187,7 @@ La Description du type d’enregistrement s’affiche sur la carte.
 
    Ou
 
-   Cliquez sur l’icône **Plus** ![](assets/more-menu.png) à droite du nom du type d’enregistrement et cliquez sur **Modifier** pour le renommer ou modifier les informations le concernant. Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Cliquez sur l’icône **Plus** ![Menu Plus](assets/more-menu.png) à droite du nom du type d’enregistrement et cliquez sur **Modifier** pour le renommer ou modifier les informations le concernant. Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** pour ajouter des enregistrements du type sélectionné. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 1. (Facultatif) Cliquez sur l’icône **+** dans le coin supérieur droit du tableau pour ajouter des champs supplémentaires au type d’enregistrement.
@@ -208,71 +207,14 @@ La Description du type d’enregistrement s’affiche sur la carte.
    * [Modifier des types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md)
 
-## Créer des types d’enregistrements en important un fichier Excel ou CSV
+## Créer des types d’enregistrements en important des informations depuis un fichier CSV ou Excel
 
-Tenez compte des points suivants lors de l’import de types d’enregistrements à l’aide d’un fichier Excel ou CSV :
+Vous pouvez importer les éléments suivants lors de l’importation d’informations à partir d’un fichier CSV ou Excel :
 
-* Chaque feuille du fichier Excel devient un type d’enregistrement. Le nom de la feuille devient le nom du type d&#39;enregistrement.
-* S&#39;il n&#39;y a qu&#39;une seule feuille, ou si vous importez un fichier CSV, le nom du fichier devient le nom du type d&#39;enregistrement.
-* Les en-têtes des colonnes de chaque feuille deviennent les champs associés à chaque type d&#39;enregistrement.
-* Les champs sont uniques pour leur type d’enregistrement respectif.
-* Chaque ligne de chaque feuille devient un enregistrement unique associé à son type d’enregistrement respectif.
-* Chaque feuille du fichier Excel ne doit pas dépasser les dimensions suivantes :
-   * 10 000 lignes
-   * 500 colonnes
-* Le fichier Excel ne doit pas dépasser 5 Mo.
-* Les feuilles vides ne sont pas prises en charge.
+* Types d’enregistrements
+* Enregistrements
+* Champs d’enregistrement
 
-Pour importer des types d&#39;enregistrements à l&#39;aide d&#39;un fichier Excel ou CSV :
+Pour plus d’informations, voir [Création de types d’enregistrements à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
-{{step1-to-planning}}
 
-1. Cliquez sur l’espace de travail dans lequel vous souhaitez créer des types d’enregistrements,
-
-   Ou
-
-   Depuis un espace de travail, développez la flèche pointant vers le bas à droite d’un nom d’espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
-1. Cliquez sur **Ajouter un type d’enregistrement**.
-1. Cliquez sur **À partir du fichier**.
-1. Faites glisser un fichier Excel ou CSV préalablement enregistré sur votre ordinateur ou cliquez sur **Sélectionner un fichier CSV ou Excel** pour en rechercher un.
-1. Cliquez sur **Prévisualiser et modifier**.
-
-   La zone **Prévisualiser et modifier** s’affiche avec les informations suivantes :
-
-   * Les noms des feuilles ou des types d’enregistrements futurs s’affichent dans le panneau de gauche. Workfront Planning sélectionne par défaut une icône et une couleur pour chaque nouveau type d’enregistrement.
-   * La première feuille ou le premier type d’enregistrement est sélectionné et les noms des champs qui lui sont associés s’affichent sous forme d’en-têtes de colonne. Le type de chaque champ est sélectionné par défaut.
-   * Chaque ligne représente un nouvel enregistrement. Seuls les 10 premiers enregistrements s’affichent dans la zone Prévisualiser et modifier.
-
-   ![](assets/preview-and-edit-box.png)
-
-1. (Facultatif) Cliquez sur le nom de chaque feuille dans le panneau de gauche pour consulter les informations qu’elle contient.
-
-   >[!NOTE]
-   >
-   >Les feuilles vides ne sont pas prises en charge et sont grisées.
-
-1. (Facultatif) Désélectionnez les feuilles que vous ne souhaitez pas importer dans le panneau de gauche.
-
-   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-   Les feuilles que vous avez désélectionnées s’affichent sur fond gris.
-
-1. (Facultatif) Cliquez sur la flèche pointant vers le bas à droite de l’en-tête de colonne pour effectuer l’une des opérations suivantes :
-
-   * Renommer l’un des champs
-   * Modifiez le **Type de champ**
-   * Mettez à jour le champ **Description**
-
-1. (Conditionnel) Après avoir mis à jour les informations sur le champ, cliquez sur **Enregistrer**.
-
-1. Cliquez sur **Importer** lorsque vous êtes prêt à importer votre fichier.
-
-   Les informations suivantes sont importées dans Workfront Planning :
-
-   * Nouveaux types d’enregistrements
-   * Nouveaux champs associés à chaque type d’enregistrement
-   * Nouveaux enregistrements associés à chaque type d’enregistrement
-
-   Vous pouvez commencer à gérer les champs et les enregistrements sur les pages consacrées aux types d’enregistrements.
-
-   Toute personne ayant accès à Workfront Planning peut désormais afficher et modifier les types d’enregistrements importés et leurs informations.
