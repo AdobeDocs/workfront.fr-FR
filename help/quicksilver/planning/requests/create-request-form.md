@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1865'
 ht-degree: 11%
 
 ---
@@ -143,7 +143,7 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
    * Les valeurs des champs Personnes s’affichent sous la forme d’identifiants.
    * Les champs de formule qui ne font pas référence à d’autres champs ou calculs n’affichent aucune valeur. Par exemple, un champ avec une formule `STRING` affiche une valeur « N/A ».
    * Les champs de formule qui font référence à des champs Devise affichent les valeurs sans tenir compte des taux de change.
-   * Les valeurs des champs de paragraphe qui contiennent une mise en forme spéciale affichent une valeur « N/A » sur le formulaire de demande et affichent des balises HTML au lieu du texte mis en forme dans la page des détails de la demande.
+   * Les valeurs des champs de paragraphe affichent une valeur « S/O » sur le formulaire de demande et affichent des balises HTML au lieu du texte formaté dans la page des détails de la demande.
 
 </div>
 

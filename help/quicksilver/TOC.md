@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c9a5ba9a35bddfc45756cf04cd1a3da9d7a3105f
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '13041'
+source-wordcount: '13037'
 ht-degree: 91%
 
 ---
@@ -2059,7 +2059,7 @@ ht-degree: 91%
       * [Ajouter une miniature à un enregistrement](planning/records/add-thumbnails-to-records.md)
       * [Ajouter une image de couverture à un enregistrement](planning/records/add-a-cover-image-to-a-record.md)
       * [Gérer la mise en page de la page d’enregistrement](planning/records/manage-the-record-page.md)
-      * [Gérer des enregistrements dans la section Planning des objets Adobe Workfront](planning/records/manage-records-in-planning-section.md)
+      * [Gérer les connexions d’enregistrement à partir d’objets Workfront](planning/records/manage-records-in-planning-section.md)
       * [Exporter les détails d’un enregistrement](planning/records/export-the-record-page.md)
       * [Créer des objets Workfront à partir de Workfront Planning en les connectant à des enregistrements](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Création d’objets à l’aide de l’automatisation des enregistrements Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)

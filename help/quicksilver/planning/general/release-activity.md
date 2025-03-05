@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '7392'
+source-wordcount: '7388'
 ht-degree: 37%
 
 ---
@@ -88,7 +88,7 @@ Vous pouvez accéder à la vue ou à l’espace de travail à partir de la notif
 
 >[!NOTE]
 >
->Votre organisation doit être intégrée à l’expérience unifiée d’Adobe pour que les utilisateurs puissent demander et accorder des autorisations pour une vue ou un espace de travail à partir d’une demande d’autorisation.
+>Votre organisation doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent demander et accorder des autorisations pour une vue ou un espace de travail à partir d’une demande d’autorisation.
 
 
 Pour plus d’informations, voir [Demande d’autorisations pour une vue ou un espace de travail](/help/quicksilver/planning/access/request-permissions.md).
@@ -268,7 +268,7 @@ Par exemple, si vous connectez des campagnes Workfront Planning à des projets W
 
 * Enregistrements Workfront Planning
 * Projets Workfront sans modèle
-* Portfolios Workfront
+* Portefeuilles Workfront
 
 Vous ne pouvez pas créer d’autres objets Workfront ou ressources Experience Manager connectés lors de leur connexion à un enregistrement.
 
@@ -563,7 +563,7 @@ Production : samedi 21 juin 2024
 
 Prévisualisation : à déterminer
 
-Nous avons modifié les types d’utilisateurs qui peuvent avoir un accès complet aux espaces de travail. Désormais, seuls les utilisateurs sous licence Standard ou Plan peuvent disposer d’autorisations de niveau Gérer sur les espaces de travail. L’accès aux types d’enregistrements, aux enregistrements et aux champs est hérité d’un espace de travail. Tous les autres utilisateurs ont un accès en lecture seule aux espaces de travail et à leurs types d’objets. Avant cette mise à jour, les utilisateurs disposant d’une licence light ou worker pouvaient recevoir des autorisations Contribute pour les espaces de travail.
+Nous avons modifié les types d’utilisateurs qui peuvent avoir un accès complet aux espaces de travail. Désormais, seuls les utilisateurs sous licence Standard ou Plan peuvent disposer d’autorisations de niveau Gérer sur les espaces de travail. L’accès aux types d’enregistrements, aux enregistrements et aux champs est hérité d’un espace de travail. Tous les autres utilisateurs ont un accès en lecture seule aux espaces de travail et à leurs types d’objets. Avant cette mise à jour, les utilisateurs disposant d’une licence light ou worker pouvaient recevoir des autorisations Contribute pour accéder aux espaces de travail.
 
 Pour plus d’informations, voir [Présentation du type de licence avec Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -715,7 +715,7 @@ Les actions suivantes sont disponibles à partir de la section Planification dan
 
 * Ouvrez la zone ou la page d&#39;aperçu des détails pour afficher plus d&#39;informations sur les enregistrements connectés
 
-Pour plus d’informations, voir [Gérer les enregistrements dans la section Planification des objets Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 ## Semaine du mardi 13 mai 2024
 
@@ -800,7 +800,7 @@ Production : jeudi 8 mai 2024
 
 Aperçu : à déterminer
 
-Si vous êtes un client d’expérience unifiée Adobe et que quelqu’un vous ajoute à un commentaire sur la page d’enregistrement, vous recevez une notification in-app et un e-mail de notification au sujet du commentaire. Vous pouvez gérer vos préférences de notification dans la zone Préférences de votre profil Adobe Experience Cloud. Pour plus d’informations, voir [ Préférences et notifications du compte ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Si vous êtes un client Adobe Unified Experience et que quelqu’un vous ajoute à un commentaire sur la page d’enregistrement, vous recevez une notification in-app et un e-mail concernant le commentaire. Vous pouvez gérer vos préférences de notification dans la zone Préférences de votre profil Adobe Experience Cloud. Pour plus d’informations, voir [ Préférences et notifications du compte ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Pour plus d’informations sur les notifications de planification Workfront, voir [Notifications Adobe Workfront Planning : index des articles](/help/quicksilver/planning/notifications/notifications-information.md).
 

@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 48%
 
 ---
-
 
 # Créer des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel
 
@@ -101,7 +101,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Les champs sont uniques pour leur type d’enregistrement respectif.
 * Chaque ligne de chaque feuille devient un enregistrement unique associé à son type d’enregistrement respectif.
 * Chaque feuille du fichier Excel ne doit pas dépasser les dimensions suivantes :
-   * 10 000 lignes
+   * 25 000 lignes
    * 500 colonnes
 * La taille du fichier ne doit pas dépasser 5 Mo.
 * Les feuilles vides ne sont pas prises en charge.

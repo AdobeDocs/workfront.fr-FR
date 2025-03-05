@@ -3,13 +3,13 @@ title: Créer des enregistrements en important des informations depuis un fichie
 description: Les enregistrements sont des instances individuelles de types d'enregistrements, qui sont les types d'objet d'Adobe Workfront Planning. Dans Workfront Planning, vous pouvez créer des enregistrements en important des informations à partir d'un fichier CSV ou Excel.
 hide: true
 hidefromtoc: true
-source-git-commit: 9f17fcab210768923e866d2f1596f40ddf8a558e
+exl-id: 940945df-391c-4672-9d9d-180d5028509b
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 18%
+source-wordcount: '985'
+ht-degree: 16%
 
 ---
-
 
 <!-- add the following in the metadata when live:
 
@@ -82,12 +82,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
    <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p> 
-   <p>Modifiez l’accès dans Workfront pour les types d’objets que vous souhaitez créer (projets et portfolios) lorsque vous connectez les enregistrements à ceux-ci. </p>  
+   <p>Modifiez l’accès dans Workfront pour les types d’objets que vous souhaitez créer (projets, programmes et portfolios) lorsque vous connectez les enregistrements à ceux-ci. </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td> <p>Gérez les autorisations de l’espace de travail auquel vous souhaitez ajouter des enregistrements. </p>  
+   <td> <p>Accordez des autorisations supérieures ou égales à l’espace de travail auquel vous souhaitez ajouter des enregistrements. </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
    <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (projets).</p>
    </td> 
@@ -103,23 +103,23 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Remarques concernant l’importation de types d’enregistrements à l’aide d’un fichier Excel ou CSV
+## Remarques concernant l’importation d’enregistrements à l’aide d’un fichier Excel ou CSV
 
 * Les en-têtes des colonnes de chaque feuille deviennent les champs associés aux enregistrements.
 * Chaque ligne de chaque feuille devient un enregistrement unique associé.
 * Si le fichier Excel contient plusieurs feuilles, seules les informations d&#39;une feuille que vous sélectionnez lors du processus d&#39;importation sont importées.
 * Le fichier ne doit pas dépasser les valeurs suivantes :
-   * 10 000 lignes
+   * 25 000 lignes
    * 500 colonnes
 * La taille du fichier ne doit pas dépasser 5 Mo.
 * Les feuilles vides ne sont pas prises en charge.
 * Les types de champs suivants ne sont pas pris en charge et ne peuvent pas être mappés aux champs de la feuille d’importation :
-   * Champs de recherche des enregistrements connectés ou des objets Workfront connectés
+   * Champs Connexions et recherche des enregistrements connectés <!--or connected Workfront objects-->
    * Champs de formule
    * Date de création, Créé par
    * Date de dernière modification, Dernière modification par
    * Personnes
-* Si un champ à sélection multiple ou unique est importé et qu&#39;il offre plus de choix qu&#39;un champ similaire dans Planning, les options supplémentaires sont créées lors de l&#39;importation.
+   * Si un champ à sélection multiple ou unique est importé et qu&#39;il offre plus de choix qu&#39;un champ similaire dans Planning, les options supplémentaires sont créées lors de l&#39;importation. Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour l’espace de travail peuvent importer de nouveaux choix.
 
 ## Créer des enregistrements en important un fichier CSV ou Excel
 
@@ -144,11 +144,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Chaque ligne représente un nouvel enregistrement. Seuls les 10 premiers enregistrements s’affichent dans la zone Prévisualiser et modifier.
 
-1. (Facultatif) Sélectionnez l’option **Créer les options manquantes** dans le coin inférieur gauche de l’écran. Lorsqu’ils sont activés, les choix manquants de champs à sélection unique et à sélection multiple sont ajoutés.
+1. (Facultatif et conditionnel) Si vous disposez d’autorisations de niveau Gérer pour l’espace de travail, sélectionnez l’option **Créer les options manquantes** dans le coin inférieur gauche de l’écran. Lorsqu’ils sont activés, les choix manquants de champs à sélection unique et à sélection multiple sont ajoutés.
 
-   Par exemple, si le type d’enregistrement sélectionné comporte un champ Statut à sélection unique avec les choix Nouveau, En cours et Fermé et qu’un champ Statut importé à partir d’un fichier comporte également un choix Statut En attente , le choix Statut En attente est également ajouté
+>[!NOTE]
+>
+>Par exemple, si le type d’enregistrement sélectionné comporte un champ Statut à sélection unique avec les choix Nouveau, En cours et Fermé et qu’un champ Statut importé d’un fichier comporte également un choix Statut En attente , le choix Statut En attente est également ajouté.
+>
+>Si vous ne disposez pas des autorisations de niveau Gérer pour l&#39;espace de travail, vous pouvez importer des enregistrements, mais les choix supplémentaires ne seront pas créés. Au lieu de cela, vous recevez le message suivant dans le coin supérieur droit de la zone Mapper les champs Planning à vos en-têtes de colonne : **Les choix qui n’existent pas dans le cadre d’une connexion, les champs à sélection unique ou multiple ne seront pas ajoutés**.
 
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step-->
+
+    &lt;!—lorsque nous ajoutons des enregistrements connectés et que l’icône d’informations dans l’outil change, ajoutez également ces éléments à cette étape—>
 
 1. Cliquez sur **Importer**.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '3332'
+source-wordcount: '3330'
 ht-degree: 39%
 
 ---
@@ -118,7 +118,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Gérer les autorisations sur un espace de travail pour connecter des enregistrements </p>  
+   <td>   <p>Autorisations de niveau Contributeur ou supérieur à un espace de travail pour connecter des enregistrements </p>  
    <p>Autorisations d’affichage ou supérieures à un espace de travail pour afficher toutes les connexions aux objets et champs d’autres applications, quel que soit votre accès dans l’autre application. </p>
    <p>Autorisations d’affichage ou supérieures aux objets que vous souhaitez lier à partir de Workfront ou Experience Manager Assets. </p>
    <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> </td> 
@@ -494,4 +494,4 @@ Vous devez disposer des éléments suivants pour connecter les enregistrements W
       * Groupe
       * Entreprise
 
-  Pour plus d’informations, voir [Gérer les enregistrements dans la section Planification des objets Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+  Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1916'
 ht-degree: 8%
 
 ---
@@ -99,7 +99,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr>
    <td role="rowheader"><p>Autorisations d’objet</p></td>
    <td>
-   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
+   <p>Autorisations de contribution ou de niveau supérieur pour un espace de travail</a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> 
   </td>
   </tr>

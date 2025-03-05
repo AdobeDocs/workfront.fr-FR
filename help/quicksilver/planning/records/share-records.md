@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 77%
+source-wordcount: '515'
+ht-degree: 74%
 
 ---
 
@@ -34,7 +34,7 @@ Cet article décrit comment copier un lien vers une page d’enregistrement à p
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès pour Workfront Planning.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -55,14 +55,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -70,15 +70,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td><p> Contributeur, Clair ou Standard </p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <td><p> Contributeur, Léger ou Standard </p>
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>  <p>Autorisations d’affichage ou autorisations supérieures pour un espace de travail afin de partager un enregistrement à l’aide d’un lien </p>
-   <p>Gérer les autorisations d’un espace de travail pour partager des enregistrements pendant le partage de l’espace de travail auquel appartient l’enregistrement </p>
+   <p>Gérer les autorisations d’un espace de travail pour partager les enregistrements de l’espace de travail auquel appartient l’enregistrement </p>
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
   </tr> 
 <tr> 
@@ -145,7 +145,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>View or higher permissions to a workspace to share a record using a link </p>
-   <p>Manage permissions to a workspace to share records while sharing the workspace the record belongs to </p>
+   <p>Manage permissions to a workspace to share the workspace the record belongs to </p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -192,8 +192,8 @@ L’espace de travail auquel vous avez accédé en dernier s’ouvre.
 
 ## Partager tous les enregistrements dans un espace de travail en partageant l’espace de travail
 
-Vous pouvez partager tous les enregistrements dans un espace de travail lorsque vous partagez l’espace de travail avec d’autres personnes.
+Vous pouvez partager tous les enregistrements d&#39;un espace de travail lorsque vous partagez l&#39;espace de travail avec d&#39;autres personnes.
 
-Seuls les utilisateurs disposant des autorisations de gestion d’un espace de travail peuvent le partager avec d’autres utilisateurs.
+Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour un espace de travail peuvent le partager avec d’autres personnes.
 
 Pour plus d’informations, consultez la section [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md).
