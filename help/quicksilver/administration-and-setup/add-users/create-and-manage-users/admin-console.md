@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: 47aa463406c2807a375297f296b3e81eca1285bb
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 79%
+source-wordcount: '1533'
+ht-degree: 75%
 
 ---
 
@@ -223,10 +223,18 @@ Pour approuver un utilisateur ou une utilisatrice :
    Les utilisateurs et les utilisatrices refusés sont automatiquement supprimés de Workfront.
 
 
+## Modifier les utilisateurs existants dans le Adobe Admin Console
 
+Vous pouvez modifier les détails de l’utilisateur ci-dessous dans le Adobe Admin Console :
 
+* Groupes d’utilisateurs et produits associés à l’utilisateur
+* Droits administratifs
+* Pays
 
+Pour plus d’informations sur la modification d’un utilisateur unique dans Adobe Admin Console, consultez la section [Modifier les détails de l’utilisateur](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details) dans l’article Gestion individuelle des utilisateurs dans la documentation d’Adobe.
 
+Pour plus d’informations sur la modification en bloc des utilisateurs dans Adobe Admin Console, voir
+[Modifier les détails de l’utilisateur](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details) dans l’article Gestion de plusieurs utilisateurs dans la documentation d’Adobe.
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
