@@ -6,10 +6,10 @@ description: Les dossiers intelligents sont utilisés pour gérer des documents 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 94%
+source-wordcount: '561'
+ht-degree: 95%
 
 ---
 
@@ -70,9 +70,6 @@ Vous pouvez afficher les dossiers dans la vue miniature, standard ou liste. Pour
 1. Accédez à la zone **Documents** qui contient le dossier intelligent que vous souhaitez modifier.
 1. Dans la colonne **Dossiers**, cliquez sur l’icône **Plus** ![Menu Plus](assets/more-icon.png) en regard du dossier intelligent à modifier.
 1. Cliquez sur **Modifier**.
-
-   La boîte de dialogue **Modifier le dossier intelligent** s’affiche.\
-   ![Modifier le dossier intelligent](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
 
 1. Apportez vos modifications, puis cliquez sur **Enregistrer le dossier**.
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
+source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -200,6 +200,14 @@ Pour afficher cette modification, accédez à Équipes > choisir une équipe > L
 Nous avons mis à jour la zone Approbations d’un document avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
 Pour afficher cette modification, accédez à un document > Cliquez sur Détails du document > Approbations.
+
+### Mise à jour de l’interface pour la boîte de dialogue de modification du dossier intelligent
+
+**Version préliminaire : 27 janvier 2025 ; Version de production : à partir de la semaine du 3 février 2025**
+
+Nous avons mis à jour la boîte de dialogue de modification des dossiers intelligents avec une conception plus moderne qui est cohérente avec d’autres zones de Workfront.
+
+Pour afficher cette modification, accédez à Documents > Cliquez sur le menu Plus en regard du nom du filtre dynamique > Cliquez sur Modifier.
 
 ## Rapports et tableaux de bord
 
