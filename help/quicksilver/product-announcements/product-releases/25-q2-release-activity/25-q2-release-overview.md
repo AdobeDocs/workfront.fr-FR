@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 46%
+source-wordcount: '1076'
+ht-degree: 42%
 
 ---
 
@@ -64,6 +64,29 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 </tbody>
 </table>
 
+### Améliorations de la gestion des documents
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Modifier plusieurs documents à la fois dans un rapport de document </a></p>
+            <p>Vous pouvez désormais modifier plusieurs documents à la fois dans un rapport de document. Vous pouvez modifier les descriptions et mettre à jour les formulaires personnalisés.</p>
+        </td>
+        <td>
+            <p><b>Disponible à ces dates :</b></p>
+            <ul>
+                <li>Version préliminaire : vendredi 6 février 2025</li>
+                <li><span class="preview">Version de production pour tous les clients : 13 mars 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### Améliorations apportées aux projets
 
 <table>
@@ -94,6 +117,20 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Effectuez la mise à niveau vers la nouvelle version d’abonnement aux événements avec les points d’entrée de mise à niveau de version</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>Workfront dispose désormais de versions d’abonnements aux événements. La nouvelle version ne constitue pas une modification de l’API Workfront, mais plutôt une modification de la fonctionnalité d’abonnement aux événements. Vous pouvez passer vos abonnements aux événements à la nouvelle version sans créer d’écart dans votre abonnement aux événements</p>
+        </td>
+        <td>
+            <p><b>Disponible à ces dates :</b></p>
+            <ul>
+                <li><span class="preview">Version de production pour tous les clients : 6 mars 2025</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">

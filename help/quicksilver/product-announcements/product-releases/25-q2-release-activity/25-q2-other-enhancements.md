@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: d603edee0099b6ce3e4f8d3414d1b31f94209196
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 17%
+source-wordcount: '329'
+ht-degree: 12%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 17%
 Cette page décrit les améliorations apportées à l’environnement Aperçu de la version du deuxième trimestre 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2025, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Effectuez la mise à niveau vers la nouvelle version d’abonnement aux événements avec les points d’entrée de mise à niveau de version
+
+>[!NOTE]
+>
+>Production pour toute la clientèle : vendredi 6 mars 2025
+
+Workfront dispose désormais de versions d’abonnements aux événements. La nouvelle version ne constitue pas une modification de l’API Workfront, mais plutôt une modification de la fonctionnalité d’abonnement aux événements.
+
+La possibilité de mettre à niveau ou de rétrograder des abonnements aux événements garantit que lorsque des modifications sont apportées à la structure des événements, les abonnements existants ne sont pas rompus, ce qui vous permet de tester et de mettre à niveau vers la nouvelle version sans interruption de votre abonnement aux événements.
+
+Pour plus d’informations sur les différences entre les deux versions, consultez l’article [Contrôle de version des abonnements aux événements](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+Pour plus d’informations sur les points d’entrée utilisés pour mettre à niveau ou rétrograder un abonnement à un événement entre différentes versions, consultez la section [Contrôle de version des abonnements à un événement](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) dans l’article API d’abonnement à un événement.
 
 ## Représenter les modifications utilisateur de Adobe Admin Console sous la forme « Système » dans le flux de mise à jour de Workfront
 

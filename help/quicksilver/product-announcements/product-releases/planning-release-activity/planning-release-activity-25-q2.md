@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
+source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1660'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,29 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Ajouter les champs de recherche d’enregistrements connectés aux champs de connexion Planning dans les formulaires personnalisés Workfront
+
+>[!NOTE]
+>
+>Aperçu : 6 mars 2025 ; Production pour une version rapide : 13 mars 2025 ; Production pour tous les clients : 10 avril 2025
+
+Pour accéder facilement à toutes les informations des enregistrements connectés des objets Workfront, nous avons ajouté les champs de recherche des enregistrements connectés aux champs de connexion Planning dans Workfront.
+
+Vous pouvez ajouter jusqu&#39;à sept champs de recherche à un enregistrement connecté à un objet Workfront dans le champ personnalisé Connexion Planning . Dans le cadre de cette amélioration, vous pouvez désormais afficher les enregistrements connectés et leurs champs dans un format de tableau facile à lire dans le formulaire personnalisé d’un objet Workfront.
+
+Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Importer des enregistrements à l’aide d’un fichier CSV ou Excel
+
+>[!NOTE]
+>
+>Version préliminaire : 6 mars 2025 ; Production pour tous les clients : 10 avril 2025
+
+Vous pouvez désormais importer des enregistrements à l&#39;aide d&#39;une feuille de calcul CSV ou Excel à partir de la page d&#39;un type d&#39;enregistrement.
+Avant cette amélioration, vous pouviez importer des enregistrements uniquement lors de la création de types d’enregistrements. Avec cette mise à jour, vous pouvez importer des enregistrements vers des types d&#39;enregistrements existants.
+
+Pour plus d’informations, voir [Créer des enregistrements en important des informations à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
 ## Afficher le nom d’enregistrement d’une page de détails d’une requête Workfront Planning dans le nom de l’onglet du navigateur
 
