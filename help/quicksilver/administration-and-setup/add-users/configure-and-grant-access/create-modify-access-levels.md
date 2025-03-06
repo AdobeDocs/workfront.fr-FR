@@ -1,5 +1,5 @@
 ---
-title: Création et modification de niveaux d’accès personnalisés
+title: Créer et modifier des niveaux d'accès personnalisés
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 99%
+source-wordcount: '1465'
+ht-degree: 98%
 
 ---
 
@@ -184,7 +184,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
      <tr> 
       <td role="rowheader">Afficher uniquement les entreprises, les groupes et les équipes auxquels ils appartiennent</td> 
-      <td>Permet aux utilisateurs et utilisatrices d’afficher et de partager des éléments uniquement avec les entreprises, les groupes et les équipes auxquels ils appartiennent.<p><strong>NOTE</strong> : les utilisateurs et utilisatrices disposant de licences Demandeur ne peuvent pas afficher les sociétés auxquelles ils n’appartiennent pas, même si cette option est sélectionnée.</td> 
+      <td>Permet aux utilisateurs et utilisatrices d’afficher et de partager des éléments uniquement avec les entreprises, les groupes et les équipes auxquels ils appartiennent.<p><strong>REMARQUE </strong> : les utilisateurs disposant de licences de demandeur ou de contributeur ne peuvent pas afficher les sociétés auxquelles ils n’appartiennent pas, même si cette option est sélectionnée.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ne jamais autoriser que les heures prévues ou les heures réelles soient visibles</td> 
