@@ -4,10 +4,10 @@ description: Améliorations apportées aux projets au deuxième trimestre 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
+source-git-commit: 1123c028a1971c7a66158b95642154e540dc3d0e
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 60%
+source-wordcount: '115'
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Version préliminaire : 6 février 2025 ; Production tous les clients : 13 mars 2025
+>Version de prévisualisation : vendredi 6 février 2025 ; production pour tous les clients : vendredi 13 mars 2025
 
 Vous pouvez désormais modifier plusieurs documents à la fois dans un rapport de document. Vous pouvez modifier les descriptions et mettre à jour les formulaires personnalisés.
 
