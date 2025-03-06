@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 99%
+source-wordcount: '1109'
+ht-degree: 95%
 
 ---
 
@@ -18,13 +18,7 @@ ht-degree: 99%
 
 <!-- Audited: 07/2024-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles ne sont disponibles que dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Pour plus d’informations sur la version actuelle, consultez la section [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
-
-Vous pouvez gérer les affectations de tâche ou de problème à l’aide d’affectations avancées.
+Vous pouvez gérer les affectations de tâches ou d&#39;événements à l&#39;aide d&#39;affectations avancées.
 
 Vous pouvez ajuster les informations d’affectation suivantes lors d’affectations avancées :
 
@@ -102,7 +96,7 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
 
    <span class="preview">![Cliquez sur Avancé](assets/assignments-box-in-task-header.png)</span>
 
-1. Dans le champ **Rechercher des personnes, des rôles et des équipes**, commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’un rôle ou d’une équipe, puis cliquez sur le nom qui apparaît dans la liste déroulante.
+1. Dans le champ **Rechercher des personnes, des rôles et des équipes**, commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!NOTE]
    >
@@ -140,10 +134,6 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
      >Selon la manière dont votre équipe d’administration Workfront ou votre administrateur ou administratrice de groupes configure les préférences de votre projet, Workfront peut utiliser le planning de la personne propriétaire de la tâche pour calculer la chronologie de la tâche lorsque plusieurs utilisateurs et utilisatrices sont affectés à la tâche. Pour plus d’informations sur les tâches à plusieurs personnes cessionnaires, voir la section « Affecter plusieurs utilisateurs et utilisatrices à une tâche » dans l’article [Affecter des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Allocations** : lorsque le type de durée d’une tâche est simple, spécifiez le nombre d’heures affecté à chaque utilisateur ou utilisatrice ou fonction pour la tâche. La somme de toutes les heures affectées de chaque utilisateur ou utilisatrice est égale au nombre indiqué dans le champ **Nombre d’heures prévues** au bas de la colonne Allocations. Dans tous les autres cas, indiquez le pourcentage de temps (ou allocation) que vous souhaitez que la personne cessionnaire passe à résoudre la tâche ou le problème.
-
-     <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
-     -->
 
      >[!TIP]
      >   
