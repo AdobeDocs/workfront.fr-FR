@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 16%
@@ -109,7 +109,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * 500 colonnes
 * La taille du fichier ne doit pas dépasser 5 Mo.
 * Les feuilles vides ne sont pas prises en charge.
-* Les types de champs suivants ne sont pas pris en charge et ne peuvent pas être mappés aux champs de la feuille d’importation :
+* Les champs des types suivants ne sont pas pris en charge et ne peuvent pas être mappés aux champs de la feuille d’importation :
    * Champs Connexions et recherche des enregistrements connectés <!--or connected Workfront objects-->
    * Champs de formule
    * Date de création, Créé par
@@ -148,9 +148,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >
    >Si vous ne disposez pas des autorisations de niveau Gérer pour l&#39;espace de travail, vous pouvez importer des enregistrements, mais les choix supplémentaires ne seront pas créés. Au lieu de cela, vous recevez le message suivant dans le coin supérieur droit de la zone Mapper les champs Planning à vos en-têtes de colonne : **Les choix qui n’existent pas dans le cadre d’une connexion, les champs à sélection unique ou multiple ne seront pas ajoutés**.
 
-
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
-
 1. Cliquez sur **Importer**.
 
    Les informations suivantes sont importées dans Workfront Planning :
@@ -162,3 +159,5 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    Vous pouvez commencer à gérer les champs et les enregistrements dans la page des types d’enregistrements.
 
    Toute personne ayant accès à Workfront Planning et à l’espace de travail peut désormais afficher et modifier les enregistrements importés et leurs informations.
+
+   <!--when we add connected records and the info icon in the tool changes, also add those items to the Import step and to the NOTE above it-->

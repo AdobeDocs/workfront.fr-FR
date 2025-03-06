@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '4310'
-ht-degree: 58%
+source-wordcount: '4336'
+ht-degree: 57%
 
 ---
 
@@ -82,7 +82,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -534,6 +534,10 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
 
 Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur ou une utilisatrice<!--, job role, or team--> à un enregistrement. Il s’agit d’un champ de saisie semi-automatique qui vous permet d’ajouter uniquement des utilisateurs<!--, roles, or teams--> qui existent déjà dans votre instance Workfront.
 
+>[!TIP]
+>
+>Lorsque vous ajoutez le nom d’un utilisateur dans un champ Personnes , le nom de l’utilisateur et sa fonction principale s’affichent dans le champ.
+
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Personnes**.
 
    ![](assets/people-field-type.png)
@@ -687,7 +691,7 @@ Vous pouvez importer des copies de champs Workfront existants.
 
 L’importation de champs depuis Workfront crée une copie de chaque champ pour un type d’enregistrement Workfront Planning.
 
-Une fois les champs copiés, ils sont indépendants les uns des autres et ne fournissent pas d’informations exchanges.
+Une fois les champs copiés, ils sont indépendants les uns des autres et n’échangent pas d’informations.
 
 Pour plus d’informations, voir [Importer des champs depuis Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 

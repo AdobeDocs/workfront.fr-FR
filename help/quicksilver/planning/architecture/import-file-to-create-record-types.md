@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 47%
+source-wordcount: '795'
+ht-degree: 45%
 
 ---
 
@@ -105,6 +105,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * 500 colonnes
 * La taille du fichier ne doit pas dépasser 5 Mo.
 * Les feuilles vides ne sont pas prises en charge.
+* Les champs des types suivants ne sont pas pris en charge et ne peuvent pas être mappés aux champs de la feuille d’importation :
+   * Champs Connexions et recherche des enregistrements connectés <!--or connected Workfront objects-->
+   * Champs de formule
+   * Date de création, Créé par
+   * Date de dernière modification, Dernière modification par
+   * Personnes
 
 Pour importer des types d&#39;enregistrements à l&#39;aide d&#39;un fichier Excel ou CSV :
 

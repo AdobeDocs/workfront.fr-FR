@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1846'
 ht-degree: 28%
 
 ---
@@ -32,8 +32,7 @@ Vous pouvez créer des enregistrements en effectuant l’une des opérations sui
 * [Dupliquer les enregistrements depuis une vue Tableau](#create-records-by-duplicating-them)
 * [Créer des enregistrements au fur et à mesure que vous les connectez à partir d’autres enregistrements](#create-records-as-you-connect-them)
 * [Créer des enregistrements en soumettant un formulaire de demande à un type d’enregistrement](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Créer des enregistrements lors de l’import de types d’enregistrements depuis un fichier CSV ou Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-* <Span class="preview">[Créer des enregistrements en important les informations d&#39;un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
+* <span class="preview">[Créer des enregistrements en important les informations d&#39;un fichier CSV ou Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
 * <span class="preview">[Création d’enregistrements à l’aide d’automatisations](#create-records-by-using-automations)</span>
 
 Pour plus d’informations sur la gestion des enregistrements dans les vues « Tableau » ou « Chronologie », consultez les articles suivants :
@@ -305,7 +304,7 @@ Pour plus d’informations, consultez la section [Créer des types d’enregistr
 
 <div class="preview">
 
-## Créer des enregistrements lors de l&#39;import d&#39;enregistrements depuis un fichier CSV ou Excel
+## Créer des enregistrements en important depuis un fichier CSV ou Excel
 
 Vous pouvez importer des enregistrements pour les types d&#39;enregistrements existants lorsque vous importez des informations à partir d&#39;un fichier CSV ou Excel.
 

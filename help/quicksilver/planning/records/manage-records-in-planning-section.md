@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1800'
 ht-degree: 7%
 
 ---
@@ -207,7 +207,7 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
 * Un champ de connexion Planning s’affiche de la manière suivante sur le formulaire personnalisé d’un objet Workfront, une fois les enregistrements Planning connectés à l’objet Workfront :
 
    * Si seul le champ principal de l&#39;enregistrement connecté est sélectionné, le champ de connexion Planning s&#39;affiche sous la forme d&#39;un champ à plusieurs valeurs, si la connexion permet de lier plusieurs enregistrements. Pour plus d’informations, voir [Présentation des types d’enregistrements Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview">Si des champs de recherche supplémentaires de l&#39;enregistrement connecté sont sélectionnés, le champ de connexion Planning s&#39;affiche sous la forme d&#39;une table. Vous pouvez sélectionner jusqu&#39;à 7 champs pour le champ de connexion Planification . La vue Tableau est en lecture seule.  </span>
+   * <span class="preview">Si votre administrateur Workfront ou votre administrateur de groupe a ajouté des champs de recherche supplémentaires à partir de l’enregistrement connecté dans le formulaire personnalisé, le champ de connexion Planning s’affiche sous la forme d’une table. Vous pouvez sélectionner jusqu&#39;à 7 champs pour le champ de connexion Planification . La vue Tableau est en lecture seule.  </span>
 
 * Vous ne pouvez associer qu&#39;un seul type d&#39;enregistrement à un champ de connexion Planning. Le nombre de champs de connexion Planning d’un formulaire n’est pas limité.
 * Vous devez disposer des droits d&#39;accès et des autorisations appropriés sur l&#39;objet, l&#39;enregistrement et Workfront Planning pour joindre un formulaire personnalisé avec un champ personnalisé de connexion Planning à un objet Workfront.
