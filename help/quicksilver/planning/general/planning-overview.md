@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1811'
-ht-degree: 49%
+source-wordcount: '1818'
+ht-degree: 46%
 
 ---
 
@@ -277,9 +277,9 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
-  Une fois que vous avez établi une connexion entre les types d’enregistrements, vous pouvez connecter les enregistrements individuels de ces types les uns aux autres. La connexion entre les enregistrements s’affiche sous la forme d’un champ d’enregistrement lié.
+  Après avoir établi une connexion entre les types d&#39;enregistrements, vous pouvez connecter des enregistrements individuels ou des objets de ces types les uns aux autres. La connexion entre les enregistrements s’affiche sous la forme d’un champ d’enregistrement connecté ou d’une connexion.
 
-* **Champs liés** (ou champs de recherche) : après avoir établi la connexion entre deux types d’enregistrement et lier des enregistrements individuels les uns aux autres, vous pouvez référencer les champs des enregistrements liés sur l’enregistrement à partir duquel vous vous connectez.
+* **Champs de recherche** (ou champs liés) : après avoir établi la connexion entre deux types d’enregistrements et connecté des enregistrements individuels, vous pouvez référencer les champs des enregistrements connectés à partir de l’enregistrement à partir duquel vous vous connectez.
 
   Par exemple, si vous connectez un type d’enregistrement Campaign à un type d’objet Projet Workfront, vous pouvez afficher le champ Budget des projets connectés sur les enregistrements Campaign.
 

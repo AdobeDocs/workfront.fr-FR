@@ -1,24 +1,20 @@
 ---
 title: Créer des enregistrements en important des informations depuis un fichier CSV ou Excel
 description: Les enregistrements sont des instances individuelles de types d'enregistrements, qui sont les types d'objet d'Adobe Workfront Planning. Dans Workfront Planning, vous pouvez créer des enregistrements en important des informations à partir d'un fichier CSV ou Excel.
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '964'
 ht-degree: 16%
 
 ---
 
-<!-- add the following in the metadata when live:
 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog-->
-
-# Créer des enregistrements en important des informations à partir d’un fichier CSV ou Excel
+# Créer des enregistrements en important des informations depuis un fichier CSV ou Excel
 
 <span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -125,14 +121,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 {{step1-to-planning}}
 
-1. Cliquez sur l’espace de travail dans lequel vous souhaitez créer des types d’enregistrements,
+1. Cliquez sur l’espace de travail dans lequel vous souhaitez créer des enregistrements,
 
    Ou
 
    Depuis un espace de travail, développez la flèche pointant vers le bas à droite d’un nom d’espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 1. Cliquez sur la carte du type d’enregistrement sur lequel vous souhaitez importer les enregistrements.
 1. Cliquez sur **Nouvel enregistrement** dans le coin supérieur droit de l’écran.
-1. Cliquez sur **Télécharger à partir du fichier**, puis sur **Continuer**.
+1. Cliquez sur **Télécharger à partir du fichier**, puis sur **Continuer**. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. Faites glisser un fichier Excel ou CSV préalablement enregistré sur votre ordinateur ou cliquez sur **Sélectionner un fichier CSV ou Excel** pour en rechercher un.
 1. Cliquez sur **Prévisualiser et modifier**.
 1. (Conditionnel) Si le fichier importé comporte plusieurs feuilles, sélectionnez le bouton radio de la feuille à importer dans la zone **Sélectionner une feuille à importer**, puis cliquez sur **Suivant**. Sinon, passez à l’étape suivante.
@@ -146,14 +142,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. (Facultatif et conditionnel) Si vous disposez d’autorisations de niveau Gérer pour l’espace de travail, sélectionnez l’option **Créer les options manquantes** dans le coin inférieur gauche de l’écran. Lorsqu’ils sont activés, les choix manquants de champs à sélection unique et à sélection multiple sont ajoutés.
 
->[!NOTE]
->
->Par exemple, si le type d’enregistrement sélectionné comporte un champ Statut à sélection unique avec les choix Nouveau, En cours et Fermé et qu’un champ Statut importé d’un fichier comporte également un choix Statut En attente , le choix Statut En attente est également ajouté.
->
->Si vous ne disposez pas des autorisations de niveau Gérer pour l&#39;espace de travail, vous pouvez importer des enregistrements, mais les choix supplémentaires ne seront pas créés. Au lieu de cela, vous recevez le message suivant dans le coin supérieur droit de la zone Mapper les champs Planning à vos en-têtes de colonne : **Les choix qui n’existent pas dans le cadre d’une connexion, les champs à sélection unique ou multiple ne seront pas ajoutés**.
+   >[!NOTE]
+   >
+   >Par exemple, si le type d’enregistrement sélectionné comporte un champ Statut à sélection unique avec les choix Nouveau, En cours et Fermé et qu’un champ Statut importé d’un fichier comporte également un choix Statut En attente , le choix Statut En attente est également ajouté.
+   >
+   >Si vous ne disposez pas des autorisations de niveau Gérer pour l&#39;espace de travail, vous pouvez importer des enregistrements, mais les choix supplémentaires ne seront pas créés. Au lieu de cela, vous recevez le message suivant dans le coin supérieur droit de la zone Mapper les champs Planning à vos en-têtes de colonne : **Les choix qui n’existent pas dans le cadre d’une connexion, les champs à sélection unique ou multiple ne seront pas ajoutés**.
 
 
-    &lt;!—lorsque nous ajoutons des enregistrements connectés et que l’icône d’informations dans l’outil change, ajoutez également ces éléments à cette étape—>
+   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
 
 1. Cliquez sur **Importer**.
 
@@ -161,8 +157,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    * Nouveaux enregistrements qui s’affichent au bas de la vue Tableau du type d’enregistrement sélectionné.
    * Nouvelles valeurs de champs pour les champs existants associés à chaque enregistrement.
-   * Nouveaux choix d&#39;un champ à sélection multiple ou unique qui n&#39;existait pas dans Planning.
+   * Nouveaux choix d&#39;un champ à sélection multiple ou unique qui n&#39;existait pas dans Planning.  <!--when we add connected records - add those here too-->
 
-   Vous pouvez commencer à gérer les champs et les enregistrements sur la page des types d’enregistrements.
+   Vous pouvez commencer à gérer les champs et les enregistrements dans la page des types d’enregistrements.
 
    Toute personne ayant accès à Workfront Planning et à l’espace de travail peut désormais afficher et modifier les enregistrements importés et leurs informations.

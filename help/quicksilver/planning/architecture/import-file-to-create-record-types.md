@@ -6,14 +6,14 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 48%
+source-wordcount: '757'
+ht-degree: 47%
 
 ---
 
-# Créer des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel
+# Créer des types d’enregistrements en important des informations depuis un fichier CSV ou Excel
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -158,4 +158,4 @@ Pour importer des types d&#39;enregistrements à l&#39;aide d&#39;un fichier Exc
 
    Vous pouvez commencer à gérer les champs et les enregistrements sur les pages consacrées aux types d’enregistrements.
 
-   Toute personne ayant accès à Workfront Planning peut désormais afficher et modifier les types d’enregistrements importés et leurs informations.
+   Toute personne ayant accès à Workfront Planning et à l’espace de travail peut désormais afficher et modifier les types d’enregistrements importés et leurs informations.

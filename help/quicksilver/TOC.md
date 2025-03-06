@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 0e9dd7a4504daf8e5c71bcd72152b0e5287f9354
+source-git-commit: cee44cb281dbbf5bfecd599e63b556208749ca6c
 workflow-type: tm+mt
 source-wordcount: '13042'
 ht-degree: 91%
@@ -2047,7 +2047,7 @@ ht-degree: 91%
    * Enregistrements d’Adobe Workfront Planning {#adobe-workfront-planning-records}
       * [Enregistrements : index des articles](planning/records/records-information.md)
       * [Créer des enregistrements](planning/records/create-records.md)
-      * [Créer des enregistrements en important des informations à partir d’un fichier CSV ou Excel](planning/records/import-file-to-create-records.md)
+      * [Créer des enregistrements en important des informations depuis un fichier CSV ou Excel](planning/records/import-file-to-create-records.md)
       * [Présentation des enregistrements connectés](planning/records/connected-records-overview.md)
       * [Connect records](planning/records/connect-records.md)
       * [Modifier des enregistrements](planning/records/edit-records.md)

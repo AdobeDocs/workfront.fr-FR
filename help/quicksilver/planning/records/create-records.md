@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 29%
+source-wordcount: '1858'
+ht-degree: 28%
 
 ---
 
@@ -33,7 +33,7 @@ Vous pouvez créer des enregistrements en effectuant l’une des opérations sui
 * [Créer des enregistrements au fur et à mesure que vous les connectez à partir d’autres enregistrements](#create-records-as-you-connect-them)
 * [Créer des enregistrements en soumettant un formulaire de demande à un type d’enregistrement](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Créer des enregistrements lors de l’import de types d’enregistrements depuis un fichier CSV ou Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
+* <Span class="preview">[Créer des enregistrements en important les informations d&#39;un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
 * <span class="preview">[Création d’enregistrements à l’aide d’automatisations](#create-records-by-using-automations)</span>
 
 Pour plus d’informations sur la gestion des enregistrements dans les vues « Tableau » ou « Chronologie », consultez les articles suivants :
@@ -271,8 +271,6 @@ Pour créer des enregistrements au fur et à mesure que vous les connectez à pa
    Ou
 Commencez à saisir un nom, puis cliquez sur **+ Ajouter**. Le bouton **+ Ajouter** est suivi du nom du type d’enregistrement auquel vous vous connectez. Par exemple, « Ajouter des marques » lors de l’ajout d’une marque à une campagne existante. Le nom saisi suit également le bouton Ajouter .
 
-   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
-
    ![Ajouter un bouton pour créer des enregistrements en contexte mis en surbrillance](assets/add-button-to-create-records-in-context-highlighted.png)
 
    L’enregistrement est créé et ajouté au champ d’enregistrement connecté.
@@ -305,18 +303,15 @@ Vous pouvez importer des enregistrements lorsque vous importez des types d&#39;e
 
 Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-<!--
 <div class="preview">
 
-## Create records when importing records from a CSV or Excel file
+## Créer des enregistrements lors de l&#39;import d&#39;enregistrements depuis un fichier CSV ou Excel
 
-You can import records for existing record types when you import information from a CSV or Excel file. 
+Vous pouvez importer des enregistrements pour les types d&#39;enregistrements existants lorsque vous importez des informations à partir d&#39;un fichier CSV ou Excel.
 
-For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+Pour plus d’informations, voir [Créer des enregistrements en important des informations à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
-</div> 
-
--->
+</div>
 
 <div class="preview">
 

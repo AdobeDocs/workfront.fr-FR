@@ -8,21 +8,19 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '6493'
-ht-degree: 77%
+source-wordcount: '6615'
+ht-degree: 76%
 
 ---
 
 # Créer un formulaire personnalisé
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Vous pouvez concevoir un formulaire personnalisé à l’aide du concepteur de formulaire dans Adobe Workfront. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données en rapport avec ces objets.
 
@@ -1011,19 +1009,14 @@ Pour ajouter un champ de connexion Planning :
       <td role="rowheader">Champ de connexion</td> 
       <td><p>(Obligatoire) Sélectionnez le champ de connexion entre le type d'enregistrement Planning sélectionné que vous souhaitez afficher dans les objets Workfront et le type d'objet Workfront. </p> <p> <b>NOTE</b></p><p>Vous pouvez avoir plusieurs champs de connexion entre le même objet et les mêmes types d’enregistrement, mais vous ne pouvez sélectionner qu’un seul champ.</p>  </td> 
      </tr>
-    </tbody> 
+
+<tr> 
+      <td role="rowheader"><span class="preview">Champs des types d’enregistrements</span></td> 
+      <td><p><span class="preview">(Facultatif) Sélectionnez jusqu’à 7 champs de recherche à partir du type d’enregistrement connecté à afficher dans le formulaire personnalisé. Le champ principal est sélectionné par défaut et ne peut pas être modifié. </span></p> <span class="preview"><p> Les champs de l’enregistrement connecté que vous sélectionnez s’affichent dans une vue de tableau sur le formulaire personnalisé. Lorsque le formulaire est joint à un objet Workfront, la vue Tableau est en lecture seule. </span></p>  
+    <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+      </tbody> 
    </table>
-
-
-   <!--
-
-    Add this to the table - one more row at the bottom at release time: 
-
-    <span class="preview">Record type fields</span>
-      
-    <p><span class="preview">(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </span></p> <span class="preview"><p> The connected record's fields that you select display in the table view on the custom form. The records that will later display on the selected Workfront objects' custom form will not be editable in the table view of the custom form.</span></p>  
-    <img src="assets/planning-connections-field-with-table-on-form-preview.png">
-    -->
 
 1. (Facultatif) Répétez les étapes précédentes pour ajouter d’autres champs.
 
