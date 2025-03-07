@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
+source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 98%
@@ -221,3 +221,6 @@ Si vous accordez à une personne disposant d’une licence Standard ou Planifica
 Par la suite, si vous désactivez l’accès administratif aux fonctions pour la personne, les fonctions sont toujours visibles par elle, car le paramètre Modifier la facturation et le taux de coût du rôle est toujours activé.
 
 Si cela se produit et que vous devez supprimer l’accès de l’utilisateur ou de l’utilisatrice à l’affichage des fonctions, désactivez le paramètre d’autorisation Modifier la facturation et les taux de dépense du rôle pour cette personne. Pour obtenir des instructions, voir [Accorder l’accès aux données financières](grant-access-financial.md).
+
+
+
