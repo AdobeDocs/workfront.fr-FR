@@ -7,10 +7,10 @@ description: Dans la partie supérieure de l’écran de la zone Analytique amé
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 96%
+source-wordcount: '566'
+ht-degree: 89%
 
 ---
 
@@ -18,8 +18,11 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Une formule Entreprise ou supérieure est requise pour utiliser cette fonctionnalité.\
->Pour plus d’informations sur les différents plans disponibles, voir [Plans Adobe Workfront](https://www.workfront.com/plans?lang=fr).
+>Enhanced Analytics sera supprimé de Workfront dans la semaine du 26 mai. Workfront Data Connect est une nouvelle solution alternative qui peut être utilisée pour répliquer toutes les visualisations Enhanced Analytics que vous utilisez actuellement. <br>Pour plus d’informations, consultez le guide [Obsolescence améliorée d’Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) .
+
+
+Une formule Entreprise ou supérieure est requise pour utiliser cette fonctionnalité.\
+Pour plus d’informations sur les différents plans disponibles, voir [Plans Adobe Workfront](https://www.workfront.com/plans?lang=fr).
 
 Dans la partie supérieure de l’écran de la zone Analytique améliorée, quatre indicateurs de performances clés (KPI) s’affichent. Ces mesures vous permettent de déterminer rapidement le temps nécessaire à la réalisation des projets, leur taille et le nombre de projets terminés au cours d’une période donnée. Ces chiffres ne sont pas limités au maximum de 50 projets qui s’affichent pour les visualisations de cette page. Au lieu de cela, ces données sont basées sur tous les projets qui s’appliquent à des filtres définis. Ces chiffres s’ajustent si vous modifiez la période sélectionnée ou l’un des filtres.
 

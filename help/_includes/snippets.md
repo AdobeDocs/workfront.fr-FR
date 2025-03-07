@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: affff16630379333465c118734babf7a239af272
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 90%
@@ -293,7 +293,7 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 >
 >* Un nouveau package et une nouvelle licence Workfront. Workfront Planning n’est pas disponible pour les packages ou licences Workfront hérités.
 >* Un package Workfront Planning.
->* L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée d’Adobe.
+>* L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe.
 >
 > Pour obtenir la liste complète des conditions requises pour accéder à Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/planning/access/access-overview.md).
 > 
@@ -495,3 +495,5 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
+
+

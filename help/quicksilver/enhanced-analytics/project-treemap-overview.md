@@ -7,14 +7,19 @@ description: La visualisation d’arborescence du projet est une vue des heures 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 93%
+source-wordcount: '896'
+ht-degree: 88%
 
 ---
 
 # Afficher la visualisation d’arborescence du projet dans Analytique améliorée
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics sera supprimé de Workfront dans la semaine du 26 mai. Workfront Data Connect est une nouvelle solution alternative qui peut être utilisée pour répliquer toutes les visualisations Enhanced Analytics que vous utilisez actuellement. <br>Pour plus d’informations, consultez le guide [Obsolescence améliorée d’Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) .
+
 
 <!-- Audited: 12/2023 -->
 

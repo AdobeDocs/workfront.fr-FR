@@ -7,14 +7,19 @@ description: La visualisation des tâches en cours indique le nombre de tâches 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 92%
+source-wordcount: '791'
+ht-degree: 87%
 
 ---
 
 # Afficher la visualisation des tâches en cours dans Analytique améliorée
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics sera supprimé de Workfront dans la semaine du 26 mai. Workfront Data Connect est une nouvelle solution alternative qui peut être utilisée pour répliquer toutes les visualisations Enhanced Analytics que vous utilisez actuellement. <br>Pour plus d’informations, consultez le guide [Obsolescence améliorée d’Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) .
+
 
 La visualisation des tâches en cours indique le nombre de tâches (dans les critères de filtre appliqués) en cours pour un projet, le pourcentage de travail terminé pour chaque tâche et la planification des tâches.
 

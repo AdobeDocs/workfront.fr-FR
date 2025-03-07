@@ -8,14 +8,19 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5d5be823-77d9-4d0c-bec6-cc172ea7f50b
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 100%
+source-wordcount: '129'
+ht-degree: 67%
 
 ---
 
 # Analytique améliorée
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics sera supprimé de Workfront dans la semaine du 26 mai. Workfront Data Connect est une nouvelle solution alternative qui peut être utilisée pour répliquer toutes les visualisations Enhanced Analytics que vous utilisez actuellement. <br>Pour plus d’informations, consultez le guide [Obsolescence améliorée d’Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) .
+
 
 Cette section contient les articles suivants :
 

@@ -5,10 +5,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 90%
+source-wordcount: '571'
+ht-degree: 88%
 
 ---
 
@@ -90,8 +90,6 @@ Vous devez activer les notifications dans la zone de configuration de Workfront 
 
 1. (Facultatif) Si vous souhaitez déverrouiller la configuration d’une notification par e-mail afin que les administrateurs de groupes puissent la configurer séparément pour leurs groupes, cliquez sur le bouton ![Bouton bascule Verrouiller](assets/lock-toggle-button.png) à droite de la notification pour la faire basculer en position déverrouillée ![Bouton bascule Déverrouiller](assets/unlock-toggle-button.png).
 
-   >[!NOTE]
-   >
-   >Cette fonctionnalité n’est disponible dans un premier temps que pour les clientes et clients du cluster 4, dans le cadre d’un déploiement progressif. Elle sera disponible dans d’autres clusters peu de temps après. Cet article sera mis à jour au fur et à mesure.
-
    Pour plus d’informations, voir [Déverrouiller ou verrouiller la configuration des notifications d’événements pour tous les groupes](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+
+Les utilisateurs et utilisatrices peuvent personnaliser la fréquence de ces notifications dans leur profil utilisateur.

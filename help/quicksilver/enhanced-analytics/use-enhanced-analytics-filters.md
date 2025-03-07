@@ -6,14 +6,19 @@ description: Les filtres de la zone Enhanced Analytics d’Adobe Workfront vous
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 100%
+source-wordcount: '1528'
+ht-degree: 97%
 
 ---
 
 # Appliquer des filtres dans Analytique améliorée
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics sera supprimé de Workfront dans la semaine du 26 mai. Workfront Data Connect est une nouvelle solution alternative qui peut être utilisée pour répliquer toutes les visualisations Enhanced Analytics que vous utilisez actuellement. <br>Pour plus d’informations, consultez le guide [Obsolescence améliorée d’Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) .
+
 
 <!-- Audited: 12/2023 -->
 

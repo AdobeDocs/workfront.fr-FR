@@ -7,10 +7,10 @@ description: Vous pouvez configurer une épreuve que vous créez ou modifiez dan
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 5635906462cf838c3ca162cb47b16f157e6a66f6
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -113,11 +113,12 @@ L’activation de l’inscription à l’épreuve permet aux personnes qui n’y
 
 Si l’inscription a été activée sur une épreuve, les champs ci-dessous deviennent actifs :
 
-* **[!UICONTROL Validation d’abonnement requise]** : la personne abonnée doit cliquer sur un lien dans un e-mail pour accéder à une épreuve.\
+* **[!UICONTROL Rôle d’abonné]** - Il s’agit du rôle de BAT par défaut qui sera attribué à tous les réviseurs qui s’abonnent au BAT.
+* **[!UICONTROL Paramètres d’alerte par e-mail pour les abonnés]** - Il s’agit de l’alerte par e-mail par défaut qui sera affectée à tous les réviseurs qui s’abonnent au BAT.
+* **[!UICONTROL L’accès au BAT par le biais d’un lien e-mail est requis pour]** - L’abonné doit cliquer sur un lien dans un e-mail pour accéder au BAT\
    En sélectionnant cette option, la personne qui s’abonne ne disposera pas d’un accès immédiat à l’épreuve, mais recevra un lien vers l’épreuve par e-mail. La validation d’abonnement a pour but de s’assurer que la personne a saisi une adresse e-mail correcte à laquelle elle a accès.
 
-* **[!UICONTROL Rôle par défaut pour les nouvelles personnes abonnées]** : il s’agit du rôle de l’épreuve par défaut qui sera attribué à tous les approbateurs et à toutes les approbatrices qui s’abonnent à l’épreuve.
-* **[!UICONTROL Alerte e-mail par défaut pour les nouveaux abonnés]** : il s’agit de l’alerte e-mail par défaut qui sera affectée à tous les approbateurs et toutes les approbatrices qui s’abonnent à l’épreuve.
+
 
 Voir aussi [S’abonner à une épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
 

@@ -7,14 +7,19 @@ description: La visualisation de la feuille de route montre combien de projets (
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 97%
+source-wordcount: '927'
+ht-degree: 92%
 
 ---
 
 # Afficher la visualisation de la feuille de route dans Analytique améliorée
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics sera supprimé de Workfront dans la semaine du 26 mai. Workfront Data Connect est une nouvelle solution alternative qui peut être utilisée pour répliquer toutes les visualisations Enhanced Analytics que vous utilisez actuellement. <br>Pour plus d’informations, consultez le guide [Obsolescence améliorée d’Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) .
+
 
 La visualisation de la feuille de route montre combien de projets (selon les critères de filtre appliqués) étaient en cours, quels changements de statuts sont intervenus pendant la durée de vie de ces projets et dans quelle mesure ces projets ont respecté les délais d’achèvement prévus.
 

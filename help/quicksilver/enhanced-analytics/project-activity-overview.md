@@ -7,14 +7,19 @@ description: La visualisation de l’activité de projet présente une vue agré
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 94%
+source-wordcount: '820'
+ht-degree: 89%
 
 ---
 
 # Afficher la visualisation de l’activité de projet dans Analytique améliorée
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics sera supprimé de Workfront dans la semaine du 26 mai. Workfront Data Connect est une nouvelle solution alternative qui peut être utilisée pour répliquer toutes les visualisations Enhanced Analytics que vous utilisez actuellement. <br>Pour plus d’informations, consultez le guide [Obsolescence améliorée d’Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) .
+
 
 <!-- Audited: 12/2023 -->
 

@@ -7,14 +7,19 @@ description: Analytique améliorée constitue un puissant outil d’Adobe Workf
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 99%
+source-wordcount: '1246'
+ht-degree: 96%
 
 ---
 
 # Vue d’ensemble d’Analytique améliorée
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics sera supprimé de Workfront dans la semaine du 26 mai. Workfront Data Connect est une nouvelle solution alternative qui peut être utilisée pour répliquer toutes les visualisations Enhanced Analytics que vous utilisez actuellement. <br>Pour plus d’informations, consultez le guide [Obsolescence améliorée d’Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) .
+
 
 Analytique améliorée constitue un puissant outil d’Adobe Workfront avec des visualisations prédéfinies qui vous permettent d’examiner les données du projet et d’identifier les tendances en matière de planification et d’achèvement. Grâce à ces informations sur vos projets, vous pouvez gérer votre travail actuel et planifier plus précisément votre travail futur.
 
