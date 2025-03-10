@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
+source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -141,6 +141,14 @@ Nous avons mis à jour les listes d’approbation de projets, de tâches et d’
 Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonctionnalité n’a été modifiée.
 
 ## Agile
+
+### Mises à jour des interfaces pour les demandes des équipes
+
+**Version préliminaire : 6 mars 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour la page Demandes de l’équipe avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Pour afficher cette modification, accédez à Équipes > Sélectionner une équipe > Demandes d’équipe.
 
 ### Mise à jour de l’interface pour la page d’aperçu des itérations
 
