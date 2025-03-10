@@ -9,13 +9,13 @@ feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 77d93919a84b2c3b098d1b5e6796af6b37b51034
+exl-id: 3943703a-0d0b-46d3-a708-52987d330523
+source-git-commit: bd39c5794c55e27a876da185e67bf8c654a003b2
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 6%
+source-wordcount: '110'
+ht-degree: 5%
 
 ---
-
 
 # Requêtes sur l’arborescence de projets
 
@@ -35,3 +35,103 @@ Avant de commencer, vous devez
    1. [Établir une connexion à Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 
 Une fois la connexion établie, vous pouvez utiliser les requêtes de cet article pour extraire et visualiser des données.
+
+## Heures planifiées des projets retirées
+
+```
+WITH task_daily_work as ( 
+    SELECT 
+        taskid, 
+        projectid, 
+        workrequired, 
+        percentcomplete, 
+        calendardate, 
+        (workrequired - (workrequired * percentcomplete)) as remainingMinutes 
+    FROM tasks_daily_history 
+) 
+ 
+SELECT 
+    p.name, 
+    p.projectid, 
+    sum(tdw.workrequired) as projectTotalWork, 
+    sum(tdw.remainingMinutes) as projectRemainingWork, 
+    tdw.calendardate 
+FROM projects_current p 
+    JOIN task_daily_work tdw ON p.projectid = tdw.projectid 
+GROUP BY p.projectid, p.name, tdw.calendardate
+```
+
+### Heures planifiées des projets retirées : avancement
+
+```
+WITH task_daily_work as ( 
+    SELECT 
+        taskid, 
+        projectid, 
+        workrequired, 
+        percentcomplete, 
+        calendardate, 
+        (workrequired - (workrequired * percentcomplete)) as remainingMinutes 
+    FROM tasks_daily_history 
+) 
+ 
+SELECT 
+    p.name, 
+    p.projectid, 
+    sum(tdw.workrequired) as projectTotalWork, 
+    sum(tdw.remainingMinutes) as projectRemainingWork, 
+    tdw.calendardate 
+FROM projects_current p 
+    JOIN task_daily_work tdw ON p.projectid = tdw.projectid 
+GROUP BY p.projectid, p.name, tdw.calendardate
+```
+
+## Durée prévue des projets retirés 
+
+```
+WITH task_daily_work as ( 
+    SELECT 
+        taskid, 
+        projectid, 
+        planneddurationminutes, 
+        percentcomplete, 
+        calendardate, 
+        (planneddurationminutes - (planneddurationminutes * percentcomplete)) as remainingDurationMinutes 
+    FROM tasks_daily_history 
+) 
+ 
+SELECT 
+    p.name, 
+    p.projectid, 
+    sum(tdw.planneddurationminutes) as projectTotalWork, 
+    sum(tdw.remainingDurationMinutes) as projectRemainingWork, 
+    tdw.calendardate 
+FROM projects_current p 
+    JOIN task_daily_work tdw ON p.projectid = tdw.projectid 
+GROUP BY p.projectid, p.name, tdw.calendardate
+```
+
+### Durée prévue des projets retirés : avancement
+
+```
+WITH task_daily_work as ( 
+    SELECT 
+        taskid, 
+        projectid, 
+        planneddurationminutes, 
+        percentcomplete, 
+        calendardate, 
+        (planneddurationminutes - (planneddurationminutes * percentcomplete)) as remainingDurationMinutes 
+    FROM tasks_daily_history 
+) 
+ 
+SELECT 
+    p.name, 
+    p.projectid, 
+    sum(tdw.planneddurationminutes) as projectTotalWork, 
+    sum(tdw.remainingDurationMinutes) as projectRemainingWork, 
+    tdw.calendardate 
+FROM projects_current p 
+    JOIN task_daily_work tdw ON p.projectid = tdw.projectid 
+GROUP BY p.projectid, p.name, tdw.calendardate
+```

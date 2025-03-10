@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 1e372089de40c49cd99c0b0d95a614f6e6c4a997
+source-git-commit: 321a29a4792bf8a40c04e46e8b29bf44e092678f
 workflow-type: tm+mt
-source-wordcount: '13061'
+source-wordcount: '13063'
 ht-degree: 91%
 
 ---
@@ -1702,13 +1702,13 @@ ht-degree: 91%
       * [Dictionnaire de données de Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Exemples de requête Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Affichage des mesures d’utilisation de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
-      * [Requêtes Analytics améliorées]{#enhanced-analytics-queries}
+      * Requêtes Analytics améliorées{#enhanced-analytics-queries}
          * [Requêtes Analytics améliorées](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [Requêtes relatives aux indicateurs de performance clés](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [Requêtes de feuille de route](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [Requêtes sur les activités de projet](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [Requêtes de compartimentage de projet](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
-         * [Requêtes de personnes](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/people-queries.md)
+         * [Requêtes d&#39;activité par équipe](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 * Gérer les ressources {#manage-resources}
    * [Gérer les ressources](resource-mgmt/manage-resources.md)
    * Gestion des ressources {#resource-management}
