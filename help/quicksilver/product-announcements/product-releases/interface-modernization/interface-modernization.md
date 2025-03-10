@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Pour afficher les paramètres, accédez à Configuration > Préférences > Valid
 
 Nous avons mis à jour les listes d’approbation de projets, de tâches et d’événements dans Configuration > Groupes > Approbations avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
-Pour afficher cette modification, accédez à Configuration > Groupes > Approbations.
+Pour afficher cette modification, accédez à Configuration > Groupes > Choisir un groupe > Approbations.
 
 Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonctionnalité n’a été modifiée.
 
