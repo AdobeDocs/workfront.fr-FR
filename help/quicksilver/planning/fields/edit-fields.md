@@ -1,20 +1,24 @@
 ---
 title: Modifier les paramètres de champ
-description: Dans Adobe Workfront Planning, vous pouvez modifier les paramètres des champs déjà créés. Cet article décrit comment modifier les paramètres des champs de planification Workfront.
+description: Dans Adobe Workfront Planning, vous pouvez modifier les paramètres des champs déjà créés. Cet article décrit comment modifier les paramètres des champs Workfront Planning.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '708'
 ht-degree: 46%
 
 ---
 
 
 # Modifier les paramètres de champ
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 {{planning-important-intro}}
 
@@ -26,7 +30,7 @@ Cet article décrit comment modifier les paramètres des champs Workfront Plann
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -47,14 +51,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -62,7 +66,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -70,7 +74,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard </p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -80,7 +84,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
+   <td>   <p>Gestion des autorisations relatives à un espace de travail <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p></td> 
   </tr> 
 <tr> 
@@ -155,26 +159,26 @@ OLD
 
 -->
 
-## Remarques concernant la modification des paramètres de champ
+## Considérations relatives à la modification des paramètres de champ
 
 Vous devez tenir compte des points suivants avant d’apporter des modifications à la configuration d’un champ :
 
 * Vous pouvez modifier les champs que vous avez créés ou ceux créés par d’autres personnes, si vous disposez des autorisations de gestion sur l’espace de travail auquel ces champs appartiennent.
 * Vous pouvez modifier un champ dans le tableau de type enregistrement.
-* Vous ne pouvez pas modifier un champ sur la page d’enregistrement ni dans une autre vue, en dehors de la vue de tableau.
+* Vous ne pouvez pas modifier un champ sur la page d’enregistrement ou dans un autre affichage, en dehors de la vue Tableau.
 * Une fois le champ enregistré, vous ne pouvez plus le modifier.
 * Vous ne pouvez pas désélectionner le paramètre Autoriser les nombres négatifs précédemment sélectionné pour un champ Nombre, Pourcentage ou Devise si des valeurs négatives sont déjà stockées dans les enregistrements auxquels il est joint.
-* Vous pouvez modifier la configuration des éléments de champ suivants, après avoir enregistré le champ :
+* Vous pouvez modifier la configuration des éléments de champ suivants après avoir enregistré le champ :
 
-   * Nom ou Description d’un champ
+   * Nom ou description d’un champ
    * Options d’un champ à sélection unique ou à sélection multiple.
-   * L&#39;expression d&#39;un champ Formule.
+   * Expression d’un champ de formule.
 
   >[!WARNING]
   >
-  >Lorsque des expressions de formule changent ou que des options sont ajoutées ou supprimées d’un champ de type sélectionné, des pertes de données sont survenues pour les enregistrements qui contiennent déjà des informations stockées dans les champs dont la configuration est modifiée.
+  >Lorsque des expressions de formule sont modifiées ou que des options sont ajoutées ou supprimées dans un champ de type select, il y aura une perte de données pour les enregistrements qui contiennent déjà des informations stockées dans les champs dont la configuration est modifiée.
   >
-  >Il n’y a aucun avertissement ou indication que cette perte de données pourrait se produire lorsque vous modifiez la configuration des champs.
+  >Aucun avertissement ni indication que cette perte de données peut se produire lorsque vous modifiez la configuration des champs.
   >
   >Les autres utilisateurs ne sont pas informés que la configuration du champ a changé.
 
@@ -188,13 +192,13 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
 
 1. Cliquez sur l’espace de travail dont vous souhaitez modifier les champs d’enregistrement.
 
-   L’espace de travail s’ouvre et tous les types d’enregistrement de l’espace de travail s’affichent sur les cartes.
+   L’espace de travail s’ouvre et tous les types d’enregistrements qu’il contient s’affichent sur des cartes.
 
 1. Cliquez sur la carte d’un type d’enregistrement.
 
    Cela ouvre la page du type d’enregistrement.
 
-1. (Conditionnel) Cliquez sur l’onglet d’une **vue Tableau**.
+1. (Conditionnel) Cliquez sur l’onglet d’une **Vue Tableau**.
 
    Tous les enregistrements existants associés au type d’enregistrement s’affichent dans les lignes de la vue Tableau.
 1. Pointez sur l’en-tête de colonne d’un champ à modifier, puis cliquez sur la flèche pointant vers le bas située après le nom du champ, puis sur **Modifier le champ**
@@ -211,9 +215,9 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
    >
    >* Une fois le champ enregistré, vous ne pouvez plus le mettre à jour.
    >
-   >* Lorsque vous modifiez des configurations de champ (options de champ ou expressions de formule), les enregistrements qui contiennent déjà des informations dans les champs modifiés mettent à jour leurs valeurs en temps réel. Il n’y a aucun avertissement et aucun journal d’audit pour les modifications de valeur déclenchées par les modifications de configuration des champs. Tous les utilisateurs qui visualisent les champs verront immédiatement les nouvelles valeurs avec les modifications.
+   >* Lorsque vous modifiez les configurations de champ (options de champ ou expressions de formule), les enregistrements qui contiennent déjà des informations dans les champs modifiés mettent à jour leurs valeurs en temps réel. Il n’existe aucun avertissement ni journal d’audit pour les modifications de valeur déclenchées par les modifications de configuration des champs. Tous les utilisateurs qui consultent les champs verront immédiatement les nouvelles valeurs avec les modifications.
 
-   Les informations des champs sont mises à jour pour toutes les personnes ayant accès à l’espace de travail.
+   Les informations de champ sont mises à jour pour toutes les personnes ayant accès à l’affichage de l’espace de travail.
 
 1. (Le cas échéant) Pour les champs d’enregistrement liés, cliquez sur **Modifier les champs de recherche** et ajoutez ou supprimez l’un des champs du type d’enregistrement lié.
 

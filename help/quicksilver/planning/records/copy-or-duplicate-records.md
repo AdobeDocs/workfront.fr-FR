@@ -1,29 +1,33 @@
 ---
-title: Duplication d’enregistrements
-description: Vous pouvez dupliquer un enregistrement existant en mode Tableau. Une copie identique de l’enregistrement existant est ajoutée à la page de type enregistrement.
+title: Dupliquer les enregistrements
+description: Vous pouvez dupliquer un enregistrement existant dans la vue Tableau. Une copie identique de l’enregistrement existant est ajoutée à la page du type d’enregistrement.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 33%
+source-wordcount: '583'
+ht-degree: 32%
 
 ---
 
-# Duplication d&#39;enregistrements
+# Dupliquer les enregistrements
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
 Dans Adobe Workfront Planning, un enregistrement est une instance d’un type d’enregistrement.
 
-Vous pouvez dupliquer un enregistrement existant en mode Tableau. Une copie identique de l’enregistrement existant est ajoutée à la page de type enregistrement.
+Vous pouvez dupliquer un enregistrement existant dans la vue Tableau. Une copie identique de l’enregistrement existant est ajoutée à la page du type d’enregistrement.
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -44,14 +48,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -59,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -67,7 +71,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard</p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -77,7 +81,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations de contribution ou de niveau supérieur pour un espace de travail</a> </p>  
+   <td>   <p>Autorisations de niveau Contributeur ou supérieur à un espace de travail <!--<span class="preview">and record type</span>--></a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr> 
 <tr> 
@@ -151,16 +155,16 @@ OLD:
 -->
 
 
-## Dupliquer un enregistrement <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Dupliquer une <!--in a record type table (I don't think you can create them elsewhere right now)--> d’enregistrement
 
-Vous pouvez créer des enregistrements dans la vue table d’une page de type enregistrement en dupliquant une page existante. Un enregistrement identique à celui existant est créé et ajouté sous l’enregistrement d’origine.
+Vous pouvez créer des enregistrements dans la vue Tableau d&#39;une page de type d&#39;enregistrement en dupliquant une page existante. Un enregistrement identique à l&#39;enregistrement existant est créé et ajouté sous l&#39;enregistrement d&#39;origine.
 
 
 {{step1-to-planning}}
 
-1. Cliquez sur l&#39;espace de travail dans lequel vous souhaitez ajouter des enregistrements.
+1. Cliquez sur l’espace de travail dans lequel vous souhaitez ajouter des enregistrements.
 
-   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
@@ -171,27 +175,27 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Passez la souris sur le nom d’un enregistrement, puis cliquez sur le menu **Plus** en ligne avec le nom de l’enregistrement, puis cliquez sur l’icône **Dupliquer** ![](assets/duplicate-icon-gray.png) .
+   * Pointez sur le nom d’un enregistrement, puis cliquez sur le menu **Plus** aligné avec le nom d’enregistrement, puis cliquez sur l’icône **Dupliquer** ![](assets/duplicate-icon-gray.png) .
 
      ![](assets/more-menu-from-record-in-table-view.png)
 
-   * Sélectionnez un enregistrement, puis cliquez sur l’icône **Dupliquer** ![](assets/duplicate-icon-white-and-blue.png) dans la barre d’outils située au bas de la page.
+   * Sélectionnez un enregistrement, puis cliquez sur l&#39;icône **Dupliquer** ![](assets/duplicate-icon-white-and-blue.png) dans la barre d&#39;outils située en bas de la page.
 
      ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
-   Un enregistrement identique portant le même nom est créé sous l’enregistrement d’origine. Tous les champs du nouvel enregistrement sont renseignés avec les mêmes informations que dans l’enregistrement d’origine.
+   Un enregistrement identique avec un nom identique est créé sous l’enregistrement d’origine. Tous les champs du nouvel enregistrement sont remplis avec les mêmes informations que dans l&#39;enregistrement d&#39;origine.
 
-1. (Facultatif) Commencez à mettre à jour les informations sur le nouvel enregistrement dans les champs disponibles dans la vue de tableau, ou cliquez sur l’enregistrement et mettez à jour les informations dans l’aperçu de l’enregistrement ou la page.
+1. (Facultatif) Commencez à mettre à jour les informations sur le nouvel enregistrement dans les champs disponibles en mode Tableau ou cliquez sur l’enregistrement et mettez à jour les informations dans la page ou l’aperçu de l’enregistrement.
 
    >[!NOTE]
    >
-   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Nous vous recommandons toutefois d’ajouter des informations pour le champ principal d’un enregistrement, car il est utile d’identifier les enregistrements lors de la liaison d’enregistrements. Pour plus d’informations sur les champs principaux, voir [Gestion de la vue de table](/help/quicksilver/planning/views/manage-the-table-view.md) et [Présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Les champs qui renvoient à d’autres types d’enregistrements ou à des champs calculés sont en lecture seule.
 
    Pour plus d&#39;informations sur la modification des enregistrements, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
-1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements ou de leurs informations lors de leur ajout dans la vue de tableau :
+1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements ou de leurs informations lors de leur ajout en mode Tableau :
 
    * CTRL + Z (⌘ + Z pour Mac) pour annuler une modification
-   * Ctrl + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir une modification.
+   * Ctrl+Maj+Z (⌘+Maj+Z pour Mac) pour rétablir une modification.

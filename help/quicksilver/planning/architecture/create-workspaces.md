@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 47%
+source-wordcount: '622'
+ht-degree: 48%
 
 ---
 
@@ -23,11 +23,11 @@ Dans Adobe Workfront Planning, les espaces de travail sont des emplacements ce
 
 Un espace de travail est une collection de types d’enregistrements utilisés par une équipe et représente le cycle de vie du travail de l’équipe. Vous pouvez entièrement personnaliser les espaces de travail dans Adobe Workfront Planning.
 
-Pour obtenir des informations générales sur les espaces de travail, consultez la [présentation des espaces de travail](/help/quicksilver/planning/architecture/workspaces-overview.md).
+Pour obtenir des informations générales sur les espaces de travail, voir [Présentation des espaces de travail](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -48,14 +48,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -63,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -71,7 +71,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard </p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -156,23 +156,23 @@ For more information about access requirements, see [Access requirements in Work
 
 ## Créer un espace de travail
 
-Vous pouvez créer un espace de travail et y ajouter des types d’enregistrement afin d’organiser vos objets dans la planification Workfront. Pour plus d’informations sur la modification d’un espace de travail, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
+Vous pouvez créer un espace de travail et y ajouter des types d’enregistrements afin d’organiser vos objets dans Workfront Planning. Pour plus d’informations sur la modification d’un espace de travail, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 {{step1-to-planning}}
 
 1. Cliquez sur **Créer un espace de travail**
 
-   La zone Créer un espace de travail s’affiche. Vous pouvez créer entièrement un espace de travail ou le créer à l’aide de l’un des modèles disponibles.
+   La zone Créer un espace de travail s’affiche. Vous pouvez créer un espace de travail à partir de zéro ou à l’aide de l’un des modèles disponibles.
 
 1. (Facultatif et le cas échéant) Cliquez sur **Prévisualisation** dans l’un des modèles d’espace de travail prédéfinis suivants :
 
-   * De base : gestion marketing
-   * Avancé : Gestion marketing
-   * Entreprise : gestion marketing
+   * De base : Marketing Management
+   * Avancé : Marketing Management
+   * Entreprise : Marketing Management
    * Gestion des ventes
    * Gestion des produits
 
-   La boîte de dialogue d’aperçu du modèle s’ouvre.
+   La zone d’aperçu du modèle s’ouvre.
 
    Il existe une indication des types d’enregistrements opérationnels, des taxonomies et du nombre de champs associés à chaque modèle.
 
@@ -180,18 +180,18 @@ Vous pouvez créer un espace de travail et y ajouter des types d’enregistremen
 
    Pour plus d’informations sur les modèles d’espace de travail de Workfront Planning, voir [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Dans la zone d’aperçu du modèle, cliquez sur **Utiliser le modèle** pour commencer à créer l’espace de travail à partir du modèle sélectionné.
+1. Dans la zone d&#39;aperçu du modèle, cliquez sur **Utiliser le modèle** pour commencer à créer l&#39;espace de travail à partir du modèle sélectionné
 
    Ou
 
-   Cliquez sur **Précédent**, puis sur **Nouvel espace de travail** pour créer un espace de travail entièrement nouveau.
+   Cliquez sur **Précédent** puis sur **Nouvel espace de travail** pour créer entièrement un espace de travail.
 
    Un des types d’espace de travail suivants est créé :
 
-   * Espace de travail vide **Workspace sans titre** où vous pouvez commencer à ajouter manuellement des types d’enregistrement lorsque vous créez un espace de travail à partir de zéro.
-   * Espace de travail nommé d’après le modèle que vous avez sélectionné et rempli avec des exemples de types d’enregistrement. Vous pouvez personnaliser davantage les types d’enregistrement et l’espace de travail.
+   * Un espace de travail vide nommé **Workspace sans titre** dans lequel vous pouvez commencer à ajouter manuellement des types d’enregistrements lorsque vous créez un espace de travail à partir de zéro.
+   * Un espace de travail nommé en fonction du modèle que vous avez sélectionné et renseigné avec des exemples de types d’enregistrements. Vous pouvez personnaliser davantage les types d’enregistrements et l’espace de travail.
 
-   Pour les administrateurs de Workfront, le nouvel espace de travail s’affiche sur l’onglet **Espaces de travail sur** .
+   Pour les administrateurs Workfront, le nouvel espace de travail s’affiche dans l’onglet **Espaces de travail auxquels je participe**.
 
    Pour tous les autres utilisateurs qui peuvent créer des espaces de travail, le nouvel espace de travail s’affiche dans la zone **Espaces de travail**.
 
@@ -205,14 +205,14 @@ Vous pouvez créer un espace de travail et y ajouter des types d’enregistremen
 
    >[!TIP]
    >
-   >Vous pouvez renommer n’importe quelle section à partir de n’importe quel espace de travail, même si vous n’avez pas créé la section.
+   >Vous pouvez renommer n’importe quelle section de n’importe quel espace de travail, même si vous n’avez pas créé la section.
 
-   Pour plus d’informations sur la modification des espaces de travail, y compris la modification des sections de l’espace de travail, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Pour plus d’informations sur la modification des espaces de travail, y compris les sections Espace de travail, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 1. (Facultatif) Cliquez sur **Ajouter un type d’enregistrement** pour ajouter des types d’enregistrement à l’espace de travail dans n’importe quelle section.
 
    Pour plus d’informations, voir [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   Pour plus d’informations sur la modification et la suppression des types d’enregistrement dans un espace de travail, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Pour plus d’informations sur la modification et la suppression des types d’enregistrements dans un espace de travail, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 

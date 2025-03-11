@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 29%
+ht-degree: 20%
 
 ---
 
@@ -41,8 +41,8 @@ Pour plus d&#39;informations sur la façon de connecter des enregistrements entr
 
   Les valeurs des champs de recherche renseignent l’enregistrement Workfront Planning à partir duquel vous établissez automatiquement la liaison après leur mise à jour dans l’enregistrement ou l’objet d’origine.
 
-* Toute personne ayant accès à Workfront Planning et disposant d’autorisations d’affichage ou supérieures à l’espace de travail peut voir les connexions que vous effectuez entre des enregistrements ou entre des enregistrements et des objets d’autres applications. Elles peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations dans les applications auxquelles vous vous connectez.
-* Vous pouvez afficher et modifier les connexions de toutes les autres personnes, si vous disposez des autorisations de gestion sur l’espace de travail dans lequel se trouvent les enregistrements connectés.
+* Toute personne ayant accès à Workfront Planning and View ou à des autorisations supérieures dans l&#39;espace de travail <!--<span class="preview">and record type</span>--> peut voir les connexions que vous établissez entre les enregistrements ou entre les enregistrements et les objets d&#39;autres applications. Elle peut afficher les enregistrements et les objets connectés, quelles que soient ses autorisations dans les applications auxquelles vous vous connectez.
+* Vous pouvez afficher et modifier les connexions de tous les autres utilisateurs si vous disposez des autorisations de niveau Gérer sur l’espace de travail <!--<span class="preview">and record type</span>--> où se trouvent les enregistrements connectés.
 * Vous pouvez connecter un enregistrement à un ou plusieurs objets depuis une autre application. Cela dépend du type de connexion que vous avez sélectionné lors de la connexion des types d&#39;enregistrement. Pour plus d’informations, consultez la section « Types de connexions » dans l’article [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Zones de connexion des enregistrements

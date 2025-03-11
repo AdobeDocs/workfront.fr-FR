@@ -1,14 +1,14 @@
 ---
 product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
-title: Définition des types de requête pour un projet
+title: Définition des types de demande pour un projet
 description: Vous pouvez organiser le type de problèmes ou de demandes consignés dans Adobe Workfront par types de demandes.
 author: Lisa
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '387'
 ht-degree: 87%
 
 ---
@@ -21,7 +21,7 @@ Cette organisation est utile pour des raisons de reporting et pour aider les uti
 
 ## Conditions d’accès
 
-+++
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -94,4 +94,4 @@ Avant de commencer, vous devez effectuer les opérations suivantes :
 
 1. Cliquer sur **Enregistrer**.
 
-   Les types de requêtes que vous avez spécifiés seront disponibles pour sélection lorsque vous saisissez un nouveau problème sur une tâche ou un projet, ou lorsque vous envoyez une nouvelle requête au projet, si le projet est activé en tant que file d’attente de requêtes.
+   Les types de demandes que vous avez spécifiés pourront être sélectionnés lorsque vous conclurez un nouveau problème sur une tâche ou un projet, ou lorsque vous soumettrez une nouvelle demande au projet, si le projet est activé comme une file d&#39;attente de demandes.

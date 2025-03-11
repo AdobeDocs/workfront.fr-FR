@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 43%
+source-wordcount: '922'
+ht-degree: 40%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 43%
 
 # Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
+
 {{planning-important-intro}}
 
 Vous pouvez partager ou supprimer des autorisations sur un espace de travail ou une vue Adobe Workfront Planning.
 
 Cet article décrit les niveaux d’autorisation pour les objets Workfront Planning.
-
-Pour plus d’informations sur le partage d’espaces de travail ou de vues, voir les articles suivants :
-
-* [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
-
-* [Partager des affichages](/help/quicksilver/planning/access/share-views.md)
 
 ## Objets que vous pouvez partager dans Adobe Workfront Planning
 
@@ -40,6 +40,22 @@ Vous pouvez partager les objets suivants :
    * Lorsque vous partagez un espace de travail, tous les types d’enregistrements, les enregistrements et les champs associés aux espaces de travail sont également partagés.
    * Lorsque vous partagez un espace de travail, les vues ne sont pas partagées. Les vues sont partagées séparément.
 
+  Pour plus d’informations, voir [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
+
+<!--
+<div class="preview">
+
+* Record types
+
+    * You can share record types with people inside your organization.
+    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
+    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+
+    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+
+</div>
+-->
+
 * Vues
 
    * Vous devez donner aux utilisateurs, y compris aux administrateurs système, les autorisations d’accéder aux vues séparément de leurs autorisations d’accès aux espaces de travail.
@@ -47,12 +63,20 @@ Vous pouvez partager les objets suivants :
    * Lorsque vous partagez une vue, les enregistrements visibles dans la vue ne sont pas partagés. Les enregistrements doivent être partagés en partageant les espaces de travail.
    * Vous pouvez partager une vue publiquement avec des personnes extérieures à votre organisation lorsque vous générez un lien public pour une vue. Les personnes accédant à la page d&#39;enregistrement à partir d&#39;un lien public peuvent afficher tous les enregistrements et leurs champs, y compris les enregistrements et champs connectés.
 
-  Pour plus d’informations, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md).
+  Pour plus d’informations, consultez la section [Partager des vues](/help/quicksilver/planning/access/share-views.md).
 
 En interne, vous pouvez partager un espace de travail ou une vue avec les entités Workfront suivantes :
 
 * Utilisateurs
 * Groupes
+
+<div class="preview">
+
+* Équipes
+* Entreprises
+* Fonctions
+
+</div>
 
 ## Considérations sur le partage d’objets dans Adobe Workfront Planning
 
@@ -78,7 +102,7 @@ Les tableaux des sections suivantes illustrent le niveau d’autorisation que vo
 >
 >Tous les utilisateurs et utilisatrices ne peuvent pas avoir les niveaux d’autorisation décrits ci-dessous. La licence individuelle de la personne détermine le niveau d’autorisation qu’elle peut recevoir pour les objets Workfront Planning.
 >
->Seuls les utilisateurs disposant d’une licence standard (ou de plan) peuvent disposer d’autorisations Contribute ou Gérer sur les espaces de travail et Gérer les autorisations sur les vues.
+>Seuls les utilisateurs disposant d’une licence standard (ou de plan) peuvent disposer d’autorisations de niveau Contribuer ou Gérer sur les espaces de travail et Gérer les autorisations sur les vues.
 > 
 >Les utilisateurs disposant de tous les autres types de licence peuvent disposer des autorisations d’affichage des espaces de travail et des vues.
 >
@@ -105,7 +129,7 @@ Voici les niveaux d’autorisation des espaces de travail :
 
 ### Autorisations de type d’enregistrement
 
-Les autorisations relatives au type d’enregistrement sont héritées lorsque vous accordez des autorisations à l’espace de travail.
+<!--In the Production environment,--> Les autorisations de type d’enregistrement sont toujours héritées lorsque vous accordez des autorisations à l’espace de travail.
 
 Voici les niveaux d’autorisation pour les types d’enregistrements :
 
@@ -116,6 +140,27 @@ Voici les niveaux d’autorisation pour les types d’enregistrements :
 | Supprimer | ✓ |            |       |
 | Modifier | ✓ |            |       |
 | Afficher | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+
+You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+
+The following scenarios exist: 
+
+|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, No permissions           | 
+| Contribute |     Contribute |  Contribute, View, No permissions        |
+| View   |  View     |      View, No permissions        |     
+
+
+</div>
+
+-->
 
 ### Autorisations d’enregistrement
 

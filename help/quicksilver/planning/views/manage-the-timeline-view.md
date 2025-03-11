@@ -1,15 +1,15 @@
 ---
 title: Gérer la vue chronologique
-description: Accédez aux enregistrements et modifiez-les dans une vue de chronologie sur la page de type d’enregistrement de la planification Adobe Workfront. Cet article décrit comment créer une vue de chronologie et modifier ou supprimer une vue existante. Personnalisez la chronologie à l’aide de filtres, de regroupements et de paramètres. Utilisez la fonction Ventilation pour afficher les enregistrements connectés.
+description: Accédez aux enregistrements et modifiez-les dans une vue chronologique sur la page Type d’enregistrement Adobe Workfront Planning. Cet article décrit comment créer une vue de chronologie et modifier ou supprimer une vue existante. Personnalisez la chronologie à l’aide de filtres, de regroupements et de paramètres. Utilisez la fonction Répartition pour afficher les enregistrements connectés.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '2638'
-ht-degree: 60%
+source-wordcount: '2635'
+ht-degree: 61%
 
 ---
 
@@ -23,7 +23,7 @@ Pour plus d’informations sur les vues d’enregistrement, consultez la section
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -44,14 +44,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -59,7 +59,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -67,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard </p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
-   <p>Afficher les autorisations d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
+   <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -160,11 +160,11 @@ Tenez compte des points suivants :
 
 * Vous ne pouvez créer une vue chronologique que si vous avez au moins deux champs de date associés à un type d’enregistrement. Lorsque vous avez un ou plusieurs champs de date associés à un type d’enregistrement, l’option de vue chronologique est grisée.
 
-  Vous pouvez effectuer une sélection dans les champs de date suivants lors de la création d’une vue de chronologie :
+  Vous pouvez effectuer un choix parmi les champs de date suivants lors de la création d’une vue chronologique :
 
    * Dates d’enregistrement
-   * Enregistrer les champs générés par le système : Date de création, Date de dernière modification
-   * Dates de recherche à partir des types d’enregistrements ou d’objets connectés.
+   * Enregistrer les champs générés par le système : date de création, date de dernière modification
+   * Dates de recherche à partir d&#39;enregistrements ou de types d&#39;objets connectés.
 * En fonction des dates associées aux enregistrements, certains enregistrements peuvent ne pas s’afficher dans la vue chronologique dans les scénarios suivants :
 
    * Lorsque les dates de début et de fin n’ont pas de valeur.
@@ -184,11 +184,11 @@ Pour gérer une vue chronologique :
    >
    >    Le tri des enregistrements dans la chronologie n’est pas visible dans la vue compacte.
 
-1. (Facultatif et conditionnel) Lorsque le nom de l’enregistrement est tronqué, passez la souris sur une barre d’enregistrement pour afficher le nom complet de l’enregistrement et des informations supplémentaires.
+1. (Facultatif et conditionnel) Lorsque le nom d’enregistrement est tronqué, passez la souris sur une barre d’enregistrement pour afficher le nom complet de l’enregistrement et des informations supplémentaires.
 
 1. Effectuez l’une des opérations suivantes pour naviguer dans la chronologie :
 
-   * Cliquez sur les icônes gauche et droite ou utilisez le défilement horizontal pour passer d’un plan à l’autre dans la chronologie. L’actualisation de la page préserve la période sélectionnée.
+   * Cliquez sur les icônes de gauche et de droite ou utilisez le défilement horizontal pour vous déplacer vers l’arrière et vers l’avant dans la chronologie. L’actualisation de la page conserve la période sélectionnée.
    * Cliquez sur **Aujourd’hui** pour centrer la chronologie sur la date d’aujourd’hui.
    * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
 
@@ -223,9 +223,9 @@ Pour gérer une vue chronologique :
    * [Paramètres](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
-1. (Facultatif) Cliquez sur **Ventilation** pour afficher les enregistrements connectés dans la chronologie.
+1. (Facultatif) Cliquez sur **Répartition** pour afficher les enregistrements connectés sur le journal.
 
-   Pour plus d’informations, reportez-vous à la section [Utilisation de la fonction de ventilation pour afficher les enregistrements connectés dans la vue de chronologie](#break-down-connected-records-in-the-timeline-view)
+   Pour plus d’informations, consultez la section [Utilisation de la fonction Répartition pour afficher les enregistrements connectés dans la vue chronologique](#break-down-connected-records-in-the-timeline-view)
 
 ### Ajouter des filtres
 
@@ -249,7 +249,7 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue c
 
   Pour plus d’informations, consultez la section « Ajout de filtres » dans l’article [Gestion de la vue tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté.
+* Vous pouvez filtrer par champs d’enregistrement connectés ou champs de recherche.
 * Vous pouvez filtrer par champs de recherche qui affichent plusieurs valeurs.
 
 
@@ -270,9 +270,9 @@ Tenez compte des points suivants lorsque vous utilisez des regroupements dans la
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
 * Vous pouvez modifier les enregistrements répertoriés dans un regroupement.
-* Vous pouvez regrouper par champs d’enregistrement ou de recherche connectés.
-* Lorsque vous effectuez un regroupement par champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), les enregistrements sont regroupés selon chaque combinaison unique de valeurs de champ.
-* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer l’état du projet dans le regroupement que vous créez pour le type d’enregistrement Activité .
+* Vous pouvez effectuer un regroupement par champs d’enregistrement connectés ou champs de recherche.
+* Lorsque vous regroupez des champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), les enregistrements sont regroupés selon chaque combinaison unique de valeurs de champ.
+* Vous pouvez référencer un champ qui se trouve à jusqu’à 4 niveaux du type d’enregistrement actuel. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’Activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le statut du projet dans le regroupement que vous créez pour le type d’enregistrement Activité.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -328,13 +328,13 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
 1. Cliquez sur **Style de barre** dans le panneau de gauche, pour indiquer les champs que vous souhaitez afficher dans les barres d’enregistrement.
 
-   Le champ principal (ou titre) de l’enregistrement, tel que défini dans la vue de table de l’enregistrement, est sélectionné par défaut. <!--adjust this when the primary field is released??-->
+   Le champ principal (ou titre) de l&#39;enregistrement, tel que défini dans la vue Tableau de l&#39;enregistrement, est sélectionné par défaut. <!--adjust this when the primary field is released??-->
 
 1. (Facultatif et le cas échéant) Si vous avez ajouté des miniatures aux enregistrements, sélectionnez l’option Miniature pour afficher l’image associée aux enregistrements dans leur barre d’enregistrement.
 
    >[!NOTE]
    >
-   >    Vous devez d’abord ajouter les miniatures dans la vue de tableau, avant de pouvoir les afficher dans la vue chronologique. Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   >    Vous devez d’abord ajouter les miniatures dans la vue de tableau, avant de pouvoir les afficher dans la vue chronologique. Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 1. Cliquez sur **Ajouter un champ** pour ajouter jusqu’à 4 champs aux barres d’enregistrement.
 1. Cliquez dans la zone **Champs de recherche** et cliquez sur le champ que vous souhaitez ajouter.
@@ -356,13 +356,13 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 1. (Le cas échéant et facultatif) Si vous avez ajouté un regroupement à la vue chronologique, sélectionnez l’une des options suivantes pour définir une couleur pour le regroupement dans la section **Définir la couleur du regroupement** :
 
    * **Par défaut (gris)** : la couleur des regroupements est le gris. Il s’agit de la valeur par défaut.
-   * **Valeurs de champ** : la couleur des groupements correspond à la couleur du champ par lequel vous effectuez un groupement.
+   * **Valeurs de champ** : la couleur des regroupements correspond à celle du champ que vous regroupez.
 
      >[!NOTE]
      >
-     >    * Vous ne pouvez faire correspondre la couleur qu’aux champs contenant des options codées par couleur. Par exemple, vous pouvez faire correspondre la couleur aux champs État ou aux champs auxquels des options sont associées.
+     >    * Vous ne pouvez faire correspondre la couleur qu’aux champs avec des options codées par couleur. Par exemple, vous pouvez associer la couleur aux champs État ou aux champs avec des options associées aux couleurs.
      >    
-     >    * Vous ne pouvez pas faire correspondre la couleur aux champs de recherche des types d’enregistrement ou d’objet liés.
+     >    * Vous ne pouvez pas faire correspondre la couleur aux champs de recherche à partir d&#39;enregistrements liés ou de types d&#39;objets.
 
 
    Par exemple, les champs à sélection multiple ou unique peuvent avoir des options codées par couleur.
@@ -394,50 +394,50 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    Les enregistrements s’affichent dans la vue chronologique avec les spécifications que vous avez sélectionnées.
 
-### Utilisez la fonction Ventilation pour afficher les enregistrements connectés dans la vue de chronologie.
+### Utilisez la fonction Répartition pour afficher les enregistrements connectés dans la vue chronologique
 
-Vous pouvez afficher les enregistrements connectés dans la vue de chronologie d’un enregistrement à l’aide de la fonction Ventilation . La ventilation des enregistrements selon leur connexion vous permet d’afficher les chronologies des autres enregistrements connectés et de comprendre comment ils peuvent affecter les performances et les échéances de vos enregistrements.
+Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&#39;un enregistrement à l&#39;aide de la fonction Répartition. La répartition des enregistrements en fonction de leurs connexions vous permet d&#39;afficher la chronologie d&#39;autres enregistrements connectés et de comprendre comment ils peuvent affecter les performances et les échéances de vos enregistrements.
 
-#### Remarques concernant l’utilisation de la fonction de ventilation
+#### Remarques concernant l’utilisation de la fonction Répartition
 
-* Vous pouvez afficher les enregistrements ou les objets connectés sous les enregistrements du type d’enregistrement sélectionné dans la vue de la chronologie.
-* Vous pouvez afficher les éléments suivants dans la vue de chronologie à l’aide de la fonction Ventilation :
+* Vous pouvez afficher les enregistrements ou les objets connectés sous les enregistrements du type d&#39;enregistrement sélectionné dans la vue chronologique.
+* Vous pouvez afficher les éléments suivants dans la vue Chronologie à l’aide de la fonction Répartition :
    * Enregistrements Workfront Planning connectés au type d&#39;enregistrement sélectionné.
    * Types d’objet Workfront ou ressources Experience Manager connectées au type d’enregistrement sélectionné.
-   * Workfront Planning enregistre ou objets d&#39;une autre application connectés à des enregistrements connectés au type d&#39;enregistrement sélectionné.
+   * Enregistrements ou objets Workfront Planning d&#39;une autre application connectés à des enregistrements connectés au type d&#39;enregistrement sélectionné.
 
-     Par exemple, vous pouvez connecter des campagnes à des portefeuilles. En outre, vous pouvez connecter un autre type d’enregistrement, &quot;produits&quot;, aux projets, ainsi qu’aux campagnes. Lorsque vous créez la vue de chronologie de campagne, vous pouvez ventiler les campagnes par portfolios, produits et projets.
+     Par exemple, vous pouvez lier des campagnes à des portfolios. En outre, vous pouvez connecter un autre type d’enregistrement, products, à des projets, ainsi qu’à des campagnes. Lorsque vous créez la vue chronologique de la campagne, vous pouvez répartir les campagnes par portfolios, produits et projets.
 
-* Vous ne pouvez pas afficher les types d’objets qui ne sont connectés qu’aux objets Workfront dans Workfront, mais qui ne sont pas connectés à un type d’enregistrement Workfront Planning. Vous pouvez uniquement afficher les types d’objets ou d’enregistrements connectés dans Workfront Planning.
+* Vous ne pouvez pas afficher les types d&#39;objets qui sont connectés uniquement aux objets Workfront dans Workfront, mais qui ne sont pas connectés à un type d&#39;enregistrement Workfront Planning. Vous ne pouvez afficher que les types d&#39;objet ou d&#39;enregistrement connectés dans Workfront Planning.
 
-  Par exemple, les tâches sont connectées aux projets dans Workfront. La fonction Ventilation vous permet d’afficher les projets connectés aux campagnes dans Planification , mais pas les tâches liées aux projets dans Workfront.
+  Par exemple, les tâches sont liées à des projets dans Workfront. Grâce à la fonction Répartition, vous pouvez afficher les projets connectés aux campagnes dans Planning, mais pas les tâches connectées aux projets dans Workfront.
 
-  Si vous souhaitez afficher à la fois les portefeuilles et les projets dans la vue chronologique d’un type d’enregistrement de planification Workfront, les portefeuilles et les projets doivent être connectés à l’enregistrement de planification ou à un enregistrement connecté à l’enregistrement de planification dont vous gérez la vue chronologique.
-* Vous ne pouvez afficher que les types d’enregistrement associés à au moins deux champs de date.
-* Les champs de date pour les types d’enregistrement que vous souhaitez afficher dans la vue de chronologie doivent être visibles dans la vue de tableau du type d’enregistrement sélectionné, sous forme de champs de recherche.
-* Les dates de début et de fin des types d’enregistrement que vous souhaitez afficher dans la vue de chronologie doivent être classées par ordre chronologique. Par exemple, si un enregistrement a une date de début le 31 janvier et une date de fin le 1er janvier, il ne s’affiche pas dans la vue de la chronologie. Pour plus d’informations, reportez-vous à la section [Gestion d’une vue de chronologie](#manage-a-timeline-view) de cet article.
-* Il existe une limite de 5 types d’enregistrement que vous pouvez inclure dans la ventilation d’un enregistrement.
+  Si vous souhaitez afficher à la fois les portefeuilles et les projets dans la vue chronologique d&#39;un type d&#39;enregistrement Planning Workfront, les portefeuilles et les projets doivent être connectés à l&#39;enregistrement Planning ou à un enregistrement connecté à l&#39;enregistrement Planning dont vous gérez la vue chronologique.
+* Vous pouvez uniquement afficher les types d’enregistrements associés à au moins deux champs de date.
+* Les champs de date des types d’enregistrement que vous souhaitez afficher dans la vue chronologique doivent être visibles dans la vue Tableau du type d’enregistrement sélectionné, sous la forme de champs de recherche.
+* Les dates de début et de fin des types d’enregistrements à afficher dans la vue chronologique doivent être dans l’ordre chronologique. Par exemple, si un enregistrement a une date de Début fixée au 31 janvier et une date de Fin fixée au 1er janvier, il ne s&#39;affiche pas dans la vue chronologique. Pour plus d’informations, consultez la section [Gérer une vue chronologique](#manage-a-timeline-view) de cet article.
+* Vous pouvez inclure une limite de 5 types d’enregistrements dans la répartition d’un enregistrement.
 
-#### Ventiler les enregistrements connectés dans la vue de chronologie
+#### Répartir les enregistrements connectés dans la vue chronologique
 
 1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
-1. (Conditionnel) Si vous affichez la vue de la chronologie en mode standard, cliquez sur **Ventilation**.
+1. (Conditionnel) Si vous affichez la vue chronologique en mode Standard, cliquez sur **Répartition**.
 1. Développez la zone **Sélectionner un type d’enregistrement lié** et sélectionnez un type d’enregistrement connecté. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
-   >    Si vous ne disposez d’aucun enregistrement connecté ou si les enregistrements connectés ne possèdent pas au moins deux champs de date, la zone **Sélectionner un type d’enregistrement lié** n’est pas disponible.
+   >    Si vous n&#39;avez aucun enregistrement connecté ou si les enregistrements connectés n&#39;ont pas au moins deux champs de date, la zone **Sélectionner un type d&#39;enregistrement lié** n&#39;est pas disponible.
 
-1. Choisissez une **Date de début** et un **Champ de date de fin**.
+1. Choisissez un **Date de début** et un **Champ de date de fin**.
 
    >[!TIP]
    >
-   >    Les dates de Début et de Fin doivent être séquentielles. Si la date de fin est antérieure à la date de début, aucun enregistrement ne s’affiche dans la chronologie.
+   >    Les dates de début et de fin doivent être séquentielles. Si la date de fin est antérieure à la date de début, aucun enregistrement ne s’affiche dans le journal.
 
-   Une flèche pointant vers la droite s’affiche sur la barre de l’enregistrement sélectionné dans la chronologie, si ces derniers sont connectés à d’autres enregistrements.
-1. Cliquez sur la flèche pointant vers la droite pour développer un type d’enregistrement et afficher les connexions.
+   Une flèche pointant vers la droite s&#39;affiche sur la barre de l&#39;enregistrement sélectionné dans la chronologie, s&#39;ils sont connectés à d&#39;autres enregistrements.
+1. Cliquez sur la flèche pointant vers la droite pour développer un type d’enregistrement et afficher ses connexions.
 
    ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 

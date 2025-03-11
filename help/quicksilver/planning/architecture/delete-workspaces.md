@@ -1,14 +1,14 @@
 ---
-title: Supprimer des espaces de travail
+title: Supprimer les espaces de travail
 description: Vous pouvez supprimer des espaces de travail lorsqu’ils ne sont plus pertinents.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '441'
 ht-degree: 52%
 
 ---
@@ -27,7 +27,7 @@ Avant de supprimer un espace de travail, nous vous recommandons de créer à nou
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -48,14 +48,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -63,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -71,7 +71,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard </p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -167,19 +167,19 @@ OLD:
 
 {{step1-to-planning}}
 
-1. (Conditionnel) Si vous êtes administrateur Workfront, cliquez sur **Espaces de travail sur** pour accéder aux espaces de travail que vous avez créés, ou sur **Autres espaces de travail** pour accéder aux espaces de travail partagés avec vous.
+1. (Sous condition) Si vous êtes un administrateur Workfront, cliquez sur **Espaces de travail sur lesquels je travaille** pour accéder aux espaces de travail que vous avez créés, ou **Autres espaces de travail** pour accéder aux espaces de travail que d’autres personnes ont partagés avec vous.
 
-1. (Facultatif) Cliquez sur **Tout afficher** pour afficher des espaces de travail supplémentaires. Le lien **Tout afficher** s’affiche uniquement lorsque vous avez plus de deux lignes de cartes d’espace de travail.
-1. (Facultatif) Cliquez sur **Afficher moins** pour limiter le nombre d’espaces de travail qui s’affichent à l’écran.
+1. (Facultatif) Cliquez sur **Tout afficher** pour afficher des espaces de travail supplémentaires. Le lien **Tout afficher** s’affiche uniquement lorsque vous disposez de plus de deux lignes de cartes d’espace de travail.
+1. (Facultatif) Cliquez sur K **Afficher moins** pour limiter le nombre d’espaces de travail affichés à l’écran.
 1. Pour supprimer un espace de travail, effectuez l’une des opérations suivantes :
 
-   * Passez la souris sur la carte de l’espace de travail, puis cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit de la carte.
+   * Pointez sur la carte de l’espace de travail, puis cliquez sur le ![](assets/more-menu.png) de menu **Plus** dans le coin supérieur droit de la carte
 Ou
-   * Cliquez sur une carte d’espace de travail pour ouvrir l’espace de travail, puis cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du nom de l’espace de travail.
+   * Cliquez sur une carte d’espace de travail pour ouvrir l’espace de travail, puis cliquez sur l’![](assets/more-menu.png) du menu **Plus** à droite du nom de l’espace de travail.
 1. Cliquez sur **Supprimer**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Saisissez &quot;**delete**&quot; dans l’espace fourni, puis cliquez sur **Supprimer définitivement**. Ceci n’est pas sensible à la casse.
+1. Saisissez « **delete** » dans l’espace prévu à cet effet, puis cliquez sur **Supprimer définitivement**. Cette opération n’est pas sensible à la casse.
 
    L’espace de travail est supprimé de manière irréversible. Les types d’enregistrement, enregistrements, champs et vues qui leur sont associés sont également supprimés. <!--ensure this is right at or before GA-->

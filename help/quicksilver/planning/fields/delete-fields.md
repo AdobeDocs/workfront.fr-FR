@@ -1,21 +1,25 @@
 ---
-title: Supprimer des champs
+title: Supprimer les champs
 description: Adobe Workfront Planning vous permet de supprimer les champs personnalisés qui ne sont plus pertinents.
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 56%
+source-wordcount: '493'
+ht-degree: 55%
 
 ---
 
 
 
 # Supprimer des champs
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 {{planning-important-intro}}
 
@@ -30,13 +34,13 @@ Vous pouvez supprimer les champs Workfront Planning qui ne sont plus pertinents
 * Vous ne pouvez supprimer un champ que dans la vue Tableau du type d’enregistrement.
 * Vous ne pouvez pas supprimer le champ principal d’un enregistrement.
 * Toutes les informations stockées dans le champ sont supprimées et ne peuvent pas être récupérées.
-* Lorsque vous supprimez un champ d’enregistrement connecté, tous les champs de recherche connectés sont également supprimés du type d’enregistrement duquel vous vous connectez. Les champs d’enregistrement connectés des types d’enregistrement auxquels vous vous connectez sont également supprimés de l’enregistrement auquel vous vous connectez.
+* Lorsque vous supprimez un champ d’enregistrement connecté, tous les champs de recherche connectés sont également supprimés du type d’enregistrement auquel vous vous connectez. Les champs d’enregistrement connectés des types d’enregistrement auxquels vous vous connectez sont également supprimés de l’enregistrement auquel vous vous connectez.
 
-  Par exemple, lorsque vous connectez des campagnes à un autre type d’enregistrement appelé produit et que vous supprimez le champ Produit connecté et le champ de recherche État du produit de la campagne, les éléments suivants sont supprimés :
+  Par exemple, lorsque vous connectez des campagnes à un autre type d’enregistrement appelé produit et que vous supprimez le champ Produit connecté et le champ de recherche Statut du produit de la campagne, les éléments suivants sont supprimés :
 
-   * Le champ Produit connecté de l&#39;opération
-   * Champ de recherche de l’état du produit de la campagne
-   * Le champ Campaign connecté du produit.
+   * Le champ Produit connecté de la campagne
+   * Le champ de recherche Statut du produit de la campagne
+   * Le champ connecté à Campaign à partir du produit .
 
   Pour plus d’informations, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -44,7 +48,7 @@ Vous pouvez supprimer les champs Workfront Planning qui ne sont plus pertinents
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès à la planification Workfront.
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -65,14 +69,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des projets Workfront suivants est prévu :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package de planification Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
@@ -80,7 +84,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -88,7 +92,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard </p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -98,7 +102,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
+   <td>   <p>Gestion des autorisations relatives à un espace de travail <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p></td> 
   </tr> 
 <tr> 
@@ -183,7 +187,7 @@ OLD:
 
 1. Cliquez sur la carte d’un type d’enregistrement.
 
-1. (Conditionnel) Si cette option n’est pas déjà sélectionnée, cliquez sur l’onglet d’une **vue Tableau** sur la page de type enregistrement.
+1. (Conditionnel) S&#39;il n&#39;est pas déjà sélectionné, cliquez sur l&#39;onglet d&#39;une **vue Tableau** sur la page du type d&#39;enregistrement.
 
    Tous les enregistrements existants associés au type d’enregistrement s’affichent dans les lignes de la vue Tableau.
 

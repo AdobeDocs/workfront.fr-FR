@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 85%
+ht-degree: 78%
 
 ---
 
@@ -87,7 +87,7 @@ Vous pouvez ajouter de nouveaux champs dans Adobe Workfront Planning qui refl�
 
 * Les champs Workfront sont accessibles à partir de Workfront Planning uniquement lorsque vous connectez des types d’enregistrement à des types d’objets Workfront et ajoutez des champs liés ou de recherche à partir d’objets Workfront. Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-* Vous pouvez afficher et mettre à jour les paramètres des champs que vous ou toute autre personne avez créés, si vous disposez des autorisations de gestion pour l’espace de travail auquel le champ appartient.
+* Vous pouvez afficher et mettre à jour les paramètres des champs que vous ou tout autre utilisateur avez créés, si vous disposez d’autorisations de niveau Gérer sur l’espace de travail <!--<span class="preview">and record type</span>--> le champ appartient.
 
 * Vous pouvez avoir jusqu’à 500 champs pour un type d’enregistrement.
 

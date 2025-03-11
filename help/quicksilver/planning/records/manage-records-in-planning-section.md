@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1797'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ Vous pouvez afficher les enregistrements Workfront Planning dans Workfront dans 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès pour Workfront Planning.
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -92,7 +92,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader"><p>Autorisations d’objet</p></td>
    <td>
    <p>Dans Workfront, autorisations d’affichage ou supérieures pour un projet, un portfolio ou un programme</a> </p> 
-   <p>Dans Workfront Planning, affichez les autorisations relatives à un espace de travail pour afficher les enregistrements connectés ou les autorisations de niveau Contributeur ou supérieur relatives à un espace de travail pour connecter ou déconnecter des enregistrements</a> </p>  
+   <p>Dans Workfront Planning :
+   <ul><li>
+   Afficher les autorisations d’un espace de travail <!--<span class="preview">and record type</span>--> afficher tous les enregistrements connectés </li>
+   ou
+   <li> Autorisations de niveau Contributeur ou supérieur à un espace de travail <!--<span class="preview">and record type</span>--> pour connecter ou déconnecter des enregistrements</a></li></ul> </p>  
    <p>Les administrateurs système disposent d’autorisations sur tous les espaces de travail Workfront Planning, y compris ceux qu’ils n’ont pas créés</p> 
   </td>
   </tr>

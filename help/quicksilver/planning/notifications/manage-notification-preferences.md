@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 23%
+source-wordcount: '499'
+ht-degree: 24%
 
 ---
 
@@ -33,7 +33,7 @@ Vous pouvez recevoir une notification in-app ou par e-mail lorsque les actions s
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès pour Workfront Planning.
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -69,8 +69,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée d’Adobe.</p> 
-<p>Les utilisateurs et utilisatrices de votre organisation reçoivent des notifications de Workfront Planning uniquement lorsque votre organisation intègre l’expérience unifiée d’Adobe. </p>
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe.</p> 
+<p>Les utilisateurs et utilisatrices de votre organisation reçoivent des notifications de Workfront Planning uniquement lorsque votre organisation intègre l’expérience unifiée Adobe. </p>
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 

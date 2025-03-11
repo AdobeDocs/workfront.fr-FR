@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 90%
+source-wordcount: '651'
+ht-degree: 80%
 
 ---
 
 # Vue d’ensemble de la section Historique
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -26,18 +30,88 @@ Le panneau de droite d’un enregistrement affiche les sections suivantes :
 * **Commentaires** : affiche les commentaires et réponses ajoutées aux enregistrements. Pour plus d’informations sur la gestion des commentaires dans les enregistrements Workfront Planning, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
 * **Historique** : affiche les modifications apportées aux champs d’enregistrement et enregistrées par le système.
 
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produits</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
+   <td> 
+<p>L’un des plans Workfront suivants :</p> 
+<ul><li>Sélectionner</li> 
+<li>Principal</li> 
+<li>Final</li></ul> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
+   <td> 
+<p>Tous </p> 
+<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
+   <td> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+   <td> <p>Standard</p>
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Autorisations d’objet</p></td> 
+   <td>   <p>Autorisations d’affichage ou supérieures pour un espace de travail <!--<span class="preview">and record type</span>--> </a> </p>  
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Modèle de disposition</p></td> 
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Rechercher la section Historique d’un enregistrement
 
 {{step1-to-planning}}
 
-1. Cliquez sur la carte d’un espace de travail.
+1. Cliquez sur la vignette d’un espace de travail.
 
-   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sur les cartes.
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sur les cartes.
 
-1. Cliquez sur une carte de type enregistrement.
-La page de type enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
+1. Cliquez sur une carte de type d’enregistrement.
+La page de type d’enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
 
-1. Dans n’importe quelle vue, cliquez sur le nom d’un enregistrement.
+1. Dans n’importe quel affichage, cliquez sur le nom d’un enregistrement.
 
    La page de l’enregistrement s’ouvre. La zone Commentaires s’ouvre par défaut dans le panneau de droite.
 1. Cliquez sur l’icône **Afficher l’historique** ![](assets/show-history-icon.png). Toutes les modifications apportées aux champs de l’enregistrement s’affichent dans le panneau de droite, en commençant par la plus récente.

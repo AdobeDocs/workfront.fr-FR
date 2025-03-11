@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 74%
+source-wordcount: '510'
+ht-degree: 70%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 74%
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # Partager des enregistrements
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +32,28 @@ Vous pouvez partager un enregistrement Adobe Workfront Planning de différente
 
 * Copiez un lien vers la page de l’enregistrement lors de l’affichage des enregistrements dans la vue de table du type d’enregistrement.
 
-* Vous pouvez partager tous les enregistrements d’un espace de travail avec d’autres personnes en partageant l’espace de travail. Pour plus d’informations, voir [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md).
+* Vous pouvez partager tous les enregistrements d’un espace de travail avec d’autres utilisateurs en partageant le <!--<span class="preview">and record type</span>--> de l’espace de travail . Pour plus d’informations, voir [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md).
+
+<!-- replace the last sentence above with this: 
+
+For more information see the following articles:
+
+* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+
+
+<div class="preview">
+
+* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>
+
+-->
 
 Cet article décrit comment copier un lien vers une page d’enregistrement à partir de la vue Tableau d’un type d’enregistrement.
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès pour Workfront Planning.
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -88,8 +107,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>  <p>Autorisations d’affichage ou autorisations supérieures pour un espace de travail afin de partager un enregistrement à l’aide d’un lien </p>
-   <p>Gérer les autorisations d’un espace de travail pour partager les enregistrements de l’espace de travail auquel appartient l’enregistrement </p>
+   <td>  <p>Autorisations d’affichage ou supérieures dans un espace de travail pour partager <!--<span class="preview">and record type</span>--> un enregistrement à l’aide d’un lien </p>
+   <p>Gérer les autorisations sur un espace de travail <!--<span class="preview">and record type</span>--> de partager les enregistrements dans l’espace de travail </p>
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
   </tr> 
 <tr> 
