@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 18%
+source-wordcount: '441'
+ht-degree: 17%
 
 ---
 
@@ -68,3 +68,5 @@ Nous avons mis à jour l’aspect de la boîte de dialogue Partager vers une con
 
 * L’option « Visible à l’échelle du système » affiche désormais « Tout le monde dans le système peut afficher ». Cette option fonctionne toujours comme avant.
 * Une nouvelle icône permet d’accéder aux paramètres de partage avancés.
+
+Pour plus d’informations sur l’emplacement de la boîte de dialogue Partager, voir [Accorder et demander des autorisations pour les objets](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
