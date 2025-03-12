@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Modifier les informations d’article
+title: Modifier les informations sur l'histoire
 description: Quand une mosaïque d’histoire est affichée sur le tableau Kanban, certaines données peuvent être modifiées en ligne, directement à partir de cette mosaïque.
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 92%
+source-wordcount: '410'
+ht-degree: 91%
 
 ---
 
@@ -107,10 +107,10 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Accédez au tableau [!UICONTROL Kanban].
 1. Développez la tuile de l’histoire pour afficher tous les champs qui lui sont associés.
 
-   ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![Carte d’histoire](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
-1. (Facultatif) Pour modifier un champ, cliquez dessus, puis apportez toute modification.
-Vous devez disposer des droits [!UICONTROL Modifier] sur la tâche ou le problème pour pouvoir modifier la mosaïque de l’article.
+1. (Facultatif) Pour modifier un champ, cliquez sur le champ, puis apportez les modifications nécessaires.
+Vous devez disposer des droits [!UICONTROL Modifier] sur la tâche ou l’événement pour modifier la mosaïque de l’histoire.
 Pour plus d’informations sur chaque champ et savoir s’il peut être modifié, voir la section [Comprendre les informations qui peuvent être visualisées et modifiées](#understand-what-information-can-be-viewed-and-edited).
 
 >[!NOTE]

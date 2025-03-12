@@ -2,15 +2,15 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Aperçu du graphique de Burndown mobile
+title: Aperçu du graphique d'avancement Agile
 description: Le graphique d’avancement fournit une représentation visuelle de l’avancement des histoires dans l’itération ou le projet. Le taux d’avancement réel est mesuré par rapport au taux d’avancement idéal pour la chronologie de l’itération ou du projet.
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 99%
+source-wordcount: '970'
+ht-degree: 96%
 
 ---
 
@@ -31,31 +31,31 @@ Le graphique d’avancement contient les indicateurs visuels suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="Début du taux d&apos;avancement idéal"> </td> 
    <td> <p>Le taux d’avancement idéal en fonction du moment où l’itération a commencé.</p> <p>Cette ligne ne s’affiche pas si la portée de l’itération ne change jamais (les heures ou les points ne sont jamais ajoutés ou supprimés).</p> <p>Cette ligne est plate lorsque le travail est effectué un jour de congé. Pour plus d’informations, consultez <a title="Utiliser le graphique d’avancement Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Effet des jours de congé sur le graphique d’avancement</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt="Taux d&apos;avancement idéal sur les articles ou les tâches"> </td> 
    <td> <p>Le taux d’avancement idéal en fonction des histoires ou des tâches en cours.</p> <p>Le taux d’avancement idéal actuel (ligne bleue pleine) diffère du taux d’avancement idéal d’origine (ligne bleue pointillée) lorsque des heures ou des points sont ajoutés ou supprimés de l’itération une fois l’itération commencée.</p> <p>Cette ligne est plate lorsque le travail est effectué un jour de congé.</p> <p>Pour plus d’informations, consultez <a title="Utiliser le graphique d’avancement Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Effet des jours de congé sur le graphique d’avancement</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="Taux d&apos;avancement réel en rouge"> </td> 
    <td> <p>Le taux d’avancement réel s’affiche en rouge lorsque le taux d’avancement est inférieur au taux idéal (plus de points ou d’heures par jour que le calcul d’avancement idéal).</p> <p>La formule suivante est utilisée pour calculer le taux d’avancement réel :</p> <p>[SUM(valeur de point ou d’heure de travail en cours * pourcentage terminé) + valeur de point ou d’heure de travail terminé]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt="Taux d&apos;avancement réel en vert"> </td> 
    <td> <p>Le taux d’avancement réel s’affiche en vert lorsque le taux d’avancement est égal ou supérieur au taux idéal (égal ou inférieur au nombre de points restant par jour par rapport au calcul d’avancement idéal).</p> <p>La formule suivante est utilisée pour calculer le taux d’avancement réel :</p> <p>[SUM(valeur de point ou d’heure de travail en cours * pourcentage terminé) + valeur de point ou d’heure de travail terminé]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Modification de la portée"> </td> 
    <td> <p>Changements de portée (heures ou points ajoutés ou supprimés de l’itération).</p> <p>Les changements de portée sont toujours affichés sous la forme d’une ligne verticale au milieu de la journée. En outre, un point bleu s’affiche au milieu de toute journée où un changement de portée s’est produit.</p> <p>L’axe vertical du graphique d’avancement affiche les points ou heures de l’histoire.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Modification dans la période"> </td> 
    <td> <p>Changements de période (la durée d’itération est augmentée ou réduite).</p> <p>Un point bleu s’affiche au milieu d’une journée où la durée d’itération a été modifiée.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Point vert pour le travail brûlé"> </td> 
    <td> <p>Un point vert ou rouge est affiché sur le taux d’avancement réel chaque fois que le travail progresse. (Lorsque le taux d’avancement réel sur cette journée est rouge, le point est rouge ; lorsque le taux d’avancement réel sur cette journée est vert, le point est vert.)</p> <p>Le travail progresse lorsque l’une des situations suivantes se produit :</p> 
     <ul> 
      <li> La valeur [!UICONTROL Percent Complete] augmente dans l’histoire.<br>[!UICONTROL Percent Complete] augmente en cas de : 

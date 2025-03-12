@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
-title: Création d’un article agile
+title: Créer une histoire agile
 description: Vous pouvez créer une histoire Agile sur une itération de différentes manières. Après avoir créé une histoire Agile, vous pouvez ajouter des sous-tâches à l’histoire.
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 99%
@@ -65,7 +65,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Itérations]** pour sélectionner une itération spécifique, ou sélectionnez **[!UICONTROL Itération actuelle]**.
    1. Cliquez sur le nom de l’itération spécifique où vous souhaitez créer une histoire.
 
-   ![Ajouter une nouvelle histoire à l’itération](assets/iteration-add-story.png)
+   ![Ajouter une nouvelle histoire à l’itération](assets/iteration-stories-list.png)
 
 1. Cliquez sur **[!UICONTROL Nouvelle histoire].**
 1. Indiquez les informations suivantes :

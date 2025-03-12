@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Catégorisation des articles par couleur sur le panorama
+title: Classer les histoires par couleur sur le scrum board
 description: L’association des couleurs par défaut des histoires du panorama Scrum varie selon que le panorama se trouve sur une itération ou sur un projet.
 author: Lisa
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 98%
+source-wordcount: '427'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 L’association des couleurs par défaut des histoires varie selon que le panorama de l’histoire se trouve sur une itération ou sur un projet :
 
-* **[!UICONTROL Itération]** : lors d’une itération, les mosaïques du panorama d’histoires sont codées par couleur en fonction du projet auquel l’histoire est associée. (Chaque projet se voit arbitrairement attribuer une couleur sur le storyboard.) Vous pouvez modifier ce comportement par défaut pour chaque équipe agile. Les couleurs pour les histoires Agile d’une itération peuvent être liées au projet (par défaut), à la priorité de l’histoire, à la personne propriétaire ou à un formulaire libre. Pour plus d’informations, voir la section [Configurer l’utilisation des indicateurs de couleur pour les histoires sur le panorama d’histoires Agile](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) dans l’article [Configurer Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+* **[!UICONTROL Itération]** : lors d’une itération, les mosaïques du panorama d’histoires sont codées par couleur en fonction du projet auquel l’histoire est associée. (Une couleur est arbitrairement attribuée à chaque projet sur le storyboard.) Vous pouvez modifier ce comportement par défaut pour chaque équipe agile. Les couleurs pour les histoires Agile d’une itération peuvent être liées au projet (par défaut), à la priorité de l’histoire, à la personne propriétaire ou à un formulaire libre. Pour plus d’informations, voir la section [Configurer l’utilisation des indicateurs de couleur pour les histoires sur le panorama d’histoires Agile](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) dans l’article [Configurer Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 * **[!UICONTROL Projet]** : sur un projet, toutes les sous-tâches correspondent à la couleur de la tâche parent, de sorte que les couleurs de toutes les histoires d’un couloir donné sont les mêmes. Les couleurs sont affectées de manière aléatoire aux tâches au moment de leur création si la tâche ne comporte aucune sous-tâche ou n’a pas de tâche parent. Vous pouvez changer ce comportement par défaut en modifiant la vue Agile. Les couleurs des histoires Agile sur un projet peuvent être liées à l’histoire parent (par défaut), à la priorité de l’histoire, à la personne propriétaire ou à un formulaire libre. Pour plus d’informations, voir la section [Créer ou personnaliser une vue [!UICONTROL Agile]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) dans [Vue d’ensemble des vues dans  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
@@ -59,8 +59,8 @@ Si les paramètres de l’équipe Agile ont été configurés de sorte que l’o
 1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Itérations]** pour sélectionner une itération spécifique, ou choisissez **[!UICONTROL Itération actuelle]**.
 1. Pointez sur la bannière de couleur en haut de la mosaïque d’histoires.
 
-   ![](assets/agile-story-color1-nwe-350x140.png)
+   ![carte d’histoire](assets/agile-story-color1-nwe-350x140.png)
 
 1. Cliquez sur **[!UICONTROL Changer de couleur]**, puis sélectionnez la couleur de votre choix.
 
-   ![](assets/agile-story-color2-nwe-350x138.png)
+   ![choisissez la couleur](assets/agile-story-color2-nwe-350x138.png)

@@ -8,9 +8,9 @@ description: En tant qu’administrateur ou administratrice de Workfront Proof,
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6210f20e-073a-45c8-9b71-212a124648e8
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: aa0cd55db1bb70f74fb7157ed0aeb484d7598c0b
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '81'
 ht-degree: 100%
 
 ---
@@ -24,5 +24,3 @@ ht-degree: 100%
 En tant qu’administrateur ou administratrice de [!DNL Workfront Proof], vous pouvez configurer [!DNL Workfront Proof] pour l’intégrer à [!DNL Basecamp], [!DNL Basecamp Classic], [!DNL NetSuite] et [!DNL Workfront].
 
 Après avoir établi les connexions générales pour l’intégration, chaque personne peut configurer ses propres connexions personnelles via l’onglet [!UICONTROL Intégrations] disponible sur la page Paramètres personnels.
-
-Voir les articles [Intégrations](https://support.workfront.com/hc/en-us/categories/115000588707-Integrations) pour plus de détails et d’instructions.

@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Affichage et modification des informations sur l’article sur le panorama de script
+title: Afficher et modifier les informations sur l'histoire sur le scrum board
 description: Quand une mosaïque d’histoire est affichée sur le tableau Kanban, certaines données peuvent être modifiées en ligne, directement à partir de cette mosaïque.
 author: Lisa
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '466'
 ht-degree: 95%
 
 ---
@@ -89,7 +89,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
    <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Accès à [!UICONTROL Contribute] ou [!UICONTROL Gérer] à la tâche ou au problème</td> 
+   <td>Accès de [!UICONTROL Contribute] ou de [!UICONTROL Manage] à la tâche ou à l'événement</td> 
   </tr>
  </tbody> 
 </table>
@@ -109,7 +109,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Accédez au storyboard Agile [!UICONTROL Scrum].
 1. Développez la tuile de l’[!UICONTROL histoire] pour afficher tous les champs associés à l’histoire.
 
-   ![](assets/agile-storycard-scrum-2021-350x333.png)
+   ![carte d’histoire](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. (Facultatif) Pour modifier un champ, cliquez dessus, puis effectuez les modifications nécessaires.
 

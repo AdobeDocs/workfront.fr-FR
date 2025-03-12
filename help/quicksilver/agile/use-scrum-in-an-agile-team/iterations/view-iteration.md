@@ -6,7 +6,7 @@ description: Vous pouvez afficher toutes les itérations d’une équipe donnée
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 556a2b89f2e380d3a0725f0d53251d3e1e3c7ca7
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 88%
@@ -64,4 +64,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. (Facultatif) Cliquez sur le nom de l’itération spécifique que vous souhaitez afficher.
 Les histoires de l’itération s’affichent.
 
-   ![[!UICONTROL Histoires dans l’itération]](assets/iteration-stories-list-NWE.png)
+   ![[!UICONTROL Histoires dans l’itération]](assets/iteration-stories-list.png)

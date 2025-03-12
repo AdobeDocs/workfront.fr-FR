@@ -6,10 +6,10 @@ description: Les itérations sont un élément clé pour les équipes Agile Scru
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 89%
+source-wordcount: '1119'
+ht-degree: 84%
 
 ---
 
@@ -101,7 +101,14 @@ Utilisez la fonctionnalité [!UICONTROL Planifier une itération] pour créer un
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Sélectionnez **[!UICONTROL Liste d’attente]** dans le panneau de gauche. Cliquez ensuite sur **[!UICONTROL Planifier une itération]**.
+1. Sélectionnez **[!UICONTROL Liste d’attente]** dans le panneau de gauche.
+
+1. Sur l’onglet **Histoires** ou **Événements**, sélectionnez au moins un élément de travail, puis cliquez sur **[!UICONTROL Planifier l’itération]**.
+
+>[!NOTE]
+>
+> Vous ne pouvez pas basculer entre l’onglet Histoires ou Événements lors de la planification d’une itération sur l’onglet Liste d’attente . Vous pouvez ajouter des histoires ou des événements existants une fois l’itération créée. Pour plus d’informations, voir [ Déplacer des histoires de la liste d’attente vers une itération ou un panorama](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+
 
 1. Indiquez les informations suivantes :
 

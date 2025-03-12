@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: iterations
-title: Ajout d’articles à une itération existante
+title: Ajouter des histoires à une itération existante
 description: Vous pouvez ajouter des histoires à une itération de plusieurs façons.
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 88%
 
 ---
@@ -94,14 +94,14 @@ Vous pouvez ajouter une tâche ou un problème à n’importe quelle itération 
 >
 >Une fois que la tâche est déplacée vers l’itération, vous ne pouvez pas mettre à jour le [!UICONTROL Type de durée] ou la [!UICONTROL Contrainte de tâche]. Le [!UICONTROL Type de durée] est défini sur [!UICONTROL Simple] et la [!UICONTROL Contrainte de tâche] est définie sur [!UICONTROL Dates fixes] afin que la chronologie de la tâche reste cohérente avec la chronologie de l’itération.
 
-1. Ouvrez la tâche ou le problème que vous souhaitez ajouter à une itération.
+1. Ouvrez la tâche ou l’événement à ajouter à une itération.
 Ou
-Accédez au projet, au rapport ou au tableau de bord qui contient la tâche ou le problème que vous souhaitez ajouter à une itération. Sélectionnez ensuite une ou plusieurs tâches ou problèmes.
+Accédez au projet, rapport ou tableau de bord contenant la tâche ou l’événement à ajouter à une itération. Sélectionnez ensuite une ou plusieurs tâches ou un ou plusieurs événements.
 
-1. Cliquez sur **[!UICONTROL Plus]** ![](assets/more-icon.png) > **[!UICONTROL Ajouter à l’itération]**.
+1. Cliquez sur **[!UICONTROL Plus]** ![Icône Plus](assets/more-icon.png) > **[!UICONTROL Ajouter à l’itération]**.
 Vous ne pouvez pas attribuer des tâches ou des problèmes affectés à des équipes non agiles.
 
-1. Dans la zone **[!UICONTROL Ajouter à]**, commencez à saisir le nom de l’itération, puis sélectionnez-le lorsqu’il apparaît dans la liste.
+1. Dans la zone **[!UICONTROL Ajouter à]**, commencez à saisir le nom de l’itération, puis sélectionnez-la lorsqu’elle apparaît dans la liste.
 
    >[!NOTE]
    >

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
+source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
++++Développez pour afficher les mises à jour de l’interface Administration et Configuration.
 
 ### Mise à jour de l’interface pour le Centre d’annonces
 
@@ -140,7 +142,11 @@ Nous avons mis à jour les listes d’approbation de projets, de tâches et d’
 
 Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonctionnalité n’a été modifiée.
 
++++
+
 ## Agile
+
++++Développer pour afficher les mises à jour de l’interface Agile
 
 ### Mises à jour des interfaces pour les demandes des équipes
 
@@ -177,7 +183,8 @@ Nous avons mis à jour la zone Équipes > Liste d’attente avec une conception 
 Cette mise à jour comprend les modifications suivantes :
 
 * Améliorations visuelles de l’onglet Histoires et événements ainsi que de la boîte de dialogue Répartition de l’histoire
-* Nouvelle boîte de dialogue pour l’outil de planification de l’itération
+* Nouvelle boîte de dialogue pour l’outil de planification de l’itération. Vous devez sélectionner une histoire ou un événement pour que le bouton Planifier l&#39;itération s&#39;affiche.
+* Vous ne pouvez plus basculer entre l’onglet Histoires et Événements lors de la planification d’une itération. Vous pouvez ajouter des histoires ou des événements à partir de l’onglet Liste d’attente une fois l’itération créée.
 
 ### Mise à jour de l’interface pour la liste des Itérations
 
@@ -199,7 +206,11 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 Pour afficher cette modification, accédez à Équipes > choisir une équipe > Liste d’attente, puis cliquez sur **Nouvelle histoire** ou **Nouvel événement**.
 
++++
+
 ## Documents
+
++++Développer pour afficher les mises à jour de l’interface Documents
 
 ### Mise à jour de l&#39;interface pour la zone Validations d&#39;un document
 
@@ -217,7 +228,11 @@ Nous avons mis à jour la boîte de dialogue de modification des dossiers intell
 
 Pour afficher cette modification, accédez à Documents > Cliquez sur le menu Plus en regard du nom du filtre dynamique > Cliquez sur Modifier.
 
++++
+
 ## Rapports et tableaux de bord
+
++++Développez pour afficher les mises à jour de l’interface Rapports et tableaux de bord.
 
 ### Mise à jour du rapport d’équipe avec un nouveau style
 
@@ -271,3 +286,5 @@ Nous avons ajouté un nouveau bouton Modifier le mode Texte et modifié la boît
 
 * Filtres hérités
 * Regroupements
+
++++

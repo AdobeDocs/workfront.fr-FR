@@ -6,9 +6,9 @@ description: Vous pouvez créer des éléments de travail et des projets à part
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '842'
 ht-degree: 16%
 
 ---
@@ -19,7 +19,6 @@ Vous pouvez créer des éléments de travail et des projets à partir de la zone
 
 De chez vous, vous pouvez
 
-* Créer des tâches personnelles pour vous-même
 * Soumettre des demandes
 * Ajouter des tâches et des événements à des projets spécifiques
 * Créez des projets à partir d’un modèle, d’un projet vierge ou importez un projet MS.

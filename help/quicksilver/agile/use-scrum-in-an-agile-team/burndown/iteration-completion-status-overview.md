@@ -2,15 +2,15 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Aperçu de l’état d’achèvement de l’itération
+title: Aperçu du statut d'achèvement de l'itération
 description: Les informations d’achèvement décrites dans cet article s’affichent au-dessus du graphique d’avancement.
 author: Lisa
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 99%
+source-wordcount: '649'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ Les informations d’achèvement décrites dans cet article s’affichent au-des
 
 Pourcentage d’achèvement d’une itération :
 
-![](assets/burndown-percentcomplete-350x47.png)
+![panneau détails de l’itération](assets/burndown-percentcomplete-350x47.png)
 
 ces informations indiquent l’état d’achèvement de l’itération pour le jour actuellement sélectionné dans le graphique d’avancement. Par défaut, l’état d’achèvement s’affiche en fonction de la date du jour actuel.
 
@@ -49,7 +49,7 @@ Les informations suivantes sont disponibles :
 
   Lorsque l’[!UICONTROL Estimation d’achèvement] est postérieure à la date de fin définie pour l’itération, le nombre de jours ouvrés restants est affiché en rouge entre parenthèses à côté de l’[!UICONTROL Estimation d’achèvement].
 
-  Lorsque l’[!UICONTROL Estimation d’achèvement] est antérieure à la date de fin prévue de l’itération, le nombre de jours ouvrés restants est affiché en vert. (La date de fin de l’itération est spécifiée lors de la planification de l’itération, comme décrit dans la section [Créer une itération](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md). La date de fin du projet est la [!UICONTROL Date d’achèvement prévue], ou la date actuelle si la [!UICONTROL Date d’achèvement prévue] est dépassée. La [!UICONTROL Date d’achèvement prévue] pour le projet est calculée en fonction de la durée des tâches du projet.) Lors de la planification de l’itération, si vous définissez la date de fin de l’itération sur un jour non ouvré et que l’itération est censée se terminr dans les temps, la date d’achèvement estimée est définie sur le dernier jour ouvrable précédant la date de fin de l’itération que vous avez définie (étant donné que le travail n’est pas planifié pour être effectué pendant les jours non ouvrés).
+  Lorsque l’[!UICONTROL Estimation d’achèvement] est antérieure à la date de fin prévue de l’itération, le nombre de jours ouvrés restants est affiché en vert. (La date de fin de l’itération est spécifiée lors de la planification de l’itération, comme décrit dans la section [Créer une itération](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md). La date de fin du projet est la [!UICONTROL Date d’achèvement prévue], ou la date actuelle si la [!UICONTROL Date d’achèvement prévue] est dépassée. La [!UICONTROL Date d&#39;achèvement prévue] pour le projet est calculée en fonction de la durée des tâches du projet.) Lors de la planification de l&#39;itération, si vous définissez la date de fin de l&#39;itération pour un jour non ouvré et que l&#39;itération suit son avancement pour se terminer à temps, la date d&#39;achèvement estimée est définie pour le dernier jour ouvré précédant la date de fin de l&#39;itération que vous avez définie (car il n&#39;est pas prévu que le travail soit consommé les jours non ouvrés).
 
   Par exemple, « (+9 jours) » indique que la date d’achèvement estimée est de 9 jours ouvrés après la date de fin prévue de l’itération.
 

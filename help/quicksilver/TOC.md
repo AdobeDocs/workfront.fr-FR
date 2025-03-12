@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: e4c037b3c5d77094db51c159dcd045aa34fcbe61
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '13066'
+source-wordcount: '13072'
 ht-degree: 91%
 
 ---
@@ -849,6 +849,7 @@ ht-degree: 91%
          * [Gérer les demandes de travail et d’équipe dans la zone d’accueil](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Mettre à jour ou modifier un élément de travail dans la zone d’accueil](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
          * [Créer des éléments de travail et des projets à partir de la zone d’Accueil](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [Créer et gérer des tâches personnelles](workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
          * [Consigner les heures passées sur un élément de travail à partir de la zone Accueil](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Marquer un élément comme Terminé dans la zone Accueil](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [Utiliser la zone Mes mises à jour](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
