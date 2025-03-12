@@ -1,23 +1,31 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Gérer les heures d’affectation des personnes et des rôles sur les tâches
+title: Gérer les heures d'affectation des utilisateurs et des rôles pour les tâches
 description: Lors de l’affectation de personnes ou de rôles à une tâche, un certain nombre d’heures de travail leur sont allouées pour accomplir la tâche. Vous pouvez modifier manuellement le nombre d’heures allouées à chaque personne ou fonction lors de l’affectation à une tâche, lorsque le type de durée de la tâche est Simple.
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 89%
+source-wordcount: '566'
+ht-degree: 83%
 
 ---
 
 # Gérer les heures d’affectation des personnes et des rôles sur les tâches
 
+Les heures d&#39;affectation représentent le temps total prévu pour qu&#39;une ressource affectée travaille sur une tâche. Les heures représentent le temps alloué à un utilisateur un jour donné ou un jour de la semaine, une semaine ou un mois pendant toute la durée de la tâche.
+
+>[!NOTE]
+>
+>Lors de l’affectation d’utilisateurs et utilisatrices au travail, leur disponibilité en fonction de leurs plannings affecte les Dates prévues et prévisionnelles des tâches et des problèmes. Pour plus d’informations sur les plannings, consultez la section [Créer un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,12 +36,12 @@ ht-degree: 89%
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard </p>
    <p>Actuellement : Travail ou licence supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux tâches</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +51,7 @@ ht-degree: 89%
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

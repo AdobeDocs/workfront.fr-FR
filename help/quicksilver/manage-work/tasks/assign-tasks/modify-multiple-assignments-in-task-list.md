@@ -1,15 +1,15 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Modifier plusieurs affectations d’utilisateurs et utilisatrices dans une liste de tâches
+title: Modifier plusieurs affectations d’utilisateurs dans une liste de tâches
 description: Lors de la gestion des affectations de tâche, vous pouvez simultanément les modifier pour plusieurs tâches à la fois à l’aide de la fonction de modification en masse d’une liste de tâches.
 author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '966'
 ht-degree: 94%
 
 ---
@@ -34,6 +34,8 @@ Pour plus d’informations sur l’affectation d’une tâche à une ressource d
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -43,7 +45,7 @@ Pour plus d’informations sur l’affectation d’une tâche à une ressource d
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard</p>
    <p>Actuellement : Travail ou licence supérieure</p> </td> 
   </tr> 
@@ -58,7 +60,7 @@ Pour plus d’informations sur l’affectation d’une tâche à une ressource d
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 95%
+source-wordcount: '1132'
+ht-degree: 88%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez ajuster les informations d’affectation suivantes lors d’affectat
 
 ## Zones d’Adobe Workfront où vous pouvez effectuer des affectations avancées.
 
-Cet article décrit comment accéder aux affectations avancées dans l’en-tête de la tâche ou du problème.
+Cet article décrit comment accéder à des affectations avancées dans l’en-tête de la tâche ou de l’événement.
 
 En outre, vous pouvez effectuer des affectations avancées dans les zones suivantes de Workfront :
 
@@ -47,6 +47,8 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -56,7 +58,7 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard</p>
     <p>Actuellement : Travail ou licence supérieure</p> </td> 
   </tr> 
@@ -71,7 +73,7 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,18 +85,17 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
    >[!TIP]
    >
    >Vous pouvez effectuer des affectations avancées directement sur la liste de tâches ou de problèmes si au moins deux personnes sont affectées. Cliquez dans le champ **Affectations** sur la même ligne que la tâche ou le problème, puis cliquez sur l’**icône Personnes** pour ouvrir la fenêtre Affectations avancées. Passez à l’étape 5 pour continuer à créer des affectations avancées.\
-   >![](assets/nwe-advanced-assignments-350x55.png)
-   >
+   >![Cliquez sur l’icône Personnes](assets/nwe-advanced-assignments-350x55.png)
 
 1. Cliquez sur **Affecter à** dans le champ **Affectations** dans l’en-tête de la tâche ou du problème.
 
    Ou
 
-   Cliquez sur les noms des affectations si la tâche ou le problème est déjà affecté.
+   Cliquez sur l&#39;un des noms affectés si la tâche ou l&#39;événement est déjà affecté.
 
 1. Cliquez sur **Avancé**.
 
-   <span class="preview">![Cliquez sur Avancé](assets/assignments-box-in-task-header.png)</span>
+   ![Cliquez sur Avancé](assets/assignments-box-in-task-header.png)
 
 1. Dans le champ **Rechercher des personnes, des rôles et des équipes**, commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
@@ -102,7 +103,7 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
    >
    >Si le nom de l’utilisateur ou utilisatrice contient un caractère spécial, vous devez l’inclure dans le champ de recherche.
 
-1. (Facultatif) Continuez à ajouter des personnes cessionnaires dans la boîte dialogue **Rechercher des personnes, des rôles ou des équipes** pour ajouter plusieurs ressources à la tâche ou au problème.
+1. (Facultatif) Continuez à ajouter des personnes désignées dans la zone **Rechercher des personnes, des rôles et des équipes** pour ajouter plusieurs ressources à la tâche ou à l’événement.
 
    >[!TIP]
    >
@@ -111,14 +112,13 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
    >
    >* Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, le rôle principal de l’utilisateur ou de l’utilisatrice ou son adresse e-mail, pour faire la distinction entre les utilisateurs et utilisatrices portant le même nom.
    >Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
-   >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez la section [Accorder l’accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
    >* Si une personne, une fonction ou une équipe a été affectée avant d’être désactivée, elle reste affectée à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
    >   
    >   * Réaffectez la tâche aux ressources actives.
    >   * Associez les utilisateurs et utilisatrices d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
-   >
 
    <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
     * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
@@ -133,7 +133,7 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
      >
      >Selon la manière dont votre équipe d’administration Workfront ou votre administrateur ou administratrice de groupes configure les préférences de votre projet, Workfront peut utiliser le planning de la personne propriétaire de la tâche pour calculer la chronologie de la tâche lorsque plusieurs utilisateurs et utilisatrices sont affectés à la tâche. Pour plus d’informations sur les tâches à plusieurs personnes cessionnaires, voir la section « Affecter plusieurs utilisateurs et utilisatrices à une tâche » dans l’article [Affecter des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
-   * **Allocations** : lorsque le type de durée d’une tâche est simple, spécifiez le nombre d’heures affecté à chaque utilisateur ou utilisatrice ou fonction pour la tâche. La somme de toutes les heures affectées de chaque utilisateur ou utilisatrice est égale au nombre indiqué dans le champ **Nombre d’heures prévues** au bas de la colonne Allocations. Dans tous les autres cas, indiquez le pourcentage de temps (ou allocation) que vous souhaitez que la personne cessionnaire passe à résoudre la tâche ou le problème.
+   * **Allocations** : lorsque le type de durée d’une tâche est Simple, indiquez le nombre d’heures auxquelles chaque utilisateur ou utilisatrice ou fonction doit être affecté à la tâche. La somme de toutes les heures affectées de chaque utilisateur ou utilisatrice est égale au nombre indiqué dans le champ **Nombre d’heures prévues** au bas de la colonne Allocations. Dans tous les autres cas, indiquez le pourcentage de temps (ou allocation) que vous souhaitez que la personne cessionnaire passe à résoudre la tâche ou le problème.
 
      >[!TIP]
      >   
@@ -141,7 +141,7 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
      >   * Vous ne pouvez pas modifier manuellement les allocations d’affectation sur les problèmes.
      >   * Vous ne pouvez pas modifier manuellement les affectations des équipes affectées à des tâches.
 
-   * **Rôle du ou de la cessionnaire :** sélectionnez le rôle que l’utilisateur ou utilisatrice doit utiliser pour cette affectation.  Le rôle principal de l’utilisateur ou utilisatrice s’affiche par défaut. Cliquez dans la zone Rôle du ou de la cessionnaire pour sélectionner un autre rôle.  Lorsque vous affectez d’abord la tâche ou le problème à un rôle, puis que vous ajoutez un utilisateur ou une utilisatrice qui peut assumer ce rôle comme seconde affectation, la liste des utilisateurs et utilisatrices suggérés est filtrée pour afficher ceux qui peuvent assumer les rôles déjà affectés à la tâche et au problème.
+   * **Rôle du ou de la cessionnaire :** sélectionnez le rôle que l’utilisateur ou utilisatrice doit utiliser pour cette affectation.  Le rôle principal de l’utilisateur ou utilisatrice s’affiche par défaut. Cliquez dans la zone **Rôle du cessionnaire** pour sélectionner un autre rôle. Lorsque vous affectez d’abord la tâche ou le problème à un rôle, puis que vous ajoutez un utilisateur ou une utilisatrice qui peut assumer ce rôle comme seconde affectation, la liste des utilisateurs et utilisatrices suggérés est filtrée pour afficher ceux qui peuvent assumer les rôles déjà affectés à la tâche et au problème.
 
      ![Rôle de la personne cessionnaire](assets/advanced-assignments-select-role.png)
 
@@ -160,6 +160,5 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
      Pour plus d’informations, voir [Vue d’ensemble de la durée et du type de durée des tâches](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Lors de la modification en masse d’informations d’affectation, une boîte de dialogue similaire s’affiche pour affecter des utilisateurs et utilisatrices, des heures, une affectation et le propriétaire de la tâche.
 
    * **Nombre d’heures prévues** : lorsque le type de durée est Calcul d’affectation ou Simple, mettez à jour le nombre d’heures prévues. Ensuite, les pourcentages d’affectation ou les heures de chaque ressource sont répartis uniformément. Workfront calcule le nombre d’heures prévues lorsque le type de durée est Calcul de travail ou Piloté par l’effort. Pour plus d’informations, voir [Vue d’ensemble de la durée et du type de durée des tâches](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-
 
 1. Cliquer sur **Enregistrer**.

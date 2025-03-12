@@ -1,15 +1,15 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Attribuer des tâches
+title: Affecter des tâches
 description: Vous pouvez affecter des tâches aux utilisateurs et utilisatrices, fonctions ou équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
 author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '2012'
 ht-degree: 97%
 
 ---
@@ -60,6 +60,8 @@ En plus de cet article, nous vous recommandons de lire les articles suivants pou
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -69,7 +71,7 @@ En plus de cet article, nous vous recommandons de lire les articles suivants pou
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard</p>
    <p>Actuellement : Travail ou licence supérieure</p>
    </td> 
@@ -80,13 +82,13 @@ En plus de cet article, nous vous recommandons de lire les articles suivants pou
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> </td> 
+   <td>Autorisations de contribution ou de niveau supérieur pour une tâche</td> 
   </tr> 
  </tbody> 
 </table>
 
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Considérations relatives à plusieurs affectations pour les fonctoins, les équipes et les utilisateurs et utilisatrices

@@ -2,15 +2,15 @@
 content-type: overview;how-to-procedural
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Vue d’ensemble de la modification des affectations de tâches
+title: Présentation de la modification des affectations de tâche
 description: Vous pouvez affecter des tâches à des personnes, à des équipes ou à des fonctions, ou en annuler l’affectation. Vous pouvez affecter plusieurs ressources simultanément ou une seule ressource. Vous pouvez affecter une tâche à la fois ou plusieurs tâches en masse.
 author: Lisa
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

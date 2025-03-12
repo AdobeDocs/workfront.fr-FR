@@ -1,15 +1,15 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Gérer le pourcentage d’affectation des utilisateurs et des utilisatrices ou des rôles pour les tâches
+title: Gérer le pourcentage d'affectation des utilisateurs ou des rôles pour les tâches
 description: La durée quotidienne prévue pour qu’une ressource dédiée travaille sur une tâche est exprimée par le pourcentage d’affectation. Il s’agit du pourcentage d’une journée de travail (selon le planning de l’utilisateur ou de l’utilisatrice ou du projet) auquel une ressource est affectée pendant toute la durée de la tâche.
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 98%
+source-wordcount: '451'
+ht-degree: 94%
 
 ---
 
@@ -25,6 +25,8 @@ La durée quotidienne prévue pour qu’une ressource dédiée travaille sur une
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -34,7 +36,7 @@ La durée quotidienne prévue pour qu’une ressource dédiée travaille sur une
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard</p> 
    <p>Actuellement : Travail ou licence supérieure</p> </td> 
   </tr> 
@@ -49,7 +51,7 @@ La durée quotidienne prévue pour qu’une ressource dédiée travaille sur une
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises pour la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les informations de ce tableau, voir [Conditions d’accès requises pour la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

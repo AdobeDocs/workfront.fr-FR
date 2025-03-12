@@ -6,9 +6,9 @@ description: Vous pouvez utiliser des affectations intelligentes pour identifier
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '422'
 ht-degree: 87%
 
 ---
@@ -37,6 +37,8 @@ Pour plus d’informations sur les critères utilisés pour déterminer les affe
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -46,7 +48,7 @@ Pour plus d’informations sur les critères utilisés pour déterminer les affe
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard</p>
       Ou
       <p>Actuellement : Travail ou licence supérieure</p> </td> 
@@ -62,7 +64,7 @@ Pour plus d’informations sur les critères utilisés pour déterminer les affe
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +92,7 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
    * **Utilisateurs et équipes**, **Fonctions** ou <span class="preview">**Fonctions de carte tarifaire**</span> : <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   ![](assets/smart-assignments-task-list.png)
+   ![Exemple d&#39;affectations intelligentes dans la liste des tâches](assets/smart-assignments-task-list.png)
 
    Pour en savoir plus, consultez la section [Vue d’ensemble des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

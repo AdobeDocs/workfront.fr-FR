@@ -2,15 +2,15 @@
 content-type: overview;how-to-procedural
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Vue d’ensemble des affectations intelligentes
+title: Présentation des affectations intelligentes
 description: Lors de la gestion des tâches et des affectations de problèmes, vous pouvez utiliser des affectations intelligentes pour identifier la personne la plus apte à effectuer le travail. Les affectations intelligentes sont des suggestions qu’Adobe Workfront vous présente lorsque vous affectez des éléments de travail à des ressources en fonction d’un algorithme qui détermine la ressource la plus appropriée pour le traitement.
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 77%
+source-wordcount: '583'
+ht-degree: 73%
 
 ---
 
@@ -51,23 +51,23 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
 * Liste de problèmes ou rapport dans la colonne Affectations
 
-  ![](assets/smart-assignments-issue-list.png)
+  ![Colonne Affectations de liste d&#39;événements](assets/smart-assignments-issue-list.png)
 
 * Une liste de tâches ou un rapport dans la colonne Affectations
 
-  ![](assets/smart-assignments-task-list.png)
+  ![Colonne Affectations de la liste des tâches](assets/smart-assignments-task-list.png)
 
 * En-tête de tâche dans le champ Affectations
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![Champ Affectations d’en-tête de tâche](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * En-tête de problème dans le champ Affectations
 
-  ![](assets/smart-assignments-issue-header.png)
+  ![Champ Affectations d&#39;en-tête d&#39;événement](assets/smart-assignments-issue-header.png)
 
 * Panneau Résumé de la tâche ou du problème dans la zone Affectations
 
-  ![](assets/issue-assignments-summary-panel.png)
+  ![Zone Affectations du panneau Résumé](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -81,8 +81,7 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
 * Équilibreur de charge de travail dans la zone A affecté ce(tte) lors de l’affectation d’une tâche ou d’un problème
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
-
+  ![Zone Affectations de l’équilibreur de charge de travail](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## Critères d’affectation intelligente
 
@@ -153,7 +152,7 @@ Les affectations identifiées sont répertoriées dans les sections **Utilisateu
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![](assets/smart-assignments-issue-header.png)
+![Exemple d’affectation dynamique](assets/smart-assignments-issue-header.png)
 
 Les personnes sont recommandées dans la liste déroulante Affectations intelligentes en fonction d’une combinaison des critères suivants (répertoriés dans l’ordre du plus important au moins important) :
 
