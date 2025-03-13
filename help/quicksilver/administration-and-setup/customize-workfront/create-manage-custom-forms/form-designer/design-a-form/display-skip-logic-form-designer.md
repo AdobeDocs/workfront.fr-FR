@@ -1,5 +1,5 @@
 ---
-title: Ajouter la logique d’affichage et Ignorer la logique à un formulaire
+title: Ajout de règles logiques aux Forms et champs personnalisés
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 9f2ada5f9954878efc195661173fe88a0fe1d3bd
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 92%
+source-wordcount: '1745'
+ht-degree: 67%
 
 ---
 
-# Ajouter une logique d’affichage et ignorer la logique à un formulaire
+# Ajout de règles logiques aux formulaires et champs personnalisés
 
-L’utilisateur ou l’utilisatrice peut choisir quelles sections d’un formulaire personnalisé doivent être affichées ou ignorées en fonction des choix effectués lors du remplissage.
+{{highlighted-preview}}
+
+Les règles logiques vous permettent de personnaliser davantage les champs de votre formulaire.
+
+Par exemple, vous pouvez afficher ou ignorer des champs ou des sections dans un formulaire personnalisé en fonction des choix effectués par un utilisateur ou une utilisatrice lors du remplissage.
 
 >[!NOTE]
 >
@@ -57,7 +61,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Icônes de logique d’affichage et de saut
 
-Les formulaires personnalisés affichent des icônes pour indiquer la logique appliquée à certains champs. Les icônes sur un champ dans le créateur de formulaire indiquent que la logique est appliquée au champ.
+Les formulaires personnalisés affichent des icônes pour indiquer quand la logique d’affichage ou d’omission est appliquée à certains champs. Les icônes sur un champ dans le créateur de formulaire indiquent que la logique est appliquée au champ.
 
 | Icône | Emplacement du champ dans le créateur de formulaire | Définition |
 |--- |--- |--- |
@@ -96,31 +100,104 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
 
 La logique d’affichage définit les champs personnalisés qui apparaissent dans le formulaire lorsque l’utilisateur ou l’utilisatrice sélectionne une valeur spécifique dans un champ à choix multiple. La logique est ajoutée au champ cible, qui ne s’affiche que lorsque la valeur est sélectionnée.
 
+<!--
+>[!NOTE]
+>
+><span class="preview">This procedure describes the basic mode for display logic. Advanced display logic is also available. For more information, see [Add advanced display logic to a custom form](#add-advanced-display-logic-to-a-custom-form), in this article.</span>
+-->
+
 {{step-1-to-setup}}
 
 1. Cliquez sur **Formulaires personnalisés**.
 1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 1. Ajoutez des champs au formulaire si nécessaire. Au moins un champ à choix multiple (case d’option, liste déroulante ou case à cocher) doit être placé avant le champ cible qui s’affichera.
-1. Sélectionnez le champ cible et cliquez sur **Ajouter une logique** dans le coin inférieur gauche de l’écran.
-1. Sélectionnez l’onglet **Logique d’affichage**.
-1. Cliquez sur **Ajouter une règle d’affichage** dans le créateur de logique.
+1. Sélectionnez le champ cible et cliquez sur **Ajouter une logique**.
+1. Sélectionnez l’onglet **Affichage** dans le créateur de logiques.
+1. Cliquez sur **Ajouter une règle d’affichage**.
+
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+
+   ![Créateur de logique d’affichage](assets/simple-display-logic1-val-only-in-menu.png)
+
+   Exemple d’image dans l’environnement de production :
 
    ![Créateur de logique d’affichage](assets/custom-form-logic-builder-display-blank.png)
 
-1. Suivez les étapes ci-dessous dans le créateur pour créer l’instruction de la logique.
+1. Suivez les étapes ci-dessous pour créer l’instruction logique dans le créateur.
 
    1. La première option consiste à choisir le champ de définition. Il s’agit du champ avec la valeur de sélection qui affiche la cible. Il doit s’agir d’un champ à choix multiple.
    1. La deuxième option consiste à choisir la valeur de sélection. Seules les valeurs déjà définies pour ce champ sont disponibles.
    1. La troisième option est **Sélectionné** ou **Non sélectionné**. Choisir **Sélectionné** signifie que lorsque la valeur est sélectionnée, le champ cible s’affiche. Choisir **Non sélectionné** signifie que lorsqu’une autre valeur est sélectionnée dans le champ de définition, le champ cible s’affiche.
    1. Pour ajouter une règle **And** à l’instruction de la logique, cliquez sur **Ajouter une règle** directement sous la règle que vous venez de créer. Suivez les mêmes instructions pour créer la règle. Toutes les règles And doivent être respectées pour que le champ cible s’affiche.
 
+      <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+
+      ![Créateur de logique d’affichage](assets/simple-display-logic2.png)
+
+      Exemple d’image dans l’environnement de production :
+
       ![Créateur de logique d’affichage](assets/custom-form-logic-builder-display1.png)
 
    1. Pour ajouter une règle **Or** à l’instruction de la logique, cliquez sur **Ajouter une règle** en bas du créateur de logique. Ensuite, cliquez sur **Ajouter une règle** dans la zone Or et suivez les mêmes instructions pour créer la règle. Lorsqu’une règle Or est respectée, le champ cible s’affiche.
 
-1. Cliquez sur **Enregistrer** lorsque vous avez terminé la construction de l’instruction de la logique.
+1. Cliquez sur **Enregistrer** <span class="preview">ou **Appliquer**</span> lorsque vous avez terminé de créer l’instruction logique.
 
    Les icônes de logique d’affichage sont ajoutées au champ cible et au champ de définition dans le créateur de formulaire.
+
+<!--
+<div class="preview">
+
+## Add advanced display logic to a custom form
+
+The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
+
+### Examples
+
+You can use advanced display logic to control the visibility of custom form sections based on user roles and the visibility of a field based on another field's status.
+
+No logic is applied to the default section on the form, so it is always visible to all users.
+
+Using the following condition, the Resources Required section is only displayed when a user with the job role of Resource Manager views the form.
+
+```IF($$USER.{roleID}="123abc", true)```
+
+Note that ```123abc``` represents the role ID of the Resource Manager.
+
+![Form section displayed for role](assets/advanced-display-on-form1.png)
+
+The same condition with a different role ID is applied to the Project Financial KPIs section to define that  only the Financial Advisor role can view the section.
+
+Using the following condition, the Sold KPI field only becomes visible when the project is complete. This logic is applied directly to the field instead of to a form section. There is no need to specify which role can view the field, because that is already defined in the section that the field is in.
+
+```IF({status}="CPL", true)```
+
+![Field is visible on complete project](assets/advanced-display-on-form2.png)
+
+### Define advanced display logic
+
+{{step-1-to-setup}}
+
+1. Click **Custom Forms**.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Add fields to the form as needed.
+1. Select the field to apply logic to, and click **Add Logic**.
+1. Select the **Display** tab on the logic builder.
+1. Turn on **Advanced mode**.
+   
+   This option might be turned on automatically, for fields that do not support the simple mode of display logic.
+
+   ![Advanced mode for display logic](assets/advanced-display-logic-blank-editor.png)
+
+1. Build the display condition in the editor.
+
+   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Click **Apply**.
+   
+   The logic is applied to the field and the display logic icon is added in the form designer.
+
+</div>
+-->
 
 ## Ajouter une logique de saut à un formulaire personnalisé
 
@@ -132,24 +209,145 @@ La logique de saut définit des champs de formulaire personnalisés qui sont ign
 1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 1. Ajoutez des champs au formulaire si nécessaire. Le champ définissant la logique de saut doit être un champ à choix multiple (case d’option, liste déroulante ou case à cocher).
 1. Sélectionnez le champ de définition et cliquez sur **Ajouter une logique** en bas à gauche de l’écran.
-1. Sélectionnez l’onglet **Logique de saut**.
-1. Cliquez sur **Ajouter une règle d’omission** dans le créateur de logique.
+1. Sélectionnez l’onglet **Ignorer** dans le créateur de logiques.
+1. Cliquez sur **Ajouter une règle d’omission**.
+
+
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+
+   ![Créateur de logique de saut](assets/skip-logic1-val-only-in-menu.png)
+
+   Exemple d’image dans l’environnement de production :
 
    ![Créateur de logique de saut](assets/custom-form-logic-builder-skip-blank.png)
 
-1. Suivez les étapes ci-dessous dans le créateur pour créer l’instruction de la logique.
+1. Suivez les étapes ci-dessous pour créer l’instruction logique dans le créateur.
 
    1. Le champ de définition est indiqué sur le créateur. Il s’agit du champ que vous avez sélectionné pour appliquer la logique de saut.
    1. La première option consiste à choisir la valeur de sélection. Seules les valeurs déjà définies pour le champ sont disponibles.
    1. La deuxième option est **Sélectionné** ou **Non sélectionné**. Choisir **Sélectionné** signifie que lorsque la valeur est sélectionnée, le champ cible est affiché et les champs situés entre les deux sont ignorés. Choisir **Non sélectionné** signifie que lorsqu’une autre valeur est sélectionnée dans le champ de définition, le champ cible est affiché et les champs situés entre les deux sont ignorés.
    1. La troisième option est le champ cible, c’est-à-dire l’endroit où il faut accéder en ignorant les autres champs. Sélectionnez un nom de champ ou cliquez sur **Fin du formulaire**. Vous devrez peut-être cliquer sur le mot « vide » avant de sélectionner une option.
 
+      <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+
+      ![Créateur de logique de saut](assets/skip-logic2.png)
+
+      Exemple d’image dans l’environnement de production :
+
       ![Créateur de logique de saut](assets/custom-form-logic-builder-skip1.png)
 
    1. Pour ajouter une règle **Or** à l’instruction de logique, cliquez sur **Ajouter une règle** en bas du créateur de logique. Sélectionnez ensuite les options en suivant les mêmes invites pour élaborer la règle. Lorsqu’une règle **Or** est respectée, le champ cible s’affiche.
 
-1. Cliquez sur **Enregistrer** lorsque vous avez fini de construire l’instruction de logique.
+1. Cliquez sur **Enregistrer** <span class="preview">ou **Appliquer**</span> lorsque vous avez terminé de créer l’instruction logique.
 
    Les icônes de logique de saut sont ajoutées au champ cible et au champ de définition dans le créateur de formulaire.
 
+<div class="preview">
 
+## Ajouter une logique de validation à un formulaire personnalisé
+
+La logique de validation est créée à l’aide de formules et vous pouvez la rendre aussi simple ou complexe que nécessaire. La validation peut être basée sur les valeurs d’autres champs ou l’état d’objets, et vous pouvez fournir un message d’erreur pour lorsque la validation échoue.
+
+Si le champ avec la logique appliquée remplit les conditions de validation définies lorsqu’un utilisateur remplit le formulaire personnalisé, le champ est mis en surbrillance et le message d’erreur s’affiche.
+
+Vous pouvez appliquer la logique de validation aux types de champs suivants : liste déroulante, bouton radio, case à cocher, saisie semi-automatique, texte sur une seule ligne, texte de paragraphe, champ de date, texte avec mise en forme et champs calculés.
+
+### Exemples
+
+En utilisant la condition suivante, le champ Budget affiche un message sous le champ lorsque l’utilisateur saisit une valeur qui déclenche le message. Par exemple, si la valeur saisie est négative, le premier message s’affiche. Si l’utilisateur ou l’utilisatrice tente de modifier le statut du projet sur Actuel avant de saisir une valeur de budget, le deuxième message s’affiche.
+
+```
+IF({DE:Budget Field} < 0,
+     "Budget cannot be negative",
+     IF({DE:Budget Field} == 0 && {status} == "CUR", "Budget must be specified before moving to Current status")
+)
+```
+
+Un autre exemple simple est qu’un champ de numéro de téléphone doit contenir un certain nombre de chiffres pour être valide.
+
+Un autre exemple de validation basée sur d’autres champs est un champ pour la taille de la salle de réunion (petite, moyenne ou grande) et un champ distinct pour le nombre de participants à la réunion. Le nombre de personnes pour chaque taille de chambre est écrit dans la formule de validation. Si le nombre de participants que l&#39;utilisateur entre est trop élevé pour la salle de réunion choisie, le message d&#39;erreur s&#39;affiche.
+
+### Définition de la logique de validation
+
+{{step-1-to-setup}}
+
+1. Cliquez sur **Formulaires personnalisés**.
+1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Ajoutez des champs au formulaire selon vos besoins.
+1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
+1. Sélectionnez l’onglet **Validation** dans le créateur de logiques.
+
+   ![Créateur de logique de validation](assets/validation-logic-blank-editor-val-only-in-menu.png)
+
+1. Créez la condition de validation dans l’éditeur, y compris le message d’erreur à afficher lorsque la validation n’est pas remplie.
+
+   Pour plus d’informations sur les calculs et les expressions, voir [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) et [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Cliquez sur **Appliquer**.
+
+   La logique est appliquée au champ dans le concepteur de formulaire.
+
+</div>
+
+<!--
+<div class="preview">
+
+## Add formatting logic to a custom form
+
+Formatting logic highlights a field value when it meets the defined conditions. You can apply formatting logic to all field types, and it will work on multiple fields at once.
+
+Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+
+### Example
+
+Using the following condition, the Budget field appears red when the user enters a value of 1000 or more. The field appears yellow when the user enters a value of 500 or more.
+
+To add a hover-over definition of the formatting, use the Instructions field in the custom form. For example, a message on the Budget field could say "Please enter a budget within a reasonable range. Values over 500 are a warning notice, and above 1000 is considered too high."
+
+```
+IF(
+     {DE:Budget Field} >=1000,
+     FORMAT($$NEGATIVE),
+     IF({DE:Budget Field} >= 500, FORMAT($$NOTICE))
+)
+```
+
+### Define formatting logic
+
+{{step-1-to-setup}}
+
+1. Click **Custom Forms**.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Add fields to the form as needed.
+1. Select the field to apply logic to, and click **Add Logic**.
+1. Select the **Formatting** tab on the logic builder.
+
+   ![Formatting logic builder](assets/formatting-logic-blank-editor.png)
+
+1. Build the formatting condition in the editor.
+
+   You can add up to five formatting rules per field.
+
+   The field highlighting color options are:
+
+   * `$$POSITIVE (green)`
+   * `$$INFORMATIVE (blue)`
+   * `$$NEGATIVE (red)`
+   * `$$NOTICE (orange)`
+   
+   The text formatting options are:
+   
+   * `$$BOLD`
+   * `$$ITALIC`
+   * `$$UNDERLINE`
+
+   Only one color option may be used per function, along with up to three additional text formatting options. If no color option is specified, the system's default color is applied.
+
+   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Click **Apply**.
+   
+   The logic is applied to the field in the form designer.
+
+</div>
+-->
