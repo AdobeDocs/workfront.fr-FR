@@ -6,10 +6,10 @@ description: Les itérations sont un élément clé pour les équipes Agile Scru
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
+source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 84%
+source-wordcount: '1036'
+ht-degree: 79%
 
 ---
 
@@ -103,11 +103,11 @@ Utilisez la fonctionnalité [!UICONTROL Planifier une itération] pour créer un
 
 1. Sélectionnez **[!UICONTROL Liste d’attente]** dans le panneau de gauche.
 
-1. Sur l’onglet **Histoires** ou **Événements**, sélectionnez au moins un élément de travail, puis cliquez sur **[!UICONTROL Planifier l’itération]**.
+1. Dans l’onglet **Histoires** ou **Événements**, sélectionnez les éléments de travail à ajouter à l’itération, puis cliquez sur **[!UICONTROL Planifier l’itération]**.
 
 >[!NOTE]
 >
-> Vous ne pouvez pas basculer entre l’onglet Histoires ou Événements lors de la planification d’une itération sur l’onglet Liste d’attente . Vous pouvez ajouter des histoires ou des événements existants une fois l’itération créée. Pour plus d’informations, voir [ Déplacer des histoires de la liste d’attente vers une itération ou un panorama](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+> Vous ne pouvez pas basculer entre l’onglet Histoires ou Événements ou ajouter des tâches supplémentaires lors de la planification d’une itération sur l’onglet Liste d’attente . Vous pouvez ajouter des histoires ou des événements existants une fois l’itération créée. Pour plus d’informations, voir [Ajouter des tâches ou des événements à une itération existante dans l’onglet Liste d’attente](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) ci-dessous.
 
 
 1. Indiquez les informations suivantes :
@@ -143,19 +143,20 @@ Utilisez la fonctionnalité [!UICONTROL Planifier une itération] pour créer un
     </tbody> 
    </table>
 
-1. (Facultatif) Sélectionnez les histoires pour les ajouter maintenant à l’itération, ou ignorez cette étape et ajoutez des histoires à une itération ultérieurement. Les histoires situées en haut de la liste d’attente ont la priorité la plus importante. Les histoires sont surlignées en vert quand elles correspondent à la capacité ; elles sont surlignées en rouge si elles ne correspondent pas à la capacité.
-Vous pouvez ajouter des tâches et des problèmes à une seule itération :
+1. Cliquer sur **[!UICONTROL Enregistrer].** L’itération est créée.
 
-   * **Pour ajouter des tâches à l’itération :** dans l’onglet **[!UICONTROL Liste d’attente]**, assurez-vous que l’onglet **[!UICONTROL Histoires]** est sélectionné (cet onglet est sélectionné par défaut lors de l’affichage de la liste d’attente). Sélectionnez les histoires à ajouter à l’itération.
+## Ajouter des tâches ou des événements à une itération existante dans l’onglet Liste d’attente
 
-     Lorsque vous ajoutez des tâches à une itération, la date de début de la tâche est calculée comme décrit dans [[!UICONTROL Comprendre] comment les dates de début des tâches sont calculées lorsqu’elles sont ajoutées à une itération](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+1. Dans l’onglet **Liste d’attente**, cliquez sur l’onglet **Histoires** ou **Problèmes**.
 
-   * **Pour ajouter des problèmes à l’itération :** dans l’onglet **[!UICONTROL Liste d’attente]**, cliquez sur l’onglet **[!UICONTROL Problèmes]**. Sélectionnez les problèmes que vous souhaitez ajouter à cette itération.
+1. Sélectionnez les histoires ou les événements à ajouter à l’itération. Les histoires qui se trouvent en haut de l&#39;arriéré sont prioritaires.
 
-1. Cliquer sur **[!UICONTROL Enregistrer].**
-L’itération est créée.
+   ![déplacer un élément de travail](assets/move-to-iteration.png)
 
-1. (Facultatif) Pour ajouter des histoires à une itération existante, consultez la section [Ajouter des histoires à une itération existante](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   >[!NOTE]
+   >
+   >  Lorsque vous ajoutez des tâches à une itération, la date de début de la tâche est calculée comme décrit dans [[!UICONTROL Comprendre] comment les dates de début des tâches sont calculées lorsqu’elles sont ajoutées à une itération](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+
 
 ## Comprendre comment les dates de début des tâches sont calculées lorsqu’elles sont ajoutées à une itération. {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
