@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 3%
+source-wordcount: '1935'
+ht-degree: 2%
 
 ---
 
@@ -21,6 +21,31 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Configurer et gérer plusieurs formulaires de demande à partir d’un type d’enregistrement
+
+>[!NOTE]
+>
+>Aperçu : 13 mars 2025 ; production pour tous les clients : 10 avril 2025
+
+Pour vous aider à personnaliser vos formulaires de demande pour les différentes parties prenantes issues de différents domaines de votre organisation, nous introduisons maintenant la possibilité de créer et de gérer plusieurs formulaires de demande pour un type d’enregistrement. Avant cette amélioration, vous ne pouviez créer qu’un seul formulaire pour un type d’enregistrement.
+
+Toutes les demandes envoyées à l’aide des différents formulaires peuvent créer des enregistrements pour le type d’enregistrement sélectionné. Vous pouvez désormais configurer plusieurs formulaires de demande pour le même type d’enregistrement. Les formulaires sont répertoriés dans une nouvelle vue Tableau des formulaires de demande sur le type d’enregistrement. Lorsque vous gérez des formulaires de demande, vous pouvez désormais modifier, publier, partager, copier ou supprimer un formulaire de demande de la liste des formulaires de demande sur le type d’enregistrement.
+
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Accès facile aux formulaires de demande publiés sur la page du type d’enregistrement
+
+>[!NOTE]
+>
+>Aperçu : 13 mars 2025 ; production pour tous les clients : 10 avril 2025
+
+Vous pouvez désormais accéder aux formulaires de demande à partir du bouton Nouvel enregistrement dans le coin supérieur droit de la page du type d’enregistrement. Pour les utilisateurs disposant d’autorisations en lecture seule sur l’espace de travail, le bouton Nouvel enregistrement s’affiche sous la forme d’un bouton Demander l’enregistrement .
+
+En plus de pouvoir créer des enregistrements manuellement et en important un fichier CSV ou Excel, vous pouvez désormais créer des enregistrements à partir d’un formulaire de demande à partir de la page de type d’enregistrement.
+Avant cette amélioration, vous pouviez créer des enregistrements à l’aide d’un formulaire de demande uniquement à partir d’un lien direct vers un formulaire ou de la zone des Demandes de Workfront.
+
+Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
 ## Ajouter des champs de recherche à partir d’enregistrements connectés dans les champs de connexion Planning des formulaires personnalisés Workfront
 

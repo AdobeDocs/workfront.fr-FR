@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
+source-git-commit: a86b91ee323e9efdca33655eaaac805a019cbb1c
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 43%
+source-wordcount: '1158'
+ht-degree: 40%
 
 ---
 
@@ -26,7 +26,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 
 | Version mensuelle | Version trimestrielle |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (13 Février 2025)</li><li>25.3 (mars 2025)</li><li>25.4 (avril 2025)</li></ul> | <ul><li>25.4 (avril 2025)</li></ul> |
+| <ul><li>25.2 (13 Février 2025)</li><li>25.3 (vendredi 13 mars 2025)</li><li>25.4 (vendredi 10 avril 2025)</li></ul> | <ul><li>25.4 (vendredi 10 avril 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -47,6 +47,21 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Améliorations de la logique des formulaires personnalisés</a></p>
+            <p>Le créateur logique de formulaires personnalisés dispose d’une interface mise à jour afin de vous offrir plus d’espace pour créer des règles logiques. Cette nouvelle conception peut s’adapter plus facilement à d’autres types de logiques qui pourraient être ajoutés à l’avenir.</p><p>Outre les options logiques d’affichage et d’omission actuelles, une logique de validation est également disponible.</p>
+        </td>
+        <td>
+            <p><b>Disponible à ces dates :</b></p>
+            <ul>
+                <li>Version préliminaire : samedi 31 janvier 2025</li>
+                <li><span class="preview">Version de production pour tous les clients : 31 janvier 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -74,7 +89,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Modifier plusieurs documents à la fois dans un rapport de document </a></p>
+            Modifier plusieurs documents à la fois dans un rapport de document </a></p>[!BADGE In production ]{type=Informative}
             <p>Vous pouvez désormais modifier plusieurs documents à la fois dans un rapport de document. Vous pouvez modifier les descriptions et mettre à jour les formulaires personnalisés.</p>
         </td>
         <td>
@@ -97,7 +112,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Ajoutez un commentaire aux projets lorsque vous les modifiez dans la zone Modifier le projet .</a></p>
+            Ajoutez un commentaire aux projets lors de leur modification dans la zone Modifier le projet </a>[!BADGE En production pour la version rapide]{type=Positive}</p>
             <p>Vous pouvez maintenant ajouter un commentaire à un projet tel que vous l’avez modifié dans la zone Modifier le projet . Vous pouvez également ajouter un commentaire à plusieurs projets à la fois lors de leur modification en bloc. Avant cette mise à jour, cette fonctionnalité n’existait pas lors de la modification des projets.</p>
         </td>
         <td>
