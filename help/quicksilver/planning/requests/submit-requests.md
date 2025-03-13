@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1828'
 ht-degree: 6%
 
 ---
@@ -24,11 +24,14 @@ ht-degree: 6%
 
 {{planning-important-intro}}
 
-Une fois qu&#39;une personne a partagé avec vous un lien vers un formulaire de demande à partir d&#39;une page de type d&#39;enregistrement dans Adobe Workfront Planning, vous pouvez ajouter une demande afin de créer des enregistrements pour le type d&#39;enregistrement associé au formulaire de demande.
+Une fois qu’un gestionnaire d’espace de travail a créé un formulaire de demande pour un type d’enregistrement dans Adobe Workfront Planning, vous pouvez utiliser le formulaire pour envoyer des demandes qui créeront des enregistrements pour le type d’enregistrement associé au formulaire.
+
+Vous pouvez envoyer une demande Workfront Planning à partir des zones suivantes :
+
+* Dans la zone des Demandes de Workfront, ou via un lien direct vers le formulaire de demande. Cet article décrit comment envoyer une demande d’ajout de nouveaux enregistrements à un type d’enregistrement à partir de la zone des Demandes de Workfront ou d’un lien partagé.
+* <span class="preview">À partir de la page Type d’enregistrement, lorsque vous ajoutez ou demandez un nouvel enregistrement. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).</span>
 
 Les utilisateurs de Workfront et les utilisateurs externes peuvent envoyer des demandes aux types d&#39;enregistrements Planning et créer des enregistrements. <!--double check on the external users-->
-
-Cet article décrit comment soumettre une demande d&#39;ajout de nouveaux enregistrements à un type d&#39;enregistrement.
 
 Pour plus d’informations sur la manière dont un gestionnaire d’espace de travail peut créer un formulaire de demande et l’associer à un type d’enregistrement, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -113,34 +116,41 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 * Les éléments suivants doivent exister dans Workfront Planning :
 
    * Un espace de travail
-   * Type d’enregistrement associé à un formulaire de demande. Pour plus d’informations, voir [Création d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+   * Un type d’enregistrement.
+   * Formulaire de demande associé à un type d’enregistrement.
 
-* Le formulaire de demande doit être partagé avec un lien de manière à pouvoir y accéder. Les scénarios suivants sont possibles :
+     Pour plus d’informations, voir [Création d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-   * Si vous disposez d’un compte Workfront, le lien a été partagé uniquement avec des personnes internes et vous disposez d’un accès de niveau Contribution ou supérieur à l’espace de travail. Les personnes extérieures à Workfront ne peuvent pas accéder à un lien partagé en interne.
-   * Si vous ne disposez pas d’un compte Workfront, le lien a été partagé avec des personnes externes. Les utilisateurs de Workfront peuvent également accéder à un lien partagé avec des personnes externes.
+* Le formulaire de demande doit être partagé d&#39;une manière accessible. Les scénarios suivants sont possibles :
+
+   * En interne, le formulaire doit être partagé avec les utilisateurs qui disposent d’autorisations d’affichage ou supérieures dans l’espace de travail.
+
+     Les utilisateurs de Workfront peuvent accéder au formulaire à partir d’un lien <span class="preview">ou le trouver dans la zone des Demandes de Workfront.</span>
+
+   * Si vous ne disposez pas d’un compte Workfront, un lien vers le formulaire a été partagé avec des personnes externes.
+
+     Les utilisateurs de Workfront peuvent également accéder à un lien partagé avec des personnes externes.
 
 * Le lien vers le formulaire ne doit pas expirer.
 
 ## Considérations relatives à l’envoi de requêtes à Workfront Planning
 
-* Vous pouvez accéder à un formulaire de demande pour les demandes Workfront Planning uniquement à partir d’un lien spécifique vers le formulaire.
-* Vous ne pouvez pas modifier une demande dans Workfront après l’avoir envoyée à Workfront Planning.
+* Vous ne pouvez pas modifier une demande dans Workfront après l’avoir envoyée.
 * Chaque demande envoyée crée un enregistrement pour le type d’enregistrement associé au formulaire que vous utilisez, si le formulaire n’est pas associé à une approbation ou si l’approbation a été accordée par tous les approbateurs.
-* Les enregistrements créés en soumettant des formulaires de demande ne peuvent pas être différenciés des enregistrements ajoutés par une autre méthode. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+* Les enregistrements créés en soumettant des formulaires de demande ne peuvent pas être différenciés des enregistrements ajoutés par une autre méthode dans Workfront Planning.
+
+  Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 * Les demandes envoyées s’affichent dans l’onglet Planification de la section Envoyées dans la zone des Demandes de Workfront.
-* Il existe des limitations dans l’affichage de certains types de champs dans un formulaire de demande ou dans la page des détails de la demande après l’envoi d’un formulaire. Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* Il existe des limitations dans l’affichage de certains types de champs dans un formulaire de demande ou dans la page des détails de la demande après l’envoi d’un formulaire.
+
+  Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
-## Envoi d’une demande à Workfront Planning
-
-L’envoi de requêtes à Workfront Planning varie en fonction de l’environnement utilisé.
-
 <div class="preview">
 
-### Envoi d’une requête à Workfront Planning dans l’environnement de prévisualisation
+## Envoyez une demande à Workfront Planning dans la zone des Demandes de Workfront.
 
 >[!NOTE]
 >
@@ -214,7 +224,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
    >[!TIP]
    >
-   >* Si le nom d’enregistrement n’a pas été ajouté au formulaire de demande, le nom de l’enregistrement dans le champ Enregistrement de la demande s’affiche comme **Sans titre**.
+   >* Si le champ principal de l’enregistrement n’a pas été mis à jour dans le formulaire de demande, le nom de l’enregistrement dans le champ Enregistrement de la demande s’affiche comme **Sans titre**.
    >
    >* Si le formulaire de demande est associé à une approbation, l&#39;approbation doit être accordée avant que vous puissiez accéder à l&#39;enregistrement à partir de la page de demande.
 
@@ -224,7 +234,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
 </div>
 
-### Envoi d’une demande à Workfront Planning dans l’environnement de production
+## Envoyez une demande à Workfront Planning à partir d’un lien partagé vers un formulaire de demande
 
 1. Accédez au lien partagé avec vous à partir d’un type d’enregistrement Workfront Planning .
 

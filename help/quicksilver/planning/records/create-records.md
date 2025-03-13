@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1844'
-ht-degree: 28%
+source-wordcount: '2411'
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,8 @@ Dans Adobe Workfront Planning, un enregistrement est une instance d’un type 
 
 Vous pouvez créer des enregistrements en effectuant l’une des opérations suivantes :
 
-* [Ajouter des enregistrements à partir de la page de type d’enregistrement en mode Tableau](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Créez des enregistrements en les ajoutant sur la ligne à partir de la vue de tableau de type d’enregistrement](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* <span class="preview">[Créez des enregistrements à l’aide du bouton Nouvel enregistrement ou Demander un enregistrement depuis n’importe quelle vue de type d’enregistrement](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
 * [Copier-coller une liste d&#39;enregistrements depuis une liste externe](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Dupliquer les enregistrements depuis une vue Tableau](#create-records-by-duplicating-them)
 * [Créer des enregistrements au fur et à mesure que vous les connectez à partir d’autres enregistrements](#create-records-as-you-connect-them)
@@ -97,7 +98,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td> <p>Accordez des autorisations supérieures ou égales à l’espace de travail <!--<span class="preview">and record type</span>--> lequel vous souhaitez ajouter des enregistrements. </p>  
+   <td> <p>Accordez des autorisations supérieures ou égales à l’espace de travail <!--<span class="preview">and record type</span>--> lequel vous souhaitez ajouter des enregistrements. </p>
+   <p><span class="preview">Autorisations d’affichage ou supérieures dans l’espace de travail <!--<span class="preview">and record type</span>--> de créer des enregistrements à l’aide du bouton Demander un enregistrement sur la page d’enregistrement</span></p>
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
    <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (projets).</p>
    </td> 
@@ -113,9 +115,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Créer des enregistrements en les ajoutant à un type d&#39;enregistrement dans une table de type enregistrement
+## Créez des enregistrements en les ajoutant sur la ligne à partir de la vue de tableau de type d’enregistrement
 
-Vous pouvez créer des enregistrements dans la vue sous forme de tableau d’une page de type enregistrement.
+Vous pouvez créer des enregistrements dans la vue Tableau d’une page de type d’enregistrement, au fur et à mesure que vous les ajoutez en ligne.
 
 Pour plus d’informations sur la modification des informations relatives aux enregistrements, consultez la section [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
@@ -128,27 +130,28 @@ Pour plus d’informations sur la modification des informations relatives aux en
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
    La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre sous la forme d’un tableau.
-Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
+Les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
-1. (Conditionnel) Selon la vue affichée, effectuez l’une des opérations suivantes :
+1. (Conditionnel) En mode Tableau, effectuez l’une des opérations suivantes :
 
-   * En mode Tableau :
+   * Cliquez sur **Nouvel enregistrement** dans la dernière ligne du tableau
 
-      * Cliquez sur **Nouvel enregistrement** dans la dernière ligne du tableau
+   * Cliquez sur **Maj + Entrée** sur votre clavier à partir de n’importe quelle colonne ou ligne du tableau. Cela ajoute une ligne vide sous l’enregistrement à partir duquel vous commencez.
+   * Pointez sur le champ principal d’un enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du champ, puis cliquez sur **Insérer un enregistrement au-dessus** ou **Insérer un enregistrement au-dessous**.
 
-      * Cliquez sur **Maj + Entrée** sur votre clavier à partir de n’importe quelle colonne ou ligne du tableau. Cela ajoute une ligne vide sous l’enregistrement à partir duquel vous commencez.
-      * Pointez sur le champ principal d’un enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du champ, puis cliquez sur **Insérer un enregistrement au-dessus** ou **Insérer un enregistrement au-dessous**.
+   ![Ajouter une nouvelle campagne dans la ligne du tableau](assets/adding-a-new-campaign-in-table-row.png)
 
-     ![Ajouter une nouvelle campagne dans la ligne du tableau](assets/adding-a-new-campaign-in-table-row.png)
+   Workfront charge automatiquement une miniature pour chaque nouvel enregistrement. Vous pouvez modifier ces images ultérieurement. Pour plus d’informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-   * Quel que soit l’angle de vue :
+   Un nouvel enregistrement est ajouté dans le tableau.
 
-      * Cliquez sur **Nouvel enregistrement** dans le coin supérieur droit de la page. La zone de prévisualisation des enregistrements s’ouvre.
+1. Cliquez sur le champ principal du nouvel enregistrement
 
-     Workfront charge automatiquement une miniature et une image de couverture pour chaque nouvel enregistrement. Vous pouvez modifier ces images ultérieurement. Pour plus d’informations, voir les articles suivants :
+   Ou
 
-      * [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
-      * [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+   Cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ nom de la table](assets/open-details-icon-in-table-name-field.png) à gauche du nom de l’enregistrement.
+
+   La zone d’aperçu s’ouvre dans le tableau.
 
 1. Commencez à saisir des informations sur le nouvel enregistrement dans les champs que vous voyez dans la zone d’aperçu.
 
@@ -158,23 +161,94 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
    >
    >  * Les champs qui renvoient à d’autres types d’enregistrements ou à des champs calculés sont en lecture seule.
 
-1. (Conditionnel) Lors de l’ajout d’enregistrements dans le tableau, continuez à ajouter des informations sur chaque ligne, puis cliquez sur **Entrée** sur le clavier pour enregistrer vos modifications.
+1. (Conditionnel) Lors de l’ajout d’enregistrements dans le tableau, avant d’ouvrir la zone d’aperçu de l’enregistrement, continuez à ajouter des informations sur chaque ligne, puis cliquez sur **Entrée** sur le clavier pour enregistrer vos modifications.
 
    Ou
 
-   Cliquez sur le nom du nouvel enregistrement ou sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ nom de la table](assets/open-details-icon-in-table-name-field.png) à gauche du nom de l’enregistrement. Un aperçu contenant les informations détaillées de l’enregistrement s’ouvre dans le tableau.
+   Cliquez sur le nom du nouvel enregistrement ou sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ nom de la table](assets/open-details-icon-in-table-name-field.png) à gauche du nom de l’enregistrement pour ouvrir la zone d’aperçu et modifier les informations de l’enregistrement dans la zone des détails.
 
    >[!TIP]
    >
    >Vous ne pouvez accéder à l’icône **Ouvrir les détails** qu’à partir du champ nom de l’enregistrement lorsque le champ Nom est un champ principal.
 
-1. Commencez à modifier les informations de l&#39;enregistrement dans l&#39;aperçu de l&#39;enregistrement. Workfront enregistre automatiquement vos modifications.
-1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement sur la page d’enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
+1. (Facultatif) Dans la zone d’aperçu de l’enregistrement, cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une icône de nouvel onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement sur la page d’enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
-1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements ou de leurs informations lors de leur ajout en mode Tableau :
+   Workfront enregistre automatiquement vos modifications.
+
+1. (Facultatif) Fermez la zone d’aperçu ou cliquez sur la flèche vers l’arrière à gauche du nom de l’enregistrement, si vous avez ouvert la page de l’enregistrement.
+
+1. (Facultatif) En mode Tableau, utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements ou de leurs informations lors de leur ajout en mode Tableau :
 
    * CTRL + Z (⌘ + Z pour Mac) pour annuler une modification
    * CTRL + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir une modification
+
+<div class="preview">
+
+## Créez des enregistrements à l’aide du bouton Nouvel enregistrement ou Demander un enregistrement depuis n’importe quelle vue de type d’enregistrement
+
+Les utilisateurs disposant d’autorisations en lecture seule sur l’espace de travail <!--<span class="preview">and record type</span>--> peuvent créer des enregistrements uniquement à l’aide du bouton Demander un enregistrement sur la page du type d’enregistrement.
+
+Les utilisateurs disposant d’autorisations de niveau Contribuer et Gérer sur l’espace de travail <!--<span class="preview">and record type</span>--> peuvent créer des enregistrements à l’aide du bouton Nouvel enregistrement de la page Type d’enregistrement.
+<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+
+>[!IMPORTANT]
+>
+>Un gestionnaire d’espace de travail doit créer un formulaire de demande pour le type d’enregistrement afin que les utilisateurs disposant des autorisations d’affichage puissent ajouter des enregistrements à l’aide d’un formulaire de demande. Dans le cas contraire, les utilisateurs disposant d’une autorisation d’affichage ne peuvent pas créer d’enregistrements.
+
+{{step1-to-planning}}
+
+1. Cliquez sur l’espace de travail dans lequel vous souhaitez ajouter des enregistrements.
+
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
+
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+
+   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre sous la forme d’un tableau.
+Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
+
+1. Dans n’importe quel affichage, cliquez sur l’un des éléments suivants dans le coin supérieur droit de votre écran, selon les autorisations de l’espace de travail <!--<span class="preview">and record type</span>--> :
+
+   * Cliquez sur **Nouvel enregistrement** si vous disposez des autorisations de niveau Contribute ou supérieur sur l’espace de travail <!--<span class="preview">and record type</span>-->
+
+     Ou
+
+   * Cliquez sur **Demander un enregistrement** si vous disposez des autorisations d&#39;affichage sur l&#39;espace de travail <!--<span class="preview">and record type</span>-->.
+
+1. (Conditionnel) Si vous avez cliqué sur **Nouvel enregistrement**, procédez comme suit :
+
+   1. Cliquez sur l’une des méthodes suivantes pour créer un enregistrement, puis sur **Continuer** :
+
+      * **Ajouter manuellement**. La zone d&#39;aperçu de l&#39;enregistrement s&#39;ouvre.\
+        Ajoutez des informations sur l’enregistrement, comme décrit dans la section [Créer des enregistrements en les ajoutant sur la ligne à partir de la vue de tableau de type d’enregistrement](#create-records-by-adding-them-inline-from-the-record-type-table-view) de cet article, en commençant par l’étape 6. <!--insure this stays accurate-->
+      * **Charger depuis un fichier**
+Ajoutez des enregistrements, comme décrit dans l’article [Créer des enregistrements en important des informations à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md), à partir de l’étape 6. <!--ensure this stays accurate-->
+      * **Soumettre une demande**
+Le formulaire de demande du type d’enregistrement s’ouvre.
+
+        Un gestionnaire d’espace de travail doit créer un formulaire de demande pour pouvoir ajouter un enregistrement à l’aide d’un formulaire de demande.
+
+        >[!TIP]
+        >
+        >Certains types d’enregistrements peuvent avoir plusieurs formulaires. Cliquez dessus pour l’ouvrir.
+
+        Ajoutez l’enregistrement, comme décrit dans l’article [ Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements ](/help/quicksilver/planning/requests/submit-requests.md), en commençant par l’étape 6. <!--ensure this stays accurate-->
+
+      ![](assets/three-ways-to-create-records-choice-modal.png)
+
+1. (Conditionnel) Si vous avez cliqué sur **Demander un enregistrement**, procédez comme suit :
+
+   1. (Conditionnel) Si le type d’enregistrement comporte plusieurs formulaires de demande, cliquez sur l’un d’eux pour le sélectionner.
+   2. Continuez à ajouter des informations dans le formulaire pour créer l’enregistrement, comme décrit dans l’article [Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md), en commençant par l’étape 6. <!--ensure this stays accurate-->
+
+1. (Conditionnel) Vérifiez les nouveaux enregistrements.
+
+   Selon la manière dont vous avez choisi d’ajouter l’enregistrement, certaines des choses suivantes peuvent se produire :
+
+   * Un nouvel enregistrement est ajouté au type d&#39;enregistrement, sauf si vous choisissez de l&#39;ajouter à l&#39;aide d&#39;un formulaire de demande avec un processus d&#39;approbation. L&#39;approbation doit être accordée par tous les approbateurs avant la création de l&#39;enregistrement.
+   * Plusieurs enregistrements sont ajoutés au type d’enregistrement, si vous avez ajouté des enregistrements à l’aide d’une feuille de calcul CSV ou Excel.
+   * Si vous avez ajouté une nouvelle demande en soumettant un formulaire de demande, elle est ajoutée sous l’onglet Planification de la zone Demandes Workfront .
+
+</div>
 
 <!-- this is not possible anymore: 
 

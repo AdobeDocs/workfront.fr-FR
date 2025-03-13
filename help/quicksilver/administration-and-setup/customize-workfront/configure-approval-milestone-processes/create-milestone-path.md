@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 68%
+source-wordcount: '875'
+ht-degree: 61%
 
 ---
 
@@ -115,26 +115,28 @@ Pour plus d’informations sur l’association d’un chemin jalonné à un proj
    </table>
 
 1. Cliquez sur **Ajouter le jalon** et continuez à ajouter des jalons, si nécessaire, jusqu’à ce que le chemin soit terminé.
+
 1. Cliquez sur **Créer un chemin jalonné** pour enregistrer vos modifications.
 
    Votre chemin jalonné est prêt à être associé à un projet.
 
    Pour plus d’informations sur l’association des chemins jalonnés à des projets et des jalons à des tâches, voir [Associer des jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-<!--
-1. <span class="preview">(Optional) Click the **Export** icon ![Export icon](assets/export-icon.png), then select from the following formats to export the milestone path list to a file: </span>
+
+1. <span class="preview">(Facultatif) Cliquez sur l’icône **Exporter** ![Icône Exporter](assets/export-icon.png), puis sélectionnez l’un des formats suivants pour exporter la liste des chemins jalonnés vers un fichier : </span>
 
    * PDF
    * Excel
    * Excel (xlsx)
-   * Tab Delimited
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit milestone information. </span>
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. </span>
-1. <span class="preview">Click **Yes, Delete it**. </span>
-   <span class="preview">The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. </span>
+   * Délimité par des tabulations
 
-   </div>
--->
+1. <span class="preview">(Facultatif) Sélectionnez un jalon dans la liste des jalons, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) pour modifier les informations du jalon. </span>
+1. <span class="preview">(Facultatif) Sélectionnez un jalon dans la liste des jalons, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) pour le supprimer. </span>
+1. <span class="preview">Cliquez sur **Oui, supprimer**. </span>
+   <span class="preview">Le jalon est supprimé et ne peut pas être récupéré. Toutes les informations de projet associées au jalon et toutes les informations de tâche associées aux chemins jalonnés sont également supprimées. </span>
+
+
+<div class="preview">
 
 ## Affichage des détails du chemin jalonné dans un rapport
 
@@ -171,9 +173,8 @@ Pour plus d’informations sur l’association de chemins jalonnés à des proje
    * Groupes de chemins jalonnés
    * Noms de jalons, descriptions, couleurs et icônes de couleur
 
-   </div>
-
 1. (Facultatif) Cliquez sur **Précédent** pour revenir au rapport du projet.
 
+</div>
 
 

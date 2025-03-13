@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 40%
+source-wordcount: '944'
+ht-degree: 36%
 
 ---
 
@@ -32,7 +32,7 @@ Cet article décrit les niveaux d’autorisation pour les objets Workfront Plan
 
 ## Objets que vous pouvez partager dans Adobe Workfront Planning
 
-Vous pouvez partager les objets suivants :
+Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
 
 * Espaces de travail
 
@@ -49,7 +49,7 @@ Vous pouvez partager les objets suivants :
 
     * You can share record types with people inside your organization.
     * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+    * You cannot share a record type with a higher permission level than the user has on the workspace. 
 
     For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
 
@@ -77,6 +77,8 @@ En interne, vous pouvez partager un espace de travail ou une vue avec les entit�
 * Fonctions
 
 </div>
+
+<span class="preview"> Lorsque vous partagez des espaces de travail et des types d’enregistrements avec d’autres personnes, le niveau d’autorisation du type d’enregistrement est automatiquement hérité des enregistrements et des champs qui leur sont associés. </span>
 
 ## Considérations sur le partage d’objets dans Adobe Workfront Planning
 
@@ -129,7 +131,7 @@ Voici les niveaux d’autorisation des espaces de travail :
 
 ### Autorisations de type d’enregistrement
 
-<!--In the Production environment,--> Les autorisations de type d’enregistrement sont toujours héritées lorsque vous accordez des autorisations à l’espace de travail.
+<!--In the Production environment,--> Les autorisations de type d’enregistrement ne sont <!--always--> héritées lorsque vous accordez des autorisations à l’espace de travail.
 
 Voici les niveaux d’autorisation pour les types d’enregistrements :
 
@@ -145,18 +147,17 @@ Voici les niveaux d’autorisation pour les types d’enregistrements :
 
 <div class="preview">
 
-In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
 
-You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
 
 The following scenarios exist: 
 
 |   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, No permissions           | 
-| Contribute |     Contribute |  Contribute, View, No permissions        |
-| View   |  View     |      View, No permissions        |     
-
+| Manage |   Manage    |   Manage, Remove permissions           | 
+| Contribute |     Contribute |  Contribute, View, Remove permissions        |
+| View   |  View     |      View, Remove permissions        |     
 
 </div>
 
@@ -164,7 +165,7 @@ The following scenarios exist:
 
 ### Autorisations d’enregistrement
 
-Les autorisations d’enregistrement sont héritées lorsque vous accordez des autorisations à l’espace de travail.
+Les autorisations d’enregistrement sont héritées de <!--<span class="preview">the record type</span>, when you grant permissions to -->l’espace de travail<!-- and <span class="preview">the record type</span>-->.
 
 Voici les niveaux d’autorisation des enregistrements :
 
@@ -178,7 +179,8 @@ Voici les niveaux d’autorisation des enregistrements :
 
 ### Autorisations de champ
 
-Les autorisations de champ sont héritées lorsque vous accordez des autorisations à l’espace de travail.
+Les autorisations de champ sont héritées de <!--<span class="preview">the record type</span>, when you grant permissions to -->l’espace de travail <!--and <span class="preview">the record type</span>-->.
+
 Les autorisations suivantes se réfèrent aux champs eux-mêmes et non aux valeurs associées à chaque champ. Pour modifier les valeurs des champs, vous devez avoir les autorisations de modifier les enregistrements.
 
 |        | Gérer | Contribuer | Afficher |
