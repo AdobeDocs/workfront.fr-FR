@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
+source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 18%
+source-wordcount: '519'
+ht-degree: 16%
 
 ---
 
@@ -31,19 +31,15 @@ Les avatars ne s’affichent plus dans les notifications par e-mail suivantes :
 * Nouvelles notifications d’affectation
 * Notifications de fin de la tâche Tous les prédécesseurs
 
-<!--
-
-## Look and feel updates to a Milestone Path list 
+## Mises à jour de l’aspect d’une liste de chemins jalonnés
 
 >[!NOTE]
 >
->Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+>Version préliminaire : 6 mars 2025 ; Version de production pour tous les clients : 10 avril 2025
 
-We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+Nous avons mis à jour l’aspect de la liste Chemin jalonné dans la zone Configuration afin qu’elle corresponde à la conception d’autres zones de Workfront.
 
-For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
--->
+Pour plus d’informations, voir [Créer un chemin jalonné](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 ## Mises à jour de l’apparence du calendrier Workfront
 
@@ -89,7 +85,7 @@ Ces modifications sont temporaires, car nous enquêtons sur les retards dans les
 
 >[!NOTE]
 >
->Version préliminaire : 13 février 2025 ; Version de production pour tous les clients : avec la version 25.3 (13 mars 2025)
+>Version préliminaire : 13 février 2025 ; Version de production pour tous les clients : avec la version 25.4 (10 avril 2025)
 
 Nous avons mis à jour l’aspect de la boîte de dialogue Partager vers une conception moderne cohérente avec les autres zones de Workfront. Il existe de légères différences visuelles, notamment :
 
