@@ -1,19 +1,24 @@
 ---
 product-area: resource-management
 navigation-topic: resource-utilization
-title: Affichage des informations sur l’utilisation des ressources
+title: Afficher les informations sur l'utilisation des ressources
 description: Vous pouvez voir l’utilisation de vos ressources dans le rapport d’utilisation.
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '7252'
+source-wordcount: '7283'
 ht-degree: 99%
 
 ---
 
-# Afficher des informations sur l’utilisation des ressources
+# Afficher des informations sur l’utilisation des ressources {#view-resource-utilization-information}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-utilization"
+>title="Rapport d’utilisation"
+>abstract="Le rapport d’utilisation vous permet d’afficher la progression, le coût ou les revenus d’un projet, d’un programme ou d’un portfolio dans un seul rapport. Vous pouvez également comparer les revenus aux coûts."
 
 <!-- Audited: 01/2024 -->
 
@@ -546,7 +551,7 @@ Le rapport d’utilisation ne contient des informations que sur les rôles que v
 
      >[!IMPORTANT]
      >
-     >Vous devez saisir le nom du champ et non le libellé du champ. Le libellé du champ s’affiche sur un formulaire personnalisé associé à un objet. Pour plus d’informations sur la différence entre le libellé et le nom d’un champ personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+     >Vous devez saisir le nom du champ et non le libellé du champ. Le libellé du champ s’affiche sur un formulaire personnalisé associé à un objet. Pour plus d’informations sur la différence entre le libellé et le nom d’un champ personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
      Pour plus d’informations sur les champs que vous voyez dans les colonnes, consultez [Glossaire de la terminologie Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).\
      Sélectionnez les modificateurs de filtre et de condition pour le filtre. Les modificateurs disponibles sont décrits dans [Modificateurs de filtre et de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).

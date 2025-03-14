@@ -7,14 +7,19 @@ description: Une fois que les personnes chargées de la gestion de projet ont pl
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 96%
+source-wordcount: '1194'
+ht-degree: 95%
 
 ---
 
-# Vue d’ensemble de l’équilibreur de charge de travail
+# Vue d’ensemble de l’équilibreur de charge de travail {#workload-balancer-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-workload-balancer"
+>title="Équilibreur de charge de travail"
+>abstract="Les propriétaires de projet et les chefs d’équipe peuvent utiliser l’équilibreur de charge de travail pour affecter des tâches aux utilisateurs."
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
