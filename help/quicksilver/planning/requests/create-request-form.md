@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2121'
 ht-degree: 9%
 
 ---
@@ -159,7 +159,8 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
    La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
 
-1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Créer un formulaire de demande** <span class="preview">ou **Gérer le formulaire de demande**, si vous disposez déjà d’un formulaire et que vous souhaitez en créer d’autres</span>.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Créer un formulaire de demande** <span class="preview">ou **Gérer les formulaires de demande**, si vous disposez déjà d’un formulaire et que vous souhaitez en créer d’autres</span>.
+1. <span class="preview">(Conditionnel) Si vous souhaitez ajouter un autre formulaire, cliquez sur **Nouveau formulaire de demande**</span>.
 1. Mettez à jour le nom du formulaire de demande. Par défaut, le nom du formulaire est **Formulaire sans titre**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facultatif) Ajoutez une **Description** pour le formulaire de demande.
 
@@ -270,7 +271,7 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
    >[!TIP]
    >
-   ><span class="preview">Une fois la date de partage expirée, le formulaire de demande n’est plus disponible dans la zone des Demandes de Workfront.</span>
+   ><span class="preview">À l’expiration de la date de partage, le formulaire de demande n’est plus disponible dans la zone des Demandes de Workfront et les liens partagés avec d’autres utilisateurs ne sont plus accessibles.</span>
 
 
 1. <span class="preview">(Facultatif)</span> Cliquez sur **Enregistrer et copier le lien** pour enregistrer les détails de partage du formulaire. Si le formulaire a été précédemment enregistré, cliquez sur **Copier le lien**.
@@ -299,12 +300,20 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 1. <span class= "preview">Cliquez sur la flèche pointant vers la gauche de **Formulaires de demande** dans l’en-tête pour fermer le tableau des formulaires de demande.   </span>
 
    <span class= "preview">La page de type d’enregistrement s’ouvre. </span>
-1. (Facultatif et conditionnel) Dans l’environnement de production, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête, puis effectuez l’une des opérations suivantes :
-   * Cliquez sur **Mettre à jour le formulaire de demande** pour apporter des modifications au formulaire de demande.
-   * Cliquez sur **Copier le lien pour demander un formulaire** pour partager le lien vers le formulaire avec d’autres personnes.
+1. (Facultatif et conditionnel) Pour modifier un formulaire existant, effectuez l’une des opérations suivantes, en fonction de l’environnement utilisé :
 
-1. <span class="preview">(facultatif et conditionnel) Dans l’environnement de Prévisualisation, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête, puis cliquez sur **Gérer les formulaires de demande**. </span>
+   * Dans l’environnement de production :
 
-   <span class="preview">Cette action ouvre la vue du tableau Formulaires de demande . </span>
-1. <span class="preview">Cliquez sur un formulaire de demande pour l’ouvrir et le modifier.</span>
-1. <span class= "preview">(Facultatif) Accédez à la zone **Demandes** dans Workfront et recherchez le formulaire partagé pour envoyer une demande. Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).</span>
+      1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête, puis effectuez l’une des opérations suivantes :
+
+      1. Cliquez sur **Mettre à jour le formulaire de demande** pour apporter des modifications au formulaire de demande.
+      1. Cliquez sur **Copier le lien pour demander un formulaire** pour partager le lien vers le formulaire avec d’autres personnes.
+
+   * <span class="preview">Dans l’environnement de prévisualisation :
+
+      1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête, puis cliquez sur **Gérer les formulaires de demande**. </span>
+
+         <span class="preview">Cette action ouvre la vue du tableau Formulaires de demande . </span>
+
+      1. <span class="preview">Cliquez sur un formulaire de demande pour l’ouvrir et le modifier.</span>
+      1. <span class= "preview">(Facultatif) Accédez à la zone **Demandes** dans Workfront et recherchez le formulaire partagé pour envoyer une demande. Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).</span>
