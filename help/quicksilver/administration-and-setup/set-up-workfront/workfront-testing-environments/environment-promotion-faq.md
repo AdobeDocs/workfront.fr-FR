@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 16%
@@ -26,7 +26,7 @@ Les questions suivantes sont fréquemment posées sur la promotion de l’enviro
 
 La promotion interdomaines de l’environnement n’est actuellement pas prise en charge. Vous devez effectuer une promotion entre les environnements du même domaine.
 
-## La plate-forme d’Adobe Business Platform / IMS est-elle une condition préalable à la promotion de l’environnement ?
+## La plateforme commerciale Adobe/IMS est-elle une condition préalable à la promotion de l’environnement ?
 
 ### Réponse
 
@@ -70,5 +70,4 @@ La restauration des packages est disponible pour le package le plus récent, dan
 ### Réponse
 
 * « Utiliser existant » revient à « ignorer » ou à ignorer le déploiement, car il correspond à l’objet existant dans l’environnement cible et n’apporte aucune modification.
-* Pour ignorer des objets, nous vous recommandons de les supprimer
-tout objet que vous ne souhaitez pas installer à partir du package de promotion ou directement de l’environnement source. Après avoir supprimé les objets, réassemblez le package.
+* Pour ignorer les objets, nous vous recommandons de supprimer du package de promotion ou directement de l’environnement source les objets que vous ne souhaitez pas installer. Après avoir supprimé les objets, réassemblez le package.
