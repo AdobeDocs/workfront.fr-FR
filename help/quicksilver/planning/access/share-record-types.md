@@ -4,10 +4,10 @@ description: Vous pouvez partager un type d’enregistrement avec d’autres uti
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5005493bb98b63f4c463f424be43a9d422744846
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 13%
+source-wordcount: '1308'
+ht-degree: 12%
 
 ---
 
@@ -31,8 +31,10 @@ Vous pouvez partager un type d’enregistrement avec d’autres utilisateurs pou
 >[!IMPORTANT]
 >
 >* L’octroi d’autorisations à un espace de travail donne par défaut aux utilisateurs les mêmes autorisations aux types d’enregistrements dans l’espace de travail .
->* Vous pouvez ajuster les autorisations sur des types d’enregistrements individuels.
->* Vous ne pouvez pas accorder aux personnes un accès supérieur à un type d’enregistrement par rapport à l’accès qu’elles ont à l’espace de travail.
+>* De plus, vous pouvez ajuster les autorisations sur des types d’enregistrements individuels.
+>* Cependant, vous ne pouvez pas accorder aux personnes des autorisations supérieures à celles dont elles disposent pour l’espace de travail.
+>* Les personnes disposant d’une autorisation Gérer pour l’espace de travail conservent toujours leur accès Gérer à tous les types d’enregistrements de l’espace de travail. Leurs autorisations ne peuvent pas être réduites sur les types d’enregistrements, même lorsque les autorisations héritées sont désactivées.
+> 
 > Pour plus d’informations, consultez la section [Considérations lors du partage de types d’enregistrements](#considerations-when-sharing-record-types) de cet article.
 
 ## Conditions d’accès
@@ -111,21 +113,28 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Remarques concernant le partage de types d’enregistrements
 
 * Pour obtenir des informations générales sur le partage d’objets dans Workfront Planning, consultez également la section [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+* Actuellement, vous pouvez obtenir les résultats suivants lorsque vous partagez des types d’enregistrements :
+   * Donnez aux personnes les autorisations d’affichage d’un espace de travail lorsque vous partagez un type d’enregistrement avec elles pour la première fois et qu’elles ne disposent d’aucune autorisation sur l’espace de travail.
+
+     Cela leur donne également des autorisations d’affichage pour tous les types d’enregistrements de l’espace de travail.
+
+     Lorsque vous leur donnez des autorisations sur le type d’enregistrement, la zone de partage indique qu’ils sont également ajoutés à l’espace de travail.
+   * Définissez le type d’enregistrement en lecture seule pour tous les utilisateurs de l’espace de travail (à l’exception des gestionnaires d’espace de travail) lorsque vous désactivez les autorisations héritées.
+
+     Les personnes disposant d’autorisations de niveau Gérer pour l’espace de travail disposent toujours d’autorisations de niveau Gérer sur les types d’enregistrement, même si vous désactivez les autorisations héritées sur le type d’enregistrement.
+  <!-- checking with Lilit - this doesn't make much sense: * Add people with Contribute permission to the workspace, who will retain Contribute permission to the record type. This way, only the selected people can manage records in the record type, while others can only view them. -->
+   * Autorisation de personnes inférieures à un type d&#39;enregistrement. Vous ne pouvez pas augmenter l&#39;autorisation d&#39;une personne à un type d&#39;enregistrement à partir de ce qu&#39;elle a sur l&#39;espace de travail.
+
+     Par exemple, si une personne dispose de l&#39;autorisation Contribution à l&#39;espace de travail, vous pouvez modifier son autorisation pour un type d&#39;enregistrement spécifique et le définir sur Affichage. Cependant, s’ils disposent de l’autorisation d’affichage pour l’espace de travail, vous ne pouvez pas leur accorder l’autorisation de contribution pour un type d’enregistrement.
+
+* Il n’est pas possible de supprimer l’accès à un type d’enregistrement pour les personnes dans l’espace de travail. Tout le monde dispose toujours au moins de l’autorisation Afficher.
+
 * Vous pouvez partager un type d’enregistrement en interne avec les entités suivantes :
 
    * Utilisateurs, groupes, équipes, entreprises et fonctions de Workfront
 * Vous ne pouvez pas partager des types d’enregistrements en externe, avec des utilisateurs en dehors de Workfront.
-* Les utilisateurs héritent automatiquement des autorisations de type d’enregistrement de l’espace de travail.
-* Manuellement, vous pouvez accorder aux utilisateurs des autorisations d’affichage pour un type d’enregistrement ou supprimer les autorisations héritées de l’espace de travail.
-
-* Les utilisateurs ajoutés à la zone de partage de type d’enregistrement qui ne disposent pas d’autorisations d’espace de travail sont automatiquement ajoutés au partage de l’espace de travail avec les autorisations d’affichage.
-
-  Pour accorder à un utilisateur qui ne dispose pas d’autorisations d’espace de travail supérieures aux autorisations d’affichage d’un type d’enregistrement, vous devez d’abord partager l’espace de travail avec lui. Si vous partagez uniquement le type d’enregistrement, ils ne peuvent recevoir que des autorisations d’affichage pour le type d’enregistrement et ils sont également ajoutés à l’espace de travail avec des autorisations d’affichage. Lorsque vous leur donnez des autorisations sur le type d’enregistrement, la zone de partage indique qu’ils sont également ajoutés à l’espace de travail.
-
-* Vous ne pouvez pas accorder à une personne des autorisations supérieures au type d’enregistrement qu’elle ne dispose sur un espace de travail.
-
-  Par exemple, vous ne pouvez pas accorder à quelqu&#39;un l&#39;autorisation Afficher à un espace de travail et l&#39;autorisation Gérer à un type d&#39;enregistrement.
-
+* Pour accorder à un utilisateur qui ne dispose pas d’autorisations d’espace de travail supérieures aux autorisations d’affichage d’un type d’enregistrement, vous devez d’abord partager l’espace de travail avec lui avec une autorisation supérieure à Affichage.
 
 ## Partage des autorisations sur un type d’enregistrement
 
@@ -154,16 +163,23 @@ Vous pouvez ajuster les autorisations aux types d’enregistrements individuels 
    >
    >Vous ne pouvez pas supprimer des entités individuelles de la liste des autorisations héritées.
 
+
 1. (Facultatif et conditionnel) Si vous souhaitez partager le type d’enregistrement avec des entités spécifiques et leur donner un accès au type d’enregistrement différent de celui qu’elles ont déjà pour l’espace de travail, procédez comme suit :
 
-   1. Désactivez les autorisations héritées.
+1. **Désactiver** Autorisations héritées.
+
+   >[!TIP]
+   >
+   >Les responsables Workspace conservent les autorisations de niveau Gérer pour le type d’enregistrement.
+
    1. Dans le champ **Accorder l’accès à ce type d’enregistrement** ajoutez les utilisateurs, équipes, groupes, sociétés ou fonctions auxquels vous souhaitez accorder un niveau d’autorisation différent.
    1. Choisissez un niveau d’autorisation.
+
 
    >[!IMPORTANT]
    >
    >* Vous ne pouvez jamais accorder aux utilisateurs des autorisations plus importantes sur un type d’enregistrement que sur un espace de travail.
-   >* Vous ne pouvez pas accorder aux utilisateurs une autorisation moindre que Gérer pour un type d’enregistrement s’ils disposent des autorisations Gérer pour l’espace de travail.
+   >* Vous ne pouvez pas accorder aux utilisateurs une autorisation inférieure à Gérer pour un type d’enregistrement s’ils disposent des autorisations Gérer pour l’espace de travail.
    >* Vous pouvez accorder aux utilisateurs une autorisation moindre sur le type d’enregistrement s’ils disposent des autorisations de type Contributeur sur l’espace de travail.
    > Pour plus d’informations, consultez la section [Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
@@ -224,6 +240,6 @@ Users who access a link to a record type to which they do not have permissions c
 
 1. Cliquer sur **Enregistrer**.
 
-   Les personnes n’ont plus accès au type d’enregistrement. Ils peuvent toujours disposer d’autorisations sur l’espace de travail, à moins que vous ne les supprimiez également des autorisations de l’espace de travail .
+   Les personnes n’ont plus accès au type d’enregistrement. Ils peuvent toujours disposer d’autorisations sur l’espace de travail, sauf si vous les supprimez également des autorisations d’espace de travail.
 
    Les utilisateurs qui ont été supprimés de l’accès à l’affichage ne sont pas avertis qu’ils ne disposent plus de cet accès.

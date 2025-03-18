@@ -1,16 +1,16 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: Vue d’ensemble de la planification d’un projet
-description: Vue d’ensemble de la planification d’un projet
+title: Planifier un projet - Aperçu
+description: Découvrez ce qu’est un projet, comment en établir la portée et la structure, ainsi que des concepts clés tels que les planifications, les calendriers et les dates de début et d’achèvement.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 98%
+source-wordcount: '1414'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 < see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
-Un projet est un élément de travail volumineux dans Adobe Workfront. Vous pouvez ventiler un projet en tâches qui sont des éléments de travail plus petits, comme des tâches. Les tâches peuvent être affectées à des utilisateurs et des utilisatrices ou à des équipes qui peuvent être responsables de leur réalisation. Lorsque tous les utilisateurs et toutes les utilisatrices terminent leurs tâches, le projet est également terminé.
+Un projet est un élément de travail volumineux dans Adobe Workfront. Vous pouvez répartir un projet en tâches qui sont des éléments de travail plus petits. Les tâches peuvent être affectées à des utilisateurs et des utilisatrices ou à des équipes qui peuvent être responsables de leur réalisation. Lorsque tous les utilisateurs et toutes les utilisatrices terminent leurs tâches, le projet est également terminé.
 
 En plus de l’organisation des tâches d’un projet, de nombreux autres détails sont à prendre en compte dans la planification de projets. Qu’il s’agisse d’analyser les impacts financiers ou de tenir compte de la disponibilité des ressources, de nombreux aspects des projets demandent une attention particulière.
 
@@ -85,7 +85,7 @@ Envisagez de poser les questions suivantes :
   Pour plus d’informations sur la définition des mises à jour à suivre dans Workfront, consultez l’article [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 * Existe-t-il des informations que vous devez suivre et pour lesquelles il n’existe pas de champ de stockage dans Workfront ? Si oui, créez des formulaires personnalisés pour les projets ou les tâches dans lesquels vous pouvez stocker ces informations.\
-  Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Des points de contrôle d’approbation doivent-ils être accordés avant de pouvoir poursuivre le travail ? Si oui, créez des processus d’approbation pour les projets ou les tâches que vous pouvez utiliser lors de la création de votre projet.\
   Pour plus d’informations sur la création de processus d’approbation, voir l’article [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
