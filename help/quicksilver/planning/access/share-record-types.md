@@ -4,7 +4,7 @@ description: Vous pouvez partager un type d’enregistrement avec d’autres uti
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 12%
@@ -243,3 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
    Les personnes n’ont plus accès au type d’enregistrement. Ils peuvent toujours disposer d’autorisations sur l’espace de travail, sauf si vous les supprimez également des autorisations d’espace de travail.
 
    Les utilisateurs qui ont été supprimés de l’accès à l’affichage ne sont pas avertis qu’ils ne disposent plus de cet accès.
+
