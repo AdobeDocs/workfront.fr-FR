@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
-source-wordcount: '4333'
-ht-degree: 57%
+source-wordcount: '4611'
+ht-degree: 54%
 
 ---
 
@@ -231,7 +231,8 @@ OLD:
    * [Créé par](#created-by)
    * [Date de création](#created-date)
    * [Dernière modification par](#last-modified-by)
-   * [Date de dernière modification](#last-modified-date)
+   * [Date de la dernière modification](#last-modified-date)
+     <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
@@ -248,7 +249,7 @@ Les champs de texte d’une seule ligne capturent des informations alphanumériq
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Texte à une ligne**.
 
-   ![](assets/single-line-text-field-type.png)
+   ![Type de champ de texte monoligne](assets/single-line-text-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -273,7 +274,7 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Paragraphe**.
 
-   ![](assets/paragraph-field-type.png)
+   ![ Type de champ de paragraphe ](assets/paragraph-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
@@ -290,7 +291,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection multiple**.
 
-   ![](assets/multi-select-field-type.png)
+   ![Type de champ à sélection multiple](assets/multi-select-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
@@ -319,7 +320,7 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection simple**.
 
-   ![](assets/single-select-field-type.png)
+   ![ Type de champ à sélection unique ](assets/single-select-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
@@ -348,7 +349,7 @@ Vous pouvez utiliser un champ de date pour capturer des informations supplément
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Date**.
 
-   ![](assets/date-field-type.png)
+   ![Type de champ de date](assets/date-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
@@ -377,9 +378,17 @@ Vous pouvez utiliser un champ de date pour capturer des informations supplément
 
 Les types de champ Nombre capturent les informations au format numérique.
 
+>[!TIP]
+>
+>Les champs numériques s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
+>
+>Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent sous forme de nombres une fois la demande soumise, dans le type d’enregistrement et dans la page des détails de la demande.
+>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Nombre**.
 
-   ![](assets/number-field-type.png)
+   ![Type de champ numérique](assets/number-field-type.png)
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
 
    * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement.
@@ -399,9 +408,17 @@ Les types de champ Nombre capturent les informations au format numérique.
 
 Les types de champ en pourcentage capturent les informations au format numérique, suivis d’un signe de pourcentage.
 
+>[!TIP]
+>
+>Les champs de pourcentage s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
+>
+>Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent sous forme de pourcentages une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
+>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Pourcentage**.
 
-   ![](assets/percentage-field-type.png)
+   ![Type de champ de pourcentage](assets/percentage-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement.
@@ -431,9 +448,16 @@ Les types de champ en pourcentage capturent les informations au format numériqu
 
 Les types de champ de devise capturent les informations dans un format numérique précédé d’un symbole monétaire.
 
+>[!TIP]
+>
+>Les champs de devise s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
+>
+>Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent en tant que devise une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
+>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Devise**.
 
-   ![](assets/currency-field-type.png)
+   ![Type de champ Devise](assets/currency-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom**: nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -456,7 +480,7 @@ Vous pouvez utiliser le type de champ Case à cocher pour ajouter une seule opti
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Case à cocher**.
 
-   ![](assets/checkbox-field-type.png)
+   ![Type de champ de case à cocher](assets/checkbox-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom**: nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -473,7 +497,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Formule**.
 
-   ![](assets/new-formula-field-with-list-of-expressions.png)
+   ![Nouveau champ de formule avec liste d&#39;expressions](assets/new-formula-field-with-list-of-expressions.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
 
@@ -483,7 +507,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
 
 1. Cliquez sur l’expression sélectionnée pour afficher la définition et afficher sa mise en forme.
 
-   ![](assets/description-of-formula-expression.png)
+   ![Description de l&#39;expression de la formule](assets/description-of-formula-expression.png)
 
    Pour plus d’informations sur les expressions prises en charge, voir [Présentation des champs de formule](/help/quicksilver/planning/fields/formula-fields.md).
 
@@ -501,7 +525,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
    >
    >* Vous pouvez référencer un champ contenant jusqu’à 4 champs (et objets) différents du type d’enregistrement actuel. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité (1) et que l’Activité est connectée au type d’enregistrement Campagne (2) qui est connecté à un projet Workfront (3), vous pouvez référencer le champ Budget du projet (4) dans la formule que vous créez pour le type d’enregistrement Activité.
    >
-   >![](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Exemple de formule de budget de projet avec quatre champs supprimés ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. Dans le champ **Format**, sélectionnez l&#39;une des options suivantes pour identifier le format du résultat affiché dans le champ de type formule :
@@ -516,7 +540,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
      >
      >Nous vous recommandons d’utiliser des balises pour les champs qui affichent des tableaux. Dans ce cas, chaque membre du tableau s’affiche sous la forme d’une balise distincte.
 
-     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     ![liste formats de champ de formule avec la balise sélectionnée en surbrillance](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
    * **Date** : le résultat du champ de formule s’affiche sous forme de date.
 
@@ -536,11 +560,15 @@ Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur ou u
 
 >[!TIP]
 >
->Lorsque vous ajoutez le nom d’un utilisateur dans un champ Personnes , le nom de l’utilisateur et sa fonction principale s’affichent dans le champ.
+>* Lorsque vous ajoutez le nom d’un utilisateur dans un champ Personnes , le nom de l’utilisateur et sa fonction principale s’affichent dans le champ.
+>
+>* Les champs de personne s’affichent comme un type de champ de référence (ou de connexion) dans un créateur de formulaires de demande.
+>
+>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Personnes**.
 
-   ![](assets/people-field-type.png)
+   ![Type de champ Personnes](assets/people-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement.
@@ -561,7 +589,7 @@ Vous pouvez utiliser le type de champ Créé par pour ajouter à un enregistreme
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Créé par**.
 
-   ![](assets/created-by-field-type.png)
+   ![Créé par type de champ](assets/created-by-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
 
@@ -579,7 +607,7 @@ Vous pouvez utiliser le type de champ Date de création pour ajouter la date à 
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Date de création**.
 
-   ![](assets/created-date-field-type.png)
+   ![Type de champ de date créé](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -612,7 +640,7 @@ Vous pouvez utiliser le champ Dernière modification par type pour ajouter à un
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Dernière modification par**.
 
-   ![](assets/last-modified-by-field-type.png)
+   ![Dernière modification par le type de champ](assets/last-modified-by-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
 
@@ -630,7 +658,7 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Date de création**.
 
-   ![](assets/last-modified-date-field-type.png)
+   ![Type de champ de date de dernière modification](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -656,6 +684,52 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
 1. Cliquez sur **Créer**.
 
    Le nouveau champ de type Date de la dernière modification est ajouté en tant que colonne au type d’enregistrement et ses valeurs sont préremplies avec la date (ou la date et l’heure) de la dernière modification de l’enregistrement.
+
+<!--
+
+## Object field type
+
+You can use the Object field type when you need to store several fields that might include several pieces of information. For example, you can store the source, code, error message, or details of an object in one field. In this case, instead of having several separate single-line text fields for that, you can use an Object field to store all information in one place. 
+
+For example, when using an Object-type field, you can store the following type of information: 
+
+```
+"{
+""source"": ""string"",
+""code"": ""string"",
+""subCode"": ""string"",
+""message"": ""string"",
+""details"": ""string""
+}"
+
+```
+
+You can also store an array of values in one field and you would rather rely on user input for each element of the array, instead of using a multi-select field type for the same purpose. For example, you can store information in the following format: 
+
+`["EMEA", "APAC"] `
+
+Consider the following when using Object-type fields:
+
+* In addition to strings and arrays, you can store other value formats like HTML.
+* There is no format validation for this field. 
+* Object-type fields have a limit of 10,000 characters.
+
+Create an Object field: 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+
+    ![Object field type](assets/object-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+
+1. Click **Create**.
+
+    The new Object-type field is added as a column to the record type.
+
+-->
 
 ## Créer des champs en connectant des types d’enregistrement
 

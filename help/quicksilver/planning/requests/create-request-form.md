@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '2121'
 ht-degree: 9%
@@ -133,7 +133,7 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
    * Les champs Devise, Nombre et Pourcentage s’affichent sous la forme d’un type de champ de texte monoligne dans le créateur de formulaires.
 
-     Toutefois, le format du champ est conservé et les valeurs des nombres de ces champs s’affichent en tant que valeurs de devise, de nombre et de pourcentage sur le type d’enregistrement et dans la page des détails de la demande.
+     Cependant, le format des champs est conservé et les valeurs des champs s’affichent sous la forme de devise, de nombres et de pourcentages une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
 
 <div class="preview">
 
