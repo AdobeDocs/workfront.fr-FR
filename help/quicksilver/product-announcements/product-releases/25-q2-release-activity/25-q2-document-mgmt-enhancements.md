@@ -4,10 +4,11 @@ description: Améliorations apportées aux projets au deuxième trimestre 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1123c028a1971c7a66158b95642154e540dc3d0e
+exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
+source-git-commit: 35aa30973b5f942d3b22ad9f9338a509827f4656
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 66%
+source-wordcount: '159'
+ht-degree: 55%
 
 ---
 
@@ -16,6 +17,19 @@ ht-degree: 66%
 Cette page décrit les améliorations de la gestion des documents dans l’environnement Aperçu par la version du deuxième trimestre 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2025, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Mise à jour de la visionneuse de relecture de bureau
+
+>[!NOTE]
+>
+>Version préliminaire : vendredi 20 mars 2025 ; Version de production pour l’ensemble de la clientèle : vendredi 20 mars 2025
+
+Le lecteur de vérification pour bureau a été mis à jour vers la version 2.1.45. Cette mise à jour permet à l’observateur d’utiliser les éléments suivants :
+
+* Electron version 35
+* Chromium version 134
+
+Cette mise à jour concerne Mac et Windows.
 
 ## Modifier plusieurs documents à la fois dans un rapport de document
 
@@ -26,4 +40,3 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 Vous pouvez désormais modifier plusieurs documents à la fois dans un rapport de document. Vous pouvez modifier les descriptions et mettre à jour les formulaires personnalisés.
 
 Pour plus d’informations, voir [Modifier des documents en bloc](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).
-
