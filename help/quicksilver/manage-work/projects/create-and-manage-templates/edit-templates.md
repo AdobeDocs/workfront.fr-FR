@@ -6,9 +6,9 @@ description: Vous pouvez modifier les modèles de projet pour refléter les chan
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '4854'
+source-wordcount: '4877'
 ht-degree: 95%
 
 ---
@@ -1106,9 +1106,16 @@ L’ajout des éléments suivants à un modèle est identique à l’ajout à un
 
   Pour plus d’informations sur l’ajout de dépenses, voir [Gérer les dépenses du projet](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
+* Détails de la file d&#39;attente
+
+  Pour plus d’informations sur l’ajout de détails de file d’attente à un projet ou à un modèle, voir [Créer une file d’attente des demandes](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
 * Groupes de sujets et rubriques de file d’attente
 
-  Pour plus d’informations sur l’ajout de groupes de sujets et de rubriques de file d’attente à un projet ou à un modèle, consultez la section [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Pour plus d’informations sur l’ajout de groupes de rubriques et de rubriques de file d’attente à un projet ou un modèle, consultez les articles suivants :
+
+   * [Créer des groupes de sujets](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [Créer des rubriques de file d’attente](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 Vous pouvez ajouter les éléments suivants aux tâches du modèle :
 

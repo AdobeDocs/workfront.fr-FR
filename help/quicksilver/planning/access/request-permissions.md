@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 17%
+source-wordcount: '625'
+ht-degree: 16%
 
 ---
 
@@ -118,7 +118,7 @@ Lorsqu&#39;une personne partage avec vous un lien vers un espace de travail ou u
 
    Une page **Vous n’avez pas accès** s’affiche pour vous informer que vous n’avez pas accès à la vue ou à l’espace de travail.
 
-   ![](assets/request-access-to-view.png)
+   ![Demander l’accès à la vue](assets/request-access-to-view.png)
 
 1. (Conditionnel) Si le lien partagé correspond à une vue de l&#39;espace de travail auquel vous avez accès, cliquez sur **Ouvrir avec la vue existante**. Si vous disposez des autorisations nécessaires pour accéder à l’espace de travail, la page de type d’enregistrement s’ouvre dans la vue par défaut.
 
@@ -126,8 +126,8 @@ Lorsqu&#39;une personne partage avec vous un lien vers un espace de travail ou u
 
    Tous les utilisateurs disposant d’autorisations de niveau Gérer pour l’affichage ou l’espace de travail reçoivent les notifications suivantes pour la demande d’accès :
    * Une notification in-app
-     ![](assets/in-app-notification-for-access-request.png)
+     ![Notification in-app pour la demande d’accès](assets/in-app-notification-for-access-request.png)
    * Notification par e-mail
-     ![](assets/email-notification-for-access-request.png)
+     ![Notification électronique pour la demande d’accès](assets/email-notification-for-access-request.png)
 
 1. (Conditionnel) Lorsque le gestionnaire de l’affichage ou de l’espace de travail vous accorde des autorisations pour l’affichage ou l’espace de travail, vous recevez une notification par e-mail et une notification in-app avec une confirmation que l’autorisation a été accordée. <!--check this - I was not able to test this, but Isk confirmed.-->

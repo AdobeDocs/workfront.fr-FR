@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 34%
+source-wordcount: '714'
+ht-degree: 32%
 
 ---
 
@@ -159,15 +159,15 @@ OLD:
    La page Workspace s’ouvre et les types d’enregistrements s’affichent.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Pointez sur la carte d’un type d’enregistrement et cliquez sur le ![](assets/more-menu.png) de menu **Plus** dans le coin supérieur droit de la carte de type d’enregistrement, puis cliquez sur **Modifier**
+   * Pointez sur la carte d’un type d’enregistrement et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte du type d’enregistrement, puis cliquez sur **Modifier**
 Ou
-   * Cliquez sur une carte de type d’enregistrement pour ouvrir la page de type d’enregistrement, cliquez sur l’![](assets/more-menu.png) du menu **Plus** à droite du nom du type d’enregistrement, puis cliquez sur **Modifier**.
+   * Cliquez sur une carte de type d’enregistrement pour ouvrir la page de type d’enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Modifier**.
 
-   ![](assets/more-menu-options-from-record-type-card.png)
+   ![Autres options de menu de la carte de type d’enregistrement](assets/more-menu-options-from-record-type-card.png)
 
 1. Dans la zone **Modifier le type d’enregistrement**, l’onglet **Apparence** s’ouvre par défaut.
 
-   ![](assets/edit-record-type-box-appearance-tab.png)
+   ![Onglet Apparence de la zone Modifier le type d’enregistrement ](assets/edit-record-type-box-appearance-tab.png)
 
    Mettez à jour les informations suivantes dans l’onglet **Apparence** :
 
@@ -179,7 +179,7 @@ Ou
 
 1. (Conditionnel) Si vous êtes un administrateur système, cliquez sur l’onglet **Paramètres avancés** dans la zone **Modifier le type d’enregistrement**.
 
-   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Onglet Paramètres avancés de la zone Modifier le type d’enregistrement](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. (Conditionnel) En tant qu’administrateur système, mettez à jour les informations suivantes dans l’onglet **Paramètres avancés** :
 
@@ -189,10 +189,10 @@ Ou
 
 1. Cliquer sur **Enregistrer**.
 
-   La carte Type d’enregistrement de l’espace de travail affiche une icône de connectivité ![](assets/connect-from-other-workspaces-icon.png) dans le coin supérieur droit pour indiquer que l’enregistrement est désormais accessible à partir d’autres espaces de travail.
+   La carte de type d’enregistrement de l’espace de travail affiche une icône de connectivité ![Icône Se connecter à partir d’autres espaces de travail](assets/connect-from-other-workspaces-icon.png) dans le coin supérieur droit pour indiquer que l’enregistrement est désormais accessible à partir d’autres espaces de travail.
 
 1. (Facultatif) Cliquez sur la carte de type d’enregistrement de la zone de l’espace de travail pour ouvrir la page du type d’enregistrement, puis renommez le type d’enregistrement dans l’en-tête.
 
 1. (Facultatif) Pour modifier un autre type d’enregistrement, sur la page Type d’enregistrement , développez la flèche pointant vers le bas à droite du nom d’un type d’enregistrement, recherchez un type d’enregistrement, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
-   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![Liste déroulante Type d’enregistrement sur la page Type d’enregistrement avec la zone de recherche](assets/record-type-drop-down-on-record-type-page-with-search-box.png)

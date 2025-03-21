@@ -6,10 +6,10 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 55%
+source-wordcount: '503'
+ht-degree: 54%
 
 ---
 
@@ -193,7 +193,7 @@ OLD:
 
 1. Recherchez le champ à supprimer dans les en-têtes de colonne, pointez sur l’en-tête de colonne, puis cliquez sur la flèche pointant vers le bas située après le nom du champ.
 
-   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![Menu fléché après le nom du champ dans l’en-tête du tableau mis en surbrillance](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. Cliquez sur **Supprimer**. <!-- check this: they might replace it with **Delete field**-->
 

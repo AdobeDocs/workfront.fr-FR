@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 48%
+source-wordcount: '628'
+ht-degree: 44%
 
 ---
 
@@ -174,9 +174,9 @@ Vous pouvez créer un espace de travail et y ajouter des types d’enregistremen
 
    La zone d’aperçu du modèle s’ouvre.
 
-   Il existe une indication des types d’enregistrements opérationnels, des taxonomies et du nombre de champs associés à chaque modèle.
+   Les types d’enregistrements opérationnels, les taxonomies et le nombre de champs associés à chaque modèle sont indiqués.
 
-   ![](assets/previewing-a-workspace-template.png)
+   ![Aperçu d’un modèle d’espace de travail](assets/previewing-a-workspace-template.png)
 
    Pour plus d’informations sur les modèles d’espace de travail de Workfront Planning, voir [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md).
 
@@ -201,7 +201,7 @@ Vous pouvez créer un espace de travail et y ajouter des types d’enregistremen
 
    Ou
 
-   Pointez sur le nom d’une section, puis cliquez sur le menu **Plus** ![](assets/more-menu.png), puis cliquez sur **Renommer** pour renommer la section.
+   Pointez sur le nom d’une section, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Renommer** pour renommer la section.
 
    >[!TIP]
    >

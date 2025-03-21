@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 45%
+source-wordcount: '733'
+ht-degree: 33%
 
 ---
 
@@ -166,14 +166,14 @@ For more information about access requirements, see [Access requirements in Work
 1. (Facultatif) Cliquez sur K **Afficher moins** pour limiter le nombre d’espaces de travail affichés à l’écran.
 1. Pour modifier un espace de travail, effectuez l’une des opérations suivantes :
 
-   * Pointez sur la carte de l’espace de travail, puis cliquez sur le ![](assets/more-menu.png) de menu **Plus** dans le coin supérieur droit de la carte
+   * Pointez sur la carte de l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte
 Ou
-   * Cliquez sur une carte d’espace de travail pour ouvrir l’espace de travail, puis cliquez sur l’![](assets/more-menu.png) du menu **Plus** à droite du nom de l’espace de travail.
+   * Cliquez sur une carte d’espace de travail pour ouvrir l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’espace de travail.
 1. Cliquez sur **Modifier**.
 
    La zone **Modifier l’espace de travail** s’affiche.
 
-   ![](assets/edit-workspace-box.png)
+   ![Zone Modifier l’espace de travail](assets/edit-workspace-box.png)
 
 1. Mettez à jour les informations suivantes dans la zone **Modifier l’espace de travail** :
 
@@ -186,16 +186,16 @@ Ou
 1. (Facultatif) Pour ajouter une nouvelle section d’espace de travail, effectuez l’une des opérations suivantes :
 
    * Cliquez sur **Ajouter une section** au bas de l’espace de travail.
-   * Pointez sur le nom d’une section, puis cliquez sur le menu **Plus** ![](assets/more-menu.png), puis cliquez sur **Ajouter la section ci-dessus** ou **Ajouter la section ci-dessous**.
+   * Pointez sur le nom d’une section et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Ajouter une section ci-dessus** ou **Ajouter une section ci-dessous**.
 
 1. (Facultatif) Pour modifier l’emplacement d’une section, effectuez l’une des opérations suivantes :
 
-   * Pointez sur le nom d’une section, puis cliquez sur l’icône **saisir** ![](assets/grab-icon.png), puis faites un glisser-déposer à l’endroit approprié.
-   * Pointez sur le nom d’une section, puis cliquez sur le menu **Plus** ![](assets/more-menu.png), puis cliquez sur **Déplacer vers le haut** ou **Déplacer vers le bas**. La section se déplace vers le haut ou vers le bas dans l’espace de travail.
+   * Passez la souris sur le nom d’une section et cliquez sur l’icône **grab** ![Icône Grab](assets/grab-icon.png), puis glissez-déposez-la à droite.
+   * Pointez sur le nom d’une section, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur **Déplacer vers le haut** ou **Déplacer vers le bas**. La section se déplace vers le haut ou vers le bas dans l’espace de travail.
 
 1. (Facultatif) Pour supprimer une section d’espace de travail, procédez comme suit :
 
-   1. Pointez sur le nom d’une section, puis cliquez sur le menu **Plus** ![](assets/more-menu.png), puis cliquez sur **Supprimer**. <!--add screen shot when UI is final?-->
+   1. Pointez sur le nom d&#39;une section, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur **Supprimer**. <!--add screen shot when UI is final?-->
    1. Sélectionnez une nouvelle section pour y déplacer tous les types d’enregistrement, puis cliquez sur **Supprimer**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       Tous les types d’enregistrement sont déplacés vers la section de sélection et la section est supprimée.
@@ -204,17 +204,17 @@ Ou
 
    Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. (Facultatif) Pointez sur une carte de type d’enregistrement, cliquez sur le ![](assets/more-menu.png) de menu **Plus** dans le coin supérieur droit, puis cliquez sur **Modifier** pour modifier l’aspect d’un type d’enregistrement.
+1. (Facultatif) Pointez sur une carte de type d’enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Modifier** pour modifier l’aspect d’un type d’enregistrement.
 
    Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Facultatif) Pointez sur une carte de type d’enregistrement, cliquez sur le ![](assets/more-menu.png) de menu **Plus** dans le coin supérieur droit, puis cliquez sur **Supprimer** pour supprimer un type d’enregistrement.
+1. (Facultatif) Pointez sur une carte de type d’enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Supprimer** pour supprimer un type d’enregistrement.
 
    Pour plus d’informations, voir [Supprimer des types d’enregistrements](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Facultatif) Appuyez sur un clic sur une carte de type enregistrement pour la faire glisser et la déposer à un nouvel endroit. Vous pouvez faire glisser et déposer des types d’enregistrements d’une section de l’espace de travail à une autre.
 
-   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
+   ![Glisser-déposer des types d’enregistrements dans un espace de travail](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (Facultatif) Cliquez sur **Partager** dans le coin supérieur droit de l’espace de travail pour partager l’espace de travail avec d’autres personnes.
 

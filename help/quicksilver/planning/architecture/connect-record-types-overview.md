@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 21%
+source-wordcount: '1541'
+ht-degree: 20%
 
 ---
 
@@ -93,7 +93,7 @@ Tenez compte des points suivants concernant la connexion des types d’enregistr
      >
      >Toute personne disposant d&#39;autorisations d&#39;affichage ou supérieures pour l&#39;espace de travail peut afficher les informations dans les champs de recherche, quels que soient ses autorisations ou son niveau d&#39;accès dans l&#39;application des types d&#39;objets liés ou ses autorisations dans d&#39;autres espaces de travail.
 
-     Les champs d’enregistrement liés sont précédés d’une icône de relation ![](assets/relationship-field-icon.png).
+     Les champs d’enregistrement liés sont précédés d’une icône de relation ![icône de champ de relation](assets/relationship-field-icon.png).
 
      Les champs liés sont précédés d’une icône qui identifie le type de champ. Par exemple, les champs liés (ou de recherche) sont précédés d’icônes indiquant qu’un champ est un nombre, un paragraphe ou une date.
 
@@ -118,7 +118,7 @@ Selon le nombre d’enregistrements que vous pouvez ajouter à un champ d’enre
 
 ### Type de connexion plusieurs à plusieurs
 
-![](assets/many-to-many-connection-picker.png)
+![Sélecteur de connexion plusieurs à plusieurs](assets/many-to-many-connection-picker.png)
 
 Lorsque vous créez une connexion multiple-à-multiple entre des types d’enregistrements, vous pouvez ensuite sélectionner plusieurs enregistrements dans le champ de connexion à partir des deux types d’enregistrements.
 
@@ -130,7 +130,7 @@ Lorsque vous sélectionnez ce type de connexion, vous ne pouvez pas le modifier 
 
 ### Type de connexion un-à-plusieurs
 
-![](assets/one-to-many-connection-picker.png)
+![Sélecteur de connexion un à plusieurs](assets/one-to-many-connection-picker.png)
 
 
 Lorsque vous créez une connexion un-à-plusieurs entre les types d’enregistrement, vous pouvez ensuite sélectionner plusieurs enregistrements dans le champ de connexion du type d’enregistrement actif, mais le champ de connexion correspondant dans le type d’enregistrement auquel vous vous connectez permettra de sélectionner un seul enregistrement. Le champ d’enregistrement connecté qui est automatiquement créé sur le deuxième type d’enregistrement est automatiquement défini sur un type de relation multiple-à-un.
@@ -143,7 +143,7 @@ Lorsque vous sélectionnez ce type de connexion, vous pouvez le modifier ultéri
 
 ### Type de connexion multiple-à-un
 
-![](assets/many-to-one-connection-picker.png)
+![Sélecteur de connexion plusieurs à un](assets/many-to-one-connection-picker.png)
 
 
 Lorsque vous créez une connexion multiple-à-un entre les types d’enregistrement, vous pouvez ensuite connecter chaque enregistrement du type d’enregistrement actif à un seul enregistrement du type d’enregistrement connecté. Le champ d’enregistrement connecté qui est automatiquement créé sur le deuxième type d’enregistrement est automatiquement défini sur un type de relation un-à-plusieurs.
@@ -156,7 +156,7 @@ Lorsque vous sélectionnez ce type de connexion, vous pouvez le modifier ultéri
 
 ### Type de connexion un-à-un
 
-![](assets/one-to-one-connection-picker.png)
+![Sélecteur de connexion un à un](assets/one-to-one-connection-picker.png)
 
 Lorsque vous créez une connexion un-à-un entre les types d&#39;enregistrements, dans les deux types d&#39;enregistrements, vous ne pouvez connecter chaque enregistrement qu&#39;à un seul enregistrement de l&#39;autre type d&#39;enregistrement.
 

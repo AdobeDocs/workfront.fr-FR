@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 28%
+source-wordcount: '709'
+ht-degree: 27%
 
 ---
 
@@ -169,11 +169,11 @@ Tous les autres types de champ Workfront ne sont pas pris en charge dans Workfro
    Pointez sur l’en-tête d’une colonne, cliquez sur la flèche pointant vers le bas après le nom du champ, puis cliquez sur **Insérer à gauche** ou **Insérer à droite** pour ajouter le nouveau champ.
 1. Cliquez sur **Ajouter un existant** dans le coin inférieur droit de l’onglet **Nouveau champ**. <!--check UI - did they change this??-->
 
-   ![](assets/add-existing-fields-from-workfront-modal.png)
+   ![Boîte de dialogue modale Ajouter des champs existants à partir de Workfront](assets/add-existing-fields-from-workfront-modal.png)
 
 1. Commencez à saisir le nom d’un champ Workfront existant dans la zone de recherche, puis cliquez sur **+** lorsqu’il s’affiche dans la liste.
 1. (Facultatif) Saisissez un autre champ, puis cliquez sur **+** lorsqu’il s’affiche dans la liste.
-1. (Facultatif) Cliquez sur le ![](assets/filters-in-import-fields-icon.png) de l’icône **Filtres**, puis mettez à jour l’un des champs suivants, ou les deux :
+1. (Facultatif) Cliquez sur l’icône **Filtres** ![Icône Filtres dans les champs d’importation](assets/filters-in-import-fields-icon.png), puis mettez à jour l’un des champs suivants, ou les deux :
 
    * Type d’objet : sélectionnez un type d’objet Workfront dont vous souhaitez importer les champs.
    * Formulaire personnalisé : sélectionnez un ou plusieurs formulaires personnalisés dans Workfront. Vous pouvez sélectionner un formulaire personnalisé sans sélectionner au préalable un type d’objet.

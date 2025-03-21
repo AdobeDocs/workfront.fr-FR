@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '302'
 ht-degree: 11%
 
 ---
@@ -30,7 +30,7 @@ Par défaut, le champ Nom est le champ principal. Cependant, vous pouvez désign
 * Nombre
 * Formule
 
-![](assets/another-text-field-as-a-primary-field-highlighted.png)
+![Un autre champ de texte en tant que champ principal mis en surbrillance](assets/another-text-field-as-a-primary-field-highlighted.png)
 
 Pour plus d&#39;informations sur la désignation d&#39;un champ en tant que champ principal, voir [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 

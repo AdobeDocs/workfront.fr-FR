@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 46%
+source-wordcount: '698'
+ht-degree: 39%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 46%
 
 {{planning-important-intro}}
 
-Vous pouvez modifier les paramètres des champs déjà créés dans Adobe Workfront Planning.
+Vous pouvez modifier les paramètres des champs existants dans Adobe Workfront Planning.
 
 Pour plus d’informations sur la création de champs Adobe Workfront Planning, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
@@ -99,72 +99,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 +++
 
 
-<!--
-OLD
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access controls for Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
-
 ## Considérations relatives à la modification des paramètres de champ
 
 Vous devez tenir compte des points suivants avant d’apporter des modifications à la configuration d’un champ :
 
-* Vous pouvez modifier les champs que vous avez créés ou ceux créés par d’autres personnes, si vous disposez des autorisations de gestion sur l’espace de travail auquel ces champs appartiennent.
-* Vous pouvez modifier un champ dans le tableau de type enregistrement.
+* Vous ne pouvez modifier les paramètres de champ qu’à partir du tableau de type d’enregistrement.
 * Vous ne pouvez pas modifier un champ sur la page d’enregistrement ou dans un autre affichage, en dehors de la vue Tableau.
 * Une fois le champ enregistré, vous ne pouvez plus le modifier.
 * Vous ne pouvez pas désélectionner le paramètre Autoriser les nombres négatifs précédemment sélectionné pour un champ Nombre, Pourcentage ou Devise si des valeurs négatives sont déjà stockées dans les enregistrements auxquels il est joint.
@@ -181,6 +120,12 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
   >Aucun avertissement ni indication que cette perte de données peut se produire lorsque vous modifiez la configuration des champs.
   >
   >Les autres utilisateurs ne sont pas informés que la configuration du champ a changé.
+
+* Vous ne pouvez pas modifier les champs de recherche existants à partir des enregistrements connectés.
+
+<!--replace he last bullet with thsi: 
+
+* <span class="preview">You can edit existing lookup fields from connected records.</span>-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -207,7 +152,7 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
 
    Double-cliquez sur l’en-tête de colonne du champ.
 
-   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![Menu fléché après le nom du champ dans l’en-tête du tableau mis en surbrillance](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. Mettez à jour les informations sur le champ et cliquez sur **Enregistrer**. <!--insert screen shot when finalized-->
 

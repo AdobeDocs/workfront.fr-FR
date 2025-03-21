@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 52%
+source-wordcount: '449'
+ht-degree: 51%
 
 ---
 
@@ -173,12 +173,12 @@ OLD:
 1. (Facultatif) Cliquez sur K **Afficher moins** pour limiter le nombre d’espaces de travail affichés à l’écran.
 1. Pour supprimer un espace de travail, effectuez l’une des opérations suivantes :
 
-   * Pointez sur la carte de l’espace de travail, puis cliquez sur le ![](assets/more-menu.png) de menu **Plus** dans le coin supérieur droit de la carte
+   * Pointez sur la carte de l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte
 Ou
-   * Cliquez sur une carte d’espace de travail pour ouvrir l’espace de travail, puis cliquez sur l’![](assets/more-menu.png) du menu **Plus** à droite du nom de l’espace de travail.
+   * Cliquez sur une carte d’espace de travail pour ouvrir l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’espace de travail.
 1. Cliquez sur **Supprimer**.
 
-   ![](assets/permanently-delete-workspace-confirmation.png)
+   ![Confirmation de suppression définitive de l’espace de travail](assets/permanently-delete-workspace-confirmation.png)
 
 1. Saisissez « **delete** » dans l’espace prévu à cet effet, puis cliquez sur **Supprimer définitivement**. Cette opération n’est pas sensible à la casse.
 

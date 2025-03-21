@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2341'
-ht-degree: 41%
+source-wordcount: '2407'
+ht-degree: 39%
 
 ---
 
@@ -187,13 +187,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Cliquez sur la vignette d’un type d’enregistrement pour ouvrir la page du type d’enregistrement.
 1. Cliquez sur l’icône **+** dans le coin supérieur droit de la vue tableau, puis cliquez sur l’onglet **Nouvelle connexion**.
 
-   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Nouvel onglet de connexion avec les options de Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
 1. Dans le champ **Type d’enregistrement**, recherchez un type d’enregistrement ou sélectionnez l’un des éléments suivants :
 
    * Autre type d&#39;enregistrement de l&#39;espace de travail actuel
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![Sélecteur de connexion plusieurs à plusieurs](assets/many-to-many-connection-picker.png)
 
      >[!TIP]
      >
@@ -210,15 +210,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
      Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![Nouvelle connexion pour autoriser plusieurs enregistrements](assets/new-connection-allow-multiple-records-box.png)
 
    * Un **projet, un portfolio, un programme, une entreprise** ou un **groupe** depuis la section **Types d’objets Workfront**.
 
-     ![](assets/workfront-project-connection-selection.png)
+     Sélection de la connexion au projet Workfront ![](assets/workfront-project-connection-selection.png)
 
    * **Experience Manager Assets** depuis la section **Adobe Applications**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     ![Sélection de la connexion AEM Assets](assets/aem-assets-connection-selection.png)
 
 1. Mettez à jour les informations suivantes :
 
@@ -233,7 +233,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
      Cette option est disponible uniquement lors de la connexion d’enregistrements provenant de deux espaces de travail différents ou d’un enregistrement et d’un objet de ressource Adobe Experience Manager.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![Nouvelle connexion pour autoriser plusieurs enregistrements](assets/new-connection-allow-multiple-records-box.png)
 
    * **Type de connexion** : sélectionnez l’une des options suivantes pour indiquer le nombre d’enregistrements auxquels se connecter et depuis lesquels :
 
@@ -244,7 +244,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
      Cette option est disponible uniquement lors de la connexion d’enregistrements du même espace de travail ou d’un enregistrement et d’un type d’objet Workfront.
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![Sélecteur de connexion plusieurs à plusieurs](assets/many-to-many-connection-picker.png)
 
      Pour plus d’informations sur les types de connexion, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -303,7 +303,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Cliquez sur l’icône **-** pour supprimer des champs de la zone **Champs sélectionnés**.
 
-   ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+   ![Ajout de champs de recherche pour une autre zone de type d’enregistrement](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
    Les valeurs des champs connectés se remplissent automatiquement lorsque vous liez des enregistrements ou des objets.
 
@@ -328,7 +328,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >
    >    Vous devez sélectionner une valeur d’agrégateur lors de l’ajout de champs de date de recherche, si vous souhaitez que les champs soient disponibles pour être ajoutés en tant que dates de début et de fin pour les vues chronologique et Calendrier. Par exemple, vous pouvez sélectionner le MAX ou l’agrégateur MIN pour un champ de date de recherche.
 
-   ![](assets/aggregator-drop-down-for-number-linked-field.png)
+   ![Liste déroulante d’agrégation pour le champ de numéro lié](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
@@ -358,7 +358,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >* **UNIQUE** : 100 000 $
    >
 
-1. (Facultatif) Utilisez l’icône **Rechercher** ![](assets/search-icon.png) pour rechercher un champ.
+1. (Facultatif) Utilisez l’icône **rechercher** ![Icône Rechercher](assets/search-icon.png) pour rechercher un champ.
 
 1. Cliquez sur **Ajouter des champs** pour enregistrer vos modifications.
 
@@ -385,7 +385,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * **Modifier le champ** : mettez à jour les informations **Nom** et **Description** du champ.
    * **Modifier les champs de recherche** : ajoutez ou supprimez un ou plusieurs champs de l’enregistrement lié.
 
-   ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![Menu déroulant Modifier le champ et champs de recherche dans la colonne du tableau](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    Pour ajouter ou supprimer des champs de recherche, suivez les instructions des étapes 16 à 17 ci-dessus. <!--ensure these step numbers stay accurate-->
 
