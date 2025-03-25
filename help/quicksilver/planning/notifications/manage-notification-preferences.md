@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 24%
+source-wordcount: '513'
+ht-degree: 23%
 
 ---
 
@@ -169,13 +169,13 @@ OLD:
 ## Gérer les préférences de notification
 
 1. Connectez-vous à Workfront à l’aide de vos informations d’identification Adobe Experience Cloud.
-1. Cliquez sur l’icône **menu du compte** ![](assets/account-menu-icon-on-experience-cloud.png) dans le coin supérieur droit de l’écran, puis cliquez sur **Préférences**.
+1. Cliquez sur l’icône **menu du compte** ![icône du menu du compte dans Experience Cloud](assets/account-menu-icon-on-experience-cloud.png) dans le coin supérieur droit de l’écran, puis cliquez sur **Préférences**.
 1. Dans la section **Notifications**, cliquez sur **Workfront**.
 1. Sélectionnez les notifications que vous souhaitez recevoir.
 Ou
 Désélectionnez les notifications que vous souhaitez arrêter de recevoir.
 
-   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+   Panneau de notifications ![Adobe Experience Cloud pour Workfront Planning](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Les notifications suivantes sont disponibles pour Workfront :
 
    * **Mentions** : vous recevez une notification lorsqu’une personne vous identifie dans un commentaire dans Workfront Planning

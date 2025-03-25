@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '662'
 ht-degree: 15%
 
 ---
@@ -163,7 +163,7 @@ OLD:
 
 1. (Conditionnel et facultatif) Une fois que quelqu’un vous a identifié dans un commentaire sur un enregistrement, accédez à la notification par e-mail qui vous informe de la balise et du commentaire. L’expéditeur de l’e-mail est Adobe Experience Cloud.
 
-   ![](assets/email-notification-example.png)
+   ![Exemple de notifications par e-mail](assets/email-notification-example.png)
 
 1. (Facultatif) Cliquez sur le message dans la zone **Workfront** de l’e-mail.
 
@@ -195,6 +195,6 @@ après la soumission d&#39;une demande ou après qu&#39;une demande que vous ave
 
 1. (Facultatif) Cliquez sur **Ouvrir la demande**. La demande s’ouvre alors dans Workfront Planning.
 
-1. Cliquez sur l’icône **Notifications** ![](assets/notifications-area-icon-unified-shell.png) dans le coin supérieur droit de l’écran pour accéder à la page **Notifications**.
+1. Cliquez sur l’icône **Notifications** ![Icône de la zone de notifications Unified Shell](assets/notifications-area-icon-unified-shell.png) dans le coin supérieur droit de l’écran pour accéder à la page **Notifications**.
 
    Pour plus d’informations sur la gestion des notifications Workfront Planning, voir [Gérer les préférences de notification Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

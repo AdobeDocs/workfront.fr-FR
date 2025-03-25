@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 32%
+source-wordcount: '605'
+ht-degree: 31%
 
 ---
 
@@ -175,13 +175,13 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Pointez sur le nom d’un enregistrement, puis cliquez sur le menu **Plus** aligné avec le nom d’enregistrement, puis cliquez sur l’icône **Dupliquer** ![](assets/duplicate-icon-gray.png) .
+   * Pointez sur le nom d’un enregistrement, puis cliquez sur le menu **Plus** aligné avec le nom d’enregistrement, puis cliquez sur l’icône **Dupliquer** ![icône Dupliquer grise](assets/duplicate-icon-gray.png) .
 
-     ![](assets/more-menu-from-record-in-table-view.png)
+     ![Menu Plus de l’enregistrement en mode Tableau](assets/more-menu-from-record-in-table-view.png)
 
-   * Sélectionnez un enregistrement, puis cliquez sur l&#39;icône **Dupliquer** ![](assets/duplicate-icon-white-and-blue.png) dans la barre d&#39;outils située en bas de la page.
+   * Sélectionnez un enregistrement, puis cliquez sur l&#39;icône **Dupliquer** ![Icône Dupliquer en blanc et bleu](assets/duplicate-icon-white-and-blue.png) dans la barre d&#39;outils située en bas de la page.
 
-     ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![ Icône Dupliquer dans la barre d’outils en mode Tableau ](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    Un enregistrement identique avec un nom identique est créé sous l’enregistrement d’origine. Tous les champs du nouvel enregistrement sont remplis avec les mêmes informations que dans l&#39;enregistrement d&#39;origine.
 

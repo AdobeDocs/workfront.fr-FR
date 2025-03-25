@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 21%
+source-wordcount: '491'
+ht-degree: 20%
 
 ---
 
@@ -118,11 +118,11 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 
    La zone d&#39;aperçu de l&#39;enregistrement s&#39;ouvre.
 
-1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page de l’enregistrement.
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page de l’enregistrement.
 
 1. Sélectionnez l’onglet **Détails**. L’onglet Détails doit s’ouvrir par défaut.
 
-1. Cliquez sur le menu **Exporter** ![](assets/export-icon-in-record-details-page.png) dans l&#39;aperçu ou dans la page de l&#39;enregistrement, puis cliquez sur l&#39;une des options suivantes :
+1. Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l&#39;enregistrement](assets/export-icon-in-record-details-page.png) dans l&#39;aperçu ou dans la page de l&#39;enregistrement, puis cliquez sur l&#39;une des options suivantes :
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -131,7 +131,7 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 
    Le nom du fichier exporté est le champ de Principal de l’enregistrement.
 
-   ![](assets/exported-word-file.png)
+   ![Fichier Word exporté](assets/exported-word-file.png)
 
    >[!NOTE]
    >

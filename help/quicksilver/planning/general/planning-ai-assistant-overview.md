@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 6%
+source-wordcount: '780'
+ht-degree: 5%
 
 ---
 
@@ -76,7 +76,7 @@ L’assistant d’IA se trouve dans les zones suivantes de Workfront Planning :
 
 ## Accéder à l’assistant d’IA dans la zone Planification
 
-1. Connectez-vous à Workfront, puis cliquez sur l’icône **Menu principal** ![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, ou sur l’icône **Menu principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant.
+1. Connectez-vous à Workfront, puis cliquez sur l’icône **Menu principal** ![Menu principal Points](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, ou sur l’icône **Menu principal** ![Menu principal Lignes](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant.
 
 . Cliquez sur **Planification**. La zone Planification s’ouvre.
 
@@ -88,11 +88,11 @@ L’assistant d’IA se trouve dans les zones suivantes de Workfront Planning :
 
 1. Cliquez sur l’icône **Assistant IA** dans le coin supérieur droit de l’écran dans la barre de navigation globale ou dans le coin supérieur droit de l’aperçu ou de la page de l’enregistrement.
 
-   ![](assets/ai-assistant-icon-highlighted.png)
+   ![Icône de l’assistant AI](assets/ai-assistant-icon-highlighted.png)
 
 1. Dans l’espace prévu à cet effet, commencez à saisir les commandes de l’assistant d’IA, puis cliquez sur Entrée lorsque vous avez terminé.
 
-   ![](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![Panneau Assistant IA avec zone de commande vide](assets/ai-assistant-panel-with-empty-command-box.png)
 
    Par exemple, vous pouvez saisir l’une des valeurs suivantes :
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 63%
+source-wordcount: '1459'
+ht-degree: 54%
 
 ---
 
@@ -252,7 +252,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 
    Un nouvel onglet est créé avec la vue sélectionnée.
 
-   Selon la largeur de votre écran, d’autres vues peuvent s’afficher dans le menu **Plus** ![](assets/more-menu.png).
+   Selon la largeur de l’écran, d’autres vues peuvent s’afficher dans le menu **Plus** ![Plus](assets/more-menu.png).
 
 
 >[!TIP]
@@ -264,7 +264,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 >Dans le cas contraire, les options Chronologie et Calendrier sont grisées.
 >
 
-![](assets/view-types-drop-down-from-record-type-list.png)
+![Liste déroulante Afficher les types de la liste des types d’enregistrement](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Le cas échéant) Cliquez sur **Suivant** lors de la création d’une vue chronologique ou de calendrier.
 
@@ -285,10 +285,10 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 1. Cliquez sur **Créer**.
 
    La vue s’affiche dans un nouvel onglet. Les vues s’affichent dans l’ordre chronologique à partir du moment où elles ont été créées ou partagées avec vous.
-1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-caret-down-icon-views.png) en regard de la dernière vue pour afficher toutes les vues pour le type d’enregistrement sélectionné.
+1. (Facultatif) Cliquez sur le menu **Plus** ![Autres vues d’icône en forme de flèche vers le bas](assets/more-caret-down-icon-views.png) en regard de la dernière vue pour afficher toutes les vues pour le type d’enregistrement sélectionné.
 
    D’autres vues s’affichent dans le menu **Plus** après le dernier onglet de vue. Le numéro en regard du menu **Plus** affiche le nombre de vues supplémentaires.
-1. (Facultatif) Pour renommer une vue après sa création, cliquez sur le menu déroulant Vue, puis sur le menu **Plus** ![](assets/more-menu.png) > **Renommer** pour mettre à jour le nom de la vue.
+1. (Facultatif) Pour renommer une vue après sa création, cliquez sur le menu déroulant de la vue, puis sur le menu **Plus** ![Menu Plus](assets/more-menu.png) > **Renommer** pour mettre à jour le nom de la vue
 
    Ou
 
@@ -313,9 +313,9 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 
    La page de type d’enregistrement s’ouvre.
 
-   Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans la vue de tableau.
+   Par défaut, tous les enregistrements du type sélectionné s’affichent dans la vue tableau.
 
-1. Pointez sur l’un des noms de la vue dans l’onglet Vue, cliquez sur **Plus** ![](assets/more-menu.png) à gauche du nom de la vue, puis sur **Supprimer**.
+1. Pointez sur l&#39;un des noms de la vue dans l&#39;onglet Vue, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png) à gauche du nom de la vue, puis cliquez sur **Supprimer**.
 Vous devrez peut-être d’abord cliquer sur **Plus** à gauche du dernier onglet pour trouver la vue que vous souhaitez supprimer.
 
 1. Cliquez sur **Supprimer** pour confirmer. <!--ensure there is not another saving step here?!-->
@@ -345,9 +345,9 @@ Les autorisations de partage de la vue d’origine ne sont pas transférées à 
    La page de type d’enregistrement s’ouvre.
 Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans la vue de tableau.
 
-1. Pointez sur l’onglet de la vue à dupliquer, cliquez sur le menu **Plus** ![](assets/more-menu.png) à droite du nom de la vue, puis sur **Dupliquer**.
+1. Pointez sur l’onglet de la vue à dupliquer, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Dupliquer**.
 
-   ![](assets/view-more-menu-with-duplicate-option.png)
+   ![Menu Afficher plus avec l’option Dupliquer](assets/view-more-menu-with-duplicate-option.png)
 
 
    La vue est dupliquée et le nom de la nouvelle vue suit le modèle suivant : `Original view's name (Copy)`. Le nouvel onglet de vue s’affiche à la fin de tous les onglets de vue.
@@ -362,13 +362,13 @@ Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un 
 1. (Conditionnel) Si d’autres utilisateurs modifient les enregistrements du type sélectionné en même temps, leurs avatars s’affichent dans le coin supérieur droit de la vue.
 1. Cliquez sur le menu déroulant en regard des avatars, puis sélectionnez le bouton bascule **Afficher les collaborateurs**. Le bouton (bascule) est sélectionné par défaut.
 
-   ![](assets/show-collaborators-toggle-selected.png)
+   ![Bouton bascule Afficher les collaborateurs sélectionné](assets/show-collaborators-toggle-selected.png)
 
 1. (Conditionnel) Ouvrez une vue de tableau, et le champ qu’une autre personne modifie activement est mis en surbrillance dans la couleur correspondant au contour de son avatar dans la vue de tableau.
 
    Si la couleur de surbrillance de l&#39;avatar est grise, l&#39;utilisateur a arrêté de modifier activement l&#39;enregistrement il y a plus de 30 secondes.
 
-   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![Champ de tableau des indicateurs en temps réel et connexion à l’avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >

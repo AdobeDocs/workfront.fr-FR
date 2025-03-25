@@ -5,10 +5,10 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 98%
 
 ---
 
@@ -99,6 +99,6 @@ Voici les statuts du budget :
 
 L’administrateur ou l’administratrice d’Adobe Workfront a limité votre niveau d’accès à afficher les entreprises, les groupes et les équipes auxquels vous appartenez. L’équipe que vous recherchez n’est pas l’une des équipes auxquelles vous appartenez.
 
-![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![Afficher uniquement les équipes, les groupes, les sociétés auxquels ils appartiennent](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
 Pour plus d’informations sur l’activation d’une personne afin qu’elle puisse voir toutes les équipes du système, voir la section [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 50%
+source-wordcount: '2246'
+ht-degree: 47%
 
 ---
 
@@ -208,7 +208,7 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
    Les enregistrements associés au type d’enregistrement sélectionné s’affichent dans la vue Tableau.
 1. Cliquez dans la ligne d’un enregistrement pour commencer à modifier les informations sur l’enregistrement intégré.
 
-   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+   ![Modifier le champ de paragraphe d’enregistrement avec la vue Tableau de formatage](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
    >[!TIP]
    >
@@ -226,7 +226,7 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
    * Ajouter une liste à puces
    * Ajouter une liste numérotée
 
-   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+   ![Barre d’outils de texte enrichi dans le champ de paragraphe](assets/rich-text-toolbar-on-paragraph-field.png)
 
 1. (facultatif) Double-cliquez sur un champ d’enregistrement connecté pour ajouter des enregistrements ou des objets connectés à un autre enregistrement. Pour plus d’informations, consultez [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 1. Appuyez sur **Entrée** sur votre clavier ou cliquez en dehors d’une ligne pour enregistrer vos modifications. Les modifications sont enregistrées automatiquement. Un indicateur **Enregistré** s’affiche brièvement dans le coin supérieur droit de la vue Tableau pour indiquer que les modifications ont été enregistrées.
@@ -240,7 +240,7 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
    * Copiez les informations d’une cellule, puis sélectionnez plusieurs cellules et collez les mêmes informations dans plusieurs cellules. Vous pouvez sélectionner plusieurs cellules et coller les mêmes informations dans plusieurs cellules à partir de lignes et de colonnes adjacentes.
    * Sélectionnez le coin inférieur droit d’une cellule existante contenant les informations à copier, puis faites-la glisser sur les cellules adjacentes où vous souhaitez coller les mêmes informations. Toutes les cellules doivent contenir le même type d’informations.
 
-     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+     ![Coin inférieur droit glissable pour le copier-coller en mode Tableau](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    <div class="preview">
 
@@ -293,11 +293,11 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
    Ou
 
-   Dans la vue Tableau, cliquez sur l’icône **Ouvrir les détails** ![](assets/open-details-icon-in-table-name-field.png) dans la première colonne. L’aperçu de l’enregistrement s’ouvre dans la vue.
+   Dans la vue Tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne. L’aperçu de l’enregistrement s’ouvre dans la vue.
 
    <div class="preview">
 
-   ![](assets/details-box.png)
+   ![Zone Détails](assets/details-box.png)
 
    </div>
 
@@ -316,11 +316,11 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
 1. (Facultatif) Cliquez sur **Ajouter une couverture** pour ajouter une image de couverture à l’enregistrement. Pour plus d’informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Facultatif) Pointez sur l’icône de miniature, puis cliquez sur **Plus** ![](assets/more-menu.png) > **Modifier la miniature** pour ajouter une image miniature. Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Facultatif) Pointez sur l’icône de miniature, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png) > **Modifier la miniature** pour ajouter une image miniature. Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront enregistre automatiquement vos modifications.
 
-1. <span class="preview"> (Facultatif) Cliquez sur le ![](assets/real-time-indicator-icon.png) **indicateur en temps réel** dans le coin supérieur droit de la zone de prévisualisation de l’enregistrement, puis activez le paramètre **Afficher les collaborateurs** pour mettre en surbrillance les champs modifiés par d’autres personnes en temps réel.
+1. <span class="preview"> (Facultatif) Cliquez sur l’icône **indicateur en temps réel** ![indicateur en temps réel](assets/real-time-indicator-icon.png) dans le coin supérieur droit de la zone de prévisualisation de l’enregistrement, puis activez le paramètre **Afficher les collaborateurs** pour mettre en surbrillance les champs modifiés par d’autres personnes en temps réel.
 
    Les noms et avatars de tous les utilisateurs accédant à l’enregistrement en même temps s’affichent dans cette zone.
 
@@ -328,13 +328,13 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Zone d’aperçu d’enregistrement développé des indicateurs en temps réel](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (Facultatif) Cliquez sur l’![](assets/export-icon-in-record-details-page.png) du menu **Exporter** pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facultatif) Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l’enregistrement](assets/export-icon-in-record-details-page.png) pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 
-1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page de l’enregistrement](#edit-a-record-from-the-records-page) de cet article.
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une icône d’un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page de l’enregistrement](#edit-a-record-from-the-records-page) de cet article.
 
 ### Modifier un enregistrement à partir de la page de l’enregistrement
 
@@ -350,15 +350,15 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Depuis n&#39;importe quel affichage, accédez à l&#39;aperçu de l&#39;enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de l&#39;aperçu de l&#39;enregistrement dans un affichage](#edit-a-record-from-the-records-preview-in-a-view) de cet article, puis cliquez sur l&#39;icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l&#39;aperçu de l&#39;enregistrement pour ouvrir la page de l&#39;enregistrement dans un nouvel onglet.
+   * Depuis n&#39;importe quel affichage, accédez à l&#39;aperçu de l&#39;enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de l&#39;aperçu de l&#39;enregistrement dans un affichage](#edit-a-record-from-the-records-preview-in-a-view) de cet article, puis cliquez sur l&#39;icône **Ouvrir dans un nouvel onglet** ![Icône Ouvrir les détails dans un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l&#39;aperçu de l&#39;enregistrement pour ouvrir la page de l&#39;enregistrement dans un nouvel onglet.
 
-   * Dans la vue de **Tableau**, pointez sur le nom d’un enregistrement, puis cliquez sur le menu **Plus** ![](assets/more-menu.png), puis sur **Afficher**.
+   * Dans la vue **Tableau**, pointez sur le nom d’un enregistrement, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur **Affichage**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Menu contextuel pour la ligne d’enregistrement](assets/contextual-menu-for-record-row.png)
 
      La page de l’enregistrement s’ouvre.
 
-     ![](assets/details-page.png)
+     ![Page de détails](assets/details-page.png)
 
 1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
 
@@ -378,17 +378,17 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
    Ou
 
-   Pointez sur l’image de couverture existante, puis cliquez sur le menu **Plus** ![](assets/more-menu.png) > **Télécharger** pour ajouter une nouvelle image de couverture pour l’enregistrement.
+   Pointez sur l’image de couverture existante, puis cliquez sur le menu **Plus** ![Menu Plus](assets/more-menu.png) > **Télécharger** pour ajouter une nouvelle image de couverture pour l’enregistrement.
 
    Pour plus d’informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Facultatif) Pointez sur une miniature existante ou sur l’![](assets/record-thumbnail-icon-on-details-page.png) **icône de miniature**, puis cliquez sur le menu **Plus** ![](assets/more-menu.png) > **Modifier la miniature** pour ajouter une miniature à l’enregistrement.
+1. (Facultatif) Pointez sur une miniature existante, ou sur l’icône **miniature** ![Icône Enregistrer la miniature sur la page de détails](assets/record-thumbnail-icon-on-details-page.png), puis cliquez sur le menu **Plus** ![Menu Plus](assets/more-menu.png) > **Modifier la miniature** pour ajouter une miniature à l’enregistrement.
 
    Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront enregistre automatiquement vos modifications.
 
-1. <span class="preview"> (Facultatif) Cliquez sur le ![](assets/real-time-indicator-icon.png) **indicateur en temps réel** dans le coin supérieur droit de la page de l’enregistrement, puis activez le paramètre **Afficher les collaborateurs** pour mettre en surbrillance les champs modifiés par d’autres personnes en temps réel.
+1. <span class="preview"> (Facultatif) Cliquez sur l’icône **indicateur en temps réel** ![indicateur en temps réel](assets/real-time-indicator-icon.png) dans le coin supérieur droit de la page de l’enregistrement, puis activez le paramètre **Afficher les collaborateurs** pour mettre en surbrillance les champs modifiés par d’autres personnes en temps réel.
 
    Les noms et avatars de tous les utilisateurs accédant à l’enregistrement en même temps s’affichent dans cette zone.
 
@@ -396,11 +396,11 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Zone d’aperçu d’enregistrement développé des indicateurs en temps réel](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (Facultatif) Cliquez sur l’![](assets/export-icon-in-record-details-page.png) du menu **Exporter** pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facultatif) Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l’enregistrement](assets/export-icon-in-record-details-page.png) pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Modifier un enregistrement à partir d&#39;un objet Workfront dans la section Planning

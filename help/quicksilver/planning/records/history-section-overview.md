@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 80%
+source-wordcount: '661'
+ht-degree: 76%
 
 ---
 
@@ -114,14 +114,14 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 1. Dans n’importe quel affichage, cliquez sur le nom d’un enregistrement.
 
    La page de l’enregistrement s’ouvre. La zone Commentaires s’ouvre par défaut dans le panneau de droite.
-1. Cliquez sur l’icône **Afficher l’historique** ![](assets/show-history-icon.png). Toutes les modifications apportées aux champs de l’enregistrement s’affichent dans le panneau de droite, en commençant par la plus récente.
-1. (Facultatif) Cliquez sur l’icône **Masquer l’historique** ![](assets/hide-history-icon.png) pour fermer le panneau de droite.
+1. Cliquez sur l’icône **Afficher l’historique** ![Afficher l’icône d’historique](assets/show-history-icon.png). Toutes les modifications apportées aux champs de l’enregistrement s’affichent dans le panneau de droite, en commençant par la plus récente.
+1. (Facultatif) Cliquez sur l’icône **Masquer l’historique** ![Masquer l’icône d’historique](assets/hide-history-icon.png) pour fermer le panneau de droite.
 
 ## Remarques relatives à la section Historique
 
 Vous pouvez passer en revue les modifications apportées aux champs d’enregistrement dans la section Historique du panneau droit de la page d’un enregistrement.
 
-![](assets/history-area-in-comments.png)
+![Zone Historique des commentaires](assets/history-area-in-comments.png)
 
 * Workfront Planning enregistre les informations suivantes dans la section Historique :
 

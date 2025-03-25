@@ -6,10 +6,10 @@ description: Si un projet est lié à un groupe, vous pouvez appliquer les statu
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 97%
+source-wordcount: '361'
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ Quand vous mettez à jour le groupe d’un projet, les choix pour les statuts de
    >Si vous sélectionnez un autre groupe dans le menu déroulant **Groupe**, les statuts personnalisés dans le menu **Statut** changent automatiquement pour établir une corrélation avec le nouveau groupe.
    >
    >
-   >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png) >
+   >![Liste déroulante Statut développée avec des statuts personnalisés pour le projet](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
    >
 
 1. Sélectionnez le statut du projet. Les statuts personnalisés que vous avez créés et appliqués à ce groupe s’affichent dans la liste.

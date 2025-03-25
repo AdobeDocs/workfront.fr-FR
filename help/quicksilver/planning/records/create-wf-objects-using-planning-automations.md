@@ -8,9 +8,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1811'
 ht-degree: 8%
 
 ---
@@ -200,7 +200,7 @@ Sélectionnez l’une des actions suivantes :
    Un champ connecté pour le type d’enregistrement sélectionné est également créé sur le type d’enregistrement d’origine à partir duquel vous configurez l’automatisation.
 1. (Facultatif et conditionnel) Si vous avez choisi de créer un objet Workfront et que vous ne disposez pas d’un champ de connexion pour le type d’objet Workfront sélectionné, cliquez sur l’icône de point d’interrogation à droite du champ **Connected field où le champ &lt; nom du type d’objet Workfront > est créé**, puis cliquez sur l’icône **Ajouter** ![icône Créer un champ de connexion](assets/create-a-connection-field-icon.png) pour ajouter un champ de connexion.
 
-   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   ![Icône de point d’interrogation pour ajouter des champs connectés dans les automatisations avec Workfront](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
 
    Le nouveau champ est automatiquement créé et nommé **Connected &lt; Workfront object name >**. Par exemple, lorsqu’un champ connecté à un portfolio est créé pour l’enregistrement, il est nommé « Portfolio connecté ».
 

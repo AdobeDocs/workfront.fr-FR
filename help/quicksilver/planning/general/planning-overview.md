@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 46%
+source-wordcount: '1878'
+ht-degree: 44%
 
 ---
 
@@ -184,7 +184,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
 * **Espace de travail** : collection de types d’enregistrements qui définissent le cycle de vie opérationnel d’une certaine organisation. Un espace de travail est le cadre de travail d’une entité organisationnelle.
 
-  ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![Espace de travail marketing avec taxonomies de type enregistrement ouvrant la page](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Pour plus d’informations, voir la section [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -202,9 +202,9 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
 * **Enregistrement** : instance d’un type d’enregistrement.
 
-  ![](assets/records-highlighted-in-campaign-record-type-list.png)
+  ![Enregistrements mis en surbrillance dans la liste des types d&#39;enregistrements de campagne](assets/records-highlighted-in-campaign-record-type-list.png)
 
-  Après avoir ajouté un type d’enregistrement à un espace de travail, vous pouvez commencer à ajouter des enregistrements de ce type sur la page du type d’enregistrement.
+  Une fois qu’un type d’enregistrement a été ajouté à un espace de travail, vous pouvez commencer à ajouter des enregistrements de ce type sur la page du type d’enregistrement.
 
   Par exemple, « Campagne » peut être un type d’enregistrement et « Campagne d’été pour la zone EMEA » est un enregistrement du type d’enregistrement Campagne .
 
@@ -212,7 +212,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
 * **Modèle d’espace de travail** : vous pouvez créer un espace de travail à l’aide de modèles prédéfinis. Vous pouvez utiliser les types d’enregistrements et les champs prédéfinis qui se trouvent dans un modèle, ou bien ajouter les vôtres.
 
-  ![](assets/workspaces-page-with-templates-thumbnails.png)
+  ![Page Espaces de travail avec miniatures de modèles](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront Planning contient les modèles suivants :
 
@@ -226,7 +226,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
 * **Champs** : les champs sont des attributs que vous pouvez ajouter aux types d’enregistrements. Les champs contiennent des informations sur le type d’enregistrement. <!--check the shot below, "Connection" needs to be in lowercase-->
 
-  ![](assets/drop-down-list-of-record-fields.png)
+  ![Liste déroulante des champs de l’enregistrement](assets/drop-down-list-of-record-fields.png)
 
   Considérations relatives aux champs d’enregistrement :
 
@@ -274,7 +274,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
      Vous devez disposer d’une licence Adobe Experience Manager pour lier les types d’enregistrement aux objets Experience Manager.
 
-     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+     ![Nouvel onglet de connexion avec les options de Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   Après avoir établi une connexion entre les types d&#39;enregistrements, vous pouvez connecter des enregistrements individuels ou des objets de ces types les uns aux autres. La connexion entre les enregistrements s’affiche sous la forme d’un champ d’enregistrement connecté ou d’une connexion.
@@ -283,7 +283,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   Par exemple, si vous connectez un type d’enregistrement Campaign à un type d’objet Projet Workfront, vous pouvez afficher le champ Budget des projets connectés sur les enregistrements Campaign.
 
-  ![](assets/add-lookup-fields-modal.png)
+  ![Zone Ajouter des champs de recherche](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
@@ -303,7 +303,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
 * **Vues** : les enregistrements s’affichent sous leur page de type d’enregistrement respective dans différents types de vues.
 
-  ![](assets/view-types-drop-down-from-record-type-list.png)
+  ![Liste déroulante Afficher les types de la liste des types d’enregistrement](assets/view-types-drop-down-from-record-type-list.png)
 
   Les vues contiennent des paramètres personnalisés d’un type d’affichage spécifique, tels que la liste des champs (colonnes), une liste d’enregistrements (lignes), leur ordre (tri), un filtre appliqué ou applicable et un regroupement.
 
@@ -311,17 +311,17 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
    * **Vue Tableau** : affiche les enregistrements et leurs champs, y compris les champs connectés et de recherche, sous la forme d’un tableau. Les lignes du tableau sont les enregistrements individuels et les colonnes sont les champs de l’enregistrement. La vue Tableau est la vue par défaut.
 
-     ![](assets/table-view-example.png)
+     ![Exemple de vue Tableau](assets/table-view-example.png)
 
    * **Vue Chronologie** : affiche les enregistrements qui comportent au moins deux champs de type Date dans une chronologie. Vous pouvez afficher jusqu’à 5 types d’enregistrements connectés et leurs enregistrements dans la vue chronologique.
 
-     ![](assets/grouping-applied-in-timeline-view.png)
+     ![Regroupement appliqué en mode Chronologie](assets/grouping-applied-in-timeline-view.png)
 
    * **Vue Calendrier** : affiche les enregistrements comportant au moins deux champs de type Date au format d’un calendrier.
-     ![](assets/calendar-view-example.png)
+     ![Exemple de vue Calendrier](assets/calendar-view-example.png)
 
 
-Pour plus d’informations, voir [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+Pour plus d’informations, consultez la section [Gérer les vues des enregistrements](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Localiser Adobe Workfront Planning
 
@@ -333,11 +333,11 @@ Pour localiser Workfront Planning :
 
 {{step1-click-main-menu}}
 
-1. Cliquez sur **Planning** ![](assets/planning-icon.png).
+1. Cliquez sur **Planning** ![icône Planning](assets/planning-icon.png).
 
    La page principale Planification de Workfront s’ouvre.
 
-   ![](assets/planning-landing-page-admin.png)
+   ![Administration de pages de destination Planning](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >

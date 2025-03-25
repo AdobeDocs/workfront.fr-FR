@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '479'
 ht-degree: 21%
 
 ---
@@ -109,11 +109,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Restaurer les enregistrements supprimés
 
 1. Accédez à la page de type d’enregistrement dans laquelle vous avez supprimé des enregistrements.
-1. Cliquez sur l’icône **Annuler** ![](assets/undo-icon.png) dans le coin supérieur droit de n’importe quel type d’enregistrement affiché sur la page, puis cliquez sur **Récemment supprimé**.
+1. Cliquez sur l’icône **Annuler** ![Icône Annuler](assets/undo-icon.png) dans le coin supérieur droit de n’importe quel type d’enregistrement affiché sur la page, puis cliquez sur **Récemment supprimé**.
 
    La zone **Récemment supprimé** s’affiche.
 
-   ![](assets/recently-deleted-box.png)
+   ![Zone récemment supprimée](assets/recently-deleted-box.png)
 
 1. Sélectionnez les enregistrements à supprimer, puis cliquez sur **Restaurer** > **Restaurer**. Vous pouvez sélectionner plusieurs enregistrements.
 

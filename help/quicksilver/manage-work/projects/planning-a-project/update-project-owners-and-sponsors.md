@@ -6,10 +6,10 @@ description: Lorsque vous créez un projet dans Adobe Workfront, vous devenez a
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 89%
+source-wordcount: '433'
+ht-degree: 87%
 
 ---
 
@@ -109,7 +109,7 @@ Lorsque vous ajoutez une personne en tant que propriétaire de projet, Workfront
 
    Le ou la propriétaire du projet est mis à jour dans l’en-tête du projet et dans la zone Détails du projet.
 
-   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![Propriétaire des parties prenantes du projet mis en surbrillance](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Mettre à jour le sponsor du projet
 
@@ -131,4 +131,4 @@ Lorsque vous ajoutez une personne en tant que sponsor du projet, Workfront lui a
 
    Le sponsor du projet est mis à jour dans la zone Détails du projet.
 
-   ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![Les partenaires du projet sont mis en évidence](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

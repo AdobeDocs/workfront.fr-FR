@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 52%
+source-wordcount: '737'
+ht-degree: 40%
 
 ---
 
@@ -124,18 +124,18 @@ Vous pouvez supprimer un enregistrement à partir des zones suivantes :
 1. Utilisez l’une des méthodes suivantes :
 
    * À partir d’une vue en tableau, cliquez sur le nom d’un enregistrement.
-   * Dans la vue en tableau, pointez sur le nom d’un enregistrement, puis cliquez sur le menu **Plus** ![](assets/more-menu.png), puis sur **Vue**.
+   * En mode Tableau, passez la souris sur le nom d’un enregistrement, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur **Affichage**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Menu contextuel pour la ligne d’enregistrement](assets/contextual-menu-for-record-row.png)
    * Dans une vue de chronologie, cliquez sur une barre d’un enregistrement.
 
    La page de l’enregistrement s’ouvre.
 
-1. Cliquez sur le menu **Plus** ![](assets/more-menu.png) à droite du nom de l’enregistrement, cliquez sur **Supprimer**, puis à nouveau sur **Supprimer** pour confirmer.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’enregistrement, puis cliquez de nouveau sur **Supprimer**, **Supprimer** pour confirmer.
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   ![Plus d’options de menu à partir de la page des détails de l’enregistrement ](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 L’enregistrement est supprimé.
-1. (Facultatif et conditionnel) Si vous supprimez l&#39;enregistrement dans l&#39;environnement Aperçu, accédez à la vue Tableau de la page d&#39;enregistrement, puis cliquez sur l&#39;icône **Annuler** ![](assets/undo-icon.png) dans le coin supérieur droit de la vue, puis cliquez sur **Récemment supprimé** pour récupérer les enregistrements supprimés.
+1. (Facultatif et conditionnel) Si vous supprimez l&#39;enregistrement dans l&#39;environnement Aperçu, accédez à la vue Tableau de la page d&#39;enregistrement, puis cliquez sur l&#39;icône **Annuler** ![Icône Annuler](assets/undo-icon.png) dans le coin supérieur droit de la vue, puis cliquez sur **Récemment supprimé** pour récupérer les enregistrements supprimés.
 
 Pour plus d’informations sur la récupération des enregistrements supprimés, voir [ Récupérer les enregistrements supprimés ](/help/quicksilver/planning/records/restore-deleted-records.md).
 
@@ -156,17 +156,17 @@ Pour plus d’informations sur la récupération des enregistrements supprimés,
 1. Utilisez l’une des méthodes suivantes :
 
    * Cliquez avec le bouton droit de la souris sur une ligne d’enregistrement, puis cliquez sur **Supprimer**.
-   * Cliquez sur le ![](assets/more-menu.png) de menu **Plus** à droite du nom de l’enregistrement, puis cliquez sur **Supprimer**.
+   * Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’enregistrement, puis cliquez sur **Supprimer**.
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Menu contextuel pour la ligne d’enregistrement](assets/contextual-menu-for-record-row.png)
 
-   * Cliquez sur l’icône **Ouvrir les détails** ![](assets/open-details-icon-in-table-name-field.png) pour ouvrir la boîte contenant les informations détaillées de l’enregistrement, cliquez sur **Plus** ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis sur **Supprimer**.
+   * Cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ nom de la table](assets/open-details-icon-in-table-name-field.png) pour ouvrir la zone contenant les informations détaillées de l’enregistrement, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’enregistrement, puis sur **Supprimer**.
 
    L’enregistrement est supprimé.
 
 1. (Facultatif) Effectuez l’une des opérations suivantes pour annuler ou rétablir la suppression d’un enregistrement :
 
-   * Cliquez sur l&#39;icône **Annuler** ![](assets/undo-icon.png), puis **Récemment supprimé** pour récupérer les enregistrements supprimés. Pour plus d’informations sur la récupération des enregistrements supprimés, voir [ Récupérer les enregistrements supprimés ](/help/quicksilver/planning/records/restore-deleted-records.md).
+   * Cliquez sur l&#39;icône **Annuler** ![Icône Annuler](assets/undo-icon.png), puis **Récemment supprimé** pour récupérer les enregistrements supprimés. Pour plus d’informations sur la récupération des enregistrements supprimés, voir [ Récupérer les enregistrements supprimés ](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Utilisez les raccourcis clavier suivants pour annuler ou rétablir la suppression d’un enregistrement :
 
       * Ctrl + Z (⌘ + Z pour Mac) pour annuler la suppression d’un enregistrement

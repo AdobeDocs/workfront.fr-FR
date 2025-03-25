@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 15%
+source-wordcount: '906'
+ht-degree: 14%
 
 ---
 
@@ -140,20 +140,20 @@ Pour approuver une demande :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Demandes** > **Soumises** > **Planning**, puis cliquez sur la demande avec le statut **En attente de révision** ou **En révision**.
+   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision ****.
 
      >[!TIP]
      >
      >Si vous n’avez pas accès à Workfront Planning, ou si vous n’avez pas accès à des espaces de travail, vous pouvez uniquement accéder à une demande pour l’approuver à l’aide de vos notifications par e-mail ou in-app.
 
-   * Cliquez sur l’icône de la zone **Notifications** ![](assets/notifications-area-icon-unified-shell.png) dans le coin supérieur droit de l’écran, puis cliquez sur la notification d’une demande en attente de votre approbation pour ouvrir la demande.
+   * Cliquez sur l’icône de zone **Notifications** ![Icône de zone de notifications dans Unified Shell](assets/notifications-area-icon-unified-shell.png) dans le coin supérieur droit de l’écran, puis cliquez sur la notification d’une demande en attente de votre approbation pour ouvrir la demande.
    * Accédez à la notification par e-mail dans votre e-mail qui vous informe qu’une demande est en attente de votre approbation, puis cliquez sur **Ouvrir la demande** pour ouvrir la demande. <!--add the name of the button here, from the email-->
 
    La page de requête s’ouvre en mode lecture seule.
 
-   ![](assets/read-only-reqeust-page-in-review-status.png)
+   ![Page de requête en lecture seule au statut de révision](assets/read-only-reqeust-page-in-review-status.png)
 
-1. (Facultatif) Cliquez sur l’icône **Validations** ![](assets/approvals-icon.png) dans le coin supérieur droit de la demande pour afficher les approbateurs.
+1. (Facultatif) Cliquez sur l’icône **Approbations** ![Icône Approbations](assets/approvals-icon.png) dans le coin supérieur droit de la demande pour afficher les approbateurs.
 1. Cliquez sur **Vérifier et approuver** puis choisissez l’une des options suivantes : <!--did they fix the button and removed the &??-->
 
    * **Approuver** : permet d’approuver la demande. Un enregistrement est immédiatement créé pour le type d&#39;enregistrement associé au formulaire de demande une fois que tous les approbateurs ont approuvé la demande.

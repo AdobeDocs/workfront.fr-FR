@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 67%
+source-wordcount: '2932'
+ht-degree: 65%
 
 ---
 
@@ -169,9 +169,9 @@ Lors de la création d’une vue tableau, tous les enregistrements du type séle
 
 Pour gérer une vue tableau :
 
-1. Créez une vue de tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Créez une vue tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![](assets/table-view-example.png)
+   ![Exemple de vue Tableau](assets/table-view-example.png)
 
 1. (Facultatif) Cliquez sur **Hauteur de ligne**, puis sélectionnez l’une des options suivantes pour modifier la hauteur des lignes du tableau :
    * Court
@@ -209,7 +209,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    * Cliquez sur **Champs** dans la barre d’outils du tableau, puis faites glisser les champs dans l’ordre souhaité et cliquez en dehors de la case **Visibilité et ordre des champs** pour la fermer.
 
-     ![](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![Barre d’outils du mode Tableau des champs développée](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
@@ -224,7 +224,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
 1. (Facultatif) Pointez sur un nom de champ dans l’en-tête de colonne d’un champ qui ne s’affiche pas dans la première colonne du tableau, cliquez sur la flèche pointant vers le bas à droite du nom du champ, puis sur **Définir comme champ principal**.
 
-   ![](assets/set-as-primary-field-option-table-view.png)
+   ![Définir comme champ principal en mode Tableau](assets/set-as-primary-field-option-table-view.png)
 
 1. Cliquez sur **Définir le champ** pour confirmer.
 
@@ -253,9 +253,9 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
 1. Procédez comme suit pour trouver rapidement les enregistrements correspondant à un mot-clé :
 
-   1. Cliquez sur l’icône **Rechercher** ![](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de recherche et le champ correspondant est mis en surbrillance.
+   1. Cliquez sur l’icône **Rechercher** ![Icône Rechercher](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de recherche et le champ correspondant est mis en surbrillance.
 
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+      ![Zone de recherche avec le contour bleu des résultats en mode Tableau](assets/search-box-with-results-blue-outline-table-view.png)
 
       Vous pouvez utiliser n’importe quel mot ou caractère spécial visible à l’écran.
 
@@ -284,7 +284,7 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d
 
    Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Facultatif) Sélectionnez un ou plusieurs enregistrements dans une ligne, puis faites glisser et déposez l’icône **handle** ![](assets/handle-icon.png) à gauche de l’enregistrement pour réorganiser les lignes.
+1. (Facultatif) Sélectionnez un ou plusieurs enregistrements dans une ligne, puis faites glisser et déposez l’icône **handle** ![icône Handle](assets/handle-icon.png) à gauche de l’enregistrement pour réorganiser les lignes.
 
    >[!NOTE]
    >
@@ -394,7 +394,7 @@ Pour ajouter un filtre à une vue en tableau, procédez comme suit :
 
    * Choisissez une valeur pour le champ sélectionné.
 
-   ![](assets/filter-ui-table-view.png)
+   ![Affichage du tableau de l’interface utilisateur des filtres](assets/filter-ui-table-view.png)
 
    Il n’y a pas de limite au nombre de conditions de filtrage que vous pouvez ajouter.
 
@@ -408,7 +408,7 @@ Pour ajouter un filtre à une vue en tableau, procédez comme suit :
 
    1. (Facultatif) Ajoutez des opérateurs **AND** ou **OR** supplémentaires entre plusieurs regroupements de conditions.
 
-      ![](assets/multi-tiered-filters-in-views.png)
+      ![Filtres à plusieurs niveaux dans les vues](assets/multi-tiered-filters-in-views.png)
 
    </div>
 
@@ -446,7 +446,7 @@ Pour ajouter un regroupement :
 1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue de tableau.
 
-   ![](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![Regroupement de la vue Tableau de l’interface utilisateur avec des champs liés](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un autre champ**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
@@ -456,7 +456,7 @@ Pour ajouter un regroupement :
 
    Le nombre de champs sélectionnés pour le regroupement s’affiche à côté de l’icône de regroupement.
 
-   ![](assets/grouping-applied-in-table-view.png)
+   ![Regroupement appliqué en mode Tableau](assets/grouping-applied-in-table-view.png)
 
 1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement pour le supprimer.
 
@@ -499,7 +499,7 @@ Tenez compte des éléments suivants lorsque vous triez les enregistrements dans
 Pour trier les enregistrements <!--ungrouped (add this when sorting for groupings will be available-->, procédez comme suit :
 
 1. Créez une vue en tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
-1. Cliquez sur l’icône **Trier**![](assets/sort-icon.png) dans le coin supérieur droit du tableau.
+1. Cliquez sur l’icône **Trier** ![icône Trier](assets/sort-icon.png) dans le coin supérieur droit du tableau
 
    Ou
 
@@ -523,7 +523,7 @@ Pour trier les enregistrements <!--ungrouped (add this when sorting for grouping
 
 1. Cliquez en dehors de la zone **Trier les enregistrements par** pour la fermer.
 
-   ![](assets/sorting-in-table-view.png)
+   ![Tri en mode Tableau](assets/sorting-in-table-view.png)
 
    Les informations affichées dans le tableau sont triées en fonction des critères sélectionnés.
 

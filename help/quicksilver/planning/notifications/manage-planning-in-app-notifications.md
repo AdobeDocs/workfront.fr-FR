@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 26%
+source-wordcount: '440'
+ht-degree: 25%
 
 ---
 
@@ -160,9 +160,9 @@ OLD:
 
 ## Gérer les notifications in-app lorsqu’une personne vous identifie dans un commentaire
 
-1. (Conditionnel) Lorsqu’un utilisateur vous identifie dans un commentaire d’enregistrement, accédez à l’icône in-app **Notifications** ![](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
+1. (Conditionnel) Lorsqu’un utilisateur vous identifie dans un commentaire d’enregistrement, accédez à l’icône in-app **Notifications** ![icône de notifications Experience Cloud](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
 
-   ![](assets/in-app-notification-example.png)
+   ![ Exemple de notification in-app ](assets/in-app-notification-example.png)
 
 1. Cliquez sur la notification.
 

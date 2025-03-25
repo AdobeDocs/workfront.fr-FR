@@ -6,10 +6,10 @@ description: Vous pouvez visualiser l’affectation des rôles pour toutes les f
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 81%
+source-wordcount: '482'
+ht-degree: 78%
 
 ---
 
@@ -107,11 +107,11 @@ Vous devez disposer des éléments suivants :
    * **Tâches**
    * **Équilibreur de charge de travail**
 
-1. Cliquez sur l’icône **Afficher l’affectation des rôles** ![](assets/show-role-allocation-icon.png).
+1. Cliquez sur l’icône **Afficher l’attribution des rôles** ![Afficher l’icône d’attribution des rôles](assets/show-role-allocation-icon.png).
 
    Le panneau Affectation des rôles s’affiche.
 
-   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![Panneau d’affectation des rôles avec les heures prévues uniquement](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Consultez les informations suivantes dans le panneau **Affectation des rôles** :
 

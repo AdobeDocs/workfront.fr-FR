@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '781'
 ht-degree: 25%
 
 ---
@@ -173,7 +173,7 @@ Pour gérer une vue Calendrier :
 1. Accédez à la page de type d’enregistrement pour laquelle vous souhaitez afficher le calendrier.
 1. Créez une vue Calendrier, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![](assets/calendar-view-example.png)
+   ![Exemple de vue Calendrier](assets/calendar-view-example.png)
 
    Les enregistrements associés au type d&#39;enregistrement que vous avez sélectionné s&#39;affichent sous forme de barres dans un calendrier. La couleur des barres correspond à celle de l’icône d’enregistrement.
 

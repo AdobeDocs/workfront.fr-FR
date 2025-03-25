@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '665'
 ht-degree: 27%
 
 ---
@@ -123,7 +123,7 @@ Pour modifier le partage d’un formulaire de demande :
 
    La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
 
-1. Cliquez sur le ![](assets/more-menu.png) de menu **Plus** à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Mettre à jour le formulaire de demande**.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Mettre à jour le formulaire de demande**.
 1. Cliquez sur **Partager** dans le coin supérieur droit de l’écran, puis mettez à jour les choix de partage. Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 1. (Facultatif) Cliquez sur **Copier le lien**, si vous avez modifié le partage du formulaire de demande et que vous souhaitez le partager avec le nouveau groupe de personnes avec un nouveau lien.
 
@@ -141,10 +141,10 @@ Lorsqu’un formulaire de demande devient non pertinent et que vous ne souhaitez
 
    La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
 
-1. Cliquez sur le ![](assets/more-menu.png) de menu **Plus** à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Mettre à jour le formulaire de demande**.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Mettre à jour le formulaire de demande**.
 1. Cliquez sur **Dépublier** dans le coin supérieur droit.
 
-   ![](assets/unpublish-button-highlighted.png)
+   ![Bouton Dépublier mis en surbrillance](assets/unpublish-button-highlighted.png)
 
    Un message de confirmation s’affiche au bas de l’écran pour vous informer que la publication du formulaire a été annulée.
 

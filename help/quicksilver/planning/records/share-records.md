@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 70%
+source-wordcount: '517'
+ht-degree: 66%
 
 ---
 
@@ -196,9 +196,9 @@ L’espace de travail auquel vous avez accédé en dernier s’ouvre.
 
    Ou
 
-   Pointez sur le nom d’un enregistrement, cliquez sur le menu **Plus** ![](assets/more-menu.png), puis cliquez sur **Copier le lien**.
+   Pointez sur le nom d’un enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur **Copier le lien**.
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![Menu contextuel pour la ligne d’enregistrement](assets/contextual-menu-for-record-row.png)
 
    Le lien est copié dans le presse-papiers.
 

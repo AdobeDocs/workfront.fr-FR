@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2635'
-ht-degree: 61%
+source-wordcount: '2692'
+ht-degree: 58%
 
 ---
 
@@ -176,7 +176,7 @@ Pour gérer une vue chronologique :
 1. Accédez à la page du type d’enregistrement pour lequel vous souhaitez consulter la chronologie.
 1. Créez une vue chronologique, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![](assets/timeline-view-example.png)
+   ![Exemple de vue Chronologie](assets/timeline-view-example.png)
 
    Les enregistrements associés au type d’enregistrement que vous avez sélectionné s’affichent sous forme de barres dans une chronologie et sont triés par ordre chronologique de leur date de début, par défaut.
 
@@ -205,9 +205,9 @@ Pour gérer une vue chronologique :
 
 1. Procédez comme suit pour trouver rapidement les enregistrements correspondant à un mot-clé :
 
-   1. Cliquez sur l’icône **Rechercher** ![](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de la recherche et l’enregistrement correspondant est surligné.
+   1. Cliquez sur l’icône **Rechercher** ![Icône Rechercher](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de la recherche et l’enregistrement correspondant est surligné.
 
-      ![](assets/search-box-and-results-timeline-view.png)
+      ![Zone de recherche et vue chronologique des résultats](assets/search-box-and-results-timeline-view.png)
 
       Vous pouvez utiliser n’importe quel mot ou caractère spécial visible à l’écran.
 
@@ -281,7 +281,7 @@ Pour ajouter un regroupement dans la vue chronologique :
 1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue chronologique.
 
-   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   ![Regroupement de la vue chronologique de l’interface utilisateur avec des champs liés](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
@@ -295,7 +295,7 @@ Pour ajouter un regroupement dans la vue chronologique :
 
    <!-- update screen shot with view redesign-->
 
-   ![](assets/grouping-applied-in-timeline-view.png)
+   ![Le regroupement s’applique dans la vue Chronologie](assets/grouping-applied-in-timeline-view.png)
 
 1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement pour le supprimer.
 
@@ -347,11 +347,11 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    Un aperçu de l’aspect des barres sur la chronologie s’affiche à droite.
 
-   ![](assets/record-details-panel-timeline-settings-with-preview.png)
+   ![Enregistrement des paramètres de chronologie du panneau des détails avec aperçu](assets/record-details-panel-timeline-settings-with-preview.png)
 
 1. Cliquez sur **Couleur** dans le panneau de gauche pour personnaliser les couleurs des enregistrements et des regroupements dans la chronologie.
 
-   ![](assets/color-tab-timeline-view.png)
+   ![Vue chronologique de l’onglet Couleur](assets/color-tab-timeline-view.png)
 
 1. (Le cas échéant et facultatif) Si vous avez ajouté un regroupement à la vue chronologique, sélectionnez l’une des options suivantes pour définir une couleur pour le regroupement dans la section **Définir la couleur du regroupement** :
 
@@ -382,7 +382,7 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
 1. (Le cas échéant) Si vous avez sélectionné **Valeurs de champ** pour les couleurs des enregistrements, sélectionnez un champ dans le menu déroulant **Faire correspondre la couleur de l’enregistrement à**.
 
-   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+   ![Menu déroulant du sélecteur de champ en mode Chronologie](assets/field-selector-drop-down-menu-timeline-view.png)
 
    Seuls les champs dont les options sont codées en couleur s’affichent dans le menu déroulant.
 
@@ -424,7 +424,7 @@ Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&
 1. (Conditionnel) Si vous affichez la vue chronologique en mode Standard, cliquez sur **Répartition**.
 1. Développez la zone **Sélectionner un type d’enregistrement lié** et sélectionnez un type d’enregistrement connecté. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   ![](assets/breakdown-picker-and-button-on-timeline.png)
+   ![Sélecteur de répartition et bouton en mode Chronologie](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
@@ -439,7 +439,7 @@ Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&
    Une flèche pointant vers la droite s&#39;affiche sur la barre de l&#39;enregistrement sélectionné dans la chronologie, s&#39;ils sont connectés à d&#39;autres enregistrements.
 1. Cliquez sur la flèche pointant vers la droite pour développer un type d’enregistrement et afficher ses connexions.
 
-   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+   ![Campagnes réparties par programmes dans la vue Chronologie](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
 1. (Facultatif) Répétez les étapes ci-dessus pour ajouter d’autres enregistrements connectés.
 
