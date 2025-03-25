@@ -6,10 +6,10 @@ description: Lorsqu’une épreuve vous est assignée pour approbation, elle app
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 98%
+source-wordcount: '770'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ Votre accès à la révision et à l’approbation des épreuves est le même qu
 
    >[!NOTE]
    >
-   >Les épreuves vidéo ne peuvent pas être ouvertes dans l’application mobile.
+   >Les épreuves vidéo ne peuvent être ouvertes que dans l’application mobile iOS. Cette fonctionnalité n’est pas encore disponible pour Android.
 
 1. Révisez l’épreuve de document.
 1. (Facultatif) Sélectionnez l’![[!UICONTROL icône Une seule page]](assets/mobile-proofpagingicon1-25x36.png) en haut à droite du document pour basculer de la vue sur une seule page à la vue continue. Sélectionnez l’![[!UICONTROL icône Page continue]](assets/mobile-proofpagingicon2-25x25.png) pour revenir à la vue sur une seule page.

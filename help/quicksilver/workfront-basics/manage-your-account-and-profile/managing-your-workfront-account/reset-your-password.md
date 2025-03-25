@@ -6,10 +6,10 @@ description: Vous pouvez réinitialiser votre mot de passe  [!DNL Adobe Workfron
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 85%
+ht-degree: 76%
 
 ---
 
@@ -77,11 +77,13 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Saisissez votre ancien mot de passe, puis le nouveau mot de passe choisi deux fois.
 
-   Votre mot de passe doit contenir au moins 8 caractères et deux des types de caractères suivants :
+   Votre mot de passe doit comporter au moins 8 caractères et au moins deux <!--of each--> des types de caractères suivants :
 
+   <!--* Uppercase letters
+   * Lowercase letters-->
    * Lettres
    * Nombres
-   * Caractères spéciaux (c’est-à-dire ! @ # $ % etc.)
+   * Caractères spéciaux (par exemple ! @ # $ %)
 
    Les règles de mot de passe peuvent être plus strictes que cela, en fonction des paramètres de configuration définis par votre administrateur ou administratrice [!DNL Workfront].
 
