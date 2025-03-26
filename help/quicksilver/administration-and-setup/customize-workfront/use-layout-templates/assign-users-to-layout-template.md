@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez affecter un modèle de mise en page que vous avez créé à tout utilisateur ou utilisatrice, fonction, équipe ou groupe qui doit l’utiliser.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '879'
 ht-degree: 93%
 
 ---
@@ -44,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
   <p> Actuel : formule</p>
    </td> 
@@ -57,7 +57,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -110,8 +110,8 @@ Cependant, un seul modèle de mise en page est visible à tout moment par la per
 
 ## Si un grand nombre de personnes sont affectées à un modèle de mise en page
 
-Si vous apportez des modifications à un modèle de mise en page qui est affecté à plus de 2 000 utilisateurs et utilisatrices, seules les 2 000 premières personnes seront conservées dans le modèle de mise en page et verront les modifications que vous avez apportées. Le modèle de mise en page est supprimé pour toutes les autres.
-
+<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+-->
 Si vous avez plus de 2 000 utilisateurs et utilisatrices à affecter à un modèle de mise en page, nous vous recommandons d’effectuer l’une des opérations suivantes :
 
 * Organisez les utilisateurs et utilisatrice en groupes ou en équipes et affectez le modèle de mise en page à ces groupes ou équipes. Pour plus d’informations, voir [Créer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) et [Créer et gérer des équipes](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).

@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '2754'
-ht-degree: 98%
+source-wordcount: '2776'
+ht-degree: 97%
 
 ---
 
@@ -361,6 +361,10 @@ Chaque ligne de la feuille correspond à un objet unique.
    * Si vous devez ajouter plusieurs valeurs de données dans un champ personnalisé (comme des cases d’option, des cases à cocher ou des listes), utilisez le délimiteur de données personnalisées à barre verticale « | » répertorié dans l’onglet Préférences pour séparer les valeurs.
 
      **Exemple :** saisissez A|D sous la colonne DE:Departments pour renseigner les services A et D dans votre formulaire personnalisé.
+
+     >[!NOTE]
+     >
+     >Utilisez uniquement le délimiteur « | » pour séparer les valeurs de champ personnalisé. Vous ne pouvez pas l&#39;utiliser dans les autres colonnes de la feuille de calcul, y compris **setCategoryID**.
 
 ### Inclure des dates  {#include-dates}
 
