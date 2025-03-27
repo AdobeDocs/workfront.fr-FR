@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 6%
+source-wordcount: '1878'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,10 @@ Une fois qu’un gestionnaire d’espace de travail a créé un formulaire de de
 
 Vous pouvez envoyer une demande Workfront Planning à partir des zones suivantes :
 
-* Dans la zone des Demandes de Workfront, ou via un lien direct vers le formulaire de demande. Cet article décrit comment envoyer une demande d’ajout de nouveaux enregistrements à un type d’enregistrement à partir de la zone des Demandes de Workfront ou d’un lien partagé.
+* Dans la zone Demandes de Workfront.
+* D’un lien direct vers le formulaire de demande qui a été partagé.
+
+  Cet article décrit comment envoyer une demande d’ajout de nouveaux enregistrements à un type d’enregistrement à partir de la zone des Demandes de Workfront ou d’un lien partagé.
 * <span class="preview">À partir de la page Type d’enregistrement, lorsque vous ajoutez ou demandez un nouvel enregistrement. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).</span>
 
 Les utilisateurs de Workfront et les utilisateurs externes peuvent envoyer des demandes aux types d&#39;enregistrements Planning et créer des enregistrements. <!--double check on the external users-->
@@ -212,6 +215,8 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
      >
      >Les notifications par e-mail et in-app ne sont visibles que lorsque l’instance de Workfront de votre organisation est intégrée à l’expérience unifiée Adobe.
 
+   1. (Facultatif) Cliquez sur **Afficher votre demande** dans le message de confirmation, pour ouvrir la demande, ou cliquez sur l’icône **X** pour fermer la confirmation.
+
 1. (Facultatif) Cliquez sur l’onglet **Planification** dans la zone Demandes pour afficher votre demande, puis cliquez sur son nom.
 
    La page des détails de la requête s’ouvre.
@@ -269,7 +274,13 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
      >
      >Les notifications par e-mail et in-app ne sont visibles que lorsque l’instance de Workfront de votre organisation est intégrée à l’expérience unifiée Adobe.
 
-1. (Facultatif) Cliquez sur l’onglet **Planification** dans la zone Demandes pour afficher votre demande, puis cliquez sur son nom.
+1. <span class="preview">(facultatif) Cliquez sur **Afficher votre demande** pour ouvrir la demande dans Workfront.</span>
+
+   Ou
+
+   <span class="preview">Cliquez sur [Soumettre une autre demande](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) pour ouvrir le formulaire de demande et ajouter une nouvelle demande. </span>
+
+1. (Facultatif) Cliquez sur **Menu principal** > **Demandes** > l’onglet **Planification** pour afficher votre demande, puis cliquez sur son nom.
 
    La page des détails de la requête s’ouvre.
 

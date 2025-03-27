@@ -8,10 +8,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 89b2e3547387397279cce751dd7c84d8174532b5
 workflow-type: tm+mt
-source-wordcount: '1811'
-ht-degree: 8%
+source-wordcount: '2197'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -36,6 +36,15 @@ Vous pouvez configurer et activer l’automatisation dans la page du type d’en
 Par exemple, vous pouvez créer une automatisation qui prend une campagne Workfront Planning et crée un projet dans Workfront pour suivre la progression de cette campagne. Le projet serait connecté à la campagne de planification Workfront dans le champ Projet connecté de la campagne.
 
 Pour plus d’informations sur les enregistrements connectés, voir [Présentation des enregistrements connectés](/help/quicksilver/planning/records/connected-records-overview.md).
+
+Vous pouvez créer les éléments suivants à l’aide des automatisations dans Workfront Planning :
+
+* Un <span class="preview">ou plusieurs</span> projets
+* Un groupe
+* Un programme
+* Un portfolio
+* Un projet
+* Un enregistrement
 
 ## Conditions d’accès
 
@@ -89,14 +98,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
    <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p> 
-   <p>Modifiez l’accès dans Workfront pour les types d’objets que vous souhaitez créer (projets, portfolios, programmes). </p>  
+   <p>Modifiez l’accès avec l’accès à Créer des objets dans Workfront pour les types d’objets que vous souhaitez créer (projets, portfolios, programmes). </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td> <p>Accordez des autorisations supérieures ou supérieures à l’espace de travail <!--<span class="preview">and record type</span>--> lequel vous souhaitez créer des objets. </p>  
+   <td> <p>Gérez les autorisations de l’espace de travail pour créer des automatisations. </p>
+   <p>Accordez des autorisations supérieures ou égales à l’<!--<span class="preview">and to the record type</span>--> de l’espace de travail dans lequel vous souhaitez créer un objet à l’aide d’automatisations existantes. </p>  
+   <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (programmes ou projets).</p>
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
-   <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (projets).</p>
    </td> 
   </tr> 
 <tr> 
@@ -113,7 +123,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Considérations relatives à la création d&#39;objets et d&#39;enregistrements à l&#39;aide d&#39;une automatisation
 
-* Le nom de l&#39;objet ou de l&#39;enregistrement créé par une automatisation est identique au nom d&#39;enregistrement à partir duquel vous l&#39;avez créé.
+* Le nom de l&#39;objet ou de l&#39;enregistrement créé par une automatisation est identique au nom d&#39;enregistrement à partir duquel vous le créez, lorsque vous créez un seul objet.
+
+<div class="preview">
+
+* Lorsque vous créez plusieurs projets, ils sont automatiquement nommés selon le modèle suivant :
+
+  `[ Name of the record ] Name of the field choice`
+
+  Pour plus d’informations, reportez-vous à la section [Utiliser une automatisation Workfront Planning pour créer un objet ou un enregistrement](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) de cet article.
+
+</div>
+
 * Les nouveaux objets ou enregistrements ne remplacent pas les objets ou enregistrements existants dans le même champ. Le déclenchement de la même automatisation plusieurs fois pour le même enregistrement ajoute les nouveaux objets ou enregistrements dans le même champ connecté de l&#39;enregistrement d&#39;origine, en plus de ceux créés précédemment.
 
 <!--hide this for now; they are trying to remove this militation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
@@ -147,11 +168,13 @@ La page d’informations sur l’automatisation s’ouvre.
    * **Actions** : sélectionnez l’action que Workfront doit effectuer lors du déclenchement de l’automatisation. Ce champ est obligatoire.
 Sélectionnez l’une des actions suivantes :
 
-      * Créer un groupe
-      * Créer un programme
-      * Créer un portfolio
+      * <span class="preview">Créer plusieurs projets</span>
+      * <span class="preview">Créer un seul projet</span>
       * Créer un projet
       * Créer un enregistrement
+      * Créer un programme
+      * Créer un portfolio
+      * Créer un groupe
 
      >[!TIP]
      >
@@ -159,50 +182,81 @@ Sélectionnez l’une des actions suivantes :
 
 1. (Conditionnel) Selon l’action sélectionnée, mettez à jour les champs suivants :
 
-   * **Créer un projet** :
-      * **Champ connecté où l’objet est créé** : il s’agit du champ connecté où le nouveau projet s’affichera. Champ obligatoire.
+   * **Créer <span class="preview">un seul</span> projet** : <!--replace to the left: Create a single project-->
+      * **Champ connecté où le projet est créé** : il s’agit du champ connecté où le nouveau projet s’affichera. Champ obligatoire.
       * **Modèle de projet** : sélectionnez un modèle de projet que Workfront utilisera pour créer le projet.
+
+   <div class="preview">
+
+   * Créez plusieurs projets :
+      * **Champ connecté où le projet est créé** : il s’agit du champ connecté où le nouveau projet s’affichera. Champ obligatoire.
+      * **Champ dont les choix créeront les enregistrements** : choisissez un champ à sélection multiple ou à sélection unique parmi le type d’enregistrement sélectionné. Workfront crée un projet pour chaque choix de champ actuellement sélectionné dans l’enregistrement à partir duquel vous déclenchez l’automatisation.
+
+     >[!TIP]
+     >
+     >Un projet est créé uniquement pour les options actuellement sélectionnées sur le champ à sélection multiple ou unique de l’enregistrement à partir duquel vous exécutez l’automatisation, et pas pour tous les choix possibles pour ce champ.
+     >
+
+      * **Utiliser le même modèle** : sélectionnez cette option pour utiliser le même modèle pour chaque nouveau projet. Si l’option est désélectionnée, sélectionnez un **modèle de projet** pour chaque choix de champ.
+      * **Modèle de projet** : si vous avez sélectionné l’option **Utiliser le même modèle**, sélectionnez un modèle de projet que Workfront utilisera pour créer les projets.
+
+   </div>
+
    * **Créer un portefeuille** :
-      * **Champ connecté où l&#39;objet est créé** : il s&#39;agit du champ connecté où s&#39;affichera le nouveau portfolio. Champ obligatoire.
+      * **Champ connecté où le portfolio est créé** : il s’agit du champ connecté où le nouveau portfolio s’affichera. Champ obligatoire.
       * **Formulaire personnalisé à joindre au nouveau portefeuille** : sélectionnez un formulaire personnalisé à joindre au nouveau portefeuille. Vous devez créer un formulaire personnalisé de portfolio avant de pouvoir le sélectionner.
    * **Créer un programme** :
-      * **Champ connecté où l&#39;objet est créé** : il s&#39;agit du champ connecté où s&#39;affichera le nouveau programme. Champ obligatoire.
+      * **Champ connecté où le programme est créé** : il s’agit du champ connecté où le nouveau programme s’affichera. Champ obligatoire.
       * **Portefeuille de programmes** : sélectionnez le portefeuille dans lequel le nouveau programme sera ajouté. Champ obligatoire.
       * **Formulaire personnalisé à joindre au nouveau programme** : sélectionnez un formulaire personnalisé à joindre au nouveau programme. Vous devez créer un formulaire personnalisé de programme avant de pouvoir le sélectionner.
    * **Créer un groupe** :
-      * **Champ connecté où l&#39;objet est créé** : il s&#39;agit du champ connecté où s&#39;affichera le nouveau groupe. Champ obligatoire.
+      * **Champ connecté où est créé le groupe** : il s’agit du champ connecté où s’affichera le nouveau groupe. Champ obligatoire.
       * **Formulaire personnalisé à joindre au nouveau groupe** : sélectionnez un formulaire personnalisé à joindre au nouveau programme. Vous devez créer un formulaire personnalisé de programme avant de pouvoir le sélectionner.
    * **Créer un enregistrement** :
       * **Type d’enregistrement** : sélectionnez le type d’enregistrement à créer.
 
-     La sous-section **Paramètres** s’affiche. Mettez à jour les champs suivants de la sous-section **Paramètres** :
+        La sous-section **Paramètres** s’affiche. Mettez à jour les champs suivants de la sous-section **Paramètres** :
 
-      * **Champ sur le type d’enregistrement connecté où l’enregistrement actif s’affichera** : il s’agit du champ connecté sur le type d’enregistrement sélectionné pour l’action où l’enregistrement actif s’affichera.
+         * **Champ sur le type d’enregistrement connecté où l’enregistrement actif s’affichera** : il s’agit du champ connecté sur le type d’enregistrement sélectionné pour l’action où l’enregistrement actif s’affichera.
 
-     Par exemple, si vous créez une automatisation pour que les campagnes connectent les enregistrements de produit à partir de , il s’agit du champ connecté sur le type d’enregistrement de produit à partir duquel les campagnes s’afficheront, une fois les produits créés à l’aide de l’automatisation.
+        Par exemple, si vous créez une automatisation pour que les campagnes connectent les enregistrements de produit à partir de , il s’agit du champ connecté sur le type d’enregistrement de produit à partir duquel les campagnes s’afficheront, une fois les produits créés à l’aide de l’automatisation.
 
-     Champ obligatoire.
+        Champ obligatoire.
 
-     <!--submitted a change in functionality and UI text for this - revise??-->
-      * **Mapper les champs**
+        <!--submitted a change in functionality and UI text for this - revise??-->
+Dans la zone **Champs de carte**, mettez à jour les informations suivantes :
+
          * **Transférer depuis** : sélectionnez les champs à partir du type d’enregistrement pour lequel l’automatisation est créée afin de les mapper aux champs du type d’enregistrement connecté.
          * **Transférer vers** : sélectionnez des champs du nouvel enregistrement qui seront renseignés avec les informations de l’enregistrement à partir duquel vous exécutez l’automatisation.
 
-     >[!TIP]
-     >
-     >Les types de champ du type d’enregistrement d’origine doivent correspondre aux types de champ du type d’enregistrement nouvellement créé.
+        >[!TIP]
+        >
+        >* Les types de champ du type d’enregistrement d’origine doivent correspondre aux types de champ du type d’enregistrement nouvellement créé.
+        >* Si vous choisissez aucun champ, les noms des nouveaux enregistrements seront **Enregistrement sans titre**.
 
 1. (Facultatif et conditionnel) Si vous avez choisi de créer un enregistrement, cliquez sur **Ajouter des champs** pour mapper des champs de recherche supplémentaires d’un enregistrement à un autre.
-1. (Conditionnel) Si vous avez choisi de créer un enregistrement et qu&#39;il n&#39;existe pas de champs de connexion entre le type d&#39;enregistrement d&#39;origine et le type d&#39;enregistrement sélectionné dans la zone **Actions**, cliquez sur l&#39;icône de point d&#39;interrogation à droite du champ **Champ sur le type d&#39;enregistrement connecté où apparaîtra l&#39;enregistrement actif** puis cliquez sur l&#39;icône **Ajouter** ![icône Créer un champ de connexion](assets/create-a-connection-field-icon.png) pour ajouter un champ de connexion.
+1. (Conditionnel) S’il n’existe aucun champ de connexion entre le type d’enregistrement d’origine et le type d’enregistrement sélectionné dans le champ **Type d’enregistrement**, cliquez sur **Ajouter un champ connecté**.
 
-   Le nouveau champ est automatiquement créé pour le type d’enregistrement que vous avez sélectionné dans la zone **Actions** et nommé **Enregistrement connecté**.
+   ![Configuration de l’automatisation pour créer un enregistrement](assets/automation-setup-create-record.png)
 
-   Un champ connecté pour le type d’enregistrement sélectionné est également créé sur le type d’enregistrement d’origine à partir duquel vous configurez l’automatisation.
-1. (Facultatif et conditionnel) Si vous avez choisi de créer un objet Workfront et que vous ne disposez pas d’un champ de connexion pour le type d’objet Workfront sélectionné, cliquez sur l’icône de point d’interrogation à droite du champ **Connected field où le champ &lt; nom du type d’objet Workfront > est créé**, puis cliquez sur l’icône **Ajouter** ![icône Créer un champ de connexion](assets/create-a-connection-field-icon.png) pour ajouter un champ de connexion.
+   Les deux champs suivants sont créés :
 
-   ![Icône de point d’interrogation pour ajouter des champs connectés dans les automatisations avec Workfront](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   * Un nouveau champ de connexion nommé **Enregistrement connecté** est créé pour le type d’enregistrement que vous avez indiqué dans le champ **Type d’enregistrement**.
+   * Un nouveau champ de connexion portant le même nom que celui indiqué dans le champ **Type d’enregistrement** est créé pour le type d’enregistrement pour lequel vous configurez l’automatisation.
 
-   Le nouveau champ est automatiquement créé et nommé **Connected &lt; Workfront object name >**. Par exemple, lorsqu’un champ connecté à un portfolio est créé pour l’enregistrement, il est nommé « Portfolio connecté ».
+     Par exemple, si vous configurez une automatisation pour les campagnes afin de créer automatiquement un autre type d’enregistrement appelé Marques et que vous cliquez sur **Ajouter un champ connecté**, les champs suivants sont créés :
+
+      * Le champ de connexion **Enregistrement connecté** est créé pour le type d’enregistrement **Marques**.
+      * Le champ de connexion **Marques** est créé pour le type d’enregistrement **Campagnes**.
+
+1. (Facultatif) S’il n’existe aucun champ de connexion entre le type d’enregistrement d’origine et l’objet Workfront sélectionné dans la zone Actions, cliquez sur **Ajouter un champ connecté**.
+
+   ![Configuration de l’automatisation pour créer plusieurs projets](assets/automation-setup-create-multiple-projects.png)
+
+   Les éléments suivants sont créés :
+
+   * Un nouveau champ de connexion nommé **Connected &lt; name of Workfront object >** est créé pour le type d’enregistrement pour lequel vous créez l’automatisation. Par exemple, un champ **Projet connecté** est créé pour le type d’enregistrement pour lequel vous créez l’automatisation, lorsque vous choisissez de créer automatiquement des projets.
+   * Une nouvelle carte de type d’enregistrement est ajoutée à la section Planification d’un projet Workfront, dans Workfront avec le nom du type d’enregistrement pour lequel vous configurez l’automatisation.
 
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de la page des détails d’automatisation.
 
@@ -223,21 +277,24 @@ Sélectionnez l’une des actions suivantes :
 
    1. Dans la liste des automatisations, pointez sur le nom d’une automatisation enregistrée, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png).
 
-   1. Cliquez sur **Modifier** pour mettre à jour les informations sur les champs de l’automatisation et les configurer.
+   1. Cliquez sur **Modifier** pour mettre à jour les informations suivantes :
 
-      >[!TIP]
-      >
-      >   Vous ne pouvez pas modifier l’action que vous avez initialement sélectionnée pour une automatisation.
+      * Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l&#39;automatisation, puis cliquez sur **Modifier** pour modifier le nom de l&#39;automatisation.
+      * Tous les champs de l’automatisation, à l’exception du champ **Actions**.
+
+        >[!TIP]
+        >
+        >Vous ne pouvez pas modifier l’action que vous avez initialement sélectionnée pour une automatisation.
 
 
    1. Cliquez sur **Désactiver** pour supprimer l’automatisation de la vue Tableau de l’enregistrement et empêcher les utilisateurs de l’utiliser pour créer des enregistrements ou des objets.
 
-   Les enregistrements créés à l&#39;aide d&#39;une automatisation désactivée restent connectés à l&#39;enregistrement sélectionné à l&#39;origine.
+      Les enregistrements créés à l&#39;aide d&#39;une automatisation désactivée restent connectés à l&#39;enregistrement sélectionné à l&#39;origine.
 
-   Pour le rendre à nouveau disponible, cliquez de nouveau sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Activer**.
+      Pour le rendre à nouveau disponible, cliquez de nouveau sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Activer**.
    1. Cliquez sur **Supprimer** pour supprimer l’automatisation. Impossible de récupérer une automatisation supprimée.
 
-   Les enregistrements qui ont été créés à l&#39;aide d&#39;une automatisation supprimée restent connectés à l&#39;enregistrement sélectionné à l&#39;origine.
+      Les enregistrements qui ont été créés à l&#39;aide d&#39;une automatisation supprimée restent connectés à l&#39;enregistrement sélectionné à l&#39;origine.
 
 ## Utiliser une automatisation de Workfront Planning pour créer un objet ou un enregistrement
 
@@ -254,7 +311,17 @@ Sélectionnez l’une des actions suivantes :
 
    * Un message de confirmation s&#39;affiche en bas de l&#39;écran, si l&#39;automatisation a réussi à créer un objet ou un enregistrement.
 
-   * Le nouvel objet s’affiche dans le champ connecté que vous avez indiqué dans la configuration du bouton d’automatisation. Vous devrez peut-être actualiser votre page avant d’afficher le nouvel objet.
+   * Le nouvel objet s’affiche dans le champ connecté indiqué dans la configuration du bouton d’automatisation. Vous devrez peut-être actualiser votre page avant d’afficher le nouvel objet. Le nouvel objet porte le même nom que l’enregistrement d’origine.
+
+   <div class="preview">
+
+   * Si plusieurs projets ont été créés en fonction du choix de champs à sélection multiple ou unique, les projets sont automatiquement nommés selon le modèle suivant :
+
+     `[ Name of the record ] Name of the field choice`
+
+     Par exemple, si une campagne nommée `Summer breeze` génère un projet à partir d’un champ choisi de `EMEA`, le projet est nommé `[ Summer breeze ] EMEA`.
+
+   </div>
 
    * L’enregistrement à partir duquel vous déclenchez l’automatisation est ajouté au champ connecté du nouvel enregistrement.
 

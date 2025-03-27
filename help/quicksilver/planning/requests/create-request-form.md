@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 9%
+source-wordcount: '2184'
+ht-degree: 8%
 
 ---
 
@@ -177,9 +177,11 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
    * **Section par défaut** : il s’agit du saut de section par défaut que Workfront applique au formulaire de demande. Tous les champs d’enregistrement s’affichent dans la zone **Section par défaut**.
    * Champ **Subject** : champ qui identifiera la demande dans Workfront. La configuration et la valeur du champ Objet ne sont pas modifiables.
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >Le champ **Objet** nécessite une valeur lorsqu’il est visible sur le formulaire de demande. Cependant, vous pouvez supprimer le champ **Objet** si nécessaire, et les demandeurs ne le verront pas dans le formulaire lorsqu’ils soumettent la demande.
+     >* Le champ **Objet** nécessite une valeur lorsqu’il est visible sur le formulaire de demande. Cependant, vous pouvez supprimer le champ **Objet** si nécessaire, et les demandeurs ne le verront pas dans le formulaire lorsqu’ils soumettent la demande.
+     >* Lorsque le champ Objet est manquant dans un formulaire de demande, mais qu&#39;il existe un champ Nom pour le nom de l&#39;enregistrement futur, le nom de la demande est automatiquement attribué au même nom que l&#39;enregistrement créé.
+     >* Lorsque les champs Objet et Nom sont manquants dans le formulaire de demande, la demande est nommée selon le modèle suivant : `< Record name > request form < Entry date of the request >` ; l’enregistrement est nommé **Sans titre**.
 
    * Tous les champs associés au type d’enregistrement.
 
