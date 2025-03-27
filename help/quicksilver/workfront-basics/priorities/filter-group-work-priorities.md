@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
+source-git-commit: fbe5373ebe1c73db656384da8a339d0983215e4e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 15%
 
 ---
@@ -64,7 +64,7 @@ Vous pouvez filtrer les tâches et les événements qui vous sont affectés.
 {{step1-to-priorities}}
 
 1. Cliquez sur **Filtres** en haut à gauche de la liste de travail.
-1. cliquez sur **Filtres standard**.
+1. Cliquez sur **Filtres standard**.
 1. Sélectionnez un ou plusieurs filtres pour affiner vos éléments de travail.
    ![Filtre](assets/filter-new.png)
 
@@ -93,8 +93,9 @@ Vous pouvez filtrer les tâches et les événements qui vous sont affectés.
       <td>À préparer</td>
       <td>Affiche les éléments qui ont
        <ul>
-      <li>Prédécesseurs incomplets ou contraintes de tâche empêchant le traitement de l'élément</li>
+      <li>Prédécesseurs incomplets ou contraintes de tâche empêchant le traitement de l'élément</li></ul>
       <p>ou</p>
+      <ul>
       <li>La date de début prévue est dans le futur depuis plus de deux semaines</li>
       </ul>
        </td>
