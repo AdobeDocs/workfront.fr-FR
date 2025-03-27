@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
+source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '2166'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,45 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Lien pour afficher la nouvelle demande après l’avoir soumise
+
+>[!NOTE]
+>
+>Aperçu : 27 mars 2025 ; production pour tous les clients : 10 avril 2025
+
+Vous pouvez désormais ouvrir une nouvelle demande immédiatement après l’avoir envoyée à partir des zones suivantes :
+
+* le formulaire de demande après y avoir accédé à partir d’un lien partagé
+* la page type d’enregistrement à partir des boutons Nouvel enregistrement ou Demander l’enregistrement
+* la zone Demandes du menu principal ;
+
+Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Création de plusieurs objets à partir d’un enregistrement à l’aide d’automatisations
+
+>[!NOTE]
+>
+>Aperçu : 27 mars 2025 ; production pour tous les clients : 10 avril 2025
+
+Vous pouvez désormais créer plusieurs projets à partir du même enregistrement Workfront Planning lorsque vous utilisez les automatisations dans Workfront Planning. Vous pouvez créer plusieurs projets et baser la création de chaque projet sur les valeurs d’un champ à sélection unique ou multiple lorsque vous déclenchez une automatisation. Vous ne pouvez utiliser cette fonctionnalité que pour créer des projets.  Dans Planning, vous ne pouvez pas déclencher d&#39;autres modifications ni créer d&#39;autres types d&#39;objets à l&#39;aide des automatisations.
+
+
+Avant cette amélioration, vous ne pouviez créer qu’un seul projet à chaque fois que vous déclenchiez une automatisation configurée pour les projets.
+
+Pour plus d’informations, voir [Création d’objets à l’aide des automatisations d’enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+## Renommer les champs de recherche
+
+>[!NOTE]
+>
+>Aperçu : 27 mars 2025 ; production pour tous les clients : 10 avril 2025
+
+Vous pouvez désormais mettre à jour les informations des champs de recherche après les avoir ajoutés à la table d&#39;un enregistrement connecté.
+
+Avant cette amélioration, vous ne pouviez pas modifier les champs de recherche existants.
+
+Pour plus d’informations, voir [Modifier les champs](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## Configurer et gérer plusieurs formulaires de demande à partir d’un type d’enregistrement
 

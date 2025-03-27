@@ -6,7 +6,8 @@ description: Adobe Workfront a publié la version 19 de l’API le jeudi 6 avr
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
+exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
+source-git-commit: 1c1f9f46ea25ffa7d01c1a762b0478a5edb3339e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 50%
@@ -42,7 +43,7 @@ Un objet AccessLevel est associé à des personnes et décrit le jeu d’autoris
             </p>
             <ul>
               <li>
-                <p>Désactivation de l’assistant Workfront AI (AIOFF)
+                <p>Désactiver l’assistant d’IA pour Workfront (AIOFF)
                 </p>
               </li>
              </ul>
@@ -55,9 +56,9 @@ Un objet AccessLevel est associé à des personnes et décrit le jeu d’autoris
 
 ### Assignment (ASSGN)
 
-Un objet d’affectation représente la connexion entre un élément de travail et l’utilisateur, l’équipe ou le groupe affecté pour y travailler.
+Un objet Affectation représente le lien entre un élément de travail et l&#39;utilisateur, l&#39;équipe ou le groupe affecté à ce travail.
 
-L’objet Assignment a ajouté l’indicateur **DATA_EXTENDIBLE**.
+L&#39;objet Assignment a ajouté l&#39;indicateur **DATA_EXTENDIBLE**.
 
 <table>
   <tbody>
@@ -66,7 +67,7 @@ L’objet Assignment a ajouté l’indicateur **DATA_EXTENDIBLE**.
       <td>Ajout des champs directs suivants :
         <ul>
           <li>
-            <p><b>categoryID</b><p>Une catégorie est un formulaire personnalisé. Ce champ prend en charge la possibilité d’ajouter un formulaire personnalisé à une affectation.
+            <p><b>categoryID</b><p>Une catégorie est un formulaire personnalisé. Ce champ permet d’ajouter un formulaire personnalisé à une affectation.
             </p>
           </li>
           <li>
@@ -75,7 +76,7 @@ L’objet Assignment a ajouté l’indicateur **DATA_EXTENDIBLE**.
               <li>0 (Aucun)</li>
               <li>1 (Faible)</li>
               <li>2 (Normal)</li>
-              <li>3 (élevé)</li>
+              <li>3 (Élevé)</li>
               <li>4 (Urgent)</li>
              </ul>
           </li>
@@ -86,7 +87,7 @@ L’objet Assignment a ajouté l’indicateur **DATA_EXTENDIBLE**.
       <td>Ajout des champs de référence suivants :
         <ul>
           <li>
-            <p><b>category</b><p>Une catégorie est un formulaire personnalisé. Ce champ prend en charge la possibilité d’ajouter un formulaire personnalisé à une affectation.
+            <p><b>catégorie</b><p>Une catégorie est un formulaire personnalisé. Ce champ permet d’ajouter un formulaire personnalisé à une affectation.
             </p>
           </li>
         </ul>
@@ -97,7 +98,7 @@ L’objet Assignment a ajouté l’indicateur **DATA_EXTENDIBLE**.
       <td>Ajout des champs de collection suivants :
         <ul>
           <li>
-            <p><b>objectCategories</b><p>Une catégorie est un formulaire personnalisé. Ce champ prend en charge la possibilité d’ajouter un formulaire personnalisé à une affectation.
+            <p><b>objectCategories</b><p>Une catégorie est un formulaire personnalisé. Ce champ permet d’ajouter un formulaire personnalisé à une affectation.
             </p>
           </li>
         </ul>
@@ -116,7 +117,7 @@ Un objet Category est un formulaire personnalisé.
   <tbody>
     <tr>
       <td role="rowheader">Champs directs</td>
-      <td>Les champs suivants ont été ajoutés pour prendre en charge la possibilité d’ajouter un formulaire personnalisé à une affectation.
+      <td>Les champs suivants ont été ajoutés pour permettre d’ajouter un formulaire personnalisé à une affectation.
         <ul>
           <li>
             <p><b>catObjCode</b><p>Ajout des valeurs possibles suivantes :
@@ -180,7 +181,7 @@ Un objet Customer représente une organisation qui utilise une instance de Workf
             </p>
             <ul>
               <li>
-                <p>Priorités d’affectation (PRIORITY_ASSIGNMENT)
+                <p>Priorités d'affectation (PRIORITY_ASSIGNMENT)
                 </p>
               </li>
              </ul>
@@ -208,7 +209,7 @@ Un objet CustomerPreferences représente l’ensemble des préférences définie
             </p>
             <ul>
               <li>
-                <p>Activez l’intégration Zoom dans le flux de mises à jour (password:zoomIntegrationEnabled).
+                <p>Activer l’intégration du zoom dans le flux de mises à jour (mot de passe : zoomIntegrationEnabled)
                 </p>
               </li>
              </ul>
@@ -231,7 +232,7 @@ Un objet Document représente un fichier (tel qu’un support écrit, des images
       <td>
         <ul>
           <li>
-            <p><b>createLargeDocument</b><p>Ajout du champ <code>folderID</code>.</p>
+            <p><b>createLargeDocument</b><p>Ajout de la <code>folderID</code> de champs .</p>
           </li>
           <li>
             <p><b>sendDocumentsToExternalProvider</b><p>Ajout.</p>
@@ -244,7 +245,7 @@ Un objet Document représente un fichier (tel qu’un support écrit, des images
 
 ### ExchangeRate (EXRATE)
 
-Un objet ExchangeRate représente un taux d’exchange de devise configuré dans Workfront. Les objets ExchangeRate ne sont pas dynamiques.
+Un objet ExchangeRate représente un taux de change de devise configuré dans Workfront. Les objets ExchangeRate ne sont pas dynamiques.
 
 <table>
   <tbody>
@@ -252,10 +253,10 @@ Un objet ExchangeRate représente un taux d’exchange de devise configuré dans
       <td role="rowheader">Champs directs</td>
       <td>
       <ul>
-      <li>Les champs suivants ont ajouté le programme de validation <code>REQUIRED</code> :
+      <li>Les champs suivants ont ajouté le <code>REQUIRED</code> de validation :
         <ul>
           <li><p><b>currency</b></li>
-          <li><p><b>rate</b></li></ul>
+          <li><p><b>taux</b></li></ul>
       <li>Les champs suivants ont été ajoutés :
         <ul>
           <li><p><b>enteredByID</b></li>
@@ -287,7 +288,7 @@ Un objet ExchangeRate représente un taux d’exchange de devise configuré dans
 
 Un objet Group représente un ensemble d’utilisateurs et utilisatrices et d’équipes. Les groupes représentent souvent la structure des services.
 
-L’objet Group a ajouté l’indicateur **SHARABLE**.
+L’objet Group a ajouté l’indicateur **PARTAGEABLE**.
 
 ### Hour (HOUR)
 
@@ -302,16 +303,16 @@ Un objet Hour représente une heure enregistrée par un utilisateur ou une utili
         <ul>
           <li><p><b>assignedApproverID</b></li>
           <li><p><b>isBillable</b></li>
-          <li><p><b>isBill</b></li>
-          <li><p><b>rejectByID</b></li>
-          <li><p><b>rejectOnDate</b></li>
-          <li><p><b>rejetComment</b></li>
+          <li><p><b>isBilling</b></li>
+          <li><p><b>changedByID</b></li>
+          <li><p><b>failedOnDate</b></li>
+          <li><p><b>rejetCommentaire</b></li>
           <li><p><b>submittedByID</b></li>
           </ul>
-          <p>Les modifications suivantes ont été apportées au champ <b>hours</b> .</p>
+          <p>Les modifications suivantes ont été apportées au champ <b>heures</b>.</p>
           <ul> 
-          <li> Suppression du programme de validation <b>GREATER_THAN</b></li>
-          <li> Ajout du programme de validation <b>NOT_EQUAL</b></li>
+          <li> Validateur supprimé <b>GREATER_THAN</b></li>
+          <li> Validateur ajouté <b>NOT_EQUAL</b></li>
           </ul>
      </td>
     </tr>
@@ -320,8 +321,8 @@ Un objet Hour représente une heure enregistrée par un utilisateur ou une utili
       <td>
       Les actions suivantes ont été ajoutées :
         <ul>
-          <li><p><b>valider</b></li>
-          <li><p><b>unapprove</b></li>
+          <li><p><b>approuver</b></li>
+          <li><p><b>désapprouver</b></li>
           </ul>
       </td>
     </tr>
@@ -339,23 +340,23 @@ L’objet JournalEntry peut être configuré pour enregistrer des informations s
       <td>
         <ul>
           <li>
-            <p><b>flags</b><p>Ajout des valeurs possibles suivantes :
+            <p><b>drapeaux</b><p>Ajout des valeurs possibles suivantes :
             </p>
             <ul>
               <li>
-                <p>Est le taux de coût (CR)
+                <p>Est un taux de coût (CR)
                 </p>
               </li>
               <li>
-                <p>Taux de facturation (BR)
+                <p>Est un taux de facturation (BR)
                 </p>
               </li>
               <li>
-                <p>Is general finance (GF)
+                <p>Est la finance générale (GF)
                 </p>
               </li>
               <li>
-                <p>Est le financement combiné (CF)
+                <p>Est un financement combiné (FC)
                 </p>
               </li>
              </ul>
@@ -380,21 +381,21 @@ Un objet de paramètre est un champ personnalisé.
           <li>
             <p><b>dataType</b></p><p>Ajout de la valeur possible suivante :
             <ul>
-            <li>Durée (RTN)</li>
+            <li>Durée (DRTN)</li>
             </ul>
           </li>
           <li>
-            <p><b>displayType</b></p><p>Pour créer un système plus convivial et flexible, le type de champ <b>Widget (WIDGET)</b> a été abandonné et divisé en plusieurs types de champ :
+            <p><b>displayType</b></p><p>Pour créer un système plus convivial et plus flexible, le type de champ <b>Widget (WIDGET)</b> a été abandonné et divisé en plusieurs types de champs :
             <ul>
-            <li>Adobe XD (ADOBEXD)</li>
+            <li>Adobe XD (ADOBE XD)</li>
             <li>Image (IMAGE)</li>
             <li>PDF (PDF)</li>
             <li>Vidéo (VIDEO)</li>
-            <li>Recherche externe (EXTRNL)</li>
-            <li>Recherche externe multi-sélection (MULTEXTRNL)</li>
+            <li>Recherche externe (EXTRA)</li>
+            <li>Recherche externe multi-sélection (MULTI-EXTRAIT)</li>
             <li>Champ natif (WFNATIVE)</li>
-            <li>Champ de planification (WFPLANNING)</li>
-            <li>IPC par étapes (TIMEPHASED)</li>
+            <li>Champ Planning (WFPLANNING)</li>
+            <li>KPI par étapes (chronologique)</li>
             <li>Cumul (ROLLUP)</li>
             <li>Documents (DOCUMENT)</li>
            </ul>
@@ -444,17 +445,17 @@ Un objet ScoreCardQuestion représente une question qui a été ajoutée à une 
     <tr>
       <td role="rowheader">Champs directs</td>
       <td>
-            <p><b>displayType</b></p><p>Pour créer un système plus convivial et flexible, le type de champ <b>Widget (WIDGET)</b> a été abandonné et divisé en plusieurs types de champ :
+            <p><b>displayType</b></p><p>Pour créer un système plus convivial et plus flexible, le type de champ <b>Widget (WIDGET)</b> a été abandonné et divisé en plusieurs types de champs :
             <ul>
-            <li>Adobe XD (ADOBEXD)</li>
+            <li>Adobe XD (ADOBE XD)</li>
             <li>Image (IMAGE)</li>
             <li>PDF (PDF)</li>
             <li>Vidéo (VIDEO)</li>
-            <li>Recherche externe (EXTRNL)</li>
-            <li>Recherche externe multi-sélection (MULTEXTRNL)</li>
+            <li>Recherche externe (EXTRA)</li>
+            <li>Recherche externe multi-sélection (MULTI-EXTRAIT)</li>
             <li>Champ natif (WFNATIVE)</li>
-            <li>Champ de planification (WFPLANNING)</li>
-            <li>IPC par étapes (TIMEPHASED)</li>
+            <li>Champ Planning (WFPLANNING)</li>
+            <li>KPI par étapes (chronologique)</li>
             <li>Cumul (ROLLUP)</li>
             <li>Documents (DOCUMENT)</li>
            </ul>
@@ -462,11 +463,11 @@ Un objet ScoreCardQuestion représente une question qui a été ajoutée à une 
   </tbody>
 </table>
 
-### TemplateAssignment (TASSGN)
+### TemplateAssignment (TÂCHE)
 
-Un objet TemplateAssignment représente la connexion entre une tâche de modèle et l’utilisateur, l’équipe ou le groupe qui est affecté pour y travailler. Lorsque le modèle est utilisé pour un projet, cet utilisateur, cette équipe ou ce groupe est affecté à la tâche.
+Un objet TemplateAssignment représente le lien entre une tâche de modèle et l&#39;utilisateur, l&#39;équipe ou le groupe affecté à cette tâche. Lorsque le modèle est utilisé pour un projet, cet utilisateur, cette équipe ou ce groupe est affecté à la tâche.
 
-L’objet TemplateAssignment a ajouté l’indicateur **DATA_EXTENDIBLE**.
+L&#39;objet TemplateAssignment a ajouté l&#39;indicateur **DATA_EXTENDIBLE**.
 
 <table>
   <tbody>
@@ -475,7 +476,7 @@ L’objet TemplateAssignment a ajouté l’indicateur **DATA_EXTENDIBLE**.
       <td>Ajout des champs directs suivants :
         <ul>
           <li>
-            <p><b>categoryID</b><p>Une catégorie est un formulaire personnalisé. Ce champ prend en charge la possibilité d’ajouter un formulaire personnalisé à une affectation.
+            <p><b>categoryID</b><p>Une catégorie est un formulaire personnalisé. Ce champ permet d’ajouter un formulaire personnalisé à une affectation.
             </p>
           </li>
         </ul>
@@ -485,7 +486,7 @@ L’objet TemplateAssignment a ajouté l’indicateur **DATA_EXTENDIBLE**.
       <td>Ajout des champs de référence suivants :
         <ul>
           <li>
-            <p><b>category</b><p>Une catégorie est un formulaire personnalisé. Ce champ prend en charge la possibilité d’ajouter un formulaire personnalisé à une affectation.
+            <p><b>catégorie</b><p>Une catégorie est un formulaire personnalisé. Ce champ permet d’ajouter un formulaire personnalisé à une affectation.
             </p>
           </li>
         </ul>
@@ -496,7 +497,7 @@ L’objet TemplateAssignment a ajouté l’indicateur **DATA_EXTENDIBLE**.
       <td>Ajout des champs de collection suivants :
         <ul>
           <li>
-            <p><b>objectCategories</b><p>Une catégorie est un formulaire personnalisé. Ce champ prend en charge la possibilité d’ajouter un formulaire personnalisé à une affectation.
+            <p><b>objectCategories</b><p>Une catégorie est un formulaire personnalisé. Ce champ permet d’ajouter un formulaire personnalisé à une affectation.
             </p>
           </li>
         </ul>
@@ -516,11 +517,9 @@ Un objet Timesheet représente une feuille de temps virtuelle qui permet aux uti
       <td>
         <ul>
           <li>
-            <p><b>objCode</b></p><p>Supprimée.</p>
+            <p><b>objCode</b></p><p>Supprimé.</p>
           </li>
         </ul>
       </td>
   </tbody>
 </table>
-
-

@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 90cb8df4735ed7868b15064588ff0b043e972a3f
+source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 38%
+source-wordcount: '1624'
+ht-degree: 32%
 
 ---
 
@@ -38,7 +38,9 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations de la gestion des documents](#document-management-enhancements)
+* [Améliorations mobiles](#mobile-enhancements)
 * [Améliorations apportées aux projets](#project-enhancements)
+* [Amélioration des rapports](#reporting-enhacements)
 * [Autres améliorations](#other-enhancements)
 
 ### Améliorations apportées aux administrateurs et administratrices
@@ -73,7 +75,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : samedi 31 janvier 2025</li>
-                <li><span class="preview">Version de production pour tous les clients : 31 janvier 2025</span></li>
+                <span class="preview"><li>Version de production pour tous les clients : 31 janvier 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -86,6 +88,20 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<!--    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            New document approval decision buttons available in proofing viewer</a></p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: March 27, 2025</li>
+                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+            </ul>
+        </td>
+    </tr>    -->                      
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -97,7 +113,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version de prévisualisation : vendredi 20 mars 2025</li>
-                <li><span class="preview">Version de production pour tous les clients : 20 mars 2025</span></li>
+                <span class="preview"><li>Version de production pour tous les clients : 20 mars 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -111,7 +127,39 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : vendredi 6 février 2025</li>
-                <li><span class="preview">Version de production pour tous les clients : 13 mars 2025</span></li>
+                <span class="preview"><li>Version de production pour tous les clients : 13 mars 2025</li></span>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### Améliorations mobiles
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Améliorations apportées aux BAT dans l’application mobile (iOS uniquement)</a>[!BADGE En production ]{type=Informative}</p>
+            <p>Plusieurs améliorations sont disponibles pour la fonctionnalité BAT dans l’application mobile Adobe Workfront :
+            <ul>
+            <li>Vous pouvez désormais ouvrir un fichier BAT à partir de votre application de messagerie mobile, à partir d'un lien qui a été partagé avec vous. Auparavant, les liens provenant des e-mails n’étaient pas pris en charge et vous deviez accéder aux épreuves à partir de l’application mobile Workfront.</li>
+            <li>Les fichiers d’épreuve multimédia sont désormais pris en charge dans l’application mobile.</li>
+            </ul>
+            </p>
+        </td>
+        <td>
+            <p><b>Disponible à ces dates :</b></p>
+            <ul>
+                <li>Version préliminaire : S/O</li>
+                <span class="preview"><li>Version de production pour tous les clients : 12 mars 2025</li> 
+            </ul>
+            <p><b>Disponible dans les environnements suivants :</b></p>
+            <ul>
+                <li>Application mobile iOS</li>
             </ul>
         </td>
     </tr>                          
@@ -142,6 +190,48 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 </tbody>
 </table>
 
+### Améliorations des rapports
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Les données d’approbation de document et de décision sont désormais disponibles dans Data Connect</a>[!BADGE In production ]{type=Informative}</p>
+            <p>Vous pouvez désormais accéder aux données pour les approbations de documents et les décisions dans Data Connect. Ce jeu de données associe les approbations de documents aux fonctionnalités de relecture de Workfront et aux approbations Frame.io qui ont lieu sur les documents Workfront. Vous pourrez désormais illustrer la durée du cycle, le nombre de cycles et l’impact sur le calendrier pour les approbations tardives par le biais de vos visualisations BI.</p>
+        </td>
+        <td>
+            <p><b>Disponible à ces dates :</b></p>
+            <ul>
+                <li>Version de prévisualisation : mercredi 25 mars 2025</li>
+                <li>Version de production pour tous les clients : 25 mars 2025</li>
+            </ul>
+        </td>
+    </tr>                          
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Mises à jour du calendrier Workfront</a></p>
+            <p>Nous avons mis à jour l’aspect du calendrier Workfront pour le rendre moderne et cohérent avec les autres aspects de Workfront. Il existe de petites différences de fonctionnalité par rapport au calendrier Workfront actuel, notamment :
+            <ul>
+            <li>Comment ajouter des éléments ad hoc au calendrier</li>
+            <li>Comment créer et renommer le calendrier</li>
+            <li>Les actions de calendrier ont été déplacées vers un menu Plus en regard du nom du calendrier</li>
+            <li>Nouveau panneau latéral pour afficher les informations du calendrier</li>
+            <li>Et plus encore</li>
+            <ul>        </td>
+        <td>
+            <p><b>Disponible à ces dates :</b></p>
+            <ul>
+                <li>Version préliminaire : vendredi 27 février 2025</li>
+                <li>Version de production pour tous les clients : avec la version 25.4 (10 avril 2025)</li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### Autres améliorations
 
 <table>
@@ -158,7 +248,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
         <td>
             <p><b>Disponible à ces dates :</b></p>
             <ul>
-                <li><span class="preview">Version de production pour tous les clients : 6 mars 2025</span></li>
+                <span class="preview"><li>Version de production pour tous les clients : 6 mars 2025</li></span>
             </ul>
         </td>
     </tr>
@@ -188,7 +278,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : pendant toute la durée de la version du deuxième trimestre 2025</li>
-                <li><span class="preview">Version de production : passez en revue les notes de mise à jour pour connaître les dates spécifiques.</span></li>
+                <span class="preview"><li>Version de production : passez en revue les notes de mise à jour pour connaître les dates spécifiques.</li></span>
             </ul>
         </td>
     </tr>
@@ -198,6 +288,13 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 ### Fonctionnalités bientôt supprimées de Workfront
 
 Les fonctionnalités suivantes seront bientôt supprimées de Workfront :
+
+#### Dépréciation de l’API version 2-15
+
+Alors que nous continuons à améliorer la plateforme Workfront, il est essentiel de maintenir nos API à jour. Cela garantit des performances et une sécurité optimales et prend en charge de nouvelles fonctionnalités. Par conséquent, nous rendons obsolètes les versions 2 à 15 de l’API Workfront.
+
+* **Septembre 2025** : les versions 2 à 14 de l’API, qui ne sont actuellement pas prises en charge, seront obsolètes. Passée cette date, ces versions ne seront plus accessibles.
+* **Décembre 2025** : l’API version 15 sera obsolète.
 
 #### Nous supprimons l’ancienne vue Agile dans un projet
 
