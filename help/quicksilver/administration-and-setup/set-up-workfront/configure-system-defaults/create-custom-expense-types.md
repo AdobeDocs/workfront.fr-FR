@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 99%
+ht-degree: 84%
 
 ---
 
 # Créer des types de dépenses personnalisés
+
+{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -55,9 +57,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Types de dépenses par défaut
+## Types de dépense par défaut
 
-Les types de dépenses qui se trouvent dans [!DNL Workfront] par défaut ne peuvent pas être supprimés ou modifiés, et comprennent les types suivants :
+Les types de dépenses par défaut dans [!DNL Workfront] qui ne peuvent pas être supprimés ou modifiés sont les suivants :
 
 * [!UICONTROL Publicité]
 * [!UICONTROL Conseils]
@@ -72,7 +74,7 @@ Les types de dépenses qui se trouvent dans [!DNL Workfront] par défaut ne peuv
 
 1. Cliquez sur **[!UICONTROL Types de dépenses]**.
 1. Cliquez sur **[!UICONTROL Nouveau type de dépense]**.
-1. Dans la zone **[!UICONTROL Nouveau type de dépense]** qui s’affiche, indiquez les informations suivantes :
+1. Dans la boîte de dialogue **[!UICONTROL Nouveau type de dépense]**, spécifiez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -106,7 +108,8 @@ Les types de dépenses qui se trouvent dans [!DNL Workfront] par défaut ne peuv
     </tbody> 
    </table>
 
-1. Cliquez sur **[!UICONTROL Créer un type de dépense]**.\
+1. Cliquez sur **Créer un type de dépense** <span class="preview">ou **[!UICONTROL Enregistrer]**.</span>
+
    Le type de dépense est désormais disponible pour que les utilisateurs et utlisatrices puissent l’associer à leurs dépenses sur les projets et les tâches.
 
 ## Modifier les types de dépenses personnalisés
@@ -116,9 +119,10 @@ Les types de dépenses qui se trouvent dans [!DNL Workfront] par défaut ne peuv
 1. Cliquez sur **[!UICONTROL Types de dépenses]**.
 1. Sélectionnez le type de dépense à modifier, puis cliquez sur **[!UICONTROL Modifier]**.
 
-   La boîte de dialogue **[!UICONTROL Modifier le type de dépense]** s’affiche.
+   La boîte de dialogue **[!UICONTROL Modifier le type de dépense]** s&#39;affiche.
 
-1. Effectuez les modifications souhaitées, puis cliquez sur **[!UICONTROL Enregistrer les modifications]**.\
+1. Apportez les modifications souhaitées, puis cliquez sur **Enregistrer les modifications** <span class="preview">ou **[!UICONTROL Enregistrer]**.</span>
+
    Le type de dépense est désormais disponible pour que les utilisateurs et utlisatrices puissent l’associer à leurs dépenses sur les projets et les tâches.
 
 Pour plus d’informations sur l’utilisation des dépenses et sur leur impact sur le coût d’un projet, consultez l’article [Gérer les dépenses de projet](../../../manage-work/projects/project-finances/manage-project-expenses.md).
