@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 4ab8fede74c9e2ec5d374b0766445a2c23430777
+source-git-commit: 8e90b7c3bcc75be75ccec7ae5ee8e0d88b190426
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 44%
+source-wordcount: '541'
+ht-degree: 47%
 
 ---
 
@@ -40,7 +40,6 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 ### Améliorations apportées aux administrateurs et administratrices
 
-Versions mensuelles : 14 novembre, 12 décembre. 15 janvier | Publication trimestrielle : janvier
 <table style="table-layout:auto">
   <tbody>
     <tr>
@@ -60,7 +59,7 @@ Versions mensuelles : 14 novembre, 12 décembre. 15 janvier | Publication trimes
         </td>
         <td>21 novembre 2024</td>
         <td>Décembre 2024</td>
-        <td>Janvier 2024 (25.1)</td>
+        <td>Janvier 2024</td>
     </tr>     
     <tr>
         <td>
@@ -88,11 +87,13 @@ Versions mensuelles : 14 novembre, 12 décembre. 15 janvier | Publication trimes
 
 
 
-<!--
-### Functionality soon to be removed from Workfront
 
-The following functionality is soon to be removed from Workfront:
--->
+### Fonctionnalités bientôt supprimées de Workfront
+
+Les fonctionnalités suivantes seront bientôt supprimées de Workfront :
+
+* Analytics amélioré
+
 
 ## Notes de mise à jour pour d’autres zones
 
