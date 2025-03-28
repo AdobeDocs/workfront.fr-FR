@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
+source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 98%
+source-wordcount: '1521'
+ht-degree: 93%
 
 ---
 
@@ -66,11 +66,21 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 {{step-1-to-setup}}
 
 1. Cliquez sur **Niveaux d’accès** dans le panneau de gauche.
-1. Sélectionnez le niveau d’accès à copier et personnaliser, puis cliquez sur **Copier**.
+1. 
+   * Dans l’environnement de production :
+Sélectionnez le niveau d’accès à copier et à personnaliser, puis cliquez sur **Copier**.
 
-   Ou
+     Ou
 
-   Si vous modifiez un niveau d’accès existant (que vous avez copié précédemment), cliquez sur son nom.
+     Si vous modifiez un niveau d’accès existant (que vous avez copié précédemment), cliquez sur son nom.
+
+   * <span class="preview">Dans l’environnement de prévisualisation :</span>
+
+     <span class="preview">Sélectionnez le niveau d&#39;accès que vous souhaitez copier et personnaliser, puis cliquez sur l&#39;icône **Copier** ![Copier](assets/copy-icon.png). </span>
+
+     <span class="preview">Ou </span>
+
+     <span class="preview">Si vous modifiez un niveau d&#39;accès existant, sélectionnez-le en cliquant sur la case à gauche de ce niveau d&#39;accès, puis cliquez sur l&#39;icône **Modifier** ![Modifier](assets/edit-icon.png). </span>
 
 1. Dans la zone qui s’affiche, effectuez l’une des opérations suivantes pour commencer à configurer le niveau d’accès personnalisé :
 
