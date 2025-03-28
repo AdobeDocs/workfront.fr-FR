@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
+source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 13%
+source-wordcount: '747'
+ht-degree: 12%
 
 ---
 
@@ -18,19 +18,16 @@ Cette page décrit les mises à jour mineures apportées à l’aspect de divers
 
 Pour une liste de tous les changements disponibles avec la version du deuxième trimestre 2025, consultez [Vue d’ensemble de la version du deuxième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-<!--
-
-## Updated experience in the Access Levels area in Setup
+## Mise à jour de l’expérience dans la zone Niveaux d’accès de la Configuration
 
 >[!NOTE]
 >
->Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+>Version préliminaire : 27 mars 2025 ; Version de production pour tous les clients : avec la version 25.4 (10 avril 2025)
 
-To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+Pour améliorer les performances, nous avons apporté quelques mises à jour visuelles à la zone Niveaux d&#39;accès dans la configuration.
 
-A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+Une petite modification de fonctionnalité a été appliquée à la liste Niveaux d&#39;accès. Pour copier, modifier ou supprimer un niveau d&#39;accès, sélectionnez-le et cliquez sur l&#39;icône correspondante.
 
--->
 
 ## Mises à jour de l&#39;apparence des boîtes de dialogue des types de dépenses
 
