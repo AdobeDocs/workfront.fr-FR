@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des rapports dans Adobe Workfront pour consul
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: da574efdede5aee34518f251cabdfe96983a69eb
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 93%
+source-wordcount: '520'
+ht-degree: 87%
 
 ---
 
@@ -88,10 +88,15 @@ Vous pouvez utiliser des dossiers pour organiser les rapports que vous créez. V
    Ou\
    Cliquez sur n’importe quel dossier imbriqué dans le dossier **Mes rapports**.
 
-1. Faites glisser un rapport de la liste des rapports vers le dossier où vous souhaitez qu’il réside, puis déposez-le lorsque vous atteignez le dossier.
+1. Sélectionnez le rapport, puis cliquez sur l’icône de dossier ![icône de dossier](assets/folder-icon.png) en haut de la liste.
+
+1. Choisissez le dossier auquel vous souhaitez ajouter le rapport.
+
+   ![Choisissez un dossier dans lequel déplacer le rapport](assets/choose-folder.png)
 
    >[!NOTE]
    >
    >Vous ne pouvez déplacer les rapports que depuis le dossier **Mes rapports** vers d’autres dossiers imbriqués sous **Mes rapports**. Vous ne pouvez pas déplacer de rapports depuis ou vers le dossier **Partagé(s) avec moi** ou **Tous les rapports** depuis ou vers d’autres dossiers.
 
-   ![Faire glisser le rapport dans le dossier](assets/nwe-drag-report-to-folder-350x292.png)
+
+
