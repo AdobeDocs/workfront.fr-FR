@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2208'
 ht-degree: 2%
 
 ---
@@ -28,11 +28,14 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >
 >Aperçu : 27 mars 2025 ; production pour tous les clients : 10 avril 2025
 
-Vous pouvez désormais ouvrir une nouvelle demande immédiatement après l’avoir envoyée à partir des zones suivantes :
+Nous avons amélioré la façon dont vous accédez à une demande que vous envoyez dans Workfront Planning.
+Nous avons ajouté le lien « Afficher votre demande » que vous pouvez utiliser pour accéder à la page de détails de la demande que vous venez de soumettre.
 
-* le formulaire de demande après y avoir accédé à partir d’un lien partagé
-* la page type d’enregistrement à partir des boutons Nouvel enregistrement ou Demander l’enregistrement
-* la zone Demandes du menu principal ;
+Le nouveau lien est disponible après l’envoi d’une demande provenant des zones suivantes :
+
+* Depuis un lien partagé
+* À partir du bouton Nouvel enregistrement ou Demander un enregistrement sur la page du type d’enregistrement
+* Dans la zone Demandes , après avoir activé la nouvelle expérience pour l’envoi de demandes.
 
 Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2419'
 ht-degree: 22%
 
 ---
@@ -206,7 +206,7 @@ Les utilisateurs disposant d’autorisations de niveau Contribuer et Gérer sur 
    La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre sous la forme d’un tableau.
 Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
-1. Dans n’importe quel affichage, cliquez sur l’un des éléments suivants dans le coin supérieur droit de votre écran, selon les autorisations de l’espace de travail <!--<span class="preview">and record type</span>--> :
+1. (Conditionnel) Dans n’importe quel mode, cliquez sur l’un des éléments suivants dans le coin supérieur droit de l’écran, selon les autorisations de l’espace de travail <!--<span class="preview">and record type</span>--> :
 
    * Cliquez sur **Nouvel enregistrement** si vous disposez des autorisations de niveau Contribute ou supérieur sur l’espace de travail <!--<span class="preview">and record type</span>-->
 
