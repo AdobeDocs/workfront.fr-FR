@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 9f2ada5f9954878efc195661173fe88a0fe1d3bd
+source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1744'
 ht-degree: 67%
 
 ---
@@ -250,7 +250,7 @@ La logique de validation est créée à l’aide de formules et vous pouvez la r
 
 Si le champ avec la logique appliquée remplit les conditions de validation définies lorsqu’un utilisateur remplit le formulaire personnalisé, le champ est mis en surbrillance et le message d’erreur s’affiche.
 
-Vous pouvez appliquer la logique de validation aux types de champs suivants : liste déroulante, bouton radio, case à cocher, saisie semi-automatique, texte sur une seule ligne, texte de paragraphe, champ de date, texte avec mise en forme et champs calculés.
+Vous pouvez appliquer la logique de validation aux types de champ suivants : texte à une seule ligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, boutons radio, groupe de cases à cocher et saisie semi-automatique.
 
 ### Exemples
 
