@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: cdd7c0ef619e4cb75be82ba936f07bc3ce6dc745
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1252'
 ht-degree: 1%
 
 ---
@@ -250,3 +250,10 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
    <td>Aucun. Si vous disposez d’un filtre sur le champ affecté, vous ne recevez un événement <code>UPDATE</code> que si ce champ a réellement changé, et non si une autre valeur de paramètre a changé.
  </tbody> 
 </table>
+
+
+## Mise à jour de la version d’abonnement aux événements dans un scénario Workfront Fusion
+
+Workfront Fusion utilise les abonnements aux événements pour surveiller les modifications dans Workfront afin de déclencher des scénarios. Vous pouvez mettre à jour la version d’abonnement aux événements que Fusion utilise directement dans un scénario, à l’aide du module Workfront > Mettre à jour la version de la payload des événements .
+
+Pour obtenir des instructions sur l’utilisation de ce module, voir [Modules Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) dans la documentation de Workfront Fusion.
