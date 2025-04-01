@@ -7,10 +7,10 @@ description: Cette page décrit toutes les améliorations apportées à la versi
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: ebc729ad0300d54d294be275773d9ffc13128c83
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 94%
 
 ---
 
@@ -40,6 +40,6 @@ Les actions de partage, modification, suppression, ou copie d’un objectif suiv
 >
 >Avec cette mise à jour, nous avons supprimé les sections « Vérification » et « Pulsation » dans la zone des objectifs.
 
-Pour plus d’informations sur les Objectifs Workfront, consultez les articles disponibles dans la section [Objectifs Workfront](/help/quicksilver/workfront-goals/workfront-goals.md) de la documentation de Workfront.
+Pour plus d’informations sur les objectifs Workfront, consultez les articles disponibles dans la section [Objectifs Adobe Workfront : index des articles](/help/quicksilver/workfront-goals/workfront-goals.md) de la documentation Workfront.
 
-[Regarder une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3413327/){target=_blank}
+[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3413327/){target=_blank}

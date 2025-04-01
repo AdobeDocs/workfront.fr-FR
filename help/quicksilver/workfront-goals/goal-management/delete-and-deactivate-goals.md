@@ -1,23 +1,27 @@
 ---
 product-previous: workfront-goals
 navigation-topic: old-workfront-goals-articles
-title: Supprimer et désactiver des objectifs dans Objectifs Adobe Workfront
+title: Supprimer et désactiver les objectifs dans Adobe Workfront Objectifs
 description: Lorsque vous commencez à travailler sur un objectif et qu’il n’est plus pertinent pour votre organisation, nous vous recommandons de le désactiver au lieu de le supprimer. La désactivation d’un objectif permet de conserver son historique et vous donne la possibilité de le réactiver ultérieurement. Cependant, il peut arriver que la suppression d’un objectif soit judicieuse, afin que votre liste d’objectifs reste exacte.
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 89%
+source-wordcount: '676'
+ht-degree: 85%
 
 ---
 
 # Supprimer et désactiver des objectifs dans Objectifs Adobe Workfront
 
+<!--Audited for P&P only: 4/2025-->
+
 Lorsque vous commencez à travailler sur un objectif et qu’il n’est plus pertinent pour votre organisation, nous vous recommandons de le désactiver au lieu de le supprimer. La désactivation d’un objectif permet de conserver son historique et vous donne la possibilité de le réactiver ultérieurement. Cependant, il peut arriver que la suppression d’un objectif soit judicieuse, afin que votre liste d’objectifs reste exacte.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -36,27 +40,25 @@ Vous devez disposer des éléments suivants :
 <p>Pour la structure de forfait et de licence actuelle : 
 <ul><li> Un forfait Pro ou supérieur </li>
   <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
+ <tr>
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
  <td>
  <p>Nouvelle licence : contributeur ou contributrice ou niveau supérieur</p>
  Ou
- <p>Licence actuelle : demande ou niveau supérieur</p> </td>
+ <p>Licence actuelle : demande ou niveau supérieur</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, une des options suivantes : </p>
-<ul>
-<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
-<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
+  <p> Nouvelle exigence de produit : Workfront</p>
  <p>Ou</p>
- <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+  <p>Configuration requise actuelle du produit : en plus d’une licence Workfront, vous devez acheter une licence pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader"><p>Niveau d’accès</p></td>
+ <td role="rowheader">Niveau d’accès</td>
  <td> <p>Modifier l’accès aux Objectifs</p> </td>
  </tr>
  <tr data-mc-conditions="">
@@ -68,7 +70,7 @@ Vous devez disposer des éléments suivants :
   <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
@@ -77,6 +79,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Désactiver des objectifs
 

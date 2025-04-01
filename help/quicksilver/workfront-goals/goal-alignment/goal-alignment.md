@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Consultez les articles suivants pour comprendre comment aligner les objectifs dans Objectifs Workfront.
-description: Pour en savoir plus sur l’alignement des objectifs dans Objectifs Workfront, consultez les articles suivants.
+title: 'Alignement des objectifs dans les objectifs Adobe Workfront : index des articles'
+description: Veiller à ce que tous les objectifs de votre entreprise, à tous les niveaux, soient alignés les uns sur les autres et sur la stratégie globale est une étape importante du succès de votre entreprise. Pour en savoir plus sur l’alignement des objectifs dans Objectifs Workfront, consultez les articles suivants.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 75%
 
 ---
 
-# Alignement des objectifs dans Objectifs Adobe Workfront
+# Alignement des objectifs dans les objectifs Adobe Workfront : index des articles
+
+<!--Audited P&P only: 4/2025-->
 
 >[!NOTE]
 >
@@ -24,11 +26,6 @@ ht-degree: 100%
 >* Pour la nouvelle structure de forfait et de licence :
 >    
 >   * Un forfait Ultimate
->        
->     Ou
->        
->   * Une licence supplémentaire pour Objectifs Adobe Workfront pour les forfaits Adobe Workfront Prime ou Select.
->      
 >      
 >* Pour la structure de forfait et de licence actuelle :
 >    

@@ -1,18 +1,19 @@
 ---
-title: Commencer avec les Objectifs Adobe Workfront
+title: Prise en main des objectifs d’Adobe Workfront
 description: Les Objectifs Workfront vous aident à définir, communiquer et atteindre des résultats stratégiques en connectant la stratégie à l’exécution et à la diffusion du travail.
 author: Alina
-draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '1374'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
 # Commencer avec les Objectifs Adobe Workfront
+
+<!--Audited for P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -20,11 +21,11 @@ ht-degree: 99%
 >
 >* Pour la nouvelle structure de forfait et de licence :
 >
->   * Formule Workfront ultime
+>   * Le plan Ultimate Workfront
 >    
 >* Pour la structure de forfait et de licence actuelle :
 >
->   * Formule Workfront Pro ou ultérieure
+>   * Un forfait Workfront Pro ou version ultérieure
 >   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
@@ -141,7 +142,7 @@ Les Objectifs Workfront utilisent les objets principaux suivants :
 
 | Objet | Description |
 |---|---|
-| Objectif | Résultat global que vous souhaitez obtenir. Vous pouvez créer plusieurs objectifs pour une période définie. Chaque objectif possède une entité propriétaire, généralement une personne ou une équipe (bien que vous puissiez également attribuer un objectif à un groupe). Vous pouvez aligner des objectifs les uns par rapport aux autres, afin de montrer comment la progression sur plusieurs objectifs (objectifs enfant) influence la progression d’un autre (objectif parent). |
+| Objectif | Résultat global que vous souhaitez obtenir. Vous pouvez créer plusieurs objectifs pour une période définie. Chaque objectif a un propriétaire, généralement un individu ou une équipe (bien que vous puissiez également affecter un objectif à un groupe). Vous pouvez aligner des objectifs les uns par rapport aux autres, afin de montrer comment la progression de plusieurs objectifs (objectifs enfants) influence la progression d’un autre (objectif parent). |
 | Résultat | Indicateur de mesure du succès de l’objectif. Chaque objectif peut avoir un ou plusieurs résultats et leur progression indique la progression de l’objectif. |
 | Activité | Action principale qui doit avoir lieu pour obtenir un résultat. Vous pouvez ajouter une ou plusieurs activités à un objectif afin d’indiquer le travail prévu pour atteindre cet objectif. |
 

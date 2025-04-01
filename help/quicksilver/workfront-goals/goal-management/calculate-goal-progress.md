@@ -1,38 +1,39 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Vue d’ensemble de la progression et de la condition des objectifs dans les Objectifs Adobe Workfront
+title: Présentation de la progression et de la condition des objectifs dans les objectifs Adobe Workfront
 description: La progression de l’objectif dépend d’indicateurs de progression tels que les activités, les résultats ou les objectifs enfant. La condition de l’objectif est déterminée par sa progression à l’heure actuelle.
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 99%
+source-wordcount: '817'
+ht-degree: 98%
 
 ---
 
 # Vue d’ensemble de la progression et de la condition des objectifs dans les Objectifs Adobe Workfront
 
-Votre organisation doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
+<!--Audited for P&P only: 4/2025-->
 
-* Pour la nouvelle structure de forfait et de licence :
-
-   * Un forfait Ultimate
-
-     Ou
-
-     Une licence supplémentaire pour Objectifs Adobe Workfront pour les forfaits Adobe Workfront Prime ou Select.
-
-* Pour la structure de forfait et de licence actuelle :
-
-   * Un forfait Pro ou supérieur
-   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
-
-Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
-
-Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>[!IMPORTANT]
+>
+>Votre organisation doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
+>
+>
+>* Pour la nouvelle structure de forfait et de licence :
+>
+>   * Un forfait Ultimate
+>    
+>* Pour la structure de forfait et de licence actuelle :
+>
+>   * Un forfait Pro ou supérieur
+>   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
+>
+> Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
+>
+>Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront calcule automatiquement la progression de l’objectif en fonction de la progression de ses indicateurs de progression.
 

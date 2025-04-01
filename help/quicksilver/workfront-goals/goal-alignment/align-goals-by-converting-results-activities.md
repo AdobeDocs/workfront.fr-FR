@@ -6,20 +6,25 @@ description: Vous pouvez aligner manuellement deux objectifs ou convertir les r�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 94%
+source-wordcount: '680'
+ht-degree: 90%
 
 ---
 
 # Aligner les objectifs en convertissant les résultats et les activités en objectifs
+
+<!--Audited P&P only: 4/2025-->
 
 Vous pouvez aligner manuellement deux objectifs ou convertir les résultats et les activités d’un objectif existant en un autre objectif. Le résultat converti ou l’activité convertie devient l’objectif enfant de l’objectif initial.
 Pour plus d’informations sur l’alignement manuel de deux objectifs, consultez la section [Aligner des objectifs en les reliant dans les Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous avez besoin de l’accès suivant pour effectuer les activités répertoriées dans cet article :
 
 <table style="table-layout:auto">
 <col>
@@ -28,11 +33,15 @@ Pour plus d’informations sur l’alignement manuel de deux objectifs, consulte
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Formule Adobe Workfront</td>
- <td>
- <p>Tous</p>
-
-</td>
+ <td role="rowheader">Forfait Adobe Workfront*</td>
+ <td> 
+   <p>Pour la nouvelle structure de forfait et de licence :
+  <ul><li>Un forfait Ultimate </li></ul>
+   </p>
+<p>Pour la structure de forfait et de licence actuelle : 
+<ul><li> Un forfait Pro ou supérieur </li>
+  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
@@ -44,12 +53,9 @@ Pour plus d’informations sur l’alignement manuel de deux objectifs, consulte
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, une des options suivantes : </p>
-<ul>
-<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
-<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
- <p>Ou</p>
- <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+   <p> Nouvelle exigence de produit : Workfront</p>
+   Ou
+   <p>Configuration requise actuelle du produit : en plus d’une licence Workfront, vous devez acheter une licence pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Niveau d’accès</td>
@@ -73,6 +79,8 @@ Pour plus d’informations sur l’alignement manuel de deux objectifs, consulte
 </table>
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 

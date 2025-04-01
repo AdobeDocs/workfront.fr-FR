@@ -2,19 +2,21 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Vue d’ensembe de l’alignement des objectifs dans les Objectifs Adobe Workfront
+title: Présentation de l’alignement des objectifs dans les objectifs Adobe Workfront
 description: L’alignement des objectifs garantit que toutes les personnes de votre organisation se trouvent sur la même longeur d’onde sur ce qui doit être réalisé en alignant leurs objectifs les uns sur les autres et sur les objectifs organisationnels des équipes, des groupes et de l’entreprise.
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 98%
+ht-degree: 93%
 
 ---
 
 # Vue d’ensembe de l’alignement des objectifs dans les Objectifs Adobe Workfront
+
+<!--Audited P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -22,11 +24,11 @@ ht-degree: 98%
 >
 >* Pour la nouvelle structure de forfait et de licence :
 >
->   * Formule Workfront ultime
+>   * Le plan Ultimate Workfront
 >    
 >* Pour la structure de forfait et de licence actuelle :
 >
->   * Formule Workfront Pro ou ultérieure
+>   * Un forfait Workfront Pro ou version ultérieure
 >   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
@@ -36,7 +38,7 @@ ht-degree: 98%
 
 L’alignement des objectifs est un élément important de la gestion des objectifs. Vous pouvez vous assurer que toutes les personnes de votre organisation se trouvent sur la même longueur d’onde sur ce qui doit être réalisé pour faire avancer la stratégie en alignant leurs objectifs les uns sur les autres et sur les objectifs organisationnels des équipes, des groupes et de l’entreprise.
 
-Une fois les objectifs de niveau supérieur de l’entreprise, de l’équipe ou du groupe définis et révisés, les personnes qui sont des rapports directs et les personnes membres de l’équipe doivent créer des objectifs plus ciblés, en cascade à partir du niveau supérieur. La portée de ces objectifs devrait être plus étroite et tenir compte de la personne désignée comme responsable de l’objectif et de la portée de son influence. L’objectif doit répondre à la question de savoir ce que la personne responsable et son équipe doivent réaliser pour atteindre l’objectif parent sur lequel il est aligné.
+Une fois les objectifs de l’entreprise, de l’équipe ou du groupe de niveau supérieur établis et examinés, les rapports directs et les membres de l’équipe doivent alors créer des objectifs plus ciblés qui se répercutent à partir du niveau supérieur. La portée de ces objectifs devrait être plus étroite et tenir compte de la personne désignée comme responsable de l’objectif et de la portée de son influence. L’objectif doit répondre à la question de savoir ce que la personne responsable et son équipe doivent réaliser pour atteindre l’objectif parent sur lequel il est aligné.
 
 Pour plus d’informations sur les bonnes pratiques relatives à l’alignement des objectifs, voir [Commencer avec les Objectifs Adobe Workfront](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 

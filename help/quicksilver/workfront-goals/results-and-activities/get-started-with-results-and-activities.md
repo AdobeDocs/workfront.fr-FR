@@ -7,10 +7,10 @@ description: Vous devez ajouter des résultats, des activités ou des objectifs 
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 98%
+source-wordcount: '855'
+ht-degree: 97%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 98%
 >
 >* Pour la nouvelle structure de forfait et de licence :
 >
->   * Formule Workfront ultime
+>   * Le plan Ultimate Workfront
 >    
 >* Pour la structure de forfait et de licence actuelle :
 >
->   * Formule Workfront Pro ou ultérieure
+>   * Un forfait Workfront Pro ou version ultérieure
 >   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
@@ -49,7 +49,7 @@ Une fois qu’au moins l’un de ces éléments a été ajouté, vous pouvez act
 >
 > Un objectif ne peut pas avoir plus de 1 000 activités, résultats, projets ou objectifs alignés au total.</span>
 
-Cet article propose une vue d’ensemble des activités et des résultats. Pour plus d’informations sur l’alignement des objectifs, voir la section [Aligner des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Pour plus d’informations sur la connexion de projets avec des objectifs, voir la section [Ajouter des projets aux objectifs dans les Objectifs Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
+Cet article propose une vue d’ensemble des activités et des résultats. Pour plus d’informations sur l’alignement des objectifs, voir [Alignement des objectifs dans les objectifs Adobe Workfront : index d’article](../../workfront-goals/goal-alignment/goal-alignment.md). Pour plus d’informations sur la connexion de projets avec des objectifs, voir la section [Ajouter des projets aux objectifs dans les Objectifs Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Vue d’ensemble des résultats
 

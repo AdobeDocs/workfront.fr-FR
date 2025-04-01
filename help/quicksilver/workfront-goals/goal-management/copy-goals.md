@@ -1,23 +1,27 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Copier des objectifs dans Objectifs Adobe Workfront
+title: Copier les objectifs dans les objectifs Adobe Workfront
 description: Vous pouvez copier des objectifs dans Objectifs Adobe Workfront pour créer un objectif. Certaines des informations d’objectif d’origine sont transférées vers le nouvel objectif.
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 97%
+source-wordcount: '788'
+ht-degree: 94%
 
 ---
 
 # Copier des objectifs dans Objectifs Adobe Workfront
 
+<!--Audited for P&P only: 4/2025-->
+
 Vous pouvez copier des objectifs dans Objectifs Adobe Workfront pour créer un objectif. Certaines des informations d’objectif d’origine sont transférées vers le nouvel objectif.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -36,7 +40,7 @@ Vous devez disposer des éléments suivants :
 <p>Pour la structure de forfait et de licence actuelle : 
 <ul><li> Un forfait Pro ou supérieur </li>
   <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <tr>
@@ -49,12 +53,9 @@ Vous devez disposer des éléments suivants :
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, une des options suivantes : </p>
-<ul>
-<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
-<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
+  <p> Nouvelle exigence de produit : Workfront</p>
  <p>Ou</p>
- <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+  <p>Configuration requise actuelle du produit : en plus d’une licence Workfront, vous devez acheter une licence pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Niveau d’accès</td>
@@ -78,6 +79,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Remarques relatives à la copie des objectifs
 

@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Revoir les objectifs en difficulté dans Objectifs Adobe Workfront
+title: Examiner les objectifs en difficulté dans les objectifs Adobe Workfront
 description: Les objectifs dont la progression est En difficulté risquent de ne pas être atteints et sont représentés par une barre de progression rouge dans les Objectifs Adobe Workfront. Vous devez examiner régulièrement vos objectifs et comprendre pourquoi la progression est lente.
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 01e53bbc10573950d08f2df63fc742e6b9771e77
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 97%
+source-wordcount: '815'
+ht-degree: 94%
 
 ---
 
 # Examiner les objectifs en difficulté dans les Objectifs Adobe Workfront
+
+<!--Audited: 4/2025-->
 
 <!--
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
@@ -22,6 +24,8 @@ ht-degree: 97%
 Les objectifs dont la progression est En difficulté risquent de ne pas être atteints et sont représentés par une barre de progression rouge dans les Objectifs Adobe Workfront. Vous devez examiner régulièrement vos objectifs et comprendre pourquoi la progression est lente. Pour plus d’informations sur la progression de l’objectif, voir [Vue d’ensemble de la progression du statut des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -52,12 +56,9 @@ Vous devez disposer des éléments suivants :
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, une des options suivantes : </p>
-<ul>
-<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
-<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
- <p>Ou</p>
- <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+  <p> Nouvelle exigence de produit : Workfront</p>
+  Ou
+  <p>Configuration requise actuelle du produit : en plus d’une licence Workfront, vous devez acheter une licence pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Niveau d’accès</td>
@@ -81,6 +82,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Recommandations pour éviter que la progression des objectifs ne devienne En difficulté
 

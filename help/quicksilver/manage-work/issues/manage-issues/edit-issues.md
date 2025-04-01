@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '2522'
-ht-degree: 92%
+source-wordcount: '2556'
+ht-degree: 91%
 
 ---
 
@@ -243,15 +243,15 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
       <td role="rowheader">Résolu par</td> 
       <td> <p>Cela indique si le problème est résolu par un autre objet. Vous pouvez choisir si ce problème est résolu par une tâche, un projet ou un autre problème dans le menu déroulant, puis commencer à saisir le nom de la tâche, du projet ou du problème qui résoudra le problème. Sélectionnez le nom qui apparaît dans la liste.</p>
 
-   <b>NOTE</b>
+   <b>NOTES</b>
 
-   Lorsque vous sélectionnez un objet pour résoudre un problème, le statut du problème est lié au statut de l’objet de résolution et ne peut pas être modifié sur le problème. Pour plus d’informations sur la résolution d’objets, consultez la section <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Vue d’ensemble des objets de résolution et résolvables</a>.
+   <ul><li>Lorsque vous sélectionnez un objet pour résoudre un problème, le statut du problème est lié au statut de l’objet de résolution et ne peut pas être modifié sur le problème. Pour plus d’informations sur la résolution d’objets, consultez la section <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Vue d’ensemble des objets de résolution et résolvables</a>.</li>
 
-   <b>CONSEIL</b>
+   <li>Lorsque vous connectez un problème à résoudre par une autre tâche, un autre problème ou un autre projet, aucune information relative au problème n'est transférée vers l'objet de résolution (la tâche, le problème ou le projet répertorié dans le champ Résolu par ). </li>
 
-   Lorsque l’administrateur ou l’administratrice de votre système ou de votre groupe ajoute le champ « Résolu par » à un en-tête personnalisé de problème, le champ devient « Résolution du problème », « Résolution de la tâche » ou « Résolution du projet » lorsqu’un objet de résolution est associé au problème.
+   <li>Lorsque l’administrateur ou l’administratrice de votre système ou de votre groupe ajoute le champ « Résolu par » à un en-tête personnalisé de problème, le champ devient « Résolution du problème », « Résolution de la tâche » ou « Résolution du projet » lorsqu’un objet de résolution est associé au problème.
 
-   Vous ne pouvez pas modifier ce champ lorsqu’il s’affiche dans l’en-tête du problème. Pour plus d’informations sur la personnalisation des en-têtes de problème, voir la section <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Personnaliser les en-têtes d’objet à l’aide d’un modèle de mise en page</a>
+   Vous ne pouvez pas modifier ce champ lorsqu’il s’affiche dans l’en-tête du problème. Pour plus d’informations sur la personnalisation des en-têtes de problème, voir la section <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Personnaliser les en-têtes d’objet à l’aide d’un modèle de mise en page</a></li></ul>
    </td> 
      </tr>
 

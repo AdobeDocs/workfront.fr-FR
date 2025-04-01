@@ -1,25 +1,29 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Filtrer des informations dans Objectifs Adobe Workfront
+title: Filtrer les informations dans les objectifs Adobe Workfront
 description: Vous pouvez afficher les objectifs que vous ou toute autre personne avez ajoutés dans Objectifs Adobe Workfront. Pour plus d’informations sur la création d’objectifs, voir Créer des objectifs dans Objectifs Adobe Workfront. Lorsque vous affichez des objectifs, vous pouvez filtrer les informations dans les Objectifs Workfront afin de n’afficher que les objectifs qui vous semblent importants.
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '1379'
-ht-degree: 96%
+source-wordcount: '1358'
+ht-degree: 94%
 
 ---
 
 # Filtrer des informations dans Objectifs Adobe Workfront
 
+<!--Audited for P&P only: 4/2025-->
+
 Vous pouvez afficher les objectifs que vous ou toute autre personne avez ajoutés dans Objectifs Adobe Workfront. Pour plus d’informations sur la création d’objectifs, voir [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md). Lorsque vous affichez des objectifs, vous pouvez filtrer les informations dans les Objectifs Workfront afin de n’afficher que les objectifs qui vous semblent importants.
 
 ## Conditions d’accès
 
-Vous devez disposer des droits d’accès suivants pour effectuer les actions décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -31,12 +35,12 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
    <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> 
    <p>Pour la nouvelle structure de forfait et de licence :
-  <ul><li>Un forfait Ultimate </li> </ul>
-
+  <ul><li>Un forfait Ultimate </li></ul>
+   </p>
 <p>Pour la structure de forfait et de licence actuelle : 
 <ul><li> Un forfait Pro ou supérieur </li>
   <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
@@ -48,12 +52,9 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, une des options suivantes : </p>
-<ul>
-<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
-<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
- <p>Ou</p>
- <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+   <p> Nouvelle exigence de produit : Workfront</p>
+  <p>Ou</p>
+   <p>Configuration requise actuelle du produit : en plus d’une licence Workfront, vous devez acheter une licence pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Niveau d’accès</td>
@@ -77,6 +78,8 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
 </table>
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vue d’ensemble des filtres dans Objectifs Workfront
 

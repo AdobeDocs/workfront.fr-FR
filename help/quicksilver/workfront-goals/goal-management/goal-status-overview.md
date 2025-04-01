@@ -2,19 +2,21 @@
 content-type: overview;reference
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Vue d’ensemble du statut des objectifs dans Objectifs Adobe Workfront
+title: Aperçu du statut des objectifs dans les objectifs Adobe Workfront
 description: Les statuts des objectifs indiquent si un objectif est actif et enregistre actuellement la progression, ou s’il est inactif, sous forme de brouillon ou déjà atteint.
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '818'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
 # Vue d’ensemble du statut des objectifs dans Objectifs Adobe Workfront
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -22,11 +24,11 @@ ht-degree: 98%
 >
 >* Pour la nouvelle structure de forfait et de licence :
 >
->   * Formule Workfront ultime
+>   * Le plan Ultimate Workfront
 >    
 >* Pour la structure de forfait et de licence actuelle :
 >
->   * Formule Workfront Pro ou ultérieure
+>   * Un forfait Workfront Pro ou version ultérieure
 >   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.

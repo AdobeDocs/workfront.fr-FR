@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Gérer les commentaires sur les objectifs dans Objectifs Adobe Workfront
+title: Gérer les commentaires d’objectif dans les objectifs Adobe Workfront
 description: Vous pouvez ajouter des commentaires à tous les objectifs que vous pouvez afficher dans Objectifs Adobe Workfront.
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 82%
+source-wordcount: '297'
+ht-degree: 71%
 
 ---
 
 # Gérer les commentaires sur les objectifs dans Objectifs Adobe Workfront
 
-<!--Audited: 01/2024-->
+<!--Audited for P&P only: 04/2025-->
 
 <!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
 
@@ -63,9 +63,9 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence en matière de produit : si vous disposez d’une formule Select ou Prime Adobe Workfront, vous devez acheter en plus une licence Objectifs Adobe Workfront. Les Objectifs Workfront sont inclus dans la formule Workfront Ultimate.</p>
+ <p> Nouvelle exigence de produit : Workfront</p>
  Ou
- <p>Exigence actuelle du produit : vous devez acheter en plus une licence Objectifs Adobe Workfront pour accéder aux fonctionnalités décrites dans cet article. </p> <p>Pour plus d’informations, consultez <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Conditions d’utilisation des Objectifs Workfront</a>. </p> </td>
+ <p>Configuration requise actuelle du produit : en plus d’une licence Workfront, vous devez acheter une licence pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Conditions d’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Configuration du niveau d’accès</td>
