@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Modifier tâches
-description: Vous pouvez modifier les informations sur les tâches que vous avez créées ou sur lesquelles vous disposez des autorisations Contribute ou Manage . Cet article décrit comment rechercher, rechercher et modifier une tâche, si vous êtes autorisé à le faire.
+description: Vous pouvez modifier les informations sur les tâches que vous avez créées ou pour lesquelles vous disposez des autorisations de niveau Contribution ou Gestion. Cet article décrit comment rechercher, rechercher et modifier une tâche, si vous disposez des autorisations nécessaires pour le faire.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '3681'
-ht-degree: 90%
+source-wordcount: '3706'
+ht-degree: 89%
 
 ---
 
@@ -69,7 +69,7 @@ Vous pouvez modifier les détails des tâches que vous avez créées ou pour les
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,7 +82,7 @@ Pour modifier des tâches, tenez compte des points suivants :
 * Mettre à jour des tâches déclenche des notifications pour les projets dont le statut est « Actuel ». Pour éviter toute confusion sur les tâches affectées aux utilisateurs et utilisatrices, limitez les modifications de tâches lorsque le statut du projet est « Actuel ».
 * Les tâches en attente d’approbation ne peuvent pas être modifiées. Il est seulement possible de consigner le temps ou de mettre à jour le statut d’une tâche se trouvant dans un processus d’approbation.
 
-  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![Modifier la tâche avec le processus d&#39;approbation](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * Vous pouvez modifier et ajouter des documents aux tâches des projets qui sont terminés, immobilisés ou en attente d’approbation seulement si l’administration de Workfront ou de groupes a activé cette option dans les préférences du projet. Pour plus d’informations sur la définition des préférences de projet, consultez la section [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -167,7 +167,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
 
    >[!IMPORTANT]
    >
-   >Pour afficher l’option Modifier, vous devez disposer des autorisations Gérer pour la tâche.
+   >Vous devez disposer d’autorisations de niveau Gérer sur la tâche pour voir l’option Modifier .
 
    Tous les champs de tâche sont disponibles dans la zone Modifier la tâche et sont regroupés par zones répertoriées dans le panneau de gauche.
 
@@ -186,7 +186,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
 
    >[!NOTE]
    >
-   >Selon la manière dont votre administrateur Workfront ou votre administrateur de groupe configure votre modèle de mise en page, les champs de la zone Modifier la tâche peuvent être réorganisés ou non. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Selon la manière dont votre administrateur Workfront ou votre administrateur de groupe a configuré votre modèle de mise en page, les champs de la zone Modifier la tâche peuvent être réorganisés ou ne pas s’afficher. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 ### Nom de la tâche {#task-name}
 
@@ -221,10 +221,13 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
      </tr> 
      <tr> 
       <td role="rowheader">Statut</td> 
-      <td> <p>Sélectionnez l’état de la tâche qui indique à quel stade de développement se trouve la tâche.</p> <p><b>CONSEIL</b>
+      <td> <p>Sélectionnez le statut de la tâche qui indique à quel stade de développement elle se trouve.</p> <p><b>CONSEIL</b>
 
-   Vous pouvez mettre à jour le statut de la tâche dans l’en-tête de la tâche. </p> </td>
-   </tr> 
+   Vous pouvez mettre à jour le statut de la tâche dans l’en-tête de la tâche. </p>
+
+   <p>Votre administrateur Workfront ou de groupe peut personnaliser les noms des statuts des tâches. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md">Créer ou modifier un statut</a>. 
+      </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Priorité</td> 
       <td> <p>Il s’agit d’un indicateur visuel qui vous permet de hiérarchiser vos tâches. </p> <p>Sélectionnez l’une des options suivantes : </p> 
@@ -237,7 +240,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
        </ul> <p>Selon les préférences du projet sélectionnées par votre administrateur ou administratrice Workfront, les noms des priorités peuvent être différents pour vous. Pour plus d’informations sur les priorités des tâches, voir <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Mettre à jour les priorités des tâches</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader"><span style="font-weight: bold;"> Section Dates et contraintes de tâche </span> </td> 
+      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Section dates et contraintes de tâche</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Contrainte de tâche</td> 
@@ -261,7 +264,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
      </tr> 
      <tr> 
       <td role="rowheader">Date et heure d’engagement</td> 
-      <td> <p>Il s’agit de la date à laquelle la personne affectée à la tâche s’engage à ce qu’elle soit terminée. Il peut s’agir d’une date d’achèvement planifiée différente. Seuls les cessionnaires peuvent modifier ce champ. Pour plus d’informations sur les dates d’engagement dans Workfront, voir <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Vue d’ensemble de la date d’engagement</a>. </p> </td> 
+      <td> <p>Il s’agit de la date à laquelle la personne affectée à la tâche s’engage à ce qu’elle soit terminée. Elle peut être différente de la date d'achèvement prévue. Seuls les cessionnaires peuvent modifier ce champ. Pour plus d’informations sur les dates d’engagement dans Workfront, voir <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Vue d’ensemble de la date d’engagement</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Date et heure de début prévues</td> 
@@ -276,14 +279,14 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
       <td role="rowheader">Date et heure d’achèvement prévues</td> 
       <td> <p>Date d’achèvement prévue, comme indiqué lors de la planification de la tâche. Workfront définit la date d’achèvement prévue à l’aide de certains des facteurs suivants :</p> 
        <ul> 
-      <li>La date d’achèvement prévue est calculée à partir de la date de début prévue en ajoutant la durée de la tâche à la date de début prévue. Lorsque la personne responsable du projet ou Workfront spécifie la durée de la tâche, une mise à jour de la date d’achèvement prévue est déclenchée. Si la date planifiée change, c'est souvent parce que la Durée de la tâche a été mise à jour.</li> 
+      <li>La date d’achèvement prévue est calculée à partir de la date de début prévue en ajoutant la durée de la tâche à la date de début prévue. Lorsque la personne responsable du projet ou Workfront spécifie la durée de la tâche, une mise à jour de la date d’achèvement prévue est déclenchée. Si la date prévue est modifiée, c'est souvent parce que la durée de la tâche a été mise à jour.</li> 
       <li>La personne responsable du projet ainsi que la personne propriétaire de la tâche peuvent définir manuellement la date d’achèvement prévue si la contrainte de tâche est définie sur Dates fixes ou Doit se terminer le. Pour plus d’informations sur les contraintes de tâche, voir <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Vue d’ensemble de la contrainte de tâche</a>.</li> 
       <li>Si le type de durée de la tâche est modifié et que le nombre de ressources sur les tâches est modifié en même temps, la date d’achèvement prévue change également. Pour plus d’informations sur les types de durée, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée des tâches et du type de durée</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Date et heure de début effectives</td> 
-      <td> <p>Spécifiez la date de début effective de la tâche. La valeur par défaut est généralement renseignée automatiquement lorsque vous définissez l’état de la tâche sur En cours. La personne responsable du projet ou la personne propriétaire de la tâche peut également modifier manuellement la date de début effective. </p> </td> 
+      <td> <p>Spécifiez la date de début effective de la tâche. La valeur par défaut est généralement renseignée automatiquement lorsque vous modifiez le statut de la tâche en En cours. La personne responsable du projet ou la personne propriétaire de la tâche peut également modifier manuellement la date de début effective. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Date et heure d’achèvement effectives</td> 
@@ -357,7 +360,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
       <li> <p>Nombre de ressources affectées à une tâche </p> </li> 
       <li> <p>Effort total requis pour terminer la tâche </p> </li> 
       <li> <p> Durée totale de la tâche. </p> </li> 
-       </ul> <p>Votre administrateur Workfront ou un administrateur de groupe sélectionne le paramètre Type de durée par défaut pour les tâches de votre système ou de votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer des préférences de projet à l’échelle du système</a>. </p> <p>Les types de durée vous permettent de définir des affectations de ressources cohérentes en fonction des besoins de la tâche. Pour plus d’informations sur le type de durée d’une tâche, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>. </p> <p>Sélectionnez l’une des options suivantes : </p> 
+       </ul> <p>Votre administrateur Workfront ou un administrateur de groupes sélectionne le paramètre Type de durée par défaut pour les tâches de votre système ou de votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer des préférences de projet à l’échelle du système</a>. </p> <p>Les types de durée vous permettent de définir des affectations de ressources cohérentes en fonction des besoins de la tâche. Pour plus d’informations sur le type de durée d’une tâche, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>. </p> <p>Sélectionnez l’une des options suivantes : </p> 
        <ul> 
       <li> <p>Calcul d'affectation </p> </li> 
       <li> <p> Calcul de travail </p> </li> 
@@ -448,7 +451,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
    </tr> 
    <tr> 
    <td role="rowheader">Heures prévues</td> 
-   <td> <p>Indiquez le nombre d’heures planifiées de la tâche, en heures. Il s’agit de la durée réelle nécessaire aux personnes désignées de la tâche pour la terminer. Vous pouvez uniquement spécifier le nombre d’heures planifiées pour une tâche lorsque le type de durée est défini sur Attribution calculée. Pour plus d’informations sur les types de durée, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>.</p> 
+   <td> <p>Spécifiez le nombre d’heures prévues pour la tâche, en heures. Il s’agit de la quantité de temps réel nécessaire aux personnes assignées à la tâche pour la terminer. Vous ne pouvez spécifier le nombre d'heures prévues pour une tâche que lorsque le type de durée est défini sur Calcul d'affectation. Pour plus d’informations sur les types de durée, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>.</p> 
    <b>NOTE</b>
    <p>
    Lors de la création de tâches récurrentes, les heures prévues sont celles de chaque occurrence. Les heures prévues des tâches parent correpondent au nombre total d’heures prévues de toutes les occurrences. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>.
@@ -487,9 +490,9 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
 
 1. Cliquez sur **Ajouter un formulaire personnalisé** et sélectionnez le ou les formulaires personnalisés à associer à la tâche. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste.
 
-   Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à une tâche.
+   Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).Vous pouvez ajouter jusqu’à dix formulaires personnalisés à une tâche
 
-1. (Le cas échéant) Si vous avez associé un formulaire personnalisé à la tâche, modifiez les champs du formulaire. Vous devez spécifier tous les champs requis avant de pouvoir enregistrer la tâche.
+1. (Le cas échéant) Si vous avez associé un formulaire personnalisé à la tâche, modifiez les champs du formulaire. Vous devez renseigner tous les champs obligatoires avant de pouvoir enregistrer la tâche.
 
    >[!NOTE]
    >
@@ -570,7 +573,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
      </tr> 
      <tr> 
       <td role="rowheader">Délai de nivellement</td> 
-      <td> <p>Indiquez le délai de nivellement en heures. </p> <p> Pour plus d’informations sur les délais de nivellement, consultez la section <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">Mettre à jour le délai de nivellement des tâches</a>. </p> </td> 
+      <td> <p>Spécifiez le délai de nivellement en heures. </p> <p> Pour plus d’informations sur les délais de nivellement, consultez la section <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">Mettre à jour le délai de nivellement des tâches</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Processus d’approbation</td> 
@@ -633,4 +636,4 @@ Par défaut, les champs suivants sont inclus dans l’en-tête de la tâche :
 
 Vous pouvez modifier les tâches en masse dans une liste et mettre à jour toutes leurs informations en même temps lorsque vous choisissez d’enregistrer automatiquement les modifications que vous apportez aux tâches de la liste.
 
-Pour plus d’informations sur l’enregistrement des tâches en bloc, reportez-vous à la section &quot;Modifier les tâches en bloc&quot; de l’article [Modifier les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Pour plus d’informations sur l’enregistrement de tâches en bloc, consultez la section « Modifier les tâches en bloc » de l’article [Modifier les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).

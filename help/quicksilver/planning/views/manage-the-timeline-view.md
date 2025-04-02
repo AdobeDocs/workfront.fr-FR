@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 58%
+source-wordcount: '2684'
+ht-degree: 59%
 
 ---
 
@@ -394,7 +394,7 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    Les enregistrements s’affichent dans la vue chronologique avec les spécifications que vous avez sélectionnées.
 
-### Utilisez la fonction Répartition pour afficher les enregistrements connectés dans la vue chronologique
+### Répartir les enregistrements connectés dans la vue chronologique
 
 Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&#39;un enregistrement à l&#39;aide de la fonction Répartition. La répartition des enregistrements en fonction de leurs connexions vous permet d&#39;afficher la chronologie d&#39;autres enregistrements connectés et de comprendre comment ils peuvent affecter les performances et les échéances de vos enregistrements.
 
@@ -418,7 +418,7 @@ Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&
 * Les dates de début et de fin des types d’enregistrements à afficher dans la vue chronologique doivent être dans l’ordre chronologique. Par exemple, si un enregistrement a une date de Début fixée au 31 janvier et une date de Fin fixée au 1er janvier, il ne s&#39;affiche pas dans la vue chronologique. Pour plus d’informations, consultez la section [Gérer une vue chronologique](#manage-a-timeline-view) de cet article.
 * Vous pouvez inclure une limite de 5 types d’enregistrements dans la répartition d’un enregistrement.
 
-#### Répartir les enregistrements connectés dans la vue chronologique
+#### Répartir les enregistrements connectés
 
 1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 1. (Conditionnel) Si vous affichez la vue chronologique en mode Standard, cliquez sur **Répartition**.

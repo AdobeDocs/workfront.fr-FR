@@ -6,9 +6,9 @@ description: Le glossaire  [!DNL Adobe Workfront]  répertorie les termes couram
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '20935'
+source-wordcount: '20999'
 ht-degree: 95%
 
 ---
@@ -275,7 +275,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
 
 <tr> 
    <td>Statut de l’enregistrement de facturation</td> 
-   <td> <p>Dans un rapport sur les enregistrements de facturation ou les heures, le statut d’un enregistrement de facturation indique si celui-ci a été facturé ou non. La suppression d’un projet ou la modification du nombre d’heures liées à une entrée de facturation est impossible. Pour plus d’informations, consultez la section <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Créer des enregistrements de facturation</a>.</p>  
+   <td> <p>Dans un rapport sur les enregistrements de facturation ou les heures, le statut d’un enregistrement de facturation indique si celui-ci a été facturé ou non. La suppression d’un projet ou la modification du nombre d’heures liées à un enregistrement de facturation Facturé est impossible. Pour plus d’informations, consultez la section <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Créer des enregistrements de facturation</a>.</p>  
    </td> 
   </tr>
 
@@ -299,8 +299,18 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is&nbsp;added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
      --> 
     </ul> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Breakdown]</td> 
+   <td> <p>Dans Workfront Planning, vous pouvez afficher les enregistrements connectés dans la vue chronologique d'un enregistrement à l'aide de la fonction Répartition. </p>
+   <p>La répartition des enregistrements en fonction de leurs connexions vous permet d'afficher la chronologie d'autres enregistrements connectés et de comprendre comment ils peuvent affecter les performances et les échéances de vos enregistrements. </p>
+   <p>Les enregistrements connectés s’affichent imbriqués sous leur enregistrement respectif. </p>
+   <p>Pour plus d’informations, consultez <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Gérer la vue chronologique</a>. </p>
+   </td> 
+    </tr>
+
+<tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>Ce champ est obsolète. Toute information que ce champ peut afficher est liée à une fonctionnalité supprimée par [!DNL Workfront]. Ce champ ne peut pas être mis à jour. </p>
    <p> Ce champ est toujours visible dans les rapports et listes de [!UICONTROL project].</p>  </td> 
@@ -2064,7 +2074,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr> 
    <td>[!UICONTROL Scope Change]</td> 
-   <td>[!UICONTROL Audit Trail] qui, s’il est actif, génère une note chaque fois que la portée d’un projet ou d’une tâche est modifiée, par exemple si une [!UICONTROL Task Duration] ou les [!UICONTROL Predecessors] sont modifiées.</td> 
+   <td>Un [!UICONTROL Audit Trail] qui, s’il est actif, génère une note chaque fois que la portée d’un projet ou d’une tâche est modifiée, par exemple si une [!UICONTROL Task Duration] ou les [!UICONTROL Predecessors] sont modifiés.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Section]</td> 
@@ -2167,7 +2177,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr> 
    <td>[!UICONTROL Status Change]</td> 
-   <td>[!UICONTROL Audit Trail]. Une note est générée lorsqu’un utilisateur ou une utilisatrice modifie le statut du projet, de la tâche ou du problème.</td> 
+   <td>Un [!UICONTROL Audit Trail]. Une note est générée lorsqu’un utilisateur ou une utilisatrice modifie le statut du projet, de la tâche ou du problème.</td> 
   </tr> 
   <tr> 
    <td>Icônes de statut</td> 
