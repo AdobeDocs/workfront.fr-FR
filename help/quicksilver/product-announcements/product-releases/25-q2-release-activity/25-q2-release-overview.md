@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
+source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 32%
+source-wordcount: '1628'
+ht-degree: 31%
 
 ---
 
@@ -26,7 +26,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 
 | Version mensuelle | Version trimestrielle |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (13 Février 2025)</li><li>25.3 (vendredi 13 mars 2025)</li><li>25.4 (vendredi 10 avril 2025)</li></ul> | <ul><li>25.4 (vendredi 10 avril 2025)</li></ul> |
+| <ul><li>25.2 (13 Février 2025)</li><li>25.3 (13 mars 2025)</li><li>25.4 (vendredi 10 avril 2025)</li></ul> | <ul><li>25.4 (vendredi 10 avril 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -348,7 +348,7 @@ Pour la version 19 de l’API, nous avons modifié certaines ressources et cert
 
 Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de la version 19 de l’API](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
-Pour plus d’informations sur les versions de l’API, voir [Calendrier des versions et de la prise en charge de l’API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Pour plus d’informations sur les versions d’API actuellement prises en charge, consultez [Contrôle de version et planning de prise en charge des API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Mises à jour de maintenance pour Workfront 
 
