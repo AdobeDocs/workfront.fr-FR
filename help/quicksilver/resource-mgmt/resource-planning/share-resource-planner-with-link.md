@@ -6,10 +6,10 @@ description: Adobe Workfront peut générer une URL unique pour la vue Utilisat
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 98%
+source-wordcount: '666'
+ht-degree: 95%
 
 ---
 
@@ -56,7 +56,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-
 Tenez compte de ce qui suit lors de la génération de l’URL unique pour la vue Utilisateur ou utilisatrice du planificateur de ressources :
 
 * Vous pouvez obtenir une URL unique uniquement pour la vue Utilisateur ou utilisatrice. L’option de génération de l’URL n’existe pas dans les vues Projet ou Rôle.
@@ -80,13 +79,13 @@ Pour obtenir une URL unique dans la vue Utilisateur ou utilisatrice du planifica
    * Trimestre
 
 1. (Facultatif) Indiquez si vous souhaitez afficher les informations en **équivalent temps complet** ou en **heures**.\
-   ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
+   ![Sélectionner équivalent temps complet ou heures](assets/rp-hours-or-fte-in-user-view.png)
 
 1. (Facultatif) Appliquez des filtres au planificateur de ressources.\
    Pour plus d’informations sur l’application de filtres, voir [Filtrer des informations dans le planificateur de ressources](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 1. Cliquez sur l’icône **lien hypertexte**.\
-   ![RP_Storm_generate_URL_with_copy_URL_link.png](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+   ![Icône Lien hypertexte et URL](assets/rp-generate-url-from-link-icon.png)
 
 1. Cliquez sur **Copier l’URL**.\
    Cela copie l’URL unique du planificateur de ressources de la vue Utilisateur ou utilisatrice vers le presse-papiers.
@@ -114,4 +113,4 @@ Pour obtenir une URL unique dans la vue Utilisateur ou utilisatrice du planifica
    Pour plus d’informations sur l’ajout de tableaux de bord à un modèle de mise en page, consultez [Créer et gérer des modèles de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).\
    Pour plus d’informations sur le partage des tableaux de bord, consultez [Partager un tableau de bord](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).\
    Lors de l’affichage de l’URL partagée, les utilisateurs et utilisatrices peuvent voir les informations avec les paramètres que vous avez initialement appliqués au planificateur de ressources. Ils doivent être connectés à Workfront pour afficher l’URL partagée.\
-   ![user_view_dashoard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![Exemple de tableau de bord avec Planificateur de ressources affiché](assets/user-view-dashoard-from-unique-url-350x85.png)
