@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Gérer des objectifs dans la liste des objectifs d’Objectifs Adobe Workfront
+title: Gérer les objectifs dans la liste d’objectifs d’Adobe Workfront
 description: Une fois que vous ou d’autres personnes avez créé des objectifs, vous pouvez consulter leur progression et leurs informations dans la liste des objectifs. Pour plus d’informations sur la création d’objectifs, voir Créer des objectifs dans Objectifs Adobe Workfront.
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 89%
+source-wordcount: '796'
+ht-degree: 85%
 
 ---
 
 # Gérer des objectifs dans la liste des objectifs d’Objectifs Adobe Workfront
+
+<!--Audited for P&P only: 4/2025-->
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
@@ -21,7 +23,9 @@ Une fois que vous ou d’autres personnes avez créé des objectifs, vous pouvez
 
 ## Conditions d’accès
 
-Vous devez disposer des droits d’accès suivants pour effectuer les actions décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -38,7 +42,7 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
 <p>Pour la structure de forfait et de licence actuelle : 
 <ul><li> Un forfait Pro ou supérieur </li>
   <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
-   </td> 
+   </td>
   </tr>
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
@@ -50,12 +54,9 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, une des options suivantes : </p>
-<ul>
-<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
-<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
- <p>Ou</p>
- <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+    <p> Nouvelle exigence de produit : Workfront</p>
+    Ou
+    <p>Configuration requise actuelle du produit : en plus d’une licence Workfront, vous devez acheter une licence pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Niveau d’accès</td>
@@ -79,6 +80,8 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
 </table>
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Gérer les objectifs dans la liste des objectifs
 

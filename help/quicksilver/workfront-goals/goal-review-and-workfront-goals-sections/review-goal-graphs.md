@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Examiner les graphiques pour comprendre les tendances de la progression des objectifs dans Objectifs Adobe Workfront
+title: Consultez les graphiques pour comprendre les tendances de progression des objectifs dans les objectifs Adobe Workfront
 description: Vous pouvez afficher l’intégrité globale de vos objectifs et la tendance de leur progression dans le temps dans la section Graphiques des Objectifs Adobe Workfront. Les graphiques de cette section ne ventilent pas la progression de chaque objectif, mais vous donnent à la place un aperçu holistique du statut de la progression de tous les objectifs ainsi que la tendance de leur progression dans le temps au cours d’une période donnée.
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 97%
+source-wordcount: '966'
+ht-degree: 94%
 
 ---
 
 # Examiner les graphiques pour comprendre les tendances de la progression des objectifs dans Objectifs Adobe Workfront
 
-<!-- drafted mostly for P&P release-->
+<!--Audited for P&P only: 4/2025-->
 
 Vous pouvez afficher l’intégrité globale de vos objectifs et la tendance de leur progression dans le temps dans la section Graphiques des Objectifs Adobe Workfront. Les graphiques de cette section ne ventilent pas la progression de chaque objectif, mais vous donnent à la place un aperçu holistique du statut de la progression de tous les objectifs ainsi que la tendance de leur progression dans le temps au cours d’une période donnée.
 
@@ -25,7 +25,9 @@ Vous pouvez afficher l’intégrité globale de vos objectifs et la tendance de 
 
 ## Conditions d’accès
 
-Vous devez disposer des droits d’accès suivants pour effectuer les actions décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -42,7 +44,7 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
 <p>Pour la structure de forfait et de licence actuelle : 
 <ul><li> Un forfait Pro ou supérieur </li>
   <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
@@ -54,12 +56,9 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, une des options suivantes : </p>
-<ul>
-<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
-<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
- <p>Ou</p>
- <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+    <p> Nouvelle exigence de produit : Workfront</p>
+    Ou
+    <p>Configuration requise actuelle du produit : en plus d’une licence Workfront, vous devez acheter une licence pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Niveau d’accès</p></td>
@@ -83,6 +82,8 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
 </table>
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Types de graphiques dans Objectifs Workfront
 

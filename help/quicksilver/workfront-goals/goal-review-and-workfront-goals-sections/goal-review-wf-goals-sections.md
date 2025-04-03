@@ -2,19 +2,21 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Révision des objectifs et sections d’Objectifs Adobe Workfront
+title: 'Révision des objectifs et sections des objectifs d’Adobe Workfront : Index d’articles'
 description: Dans les articles suivants, vous trouverez des informations sur la révision des objectifs et sur les sections dans lesquelles vous pouvez gérer les objectifs dans Adobe Workfront.
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 93%
+source-wordcount: '156'
+ht-degree: 80%
 
 ---
 
-# Révision des objectifs et sections d’Objectifs Adobe Workfront
+# Révision des objectifs et sections des objectifs Adobe Workfront : index des articles
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -22,11 +24,11 @@ ht-degree: 93%
 >
 >* Pour la nouvelle structure de forfait et de licence :
 >
->   * Formule Workfront ultime
+>   * Le plan Ultimate Workfront
 >    
 >* Pour la structure de forfait et de licence actuelle :
 >
->   * Formule Workfront Pro ou ultérieure
+>   * Un forfait Workfront Pro ou version ultérieure
 >   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
