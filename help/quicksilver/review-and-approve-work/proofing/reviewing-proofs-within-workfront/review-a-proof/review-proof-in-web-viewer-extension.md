@@ -6,9 +6,9 @@ description: L’outil de révision Adobe Workfront est une extension de navigat
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
+source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,37 @@ L’outil de révision Adobe Workfront est une extension de navigateur web qui v
 Nous vous recommandons d’utiliser le lecteur de vérification pour bureau si le contenu que vous devez réviser se trouve sur un site web qui :
 
 * Nécessite une authentification SSO
-* Empêche l&#39;ouverture de leur site dans iFrames, par exemple Figma
+* Empêche l&#39;ouverture de leur site dans des iFrames, comme Figma
 
 
+## Installation de l’extension
 
-## Faire de l’outil de révision Adobe Workfront la visionneuse par défaut pour les épreuves d’URL et de compression
+### Conditions préalables
+
+* Vous devez supprimer l’ancienne extension Visionneuse web pour utiliser l’outil Adobe Workfront Review.
+
+### Installation de l’extension
+
+<!--This extension is required to review conent in GS and Ex.
+
+You must install the extension to reiew content in GenS and Express.
+
+To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
+
+Les réviseurs et approbateurs doivent installer l’outil de révision Adobe Workfront. dans l’un des navigateurs suivants :
+
+* [Extension Firefox ](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+
+* [Extension Chrome](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+
+* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+
+Pour que les épreuves interactives s’ouvrent automatiquement dans l’outil de révision Adobe Workfront, un administrateur Workfront doit mettre à jour les paramètres de relecture dans Workfront, comme décrit dans les sections ci-dessous.
+
+## Mettre à jour les paramètres de vérification par défaut de Workfront
+
+### Faire de l’outil de révision Adobe Workfront la visionneuse par défaut pour les épreuves d’URL et de compression
 
 Pour utiliser l’outil de révision web pour les épreuves d’URL et de compression, un administrateur Workfront doit ajuster le paramètre par défaut des épreuves interactives.
 
@@ -43,9 +69,9 @@ Pour utiliser l’outil de révision web pour les épreuves d’URL et de compre
 
 >[!NOTE]
 >
->Cette modification s’applique à toutes les épreuves interactives dans vos environnements de prévisualisation et de production. Nous vous recommandons de tester la nouvelle expérience dans votre environnement de prévisualisation avant de l’activer dans l’environnement de production. Vous pouvez facilement revenir à la visionneuse Desktop en redéfinissant le paramètre de compte sur **Activé pour toutes les épreuves interactives**.
+>Cette modification s’applique à toutes les épreuves interactives de votre instance Workfront. Nous vous recommandons de tester la nouvelle expérience dans votre environnement de prévisualisation avant de l’activer dans l’environnement de production. Vous pouvez facilement revenir à la visionneuse pour bureau en redéfinissant le paramètre de compte **Visionneuse de relecture pour bureau pour la relecture interactive** sur **Activé pour toutes les épreuves interactives**.
 
-## Faire de l’outil de révision Adobe Workfront la visionneuse par défaut pour les épreuves ZIP uniquement
+### Faire de l’outil de révision Adobe Workfront la visionneuse par défaut pour les épreuves ZIP uniquement
 
 Pour utiliser l’outil de révision web pour les épreuves ZIP uniquement, un administrateur Workfront doit ajuster le paramètre par défaut pour les épreuves interactives.
 
@@ -57,20 +83,7 @@ Pour utiliser l’outil de révision web pour les épreuves ZIP uniquement, un a
 
 >[!NOTE]
 >
->Cette modification s’applique à toutes les épreuves interactives dans vos environnements de prévisualisation et de production. Nous vous recommandons de tester la nouvelle expérience dans votre environnement de prévisualisation avant de l’activer dans l’environnement de production. Vous pouvez facilement revenir à la visionneuse Desktop en redéfinissant le paramètre de compte sur **Activé pour toutes les épreuves interactives**.
+>Cette modification s’applique à toutes les épreuves ZIP de votre instance Workfront. Nous vous recommandons de tester la nouvelle expérience dans votre environnement de prévisualisation avant de l’activer dans l’environnement de production. Vous pouvez facilement revenir à la visionneuse pour bureau en redéfinissant le paramètre de compte **Visionneuse de relecture pour bureau pour la relecture interactive** sur **Activé pour toutes les épreuves interactives**.
 
-## Installation de l’extension
 
-Les réviseurs et approbateurs doivent installer l’outil de révision Adobe Workfront. dans l’un des navigateurs suivants :
 
-* [Extension Firefox ](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
-
-* [Extension Chrome](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
-
-* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
-
-Une fois l’extension installée, les épreuves interactives s’ouvrent automatiquement dans l’outil de révision Adobe Workfront.
-
->[!IMPORTANT]
->
->Vous devez supprimer l’ancienne extension Visionneuse web pour utiliser l’outil Adobe Workfront Review.

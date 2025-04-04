@@ -6,16 +6,22 @@ description: Les décisions concernant les épreuves et les documents sont limit
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 86%
 
 ---
 
 # Vue d’ensemble du statut de décision limitée des documents et de l’épreuve pour les utilisateurs et utilisatrices non payants
 
-Les décisions concernant les épreuves et les documents sont limitées pour toutes les licences Workfront non payantes sur les nouveaux plans. Pour plus d’informations, voir [Vue d’ensemble des nouvelles licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+Les décisions concernant les épreuves et les documents sont limitées pour toutes les licences Workfront non payantes sur les nouveaux plans. Lorsque vous êtes affecté en tant qu’approbateur à un document ou une épreuve, vous devez prendre une décision pour faire avancer le processus de révision et d’approbation.
+
+Les options de décision suivantes sont prises en compte dans la limite mensuelle :
+
+* Approuver
+* Approuver avec des modifications
+* Travail nécessaire
 
 Limites réinitialisées chaque mois selon l’utilisateur ou l’utilisatrice. Les limites de décision pour chaque licence varient en fonction du type de formule donc vous disposez :
 
@@ -61,6 +67,8 @@ Limites réinitialisées chaque mois selon l’utilisateur ou l’utilisatrice. 
    </td>
   </tr>
 </table>
+
+Pour plus d’informations, voir [Vue d’ensemble des nouvelles licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 ## Utilisateurs et utilisatrices externes
 
