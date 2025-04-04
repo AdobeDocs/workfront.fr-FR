@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1640'
 ht-degree: 31%
 
 ---
@@ -298,9 +298,11 @@ Alors que nous continuons à améliorer la plateforme Workfront, il est essentie
 
 #### Nous supprimons l’ancienne vue Agile dans un projet
 
-La vue Agile héritée dans un projet sera supprimée de Workfront avec la version 25.3 le 13 mars 2025. Vous pourrez toujours afficher vos tâches dans une vue Agile d’un projet en cliquant sur l’icône Panoramas.
+La vue Agile héritée dans un projet sera supprimée de Workfront avec la version 25.3 le 13 mars 2025. Vous pourrez toujours afficher vos tâches dans une vue Agile d’un projet en cliquant sur l’icône Panoramas. Les outils agiles hérités existants sont toujours disponibles dans la zone Équipes .
 
-Pour plus d’informations sur l’utilisation de la vue Agile, voir [ Gérer un projet dans la vue Agile ](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+L’image ci-dessous montre l’option agile héritée qui sera supprimée :
+![lien de la vue agile héritée](assets/project-agile-board-view.png)
+
 
 #### Obsolescence d’Enhanced Analytics
 
