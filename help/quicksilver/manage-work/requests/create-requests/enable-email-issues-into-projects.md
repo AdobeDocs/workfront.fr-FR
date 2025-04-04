@@ -1,25 +1,27 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Activation de l’envoi par courrier électronique d’un problème dans un projet de file d’attente de requêtes
-description: Vous pouvez configurer un projet pour permettre aux utilisateurs d’ajouter des problèmes au projet par courrier électronique.
-author: LIsa
+title: Autoriser les utilisateurs à envoyer par e-mail un événement dans un projet de file d'attente des demandes
+description: Vous pouvez configurer un projet pour permettre aux utilisateurs d’ajouter des problèmes au projet par e-mail.
+author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 90%
+source-wordcount: '790'
+ht-degree: 87%
 
 ---
 
 # Permettre aux utilisateurs et utilisatrices d’envoyer par e-mail un problème dans un projet de la file d’attente des demandes
 
+<!-- Audited: 4/2025 -->
+
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-Vous pouvez configurer un projet pour permettre aux utilisateurs et utilisatrices d’ajouter des problèmes au projet par e-mail. Vous ne pouvez autoriser l’envoi des problèmes par courrier électronique dans un projet que si le projet est désigné comme une file d’attente de requêtes. Pour plus d’informations sur la création d’un projet de file d’attente des demandes, voir [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Vous pouvez configurer un projet pour permettre aux utilisateurs et utilisatrices d’ajouter des problèmes au projet par e-mail. Vous ne pouvez autoriser l&#39;envoi d&#39;e-mails pour des problèmes dans un projet que si le projet est désigné comme une file d&#39;attente des demandes. Pour plus d’informations sur la création d’un projet de file d’attente des demandes, voir [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Conditions d’accès
 
@@ -55,9 +57,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 ## Conditions préalables
 
-Les conditions préalables suivantes sont requises pour configurer un projet afin de permettre aux utilisateurs et utilisatrices d’ajouter des problèmes au projet par e-mail.
-
-Ces conditions doivent être remplies avant d’activer cette fonctionnalité :
+Les conditions suivantes sont requises pour configurer un projet afin de permettre aux utilisateurs d’ajouter des problèmes au projet par e-mail :
 
 * Les personnes qui envoient des problèmes par e-mail à ce compte doivent être des utilisateurs ou utilisatrices actifs disposant d’une licence pour Workfront.
 * Les personnes qui envoient des problèmes par e-mail à ce compte doivent disposer des autorisations Ajouter un problème sur le projet.
@@ -74,7 +74,7 @@ Ces conditions doivent être remplies avant d’activer cette fonctionnalité :
 >
 >* Workfront autorise un e-mail unique par file d’attente des demandes dans tous les clusters. Si vous choisissez de désactiver la file d’attente des demandes, vous conserverez l’adresse e-mail que vous avez créée tant qu’elle se trouve toujours dans la zone Adresse e-mail de réception. Si vous choisissez d’arrêter l’utilisation de l’adresse e-mail de réception, vous devez la supprimer du champ Adresse e-mail de réception afin qu’elle puisse être utilisée ultérieurement.
 >
->* Si la file d’attente des demandes comporte plusieurs rubriques ou groupes de rubriques de file d’attente, Workfront sélectionne de manière aléatoire la rubrique de file d’attente vers laquelle les demandes envoyées par courrier électronique seront envoyées, rendant ainsi les demandes envoyées par courrier électronique difficiles à gérer.
+>* Si la file d’attente des demandes comporte plusieurs rubriques ou groupes de rubriques de file d’attente, Workfront sélectionne aléatoirement la rubrique de file d’attente à laquelle les demandes envoyées par e-mail seront envoyées, ce qui rend les demandes envoyées par e-mail difficiles à gérer.
 >Nous recommandons que le projet que vous configurez pour recevoir des demandes par e-mail ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
 
 1. Accédez au projet sur lequel vous souhaitez activer la réception des problèmes par e-mail.

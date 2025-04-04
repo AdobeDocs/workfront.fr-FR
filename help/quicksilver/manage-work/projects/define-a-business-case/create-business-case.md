@@ -5,10 +5,10 @@ description: Vous pouvez utiliser le business case pour demander un projet et d�
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 94%
+source-wordcount: '846'
+ht-degree: 68%
 
 ---
 
@@ -18,22 +18,24 @@ Vous pouvez utiliser le business case pour demander un projet et définir l’ob
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Plan ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès Modifier aux Projets, aux Données financières et à la Gestion des ressources</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +45,9 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -60,43 +64,43 @@ Tenez compte des points suivants lorsque vous demandez un projet par le biais d�
 
 ## Créer un business case
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png), puis sur **Projets**.
-1. Cliquez sur **Nouveau projet** et sélectionnez **Demander un projet**.\
-   Par défaut, le projet est placé dans le statut **Idée**.
+{{step1-to-projects}}
+
+1. Cliquez sur **Nouveau projet**, puis sélectionnez **Demander le projet** dans la liste déroulante qui s’affiche. Le projet est créé et le statut **Idée** est attribué par défaut.
 
    >[!CAUTION]
    >
    >Si le statut Idée a été supprimé dans votre instance Workfront, le projet est placé dans le statut par défaut pour les nouveaux projets, comme défini dans la zone Préférences du projet. Pour plus d’informations sur la configuration des préférences de projet, voir [Configurer des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Indiquez un nom pour votre projet, puis appuyez sur Entrée.
+1. Saisissez un nom dans le champ Titre du projet .
 1. (Facultatif) Cliquez sur l’icône **Plus** ![Icône Plus](assets/qs-more-icon-on-an-object.png), puis **Joindre un modèle** pour créer la structure de répartition du travail de votre projet.
 
    Ou
 
    Commencez à ajouter manuellement des tâches au projet.
 
-1. (Le cas échéant) Si vous avez choisi de joindre un modèle, continuez à le joindre au projet.
-1. Cliquez sur **Business case** dans le panneau de gauche.
-1. (Facultatif) Cliquez sur **Modifier les informations du projet**.
+1. (Conditionnel) Si vous avez choisi de joindre un modèle, continuez à joindre le modèle au projet.
+1. Dans le volet de gauche, cliquez sur **Analyse de rentabilité**.
+1. (Facultatif) Pour modifier la section **Informations sur le projet**, cliquez sur **Modifier les informations du projet**. 
 
-   Pour plus d’informations sur la modification des champs dans la section Informations sur le projet du business case, voir la section [Informations sur le projet](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) dans l’article [Vue d’ensemble des zones du business case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   Pour plus d’informations sur la modification des champs de section **Informations sur le projet**, consultez la section [Informations sur le projet](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) dans l’article [Présentation des domaines de l’analyse de rentabilité](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Facultatif) Cliquez sur **Modifier les objectifs**.
+1. (Facultatif) Pour modifier la section **Objectifs**, cliquez sur **Modifier les objectifs**.
 
-   Pour plus d’informations sur la modification de la section Objectifs du business case, voir la section [Objectifs](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) dans l’article [Vue d’ensemble des zones du business case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   Pour plus d&#39;informations sur la modification de la section **Objectifs** de l&#39;Analyse de rentabilité, reportez-vous à la section [Objectifs](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) de l&#39;article [Aperçu des aspects de l&#39;Analyse de rentabilité](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Facultatif) Cliquez sur **Modifier les dépenses**.
+1. (Facultatif) Pour modifier la section **Dépenses**, cliquez sur **Modifier les dépenses**.
 
-   Pour plus d’informations sur la modification de la section Dépenses du business case, voir la section [Dépenses](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) dans l’article [Vue d’ensemble des zones du business case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   Pour plus d&#39;informations sur la modification de la section **Dépenses** de l&#39;Analyse de rentabilité, reportez-vous à la section [Dépenses](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) de l&#39;article [Aperçu des domaines de l&#39;Analyse de rentabilité](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Facultatif) Utilisez la zone Établissement du budget de ressources pour budgéter vos ressources et obtenir le Coût budgété de main-d’œuvre associé aux fonctions sur le projet. Pour plus d’informations, voir [Établissement du budget des ressources dans le business case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+1. (Facultatif) Cliquez sur **Modifier l&#39;établissement du budget de ressources** pour budgéter vos ressources et obtenir le coût budgété de la main-d&#39;œuvre associé aux fonctions du projet. Pour plus d’informations, voir [Établissement du budget des ressources dans le business case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
    >[!TIP]
    >
    >Les informations affichées ici sont les mêmes que celles affichées dans les outils de budgétisation des ressources au niveau du système.
 
 1. (Facultatif) Cliquez sur **Modifier les risques** pour ajouter des risques potentiels à ce projet. Pour plus d’informations sur l’ajout de risques au business case, voir la section [Risques](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks) dans l’article [Vue d’ensemble des zones du business case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
-1. (Facultatif) Sélectionnez une **carte de performances** dans le menu déroulant **Ajouter une carte de performances****à ce projet**.
+1. (Facultatif) Sélectionnez une **Carte de performance** dans le menu déroulant **Ajouter une carte de performance à ce projet**.
 
    Les cartes de performances doivent être créées avant de pouvoir être jointes aux projets.
 
@@ -108,10 +112,13 @@ Tenez compte des points suivants lorsque vous demandez un projet par le biais d�
 
    Pour plus d’informations sur Custom Forms, consultez l’article [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Cliquez sur **Soumettre**.
-
-   Le statut du projet passe à **Demandé** et il est soumis pour approbation du business case.
+1. Cliquez sur **Soumettre**. Le statut du projet passe à **Demandé** et il est soumis pour approbation du business case.
 
    Pour plus d’informations sur l’approbation d’un business case, voir l’article [Approuver un business case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
-1. (Facultatif) Une fois le business case terminé, vous pouvez en exporter une copie dans un fichier .pdf.Pour plus d’informations sur l’export du business case vers un fichier .pdf, voir la section « Exporter le business case » de l’article [Vue d’ensemble des zones du business case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+
+>[!TIP]
+>
+> Une fois l’analyse de rentabilité terminée, vous pouvez en exporter une copie dans un fichier .pdf. Pour plus d’informations sur l’exportation de l’analyse de rentabilité dans un fichier .pdf, voir [Exporter l’analyse de rentabilité d’un projet](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
+
+

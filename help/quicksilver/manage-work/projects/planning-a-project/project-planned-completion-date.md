@@ -8,16 +8,18 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 94%
+source-wordcount: '591'
+ht-degree: 79%
 
 ---
 
 # Définir la date d’achèvement prévue du projet
 
-La date d’achèvement prévue d’un projet est la date à laquelle le projet doit être achevé.
+<!-- Audited: 4/2025 -->
+
+La date d&#39;achèvement planifiée d&#39;un projet est la date à laquelle le projet est prêt à se terminer.
 
 Les dates de début et d’achèvement prévues d’un projet dépendent des dates des tâches du projet. Cet article décrit la façon dont vous pouvez définir manuellement ou automatiquement la date d’achèvement prévue d’un projet. Pour plus d’informations sur la date d’achèvement prévue d’une tâche, voir la section [Vue d’ensemble de la date d’achèvement prévue de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -56,6 +58,8 @@ La date d’achèvement prévue d’un projet peut être définie manuellement o
 </table>
 -->
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -63,15 +67,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>
+   Nouveau : Standard
+
+Ou
+
+Actuel : formule </p>
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès en modification aux projets</p> <p><b>NOTE</b>
 
 Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
@@ -83,7 +94,9 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Définir manuellement la date d’achèvement prévue d’un projet
 
@@ -96,15 +109,17 @@ Vous devez définir manuellement la date d’achèvement prévue d’un projet l
 
 Pour planifier un projet à partir de la date d’achèvement, procédez comme suit :
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Projets**.
+{{step1-to-projects}}
 
-1. Cliquez sur **Nouveau projet**, puis sur **Nouveau projet**.
+1. Cliquez sur **Nouveau projet**, puis sélectionnez **Nouveau projet** dans la liste déroulante qui s’affiche.
 
    Pour plus d’informations sur la création de projets, voir l’article [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Sélectionnez **Détails du projet** dans le panneau de gauche, puis cliquez sur l’icône **Modifier le projet** en haut à droite.
+1. Sélectionnez **Détails du projet** dans le panneau de gauche.
 
-1. Dans le champ **Mode de planification**, sélectionnez **Date d’achèvement**.
+1. Cliquez sur l’icône **Modifier le projet** ![Modifier](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) dans le coin supérieur droit, puis sélectionnez **Aperçu** dans la liste déroulante qui s’affiche.
+
+1. Dans la section **Dates du projet**, cliquez sur le champ **Mode de planification**, puis sélectionnez **Date d&#39;achèvement**.
 
 1. Spécifiez la **Date d’achèvement prévue** du projet.
 1. Cliquez sur **Enregistrer les modifications**.
@@ -117,15 +132,17 @@ La date d’achèvement prévue d’un projet est automatiquement calculée par 
 
 Pour planifier un projet à partir de la date de début, procédez comme suit :
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Projets**.
+{{step1-to-projects}}
 
-1. Cliquez sur **Nouveau projet**, puis sur **Nouveau projet**.
+1. Cliquez sur **Nouveau projet**, puis sélectionnez **Nouveau projet** dans la liste déroulante qui s’affiche.
 
    Pour plus d’informations sur la création de projets, voir l’article [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Sélectionnez **Détails du projet** dans le panneau de gauche, puis cliquez sur l’icône **Modifier le projet** en haut à droite.
+1. Sélectionnez **Détails du projet** dans le panneau de gauche.
 
-1. Dans le champ **Mode de planification**, sélectionnez **Date de début**.
+1. Cliquez sur l’icône **Modifier le projet** ![Modifier](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) dans le coin supérieur droit, puis sélectionnez **Aperçu** dans la liste déroulante qui s’affiche.
+
+1. Dans la section **Dates du projet**, cliquez sur le champ **Mode de planification**, puis sélectionnez **Date de début**.
 
 1. Indiquez la **Date de début prévue** du projet.
 1. Cliquez sur **Enregistrer les modifications**.
