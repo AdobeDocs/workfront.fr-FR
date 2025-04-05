@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
+source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
@@ -211,6 +211,18 @@ Pour afficher cette modification, accédez à Équipes > choisir une équipe > L
 ## Documents
 
 +++Développer pour afficher les mises à jour de l’interface Documents
+
+### Mises à jour de l’interface de la page de partage pour les documents externes
+
+**Version préliminaire : 3 avril 2025 ; Version de production : à partir de la semaine du 10 avril 2025**
+
+Nous avons mis à jour la page que voient les utilisateurs externes lorsqu’un document est partagé avec eux. Depuis cette page, les utilisateurs externes peuvent :
+
+* Télécharger le document
+* Prendre une décision d’approbation
+* Ouvrez la visionneuse de relecture
+
+Cette mise à jour comprend une conception plus moderne qui est cohérente avec d’autres domaines de Workfront.
 
 ### Mise à jour de l&#39;interface pour la zone Validations d&#39;un document
 
