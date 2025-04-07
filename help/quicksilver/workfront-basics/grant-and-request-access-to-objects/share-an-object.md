@@ -6,10 +6,10 @@ description: Votre personne chargée de l’administration d’Adobe Workfront 
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 92%
+source-wordcount: '1922'
+ht-degree: 89%
 
 ---
 
@@ -51,13 +51,13 @@ Pour plus d’informations sur le partage de tous les autres objets dans Workfro
 * Pour les dossiers de documents, voir [Partager un dossier de documents](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 * Pour les plans, voir [Partage d’un plan dans le planificateur de scénarios](../../scenario-planner/share-a-plan.md).
 
-  Le planificateur de scénario Workfront peut nécessiter une licence supplémentaire.
+  Workfront Scenario Planner peut nécessiter une licence supplémentaire.
 
-* Pour les objectifs, voir [Partage d’un objectif dans les objectifs Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+* Pour connaître les objectifs, voir [Partager un objectif dans les objectifs Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
-  Les objectifs de Workfront peuvent nécessiter une licence supplémentaire.
+  Les objectifs Workfront peuvent nécessiter une licence supplémentaire.
 
-* Pour les objets de planification Workfront, reportez-vous aux articles suivants :
+* Pour les objets Workfront Planning, reportez-vous aux articles suivants :
 
    * [Partager des affichages](/help/quicksilver/planning/access/share-views.md)
    * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
@@ -110,7 +110,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    ![](assets/new-share-button.png)
 
-1. Dans le champ **Accorder l’accès à &lt; nom de l’objet > à**, commencez à saisir le nom de l’utilisateur ou de l’utilisatrice, de l’équipe, du rôle, du groupe ou de la société avec qui vous souhaitez partager l’objet, puis cliquez sur le nom qui s’affiche dans la liste déroulante.
+1. Dans la zone **Accorder l’accès à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager l’objet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    ![](assets/new-share-button-add-people.png){width="350"}
 
@@ -169,13 +169,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    Vous pouvez spécifier des autorisations sur les projets qui seront créés à partir d’un modèle lorsque vous partagez le modèle. Pour plus d’informations, voir [Partager des modèles de projet](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-1. (Le cas échéant) Pour partager l’objet avec des utilisateurs et utilisatrices externes, cliquez sur **Copier le lien**, puis distribuez le lien.
-
-   Tous les utilisateurs et utilisatrices disposant du lien peuvent afficher l’objet.
-
-   >[!CAUTION]
-   >
-   >Nous avisons la prudence lors du partage d’un objet contenant des informations confidentielles avec des utilisateurs et utilisatrices externes. Cette fonction leur permet d’afficher des informations sans être un utilisateur ou une utilisatrice Workfront ou une personne membre de votre organisation.
+1. (Conditionnel) Pour partager rapidement l’objet avec les utilisateurs qui y ont accès, cliquez sur **Copier le lien**.
 
 1. Cliquer sur **Enregistrer**.
 
@@ -199,7 +193,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    ![](assets/share-a-document-350x160.png)
 
-1. Dans le champ **Accorder l’accès à &lt; Nom de l’objet >** , commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager l’objet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l’accès à &lt; Nom de l’objet > à** commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager l’objet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    ![](assets/portfolio-access-box.png)
 
@@ -228,7 +222,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
 1. (Facultatif) Cliquez sur **Paramètres avancés** pour configurer des autorisations spécifiques sur l’objet.
 
-   Les options d’affichage et de gestion des autorisations sont différentes selon l’objet sélectionné.\
+   Les autorisations Afficher et Gérer comportent différentes options avancées en fonction de l’objet sélectionné.\
    Pour plus d’informations sur les niveaux d’autorisation, voir [Vue d’ensemble du partage des autorisations sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Facultatif) Pour rendre cet objet disponible pour l’ensemble des utilisateurs et utilisatrices du système, cliquez sur l’icône **Engrenage** ![](assets/gear-icon-settings-with-dn-arrow.jpg), puis, dans le menu déroulant, cliquez sur **Rendre ceci visible sur tout le système**.
@@ -261,11 +255,11 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
 1. Cochez la case en regard du ou des objets que vous souhaitez partager, puis cliquez sur l’**icône Partager** ![](assets/share-icon.png) en haut de la page.
 
-   La zone **&lt; Objet > Accès** s’ouvre.
+   La boîte de dialogue **&lt; Objet > Accès** s’ouvre.
 
    ![](assets/list-share-object-select.png){width="350"}
 
-1. Dans la zone **Modifier le nom de l’objet > accéder à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager les objets, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans la zone **Modifier l&#39;accès &lt; Nom de l&#39;objet > pour**, commencez à saisir le nom de l&#39;utilisateur, de l&#39;équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager les objets, puis cliquez sur le nom lorsqu&#39;il apparaît dans la liste déroulante.
 
    ![](assets/list-share-add-people.png){width="350"}
 
