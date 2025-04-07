@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1d18b58d1ac47159f301589315883f28dfa58694
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 98%
+source-wordcount: '206'
+ht-degree: 85%
 
 ---
 
@@ -66,8 +66,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Par défaut, les éléments sont triés par date de restauration.
 
-1. Cliquez sur l’onglet **Projets**, **Tâches**, **Problèmes**, ou **Documents** selon le type d’élément qui a été restauré.
+1. Cliquez sur l’onglet **Projets**, **Tâches**, **Événements**, **Documents** ou **Modèles**, selon le type d’élément restauré.
 
 1. Cliquez sur le nom associé de l’élément à afficher.
 
-   Le projet, la tâche, le problème ou le document s’affiche.
+   Le projet, la tâche, l&#39;événement, le document ou le modèle s&#39;affiche.
