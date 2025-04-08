@@ -7,16 +7,20 @@ description: Adobe Workfront s’intègre à Microsoft Teams. Cet article cont
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b8b9d216-b529-4ff0-9259-b37724675d6a
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 100%
+source-wordcount: '125'
+ht-degree: 71%
 
 ---
 
 # [!DNL Adobe Workfront for Microsoft Teams] : index des articles
 
 <!--Audited: 01/2024-->
+
+>[!NOTE]
+>
+>À compter du 1er juillet 2025, Microsoft supprimera la prise en charge de l’application de bureau Classic Teams. Par conséquent, l’intégration de Workfront à Microsoft Teams ne sera pas prise en charge une fois que l’application de bureau Classic Teams ne sera plus disponible.
 
 Adobe Workfront s’intègre à Microsoft Teams. Cet article contient des instructions pour installer et configurer cette intégration, ainsi que pour l’utiliser dans votre travail quotidien.
 

@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 92%
+source-wordcount: '1287'
+ht-degree: 90%
 
 ---
 
@@ -229,7 +229,7 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
      <li>Rechercher des projets, des tâches et des problèmes [!DNL Workfront] </li> 
      <li>Créer des tâches personnelles [!DNL Workfront] </li> 
      <li>Soumettre des demandes [!DNL Workfront] </li> 
-    </ul> <p>Pour plus d’informations, voir <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams] : index des articles</a>.</p> </td> 
+    </ul> <p>Pour plus d’informations, voir <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams] : index des articles</a>.</p><p><b>REMARQUE </b> : à compter du 1er juillet 2025, Microsoft supprimera la prise en charge de l’application de bureau Classic Teams. Par conséquent, l’intégration de Workfront à Microsoft Teams ne sera pas prise en charge une fois que l’application de bureau Classic Teams ne sera plus disponible. </p></td> 
    <td> 
     <ul> 
      <li>Chaque équipe de votre entreprise doit installer l’intégration si plusieurs équipes souhaitent l’utiliser.</li> 
@@ -320,7 +320,7 @@ Pour plus d’informations, consultez [Vue d’ensemble des intégrations d’Ad
 
 Workfront comporte de nombreuses intégrations de partenaires qui enrichissent votre expérience Workfront. Parmi les exemples d’offres de partenaires existantes, citons les intégrations à Claravine, RWS Group, etc.
 
-Pour plus d’informations à ce sujet et sur les autres intégrations de partenaires, consultez le [Marché d’Exchange ](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE).
+Pour plus d’informations à ce sujet et sur les autres intégrations de partenaires, consultez la [Marketplace Exchange](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE).
 
 ## API [!DNL Workfront]
 
