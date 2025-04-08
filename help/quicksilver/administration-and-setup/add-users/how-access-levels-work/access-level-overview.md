@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: d50ff253b0557c282496deae2a488cff4ab71775
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 97%
+source-wordcount: '1720'
+ht-degree: 96%
 
 ---
 
@@ -299,22 +299,22 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 
 >[!IMPORTANT]
 >
->À compter de la version 24.7, les contributeurs ont un accès en lecture seule aux programmes et Portfolios par défaut.
+>À compter de la version 24.7, les contributeurs ont un accès en affichage aux programmes et aux portefeuilles par défaut.
 >
 > 
->Les contributeurs intégrés avant la version 24.7 n’auront toujours pas accès aux programmes et Portfolios par défaut. Vous pouvez mettre à jour leur accès pour l’afficher manuellement si nécessaire.
+>Les contributeurs intégrés avant la version 24.7 n’auront toujours pas accès aux programmes et portefeuilles par défaut. Vous pouvez mettre à jour leur accès pour l’afficher manuellement si nécessaire.
 
 ### Niveau d’accès Utilisateur ou utilisatrice externe
 
 Ce niveau d’accès n’est pas associé à une licence Workfront payante. Il s’agit du niveau d’accès le plus restrictif, conçu principalement pour des collaborateurs et collaboratrices tels que des consultantes et consultants externes qui ne se connectent pas à Workfront, mais qui doivent parfois consulter, télécharger ou afficher des documents.
-
-Les personnes de Workfront peuvent affecter des tâches à des utilisateurs et utilisatrices externes, même si les utilisateurs et utilisatrices externes ne peuvent pas se connecter au système. Mais nous vous le déconseillons, car cela impliquerait du travail non résolu dans le système.
 
 Les personnes disposant du niveau d’accès Utilisateur ou utilisatrice externe :
 
 * peuvent afficher uniquement les documents et les rapports de calendrier partagés ;
 * peuvent afficher les personnes qui partagent des documents et des rapports de calendrier avec elles ;
 * peuvent approuver les documents qui sont partagés avec elles.
+
+Les utilisateurs externes ne peuvent pas être affectés à des tâches.
 
 Vous ne pouvez pas modifier ce niveau d’accès.
 
