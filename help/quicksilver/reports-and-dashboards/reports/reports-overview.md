@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: b0a8e5277003eb3189bc7c0a26367fada05d58de
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 100%
+source-wordcount: '64'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Cette section contient les sous-sections suivantes :
 
-* [Concepts de base de la création de rapports](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
+* [Principes de base de la création de rapports : index des articles](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
 * [Vue d’ensemble des éléments de rapport](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
 * [Utiliser les rapports intégrés](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
 * [Créer et gérer des rapports](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)

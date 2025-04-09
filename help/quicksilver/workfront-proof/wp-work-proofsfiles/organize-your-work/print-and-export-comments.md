@@ -7,10 +7,10 @@ description: La synthèse des commentaires est accessible dans Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 88%
+source-wordcount: '497'
+ht-degree: 39%
 
 ---
 
@@ -30,28 +30,32 @@ La synthèse des commentaires est accessible directement à partir des zones sui
 
 ### Visionneuse d’épreuves {#the-proof-viewer}
 
-Vous pouvez imprimer la synthèse des commentaires du BAT, y compris les miniatures ou l’image complète du BAT, en cliquant sur l’icône **[!UICONTROL Imprimer]** dans la visionneuse de BAT.
+Vous pouvez imprimer le résumé des commentaires de l’épreuve, y compris les vignettes ou l’image complète de l’épreuve, en cliquant sur l’icône **[!UICONTROL Imprimer]** dans la visionneuse de preuves.
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
+Pour accéder à Proof Viewer, cliquez sur le bouton Atteindre le **BAT** de la page Détails du BAT.
+
 ### Page Détails de l’épreuve {#the-proof-details-page}
 
-Vous pouvez imprimer la synthèse des commentaires du BAT en cliquant sur l’icône **[!UICONTROL Imprimer]** sur la page des détails du BAT.
+Vous pouvez imprimer le résumé des commentaires de l’épreuve en cliquant sur l’icône **[!UICONTROL Imprimer sur la page Détails]** du BAT.
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
+Pour accéder à la page Détails du BAT pour un BAT spécifique, cliquez sur le nom du BAT dans l’affichage de la liste.
+
 ### Menu Action de l’[!DNL Proof] {#the-proof-actions-menu}
 
-Vous pouvez imprimer la synthèse des commentaires de l’épreuve en cliquant sur l’icône **[!UICONTROL Imprimer]** dans le menu [!UICONTROL Actions de l’épreuve].
+Vous pouvez imprimer le résumé des commentaires de l’épreuve en cliquant sur l’icône **[!UICONTROL Imprimer]** dans le menu Actions du [!UICONTROL BAT] .
 
 Pour accéder à la page [!UICONTROL Synthèse des commentaires] d’une vue de liste, procédez comme suit :
 
-1. Cliquez sur le menu **[!UICONTROL Actions]** .
+1. Cliquez sur le **[!UICONTROL menu Actions]** .
 1. Sélectionnez **[!UICONTROL Imprimer les commentaires]**.
 
    ![List_view.png](assets/list-view-350x155.png)
 
-   Sur la page de synthèse des commentaires, vous avez le choix entre les options d’impression suivantes :
+   Dans la page de résumé des commentaires, sélectionnez l’une des options d’impression suivantes :
 
    * Vue miniature (1)
    * Vue en pleine page (2)
@@ -63,9 +67,9 @@ Pour accéder à la page [!UICONTROL Synthèse des commentaires] d’une vue de 
 
 ### Vue miniature
 
-La vue Miniature affiche les commentaires dans l’ordre, ainsi que le thread complet de chaque commentaire. Vous pouvez également trier les commentaires et afficher la miniature de chaque commentaire avec des annotations.
+La vue miniature affiche chaque commentaire dans l’ordre avec le fil complet pour chaque commentaire. Vous pouvez également trier les commentaires et afficher la miniature de chaque commentaire avec des annotations.
 
-Pour imprimer la vue miniature, cliquez sur l’icône **[!UICONTROL Imprimante]** en haut à droite de la page, puis sélectionnez l’une des options suivantes :
+Pour imprimer la vue miniature, cliquez sur l’icône **[!UICONTROL Imprimante]** dans le coin supérieur droit de la page et sélectionnez l’une des options suivantes :
 
 * Trier par identifiant de commentaire ou page (1)
 * Miniature de chaque commentaire avec balises (2)
@@ -74,38 +78,36 @@ Pour imprimer la vue miniature, cliquez sur l’icône **[!UICONTROL Imprimante]
 
 ### Vue pleine page
 
-La vue pleine page affiche les pages dans l’ordre, ainsi que les commentaires de chaque page et une épingle indiquant l’emplacement des balises du commentaire sur la page.
+La vue pleine page affiche chaque page dans l’ordre avec les commentaires sur cette page et une épingle indiquant où se trouve le commentaire.
 
-Pour imprimer la vue pleine page, cliquez sur l’icône **[!UICONTROL Imprimante]** en haut à droite de la page.
+Pour imprimer l’affichage pleine page, cliquez sur l’icône **[!UICONTROL Imprimante]** dans le coin supérieur droit de la page.
 
 ![PV_full.png](assets/pv-full-350x347.png)
 
 ## Exporter une synthèse [!DNL Excel]
 
-Pour télécharger la synthèse [!DNL Excel], procédez comme suit :
+Pour exporter le [!DNL Excel] résumé à partir du menu Actions de BAT :
 
-1. Ouvrez le menu d’actions de l’épreuve à droite de celle-ci, puis cliquez sur la synthèse **[!UICONTROL [!DNL Excel]]**. (1)\
-   ![Excel_summary.png](assets/excel-summary-350x450.png)
+1. Cliquez sur l’icône **Actions** à droite du BAT, puis sélectionnez **[!UICONTROL [!DNL Excel]Résumé]**.
+   ![Exporter un récapitulatif Excel](assets/excel-summary-option.png)
 
 Pour télécharger la synthèse [!DNL Excel] à partir de la page Détails de l’épreuve, procédez comme suit :
 
-1. Cliquez sur l’icône Exporter vers **[!DNL Excel]**. (2)
+1. Cliquez sur le **bouton Plus** , puis sélectionnez **Exporter vers Excel**.
 
-   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+   ![Option Exporter vers Excel](assets/Export-to-excel-option.png)
 
 ## Exporter au format PDF
 
-Pour exporter une épreuve au format PDF, ainsi que tous les commentaires et balises, procédez comme suit :
-
-1. Accédez à **[!UICONTROL Vues]** sur le côté gauche de l’écran.
-1. Cliquez sur l’icône **[!UICONTROL Plus]** en ligne avec une épreuve, puis cliquez sur **[!UICONTROL Imprimer les commentaires]**.
-
-1. Cliquez sur l’icône Exporter au format PDF dans le coin supérieur droit de la page.
-
-   Lorsque le PDF est prêt, vous recevrez un e-mail contenant un lien de téléchargement.
-
-Tous les commentaires sont affichés dans le lecteur de PDF. Si un commentaire est associé à plusieurs annotations, il apparaîtra plusieurs fois dans la liste des commentaires (une fois pour chaque annotation).
+Lorsque vous exportez vers un fichier PDF, tous les commentaires apparaissent dans le lecteur PDF. Si un commentaire est associé à plusieurs annotations, il apparaîtra plusieurs fois dans la liste des commentaires (une fois pour chaque annotation).
 
 >[!IMPORTANT]
 >
 >La fonction Exporter au format PDF est disponible uniquement pour les fichiers statiques.
+
+Pour exporter un BAT avec ses annotations et commentaires au format PDF :
+
+1. Sur le côté gauche de l’écran, cliquez sur **[!UICONTROL Vues]**.
+1. Cliquez sur le **[!UICONTROL bouton Plus]** en ligne avec l’épreuve spécifique, puis sélectionnez **[!UICONTROL Imprimer les commentaires]**.
+
+1. Dans le coin supérieur droit de la page, cliquez sur le **bouton Exporter au format PDF** . Le téléchargement du fichier PDF commence et vous sera envoyé par courrier électronique dès qu’il sera terminé.
