@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 84%
+source-wordcount: '405'
+ht-degree: 86%
 
 ---
 
 # Créer des types de dépenses personnalisés
-
-{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -108,7 +106,7 @@ Les types de dépenses par défaut dans [!DNL Workfront] qui ne peuvent pas êtr
     </tbody> 
    </table>
 
-1. Cliquez sur **Créer un type de dépense** <span class="preview">ou **[!UICONTROL Enregistrer]**.</span>
+1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
    Le type de dépense est désormais disponible pour que les utilisateurs et utlisatrices puissent l’associer à leurs dépenses sur les projets et les tâches.
 
@@ -121,7 +119,7 @@ Les types de dépenses par défaut dans [!DNL Workfront] qui ne peuvent pas êtr
 
    La boîte de dialogue **[!UICONTROL Modifier le type de dépense]** s&#39;affiche.
 
-1. Apportez les modifications souhaitées, puis cliquez sur **Enregistrer les modifications** <span class="preview">ou **[!UICONTROL Enregistrer]**.</span>
+1. Apportez les modifications souhaitées, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    Le type de dépense est désormais disponible pour que les utilisateurs et utlisatrices puissent l’associer à leurs dépenses sur les projets et les tâches.
 

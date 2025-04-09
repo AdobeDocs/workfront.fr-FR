@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 67%
+source-wordcount: '1680'
+ht-degree: 66%
 
 ---
 
 # Ajout de règles logiques aux formulaires et champs personnalisés
-
-{{highlighted-preview}}
 
 Les règles logiques vous permettent de personnaliser davantage les champs de votre formulaire.
 
@@ -115,13 +113,7 @@ La logique d’affichage définit les champs personnalisés qui apparaissent dan
 1. Sélectionnez l’onglet **Affichage** dans le créateur de logiques.
 1. Cliquez sur **Ajouter une règle d’affichage**.
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-
    ![Créateur de logique d’affichage](assets/simple-display-logic1-val-only-in-menu.png)
-
-   Exemple d’image dans l’environnement de production :
-
-   ![Créateur de logique d’affichage](assets/custom-form-logic-builder-display-blank.png)
 
 1. Suivez les étapes ci-dessous pour créer l’instruction logique dans le créateur.
 
@@ -130,17 +122,11 @@ La logique d’affichage définit les champs personnalisés qui apparaissent dan
    1. La troisième option est **Sélectionné** ou **Non sélectionné**. Choisir **Sélectionné** signifie que lorsque la valeur est sélectionnée, le champ cible s’affiche. Choisir **Non sélectionné** signifie que lorsqu’une autre valeur est sélectionnée dans le champ de définition, le champ cible s’affiche.
    1. Pour ajouter une règle **And** à l’instruction de la logique, cliquez sur **Ajouter une règle** directement sous la règle que vous venez de créer. Suivez les mêmes instructions pour créer la règle. Toutes les règles And doivent être respectées pour que le champ cible s’affiche.
 
-      <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-
       ![Créateur de logique d’affichage](assets/simple-display-logic2.png)
-
-      Exemple d’image dans l’environnement de production :
-
-      ![Créateur de logique d’affichage](assets/custom-form-logic-builder-display1.png)
 
    1. Pour ajouter une règle **Or** à l’instruction de la logique, cliquez sur **Ajouter une règle** en bas du créateur de logique. Ensuite, cliquez sur **Ajouter une règle** dans la zone Or et suivez les mêmes instructions pour créer la règle. Lorsqu’une règle Or est respectée, le champ cible s’affiche.
 
-1. Cliquez sur **Enregistrer** <span class="preview">ou **Appliquer**</span> lorsque vous avez terminé de créer l’instruction logique.
+1. Cliquez sur **Appliquer** lorsque vous avez fini de créer l’instruction logique.
 
    Les icônes de logique d’affichage sont ajoutées au champ cible et au champ de définition dans le créateur de formulaire.
 
@@ -212,14 +198,7 @@ La logique de saut définit des champs de formulaire personnalisés qui sont ign
 1. Sélectionnez l’onglet **Ignorer** dans le créateur de logiques.
 1. Cliquez sur **Ajouter une règle d’omission**.
 
-
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-
    ![Créateur de logique de saut](assets/skip-logic1-val-only-in-menu.png)
-
-   Exemple d’image dans l’environnement de production :
-
-   ![Créateur de logique de saut](assets/custom-form-logic-builder-skip-blank.png)
 
 1. Suivez les étapes ci-dessous pour créer l’instruction logique dans le créateur.
 
@@ -228,21 +207,13 @@ La logique de saut définit des champs de formulaire personnalisés qui sont ign
    1. La deuxième option est **Sélectionné** ou **Non sélectionné**. Choisir **Sélectionné** signifie que lorsque la valeur est sélectionnée, le champ cible est affiché et les champs situés entre les deux sont ignorés. Choisir **Non sélectionné** signifie que lorsqu’une autre valeur est sélectionnée dans le champ de définition, le champ cible est affiché et les champs situés entre les deux sont ignorés.
    1. La troisième option est le champ cible, c’est-à-dire l’endroit où il faut accéder en ignorant les autres champs. Sélectionnez un nom de champ ou cliquez sur **Fin du formulaire**. Vous devrez peut-être cliquer sur le mot « vide » avant de sélectionner une option.
 
-      <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-
       ![Créateur de logique de saut](assets/skip-logic2.png)
-
-      Exemple d’image dans l’environnement de production :
-
-      ![Créateur de logique de saut](assets/custom-form-logic-builder-skip1.png)
 
    1. Pour ajouter une règle **Or** à l’instruction de logique, cliquez sur **Ajouter une règle** en bas du créateur de logique. Sélectionnez ensuite les options en suivant les mêmes invites pour élaborer la règle. Lorsqu’une règle **Or** est respectée, le champ cible s’affiche.
 
-1. Cliquez sur **Enregistrer** <span class="preview">ou **Appliquer**</span> lorsque vous avez terminé de créer l’instruction logique.
+1. Cliquez sur **Appliquer** lorsque vous avez fini de créer l’instruction logique.
 
    Les icônes de logique de saut sont ajoutées au champ cible et au champ de définition dans le créateur de formulaire.
-
-<div class="preview">
 
 ## Ajouter une logique de validation à un formulaire personnalisé
 
@@ -286,8 +257,6 @@ Un autre exemple de validation basée sur d’autres champs est un champ pour la
 1. Cliquez sur **Appliquer**.
 
    La logique est appliquée au champ dans le concepteur de formulaire.
-
-</div>
 
 <!--
 <div class="preview">
