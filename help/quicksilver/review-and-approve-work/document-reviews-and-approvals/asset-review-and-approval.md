@@ -6,10 +6,10 @@ description: Présentation des systèmes disponibles pour révision et approbati
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 3%
+source-wordcount: '330'
+ht-degree: 2%
 
 ---
 
@@ -19,13 +19,13 @@ Il existe actuellement 3 systèmes différents disponibles dans Workfront pour l
 
 * [Approbations de documents hérités](#legacy-document-approvals)
 
-* [Nouvelles approbations de documents](#new-document-approvals)
+* [Validations unifiées](#new-document-approvals)
 
 * [Validations d&#39;épreuves](#proof-approvals)
 
 ## Approbations de documents hérités
 
-Les approbations de documents hérités seront supprimées de Workfront en 2025. Le nouveau système d&#39;approbation des documents a été conçu pour remplacer les approbations de documents héritées.
+Les approbations de documents hérités seront supprimées de Workfront en 2025. Le système d’approbations unifié a été conçu pour remplacer les approbations de documents héritées.
 
 Fonctionnalités clés disponibles pour les approbations de documents hérités :
 
@@ -36,13 +36,13 @@ Fonctionnalités clés disponibles pour les approbations de documents hérités 
 
 Pour plus d’informations, voir [Approbations de documents hérités](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
-## Nouvelles approbations de documents
+## Validations unifiées
 
-Les nouvelles approbations de documents sont une refonte de l&#39;ancien système d&#39;approbations. Actuellement disponible en version limitée, il est conçu pour être une solution pratique et efficace pour les entreprises nécessitant une mobilisation complète des parties prenantes et l’approbation de documents spécifiques à chaque version.
+Les approbations unifiées sont une refonte de l&#39;ancien système d&#39;approbation. Actuellement disponible en version limitée, il est conçu pour être une solution pratique et efficace pour les entreprises nécessitant une mobilisation complète des parties prenantes et l’approbation de documents spécifiques à chaque version.
 
-Pour plus d’informations sur les approbations de nouveaux documents, voir [Aperçu des approbations de nouveaux documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Pour plus d’informations sur les validations unifiées, voir [Présentation des validations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-Fonctionnalités clés disponibles pour l’approbation des nouveaux documents :
+Fonctionnalités clés disponibles pour les approbations unifiées :
 
 * Ajouter des utilisateurs et des équipes en tant qu’approbateurs et réviseurs
 
@@ -51,11 +51,11 @@ Fonctionnalités clés disponibles pour l’approbation des nouveaux documents :
 * Création et utilisation de modèles
 
 * Vérifier et commenter dans le lecteur de vérification
-Pour plus d&#39;informations sur l&#39;utilisation de la visionneuse de relecture, voir [Utiliser les nouvelles approbations de documents et la relecture ensemble](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+Pour plus d’informations sur l’utilisation de la visionneuse de relecture, voir [Utilisation conjointe des validations unifiées et de la relecture](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * Affichage de plusieurs indicateurs clés de performances pour vos approbations dans les widgets de l’accueil de Workfront
 
-* Utilisez les tableaux de bord de la zone de travail, actuellement en version bêta, pour afficher les détails de rapports sur les nouvelles approbations de documents
+* Utilisez les tableaux de bord de la zone de travail, actuellement en version bêta, pour afficher les détails de rapports sur les approbations unifiées
 Pour plus d’informations sur les rapports, voir [Créer un tableau de bord de rapport pour révision et approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
 * Prendre des décisions dans la visionneuse de relecture [!BADGE bientôt disponible]{type=Informative}

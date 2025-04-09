@@ -6,10 +6,10 @@ description: Les décisions concernant les épreuves et les documents sont limit
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 86%
+source-wordcount: '286'
+ht-degree: 82%
 
 ---
 
@@ -17,11 +17,47 @@ ht-degree: 86%
 
 Les décisions concernant les épreuves et les documents sont limitées pour toutes les licences Workfront non payantes sur les nouveaux plans. Lorsque vous êtes affecté en tant qu’approbateur à un document ou une épreuve, vous devez prendre une décision pour faire avancer le processus de révision et d’approbation.
 
-Les options de décision suivantes sont prises en compte dans la limite mensuelle :
+Les types de décision suivants sont pris en compte dans la limite mensuelle :
 
-* Approuver
-* Approuver avec des modifications
-* Travail nécessaire
+<table>
+  <tr>
+
+<td><strong>Approbations de documents hérités</strong> 
+   </td>
+   <td><strong>Validations unifiées</strong> 
+   </td>
+   <td><strong>Validations d'épreuve</strong> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+   <ul>
+   <li>Approuver</li>
+    <li>Approuver avec des modifications</li>
+     <li>Rejeter</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>Approuver</li>
+    <li>Approuver avec des modifications</li>
+     <li>Travail nécessaire</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>Approuver</li>
+    <li>Approuver avec des modifications</li>
+     <li>Modifications requises</li>
+   </ul>
+   <p><strong>Remarque </strong> : les validations d’épreuve peuvent avoir des libellés de décision personnalisés</p>
+  </tr>
+  </tr>
+</table>
+
+
+
+## Limites
 
 Limites réinitialisées chaque mois selon l’utilisateur ou l’utilisatrice. Les limites de décision pour chaque licence varient en fonction du type de formule donc vous disposez :
 
