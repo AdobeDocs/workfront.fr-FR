@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
+source-git-commit: bb7f627f7ee2fdf15ba84919bf67f6c8fbb682dd
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1713'
 ht-degree: 31%
 
 ---
@@ -53,7 +53,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Améliorations de la logique des formulaires personnalisés</a></p>
+            Améliorations de la logique des formulaires personnalisés</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>Le créateur logique de formulaires personnalisés dispose d’une interface mise à jour afin de vous offrir plus d’espace pour créer des règles logiques. Cette nouvelle conception peut s’adapter plus facilement à d’autres types de logiques qui pourraient être ajoutés à l’avenir.</p><p>Outre les options logiques d’affichage et d’omission actuelles, une logique de validation est également disponible.</p>
         </td>
         <td>
@@ -88,20 +88,20 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
-<!--    <tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            New document approval decision buttons available in proofing viewer</a></p>
-            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+            Nouveaux boutons de décision d’approbation de document disponibles dans le lecteur de vérification</a></p>
+            <p>Les nouveaux boutons de décision d’approbation du document apparaissent désormais dans le lecteur de vérification. Désormais, lorsque vous créez une épreuve simple, puis ajoutez des approbateurs et des réviseurs à partir du résumé du document, ils peuvent prendre leur décision directement dans la visionneuse de relecture.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Disponible à ces dates :</b></p>
             <ul>
-                <li>Preview release: March 27, 2025</li>
-                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+                <li>Version préliminaire : jeudi 9 avril 2025</li>
+                <li>Version de production pour un ensemble limité de clients : avec la version 25.4 (avril 2025)</li>
             </ul>
         </td>
-    </tr>    -->                      
+    </tr>                        
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -143,7 +143,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Améliorations apportées aux BAT dans l’application mobile (iOS uniquement)</a>[!BADGE En production ]{type=Informative}</p>
+            Améliorations apportées aux BAT dans l’application mobile (iOS uniquement)</a><p>[!BADGE In production ]{type=Informative}</p></p>
             <p>Plusieurs améliorations sont disponibles pour la fonctionnalité BAT dans l’application mobile Adobe Workfront :
             <ul>
             <li>Vous pouvez désormais ouvrir un fichier BAT à partir de votre application de messagerie mobile, à partir d'un lien qui a été partagé avec vous. Auparavant, les liens provenant des e-mails n’étaient pas pris en charge et vous deviez accéder aux épreuves à partir de l’application mobile Workfront.</li>
@@ -175,7 +175,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Ajoutez un commentaire aux projets lors de leur modification dans la zone Modifier le projet </a>[!BADGE En production pour la version rapide]{type=Positive}</p>
+            Ajoutez un commentaire aux projets lorsque vous les modifiez dans la zone Modifier le projet .</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>Vous pouvez maintenant ajouter un commentaire à un projet tel que vous l’avez modifié dans la zone Modifier le projet . Vous pouvez également ajouter un commentaire à plusieurs projets à la fois lors de leur modification en bloc. Avant cette mise à jour, cette fonctionnalité n’existait pas lors de la modification des projets.</p>
         </td>
         <td>
@@ -199,7 +199,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Les données d’approbation de document et de décision sont désormais disponibles dans Data Connect</a>[!BADGE In production ]{type=Informative}</p>
+            Les données d’approbation de document et de décision sont désormais disponibles dans Data Connect</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>Vous pouvez désormais accéder aux données pour les approbations de documents et les décisions dans Data Connect. Ce jeu de données associe les approbations de documents aux fonctionnalités de relecture de Workfront et aux approbations Frame.io qui ont lieu sur les documents Workfront. Vous pourrez désormais illustrer la durée du cycle, le nombre de cycles et l’impact sur le calendrier pour les approbations tardives par le biais de vos visualisations BI.</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Mises à jour du calendrier Workfront</a></p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Mises à jour du calendrier Workfront</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>Nous avons mis à jour l’aspect du calendrier Workfront pour le rendre moderne et cohérent avec les autres aspects de Workfront. Il existe de petites différences de fonctionnalité par rapport au calendrier Workfront actuel, notamment :
             <ul>
             <li>Comment ajouter des éléments ad hoc au calendrier</li>
@@ -255,9 +255,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Représenter les modifications utilisateur de Adobe Admin Console sous la forme « Système » dans le flux de mise à jour de Workfront</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
-            <p>Désormais, lorsque l’administrateur du Adobe Admin Console apporte une modification aux informations utilisateur d’un utilisateur Workfront, Workfront enregistre cette modification dans l’onglet Activité système de la zone Mises à jour de l’utilisateur comme appartenant au « Système ». Fait référence à l’administrateur Adobe Admin Console.</p>
+            Représenter les modifications utilisateur de Adobe Admin Console sous la forme « Système » dans le flux de mise à jour de Workfront</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Désormais, lorsque l’administrateur du Adobe Admin Console apporte une modification aux informations utilisateur d’un utilisateur Workfront, Workfront enregistre cette modification dans l’onglet Activité système de la zone Mises à jour de l’utilisateur comme appartenant au « Système ». Fait référence à l’administrateur Adobe Admin Console.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
