@@ -6,10 +6,10 @@ description: Vous pouvez supprimer les autorisations d’autres utilisateurs et 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 100%
+source-wordcount: '825'
+ht-degree: 85%
 
 ---
 
@@ -22,6 +22,9 @@ Vous pouvez supprimer les autorisations d’autres utilisateurs et utilisatrices
 Les mêmes remarques que pour le partage d’objets s’appliquent à la suppression des autorisations sur les objets. Pour plus d’informations, voir la section [Considérations sur le partage d’objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) dans l’article [Vue d’ensemble du partage des autorisations sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 
 Pour partager des objets, vous devez disposer des éléments suivants :
 
@@ -60,6 +63,8 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
 * Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Supprimer des entités de la liste de partage d’un objet {#remove-entities-from-the-sharing-list-of-an-object}
 
 Vous pouvez supprimer des entités (utilisateurs et utilisatrices, fonctions, équipes, groupes, entreprises) de la liste de partage d’un objet. Cela supprime leurs autorisations sur l’objet.
@@ -70,26 +75,26 @@ Vous pouvez supprimer des entités (utilisateurs et utilisatrices, fonctions, é
 
 1. (Le cas échéant) Pour les programmes, les portfolios et les documents, procédez comme suit :
 
-   1. Cliquez sur l’icône **Plus** ![](assets/more-icon.png) en regard du nom de l’objet, puis sur **Partage** ou sur **Partager**.
+   1. Cliquez sur l’icône **Plus** ![icône plus](assets/more-icon.png) en regard du nom de l’objet, puis cliquez sur **Partage** ou **Partager.**
 
-      ![](assets/share-a-document-350x160.png)
+      ![share](assets/share-a-document-350x160.png)
 
    1. Cliquez sur la croix (**x**) en regard du nom d’une personne, d’une équipe, d’un groupe, d’une entreprise ou d’une fonction pour supprimer l’élément de la zone d’accès à l’objet.
 
-      ![](assets/remove-permissions-on-portfolio.png)
+      ![supprimer l’autorisation](assets/remove-permissions-on-portfolio.png)
 
-   1. Dans le menu déroulant **L’accès Workfront de &lt; Nom d’utilisateur ou d’utilisatrice > sera supprimé sur l’objet**, choisissez si vous souhaitez que leur accès soit supprimé uniquement pour l’objet que vous avez sélectionné ou pour tous les objets enfant qui lui sont associés.
+   1. Dans le menu déroulant **[Nom d’utilisateur] l’accès au Workfront sera supprimé de ce**, choisissez si vous souhaitez que leur accès soit supprimé uniquement de l’objet que vous avez sélectionné ou de tous les objets enfants qui y sont associés.
 
 1. (Le cas échéant) Pour les projets, les tâches et les problèmes, procédez comme suit :
 
    1. Cliquez sur **Partager** à droite du nom de l’objet.
 
-      ![](assets/new-share-button.png)
+      ![share](assets/new-share-button.png)
    1. Recherchez la personne, le rôle, l’équipe, le groupe ou l’entreprise que vous souhaitez supprimer de l’objet.
    1. Cliquez sur **Supprimer**.
 Dans le menu déroulant **Supprimer &lt; Nom d’utilisateur ou d’utilisatrice > de**, choisissez si vous souhaitez que son accès soit supprimé uniquement pour l’objet que vous avez sélectionné ou pour tous les objets enfant qui lui sont associés.
 
-      ![](assets/remove-permissions-on-project-nwe-350x479.png)
+      ![supprimer](assets/remove-permissions-on-project-nwe-350x479.png)
 
    Les scénarios suivants sont possibles :
 
@@ -98,39 +103,42 @@ Dans le menu déroulant **Supprimer &lt; Nom d’utilisateur ou d’utilisatric
 
 1. Cliquer sur **Enregistrer**.
 
-## Supprimer les autorisations de plusieurs objets en masse
+<!--
+## Remove permissions from several objects in bulk
 
-Vous pouvez supprimer des entités (personnes, fonctions, équipes, groupes, entreprises) de plusieurs objets à la fois lorsque vous les sélectionnez en masse dans une liste.
+You can remove entities (users, job roles, teams, groups, companies) from several objects at a time when you bulk select them in a list.
 
 >[!NOTE]
 >
->Il n’est pas possible de voir les accès dont disposent les entités pour tous les objets sélectionnés lorsque vous les sélectionnez en masse. Vous devez savoir quelle entité vous voulez supprimer du partage des objets sélectionnés avant de supprimer leurs autorisations.
+>You cannot view what access entities have for all the objects selected when you select them in bulk. You must know which entity you want to remove from the sharing of the objects selected before removing their permissions.
 
-1. Accédez à la liste des objets que vous souhaitez partager.
+1. Go to the list of objects that you want to share.
 
-   Pour plus d’informations sur les objets qui peuvent être partagés, voir [Vue d’ensemble des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Sélectionnez plusieurs objets dans la liste, puis cliquez sur l’icône **Partager** ![](assets/share-icon.png) en haut de la liste.
-1. Saisissez le nom de la personne, du rôle, de l’équipe, du groupe ou de l’entreprise à qui vous souhaitez supprimer l’accès dans le champ **Modifier l’accès de `<Object Name>` à**.
-1. Dans le menu déroulant de l’accès, sélectionnez **Pas d’accès**.
+1. Select several objects in the list, then click the **Share** icon ![share icon](assets/share-icon.png)at the top of the list. 
+1. Type the name of the user, role, team, group, or company for which you want to remove the access in the **Edit `<Object Name>` access to** field. 
+1. From the access drop-down menu, select **No Access**.
 
-   ![](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
+   ![remove in bulk](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
 
-1. Si l’accès Workfront de `<User Name>` sera supprimé de ce menu déroulant, sélectionnez si vous souhaitez que son accès soit supprimé uniquement pour les objets que vous avez sélectionnés ou pour tous les autres objets enfants associés.\
-   Les scénarios suivants sont possibles :
+1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
+   The following scenarios exist:
 
-   * Si vous ne supprimez l’entité que de l’objet, cette entité perd ses autorisations sur l’objet, ainsi que les autorisations dont elle a hérité pour les objets enfants. Si elle a déjà obtenu des autorisations pour les éléments enfants individuellement, elle conserve les mêmes autorisations pour tous les objets enfants associés lorsque vous sélectionnez cette option. 
-   * Si vous supprimer l’entité de l’objet et de tous les objets enfants, cette entité perd ses autorisations sur l’objet ainsi que sur tous les objets enfants, même si elle avait auparavant obtenu des autorisations individuelles sur chaque objet enfant.
+   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
+   * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.
 
-   **Exemple :** choisissez de supprimer les autorisations juste pour les tâches sélectionnées dans une liste ou pour les problèmes et les documents attachés à ces tâches.
+   **Example:** Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
 
-   ![](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
+   ![access](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
 
-1. (Facultatif) Pour modifier les autorisations en bloc pour plusieurs objets, sélectionnez un autre niveau de partage pour l’entité sélectionnée.
+1. (Optional) To change permissions in bulk for several objects, select another level of sharing for the selected entity.
 
-   Par exemple, s’ils ont des autorisations de gestion, sélectionnez Contribuer ou Afficher à la place.
+   For example, if they have Manage permissions, select Contribute or View instead. 
 
-1. Cliquer sur **Enregistrer**.
+1. Click **Save**.
+
+-->
 
 ## Supprimer des autorisations héritées
 
@@ -144,11 +152,9 @@ Pour supprimer des autorisations héritées :
 
 1. Accédez à un objet pour lequel vous avez des autorisations de gestion. Par exemple, rendez-vous sur une tâche.
 1. Accédez à la zone d’accès de l’objet comme décrit dans la section [Supprimer des entités de la liste de partage d’un objet](#remove-entities-from-the-sharing-list-of-an-object) de cet article.
-1. Sélectionnez le **x** à côté de **Autorisation héritée** dans la zone de partage pour supprimer les personnes qui y figurent.
+1. Sélectionnez **Désactiver** en regard de **Autorisation héritée** pour la désactiver.
 
-   ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
-
-   Cela permet de s’assurer qu’aucune personne disposant des autorisations sur l’objet parent (par exemple, le projet) n’a de droits sur cette tâche par défaut. Vous devez répertorier les entités individuelles dans la liste de partage de la tâche pour accorder des autorisations sur la tâche.
+   Cela permet de s’assurer qu’aucune personne disposant des autorisations sur l’objet parent (par exemple, le projet) n’a de droits sur cette tâche par défaut. Vous devez répertorier des entités individuelles dans la liste de partage de la tâche pour accorder des autorisations sur la tâche.
 
    >[!TIP]
    >
@@ -168,8 +174,8 @@ Pour rendre un objet privé :
    Par exemple, rendez-vous sur un rapport.
 1. Cliquez sur **Actions de rapport**, puis sur **Partage**.
 
-   ![](assets/report-permissions-make-private-nwe-350x477.png)
+   ![rendre privé](assets/report-permissions-make-private-nwe-350x477.png)
 
-1. Cliquez sur **Supprimer l’accès public** pour supprimer l’accès des utilisateurs et utilisatrices externes à l’affichage du rapport.
-1. Cliquez sur **Supprimer l’accès à l’échelle du système** pour ne plus le partager avec l’ensemble des utilisateurs et utilisatrices de Workfront.
+1. Cliquez sur l’icône d’engrenage, puis décochez la case **Rendre ceci public pour les utilisateurs externes**.
+1. Dans le menu déroulant **Qui a accès**, cliquez sur **Seules les personnes invitées peuvent y accéder** pour arrêter de le partager avec tous les utilisateurs de Workfront.
 1. Cliquer sur **Enregistrer**.

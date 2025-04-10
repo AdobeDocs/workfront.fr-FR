@@ -6,10 +6,10 @@ description: Votre administrateur ou administratrice Adobe Workfront peut vous 
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 94%
+source-wordcount: '990'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
 
 * Par défaut, le créateur ou la créatrice d’un projet dispose des autorisations nécessaires pour gérer le projet et est également propriétaire du projet. Si le projet est attribué à une autre personne propriétaire, cette personne dispose également des autorisations nécessaires pour gérer le projet. Lorsque le créateur ou créatrice (ou propriétaire) du projet partage le projet avec d’autres personnes, certaines autorisations leur sont accordées pour contrôler ce que ces personnes peuvent faire lorsqu’elles travaillent sur le projet.
 
-  Cependant, si la personne propriétaire d’un projet ne dispose pas d’une licence Planificateur, elle n’a pas un accès complet à la gestion du projet. Seule une personne disposant d’une licence Plan peut disposer des autorisations nécessaires pour gérer un projet. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Cependant, si le propriétaire d’un projet ne dispose pas d’une licence de plan ou standard, il ne dispose pas d’un accès complet pour gérer le projet. Seul un utilisateur disposant d’une licence de plan ou standard peut disposer des autorisations pour gérer un projet. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * Vous pouvez partager des projets individuellement ou partager plusieurs d’entre eux à la fois. Le partage de projets est identique au partage d’autres objets. Pour plus d’informations sur le partage d’éléments dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Vous pouvez accorder les autorisations suivantes à un projet :
@@ -37,8 +37,6 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
    * Afficher
    * Gérer
    * Contribuer
-
-     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
 * Lorsque vous partagez un projet, toutes les tâches, tous les problèmes et tous les documents héritent des mêmes autorisations, sauf indication contraire.
 
@@ -104,8 +102,8 @@ Vous pouvez partager un projet de l’une des façons suivantes :
 
 ## Restrictions relatives aux différents types de licence
 
-* Les utilisateurs disposant d’une licence light et inférieure à (ou d’une licence professionnelle et inférieure pour l’ancien modèle de licence) ne sont pas autorisés à gérer les projets. Pour ces utilisateurs, l&#39;autorisation de partage la plus élevée est Contribute.
-* Les utilisateurs disposant d’une licence de contributeur (ou de demande de licence pour l’ancien modèle de licence) peuvent afficher les informations du projet, mais leur accès est limité.
+* Les utilisateurs et les utilisatrices disposant d’une licence Travail ne disposent pas des autorisations nécessaires pour gérer des projets. Pour les personnes chargées du travail, l’autorisation de partage la plus élevée est Contribuer.
+* Les utilisateurs et les utilisatrices disposant d’une licence Demande peuvent afficher les informations d’un projet, mais leur accès au projet est limité.
 * Une exception concernant la modification du statut d’un projet se produit lorsqu’une personne disposant des autorisations Afficher ou Contribuer est également incluse dans un processus d’approbation. Celle-ci peut approuver le projet, ce qui modifie le statut du projet, mais le statut est le statut prédéfini d’approbation ou de rejet.
 * Pour pouvoir copier un projet, un utilisateur ou une utilisatrice doit également disposer de l’accès à la création de projets dans son niveau d’accès.
 

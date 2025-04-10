@@ -6,16 +6,14 @@ description: Votre administrateur ou administratrice Adobe Workfront peut vous a
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '565'
+ht-degree: 96%
 
 ---
 
 # Partager des autorisations financières sur un objet
-
-{{highlighted-preview}}
 
 Votre administrateur ou administratrice Adobe Workfront peut vous accorder un accès pour afficher ou modifier des données financières lors de l’attribution de votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux données financières](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -54,6 +52,8 @@ Pour plus d’informations sur ce que les utilisateurs et utilisatrices de chaqu
  </tbody> 
 </table>
 -->
+
++++ Développez pour afficher les exigences d’accès pour la fonctionnalité de cet article.
 Vous devez disposer des éléments suivants pour partager des informations de données financières sur les objets :
 
 <table style="table-layout:auto"> 
@@ -81,11 +81,13 @@ Vous devez disposer des éléments suivants pour partager des informations de do
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
+
 ## Partager un objet et accorder des autorisations financières
 
 Tenez compte des points suivants lors de l’octroi d’autorisations financières aux objets :
 
-* Vous pouvez accorder des autorisations financières à des projets, tâches, problèmes <span class="preview">et cartes tarifaires</span>.
+* Vous pouvez accorder des autorisations financières aux projets, tâches et événements.
 * Les autorisations peuvent être héritées : si vous disposez d’autorisations d’affichage de finances pour un projet, vous héritez automatiquement des autorisations d’affichage de finances pour les tâches et les problèmes du projet.
 
 Pour accorder des autorisations financières à un objet :
@@ -104,8 +106,6 @@ Pour accorder des autorisations financières à un objet :
    * **L’afficher**
    * **Y contribuer**
    * **Le gérer**
-
-     ![](assets/12.png) ![](assets/13.png) ![](assets/14.png)
 
 1. Dans le même menu déroulant, cliquez sur **Paramètres avancés**, puis effectuez l’une des opérations suivantes :
 
@@ -156,18 +156,6 @@ Le tableau suivant affiche les autorisations financières accordées aux utilisa
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
-  <tr> 
-   <td><span class="preview">Gérer les cartes tarifaires</span></td> 
-   <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td><span class="preview">Afficher les cartes tarifaires</span></td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td> ✓</td> 
-  </tr>
   <tr> 
    <td>Afficher des informations par coût dans les outils de planification des ressources</td> 
    <td>✓</td> 

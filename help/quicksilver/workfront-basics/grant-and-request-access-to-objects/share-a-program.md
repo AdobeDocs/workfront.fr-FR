@@ -7,14 +7,15 @@ description: Votre équipe d’administration Adobe Workfront peut vous accorde
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 851e946fd4e9b0da725185227f9ed24334eafb86
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Partager un programme
+
 
 Votre équipe d’administration Adobe Workfront peut vous accorder l’accès à l’affichage ou à la modification des programmes lors de l’attribution de votre niveau d’accès. Vous devez disposer d’une licence de plan pour avoir accès à l’édition d’un programme. Pour plus d’informations, voir [Accorder l’accès aux programmes](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
 
@@ -36,9 +37,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 
   Pour plus d’informations sur le partage d’éléments dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-* Vous ne pouvez accorder des droits d’affichage ou de gestion que pour les programmes.
-
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png) ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
+* Vous pouvez uniquement accorder des autorisations Afficher ou Gérer sur les programmes :
 
 * Lorsque vous partagez un programme, les personnes héritent par défaut des mêmes autorisations pour tous les objets enfant associés au programme.
 
@@ -65,4 +64,6 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux person
 | Partager | ✓ | ✓ |
 | Partager sur le système |   | ✓ |
 
-* Ces autorisations sont contrôlées par le niveau d’accès et les autorisations sur d’autres objets, comme les projets. 
+* Ces autorisations sont contrôlées par le niveau d’accès et les autorisations sur d’autres objets, comme les projets.
+
+

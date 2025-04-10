@@ -7,7 +7,7 @@ description: Votre administrateur ou administratrice Adobe Workfront accorde au
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
@@ -54,12 +54,7 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
 * Vous pouvez accorder les autorisations suivantes aux rapports, tableaux de bord et calendriers :
 
    * Afficher
-
-     ![](assets/screen-shot-2014-01-22-at-10.19.55-am.png)
-
    * Gérer
-
-     ![](assets/screen-shot-2014-01-22-at-10.20.13-am.png)
 
 * Lorsque vous partagez un tableau de bord, les personnes disposent par défaut des autorisations Afficher pour tous les rapports, calendriers et pages externes du tableau de bord.
 * Les personnes disposant d’une licence Demande ne peuvent pas afficher de rapport à l’échelle du système. Un rapport doit être partagé avec les Demandeurs ou demandeuses individuellement en cas de besoin de le visualiser.

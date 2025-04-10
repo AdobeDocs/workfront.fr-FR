@@ -6,9 +6,9 @@ description: Vous pouvez partager un dossier et son contenu à partir de la zone
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 842c61cf6dfee0c79b1c95ff84888083c9f5b5a4
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '914'
 ht-degree: 100%
 
 ---
@@ -61,6 +61,7 @@ Vous pouvez partager un dossier et son contenu à partir de la zone Documents.
  </tbody> 
 </table>
 -->
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -88,6 +89,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 </table>
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
+
++++
 
 ## Partager un dossier
 

@@ -5,10 +5,10 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -32,12 +32,10 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 * Vous pouvez partager un portfolio individuellement ou plusieurs portfolios en même temps. Le partage d’un portfolio est identique au partage d’autres objets dans Workfront. Pour plus d’informations, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * Vous ne pouvez accorder des droits d’affichage ou de gestion qu’aux portfolios.
+</span>
+* Lorsque vous partagez un portfolio, les utilisateurs héritent par défaut des mêmes autorisations pour tous les objets enfants associés au portfolio.
 
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png) ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
-
-* Lorsque vous partagez un portfolio, les personnes héritent par défaut des mêmes autorisations pour tous les objets enfant associés au portfolio.
-
-  Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Vous pouvez supprimer les autorisations héritées du portfolio. Pour plus d’informations sur la suppression des autorisations sur les objets, voir [Supprimer les autorisations sur les objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 

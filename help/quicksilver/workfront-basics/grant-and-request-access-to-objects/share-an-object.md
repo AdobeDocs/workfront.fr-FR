@@ -6,10 +6,10 @@ description: Votre personne chargée de l’administration d’Adobe Workfront 
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
+source-git-commit: 8b524f7cd7e1bfedbaa1e993cbf4b3b805344b7c
 workflow-type: tm+mt
-source-wordcount: '1922'
-ht-degree: 89%
+source-wordcount: '1909'
+ht-degree: 85%
 
 ---
 
@@ -193,9 +193,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    ![](assets/share-a-document-350x160.png)
 
-1. Dans le champ **Accorder l’accès à &lt; Nom de l’objet > à** commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager l’objet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
-
-   ![](assets/portfolio-access-box.png)
+1. Dans le champ **Accorder l’accès à [Nom de l’objet]**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager l’objet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    >
@@ -205,7 +203,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
 1. (Facultatif) Répétez l’étape 3 pour chaque utilisateur ou utilisatrice, équipe, rôle ou groupe pour qui vous souhaitez accorder l’accès à l’objet.
 
-1. Spécifiez les autorisations pour chaque utilisateur ou utilisatrice, équipe, rôle, groupe ou société que vous avez ajouté(e) à l’étape 3 en cliquant sur le menu déroulant, puis en sélectionnant le niveau d’autorisation à accorder.
+1. Spécifiez les autorisations pour chaque utilisateur, équipe, rôle, groupe ou entreprise que vous avez ajouté à l’étape 3.
 
    Pour supprimer des autorisations d’un objet, voir [Supprimer les autorisations des objets](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
@@ -218,24 +216,24 @@ Pour partager des objets, vous devez disposer des éléments suivants :
      >
      >L’administrateur ou l’administratrice Workfront ou le créateur ou la créatrice d’objets peut supprimer des autorisations de ces entités.
 
-     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
+1. (Facultatif) Cliquez sur l’icône des options avancées située en regard du niveau d’autorisation que vous avez accordé pour configurer des autorisations spécifiques sur l’objet.
 
-1. (Facultatif) Cliquez sur **Paramètres avancés** pour configurer des autorisations spécifiques sur l’objet.
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    Les autorisations Afficher et Gérer comportent différentes options avancées en fonction de l’objet sélectionné.\
-   Pour plus d’informations sur les niveaux d’autorisation, voir [Vue d’ensemble du partage des autorisations sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   Pour plus d’informations sur les niveaux d’autorisation, voir la section [Vue d’ensemble des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. (Facultatif) Pour rendre cet objet disponible pour l’ensemble des utilisateurs et utilisatrices du système, cliquez sur l’icône **Engrenage** ![](assets/gear-icon-settings-with-dn-arrow.jpg), puis, dans le menu déroulant, cliquez sur **Rendre ceci visible sur tout le système**.
+1. (Facultatif) Pour mettre cet objet à la disposition de tous les utilisateurs du système, cliquez sur **Qui a accès** dans le menu déroulant et sélectionnez **Tout le monde peut voir dans le système**.
 
    Tous les utilisateurs et utilisatrices peuvent voir l’objet en fonction des autorisations que vous avez définies.
 
-1. (Facultatif) Pour rendre l’objet public, cliquez sur **Rendre ceci public pour les utilisateurs et utilisatrices externes**.
+1. (Facultatif) Pour rendre l’objet public, cliquez sur l’icône d’engrenage, puis activez l’option **Rendre cet objet public pour les utilisateurs externes**.
 
    >[!TIP]
    >
    >Cette option n’est pas disponible pour tous les objets.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
 
 1. (Le cas échéant) Si vous avez rendu l’objet public pour les utilisateurs et utilisatrices externes, cliquez sur **Copier le lien**, puis distribuez le lien.
 
@@ -261,7 +259,6 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
 1. Dans la zone **Modifier l&#39;accès &lt; Nom de l&#39;objet > pour**, commencez à saisir le nom de l&#39;utilisateur, de l&#39;équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager les objets, puis cliquez sur le nom lorsqu&#39;il apparaît dans la liste déroulante.
 
-   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -273,11 +270,10 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
 1. (Facultatif) Répétez l’étape 3 pour chaque utilisateur ou utilisatrice, équipe, rôle ou groupe pour qui vous souhaitez accorder l’accès aux objets.
 
-1. Spécifiez les autorisations pour chaque utilisateur ou utilisatrice, équipe, rôle, groupe ou société que vous avez ajouté à l’étape 3 en cliquant sur le menu déroulant à droite de son nom, puis en sélectionnant le niveau d’autorisation à accorder.
+1. Spécifiez les autorisations pour chaque utilisateur, équipe, rôle, groupe ou entreprise que vous avez ajouté à l’étape.
 
    Pour supprimer des autorisations d’un objet, voir [Supprimer les autorisations des objets](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
-   ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
    Les options disponibles sont les suivantes :
 
@@ -299,12 +295,12 @@ Pour partager des objets, vous devez disposer des éléments suivants :
      >
      >L’administrateur ou l’administratrice Workfront ou le créateur ou la créatrice d’objets peut supprimer des autorisations de ces entités.
 
-1. (Facultatif) Cliquez sur **Paramètres avancés** pour configurer des autorisations spécifiques sur l’objet.
+1. (Facultatif) Cliquez sur l’icône des options avancées située en regard du niveau d’autorisation que vous avez accordé pour configurer des autorisations spécifiques sur l’objet.
+
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    Les niveaux d’affichage, de gestion et de contribution ont différentes options avancées selon l’objet sélectionné.\
    Pour plus d’informations sur les niveaux d’autorisation, voir [Vue d’ensemble du partage des autorisations sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (Facultatif) Pour rendre cet objet disponible pour l’ensemble des utilisateurs et utilisatrices du système, cliquez sur l’icône **Engrenage** ![](assets/gear-icon-settings-with-dn-arrow.jpg), puis, dans le menu déroulant, cliquez sur **Rendre ceci visible sur tout le système**.
 

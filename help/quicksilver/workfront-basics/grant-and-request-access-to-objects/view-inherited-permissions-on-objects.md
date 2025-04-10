@@ -6,9 +6,9 @@ description: Votre administrateur ou administratrice Adobe Workfront peut vous 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 871117ddb06af6d37448c683a259ccc7e708930c
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 100%
 
 ---
@@ -55,6 +55,8 @@ Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [C
 </table>
 -->
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
@@ -81,6 +83,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Afficher les autorisations héritées pour un objet
 

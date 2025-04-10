@@ -6,9 +6,9 @@ description: Votre administrateur ou administratrice Adobe Workfront accorde au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '692'
 ht-degree: 100%
 
 ---
@@ -34,15 +34,8 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 * Vous pouvez accorder les autorisations suivantes pour un problème : 
 
    * Afficher
-
-     ![view_on_issue.png](assets/view-on-issue-221x216.png)
-
+   * Contribuer
    * Gérer
-
-     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
-
-   * Contribuer\
-     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
 * Lorsque vous partagez un problème, tous les documents associés à ce problème héritent des mêmes autorisations.
 

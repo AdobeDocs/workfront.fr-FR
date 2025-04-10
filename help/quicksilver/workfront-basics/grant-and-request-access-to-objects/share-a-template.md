@@ -6,7 +6,7 @@ description: En tant que personne membre de l’administration Adobe Workfront,
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 95%
@@ -40,12 +40,7 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
      Vous pouvez accorder les autorisations suivantes à un modèle :
 
       * Afficher
-
-        ![](assets/view-on-template-262x221.png)
-
       * Gérer
-
-        ![](assets/manage-on-template-225x280.png)
 
    * Futurs projets créés à l’aide du modèle. Vous pouvez accorder aux projets créés à partir d’un modèle les mêmes niveaux d’autorisation qu’à un projet individuel. 
 
