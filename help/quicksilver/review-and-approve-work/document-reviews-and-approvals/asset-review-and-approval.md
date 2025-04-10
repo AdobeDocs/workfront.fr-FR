@@ -6,7 +6,7 @@ description: Présentation des systèmes disponibles pour révision et approbati
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Il existe actuellement 3 systèmes différents disponibles dans Workfront pour l
 
 ## Approbations de documents hérités
 
-Les approbations de documents hérités seront supprimées de Workfront en 2025. Le système d’approbations unifié a été conçu pour remplacer les approbations de documents héritées.
+Les approbations de documents hérités seront supprimées de Workfront en 2025. Le système d&#39;approbations unifiées a été conçu pour remplacer les approbations de documents héritées.
 
 Fonctionnalités clés disponibles pour les approbations de documents hérités :
 
@@ -40,7 +40,7 @@ Pour plus d’informations, voir [Approbations de documents hérités](/help/qui
 
 Les approbations unifiées sont une refonte de l&#39;ancien système d&#39;approbation. Actuellement disponible en version limitée, il est conçu pour être une solution pratique et efficace pour les entreprises nécessitant une mobilisation complète des parties prenantes et l’approbation de documents spécifiques à chaque version.
 
-Pour plus d’informations sur les validations unifiées, voir [Présentation des validations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Pour plus d&#39;informations sur les validations unifiées, voir [Présentation des validations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 Fonctionnalités clés disponibles pour les approbations unifiées :
 
@@ -51,7 +51,7 @@ Fonctionnalités clés disponibles pour les approbations unifiées :
 * Création et utilisation de modèles
 
 * Vérifier et commenter dans le lecteur de vérification
-Pour plus d’informations sur l’utilisation de la visionneuse de relecture, voir [Utilisation conjointe des validations unifiées et de la relecture](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+Pour plus d&#39;informations sur l&#39;utilisation de la visionneuse de relecture, voir [Utilisation conjointe des validations unifiées et de la relecture](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * Affichage de plusieurs indicateurs clés de performances pour vos approbations dans les widgets de l’accueil de Workfront
 

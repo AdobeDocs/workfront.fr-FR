@@ -6,7 +6,7 @@ description: Approuver du travail
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 79%
@@ -122,7 +122,7 @@ Pour plus d’informations sur l’affichage des éléments en attente d’appro
          <ul>
          <li>Terminer mon examen</li>
          </ul>
-      Les options de cette colonne s'appliquent uniquement aux validations unifiées. Les approbations de documents hérités apparaissent comme les approbations d’éléments de travail. 
+      Les options de cette colonne s'appliquent uniquement aux approbations unifiées. Les approbations de documents hérités apparaissent comme les approbations d’éléments de travail. 
       </td>
       <td>
          <ul>
