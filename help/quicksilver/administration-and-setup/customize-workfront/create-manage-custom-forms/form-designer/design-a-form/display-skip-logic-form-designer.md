@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
+source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 66%
@@ -221,7 +221,7 @@ La logique de validation est créée à l’aide de formules et vous pouvez la r
 
 Si le champ avec la logique appliquée remplit les conditions de validation définies lorsqu’un utilisateur remplit le formulaire personnalisé, le champ est mis en surbrillance et le message d’erreur s’affiche.
 
-Vous pouvez appliquer la logique de validation aux types de champ suivants : texte à une seule ligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, boutons radio, groupe de cases à cocher et saisie semi-automatique.
+Vous pouvez appliquer la logique de validation aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, saisie semi-automatique, date, groupe de cases à cocher et boutons radio.
 
 ### Exemples
 
@@ -263,7 +263,9 @@ Un autre exemple de validation basée sur d’autres champs est un champ pour la
 
 ## Add formatting logic to a custom form
 
-Formatting logic highlights a field value when it meets the defined conditions. You can apply formatting logic to all field types, and it will work on multiple fields at once.
+Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+
+You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
 
 Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
