@@ -6,7 +6,7 @@ description: Vous pouvez déplacer une histoire agile vers une itération diffé
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 164e98e8cc6995387be1e830787cb258f127bd70
+source-git-commit: 68aafe63ff8b60a542ed9dd0900b3742c26a1e4f
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 76%
@@ -65,7 +65,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Déplacer une histoire vers une autre itération
 
-Vous pouvez déplacer une histoire vers une autre itération pour votre équipe Scrum si vous êtes administrateur système ou membre de l&#39;équipe à laquelle l&#39;itération est associée.
+Vous pouvez déplacer une histoire vers une autre itération pour votre équipe Scrum si vous êtes un administrateur système ou un membre de l’équipe auquel l’itération est associée.
 
 >[!NOTE]
 >

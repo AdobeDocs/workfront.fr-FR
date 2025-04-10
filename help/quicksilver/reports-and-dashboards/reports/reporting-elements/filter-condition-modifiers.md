@@ -6,10 +6,10 @@ description: Les modificateurs de filtre et de condition vous permettent de cré
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 96%
+source-wordcount: '1565'
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ Certains modificateurs sont intégrés et vous pouvez les choisir dans un menu d
 
 Pour plus d’informations sur le mode texte, voir [Vue d’ensemble du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Pour obtenir la liste des modificateurs de période intégrés, voir l’article [Filtrer des rapports par période](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+Pour obtenir une liste des modificateurs de période intégrés, reportez-vous à l’article [Filtrage des rapports par période](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et les instructions de mise en forme conditionnelle :
 
@@ -129,7 +129,7 @@ Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>like</strong> </p> </td> 
-   <td> <p>Ce modificateur recherche des parties d’une chaîne de texte <i>sensible à la casse</i> de la même manière que <strong>contains</strong>. Cependant, <strong>like</strong> permet d’insérer des caractères génériques pour séparer le texte.</p> <p>Par exemple, lors de la recherche de notes, l’utilisation de <code>like %Current% %Dead%</code> renvoie toute note contenant l’expression « Actuel à inactif ». Elle n’inclut aucune note contenant « Inactif à actuel ». Chaque valeur est recherchée dans l’ordre dans lequel elle est répertoriée. Le % représente un caractère générique pour remplacer des caractères ou des segments de texte. Un trait de soulignement peut également être utilisé pour un seul caractère générique, comme dans <code>like Project_</code> qui renvoie "Projet" et "Projets". Si vous envisagez d’utiliser un modificateur <strong>like</strong> ou <strong>style</strong> dans votre filtrage, nous vous recommandons d’éviter les caractères % ou _ dans les noms de champ de données personnalisés, les valeurs d’option de paramètre ou d’autres noms d’objet.</p><p>Ce modificateur ne peut être utilisé que dans les filtres du mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modifier un filtre à l’aide du mode texte</a>.</p> </td> 
+   <td> <p>Ce modificateur recherche des parties d’une chaîne de texte <i>sensible à la casse</i> de la même manière que <strong>contains</strong>. Cependant, <strong>like</strong> permet d’insérer des caractères génériques pour séparer le texte.</p> <p>Par exemple, lors de la recherche de notes, l’utilisation de <code>like %Current% %Dead%</code> renvoie toute note contenant l’expression « Actuel à inactif ». Elle n’inclut aucune note contenant « Inactif à actuel ». Chaque valeur est recherchée dans l’ordre dans lequel elle est répertoriée. Le % représente un caractère joker pour remplacer des caractères ou des segments de texte. Un trait de soulignement peut également être utilisé pour un seul caractère générique, comme dans <code>like Project_</code> qui renvoie à la fois « Projet » et « Projets ». Si vous envisagez d’utiliser un modificateur <strong>like</strong> ou <strong>clike</strong> dans votre filtrage, nous vous recommandons d’éviter les caractères % ou _ dans les noms de champs de données personnalisés, les valeurs d’option de paramètre ou d’autres noms d’objet.</p><p>Ce modificateur ne peut être utilisé que dans les filtres du mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modifier un filtre à l’aide du mode texte</a>.</p> </td> 
   </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 

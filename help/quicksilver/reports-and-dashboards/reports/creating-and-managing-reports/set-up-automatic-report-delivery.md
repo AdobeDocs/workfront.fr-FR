@@ -3,19 +3,19 @@ product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Planifier la remise automatique d’un rapport
 description: Planifier la remise automatique d’un rapport
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 87%
+source-wordcount: '1268'
+ht-degree: 70%
 
 ---
 
 # Planifier la remise automatique d’un rapport
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
@@ -36,24 +36,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
       <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+      <p>Nouveau : Standard</p>
+      <p>Ou</p>
+
+<p>Actuel : formule</p>
+
+</td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et regroupements</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,24 +70,24 @@ Avant de commencer, vous devez créer un rapport. Pour en savoir plus sur la cr�
 
 ## Planifier la diffusion d’un rapport
 
-Pour planifier la remise automatique d’un rapport ou modifier ou supprimer une remise de rapport existante :
 
-1. accédez à un rapport dont vous souhaitez planifier la remise.
+Pour planifier la diffusion automatique d&#39;un rapport, procédez comme suit &#x200B;
 
-   >[!NOTE]
-   >
-   >Les remises de rapports ne contiennent pas d’invites. Si vous souhaitez limiter des données dans une remise de rapport, nous vous conseillons d’appliquer des filtres au rapport que vous souhaitez envoyer.
+{{step1-to-reports}}
 
-1. Cliquez sur **Actions de rapport**, puis sur **Envoyer le rapport**.
+>[!NOTE]
+>
+>Les remises de rapports ne contiennent pas d’invites. Si vous souhaitez limiter des données dans une remise de rapport, nous vous conseillons d’appliquer des filtres au rapport que vous souhaitez envoyer.
 
-   La boîte de dialogue **Envoyer le rapport** s’affiche.
+1. Sélectionnez un rapport sur la page **Rapports**.
+1. Dans la partie supérieure de l’écran, cliquez sur **Actions du rapport**, puis **Envoyer le rapport** dans la liste déroulante qui s’affiche. La boîte de dialogue **Envoyer le rapport** s’affiche.
 
    >[!TIP]
    >
    >Pour envoyer manuellement un rapport à tout moment, accédez au rapport, puis cliquez sur **Actions de rapport** > **Envoyer le rapport** > **Envoyer maintenant**.
 
 1. Cliquez sur l’onglet **Remises répétées**.
-1. (Le cas échéant) Pour modifier une remise répétée de rapport existante, sélectionnez la remise de rapport dans la section **Remises répétées**.
+1. (Conditionnel) Pour modifier une diffusion de rapport répétée existante, sélectionnez la diffusion de rapport dans la section **Diffusions répétées** sur le côté droit de la boîte de dialogue.
 1. Indiquez les informations suivantes :
 
    <table style="table-layout:auto"> 
@@ -99,30 +96,30 @@ Pour planifier la remise automatique d’un rapport ou modifier ou supprimer une
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Envoyer à</p> </td> 
-      <td> <p>Commencez à saisir le nom de l’utilisateur, de l’utilisatrice, du groupe, de l’équipe ou du rôle à qui vous souhaitez envoyer le rapport, puis cliquez sur le nom quand il s’affiche dans la liste déroulante.</p> <p>Ou</p> <p>Indiquez l’adresse e-mail d’une personne externe au système Workfront à qui vous souhaitez accorder l’accès au rapport.</p> <p>Répétez cette procédure pour envoyer le rapport à plusieurs utilisateurs, utilisatrices, groupes, équipes ou rôles.</p> <p>Note :  <p>Tenez compte des points suivants lors de l’ajout de personnes destinataires de remises de rapports :</p> 
+      <td> <p>Commencez à saisir le nom de l’utilisateur, de l’utilisatrice, du groupe, de l’équipe ou du rôle à qui vous souhaitez envoyer le rapport, puis cliquez sur le nom quand il s’affiche dans la liste déroulante.</p> <p>Ou</p> <p>Saisissez l’adresse e-mail d’une personne externe au système Workfront à laquelle vous souhaitez accorder l’accès au rapport.</p> <p>Répétez cette procédure pour envoyer le rapport à plusieurs utilisateurs, utilisatrices, groupes, équipes ou rôles.</p> <p>Note :  <p>Tenez compte des points suivants lors de l’ajout de personnes destinataires de remises de rapports :</p> 
         <ul> 
          <li>Si votre entreprise limite les notifications Workfront à des domaines d’adresses e-mail spécifiques, vous pouvez uniquement envoyer des rapports aux adresses e-mail répertoriées dans la liste autorisée des adresses e-mails.<p>Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront met à jour la liste autorisée des adresses e-mails, voir la section <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configurer votre liste autorisée d’adresses e-mail</a>.</p></li> 
          <li> <p>L’ajout d’un grand nombre d’utilisateurs et d’utilisatrices en tant que destinataires peut entraîner un échec de la remise. Si vous rencontrez des échecs de remise, vous pouvez planifier plusieurs remises de rapports avec des groupes d’utilisateurs et d’utilisatrices plus petits.</p> </li> 
-        </ul> </p> </td> 
+        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Objet de l'e-mail</p> </td> 
-      <td> <p>Indiquez l’objet de la notification par e-mail.</p> <p>Par défaut, l’objet de l’e-mail est :</p> <p><em>Rapport Workfront : [Nom du rapport] [Date]</em> </p> </td> 
+      <td> <p>Saisissez l’objet de l’e-mail de notification.</p> <p>Par défaut, l’objet de l’e-mail est :</p> <p><em>Rapport Workfront : [Nom du rapport] [Date]</em> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Message électronique</p> </td> 
-      <td> <p>Spécifiez un message à inclure dans l’e-mail.</p> <p>Par défaut, le message e-mail est :</p> <p><em>Vous trouverez ci-joint le rapport [fréquence du rapport] [nom du rapport] généré par Workfront le [date].</em> </p> <p>Note : pour les rapports remis sous forme de fichier Excel uniquement, le message suivant est également ajouté à l’e-mail : « Gardez à l’esprit qu’avec les types de fichiers MS Excel (XLS), une limite s’applique (65 530) au nombre de liens hypertexte pris en charge par ces types de fichiers. Si vous dépassez ces limites, votre fichier ne s’ouvrira pas et il est recommandé de le renvoyer sans les liens hypertexte. Revenez au planificateur de rapports pour supprimer les liens hypertexte et renvoyer le rapport. » L’expression « Revenez au planificateur de rapports » est un lien renvoyant au rapport.</p> </td> 
+      <td> <p>Saisissez un message à inclure dans l’e-mail.</p> <p>Par défaut, le message e-mail est :</p> <p><em>Vous trouverez ci-joint le rapport [fréquence du rapport] [nom du rapport] généré par Workfront le [date].</em> </p> <p>Note : pour les rapports remis sous forme de fichier Excel uniquement, le message suivant est également ajouté à l’e-mail : « Gardez à l’esprit qu’avec les types de fichiers MS Excel (XLS), une limite s’applique (65 530) au nombre de liens hypertexte pris en charge par ces types de fichiers. Si vous dépassez ces limites, votre fichier ne s’ouvrira pas et il est recommandé de le renvoyer sans les liens hypertexte. Revenez au planificateur de rapports pour supprimer les liens hypertexte et renvoyer le rapport. » L’expression « Revenez au planificateur de rapports » est un lien renvoyant au rapport.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Remettre ce rapport avec les droits d’accès suivants</p> </td> 
-      <td> <p>Commencez à saisir le nom d’une personne ayant accès au rapport, puis cliquez sur le nom qui apparaît dans la liste déroulante. Les personnes qui reçoivent le rapport auront le même niveau d’accès à ce dernier que la personne spécifiée ici.<br> Pour plus d’informations, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Exécuter et diffuser un rapport avec les droits d’accès d’un autre utilisateur ou d’une autre utilisatrice</a>.</p> <p>Note : ce champ ne prend pas en charge les caractères génériques. Par exemple, l’utilisation du caractère générique $$User.ID n’exécute pas le rapport avec les droits d’accès de la personne qui reçoit le rapport.</p> </td> 
+      <td> <p>Commencez à saisir le nom d’une personne ayant accès au rapport, puis cliquez sur le nom qui apparaît dans la liste déroulante. Les personnes qui reçoivent le rapport auront le même niveau d’accès à ce dernier que la personne spécifiée ici.<br> Pour plus d’informations, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Exécuter et diffuser un rapport avec les droits d’accès d’un autre utilisateur ou d’une autre utilisatrice</a>.</p> <p>Note : ce champ ne prend pas en charge les caractères génériques. Par exemple, le caractère générique <em>$$User.ID</em> n’exécute pas le rapport avec les droits d’accès de l’utilisateur qui reçoit le rapport.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Format</p> </td> 
       <td> <p>Sélectionnez le format souhaité pour le rapport remis :</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
-        <li> <p>PDF</p> <p>Si vous sélectionnez cette option, vous pouvez formater la sortie à l’aide des options <strong>Format de papier</strong> et <strong>Orientation</strong> qui s’affichent.</p> </li> 
+        <li> <p>PDF</p> <p>Si vous sélectionnez PDF, vous pouvez mettre en forme la sortie à l’aide des options supplémentaires <strong>Format du papier</strong> et <strong>Orientation</strong> qui s’affichent.</p> </li> 
         <li> <p>MS Excel (.xlsx)</p> </li> 
         <li> <p>TSV</p> </li> 
        </ul> </td> 
@@ -170,9 +167,7 @@ Pour planifier la remise automatique d’un rapport ou modifier ou supprimer une
     </tbody> 
    </table>
 
-1. Cliquez sur **Enregistrer** pour enregistrer la remise du rapport.
-
-   Le rapport s’affiche dans la section **Remises répétées** (dans la boîte de dialogue **Envoyer le rapport**) et sera envoyé à l’heure prévue.
+1. Cliquez sur **Enregistrer** pour enregistrer la diffusion du rapport. Le rapport s’affiche dans la section **Diffusions répétées** de la boîte de dialogue **Envoyer le rapport** et sera envoyé à l’heure planifiée.
 
    Pour plus d’informations sur les limitations de taille qui peuvent affecter la remise de vos rapports, consultez les sections [Limitations des remises de rapports](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) et [Limitations d’export](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
 
@@ -182,10 +177,21 @@ Pour planifier la remise automatique d’un rapport ou modifier ou supprimer une
 >
 >Si vous utilisez une diffusion de rapports planifiée pour analyser les données de Workfront par le biais d’un outil BI, nous vous recommandons d’utiliser plutôt Workfront Data Connect. Pour plus d&#39;informations, consultez [Présentation de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-1. (Facultatif) Pour supprimer une remise prévue, procédez comme suit :
+## Supprimer une diffusion de rapports planifiée
 
-   1. Dans le panneau **Remises répétées**, cliquez sur la remise prévue, puis sur **Supprimer**.
-   1. Cliquez sur **Supprimer** pour confirmer.
+Pour supprimer une diffusion de rapports planifiée, procédez comme suit &#x200B;
+
+{{step1-to-reports}}
+
+1. Sélectionnez un rapport sur la page **Rapports**.
+
+1. Dans la partie supérieure de l’écran, cliquez sur **Actions du rapport**, puis **Envoyer le rapport** dans la liste déroulante qui s’affiche. La boîte de dialogue **Envoyer le rapport** s’affiche.
+
+1. Cliquez sur l’onglet **Remises répétées**.
+1. Dans la section **Diffusions répétées** sur le côté droit de la boîte de dialogue, cliquez sur la diffusion planifiée à supprimer.
+1. Dans la section détaillée **Diffusions répétées**, cliquez sur **Supprimer**.
+
+1. Cliquez sur **Supprimer** pour confirmer.
 
 <!--## Video walk-through
 

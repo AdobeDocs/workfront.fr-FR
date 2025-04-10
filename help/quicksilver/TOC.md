@@ -3,10 +3,10 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 43e58f4495cc970b1d0f49dd4ce38fd8b1ef61e4
+source-git-commit: d344ace2024525703261dae6ba13f1fd1e0e8484
 workflow-type: tm+mt
-source-wordcount: '13116'
-ht-degree: 88%
+source-wordcount: '13115'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
       * [Vue d’ensemble des versions de produit](product-announcements/product-releases/product-releases.md)
       * [Calendrier des versions d’Adobe Workfront et processus](product-announcements/product-releases/workfront-release-schedule.md)
       * [Préparation pour une version trimestrielle d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
-      * Version Du T2 2025 {#release-25-q2}
+      * Version du 2e trimestre 2025 {#release-25-q2}
          * [Vue d’ensemble de la version du 2e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [Améliorations concernant les équipes d’administration du 2e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
          * [Améliorations apportées à la gestion des documents (2e trimestre 2025)](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md)
@@ -28,7 +28,7 @@ ht-degree: 88%
          * [Améliorations des rapports du 2e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md)
          * [Autres améliorations au cours du deuxième trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [Mises à jour de l’aspect pendant la période de publication du 2e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
-      * Version Du T1 2025 {#release-25-q1}
+      * Version du 1er trimestre 2025 {#release-25-q1}
          * [Vue d’ensemble de la version du 1er trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [Améliorations concernant les équipes d’administration du 1er trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
          * [Améliorations des panoramas du 1er trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)
@@ -40,7 +40,7 @@ ht-degree: 88%
          * [Améliorations du flux de la mise à jour du 1er trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md)
          * [Autres améliorations au cours du premier trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [Mises à jour de l’apparence au cours du 1er trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
-      * Version Du T4 2024 {#release-24-q4}
+      * Version du 4e trimestre 2024 {#release-24-q4}
          * [Vue d’ensemble de la version du 4e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [Améliorations des équipes d’administrations du 4e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [Améliorations de la gestion des documents du 4e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md)
@@ -51,7 +51,7 @@ ht-degree: 88%
          * [Améliorations du rapport et du tableau de bord du 4e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
          * [Autres améliorations au cours du quatrième trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
          * [Mises à jour de l’aspect pendant la période de publication du 4e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
-      * Version Du T3 2024 {#release-24-q3}
+      * Version du 3e trimestre 2024 {#release-24-q3}
          * [Vue d’ensemble de la version du 3e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
          * [Améliorations apportées à l’administration (3e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
          * [Améliorations apportées à la gestion financière (3e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
@@ -61,7 +61,7 @@ ht-degree: 88%
          * [Améliorations de la gestion des ressources (3e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
          * [Autres améliorations au cours de la période de la version du 3e trimestre 2024](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
          * [Mises à jour de l’apparence et de la convivialité au cours de la période de la version du 3e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
-      * Version Du T2 2024 {#release-24-q2}
+      * Version du 2e trimestre 2024 {#release-24-q2}
          * [Vue d’ensemble de la version du 2e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [Améliorations apportées à l’administration (2e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
          * [Améliorations apportées à la gestion des documents (2e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md)
@@ -71,7 +71,7 @@ ht-degree: 88%
          * [Améliorations apportées à la gestion des ressources (2e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
          * [Améliorations apportées au flux de mise à jour (2e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [Mises à jour de l’expérience utilisateur (2 trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
-      * Version Du 1Er Trimestre 2024 {#release-24-q1}
+      * Version du 1er trimestre 2024 {#release-24-q1}
          * [Vue d’ensemble de la version du 1er trimestre 2024](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
          * [Améliorations concernant les équipes d’administration du 1er trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
          * [Améliorations de la gestion des documents du 1er trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
@@ -80,7 +80,7 @@ ht-degree: 88%
          * [Améliorations de l’intégration du 1er trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
          * [Améliorations des projets du 1er trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
          * [Améliorations du flux de mise à jour et des notifications du 1er trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
-      * Version Du T4 2023 {#release-23-q4}
+      * Version du 4e trimestre 2023 {#release-23-q4}
          * [Vue d’ensemble de la version du 4e trimestre 2023](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [Améliorations des équipes d’administrations du 4e trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
          * [Améliorations des panoramas du 4e trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
@@ -90,7 +90,7 @@ ht-degree: 88%
          * [Améliorations des projets du 4e trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
          * [Autres améliorations du 4e trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
          * [Mises à jour de l’aspect pendant la période de publication du 4e trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
-      * Version 23.3 {#release-23-3}
+      * Version 23.3 {#release-23-3}
          * [Vue d’ensemble de la version 23.3](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
          * [23.3 Améliorations apportées à l’administration](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
          * [23.3 Améliorations relatives à la méthode Agile](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
@@ -100,7 +100,7 @@ ht-degree: 88%
          * [23.3 Améliorations mobiles](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
          * [Autres améliorations (version 23.3)](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Mises à jour de l’aspect pendant la période de la version 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
-      * Version 23.2 {#release-23-2}
+      * Version 23.2 {#release-23-2}
          * [Vue d’ensemble de la version 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Améliorations pour l’administration](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [Améliorations concernant la méthode Agile dans la version 23.2](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
@@ -110,14 +110,14 @@ ht-degree: 88%
          * [23.2 Améliorations apportées aux appareils mobiles](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
          * [Autres améliorations de la version 23.2](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [Mises à jour de l’aspect pendant la période de publication de la version 23.2](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
-      * Version 23.1 {#release-23-1}
+      * Version 23.1 {#release-23-1}
          * [Vue d’ensemble de la version 23.1](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
          * [23.1 Améliorations apportées à la gestion des projets et des ressources](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
          * [23.1 Améliorations Agile](product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md)
          * [23.1 Améliorations mobiles](product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md)
          * [23.1 Autres améliorations](product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md)
          * [Mises à jour de l’aspect pendant la période de publication de la version 23.1](product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)
-      * Version 22.4 {#release-22-4}
+      * Version 22.4 {#release-22-4}
          * [Vue d’ensemble de la version 22.4](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
          * [22.4 Améliorations pour les administrateurs et administratrices](product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md)
          * [Améliorations apportées aux projets (version 22.4)](product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)
@@ -125,7 +125,7 @@ ht-degree: 88%
          * [22.4 Améliorations de la gestion des ressources](product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md)
          * [Autres améliorations de la version 22.4](product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md)
          * [22.4 Mises à jour de l’aspect](product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md)
-      * Version 22.3 {#release-22-3}
+      * Version 22.3 {#release-22-3}
          * [Vue d’ensemble de la version 22.3](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
          * [2.2.3 Améliorations apportées aux administrateurs et administratrices](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
          * [2.2.3 Améliorations de l’intégration](product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md)
@@ -135,7 +135,7 @@ ht-degree: 88%
          * [22.3 Améliorations de la gestion des ressources](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
          * [Améliorations des rapports (version 22.3)](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
          * [Mises à jour de l’aspect pendant la période de publication de la version 22.3](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
-      * Version 22.2 {#release-22-2}
+      * Version 22.2 {#release-22-2}
          * [Vue d’ensemble de la version 22.2](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
          * [2.2 Améliorations apportées aux administrateurs et administratrices](product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md)
          * [2.2 Améliorations du projet](product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md)
@@ -145,7 +145,7 @@ ht-degree: 88%
          * [Améliorations apportées aux intégrations (version 22.2)](product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md)
          * [2.2 Autres améliorations](product-announcements/product-releases/22.2-release-activity/22-2-other-enhancements.md)
          * [Mises à jour de l’apparence et de la convivialité au cours de la période de la version 22.2](product-announcements/product-releases/22.2-release-activity/22-2-look-and-feel-updates.md)
-      * Version 22.1 {#release-22-1}
+      * Version 22.1 {#release-22-1}
          * [Vue d’ensemble de la version 22.1](product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)
          * [22.1 Améliorations apportées aux administrateurs et adminstratrices](product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md)
          * [22.1 Améliorations apportées au projet](product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md)
@@ -194,35 +194,35 @@ ht-degree: 88%
          * [21.1 Améliorations de l’intégration](product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md)
          * [Améliorations mobiles (version 21.1)](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 Autres améliorations](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
-      * Activité de version Adobe Workfront Planning{#planning-release-activity}
+      * Activité de publication d’Adobe Workfront Planning {#planning-release-activity}
          * [Activité de version Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
          * [Activité de mise à jour du deuxième trimestre 2025 pour Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Activité de la version du premier trimestre 2025 pour Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Activité de mise à jour du quatrième trimestre 2024 pour Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
-      * Activité des versions du planificateur de scénarios Adobe Workfront {#scenario-planner-release}
+      * Activité Version du planificateur de scénario Adobe Workfront {#scenario-planner-release}
          * [Activité des versions du planificateur de scénarios Adobe Workfront](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [Planificateur de scénarios Adobe Workfront avec la version 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
          * [Planificateur de scénarios Adobe Workfront avec la version 21.2](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md)
          * [Planificateur de scénarios Adobe Workfront avec la version 21.1](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md)
          * [Planificateur de scénarios Workfront avec la version 20.4 - 14 octobre 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md)
          * [Planificateur de scénarios Workfront avec la version 20.3 - 14 août 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
-      * Activité de versions des Objectifs Adobe Workfront {#goals-release}
+      * Activité Version d’Objectifs Adobe Workfront {#goals-release}
          * [Activité de versions des Objectifs Adobe Workfront](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
-         * Objectifs avec la version 23.3 {#goals-23-3}
+         * Objectifs avec la version 23.3 {#goals-23-3}
             * [Objectifs Adobe Workfront avec la version 23.3](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
             * [Activité Version des Objectifs Adobe Workfront 23.3 : semaine du 1er mai 2023](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md)
-         * Objectifs avec la version 23.2 {#goals-23-2}
+         * Objectifs avec la version 23.2 {#goals-23-2}
             * [Objectifs Adobe Workfront avec la version 23.2](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
             * [Activité Version 23.2 d’Objectifs Adobe Workfront : semaine du 20 mars 2023](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
-         * Objectifs avec la version 23.1 {#goals-23-1}
+         * Objectifs avec la version 23.1 {#goals-23-1}
             * [Objectifs Adobe Workfront avec la version 23.1](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
             * [Activité Version des Objectifs Adobe Workfront 23.1 : semaine du 5 décembre 2023](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
-         * Objectifs avec la version 21.2 {#goals-21-2}
+         * Objectifs avec la version 21.2 {#goals-21-2}
             * [Objectifs Adobe Workfront avec la version 21.2](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
             * [Activité Version des Objectifs Adobe Workfront 21.2 : semaine du 19 avril 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)
             * [Activité Version des Objectifs Adobe Workfront 21.2 : semaine du 5 avril 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-5.md)
             * [Activité Version des Objectifs Adobe Workfront 21.2 : semaine du 15 février 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-feb-15.md)
-         * Objectifs avec la version 21.1 {#goals-21-1}
+         * Objectifs avec la version 21.1 {#goals-21-1}
             * [Objectifs Adobe Workfront avec la version 21.1](product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
             * [Activité Version des Objectifs Adobe Workfront 21.1 : semaine du 11 janvier 2021](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-jan-11.md)
             * [Activité Version des Objectifs Adobe Workfront 21.1 : semaine du 14 décembre 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-dec-14.md)
@@ -230,19 +230,19 @@ ht-degree: 88%
             * [Activité Version des Objectifs Adobe Workfront 21.1 : semaine du 16 novembre 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-16.md)
          * [Objectifs Workfront avec la version 20.4](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
          * [Objectifs Workfront avec la version 20.3 - 14 août 2020](product-announcements/product-releases/goals-release-activity/goals-release-20-3.md)
-      * Activité de version de Workfront Proof {#proof-release}
-         * Épreuve avec version 23.3 {#proof-23-3-release}
+      * Activité Version de Workfront Proof {#proof-release}
+         * Proof avec la version 23.3 {#proof-23-3-release}
             * [Adobe Workfront Proof avec la version 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
             * [Activité Version d’Adobe Workfront Proof 23.3 : semaine du 17 juillet 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Activité de version Adobe Workfront Proof 23.3 : semaine du 5 juin 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Activité Version d’Adobe Workfront Proof 23.3 : semaine du 8 mai 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Activité Version de Workfront Proof : semaine du 17 mai 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Activité Version de Workfront Proof : semaine du 29 novembre 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
-      * Modernisation des interfaces {#interface-modernization}
+      * {#interface-modernization} de modernisation des interfaces
          * [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
-      * Archive de version trimestrielle {#quarterly-release}
+      * Archive des versions trimestrielles {#quarterly-release}
          * [Archive de version trimestrielle](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
-         * version 20.4 {#release-20-4}
+         * Version 20.4 {#release-20-4}
             * [Vue d’ensemble de la version 20.4](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [Améliorations de la gestion de projets (version 20.4)](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
             * [20. 4 Améliorations d’analyse](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
@@ -250,7 +250,7 @@ ht-degree: 88%
             * [Améliorations de l’épreuve (version 20.4)](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [Améliorations apportées à l’application mobile et à l’intégration (version 20.4)](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
             * [20.4 Autres améliorations](product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md)
-         * version 20.3 {#release-20-3}
+         * Version 20.3 {#release-20-3}
             * [Vue d’ensemble de la version 20.3](product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)
             * [20.3 Améliorations de la gestion des ressources](product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md)
             * [20.3 Améliorations d’Analytics](product-announcements/product-releases/20.3-release-activity/20-3-analytics-enhancements.md)
@@ -259,14 +259,14 @@ ht-degree: 88%
             * [Améliorations apportées à la méthode Agile (version 20.3)](product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md)
             * [20.3 Améliorations de l’intégration et de l’application mobile](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
             * [Autres améliorations (version 20.3)](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
-         * version 20.2 {#release-20-2}
+         * Version 20.2 {#release-20-2}
             * [Vue d’ensemble de la version 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
             * [Améliorations mobiles de la version 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
             * [Autres améliorations (version 2020.2)](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
             * [Améliorations apportées aux projets 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
             * [2020.2 Améliorations de la relecture](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
             * [Améliorations de la gestion des ressources (version 2020.2) : équilibreur de charge de travail](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
-         * version 20.1 {#release-20-1}
+         * Version 20.1 {#release-20-1}
             * [Vue d’ensemble de la version 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
             * [Améliorations des listes (version 2020.1)](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
             * [Améliorations apportées à l’application mobile (version 2020.1)](product-announcements/product-releases/2020.1-release-activity/2020-1-mobile-enhancements.md)
@@ -275,20 +275,20 @@ ht-degree: 88%
             * [2020.1 Améliorations apportées à la relecture](product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md)
             * [Améliorations de la gestion des ressources 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
             * [Autres fonctionnalités de Workfront Classic publiées dans l’environnement de production avant la version 2020.1](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
-         * version 2019.4 {#release-19-4}
+         * Version 2019.4 {#release-19-4}
             * [Vue d’ensemble de la version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
             * [Améliorations des listes (version 2019.4)](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
             * [2019.4 Améliorations mobiles](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
             * [Autres améliorations de la version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
             * [Améliorations de la gestion des ressources (version 2019.4)](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
             * [Autres fonctionnalités de Workfront Classic mises en production avant la version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
-         * version 2019.3 {#release-19-3}
+         * Version 2019.3 {#release-19-3}
             * [Vue d’ensemble de l’activité : version 2019.3](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
             * [Amélioration de la planification des ressources (version 2019.3)](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md)
             * [2019.3 Améliorations de la page d’accueil](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-home-enhancements.md)
             * [2019.3 Intégration et améliorations apportées aux appareils mobiles](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md)
             * [Améliorations des projets (version 2019.3)](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md)
-         * version 2019.2 {#release-19-2}
+         * Version 2019.2 {#release-19-2}
             * [Vue d’ensemble de l’activité Version 2019.2](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)
             * [Améliorations apportées à l’administration de la version 2019.2](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-administrator-enhancements.md)
             * [2019.2 Améliorations Agile](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-agile-enhancements.md)
@@ -296,14 +296,14 @@ ht-degree: 88%
             * [Améliorations de projet 2019.2](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md)
             * [2019.2 Améliorations de la relecture](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-proofing-enhancements.md)
             * [2019.2 Améliorations de la gestion des ressources](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md)
-         * version 2019.1 {#release-19-1}
+         * Version 2019.1 {#release-19-1}
             * [Activité Version 2019.1](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity.md)
             * [Vue d’ensemble de l’activité Version 2019.1](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
             * [Améliorations apportées à l’intégration et à l’application mobile de la version 2019.1](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-mbl-intgrtn-enhncmnts.md)
             * [Améliorations de projet 2019.1](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md)
             * [Améliorations apportées à la relecture dans la version 2019.1](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
             * [Améliorations de la gestion des ressources (version 2019.1)](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-rsrc-mngmnt-enhncmnts.md)
-         * version 2018.3 {#release-18-3}
+         * Version 2018.3 {#release-18-3}
             * [Activité Version 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md)
             * [Vue d’ensemble de l’activité de la version 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
             * [Activité Version 2018.3, version bêta 1](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
@@ -312,7 +312,7 @@ ht-degree: 88%
             * [Activité Version 2018.3 bêta 4](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
             * [Activité Version 2018.3, bêta 5](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
             * [Version bêta finale 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
-         * version 2018.2 {#release-18-2}
+         * Version 2018.2 {#release-18-2}
             * [Activité Version 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md)
             * [Vue d’ensemble de l’activité Version 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
             * [Activité Version 2018.2, version bêta 1](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
@@ -321,7 +321,7 @@ ht-degree: 88%
             * [Activité Version 2018.2, version bêta 4](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
             * [Activité Version 2018.2 bêta 5](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
             * [Activité Version finale bêta de la version 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
-         * version 2018.1 {#release-18-1}
+         * Version 2018.1 {#release-18-1}
             * [Activité Version 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md)
             * [Vue d’ensemble de l’activité Version 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
             * [Activité Version bêta 1 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
@@ -329,7 +329,7 @@ ht-degree: 88%
             * [Activité Version 2018.1 bêta 3](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
             * [Activité Version 2018.1 bêta 4](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
             * [Activité de la version bêta finale 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
-         * version 2017.3 {#release-17-3}
+         * Version 2017.3 {#release-17-3}
             * [Activité Version 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md)
             * [Vue d’ensemble des activités de la version 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
             * [Activité Version 2017.3, version bêta 1](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
@@ -338,7 +338,7 @@ ht-degree: 88%
             * [Activité Version 2017.3, version bêta 4](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
             * [Activité Version 2017.3, version bêta finale](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
             * [Webinaires de la version 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
-         * version 2017.2 {#release-17-2}
+         * Version 2017.2 {#release-17-2}
             * [Activité Version 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
             * [Vue d’ensemble de l’activité Version 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
             * [Activité Version 2017.2, version bêta 1](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
@@ -346,7 +346,7 @@ ht-degree: 88%
             * [Activité Version 2017.2, version bêta 3](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
             * [Activité Version 2017.2, version bêta finale](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
             * [Webinaires de la version 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
-         * Version Workfront R1 {#r1-release}
+         * Version R1 de Workfront {#r1-release}
             * [Version R1 de Workfront](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
             * [Vue d’ensemble de l’activité de la version R1](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
             * [Fonctionnalités disponibles dans l’environnement de prévisualisation en 2016](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
@@ -377,18 +377,18 @@ ht-degree: 88%
          * [Supprimer le serveur SMTP personnalisé en tant qu’option d’e-mail sortant](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
    * Programmes bêta {#beta}
       * [Programmes bêta](product-announcements/betas/betas.md)
-      * Beta des tableaux de bord de la zone de travail {#canvas-dashboards-beta}
+      * Version bêta des tableaux de bord Zone de travail {#canvas-dashboards-beta}
          * [Informations sur la version bêta des tableaux de bord Zone de travail](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [Vue d’ensemble de la zone de travail de reporting bêta](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
          * [Tableaux de bord de zone de travail bêta : activité version](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
-      * Nouvelle expérience de commentaires bêta {#new-commenting-experience-beta}
+      * Nouvelle expérience de commentaire bêta {#new-commenting-experience-beta}
          * [Informations sur la nouvelle expérience de commentaire bêta](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [Nouvelle expérience de commentaire](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Activité Version de la nouvelle expérience de commentaire bêta](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Questions fréquentes sur la nouvelle expérience de commentaire](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * Administration et configuration {#administration-and-setup}
    * [Administration et configuration : index des articles](administration-and-setup/administration-and-setup.md)
-   * Prise en main de l’administration {#get-started-administration}
+   * Commencer avec l’administration {#get-started-administration}
       * [Commencer avec l’administration : index des articles](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Vue d’ensemble de la définition des objectifs pour votre mise en œuvre Adobe Workfront](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [Gérer les licences disponibles dans votre système](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
@@ -399,7 +399,7 @@ ht-degree: 88%
       * [Envoyer des annonces](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
       * [Configuration requise du navigateur](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
       * [Différences basées sur les plateformes](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-   * Configuration de Workfront {#set-up-wf}
+   * Configurer Workfront {#set-up-wf}
       * [Configuration](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * Configurer les paramètres système par défaut {#configure-system-defaults}
          * [Configurer des valeurs par défaut](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
@@ -436,12 +436,12 @@ ht-degree: 88%
          * [Supprimer des fonctions](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
          * [Désactiver des fonctions](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [Remplacer les taux de facturation des fonctions](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
-      * Flux de mise à jour suivis par le système {#system-tracked-updates}
+      * Flux de mise à jour de suivi système {#system-tracked-updates}
          * [Mises à jour suivies par le système](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
          * [Mises à jour suivies par le système](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
          * [Configurer les mises à jour du système](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
          * [Configurer les préférences pour les mises à jour des utilisateurs et utilisatrices](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
-      * Environnements de test Adobe Workfront {#testing-environments}
+      * Environnements de test Adobe Workfront {#testing-environments}
          * [Environnements de test](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [Environnement Sandbox de prévisualisation](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [Environnement Sandbox d’actualisation personnalisé](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
@@ -454,9 +454,9 @@ ht-degree: 88%
          * [FAQ sur la promotion de l’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
          * [Résolution des problèmes liés à la promotion de l’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 
-   * Gestion des utilisateurs et utilisatrices {#add-users}
+   * User Management {#add-users}
       * [Gestion des utilisateurs et utilisatrices index des articles](administration-and-setup/add-users/add-users.md)
-      * Créer et gérer des utilisateurs {#create-manage-users}
+      * Créer et gérer des utilisateurs et des utilisatrices {#create-manage-users}
          * [Créer et gérer des utilisateurs et utilisatrices : index des articles](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [Ajouter des utilisateurs](administration-and-setup/add-users/create-and-manage-users/add-users.md)
          * [Importer des utilisateurs et utilisatrices](administration-and-setup/add-users/create-and-manage-users/import-users.md)
@@ -493,7 +493,7 @@ ht-degree: 88%
          * [Accès configurable pour chaque type d’objet](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
          * [Niveaux d’accès intégrés](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
          * [Répertorier les niveaux d’accès et les licences des utilisateurs et utilisatrices](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-      * Configuration de l&#39;accès à Workfront {#configure-access}
+      * Configurer l’accès à Workfront {#configure-access}
          * [Configurer l’accès](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [Créer ou modifier les niveaux d’accès personnalisés](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
          * [Accorder un accès administratif](administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
@@ -532,7 +532,7 @@ ht-degree: 88%
          * [Branding personnalisé](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [Personnaliser le branding de votre instance](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
          * [Configurer une URL d’aide personnalisée](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
-      * Modèles de mise en page {#layout-templates}
+      * Modèles de disposition {#layout-templates}
          * [Modèles de mise en page](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [Disposition Workfront par défaut](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
          * [Créer et gérer des modèles de disposition](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
@@ -555,7 +555,7 @@ ht-degree: 88%
       * Formulaires personnalisés {#custom-forms}
          * [Formulaires personnalisés : index des articles](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Vue d’ensemble des formulaires personnalisés](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-         * Création d’un formulaire personnalisé {#design-a-form}
+         * Concevoir un formulaire personnalisé {#design-a-form}
             * [Créer un formulaire : index d’article](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
             * [Créer un formulaire personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
             * [Création d’un formulaire à partir d’une copie](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
@@ -563,7 +563,7 @@ ht-degree: 88%
             * [Ajout de règles logiques aux formulaires et champs personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
             * [Exemples de champ de recherche externe dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
             * [Organisation et prévisualisation d’un formulaire](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
-         * Gestion des formulaires personnalisés {#manage-custom-forms}
+         * Gérer des formulaires personnalisés {#manage-custom-forms}
             * [Gestion des formulaires et champs personnalisés : index des articles](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
             * [Ajouter ou supprimer des types d’objet d’un formulaire personnalisé existant](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
             * [Renommer un formulaire personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
@@ -595,7 +595,7 @@ ht-degree: 88%
          * [Répertorier les objets en attente ayant un certain statut](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
          * [Créer et personnaliser les priorités](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
          * [Créer et personnaliser les niveaux de gravité des problèmes](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
-      * Processus d&#39;approbation et pages jalons {#approvals-milestones}
+      * Pages sur les processus d’approbation et les jalons {#approvals-milestones}
          * [Processus d’approbation et chemins de jalon](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
          * [Créer un processus d’approbation](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
          * [Modifier un processus d’approbation](administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
@@ -623,7 +623,7 @@ ht-degree: 88%
          * [Configurer l’accès à la relecture pour une personne](administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)
          * [Partage des épreuves](administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
          * [Modèles de workflows automatisés](administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
-      * Configurer des rapports {#configure-reports}
+      * Configurer les rapports {#configure-reports}
          * [Configurer des rapports](administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
          * [Masquer les rapports](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
       * E-mails {#emails}
@@ -665,7 +665,7 @@ ht-degree: 88%
       * Diagnostics {#diagnostics}
          * [Diagnostics](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
          * [Utiliser les diagnostics pour déclencher des automatisations](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
-      * Lancements {#kick-starts}
+      * Kick-Starts {#kick-starts}
          * [Lancements](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
          * [Exporter les données de Workfront via les Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
          * [Importer des données à l’aide d’un modèle Kick-Start](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
@@ -709,7 +709,7 @@ ht-degree: 88%
          * [Affecter un administrateur ou une administratrice de groupes](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
          * [Fonctionnalités de l’administrateur ou administratrice de groupes](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
          * [Vue d’ensemble de la personne chef d’entreprise](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
-      * Gérer les status de groupe {#group-statuses}
+      * Gérer les statuts de groupe {#group-statuses}
          * [Gérer les status de groupe](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
          * [Créer ou modifier un statut de groupe](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
          * [Réorganiser les statuts des groupes](administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
@@ -719,7 +719,7 @@ ht-degree: 88%
          * [Supprimer le statut d’un groupe](administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
          * [Statuts des groupes déplacés et supprimés](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
          * [Statuts des groupes déplacés et copiés](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
-      * Utiliser des objets d’un groupe {#group-objects}
+      * Travailler avec les objets d’un groupe {#group-objects}
          * [Gérer les objets des groupes](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
          * [Gérer les entreprises des groupes](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
          * [Gérer les modèles de disposition des groupes](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
@@ -757,7 +757,7 @@ ht-degree: 88%
       * [Configurer un plan directeur](administration-and-setup/blueprints/configure-template-package.md)
       * [Actions à entreprendre après l’installation d’un plan directeur](administration-and-setup/blueprints/best-next-actions-after-install.md)
       * [Liste des plans directeurs disponibles](administration-and-setup/blueprints/list-of-available-blueprints.md)
-   * Administration dans Adobe Admin Console {#admin-in-admin-console}
+   * Administration dans Adobe Admin Console {#admin-in-admin-console}
       * [Administration Workfront dans Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Se préparer pour Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
       * [Comprendre la migration de Workfront vers Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
@@ -792,13 +792,13 @@ ht-degree: 88%
    * [Glossaire de la terminologie Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Configuration requise pour le navigateur Adobe Workfront](workfront-basics/workfront-browser-requirements.md)
    * [Langues prises en charge dans Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
-   * Navigation dans Adobe Workfront {#navigate}
+   * Naviguer dans Adobe Workfront {#navigate}
       * [Naviguer dans Adobe Workfront : index des articles](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Recherche dans Adobe Workfront {#search}
          * [Recherche dans Adobe Workfront](workfront-basics/navigate-workfront/search/search.md)
          * [Rechercher dans Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
          * [Utiliser le numéro de référence des objets](workfront-basics/navigate-workfront/search/reference-number-of-objects.md)
-      * Récents et favoris dans Adobe Workfront {#recents-and-favorites}
+      * Récents et favoris dans Adobe Workfront {#recents-and-favorites}
          * [Récents et favoris dans Adobe Workfront](workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
          * [Afficher et gérer les favoris](workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)
          * [Afficher les éléments récents](workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)
@@ -839,7 +839,7 @@ ht-degree: 88%
       * [Rattrapage du travail dans les priorités](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
       * [Charger des documents et créer des épreuves dans les priorités](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
       * [Gérer votre travail dans le calendrier des priorités](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
-   * Page d’accueil {#home}
+   * Accueil {#home}
       * [Page d’accueil](workfront-basics/using-home/home.md)
       * Utiliser la zone d’accueil {#use-home-area}
          * [Utilisez la zone Accueil : index des articles](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
@@ -855,7 +855,7 @@ ht-degree: 88%
          * [Consigner les heures passées sur un élément de travail à partir de la zone Accueil](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Marquer un élément comme Terminé dans la zone Accueil](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [Utiliser la zone Mes mises à jour](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-   * Assistant IA {#ai-assistant}
+   * Assistant IA {#ai-assistant}
       * [Assistant IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
       * [Présentation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Résumer à l’aide de l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
@@ -902,7 +902,7 @@ ht-degree: 88%
       * [Notifications : Informations sur le travail qui m’a été affecté](workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md)
       * [Notifications : informations diverses](workfront-basics/using-notifications/notifications-misc-information.md)
       * [Notifications : Demandes que j’ai effectuées](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
-   * Accorder et demander des autorisations sur des objets {#grant-request-object-permissions}
+   * Accorder et demander des autorisations à des objets {#grant-request-object-permissions}
       * [Accorder et demander des autorisations sur des objets](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
       * [Vue d’ensemble du partage des autorisations sur les objets](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
       * [Autoriser l’accès aux objets de la zone d’accueil](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
@@ -936,7 +936,7 @@ ht-degree: 88%
          * [Réinitialiser votre mot de passe](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * Applications mobiles {#mobile-apps}
       * [Applications mobiles](workfront-basics/mobile-apps/mobile-apps.md)
-      * Utilisation des applications mobiles Adobe Workfront {#use-workfront-mobile-app}
+      * Utiliser les applications mobiles Adobe Workfront {#use-workfront-mobile-app}
          * [Utiliser l’application mobile Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
          * [Adobe Workfront pour Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
          * [Devenir bêta-testeur sur Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
@@ -962,7 +962,7 @@ ht-degree: 88%
       * Conseils, astuces et dépannage pour les applications mobiles Adobe Workfront {#tips-tricks-for-mobile-apps}
          * [Conseils, astuces et dépannage pour les applications mobiles Adobe Workfront](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
          * [Message d’erreur sur l’application mobile Adobe Workfront : « Votre compte n’est pas compatible avec l’API ».](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
-   * Conseils, astuces et dépannage pour les concepts de base d’Adobe Workfront {#tips-tricks-for-basics}
+   * Conseils, astuces et dépannage pour les concepts de bases d’Adobe Workfront {#tips-tricks-for-basics}
       * [Conseils, astuces et dépannage pour Adobe Workfront : index d’article](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [Guide rapide pour trouver de l’aide dans Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
       * [Modifier le format des dates dans Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
@@ -979,7 +979,7 @@ ht-degree: 88%
 * Agile {#agile}
    * [Agile](agile/agile.md)
    * [Vue d’ensemble des panoramas](agile/boards-overview.md)
-   * Prise en main des tableaux dans Adobe Workfront {#boards-in-workfront}
+   * Commencer avec les panoramas dans Adobe Workfront {#boards-in-workfront}
       * [Commencer avec les panoramas : index des articles](agile/get-started-with-boards/get-started-with-boards.md)
       * [Démonstrations vidéo des tableaux Workfront](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Opt-in anticipé aux fonctionnalités des panoramas](agile/get-started-with-boards/boards-early-feature-opt-in.md)
@@ -1067,12 +1067,12 @@ ht-degree: 88%
       * [Créer une story agile](agile/work-in-an-agile-environment/create-an-agile-story.md)
       * [Gérer la liste d’attente Agile](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
       * [Déplacer une story agile](agile/work-in-an-agile-environment/move-an-agile-story.md)
-   * Conseils, astuces et dépannage pour Agile {#tips-tricks-agile}
+   * Conseils, astuces et dépannage pour la méthode agile {#tips-tricks-agile}
       * [Conseils, astuces et dépannage pour Agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Les statuts personnalisés ne s’affichent pas sur le Storyboard Agile.](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documents {#documents}
    * [Documents : index des articles](documents/documents-overview.md)
-   * Ajouter de nouveaux documents à Adobe Workfront {#add-new-documents-to-workfront}
+   * Ajouter de nouveaux documents à Adobe Workfront {#add-new-documents-to-workfront}
       * [Ajouter de nouveaux documents à Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
       * [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
       * [Lier des documents à partir d’applications externes](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
@@ -1113,7 +1113,7 @@ ht-degree: 88%
          * [Envoyer un document avec le connecteur amélioré](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
          * [Épreuve d’une ressource liée avec le connecteur amélioré](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [Afficher ou télécharger une ressource liée avec le connecteur amélioré](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
-      * Adobe Workfront pour Experience Manager Assets et Assets Essentials {#wf-aem-essentials}
+      * Adobe Workfront pour Experience Manager Assets et Assets Essentials {#wf-aem-essentials}
          * [Adobe Workfront pour Experience Manager Assets et Assets Essentials : index de l’article](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Vue d’ensemble des intégrations d’Adobe Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Lier des ressources et des dossiers à partir d’Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
@@ -1176,7 +1176,7 @@ ht-degree: 88%
          * [Interactions entre la date d’engagement et la date d’achèvement prévue](manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)
          * [Mettre à jour la condition pour les tâches et les problèmes](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
          * [Mettre à jour la condition d’un projet](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
-      * Gestion des projets {#manage-projects}
+      * Gérer des projets {#manage-projects}
          * [Gérer des projets : index des articles](manage-work/projects/manage-projects/manage-projects-overview.md)
          * [Modifier les projets](manage-work/projects/manage-projects/edit-projects.md)
          * [Copier un projet](manage-work/projects/manage-projects/copy-project.md)
@@ -1216,7 +1216,7 @@ ht-degree: 88%
          * [Supprimer les informations sur les modèles d’un projet](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
          * [Vue d’ensemble des jours de début et d’achèvement dans un modèle](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [Vue d’ensemble d’un modèle joint à un projet](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
-      * Définition d’un business case {#define-business-case}
+      * Définir une analyse de rentabilité {#define-business-case}
          * [Définir un business case : index des articles](manage-work/projects/define-a-business-case/define-business-case.md)
          * [Vue d’ensemble des zones du business case](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [Créer une analyse de rentabilité pour un projet](manage-work/projects/define-a-business-case/create-business-case.md)
@@ -1267,7 +1267,7 @@ ht-degree: 88%
          * [Exemple de calcul - Calculer l’estimation à l’achèvement à l’échelle du projet](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
    * Tâches {#tasks}
       * [Tâches : index des articles](manage-work/tasks/tasks-overview.md)
-      * Informations sur les tâches {#task-information}
+      * Informations sur la tâche {#task-information}
          * [Informations sur les tâches](manage-work/tasks/task-information/task-information.md)
          * [Vue d’ensemble des tâches](manage-work/tasks/task-information/tasks-overview.md)
          * [Afficher les heures effectives](manage-work/tasks/task-information/actual-hours.md)
@@ -1294,7 +1294,7 @@ ht-degree: 88%
          * [Créer des tâches dans un projet](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [Créer des sous-tâches](manage-work/tasks/create-tasks/create-subtasks.md)
          * [Créer des tâches récurrentes](manage-work/tasks/create-tasks/create-recurring-tasks.md)
-      * Attribuer des tâches {#assign-tasks}
+      * Affecter des tâches {#assign-tasks}
          * [Attribuer des tâches](manage-work/tasks/assign-tasks/assign-tasks-1.md)
          * [Attribuer des tâches](manage-work/tasks/assign-tasks/assign-tasks.md)
          * [Créer des affectations avancées](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -1333,7 +1333,7 @@ ht-degree: 88%
          * [Vue d’ensemble des contraintes de tâche : Aussi tôt que possible](manage-work/tasks/task-constraints/as-soon-as-possible.md)
          * [Vue d’ensemble des contraintes de tâches : Aussi tard que possible](manage-work/tasks/task-constraints/as-late-as-possible.md)
          * [Mettre à jour la contrainte d’une tâche](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
-      * Durée de la tâche et types de durée {#task-duration-and-duration-types}
+      * Durée de tâche et types de durée {#task-duration-and-duration-types}
          * [Durée de tâche et types de durée : index de l’article](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
          * [Vue d’ensemble de la durée des tâches et du type de durée](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
          * [Vue d’ensemble du type de durée : calcul d’affectation](manage-work/tasks/taskdurtn/calculated-assignment.md)
@@ -1354,7 +1354,7 @@ ht-degree: 88%
          * [Appliquer les tâches antérieures](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
          * [Vue d’ensemble des types de décalage](manage-work/tasks/use-prdcssrs/lag-types.md)
          * [Vue d’ensemble de la boucle de dépendance des tâches](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
-      * Conseils, astuces et résolution des problèmes pour les tâches {#tips-tricks-and-troubleshooting-for-tasks}
+      * Conseils, astuces et dépannage pour les tâches {#tips-tricks-and-troubleshooting-for-tasks}
          * [Conseils, astuces et résolution des problèmes pour les tâches](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
          * [FAQ sur les tâches](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
          * [La durée prévisionnelle ne correspond pas à la durée prévue.](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
@@ -1399,7 +1399,7 @@ ht-degree: 88%
          * [Mettre à jour des informations dans le graphique de Gantt de la liste des tâches](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
          * [Ressources de niveau dans le graphique de Gantt](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
          * [Exporter le graphique de Gantt au format PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-   * Gestion du portefeuille {#portfolio-management}
+   * Gestion de portfolio {#portfolio-management}
       * [Gestion du portefeuille](manage-work/portfolios/portfolio-management-overview.md)
       * Vue d’ensemble du portfolio dans Adobe Workfront {#portfolio-overview-in-adobe-workfront}
          * [Portefeuilles](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
@@ -1449,7 +1449,7 @@ ht-degree: 88%
          * [Partager un lien vers une file d’attente des demandes](manage-work/requests/create-requests/share-link-to-request-queue.md)
          * [Supprimer un brouillon de demande](manage-work/requests/create-requests/delete-request-draft.md)
          * [Copier et soumettre les demandes](manage-work/requests/create-requests/copy-and-submit-requests.md)
-   * Déléguer le travail {#delegate-work}
+   * Déléguer un travail {#delegate-work}
       * [Déléguer le travail](manage-work/delegate-work/delegate-work.md)
       * [Vue d’ensemble de la délégation des tâches et des problèmes](manage-work/delegate-work/delegate-work-overview.md)
       * [Déléguer des tâches et problèmes](manage-work/delegate-work/how-to-delegate-work.md)
@@ -1470,7 +1470,7 @@ ht-degree: 88%
       * [Travailler directement avec d’autres personnes](people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
       * [Envoyer des messages directs à d’autres utilisateurs et utilisatrices](people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
       * [Voir l’organigramme](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
-   * Utiliser les groupes et les équipes {#work-with-groups-teams}
+   * Travailler avec des groupes et des équipes {#work-with-groups-teams}
       * [Utiliser les groupes et les équipes](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
       * [Groupes par rapport aux équipes dans Adobe Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
    * Travailler avec les demandes de l’équipe {#work-with-team-requests}
@@ -1482,23 +1482,23 @@ ht-degree: 88%
       * [Nom d’utilisateur déjà utilisé](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Rapports {#reporting}
    * [Rapports et tableaux de bord : index des articles](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * Tableaux de bord Zone de travail. {#canvas-dashboards}
+   * Tableaux de bord de zones de travail {#canvas-dashboards}
       * [Tableaux de bord Zone de travail.](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
       * Gérer les tableaux de bord de zones de travail {#manage-canvas-dashboards}
          * [Gérer les tableaux de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [Commencer avec les tableaux de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
          * [Ajouter, supprimer ou organiser des rapports dans un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
          * [Partager un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-      * Types de rapports du tableau de bord de la zone de travail {#report-types}
+      * Types de rapports du tableau de bord de zones de travail {#report-types}
          * [Vue d’ensemble des types de rapports du tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [Ajouter un rapport existant à un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
    * Rapports {#reports}
       * [Rapports](reports-and-dashboards/reports/reports-overview.md)
-      * Concepts de base de la création de rapports {#report-basics}
+      * Concepts de base du reporting {#report-basics}
          * [Principes de base de la création de rapports : index des articles](reports-and-dashboards/reports/reporting/reporting-basics.md)
          * [Commencer avec les rapports](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [Enregistrer les rapports par défaut en tant que nouveaux rapports](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
-      * Eléments de reporting {#report-elements}
+      * Éléments de rapport {#report-elements}
          * [Vue d’ensemble des éléments de création de rapport](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
          * [Éléments de rapport : filtres, vues et regroupements](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
          * [Vue d’ensemble des filtres](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
@@ -1529,7 +1529,7 @@ ht-degree: 88%
          * [Exécuter un rapport](reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
          * [Créer un rapport de matrice](reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
          * [Créer une copie d’un rapport](reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
-         * [Filtrer les rapports par périodes.](reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
+         * [Filtrage des rapports par périodes](reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
          * [Ajouter une invite à un rapport](reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
          * [Ajouter un graphique à un rapport](reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
          * [Vue d’ensemble de la diffusion des rapports](reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)
@@ -1553,7 +1553,7 @@ ht-degree: 88%
          * [Exemple de champ personnalisé calculé : afficher la personne responsable du créateur ou de la créatrice d’un problème dans le formulaire personnalisé du problème](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
          * [Exemple de champ personnalisé calculé : afficher la date et l’heure d’un statut dans un formulaire personnalisé](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
          * [Exemple de champ personnalisé calculé : afficher l’historique des modifications d’un champ](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
-      * Exemples d’affichage, de filtre et de regroupement personnalisés {#custom-view-samples}
+      * Exemples de vues, de filtres et de regroupements personnalisés {#custom-view-samples}
          * [Exemples de vues, de filtres et de regroupements personnalisés : index des articles](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [Rapports ou listes : afficher les utilisateurs et utilisatrices associés à un objet](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [Filtre : afficher les projets transversaux antérieurs incomplets](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
@@ -1698,7 +1698,7 @@ ht-degree: 88%
       * [Afficher la visualisation de l’activité de projet dans Analytique améliorée](enhanced-analytics/project-activity-overview.md)
       * [Afficher la visualisation d’arborescence du projet dans Analytique améliorée](enhanced-analytics/project-treemap-overview.md)
       * [Afficher la visualisation Activité par équipe dans l’analytique améliorée](enhanced-analytics/activity-by-team-overview.md)
-   * Workfront Data Connect {#data-lake}
+   * {#data-lake} de Workfront Data Connect
       * [Présentation de Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Créer un compte de lecteur ou une connexion pour Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Établir une connexion à Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
@@ -1722,9 +1722,9 @@ ht-degree: 88%
    * Gestion des ressources {#resource-management}
       * [Gestion des ressources](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Commencer avec la gestion des ressources](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-   * Planifier des ressources dans Adobe Workfront {#resource-planning-in-adobe-workfront}
+   * Planification des ressources dans Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planification des ressources : index des articles](resource-mgmt/resource-planning/resource-planning-overview.md)
-      * Pools de ressources {#resource-pools}
+      * Groupes de ressources {#resource-pools}
          * [Pools de ressources](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
          * [Vue d’ensemble des groupes de ressources](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
          * [Créer des groupes de ressources](resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
@@ -1767,7 +1767,7 @@ ht-degree: 88%
       * [Trouver l’équilibreur de charge de travail](resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
       * [Partager l’équilibreur de charge de travail avec un lien](resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
       * [Mettre à jour des éléments de travail dans l’équilibreur de charge de travail à l’aide du résumé](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
-* Vérifier et approuver du travail {#review-and-approve-work}
+* Vérifier et approuver un travail {#review-and-approve-work}
    * [Vérifier et approuver du travail](review-and-approve-work/review-and-approve-work.md)
    * [Programme Alpha – Approbations des documents](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Vue d’ensemble du statut de décision limitée des documents et de l’épreuve pour les utilisateurs et utilisatrices non payants](review-and-approve-work/proof-doc-decision-limits.md)
@@ -1783,12 +1783,12 @@ ht-degree: 88%
       * [Déléguer une demande d’approbation](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associer un processus d’approbation nouveau ou existant au travail](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Rappeler les approbations soumises](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Révision et approbation des ressources et des documents {#document-reviews-and-approvals}
+   * Examen et approbation des ressources et des documents {#document-reviews-and-approvals}
       * [Révision et approbation des ressources et des documents : index des articles](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Fonctionnalités disponibles pour la révision et l’approbation des ressources et des documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Aperçu des validations unifiées](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Aperçu du statut de décision du document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * Configurer et gérer les approbations de ressources et de documents {#manage-asset-review-and-approval}
+      * Configuration et gestion des {#manage-asset-review-and-approval} d’approbation des ressources et des documents
          * [Configurer et gérer les approbations de ressources et de documents : index des articles](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Créer une demande de révision ou d’approbation de document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Ajouter d’autres réviseurs ou approbateurs à une ressource ou un document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
@@ -1826,7 +1826,7 @@ ht-degree: 88%
          * [Créer une épreuve pour un document](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [Créer une épreuve avancée avec un workflow de base](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [Créer une épreuve avancée avec un workflow automatisé](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-      * Gestion des BAT dans Adobe Workfront {#manage-proofs-in-workfront}
+      * Gérer les épreuves dans Adobe Workfront {#manage-proofs-in-workfront}
          * [Gestion des épreuves dans Adobe Workfront : index d’article](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
          * Gérer les épreuves {#manage-proofs}
             * [Gérer les épreuves : index d’article](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
@@ -1837,7 +1837,7 @@ ht-degree: 88%
             * [Afficher l’activité d’une épreuve dans Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
             * [Utiliser le rapport d’approbation de l’épreuve](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Accéder à Workfront Proof à partir d’Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
-         * Gérer les versions des BAT {#manage-proof-versions}
+         * Gérer les versions des épreuves {#manage-proof-versions}
             * [Gérer les versions d’épreuve : index des articles](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [Créer une version d’une épreuve](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [Afficher les versions des épreuves](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
@@ -1872,9 +1872,9 @@ ht-degree: 88%
          * [Ouvrir des épreuves dans la visionneuse de relecture](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [Réviser du contenu non interactif dans la visionneuse de relecture de bureau](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [Questions fréquentes - Visionneuse de relecture de bureau](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
-      * Révision de BAT dans Adobe Workfront {#review-proofs-in-workfront}
+      * Réviser des épreuves dans Adobe Workfront {#review-proofs-in-workfront}
          * [Vérifier des épreuves dans Adobe Workfront : index des articles](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
-         * Vérifier une épreuve {#review-a-proof}
+         * Réviser une épreuve {#review-a-proof}
             * [Examiner un BAT : index des articles](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [Afficher le contenu dans une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [Mesurer une zone à l’intérieur d’une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
@@ -1892,7 +1892,7 @@ ht-degree: 88%
             * [Modifier la résolution de l’épreuve interactive dans la visionneuse de relecture](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Configurer des paramètres de la visionneuse de relecture](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
             * [Révision de contenu interactif avec l’outil de révision Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
-         * Commentaire sur une épreuve {#comment-on-a-proof}
+         * Commenter une épreuve {#comment-on-a-proof}
             * [Commentaire sur les BAT : index de l&#39;article](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Commentaire sur une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [Afficher et répondre à des commentaires d’épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
@@ -1907,7 +1907,7 @@ ht-degree: 88%
             * [Approuver une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [Prendre une décision sur une épreuve dans la visionneuse de relecture](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [Modifier une décision existante sur une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
-      * Conseils, astuces et dépannage pour la relecture dans Adobe Workfront {#ttt-proofing-in-workfront}
+      * Conseils, astuces et dépannage pour la relecture dans Adobe Workfront {#ttt-proofing-in-workfront}
          * [Conseils, astuces et dépannage pour la relecture dans Adobe Workfront : index d’article](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [Répertorier les titulaires d’une licence de relecture dans Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [Modifier le champ Profil d’autorisation d’épreuve en masse](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
@@ -1920,7 +1920,7 @@ ht-degree: 88%
       * [Afficher le nombre de décisions d’épreuve et de document pour tous les utilisateurs et utilisatrices](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Feuilles de temps {#timesheets}
    * [Feuilles de temps : index des articles](timesheets/timesheets-all.md)
-   * Détails de la feuille de temps {#details}
+   * Détails sur la feuille de temps {#details}
       * [Détails de la feuille de temps : index des articles](timesheets/timesheets/timesheets.md)
       * [Vue d’ensemble des feuilles de temps](timesheets/timesheets/timesheets-overview.md)
       * [Vue d’ensemble de la disposition des feuilles de temps](timesheets/timesheets/timesheet-layout.md)
@@ -1939,7 +1939,7 @@ ht-degree: 88%
       * [Supprimer des feuilles de temps dans Adobe Workfront](timesheets/create-and-manage-timesheets/delete-timesheets.md)
       * [Générer manuellement des feuilles de temps](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [Exporter une liste de feuilles de temps](timesheets/create-and-manage-timesheets/export-timesheets.md)
-   * Configurer la manière dont le temps est consigné {#configure-timesheet-preferences}
+   * Configurer l’enregistrement des heures {#configure-timesheet-preferences}
       * [Configurer l’enregistrement des heures : index de l’article](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [Indiquer si le temps est consigné en heures ou en jours](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
    * Conseils, astuces et dépannage pour les feuilles de temps {#tips-tricks-troubleshooting-for-timesheets}
@@ -1948,7 +1948,7 @@ ht-degree: 88%
       * [Empêcher l’action Recalculer les finances d’affecter les heures historiques lorsque les taux changent](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [Suivre les relevés d’heures avec l’API Adobe Workfront](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
       * [Impossible de consigner des heures pour des dates ultérieures](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
-* Planificateur de scénarios Adobe Workfront {#scenario-planner}
+* Planificateur de scénarios Adobe Workfront {#scenario-planner}
    * [Planificateur de scénarios Adobe Workfront](scenario-planner/scenario-planning.md)
    * [Commencer avec le planificateur de scénarios](scenario-planner/get-started-with-scenario-planning.md)
    * [Vue d’ensemble du planificateur de scénarios](scenario-planner/scenario-planner-overview.md)
@@ -1973,7 +1973,7 @@ ht-degree: 88%
 * Objectifs Adobe Workfront {#adobe-workfront-goals}
    * [Objectifs d’Adobe Workfront : index des articles](workfront-goals/workfront-goals.md)
    * [Vue d’ensemble d’Objectifs Adobe Workfront](workfront-goals/goal-management/wf-goals-overview.md)
-   * Gérer des objectifs dans Objectifs Adobe Workfront {#goal-management}
+   * Gestion des objectifs dans Objectifs Adobe Workfront {#goal-management}
       * [Gestion des objectifs dans Adobe Workfront Objectifs : index des articles](workfront-goals/goal-management/goal-management.md)
       * [Commencer avec les Objectifs Adobe Workfront](workfront-goals/goal-management/getting-started-with-wf-goals.md)
       * [Accéder aux objectifs et les ouvrir dans Objectifs Adobe Workfront](workfront-goals/goal-management/access-goals-in-wf-goals.md)
@@ -1997,13 +1997,13 @@ ht-degree: 88%
       * [Vue d’ensembe de l’alignement des objectifs dans les Objectifs Adobe Workfront](workfront-goals/goal-alignment/goal-alignment-overview.md)
       * [Naviguer dans la section Alignement des objectifs d’Objectifs Adobe Workfront](workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)
       * [Supprimer l’alignement des objectifs dans Objectifs Adobe Workfront](workfront-goals/goal-alignment/remove-goal-alignment.md)
-   * Révision des objectifs et sections d’Objectifs Adobe Workfront {#goal-review-and-adobe-workfront-goals-sections}
+   * Examen des objectifs et sections dans Objectifs Adobe Workfront {#goal-review-and-adobe-workfront-goals-sections}
       * [Révision des objectifs et sections d’Objectifs Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
       * [Vue d’ensemble des sections d’Objectifs Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
       * [Mettre à jour la progression des objectifs dans Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [Gérer des objectifs dans la liste des objectifs d’Objectifs Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [Examiner les graphiques pour comprendre les tendances de la progression des objectifs dans Objectifs Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-   * Résultats et activités dans Objectifs Adobe Workfront {#results-activities-adobe-workfront-goals}
+   * Résultats et activités dans Objectifs Adobe Workfront {#results-activities-adobe-workfront-goals}
       * [Résultats et activités dans Objectifs Adobe Workfront](workfront-goals/results-and-activities/results-and-activities.md)
       * [Ajouter des activités aux objectifs dans Objectifs Adobe Workfront](workfront-goals/results-and-activities/add-activities-to-goals.md)
       * [Ajouter des résultats aux objectifs dans les Objectifs Adobe Workfront](workfront-goals/results-and-activities/add-results-to-goals.md)
@@ -2011,14 +2011,14 @@ ht-degree: 88%
       * [Modification des résultats et des activités dans Objectifs Adobe Workfront](workfront-goals/results-and-activities/edit-results-and-activities.md)
       * [Commencer avec les résultats et les activités dans les Objectifs Adobe Workfront](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
       * [Suppression des indicateurs de progression des objectifs dans Objectfs Adobe Workfront](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
-   * Paramètres d’Objectifs Adobe Workfront {#adobe-workfront-goal-settings}
+   * Paramètres des Objectifs Adobe Workfront {#adobe-workfront-goal-settings}
       * [Paramètres d’Objectifs Adobe Workfront](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
       * [Personnaliser la terminologie d’Objectifs Adobe Workfront](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Partager un objectif dans Objectifs Workfront](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Activer les notifications d’Objectifs Adobe Workfront](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Planification d’Adobe Workfront {#adobe-workfront-planning}
+* Adobe Workfront Planning {#adobe-workfront-planning}
    * [Adobe Workfront Planning : index des articles](planning/planning-information.md)
-   * Informations générales sur Adobe Workfront Planning {#adobe-workfront-planning-general-information}
+   * Informations générales sur Adobe Workfront Planning {#adobe-workfront-planning-general-information}
       * [Informations sur Adobe Workfront Planning : index des articles](planning/general/planning-general-article-index.md)
       * [Vue d’ensemble d’Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Bonnes pratiques relatives à Adobe Workfront Planning](planning/general/planning-best-practices.md)
@@ -2027,7 +2027,7 @@ ht-degree: 88%
       * [Activité de publication de la planification Adobe Workfront pour 2024](planning/general/release-activity.md)
       * [Activité de publication de la planification Adobe Workfront pour 2023](planning/general/release-activity-archives-2023.md)
       * [Présentation des limitations d’objet d’Adobe Workfront Planning](planning/general/limitations-overview.md)
-   * Architecture d’Adobe Workfront Planning {#adobe-workfront-planning-architecture}
+   * Architecture d’Adobe Workfront Planning {#adobe-workfront-planning-architecture}
       * [Architecture : index des articles](planning/architecture/architecture-information.md)
       * [Présentation des espaces de travail](planning/architecture/workspaces-overview.md)
       * [Créer des espaces de travail](planning/architecture/create-workspaces.md)
@@ -2042,7 +2042,7 @@ ht-degree: 88%
       * [Supprimer des types d’enregistrements](planning/architecture/delete-record-types.md)
       * [Exemple de connexion de types d’enregistrements et d’enregistrements](planning/architecture/example-connect-record-types-and-records.md)
       * [Liste des modèles d’espace de travail](planning/architecture/workspace-templates.md)
-   * Champs Adobe Workfront Planning {#adobe-workfront-planning-fields}
+   * Champs d’Adobe Workfront Planning {#adobe-workfront-planning-fields}
       * [Champs : index des articles](planning/fields/fields-information.md)
       * [Vue d’ensemble des champs](planning/fields/fields-overview.md)
       * [Créer des champs](planning/fields/create-fields.md)
@@ -2051,7 +2051,7 @@ ht-degree: 88%
       * [Vue d’ensemble des champs de formule](planning/fields/formula-fields.md)
       * [Importer des champs depuis Adobe Workfront](planning/fields/import-fields-from-workfront.md)
       * [Présentation des champs de Principal](planning/fields/primary-field-overview.md)
-   * Accès à Adobe Workfront Planning {#adobe-workfront-planning-access}
+   * Accès à Adobe Workfront Planning {#adobe-workfront-planning-access}
       * [Informations sur l’accès à Adobe Workfront Planning : index des articles](planning/access/access-information.md)
       * [Présentation de l’accès à Adobe Workfront Planning](planning/access/access-overview.md)
       * [Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
@@ -2080,31 +2080,31 @@ ht-degree: 88%
       * [Exporter les détails d’un enregistrement](planning/records/export-the-record-page.md)
       * [Créer des objets Workfront à partir de Workfront Planning en les connectant à des enregistrements](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Création d’objets à l’aide de l’automatisation des enregistrements Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
-   * Requêtes Adobe Workfront Planning {#adobe-workfront-planning-requests}
+   * {#adobe-workfront-planning-requests} des demandes Adobe Workfront Planning
       * [Requêtes Adobe Workfront Planning : index des articles](planning/requests/requests-article-index.md)
       * [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](planning/requests/create-request-form.md)
       * [Envoi de requêtes Adobe Workfront Planning pour créer des enregistrements](planning/requests/submit-requests.md)
       * [Dépublication d’un formulaire de demande dans Adobe Workfront Planning](planning/requests/unpublish-request-form.md)
       * [Ajouter une approbation à un formulaire de demande dans Adobe Workfront Planning](planning/requests/add-approval-to-request-form.md)
       * [Approuver une demande dans Adobe Workfront Planning](planning/requests/approve-request.md)
-   * Vues Adobe Workfront Planning {#adobe-workfront-planning-views}
+   * Vues d’Adobe Workfront Planning {#adobe-workfront-planning-views}
       * [Vues : index des articles](planning/views/views-information.md)
       * [Gérer les vues d’enregistrement](planning/views/manage-record-views.md)
       * [Gérer la vue de tableau](planning/views/manage-the-table-view.md)
       * [Gérer la vue chronologique](planning/views/manage-the-timeline-view.md)
       * [Gérer la vue de calendrier](planning/views/manage-the-calendar-view.md)
-   * Notifications Adobe Workfront Planning {#adobe-workfront-planning-notifications}
+   * Notifications d’Adobe Workfront Planning {#adobe-workfront-planning-notifications}
       * [Notifications d’Adobe Workfront Planning : index des articles](planning/notifications/notifications-information.md)
       * [Gérer les préférences de notification d’Adobe Workfront Planning](planning/notifications/manage-notification-preferences.md)
       * [Gérer les notifications par e-mail d’Adobe Workfront Planning](planning/notifications/manage-planning-email-notifications.md)
       * [Gérer les notifications in-app d’Adobe Workfront Planning](planning/notifications/manage-planning-in-app-notifications.md)
-* Intégrations Adobe Workfront {#adobe-workfront-integrations}
+* Intégrations Adobe Workfront {#adobe-workfront-integrations}
    * [Intégrations Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
    * [Vue d’ensemble des intégrations intégrées d’Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Méthodes d’intégration d’Adobe Workfront](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
    * Adobe Workfront pour Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront pour Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
-      * Installation du plug-in Adobe Workfront pour les applications Creative Cloud {#install-wf-cc}
+      * Installer le plugin Adobe Workfront pour les applications Creative Cloud {#install-wf-cc}
          * [Installer Adobe Workfront pour les applications Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Installer et ouvrir Adobe Workfront pour Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Installer et ouvrir Adobe Workfront pour XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
@@ -2137,7 +2137,7 @@ ht-degree: 88%
       * [Lier des éléments entre Adobe Workfront et Jira](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
       * [Mettre à jour des éléments liés entre Jira et Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
       * [Afficher le journal d’activité Jira](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
-   * Adobe Workfront pour Google Workspace {#workfront-for-g-suite}
+   * {#workfront-for-g-suite} Adobe Workfront for Google Workspace
       * [Adobe Workfront pour Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
       * [Installation d’Adobe Workfront pour Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
       * [Confidentialité et autorisations dans Workfront pour Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
@@ -2153,7 +2153,7 @@ ht-degree: 88%
       * [Création d’une tâche Adobe Workfront dans Google Workspace à l’aide du contenu d’un e-mail](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
       * [Créer un problème Adobe Workfront dans Google Workspace à l’aide du contenu d’un e-mail](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
       * [Mettre à jour un élément Adobe Workfront à partir de G Suite à l’aide du contenu d’un e-mail](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
-   * Adobe Workfront pour Outlook {#workfront-for-outlook}
+   * Adobe Workfront pour Outlook {#workfront-for-outlook}
       * [Adobe Workfront pour Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [Configurer Adobe Workfront pour Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
       * [Niveaux des autorisations de Workfront pour Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
@@ -2204,9 +2204,9 @@ ht-degree: 88%
       * [Appliquer une attribution de budget Anaplan à une demande de campagne ou à un projet de campagne Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 * Workfront Proof {#workfront-proof}
    * [Workfront Proof : index des articles](workfront-proof/workfront-proof.md)
-   * Prise en main de Workfront Proof {#get-started-wf-proof}
+   * Commencer avec Workfront Proof {#get-started-wf-proof}
       * [Commencer avec Workfront Proof](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
-      * Exemples de workflows {#workflow-examples}
+      * Exemples de workflow {#workflow-examples}
          * [Exemples de workflows](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
          * [Processus de relecture de base dans Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
          * [Examen interne puis externe dans Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
@@ -2221,7 +2221,7 @@ ht-degree: 88%
          * [Environnement de test des sandbox de prévisualisation - Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
          * [Paramètres linguistiques dans Workfront Proof](workfront-proof/wp-getstarted/system-information/language-settings.md)
          * [Codecs dans Workfront Proof](workfront-proof/wp-getstarted/system-information/codecs.md)
-      * FAQ sur Workfront Proof {#wf-proof-faq}
+      * Questions fréquentes sur Workfront Proof {#wf-proof-faq}
          * [Workfront Proof - Questions fréquentes](workfront-proof/wp-getstarted/faqs/faqs.md)
          * [Questions fréquentes - Créer et partager des épreuves et des fichiers](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
          * [Questions fréquentes - Réviser des épreuves](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
@@ -2272,11 +2272,11 @@ ht-degree: 88%
          * [Archiver dans Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
          * [Sauvegarder vos données de Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
          * [Imprimer et exporter des commentaires dans Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
-      * Réviser les épreuves dans la visionneuse de relecture de bureau {#review-proofs-in-viewer}
+      * Réviser des épreuves dans la visionneuse de relecture de bureau {#review-proofs-in-viewer}
          * [Réviser les épreuves dans la visionneuse de relecture de bureau](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
          * [Comprendre la visionneuse de relecture de bureau](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
          * [Configurer l’ouverture des liens hypertexte dans la visionneuse de relecture de bureau](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
-      * Réviser les épreuves dans la visionneuse de relecture Web {#review-proofs-web-proofing-viewer}
+      * Réviser des épreuves dans la visionneuse de relecture web {#review-proofs-web-proofing-viewer}
          * [Réviser les épreuves dans la visionneuse de relecture Web](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
          * [Ouvrir une épreuve dans Workfront Proof](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
          * [Réviser un workflow dans la visionneuse de relecture](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
@@ -2339,7 +2339,7 @@ ht-degree: 88%
       * Conseils, astuces et dépannage pour l’administration du compte Workfront Proof {#ttt-wf-proof-account-admin}
          * [Conseils, astuces et dépannage pour l’administration du compte Workfront Proof](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
          * [Questions fréquentes : Workfront Proof – migration États-Unis/EMEA](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
-   * Paramètres de facturation Workfront Proof {#wf-proof-billing-settings}
+   * Paramètres de facturation de Workfront Proof {#wf-proof-billing-settings}
       * [Paramètres de facturation Workfront Proof](workfront-proof/wp-billingsettings/wp-billing-settings.md)
       * Gérer votre facturation {#manage-billing}
          * [Gérer votre facturation](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
@@ -2347,14 +2347,14 @@ ht-degree: 88%
          * [Choisir son mode de paiement dans Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
          * [Télécharger votre facture Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
          * [Fermer votre compte Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
-   * Notifications et rappels d’épreuve {#proof-notifications-and-reminders}
+   * Notifications et rappels d’épreuves {#proof-notifications-and-reminders}
       * [Notifications et rappels d’épreuve](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
       * Éviter les filtres anti-spam {#avoid-spam-filters}
          * [Éviter les filtres anti-spam](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
          * [Configurer les paramètres de spam pour les clients de messagerie courants](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
          * [Configurer les e-mails de Workfront Proof pour éviter les filtres anti-spam](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
          * [Enregistrements SPF de Workfront Proof](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
-      * Envoyer des messages aux réviseurs et réviseuses {#send-messages-to-reviewers}
+      * Envoyer des messages aux personnes chargées des révisions {#send-messages-to-reviewers}
          * [Envoyer des messages aux réviseurs et réviseuses](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
          * [Rappeler à une personne chargée des révisions ses affectations dans Workfront Proof](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
          * [Envoyer un message de rappel aux réviseurs et réviseuses d’une épreuve](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)
@@ -2370,7 +2370,7 @@ ht-degree: 88%
       * [Modifier les paramètres d’alerte par e-mail pour une épreuve dans Workfront Proof](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
    * Gérer les utilisateurs et les utilisatrices ainsi que les contacts dans Workfront Proof {#managing-users-in-wf-proof}
       * [Gérer les utilisateurs et les utilisatrices ainsi que les contacts dans Workfront Proof](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-      * Utilisateurs {#users}
+      * Utilisateurs et utilisatrices {#users}
          * [Utilisateurs](workfront-proof/wp-mnguserscontacts/users/users.md)
          * [Créer des utilisateurs et des utilisatrices à l’aide de Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-users.md)
          * [Configurer des informations sur l’utilisateur ou l’utilisatrice à l’aide de Workfront Proof](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
@@ -2410,9 +2410,9 @@ ht-degree: 88%
          * [Comprendre comment le cache et les cookies affectent Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Problèmes de vitesse dans Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
          * [Dépannage - Visionneuse de relecture Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
-   * Intégrations Workfront Proof {#wf-proof-integrations}
+   * Intégrations de Workfront Proof {#wf-proof-integrations}
       * [Intégrations Workfront Proof](workfront-proof/wp-integrations/wp-integrations.md)
-      * API Workfront Proof {#wf-proof-api}
+      * API de Workfront Proof {#wf-proof-api}
          * [API Workfront Proof](workfront-proof/wp-integrations/api/wp-api.md)
          * [L’API de Workfront Proof](workfront-proof/wp-integrations/api/workfront-proof-api.md)
       * Box {#box}
@@ -2427,12 +2427,12 @@ ht-degree: 88%
          * [Intégrer Workfront Proof à Basecamp](workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
          * [Examiner une épreuve dans Basecamp](workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
          * [Comprendre l’intégration de Basecamp à Workfront Proof](workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
-      * Basecamp Classic {#basecamp-classic}
+      * Basecamp Classic {#basecamp-classic}
          * [Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
          * [Ajouter une épreuve à un projet Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
          * [Intégrer Workfront Proof à Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
          * [Vérifier une épreuve dans Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
-* API Adobe Workfront {#adobe-workfront-api}
+* API Adobe Workfront {#adobe-workfront-api}
    * [API Workfront](wf-api/workfront-api.md)
    * Notes de l’API {#api-notes}
       * [Notes de l’API](wf-api/api/api.md)
@@ -2506,7 +2506,7 @@ ht-degree: 88%
       * [API Document Webhooks](wf-api/doc-wbhks-api/docu-webhook-api.md)
       * [Tester les connexions de webhook](wf-api/doc-wbhks-api/test-webhook-connections.md)
       * [Gestion des erreurs des webhooks de document](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
-   * Descriptions des objets Workfront {#workfrtont-object-descriptions}
+   * Description des objets Workfront {#workfrtont-object-descriptions}
       * [Descriptions des objets Workfront](wf-api/wf-objects/workfront-objects.md)
       * [Catégorie](wf-api/wf-objects/category.md)
    * Conseils, astuces et dépannage pour l’API Adobe Workfront {#tips-troubleshooting-apis}
