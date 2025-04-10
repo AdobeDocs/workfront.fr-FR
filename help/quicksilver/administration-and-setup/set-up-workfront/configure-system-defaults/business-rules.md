@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
+source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 5%
+source-wordcount: '1308'
+ht-degree: 6%
 
 ---
 
@@ -124,7 +124,29 @@ IF(
 
    ![Sélectionnez un objet](assets/object-for-business-rule3.png)
 
-1. Saisissez le **Nom** de la règle métier.
+   Vous pouvez appliquer des règles métier aux objets suivants :
+
+   * Projet
+   * Tâche
+   * Problème/Demande
+   * Portfolio
+   * Document
+   * Programme
+   * Frais
+   * l’utilisateur ou de l’utilisatrice
+   * Entreprise
+   * Itération
+   * Enregistrement de facturation
+   * Groupe
+   * Risque
+   * Affectation
+   * Fonction
+   * Pool de ressources
+   * Congés
+   * Heure
+   * Modèle
+
+1. Saisissez le **Nom** de la règle métier dans la boîte de dialogue Créateur de règles.
 1. Dans le champ **Est actif**, indiquez si la règle doit être active lorsque vous l’enregistrez.
 
    Si vous sélectionnez **Non**, la règle est enregistrée comme inactive et vous pouvez l’activer ultérieurement.
