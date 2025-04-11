@@ -6,10 +6,10 @@ description: Vous pouvez personnaliser le type d’informations affichées à l�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
+source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 90%
+source-wordcount: '1721'
+ht-degree: 84%
 
 ---
 
@@ -89,8 +89,7 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
    * Ajoutez une colonne en cliquant sur **Ajouter une colonne**, commencez à saisir le nom de la colonne que vous souhaitez ajouter, puis cliquez dessus lorsqu’elle apparaît dans la liste déroulante.
    * Ajustez l’ordre d’apparition des colonnes en faisant glisser le titre de la colonne vers un nouvel emplacement.
 
-   * Dans la zone **Paramètres des colonnes**, cliquez sur **Résumer cette colonne par** et choisissez comment vous souhaitez que les données s’affichent dans la colonne :
-
+   * Dans la zone **Paramètres de colonne**, cliquez sur **Résumer cette colonne par** et choisissez comment vous souhaitez que les données s’affichent dans la colonne. Cette option est disponible pour les types de colonnes suivants :
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -124,9 +123,9 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
      >
      >Les exceptions suivantes s&#39;appliquent aux objets parents (par exemple, les tâches parents) lorsque vous récapitulez les valeurs des champs suivants dans des regroupements :
      >   
-     > * Tous les champs de nombre et de devise, à l’exception des heures effectives (par exemple, le coût prévu/réel de main-d’œuvre, le coût réel/prévu des dépenses, le coût prévu/réel, le nombre d’heures prévues), n’agrègent que les valeurs des tâches enfant et des tâches autonomes. Ils n’agrègent pas les valeurs des tâches parent ou des parents des parents.
-     > * Les heures effectives agrègent les valeurs principales des tâches parent et des tâches autonomes. Elles n’agrègent pas les nombres pour les parents des tâches parent ou des tâches enfant.
-     > * Les champs de données personnalisées de valeurs numériques et de devise regroupent toutes les tâches : parents, enfants, parents de parents et tâches autonomes.
+     > * Tous les champs de nombre et de devise, à l&#39;exception des heures réelles (par exemple, coût prévu/réel de la main-d&#39;œuvre, coût prévu/réel des dépenses, coût prévu/réel, heures prévues) résument les valeurs pour les tâches enfants uniquement et les tâches autonomes. Elles ne résument pas les valeurs des tâches parents ou des parents de parents.
+     > * Le tableau Heures réelles récapitule les valeurs des tâches parents principales et autonomes ; il ne récapitule pas les valeurs des parents des tâches parents ou des tâches enfants.
+     > * Les champs de données personnalisés pour les valeurs numériques et monétaires résument toutes les tâches : parents, enfants, parents de parents et tâches autonomes.
      >
      >Pour plus d’informations sur l’utilisation des regroupements dans un rapport, voir l’article [Vue d’ensemble des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
