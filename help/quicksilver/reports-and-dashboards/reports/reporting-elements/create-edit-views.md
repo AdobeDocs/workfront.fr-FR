@@ -6,10 +6,10 @@ description: Vous pouvez personnaliser le type d’informations affichées à l�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 94%
+source-wordcount: '1713'
+ht-degree: 90%
 
 ---
 
@@ -89,31 +89,46 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
    * Ajoutez une colonne en cliquant sur **Ajouter une colonne**, commencez à saisir le nom de la colonne que vous souhaitez ajouter, puis cliquez dessus lorsqu’elle apparaît dans la liste déroulante.
    * Ajustez l’ordre d’apparition des colonnes en faisant glisser le titre de la colonne vers un nouvel emplacement.
 
-      * (Facultatif) Dans la zone **Paramètres de colonne**, cliquez dans la liste déroulante sur **Résumer cette colonne par**, puis sélectionnez l’une des options disponibles pour résumer les informations. Lorsque vous choisissez cette option, les informations de votre colonne sont agrégées dans les regroupements du rapport.\
-        Pour les champs de date, vous pouvez résumer les valeurs en utilisant les options suivantes :
+   * Dans la zone **Paramètres des colonnes**, cliquez sur **Résumer cette colonne par** et choisissez comment vous souhaitez que les données s’affichent dans la colonne :
 
-         * Maximum
-         * Minimum
+     <table style="table-layout:auto"> 
+         <col> 
+         <col> 
+         <tbody> 
+          <tr> 
+           <td role="rowheader"><strong>Champs de date</strong></td> 
+           <td><ul>
+           <li>Maximum</li>
+         <li>Minimum</li>
+           </ul></td> 
+          </tr> 
+          <tr>
+           <td role="rowheader"><strong>Champs de devise</strong></td> 
+           <td><ul>
+           <li>Nombre</li>
+         <li>Sum</li>
+           <li>Moyenne</li>
+         <li>Maximum</li>
+           <li>Minimum</li>
+         </ul></td> 
+          </tr> 
+         <tr>
+           <td role="rowheader"><strong>Chaîne et champs booléens</strong></td> 
+           <td><ul><li>Nombre</li></ul>
+           <p>Remarque : Workfront ne recommande généralement pas de synthétiser un champ booléen par nombre, car la valeur sera toujours true/false.</p></td> 
+          </tr> 
+         </tbody> 
+        </table>
 
-        Pour les champs numériques et monétaires, vous pouvez résumer les valeurs en utilisant les options suivantes :
-
-         * Nombre
-         * Sum
-         * Moyenne
-         * Maximum
-         * Minimum
-
-        >[!NOTE]
-        >
-        >Les exceptions suivantes s’appliquent aux objets parent (par exemple, les tâches parent) lorsque vous agrégez des valeurs pour les champs suivants en regroupements :
-        >   
-        >   * Tous les champs de nombre et de devise, à l’exception des heures effectives (par exemple, le coût prévu/réel de main-d’œuvre, le coût réel/prévu des dépenses, le coût prévu/réel, le nombre d’heures prévues), n’agrègent que les valeurs des tâches enfant et des tâches autonomes. Ils n’agrègent pas les valeurs des tâches parent ou des parents des parents.
-        >   * Les heures effectives agrègent les valeurs principales des tâches parent et des tâches autonomes. Elles n’agrègent pas les nombres pour les parents des tâches parent ou des tâches enfant.
-        >   * Les champs de données personnalisées de valeurs numériques et de devise regroupent toutes les tâches : parents, enfants, parents de parents et tâches autonomes.
-        >   
-        >
-
-        Pour plus d’informations sur l’utilisation des regroupements dans un rapport, voir l’article [Vue d’ensemble des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+     >[!NOTE]
+     >
+     >Les exceptions suivantes s&#39;appliquent aux objets parents (par exemple, les tâches parents) lorsque vous récapitulez les valeurs des champs suivants dans des regroupements :
+     >   
+     > * Tous les champs de nombre et de devise, à l’exception des heures effectives (par exemple, le coût prévu/réel de main-d’œuvre, le coût réel/prévu des dépenses, le coût prévu/réel, le nombre d’heures prévues), n’agrègent que les valeurs des tâches enfant et des tâches autonomes. Ils n’agrègent pas les valeurs des tâches parent ou des parents des parents.
+     > * Les heures effectives agrègent les valeurs principales des tâches parent et des tâches autonomes. Elles n’agrègent pas les nombres pour les parents des tâches parent ou des tâches enfant.
+     > * Les champs de données personnalisées de valeurs numériques et de devise regroupent toutes les tâches : parents, enfants, parents de parents et tâches autonomes.
+     >
+     >Pour plus d’informations sur l’utilisation des regroupements dans un rapport, voir l’article [Vue d’ensemble des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Facultatif) Cliquez sur **Options avancées** pour spécifier les informations suivantes de la colonne :
 

@@ -8,16 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
+source-git-commit: 486b672a67c62b86f3306c9375a286895c2fae01
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 20%
+source-wordcount: '728'
+ht-degree: 18%
 
 ---
 
 # Modifier des documents en bloc
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Vous pouvez modifier la description, ajouter des formulaires personnalisés et modifier simultanément des formulaires personnalisés dans plusieurs documents.
 
@@ -97,7 +95,6 @@ Pour modifier des documents en bloc :
     </table>
 1. Cliquer sur **Enregistrer**.
 
-<span class="preview">
 
 ## Modifier des documents en bloc dans un rapport de document
 
@@ -125,5 +122,3 @@ Créez un rapport de document comme décrit dans la section [Créer un rapport p
     </tr>
     </table>
 1. Cliquer sur **Enregistrer**.
-
-</span>
