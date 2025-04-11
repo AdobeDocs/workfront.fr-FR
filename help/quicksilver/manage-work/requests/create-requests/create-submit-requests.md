@@ -6,10 +6,10 @@ description: Le travail prévu est représenté dans Adobe Workfront par des pr
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2740'
-ht-degree: 81%
+source-wordcount: '2680'
+ht-degree: 82%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 81%
 </div>
 -->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Le travail prévu est représenté dans Adobe Workfront par des projets et des tâches. Cependant, il se peut que vous travailliez dans un environnement où du travail non prévu, sous forme de demandes, peut arriver à tout moment. Workfront fournit un workflow permettant de répondre à ce type d’environnement grâce à l’utilisation de files d’attente des demandes.
 
@@ -44,7 +44,7 @@ Vous pouvez créer entièrement une demande Workfront Planning pour créer des e
 
 * À partir d’un lien vers un formulaire de demande Workfront Planning.
 
-* <span class="preview">À partir d’un formulaire de demande Workfront Planning dans la zone des Demandes de Workfront. </span>
+* À partir d’un formulaire de demande Workfront Planning dans la zone des Demandes de Workfront.
 
   Votre entreprise doit acheter un package Workfront Planning. Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
@@ -124,12 +124,12 @@ Pour créer une demande dans l’application web Workfront :
 
 {{step1-to-requests}}
 
-1. <span class="preview"> (facultatif et conditionnel) Sélectionnez le paramètre **Passer à une nouvelle expérience** dans le coin supérieur droit de l’écran, si les éléments suivants s’appliquent à votre organisation et à votre instance Workfront : </span>
+1. (Facultatif et conditionnel) Sélectionnez le paramètre **Passer à une nouvelle expérience** dans le coin supérieur droit de l’écran, si les éléments suivants s’appliquent à votre organisation et à votre instance Workfront :
 
-   * <span class="preview">Votre entreprise a acheté un package Workfront</span>
-   * <span class="preview">Votre organisation a intégré l’expérience unifiée Adobe.
-   * <span class="preview">Votre administrateur vous a accordé l’accès à Workfront Planning</span>
-   * <span class="preview">Vous disposez au moins des autorisations d’affichage pour un espace de travail Workfront Planning</span>
+   * Votre entreprise a acheté un package Workfront
+   * Votre organisation a intégré l’expérience unifiée Adobe.
+   * Votre administrateur vous a accordé l’accès à Workfront Planning
+   * Vous disposez au moins des autorisations d’affichage dans un espace de travail Workfront Planning
 
    Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
 
@@ -142,15 +142,15 @@ Pour créer une demande dans l’application web Workfront :
 
    La boîte de dialogue **Nouvelle demande** s’ouvre.
 
-1. <span class="preview">(Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning, la boîte de dialogue **Nouvelle demande** affiche les informations suivantes :</span>
+1. (Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning, la zone **Nouvelle demande** affiche les informations suivantes :</span>
 
-   * <span class="preview">Les 6 dernières files d’attente de demandes Workfront consultées et les formulaires de demandes Planning s’affichent dans la section Récent . </span>
-   * <span class="preview">50 autres files d’attente des demandes Workfront et formulaires de demande Planning s’affichent par ordre alphabétique dans la section **Tous les formulaires de demande**. Vous pouvez rechercher une file d’attente de demandes qui ne s’affiche pas par défaut. </span>
+   * Les 6 dernières files d’attente de demandes Workfront consultées et les formulaires de demandes Planning s’affichent dans la section Récent .
+   * 50 files d’attente de demandes Workfront supplémentaires et les formulaires de demandes Planning s’affichent par ordre alphabétique dans la section **Tous les formulaires de demandes**. Vous pouvez rechercher une file d’attente de demandes qui ne s’affiche pas par défaut.
 
    ![Nouvelle zone de demande avec workflow unifié pour la planification des demandes](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
-   <span class="preview">Cliquez sur l’une des cartes de file d’attente des demandes de Workfront ou recherchez-en une, puis cliquez dessus lorsqu’elle s’affiche dans la liste. </span>
-1. (Conditionnel) <span class="preview">Si vous passez à la nouvelle expérience qui inclut Workfront Planning, sélectionnez vos groupes de rubriques et rubriques de file d’attente et continuez à mettre à jour le formulaire</span>
+   Cliquez sur l’une des cartes de file d’attente des demandes de Workfront ou recherchez-en une, puis cliquez dessus lorsqu’elle s’affiche dans la liste.
+1. (Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning, sélectionnez vos groupes de rubriques et rubriques de file d’attente et continuez à mettre à jour le formulaire.
 
    Sinon, cliquez dans le champ **Type de requête** et effectuez l’une des opérations suivantes :
 
@@ -333,7 +333,7 @@ Pour créer une demande dans l’application web Workfront :
 
    Lorsque vous soumettez la demande, le brouillon est automatiquement supprimé et ne peut pas être restauré.
 
-   Les demandes envoyées sont répertoriées dans la section **Soumises** de la zone des Demandes . <span class="preview">Si vous utilisez la nouvelle expérience qui inclut Workfront Planning, les demandes envoyées par Workfront s’affichent dans l’onglet **Workfront** de la zone des Demandes . </span>
+   Les demandes envoyées sont répertoriées dans la section **Soumises** de la zone des Demandes . Si vous utilisez la nouvelle expérience qui inclut Workfront Planning, les demandes envoyées par Workfront s’affichent dans l’onglet **Workfront** de la zone des Demandes .
 
    Pour plus d’informations sur le traitement des demandes entrantes, consultez l’article [Gérer les demandes de travail et d’équipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 

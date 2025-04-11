@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 40%
+source-wordcount: '825'
+ht-degree: 42%
 
 ---
 
 # Partager des espaces de travail
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -104,7 +104,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Considérations relatives au partage d’espaces de travail
 
 * Pour obtenir des informations générales sur le partage d’objets dans Workfront Planning, consultez également la section [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-* Vous pouvez partager des espaces de travail avec des utilisateurs, des équipes <span class="preview">, des rôles, des groupes ou des sociétés </span> au sein de votre organisation.
+* Vous pouvez partager des espaces de travail avec des utilisateurs, des équipes, des rôles, des groupes ou des entreprises de votre organisation.
 * Vous ne pouvez pas partager des espaces de travail avec des utilisateurs en dehors de votre organisation.
 * Lorsque vous partagez un espace de travail, tous les types d’enregistrements, les enregistrements et les champs associés aux espaces de travail sont également partagés.
 * Lorsque vous partagez un espace de travail, les vues ne sont pas partagées. Vous devez partager les vues séparément.
@@ -133,7 +133,7 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 
    ![Bouton Partager dans l’espace de travail en haut à droite](assets/share-button-on-workspace-top-right.png)
 
-1. Dans le champ **Accorder l’accès à cet espace de travail**, commencez à saisir le nom d’un utilisateur, d’un groupe, d’une <span class="preview">équipe, d’une entreprise ou d’une fonction</span> puis cliquez dessus lorsqu’il s’affiche dans la liste.
+1. Dans le champ **Accorder l’accès à cet espace de travail**, commencez à saisir le nom d’un utilisateur, d’un groupe, d’une équipe, d’une entreprise ou d’une fonction, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    ![Partager l’interface utilisateur avec des groupes](assets/sharing-ui-with-groups.png)
 

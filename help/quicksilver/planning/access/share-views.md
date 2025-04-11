@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1540'
 ht-degree: 22%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 22%
 
 # Partager des vues
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -35,15 +35,15 @@ Vous pouvez partager une vue avec d’autres personnes pour travailler en collab
 
 Vous pouvez partager une vue avec les entités suivantes :
 
-* En interne, avec les utilisateurs, les groupes, les <span class="preview">équipes, les entreprises et les fonctions de Workfront</span>
-* Publiquement, avec des utilisateurs en dehors de Workfront
+* En interne, avec les utilisateurs, les groupes, les équipes, les entreprises et les fonctions de Workfront
+* Publiquement, avec des utilisateurs extérieurs à Workfront
 
 <!--
 This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les conditions d’accès..
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -61,22 +61,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <p> Produits</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des plans Workfront suivants :</p> 
+<p>L’un des plans de front de travail suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
 <p>Tous </p> 
-<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
+<p>Pour plus d’informations sur ce qui est inclus dans chaque plan Workfront Planning, contactez votre responsable de compte Workfront. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
@@ -90,7 +90,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard</p>
-   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>  <p>Gérer les autorisations pour une vue</p>  
-   <p>Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour un espace de travail peuvent partager une vue publiquement.</p></td> 
+   <p>Seuls les utilisateurs disposant des autorisations Gérer pour un espace de travail peuvent partager une vue publiquement.</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -114,22 +114,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Remarques concernant le partage de vues
+## Points à prendre en compte lors du partage de vues
 
-* Pour obtenir des informations générales sur le partage d’objets dans Workfront Planning, consultez également la section [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+* Pour obtenir des informations générales sur le partage d’objets dans Workfront Planning, consultez [également Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * Vous pouvez accorder des autorisations d’affichage ou de gestion pour un affichage aux utilisateurs Workfront internes.
 
-* Les utilisateurs disposant d’autorisations de niveau Gérer peuvent modifier les paramètres d’affichage, les partager, les dupliquer ou les supprimer.
+* Les utilisateurs disposant des autorisations Gérer peuvent modifier les paramètres d’affichage, les partager, les dupliquer ou les supprimer.
 
-* Vous pouvez partager des vues avec des personnes extérieures à votre organisation via un lien public.
+* Vous pouvez partager des points de vue avec des personnes extérieures à votre organisation au moyen d’un lien public.
 
-* Lorsque vous partagez une vue publiquement, le lien est accessible par toute personne extérieure à votre entreprise pendant une durée limitée, indiquée par la date d’expiration. Aucune connexion n’est requise pour afficher la vue partagée.
+* Lorsque vous partagez une vue publiquement, le lien est accessible par toute personne extérieure à votre entreprise pour une durée limitée, indiquée par la date d’expiration. Aucune connexion n’est requise pour afficher la vue partagée.
 
-* Les personnes extérieures à votre organisation qui ont accès à une vue ne peuvent pas créer d&#39;autres vues, modifier la vue partagée ou ajouter, supprimer ou modifier des informations d&#39;enregistrement dans la vue.
+* Les personnes extérieures à votre organisation qui ont accès à une vue ne peuvent pas créer d’autres vues, modifier la vue partagée ou ajouter, supprimer ou modifier des informations d’enregistrement dans la vue.
 
-## Partage des autorisations pour une vue en interne
+## Partager les autorisations sur une vue interne
 
-Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous disposez d’autorisations de niveau Gérer avec des utilisateurs, des groupes, des <span class="preview">équipes, des sociétés et des fonctions</span> dans Workfront Planning.
+Vous pouvez partager des vues que vous avez créées ou des vues pour lesquelles vous disposez d’autorisations Gérer avec des utilisateurs, des groupes, des équipes, des entreprises et des rôles de travail dans Workfront Planning.
 
 >[!NOTE]
 >
@@ -143,18 +143,18 @@ Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous dis
 
    La page du type d’enregistrement s’affiche.
 
-1. Dans l’onglet Affichage , pointez sur l’affichage à partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’affichage, puis cliquez sur **Partager**.
+1. Dans l’onglet Vue, passez la souris sur la vue que vous souhaitez partager et cliquez sur le **menu](assets/more-menu.png) ![Plus** Plus à droite du nom de la vue, puis cliquez sur **Partager**.
 
-   ![Menu Plus pour les vues développées avec l’option de partage](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![Plus de menu pour les vues élargies avec l’option de partage](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   L&#39;onglet **Partage interne** doit être sélectionné par défaut.
+   L’onglet **Partage** interne doit être sélectionné par défaut.
 
-1. (Facultatif) Dans la zone **Qui a accès**, sélectionnez l’une des options suivantes :
+1. (Facultatif) Dans la **zone Qui a accès** , sélectionnez l’une des options suivantes :
 
-   * **Seules les personnes invitées peuvent y accéder** : vous devez spécifier les utilisateurs, les groupes<span class="preview"> l&#39;équipe, l&#39;entreprise ou la fonction</span> avec lesquels vous souhaitez partager la vue. Il s’agit de l’option par défaut.
+   * **Seules les personnes invitées peuvent y accéder** : vous devez spécifier les utilisateurs, les groupes, l&#39;équipe, l&#39;entreprise ou la fonction avec lesquels vous souhaitez partager la vue. Il s’agit de l’option par défaut.
    * **Tout le monde dans l’espace de travail peut afficher** : tous les utilisateurs disposant d’autorisations d’affichage ou supérieures dans les espaces de travail peuvent accéder à l’affichage.
 
-1. Dans le champ **Accorder l’accès à cette vue**, commencez à saisir le nom d’un utilisateur, d’un groupe, d’une <span class="preview">équipe, d’une entreprise ou d’une fonction</span> puis cliquez dessus lorsqu’il s’affiche dans la liste.
+1. Dans le **champ Accorder l’accès à cette vue** , commencez à taper le nom d’un utilisateur, d’un groupe, d’une équipe, d’une société ou d’un rôle, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    ![Partage d’une vue avec des groupes](assets/sharing-a-view-ui-with-groups.png)
 
@@ -169,24 +169,24 @@ Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous dis
 1. Cliquez sur **Copier le lien** pour copier un lien vers la vue dans votre presse-papiers.
 1. Cliquer sur **Enregistrer**.
 
-   L’affichage est mis à jour avec une icône de personnes ![Affichage partagé avec d’autres](assets/view-shared-with-others-people-icon.png) pour indiquer que l’affichage est désormais partagé avec d’autres utilisateurs.
+   La vue est mise à jour avec une icône ![de personnes Vue partagée avec d’autres personnes pour](assets/view-shared-with-others-people-icon.png) indiquer que la vue est désormais partagée avec d’autres utilisateurs.
 
    >[!TIP]
    >
-   >Les vues sans peuple ou sans icône globale sont des vues que vous avez créées et ne sont pas partagées avec d&#39;autres personnes. Les vues non partagées ne sont visibles que par vous.
+   >Les vues sans personne ou icône globale sont des vues que vous avez créées et ne sont pas partagées avec d’autres. Les vues non partagées ne sont visibles que par vous.
 
 1. Partagez le lien copié avec d’autres personnes. Les utilisateurs et utilisatrices qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à la page du type d’enregistrement et l’afficher dans la vue sélectionnée.
 
-## Partager les autorisations d’accès à une vue publiquement
+## Partager des autorisations pour une vue publique
 
-Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous disposez d’autorisations de niveau Gérer avec des personnes qui ne disposent pas d’une licence Workfront et qui sont susceptibles d’être externes à votre organisation.
+Vous pouvez partager des vues que vous avez créées ou des vues pour lesquelles vous disposez d’autorisations Gérer avec des personnes qui ne possèdent pas de licence Workfront et qui peuvent être externes à votre organisation.
 
 >[!IMPORTANT]
 >
->Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour un espace de travail peuvent partager publiquement les vues de l’espace de travail.
+>Seuls les utilisateurs disposant d’autorisations Gérer pour un espace de travail peuvent partager publiquement les vues de l’espace de travail.
 
 
-Pour partager une vue publiquement dans Workfront Planning :
+Pour partager publiquement une vue dans Workfront Planning :
 
 {{step1-to-planning}}
 
@@ -194,17 +194,17 @@ Pour partager une vue publiquement dans Workfront Planning :
 
    La page du type d’enregistrement s’affiche.
 
-1. Dans l’onglet Affichage , pointez sur l’affichage à partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’affichage, puis cliquez sur **Partager**.
+1. Dans l’onglet Vue, passez la souris sur la vue que vous souhaitez partager et cliquez sur le **menu](assets/more-menu.png) ![Plus** Plus à droite du nom de la vue, puis cliquez sur **Partager**.
 
    ![Menu Plus pour les vues développées avec l’option de partage](assets/more-menu-for-views-expanded-with-share-option.png)
 
 1. Cliquez sur **Partage public**.
 
-   ![Onglet Partage public pour les vues](assets/public-sharing-tab-for-views.png)
+   ![Onglet de partage public pour les vues](assets/public-sharing-tab-for-views.png)
 
-1. Activez le paramètre **Créer un lien public**.
+1. Activez le paramètre Créer un **lien** public.
 
-   Un lien devient disponible. Il s’agit d’un lien public. Lors du partage, toute personne disposant du lien, y compris des personnes extérieures à votre organisation, peut accéder à la page de type d’enregistrement et afficher les enregistrements et les champs de la page.
+   Un lien devient disponible. Ceci est un lien public. Lors du partage, toute personne disposant du lien, y compris des personnes extérieures à votre organisation, peut accéder à la page de type d’enregistrement et afficher les enregistrements et les champs de la page.
 
 1. Cliquez sur l’icône **Copier le lien** ![Copier la vue du lien](assets/copy-link-view.png) pour copier le lien dans le presse-papiers.
 
@@ -216,52 +216,52 @@ Pour partager une vue publiquement dans Workfront Planning :
 
    >[!TIP]
    >
-   >Les vues sans peuple ou sans icône globale sont des vues que vous avez créées et ne sont pas partagées avec d&#39;autres personnes. Les vues non partagées ne sont visibles que par vous.
+   >Les vues sans personne ou icône globale sont des vues que vous avez créées et ne sont pas partagées avec d’autres. Les vues non partagées ne sont visibles que par vous.
 
 
-1. (Facultatif) Collez le lien que vous avez copié dans un e-mail, un message de conversation, un document ou un commentaire Workfront pour le partager avec d’autres personnes.
+1. (Facultatif) Collez le lien que vous avez copié dans un e-mail, un message de chat, un document ou dans un commentaire Workfront pour le partager avec d’autres personnes.
 
-## Octroi d’autorisations pour une vue à partir d’une demande d’autorisation
+## Accorder des autorisations à une vue d’après une demande d’autorisation
 
-Les utilisateurs et utilisatrices qui accèdent à un lien vers une vue pour laquelle ils ne disposent pas d’autorisations peuvent demander des autorisations pour la vue. Tous les utilisateurs disposant d’autorisations de niveau Gérer pour l’affichage reçoivent la demande d’autorisation et peuvent accorder ou refuser les autorisations.
+Les utilisateurs qui accèdent à un lien vers une vue pour laquelle ils ne disposent pas d’autorisations peuvent demander des autorisations sur la vue. Tous les utilisateurs disposant d’autorisations Gérer sur la vue reçoivent la demande d’autorisation et peuvent accorder ou refuser les autorisations.
 
-1. (Conditionnel) Si vous êtes le responsable d&#39;une vue, il se peut que vous receviez une demande d&#39;un autre utilisateur pour accéder à la vue dans les domaines suivants :
+1. (Conditionnel) Si vous êtes le gestionnaire d’une vue, vous pouvez recevoir une demande d’un autre utilisateur pour accéder à la vue dans les zones suivantes :
 
    * Une notification in-app
-     ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
+     ![Notification In-App pour la demande d’accès à afficher](assets/in-app-notification-for-access-request-for-view.png)
    * Notification par e-mail
-     ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
+     ![Notification In-App pour la demande d’accès à afficher](assets/in-app-notification-for-access-request-for-view.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app
 Ou
 Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications**, puis cliquez sur la notification dans la liste.
 
-   La zone **Demandes d’accès en attente** s’affiche.
+   La **boîte de dialogue Demandes** d’accès en attente s’affiche.
 
    ![Zone de validation de la liste des notifications](assets/notifications-list-approval-box.png)
 1. (Facultatif) Pour l’utilisateur dont vous souhaitez approuver les autorisations, sélectionnez l’une des options suivantes dans le menu déroulant situé à droite du nom de l’utilisateur :
    * **Afficher**
    * **Gérer**
 1. Sélectionnez l’utilisateur pour lequel vous souhaitez approuver ou refuser l’autorisation, puis cliquez sur **Approuver tout** ou **Tout refuser**.
-1. Cliquez sur la flèche pointant vers la gauche de **Demandes d’accès en attente**, puis cliquez sur **Enregistrer**.
+1. Cliquez sur la flèche pointant vers la gauche à gauche de Demandes **d’accès** en attente, puis cliquez sur **Enregistrer**.
 
-   Si vous avez approuvé la demande, les utilisateurs sont ajoutés à la zone de partage de la vue. L’utilisateur demandant l’autorisation reçoit un courrier électronique de confirmation confirmant que sa demande a été approuvée. <!--will they also get an in-app notification??-->
+   Si vous avez approuvé la demande, les utilisateurs sont ajoutés à la zone de partage de la vue. L’utilisateur qui demande l’autorisation reçoit un e-mail de confirmation indiquant que sa demande a été approuvée. <!--will they also get an in-app notification??-->
 
 ## Supprimer les autorisations pour une vue
 
 {{step1-to-planning}}
 
-1. Ouvrez l’espace de travail dont vous souhaitez arrêter le partage de la vue, puis cliquez sur une carte de type d’enregistrement. Cela ouvre la page du type d’enregistrement.
-1. Pointez sur le nom de l’onglet de la vue dont vous souhaitez supprimer le partage et cliquez sur le menu **Plus** ![Menu Plus](assets/more-menu.png), puis cliquez sur **Partager**.
+1. Ouvrez l’espace de travail dont vous souhaitez arrêter le partage de la vue, puis cliquez sur une carte de type enregistrement. Cela ouvre la page du type d’enregistrement.
+1. Passez la souris sur le nom d’onglet de la vue dont vous souhaitez supprimer le partage et cliquez sur le **menu ![](assets/more-menu.png)Plus** Plus, puis cliquez sur **Partager**.
 1. Pour supprimer le partage interne d’une vue, procédez comme suit :
 
-   1. Assurez-vous que l’onglet **Partage interne** est sélectionné.
-   1. Recherchez l’utilisateur, le groupe, l’équipe<span class="preview"> l’entreprise ou la fonction à supprimer</span> développez le menu déroulant des autorisations à droite du nom de l’entité avec laquelle vous partagez la vue, puis cliquez sur **Supprimer**.
+   1. Assurez-vous que l’onglet **Partage** interne est sélectionné.
+   1. Recherchez l’utilisateur, le groupe, l’équipe, la société ou le rôle que vous souhaitez supprimer, développez le menu déroulant des autorisations à droite du nom de l’entité avec laquelle vous partagez la vue, puis cliquez sur **Supprimer**.
 
 1. Pour supprimer le partage public d’une vue, procédez comme suit :
 
-   1. Cliquez sur l’onglet **Partage public**.
+   1. Cliquez sur l’onglet **Partage** public.
    1. Désélectionnez l’option **Créer un lien public**.
 
 1. Cliquer sur **Enregistrer**.
 
-   Les gens n&#39;ont plus accès à la vue. Les utilisateurs qui ont été supprimés de l’accès à l’affichage ne sont pas avertis qu’ils ne disposent plus de cet accès.
+   Les personnes n’ont plus accès à la vue. Il n’y a aucune notification pour les utilisateurs qui ont été supprimés de l’accès à la vue qu’ils n’ont plus cet accès.

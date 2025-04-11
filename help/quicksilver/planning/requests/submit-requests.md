@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1816'
 ht-degree: 5%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 5%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ Vous pouvez envoyer une demande Workfront Planning à partir des zones suivantes
 * D’un lien direct vers le formulaire de demande qui a été partagé.
 
   Cet article décrit comment envoyer une demande d’ajout de nouveaux enregistrements à un type d’enregistrement à partir de la zone des Demandes de Workfront ou d’un lien partagé.
-* <span class="preview">À partir de la page Type d’enregistrement, lorsque vous ajoutez ou demandez un nouvel enregistrement. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).</span>
+* Sur la page Type d’enregistrement , lorsque vous ajoutez ou demandez un nouvel enregistrement. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
 Les utilisateurs de Workfront et les utilisateurs externes peuvent envoyer des demandes aux types d&#39;enregistrements Planning et créer des enregistrements. <!--double check on the external users-->
 
@@ -128,7 +128,7 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
    * En interne, le formulaire doit être partagé avec les utilisateurs qui disposent d’autorisations d’affichage ou supérieures dans l’espace de travail.
 
-     Les utilisateurs de Workfront peuvent accéder au formulaire à partir d’un lien <span class="preview">ou le trouver dans la zone des Demandes de Workfront.</span>
+     Les utilisateurs de Workfront peuvent accéder au formulaire à partir d’un lien ou le trouver dans la zone des Demandes de Workfront.
 
    * Si vous ne disposez pas d’un compte Workfront, un lien vers le formulaire a été partagé avec des personnes externes.
 
@@ -150,8 +150,6 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
-
-<div class="preview">
 
 ## Envoyez une demande à Workfront Planning dans la zone des Demandes de Workfront.
 
@@ -239,8 +237,6 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
    La page de type d’enregistrement s’ouvre dans Workfront Planning.
 
-</div>
-
 ## Envoyez une demande à Workfront Planning à partir d’un lien partagé vers un formulaire de demande
 
 1. Accédez au lien partagé avec vous à partir d’un type d’enregistrement Workfront Planning .
@@ -276,11 +272,11 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
      >
      >Les notifications par e-mail et in-app ne sont visibles que lorsque l’instance de Workfront de votre organisation est intégrée à l’expérience unifiée Adobe.
 
-1. <span class="preview">(facultatif) Cliquez sur **Afficher votre demande** pour ouvrir la demande dans Workfront.</span>
+1. (Facultatif) Cliquez sur **Afficher votre demande** pour ouvrir la demande dans Workfront.
 
-   Ou
+   <!--Or-->
 
-   <span class="preview">Cliquez sur [Soumettre une autre demande](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) pour ouvrir le formulaire de demande et ajouter une nouvelle demande. </span>
+   <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
 1. (Facultatif) Cliquez sur **Menu principal** > **Demandes** > l’onglet **Planification** pour afficher votre demande, puis cliquez sur son nom.
 

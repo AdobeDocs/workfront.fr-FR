@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4b5248f667648543263073022ae10336fb022f97
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2359'
 ht-degree: 22%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 22%
 
 # Créer des enregistrements
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +28,13 @@ Dans Adobe Workfront Planning, un enregistrement est une instance d’un type 
 Vous pouvez créer des enregistrements en effectuant l’une des opérations suivantes :
 
 * [Créez des enregistrements en les ajoutant sur la ligne à partir de la vue de tableau de type d’enregistrement](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-* <span class="preview">[Créez des enregistrements à l’aide du bouton Nouvel enregistrement ou Demander un enregistrement depuis n’importe quelle vue de type d’enregistrement](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
+* [Créez des enregistrements à l’aide du bouton Nouvel enregistrement ou Demander un enregistrement depuis n’importe quelle vue de type d’enregistrement](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [Copier-coller une liste d&#39;enregistrements depuis une liste externe](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Dupliquer les enregistrements depuis une vue Tableau](#create-records-by-duplicating-them)
 * [Créer des enregistrements au fur et à mesure que vous les connectez à partir d’autres enregistrements](#create-records-as-you-connect-them)
 * [Créer des enregistrements en soumettant un formulaire de demande à un type d’enregistrement](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[Créer des enregistrements en important les informations d&#39;un fichier CSV ou Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
-* <span class="preview">[Création d’enregistrements à l’aide d’automatisations](#create-records-by-using-automations)</span>
+* [Créer des enregistrements en important des informations depuis un fichier CSV ou Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Création d’enregistrements à l’aide d’automatisations](#create-records-by-using-automations)
 
 Pour plus d’informations sur la gestion des enregistrements dans les vues « Tableau » ou « Chronologie », consultez les articles suivants :
 
@@ -99,7 +99,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td> <p>Accordez des autorisations supérieures ou égales à l’espace de travail <!--<span class="preview">and record type</span>--> lequel vous souhaitez ajouter des enregistrements. </p>
-   <p><span class="preview">Autorisations d’affichage ou supérieures dans l’espace de travail <!--<span class="preview">and record type</span>--> de créer des enregistrements à l’aide du bouton Demander un enregistrement sur la page d’enregistrement</span></p>
+   <p>Autorisations d’affichage ou supérieures dans l’espace de travail <!--<span class="preview">and record type</span>--> de créer des enregistrements à l’aide du bouton Demander un enregistrement sur la page d’enregistrement</p>
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
    <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (projets).</p>
    </td> 
@@ -182,8 +182,6 @@ Les enregistrements du type sélectionné s&#39;affichent dans la vue.
    * CTRL + Z (⌘ + Z pour Mac) pour annuler une modification
    * CTRL + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir une modification
 
-<div class="preview">
-
 ## Créez des enregistrements à l’aide du bouton Nouvel enregistrement ou Demander un enregistrement depuis n’importe quelle vue de type d’enregistrement
 
 Les utilisateurs disposant d’autorisations en lecture seule sur l’espace de travail <!--<span class="preview">and record type</span>--> peuvent créer des enregistrements uniquement à l’aide du bouton Demander un enregistrement sur la page du type d’enregistrement.
@@ -247,8 +245,6 @@ Le formulaire de demande du type d’enregistrement s’ouvre.
    * Un nouvel enregistrement est ajouté au type d&#39;enregistrement, sauf si vous choisissez de l&#39;ajouter à l&#39;aide d&#39;un formulaire de demande avec un processus d&#39;approbation. L&#39;approbation doit être accordée par tous les approbateurs avant la création de l&#39;enregistrement.
    * Plusieurs enregistrements sont ajoutés au type d’enregistrement, si vous avez ajouté des enregistrements à l’aide d’une feuille de calcul CSV ou Excel.
    * Si vous avez ajouté une nouvelle demande en soumettant un formulaire de demande, elle est ajoutée sous l’onglet Planification de la zone Demandes Workfront .
-
-</div>
 
 <!-- this is not possible anymore: 
 
@@ -339,7 +335,7 @@ Pour créer des enregistrements au fur et à mesure que vous les connectez à pa
 
      Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-1. (Conditionnel) Si vous ne trouvez pas un enregistrement lors de la tentative de connexion, <span class="preview">cliquez sur **+ Ajouter**</span>
+1. (Conditionnel) Si vous ne trouvez pas un enregistrement lors de la tentative de connexion, cliquez sur **+ Ajouter**
 
    Ou
 Commencez à saisir un nom, puis cliquez sur **+ Ajouter**. Le bouton **+ Ajouter** est suivi du nom du type d’enregistrement auquel vous vous connectez. Par exemple, « Ajouter des marques » lors de l’ajout d’une marque à une campagne existante. Le nom saisi suit également le bouton Ajouter .
@@ -376,17 +372,11 @@ Vous pouvez importer des enregistrements lorsque vous importez des types d&#39;e
 
 Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-<div class="preview">
-
 ## Créer des enregistrements en important depuis un fichier CSV ou Excel
 
 Vous pouvez importer des enregistrements pour les types d&#39;enregistrements existants lorsque vous importez des informations à partir d&#39;un fichier CSV ou Excel.
 
 Pour plus d’informations, voir [Créer des enregistrements en important des informations à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
-
-</div>
-
-<div class="preview">
 
 ## Création d’enregistrements à l’aide d’automatisations
 
@@ -396,6 +386,5 @@ Vous pouvez configurer et activer l’automatisation dans la page de l’enregis
 
 Pour plus d’informations, voir [Création d’objets à l’aide des automatisations d’enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
-</div>
 
 

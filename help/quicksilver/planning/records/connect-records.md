@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3267'
 ht-degree: 39%
 
 ---
 
 
-# Connect records
+# Connecter des enregistrements
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -157,7 +157,7 @@ Vous pouvez connecter des enregistrements de Workfront Planning dans les zones s
 * Champs d’enregistrement connectés en mode Tableau.
 * la zone ou la page d’aperçu de l’enregistrement dans les champs d’enregistrement connectés sur l’onglet Détails ;
 * La zone ou la page d&#39;aperçu de l&#39;enregistrement dans l&#39;onglet Connexions.
-* <span class="preview">Page de l’enregistrement dans l’onglet Affichage de la connexion.</span> <!--this needs title edit when they rename the "Connection view" page type-->
+* Page de l’enregistrement dans l’onglet Affichage de la connexion . <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### Connecter des enregistrements Workfront Planning à partir de la vue Tableau ou de la zone Détails d&#39;un enregistrement
 
@@ -184,7 +184,7 @@ Vous pouvez connecter des enregistrements de Workfront Planning dans les zones s
    >
 
 1. (Conditionnel) Si vous avez sélectionné Un à plusieurs ou Un à un pour le type de connexion lorsque vous avez connecté les types d&#39;enregistrements, et que vous essayez de connecter un enregistrement ou un objet déjà connecté ailleurs, vous recevrez un avertissement indiquant que le connecter à nouveau le supprimera de la connexion d&#39;origine. Cliquez sur **Connecter** pour autoriser la suppression et connecter l’enregistrement, ou **Annuler** pour revenir au champ et sélectionner un autre enregistrement.
-1. (Facultatif) Si vous ne trouvez pas un objet à connecter et que vous souhaitez l’ajouter, <span class="preview">cliquez sur **+ Ajouter**</span>
+1. (Facultatif) Si vous ne trouvez pas un objet à connecter et que vous souhaitez l’ajouter, cliquez sur **+ Ajouter**
 
    Ou
 
@@ -270,7 +270,7 @@ Après avoir établi une connexion entre un type d’enregistrement et un type d
    >
    >Vous pouvez ouvrir la page d&#39;un enregistrement à partir de la vue, double-cliquer sur le champ d&#39;enregistrement lié ou cliquer sur **Connecter** dans le champ pour ajouter des objets à partir du type d&#39;objet connecté.
 
-1. (Facultatif) Si vous ne trouvez pas un objet à connecter et que vous souhaitez l’ajouter, <span class="preview">cliquez sur **+ Ajouter**</span>
+1. (Facultatif) Si vous ne trouvez pas un objet à connecter et que vous souhaitez l’ajouter, cliquez sur **+ Ajouter**
 
    Ou
 
@@ -440,7 +440,7 @@ Pour connecter des enregistrements à des ressources Experience Manager :
 1. (Facultatif) Cliquez sur la flèche pointant vers le bas à gauche d’une section pour la réduire.
 
 1. (Conditionnel) Cliquez sur **Connexion** pour ajouter d’autres enregistrements ou objets du même type.
-1. (Facultatif) Si vous ne parvenez pas à trouver un enregistrement ou un objet à connecter et que vous souhaitez l’ajouter, <span class="preview">cliquez sur **+ Ajouter**</span>
+1. (Facultatif) Si vous ne parvenez pas à trouver un enregistrement ou un objet à connecter et que vous souhaitez l’ajouter, cliquez sur **+ Ajouter**
 
    Ou
 
@@ -454,8 +454,6 @@ Les enregistrements et les objets sont immédiatement ajoutés.
    ![ Icône Déconnecter l’enregistrement avec une info-bulle sur l’onglet Connexions ](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    L&#39;enregistrement est immédiatement déconnecté de toutes les zones de Workfront Planning ou d&#39;autres applications où il peut apparaître comme connecté. Toutes les valeurs de champ de recherche sont également supprimées.
-
-<div class="preview">
 
 ### Connecter des enregistrements à partir de l&#39;onglet Affichage de la connexion sur la page de détails d&#39;un enregistrement
 
@@ -474,8 +472,6 @@ Les enregistrements et les objets sont immédiatement ajoutés.
 
    ![Bouton Connexion mis en surbrillance dans l’onglet Détails de l’enregistrement connecté](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 1. (Facultatif) Si vous ne trouvez pas d’enregistrement connecté, cliquez sur **+ Ajouter** pour les créer et les connecter.
-
-</div>
 
 ## Connecter des enregistrements à partir d’objets Workfront
 

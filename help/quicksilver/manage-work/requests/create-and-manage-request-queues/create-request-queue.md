@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: dbf96fd133bc9d37e4a3950f3551a566764a889b
 workflow-type: tm+mt
-source-wordcount: '5167'
-ht-degree: 79%
+source-wordcount: '2855'
+ht-degree: 66%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 79%
 
 <!--hide/ comment out the entire "create requests in Production" section and just edit and leave  only the preview section when it releases to Production; also remove the template blurb when the queue details is unshimmed for templates-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Vous pouvez mettre en place une file d’attente des demandes dans laquelle les personnes peuvent saisir des demandes occasionnelles qui ne sont pas un travail prévu dans un projet. Par exemple, une file d’attente des demandes du centre d’assistance peut être mise en place pour capturer toutes les demandes des personnes qui parviennent au service informatique.
@@ -119,214 +119,215 @@ Cet article décrit comment créer une file d’attente des demandes à partir d
 
 La création d’une file d’attente de demandes diffère selon l’environnement utilisé.
 
-### Création d’une file d’attente des demandes dans l’environnement de production
+<!--
 
-Cette section décrit comment définir les Détails de la file d&#39;attente pour les objets suivants :
+### Create a Request Queue in the Production environment
 
-* Un projet dans l’environnement de production
-* Un modèle dans l’environnement de production ou de prévisualisation
+This section describes how you can define Queue Details for the following objects:
 
-Lorsque vous configurez un projet en tant que file d’attente des demandes, le statut du projet doit être En cours pour qu’il s’affiche dans la zone Demandes de Workfront.
+* A project in the Production environment
+* A template in the Production or Preview environment
+
+When you set up a project as a Request Queue, the project status must be Current in order to display in the Requests area of Workfront.
 
 >[!TIP]
 >
->Votre administrateur ou administratrice Workfront ou de groupes peut vous assigner un modèle de mise en page personnalisé qui peut ne pas inclure certaines des sections décrites dans les étapes suivantes.
+>Your Workfront or group administrator might assign you to a custom Layout Template that might not include some of the sections described in the following steps.
 
 
-Pour créer une file d’attente des demandes, procédez comme suit :
+To create a Request Queue:
 
-1. Accédez au projet que vous souhaitez configurer en tant que file d’attente des demandes.
-1. (Facultatif) Cliquez sur **Détail du projet** dans le panneau de gauche et ajoutez une **Description** au projet dans la zone **Vue d’ensemble**. Cette information s’affiche sur toutes les nouvelles demandes.
-1. Cliquez sur **Détails de la file d’attente** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Détails de la file d’attente**.
+1. Go to the project that you want to set up as a Request Queue.
+1. (Optional) Click **Project Details** in the left panel and add a **Description** to the project in the **Overview** area. This information displays on all new requests.
+1. Click **Queue Details** in the left panel. You might need to click **Show More**, then **Queue Details**.
 
-   La section Détails de la file d’attente s’ouvre.
+   This opens the Queue Details section.
 
-   ![ Détails de la file d’attente en haut de la section ](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)
+   ![Queue Details top of the section](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)   
 
-1. Indiquez les informations suivantes :
+1. Specify the following information:
 
-   * **Publier en tant que file d’attente des requêtes d’aide :** sélectionnez cette option pour identifier ce projet comme une file d’attente des demandes d’aide. Tous les problèmes entrants sont considérés comme des demandes.\
-     Lorsque cette option n’est pas sélectionnée, le projet se comporte comme un projet standard dans Workfront et tous les problèmes entrants sont des problèmes.
+   * **Publish as Help Request Queue:** Select this option to identify this project as a request queue. All incoming issues are considered Requests.  
+     When this option is not selected, the project behaves like a standard project in Workfront and all incoming issues are issues.
+   
+   * **Who can add requests to this queue:** Select which users have access to add requests to this queue. You can allow the following groups of people to see the Request Queue in their Requests area of the Global Navigation Bar when they add a new request:
 
-   * **Qui peut ajouter des requêtes à cette file d’attente :** sélectionnez les personnes qui ont le droit d’ajouter des demandes à cette file d’attente. Vous pouvez autoriser les groupes de personnes suivants à voir la file d’attente des demandes dans leur zone Demandes de la barre de navigation globale lors de l’ajout d’une nouvelle demande :
-
-     | Qui peut saisir des demandes | Description |
+     |Who can enter requests | Description|
      |---|---|
-     | Quiconque | Toute personne utilisant Workfront et disposant d’un compte actif peut afficher cette file d’attente des demandes et y ajouter des demandes. |
-     | Personnes disposant d&#39;un accès en affichage pour ce projet | Les personnes ayant des autorisation d’affichage sur le projet peuvent afficher cette file d’attente et y ajouter des demandes. |
-     | Personnes de l&#39;entreprise affectées à ce projet | Les personnes qui font partie de l’entreprise associée à ce projet peuvent afficher cette file d’attente et y ajouter des demandes. Si une entreprise est associée au projet, le nom de l’entreprise est indiqué entre parenthèses après ce paramètre. |
-     | Personnes du groupe affectées à ce projet | Les personnes qui appartiennent au groupe associé à ce projet peuvent afficher les demandes de cette file d’attente et en ajouter. Si un groupe est associé au projet, le nom du groupe est indiqué entre parenthèses après ce paramètre, en caractères gris. |
+     | Anyone  |Any Workfront user with an active account can view this request queue and add requests to it |
+     | People with view access to this project |Users with View permissions to the project can view and add requests to this queue |
+     | People in this project's company |Users who belong to the company associated with this project can view and add requests to this queue. If there is a company associated with the project, the name of the company is listed in parentheses after this setting.  |
+     | People in this project's group |Users who belong to the group associated with this project can view and add requests to this queue. If there is a group associated with the project, the name of the group is listed in parentheses after this setting, in gray font.  |
 
-     {style="table-layout:auto"}
+   * **Share with these links:** The following options enable you to provide direct access to the Request Queue and the forms associated with it to users outside of Workfront or to Workfront users using an external page. For information about embedding a request queue in a dashboard as an external page, see [Embed a request queue in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
-   * **Partager avec ces liens :** les options suivantes vous permettent de fournir un accès direct à la file d’attente des demandes et aux formulaires qui y sont associés à des personnes extérieures à Workfront ou à des utilisateurs et utilisatrices de Workfront utilisant une page externe. Pour plus d’informations sur l’intégration d’une file d’attente des demandes dans un tableau de bord en tant que page externe, voir [Intégrer une file d’attente des demandes dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
-
-     Les personnes doivent déjà avoir des droits d’accès à la file d’attente des demandes pour pouvoir obtenir un accès direct. L’utilisation de l’une ou l’autre des options décrites ici n’octroie pas automatiquement l’accès aux personnes.
+     Users must already have access rights to the Request Queue in order to gain direct access. Using either option described here does not automatically grant access to users.
 
      >[!TIP]
      >
-     >Les personnes doivent d’abord se connecter à Workfront avant de pouvoir accéder à la file d’attente des demandes lorsqu’elles accèdent à la page File d’attente des demandes à partir d’une autre application.
+     >Users must first log in to Workfront before gaining access to the request queue when they access the Request Queue page from another application.
 
-      * **URL d’accès direct :** lorsqu’une personne accède à cette URL à partir d’un navigateur, elle est directement dirigée vers la section Nouvelle demande de la zone Demandes et cette demande est sélectionnée par défaut pour elle.
+      * **Direct Access URL:** When a user accesses this URL from a browser, the user is taken directly to the New Request  section in the Requests area and this request is selected by default for them.
 
-        ![Partager la file d’attente des demandes avec l’URL directe incorporée dans le tableau de bord](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
-
-        >[!NOTE]
-        >
-        >Vous pouvez afficher une file d’attente des demandes dans un tableau de bord en tant que page externe. Dans ce cas, la file d’attente des demandes est présélectionnée, mais vous pouvez sélectionner n’importe quelle autre file d’attente des demandes dans le champ Type de demande. Les personnes peuvent modifier le type de demande. Les éléments de navigation des demandes s’affichent également.
-
-      * **Code intégré :** utilisez ce code HTML pour intégrer le formulaire de file d’attente des demandes sous forme d’iframe dans n’importe quelle page HTML.\
-        Si les personnes ne sont pas déjà authentifiées auprès de Workfront lorsqu’elles affichent la page où le code est intégré, la boîte de dialogue de connexion à Workfront s’affiche. Une fois les personnes connectées, le formulaire de la file d’attente des demandes s’affiche.
+        ![Share request queue with direct URL embedded in dashboard](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
         >[!NOTE]
         >
-        >Lors de l’affichage d’une file d’attente des demandes dans un iframe, seul le formulaire de demande s’affiche, le nom de la demande est présélectionné et grisé. La personne ne peut pas modifier le type de demande. Les éléments de navigation de la zone Demandes ne s’affichent pas.
+        >You can display a Request Queue in a dashboard as an external page. In this case, the request queue is preselected, but you can select any other request queue from the Request Type field. users can change the Request Type. Navigation components of the Requests also display.
 
-        Pour que le formulaire de file d’attente des demandes s’affiche lorsque vous utilisez ce code intégré, vous devez activer le paramètre « Autoriser l’intégration de Workfront dans un iframe » dans la configuration de votre système. Pour plus d’informations sur l’activation de l’intégration de Workfront dans un iframe, voir [Configurer les préférences de sécurité du système](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). Si ce paramètre n’est pas activé, l’iframe est laissé vide.
+      * **Embed Code:** Use this HTML code to embed the request queue form as an iframe within any HTML page.  
+        If users are not already authenticated to Workfront when they view the page where the code is embedded, the Workfront login dialog box is displayed. After users log in, the Request Queue form is displayed.
 
-        Vous pouvez régler divers aspects de l’affichage du formulaire intégré, comme suit :
+        >[!NOTE]
+        >
+        >When displaying a Request Queue in an iframe, only the request form displays, the request name is preselected and dimmed. User cannot change the Request type. Navigation components of the Requests area do not display.
+
+        In order for the request queue form to be displayed when using this embed code, you must enable the "Allow embedding of Workfront in an iframe" setting in your system setup. For more information about enabling embedding of Workfront in an iframe, see [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). If this setting is not enabled, the iframe is displayed as blank.
+
+        You can adjust various aspects of how the embedded form is displayed, as follows:
 
         <table border="1" cellspacing="15"> 
          <col> 
          <col> 
          <thead> 
           <tr> 
-           <th> <p><strong>Fonctionnalité</strong> </p> </th> 
+           <th> <p><strong>Functionality</strong> </p> </th> 
            <th> <p><strong>Solution</strong> </p> </th> 
           </tr> 
          </thead> 
          <tbody> 
           <tr> 
-           <td> <p>Ajuster la taille du cadre</p> </td> 
-           <td> <p>Modifiez les attributs « largeur » et « hauteur ».</p> <p>Par défaut, la largeur est de « 500 » et la hauteur de « 600 ».</p> </td> 
+           <td> <p>Adjust the size of the frame</p> </td> 
+           <td> <p>Modify the "width" and "height" attributes.</p> <p>By default, the width is "500" and the height is "600"</p> </td> 
           </tr> 
           <tr> 
-           <td> <p>Diriger les utilisateurs et utilisatrices vers une rubrique de file d’attente ou un groupe de sujets spécifique</p> </td> 
-           <td> <p>Ajoutez le paramètre « chemin d’accès » à l’URL src. Vous pouvez trouver le paramètre de chemin d’accès en naviguant vers la rubrique de file d’attente ou le groupe de sujets dans le formulaire non incorporé et en inspectant l’URL.</p> </td> 
+           <td> <p>Direct users to a specific Queue Topic or Topic Group</p> </td> 
+           <td> <p>Add the "path" parameter to the src URL. You can find the path parameter by navigating to the desired Queue Topic or Topic Group in the non-embedded form and inspecting the URL.</p> </td> 
           </tr> 
           <tr> 
-           <td> <p>Afficher et autoriser les utilisateurs et utilisatrices à modifier la liste déroulante des groupes de sujets préconfigurés</p> </td> 
-           <td> <p>Utilisez le paramètre « chemin d’accès » en ajoutant le paramètre <code>showPreSelectedOptions=true</code> à l’<code>src URL</code>.</p> </td> 
+           <td> <p>Show and allow users to change the pre-configured Topic Group drop-down list</p> </td> 
+           <td> <p>Use the "path" parameter by adding the <code>showPreSelectedOptions=true</code> parameter to the <code>src URL</code>.</p> </td> 
           </tr> 
           <tr> 
-           <td> <p>Détecter l’envoi du formulaire</p> </td> 
-           <td> <p>Ajoutez un listener d’événements « message » à la fenêtre de votre page web et vérifiez si <code>event.data.type</code> est <code>requestSubmitted</code>. <code>event.data.newIssueID</code> prendra la valeur de l’ID du problème créé.</p> </td> 
+           <td> <p>Detect when the form has been submitted</p> </td> 
+           <td> <p>Add a "message" event listener to your web page's window and checking if <code>event.data.type</code> is <code>requestSubmitted</code>. <code>event.data.newIssueID</code> will be set to the ID of the created issue.</p> </td> 
           </tr> 
          </tbody> 
         </table>
 
-   * **Types de demandes :** sélectionnez parmi les options par défaut ci-dessous.
+   * **Request Types:** Select from the default options below.
 
-     L’administrateur ou administratrice Workfront peut renommer les types de demande par défaut. Pour plus d’informations sur le renommage des types de demandes, voir [Personnaliser les types de problèmes par défaut](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
+     The Workfront administrator can rename the default request types. For more information about renaming the request types, see [Customize default issue types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
-      * Rapport sur les bogues
-      * Modifier l&#39;ordre
-      * Problème
-      * Demande
+      * Bug Report
+      * Change Order
+      * Issue
+      * Request
 
-        Ce champ est obligatoire et vous devez sélectionner au moins une option.
+        This is a required field and you must select at least one option.
 
      >[!NOTE]
      >
-     >Les types de demandes ne s’affichent en tant que sélection dans la zone Demandes que si le type de demande est sélectionné à la fois dans les pages Détails de la file d’attente et Rubrique de la file d’attente. Pour plus d’informations sur la configuration de la zone Détails de la file d’attente d’un projet, voir [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     >Request Types display as a selection in the Requests area only if the Request Type is selected in both the Queue Details and the Queue Topic pages. For information about setting up the Queue Details area of a project, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-     Chaque type sélectionné ici sera disponible sur le formulaire (vous pouvez en sélectionner plusieurs). Le fait de sélectionner plus d’un type de demande peut aider à organiser les demandes multiples entrantes.\
-     Par exemple, si vous utilisez le formulaire dans une file d’attente des demandes pour un projet informatique, les types de demandes suivants peuvent être introduits dans la file d’attente : matériel, logiciel, correction de bug et problèmes.
+     Each type selected here will be available on the form (you can select more than one). Selecting more than one type can help organize multiple requests coming in.  
+     For example, if you are using the form on a request queue for an IT project, the following request types can come in to the queue: hardware, software, bug fixes, and issues.
 
-   * **Durée par défaut :** la durée par défaut est le temps qu’il faut généralement pour traiter un problème. Elle devient la valeur par défaut pour tous les problèmes entrants et peut être modifiée manuellement. La durée est généralement fixée en heures, jours ou semaines. La durée par défaut d’un problème est la même que celle des heures prévues pour ce problème. La date d’achèvement prévue du problème est calculée sur la base de ce champ.\
-     La durée par défaut du problème est de 1 jour ou 8 heures. Si votre administrateur ou administratrice Workfront a défini le nombre d’heures typiques par jour de travail comme étant inférieur à 8 heures, la durée par défaut des problèmes est toujours de 8 heures. Par exemple, si le nombre d’heures typiques par jour de travail est fixé à 7 heures, la durée par défaut des problèmes est de 1,14 jour ou 8 heures. Pour plus d’informations sur la configuration du système Heures types par jour de travail, voir la section « Calculs de chronologie » dans l’article [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   * **Default Duration:** The default duration is the length of time it typically takes to complete an issue. This becomes the default for all incoming issues and can be modified manually. Duration is generally set in hours, days, or weeks. The Default Duration of an issue is the same as the Planned Hours on the issue. The Planned Completion Date of the issue calculates based on this field.  
+     The default for the issue Duration is 1 day or 8 hours. If your Workfront administrator set the Typical Hours per Work Day as less than 8 hours, the Default Duration for issues is still 8 hours. For example, if the Typical Hours per Work Day is set to 7 hours, the Default Duration for issues is 1.14 Days or 8 hours. For more information about how to set up the system Typical Hours per Work Day, see the "Timeline Calculations" section in the article [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   
+   * **People from the same company will inherit the same permissions for all requests.:** When selected, all requests submitted to the queue are visible for users in the same company. Users can view these requests in the All Requests  section , located within the Requests area. At the time that this setting is enabled or disabled, it impacts all future requests; it does not retroactively impact information. 
+   * **When someone makes a request, automatically grant:** When a user makes a request to the request queue, the user is automatically granted the level of permission that you choose to that request. Select from the following permissions levels: 
 
-   * **Les personnes appartenant à la même entreprise hériteront d’autorisations identiques pour toutes les demandes :** lorsque cette option est sélectionnée, toutes les demandes soumises à la file d’attente sont visibles par les utilisateurs et utilisatrices de la même entreprise. Les utilisateurs et utilisatrices peuvent consulter ces demandes dans la section Toutes les demandes, située dans la zone Demandes. Au moment où ce paramètre est activé ou désactivé, il a un impact sur toutes les demandes futures ; il n’a pas d’impact rétroactif sur les informations.
-   * **Lorsque quelqu’un fait une demande, lui accorder automatiquement :** lorsqu’une personne dépose une demande dans la file d’attente, elle se voit automatiquement accorder le niveau d’autorisation que vous avez choisi pour cette demande. Sélectionnez l’un des niveaux d’autorisation suivants :
+      * **View Access** 
+      * **Contribute Access**. This is the default selection.
+      * **Manage Access**
 
-      * **Accès en affichage**
-      * **Accès en contribution**. Il s’agit de la sélection par défaut.
-      * **Accès en gestion**
-
-     Pour plus d’informations sur le modèle des autorisations de Workfront, voir [Vue d’ensemble du partage des autorisations sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
-     Définir des autorisations ici permet de gagner du temps, plutôt que de devoir accorder des autorisations pour chaque demande entrante. Le choix de cette option a un impact sur toutes les demandes futures, mais n’a pas d’impact rétroactif sur les demandes existantes.
-
-   * **Approbation par défaut** : associez un processus d’approbation à cette file d’attente. Seuls les processus d’approbation des problèmes sont visibles dans ce menu déroulant. Tous les problèmes envoyés à cette file d’attente seront associés à ce processus d’approbation. Votre administrateur ou administratrice Workfront doit définir les processus d’approbation au niveau du système avant que vous puissiez les associer aux files d’attente. Les utilisateurs et utilisatrices disposant d’un accès administratif aux processus d’approbation peuvent également créer des processus d’approbation spécifiques à un groupe.
+     For information about the Workfront permissions model, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).   
+     Setting permissions here saves time, rather than having to grant permissions for each individual incoming request. Choosing this option impacts all future requests, but does not retroactively impact existing requests. 
+   
+   * **Default Approval**: Associate an approval process with this request queue. Only Issue Approval Processes are visible in this drop-down menu. All issues submitted to this queue will be associated with this approval process. Your Workfront administrator must define system-level approval processes before you can associate them with request queues. Users with administrative access to Approval processes can also create group-specific approval processes.
 
      >[!IMPORTANT]
      >
-     >Si le groupe du projet change, le processus d’approbation spécifique au groupe lié aux problèmes existants devient un processus d’approbation à usage unique. Pour plus d’informations sur la manière dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir [Comment les modifications apportées au groupe et au processus d’approbation affectent les processus d’approbation attribués](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+     >If the group of the project changes, the group-specific approval process attached to existing issues becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see [How group and approval process changes affect assigned approval processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
-     Si plusieurs rubriques de file d’attente sont associées à une file d’attente des demandes, nous vous recommandons plutôt d’associer les processus d’approbation aux rubriques de file d’attente. Pour plus d’informations sur la création de rubriques de file d’attente, voir [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     If you have multiple queue topics associated with a request queue, we recommend that you associate approval processes with the queue topics instead. For more information about creating queue topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md). 
+   
+     Consider the following when adding approval processes to request queues:
 
-     Tenez compte des points suivants lorsque vous ajoutez des processus d’approbation aux files d’attente des demandes :
+      * Only active approval processes display in the list. 
+      * System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.
 
-      * Seuls les processus d’approbation actifs sont affichés dans la liste.
-      * Les processus d’approbation à l’échelle du système et spécifiques au groupe s’affichent dans la liste. Un processus d’approbation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste.
-
-   * **Route par défaut** : associer une règle de transmission à cette file d’attente des demandes. Les règles de transmission permettent d’attribuer automatiquement de nouveaux problèmes soumis à une file d’attente des demandes à la bonne ressource (utilisateur ou utilisatrice, fonction ou équipe) ainsi qu’au bon projet. Tous les problèmes soumis à cette file d’attente seront associés à cette règle de transmission. Vous devez configurer les règles de transmission avant qu’elles ne s’affichent dans la section Détails de la file d’attente et avant de pouvoir les associer à une file d’attente des demandes.\
-     Si plusieurs sujets de file d’attente sont associés à une file d’attente des demandes, nous vous recommandons plutôt d’associer des règles de transmission aux sujets de file d’attente. Pour plus d’informations sur la création de règles de transmission, voir [Créer des règles de transmission](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
-
-   * **Champs Nouveau problème :** dans la section **Afficher les champs sélectionnés suivants pour tous les utilisateurs et toutes les utilisatrices**, sélectionnez les champs que vous souhaitez rendre visibles à toutes les personnes qui soumettent une demande au projet ou qui ajoutent un problème au projet ou aux tâches.
+   * **Default Route**: Associate a Routing Rule with this request queue. Use Routing Rules to automatically assign new issues submitted to a Request Queue to the correct resource (user, job role, or team), and to the correct project. All issues submitted to this queue will be associated with this Routing Rule. You must configure Routing Rules before they display in the Queue Details section and before you can associate them with request queue.  
+     If you have multiple queue topics associated with a request queue, we recommend that you associate routing rules with the queue topics instead. For more information about creating routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   
+   * **New Issue Fields:** In the **Show the following selected fields to all users** section, select any fields that you want to be visible to all users who submit a request to the project or add an issue to the project or the tasks.
 
      >[!TIP]
      >
-     >Les champs Nouveau problème sélectionnés dans la section Détails de la file d’attente sont également associés à tout nouveau problème ajouté au projet <!--this is confusing: or to the tasks in the Issues section-->.
+     >New Issue Fields selected in the Queue Details section are also associated with any new issue added to the project <!--this is confusing: or to the tasks in the Issues section-->.
 
-     Lorsque vous activez les champs Affecté à, Fonction ou Équipe, ceux-ci sont toujours renommés en Affectations dans le formulaire de demande, mais vous ne pouvez spécifier que le type d’affectation sélectionné ici.
+<!--     When you enable any of the Assigned to, Job Role, or the Team fields, they are always renamed to Assignments in the request form, but you can only specify the type of assignment selected here.
 
-     >[!NOTE]
-     >
-     >Si vous avez sélectionné Affecté à dans la zone Détails de la file d’attente, vous ne pouvez saisir que des utilisateurs et utilisatrices dans le champ Affectations du formulaire de demande. Dans ce cas, vous ne pouvez pas saisir de fonctions ou d’équipe.
-
-   * **Documents** : si vous choisissez d’afficher la section Documents dans le nouveau formulaire de demande, sélectionnez l’emplacement de la section de chargement des documents. Sélectionnez l’une des options suivantes :
+      >[!NOTE]
+      >
+      >If you selected Assigned To in the Queue Details area, you can enter only users in the Assignments field on the request form. In this case, you cannot enter job roles or a team. 
+   
+   * **Documents**: If you select to display the Documents section in the new request form, select where the document uploading section should be positioned. Select from the following:
 
      <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader">Avant les formulaires personnalisés</td> 
-        <td><span>La section Documents s’affiche au bas du formulaire de demande.</span> </td> 
+        <td role="rowheader">After custom forms</td> 
+        <td><span>The Documents section displays at the bottom of the request form.</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Avant les formulaires personnalisés</td> 
-        <td> <p><span>La section Documents s’affiche entre les champs Workfront et les champs personnalisés du formulaire de demande.</span> </p> </td> 
+        <td role="rowheader">Before custom forms</td> 
+        <td> <p><span>The Documents section displays between the Workfront fields and the custom fields of the request form.</span> </p> </td> 
        </tr> 
       </tbody> 
-     </table>
+     </table>   
+   
+     ![New issue fields area with documents](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
 
-     ![Nouvelle zone de champs Événement contenant des documents](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
+   * **Show all selected and unselected fields to:** Select which users you want to see all the fields on the new request form. The following options control the access to the fields on the form.
+    
+      |Which users can see all fields on the request form | Description|  
+      |---|---| 
+      | All Users (Plan Licenses) |All users who have a Plan license can see the selected as well as the unselected fields. |
+      | People with view access to this project (Plan License) |Those users with a Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
+      | No Users |No users can see the unselected fields. All users who can submit requests to this project can only see the fields selected.  |
+  
+   * **Custom Forms**: Select a custom form to associate with the Request Queue. Only Issue Custom Forms are available to select from this drop-down menu. All issues submitted to the Request Queue will have the selected forms associated with them. You must create issue custom forms before you can see them displayed in the Queue Details section. 
+     If you have multiple Queue Topics associated with a Request Queue, we recommend that you associate custom forms with the Queue Topics instead. For more information about creating sub-sections for the Request Queue, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-   * **Afficher tous les champs sélectionnés et non sélectionnés :** sélectionnez les utilisateurs et utilisatrices qui doivent voir tous les champs du nouveau formulaire de demande. Les options suivantes contrôlent l’accès aux champs du formulaire.
+     ![Custom forms on Queue Details](assets/custom-forms-on-queue-details.png)
 
-     | Utilisateurs et utilisatrice pouvant voir tous les champs du formulaire de demande | Description |
-     |---|---| 
-     | Tous les utilisateurs et utilisatrices (licence Plan) | Toutes les personnes disposant d’une licence Plan peuvent voir les champs sélectionnés et non sélectionnés. |
-     | Personnes disposant d&#39;un accès en affichage pour ce projet (licence de plan) | Les utilisateurs et utilisatrices disposant d’une licence Plan et ayant également des droits d’affichage pour ce projet peuvent voir les champs sélectionnés et non sélectionnés. Les autres utilisateurs et utilisatrices pouvant soumettre des demandes pour ce projet ne peuvent voir que les champs sélectionnés. |
-     | Aucun utilisateur | Personne ne peut voir les champs non sélectionnés. Tous les utilisateurs et utilisatrices pouvant soumettre des demandes pour ce projet ne peuvent voir que les champs sélectionnés. |
-
-   * **Formulaires personnalisés** : sélectionnez un formulaire personnalisé à associer à la file d’attente des demandes. Seuls les formulaires personnalisés de problèmes peuvent être sélectionnés dans ce menu déroulant. Les formulaires sélectionnés seront associés à tous les problèmes soumis à la file d’attente des demandes. Vous devez créer des formulaires personnalisés de problèmes avant de pouvoir les afficher dans la section Détails de la file d’attente.
-Si plusieurs rubriques de file d’attente sont associées à une file d’attente des demandes, nous vous recommandons plutôt d’associer des formulaires personnalisés aux rubriques de file d’attente. Pour plus d’informations sur la création de sous-sections pour la file d’attente des demandes, voir [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
-
-     ![Formulaires personnalisés dans les détails de la file d’attente](assets/custom-forms-on-queue-details.png)
-
-     Si plusieurs formulaires personnalisés sont associés à la file d’attente des demandes, faites glisser les formulaires pour les trier dans l’ordre souhaité, dans la section **Réorganiser les formulaires**.
+     If you have multiple custom forms associated with the Request Queue, drag and drop the forms to sort them in the desired order, in the **Reorder Forms** section.
 
      >[!TIP]
      >
-     >Les formulaires personnalisés ajoutés à la section Détails de la file d’attente sont également associés à toute nouvelle question ajoutée au projet <!--this is confusiong: or the tasks in the Issues  section-->.
+     >Custom forms added to the Queue Details section are also associated with any new issue added to the project <!--this is confusiong: or the tasks in the Issues  section-->.
 
-1. Continuez à sélectionner les informations pour les paramètres dans la zone **Paramètres de la file d’attente des e-mails** pour permettre aux utilisateurs et utilisatrices d’envoyer des demandes par e-mail au projet de file d’attente des demandes.
+<!--1. Continue selecting information for the settings in the **Email Queue Settings** area, to allow users to email requests to the request queue project. 
 
-   Pour plus d’informations, voir [Permettre aux utilisateurs et utilisatrices d’envoyer un problème par e-mail dans un projet de file d’attente des demandes](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+    For more information, see [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
-1. Cliquer sur **Enregistrer**.\
-   Votre projet a été configuré pour être une file d’attente des demandes et les utilisateurs et utilisatrices peuvent maintenant y ajouter des demandes.
+1. Click **Save**.  
+   Your project has now been configured to be a Request Queue and users can now add requests to it. 
 
-1. (Facultatif) Pour améliorer la fonctionnalité de la file d’attente des demandes, créez des sous-sections supplémentaires pour votre file d’attente, ainsi que des règles pour acheminer les demandes entrantes vers l’équipe, la personne cessionnaire ou le projet approprié.
+1. (Optional) To enhance the Request Queue functionality, build additional sub-sections for your queue, as well as rules to route the incoming requests to the correct team, assignee or project.
 
-   * Pour plus d’informations sur la création de sous-sections pour la file d’attente des demandes, voir les articles [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) et [Créer des groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
-   * Pour plus d’informations sur la transmission des demandes vers la personne cessionnaire, l’équipe et le projet appropriés, voir [Créer des règles de transmission](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * For information about creating sub-sections for the Request Queue, see the articles [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) and [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).  
+   * For information about routing the requests to the appropriate assignee, team, and appropriate project, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-<div class="preview">
+   -->
 
-### Création d’une file d’attente des demandes dans l’environnement de prévisualisation
+
+### Créer une file d’attente des demandes
 
 Lorsque vous configurez un projet en tant que file d’attente des demandes, le statut du projet doit être En cours pour qu’il s’affiche dans la zone Demandes de Workfront.
 
@@ -540,4 +541,3 @@ Pour plus d’informations, voir [Créer des rubriques de file d’attente](../.
 
      Pour plus d’informations sur la transmission des demandes vers la personne cessionnaire, l’équipe et le projet appropriés, voir [Créer des règles de transmission](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-</div>

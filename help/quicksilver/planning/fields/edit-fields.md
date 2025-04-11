@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: e49f1b3d9de3984ed798e20a0a0f03f9d4060115
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 33%
+source-wordcount: '718'
+ht-degree: 35%
 
 ---
 
 
 # Modifier les paramètres de champ
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des plans Workfront suivants :</p> 
+<p>L’un des plans de front de travail suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
@@ -99,9 +99,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 +++
 
 
-## Considérations relatives à la modification des paramètres de champ
+## Observations relatives à la modification des paramètres de champ
 
-Vous devez tenir compte des points suivants avant d’apporter des modifications à la configuration d’un champ :
+Vous devez tenir compte des éléments suivants avant d’apporter des modifications à la configuration d’un champ :
 
 * Vous ne pouvez modifier les paramètres de champ qu’à partir du tableau de type d’enregistrement.
 * Vous ne pouvez pas modifier un champ sur la page d’enregistrement ou dans un autre affichage, en dehors de la vue Tableau.
@@ -115,14 +115,13 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
 
   >[!WARNING]
   >
-  >Lorsque des expressions de formule sont modifiées ou que des options sont ajoutées ou supprimées dans un champ de type select, il y aura une perte de données pour les enregistrements qui contiennent déjà des informations stockées dans les champs dont la configuration est modifiée.
+  >Lorsque les expressions de formule changent ou que des options sont ajoutées ou supprimées d’un champ de type sélection, il y aura une perte de données pour les enregistrements qui ont déjà des informations stockées dans les champs dont la configuration est modifiée.
   >
-  >Aucun avertissement ni indication que cette perte de données peut se produire lorsque vous modifiez la configuration des champs.
+  >Il n’y a aucun avertissement ou indication que cette perte de données peut se produire lorsque vous modifiez la configuration des champs.
   >
-  >Les autres utilisateurs ne sont pas informés que la configuration du champ a changé.
+  >Les autres utilisateurs ne sont pas avertis que la configuration du champ a changé.
 
-* Dans l’environnement de production, vous ne pouvez pas modifier les champs de recherche existants.
-  <span class="preview">Dans l’environnement Aperçu, vous pouvez modifier les champs de recherche existants à partir d’enregistrements connectés.</span>
+* Vous pouvez modifier des champs de recherche existants à partir d’enregistrements connectés.
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -159,7 +158,7 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
    >
    >* Une fois le champ enregistré, vous ne pouvez plus le mettre à jour.
    >
-   >* Lorsque vous modifiez les configurations de champ (options de champ ou expressions de formule), les enregistrements qui contiennent déjà des informations dans les champs modifiés mettent à jour leurs valeurs en temps réel. Il n’existe aucun avertissement ni journal d’audit pour les modifications de valeur déclenchées par les modifications de configuration des champs. Tous les utilisateurs qui consultent les champs verront immédiatement les nouvelles valeurs avec les modifications.
+   >* Lorsque vous modifiez des configurations de champs (options de champ ou expressions de formule), les enregistrements qui contiennent déjà des informations dans les champs modifiés mettent à jour leurs valeurs en temps réel. Il n’y a pas d’avertissement ni de journal d’audit pour les changements de valeur déclenchés par les modifications de configuration de champ. Tous les utilisateurs qui affichent les champs verront immédiatement les nouvelles valeurs avec les modifications.
 
    Les informations de champ sont mises à jour pour toutes les personnes ayant accès à l’affichage de l’espace de travail.
 

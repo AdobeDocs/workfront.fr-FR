@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 61%
+source-wordcount: '815'
+ht-degree: 64%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 61%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des chemins jalonnés qui peuvent ensuite être appliqués à n’importe quel projet du système. Les modifications apportées aux chemins jalonnés dans cette zone affectent l’ensemble du système Workfront.
 
@@ -123,20 +123,18 @@ Pour plus d’informations sur l’association d’un chemin jalonné à un proj
    Pour plus d’informations sur l’association des chemins jalonnés à des projets et des jalons à des tâches, voir [Associer des jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 
-1. <span class="preview">(Facultatif) Cliquez sur l’icône **Exporter** ![Icône Exporter](assets/export-icon.png), puis sélectionnez l’un des formats suivants pour exporter la liste des chemins jalonnés vers un fichier : </span>
+1. (Facultatif) Cliquez sur l’icône **Exporter** ![Icône Exporter](assets/export-icon.png), puis sélectionnez l’un des formats suivants pour exporter la liste de chemins jalonnés vers un fichier :
 
    * PDF
    * Excel
    * Excel (xlsx)
    * Délimité par des tabulations
 
-1. <span class="preview">(Facultatif) Sélectionnez un jalon dans la liste des jalons, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) pour modifier les informations du jalon. </span>
-1. <span class="preview">(Facultatif) Sélectionnez un jalon dans la liste des jalons, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) pour le supprimer. </span>
-1. <span class="preview">Cliquez sur **Oui, supprimer**. </span>
-   <span class="preview">Le jalon est supprimé et ne peut pas être récupéré. Toutes les informations de projet associées au jalon et toutes les informations de tâche associées aux chemins jalonnés sont également supprimées. </span>
+1. (Facultatif) Sélectionnez un jalon dans la liste des jalons, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) pour modifier les informations du jalon.
+1. (Facultatif) Sélectionnez un jalon dans la liste des jalons, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) pour le supprimer.
+1. Cliquez sur **Oui, supprimer**.
+Le jalon est supprimé et ne peut pas être récupéré. Toutes les informations de projet associées au jalon et toutes les informations de tâche associées aux chemins jalonnés sont également supprimées.
 
-
-<div class="preview">
 
 ## Affichage des détails du chemin jalonné dans un rapport
 
@@ -163,8 +161,6 @@ Pour plus d’informations sur l’association de chemins jalonnés à des proje
 
    Les détails du chemin jalonné s’affichent.
 
-   <div class="preview">
-
    ![Détails du chemin jalonné du rapport de projet](assets/milestone-details-from-project-report.png)
 
    La page de détails du chemin jalonné affiche les informations suivantes :
@@ -175,6 +171,5 @@ Pour plus d’informations sur l’association de chemins jalonnés à des proje
 
 1. (Facultatif) Cliquez sur **Précédent** pour revenir au rapport du projet.
 
-</div>
 
 

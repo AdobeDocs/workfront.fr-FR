@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Modifier projets
-description: Vous pouvez modifier un projet dans Adobe Workfront aussi souvent que nécessaire. Idéalement, vous devez modifier un projet lorsque celui-ci est au statut Planification. Cet article décrit comment rechercher, rechercher et modifier un projet, si vous disposez des autorisations nécessaires.
+description: Vous pouvez modifier un projet dans Adobe Workfront aussi souvent que nécessaire. Idéalement, vous devez modifier un projet lorsque celui-ci est au statut Planification. Cet article décrit comment rechercher, rechercher et modifier un projet, si vous disposez des autorisations pour le faire.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '7703'
-ht-degree: 93%
+source-wordcount: '7643'
+ht-degree: 94%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 93%
 
 <!--Audited: 07/2024-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -119,7 +119,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
    Pour modifier les informations de la section Détails, procédez comme suit :
 
    1. (Facultatif) Cliquez sur l’icône **Tout réduire** ![Tout réduire](assets/collapse-icon.png) dans le coin supérieur droit pour réduire toutes les zones.
-   1. (Facultatif et conditionnel) Lorsqu’une zone est réduite, cliquez sur la **flèche pointant vers la droite** ![flèche pointant vers la droite](assets/right-pointing-arrow.png) en regard de chaque zone pour développer la zone à modifier.
+   1. (Facultatif et conditionnel) Lorsqu’une zone est réduite, cliquez sur la flèche **![](assets/right-pointing-arrow.png) pointant vers la droite en regard de chaque** zone pour développer la zone à modifier.
    1. Pour plus d’informations sur la modification des informations dans l’onglet Détails du projet, voir les articles suivants :
 
       * [Gérer les informations dans la zone Vue d’ensemble du projet](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
@@ -169,7 +169,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
    * [Paramètres de la tâche](#task-settings)
    * [Paramètres du problème](#issue-settings)
    * [Accès](#access)
-   * <span class="preview">[Commentaire](#comment)</span>
+   * [Commentaire](#comment)
 
 
    >[!NOTE]
@@ -332,7 +332,7 @@ Lors de la sélection de plusieurs projets pour les modifier en bloc, les scéna
 Pour plus d’informations sur l’accès aux formulaires personnalisés, reportez-vous aux articles suivants :
 
 * [Partager un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [Organisation et prévisualisation d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
+* [Organisation et aperçu d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
 
 Pour modifier des informations sur des formulaires personnalisés lors de la modification d’un projet :
 
@@ -570,7 +570,7 @@ Pour plus d’informations sur la façon dont ces paramètres affectent la créa
 1. Dans la zone **Formulaires personnalisés de tâche par défaut**, sélectionnez le ou les formulaires personnalisés que vous souhaitez associer à toutes les nouvelles tâches lorsque vous les ajoutez au projet. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez associer jusqu’à dix formulaires personnalisés à une tâche.
 1. (Facultatif) Sélectionnez **Utiliser l’option Effort de travail pour calculer automatiquement le nombre d’heures prévues de la tâche** si vous souhaitez activer la gestion de l’effort de tâche à l’aide de l’effort de travail au lieu du nombre d’heures prévues.
 
-   ![Effort de travail dans la zone de modification du projet](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Effort de travail dans la zone Modifier le projet](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. (Le cas échéant et facultatif) Si vous avez sélectionné Utiliser l’option Effort de travail pour calculer automatiquement le nombre d’heures prévues de la tâche, cliquez sur le menu déroulant pour chaque niveau d’effort et sélectionnez un pourcentage pour chaque niveau. Les pourcentages suivants sont des valeurs par défaut :
 
@@ -668,7 +668,6 @@ Pour plus d’informations sur la façon dont ces paramètres affectent la créa
 
 1. Cliquer sur **Enregistrer**.
 
-<div class="preview">
 
 ### Commentaire
 
@@ -680,7 +679,6 @@ Pour plus d’informations sur la façon dont ces paramètres affectent la créa
 1. Ajoutez un commentaire dans l&#39;espace prévu à cet effet. Workfront ajoute le commentaire dans la zone Mises à jour du projet. Pour plus d&#39;informations sur la mise à jour de travail, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Cliquer sur **Enregistrer**.
 
-</div>
 
 ## Modifier un projet dans l’en-tête du projet (limité)
 
@@ -728,15 +726,15 @@ Tenez compte des points suivants lorsque vous modifiez des projets en bloc :
 
    * Les champs de type case à cocher comportent une ligne au lieu d’une case à cocher pour l’option qui est cochée pour certains projets, mais pas pour tous les projets sélectionnés.
 
-     ![Plusieurs cases à cocher d’indicateur de valeur dans la zone de modification en bloc des projets](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![Cases à cocher d’indicateurs de valeurs multiples dans la boîte de dialogue Modifier les projets en masse](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * Les champs de type bouton (bascule) sont grisés. Le bouton (bascule) est positionné au centre pour l’option qui est activée dans certains projets, mais pas dans tous les projets sélectionnés.
 
-  ![Plusieurs valeurs mises en surbrillance dans les projets de modification en bloc](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![Plusieurs valeurs mises en évidence dans les projets de modification en masse](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * Les champs de type case d’option dont certaines options sont sélectionnées, mais pas toutes, affichent toutes les cases d’option comme étant vides.
 
-     ![Zone Modifier le projet en bloc avec des boutons radio d’indicateur à valeurs multiples](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+     ![Indicateurs de valeurs multiples Boutons radio Modifier en masse la boîte de projet](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Lorsque vous mettez à jour une option dans un champ à options multiples (tel qu’un champ qui s’affiche sous la forme d’un ensemble de boutons bascules ou de cases à cocher), toutes les autres options doivent correspondre entre les projets sélectionnés.
 
@@ -751,10 +749,10 @@ Pour modifier des projets en bloc, procédez comme suit :
 {{step1-to-projects}}
 
 1. Sélectionnez plusieurs projets dans la liste.
-1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) en haut de la liste.
+1. Cliquez sur l’icône **![Modifier** l’icône](assets/edit-icon.png) Modifier en haut de la liste.
 La boîte de dialogue **Modifier les projets** s’affiche.
 
-   ![Modification de projets dans la fenêtre modale en bloc](assets/edit-projects-in-bulk-modal-unshimmed.png)
+   ![Modifier des projets en bloc modal](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
 Selon la manière dont l’administrateur ou l’administratrice Workfront ou l’administrateur ou l’administratrice de groupes a modifié votre modèle de disposition, les zones du panneau de gauche de la zone Modifier le projet ou les champs répertoriés dans ces zones peuvent être réorganisés ou ne pas s’afficher. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
@@ -777,7 +775,7 @@ Selon la manière dont l’administrateur ou l’administratrice Workfront ou l�
 1. Commencez à saisir le nom d’un formulaire personnalisé dans le champ **Ajouter un formulaire personnalisé**.
 
 
-   ![Forms a déjà joint un indicateur dans les projets de modification en bloc](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+   ![Forms’indicateur déjà attaché dans les projets de modification en masse](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
    Les formulaires personnalisés déjà associés aux projets sélectionnés s’affichent dans la sous-section **Formulaires associés** du champ **Ajouter un formulaire personnalisé**.
 
@@ -805,7 +803,7 @@ Pour plus d’informations sur la modification de la zone Paramètres de la tâc
 Pour plus d’informations sur la modification de la zone Paramètres du problème, voir la section [Paramètres du problème](#issue-settings) de cet article.
 1. Cliquez sur **Accès** pour modifier les paramètres d’accès de tous les projets sélectionnés.
 Pour plus d’informations sur la modification de la zone Accès, voir la section [Accès](#access) de cet article.
-1. <span class="preview">Cliquez sur **Commentaire**, puis ajoutez un commentaire dans l&#39;espace prévu à cet effet. Workfront ajoute un commentaire dans la zone **Mises à jour** de chaque projet. Pour plus d&#39;informations sur la mise à jour de travail, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
+1. Cliquez sur **Comment**, puis ajoutez un commentaire dans l’espace prévu à cet effet. Workfront ajoute le commentaire dans la **zone Mises à jour** de chaque projet. Pour plus d’informations sur la mise à jour du travail, voir [Travaux de mise à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatif) Pour supprimer les informations que vous avez ajoutées dans la zone Modifier les projets, pointez sur un champ modifié, puis cliquez sur l’icône **x** (ignorer) en haut à droite du champ.
 
    ![Icône Ignorer pour le champ Modifier les projets en bloc](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
