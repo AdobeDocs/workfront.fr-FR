@@ -1,5 +1,5 @@
 ---
-title: Configuration des intégrations de documents
+title: Configurer les intégrations de documents
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 04bdfbdf1fa05082fe12c2ab239e861a6db4ee6e
+source-git-commit: 5ff071a6e0af93f5280225355edad1d0dde42b3f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1125'
+ht-degree: 92%
 
 ---
 
@@ -99,7 +99,7 @@ Vous pouvez configurer les intégrations suivantes pour la gestion des documents
 
   Pour les plans actuels, un plan [!UICONTROL Pro] [!DNL Workfront] ou supérieur est nécessaire pour utiliser cette fonction. Pour les nouveaux plans, cette fonction est disponible pour tous les plans. Pour plus d’informations sur les différents plans disponibles, voir [Plans Workfront](https://www.workfront.com/plans?lang=fr).
 
-En outre, vous pouvez améliorer votre expérience de document [!DNL Workfront] avec des intégrations DAM tierces. Les administrateurs doivent activer ces fonctionnalités pour que les utilisateurs puissent lier le service à leur compte [!DNL Workfront].
+En outre, vous pouvez améliorer votre expérience de document [!DNL Workfront] avec des intégrations de gestion des ressources numériques tierces. Les administrateurs doivent activer ces fonctionnalités pour que les utilisateurs puissent lier le service à leur compte [!DNL Workfront].
 
 ## Configurer les intégrations pour gérer des documents
 
@@ -213,7 +213,7 @@ Les informations ne sont mappées que dans un seul sens, de [!DNL Workfront] à 
 Vous pouvez mapper le même champ [!DNL Workfront] sur plusieurs champs [!DNL Workfront DAM], mais vous ne pouvez pas utiliser le même champ [!DNL Workfront DAM] pour plusieurs champs [!DNL Workfront].
 
 Si vous devez configurer plusieurs champs [!DNL Workfront] pour les exporter vers un champ [!DNL Workfront DAM], créez d’abord un champ personnalisé calculé dans [!DNL Workfront] pour afficher tous les champs personnalisés individuels d’un objet. Mappez ensuite le champ [!DNL Workfront] calculé sur un champ [!DNL Workfront DAM].\
-Pour plus d’informations sur les champs personnalisés calculés, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Pour plus d’informations sur les champs calculés personnalisés, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Le mappage affecte tous les documents chargés par n’importe quelle personne de [!DNL Workfront] à [!UICONTROL Workfront] DAM.
 
@@ -246,3 +246,8 @@ Pour configurer [!DNL Workfront] pour envoyer des métadonnées à [!DNL Workfro
 1. Cliquez sur **[!UICONTROL Supprimer]**.
 
    Les champs sont supprimés du mappage de métadonnées et les informations qu’ils contiennent ne sont pas transférées à [!DNL Workfront DAM] avec les documents chargés.
+
+
+## Limites
+
+* L&#39;intégration du document Google Drive prend en charge l&#39;ajout de dossiers et d&#39;images à partir de la zone My Drive de votre lecteur Google. Vous ne pouvez pas ajouter de dossiers ou d&#39;images à partir d&#39;un lecteur partagé. En savoir plus sur les [lecteurs partagés Google](https://support.google.com/a/users/answer/7212025?hl=en).

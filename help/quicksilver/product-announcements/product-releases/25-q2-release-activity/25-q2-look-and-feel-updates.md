@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
+source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 12%
+source-wordcount: '863'
+ht-degree: 10%
 
 ---
 
@@ -17,6 +17,33 @@ ht-degree: 12%
 Cette page décrit les mises à jour mineures apportées à l’aspect de diverses zones de l’application Adobe Workfront au cours du deuxième trimestre 2025.
 
 Pour une liste de tous les changements disponibles avec la version du deuxième trimestre 2025, consultez [Vue d’ensemble de la version du deuxième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Mise à jour de l’apparence de la boîte de dialogue d’intégration du document Google Drive
+
+>[!NOTE]
+>
+>Version préliminaire : 26 mars 2025 ; Version de production pour tous les clients : avec la version 25.4 (10 avril 2025)
+
+Nous avons mis à jour l’apparence lorsque vous utilisez l’intégration de document Google Drive pour créer une nouvelle version d’un document. Cette mise à jour met en parité la boîte de dialogue Version > À partir du lecteur Google avec la boîte de dialogue Ajouter nouveau > À partir du lecteur Google.
+
+Auparavant, vous aviez la possibilité de choisir entre un lecteur Mon lecteur ou un lecteur partagé si votre compte y était associé. Désormais, la boîte de dialogue va directement à la zone My Drive de votre Google Drive.
+
++++ Développer pour afficher cette modification
+
+<table>
+ <thead>
+    <tr>
+        <th>Précédent</th>
+        <th>Nouveau</th>
+    </tr>
+  </thead>
+ <tr>
+        <td><img src="assets/legacy-add.png" alt="ajouter un document avec l’intégration de Google Drive"></td>
+         <td><img src="assets/new-add.png" alt="ajouter un document avec l’intégration de Google Drive"></td>
+    </tr>
+</table>
+
++++
 
 ## Mise à jour de l’expérience dans la zone Niveaux d’accès de la Configuration
 
