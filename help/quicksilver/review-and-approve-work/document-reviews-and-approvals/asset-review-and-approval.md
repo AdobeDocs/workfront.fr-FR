@@ -6,10 +6,10 @@ description: Présentation des systèmes disponibles pour révision et approbati
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 97821d0fa97e8ba18e63b7e4156e06563e148a3d
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 2%
+source-wordcount: '368'
+ht-degree: 1%
 
 ---
 
@@ -33,6 +33,7 @@ Fonctionnalités clés disponibles pour les approbations de documents hérités 
 * Vérifier et commenter dans le lecteur de vérification
 * Prendre des décisions dans le lecteur de vérification
 * Créer des rapports d’approbation avec les rapports hérités
+* Accédez aux demandes d’approbation dans le widget Mes approbations de la zone Accueil .
 
 Pour plus d’informations, voir [Approbations de documents hérités](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
@@ -62,6 +63,8 @@ Pour plus d’informations sur les rapports, voir [Créer un tableau de bord de 
 
 * Créer plusieurs approbations d’étape [!BADGE bientôt disponible]{type=Informative}
 
+* Accédez aux demandes de révision et d’approbation dans le widget Mes approbations de la zone Accueil .
+
 
 ## Validations d&#39;épreuves
 
@@ -84,6 +87,8 @@ Fonctionnalités disponibles pour la relecture :
 * Créer plusieurs validations d’étape
 
 * Utilisation de workflows de base ou automatisés
+
+* Accédez aux demandes d’approbation dans le widget Mes approbations de la zone Accueil .
 
 <!--
 ## Upcoming deprecations
