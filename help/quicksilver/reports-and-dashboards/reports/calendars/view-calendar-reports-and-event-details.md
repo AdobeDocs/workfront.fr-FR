@@ -6,10 +6,10 @@ description: Vous pouvez afficher les rapports de calendrier et les détails des
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
+source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 79%
+source-wordcount: '651'
+ht-degree: 76%
 
 ---
 
@@ -82,8 +82,6 @@ Vous pouvez choisir parmi les vues de rapports de calendrier suivantes :
    * **[!UICONTROL Semaine]** : affiche une semaine du calendrier.
    * **[!UICONTROL Gantt]** : affiche une vue continue du calendrier
 
-     ![[!UICONTROL Gantt] rapport de calendrier](assets/gantt-calendar-report.png)
-
      Vous pouvez afficher davantage d’événements dans une vue [!UICONTROL Gantt] en faisant défiler l’écran vers le bas ou sur le côté. Un symbole de chargement s’affiche lorsque des données sont renseignées pour la vue.
 
    >[!NOTE]
@@ -118,16 +116,5 @@ Vous pouvez rendre à nouveau les événements visibles en sélectionnant le reg
 
 Vous pouvez afficher les détails d’un événement dans un calendrier, pour les événements passés et en cours.
 
-1. Accédez à l’événement dont vous souhaitez connaître les détails, puis cliquez sur l’événement.
-Une page de détails de l’événement s’ouvre.
-   ![calendar_report_EventDetails.png](assets/calendar-report-eventdetails-350x145.png)
-
-1. (Facultatif) Pour afficher des détails supplémentaires sur l’objet :
-
-   1. Pointez sur le projet, la tâche ou le nom du problème.
-
-      Une page de détails s’ouvre pour l’objet.
-      ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
-
-   1. (Facultatif) Pour ouvrir le projet, la tâche ou le problème associé, cliquez sur le titre de l’objet.
-   1. (Facultatif) Pour fermer toutes les pages de détails ouvertes, cliquez n’importe où en dehors des pages de détails de l’événement.
+1. Accédez à l’événement dont vous souhaitez connaître les détails, puis cliquez sur l’événement. Les détails s’ouvrent dans un panneau sur le côté droit.
+1. (Facultatif) Pour ouvrir le projet, la tâche ou le problème associé, cliquez sur le titre de l’objet.
