@@ -7,10 +7,10 @@ description: Cette page contient des informations sur la structure et le contenu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: eccc878f4b6fdeeffbcd5635b80ac3e26f7fb8c6
+source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
 workflow-type: tm+mt
-source-wordcount: '4719'
-ht-degree: 4%
+source-wordcount: '7843'
+ht-degree: 7%
 
 ---
 
@@ -63,801 +63,8008 @@ Plusieurs objets de date fournissent des informations sur le moment où des év�
 
 Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi que leurs noms dans l’interface et l’API) avec leurs noms équivalents dans Data Connect.
 
+### Niveau d’accès
+
 <table>
-  <thead>
-    <tr>
-        <th>Nom de l’entité Workfront</th>
-        <th>Références d’interface</th>
-        <th>Référence d’API | Libellé</th>
-        <th>Tableaux du lac de données</th>
-        <th>Champ Relations</th>
-        <th>Table et champ de relation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-        <td>Niveau d’accès</td>
-        <td>Niveau d’accès</td>
-        <td>ACSLVL | Niveau d'accès</td>
-        <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
-        <td>ACCESSLEVELS (self)<br>APPGLOBALID<br>LASTUPDATEDBYID<br>LEGACYACCESSLEVELS<br>OBJID<br>SYSID</td>
-        <td>Self<br>Not a relation ; utilisé à des fins d’application interne<br>USER_CURRENT | USERID<br>Pas de relation ; utilisé à des fins d’application interne<br>Identifiant de l’objet identifié dans le champ OBJCODE<br>Pas de relation ; utilisé à des fins d’application interne</td>
-    </tr>
-    <tr>
-        <td>Règle d'accès</td>
-        <td>Partager</td>
-        <td>ACSRUL | Partager</td>
-        <td>ACCESSRULES_CURRENT<br>ACCESSRULES_DAILY_HISTORY<br>ACCESSRULES_EVENT</td>
-        <td>ACCESSORID <br>ACCESSRULEID (self) <br>ANCESTORID <br>LASTUPDATEDBYID <br>SECURITYOBJID <br>SYSID</td>
-        <td>ID de l’objet identifié dans le champ ACCESSOROBJCODE <br>Self<br>ID de l’objet identifié dans le champ ANCESTOROBJCODE<br>USERS_CURRENT | USERID<br>ID de l’objet identifié dans le champ SECURITYOBJCODE<br>Pas de relation ; utilisé à des fins d’application interne.</td>
-    </tr>
-    <tr>
-        <td>Chemin d'approbation</td>
-        <td>Chemin d'approbation</td>
-        <td>ARVPTH | Approbation</td>
-        <td>APPROVALPATHS_CURRENT<br>APPROVALPATHS_DAILY_HISTORY<br>APPROVALPATHS_EVENT</td>
-        <td>APPROVALPATHID (self) <br>APPROVALPROCESSID <br>ENTEREDBYID <br>GLOBALPATHID <br>LASTUPDATEDBYID <br>SYSID</td>
-        <td>Self<br>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USERS_CURRENT | USERID<br>Pas une relation ; utilisé à des fins d’application interne<br>USERS_CURRENT | USERID<br>pas une relation ; utilisé à des fins d’application interne.</td>
-    </tr>
-    <tr>
-        <td>Processus d’approbation</td>
-        <td>Processus d’approbation</td>
-        <td>ARVPRC | Processus d'approbation</td>
-        <td>APPROVALPROCESSES_CURRENT<br>APPROVALPROCESSES_DAILY_HISTORY<br>APPROVALPROCESSES_EVENT</td>
-        <td>APPROVALPROCESSID (self) <br>ENTEREDBYID <br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>pas une relation ; utilisé à des fins d’application interne.</td>
-    </tr>
-    <tr>
-        <td>Étape d’approbation</td>
-        <td>Étape d’approbation</td>
-        <td>ARVSTP | Étape d'approbation</td>
-        <td>APPROVALSTEPS_CURRENT<br>APPROVALSTEPS_DAILY_HISTORY<br>APPROVALSTEPS_EVENT</td>
-        <td>APPROVALPATHID <br>APPROVALSTEPID (self) <br>SYSID</td>
-        <td>APPROVALPATHS_CURRENT | APPROVALPATHID<br>Self<br>Not a Relationship ; utilisé pour les applications internes</td>
-    </tr>
-    <tr>
-        <td>ApproverStatus</td>
-        <td>Statut de l'approbateur</td>
-        <td>ARVSTS | ApproverStatus</td>
-        <td>APPROVERSTATUSES_CURRENT<br>APPROVERSTATUSES_DAILY_HISTORY<br>APPROVERSTATUSES_EVENT</td>
-        <td>APPROVERSTATUSID (SELF)<br>APPROVABLEOBJID<br>APPROVALSTEPID<br>APPROVEDBYID <br>DELEGATEUSERID<br>LASTUPDATEDBYID <br>OPTASKID<br>OVERRIDDENUSERID<br>PROJECTID<br>STEPAPPROVERID<br>SYSID<br>TASKID<br>WILDCARDUSERID</td>
-        <td>Self<br>ID de l’objet identifié dans le champ APPROVABLEOBJCODE<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID <br>OPTASKS_CURRENT | OPTASKID<br>USERS_CURRENT | USERID<br>PROJECTS_CURRENT | PROJECTID<br>USERS_CURRENT | USERID<br>Pas une relation ; utilisé à des fins d’application interne<br>TASKS_CURRENT | TASKID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Affectation</td>
-        <td>Affectation</td>
-        <td>AFFECTER | Affectation</td>
-        <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
-        <td>ASSIGNEDBYID<br>ASSIGNEDTOID<br>ASSIGNMENTID (SELF)<br>CATEGORYID<br>CLASSIFIERID<br>OPTASKID<br>PRIVATERATECARDID<br>PROJECTID<br>ROLEID<br>TASKID<br>TEAMID</td>
-        <td>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>Self<br>CATEGORIES_CURRENT | La table CATEGORYID<br>Classifier n'est pas prise en charge actuellement<br>OPTASK_CURRENT | OPTASKID<br>RATECARD_CURRENT | RATECARDID<br>PROJECT_CURRENT | PROJECTID<br>ROLE_CURRENT | ROLEID<br>TASK_CURRENT | TASKID<br>TEAM_CURRENT | TEAMID</td>
-    </tr>
-    <tr>
-        <td>Approbations en attente</td>
-        <td>Approbations en attente</td>
-        <td>AWAPVL | Approbation en attente</td>
-        <td>AWAITINGAPPROVALS_CURRENT<br>AWAITINGAPPROVALS_DAILY_HISTORY<br>AWAITINGAPPROVALS_EVENT</td>
-        <td>ACCESSREQUESTID<br>APPROVABLEID <br>APPROVERID <br>AWAITINGAPPROVALID (SELF) <br>DOCUMENTID <br>DOCUMENTVERSIONID<br>OPTASKID <br>PROJECTID <br>ROLEID <br>SUBMITTEDBYID <br>SYSID<br>TASKID <br>TEAMID <br>TIMESHEETID<br>USERID</td>
-        <td>Table des demandes d’accès non prise en charge actuellement<br>Il ne s’agit pas d’une relation ; utilisée à des fins d’application interne<br>USERS_CURRENT | USERID<br>Self<br>DOCUMENTS_CURRENT | DOCUMENTID<br>DOCUMENTVERSIONS_CURRENT | DOCUMENTVERSIONID<br>OPTASKS_CURRENT | OPTASKID<br>PROJECTS_CURRENT | PROJECTID<br>ROLES_CURRENT | ROLEID<br>USERS_CURRENT | USERID<br>Pas une relation ; utilisé à des fins d’application interne<br>TASKS_CURRENT | TASKID<br>TEAMS_CURRENT | TEAMID<br>TIMESHEETS_CURRENT | TIMESHEETID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Niveau de référence</td>
-        <td>Niveau de référence</td>
-        <td>AVEUGLE | Ligne de base</td>
-        <td>BASELINES_CURRENT<br>BASELINES_DAILY_HISTORY<br>BASELINES_EVENT</td>
-        <td>BASELINEID (self)<br>EXCHANGERATEID <br>PROJECTID <br>SYSID</td>
-        <td>Self<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>PROJECTS_CURRENT | PROJECTID<br>pas une relation ; utilisé à des fins d’application interne</td>
-    </tr>
-    <tr>
-        <td>Tâche de ligne de base</td>
-        <td>Tâche de ligne de base</td>
-        <td>BSTSK | Tâche de niveau de référence</td>
-        <td>BASELINETASKS_CURRENT<br>BASELINETASKS_DAILY_HISTORY<br>BASELINETASKS_EVENT</td>
-        <td>BASELINEID<br>BASELINETASKID (self) <br>EXCHANGERATEID <br>PROJECTID <br>SYSID<br>TASKID</td>
-        <td>BASELINES_CURRENT | BASELINEID<br>Self<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>PROJECTS_CURRENT | PROJECTID<br>Pas une relation ; utilisé à des fins d’application interne<br>TASKS_CURRENT | TASKID</td>
-    </tr>
-    <tr>
-        <td>Taux de facturation</td>
-        <td>Taux ou taux de remplacement</td>
-        <td>TAUX | Taux de facturation</td>
-        <td>RATES_CURRENT<br>RATES_DAILY_HISTORY<br>RATES_EVENT</td>
-        <td>ASSIGNMENTID<br>CLASSIFIERID<br>EXCHANGERATEID<br>NLBRCATEGORYID<br>NONLABORRESOURCEID<br>OBJID<br>PROJECTID <br>RATECARDID<br>RATEID (SELF)<br>ROLEID <br>SOURCERATECARDID <br>SYSID <br>TEMPLATEID<br>USERID</td>
-        <td>ASSIGNMENTS_CURRENT | Table ASSIGNMENTID<br>Classifier non prise en charge actuellement<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>Table des catégories de ressources non liées à la main-d'œuvre non prise en charge actuellement<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>ID de l’objet identifié dans le champ OBJCODE<br>PROJECTS_CURRENT | PROJECTID <br>RATECARD_CURRENT | RATECARDID<br>Self<br>ROLES_CURRENT | ROLEID <br>RATECARD_CURRENT | RATECARDID <br>relation inexistante ; utilisé pour les applications internes <br>TEMPLATES_CURRENT | TEMPLATEID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Enregistrement de facturation</td>
-        <td>Enregistrement de facturation</td>
-        <td>FACTURE | Enregistrement de facturation</td>
-        <td>BILLINGRECORDS_CURRENT<br>BILLINGRECORDS_DAILY_HISTORY<br>BILLINGRECORDS_EVENT</td>
-        <td>BILLINGRECORDID (SELF)<br>CATEGORYID<br>EXCHANGERATEID <br>INVOICEID <br>LASTUPDATEDBYID <br>PROJECTID <br>SYSID</td>
-        <td>Self<br>CATEGORIES_CURRENT | CATEGORYID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID <br>Table des factures non prise en charge actuellement <br>USERS_CURRENT | USERID <br>PROJECTS_CURRENT | PROJECTID   <br>Pas une relation ; utilisé à des fins d’application interne.</td>
-    </tr>
-    <tr>
-        <td>Réservation</td>
-        <td>Réservation</td>
-        <td>RÉSERVATION | Réservation</td>
-        <td>BOOKINGS_CURRENT<br>BOOKINGS_DAILY_HISTORY<br>BOOKINGS_EVENT</td>
-        <td>BOOKINGID (SELF)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID<br>NONLABORRESOURCEID<br>OBJID<br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOPOBJID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Table des catégories de ressources hors main-d'œuvre non prise en charge actuellement<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>ID de l’objet identifié dans le champ OBJOBJCODE<br>PROJECTS_CURRENT | PROJECTID <br>pas une relation ; utilisé à des fins d’application interne<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID <br> ID de l’objet identifié dans le champ TOPOBJCODE</td>
-    </tr>
-    <tr>
-        <td>Profil professionnel</td>
-        <td>Profil professionnel</td>
-        <td>BSNPRF | BusinessProfile</td>
-        <td>BUSINESSPROFILE_CURRENT<br>BUSINESSPROFILE_DAILY_HISTORY<br>BUSINESSPROFILE_EVENT</td>
-        <td>ACCESSLEVELS<br>BUSINESSPROFILEID (self)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>ACCESSLEVELS_CURRENT | ACCESSLEVELS<br>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>pas une relation ; utilisé à des fins d’application interne.</td>
-    </tr>
-    <tr>
-        <td>Règles métier</td>
-        <td>Règles métier</td>
-        <td>BNRUL | Règle métier</td>
-        <td>BUSINESSRULE_CURRENT<br>BUSINESSRULE_DAILY_HISTORY<br>BUSINESSRULE_EVENT</td>
-        <td>BUSINESSRULEID (SELF)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>pas une relation ; utilisé à des fins d’application interne.</td>
-    </tr>
-    <tr>
-        <td>Catégorie</td>
-        <td>Formulaire personnalisé</td>
-        <td>VINGT | Catégorie</td>
-        <td>CATEGORIES_CURRENT<br>CATEGORIES_DAILY_HISTORY<br>CATEGORIES_EVENT</td>
-        <td>CATEGORYID (self)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>pas une relation ; utilisé à des fins d’application interne.</td>
-    </tr>
-    <tr>
-        <td>Paramètre de catégorie</td>
-        <td>Champs de formulaire personnalisés</td>
-        <td>CTGYPA | Paramètre de catégorie</td>
-        <td>CATEGORIESPARAMETERS_CURRENT<br>CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
-        <td>CATEGORIESPARAMETERID (SELF)<br>CATEGORYID<br>PARAMETERGROUPID<br>PARAMETERID<br>SYSID</td>
-        <td>Self<br>CATEGORIES_CURRENT | CATEGORYID<br>Table de groupes de paramètres non prise en charge actuellement<br>PARAMETERS_CURRENT | PARAMETERID    <br>Pas une relation ; utilisé à des fins d’application interne.</td>
-    </tr>
-    <tr>
-        <td>Classificateur</td>
-        <td>Emplacement</td>
-        <td>CLSF | Lieu</td>
-        <td>CLASSIFIER_CURRENT<br>CLASSIFIER_DAILY_HISTORY<br>CLASSIFIER_EVENT</td>
-        <td>CLASSIFIERID (SELF)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>PARENTID<br>SYSID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>pas une relation ; utilisé à des fins d’application interne</td>
-    </tr>
-    <tr>
-        <td>Entreprise</td>
-        <td>Entreprise</td>
-        <td>COPY | Société</td>
-        <td>COMPANIES_CURRENT<br>COMPANIES_DAILY_HISTORY<br>COMPANIES_EVENT</td>
-        <td>CATEGORYID<br>COMPANYID (SELF)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>PRIVATERATECARDID<br>SYSID</td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>Self<br>USERS_CURRENT | USERID <br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID <br>RATECARD_CURRENT | RATECARDID<br>pas une relation ; utilisé pour les applications internes</td>
-    </tr>
-    <tr>
-        <td>Trimestre personnalisé</td>
-        <td>Trimestre personnalisé</td>
-        <td>DÉMARRER | Trimestre personnalisé</td>
-        <td>CUSTOMQUARTERS_CURRENT<br>CUSTOMQUARTERS_DAILY_HISTORY<br>CUSTOMQUARTERS_EVENT</td>
-        <td>CUSTOMQUARTERID (self) <br>SYSID</td>
-        <td>Self<br>Not a Relationship ; utilisé pour des applications internes</td>
-    </tr>
-    <tr>
-        <td>CustomEnum</td>
-        <td>Statut, Priorité, Gravité, Statut</td>
-        <td>SYSTÈME | Énumération personnalisée</td>
-        <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT<br>* Le type d’enregistrement est identifié via la propriété « enumClass ». Voici les types attendus :<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
-        <td>ENTEREDBYID<br>GROUPID</td>
-        <td>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID</td>
-    </tr>
-    <tr>
-        <td>Document</td>
-        <td>Document</td>
-        <td>DOC | Document</td>
-        <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT<br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT</td>
-        <td>CATEGORYID<br>CHECKEDOUTBYID<br>DOCUMENTID<br>DOCUMENTREQUESTID<br>EXCHANGERATEID<br>ITERATIONID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>NOTEID<br>OBJID<br>OPTASKID<br>OWNERID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>RELEASEVERSIONID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOPOBJID<br>USERID</td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | La table de demandes USERID<br>Self<br>Document n'est pas prise en charge actuellement<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>ITERATIONS_CURRENT | ITERATIONID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>Variable en fonction de DOCOBJCODE value<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>PROGRAM_CURRENT | PROGRAMID<br>PROJECT_CURRENT | PROJECTID<br>Release Table non prise en charge actuellement<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>Variable en fonction de la valeur TOPOBJCODE<br>USER_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Approbation du document</td>
-        <td>Approbation du document</td>
-        <td>DOCAPL | Approbation du document</td>
-        <td>DOCAPPROVALS_CURRENT<br>DOCAPPROVALS_DAILY_HISTORY<br>DOCAPPROVALS_EVENT</td>
-        <td>APPROVERID<br>DOCAPPROVALID (SELF)<br>DOCUMENTID<br>NOTEID<br>REQUESTORID<br>SYSID</td>
-        <td>USERS_CURRENT | USERID <br>Self<br>DOCUMENTS_CURRENT | DOCUMENTID<br>NOTES_CURRENT | NOTEID<br>USERS_CURRENT | USERID <br>pas une relation ; utilisé à des fins d’application interne.</td>
-    </tr>
-    <tr>
-        <td>Dossier de documents</td>
-        <td>Dossier de documents</td>
-        <td>DOCFLD | DocsFolders</td>
-        <td>DOCFOLDERS_CURRENT<br>DOCFOLDERS_DAILY_HISTORY<br>DOCFOLDERS_EVENT</td>
-        <td>DOCFOLDERID (self)<br>ENTEREDBYID<br>ISSUEID<br>ITERATIONID    <br>LINKEDFOLDERID<br>PARENTID<br>PORTFOLIOID <br>PROGRAMID    <br>PROJECTID<br>SYSID<br>TASKID     <br>TEMPLATEID<br>TEMPLATETASKID<br>USERID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>OPTASKS_CURRENT | OPTASKID<br>ITERATIONS_CURRENT | ITERATIONID<br>LINKEDFOLDERS_CURRENT | LINKEDFOLDERID<br>DOCFOLDERS_CURRENT | DOCFOLDERID<br>PORTFOLIO_CURRENT | PORTFOLIOID <br>PROGRAM_CURRENT | PROGRAMID    <br>PROJECTS_CURRENT | PROJECTID <br>pas une relation ; utilisé à des fins d’application interne<br>TASKS_CURRENT | TASKID     <br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>DocumentProvideMetadata</td>
-        <td>Métadonnées fournies par le document</td>
-        <td>DOCUMENT | DocumentProviderMetadata</td>
-        <td>DOCPROVIDERMETA_CURRENT<br>DOCPROVIDERMETA_DAILY_HISTORY<br>DOCPROVIDERMETA_EVENT</td>
-        <td>DOCPROVIDERMETAID (self) <br>SYSID</td>
-        <td>Self<br>Not a Relationship ; utilisé pour des applications internes</td>
-    </tr>
-    <tr>
-        <td>DocumentProvider</td>
-        <td>Fournisseur de documents</td>
-        <td>DOCPRO | Fournisseur de documents</td>
-        <td>DOCPROVIDERS_CURRENT<br>DOCPROVIDERS_DAILY_HISTORY<br>DOCPROVIDERS_EVENT</td>
-        <td>DOCPROVIDERCONFIGID<br>DOCPROVIDERID (self)<br>OWNERID    <br>SYSID</td>
-        <td>DOCPROVIDERCONFIG_CURRENT | DOCPROVIDERCONFIGID<br>Self<br>USERS_CURRENT | USERID    <br>Pas une relation ; utilisé à des fins d’application interne.</td>
-    </tr>
-    <tr>
-        <td>DocumentProviderConfig</td>
-        <td>Configuration du fournisseur de documents</td>
-        <td>DOCCFG | DocumentProviderConfig</td>
-        <td>DOCPROVIDERCONFIG_CURRENT<br>DOCPROVIDERCONFIG_DAILY_HISTORY<br>DOCPROVIDERCONFIG_EVENT</td>
-        <td>DOCPROVIDERCONFIGID (SELF)<br>SYSID</td>
-        <td>Self<br>Not a Relationship ; utilisé pour des applications internes</td>
-    </tr>
-    <tr>
-        <td>DocumentVersion</td>
-        <td>Version du document</td>
-        <td>DOCV | Version du document</td>
-        <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
-        <td>DOCUMENTID<br>DOCUMENTPROVIDERID<br>DOCUMENTVERSIONID<br>ENTEREDBYID<br>EXTERNALSTORAGEID<br>PROOFAPPROVALSTATUSID<br>PROOFEDBYUSERID<br>PROOFID<br>PROOFOWNERID<br>PROOFSTAGEID</td>
-        <td>DOCUMENT_CURRENT | DOCUMENTID<br>DOCPROVIDERS_CURRENT | DOCUMENTPROVIDERID<br>Self<br>USER_CURRENT | La table USERID<br>ID externe<br>Statut d'approbation de l'épreuve n'est pas prise en charge actuellement<br>USER_CURRENT | La table USERID<br>Proof n'est pas prise en charge actuellement<br>USER_CURRENT | La table d'étape USERID<br>Proof n'est pas prise en charge actuellement</td>
-    </tr>
-    <tr>
-        <td>Taux de change</td>
-        <td>Taux de change</td>
-        <td>EXRATE | Taux de change</td>
-        <td>EXCHANGERATES_CURRENT<br>EXCHANGERATES_DAILY_HISTORY<br>EXCHANGERATES_EVENT</td>
-        <td>EXCHANGERATEID (self)<br>PROJECTID<br>SYSID <br>TEMPLATEID  </td>
-        <td>Self<br>PROJECTS_CURRENT | PROJECTID <br>pas une relation ; utilisé à des fins d’application interne <br>TEMPLATES_CURRENT | TEMPLATEID  </td>
-    </tr>
-    <tr>
-        <td>Frais</td>
-        <td>Frais</td>
-        <td>EXPNS | Dépense</td>
-        <td>EXPENSES_CURRENT<br>EXPENSES_DAILY_HISTORY<br>EXPENSES_EVENT</td>
-        <td>BILLINGRECORDID<br>CATEGORYID<br>ENTEREDBYID<br>EXCHANGERATEID <br>EXPENSEID (SELF) <br>EXPENSETYPEID <br>LASTUPDATEDBYID <br>OBJID <br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOPOBJID</td>
-        <td>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID <br>Self <br>EXPENSETYPES_CURRENT | EXPENSETYPEID <br>USERS_CURRENT | USERID <br>ID de l’objet identifié dans le champ OBJCODE <br>PROJECTS_CURRENT | PROJECTID <br>pas une relation ; utilisé à des fins d’application interne<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID <br> ID de l’objet identifié dans le champ TOPOBJCODE</td>
-    </tr>
-    <tr>
-        <td>Type de frais</td>
-        <td>Type de frais</td>
-        <td>EXPTYP | Type de dépense</td>
-        <td>EXPENSETYPES_CURRENT<br>EXPENSETYPES_DAILY_HISTORY<br>EXPENSETYPES_EVENT</td>
-        <td>APPGLOBALID<br>EXPENSETYPEID (self)<br>OBJID <br>SYSID  </td>
-        <td>Non une relation ; utilisé à des fins d’application interne<br>Self<br>Identifiant de l’objet identifié dans le champ OBJCODE <br>Non une relation ; utilisé à des fins d’application interne  </td>
-    </tr>
-    <tr>
-        <td>Groupe</td>
-        <td>Groupe</td>
-        <td>GROUPE | Groupe</td>
-        <td>GROUPS_CURRENT<br>GROUPS_DAILY_HISTORY<br>GROUPS_EVENT</td>
-        <td>BUSINESSLEADERID<br>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LAYOUTTEMPLATEID<br>PARENTID<br>ROOTID<br>UITEMPLATEID</td>
-        <td>USER_CURRENT | USERID<br>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | Le tableau USERID<br>Self<br>Layout Template ne sera pas pris en charge<br>GROUP_CURRENT | GROUPID<br>GROUP_CURRENT | GROUPID<br>UITEMPLATES_CURRENT | UITEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>Heure</td>
-        <td>Heure</td>
-        <td>HEURE | Heure</td>
-        <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
-        <td>APPROVEDBYID<br>BILLINGRECORDID<br>CATEGORYID<br>CLASSIFIERID<br>DUPID<br>EXCHANGERATEID<br>EXTERNALTIMESHEETID<br>HOURID<br>HOURTYPEID<br>LASTUPDATEDBYID<br>OPTASKID<br>OWNERID<br>PROJECTID<br>PROJECTOVERHEADID<br>ROLEID<br>TASKID<br>TIMESHEETID</td>
-        <td>USER_CURRENT | USERID<br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>CATEGORIES_CURRENT | La table CATEGORYID<br>Classifier n'est actuellement pas prise en charge<br>Il ne s'agit pas d'une relation ; utilisée à des fins d'application interne<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>relation non Workfront ; utilisé pour l’intégration à des systèmes externes<br>Self<br>HOURTYPE_CURRENT | HOURTYPEID<br>USER_CURRENT | USERID<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>PROJECT_CURRENT | PROJECTID<br>Pas de relation ; utilisé à des fins d’application interne<br>ROLE_CURRENT | ROLEID<br>TASK_CURRENT | TASKID<br>TIMESHEET_CURRENT | TIMESHEETID</td>
-    </tr>
-    <tr>
-        <td>Type d’heure</td>
-        <td>Type d’heure</td>
-        <td>HEURE | Type d'heures</td>
-        <td>HOURTYPES_CURRENT</td>
-        <td>APPGLOBALID<br>HOURTYPEID<br>OBJID</td>
-        <td>Pas une relation ; utilisé à des fins d’application interne<br>Self<br>Not a relation ; utilisé à des fins d’application interne</td>
-    </tr>
-    <tr>
-        <td>Itération</td>
-        <td>Itération</td>
-        <td>RETOUR | Itération</td>
-        <td>ITERATIONS_CURRENT<br>ITERATIONS_DAILY_HISTORY<br>ITERATIONS_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>ITERATIONID (SELF)<br>LASTUPDATEDBYID<br>OWNERID<br>SYSID<br>TEAMID</td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID <br>Self<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>pas une relation ; utilisé à des fins d’application interne<br>TEAMS_CURRENT | TEAMID</td>
-    </tr>
-    <tr>
-        <td>Entrée au journal</td>
-        <td>Entrée au journal</td>
-        <td>JRNLE | Entrée de journal</td>
-        <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
-        <td>APPROVERSTATUSID<br>ASSIGNMENTID<br>AUDITRECORDID<br>BASELINEID <br>BILLINGRECORDID<br>COMPANYID <br>DOCUMENTID <br>DOCUMENTSHAREID <br>EDITEDBYID<br>EXPENSEID<br>HOURID<br>INITIATIVEID<br>JOURNALENTRIEID (self)<br>OBJID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>SUBOBJID<br>SUBSCRIBEID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TIMESHEETID<br>TOPOBJID<br><br> USERID</td>
-        <td>APPROVERSTATUSES_CURRENT | APPROVERSTATUSID<br>ASSIGNMENTS_CURRENT | Table d'enregistrements d'audit <br>'ASSIGNMENTID non prise en charge actuellement<br>BASELINES_CURRENT | BASELINEID <br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>COMPANIES_CURRENT | COMPANYID <br>DOCUMENTS_CURRENT | DOCUMENTID <br>Tableau de partage de documents non pris en charge actuellement <br>USERS_CURRENT | USERID<br>EXPENSES_CURRENT | EXPENSEID<br>HOURS_CURRENT | La table HOURID<br>Initiative n'est pas prise en charge actuellement<br>Self<br>ID de l'objet identifié dans le champ OBJCODE<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>PROGRAM_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID <br>ID de l'objet identifié dans le champ SUBOBJCODE<br>Table Subscribe non prise en charge actuellement<br>Pas de relation ; utilisé à des fins d'application interne<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TIMESHEETS_CURRENT | TIMESHEETID<br>ID de l’objet identifié dans le champ TOPOBJCODE<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>LinkedFolder</td>
-        <td>LinkedFolder</td>
-        <td>LNKFDR | LinkedFolder</td>
-        <td>LINKEDFOLDERS_CURRENT<br>LINKEDFOLDERS_DAILY_HISTORY<br>LINKEDFOLDERS_EVENT</td>
-        <td>DOCUMENTPROVIDERID<br>EXTERNALSTORAGEID<br>FOLDERID<br>LINKEDBYID<br>LINKEDFOLDERID (SELF)<br>SYSID</td>
-        <td>DOCPROVIDERS_CURRENT | DOCPROVIDERID<br>ID externe<br>DOCFOLDERS_CURRENT | DOCFOLDERID<br>USERS_CURRENT | USERID <br>Self<br>Not a Relationship ; utilisé pour les applications internes  </td>
-    </tr>
-    <tr>
-        <td>Jalon</td>
-        <td>Jalon</td>
-        <td>MILE | Jalon</td>
-        <td>MILESTONES_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
-        <td>LASTUPDATEDBYID<br>MILESTONEID<br>MILESTONEPATHID</td>
-        <td>USER_CURRENT | USERID<br>Self<br>MILESTONEPATH_CURRENT | MILESTONEID</td>
-    </tr>
-    <tr>
-        <td>MilestonePath</td>
-        <td>Chemin jalonné</td>
-        <td>CHEMIN | Chemin jalonné</td>
-        <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
-        <td>ENTEREDBYID<br>LASTUPDATEDBYID<br>MILESTONEPATHID</td>
-        <td>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>Self</td>
-    </tr>
-    <tr>
-        <td>Ressource non liée à la main-d’œuvre</td>
-        <td>Ressource non liée à la main-d’œuvre</td>
-        <td>NLBR | Ressource non liée à la main-d’œuvre</td>
-        <td>NONLABORRESOURCES_CURRENT<br>NONLABORRESOURCES_DAILY_HISTORY<br>NONLABORRESOURCES_EVENT</td>
-        <td>CATEGORYID<br>NONLABORRESOURCEID (SELF)<br>ENTEREDBYID<br>HOMEGROUPID<br>LASTUPDATEDBYID<br>NONLABORRESOURCECATEGORYID<br>SYSID  </td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>Table des catégories de ressources hors main-d'œuvre non prise en charge actuellement<br>Pas de relation ; utilisé à des fins d'application interne</td>
-    </tr>
-    <tr>
-        <td>Catégorie de ressources non liée à la main-d’œuvre</td>
-        <td>Catégorie de ressources non liée à la main-d’œuvre</td>
-        <td>NLBRCY | Catégorie de ressources non liées à la main-d’œuvre</td>
-        <td>NLBRCATEGORIES_CURRENT<br>NLBRCATEGORIES_DAILY_HISTORY<br>NLBRCATEGORIES_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID (SELF)<br>PRIVATERATECARDID<br>SCHEDULEID<br>SYSID</td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Self<br>RATECARD_CURRENT | RATECARDID<br>USERS_CURRENT | USERID<br>pas une relation ; utilisé à des fins d’application interne.</td>
-    </tr>
-    <tr>
-        <td>Jour Non Ouvré</td>
-        <td>Exception de planification</td>
-        <td>NONWKD | Jour Non Ouvré</td>
-        <td>NONWORKDAYS_CURRENT<br>NONWORKDAYS_DAILY_HISTORY<br>NONWORKDAYS_EVENT</td>
-        <td>NONWORKDAYID (self)<br>OBJID <br>SCHEDULEID <br>SYSID <br>USERID  </td>
-        <td>Self<br>ID de l’objet identifié dans le champ OBJCODE <br>SCHEDULES_CURRENT | SCHEDULEID <br>pas de relation ; utilisé à des fins d’application interne <br>USERS_CURRENT) | USERID  </td>
-    </tr>
-    <tr>
-        <td>Note</td>
-        <td>Note</td>
-        <td>REMARQUE | Remarque</td>
-        <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
-        <td>ATTACHDOCUMENTID<br>ATTACHOBJID<br>ATTACHOPTASKID<br>ATTACHWORKID<br>ATTACHWORKUSERID<br>AUDITRECORDID<br>COMPANYID<br>DOCUMENTID<br>EXTERNALSERVICEID<br>ITERATIONID<br>NOTEID<br>OBJID<br>OPTASKID<br>OWNERID<br>PARENTENDORSEMENTID<br>PARENTJOURNALENTRYID<br>PARENTNOTEID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br><br>PROOFACTIONIDPROOFID<br>RICHTEXTNOTEID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>THREADID<br>TIMESHEETID<br>TOPOBJID<br>USERID</td>
-        <td>DOCUMENT_CURRENT | DOCUMENTID<br>Variable en fonction de ATTACHOBJCODE<br>OPTASK_CURRENT | OPTASKID<br>WORKITEMS_CURRENT<br>USER_CURRENT | USERID<br>Table des enregistrements d'audit non prise en charge actuellement<br>COMPANIES_CURRENT | COMPANYID <br>DOCUMENT_CURRENT | DOCUMENTID<br>Pas une relation Workfront ; utilisé pour l’intégration à des systèmes externes<br>ITERATIONS_CURRENT | ITERATIONID<br>Self<br>Variable en fonction de NOTEOBJCODE<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>Table d’endorsement non prise en charge actuellement<br>JOURNALENTRIES_CURRENT | JOURNALENTRYID<br>NOTE_CURRENT | NOTEID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>PROGRAM_CURRENT | PROGRAMID<br>PROJECT_CURRENT | PROJECTID<br>Proof Table d'actions non prise en charge actuellement<br>Table d'épreuves non prise en charge actuellement<br>RESERVEDTEXTNOTES_CURRENT | RICHTEXTNOTEID<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>NOTE_CURRENT | NOTEID<br>TIMESHEET_CURRENT | TIMESHEETID<br>Variable en fonction de TOPOBJCODE<br>USER_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Intégration d’objet</td>
-        <td>Intégration d’objet</td>
-        <td>OBJINT | ObjectIntegration</td>
-        <td>OBJECTINTEGRATION_CURRENT<br>OBJECTINTEGRATION_DAILY_HISTORY<br>OBJECTINTEGRATION_EVENT</td>
-        <td>LINKEDOBJECTID<br>OBJECTINTEGRATIONID   (self)<br>OBJID <br>SYSID  </td>
-        <td>Identifiant de l’objet identifié dans le champ LINKEDOBJECTCODE <br>Self<br>Identifiant de l’objet identifié dans le champ OBJCODE <br>Pas de relation ; utilisé à des fins d’application interne  </td>
-    </tr>
-    <tr>
-        <td>Catégorie d'objets</td>
-        <td>Catégories d’objets</td>
-        <td>OBJET | Catégorie d'objet</td>
-        <td>OBJECTSCATEGORIES_CURRENT<br>OBJECTSCATEGORIES_DAILY_HISTORY<br>OBJECTSCATEGORIES_EVENT</td>
-        <td>CATEGORYID<br>OBJECTSCATEGORYID (self)<br>OBJID <br>SYSID  </td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>Self<br>ID de l’objet identifié dans le champ OBJCODE <br>Pas de relation ; utilisé à des fins d’application interne.  </td>
-    </tr>
-    <tr>
-        <td>TâcheOp</td>
-        <td>Événement, demande</td>
-        <td>OPTASK | Problème</td>
-        <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT<br>OPTASKS_CUSTOM_VALUE_CURRENT<br>OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>OPTASKS_CUSTOM_VALUE_EVENT</td>
-        <td>APPROVALPROCESSID<br>ASSIGNEDTOID<br>CATEGORYID<br>CURRENTAPPROVALSTEPID<br>ENTEREDBYID<br>EXCHANGERATEID<br>ITERATIONID<br>KANBANBOARDID<br>LASTCONDITIONNOTEID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>OPTASKID<br>OWNERID<br><br>PROJECTID<br><br>QUEUEDEFID<br>QUEUETOPICID<br>RESOLVEOPTASKID<br><br>RESOLVEPROJECTID<br> VETASKID<br>RESOLVINGOBJID<br>ROLEID<br>SOURCETASKID SUBMITTEDBYID TEAMID</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USER_CURRENT | USERID<br>CATEGORIES_CURRENT | CATEGORYID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>USER_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>ITERATIONS_CURRENT | Table de tableau ITÉRATIONID<br>Kanban non prise en charge actuellement<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>USER_CURRENT | USERID<br>PROJECT_CURRENT | PROJECTID<br>Queue Definition table non prise en charge actuellement<br>Queue Topic table non prise en charge actuellement<br>OPTASK_CURRENT | OPTASKID<br>PROJECT_CURRENT | PROJECTID<br>TASK_CURRENT | TASKID<br>Variable en fonction de RESOLVINGOBJCODE<br>ROLE_CURRENT | ROLEID<br>Variable en fonction de SOURCEOBJCODE<br>TASK_CURRENT | TASKID<br>USER_CURRENT | USERID<br>TEAM_CURRENT | TEAMID</td>
-    </tr>
-    <tr>
-        <td>Paramètre</td>
-        <td>Champ personnalisé</td>
-        <td>PARAMÈTRE | Paramètre</td>
-        <td>PARAMETERS_CURRENT<br>PARAMETERS_DAILY_HISTORY<br>PARAMETERS_EVENT</td>
-        <td>LASTUPDATEDBYID<br>PARAMETERFILTERID<br>PARAMETERID (self)<br>SYSID  </td>
-        <td>USERS_CURRENT | USERID<br>Parameter Table de filtre non prise en charge actuellement<br>Self<br>Not a relation ; utilisée à des fins d’application interne  </td>
-    </tr>
-    <tr>
-        <td>Option de paramètre</td>
-        <td>Option de paramètre</td>
-        <td>POPT | Option de paramètre</td>
-        <td>PARAMETEROPTIONS_CURRENT<br>PARAMETEROPTIONS_DAILY_HISTORY<br>PARAMETEROPTIONS_EVENT</td>
-        <td>PARAMETERID<br>PARAMETEROPTIONID (self) <br>SYSID  </td>
-        <td>PARAMETERS_CURRENT | PARAMETERID <br>Self<br>Pas de relation ; utilisé pour des applications internes  </td>
-    </tr>
-    <tr>
-        <td>Section du portail</td>
-        <td>Rapport</td>
-        <td>PTLSEC | Rapport</td>
-        <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID<br>FILTERID<br>GROUPBYID<br>LASTUPDATEDBYID<br>LASTVIEWEDBYID<br>OBJID<br>PORTALSECTIONID (SELF)<br>PREFERENCEID<br>PUBLICRUNASUSERID<br>REPORTFOLDERID<br>RUNASUSERID<br>SCHEDULEDREPORTID<br>SYSID<br>VIEWID</td>
-        <td>Pas une relation ; utilisé à des fins d’application interne <br>USERS_CURRENT | USERID <br>UIFILTERS_CURRENT | FILTERID<br>UIGROUPBYS_CURRENT | GROUPBYID<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>ID de l’objet identifié dans le champ OBJOBJCODE<br>Self<br>PREFERENCES_CURRENT | PREFERENCEID<br>USERS_CURRENT | USERID <br>REPORTFOLDERS_CURRENT | REPORTFOLDERID<br>USERS_CURRENT | USERID <br>Table de rapports planifiés non prise en charge actuellement<br>Il ne s’agit pas d’une relation ; utilisée à des fins d’application interne <br>UIVIEWS_CURRENT | VIEWID</td>
-    </tr>
-    <tr>
-        <td>Onglet Portail</td>
-        <td>Tableau de bord</td>
-        <td>PTLTAB | Tableau de bord</td>
-        <td>PORTALTABS_CURRENT<br>PORTALTABS_DAILY_HISTORY<br>PORTALTABS_EVENT</td>
-        <td>DOCID<br>LASTUPDATEDBYID<br>PORTALPROFILEID<br>PORTALTABID (self)<br>SYSID<br>USERID</td>
-        <td>Pas une relation ; utilisé à des fins d’application interne <br>USERS_CURRENT | USERID <br>La table Profil de portail ne sera pas prise en charge <br>Self<br>Not a relation ; utilisée à des fins d’application interne <br>USERS_CURRENT | USERID  </td>
-    </tr>
-    <tr>
-        <td>Section d'onglet de portail</td>
-        <td>Section Tableau de bord</td>
-        <td>PRTBSC | Section d'onglet de portail</td>
-        <td>PORTALTABSPORTALSECTIONS_CURRENT<br>PORTALTABSPORTALSECTIONS_DAILY_HISTORY<br>PORTALTABSPORTALSECTIONS_EVENT</td>
-        <td>CALENDARPORTALSECTIONID<br>EXTERNALSECTIONID<br>INTERNALSECTIONID <br>PORTALSECTIONOBJID <br>PORTALTABID<br>PORTALTABSECTIONID (SELF)<br>SYSID</td>
-        <td>Section de portail de calendrier non prise en charge actuellement<br>Table de sections externes non prise en charge actuellement<br>PORTALSECTIONS_CURRENT | PORTALSECTIONID <br>ID de l'objet identifié dans le champ PORTALSECTIONOBJCODE<br>PORTALTABS_CURRENT | PORTALTABID<br>Self<br>Not a Relationship ; utilisé pour les applications internes</td>
-    </tr>
-    <tr>
-        <td>PortalSectionLastViewer</td>
-        <td>Signaler les dernières visionneuses</td>
-        <td>PLSLSV | PortalSectionLastViewer</td>
-        <td>REPORTLASTVIEWERS_CURRENT<br>REPORTLASTVIEWERS_DAILY_HISTORY<br>REPORTLASTVIEWERS_EVENT</td>
-        <td>REPORTID<br>REPORTLASTVIEWERID (SELF)<br>SYSID<br>VIEWERID</td>
-        <td>PORTALSECTIONS_CURRENT | PORTALSECTIONID <br>REPORTLASTVIEWERID (self)<br>Pas de relation ; utilisé à des fins d’application interne<br>USERS_CURRENT | USERID  </td>
-    </tr>
-    <tr>
-        <td>Portfolio</td>
-        <td>Portfolio</td>
-        <td>PORT | Portfolio</td>
-        <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT<br>PORTFOLIOS_CUSTOM_VALUE_CURRENT<br>PORTFOLIOS_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIOS_CUSTOM_VALUE_EVENT</td>
-        <td>ALIGNMENTSCORECARDID<br>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>OWNERID<br>PORTFOLIOID</td>
-        <td>Le tableau des cartes de performance n’est pas pris en charge actuellement<br>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>Self</td>
-    </tr>
-    <tr>
-        <td>Préférence</td>
-        <td>Affichage, Filtrage, Regroupement, Définition De Rapport</td>
-        <td>PROSET | Préférence</td>
-        <td>PREFERENCES_CURRENT<br>PREFERENCES_DAILY_HISTORY<br>PREFERENCES_EVENT</td>
-        <td>APPGLOBALID<br>PREFERENCEID (self) <br>SYSID  </td>
-        <td>Pas une relation ; utilisé à des fins d’application interne<br>Self <br>Pas de relation ; utilisé à des fins d’application interne  </td>
-    </tr>
-    <tr>
-        <td>Programme</td>
-        <td>Programme</td>
-        <td>PRGM | Programme</td>
-        <td>PROGRAMMES_CURRENT<br>PROGRAMMES_DAILY_HISTORY<br>PROGRAMMES_EVENT<br>PROGRAMMES_CUSTOM_VALUE_CURRENT<br>PROGRAMMES_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMMES_CUSTOM_VALUE_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>OWNERID<br>PORTFOLIOID<br>PROGRAMID</td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>Self</td>
-    </tr>
-    <tr>
-        <td>Projet</td>
-        <td>Projet</td>
-        <td>PROJ | Projet</td>
-        <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
-        <td>AEMNATIVEFOLDERTREESREFID<br>ALIGNMENTSCORECARDID<br>APPROVALPROCESSID<br>ATTACHEDRATECARDID<br>CATEGORYID<br>COMPANYID<br>CONVERTEDOPTASKID<br>CONVERTEDOPTASKORIGINATORID<br>CURRENTAPPROVALSTEPID<br>DELIVERABLESCORECARDID<br>ENTEREDBYID<br>GROUPID<br><br>LASTCONDITIONNOTEID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>MILESTONEPATHID OWNERID<br>POPACCOUNTID<br>PORTFOLIOID<br>PRIVATERATECARDID<br>PROGRAMID<br>PROJECTID<br>QUEUEDEFID<br>REJECTIONISSUEID<br>RESOURCEPOLID<br>SCHEDULEID<br>SPONSORID<br>SUBMITTEDBYID<br>TEAMID<br>TEMPLATEID</td>
-        <td>N’est pas une relation Workfront ; utilisé pour l’intégration à des systèmes externes<br>le tableau de cartes de performance n’est actuellement pas pris en charge<br>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>RATECARD_CURRENT | RATECARDID<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID <br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>APPROVALSTEPS_CURRENT | La table APPROVALSTEPID<br>Scorecard n'est pas prise en charge actuellement<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>MILESTONEPATH_CURRENT | MILESTONEPATHID<br>USER_CURRENT | La table des comptes USERID<br>Pop n’est actuellement pas prise en charge<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>RATECARD_CURRENT | RATECARDID<br>PROGRAM_CURRENT | La table de définitions PROGRAMID<br>Self<br>Queue n'est pas prise en charge actuellement<br>OPTASK_CURRENT | OPTASKID<br>RESOURCEPOOLS_CURRENT | RESOURCEPOOLID<br>SCHEDULE_CURRENT | SCHEDULEID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>TEAM_CURRENT | TEAMID<br>TEMPLATES_CURRENT | TEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>Utilisateur de l'équipe du projet</td>
-        <td>Utilisateur de l'équipe du projet</td>
-        <td>PRTU | Utilisateur du projet</td>
-        <td>PROJECTSUSERS_CURRENT<br>PROJECTSUSERS_DAILY_HISTORY<br>PROJECTSUSERS_EVENT</td>
-        <td>PROJECTID<br>PROJECTSUSERID (self)<br>SYSID<br>TMPUSERID<br>USERID</td>
-        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>Pas de relation ; utilisé à des fins d’application interne<br>TEMPLATES_CURRENT | TEMPLATEID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Rôle d'utilisateur d'équipe de projet</td>
-        <td>Rôle d'utilisateur d'équipe de projet</td>
-        <td>PTEAM | ProjectUserRole</td>
-        <td>PROJECTSUSERSROLES_CURRENT<br>PROJECTSUSERSROLES_DAILY_HISTORY<br>PROJECTSUSERSROLES_EVENT</td>
-        <td>PROJECTID<br>PROJECTSUSERSROLEID (self)<br>ROLEID<br>SYSID<br>USERID</td>
-        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>Pas de relation ; utilisé à des fins d’application interne<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Carte tarifaire</td>
-        <td>Carte tarifaire</td>
-        <td>CRTD |Carte tarifaire</td>
-        <td>RATECARD_CURRENT<br>RATECARD_DAILY_HISTORY<br>RATECARD_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID <br>RATECARDID (SELF) <br>SECURITYROOTID <br>SOURCEID<br>SYSID</td>
-        <td>CATEGORYID<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID    <br>Self<br>ID de l’objet identifié dans le champ SECURITYOBJCODE <br>ID de l’objet identifié dans le champ SOURCEOBJCODE<br>Pas de relation ; utilisé à des fins d’application interne  </td>
-    </tr>
-    <tr>
-        <td>Dossier des rapports</td>
-        <td>Dossier des rapports</td>
-        <td>RPTFDR | Dossier du rapport</td>
-        <td>REPORTFOLDERS_CURRENT<br>REPORTFOLDERS_DAILY_HISTORY<br>REPORTFOLDERS_EVENT</td>
-        <td>REPORTFOLDERID (self)<br>SYSID</td>
-        <td>Self<br>Not a Relationship ; utilisé pour des applications internes</td>
-    </tr>
-    <tr>
-        <td>Nombre de statistiques de vues de rapports</td>
-        <td>Nombre de statistiques de vues de rapports</td>
-        <td>PLSVST | PortalSectionStatisticInfo</td>
-        <td>REPORTVIEWSTATISTICCOUNTS_CURRENT<br>REPORTVIEWSTATISTICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATISTICCOUNTS_EVENT</td>
-        <td>REPORTID<br>REPORTVIEWSTATISTICCOUNTID (SELF)<br>SYSID</td>
-        <td>PORTALSECTIONS_CURRENT | PORTALSECTIONID<br>Self<br>Not a Relationship ; utilisé pour les applications internes</td>
-    </tr>
-    <tr>
-        <td>Heures budgétées à déclarer</td>
-        <td>Heures budgétées à déclarer</td>
-        <td>RPBGHR | Heure budgétée</td>
-        <td>REPORTABLEBUDGETEDHOURS_CURRENT<br>REPORTABLEBUDGETEDHOURS_DAILY_HISTORY<br>REPORTABLEBUDGETEDHOURS_EVENT</td>
-        <td>PROJECTID<br>REPORTABLEBUDGETEDHOURID (SELF)<br>ROLEID<br>SYSID<br>USERID</td>
-        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>Pas de relation ; utilisé à des fins d’application interne<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Temps réservé</td>
-        <td>Congés (personnels)</td>
-        <td>RESVT | Congés</td>
-        <td>RESERVEDTIMES_CURRENT<br>RESERVEDTIMES_DAILY_HISTORY<br>RESERVEDTIMES_EVENT</td>
-        <td>RESERVEDTIMEID (self)<br>SYSID<br>TASKID<br>USERID</td>
-        <td>Self<br>Not a relation ; utilisé à des fins d’application interne<br>TASKS_CURRENT | TASKID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Gestionnaire des ressources</td>
-        <td>Gestionnaire des ressources</td>
-        <td>RESMGR | Gestionnaire des ressources</td>
-        <td>RESOURCEMANAGERS_CURRENT<br>RESOURCEMANAGERS_DAILY_HISTORY<br>RESOURCEMANAGERS_EVENT</td>
-        <td>ID (self)<br>PROJECTID<br>RESOURCEMANAGERID<br>SYSID<br>TEMPLATEID</td>
-        <td>Self<br>PROJECTS_CURRENT | PROJECTID<br>USERS_CURRENT | USERID<br>Pas une relation ; utilisé à des fins d’application interne<br>TEMPLATES_CURRENT | TEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>Pool de ressources</td>
-        <td>Pool de ressources</td>
-        <td>RSPL | Pool de ressources</td>
-        <td>RSRCPOOLS_CURRENT<br>RSRCPOOLS_DAILY_HISTORY<br>RSRCPOOLS_EVENT</td>
-        <td>ENTEREDBYID<br>LASTUPDATEDBYID <br>RESOURCEPOOLID (self)<br>SYSID  </td>
-        <td>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>Self<br>Not a Relationship ; utilisé pour les applications internes  </td>
-    </tr>
-    <tr>
-        <td>Remarque Rich Text</td>
-        <td>Remarque Rich Text</td>
-        <td>RHNOTE | Note de texte enrichi</td>
-        <td>RESERVEDTEXTNOTES_CURRENT<br>RESERVEDTEXTNOTES_DAILY_HISTORY<br>RESERVEDTEXTNOTES_EVENT</td>
-        <td>RICHTEXTNOTEID (self)<br>SYSID</td>
-        <td>Self<br>Not a Relationship ; utilisé pour des applications internes</td>
-    </tr>
-    <tr>
-        <td>Valeur de paramètre Rich Text</td>
-        <td>Valeur de paramètre Rich Text</td>
-        <td>ARCHVAL | RichTextParameterValue</td>
-        <td>RICHTEXTPARAMETERVALUES_CURRENT<br>RICHTEXTPARAMETERVALUES_DAILY_HISTORY<br>RICHTEXTPARAMETERVALUES_EVENT</td>
-        <td>PARAMETERVALUEID<br>RICHTEXTPARAMETERVALUEID (self) <br>SYSID  </td>
-        <td>Table de valeurs de paramètres non prise en charge actuellement<br>Self<br>Pas de relation ; utilisée à des fins d’application interne  </td>
-    </tr>
-    <tr>
-        <td>Risque</td>
-        <td>Risque</td>
-        <td>RISQUE | Risque</td>
-        <td>RISKS_CURRENT<br>RISKS_DAILY_HISTORY<br>RISKS_EVENT</td>
-        <td>ENTEREDBYID<br>EXCHANGERATEID<br>LASTUPDATEDBYID <br>PROJECTID <br>RISKID (SELF)<br>RISKTYPEID<br>SYSID<br>TEMPLATEID</td>
-        <td>USERS_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>USERS_CURRENT | USERID <br>PROJECTS_CURRENT | PROJECTID   <br>Self<br>RISKTYPES_CURRENT | RISKTYPEID<br>Pas une relation ; utilisé à des fins d’application interne<br>TEMPLATES_CURRENT | TEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>Type de risque</td>
-        <td>Type de risque</td>
-        <td>RSKTYPE | Type de risque</td>
-        <td>RISKTYPES_CURRENT<br>RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
-        <td>RISKTYPEID<br>SYSID</td>
-        <td>Self<br>Not a Relationship ; utilisé pour des applications internes</td>
-    </tr>
-    <tr>
-        <td>Rôle</td>
-        <td>Fonction</td>
-        <td>RÔLE | Fonction</td>
-        <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
-        <td>ENTEREDBYID<br>LAYOUTTEMPLATEID<br>PRIVATERATECARDID<br>ROLEID<br>UITEMPLATEID</td>
-        <td>USER_CURRENT | Le tableau USERID<br>Layout Template ne sera pas pris en charge<br>RATECARD_CURRENT | RATECARDID<br>Self<br>UITEMPLATES_CURRENT |UITEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>Planning</td>
-        <td>Planning</td>
-        <td>PLANIFIÉ | Planification</td>
-        <td>SCHEDULES_CURRENT<br>SCHEDULES_DAILY_HISTORY<br>SCHEDULES_EVENT</td>
-        <td>ENTEREDBYID<br>GROUPID<br>HOMEGROUPID<br>SCHEDULEID</td>
-        <td>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>GROUP_CURRENT | GROUPID<br>Self</td>
-    </tr>
-    <tr>
-        <td>Personne approbatrice d’étape</td>
-        <td>Personne approbatrice d’étape</td>
-        <td>SPAPVR | Approbateur d’étape</td>
-        <td>STEPAPPROVERS_CURRENT<br>STEPAPPROVERS_DAILY_HISTORY<br>STEPAPPROVERS_EVENT</td>
-        <td>APPROVALSTEPID<br>ROLEID<br>STEPAPPROVERID (self)<br>SYSID <br>TEAMID<br>USERID</td>
-        <td>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>ROLES_CURRENT | ROLEID<br>Self<br>Pas de relation ; utilisé pour les applications internes <br>TEAMS_CURRENT | TEAMID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Tâche</td>
-        <td>Tâche</td>
-        <td>TÂCHE | Tâche</td>
-        <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT<br>TASKS_CUSTOM_VALUE_CURRENT<br>TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>TASKS_CUSTOM_VALUE_EVENT</td>
-        <td>APPROVALPROCESSID<br>ASSIGNEDTOID<br>BILLINGRECORDID<br>CATEGORYID<br>CONVERTEDOPTASKID<br>CONVERTEDOPTASKORIGINATORID<br>CURRENTAPPROVALSTEPID<br>ENTEREDBYID<br>EXCHANGERATEID<br>GROUPID<br>ITERATIONID<br>KANBANBOARDID<br>LASTCONDITIONNOTEID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>MILESTONEID<br><br>PARENTID<br><br>PROJD <br>RECURRENCERULEID<br>REJECTIONISSUEID<br>RESERVEDTIMEID<br>ROLEID<br>SUBMITTEDBYID<br>TASKID TEAMID TEMPLATETASKID</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USER_CURRENT | USERID<br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>CATEGORIES_CURRENT | CATEGORYID<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>USER_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>GROUP_CURRENT | GROUPID<br>ITERATIONS_CURRENT | Table de tableau ITÉRATIONID<br>Kanban non prise en charge actuellement<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>MILESTONE_CURRENT | MILESTONEID<br>TASK_CURRENT | TASKID<br>PROJECT_CURRENT | La table de règles PROJECTID<br>Recurrence n'est pas prise en charge actuellement<br>OPTASK_CURRENT | OPTASKID<br>RESERVEDTIMES_CURRENT | RESERVEDTIMEID<br>ROLE_CURRENT | ROLEID<br>USER_CURRENT | USERID<br>Self<br>TEAM_CURRENT | TEAMID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID</td>
-    </tr>
-    <tr>
-        <td>Tâche antérieure</td>
-        <td>Tâche antérieure</td>
-        <td>PRED | Prédécesseur</td>
-        <td>PREDECESSORS_CURRENT<br>PREDECESSORS_DAILY_HISTORY<br>PREDECESSORS_EVENT</td>
-        <td>ID (self)<br>PREDECESSORID<br>SUCCESSORID <br>SYSID</td>
-        <td>SELF<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID <br>pas une relation ; utilisé à des fins d’application interne</td>
-    </tr>
-    <tr>
-        <td>Equipe</td>
-        <td>Equipe</td>
-        <td>TEAMOB | Équipe</td>
-        <td>TEAMS_CURRENT<br>TEAMS_DAILY_HISTORY<br>TEAMS_EVENT</td>
-        <td>ENTEREDBYID<br>GROUPID<br>LAYOUTTEMPLATEID<br>MYWORKVIEWID<br>OWNERID<br>REQUESTSVIEWID<br>SCHEDULEID<br>TEAMID<br>UITEMPLATEID</td>
-        <td>USER_CURRENT | USERID<br>GROUP_CURRENT | Le tableau GROUPID<br>Layout Template ne sera pas pris en charge<br>UIVIEWS_CURRENT | UIVIEWID<br>USER_CURRENT | USERID<br>UIVIEWS_CURRENT | UIVIEWID<br>SCHEDULE_CURRENT | SCHEDULEID<br>Self<br>UITEMPLATES_CURRENT |UITEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>Membre d'équipe</td>
-        <td>Autres équipes, membre d'équipe</td>
-        <td>TEAMMB | Membre d'équipe</td>
-        <td>TEAMMEMBERS_CURRENT<br>TEAMMEMBERS_DAILY_HISTORY<br>TEAMMEMBERS_EVENT</td>
-        <td>SYSID <br>TEAMID<br>TEAMMEMBERID (self)<br>USERID</td>
-        <td>Pas une relation ; utilisé à des fins d’application interne <br>TEAMS_CURRENT | TEAMID<br>Self<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>TeamMemberRole</td>
-        <td>Rôle de membre d'équipe</td>
-        <td>TEAMMR | Rôle de membre d'équipe</td>
-        <td>TEAMMEMBERROLES_CURRENT<br>TEAMMEMBERROLES_DAILY_HISTORY<br>TEAMMEMBERROLES_EVENT</td>
-        <td>ROLEID <br>TEAMID<br>TEAMMEMBERROLEID (SELF)<br>USERID</td>
-        <td>ROLES_CURRENT | ROLEID <br>TEAMS_CURRENT | TEAMID<br>Self<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Modèle</td>
-        <td>Modèle</td>
-        <td>TMPL | Modèle</td>
-        <td>TEMPLATES_CURRENT<br>TEMPLATES_DAILY_HISTORY<br>TEMPLATES_EVENT</td>
-        <td>APPROVALPROCESSID<br>CATEGORYID<br>COMPANYID <br>DELIVERABLESCORECARDID <br>ENTEREDBYID<br>GROUPID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>MILESTONEPATHID <br>OWNERID <br>PRIVATERATECARDID<br>PROGRAMID<br>QUEUEDEFID<br>SCHEDULEID <br>SYSID <br>TEAMID<br>TEMPLATEID (SELF)</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID   <br>DELIVERABLESCORECARDID <br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>NOTES_CURRENT | NOTEID<br>USERS_CURRENT | USERID<br>MILESTONEPATH_CURRENT | MILESTONEPATHID <br>USERS_CURRENT | USERID <br>RATECARD_CURRENT | RATECARDID<br>PROGRAM_CURRENT | La table de définition de la file d'attente PROGRAMID<br>Queue n'est pas prise en charge actuellement<br>SCHEDULES_CURRENT | SCHEDULEID <br>pas de relation ; utilisé à des fins d’application interne <br>TEAMS_CURRENT) | TEAMID<br>Self</td>
-    </tr>
-    <tr>
-        <td>Modèle d'affectation</td>
-        <td>Modèle d'affectation</td>
-        <td>AFFECTATION | Modèle d'affectation</td>
-        <td>TEMPLATEASSIGNMENTS_CURRENT<br>TEMPLATEASSIGNMENTS_DAILY_HISTORY<br>TEMPLATEASSIGNMENTS_EVENT</td>
-        <td>ASSIGNEDTOID<br>CATEGORYID<br>LASTUPDATEDBYID<br>OBJID<br>ROLEID<br>SYSID<br>TEAMID<br>TEAMTIMELINEABLEID<br>TEMPLATEASSIGNMENTID (SELF)<br>TEMPLATETASKID</td>
-        <td>USERS_CURRENT | USERID<br>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>ID de l’objet identifié dans le champ OBJCODE<br>ROLES_CURRENT | ROLEID<br>Pas de relation ; utilisé à des fins d’application interne<br>TEAMS_CURRENT | TEAMID<br>Team Table chronologique non prise en charge actuellement<br>Self<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID</td>
-    </tr>
-    <tr>
-        <td>Tâche de modèle</td>
-        <td>Tâche de modèle</td>
-        <td>TTSK | Tâche de modèle</td>
-        <td>TEMPLATETASKS_CURRENT<br>TEMPLATETASKS_DAILY_HISTORY<br>TEMPLATETASKS_EVENT</td>
-        <td>APPROVALPROCESSID<br>ASSIGNEDTOID<br>CATEGORYID<br>ENTEREDBYID<br>EXCHANGERATEID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>MILESTONEID<br>PARENTID<br>RECURRENCERULEID<br>ROLEID<br>SYSID<br>TEAMID<br>TEAMTIMELINEABLEID<br>TEMPLATEID<br>TEMPLATETASKID (SELF)</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USERS_CURRENT | USERID<br>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>NOTES_CURRENT | NOTEID<br>USERS_CURRENT | USERID<br>MILESTONE_CURRENT | MILESTONEID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>Table des règles de récurrence non prise en charge actuellement<br>ROLES_CURRENT | ROLEID<br>Pas de relation ; utilisé à des fins d’application interne<br>TEAMS_CURRENT | TEAMID<br>Team Table chronologique non prise en charge actuellement<br>TEMPLATES_CURRENT | TEMPLATEID<br>Self</td>
-    </tr>
-    <tr>
-        <td>Tâche de modèle antérieure</td>
-        <td>Prédécesseur du modèle</td>
-        <td>TPRED | Prédécesseur</td>
-        <td>TEMPLATEPREDECESSORS_CURRENT<br>TEMPLATEPREDECESSORS_DAILY_HISTORY<br>TEMPLATEPREDECESSORS_EVENT</td>
-        <td>PREDECESSORID<br>SUCCESSORID <br>TEMPLATEPREDECESSORID (SELF)<br>SYSID</td>
-        <td>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID <br>Self<br>Not a Relationship ; utilisé pour les applications internes</td>
-    </tr>
-       <tr>
-        <td>Devise des indicateurs de performance clés temporels (disponibilité limitée des clients)</td>
-        <td>KPI chronologique</td>
-        <td>TMPH | TimePhasedKPI</td>
-        <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
-        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
-        <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>USER_CURRENT | USERID</td>
-    </tr>
+    <thead>
         <tr>
-        <td>Durée des KPI par étapes (disponibilité limitée des clients)</td>
-        <td>KPI chronologique</td>
-        <td>TMPH | TimePhasedKPI</td>
-        <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
-        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDDURATIONID (SELF)<br>USERID</td>
-        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GROUPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | PORTFOLIOID<br>PROGRAMS_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>identifie l'objet de l'enregistrement d'indicateur de performance clé<br>ROLES_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>Self<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Feuille de temps</td>
-        <td>Feuille de temps</td>
-        <td>TMPH | TimePhasedKPI</td>
-        <td>TIMEPHASED_CURRENCY_CURRENT<br>TIMEPHASED_CURRENCY_DAILY_HISTORY<br>TIMEPHASED_CURRENCY_EVENT</td>
-        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDCURRENCYID (SELF)<br>USERID</td>
-        <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>USER_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Profil de feuille de temps</td>
-        <td>Profil de feuille de temps</td>
-        <td>TSPRO | Profil de feuille de temps</td>
-        <td>TIMESHEETPROFILES_CURRENT<br>TIMESHEETPROFILES_DAILY_HISTORY<br>TIMESHEETPROFILES_EVENT</td>
-        <td>APPROVERID<br>ENTEREDBYID <br>GROUPID<br>SYSID<br>TIMESHEETPROFILEID (SELF)</td>
-        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GROUPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | PORTFOLIOID<br>PROGRAMS_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>identifie l'objet de l'enregistrement d'indicateur de performance clé<br>ROLES_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>Self<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Filtre d’interface utilisateur</td>
-        <td>Filtre</td>
-        <td>SOULEVER | Filtre</td>
-        <td>UIFILTERS_CURRENT<br>UIFILTERS_DAILY_HISTORY<br>UIFILTERS_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID <br>LASTUPDATEDBYID <br>OBJID<br>PREFERENCEID<br>SYSID <br>UIFILTERID (self)</td>
-        <td>Pas une relation ; utilisé à des fins d’application interne<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>ID de l’objet identifié dans le champ OBJCODE<br>PREFERENCES_CURRENT | PREFERENCEID<br>Pas une relation ; utilisé à des fins d’application interne <br>Self</td>
-    </tr>
-    <tr>
-        <td>Regrouper les interfaces utilisateur par</td>
-        <td>Regroupement </td>
-        <td>UIGB | Regroupement</td>
-        <td>UIGROUPBYS_CURRENT<br>UIGROUPBYS_DAILY_HISTORY<br>UIGROUPBYS_EVENT</td>
-        <td>ENTEREDBYID<br>GROUPID <br>LASTUPDATEDBYID <br>SYSID <br>UITEMPLATEID (self)</td>
-        <td>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID <br>USERS_CURRENT | USERID <br>pas une relation ; utilisé à des fins d’application interne <br>Self)</td>
-    </tr>
-    <tr>
-        <td>Modèle d’interface utilisateur</td>
-        <td>Modèle de mise en page</td>
-        <td>UITMPL | Modèle de mise en page</td>
-        <td>UITEMPLATES_CURRENT<br>UITEMPLATES_DAILY_HISTORY<br>UITEMPLATES_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID <br>LASTUPDATEDBYID <br>OBJID<br>PREFERENCEID<br>SYSID <br>UIGROUPBYID (self)</td>
-        <td>Pas une relation ; utilisé à des fins d’application interne<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>ID de l’objet identifié dans le champ OBJCODE<br>PREFERENCES_CURRENT | PREFERENCEID<br>Pas une relation ; utilisé à des fins d’application interne <br>Self</td>
-    </tr>
-    <tr>
-        <td>Vue UI</td>
-        <td>Afficher</td>
-        <td>UIVIEW | Vue</td>
-        <td>UIVIEWS_CURRENT<br>UIVIEWS_DAILY_HISTORY<br>UIVIEWS_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID <br>LASTUPDATEDBYID <br>OBJID<br>PREFERENCEID<br>SYSID <br>UIVIEWID (self)</td>
-        <td>Pas une relation ; utilisé à des fins d’application interne<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>ID de l’objet identifié dans le champ OBJCODE<br>PREFERENCES_CURRENT | PREFERENCEID<br>Pas une relation ; utilisé à des fins d’application interne <br>Self</td>
-    </tr>
-    <tr>
-        <td>l’utilisateur ou de l’utilisatrice</td>
-        <td>l’utilisateur ou de l’utilisatrice</td>
-        <td>UTILISATEUR | Utilisateur</td>
-        <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT<br>USERS_CUSTOM_VALUE_CURRENT<br>USERS_CUSTOM_VALUE_DAILY_HISTORY<br>USERS_CUSTOM_VALUE_EVENT</td>
-        <td>ACCESSLEVELID<br>CATEGORYID<br>COMPANYID<br>DEFAULTHOURTYPEID<br>DELEGATIONTOID<br>EAUTHUSERID<br>ENTEREDBYID<br>HOMEGROUPID<br>HOMETEAMID<br>LASTENTEREDNOTEID<br>LASTUPDATEDBYID<br>LATESTUPDATENOTEID<br>LAYOUTTEMPLATEID<br>MANAGERID<br>PORTALPROFILEID<br>PREFUIID<br>PRIVATERATECARDID<br>RESOURCEPOOOD<br>ROLEID<br>SCHEDULEID<br>TIMESHEETPROFILEID<br>UITEMPLATEID<br>USERID<br>UUMUSERID</td>
-        <td>ACCESSLEVELS_CURRENT |ACCESSLEVELS<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID <br>HOURTYPE_CURRENT | HOURTYPEID<br>USER_CURRENT | USERID<br>Pas une relation ; utilisé à des fins d’application interne<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>TEAM_CURRENT | TEAMID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>Layout Template table ne sera pas pris en charge<br>USER_CURRENT | La table de profils USERID<br>Portal ne sera pas prise en charge<br>il ne s'agit pas d'une relation ; utilisée à des fins d'application interne<br>RATECARD_CURRENT | RATECARDID<br>RESOURCEPOOLS_CURRENT | RESOURCEPOOLID<br>ROLE_CURRENT | ROLEID<br>SCHEDULE_CURRENT | SCHEDULEID<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>UITEMPLATES_CURRENT |UITEMPLATEID<br>Self<br>Not a Relationship ; utilisé pour les applications internes</td>
-    </tr>
-    <tr>
-        <td>Délégation d'utilisateur</td>
-        <td>Délégation d'utilisateur</td>
-        <td>USERDEL | Délégation d’utilisateurs</td>
-        <td>USERDELEGATIONS_CURRENT<br>USERDELEGATIONS_DAILY_HISTORY<br>USERDELEGATIONS_EVENT</td>
-        <td>FROMUSERID<br>SYSID <br>TOUSERID <br>USERDELEGATIONID (self)</td>
-        <td>USERS_CURRENT | USERID<br>pas une relation ; utilisé à des fins d’application interne <br>USERS_CURRENT | USERID <br>Self</td>
-    </tr>
-    <tr>
-        <td>Groupe d'utilisateurs</td>
-        <td>Autres groupes</td>
-        <td>USRGPS | Groupe d’utilisateurs</td>
-        <td>USERSGROUPS_CURRENT<br>USERSGROUPS_DAILY_HISTORY<br>USERSGROUPS_EVENT</td>
-        <td>GROUPID <br>SYSID<br>USERID <br>USERSGROUPID (self)</td>
-        <td>GROUPS_CURRENT | GROUPID <br>Pas de relation ; utilisé à des fins d’application interne<br>USERS_CURRENT | USERID <br>Self</td>
-    </tr>
-    <tr>
-        <td>Emplacement de l’utilisateur</td>
-        <td>Emplacement de l’utilisateur</td>
-        <td>USRLOC | UserLocation</td>
-        <td>USERLOCATIONS_CURRENT<br>USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
-        <td>CLASSIFIERID<br>SYSID<br>USERID<br>USERLOCATIONID (self)</td>
-        <td>CLASSIFIER_CURRENT | CLASSIFIERID<br>Pas de relation ; utilisé à des fins d’application interne<br>USERS_CURRENT | USERID<br>Self</td>
-    </tr>
-    <tr>
-        <td>Rôle utilisateur</td>
-        <td>Autres rôles</td>
-        <td>USROL | Rôle de l'utilisateur</td>
-        <td>USERSROLES_CURRENT<br>USERSROLES_DAILY_HISTORY<br>USERSROLES_EVENT</td>
-        <td>ROLEID <br>SYSID<br>USERID    <br>USERROLESETID<br>USERSROLEID (self)</td>
-        <td>ROLES_CURRENT | ROLEID <br>Pas de relation ; utilisé à des fins d’application interne<br>USERS_CURRENT | USERID    <br>USERROLESET_CURRENT | USERROLESETID<br>Self</td>
-    </tr>
-    <tr>
-        <td>UserPrefValue</td>
-        <td>UserPrefValue</td>
-        <td>USERPF | Préférence utilisateur</td>
-        <td>USERPREFVALUES_CURRENT<br>USERPREFVALUES_DAILY_HISTORY<br>USERPREFVALUES_EVENT</td>
-        <td>SYSID    <br>USERID <br>USERPREFVALUEID (self)</td>
-        <td>Pas une relation ; utilisé à des fins d’application interne<br>USERS_CURRENT | USERID    <br>Self</td>
-    </tr>
-    <tr>
-        <td>UserRoleSet</td>
-        <td>UserRoleSet</td>
-        <td>URSET | UserRoleSet</td>
-        <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>
-        <td>PRIMARYROLEID <br>SYSID<br>USERID    <br>USERROLESETID (self)</td>
-        <td>ROLES_CURRENT | ROLEID <br>Pas de relation ; utilisé à des fins d’application interne<br>USERS_CURRENT | USERID <br>Self</td>
-    </tr>
-    <tr>
-        <td>UsersDecisions</td>
-        <td>Décisions des utilisateurs et utilisatrices</td>
-        <td>USRDEC | Décisions des utilisateurs</td>
-        <td>USERSDECISIONS_CURRENT<br>USERSDECISIONS_DAILY_HISTORY<br>USERSDECISIONS_EVENT</td>
-        <td>USERDECISIONID (self)<br>SYSID <br>USERID  </td>
-        <td>Self<br>Not a relation ; utilisé à des fins d’application interne <br>USERS_CURRENT | USERID </td>
-    </tr>
-    <tr>
-        <td>WorkItem</td>
-        <td>Élément de travail</td>
-        <td>WRKITM | WorkItem</td>
-        <td>WORKITEMS_CURRENT<br>WORKITEMS_DAILY_HISTORY<br>WORKITEMS_EVENT</td>
-        <td>ASSIGNMENTID <br>OBJID<br>OPTASKID    <br>PROJECTID <br>SYSID<br>TASKID    <br>USERID <br>WORKITEMID (self)</td>
-        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID <br>ID de l’objet identifié dans le champ OBJOBJCODE<br>OPTASK_CURRENT | OPTASKID    <br>PROJECTS_CURRENT | PROJECTID <br>pas une relation ; utilisé à des fins d’application interne<br>TASKS_CURRENT | TASKID    <br>USERS_CURRENT | USERID    <br>Self </td>
-    </tr>
-  </tbody>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Niveau d’accès</td>
+            <td>Niveau d’accès</td>
+            <td>ACSLVL</td>
+            <td>Niveau d’accès</td>
+            <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSLEVELID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ID D’ACCESSLEVEL HÉRITÉ</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Règle d&#39;accès
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Règle d'accès</td>
+            <td>Partager</td>
+            <td>ACSRUL</td>
+            <td>Partager</td>
+            <td>ACCESSRULES_CURRENT<br>ACCESSRULES_DAILY_HISTORY<br>ACCESSRULES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSORID</td>
+             <td>FK</td>
+             <td>Variable, basée sur ACCESSOROBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ ACCESSOROBJCODE</td>
+        </tr>
+        <tr>
+             <td>ACCESSRULEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ANCESTORID</td>
+             <td>PK</td>
+             <td>Variable, basée sur ANCESTOROBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ ANCESTOROBJCODE</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SECURITYOBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur SECURITYOBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ SECURITYOBJCODE</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Chemin d&#39;approbation
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Chemin d'approbation</td>
+            <td>Chemin d'approbation</td>
+            <td>ARVPTH</td>
+            <td>Approbation</td>
+            <td>APPROVALPATHS_CURRENT<br>APPROVALPATHS_DAILY_HISTORY<br>APPROVALPATHS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPATHID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GLOBALPATHID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Processus d’approbation
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Processus d’approbation</td>
+            <td>Processus d’approbation</td>
+            <td>ARVPRC</td>
+            <td>Processus d’approbation</td>
+            <td>APPROVALPROCESSES_CURRENT<br>APPROVALPROCESSES_DAILY_HISTORY<br>APPROVALPROCESSES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Étape d’approbation
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Étape d’approbation</td>
+            <td>Étape d’approbation</td>
+            <td>ARVSTP</td>
+            <td>Étape d’approbation</td>
+            <td>APPROVALSTEPS_CURRENT<br>APPROVALSTEPS_DAILY_HISTORY<br>APPROVALSTEPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPATHID</td>
+             <td>FK</td>
+             <td>APPROVALPATHS_CURRENT</td>
+             <td>APPROVALPATHID</td>
+        </tr>
+        <tr>
+             <td>APPROVALSTEPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Statut de l&#39;approbateur
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Statut de l'approbateur</td>
+            <td>Statut de l'approbateur</td>
+            <td>ARVSTS</td>
+            <td>ApproverStatus</td>
+            <td>APPROVERSTATUSES_CURRENT<br>APPROVERSTATUSES_DAILY_HISTORY<br>APPROVERSTATUSES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVERSTATUSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>APPROVABLEOBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur APPROVABLEOBJCODE</td>
+             <td>Clé primaire/ID de l'objet identifié dans le champ APPROVABLEOBJCODE</td>
+        </tr>
+        <tr>
+             <td>APPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>APPROVEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>DELEGATEUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>OVERRIDDENUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>STEPAPPROVERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSYSYID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>WILDCARDUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Affectation
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Affectation</td>
+            <td>Affectation</td>
+            <td>ASSGN</td>
+            <td>Affectation</td>
+            <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Approbations en attente
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Approbations en attente</td>
+            <td>Approbations en attente</td>
+            <td>AWAPVL</td>
+            <td>Approbations en attente</td>
+            <td>AWAITINGAPPROVALS_CURRENT<br>AWAITINGAPPROVALS_DAILY_HISTORY<br>AWAITINGAPPROVALS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSREQUESTID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau des demandes d'accès n'est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>ID APPROUVABLE</td>
+             <td>FK</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>APPROVERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EN ATTENTE DE VALIDITÉ</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTVERSIONID</td>
+             <td>FK</td>
+             <td>DOCUMENTVERSIONS_CURRENT</td>
+             <td>DOCUMENTVERSIONID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETID</td>
+             <td>FK</td>
+             <td>TIMESHEETS_CURRENT</td>
+             <td>TIMESHEETID</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Niveau de référence
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Niveau de référence</td>
+            <td>Niveau de référence</td>
+            <td>AVEUGLE</td>
+            <td>Niveau de référence</td>
+            <td>BASELINES_CURRENT<br>BASELINES_DAILY_HISTORY<br>BASELINES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BASELINEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tâche de ligne de base
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tâche de ligne de base</td>
+            <td>Tâche de ligne de base</td>
+            <td>BSTSK</td>
+            <td>Tâche de ligne de base</td>
+            <td>BASELINETASKS_CURRENT<br>BASELINETASKS_DAILY_HISTORY<br>BASELINETASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BASELINEID</td>
+             <td>FK</td>
+             <td>BASELINES_CURRENT</td>
+             <td>BASELINEID</td>
+        </tr>
+        <tr>
+             <td>BASELINETASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Taux de facturation
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Taux de facturation</td>
+            <td>Taux ou taux de remplacement</td>
+            <td>TAUX</td>
+            <td>Taux de facturation</td>
+            <td>RATES_CURRENT<br>RATES_DAILY_HISTORY<br>RATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>NLBRCATEGORYID</td>
+             <td>FK</td>
+             <td>NLBRCATEGORIES_CURRENT</td>
+             <td>NLBRCATEGORYID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCEID</td>
+             <td>FK</td>
+             <td>NONLABORRESOURCES_CURRENT</td>
+             <td>NONLABORRESOURCEID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>RATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SOURCERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Enregistrement de facturation
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Enregistrement de facturation</td>
+            <td>Enregistrement de facturation</td>
+            <td>FACTURE</td>
+            <td>Enregistrement de facturation</td>
+            <td>BILLINGRECORDS_CURRENT<br>BILLINGRECORDS_DAILY_HISTORY<br>BILLINGRECORDS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>INVOICEID</td>
+             <td>-</td>
+             <td colspan="2">Table des factures non prise en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Réservation
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Réservation</td>
+            <td>Réservation</td>
+            <td>RÉSERVATION</td>
+            <td>Réservation</td>
+            <td>BOOKINGS_CURRENT<br>BOOKINGS_DAILY_HISTORY<br>BOOKINGS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BOOKINGID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>NLBRCATEGORYID</td>
+             <td>FK</td>
+             <td>NLBRCATEGORIES_CURRENT</td>
+             <td>NLBRCATEGORYID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCEID</td>
+             <td>FK</td>
+             <td>NONLABORRESOURCES_CURRENT</td>
+             <td>NONLABORRESOURCEID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur TOPOBJCODE</td>
+             <td>Clé primaire/ID de l'objet identifié dans le champ TOPOBJCODE</td>
+        </tr>
+    </tbody>
+</table>
+
+### Profil professionnel
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Profil professionnel</td>
+            <td>Profil professionnel</td>
+            <td>BSNPRF</td>
+            <td>BusinessProfile</td>
+            <td>BUSINESSPROFILE_CURRENT<br>BUSINESSPROFILE_DAILY_HISTORY<br>BUSINESSPROFILE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSLEVELID</td>
+             <td>FK</td>
+             <td>ACCESSLEVELS_CURRENT</td>
+             <td>ACCESSLEVELID</td>
+        </tr>
+        <tr>
+             <td>BUSINESSPROFILEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Règles métier
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Règles métier</td>
+            <td>Règles métier</td>
+            <td>BNRUL</td>
+            <td>Règles métier</td>
+            <td>BUSINESSRULE_CURRENT<br>BUSINESSRULE_DAILY_HISTORY<br>BUSINESSRULE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BUSINESSRULEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Catégorie
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Catégorie</td>
+            <td>Formulaire personnalisé</td>
+            <td>VINGT</td>
+            <td>Catégorie</td>
+            <td>CATEGORIES_CURRENT<br>CATEGORIES_DAILY_HISTORY<br>CATEGORIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Paramètre de catégorie
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Paramètre de catégorie</td>
+            <td>Champs de formulaire personnalisés</td>
+            <td>CTGYPA</td>
+            <td>Paramètre de catégorie</td>
+            <td>CATEGORIESPARAMETERS_CURRENT<br>CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORIESPARAMETERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERGROUPID</td>
+             <td>FK</td>
+             <td>PARAMETERGROUPS_CURRENT</td>
+             <td>PARAMETERGROUPID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERID</td>
+             <td>FK</td>
+             <td>PARAMETERS_CURRENT</td>
+             <td>PARAMETERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Classificateur
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Classificateur</td>
+            <td>Emplacement</td>
+            <td>CLSF</td>
+            <td>Emplacement</td>
+            <td>CLASSIFIER_CURRENT<br>CLASSIFIER_DAILY_HISTORY<br>CLASSIFIER_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Entreprise
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Entreprise</td>
+            <td>Entreprise</td>
+            <td>CMPY</td>
+            <td>Entreprise</td>
+            <td>COMPANIES_CURRENT<br>COMPANIES_DAILY_HISTORY<br>COMPANIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Trimestre personnalisé
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Trimestre personnalisé</td>
+            <td>Trimestre personnalisé</td>
+            <td>DÉMARRER</td>
+            <td>Trimestre personnalisé</td>
+            <td>CUSTOMQUARTERS_CURRENT<br>CUSTOMQUARTERS_DAILY_HISTORY<br>CUSTOMQUARTERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CUSTOMQUARTERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Énumération personnalisée
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>CustomEnum</td>
+            <td>Statut, Priorité, Gravité, Statut</td>
+            <td>SYSTÈME</td>
+            <td>Énumération personnalisée</td>
+            <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CUSTOMENUMID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+<div>* Le type d’enregistrement est identifié via la propriété « enumClass ». Voici les types attendus :<br>
+<ul><li>CONDITION_OPTASK</li>
+<li>CONDITION_PROJ</li>
+<li>CONDITION_TASK</li>
+<li>PRIORITY_OPTASK</li>
+<li>PRIORITY_PROJ</li>
+<li>PRIORITY_TASK</li>
+<li>SEVERITY_OPTASK</li>
+<li>STATUS_OPTASK</li>
+<li>STATUS_PROJ</li>
+<li>STATUS_TASK</li></ul></div>
+
+### Document
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Document</td>
+            <td>Document</td>
+            <td>DOCU</td>
+            <td>Document</td>
+            <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>CHECKEDOUTBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTREQUESTID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau de demande de document n’est actuellement pas pris en charge</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>ITÉRATIONID</td>
+             <td>FK</td>
+             <td>ITÉRATIONS_CURRENT</td>
+             <td>ITÉRATIONID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>NOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMMES_ACTUELS</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RELEASEVERSIONID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau des versions de version n’est actuellement pas pris en charge</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur TOPOBJCODE</td>
+             <td>Clé primaire/ID de l'objet identifié dans le champ TOPOBJCODE</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Approbation du document
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Approbation du document</td>
+            <td>Approbation du document</td>
+            <td>DOCAPL</td>
+            <td>Approbation du document</td>
+            <td>DOCAPPROVALS_CURRENT<br>DOCAPPROVALS_DAILY_HISTORY<br>DOCAPPROVALS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>DOCAPPROVALID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>NOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>ID DU DEMANDEUR</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Dossier de documents
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Dossier de documents</td>
+            <td>Dossier de documents</td>
+            <td>DOCFLD</td>
+            <td>DocsFolders</td>
+            <td>DOCFOLDERS_CURRENT<br>DOCFOLDERS_DAILY_HISTORY<br>DOCFOLDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCFOLDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ID DE PROBLÈME</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>ITÉRATIONID</td>
+             <td>FK</td>
+             <td>ITÉRATIONS_CURRENT</td>
+             <td>ITÉRATIONID</td>
+        </tr>
+        <tr>
+             <td>LINKEDFOLDERID</td>
+             <td>FK</td>
+             <td>LINKEDFOLDERS_CURRENT</td>
+             <td>LINKEDFOLDERID</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>DOCFOLDERS_CURRENT</td>
+             <td>DOCFOLDERID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMMES_ACTUELS</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Métadonnées du fournisseur de documents
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Métadonnées du fournisseur de documents</td>
+            <td>Métadonnées du fournisseur de documents</td>
+            <td>DOCUMENT</td>
+            <td>DocumentProviderMetadata</td>
+            <td>DOCPROVIDERMETA_CURRENT<br>DOCPROVIDERMETA_DAILY_HISTORY<br>DOCPROVIDERMETA_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCPROVIDERMETAID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Fournisseur de documents
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Fournisseur de documents</td>
+            <td>Fournisseur de documents</td>
+            <td>DOCPRO</td>
+            <td>Fournisseur de documents</td>
+            <td>DOCPROVIDERS_CURRENT<br>DOCPROVIDERS_DAILY_HISTORY<br>DOCPROVIDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCPROVIDERCONFIGID</td>
+             <td>FK</td>
+             <td>DOCPROVIDERCONFIG_CURRENT</td>
+             <td>DOCPROVIDERCONFIGID</td>
+        </tr>
+        <tr>
+             <td>DOCPROVIDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Configuration du fournisseur de documents
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Configuration du fournisseur de documents</td>
+            <td>Configuration du fournisseur de documents</td>
+            <td>DOCCFG</td>
+            <td>DocumentProviderConfig</td>
+            <td>DOCPROVIDERCONFIG_CURRENT<br>DOCPROVIDERCONFIG_DAILY_HISTORY<br>DOCPROVIDERCONFIG_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCPROVIDERCONFIGID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Version du document
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Version du document</td>
+            <td>Version du document</td>
+            <td>DOCV</td>
+            <td>Version du document</td>
+            <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTPROVIDERID</td>
+             <td>FK</td>
+             <td>DOCPROVIDERS_CURRENT</td>
+             <td>DOCUMENTPROVIDERID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTVERSIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSTORAGEID</td>
+             <td>-</td>
+             <td colspan="2">ID externe dans le système de stockage externe</td>
+        </tr>
+        <tr>
+             <td>PROOFAPPROVALSTATUSID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau Statut d'approbation de l'épreuve n'est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>PROOFEDBYUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROOFID</td>
+             <td>-</td>
+             <td colspan="2">La table d'épreuve n'est pas prise en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>PROOFOWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROOFSTAGEID</td>
+             <td>FK</td>
+             <td>-</td>
+             <td colspan="2">Le tableau Étape de l'épreuve n'est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Taux de change
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Taux de change</td>
+            <td>Taux de change</td>
+            <td>EXRATE</td>
+            <td>Taux de change</td>
+            <td>EXCHANGERATES_CURRENT<br>EXCHANGERATES_DAILY_HISTORY<br>EXCHANGERATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Frais
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Frais</td>
+            <td>Frais</td>
+            <td>EXPNS</td>
+            <td>Frais</td>
+            <td>EXPENSES_CURRENT<br>EXPENSES_DAILY_HISTORY<br>EXPENSES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>BILLINGRECORDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>EXPENSEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>EXPENSETYPEID</td>
+             <td>FK</td>
+             <td>EXPENSETYPES_CURRENT</td>
+             <td>EXPENSETYPEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur TOPBJCODE</td>
+             <td>Clé primaire/ID de l'objet identifié dans le champ TOPBJCODE</td>
+        </tr>
+    </tbody>
+</table>
+
+### Type de frais
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Type de frais</td>
+            <td>Type de frais</td>
+            <td>EXPTYP</td>
+            <td>Type de frais</td>
+            <td>EXPENSETYPES_CURRENT<br>EXPENSETYPES_DAILY_HISTORY<br>EXPENSETYPES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>EXPENSETYPEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Groupe
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Groupe</td>
+            <td>Groupe</td>
+            <td>GROUP</td>
+            <td>Groupe</td>
+            <td>GROUPS_CURRENT<br>GROUPS_DAILY_HISTORY<br>GROUPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BUSINESSLEADERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>ROOTID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Heure
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Heure</td>
+            <td>Heure</td>
+            <td>HOUR</td>
+            <td>Heure</td>
+            <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>BILLINGRECORDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>DUPID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALTIMESHEETID</td>
+             <td>-</td>
+             <td colspan="2">N’est pas une relation Workfront ; utilisé pour l’intégration à des systèmes externes.
+Self</td>
+        </tr>
+        <tr>
+             <td>HOURID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>HOURTYPEID</td>
+             <td>FK</td>
+             <td>HOURTYPES_CURRENT</td>
+             <td>HOURTYPEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROJECTOVERHEADID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETID</td>
+             <td>FK</td>
+             <td>TIMESHEETS_CURRENT</td>
+             <td>TIMESHEETID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Type d’heure
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Type d’heure</td>
+            <td>Type d’heure</td>
+            <td>HEURE</td>
+            <td>Type d’heure</td>
+            <td>HOURTYPES_CURRENT<br>HOURTYPES_DAILY_HISTORY<br>HOURTYPES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>HOURTYPEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Itération
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Itération</td>
+            <td>Itération</td>
+            <td>RETOUR</td>
+            <td>Itération</td>
+            <td>ITERATIONS_CURRENT<br>ITERATIONS_DAILY_HISTORY<br>ITERATIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ITÉRATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Entrée au journal
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Entrée au journal</td>
+            <td>Entrée au journal</td>
+            <td>JRNLE</td>
+            <td>Entrée au journal</td>
+            <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVERSTATUSID</td>
+             <td>FK</td>
+             <td>APPROVERSTATUSES_CURRENT</td>
+             <td>APPROVERSTATUSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>AUDITRECORDID</td>
+             <td>-</td>
+             <td colspan="2">Table des enregistrements d’audit non prise en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>BASELINEID</td>
+             <td>FK</td>
+             <td>BASELINES_CURRENT</td>
+             <td>BASELINEID</td>
+        </tr>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>BILLINGRECORDID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTSHAREID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau de partage de document n'est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>EDITEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EXPENSEID</td>
+             <td>FK</td>
+             <td>DEPENSES_CURRENT</td>
+             <td>EXPENSEID</td>
+        </tr>
+        <tr>
+             <td>HOURID</td>
+             <td>FK</td>
+             <td>HOURS_CURRENT</td>
+             <td>HOURID</td>
+        </tr>
+        <tr>
+             <td>INITIATIVEID</td>
+             <td>-</td>
+             <td colspan="2">Table d’initiative non prise en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>JOURNALENTRIESID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMMES_ACTUELS</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SUBOBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur SUBOBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ SUBOBJCODE</td>
+        </tr>
+        <tr>
+             <td>SUBSCRIBEID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETID</td>
+             <td>FK</td>
+             <td>TIMESHEETS_CURRENT</td>
+             <td>TIMESHEETID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur TOPOBJCODE</td>
+             <td>Clé primaire/ID de l'objet identifié dans le champ TOPOBJCODE</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Dossier Lié
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Dossier Lié</td>
+            <td>Dossier Lié</td>
+            <td>LNKFDR</td>
+            <td>LinkedFolder</td>
+            <td>LINKEDFOLDERS_CURRENT<br>LINKEDFOLDERS_DAILY_HISTORY<br>LINKEDFOLDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCUMENTPROVIDERID</td>
+             <td>FK</td>
+             <td>DOCPROVIDERS_CURRENT</td>
+             <td>DOCUMENTPROVIDERID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSTORAGEID</td>
+             <td>-</td>
+             <td colspan="2">ID externe dans le système de stockage externe</td>
+        </tr>
+        <tr>
+             <td>FOLDERID</td>
+             <td>FK</td>
+             <td>DOCFOLDERS_CURRENT</td>
+             <td>FOLDERID</td>
+        </tr>
+        <tr>
+             <td>LINKEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LINKEDFOLDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Jalon
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Jalon</td>
+            <td>Jalon</td>
+            <td>MILE</td>
+            <td>Jalon</td>
+            <td>MILESTONES_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>MILESTONEPATID</td>
+             <td>FK</td>
+             <td>MILESTONEPATHS_CURRENT</td>
+             <td>MILESTONEPATID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Chemin jalonné
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Chemin jalonné</td>
+            <td>Chemin jalonné</td>
+            <td>CHEMIN</td>
+            <td>Chemin jalonné</td>
+            <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEPATID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Ressource non liée à la main-d’œuvre
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Ressource non liée à la main-d’œuvre</td>
+            <td>Ressource non liée à la main-d’œuvre</td>
+            <td>NLBR</td>
+            <td>Ressource non liée à la main-d’œuvre</td>
+            <td>NONLABORRESOURCES_CURRENT<br>NONLABORRESOURCES_DAILY_HISTORY<br>NONLABORRESOURCES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>HOMEGROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCECATEGORYID</td>
+             <td>FK</td>
+             <td>NLBRCATEGORIES_CURRENT</td>
+             <td>NLBRCATEGORYID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Catégorie de ressources non liée à la main-d’œuvre
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Catégorie de ressources non liée à la main-d’œuvre</td>
+            <td>Catégorie de ressources non liée à la main-d’œuvre</td>
+            <td>NLBRCY</td>
+            <td>Catégorie de ressource non liée à la main d’œuvre</td>
+            <td>NLBRCATEGORIES_CURRENT<br>NLBRCATEGORIES_DAILY_HISTORY<br>NLBRCATEGORIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>NLBRCATEGORYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Jour Non Ouvré
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Jour Non Ouvré</td>
+            <td>Exception de planification</td>
+            <td>NONWKD</td>
+            <td>Jour non ouvrables</td>
+            <td>NONWORKDAYS_CURRENT<br>NONWORKDAYS_DAILY_HISTORY<br>NONWORKDAYS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>NONWORKDAY ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Note
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Note</td>
+            <td>Note</td>
+            <td>NOTE</td>
+            <td>Note</td>
+            <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHDOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>ATTACHOBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur ATTACHOBJCODE</td>
+             <td>Clé primaire/ID de l'objet identifié dans l'OBJCODE ATTACHOBJCODE</td>
+        </tr>
+        <tr>
+             <td>ATTACHOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>ATTACHWORKID</td>
+             <td>FK</td>
+             <td>WORKITEMS_CURRENT</td>
+             <td>WORKITEMID</td>
+        </tr>
+        <tr>
+             <td>ATTACHWORKUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>AUDITRECORDID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau des enregistrements d’audit n’est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSERVICEID</td>
+             <td>-</td>
+             <td colspan="2">N’est pas une relation Workfront ; utilisé pour l’intégration à des systèmes externes.</td>
+        </tr>
+        <tr>
+             <td>ITÉRATIONID</td>
+             <td>FK</td>
+             <td>ITÉRATIONS_CURRENT</td>
+             <td>ITÉRATIONID</td>
+        </tr>
+        <tr>
+             <td>NOTEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur NOTEOBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ NOTEOBJCODE</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PARENTENDORSEMENTID</td>
+             <td>-</td>
+             <td colspan="2">Table d’endossement non prise en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>PARENTJOURNALENTRYID</td>
+             <td>FK</td>
+             <td>JOURNALENTRIES_CURRENT</td>
+             <td>JOURNALENTRYID</td>
+        </tr>
+        <tr>
+             <td>PARENTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMMES_ACTUELS</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROOFACTIONID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau Action de l'épreuve n'est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>PROOFID</td>
+             <td>-</td>
+             <td colspan="2">La table d'épreuve n'est pas prise en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>RICHTEXTNOTEID</td>
+             <td>FK</td>
+             <td>RESERVEDTEXTNOTES_CURRENT</td>
+             <td>RICHTEXTNOTEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>THREADID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETID</td>
+             <td>FK</td>
+             <td>TIMESHEETS_CURRENT</td>
+             <td>TIMESHEETID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur TOPOBJCODE</td>
+             <td>Clé primaire/ID de l'objet identifié dans le champ TOPOBJCODE</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+
+
+    &lt;/tbody>
+</table>
+
+### Intégration d’objet
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Intégration d’objet</td>
+            <td>Intégration d’objet</td>
+            <td>OBJINT</td>
+            <td>ObjectIntegration</td>
+            <td>OBJECTINTEGRATION_CURRENT<br>OBJECTINTEGRATION_DAILY_HISTORY<br>OBJECTINTEGRATION_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LINKEDOBJECTID</td>
+             <td>FK</td>
+             <td>Variable, basée sur LINKEDOBJECTCODE</td>
+             <td>Clé primaire/ID de l'objet identifié dans le champ LINKEDOBJECTCODE</td>
+        </tr>
+        <tr>
+             <td>OBJECTINTEGRATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+
+    &lt;/tbody>
+</table>
+
+### Catégorie d&#39;objets
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Catégorie d'objets</td>
+            <td>Catégories d’objets</td>
+            <td>OBJET</td>
+            <td>Catégorie d'objet</td>
+            <td>OBJECTSCATEGORIES_CURRENT<br>OBJECTSCATEGORIES_DAILY_HISTORY<br>OBJECTSCATEGORIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>OBJECTSCATEGORYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tâche/Événement d&#39;opération
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>TâcheOp</td>
+            <td>Événement, demande</td>
+            <td>OPTASK</td>
+            <td>Problème</td>
+            <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>CURRENTAPPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>ITÉRATIONID</td>
+             <td>FK</td>
+             <td>ITÉRATIONS_CURRENT</td>
+             <td>ITÉRATIONID</td>
+        </tr>
+        <tr>
+             <td>KANBANBOARDID</td>
+             <td>-</td>
+             <td colspan="2">La table de tableau kanban n’est actuellement pas prise en charge</td>
+        </tr>
+        <tr>
+             <td>LASTCONDITIONNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>QUEUEDEFID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau de définition de file d'attente n'est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>QUEUETOPICID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau Rubrique de file d'attente n'est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>RESOLVEOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>RESOLVEPROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RESOLVETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>RESOLVINGOBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur RESOLVINGOBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ RESOLVINGOBJCODE</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SOURCEOBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur SOURCEOBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ SOURCEOBJCODE</td>
+        </tr>
+        <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Paramètre
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Paramètre</td>
+            <td>Champ personnalisé</td>
+            <td>PARAMÈTRE</td>
+            <td>Paramètre</td>
+            <td>PARAMETERS_CURRENT<br>PARAMETERS_DAILY_HISTORY<br>PARAMETERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERFILTERID</td>
+             <td>-</td>
+             <td colspan="2">Tableau de filtres de paramètres actuellement non pris en charge</td>
+        </tr>
+        <tr>
+             <td>PARAMETERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Groupe de paramètres
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Groupe de paramètres</td>
+            <td>Section du formulaire</td>
+            <td>PARAMÈTRE</td>
+            <td>Groupe de paramètres</td>
+            <td>PARAMETERGROUPS_CURRENT<br>PARAMETERGROUPS_DAILY_HISTORY<br>PARAMETERGROUPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERGROUPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Option de paramètre
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Option de paramètre</td>
+            <td>Option de paramètre</td>
+            <td>POPT</td>
+            <td>Option de paramètre</td>
+            <td>PARAMETEROPTIONS_CURRENT<br>PARAMETEROPTIONS_DAILY_HISTORY<br>PARAMETEROPTIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PARAMETERID</td>
+             <td>FK</td>
+             <td>PARAMETERS_CURRENT</td>
+             <td>PARAMETERID</td>
+        </tr>
+        <tr>
+             <td>PARAMETEROPTIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Section/Rapport du portail
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Section du portail</td>
+            <td>Rapport</td>
+            <td>PTLSEC</td>
+            <td>Rapport</td>
+            <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>FILTERID</td>
+             <td>FK</td>
+             <td>UIFILTERS_CURRENT</td>
+             <td>FILTERID</td>
+        </tr>
+        <tr>
+             <td>GROUPBYID</td>
+             <td>FK</td>
+             <td>UIGROUPBYS_CURRENT</td>
+             <td>GROUPBYID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTVIEWEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>PORTALSECTIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>PREFERENCES_CURRENT</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>PUBLICRUNASUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>REPORTFOLDERID</td>
+             <td>FK</td>
+             <td>REPORTFOLDERS_CURRENT</td>
+             <td>REPORTFOLDERID</td>
+        </tr>
+        <tr>
+             <td>RUNASUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEDREPORTID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau Rapport planifié n’est actuellement pas pris en charge</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>VIEWID</td>
+             <td>FK</td>
+             <td>UIVIEWS_CURRENT</td>
+             <td>VIEWID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Onglet de portail/tableau de bord
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Onglet Portail</td>
+            <td>Tableau de bord</td>
+            <td>PTLTAB</td>
+            <td>Tableau de bord</td>
+            <td>PORTALTABS_CURRENT<br>PORTALTABS_DAILY_HISTORY<br>PORTALTABS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PORTALPROFILEID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>PORTALTABID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Section d&#39;onglet de portail
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Section d'onglet de portail</td>
+            <td>Section Tableau de bord</td>
+            <td>PRTBSC</td>
+            <td>Section d'onglet de portail</td>
+            <td>PORTALTABSPORTALSECTIONS_CURRENT<br>PORTALTABSPORTALSECTIONS_DAILY_HISTORY<br>PORTALTABSPORTALSECTIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CALENDARPORTALSECTIONID</td>
+             <td>-</td>
+             <td colspan="2">Section de portail de calendrier non prise en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSECTIONID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau des sections externes n'est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>INTERNALSECTIONID</td>
+             <td>FK</td>
+             <td>PORTALSECTIONS_CURRENT</td>
+             <td>PORTALSECTIONID</td>
+        </tr>
+        <tr>
+             <td>PORTALSECTIONOBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur PORTALSECTIONOBJCODE</td>
+             <td>Clé primaire/ID de l'objet identifié dans le champ PORTALSECTIONOBJCODE</td>
+        </tr>
+        <tr>
+             <td>PORTALTABID</td>
+             <td>FK</td>
+             <td>PORTALTABS_CURRENT</td>
+             <td>PORTALTABID</td>
+        </tr>
+        <tr>
+             <td>PORTALTABSECTIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Dernière visionneuse de section de portail
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>PortalSectionLastViewer</td>
+            <td>Signaler les dernières visionneuses</td>
+            <td>PLSLSV</td>
+            <td>PortalSectionLastViewer</td>
+            <td>REPORTLASTVIEWERS_CURRENT<br>REPORTLASTVIEWERS_DAILY_HISTORY<br>REPORTLASTVIEWERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>REPORTID</td>
+             <td>FK</td>
+             <td>PORTALSECTIONS_CURRENT</td>
+             <td>REPORTID</td>
+        </tr>
+        <tr>
+             <td>REPORTLASTVIEWERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>VIEWERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Portfolio
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Portfolio</td>
+            <td>Portfolio</td>
+            <td>PORT</td>
+            <td>Portfolio</td>
+            <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ALIGNMENTSCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau des cartes de performance n’est actuellement pas pris en charge</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Préférence
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Préférence</td>
+            <td>Affichage, Filtrage, Regroupement, Définition De Rapport</td>
+            <td>PROSET</td>
+            <td>Préférence</td>
+            <td>PREFERENCES_CURRENT<br>PREFERENCES_DAILY_HISTORY<br>PREFERENCES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Programme
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Programme</td>
+            <td>Programme</td>
+            <td>PRGM</td>
+            <td>Programme</td>
+            <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Projet
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Projet</td>
+            <td>Projet</td>
+            <td>PROJ</td>
+            <td>Projet</td>
+            <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>AEMNATIVEFOLDERTREESREFID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>ALIGNMENTSCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau des cartes de performance n’est actuellement pas pris en charge</td>
+        </tr>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ATTACHEDRATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKORIGINATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CURRENTAPPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>DELIVERABLESCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau des cartes de performance n’est actuellement pas pris en charge</td>
+        </tr>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTCONDITIONNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEPATID</td>
+             <td>FK</td>
+             <td>MILESTONEPATHS_CURRENT</td>
+             <td>MILESTONEPATID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>POPACCOUNTID</td>
+             <td>-</td>
+             <td colspan="2">La table des comptes POP n’est actuellement pas prise en charge</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMMES_ACTUELS</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>QUEUEDEFID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau de définition de file d'attente n'est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>REJECTIONISSUEID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>RESOURCEPOOLID</td>
+             <td>FK</td>
+             <td>RESOURCEPOOLS_CURRENT</td>
+             <td>RESOURCEPOOLID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SPONSORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Utilisateur de l&#39;équipe du projet
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Utilisateur de l'équipe du projet</td>
+            <td>Utilisateur de l'équipe du projet</td>
+            <td>PRTU</td>
+            <td>Utilisateur du projet</td>
+            <td>PROJECTSUSERS_CURRENT<br>PROJECTSUSERS_DAILY_HISTORY<br>PROJECTSUSERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROJECTSUSERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TMPUSERID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Rôle d&#39;utilisateur d&#39;équipe de projet
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Rôle d'utilisateur d'équipe de projet</td>
+            <td>Rôle d'utilisateur d'équipe de projet</td>
+            <td>PTEAM</td>
+            <td>ProjectUserRole</td>
+            <td>PROJECTSUSERSROLES_CURRENT<br>PROJECTSUSERSROLES_DAILY_HISTORY<br>PROJECTSUSERSROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROJECTSUSERSROLEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Carte tarifaire
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Carte tarifaire</td>
+            <td>Carte tarifaire</td>
+            <td>CRTD</td>
+            <td>Carte tarifaire</td>
+            <td>RATECARD_CURRENT<br>RATECARD_DAILY_HISTORY<br>RATECARD_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>RATECARDID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SECURITYROOTID</td>
+             <td>FK</td>
+             <td>Variable, basée sur SECURITYOBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ SECURITYOBJCODE</td>
+        </tr>
+        <tr>
+             <td>SOURCEID</td>
+             <td>FK</td>
+             <td>Variable, basée sur SOURCEOBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ SOURCEOBJCODE</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+
+    &lt;/tbody>
+</table>
+
+### Dossier des rapports
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Dossier des rapports</td>
+            <td>Dossier des rapports</td>
+            <td>RPTFDR</td>
+            <td>Dossier des rapports</td>
+            <td>REPORTFOLDERS_CURRENT<br>REPORTFOLDERS_DAILY_HISTORY<br>REPORTFOLDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>REPORTFOLDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Nombre de statistiques de vues de rapports
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Nombre de statistiques de vues de rapports</td>
+            <td>Nombre de statistiques de vues de rapports</td>
+            <td>PLSVST</td>
+            <td>PortalSectionStatisticInfo</td>
+            <td>REPORTVIEWSTATISTICCOUNTS_CURRENT<br>REPORTVIEWSTATISTICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATISTICCOUNTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>REPORTID</td>
+             <td>FK</td>
+             <td>PORTALSECTIONS_CURRENT</td>
+             <td>PORTALSECTIONID</td>
+        </tr>
+        <tr>
+             <td>REPORTVIEWSTATISTICCOUNTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Heures budgétées à déclarer
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Heures budgétées à déclarer</td>
+            <td>Heures budgétées à déclarer</td>
+            <td>RPBGHR</td>
+            <td>Heure budgétée</td>
+            <td>REPORTABLEBUDGETEDHOURS_CURRENT<br>REPORTABLEBUDGETEDHOURS_DAILY_HISTORY<br>REPORTABLEBUDGETEDHOURS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>REPORTABLEBUDGETEDHOURID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Temps réservé / PTO
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Temps réservé</td>
+            <td>Congés (personnels)</td>
+            <td>RESVT</td>
+            <td>Congés</td>
+            <td>RESERVEDTIMES_CURRENT<br>RESERVEDTIMES_DAILY_HISTORY<br>RESERVEDTIMES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RESERVEDTIMEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Gestionnaire des ressources
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Gestionnaire des ressources</td>
+            <td>Gestionnaire des ressources</td>
+            <td>RESMGR</td>
+            <td>Gestionnaire des ressources</td>
+            <td>RESOURCEMANAGERS_CURRENT<br>RESOURCEMANAGERS_DAILY_HISTORY<br>RESOURCEMANAGERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RESOURCEMANAGERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Pool de ressources
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Pool de ressources</td>
+            <td>Pool de ressources</td>
+            <td>RSPL</td>
+            <td>Pool de ressources</td>
+            <td>RSRCPOOLS_CURRENT<br>RSRCPOOLS_DAILY_HISTORY<br>RSRCPOOLS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>RESOURCEPOOLID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Remarque Rich Text
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Remarque Rich Text</td>
+            <td>Remarque Rich Text</td>
+            <td>RHNOTE</td>
+            <td>Remarque Rich Text</td>
+            <td>RESERVEDTEXTNOTES_CURRENT<br>RESERVEDTEXTNOTES_DAILY_HISTORY<br>RESERVEDTEXTNOTES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RICHTEXTNOTEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Valeur de paramètre Rich Text
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Valeur de paramètre Rich Text</td>
+            <td>Valeur de paramètre Rich Text</td>
+            <td>ARCHVAL</td>
+            <td>RichTextParameterValue</td>
+            <td>RICHTEXTPARAMETERVALUES_CURRENT<br>RICHTEXTPARAMETERVALUES_DAILY_HISTORY<br>RICHTEXTPARAMETERVALUES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PARAMETERVALUEID</td>
+             <td>-</td>
+             <td colspan="2">Tableau de valeurs de paramètres non pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>RICHTEXTPARAMETERVALUEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Risque
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Risque</td>
+            <td>Risque</td>
+            <td>RISQUE</td>
+            <td>Risque</td>
+            <td>RISKS_CURRENT<br>RISKS_DAILY_HISTORY<br>RISKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RISKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>RISKTYPEID</td>
+             <td>FK</td>
+             <td>RISKTYPES_CURRENT</td>
+             <td>RISKTYPEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Type de risque
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Type de risque</td>
+            <td>Type de risque</td>
+            <td>RSKTYPE</td>
+            <td>Type de risque</td>
+            <td>RISKTYPES_CURRENT<br>RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RISKTYPEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Rôle
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Rôle</td>
+            <td>Fonction</td>
+            <td>RÔLE</td>
+            <td>Fonction</td>
+            <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau Modèle de mise en page ne sera pas pris en charge</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Planning
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Planning</td>
+            <td>Planning</td>
+            <td>PLANIFIÉ</td>
+            <td>Planning</td>
+            <td>SCHEDULES_CURRENT<br>SCHEDULES_DAILY_HISTORY<br>SCHEDULES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>HOMEGROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Personne approbatrice d’étape
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Personne approbatrice d’étape</td>
+            <td>Personne approbatrice d’étape</td>
+            <td>SPAPVR</td>
+            <td>Approbateur d'étape</td>
+            <td>STEPAPPROVERS_CURRENT<br>STEPAPPROVERS_DAILY_HISTORY<br>STEPAPPROVERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>STEPAPPROVERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tâche
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tâche</td>
+            <td>Tâche</td>
+            <td>TASK</td>
+            <td>Tâche</td>
+            <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>BILLINGRECORDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKORIGINATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CURRENTAPPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>ITÉRATIONID</td>
+             <td>FK</td>
+             <td>ITÉRATIONS_CURRENT</td>
+             <td>ITÉRATIONID</td>
+        </tr>
+        <tr>
+             <td>KANBANBOARDID</td>
+             <td>-</td>
+             <td colspan="2">La table de tableau kanban n’est actuellement pas prise en charge</td>
+        </tr>
+        <tr>
+             <td>LASTCONDITIONNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEID</td>
+             <td>FK</td>
+             <td>MILESTONES_CURRENT</td>
+             <td>MILESTONEID</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RECURRENCERULEID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau des règles de récurrence n'est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>REJECTIONISSUEID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>RESERVEDTIMEID</td>
+             <td>FK</td>
+             <td>RESERVEDTIMES_CURRENT</td>
+             <td>RESERVEDTIMEID</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>SUBMITTEDBYID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tâche antérieure
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tâche antérieure</td>
+            <td>Tâche antérieure</td>
+            <td>PRED</td>
+            <td>Tâche antérieure</td>
+            <td>PREDECESSORS_CURRENT<br>PREDECESSORS_DAILY_HISTORY<br>PREDECESSORS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PREDECESSORID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SUCCESSORID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Equipe
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Equipe</td>
+            <td>Equipe</td>
+            <td>TEAMOB</td>
+            <td>Equipe</td>
+            <td>TEAMS_CURRENT<br>TEAMS_DAILY_HISTORY<br>TEAMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau Modèle de mise en page ne sera pas pris en charge</td>
+        </tr>
+        <tr>
+             <td>MYWORKVIEWID</td>
+             <td>FK</td>
+             <td>UIVIEWS_CURRENT</td>
+             <td>UIVIEWID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>REQUESTSVIEWID</td>
+             <td>FK</td>
+             <td>UIVIEWS_CURRENT</td>
+             <td>UIVIEWID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Membre d&#39;équipe
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Membre d'équipe</td>
+            <td>Autres équipes, membre d'équipe</td>
+            <td>TEAMMB</td>
+            <td>Membre d'équipe</td>
+            <td>TEAMMEMBERS_CURRENT<br>TEAMMEMBERS_DAILY_HISTORY<br>TEAMMEMBERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEAMMEMBERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Rôle de membre d&#39;équipe
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Rôle de membre d'équipe</td>
+            <td>Rôle de membre d'équipe</td>
+            <td>TEAMMR</td>
+            <td>Rôle de membre d'équipe</td>
+            <td>TEAMMEMBERROLES_CURRENT<br>TEAMMEMBERROLES_DAILY_HISTORY<br>TEAMMEMBERROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEAMMEMBERROLEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Modèle
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Modèle</td>
+            <td>Modèle, Modèle de projet</td>
+            <td>TMPL</td>
+            <td>Modèle</td>
+            <td>TEMPLATES_CURRENT<br>TEMPLATES_DAILY_HISTORY<br>TEMPLATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DELIVERABLESCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau Carte de résultats livrable n'est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEPATID</td>
+             <td>FK</td>
+             <td>MILESTONEPATHS_CURRENT</td>
+             <td>MILESTONEPATID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMMES_ACTUELS</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>QUEUEDEFID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau de définition de file d'attente n'est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Modèle d&#39;affectation de tâche
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Modèle d'affectation de tâche</td>
+            <td>Modèle d'affectation</td>
+            <td>AFFECTATION</td>
+            <td>Modèle d'affectation</td>
+            <td>TEMPLATEASSIGNMENTS_CURRENT<br>TEMPLATEASSIGNMENTS_DAILY_HISTORY<br>TEMPLATEASSIGNMENTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEAMTIMELINEABLEID</td>
+             <td>-</td>
+             <td colspan="2">Tableau de chronologie d'équipe non pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEASSIGNMENTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tâche de modèle
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tâche de modèle</td>
+            <td>Tâche de modèle</td>
+            <td>TTSK</td>
+            <td>Tâche de modèle</td>
+            <td>TEMPLATETASKS_CURRENT<br>TEMPLATETASKS_DAILY_HISTORY<br>TEMPLATETASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEID</td>
+             <td>FK</td>
+             <td>MILESTONES_CURRENT</td>
+             <td>MILESTONEID</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>RECURRENCERULEID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau des règles de récurrence n'est pas pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEAMTIMELINEABLEID</td>
+             <td>-</td>
+             <td colspan="2">Tableau de chronologie d'équipe non pris en charge actuellement</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tâche de modèle antérieure
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tâche de modèle antérieure</td>
+            <td>Prédécesseur du modèle</td>
+            <td>TPRED</td>
+            <td>Tâche antérieure</td>
+            <td>TEMPLATEPREDECESSORS_CURRENT<br>TEMPLATEPREDECESSORS_DAILY_HISTORY<br>TEMPLATEPREDECESSORS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PREDECESSORID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>SUCCESSORID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEPREDECESSORID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Devise des indicateurs de performance clés temporels
+
+Disponibilité limitée des clients
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Devise des indicateurs de performance clés temporels</td>
+            <td>KPI chronologique</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_CURRENCY_CURRENT<br>TIMEPHASED_CURRENCY_DAILY_HISTORY<br>TIMEPHASED_CURRENCY_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMMES_ACTUELS</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>À ajouter sous peu</td>
+             <td>SCHEMAID</td>
+        </tr>
+        <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TIMEPHASEDCURRENCYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Durée des KPI par étapes
+
+Disponibilité limitée des clients
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Durée des KPI par étapes</td>
+            <td>KPI chronologique</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMMES_ACTUELS</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>À ajouter sous peu</td>
+             <td>SCHEMAID</td>
+        </tr>
+        <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TIMEPHASEDDURATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Feuille de temps
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Feuille de temps</td>
+            <td>Feuille de temps</td>
+            <td>TSHET</td>
+            <td>Feuille de temps</td>
+            <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETPROFILEID</td>
+             <td>FK</td>
+             <td>TIMESHEETPROFILES_CURRENT</td>
+             <td>TIMESHEETPROFILEID</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Profil de feuille de temps
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Profil de feuille de temps</td>
+            <td>Profil de feuille de temps</td>
+            <td>TSPRO</td>
+            <td>Profil de feuille de temps</td>
+            <td>TIMESHEETPROFILES_CURRENT<br>TIMESHEETPROFILES_DAILY_HISTORY<br>TIMESHEETPROFILES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETPROFILEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Filtre d’interface utilisateur
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Filtre d’interface utilisateur</td>
+            <td>Filtre</td>
+            <td>SOULEVER</td>
+            <td>Filtre</td>
+            <td>UIFILTERS_CURRENT<br>UIFILTERS_DAILY_HISTORY<br>UIFILTERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>PREFERENCES_CURRENT</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>UIFILTERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Regrouper les interfaces utilisateur par
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Regrouper les interfaces utilisateur par</td>
+            <td>Regroupement </td>
+            <td>UIGB</td>
+            <td>Regroupement </td>
+            <td>UIGROUPBYS_CURRENT<br>UIGROUPBYS_DAILY_HISTORY<br>UIGROUPBYS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>PREFERENCES_CURRENT</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>UIGROUPBYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Modèle d’interface utilisateur
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Modèle d’interface utilisateur</td>
+            <td>Modèle de mise en page</td>
+            <td>UITMPL</td>
+            <td>Modèle de mise en page</td>
+            <td>UITEMPLATES_CURRENT<br>UITEMPLATES_DAILY_HISTORY<br>UITEMPLATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Vue UI
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Vue UI</td>
+            <td>Afficher</td>
+            <td>UIVIEW</td>
+            <td>Afficher</td>
+            <td>UIVIEWS_CURRENT<br>UIVIEWS_DAILY_HISTORY<br>UIVIEWS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>PREFERENCES_CURRENT</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>UIVIEWID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### l’utilisateur ou de l’utilisatrice
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>l’utilisateur ou de l’utilisatrice</td>
+            <td>l’utilisateur ou de l’utilisatrice</td>
+            <td>USER</td>
+            <td>l’utilisateur ou de l’utilisatrice</td>
+            <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSLEVELID</td>
+             <td>FK</td>
+             <td>ACCESSLEVELS_CURRENT</td>
+             <td>ACCESSLEVELID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DEFAULTHOURTYPEID</td>
+             <td>FK</td>
+             <td>HOURTYPES_CURRENT</td>
+             <td>HOURTYPEID</td>
+        </tr>
+        <tr>
+             <td>DELEGATIONTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EAUTHUSERID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>HOMEGROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>HOMETEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>LASTENTEREDNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LATESTUPDATENOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">Le tableau Modèle de mise en page ne sera pas pris en charge</td>
+        </tr>
+        <tr>
+             <td>MANAGERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PORTALPROFILEID</td>
+             <td>-</td>
+             <td colspan="2">La table Profil de portail ne sera pas prise en charge</td>
+        </tr>
+        <tr>
+             <td>PRÉFLUIDE</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>RESOURCEPOOLID</td>
+             <td>FK</td>
+             <td>RESOURCEPOOLS_CURRENT</td>
+             <td>RESOURCEPOOLID</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETPROFILEID</td>
+             <td>FK</td>
+             <td>TIMESHEETPROFILES_CURRENT</td>
+             <td>TIMESHEETPROFILEID</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>UUMUSERID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Délégation d&#39;utilisateur
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Délégation d'utilisateur</td>
+            <td>Délégation d'utilisateur</td>
+            <td>USERDEL</td>
+            <td>Délégation d'utilisateur</td>
+            <td>USERDELEGATIONS_CURRENT<br>USERDELEGATIONS_DAILY_HISTORY<br>USERDELEGATIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>FROMUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TOUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>USERDELEGATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Groupe d&#39;utilisateurs
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Groupe d'utilisateurs</td>
+            <td>Autres groupes</td>
+            <td>USRGPS</td>
+            <td>Groupe d'utilisateurs</td>
+            <td>USERSGROUPS_CURRENT<br>USERSGROUPS_DAILY_HISTORY<br>USERSGROUPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>USERSGROUPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Emplacement de l’utilisateur
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Emplacement de l’utilisateur</td>
+            <td>Emplacement de l’utilisateur</td>
+            <td>USRLOC</td>
+            <td>UserLocation</td>
+            <td>USERLOCATIONS_CURRENT<br>USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>USERLOCATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Rôle utilisateur
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Rôle utilisateur</td>
+            <td>Autres rôles</td>
+            <td>USROL</td>
+            <td>Rôle utilisateur</td>
+            <td>USERSROLES_CURRENT<br>USERSROLES_DAILY_HISTORY<br>USERSROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>USERROLESETID</td>
+             <td>FK</td>
+             <td>USERROLESET_CURRENT</td>
+             <td>USERROLESETID</td>
+        </tr>
+        <tr>
+             <td>USERLOCATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Valeur de préférence utilisateur
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Valeur de préférence utilisateur</td>
+            <td>Préférence utilisateur</td>
+            <td>USERPF</td>
+            <td>Préférence utilisateur</td>
+            <td>USERPREFVALUES_CURRENT<br>USERPREFVALUES_DAILY_HISTORY<br>USERPREFVALUES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>USERPREFVALUEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### User Role Set
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>UserRoleSet</td>
+            <td>User Role Set</td>
+            <td>URSET</td>
+            <td>UserRoleSet</td>
+            <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PRIMARYROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>USERROLESETID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Décisions des utilisateurs et utilisatrices
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>UsersDecisions</td>
+            <td>Décisions des utilisateurs et utilisatrices</td>
+            <td>USRDEC</td>
+            <td>Décisions des utilisateurs et utilisatrices</td>
+            <td>USERSDECISIONS_CURRENT<br>USERSDECISIONS_DAILY_HISTORY<br>USERSDECISIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>USERDECISIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Élément de travail
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>WorkItem</td>
+            <td>Élément de travail</td>
+            <td>WRKITM</td>
+            <td>WorkItem</td>
+            <td>WORKITEMS_CURRENT<br>WORKITEMS_DAILY_HISTORY<br>WORKITEMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>WORKITEMID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
 </table>
