@@ -6,18 +6,22 @@ description: Une fois que la personne propriétaire de votre équipe a installé
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 93%
+source-wordcount: '500'
+ht-degree: 100%
 
 ---
 
 # Soumettre des demandes [!DNL Adobe Workfront] à partir de [!DNL Microsoft] Teams
 
+<!--
+
 >[!NOTE]
 >
->À compter du 1er juillet 2025, Microsoft supprimera la prise en charge de l’application de bureau Classic Teams. Par conséquent, l’intégration de Workfront à Microsoft Teams ne sera pas prise en charge une fois que l’application de bureau Classic Teams ne sera plus disponible.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 Une fois que la personne propriétaire de votre équipe a installé [!DNL Adobe Workfront for Microsoft Teams], vous pouvez soumettre des demandes [!DNL Workfront] à partir de votre compte [!DNL Microsoft Teams]. Pour ce faire, vous devez disposer d’un compte Workfront vous permettant de soumettre des demandes. Pour plus d’informations sur l’installation de [!DNL Workfront for Microsoft Teams], voir [Installer  [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
