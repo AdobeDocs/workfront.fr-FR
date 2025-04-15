@@ -6,7 +6,7 @@ description: Si vous disposez de l’accès en gestion au projet, vous pouvez aj
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 2ce454f6f6e883090fe69c953d89c2d3eef7ce5b
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 34%
@@ -67,6 +67,7 @@ Pour ajouter une tâche ou un événement à un panorama [!UICONTROL Kanban] à 
    >Si plusieurs équipes sont affectées à la tâche ou à l’événement, l’élément de travail ne peut s’afficher que sur le tableau de [!DNL kanban] d’une seule équipe.
 1. Cliquez sur **Ajouter**.
 
+
 ## Ajouter des tâches ou des événements existants à partir d&#39;un rapport
 
 Pour ajouter une tâche ou un événement à un panorama [!UICONTROL Kanban] à partir d’un rapport :
@@ -84,6 +85,7 @@ Pour ajouter une tâche ou un événement à un panorama [!UICONTROL Kanban] à 
 1. Cliquez sur **Ajouter**.
 
 
+
 ## Ajouter des tâches ou des événements existants à partir d&#39;un tableau de bord
 
 Pour ajouter une tâche ou un événement à un panorama [!UICONTROL Kanban] à partir d’un tableau de bord :
@@ -98,4 +100,5 @@ Pour ajouter une tâche ou un événement à un panorama [!UICONTROL Kanban] à 
    >[!NOTE]
    >
    >Si plusieurs équipes sont affectées à la tâche ou à l’événement, l’élément de travail ne peut s’afficher que sur le tableau de [!DNL kanban] d’une seule équipe.
+
 1. Cliquez sur **Ajouter**.
