@@ -7,10 +7,10 @@ description: Vous pouvez partager et examiner différents types de fichiers avec
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
+source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 100%
+source-wordcount: '1057'
+ht-degree: 99%
 
 ---
 
@@ -208,7 +208,7 @@ Workfront présente les limites suivantes :
 * AVI
 * Flash (VP6, Sorenson Spark/H.263+, H.264)
 * MOV
-* MP4
+* MP4 - limite de 8 192 x 4 320 pixels
 * MPG
 * VOB (VOB non chiffrés uniquement)
 * Flash
