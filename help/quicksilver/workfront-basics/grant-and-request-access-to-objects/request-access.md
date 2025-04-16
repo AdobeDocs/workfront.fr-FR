@@ -6,14 +6,16 @@ description: La visibilité des objets dans Adobe Workfront dépend de l’acc�
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 18b96a6d57dc358bfe52e813bc98d8eb19f37dba
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 92%
+source-wordcount: '1338'
+ht-degree: 64%
 
 ---
 
 # Demander l’accès aux objets
+
+<!-- Audited: 4/2025 -->
 
 La visibilité des objets dans Adobe Workfront dépend de l’accès à ce type d’objet et de vos autorisations sur un objet particulier.
 
@@ -28,11 +30,9 @@ La visibilité des objets dans Adobe Workfront dépend de l’accès à ce type
 
 Votre équipe d’administration Workfront configure votre accès à un type d’objet dans votre niveau d’accès. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Si vous avez besoin d’autorisations pour des objets spécifiques dans Workfront, vous pouvez demander l’accès à ces objets. Plutôt que d’envoyer un e-mail à l’équipe d’administration Workfront ou à la personne propriétaire de l’objet pour expliquer vos besoins, vous pouvez demander un accès ou des autorisations supplémentaires dans Workfront.
+Si vous avez besoin d’autorisations pour des objets spécifiques dans Workfront, vous pouvez demander l’accès à ces objets. Plutôt que d’envoyer un e-mail à l’administrateur Workfront ou au propriétaire de l’objet pour expliquer vos besoins, vous pouvez demander un accès (ou des autorisations) supplémentaire dans Workfront.
 
-Vous pouvez demander un accès initial aux objets si une personne partage avec vous un lien vers l’objet ou vous pouvez demander un accès supplémentaire aux objets que vous pouvez au moins afficher.
-
-Par exemple, vous disposez peut-être des autorisations d’affichage pour un projet, mais vous devez y ajouter des tâches. Dans ce cas, vous pouvez demander des autorisations de contribution au projet.
+Vous pouvez demander un accès initial aux objets si quelqu&#39;un partage un lien vers l&#39;objet avec vous, ou vous pouvez demander un accès supplémentaire aux objets pour lesquels vous disposez déjà d&#39;autorisations d&#39;affichage. Par exemple, vous pouvez disposer des autorisations d’affichage pour un projet, mais vous devez y ajouter des tâches. Dans ce cas, vous pouvez demander des autorisations de contribution au projet.
 
 ## Conditions d’accès
 
@@ -49,8 +49,9 @@ Pour partager des objets, vous devez disposer des éléments suivants :
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard</p> 
+   <p>Ou</p>
    <p>Actuellement : Travail ou licence supérieure</p> 
    </td> 
   </tr> 
@@ -61,13 +62,13 @@ Pour partager des objets, vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations dans ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Présentation des règles de partage standard
 
-Les règles de partage standard suivantes prennent effet automatiquement, car elles sont configurées en tant qu’options par défaut dans votre système Workfront.
+Les règles de partage standard suivantes sont des options par défaut dans votre système Workfront et prennent automatiquement effet :
 
 * Les utilisateurs et utilisatrices affectés à une tâche ou à un problème disposent d’un accès en contribution.
 * Les personnes gestionnaires de projet, de portfolio et de programme disposent de l’accès en gestion sur leurs objets.
@@ -85,22 +86,22 @@ Vous pouvez demander un accès initial aux objets auxquels vous n’avez actuell
 
 ### Demander un accès initial  {#request-initial-access}
 
-Si vous n’avez pas encore accès à un objet et que vous accédez à cet objet à partir d’un lien, un écran s’affiche pour vous informer que vous n’avez pas accès à l’affichage des informations.
+Si vous n’avez pas déjà accès à un objet et que vous accédez à cet objet à partir d’un lien, un écran s’affiche pour vous informer que vous n’avez pas accès à l’affichage des informations.
 
 Pour demander l’accès initial à un objet, procédez comme suit :
 
-1. Cliquez sur **Demander l’accès**.\
-   La boîte de dialogue **Demander l’accès** s’affiche.
+1. Cliquez sur **Demander l’accès**. La boîte de dialogue **Demander l’accès** s’affiche.
 
-1. (Conditionnel) Si plusieurs utilisateurs disposent de l’accès approprié pour vous accorder un accès supplémentaire, une flèche de liste déroulante s’affiche en regard du nom de l’utilisateur. Dans la liste déroulante, sélectionnez l’utilisateur ou l’utilisatrice qui doit recevoir votre demande d’accès.
+1. (Conditionnel) Si plusieurs utilisateurs disposent de l’accès approprié pour vous accorder un accès supplémentaire, une flèche de liste déroulante s’affiche en regard du nom de l’utilisateur. Sélectionnez l’utilisateur qui recevra votre demande d’accès dans la liste déroulante.
 
-   Seuls 10 utilisateurs et utilisatrices sont affichés dans la liste déroulante. La liste est triée par ordre alphabétique.\
-   Pour plus d’informations sur l’ordre des utilisateurs et utilisatrices répertoriés dans ce menu déroulant, voir [Hiérarchie des menus déroulants « Demander l’accès » et « Demander davantage d’accès »](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Seuls 10 utilisateurs s’affichent dans la liste déroulante, qui est triée par ordre alphabétique. Pour plus d’informations sur l’ordre des utilisateurs et utilisatrices répertoriés dans ce menu déroulant, voir [Hiérarchie des menus déroulants « Demander l’accès » et « Demander davantage d’accès »](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Dans la liste déroulante, sélectionnez le type d’accès que vous demandez.
-1. (Facultatif) Dans le champ **P.S.**, rédigez une note à l’attention de l’utilisateur ou de l’utilisatrice sur les raisons pour lesquelles vous avez besoin d’un accès supplémentaire.
+1. (Facultatif) Dans le champ **P.S.**, entrez une note indiquant pourquoi vous avez besoin d’un accès supplémentaire.
 
    ![Boîte de dialogue Demander l’accès](assets/request-access-to-project.png)
+
+1. Cliquez sur **Demander l’accès**.
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -119,34 +120,31 @@ Pour demander un accès supplémentaire à un objet auquel vous avez déjà un a
 
    ![Demander un accès supplémentaire](assets/more-menu-request-more-access.png)
 
-1. (Le cas échéant) Si plusieurs personnes disposent de l’accès approprié pour vous accorder un accès supplémentaire, une flèche déroulante s’affiche en regard du nom de la personne.
-1. Sélectionnez dans la liste déroulante la personne qui doit recevoir votre demande d’accès.\
-   Seuls 10 utilisateurs et utilisatrices sont affichés dans la liste déroulante. La liste est triée par ordre alphabétique.\
-   Pour plus d’informations sur l’ordre des utilisateurs et utilisatrices répertoriés dans ce menu déroulant, voir [Hiérarchie des menus déroulants « Demander l’accès » et « Demander plus d’accès »](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+1. (Conditionnel) Si plusieurs utilisateurs disposent de l’accès approprié pour vous accorder un accès supplémentaire, une flèche de liste déroulante s’affiche en regard du nom de l’utilisateur. Sélectionnez l’utilisateur qui recevra votre demande d’accès dans la liste déroulante.
+
+   Seuls 10 utilisateurs s’affichent dans la liste déroulante, qui est triée par ordre alphabétique. Pour plus d’informations sur l’ordre des utilisateurs et utilisatrices répertoriés dans ce menu déroulant, voir [Hiérarchie des menus déroulants « Demander l’accès » et « Demander plus d’accès »](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Dans la liste déroulante, sélectionnez le niveau d’accès que vous demandez.
-1. (Facultatif) Dans le champ **P.S.**, indiquez une note expliquant pourquoi vous avez besoin d’un accès supplémentaire.
-1. Cliquez sur **Demander l’accès**.
+1. (Facultatif) Dans le champ **P.S.**, entrez une note indiquant pourquoi vous avez besoin d’un accès supplémentaire.
 
-   Exemple d’image dans l’environnement de prévisualisation :
    ![Boîte de dialogue Demander l’accès](assets/request-access-to-project.png)
 
-## Hiérarchie des menus déroulants « Demander l’accès » et « Demander plus d’accès » {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
+1. Cliquez sur **Demander l’accès**.
+
+## Hiérarchie des menus déroulants Demander l&#39;accès et Demander un accès supplémentaire {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
 * [Comprendre la hiérarchie des utilisateurs et utilisatrices répertoriés dans les menus déroulants Demander l’accès et Demander plus d’accès](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
 * [Comprendre la personne propriétaire d’un objet](#understand-the-owner-of-an-object)
 
 ### Comprendre la hiérarchie des utilisateurs et utilisatrices répertoriés dans les menus déroulants Demander l’accès et Demander plus d’accès {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
 
-Lors du remplissage des listes « Demander l’accès » ou « Demander plus d’accès » sur des objets, Workfront sélectionne une liste de maximum dix personnes qui remplissent différents rôles dans le partage de l’objet comme décrit ci-dessous. Ces personnes peuvent accorder l’accès à l’objet à la personne qui le demande.\
-La liste qui en résulte est alors triée par nom dans l’ordre alphabétique croissant.\
-Workfront affiche jusqu’à 10 personnes dans les listes « Demander l’accès » et « Demander plus d’accès ».
+Lorsque vous renseignez les listes Demander l’accès ou Demander un accès plus étendu sur des objets, Workfront sélectionne une liste de 10 utilisateurs maximum, qui remplissent différents rôles et qui peuvent accorder un accès aux objets à l’utilisateur qui le demande. La liste qui en résulte est ensuite triée par nom dans l’ordre alphabétique croissant.
 
-L’ordre des utilisateurs et utilisatrices dans les menus déroulants « Demander l’accès » ou « Demander plus d’accès » est dicté par les règles suivantes :
+L’ordre des utilisateurs dans les menus déroulants Demander l’accès ou Demander un accès supplémentaire est déterminé par les règles suivantes :
 
 * La première personne de la liste est la « personne propriétaire » de l’objet, comme décrit dans la section [Comprendre la personne propriétaire d’un objet](#understand-the-owner-of-an-object).
-* Ensuite, la liste est remplie avec les personnes avec lesquelles l’objet est partagé individuellement. Elles sont répertoriés par ordre alphabétique.
-* La liste est ensuite complétée par des utilisateurs et utilisatrices qui obtiennent l’accès requis en partageant avec leurs équipes, groupes ou entreprises. Elles sont répertoriés par ordre alphabétique.
+* La liste est ensuite renseignée avec les utilisateurs avec lesquels l’objet est partagé individuellement. Elles sont répertoriés par ordre alphabétique.
+* La liste est ensuite davantage remplie avec des utilisateurs qui obtiennent l’accès requis par le biais du partage avec leurs équipes, groupes ou entreprises. Elles sont répertoriés par ordre alphabétique.
 * Si la liste est vide, les administrateurs et administratrices Workfront sont ajoutés afin qu’il y ait toujours quelqu’un à qui demander l’accès. Elles sont répertoriés par ordre alphabétique.
 * Chacune des personnes de la liste doit disposer de l’accès requis à l’objet et de l’accès requis pour partager l’objet.
 
@@ -186,7 +184,7 @@ La personne propriétaire d’un objet est définie comme suit :
   </tr> 
   <tr> 
    <td>Rapports et tableaux de bord</td> 
-   <td>La personne propriétaire est celle qui a créé le rapport ou le tableau de bord. </td> 
+   <td>Le propriétaire est le créateur du rapport ou du tableau de bord. </td> 
   </tr> 
   <tr> 
    <td>Calendriers</td> 
