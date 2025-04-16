@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e49f1b3d9de3984ed798e20a0a0f03f9d4060115
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 35%
+source-wordcount: '699'
+ht-degree: 36%
 
 ---
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des plans de front de travail suivants :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
@@ -99,9 +99,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 +++
 
 
-## Observations relatives à la modification des paramètres de champ
+## Considérations relatives à la modification des paramètres de champ
 
-Vous devez tenir compte des éléments suivants avant d’apporter des modifications à la configuration d’un champ :
+Vous devez tenir compte des points suivants avant d’apporter des modifications à la configuration d’un champ :
 
 * Vous ne pouvez modifier les paramètres de champ qu’à partir du tableau de type d’enregistrement.
 * Vous ne pouvez pas modifier un champ sur la page d’enregistrement ou dans un autre affichage, en dehors de la vue Tableau.
@@ -115,11 +115,11 @@ Vous devez tenir compte des éléments suivants avant d’apporter des modificat
 
   >[!WARNING]
   >
-  >Lorsque les expressions de formule changent ou que des options sont ajoutées ou supprimées d’un champ de type sélection, il y aura une perte de données pour les enregistrements qui ont déjà des informations stockées dans les champs dont la configuration est modifiée.
+  >Lorsque des expressions de formule sont modifiées ou que des options sont ajoutées ou supprimées dans un champ de type select, il y aura une perte de données pour les enregistrements qui contiennent déjà des informations stockées dans les champs dont la configuration est modifiée.
   >
-  >Il n’y a aucun avertissement ou indication que cette perte de données peut se produire lorsque vous modifiez la configuration des champs.
+  >Aucun avertissement ni indication que cette perte de données peut se produire lorsque vous modifiez la configuration des champs.
   >
-  >Les autres utilisateurs ne sont pas avertis que la configuration du champ a changé.
+  >Les autres utilisateurs ne sont pas informés que la configuration du champ a changé.
 
 * Vous pouvez modifier des champs de recherche existants à partir d’enregistrements connectés.
 
@@ -158,25 +158,10 @@ Vous devez tenir compte des éléments suivants avant d’apporter des modificat
    >
    >* Une fois le champ enregistré, vous ne pouvez plus le mettre à jour.
    >
-   >* Lorsque vous modifiez des configurations de champs (options de champ ou expressions de formule), les enregistrements qui contiennent déjà des informations dans les champs modifiés mettent à jour leurs valeurs en temps réel. Il n’y a pas d’avertissement ni de journal d’audit pour les changements de valeur déclenchés par les modifications de configuration de champ. Tous les utilisateurs qui affichent les champs verront immédiatement les nouvelles valeurs avec les modifications.
+   >* Lorsque vous modifiez les configurations de champ (options de champ ou expressions de formule), les enregistrements qui contiennent déjà des informations dans les champs modifiés mettent à jour leurs valeurs en temps réel. Il n’existe aucun avertissement ni journal d’audit pour les modifications de valeur déclenchées par les modifications de configuration des champs. Tous les utilisateurs qui consultent les champs verront immédiatement les nouvelles valeurs avec les modifications.
 
    Les informations de champ sont mises à jour pour toutes les personnes ayant accès à l’affichage de l’espace de travail.
 
 1. (Conditionnel) Pour les champs d’enregistrement connectés, cliquez sur **Modifier les champs de recherche** et ajoutez ou supprimez l’un des champs de recherche du type d’enregistrement connecté.
 
    Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-   >[!TIP]
-   >
-   >Vous pouvez ajouter ou supprimer des champs de recherche des enregistrements connectés, mais vous ne pouvez pas modifier les paramètres des champs de recherche.
-
-
-<!-- replace the TIP above with the one below at Preview, and remove this tip altogether after April 10 Prod release:-->
-
-<!--
-   >[!TIP]
-   >
-   >* In the Production environment, you can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
-   >* <span class="preview">In the Preview environment, you can edit the settings of lookup fields.</span>
-
--->

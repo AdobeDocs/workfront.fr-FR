@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1791'
 ht-degree: 5%
 
 ---
@@ -152,10 +152,6 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
 
 ## Envoyez une demande à Workfront Planning dans la zone des Demandes de Workfront.
-
->[!NOTE]
->
->Après les versions mensuelles de la production, les fonctionnalités décrites dans cette section sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides.
 
 {{step1-to-requests}}
 

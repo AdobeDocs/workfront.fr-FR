@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '2020'
 ht-degree: 9%
 
 ---
@@ -26,11 +26,9 @@ ht-degree: 9%
 
 {{planning-important-intro}}
 
-Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;enregistrement dans Adobe Workfront Planning. Vous pouvez ensuite partager un lien vers celui-ci avec d’autres utilisateurs internes ou externes.
+Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;enregistrement dans Adobe Workfront Planning. Vous pouvez ensuite partager le formulaire avec d’autres utilisateurs qui peuvent envoyer des requêtes pour créer des enregistrements.
 
-Les utilisateurs disposant d’un lien vers le formulaire peuvent mettre à jour les valeurs de champ qu’il contient et ajouter de nouveaux enregistrements en l’soumettant.
-
-Cet article explique comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
+Cet article décrit comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
 
 Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
@@ -125,19 +123,19 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
       * Créé par et Dernière modification par
       * Date de création et date de dernière modification
-      * Formule. <!--Formula fields are supported in the Preview environment.-->
+      * Formule
       * Champs de recherche d’objets Workfront
       * Champs de recherche des enregistrements connectés de Workfront Planning
 
-* Voici des différences entre la façon dont les formats de champ s’affichent dans le générateur de formulaires de demande et la façon dont les valeurs des champs sont mises en forme sur l’enregistrement ou dans la page des détails de la demande :
+* Voici les différences entre la façon dont les formats de champ s’affichent dans le créateur de formulaires de demande et la façon dont les valeurs des champs sont formatées dans l’enregistrement ou dans la page des détails de la demande :
 
-   * Les champs Devise, Nombre et Pourcentage s’affichent comme Texte d’une seule ligne dans le générateur de formulaires.
+   * Les champs Devise, Nombre et Pourcentage s’affichent sous la forme d’un type de champ de texte monoligne dans le créateur de formulaires.
 
-     Toutefois, le format de champ est conservé et les valeurs de champ s’affichent sous forme de devise, de nombres et de pourcentages après l’envoi de la demande, sur le type d’enregistrement et dans la page des détails de la demande.
+     Cependant, le format des champs est conservé et les valeurs des champs s’affichent sous la forme de devise, de nombres et de pourcentages une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
 
-* Voici une description de l’affichage de certaines valeurs de champs sur les formulaires de demande et les pages de détails de la demande :
+* Vous trouverez ci-dessous une description de l’affichage de certaines valeurs de champ dans les formulaires de demande et les pages de détails de la demande :
 
-   * La mise en forme spéciale des champs Devise, Nombre et Pourcentage n’est pas conservée. Par exemple, la précision décimale n’est pas conservée pour les valeurs de ces champs dans ces zones.
+   * Le formatage spécial des champs Devise, Nombre et Pourcentage n’est pas conservé. Par exemple, la précision décimale n’est pas conservée pour les valeurs de ces champs dans ces zones.
    * Les valeurs des champs Personnes s’affichent sous la forme d’identifiants.
    * Les champs de formule qui ne font pas référence à d’autres champs ou calculs n’affichent aucune valeur. Par exemple, un champ avec une formule `STRING` affiche une valeur « N/A ».
    * Les champs de formule qui font référence à des champs Devise affichent les valeurs sans tenir compte des taux de change.
@@ -156,8 +154,8 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
    La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
 
 1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Créer un formulaire de demande** ou **Gérer les formulaires de demande**, si vous disposez déjà d’un formulaire et que vous souhaitez en créer d’autres.
-1. (Conditionnel) Si vous souhaitez ajouter un autre formulaire, cliquez sur **Nouveau formulaire** de demande.
-1. Mettez à jour le nom du formulaire de demande. Par défaut, le nom du formulaire est **Formulaire** sans titre. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+1. (Conditionnel) Si vous souhaitez ajouter un autre formulaire, cliquez sur **Nouveau formulaire de demande**.
+1. Mettez à jour le nom du formulaire de demande. Par défaut, le nom du formulaire est **Formulaire sans titre**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facultatif) Ajoutez une **Description** pour le formulaire de demande.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
@@ -197,15 +195,15 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
    * **Libellé** : il s&#39;agit du nom du champ tel qu&#39;il apparaîtra sur le formulaire de demande. Le nom du champ d’enregistrement n’est pas modifié.
    * **Instructions** : ajoutez plus d’informations sur le champ .
-   * **Rendre un champ obligatoire** : lorsqu’il est sélectionné, le champ doit avoir une valeur. Sinon, le formulaire ne peut pas être envoyé.
-   * **Ajouter une logique** : définissez les conditions à remplir pour que le champ s’affiche ou soit masqué.
+   * **Rendre un champ obligatoire** : lorsqu’il est sélectionné, le champ doit avoir une valeur. Dans le cas contraire, le formulaire ne peut pas être envoyé.
+   * **Ajouter une logique** : définissez les conditions qui doivent être remplies pour que le champ s’affiche ou soit masqué.
 
    >[!TIP]
    >
-   >   Le type de champ de chaque champ s’affiche en haut du panneau droit, après avoir sélectionné le champ du formulaire.
+   >   Le type de champ de chaque champ s’affiche dans la partie supérieure du panneau de droite, une fois que vous avez sélectionné le champ dans le formulaire.
    >     
 
-1. (Facultatif) Cliquez sur l’onglet **Éléments** de contenu sur le côté gauche du formulaire, puis ajoutez l’un des éléments suivants :
+1. (Facultatif) Cliquez sur l’onglet **Éléments de contenu** sur le côté gauche du formulaire, puis ajoutez l’un des éléments suivants :
 
    * **Texte descriptif**
    * **Saut de section**
@@ -228,13 +226,13 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
      Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire dans l’en-tête, puis cliquez sur **Modifier** pour mettre à jour le nom du formulaire.
-1. Cliquez sur **Publish pour publier le formulaire et obtenir un lien unique pour celui-ci** .
+1. Cliquez sur **Publier** pour publier le formulaire et obtenir un lien unique pour celui-ci.
 
    Les événements suivants se produisent :
 
-   * Le **bouton Publish** est supprimé.
-   * Le **bouton Annuler la publication** est ajouté au formulaire. Le fait de cliquer dessus empêche l’accès au formulaire.
-   * Un **bouton Partager** est ajouté au formulaire.
+   * Le bouton **Publier** est supprimé.
+   * Le bouton **Dépublier** est ajouté au formulaire. Cliquez dessus pour empêcher l’accès au formulaire.
+   * Un bouton **Partager** est ajouté au formulaire.
 
 1. Cliquez sur **Partager** pour partager le formulaire avec d’autres personnes.
 
@@ -256,14 +254,9 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
    >     * Personnes
    >
 
-1. (Conditionnel) Si vous avez sélectionné **Personne disposant du lien** à l’étape précédente, sélectionnez la **Date d’expiration du lien** dans le calendrier disponible. <!--take out this tip when we release to production as in multiple forms this is no longer happening-->
+1. (Conditionnel) Si vous avez sélectionné **Personne disposant du lien** à l’étape précédente, sélectionnez la **Date d’expiration du lien** dans le calendrier disponible.
 
-   >[!TIP]
-   >
-   >Il y a une indication que le lien est partagé publiquement lorsque c’est le cas.
-   >![Lien partagé publiquement vers le formulaire dans le menu Type d’enregistrement](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
-
-   Les gens recevront une erreur après l’expiration du lien et vous devez mettre à jour la date du lien et générer un nouveau lien à partager avant que les gens puissent accéder à nouveau au formulaire.
+   Les personnes recevront une erreur après l’expiration du lien et vous devez mettre à jour la date du lien et générer un nouveau lien à partager avant que les personnes puissent à nouveau accéder au formulaire.
 
    Vous pouvez sélectionner des dates futures dans les 180 jours à compter de la date actuelle.
 
@@ -298,18 +291,10 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 1. Cliquez sur la flèche pointant vers la gauche de **Formulaires de demande** dans l’en-tête pour fermer le tableau des formulaires de demande.
 
    La page de type d’enregistrement s’ouvre.
-1. (Facultatif et conditionnel) Pour modifier un formulaire existant :
+1. (Facultatif et conditionnel) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête, puis effectuez l’une des opérations suivantes :
 
-   1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête, puis cliquez sur **Gérer les formulaires de demande**. </span>
+   1. Cliquez sur **Mettre à jour le formulaire de demande** pour apporter des modifications au formulaire de demande, puis cliquez sur un formulaire de demande pour l’ouvrir et le modifier.
+   1. Cliquez sur **Copier le lien pour demander un formulaire** pour partager le lien vers le formulaire avec d’autres personnes.
 
-      Cette action ouvre la vue du tableau Formulaires de demande .
+1. (Facultatif) Accédez à la zone **Demandes** dans Workfront et recherchez le formulaire partagé pour envoyer une demande. Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
-   1. Cliquez sur un formulaire de demande pour l’ouvrir et le modifier.
-   1. (Facultatif) Accédez à la zone **Demandes** dans Workfront et recherchez le formulaire partagé pour envoyer une demande. Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
-
-<!--   * From the Production environment:
-   
-      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
-   
-      1. Click **Update request form** to make any changes to the request form.
-      1. Click **Copy link to request form**  to share the link to the form with others.-->

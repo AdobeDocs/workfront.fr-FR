@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 56%
+source-wordcount: '153'
+ht-degree: 69%
 
 ---
 
 
 # Enregistrements : index des articles
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -27,7 +27,7 @@ Après avoir créé des types d’enregistrements dans Adobe Workfront Plannin
 Les articles suivants décrivent comment créer et gérer des enregistrements et leurs informations dans Adobe Workfront Planning :
 
 * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
-* <span class="preview">[Créer des enregistrements en important les informations d&#39;un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
+* [Créer des enregistrements en important des informations depuis un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md)
 * [Créer des objets Workfront à partir de Workfront Planning en les connectant à des enregistrements](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 * [Création d’objets à l’aide de l’automatisation des enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md)
