@@ -6,19 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 11%
+source-wordcount: '365'
+ht-degree: 13%
 
 ---
 
 
 # Présentation des champs de Principal
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -53,4 +53,4 @@ Pour plus d&#39;informations sur la désignation d&#39;un champ en tant que cham
 * La modification du champ principal de votre vue de tableau affecte la vue de tous les autres utilisateurs et utilisatrices qui la choisissent.
 * La modification du champ principal dans une vue Tableau affecte toutes les vues Tableau du type d’enregistrement.
 * La valeur indiquée dans le champ principal est toujours associée à la page de l’enregistrement par un lien hypertexte.
-* Si vous disposez d’autorisations de niveau Contribution ou supérieur sur un <!--<span class="preview">and record type</span>--> d’espace de travail, vous pouvez modifier la valeur des champs principaux, à l’exception des champs de formule. Les formules sont des calculs qui se mettent à jour automatiquement.
+* Si vous disposez d’autorisations de niveau Contribution ou supérieur sur un espace de travail <span class="preview">et un type d’enregistrement</span>, vous pouvez modifier la valeur des champs principaux, à l’exception des champs de formule. Les formules sont des calculs qui se mettent à jour automatiquement.

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '972'
 ht-degree: 16%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 16%
 
 # Créer des enregistrements en important des informations depuis un fichier CSV ou Excel
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -83,7 +83,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td> <p>Accordez des autorisations supérieures ou égales à l’espace de travail <!--and record type--> lequel vous souhaitez ajouter des enregistrements. </p>  
+   <td> <p>Autorisations de niveau Contribution ou supérieur à l’espace de travail <span class="preview">et au type d’enregistrement</span> dans lequel vous souhaitez ajouter des enregistrements. </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
    <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (projets).</p>
    </td> 
@@ -128,6 +128,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    Depuis un espace de travail, développez la flèche pointant vers le bas à droite d’un nom d’espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 1. Cliquez sur la carte du type d’enregistrement sur lequel vous souhaitez importer les enregistrements.
 1. Cliquez sur **Nouvel enregistrement** dans le coin supérieur droit de l’écran.
+
+   ![Choisir la méthode d&#39;ajout des enregistrements à trois boutons](assets/choose-way-to-add-records-three-button-box.png)
 1. Cliquez sur **Télécharger à partir du fichier**, puis sur **Continuer**. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. Faites glisser un fichier Excel ou CSV préalablement enregistré sur votre ordinateur ou cliquez sur **Sélectionner un fichier CSV ou Excel** pour en rechercher un.
 1. Cliquez sur **Prévisualiser et modifier**.

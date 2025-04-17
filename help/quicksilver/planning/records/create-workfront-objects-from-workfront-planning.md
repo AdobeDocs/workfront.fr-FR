@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1088'
 ht-degree: 10%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 10%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
-Vous pouvez créer Adobe objets Workfront à partir de Workfront Planning en procédant de l’une des manières suivantes :
+Vous pouvez créer des objets Adobe Workfront à partir de Workfront Planning des manières suivantes :
 
-* Lorsque vous connectez des objets Workfront à partir d’enregistrements de planification
+* Connexion d&#39;objets Workfront à partir d&#39;enregistrements Planning
 
   Cet article décrit comment créer des objets Workfront à partir de Workfront Planning en les connectant à partir d&#39;enregistrements Planning.
 * Lorsque vous utilisez des automatisations à partir d’une page d’enregistrement.
@@ -51,10 +51,10 @@ Vous pouvez créer les types d&#39;objets Workfront suivants à partir de Workfr
 Vous pouvez connecter des projets, des portfolios et des programmes à partir d’un champ de connexion dans les zones suivantes de Workfront Planning :
 
 * Vue Tableau d’un type d’enregistrement
-* Page Détails ou zone d’aperçu d’un enregistrement
-* L’onglet Connexions d’un enregistrement
+* Page de détails ou zone de prévisualisation d’un enregistrement
+* Onglet Connexions d’un enregistrement
 
-Pour plus d’informations sur la connexion d’enregistrements de planification à des objets Workfront, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+Pour plus d&#39;informations sur la connexion des enregistrements Planning aux objets Workfront, voir [Connexion des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
 ## Conditions d’accès
 
@@ -74,12 +74,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <p> Produits</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des plans de front de travail suivants :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
@@ -102,7 +102,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td> Standard
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -113,14 +113,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td> <p>Gérez les autorisations d’accès à l’espace de travail <!--<span class="preview">and record type</span>--> où vous souhaitez ajouter des enregistrements. </p>  
+   <td> <p>Gérez les autorisations relatives à l’espace de travail <span class="preview">et au type d’enregistrement</span> où vous souhaitez ajouter des enregistrements. </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
-   <p>Gérez les autorisations sur les objets Workfront (portefeuilles) pour ajouter des objets enfants (projets).</p>
+   <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (projets).</p>
    </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Tous les utilisateurs, y compris les administrateurs Workfront, doivent se voir attribuer un modèle de mise en page qui inclut la zone de planification dans le menu principal </p> </td> 
+   <td> <p>Un modèle de mise en page comprenant la zone Planning du menu principal doit être affecté à tous les utilisateurs, y compris les administrateurs Workfront </p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -135,27 +135,23 @@ Vous devez disposer des éléments suivants avant de pouvoir ajouter de nouveaux
 
 * Types d’enregistrements liés aux projets, portfolios ou programmes Workfront. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Enregistrements. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
-* L’accès et les autorisations corrects dans Workfront Planning et Workfront, comme décrit dans la section [Conditions requises](#access-requirements) d’accès de cet article.
+* L’accès et les autorisations appropriés dans Workfront Planning et Workfront, comme décrit dans la section [Exigences d’accès](#access-requirements) de cet article.
 
-## Créez des projets lorsque vous les connectez à des enregistrements de Workfront Planning
+## Créer des projets en les connectant à des enregistrements de Workfront Planning
 
-Pour créer des projets lorsque vous les connectez à partir d’autres enregistrements :
+Pour créer des projets au fur et à mesure que vous les connectez à partir d’autres enregistrements :
 
 1. Accédez à la page de détails d’un enregistrement ou à la table du type d’enregistrement et commencez à connecter les enregistrements Workfront Planning aux projets Workfront, comme décrit dans l’article [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
 1. (Conditionnel) Cliquez sur **Ajouter un projet**
 Ou
-Commencez à taper le nom d’un projet, puis cliquez sur **Ajouter un projet** si vous ne le trouvez pas.
-
-   Si vous ne trouvez pas un projet lorsque vous essayez de l’ajouter à partir du champ d’enregistrement connecté d’un autre enregistrement, ajoutez un nom, puis cliquez sur **Ajouter un projet**. Le bouton Ajouter est suivi du nom du projet que vous avez saisi.
-
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
+Commencez à saisir le nom d’un projet, puis cliquez sur **Ajouter un projet** si vous ne le trouvez pas. Le bouton Ajouter est suivi du nom du projet que vous avez saisi.
 
    ![Ajouter un projet lors de sa connexion à partir d’un champ de connexion](assets/add-project-when-connecting-it-from-connection-field.png)
 
    La boîte **Créer un projet** s’ouvre.
 
-1. (Facultatif) Mettez à jour le nom **du** projet. Par défaut, le projet est nommé d’après ce que vous avez ajouté comme élément de recherche lors de sa connexion à partir de l’enregistrement.
+1. (Facultatif) Mettez à jour le **nom du projet**. Par défaut, le projet est nommé en fonction de ce que vous avez ajouté comme élément de recherche lors de sa connexion à partir de l’enregistrement .
 1. (Facultatif) Sélectionnez un **modèle de projet**. Si vous ne sélectionnez pas de modèle, Workfront crée un projet vierge sans tâche.
 1. Cliquez sur **Créer**.
 1. (Conditionnel) Si vous avez choisi de créer un projet à partir d’un modèle, suivez les étapes de l’article [Créer un projet à l’aide d’un modèle](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) pour terminer l’ajout du projet.
@@ -170,19 +166,17 @@ Pour créer des portefeuilles au fur et à mesure que vous les connectez à part
 
 1. Accédez à la page de détails d’un enregistrement ou à la table du type d’enregistrement et commencez à connecter les enregistrements Workfront Planning aux portfolios Workfront, comme décrit dans l’article [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
-
 1. (Conditionnel) Cliquez sur **Ajouter un portfolio**
 
    Ou
 
-   Commencez à saisir le nom d’un portfolio, puis cliquez sur **Ajouter un portfolio** si vous ne le trouvez pas.--> Si vous ne trouvez pas un portfolio lorsque vous essayez de l’ajouter à partir du champ d’enregistrement connecté d’un autre enregistrement, ajoutez un nom, puis cliquez sur **Ajouter un portfolio**. Le bouton Ajouter est également suivi du nom du portfolio que vous avez saisi.
+   Commencez à saisir le nom d’un portfolio, puis cliquez sur **Ajouter un portfolio** si vous ne le trouvez pas. Le bouton Ajouter est suivi du nom du portfolio que vous avez saisi.
 
    ![Ajouter un portfolio lors de sa connexion à partir d’un champ de connexion](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
    Le portfolio est créé et ajouté au champ de connexion de l’enregistrement que vous avez sélectionné.
 
-1. (Facultatif) Cliquez sur le nom du nouveau portefeuille dans Workfront Planning pour ouvrir la page du portefeuille dans Workfront et apporter des mises à jour supplémentaires au portefeuille.
+1. (Facultatif) Cliquez sur le nom du nouveau portefeuille dans Workfront Planning pour ouvrir la page du portefeuille dans Workfront et effectuer des mises à jour supplémentaires sur le portefeuille.
 
 ## Créer des programmes en les connectant à des enregistrements de Workfront Planning
 
@@ -190,13 +184,11 @@ Pour créer des programmes au fur et à mesure que vous les connectez à partir 
 
 1. Accédez à la page de détails d’un enregistrement ou à la table du type d’enregistrement et commencez à connecter les enregistrements Workfront Planning aux portfolios Workfront, comme décrit dans l’article [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."-->
-
 1. Cliquez sur **Ajouter un programme**
 
    Ou
 
-   Commencez à taper le nom d’un programme, puis cliquez sur **Ajouter un programme** si vous ne le trouvez pas. Le bouton Ajouter est suivi du nom du programme que vous avez saisi.
+   Commencez à saisir le nom d’un programme, puis cliquez sur **Ajouter un programme** si vous ne le trouvez pas. Le bouton Ajouter est suivi du nom du programme que vous avez saisi.
 
    ![Ajouter le programme Workfront lors de sa connexion à partir du champ de connexion](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 

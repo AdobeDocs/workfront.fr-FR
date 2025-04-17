@@ -6,20 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2425'
 ht-degree: 22%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Créer des enregistrements
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -98,8 +97,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td> <p>Accordez des autorisations supérieures ou égales à l’espace de travail <!--<span class="preview">and record type</span>--> lequel vous souhaitez ajouter des enregistrements. </p>
-   <p>Autorisations d’affichage ou supérieures dans l’espace de travail <!--<span class="preview">and record type</span>--> de créer des enregistrements à l’aide du bouton Demander un enregistrement sur la page d’enregistrement</p>
+   <td> <p>Autorisations de niveau Contribution ou supérieur à l’espace de travail <span class="preview">et au type d’enregistrement</span> dans lequel vous souhaitez ajouter des enregistrements. </p>
+   <p>Autorisations d’affichage ou supérieures pour l’espace de travail <span class="preview">et le type d’enregistrement</span> afin de créer des enregistrements à l’aide du bouton Demander un enregistrement sur la page d’enregistrement</p>
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
    <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (projets).</p>
    </td> 

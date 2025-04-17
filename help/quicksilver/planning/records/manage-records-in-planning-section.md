@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 5%
+source-wordcount: '1863'
+ht-degree: 7%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 5%
 
 # Gérer les connexions d’enregistrement à partir d’objets Workfront
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
 Vous pouvez afficher les enregistrements Workfront Planning dans Workfront dans les zones suivantes des objets qui y sont connectés :
 
 * La section Planning d’un objet Workfront : affiche tous les types d’enregistrements connectés à un objet et leurs enregistrements correspondants connectés.
-* Un champ personnalisé de connexion Planning : affiche un type d’enregistrement, ses enregistrements connectés respectifs <span class="preview">et jusqu’à 7 champs de recherche des enregistrements connectés</span>.
+* Un champ personnalisé de connexion Planning : affiche un type d’enregistrement, ses enregistrements connectés respectifs et jusqu’à 7 champs de recherche des enregistrements connectés.
 
 ## Conditions d’accès
 
@@ -94,9 +94,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <p>Dans Workfront, autorisations d’affichage ou supérieures pour un projet, un portfolio ou un programme</a> </p> 
    <p>Dans Workfront Planning :
    <ul><li>
-   Afficher les autorisations d’un espace de travail <!--<span class="preview">and record type</span>--> afficher tous les enregistrements connectés </li>
+   Affichez les autorisations d’un espace de travail <span class="preview">et le type d’enregistrement</span> pour afficher tous les enregistrements connectés </li>
    ou
-   <li> Autorisations de niveau Contributeur ou supérieur à un espace de travail <!--<span class="preview">and record type</span>--> pour connecter ou déconnecter des enregistrements</a></li></ul> </p>  
+   <li> Autorisations de niveau Contribution ou supérieur à un espace de travail <span class="preview">et type d’enregistrement</span> pour connecter ou déconnecter des enregistrements</a></li></ul> </p>  
    <p>Les administrateurs système disposent d’autorisations sur tous les espaces de travail Workfront Planning, y compris ceux qu’ils n’ont pas créés</p> 
   </td>
   </tr>
@@ -211,7 +211,7 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
 * Un champ de connexion Planning s’affiche de la manière suivante sur le formulaire personnalisé d’un objet Workfront, une fois les enregistrements Planning connectés à l’objet Workfront :
 
    * Si seul le champ principal de l&#39;enregistrement connecté est sélectionné, le champ de connexion Planning s&#39;affiche sous la forme d&#39;un champ à plusieurs valeurs, si la connexion permet de lier plusieurs enregistrements. Pour plus d’informations, voir [Présentation des types d’enregistrements Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview">Si votre administrateur Workfront ou votre administrateur de groupe a ajouté des champs de recherche supplémentaires à partir de l’enregistrement connecté dans le formulaire personnalisé, le champ de connexion Planning s’affiche sous la forme d’une table. Vous pouvez sélectionner jusqu&#39;à 7 champs pour le champ de connexion Planification . La vue Tableau est en lecture seule.  </span>
+   * Si votre administrateur Workfront ou de groupe a ajouté des champs de recherche supplémentaires à partir de l’enregistrement connecté dans le formulaire personnalisé, le champ de connexion Planning s’affiche sous la forme d’une table. Vous pouvez sélectionner jusqu&#39;à 7 champs pour le champ de connexion Planification . La vue Tableau est en lecture seule.
 
 * Vous ne pouvez associer qu&#39;un seul type d&#39;enregistrement à un champ de connexion Planning. Le nombre de champs de connexion Planning d’un formulaire n’est pas limité.
 * Vous devez disposer des droits d&#39;accès et des autorisations appropriés sur l&#39;objet, l&#39;enregistrement et Workfront Planning pour joindre un formulaire personnalisé avec un champ personnalisé de connexion Planning à un objet Workfront.
@@ -261,11 +261,16 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
    * Les enregistrements sont immédiatement associés à l&#39;objet Workfront et s&#39;affichent dans le champ de connexion Planning ainsi que dans la section Planning de l&#39;objet Workfront.
    * L’objet Workfront est ajouté au champ connecté de l’enregistrement Workfront Planning.
    * Les valeurs des champs de recherche Workfront connectés à l’enregistrement Planning sont renseignées dans Workfront Planning.
-   * <span class="preview">Si votre administrateur Workfront ou votre administrateur de groupe a ajouté des champs de recherche d’enregistrement lors de la création du formulaire personnalisé, les champs de recherche d’enregistrement sont automatiquement renseignés dans une vue Tableau. La vue Tableau du champ de connexion Planning est en lecture seule</span>
+   * Si votre administrateur Workfront ou votre administrateur de groupes a ajouté des champs de recherche d’enregistrement lors de la création du formulaire personnalisé, les champs de recherche d’enregistrement sont automatiquement renseignés dans une vue Tableau. La vue Tableau du champ de connexion Planning est en lecture seule.
 
      ![Champ de connexion Planning avec tableau sur le formulaire personnalisé des détails du projet](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
-1. (Facultatif) Cliquez sur le nom d&#39;un enregistrement <span class="preview">ou survolez le nom de l&#39;enregistrement dans la table, puis cliquez sur l&#39;icône **Ouvrir l&#39;enregistrement** ![Icône Ouvrir l&#39;enregistrement dans le formulaire personnalisé de la connexion Planning](assets/open-record-icon-on-planning-connection-custom-form.png)</span> dans le champ Connexion Planning pour l&#39;ouvrir dans Workfront Planning.
+     >[!NOTE]
+     >
+     >La vue Tableau s&#39;affiche uniquement lorsque des champs de recherche ont été ajoutés au champ Connexions Planning du formulaire personnalisé.
+
+
+1. (Facultatif) Cliquez sur le nom d&#39;un enregistrement ou survolez-le avec la souris, puis cliquez sur l&#39;icône **Ouvrir l&#39;enregistrement** ![Icône Ouvrir l&#39;enregistrement dans le formulaire personnalisé de la connexion Planning](assets/open-record-icon-on-planning-connection-custom-form.png) dans le champ Connexion Planning pour l&#39;ouvrir dans Workfront Planning.
 La zone d&#39;aperçu des détails des enregistrements Workfront Planning s&#39;ouvre.
 1. Passez en revue ou modifiez les informations sur l’enregistrement ou cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir l’enregistrement dans un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page des détails de l’enregistrement.
 
