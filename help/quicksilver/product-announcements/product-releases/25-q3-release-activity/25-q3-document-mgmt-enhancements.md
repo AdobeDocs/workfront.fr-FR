@@ -4,12 +4,11 @@ description: Améliorations apportées aux projets au troisième trimestre 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 4829d487-7041-447f-9a68-fb1acf467734
+source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 35%
+source-wordcount: '194'
+ht-degree: 32%
 
 ---
 
@@ -28,7 +27,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Version préliminaire : 10 avril 2025 ; Version de production pour tous les clients : 17 avril 2025
+>* Version préliminaire : 10 avril 2025 ; Version de production pour tous les clients : 17 avril 2025
+>
+>* Actuellement, cette fonctionnalité n’est pas disponible pour les utilisateurs et utilisatrices sur l’expérience unifiée Adobe.
 
 Les nouveaux boutons de décision d’approbation du document apparaissent désormais dans le lecteur de vérification. Désormais, lorsque vous créez une épreuve simple, puis ajoutez des approbateurs et des réviseurs à partir du résumé du document, ils peuvent prendre leur décision directement dans la visionneuse de relecture.
 
