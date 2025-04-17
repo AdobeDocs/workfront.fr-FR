@@ -4,9 +4,7 @@ description: Mises à jour de l’apparence et de la convivialité au cours des 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 131a4443564def1437c9b26d1e29e65fcc78d069
+source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 32%
@@ -62,6 +60,3 @@ Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksi
 Nous avons mis à jour l’aspect de la zone Supprimer une entreprise lorsque vous supprimez une entreprise d’un rapport d’entreprise. La nouvelle conception correspond désormais à d’autres zones de Workfront.
 
 Avec cette mise à jour, l’aspect de la zone Supprimer l’entreprise sur la page Entreprises dans la zone Configuration n’a pas changé.
-
-
-
