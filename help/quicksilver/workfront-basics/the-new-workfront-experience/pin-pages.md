@@ -3,12 +3,12 @@ navigation-topic: the-new-workfront-experience
 title: Épingler des pages pour personnaliser votre espace de travail
 description: Vous pouvez épingler votre travail le plus important dans  [!DNL Adobe Workfront]  pour une visibilité accrue, une meilleure organisation et un accès plus rapide. Les pages épinglées sont toujours accessibles depuis le haut d’une page dans Workfront.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: e8a3f47a33b862a29000436d7c08c1a0e9371907
+source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 80%
+source-wordcount: '420'
+ht-degree: 65%
 
 ---
 
@@ -20,7 +20,9 @@ Un modèle de mise en page peut vous être attribué avec des pages déjà épin
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,27 +31,28 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
+   <td> <p>Nouveau : contributeur</p> 
+   <p>Ou</p>
+     <p>Actuel : demande</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le type de plan ou de licence dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Épingler une page
 
-1. Accédez à la page que vous souhaitez épingler.
+1. Accédez à la page à épingler. Il peut s’agir de n’importe quel élément de travail, tel qu’un projet, une tâche, une file d’attente des demandes, etc.
 
-   Il peut s’agir de n’importe quel élément de travail, tel qu’un projet, une tâche, une file d’attente des demandes, etc.
-
-1. Cliquez sur **[!UICONTROL Épingler la page actuelle]** en haut de la page.
-
-   La page épinglée est désormais accessible en haut de n’importe quelle page dans [!DNL Workfront].
+1. Dans le coin supérieur gauche de la page, cliquez sur **[!UICONTROL Épingler la page active]**. La page épinglée est désormais accessible en haut de n’importe quelle page dans [!DNL Workfront].
 
 ## Accéder à une page épinglée
 
@@ -61,31 +64,31 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Ou
 
-   Si de nombreuses pages sont épinglées, vous devrez peut-être cliquer dans le menu **[!UICONTROL Plus]** ![](assets/more-icon-spectrum.png) pour afficher d’autres pages épinglées.
+   Si de nombreuses pages sont épinglées, cliquez sur l’icône **[!UICONTROL Plus]** ![cliquez sur l’icône Plus](assets/more-icon.png) pour afficher d’autres pages épinglées.
+
+   ![Afficher d’autres pages épinglées](assets/display-pinned-pages.png)
 
    La page épinglée s’affiche.
 
-## Renommer les pages épinglées
+## Renommer une page épinglée
 
-Vous pouvez modifier le nom d’une page épinglée pour qu’elle ait plus de signification pour vous.
-
-1. Passez la souris sur la page épinglée dans le volet de navigation supérieur ou dans le **[!UICONTROL menu Plus]**.
-1. Cliquez sur l’icône Plus ![](assets/more-icon.png) à côté du nom de l’épingle et sélectionnez **[!UICONTROL Renommer l’épingle]**.
+1. Pointez sur la page épinglée dans la barre de navigation supérieure.
+1. Cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png) qui s’affiche en regard du nom de l’épingle et sélectionnez **[!UICONTROL Renommer l’épingle]**.
 
    ![Renommer l’épingle](assets/pin-menu.png)
 
 1. Saisissez le nouveau nom d’épingle, puis cliquez sur **Enregistrer**.
 
-   ![Cliquez sur la case cochée pour renommer l’épingle](assets/new-pin-name.png).
+   ![Cliquez sur la case cochée pour renommer l’épingle](assets/rename-pin-dialog-box.png).
 
 
 ## Réorganiser les pages épinglées
 
 Vous pouvez réorganiser l’ordre d’affichage des pages épinglées.
 
-1. Pointez sur la page épinglée à déplacer, puis cliquez sur l’icône **Plus**.
+1. Pointez sur la page épinglée à déplacer, puis cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png).
 1. Choisissez **Déplacer vers la gauche** ou **Déplacer vers la droite** pour déplacer votre épingle.
-1. (Facultatif) Choisissez **Déplacer vers l’avant** pour déplacer votre épingle vers la position extrême droite de la barre d’épingle.
+1. (Facultatif) Choisissez **Déplacer vers l’avant** pour déplacer votre épingle vers la position extrême gauche de la barre d’épingle.
 
    ![déplacer les épingles](assets/pin-menu.png)
 
@@ -93,9 +96,9 @@ Vous pouvez réorganiser l’ordre d’affichage des pages épinglées.
 
 ## Supprimer une page épinglée
 
-1. Cliquez sur l’icône Plus ![](assets/more-icon.png) en regard de l’épingle à supprimer.
-1. Cliquez sur **Supprimer l’épingle**.
+1. Cliquez sur l’icône **Plus** en ![](assets/more-icon.png) de l’épingle à supprimer.
+1. Cliquez sur **Supprimer l’épingle**. La page n’est plus accessible depuis le haut d’une page dans [!DNL Workfront].
 
    ![Supprimer l’épingle](assets/pin-menu.png)
 
-   La page n’est plus accessible depuis le haut d’une page dans [!DNL Workfront].
+
