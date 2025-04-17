@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 52d7964219dd0731364f0ab7fea9e5224d8ca9df
+source-git-commit: ea4efcb1566d8d2f35487e158a4f445e6c5a32f7
 workflow-type: tm+mt
-source-wordcount: '13142'
+source-wordcount: '13159'
 ht-degree: 88%
 
 ---
@@ -1920,6 +1920,7 @@ ht-degree: 88%
          * [Questions fréquentes : relecture dans Adobe Workfront - migration des États-Unis vers la zone EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
          * [Le nom du document a changé après le chargement et contient un caractère non valide](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Relire un PowerPoint avec une vidéo incorporée](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
+         * [Les versions d’épreuve ne peuvent pas être téléchargées ou prévisualisées lorsqu’une épreuve interactive est ajoutée en tant que nouvelle version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Conseils, astuces et dépannage pour les approbations {#ttt-approvals}
       * [Conseils, astuces et dépannage pour les approbations : index des articles](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Afficher le nombre de décisions d’épreuve et de document pour tous les utilisateurs et utilisatrices](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)

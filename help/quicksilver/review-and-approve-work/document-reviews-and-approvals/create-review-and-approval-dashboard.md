@@ -6,9 +6,9 @@ description: Vous pouvez consulter les mesures d’approbation dans les Tableaux
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 0aeef516c8e3b94edee6fc177766be032241965f
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
@@ -199,19 +199,19 @@ Vous pouvez afficher des informations générales sur les approbations de docume
     </tr>
     <tr>
     <td><strong>Échéance</strong></td>
-    <td>Document &gt; Étape d’approbation &gt; Échéance</td>
+    <td>Approbation du document &gt; Étape d’approbation &gt; Échéance</td>
     </tr>
     <tr>
     <td><strong>Demandé par</strong></td>
-    <td>Document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Demandeur &gt; saisissez _Name_ dans la zone de recherche.</td>
+    <td>Approbation du document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Demandeur &gt; saisissez _Name_ dans la zone de recherche.</td>
     </tr>
      <tr>
     <td><strong>Date demandée</strong></td>
-    <td>Document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Créé à</td>
+    <td>Approbation du document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Créé le</td>
     </tr>
      <tr>
     <td><strong>Approbateur</strong></td>
-    <td>Document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Utilisateur participant &gt; saisissez _Name_ dans la zone de recherche.</td>
+    <td>Approbation du document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Utilisateur participant &gt; saisissez _Name_ dans la zone de recherche.</td>
     </tr>
     <table>
 

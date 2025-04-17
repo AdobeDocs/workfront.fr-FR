@@ -6,7 +6,7 @@ description: Vous pouvez modifier les paramètres de l’épreuve que vous avez 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: a036a99c13d80a2ba2305ebcdc799ad6e5b62b39
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 100%
@@ -73,12 +73,7 @@ Certains paramètres peuvent être verrouillés si l’équipe d’administratio
      </tr> 
      <tr> 
       <td role="rowheader">Exiger que les décisions soient signées de manière électronique</td> 
-      <td> <p>Vous pouvez exiger une signature électronique de toute personne chargée de la révision prenant une décision sur l’épreuve. Lorsqu’un réviseur ou une réviseuse prend une décision, un message apparaît, lui demandant de saisir son adresse électronique et son mot de passe et de confirmer sa décision. <!--
-         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          For more information, see 
-          <a href="../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md" class="MCXref xref">Understanding electronic signatures in Workfront Proof</a>
-         </MadCap:conditionalText>
-        --></p> </td> 
+      <td> <p>Vous pouvez exiger une signature électronique de toute personne chargée de la révision prenant une décision sur l’épreuve. Lorsqu’un réviseur ou une réviseuse prend une décision, un message apparaît, lui demandant de saisir son adresse électronique et son mot de passe et de confirmer sa décision.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verrouiller l’épreuve lorsque toutes les décisions requises sont prises.</td> 
