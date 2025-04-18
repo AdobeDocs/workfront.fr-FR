@@ -1,25 +1,21 @@
 ---
-title: Utilisation de l’assistant IA pour travailler avec des projets, des tâches et des problèmes
+title: Utiliser l’assistant d’IA pour travailler sur des projets, des tâches et des événements
 content-type: reference
-description: Vous pouvez rapidement résumer les éléments de travail et les documents à l’aide de la fonctionnalité Résumer .
+description: Vous pouvez résumer rapidement des éléments de travail et des documents à l'aide de la fonctionnalité Résumer cette tâche.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
+source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 23%
+source-wordcount: '185'
+ht-degree: 22%
 
 ---
 
-# Utilisation de l’assistant IA pour travailler avec des projets, des tâches et des problèmes
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible dans l’environnement Aperçu pour tous les clients et dans l’environnement Production pour les clients qui ont activé les versions mensuelles. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+# Utiliser l’assistant d’IA pour travailler sur des projets, des tâches et des événements
 
 
-L’assistant d’IA peut vous aider à localiser les projets, les tâches et les problèmes dans Workfront.
+L’assistant AI peut vous aider à localiser des projets, des tâches et des problèmes dans Workfront.
 
 ## Conditions d’accès
 
@@ -33,13 +29,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Formule Adobe Workfront</td> 
    <td><p>Nouveau : Tous</p>
        <p>ou</p>
-       <p>Actuel : non disponible</p></td>
+       <p>Current: Not available</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
        <p>ou</p>
-       <p>Actuel : non disponible</p></td>
+       <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -50,16 +46,16 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Localisation des éléments de travail
 
-1. Cliquez sur l’icône **Assistant IA** ![Icône Assistant IA](assets/ai-assistant-icon.png) près du coin supérieur droit de l’écran.
+1. Cliquez sur l’icône **Assistant AI** ![icône de l’assistant AI](assets/ai-assistant-icon.png) près du coin supérieur droit de l’écran.
 1. Saisissez une invite telle que
 
-   * Rechercher mes tâches prévues cette semaine
-   * Quels sont les problèmes du projet &quot;Campagne de printemps&quot; ?
-   * Recherche de projets à l’état actuel
+   * Trouver mes tâches dues cette semaine
+   * Quels sont les événements du projet « Campagne de printemps » ?
+   * Rechercher les projets au statut actuel
 
-   L’assistant d’IA peut prendre quelques instants pour localiser les informations, en fonction de la taille ou de la complexité de l’invite et du nombre d’enregistrements à rechercher.
+   L’assistant AI peut prendre quelques instants pour localiser les informations, selon la taille ou la complexité de l’invite et le nombre d’enregistrements qu’elle doit rechercher.
 1. Affichez la réponse dans le panneau de l’assistant d’IA.
-1. (Facultatif) Pour accéder à l’élément de travail, cliquez sur le lien dans le panneau Assistant IA.
+1. (Facultatif) Pour accéder à l’élément de travail, cliquez sur le lien dans le panneau de l’assistant AI.
 
 <!--
 
