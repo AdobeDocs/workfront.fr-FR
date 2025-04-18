@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des réviseurs et réviseuses ou des approbateu
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 36%
+source-wordcount: '568'
+ht-degree: 38%
 
 ---
 
@@ -25,7 +25,6 @@ Les approbations unifiées sont une refonte complète du processus d’approbati
 
 **Différences de la relecture**
 
-* Les boutons de décision d’approbation du document ne sont pas disponibles dans le lecteur de vérification. Les décisions peuvent être prises dans le résumé du document, les widgets d’accueil de Workfront ou dans la page Détails du document .
 * Les participants à l&#39;approbation du document s&#39;affichent dans l&#39;onglet Résumé du document, et non dans le workflow de relecture.
 * Les approbations unifiées ne sont pas prises en charge dans l’outil de création de rapports actuel.
 

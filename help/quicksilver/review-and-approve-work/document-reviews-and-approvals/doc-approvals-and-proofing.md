@@ -6,9 +6,9 @@ description: Vous pouvez utiliser les approbations unifiées avec la relecture.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '881'
 ht-degree: 4%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 4%
 Les approbations unifiées dans Workfront présentent un nouvel ensemble de fonctionnalités qui vous aident à examiner et approuver des documents. Vous pouvez utiliser un workflow Approbations unifiées avec la visionneuse de relecture existante pour ajouter des commentaires et des balises aux documents en cours de révision.
 
 Il existe des différences clés dans le workflow lors de l’utilisation conjointe des validations unifiées et de la relecture :
-
-* Les boutons de décision n’apparaissent pas dans la visionneuse de relecture
 
 * Les participants sont affichés dans le résumé du document, et non dans le workflow de relecture
 
@@ -68,7 +66,7 @@ Pour affecter des participants :
 
 ## Créez une version selon vos besoins.
 
-Si vous avez besoin d’un autre cycle de révision et d’approbation, vous pouvez créer une nouvelle version de l’épreuve.  <!-- and add the previous participants, new participants, or a mix of both. --> Vous pouvez afficher des informations sur les versions précédentes et les participants dans le résumé du document.
+Si vous avez besoin d’une autre série d’examens et d’approbations, vous pouvez créer une nouvelle version de l’épreuve et ajouter les participants précédents, les nouveaux participants ou une combinaison des deux. Vous pouvez afficher des informations sur les versions précédentes et les participants dans le résumé du document.
 
 Pour ajouter une nouvelle version :
 
@@ -85,9 +83,9 @@ Pour ajouter une nouvelle version :
 
 1. (Facultatif) Définissez une date limite pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée.
 
-1. Pour ajouter un approbateur, cliquez sur le bouton Approbateur et commencez à saisir un nom d’utilisateur ou d’équipe<span class="preview"> ou choisissez un approbateur dans la version précédente.</span>
+1. Pour ajouter un approbateur, cliquez sur le bouton Approbateur et commencez à saisir un nom d’utilisateur ou d’équipe, ou choisissez un approbateur dans la version précédente.
 
-1. Pour ajouter un réviseur, cliquez sur le bouton Réviseur et commencez à saisir un nom d’utilisateur ou d’équipe, <span class="preview">ou choisissez un réviseur à partir de la version précédente. </span>
+1. Pour ajouter un réviseur, cliquez sur le bouton Réviseur et commencez à saisir un nom d’utilisateur ou d’équipe, puis choisissez un réviseur ou une réviseuse dans la version précédente.
 
    ![Ajouter des approbateurs](assets/add-approvers.png)
 
@@ -100,11 +98,7 @@ Pour ajouter une nouvelle version :
 
 Le document ne passe pas à un statut approuvé tant que tous les approbateurs affectés n&#39;ont pas choisi « approuvé ».
 
-Si l&#39;un des approbateurs choisit « Travail nécessaire », le statut du document passe immédiatement à Travail nécessaire. Le document devra être révisé et téléchargé en tant que nouvelle version avec un nouveau workflow d’approbation.
-
->[!IMPORTANT]
->
->Les boutons de décision du document n&#39;apparaissent pas dans le lecteur de vérification. Vous devez revenir à la page Résumé du document ou Détails du document pour prendre une décision ou marquer votre révision comme terminée.
+Si l&#39;un des approbateurs choisit « Travail nécessaire », le statut du document passe immédiatement à Travail nécessaire. Le document doit être révisé et téléchargé en tant que nouvelle version avec un nouveau workflow d’approbation.
 
 Pour réviser et approuver un document :
 
@@ -114,10 +108,6 @@ Pour réviser et approuver un document :
 
 1. Passez en revue le contenu et ajoutez des commentaires ou des balises. Pour plus d’informations sur l’utilisation de la visionneuse de relecture, voir [Révision de BAT dans Adobe Workfront : index d’article](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. Lorsque vous avez terminé votre révision, fermez le lecteur de vérification.
-
-1. Si vous vous trouvez sur la page Détails du document , les boutons de décision se trouvent dans le coin supérieur droit de l’écran.
-
 1. Sélectionnez l’une des décisions suivantes :
 
    * **Approuver** : le document n’a pas besoin d’être modifié et est prêt à être utilisé.
@@ -125,3 +115,4 @@ Pour réviser et approuver un document :
    * **Travail nécessaire** : le document doit être modifié et n’est pas prêt à être utilisé. Une fois les modifications spécifiées effectuées, le document doit être téléchargé en tant que nouvelle version et passer par un autre cycle d&#39;approbations. Pour plus d’informations sur le téléchargement d’une nouvelle version, consultez la section [Créer une version si nécessaire](#create-a-new-version-as-needed) dans cet article.
 
 Une fois la décision prise, le propriétaire du document est averti par e-mail.
+

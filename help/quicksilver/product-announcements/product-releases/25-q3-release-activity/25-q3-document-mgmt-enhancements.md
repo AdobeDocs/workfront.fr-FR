@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
+source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 32%
+source-wordcount: '181'
+ht-degree: 35%
 
 ---
 
@@ -28,8 +28,6 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >[!NOTE]
 >
 >* Version préliminaire : 10 avril 2025 ; Version de production pour tous les clients : 17 avril 2025
->
->* Actuellement, cette fonctionnalité n’est pas disponible pour les utilisateurs et utilisatrices sur l’expérience unifiée Adobe.
 
 Les nouveaux boutons de décision d’approbation du document apparaissent désormais dans le lecteur de vérification. Désormais, lorsque vous créez une épreuve simple, puis ajoutez des approbateurs et des réviseurs à partir du résumé du document, ils peuvent prendre leur décision directement dans la visionneuse de relecture.
 

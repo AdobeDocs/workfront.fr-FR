@@ -6,10 +6,10 @@ description: En tant que personne chargée de la révision, vous pouvez prévisu
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: da00226448e0969cec57bf9d525686129d53430e
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 91%
+source-wordcount: '596'
+ht-degree: 75%
 
 ---
 
@@ -76,15 +76,15 @@ Add once functionality is added
 1. (Facultatif) Une fois que vous avez révisé le document, vous pouvez laisser un commentaire à la personne qui a envoyé la requête dans la section **Mises à jour**. Pour plus d’informations sur les commentaires, consultez la section [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Pour enregistrer que vous avez terminé votre révision, cliquez sur **Terminer la révision**.
 
-## Réviser un document à partir du volet « Résumé du document »
+## Examinez un document à partir du panneau Résumé du document
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 
-1. Cliquez sur le document dont vous avez besoin, le volet Résumé du document s’ouvre alors.
+1. Cliquez sur le document dont vous avez besoin et le panneau Résumé du document s’ouvre.
 
 1. Sélectionnez la version du document que vous souhaitez réviser dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
 
-1. Pointez sur la prévisualisation du document dans la section **Détails** en haut du volet « Résumé du document ». Ensuite, vous pouvez effectuer l’une des opérations suivantes :
+1. Passez la souris sur l’aperçu du document dans la section **Détails** en haut du panneau Résumé du document. Ensuite, vous pouvez effectuer l’une des opérations suivantes :
 
    Cliquez sur **Prévisualiser** pour ouvrir une version en lecture seule du document dans une nouvelle fenêtre.
 
@@ -94,5 +94,18 @@ Add once functionality is added
 
 1. (Facultatif) Une fois que vous avez révisé le document, vous pouvez laisser un commentaire à la personne qui a envoyé la requête dans la section **Mises à jour**. Pour plus d’informations sur les commentaires, consultez la section [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Facultatif) Vous pouvez également prévisualiser ou télécharger une version spécifique du document en faisant défiler l’écran vers le bas jusqu’à la section **Versions** du volet Résumé du document, puis en cliquant sur l’icône Plus ![icône Plus](../assets/more-icon.png) en regard de la version que vous souhaitez réviser et en sélectionnant **Télécharger** ou **Aperçu**.
+1. (Facultatif) Vous pouvez également prévisualiser ou télécharger une version spécifique du document en faisant défiler l’écran vers le bas jusqu’à la section **Versions** du panneau Résumé du document, puis en cliquant sur l’icône Plus ![icône Plus](../assets/more-icon.png) en regard de la version que vous souhaitez réviser et en sélectionnant **Télécharger** ou **Aperçu**.
 1. Pour enregistrer que vous avez terminé votre révision, cliquez sur **Terminer la révision**.
+
+## Vérifier un document à partir de la visionneuse de BAT
+
+Pour réviser un document :
+
+1. Accédez à l’e-mail de notification de révision, puis cliquez sur **Accéder à la révision**.
+
+1. Une fois dans Workfront, cliquez sur **Accéder au BAT**.
+
+1. Passez en revue le contenu et ajoutez des commentaires ou des balises. Pour plus d’informations sur l’utilisation de la visionneuse de relecture, voir [Révision de BAT dans Adobe Workfront : index d’article](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. Pour enregistrer que vous avez terminé votre révision, cliquez sur **Terminer la révision**.
+

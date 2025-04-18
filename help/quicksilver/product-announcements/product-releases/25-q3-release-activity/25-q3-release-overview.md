@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 70dce5fb7848f137a264e28e012234870e8d8eb5
+source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 51%
+source-wordcount: '458'
+ht-degree: 52%
 
 ---
 
@@ -57,7 +57,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveaux boutons de décision d’approbation de document disponibles dans la visionneuse de relecture</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>Les nouveaux boutons de décision d’approbation du document apparaissent désormais dans le lecteur de vérification. Désormais, lorsque vous créez une épreuve simple, puis ajoutez des approbateurs et des réviseurs à partir du résumé du document, ils peuvent prendre leur décision directement dans la visionneuse de relecture.</p><p><b>REMARQUE</b>Cette fonctionnalité n’est actuellement pas disponible pour les utilisateurs sur l’expérience unifiée Adobe.</p>
+            <p>Les nouveaux boutons de décision d’approbation du document apparaissent désormais dans le lecteur de vérification. Désormais, lorsque vous créez une épreuve simple, puis ajoutez des approbateurs et des réviseurs à partir du résumé du document, ils peuvent prendre leur décision directement dans la visionneuse de relecture.</p>
         </td>
         <td>vendredi 10 avril 2025</td>
         <td>vendredi 17 avril 2025</td>

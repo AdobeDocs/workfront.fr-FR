@@ -6,10 +6,10 @@ description: Si on vous affecte en tant que personne approbatrice à un document
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 97%
+source-wordcount: '1246'
+ht-degree: 77%
 
 ---
 
@@ -116,21 +116,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    * **Travail nécessaire** indique que la version du document n’est pas approuvée et nécessite des modifications importantes.
 
-## Approuver un document à partir du volet Résumé du document
+## Approuver un document à partir du panneau Résumé du document
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 
-1. Cliquez sur le document qui doit être approuvé, le volet Résumé du document s’ouvre alors.
+1. Cliquez sur le document qui nécessite votre approbation pour ouvrir le panneau Résumé du document .
 
 1. Sélectionnez la version du document que vous souhaitez réviser dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
 
-   Si la version actuellement sélectionnée du document est en attente de votre approbation, les boutons de décision d’approbation s’affichent dans le coin supérieur droit du volet Résumé du document ; si d’autres versions du document attendent votre approbation, le menu déroulant des versions affiche un point rouge.
-
-   <!--
+   Si la version actuellement sélectionnée du document a une approbation en attente pour vous, les boutons de décision d’approbation s’affichent dans le coin supérieur droit du panneau Résumé du document ; si d’autres versions du document ont des approbations en attente pour vous, le menu déroulant de version affiche un point rouge.
+<!--
    ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
-   -->
-
-1. Cliquez sur l’une des deux options d’approbation suivantes dans le coin supérieur droit du volet Résumé du document :
+ -->
+1. Cliquez sur l’une des deux options d’approbation suivantes dans le coin supérieur droit du panneau Résumé du document :
 
    * La liste déroulante **Approuver** contient deux options :
 
@@ -139,3 +137,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
       * **Approuver avec des modifications** indique que de petites modifications sont toujours requises dans le document, mais que l’approbation est donnée à la condition que ces modifications soient effectuées. Si vous sélectionnez cette option, vous verrez apparaître une fenêtre contenant une zone de texte nommée **Étapes suivantes** où vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message** ou cliquer sur **Ignorer** pour envoyer la décision d’approbation sans informations supplémentaires.
 
    * **Travail nécessaire** indique que la version du document n’est pas approuvée et nécessite des modifications importantes.
+
+
+## Approuver un document à partir de la visionneuse de BAT
+
+Pour réviser et approuver un document :
+
+1. Accédez à l’e-mail de notification de révision, puis cliquez sur **Accéder à la révision**.
+
+1. Une fois dans Workfront, cliquez sur **Accéder au BAT**.
+
+1. Passez en revue le contenu et ajoutez des commentaires ou des balises. Pour plus d’informations sur l’utilisation de la visionneuse de relecture, voir [Révision de BAT dans Adobe Workfront : index d’article](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. Sélectionnez l’une des décisions suivantes :
+
+   * **Approuver** : le document n’a pas besoin d’être modifié et est prêt à être utilisé.
+   * **Approuver avec modifications** : le document nécessite des modifications et est prêt à l’emploi une fois qu’il a été créé. Aucune approbation supplémentaire n’est requise.
+   * **Travail nécessaire** : le document doit être modifié et n’est pas prêt à être utilisé. Une fois les modifications spécifiées effectuées, le document doit être téléchargé en tant que nouvelle version et passer par un autre cycle d&#39;approbations. Pour plus d’informations sur le téléchargement d’une nouvelle version, consultez la section [Créer une version si nécessaire](#create-a-new-version-as-needed) dans cet article.
+
+Une fois la décision prise, le propriétaire du document est averti par e-mail.
+
+

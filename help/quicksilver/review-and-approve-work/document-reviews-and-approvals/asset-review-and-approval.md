@@ -6,9 +6,9 @@ description: Présentation des systèmes disponibles pour révision et approbati
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 24668c9fdbb5e23f41831b388d509220d0783057
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ Fonctionnalités clés disponibles pour les approbations de documents hérités 
 
 * Ajouter des utilisateurs en tant qu&#39;approbateurs
 * Vérifier et commenter dans le lecteur de vérification
-* Prendre des décisions dans le lecteur de vérification
 * Créer des rapports d’approbation avec les rapports hérités
 * Accédez aux demandes d’approbation dans le widget Mes approbations de la zone Accueil .
 
@@ -51,15 +50,13 @@ Fonctionnalités clés disponibles pour les approbations unifiées :
 
 * Création et utilisation de modèles
 
-* Vérifier et commenter dans le lecteur de vérification
+* Vérifier, commenter et prendre des décisions dans le lecteur de vérification
 Pour plus d&#39;informations sur l&#39;utilisation de la visionneuse de relecture, voir [Utilisation conjointe des validations unifiées et de la relecture](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * Affichage de plusieurs indicateurs clés de performances pour vos approbations dans les widgets de l’accueil de Workfront
 
 * Utilisez les tableaux de bord de la zone de travail, actuellement en version bêta, pour afficher les détails de rapports sur les approbations unifiées
 Pour plus d’informations sur les rapports, voir [Créer un tableau de bord de rapport pour révision et approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
-
-* Prendre des décisions dans la visionneuse de relecture [!BADGE bientôt disponible]{type=Informative}
 
 * Créer plusieurs approbations d’étape [!BADGE bientôt disponible]{type=Informative}
 
