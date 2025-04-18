@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 4bdd4510a5ff7faf8f497299eac0a10f4fe7fbc2
 workflow-type: tm+mt
 source-wordcount: '1875'
 ht-degree: 6%
@@ -202,7 +202,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
      >
      >Tous les utilisateurs ayant accès à au moins un espace de travail peuvent afficher l&#39;onglet Planification dans la zone Demandes. Vous pouvez afficher uniquement les requêtes que vous ou une autre personne avez envoyées aux espaces de travail que vous êtes au moins autorisé à afficher. Les administrateurs et administratrices de Workfront peuvent afficher toutes les demandes envoyées à n’importe quel espace de travail du système.
 
-   * La demande est visible uniquement par le propriétaire, l&#39;approbateur et les personnes qui disposent au moins des autorisations d&#39;affichage de l&#39;espace de travail <!--and people with Manage access to the request type (asking Rafael about this, because not sure how one would give Manage access to the request type??)-->.
+   * La demande est visible uniquement par le propriétaire, l&#39;approbateur et les personnes qui disposent au moins des autorisations d&#39;affichage de l&#39;espace de travail.
 
    * Vous recevez une notification in-app et un e-mail vous informant que la demande a été soumise avec succès ou envoyée pour révision.
    * Si le formulaire de demande a été associé à une approbation, les approbateurs reçoivent une notification in-app et par e-mail pour examiner et approuver la demande.
