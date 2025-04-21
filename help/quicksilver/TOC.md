@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ea4efcb1566d8d2f35487e158a4f445e6c5a32f7
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '13159'
+source-wordcount: '13163'
 ht-degree: 88%
 
 ---
@@ -1686,7 +1686,7 @@ ht-degree: 88%
          * [Supprimer un tableau de bord](reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)
          * [Modifier un tableau de bord](reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)
          * [Incorporer une page web externe dans un tableau de bord](reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)
-         * [Intégrer une file d’attente des demandes dans un tableau de bord](reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md)
+         * [Incorporer une file d’attente des demandes dans un tableau de bord](reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md)
          * [Exporter un tableau de bord](reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)
          * [Imprimer un tableau de bord](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
          * [Partager un tableau de bord](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
@@ -2040,6 +2040,7 @@ ht-degree: 88%
       * [Vue d’ensemble des types d’enregistrement](planning/architecture/overview-of-record-types.md)
       * [Créer des types d’enregistrements](planning/architecture/create-record-types.md)
       * [Créer des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel](planning/architecture/import-file-to-create-record-types.md)
+      * [Créer globalement des types d’enregistrements](planning/architecture/create-record-types-globally.md)
       * [Présentation des types d’enregistrements Connect](planning/architecture/connect-record-types-overview.md)
       * [Connecter les types d’enregistrements](planning/architecture/connect-record-types.md)
       * [Modifier des types d’enregistrements](planning/architecture/edit-record-types.md)
@@ -2303,7 +2304,7 @@ ht-degree: 88%
          * [Accéder à une épreuve partagée avec vous](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md)
          * [S’abonner à une épreuve dans Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
          * [Créer une mini épreuve dans Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
-         * [Intégrer une mini-épreuve](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
+         * [Incorporer une mini-épreuve](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
          * [Gérer les rôles d’épreuve dans Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
    * Administration du compte Workfront Proof {#wf-proof-account-admin}
       * [Administration du compte Workfront Proof](workfront-proof/wp-acct-admin/wp-account-admin.md)

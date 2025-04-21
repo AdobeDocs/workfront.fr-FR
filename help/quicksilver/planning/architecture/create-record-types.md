@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 64%
+source-wordcount: '1098'
+ht-degree: 58%
 
 ---
 
@@ -146,20 +146,30 @@ Pour plus d’informations sur les types d’enregistrements inclus dans chaque 
 
    Depuis un espace de travail, développez la flèche pointant vers le bas à droite d’un nom d’espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 1. (Facultatif) Cliquez sur **Ajouter une section** pour ajouter une section à l’espace de travail.
-1. Cliquez sur **Ajouter un type d’enregistrement** puis **Nouveau**.
+1. Cliquez sur **Ajouter un type d’enregistrement** puis **Ajouter manuellement**.
 
    La boîte de dialogue Ajouter un type d’enregistrement s’ouvre.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![Ajout d’une zone de type d’enregistrement avec des options d’apparence](assets/add-record-type-box-with-appearance-options.png)
 
-1. Mettez à jour les informations suivantes :
+1. Mettez à jour les informations suivantes dans l’onglet **Apparence** :
 
    * Remplacez « Type d’enregistrement sans titre » par le nom de votre futur type d’enregistrement. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Description** : ajoutez des informations supplémentaires sur le type d’enregistrement.
    * Sélectionnez une couleur et une forme pour l’icône associée au type d’enregistrement. Procédez comme suit :
       * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. Le gris est sélectionné par défaut.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
+
+1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur **Paramètres avancés** et mettez à jour les informations suivantes dans la section **Portée de la connectivité** : <!--the info here is duplicated in the Edit record types article-->
+
+   * Activez le paramètre **Se connecter à partir d’un autre espace de travail**. Lorsqu’il est activé, le type d’enregistrement est accessible et peut être connecté à partir d’autres espaces de travail.
+   * Choisissez parmi les espaces de travail accessibles pour le type d’enregistrement. Choisissez l’une des options suivantes :
+
+      * **À l’échelle du système** : les utilisateurs peuvent se connecter à ce type d’enregistrement à partir de tous les espaces de travail pour lesquels ils disposent des autorisations de gestion.
+      * **Espaces de travail spécifiques** : ajoutez les noms des espaces de travail auxquels les responsables d’espace de travail peuvent se connecter à ce type d’enregistrement.
+
+   ![Boîte Créer un type d’enregistrement dans l’onglet Paramètres avancés](assets/create-record-type-box-advanced-settings-tab.png)
 
 1. Cliquez sur **Créer**.
 

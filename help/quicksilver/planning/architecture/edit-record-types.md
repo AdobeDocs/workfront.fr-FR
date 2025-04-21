@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 32%
+source-wordcount: '681'
+ht-degree: 34%
 
 ---
 
@@ -177,15 +177,17 @@ Ou
       * Sélectionnez une couleur pour identifier le type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
-1. (Conditionnel) Si vous êtes un administrateur système, cliquez sur l’onglet **Paramètres avancés** dans la zone **Modifier le type d’enregistrement**.
+1. (Conditionnel) Si vous êtes un administrateur système, cliquez sur l’onglet **Paramètres avancés** dans la zone **Modifier le type d’enregistrement**. <!--the info here is duplicated in the Create record types article-->
 
    ![Onglet Paramètres avancés de la zone Modifier le type d’enregistrement](assets/edit-record-type-box-advanced-settings-tab.png)
 
-1. (Conditionnel) En tant qu’administrateur système, mettez à jour les informations suivantes dans l’onglet **Paramètres avancés** :
+1. (Conditionnel) Mettez à jour les informations suivantes dans l’onglet **Paramètres avancés** :
 
-   * **Se connecter à partir d’autres espaces de travail** : sélectionnez ce bouton pour permettre aux utilisateurs de se connecter à ce type d’enregistrement à partir d’autres espaces de travail. Cette option est désélectionnée par défaut.
-   * **À l’échelle du système** : sélectionnez cette option pour permettre aux utilisateurs de se connecter à cet enregistrement à partir de tous les espaces de travail du système.
-   * **Espaces de travail spécifiques** : sélectionnez cette option pour limiter les espaces de travail à partir desquels les utilisateurs peuvent se connecter à ce type d’enregistrement, puis développez le menu déroulant et sélectionnez les espaces de travail à partir desquels vous souhaitez que les utilisateurs se connectent à ce type d’enregistrement. Vous pouvez commencer à saisir le nom d’un espace de travail et le sélectionner lorsqu’il s’affiche dans la liste.
+   * Activez le paramètre **Se connecter à partir d’un autre espace de travail**. Lorsqu’il est activé, le type d’enregistrement est accessible et peut être connecté à partir d’autres espaces de travail.
+   * Choisissez parmi les espaces de travail accessibles pour le type d’enregistrement. Choisissez l’une des options suivantes :
+
+      * **À l’échelle du système** : les utilisateurs peuvent se connecter à ce type d’enregistrement à partir de tous les espaces de travail pour lesquels ils disposent des autorisations de gestion.
+      * **Espaces de travail spécifiques** : ajoutez les noms des espaces de travail auxquels les responsables d’espace de travail peuvent se connecter à ce type d’enregistrement.
 
 1. Cliquer sur **Enregistrer**.
 
