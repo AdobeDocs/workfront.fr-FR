@@ -6,7 +6,7 @@ description: Vous pouvez partager un calendrier avec d’autres utilisateurs et 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 14b78ee4dc441ca84b891b2f021d959fcf357fdd
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 84%
@@ -78,11 +78,15 @@ Pour partager un calendrier dans [!DNL Workfront] :
    * **[!UICONTROL Affichage] :** la personne peut consulter et partager le calendrier.
 
      ![Partager le calendrier avec l’accès Affichage](assets/calendar-share-view-permissions-350x249.png)
-     <!--![Share calendar with view access](assets/view-calendar.png)-->
+
+     <!--
+      ![Share calendar with view access](assets/view-calendar.png)
+      -->
 
    * **[!UICONTROL Gestion] :** les utilisateurs et utilisatrices disposent d’un accès complet au calendrier, moins les droits d’administration, qui sont accordés au niveau de l’accès, plus toutes les autorisations d’affichage.
 
      ![Partager le calendrier avec l’accès Gestion](assets/calendar-share-manage-permissions-350x241.png)
+
      <!--![Share calendar with manage access](assets/manage-calendar.png)-->
 
      >[!NOTE]
