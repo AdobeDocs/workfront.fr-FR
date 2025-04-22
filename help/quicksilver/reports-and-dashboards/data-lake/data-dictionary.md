@@ -7,9 +7,9 @@ description: Cette page contient des informations sur la structure et le contenu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
+source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8129'
 ht-degree: 7%
 
 ---
@@ -1890,6 +1890,235 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
              <td>SYSID</td>
              <td>-</td>
              <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Approbation du document (NOUVEAU)
+
+Disponibilité limitée des clients
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Approbation du document</td>
+            <td>Approbation</td>
+            <td>S/O</td>
+            <td>S/O</td>
+            <td>APPROVAL_CURRENT<br>APPROVAL_DAILY_HISTORY<br>APPROVAL_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVALID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>REMARQUE : il s'agit également de l'ID de l'objet DOCUMENTVERSION auquel l'approbation est associée.</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variable, basée sur ASSETTYPE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ ASSETTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">EAUTHTENANTID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td class="key">PRODUCTID</td>
+             <td>-</td>
+             <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
+        </tr>
+        <tr>
+             <td class="key">REALCREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Étape d&#39;approbation du document (NOUVEAU)
+
+Disponibilité limitée des clients
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Étape d’approbation du document</td>
+            <td>Étape d’approbation</td>
+            <td>S/O</td>
+            <td>S/O</td>
+            <td>APPROVAL_STAGE_CURRENT<br>APPROVAL_STAGE_DAILY_HISTORY<br>APPROVAL_STAGE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVALID</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>APPROVALID</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+    </tbody>
+</table>
+
+### Participants à l&#39;étape d&#39;approbation du document (NOUVEAU)
+
+Disponibilité limitée des clients
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Personne participant à l’étape d’approbation du document</td>
+            <td>Décisions d'approbation</td>
+            <td>S/O</td>
+            <td>S/O</td>
+            <td>APPROVAL_STAGE_PARTICIPANT_CURRENT<br>APPROVAL_STAGE_PARTICIPANT_DAILY_HISTORY<br>APPROVAL_STAGE_PARTICIPANT_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVALID</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>APPROVALID</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEPARTICIPANTID/td&gt;
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variable, basée sur ASSETTYPE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ ASSETTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">DECISIONUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+        <tr>
+             <td class="key">PARTICIPANTID</td>
+             <td>FK</td>
+             <td class="relatedtable">Variable, basée sur PARTICIPANTTYPE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ PARTICIPANTTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">REALREQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">REALUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">ID DU DEMANDEUR</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">STAGEID</td>
+             <td>FK</td>
+             <td>APPROVAL_STAGE_CURRENT</td>
+             <td>STAGEID</td>
         </tr>
     </tbody>
 </table>
