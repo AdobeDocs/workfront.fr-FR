@@ -1,19 +1,19 @@
 ---
-title: Partager un projet dans Adobe Workfront
+title: Partager un projet
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Votre administrateur ou administratrice Adobe Workfront peut vous accorder l’accès à l’affichage ou à la modification de projets lors de l’affectation de votre niveau d’accès. Pour plus d’informations, voir Accorder l’accès aux projets.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 96%
+source-wordcount: '1579'
+ht-degree: 62%
 
 ---
 
-# Partager un projet dans Adobe Workfront
+# Partager un projet
 
 <!-- Audited: 1/2024 -->
 
@@ -22,6 +22,43 @@ Votre administrateur ou administratrice Adobe Workfront peut vous accorder l’
 Outre le niveau d’accès qui est accordé aux personnes, vous pouvez leur accorder des autorisations d’affichage, de contribution ou de gestion de projets spécifiques pour lesquels vous avez accès au partage.
 
 Les autorisations sont spécifiques à un élément dans Workfront et définissent les actions que vous pouvez effectuer sur cet élément.
+
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Pour partager des objets, vous devez disposer des éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouveau : Standard</p> 
+   Ou
+   <p>Actuellement : Travail ou licence supérieure</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès Affichage ou supérieur aux objets que vous souhaitez partager.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Autorisations d’affichage ou supérieures pour les objets que vous souhaitez partager.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Observations relatives au partage de projets
 
@@ -46,6 +83,13 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
 
 * Vous pouvez supprimer les autorisations héritées d’un projet afin que les objets enfants ne les héritent pas. Pour plus d’informations sur la suppression des autorisations héritées des objets, voir [Supprimer des autorisations des objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
+## Restrictions relatives aux différents types de licence
+
+* Les utilisateurs et les utilisatrices disposant d’une licence Travail ne disposent pas des autorisations nécessaires pour gérer des projets. Pour les personnes chargées du travail, l’autorisation de partage la plus élevée est Contribuer.
+* Les utilisateurs et les utilisatrices disposant d’une licence Demande peuvent afficher les informations d’un projet, mais leur accès au projet est limité.
+* Une exception concernant la modification du statut d’un projet se produit lorsqu’une personne disposant des autorisations Afficher ou Contribuer est également incluse dans un processus d’approbation. Celle-ci peut approuver le projet, ce qui modifie le statut du projet, mais le statut est le statut prédéfini d’approbation ou de rejet.
+* Pour pouvoir copier un projet, un utilisateur ou une utilisatrice doit également disposer de l’accès à la création de projets dans son niveau d’accès.
+
 ## Méthodes pour partager un projet {#ways-to-share-a-project}
 
 Vous pouvez partager un projet de l’une des façons suivantes :
@@ -53,25 +97,18 @@ Vous pouvez partager un projet de l’une des façons suivantes :
 * Manuellement, effectuez l’une des opérations suivantes :
 
    * Ajouter des personnes à l’équipe du projet. Lorsque vous ajoutez des personnes à l’équipe du projet, elles obtiennent automatiquement les autorisations d’affichage du projet.\
-     Pour plus d’informations sur l’ajout de personnes à une équipe de projet, voir la section « Ajouter des personnes à une équipe de projet » dans [Vue d’ensemble de l’équipe du projet](../../manage-work/projects/planning-a-project/project-team-overview.md).
+     Pour plus d&#39;informations sur l&#39;ajout d&#39;utilisateurs à une équipe de projet, consultez la section Ajout d&#39;utilisateurs à une équipe de projet dans [présentation de l&#39;équipe de projet](../../manage-work/projects/planning-a-project/project-team-overview.md).
    * Partage individuel ou en passe des projets lors de l’utilisation de l’option **Partage**.
 
-     Le partage d’un projet est similaire au partage de tous les autres objets dans Adobe Workfront.
-
-     Pour plus d’informations sur le partage d’objets dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-
-* Automatiquement, en effectuant l’une des opérations suivantes :
+* Automatiquement en effectuant l’une des opérations suivantes :
 
    * Placer un projet dans un **Portfolio** ou **Programme** qui est déjà partagé avec d’autres. Les personnes disposent des mêmes autorisations pour le projet que pour le portfolio ou le programme.\
      Pour plus d’informations sur l’ajout d’un projet à un **Portfolio**, voir [Ajouter des projets à un portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
      Pour plus d’informations sur l’ajout d’un projet à un **Programme**, voir [Ajouter un projet à un programme](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
-
-     Pour plus d’informations sur l’affichage des autorisations héritées sur un objet, voir [Afficher les autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+Pour plus d’informations sur l’affichage des autorisations héritées sur un objet, voir [Afficher les autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
    * Ajouter des entités au partage de projet sur un modèle utilisé pour créer le projet. Pour plus d’informations sur le partage de projets à partir de modèles, voir [Partager un modèle](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
    * Définir le modèle d’accès à un projet.
-
-     Pour définir le modèle d’accès à un projet, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
      >[!TIP]
      >
@@ -100,12 +137,87 @@ Vous pouvez partager un projet de l’une des façons suivantes :
 </ol>
 -->
 
-## Restrictions relatives aux différents types de licence
+## Partager un projet
 
-* Les utilisateurs et les utilisatrices disposant d’une licence Travail ne disposent pas des autorisations nécessaires pour gérer des projets. Pour les personnes chargées du travail, l’autorisation de partage la plus élevée est Contribuer.
-* Les utilisateurs et les utilisatrices disposant d’une licence Demande peuvent afficher les informations d’un projet, mais leur accès au projet est limité.
-* Une exception concernant la modification du statut d’un projet se produit lorsqu’une personne disposant des autorisations Afficher ou Contribuer est également incluse dans un processus d’approbation. Celle-ci peut approuver le projet, ce qui modifie le statut du projet, mais le statut est le statut prédéfini d’approbation ou de rejet.
-* Pour pouvoir copier un projet, un utilisateur ou une utilisatrice doit également disposer de l’accès à la création de projets dans son niveau d’accès.
+{{step1-to-projects}}
+
+1. Sur la page **Projets**, sélectionnez dans la liste le projet que vous souhaitez partager. La page du projet s’ouvre.
+
+1. À droite du nom du projet, cliquez sur **Partager**. La boîte de dialogue **Partager[Nom du projet]** s’ouvre.
+
+   ![bouton Partager le projet](assets/share-project.png)
+
+1. Dans le champ **Accorder l’accès au projet à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager le projet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+
+   >[!TIP]
+   >
+   >Vous pouvez uniquement partager un projet avec des utilisateurs actifs, des équipes, des rôles ou des entreprises.
+
+
+1. (Facultatif) Sélectionnez le menu déroulant **Qui a accès** et sélectionnez le niveau d’accès du projet :
+
+   * **Seules les personnes invitées peuvent y accéder :** seuls les utilisateurs invités au projet peuvent y accéder (par défaut).
+   * **Tout le monde peut afficher dans le système** : tous les utilisateurs du système peuvent afficher le projet sans invitation.
+
+1. (Facultatif) Pour appliquer automatiquement les paramètres d’accès au projet que vous avez sélectionnés à tous les nouveaux projets, cliquez sur l’icône **Engrenage** ![Sélectionnez l’icône en forme d’engrenage](assets/gear-icon.png), puis cochez la case en ligne avec **Définir comme mon modèle d’accès au projet**.
+
+   >[!NOTE]
+   >
+   >Le modèle d’accès au projet remplace les valeurs par défaut de partage qui vous ont été attribuées par l’administrateur ou l’administratrice Workfront de votre niveau d’accès.\
+   >Pour plus d’informations sur la spécification des valeurs par défaut de partage pour les projets dans le niveau d’accès, voir [Accorder l’accès aux projets](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+
+   <!--
+   >this note also appears in Understanding Project Permissions-->
+
+
+1. Cliquez sur la liste déroulante située à droite du nom de l’utilisateur et sélectionnez son niveau d’autorisation pour ce projet :
+
+
+   * **Afficher** : l’utilisateur peut réviser et partager le projet.
+   * **Contribuer** : l’utilisateur peut effectuer des mises à jour, consigner des informations, apporter des modifications mineures et partager le projet (inclut également toutes les autorisations d’affichage).
+   * **Gérer** : l’utilisateur dispose d’un accès complet au projet, sans droits d’administration, qui sont accordés au niveau d’accès (inclut également toutes les autorisations Afficher et Contribuer).
+
+1. (Facultatif) Cliquez sur l’icône des options avancées en regard du niveau d’autorisation que vous avez accordé pour configurer des autorisations spécifiques sur le projet.
+
+   ![Options d’autorisation avancées configurées](assets/advanced-permission-options.png)
+
+1. (Facultatif) Pour partager rapidement le projet à l’aide d’un lien, cliquez sur **Copier le lien** puis transférez-le au destinataire.
+
+1. Cliquer sur **Enregistrer**.
+
+## Partage de projets en bloc
+
+{{step1-to-projects}}
+
+1. Sur la page **Projets**, cochez la case à gauche de chaque projet à partager, puis cliquez sur l’icône **Partager** ![Icône Partager](assets/share-icon.png) en haut de la page. La boîte de dialogue modale de partage s’ouvre.
+
+   ![Partage en bloc de projets](assets/bulk-share-icon.png)
+
+1. Dans le champ **Accorder l’accès au projet à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager les projets, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+
+   >[!TIP]
+   >
+   >Vous pouvez uniquement partager des projets avec des utilisateurs actifs, des équipes, des rôles ou des entreprises.
+
+
+1. (Facultatif) Sélectionnez le menu déroulant **Qui a accès** et sélectionnez le niveau d’accès du projet :
+
+   * **Seules les personnes invitées peuvent y accéder :** seuls les utilisateurs invités aux projets peuvent y accéder (par défaut).
+   * **Tout le monde peut afficher dans le système** : tous les utilisateurs du système peuvent afficher les projets sans invitation.
+
+
+1. Cliquez sur la liste déroulante située à droite du nom de l’utilisateur et sélectionnez son niveau d’autorisation pour les projets :
+
+   * **Affichage** : l’utilisateur peut réviser et partager les projets.
+   * **Contribuer** : l’utilisateur peut effectuer des mises à jour, consigner des informations, apporter des modifications mineures et partager les projets (inclut également toutes les autorisations d’affichage).
+   * **Gérer** : l’utilisateur dispose d’un accès complet aux projets sans droits d’administration, qui sont accordés au niveau d’accès (inclut également toutes les autorisations Afficher et Contribuer).
+
+1. (Facultatif) Cliquez sur l’icône des options avancées en regard du niveau d’autorisation que vous avez accordé pour configurer des autorisations spécifiques sur les projets.
+
+   ![Options d’autorisation avancées configurées](assets/advanced-permission-options.png)
+
+1. Cliquer sur **Enregistrer**.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

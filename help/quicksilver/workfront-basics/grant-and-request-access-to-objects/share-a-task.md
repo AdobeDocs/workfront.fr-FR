@@ -3,13 +3,13 @@ title: Partager une tâche
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: La personne chargée de votre administration Adobe Workfront peut vous accorder l’accès en affichage ou en modification aux tâche lorsqu’elle attribue des niveaux d’accès. Pour plus d’informations sur l’octroi de l’accès aux tâches, voir Accorder un accès aux tâches.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 100%
+source-wordcount: '1201'
+ht-degree: 51%
 
 ---
 
@@ -21,11 +21,48 @@ En plus du niveau d’accès qui est accordé aux personnes, vous pouvez leur ac
 
 Les autorisations sont spécifiques à un élément dans Workfront et définissent les actions que vous pouvez effectuer sur cet élément.
 
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Pour partager des objets, vous devez disposer des éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouveau : Standard</p> 
+   Ou
+   <p>Actuellement : Travail ou licence supérieure</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès Affichage ou supérieur aux objets que vous souhaitez partager.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Autorisations d’affichage ou supérieures pour les objets que vous souhaitez partager.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Remarques concernant le partage d’une tâche
 
 Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-* Par défaut, la personne ayant créé une tâche dispose des autorisations de gestion.
+* Le créateur d’une tâche dispose par défaut des autorisations de niveau Gérer pour celle-ci.
 * Vous pouvez partager des tâches individuellement ou partager plusieurs tâches à la fois, en masse.\
   Le partage de tâches est identique au partage d’autres objets. Pour plus d’informations sur le partage d’éléments dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
@@ -34,7 +71,7 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
    * Afficher
    * Gérer
    * Contribuer
-* Lorsque vous partagez une tâche, les personnes héritent par défaut des mêmes autorisations sur tous les objets enfant associés à la tâche. Par exemple, elles héritent des mêmes autorisations sur les tâches, problèmes et documents enfant associés à la tâche.\
+* Lorsque vous partagez une tâche, les utilisateurs héritent par défaut des mêmes autorisations sur tous les objets enfants associés à la tâche. Par exemple, elles héritent des mêmes autorisations sur les tâches, problèmes et documents enfant associés à la tâche.\
   Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
   L’administrateur ou l’administratrice Workfront peut indiquer si les documents doivent hériter des autorisations des objets supérieurs dans le niveau d’accès de l’utilisateur ou de l’utilisatrice. Pour plus d’informations sur la restriction des autorisations héritées sur les documents, voir [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -46,9 +83,7 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
 
 Vous pouvez partager une tâche de l’une des manières suivantes :
 
-* Manuellement, individuellement ou en masse. Le partage manuel de tâches est similaire au partage de tout autre objet dans Workfront.
-
-  Pour plus d’informations sur le partage d’objets dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Manuellement, individuellement ou en bloc.
 
 * Automatiquement, en procédant comme suit :
 
@@ -59,7 +94,77 @@ Vous pouvez partager une tâche de l’une des manières suivantes :
 
   >[!TIP]
   >
-  >Si vous ne spécifiez pas les autorisations de tâche que les personnes doivent posséder lorsqu’elles sont affectées aux tâches du projet, elles reçoivent par défaut les mêmes autorisations que celles dont elles disposent sur le projet.
+  >Si vous ne spécifiez pas les autorisations de tâche que vous souhaitez accorder aux utilisateurs lorsqu&#39;ils sont affectés aux tâches du projet, ils reçoivent par défaut les mêmes autorisations que celles dont ils disposent sur le projet.
+
+## Partager une tâche
+
+1. Accédez à la tâche que vous souhaitez partager.
+
+1. À droite du nom de la tâche, cliquez sur **Partager**. La boîte de dialogue **Partager [Nom de la tâche]** s’ouvre.
+
+   ![bouton Partager la tâche](assets/share-task-button.png)
+
+1. Dans le champ **Accorder l’accès à la tâche à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager la tâche, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+
+   >[!TIP]
+   >
+   >Vous pouvez uniquement partager une tâche avec des utilisateurs actifs, des équipes, des rôles ou des entreprises.
+
+
+1. (Facultatif) Sélectionnez le menu déroulant **Qui a accès** et sélectionnez le niveau d’accès de la tâche :
+
+   * **Seules les personnes invitées peuvent y accéder :** seuls les utilisateurs invités à la tâche peuvent y accéder (par défaut).
+   * **Tout le monde peut afficher dans le système** : tous les utilisateurs du système peuvent afficher la tâche sans invitation.
+
+1. Cliquez sur la liste déroulante située à droite du nom de l’utilisateur et sélectionnez son niveau d’autorisation pour cette tâche :
+
+   * **Affichage** : l’utilisateur peut réviser et partager la tâche.
+   * **Contribuer** : l’utilisateur peut effectuer des mises à jour, consigner des informations, apporter des modifications mineures et partager la tâche (inclut également toutes les autorisations d’affichage).
+   * **Gérer** : l’utilisateur dispose d’un accès complet à la tâche sans droits d’administration, qui sont accordés au niveau d’accès (inclut également toutes les autorisations Afficher et Contribuer).
+
+1. (Facultatif) Cliquez sur l’icône d’options avancées en regard du niveau d’autorisation que vous avez accordé pour configurer des autorisations spécifiques sur la tâche.
+
+   ![Options d’autorisation avancées configurées](assets/advanced-permission-options.png)
+
+1. (Facultatif) Pour désactiver les autorisations héritées pour les objets enfants de la tâche, cliquez sur **Désactiver** en ligne avec **Autorisations héritées**.
+
+1. (Facultatif) Pour partager rapidement la tâche à l’aide d’un lien, cliquez sur **Copier le lien** puis transférez-la au destinataire.
+
+1. Cliquer sur **Enregistrer**.
+
+
+## Partage de tâches en bloc
+
+1. Accédez au projet contenant les tâches que vous souhaitez partager.
+
+1. Dans l’onglet **Tâches** de la page du projet, sélectionnez la case à gauche de chaque tâche à partager, puis cliquez sur l’icône **Partager** ![Icône Partager](assets/share-icon.png) en haut de la page. La boîte de dialogue modale de partage s’ouvre.
+
+   ![Tâches de partage en bloc](assets/bulk-share-tasks.png)
+
+1. Dans le champ **Accorder l’accès à la tâche à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager les tâches, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+
+   >[!TIP]
+   >
+   >Vous pouvez uniquement partager des tâches avec des utilisateurs actifs, des équipes, des rôles ou des entreprises.
+
+
+1. (Facultatif) Sélectionnez le menu déroulant **Qui a accès** et sélectionnez le niveau d’accès des tâches :
+
+   * **Seules les personnes invitées peuvent y accéder :** seuls les utilisateurs invités aux tâches peuvent y accéder (par défaut).
+   * **Tout le monde peut afficher dans le système** : tous les utilisateurs du système peuvent afficher les tâches sans invitation.
+
+
+1. Cliquez sur la liste déroulante située à droite du nom de l’utilisateur et sélectionnez son niveau d’autorisation pour les tâches :
+
+   * **Affichage** : l’utilisateur peut réviser et partager les tâches.
+   * **Contribuer** : l’utilisateur peut effectuer des mises à jour, consigner des informations, apporter des modifications mineures et partager les tâches (inclut également toutes les autorisations d’affichage).
+   * **Gérer** : l’utilisateur dispose d’un accès complet aux tâches sans droits d’administration, qui sont accordés au niveau d’accès (inclut également toutes les autorisations Afficher et Contribuer).
+
+1. (Facultatif) Cliquez sur l’icône des options avancées en regard du niveau d’autorisation que vous avez accordé pour configurer des autorisations spécifiques sur les tâches.
+
+   ![Options d’autorisation avancées configurées](assets/advanced-permission-options.png)
+
+1. Cliquer sur **Enregistrer**.
 
 ## Autorisations sur la tâche
 

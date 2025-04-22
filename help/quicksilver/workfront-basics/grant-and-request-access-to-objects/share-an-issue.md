@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Partager un problème
 description: Votre administrateur ou administratrice Adobe Workfront accorde aux utilisateurs et utilisatrices l’accès à l’affichage ou à la modification des problèmes lorsque des niveaux d’accès leur sont attribués. Pour plus d’informations sur l’octroi d’un accès aux problèmes, voir Accorder l’accès aux problèmes.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '1242'
+ht-degree: 57%
 
 ---
 
@@ -21,6 +21,43 @@ En plus du niveau d’accès accordé aux utilisateurs et utilisatrices, vous po
 
 Les autorisations sont spécifiques à un élément dans Workfront et définissent les actions que vous pouvez effectuer sur cet élément.
 
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Pour partager des objets, vous devez disposer des éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouveau : Standard</p> 
+   Ou
+   <p>Actuellement : Travail ou licence supérieure</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès Affichage ou supérieur aux objets que vous souhaitez partager.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Autorisations d’affichage ou supérieures pour les objets que vous souhaitez partager.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Considérations relatives au partage de problèmes
 
 Outre les considérations ci-dessous, voir également [Vue d’ensemble des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
@@ -29,7 +66,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 >
 >Une équipe d’administration Workfront peut ajouter ou supprimer des autorisations à tous les éléments du système, pour toutes les personnes, sans être la personne propriétaire de ces éléments.
 
-* La personne qui crée un problème dispose par défaut d’autorisations de gestion.
+* Le créateur d’un événement dispose par défaut des autorisations de niveau Gérer pour celui-ci.
 * Vous pouvez partager un ou plusieurs problèmes à la fois. Le partage des problèmes est identique au partage d’autres éléments dans Workfront. Pour plus d’informations sur le partage d’éléments dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Vous pouvez accorder les autorisations suivantes pour un problème : 
 
@@ -45,7 +82,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 
 ## Façons de partager un problème
 
-* Manuellement, ce qui est similaire au partage de tout autre objet dans Workfront.Pour plus d’informations sur le partage d’objets dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Manuellement, ce qui est similaire au partage de tout autre objet dans Workfront.
 * Automatiquement, en effectuant l’une des opérations suivantes :
 
    * Spécifier les autorisations sur l’un des objets parents du problème : projet, programme ou portfolio. Les problèmes héritent des autorisations de leurs objets parents. Pour plus d’informations sur l’affichage des autorisations héritées sur les objets, voir [Afficher les autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
@@ -55,7 +92,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 
      >[!TIP]
      >
-     >Si vous ne spécifiez pas les autorisations que vous souhaitez que les personnnes possèdent lorsque les problèmes du projet leur sont affectés, elles reçoivent par défaut les mêmes autorisations que celles qu’elles ont sur le projet.
+     >Si vous ne spécifiez pas les autorisations de problème que vous souhaitez attribuer aux utilisateurs lorsqu’ils sont affectés aux problèmes du projet, ils reçoivent par défaut les mêmes autorisations que celles dont ils disposent sur le projet.
 
    * Lors de la création d’une file d’attente des demandes, spécifiez les autorisations que les personnes reçoivent sur les problèmes qu’elles soumettent dans une file d’attente des demandes. Pour plus d’informations, voir [Créer une file d’attente des demandes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -124,6 +161,73 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 </ol>
 </div>
 -->
+
+## Partager un problème
+
+1. Accédez au problème que vous souhaitez partager.
+
+1. À droite du nom du problème, cliquez sur **Partager**. La boîte de dialogue **Partager [Nom de l&#39;événement]** s&#39;ouvre.
+
+   ![Bouton Partager l&#39;événement](assets/share-issue-button.png)
+
+1. Dans le champ **Accorder l&#39;accès à l&#39;événement**, commencez à saisir le nom de l&#39;utilisateur, de l&#39;équipe, du rôle, du groupe ou de la société avec lesquels vous souhaitez partager l&#39;événement, puis cliquez sur le nom lorsqu&#39;il apparaît dans la liste déroulante.
+
+   >[!TIP]
+   >
+   >Vous pouvez uniquement partager un problème avec des utilisateurs actifs, des équipes, des rôles ou des entreprises.
+
+
+1. (Facultatif) Sélectionnez le menu déroulant **Qui a accès** et sélectionnez le niveau d’accès du problème :
+
+   * **Seuls les utilisateurs invités peuvent y accéder :** seuls les utilisateurs invités à l’événement peuvent y accéder (par défaut).
+   * **Tout le monde peut afficher dans le système** : tous les utilisateurs du système peuvent afficher le problème sans invitation.
+
+1. Cliquez sur la liste déroulante située à droite du nom de l’utilisateur et sélectionnez son niveau d’autorisation pour ce problème :
+
+   * **Afficher** : l’utilisateur ou l’utilisatrice peut consulter et partager le problème.
+   * **Contribuer** : l’utilisateur peut effectuer des mises à jour, consigner des informations, apporter des modifications mineures et partager le problème (inclut également toutes les autorisations d’affichage).
+   * **Gérer** : l’utilisateur dispose d’un accès complet à l’événement sans droits d’administration, qui sont accordés au niveau d’accès (inclut également toutes les autorisations Afficher et Contribuer).
+
+1. (Facultatif) Cliquez sur l’icône d’options avancées en regard du niveau d’autorisation que vous avez accordé pour configurer des autorisations spécifiques sur le problème.
+
+   ![Options d’autorisation avancées configurées](assets/advanced-permission-options.png)
+
+1. (Facultatif) Pour partager rapidement le problème à l’aide d’un lien, cliquez sur **Copier le lien** puis transférez-le au destinataire.
+
+1. Cliquer sur **Enregistrer**.
+
+## Partage des problèmes en bloc
+
+1. Accédez au projet contenant les événements que vous souhaitez partager.
+
+1. Dans l’onglet **Événements** de la page du projet, sélectionnez la case à gauche de chaque événement à partager, puis cliquez sur l’icône **Partager** ![Icône Partager](assets/share-icon.png) en haut de la page. La boîte de dialogue modale de partage s’ouvre.
+
+   ![Problèmes de partage en bloc](assets/bulk-share-issues.png)
+
+1. Dans le champ **Accorder l’accès à l’événement**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager les événements, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+
+   >[!TIP]
+   >
+   >Vous pouvez uniquement partager des problèmes avec des utilisateurs actifs, des équipes, des rôles ou des entreprises.
+
+
+1. (Facultatif) Sélectionnez le menu déroulant **Qui a accès** et sélectionnez le niveau d’accès des événements :
+
+   * **Seules les personnes invitées peuvent y accéder :** seuls les utilisateurs invités aux événements peuvent y accéder (par défaut).
+   * **Tout le monde peut afficher dans le système** : tous les utilisateurs du système peuvent afficher les événements sans invitation.
+
+
+1. Cliquez sur la liste déroulante située à droite du nom de l’utilisateur et sélectionnez son niveau d’autorisation pour les problèmes :
+
+   * **Afficher** : l’utilisateur peut consulter et partager les problèmes.
+   * **Contribuer** : l’utilisateur peut effectuer des mises à jour, consigner des informations, apporter des modifications mineures et partager les problèmes (inclut également toutes les autorisations d’affichage).
+   * **Gérer** : l’utilisateur dispose d’un accès complet aux événements sans droits d’administration, qui sont accordés au niveau d’accès (inclut également toutes les autorisations Afficher et Contribuer).
+
+1. (Facultatif) Cliquez sur l’icône d’options avancées en regard du niveau d’autorisation que vous avez accordé pour configurer des autorisations spécifiques sur les problèmes.
+
+   ![Options d’autorisation avancées configurées](assets/advanced-permission-options.png)
+
+1. Cliquer sur **Enregistrer**.
 
 ## Autorisations pour les problèmes
 

@@ -4,13 +4,13 @@ content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 description: Votre équipe d’administration Adobe Workfront accorde aux utilisateurs et utilisatrices l’accès en affichage ou en modification des documents lorsqu’elle attribue des niveaux d’accès, comme expliqué dans la section Accorder l’accès aux documents.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 100%
+source-wordcount: '1025'
+ht-degree: 69%
 
 ---
 
@@ -25,6 +25,42 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
 L’utilisateur ou utilisatrice qui charge un document dans Workfront dispose par défaut d’autorisations de gestion.
 
 Pour plus d’informations sur le partage d’un dossier de documents entier, voir [Partager un dossier de documents](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Pour partager des objets, vous devez disposer des éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouveau : Standard</p> 
+   Ou
+   <p>Actuellement : Travail ou licence supérieure</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès Affichage ou supérieur aux objets que vous souhaitez partager.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Autorisations d’affichage ou supérieures pour les objets que vous souhaitez partager.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Remarques sur le partage de documents
 
@@ -57,6 +93,52 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble du parta
   Vous pouvez supprimer manuellement les autorisations héritées sur les documents. Pour plus d’informations, voir [Supprimer les autorisations des objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
 * Un document joint n’hérite des autorisations que de l’objet auquel il a été joint. Si vous créez un dossier sur l’objet et que vous déplacez le document dans le dossier, il hérite des autorisations du dossier. En revanche, si vous créez un dossier sur un objet parent ou grand-parent et que vous déplacez le document dans ce dossier, il n’hérite pas des autorisations de ce dossier.
+
+## Partager un document
+
+{{step1-to-documents}}
+
+1. Sur la page **Documents**, passez la souris sur le document à partager et cliquez sur le lien **Détails du document** qui s’affiche. La page **Détails du document** s’ouvre.
+
+   ![Lien Détails du document ](assets/document-details-link.png)
+
+1. Cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png) à droite du nom du document, puis cliquez sur **Partager**. La boîte de dialogue **Partager[Nom du document]** s’ouvre.
+
+   ![Partager un document](assets/share-a-document-350x160.png)
+
+1. Dans le champ **Accorder l’accès au document à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager le document, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+
+   >[!TIP]
+   >
+   >Vous pouvez uniquement partager un document avec des utilisateurs actifs, des équipes, des rôles ou des sociétés.
+
+
+1. (Facultatif) Sélectionnez le menu déroulant **Qui a accès** et sélectionnez le niveau d’accès au document :
+
+   * **Seules les personnes invitées peuvent y accéder :** seuls les utilisateurs invités au document peuvent y accéder (par défaut).
+   * **Tout le monde peut afficher le document** : tous les utilisateurs du système peuvent afficher le document sans invitation.
+
+1. (Facultatif) Pour rendre le document public, cliquez sur l’icône d’engrenage ![sélectionnez l’icône d’engrenage](assets/gear-icon.png), puis cliquez sur la zone en ligne avec **Rendez ceci public pour les utilisateurs externes**. Le bouton **Copier le lien public** s’affiche au bas de la boîte de dialogue.
+
+1. Cliquez sur la liste déroulante située à droite du nom de l’utilisateur et sélectionnez son niveau d’autorisation pour ce document :
+
+   * **Afficher** : l’utilisateur peut réviser et partager le document.
+   * **Gérer** : l’utilisateur dispose d’un accès complet au programme sans droits d’administration, qui sont accordés au niveau d’accès (inclut également toutes les autorisations d’affichage).
+
+1. (Facultatif) Cliquez sur l’icône des options avancées en regard du niveau d’autorisation que vous avez accordé pour configurer des autorisations spécifiques sur le programme.
+
+   ![Options d’autorisation avancées configurées](assets/advanced-options-icon.png)
+
+1. (Facultatif) Pour désactiver les autorisations héritées pour les objets enfants du document, cliquez sur **Désactiver** en ligne avec **Autorisations héritées**.
+
+1. (Conditionnel) Pour copier le lien public qui permet de partager le document avec des utilisateurs externes, cliquez sur **Copier le lien public**.
+
+   >[!CAUTION]
+   >
+   >Nous vous recommandons de faire preuve de prudence lors du partage d’un document contenant des informations confidentielles avec des utilisateurs externes. Cette fonction leur permet d’afficher des informations sans être un utilisateur ou une utilisatrice Workfront ou une personne membre de votre organisation.
+
+1. Cliquer sur **Enregistrer**.
+
 
 ## Autorisations de documents
 
