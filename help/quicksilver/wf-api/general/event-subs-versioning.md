@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 82694183c32938905f1f8542c430d3c453274cb6
+source-git-commit: a5769e57a9fe28b816e7fb4474ec4a67f837f530
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1275'
 ht-degree: 1%
 
 ---
@@ -58,16 +58,16 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Valeurs de paramètre</p> </td> 
-   <td> <p>Pour tout objet créé à partir d’un modèle qui incluait un formulaire personnalisé, un événement <code>CREATE</code> a été envoyé, puis un <code>UPDATE</code> a été envoyé avec les valeurs de paramètre (y compris les champs calculés et leurs valeurs).    </p> </td> 
+   <td> <p>Valeurs de paramètre calculées</p> </td> 
+   <td> <p>Tout objet créé à partir d’un modèle qui incluait un formulaire personnalisé avec des valeurs de paramètre calculées, un événement <code>CREATE</code> était envoyé, puis un <code>UPDATE</code> était envoyé avec les valeurs de paramètre (y compris les champs calculés et leurs valeurs). </p> </td> 
    <td> <p>Lorsqu’un objet est créé à partir d’un modèle qui inclut un formulaire personnalisé avec des valeurs de paramètre calculées, seul un événement <code>CREATE</code> est envoyé et contient les valeurs de paramètre, y compris les champs calculés.</p> </td> 
-   <td> <p>Si vous disposez d’un abonnement pour <tr><ul><ul><code>UPDATE<code> events and are expecting to receive an <code>UPDATE</code> event after an object is created with calculated parameter values, you will no longer receive that <code>UPDATE</code> event. If you wish to see calculated parameter values on object creation, you must create an additional <code>CREATE</code> subscription.</p> </td> 
+   <td> <p>Si vous disposez d’un abonnement pour <code>UPDATE</code> événements et que vous prévoyez de recevoir un événement <code>UPDATE</code> après la création d’un objet avec des valeurs de paramètre calculées, vous ne recevrez plus cet événement <code>UPDATE</code>. Si vous souhaitez afficher les valeurs de paramètre calculées lors de la création d’objet, vous devez créer un abonnement <code>CREATE</code> supplémentaire.</p> </td> 
   </tr> 
-   
-   <td> <p>Multi-Select type fields</p> </td> 
-   <td> <p>For any type of event that contains a change on a multi-select type field, if the field only contained one value it would be converted to and sent as a string. Otherwise it would be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is converted and sent as <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>Regardless of how many values are in the array, it will be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is sent as <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>If you have a subscription with a filter on a multi-select field, and the value as a string, you must create a new subscription with the same filter that has the value as an array. </p> </td> 
+  <tr> 
+   <td> <p>Champs de type Sélection multiple</p> </td> 
+   <td> <p>Pour tout type d’événement contenant une modification sur un champ de type à sélection multiple, si le champ ne contenait qu’une seule valeur, il était converti en et envoyé sous la forme d’une chaîne. Sinon, elle serait envoyée sous la forme d’un tableau. </p><p>Exemples :</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> est converti et envoyé en tant que <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> est envoyé en tant que <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Quel que soit le nombre de valeurs dans le tableau, il sera envoyé en tant que tableau. </p><p>Exemples :</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> est envoyé en tant que <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> est envoyé en tant que <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Si vous disposez d’un abonnement avec un filtre sur un champ à sélection multiple et la valeur sous la forme d’une chaîne, vous devez créer un abonnement avec le même filtre qui possède la valeur sous la forme d’un tableau. </p> </td> 
   </tr> 
  </tbody> 
 </table>
