@@ -7,10 +7,10 @@ description: Votre équipe d’administration Adobe Workfront accorde aux utili
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 69%
+source-wordcount: '1247'
+ht-degree: 57%
 
 ---
 
@@ -123,9 +123,9 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble du parta
 1. Cliquez sur la liste déroulante située à droite du nom de l’utilisateur et sélectionnez son niveau d’autorisation pour ce document :
 
    * **Afficher** : l’utilisateur peut réviser et partager le document.
-   * **Gérer** : l’utilisateur dispose d’un accès complet au programme sans droits d’administration, qui sont accordés au niveau d’accès (inclut également toutes les autorisations d’affichage).
+   * **Gérer** : l’utilisateur dispose d’un accès complet au document sans droits d’administration, qui sont accordés au niveau d’accès (inclut également toutes les autorisations d’affichage).
 
-1. (Facultatif) Cliquez sur l’icône des options avancées en regard du niveau d’autorisation que vous avez accordé pour configurer des autorisations spécifiques sur le programme.
+1. (Facultatif) Cliquez sur l’icône des options avancées en regard du niveau d’autorisation que vous avez accordé pour configurer des autorisations spécifiques sur le document.
 
    ![Options d’autorisation avancées configurées](assets/advanced-options-icon.png)
 
@@ -136,6 +136,39 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble du parta
    >[!CAUTION]
    >
    >Nous vous recommandons de faire preuve de prudence lors du partage d’un document contenant des informations confidentielles avec des utilisateurs externes. Cette fonction leur permet d’afficher des informations sans être un utilisateur ou une utilisatrice Workfront ou une personne membre de votre organisation.
+
+1. Cliquer sur **Enregistrer**.
+
+## Partager des documents en bloc
+
+{{step1-to-documents}}
+
+1. Sous l’onglet **Tous les documents** de la page **Documents**, maintenez la touche **Commande** (Mac) ou **Ctrl** (Windows) enfoncée sur le clavier, puis cliquez sur chaque document à partager.
+
+1. En haut de la page, cliquez sur l’icône **Partager** ![Icône Partager](assets/share-icon.png). La boîte de dialogue modale de partage s’ouvre.
+
+   ![icône Partager](assets/share-documents-in-bulk.png)
+
+1. Dans le champ **Accorder l’accès au document à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager les documents, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+
+   >[!TIP]
+   >
+   >Vous pouvez uniquement partager des documents avec des utilisateurs actifs, des équipes, des rôles ou des entreprises.
+
+
+1. (Facultatif) Sélectionnez le menu déroulant **Qui a accès** et sélectionnez le niveau d’accès aux documents :
+
+   * **Seuls les utilisateurs invités peuvent y accéder :** seuls les utilisateurs invités aux documents peuvent y accéder (par défaut).
+   * **Tous les utilisateurs du système peuvent afficher** : tous les utilisateurs du système peuvent afficher les documents sans invitation.
+
+1. Cliquez sur la liste déroulante située à droite du nom de l’utilisateur et sélectionnez son niveau d’autorisation pour les documents :
+
+   * **Afficher** : l’utilisateur peut consulter et partager les documents.
+   * **Gérer** : l’utilisateur dispose d’un accès complet aux documents sans droits d’administration, qui sont accordés au niveau d’accès (inclut également toutes les autorisations d’affichage).
+
+1. (Facultatif) Cliquez sur l’icône des options avancées en regard du niveau d’autorisation que vous avez accordé pour configurer des autorisations spécifiques sur les documents.
+
+   ![Options d’autorisation avancées configurées](assets/advanced-options-icon.png)
 
 1. Cliquer sur **Enregistrer**.
 
