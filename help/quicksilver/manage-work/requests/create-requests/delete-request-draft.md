@@ -1,12 +1,12 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Suppression d’un brouillon de requête
+title: Supprimer un brouillon de demande
 description: Vous pouvez supprimer les brouillons de demande au fur et à mesure que vous les créez en les rejetant.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 94%

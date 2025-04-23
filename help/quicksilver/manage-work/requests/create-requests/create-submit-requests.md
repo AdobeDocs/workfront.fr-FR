@@ -3,10 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: Création et soumission de demandes
 description: Le travail prévu est représenté dans Adobe Workfront par des projets et des tâches. Cependant, il se peut que vous travailliez dans un environnement où du travail non prévu - sous forme de demandes aléatoires - peut arriver à tout moment. Workfront fournit un workflow permettant de répondre à ce type d’environnement grâce à l’utilisation de files d’attente des demandes.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '2680'
 ht-degree: 82%
@@ -341,7 +341,7 @@ Pour créer une demande dans l’application web Workfront :
 
 ## Créer des demandes en dehors de Workfront
 
-Vous pouvez partager un lien direct vers une file d’attente des demandes lorsque vous soumettez une nouvelle demande, et l’intégrer dans d’autres applications. Les utilisateurs et utilisatrices qui accèdent à ce lien à partir du web ou d’autres applications doivent également être connectés avec un compte Workfront actif pour pouvoir accéder à cette file d’attente et y soumettre des demandes. Pour plus d’informations, consultez [Partager un lien vers une file d’attente des demandes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+Vous pouvez partager un lien direct vers une file d’attente des demandes lorsque vous soumettez une nouvelle demande, et l’incorporer dans d’autres applications. Les utilisateurs et utilisatrices qui accèdent à ce lien à partir du web ou d’autres applications doivent également être connectés avec un compte Workfront actif pour pouvoir accéder à cette file d’attente et y soumettre des demandes. Pour plus d’informations, consultez [Partager un lien vers une file d’attente des demandes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ## Créer des demandes en envoyant un e-mail à Workfront
 

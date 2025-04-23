@@ -1,12 +1,12 @@
 ---
 product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
-title: Accéder aux files d’attente de demande
+title: Fournir l’accès aux files d’attente des demandes
 description: Lorsque vous accordez l’accès à une file d’attente des demandes, vous déterminez qui, au sein de votre organisation, peut afficher la file d’attente des demandes dans la zone Demandes d’Adobe Workfront.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 99%
