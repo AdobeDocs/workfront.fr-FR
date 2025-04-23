@@ -4,7 +4,8 @@ description: Mises à jour de l’apparence et de la convivialité au cours des 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
+exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
+source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 32%
@@ -15,7 +16,7 @@ ht-degree: 32%
 
 Cette page décrit les mises à jour mineures apportées à l’apparence et à la convivialité de diverses zones de l’application Adobe Workfront dans le cadre des versions publiées au cours du troisième trimestre 2025.
 
-Pour obtenir la liste de toutes les modifications apportées par la version du troisième trimestre 2025, consultez l’article [Vue d’ensemble de la version du troisième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+Pour obtenir la liste de toutes les modifications apportées par la version du troisième trimestre 2025, consultez l’article [Vue d’ensemble de la version du troisième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 ## Mises à jour de l’aspect de la zone Gestion des ressources dans la configuration
 
