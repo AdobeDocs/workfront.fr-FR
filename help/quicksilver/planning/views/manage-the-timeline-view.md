@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
 workflow-type: tm+mt
-source-wordcount: '2684'
-ht-degree: 59%
+source-wordcount: '2863'
+ht-degree: 54%
 
 ---
 
 # Gérer la vue chronologique
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -90,65 +94,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 
 ## Gérer une vue chronologique {#manage-a-timeline-view}
 
@@ -326,7 +271,7 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
    >
    >Les enregistrements qui n’ont pas de valeurs pour les dates de début ou de fin ou dont la date de début est postérieure à la date de fin ne s’affichent pas dans la vue chronologique.
 
-1. Cliquez sur **Style de barre** dans le panneau de gauche, pour indiquer les champs que vous souhaitez afficher dans les barres d’enregistrement.
+1. Cliquez sur **Style de barre** dans le panneau de gauche pour indiquer les informations à afficher sur les barres d’enregistrement.
 
    Le champ principal (ou titre) de l&#39;enregistrement, tel que défini dans la vue Tableau de l&#39;enregistrement, est sélectionné par défaut. <!--adjust this when the primary field is released??-->
 
@@ -336,18 +281,30 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
    >
    >    Vous devez d’abord ajouter les miniatures dans la vue de tableau, avant de pouvoir les afficher dans la vue chronologique. Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. Cliquez sur **Ajouter un champ** pour ajouter jusqu’à 4 champs aux barres d’enregistrement.
-1. Cliquez dans la zone **Champs de recherche** et cliquez sur le champ que vous souhaitez ajouter.
+1. Cliquez sur **Ajouter un champ**, puis dans la zone **Rechercher des champs**, et cliquez sur le champ à ajouter.
 
    >[!TIP]
    >
    >   * Vous devez créer les champs avant de les ajouter aux barres d’enregistrement.
    > 
    >   * Vous devez disposer d’au moins un champ sélectionné. Le **nom** est sélectionné par défaut.
+   >
+   >   * Vous pouvez ajouter jusqu’à 5 champs.
 
    Un aperçu de l’aspect des barres sur la chronologie s’affiche à droite.
 
    ![Enregistrement des paramètres de chronologie du panneau des détails avec aperçu](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. <span class="preview">(Facultatif et conditionnel) Si vous affichez la frise chronologique en mode Standard, activez le paramètre **Tronquer les détails de la barre**. Lorsqu’elle est activée, les informations des barres d’enregistrement sont tronquées et ne s’affichent entièrement que lorsque vous passez la souris sur les barres. Ce paramètre est désactivé par défaut et les informations sont entièrement affichées sur les barres. </span>
+
+   ![Paramètre Tronquer activé dans la zone des paramètres de la chronologie mise en surbrillance](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+
+   >[!TIP]
+   >
+   >* <span class="preview">Le paramètre Tronquer les détails de la barre n’est pas disponible lors de l’affichage de la vue chronologique en mode Compact, et il n’est pas disponible dans la vue Calendrier</span>.
+   >
+   >* <span class="preview">Si vous répartissez la vue de la chronologie pour afficher les objets connectés dans la chronologie, le paramètre Tronquer les détails de la barre s’applique uniquement au type d’enregistrement principal. Elle ne s’applique pas aux barres d’enregistrement connectées.</span>
+
 
 1. Cliquez sur **Couleur** dans le panneau de gauche pour personnaliser les couleurs des enregistrements et des regroupements dans la chronologie.
 
