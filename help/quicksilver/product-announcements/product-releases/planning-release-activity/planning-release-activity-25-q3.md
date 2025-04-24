@@ -6,10 +6,11 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
+source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '336'
+ht-degree: 2%
 
 ---
 
@@ -20,6 +21,18 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nouveau paramètre pour tronquer les noms d’enregistrement longs dans la vue chronologique standard
+
+>[!NOTE]
+>
+>* Aperçu : 23 avril 2025
+>* Version rapide de production : 15 mai 2025
+>* Production pour tous les clients : 17 juillet 2025
+
+Vous pouvez désormais activer un paramètre dans l’onglet Style de barre de la zone Paramètres d’une vue chronologique pour tronquer les noms d’enregistrement plus longs lors de leur affichage en vue standard. Le paramètre est désactivé par défaut et ne peut être activé que lorsque vous affichez la vue chronologique en mode Standard.
+
+Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Autorisations de partage pour les types d’enregistrements
 

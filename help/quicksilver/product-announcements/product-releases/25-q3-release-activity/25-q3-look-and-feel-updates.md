@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
+source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 32%
+source-wordcount: '424'
+ht-degree: 23%
 
 ---
 
@@ -17,6 +17,35 @@ ht-degree: 32%
 Cette page décrit les mises à jour mineures apportées à l’apparence et à la convivialité de diverses zones de l’application Adobe Workfront dans le cadre des versions publiées au cours du troisième trimestre 2025.
 
 Pour obtenir la liste de toutes les modifications apportées par la version du troisième trimestre 2025, consultez l’article [Vue d’ensemble de la version du troisième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Mises à jour de l’apparence des éléments récemment restaurés
+
+>[!NOTE]
+>
+>Version préliminaire : 23 avril 2025 ; Version de production pour tous les clients : 23 avril 2025
+
+Nous avons mis à jour l’aspect des éléments récemment restaurés dans la zone Configuration afin qu’ils correspondent à la conception d’autres zones de Workfront. Aucune fonctionnalité n&#39;a été modifiée pour les projets, tâches, demandes, documents ou modèles récemment restaurés.
+
+Pour afficher cette modification, accédez à Configuration > Corbeille > Récemment restauré.
+
+Pour plus d’informations, voir [Afficher les éléments restaurés](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+## Rapports mis à jour avec un nouveau style
+
+>[!NOTE]
+>
+>Version préliminaire : 23 avril 2025 ; Version de production pour tous les clients : 23 avril 2025
+
+Nous avons mis à jour l’aspect de plusieurs rapports afin qu’ils correspondent à la conception d’autres zones de Workfront. Aucune fonctionnalité n’a été modifiée.
+
+Cette mise à jour inclut des modifications visuelles des listes et des barres d’outils des rapports pour les types d’objet suivants :
+
+* Tâches de modèles
+* Groupes de sujets
+* Cartes de score
+* Planifications
+
+Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Mises à jour de l’aspect de la zone Gestion des ressources dans la configuration
 
