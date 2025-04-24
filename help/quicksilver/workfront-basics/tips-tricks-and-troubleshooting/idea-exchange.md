@@ -5,10 +5,10 @@ title: Innovation Lab
 description: '[!UICONTROL Innovation Lab] permet aux utilisateurs et utilisatrices authentifiés de soumettre des idées, de voter et d’en discuter avec d’autres clientes et clients.'
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 3583368918cf9eb4c64faeda4730e2be08375aed
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 96%
 
 ---
 
@@ -47,4 +47,4 @@ Une fois le seuil critique de 450 points atteint, l’idée obtient l’un des 
 * **[!UICONTROL Mise en œuvre] :** une solution a été créée et mise en œuvre. Aucune autre mise à jour ne sera fournie et les commentaires seront désactivés.
 * **[!UICONTROL Archivée]** : les idées qui atteignent 18 mois (à partir de la date de soumission) et qui ont moins de 300 points sont archivées.
 
-Pour commencer ou pour en savoir plus, connectez-vous à Innovation Lab sur [workfront.com/customer](https://www.workfront.com/customer).
+Pour commencer ou en savoir plus, connectez-vous au [Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
