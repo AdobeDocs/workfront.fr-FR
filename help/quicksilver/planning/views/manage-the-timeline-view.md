@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2860'
 ht-degree: 54%
 
 ---
@@ -94,6 +94,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
 
 ## Gérer une vue chronologique {#manage-a-timeline-view}
 
@@ -303,7 +311,7 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
    >
    >* <span class="preview">Le paramètre Tronquer les détails de la barre n’est pas disponible lors de l’affichage de la vue chronologique en mode Compact, et il n’est pas disponible dans la vue Calendrier</span>.
    >
-   >* <span class="preview">Si vous répartissez la vue de la chronologie pour afficher les objets connectés dans la chronologie, le paramètre Tronquer les détails de la barre s’applique uniquement au type d’enregistrement principal. Elle ne s’applique pas aux barres d’enregistrement connectées.</span>
+   >* <span class="preview">Si vous répartissez la vue chronologique pour afficher les objets connectés, le paramètre Tronquer les détails de la barre s’applique uniquement au type d’enregistrement principal. Elle ne s’applique pas aux barres d’enregistrement connectées.</span>
 
 
 1. Cliquez sur **Couleur** dans le panneau de gauche pour personnaliser les couleurs des enregistrements et des regroupements dans la chronologie.
