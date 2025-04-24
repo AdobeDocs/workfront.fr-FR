@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
+source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 2%
+source-wordcount: '363'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >* Version rapide de production : 15 mai 2025
 >* Production pour tous les clients : 17 juillet 2025
 
-Vous pouvez désormais activer un paramètre dans l’onglet Style de barre de la zone Paramètres d’une vue chronologique pour tronquer les noms d’enregistrement plus longs lors de leur affichage en vue standard. Le paramètre est désactivé par défaut et ne peut être activé que lorsque vous affichez la vue chronologique en mode Standard.
+Vous pouvez désormais activer un paramètre dans l’onglet Style de barre de la zone Paramètres d’une vue chronologique pour tronquer les noms d’enregistrement plus longs lors de leur affichage en vue standard. Le paramètre est désactivé par défaut et ne peut être activé que lorsque vous affichez la vue chronologique en mode Standard. Lorsque ce paramètre est désactivé, les informations des barres d’enregistrement sont développées par défaut. Avant cette amélioration, les informations sur les barres d’enregistrement étaient tronquées par défaut.
 
 Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
