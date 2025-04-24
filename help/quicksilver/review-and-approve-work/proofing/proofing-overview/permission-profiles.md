@@ -8,7 +8,7 @@ description: Les profils d’autorisation d’épreuve déterminent les autorisa
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 100%
@@ -44,7 +44,7 @@ Les profils d’autorisation d’épreuve diffèrent des rôles d’épreuve. Po
 
 Le tableau suivant affiche les autorisations disponibles pour chaque profil d’autorisation d’épreuve.
 
-<table>
+<table style="table-layout:auto">
   <tr>
    <td colspan="1" ><strong></strong>
    </td>

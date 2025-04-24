@@ -7,9 +7,9 @@ description: La synthèse des commentaires est accessible dans Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '495'
 ht-degree: 39%
 
 ---
@@ -82,7 +82,7 @@ Pour imprimer l’affichage des miniatures, cliquez sur l’icône **[!UICONTROL
 
 L’affichage pleine page présente chaque page dans l’ordre avec les commentaires sur cette page et une épingle indiquant où se trouve le commentaire.
 
-Pour imprimer la page entière, cliquez sur l’icône **[!UICONTROL Imprimante]** dans le coin supérieur droit de la page.
+Pour imprimer l’affichage de la page entière, cliquez sur l’icône **[!UICONTROL Imprimante]** dans le coin supérieur droit de la page.
 
 ![PV_full.png](assets/pv-full-350x347.png)
 
@@ -97,8 +97,7 @@ Pour télécharger la synthèse [!DNL Excel] à partir de la page Détails de l�
 
 1. Cliquez sur le bouton **Plus**, puis sélectionnez **Exporter vers Excel**.
 
-   <!--
-   ![Export to Excel option](assets/export-to-excel-option.png) -->
+   ![ Exporter vers Excel ](assets/export-to-excel.png)
 
 ## Exporter au format PDF
 

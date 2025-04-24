@@ -6,7 +6,7 @@ description: Votre administrateur ou administratrice Adobe Workfront peut vous 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 62%
@@ -159,7 +159,7 @@ Pour plus d’informations sur l’affichage des autorisations héritées sur un
    * **Seules les personnes invitées peuvent y accéder :** seuls les utilisateurs invités au projet peuvent y accéder (par défaut).
    * **Tout le monde peut afficher dans le système** : tous les utilisateurs du système peuvent afficher le projet sans invitation.
 
-1. (Facultatif) Pour appliquer automatiquement les paramètres d’accès au projet que vous avez sélectionnés à tous les nouveaux projets, cliquez sur l’icône **Engrenage** ![Sélectionnez l’icône en forme d’engrenage](assets/gear-icon.png), puis cochez la case en ligne avec **Définir comme mon modèle d’accès au projet**.
+1. (Facultatif) Pour appliquer automatiquement les paramètres d’accès au projet que vous avez sélectionnés à tous les nouveaux projets, cliquez sur l’icône **Engrenage** ![Sélectionnez l’icône en forme d’engrenage](assets/gear-icon.png), puis cochez la case en ligne avec **Définir comme modèle d’accès à mon projet**.
 
    >[!NOTE]
    >

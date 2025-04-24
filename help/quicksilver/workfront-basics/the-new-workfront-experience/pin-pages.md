@@ -5,14 +5,16 @@ description: Vous pouvez épingler votre travail le plus important dans  [!DNL A
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 65%
 
 ---
 
 # Épingler des pages pour personnaliser votre espace de travail
+
+<!-- Audited: 4/2025 -->
 
 Vous pouvez épingler votre travail le plus important dans [!DNL Adobe Workfront] pour une visibilité accrue, une meilleure organisation et un accès plus rapide. Les pages épinglées sont toujours accessibles depuis le haut d’une page dans Workfront.
 
@@ -53,6 +55,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Accédez à la page à épingler. Il peut s’agir de n’importe quel élément de travail, tel qu’un projet, une tâche, une file d’attente des demandes, etc.
 
 1. Dans le coin supérieur gauche de la page, cliquez sur **[!UICONTROL Épingler la page active]**. La page épinglée est désormais accessible en haut de n’importe quelle page dans [!DNL Workfront].
+
+   ![Épingler la page active](assets/pin-current-page-button.png)
 
 ## Accéder à une page épinglée
 
