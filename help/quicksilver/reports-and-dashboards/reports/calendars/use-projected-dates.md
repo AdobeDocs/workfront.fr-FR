@@ -6,10 +6,10 @@ description: Un rapport de calendrier est un rapport dynamique qui fournit une r
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: 40bbb198216b2806154f83730d8afedd5f355a3e
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 89%
+source-wordcount: '621'
+ht-degree: 91%
 
 ---
 
@@ -58,98 +58,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Configurer le groupe d’éléments en production
-
-Vous pouvez choisir la manière dont le groupe d’éléments doit s’afficher sur votre calendrier.
-
-{{step1-to-calendars}}
-
-1. Sélectionnez le calendrier auquel vous souhaitez ajouter un nouveau groupe d&#39;éléments.
-Ou
-Cliquez sur **[!UICONTROL + Nouveau calendrier]** puis saisissez le nom du calendrier.
-
-   >[!NOTE]
-   >
-   >Vous devez avoir un accès en [!UICONTROL modification] à [!UICONTROL Rapports], [!UICONTROL Tableaux de bord], et [!UICONTROL Calendriers] dans votre niveau d’accès pour créer un rapport de calendrier.
-
-1. Sur la gauche, cliquez sur **[!UICONTROL Ajouter au calendrier]**, puis sur **[!UICONTROL Ajouter des éléments avancés]**.
-
-1. Indiquez les informations suivantes :
-
-   <table style="table-layout:auto">
-    <col>
-    <col>
-    <tbody>
-     <tr>
-      <td role="rowheader"><strong>[!UICONTROL Name this group of items]</strong></td>
-      <td>Saisissez un nom pour le groupe d’éléments.</td>
-     </tr>
-     <tr>
-      <td role="rowheader"><strong>[!UICONTROL Color]</strong></td>
-      <td>Sélectionnez une couleur pour le groupe d’éléments. Tous les éléments s’affichent dans la couleur sélectionnée sur le rapport du calendrier.</td>
-     </tr>
-     <tr>
-      <td role="rowheader"><strong>[!UICONTROL Date Field]</strong></td>
-      <td><p>Choisissez <strong>[!UICONTROL Projected dates]</strong>. Pour plus d’informations sur les dates projetées, voir </p>
-       <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Vue d’ensemble de la Date de début prévisionnelle du projet</a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Vue d’ensemble de la date d’achèvement prévue pour les projets, les tâches et les problèmes</a><br></li>
-       </ul></td>
-     </tr>
-     <tr>
-      <td role="rowheader"><strong>[!UICONTROL On the calendar, show]</strong></td>
-      <td><p>Choisissez le mode d’affichage des dates :</p>
-       <ul>
-        <li><strong>[!UICONTROL Start Date Only]</strong> : le calendrier affiche l’objet à une seule date.</li>
-        <li><strong>[!UICONTROL End Date Only]</strong> : le calendrier affiche l’objet à une seule date.</li>
-        <li><strong>[!UICONTROL Duration] (du début à la fin)</strong> : le calendrier affiche l’objet sur plusieurs jours.</li>
-       </ul></td>
-     </tr>
-     <tr data-mc-conditions="">
-      <td role="rowheader"><strong>[!UICONTROL Switch to Actual Dates when available]</strong></td>
-      <td><p>Le calendrier passe automatiquement aux dates réelles lorsqu’elles sont disponibles. <br>Sélectionnez <strong>[!UICONTROL Yes]</strong> ou <strong>[!UICONTROL No]</strong> pour passer aux dates effectives lorsqu’elles sont disponibles. Pour plus d’informations sur les dates effectives, consultez</p>
-       <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Vue d’ensemble de la date de début effective du projet </a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Vue d’ensemble de la date d’achèvement effective du projet </a></li>
-       </ul></td>
-     </tr>
-    </tbody>
-   </table>
-
-1. Passez à la section suivante.
-
-## Ajouter des objets au groupe d’éléments dans Production
-
-Après avoir défini le mode d’affichage des éléments, vous devez ajouter au regroupement les objets que vous souhaitez voir apparaître sur le calendrier.
-
-1. Dans la section **[!UICONTROL Que souhaitez-vous ajouter au calendrier ?]**, sélectionnez
-
-   * **[!UICONTROL Tâches]**
-   * **[!UICONTROL Projets]**
-   * **[!UICONTROL Événements]**
-
-1. Cliquez sur **[!UICONTROL Ajouter des tâches]**, **[!UICONTROL Ajouter des projets]** ou **[!UICONTROL Ajouter des problèmes]**, selon le type d’objet que vous ajoutez au calendrier.
-   ![Sélectionner un objet pour le calendrier](assets/field-name.png)
-
-1. Dans le menu déroulant, commencez à saisir le nom du champ, puis sélectionnez la source du champ de l’objet que vous souhaitez afficher sur le calendrier (par exemple, **[!UICONTROL Tâches en retard]**).
-1. Définissez une condition pour le regroupement de calendrier.
-
-   ![Instruction de condition](assets/condition-statement-calendar.png)
-
-   Pour en savoir plus sur la définition de conditions, voir [Modificateurs de filtre et de condition](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
-
-1. (Facultatif) Spécifiez des objets supplémentaires pour le groupe de calendriers en répétant les étapes 1 à 4.
-1. Dans le champ **[!UICONTROL Définissez les libellés des Tâches/Projets/Problèmes sur ...]**, sélectionnez le libellé des objets de ce regroupement de calendrier.
-
-   >[!NOTE]
-   >
-   >Si les options relatives aux libellés par défaut ne sont pas disponibles pour un objet donné, le nom de l’objet est affiché à la place. Par exemple, lorsque le libellé Tâche parent est sélectionné et qu’aucune tâche parent n’est associée à l’objet, [!DNL Adobe Workfront] affiche le nom de l’objet que vous visualisez dans le calendrier.
-
-1. Cliquer sur **[!UICONTROL Enregistrer]**.
-
-<div class="preview">
-
-## Configurer le groupe d’éléments dans l’aperçu
+## Configurer le groupe d’éléments
 
 Vous pouvez choisir la manière dont le groupe d’éléments doit s’afficher sur votre calendrier.
 
@@ -209,7 +118,7 @@ Cliquez sur **[!UICONTROL + Nouveau calendrier]** saisissez le nom du projet, pu
 
 1. Passez à la section suivante.
 
-## Ajouter des objets au groupe d’éléments dans l’aperçu
+## Ajouter des objets au groupe d’éléments
 
 Après avoir défini le mode d’affichage des éléments, vous devez ajouter au regroupement les objets que vous souhaitez voir apparaître sur le calendrier.
 
@@ -239,4 +148,3 @@ Pour en savoir plus sur la définition de conditions, voir [Modificateurs de fil
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
-</div>
