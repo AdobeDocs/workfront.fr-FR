@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 8fcc6c75811080f3ee152849a149542be8ae820c
 workflow-type: tm+mt
-source-wordcount: '2034'
-ht-degree: 7%
+source-wordcount: '1974'
+ht-degree: 8%
 
 ---
 
@@ -273,11 +273,11 @@ Voici ce qui se produit :
 
 Vous pouvez afficher les informations des enregistrements ou objets connectés en ajoutant un onglet pour un type de page d&#39;affichage Connexion à un enregistrement. Les informations des enregistrements connectés s&#39;affichent dans une vue de tableau en lecture seule.
 
-&lt;!- remplacez la dernière phrase ci-dessus par celle-ci à la version :
+<!--replace the last sentence above with this at release:
 
-Dans l’environnement de production, les informations des enregistrements ou objets connectés s’affichent dans une vue de tableau en lecture seule.
+In the Production environment, the information from the connected records or objects displays in a read-only table view. 
 
-<Span class="preview">Dans l’environnement de Prévisualisation, les informations des enregistrements connectés peuvent être modifiées dans la vue Tableau. Les informations des objets connectés à partir d&#39;une autre application ne sont pas modifiables dans la vue Tableau.</span> —>
+<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> -->
 
 Tenez compte des points suivants lors de l’ajout d’une vue Connexion à la page d’un enregistrement :
 
