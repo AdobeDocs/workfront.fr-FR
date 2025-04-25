@@ -6,10 +6,10 @@ description: Gérer les commentaires sur plusieurs versions ou révisions d’un
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 34%
+source-wordcount: '1521'
+ht-degree: 35%
 
 ---
 
@@ -225,4 +225,4 @@ Si un objet et un message par défaut sont enregistrés dans vos paramètres per
 Si vous n’avez pas enregistré d’objet et de message par défaut dans vos paramètres personnels, le texte suivant s’affiche sur la nouvelle version :
 
 * Si vous avez notifié vos réviseurs ou réviseuses de la version précédente de l’épreuve à l’aide de l’e-mail standard (par exemple, sans objet/message personnalisé), l’option Notifier les personnes par e-mail est sélectionnée par défaut sur la page Nouvelle version . Pour ajouter un message personnalisé, cliquez sur le lien.
-* Si vous n’avez pas averti vos réviseurs par e-mail pour la version précédente de l’épreuve (par exemple, aucun e-mail standard ou personnalisé), la page Nouvelle version n’inclura aucun message par défaut. Pour notifier les personnes chargées de votre révision de la nouvelle version, cliquez sur le lien « Envoyer un message ». Vous pouvez ensuite ajouter un objet et un message personnalisés en cliquant sur le lien « Ajouter un message personnalisé ».
+* Si vous n’avez pas informé vos réviseurs de la version précédente de l’épreuve (par exemple, en l’absence d’e-mail standard ou personnalisé), la page Nouvelle version n’inclura aucun message par défaut. Pour notifier les personnes chargées de votre révision de la nouvelle version, cliquez sur le lien « Envoyer un message ». Vous pouvez ensuite ajouter un objet et un message personnalisés en cliquant sur le lien « Ajouter un message personnalisé ».

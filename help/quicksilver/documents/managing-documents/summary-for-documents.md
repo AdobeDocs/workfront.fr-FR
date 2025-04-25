@@ -7,10 +7,10 @@ description: Le résumé permet d’interagir avec des informations importantes,
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 93%
+source-wordcount: '443'
+ht-degree: 63%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 93%
 
 Vous pouvez utiliser le panneau Résumé pour accéder à des informations importantes et les mettre à jour directement à partir de la liste des documents.
 
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,8 +39,8 @@ Vous devez disposer des éléments suivants :
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licences Adobe Workfront*</td> 
-   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p> 
+   <td role="rowheader">Licences Adobe Workfront</td> 
+   <td> <p>Nouvelle : contributeur ou supérieure</p> 
    <p>Actuelle : demande ou supérieure</p>
    </td> 
   </tr> 
@@ -46,48 +50,52 @@ Vous devez disposer des éléments suivants :
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Accès d’affichage à l’objet associé au document</p> </td> 
+   <td> <p>Afficher l’accès à l’objet associé au document</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ouvrir la vue Résumé
 
-1. Accédez à la zone **Documents** et sélectionnez un élément dans la liste.
-1. Cliquez sur l’icône **Ouvrir le résumé** ![Ouvrir le résumé](assets/qs-summary-in-new-toolbar-small.png).
+{{step1-to-documents}}
 
-   Une fois le résumé ouvert, il reste ouvert lorsque vous cliquez sur d’autres documents, et ce jusqu’à sa fermeture manuelle.
+1. Sur la page **Documents**, sélectionnez un document dans la liste.
 
-   ![Détails du résumé](assets/summary-details-350x585.png)
+1. Dans le coin supérieur droit de la page, cliquez sur l’icône **Ouvrir le résumé** ![Ouvrir le résumé](assets/qs-summary-in-new-toolbar-small.png). Le panneau latéral **Résumé du document** s’ouvre.
+
+   ![Détails du résumé](assets/document-summary-panel.png)
+
+   Après avoir ouvert le résumé, il reste ouvert sur cette page (même si vous cliquez sur d’autres documents) jusqu’à ce que vous le fermiez manuellement.
+
 
 ## Détails
 
-Utilisez la section Détails pour afficher des informations de vue d’ensemble générales et interagir avec des formulaires personnalisés. Cliquez sur **Détails** en haut de la section pour accéder à la page complète des Détails du document.
+Utilisez la section Détails pour afficher des informations de vue d’ensemble générales et interagir avec des formulaires personnalisés. Cliquez sur Détails en haut de la section pour accéder à la page complète des Détails du document.
 
 * [Vue d’ensemble](#overview)
 * [Formulaires personnalisés](#custom-forms)
 
-![Détails du résumé du document](assets/copy-of-doc-summary-details-section-350x404.png)
-
 ### Vue d’ensemble {#overview}
 
-Développez la section Vue d’ensemble pour afficher ou télécharger une image miniature, ouvrir une épreuve, mettre à jour la description de base, vérifier le document, etc.
+Développez la section Présentation pour afficher ou télécharger une miniature d’image, ouvrir une épreuve, mettre à jour la description de base, extraire le document, etc.
 
-![Présentation du résumé du document](assets/copy-of-doc-summary-with-overview-350x560.png)
+![Présentation du résumé du document](assets/details-section.png)
 
 ### Formulaires personnalisés {#custom-forms}
 
 Utilisez la section Formulaires personnalisés pour ajouter, modifier ou afficher tout formulaire personnalisé associé au document. Commencez à saisir le nom du formulaire personnalisé pour l’ajouter au document. Pour plus d’informations, voir la section [Ajouter ou modifier un formulaire personnalisé à un document](../../documents/managing-documents/add-custom-form-documents.md).
 
-![Ajouter un formulaire personnalisé dans le résumé du document](assets/add-custom-form-doc-summary-350x265.png)
+![Ajouter un formulaire personnalisé dans le résumé du document](assets/custom-forms-section.png)
 
 ## Mises à jour
 
-Utilisez la section Mises à jour pour lire une mise à jour effectuée sur le document ou l’épreuve. Le résumé présente les 2 premiers commentaires. Pour plus d’informations sur les mises à jour, voir [Commentaire sur une épreuve](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+Utilisez la section Mises à jour pour afficher une mise à jour effectuée par une personne sur le document ou l’épreuve. Le résumé présente les 2 premiers commentaires. Pour plus d’informations sur les mises à jour, voir [Commentaire sur une épreuve](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-![Section Mises à jour du panneau Résumé](assets/summary-updates-section-new-comments.png)
+![Section Mises à jour du panneau Résumé](assets/updates-section.png)
 
 ## Approbations
 
@@ -98,16 +106,16 @@ Les approbations d’épreuves doivent être ajoutées dans le workflow des épr
 * [Approuver le travail](../../review-and-approve-work/manage-approvals/approving-work.md).
 * [Demander l’approbation de documents](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![Approbations du résumé du document](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Approbations du résumé du document](assets/approvals-section.png)
 
 ## Versions
 
-Utilisez la section Versions pour afficher le nombre de versions créées pour un document spécifique. Cliquez sur le **menu Plus** pour
+Utilisez la section Versions pour afficher le nombre de versions créées pour un document spécifique. Cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png) pour effectuer les opérations suivantes :
 
-* Ouvrir une épreuve
-* Télécharger une épreuve ou un document
-* Prévisualiser un document pris en charge par le navigateur
-* Accéder aux Détails du document
-* Supprimer une épreuve ou un document
+* Ouvrez un BAT.
+* Téléchargez une épreuve ou un document.
+* Prévisualisez un document pris en charge par le navigateur.
+* Accédez aux Détails du document.
+* Supprimer une épreuve ou un document.
 
-![Versions récapitulatives du document](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Versions récapitulatives du document](assets/versions-section.png)
