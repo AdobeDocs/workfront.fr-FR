@@ -6,7 +6,7 @@ description: Vous pouvez lier des documents et des dossiers à Adobe Workfront 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2620'
 ht-degree: 96%
@@ -39,7 +39,7 @@ Vous pouvez lier des documents et des dossiers à Adobe Workfront à partir des
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Vous pouvez rendre les épreuves créées à l’origine dans Workfront Proof disponibles dans Workfront. Pour les licences actuelles, une formule Pro Workfront ou supérieure est nécessaire pour utiliser cette fonctionnalité. Pour les nouvelles licences, toutes les formules incluent cette fonctionnalité. Pour plus d’informations sur les différentes formules disponibles, voir <a href="https://www.workfront.com/plans?lang=fr">Formules Workfront</a>.</td> 
+   <td>Vous pouvez rendre les épreuves créées à l’origine dans Workfront Proof disponibles dans Workfront. Pour les licences actuelles, une formule Pro Workfront ou supérieure est nécessaire pour utiliser cette fonctionnalité. Pour les nouvelles licences, toutes les formules incluent cette fonctionnalité. Pour plus d’informations sur les différentes formules disponibles, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Formules Workfront</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -51,7 +51,7 @@ Vous pouvez lier des documents et des dossiers à Adobe Workfront à partir des
   </tr> 
   <tr> 
    <td role="rowheader">Autres fournisseurs de documents (par le biais d’intégrations de documents personnalisées)</td> 
-   <td> <p class="workfront_plans">Pour les licences actuelles, une formule Pro Workfront ou supérieure est nécessaire pour utiliser cette fonctionnalité. Pour les nouvelles licences, toutes les formules incluent cette fonctionnalité. Pour plus d’informations sur les différentes formules disponibles, voir <a href="https://www.workfront.com/plans?lang=fr">Formules Workfront</a>.</p> </td>
+   <td> <p class="workfront_plans">Pour les licences actuelles, une formule Pro Workfront ou supérieure est nécessaire pour utiliser cette fonctionnalité. Pour les nouvelles licences, toutes les formules incluent cette fonctionnalité. Pour plus d’informations sur les différentes formules disponibles, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Formules Workfront</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>

@@ -2,14 +2,14 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Résoudre les problèmes d’intégration d’Adobe Experience Manager
-description: '« Problème : les ressources ne sont pas enregistrées dans Adobe Experience Manager »'
+description: 'Problème : les ressources ne sont pas enregistrées dans Adobe Experience Manager'
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f7e31e20-01e3-462d-9020-005e155f0259
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -27,5 +27,5 @@ Cela peut se produire en raison de la liste autorisée dans Adobe Cloud Manager.
 
 Ajoutez les adresses IP Workfront à la liste autorisée Adobe Cloud Manager.
 
-* Pour plus d’informations sur l’ajout d’adresses IP à Adobe Cloud Manager, voir [Présentation des listes autorisées d’adresses IP](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction.html?lang=fr) dans la documentation d’Adobe Experience Manager.
+* Pour plus d’informations sur l’ajout d’adresses IP à Adobe Cloud Manager, voir [Présentation des listes autorisées d’adresses IP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) dans la documentation d’Adobe Experience Manager.
 * Pour obtenir la liste des adresses IP Workfront à ajouter à la liste autorisée, voir [Configurer votre pare-feu](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

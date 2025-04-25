@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b9dd01ee0e8732bf7e2fec68a7682fc17271e19e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 99%
@@ -68,7 +68,6 @@ La version 2018.2 contient des améliorations pour les équipes d’administrat
 * [Modification des champs directement à partir de la zone d’accueil](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#edit-fields-directly-from-the-home-area)
 
 ### Amélioration apportées à la gestion des ressources.
-
 
 * [Amélioration des vues de projet et de rôle dans le planificateur de ressources](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#project-and-role-view-improvements-in-the-resource-planner)
 * [Configuration des limites de fonction pour la planification automatisée des ressources](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-job-role-limits-for-automated-resource-scheduling)
@@ -216,7 +215,7 @@ Lorsque vous installez le nouveau Workfront pour Outlook sur n’importe lequel 
 
 Utilisez les ressources suivantes pour en savoir plus sur Workfront pour Outlook et commencer à travailler :
 
-* [Site web et vidéo](https://www.workfront.com/integrations/outlook) 
+* [Site web et vidéo](https://business.adobe.com/products/workfront/integrations.html) 
 * [Utiliser Workfront avec Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (article d’aide)
 
 ### Suppression des anciennes versions de l’API {#removing-old-api-versions}

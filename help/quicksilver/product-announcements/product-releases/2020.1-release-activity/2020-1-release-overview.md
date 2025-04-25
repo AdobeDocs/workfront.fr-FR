@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2566'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -358,7 +358,7 @@ Pour plus d’informations, consultez [Configurer la liste autorisée de votre p
 
 Avec Workfront One, vous découvrirez le contenu, les ressources et les nouveautés de Workfront les plus importants, le tout au même endroit, avec la même connexion. Nous avons unifié les sites Expérience, Communauté et Formation pour faciliter la recherche.
 
-[En savoir plus sur Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[En savoir plus sur Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinaire sur la version 2020.1 {#2020-1-release-webinar}
 

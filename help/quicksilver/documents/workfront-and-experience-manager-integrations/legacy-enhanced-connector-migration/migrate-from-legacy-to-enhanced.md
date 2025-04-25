@@ -6,10 +6,10 @@ description: Le processus suivant décrit les bonnes pratiques à suivre pour pa
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ Pour les clientes et clients sur Adobe Experience Manager Assets as a Clou
 >
 >Un partenaire certifié ou des services de conseil Adobe sont nécessaires pour mettre en œuvre le connecteur amélioré.
 >
-> Pour les partenaires qui souhaitent se certifier sur le connecteur amélioré, consultez l’article suivant : [Expert Series Workfront pour le connecteur amélioré pour Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html?lang=fr).
+> Pour les partenaires qui souhaitent se certifier sur le connecteur amélioré, consultez l’article suivant : [Expert Series Workfront pour le connecteur amélioré pour Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Pour mettre en œuvre le connecteur amélioré, voir [Configurer Workfront pour le connecteur amélioré Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-connector-configure.html?lang=fr).
+Pour mettre en œuvre le connecteur amélioré, voir [Configurer Workfront pour le connecteur amélioré Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Déplacer des ressources existantes

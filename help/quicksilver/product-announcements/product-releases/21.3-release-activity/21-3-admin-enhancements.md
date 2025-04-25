@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Les plans directeurs fournissent des éléments de base pour vous aider à crée
 
 Consultez la [Vue d’ensemble des plans directeurs](../../../administration-and-setup/blueprints/blueprints-overview.md) pour plus d’informations.
 
-Cette fonctionnalité est désormais incluse dans le parcours d’apprentissage [Modèles de projet dans la nouvelle expérience Workfront](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) de Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours d’apprentissage [Modèles de projet dans la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) de Workfront One.
 
 ## Nouveautés pour les administrateurs et administratrices de groupes : créer et gérer des statuts pour un groupe à n’importe quel niveau
 

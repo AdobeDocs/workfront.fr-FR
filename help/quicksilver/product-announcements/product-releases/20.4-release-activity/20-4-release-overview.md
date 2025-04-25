@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3695'
 ht-degree: 99%
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de la version 12 de l’API](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm).
+Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de la version 12 de l’API](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Pour plus d’informations sur les versions de l’API, voir [Planning du contrôle de version et du support de l’API](../../../wf-api/api/api-version-support-schedule.md).
 
@@ -348,7 +348,7 @@ Le webinaire Workfront version 20.4 sera présenté le mercredi 28 octobre 20
 
 À partir du 20 mai 2020, Workfront a commencé à mettre à disposition des fonctionnalités dans l’environnement de prévisualisation sur une base hebdomadaire. Avant cette modification, les fonctionnalités étaient généralement mises à disposition dans l’environnement de prévisualisation toutes les deux semaines.
 
-Pour plus d’informations, voir [Questions fréquentes sur la modification du rythme de publication de la version préliminaire de Workfront](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence).
+Pour plus d’informations, voir [Questions fréquentes sur la modification du rythme de publication de la version préliminaire de Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ### Liste autorisée des domaines supplémentaires requis pour accéder à Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -363,4 +363,4 @@ Pour plus d’informations, consultez [Configurer la liste autorisée de votre p
 
 Avec Workfront One, vous découvrirez le contenu, les ressources et les nouveautés de Workfront les plus importants, le tout au même endroit, avec la même connexion. Nous avons unifié les sites Expérience, Communauté et Formation pour faciliter la recherche.
 
-[En savoir plus sur Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[En savoir plus sur Workfront One](https://business.adobe.com/products/workfront.html).

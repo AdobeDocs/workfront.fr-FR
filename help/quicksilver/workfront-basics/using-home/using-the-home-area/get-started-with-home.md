@@ -2,11 +2,11 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: Commencer avec l’[!UICONTROL Accueil]
-description: La maison vous aide à gérer votre travail. Vous pouvez personnaliser cet espace flexible pour mettre en avant le travail le plus important et optimiser la gestion des tâches, des problèmes, des demandes et des approbations.
+description: La page d’accueil vous aide à gérer votre travail. Vous pouvez personnaliser cet espace flexible pour mettre en avant le travail le plus important et optimiser la gestion des tâches, des problèmes, des demandes et des approbations.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 1347911f2d0c03874c759f02b207e3fa93ca5bb4
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 80%
@@ -19,7 +19,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Le contenu de cet article a été remplacé par le contenu de l’article Prise en main du nouvel article Accueil . Nouvelle page d’accueil sera désormais appelée &quot;page d’accueil&quot;.
+>Le contenu de cet article a été remplacé par le contenu de l’article Prise en main du nouvel Accueil . La nouvelle page d’accueil sera désormais appelée Page d’accueil.
 
 La nouvelle expérience d’accueil d’Adobe Workfront vise à améliorer l’expérience d’accueil actuelle tout en offrant un moyen plus flexible de se concentrer sur le bon travail.
 
@@ -41,7 +41,7 @@ Vous trouverez ci-dessous les 11 widgets actuellement disponibles, ainsi qu’un
     Ce widget, qui constitue un excellent point de départ pour la gestion d’un grand nombre de tâches, affiche en un seul endroit l’ensemble des tâches, problèmes et demandes qui vous ont été attribués. Vous pouvez cliquer sur le bouton Travailler sur ce projet pour commencer à travailler sur un élément ou sur le bouton Terminé pour le marquer comme terminé. Vous pouvez également mettre à jour des informations (statut, condition, pourcentage terminé) sur les tâches et les problèmes, consigner des heures et ajouter des mises à jour à partir du widget Mon travail.
 
 * **Panoramas**\
-    Affiche tous les panoramas que vous avez créés ou que vous avez été invité à utiliser. Vous pouvez également créer un panorama à partir des modèles suivants : Panorama de base, Panorama Kanban, Panorama rétrospectif, Panorama dynamique
+    Affiche les tableaux que vous avez créés ou que vous avez été invité à utiliser. Vous pouvez également créer un nouveau panorama basé sur les modèles suivants : panorama de base, panorama Kanban, panorama rétrospectif, panorama dynamique
 
 * **Mes projets**\
     Affiche les projets que vous possédez ou les projets auxquels vous participez dans une liste. Vous pouvez utiliser les filtres, les vues ou les regroupements existants pour personnaliser la liste, ou vous pouvez créer un projet directement à partir du widget.
@@ -50,22 +50,22 @@ Vous trouverez ci-dessous les 11 widgets actuellement disponibles, ainsi qu’un
     Affiche les tâches qui vous sont affectées dans une liste. Vous pouvez utiliser les filtres, les vues ou les regroupements existants pour personnaliser la liste, ou vous pouvez créer une tâche directement à partir du widget. Vous pouvez également déléguer vos tâches lorsque vous n’êtes pas au bureau.
 
 * **Mes problèmes**\
-    Affiche les problèmes qui vous sont attribués dans une liste. Vous pouvez utiliser des filtres, des vues ou des regroupements existants pour personnaliser la liste, ou créer un problème directement à partir du widget. Ce widget comprend uniquement les problèmes dont les projets associés sont définis sur Actuel et n’incluent pas les projets terminés. Vous pouvez également déléguer vos problèmes lorsque vous n’êtes pas au bureau.
+    Affiche les problèmes qui vous sont attribués dans une liste. Vous pouvez utiliser des filtres, des vues ou des regroupements existants pour personnaliser la liste, ou créer un problème directement à partir du widget. Ce widget inclut uniquement les événements dont les projets associés sont définis sur En cours et n&#39;inclut pas les projets terminés. Vous pouvez également déléguer vos problèmes lorsque vous n’êtes pas au bureau.
 
 * **Mes demandes**\
-    Affiche toutes les requêtes que vous avez envoyées, un filtre permettant d’afficher uniquement les requêtes ouvertes et un bouton permettant d’ouvrir le panneau de résumé d’une requête.
+    Affiche toutes les demandes que vous avez envoyées, un filtre pour afficher uniquement les demandes ouvertes et un bouton qui ouvre le panneau de résumé d’une demande.
 
 * **Demandes de l’équipe**\
     Affiche toutes les demandes en attente classées par équipe pour les équipes dont vous faites partie, ainsi que des boutons permettant d’attribuer directement une demande à un utilisateur ou à une utilisatrice ou d’y travailler soi-même.
 
-* **Ma validation**\
-    Affiche toutes les approbations en attente, affectées, déléguées et envoyées ; un bouton permettant de déléguer les approbations ; et des boutons permettant de prendre des décisions d’approbation directement dans le widget.
+* **Mon approbation**\
+    Affiche toutes vos approbations en attente, affectées, déléguées et envoyées ; un bouton pour déléguer les approbations ; et des boutons pour prendre des décisions d’approbation directement dans le widget.
 
 * **Toutes les approbations**\
-        Affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des listes de vues des approbations en attente et en retard. <span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version progressive et n’est actuellement disponible que pour certains clientes et clients.</span>
+        Affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des vues de liste des approbations en attente et en retard. <span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version progressive et n’est actuellement disponible que pour certains clientes et clients.</span>
 
 * **Mentions**\
-    Affiche les fils de commentaires récents provenant de Workfront, comme sur la page Mes mises à jour . Vous pouvez utiliser le bouton de réponse pour rédiger une réponse dans le widget. Ce widget affiche également les commentaires sur les tâches et les problèmes qui vous sont affectés, que vous avez affectés à un autre utilisateur ou une autre utilisatrice, qui vous appartiennent, dont vous êtes le contact principal ou que vous avez créés, à condition que l’élément ait été mis à jour au cours des 30 derniers jours.
+    Affiche les threads de commentaires récents de Workfront, comme la page Mes mises à jour . Vous pouvez utiliser le bouton de réponse pour rédiger une réponse dans le widget. Ce widget affiche également les commentaires sur les tâches et les problèmes qui vous sont affectés, que vous avez affectés à un autre utilisateur ou une autre utilisatrice, qui vous appartiennent, dont vous êtes le contact principal ou que vous avez créés, à condition que l’élément ait été mis à jour au cours des 30 derniers jours.
 
 * **À faire**\
     Ce widget unique vous permet d’ajouter des éléments à une liste de contrôle personnelle que vous pouvez modifier librement. Les tâches À faire sont suivies en tant que tâches dans votre projet personnel et restent jusqu’à deux semaines après leur achèvement.
@@ -91,7 +91,7 @@ Par défaut, la page d’accueil contient quelques widgets spécifiques en fonct
     </tr>
     <tr>
         <td>Contributeur</td>
-        <td>Mes requêtes, mentions, mon approbation, panoramas</td>
+        <td>Mes demandes, Mentions, Mon approbation, Tableaux</td>
     </tr>
     <tr>
         <td>Externe</td>

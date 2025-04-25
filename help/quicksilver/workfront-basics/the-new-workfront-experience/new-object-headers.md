@@ -6,7 +6,7 @@ description: Vous pouvez afficher les informations en un coup d’œil sur les o
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3697'
 ht-degree: 95%
@@ -81,8 +81,8 @@ L’en-tête du projet affiche les informations suivantes, par défaut :
    <td> <p>Le texte « [!UICONTROL PROJECT] » s’affiche au-dessus du nom du projet dans l’en-tête.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zone d’actions du projet</td> 
-   <td> <p>En regard du nom du projet, la zone d’actions s’affiche et contient l’option <b>Partager</b> .</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
+   <td role="rowheader">La zone d'actions du projet</td> 
+   <td> <p>En regard du nom du projet, la zone d’actions s’affiche, qui inclut l’option <b>Partager</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -145,7 +145,7 @@ Par défaut, l’en-tête de la tâche comprend les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Zone d’actions de la tâche</td> 
-   <td> <p>En regard du nom de la tâche, la zone d’actions s’affiche et contient l’option <b>Partager</b> .</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>Si l’icône Dépendance s’affiche, vous pouvez cliquer sur l’icône pour afficher les prédécesseurs ou les successeurs de la tâche.</p> </td> 
+   <td> <p>En regard du nom de la tâche, la zone d’actions s’affiche, qui inclut l’option <b>Partager</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>Si l’icône Dépendance s’affiche, vous pouvez cliquer sur l’icône pour afficher les prédécesseurs ou les successeurs de la tâche.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -208,7 +208,7 @@ Par défaut, l’en-tête du problème comprend les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Zone d’actions du problème</td> 
-   <td> <p>En regard du nom du problème, la zone d’actions s’affiche et comprend l’option <b>Partager</b> .</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>Si l’icône [!UICONTROL Dependency] s’affiche, vous pouvez cliquer sur l’icône pour afficher les problèmes antérieurs et ultérieurs.</p>  </td> 
+   <td> <p>En regard du nom du problème, la zone d’actions s’affiche, qui inclut l’option <b>Partager</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>Si l’icône [!UICONTROL Dependency] s’affiche, vous pouvez cliquer sur l’icône pour afficher les problèmes antérieurs et ultérieurs.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -275,7 +275,7 @@ L’en-tête du programme affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Zone d’actions du programme</td> 
-   <td> <p>En regard du nom du programme, la zone d’actions s’affiche et contient l’option <b>Partager</b> .</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
+   <td> <p>En regard du nom du programme, la zone d’actions s’affiche, qui inclut l’option <b>Partager</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -329,7 +329,7 @@ L’en-tête du portfolio comprend les informations suivantes :
    <td> <p>Si le portfolio est désactivé, le texte « [!UICONTROL PORTFOLIO DEACTIVATED] » s’affiche au-dessus du nom du portfolio dans l’en-tête.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">La zone d’actions du portfolio</td> 
+   <td role="rowheader">Le domaine d’actions du portefeuille</td> 
    <td> <p>En regard du nom du portfolio, la zone [!UICONTROL actions] s’affiche.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
@@ -486,14 +486,14 @@ L’en-tête d’enregistrement de facturation affiche les informations suivante
    <td> <p>Le texte « [!UICONTROL BILLING RECORD] » s’affiche au-dessus du nom de l’enregistrement de facturation dans l’en-tête.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Le menu Plus pour l’enregistrement de facturation</td> 
+   <td role="rowheader">Le menu Plus de l’enregistrement de facturation</td> 
    <td> <p>En regard du nom de l’enregistrement de facturation, le menu [!UICONTROL More] <img src="assets/more-menu.png"> s’affiche, ce qui vous permet de sélectionner les options suivantes :</p> 
     <ul> 
      <li> <p>[!UICONTROL Edit]</p> </li> 
      <li> <p> Supprimer </p> </li> 
     </ul>
     <p><b>NOTE</b></p>
-    <p>Le menu Plus ne s’affiche pas pour les enregistrements de facturation dont le statut est Facturé. Vous ne pouvez ni modifier ni supprimer les enregistrements facturés.</p>
+    <p>Le menu Plus ne s’affiche pas pour les enregistrements de facturation dont le statut est Facturé. Vous ne pouvez pas modifier ni supprimer des enregistrements facturés.</p>
      </td> 
   </tr> 
   <tr> 
@@ -593,7 +593,7 @@ L’en-tête de l’équipe affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Zone d’actions de l’équipe</td> 
-   <td> <p>En regard du nom de l’équipe, la zone d’actions s’affiche.</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
+   <td> <p>En regard du nom de l’équipe, la zone des actions s’affiche.</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Images de profil des personnes membres de l’équipe</td> 
@@ -636,7 +636,7 @@ L’en-tête de l’itération affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Zone d’actions de l’itération</td> 
-   <td> <p>En regard du nom de l’itération, la zone d’actions s’affiche.</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
+   <td> <p>En regard du nom de l’itération, la zone des actions s’affiche.</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">Propriétaire</td> 
    <td>Il s’agit de la [!UICONTROL Owner] de l’itération. Vous ne pouvez pas modifier la [!UICONTROL Owner] dans l’en-tête.</td> 
@@ -776,7 +776,7 @@ L’en-tête de l’entreprise affiche les informations suivantes :
    <td> <p>Le texte « [!UICONTROL COMPANY] » s’affiche au-dessus du nom de l’entreprise dans l’en-tête.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Le menu Plus de la société</td> 
+   <td role="rowheader">Le menu Plus de l'entreprise</td> 
    <td> <p>Le menu [!UICONTROL More] <img src="assets/more-menu.png"> s’affiche à côté du nom de l’entreprise, ce qui vous permet de sélectionner les options suivantes :</p> 
     <ul> 
      <li> <p>[!UICONTROL Edit]</p> </li> 
@@ -889,7 +889,7 @@ L’en-tête d’objectif affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Le menu Plus de l’objectif</td> 
-   <td> <p>En regard du nom de l’objectif, le menu Plus <img src="assets/more-icon.png"> s’affiche.</p> </p>
+   <td> <p>En regard du nom de l’objectif, la <img src="assets/more-icon.png"> du menu Plus s’affiche.</p> </p>
    Vous pouvez effectuer les actions suivantes à partir du menu Plus d’un objectif :
    <ul><li>[!UICONTROL Edit]</li>
    <li>[!UICONTROL Copy goal]</li>

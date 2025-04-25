@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3659'
 ht-degree: 99%
@@ -179,7 +179,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire bêta : 13 janvier 2021</p> <p>Version de production : avec la version 21.1 <span style="color: #dc143c; font-weight: bold;">(Retiré de la version ; restera dans la version préliminaire et passera en production avec la version 21.2.)</span></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Partager un lien vers une file d’attente des demandes lors de la soumission d’une demande</a> </p> <p>Il est désormais possible de partager un lien vers une file d’attente des demandes, un groupe de rubriques ou une rubrique de file d’attente lorsque vous créez une demande.</p> <p>Avant de soumettre une nouvelle demande, vous pouvez copier un lien vers la file d’attente des demandes, le groupe de rubriques ou la rubrique la file d’attente de la demande et le partager avec d’autres utilisateurs et utilisatrices, ou l’intégrer dans un tableau de bord.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Partager un lien vers une file d’attente des demandes lors de la soumission d’une demande</a> </p> <p>Il est désormais possible de partager un lien vers une file d’attente des demandes, un groupe de rubriques ou une rubrique de file d’attente lorsque vous créez une demande.</p> <p>Avant de soumettre une nouvelle demande, vous pouvez copier un lien vers la file d’attente des demandes, le groupe de rubriques ou la rubrique la file d’attente de la demande et le partager avec d’autres utilisateurs et utilisatrices, ou l’incorporer dans un tableau de bord.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire bêta : 13 janvier 2021</p> <p>Version de production : avec la version 21.1 <span style="color: #dc143c; font-weight: bold;">(Retiré de la version ; restera dans la version préliminaire et passera en production avec la version 21.2.)</span></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -337,7 +337,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de la version 12 de l’API](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm).
+Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de la version 12 de l’API](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Pour plus d’informations sur les versions de l’API, voir [Planning du contrôle de version et du support de l’API](../../../wf-api/api/api-version-support-schedule.md).
 
@@ -398,10 +398,10 @@ Le webinaire sur la version 21.1 de Workfront sera présenté le 3 février à
 
 À partir du 20 mai 2020, Workfront a commencé à mettre à disposition des fonctionnalités dans l’environnement de prévisualisation sur une base hebdomadaire. Avant cette modification, les fonctionnalités étaient généralement mises à disposition dans l’environnement de prévisualisation toutes les deux semaines.
 
-Pour plus d’informations, voir [Questions fréquentes sur la modification du rythme de publication de la version préliminaire de Workfront](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence).
+Pour plus d’informations, voir [Questions fréquentes sur la modification du rythme de publication de la version préliminaire de Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ### Workfront One {#workfront-one}
 
 Avec Workfront One, vous découvrirez le contenu, les ressources et les nouveautés de Workfront les plus importants, le tout au même endroit, avec la même connexion. Nous avons unifié les sites Expérience, Communauté et Formation pour faciliter la recherche.
 
-[En savoir plus sur Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[En savoir plus sur Workfront One](https://business.adobe.com/products/workfront.html).

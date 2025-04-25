@@ -6,7 +6,7 @@ description: Une fois que vous avez installé et configuré  [!DNL Adobe Workfro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
    <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td> 
   </tr> 
  </tbody> 

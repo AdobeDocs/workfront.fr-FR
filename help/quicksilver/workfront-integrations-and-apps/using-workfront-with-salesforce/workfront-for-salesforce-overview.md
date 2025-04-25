@@ -7,7 +7,7 @@ description: Vous pouvez installer  [!DNL Adobe Workfront]  pour Salesforce afin
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 94%
@@ -16,7 +16,7 @@ ht-degree: 94%
 
 # Vue d’ensemble d’[!DNL Adobe Workfront for Salesforce]
 
-Une formule [!UICONTROL Pro] [!DNL Workfront] est nécessaire pour utiliser cette fonction. Pour plus d’informations sur les différentes formules disponibles, consultez la section [[!DNL Workfront] Formules.](https://www.workfront.com/plans?lang=fr)
+Une formule [!UICONTROL Pro] [!DNL Workfront] est nécessaire pour utiliser cette fonction. Pour plus d’informations sur les différentes formules disponibles, consultez la section [[!DNL Workfront] Formules.](https://business.adobe.com/products/workfront/pricing.html)
 
 Vous pouvez installer [!DNL Adobe Workfront for Salesforce] pour permettre aux personnes utilisant [!DNL Salesforce] de soumettre des requêtes [!DNL Workfront] et de créer automatiquement des projets sans jamais quitter [!DNL Salesforce].
 

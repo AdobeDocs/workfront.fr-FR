@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1503'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -72,7 +72,7 @@ Pour faciliter la visualisation et la gestion de votre travail quotidien avec le
 
 Auparavant, vous ne pouviez gérer votre calendrier qu’avec des dates prévisionnelles et prévues lorsque les dates effectives n’étaient pas disponibles.
 
-Pour plus d’informations, voir [Utiliser les champs de date personnalisés dans un rapport de calendrier](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (ou si vous utilisez Workfront Classic, voir [Utiliser les champs de date personnalisés dans un rapport de calendrier](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=fr_FR)).
+Pour plus d’informations, voir [Utiliser les champs de date personnalisés dans un rapport de calendrier](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (ou si vous utilisez Workfront Classic, voir [Utiliser les champs de date personnalisés dans un rapport de calendrier](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 ## Modifications d’e-mails
 
@@ -82,7 +82,7 @@ Auparavant, les administrateurs et administratrices système pouvaient ajouter u
 
 **Modifications des réponses e-mail entrantes POP :** les administrateurs et administratrices système n’auront plus la possibilité de configurer un serveur e-mail POP personnalisé pour les réponses e-mail entrantes aux notifications.
 
-Pour plus d’informations, voir [Usurpation d’adresses e-mail et modifications des réponses e-mail POP](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=fr_FR).
+Pour plus d’informations, voir [Usurpation d’adresses e-mail et modifications des réponses e-mail POP](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## La technique DKIM (DomainKeys Identified Mail) est désormais incluse dans les e-mails Workfront sortants.
 

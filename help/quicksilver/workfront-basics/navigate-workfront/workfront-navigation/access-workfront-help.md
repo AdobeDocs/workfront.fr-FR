@@ -4,10 +4,10 @@ title: Accéder à l’aide d’Adobe Workfront
 description: Workfront offre une grande variété de contenus pour vous aider à trouver des réponses aux questions que vous pourriez avoir concernant les fonctionnalités des différents produits offerts par Workfront.
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -40,11 +40,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Accéder à la documentation d’[!DNL Adobe Workfront] sur Experience League
 
-1. Accédez à la page de documentation d’[[!DNL Adobe Workfront]  sur  [!DNL Experience League]](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=fr).
+1. Accédez à la page de documentation d’[[!DNL Adobe Workfront]  sur  [!DNL Experience League]](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Outre la recherche d’articles d’aide, vous pouvez également accéder aux ressources [!DNL Workfront] suivantes à partir d’Experience League :
 
-* Tutoriels Workfront : pour plus d’informations, consultez les Tutoriels [[!DNL Workfront] ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
+* Tutoriels Workfront : pour plus d’informations, consultez les Tutoriels [[!DNL Workfront] ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 * [!UICONTROL Innovation Lab] : pour plus d’informations, voir [[!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
 * Communauté [!UICONTROL [!DNL Workfront]] : pour plus d’informations, voir [[!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)

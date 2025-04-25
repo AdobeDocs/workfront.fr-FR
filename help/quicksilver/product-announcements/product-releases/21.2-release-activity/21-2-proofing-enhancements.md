@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Auparavant, vous deviez accéder aux détails du document et au workflow de l’
 
 Pour plus d’informations sur les statuts de décision des épreuves, voir [Zone Documents](../../../documents/managing-documents/documents-area.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Gérer des épreuves et des versions dans la nouvelle expérience Workfront](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Gérer des épreuves et des versions dans la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Nouveaux champs dans le rapport d’approbation d’épreuve
 
@@ -45,7 +45,7 @@ Pour faciliter la mise en évidence d’informations de relecture utiles, nous a
 
 Ces champs ne font pas partie du rapport par défaut. Vous devez les ajouter si vous souhaitez les voir.
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Configurations du système d’épreuves, partie 2 : gestion des workflows](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Configurations du système d’épreuves, partie 2 : gestion des workflows](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Effectuer le report du workflow existant de l’épreuve lors de la génération d’une nouvelle version
 

@@ -7,7 +7,7 @@ description: Utilisez l’équilibreur de charge de travail pour planifier le tr
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 496420d1c74b7c29d0fb2ff7109ea8478680d117
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 93%
@@ -151,7 +151,7 @@ La plupart des personnalisations que vous avez déjà appliquées à l’équili
    * Un projet
 
 1. Obtenez un lien partageable et copiez-le dans le presse-papiers, comme décrit dans [Partager l’équilibreur de charge de travail avec un lien](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
-1. Créez un tableau de bord avec une page externe, comme décrit dans [Intégrer une page web externe dans un tableau de bord](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Utilisez le lien partageable obtenu à l’étape 2 pour la page externe.
+1. Créez un tableau de bord avec une page externe, comme décrit dans [Incorporer une page web externe dans un tableau de bord](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Utilisez le lien partageable obtenu à l’étape 2 pour la page externe.
 
    <!--
       (NOTE: ensure this stays correct)

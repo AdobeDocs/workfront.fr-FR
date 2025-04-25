@@ -6,7 +6,7 @@ description: Recevoir les notifications  [!DNL Adobe Workfront]  dans  [!DNL Sla
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Vous devez disposer des éléments suivants :
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
    <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td> 
   </tr> 
  </tbody> 

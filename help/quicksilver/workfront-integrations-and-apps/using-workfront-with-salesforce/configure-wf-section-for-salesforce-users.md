@@ -1,12 +1,12 @@
 ---
 product-area: workfront-integrations;setup;user-management
 navigation-topic: workfront-for-salesforce
-title: Configurer la section  [!DNL Adobe Workfront]  pour les utilisateurs et utilisatrices  [!DNL Salesforce]
+title: 'Configurer la section  [!DNL Adobe Workfront]  pour les utilisateurs et utilisatrices  [!DNL Salesforce] '
 description: Après l’installation d’ [!DNL Adobe Workfront]  pour Salesforce en tant qu’administrateur ou administratrice de  [!DNL Workfront] , vous pouvez le mettre à la disposition de vos utilisateurs et utilisatrices en l’ajoutant dans une nouvelle section de leurs dispositions de page Opportunité et Compte dans Salesforce.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Configurer la section [!DNL Adobe Workfront] pour les utilisateurs et utilisatrices [!DNL Salesforce]
 
-Un plan [!DNL Workfront] [!UICONTROL Pro] est requis pour l’utilisation de cette fonctionnalité. Pour plus d’informations sur les différents plans disponibles, voir [[!DNL Workfront] Plans](https://www.workfront.com/plans?lang=fr).
+Un plan [!DNL Workfront] [!UICONTROL Pro] est requis pour l’utilisation de cette fonctionnalité. Pour plus d’informations sur les différents plans disponibles, voir [[!DNL Workfront] Plans](https://business.adobe.com/products/workfront/pricing.html).
 
 Après l’installation d’[!DNL Adobe Workfront] pour [!DNL Salesforce] en tant qu’administrateur ou administratrice de [!DNL Workfront], vous pouvez le mettre à la disposition de vos utilisateurs et utilisatrices en l’ajoutant dans une nouvelle section de leurs dispositions de page [!UICONTROL Opportunité] et [!UICONTROL Compte] dans [!UICONTROL Salesforce].
 

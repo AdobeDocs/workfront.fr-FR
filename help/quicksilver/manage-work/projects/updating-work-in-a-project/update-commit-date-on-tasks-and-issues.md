@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Mise à jour des dates de validation des tâches et des problèmes
+title: Mettre à jour les dates d'engagement pour les tâches et les événements
 description: Vous pouvez mettre à jour manuellement la date d’engagement d’un objet (tâche ou problème) qui vous est affecté. Pour plus d’informations sur les dates d’engagement dans Adobe Workfront, voir Vue d’ensemble de la date d’engagement.
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 81%
@@ -63,7 +63,7 @@ Vous pouvez mettre à jour manuellement la date d’engagement d’un objet (tâ
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Autorisations de gestion sur la tâche ou le problème</p>
-   <p> Vous devez être affecté à la tâche ou au problème pour mettre à jour la date de validation. </p>
+   <p> Vous devez être affecté à la tâche ou à l'événement pour mettre à jour la date de validation </p>
     </td> 
   </tr> 
  </tbody> 
@@ -85,7 +85,7 @@ Vous pouvez mettre à jour la date d’engagement d’une tâche ou d’un probl
 * Section Détails d’une tâche ou d’un problème
 * L’en-tête de la tâche ou du problème
 
-  L’administrateur de Workfront ou de votre groupe doit ajouter la date de validation à l’en-tête de tâche ou de problème de votre modèle de mise en page pour l’afficher à partir de la tâche ou de la page de publication.
+  Votre administrateur Workfront ou de groupe doit ajouter la date d’engagement à l’en-tête de tâche ou d’événement de votre modèle de mise en page pour l’afficher à partir de la page de la tâche ou de l’événement.
 Pour plus d’informations, voir [Personnaliser les en-têtes d’objets à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 La mise à jour de la date d’engagement est identique pour les tâches et les problèmes.
@@ -97,14 +97,14 @@ La mise à jour de la date d’engagement est identique pour les tâches et les 
 >Pour plus d’informations, consultez les articles suivants :
 >
 >* [Vue d’ensemble du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Personnalisez le panneau Résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Personnaliser le panneau Résumé à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 1. Accédez à un élément (tâche ou problème) qui vous est affecté en tant que **Personne propriétaire**.
 
    Pour plus d’informations sur la définition de la personne propriétaire de la tâche pour un problème ou une tâche, consultez la section [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) dans l’article [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. (Conditionnel et facultatif) Si votre administrateur Workfront ou de groupe a ajouté la date de validation à l’en-tête de la tâche ou du problème, cliquez sur le champ **Date de validation** dans l’en-tête, puis sélectionnez une date dans le calendrier. Si la date de validation ne figure pas dans l’en-tête, procédez comme suit.
+1. (Conditionnel et facultatif) Si votre administrateur de Workfront ou de groupe a ajouté la date d’engagement à l’en-tête de votre tâche ou de votre événement, cliquez sur le champ **Date d’engagement** dans l’en-tête, puis sélectionnez une date dans le calendrier. Si la date d’engagement ne figure pas dans l’en-tête, procédez comme suit.
 
    ![](assets/commit-date-task-header.png)
 

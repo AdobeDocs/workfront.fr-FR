@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1831'
 ht-degree: 77%
@@ -223,12 +223,12 @@ Le webinaire en direct sur la version 24.7 a été annulé, mais vous pouvez tou
                 </tr>
                 <tr>
                     <td>
-                        Améliorations de <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront pour Experience Manager Assets et Assets Essentials </a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations de Workfront pour Experience Manager Assets et Assets Essentials</a></p>
                         [!BADGE In production ]{type=Informative}
                         <p>Nous avons apporté les améliorations suivantes aux intégrations de Workfront pour Experience Manager Assets et Assets Essentials :</p>
                         <ul>
                             <li><p>L’intégration prend désormais en charge GCP en tant que fournisseur de services cloud. AWS et Azure étaient auparavant pris en charge.</p></li>
-                            <li><p>La taille maximale des fichiers envoyés à l’Experience Manager via l’intégration est passée à 30 Go. Auparavant, la limite était de 5 Go.</p></li>
+                            <li><p>La taille maximale des fichiers envoyés à Experience Manager par le biais de l’intégration est passée à 30 Go. Auparavant, la limite était de 5 Go.</p></li>
                         </ul>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -523,8 +523,8 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées au cours de la version du troisième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées au cours de la version du troisième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Mise à jour des formations
 
-Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

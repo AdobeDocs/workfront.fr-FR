@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ Alors que nous continuons à intégrer vos commentaires sur la création de dema
 
 Pour plus d’informations sur la création de demandes, voir [Créer et envoyer des demandes Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes de base des collaborateurs et collaboratrices pour la nouvelle expérience Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes de base des collaborateurs et collaboratrices pour la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) sur Workfront One.
 
 ## Améliorations apportées au workflow des demandes
 
@@ -64,7 +64,7 @@ Au fur et à mesure que nous continuons à écouter et à incorporer vos comment
 * Le tri de la liste Demandes envoyées selon l’une des colonnes est maintenant conservé lorsque vous quittez la page. Pour plus d’informations, voir [Rechercher des demandes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 * Lors de la création d’une nouvelle demande, les boutons Envoyer et Annuler se trouvent maintenant au bas du formulaire Nouvelle demande. Pour plus d’informations, voir [Créer et envoyer des demandes Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes de base des collaborateurs et collaboratrices pour la nouvelle expérience Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes de base des collaborateurs et collaboratrices pour la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) sur Workfront One.
 
 ## Ouvrir le panneau Résumé dans la section Envoyé de la zone Demandes
 
@@ -76,7 +76,7 @@ Afin de garantir la cohérence de votre expérience dans toutes les zones d’Ad
 
 Pour plus d’informations sur les demandes envoyées, voir [Rechercher des demandes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes fondamentaux des collaborateurs pour la nouvelle expérience Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes fondamentaux des collaborateurs pour la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) sur Workfront One.
 
 ## Restaurer les champs Nouveaux problèmes supprimés sur un formulaire Nouvelle demande
 
@@ -104,7 +104,7 @@ Possibilité de partager un lien vers la file d’attente des demandes, le group
 
 Pour plus d’informations sur l’envoi de demandes, voir [Créer et envoyer des demandes Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours d’apprentissage [Principes fondamentaux de la nouvelle expérience Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) de Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours d’apprentissage [Principes fondamentaux de la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) de Workfront One.
 
 ## Partager un lien vers une file d’attente des demandes lors de l’envoi d’une demande
 
@@ -114,8 +114,8 @@ Cette fonctionnalité est désormais incluse dans le parcours d’apprentissage 
 
 Il est désormais possible de partager un lien vers une file d’attente des demandes, un groupe de rubriques ou une rubrique de file d’attente lorsque vous créez une demande.
 
-Avant de soumettre une nouvelle demande, vous pouvez copier un lien vers la file d’attente des demandes, le groupe de rubriques ou la rubrique la file d’attente de la demande et le partager avec d’autres utilisateurs et utilisatrices, ou l’intégrer dans un tableau de bord.
+Avant de soumettre une nouvelle demande, vous pouvez copier un lien vers la file d’attente des demandes, le groupe de rubriques ou la rubrique la file d’attente de la demande et le partager avec d’autres utilisateurs et utilisatrices, ou l’incorporer dans un tableau de bord.
 
 Pour plus d’informations sur le partage d’un lien vers une file d’attente de demandes lors de l’envoi d’une demande, voir [Partager un lien vers une file d’attente des demandes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours d’apprentissage [Principes fondamentaux de la nouvelle expérience Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) de Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours d’apprentissage [Principes fondamentaux de la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) de Workfront One.

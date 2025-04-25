@@ -7,10 +7,10 @@ description: Si vous disposez de la formule Select ou Premium, vous pouvez fourn
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1225'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -94,7 +94,7 @@ L’authentification unique est une fonctionnalité Select et Premium, et peut d
 Vous disposez ici de deux méthodes (5) de configuration :
 
 1. **Héritée :** authentification unique avec la configuration extraite de votre compte hub.
-Si une personne accède à [!DNL Workfront Proof] par le biais de la **page de connexion par défaut** ([https://www.proofhq.com/login](https://www.proofhq.com/login)) il y aura **deux niveaux d’autorisation** : d’abord, la personne est invitée à se connecter à l’aide des données d’accès [!DNL Workfront Proof] (adresse e-mail et mot de passe), puis elle est transférée via une fenêtre d’authentification unique vers la page de connexion via authentification unique.
+Si un utilisateur accède à [!DNL Workfront Proof] par le biais de la **page de connexion par défaut** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html) **), deux niveaux d&#39;autorisation s&#39;appliquent** : tout d&#39;abord, il est invité à se connecter à l&#39;aide des données d&#39;accès [!DNL Workfront Proof] (adresse e-mail et mot de passe), puis l&#39;utilisateur est transféré par le biais d&#39;une fenêtre SSO vers la page de connexion SSO.
 Par conséquent, avec le service d’authentification unique activé, nous vous recommandons de vous connecter par l’intermédiaire de votre propre sous-domaine/domaine [!DNL Workfront Proof].
 
    >[!NOTE]
@@ -143,7 +143,7 @@ Si vous avez choisi la configuration d’authentification unique manuelle pour u
 Lorsque l’authentification unique est activée, l’URL de connexion au sous-domaine (yourcompany.proofhq.com/login, par exemple) affiche un écran de transfert (2) qui vous permet d’accéder directement à votre page de connexion via authentification unique.
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. Si un utilisateur ou une utilisatrice accède à [!DNL Workfront Proof] par le biais de la **page de connexion par défaut** ([https://www.proofhq.com/login](https://www.proofhq.com/login)) il y aura **deux niveaux d’autorisation**. D’abord, la personne doit se connecter à l’aide des données d’accès [!DNL Workfront Proof] (adresse e-mail et mot de passe). Ensuite, elle est transférée via une fenêtre d’authentification unique (2) vers la page de connexion via authentification unique.\
+1. Si un utilisateur accède à [!DNL Workfront Proof] via la page de connexion **par défaut** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)), il y aura **deux niveaux d’autorisation**. D’abord, la personne doit se connecter à l’aide des données d’accès [!DNL Workfront Proof] (adresse e-mail et mot de passe). Ensuite, elle est transférée via une fenêtre d’authentification unique (2) vers la page de connexion via authentification unique.\
    Par conséquent, avec le service d’authentification unique activé, nous vous recommandons de vous connecter par l’intermédiaire de votre propre sous-domaine/domaine [!DNL Workfront Proof].
 
 1. Pour le moment, lorsque l’authentification unique est activée sur votre compte Workfront Proof, vous ne pouvez pas vous connecter à l’application iPhone avec ces informations d’identification.

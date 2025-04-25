@@ -7,7 +7,7 @@ description: Un plan  [!DNL Workfront]  Select ou Premium est requis pour utilis
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 50%
@@ -22,7 +22,7 @@ ht-degree: 50%
 >
 >Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-Un plan [!DNL Workfront] Select ou Premium est requis pour utiliser cette fonctionnalité. Pour plus d’informations sur les différents plans disponibles, voir [Plans Workfront](https://www.workfront.com/plans?lang=fr).
+Un plan [!DNL Workfront] Select ou Premium est requis pour utiliser cette fonctionnalité. Pour plus d’informations sur les différents plans disponibles, voir [Plans Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 Les champs personnalisés vous permettent de capturer des données supplémentaires lors de la création d’une nouvelle épreuve, d’un nouvel utilisateur ou d’un nouvel invité. Par exemple, les utilisateurs et utilisatrices qui créent une épreuve peuvent inclure une section supplémentaire qui leur permettra de capturer un numéro de traitement, un code de service ou une référence du fournisseur.
 

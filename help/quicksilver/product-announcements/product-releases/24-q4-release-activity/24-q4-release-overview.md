@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2194'
 ht-degree: 39%
@@ -98,7 +98,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Une option « Tout sélectionner » est désormais disponible dans les modèles de disposition</a></p>
                     [!BADGE In production ]{type=Informative}
-                    <p>Pour faciliter l’affichage et le masquage des champs avec des modèles de mise en page, une case à cocher « Tout sélectionner » a été ajoutée aux zones Présentation et Finances de la vue Détails dans un modèle de mise en page. Cette option est disponible lorsque vous avez sélectionné Projet, Tâche, Événement, Portfolio ou Programme sous « Personnaliser ce que les utilisateurs voient ».</p>
+                    <p>Pour faciliter l’affichage et le masquage des champs avec des modèles de mise en page, une case à cocher « Tout sélectionner » a été ajoutée aux zones Présentation et Finances de la vue Détails dans un modèle de mise en page. Cette option est disponible lorsque vous avez sélectionné Projet, Tâche, Problème, Portfolio ou Programme sous « Personnaliser ce que les utilisateurs voient ».</p>
                 </td>
                 <td><p><b>Disponible à ces dates :</b></p>
                     <ul>
@@ -511,12 +511,12 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe de l’assistant AI disponible dans Workfront</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Assistant Adobe AI disponible dans Workfront</a></p>
                     [!BADGE In production ]{type=Informative}
-                    <p>Pour vous faciliter la tâche, nous avons ajouté l’assistant d’IA d’Adobe à Workfront. L’assistant AI peut vous aider en :</p>
+                    <p>Pour vous faciliter la tâche, nous avons ajouté l’assistant Adobe AI à Workfront. L’assistant AI peut vous aider en :</p>
                     <ul>
                         <li>Résumant les éléments de travail et les documents, vous permettant de comprendre rapidement l’ensemble des tâches, projets et ressources.</li>
-                        <li>Diffusion d’informations à partir de la documentation de l’Experience League, ajout de consignes et de documents de référence dans Workfront, tout en permettant d’accéder à une documentation plus détaillée.</li>
+                        <li>Transmission d’informations à partir de la documentation d’Experience League, ajout de consignes et de documents de référence dans Workfront, tout en permettant d’accéder à une documentation plus détaillée.</li>
                         <li>Créer et affiner des formules pour les champs de formulaire personnalisés calculés, générer des formules à partir d'invites de texte ou localiser des erreurs dans des formules existantes.</li>
                         </ul>
                         <p>Votre administrateur Workfront peut activer ou désactiver l’assistant AI pour votre entreprise. L’assistant AI est disponible pour les instances avec les plans Select, Prime et Ultimate.</p>
@@ -591,8 +591,8 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du quatrième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du quatrième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Mise à jour des formations
 
-Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

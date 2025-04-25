@@ -5,10 +5,10 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -29,10 +29,10 @@ Dans cette première version, le processus d’approbation a été rendu plus si
 * Prendre des décisions d’approbation directement à partir de « Mes mises à jour » et de la page d’accueil
 * Créer des approbations pour des versions de document spécifiques
 
-Pour plus d’informations sur l’utilisation des nouvelles approbations de documents, voir [Vue d’ensemble des nouvelles approbations de documents](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html?lang=fr).
+Pour plus d’informations sur l’utilisation des nouvelles approbations de documents, voir [Vue d’ensemble des nouvelles approbations de documents](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview).
 
 ## Nouveau bouton « Partager »
 
 L’option Partager a été retirée du menu Plus pour les projets, les tâches et les problèmes afin de rendre le partage plus intuitif. Le nouveau bouton « Partager » s’affiche maintenant à côté du nom d’un objet juste avant le menu « Plus ». Le partage de documents, de portfolios et de programmes reste inchangé.
 
-Pour plus d’informations sur le partage d’objets, consultez la section [Partager un objet](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html?lang=fr).
+Pour plus d’informations sur le partage d’objets, consultez la section [Partager un objet](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).

@@ -1,12 +1,12 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Accès nécessaire à la gestion des ressources dans l’équilibreur de charge de travail
+title: Accès nécessaire pour gérer les ressources dans l’équilibreur de charge de travail
 description: Si vous ne disposez pas de l’accès ou des autorisations nécessaires, il se peut que vous ne puissiez pas afficher ou gérer vos affectations de travail dans l’équilibreur de charge de travail.
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 80%
@@ -28,7 +28,7 @@ Le tableau suivant illustre le lien entre le plan Workfront de votre entreprise 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p><b>Formule Workfront (actuelle)</b></p></td> 
+   <td role="rowheader"><p><b>Plan Workfront (Actuel)</b></p></td> 
    <td> <p><b>Zones d’accès à l’équilibreur de charge de travail</b></p> </td> 
   </tr> 
   <tr> 
@@ -40,17 +40,17 @@ Le tableau suivant illustre le lien entre le plan Workfront de votre entreprise 
    <td>Équilibreur de charge de travail pour plusieurs projets, au niveau du système</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p><b>Formule Workfront (nouveau)</b></p></td> 
+   <td role="rowheader"><p><b>Plan Workfront (nouveau)</b></p></td> 
    <td> <p><b>Zones d’accès à l’équilibreur de charge de travail</b></p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Tous </td> 
-   <td>Accès à l’équilibreur de charge de travail n’importe où dans Workfront</td> 
+   <td>Accéder à l’équilibreur de charge de travail n’importe où dans Workfront</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur les plans Workfront, voir la section [Nos plans](https://www.workfront.com/plans?lang=fr).
+Pour plus d’informations sur les plans Workfront, voir la section [Nos plans](https://business.adobe.com/products/workfront/pricing.html).
 
 Pour plus d’informations sur l’emplacement possible de l’équilibreur de charge de travail dans Workfront, voir la section [Localiser l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
@@ -66,16 +66,16 @@ Vous devez disposer de l’accès suivant pour visualiser l’équilibreur de ch
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
        <p>ou</p>
-       <p>Actuel : prévoyez d’afficher l’équilibreur de charge de travail dans la zone Ressource ;</br>
+       <p>Actuel : plan, pour afficher l’équilibreur de charge de travail dans la zone Ressource;</br>
        Travail, pour afficher l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
   </tr>  
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Affichage ou accès supérieur à la gestion des ressources</p> <p>Pour plus d’informations sur le niveau d’accès à la gestion des ressources, reportez-vous à l’article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Accorder l’accès à la gestion des ressources</a>.</p></td> 
+   <td> <p>Accès en affichage ou supérieur à la gestion des ressources</p> <p>Pour plus d’informations sur le niveau d’accès à la gestion des ressources, reportez-vous à l’article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Accorder l’accès à la gestion des ressources</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Vous devez disposer des autorisations d’affichage sur le projet dont vous souhaitez afficher les affectations. </p> <p>Pour plus d’informations sur les autorisations de projet, voir l’article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p></td> 
+   <td> <p>Vous devez disposer des autorisations d'affichage pour le projet dont vous souhaitez afficher les affectations. </p> <p>Pour plus d’informations sur les autorisations de projet, voir l’article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,8 +94,8 @@ Vous devez disposer des accès suivants pour gérer l’équilibreur de charge d
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
        <p>ou</p>
-       <p>Actuel : planifiez la gestion des affectations dans l’équilibreur de charge de travail dans la zone Ressource ;</br>
-       Utilisation, pour gérer les affectations dans l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+       <p>Actuel : Planifier, pour gérer les affectations dans l’équilibreur de charge de travail dans la zone Ressource ; </br>
+       Travail, pour gérer les affectations dans l'équilibreur de charge de travail d'une équipe ou d'un projet</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 100%
@@ -155,7 +155,7 @@ Avant cette amélioration, la colonne voisine à droite de la colonne redimensio
 
 Pour plus d’informations sur le redimensionnement des colonnes de réorganisation dans les listes, voir [Modifier la largeur et l’ordre des colonnes](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Pour participer à notre programme de test bêta pour connaître les améliorations apportées à la liste actuelle, voir [Étude sur les nouvelles listes.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (connexion obligatoire)
+Pour participer à notre programme de test bêta pour connaître les améliorations apportées à la liste actuelle, voir [Étude sur les nouvelles listes.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (connexion obligatoire)
 
 ## Prise en charge des icônes pour les nouvelles listes de projets {#icon-support-for-the-new-project-lists}
 
@@ -379,7 +379,7 @@ Pour plus d’informations, voir [Partager une épreuve dans Adobe Workfront](.
 
 >[!NOTE]
 >
->Le lien intégré actuellement disponible sera supprimé dans une version ultérieure. Le lien intégré sera toujours accessible via l’API Workfront.
+>Le lien d’incorporation actuellement disponible sera supprimé dans une version ultérieure. Le lien d’incorporation sera toujours accessible via l’API Workfront.
 
 ### Générer des rapports sur les données de relecture supplémentaires dans Workfront {#report-on-additional-proofing-data-in-workfront}
 

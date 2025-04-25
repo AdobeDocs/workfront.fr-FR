@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 98%
@@ -23,7 +23,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 [Présentation des calendriers et des outils marketing pour la planification des campagnes de bout en bout](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) le 28 mars 2024, pour en savoir plus sur les nouvelles fonctionnalités du produit conçues pour vous permettre de gérer et de visualiser les cycles de vie opérationnels de bout en bout.
 
-Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} détaillant les nouveautés de la version 24.4.
+Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} avec les points forts de la version 24.4.
 
 <span class="preview">Les fonctionnalités hors cycle (sorties en production avant la date de la version du deuxième trimestre 2024) sont surlignées en jaune.</span>
 
@@ -662,9 +662,9 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Mise à jour des formations
 
-Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 

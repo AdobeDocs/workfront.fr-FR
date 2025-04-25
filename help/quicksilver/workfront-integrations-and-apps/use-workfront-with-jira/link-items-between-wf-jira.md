@@ -6,7 +6,7 @@ description: Vous pouvez lier des problèmes  [!DNL Jira]  à des tâches ou pro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 89%
@@ -28,7 +28,7 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
    <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td> 
   </tr> 
   <tr> 
@@ -144,7 +144,7 @@ Pour lier manuellement des problèmes [!DNL Jira] à des éléments [!DNL Workfr
 
    >[!IMPORTANT]
    >
-   >Si votre organisation a été intégrée à l’expérience unifiée d’Adobe, vous devez utiliser le **Numéro de référence** pour lier les éléments Workfront à Jira. (L’option URL est disponible, mais elle renvoie une erreur si vous l’utilisez.) Pour plus d’informations sur l’expérience unifiée, voir [Adobe de l’expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+   >Si votre organisation a été intégrée à l’expérience unifiée Adobe, vous devez utiliser le **Numéro de référence** pour lier les éléments Workfront à Jira. (L’option URL est disponible, mais elle renvoie une erreur si vous l’utilisez.) Pour plus d’informations sur l’expérience unifiée, voir [Expérience unifiée Adobe pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
    >
    >Pour les organisations qui ne disposent pas d’une expérience unifiée Adobe, il n’est pas recommandé d’utiliser l’option URL, car les URL peuvent changer.
 

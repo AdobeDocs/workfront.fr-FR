@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46ed705e-b966-4ae9-a602-a5a73a3de3aa
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -55,9 +55,9 @@ Les statuts personnalisés peuvent désormais être utilisés dans les processus
 * Créez un processus d’approbation à usage unique pour un objet (projet, tâche ou problème) et basez-le sur les statuts associés au groupe travaillant sur cet objet. Cela inclut tous les statuts personnalisés associés au groupe.
 * Créez un processus d’approbation global et rendez-le disponible pour le groupe uniquement ou pour toutes les personnes du système.
 
-Pour les utilisateurs et utilisatrices disposant d’un accès administratif aux processus d’approbation, des informations sur la configuration des processus d’approbation sont disponibles dans [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (ou, si vous utilisez Adobe Workfront Classic, consultez [Créer un processus d’approbation](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Pour les utilisateurs et utilisatrices disposant d’un accès administratif aux processus d’approbation, des informations sur la configuration des processus d’approbation sont disponibles dans [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (ou, si vous utilisez Adobe Workfront Classic, consultez [Créer un processus d’approbation](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Pour les utilisateurs et utilisatrices, des informations sur l’association des processus d’approbation aux éléments de travail sont disponibles dans [Associer un processus d’approbation nouveau ou existant à un travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (ou, si vous utilisez Adobe Workfront Classic, consultez [Associer un processus d’approbation nouveau ou existant à un travail](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Pour les utilisateurs et utilisatrices, des informations sur l’association des processus d’approbation aux éléments de travail sont disponibles dans [Associer un processus d’approbation nouveau ou existant à un travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (ou, si vous utilisez Adobe Workfront Classic, consultez [Associer un processus d’approbation nouveau ou existant à un travail](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponibles dans ces environnements :**
 

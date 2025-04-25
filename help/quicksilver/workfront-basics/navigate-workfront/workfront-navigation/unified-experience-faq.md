@@ -6,7 +6,7 @@ description: Certaines fonctionnalités diffèrent entre  [!DNL Workfront]  et A
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 68a5bfe5d85ac530ac14faf2a6a5cccf602e6c8c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 92%
@@ -32,9 +32,9 @@ Ce tableau décrit les fonctionnalités qui diffèrent entre les deux expérienc
 | Un &quot;sélecteur d’organisation&quot; vous permet de passer d’une [!DNL Workfront] organisations et environnements | Le « sélecteur d’organisation » n’est pas disponible. |
 | La navigation comprend une zone de navigation supérieure pour les produits [!DNL Adobe], les notifications [!DNL Adobe], l’aide et votre profil utilisateur, en plus de la barre de navigation [!DNL Workfront]. | La navigation comprend la barre de navigation [!DNL Workfront] uniquement. |
 | L’aide est accessible à partir du [!UICONTROL menu principal] et de la zone de navigation supérieure. | L’aide est accessible à partir du [!UICONTROL menu principal] et de la barre de navigation [!DNL Workfront]. |
-| La visionneuse de vérification s’ouvre dans un nouvel onglet. | La visionneuse de vérification s’ouvre dans Workfront |
-| L’URL d’accès à Workfront est `experience.adobe.com` | L’URL d’accès à Workfront est `(CompanyName).my.workfront.com` |
-| Le format de date (MM/JJ/AAAA, par exemple) est basé sur les paramètres de la langue de l’expérience unifiée. Si l’utilisateur n’a pas mis à jour ses paramètres de langue, les paramètres `en-US` sont utilisés. | Le format de date (MM/JJ/AAAA, par exemple) est basé sur les préférences du navigateur. |
+| Le lecteur de vérification s’ouvre dans un nouvel onglet | La visionneuse de relecture s’ouvre dans Workfront |
+| L’URL utilisée pour accéder à Workfront est `experience.adobe.com` | L’URL utilisée pour accéder à Workfront est `(CompanyName).my.workfront.com` |
+| Le format de date (MM/JJ/AAAA, par exemple) est basé sur les paramètres de langue de l’expérience unifiée. Si l’utilisateur n’a pas mis à jour ses paramètres de langue, les paramètres de `en-US` sont utilisés. | Le format des dates (MM/JJ/AAAA, par exemple) dépend des préférences du navigateur |
 
 {style="table-layout:auto"}
 
@@ -61,9 +61,9 @@ Pour plus d’informations sur l’[!DNL Admin Console], passez en revue ces art
 
 Les clients et clientes existants seront contactés pour planifier les migrations. Les collègues de l’équipe d’assistance à la migration vont guider les clients et clientes tout au long du processus, les conseiller sur la configuration d’[!DNL Admin Console] et fournir des liens vers la documentation nécessaire pour que la migration soit aussi simple et facile que possible.
 
-* Vue d’ensemble de l’assistance [[!DNL Adobe Workfront] ](https://experienceleague.adobe.com/docs/customer-one/using/workfront/overview.html)
-* Informations sur [[!DNL Workfront Admin Console] ](https://experienceleague.adobe.com/docs/customer-one/using/workfront/landing.html)
-* Questions fréquentes sur [[!DNL Adobe Business Platform]  et l’ [!DNL Admin Console] ](https://experienceleague.adobe.com/docs/customer-one/using/workfront/faq.html)
+* Vue d’ensemble de l’assistance [[!DNL Adobe Workfront] ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* Informations sur [[!DNL Workfront Admin Console] ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* Questions fréquentes sur [[!DNL Adobe Business Platform]  et l’ [!DNL Admin Console] ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### Comment gérez-vous [!DNL Adobe Admin Console] pour les entreprises qui l’ont déjà activé pour les ID fédérés différemment de la configuration SSO [!DNL Workfront] ?
 
@@ -145,6 +145,6 @@ La migration vers [!DNL Adobe Unified Experience] n’a aucun impact sur les uti
 
 Les utilisateurs et utilisatrices [!DNL Workfront] mobiles ne devraient pas être affectés par la migration vers [!DNL Adobe Unified Experience].
 
-### JumpSeat ne fonctionne pas avec [!DNL Adobe Unified Experience]. Comment puis-je résoudre ce problème ?
+### JumpSeat ne fonctionne pas avec le [!DNL Adobe Unified Experience]. Comment résoudre ce problème ?
 
-JumpSeat fonctionne avec le [!DNL Adobe Unified Experience], mais nécessite une mise à jour de configuration. À l’aide du panneau d’administration JumpSeat, modifiez l’URL de l’application de `workfront.com` pour qu’elle se termine par `.workfront.adobe.com`
+JumpSeat fonctionne avec le [!DNL Adobe Unified Experience], mais nécessite une mise à jour de la configuration. À l’aide du panneau d’administration JumpSeat, modifiez l’URL de l’application de `workfront.com` en se terminant par `.workfront.adobe.com`

@@ -7,7 +7,7 @@ description: Une fois que les personnes chargées de la gestion de projet ont pl
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 96%
@@ -35,7 +35,7 @@ Une fois que les personnes chargées de la gestion de projet ont planifié le tr
 
 Cet article décrit l’objectif général de l’équilibreur de charge de travail et quelques-unes des bonnes pratiques pour configurer vos projets et ressources afin de l’utiliser correctement.
 
-Pour consulter les tutoriels vidéo de l’équilibreur de charge de travail, accédez à la page [Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr). Dans le menu de gauche, sélectionnez **Gérer les ressources** > **Équilibreur de charge de travail** et choisissez un tutoriel.
+Pour consulter les tutoriels vidéo de l’équilibreur de charge de travail, accédez à la page [Tutoriels Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home). Dans le menu de gauche, sélectionnez **Gérer les ressources** > **Équilibreur de charge de travail** et choisissez un tutoriel.
 
 ## Localiser l’équilibreur de charge de travail
 

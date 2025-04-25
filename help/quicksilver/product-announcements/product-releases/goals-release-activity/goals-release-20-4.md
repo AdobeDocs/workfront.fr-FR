@@ -5,10 +5,10 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ Nous continuons d’améliorer la manière dont vous utilisez Objectifs Workfro
 >
 >**Disponibilité en production :** avec la version 20.4
 
-Cette fonctionnalité est désormais incluse dans le [parcours de formation Objectifs Workfront](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le [parcours de formation Objectifs Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Contrôles d’accès pour Objectifs Workfront
 
@@ -61,7 +61,7 @@ Pour plus d’informations sur l’octroi de l’accès à Objectifs Workfront,
 >
 >**Disponibilité en production :** avec la version 20.4
 
-Cette fonctionnalité est désormais incluse dans le [parcours de formation Objectifs Workfront](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le [parcours de formation Objectifs Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Améliorations de la convivialité d’Objectifs Workfront
 
@@ -82,4 +82,4 @@ Pour plus d’informations, voir les articles suivants :
 >
 >**Disponibilité en production :** avec la version 20.4
 
-Cette fonctionnalité est désormais incluse dans le [parcours de formation Objectifs Workfront](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le [parcours de formation Objectifs Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.

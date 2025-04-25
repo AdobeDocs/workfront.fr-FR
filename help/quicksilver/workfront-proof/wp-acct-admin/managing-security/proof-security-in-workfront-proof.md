@@ -8,10 +8,10 @@ description: La sécurité des données est essentielle pour  [!DNL Workfront Pr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ La sécurité des données est essentielle pour [!DNL Workfront Proof]. Nous inv
 
 Par conséquent, nous offrons à notre clientèle des niveaux de sécurité et de confidentialité inégalés.
 
-Veuillez consulter la page [Vue d’ensemble de la sécurité](https://www.workfront.com/workfront-security?lang=fr) pour plus d’informations.
+Veuillez consulter la page [Vue d’ensemble de la sécurité](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html) pour plus d’informations.
 
 ## Exigences en matière de signatures électroniques
 

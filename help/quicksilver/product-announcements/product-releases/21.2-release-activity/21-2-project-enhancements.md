@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 99%
@@ -29,7 +29,7 @@ Dans le cadre de la refonte des zones Nouvelle tâche et Modifier la tâche, nou
 
 Pour plus d’informations, voir [Créer des tâches récurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes de planification de la nouvelle expérience Workfront, Partie 2 : planifier un projet](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes de planification de la nouvelle expérience Workfront, Partie 2 : planifier un projet](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Nouveaux boutons disponibles dans l’en-tête Projets
 
@@ -39,7 +39,7 @@ Cette fonctionnalité est désormais incluse dans le parcours de formation [Prin
 
 Pour vous permettre de filtrer rapidement la liste des projets sur la page Projets, il y a deux nouveaux boutons dans l’en-tête qui vous permettent d’appliquer rapidement le filtre Projets sur lesquels je travaille ou Projets dont je suis propriétaire.
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes de planification de la nouvelle expérience Workfront, Partie 1 : créer un projet](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes de planification de la nouvelle expérience Workfront, Partie 1 : créer un projet](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Déplacer ou supprimer une histoire ou un problème dans le panorama Scrum
 
@@ -133,9 +133,9 @@ Les utilisateurs et utilisatrices peuvent désormais voir la mise en forme du te
 
 Auparavant, dans Workfront Classic, la mise en forme du texte n’était visible que dans les listes de projets, de tâches et d’heures.
 
-Pour plus d’informations sur la mise en forme du texte dans un champ personnalisé, voir [Créer un formulaire personnalisé](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+Pour plus d’informations sur la mise en forme du texte dans un champ personnalisé, voir [Créer un formulaire personnalisé](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
-Pour plus d’informations sur l’affichage d’informations dans des listes, voir [Commencer avec les listes](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
+Pour plus d’informations sur l’affichage d’informations dans des listes, voir [Commencer avec les listes](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## Nouvelle boîte de dialogue Modifier la tâche
 

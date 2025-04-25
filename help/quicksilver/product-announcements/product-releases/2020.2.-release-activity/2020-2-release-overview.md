@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 88a97b1e-4052-485e-8566-963c6ba640b9
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2544'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -267,7 +267,7 @@ Pour plus d’informations sur les mises à jour de maintenance effectuées au c
 
 Depuis le 20 mai 2020, Workfront a commencé à mettre à disposition des fonctionnalités dans l’environnement de prévisualisation sur une base hebdomadaire. Avant cette modification, les fonctionnalités étaient généralement mises à disposition dans l’environnement de prévisualisation toutes les deux semaines.
 
-Pour plus d’informations, voir [Questions fréquentes sur la modification de la cadence des versions préliminaires](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence).
+Pour plus d’informations, voir [Questions fréquentes sur la modification de la cadence des versions préliminaires](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ### Ajout de domaines supplémentaires à la liste autorisée requise pour accéder à Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -282,7 +282,7 @@ Pour plus d’informations, voir la section [Configurer la liste autorisée de v
 
 Avec Workfront One, vous découvrirez le contenu, les ressources et les nouveautés de Workfront les plus importants, le tout au même endroit, avec la même connexion. Nous avons unifié les sites Expérience, Communauté et Formation pour faciliter la recherche.
 
-[En savoir plus sur Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[En savoir plus sur Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinaire sur la version 2020.1 {#2020-1-release-webinar}
 

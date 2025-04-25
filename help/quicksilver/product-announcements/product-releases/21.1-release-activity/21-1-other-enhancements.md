@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ Pour plus d’informations, voir la section [Autoriser les utilisateurs et utili
 
 Pour plus d’informations sur les raisons pour lesquelles procéder à cette modification, voir la section [Nouveau système géré par Adobe Workfront pour remplacer un e-mail POP pour les files d’attente des demandes avec la version 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Gestion des files d’attente dans la nouvelle expérience Workfront](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Gestion des files d’attente dans la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Limiter la modification des heures sur les feuilles de temps
 

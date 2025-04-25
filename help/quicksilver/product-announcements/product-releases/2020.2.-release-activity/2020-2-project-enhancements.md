@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 150bc838-d6a5-445a-af77-62c4ed74dd1b
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Dans Configuration, vous configurez une préférence afin de vous assurer que ch
 
 Pour s’assurer que les nouveaux projets ont toujours un statut, même si un administrateur ou une administratrice masque ou déverrouille le statut configuré pour les nouveaux projets, le système attribue désormais le premier statut de la liste Statut à tous les nouveaux projets jusqu’à ce que vous configuriez à nouveau le statut pour les nouveaux projets.
 
-Pour plus d’informations sur la définition de la préférence pour le statut de tous les nouveaux projets, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou si vous utilisez Adobe Workfront Classic, voir [Définir les préférences du projet](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Pour plus d’informations sur la définition de la préférence pour le statut de tous les nouveaux projets, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou si vous utilisez Adobe Workfront Classic, voir [Définir les préférences du projet](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponible dans ces environnements :**
 
@@ -42,7 +42,7 @@ La définition des préférences d’un projet est désormais plus simple et int
 * Si vous saisissez un nombre non valide pour une option telle que « Heures habituelles par journée de travail », un message d’avertissement s’affiche immédiatement au lieu d’apparaître après avoir cliqué sur Enregistrer.
 * Les libellés d’option correspondent au texte de l’interface correspondant ailleurs dans Workfront, comme la zone Détails et les rapports.
 
-Pour plus d’informations sur la zone Préférences du projet, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou si vous utilisez Adobe Workfront Classic, voir [Définir les préférences du projet](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Pour plus d’informations sur la zone Préférences du projet, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou si vous utilisez Adobe Workfront Classic, voir [Définir les préférences du projet](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponible dans ces environnements :**
 
@@ -68,11 +68,11 @@ Par exemple, lorsque vous déplacez ou copiez une tâche avec une contrainte Il 
 
 Avant cette modification, la contrainte de tâche passait toujours à Aussi Tôt Que Possible.
 
-Pour plus d’informations sur le déplacement des tâches, voir [Déplacer des tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md) (ou si vous utilisez Adobe Workfront Classic, voir [Déplacer des tâches](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Pour plus d’informations sur le déplacement des tâches, voir [Déplacer des tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md) (ou si vous utilisez Adobe Workfront Classic, voir [Déplacer des tâches](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (ou si vous utilisez Adobe Workfront Classic, voir [Copier et dupliquer des tâches](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (ou si vous utilisez Adobe Workfront Classic, voir [Copier et dupliquer des tâches](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Pour une vue d’ensemble de toutes les contraintes de tâche, voir [Vue d’ensemble de la contrainte de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (ou si vous utilisez Adobe Workfront Classic, voir [Vue d’ensemble de la contrainte de tâche](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Pour une vue d’ensemble de toutes les contraintes de tâche, voir [Vue d’ensemble de la contrainte de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (ou si vous utilisez Adobe Workfront Classic, voir [Vue d’ensemble de la contrainte de tâche](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponible dans ces environnements :**
 

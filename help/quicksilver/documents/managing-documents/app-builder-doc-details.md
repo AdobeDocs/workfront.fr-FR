@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 1%
@@ -58,7 +58,7 @@ Vous devez disposer des éléments suivants :
 Les entreprises doivent collaborer avec leurs gestionnaires de compte pour acheter AppBuilder. Le processus exact n’est pas compris, car nous n’avions pas besoin de le faire pour le PDC.
 
 Si vous souhaitez tester l’intégration d’AppBuilder, vous pouvez demander une version d’essai gratuite pour votre organisation IMS ici :
-[https://developer.adobe.com/app-builder/trial/#](https://developer.adobe.com/app-builder/trial/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
 
 J&#39;ai l&#39;impression que, même s&#39;il s&#39;agit d&#39;un essai gratuit de 30 jours, ils ne désactiveront pas le procès après cette période.
 

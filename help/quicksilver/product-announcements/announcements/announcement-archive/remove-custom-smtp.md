@@ -6,7 +6,7 @@ description: Avec la version 20.3 (prévue pour août 2020), Adobe Workfront p
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 98%
@@ -25,4 +25,4 @@ Le paramètre mis en évidence dans cette capture d’écran est automatiquement
 
 Si vous avez configuré un serveur de messagerie SMTP personnalisé, **nous vous recommandons vivement de contacter votre équipe informatique** pour vous assurer que les e-mails de notifications@my.workfront.com ne seront pas bloqués pour les e-mails entrants sur votre système. Vous pouvez également vous reporter à Configuration de votre pare-feu pour plus d’informations sur les adresses IP d’où viennent notre trafic et nos e-mails.
 
-Si vous avez d’autres questions, veuillez contacter l’[équipe d’assistance Workfront](https://experienceleague.adobe.com/fr?support-tab=home#support).
+Si vous avez d’autres questions, veuillez contacter l’[équipe d’assistance Workfront](https://experienceleague.adobe.com/?support-tab=home#support).

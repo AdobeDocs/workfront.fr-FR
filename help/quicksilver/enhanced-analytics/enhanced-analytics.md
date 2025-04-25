@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5d5be823-77d9-4d0c-bec6-cc172ea7f50b
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 67%
+ht-degree: 66%
 
 ---
 
@@ -42,4 +42,4 @@ Cette section contient les articles suivants :
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-Pour une formation approfondie sur Analytique améliorée, voir [Parcours de formation Analytique améliorée](https://one.workfront.com/s/enhanced-analytics-program).
+Pour une formation approfondie sur Analytique améliorée, voir [Parcours de formation Analytique améliorée](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

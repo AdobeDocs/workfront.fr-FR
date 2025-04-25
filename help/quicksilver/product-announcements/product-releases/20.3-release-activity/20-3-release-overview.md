@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3829'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -118,7 +118,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
 >
 >Votre organisation doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
 >
->* Une [formule Adobe Workfront](https://www.workfront.com/plans?lang=fr) Pro ou version supérieure.
+>* Une [formule Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) Pro ou version supérieure.
 >* Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
 >
 >  Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
@@ -150,32 +150,32 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
 >Vous devez disposer des éléments suivants :
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Formule Workfront</a>*</p> </td> 
->&gt;   <td>Entreprises ou niveau supérieur</td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>Type de licence*</p> </td> 
->&gt;   <td> <p>Révision ou niveau supérieur Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">Produit</td> 
->&gt;   <td>Planificateur de scénarios Workfront <p>Pour plus d’informations sur le planificateur de scénarios Workfront, consultez la section <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Vue d’ensemble du planificateur de scénarios</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"><strong>Niveau d’accès*</strong> </td> 
->&gt;   <td> <p>Accès Affichage ou niveau supérieur au planificateur de scénarios</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"> <p><strong>Autorisations d’objet</strong> </p> </td> 
->&gt;   <td> <p>Autorisations d’affichage ou niveau supérieur pour un plan</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à une formule, consultez la section <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à une formule dans le planificateur de scénarios</a>.</p> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
->&gt;*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou votre administratrice Workfront.
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Formule Workfront</a>*</p> </td> 
+&gt;   <td>Entreprises ou niveau supérieur</td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>Type de licence*</p> </td> 
+&gt;   <td> <p>Révision ou niveau supérieur Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">Produit</td> 
+&gt;   <td>Planificateur de scénarios Workfront <p>Pour plus d’informations sur le planificateur de scénarios Workfront, consultez la section <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Vue d’ensemble du planificateur de scénarios</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"><strong>Niveau d’accès*</strong> </td> 
+&gt;   <td> <p>Accès Affichage ou niveau supérieur au planificateur de scénarios</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"> <p><strong>Autorisations d’objet</strong> </p> </td> 
+&gt;   <td> <p>Autorisations d’affichage ou niveau supérieur pour un plan</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à une formule, consultez la section <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à une formule dans le planificateur de scénarios</a>.</p> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
+&gt;*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou votre administratrice Workfront.
 
  
 
@@ -435,7 +435,7 @@ Pour plus d’informations sur les mises à jour de maintenance effectuées lors
 
 À partir du 20 mai 2020, Workfront a commencé à mettre à disposition des fonctionnalités dans l’environnement de prévisualisation sur une base hebdomadaire. Avant cette modification, les fonctionnalités étaient généralement mises à disposition dans l’environnement de prévisualisation toutes les deux semaines.
 
-Pour plus d’informations, voir [Questions fréquentes sur la modification du rythme de publication de la version préliminaire de Workfront](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence).
+Pour plus d’informations, voir [Questions fréquentes sur la modification du rythme de publication de la version préliminaire de Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ### Liste autorisée des domaines supplémentaires requis pour accéder à Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -450,11 +450,11 @@ Pour plus d’informations, consultez [Configurer la liste autorisée de votre p
 
 Avec Workfront One, vous découvrirez le contenu, les ressources et les nouveautés de Workfront les plus importants, le tout au même endroit, avec la même connexion. Nous avons unifié les sites Expérience, Communauté et Formation pour faciliter la recherche.
 
-[En savoir plus sur Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[En savoir plus sur Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinaire sur la version 20.3 {#20-3-release-webinar}
 
-Accéder au webinaire sur la version 20.3 du produit [ici](https://one.workfront.com/s/managed-content-event/20-3-product-release-webinar-20Y0z000000bmRJEAY).
+Accéder au webinaire sur la version 20.3 du produit [ici](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

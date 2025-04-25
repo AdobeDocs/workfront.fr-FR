@@ -7,7 +7,7 @@ description: La visualisation de la feuille de route montre combien de projets (
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 92%
@@ -34,7 +34,7 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Plan Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Plan Adobe Workfront</a>*</td> 
    <td> <p>Entreprises ou niveau supérieur</p> </td> 
   </tr> 
   <tr> 

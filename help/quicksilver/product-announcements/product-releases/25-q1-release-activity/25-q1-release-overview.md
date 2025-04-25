@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2775'
 ht-degree: 30%
@@ -155,7 +155,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Le filtrage sur les champs de saisie semi-automatique natifs est désormais disponible</a></p>
             [!BADGE In production ]{type=Informative}
-            <p>Lorsque vous ajoutez une référence de champ native à un formulaire personnalisé et qu’elle fait référence à un champ de saisie semi-automatique (par exemple, Portfolio, Société ou Propriétaire), une option de filtrage est désormais disponible. Le filtre vous permet de limiter les objets que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ . Ce filtre personnalisé fonctionne de la même manière qu’un filtre sur un champ de saisie semi-automatique personnalisé, en utilisant le mode texte pour définir le filtre.</p>
+            <p>Lorsque vous ajoutez une référence de champ native à un formulaire personnalisé et qu’elle fait référence à un champ de saisie semi-automatique (tel que Portfolio, Société ou Propriétaire), une option de filtre est désormais disponible. Le filtre vous permet de limiter les objets que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ . Ce filtre personnalisé fonctionne de la même manière qu’un filtre sur un champ de saisie semi-automatique personnalisé, en utilisant le mode texte pour définir le filtre.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
@@ -583,7 +583,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Bouton de création d’un compte de lecteur pour la première fois pour Data Connect</a></p>
             [!BADGE In production ]{type=Informative}
-            <p>Les administrateurs qui accèdent pour la première fois à Data Connect ont désormais la possibilité de créer un compte de lecteur de Snowflake en cliquant sur un seul bouton. Le processus prend quelques minutes, mais ne nécessite aucune autre action.</p>
+            <p>Les administrateurs qui accèdent pour la première fois à Data Connect ont désormais la possibilité de créer un compte de lecteur Snowflake en cliquant sur un seul bouton. Le processus prend quelques minutes, mais ne nécessite aucune autre action.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
@@ -638,7 +638,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Mise à jour sur la gestion des ressources déplacées ou supprimées dans les dossiers liés</a></p>
             [!BADGE In production ]{type=Informative}
-            <p>Nous avons modifié la façon dont les ressources déplacées et supprimées sont traitées lors de l’utilisation de l’intégration d’Adobe Workfront à Experience Manager Assets et aux Assets Essentials :</p>
+            <p>Nous avons modifié la façon dont les ressources déplacées et supprimées sont traitées lors de l’utilisation de l’intégration d’Adobe Workfront à Experience Manager Assets et Assets Essentials :</p>
             <ul>
                 <li>Ressources supprimées : lorsqu’une ressource est supprimée dans un dossier lié dans Assets ou Assets Essentials, la ressource supprimée est conservée dans la zone des Documents de projet.</li>
                 <li>Ressources déplacées : lorsqu’une ressource est déplacée en dehors d’un dossier lié dans Assets ou Assets essentials, la ressource déplacée est conservée dans la zone des Documents de projet.</li>
@@ -747,8 +747,8 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Mise à jour des formations
 
-Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

@@ -8,7 +8,7 @@ description: L’authentification unique (SSO) permet à vos utilisateurs et uti
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb1f6883-6209-4a55-b181-67af4b496ca0
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-Une formule [!UICONTROL Entreprise] [!DNL Workfront] est requise pour utiliser cette fonctionnalité. Pour plus d’informations sur les différentes formules disponibles, voir [Formules Workfront](https://www.workfront.com/plans?lang=fr).
+Une formule [!UICONTROL Entreprise] [!DNL Workfront] est requise pour utiliser cette fonctionnalité. Pour plus d’informations sur les différentes formules disponibles, voir [Formules Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 L’authentification unique (SSO) permet à vos utilisateurs et utilisatrices de se connecter à [!DNL Workfront Proof] à l’aide du nom d’utilisateur ou d’utilisatrice et du mot de passe existants de votre organisation.
 

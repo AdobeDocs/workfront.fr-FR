@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1365'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -138,5 +138,5 @@ Pour plus d’informations sur l’utilisation des champs dans les listes et les
 
 Lorsque vous abandonnez un brouillon enregistré, vous pouvez maintenant cliquer sur Annuler dans le message de confirmation qui vous informe que votre brouillon sera supprimé. De cette façon, vous ne perdez pas le brouillon au cas où vous décidez de ne plus l’abandonner.
 
-Cette fonctionnalité est disponible uniquement dans la nouvelle expérience Workfront. Pour plus d’informations, voir [Créer et envoyer des demandes Workfront](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html).
+Cette fonctionnalité est disponible uniquement dans la nouvelle expérience Workfront. Pour plus d’informations, voir [Créer et envoyer des demandes Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 

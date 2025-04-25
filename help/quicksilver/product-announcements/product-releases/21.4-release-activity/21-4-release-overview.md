@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 99%
@@ -465,7 +465,7 @@ Le webinaire sur la version 21.4 de Workfront a été présenté le 23 septembr
 
 ## Mise à jour des formations
 
-Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, voir la [page Mise à jour des versions de formation](https://one.workfront.com/s/training-release-updates).
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, voir la [page Mise à jour des versions de formation](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Fonctionnalités n’étant plus prises en charge
 

@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Vue : Variance de ligne de base pour la durée et le travail planifié dans une vue de tâche"
-description: Affichez la variance de ligne de base pour la durée et le travail planifié.
+title: 'Vue : Variance de référence pour la durée et le travail prévu dans une vue Tâche'
+description: Afficher la variance de référence pour la durée et le travail prévu.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2a1eef9c-016c-4a04-acda-6070fcb0e23d
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 68%
@@ -26,7 +26,7 @@ Cette vue affiche les éléments suivants dans une vue de tâche :
 
 >[!NOTE]
 >
->Les données affichées dans la vue suivante comparent les valeurs réelles de la tâche aux valeurs associées aux tâches de la ligne de base par défaut.
+>Les données affichées dans la vue suivante comparent les valeurs réelles des tâches aux valeurs associées aux tâches de la ligne de base par défaut.
 
 ![baseline_variance_in_a_task_view.png](assets/baseline-variance-in-a-task-view-350x38.png)
 
@@ -48,7 +48,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -66,16 +66,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Afficher l’écart de référence pour la durée et le travail prévu dans une vue de tâche
 
 1. Accédez à une liste de tâches.
-1. Dans le menu déroulant **Affichage**, sélectionnez **Nouvelle vue** ou modifiez une vue existante.
+1. Dans le menu déroulant **Affichage**, sélectionnez **Nouvel affichage** ou modifiez un affichage existant.
 1. Supprimez toutes les colonnes de la vue, à l’exception de la première.
-1. Avec la première colonne sélectionnée, cliquez sur **Passer en mode Texte**, puis sur **Modifier la vue de texte**.
+1. Une fois la première colonne sélectionnée, cliquez sur **Passer en mode Texte**, puis sur **Modifier la vue Texte**.
 1. Copiez le texte ci-dessous et collez-le dans la première colonne de la vue :
 
    ```

@@ -7,10 +7,10 @@ description: Adobe Workfront est une application de gestion du travail qui vous
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: b0c6df90-3ea8-4c81-abe2-48c2748a4d2b
-source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -49,10 +49,10 @@ Le connecteur amélioré Workfront pour Experience Manager vous permet désorma
 
 ## Prise en main
 
-1. **Installez et configurez le connecteur**. À l’aide d’un partenaire certifié ou d’Adobe Professional Services, installez et configurez Workfront pour le connecteur amélioré Experience Manager afin d’organiser et de normaliser les processus, d’établir la gouvernance et d’optimiser le cycle de vie des ressources de la création à la diffusion. [Installez-le dans Adobe Experience Manager 6.5](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/integrations/workfront-integrations) ou [ dans Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
+1. **Installez et configurez le connecteur**. À l’aide d’un partenaire certifié ou d’Adobe Professional Services, installez et configurez Workfront pour le connecteur amélioré Experience Manager afin d’organiser et de normaliser les processus, d’établir la gouvernance et d’optimiser le cycle de vie des ressources de la création à la diffusion. [Installez-le dans Adobe Experience Manager 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations) ou [ dans Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
 1. **Utilisez le connecteur**. Découvrez les fonctionnalités du connecteur amélioré en action avec la génération automatique de dossiers liés au projet dans Experience Manager Assets, les métadonnées Workfront mappées à Experience Manager Assets et aux dossiers, la synchronisation bidirectionnelle des métadonnées, etc. Pour plus d’informations, voir [Connecteur amélioré Workfront pour Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md).
 
 ## Plus d’informations
 
-* Vue d’ensemble de [Workfront pour Adobe Experience Manager](https://business.adobe.com/fr/products/workfront/aem-integration.html)
+* Vue d’ensemble de [Workfront pour Adobe Experience Manager](https://business.adobe.com/products/workfront/aem-integration.html)
 * [Adobe Workfront pour Adobe Experience Manager Assets Essentials](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

@@ -3,15 +3,15 @@ content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
-title: Questions fréquentes - Compte  [!DNL Workfront Proof]
+title: 'Questions fréquentes - Compte  [!DNL Workfront Proof] '
 description: Pour ouvrir un nouveau compte, rendez-vous sur la page d’inscription à l’essai et ouvrez un compte d’essai. Une personne membre de notre équipe prendra ensuite contact avec vous pour vous aider à commencer avec  [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## Comment ouvrir un nouveau compte [!DNL Workfront Proof] ?
 
-Pour ouvrir un nouveau compte, rendez-vous sur la [page d’inscription à l’essai](https://www.proofhq.com/html/free-trial.html) et ouvrez un compte d’essai. Une personne membre de notre équipe prendra ensuite contact avec vous pour vous aider à commencer avec [!DNL Workfront Proof].
+Pour ouvrir un nouveau compte, rendez-vous sur la [page d’inscription à l’essai](https://business.adobe.com/products/workfront/proofing-approvals.html) et ouvrez un compte d’essai. Une personne membre de notre équipe prendra ensuite contact avec vous pour vous aider à commencer avec [!DNL Workfront Proof].
 
 Si vous connaissez déjà le système et que vous souhaitez vous abonner à une formule payante, rendez-vous sur *[!UICONTROL Paramètres]* *>* *[!UICONTROL Facturation]* et mettez votre compte à niveau vers l’une de nos formules payantes.
 

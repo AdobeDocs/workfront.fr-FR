@@ -6,7 +6,7 @@ description: Nous apportons deux modifications à la façon dont Adobe Workfron
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 84%
@@ -31,4 +31,4 @@ Certaines notifications électroniques permettent de répondre par e-mail. La r�
 
 Les e-mails provenant directement du système Workfront Proof ne seront pas modifiés. Vous continuerez à les recevoir comme par le passé.
 
-Pour toute autre question ou préoccupation, contactez l’[Équipe d’assistance Workfront](https://experienceleague.adobe.com/fr?support-tab=home#support).
+Pour toute autre question ou préoccupation, contactez l’[Équipe d’assistance Workfront](https://experienceleague.adobe.com/?support-tab=home#support).

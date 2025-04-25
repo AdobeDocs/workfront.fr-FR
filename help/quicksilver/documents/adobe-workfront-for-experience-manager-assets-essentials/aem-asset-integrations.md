@@ -6,7 +6,7 @@ description: L’intégration entre Workfront et Experience Manager Assets ou As
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: 68692d49420fe3f3a1f8294d77fe8b335845acc7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 94%
@@ -54,7 +54,7 @@ Avec l’intégration d’Experience Manager native, vous pouvez :
 
 ## Prise en main
 
-1. [Configurer le mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=fr).
+1. [Configurer le mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 1. Configurez l’intégration :
    1. [Configurer l’intégration d’Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 Ou

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 99%
@@ -653,11 +653,11 @@ Pour plus d’informations sur les versions d’API, consultez [Contrôle de ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées dans le cadre de la version 23.2, consultez [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées dans le cadre de la version 23.2, consultez [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Mise à jour des formations
 
-Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, voir la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, voir la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Fonctionnalités bientôt supprimées de Workfront
 
@@ -665,7 +665,7 @@ Les fonctionnalités suivantes seront bientôt supprimées de Workfront :
 
 #### **Les pages externes du tableau de bord ne prennent plus en charge les URL du tableau de bord**.
 
-Afin d’améliorer la stabilité des tableaux de bord et les temps de chargement, les pages externes des tableaux de bord ne pourront plus faire référence aux URL de tableaux de bord. L’équipe d’administration système des comptes qui contiennent des pages externes faisant référence à des tableaux de bord recevront une notification in-app pour les avertir de ce changement. Pour plus d’informations, voir [Intégrer une page externe dans un tableau de bord](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+Afin d’améliorer la stabilité des tableaux de bord et les temps de chargement, les pages externes des tableaux de bord ne pourront plus faire référence aux URL de tableaux de bord. L’équipe d’administration système des comptes qui contiennent des pages externes faisant référence à des tableaux de bord recevront une notification in-app pour les avertir de ce changement. Pour plus d’informations, voir [Incorporer une page externe dans un tableau de bord](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 #### **Modifications de l’API par défaut de Workfront**
 

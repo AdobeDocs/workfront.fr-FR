@@ -6,7 +6,7 @@ description: Vous pouvez ajouter un commentaire Slack en tant que mise à jour d
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 98%
@@ -28,7 +28,7 @@ Vous devez disposer des éléments suivants :
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
    <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td> 
   </tr> 
  </tbody> 
@@ -64,4 +64,4 @@ Avant de publier un commentaire [!DNL Slack] en tant que mise à jour, vous deve
 
    Lorsqu’un commentaire provient de [!DNL Slack], il affiche le message « [!UICONTROL Publié à partir de [!DNL Slack]] » dans [!DNL Workfront].
 
-   ![Mise à jour publiée à partir de Slack](assets/slack-update-posted-from-slack-350x112.png)
+   ![Mise à jour publiée depuis Slack](assets/slack-update-posted-from-slack-350x112.png)

@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 95%
@@ -497,7 +497,7 @@ Pour afficher une collection de sites dans [!DNL Workfront], les conditions suiv
       
 -->
 
-### Problème : je ne peux pas accéder aux dossiers et documents précédemment liés dans [!DNL SharePoint]. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
+### Problème : je ne peux pas accéder aux dossiers et documents précédemment liés dans [!DNL SharePoint]. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
 Solution :
 

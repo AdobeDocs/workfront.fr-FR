@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Groupement : ventilation en pourcentage du projet 1"
+title: 'Regroupement : Répartition en pourcentage du projet 1'
 description: Dans ce regroupement de projets personnalisé, vous pouvez afficher les projets regroupés selon une plage de valeurs de pourcentage terminé.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7cdc8e56-3486-4e78-b494-b2ba9389c1f7
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 78%
@@ -18,7 +18,7 @@ ht-degree: 78%
 
 <!--Audited: 10/2024-->
 
-Dans ce regroupement de projets personnalisé, vous pouvez afficher les projets regroupés selon une plage de valeurs de pourcentage terminé. Les ventilations présentent une valeur de 25 % d’incréments de point en pourcentage : 0 à 25 %, 26 à 50 %, 51 à 75 %, etc.
+Dans ce regroupement de projets personnalisé, vous pouvez afficher les projets regroupés selon une plage de valeurs de pourcentage terminé. Les répartitions affichent une valeur de pourcentage d’achèvement de 25 points de pourcentage par incréments : 0 à 25 %, 26 à 50 %, 51 à 75 %, etc.
 
 Le regroupement suivant classe les projets par valeur de pourcentage terminé dans l’un de ces regroupements :
 
@@ -49,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
+   <ul><li><p>Contributeur pour modifier un filtre </p></li>
    <li><p>Standard pour modifier un rapport</p></li> </ul>
 
 <p>Actuel :</p>
@@ -67,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,5 +89,5 @@ Pour appliquer ce regroupement :
    group.0.valueformat=string
    ```
 
-1. Cliquez sur **Done** > **Save Grouping**.
-1. (Facultatif) Mettez à jour le nom du groupement, puis cliquez sur **Enregistrer le groupement**.
+1. Cliquez sur **Terminé** > **Enregistrer le regroupement**.
+1. (Facultatif) Mettez à jour le nom du regroupement, puis cliquez sur **Enregistrer le regroupement**.

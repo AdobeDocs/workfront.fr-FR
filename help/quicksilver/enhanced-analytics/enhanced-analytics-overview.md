@@ -7,7 +7,7 @@ description: Analytique améliorée constitue un puissant outil d’Adobe Workf
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 96%
@@ -34,7 +34,7 @@ Analytique améliorée peut vous aider à identifier ce qui suit :
 
 ![ Analytics ](assets/nwe-full-screen-analytics-350x222.png)
 
-Pour consulter des cas d’utilisation ou en savoir plus sur la gestion du travail actuel et la planification du travail futur à l’aide d’Analytique améliorée, voir [Parcours de formation Analytique améliorée](https://one.workfront.com/s/enhanced-analytics-program).
+Pour consulter des cas d’utilisation ou en savoir plus sur la gestion du travail actuel et la planification du travail futur à l’aide d’Analytique améliorée, voir [Parcours de formation Analytique améliorée](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Conditions préalables
 
@@ -42,11 +42,11 @@ Pour accéder à la zone Analytique améliorée, vous devez satisfaire les condi
 
 * Disposer d’une formule Business ou Entreprise.
 
-  Pour plus d’informations, voir [Formules Workfront](https://www.workfront.com/plans?lang=fr).
+  Pour plus d’informations, voir [Formules Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 * Demander à votre administrateur ou administratrice Workfront d’ajouter Analytique améliorée à votre modèle de mise en page.
 
-  Pour plus d’informations, voir [Analytique améliorée : ajouter une analyse aux modèles de mise en page](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  Pour plus d’informations, voir [Analytique améliorée : ajouter une analyse aux modèles de mise en page](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Pour afficher les informations relatives aux projets et aux tâches, vous devez satisfaire les conditions suivantes :
 

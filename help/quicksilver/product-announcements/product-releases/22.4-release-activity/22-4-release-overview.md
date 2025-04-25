@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3272'
 ht-degree: 99%
@@ -737,7 +737,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors du lancement de la version 22.3, consultez la section [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors du lancement de la version 22.3, consultez la section [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Webinaire sur la version 22.4
 
@@ -745,7 +745,7 @@ Le webinaire sur la version 22.4 aura lieu le jeudi 22 septembre 2022 à 9 
 
 ### Mise à jour des formations
 
-Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, consultez la [page des mises à jour des versions des formations](https://one.workfront.com/s/training-release-updates).
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, consultez la [page des mises à jour des versions des formations](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Fonctionnalités supprimées avec la version 22.4
 

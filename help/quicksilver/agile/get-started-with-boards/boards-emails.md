@@ -2,12 +2,12 @@
 filename: boards-emails
 content-type: reference
 navigation-topic: boards
-title: Notifications et préférences par e-mail des panoramas
+title: Préférences et notifications par e-mail des forums
 description: Les panoramas Adobe Workfront vous envoient un e-mail lorsque vous faites l’objet d’un ajout à un panorama et lorsqu’une carte vous est attribuée.
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 97%

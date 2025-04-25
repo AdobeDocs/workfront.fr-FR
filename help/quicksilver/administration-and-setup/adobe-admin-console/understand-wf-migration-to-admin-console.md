@@ -4,12 +4,12 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
 title: Comprendre la migration de Workfront vers Adobe Admin Console
-description: Cet article décrit en termes généraux le processus de déplacement d’une organisation vers Adobe Admin Console, de sorte que vous, en tant qu’administrateur de Workfront, sachiez à quoi vous attendre.
+description: Cet article décrit en termes généraux le processus de déplacement d’une organisation vers Adobe Admin Console, de sorte que vous, en tant qu’administrateur Workfront, sachiez à quoi vous attendre.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 94%
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 Adobe modifie la gestion des utilisateurs et utilisatrices d’Adobe Workfront, ce qui se traduit par une productivité accrue pour vous et votre entreprise. Dans le cadre de ce changement, Adobe migre votre instance Workfront et ses utilisateurs et utilisatrices vers Adobe Admin Console. Il s’agit d’une migration nécessaire, qui n’affectera pas les rapports, les voies d’approbation, le contenu ou les ressources. Elle aura un impact sur la façon dont vous gérez l’accès des personnes et sur la façon dont elles se connectent.
 
-Cet article décrit en termes généraux le processus de déplacement d’une organisation vers Adobe Admin Console, de sorte que vous, en tant qu’administrateur de Workfront, sachiez à quoi vous attendre.
+Cet article décrit en termes généraux le processus de déplacement d’une organisation vers Adobe Admin Console, de sorte que vous, en tant qu’administrateur Workfront, sachiez à quoi vous attendre.
 
 Pour savoir comment utiliser Adobe Admin console pour gérer vos droits Adobe dans l’ensemble de votre entreprise, voir [Gérer les personnes dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 

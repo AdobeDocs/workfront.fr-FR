@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 93%
@@ -56,7 +56,7 @@ Pour plus d&#39;informations, voir [Vue d’ensemble du connecteur amélioré de
 
 >[!NOTE]
 >
->Le déploiement et la configuration de ce connecteur nécessitent un partenaire certifié. Pour plus d’informations, voir [Installer le connecteur amélioré de Workfront pour Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=fr#).
+>Le déploiement et la configuration de ce connecteur nécessitent un partenaire certifié. Pour plus d’informations, voir [Installer le connecteur amélioré de Workfront pour Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
 
 ## Les intégrations d’Adobe Creative Cloud utilisent désormais OAuth2.
 
@@ -96,6 +96,6 @@ Pour plus d’informations, voir [Créer des applications OAuth2 pour les intég
 
 ## L’intégration de Google Google Workspace utilise désormais OAuth2
 
-Pour une sécurité accrue et pour offrir une expérience plus cohérente entre les intégrations, nous avons mis à jour l’intégration de Google Google Workspace afin d’utiliser l’authentification OAuth2, un moyen standard d’authentifier les utilisateurs. Désormais, lorsque vos utilisateurs et utilisatrices se connectent, ils peuvent voir les actions et les zones spécifiques auxquelles les intégrations ont accès, et en autoriser l’accès. Ensuite, il n’est plus nécessaire de se connecter aussi fréquemment.
+Pour plus de sécurité et une expérience plus cohérente entre les intégrations, nous avons mis à jour l’intégration de Google Google Workspace afin d’utiliser l’authentification OAuth2, une méthode d’authentification standard des utilisateurs. Désormais, lorsque vos utilisateurs et utilisatrices se connectent, ils peuvent voir les actions et les zones spécifiques auxquelles les intégrations ont accès, et en autoriser l’accès. Ensuite, il n’est plus nécessaire de se connecter aussi fréquemment.
 
-Pour plus d’informations, voir [Connexion et déconnexion d’Adobe Workfront pour Google Workspace](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+Pour plus d’informations, voir [Connexion et déconnexion à Adobe Workfront for Google Workspace](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).

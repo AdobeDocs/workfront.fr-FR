@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 99%
@@ -36,7 +36,7 @@ Dans la zone des journaux d’audit, vous pouvez maintenant suivre et dépanner 
 
 Pour plus d’informations, voir [Journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes fondamentaux de l’administrateur ou l’administratrice pour la nouvelle expérience Workfront, partie 2 : configuration du projet](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes fondamentaux de l’administrateur ou l’administratrice pour la nouvelle expérience Workfront, partie 2 : configuration du projet](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Pour les administrateurs ou administratrices de groupes : amélioration des contrôles pour le déplacement des sous-groupes et mise à jour de la barre d’outils
 
@@ -137,7 +137,7 @@ Auparavant, ces valeurs par défaut ne pouvaient pas être personnalisées, de s
 
 Pour plus d’informations, consultez la section [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes fondamentaux de l’administrateur ou de l’administratrice dans la nouvelle expérience Workfront, Partie 3 : expérience de contrôle et d’interface](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes fondamentaux de l’administrateur ou de l’administratrice dans la nouvelle expérience Workfront, Partie 3 : expérience de contrôle et d’interface](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Nouveau pour les administrateurs et les administratrices : répertorier facilement les rapports qui utilisent actuellement un champ personnalisé
 

@@ -6,7 +6,7 @@ description: Bien qu’il n’existe aucune restriction quant aux types et taill
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 84%
@@ -28,7 +28,7 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Formule Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Formule Workfront</a>*</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -49,8 +49,8 @@ Vous devez disposer des éléments suivants :
 1. Dans le panneau de gauche, cliquez sur **Système** > **Infos client**.
 1. Dans la section **Informations de base**, recherchez **Quota de stockage**. Sur cet écran, vous pouvez afficher le volume de stockage que vous utilisez actuellement, ainsi que le volume total de stockage inclus dans votre formule Workfront.
 
-Le quota de stockage est actualisé quotidiennement pour afficher le nombre le plus récent.
+Le quota de stockage est actualisé tous les jours afin d’afficher le décompte le plus récent.
 
 >[!NOTE]
 >
->Cette limite ne s’applique pas aux documents que vous liez à Workfront auprès d’un autre fournisseur de services tiers (SharePoint, Google Drive, Webdam, Box, Dropbox, tout autre fournisseur Document Asset Management).
+>Cette limite ne s’applique pas aux documents que vous liez à Workfront à partir d’un autre fournisseur tiers (SharePoint, Google Drive, Webdam, Box, Dropbox ou tout autre fournisseur de gestion des ressources numériques).

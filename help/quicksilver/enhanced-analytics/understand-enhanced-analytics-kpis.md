@@ -7,7 +7,7 @@ description: Dans la partie supérieure de l’écran de la zone Analytique amé
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 89%
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 
 Une formule Entreprise ou supérieure est requise pour utiliser cette fonctionnalité.\
-Pour plus d’informations sur les différents plans disponibles, voir [Plans Adobe Workfront](https://www.workfront.com/plans?lang=fr).
+Pour plus d’informations sur les différents plans disponibles, voir [Plans Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 Dans la partie supérieure de l’écran de la zone Analytique améliorée, quatre indicateurs de performances clés (KPI) s’affichent. Ces mesures vous permettent de déterminer rapidement le temps nécessaire à la réalisation des projets, leur taille et le nombre de projets terminés au cours d’une période donnée. Ces chiffres ne sont pas limités au maximum de 50 projets qui s’affichent pour les visualisations de cette page. Au lieu de cela, ces données sont basées sur tous les projets qui s’appliquent à des filtres définis. Ces chiffres s’ajustent si vous modifiez la période sélectionnée ou l’un des filtres.
 
