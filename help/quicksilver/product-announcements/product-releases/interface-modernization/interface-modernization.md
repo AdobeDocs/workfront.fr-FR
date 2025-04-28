@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
+source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-## Navigation et recherche Workfront
+## Navigation et recherche
 
 ### Mise à jour de l’interface pour la recherche avancée
 
@@ -325,3 +325,30 @@ Nous avons ajouté un nouveau bouton Modifier le mode Texte et modifié la boît
 * Regroupements
 
 +++
+
+## Utilisateurs
+
+### Mise à jour de la page de partage de documents pour les utilisateurs externes
+
+**Version préliminaire : 10 avril 2024 ; Version de production : à partir de la semaine du 17 avril 2024**
+
+Nous avons mis à jour la page de partage de documents pour les utilisateurs externes avec une conception plus moderne et cohérente avec d’autres zones de Workfront.
+
+Les utilisateurs externes ne peuvent plus accéder à _Mes paramètres_ depuis cette page.
+
+<!--
+
+### Updated external user registration page
+
+**Preview release: April 24, 2024; Production release: To be announced**
+
+We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+
+
+## Licenses
+
+### Updated license agreement page
+
+**Preview release: tbd; Production release: To be announced**
+
+We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
