@@ -6,9 +6,9 @@ description: Vous pouvez choisir parmi plusieurs widgets pour personnaliser le c
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4994f099b11703bbffb396d494fd5622fc006cbf
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '963'
 ht-degree: 17%
 
 ---
@@ -238,6 +238,44 @@ Vous pouvez utiliser les filtres suivants dans le widget Mes événements :
     <td>Affiche tous les événements pour lesquels aucun utilisateur principal n’a été affecté mais un rôle est affecté </td>
   </tr>
 </table>
+
+## Mes demandes
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Tout</td> 
+      <td>Affiche toutes les requêtes envoyées, quel que soit leur statut ou leur auteur.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Ouvertes</td> 
+      <td> <p>Affiche toutes les demandes envoyées 
+      <ul>
+      <li>Ces rapports sont actuellement ouverts, peu importe qui les a soumis. Seules les demandes pour lesquelles vous disposez au moins d’une autorisation de visualisation s’affichent ici si vous ne les avez pas soumises vous-même.</li>
+      <li>Sans date d'achèvement effective ou dont l'objet de résolution n'a pas de date d'achèvement effective sont répertoriés dans le sous-onglet Ouvert.</li> 
+      </ul>
+      <p><b>REMARQUE </b> 
+      Les demandes dont le statut n’est pas défini sur Fermé sont considérées comme ouvertes.</p> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Mes demandes</td> 
+      <td>Affiche les demandes que vous avez envoyées, quel que soit leur statut. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Mes demandes ouvertes</td> 
+      <td> <p>Affiche les requêtes 
+      <ul>
+      <li>Que vous avez soumis et que vous êtes toujours en cours. </li> 
+      <li>Sans date d'achèvement effective ou dont l'objet de résolution n'a pas de date d'achèvement effective sont répertoriés dans le sous-onglet Mes demandes en cours. </li> 
+      </ul>
+      <p><b>REMARQUE </b> 
+      Les demandes dont le statut n’est pas défini sur Fermé sont considérées comme ouvertes.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## Mon travail
 
