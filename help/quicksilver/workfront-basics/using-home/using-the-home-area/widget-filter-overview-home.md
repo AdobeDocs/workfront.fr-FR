@@ -6,9 +6,9 @@ description: Vous pouvez choisir parmi plusieurs widgets pour personnaliser le c
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 4994f099b11703bbffb396d494fd5622fc006cbf
+source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '965'
 ht-degree: 17%
 
 ---
@@ -20,6 +20,7 @@ Vous pouvez utiliser des filtres sur les widgets suivants pour rechercher et org
 * [Mes projets](#my-projects)
 * [Mes tâches](#my-tasks)
 * [Mes problèmes](#my-issues)
+* [Mes demandes](#my-requests)
 * [Mon travail](#my-work)
 * [Mes approbations](#my-approvals)
 

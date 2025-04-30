@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
+source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Nous avons mis à jour la zone de Recherche avancée avec les modifications suiv
 * Ajout d’un nouvel onglet Recherche complète . Dans cet onglet, vous pouvez effectuer une recherche par type, par saisie, par date d&#39;entrée, par catégorie et par date de la dernière mise à jour.
 * Le filtre de l’onglet Recherche avancée est légèrement différent. Désormais, le filtre n’est pas prérempli. Vous devez l’activer et créer le filtre à partir de zéro. Le filtre n’est pas conservé si la page est actualisée.
 
-Pour plus d’informations, voir [Recherche [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
+Pour plus d’informations, voir [Search [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ### Mise à jour de l’interface pour accorder l’accès au support à votre compte Workfront
 
@@ -149,7 +149,15 @@ Pour afficher cette page, accédez à Configuration > E-mail > Notifications > N
 
 **Version préliminaire : 16 janvier 2025 ; début de la semaine du 30 janvier 2025**
 
-Nous avons mis à jour la boîte de dialogue Ajouter Sharepoint dans Configuration > Documents > Intégration Sharepoint avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+Nous avons mis à jour la boîte de dialogue Ajouter un point SharePoint dans le programme d’installation > Documents > l’intégration SharePoint avec une conception plus moderne qui est cohérente avec d’autres domaines de Workfront.
+
+Cette mise à jour inclut des modifications visuelles apportées à la zone. Aucune fonctionnalité n’a été modifiée.
+
+### Mise à jour de l’interface pour la boîte de dialogue Ajouter une intégration personnalisée
+
+**Version préliminaire : 16 janvier 2025 ; début de la semaine du 30 janvier 2025**
+
+Nous avons mis à jour la boîte de dialogue Ajouter une intégration personnalisée dans Configuration > Documents > Intégration personnalisée avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
 Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonctionnalité n’a été modifiée.
 
@@ -251,11 +259,11 @@ Cette mise à jour comprend une conception plus moderne qui est cohérente avec 
 
 ### Mise à jour de l&#39;interface pour la zone Validations d&#39;un document
 
-**Version préliminaire : 13 février 2025 ; Version de production : à partir de la semaine du 27 février 2025**
+**Aperçu : 13 février 2025 ; Version de production : à compter de la semaine du 27 février 2025**
 
-Nous avons mis à jour la zone Approbations d’un document avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+Nous avons mis à jour la zone Approbations sur un document avec une conception plus moderne qui est cohérente avec d’autres zones de Workfront.
 
-Pour afficher cette modification, accédez à un document > Cliquez sur Détails du document > Approbations.
+Pour afficher cette modification, accédez à un document > cliquez sur Détails du document > Approbations.
 
 ### Mise à jour de l’interface pour la boîte de dialogue de modification du dossier intelligent
 
@@ -291,7 +299,7 @@ Nous avons mis à jour l’interface des rapports d’e-mail suivants :
 * Rapport de modèle d’e-mail
 * Rapport de notification de rappel
 
-Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonctionnalité n’a été modifiée.
+Cette mise à jour inclut des modifications visuelles apportées à la zone. Aucune fonctionnalité n’a été modifiée.
 
 ### Mise à jour du rapport d’itération avec un nouveau style
 
