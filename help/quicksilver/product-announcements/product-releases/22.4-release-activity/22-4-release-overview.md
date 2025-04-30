@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3231'
 ht-degree: 99%
 
 ---
@@ -664,24 +664,23 @@ Remarque : cette fonctionnalité n’est pas disponible pour l’instant dans l
                         <p>Les campagnes Workfront vous permettent d’organiser des projets provenant de différents portfolios et programmes dans un nouveau conteneur de travail.
 Les campagnes ont été publiées en juillet 2022 dans la version préliminaire bêta 22.3.</p>
 <p>Ce nouveau conteneur évoluera dans les prochaines versions pour relier des objets de travail qui sont actuellement gérés dans des silos séparés.</p>
-
-    &lt;/td>
-    &lt;td>&lt;p>&lt;b>Disponible à ces dates :&lt;/b>&lt;/p>
-    &lt;ul>
-    &lt;li>
-    &lt;p>Version préliminaire : tout au long de la période de lancement de la version 22.4&lt;/p>
-    &lt;/li>
-    &lt;li>
-    &lt;p>Version de production : à déterminer&lt;/p>
-    &lt;/li>
-    &lt;/ul>
-    &lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Description développée des équipes&lt;/a>&lt;/p>
-    &lt;p>Dans la zone Équipes, vous pouvez désormais afficher la description complète des équipes en cliquant sur la description pour l’afficher dans une fenêtre pop-up. Les URL figurant dans la description sont cliquables dans le pop-up et vous pouvez cliquer sur le texte de la description pour le modifier (si vous avez accès à la modification des paramètres de l’équipe).&lt;/p>
-    &lt;p>Auparavant, la seule manière d’afficher l’intégralité du contenu était de faire défiler la description dans une zone étroite.&lt;/p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version préliminaire : tout au long de la chronologie de la version 22.4<br /></p>
+                            </li>
+                            <li>
+                                <p>Version de production : à déterminer</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Description étendue de l’équipe</a></p>
+                        <p>Dans la zone « Équipes », vous pouvez désormais afficher la description complète de l’équipe en cliquant sur la description pour l’afficher dans un pop-up. Les URL figurant dans la description sont cliquables dans le pop-up et vous pouvez cliquer sur le texte de la description pour le modifier (si vous avez accès à la modification des paramètres de l’équipe).</p>
+                        <p>Auparavant, la seule manière d’afficher l’intégralité du contenu était de faire défiler la description dans une zone étroite.</p>
 <p>Cette amélioration de la description s’applique aux équipes Agile ou non.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
