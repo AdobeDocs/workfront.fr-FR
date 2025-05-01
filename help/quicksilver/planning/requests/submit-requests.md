@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '1875'
-ht-degree: 6%
+source-wordcount: '1914'
+ht-degree: 5%
 
 ---
 
@@ -40,9 +40,9 @@ Pour plus d’informations sur la manière dont un gestionnaire d’espace de tr
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -101,8 +101,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>Pour accéder à la zone Planning dans Workfront, vous devez disposer d'un modèle de mise en page qui inclut la zone Planning dans le menu principal. </p>
-   <p> Cependant, il n’est pas nécessaire d’accéder à la zone Planning pour envoyer des requêtes à Workfront Planning. </p>  
+   <td> <p>Pour accéder à la zone Planning dans Workfront, vous devez disposer de la configuration de modèle de mise en page suivante : </p>
+<ul>
+<li><p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p></li>
+<li><div class="preview">
+<p> Dans l’environnement de Prévisualisation, les utilisateurs disposant d’une licence Light ou Contributor doivent se voir attribuer un modèle de mise en page incluant Planning.
+   <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p></div></li></ul>
+
+<p> Cependant, il n’est pas nécessaire d’accéder à la zone Planning pour envoyer des requêtes à Workfront Planning. </p>  
 </td>
   </tr>
  </tbody>
@@ -112,20 +118,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
-
--->
 
 ## Conditions préalables
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 44%
+source-wordcount: '1979'
+ht-degree: 42%
 
 ---
 
@@ -19,11 +19,9 @@ ht-degree: 44%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -168,18 +166,14 @@ The following features are currently available in Workfront Planning:
 
 Une fois que votre entreprise a acheté un package Workfront Planning, en tant qu’administrateur Workfront, vous devez vous assurer que les éléments suivants sont en place avant que les utilisateurs puissent accéder à Workfront Planning :
 
-* Attribuez aux utilisateurs qui doivent accéder à Planning un modèle de mise en page qui inclut Planning dans le menu principal. Pour plus d&#39;informations, voir [Personnaliser le menu principal à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) et [Affecter des utilisateurs à un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+* En fonction de l&#39;environnement utilisé, affectez aux utilisateurs suivants un modèle de mise en page qui inclut Planning dans le menu principal :
 
-<!-- replace the bullet above with this at release: 
-* Depending on what environment you use, assign the following users a layout template that includes Planning in the Main Menu:
+   * Dans l’environnement de production, affectez le modèle à tous les utilisateurs et utilisatrices de tous les types de licence, y compris les administrateurs et administratrices système.
 
-    * In the Production environment, assign the template to all users of all license types, including System Administrators. 
+   * <span class="preview">Dans l’environnement Aperçu, affectez le modèle aux utilisateurs Light et Contribute. Planning est activé par défaut pour les utilisateurs standard et les administrateurs système. </span>
 
-    * <span class="preview">In the Preview environment, assign the template to Light and Contribute users. Standard users and System Administrators have the Planning area in their Main Menu by default. </span>
-    
-    For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md). 
+  Pour plus d&#39;informations, voir [Personnaliser le menu principal à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) et [Affecter des utilisateurs à un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
--->
 
 * Attribuez aux utilisateurs une licence Workfront et des autorisations Workfront Planning qui leur permettront d&#39;afficher ou de créer des objets dans Workfront Planning. Pour plus d’informations sur l’octroi de l’accès à et l’autorisation d’autres utilisateurs à utiliser Workfront Planning, voir [Présentation de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 

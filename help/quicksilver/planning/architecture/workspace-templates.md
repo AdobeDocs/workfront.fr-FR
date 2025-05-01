@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 48%
@@ -59,7 +59,7 @@ You must have the following:
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
    <p>Any</p> 
-  <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+  <p>For more information, see <a href="././administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Product</p></td>
@@ -89,34 +89,34 @@ You must have the following:
 
 Vous trouverez ci-dessous des modèles d’espaces de travail dans Workfront Planning et le nombre de champs qu’ils incluent :
 
-* **De base : gestion marketing** : idéal pour les organisations qui établissent la base d’un système marketing fondamental. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
+* **De base : Marketing Management** : idéal pour les organisations qui établissent les bases d’un système marketing fondamental. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Types d&#39;enregistrement opérationnel :
+   * Types d’enregistrements opérationnels :
 
       * **Campaign** : 15 champs
    * Taxonomies :
 
-      * **Personas** : 7 champs
+      * **Rôles** : 7 champs
       * **Marques** : 6 champs
       * **Produits** : 5 champs
 
-* **Avancé : gestion marketing** : approprié pour les équipes prêtes à explorer des stratégies marketing plus nuancées. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
+* **Avancé : Marketing Management** : adapté aux équipes prêtes à explorer des stratégies marketing plus nuancées. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Types d&#39;enregistrement opérationnel :
+   * Types d’enregistrements opérationnels :
 
       * **Campagnes** : 14 champs
       * **Programmes** : 23 champs
 
    * Taxonomies :
       * **Régions** : 1 champ
-      * **Étapes du Parcours client** : 4 champs
+      * **Étapes de Parcours client** : 4 champs
       * **Audiences** : 8 champs
-      * **Deliverables** : 12 champs
+      * **Éléments livrables** : 12 champs
       * **Marques** : 6 champs
 
-* **Entreprise : gestion marketing** : conçue pour les grandes entreprises ou les organisations matures avec des systèmes marketing complexes. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
+* **Entreprise : Marketing Management** : Conçu pour les grandes organisations ou les organisations matures avec des systèmes marketing complexes. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Types d&#39;enregistrement opérationnel :
+   * Types d’enregistrements opérationnels :
 
       * **Campagnes** : 15 champs
       * **Programmes** : 15 champs
@@ -126,17 +126,17 @@ Vous trouverez ci-dessous des modèles d’espaces de travail dans Workfront Pl
    * Taxonomies :
 
       * **Produits** : 10 champs
-      * **Deliverables** : 18 champs
+      * **Éléments livrables** : 18 champs
       * **Audiences cibles** : 8 champs
       * **Régions** : 8 champs
       * **Sous-régions** : 7 champs
-      * **Partenaires** : 7 champs
+      * **Partenaires** : 7 domaines
       * **Cas d’utilisation** : 7 champs
-      * **Étapes du Parcours client** : 3 champs
+      * **Étapes de Parcours client** : 3 champs
 
-* **Gestion des ventes** : vous pouvez créer un système de vente complet qui rationalise votre processus de vente et améliore l’efficacité. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
+* **Gestion des ventes** : vous pouvez créer un système de vente complet qui rationalise votre processus de vente et améliore l’efficacité. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Types d&#39;enregistrement opérationnel :
+   * Types d’enregistrements opérationnels :
 
       * **Opportunité** : 11 champs
       * **Activité** : 9 champs
@@ -151,9 +151,9 @@ Vous trouverez ci-dessous des modèles d’espaces de travail dans Workfront Pl
       * **Produit/service** : 1 champ
       * **Concurrence** : 1 champ
 
-* **Gestion des produits** : ce modèle vous permet de créer un processus de gestion des produits efficace et structuré. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
+* **Gestion des produits** : ce modèle vous permet de créer un processus de gestion des produits efficace et structuré. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Types d&#39;enregistrement opérationnel :
+   * Types d’enregistrements opérationnels :
 
       * **Thème** : 10 champs
       * **Initiative** : 10 champs
@@ -166,4 +166,4 @@ Vous trouverez ci-dessous des modèles d’espaces de travail dans Workfront Pl
       * **Sprint** : 9 champs
       * **Équipe produit** : 4 champs
       * **Requêtes de fonctionnalités** : 9 champs
-      * **Secteur industriel** : 2 champs
+      * **Industrie** : 2 champs

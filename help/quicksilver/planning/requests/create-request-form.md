@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '2083'
-ht-degree: 9%
+source-wordcount: '2091'
+ht-degree: 8%
 
 ---
 
@@ -34,9 +34,9 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -101,7 +101,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p>  
+   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
+<p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p>  
 </td>
   </tr>
  </tbody>
@@ -111,13 +112,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Limites d’affichage des champs et des valeurs dans les formulaires de demande
 

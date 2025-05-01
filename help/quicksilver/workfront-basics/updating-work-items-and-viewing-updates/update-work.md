@@ -6,7 +6,7 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 76%
@@ -241,11 +241,9 @@ Cet article décrit comment mettre à jour des projets, des tâches ou des évé
 1. Cliquez sur Mises à jour dans le panneau de gauche. ****
 L’onglet **Commentaires** est sélectionné par défaut.
 
-1. 
-   <div class="preview">Commencez à saisir un commentaire dans la zone ** Nouveau commentaire **.
+1. <span class="preview">Commencez à saisir un commentaire dans la zone **Nouveau commentaire**.</span>
 
-   ![Zone Nouveau commentaire](assets/comment-box-all-tabs.png)
-   </div>
+   <span class="preview">![Zone Nouveau commentaire](assets/comment-box-all-tabs.png)</span>
 
    >[!TIP]
    >
