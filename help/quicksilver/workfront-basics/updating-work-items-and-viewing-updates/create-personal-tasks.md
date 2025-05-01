@@ -6,10 +6,10 @@ description: Les tâches personnelles sont des demandes de travail ad hoc que vo
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: a1081b7ce0877b08f9546ab57cfac3f2a580ea76
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 8%
+source-wordcount: '680'
+ht-degree: 7%
 
 ---
 
@@ -19,13 +19,16 @@ ht-degree: 8%
 
 Les tâches personnelles sont des demandes de travail ad hoc que vous envoyez à un utilisateur ou une utilisatrice, ou que vous envoyez à ou ajoutez pour vous-même.
 
-Adobe Workfront enregistre les demandes de travail ad hoc et les tâches à effectuer en tant que tâches personnelles.
+Adobe Workfront enregistre les demandes de travail ad hoc et les tâches en tant que tâches personnelles sur le projet personnel d&#39;un utilisateur que Workfront crée automatiquement pour chaque utilisateur.
 
-Par défaut, tous les utilisateurs de Workfront ont un projet personnel appelé « Tâches de &lt; nom complet de l’utilisateur > ». Par exemple, « Tâches de John Smith ».
+Voici les caractéristiques du projet personnel d’un utilisateur ou d’une utilisatrice :
 
-Le projet personnel de chaque utilisateur ne s’affiche pas dans les recherches et est masqué. Toutes les tâches personnelles sont stockées dans ce projet.
-
-Si nécessaire, vous pouvez déplacer des tâches personnelles vers un projet.
+* Tous les utilisateurs de Workfront ont un projet personnel appelé « Tâches de &lt; nom complet de l’utilisateur > ». Par exemple, « Tâches de John Smith ».
+* Le projet personnel de chaque utilisateur ne s’affiche pas dans les recherches et est masqué.
+* Un projet personnel ne peut pas être supprimé, même si les utilisateurs ont été désactivés.
+* Le statut d’un projet personnel est toujours Actuel. Les projets personnels ne peuvent pas être terminés ou annulés.
+* Toutes les tâches personnelles sont stockées dans le projet personnel d’un utilisateur.
+* Si nécessaire, vous pouvez déplacer des tâches personnelles vers un autre projet.
 
 Vous pouvez créer des tâches personnelles des manières suivantes :
 

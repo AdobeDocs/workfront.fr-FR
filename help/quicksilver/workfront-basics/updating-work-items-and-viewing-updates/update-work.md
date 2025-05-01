@@ -6,24 +6,21 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3104'
-ht-degree: 83%
+source-wordcount: '3234'
+ht-degree: 76%
 
 ---
 
 # Mettre à jour le travail
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 4/2025 -->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  (*****for all customers or in Production for customers who enabled fast releases-->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -88,8 +85,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> 
+   <p>Nouveau : contributeur ou version ultérieure pour les problèmes et les documents : Light ou supérieur pour tous les autres objets</p>
    <p>Actuel : demande ou version ultérieure pour les problèmes et les documents ; révision ou version ultérieure pour tous les autres objets</p>
-   <p>Nouveau : contributeur ou version ultérieure pour les problèmes et les documents : Light ou supérieur pour tous les autres objets</p> 
    </td> 
   </tr> 
   <tr> 
@@ -244,9 +241,11 @@ Cet article décrit comment mettre à jour des projets, des tâches ou des évé
 1. Cliquez sur Mises à jour dans le panneau de gauche. ****
 L’onglet **Commentaires** est sélectionné par défaut.
 
-1. Commencez à saisir un commentaire dans la zone **Nouveau commentaire**.
+1. 
+   <div class="preview">Commencez à saisir un commentaire dans la zone ** Nouveau commentaire **.
 
    ![Zone Nouveau commentaire](assets/comment-box-all-tabs.png)
+   </div>
 
    >[!TIP]
    >
@@ -256,7 +255,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    * Ctrl+Z (⌘+z pour Mac) pour annuler une modification
    * Ctrl+Y (⌘+y pour Mac) pour rétablir la modification
 
-1. (Facultatif) Dans la zone **Mentionner des personnes ou des équipes**, commencez à saisir le nom ou l’adresse électronique d’un utilisateur, d’une utilisatrice ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis effectuez une sélection lorsqu’il ou elle s’affiche dans la liste.
+1. <span class="preview">(Facultatif) Dans la zone **Identifier des personnes ou des équipes**, commencez à saisir le nom ou l’adresse e-mail d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire ou sélectionnez-le lorsqu’il s’affiche dans la liste. </span>
 1. (Facultatif) Utilisez les options de la barre d’outils de texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre mise à jour, afin d’améliorer votre contenu. Pour plus d’informations, voir [Utiliser du texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
 
    >[!TIP]
@@ -266,10 +265,10 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >L’indicateur s’affiche uniquement après l’envoi du commentaire sur l’élément, et non tant que le commentaire est toujours en train d’être composé.
    >
    >L’indicateur « Nouveau » s’affiche uniquement lorsque la personne qui a saisi une nouvelle mise à jour, ainsi que celle qui saisit actuellement une mise à jour, utilisent toutes deux la nouvelle expérience de commentaire.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   >![Nouvel indicateur rouge en temps réel](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. Cliquez sur **Envoyer** pour ajouter la mise à jour à l’objet Workfront.
-1. (Facultatif) Pour modifier un commentaire, cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis sur **Modifier**.
+1. (Facultatif) Pour modifier un commentaire, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
 
    >[!IMPORTANT]
    >
@@ -281,7 +280,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >
    >Les commentaires de l’année en cours n’affichent pas l’année dans l’horodatage. Le survol d’un horodatage affiche la date complète, année incluse.
 
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   ![Indicateur modifié sur le commentaire](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -293,14 +292,14 @@ L’onglet **Commentaires** est sélectionné par défaut.
 
 1. (Le cas échéant - Facultatif) Si d’autres personnes ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Mises à jour pendant que vous ajoutiez vos commentaires, cliquez sur **Afficher** à l’intérieur de la **bannière bleue des nouveaux commentaires** en bas de l’écran pour les afficher.
 
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   ![Bannière bleue de nouveaux commentaires avec bouton](assets/blue-new-comments-banner-with-view-button.png)
 
    D’autres commentaires s’affichent en bas de l’écran.
 
-1. (Facultatif) Cliquez sur l’icône J’aime . ****![](assets/like-icon.png) L’icône se met à jour avec le nombre de mentions « J’aime ».
+1. (Facultatif) Cliquez sur l’icône **J’aime** Icône ![ j’aime](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions « J’aime ».
 1. (Le cas échéant - Facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de membres inclus dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   ![Icônes de membres développées](assets/members-icons-expanded-unshimmed.png)
 
    >[!TIP]
    >
@@ -328,16 +327,16 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
 1. Accédez à la zone **Mises à jour** d’un objet Workfront, ouvrez l’onglet **Commentaires** et commencez à saisir un commentaire.
 1. (Facultatif) Pour ajouter du texte enrichi à votre commentaire, utilisez les attributs de la barre d’outils **Texte enrichi** au fur et à mesure que vous tapez.
 
-   ![](assets/rich-text-toolbar.png)
+   ![ Barre d’outils de texte enrichi ](assets/rich-text-toolbar.png)
 
    | **Attribut** | **Bouton Barre d’outils** | **Raccourcis clavier Mac** | **Raccourcis clavier Windows** |
    |---|---|---|---|
-   | Gras | ![](assets/mceclip10.png) | ⌘ + b | Ctrl + B |
-   | Italique | ![mceclip9.png](assets/mceclip9.png) | ⌘ + i | Ctrl + I |
-   | Souligner | ![mceclip8.png](assets/mceclip8.png) | ⌘ + u | Ctrl + U |
-   | Lien hypertexte | ![mceclip7.png](assets/mceclip7.png) | <br>Pour ouvrir la zone Ajouter des liens : ⌘ + K</br> <br>Pour coller un lien sur le texte sélectionné : ⌘ + V</br> | <br>Pour ouvrir la zone Ajouter des liens : Ctrl + K</br> <br>Pour coller un lien sur le texte sélectionné : Ctrl + V</br> |
-   | Liste à puces | ![mceclip6.png](assets/mceclip6.png) | ⌘ + Maj + 8 | Ctrl + Maj + 8 |
-   | Liste numérotée | ![mceclip5.png](assets/mceclip5.png) | ⌘ + Maj + 7 | Ctrl + Maj + 7 |
+   | Gras | ![Icône Gras](assets/mceclip10.png) | ⌘ + b | Ctrl + B |
+   | Italique | ![Icône Italique](assets/mceclip9.png) | ⌘ + i | Ctrl + I |
+   | Souligner | ![Icône Souligner](assets/mceclip8.png) | ⌘ + u | Ctrl + U |
+   | Lien hypertexte | ![icône Lien hypertexte](assets/mceclip7.png) | <br>Pour ouvrir la zone Ajouter des liens : ⌘ + K</br> <br>Pour coller un lien sur le texte sélectionné : ⌘ + V</br> | <br>Pour ouvrir la zone Ajouter des liens : Ctrl + K</br> <br>Pour coller un lien sur le texte sélectionné : Ctrl + V</br> |
+   | Liste à puces | ![Icône Liste à puces](assets/mceclip6.png) | ⌘ + Maj + 8 | Ctrl + Maj + 8 |
+   | Liste numérotée | ![Icône Liste numérotée](assets/mceclip5.png) | ⌘ + Maj + 7 | Ctrl + Maj + 7 |
 
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
@@ -361,7 +360,7 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
 
    <!--![](assets/block-quote-marked-350x144.png)-->
 
-1. (Facultatif) Cliquez sur l’icône **émoticône** ![](assets/emoji-icon.png) pour ajouter des émoticônes à votre mise à jour.
+1. (Facultatif) Cliquez sur l’icône **émoji** ![icône émoticône](assets/emoji-icon.png) pour ajouter des émoticônes à votre mise à jour.
 
    >[!NOTE]
    >
@@ -375,7 +374,7 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
 1. (Facultatif) Pour ajouter un lien URL vers des sources d’informations supplémentaires :
 
    1. Cliquez dans la mise à jour où vous souhaitez insérer un lien.
-   1. Sur la barre d’outils **Texte enrichi**, cliquez sur l’icône **Lien hypertexte** ![](assets/link-icon.png).
+   1. Dans la barre d’outils **Texte enrichi**, cliquez sur l’icône **Lien hypertexte** ![Icône Lien hypertexte](assets/link-icon.png).
 
    1. Dans la zone **Créer un lien**, sous **URL**, saisissez ou collez l’URL de la source à lier.
 
@@ -397,7 +396,7 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
 
    * Enregistrez l’image sur votre ordinateur, puis faites-la glisser et déposez-la dans la zone Nouveau commentaire.
    * Copiez une capture d’écran depuis votre ordinateur, puis collez-la dans le commentaire.
-   * Cliquez sur l’icône **Ajouter une image** ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur.
+   * Cliquez sur l’icône **Ajouter une image** ![Ajouter une montagne d’image avec l’icône représentant un signe plus](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur.
 
 
    >[!IMPORTANT]
@@ -418,8 +417,8 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
 
 1. (Facultatif) Pour afficher une image dans la mise à jour existante, effectuez l’une des opérations suivantes :
 
-   * Cliquez sur l’icône **Prévisualisation** ![](assets/previewimageicon-31x31.png) sur la miniature de l’image pour ouvrir l’image en taille réelle dans un nouvel onglet du navigateur.
-   * Cliquez sur l’icône **Télécharger** ![](assets/downloadimageicon.png) sur la miniature de l’image pour télécharger l’image.
+   * Cliquez sur l’icône **Aperçu** ![Icône Aperçu](assets/previewimageicon-31x31.png) de la miniature de l’image pour ouvrir l’image en taille réelle dans un nouvel onglet du navigateur.
+   * Cliquez sur l’icône **Télécharger** ![icône de téléchargement](assets/downloadimageicon.png) de la miniature de l’image pour télécharger l’image.
 
 1. Cliquez sur **Soumettre** pour ajouter votre commentaire.
 
@@ -460,11 +459,26 @@ Vous pouvez copier un lien vers le commentaire ou copier le contenu du commentai
 
 Vous pouvez copier des informations d’un commentaire existant en effectuant l’une des opérations suivantes :
 
+* [Citer la réponse](#quote-reply)
 * [Copier le lien](#copy-link)
 * [Copier le texte du message](#copy-body-text)
-* [Citer la réponse](#quote-reply)
 
-![](assets/copy-comment-ways-from-more-menu-on-comment.png)
+
+![Copiez le commentaire de différentes manières](assets/copy-comment-ways-from-more-menu-on-comment.png)
+
+#### Citer la réponse
+
+L’option Citer la réponse copie le commentaire d’origine dans une nouvelle réponse sous forme de bloc de citation.
+
+1. Accédez au commentaire ou à la réponse que vous souhaitez copier.
+1. Cliquez sur le menu **Plus** puis sur **Citer la réponse**.
+
+   Une nouvelle zone de commentaire s’ouvre. La réponse entre guillemets est ensuite incluse dans le nouveau commentaire et marquée comme un bloc de citation.
+
+   ![Commentaires intermédiaires mis en surbrillance dans le devis avant l’envoi](assets/block-quote-highlighted-mid-comment-before-submit.png)
+
+
+1. Continuez à ajouter votre mise à jour et cliquez sur **Soumettre** pour ajouter le commentaire.
 
 #### Copier le lien vers un commentaire
 
@@ -489,19 +503,7 @@ L’option Copier le corps du texte copie le texte d’un commentaire spécifiqu
 1. Accédez au commentaire ou à la réponse que vous souhaitez copier.
 1. Cliquez sur le menu **Plus**, puis sur **Copier le texte du corps**.
 
-#### Citer la réponse
 
-L’option Citer la réponse copie le commentaire d’origine dans une nouvelle réponse sous forme de bloc de citation.
-
-1. Accédez au commentaire ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le menu **Plus** puis sur **Citer la réponse**.
-
-   Une nouvelle zone de commentaire s’ouvre. La réponse entre guillemets est ensuite incluse dans le nouveau commentaire et marquée comme un bloc de citation.
-
-   ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
-
-
-1. Continuez à ajouter votre mise à jour et cliquez sur **Soumettre** pour ajouter le commentaire.
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
@@ -574,7 +576,7 @@ Aucun utilisateur ou aucune utilisatrice Workfront (y compris l’administrateur
 1. Accédez au commentaire ou à la réponse à supprimer.
 1. Cliquez sur le menu **Plus** en regard du commentaire ou de la réponse à supprimer, puis cliquez sur **Supprimer**.
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
+   ![Mettre à jour le commentaire de flux Menu Plus](assets/update-stream-comment-menu-marked-350x152.png)
 
 1. Dans le message qui apparaît, cliquez sur **Supprimer**.
 
@@ -584,7 +586,7 @@ Aucun utilisateur ou aucune utilisatrice Workfront (y compris l’administrateur
 
    Lorsque des réponses sont associées au commentaire que vous supprimez, il est indiqué que le commentaire a été supprimé avec le nom de l’utilisateur ou de l’utilisatrice qui l’a supprimé.
 
-   ![](assets/removed-comment-indicator-new-experience.png)
+   ![Indicateur de commentaire supprimé](assets/removed-comment-indicator-new-experience.png)
 
    Les commentaires supprimés sont immédiatement retirés de Workfront. Un utilisateur ou une utilisatrice qui utilise la section Mises à jour voit un commentaire supprimé par un autre utilisateur ou une autre utilisatrice en temps réel.
 
@@ -595,13 +597,13 @@ La section Mises à jour d’un objet Workfront affiche deux types d’informat
 
 * **Mises à jour des utilisateurs et des utilisatrices : les mises à jour des utilisateurs et des utilisatrices sont des commentaires que vous et d’autres personnes de votre système saisissez.** Les mises à jour des utilisateurs et des utilisatrices s’affichent dans les onglets Commentaires et Tous de la section Mises à jour.
 
-  ![](assets/user-update-cl-350x277.png)
+  ![Mises à jour des utilisateurs](assets/user-update-cl-350x277.png)
 
 * **Mises à jour système :** les mises à jour système consignent la suppression de tâches ou de problèmes, l’ajout ou la suppression de versions de document, l’association ou la suppression d’une demande d’approbation, ainsi que les modifications ou changements apportés à l’objet. Les mises à jour système s’affichent dans l’activité système et dans les onglets Tous de la section Mises à jour.
 
-  ![](assets/system-updates-cl-350x277.png)
+  ![Mises à jour du système](assets/system-updates-cl-350x277.png)
 
-  Les administrateurs et administratrices Workfront peuvent déterminer ce qui est suivi dans les mises à jour du système, comme décrit dans la section [Mises à jour suivies par le système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Vous pouvez également filtrer les mises à jour système ou les activités afin de n’afficher que les mises à jour d’utilisateur ou d’utilisatrice pour tous les objets.
+  Les administrateurs et administratrices de Workfront peuvent déterminer ce qui est suivi dans les mises à jour du système, comme expliqué dans la section [Mises à jour suivies par le système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Vous pouvez également filtrer les mises à jour système ou les activités afin de n’afficher que les mises à jour d’utilisateur ou d’utilisatrice pour tous les objets.
 
   Les objets suivants ne comportent pas de mises à jour générées par le système :
 

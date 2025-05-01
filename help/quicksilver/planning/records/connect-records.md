@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3333'
-ht-degree: 39%
+source-wordcount: '3359'
+ht-degree: 38%
 
 ---
 
@@ -125,7 +125,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Un modèle de mise en page comprenant la zone Planning du menu principal doit être affecté à tous les utilisateurs, y compris les administrateurs Workfront </p> </td> 
+   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut les zones Planning.</p>
+<p><span class="preview">Dans l’environnement de Prévisualisation, la zone Planning est activée par défaut pour les utilisateurs et utilisatrices standard et les administrateurs et administratrices système.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -133,14 +134,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Considérations relatives à la connexion des enregistrements
 
@@ -165,7 +158,7 @@ Vous pouvez connecter des enregistrements de Workfront Planning dans les zones s
 * Champs d’enregistrement connectés en mode Tableau.
 * la zone ou la page d’aperçu de l’enregistrement dans les champs d’enregistrement connectés sur l’onglet Détails ;
 * La zone ou la page d&#39;aperçu de l&#39;enregistrement dans l&#39;onglet Connexions.
-* Page de l’enregistrement dans l’onglet Affichage de la connexion . <!--this needs title edit when they rename the "Connection view" page type-->
+* La page de l’enregistrement dans un onglet <span class="preview">Page des enregistrements connectés</span>.
 
 ### Connecter des enregistrements Workfront Planning à partir de la vue Tableau ou de la zone Détails d&#39;un enregistrement
 
@@ -463,9 +456,8 @@ Les enregistrements et les objets sont immédiatement ajoutés.
 
    L&#39;enregistrement est immédiatement déconnecté de toutes les zones de Workfront Planning ou d&#39;autres applications où il peut apparaître comme connecté. Toutes les valeurs de champ de recherche sont également supprimées.
 
-### Connecter des enregistrements à partir de l&#39;onglet Affichage de la connexion sur la page de détails d&#39;un enregistrement
+### Connecter des enregistrements à partir de la <span class="preview">page Enregistrements connectés</span> d’un enregistrement
 
-<!--section needs title edit when they rename the "Connection view" page type-->
 
 1. Accédez à n&#39;importe quelle vue d&#39;un type d&#39;enregistrement qui a été connecté à d&#39;autres types d&#39;enregistrement Planning ou à d&#39;autres types d&#39;objet d&#39;autres applications.
 1. Suivez les étapes décrites dans les sous-sections précédentes pour trouver un enregistrement dans la vue que vous souhaitez connecter à d&#39;autres enregistrements ou objets.
@@ -473,9 +465,11 @@ Les enregistrements et les objets sont immédiatement ajoutés.
 
    La page d’aperçu s’ouvre.
 1. Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page de l’enregistrement.
-1. Cliquez sur un onglet Connexion existant dans la page ou l&#39;aperçu de l&#39;enregistrement. Vous devez d’abord créer une page de vue Connexion . Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. Cliquez sur un onglet existant <span class="preview">Page des enregistrements connectés</span> dans la page de l’enregistrement. Vous devez d’abord créer une <span class="preview">page Enregistrements connectés</span>. Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
 
    Une page de type d’enregistrement connectée s’affiche en mode Tableau.
+
+   Tous les enregistrements connectés d’un type s’affichent dans le tableau.
 1. Cliquez sur **Connexion** pour ajouter ou supprimer des enregistrements.
 
    ![Bouton Connexion mis en surbrillance dans l’onglet Détails de l’enregistrement connecté](assets/connect-button-highlighted-in-connected-record-details-tab.png)

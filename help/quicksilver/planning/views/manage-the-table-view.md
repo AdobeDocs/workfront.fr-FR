@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '2872'
-ht-degree: 66%
+source-wordcount: '3205'
+ht-degree: 58%
 
 ---
 
 # Gérer la vue de tableau
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -85,8 +85,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Modèle de disposition</p></td> 
-   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> </td> 
+   <td role="rowheader"><p>Modèle de mise en page</p></td> 
+   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut les zones Planning.</p>
+<p><span class="preview">Dans l’environnement de Prévisualisation, la zone Planning est activée par défaut pour les utilisateurs et utilisatrices standard et les administrateurs et administratrices système.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -95,13 +96,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
 
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Modifier des enregistrements à l’aide de la vue Tableau
 
@@ -117,9 +112,11 @@ Lors de la création d’une vue tableau, tous les enregistrements du type séle
 
 Pour gérer une vue tableau :
 
-1. Créez une vue tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview">Créez une vue de tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md). </span>
 
-   ![Exemple de vue Tableau](assets/table-view-example.png)
+   <span class="preview">![Exemple de vue Tableau](assets/table-view-example.png)
+
+   </span>
 
 1. (Facultatif) Cliquez sur **Hauteur de ligne**, puis sélectionnez l’une des options suivantes pour modifier la hauteur des lignes du tableau :
    * Court
@@ -130,14 +127,17 @@ Pour gérer une vue tableau :
    * [Colonnes (ou champs)](#add-columns-or-fields)
    * [Lignes (ou enregistrements)](#add-rows-or-records)
    * [Filtres](#add-filters)
-   * [Regroupement ](#add-groupings)
    * [Trier](#add-a-sort)
-   * [Activer l’indicateur de présence en temps réel](#enable-the-real-time-presence-indicator)
+   * [Regroupement ](#add-groupings)
+   * <span class="preview">[Couleurs de ligne](#add-row-colors)</span>
+   * [Indicateur de présence en temps réel](#enable-the-real-time-presence-indicator)
 
 
 ### Ajouter des colonnes (ou des champs) {#add-columns}
 
-Les en-têtes de colonne d’une vue de tableau affichent les champs associés aux enregistrements de la vue. Les mêmes champs affichés dans la vue de tableau s’affichent également dans la section Détails d’un enregistrement. Pour plus d’informations, consultez la section [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
+Les en-têtes de colonne d’une vue de tableau affichent les champs associés aux enregistrements de la vue. Les champs affichés dans la vue Tableau s’affichent également dans la section Détails d’un enregistrement.
+
+Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -362,55 +362,6 @@ Pour ajouter un filtre à une vue en tableau, procédez comme suit :
 1. (Facultatif) Cliquez sur l’icône **x** pour supprimer une condition de filtre.
 1. (Facultatif) Cliquez sur **Filtres** pour fermer la zone des filtres. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-### Ajouter des regroupements {#add-groupings}
-
-<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
-
-Vous pouvez regrouper des enregistrements par des informations similaires lorsque vous appliquez un regroupement à une vue.
-
-L’ajout de regroupements dans la vue de tableau est similaire à l’ajout de regroupements dans la vue chronologique.
-
-Tenez compte des points suivants :
-
-* Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
-* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
-&lt;!--* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lorsque vous utilisez l’API. --vérifier celui-ci pour l’instant-->
-* Les regroupements sont propres à la vue que vous sélectionnez. Vous pouvez appliquer des regroupements différents à deux vues de tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue de tableau voient le regroupement qui est actuellement appliqué.
-* Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
-* En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
-* Vous pouvez modifier les enregistrements répertoriés dans un regroupement.
-* Vous pouvez effectuer un regroupement par champs d’enregistrement connectés ou champs de recherche.
-* Lorsque vous regroupez des champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), les enregistrements sont regroupés selon chaque combinaison unique de valeurs de champ.
-* Vous pouvez référencer un champ qui se trouve à jusqu’à 4 niveaux du type d’enregistrement actuel. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’Activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le statut du projet dans le regroupement que vous créez pour le type d’enregistrement Activité.
-<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
-<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
-
-Pour ajouter un regroupement :
-
-1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
-1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue de tableau.
-
-   ![Regroupement de la vue Tableau de l’interface utilisateur avec des champs liés](assets/grouping-ui-table-view-with-linked-fields.png)
-
-1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un autre champ**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
-
-   Le regroupement est appliqué automatiquement au tableau et les enregistrements s’affichent sous la ligne de séparation du regroupement.
-
-1. (Facultatif) Cliquez sur **Ajouter une condition** et répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
-
-   Le nombre de champs sélectionnés pour le regroupement s’affiche à côté de l’icône de regroupement.
-
-   ![Regroupement appliqué en mode Tableau](assets/grouping-applied-in-table-view.png)
-
-1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement pour le supprimer.
-
-   Ou
-
-   Cliquez sur **Tout effacer** pour supprimer tous les champs.
-
-1. Cliquez en dehors de la zone **Regrouper les enregistrements par** pour la fermer.
-1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** à la fin de tout regroupement pour ajouter de nouveaux enregistrements, puis actualisez votre page pour ajouter le nouvel enregistrement au regroupement approprié. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
-
 ### Ajouter un tri {#sort-information}
 
 En appliquant un tri, vous pouvez organiser les informations dans un ordre donné.
@@ -473,6 +424,56 @@ Pour trier les enregistrements <!--ungrouped (add this when sorting for grouping
 
    Les champs qui doivent être triés affichent une icône de tri suivie d’un nombre qui indique l’ordre dans lequel le tri est appliqué.
 
+### Ajouter des regroupements {#add-groupings}
+
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
+
+Vous pouvez regrouper des enregistrements par des informations similaires lorsque vous appliquez un regroupement à une vue.
+
+L’ajout de regroupements dans la vue de tableau est similaire à l’ajout de regroupements dans la vue chronologique.
+
+Tenez compte des points suivants :
+
+* Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
+* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
+&lt;!--* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lorsque vous utilisez l’API. --vérifier celui-ci pour l’instant-->
+* Les regroupements sont propres à la vue que vous sélectionnez. Vous pouvez appliquer des regroupements différents à deux vues de tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue de tableau voient le regroupement qui est actuellement appliqué.
+* Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
+* En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
+* Vous pouvez modifier les enregistrements répertoriés dans un regroupement.
+* Vous pouvez effectuer un regroupement par champs d’enregistrement connectés ou champs de recherche.
+* Lorsque vous regroupez des champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), les enregistrements sont regroupés selon chaque combinaison unique de valeurs de champ.
+* Vous pouvez référencer un champ qui se trouve à jusqu’à 4 niveaux du type d’enregistrement actuel. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’Activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le statut du projet dans le regroupement que vous créez pour le type d’enregistrement Activité.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
+
+Pour ajouter un regroupement :
+
+1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue de tableau.
+
+   ![Regroupement de la vue Tableau de l’interface utilisateur avec des champs liés](assets/grouping-ui-table-view-with-linked-fields.png)
+
+1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un autre champ**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+
+   Le regroupement est appliqué automatiquement au tableau et les enregistrements s’affichent sous la ligne de séparation du regroupement.
+
+1. (Facultatif) Cliquez sur **Ajouter une condition** et répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
+
+   Le nombre de champs sélectionnés pour le regroupement s’affiche à côté de l’icône de regroupement.
+
+   ![Regroupement appliqué en mode Tableau](assets/grouping-applied-in-table-view.png)
+
+1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement pour le supprimer.
+
+   Ou
+
+   Cliquez sur **Tout effacer** pour supprimer tous les champs.
+
+1. Cliquez en dehors de la zone **Regrouper les enregistrements par** pour la fermer.
+1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** à la fin de tout regroupement pour ajouter de nouveaux enregistrements, puis actualisez votre page pour ajouter le nouvel enregistrement au regroupement approprié. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+
+
 <!-- this is not available yet: 
 
 To sort grouped records: 
@@ -481,6 +482,42 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+<div class="preview">
+
+### Ajouter des couleurs de ligne
+
+1. (Facultatif) Cliquez sur **Couleurs de ligne** pour définir des conditions et choisir de configurer différentes couleurs pour les lignes du tableau.
+
+1. Cliquez sur **Ajouter une couleur**, puis **Sélectionner un champ** dont vous souhaitez déterminer la valeur de couleur d’une ligne.
+
+   Par exemple, pour afficher les campagnes avec le statut Actif en vert, sélectionnez **Statut**, puis choisissez un modificateur et une valeur pour le champ.
+
+   ![Zone Couleurs de ligne avec le statut Actif sélectionné et le choix de couleur par défaut](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+
+1. Cliquez sur le menu déroulant du sélecteur de couleurs dans le coin supérieur gauche de la condition que vous avez sélectionnée, pour sélectionner la couleur de la condition, puis cliquez en dehors de la zone du sélecteur de couleurs pour la fermer.
+
+   ![Menu déroulant du sélecteur de couleurs dans la zone Couleurs de ligne mise en surbrillance](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+
+1. (Facultatif) Cliquez sur **Ajouter une condition** pour ajouter d’autres champs et valeurs au premier ensemble de conditions
+
+   Ou
+
+   Cliquez sur **Ajouter une couleur** pour ajouter un nouveau jeu de conditions et identifier une nouvelle couleur.
+
+   Par exemple, vous pouvez afficher les campagnes au statut Planning en jaune en définissant un nouveau jeu de conditions.
+
+   ![Zone Couleurs de ligne avec des couleurs personnalisées de statut Actif et Planification](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+
+1. (Facultatif) Activez le paramètre **Appliquer à toute la ligne** dans le coin supérieur droit de la zone Couleurs de ligne. La ligne entière où la condition est remplie s’affiche automatiquement dans la couleur sélectionnée.
+
+   >[!TIP]
+   >
+   >Si le paramètre Appliquer à toute la ligne est désactivé, seul le côté gauche du champ Principal affiche un indicateur de couleur étroit avec la couleur sélectionnée. Le paramètre est désactivé par défaut.
+
+1. Cliquez en dehors de la zone **Couleurs des lignes** pour la fermer. Les couleurs sont appliquées automatiquement.
+
+</div>
 
 ### Activer l’indicateur de présence en temps réel
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '579'
 ht-degree: 19%
 
 ---
@@ -54,7 +54,7 @@ Vous pouvez connecter des enregistrements à d&#39;autres enregistrements ou à 
    * Champs d&#39;enregistrement connectés dans la vue Table d&#39;un type d&#39;enregistrement dans Planning.
    * L&#39;aperçu ou la page de l&#39;enregistrement dans les champs d&#39;enregistrement connectés sur l&#39;onglet Détails.
    * L&#39;aperçu ou la page de l&#39;enregistrement dans l&#39;onglet Connexions.
-   * Page de l’enregistrement dans un onglet Affichage des connexions d’un enregistrement connecté.
+   * Page de l’enregistrement dans l’onglet <span class="preview">Page des enregistrements connectés</span> d’un enregistrement connecté.
 
 * Vous pouvez connecter des objets Workfront à des enregistrements Workfront Planning dans les zones suivantes de Workfront :
 

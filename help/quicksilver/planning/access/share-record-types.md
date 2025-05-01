@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 9%
+source-wordcount: '1499'
+ht-degree: 8%
 
 ---
 
@@ -185,6 +185,7 @@ Vous pouvez ajuster les autorisations aux types d’enregistrements individuels 
 
    >[!IMPORTANT]
    >
+   >* Outre les équipes, les groupes, les entreprises et les fonctions, vous ne pouvez partager qu’avec des utilisateurs qui ont été ajoutés au Adobe Admin Console.
    >* Vous ne pouvez jamais accorder aux utilisateurs des autorisations plus importantes sur un type d’enregistrement que sur un espace de travail.
    >* Vous ne pouvez pas accorder aux utilisateurs une autorisation inférieure à Gérer pour un type d’enregistrement s’ils disposent des autorisations Gérer pour l’espace de travail.
    >* Vous pouvez accorder aux utilisateurs une autorisation moindre sur le type d’enregistrement s’ils disposent des autorisations de type Contributeur sur l’espace de travail.

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1564'
 ht-degree: 22%
 
 ---
@@ -160,6 +160,12 @@ Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous dis
 1. (Facultatif) Dans la zone **Qui a accès**, sélectionnez l’une des options suivantes :
 
    * **Seules les personnes invitées peuvent y accéder** : vous devez spécifier les utilisateurs, les groupes, l&#39;équipe, l&#39;entreprise ou la fonction avec lesquels vous souhaitez partager la vue. Il s’agit de l’option par défaut.
+
+     >[!NOTE]
+     >
+     >   Outre les équipes, les groupes, les entreprises et les fonctions, vous ne pouvez partager qu’avec des utilisateurs qui ont été ajoutés au Adobe Admin Console.
+
+
    * **Tout le monde dans l’espace de travail peut afficher** : tous les utilisateurs disposant d’autorisations d’affichage ou supérieures dans les espaces de travail peuvent accéder à l’affichage.
 
 1. Dans le champ **Accorder l’accès à cette vue**, commencez à saisir le nom d’un utilisateur, d’un groupe, d’une équipe, d’une entreprise ou d’une fonction, puis cliquez dessus lorsqu’il s’affiche dans la liste.
