@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 711810c00ba8657230dbda558629613be2b35d9b
+source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 2%
@@ -103,3 +103,5 @@ Nous avons introduit les mises à jour suivantes :
 * Vous pouvez désactiver les autorisations héritées sur le type d’enregistrement pour le rendre en lecture seule pour toutes les personnes dans l’espace de travail. Ensuite, vous pouvez ajouter des personnes, des équipes, des groupes, des entreprises ou des rôles individuels et leur accorder l’autorisation de niveau Contribution au type d’enregistrement.
 
 Pour plus d’informations, voir [Partage de types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md).
+
+
