@@ -6,10 +6,10 @@ description: Collections de référence dans un rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '2560'
-ht-degree: 87%
+source-wordcount: '2615'
+ht-degree: 86%
 
 ---
 
@@ -306,6 +306,15 @@ Tenez compte des limites suivantes lorsque vous créez une vue de collection :
 Vous pouvez référencer une collection d’objets dans le filtre d’un rapport afin de filtrer les attributs des objets associés à l’objet du rapport.
 
 Vous pouvez, par exemple, filtrer les informations de tâche ou de problème dans un rapport de projet en utilisant une référence aux attributs des tâches ou des problèmes du projet dans l’instruction de filtre.
+
+>[!NOTE]
+>
+>Lorsqu’il est appliqué à des champs contenant plusieurs valeurs (par exemple, un ensemble de notes dans un projet), le filtre détermine l’inclusion comme suit :
+>
+>* Si tous les éléments d&#39;une collection contiennent la valeur spécifiée, l&#39;enregistrement entier est exclu des résultats.
+>* Si au moins un élément de la collection ne contient pas la valeur spécifiée, l’enregistrement reste dans les résultats.
+
+
 
 Pour ajouter une référence à une collection dans un filtre de rapport :
 

@@ -6,10 +6,10 @@ description: Les modificateurs de filtre et de condition vous permettent de cré
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 95%
+source-wordcount: '1593'
+ht-degree: 91%
 
 ---
 
@@ -75,7 +75,12 @@ Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et
   <tr valign="top"> 
    <td> <p><strong>Ne contient pas</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p>Il s’agit de la version <i>non sensible à la casse</i> de <strong>notcontains</strong>.</p><p>Ce modificateur filtre les éléments qui ne contiennent pas la valeur spécifiée.</p> <p>Par exemple : <code>does not contain inf</code> capture tout élément dont le nom ne contient pas <code>Inf</code> ni <code>inf</code>.</p> <p>Note : <span>si le champ dont vous filtrez les données comporte plusieurs options, cela filtre les résultats qui contiennent à la fois le choix que vous spécifiez, ainsi que le choix que vous spécifiez et les autres choix.</span> </p> </td> 
+   <td> <p>Il s’agit de la version <i>non sensible à la casse</i> de <strong>notcontains</strong>.</p><p>Ce modificateur filtre les éléments qui ne contiennent pas la valeur spécifiée.</p> <p>Par exemple : <code>does not contain inf</code> capture tout élément dont le nom ne contient pas <code>Inf</code> ni <code>inf</code>.</p> <p>Remarque : lorsqu’il est appliqué à des champs contenant plusieurs valeurs (par exemple, un ensemble de notes dans un projet), le filtre détermine l’exclusion comme suit :
+<ul>
+    <li>Si tous les éléments d'une collection contiennent le texte spécifié, l'enregistrement entier est exclu des résultats.</li>
+    <li>Si au moins un élément de la collection ne contient pas le texte spécifié, l'enregistrement reste dans les résultats.</li>
+</ul>
+ </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
