@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c3e71e5126f68878411764766eb053215d050145
+source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
 workflow-type: tm+mt
-source-wordcount: '13172'
+source-wordcount: '13178'
 ht-degree: 88%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 88%
       * Version Du T3 2025 {#release-25-q3}
          * [Vue d’ensemble de la version du 3e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
          * [Améliorations de la gestion des documents](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+         * [Amélioration des rapports](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
+         * [Améliorations des mises à jour et des notifications](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
          * [Mises à jour de l’apparence et de la convivialité au cours de la période de la version du 3e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
       * Version Du T2 2025 {#release-25-q2}
          * [Vue d’ensemble de la version du 2e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)

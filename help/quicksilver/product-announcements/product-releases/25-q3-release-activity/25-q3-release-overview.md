@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
+source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 52%
+source-wordcount: '593'
+ht-degree: 42%
 
 ---
 
@@ -41,6 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Améliorations apportées à Adobe Workfront
 
 * [Améliorations de la gestion des documents](#document-management-enhancements)
+* [Améliorations apportées aux mises à jour et aux notifications]
 * [Autres améliorations](#other-enhancements)
 
 ### Améliorations de la gestion des documents
@@ -60,8 +61,54 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Les nouveaux boutons de décision d’approbation du document apparaissent désormais dans le lecteur de vérification. Désormais, lorsque vous créez une épreuve simple, puis ajoutez des approbateurs et des réviseurs à partir du résumé du document, ils peuvent prendre leur décision directement dans la visionneuse de relecture.</p>
         </td>
         <td>vendredi 10 avril 2025</td>
-        <td>vendredi 17 avril 2025</td>
-        <td>vendredi 17 avril 2025</td>
+        <td>17 avril 2025</td>
+        <td>17 avril 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+### Amélioration des rapports
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Fonctionnalité</strong>
+        </td>
+        <td><strong>Aperçu</strong></td>
+        <td><strong>Version rapide</strong></td>
+        <td><strong>Tous les trimestres</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Les caractères génériques utilisateur ne renvoient plus de résultats avec une valeur nulle lors du filtrage des </a><p></p>
+            <p>Nous avons mis à jour le comportement du caractère générique utilisateur pour exclure la valeur nulle lors du filtrage d’un rapport. Cette modification permet au filtre de produire des résultats plus précis, plutôt que de renvoyer des résultats qui ne sont pas correctement configurés par un utilisateur (résultat nul). </p>
+        </td>
+        <td>jeudi 30 avril 2025</td>
+        <td>vendredi 15 mai 2025</td>
+        <td>vendredi 17 juillet 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+### Améliorations des mises à jour et des notifications
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Fonctionnalité</strong>
+        </td>
+        <td><strong>Aperçu</strong></td>
+        <td><strong>Version rapide</strong></td>
+        <td><strong>Tous les trimestres</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">Modification de l’expérience lors de l’ajout de personnes aux commentaires</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Pour obtenir de meilleures performances, nous avons ajouté des personnes aux commentaires sous la forme d’une expérience modifiée. Désormais, le lien « Baliser les personnes ou les équipes » reste persistant dans la zone de commentaire, une fois que vous avez commencé à ajouter des utilisateurs, des utilisatrices ou des équipes au commentaire. </p>
+        </td>
+        <td>jeudi 30 avril 2025</td>
+        <td>(Déploiement échelonné) : du 8 au 15 mai 2025</td>
+        <td>(Déploiement échelonné) : du 8 au 15 mai 2025</td>
     </tr>     
   </tbody>
 </table>

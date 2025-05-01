@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
+source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 23%
+source-wordcount: '552'
+ht-degree: 18%
 
 ---
 
@@ -17,6 +17,33 @@ ht-degree: 23%
 Cette page décrit les mises à jour mineures apportées à l’apparence et à la convivialité de diverses zones de l’application Adobe Workfront dans le cadre des versions publiées au cours du troisième trimestre 2025.
 
 Pour obtenir la liste de toutes les modifications apportées par la version du troisième trimestre 2025, consultez l’article [Vue d’ensemble de la version du troisième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Mise à jour de l’apparence pour les options du menu Plus pour les commentaires
+
+>[!NOTE]
+>
+>Version préliminaire : 17 avril 2025 ; Version de production pour tous les clients : 17 avril 2025
+
+Nous avons mis à jour l’aspect des options disponibles dans le menu Plus d’un commentaire dans la section Mises à jour pour tous les objets.
+
+Cette mise à jour comprend les modifications suivantes :
+
+* Réorganisation des actions afin que des fonctions similaires soient regroupées.
+* Insertion de séparateurs pour séparer clairement chaque groupe.
+* Action Supprimer mise en surbrillance en l’affichant en rouge.
+
+Pour plus d’informations, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+## Mises à jour de l’apparence d’un rapport Chemin jalonné
+
+>[!NOTE]
+>
+>Version préliminaire : 30 avril 2025 ; Version de production pour tous les clients : 30 avril 2025
+
+Nous avons mis à jour l’aspect du rapport Chemin jalonné pour qu’il corresponde à la conception d’autres zones de Workfront.
+
+Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Mises à jour de l’apparence des éléments récemment restaurés
 
