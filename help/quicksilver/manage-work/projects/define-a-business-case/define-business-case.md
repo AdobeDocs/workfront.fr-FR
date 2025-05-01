@@ -1,16 +1,16 @@
 ---
 content-type: reference
 navigation-topic: create-and-manage-projects
-title: '« Définir un business case : index des articles »'
+title: 'Définir un business case : index des articles'
 description: Vous pouvez demander officiellement et efficacement un projet en créant un business case. Les articles suivants décrivent les informations dont vous avez besoin pour définir le business case d’un projet.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 100%
+source-wordcount: '132'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Cette section contient les articles suivants :
 
-* [Vue d’ensemble des domaines du business case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
+* [Présentation des domaines de l’analyse de rentabilité](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
 * [Créer un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md)
 * [Approuver un business case](../../../manage-work/projects/define-a-business-case/approve-business-case.md)
 * [Vue d’ensemble des champs financiers du business case](../../../manage-work/projects/define-a-business-case/business-case-finances.md)

@@ -6,14 +6,16 @@ description: Vous pouvez importer des projets de Microsoft Project dans Adobe W
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 91%
+source-wordcount: '523'
+ht-degree: 67%
 
 ---
 
 # Importer un projet à partir de Microsoft Project
+
+<!-- Audited: 4/2025 -->
 
 Vous pouvez importer des projets de Microsoft Project dans Adobe Workfront et gérer tous vos projets dans une seule application. Chaque fois que vous importez un projet depuis Microsoft Project, un nouveau projet est créé dans Workfront.
 
@@ -36,10 +38,10 @@ Vous pouvez importer des projets de Microsoft Project dans Adobe Workfront et g
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle licence : Standard </p> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouveau : Standard </p> 
    Ou
-   <p>Licence actuelle : plan </p>
+   <p>Actuelle : formule </p>
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +55,7 @@ Vous pouvez importer des projets de Microsoft Project dans Adobe Workfront et g
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,11 +90,11 @@ You must have the following access to perform the steps in this article:
 
 -->
 
-## Créer un projet à partir d’un fichier MS Project
+## Créer un projet à partir d’un projet MS
 
-Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou à partir de la zone Projets d’un portfolio ou d’un programme.
+Vous pouvez créer un projet à partir de la zone **Projets** du **Menu principal** ou à partir de la zone **Projets** d’un portefeuille ou d’un programme.
 
-1. Accédez à Microsoft Project et ouvrez un projet que vous souhaitez importer dans Workfront.
+1. Connectez-vous au projet Microsoft et ouvrez un projet à partir duquel vous souhaitez effectuer un import dans Workfront.
 1. Cliquez sur **Fichier**, puis sur **Enregistrer sous** pour enregistrer le projet en tant que fichier .xml.
 
 1. Connectez-vous à Workfront.
@@ -101,16 +103,14 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
    * Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, ou cliquez sur les **Menu principal** ![Lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, si disponible, cliquez sur **Projets**, puis développez **Nouveau projet**.
    * Accédez à un portfolio, puis développez **Nouveau projet**.
    * Accédez à un programme, puis développez **Nouveau projet**.
-   * Si vous êtes administrateur ou administratrice de groupes, vous pouvez également créer un projet dans la section Projets d’un groupe que vous gérez. Pour plus d’informations, voir [Créer et modifier les projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Si vous êtes un administrateur de groupes, vous pouvez créer un projet dans la section **Projets** d’un groupe que vous gérez. Pour plus d’informations, voir [Créer et modifier les projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. Choisissez l’option **Importer un fichier MS Project**.
+1. Cliquez sur **Importer MS Project**. La boîte de dialogue **Importer un fichier MS** s&#39;affiche.
 
-   ![Liste déroulante du nouveau projet](assets/new-project-dropdown-nwe-350x358.png)
+   ![Liste déroulante du nouveau projet](assets/import-ms-project-option.png)
 
-1. Cliquez sur **Sélectionner un fichier**, puis recherchez sur votre ordinateur le fichier .xml que vous avez exporté de Microsoft Project.
-1. Importez le fichier sélectionné.
-
-   Workfront commence le processus d’import et crée un nouveau projet basé sur le fichier exporté de Microsoft Project.
+1. Cliquez sur **Sélectionner un fichier**, puis recherchez le fichier .xml sur votre ordinateur que vous avez exporté à partir du projet Microsoft.
+1. Importer le fichier sélectionné. Workfront commence le processus d’import et crée un nouveau projet basé sur le fichier exporté de Microsoft Project.
 
    Une fois le processus d’import terminé, vous faites l’objet d’une redirection vers la page du nouveau projet qui affiche une confirmation que l’import s’est déroulé avec succès.
 
@@ -120,4 +120,7 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
 
 1. (Facultatif) Continuez à modifier le projet dans Workfront. Pour plus d’informations sur la modification des projets, voir [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   Le statut d’un nouveau projet créé à partir d’un modèle correspond au statut défini par votre équipe d’administration Workfront dans la zone Préférences du projet ou par un administrateur ou une administratrice de groupes dans la zone Préférences du projet du groupe. Pour plus d’informations sur la configuration des préférences de projet, voir [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+   >[!NOTE]
+   >
+   >Le statut d’un nouveau projet créé à partir d’un modèle correspond au statut défini par l’administrateur de Workfront dans la zone **Préférences du projet** ou par un administrateur de groupes dans la zone **Préférences du projet du groupe**. Pour plus d’informations sur la configuration des préférences de projet, voir [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).

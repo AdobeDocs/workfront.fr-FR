@@ -5,16 +5,18 @@ description: Dans le cadre de la création d’un business case, vous pouvez cr�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 98%
+source-wordcount: '504'
+ht-degree: 61%
 
 ---
 
 # Créer des objectifs d’analyse de rentabilité
 
-Dans le cadre de la création d’un business case, vous pouvez créer une série d’objectifs pour définir les objectifs d’un projet. Les objectifs du business case sont utilisés pour communiquer à la personne gestionnaire du portfolio ou à la personne sponsor du projet l’objectif de la réalisation d’un projet.
+<!-- Audited: 4/2025 -->
+
+Dans le cadre de la création d’un business case, vous pouvez créer une série d’objectifs pour définir les objectifs d’un projet. Ces objectifs sont utilisés pour communiquer l’objectif de la réalisation d’un projet au responsable Portfolio ou au sponsor du projet.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -22,22 +24,24 @@ Dans le cadre de la création d’un business case, vous pouvez créer une séri
 
 >[!TIP]
 >
->Vous pouvez créer des objectifs stratégiques pour votre organisation qui ne sont pas liés au business case d’un projet. Vous devez avoir accès aux Objectifs Adobe Workfront pour pouvoir créer des objectifs stratégiques. Vous pouvez ensuite les associer à des projets en dehors de leurs business cases. Pour plus d’informations sur la création d’objectifs à l’aide des objectifs Workfront, voir [Vue d’ensemble des objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>Vous pouvez créer des objectifs stratégiques pour votre organisation qui ne sont pas liés au business case d’un projet. Vous devez avoir accès aux Objectifs Adobe Workfront pour pouvoir créer des objectifs stratégiques. Vous pouvez ensuite les associer à des projets en dehors de leurs business cases. Pour plus d’informations sur la création d’objectifs à l’aide des objectifs Workfront, voir [Vue d’ensemble des objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 Tenez compte des éléments suivants lorsque vous définissez les objectifs de business case pour vos projets :
 
-* Les objectifs de business case sont spécifiques à chaque projet. Il n’est pas possible de copier des objectifs d’un projet à l’autre, ni d’établir des objectifs au niveau du système. Ils doivent être définis au niveau de chaque projet.
-* Votre administrateur ou administratrice Adobe Workfront ou votre administrateur ou administratrice de groupes doit activer la section Objectifs de vos projets avant qu’elle ne s’affiche dans le business case de vos projets. Pour plus d’informations sur l’activation des champs Business case de projets, voir [Configurer les préférences des projets à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Les objectifs de business case sont spécifiques à chaque projet. Vous ne pouvez pas copier des objectifs d&#39;un projet à un autre ni établir des objectifs au niveau du système. Ils doivent être définis au niveau de chaque projet.
+* Votre administrateur Adobe Workfront ou votre administrateur de groupe doit activer la section Objectifs du projet avant qu’elle ne s’affiche dans l’Analyse de rentabilité. Pour plus d’informations sur l’activation des champs Business case de projets, voir [Configurer les préférences des projets à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* Les objectifs ne sont pas une section obligatoire du business case d’un projet.
+* Les objectifs ne sont pas une section obligatoire de l’analyse de rentabilité du projet.
 
-  Un projet peut recevoir un score pour être classé en priorité dans l’optimisateur de portfolio, même si la section Objectifs du business case n’est pas définie.
+  Un projet peut recevoir un score auquel donner la priorité dans Portfolio Optimizer, même si la section Objectifs n’est pas définie.
 
   Pour plus d’informations sur le score de l’optimisateur de portfolio, voir [Appliquer une carte de performance à un projet et générer un score d’alignement](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-* Vous ne pouvez pas établir de rapport sur les objectifs de business case.
+* Vous ne pouvez pas créer de rapports sur les objectifs de l’analyse de rentabilité.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -48,15 +52,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Pro ou niveau supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td>
+   <td> 
+   <p>Nouveau : Standard</p> 
+   <p>Ou</p>
+   <p>Actuel : formule </p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux projets</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -66,21 +74,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajouter un objectif au business case d’un projet
 
-1. Accédez à un projet pour lequel vous souhaitez définir des objectifs de business case.
-1. Cliquez sur **Business case dans le panneau de gauche.**
+{{step1-to-projects}}
 
-   Le business case s’affiche.
+1. Dans la liste des projets, sélectionnez le projet pour lequel vous souhaitez définir des objectifs d&#39;analyse de rentabilité.
+1. Dans le volet de gauche, cliquez sur **Analyse de rentabilité**. La section **Analyse de rentabilité** s’affiche.
 
    ![Informations sur le business case](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. Dans la section **Objectifs**, cliquez sur **Modifier les objectifs**.
 
-1. Indiquez vos objectifs.
-Dans le menu déroulant **Importance**, sélectionnez le niveau d’importance :
+1. Dans le premier champ, saisissez la description de l’objectif.
+
+1. Dans le menu déroulant **Importance**, sélectionnez le niveau d’importance (ou de priorité) de cet objectif :
 
    * Le plus élevé
    * Élevé
@@ -88,9 +99,12 @@ Dans le menu déroulant **Importance**, sélectionnez le niveau d’importance 
    * Faible
    * Le plus faible
 
-     Importance(assets/g1-350x76.png)
+     ![Importance](assets/g1-350x76.png)
 
-     Vous ne pouvez pas personnaliser les niveaux d’importance des objectifs.
+     >[!NOTE]
+     >
+     >Vous ne pouvez pas personnaliser les niveaux d’importance des objectifs.
 
-1. (Facultatif) Pour ajouter un objectif, cliquez sur **Ajouter un objectif** et suivez à nouveau les étapes 5 et 6.
-1. Cliquez sur **Enregistrer**.
+1. (Facultatif) Pour ajouter un autre objectif, cliquez sur **Ajouter un autre objectif** et répétez les étapes 5 à 6.
+
+1. Cliquer sur **Enregistrer**.
