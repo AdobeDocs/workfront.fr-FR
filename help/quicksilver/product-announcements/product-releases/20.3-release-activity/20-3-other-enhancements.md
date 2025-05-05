@@ -72,7 +72,7 @@ Pour faciliter la visualisation et la gestion de votre travail quotidien avec le
 
 Auparavant, vous ne pouviez gérer votre calendrier qu’avec des dates prévisionnelles et prévues lorsque les dates effectives n’étaient pas disponibles.
 
-Pour plus d’informations, voir [Utiliser les champs de date personnalisés dans un rapport de calendrier](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (ou si vous utilisez Workfront Classic, voir [Utiliser les champs de date personnalisés dans un rapport de calendrier](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Pour plus d’informations, voir [Utiliser les champs de date personnalisés dans un rapport de calendrier](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (ou si vous utilisez Workfront Classic, voir [Utiliser les champs de date personnalisés dans un rapport de calendrier](https://experienceleague.adobe.com/fr/docs/workfront/using/home)).
 
 ## Modifications d’e-mails
 
@@ -82,7 +82,7 @@ Auparavant, les administrateurs et administratrices système pouvaient ajouter u
 
 **Modifications des réponses e-mail entrantes POP :** les administrateurs et administratrices système n’auront plus la possibilité de configurer un serveur e-mail POP personnalisé pour les réponses e-mail entrantes aux notifications.
 
-Pour plus d’informations, voir [Usurpation d’adresses e-mail et modifications des réponses e-mail POP](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Pour plus d’informations, voir [Usurpation d’adresses e-mail et modifications des réponses e-mail POP](https://experienceleague.adobe.com/fr/docs/workfront/using/home).
 
 ## La technique DKIM (DomainKeys Identified Mail) est désormais incluse dans les e-mails Workfront sortants.
 

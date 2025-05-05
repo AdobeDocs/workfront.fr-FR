@@ -36,7 +36,7 @@ Dans la zone des journaux d’audit, vous pouvez maintenant suivre et dépanner 
 
 Pour plus d’informations, voir [Journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes fondamentaux de l’administrateur ou l’administratrice pour la nouvelle expérience Workfront, partie 2 : configuration du projet](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes fondamentaux de l’administrateur ou l’administratrice pour la nouvelle expérience Workfront, partie 2 : configuration du projet](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Pour les administrateurs ou administratrices de groupes : amélioration des contrôles pour le déplacement des sous-groupes et mise à jour de la barre d’outils
 
@@ -137,7 +137,7 @@ Auparavant, ces valeurs par défaut ne pouvaient pas être personnalisées, de s
 
 Pour plus d’informations, consultez la section [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes fondamentaux de l’administrateur ou de l’administratrice dans la nouvelle expérience Workfront, Partie 3 : expérience de contrôle et d’interface](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes fondamentaux de l’administrateur ou de l’administratrice dans la nouvelle expérience Workfront, Partie 3 : expérience de contrôle et d’interface](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Nouveau pour les administrateurs et les administratrices : répertorier facilement les rapports qui utilisent actuellement un champ personnalisé
 

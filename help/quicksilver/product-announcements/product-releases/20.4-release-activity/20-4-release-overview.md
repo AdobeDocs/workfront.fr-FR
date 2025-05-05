@@ -298,7 +298,7 @@ La plupart des nouvelles fonctionnalités des Objectifs Workfront seront disponi
 
 ## Améliorations de Workfront Fusion
 
-Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent de celui du planning de la version 20.4. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent de celui du planning de la version 20.4. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Améliorations de l’API
 
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de la version 12 de l’API](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
+Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de la version 12 de l’API](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Pour plus d’informations sur les versions de l’API, voir [Planning du contrôle de version et du support de l’API](../../../wf-api/api/api-version-support-schedule.md).
 
@@ -348,7 +348,7 @@ Le webinaire Workfront version 20.4 sera présenté le mercredi 28 octobre 20
 
 À partir du 20 mai 2020, Workfront a commencé à mettre à disposition des fonctionnalités dans l’environnement de prévisualisation sur une base hebdomadaire. Avant cette modification, les fonctionnalités étaient généralement mises à disposition dans l’environnement de prévisualisation toutes les deux semaines.
 
-Pour plus d’informations, voir [Questions fréquentes sur la modification du rythme de publication de la version préliminaire de Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Pour plus d’informations, voir [Questions fréquentes sur la modification du rythme de publication de la version préliminaire de Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/home).
 
 ### Liste autorisée des domaines supplémentaires requis pour accéder à Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 

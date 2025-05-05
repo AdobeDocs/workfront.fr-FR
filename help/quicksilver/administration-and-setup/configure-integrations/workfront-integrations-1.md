@@ -98,7 +98,7 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
      <li>After Effects </li>
      </ul>
      <li><p>Téléchargez/installez depuis <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Pour plus d’informations et d’instructions, voir <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installer le plugin [!DNL Adobe Workfront] pour les applications [!DNL Creative Cloud]</a>.</p> 
+     <p>Pour plus d’informations et d’instructions, voir <a href="https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installer le plugin [!DNL Adobe Workfront] pour les applications [!DNL Creative Cloud]</a>.</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -305,7 +305,7 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
 
   [!DNL Adobe Workfront Fusion] relie les actions au sein et entre les applications et les services, pour créer un scénario qui transfère et transforme vos données automatiquement. Il dispose de connecteurs dédiés à de nombreuses applications, mais peut se connecter à n’importe quelle application à l’aide d’une API publique.
 
-  Pour plus d’informations, voir Vue d’ensemble d’[[!DNL Adobe Workfront Fusion] ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Pour plus d’informations, voir Vue d’ensemble d’[[!DNL Adobe Workfront Fusion] ](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Nécessite [!DNL Workfront Fusion])

@@ -27,7 +27,7 @@ Les plans directeurs fournissent des éléments de base pour vous aider à crée
 
 Consultez la [Vue d’ensemble des plans directeurs](../../../administration-and-setup/blueprints/blueprints-overview.md) pour plus d’informations.
 
-Cette fonctionnalité est désormais incluse dans le parcours d’apprentissage [Modèles de projet dans la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) de Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours d’apprentissage [Modèles de projet dans la nouvelle expérience Workfront](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home) de Workfront One.
 
 ## Nouveautés pour les administrateurs et administratrices de groupes : créer et gérer des statuts pour un groupe à n’importe quel niveau
 

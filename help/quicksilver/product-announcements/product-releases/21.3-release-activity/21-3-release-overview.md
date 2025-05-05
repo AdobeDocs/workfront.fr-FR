@@ -249,7 +249,7 @@ De nouvelles fonctionnalités sont disponibles dans la version 21.3 du planific
 
 ## Améliorations de Workfront Fusion
 
-Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du planning de la version 21.3. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de version Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du planning de la version 21.3. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de version Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Améliorations de Workfront Proof
 

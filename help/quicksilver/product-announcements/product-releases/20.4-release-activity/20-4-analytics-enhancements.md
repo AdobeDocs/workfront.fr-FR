@@ -29,4 +29,4 @@ Pour que vous puissiez afficher les informations que vous souhaitez consulter sa
 
 Auparavant, la zone Analytique améliorée limitait à 50 le nombre de projets que vous pouviez consulter.
 
-Cette fonctionnalité est désormais incluse dans le [parcours de formation d’Analytique améliorée, partie 1](https://experienceleague.adobe.com/en/docs/workfront/using/home) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le [parcours de formation d’Analytique améliorée, partie 1](https://experienceleague.adobe.com/fr/docs/workfront/using/home) sur Workfront One.

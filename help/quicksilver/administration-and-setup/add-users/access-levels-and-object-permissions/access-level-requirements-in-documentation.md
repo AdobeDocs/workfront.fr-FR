@@ -96,7 +96,7 @@ Certaines lignes contiennent des informations intitulées « Nouveau » et «�
    <ul><li>Actuelle : le modèle de licence actuelle est basé sur le nombre d’opérations effectuées et n’a aucune limite sur les actions qu’une organisation peut effectuer. </li>
    <li>Héritée : les licences héritées sont basées sur la capacité des scénarios à se connecter à des applications tierces ou sur l’utilisation des scénarios pour l’automatisation de Workfront uniquement. </li>
    </ul>
-   Pour plus d’informations sur l’attribution de licence Fusion, voir <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Licences Workfront Fusion</a>.
+   Pour plus d’informations sur l’attribution de licence Fusion, voir <a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Licences Workfront Fusion</a>.
    </td> 
   </tr> 
  </tbody> 

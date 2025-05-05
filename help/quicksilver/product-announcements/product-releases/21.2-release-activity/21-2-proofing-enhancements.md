@@ -33,7 +33,7 @@ Auparavant, vous deviez accéder aux détails du document et au workflow de l’
 
 Pour plus d’informations sur les statuts de décision des épreuves, voir [Zone Documents](../../../documents/managing-documents/documents-area.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Gérer des épreuves et des versions dans la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Gérer des épreuves et des versions dans la nouvelle expérience Workfront](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Nouveaux champs dans le rapport d’approbation d’épreuve
 
@@ -45,7 +45,7 @@ Pour faciliter la mise en évidence d’informations de relecture utiles, nous a
 
 Ces champs ne font pas partie du rapport par défaut. Vous devez les ajouter si vous souhaitez les voir.
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Configurations du système d’épreuves, partie 2 : gestion des workflows](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Configurations du système d’épreuves, partie 2 : gestion des workflows](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Effectuer le report du workflow existant de l’épreuve lors de la génération d’une nouvelle version
 

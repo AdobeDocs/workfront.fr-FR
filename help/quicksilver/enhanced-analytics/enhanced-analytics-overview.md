@@ -34,7 +34,7 @@ Analytique améliorée peut vous aider à identifier ce qui suit :
 
 ![ Analytics ](assets/nwe-full-screen-analytics-350x222.png)
 
-Pour consulter des cas d’utilisation ou en savoir plus sur la gestion du travail actuel et la planification du travail futur à l’aide d’Analytique améliorée, voir [Parcours de formation Analytique améliorée](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Pour consulter des cas d’utilisation ou en savoir plus sur la gestion du travail actuel et la planification du travail futur à l’aide d’Analytique améliorée, voir [Parcours de formation Analytique améliorée](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home).
 
 ## Conditions préalables
 
@@ -46,7 +46,7 @@ Pour accéder à la zone Analytique améliorée, vous devez satisfaire les condi
 
 * Demander à votre administrateur ou administratrice Workfront d’ajouter Analytique améliorée à votre modèle de mise en page.
 
-  Pour plus d’informations, voir [Analytique améliorée : ajouter une analyse aux modèles de mise en page](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+  Pour plus d’informations, voir [Analytique améliorée : ajouter une analyse aux modèles de mise en page](https://experienceleague.adobe.com/fr/docs/workfront/using/home).
 
 Pour afficher les informations relatives aux projets et aux tâches, vous devez satisfaire les conditions suivantes :
 

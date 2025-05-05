@@ -19,7 +19,7 @@ ht-degree: 97%
 
 Cette section contient les articles suivants :
 
-* [Programme de création d’un rapport de base pour la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+* [Programme de création d’un rapport de base pour la nouvelle expérience Workfront](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home)
 * [Accéder aux rapports et les organiser](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
 * [Créer un rapport sur les activités de reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
 * [Comprendre comment organiser les rapports sur un tableau de bord](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)

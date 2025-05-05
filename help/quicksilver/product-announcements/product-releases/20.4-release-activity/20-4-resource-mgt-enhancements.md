@@ -32,7 +32,7 @@ Les améliorations suivantes sont désormais disponibles avec cette nouvelle fon
 
 Pour plus d’informations sur l’effort de travail, voir [Vue d’ensemble de l’effort de travail](../../../manage-work/tasks/task-information/work-effort.md).
 
-Cette fonctionnalité est désormais incluse dans le [parcours de formation Principes de planification, partie 2](https://experienceleague.adobe.com/en/docs/workfront/using/home) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le [parcours de formation Principes de planification, partie 2](https://experienceleague.adobe.com/fr/docs/workfront/using/home) sur Workfront One.
 
 ## Couleurs basées sur le statut du projet pour les éléments de travail dans l’équilibreur de charge de travail
 

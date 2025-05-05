@@ -27,7 +27,7 @@ Dans la nouvelle expérience Workfront, l’option Basculer sur l’expérience 
 
 Dans Workfront Classic, l’option Basculer sur la nouvelle expérience apparaît dans le menu qui s’affiche lorsque vous cliquez sur l’image de profil dans le coin supérieur droit de la barre de navigation globale.
 
-Cette fonctionnalité est désormais incluse dans [Principes fondamentaux de l’administrateur et de l’administratrice, partie 1 du parcours de formation](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans [Principes fondamentaux de l’administrateur et de l’administratrice, partie 1 du parcours de formation](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Amélioration du chiffrement de Workfront Proof
 
@@ -62,7 +62,7 @@ Vous remarquerez également que notre style moderne améliore désormais l’exp
 
 Pour plus d’informations sur la configuration des notifications par e-mail, voir [Configurer les notifications d’événement pour tous les utilisateurs et utilisatrices du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Cette fonctionnalité est désormais incluse dans le [parcours de formation des notifications par e-mail et in-app](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le [parcours de formation des notifications par e-mail et in-app](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Nouveaux objets API déclenchant les mises à jour d’abonnement aux événements
 

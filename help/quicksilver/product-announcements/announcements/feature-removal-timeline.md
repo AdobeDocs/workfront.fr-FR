@@ -44,7 +44,7 @@ Plusieurs fonctionnalités du produit Adobe Workfront sont progressivement supp
    <td> <p>N’est plus pris en charge depuis le 9 novembre 2020 (avec la version 20.4).</p> <p>--</p> <p>Supprimé de la plateforme Workfront après le premier semestre 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Ancienne version de Workfront Fusion</p> <p>Workfront Fusion offre une expérience améliorée par rapport à l’ancienne version de Workfront Fusion.</p> <p>Pour plus d’informations sur Workfront Fusion, voir la section <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Ancienne version de Workfront Fusion</p> <p>Workfront Fusion offre une expérience améliorée par rapport à l’ancienne version de Workfront Fusion.</p> <p>Pour plus d’informations sur Workfront Fusion, voir la section <a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Supprimé de la plateforme Workfront le 31 mars 2021</td> 
   </tr> 

@@ -138,5 +138,5 @@ Pour plus d’informations sur l’utilisation des champs dans les listes et les
 
 Lorsque vous abandonnez un brouillon enregistré, vous pouvez maintenant cliquer sur Annuler dans le message de confirmation qui vous informe que votre brouillon sera supprimé. De cette façon, vous ne perdez pas le brouillon au cas où vous décidez de ne plus l’abandonner.
 
-Cette fonctionnalité est disponible uniquement dans la nouvelle expérience Workfront. Pour plus d’informations, voir [Créer et envoyer des demandes Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Cette fonctionnalité est disponible uniquement dans la nouvelle expérience Workfront. Pour plus d’informations, voir [Créer et envoyer des demandes Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/home).
 

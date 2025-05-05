@@ -43,6 +43,6 @@ Les barres d’outils des listes et rapports suivants ont désormais un aspect m
 
 >[!NOTE]
 >
->Cette modification a été mise à jour en production le 23 mai 2022. Voir [Mise à jour de la maintenance le 26 mai 2022 pour plus d’informations](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+>Cette modification a été mise à jour en production le 23 mai 2022. Voir [Mise à jour de la maintenance le 26 mai 2022 pour plus d’informations](https://experienceleague.adobe.com/fr/docs/workfront/using/home).
 
 Les séparateurs de chemin de navigation ont été mis à jour dans toutes les zones où ils sont disponibles. Désormais, les objets des chemins de navigation sont séparés par des barres verticales (|). Avant cette mise à jour, ils étaient séparés par des barres obliques (/).

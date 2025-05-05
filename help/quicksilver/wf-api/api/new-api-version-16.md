@@ -514,7 +514,7 @@ Un objet Timesheet représente une feuille de temps virtuelle qui permet aux uti
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Ces actions permettent de partager des filtres, des vues et des regroupements à l’échelle du système.</p><p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Mettre les filtres, les vues ou les regroupements à la disposition de toutes les personnes</a>.</p>
+            <p>Ces actions permettent de partager des filtres, des vues et des regroupements à l’échelle du système.</p><p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Mettre les filtres, les vues ou les regroupements à la disposition de toutes les personnes</a>.</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ Un objet Timesheet représente une feuille de temps virtuelle qui permet aux uti
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Ces actions permettent de partager des filtres, des vues et des regroupements à l’échelle du système.</p><p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Mettre les filtres, vues ou regroupements à la disposition de toutes les personnes</a>.</p>
+            <p>Ces actions permettent de partager des filtres, des vues et des regroupements à l’échelle du système.</p><p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Mettre les filtres, vues ou regroupements à la disposition de toutes les personnes</a>.</p>
          </li>
         </ul>
       </td>
@@ -579,7 +579,7 @@ Un objet Timesheet représente une feuille de temps virtuelle qui permet aux uti
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Ces actions permettent de partager des filtres, des vues et des regroupements à l’échelle du système.</p><p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Mettre les filtres, vues ou regroupements à la disposition de toutes les personnes</a>.</p>
+            <p>Ces actions permettent de partager des filtres, des vues et des regroupements à l’échelle du système.</p><p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Mettre les filtres, vues ou regroupements à la disposition de toutes les personnes</a>.</p>
          </li>
         </ul>
       </td>

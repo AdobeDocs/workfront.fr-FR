@@ -55,7 +55,7 @@ Les barres d’outils des listes et rapports suivants ont désormais un aspect m
 
 >[!NOTE]
 >
->La barre d’outils de ces mêmes rapports dans les tableaux de bord a également été mise à jour en production avec la [Mise à jour de maintenance](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) du 3 mars 2022.
+>La barre d’outils de ces mêmes rapports dans les tableaux de bord a également été mise à jour en production avec la [Mise à jour de maintenance](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates) du 3 mars 2022.
 
 * Rapports de projet
 * Rapports sur la tâche

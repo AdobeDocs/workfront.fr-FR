@@ -40,7 +40,7 @@ Pour plus d’informations sur les processus de versions trimestrielles et rapid
 
 ### Mises à jour de maintenance
 
-Des correctifs pour le produit Adobe Workfront sont mis à disposition dans l’environnement de production chaque semaine. Consultez la page [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) pour voir les problèmes qui ont été corrigés récemment.
+Des correctifs pour le produit Adobe Workfront sont mis à disposition dans l’environnement de production chaque semaine. Consultez la page [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates) pour voir les problèmes qui ont été corrigés récemment.
 
 ## Fonctionnalités supprimées d’une version planifiée
 

@@ -27,7 +27,7 @@ Pour partager plus facilement le statut et la progression d’un projet, vous po
 
 Pour plus d’informations, voir [Vue d’ensemble des mesures des projets](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes de planification de la nouvelle expérience Workfront, Partie 3 : gérer un projet](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes de planification de la nouvelle expérience Workfront, Partie 3 : gérer un projet](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
 ## Mise à jour du pourcentage terminé d’un problème lorsque le projet ou la tâche a été converti à partir de la mise à jour du problème
 
@@ -41,9 +41,9 @@ Pour vous permettre de gérer vos demandes soumises de manière plus simple et p
 
 Pour plus d’informations sur l’emplacement des demandes envoyées, voir [Localiser les demandes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes de collaboration pour la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes de collaboration pour la nouvelle expérience Workfront](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) sur Workfront One.
 
-Cette fonctionnalité est désormais incluse dans le parcours de formation [Demandes dans la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le parcours de formation [Demandes dans la nouvelle expérience Workfront](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) sur Workfront One.
 
 ## Champs supprimés de la page Nouvelle demande
 

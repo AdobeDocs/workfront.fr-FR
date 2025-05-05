@@ -712,7 +712,7 @@ Avec cette mise à jour, la visionneuse de relecture de bureau prendra en charge
 
 ### Améliorations de Workfront Fusion
 
-Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du calendrier de publication de la version 22.4. Pour plus d’informations sur les dernières fonctionnalités, consultez la section [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du calendrier de publication de la version 22.4. Pour plus d’informations sur les dernières fonctionnalités, consultez la section [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations du planificateur de scénarios Workfront
 
@@ -736,7 +736,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors du lancement de la version 22.3, consultez la section [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors du lancement de la version 22.3, consultez la section [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates).
 
 ### Webinaire sur la version 22.4
 
@@ -744,7 +744,7 @@ Le webinaire sur la version 22.4 aura lieu le jeudi 22 septembre 2022 à 9 
 
 ### Mise à jour des formations
 
-Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, consultez la [page des mises à jour des versions des formations](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, consultez la [page des mises à jour des versions des formations](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home).
 
 ### Fonctionnalités supprimées avec la version 22.4
 

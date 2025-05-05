@@ -25,7 +25,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 2
 
 Pour que votre expérience soit plus cohérente lors de l’utilisation de Workfront sur l’application mobile et sur le Web, toute personnalisation de la navigation secondaire du panneau de gauche dans les modèles de disposition nouveaux ou existants est automatiquement répercutée dans l’application mobile.
 
-Pour en savoir plus sur la personnalisation du panneau de gauche, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de disposition dans la nouvelle expérience Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Pour en savoir plus sur la personnalisation du panneau de gauche, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de disposition dans la nouvelle expérience Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/home).
 
 ## Aimer les mises à jour sur l’application mobile
 

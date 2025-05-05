@@ -30,9 +30,9 @@ Pour les clientes et clients sur Adobe Experience Manager Assets as a Clou
 >
 >Un partenaire certifié ou des services de conseil Adobe sont nécessaires pour mettre en œuvre le connecteur amélioré.
 >
-> Pour les partenaires qui souhaitent se certifier sur le connecteur amélioré, consultez l’article suivant : [Expert Series Workfront pour le connecteur amélioré pour Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
+> Pour les partenaires qui souhaitent se certifier sur le connecteur amélioré, consultez l’article suivant : [Expert Series Workfront pour le connecteur amélioré pour Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Pour mettre en œuvre le connecteur amélioré, voir [Configurer Workfront pour le connecteur amélioré Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
+Pour mettre en œuvre le connecteur amélioré, voir [Configurer Workfront pour le connecteur amélioré Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Déplacer des ressources existantes
