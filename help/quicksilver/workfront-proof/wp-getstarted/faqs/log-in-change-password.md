@@ -41,7 +41,7 @@ Pour les formules [!UICONTROL Entreprise] et [!UICONTROL Illimité], nous offron
 
 1. Cliquez sur **[!UICONTROL Se déconnecter]** dans le coin supérieur droit de Workfront Proof.\
    Un message s’affiche pour confirmer que la déconnexion est effective. Cliquez sur **[!UICONTROL Retour à la page de connexion]** pour vous reconnecter si vous le souhaitez.\
-   L’équipe d’administration [!DNL Workfront Proof] peut configurer un branding personnalisé pour ce message. Consultez la section [Personnaliser le branding du site  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Ou, si vous utilisez une formule d’édition [!UICONTROL Enterprise] ou [!UICONTROL  Illimité], consultez la section [Personnaliser le branding du site  [!DNL Workfront Proof]  - Avancé](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+   L’équipe d’administration [!DNL Workfront Proof] peut configurer un branding personnalisé pour ce message. Consultez la section [Personnaliser le branding du site  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Ou, si vous utilisez une formule d’édition [!UICONTROL Enterprise] ou [!UICONTROL &#x200B; Illimité], consultez la section [Personnaliser le branding du site  [!DNL Workfront Proof]  - Avancé](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Lorsque vous oubliez votre mot de passe. {#when-you-forget-your-password}
 

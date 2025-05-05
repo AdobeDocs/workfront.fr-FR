@@ -134,9 +134,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
      >   * Les champs de données personnalisées de valeurs numériques et de devise regroupent toutes les tâches : parents, enfants, parents de parents et tâches autonomes. Si vous avez créé le rapport de matrice pour afficher le nombre d’heures prévues ou les heures effectives dans la colonne **Valeur**, sachez que les informations sur les heures ou les coûts de tout objet parent (telles que les tâches parent) ne sont pas affichées dans le rapport de matrice. Pour afficher les heures sur les objets parent, vous devez afficher l’onglet **Détails**.
      >   
      >   
-     >
+     >**Règles conditionnelles :** configurez toute règle de mise en forme pour les valeurs qui sont agrégées.\
 
-   **Règles conditionnelles :** configurez toute règle de mise en forme pour les valeurs qui sont agrégées.\
    Après avoir ajouté une règle, vous pouvez définir des styles de champ et de texte définissant le mode d’affichage des champs correspondant à cette règle. Après avoir défini la règle, cliquez sur **Ajouter une règle**, puis sur **Terminé** pour l’enregistrer.
 
 1. Cliquez sur l’onglet **Filtres** pour définir les informations qui s’afficheront dans le rapport.

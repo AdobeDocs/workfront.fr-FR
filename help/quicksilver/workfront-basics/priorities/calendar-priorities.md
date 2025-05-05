@@ -131,7 +131,7 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
     </tbody>
     </table>
 
-+++
+   +++
 
 1. Cliquez sur la barre d’éléments de travail du calendrier pour ouvrir le résumé latéral. Le résumé latéral vous permet d’effectuer les opérations suivantes :
 

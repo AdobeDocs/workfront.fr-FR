@@ -30,7 +30,7 @@ Cette section contient les articles suivants :
 * [Désactiver les intégrations de document](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
 * [Configurer l’intégration  [!DNL SharePoint] ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
 * [Configurer le mappage des métadonnées](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-* [Créer des packages [!UICONTROL  [!DNL Adobe Workfront]  for  [!DNL Creative Cloud]] ] pour vos utilisateurs et utilisatrices dans  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+* [Créer des packages [!UICONTROL &#x200B; [!DNL Adobe Workfront]  for  [!DNL Creative Cloud]] ] pour vos utilisateurs et utilisatrices dans  [!DNL Adobe Admin Console]&rbrack;(/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/configure-integrations/create-oauth-application.md" class="MCXref xref" xrefformat="{para}">Create OAuth2 applications for Workfront integrations</a> </li>

@@ -92,7 +92,7 @@ Le partage d’un ou de plusieurs rapports d’une liste est identique.
 
    Ou
 
-   Cliquez sur le nom d’un rapport, puis sur **Actions du rapport >****Partage**.
+   Cliquez sur le nom d’un rapport, puis sur **Actions du rapport >**&#x200B;**Partage**.
 
    ![](assets/unshimmed-report-actions-sharing.png)
 

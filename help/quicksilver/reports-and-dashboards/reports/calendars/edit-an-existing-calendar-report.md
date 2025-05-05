@@ -70,11 +70,13 @@ Si vous avez partagé le rapport du calendrier avec d’autres utilisateurs ou u
    1. Cliquez sur **[!UICONTROL Ajouter au calendrier].**
    1. Commencez à saisir le nom d’un projet à partir duquel vous souhaitez ajouter des événements de calendrier, puis cliquez sur le nom lorsqu’il s’affiche dans la liste déroulante.
    1. Cliquez sur **Ajouter**.
+
       ![ajouter un projet à un calendrier](assets/add-a-calendar-project.png)
 
 
 1. (Facultatif) Pour ajouter un regroupement de calendriers ou modifier un regroupement de calendriers existant :
    1. Cliquez sur le menu **Plus** en regard du nom du projet, puis cliquez sur **Modifier**.
+
       ![modifier projet dans le calendrier](assets/edit-project-in-calendar.png)
 
    1. Choisissez le mode de regroupement de vos éléments :

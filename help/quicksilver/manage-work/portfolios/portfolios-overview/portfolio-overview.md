@@ -90,7 +90,7 @@ Pour une organisation efficace de vos portfolios, nous vous recommandons de suiv
 
    Vous pouvez associer le projet à un portfolio lors de la création de son analyse de cas. Vous devez créer un portfolio avant de pouvoir l’associer à un projet. Pour plus d’informations, voir [Création d’un portefeuille](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 
-   Les détails que vous collectez lors de la création d’un dossier commercial sont utilisés dans l’ [!UICONTROL optimiseur de portefeuille] et le [!UICONTROL  planificateur de ressources] pour faciliter la gestion de la sélection de projets.
+   Les détails que vous collectez lors de la création d’un dossier commercial sont utilisés dans l’ [!UICONTROL optimiseur de portefeuille] et le [!UICONTROL &#x200B; planificateur de ressources] pour faciliter la gestion de la sélection de projets.
 1. Associez des groupes de ressources aux projets au cours de l’élaboration du business case.
 
    Les portfolios sont généralement configurés pour correspondre aux groupes de ressources. Les programmes d’un portfolio s’alignent également sur un groupe de ressources. Cette corrélation permet d’assurer que toute planification des ressources est conforme à l’objectif du portfolio, car les projets d’un portfolio spécifique se disputent généralement les mêmes ressources.

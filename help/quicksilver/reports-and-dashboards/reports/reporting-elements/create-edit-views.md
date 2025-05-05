@@ -90,6 +90,7 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
    * Ajustez l’ordre d’apparition des colonnes en faisant glisser le titre de la colonne vers un nouvel emplacement.
 
    * Dans la zone **Paramètres de colonne**, cliquez sur **Résumer cette colonne par** et choisissez comment vous souhaitez que les données s’affichent dans la colonne. Cette option est disponible pour les types de colonnes suivants :
+
      <table style="table-layout:auto"> 
          <col> 
          <col> 

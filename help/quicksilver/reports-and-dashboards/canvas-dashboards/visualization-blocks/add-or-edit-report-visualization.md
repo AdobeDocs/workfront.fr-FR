@@ -41,15 +41,15 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 
 1. Dans la partie droite de l’écran, sous **Ajouter un bloc** :
 
-   Faites glisser l’icône **Visualisation** **** sur la zone de travail, directement à l’emplacement souhaité.
+   Faites glisser l’icône **Visualisation** **&#x200B;**&#x200B;sur la zone de travail, directement à l’emplacement souhaité.
 
    Ou
 
-   Double-cliquez sur l’icône **Visualisation** **** pour ajouter une visualisation en haut de la zone de travail.
+   Double-cliquez sur l’icône **Visualisation** **&#x200B;**&#x200B;pour ajouter une visualisation en haut de la zone de travail.
 
    Ou
 
-   Sélectionnez l’icône **Visualisation** **** en haut d’un tableau existant sur la zone de travail.
+   Sélectionnez l’icône **Visualisation** **&#x200B;**&#x200B;en haut d’un tableau existant sur la zone de travail.
 
    >[!TIP]
    >
@@ -61,7 +61,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 
    >[!NOTE]
    >
-   >Si vous sélectionnez **+ Ajouter un nouveau tableau**, un nouveau bloc de tableau est créé sous le bloc de visualisation. Vous devez remplir le tableau avec des données avant de pouvoir ajouter une visualisation pour celui-ci. Pour plus d’informations sur la création et la modification de tableaux, voir [ [Add or edit a table block in Reporting Canva](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+   >Si vous sélectionnez **+ Ajouter un nouveau tableau**, un nouveau bloc de tableau est créé sous le bloc de visualisation. Vous devez remplir le tableau avec des données avant de pouvoir ajouter une visualisation pour celui-ci. Pour plus d’informations sur la création et la modification de tableaux, voir [&#128279;](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) [Add or edit a table block in Reporting Canva](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
 1. Sélectionnez le type de visualisation à ajouter.
 

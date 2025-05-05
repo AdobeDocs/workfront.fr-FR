@@ -56,7 +56,7 @@ Voici quelques-uns des objets les plus couramment utilisés dans [!DNL Workfront
 
 Pour obtenir la liste complète des objets dans [!DNL Workfront], consultez la section [Explorateur d’API](../../../wf-api/general/api-explorer.md).
 
-*Les plans sont les objets du [!DNL Adobe Workfront Scenario Planner]. Pour plus d’informations sur le [!DNL Scenario Planner], consultez la section [Vue d’ensemble du [!UICONTROL Planificateur de scénarios ]](../../../scenario-planner/scenario-planner-overview.md).
+*Les plans sont les objets du [!DNL Adobe Workfront Scenario Planner]. Pour plus d’informations sur le [!DNL Scenario Planner], consultez la section [Vue d’ensemble du [!UICONTROL Planificateur de scénarios &#x200B;]](../../../scenario-planner/scenario-planner-overview.md).
 
 *[!UICONTROL Objectifs] sont les objets d’[!DNL Adobe Workfront Goals]. Pour plus d’informations sur [!DNL Workfront Goals], consultez la section Vue d’ensemble d’[[!DNL Adobe Workfront Goals] ](../../../workfront-goals/goal-management/wf-goals-overview.md).
 

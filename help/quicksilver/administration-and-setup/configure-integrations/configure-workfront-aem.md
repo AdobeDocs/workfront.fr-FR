@@ -229,7 +229,7 @@ L’[!UICONTROL Externalizer AEM] permet à AEM de transmettre des URL dans un f
 
 1. Cliquez sur **[!UICONTROL OSGI]**, puis cliquez sur **[!UICONTROL Configuration]** dans le menu déroulant.
 
-1. Dans la liste de configuration, sélectionnez &#x200B;’Externaliseur **[!UICONTROL lien Day CQ ].** La page **[!UICONTROL Externalizer]** s’affiche.
+1. Dans la liste de configuration, sélectionnez &#x200B;’Externaliseur **[!UICONTROL lien Day CQ &#x200B;].** La page **[!UICONTROL Externalizer]** s’affiche.
 
 1. Dans la section **[!UICONTROL Domaines]**, assurez-vous que le domaine répertorié dans le champ **[!UICONTROL Création]** est le nom de domaine accessible de l’extérieur aux utilisateurs et utilisatrices AEM.
 
@@ -244,7 +244,7 @@ L’[!UICONTROL Externalizer AEM] permet à AEM de transmettre des URL dans un f
 
 ## Configurer [!DNL Workfront] pour l’intégrer à [!DNL AEM assets] {#configure-workfront-to-integrate-with-aem-assets}
 
-Après avoir installé le connecteur [!UICONTROL Workfront pour AEM Assets] (comme décrit dans [Installer le package connecteur [!UICONTROL Workfront pour AEM Assets]](#install-the-workfront-for-aem-assets-connector-package)) et configuré [!UICONTROL AEM Assets] (comme décrit dans [Configurer[!UICONTROL  AEM Assets] pour l’intégrer à  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)), vous devez configurer [!DNL Workfront] pour lier des documents entre [!DNL Workfront] et [!DNL AEM Assets].
+Après avoir installé le connecteur [!UICONTROL Workfront pour AEM Assets] (comme décrit dans [Installer le package connecteur [!UICONTROL Workfront pour AEM Assets]](#install-the-workfront-for-aem-assets-connector-package)) et configuré [!UICONTROL AEM Assets] (comme décrit dans [Configurer[!UICONTROL &#x200B; AEM Assets] pour l’intégrer à  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)), vous devez configurer [!DNL Workfront] pour lier des documents entre [!DNL Workfront] et [!DNL AEM Assets].
 
 1. Connectez-vous à Workfront en tant qu’administrateur.
 

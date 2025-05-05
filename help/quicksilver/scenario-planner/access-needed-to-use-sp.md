@@ -24,7 +24,7 @@ Le [!DNL Scenario Planner] a des exigences de licence supplémentaires. Pour plu
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Sans les accès ou autorisations nécessaires, vous ne pourrez peut-être pas afficher la zone [!UICONTROL Scénarios] d’[!DNL  Adobe Workfront] ou gérer les plans ou les initiatives de votre entreprise. La gestion des plans et des initiatives comprend leur création, leur modification et leur suppression.
+Sans les accès ou autorisations nécessaires, vous ne pourrez peut-être pas afficher la zone [!UICONTROL Scénarios] d’[!DNL &#x200B; Adobe Workfront] ou gérer les plans ou les initiatives de votre entreprise. La gestion des plans et des initiatives comprend leur création, leur modification et leur suppression.
 
 ## Accès nécessaire pour afficher et utiliser le [!DNL Adobe Workfront Scenario Planner]
 

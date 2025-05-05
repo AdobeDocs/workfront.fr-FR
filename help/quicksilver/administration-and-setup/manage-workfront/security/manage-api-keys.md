@@ -107,13 +107,14 @@ Vous pouvez générer et gérer des clés API pour les personnes ayant un rôle
    1. Développez **Système**, puis cliquez sur **Authentification unique (SSO)**.
    1. Dans le champ **Type**, sélectionnez le type de SSO utilisé par votre entreprise.
    1. Avec le type sélectionné, faites défiler l’écran vers le bas et décochez la case **Activer**.
+
       ![Activer SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Cliquer sur **Enregistrer**.
 
 
 1. Dans la barre d’adresse d’un navigateur, saisissez l’appel API suivant :
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**username**&amp;password=**password**&amp;method=PUT
+   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;username&#x200B;**&amp;password=**&#x200B;password**&amp;method=PUT
 
    Remplacez `<domain>` par votre nom de domaine Workfront, et le nom d’utilisateur ou d’utilisatrice et le mot de passe par les informations d’identification Workfront de la personne.
 

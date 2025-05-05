@@ -52,7 +52,7 @@ La publication d’un scénario à partir du [!DNL Adobe Workfront Scenario Plan
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
-   <td> <p>Accès à [!UICONTROL Edit] pour les projets [!DNL Scenario Planner] et [!UICONTROL]</p></td> 
+   <td> <p>Accès à [!UICONTROL Edit] pour les projets [!DNL Scenario Planner] et </p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Autorisations d’objet </p> </td> 

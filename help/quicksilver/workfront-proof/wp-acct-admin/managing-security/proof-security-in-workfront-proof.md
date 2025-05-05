@@ -55,4 +55,4 @@ Par défaut, les réviseurs et réviseuses peuvent télécharger le fichier orig
 
 Les paramètres enregistrés dans vos paramètres personnels sont appliqués à toutes les épreuves que vous avez créées, mais ils peuvent être remplacés lors de la création d’une épreuve ou lors de la modification d’une épreuve, comme décrit dans la section [Gérer les détails de l’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-Vous pouvez désactiver les téléchargements de fichiers en modifiant vos paramètres d’épreuve personnels, comme décrit dans la section [Configurer des paramètres d’épreuve dans [!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+Vous pouvez désactiver les téléchargements de fichiers en modifiant vos paramètres d’épreuve personnels, comme décrit dans la section [Configurer des paramètres d’épreuve dans [!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).

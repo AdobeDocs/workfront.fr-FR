@@ -85,7 +85,7 @@ Pour configurer l’intégration de [!DNL JumpSeat] :
 
 https://{mycompanyname}.jumpsièges.io
 
->>
+&#x200B;>>
 
 >[!ENDSHADEBOX]
 

@@ -107,6 +107,7 @@ Adobe fournit une interface de ligne de commande open source qui peut être util
 
 1. Sélection et configuration de modèles
    1. Parcourez tous les modèles disponibles et choisissez le modèle **@adobe/aem-cf-editor-ui-ext-tpl** pour votre projet.
+
       ![Modèle de recherche](assets/search-template.png)
       ![Sélectionner le modèle](assets/select-template.png)
 
@@ -115,6 +116,7 @@ Adobe fournit une interface de ligne de commande open source qui peut être util
    1. Fournissez un résumé descriptif des fonctionnalités de votre extension.
    1. Sélectionnez un numéro de version initial pour commencer.
    1. Confirmez l’achèvement en sélectionnant **J’ai terminé**.
+
       ![Définir l’extension](assets/define-extension.png)
 
 1. Accédez au dossier du projet

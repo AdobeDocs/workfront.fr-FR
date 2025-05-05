@@ -86,7 +86,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    Pour plus d’informations sur les invites, consultez la section [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).\
    L’horodatage du rapport s’affiche dans le coin supérieur droit, comprenant la date, l’heure et le fuseau horaire de l’exécution du rapport à partir du contexte de l’utilisateur ou de l’utilisatrice à l’origine de l’exécution du rapport.
 
-1. (Facultatif) Cliquez sur l’icône **** ![Icône Recharger](assets/unshimmed-report-refresh-icon.png) pour actualiser les résultats dans un rapport si le rapport s’affiche dans votre navigateur depuis un certain temps.
+1. (Facultatif) Cliquez sur l’icône **&#x200B;**&#x200B;![Icône Recharger](assets/unshimmed-report-refresh-icon.png) pour actualiser les résultats dans un rapport si le rapport s’affiche dans votre navigateur depuis un certain temps.
 
 1. (Le cas échéant) Si le rapport utilise des filtres ou des invites, cliquez sur **Afficher les filtres et les invites** pour afficher la liste des filtres et des invites utilisés sur le rapport que vous consultez. Si le rapport ne comporte que des filtres ou des invites, le choix **Afficher les filtres** ou **Afficher les invites** apparaît à la place.
 

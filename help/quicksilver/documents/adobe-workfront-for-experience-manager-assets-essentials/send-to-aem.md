@@ -19,7 +19,7 @@ Vous pouvez envoyer des documents depuis Workfront vers Experience Manager Ass
 
 Les ressources envoyées vers Experience Manager par le biais de cette intégration sont limitées à une taille de **5 Go**.
 
-Dans l’environnement de Prévisualisation, la taille maximale d’Assets envoyé à Experience Manager par le biais de cette intégration est de 30 Go ****.
+Dans l’environnement de Prévisualisation, la taille maximale d’Assets envoyé à Experience Manager par le biais de cette intégration est de 30 Go **&#x200B;**.
 
 Les champs de métadonnées sont mappés pour la première fois lorsque vous envoyez une ressource de Workfront vers Experience Manager Assets ou Assets Essentials. Toutes les métadonnées configurées pour mapper des objets parent sont également envoyées. Pour plus d’informations sur la configuration du mappage des métadonnées, voir [Configurer l’intégration d’Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurer l’intégration d’Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 

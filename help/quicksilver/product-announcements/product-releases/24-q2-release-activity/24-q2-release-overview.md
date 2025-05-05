@@ -67,7 +67,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La logique d’affichage et la logique de saut sont désormais disponibles en mode d’aperçu du créateur de formulaire.</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La logique d’affichage et la logique de saut sont désormais disponibles en mode d’aperçu du créateur de formulaire.</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>La version bêta du créateur de formulaire personnalisé vous permet désormais de tester votre logique d’affichage et logique de saut en mode d’aperçu. Auparavant, tous les champs s’affichaient dans l’aperçu même lorsque la logique était appliquée.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -83,7 +83,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Les entreprises et les utilisateurs et utilisatrices prennent désormais en charge les champs de formulaire personnalisé avancés.</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Les entreprises et les utilisateurs et utilisatrices prennent désormais en charge les champs de formulaire personnalisé avancés.</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Les fonctionnalités avancées de formulaire personnalisé telles que les champs de recherche externe et les champs natifs Workfront sont désormais disponibles lorsque vous joignez un formulaire personnalisé à une entreprise ou à un utilisateur ou une utilisatrice.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -99,7 +99,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Intégration JumpSeat désormais disponible pour les nouveaux types de packages</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Intégration JumpSeat désormais disponible pour les nouveaux types de packages</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>L’intégration JumpSeat existante est désormais disponible pour les comptes utilisant l’un des nouveaux types de packages (c’est-à-dire Select, Prime ou Ultimate). Vous devez toujours disposer d’un abonnement JumpSeat actif pour activer l’intégration.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -118,7 +118,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Les champs natifs de Workfront sont disponibles dans la version bêta du créateur de formulaire</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Les champs natifs de Workfront sont disponibles dans la version bêta du créateur de formulaire</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Les champs natifs de Workfront sont désormais disponibles pour l’ajout dans vos formulaires personnalisés. Ce nouveau type de champ vous permet d’organiser et de présenter les données à vos utilisateurs et utilisatrices de manière logique, sans avoir à recréer des données existantes dans des champs personnalisés.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -138,7 +138,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Mappage d’attributs désormais disponible pour les organisations qui ont migré vers Adobe IMS</a></p>
-                        <p>[!BADGE In production ]{type=Informative}</p><p>Les équipes d’administration système Workfront peuvent désormais configurer le mappage des attributs utilisateur pour les organisations qui ont migré vers Adobe IMS. Cela permet de transmettre les informations des utilisateurs et utilisatrices à Workfront à partir du fournisseur d’authentification unique (SSO) de l’organisation, de sorte qu’il ne soit pas nécessaire de saisir ces données à la fois dans Workfront et dans le fournisseur d’authentification unique.</p>
+                        <p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Les équipes d’administration système Workfront peuvent désormais configurer le mappage des attributs utilisateur pour les organisations qui ont migré vers Adobe IMS. Cela permet de transmettre les informations des utilisateurs et utilisatrices à Workfront à partir du fournisseur d’authentification unique (SSO) de l’organisation, de sorte qu’il ne soit pas nécessaire de saisir ces données à la fois dans Workfront et dans le fournisseur d’authentification unique.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -153,7 +153,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Les logiques de saut et d’affichage sont désormais disponibles dans la version bêta du concepteur de formulaires.</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Les logiques de saut et d’affichage sont désormais disponibles dans la version bêta du concepteur de formulaires.</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Vous pouvez désormais modifier les logiques d’affichage et de saut existantes et ajouter des nouvelles logiques aux formulaires personnalisés dans la version bêta du concepteur de formulaires. Un générateur de logique convivial permet de définir les champs à afficher ou à ignorer en fonction des sélections dans le formulaire.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -195,7 +195,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajouter une échéance aux révisions et approbations de documents</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajouter une échéance aux révisions et approbations de documents</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Vous pouvez maintenant spécifier une échéance pour les utilisateurs et utilisatrices ou les équipes affectés à la révision ou à l’approbation d’un document. Les réviseurs et réviseuses et les approbateurs et approbatrices reçoivent des notifications par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée. L’échéance est également répercutée dans le widget Approbations de la nouvelle zone d’accueil.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -211,7 +211,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Créer et utiliser des modèles d’approbation</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Créer et utiliser des modèles d’approbation</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Vous pouvez maintenant créer des modèles d’approbation dans la zone Configuration afin de rationaliser le processus de révision et d’approbation. Les modèles d’approbation vous permettent de rendre le processus de révision et d’approbation plus répétable en
                         <ul>
                             <li>
@@ -236,7 +236,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Affichage des informations sur toutes vos approbations en un seul endroit</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Affichage des informations sur toutes vos approbations en un seul endroit</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Pour vous aider à gérer et analyser vos demandes d’approbation d’un seul coup d’œil, nous avons ajouté les indicateurs clés de performances suivants au widget Toutes les approbations :
                         <ul>
                             <li>
@@ -286,7 +286,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Options de colonne ajoutées aux contrôles d’Administration pour la nouvelle page d’accueil à l’aide des modèles de disposition</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Options de colonne ajoutées aux contrôles d’Administration pour la nouvelle page d’accueil à l’aide des modèles de disposition</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Les administrateurs et administratrices peuvent désormais personnaliser les colonnes disponibles pour les utilisateurs et utilisatrices de nouveaux widgets d’accueil spécifiques à l’aide de modèles de disposition. Les options incluent le masquage ou l’affichage des colonnes par défaut et l’ajout de champs existants en tant que nouvelles colonnes.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -324,7 +324,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations apportées au workflow de création de dossiers automatisée dans l’intégration Adobe Experience Manager</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations apportées au workflow de création de dossiers automatisée dans l’intégration Adobe Experience Manager</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Afin de garantir une meilleure adéquation de vos dossiers Adobe Experience Manager avec vos besoins, nous avons apporté quelques mises à jour au workflow des dossiers liés à Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -360,7 +360,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations plus pertinentes ajoutées au workflow Nouvelle tâche</a></p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In production for Fast Release &#x200B;]{type=Positive}</p>
                         <p>Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet et dans une liste de tâches de projet.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -378,7 +378,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations intelligentes plus pertinentes</a></p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In production for Fast Release &#x200B;]{type=Positive}</p>
                         <p>Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -414,7 +414,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicateur pour les allocations ajustées manuellement dans l’équilibreur de charge de travail</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Pour plus de clarté sur les ajustements manuels ou les contours dans l’équilibreur de charge de travail, les allocations horaires ajustées manuellement affichent désormais une icône en forme de crayon.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicateur pour les allocations ajustées manuellement dans l’équilibreur de charge de travail</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Pour plus de clarté sur les ajustements manuels ou les contours dans l’équilibreur de charge de travail, les allocations horaires ajustées manuellement affichent désormais une icône en forme de crayon.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -451,7 +451,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelles expériences de commentaires ajoutées aux itérations</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelles expériences de commentaires ajoutées aux itérations</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Afin de vous offrir une expérience cohérente dans l’ensemble de l’application, nous avons ajouté la nouvelle expérience de commentaire aux itérations. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -477,7 +477,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Suppression de l’accès à la zone de commentaires héritée</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Suppression de l’accès à la zone de commentaires héritée</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Suppression du bouton (bascule) « Nouveau commentaire » dans la zone Mises à jour pour les projets, les tâches, les problèmes et les documents. Le nouveau commentaire est désormais la seule option par défaut pour ces objets. Grâce à cette modification, vous ne pouvez plus revenir à l’expérience de commentaires héritée. Nous avons également supprimé le paramètre « Afficher le pourcentage d’achèvement pour le statut de la mise à jour » du profil d’une personne.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -493,7 +493,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau flux de commentaires désormais disponible dans les actions rapides pour les nouveaux widgets de la page d’accueil</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau flux de commentaires désormais disponible dans les actions rapides pour les nouveaux widgets de la page d’accueil</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Nous avons maintenant ajouté la nouvelle fonctionnalité de commentaires au bouton d’action rapide « Ajouter une nouvelle mise à jour » dans les widgets Mon travail, Mes projets, Mes tâches et Mes problèmes de la nouvelle page d’accueil.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -512,7 +512,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Informations supplémentaires sur les personnes délivrant les commentaires dans la nouvelle expérience de commentaires</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Informations supplémentaires sur les personnes délivrant les commentaires dans la nouvelle expérience de commentaires</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Les améliorations suivantes ont été apportées à la nouvelle expérience de commentaire :</p>
                         <ul>
                             <li>
@@ -539,7 +539,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">L’onglet Activité du système sur la nouvelle expérience de commentaire prend en charge les commentaires en lecture seule.</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">L’onglet Activité du système sur la nouvelle expérience de commentaire prend en charge les commentaires en lecture seule.</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Les commentaires apportés aux enregistrements d’activité du système dans l’expérience de commentaire héritée sont désormais renseignés dans l’onglet Activité du système de la nouvelle expérience de commentaire en lecture seule. Vous ne pouvez pas répondre aux enregistrements d’activité du système dans la nouvelle expérience de commentaire.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -558,7 +558,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Pour vous donner une vue chronologique cohérente des commentaires et des journaux d’activité du système, nous vous proposons un troisième onglet dans la zone Mises à jour de tous les objets. L’onglet « Tous » capture les commentaires des utilisateurs et utilisatrices et les commentaires sur l’activité du système dans un flux cohérent.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -577,7 +577,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau flux de commentaires maintenant disponible dans le panneau Résumé</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau flux de commentaires maintenant disponible dans le panneau Résumé</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Nous avons ajouté la nouvelle fonctionnalité de commentaires au panneau Résumé des listes de tâches et de problèmes.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -615,7 +615,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant le deuxième trimestre 2024</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant le deuxième trimestre 2024</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées durant le deuxième trimestre 2024. Consultez les notes de mise à jour individuelles pour connaître les dates de publication spécifiques.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>

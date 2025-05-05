@@ -102,7 +102,7 @@ Vous pouvez modifier des éléments de travail dans les widgets suivants de la z
 
 ## Ajouter un commentaire à un élément de travail dans le widget Mes tâches
 
-Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans le widget [!UICONTROL  Mon travail ] :
+Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans le widget [!UICONTROL &#x200B; Mon travail &#x200B;] :
 
 1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![Icône des lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, si disponible, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget [!UICONTROL **Mon travail**].

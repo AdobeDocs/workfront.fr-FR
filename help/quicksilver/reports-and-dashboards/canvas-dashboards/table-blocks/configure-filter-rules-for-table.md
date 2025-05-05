@@ -154,4 +154,4 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 
    1. Faites glisser le champ à ajouter à la zone **Ajouter un jeu de règles** sous vos autres jeux de règles de filtrage.
    1. Répétez les étapes 4 à 7.
-   1. Dans la liste déroulante des opérateurs située à gauche du nouveau jeu de règles, sélectionnez **AND** ou **OR**. Ces opérateurs fonctionnent de la même manière que ceux énumérés à l’étape 7, mais ils s’appliquent à des jeux de règles entiers plutôt qu’à des règles individuelles au sein d’un jeu.****
+   1. Dans la liste déroulante des opérateurs située à gauche du nouveau jeu de règles, sélectionnez **AND** ou **OR**. Ces opérateurs fonctionnent de la même manière que ceux énumérés à l’étape 7, mais ils s’appliquent à des jeux de règles entiers plutôt qu’à des règles individuelles au sein d’un jeu.**&#x200B;**

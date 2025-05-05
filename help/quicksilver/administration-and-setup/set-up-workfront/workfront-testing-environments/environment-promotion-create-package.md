@@ -18,7 +18,7 @@ ht-degree: 15%
 
 # Créer ou modifier un package de promotion environnementale
 
-Vous devez créer un package dans l’environnement à partir duquel vous souhaitez copier les objets ****. Par exemple, si vous configurez un projet dans votre environnement de sandbox d’actualisation personnalisée et que vous le promouvez dans votre environnement de production, vous devez créer le package dans votre environnement de sandbox d’actualisation personnalisée.
+Vous devez créer un package dans l’environnement à partir duquel vous souhaitez copier les objets **&#x200B;**. Par exemple, si vous configurez un projet dans votre environnement de sandbox d’actualisation personnalisée et que vous le promouvez dans votre environnement de production, vous devez créer le package dans votre environnement de sandbox d’actualisation personnalisée.
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Créer un package
 
-1. Accédez à l’environnement dans lequel vous souhaitez créer le package. Il s’agit de l’environnement à partir duquel vous copiez des objets ****.
+1. Accédez à l’environnement dans lequel vous souhaitez créer le package. Il s’agit de l’environnement à partir duquel vous copiez des objets **&#x200B;**.
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **Système** dans le volet de navigation de gauche, puis sélectionnez **Promotion de l’environnement**.
 1. Cliquez sur **Créer un package**.

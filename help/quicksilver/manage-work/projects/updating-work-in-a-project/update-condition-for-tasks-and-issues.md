@@ -143,7 +143,7 @@ Vous pouvez mettre à jour manuellement la condition des tâches et des problèm
    * Tout est en ordre
    * Certaines inquiétudes
    * Obstacles majeurs
-1. Cliquez sur Enregistrer les modifications. **** La condition de la tâche ou du problème est mise à jour.
+1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;La condition de la tâche ou du problème est mise à jour.
 
 ### Mettre à jour la condition d’une tâche ou d’un problème dans un rapport ou une liste
 

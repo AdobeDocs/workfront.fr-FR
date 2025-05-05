@@ -59,7 +59,7 @@ Votre organisation doit se trouver sur la plateforme d’entreprise Adobe pour c
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **Système** dans le volet de navigation de gauche, puis sélectionnez **Promotion de l’environnement**.
 1. Cliquez sur **Comparer les environnements** dans le coin supérieur droit de l’écran.
-1. Dans le champ Environnement **Source**, sélectionnez l’environnement dans lequel vous souhaitez créer le package. Il s’agit de l’environnement à partir duquel vous copiez des objets ****.
+1. Dans le champ Environnement **Source**, sélectionnez l’environnement dans lequel vous souhaitez créer le package. Il s’agit de l’environnement à partir duquel vous copiez des objets **&#x200B;**.
 1. Dans le champ **Environnement cible**, sélectionnez l’environnement dans lequel vous souhaitez installer le package. Il s’agit de l’environnement dans lequel vous copiez des objets **vers**.
 1. Dans la zone **Objets à comparer**, sélectionnez les types d’objets à comparer entre les environnements.
 1. Cliquez sur **Générer la comparaison** dans le coin supérieur droit de l’écran.

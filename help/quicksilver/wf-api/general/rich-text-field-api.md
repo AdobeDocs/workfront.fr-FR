@@ -28,7 +28,7 @@ Un champ personnalisé avec formatage en texte enrichi est appelé **Field with 
 **Exemple :** requête GET de base pour récupérer la valeur du champ de formulaire personnalisé **Field with rich text** :
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 **Exemple :** cette requête renverra la valeur de **Field with rich text** en JSON stockée dans **parameterValue** **DE:Field with rich text**.
 
@@ -118,4 +118,4 @@ Pour enregistrer les valeurs suivantes d’un champ de texte enrichi à l’aide
 1. Utiliser la méthode **stringify** sur le JSON décrite ci-dessus pour effectuer une requête **PUT** et envoyer des mises à jour
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
