@@ -6,10 +6,10 @@ description: En tant que personne gestionnaire de ressources, vous pouvez affect
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
 workflow-type: tm+mt
-source-wordcount: '2909'
-ht-degree: 91%
+source-wordcount: '2886'
+ht-degree: 90%
 
 ---
 
@@ -74,13 +74,13 @@ Vous pouvez afficher l’affectation des utilisateurs et des utilisatrices sous 
 
 Les affectations des utilisateurs et des utilisatrices sont incluses dans le nombre d’heures prévues d’un élément de travail. Pour plus d’informations sur le nombre d’heures prévues, consultez la section [Vue d’ensemble du nombre d’heures prévues](../../manage-work/tasks/task-information/planned-hours.md).
 
-Le nombre d’heures prévues de la tâche est réparti de manière égale entre tous les jours de la durée de la tâche pour l’utilisateur ou pour l’utilisatrice à qui la tâche a été affectée. Par exemple, si une tâche a une durée de 5 jours et un total de 10 heures prévues, le nombre quotidien des affectations pour la tâche est de 2 heures. L’affectation hebdomadaire est de 10 heures. Cela signifie que la tâche est affectée à un utilisateur ou à une utilisatrice pendant 2 heures par jour. Vous pouvez toutefois modifier manuellement l’allocation quotidienne de l’utilisateur ou de l’utilisatrice à l’aide de l’équilibreur de charge de travail.
+Le nombre d’heures prévues de la tâche est réparti de manière égale entre tous les jours de la durée de la tâche pour l’utilisateur ou pour l’utilisatrice à qui la tâche a été affectée. Par exemple, si une tâche a une durée de 5 jours et un total de 10 heures prévues, le nombre quotidien des affectations pour la tâche est de 2 heures. L’affectation hebdomadaire est de 10 heures. Cela signifie que la tâche est affectée à un utilisateur ou à une utilisatrice pendant 2 heures par jour. Vous pouvez toutefois modifier manuellement l’affectation quotidienne de l’utilisateur ou de l’utilisatrice à l’aide de l’équilibreur de charge de travail.
 
 >[!CAUTION]
 >
->L’équilibreur de charge de travail affiche jusqu’à 1 000 heures prévues par élément de travail par utilisateur et utilisatrice, et jusqu’à 1 000 jours de durée d’un élément. Les allocations dans l’équilibreur de charge de travail affichent zéro lorsque la limite de 1 000 heures ou de 1 000 jours est atteinte. Nous vous recommandons de diviser les tâches en sous-tâches plus petites pour disposer d’un plus grand nombre d’heures prévues ou d’une durée de plus de 1 000 jours.
+>L’équilibreur de charge de travail n’affiche <!--up to 1000 Planned Hours per work item per user, and-->’un maximum de 1 000 jours de la durée d’un élément. Les allocations dans l’équilibreur de charge de travail apparaissent comme nulles une fois la limite de 1 000 jours atteinte. Nous vous recommandons de diviser les tâches en sous-tâches plus petites <!--to accommodate a larger number of Planned Hours or--> pour des durées de plus de 1 000 jours.
 
-Tenez compte des points suivants lors de la localisation d’allocations quotidiennes, hebdomadaires ou mensuelles pour des tâches ou des problèmes dans l’équilibreur de charge de travail :
+Tenez compte des points suivants lorsque vous localisez des affectations quotidiennes, hebdomadaires ou mensuelles pour des tâches ou des problèmes dans l’équilibreur de charge de travail :
 
 * Vous pouvez afficher les affectations quotidiennes, hebdomadaires et mensuelles des utilisateurs et utilisatrices à leurs éléments de travail. Activez la vue Semaine ou Mois pour afficher les affectations hebdomadaires ou mensuelles.
 * Vous pouvez utiliser l’équilibreur de charge de travail pour modifier l’affectation quotidienne, hebdomadaire ou mensuelle des utilisateurs et utilisatrices aux tâches ou problèmes. Pour plus d’informations sur l’ajustement de l’affichage de l’équilibreur de charge de travail, voir [Parcourir l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
