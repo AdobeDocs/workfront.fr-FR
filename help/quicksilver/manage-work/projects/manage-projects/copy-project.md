@@ -7,10 +7,10 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 92%
+source-wordcount: '715'
+ht-degree: 63%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 92%
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
 -->
 
-Vous pouvez copier un projet plutôt que d’en créer un à partir de zéro. Vous pouvez copier un seul projet à la fois. Vous ne pouvez pas copier des projets en bloc.
+<!-- Audited: 5/2025 -->
+
+Vous pouvez copier un projet à partir d’un projet existant plutôt que d’en créer un à partir de zéro, ce qui vous permet de gagner du temps.
+
+Veuillez noter que vous ne pouvez pas copier des projets en bloc.
 
 >[!IMPORTANT]
 >
@@ -44,7 +48,7 @@ Vous pouvez copier un projet plutôt que d’en créer un à partir de zéro. Vo
 >* Carte de score
 >* Informations par défaut sur la tâche (processus d’approbation par défaut de la tâche, formulaires personnalisés par défaut de la tâche)
 >
-> Les dates des tâches d’origine des projets sont copiées dans le nouveau projet. Vous devez modifier la date de début ou d’achèvement du projet (selon son mode de planning) pour mettre à jour les dates des tâches. Les contraintes de tâche peuvent vous empêcher de modifier les dates du projet.
+> Les dates des tâches du projet d&#39;origine seront copiées dans le nouveau projet. Vous devez modifier la date de Début ou d&#39;Achèvement du projet (selon son Mode de planification) pour mettre à jour les dates des tâches. Les contraintes de tâche peuvent vous empêcher de modifier les dates du projet.
 
 ## Conditions d’accès
 
@@ -77,34 +81,40 @@ Vous pouvez copier un projet plutôt que d’en créer un à partir de zéro. Vo
  </tbody> 
 </table>
 -->
-Vous devez disposer des éléments suivants :
+
++++ Développez pour afficher les exigences d’accès pour la fonctionnalité de cet article.
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Formule Adobe Workfront*</p> </td> 
+   <td> <p>Formule Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td> <p>Licence Adobe Workfront*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Licence Adobe Workfront</p> </td> 
+   <td> <p>Nouveau : Standard </p> 
+   <p>Ou</p>
+   <p>Actuel : formule </p>
+
+</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configurations des niveaux d’accès*</strong> </td> 
-   <td> <p>Accès Modifier aux projets avec la possibilité de créer <span>et copier</span> des projects</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td>Configurations des niveaux d’accès </td> 
+   <td> <p>Accès Modifier aux projets avec la possibilité de créer <span>et copier</span> des projects</p> </td> 
+  </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Autorisations d’objets</strong> </p> </td> 
-   <td> <p>Accès en affichage ou accès supérieur au projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations d’objet </p> </td> 
+   <td> <p>Accès en affichage ou accès supérieur au projet</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Copier un seul projet
 
@@ -112,27 +122,21 @@ La copie d’un projet copie également certaines informations du projet d’ori
 
 Pour copier un projet :
 
-1. Accédez au projet à copier et cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-menu.png) à droite du nom du projet
+{{step1-to-projects}}
 
-   ![Liste déroulante supplémentaire](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. Sélectionnez le projet à copier dans la liste des projets, puis cliquez sur l’icône **Plus** ![menu Plus](assets/more-icon.png) à droite du nom du projet.
 
    Ou
 
-   Accédez à une liste ou à un rapport de projet et sélectionnez un projet, puis cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-menu.png) en haut de la liste.
+   Accédez à une liste ou à un rapport de projet et sélectionnez un projet, puis cliquez sur l’icône **Plus** ![Menu Plus](assets/more-icon.png) en haut de la liste.
 
-   ![Menu Plus développé](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+1. Dans le menu déroulant **Plus**, cliquez sur **Copier**. La boîte de dialogue **Copie du [Nom du projet]** s’affiche.
 
-1. Cliquez sur **Copier**.
+1. (Facultatif) Mettez à jour le **nom du projet**. Par défaut, le nouveau nom est **Copie de [Nom original du projet]**.
 
-1. Mettez à jour le nom du nouveau projet.
+   ![Zone Copier le projet](assets/copy-of-project-box.png)
 
-   Par défaut, le nouveau nom est **Copie de `<Original project name>`.**
-
-   ![Zone Copier le projet](assets/copy-project-box-nwe-350x276.png)
-
-1. Sélectionnez le **Statut** pour le nouveau projet.
-
-   Par défaut, le **Statut** correspond à celui du projet d’origine.
+1. Sélectionnez un **Statut**. Par défaut, le statut du projet d’origine est sélectionné.
 
 1. (Facultatif) Désélectionnez les éléments que vous ne souhaitez pas copier dans le nouveau projet. Le tableau suivant décrit ce qui se passe lorsque vous désélectionnez les éléments :
 
@@ -143,17 +147,17 @@ Pour copier un projet :
     <tbody> 
      <tr> 
       <td role="rowheader">Sélectionner tout</td> 
-      <td> <p>Sélectionne toutes les options et efface tous les champs et objets répertoriés dans le nouveau projet.</p> <p><b>CONSEIL</b>
+      <td> <p>Sélectionne toutes les options et efface tous les champs et objets répertoriés dans le nouveau projet. </p>
 
-   Désélectionner <strong>Tout sélectionner</strong> désélectionne tous les éléments. </p> </td>
-   </tr> 
+   <p> Désélectionner cette option désélectionne tous les éléments. </p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Affectations</td> 
       <td>Supprime toutes les affectations de projet et de tâche.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Progression</td> 
-      <td>Supprime la progression de toutes les tâches pour qu’elles affichent le statut Nouveau. </td> 
+      <td>Supprime la progression de toutes les tâches en les affichant comme étant Nouvelle. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Données personnalisées</td> 
@@ -162,37 +166,34 @@ Pour copier un projet :
         <li>Tâches</li> 
         <li>Frais</li> 
         <li> Documents</li> 
-       </ul> <p><b>NOTE</b>
-
-   Les formulaires personnalisés restent attachés aux tâches, dépenses, documents et projet, mais les informations contenues dans les champs personnalisés des formulaires ne sont pas copiées vers le nouveau projet. </p> </td>
-   </tr> 
+       </ul> 
+      <p>Les formulaires personnalisés restent joints aux tâches, dépenses, documents et projets, mais les informations contenues dans les champs personnalisés du formulaire ne sont pas copiées dans le nouveau projet. </p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Documents</td> 
       <td> <p>Supprime tous les éléments de l’onglet Documents, y compris les versions de documents, les documents liés et les dossiers.</p> <p>Par défaut, les épreuves et les approbations de document ne peuvent pas être copiées vers un autre projet. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Toutes les tâches antérieures</td> 
-      <td> <p>Supprime toutes les relations de tâche antérieure entre les tâches du projet. </p> <p><b>CONSEIL</b>
+      <td> <p>Supprime toutes les relations de tâche antérieure entre les tâches du projet. </p> <p>
 
    Les projets transversaux antérieurs ne sont jamais transférés vers le nouveau projet, que cela soit sélectionné ou non. </p> </td>
    </tr>
 
 <tr> 
       <td role="rowheader">Heures budgétées</td> 
-      <td> <p>Supprime les heures budgétées dans la zone Planification des ressources du business case du projet copié.</p>
-
-<b>NOTE</b>
-
-Les heures budgétées à l’aide du planificateur de scénarios ne sont jamais copiées vers le nouveau projet, car ce dernier n’est pas lié à une initiative dans le planificateur de scénarios. Pour plus d’informations, voir <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgétiser des ressources dans le business case à l’aide du planificateur de scénarios</a>.
-</tr></td>
+      <td> <p>Supprime les heures budgétées dans la zone Planification des ressources du business case du projet copié.</p> 
+    <p>
+   Les heures budgétées à l’aide du planificateur de scénarios ne sont jamais copiées vers le nouveau projet, car ce dernier n’est pas lié à une initiative dans le planificateur de scénarios. Pour plus d’informations, voir <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgétiser des ressources dans le business case à l’aide du planificateur de scénarios</a>.</p>
+   </tr></td>
     <tr> 
       <td role="rowheader">Informations financières</td> 
       <td> <p>Supprime les informations dans les zones suivantes : </p> 
        <ul> 
-        <li>Sous-onglet Finance du projet</li> 
+        <li>Sous-onglet Finances du projet</li> 
         <li> Bénéfice prévu dans le business case</li> 
         <li>Informations financières de toutes les tâches<br></li> 
-       </ul> <p>Pour plus d’informations sur le sous-onglet Finances du projet, voir <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gérer les informations dans la zone Finances du projet</a>.</p> </td> 
+       </ul> <p>Pour plus d’informations sur le sous-onglet Finances du projet, voir <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref"> Gérer les informations dans la zone Finances du projet </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Processus d’approbation</td> 
@@ -213,8 +214,4 @@ Les heures budgétées à l’aide du planificateur de scénarios ne sont jamais
     </tbody> 
    </table>
 
-1. Cliquez sur **Copier** pour créer une copie du projet.
-
-   Cela crée un projet similaire au projet que vous avez copié.
-
-   Vous pouvez commencer à apporter des modifications au nouveau projet copié, comme revoir les affectations de tâches ou ajuster les chronologies.
+1. Cliquez sur **Copier le projet**. Le projet copié est créé.

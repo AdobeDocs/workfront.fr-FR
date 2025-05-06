@@ -7,45 +7,49 @@ description: La détermination du chemin critique d’un projet est une méthode
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 100%
+source-wordcount: '756'
+ht-degree: 55%
 
 ---
 
 # Vue d’ensemble du chemin critique du projet
 
-La détermination du chemin critique d’un projet est une méthode automatique permettant à Adobe Workfront de signaler une séquence de tâches dans un projet qui a le potentiel d’affecter la chronologie du projet. Les tâches pouvant avoir un impact sur la chronologie du projet sont marquées comme étant des tâches de chemin critique.
+<!-- Audited: 5/2025 -->
+
+La détermination du chemin critique d’un projet est un moyen automatique pour Adobe Workfront de marquer une séquence de tâches dans un projet qui ont le potentiel d’avoir un impact sur la chronologie du projet. Les tâches qui peuvent avoir un impact sur la chronologie du projet sont marquées comme tâches de chemin critique.
 
 Les fonctionnalités suivantes peuvent avoir un impact sur le chemin critique d’un projet :
 
 * La structure de répartition du travail du projet.
 
-  Pour plus d’informations sur la structure de répartition du travail, voir [Déterminer la structure de répartition du travail dans un projet](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md).
+  Pour plus d’informations, voir [Déterminer la structure de répartition du travail dans un projet](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md).
 
 * Le temps (durée) nécessaire à l’exécution de chaque tâche.
 * Les dépendances entre les tâches.
 
   Tenez compte des points suivants :
 
-   * Lorsqu’une tâche sur le chemin critique a une relation précédente, ses tâches antérieures et ultérieures sont également sur le chemin critique si les modifications sur les dates des tâches antérieures ou ultérieures ont un impact direct sur leurs dépendances.
+   * Lorsqu&#39;une tâche sur le chemin critique possède une relation de prédécesseur, ses prédécesseurs et ses successeurs sont également sur le chemin critique si les modifications apportées aux dates des prédécesseurs ou des successeurs ont un impact direct sur leurs dépendants.
 
      >[!TIP]
      >
-     >Lorsque la date de la tâche antérieure d’une tâche n’a pas d’impact direct sur la date de leurs tâches dépendantes et qu’elle n’a aucune incidence sur les dates du projet, la tâche ultérieure n’est pas sur le chemin critique.
+     >Lorsque la date du successeur d&#39;une tâche n&#39;a pas d&#39;incidence directe sur la date de ses tâches dépendantes ou sur les dates du projet, la tâche du successeur ne se trouve pas sur le chemin critique.
      >
      >
      >![](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
-   * Lorsqu’une sous-tâche est identifiée en tant que tâche sur Chemin critique, la tâche parente est également identifiée en tant que tâche sur Chemin critique, si la Date et l’heure de début prévues du parent sont identiques à celles de la sous-tâche.
+   * Lorsqu&#39;une sous-tâche est identifiée comme tâche de chemin critique, la tâche parent est également identifiée comme tâche de chemin critique si la date de début prévue et l&#39;heure de la tâche parent sont identiques à celles de la sous-tâche.
 
 En tenant compte de ces fonctions, le système calcule le chemin critique en utilisant le chemin le plus long entre la tâche la plus ancienne et la tâche qui détermine la fin du projet. Le calcul du chemin critique prend en compte la première et la dernière fois où chaque tâche peut commencer et se terminer sans rallonger le projet. Ce processus détermine quelles tâches sont « critiques » (et appartiennent au chemin le plus long) et lesquelles sont « totalement flottantes » (peuvent être retardées sans rallonger le projet).
 
 Tout retard dans l’activité d’une tâche sur le chemin critique affecte directement la date d’achèvement projetée du projet (il n’y a pas de flottement sur le chemin critique).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -54,15 +58,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Travail ou supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+   <p>Nouveau : Standard<p>
+   <p>Ou</p>
+   <p>Actuellement : Travail ou licence supérieure</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès d’affichage ou supérieur aux tâches</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +80,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-&#42;Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
++++
 
 ## Afficher le chemin critique
 
@@ -85,15 +96,17 @@ Vous pouvez afficher les tâches qui appartiennent au chemin critique dans les z
 
 Pour afficher les tâches sur le chemin critique dans le graphique de Gantt :
 
-1. Accédez à un projet pour lequel vous souhaitez afficher le chemin critique.
-1. Cliquez sur **Tâches** dans le panneau de gauche.
-1. Cliquez sur l’icône **Graphique de Gantt** dans le coin supérieur droit de la liste des tâches.
+{{step1-to-projects}}
 
-   ![gantt_chart_icon__1_.png](assets/gantt-chart-icon--1-.png)
+1. Dans la liste des projets, sélectionnez un projet.
 
-1. Développez le menu **Options**, puis activez l’option **Chemin critique**.
+1. Dans le panneau de gauche, cliquez sur **Tâches**. L’onglet **Tâches** s’ouvre.
 
-   Les tâches qui se trouvent sur le chemin critique ont une ligne rouge au-dessus de leur chronologie dans le graphique de Gantt.
+1. Dans le coin supérieur droit de la liste des tâches, cliquez sur l’icône **Graphique Gantt**.
+
+   ![gantt_chart_icon__1_.png](assets/gantt-icon.png)
+
+1. Dans l’angle supérieur droit de la section Diagramme de Gantt, cliquez sur l’icône **Options** ![Icône Options](assets/options-icon.png), puis sélectionnez l’option **Chemin critique** dans la liste déroulante qui s’affiche. Les tâches qui se trouvent sur le chemin critique comportent désormais une ligne rouge au-dessus de leur chronologie.
 
    ![crtitical_path_on_gantt__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
 
@@ -101,23 +114,23 @@ Pour afficher les tâches sur le chemin critique dans le graphique de Gantt :
 
 Pour afficher les tâches qui se trouvent sur le chemin critique dans une liste de tâches :
 
-1. Accédez à un projet pour lequel vous souhaitez afficher le chemin critique.
-1. Cliquez sur **Tâches** dans le panneau de gauche.
-1. Dans le menu déroulant **Vue**, sélectionnez **Statut**.
+{{step1-to-projects}}
 
-   Les tâches qui se trouvent sur le chemin critique ont un indicateur **Chemin critique** dans la colonne **Indicateurs** de la liste.
+1. Dans la liste des projets, sélectionnez un projet.
 
-   Vous pouvez appliquer la même vue à un rapport de tâche.
+1. Dans le panneau de gauche, cliquez sur **Tâches**. L’onglet **Tâches** s’ouvre.
 
-   Pour plus d’informations sur la création de rapports, voir l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Cliquez sur l’icône **Affichage** ![Icône d’affichage](assets/view-icon.png), puis sélectionnez **Statut**. Les tâches qui se trouvent sur le chemin critique affichent un indicateur **Chemin critique** dans la colonne **Indicateurs** de la liste.
 
    Ou
 
-   Cliquez sur le menu déroulant **Filtre** et sélectionnez **Nouveau filtre**.
+   Cliquez sur l’icône **Filtre** ![Icône Filtres](assets/filters-icon.png), puis sélectionnez **+ Nouveau filtre**.
+1. Dans le premier champ, saisissez *Est critique*, puis sélectionnez-le lorsqu’il apparaît sous la section **Tâches** dans la liste.
 
-1. Cliquez sur **Ajouter une règle de filtre** et commencez à saisir **Critique** dans le champ **Montrer uniquement les tâches dans lesquelles ...**.
+   ![La tâche est un filtre critique](assets/task-is-critical.png)
 
-1. Sélectionnez le nom qui apparaît dans la liste.
-1. Cliquez sur **Enregistrer le filtre**.
+1. Assurez-vous que **Est vrai** est sélectionné dans le deuxième menu déroulant.
 
-   La liste ne doit afficher que les tâches qui se trouvent sur le chemin critique.
+   ![Est le menu déroulant réel](assets/critical-path-filter.png)
+
+1. Fermez le panneau Filtres. La liste des tâches n’affiche désormais que les tâches qui se trouvent sur le chemin critique.

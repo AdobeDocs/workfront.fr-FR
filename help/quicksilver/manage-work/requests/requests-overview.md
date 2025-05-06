@@ -2,20 +2,22 @@
 content-type: overview;reference
 product-area: requests
 navigation-topic: projects-navigation-topic
-title: Demandes
+title: 'Demandes : index d’article'
 description: Pour plus d’informations sur la création de demandes et de files d’attente des demandes, reportez-vous aux sections suivantes.
 author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: f7c12f06-868e-45da-816b-4eb94e06c783
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 100%
+source-wordcount: '31'
+ht-degree: 80%
 
 ---
 
-# Demandes
+# Demandes : index d’article
+
+<!-- Audited: 5/2025 -->
 
 Cette section contient les sous-sections suivantes :
 

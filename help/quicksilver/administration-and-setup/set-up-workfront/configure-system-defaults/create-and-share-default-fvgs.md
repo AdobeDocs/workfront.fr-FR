@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Création, modification et partage des filtres, vues et groupes par défaut
+title: Créer, modifier et partager des filtres, des vues et des regroupements par défaut
 description: Vous pouvez créer des filtres, des vues et des regroupements par défaut, puis les mettre à la disposition des personnes de votre organisation.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 98%
@@ -66,7 +66,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    * Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Filtres]**.
 
-   * Cliquez sur **[!UICONTROL Interface] >** **[!UICONTROL Vues]**.
+   * Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Vues]**.
 
    * Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Regroupements]**.
 

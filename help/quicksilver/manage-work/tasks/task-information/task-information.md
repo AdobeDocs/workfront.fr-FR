@@ -2,20 +2,22 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Informations sur les tâches
+title: 'Informations sur la tâche : index des articles'
 description: Les tâches sont des éléments de travail qui contribuent à l’achèvement d’un projet dans Adobe Workfront. Pour en savoir plus sur les informations relatives aux tâches, consultez les articles suivants.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 95%
+source-wordcount: '126'
+ht-degree: 88%
 
 ---
 
-# Informations sur les tâches
+# Informations sur la tâche : index des articles
+
+<!-- Audited: 5/2025 -->
 
 Cette section contient les articles suivants :
 
@@ -35,7 +37,7 @@ Cette section contient les articles suivants :
 * [Définir le mode de suivi des tâches](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [Mettre à jour le délai de nivellement de la tâche](../../../manage-work/tasks/task-information/task-leveling-delay.md)
 * [Mettre à jour le type de coût de la tâche](../../../manage-work/tasks/task-information/update-task-cost-type.md)
-* [Présentation des dates prévues et estimées](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+* [Aperçu des dates prévues et estimées](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
 * [Vue d’ensemble de la durée initiale de la tâche et du nombre d’heures prévues à l’origine](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
 * [Différence entre la durée prévue et la durée des tâches](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
 

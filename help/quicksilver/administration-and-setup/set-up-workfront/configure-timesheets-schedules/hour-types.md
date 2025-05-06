@@ -3,31 +3,33 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Gérer les types d’heure
+title: Gérer les types d'heures
 description: Vous pouvez associer des types d’heures à vos entrées d’heures. Les types d’heures sont des libellés que vous utilisez pour définir vos entrées d’heures.
 author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 91%
+source-wordcount: '744'
+ht-degree: 40%
 
 ---
 
 # Gérer les types d’heures
+
+<!--Audited: 05/2025-->
 
 <!--Audited: 07/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-Vous pouvez associer des types d’heures à vos entrées d’heures. Les types d’heures sont des libellés que vous utilisez pour définir vos entrées d’heures.
+Les types d’heures sont des libellés que vous utilisez pour définir vos entrées d’heures. Vous pouvez associer des types d&#39;heures à vos entrées d&#39;heures.
 
 Il existe deux types d’heures :
 
-* **Types d’heures spécifiques au projet** : il s’agit du temps consigné sur les projets, les tâches et les problèmes. Les types d’heures spécifiques au projet peuvent être associés à des entrées d’heures n’importe où dans [!DNL Adobe Workfront] où vous pouvez consigner du temps pour les projets, les tâches et les problèmes.
+* Types d’heures spécifiques au projet : il s’agit des heures consignées pour les projets, les tâches et les événements. Les types d’heures spécifiques au projet peuvent être associés à des entrées d’heures n’importe où dans [!DNL Adobe Workfront] où vous pouvez consigner du temps pour les projets, les tâches et les problèmes.
 
   Lors de la consignation du temps dans [!DNL Workfront], les types d’heures spécifiques au projet disponibles dépendent des options de configuration définies au niveau du système, du projet et de l’utilisateur ou utilisatrice.
 
@@ -37,15 +39,15 @@ Il existe deux types d’heures :
    * Durée de la tâche
    * Heure de l’événement
 
-  L’administrateur [!DNL Workfront] détermine les types d’heures spécifiques au projet disponibles, comme décrit dans la section [Définition des types d’heures et disponibilité](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+  L’administrateur [!DNL Workfront] détermine les types d’heures disponibles spécifiques au projet, comme décrit dans la section [ Définir les types d’heures et la disponibilité](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
   >[!NOTE]
   >
-  >Si vous activez des types d’heures spécifiques au projet dans votre système [!DNL Workfront], au moins un type d’heure spécifique au projet doit être activé sur chaque projet de votre système. Vous ne pouvez pas activer un type d’heure spécifique au projet au niveau du système et ne disposez pas de types d’heures spécifiques au projet au niveau du projet.
+  >Si vous activez des types d’heures spécifiques au projet dans votre système [!DNL Workfront], au moins un type d’heure spécifique au projet doit être activé sur chaque projet de votre système. Vous ne pouvez pas activer un type d&#39;heures spécifique au projet au niveau du système et aucun type d&#39;heures spécifique au projet n&#39;est disponible au niveau du projet.
 
-* **Types d’heure généraux** : les heures générales ne peuvent pas être associées à un projet, une tâche ou un problème et sont connectées directement à une feuille de temps.
+* Types d’heures généraux : les heures générales ne peuvent pas être associées à un projet, une tâche ou un événement et sont directement consignées dans une feuille de temps.
 
-Pour plus d’informations sur les heures de journalisation et leur association aux types d’heures, voir [Temps du journal](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+Pour plus d’informations sur la journalisation des heures et leur association aux types d’heures, voir [Consigner les heures](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Conditions d’accès
 
@@ -58,17 +60,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan [!UICONTROL Adobe Workfront]</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p>
-   <p>Actuelle : [!UICONTROL Plan]</p></td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouveau : Standard</p>
+   <p>Ou</p>
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Administrateur ou administratrice système</td>
   </tr> 
  </tbody> 
 </table>
@@ -79,29 +82,29 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Types d’heures intégrés
 
-Workfront est fourni avec un ensemble de types d’heures intégrés. Ces types d’heures ne peuvent pas être modifiés et ni masqués.
+Workfront est fourni avec un ensemble de types d’heures intégrés. Ces types d&#39;heures ne peuvent pas être modifiés ou masqués.
 
-Les types d’heures fournis avec [!DNL Workfront] sont les suivants :
+Voici les types d’heures fournis avec [!DNL Workfront] :
 
-* **[!UICONTROL Congés maladie]** : type d’heure général qui ne peut pas être associé aux entrées d’heures pour un projet, une tâche ou un problème. Les congés maladie ne peuvent pas être comptabilisés comme des revenus.
-* **[!UICONTROL Congés]** : type d’heure général qui ne peut pas être associé aux entrées d’heures pour un projet, une tâche ou un problème. Les congés ne peuvent pas être comptabilisés comme des revenus.
-* **[!UICONTROL Frais généraux]** : type d’heure général qui ne peut pas être associé aux entrées d’heure pour un projet, une tâche ou un problème. Cependant, il peut être comptabilisé comme un revenu dans le processus de planification de projet.
-* **[!UICONTROL Heure de projet]** : type d’heure général qui ne peut être associé qu’aux entrées d’heures sur un projet.
-* **[!UICONTROL Heure de tâche]** : type d’heure général qui ne peut être associé qu’aux entrées d’heures sur une tâche.
-* **[!UICONTROL Heure de problème]** : type d’heure général qui ne peut être associé qu’aux entrées d’heures pour un problème.
+* **[!UICONTROL Congés maladie]** : type d’heure général qui ne peut pas être associé aux entrées d’heures d’un projet, d’une tâche ou d’un événement. Les heures de congé maladie ne peuvent pas être comptabilisées comme du chiffre d’affaires.
+* **[!UICONTROL Congés]** : type d’heure général qui ne peut pas être associé aux entrées d’heures d’un projet, d’une tâche ou d’un événement. Les vacances ne peuvent pas être comptabilisées comme un chiffre d’affaires.
+* **[!UICONTROL Frais généraux]** : type d&#39;heures général qui ne peut pas être associé aux entrées d&#39;heures d&#39;un projet, d&#39;une tâche ou d&#39;un événement. Il peut être comptabilisé comme un chiffre d’affaires dans le processus de planification de votre projet.
+* **[!UICONTROL Durée du projet]** : type d’heure général qui ne peut être associé qu’aux entrées d’heures d’un projet.
+* **[!UICONTROL Heure de la tâche]** : type d’heure général qui ne peut être associé qu’aux entrées d’heures d’une tâche.
+* **[!UICONTROL Heure de l&#39;événement]** : type d&#39;heures général qui ne peut être associé qu&#39;aux entrées d&#39;heures d&#39;un événement.
 
 ## Créer des types d’heures
 
-En tant qu’administrateur ou administratrice [!DNL Workfront], vous pouvez créer de nouveaux types d’heures pour votre entreprise, tant au niveau du système que du projet. Une fois que vous avez créé les types d’heures au niveau du système et du projet, les utilisateurs et utilisatrices peuvent définir les types d’heures disponibles pour des projets et des personnes spécifiques. Pour plus d’informations, voir la [définition des types d’heures et de la disponibilité](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+En tant qu’administrateur ou administratrice [!DNL Workfront], vous pouvez créer de nouveaux types d’heures pour votre entreprise, tant au niveau du système que du projet. Ensuite, les utilisateurs et utilisatrices peuvent définir les types d’heures disponibles pour des projets et des utilisateurs et utilisatrices spécifiques. Pour plus d’informations, voir la [Définition des types d’heures et de leur disponibilité](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
 
 Pour créer des types d’heures :
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **[!UICONTROL Feuille de temps et heures]** > **[!UICONTROL Types d’heures]**.
+1. Dans le panneau de gauche, cliquez sur **Feuille de temps et heures**, puis sur **Types d’heures**.
 
-1. Cliquez sur **[!UICONTROL Nouveau type d’heure].**
-1. Indiquez les informations suivantes sur le formulaire **[!UICONTROL Nouveau type d’heure]** :
+1. Dans la section **Types d’heures**, cliquez sur **+ Nouveau type d’heures**.
+1. Dans la boîte de dialogue **Nouveaux types d’heures**, spécifiez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -109,7 +112,7 @@ Pour créer des types d’heures :
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td>Donnez un nom à votre nouveau type d’heure qui soit facilement reconnaissable dans le système.</td> 
+      <td>Entrez un nom de type d'heures facilement reconnaissable par le système.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
@@ -117,12 +120,12 @@ Pour créer des types d’heures :
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope]</td> 
-      <td> <p>Définissez si le type d’heure est un type d’heure général ou spécifique au projet en sélectionnant la portée correcte dans le menu déroulant.</p> <p>Les types d’heures généraux sont visibles uniquement sur les feuilles de temps et ne peuvent pas être associés à des projets, des tâches ou des problèmes.</p> <p><b>IMPORTANT</b> : si vous avez un type d’heure personnalisé qui est [!UICONTROL Project Specific], puis que vous le remplacez par [!UICONTROL General], toutes les tâches, problèmes et heures du projet existants sont définis sur leurs types par défaut du système.</p> </td> 
+      <td> <p>Indiquez si le type d'heures correspond à un type général ou à un type spécifique au projet dans le menu déroulant <strong>Portée</strong>.</p> <p>Les types d'heures généraux sont visibles uniquement dans les feuilles de temps et ne peuvent pas être associés aux projets, tâches ou événements.</p> <p><b>IMPORTANT</b> : si vous avez un type d'heures personnalisé [!UICONTROL Project Specific] et que vous le remplacez par [!UICONTROL General], toutes les heures de tâche, d'événement et de projet existantes sont définies sur leurs types par défaut système.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
-      <td><p>Sélectionnez cette option si vous souhaitez que l’entrée d’heure associée à ce type d’heure affecte le calcul du revenu.</p>
-      <p>Les congés maladie et les congés ne peuvent pas être comptabilisés comme revenu.</p>
+      <td><p>Sélectionnez cette option si vous souhaitez que l’entrée d’heure associée à ce type d’heure affecte le calcul des revenus.</p>
+      <p>Les congés de maladie et les congés ne peuvent pas être comptabilisés comme des revenus.</p>
       <p><b>NOTE</b></p>
       <p>Lorsque les types d’heures généraux sont comptabilisés comme revenu, le taux de dépenses associé au profil de la personne qui consigne les heures est associé au coût horaire.  
       </td> 
@@ -130,22 +133,20 @@ Pour créer des types d’heures :
     </tbody> 
    </table>
 
-   **[!UICONTROL Comptabiliser comme revenu]** : sélectionnez cette option si vous souhaitez que l’entrée d’heure associée à ce type d’heure affecte le calcul de votre revenu.
-
 1. Cliquez sur **[!UICONTROL Créer un type d’heure].**
 
 ## Désactiver les types d’heures
 
-Si les types d’heures deviennent obsolètes et que vous ne souhaitez plus que les utilisateurs et utilisatrices leur associent leurs entrées d’heure, vous pouvez désactiver les types d’heures.
-
-La désactivation des types d’heures masque les types d’heures n’importe où dans [!DNL Workfront] où les types d’heures sont visibles.
+Vous pouvez désactiver les types d’heures si vous ne souhaitez plus que les utilisateurs les associent. La désactivation des types d’heures les masque de n’importe quel endroit dans [!DNL Workfront] où les types d’heures sont visibles.
 
 Pour désactiver un type d’heure :
 
 {{step-1-to-setup}}
 
-1. Développez **[!UICONTROL Préférences de la feuille de temps et des heures]**, puis cliquez sur **[!UICONTROL Types d’heures]**.
+1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Feuille de temps et heures]**, puis sur **[!UICONTROL Types d’heures]**.
 
 1. Sélectionnez le type d’heure à désactiver.
 
 1. Cliquez sur **[!UICONTROL Désactiver]**.
+
+   ![Bouton Désactiver ](assets/deactivate-button.png)
