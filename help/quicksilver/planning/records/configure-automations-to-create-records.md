@@ -202,7 +202,7 @@ Dans la **zone Champs** de carte, mettez à jour les informations suivantes :
         >* Si vous choisissez Aucun champ, les noms des nouveaux enregistrements seront **Enregistrement** sans titre.
 
 1. (Facultatif et conditionnel) Si vous avez choisi de créer un enregistrement, cliquez sur **Ajouter des champs** pour mapper des champs de recherche supplémentaires d’un enregistrement à un autre.
-1. (Conditionnel) S’il n’existe aucun champ de connexion entre le type d’enregistrement d’origine et le type d’enregistrement sélectionné dans le champ Type d’enregistrement ****, cliquez sur **Ajouter un champ** connecté.
+1. (Conditionnel) S’il n’existe aucun champ de connexion entre le type d’enregistrement d’origine et le type d’enregistrement sélectionné dans le champ Type d’enregistrement **&#x200B;**, cliquez sur **Ajouter un champ** connecté.
 
    ![Configuration de l’automatisation pour créer un enregistrement](assets/automation-setup-create-record.png)
 

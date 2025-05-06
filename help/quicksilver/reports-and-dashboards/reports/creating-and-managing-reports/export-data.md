@@ -117,8 +117,8 @@ L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que
 * **50 000 cellules :** nombre maximal de cellules autorisées dans un rapport exporté pour des fichiers Excel.
 * **50 000 lignes :** nombre de lignes de données autorisées dans une exportation de rapport pour les fichiers PDF et délimités par des tabulations.
 
-   * Pour les fichiers Excel, cette limite est de 65 000 lignes ****.
-   * Pour les fichiers Excel(.xlsx), cette limite est de 100 000 lignes ****.
+   * Pour les fichiers Excel, cette limite est de 65 000 lignes **&#x200B;**.
+   * Pour les fichiers Excel(.xlsx), cette limite est de 100 000 lignes **&#x200B;**.
    * Ces limites excluent les en-têtes de colonne, ainsi que les lignes des regroupements dans le rapport. Par exemple, si un rapport comporte 6 regroupements et 50 000 lignes de données, le fichier exporté contiendra 50 000 lignes.
 
   >[!IMPORTANT]
