@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 594504c6a7acc9341471371ca279379042a45457
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 69%
+source-wordcount: '158'
+ht-degree: 67%
 
 ---
 
@@ -29,6 +29,7 @@ Les articles suivants décrivent comment créer et gérer des enregistrements et
 * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
 * [Créer des enregistrements en important des informations depuis un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md)
 * [Créer des objets Workfront à partir de Workfront Planning en les connectant à des enregistrements](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [Configuration des automatisations d’Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
 * [Création d’objets à l’aide de l’automatisation des enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md)
 * [Supprimer des enregistrements](/help/quicksilver/planning/records/delete-records.md)

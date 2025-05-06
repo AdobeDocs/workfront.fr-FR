@@ -1,23 +1,23 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Exporter des données
-description: Vous pouvez exporter des données Adobe Workfront à partir de différents rapports, listes, tableaux de bord et recherches.
+title: Exporter les données
+description: Vous pouvez exporter des données Adobe Workfront à partir de listes, de rapports, de tableaux de bord et de recherches.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '2247'
-ht-degree: 95%
+source-wordcount: '2264'
+ht-degree: 81%
 
 ---
 
 # Exporter des données
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 5/2025 -->
 
-Vous pouvez exporter des données Adobe Workfront à partir de différents rapports, listes, tableaux de bord et recherches.
+Vous pouvez exporter des données Adobe Workfront à partir de listes, de rapports, de tableaux de bord et de recherches.
 
 Voici quelques raisons d’exporter des données :
 
@@ -97,14 +97,14 @@ Pour plus d’informations sur la création de rapports, voir [Créer un rapport
 
 Les informations peuvent être exportées dans les formats suivants :
 
-* PDF (format Lettre paysage ou portrait, Légal, Ledger et A4)
-* Excel (.xls)
+* PDF (paysage ou portrait)
+* Excel
 * Excel (.xlsx)
 * Délimité par des tabulations
 
 >[!NOTE]
 >
->Les tableaux de bord peuvent être imprimés ou exportés uniquement en fichier .pdf.
+>Les tableaux de bord peuvent être imprimés ou exportés uniquement dans un fichier PDF.
 
 ### Limites d’export {#export-limits}
 
@@ -115,10 +115,10 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que leur export lorsqu’il est effectué manuellement ou via une remise de rapport, ou via l’API.
 
 * **50 000 cellules :** nombre maximal de cellules autorisées dans un rapport exporté pour des fichiers Excel.
-* **50 000 lignes :** nombre de lignes de données autorisées dans un rapport exporté pour les fichiers .pdf et les fichiers délimités par des tabulations.
+* **50 000 lignes :** nombre de lignes de données autorisées dans une exportation de rapport pour les fichiers PDF et délimités par des tabulations.
 
-   * Pour les fichiers .xls (Excel), cette limite est de **65 000 lignes**.
-   * Pour les fichiers .xlsx (Excel), cette limite est de **100 000 lignes**.
+   * Pour les fichiers Excel, cette limite est de 65 000 lignes ****.
+   * Pour les fichiers Excel(.xlsx), cette limite est de 100 000 lignes ****.
    * Ces limites excluent les en-têtes de colonne, ainsi que les lignes des regroupements dans le rapport. Par exemple, si un rapport comporte 6 regroupements et 50 000 lignes de données, le fichier exporté contiendra 50 000 lignes.
 
   >[!IMPORTANT]
@@ -153,8 +153,8 @@ L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que
      Pour plus d’informations sur l’export des informations d’utilisation pour un projet, voir [Vue d’ensemble du rapport d’utilisation des ressources](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
 * **Taille de fichier de 10 Mo :** limite de taille de fichier pour tout rapport exporté dont la remise est planifiée. Si un fichier exporté joint à un e-mail dépasse 5 Mo, un lien pour le téléchargement du fichier est envoyé par e-mail à la place du rapport exporté joint.
-* **65 530 liens hypertexte :** il s’agit d’une limite imposée par Excel aux documents qui contiennent plus de 65 530 liens hypertexte. Ces documents ne peuvent pas être ouverts lorsqu’ils sont exportés manuellement ou envoyés dans un rapport diffusé. Notez qu’un document Excel peut ne contenir que 200 lignes de données, mais s’il existe plus de 65 530 liens dans le document, celui-ci ne s’ouvre pas. Cette limite existe uniquement pour les fichiers Excel et non pour les autres formats pris en charge.
-* **256 colonnes** : il s’agit d’une limite imposée par Excel pour les documents qui contiennent plus de 256 colonnes. Ces documents ne peuvent pas être exportés manuellement ni envoyés dans un rapport diffusé. Cette limite existe uniquement pour les fichiers Excel, et non pour les autres formats pris en charge.
+* **65 530 liens hypertexte :** il s’agit d’une limite imposée par Excel aux documents qui contiennent plus de 65 530 liens hypertexte. Ces documents ne peuvent pas être ouverts lorsqu’ils sont exportés manuellement ou envoyés dans un rapport diffusé. Notez qu’un document Excel peut ne contenir que 200 lignes de données, mais s’il existe plus de 65 530 liens dans le document, celui-ci ne s’ouvre pas. Cette limite existe uniquement pour les fichiers Excel, et non pour les autres formats pris en charge.
+* **256 colonnes** : limite imposée par Excel pour les documents qui contiennent plus de 256 colonnes. Ces documents ne peuvent pas être exportés manuellement ni envoyés dans un rapport diffusé. Cette limite existe uniquement pour les fichiers Excel, et non pour les autres formats pris en charge.
 
   >[!IMPORTANT]
   >
@@ -175,7 +175,7 @@ Si vous avez des questions ou rencontrez des problèmes concernant votre limite,
 ### Exporter des données à partir d’un rapport ou d’une liste {#export-data-from-a-report-or-list}
 
 1. Accédez au rapport ou à la liste que vous souhaitez exporter.
-1. Sélectionnez les éléments que vous souhaitez exporter. (Si vous sélectionnez des éléments individuels, seuls les éléments que vous sélectionnez sont exportés.)
+1. Sélectionnez les éléments que vous souhaitez exporter. La sélection d’éléments individuels exporte uniquement les éléments que vous sélectionnez.
 
    Par exemple, dans un projet, sélectionnez les tâches que vous souhaitez exporter.
 
@@ -197,30 +197,24 @@ Si vous avez des questions ou rencontrez des problèmes concernant votre limite,
 
    Cliquez sur l’icône **Exporter** ![Icône Exporter](assets/export-icon-nwe.png), puis sélectionnez un format.
 
-   Les options d’export au format PDF disponibles dépendent des paramètres régionaux dans vos paramètres d’utilisateur ou d’utilisatrice Workfront :
+   Les options disponibles pour l’exportation de PDF dépendent des paramètres régionaux des e-mails définis dans les paramètres utilisateur de Workfront :
 
-   * Amérique du Nord - Lettre (par défaut), Légal, Ledger, A4
+   * Amérique du Nord - Lettre - Paysage, Lettre - Portrait, Autres tailles
 
-     <!--   
-     <img src="assets/north-america.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
-
-   * Tous les lieux non situés en Amérique du Nord - A3, A4 (par défaut), Lettre, Légal, Ledger
-
-     <!--   
-     <img src="assets/everywhere-else.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * Tous les emplacements hors Amérique du Nord - A4 - Paysage, A4 - Portrait, Autres tailles
 
 1. (Le cas échéant) Selon le système d’exploitation que vous utilisez, vous avez éventuellement la possibilité d’ouvrir ou d’enregistrer le fichier. Ouvrez le fichier avec l’application associée ou enregistrez-le sur votre disque dur.
-1. Poursuivez vers la section [Utiliser le document exporté](#use-the-exported-document).
+1. Pour comprendre comment les informations s’affichent dans le fichier exporté, poursuivez la lecture de la section [Utiliser le document exporté](#use-the-exported-document) de cet article.
 
 ### Exporter des données à partir d’un tableau de bord {#export-data-from-a-dashboard}
 
-Vous pouvez imprimer les informations à partir d’un tableau de bord ou les exporter au format .pdf.
+Vous pouvez imprimer les informations à partir d’un tableau de bord ou les exporter sous forme de fichier PDF.
 
 Pour plus d’informations sur l’export de données à partir d’un tableau de bord, voir [Exporter un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 ## Utiliser le document exporté {#use-the-exported-document}
+
+Les sections suivantes décrivent l’affichage des informations dans un fichier exporté :
 
 * [Noms des fichiers](#file-names)
 * [Titres](#titles)
@@ -308,11 +302,11 @@ Selon le type de document que vous exportez, les horodatages s’affichent à di
 
 ### Formatage {#formatting}
 
-Lorsque vous exportez un projet au format .pdf, toutes les sous-tâches sont affichées en retrait par rapport à leurs tâches parent. Les listes exportées ne réduisent aucune tâche parent.
+Lorsque vous exportez un projet vers PDF, toutes les sous-tâches sont mises en retrait par rapport à leurs tâches parents. Les listes exportées ne réduisent aucune tâche parent.
 
 Vous recevez toujours l’onglet par défaut d’un rapport lorsqu’un rapport est envoyé ou planifié pour une remise, sauf si le rapport possède une vue spécifique.
 
-Si votre rapport présente une mise en forme spécifique dans l’application web, celui-ci doit être remis en incluant la mise en forme spécifique lors de la remise des onglets Détails et Matrice, pour les fichiers .pdf et Excel uniquement.
+Si votre rapport possède une mise en forme spéciale dans l’application web, il doit être diffusé avec une mise en forme spéciale lorsque les onglets Détails et Matrice sont diffusés, pour les fichiers PDF et Excel uniquement.
 
 >[!NOTE]
 >
@@ -322,11 +316,11 @@ Pour plus d’informations sur la personnalisation de la mise en forme dans un r
 
 ### Liens {#links}
 
-Les liens peuvent pointer vers n’importe quel objet de Workfront prenant en charge les liens. Lorsque vous exportez une liste dans Workfront au format .pdf, tous les liens pris en charge présents dans le document d’origine restent actifs dans le document exporté.
+Les liens peuvent pointer vers n’importe quel objet de Workfront prenant en charge les liens. Lorsque vous exportez une liste dans Workfront vers PDF, tous les liens pris en charge qui existent dans le document d’origine restent actifs dans le document exporté.
 
 >[!TIP]
 >
->Si la ligne `valueformat=HTML` apparaît en mode texte pour une colonne de champs personnalisés et que les valeurs des liens ne s’affichent pas dans le fichier .pdf exporté. vous devez saisir des lignes de code supplémentaires dans votre colonne en mode texte.
+>Si la ligne `valueformat=HTML` apparaît en mode texte pour une colonne de champ personnalisé et que les valeurs de lien ne s’affichent pas dans un fichier PDF exporté, vous devez saisir des lignes de code supplémentaires dans votre colonne en mode texte.
 >
 >Par exemple, si vous disposez d’un champ personnalisé appelé « Open Q1 Projects » (Projets ouverts du premier trimestre) qui contient des liens, vous devez ajouter le code suivant :
 >
@@ -343,7 +337,7 @@ Lorsque vous effectuez un export vers un format Excel, seuls les liens pointant 
 >
 >Si votre organisation est intégrée à Adobe Experience Cloud, le branding n’est pas disponible.
 
-Si votre administrateur ou administratrice Workfront a ajouté un branding personnalisé à votre instance Workfront pour la barre de navigation globale, les fichiers .pdf exportés incluent également votre logo personnalisé.
+Si votre administrateur Workfront a ajouté une valorisation de marque personnalisée à votre instance Workfront pour la barre de navigation globale, les fichiers PDF exportés incluent également votre logo personnalisé.
 
 Les données exportées dans d’autres formats ne peuvent pas être personnalisées avec votre logo.
 
