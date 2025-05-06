@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des documents à des projets, des tâches ou de
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 99%
+source-wordcount: '763'
+ht-degree: 97%
 
 ---
 
@@ -123,7 +123,7 @@ L’analyse des documents n’est possible pour votre organisation que sur deman
 
 Si l’analyse des documents est activée, les fichiers de moins de 25 Mo sont analysés lorsqu’ils sont téléchargés. Les fichiers de plus de 25 Mo ne sont pas analysés.
 
-Si Workfront détecte un document corrompu, le processus de téléchargement est interrompu et un message s’affiche pour indiquer que le fichier est corrompu. Vous recevez également une notification par e-mail lorsque Workfront détecte un contenu potentiellement malveillant et que le fichier doit être supprimé.
+Si Workfront détecte un document corrompu, un message s’affiche indiquant que le fichier est corrompu. Vous recevez également une notification par e-mail lorsque Workfront détecte un contenu potentiellement malveillant et que le fichier doit être supprimé.
 
 Les fichiers corrompus sont supprimés dans les 24 heures suivant leur détection, sauf si vous les supprimez manuellement. Si vous supprimez un fichier corrompu, Workfront suit cette action comme une mise à jour. Si vous autorisez Workfront à le supprimer, aucune mise à jour n’est enregistrée.
 
