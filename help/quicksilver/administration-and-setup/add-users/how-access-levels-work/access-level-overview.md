@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: d50ff253b0557c282496deae2a488cff4ab71775
+source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1724'
 ht-degree: 96%
 
 ---
@@ -115,7 +115,7 @@ Attaché à la licence Light, ce niveau d’accès est conçu pour les utilisate
 * Afficher tous les éléments et mises à jour liés au travail
 * Approuver les projets, les tâches et les problèmes
 * Afficher des tableaux de bord et des rapports
-* Effectuer un suivi de l’heure et approuver les feuilles de temps
+* Suivre les heures pour les tâches et les événements et approuver les feuilles de temps
 * Créer et gérer des problèmes
 
 Ce qui suit est vrai pour les utilisateurs et utilisatrices avec le niveau d’accès Light :
