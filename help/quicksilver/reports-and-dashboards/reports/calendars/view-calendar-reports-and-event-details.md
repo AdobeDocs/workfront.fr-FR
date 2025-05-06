@@ -6,10 +6,10 @@ description: Vous pouvez afficher les rapports de calendrier et les détails des
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
+source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 76%
+source-wordcount: '627'
+ht-degree: 75%
 
 ---
 
@@ -90,18 +90,18 @@ Vous pouvez choisir parmi les vues de rapports de calendrier suivantes :
 
 1. (Facultatif) Si vous affichez le calendrier dans les vues [!UICONTROL Mois] ou [!UICONTROL Semaine], vous pouvez modifier la vue du calendrier à l’aide des options suivantes :
 
-   * Pour inclure ou exclure les week-ends, procédez comme suit :
+<!--   * To include or exclude weekends:
 
-      1. Sur la barre d’outils **[!UICONTROL Calendrier]**, cliquez sur **[!UICONTROL Actions du calendrier]**, puis, dans la liste déroulante, sélectionnez **[!UICONTROL Afficher le week-end]** ou **[!UICONTROL Masquer le week-end]**.
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-   * Pour modifier rapidement les dates affichées, procédez comme suit :
+* Pour modifier rapidement les dates affichées, procédez comme suit :
 
-      1. Dans la barre d’outils **[!UICONTROL Calendrier]**, cliquez sur la flèche gauche de l’indicateur de date pour revenir en arrière dans le calendrier ou sur la flèche droite pour avancer.
+   1. Dans la barre d’outils **[!UICONTROL Calendrier]**, cliquez sur la flèche gauche de l’indicateur de date pour revenir en arrière dans le calendrier ou sur la flèche droite pour avancer.
 
-         ![Clic sur la flèche pour modifier la date](assets/click-arrows-to-change-dates-calendar-report.png)\
-         Les dates affichées sont ajustées selon un intervalle en fonction de votre vue Calendrier actuelle. Par exemple, si vous affichez le calendrier dans la vue [!UICONTROL Semaine], le calendrier affiche une semaine en avant ou une semaine en arrière, selon la flèche que vous sélectionnez.
+      ![Clic sur la flèche pour modifier la date](assets/click-arrows-to-change-dates-calendar-report.png)\
+      Les dates affichées sont ajustées selon un intervalle en fonction de votre vue Calendrier actuelle. Par exemple, si vous affichez le calendrier dans la vue [!UICONTROL Semaine], le calendrier affiche une semaine en avant ou une semaine en arrière, selon la flèche que vous sélectionnez.
 
-      1. (Facultatif) Pour revenir au jour en cours, cliquez sur [!UICONTROL **Aujourd’hui**].
+   1. (Facultatif) Pour revenir au jour en cours, cliquez sur [!UICONTROL **Aujourd’hui**].
 
 
 1. (Facultatif) Pour afficher un calendrier en plein écran, cliquez sur les flèches du mode plein écran situées dans la partie droite de la barre d’outils **[!UICONTROL Calendrier]**.
