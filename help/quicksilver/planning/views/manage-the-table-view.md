@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '3205'
-ht-degree: 58%
+source-wordcount: '3497'
+ht-degree: 53%
 
 ---
 
@@ -82,7 +82,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
-   <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
+   <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage ou la dupliquer <!--<span class="preview">or to export the view</span>--></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de mise en page</p></td> 
@@ -176,7 +176,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -509,9 +509,11 @@ To sort grouped records:
 
 1. (Facultatif) Activez le paramètre **Appliquer à toute la ligne** dans le coin supérieur droit de la zone Couleurs de ligne. La ligne entière où la condition est remplie s’affiche automatiquement dans la couleur sélectionnée.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >Si le paramètre Appliquer à toute la ligne est désactivé, seul le côté gauche du champ Principal affiche un indicateur de couleur étroit avec la couleur sélectionnée. Le paramètre est désactivé par défaut.
+   >* Si le paramètre Appliquer à toute la ligne est désactivé, seul le côté gauche du champ Principal affiche un indicateur de couleur étroit avec la couleur sélectionnée. Le paramètre est désactivé par défaut.
+   >
+   >* Vous ne pouvez pas appliquer de couleurs de ligne à une ligne entière lorsque au moins un regroupement est sélectionné en mode Tableau.
 
 1. Cliquez en dehors de la zone **Couleurs des lignes** pour la fermer. Les couleurs sont appliquées automatiquement.
 
@@ -525,3 +527,49 @@ Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un 
 
 Pour plus d’informations, consultez la section « Activer l’indicateur de présence en temps réel » de l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
+<div class="preview">
+
+## Exporter la vue du tableau
+
+Vous pouvez exporter des informations dans la vue Tableau au format CSV ou Excel.
+
+Tenez compte des points suivants lors de l’exportation de la vue Tableau :
+
+* Les informations exportées vers un fichier Excel conservent les filtres, les regroupements et les tris appliqués à la vue Tableau dans Workfront Planning. Les regroupements ne sont pas visibles dans le fichier CSV.
+
+* Les miniatures et les couleurs de ligne personnalisées ne sont pas prises en charge dans les fichiers exportés.
+
+* Seuls les champs rendus visibles dans l’interface de Workfront sont exportés. Les champs masqués ne sont pas exportés.
+
+Pour exporter des informations à partir de la vue Table ou d&#39;un type d&#39;enregistrement :
+
+1. Accédez à une page de type enregistrement et cliquez sur un onglet de vue Tableau.
+1. Pointez sur le nom de l’onglet Vue du tableau, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png).
+1. Cliquez sur **Exporter**, puis sélectionnez l’un des formats suivants :
+
+   * Excel
+   * CSV
+
+   >[!IMPORTANT]
+   >
+   >Vous ne pouvez pas exporter des informations de la vue Tableau lorsque vous affichez une vue différente à l’écran. Vous devez afficher la vue du tableau que vous souhaitez exporter afin d’accéder à l’option Exporter du menu Plus .
+
+   Le fichier est téléchargé sur votre ordinateur.
+
+1. (Facultatif) Accédez au dossier des téléchargements sur votre ordinateur et recherchez le fichier téléchargé.
+
+   Le nom du fichier exporté suit le format suivant :
+
+   `Name of the view - name of the record type`
+
+   Par exemple, une vue Tableau pour le type d’enregistrement Campagnes génère un fichier nommé `Table view - Campaigns`.
+
+   Le fichier affiche les informations suivantes :
+
+   * Les en-têtes des colonnes sont surlignés en noir dans le fichier Excel
+   * Tous les champs visibles dans l’interface de Workfront, triés et filtrés selon les mêmes critères
+   * Les regroupements sont conservés dans le fichier Excel
+
+   Vous pouvez désormais partager les fichiers exportés avec d’autres personnes ou les joindre à une communication.
+
+</div>

@@ -6,9 +6,9 @@ title: Modifier le format des dates dans  [!DNL Adobe Workfront]
 description: Pour modifier le format des dates dans  [!DNL Adobe Workfront] , vous devez modifier les paramètres de langue dans votre navigateur.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '421'
 ht-degree: 85%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 85%
 >[!IMPORTANT]
 >
 > Les informations de cet article s’appliquent uniquement aux organisations qui n’ont pas encore été intégrées à l’expérience unifiée Adobe.
-> Si votre organisation a été intégrée à l’expérience unifiée de l’Adobe, votre préférence de date est contrôlée par votre préférence linguistique définie dans Adobe Unified Shell. Le paramètre de langue par défaut, et donc le paramètre de date par défaut, est `en-US`.
+> Si votre organisation a intégré l’expérience unifiée Adobe, votre préférence de date est contrôlée par votre préférence de langue définie dans Adobe Unified Shell. Le paramètre de langue par défaut, et donc le paramètre de date par défaut, est `en-US`.
+> Pour plus d’informations, voir [[!DNL Adobe Unified Experience]  pour  [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences).
 
 Vous pouvez modifier le format des dates dans [!DNL Adobe Workfront], par exemple la [!UICONTROL date d’achèvement prévue], la [!UICONTROL date d’achèvement effective], ou la [!UICONTROL date d’achèvement prévisionnelle].
 

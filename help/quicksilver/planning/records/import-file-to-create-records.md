@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 16%
+source-wordcount: '1002'
+ht-degree: 15%
 
 ---
 
@@ -112,7 +112,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * La taille du fichier ne doit pas dépasser 5 Mo.
 * Les feuilles vides ne sont pas prises en charge.
 * Les champs des types suivants ne sont pas pris en charge et ne peuvent pas être mappés aux champs de la feuille d’importation :
-   * Champs Connexions et recherche des enregistrements connectés <!--or connected Workfront objects-->
+
+   * <!--In the Production environment,--> Champs de connexion aux enregistrements Planning ou aux objets Workfront et AEM Assets
+
+     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+
+   * Champs de recherche des enregistrements Planning connectés ou des objets Workfront et AEM Assets
    * Champs de formule
    * Date de création, Créé par
    * Date de dernière modification, Dernière modification par
