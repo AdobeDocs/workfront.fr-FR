@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 92%
+source-wordcount: '1199'
+ht-degree: 87%
 
 ---
 
@@ -250,4 +250,12 @@ Pour configurer [!DNL Workfront] pour envoyer des métadonnées à [!DNL Workfro
 
 ## Limites
 
-* L&#39;intégration du document Google Drive prend en charge l&#39;ajout de dossiers et d&#39;images à partir de la zone My Drive de votre lecteur Google. Vous ne pouvez pas ajouter de dossiers ou d&#39;images à partir d&#39;un lecteur partagé. En savoir plus sur les [lecteurs partagés Google](https://support.google.com/a/users/answer/7212025?hl=en).
+### Intégration de Google Drive
+
+* Lorsqu’un dossier lié est ajouté à Workfront, les fichiers qu’il contient ne sont plus automatiquement ajoutés.
+   * Vous pouvez ajouter le dossier Google à Workfront sans les fichiers, puis ajouter les fichiers individuels à Workfront. Les fichiers sont automatiquement ajoutés au dossier Google dans Workfront.
+Ou
+   * Vous pouvez créer un dossier Document dans Workfront, puis sélectionner tous les fichiers du dossier Google et les ajouter au dossier Workfront.
+
+
+* L&#39;intégration du document Google Drive prend en charge l&#39;ajout de fichiers depuis la zone My Drive de votre lecteur Google. Vous ne pouvez pas ajouter de dossiers ou d&#39;images à partir d&#39;un lecteur partagé. En savoir plus sur les [lecteurs partagés Google](https://support.google.com/a/users/answer/7212025?hl=en).
