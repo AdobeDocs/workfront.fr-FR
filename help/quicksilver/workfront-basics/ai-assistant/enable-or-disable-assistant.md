@@ -5,10 +5,10 @@ description: Vous pouvez contrôler les niveaux d’accès de votre organisation
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
+source-git-commit: 0dcf12ed00c04e9d7acddfd034dbba6357bb1385
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 37%
+source-wordcount: '259'
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,7 @@ En tant qu’administrateur ou administratrice Workfront, vous pouvez contrôler
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+Pour activer ou désactiver l’assistant AI, vous devez disposer des droits d’accès suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,17 +47,19 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Activation ou désactivation de l’assistant AI dans Workfront
 
-L’assistant AI est activé par défaut.
+>[!NOTE]
+>
+>L’assistant AI est désactivé par défaut pour les utilisateurs non-administrateurs.
 
-Pour désactiver l’assistant d’IA pour un niveau d’accès donné :
+Pour activer l’assistant AI pour un niveau d’accès donné :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **Niveaux d’accès** dans le volet de navigation de gauche.
 1. Sélectionnez le niveau d’accès pour lequel vous souhaitez activer l’assistant AI.
 1. Dans la fenêtre Modifier le niveau d&#39;accès, faites défiler la page vers le bas de la fenêtre et cliquez sur **Définir des restrictions supplémentaires...**.
-1. Dans la zone Définir des restrictions supplémentaires , activez l’option **Désactiver les fonctionnalités d’IA**.
+1. Dans la zone Définir des restrictions supplémentaires , désactivez l’option **Désactiver les fonctionnalités d’IA**.
 1. Cliquer sur **Enregistrer**.
-1. Répétez les étapes 3 à 6 pour chaque niveau d’accès pour lequel vous souhaitez désactiver l’assistant d’IA.
+1. Répétez les étapes 3 à 6 pour chaque niveau d’accès pour lequel vous souhaitez activer l’assistant d’IA.
 
 >[!NOTE]
 >
