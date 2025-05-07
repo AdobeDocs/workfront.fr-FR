@@ -109,7 +109,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Les feuilles vides ne sont pas prises en charge.
 * Les champs des types suivants ne sont pas pris en charge et ne peuvent pas être mappés aux champs de la feuille d’importation :
 
-   * <!--In the Production environment,--> Champs de connexion aux enregistrements Planning ou aux objets Workfront et AEM Assets
+   * &#x200B;<!--In the Production environment,--> Champs de connexion aux enregistrements Planning ou aux objets Workfront et AEM Assets
 
      <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
 
