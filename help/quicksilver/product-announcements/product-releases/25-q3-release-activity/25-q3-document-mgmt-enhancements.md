@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 35%
+source-wordcount: '346'
+ht-degree: 21%
 
 ---
 
@@ -21,6 +21,25 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >[!IMPORTANT]
 >
 >Les fonctionnalités répertoriées sur cette page font partie d’une version par étapes et ne sont disponibles que pour des clients spécifiques.
+
+## Assets dans un dossier Google lié doit être ajouté individuellement pour apparaître dans Workfront
+
+>[!NOTE]
+>
+>* Version de prévisualisation : 10 août 2023. Version de production pour l’ensemble des clientes et clients : 10 août 2023.
+
+Google [renforcement des contrôles de sécurité](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) pour les applications tierces accédant à Google Drive, ce qui nécessite que les applications adoptent un modèle de consentement par utilisateur. Par conséquent, les ressources individuelles doivent être liées une par une pour être visibles dans Workfront. Voir [Configurer les intégrations de documents](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) pour plus d’informations.
+
+Fonctionnalités clés qui restent inchangées :
+
+* Recherchez et filtrez des ressources et des dossiers à partir de la fenêtre modale Google Drive
+* Lier des ressources à des objets Workfront à partir de Google Drive
+* Chargez des ressources sur Google Drive via la liste déroulante « Envoyer à » de la page des documents
+* Afficher et accéder à la structure de dossiers dans la zone Mon lecteur d&#39;un utilisateur
+* Lier une nouvelle version d’une ressource à partir de Google Drive à un document existant dans Workfront
+* Lier des dossiers à des objets Workfront à partir de Google Drive
+* Chargez des ressources sur Google Drive en faisant glisser et en déposant des documents dans un dossier lié
+* Créez un document Google Drive à partir de Workfront
 
 
 ## Nouveaux boutons de décision d’approbation de document disponibles dans le lecteur de vérification
