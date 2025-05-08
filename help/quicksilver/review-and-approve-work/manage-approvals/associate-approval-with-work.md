@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1891'
 ht-degree: 92%
 
 ---
@@ -123,8 +123,6 @@ Pour associer un processus d’approbation globale existant à un projet, une t�
 1. Accédez à l’élément de travail auquel associer un processus d’approbation.
 1. Cliquez sur **Approbations** dans le panneau de gauche.
 
-   Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Approbations**.
-
    ![Section Validations de la tâche](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. ![Utiliser des approbations existantes ou créer une approbation à usage unique](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
@@ -193,8 +191,6 @@ Pour créer un processus d’approbation à usage unique :
 1. Accédez au projet, à la tâche, au problème, au modèle ou à la tâche de modèle auquel associer un processus d’approbation.
 1. Cliquez sur **Approbations** dans le panneau de gauche.
 
-   Vous devrez peut-être cliquer sur **Afficher plus** > **Approbations**.
-
    ![Section Validations de la tâche](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Cliquez sur **Créer une utilisation unique**.
@@ -232,14 +228,12 @@ Pour retirer ou supprimer un processus d’approbation d’un élément de trava
 1. Accédez au projet, à la tâche, au problème, au modèle ou à la tâche de modèle pour qui vous souhaitez retirer un processus d’approbation que vous avez précédemment ajouté.
 1. Cliquez sur **Approbations** dans le panneau de gauche.
 
-   Vous devrez peut-être cliquer sur **Afficher plus** > **Approbations**.
-
    ![Section Validations de la tâche](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Cliquez sur l’une des icônes suivantes dans le coin supérieur droit de la section Approbations, en fonction du type d’approbation associé à l’élément :
 
    * **Icône Supprimer** Icône ![Supprimer](assets/remove-icon---x-in-circle.png) pour les approbations globales ou au niveau du groupe.
-   * **&#x200B;**&#x200B;Icône Supprimer ![Icône Supprimer](assets/delete.png) pour les validations à usage unique.
+   * **** Icône Supprimer ![Icône Supprimer](assets/delete.png) pour les validations à usage unique.
 
 1. Cliquez sur **Retirer** ou **Supprimer** pour confirmer.
 

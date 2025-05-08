@@ -3,11 +3,12 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Panneau de navigation de gauche dans  [!DNL Adobe Workfront]
 description: Le panneau de navigation de gauche dans  [!DNL Workfront]  facilite la navigation dans le système.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1373'
 ht-degree: 100%
 
 ---
@@ -254,12 +255,6 @@ Pour savoir quelles sections sont disponibles pour des zones spécifiques, voir 
    Vous devez disposer d’autorisations de modification sur l’objet pour modifier les informations.
 
    ![Sections du panneau de gauche](assets/NWE-left-navigation-panel.png)
-
-1. (Facultatif) Cliquez sur **[!UICONTROL Afficher Plus]** en bas du panneau de gauche pour afficher d’autres sections.
-
-   >[!NOTE]
-   >
-   >Cette option n’est pas disponible si toutes les sections s’affichent par défaut dans le panneau de gauche.
 
 1. (Facultatif) Pour ajouter un lien rapide au tableau de bord, cliquez sur **[!UICONTROL Ajouter un tableau de bord]** en bas du panneau de gauche, puis procédez comme suit :
 

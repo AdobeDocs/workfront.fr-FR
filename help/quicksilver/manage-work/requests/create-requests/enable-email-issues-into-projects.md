@@ -6,10 +6,10 @@ description: Vous pouvez configurer un projet pour permettre aux utilisateurs d�
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 87%
+source-wordcount: '782'
+ht-degree: 86%
 
 ---
 
@@ -78,7 +78,7 @@ Les conditions suivantes sont requises pour configurer un projet afin de permett
 >Nous recommandons que le projet que vous configurez pour recevoir des demandes par e-mail ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
 
 1. Accédez au projet sur lequel vous souhaitez activer la réception des problèmes par e-mail.
-1. Cliquez sur **Détails de la file d’attente** dans le panneau de gauche. Vous devrez peut-être cliquer d’abord sur **Afficher plus**.
+1. Cliquez sur **Détails de la file d’attente** dans le panneau de gauche.
 1. Dans la zone **Type de file d’attente**, sélectionnez **Publier en tant que file d’attente des demandes d’aide**.
 
 1. Faites défiler l’écran vers le bas jusqu’à **Paramètres de la file d’attente de messagerie**, puis sélectionnez **Activer la réception de demandes par e-mail**.

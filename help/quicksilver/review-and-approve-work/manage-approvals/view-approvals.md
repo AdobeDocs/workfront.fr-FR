@@ -6,10 +6,10 @@ description: Les processus d’approbation offrent une flexibilité permettant d
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 76%
+source-wordcount: '794'
+ht-degree: 75%
 
 ---
 
@@ -129,7 +129,7 @@ Vous pouvez obtenir une visibilité sur l’emplacement où une tâche ou un év
 Pour voir l’état actuel d’une tâche ou d’un problème dans le processus d’approbation, procédez comme suit :
 
 1. Accédez au projet, à la tâche ou au problème auquel ou à laquelle l’approbation est associée.
-1. Dans le panneau de gauche, cliquez sur **Approbations**. Vous devrez peut-être d’abord cliquer sur **Afficher plus**.
+1. Dans le panneau de gauche, cliquez sur **Validations**.
 
    L’onglet Approbations affiche toutes les informations sur tous les parcours et étapes d’approbation précédents. Vous pouvez voir qui a pris une décision sur l’approbation ou si l’approbation est définie pour une équipe, une fonction, ou bien un utilisateur ou une utilisatrice.
 
