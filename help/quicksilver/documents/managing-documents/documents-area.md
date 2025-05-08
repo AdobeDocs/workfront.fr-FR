@@ -7,16 +7,18 @@ description: Dans la zone Documents, vous pouvez organiser, gérer et afficher l
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
+source-git-commit: d231bc962bddf44daad6e10c5652d1ff46554f8a
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 76%
+source-wordcount: '429'
+ht-degree: 74%
 
 ---
 
 # La zone Documents
 
 Dans la zone Documents, vous pouvez organiser, gérer et afficher les métadonnées des documents chargés dans Adobe Workfront. Vous pouvez également voir le statut de décision de l’épreuve.
+
+Les documents ajoutés à des tâches et événements individuels sont tous disponibles dans la zone Projet > Documents .
 
 ![Zone Documents](assets/documents-area-v2-350x199.png)
 

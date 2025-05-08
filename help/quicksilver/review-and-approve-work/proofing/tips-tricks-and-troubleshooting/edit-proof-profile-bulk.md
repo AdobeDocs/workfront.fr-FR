@@ -7,10 +7,10 @@ description: Découvrez comment modifier en masse le profil d’autorisation d�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 0e1bb767d2fdbfd4a1959eb1fa363cbc7c32d682
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 98%
+source-wordcount: '263'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice Workfront. Pour plus d’informations sur l’administration Workfront, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront ou un administrateur de groupe. Pour plus d’informations sur l’administration Workfront, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
