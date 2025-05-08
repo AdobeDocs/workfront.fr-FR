@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
+source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Nous avons mis à jour la page que vous utilisez pour accorder l’accès à l�
 
 ### Mise à jour de l’interface pour le Centre d’annonces
 
-**Version préliminaire : 27 février 2025 ; à annoncer**
+**Version préliminaire : 27 février 2025 ; à partir de la semaine du 6 mars 2025**
 
 Nous avons mis à jour le Centre des annonces avec un design plus moderne qui est cohérent avec les autres zones de Workfront.
 
@@ -71,7 +71,7 @@ Pour afficher les paramètres, accédez à Configuration > Équipes.
 
 ### Mise à jour de l&#39;interface pour les paramètres du processus d&#39;approbation dans la configuration
 
-**Version préliminaire : 6 février 2025 ; Version de production : à annoncer**
+**Version préliminaire : 6 février 2025 ; Version de production : à partir de la semaine du 13 février 2025**
 
 Nous avons mis à jour la boîte de dialogue Paramètres d’approbation avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -177,7 +177,7 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 ### Mises à jour des interfaces pour les demandes des équipes
 
-**Version préliminaire : 6 mars 2025 ; Version de production : à annoncer**
+**Version préliminaire : 6 mars 2025 ; Version de production : 13 mars 2025**
 
 Nous avons mis à jour la page Demandes de l’équipe avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
