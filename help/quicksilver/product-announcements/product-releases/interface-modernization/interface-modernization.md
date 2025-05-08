@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
+source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,21 @@ Pour afficher cette modification, accédez à Documents > Cliquez sur le menu Pl
 
 ## Rapports et tableaux de bord
 
-+++Développez pour afficher les mises à jour de l’interface Rapports et tableaux de bord.
+### Mise à jour du rapport Niveau d&#39;accès avec un nouveau style
+
+**Version préliminaire : à déterminer ; Version de production : à partir de la semaine du 6 février 2025**
+
+Nous avons mis à jour le rapport Niveau d’accès avec une conception plus moderne et cohérente avec les autres aspects de Workfront.
+
+Cette mise à jour inclut des modifications visuelles du rapport. Aucune fonctionnalité n’a été modifiée.
+
+Pour créer un rapport d&#39;équipe, accédez à Rapports > Nouveau rapport > Niveau d&#39;accès.
+
++++Développez pour afficher plus de mises à jour de l’interface Rapports et tableaux de bord.
 
 ### Mise à jour du rapport d’équipe avec un nouveau style
 
-**Version préliminaire : 30 janvier 2025 ; à partir de la semaine du 6 février 2025**
+**Version préliminaire : 30 janvier 2025 ; Version de production : à partir de la semaine du 6 février 2025**
 
 Nous avons mis à jour le rapport d’équipe avec une conception plus moderne et cohérente avec les autres domaines de Workfront.
 
