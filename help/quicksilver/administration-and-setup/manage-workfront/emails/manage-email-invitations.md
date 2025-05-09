@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Gérer les invitations par e-mail pour les nouveaux utilisateurs
 description: En tant qu’administrateur ou administratrice d’Adobe Workfront, vous pouvez ajouter des utilisateurs et des utilisatrices à Workfront et les informer qu’ils ont été ajoutés en leur envoyant des invitations par e-mail.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: dccbd5a036e1b148bc8f3e41fac3a67babe6dc9a
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 97%
+source-wordcount: '936'
+ht-degree: 96%
 
 ---
 
@@ -69,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Générer des invitations par e-mail {#generate-email-invitations}
+## Renvoyer des invitations par e-mail aux utilisateurs non enregistrés existants
 
 Les invitations par e-mail sont générées dans les scénarios suivants :
 
@@ -82,7 +82,7 @@ Les invitations par e-mail sont générées dans les scénarios suivants :
   >
   >Si vous désélectionnez la case **Envoyer un e-mail d’invitation à cette personne** lorsque vous créez l’utilisateur ou l’utilisatrice, l’invitation par e-mail ne peut pas être générée manuellement. L’envoi manuel des invitations par e-mail n’est possible que pour les utilisateurs et utilisatrices qui ont reçu l’invitation par e-mail initiale lors de la création de leur compte. Pour plus d’informations sur la création de nouveaux utilisateurs et utilisatrices, voir [Ajouter des utilisateurs et des utilisatrices](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-Pour générer manuellement des invitations par e-mail destinées à des utilisateurs et utilisatrices non enregistrés existants, procédez comme suit :
+Pour renvoyer manuellement des invitations par e-mail à des utilisateurs non enregistrés existants :
 
 {{step-1-to-users}}
 
