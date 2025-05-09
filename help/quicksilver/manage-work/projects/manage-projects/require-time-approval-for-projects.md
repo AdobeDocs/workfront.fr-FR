@@ -6,10 +6,10 @@ description: Demander du temps pour l’approbation d’un projet
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 77%
+source-wordcount: '754'
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 77%
 <!--audited: 08/2024-->
 
 Vous pouvez configurer le projet pour que les heures consignées par rapport au projet soient approuvées par la personne propriétaire du projet. Lorsqu’elles sont configurées de cette manière, les heures doivent d’abord être approuvées par la personne propriétaire du projet avant de pouvoir être utilisées sur un enregistrement de facturation.\
-Pour plus d’informations sur la facturation des enregistrements, voir l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
+Pour plus d’informations sur les enregistrements de facturation, voir l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Si vous configurez un projet pour que ses heures consignées soient approuvées,
 Pour approuver ou rejeter des heures sur un projet :
 
 1. Accédez au projet.
-1. Cliquez sur la zone **Heures** dans le panneau de gauche. Il se trouve peut-être sous la zone **Afficher plus**.
+1. Cliquez sur la zone **Heures** dans le panneau de gauche.
 
 1. Les heures consignées pour les problèmes, les tâches et le projet s’affichent et doivent avoir le statut **Envoyé**.\
    Cliquez sur la zone située à gauche des entrées d’heures pour sélectionner les heures à approuver.

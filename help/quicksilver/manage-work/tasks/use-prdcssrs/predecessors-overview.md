@@ -7,9 +7,9 @@ description: Une tâche antérieure est celle dont dépend une autre tâche (app
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1180'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ Pour trouver les tâches antérieures d’une tâche, effectuez l’une des opé
 * Accédez au projet sur lequel vous travaillez et procédez comme suit :
 
    1. Recherchez la tâche pour laquelle vous souhaitez retrouver les tâches antérieures et cliquez sur la tâche.
-   1. Cliquez sur **Tâches antérieures** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis **Tâches antérieures**.
+   1. Cliquez sur **Tâches antérieures** dans le panneau de gauche.
    1. Le nom du projet sur lequel se trouve la tâche antérieure s’affiche dans la colonne **Projet**.
 
       Le nombre indiqué dans la colonne **#** affiche le numéro de la tâche antérieure. Par exemple, « 6 » signifie la sixième tâche du projet.

@@ -2,22 +2,26 @@
 product-area: projects;resource-management
 navigation-topic: manage-projects
 title: Planifier les ressources pour un projet
-description: Vous pouvez planifier les ressources pour un seul projet afin d’indiquer à quel travail chaque ressource est affectée ainsi que le temps qu’elles doivent consacrer à l’exécution de leur travail. Vous pouvez planifier des ressources pour un projet et allouer des heures à chaque ressource à l’aide de l’outil de planification ou de l’équilibreur de charge de travail au niveau du projet.
-author: Alina
+description: Vous pouvez planifier les ressources pour un seul projet afin d’indiquer à quel travail chaque ressource est affectée ainsi que le temps qu’elles doivent consacrer à l’exécution de leur travail. Vous pouvez planifier des ressources pour un projet et affecter des heures à chaque ressource à l’aide de l’équilibreur de charge de travail au niveau du projet.
+author: Alina, Lisa
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 76%
 
 ---
 
 # Planifier les ressources pour un projet
 
-Vous pouvez planifier les ressources pour un seul projet afin d’indiquer à quel travail chaque ressource est affectée ainsi que le temps qu’elles doivent consacrer à l’exécution de leur travail. Vous pouvez planifier des ressources pour un projet et allouer des heures à chaque ressource à l’aide de l’outil de planification ou de l’équilibreur de charge de travail au niveau du projet.
+<!--Audited: 5/2025-->
+
+Vous pouvez planifier les ressources pour un seul projet afin d’indiquer à quel travail chaque ressource est affectée ainsi que le temps qu’elles doivent consacrer à l’exécution de leur travail. Vous pouvez planifier des ressources pour un projet et affecter des heures à chaque ressource à l’aide de l’équilibreur de charge de travail au niveau du projet.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -50,26 +54,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Planifier les ressources pour un projet
 
-Pour accéder à l’outil de planification dans un projet, procédez comme suit :
+Vous pouvez utiliser l’équilibreur de charge de travail pour planifier les ressources d’un projet.
 
 1. Accédez au projet pour lequel vous souhaitez planifier des ressources.
-1. Cliquez sur la section **Planification** ou Équilibreur de charge de travail dans le panneau de gauche. La section Planification ou Équilibreur de charge de travail peut se trouver sous **Afficher plus**.
-
-   Pour plus d’informations sur la planification des ressources à l’aide de l’outil de planification dans un projet, reportez-vous à la section « Modifier les affectations et allocations d’utilisateurs ou utilisatrices » de l’article « Commencer la planification des ressources ».
-
-1. (Le cas échéant et recommandé) Si vous avez cliqué sur Planification, cliquez sur **Basculer sur l’équilibreur de charge de travail** pour planifier des ressources à l’aide de l’équilibreur de charge de travail.
-
-   >[!TIP]
-   >
-   >Si vous avez sélectionné l’équilibreur de charge de travail auparavant, le nom de la section devient Équilibreur de charge de travail.
+1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
 
    Pour plus d’informations sur la planification des ressources à l’aide de l’équilibreur de charge de travail, consultez les articles suivants :
 
    * [Vue d’ensemble de l’affectation de travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
    * [Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
- 
+

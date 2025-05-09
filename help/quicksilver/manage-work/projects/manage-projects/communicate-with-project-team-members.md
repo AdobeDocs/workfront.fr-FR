@@ -6,10 +6,10 @@ description: Vous pouvez facilement communiquer avec les personnes membres de vo
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Envoyer un e-mail à une personne membre de l’équipe de projet {#send-an-email-to-a-project-team-member}
 
 1. Accédez à un projet pour lequel vous souhaitez envoyer un e-mail aux personnes membres de l’équipe de projet.
-1. Cliquez sur **Personnes** dans le panneau de gauche. Vous devrez peut-être d’abord cliquer sur **Afficher plus**.
+1. Cliquez sur **Personnes** dans le panneau de gauche.
 
    Pour mettre à jour l’ensemble des personnes membres de l’équipe de projet, cliquez sur **Tout mettre à jour** dans le coin supérieur gauche de la liste des personnes membres de l’équipe de projet.
 
@@ -91,7 +91,7 @@ Vous pouvez envoyer des mises à jour de projet aux personnes membres de l’éq
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: drafted. No longer valid)</p>
 <ol>
 <li value="1"> <p>Go to a project whose members of the project team you want to send an email to. </p> </li>
-<li value="2"> Click <strong>Show More</strong>, then <strong>People</strong> in the left panel.</li>
+<li value="2"> Click <strong>People</strong> in the left panel.</li>
 <li value="3"> <p>To update all members of the project team, click <strong>Update All</strong> in the upper-left corner of the list of project team members.</p> <p>Or</p> <p>To update certain members of the project team, select one or several users in the list, then click <strong>Update</strong>. </p> </li>
 <li value="4">Type your update in the <strong>Post an update to this project</strong> field.</li>
 <li value="5"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private&nbsp;update.</p> </li>

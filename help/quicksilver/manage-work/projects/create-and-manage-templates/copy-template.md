@@ -2,54 +2,60 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Copier un modèle de projet
-description: Au lieu de créer entièrement un modèle de projet, vous pouvez copier un modèle existant et y apporter des modifications, si nécessaire.
+description: Outre la création d’un modèle de projet à partir de zéro, vous pouvez également copier un modèle existant et le modifier.
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 97%
+source-wordcount: '295'
+ht-degree: 60%
 
 ---
 
 # Copier un modèle de projet
 
-Au lieu de créer entièrement un modèle de projet, vous pouvez copier un modèle existant et y apporter des modifications, si nécessaire.
+<!--Audited: 5/2025-->
+
+Outre la création d’un modèle de projet à partir de zéro, vous pouvez également copier un modèle existant et le modifier dans Adobe Workfront.
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer de l’accès suivant.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Nouveau : Standard</p> 
+   <p>Actuel : Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux modèles</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux modèles</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations d’affichage ou de niveau supérieur sur un modèle</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Autorisations d’affichage ou de niveau supérieur sur un modèle</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Remarques relatives à la copie de modèles
 
-Les éléments suivants sont toujours copiés d’un projet existant vers un nouveau :
+Les éléments suivants sont toujours copiés d’un modèle existant vers un nouveau :
 
 * Tâches de modèles
 * Informations par défaut sur la tâche de modèle (processus d’approbation par défaut de la tâche, formulaires personnalisés par défaut de la tâche)
@@ -61,18 +67,23 @@ Les éléments suivants sont toujours copiés d’un projet existant vers un nou
 * Documents
 * Les jours des tâches du modèle d’origine sont transférés vers le nouveau modèle. Vous devez modifier le jour de début ou d’achèvement du modèle (en fonction de son mode de planification) pour mettre à jour les jours des tâches du modèle, si nécessaire.
 
-Les éléments suivants ne sont jamais copiés d’un projet existant vers un nouveau :
+Les éléments suivants ne sont jamais copiés d’un modèle existant vers un nouveau :
 
 * Taux de facturation
 * Commentaires des utilisateurs et des utilisatrices
 
 ## Copier un modèle
 
+
+<!--ensure steps and casing on the fields and buttons is accurate with unshim-->
+
 1. Accédez au modèle à copier.
-1. Cliquez sur le menu **Plus** ![icône Plus](assets/qs-more-icon-on-an-object.png), puis sur **Copier**.
+1. Cliquez sur le menu **Plus** ![icône Plus](assets/qs-more-icon-on-an-object.png) à droite du nom du modèle dans l’en-tête, puis cliquez sur **Copier**.
+
+   La boîte de dialogue **Copier le modèle** s’ouvre.
 1. Spécifiez un nom pour le modèle dans le champ **Nouveau nom du modèle**.
 
-   Par défaut, le nouveau nom est **Copie de `<original template name>`.**
+   Par défaut, le nouveau nom est `Copy of Original template name`.
 
 1. Indiquez si vous souhaitez **Conserver les affectations d’utilisateurs et d’utilisatrices sur les tâches et le modèle** : sélectionnez cette option pour transférer toutes les affectations de tâche et de modèle du modèle d’origine vers le nouveau.
 1. Cliquez sur **Enregistrer** pour créer une copie du modèle.

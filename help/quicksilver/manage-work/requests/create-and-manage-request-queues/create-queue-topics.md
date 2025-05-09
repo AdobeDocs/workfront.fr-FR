@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 97%
+source-wordcount: '844'
+ht-degree: 96%
 
 ---
 
@@ -108,7 +108,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Pour plus d’informations sur la création de groupes de rubriques, voir [Créer des groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Cliquez sur **Rubriques de file d’attente** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis **Rubriques de file d’attente**.
+1. Cliquez sur **Rubriques de file d’attente** dans le panneau de gauche.
 1. Cliquez sur **Nouvelle rubrique de file d’attente**.
 1. Sur le formulaire **Nouvelle rubrique de file d’attente**, saisissez le texte suivant :
 

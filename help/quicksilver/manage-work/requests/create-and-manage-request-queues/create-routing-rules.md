@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 88%
+source-wordcount: '506'
+ht-degree: 86%
 
 ---
 
@@ -61,7 +61,7 @@ Une fois créées, vous ne pouvez pas déplacer les règles de transmission d&#3
 ## Créer une règle de routage
 
 1. Accédez au projet dans lequel vous souhaitez ajouter des règles de routage pour vos requêtes.
-1. Cliquez sur **Règles de routage** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Règles de routage**.
+1. Cliquez sur **Règles de transmission** dans le panneau de gauche.
 1. Cliquez sur **Nouvelle règle de transmission** pour ajouter la nouvelle règle. La boîte **Nouvelle règle de transmission** s&#39;ouvre.
 
    ![Zone Nouvelle règle de routage](assets/new-routing-rule-box.png)

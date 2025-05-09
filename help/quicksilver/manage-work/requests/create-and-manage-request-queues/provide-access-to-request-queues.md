@@ -6,10 +6,10 @@ description: Lorsque vous accordez l’accès à une file d’attente des demand
 author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 99%
+source-wordcount: '509'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 Lorsque vous accordez l’accès à une file d’attente des demandes, vous déterminez qui, au sein de votre organisation, peut afficher la file d’attente des demandes dans la zone Demandes d’Adobe Workfront.
 
-Vous pouvez accorder à différentes personnes l’accès à une file d’attente des demandes, selon qu’elles font partie de l’équipe du projet, du groupe du projet ou de l’entreprise du projet. Vous pouvez également permettre à tous les membres du système d’accéder à une file d’attente des demandes. 
+Vous pouvez accorder à différentes personnes l’accès à une file d’attente des demandes, selon qu’elles font partie de l’équipe du projet, du groupe du projet ou de l’entreprise du projet. Vous pouvez également permettre à tous les membres du système d’accéder à une file d’attente des demandes.
 
 Cela s’avère utile dans les organisations qui invitent des parties prenantes externes dans Workfront et qui souhaitent limiter l’accès des personnes à des zones spécifiques : dans ce cas, une file d’attente des demandes ouverte uniquement aux personnes associées à l’entreprise ou au groupe du projet limite la visibilité des parties prenantes externes. Donner accès à tout le monde rend la demande visible pour les parties prenantes internes et externes.
 
@@ -72,14 +72,14 @@ Avant que la file d’attente des demandes ne soit disponible pour les personnes
    >
    >Seuls les projets dont le statut est Actif sont visibles dans la zone Demandes.
 
-1. Cliquez sur **Détails de la file d’attente** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Détails de la file d’attente**.
-1. Sélectionnez **Publier en tant que file d’attente des demandes d’aide** pour désigner le projet comme file d’attente des demandes.
+1. Cliquez sur **Détails de la file d’attente** dans le panneau de gauche.
+1. Sélectionnez **Publier en tant que file d’attente des demandes d’aide** pour désigner le projet comme une file d’attente des demandes.
 1. Sélectionnez l’une des options suivantes :
 
    * **N’importe qui** : tout le monde peut afficher et ajouter des demandes à la file d’attente des demandes.
-   * **Personnes ayant un accès en affichage à ce projet** : les personnes disposant des autorisations d’affichage sur le projet peuvent afficher et ajouter des demandes à la file d’attente des demandes.
-   * **Personnes de l’entreprise de ce projet** : les personnes associées à l’entreprise du projet peuvent afficher et ajouter des demandes. L’entreprise associée au projet est répertoriée entre parenthèses en regard de cette option.
-   * **Personnes dans le groupe de ce projet** : les personnes associées au groupe du projet peuvent afficher et ajouter des demandes. Le groupe associé au projet est répertorié entre parenthèses en regard de cette option.
+   * **Personnes disposant d’un accès en affichage à ce projet** : les utilisateurs disposant d’autorisations en affichage pour le projet peuvent afficher et ajouter des demandes à la file d’attente des demandes.
+   * **Personnes de l’entreprise associées à ce projet** : les utilisateurs et utilisatrices associés à l’entreprise associée au projet peuvent afficher et ajouter des demandes. La société associée au projet est indiquée entre parenthèses en regard de cette option.
+   * **Personnes dans le groupe de ce projet** : les personnes associées au groupe du projet peuvent afficher et ajouter des demandes. Le groupe associé au projet est indiqué entre parenthèses en regard de cette option.
 
      Les files d’attente des groupes sont utiles lorsque plusieurs départements partagent un compte Workfront pour atteindre des objectifs organisationnels uniques. Chaque service peut avoir ses propres files d’attente que les membres d’autres groupes ne devraient pas pouvoir voir.
 

@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Création de prédécesseurs sur plusieurs projets
+title: Créer des projets transversaux antérieurs
 description: Un projet transversal antérieur est une tâche dont dépend une autre tâche (appelée tâche ultérieure) dans un autre projet. La tâche antérieure est la tâche qui a la priorité sur la tâche dépendante (tâche ultérieure). Par exemple, vous pouvez créer une dépendance qui exige que la tâche antérieure soit marquée comme étant terminée avant que la tâche dépendante ne puisse démarrer.
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '742'
 ht-degree: 97%
 
 ---
@@ -72,7 +72,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Créer un projet transversal antérieur
 
 1. Accédez à la tâche qui sera votre tâche ultérieure (tâche dépendante).
-1. Cliquez sur **Tâches antérieures** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Tâches antérieures**.
+1. Cliquez sur **Tâches antérieures** dans le panneau de gauche.
 
    >[!TIP]
    >

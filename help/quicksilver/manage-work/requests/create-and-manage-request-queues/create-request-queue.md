@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '2855'
+source-wordcount: '2845'
 ht-degree: 66%
 
 ---
@@ -139,7 +139,7 @@ To create a Request Queue:
 
 1. Go to the project that you want to set up as a Request Queue.
 1. (Optional) Click **Project Details** in the left panel and add a **Description** to the project in the **Overview** area. This information displays on all new requests.
-1. Click **Queue Details** in the left panel. You might need to click **Show More**, then **Queue Details**.
+1. Click **Queue Details** in the left panel. 
 
    This opens the Queue Details section.
 
@@ -339,7 +339,7 @@ Pour créer une file d’attente des demandes, procédez comme suit :
 
 1. Accédez au projet que vous souhaitez configurer en tant que file d’attente des demandes.
 1. (Facultatif) Cliquez sur **Détail du projet** dans le panneau de gauche et ajoutez une **Description** au projet dans la zone **Vue d’ensemble**. Cette information s’affiche sur toutes les nouvelles demandes.
-1. Cliquez sur **Détails de la file d’attente** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Détails de la file d’attente**.
+1. Cliquez sur **Détails de la file d’attente** dans le panneau de gauche.
 
    La section Détails de la file d’attente s’ouvre.
 

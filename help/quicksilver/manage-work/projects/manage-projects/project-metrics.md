@@ -8,10 +8,10 @@ description: Les mesures de projet vous permettent de visualiser le déroulement
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 100%
+source-wordcount: '1258'
+ht-degree: 99%
 
 ---
 
@@ -158,7 +158,7 @@ Vous pouvez choisir de consulter les affectations de tâches d’un projet dans 
 Vous pouvez interagir avec les graphes de la zone Mesures pour visualiser le contenu ou examiner les tâches et les problèmes qu’ils contiennent.
 
 1. Accédez au projet pour lequel vous souhaitez consulter les mesures.
-1. Dans le panneau de gauche, cliquez sur **Afficher plus** pour afficher d’autres sections, puis cliquez sur **Mesures**.\
+1. Dans le panneau de gauche, cliquez sur **Mesures**.\
    Les graphes de la zone Mesures affichent par défaut des informations sur les tâches.\
    ![](assets/metrics-section-350x298.png)
 

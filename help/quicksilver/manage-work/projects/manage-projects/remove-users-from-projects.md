@@ -6,10 +6,10 @@ description: Vous pouvez supprimer des personnes d’un projet lorsqu’elles ne
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 97%
 
 ---
 
@@ -73,7 +73,7 @@ Pour supprimer des personnes de l’équipe de projet :
 
 1. Accédez au projet dans lequel vous souhaitez supprimer les personnes.
 
-1. Cliquez sur **Personnes** dans le panneau de gauche, sélectionnez les personnes à supprimer. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Personnes**.
+1. Cliquez sur **Personnes** dans le panneau de gauche, puis sélectionnez les utilisateurs à supprimer.
 
 1. Cliquez sur l’icône **Supprimer** ![Supprimer un élément](assets/remove-icon---x-in-circle.png) en haut de la liste des personnes.
 

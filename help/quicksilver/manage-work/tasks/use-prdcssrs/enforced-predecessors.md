@@ -6,10 +6,10 @@ description: Les tâches antérieures sont des tâches dont dépendent d’autre
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 100%
+source-wordcount: '485'
+ht-degree: 97%
 
 ---
 
@@ -75,7 +75,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 ## Appliquer une tâche antérieure au niveau de la tâche
 
 1. Accédez à la tâche ultérieure à laquelle vous souhaitez appliquer une tâche antérieure.
-1. Cliquez sur **Tâches antérieures** dans le panneau de gauche, puis sur **Ajouter une tâche antérieure**. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Tâches antérieures**.
+1. Cliquez sur **Prédécesseurs** dans le panneau de gauche, puis sur **Ajouter un prédécesseur**.
 1. (Le cas échéant) Si vous souhaitez ajouter une tâche antérieure sur plusieurs projets, supprimez le nom du projet dans le champ **Projet parent** et remplacez-le par un autre projet.
 1. Indiquez le nom de la ou des tâches antérieures dans le champ **Tâches**.
 1. Spécifiez le **Type de dépendance** entre ces deux tâches.

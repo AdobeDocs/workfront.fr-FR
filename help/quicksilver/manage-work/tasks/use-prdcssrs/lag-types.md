@@ -7,9 +7,9 @@ description: Le décalage correspond au temps qui doit s’écouler après la fi
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1452'
 ht-degree: 100%
 
 ---
@@ -142,7 +142,7 @@ Vous pouvez indiquer des types de décalage sur les tâches lorsque vous défini
 ### Indiquer des types de décalage dans la section antérieure d’une tâche {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Accédez à une tâche pour laquelle vous souhaitez définir la tâche antérieure et le type de décalage.
-1. Cliquez sur **Tâches antérieures** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Tâches antérieures**.
+1. Cliquez sur **Tâches antérieures** dans le panneau de gauche.
 1. Cliquez sur **Ajouter une tâche antérieure**.
 1. (Facultatif) Si vous souhaitez ajouter une tâche antérieure de plusieurs projets, remplacez le nom du **projet parent** par un autre projet.
 1. Commencez à saisir le nom de la tâche antérieure, puis sélectionnez-la lorsqu’elle apparaît dans la liste.

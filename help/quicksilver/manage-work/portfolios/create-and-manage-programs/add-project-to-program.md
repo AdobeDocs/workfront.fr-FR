@@ -2,24 +2,26 @@
 product-area: programs;projects
 navigation-topic: create and manage programs
 title: Ajouter un projet à un programme
-description: Vous pouvez organiser vos projets en les ajoutant aux programmes au sein des portfolios. Vous pouvez intégrer plusieurs projets dans un même programme, mais vous ne pouvez associer qu’un seul programme à un projet.
+description: Vous pouvez organiser vos projets en les ajoutant aux programmes au sein des portfolios. Vous pouvez avoir plusieurs projets au sein d’un même programme, mais vous ne pouvez associer qu’un seul programme à un projet. L’ajout d’un projet à un programme l’ajoute automatiquement au portefeuille du programme en même temps.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 89%
+source-wordcount: '478'
+ht-degree: 59%
 
 ---
 
 # Ajouter un projet à un programme
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
 
 Vous pouvez organiser vos projets en les ajoutant aux programmes au sein des portfolios. Vous pouvez intégrer plusieurs projets dans un même programme, mais vous ne pouvez associer qu’un seul programme à un projet.
 
 Vous devez créer un portfolio et un programme au sein de ce portfolio avant de pouvoir ajouter un projet à un programme.
+
+L’ajout d’un projet à un programme l’ajoute automatiquement au portefeuille du programme en même temps.
 
 Pour plus d’informations sur la création de portfolios, consultez la section [Créer un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
@@ -44,16 +46,16 @@ Pour plus d’informations sur la création de programmes, consultez la section 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
-   <td> <p>Accès à [!UICONTROL Modifier] à des programmes ou à des programmes supérieurs</p> <p>[!UICONTROL Edit] l’accès aux Projets</p> </td> 
+   <td> <p>[!UICONTROL Edit] Accès aux programmes ou versions ultérieures</p> <p>[!UICONTROL Edit] l’accès aux Projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations [!UICONTROL Gérer] pour le programme</p> <p>[!UICONTROL Manage] les permissions des projets</p> </td> 
+   <td> <p>Autorisations [!UICONTROL Manage] au programme</p> <p>[!UICONTROL Manage] les permissions des projets</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -98,7 +100,19 @@ Pour plus d’informations sur la création de programmes, consultez la section 
     </tbody> 
    </table>
 
-1. (Le cas échéant) Si vous avez sélectionné **[!UICONTROL Projet existant]**, procédez comme suit :
+1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL Projet existant]**, la boîte de dialogue **Ajouter des projets** s’ouvre.
 
-   1. Dans la boîte de dialogue **[!UICONTROL Ajouter des projets]**, saisissez le nom du projet dans le champ fourni, puis sélectionnez-le lorsqu’il apparaît dans la liste. Vous pouvez ajouter plusieurs projets à la fois.
-   1. Cliquez sur **[!UICONTROL Ajouter des projets]**.**&#x200B;** &#x200B; Le projet apparaît dans l’onglet **[!UICONTROL Projets]** du programme et est désormais associé au programme et au portefeuille.
+   <!--screen shot at unshim?-->
+
+1. Procédez comme suit :
+
+   1. Dans la zone **[!UICONTROL Ajouter des projets]**, saisissez le nom d’un projet dans le champ **Ajouter des projets à ce programme** puis sélectionnez-le lorsqu’il s’affiche dans la liste. <!--check casing on links and buttons-->
+
+      Vous pouvez ajouter plusieurs projets.
+   1. (Facultatif) Cliquez sur l’icône **X** à droite du nom du projet pour le supprimer de la liste, si vous décidez de ne pas l’ajouter au programme.
+
+      <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the program.-->
+
+   1. Cliquez sur **[!UICONTROL Ajouter des projets]**.
+
+      Le projet apparaît dans l’onglet **[!UICONTROL Projets]** du programme et est désormais associé au programme et au portfolio correspondant du programme.
