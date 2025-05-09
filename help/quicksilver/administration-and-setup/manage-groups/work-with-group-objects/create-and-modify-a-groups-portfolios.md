@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Création et modification des Portfolios d’un groupe
+title: Création et modification des portefeuilles d’un groupe
 description: En tant qu’administrateur ou administratrice de groupes, lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher et utiliser ses portfolios.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 96%
+source-wordcount: '373'
+ht-degree: 93%
 
 ---
 
@@ -25,28 +25,34 @@ S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrat
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Vous devez faire partie de l’équipe d’administration de groupe pour le groupe ou de l’équipe d’administration Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Licence Adobe Workfront</td>
+   <td><p>Nouveau : Standard</p>
+       <p>Ou</p>
+       <p>Actuel : formule</p></td>
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Le portfolio doit être associé au groupe ou à l’un de ses sous-groupes.</p> <p>En outre, vous devez disposer des autorisations nécessaires pour afficher le portfolio, soit parce que vous l’avez créé, soit parce qu’il a été partagé avec vous.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td>
+   <td> <p>Le portfolio doit être associé au groupe ou à l’un de ses sous-groupes.</p> <p>En outre, vous devez disposer des autorisations nécessaires pour afficher le portfolio, soit parce que vous l’avez créé, soit parce qu’il a été partagé avec vous.</p></td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si vous devez établir la formule ou le type de licence dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

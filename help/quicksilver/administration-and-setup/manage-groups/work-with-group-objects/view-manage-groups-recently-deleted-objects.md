@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 96%
+source-wordcount: '437'
+ht-degree: 92%
 
 ---
 
@@ -31,30 +31,34 @@ Pour plus d’informations sur les éléments supprimés, consultez [Gérer les 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Vous devez faire partie de l’équipe d’administration de groupe pour le groupe ou de l’équipe d’administration Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Licence Adobe Workfront</td>
+   <td><p>Nouveau : Standard</p>
+       <p>Ou</p>
+       <p>Actuel : formule</p></td>
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Les éléments supprimés doivent être associés au groupe ou à l’un de ses sous-groupes. </p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td>
+   <td>Les éléments supprimés doivent être associés au groupe ou à l’un de ses sous-groupes.</td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si vous devez établir la formule ou le type de licence dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,7 +87,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    >
    >Si une personne a supprimé une tâche, un problème, un document ou un modèle individuellement, vous pouvez l’afficher et le gérer dans l’onglet approprié.
 
-1. Effectuez l’une des opérations suivantes :
+1. Effectuez l’une des actions suivantes :
 
    <table style="table-layout:auto"> 
     <col> 

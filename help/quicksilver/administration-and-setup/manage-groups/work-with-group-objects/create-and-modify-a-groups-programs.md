@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51111523-8fb7-4379-995e-1834cac51872
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 96%
+source-wordcount: '378'
+ht-degree: 84%
 
 ---
 
@@ -25,28 +25,34 @@ S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrat
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Forfait Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td>Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Vous devez faire partie de l’équipe d’administration de groupe pour le groupe ou de l’équipe d’administration Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Licence Adobe Workfront</td>
+   <td><p>Nouveau : Standard</p>
+       <p>Ou</p>
+       <p>Actuel : formule</p></td>
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Les programmes doivent être associés au groupe ou à l’un de ses sous-groupes.</p> <p>En outre, vous devez disposer des autorisations nécessaires pour afficher les programmes, soit parce que vous les avez créés, soit parce qu’ils ont été partagés avec vous.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td>
+   <td> <p>Le programme doit être associé au groupe ou à l’un de ses sous-groupes.</p> <p>En outre, vous devez disposer des autorisations pour afficher le programme, soit parce que vous l’avez créé, soit parce qu’il a été partagé avec vous.</p></td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si vous devez établir la formule ou le type de licence dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

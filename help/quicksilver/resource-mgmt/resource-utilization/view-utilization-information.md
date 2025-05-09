@@ -6,9 +6,9 @@ description: Vous pouvez voir l’utilisation de vos ressources dans le rapport 
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '7283'
+source-wordcount: '7285'
 ht-degree: 99%
 
 ---
@@ -453,7 +453,7 @@ Pour suivre la progression ou le coût d’un ou de plusieurs projets avec un ra
 
    * Pour afficher les informations d’utilisation d’un seul projet :
 
-      1. Accédez à un projet pour lequel vous souhaitez afficher les informations d’utilisation, puis cliquez sur **Afficher plus > Utilisation**.
+      1. Accédez au projet pour lequel vous souhaitez afficher des informations d’utilisation, puis cliquez sur **Utilisation** dans le panneau de gauche.
       1. Les informations d’utilisation s’affichent automatiquement lors de l’affichage d’un projet individuel, et l’application d’un filtre n’est pas obligatoire.\
          Si vous souhaitez filtrer le rapport d’utilisation, vous pouvez appliquer un filtre, puis cliquer sur **Exécuter**.\
          Pour plus d’informations sur le filtrage du rapport d’utilisation, consultez [Filtrer les informations d’utilisation](#filter-utilization-information) dans cet article.\

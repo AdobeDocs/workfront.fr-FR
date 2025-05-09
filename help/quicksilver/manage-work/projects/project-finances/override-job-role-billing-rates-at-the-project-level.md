@@ -6,9 +6,9 @@ description: En tant que personne gestionnaire de projet, vous pouvez spécifier
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '817'
 ht-degree: 96%
 
 ---
@@ -80,7 +80,7 @@ Vous pouvez remplacer le taux de facturation d’une fonction dans un projet des
 Pour remplacer un taux de facturation dans un projet, procédez comme suit :
 
 1. Accédez au projet dont vous souhaitez remplacer les taux de facturation.
-1. Cliquez sur **Taux de facturation** dans le panneau de gauche. Vous devrez peut-être d’abord cliquer sur **Afficher plus**.
+1. Cliquez sur **Taux de facturation** dans le panneau de gauche.
 1. Cliquez sur **Ajouter un taux de facturation** > **Nouveau taux de facturation**.
 
    La zone « Nouveau taux de facturation » apparaît.

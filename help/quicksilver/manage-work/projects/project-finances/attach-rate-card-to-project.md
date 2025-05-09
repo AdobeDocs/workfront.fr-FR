@@ -1,13 +1,13 @@
 ---
-title: Joindre une carte de taux à un projet
+title: Joindre une carte tarifaire à un projet
 description: Lorsque vous joignez une carte tarifaire à un projet, tous les rôles par emplacement et leurs taux de facturation associés sont ajoutés au projet.
 author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '400'
 ht-degree: 97%
 
 ---
@@ -53,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Accès en modification aux projets et aux données financières</p> <p>Accès administratif pour les rôles de tâche</p></td> 
+   <td> <p>Accès en modification aux projets et aux données financières</p> <p>Accès administratif aux fonctions</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -69,7 +69,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 ## Joindre une carte tarifaire à un projet
 
 1. Accédez au projet.
-1. Cliquez sur **Taux de facturation** dans le panneau de gauche. Vous devrez peut-être d’abord cliquer sur **Afficher plus**.
+1. Cliquez sur **Taux de facturation** dans le panneau de gauche.
 1. Cliquez sur **Ajouter un taux de facturation > Joindre une carte tarifaire**.
 
    La page Joindre une carte tarifaire s’ouvre. Pour plus d’informations, voir [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).

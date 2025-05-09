@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Création et gestion des profils de feuille de temps d’un groupe
+title: Créer et gérer des profils de feuilles de temps d’un groupe
 description: Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher et utiliser les profils de feuille de temps pour lesquels les administrateurs et administratrices du groupe, ou l’un de ses sous-groupes, disposent d’un accès administratif.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 98%
+source-wordcount: '367'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrat
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,17 +40,20 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
-  </tr> 
+   <td role="rowheader">Licence Adobe Workfront</td>
+   <td><p>Nouveau : Standard</p>
+       <p>Ou</p>
+       <p>Actuel : formule</p></td>
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice du groupe.</p>  <p>Vous devez également disposer d’un accès administratif aux feuilles de temps. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Accorder aux utilisateurs et aux utilisatrices un accès administratif à certaines zones</a>.</p>  <p><b>REMARQUE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td><p>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</p>
+   <p>Vous devez également disposer d’un accès administratif aux feuilles de temps.</p></td>
+  </tr>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 95%
+source-wordcount: '356'
+ht-degree: 90%
 
 ---
 
@@ -30,28 +30,34 @@ Pour plus d’informations sur les éléments restaurés, voir [Restaurer les é
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Vous devez faire partie de l’équipe d’administration de groupe pour le groupe ou de l’équipe d’administration Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Licence Adobe Workfront</td>
+   <td><p>Nouveau : Standard</p>
+       <p>Ou</p>
+       <p>Actuel : formule</p></td>
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Les éléments restaurés doivent être associés au groupe ou à l’un de ses sous-groupes. </p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td>
+   <td>Les éléments restaurés doivent être associés au groupe ou à l’un de ses sous-groupes.</td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si vous devez établir la formule ou le type de licence dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +79,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
    Chaque onglet répertorie les éléments du type d’objet correspondant qui appartiennent au groupe actif ou à ses sous-groupes et qui ont été restaurés au cours des 30 derniers jours.
 
-1. Effectuez l’une des opérations suivantes :
+1. Effectuez l’une des actions suivantes :
 
    <table style="table-layout:auto"> 
     <col> 

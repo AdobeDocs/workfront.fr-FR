@@ -7,10 +7,10 @@ description: Utilisez l’équilibreur de charge de travail pour planifier le tr
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 93%
+source-wordcount: '714'
+ht-degree: 92%
 
 ---
 
@@ -122,7 +122,7 @@ La page de votre équipe interne s’affiche.
 {{step1-to-projects}}
 
 1. Cliquez sur le nom d’un projet pour ouvrir la page du projet.
-1. Cliquez sur **Équilbreur de charge de travail** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis **Équilibreur de charge de travail**.
+1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
 
    L’équilibreur de charge de travail pour le projet s’affiche.
 

@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Présentation du remplacement des taux de facturation des rôles de tâche et du calcul des recettes sur un projet
+title: Présentation du remplacement des taux de facturation des fonctions et du calcul du revenu sur un projet
 description: Vous pouvez utiliser les taux de facturation pour calculer les revenus de vos projets lorsque vous les multipliez par les heures passées sur le projet. Pour plus d’informations sur les taux de facturation et les revenus, consultez l’article Vue d’ensemble de la facturation et des revenus.
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 99%
@@ -134,7 +134,7 @@ Pour plus d’informations sur la fonction utilisée pour calculer les revenus d
 <p>To override a billing rate for a project:</p>
 <ol>
 <li value="1">Go to the project you want to override billing rates for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. You might have to first click <strong>Show More</strong>. </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. </p> </li>
 <li value="3"> <p>Click <strong>Add Billing Rate</strong> > <strong>New Billing Rate</strong>.</p> <p>The New Billing Rate box opens</p> <p> <img src="assets/override-billing-rate-on-project-nwe-350x310.png" style="width: 350;height: 310;"> </p> <p> <br>The <strong>Default Billing Rate</strong> field displays the system-level rate for this job role.</p> </li>
 <li value="4">In the <strong>Job Role</strong> field, select the job role you want to change the billing rate for.<br></li>
 <li value="5">In the <strong>Billing Rates 1</strong> field, enter the one time billing rate override, then click <strong>Save</strong> to override the billing rate one time, <br>Or Click <strong>Add Rate</strong> to add more billing rate overrides.</li>
@@ -327,7 +327,7 @@ Tenez compte des éléments suivants lors du calcul des revenus prévus pour les
 
 * Le **Nombre d’heures prévues** est réparti uniformément sur la **Durée** de la tâche.
 
-* La **Durée** est la période de temps qui s’écoule entre la **Date de début prévue**&#x200B;**&#x200B;** et la **Date d’achèvement prévue** de la tâche. Comme la **Date de début prévue** et la **Date d’achèvement prévue** des tâches peuvent différer en fonction des fuseaux horaires des personnes qui visualisent la tâche, le nombre d’heures prévues par jour peut être différent pour deux personnes situées dans deux fuseaux horaires différents.
+* La **Durée** est la période de temps qui s’écoule entre la **Date de début prévue****** et la **Date d’achèvement prévue** de la tâche. Comme la **Date de début prévue** et la **Date d’achèvement prévue** des tâches peuvent différer en fonction des fuseaux horaires des personnes qui visualisent la tâche, le nombre d’heures prévues par jour peut être différent pour deux personnes situées dans deux fuseaux horaires différents.
 
 * Le nombre d’heures prévues par jour ne modifie pas les revenus prévus d’un projet si le taux de facturation de la fonction n’est pas modifié ou s’il n’y a qu’un seul remplacement du taux de facturation. Dans ce cas, même si deux personnes de deux fuseaux horaires différents voient des heures prévues par jour différentes, les revenus prévus globaux du projet sont identiques pour les deux personnes.
 

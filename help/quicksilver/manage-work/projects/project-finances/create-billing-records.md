@@ -5,9 +5,9 @@ description: En plus de définir les revenus et de suivre les dépenses, vous po
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1862'
 ht-degree: 98%
 
 ---
@@ -73,9 +73,6 @@ Tenez compte des éléments suivants lorsque vous envisagez d’utiliser les enr
 
 1. Accédez à un projet.
 1. Cliquez sur **Enregistrements de facturation** dans le panneau de gauche.
-
-   Cette section peut être située sous **Afficher plus**.
-
 1. Lorsque l’option **Détails de l’enregistrement de facturation** est sélectionnée dans le panneau de gauche, cliquez sur **Nouvel enregistrement de facturation**.
 1. Dans la zone **Nouvel enregistrement de facturation** qui s’affiche, spécifiez les informations suivantes :
 
@@ -164,11 +161,7 @@ Pour ajouter des heures facturables à un enregistrement de facturation :
 
 1. Accédez au projet contenant les enregistrements de facturation.
 1. Cliquez sur **Enregistrements de facturation** dans le panneau de gauche.
-
-   Cette section peut être située sous **Afficher plus**.
-
 1. Cliquez sur **Description** d’un enregistrement de facturation pour ouvrir l’onglet **Détails de l’enregistrement de facturation**.
-
 1. Cliquez sur **Heures facturables** dans le panneau de gauche.
 1. Si des heures peuvent être incluses dans un enregistrement de facturation, cliquez sur **Ajouter des heures**.\
    La boîte **Ajouter des heures facturables** s’ouvre.
@@ -191,11 +184,7 @@ Pour ajouter des frais facturables à un enregistrement de facturation, procéde
 
 1. Accédez au projet contenant les enregistrements de facturation.
 1. Cliquez sur **Enregistrements de facturation** dans le panneau de gauche.
-
-   Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Enregistrements de facturation**.
-
 1. Cliquez sur **Description** pour un enregistrement de facturation afin d’ouvrir l’onglet **Détails de l’enregistrement de facturation**.
-
 1. Cliquez sur **Frais facturables** dans le panneau de gauche.
 1. (Le cas échéant) Si vous avez ajouté des frais à vos tâches ou au projet et que vous les avez marqués comme facturables, cliquez sur **Ajouter des frais**.
 
@@ -216,11 +205,7 @@ Pour ajouter des revenus fixes à un enregistrement de facturation, procédez co
 
 1. Accédez au projet contenant les enregistrements de facturation.
 1. Cliquez sur **Enregistrements de facturation** dans le panneau de gauche.
-
-   Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Enregistrements de facturation**.
-
 1. Cliquez sur **Description** pour un enregistrement de facturation afin d’ouvrir l’onglet **Détails de l’enregistrement de facturation**.
-
 1. Sélectionnez l’onglet **Revenus fixes**.
 1. Si vous avez ajouté des revenus fixes à vos tâches, cliquez sur **Ajouter des revenus fixes**.
 
@@ -272,4 +257,4 @@ Après avoir créé un enregistrement de facturation et inclus les heures, les f
      Included Hourly Revenue (Billable Hours) + Included Expenses (Billable Expenses) + Included Fixed Revenue (Billable Revenues) + Fixed Amount for Other Billable Items (Additional Amount)
      ```
 
-1. Cliquez sur **Enregistrer**&#x200B;**les modifications**.
+1. Cliquez sur **Enregistrer****les modifications**.

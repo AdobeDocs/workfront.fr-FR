@@ -6,10 +6,10 @@ description: Le processus de création et de gestion des dépenses est le même 
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '544'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -58,14 +58,13 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 ## Ajouter des frais
 
 1. Accédez au projet pour lequel vous souhaitez saisir des dépenses.\
-   Si vous souhaitez ajouter des dépenses à une tâche, accédez plutôt à une tâche. 
-1. Cliquez sur **Afficher plus**, puis sur **Dépenses**.
+   Si vous souhaitez ajouter des dépenses à une tâche, accédez plutôt à une tâche.
+1. Cliquez sur **Dépenses** dans le panneau de gauche.
 1. Cliquez sur **Ajouter une dépense**.
 La boîte de dialogue **Ajouter une dépense** s’affiche.
 1. Mettez à jour les informations suivantes :
 
    * **Description :** description de la dépense.
-
    * **Type de dépense :** (obligatoire) sélectionnez la catégorie qui décrit le mieux la dépense.
    * **Tâche :** commencez à saisir le nom de la tâche à laquelle cette dépense est associée, puis cliquez dessus lorsqu’elle apparaît dans la liste déroulante.
    * **Montant prévu :** montant budgété prévu pour la dépense.\
@@ -87,7 +86,6 @@ La boîte de dialogue **Ajouter une dépense** s’affiche.
 ## Supprimer des dépenses
 
 1. Accédez au projet dans lequel vous souhaitez supprimer des dépenses.
-1. Cliquez sur **Afficher plus**, puis cliquez sur **Dépenses**.
+1. Cliquez sur **Dépenses** dans le panneau de gauche.
 1. Sélectionnez les dépenses que vous souhaitez supprimer, puis cliquez sur **Supprimer** ![Supprimer](assets/delete.png).
-
 1. Cliquez sur **Oui, supprimer** pour confirmer la suppression.

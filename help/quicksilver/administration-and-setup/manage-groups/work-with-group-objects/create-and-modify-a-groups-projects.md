@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 92%
+source-wordcount: '466'
+ht-degree: 89%
 
 ---
 
@@ -29,32 +29,39 @@ S’il existe des groupes au-dessus de votre groupe, leurs administrateurs et ad
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td >Plan Workfront</a>*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td>Licence Adobe Workfront</a>*</td> 
-   <td> <p>Plan </p> <p>Vous devez faire partie de l’équipe d’administration de groupe pour le groupe ou de l’équipe d’administration Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Licence Adobe Workfront</td>
+   <td><p>Nouveau : Standard</p>
+       <p>Ou</p>
+       <p>Actuel : formule</p></td>
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td>
    <td> 
     <ul> 
      <li> <p>Le projet doit être associé au groupe ou à l’un de ses sous-groupes. </p> <p>Pour plus d’informations sur l’affectation d’un groupe à un projet, voir <a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">Gérer les informations dans la zone Vue d’ensemble du projet</a>.</p> </li> 
-     <li> <p>En outre, vous devez avoir l’autorisation de modifier le projet, soit parce que vous l’avez créé, soit parce qu’il a été partagé avec vous.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </li> 
-    </ul> <p><b>NOTE</b> : lorsque vous créez un projet à partir de la page d’un groupe, le système assigne le projet à ce groupe. Cela diffère de la création d’un projet dans d’autres domaines de Workfront, où le système assigne le projet au groupe principal de la personne qui l’a créé (la personne propriétaire du projet).</p> </td> 
+     <li> <p>En outre, vous devez avoir l’autorisation de modifier le projet, soit parce que vous l’avez créé, soit parce qu’il a été partagé avec vous.</p></li> 
+    </ul>
+    <p><b>NOTE</b> : lorsque vous créez un projet à partir de la page d’un groupe, le système assigne le projet à ce groupe. Cela diffère de la création d’un projet dans d’autres domaines de Workfront, où le système assigne le projet au groupe principal de la personne qui l’a créé (la personne propriétaire du projet).</p> </td>
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si vous devez déterminer le forfait ou le type de licence dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
