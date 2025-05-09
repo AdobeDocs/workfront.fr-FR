@@ -257,4 +257,4 @@ Après avoir créé un enregistrement de facturation et inclus les heures, les f
      Included Hourly Revenue (Billable Hours) + Included Expenses (Billable Expenses) + Included Fixed Revenue (Billable Revenues) + Fixed Amount for Other Billable Items (Additional Amount)
      ```
 
-1. Cliquez sur **Enregistrer****les modifications**.
+1. Cliquez sur **Enregistrer**&#x200B;**les modifications**.
