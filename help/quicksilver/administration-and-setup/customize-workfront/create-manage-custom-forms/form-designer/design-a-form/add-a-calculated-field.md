@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 90%
+source-wordcount: '2434'
+ht-degree: 80%
 
 ---
 
 # Ajout de champs calculés à un formulaire
+
+<!-- Audited: 5/2025 -->
 
 Vous pouvez ajouter un champ personnalisé calculé qui utilise les données existantes pour générer de nouvelles données lorsque le formulaire personnalisé est associé à un objet.
 
@@ -77,7 +79,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Vous pouvez utiliser le même champ personnalisé calculé sur les formulaires personnalisés appartenant à des objets différents. Par exemple, vous pouvez utiliser le champ calculé Profit que vous avez créé pour le formulaire personnalisé du projet sur un formulaire personnalisé de tâche.
 
-Lorsque vous utilisez un champ personnalisé calculé existant, le calcul n’est pas transféré vers le nouveau formulaire. Vous devez ajouter le calcul, sur le même champ, sur le nouveau formulaire personnalisé.
+Lors de l’utilisation d’un champ personnalisé calculé existant, le calcul n’est pas transféré vers le nouveau formulaire. Vous devez ajouter à nouveau le calcul dans le même champ du nouveau formulaire personnalisé.
 
 Vous pouvez également avoir un calcul différent pour le même champ, sur le nouveau formulaire. Le fait de conserver le même nom pour le champ personnalisé calculé garantit la cohérence de votre convention de nommage.
 
@@ -93,15 +95,15 @@ Pour réutiliser un champ personnalisé calculé existant :
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Formulaires personnalisés** dans le panneau de gauche.
+1. Dans le volet de gauche, cliquez sur **Custom Forms**, puis sur **Forms**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
 1. Cliquez sur **Nouveau formulaire personnalisé**.
-1. Sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 
+1. Dans la boîte de dialogue **Nouveau formulaire personnalisé**, sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 1. Dans le coin supérieur gauche de l’écran, cliquez sur **Bibliothèque de champs**.
 
    ![ Bibliothèque de champs ](assets/field-library.png)
@@ -127,18 +129,19 @@ Pour réutiliser un champ personnalisé calculé existant :
 
 >[!IMPORTANT]
 >
->Avant de créer un nouveau champ personnalisé calculé, identifiez les champs existants que vous souhaitez inclure afin de vous assurer que les données nécessaires au calcul sont présentes dans Workfront.
+>Avant de créer un champ personnalisé calculé, identifiez les champs existants que vous souhaitez inclure afin de vous assurer que les données nécessaires au calcul sont présentes dans Workfront.
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Formulaires personnalisés** dans le panneau de gauche.
+1. Dans le volet de gauche, cliquez sur **Custom Forms**, puis sur **Forms**.
+
+1. Cliquez sur **Nouveau formulaire personnalisé**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Cliquez sur **Nouveau formulaire personnalisé**.
-1. Sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
+1. Dans la boîte de dialogue **Nouveau formulaire personnalisé**, sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 
 1. Dans la partie gauche de l’écran, recherchez **Calculé** et faites-le glisser vers une section de la zone de travail.
 
@@ -166,9 +169,9 @@ Pour réutiliser un champ personnalisé calculé existant :
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Le format dans lequel vous souhaitez que les résultats du champ soient stockés et affichés.</p> <p>Si le champ sera utilisé dans les calculs mathématiques, utilisez toujours un format <strong>Nombre</strong> ou <strong>Devise</strong>. Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</p> 
-      <p><b>IMPORTANT</b> : avant de choisir un format, tenez compte du format correct pour le nouveau champ. Une fois le formulaire personnalisé enregistré, le champ de format ne peut plus être modifié. Sélectionner le mauvais format peut avoir une incidence sur les calculs futurs et les valeurs agrégées dans les regroupements de rapports et de listes.</p>
-      <p><strong>NOTE :</strong> les champs calculés avec un format de devise ne doivent pas inclure de guillemets. (Par exemple, utilisez 800 000 au lieu de « 800,00 ».) L’utilisation de guillemets peut entraîner des conséquences inattendues en raison de nuances liées au formatage de la langue pour les types de devise.</p></td>
+      <td> <p>Le format dans lequel vous souhaitez que les résultats du champ soient stockés et affichés.</p> <p>Si le champ sera utilisé dans les calculs mathématiques, utilisez toujours un format <strong>Nombre</strong> ou <strong>Devise</strong>. Lorsque vous sélectionnez <strong>Nombre</strong> ou <strong>Devise</strong>, le système tronque automatiquement les nombres qui commencent par 0.</p> 
+      <p><b>IMPORTANT</b> : avant de choisir un format, tenez compte du format correct pour le nouveau champ. Le champ de format ne peut pas être modifié une fois le formulaire personnalisé enregistré. Sélectionner le mauvais format peut avoir une incidence sur les calculs futurs et les valeurs agrégées dans les regroupements de rapports et de listes.</p>
+      <p><strong>REMARQUE </strong> : les champs calculés au format <strong>Devise</strong> ne doivent pas contenir de guillemets. (Par exemple, utilisez 800 000 au lieu de « 800,00 ».) L’utilisation de guillemets peut entraîner des conséquences inattendues en raison de nuances liées au formatage de la langue pour les types de devise.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -295,7 +298,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
       >
       >Vous pouvez effectuer l’une des opérations suivantes pour obtenir de l’aide sur votre calcul :
       > 
-      >* Pointez sur une expression de votre calcul pour afficher une description, un exemple illustrant son utilisation et un lien « En savoir plus » pour plus d’informations dans l’article [Vue d’ensemble des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Pointez sur une expression dans votre calcul pour afficher une description, un exemple montrant comment elle peut être utilisée et un lien **En savoir plus** vers des informations supplémentaires dans l’article [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![Texte d’aide de l’expression](assets/hover-expression-help-text.jpg)
       >* Utilisez les codes de couleurs pour identifier les composants que vous avez ajoutés. Les expressions s’affichent en bleu et les champs en vert.
       >  ![Couleurs des expressions de champ](assets/colors-fields-expressions.jpg)
@@ -317,7 +320,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
     <tbody> 
      <tr> 
       <td role="rowheader">Ajouter une logique</td> 
-      <td>Vous pouvez ajouter la logique d’affichage pour déterminer si le champ calculé s’affiche en fonction d’au moins un choix effectué par une personne dans un champ à choix multiples précédent (liste déroulante, cases à cocher ou boutons radio) lors du remplissage du formulaire. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>Cette option est disponible uniquement lorsqu’au moins une case à cocher, un bouton radio ou un champ déroulant précède le champ personnalisé calculé sur le formulaire. </p> <p>La fonction Ignorer la logique n’est pas disponible pour les champs personnalisés calculés.</p> </td> 
+      <td>Vous pouvez ajouter la logique d’affichage pour déterminer si le champ calculé s’affiche, en fonction d’au moins un choix effectué par un utilisateur dans un champ à choix multiples précédent (liste déroulante, cases à cocher ou boutons radio) lors du remplissage du formulaire. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>Cette option est disponible uniquement lorsqu’au moins une case à cocher, un bouton radio ou un champ déroulant précède le champ personnalisé calculé sur le formulaire. </p> <p>La fonction Ignorer la logique n’est pas disponible pour les champs personnalisés calculés.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mettre à jour des calculs précédents</td> 

@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c02c5173626857b279b20ebe2784f8d81b1a1fcc
+source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
 workflow-type: tm+mt
-source-wordcount: '13189'
+source-wordcount: '13194'
 ht-degree: 88%
 
 ---
@@ -409,7 +409,7 @@ ht-degree: 88%
    * Configuration de Workfront {#set-up-wf}
       * [Configuration](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * Configurer les paramètres système par défaut {#configure-system-defaults}
-         * [Configurer des valeurs par défaut](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+         * [Configurer les paramètres par défaut du système : index d’article](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [Configurer des préférences de projet](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
          * [Configurer les préférences de tâches et problèmes](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
          * [Verrouiller des préférences de projet pour les groupes](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
@@ -1462,7 +1462,7 @@ ht-degree: 88%
       * [Vue d’ensemble de la délégation des tâches et des problèmes](manage-work/delegate-work/delegate-work-overview.md)
       * [Déléguer des tâches et problèmes](manage-work/delegate-work/how-to-delegate-work.md)
 * Équipes et groupes {#teams-groups}
-   * [Équipes et groupes](people-teams-and-groups/people-teams-and-groups.md)
+   * [Équipes et groupes : index des articles](people-teams-and-groups/people-teams-and-groups.md)
    * Créer et gérer des équipes {#create-manage-teams}
       * [Créer et gérer des équipes](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
       * [Vue d’ensemble des équipes](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
