@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Afficher et gérer les éléments récemment restaurés d'un groupe
 description: Lorsque vous affichez un groupe que vous gérez dans la zone Groupes , vous pouvez afficher, filtrer, regrouper et restaurer ses éléments de travail, documents et modèles récemment restaurés.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 90%
