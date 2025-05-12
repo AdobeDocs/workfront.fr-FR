@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 43%
+source-wordcount: '1438'
+ht-degree: 46%
 
 ---
 
@@ -22,6 +22,38 @@ Un champ de recherche externe dans un formulaire personnalisé appelle une API e
 Cet article fournit des exemples d’utilisation du champ Recherche externe pour appeler la même instance de Workfront ou une API publique. Vous pouvez également utiliser la recherche externe pour communiquer avec un système externe tel que Jira, Salesforce ou ServiceNow.
 
 Pour plus d’informations sur l’ajout d’un champ Recherche externe à un formulaire personnalisé et des définitions supplémentaires des composants de recherche externe, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Formule Adobe Workfront </td> 
+   <td>Tous</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+   <p>Nouveau : Standard</p>
+   <p>ou</p>
+   <p>Actuel : formule</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Accès administratif aux formulaires personnalisés </td> 
+  </tr>  
+ </tbody> 
+</table>
+
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configurer un champ de recherche externe pour la même instance de Workfront
 

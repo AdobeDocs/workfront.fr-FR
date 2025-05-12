@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 66%
+source-wordcount: '1694'
+ht-degree: 65%
 
 ---
 
@@ -237,6 +237,8 @@ IF({DE:Budget Field} < 0,
 Un autre exemple simple est qu’un champ de numéro de téléphone doit contenir un certain nombre de chiffres pour être valide.
 
 Un autre exemple de validation basée sur d’autres champs est un champ pour la taille de la salle de réunion (petite, moyenne ou grande) et un champ distinct pour le nombre de participants à la réunion. Le nombre de personnes pour chaque taille de chambre est écrit dans la formule de validation. Si le nombre de participants que l&#39;utilisateur entre est trop élevé pour la salle de réunion choisie, le message d&#39;erreur s&#39;affiche.
+
+Pour obtenir d’autres exemples de logique de validation, voir [Exemples de logique avancée dans les formulaires personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md).
 
 ### Définition de la logique de validation
 
