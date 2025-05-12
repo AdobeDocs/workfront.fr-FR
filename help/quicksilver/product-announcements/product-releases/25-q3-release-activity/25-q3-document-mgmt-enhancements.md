@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,14 @@ Cette page décrit toutes les améliorations apportées à la gestion des docume
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du troisième trimestre 2025, consultez la [Vue d’ensemble de la version du troisième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
->[!IMPORTANT]
->
->Les fonctionnalités répertoriées sur cette page font partie d’une version par étapes et ne sont disponibles que pour des clients spécifiques.
+## Mise à jour du lecteur de vérification pour bureau
+
+Le lecteur de vérification pour bureau a été mis à jour vers la version 2.1.48.
+
+Cette mise à jour est un correctif destiné à maintenir la compatibilité de la visionneuse Desktop avec les systèmes d’exploitation Mac. L&#39;électron a été rétrogradé à 34,4,0 et le chrome à 132.
+
+Cette mise à jour concerne Mac et Windows.
+
 
 ## Assets dans un dossier Google lié doit être ajouté individuellement pour apparaître dans Workfront
 
@@ -43,6 +48,10 @@ Fonctionnalités clés qui restent inchangées :
 
 
 ## Nouveaux boutons de décision d’approbation de document disponibles dans le lecteur de vérification
+
+>[!IMPORTANT]
+>
+>Cette fonctionnalité fait partie d’une mise à jour par phases et n’est disponible que pour des clients spécifiques.
 
 >[!NOTE]
 >

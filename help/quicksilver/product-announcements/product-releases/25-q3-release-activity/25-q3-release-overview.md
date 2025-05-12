@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 38%
+source-wordcount: '758'
+ht-degree: 36%
 
 ---
 
@@ -56,6 +56,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Mise à jour du lecteur de vérification pour bureau </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Cette mise à jour est un correctif destiné à maintenir la compatibilité de la visionneuse Desktop avec les systèmes d’exploitation Mac. L'électron a été rétrogradé à 34,4,0 et le chrome à 132.</p>
+        </td>
+        <td>jeudi 7 mai 2025</td>
+        <td>jeudi 7 mai 2025</td>
+        <td>jeudi 7 mai 2025</td>
+    </tr> 
       <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets dans un dossier Google lié doit être ajouté individuellement pour apparaître dans Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -170,7 +179,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Améliorations de Workfront Fusion
 
-De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations apportées à Workfront Planning
 
@@ -192,7 +201,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
