@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: a5769e57a9fe28b816e7fb4474ec4a67f837f530
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Pour plus d’informations sur les points d’entrée utilisés pour mettre à n
 >
 >* **Version 25.2** (10 avril 2025) : tous les nouveaux abonnements créés après la version 25.2 sont créés en tant que version 2.
 >* Version **25.3** (17 juillet 2025) : les abonnements ne peuvent plus être rétrogradés à la version 1 après la version 25.3.
->* **1er septembre 2025** : tous les abonnements restants de la version 1 sont migrés vers la version 2.
+>* **15 janvier 2026** : tous les abonnements restants de la version 1 sont migrés vers la version 2.
 
 ## Modifications entre les versions 1 et 2
 
@@ -256,4 +256,4 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
 
 Workfront Fusion utilise les abonnements aux événements pour surveiller les modifications dans Workfront afin de déclencher des scénarios. Vous pouvez mettre à jour la version d’abonnement aux événements que Fusion utilise directement dans un scénario, à l’aide du module Workfront > Mettre à jour la version de la payload des événements .
 
-Pour obtenir des instructions sur l’utilisation de ce module, voir [Modules Workfront](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) dans la documentation de Workfront Fusion.
+Pour obtenir des instructions sur l’utilisation de ce module, voir [Modules Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) dans la documentation de Workfront Fusion.

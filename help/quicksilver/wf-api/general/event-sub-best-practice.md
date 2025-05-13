@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 97%
 
 ---
 
@@ -42,15 +42,13 @@ Assurez-vous que votre point d’entrée pour l’abonnement est conforme aux ex
 
 Pour que votre pare-feu ne bloque pas les payloads d’abonnement aux événements, vous devez ajouter les adresses IP à la liste autorisée par région globale. Pour en savoir plus, consultez [API d’abonnement aux événements](../../wf-api/general/event-subs-api.md).
 
-## Avoir un niveau d’accès et une clé API appropriés
+## Disposer du niveau d’accès et de l’authentification appropriés
 
 Pour créer, interroger ou supprimer un abonnement à un événement, votre utilisateur ou utilisatrice Workfront a besoin des éléments suivants :
 
 * Un niveau d’accès **Administrateur ou administratrice système**
 Pour en savoir plus, consultez [Attribuer un accès administratif complet à un utilisateur ou une utilisatrice](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) ou [Attribuer aux utilisateurs et utilisatrices un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* Une clé API
+* Un en-tête `sessionID` est requis pour utiliser l’API d’abonnement aux événements.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
-  -->
+  Pour plus d’informations, consultez la section [Authentification](api-basics.md#authentication) dans [Concepts de base de l’API](api-basics.md).
