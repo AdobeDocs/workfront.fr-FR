@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '2878'
-ht-degree: 53%
+source-wordcount: '2946'
+ht-degree: 51%
 
 ---
 
@@ -171,7 +171,7 @@ Pour gérer une vue chronologique :
 
 1. (Facultatif) Cliquez sur **Répartition** pour afficher les enregistrements connectés sur le journal.
 
-   Pour plus d’informations, consultez la section [Utilisation de la fonction Répartition pour afficher les enregistrements connectés dans la vue chronologique](#break-down-connected-records-in-the-timeline-view)
+   Pour plus d’informations, reportez-vous à la section [Utilisation de la fonction Répartition pour afficher les enregistrements connectés en mode Chronologie](#break-down-connected-records-in-the-timeline-view) de cet article.
 
 ### Ajouter des filtres
 
@@ -266,15 +266,22 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
 1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 1. Cliquez sur **Paramètres**.
-1. Cliquez sur **Date et heure** dans le panneau de gauche, puis sélectionnez une **Date de début** et une **Date de fin** à afficher sur la chronologie. Vous pouvez choisir les dates de début et de fin par défaut ou n’importe quel champ de date disponible. Les barres représentant les enregistrements commencent à la date que vous indiquez pour la date de début et se terminent à la date correspondant à la date de fin.
+1. Cliquez sur **Date et heure** dans le panneau de gauche, puis sélectionnez une **Date de début** et une **Date de fin** à afficher sur la chronologie. Vous pouvez choisir les dates de début et de fin par défaut, ou tout champ de date disponible.
+
+   Les barres représentant les enregistrements commencent à la date que vous indiquez pour la date de début et se terminent à la date correspondant à la date de fin.
 
    >[!NOTE]
    >
-   >Les enregistrements qui n’ont pas de valeurs pour les dates de début ou de fin ou dont la date de début est postérieure à la date de fin ne s’affichent pas dans la vue chronologique.
+   >* Les enregistrements qui n’ont pas de valeurs pour les dates de début ou de fin ou dont la date de début est postérieure à la date de fin ne s’affichent pas dans la vue chronologique.
+   >
+   >* Si vous affichez des enregistrements supplémentaires à l&#39;aide de l&#39;option Répartition , les dates de Début et de Fin sont celles de l&#39;enregistrement principal. Vous ne pouvez pas choisir les dates de début et de fin pour les enregistrements connectés dans cette zone.
 
 1. Cliquez sur **Style de barre** dans le panneau de gauche pour indiquer les informations à afficher sur les barres d’enregistrement.
 
-   Le champ principal (ou titre) de l&#39;enregistrement, tel que défini dans la vue Tableau de l&#39;enregistrement, est sélectionné par défaut. <!--adjust this when the primary field is released??-->
+   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+
+   Le champ principal (ou titre) de l&#39;enregistrement, tel que défini dans la vue Tableau de l&#39;enregistrement, est sélectionné par défaut.
+   <!--adjust this when the primary field is released??-->
 
 1. (Facultatif et le cas échéant) Si vous avez ajouté des miniatures aux enregistrements, sélectionnez l’option Miniature pour afficher l’image associée aux enregistrements dans leur barre d’enregistrement.
 
@@ -306,10 +313,13 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
    >
    >* <span class="preview">Si vous répartissez la vue chronologique pour afficher les objets connectés, le paramètre Tronquer les détails de la barre s’applique uniquement au type d’enregistrement principal. Elle ne s’applique pas aux barres d’enregistrement connectées.</span>
 
+   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Cliquez sur **Couleur** dans le panneau de gauche pour personnaliser les couleurs des enregistrements et des regroupements dans la chronologie.
 
    ![Vue chronologique de l’onglet Couleur](assets/color-tab-timeline-view.png)
+
+   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
 
 1. (Le cas échéant et facultatif) Si vous avez ajouté un regroupement à la vue chronologique, sélectionnez l’une des options suivantes pour définir une couleur pour le regroupement dans la section **Définir la couleur du regroupement** :
 
@@ -348,9 +358,13 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    Si vous n’avez pas de champ avec des options codées par couleur pour le type d’enregistrement sélectionné, cette option est grisée.
 
+   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+
 1. Cliquer sur **Enregistrer**.
 
    Les enregistrements s’affichent dans la vue chronologique avec les spécifications que vous avez sélectionnées.
+
+
 
 ### Répartir les enregistrements connectés dans la vue chronologique
 
@@ -359,6 +373,7 @@ Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&
 #### Remarques concernant l’utilisation de la fonction Répartition
 
 * Vous pouvez afficher les enregistrements ou les objets connectés sous les enregistrements du type d&#39;enregistrement sélectionné dans la vue chronologique.
+* Vous ne pouvez afficher les enregistrements connectés en mode Chronologie que lorsque vous affichez les enregistrements en mode Standard. Vous ne pouvez pas utiliser l’option Répartition en mode Compact de la vue chronologique.
 * Vous pouvez afficher les éléments suivants dans la vue Chronologie à l’aide de la fonction Répartition :
    * Enregistrements Workfront Planning connectés au type d&#39;enregistrement sélectionné.
    * Types d’objet Workfront ou ressources Experience Manager connectées au type d’enregistrement sélectionné.

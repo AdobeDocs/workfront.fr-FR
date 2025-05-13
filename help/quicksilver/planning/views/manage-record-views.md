@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 51%
+source-wordcount: '1508'
+ht-degree: 50%
 
 ---
 
@@ -41,7 +41,7 @@ Cet article présente les informations suivantes sur les vues d’enregistrement
 
 * [Créer et modifier une vue](#create-or-edit-record-views)
 * [Supprimer une vue](#delete-views)
-* [Dupliquer une vue](#duplicate-views)
+* [Dupliquer une vue](#duplicate-a-view)
 * [Activer les indicateurs de présence en temps réel dans une vue](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
