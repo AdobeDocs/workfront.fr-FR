@@ -8,10 +8,10 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 97%
+source-wordcount: '879'
+ht-degree: 94%
 
 ---
 
@@ -70,7 +70,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
      </tr> 
      <tr> 
       <td role="rowheader">La personne chargée de l’approbation n’a pas besoin de faire partie de l’équipe du projet (quand un processus d’approbation comprend un rôle).</td> 
-      <td> <p>Sélectionnez cette option s’il n’est pas nécessaire d’inclure un approbateur ou une approbatrice dans l’équipe du projet lorsqu’un processus d’approbation comprend un rôle. Lorsque vous attribuez la décision d’approbation à une fonction, seuls les utilisateurs et utilisatrices auxquels un rôle est associé dans le projet voient l’approbation. Si vous activez ce paramètre, toute personne disposant de cette fonction reçoit la demande d’approbation, qu’elle fasse ou non partie de l’équipe de projet. Pour plus d’informations sur la modification du rôle de projet d’un utilisateur ou d’une utilisatrice, voir <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Gérer l’équipe de projet</a>. </p> 
+      <td> <p>Sélectionnez cette option s’il n’est pas nécessaire d’inclure un approbateur ou une approbatrice dans l’équipe du projet lorsqu’un processus d’approbation comprend un rôle. Tout utilisateur disposant de cette fonction reçoit la demande d’approbation, qu’il fasse partie ou non de l’équipe du projet, bien que l’accès au projet ne lui soit pas automatiquement accordé. Pour plus d’informations sur la modification du rôle de projet d’un utilisateur ou d’une utilisatrice, voir <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Gérer l’équipe de projet</a>. </p> 
       <p><b>CONSEIL</b> : lorsque vous affectez une approbation à un rôle et que l’option <b>La personne chargée de l’approbation n’a pas besoin de faire partie de l’équipe du projet (quand un processus d’approbation comprend un rôle)</b> est désactivée, mais qu’aucun rôle de l’équipe de projet ne correspond au rôle de l’approbation, l’approbation est réattribuée à la personne propriétaire du projet. </p> </td> 
      </tr> 
      <tr> 
