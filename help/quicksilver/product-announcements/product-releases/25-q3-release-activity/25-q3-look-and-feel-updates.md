@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
+source-git-commit: 564d9b6ba81093caf7ac897ef785120f3bc85d07
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 18%
+source-wordcount: '592'
+ht-degree: 17%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 18%
 Cette page décrit les mises à jour mineures apportées à l’apparence et à la convivialité de diverses zones de l’application Adobe Workfront dans le cadre des versions publiées au cours du troisième trimestre 2025.
 
 Pour obtenir la liste de toutes les modifications apportées par la version du troisième trimestre 2025, consultez l’article [Vue d’ensemble de la version du troisième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+
+
+## Modernisation des interfaces
+
+Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobe. Ces modifications sont publiées en dehors du planning de publication standard. Pour obtenir la liste de ces modifications, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ## Mise à jour de l’apparence pour les options du menu Plus pour les commentaires
 
