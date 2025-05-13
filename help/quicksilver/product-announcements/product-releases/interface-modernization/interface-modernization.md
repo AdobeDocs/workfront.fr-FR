@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 454877e742420c3bc289adf6b2cb1d692fc4fe95
+source-git-commit: 8e8a10d375e721199c5f81f425178a7bae0bf0c0
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2365'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Nous avons mis à jour la page que vous utilisez pour accorder l’accès à l�
 
 ## Administration et configuration
 
-+++Développez pour afficher les mises à jour de l’interface Administration et Configuration.
++++Développez pour afficher les mises à jour de l’interface Administration et configuration effectuées au 2e trimestre
 
 ### Mise à jour de l’interface pour le Centre d’annonces
 
@@ -174,7 +174,7 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 ## Agile
 
-+++Développer pour afficher les mises à jour de l’interface Agile
++++Développez pour afficher les mises à jour de l’interface Agile effectuées au 2e trimestre.
 
 ### Mises à jour des interfaces pour les demandes des équipes
 
@@ -244,7 +244,7 @@ Pour afficher cette modification, accédez à Équipes > choisir une équipe > L
 
 Nous avons mis à jour la boîte de dialogue de partage pour permettre aux utilisateurs de partager des documents avec des utilisateurs externes à l’aide d’une adresse e-mail. Cette fonctionnalité était temporairement indisponible en raison du travail de modernisation de l’interface.
 
-+++Développer pour afficher plus de mises à jour de l’interface Documents
++++Développer pour afficher les mises à jour de l’interface Documents effectuées au 2e trimestre
 
 ### Mises à jour de l’interface lors de la demande d’un document
 
@@ -284,17 +284,17 @@ Pour afficher cette modification, accédez à Documents > Cliquez sur le menu Pl
 
 ## Rapports et tableaux de bord
 
++++Développez pour afficher les mises à jour de l’interface Rapports et tableaux de bord effectuées au 2e trimestre.
+
 ### Mise à jour du rapport Niveau d&#39;accès avec un nouveau style
 
-**Version préliminaire : à déterminer ; Version de production : à partir de la semaine du 6 février 2025**
+**Version préliminaire : 30 janvier 2024 ; Version de production : à partir de la semaine du 6 février 2025**
 
 Nous avons mis à jour le rapport Niveau d’accès avec une conception plus moderne et cohérente avec les autres aspects de Workfront.
 
 Cette mise à jour inclut des modifications visuelles du rapport. Aucune fonctionnalité n’a été modifiée.
 
 Pour créer un rapport d&#39;équipe, accédez à Rapports > Nouveau rapport > Niveau d&#39;accès.
-
-+++Développez pour afficher plus de mises à jour de l’interface Rapports et tableaux de bord.
 
 ### Mise à jour du rapport d’équipe avec un nouveau style
 
