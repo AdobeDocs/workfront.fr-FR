@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
+source-git-commit: 454877e742420c3bc289adf6b2cb1d692fc4fe95
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,13 @@ Nous avons mis à jour la zone de Recherche avancée avec les modifications suiv
 
 * Ajout d’un nouvel onglet Recherche complète . Dans cet onglet, vous pouvez effectuer une recherche par type, par saisie, par date d&#39;entrée, par catégorie et par date de la dernière mise à jour.
 * Le filtre de l’onglet Recherche avancée est légèrement différent. Désormais, le filtre n’est pas prérempli. Vous devez l’activer et créer le filtre à partir de zéro. Le filtre n’est pas conservé si la page est actualisée.
+* La recherche avancée s’affiche désormais en plein écran. Vous devez quitter la page plutôt que de fermer la boîte de dialogue.
 
 Pour plus d’informations, voir [Recherche [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ### Mise à jour de l’interface pour accorder l’accès au support à votre compte Workfront
 
-**Version préliminaire : 24 avril ; Version de production : à annoncer**
+**Version préliminaire : 24 avril ; Version de production : à partir du 1er mai 2024**
 
 Nous avons mis à jour la page que vous utilisez pour accorder l’accès à l’assistance à votre compte Workfront avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -237,7 +238,13 @@ Pour afficher cette modification, accédez à Équipes > choisir une équipe > L
 
 ## Documents
 
-+++Développer pour afficher les mises à jour de l’interface Documents
+### Partager un document avec une adresse e-mail externe
+
+**Version préliminaire : 15 mai 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour la boîte de dialogue de partage pour permettre aux utilisateurs de partager des documents avec des utilisateurs externes à l’aide d’une adresse e-mail. Cette fonctionnalité était temporairement indisponible en raison du travail de modernisation de l’interface.
+
++++Développer pour afficher plus de mises à jour de l’interface Documents
 
 ### Mises à jour de l’interface lors de la demande d’un document
 
@@ -345,6 +352,22 @@ Nous avons ajouté un nouveau bouton Modifier le mode Texte et modifié la boît
 +++
 
 ## Utilisateurs
+
+### Mise à jour de la recherche de la page de connexion
+
+**Version préliminaire : 15 mai 2024 ; Version de production : à annoncer**
+
+Nous avons mis à jour la page de connexion avec un design plus moderne et cohérent avec les autres zones de Workfront.
+
+### Mise à jour de la recherche de la page de réinitialisation du mot de passe
+
+**Version préliminaire : 15 mai 2024 ; Version de production : à annoncer**
+
+Nous avons mis à jour l’écran de réinitialisation du mot de passe avec une conception plus moderne et cohérente avec les autres zones de Workfront. Cette mise à jour comprend des mises à jour des pages suivantes :
+
+* Mot de passe presque expiré
+* Mot de passe expiré
+* Mot de passe temporaire
 
 ### Mise à jour de la page de partage de documents pour les utilisateurs externes
 
