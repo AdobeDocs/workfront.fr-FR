@@ -7,16 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '3824'
+source-wordcount: '3819'
 ht-degree: 84%
 
 ---
 
 # Enregistrer des heures
 
-<!--Audited: 12/2023-->
+<!--Audited: 5/2025-->
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
@@ -41,11 +41,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau :</p>
-   <ul><li><p> Léger ou supérieur pour enregistrer des heures sur une tâche, un événement ou des heures générales sur une feuille de temps</p>
-   <li><p>Standard pour enregistrer des heures sur des projets</p></li></ul>
-   <p>
-   <p>Actuel : 
+   <td> <p>Nouveau : léger ou supérieur pour saisir des heures sur un projet, une tâche, un problème ou des heures générales sur une feuille de temps</p>
+
+<p>Actuel : 
    <ul><li>Autorisations Réviser ou supérieures pour consigner les heures générales dans une feuille de temps.</li>
    <li>Travail ou supérieur pour consigner les heures liées à un projet, à une tâche ou à un problème</li></ul> </td> 
   </tr> 
@@ -421,7 +419,7 @@ Vous devez disposer de tous les éléments suivants :
 
 * Une licence Plan avec un accès administratif aux feuilles de temps et aux heures. Pour plus d&#39;informations sur l&#39;octroi d&#39;un accès administratif aux feuilles de temps et aux heures, voir [Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 * L&#39;autorisation Contribuer ou une autorisation supérieure pour le projet avec accès à la consignation des heures. Pour plus d&#39;informations sur l&#39;octroi d&#39;autorisations sur les projets, voir [Partager un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section Feuille de temps et heures > Préférences de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. **&#x200B;**&#x200B;Pour plus d&#39;informations sur la possibilité pour les utilisateurs et utilisatrices de consigner des heures directement dans des projets, voir [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section Feuille de temps et heures > Préférences de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. **** Pour plus d&#39;informations sur la possibilité pour les utilisateurs et utilisatrices de consigner des heures directement dans des projets, voir [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Pour consigner les heures dans la section Heures d&#39;un projet, d&#39;une tâche ou d&#39;un problème :
 

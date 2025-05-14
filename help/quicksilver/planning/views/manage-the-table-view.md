@@ -1,15 +1,15 @@
 ---
 title: Gestion de la vue Tableau
-description: Vous pouvez afficher les enregistrements et leurs champs dans une vue Tableau lors de l'accès à la page de type d'enregistrement dans Adobe Workfront Planning. Cet article décrit comment créer une vue de tableau et modifier ou supprimer une vue existante.
+description: Vous pouvez afficher les enregistrements et leurs champs dans une vue Tableau lors de l'accès à la page de type d'enregistrement dans Adobe Workfront Planning. Cet article décrit comment créer ou modifier une vue de tableau et comment activer les indicateurs de présence en temps réel pour la vue ou comment l'exporter dans un fichier CSV ou Excel.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '3229'
-ht-degree: 58%
+source-wordcount: '3395'
+ht-degree: 55%
 
 ---
 
@@ -24,6 +24,12 @@ ht-degree: 58%
 Vous pouvez afficher les enregistrements et leurs champs dans la vue de tableau lors de l’accès à la page du type d’enregistrement dans Adobe Workfront Planning.
 
 Pour plus d’informations sur les vues d’enregistrement et leur gestion, consultez la section [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+
+Cet article décrit les informations suivantes :
+
+* [Créer ou modifier des colonnes et des lignes dans une vue Tableau](#manage-a-table-view)
+* [Activer les indicateurs de présence en temps réel pour la vue Tableau](#enable-the-real-time-presence-indicator)
+  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
 
 ## Conditions d’accès
 
@@ -176,7 +182,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -525,7 +531,21 @@ Par défaut, les avatars d’autres utilisateurs qui modifient les informations 
 
 Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un autre utilisateur est en train de modifier au moment où vous affichez l’enregistrement.
 
-Pour plus d’informations, consultez la section « Activer l’indicateur de présence en temps réel » de l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Accédez à une page de type d’enregistrement et ouvrez n’importe quelle vue.
+1. (Conditionnel) Si d’autres utilisateurs modifient les enregistrements du type sélectionné en même temps, leurs avatars s’affichent dans le coin supérieur droit de la vue.
+1. Cliquez sur le menu déroulant en regard des avatars, puis sélectionnez le bouton bascule **Afficher les collaborateurs**. Le bouton (bascule) est sélectionné par défaut.
+
+   ![Bouton bascule Afficher les collaborateurs sélectionné](assets/show-collaborators-toggle-selected.png)
+
+1. (Conditionnel) Ouvrez une vue de tableau, et le champ qu’une autre personne modifie activement est mis en surbrillance dans la couleur correspondant au contour de son avatar dans la vue de tableau.
+
+   Si la couleur de surbrillance de l&#39;avatar est grise, l&#39;utilisateur a arrêté de modifier activement l&#39;enregistrement il y a plus de 30 secondes.
+
+   ![Champ de tableau des indicateurs en temps réel et connexion à l’avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >Vous pouvez sélectionner le bouton bascule **Afficher les collaborateurs** dans n’importe quel mode. Le champ actuellement modifié par d’autres utilisateurs est uniquement indiqué dans la vue Tableau.
 
 <!--<div class="preview">
 

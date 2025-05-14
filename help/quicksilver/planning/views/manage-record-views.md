@@ -1,15 +1,15 @@
 ---
 title: Gérer les vues d’enregistrement
-description: Vous pouvez afficher les enregistrements dans une vue Tableau, Chronologie ou Calendrier lors de l'utilisation d'Adobe Workfront Planning. Cet article décrit comment créer une vue et modifier ou supprimer une vue existante.
+description: Vous pouvez afficher les enregistrements dans une vue Tableau, Chronologie ou Calendrier lors de l'utilisation d'Adobe Workfront Planning. Cet article décrit comment créer une vue et modifier une vue existante.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 50%
+source-wordcount: '1161'
+ht-degree: 47%
 
 ---
 
@@ -40,10 +40,14 @@ Après avoir sélectionné un type d’enregistrement dans la zone d’Adobe Wo
 Cet article présente les informations suivantes sur les vues d’enregistrement :
 
 * [Créer et modifier une vue](#create-or-edit-record-views)
-* [Supprimer une vue](#delete-views)
-* [Dupliquer une vue](#duplicate-a-view)
 * [Activer les indicateurs de présence en temps réel dans une vue](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
+Pour plus d’informations sur la gestion des vues d’enregistrement Workfront Planning, consultez également les articles suivants :
+
+* [Supprimer les vues d’enregistrement](/help/quicksilver/planning/views/delete-record-views.md)
+* [Dupliquer les vues d’enregistrement](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [Partager des affichages](/help/quicksilver/planning/access/share-views.md)
 
 
 ## Conditions d’accès
@@ -123,21 +127,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Les vues que vous créez sont visibles uniquement par vous et les personnes avec lesquelles vous les partagez.
 * Lorsque vous modifiez ou supprimez une vue, elle est modifiée et supprimée pour toutes les personnes disposant d’autorisations sur la vue.
 * Chaque utilisateur peut créer un maximum de 100 vues. Vous pouvez afficher plus de 100 vues pour un type d’enregistrement, mais un utilisateur ne peut créer que 100 vues.
-* Vous pouvez partager des vues que vous créez avec d&#39;autres utilisateurs. Pour plus d’informations, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md).
-* Les éléments suivants sont propres à chaque vue d’enregistrement :
+* Bien que certains éléments de vue puissent être appliqués à plusieurs vues pour le même enregistrement, ils sont propres à chaque vue d’enregistrement :
 
    * Filtre
-   * Regroupement 
-   * Trier
-   * Aspect de la barre (pour la vue chronologique)
+   * Regroupement (pour les vues Tableau et Chronologie)
+   * Apparence des barres (pour les vues Chronologie et Calendrier)
 
-  <!-- some of these are not available in all of the views - edit above-->
+  Par exemple, lors de la création d’un filtre dans une vue Tableau, les résultats du filtre sont visibles uniquement dans la vue sélectionnée (vue Tableau) et pas dans toutes les vues associées au type d’enregistrement.
 
-  Par exemple, lors de la création d’un filtre dans une vue de tableau, les résultats du filtre ne sont visibles que dans la vue sélectionnée et non dans toutes les vues associées au type d’enregistrement.
-
-  >[!NOTE]
+  >[!TIP]
   >
-  > Certains éléments d&#39;affichage peuvent ne pas être disponibles pour tous les affichages.
+  >Certains éléments de vue ne sont pas disponibles pour toutes les vues.
 
 
 ## Similarités et différences entre les vues d’enregistrement
@@ -160,7 +160,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 | Afficher des enregistrements sur un calendrier |           |              | ✓ |
 | Regrouper les enregistrements | ✓ | ✓ |
 | Trier les enregistrements | ✓ |              |
-| Attribuer des couleurs aux enregistrements |           | ✓ | ✓ |
+| <span class="preview">Enregistrements de code couleur</span> | <span class="preview">✓</span> | ✓ | ✓ |
 | Attribuer des couleurs aux regroupements |           | ✓ |
 | Rechercher des enregistrements spécifiques | ✓ | ✓ |
 | Partager la vue avec d&#39;autres personnes | ✓ | ✓ | ✓ |
@@ -242,76 +242,18 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
    * [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md)
    * [Gérer la vue de calendrier](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
-
-## Supprimer des vues
-
-{{step1-to-planning}}
-
-1. Cliquez sur la vignette d’un espace de travail.
-
-   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
-
-1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
-
-   La page de type d’enregistrement s’ouvre.
-
-   Par défaut, tous les enregistrements du type sélectionné s’affichent dans la vue tableau.
-
-1. Pointez sur l&#39;un des noms de la vue dans l&#39;onglet Vue, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png) à gauche du nom de la vue, puis cliquez sur **Supprimer**.
-Vous devrez peut-être d’abord cliquer sur **Plus** à gauche du dernier onglet pour trouver la vue que vous souhaitez supprimer.
-
-1. Cliquez sur **Supprimer** pour confirmer. <!--ensure there is not another saving step here?!-->
-
-   La vue est supprimée pour l’ensemble des utilisateurs et des utilisatrices qui peuvent accéder à la zone des enregistrements et elle ne peut pas être récupérée.
-
-<!--## Add a view as a favorite - this is not possible yet-->
-
-<!--not possible yet - August 30, 2023: -->
-
-## Dupliquer une vue
-
-Si vous souhaitez conserver plusieurs versions d’une vue et apporter de légères modifications entre les versions, vous pouvez dupliquer une vue.
-
-La duplication d’une vue crée des copies identiques d’une vue existante.
-
-Les autorisations de partage de la vue d’origine ne sont pas transférées à la vue dupliquée.
-
-{{step1-to-planning}}
-
-1. Cliquez sur la vignette d’un espace de travail.
-
-   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
-
-1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
-
-   La page de type d’enregistrement s’ouvre.
-Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans la vue de tableau.
-
-1. Pointez sur l’onglet de la vue à dupliquer, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Dupliquer**.
-
-   ![Menu Afficher plus avec l’option Dupliquer](assets/view-more-menu-with-duplicate-option.png)
-
-
-   La vue est dupliquée et le nom de la nouvelle vue suit le modèle suivant : `Original view's name (Copy)`. Le nouvel onglet de vue s’affiche à la fin de tous les onglets de vue.
-
 ## Activation de l&#39;indicateur de présence en temps réel dans une vue
+
+Vous pouvez voir si d’autres utilisateurs modifient des enregistrements en même temps que vous en suivant les indicateurs de présence en temps réel dans la vue.
 
 Par défaut, les avatars d’autres utilisateurs qui modifient les informations d’enregistrement en même temps que vous s’affichent dans le coin supérieur droit de toutes les vues d’enregistrement.
 
 Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un autre utilisateur est en train de modifier au moment où vous affichez l’enregistrement.
 
-1. Accédez à une page de type d’enregistrement et ouvrez n’importe quelle vue.
-1. (Conditionnel) Si d’autres utilisateurs modifient les enregistrements du type sélectionné en même temps, leurs avatars s’affichent dans le coin supérieur droit de la vue.
-1. Cliquez sur le menu déroulant en regard des avatars, puis sélectionnez le bouton bascule **Afficher les collaborateurs**. Le bouton (bascule) est sélectionné par défaut.
+Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-   ![Bouton bascule Afficher les collaborateurs sélectionné](assets/show-collaborators-toggle-selected.png)
 
-1. (Conditionnel) Ouvrez une vue de tableau, et le champ qu’une autre personne modifie activement est mis en surbrillance dans la couleur correspondant au contour de son avatar dans la vue de tableau.
 
-   Si la couleur de surbrillance de l&#39;avatar est grise, l&#39;utilisateur a arrêté de modifier activement l&#39;enregistrement il y a plus de 30 secondes.
+<!--## Add a view as a favorite - this is not possible yet-->
 
-   ![Champ de tableau des indicateurs en temps réel et connexion à l’avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
-
-   >[!TIP]
-   >
-   >Vous pouvez sélectionner le bouton bascule **Afficher les collaborateurs** dans n’importe quel mode. Le champ actuellement modifié par d’autres utilisateurs est uniquement indiqué dans la vue Tableau.
+<!--not possible yet - August 30, 2023: -->

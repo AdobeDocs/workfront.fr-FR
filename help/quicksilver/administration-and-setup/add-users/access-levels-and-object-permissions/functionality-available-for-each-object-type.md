@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '1956'
-ht-degree: 95%
+source-wordcount: '1563'
+ht-degree: 94%
 
 ---
 
@@ -35,35 +35,35 @@ Seuls les personnes disposant d’une licence Plan peuvent bénéficier d’un a
 
 | Action | Planificateur | Employé | Réviseur | Demandeur | Utilisateur ou utilisatrice externe |
 |---|---|---|---|---|---|
-| Créer | ✓&#42; |   |   |   |   |
-| Copier | ✓&#42; |   |   |   |   |
-| Supprimer | ✓&#42; |   |   |   |   |
-| Partager | ✓&#42; | ✓&#42; |   |   |   |
-| Partager sur le système | ✓&#42; |   |   |   |   |
-| Afficher | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Ajouter un formulaire personnalisé | ✓ |   |   |   |   |
-| Mettre à jour des champs personnalisés | ✓ | ✓ |   |   |   |
-| Ajouter un processus d’approbation | ✓ |   |   |   |   |
-| Approuver un projet | ✓ | ✓ | ✓ |   |   |
-| Ajouter un document | ✓ | ✓ | ✓ |   |   |
-| Ajouter un problème | ✓ | ✓ |   |   |   |
-| Ajouter des tâches | ✓ | ✓ |   |   |   |
-| Envoyer des mises à jour/commentaires | ✓ | ✓ | ✓ |   |   |
-| Modifier le statut | ✓ |   |   |   |   |
-| Consigner les heures | ✓ | ✓ |   |   |   |
-| Modifier les affectations | ✓ | ✓ |   |   |   |
-| Gérer un niveau de référence | ✓ |   |   |   |   |
-| Gérer les risques | ✓ |   |   |   |   |
-| Gérer les finances | ✓ |   |   |   |   |
-| Ajouter/modifier des dépenses | ✓ | ✓ |   |   |   |
-| Joindre des modèles | ✓ |   |   |   |   |
-| Enregistrer en tant que modèle | ✓ |   |   |   |   |
-| Ajouter/modifier un business case | ✓ |   |   |   |   |
-| Modifier des détails du projet | ✓ |   |   |   |   |
-| Modifier le personnel | ✓ |   |   |   |   |
-| Exporter vers MS Project | ✓ | ✓ | ✓ |   |   |
-| Recalculer les finances / la chronologie | ✓ |   |   |   |   |
-| Définir des propriétés de file d’attente | ✓ |   |   |   |   |
+| Créer | ✓&#42; |  |  |  |  |
+| Copier | ✓&#42; |  |  |  |  |
+| Supprimer | ✓&#42; |  |  |  |  |
+| Partager | ✓&#42; | ✓&#42; |  |  |  |
+| Partager sur le système | ✓&#42; |  |  |  |  |
+| Afficher | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Ajouter un formulaire personnalisé | ✓ |  |  |  |  |
+| Mettre à jour des champs personnalisés | ✓ | ✓ |  |  |  |
+| Ajouter un processus d’approbation | ✓ |  |  |  |  |
+| Approuver un projet | ✓ | ✓ | ✓ |  |  |
+| Ajouter un document | ✓ | ✓ | ✓ |  |  |
+| Ajouter un problème | ✓ | ✓ |  |  |  |
+| Ajouter des tâches | ✓ | ✓ |  |  |  |
+| Envoyer des mises à jour/commentaires | ✓ | ✓ | ✓ |  |  |
+| Modifier le statut | ✓ |  |  |  |  |
+| Consigner les heures | ✓ | ✓ |  |  |  |
+| Modifier les affectations | ✓ | ✓ |  |  |  |
+| Gérer un niveau de référence | ✓ |  |  |  |  |
+| Gérer les risques | ✓ |  |  |  |  |
+| Gérer les finances | ✓ |  |  |  |  |
+| Ajouter/modifier des dépenses | ✓ | ✓ |  |  |  |
+| Joindre des modèles | ✓ |  |  |  |  |
+| Enregistrer en tant que modèle | ✓ |  |  |  |  |
+| Ajouter/modifier un business case | ✓ |  |  |  |  |
+| Modifier des détails du projet | ✓ |  |  |  |  |
+| Modifier le personnel | ✓ |  |  |  |  |
+| Exporter vers MS Project | ✓ | ✓ | ✓ |  |  |
+| Recalculer les finances / la chronologie | ✓ |  |  |  |  |
+| Définir des propriétés de file d’attente | ✓ |  |  |  |  |
 
 
 
@@ -73,29 +73,29 @@ Seuls les personnes disposant d’une licence Plan peuvent bénéficier d’un a
 
 | Action | Planificateur | Employé | Réviseur | Demandeur | Utilisateur ou utilisatrice externe |
 |---|---|---|---|---|---|
-| Créer | ✓&#42; | ✓&#42; |   |   |   |
-| Supprimer | ✓&#42; | ✓&#42; |   |   |   |
-| Partager | ✓&#42; | ✓&#42; |   |   |   |
-| Partager sur le système | ✓&#42; |   |   |   |   |
-| Afficher | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Ajouter des tâches antérieures | ✓ | ✓ |   |   |   |
-| Ajouter des problèmes | ✓ | ✓ |   |   |   |
-| Modifier une tâche (à l’exception du statut) | ✓ | ✓ |   |   |   |
-| Modifier le statut de la tâche | ✓ | ✓ |   |   |   |
-| Ajouter des documents | ✓ | ✓ | ✓ |   |   |
-| Copier une tâche | ✓ | ✓ |   |   |   |
-| Déplacer une tâche | ✓ | ✓ |   |   |   |
-| Consigner les heures | ✓ | ✓ |   |   |   |
-| Accepter une affectation | ✓ | ✓ |   |   |   |
-| Créer une affectation | ✓ | ✓ | Modification en ligne uniquement | Modification en ligne uniquement |   |
-| Joindre un formulaire personnalisé | ✓ | ✓ |   |   |   |
-| Modifier les champs personnalisés | ✓ | ✓ |   |   |   |
-| Créer un processus d’approbation | ✓ | ✓ |   |   |   |
-| Approuver une tâche | ✓ | ✓ | ✓ |   |   |
-| Modifier des finances | ✓ |   |   |   |   |
-| Ajouter/modifier des dépenses | ✓ | ✓ |   |   |   |
-| Afficher Finance | ✓ | ✓ | ✓ |   |   |
-| Mises à jour / commentaires | ✓ | ✓ | ✓ |   |   |
+| Créer | ✓&#42; | ✓&#42; |  |  |  |
+| Supprimer | ✓&#42; | ✓&#42; |  |  |  |
+| Partager | ✓&#42; | ✓&#42; |  |  |  |
+| Partager sur le système | ✓&#42; |  |  |  |  |
+| Afficher | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Ajouter des tâches antérieures | ✓ | ✓ |  |  |  |
+| Ajouter des problèmes | ✓ | ✓ |  |  |  |
+| Modifier une tâche (à l’exception du statut) | ✓ | ✓ |  |  |  |
+| Modifier le statut de la tâche | ✓ | ✓ |  |  |  |
+| Ajouter des documents | ✓ | ✓ | ✓ |  |  |
+| Copier une tâche | ✓ | ✓ |  |  |  |
+| Déplacer une tâche | ✓ | ✓ |  |  |  |
+| Consigner les heures | ✓ | ✓ |  |  |  |
+| Accepter une affectation | ✓ | ✓ |  |  |  |
+| Créer une affectation | ✓ | ✓ | Modification en ligne uniquement | Modification en ligne uniquement |  |
+| Joindre un formulaire personnalisé | ✓ | ✓ |  |  |  |
+| Modifier les champs personnalisés | ✓ | ✓ |  |  |  |
+| Créer un processus d’approbation | ✓ | ✓ |  |  |  |
+| Approuver une tâche | ✓ | ✓ | ✓ |  |  |
+| Modifier des finances | ✓ |  |  |  |  |
+| Ajouter/modifier des dépenses | ✓ | ✓ |  |  |  |
+| Afficher Finance | ✓ | ✓ | ✓ |  |  |
+| Mises à jour / commentaires | ✓ | ✓ | ✓ |  |  |
 
 {style="table-layout:auto"}
 
@@ -105,25 +105,25 @@ Seuls les personnes disposant d’une licence Plan peuvent bénéficier d’un a
 
 | Action | Planificateur | Employé | Réviseur | Demandeur | Utilisateur ou utilisatrice externe |
 |---|---|---|---|---|---|
-| Créer | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Modifier | ✓ | ✓ | ✓ | ✓ |   |
-| Supprimer | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Partager | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Partager sur le système | ✓&#42; |   |   |   |   |
-| Afficher | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Joindre des formulaires personnalisés | ✓ | ✓ | ✓ | ✓ |   |
-| Modifier les champs personnalisés | ✓ | ✓ | ✓ | ✓ |   |
-| Approuver des problèmes | ✓ | ✓ | ✓ | ✓ |   |
-| Ajouter un processus d’approbation | ✓ | ✓ | ✓ | ✓ |   |
-| Ajouter des documents | ✓ | ✓ | ✓ | ✓ |   |
-| Copier les problèmes | ✓ | ✓ | ✓ | ✓ |   |
-| Déplacer les problèmes | ✓ | ✓ | ✓ | ✓ |   |
-| Consigner les heures | ✓ | ✓ |   |   |   |
-| Convertir un problème en projet | ✓ | ✓ |   |   |   |
-| Convertir un problème en tâche | ✓ |   |   |   |   |
-| Accepter des affectations | ✓ | ✓ |   |   |   |
-| Créer des affectations | ✓ | ✓ |   |   |   |
-| Ajouter des mises à jour et des commentaires | ✓ | ✓ | ✓ | ✓ |   |
+| Créer | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Modifier | ✓ | ✓ | ✓ | ✓ |  |
+| Supprimer | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Partager | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Partager sur le système | ✓&#42; |  |  |  |  |
+| Afficher | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Joindre des formulaires personnalisés | ✓ | ✓ | ✓ | ✓ |  |
+| Modifier les champs personnalisés | ✓ | ✓ | ✓ | ✓ |  |
+| Approuver des problèmes | ✓ | ✓ | ✓ | ✓ |  |
+| Ajouter un processus d’approbation | ✓ | ✓ | ✓ | ✓ |  |
+| Ajouter des documents | ✓ | ✓ | ✓ | ✓ |  |
+| Copier les problèmes | ✓ | ✓ | ✓ | ✓ |  |
+| Déplacer les problèmes | ✓ | ✓ | ✓ | ✓ |  |
+| Consigner les heures | ✓ | ✓ |  |  |  |
+| Convertir un problème en projet | ✓ | ✓ |  |  |  |
+| Convertir un problème en tâche | ✓ |  |  |  |  |
+| Accepter des affectations | ✓ | ✓ |  |  |  |
+| Créer des affectations | ✓ | ✓ |  |  |  |
+| Ajouter des mises à jour et des commentaires | ✓ | ✓ | ✓ | ✓ |  |
 
 
 
@@ -135,19 +135,19 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Plan peuvent a
 
 | Action | Planificateur | Employé | Réviseur | Demandeur | Utilisateur ou utilisatrice externe |
 |---|---|---|---|---|---|
-| Créer | ✓&#42; |   |   |   |   |
-| Supprimer | ✓&#42; |   |   |   |   |
-| Partager | ✓&#42; |   |   |   |   |
-| Partager sur le système | ✓&#42; |   |   |   |   |
-| Afficher | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Modifier les détails | ✓ |   |   |   |   |
-| Joindre des formulaires personnalisés | ✓ |   |   |   |   |
-| Modifier les champs personnalisés | ✓ |   |   |   |   |
-| Ajouter et supprimer des projets | ✓ |   |   |   |   |
-| Approuver des projets | ✓ |   |   |   |   |
-| Optimisation du portfolio | ✓ |   |   |   |   |
-| Ajouter des documents | ✓ | ✓ | ✓ |   |   |
-| Ajouter des mises à jour et des commentaires | ✓ | ✓ | ✓ |   |   |
+| Créer | ✓&#42; |  |  |  |  |
+| Supprimer | ✓&#42; |  |  |  |  |
+| Partager | ✓&#42; |  |  |  |  |
+| Partager sur le système | ✓&#42; |  |  |  |  |
+| Afficher | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Modifier les détails | ✓ |  |  |  |  |
+| Joindre des formulaires personnalisés | ✓ |  |  |  |  |
+| Modifier les champs personnalisés | ✓ |  |  |  |  |
+| Ajouter et supprimer des projets | ✓ |  |  |  |  |
+| Approuver des projets | ✓ |  |  |  |  |
+| Optimisation du portfolio | ✓ |  |  |  |  |
+| Ajouter des documents | ✓ | ✓ | ✓ |  |  |
+| Ajouter des mises à jour et des commentaires | ✓ | ✓ | ✓ |  |  |
 
 
 
@@ -159,19 +159,19 @@ Seuls les personnes disposant d’une licence Plan peuvent avoir un accès compl
 
 | Action | Planificateur | Employé | Réviseur | Demandeur | Utilisateur ou utilisatrice externe |
 |---|---|---|---|---|---|
-| Créer | ✓&#42; |   |   |   |   |
-| Supprimer | ✓&#42; |   |   |   |   |
-| Partager | ✓&#42; |   |   |   |   |
-| Partager sur le système | ✓&#42; |   |   |   |   |
-| Afficher | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Modifier les détails | ✓ |   |   |   |   |
-| Joindre des formulaires personnalisés | ✓ |   |   |   |   |
-| Modifier les champs personnalisés | ✓ |   |   |   |   |
-| Ajouter et supprimer des projets | ✓ |   |   |   |   |
-| Approuver des projets | ✓ |   |   |   |   |
-| Optimisation du portfolio | ✓ |   |   |   |   |
-| Ajouter des documents | ✓ | ✓ | ✓ |   |   |
-| Ajouter des mises à jour et des commentaires | ✓ | ✓ | ✓ |   |   |
+| Créer | ✓&#42; |  |  |  |  |
+| Supprimer | ✓&#42; |  |  |  |  |
+| Partager | ✓&#42; |  |  |  |  |
+| Partager sur le système | ✓&#42; |  |  |  |  |
+| Afficher | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Modifier les détails | ✓ |  |  |  |  |
+| Joindre des formulaires personnalisés | ✓ |  |  |  |  |
+| Modifier les champs personnalisés | ✓ |  |  |  |  |
+| Ajouter et supprimer des projets | ✓ |  |  |  |  |
+| Approuver des projets | ✓ |  |  |  |  |
+| Optimisation du portfolio | ✓ |  |  |  |  |
+| Ajouter des documents | ✓ | ✓ | ✓ |  |  |
+| Ajouter des mises à jour et des commentaires | ✓ | ✓ | ✓ |  |  |
 
 
 
@@ -183,15 +183,15 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
 
 | Action | Planificateur | Employé | Réviseur | Demande | Utilisateur ou utilisatrice externe |
 |---|---|---|---|---|---|
-| Créer | ✓&#42; |   |   |   |   |
-| Supprimer | ✓&#42; |   |   |   |   |
-| Afficher les rapports intégrés | ✓&#42; |   |   |   |   |
-| Partager | ✓&#42; | ✓ | ✓ |   |   |
-| Partager publiquement des calendriers et des rapports | ✓&#42; |   |   |   |   |
-| Partager sur le système | ✓&#42; |   |   |   |   |
+| Créer | ✓&#42; |  |  |  |  |
+| Supprimer | ✓&#42; |  |  |  |  |
+| Afficher les rapports intégrés | ✓&#42; |  |  |  |  |
+| Partager | ✓&#42; | ✓ | ✓ |  |  |
+| Partager publiquement des calendriers et des rapports | ✓&#42; |  |  |  |  |
+| Partager sur le système | ✓&#42; |  |  |  |  |
 | Afficher | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
-| Modifier | ✓ |   |   |   |   |
-| Copier | ✓ |   |   |   |   |
+| Modifier | ✓ |  |  |  |  |
+| Copier | ✓ |  |  |  |  |
 
 {style="table-layout:auto"}
 
@@ -233,7 +233,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Supprimer</td> 
@@ -241,7 +241,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Partager</td> 
@@ -249,7 +249,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Partager sur le système</td> 
@@ -257,7 +257,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Afficher</td> 
@@ -265,7 +265,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modifier</td> 
@@ -273,7 +273,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -284,32 +284,32 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
 
 | Action | Planificateur | Employé | Réviseur | Demandeur | Utilisateur ou utilisatrice externe |
 |---|---|---|---|---|---|
-| Créer | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Supprimer (documents et dossiers) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Partager | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Partager publiquement (en externe) | ✓&#42; |   |   |   |   |
-| Partager sur le système | ✓&#42; | ✓&#42; |   |   |   |
+| Créer | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Supprimer (documents et dossiers) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Partager | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Partager publiquement (en externe) | ✓&#42; |  |  |  |  |
+| Partager sur le système | ✓&#42; | ✓&#42; |  |  |  |
 | Afficher | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
-| Modifier les détails | ✓ | ✓ | ✓ | ✓ |   |
+| Modifier les détails | ✓ | ✓ | ✓ | ✓ |  |
 | Téléchargement | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Passage en caisse | ✓ | ✓ | ✓ | ✓ |   |
-| Ajouter des approbateurs et approbatrices | ✓ | ✓ | ✓ | ✓ |   |
+| Passage en caisse | ✓ | ✓ | ✓ | ✓ |  |
+| Ajouter des approbateurs et approbatrices | ✓ | ✓ | ✓ | ✓ |  |
 | Approuver des documents | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Joindre des formulaires personnalisés | ✓ | ✓ | ✓ | ✓ |   |
-| Modifier les champs personnalisés | ✓ | ✓ | ✓ | ✓ |   |
-| Déplacer vers (objet) | ✓ | ✓ | ✓ | ✓ |   |
-| Envoyer à (intégration) | ✓ | ✓ | ✓ | ✓ |   |
-| Ajouter des mises à jour et des commentaires | ✓ | ✓ | ✓ | ✓ |   |
-| Charger une nouvelle version | ✓ | ✓ | ✓ | ✓ |   |
-| Supprimer une version | ✓ | ✓ | ✓ | ✓ |   |
+| Joindre des formulaires personnalisés | ✓ | ✓ | ✓ | ✓ |  |
+| Modifier les champs personnalisés | ✓ | ✓ | ✓ | ✓ |  |
+| Déplacer vers (objet) | ✓ | ✓ | ✓ | ✓ |  |
+| Envoyer à (intégration) | ✓ | ✓ | ✓ | ✓ |  |
+| Ajouter des mises à jour et des commentaires | ✓ | ✓ | ✓ | ✓ |  |
+| Charger une nouvelle version | ✓ | ✓ | ✓ | ✓ |  |
+| Supprimer une version | ✓ | ✓ | ✓ | ✓ |  |
 | Aperçu | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Épreuve | ✓ | ✓ | ✓ | ✓ |   |
-| Créer une épreuve | ✓ | ✓ |   |   |   |
-| Supprimer l’épreuve | ✓ | ✓ | ✓ | ✓ |   |
-| Ajouter/Supprimer&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
-| Renommer&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
-| Lier (avec intégration) | ✓ | ✓ | ✓ | ✓ |   |
-| Annuler le lien (avec intégration) | ✓ | ✓ | ✓ | ✓ |   |
+| Épreuve | ✓ | ✓ | ✓ | ✓ |  |
+| Créer une épreuve | ✓ | ✓ |  |  |  |
+| Supprimer l’épreuve | ✓ | ✓ | ✓ | ✓ |  |
+| Ajouter/Supprimer&#42;&#42; | ✓ | ✓ | ✓ | ✓ |  |
+| Renommer&#42;&#42; | ✓ | ✓ | ✓ | ✓ |  |
+| Lier (avec intégration) | ✓ | ✓ | ✓ | ✓ |  |
+| Annuler le lien (avec intégration) | ✓ | ✓ | ✓ | ✓ |  |
 
 {style="table-layout:auto"}
 
@@ -346,34 +346,34 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
   <tr> 
    <td>Créer</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Supprimer</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modifier, supprimer, désactiver, se connecter en tant que ou réinitialiser le mot de passe d’un utilisateur ou d’une utilisatrice</td> 
    <td>✓*<p><b>REMARQUE </b> : vous ne pouvez pas vous connecter en tant qu'utilisateur administrateur système.</p></td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modifier, supprimer, désactiver, se connecter en tant que ou réinitialiser le mot de passe d’un utilisateur ou d’une utilisatrice d’un groupe sous son administration</td> 
    <td>✓*<p><b>REMARQUE </b> : vous ne pouvez pas vous connecter en tant qu'utilisateur administrateur système.</p></td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Afficher les utilisateurs et utilisatrices</td> 
@@ -381,7 +381,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Afficher les coordonnées</td> 
@@ -389,7 +389,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
    <td> ✓</td> 
    <td>✓ </td> 
    <td> ✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -421,34 +421,34 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
   <tr> 
    <td>Créer</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Supprimer</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modifier les équipes auxquelles la personne appartient.</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modifier les équipes dans les groupes que la personne gère.</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Afficher toutes les équipes</td> 
@@ -456,7 +456,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Afficher les équipes associées aux groupes de la personne</td> 
@@ -464,7 +464,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
    <td> ✓</td> 
    <td>✓ </td> 
    <td> ✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -475,13 +475,13 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
 
 | Action | Planificateur | Employé | Réviseur | Demandeur | Utilisateur ou utilisatrice externe |
 |---|---|---|---|---|---|
-| Créer | ✓&#42; |   |   |   |   |
-| Supprimer | ✓&#42; |   |   |   |   |
-| Partager | ✓&#42; |   |   |   |   |
-| Partager sur le système | ✓&#42; |   |   |   |   |
-| Afficher | ✓&#42; |   |   |   |   |
-| Copier | ✓ |   |   |   |   |
-| Modifier les détails du modèle | ✓ |   |   |   |   |
+| Créer | ✓&#42; |  |  |  |  |
+| Supprimer | ✓&#42; |  |  |  |  |
+| Partager | ✓&#42; |  |  |  |  |
+| Partager sur le système | ✓&#42; |  |  |  |  |
+| Afficher | ✓&#42; |  |  |  |  |
+| Copier | ✓ |  |  |  |  |
+| Modifier les détails du modèle | ✓ |  |  |  |  |
 
 {style="table-layout:auto"}
 
@@ -495,18 +495,18 @@ Les types de licence Demande et Utilisateur ou utilisatrice externe ne sont pas 
 
 | Action | Planificateur | Employé | Réviseur |
 |---|---|---|---|
-| Modifier les taux de facturation et de coûts du rôle | ✓&#42; |   |   |
-| Modifier les taux de facturation et de coûts de la personne | ✓&#42; |   |   |
-| Afficher les taux de facturation et de coûts du rôle | ✓&#42; |   |   |
-| Afficher les taux de facturation et de coûts de la personne | ✓&#42; |   |   |
-| Gérer des enregistrements de facturation | ✓ |   |   |
-| Gérer les dépenses | ✓ | ✓ |   |
+| Modifier les taux de facturation et de coûts du rôle | ✓&#42; |  |  |
+| Modifier les taux de facturation et de coûts de la personne | ✓&#42; |  |  |
+| Afficher les taux de facturation et de coûts du rôle | ✓&#42; |  |  |
+| Afficher les taux de facturation et de coûts de la personne | ✓&#42; |  |  |
+| Gérer des enregistrements de facturation | ✓ |  |  |
+| Gérer les dépenses | ✓ | ✓ |  |
 | Afficher les données financières | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">Gérer les cartes tarifaires</span> | ✓ |   |   |
-| Afficher des informations par coût dans les outils de planification des ressources | ✓ |   |   |
-| Budgéter les ressources dans les outils de planification des ressources&#42;&#42; | ✓ |   |   |
+| <span class="preview">Gérer les cartes tarifaires</span> | ✓ |  |  |
+| Afficher des informations par coût dans les outils de planification des ressources | ✓ |  |  |
+| Budgéter les ressources dans les outils de planification des ressources&#42;&#42; | ✓ |  |  |
 | Afficher l’affectation des ressources dans les outils de planification des ressources&#42; | ✓ | ✓ | ✓ |
-| Créer des risques sur les projets | ✓ |   |   |
+| Créer des risques sur les projets | ✓ |  |  |
 | Afficher les risques sur les projets | ✓ | ✓ | ✓ |
 
 {style="table-layout:auto"}
@@ -521,14 +521,14 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Plan peuvent a
 
 | Action | Planificateur | Employé | Réviseur | Demandeur | Utilisateur ou utilisatrice externe |
 |---|---|---|---|---|---|
-| Modifier les priorités et les heures budgétées dans le Planificateur | ✓&#42; |   |   |   |   |
-| Créer, modifier et supprimer des groupes de ressources&#42;&#42; | ✓&#42; |   |   |   |   |
-| Mettez à jour les heures prévues dans l’équilibreur de charge de travail&#42;&#42;&#42; | ✓* |   |   |   |   |
-| Afficher les priorités du projet dans le planificateur de ressources | ✓&#42; |   |   |   |   |
-| Afficher l’allocation des ressources dans les outils de planification des ressources | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Afficher les groupes de ressources | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Budgéter les ressources dans les outils de planification des ressources&#42;&#42; | ✓ |   |   |   |   |
-| Joindre des groupes de ressources à des projets, modèles et utilisateurs et utilisatrices | ✓ |   |   |   |   |
+| Modifier les priorités et les heures budgétées dans le Planificateur | ✓&#42; |  |  |  |  |
+| Créer, modifier et supprimer des groupes de ressources&#42;&#42; | ✓&#42; |  |  |  |  |
+| Mettez à jour les heures prévues dans l’équilibreur de charge de travail&#42;&#42;&#42; | ✓* |  |  |  |  |
+| Afficher les priorités du projet dans le planificateur de ressources | ✓&#42; |  |  |  |  |
+| Afficher l’allocation des ressources dans les outils de planification des ressources | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Afficher les groupes de ressources | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Budgéter les ressources dans les outils de planification des ressources&#42;&#42; | ✓ |  |  |  |  |
+| Joindre des groupes de ressources à des projets, modèles et utilisateurs et utilisatrices | ✓ |  |  |  |  |
 
 {style="table-layout:auto"}
 
@@ -542,12 +542,12 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Plan peuvent a
 
 | Action | Planificateur | Employé | Réviseur | Demandeur | Utilisateur ou utilisatrice externe |
 |---|---|---|---|---|---|
-| Créer/modifier des plans et initiatives existants | ✓ | ✓ | ✓ |   |   |
-| Ajouter ou modifier des informations sur les fonctions dans les plans et les initiatives&#42; | ✓ | ✓ | ✓ |   |   |
-| Ajouter ou modifier des informations sur les coûts des plans et des initiatives&#42; | ✓ | ✓ | ✓ |   |   |
-| Supprimer des plans et des initiatives | ✓ | ✓ | ✓ |   |   |
-| Afficher les scénarios dans le menu principal ![icône du planificateur de scénarios](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
-| Afficher les plans et initiatives créés par l’utilisateur ou l’utilisatrice&#42; | ✓ | ✓ | ✓ |   |   |
+| Créer/modifier des plans et initiatives existants | ✓ | ✓ | ✓ |  |  |
+| Ajouter ou modifier des informations sur les fonctions dans les plans et les initiatives&#42; | ✓ | ✓ | ✓ |  |  |
+| Ajouter ou modifier des informations sur les coûts des plans et des initiatives&#42; | ✓ | ✓ | ✓ |  |  |
+| Supprimer des plans et des initiatives | ✓ | ✓ | ✓ |  |  |
+| Afficher les scénarios dans le menu principal ![icône du planificateur de scénarios](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |  |
+| Afficher les plans et initiatives créés par l’utilisateur ou l’utilisatrice&#42; | ✓ | ✓ | ✓ |  |  |
 
 {style="table-layout:auto"}
 
@@ -561,19 +561,19 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Plan peuvent a
 
 | Actions | Afficher | Modifier |
 |---|---|---|
-| Créer |   | ✓ |
-| Modifier/supprimer tous les objectifs |   | ✓ |
+| Créer |  | ✓ |
+| Modifier/supprimer tous les objectifs |  | ✓ |
 | Afficher Objectifs dans le menu principal | ✓ | ✓ |
 | Afficher la zone Objectifs à partir d’un lien partagé | ✓ | ✓ |
 | Afficher tous les objectifs du système | ✓ | ✓ |
-| Activer/désactiver/fermer tous les objectifs |   | ✓ |
-| Créer/modifier/supprimer des activités |   | ✓ |
-| Créer/modifier/supprimer des résultats |   | ✓ |
-| Ajouter un objectif aligné |   | ✓ |
-| Mettre à jour la progression d’un résultat ou d’une activité |   | ✓ |
+| Activer/désactiver/fermer tous les objectifs |  | ✓ |
+| Créer/modifier/supprimer des activités |  | ✓ |
+| Créer/modifier/supprimer des résultats |  | ✓ |
+| Ajouter un objectif aligné |  | ✓ |
+| Mettre à jour la progression d’un résultat ou d’une activité |  | ✓ |
 | Posséder un objectif, un résultat ou une activité | ✓ | ✓ |
 | Commenter un objectif | ✓ | ✓ |
-| Copier des objectifs |   | ✓ |
+| Copier des objectifs |  | ✓ |
 | Afficher la section Liste des objectifs dans le panneau de gauche | ✓ | ✓ |
 | Afficher la section Graphiques dans le panneau de gauche | ✓ | ✓ |
 | Afficher la section Alignement des objectifs dans le panneau de gauche | ✓ | ✓ |
