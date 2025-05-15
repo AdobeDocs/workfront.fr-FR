@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '1041'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,61 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Mettez à jour les paramètres de la vue chronologique pour définir l’aspect des barres des enregistrements connectés lors de l’utilisation de l’option Répartition
+
+>[!NOTE]
+>
+>* Prévisualisation : vendredi 15 mai 2025
+>* Version rapide de production : 12 juin 2025
+>* Production pour tous les clients : 17 juillet 2025
+
+Vous pouvez maintenant formater l’aspect des barres d’enregistrement dans la vue chronologique pour les enregistrements de la répartition. Vous pouvez mettre à jour les paramètres suivants pour les barres de ces enregistrements :
+
+* Style de barre
+* Couleur
+
+Avant cette amélioration, vous ne pouviez formater que les barres des enregistrements principaux telles qu&#39;elles s&#39;affichaient dans la vue chronologique et vous ne pouviez pas formater les barres des enregistrements connectés.\
+ 
+Pour plus d’informations, voir [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).  
+
+## Exporter la vue du tableau vers un fichier CSV ou Excel 
+
+>[!NOTE]
+>
+>* Prévisualisation : vendredi 15 mai 2025
+>* Version rapide de production : 12 juin 2025
+>* Production pour tous les clients : 17 juillet 2025
+
+Nous avons ajouté une nouvelle fonctionnalité à Workfront Planning, qui vous permet d’exporter des informations visibles dans la vue Tableau au format CSV ou Excel.  
+
+Tenez compte des points suivants lors de l’exportation d’informations à partir de la vue Tableau :  
+
+* Les informations exportées prennent en compte les filtres, regroupements et tris appliqués à la vue Tableau dans Workfront Planning.
+* Les miniatures et les couleurs de ligne personnalisées ne sont pas prises en charge dans le fichier exporté.  
+* Seuls les champs rendus visibles dans l’interface de Workfront sont exportés. Les champs masqués ne sont pas exportés.  
+
+Pour plus d&#39;informations, voir [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md). 
+
+## Les champs connectés Workfront Planning sont désormais pris en charge lors de l&#39;import d&#39;enregistrements au moyen d&#39;un fichier CSV ou Excel
+
+>[!NOTE]
+>
+>* Prévisualisation : vendredi 15 mai 2025
+>* Version rapide de production : 12 juin 2025
+>* Production pour tous les clients : 17 juillet 2025
+
+Vous pouvez désormais remplir les valeurs des champs connectés lorsque vous ajoutez des enregistrements à un type d’enregistrement à l’aide d’un fichier CSV ou Excel.  Seuls les champs d&#39;enregistrement Planning connectés sont pris en charge. Les champs affichant des connexions à d&#39;autres applications ne sont pas pris en charge.
+
+Cette modification est prise en charge lors de l’importation d’un fichier CSV et Excel pour créer un type d’enregistrement et des enregistrements pour un type d’enregistrement existant.
+
+Avant cette amélioration, les champs de connexion ne pouvaient pas être renseignés lorsque vous avez importé des enregistrements.
+
+Pour plus d’informations, voir les articles suivants :
+
+* [Créez des enregistrements en important des informations à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
+
+* [Créez des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
 ## Modification en ligne dans la page Enregistrements connectés d’un enregistrement
 
