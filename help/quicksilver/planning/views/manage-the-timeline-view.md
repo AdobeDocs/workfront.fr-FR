@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '2946'
-ht-degree: 51%
+source-wordcount: '3060'
+ht-degree: 49%
 
 ---
 
@@ -97,8 +97,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 +++
 
 ## Gérer une vue chronologique {#manage-a-timeline-view}
-
-<!--insert screen shot of timeline view-->
 
 Lors de la création d’une vue chronologique, tous les enregistrements du type sélectionné s’affichent dans un ordre chronologique.
 
@@ -278,7 +276,7 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
 1. Cliquez sur **Style de barre** dans le panneau de gauche pour indiquer les informations à afficher sur les barres d’enregistrement.
 
-   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">Vous pouvez définir le style de barre de l’enregistrement principal ainsi que des enregistrements connectés, lors de l’utilisation de l’option Répartition dans la vue Standard. </span>
 
    Le champ principal (ou titre) de l&#39;enregistrement, tel que défini dans la vue Tableau de l&#39;enregistrement, est sélectionné par défaut.
    <!--adjust this when the primary field is released??-->
@@ -309,17 +307,14 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    >[!TIP]
    >
-   >* <span class="preview">Le paramètre Tronquer les détails de la barre n’est pas disponible lors de l’affichage de la vue chronologique en mode Compact, et il n’est pas disponible dans la vue Calendrier</span>.
+   ><span class="preview">Le paramètre Tronquer les détails de la barre n’est pas disponible lors de l’affichage de la vue chronologique en mode Compact, et il n’est pas disponible dans la vue Calendrier</span>.
    >
-   >* <span class="preview">Si vous répartissez la vue chronologique pour afficher les objets connectés, le paramètre Tronquer les détails de la barre s’applique uniquement au type d’enregistrement principal. Elle ne s’applique pas aux barres d’enregistrement connectées.</span>
-
-   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Cliquez sur **Couleur** dans le panneau de gauche pour personnaliser les couleurs des enregistrements et des regroupements dans la chronologie.
 
    ![Vue chronologique de l’onglet Couleur](assets/color-tab-timeline-view.png)
 
-   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">Vous pouvez définir la couleur de l&#39;enregistrement principal ainsi que des enregistrements connectés, lors de l&#39;utilisation de l&#39;option Répartition dans la vue Standard. </span>
 
 1. (Le cas échéant et facultatif) Si vous avez ajouté un regroupement à la vue chronologique, sélectionnez l’une des options suivantes pour définir une couleur pour le regroupement dans la section **Définir la couleur du regroupement** :
 
@@ -358,7 +353,7 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    Si vous n’avez pas de champ avec des options codées par couleur pour le type d’enregistrement sélectionné, cette option est grisée.
 
-   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+   1. <span class="preview">(Facultatif) Si vous utilisez l’option Répartition , répétez les étapes en commençant par l’étape 4 pour chaque enregistrement connecté affiché dans le journal. </span>
 
 1. Cliquer sur **Enregistrer**.
 
@@ -413,6 +408,15 @@ Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&
 1. Cliquez sur la flèche pointant vers la droite pour développer un type d’enregistrement et afficher ses connexions.
 
    ![Campagnes réparties par programmes dans la vue Chronologie](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+
+   >[!IMPORTANT]
+   >
+   >    Lorsque vous affichez plusieurs enregistrements connectés dans la répartition, ils ne sont pas dans l’ordre hiérarchique.
+   >
+   >Par exemple, si vous affichez la chronologie des campagnes et que vous ajoutez ensuite Produits et Programmes à la répartition, les Programmes ne sont pas nécessairement connectés en premier aux Produits.
+   >
+   >Les produits et programmes doivent être connectés aux campagnes pour s’afficher en tant que choix pour l’option de répartition et vous pouvez les ajouter à la répartition dans n’importe quel ordre.
+
 
 1. (Facultatif) Répétez les étapes ci-dessus pour ajouter d’autres enregistrements connectés.
 

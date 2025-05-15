@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 40%
+source-wordcount: '1007'
+ht-degree: 32%
 
 ---
 
@@ -109,9 +109,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Les feuilles vides ne sont pas prises en charge.
 * Les champs des types suivants ne sont pas pris en charge et ne peuvent pas être mappés aux champs de la feuille d’importation :
 
-   * &#x200B;<!--In the Production environment,--> Champs de connexion aux enregistrements Planning ou aux objets Workfront et AEM Assets
+   * Champs de connexion, selon l’environnement utilisé :
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * Dans l’environnement de production, les champs de connexion aux enregistrements Planning ou aux objets Workfront et AEM Assets ne peuvent pas être mappés
+
+      * <span class="preview">Dans l&#39;environnement Aperçu, vous pouvez mapper et importer des champs de connexion vers des enregistrements Planning. Vous ne pouvez pas mapper des champs à Workfront et AEM Assets.</span>
 
    * Champs de recherche des enregistrements Planning connectés ou des objets Workfront et AEM Assets
    * Champs de formule
@@ -129,8 +131,8 @@ Pour importer des types d&#39;enregistrements à l&#39;aide d&#39;un fichier Exc
 
    Depuis un espace de travail, développez la flèche pointant vers le bas à droite d’un nom d’espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 1. Cliquez sur **Ajouter un type d’enregistrement**.
-1. Cliquez sur **À partir du fichier**.
-1. Faites glisser un fichier Excel ou CSV préalablement enregistré sur votre ordinateur ou cliquez sur **Sélectionner un fichier CSV ou Excel** pour en rechercher un.
+1. Cliquez sur **Télécharger à partir d’un fichier**.
+1. Effectuez un glisser-déposer d’un fichier Excel ou CSV précédemment enregistré sur votre ordinateur ou cliquez sur **Sélectionner un fichier CSV ou Excel** pour en rechercher un, puis sélectionnez-le.
 1. Cliquez sur **Prévisualiser et modifier**.
 
    La zone **Prévisualiser et modifier** s’affiche avec les informations suivantes :
@@ -153,11 +155,21 @@ Pour importer des types d&#39;enregistrements à l&#39;aide d&#39;un fichier Exc
 
    Les feuilles que vous avez désélectionnées s’affichent sur fond gris.
 
-1. (Facultatif) Cliquez sur la flèche pointant vers le bas à droite de l’en-tête de colonne pour effectuer l’une des opérations suivantes :
+1. (Facultatif) Cliquez sur la flèche pointant vers le bas à droite d’un en-tête de colonne pour effectuer l’une des opérations suivantes, <span class="preview">dans l’onglet **Champ** </span> :
+
+   <span class="preview">![Onglet Champ de la zone d’importation de mappage de type d’enregistrement](assets/field-tab-on-record-type-import-mapping-box.png)</span>
 
    * Renommer l’un des champs
    * Modifiez le **Type de champ**
    * Mettez à jour le champ **Description**
+
+1. <span class="preview">(Facultatif) Cliquez sur l’onglet **Connexion** pour mapper les informations de la colonne à un champ connecté à partir d’autres types d’enregistrements.</span>
+
+   <span class="preview">![Onglet Connexion de la zone de mappage d’importation des types d’enregistrements](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Vous ne pouvez mapper qu’aux champs des enregistrements connectés Workfront Planning. Vous ne pouvez pas mapper aux champs des connexions Workfront ou AEM Assets. Pour plus d’informations, consultez la section [Considérations relatives à l’importation de types d’enregistrements à l’aide d’un fichier Excel ou CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file) dans cet article.</span>
 
 1. (Conditionnel) Après avoir mis à jour les informations sur le champ, cliquez sur **Enregistrer**.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1065'
 ht-degree: 15%
 
 ---
@@ -113,9 +113,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Les feuilles vides ne sont pas prises en charge.
 * Les champs des types suivants ne sont pas pris en charge et ne peuvent pas être mappés aux champs de la feuille d’importation :
 
-   * &#x200B;<!--In the Production environment,--> Champs de connexion aux enregistrements Planning ou aux objets Workfront et AEM Assets
+   * Champs de connexion, selon l’environnement utilisé :
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * Dans l’environnement de production, les champs de connexion aux enregistrements Planning ou aux objets Workfront et AEM Assets ne peuvent pas être mappés
+
+      * <span class="preview">Dans l&#39;environnement Aperçu, vous pouvez mapper et importer des champs de connexion vers des enregistrements Planning. Vous ne pouvez pas mapper des champs à Workfront et AEM Assets.</span>
 
    * Champs de recherche des enregistrements Planning connectés ou des objets Workfront et AEM Assets
    * Champs de formule
@@ -148,6 +150,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    ![Mapper les champs Planning aux colonnes lors de l&#39;import d&#39;enregistrements](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    Chaque ligne représente un nouvel enregistrement. Seuls les 10 premiers enregistrements s’affichent dans la zone Prévisualiser et modifier.
+
+   >[!TIP]
+   >
+   >Tous les types de champ ne sont pas pris en charge. Pour plus d’informations, consultez la section [Considérations relatives à l’importation d’enregistrements à l’aide d’un fichier Excel ou CSV](#considerations-about-importing-records-using-an-excel-or-csv-file) dans cet article.
+
 
 1. (Facultatif et conditionnel) Si vous disposez d’autorisations de niveau Gérer pour l’espace de travail, sélectionnez l’option **Créer les options manquantes** dans le coin inférieur gauche de l’écran. Lorsqu’ils sont activés, les choix manquants de champs à sélection unique et à sélection multiple sont ajoutés.
 

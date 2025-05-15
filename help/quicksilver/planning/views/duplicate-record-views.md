@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 32%
 
 ---
-
 
 # Dupliquer les vues d’enregistrement
 
@@ -114,9 +114,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    La page de type d’enregistrement s’ouvre.
 Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans la vue de tableau.
 
-1. Pointez sur l’onglet de la vue à dupliquer, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Dupliquer**.
+1. <span class="preview">Pointez sur l&#39;onglet de la vue à dupliquer, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Dupliquer**. </span>
 
-   ![Menu Afficher plus sur une vue d’enregistrement](assets/view-more-menu-with-duplicate-option.png)
+   <span class="preview">![Menu Afficher plus sur une vue d’enregistrement](assets/view-more-menu-with-duplicate-option.png)</span>
 
 
    La vue est dupliquée et le nom de la nouvelle vue suit le modèle suivant : `Original view's name (Copy)`. Le nouvel onglet de vue s’affiche à la fin de tous les onglets de vue.

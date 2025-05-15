@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '3395'
-ht-degree: 55%
+source-wordcount: '3680'
+ht-degree: 51%
 
 ---
 
@@ -29,7 +29,7 @@ Cet article décrit les informations suivantes :
 
 * [Créer ou modifier des colonnes et des lignes dans une vue Tableau](#manage-a-table-view)
 * [Activer les indicateurs de présence en temps réel pour la vue Tableau](#enable-the-real-time-presence-indicator)
-  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
+* <span class="preview">[Exporter une vue Tableau vers un fichier CSV ou Excel](#export-the-table-view)</span>
 
 ## Conditions d’accès
 
@@ -88,7 +88,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
-   <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage ou la dupliquer <!--<span class="preview">or to export the view</span>--></p> </td> 
+   <p>Autorisations d'affichage sur une vue pour modifier temporairement les paramètres d'affichage, la dupliquer <span class="preview">ou l'exporter</span></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de mise en page</p></td> 
@@ -109,8 +109,6 @@ Vous ne pouvez modifier les informations d’enregistrement que dans la vue Tabl
 Pour plus d&#39;informations sur la modification des enregistrements en mode Tableau, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 ## Gérer une vue tableau {#manage-a-table-view}
-
-<!--insert screen shot of table view-->
 
 Lors de la création d’une vue tableau, tous les enregistrements du type sélectionné s’affichent dans un tableau. Chaque ligne est un enregistrement unique et chaque colonne est un champ d’enregistrement. Tous les champs et tous les enregistrements s’affichent par défaut.
 
@@ -182,7 +180,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -547,51 +545,52 @@ Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un 
    >
    >Vous pouvez sélectionner le bouton bascule **Afficher les collaborateurs** dans n’importe quel mode. Le champ actuellement modifié par d’autres utilisateurs est uniquement indiqué dans la vue Tableau.
 
-<!--<div class="preview">
+<div class="preview">
 
-## Export the table view
+## Exporter la vue du tableau
 
-You can export information in the table view to a CSV or an Excel file. 
+Vous pouvez exporter des informations dans la vue Tableau au format CSV ou Excel.
 
-Consider the following when exporting the table view:
+Tenez compte des points suivants lors de l’exportation de la vue Tableau :
 
-* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
+* Les informations exportées vers un fichier Excel conservent les filtres, les regroupements et les tris appliqués à la vue Tableau dans Workfront Planning. Les regroupements ne sont pas visibles dans le fichier CSV.
 
-* Thumbnails and custom row colors are not supported in exported files.  
+* Les miniatures et les couleurs de ligne personnalisées ne sont pas prises en charge dans les fichiers exportés.
 
-* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
+* Seuls les champs rendus visibles dans l’interface de Workfront sont exportés. Les champs masqués ne sont pas exportés.
 
-To export information from the table view or a record type:
+Pour exporter des informations à partir de la vue Table ou d&#39;un type d&#39;enregistrement :
 
-1. Go to a record type page and click a table view tab. 
-1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
-1. Click **Export**, then select one of the following formats:
+1. Accédez à une page de type enregistrement et cliquez sur un onglet de vue Tableau.
+1. Pointez sur le nom de l’onglet Vue du tableau, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png).
 
-    * Excel
-    * CSV
+   ![Menu Plus sur une vue](assets/view-more-menu-with-duplicate-option.png)
+1. Cliquez sur **Exporter**, puis sélectionnez l’un des formats suivants :
 
-    >[!IMPORTANT]
-    >
-    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
+   * Excel
+   * CSV
 
-    The file is downloaded to your computer. 
+   >[!IMPORTANT]
+   >
+   >Vous ne pouvez pas exporter des informations de la vue Tableau lorsque vous affichez une vue différente à l’écran. Vous devez afficher la vue du tableau que vous souhaitez exporter afin d’accéder à l’option Exporter du menu Plus .
 
-1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
+   Le fichier est téléchargé sur votre ordinateur.
 
-    The name of the exported file follows the following format: 
+1. (Facultatif) Accédez au dossier des téléchargements sur votre ordinateur et recherchez le fichier téléchargé.
 
-    `Name of the view - name of the record type`
+   Le nom du fichier exporté suit le format suivant :
 
-    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
+   `Name of the view - name of the record type`
 
-    The file displays the following information: 
-    
-    * The column headers are highlighted in black, in the Excel file
-    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
-    * Groupings are preserved in the Excel file
+   Par exemple, une vue Tableau pour le type d’enregistrement Campagnes génère un fichier nommé `Table view - Campaigns`.
 
-    You can now share the exported files with others, or attach them to any communication. 
-    
- </div>   
+   Le fichier affiche les informations suivantes :
 
- -->
+   * Les en-têtes des colonnes sont surlignés en noir dans le fichier Excel
+   * Tous les champs visibles dans l’interface de Workfront, triés et filtrés selon les mêmes critères
+   * Les regroupements sont conservés dans le fichier Excel
+
+   Vous pouvez désormais partager les fichiers exportés avec d’autres personnes ou les joindre à une communication.
+
+</div>
+

@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 30%
+source-wordcount: '440'
+ht-degree: 25%
 
 ---
-
 
 # Supprimer les vues d’enregistrement
 
@@ -111,11 +111,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Par défaut, tous les enregistrements du type sélectionné s’affichent dans la vue tableau.
 
-1. Pointez sur l&#39;un des noms de la vue dans l&#39;onglet Vue, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png) à gauche du nom de la vue, puis cliquez sur **Supprimer**.
+1. <span class="preview">Pointez sur l’un des noms de la vue dans l’onglet Vue, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png) à gauche du nom de la vue, puis cliquez sur **Supprimer**.</span>
 
-   Vous devrez peut-être d’abord cliquer sur **Plus** à gauche du dernier onglet pour trouver la vue que vous souhaitez supprimer.
+   <span class="preview">![Menu Afficher plus sur une vue d’enregistrement](assets/view-more-menu-with-duplicate-option.png)</span>
 
-   ![Menu Afficher plus sur une vue d’enregistrement](assets/view-more-menu-with-duplicate-option.png)
+   >[!TIP]
+   >
+   >Vous devrez peut-être cliquer sur **Plus** à droite du dernier onglet pour trouver la vue à supprimer.
+
 
 1. Cliquez sur **Supprimer** pour confirmer. <!--ensure there is not another saving step here?!-->
 

@@ -6,10 +6,10 @@ description: Vous pouvez modifier les modèles de projet pour refléter les chan
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '4877'
-ht-degree: 95%
+source-wordcount: '4881'
+ht-degree: 94%
 
 ---
 
@@ -1100,7 +1100,7 @@ L’ajout des éléments suivants à un modèle est identique à l’ajout à un
 
 * Taux de facturation
 
-  Pour plus d’informations sur le remplacement des taux de facturation d’un projet, voir [Vue d’ensemble du remplacement des taux de facturation des fonctions et du calcul des revenus d’un projet](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  L’ajout de taux de facturation pour un modèle est similaire à l’ajout de taux de facturation à un projet. Pour plus d’informations, voir [Remplacer les taux de facturation des fonctions à l’échelle d’un projet](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 * Frais
 

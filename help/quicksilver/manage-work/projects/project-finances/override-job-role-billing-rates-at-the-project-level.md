@@ -6,10 +6,10 @@ description: En tant que personne gestionnaire de projet, vous pouvez spécifier
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 96%
+source-wordcount: '850'
+ht-degree: 93%
 
 ---
 
@@ -72,6 +72,8 @@ Vous pouvez remplacer le taux de facturation d’une fonction dans un projet des
 
 * Plusieurs fois, en sélectionnant plusieurs nouveaux taux pour des périodes spécifiques.\
   Un autre taux peut être utilisé au cours de chaque période spécifiée.
+
+* Vous pouvez ajouter de nouveaux taux de facturation à un modèle de projet, lesquels deviennent des taux de facturation du projet lorsque vous créez le projet à partir de ce modèle. Pour plus d’informations sur la modification de modèles, voir [Modifier des modèles de projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 >[!TIP]
 >
