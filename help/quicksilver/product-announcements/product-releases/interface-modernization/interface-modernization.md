@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 8e8a10d375e721199c5f81f425178a7bae0bf0c0
+source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
 workflow-type: tm+mt
-source-wordcount: '2365'
-ht-degree: 0%
+source-wordcount: '3539'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +21,46 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 >Dans la plupart des cas, chaque mise à jour est d’abord publiée dans l’environnement de Prévisualisation, puis activée de manière incrémentielle dans l’environnement de Production pour un sous-ensemble croissant de clients à partir de la date de publication de Production répertoriée.
 
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+
+
+## Administration et configuration
+
+### Mises à jour de l’interface des éléments récemment restaurés d’un groupe
+
+**Version préliminaire : 15 mai 2025 ; Version de production : 15 mai 2025**
+
+Nous avons mis à jour l’aspect des éléments récemment restaurés pour les groupes, afin qu’ils correspondent à la conception d’autres zones de Workfront. Aucune fonctionnalité n&#39;a été modifiée pour les projets de groupe, tâches, demandes, documents ou modèles récemment restaurés.
+
+Pour afficher cette modification, accédez à Configuration > Groupes > Sélectionner le nom du groupe > Récemment restauré.
+
+Pour plus d’informations, voir [Afficher et gérer les éléments récemment restaurés d’un groupe](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+
+### Mises à jour de l’interface vers la page Diagnostics de la configuration
+
+**Version préliminaire : 15 mai 2025 ; Version de production : 15 mai 2025**
+
+Nous avons mis à jour l’aspect de la page Diagnostics dans la zone Configuration afin qu’elle corresponde à la conception d’autres zones de Workfront.
+
+Pour afficher cette modification, accédez à Configuration > Système > Diagnostics.
+
+Pour plus d’informations, voir [Utiliser les diagnostics pour déclencher des processus automatisés](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+
+### Mises à jour de l’interface lors de l’ajout d’un taux de facturation à un modèle
+
+**Version préliminaire : 15 mai 2025 ; Version de production : 15 mai 2025**
+
+Nous avons mis à jour l’interface lors de l’ajout d’un taux de facturation à un modèle, afin de correspondre à d’autres zones de l’application.
+
+Aucune modification de fonctionnalité n’a été introduite avec cette mise à jour.
+
+## Documents
+
+### Partager un document avec une adresse e-mail externe
+
+**Version préliminaire : 15 mai 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour la boîte de dialogue de partage pour permettre aux utilisateurs de partager des documents avec des utilisateurs externes à l’aide d’une adresse e-mail. Cette fonctionnalité était temporairement indisponible en raison du travail de modernisation de l’interface.
 
 ## Navigation et recherche
 
@@ -42,9 +82,103 @@ Pour plus d’informations, voir [Recherche [!DNL Adobe Workfront]](/help/quicks
 
 Nous avons mis à jour la page que vous utilisez pour accorder l’accès à l’assistance à votre compte Workfront avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
-## Administration et configuration
+
+## Utilisateurs
+
+### Mise à jour de la recherche de la page de connexion
+
+**Version préliminaire : 15 mai 2024 ; Version de production : à annoncer**
+
+Nous avons mis à jour la page de connexion avec un design plus moderne et cohérent avec les autres zones de Workfront.
+
+### Mise à jour de la recherche de la page de réinitialisation du mot de passe
+
+**Version préliminaire : 15 mai 2024 ; Version de production : à annoncer**
+
+Nous avons mis à jour l’écran de réinitialisation du mot de passe avec une conception plus moderne et cohérente avec les autres zones de Workfront. Cette mise à jour comprend des mises à jour des pages suivantes :
+
+* Mot de passe presque expiré
+* Mot de passe expiré
+* Mot de passe temporaire
+
+### Mise à jour de la page de partage de documents pour les utilisateurs externes
+
+**Version préliminaire : 10 avril 2024 ; Version de production : à partir de la semaine du 17 avril 2024**
+
+Nous avons mis à jour la page de partage de documents pour les utilisateurs externes avec une conception plus moderne et cohérente avec d’autres zones de Workfront.
+
+Les utilisateurs externes ne peuvent plus accéder à _Mes paramètres_ depuis cette page.
+
+### Mise à jour de la page d’enregistrement des utilisateurs externes
+
+**Version préliminaire : 24 avril 2024 ; Version de production : à partir de la semaine du 8 mai 2024**
+
+Nous avons mis à jour la page d’enregistrement des utilisateurs externes avec une conception plus moderne et cohérente avec d’autres aspects de Workfront.
+
+## Licences
+
+### Page de contrat de licence mise à jour
+
+**Version préliminaire : 24 avril 2024 ; Version de production : à partir de la semaine du 8 mai 2024**
+
+Nous avons mis à jour la page du contrat de licence avec une conception plus moderne et cohérente avec les autres aspects de Workfront.
+
+
+
+## Mises à jour de l’interface effectuées au 2e trimestre
+
+
+### Administration et configuration
 
 +++Développez pour afficher les mises à jour de l’interface Administration et configuration effectuées au 2e trimestre
+
+### Mises à jour de l’interface de la zone Gestion des ressources dans la configuration
+
+**Version préliminaire : 17 avril 2025 ; à partir de la semaine du 17 avril 2025**
+
+Nous avons mis à jour l’aspect des préférences Gestion des ressources dans la zone Configuration afin qu’elles correspondent à la conception d’autres zones de Workfront.
+
+Pour plus d’informations, voir [Configuration des préférences de gestion des ressources](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+## Mises à jour de l’interface vers une liste de chemins jalonnés dans la configuration
+
+**Version préliminaire : 6 mars 2025 ; début de la semaine du 10 avril 2025**
+
+Nous avons mis à jour l’aspect de la liste Chemin jalonné dans la zone Configuration afin qu’elle corresponde à la conception d’autres zones de Workfront.
+
+Pour plus d’informations, voir [Créer un chemin jalonné](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+## Mise à jour de l&#39;interface vers la zone Modifier le type de risque dans Configuration
+
+**Version préliminaire : 27 mars 2025 ; à partir de la semaine du 10 avril 2025**
+
+Nous avons mis à jour l&#39;aspect de la zone Modifier le type de risque lorsque vous mettez à jour un type de risque existant dans la zone Configuration de Workfront. La nouvelle conception correspond désormais à d’autres zones de Workfront.
+
+Pour plus d&#39;informations, voir [Modifier et créer des types de risques](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+### Mise à jour de l&#39;interface vers la zone Nouveau type de risque dans Configuration
+
+**Version préliminaire : 27 mars 2025 ; à partir de la semaine du 10 avril 2025**
+
+Nous avons mis à jour l&#39;aspect de la zone Nouveau type de risque lorsque vous ajoutez un nouveau type de risque dans la zone Configuration de Workfront. La nouvelle conception correspond désormais à d’autres zones de Workfront.
+
+Pour plus d&#39;informations, voir [Modifier et créer des types de risques](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+### Mise à jour de l&#39;interface dans les boîtes de dialogue Types de dépenses de la Configuration
+
+**Version préliminaire : 27 mars 2025 ; à partir de la semaine du 10 avril 2025**
+
+Nous avons mis à jour l’aspect des boîtes de dialogue pour l’ajout et la modification des types de dépenses dans la zone Configuration , afin qu’elles correspondent à la conception d’autres zones de Workfront.
+
+Pour plus d&#39;informations, voir [Créer des types de dépenses personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+
+### Mise à jour de l’expérience dans la zone Niveaux d’accès de la Configuration
+
+**Version préliminaire : 27 mars 2025 ; à partir de la semaine du 10 avril 2025**
+
+Pour améliorer les performances, nous avons apporté quelques mises à jour visuelles à la zone Niveaux d&#39;accès dans la configuration.
+
+Une petite modification de fonctionnalité a été appliquée à la liste Niveaux d&#39;accès. Pour copier, modifier ou supprimer un niveau d&#39;accès, sélectionnez-le et cliquez sur l&#39;icône correspondante.
 
 ### Mise à jour de l’interface pour le Centre d’annonces
 
@@ -172,7 +306,7 @@ Cette mise à jour inclut des modifications visuelles dans la zone. Aucune fonct
 
 +++
 
-## Agile
+### Agile
 
 +++Développez pour afficher les mises à jour de l’interface Agile effectuées au 2e trimestre.
 
@@ -236,13 +370,7 @@ Pour afficher cette modification, accédez à Équipes > choisir une équipe > L
 
 +++
 
-## Documents
-
-### Partager un document avec une adresse e-mail externe
-
-**Version préliminaire : 15 mai 2025 ; Version de production : à annoncer**
-
-Nous avons mis à jour la boîte de dialogue de partage pour permettre aux utilisateurs de partager des documents avec des utilisateurs externes à l’aide d’une adresse e-mail. Cette fonctionnalité était temporairement indisponible en raison du travail de modernisation de l’interface.
+### Documents
 
 +++Développer pour afficher les mises à jour de l’interface Documents effectuées au 2e trimestre
 
@@ -282,13 +410,118 @@ Pour afficher cette modification, accédez à Documents > Cliquez sur le menu Pl
 
 +++
 
-## Rapports et tableaux de bord
+### Projets
+
++++Développez pour afficher les mises à jour de l’interface des projets effectuées au 2e trimestre.
+
+### Mises à jour de l’aspect de la zone Détails de la file d’attente d’un projet
+
+**Version préliminaire : 27 mars 2025 ; à partir de la semaine du 10 avril 2025**
+
+Nous avons mis à jour l’aspect de la zone Détails de la file d’attente sur un projet, afin qu’elle corresponde à la conception des autres zones de Workfront.
+
+Avec cette mise à jour, l’aspect de la zone Détails de la file d’attente d’un modèle n’a pas changé.
+
+Pour plus d’informations, voir [Créer une file d’attente des demandes](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+### Mise à jour de l’affichage d’un chemin jalonné de projet dans une vue de projet
+
+**Version préliminaire : 13 mars 2025 ; à partir de la semaine du 10 avril 2025**
+
+Lors de l’accès au chemin jalonné à partir d’une liste de projets ou d’un rapport, la page des détails du jalon a désormais une nouvelle apparence. Vous devez ajouter le champ Nom du chemin jalonné à l&#39;affichage de la liste ou du rapport pour pouvoir accéder à la page de détails du chemin jalonné.
+
+Avec cette mise à jour, nous avons également ajouté des informations sur les couleurs et les codes couleur de chaque jalon.
+
+Pour plus d’informations, voir [Créer un chemin jalonné](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
++++
+
+
+### Rapports et tableaux de bord
 
 +++Développez pour afficher les mises à jour de l’interface Rapports et tableaux de bord effectuées au 2e trimestre.
 
+### Mises à jour de l’apparence d’un rapport Chemin jalonné
+
+**Version préliminaire : 30 avril 2025 ; Version de production : 30 avril 2025**
+
+Nous avons mis à jour l’aspect du rapport Chemin jalonné pour qu’il corresponde à la conception d’autres zones de Workfront.
+
+Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### Rapports mis à jour avec un nouveau style
+
+**Version préliminaire : 23 avril 2025 ; Version de production : 23 avril 2025**
+
+Nous avons mis à jour l’aspect de plusieurs rapports afin qu’ils correspondent à la conception d’autres zones de Workfront. Aucune fonctionnalité n’a été modifiée.
+
+Cette mise à jour inclut des modifications visuelles des listes et des barres d’outils des rapports pour les types d’objet suivants :
+
+* Tâches de modèles
+* Groupes de sujets
+* Cartes de score
+* Planifications
+
+Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### Mises à jour des interfaces pour les éléments récemment restaurés
+
+**Version préliminaire : 23 avril 2025 ; Version de production : 23 avril 2025**
+
+Nous avons mis à jour l’aspect des éléments récemment restaurés dans la zone Configuration afin qu’ils correspondent à la conception d’autres zones de Workfront. Aucune fonctionnalité n&#39;a été modifiée pour les projets, tâches, demandes, documents ou modèles récemment restaurés.
+
+Pour afficher cette modification, accédez à Configuration > Corbeille > Récemment restauré.
+
+Pour plus d’informations, voir [Afficher les éléments restaurés](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+### Mises à jour de l’interface pour la zone Supprimer la société dans un rapport d’entreprise
+
+**Version préliminaire : 17 avril 2025 ; Version de production : 17 avril 2025**
+
+Nous avons mis à jour l’aspect de la zone Supprimer une entreprise lorsque vous supprimez une entreprise d’un rapport d’entreprise. La nouvelle conception correspond désormais à d’autres zones de Workfront.
+
+Avec cette mise à jour, l’aspect de la zone Supprimer l’entreprise sur la page Entreprises dans la zone Configuration n’a pas changé.
+
+### Rapports mis à jour avec un nouveau style
+
+**Version préliminaire : 17 avril 2025 ; Version de production : 17 avril 2025**
+
+Nous avons mis à jour l’aspect de plusieurs rapports afin qu’ils correspondent à la conception d’autres zones de Workfront.
+
+Cette mise à jour inclut des modifications visuelles des listes et des barres d’outils des rapports suivants. Aucune fonctionnalité n’a été modifiée.
+
+* Entreprise
+* Type de frais
+* Groupe
+* Type d’heure
+* Entrée au journal
+* Ressource non liée à la main-d’œuvre (disponible uniquement pour des clients spécifiques)
+* Catégorie de ressources non liées à la main-d’œuvre (disponible uniquement pour des clients spécifiques)
+* Rubrique de file d&#39;attente
+* Type de risque
+* Profil de feuille de temps
+* Délégation d&#39;utilisateur
+
+Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### Rapports mis à jour avec un nouveau style
+
+**Version préliminaire : 9 avril 2025 ; Version de production : 9 avril 2025**
+
+Nous avons mis à jour l’aspect de plusieurs rapports afin qu’ils correspondent à la conception d’autres zones de Workfront.
+
+Cette mise à jour inclut des modifications visuelles des listes et des barres d’outils des rapports suivants. Aucune fonctionnalité n’a été modifiée.
+
+* Paramètre
+* Groupe de paramètres
+* Formulaires personnalisés
+* Congés
+
+Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
 ### Mise à jour du rapport Niveau d&#39;accès avec un nouveau style
 
-**Version préliminaire : 30 janvier 2024 ; Version de production : à partir de la semaine du 6 février 2025**
+**Version préliminaire : 30 janvier 2025 ; Version de production : à partir de la semaine du 6 février 2025**
 
 Nous avons mis à jour le rapport Niveau d’accès avec une conception plus moderne et cohérente avec les autres aspects de Workfront.
 
@@ -351,42 +584,20 @@ Nous avons ajouté un nouveau bouton Modifier le mode Texte et modifié la boît
 
 +++
 
-## Utilisateurs
+### Mises à jour et commentaires
 
-### Mise à jour de la recherche de la page de connexion
++++Développez pour afficher les mises à jour de l’interface Mises à jour et commentaires effectuées au 2e trimestre.
 
-**Version préliminaire : 15 mai 2024 ; Version de production : à annoncer**
+### Mise à jour de l’interface pour les options du menu Plus pour les commentaires
 
-Nous avons mis à jour la page de connexion avec un design plus moderne et cohérent avec les autres zones de Workfront.
+**Version préliminaire : 17 avril 2024 ; Version de production : 17 avril 2024**
 
-### Mise à jour de la recherche de la page de réinitialisation du mot de passe
+Nous avons mis à jour l’aspect des options disponibles dans le menu Plus d’un commentaire dans la section Mises à jour pour tous les objets.
 
-**Version préliminaire : 15 mai 2024 ; Version de production : à annoncer**
+Cette mise à jour comprend les modifications suivantes :
 
-Nous avons mis à jour l’écran de réinitialisation du mot de passe avec une conception plus moderne et cohérente avec les autres zones de Workfront. Cette mise à jour comprend des mises à jour des pages suivantes :
+* Réorganisation des actions afin que des fonctions similaires soient regroupées.
+* Insertion de séparateurs pour séparer clairement chaque groupe.
+* Action Supprimer mise en surbrillance en l’affichant en rouge.
 
-* Mot de passe presque expiré
-* Mot de passe expiré
-* Mot de passe temporaire
-
-### Mise à jour de la page de partage de documents pour les utilisateurs externes
-
-**Version préliminaire : 10 avril 2024 ; Version de production : à partir de la semaine du 17 avril 2024**
-
-Nous avons mis à jour la page de partage de documents pour les utilisateurs externes avec une conception plus moderne et cohérente avec d’autres zones de Workfront.
-
-Les utilisateurs externes ne peuvent plus accéder à _Mes paramètres_ depuis cette page.
-
-### Mise à jour de la page d’enregistrement des utilisateurs externes
-
-**Version préliminaire : 24 avril 2024 ; Version de production : à partir de la semaine du 8 mai 2024**
-
-Nous avons mis à jour la page d’enregistrement des utilisateurs externes avec une conception plus moderne et cohérente avec d’autres aspects de Workfront.
-
-## Licences
-
-### Page de contrat de licence mise à jour
-
-**Version préliminaire : 24 avril 2024 ; Version de production : à partir de la semaine du 8 mai 2024**
-
-Nous avons mis à jour la page du contrat de licence avec une conception plus moderne et cohérente avec les autres aspects de Workfront.
+Pour plus d’informations, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
