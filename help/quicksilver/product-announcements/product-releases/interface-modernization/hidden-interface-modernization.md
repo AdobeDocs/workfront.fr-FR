@@ -6,9 +6,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: b2ab4ca5aab65966d3833b0e6d58a563e70694e0
+exl-id: c0bf438f-f496-420a-b3b6-b958c8a70d3f
+source-git-commit: 1d2761d50176ea5ddf7649f31da8423fd60a6fe6
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3365'
 ht-degree: 1%
 
 ---
@@ -556,6 +557,8 @@ Nous avons ajouté un nouveau bouton Modifier le mode Texte et modifié la boît
 
 ### Mises à jour et commentaires
 
++++Développez pour afficher les mises à jour de l’interface Mises à jour et commentaires effectuées au 2e trimestre.
+
 ### Mise à jour de l’apparence pour les options du menu Plus pour les commentaires
 
 **Version préliminaire : 17 avril 2024 ; Version de production : à partir de la semaine du 17 avril 2024**
@@ -569,3 +572,5 @@ Cette mise à jour comprend les modifications suivantes :
 * Action Supprimer mise en surbrillance en l’affichant en rouge.
 
 Pour plus d’informations, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
++++
