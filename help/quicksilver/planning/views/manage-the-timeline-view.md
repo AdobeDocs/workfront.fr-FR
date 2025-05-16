@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '3060'
 ht-degree: 49%
@@ -276,7 +276,7 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
 1. Cliquez sur **Style de barre** dans le panneau de gauche pour indiquer les informations à afficher sur les barres d’enregistrement.
 
-   <span class="preview">Vous pouvez définir le style de barre de l’enregistrement principal ainsi que des enregistrements connectés, lors de l’utilisation de l’option Répartition dans la vue Standard. </span>
+   Vous pouvez définir le style de barre de l&#39;enregistrement principal <span class="preview">ainsi que des enregistrements connectés</span>, lors de l&#39;utilisation de l&#39;option Répartition dans la vue Standard.
 
    Le champ principal (ou titre) de l&#39;enregistrement, tel que défini dans la vue Tableau de l&#39;enregistrement, est sélectionné par défaut.
    <!--adjust this when the primary field is released??-->
@@ -314,7 +314,7 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    ![Vue chronologique de l’onglet Couleur](assets/color-tab-timeline-view.png)
 
-   <span class="preview">Vous pouvez définir la couleur de l&#39;enregistrement principal ainsi que des enregistrements connectés, lors de l&#39;utilisation de l&#39;option Répartition dans la vue Standard. </span>
+   Vous pouvez définir la couleur de l&#39;enregistrement principal <span class="preview">ainsi que des enregistrements connectés</span>, lors de l&#39;utilisation de l&#39;option Répartition dans la vue Standard.
 
 1. (Le cas échéant et facultatif) Si vous avez ajouté un regroupement à la vue chronologique, sélectionnez l’une des options suivantes pour définir une couleur pour le regroupement dans la section **Définir la couleur du regroupement** :
 
