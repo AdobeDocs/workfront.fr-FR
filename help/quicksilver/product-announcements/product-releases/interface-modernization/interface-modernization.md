@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
+source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3691'
 ht-degree: 1%
 
 ---
@@ -82,8 +82,28 @@ Pour plus d’informations, voir [Recherche [!DNL Adobe Workfront]](/help/quicks
 
 Nous avons mis à jour la page que vous utilisez pour accorder l’accès à l’assistance à votre compte Workfront avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
+## Rapports et tableau de bord
+
+### Les URL avec /tile ou /qstile ne sont plus prises en charge dans les tableaux de bord Workfront
+
+**Version préliminaire : 13 mai ; Version de production : à annoncer**
+
+Si une page externe figure dans un tableau de bord avec une URL Workfront contenant des `/tile` ou des `/qstile`, cette page ne se charge plus.
+
+L’ajout de `/tile` ou de `/qstile` à une URL Workfront a permis au navigateur de charger des pages d’expérience classique non prises en charge qui ont été abandonnées en juillet 2022.
+
+Nous vous recommandons de remplacer l’URL pour accéder à une page prise en charge ou de supprimer la page externe de votre tableau de bord.
+
 
 ## Utilisateurs
+
+### Mise à jour de l’interface vers la nouvelle page d’enregistrement des utilisateurs
+
+**Version préliminaire : 15 mai 2024 ; Version de production : à annoncer**
+
+Nous avons mis à jour la nouvelle page d’inscription des utilisateurs avec un design plus moderne et cohérent avec les autres aspects de Workfront.
+
+Les utilisateurs n’ont plus la possibilité de charger une photo sur cette page. Cependant, ils peuvent charger une photo dans leur profil utilisateur une fois qu’ils se sont connectés à Workfront.
 
 ### Mise à jour de la recherche de la page de connexion
 
@@ -122,7 +142,6 @@ Nous avons mis à jour la page d’enregistrement des utilisateurs externes avec
 **Version préliminaire : 24 avril 2024 ; Version de production : à partir de la semaine du 8 mai 2024**
 
 Nous avons mis à jour la page du contrat de licence avec une conception plus moderne et cohérente avec les autres aspects de Workfront.
-
 
 
 ## Mises à jour de l’interface effectuées au 2e trimestre
