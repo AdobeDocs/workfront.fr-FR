@@ -1,21 +1,23 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: Lorsqu’APIModel INTERNAL ne prend pas en charge le champ projectid (OpTask)Category.
-description: Lorsqu’APIModel INTERNAL ne prend pas en charge le champ projectid (OpTask).
+title: Catégorie
+description: Tableau des champs disponibles pour l’objet Catégorie, avec leurs descriptions et leurs types de valeurs.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 90%
 
 ---
 
 
 # Catégorie
+
+<!-- Audited: 5/2025 -->
 
 Fieldsclass : « java.lang.IllegalArgumentException&quot; »,\
 message : « APIModel INTERNAL does not support field projectid (OpTask) »
@@ -90,7 +92,7 @@ message : « APIModel INTERNAL does not support field projectid (OpTask) »
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;extRefID&quot;}"><strong>extRefID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;External Reference ID&quot;}">ID de référence externe</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Chaîne</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">Champ modifiable par l’utilisateur ou l’utilisatrice destiné à servir de lien vers un objet externe</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">Champ modifiable par l’utilisateur destiné à être utilisé comme lien vers un objet externe</td> 
    <td> </td> 
    <td> <p><span class="dtEdit">Modifiable</span> </p> </td> 
   </tr> 
@@ -139,23 +141,23 @@ message : « APIModel INTERNAL does not support field projectid (OpTask) »
 
 ## Références
 
-| Nom | Étiquette | Type | Code de type d’objet | URL |
-|---|---|---|---|---|
-| Client | customer | Client | CUST | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Entré par | enteredBy | l’utilisateur ou de l’utilisatrice | USER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Groupe | groupe | Groupe | GROUP | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Dernière mise à jour par | lastUpdatedBy | l’utilisateur ou de l’utilisatrice | USER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Nom | Étiquette | Type | Code de type d’objet |
+|---|---|---|---|
+| Client | customer | Client | CUST |
+| Entré par | enteredBy | l’utilisateur ou de l’utilisatrice | USER |
+| Groupe | groupe | Groupe | GROUP |
+| Dernière mise à jour par | lastUpdatedBy | l’utilisateur ou de l’utilisatrice | USER |
 
 
 ## Collections
 
-| Nom | Étiquette | Type | Code de type d’objet | URL |
-|---|---|---|---|---|
-| Règles d&#39;accès | accessRules | Règle d&#39;accès | ACSRUL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Règles d’accès aux catégories | categoryAccessRules | Règles d’accès aux catégories | CATACR | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Règles de cascade des catégories | categoryCascadeRules | Règles de cascade des catégories | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Paramètres de catégorie | categoryParameters | Paramètres de catégorie | CTGYPA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Autres groupes | otherGroups | Groupe | GROUP | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Nom | Étiquette | Type | Code de type d’objet |
+|---|---|---|---|
+| Règles d&#39;accès | accessRules | Règle d&#39;accès | ACSRUL |
+| Règles d’accès aux catégories | categoryAccessRules | Règles d’accès aux catégories | CATACR |
+| Règles de cascade des catégories | categoryCascadeRules | Règles de cascade des catégories | CTCSRL |
+| Paramètres de catégorie | categoryParameters | Paramètres de catégorie | CTGYPA |
+| Autres groupes | otherGroups | Groupe | GROUP |
 
 
 ## Actions

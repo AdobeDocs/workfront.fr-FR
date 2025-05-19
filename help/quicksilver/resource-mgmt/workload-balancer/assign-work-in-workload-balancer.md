@@ -1,19 +1,21 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Présentation de l’affectation de travail dans l’équilibreur de charge de travail
+title: Présentation de l’affectation de tâches dans l’équilibreur de charge de travail
 description: En tant que personne gestionnaire de ressources, vous pouvez utiliser l’équilibreur de charge de travail Adobe Workfront pour afficher les éléments de travail qui n’ont pas encore été attribués à des utilisateurs et utilisatrices et leur attribuer ces éléments.
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 99%
+source-wordcount: '1032'
+ht-degree: 92%
 
 ---
 
 # Vue d’ensemble de l’affectation de travail dans l’équilibreur de charge de travail
+
+<!-- Audited: 5/2025 -->
 
 En tant que personne gestionnaire de ressources, vous pouvez utiliser l’équilibreur de charge de travail Adobe Workfront pour afficher les éléments de travail qui n’ont pas encore été attribués à des utilisateurs et utilisatrices et leur attribuer ces éléments.
 
@@ -28,9 +30,9 @@ Pour plus d’informations sur l’attribution d’éléments de travail dans d�
 
 ## Disponibilité des utilisateurs et utilisatrices dans l’équilibreur de charge de travail
 
-Vous pouvez attribuer le travail dans l’équilibreur de charge de travail en fonction du temps disponible des utilisateurs et utilisatrices. Pour vous assurer que vous attribuez la bonne quantité de travail à l’utilisateur ou à l’utilisatrice, le nombre total d’heures prévues des éléments de travail attribués doit correspondre aux attributions quotidiennes ou hebdomadaires de l’utilisateur ou de l’utilisatrice.
+Vous pouvez attribuer le travail dans l’équilibreur de charge de travail en fonction du temps disponible des utilisateurs et utilisatrices. Pour vous assurer que vous affectez la quantité de travail appropriée et que vous ne suraffectez pas l’utilisateur, le total des heures prévues pour les éléments de travail affectés à l’utilisateur doit correspondre aux allocations quotidiennes ou hebdomadaires de l’utilisateur.
 
-Vous devez comprendre comment Workfront calcule le temps disponible des utilisateurs et utilisatrices.
+Il est important de comprendre comment Workfront calcule le temps disponible pour un utilisateur.
 
 Workfront utilise les informations suivantes pour calculer la capacité des utilisateurs et utilisatrices dans l’équilibreur de charge de travail :
 
@@ -43,7 +45,7 @@ Workfront utilise les informations suivantes pour calculer la capacité des util
 
   Pour plus d’informations, voir [Configurer les préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  Pour plus d’informations sur les plannings, voir [Créer un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  Pour plus d’informations sur les plannings, consultez la section [Créer un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Congés de l’utilisateur ou de l’utilisatrice. Indique les jours où les utilisateurs et utilisatrices prévoient d’être absents.
 
@@ -80,8 +82,8 @@ Vous pouvez attribuer du travail aux utilisateurs et utilisatrices à l’aide d
 
 Deux zones de l’équilibreur de charge de travail permettent d’afficher les éléments de travail :
 
-* **Travail non affecté** : affiche les éléments qui ne sont pas attribués à des utilisateurs et utilisatrices.
-* **Travail affecté** : affiche les éléments qui sont attribués à des utilisateurs et utilisatrices.
+* **Tâches non affectées** : affiche les éléments qui ne sont pas affectés aux utilisateurs.
+* **Travail affecté** : affiche les éléments affectés aux utilisateurs.
 
 Le tableau suivant décrit les éléments qui s’affichent dans chaque zone en fonction de leur affectation :
 
