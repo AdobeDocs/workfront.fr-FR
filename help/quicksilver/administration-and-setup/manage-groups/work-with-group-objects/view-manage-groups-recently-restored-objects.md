@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 90%
+source-wordcount: '333'
+ht-degree: 71%
 
 ---
 
@@ -79,19 +79,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Chaque onglet répertorie les éléments du type d’objet correspondant qui appartiennent au groupe actif ou à ses sous-groupes et qui ont été restaurés au cours des 30 derniers jours.
 
-1. Effectuez l’une des actions suivantes :
+1. (Facultatif) Pour exporter la liste complète des objets de l’onglet, cliquez sur l’icône **Exporter**. ![icône Exporter](assets/export-icon.png).
+1. (Facultatif) Modifiez l’affichage des informations dans la liste à l’aide d’un filtre, d’une vue ou d’un regroupement.
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"> <p>Exporter la liste complète des objets de l’onglet</p> </td> 
-      <td> <p>Cliquez sur <strong>Exporter</strong>.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>Modifier l’affichage des informations dans la liste</p> </td> 
-      <td> <p>Dans le coin supérieur droit de la liste, utilisez <strong>Filtrer</strong> pour définir ce qui s’affiche en fonction des critères que vous fournissez. Utilisez <strong>Affichage</strong> pour définir quels champs sont affichés sous forme de colonnes. Utilisez <strong>Regroupement</strong> pour regrouper les éléments en catégories.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   Pour plus d’informations, voir [ Présentation des éléments de rapports ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+

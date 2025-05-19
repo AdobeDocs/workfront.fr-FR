@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2785'
 ht-degree: 97%
 
 ---
@@ -104,7 +104,7 @@ Pour exporter un modèle Kickstart, procédez comme suit :
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Tableau de bord</p> <p>Tous les tableaux de bord du système peuvent être exportés. Vous pouvez sélectionner jusqu’à 100 tableaux de bord spécifiques dans un seul export.</p> </td> 
+      <td scope="col"> <p>Tableau de bord</p> <p>Tous les tableaux de bord partagés publiquement dans le système peuvent être exportés. Impossible d’exporter les tableaux de bord non partagés à l’échelle du système. Vous pouvez sélectionner jusqu’à 100 tableaux de bord spécifiques dans un seul export.</p> </td> 
       <td scope="col">Exporte sous forme de fichier ZIP.</td> 
       <td scope="col"> <p>Paramètre</p> <p>Texte descriptif</p><p>Option de paramètre</p> <p>Groupe de paramètres</p> <p>Paramètre de catégorie</p> <p>Catégorie</p> <p>Rapport</p> <p>Section d'onglet de portail</p> <p>Tableau de bord</p> <p>Préférences</p> </td> 
      </tr> 

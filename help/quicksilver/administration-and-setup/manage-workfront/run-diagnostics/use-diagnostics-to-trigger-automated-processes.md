@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 94%
@@ -80,17 +80,15 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <td> <p>Envoie manuellement des notifications de rappel. </p> <p>Pour plus d’informations sur la configuration des notifications de rappel, voir <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Configurer des notifications de rappel</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Examiner tous les comptes POP</td> 
-      <td> <p>Recherche de nouveaux e-mails envoyés aux comptes POP liés à Workfront. </p> <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about Workfront and POP account integrations, see and <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.</p>
-       --> </td> 
+      <td role="rowheader">Examiner tous les comptes POP</td> 
+      <td>Recherche de nouveaux e-mails envoyés aux comptes POP liés à Workfront.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Recalculer les chronologies</td> 
       <td> <p>Recalcule la chronologie de tous les projets Workfront qui ont le statut Actif. </p> <p>Pour plus d’informations sur le calcul automatique ou manuel de la chronologie des projets, projet par projet, voir <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculer les chronologies des projets</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Rétablir les rapports clients par défaut</td> 
+      <td role="rowheader">Rétablir les rapports clientèle par défaut</td> 
       <td>Restaure les rapports par défaut qui ont été initialement fournis avec Workfront, de sorte qu’ils soient visibles dans la section <strong>Rapports</strong> pour tous les utilisateurs et toutes les utilisatrices.</td> 
      </tr> 
      <tr> 

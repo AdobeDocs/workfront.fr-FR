@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 93%
+source-wordcount: '1043'
+ht-degree: 90%
 
 ---
 
@@ -167,6 +167,10 @@ Les restrictions suivantes s’appliquent lors de l’export de données par le 
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >Si l’option **Tableau de bord** n’est pas disponible, cela signifie que votre système ne comporte aucun tableau de bord partagé à l’échelle du système. Vous ne pouvez pas exporter de tableaux de bord privés.
 
 1. Cliquez sur **Plus d’options** pour afficher la liste intégrale des objets.
 
@@ -330,7 +334,7 @@ Les restrictions suivantes s’appliquent lors de l’export de données par le 
 
    Le fichier Kickstart exporté est téléchargé sur votre ordinateur sous la forme d’un fichier Excel ou d’un fichier compressé contenant plusieurs fichiers Excel et fichiers de propriétés. Chaque fichier Excel est un ensemble de feuilles, chacune représentant un champ associé à l’objet sélectionné. Une feuille **Propriétés** est associée à chaque export.
 
-   Les options **Tableau de bord** et **Rapport** permettent de sélectionner des tableaux de bord et des rapports spécifiques à inclure dans le téléchargement. Vous ne pouvez exporter que les tableaux de bord qui sont partagés à l’échelle du système.
+   Les options **Tableau de bord** et **Rapport** permettent de sélectionner des tableaux de bord et des rapports spécifiques à inclure dans le téléchargement. Pour les tableaux de bord, vous pouvez uniquement exporter des tableaux de bord partagés à l’échelle du système.
 
    Il n’est pas possible d’exporter les rapports de matrice. Pour plus d’informations sur les rapports de matrice, voir la section [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 

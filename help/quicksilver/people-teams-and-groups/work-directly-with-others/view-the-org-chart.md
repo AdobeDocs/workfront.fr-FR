@@ -1,12 +1,12 @@
 ---
 product-area: user-management
 navigation-topic: collaboration
-title: Affichage de l’organigramme
+title: Afficher l'organigramme
 description: La fonctionnalité d’organigramme vous permet de visualiser l’organigramme associé à un utilisateur ou une utilisatrice Adobe Workfront spécifique. Les organigrammes sont un excellent moyen de visualiser la structure d’un service en particulier.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 97%
@@ -49,5 +49,5 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step1-click-profile-pic}}
 
-1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Organigramme]**.\
-   ![Organigramme](assets/org-chart.png)
+1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Organigramme]**.
+   ![Organigramme](assets/org-chart-2025.png)
