@@ -8,14 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 04d41a8c9c8c04f2e7ef308465328ccc57bd3195
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '2017'
-ht-degree: 94%
+source-wordcount: '2057'
+ht-degree: 80%
 
 ---
 
 # Liste des plans directeurs disponibles
+
+<!-- Audited: 5/2025 -->
 
 Les plans directeurs [!DNL Adobe Workfront] suivants peuvent être installés par les administrateurs et administratrices système. Pour plus d’informations sur les plans directeurs, voir [Vue d’ensemble des plans directeurs](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
@@ -50,7 +52,7 @@ Le package [!UICONTROL Révision des ressources numériques] contient un seul mo
 Ce plan directeur contient un modèle que l’organisation des services professionnels [!DNL Workfront] a utilisé pendant des années durant les engagements de mise en œuvre avec les équipes informatiques de l’entreprise pour gérer les différentes activités qui doivent avoir lieu lorsqu’un employé ou une employée change de fonction. Ce modèle réduit les risques de sécurité lorsqu’un transfert du membre du personnel est réalisé sans supervision de l’équipe informatique. Il élimine également les heures perdues de temps non productif lorsque l’accès aux systèmes n’est pas accordé pour remplir les obligations de la nouvelle fonction de la personne employée.
 
 **[!UICONTROL Clôture opérationnelle de fin de mois]**
-Ce plan directeur contient un modèle que l’organisation de services professionnels [!DNL Workfront] a utilisé pendant des années durant les engagements de mise en œuvre avec les équipes des finances pour organiser la clôture comptable de fin de mois. Le modèle fournit une liste de contrôle des activités courantes qui doivent être réalisées chaque mois afin de rendre compte avec précision de la situation de l’entreprise et de promouvoir son intégrité.
+Ce plan directeur contient un modèle que l’organisation de services professionnels [!DNL Workfront] utilise depuis des années lors des missions de mise en œuvre avec les équipes financières pour organiser la clôture des comptes en fin de mois. Le modèle fournit une liste de contrôle des activités courantes qui doivent être réalisées chaque mois afin de rendre compte avec précision de la situation de l’entreprise et de promouvoir son intégrité.
 
 **[!UICONTROL Configuration de l’organisation financière]**
 Ce plan directeur contient la configuration des structures organisationnelles à étendre à un département des finances.
@@ -76,11 +78,14 @@ Ce plan directeur contient la configuration des structures organisationnelles à
 **[!UICONTROL Plan d’intégration des nouveaux employés et nouvelles employées]**
 Ce plan directeur contient un modèle que l’organisation [!DNL Workfront professional services] a utilisé pendant des années durant les engagements de mise en œuvre avec les équipes des ressources humaines pour aider les nouveaux employés et nouvelles employées à suivre leurs activités d’intégration.
 
-**[!UICONTROL Préparation à la nouvelle embauche]**
-Ce plan directeur contient un modèle que l’organisation des services professionnels [!DNL Workfront] a utilisé pendant des années durant les engagements de mise en œuvre avec les équipes des ressources humaines pour inciter les spécialistes des ressources humaines et les responsables d’embauche à mener à bien les activités essentielles pour rendre remarquable la première journée d’un nouvel employé ou d’une nouvelle employée.
+**[!UICONTROL Préparation des nouvelles embauches]**
+Ce plan directeur contient un modèle que l&#39;organisation de services professionnels [!DNL Workfront] utilise depuis des années lors des engagements de mise en œuvre avec les équipes des ressources humaines pour inciter les spécialistes des ressources humaines et les gestionnaires d&#39;embauche à réaliser les activités essentielles pour le premier jour d&#39;un employé.
 
 **Offboarding | Tableau de bord de l’utilisateur sortant**
 Ce plan directeur contient un seul tableau de bord avec 13 rapports pour vous aider à rechercher, réaffecter ou gérer les objets et affectations associés à un utilisateur quittant Workfront. Vous pouvez également utiliser ces rapports pour une personne qui change de fonction ou de groupe afin de réaffecter son travail.
+
+**Activation du partenaire : package GenStudio Foundation**
+Le package Activation du partenaire : GenStudio Foundation est conçu pour faciliter la promotion transparente de l’environnement de base de GenStudio. Il comprend tous les composants nécessaires pour exécuter efficacement le bootcamp.
 
 **Tableau de bord de People Manager**
 Ce plan directeur contient un seul tableau de bord avec 12 rapports afin de donner aux responsables de personnes une visibilité sur le travail de leurs subordonnés directs.
@@ -94,11 +99,11 @@ Le package [!UICONTROL Imprimer la production de ressources] contient un modèle
 **[!UICONTROL Imprimer la production de ressources] (Géré)**
 Le package [!UICONTROL Imprimer la production de ressources] contient un modèle qui organise le travail pour un processus d’impression standard. Ce package est conçu comme un point d’entrée pour la gestion de la création de ressources d’impression dans Workfront. Utilisez ce package pour créer les bases de la création de contenu d’impression, puis personnalisez-le afin de répondre aux besoins d’autres processus créatifs pour les supports imprimés.
 
-**[!UICONTROL Imprimer : production de ressources de courrier]**
-Le plan directeur [!UICONTROL Imprimer : production de ressources de courrier] organise le travail pour un processus de production de documents d’impression. Ce plan directeur est conçu comme un point d’entrée pour la gestion des documents d’impression, notamment le courrier, dans Workfront.
+**[!UICONTROL Imprimer : production de ressources par publipostage direct]**
+Le plan directeur [!UICONTROL Impression : production de ressources par publipostage direct] organise le travail pour un processus de production de documents imprimés. Ce plan directeur est conçu comme un point d’entrée pour la gestion des documents d’impression, notamment le courrier, dans Workfront.
 
-**[!UICONTROL Imprimer : création de contenu de courrier et exécution de campagne]**
-Le plan directeur [!UICONTROL Imprimer : création de contenu de courrier et exécution de campagne] organise le travail pour un processus de production de documents d’impression. Ce plan directeur est conçu comme un point d’entrée pour la gestion des documents d’impression, notamment le courrier, dans Workfront. Ce modèle est unique, car il contient également des tâches pour imprimer la ressource et exécuter la campagne de courrier indépendamment des autres activités de campagne.
+**[!UICONTROL Imprimer : création de contenu de publipostage direct et exécution de campagne]**
+Le plan directeur [!UICONTROL Impression : création et exécution de contenu de publipostage direct] organise le travail pour un processus de production de documents imprimés. Ce plan directeur est conçu comme un point d’entrée pour la gestion des documents d’impression, notamment le courrier, dans Workfront. Ce modèle est unique, car il contient également des tâches pour imprimer la ressource et exécuter la campagne de courrier indépendamment des autres activités de campagne.
 
 **[!UICONTROL Configuration de l’organisation des services professionnels]**
 Ce plan directeur contient la configuration des structures organisationnelles à étendre à un cas d’utilisation de services professionnels.
@@ -107,8 +112,7 @@ Ce plan directeur contient la configuration des structures organisationnelles à
 Ce plan directeur définit une liste de contrôle pour les ressources de recrutement internes à utiliser pour aider les parties prenantes de l’entreprise à suivre l’état de progression des demandes d’effectifs. Il est conçu pour prendre en charge un niveau de maturité géré.
 
 **Préparation de la gestion des ressources**
-
-Utilisez ce modèle de projet et ce rapport sur les utilisateurs et utilisatrices pour garantir que vous disposez des paramètres et des informations corrects nécessaires pour générer des données de gestion des ressources précises.
+Utilisez ce plan directeur pour vous assurer que vous disposez des paramètres et informations corrects nécessaires à la génération de données de gestion des ressources précises.
 
 **[!UICONTROL Auto-évaluation du contrôle des risques : planification clé de l’atténuation des risques]**
 L’[!UICONTROL auto-évaluation du contrôle des risques] (RSCA) définit un processus pour identifier les risques et mesurer les contrôles que vous avez mis en place pour les atténuer. Ce modèle formalise le processus d’évaluation des nouveaux risques, de mise en place de contrôles appropriés et de connaissances sur la mesure et la documentation de l’efficacité du contrôle.
@@ -120,10 +124,10 @@ L’[!UICONTROL auto-évaluation du contrôle des risques] (RSCA) définit un pr
 Le package [!UICONTROL Production de ressources sociales] contient un modèle qui organise le travail pour créer un artefact social. Le modèle fournit un processus allégé de création de ressources sociales d’origine pour une équipe qui s’appuie sur des procédures opérationnelles standard pour définir la manière de travailler et qui utilise le projet uniquement pour hiérarchiser le travail et suivre la progression.
 
 **[!UICONTROL Production de ressources sociales] (géré)**
-Le package [!UICONTROL Production de ressources sociales] contient un modèle qui organise le travail pour créer un artefact social. Ce package est conçu comme un point d’entrée pour la gestion de la création de ressources sociales dans Workfront. Utilisez ce package pour créer une base pour tous les processus de création de contenu social en le personnalisant afin de répondre aux besoins d’autres processus créatifs pour le contenu social.
+Le package [!UICONTROL Production de ressources sociales] contient un modèle qui organise le travail pour créer un artefact social. Il est conçu comme un point d’entrée pour la gestion de la création de ressources sociales dans Workfront. Utilisez ce package pour créer une base pour tous les processus de création de contenu social en le personnalisant afin de répondre aux besoins d’autres processus créatifs pour le contenu social.
 
-**[!UICONTROL Mise en œuvre de logiciels/développement d’applications]**
-Ce plan directeur contient un modèle que l’organisation des services professionnels [!DNL Workfront] utilise depuis des années des interactions relatives aux mises en œuvre avec les équipes informatiques pour organiser le travail d’installation de solutions tierces ou de création d’utilitaires et d’applications internes.
+**[!UICONTROL Implémentations logicielles/développement d’applications]**
+Ce plan directeur contient un modèle que l’organisation de services professionnels [!DNL Workfront] utilise depuis des années lors des engagements de mise en œuvre avec les équipes informatiques pour organiser le travail lors de l’installation de solutions tierces ou pour créer des utilitaires et des applications internes.
 
 **[!UICONTROL Tableau de bord de maintenance de l’administration système]**
 Ce plan directeur contient un seul tableau de bord pour aider les administrateurs et administratrices système à maintenir et nettoyer régulièrement le système des encombrements divers pouvant se développer au fil du temps.
@@ -142,7 +146,7 @@ Ce plan directeur contient un seul tableau de bord avec 7 rapports pour vous aid
 
 **Réalisation de la valeur | Tableau de bord de révision et d’approbation**
 
-Ce plan directeur contient un seul tableau de bord avec 7 rapports pour vous aider à réaliser la valeur de Workfront. Ces rapports vous aident à traduire les valeurs du travail d’examen et d’approbation des travaux en avantages mesurables dont vous pouvez effectuer le suivi au fil du temps pour obtenir de meilleurs résultats.
+Ce plan directeur contient un seul tableau de bord avec 7 rapports pour vous aider à réaliser la valeur de Workfront. Ces rapports vous aident à traduire les valeurs du travail d’examen et d’approbation des travaux en avantages mesurables dont vous pouvez effectuer le suivi au fil du temps pour obtenir de meilleurs résultats.
 
 **[!UICONTROL Production de ressources vidéo] (Intégré)**
 
@@ -153,7 +157,11 @@ Le package [!UICONTROL Production de ressources vidéo] contient un modèle qui 
 
 Modèle de communication et de lancement **[!UICONTROL [!DNL Workfront]]**
 
-Ce plan directeur contient un modèle qui organise le travail qu’un client ou une cliente [!DNL Workfront] doit effectuer pour disposer d’un déploiement idéal de l’application [!DNL Workfront].
+Ce plan directeur contient un modèle unique qui organise le travail qu’un client [!DNL Workfront] devra effectuer pour le déploiement de son application [!DNL Workfront].
+
+**Formation Workfront pour les nouveaux utilisateurs**
+
+Ce plan directeur contient 3 modèles de projet à utiliser comme liste de contrôle de formation lors de l’activation d’utilisateurs dans Workfront.
 
 **[!DNL Workfront Usage Dashboard]**
 Ce plan directeur contient un tableau de bord unique comprenant 11 rapports pour aider les administrateurs et administratrices système et les équipes de gouvernance à comprendre si leur configuration est utilisée comme prévu.

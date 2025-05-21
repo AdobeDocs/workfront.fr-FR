@@ -3,20 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Installation d’un plan directeur
+title: Installer un plan directeur
 description: Vous pouvez installer un plan directeur dans votre environnement de production ou un environnement sandbox.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 99%
+source-wordcount: '490'
+ht-degree: 76%
 
 ---
 
 # Installer un plan directeur
+
+<!-- Audited: 5/2025 -->
 
 Vous pouvez installer un plan directeur dans votre environnement de production ou un environnement sandbox.
 
@@ -63,7 +65,7 @@ Vous pouvez installer votre package dans l’un des environnements suivants :
     </tr>
     <tr>
         <td><strong>Aperçu de sandbox</strong></td>
-        <td>L’environnement de prévisualisation sandbox est un environnement de test qui sert de réplique à votre environnement en ligne et que Workfront actualise chaque week-end. Tous les packages de prise en charge ont accès à la prévisualisation sandbox. Pour plus d’informations, voir <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">l’environnement de prévisualisation sandbox [!DNL Adobe Workfront]</a>.</td>
+        <td>L’aperçu du sandbox est un environnement de test qui sert de réplique de votre environnement en ligne et qui est actualisé chaque week-end par Adobe Workfront. Tous les packages de prise en charge ont accès à la prévisualisation sandbox. Pour plus d’informations, voir <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">l’environnement de prévisualisation sandbox [!DNL Adobe Workfront]</a>.</td>
     </tr>
     <tr>
         <td><strong>Sandbox 1 et 2</strong></td>
@@ -73,28 +75,29 @@ Vous pouvez installer votre package dans l’un des environnements suivants :
 
 >[!TIP]
 >
->Nous vous recommandons d’installer d’abord le plan directeur dans un environnement sandbox. Ainsi, vous pouvez tester le contenu du plan directeur et vous assurer qu’il convient à votre organisation sans apporter de modifications aux données actives.
+>Nous vous recommandons d’installer d’abord le plan directeur dans un environnement Sandbox. Ainsi, vous pouvez tester le contenu du plan directeur et vous assurer qu’il convient à votre organisation sans apporter de modifications aux données actives.
 
 >[!NOTE]
 >
 >Certains plans directeurs ne peuvent être installés que dans l’environnement de prévisualisation à des fins de test. Si vous accédez à du contenu de prévisualisation uniquement dans votre environnement de production, sandbox 1, ou sandbox 2, le bouton d’installation n’est pas actif et un message d’avertissement peut s’afficher.\
->En outre, la fonctionnalité de changement d’environnement est limitée lors de l’accès au contenu de prévisualisation uniquement, même lorsque vous vous trouvez dans l’environnement de prévisualisation.
+>En outre, la fonctionnalité de changement d’environnement est limitée lors de l’accès au contenu en prévisualisation uniquement, même lorsque vous vous trouvez dans l’environnement de Prévisualisation.
 
 ## Installer le plan directeur
 
 {{step1-to-blueprints}}
 
-1. Recherchez le plan directeur que vous souhaitez installer. Vous pouvez filtrer par cas d’utilisation, niveau de maturité, statut d’installation et saisir le texte sur le côté droit.
+1. Recherchez le plan directeur que vous souhaitez installer. Vous pouvez filtrer par cas d’utilisation, niveau de maturité, statut d’installation et type sur le côté droit de la page.
 1. (Facultatif) Cliquez sur **[!UICONTROL Détails]** pour découvrir comment fonctionne le plan directeur.
 1. Cliquez sur **[!UICONTROL Installer]**.
 1. Choisissez d’effectuer l’installation sur votre environnement de production ou un environnement sandbox.\
    Pour plus d’informations, voir la section [Où installer un plan directeur ?](#where-should-i-install-a-blueprint) dans cet article.
-1. Sur la page [!UICONTROL Configurer], vous pouvez choisir d’effectuer l’une des opérations suivantes :
+1. Sur la page **Configurer**, vous pouvez choisir d’effectuer l’une des opérations suivantes :
 
    * Installez le plan directeur tel quel. Pour les types de plan directeur qui ne nécessitent aucune configuration, il s’agit de la seule option. Pour les types de plan directeur qui doivent être configurés, vous pouvez éventuellement choisir d’installer le plan directeur maintenant et de le configurer ultérieurement. Cliquez sur **[!UICONTROL Installer en l’état]**.
    * Configurez le plan directeur avant l’installation, pour les plans directeurs qui nécessitent une configuration. Effectuez vos sélections de configuration, puis cliquez sur **[!UICONTROL Installer le plan directeur]**.
 
      Pour plus d’informations, voir [Configurer un plan directeur](../../administration-and-setup/blueprints/configure-template-package.md).
-Une fois l’installation terminée, un message affiche la liste des objets spécifiques (tels que les rôles, les équipes ou les groupes) qui ont été correctement installés avec le plan directeur et les objets qui n’ont pas pu être installés.
+
+   L’installation est terminée et un message affiche la liste des objets spécifiques (tels que des rôles, des équipes ou des groupes) qui ont été installés avec succès avec le plan directeur, ainsi que tous les objets dont l’installation a échoué.
 
 Après l’installation du plan directeur, il se peut que des actions supplémentaires soient nécessaires pour compléter le déploiement. Pour plus d’informations, voir [Actions nécessaires après l’installation d’un plan directeur](../../administration-and-setup/blueprints/best-next-actions-after-install.md).

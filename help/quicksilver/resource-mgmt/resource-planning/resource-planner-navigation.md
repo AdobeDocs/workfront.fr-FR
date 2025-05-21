@@ -7,7 +7,7 @@ description: En utilisant le planificateur de ressources d’Adobe Workfront, v
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
 source-wordcount: '2424'
 ht-degree: 51%
@@ -248,8 +248,7 @@ Dans les vues Projet et Rôle, les utilisateurs et utilisatrices peuvent présen
 * Leur fonction secondaire, dans les scénarios suivants :
 
    * Si la fonction secondaire comporte un nombre valide pour le pourcentage de disponibilité d’équivalent temps complet dans son profil utilisateur.
-   * Si des tâches sont affectées à l’utilisateur ou l’utilisatrice dans ces fonctions.
-
+   * Si l’utilisateur est affecté à des tâches ayant ces rôles.
 Pour plus d’informations sur le pourcentage de disponibilité d’équivalent temps complet pour une fonction, voir [Modifier le profil d’un utilisateur](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
 ## Sections Aucun rôle et Aucun utilisateur
