@@ -6,10 +6,10 @@ description: Vous pouvez afficher les rapports de calendrier et les détails des
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 75%
+source-wordcount: '592'
+ht-degree: 74%
 
 ---
 
@@ -82,31 +82,26 @@ Vous pouvez choisir parmi les vues de rapports de calendrier suivantes :
    * **[!UICONTROL Semaine]** : affiche une semaine du calendrier.
    * **[!UICONTROL Gantt]** : affiche une vue continue du calendrier
 
-     Vous pouvez afficher davantage d’événements dans une vue [!UICONTROL Gantt] en faisant défiler l’écran vers le bas ou sur le côté. Un symbole de chargement s’affiche lorsque des données sont renseignées pour la vue.
+     Vous pouvez afficher davantage d’événements dans une vue **Gantt** en faisant défiler l’écran vers le bas ou sur le côté. Un symbole de chargement s’affiche lorsque des données sont renseignées pour la vue.
 
    >[!NOTE]
    >
-   >Dans les vues [!UICONTROL Mois] et [!UICONTROL Semaine], les événements actuels ou futurs (y compris les événements qui s’étendent sur plusieurs jours, à condition qu’ils contiennent le jour actuel ou un jour futur) ont un ombrage correspondant à la couleur du projet ou du regroupement de calendrier. Les événements passés ont un ombrage plus clair pour indiquer qu’ils ne sont plus actuels, mais vous pouvez toujours sélectionner et afficher ces événements.
+   >Dans les vues **Mois** et **Semaine**, les événements actuels ou futurs (y compris les événements qui s’étendent sur plusieurs jours, à condition qu’ils contiennent le jour actuel ou un jour futur) ont un ombrage correspondant à la couleur du projet ou du regroupement de calendrier. Les événements passés ont un ombrage plus clair pour indiquer qu’ils ne sont plus actuels, mais vous pouvez toujours sélectionner et afficher ces événements.
 
-1. (Facultatif) Si vous affichez le calendrier dans les vues [!UICONTROL Mois] ou [!UICONTROL Semaine], vous pouvez modifier la vue du calendrier à l’aide des options suivantes :
+1. (Facultatif) Si vous affichez le calendrier dans les vues **Mois** ou **Semaine**, vous pouvez modifier la vue du calendrier à l’aide des options suivantes :
 
-<!--   * To include or exclude weekends:
-
+   <!--   * To include or exclude weekends:
       1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-* Pour modifier rapidement les dates affichées, procédez comme suit :
+   * Pour modifier rapidement les dates affichées, procédez comme suit :
 
-   1. Dans la barre d’outils **[!UICONTROL Calendrier]**, cliquez sur la flèche gauche de l’indicateur de date pour revenir en arrière dans le calendrier ou sur la flèche droite pour avancer.
+      1. Dans la barre d’outils **[!UICONTROL Calendrier]**, cliquez sur la flèche gauche de l’indicateur de date pour revenir en arrière dans le calendrier ou sur la flèche droite pour avancer.
 
-      ![Clic sur la flèche pour modifier la date](assets/click-arrows-to-change-dates-calendar-report.png)\
-      Les dates affichées sont ajustées selon un intervalle en fonction de votre vue Calendrier actuelle. Par exemple, si vous affichez le calendrier dans la vue [!UICONTROL Semaine], le calendrier affiche une semaine en avant ou une semaine en arrière, selon la flèche que vous sélectionnez.
+         ![Clic sur la flèche pour modifier la date](assets/click-arrows-to-change-dates-calendar-report.png)
 
-   1. (Facultatif) Pour revenir au jour en cours, cliquez sur [!UICONTROL **Aujourd’hui**].
+         Les dates affichées sont ajustées selon un intervalle en fonction de votre vue Calendrier actuelle. Par exemple, si vous affichez le calendrier dans la vue **Semaine**, le calendrier affiche une semaine en avant ou une semaine en arrière, selon la flèche que vous sélectionnez.
 
-
-1. (Facultatif) Pour afficher un calendrier en plein écran, cliquez sur les flèches du mode plein écran situées dans la partie droite de la barre d’outils **[!UICONTROL Calendrier]**.
-   ![Clic sur la flèche pour modifier la date](assets/click-arrows-to-change-dates-calendar-report.png)\
-   Appuyez sur Échap pour revenir à la vue normale du calendrier.
+      1. (Facultatif) Pour revenir au jour en cours, cliquez sur [!UICONTROL **Aujourd’hui**].
 
 1. (Facultatif) Pour masquer les événements d’un regroupement de projets ou de calendriers lié au calendrier, désélectionnez-le regroupement dans la liste des projets.
    ![Masquer les événements](assets/hide-events-for-project-or-cal-grouping.png)

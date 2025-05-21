@@ -3,10 +3,10 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: 65ff6054842312a79fd0b254d2c68af0e367ec97
 workflow-type: tm+mt
-source-wordcount: '13210'
-ht-degree: 88%
+source-wordcount: '13214'
+ht-degree: 87%
 
 ---
 
@@ -2146,7 +2146,7 @@ ht-degree: 88%
       * Extension Workfront pour Illustrator et InDesign {#workfront-for-illustrator-indesign}
          * [Utiliser l’extension Workfront pour Illustrator et InDesign](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Adobe Workfront pour Jira {#workfront-for-jira}
-      * [Adobe Workfront pour Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
+      * [Adobe Workfront pour Jira : index des articles](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
       * [Installer Adobe Workfront pour Jira](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
       * [Configurer Adobe Workfront pour Jira](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
       * [Lier des éléments entre Adobe Workfront et Jira](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
@@ -2169,7 +2169,7 @@ ht-degree: 88%
       * [Créer un problème Adobe Workfront dans Google Workspace à l’aide du contenu d’un e-mail](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
       * [Mettre à jour un élément Adobe Workfront à partir de G Suite à l’aide du contenu d’un e-mail](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Adobe Workfront pour Outlook {#workfront-for-outlook}
-      * [Adobe Workfront pour Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
+      * [Adobe Workfront pour Outlook : index des articles](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [Configurer Adobe Workfront pour Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
       * [Niveaux des autorisations de Workfront pour Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [Répondre à un commentaire à partir d’Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)

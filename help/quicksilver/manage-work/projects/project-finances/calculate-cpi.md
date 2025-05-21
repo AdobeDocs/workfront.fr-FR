@@ -7,14 +7,16 @@ description: L’Indice Coûts Performances (ICP) décrit la relation au niveau 
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 99%
+source-wordcount: '606'
+ht-degree: 91%
 
 ---
 
 # Calculer l’Indice Coûts Performances (ICP)
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
@@ -62,9 +64,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Vue d’ensemble de l’Indice Coûts Performances (ICP)
 
-* [Valeur de l’ICP](#the-cpi-value)
-* [Méthode de calcul de l’ICP](#how-cpi-is-calculated)
-
 ### Valeur de l’ICP {#the-cpi-value}
 
 Les personnes responsables de projet comprennent qu’une valeur de l’ICP d’1 signifie que le projet est parfaitement conforme au budget. Les valeurs supérieures à 1 indiquent qu’un projet se situe sous le budget (moins d’heures ou de dépenses ont été enregistrées que prévu initialement) et les valeurs inférieures à 1 indiquent qu’un projet se situe au-dessus du budget (plus d’heures ou de dépenses ont été enregistrées que prévu initialement). Plus on s’éloigne de la valeur 1, plus on s’éloigne du plan initial.
@@ -104,10 +103,10 @@ CPI = 1
   ```
 
 * **Pour une tâche parent :**
-Total du coût budgété du travail réalisé = somme du champ de coût budgété total du travail réalisé pour toutes les tâches enfant directes.
+Coût total budgété du travail effectué (BCWP) = somme du champ Coût total budgété du travail effectué pour toutes les tâches enfant directes.
 
-* **Pour un projet :**
-Total du coût budgété du travail réalisé = somme du champ de coût budgété total du travail réalisé pour toutes les tâches de niveau supérieur (tâches parent et autonomes).
+* **Pour un projet :**
+Coût budgété total du travail effectué = somme du champ Coût budgété total du travail effectué pour toutes les tâches de niveau supérieur (tâches parents et tâches autonomes).
 
 Pour plus d’informations sur le total du « Coût budgété du travail effectué » (Budgeted Cost Work Performed, BCWP), consultez la section [Calculer le coût budgété du travail effectué (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
@@ -184,20 +183,18 @@ Le coût total budgété du travail effectué est calculé selon la formule suiv
 * **Pour un projet :**
 
   ```
-  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top-level tasks)
   ```
 
 
 
 ## Localiser l’ICP dans un projet ou une tâche
 
-Vous pouvez afficher l’ICP d’un projet ou d’une tâche dans une liste ou un rapport de projet ou de tâche. Vous pouvez aussi l’afficher au niveau du projet ou de la tâche.
+Vous pouvez afficher l’ICP d’un projet ou d’une tâche dans un projet, une liste de tâches ou un rapport. Vous pouvez aussi l’afficher au niveau du projet ou de la tâche.
 
 1. Accédez au projet ou à la tâche dont vous souhaitez afficher l’ICP.
 1. Développez **Détails du projet** ou **Détails de la tâche** dans le panneau de gauche, selon que vous affichez l’ICP d’un projet ou d’une tâche.
 
-1. Cliquez sur **Finances**.
-
-   L’ICP s’affiche dans le champ **ICP/SPI/CSI**.
+1. Cliquez sur **Finances**. L’ICP s’affiche dans le champ **ICP/SPI/CSI**.
 
    ![ICP du projet](assets/cpi-on-project-nwe.png)
