@@ -4,28 +4,39 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Créer une carte de score
 description: Une carte de performance permet de mesurer l’adéquation d’un projet avec les critères précédemment établis d’un portfolio. Une carte de performance reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation. Les gestionnaires de portfolios définissent généralement les questions et les réponses de la carte de performance afin de s’assurer qu’elles sont significatives et utiles lors de la hiérarchisation et de la sélection des projets. Un administrateur ou une administratrice  [!DNL Adobe Workfront]  élabore les cartes de performance sur la base des recommandations des gestionnaires de portfolios.
-author: Lisa
+author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 83%
+source-wordcount: '781'
+ht-degree: 69%
 
 ---
 
 # Créer une carte de performance
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire. </span>
+
+<span class="preview">Pour plus d’informations, voir [Modernisation de l’interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+
 Une carte de performance permet de mesurer l’adéquation d’un projet avec les critères précédemment établis d’un portfolio. Une carte de performance reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation.
 
-Les gestionnaires de portfolios définissent généralement les questions et les réponses de la carte de performance afin de s’assurer qu’elles sont significatives et utiles lors de la hiérarchisation et de la sélection des projets. Un administrateur ou une administratrice [!DNL Adobe Workfront] élabore les cartes de performance sur la base des recommandations des gestionnaires de portfolios.
+En tant que gestionnaire de portefeuille, vous pouvez définir les questions et les réponses de la carte de performance afin de vous assurer qu’elles sont significatives et utiles lors de la hiérarchisation et de la sélection des projets.
+
+En tant qu’administrateur [!DNL Adobe Workfront], vous pouvez créer des cartes de performance basées sur les recommandations des gestionnaires de portefeuille.
 
 Les questions et les réponses choisies pour une carte de performance doivent être quantifiables afin de fournir une valeur d’alignement pour comparer différents projets.
+
+Vous pouvez créer une carte de performance de la manière suivante :
+
+* À partir de zéro
+* En copiant un existant
 
 ## Conditions d’accès
 
@@ -56,17 +67,15 @@ Vous devez disposer des droits d&#39;accès suivants :
 
 +++
 
-## Créer une carte de performance
-
-Vous pouvez créer une carte de performance à partir de zéro ou en copier une existante.
-
-Pour créer une carte de performance à partir de zéro :
+## Créer entièrement une carte de performance
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **[!UICONTROL Cartes de performance]**, puis sur **[!UICONTROL Nouvelle carte de performance]**. La boîte **Nouvelle carte de performance** s’ouvre.
+1. Cliquez sur **[!UICONTROL Cartes de performance]**, puis sur **[!UICONTROL Nouvelle carte de performance]**.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">La boîte **Nouvelle carte de performance** s’ouvre.</span>
+
+   <span class="preview">![Nouvelle zone de carte de performance](assets/new-scorecard-350x173.png)</span>
 
 1. Indiquez un **[!UICONTROL nom de carte de performance]** et une **[!UICONTROL description]**.
 
@@ -104,9 +113,9 @@ Pour créer une carte de performance à partir de zéro :
    >
    >Vous pouvez réorganiser les questions dans votre carte de performance en faisant glisser les questions dans le bon ordre.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé de saisir toutes les informations.
+1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
-   La carte de performance est ainsi créée et les responsables de projet peuvent désormais l’annexer au business case de leur projet.
+   La carte de performance est ainsi créée et les chefs de projet peuvent désormais la joindre à leur analyse de rentabilité de projet.
 
 ## Copier une carte de performance existante
 
@@ -116,16 +125,20 @@ Vous pouvez créer une carte de performance en copiant et en modifiant une carte
 
 1. Cliquez sur **[!UICONTROL Cartes de performance]** dans le panneau de gauche.
 1. Sélectionnez une carte de performance dans la liste, puis cliquez sur l’icône **Copier** ![Copier la carte de performance](assets/copy-scorecard-icon.png) en haut de la liste des cartes de performance.
-La boîte de dialogue **Copier la carte de performance** s’ouvre.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">La boîte de dialogue **Copier la carte de performance** s’ouvre.</span>
+
+   <span class="preview">![Zone Copier la carte de performance](assets/copy-scorecard-box.png)</span>
+
 1. Indiquez les informations suivantes :
 
-   * **Carte de performance** : saisissez le nom de la carte de performance.  Par défaut, le nom est automatiquement mis à jour selon le format suivant :
+   * **Carte de performance** : mettez à jour le nom de la carte de performance.  Par défaut, le nom est automatiquement mis à jour selon le format suivant :
 
      `Original scorecard name (Copy)`
    * **Description** : saisissez des informations supplémentaires sur la carte de performance.
 1. Cliquer sur **Enregistrer**.
+
+   Vous créez ainsi une nouvelle carte de performance avec les mêmes informations que la carte d’origine. Les chefs de projet peuvent désormais le joindre à leur dossier commercial de projet.
 
 ## Appliquer une carte de performance à un projet
 

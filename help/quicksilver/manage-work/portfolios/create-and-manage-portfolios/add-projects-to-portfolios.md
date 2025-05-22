@@ -6,16 +6,20 @@ description: Nous vous recommandons d’ajouter des projets aux portfolios lorsq
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 74%
+source-wordcount: '468'
+ht-degree: 67%
 
 ---
 
 # Ajouter des projets à un portfolio
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire. </span>
+
+<span class="preview">Pour plus d’informations, voir [Modernisation de l’interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 
 Nous vous recommandons d’ajouter des projets aux portfolios lorsque vous les lancez. Cependant, vous pouvez les ajouter à un portfolio à tout moment de leur durée de vie.
 
@@ -69,8 +73,6 @@ Tenez compte des éléments suivants lorsque vous ajoutez des projets aux portfo
    >
    >Vous ne pouvez pas ajouter de projet lorsque vous affichez la liste des projets dans la vue [!UICONTROL Jalon].
 
-   ![Ajouter un projet existant](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
-
    Sélectionnez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
@@ -102,7 +104,11 @@ Tenez compte des éléments suivants lorsque vous ajoutez des projets aux portfo
 
    ![Liste déroulante du nouveau projet](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Conditionnel) Si vous avez choisi d’ajouter un projet existant, commencez à saisir le nom d’un projet dans le champ **[!UICONTROL Ajouter des projets à ce Portfolio]**, puis cliquez dessus lorsqu’ils apparaissent dans la liste.
+1. (Conditionnel) Si vous avez choisi d’ajouter un projet existant, la zone <span class="preview">**Ajouter des projets** s’ouvre.</span> <!--check this after UI changes-->
+
+   <span class="preview">![Ajouter un projet existant](assets/add-existing-projects-to-portfolios-box.png)</span> <!--check this after UI changes-->
+
+1. Commencez à saisir le nom d’un projet dans le champ **[!UICONTROL Ajouter des projets à ce Portfolio]**, puis cliquez dessus lorsqu’ils apparaissent dans la liste.  <!--check this after UI changes-->
 
    Vous pouvez ajouter plusieurs projets.
 
@@ -110,6 +116,6 @@ Tenez compte des éléments suivants lorsque vous ajoutez des projets aux portfo
 
    <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
-1. Cliquez sur **[!UICONTROL Ajouter des projets]**.
+1. Cliquez sur **[!UICONTROL Ajouter des projets]**. <!--check this after UI changes-->
 
    Le ou les projets sélectionnés sont désormais associés au portfolio.

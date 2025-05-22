@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Créer et modifier des risques dans les projets
-description: Les risques sont des événements ou des facteurs possibles qui empêchent un projet de se terminer à temps ou dans les limites du budget. Les risques peuvent être enregistrés dans le cadre de la création du business case d’un projet ou à l’aide de l’onglet Risques. Les risques ne sont créés que sur un projet. Vous ne pouvez pas associer des risques à des tâches ou des problèmes.
+description: Les risques sont des événements ou des facteurs possibles qui empêchent un projet de se terminer à temps ou dans les limites du budget. Vous pouvez enregistrer les risques du projet dans le cadre de la création de l’Analyse de rentabilité d’un projet ou en utilisant l’onglet Risques . Vous pouvez ajouter des risques aux projets et aux modèles. Vous ne pouvez pas associer des risques à des tâches ou des problèmes.
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 97%
+source-wordcount: '1131'
+ht-degree: 62%
 
 ---
 
@@ -17,13 +17,21 @@ ht-degree: 97%
 
 <!--Audited: 01/2025-->
 
-Les risques sont des événements ou des facteurs possibles qui empêchent un projet de se terminer à temps ou dans les limites du budget. Les risques peuvent être enregistrés dans le cadre de la création du business case d’un projet ou à l’aide de l’onglet Risques. Les risques ne sont créés que sur un projet. Vous ne pouvez pas associer des risques à des tâches ou des problèmes.
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire. </span>
+
+<span class="preview">Pour plus d’informations, voir [Modernisation de l’interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+
+Les risques sont des événements ou des facteurs possibles qui empêchent un projet de se terminer à temps ou dans les limites du budget. Vous pouvez enregistrer les risques dans le cadre de la création de l’analyse de rentabilité d’un projet ou en utilisant l’onglet Risques .
+
+Vous ne pouvez créer des risques que sur les projets ou les modèles. Vous ne pouvez pas associer des risques à des tâches ou des problèmes.
 
 Les risques peuvent être associés au coût, mais le coût réel des risques n’a aucune incidence sur le coût réel du projet.
 
 >[!NOTE]
 >
->Cet article définit les risques associés au projet, tels que vous les définissez dans le business case du projet ou tels que vous les ajoutez dans l’onglet Risques du projet. Pour plus d’informations sur le champ Risque disponible lors de la modification d’un projet, voir [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+>Cet article définit les risques associés au projet tels que vous les définissez dans l&#39;Analyse de rentabilité du projet ou tels que vous les ajoutez dans l&#39;onglet Risques du projet.
+>
+>Pour plus d’informations sur le champ Risque disponible lors de la modification d’un projet, voir [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Conditions d’accès
 
@@ -94,8 +102,7 @@ Pour créer ou modifier un risque dans le business case :
 
 Outre la création et la modification de risques dans le business case, vous pouvez le faire à l’aide de la section **Risques** d’un projet.
 
-* [Créer des risques dans la zone Risques](#create-risks-in-the-risks-area)
-* [Modifier des risques dans la zone Risques](#edit-risks-in-the-risks-area)
+Vous pouvez créer et modifier des risques dans la section Risques d&#39;un projet ou d&#39;un modèle. La création de risques pour les modèles est identique à la création de risques pour les projets.
 
 ### Créer des risques dans la zone Risques {#create-risks-in-the-risks-area}
 
@@ -104,33 +111,37 @@ Outre la création et la modification de risques dans le business case, vous pou
 
    ![Section Risques de la tâche](assets/risks-section-on-project-2022.png)
 
-1. Cliquez sur **Commencer à ajouter des risques** et créez des risques en modifiant en ligne leurs informations.
+1. Cliquez sur **Commencer à ajouter des risques** et créez des risques en modifiant leurs informations en ligne. **Description** est un champ obligatoire
 
    Ou
 
-   Cliquez sur **Nouveau risque**. La boîte de dialogue **Nouveau risque** s’ouvre.
+   Cliquez sur **Nouveau risque**.
 
-1. Saisissez les informations suivantes :
+   <span class="preview">La boîte **Nouveau risque** s’ouvre.</span>
 
-   * **Description** : décrivez le risque.
-   * **Type de risque** : indiquez à quelle catégorie le risque appartient.\
+   <span class="preview">![Nouvelle catégorie de risque](assets/new-risk-box.png)</span>
+
+1. (Conditionnel) Si vous ajoutez un risque dans la boîte **Nouveau risque**, saisissez les informations suivantes :
+
+   * **Description** : Décrivez le risque. Champ obligatoire.
+   * **Type de risque** : indiquez à quelle catégorie le risque appartient.\
      Votre équipe d’administration Workfront définit les types de risque disponibles dans votre environnement. Pour plus d’informations sur la définition des types de risque, voir l’article [Modifier et créer des types de risque](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
-   * **Probabilité** : indiquez la probabilité que le risque se produise en pourcentage.
-   * **Coût potentiel** : indiquez le coût estimé si le risque doit se produire.
-   * **Coût de la réduction** : indiquez le coût du plan de réduction des risques que vous devez mettre en place pour éviter que le risque ne se produise.
-   * **Coût réel** : indiquez le coût réel du risque si le risque s’est produit.
-   * **Plan de réduction des risques** : mettez à jour la description du plan pour atténuer le risque.
+   * **Probabilité** : indiquez la probabilité que le risque se produise sous la forme d’une valeur de pourcentage.
+   * **Coût potentiel** : indiquez le coût estimé si le risque doit se produire.
+   * **Coût de l’atténuation** : indiquez le coût du plan d’atténuation que vous devez mettre en place pour éviter que le risque ne se produise.
+   * **Coût réel** : indiquez le coût réel du risque si le risque s&#39;est produit.
+   * **Plan d’atténuation** : mettez à jour la description du plan pour atténuer le risque.
 
 1. (Le cas échéant) Cliquez sur **Entrée** si vous créez le risque en ligne.
 
    Ou
 
-   Cliquez sur **Enregistrer** si vous modifiez les informations dans la boîte de dialogue **Nouveau risque**.
+   Cliquez sur **Enregistrer** si vous modifiez les informations dans la zone **Nouveau risque**.
 
 1. (Facultatif) Sélectionnez un **Statut** différent pour le risque, dans le menu déroulant du **Statut** lors de l’application de la vue **Standard** pour la liste des risques.
 
-   Par défaut, le statut d’un risque est **Identifié**.
+   Par défaut, le **Statut** d&#39;un risque est **Identifié**.
 
 ### Modifier des risques dans la zone Risques {#edit-risks-in-the-risks-area}
 
@@ -152,21 +163,21 @@ Pour modifier les risques :
    >
    >Vous appliquez les mêmes informations à tous les risques sélectionnés lorsque vous modifiez plusieurs risques à la fois. Les informations associées à chaque risque avant vos modifications sont remplacées par une modification en bloc.
 
-1. Si vous avez cliqué sur **Modifier**, la boîte de dialogue **Modifier le risque** s’ouvre.
+1. Si vous avez cliqué sur **Modifier**, la boîte de dialogue **Modifier le risque** ou **Modifier les risques** s&#39;ouvre.
 
    Envisagez de modifier les champs suivants :
 
-   * **Description** : modifiez la description du risque.
+   * **Description** : modifiez la description du risque.
    * **Type de risque** : indiquez à quelle catégorie le risque appartient.
-   * **Probabilité** : indiquez la probabilité que le risque se produise en pourcentage.
-   * **Coût potentiel** : indiquez le coût estimé si le risque doit se produire.
-   * **Coût de la réduction** : indiquez le coût du plan de réduction des risques que vous devez mettre en place pour éviter que le risque ne se produise.
-   * **Coût réel** : indiquez le coût réel du risque si le risque s’est produit.
-   * **Plan de réduction des risques** : mettez à jour la description du plan pour atténuer le risque.
+   * **Probabilité** : indiquez la probabilité que le risque se produise sous la forme d’une valeur de pourcentage.
+   * **Coût potentiel** : indiquez le coût estimé si le risque doit se produire.
+   * **Coût de l’atténuation** : indiquez le coût du plan d’atténuation que vous devez mettre en place pour éviter que le risque ne se produise.
+   * **Coût réel** : indiquez le coût réel du risque si le risque s&#39;est produit.
+   * **Plan d’atténuation** : mettez à jour la description du plan pour atténuer le risque.
 
-1. Cliquez sur **Enregistrer les modifications**.
+1. <span class="preview">Cliquez sur **Enregistrer**.</span>
 1. (Facultatif) Modifiez le **Statut** pour un risque, dans le menu déroulant du **Statut** lors de l’application de la vue **Standard** pour la liste des risques.
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas modifier le **Statut** de risques dans la boîte de dialogue **Modifier le risque**. Vous ne pouvez le faire que dans une modification en ligne.
+   >Vous ne pouvez pas modifier le **Statut** des risques dans la boîte de dialogue **Modifier le risque**. Vous ne pouvez le faire que dans une modification en ligne.

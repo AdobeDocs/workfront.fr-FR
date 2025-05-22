@@ -6,10 +6,10 @@ description: Outre la création d’un modèle de projet à partir de zéro, vou
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 45%
+source-wordcount: '329'
+ht-degree: 44%
 
 ---
 
@@ -74,7 +74,6 @@ Les éléments suivants ne sont jamais copiés d’un modèle existant vers un n
 
 ## Copier un modèle
 
-
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Accédez au modèle à copier.
@@ -82,11 +81,11 @@ Les éléments suivants ne sont jamais copiés d’un modèle existant vers un n
 
    La boîte de dialogue **Copier le modèle** s’ouvre.
 
-   <!--![Copy template box](assets/copy-template-box.png)-->
+   ![Zone Copier le modèle](assets/copy-template-box.png)
 
 1. Spécifiez un nom pour le modèle dans le champ **Nouveau nom du modèle**.
 
-   Par défaut, le nouveau nom est `Copy of Original template name`.
+   Par défaut, Workfront définit le nouveau nom au format `Copy of Original template name`.
 
 1. Sélectionnez l&#39;option **Conserver les affectations d&#39;utilisateurs pour les tâches et le modèle** si vous souhaitez transférer toutes les affectations de tâches et de modèles du modèle d&#39;origine vers le nouveau modèle. Les affectations de tâches de modèles, ainsi que le Propriétaire et le Sponsor du modèle sont transférés vers le modèle copié.
 1. Cliquez sur **Enregistrer** pour créer une copie du modèle.

@@ -6,9 +6,9 @@ description: Vous pouvez modifier les modèles de projet pour refléter les chan
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '4881'
+source-wordcount: '4870'
 ht-degree: 94%
 
 ---
@@ -1092,7 +1092,7 @@ L’ajout des éléments suivants à un modèle est identique à l’ajout à un
 * Documents
 * Risques
 
-  Pour plus d’informations sur la création de risques, voir la section [Créer et modifier des risques sur des projets](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create) dans l’article [Créer et modifier des risques sur des projets](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  Pour plus d&#39;informations sur la création de risques, voir [Créer et modifier des risques sur les projets](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 * Processus d’approbation
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '3060'
-ht-degree: 49%
+source-wordcount: '3152'
+ht-degree: 46%
 
 ---
 
@@ -139,13 +139,8 @@ Pour gérer une vue chronologique :
       * Année
       * Trimestre
       * Mois
-1. Cliquez sur **Passer en vue standard** pour afficher les enregistrements sur des lignes séparées.<!--check to see if they updated the name of the setting here-->
-
-   Ou
-
-   Cliquez sur **Passer en vue compacte** pour afficher les enregistrements dont les dates ne se croisent pas sur la même ligne.<!--check to see if they updated the name of the setting here-->
-
-   Les enregistrements s’affichent par défaut dans la vue compacte.
+1. (Facultatif) Cliquez sur **Basculer vers la vue compacte** pour afficher les enregistrements dont les dates ne se coupent pas sur la même ligne. <!--check to see if they updated the name of the setting here-->
+1. (Conditionnel) Si vous avez modifié votre mode en **Compact**, cliquez sur **Passer à la vue Standard** pour afficher les enregistrements sur des lignes distinctes. <span class="preview">L’option **Standard** est la valeur par défaut.</span>  <!--check to see if they updated the name of the setting here-->
 
 1. Procédez comme suit pour trouver rapidement les enregistrements correspondant à un mot-clé :
 
@@ -353,7 +348,7 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    Si vous n’avez pas de champ avec des options codées par couleur pour le type d’enregistrement sélectionné, cette option est grisée.
 
-   1. <span class="preview">(Facultatif) Si vous utilisez l’option Répartition , répétez les étapes en commençant par l’étape 4 pour chaque enregistrement connecté affiché dans le journal. </span>
+1. <span class="preview">(Facultatif) Si vous utilisez l’option Répartition , répétez les étapes en commençant par l’étape 4 pour chaque enregistrement connecté affiché dans le journal. </span>
 
 1. Cliquer sur **Enregistrer**.
 
@@ -389,7 +384,7 @@ Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&
 #### Répartir les enregistrements connectés
 
 1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
-1. (Conditionnel) Si vous affichez la vue chronologique en mode Standard, cliquez sur **Répartition**.
+1. En mode **Standard** ou <span class="preview">**Compact**, cliquez sur **Répartition**</span> dans le coin supérieur droit de la vue chronologique.
 1. Développez la zone **Sélectionner un type d’enregistrement lié** et sélectionnez un type d’enregistrement connecté. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Sélecteur de répartition et bouton en mode Chronologie](assets/breakdown-picker-and-button-on-timeline.png)
@@ -417,7 +412,15 @@ Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&
    >
    >Les produits et programmes doivent être connectés aux campagnes pour s’afficher en tant que choix pour l’option de répartition et vous pouvez les ajouter à la répartition dans n’importe quel ordre.
 
+1. <span class="preview">(Conditionnel) Si vous affichez la frise chronologique en mode Compact, cliquez sur **Basculer sur la vue**. La répartition n’est pas visible en mode **Compact**. </span>
 
+   >[!TIP]
+   >
+   ><span class="preview">Sélectionnez **Ne plus afficher ce message** dans le **Passer à la vue standard ?**, avant de changer de vue. </span>
+   >
+   ><span class="preview">Cette préférence est mémorisée uniquement pour le navigateur actuel. Si vous changez de navigateur ou d&#39;ordinateur, vous devrez sélectionner à nouveau cette préférence.</span>
+   >
+   >Vous ne pouvez pas revenir au mode Compact après avoir basculé la vue vers le mode Standard et avoir affiché les enregistrements connectés dans la vue.
 1. (Facultatif) Répétez les étapes ci-dessus pour ajouter d’autres enregistrements connectés.
 
 

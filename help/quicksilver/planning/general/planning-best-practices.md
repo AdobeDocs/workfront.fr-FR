@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
 workflow-type: tm+mt
-source-wordcount: '3188'
+source-wordcount: '3304'
 ht-degree: 2%
 
 ---
@@ -213,12 +213,12 @@ Utilisez la fonction de partage pour accorder aux employés les autorisations ap
   >
   >À l’heure actuelle, nous ne disposons pas d’autorisations spécifiques pour les types d’enregistrements ou les enregistrements. Cela signifie que tous les enregistrements de l’un des types d’enregistrements sont visibles si vous accordez à une personne l’accès **Affichage** à l’espace de travail.
 
-<!--
-#### How should I manage permissions to record types?
 
-* ✅ Remember that users with Manage permissions to workspaces cannot have their permissions lowered for the record type. They will also inherit Manage permissions to the record type. You cannot give a user Manage permissions on the workspace but Contribute or View permissions on the record type. 
-* ✅ If you want users to have a lower permission level (for example, View permissions) for the record type than they have for the workspace, we recommend giving them Contribute permissions to the workspace. You can then, give them View permissions to the record type. 
--->
+#### Comment dois-je gérer les autorisations pour les types d’enregistrements ?
+
+* ✅ N’oubliez pas que les utilisateurs disposant d’autorisations de niveau Gérer sur les espaces de travail ne peuvent pas voir leurs autorisations réduites pour le type d’enregistrement . Ils hériteront également des autorisations de gestion pour le type d’enregistrement. Vous ne pouvez pas accorder à un utilisateur des autorisations de niveau Gérer sur l&#39;espace de travail, mais des autorisations de niveau Contribuer ou Afficher sur le type d&#39;enregistrement.
+* ✅ Si vous souhaitez que les utilisateurs disposent d&#39;un niveau d&#39;autorisation inférieur (par exemple, Autorisations d&#39;affichage) pour le type d&#39;enregistrement par rapport à l&#39;espace de travail, nous vous recommandons de leur accorder des autorisations de type Contributeur pour l&#39;espace de travail. Vous pouvez ensuite leur donner des autorisations d’affichage sur le type d’enregistrement.
+* La suppression d’un utilisateur des autorisations du type d’enregistrement lui donne toujours au moins les autorisations d’affichage de l’espace de travail.
 
 #### Comment dois-je gérer les autorisations pour les vues ?
 
@@ -349,10 +349,10 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
 * **Planning (or Connections) tab** **in Workfront _-[ [E] Global Connect capability in Planning connections area](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6617d7760001e250f5ffb9ebf04baacc/overview?source-id=unifiedShareMFE)_** 
 
-    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
+    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
 
 
-* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
+* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
 
      
 
@@ -360,7 +360,7 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
      
 
-* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
+* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
 
      
 
