@@ -3,15 +3,13 @@ title: Création d’applications personnalisées pour Workfront avec Adobe App 
 description: Les extensions d’interface utilisateur de Workfront, optimisées par Adobe App Builder, permettent aux clients et aux partenaires de créer des expériences utilisateur personnalisées.
 author: Courtney
 feature: Digital Content and Documents
-hide: true
-hidefromtoc: true
-source-git-commit: 7c82dc70c5fde69c905b74f28a0ff9add663dbd9
+exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
+source-git-commit: e27cf74c94167e918bb6426b99bf7e47139cbade
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
 
 ---
-
 
 # Création d’applications personnalisées pour Workfront avec Adobe App Builder
 
@@ -155,13 +153,13 @@ Pour autoriser les applications personnalisées dans le menu principal de Workfr
 Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce code a été créé pour vous par le modèle. Ce code peut être ajouté pour créer des éléments de menu supplémentaires. Veillez à remplacer les identifiants et les URL.
 
     «
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -171,13 +169,13 @@ Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce co
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     «
 
 1. Ajoutez le fragment de code suivant :
@@ -275,4 +273,4 @@ Des instructions supplémentaires sont disponibles sur le site du développeur d
 
 ## Publier les demandes et approuver l&#39;envoi
 
-Pour publier la demande et l&#39;approuver, suivez les instructions figurant sur le site du développeur d&#39;Adobe [&#128279;](https://developer.adobe.com/uix/docs/guides/publication/).
+Pour publier la demande et l&#39;approuver, suivez les instructions figurant sur le site du développeur d&#39;Adobe [](https://developer.adobe.com/uix/docs/guides/publication/).
