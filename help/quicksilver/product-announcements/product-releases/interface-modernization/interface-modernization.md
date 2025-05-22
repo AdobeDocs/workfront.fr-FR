@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
+source-git-commit: 3c1961f649298eda4e76830ca39c23fc4dadb407
 workflow-type: tm+mt
-source-wordcount: '3691'
-ht-degree: 1%
+source-wordcount: '3938'
+ht-degree: 2%
 
 ---
 
@@ -24,6 +24,14 @@ Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versio
 
 
 ## Administration et configuration
+
+### Nouvel aspect des zones Nouveau et Copier la carte de performance
+
+**Version préliminaire : 22 mai 2025 ; Version de production : 29 mai 2025**
+
+Nous avons mis à jour l’aspect des zones Nouveau et Copier la carte de performance pour qu’elles correspondent à la conception dans d’autres zones de l’application. Vous pouvez afficher la conception mise à jour lors de la création ou de la copie d’une carte de performance dans la zone Configuration de Workfront.
+
+Pour plus d’informations, voir [Créer une carte de performance](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ### Mises à jour de l’interface des éléments récemment restaurés d’un groupe
 
@@ -82,7 +90,42 @@ Pour plus d’informations, voir [Recherche [!DNL Adobe Workfront]](/help/quicks
 
 Nous avons mis à jour la page que vous utilisez pour accorder l’accès à l’assistance à votre compte Workfront avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
-## Rapports et tableau de bord
+## Projets
+
+## Mises à jour de l&#39;apparence des zones Nouveau et Modifier les risques pour un projet ou un modèle
+
+**Version préliminaire : 22 mai 2025 ; Version de production : 29 mai 2025**
+
+Nous avons mis à jour l&#39;aspect des zones Nouveau risque et Modifier les risques lors de l&#39;ajout de risques ou de leur modification sur un projet ou un modèle dans la section Risques . La conception des boîtes correspond désormais à d’autres zones de Workfront.
+
+Pour plus d’informations, voir [Créer et modifier des risques dans les projets](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects).
+
+### Modifications de l’aspect de la zone Copier le modèle
+
+**Version préliminaire : 22 mai 2025 ; Version de production : 22 mai 2025**
+
+Nous avons mis à jour l’aspect de la zone Copier le modèle pour qu’elle corresponde à la conception d’autres zones de Workfront.
+
+Pour plus d’informations, voir [ Copier un modèle de projet ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+
+### Mises à jour de l’apparence lors de l’ajout d’objets à des programmes et portfolios
+
+**Version préliminaire : 22 mai 2025 ; Version de production : 29 mai 2025**
+
+Nous avons mis à jour l’interface pour les zones Ajouter en procédant comme suit :
+
+* Ajouter des projets aux programmes
+* Ajouter des projets aux portefeuilles
+* Ajouter des programmes aux portefeuilles
+
+Pour plus d’informations, voir les articles suivants :
+
+* [Ajouter un programme existant à un portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Ajouter des projets à un portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Ajouter un projet à un programme](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+
+## Rapports et tableaux de bord
 
 ### Les URL avec /tile ou /qstile ne sont plus prises en charge dans les tableaux de bord Workfront
 
@@ -151,7 +194,15 @@ Nous avons mis à jour la page du contrat de licence avec une conception plus mo
 
 +++Développez pour afficher les mises à jour de l’interface Administration et configuration effectuées au 2e trimestre
 
-### Mises à jour de l’interface de la zone Gestion des ressources dans la configuration
+### Mises à jour des interfaces pour les éléments récemment restaurés
+
+**Version préliminaire : 23 avril 2025 ; Version de production : 23 avril 2025**
+
+Nous avons mis à jour l’aspect des éléments récemment restaurés dans la zone Configuration afin qu’ils correspondent à la conception d’autres zones de Workfront. Aucune fonctionnalité n&#39;a été modifiée pour les projets, tâches, demandes, documents ou modèles récemment restaurés.
+
+Pour afficher cette modification, accédez à Configuration > Corbeille > Récemment restauré.
+
+Pour plus d’informations, voir [Afficher les éléments restaurés](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).### Mises à jour de l&#39;interface pour la zone Gestion des ressources dans la configuration
 
 **Version préliminaire : 17 avril 2025 ; à partir de la semaine du 17 avril 2025**
 
@@ -159,7 +210,7 @@ Nous avons mis à jour l’aspect des préférences Gestion des ressources dans 
 
 Pour plus d’informations, voir [Configuration des préférences de gestion des ressources](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-## Mises à jour de l’interface vers une liste de chemins jalonnés dans la configuration
+### Mises à jour de l’interface vers une liste de chemins jalonnés dans la configuration
 
 **Version préliminaire : 6 mars 2025 ; début de la semaine du 10 avril 2025**
 
@@ -167,7 +218,7 @@ Nous avons mis à jour l’aspect de la liste Chemin jalonné dans la zone Confi
 
 Pour plus d’informations, voir [Créer un chemin jalonné](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-## Mise à jour de l&#39;interface vers la zone Modifier le type de risque dans Configuration
+### Mise à jour de l&#39;interface vers la zone Modifier le type de risque dans Configuration
 
 **Version préliminaire : 27 mars 2025 ; à partir de la semaine du 10 avril 2025**
 
@@ -483,16 +534,6 @@ Cette mise à jour inclut des modifications visuelles des listes et des barres d
 
 Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-### Mises à jour des interfaces pour les éléments récemment restaurés
-
-**Version préliminaire : 23 avril 2025 ; Version de production : 23 avril 2025**
-
-Nous avons mis à jour l’aspect des éléments récemment restaurés dans la zone Configuration afin qu’ils correspondent à la conception d’autres zones de Workfront. Aucune fonctionnalité n&#39;a été modifiée pour les projets, tâches, demandes, documents ou modèles récemment restaurés.
-
-Pour afficher cette modification, accédez à Configuration > Corbeille > Récemment restauré.
-
-Pour plus d’informations, voir [Afficher les éléments restaurés](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
-
 ### Mises à jour de l’interface pour la zone Supprimer la société dans un rapport d’entreprise
 
 **Version préliminaire : 17 avril 2025 ; Version de production : 17 avril 2025**
@@ -620,3 +661,8 @@ Cette mise à jour comprend les modifications suivantes :
 * Action Supprimer mise en surbrillance en l’affichant en rouge.
 
 Pour plus d’informations, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+
+
+

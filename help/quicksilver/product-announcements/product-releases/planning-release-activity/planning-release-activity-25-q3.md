@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
+source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 2%
+source-wordcount: '1165'
+ht-degree: 3%
 
 ---
 
@@ -21,6 +21,23 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nouvelle expérience lors de la répartition des enregistrements en mode compact dans la vue chronologique
+
+>[!NOTE]
+>
+>* Prévisualisation : vendredi 22 mai 2025
+>* Version rapide de production : 12 juin 2025
+>* Production pour tous les clients : 17 juillet 2025
+
+Nous avons modifié l’expérience lors de la répartition des enregistrements dans la vue Chronologie et la vue Compacte est maintenant appliquée.
+Avec la nouvelle mise à jour, lorsque vous définissez vos objets de répartition et que vous affichez la chronologie en mode Compact, vous êtes invité à passer à la vue Standard une fois la configuration des conditions de répartition terminée.
+
+Avant cette amélioration, il n’était pas possible de définir les conditions de répartition lors de l’affichage de la vue chronologique en mode Compact.
+
+Avec cette mise à niveau, l’option Standard est le choix par défaut. Auparavant, le mode Compact était la valeur par défaut.
+
+Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Mettez à jour les paramètres de la vue chronologique pour définir l’aspect des barres des enregistrements connectés lors de l’utilisation de l’option Répartition
 
