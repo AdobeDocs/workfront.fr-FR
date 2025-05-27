@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '2556'
-ht-degree: 91%
+source-wordcount: '2566'
+ht-degree: 90%
 
 ---
 
@@ -392,6 +392,8 @@ Par défaut, les champs suivants sont inclus dans l’en-tête du problème :
 
 * Nom de l’événement
 * Pourcentage d’achèvement
+
+  Pour plus d&#39;informations, voir [Afficher et mettre à jour le pourcentage d&#39;achèvement des tâches](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Affectations
 * Date et heure d’achèvement prévues
 * Statut

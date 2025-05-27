@@ -6,9 +6,9 @@ description: Le glossaire  [!DNL Adobe Workfront]  répertorie les termes couram
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '21066'
+source-wordcount: '21072'
 ht-degree: 94%
 
 ---
@@ -67,7 +67,9 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project</code> </p> </li> 
-    </ul> </td> 
+    </ul> 
+    <p>Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Heures réelles</a>.</p>
+    </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Labor Cost]</td> 
@@ -1455,7 +1457,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
-   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[!UICONTROL User] qui affiche et permet de définir les relations de l’[!UICONTROL Company] et du [!UICONTROL Reporting] de l’[!UICONTROL User].</td> 
+   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[UICONTROL User] qui affiche et permet de définir les relations de l’[UICONTROL Company] et du [UICONTROL Reporting] de l’[UICONTROL User].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Organizational Setup]</td> 
@@ -2058,7 +2060,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (dans [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
+   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (dans le [!DNL Workfront Scenario Planner]) </td> 
@@ -2175,7 +2177,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
       <li>[!UICONTROL Inactive]</li> 
       <li>[!UICONTROL Closed]</li> 
      </ul> 
-     <p>Pour plus d’informations sur les objectifs stratégiques, voir aussi « &lbrack;!UI[!UICONTROL Goal] » or « [!UICONTROL Goals] » dans cet article. </p> 
+     <p>Pour plus d’informations sur les objectifs stratégiques, voir aussi « [!UI[!UICONTROL Goal] » or « [!UICONTROL Goals] » dans cet article. </p> 
      <p>Pour les objectifs stratégiques, ce champ n’est visible que si votre entreprise a acheté [!DNL Workfront Goals]. Pour plus d’informations sur la gestion des objectifs stratégiques à l’aide de [!DNL Workfront Goals], voir Vue d’ensemble de <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals]</a>. </p>
     </td> 
   </tr> 

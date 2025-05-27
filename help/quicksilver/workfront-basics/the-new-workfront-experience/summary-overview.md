@@ -5,10 +5,10 @@ description: Vous pouvez utiliser le panneau Résumé pour examiner et mettre à
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '986'
+ht-degree: 93%
 
 ---
 
@@ -167,7 +167,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## [!UICONTROL Pourcentage d&#39;achèvement]
 
-Utilisez la barre de progression en haut du [!UICONTROL résumé] pour mettre à jour le pourcentage terminé de la tâche sélectionnée ou du problème sélectionné. Saisissez un nombre ou faites glisser la barre vers le pourcentage approprié.
+Utilisez la bulle bleue de progression en haut du [!UICONTROL Résumé] pour mettre à jour le pourcentage d&#39;achèvement de la tâche ou de l&#39;événement que vous avez sélectionné. Saisissez un nombre ou faites glisser la bulle vers le pourcentage correct.
+
+Lorsque vous faites glisser la bulle dans le panneau Résumé , le Pourcentage d’achèvement des mises à jour s’incrémente d’un point. Vous ne pouvez pas saisir de nombre décimal.
 
 ![Pourcentage terminé dans le panneau Résumé](assets/summary-overview-percent-complete.png)
 

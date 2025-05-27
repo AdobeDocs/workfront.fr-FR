@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '3706'
-ht-degree: 89%
+source-wordcount: '3721'
+ht-degree: 88%
 
 ---
 
@@ -622,12 +622,14 @@ Par défaut, les champs suivants sont inclus dans l’en-tête de la tâche :
 
 * Nom de la tâche
 * Pourcentage d’achèvement
+
+  Pour plus d&#39;informations, voir [Afficher et mettre à jour le pourcentage d&#39;achèvement des tâches](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Affectations
 * Date d’achèvement prévue
 
   >[!CAUTION]
   >
-  >Certaines contraintes de tâche et d’autres dépendances peuvent vous empêcher de modifier ce champ. Pour plus d’informations sur les contraintes de tâches, voir [Vue d’ensemble des contraintes de tâches](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >Certaines contraintes de tâche et d&#39;autres dépendances peuvent vous empêcher de modifier la date d&#39;achèvement prévue d&#39;une tâche. Pour plus d’informations sur les contraintes de tâches, voir [Vue d’ensemble des contraintes de tâches](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Statut
 * Prendre des décisions d’approbation si vous occupez le rôle d’approbateur ou d’approbatrice dans un processus d’approbation en cours

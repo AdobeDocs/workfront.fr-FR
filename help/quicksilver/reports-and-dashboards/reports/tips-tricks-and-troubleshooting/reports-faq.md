@@ -7,14 +7,16 @@ description: Questions fréquentes sur les rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 99%
+source-wordcount: '1494'
+ht-degree: 88%
 
 ---
 
 # Questions fréquentes sur les rapports
+
+<!--Audited: 05/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is the ONE anchor article for all FAQs about Reporting. Add a new FAQ in the TOC at the top first, then add the answer as a section at the bottom.)</p>
@@ -23,6 +25,8 @@ ht-degree: 99%
 Vous trouverez ci-dessous les questions fréquentes sur les rapports.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -33,39 +37,51 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan, Travail</p> </td> 
+   <td><p>Nouveau : Standard</p> 
+   <p>Actuellement : Travail ou licence supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux rapports, tableaux de bord et calendriers</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pourquoi mon calcul personnalisé pour la différence d’une heure n’affiche-t-il pas le résultat correct dans une colonne ?
 
-Sur un rapport de projet, j’ai un calcul qui soustrait les heures effectives (2) du nombre d’heures prévues (4). Le résultat que j’obtiens est 120 alors qu’il devrait être 2.\
+<!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
+
+Dans un rapport de projet, j&#39;ai un calcul qui soustrait les heures effectives des heures prévues. Le résultat obtenu est incorrect.
+
+<!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
+
+
 Mon calcul est le suivant :
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)</pre>
+
+`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
 
 ### Réponse
 
-Les champs utilisant les heures dans Workfront sont stockés en minutes. Lorsque vous utilisez le champ dans un calcul, le résultat sera exprimé en minutes. Pour obtenir le résultat en heures, vous devez diviser le résultat du calcul par 60.
+La plupart des champs utilisant des heures dans Workfront sont stockés en minutes. Lorsque vous utilisez ces champs dans un calcul, le résultat est le plus souvent exprimé en minutes. Pour obtenir le résultat en heures, vous devez diviser le résultat du calcul ou le champ que vous référencez par 60.
+
+Par exemple, les heures planifiées sont stockées en minutes, tandis que les heures réelles sont stockées en heures. Par conséquent, vous devez convertir les heures planifiées de minutes en heures.
 
 Le calcul correct est le suivant :
 
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)/60</pre>
+`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 ## Pourquoi la valeur de chacun de mes éléments de graphique dans un rapport ne s’affiche-t-elle pas sur le graphique ?
 
@@ -175,7 +191,7 @@ Si vous disposez des autorisations nécessaires pour afficher ou gérer un rappo
 
 ### Réponse
 
-Parfois, la personne propriétaire du rapport est également celle indiquée dans le.champ **Exécuter ce rapport avec les droits d’accès de :** sur le rapport. Si la personne de l’option **Exécuter ce rapport avec les droits d’accès suivants :** est désactivée, le rapport ne s’affiche plus pour les personnes avec lesquelles le rapport est partagé.Dans ce cas, vous pouvez rendre le rapport accessible à nouveau en laissant le champ **Exécuter ce rapport avec les droits d’accès suivants :** vide ou en y saisissant une personne active.
+Parfois, la personne propriétaire du rapport est également celle indiquée dans le.champ **Exécuter ce rapport avec les droits d’accès de :** sur le rapport. Si l&#39;utilisateur **Exécuter ce rapport avec les droits d&#39;accès de:** est désactivé, le rapport ne s&#39;affiche plus pour les utilisateurs avec lesquels il est partagé. Dans ce cas, vous pouvez rendre à nouveau le rapport accessible en laissant vide le champ **Exécuter ce rapport avec les droits d’accès de :** ou en entrant un utilisateur actif dans le champ.
 
 Pour en savoir plus sur le champ **Exécuter ce rapport avec les droits d’accès suivants :**, voir [Exécuter et diffuser un rapport avec les droits d’accès d’une autre personne](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Pour plus d’informations sur l’identification de tous les rapports détenus par des personnes désactivées, voir [Créer un rapport sur les activités de reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 

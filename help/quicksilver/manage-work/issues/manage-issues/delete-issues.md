@@ -6,16 +6,20 @@ description: Vous pouvez supprimer des problèmes ou des requêtes dans Adobe W
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 97%
+source-wordcount: '720'
+ht-degree: 79%
 
 ---
 
 # Supprimer des événements
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
 
 Vous pouvez supprimer des problèmes ou des requêtes dans Adobe Workfront si vous disposez des droits d’accès et des autorisations appropriés.
 
@@ -24,6 +28,8 @@ Vous pouvez supprimer des problèmes ou des requêtes dans Adobe Workfront si v
 >« Problèmes » et « demandes » sont interchangeables dans Workfront. Vous pouvez enregistrer des problèmes sur les projets et les tâches afin d’indiquer les travaux imprévus qui doivent être traités. Vous pouvez également soumettre des demandes qui sont enregistrées en tant que problèmes dans un projet désigné comme file d’attente des demandes.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -43,30 +49,29 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Configuration du niveau d’accès</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur aux Projets et aux Tâches</p>  <p>Pour plus d’informations sur l’accès aux problèmes liés à votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a>.  </p> </td> 
+   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur aux Projets et aux Tâches</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations sur le problème</p> <p>Autorisations Contribuer ou supérieures pour la tâche ou le projet</p> <p> Pour plus d’informations sur l’octroi d’autorisations aux problèmes, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partager un problème</a></p> </td> 
+   <td> <p>Gérer les autorisations sur le problème</p> <p>Autorisations Contribuer ou supérieures pour la tâche ou le projet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations sur les conditions d’accès, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Observations relatives à la suppression de problèmes
 
-* Votre équipe d’administration Workfront ou de groupes doit activer la suppression des problèmes dans un projet dont le statut est Terminé dans la zone Préférences du projet. Pour plus d’informations sur la configuration des préférences de projet, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Votre administrateur Workfront ou un administrateur de groupe doit activer la suppression des événements dans un projet dont le statut est Terminé dans vos Préférences du projet.
+
+  Pour plus d’informations sur la configuration des préférences de projet, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Si le problème comporte des heures consignées, l’équipe d’administration Workfront ou de groupes doit autoriser la suppression de ces problèmes en configurant les préférences de tâche et de problème dans votre instance Workfront. Cela s’applique également lorsque vous essayez de supprimer des projets qui rencontrent des problèmes avec les heures consignées.
 
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
-  </MadCap:conditionalText>
-  -->
-
   Pour plus d’informations sur l’activation de la suppression des problèmes lorsque des heures sont consignées, voir la section « Suppression » dans [Configurer les préférences de tâches et de problèmes à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 
 ## Impact de la suppression de problèmes
 
@@ -101,20 +106,20 @@ Selon la manière dont votre équipe d’administration Workfront ou de groupes 
 
 ## Supprimer des événements
 
-* [Supprimer simultanément plusieurs problèmes dans un projet](#delete-multiple-issues-in-a-project-simultaneously)
-* [Supprimer un seul problème](#delete-a-single-issue)
-
 ### Supprimer simultanément plusieurs problèmes dans un projet  {#delete-multiple-issues-in-a-project-simultaneously}
 
 1. Accédez au **Menu principal**.
 1. Cliquez sur **Projets**.
 1. Cliquez sur le nom du projet qui contient les problèmes que vous souhaitez supprimer.
 1. Cliquez sur **Problèmes** dans le panneau de gauche.
-1. Sélectionnez un événement, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png) en haut de la liste.
 
-1. Si la suppression est autorisée, cliquez sur **Oui, supprimer**.\
+   La liste des événements associés au projet sélectionné s&#39;affiche à droite.
+1. Sélectionnez un ou plusieurs événements dans la liste, puis cliquez sur l&#39;icône **Supprimer** ![Icône Supprimer](assets/delete.png) en haut de la liste.
+
+1. Si la suppression est autorisée, cliquez sur **Oui, supprimer**. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+
    Il se peut que votre administrateur ou administratrice Workfront n’autorise pas la suppression des problèmes dans lesquels des heures sont consignées.\
-   Pour plus d’informations sur l’accès et les autorisations nécessaires pour supprimer un problème, voir [Supprimer des problèmes](#access-and-permissions-needed).
+   Pour plus d’informations sur l’accès et les autorisations nécessaires à la suppression d’un problème, consultez la section [Considérations relatives à la suppression des problèmes](#considerations-for-deleting-issues) dans cet article.
 
 ### Supprimer un seul problème {#delete-a-single-issue}
 
@@ -123,7 +128,7 @@ Selon la manière dont votre équipe d’administration Workfront ou de groupes 
 1. Cliquez sur le nom du projet qui contient le problème que vous souhaitez supprimer.
 1. Cliquez sur **Problèmes** dans le panneau de gauche.
 
-   ![Icône Événements](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Section Événements du panneau de gauche](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Cliquez sur le nom du problème que vous souhaitez supprimer.
 1. Cliquez sur le menu **Plus** à droite du nom du problème.
@@ -131,11 +136,13 @@ Selon la manière dont votre équipe d’administration Workfront ou de groupes 
    ![Menu Autres événements](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Cliquez sur **Supprimer le problème**.
-1. Si la suppression est autorisée, cliquez sur **Oui, supprimer**.
+1. Si la suppression est autorisée, cliquez sur **Oui, supprimer**. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
 
    Il se peut que votre administrateur ou administratrice Workfront n’autorise pas la suppression des problèmes dans lesquels des heures sont consignées.\
-   Pour plus d’informations sur l’accès et les autorisations nécessaires pour supprimer un problème, voir [Supprimer des problèmes](#access-and-permissions-needed).
+   Pour plus d’informations sur l’accès et les autorisations nécessaires à la suppression d’un problème, consultez la section [Considérations relatives à la suppression des problèmes](#considerations-for-deleting-issues) dans cet article.
 
 ## Restaurer des problèmes supprimés
 
-Un administrateur ou une administratrice Workfront ou de groupes peut restaurer des problèmes dans les 30 jours suivant leur suppression. Pour plus d’informations sur la restauration d’éléments dans Workfront, voir [Restaurer des éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Un administrateur de Workfront ou de groupes peut restaurer les problèmes dans les 30 jours suivant leur suppression.
+
+Pour plus d’informations sur la restauration d’éléments dans Workfront, voir [Restaurer des éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

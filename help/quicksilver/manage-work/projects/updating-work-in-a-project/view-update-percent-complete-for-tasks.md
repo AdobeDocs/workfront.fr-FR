@@ -1,27 +1,29 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Afficher et mettre à jour le pourcentage terminé pour les tâches
-description: Vous pouvez mettre à jour le pourcentage terminé d’une tâche pour indiquer la progression de la tâche vers son achèvement.
+title: Afficher et mettre à jour le pourcentage d'achèvement pour les tâches
+description: Vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche afin d’indiquer la progression de la tâche vers son achèvement. La mise à jour du pourcentage terminé pour les événements est similaire à la mise à jour d’une tâche. Cet article décrit comment mettre à jour le pourcentage d’achèvement d’une tâche.
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 96%
+source-wordcount: '690'
+ht-degree: 41%
 
 ---
 
 # Afficher et mettre à jour le pourcentage terminé des tâches
 
-<!--Audited:01/2024-->
+<!--Audited: 05/2025-->
 
 Vous pouvez mettre à jour le pourcentage terminé d’une tâche pour indiquer la progression de la tâche vers son achèvement.
 
+La mise à jour du pourcentage terminé pour les événements est similaire à la mise à jour d’une tâche. Cet article décrit comment mettre à jour le pourcentage d’achèvement d’une tâche.
+
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour mettre à jour manuellement les tâches :
 
@@ -51,7 +53,7 @@ Vous devez disposer des accès suivants pour mettre à jour manuellement les tâ
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,23 +61,20 @@ Vous devez disposer des accès suivants pour mettre à jour manuellement les tâ
 
 Vous pouvez mettre à jour le pourcentage terminé d’une tâche dans l’un des domaines suivants :
 
-* **Dans une liste de tâches** : vous pouvez mettre à jour le pourcentage terminé d’une tâche lorsque la colonne Pourcentage terminé est affichée.\
+* **Dans une liste de tâches** : vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche lorsque la colonne Pourcentage terminé s’affiche.
+
   Pour plus d’informations sur la modification en ligne, voir [Modifier en ligne des éléments dans une liste dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-* **Dans la vue de Jalon** : vous pouvez mettre à jour le pourcentage terminé d’une tâche lors de l’utilisation de la vue de Jalon sur une liste de projets ou un rapport de projet. Pour plus d’informations, voir [Utiliser la vue de Jalon](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **Dans la vue Jalon** : Vous pouvez mettre à jour le pourcentage d&#39;achèvement d&#39;une tâche lors de l&#39;utilisation de la vue Jalon dans une liste de projets ou un rapport de projet.
 
-<!--only in legacy commenting: 
-* **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
-
-  >[!IMPORTANT]
+  >[!TIP]
   >
-  >This option displays only after you enable the Show Percent Complete option.  
-  >To enable the percent complete update bar for tasks, do the following:   
-  >
-  >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
+  >  Vous ne pouvez pas mettre à jour le pourcentage d&#39;achèvement des événements dans la vue Jalon.
 
-* **Dans l’en-tête de la tâche** : vous pouvez mettre à jour le pourcentage terminé d’une tâche dans l’en-tête de la tâche. Pour plus d’informations, voir [Modifier les tâches](../../tasks/manage-tasks/edit-tasks.md).
+
+  Pour plus d’informations, voir [Utiliser la vue de Jalon](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+
+* **Dans l’en-tête de la tâche** : vous pouvez mettre à jour le pourcentage d’avancement d’une tâche dans l’en-tête de la tâche.
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
@@ -91,43 +90,46 @@ Vous pouvez mettre à jour le pourcentage terminé d’une tâche dans l’un de
 
 * **Accueil** : vous pouvez mettre à jour le pourcentage terminé d’une tâche ou d’un problème à partir du panneau Résumé dans la zone Accueil ou à partir du widget Mon travail.
 
-  Pour plus d’informations, voir [Prise en main de la page d’accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  Pour plus d’informations, voir [Prise en main de l’Accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Considérations relatives à la mise à jour du pourcentage terminé d’une tâche
 
-* Lorsque vous marquez une tâche comme 100 % terminée, le statut de la tâche est mis à jour sur Terminé.
-* Les scénarios suivants existent pour les tâches parent :
+* Lorsque vous marquez une tâche comme terminée à 100 %, le statut de la tâche devient Terminé. Le statut d&#39;un événement passe à Fermé.
+* Terminer une tâche met également à jour le pourcentage d’achèvement du parent et du projet.
+* Les scénarios suivants existent pour les tâches et projets parents :
    * Vous ne pouvez pas mettre à jour le pourcentage terminé d’une tâche parent à 100 % lorsque le mode d’achèvement du résumé du projet est défini sur Automatique et que les sous-tâches ne sont pas terminées.
-   * Vous pouvez mettre à jour le pourcentage terminé d’une tâche parent à 100 % lorsque le mode d’achèvement du résumé du projet est défini sur Manuel et que les sous-tâches sont terminées ou incomplètes.
+   * Vous pouvez mettre à jour le pourcentage d&#39;achèvement d&#39;une tâche parent ou d&#39;un projet à 100 % lorsque le mode d&#39;achèvement du sommaire du projet est défini sur Manuel et que les sous-tâches sont terminées ou incomplètes.
 
   Pour plus d’informations, voir [Modifier les projets](../manage-projects/edit-projects.md).
 
 ## Mettre à jour le pourcentage terminé d&#39;une tâche
 
-1. Accédez à l’une des zones suivantes de Workfront :
+1. Accédez à l’une des zones où vous souhaitez mettre à jour le pourcentage d’avancement d’une tâche.
 
-   * Liste de tâches
-   * La liste des projets et l’application de la vue de Jalon
-   * Une tâche, en accédant à la page de la tâche
+   Pour plus d’informations, reportez-vous à la section [Zones dans lesquelles vous pouvez mettre à jour le pourcentage d’avancement d’une tâche](#areas-where-you-can-update-the-percent-complete-of-a-task) de cet article.
+
 1. Recherchez le champ **Pourcentage terminé** pour la tâche dont vous souhaitez mettre à jour le pourcentage terminé.
 
    >[!TIP]
    >
-   >  Le champ Pourcentage terminé s’affiche toujours en haut du panneau Résumé.
-
+   >Le champ Pourcentage terminé s’affiche toujours en haut du panneau Résumé.
 
 1. Cliquez dans le champ **Pourcentage terminé** et saisissez un nombre compris entre 0 et 100.
 
    Ou
 
-   Cliquez et faites glisser la barre **Pourcentage terminé** au nombre nécessaire pour indiquer la quantité de la tâche que vous avez effectuée, le cas échéant.
+   Cliquez sur la bulle bleue **Pourcentage terminé** et faites-la glisser jusqu’au nombre nécessaire pour indiquer le nombre de tâches que vous avez terminées, le cas échéant.
 
    >[!NOTE]
    >
-   >Lorsque vous indiquez que 100 % de la tâche est terminée, le statut de la tâche est également mis à jour sur Terminé.
+   >    * Vous ne pouvez pas saisir de nombre décimal lorsque vous cliquez dans la bulle Pourcentage terminé.
+   >    * Lorsque vous faites glisser la bulle bleue dans le panneau Résumé , le Pourcentage d’achèvement des mises à jour s’incrémente d’un point.
+   >
+   >    * Lorsque vous faites glisser la bulle bleue dans l’en-tête de la tâche, le Pourcentage terminé est mis à jour par incréments de 5 points.
 
+1. Appuyez sur Entrée sur votre clavier pour enregistrer le pourcentage d’achèvement.
 
-1. Appuyez sur Entrée du clavier pour enregistrer le pourcentage terminé.
+   Le pourcentage d&#39;achèvement du projet ou des tâches parents peut également être mis à jour automatiquement.
 
-Le pourcentage terminé du projet est également automatiquement mis à jour.
+   Le statut de la tâche ou de l’événement est également mis à jour.
 
