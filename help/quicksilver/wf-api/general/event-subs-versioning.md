@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: e4ff9c9c44c75518e75b14209a18586363cdf4f5
+source-git-commit: f34f48d974db200d9ce1815c805885707ab27f6d
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -255,4 +255,6 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
 
 Workfront Fusion utilise les abonnements aux événements pour surveiller les modifications dans Workfront afin de déclencher des scénarios. Vous pouvez mettre à jour la version d’abonnement aux événements que Fusion utilise directement dans un scénario, à l’aide du module Workfront > Mettre à jour la version de la payload des événements .
 
-Pour obtenir des instructions sur l’utilisation de ce module, voir [Modules Workfront](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) dans la documentation de Workfront Fusion.
+Pour obtenir des instructions sur l’utilisation de ce module, voir [Modules Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) dans la documentation de Workfront Fusion.
+
+Pour obtenir des ressources sur la conservation de vos scénarios Workfront Fusion pendant la mise à niveau de l’abonnement à l’événement, y compris un enregistrement de webinaire, consultez [ Conservation de vos scénarios Fusion pendant la mise à niveau de la version V2 des abonnements aux événements](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).
