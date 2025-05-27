@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: da7151e210bc779beb963e53a2beed5b5280f494
+source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3990'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,14 @@ Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versio
 
 
 ## Administration et configuration
+
+### Mise à jour de l&#39;interface pour l&#39;onglet Journal des accès dans la configuration
+
+**Version préliminaire : 21 mai 2025 ; Version de production : 29 mai 2025**
+
+Nous avons mis à jour l’onglet Journal des accès avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Pour afficher cette modification, accédez à Configuration > Connexion en tant que > Choisir le journal d’accès en haut de l’écran.
 
 ### Nouvel aspect des zones Nouveau et Copier la carte de performance
 
@@ -66,7 +74,7 @@ Aucune modification de fonctionnalité n’a été introduite avec cette mise à
 
 ### Partager un document avec une adresse e-mail externe
 
-**Version préliminaire : 15 mai 2025 ; Version de production : à annoncer**
+**Version préliminaire : 15 mai 2025 ; Version de production : 21 mai 2025**
 
 Nous avons mis à jour la boîte de dialogue de partage pour permettre aux utilisateurs de partager des documents avec des utilisateurs externes à l’aide d’une adresse e-mail. Cette fonctionnalité était temporairement indisponible en raison du travail de modernisation de l’interface.
 
