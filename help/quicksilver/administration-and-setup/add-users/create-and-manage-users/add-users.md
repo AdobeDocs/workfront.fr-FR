@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 83%
+source-wordcount: '1299'
+ht-degree: 78%
 
 ---
 
@@ -126,9 +126,9 @@ Avant d’ajouter une personne, rassemblez les informations sur elle énumérée
    >
    >* Si votre administrateur ou administratrice de Workfront a activé une intégration SSO avec Workfront, le champ Autoriser l’authentification &lt;SSO Configuration> uniquement est masqué si vous désactivez l’invitation par e-mail. Le champ ID de fédération ou nom d’utilisateur ou d’utilisatrice &lt;SSO Configuration> reste visible.
    >
-   >* Si votre organisation a été intégrée à Admin Console et que vous ajoutez une personne via Workfront, vous n’avez pas la possibilité d’envoyer une invitation par e-mail.
+   * Si votre organisation a été intégrée à Admin Console et que vous ajoutez une personne via Workfront, vous n’avez pas la possibilité d’envoyer une invitation par e-mail.
    >
-   >Pour les utilisateurs et utilisatrices d’Adobe existants, l’utilisateur ou l’utilisatrice peut recevoir ou non un e-mail sur la disponibilité de Workfront. Il s’agit d’une préférence contrôlée par l’administrateur ou l’administratrice d’Adobe pour le produit.
+   Pour les utilisateurs et utilisatrices d’Adobe existants, l’utilisateur ou l’utilisatrice peut recevoir ou non un e-mail sur la disponibilité de Workfront. Il s’agit d’une préférence contrôlée par l’administrateur ou l’administratrice d’Adobe pour le produit.
 
 1. Sélectionnez **Ajouter cette personne**.
 
@@ -138,7 +138,16 @@ Avant d’ajouter une personne, rassemblez les informations sur elle énumérée
 
    >[!NOTE]
    >
-   >Si vous êtes un administrateur ou une administratrice de groupe et que vous ajoutez une personne à une organisation qui a été intégrée à Adobe Admin Console, vous disposez des options suivantes pour cette étape : **Soumettre une personne pour approbation par l’administration** et **Soumettre pour approbation et en créer une autre**. L’utilisateur ou l’utilisatrice est créé dans un statut désactivé et en attente d’approbation. Un administrateur ou une administratrice de Workfront doit approuver la personne, afin de l’activer dans Workfront et l’ajouter à Adobe Admin Console.
+   * Si vous êtes un administrateur ou une administratrice de groupe et que vous ajoutez une personne à une organisation qui a été intégrée à Adobe Admin Console, vous disposez des options suivantes pour cette étape : **Soumettre une personne pour approbation par l’administration** et **Soumettre pour approbation et en créer une autre**. L’utilisateur est créé avec le statut Désactivé et Approbation en attente .
+   > 
+   * Si l’utilisateur ne quitte pas le statut Désactivé et Approbation en attente dans les minutes qui suivent, et qu’une actualisation d’écran ne supprime pas le badge Approbation en attente , vous pouvez approuver l’utilisateur manuellement.
+   >
+   1. Accédez à Configuration > Utilisateurs.
+   1. Sélectionnez l’utilisateur ou les utilisateurs dans la liste Utilisateurs .
+   1. Cliquez sur le menu à trois points dans l’en-tête de la liste.
+   1. Sélectionnez **Approuver**.
+   1. Au bout de quelques minutes, actualisez la page.
+
 
 ## Copier une personne existante pour créer un nouvel utilisateur ou une nouvelle utilisatrice
 
@@ -146,11 +155,11 @@ Vous pouvez créer une personne en copiant une personne existante.
 
 >[!NOTE]
 >
->Lorsque vous créez une personne en procédant ainsi, toutes les informations sont copiées à partir de la personne d’origine vers la personne nouvellement créée, à l’exception des éléments suivants :
+Lorsque vous créez une personne en procédant ainsi, toutes les informations sont copiées à partir de la personne d’origine vers la personne nouvellement créée, à l’exception des éléments suivants :
 >
->* Les informations contenues dans la section « Informations personnelles ».
->* Lors de la connexion, l’onglet de destination par défaut pour le niveau d’accès.
->* Rapports directs
+* Les informations contenues dans la section « Informations personnelles ».
+* Lors de la connexion, l’onglet de destination par défaut pour le niveau d’accès.
+* Rapports directs
 >
 
 Pour créer une nouvelle personne en copiant une personne existante, procédez comme suit :
@@ -174,6 +183,6 @@ Si vous avez sélectionné l’option d&#39;envoi d’une invitation à la perso
 
 >[!NOTE]
 >
->Si votre organisation a été intégrée à Admin Console et que vous ajoutez une personne via Workfront, vous n’avez pas la possibilité d’envoyer une invitation par e-mail.
+Si votre organisation a été intégrée à Admin Console et que vous ajoutez une personne via Workfront, vous n’avez pas la possibilité d’envoyer une invitation par e-mail.
 >
->Pour les utilisateurs et utilisatrices d’Adobe existants, l’utilisateur ou l’utilisatrice peut recevoir ou non un e-mail sur la disponibilité de Workfront. Il s’agit d’une préférence contrôlée par l’administrateur ou l’administratrice d’Adobe pour le produit.
+Pour les utilisateurs et utilisatrices d’Adobe existants, l’utilisateur ou l’utilisatrice peut recevoir ou non un e-mail sur la disponibilité de Workfront. Il s’agit d’une préférence contrôlée par l’administrateur ou l’administratrice d’Adobe pour le produit.

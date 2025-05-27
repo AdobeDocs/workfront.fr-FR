@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 93%
+source-wordcount: '551'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/fr/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -107,3 +107,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Cliquez sur **Importer**.
 
    Vous recevez un message de confirmation en haut de l’écran pour confirmer que l’utilisateur ou l’utilisatrice a bien été importé.
+
+>[!NOTE]
+>
+>Les utilisateurs sont créés avec le statut Désactivé et Approbation en attente .
+> 
+>Si un utilisateur ou une utilisatrice ne quitte pas le statut Désactivé et Approbation en attente dans les minutes qui suivent, et qu’une actualisation de l’écran ne supprime pas le badge Approbation en attente , vous pouvez ajouter directement le lot d’utilisateurs ou d’utilisatrices au Adobe Admin Console.
+>
+>Pour obtenir des instructions, voir [Gérer plusieurs utilisateurs | Chargement CSV en masse](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) dans la documentation d’Adobe.
