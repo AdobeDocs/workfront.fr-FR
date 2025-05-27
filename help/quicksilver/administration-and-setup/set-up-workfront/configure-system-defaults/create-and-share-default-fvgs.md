@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
+source-git-commit: 4fbf88c544cd56887e6f6f36d7aabfa0668a2a05
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 64%
+source-wordcount: '824'
+ht-degree: 48%
 
 ---
 
@@ -88,15 +88,18 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 Vous pouvez mettre le filtre, la vue ou le regroupement à la disposition des personnes de votre système. Pour plus d’informations sur le partage de filtres, de vues ou de regroupements avec d’autres personnes, voir la section [Mettre des filtres, des vues ou des regroupements à la disposition des personnes](#make-filters-views-or-groupings-available-to-users) dans cet article.
 
 
-## Afficher ou masquer les filtres, les vues ou les regroupements disponibles dans le modèle de disposition
+## Mettre les filtres, les vues ou les regroupements à la disposition de toutes les personnes {#make-filters-views-or-groupings-available-to-users}
 
-Vous pouvez choisir d’afficher ou de masquer les filtres, les vues ou les regroupements du modèle de disposition. Les filtres visibles sont disponibles pour tous les utilisateurs à l’échelle du système. Vous pouvez utiliser un modèle de disposition pour masquer les filtres visibles pour des personnes ou des groupes spécifiques.
+Vous pouvez choisir d’afficher ou de masquer des filtres, des vues ou des regroupements dans le système. Les filtres visibles sont disponibles pour tous les utilisateurs à l’échelle du système. Ce paramètre agit comme un interrupteur marche/arrêt pour l’ensemble du système, y compris le modèle de disposition.
+
+Si vous souhaitez masquer des filtres, des vues ou des regroupements à des utilisateurs spécifiques, nous vous recommandons d’utiliser un modèle de mise en page plutôt que de le désactiver dans tout le système.
 
 >[!NOTE]
 >
->Si une personne utilise activement un filtre, une vue ou un regroupement et qu’un administrateur ou une administratrice désactive l’élément, la personne conserve l’accès jusqu’à ce qu’elle choisisse un nouveau filtre, une nouvelle vue ou un nouveau regroupement. Une fois qu’ils en ont choisi un nouveau, ils ne pourront plus revenir à celui qui est masqué.
+>* Si une personne utilise activement un filtre, une vue ou un regroupement et qu’un administrateur ou une administratrice désactive l’élément, la personne conserve l’accès jusqu’à ce qu’elle choisisse un nouveau filtre, une nouvelle vue ou un nouveau regroupement. Une fois qu’ils en ont choisi un nouveau, ils ne pourront plus revenir à celui qui est masqué.
+>* Si tous les filtres, vues et regroupements sont restreints par le modèle de mise en page ou désactivés à l’échelle du système, les options par défaut s’affichent, car le système doit afficher quelque chose.
 
-Pour afficher ou masquer les filtres, les vues ou les regroupements disponibles dans le modèle de disposition :
+Pour afficher ou masquer des filtres, des vues ou des regroupements :
 
 {{step-1-to-setup}}
 
@@ -110,23 +113,29 @@ Pour afficher ou masquer les filtres, les vues ou les regroupements disponibles 
    >
    >Si vous souhaitez que le filtre, la vue ou le regroupement reste disponible pour la plupart des utilisateurs, mais qu&#39;il soit masqué pour les autres, vous pouvez utiliser le modèle de mise en page. Pour plus d’informations, voir [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Conditionnel) Sélectionnez le filtre, la vue ou le regroupement que vous souhaitez masquer aux utilisateurs, puis cliquez sur **[!UICONTROL Désactiver à l’échelle du système]**. Le filtre, la vue ou le regroupement est maintenant masqué dans le modèle de mise en page et pour les utilisateurs du système.
+1. (Conditionnel) Sélectionnez le filtre, la vue ou le regroupement que vous souhaitez masquer aux utilisateurs, puis cliquez sur **[!UICONTROL Désactiver à l’échelle du système]**. Le filtre, la vue ou le regroupement est maintenant masqué pour le modèle de mise en page et pour les utilisateurs du système.
 
 
-## Mettre les filtres, les vues ou les regroupements à la disposition de toutes les personnes {#make-filters-views-or-groupings-available-to-users}
+## Partage de filtres, de vues ou de regroupements personnalisés avec des utilisateurs spécifiques
 
-Ces étapes expliquent comment mettre les filtres, les vues et les regroupements à disposition à partir de la boîte de dialogue [!UICONTROL Partager] dans la zone [!UICONTROL Interface] de [!UICONTROL Configuration]. Ce paramètre agit comme un interrupteur marche/arrêt pour l’ensemble du système, y compris le modèle de disposition.
+Ces étapes expliquent comment partager des filtres, des vues et des regroupements personnalisés avec des utilisateurs spécifiques à l’aide de la boîte de dialogue de partage dans la zone [!UICONTROL Interface] de la [!UICONTROL Configuration]. Vous pouvez accorder un accès en lecture seule ou gérer l’accès aux filtres, vues et regroupements que vous ou d’autres avez créés. Vous ne pouvez pas partager les valeurs par défaut du système avec les utilisateurs.
+
 
 {{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Interface]**, puis sur l’un des éléments suivants : **[!UICONTROL Filtres]**, **[!UICONTROL Vues]** ou **[!UICONTROL Regroupements]**.
 
-1. Sélectionnez le filtre, la vue ou le regroupement que vous souhaitez mettre à la disposition des utilisateurs, puis cliquez sur l’icône **[!UICONTROL Partager]** ![Icône Partager](assets/share-icon.png).
+1. Sélectionnez le filtre, la vue ou le regroupement que vous souhaitez partager, puis cliquez sur l’icône **[!UICONTROL Partager]** ![Icône Partager](assets/share-icon.png).
 1. Commencez à taper le nom des personnes, des équipes, des rôles, des groupes ou des entreprises avec lesquels vous souhaitez partager le filtre, la vue ou le regroupement, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    Pour plus d’informations sur le partage, voir [Vue d’ensemble du partage des autorisations sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Cliquer sur **[!UICONTROL Enregistrer]**. Les utilisateurs que vous avez spécifiés peuvent désormais voir le filtre, l’affichage ou le regroupement lors de l’affichage du type d’objet auquel vous l’avez associé.
+1. Choisissez **Afficher** ou **Gérer** en regard du nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société. Pour affiner les autorisations, cliquez sur l’icône de curseur et ajustez les autorisations.
+
+   ![affiner les autorisations](assets/fine-tune-permissions.png)
+
+1. Cliquer sur **[!UICONTROL Enregistrer]**. Les utilisateurs que vous avez spécifiés peuvent désormais interagir avec le filtre, la vue ou le regroupement lors de l’affichage du type d’objet auquel vous l’avez associé.
+
 
 ## Supprimer des filtres, des vues et des regroupements
 
