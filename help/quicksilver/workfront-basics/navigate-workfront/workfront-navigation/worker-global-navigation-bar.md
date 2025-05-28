@@ -7,9 +7,9 @@ description: Le menu principal change en fonction du niveau d’accès qui vous 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '452'
 ht-degree: 93%
 
 ---
@@ -45,8 +45,6 @@ Les zones suivantes sont incluses dans la disposition par défaut [!UICONTROL d�
 * **[!UICONTROL Documents]** : ici, vous pouvez charger des documents ou réviser des documents partagés avec vous. Pour plus d’informations, consultez [Documents](../../../documents/documents-overview.md).
 
 * **[!UICONTROL Ressources]** : vous pouvez afficher l’affectation des ressources dans les outils de planification des ressources et afficher les groupes de ressources ici. Pour plus d’informations, consultez [Gérer les ressources](../../../resource-mgmt/manage-resources.md).
-
-* **[!UICONTROL Analytics]** : examinez les données du projet et identifiez les tendances en matière de planification et d’achèvement. Cette zone affiche des informations sur les projets auxquels vous avez accès. Pour plus d’informations, consultez [Vue d’ensemble d’Analytique améliorée](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 * **[!UICONTROL Panoramas]** : travaillez de manière flexible et en collaboration avec les personnes membres de votre équipe en utilisant des panoramas partagés qui contiennent des colonnes et des cartes reflétant le travail que vous souhaitez réaliser. Pour plus d’informations, consultez [Commencer avec les panoramas : index des articles](../../../agile/get-started-with-boards/get-started-with-boards.md).
 

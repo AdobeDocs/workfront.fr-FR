@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5d5be823-77d9-4d0c-bec6-cc172ea7f50b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 66%
+source-wordcount: '126'
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 66%
 
 >[!IMPORTANT]
 >
->Enhanced Analytics sera supprimé de Workfront dans la semaine du 26 mai. Workfront Data Connect est une nouvelle solution alternative qui peut être utilisée pour répliquer toutes les visualisations Enhanced Analytics que vous utilisez actuellement. <br>Pour plus d’informations, consultez le guide [Obsolescence améliorée d’Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) .
+>Enhanced Analytics a été supprimé de Workfront le 27 mai. Workfront Data Connect est une nouvelle solution alternative qui peut être utilisée pour répliquer toutes les visualisations Enhanced Analytics que vous utilisez actuellement. <br>Pour plus d’informations, consultez le guide [Obsolescence améliorée d’Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) .
 
 
 Cette section contient les articles suivants :
@@ -42,4 +42,4 @@ Cette section contient les articles suivants :
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-Pour une formation approfondie sur Analytique améliorée, voir [Parcours de formation Analytique améliorée](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home).
+Pour une formation approfondie sur Analytique améliorée, voir [Parcours de formation Analytique améliorée](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

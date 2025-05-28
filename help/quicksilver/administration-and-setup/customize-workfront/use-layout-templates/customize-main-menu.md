@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
+source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 68%
+source-wordcount: '682'
+ht-degree: 67%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 68%
 <!--Audited: 01/2024-->
 
 En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, vous pouvez utiliser un modèle de disposition pour configurer les options que les personnes voient lorsqu’elles ouvrent le menu principal dans Workfront.
-
-![Options du menu principal](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
@@ -106,7 +104,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * Feuilles de temps
    * Documents
    * Modèles
-   * Analytique
    * Relecture
    * Objectifs
 
@@ -122,7 +119,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
      >[!NOTE]
      >
      >Planning requiert une licence supplémentaire. Pour plus d’informations sur Workfront Planning, consultez la [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-     > * Application personnalisée
+      * Application personnalisée
 
      >[!NOTE]
      >

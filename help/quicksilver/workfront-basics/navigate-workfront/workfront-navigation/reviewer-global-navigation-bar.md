@@ -6,9 +6,9 @@ description: Le menu principal change en fonction du niveau d’accès qui vous 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '358'
 ht-degree: 98%
 
 ---
@@ -31,8 +31,6 @@ Les zones suivantes sont incluses dans la disposition par défaut des [!UICONTRO
 
 * **[!UICONTROL Demandes]** : vous pouvez soumettre et examiner les demandes que vous, ainsi que d’autres utilisateurs et utilisatrices de votre entreprise, avez envoyées dans cette zone.
 * **[!UICONTROL Documents]** : vous pouvez charger des documents ou examiner les documents partagés avec vous ici.
-* **[!UICONTROL Analytique]** : examinez les données du projet et identifiez les tendances en matière de planification et d’achèvement. Cette zone affiche des informations sur les projets auxquels vous avez accès. Pour plus d’informations, voir [Vue d’ensemble de l’Analytique améliorée](../../../enhanced-analytics/enhanced-analytics-overview.md).
-
 * **[!UICONTROL Plans directeurs]** : examinez les plans directeurs existants de votre système et demandez à en installer un, si l’équipe d’administration [!DNL Workfront] a configuré la file d’attente des demandes pour les plans directeurs. Pour plus d’informations, voir [Vue d’ensemble des plans directeurs](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 

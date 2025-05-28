@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '195'
 ht-degree: 100%
 
 ---
@@ -34,5 +34,4 @@ Vous pouvez vous concentrer sur différents projets ou réduire le nombre de pro
 
 En plus des informations dont vous pouvez bénéficier, vous pouvez également effectuer des actions sur des tâches, telles que mettre à jour leur statut, déposer une demande de mise à jour, affecter la tâche à une personne, etc.et ceci directement à partir de la zone Analytique améliorée.
 
-Pour en savoir plus, consultez [Vue d’ensemble d’Analytique améliorée](../../../enhanced-analytics/enhanced-analytics-overview.md).
 

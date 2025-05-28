@@ -7,10 +7,10 @@ description: En utilisant des caractères génériques dans des filtres, vous po
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1439'
+ht-degree: 100%
 
 ---
 
@@ -173,7 +173,6 @@ Vous pouvez choisir parmi les variables suivantes basées sur l’utilisateur ou
      <ul> 
       <li> <p>Planificateur de ressources</p> </li> 
       <li> <p>Équilibreur de charge de travail</p> </li> 
-      <li> <p>Analytique</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 

@@ -1,19 +1,19 @@
 ---
-title: 20. 4 Améliorations d’analyse
-description: 20. 4 Améliorations d’analyse
+title: ​20. 4 Améliorations d’analyse
+description: ​20. 4 Améliorations d’analyse
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 99%
+source-wordcount: '206'
+ht-degree: 100%
 
 ---
 
-# 20. 4 Améliorations d’analyse
+# &#x200B;20. 4 Améliorations d’analyse
 
 Cette page décrit toutes les améliorations d’analyse apportées à l’environnement de prévisualisation de la version 20.4. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 9 novembre 2020.
 
@@ -28,5 +28,3 @@ Pour que vous puissiez afficher les informations que vous souhaitez consulter sa
 * Chaque graphique comporte désormais un menu Trier par qui vous permet de trier par ordre alphabétique, par date de début prévue ou par date d’achèvement prévue.
 
 Auparavant, la zone Analytique améliorée limitait à 50 le nombre de projets que vous pouviez consulter.
-
-Cette fonctionnalité est désormais incluse dans le [parcours de formation d’Analytique améliorée, partie 1](https://experienceleague.adobe.com/fr/docs/workfront/using/home) sur Workfront One.

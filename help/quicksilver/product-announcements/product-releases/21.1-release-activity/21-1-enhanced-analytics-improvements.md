@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,6 @@ Pour obtenir une liste de tous les changements disponibles avec la version 21.1
 
 Dans le modèle de disposition par défaut, la zone Analyse est désormais activée par défaut, ce qui signifie que les utilisateurs et utilisatrices affectés à ce modèle de disposition voient désormais la zone Analyse dans la barre de navigation globale d’Adobe Workfront Classic et le menu principal dans la nouvelle expérience Adobe Workfront.
 
-Pour en savoir plus sur Analytique améliorée, voir [Vue d’ensemble d’Analytique améliorée](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Analytique améliorée disponible pour tous les clusters
 
@@ -37,7 +36,6 @@ Analytique améliorée est disponible pour tous les clusters Workfront, y compri
 
 Auparavant, Analytique améliorée n’était pas disponible avec Google Cloud Platform, ce qui empêchait les clientes et clients du Cluster 6 d’accéder à la zone Analyse. Désormais, les clientes et clients Entreprises et Grands comptes de Cluster 6 peuvent accéder à la zone Analyse.
 
-Pour en savoir plus sur Analytique améliorée, voir [Vue d’ensemble d’Analytique améliorée](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## La page Personnes est désormais disponible pour tous les clusters.
 
@@ -49,4 +47,4 @@ La page Personnes est désormais disponible sur Workfront Classic pour le Cluste
 
 Cette page était auparavant disponible avec la version 20.3 de Workfront Classic et de la nouvelle expérience Workfront pour tous les autres clusters.
 
-Pour en savoir plus sur les graphiques disponibles dans la page Personnes, voir [Vue d’ensemble d’Analytique améliorée](../../../enhanced-analytics/enhanced-analytics-overview.md).
+

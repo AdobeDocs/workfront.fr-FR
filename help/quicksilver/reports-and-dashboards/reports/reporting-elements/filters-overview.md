@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Vue d’ensemble des filtres
 description: Vous pouvez utiliser des filtres dans Adobe Workfront pour réduire la quantité d’informations affichées à l’écran dans les listes, les rapports ou d’autres zones.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1811'
 ht-degree: 99%
 
 ---
@@ -73,7 +73,7 @@ Vous pouvez utiliser des filtres intégrés ou créer des filtres personnalisés
 
 * Page d’accueil
 
-  Pour plus d’informations, voir [Affichage des éléments dans la liste de travail de la zone d’accueil](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Pour plus d&#39;informations, voir [Afficher les éléments de la Liste de travail dans la zone Accueil](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Zone Requêtes. Vous ne pouvez pas personnaliser les filtres dans la zone Requêtes.
 
@@ -90,10 +90,6 @@ Vous pouvez utiliser des filtres intégrés ou créer des filtres personnalisés
 * Équilibreur de charge de travail
 
   Pour plus d’informations, consultez [Filtrer des informations dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
-
-* Zone Analytics
-
-  Pour plus d’informations, consultez [Appliquer des filtres dans Analytique améliorée](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 * Zone des plans directeurs
 
@@ -227,7 +223,7 @@ Vous pouvez utiliser des modificateurs de filtre pour indiquer le type d’infor
 >[!INFO]
 >
 >**Exemple :**
->vous pouvez filtrer les projets dont le pourcentage terminé est de 100 %. Dans ce cas, vous pouvez utiliser le modificateur « equal » dans l’instruction de filtre suivante :
+>>vous pouvez filtrer les projets dont le pourcentage terminé est de 100 %. Dans ce cas, vous pouvez utiliser le modificateur « equal » dans l’instruction de filtre suivante :
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 

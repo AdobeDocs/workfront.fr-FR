@@ -7,9 +7,9 @@ description: Analytique améliorée constitue un puissant outil d’Adobe Workf
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 96%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Enhanced Analytics sera supprimé de Workfront dans la semaine du 26 mai. Workfront Data Connect est une nouvelle solution alternative qui peut être utilisée pour répliquer toutes les visualisations Enhanced Analytics que vous utilisez actuellement. <br>Pour plus d’informations, consultez le guide [Obsolescence améliorée d’Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) .
+>Enhanced Analytics a été supprimé de Workfront le 27 mai. Workfront Data Connect est une nouvelle solution alternative qui peut être utilisée pour répliquer toutes les visualisations Enhanced Analytics que vous utilisez actuellement. <br>Pour plus d’informations, consultez le guide [Obsolescence améliorée d’Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) .
 
 
 Analytique améliorée constitue un puissant outil d’Adobe Workfront avec des visualisations prédéfinies qui vous permettent d’examiner les données du projet et d’identifier les tendances en matière de planification et d’achèvement. Grâce à ces informations sur vos projets, vous pouvez gérer votre travail actuel et planifier plus précisément votre travail futur.
@@ -34,7 +34,7 @@ Analytique améliorée peut vous aider à identifier ce qui suit :
 
 ![ Analytics ](assets/nwe-full-screen-analytics-350x222.png)
 
-Pour consulter des cas d’utilisation ou en savoir plus sur la gestion du travail actuel et la planification du travail futur à l’aide d’Analytique améliorée, voir [Parcours de formation Analytique améliorée](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home).
+Pour consulter des cas d’utilisation ou en savoir plus sur la gestion du travail actuel et la planification du travail futur à l’aide d’Analytique améliorée, voir [Parcours de formation Analytique améliorée](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Conditions préalables
 
@@ -46,7 +46,7 @@ Pour accéder à la zone Analytique améliorée, vous devez satisfaire les condi
 
 * Demander à votre administrateur ou administratrice Workfront d’ajouter Analytique améliorée à votre modèle de mise en page.
 
-  Pour plus d’informations, voir [Analytique améliorée : ajouter une analyse aux modèles de mise en page](https://experienceleague.adobe.com/fr/docs/workfront/using/home).
+  Pour plus d’informations, voir [Analytique améliorée : ajouter une analyse aux modèles de mise en page](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Pour afficher les informations relatives aux projets et aux tâches, vous devez satisfaire les conditions suivantes :
 

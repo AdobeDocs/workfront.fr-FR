@@ -5,14 +5,14 @@ content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: La disposition par défaut correspond à la disposition du menu principal, du panneau de gauche, ainsi qu’aux vues, aux regroupements et aux filtres avant qu’un administrateur ou une administratrice Adobe Workfront ne procède à des modifications à l’aide d’un modèle de mise en page.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 43%
+source-wordcount: '614'
+ht-degree: 42%
 
 ---
 
@@ -192,16 +192,6 @@ Le tableau suivant présente les éléments par défaut du menu principal et les
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Analytique</td>
-    <td class="tg-0lax">Travail <br> personnes</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
   </tr>
@@ -408,15 +398,6 @@ Le tableau suivant affiche les éléments par défaut du menu principal et les �
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Analytique</td>
-    <td class="tg-0pky">Travail <br> personnes</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
   </tr>

@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2771'
 ht-degree: 93%
 
 ---
@@ -104,7 +104,7 @@ La vue par défaut de ce rapport contient les colonnes suivantes :
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Nom de champ</strong> </td> 
+   <td><strong>Nom du champ</strong> </td> 
    <td> <p><span style="font-weight: normal;">Nom du champ affecté. Selon la façon dont vous avez configuré le rapport, cette colonne peut contenir le statut, l’identifiant de la personne propriétaire, le nom de la tâche, la date d’achèvement prévue ou d’autres champs.</span> </p> <p><span style="font-weight: normal;">Lorsque</span> <strong>DE</strong>:<span style="font-weight: normal;"> s’affiche dans cette colonne, cela indique que le champ répertorié est un champ personnalisé.</span></p> </td> 
   </tr> 
   <tr> 
@@ -169,16 +169,7 @@ Si vous souhaitez connaître l’état de santé d’un projet, vous pouvez éga
 
 Ces informations peuvent servir à faciliter les audits et illustrer la qualité de votre planification et de celle de votre organisation.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;for tip below: When analytics adds the status option, update this note to say "these entries (status or condition changes)")</p>
--->
-
->[!TIP]
->
->Si vous souhaitez comparer la différence en jours entre les modifications de condition, vous pouvez utiliser l’Analytique améliorée.\
->Pour en savoir plus sur l’Analytique améliorée, voir [Vue d’ensemble de l’Analytique améliorée](../../../enhanced-analytics/enhanced-analytics-overview.md).
-
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), sélectionnez l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
+1. Cliquez sur l’icône de **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône de **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![Sélectionner une entrée de journal](assets/nwe-select-journal-entry-350x273.png)
@@ -198,7 +189,7 @@ Ces informations peuvent servir à faciliter les audits et illustrer la qualité
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p style="font-weight: bold;">Nom de champ</p> </td> 
+      <td> <p style="font-weight: bold;">Nom du champ</p> </td> 
       <td> <p>Nom du champ concerné. Dans ce cas, le <strong>statut</strong> doit s’afficher dans cette colonne.</p> </td> 
      </tr> 
      <tr> 
@@ -396,7 +387,7 @@ Pour observer comment des champs personnalisés ont évolué au cours du cycle d
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p style="font-weight: bold;">Nom de champ</p> </td> 
+      <td> <p style="font-weight: bold;">Nom du champ</p> </td> 
       <td> <p>Nom du champ personnalisé affecté.</p> <p><span style="font-weight: normal;">Lorsque</span> <strong>DE</strong>:<span style="font-weight: normal;"> s’affiche dans cette colonne, cela indique que le champ répertorié est un champ personnalisé.</span></p> </td> 
      </tr> 
      <tr> 
@@ -498,7 +489,7 @@ Vous pouvez paramétrer le rapport d’entrée du journal pour montrer à quelle
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p style="font-weight: bold;">Nom de champ</p> </td> 
+      <td> <p style="font-weight: bold;">Nom du champ</p> </td> 
       <td> <p>Nom du champ concerné.</p> <p><span style="font-weight: normal;">Lorsque</span> <strong>DE</strong>:<span style="font-weight: normal;"> s’affiche dans cette colonne, cela indique que le champ répertorié est un champ personnalisé.</span></p> </td> 
      </tr> 
      <tr> 
@@ -599,7 +590,7 @@ Vous pouvez configurer le rapport d’entrée du journal pour montrer combien de
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p style="font-weight: bold;">Nom de champ</p> </td> 
+      <td> <p style="font-weight: bold;">Nom du champ</p> </td> 
       <td>Nom du champ concerné. La valeur <strong>ownerID</strong> s’affiche dans cette colonne.</td> 
      </tr> 
      <tr> 
