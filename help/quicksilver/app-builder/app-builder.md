@@ -152,13 +152,13 @@ Pour autoriser les applications personnalisées dans le menu principal de Workfr
 Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce code a été créé pour vous par le modèle. Ce code peut être ajouté pour créer des éléments de menu supplémentaires. Veillez à remplacer les identifiants et les URL.
 
     «
-    mainMenu: {
+    mainMenu: &lbrace;
     
-    getItems() {
+    getItems() &lbrace;
     
-    return [
+    return &lbrack;
     
-    {
+    &lbrace;
     
     id: &#39;main-menu-label&#39;,
     
@@ -168,13 +168,13 @@ Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce co
     
     icon: icon1,
     
-    },
+    &rbrace;,
     
-    ];
+    &rbrack;;
     
-    },
+    &rbrace;,
     
-    }
+    &rbrace;
     «
 
 1. Ajoutez le fragment de code suivant :
@@ -272,4 +272,4 @@ Des instructions supplémentaires sont disponibles sur le site du développeur d
 
 ## Publier les demandes et approuver l&#39;envoi
 
-Pour publier la demande et l&#39;approuver, suivez les instructions figurant sur le site du développeur d&#39;Adobe [](https://developer.adobe.com/uix/docs/guides/publication/).
+Pour publier la demande et l&#39;approuver, suivez les instructions figurant sur le site du développeur d&#39;Adobe [&#128279;](https://developer.adobe.com/uix/docs/guides/publication/).
