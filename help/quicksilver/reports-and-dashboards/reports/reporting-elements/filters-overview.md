@@ -223,7 +223,7 @@ Vous pouvez utiliser des modificateurs de filtre pour indiquer le type d’infor
 >[!INFO]
 >
 >**Exemple :**
->>vous pouvez filtrer les projets dont le pourcentage terminé est de 100 %. Dans ce cas, vous pouvez utiliser le modificateur « equal » dans l’instruction de filtre suivante :
+>&#x200B;>vous pouvez filtrer les projets dont le pourcentage terminé est de 100 %. Dans ce cas, vous pouvez utiliser le modificateur « equal » dans l’instruction de filtre suivante :
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 
