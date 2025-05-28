@@ -7,9 +7,9 @@ description: Questions fréquentes sur les rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1504'
 ht-degree: 88%
 
 ---
@@ -71,17 +71,27 @@ Dans un rapport de projet, j&#39;ai un calcul qui soustrait les heures effective
 
 Mon calcul est le suivant :
 
-`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)`
 
 ### Réponse
 
 La plupart des champs utilisant des heures dans Workfront sont stockés en minutes. Lorsque vous utilisez ces champs dans un calcul, le résultat est le plus souvent exprimé en minutes. Pour obtenir le résultat en heures, vous devez diviser le résultat du calcul ou le champ que vous référencez par 60.
 
-Par exemple, les heures planifiées sont stockées en minutes, tandis que les heures réelles sont stockées en heures. Par conséquent, vous devez convertir les heures planifiées de minutes en heures.
+<!--For example, Planned Hours are stored in minutes, while Actual Hours are stored in hours. As a result, you must convert Planned Hours from minutes to hours. -->
 
 Le calcul correct est le suivant :
 
-`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+>[!NOTE]
+>
+>Si vous faites référence aux heures réelles dans les appels API, utilisez `actualWorkRequiredDouble` pour le champ de valeur . Les heures réelles dans l’API sont stockées en heures. Les heures planifiées sont stockées en minutes.
+>
+>Le calcul correct dans un appel API est :
+>>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+
+<!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
 
 ## Pourquoi la valeur de chacun de mes éléments de graphique dans un rapport ne s’affiche-t-elle pas sur le graphique ?
 
