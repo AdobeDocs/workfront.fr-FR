@@ -4,9 +4,9 @@ description: Les extensions d’interface utilisateur de Workfront, optimisées 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: e27cf74c94167e918bb6426b99bf7e47139cbade
+source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Vous devez disposer des éléments suivants :
 
 * Un compte Workfront compatible IMS
 * Une machine de développement avec le nœud v18 et npm
+* Licence App Builder
 
 ## Accès à Adobe App Builder
 
@@ -69,8 +70,6 @@ Des instructions supplémentaires sont disponibles sur le site [Adobe Developer]
 ### Obtenir l’accès à App Builder
 
 Les entreprises doivent collaborer avec leurs gestionnaires de compte pour acheter App Builder.
-
-Pour tester l’intégration d’AppBuilder, vous pouvez demander une version d’essai gratuite pour votre organisation IMS ici : https://developer.adobe.com/app-builder/trial/#
 
 Si AppBuilder est correctement configuré, vous devriez voir Créer un projet à partir d’un modèle dans le cadre de la création d’un projet.
 
@@ -132,7 +131,7 @@ Des instructions supplémentaires sont disponibles sur GitHub et sur le site d�
 
 1. Confirmez l’achèvement en sélectionnant J’ai terminé. La génération du code à partir du modèle est en cours.
    ![génération en cours](assets/6-generation-in-process.png)
-1. Patientez jusqu’à ce qu’un message indiquant que l’initialisation de l’application est terminée s’affiche. Vous pouvez ensuite ouvrir le projet dans un IDE (VSCode est recommandé) et accéder au dossier src.
+1. Patientez jusqu’à ce qu’un message indiquant que l’initialisation de l’application est terminée s’affiche. Vous pouvez ensuite ouvrir le projet dans un IDE (Visual Studio Code est recommandé) et accéder au dossier src.
 
    Pour plus d’informations sur les dossiers et fichiers de votre projet, consultez le [site du développeur Adobe](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
 
@@ -153,13 +152,13 @@ Pour autoriser les applications personnalisées dans le menu principal de Workfr
 Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce code a été créé pour vous par le modèle. Ce code peut être ajouté pour créer des éléments de menu supplémentaires. Veillez à remplacer les identifiants et les URL.
 
     «
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -169,13 +168,13 @@ Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce co
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     «
 
 1. Ajoutez le fragment de code suivant :
@@ -273,4 +272,4 @@ Des instructions supplémentaires sont disponibles sur le site du développeur d
 
 ## Publier les demandes et approuver l&#39;envoi
 
-Pour publier la demande et l&#39;approuver, suivez les instructions figurant sur le site du développeur d&#39;Adobe [&#128279;](https://developer.adobe.com/uix/docs/guides/publication/).
+Pour publier la demande et l&#39;approuver, suivez les instructions figurant sur le site du développeur d&#39;Adobe [](https://developer.adobe.com/uix/docs/guides/publication/).
