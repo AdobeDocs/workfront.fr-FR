@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
+source-git-commit: f8b660859269694f13410e4bc6894d6677cd04a2
 workflow-type: tm+mt
-source-wordcount: '3990'
+source-wordcount: '3995'
 ht-degree: 2%
 
 ---
@@ -150,7 +150,7 @@ Nous vous recommandons de remplacer l’URL pour accéder à une page prise en c
 
 ### Mise à jour de l’interface vers la nouvelle page d’enregistrement des utilisateurs
 
-**Version préliminaire : 15 mai 2024 ; Version de production : à annoncer**
+**Version préliminaire : 12 mai 2024 ; Version de production : 19 mai 2025**
 
 Nous avons mis à jour la nouvelle page d’inscription des utilisateurs avec un design plus moderne et cohérent avec les autres aspects de Workfront.
 
@@ -158,13 +158,15 @@ Les utilisateurs n’ont plus la possibilité de charger une photo sur cette pag
 
 ### Mise à jour de la recherche de la page de connexion
 
-**Version préliminaire : 15 mai 2024 ; Version de production : à annoncer**
+**Version préliminaire : 12 mai 2024 ; Version de production : 19 mai 2025**
 
 Nous avons mis à jour la page de connexion avec un design plus moderne et cohérent avec les autres zones de Workfront.
 
+Suite à cette modification, la page de connexion ne prend plus en charge le branding personnalisé.
+
 ### Mise à jour de la recherche de la page de réinitialisation du mot de passe
 
-**Version préliminaire : 15 mai 2024 ; Version de production : à annoncer**
+**Version préliminaire : 12 mai 2024 ; Version de production : 19 mai 2025**
 
 Nous avons mis à jour l’écran de réinitialisation du mot de passe avec une conception plus moderne et cohérente avec les autres zones de Workfront. Cette mise à jour comprend des mises à jour des pages suivantes :
 
