@@ -30,7 +30,7 @@ Un champ personnalisé avec mise en forme de texte enrichi est appelé Champ ave
 Exemple : une requête GET de base pour récupérer la valeur du champ de formulaire personnalisé avec texte enrichi :
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 Exemple : cette requête renvoie la valeur de Field avec du texte enrichi dans le JSON stocké dans le paramètre value DE:Field avec du texte enrichi
 
@@ -120,4 +120,4 @@ Pour enregistrer les valeurs suivantes d’un champ de texte enrichi à l’aide
 1. Utilisez la méthode stringify sur le fichier JSON décrit ci-dessus pour effectuer une requête PUT et envoyer des mises à jour.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
