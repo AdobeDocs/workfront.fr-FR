@@ -3,29 +3,35 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Accès aux objets et aux zones par type de licence
+title: Accès aux objets et zones par type de licence
 description: Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou Afficher) que chacune des licences Adobe Workfront autorise pour les objets et les zones de Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 98%
+source-wordcount: '456'
+ht-degree: 82%
 
 ---
 
 # Accéder aux objets et zones par type de licence
 
+<!-- Audited: 5/2025 -->
+
 Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou Afficher) que chacune des licences Adobe Workfront autorise pour les objets et les zones de Workfront.
 
-* **Afficher** : la personne peut consulter et partager des éléments.
-* **Modifier** : la personne peut créer, modifier, supprimer et partager des éléments.
+* Afficher : l’utilisateur peut réviser et partager des éléments.
+* Modifier : l’utilisateur peut créer, modifier, supprimer et partager des éléments.
 
   >[!NOTE]
   >
-  >Lorsqu’une autre personne partage un objet, elle peut spécifier des autorisations qui limitent la capacité des autres à modifier l’objet. Pour plus d’informations, voir [Vue d’ensemble du partage des autorisations sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >Lorsqu’une autre personne partage un objet, elle peut spécifier des autorisations qui limitent la capacité des autres à modifier l’objet. Pour plus d’informations sur les nouveaux types de licence, consultez [Présentation des autorisations de partage sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+  >[!NOTE]
+  >
+  >Cet article contient des informations sur l’accès aux objets pour les types de licence hérités. Pour plus d’informations sur les nouveaux types de licence, consultez [Présentation des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) et [Présentation des nouvelles licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 |   | Plan | Travail | Vérifier | Demande | Externe |
 |---|---|---|---|---|---|
@@ -49,7 +55,7 @@ Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou 
 
 >[!NOTE]
 >
->Les personnes disposant d’une licence Révision ou d’une licence Demande ont des capacités de partage limitées. Pour plus d’informations, voir [Vue d’ensemble des licences Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Les utilisateurs disposant d’une licence de révision ou de demande disposent de fonctionnalités de partage limitées. Pour plus d’informations, voir [Vue d’ensemble des licences](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >Les utilisateurs et utilisatrices externes ne peuvent pas rechercher des éléments dans Workfront. Ces personnes peuvent consulter les documents et les calendriers qui sont spécifiquement partagés avec elles. Elles peuvent également voir les utilisateurs et utilisatrices qui partagent des éléments avec elles.
 

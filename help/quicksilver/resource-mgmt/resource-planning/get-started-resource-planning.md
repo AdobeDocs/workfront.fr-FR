@@ -7,14 +7,16 @@ description: Vous pouvez utiliser des outils de planification des ressources pou
 author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 99%
+source-wordcount: '554'
+ht-degree: 90%
 
 ---
 
 # Commencer avec la planification des ressources
+
+<!--Audited: 5/2025-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -23,7 +25,7 @@ ht-degree: 99%
 </div>
 -->
 
-Vous pouvez utiliser les outils de gestion des ressources d’Adobe Workfront pour prévoir l’affectation de vos ressources afin de vous assurer que vos projets sont distribués à temps et selon le budget. Pour une vue d’ensemble de la gestion des ressources dans Workfront, voir [Commencer avec la gestion des ressources](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+Vous pouvez utiliser les outils de gestion des ressources d’Adobe Workfront pour prévoir l’affectation de vos ressources afin de savoir avec précision si vos projets sont livrés dans les délais et selon le budget. Pour une vue d’ensemble de la gestion des ressources dans Workfront, voir [Commencer avec la gestion des ressources](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 Vous pouvez utiliser des outils de planification des ressources pour gérer vos fonctions, leur disponibilité et l’affectation générale aux projets en fonction de cette disponibilité.
 
@@ -35,7 +37,7 @@ Pour plus d’informations sur la planification des ressources dans Workfront à
 
 Pour bugdéter les heures de vos ressources pour les projets auxquels vous prévoyez de les affecter, vous pouvez utiliser les outils suivants :
 
-* Pour établir les budgets et les priorités de plusieurs projets au niveau du système : utilisez le planificateur de ressources au niveau du système.
+* Pour budgétiser des allocations pour et donner la priorité à plusieurs projets au niveau du système, utilisez le Planificateur de ressources au niveau du système.
 
   Vous pouvez accéder au planificateur de ressources en vous rendant dans la section Planificateur de la zone Ressources.
 

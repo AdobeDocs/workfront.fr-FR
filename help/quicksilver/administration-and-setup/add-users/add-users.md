@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
-title: "Gestion utilisateur : index de l’article"
+title: 'User Management : index des articles'
 description: Vous pouvez ajouter des personnes dans Adobe Workfront en créant des utilisateurs individuels et utilisatrices individuelles à partir de zéro ou en copiant des personnes existantes.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 94%
@@ -19,7 +19,7 @@ ht-degree: 94%
 
 # User Management : index des articles
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 5/2025 -->
 
 Vous pouvez créer et gérer des utilisateurs et utilisatrices dans Workfront.
 

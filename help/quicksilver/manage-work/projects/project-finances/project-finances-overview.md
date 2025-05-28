@@ -2,13 +2,13 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: 'Finances du projet : index des articles'
+title: 'Finances du projet : Index des articles'
 description: Les articles suivants contiennent des informations sur les zones où vous pouvez trouver des informations financières sur le projet et sur la façon de gérer les finances du projet.
 author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 98%
@@ -16,6 +16,8 @@ ht-degree: 98%
 ---
 
 # Finances d’un projet : index des articles
+
+<!-- Audited: 5/2025 -->
 
 Pour plus d’informations sur les zones où vous pouvez trouver des informations financières sur les projets et sur la façon de gérer les finances des projets, consultez les articles suivants :
 
