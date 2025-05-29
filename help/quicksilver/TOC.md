@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ddd69533738865d09f35e290e545cfbae062c687
+source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
 workflow-type: tm+mt
-source-wordcount: '13216'
+source-wordcount: '13220'
 ht-degree: 87%
 
 ---
@@ -254,7 +254,7 @@ ht-degree: 87%
          * version 20.4 {#release-20-4}
             * [Vue d’ensemble de la version 20.4](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [Améliorations de la gestion de projets (version 20.4)](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
-            * [20. 4 Améliorations d’analyse](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
+            * [&#x200B;20. 4 Améliorations d’analyse](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
             * [Améliorations de la gestion des ressources (version 20.4)](product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md)
             * [Améliorations de l’épreuve (version 20.4)](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [Améliorations apportées à l’application mobile et à l’intégration (version 20.4)](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
@@ -802,6 +802,7 @@ ht-degree: 87%
    * [Glossaire de la terminologie Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Configuration requise pour le navigateur Adobe Workfront](workfront-basics/workfront-browser-requirements.md)
    * [Langues prises en charge dans Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
+   * [Préparation du HIPAA pour Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
    * Navigation dans Adobe Workfront {#navigate}
       * [Naviguer dans Adobe Workfront : index des articles](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Recherche dans Adobe Workfront {#search}
