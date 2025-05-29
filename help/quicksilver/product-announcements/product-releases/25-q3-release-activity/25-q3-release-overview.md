@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: f9b0f6b246a723ce407de05c4ae4d5dec0c06fe2
+source-git-commit: 655fc2407583ba65c1f3af7659274bca212eacca
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 31%
+source-wordcount: '1087'
+ht-degree: 28%
 
 ---
 
@@ -73,9 +73,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             pour les applications tierces accédant à Google Drive, en exigeant que les applications adoptent un modèle de consentement par utilisateur. Par conséquent, les ressources individuelles doivent être liées une par une pour être visibles dans Workfront. Voir <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">Configuration des intégrations de documents</a>
              pour plus d’informations. </p>
         </td>
-        <td>14 mai 2025</td>
-        <td>14 mai 2025</td>
-        <td>14 mai 2025</td>
+        <td>22 mai 2025</td>
+        <td>22 mai 2025</td>
+        <td>22 mai 2025</td>
     </tr>  
     <tr>
         <td>
@@ -89,32 +89,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--
-
-### Home enhancements
+### Amélioration de l’accueil
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong>Feature</strong>
+        <td><strong>Fonctionnalité</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Aperçu</strong></td>
+        <td><strong>Version rapide</strong></td>
+        <td><strong>Tous les trimestres</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
-            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Le widget Mes approbations trie désormais automatiquement par date limite </a><p></p>
+            <p>Nous avons mis à jour le widget Mes approbations dans l’accueil pour trier par échéance (décroissant) par défaut. Cela permet aux approbations les plus urgentes d’apparaître en haut de la liste. </p>
         </td>
-        <td>May 15, 2025</td>
-        <td>May 15, 2025</td>
-        <td>July 17, 2025</td>
+        <td>vendredi 29 mai 2025</td>
+        <td>vendredi 12 juin 2025</td>
+        <td>vendredi 17 juillet 2025</td>
     </tr>     
   </tbody>
-</table> 
-
--->
+</table>
 
 ### Améliorations apportées aux projets
 
@@ -127,6 +123,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Modification de la manière dont les heures réelles sont stockées dans la base de données pour les appels API</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Cette mise à jour apporte une modification à la façon dont les heures réelles des projets, tâches et événements sont stockées dans la base de données. À compter de cette mise à jour, les heures effectives utiliseront un champ de valeur de <code>actualWorkRequiredDouble</code> (avec une valeur en heures).</p>
+        </td>
+        <td>mercredi 27 mai 2025</td>
+        <td>mercredi 27 mai 2025</td>
+        <td>mercredi 27 mai 2025</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mettre à jour dans à l’aide du curseur Pourcentage terminé dans l’en-tête d’une tâche ou d’un événement</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Nous avons mis à jour la façon dont le curseur Pourcentage terminé fonctionne pour les tâches et les événements. Lorsque vous faites glisser la bulle bleue Pourcentage terminé dans l’en-tête d’une tâche ou d’un événement, le Pourcentage terminé de la tâche ou de l’événement est désormais mis à jour par incréments de cinq points. Avant cette mise à jour, le fait de faire glisser la bulle bleue Pourcentage terminé mettait à jour les tâches ou les problèmes par incréments d’un point.</p>
+        </td>
+        <td>mercredi 27 mai 2025</td>
+        <td>mercredi 27 mai 2025</td>
+        <td>mercredi 27 mai 2025</td>
+    </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Plus de transparence lors de l’utilisation de l’assistant AI sur des projets, tâches et événements</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -203,22 +217,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Plus de transparence lors de l’utilisation de l’assistant AI</a></p>
-                        <p>Pour clarifier la manière dont l’assistant AI localise les réponses aux questions sur les projets, tâches et problèmes Workfront, nous avons ajouté ces informations à la réponse à la question. Désormais, l’assistant AI inclut ses informations de recherche dans la sortie. Vous pouvez utiliser ces informations pour vérifier que l’assistant AI a correctement identifié la question que vous posiez et pour comprendre le contexte de la réponse. </p>
-                    </td>
-                    <td><p><b>Disponible à ces dates :</b></p>
-                        <ul>
-                            <li>
-                                <p>Version préliminaire : tout au long du troisième trimestre de 2025<br /></p>
-                            </li>
-                            <li>
-                                <p>Version de production : au moins 2 semaines après la publication dans l’environnement de prévisualisation (sauf indication contraire)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                 <tr>
                     <td>
                         <p><span class="bold">Fonctionnalité</span>
@@ -262,7 +260,7 @@ Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’
 
 ### Améliorations de Workfront Fusion
 
-De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations apportées à Workfront Planning
 
@@ -284,7 +282,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

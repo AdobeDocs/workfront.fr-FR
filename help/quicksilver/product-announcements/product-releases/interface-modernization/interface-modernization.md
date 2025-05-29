@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f8b660859269694f13410e4bc6894d6677cd04a2
+source-git-commit: 2cf14ed7a4d96760c2c64ea8cca869ba5ba54c73
 workflow-type: tm+mt
-source-wordcount: '3995'
+source-wordcount: '4043'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,15 @@ Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versio
 
 
 ## Administration et configuration
+
+<!--
+### Interface updates for the Import Data (Kick-Starts) page
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+
+For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
 
 ### Mise à jour de l&#39;interface pour l&#39;onglet Journal des accès dans la configuration
 
@@ -100,6 +109,14 @@ Nous avons mis à jour la page que vous utilisez pour accorder l’accès à l�
 
 ## Projets
 
+### Mises à jour de l’apparence pour la zone Supprimer l’événement
+
+**Version préliminaire : 29 mai 2025 ; Version de production : 5 juin 2025**
+
+Nous avons mis à jour l’aspect de la zone Supprimer l’événement lors de la suppression d’un ou de plusieurs événements. La zone Supprimer l’événement correspond désormais à d’autres zones de Workfront.
+
+Pour plus d’informations, voir [Supprimer des événements](/help/quicksilver/manage-work/issues/manage-issues/delete-issues.md).
+
 ## Mises à jour de l&#39;apparence des zones Nouveau et Modifier les risques pour un projet ou un modèle
 
 **Version préliminaire : 22 mai 2025 ; Version de production : 29 mai 2025**
@@ -147,6 +164,17 @@ Nous vous recommandons de remplacer l’URL pour accéder à une page prise en c
 
 
 ## Utilisateurs
+
+<!--
+### Interface updates to the organizational chart
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
+
+To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
+
+For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).-->
 
 ### Mise à jour de l’interface vers la nouvelle page d’enregistrement des utilisateurs
 

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
+source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1308'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,30 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Filtres, colonnes et champs supplémentaires ajoutés à l&#39;onglet Planification dans la zone Demandes
+
+>[!NOTE]
+>
+>* Prévisualisation : vendredi 29 mai 2025
+>* Version rapide de production : 12 juin 2025
+>* Production pour tous les clients : 17 juillet 2025
+
+Nous avons ajouté la fonctionnalité suivante à une liste de demandes dans l’onglet Planification de la zone des Demandes :
+
+* Colonne « Entré par » pour indiquer la personne qui a ajouté une demande
+* Filtres permettant de limiter le nombre de demandes affichées dans l&#39;onglet Planification. Vous pouvez filtrer la liste selon les éléments suivants :
+
+   * Workspace d’où provient le formulaire de demande
+   * type d’enregistrement associé au formulaire de demande
+   * la date d’entrée de la demande
+   * nom du formulaire de demande
+   * le statut des requêtes ;
+   * nom de la personne qui a saisi la demande.
+
+* Les colonnes permettent d&#39;afficher ou de masquer des champs (ou des colonnes) dans la liste des demandes Planning.
+
+Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Nouvelle expérience lors de la répartition des enregistrements en mode compact dans la vue chronologique
 
@@ -126,7 +150,7 @@ Avant cette amélioration, les utilisateurs de tous les niveaux de licence devai
 >[!NOTE]
 >
 >Cette modification sera visible pour tous les utilisateurs nouveaux et existants disposant d’une licence d’administrateur système et standard.
->Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
+>>Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
 
 Pour plus d’informations, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
