@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 author: Courtney
 hide: true
 hidefromtoc: true
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Préparation du HIPAA pour Workfront
 
-Un client Workfront qui est, comme défini dans la loi HIPAA, un **associé commercial** et/ou l’**entité couverte** pour le compte duquel l’associé commercial fournit Adobe Workfront doit suivre les instructions suivantes pour configurer Workfront pour une utilisation conforme à la loi HIPAA :
+Un client Workfront qui est, comme défini dans la loi HIPAA, un associé commercial et/ou l’entité couverte pour le compte de laquelle l’associé commercial fournit Adobe Workfront doit suivre les instructions suivantes pour configurer Workfront pour une utilisation conforme à la loi HIPAA :
 
 
 ## Exigences de mot de passe
@@ -42,7 +42,7 @@ Un client Workfront qui est, comme défini dans la loi HIPAA, un **associé comm
 
 | **Paramètre de sécurité** | **Qu&#39;Est-Ce Que C&#39;Est ?** | **Exigence** |
 |----------------------|------------------|------------------|
-| Timeout de session | Combien de minutes d’inactivité entraînent la déconnexion ? | 15 minutes maximum |
+| Timeout de session | Combien de minutes d’inactivité entraînent une déconnexion ? | 15 minutes maximum |
 
 ## Responsabilités du client
 
@@ -57,7 +57,7 @@ En particulier, les responsabilités et obligations suivantes devraient être ex
 * Toutes les données sensibles, y compris, mais sans s&#39;y limiter, les ePHI, sont téléchargées aux risques et périls du client.  Le client est en permanence responsable de toutes les données client. 
 
 
-## Protection et conformité des données
+## Protection des données et conformité
 
 >[!IMPORTANT]
 >
