@@ -6,10 +6,10 @@ description: Les risques sont des événements ou des facteurs possibles qui emp
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 62%
+source-wordcount: '1080'
+ht-degree: 64%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 62%
 
 <!--Audited: 01/2025-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Pour plus d’informations, voir [Modernisation de l’interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Les risques sont des événements ou des facteurs possibles qui empêchent un projet de se terminer à temps ou dans les limites du budget. Vous pouvez enregistrer les risques dans le cadre de la création de l’analyse de rentabilité d’un projet ou en utilisant l’onglet Risques .
 
@@ -117,9 +117,9 @@ Vous pouvez créer et modifier des risques dans la section Risques d&#39;un proj
 
    Cliquez sur **Nouveau risque**.
 
-   <span class="preview">La boîte **Nouveau risque** s’ouvre.</span>
+   La boîte de dialogue **Nouveau risque** s’ouvre.
 
-   <span class="preview">![Nouvelle catégorie de risque](assets/new-risk-box.png)</span>
+   ![Nouvelle catégorie de risque](assets/new-risk-box.png)
 
 1. (Conditionnel) Si vous ajoutez un risque dans la boîte **Nouveau risque**, saisissez les informations suivantes :
 
@@ -175,7 +175,7 @@ Pour modifier les risques :
    * **Coût réel** : indiquez le coût réel du risque si le risque s&#39;est produit.
    * **Plan d’atténuation** : mettez à jour la description du plan pour atténuer le risque.
 
-1. <span class="preview">Cliquez sur **Enregistrer**.</span>
+1. Cliquer sur **Enregistrer**.
 1. (Facultatif) Modifiez le **Statut** pour un risque, dans le menu déroulant du **Statut** lors de l’application de la vue **Standard** pour la liste des risques.
 
    >[!NOTE]

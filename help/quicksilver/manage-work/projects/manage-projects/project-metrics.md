@@ -1,16 +1,16 @@
 ---
 content-type: overview;how-to-procedural
 product-area: projects
-keywords: analyse, mesures, projet, amélioré, tâches, personne cessionnaire, complet, statut, en retard, à venir
+keywords: analytics,mesures,projet,tâches,cessionnaire,terminé,statut,en retard,à venir
 navigation-topic: manage-projects
 title: Vue d’ensemble des mesures du projet
 description: Les mesures de projet vous permettent de visualiser le déroulement d’un projet et ainsi d’évaluer rapidement ses besoins et son statut d’avancement. Découvrez comment interpréter la zone Mesures dans le panneau de gauche d’un projet.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1163'
 ht-degree: 99%
 
 ---
@@ -21,32 +21,35 @@ Les mesures de projet vous offrent une vue d’ensemble, sous forme de graphique
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Workfront*</td> 
+   <td role="rowheader">Plan Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Workfront*</td> 
-   <td> <p>Révision ou supérieur </p> </td> 
+   <td> <p>Nouveau : Léger ou supérieur </p>
+   <p>Actuel : révision ou supérieur </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Afficher l’accès aux projets</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur l’accès aux projets, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Accorder l’accès aux projets</a>. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>. </p> </td>
-</tr> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
+   <td> <p>Afficher l’accès aux projets</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher les autorisations d’un projet</p> <p> Pour plus d’informations sur les autorisations de projet, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Afficher les autorisations d’un projet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -72,10 +75,11 @@ Vous pouvez également approfondir chaque graphique pour examiner de plus près 
 
 Pour en savoir plus sur l’examen de ces tâches ou problèmes, voir [Afficher les détails des mesures](#view-metrics-details).
 
+<!--this was deprecated: 
 >[!TIP]
 >
->Pour consulter les mesures à un niveau supérieur pour un groupe de projets au sein d’un programme, d’un portfolio, etc., accédez à la zone Analytique améliorée.\
->Pour en savoir plus sur l’Analytique améliorée, voir [Vue d’ensemble de l’Analytique améliorée](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
 
 ## KPI de projet
 

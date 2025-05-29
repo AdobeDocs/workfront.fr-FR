@@ -6,10 +6,10 @@ description: Vous pouvez supprimer des problèmes ou des requêtes dans Adobe W
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 79%
+source-wordcount: '767'
+ht-degree: 75%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 79%
 
 <!--Audited: 05/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire. </span>
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
+<span class="preview">Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).</span>
 
 Vous pouvez supprimer des problèmes ou des requêtes dans Adobe Workfront si vous disposez des droits d’accès et des autorisations appropriés.
 
@@ -116,7 +116,7 @@ Selon la manière dont votre équipe d’administration Workfront ou de groupes 
    La liste des événements associés au projet sélectionné s&#39;affiche à droite.
 1. Sélectionnez un ou plusieurs événements dans la liste, puis cliquez sur l&#39;icône **Supprimer** ![Icône Supprimer](assets/delete.png) en haut de la liste.
 
-1. Si la suppression est autorisée, cliquez sur **Oui, supprimer**. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. Si la suppression est autorisée, cliquez sur **<span class="preview">Supprimer</span>**.
 
    Il se peut que votre administrateur ou administratrice Workfront n’autorise pas la suppression des problèmes dans lesquels des heures sont consignées.\
    Pour plus d’informations sur l’accès et les autorisations nécessaires à la suppression d’un problème, consultez la section [Considérations relatives à la suppression des problèmes](#considerations-for-deleting-issues) dans cet article.
@@ -136,7 +136,7 @@ Selon la manière dont votre équipe d’administration Workfront ou de groupes 
    ![Menu Autres événements](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Cliquez sur **Supprimer le problème**.
-1. Si la suppression est autorisée, cliquez sur **Oui, supprimer**. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. Si la suppression est autorisée, cliquez sur **<span class="preview">Supprimer</span>**.
 
    Il se peut que votre administrateur ou administratrice Workfront n’autorise pas la suppression des problèmes dans lesquels des heures sont consignées.\
    Pour plus d’informations sur l’accès et les autorisations nécessaires à la suppression d’un problème, consultez la section [Considérations relatives à la suppression des problèmes](#considerations-for-deleting-issues) dans cet article.

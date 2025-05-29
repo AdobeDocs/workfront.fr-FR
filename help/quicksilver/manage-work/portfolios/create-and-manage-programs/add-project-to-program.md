@@ -6,10 +6,10 @@ description: Vous pouvez organiser vos projets en les ajoutant aux programmes au
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 55%
+source-wordcount: '480'
+ht-degree: 58%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 55%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Pour plus d’informations, voir [Modernisation de l’interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Vous pouvez organiser vos projets en les ajoutant aux programmes au sein des portfolios. Vous pouvez intégrer plusieurs projets dans un même programme, mais vous ne pouvez associer qu’un seul programme à un projet.
 
@@ -104,16 +104,16 @@ Pour plus d’informations sur la création de programmes, consultez la section 
     </tbody> 
    </table>
 
-1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL Projet existant]**, la boîte <span class="preview">**Ajouter des projets** s’ouvre</span>. <!--check at unshimming-->
+1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL Projet existant]**, la boîte de dialogue **Ajouter des projets** s’ouvre. <!--check at unshimming-->
 
-   <span class="preview">![Zone Ajouter des projets existants au programme](assets/add-projects-to-programs-box.png)</span><!--check at unshimming-->
+   ![Zone Ajouter des projets existants au programme](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
 
 1. Procédez comme suit :
 
    1. Dans la zone **[!UICONTROL Ajouter des projets]**, saisissez le nom d’un projet dans le champ **Ajouter des projets à ce programme** puis sélectionnez-le lorsqu’il s’affiche dans la liste. <!--check casing on links and buttons-->
 
       Vous pouvez ajouter plusieurs projets.
-   1. (Facultatif) Cliquez sur l’icône <span class="preview">**Supprimer** ![Icône Supprimer](assets/delete-icon.png)</span> en regard du nom d’un projet si vous décidez de ne pas l’ajouter au programme.
+   1. (Facultatif) Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) en regard du nom d’un projet si vous décidez de ne pas l’ajouter au programme.
 
    1. Cliquez sur **[!UICONTROL Ajouter des projets]**. <!--check at unshimming-->
 

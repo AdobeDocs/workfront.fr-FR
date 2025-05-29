@@ -6,10 +6,10 @@ description: Les finances sont calculées sur un projet à mesure que des modifi
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 92%
+source-wordcount: '1632'
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td>Tous </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td>
    <p>Nouveau : Standard</p>
    <p>ou</p>
@@ -55,7 +55,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Considérations relatives au calcul des finances dans Adobe Workfront
 
-Les finances sont calculées dans l’analytique améliorée de la manière suivante :
+Les finances des projets sont calculées de la manière suivante :
 
 * Vous pouvez recalculer manuellement les coûts et les revenus d’un projet à l’aide de l’option Recalculer les finances d’un projet.
 * En outre, certaines actions déclenchent un nouveau calcul automatique.

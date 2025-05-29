@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des programmes existants à un portfolio. Les p
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 54%
+source-wordcount: '259'
+ht-degree: 60%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 54%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Pour plus d’informations, voir [Modernisation de l’interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Vous pouvez ajouter des programmes existants à un portfolio. Les programmes ne pouvant exister dans deux portfolios différents, l’ajout d’un programme existant le fait passer définitivement d’un portfolio à l’autre.
 
@@ -62,9 +62,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Cliquez sur **[!UICONTROL Nouveau programme]**.
 1. Cliquez sur **[!UICONTROL Programme existant]**.
 
-   <span class="preview">La boîte **Ajouter des programmes** s’ouvre.</span> <!--check screen shot - I logged changes for this casing-->
+   La boîte de dialogue **Ajouter des programmes** s’ouvre. <!--check screen shot - I logged changes for this casing-->
 
-   <span class="preview">![Boîte Ajouter un programme](assets/add-programs-box.png)</span>
+   ![Boîte Ajouter un programme](assets/add-programs-box.png)
 
    >[!IMPORTANT]
    >
@@ -74,7 +74,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Vous pouvez ajouter plusieurs programmes.
 
-1. (Facultatif) Cliquez sur l’icône <span class="preview">**Supprimer** ![Icône Supprimer](assets/delete-icon.png)</span> en regard du nom d’un programme si vous décidez de ne pas l’ajouter au portfolio.
+1. (Facultatif) Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) en regard du nom d’un programme si vous décidez de ne pas l’ajouter au portfolio.
 
 1. Cliquez sur **[!UICONTROL Ajouter des programmes]**. <!--check this button in the UI after they implemented the changes??-->
 

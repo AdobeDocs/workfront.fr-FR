@@ -8,10 +8,10 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 69%
+source-wordcount: '730'
+ht-degree: 73%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 69%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Pour plus d’informations, voir [Modernisation de l’interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Une carte de performance permet de mesurer l’adéquation d’un projet avec les critères précédemment établis d’un portfolio. Une carte de performance reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation.
 
@@ -73,9 +73,9 @@ Vous devez disposer des droits d&#39;accès suivants :
 
 1. Cliquez sur **[!UICONTROL Cartes de performance]**, puis sur **[!UICONTROL Nouvelle carte de performance]**.
 
-   <span class="preview">La boîte **Nouvelle carte de performance** s’ouvre.</span>
+   La boîte de dialogue **Nouvelle carte de performance** s’ouvre.
 
-   <span class="preview">![Nouvelle zone de carte de performance](assets/new-scorecard-350x173.png)</span>
+   ![Nouvelle zone de carte de performance](assets/new-scorecard-350x173.png)
 
 1. Indiquez un **[!UICONTROL nom de carte de performance]** et une **[!UICONTROL description]**.
 
@@ -126,9 +126,9 @@ Vous pouvez créer une carte de performance en copiant et en modifiant une carte
 1. Cliquez sur **[!UICONTROL Cartes de performance]** dans le panneau de gauche.
 1. Sélectionnez une carte de performance dans la liste, puis cliquez sur l’icône **Copier** ![Copier la carte de performance](assets/copy-scorecard-icon.png) en haut de la liste des cartes de performance.
 
-   <span class="preview">La boîte de dialogue **Copier la carte de performance** s’ouvre.</span>
+   La boîte de dialogue **Copier la carte de performance** s’ouvre.
 
-   <span class="preview">![Zone Copier la carte de performance](assets/copy-scorecard-box.png)</span>
+   ![Zone Copier la carte de performance](assets/copy-scorecard-box.png)
 
 1. Indiquez les informations suivantes :
 
