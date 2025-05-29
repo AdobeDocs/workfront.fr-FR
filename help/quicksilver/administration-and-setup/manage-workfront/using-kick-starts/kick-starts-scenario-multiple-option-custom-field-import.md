@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2181'
-ht-degree: 91%
+source-wordcount: '2271'
+ht-degree: 88%
 
 ---
 
 # Scénario de lancement : importer des champs personnalisés à plusieurs options dans Workfront
+
+{{highlighted-preview}}
 
 Vous pouvez importer des champs personnalisés avec plusieurs options dans Adobe Workfront à l’aide de la fonctionnalité de lancement.
 
@@ -122,9 +124,9 @@ Après avoir analysé les informations sur les champs personnalisés existants d
 
 1. Cliquez sur **Importer des données (lancement)**.
 
-1. Dans la zone **Télécharger une feuille de calcul Kickstart vierge**, cochez la case **Données personnalisées** et cliquez sur **Télécharger**.
+1. Dans la zone **Télécharger une feuille de calcul Kickstart vierge**, cochez la case **Données personnalisées**, puis cliquez sur **Télécharger**.
 
-   ![Sélectionner les données personnalisées](assets/kickstarts-select-existing-data.png)
+   ![Sélectionner les données personnalisées](assets/kickstarts-blank-spreadsheet-options.png)
 
    Un fichier de lancement vierge est téléchargé sur votre ordinateur.
 
@@ -223,7 +225,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
      >
      >Vous ne pouvez avoir qu’une seule option par défaut pour chaque champ.
 
-   * **`setParameterID`** = les options correspondant au champ personnalisé _Marque_ comportent un **`setParameterID`** de 1 et les options correspondant au _Média_ ont un **`setParameterID`**&#x200B;de 2. Les feuilles `PARAM` et `POPT` se croisent pour indiquer quelles options appartiennent à quel champ personnalisé.
+   * **`setParameterID`** = les options correspondant au champ personnalisé _Marque_ comportent un **`setParameterID`** de 1 et les options correspondant au _Média_ ont un **`setParameterID`**de 2. Les feuilles `PARAM` et `POPT` se croisent pour indiquer quelles options appartiennent à quel champ personnalisé.
    * **`setDisplayOrder`**= la colonne d’ordre d’affichage indique l’ordre dans lequel les options s’afficheront dans votre champ personnalisé. Vous pouvez commencer par 1 et continuer par ordre croissant pour toutes les options, quels que soient les champs auxquels elles appartiennent. L’important ici est d’avoir des nombres uniques pour chaque option.
    * Les colonnes **`setLabel`** et `**setValue`** contiennent généralement les mêmes informations et doivent refléter les noms souhaités dans l’interface d’utilisation de Workfront. La valeur d’une option est le nom qui s’affiche dans les rapports, par exemple, tandis que le libellé s’affiche dans les formulaires personnalisés lorsqu’il est associé à un objet. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = saisissez `TRUE` si vous souhaitez que l’une des options soit masquée.
@@ -263,7 +265,6 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
 1. Enregistrez la feuille de calcul au format .xls ou .xlsx sur votre ordinateur. Votre feuille de calcul Excel est remplie et prête à être importée dans Workfront.
 
-
 ## Charger la feuille de calcul Excel vers Workfront
 
 Après avoir suivi les étapes décrites dans les sections précédentes, procédez comme suit pour charger les nouveaux champs et formulaires dans Workfront :
@@ -272,16 +273,13 @@ Après avoir suivi les étapes décrites dans les sections précédentes, procé
 
 1. Cliquez sur **Système > Importer des données (Kick-Starts)**.
 
-1. Cliquez sur **Choisir un fichier** sous la section **Charger des données avec une feuille de calcul Kickstart**.
+1. Cliquez sur **Choisir un fichier** dans la section **Charger des données avec feuille de calcul Kickstart**.
 
-1. Recherchez la feuille de calcul Excel que vous avez préparée, sur votre ordinateur, et sélectionnez-la lorsque vous la trouvez. Lorsque Workfront reconnaît le fichier, le bouton Charger devient bleu.
-1. Cliquez sur **Charger**.
+1. Recherchez la feuille de calcul Excel que vous avez préparée, sur votre ordinateur, et sélectionnez-la lorsque vous la trouvez.
 
-   ![Bouton Fichier sélectionné et charger](assets/kick-start-file-selected-and-upload-blue-button.png)
+   <div class="preview">
 
-1. Une notification indiquant que l’importation a réussi s’affiche. Selon le volume d’informations que vous importez, cette étape peut prendre quelques secondes à une minute.
-
-   ![Démarrage réussi](assets/kick-start-successful.png)
+   Le fichier se charge automatiquement et une notification indiquant que l’importation a réussi s’affiche. Selon le volume d’informations que vous importez, cette étape peut prendre quelques secondes à une minute.
 
    Les nouveaux champs et formulaires personnalisés se trouvent désormais dans votre système Workfront. Vous pouvez les trouver dans la zone Formulaires personnalisés de Configuration.
 
@@ -289,12 +287,23 @@ Après avoir suivi les étapes décrites dans les sections précédentes, procé
    >
    >Les nouveaux formulaires et les champs que vous avez importés ne sont pas encore connectés. Le formulaire est importé sans champ personnalisé. Vous devez ajouter manuellement les champs au nouveau formulaire personnalisé ou à un autre formulaire personnalisé existant.
 
+   Pour plus d’informations sur l’ajout de champs aux formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+   </div>
+
+1. (Dans l’environnement de production uniquement) Cliquez sur **Charger**.
+
+   Une notification indiquant que l’importation a réussi s’affiche. Selon le volume d’informations que vous importez, cette étape peut prendre quelques secondes à une minute.
+
+   Les nouveaux champs et formulaires personnalisés se trouvent désormais dans votre système Workfront. Vous pouvez les trouver dans la zone Formulaires personnalisés de Configuration.
+
+   >[!NOTE]
+   >
+   >Les nouveaux formulaires et les champs que vous avez importés ne sont pas encore connectés. Le formulaire est importé sans champ personnalisé. Vous devez ajouter manuellement les champs au nouveau formulaire personnalisé ou à un autre formulaire personnalisé existant.
 
    Pour plus d’informations sur l’ajout de champs aux formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Le cas échéant) Si l’import a échoué, vous recevez un message d’erreur signalant le problème. Essayez d’identifier le champ, la feuille et le numéro de ligne dans lesquels le problème s’est produit, corrigez les informations du fichier Excel, puis essayez de réimporter le fichier.
-
-   ![Erreur de démarrage rapide](assets/kick-start-error.png)
+1. (Conditionnel) Si l’importation a échoué, vous recevez un message d’erreur indiquant l’origine du problème. Essayez d&#39;identifier le champ, la feuille et le numéro de ligne dans lequel le problème a été rencontré et corrigez les informations dans le fichier Excel. Réessayez ensuite d’importer le fichier.
 
 1. (Le cas échéant) Selon le problème, comme indiqué dans le message d’erreur, certaines informations ont peut-être déjà été importées. Vous devez effectuer l’une des opérations suivantes avant de pouvoir réimporter la feuille :
 

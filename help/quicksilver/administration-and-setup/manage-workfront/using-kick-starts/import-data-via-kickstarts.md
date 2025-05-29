@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2785'
-ht-degree: 97%
+source-wordcount: '2894'
+ht-degree: 91%
 
 ---
 
 # Importer des données dans Workfront à l’aide d’un modèle Kickstart
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -488,12 +490,19 @@ Pour importer les données de feuille de calcul du modèle dans Workfront, proc�
 
 1. Cliquez sur **Système** > **Importer des données (Kickstarts)**.
 
-1. Dans la section **Charger des données avec la feuille de calcul Kickstart**, cliquez sur **Choisir un fichier**, puis parcourez et sélectionnez la feuille de calcul renseignée.
+1. Dans la section **Charger des données avec feuille de calcul Kickstart**, cliquez sur **Choisir un fichier**, puis recherchez et sélectionnez la feuille de calcul renseignée.
 
-1. Cliquez sur **Charger**.
+   <div class="preview">
 
-   Si le chargement du fichier Excel prend plus de 5 minutes dans Workfront, l’application expire et Workfront ne peut pas charger le fichier.
+   Dans l’environnement de Prévisualisation, le fichier se charge automatiquement et une notification indiquant que l’importation a réussi s’affiche.
 
-   Essayez d’importer vos données en lots d’objets plus petits.
+   Si le chargement du fichier Excel prend plus de 5 minutes vers Workfront, l’application expire et Workfront ne peut pas charger le fichier. Essayez d’importer vos données en lots d’objets plus petits.
 
-1. (Le cas échéant) Si vous utilisez Workfront Fusion, vous pouvez désormais activer vos FLO ou scénarios.
+   </div>
+
+1. (Dans l’environnement de production uniquement) Cliquez sur **Charger**.
+
+   Si le chargement du fichier Excel prend plus de 5 minutes vers Workfront, l’application expire et Workfront ne peut pas charger le fichier. Essayez d’importer vos données en lots d’objets plus petits.
+
+1. (Conditionnel) Si l’importation a échoué, vous recevez un message d’erreur indiquant l’origine du problème. Essayez d&#39;identifier le champ, la feuille et le numéro de ligne dans lequel le problème a été rencontré et corrigez les informations dans le fichier Excel. Réessayez ensuite d’importer le fichier.
+1. (Conditionnel) Si vous utilisez Workfront Fusion, vous pouvez désormais activer vos FLO ou scénarios une fois l’importation terminée.

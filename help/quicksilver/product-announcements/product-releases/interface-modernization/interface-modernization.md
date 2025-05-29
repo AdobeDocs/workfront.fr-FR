@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2cf14ed7a4d96760c2c64ea8cca869ba5ba54c73
+source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
 workflow-type: tm+mt
-source-wordcount: '4043'
+source-wordcount: '4126'
 ht-degree: 2%
 
 ---
@@ -25,14 +25,13 @@ Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versio
 
 ## Administration et configuration
 
-<!--
-### Interface updates for the Import Data (Kick-Starts) page
+### Mises à jour de l’interface pour la page Importer des données (Kick-Starts)
 
-**Preview release: May 29, 2025; Production release: June 5, 2025**
+**Version préliminaire : 29 mai 2025 ; Version de production : 5 juin 2025**
 
-We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+Nous avons mis à jour la page Importer des données (Kick-Starts) dans la zone Configuration avec une conception plus moderne et cohérente avec les autres zones de Workfront. En outre, le processus d’importation Kickstart a été simplifié afin que le fichier sélectionné soit chargé immédiatement. Il n’est plus nécessaire de cliquer sur un bouton **Charger** distinct pour terminer l’importation après avoir choisi le fichier.
 
-For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
+Pour plus d’informations, voir [ Importer des données dans Workfront à l’aide d’un modèle Kickstart ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ### Mise à jour de l&#39;interface pour l&#39;onglet Journal des accès dans la configuration
 
