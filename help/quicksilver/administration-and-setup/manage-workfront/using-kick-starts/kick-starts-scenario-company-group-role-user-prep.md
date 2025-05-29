@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 2a216610f6ea8ad8c4698964f96f2357bf3b5943
+source-git-commit: 59431354076a0909fb1878d68cf266f08d2114b3
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1216'
 ht-degree: 53%
 
 ---
@@ -56,25 +56,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Le tableau suivant répertorie les sociétés, les groupes et les rôles à importer :
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th><strong>Entreprises</strong> </th> 
-   <th><strong>Groupes</strong> </th> 
-   <th><strong>Rôles</strong> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td valign="top"> <p>Acme, Co</p> <p>Workfront, Inc.</p> <p><em>Votre entreprise</em> </p> <p>XYZ, Inc.</p> </td> 
-   <td valign="top"> <p valign="top" rowspan="7">Finances</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marketing </p> <p valign="top" rowspan="7">Ventes</p> </td> 
-   <td valign="top"> <p valign="top">Personne chargée de l’analyse d’affaires</p> <p valign="top">Personne responsable de la création</p> <p valign="top">Designer</p> <p valign="top">Gestionnaire des ressources</p> <p valign="top">Personnes maîtresse Scrum</p> <p valign="top">Personne chargée de la rédaction technique</p> <p valign="top">Personne chargée du développement web</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Entreprises | Groupes | Rôles |
+|---|---|---|
+| Acme, Co <p>Workfront, Inc. <p>_Votre entreprise_ <p>XYZ, Inc. | Finances <p>IT <p>Marketing <p>Ventes | Personne chargée de l’analyse d’affaires <p>Personne responsable de la création <p>Designer <p>Gestionnaire des ressources <p>Personnes maîtresse Scrum <p>Personne chargée de la rédaction technique <p>Personne chargée du développement web |
+
+{style="table-layout:auto"}
 
 Les noms de rôle doivent être uniques. Les fonctions existantes ne peuvent pas être importées.
 
@@ -82,8 +68,9 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
 ### Utilisateur 1
 
-| **Prénom** | Chris |
+| Attribut | Valeur |
 |---|---|
+| **Prénom** | Chris |
 | **Nom** | Manning |
 | **Nom d’utilisateur/Adresse e-mail** | mailto:cmanning@foo.com |
 | **Mot de passe** | updateMe |
@@ -96,8 +83,9 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
 ### Utilisatrice 2
 
-| **Prénom** | Jennifer |
+| Attribut | Valeur |
 |---|---|
+| **Prénom** | Jennifer |
 | **Nom** | Campbell |
 | **Nom d’utilisatrice/Adresse e-mail** | jcampbell@foo.com |
 | **Mot de passe** | updateMe |
@@ -110,8 +98,9 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
 ### Utilisatrice 3
 
-| **Prénom** | Jill |
+| Attribut | Valeur |
 |---|---|
+| **Prénom** | Jill |
 | **Nom** | Sullivan |
 | **Nom d’utilisatrice/Adresse e-mail** | jsullivan@foo.com |
 | **Mot de passe** | updateMe |
@@ -124,8 +113,9 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
 ### Utilisateur 4
 
-| **Prénom** | Marc |
+| Attribut | Valeur |
 |---|---|
+| **Prénom** | Marc |
 | **Nom** | Lewis |
 | **Nom d’utilisateur/Adresse e-mail** | mlewis@foo.com |
 | **Mot de passe** | updateMe |
@@ -138,8 +128,9 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
 ### Utilisatrice 5
 
-| **Prénom** | Pam |
+| Attribut | Valeur |
 |---|---|
+| **Prénom** | Pam |
 | **Nom** | Reynolds |
 | **Nom d’utilisatrice/Adresse e-mail** | preynolds@foo.com |
 | **Mot de passe** | updateMe |
@@ -152,8 +143,9 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
 ### Utilisateur 6
 
-| **Prénom** | Ray |
+| Attribut | Valeur |
 |---|---|
+| **Prénom** | Ray |
 | **Nom** | Andrews |
 | **Nom d’utilisateur/Adresse e-mail** | randrews@foo.com |
 | **Mot de passe** | updateMe |
@@ -184,9 +176,9 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
 1. Accédez à la fiche **Société CMPY**.
 
-   Il devrait être vide à moins que des entreprises soient déjà dans le système. ![Feuille de la société](assets/cmpysheet-350x16.png)
+   Il devrait être vide à moins que des entreprises soient déjà dans le système.
 
-   ![Identifiant de la société](assets/companyid--1--350x78.png)
+   ![Feuille de société](assets/cmpysheet-350x16.png) ![ID de société](assets/companyid--1--350x78.png)
 
 1. Saisissez **TRUE** dans la colonne **isNew**.
 
@@ -296,23 +288,18 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
    Répétez cette étape pour chaque affectation de personne et de groupe.
 
-   ![Identifiant de la société](assets/companyid--1--350x78.png)
-
-   ![Coller l’ID d’entreprise](assets/pastecompanyid-350x84.png)
+   ![ID de la société](assets/companyid--1--350x78.png) ![Coller l’ID de la société](assets/pastecompanyid-350x84.png)
 
 1. Saisissez les détails de la fonction de l’utilisateur.
 
    Selon le scénario, Chris Manning aura le rôle de personne chargée de l’analyse d’affaires. Dans la feuille **Rôle**, localisez l’ID du rôle Analyste métier, copiez-le et, dans la feuille **Utilisateur**, collez-le dans la colonne **setRoleID** sur la ligne de l’utilisateur. &#x200B;Répétez cette étape pour chaque affectation de personne et de groupe.
 
-   ![Copier l’ID de rôle](assets/copyroleid-350x149.png)
-
-   ![Coller l’ID de rôle](assets/pasteroleid-350x95.png)
+   ![Copier l’ID du rôle](assets/copyroleid-350x149.png) ![Coller l’ID du rôle](assets/pasteroleid-350x95.png)
 
 1. Renseignez d’autres informations sur l’utilisateur ou l’utilisatrice, si nécessaire, puis enregistrez le fichier.
 1. Importez le fichier Excel.
 
    Suivez les instructions fournies dans [Importer des données dans Adobe Workfront à l’aide d’un modèle Kickstart](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
-
 
 >[!NOTE]
 >
@@ -320,4 +307,4 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 > 
 >Si votre organisation a été migrée vers Adobe Admin Console et qu’un utilisateur ne quitte pas le statut Désactivé et Approbation en attente dans les minutes qui suivent, vous pouvez ajouter directement le lot d’utilisateurs au Adobe Admin Console.
 >
->Pour obtenir des instructions, voir [Gérer plusieurs utilisateurs | Chargement CSV en masse](https://helpx.adobe.com/fr/enterprise/using/bulk-upload-users.html) dans la documentation d’Adobe.
+>Pour obtenir des instructions, voir [Gérer plusieurs utilisateurs | Chargement CSV en masse](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) dans la documentation d’Adobe.
