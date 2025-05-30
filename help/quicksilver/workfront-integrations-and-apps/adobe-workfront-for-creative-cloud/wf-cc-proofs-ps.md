@@ -2,20 +2,26 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Charger des épreuves à partir d’Adobe Photoshop
-description: Vous pouvez charger vos panoramas d’art sous forme d’épreuves directement dans Adobe Workfront pour une révision et une approbation approfondies.
+description: Vous pouvez charger des paramètres prédéfinis de document photo en tant qu’épreuves directement vers  [!DNL Adobe Workfront]  pour une révision et une approbation approfondies.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9cbf1706e6c535ff7f52627d2c6e13de65ec76d0
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 92%
+source-wordcount: '717'
+ht-degree: 85%
 
 ---
 
-# Charger des épreuves à partir d’ [!DNL Photoshop]
+# Charger des épreuves à partir d’[!DNL Photoshop]
 
-Vous pouvez charger vos panoramas d’art en tant qu’épreuves directement sur [!DNL Adobe Workfront] pour un examen et une approbation approfondis.
+Vous pouvez charger certains types de paramètres prédéfinis de document Photoshop en tant qu’épreuves directement vers [!DNL Adobe Workfront] pour une révision et une approbation approfondies.
+
+>[!IMPORTANT]
+>
+>Le fichier doit être un paramètre prédéfini de document photo, comme décrit dans [Modèles et paramètres prédéfinis dans Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
+
+
 
 ## Conditions d’accès
 
@@ -131,7 +137,7 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
 1. Cliquez sur **[!UICONTROL Nouvelle version]** en bas du panneau [!DNL Workfront].
 1. Activez le bouton (bascule) **[!UICONTROL Créer une épreuve]**.
 
-1. Dans la section *[!UICONTROL *Approbation d’épreuve]&#x200B;**, choisissez &#x200B;** [!UICONTROL De base] **&#x200B; ou &#x200B;** [!UICONTROL Automatique]**.
+1. Dans la section *[!UICONTROL *Approbation d’épreuve]**, choisissez **[!UICONTROL De base]** ou **[!UICONTROL Automatique]**.
 
 1. Ajoutez des **[!UICONTROL Réviseurs ou réviseuses]** ou un **[!UICONTROL Modèle de workflow]** en fonction du type d’approbation que vous avez sélectionné lors de l’étape 7.
 
