@@ -2,19 +2,21 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: scrum-board
-title: Aperçu du panorama
+title: Présentation du scrum board
 description: Le storyboard Agile Scrum s’affiche avec le statut d’achèvement et le graphique d’avancement.
 author: Lisa
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 99%
+source-wordcount: '803'
+ht-degree: 77%
 
 ---
 
 # Vue d’ensemble du panorama [!UICONTROL Scrum]
+
+<!-- Audited: 5/2025 -->
 
 Le storyboard Agile [!UICONTROL Scrum] s’affiche avec le statut d’achèvement et le graphique d’avancement. Ces composants Agile sont disponibles dans les situations suivantes dans [!UICONTROL Adobe Workfront] :
 
@@ -29,45 +31,41 @@ Le storyboard Agile [!UICONTROL Scrum] s’affiche avec le statut d’achèvemen
 
 Le storyboard se compose des éléments suivants :
 
-* Colonne **[!UICONTROL Histoire parent] :** contrairement aux autres colonnes du storyboard, la colonne [!UICONTROL Histoire parent] n’est pas un statut de tâche, mais sert plutôt à héberger toutes les histoires qui contiennent des sous-tâches dans l’itération ou le projet. Cette colonne est uniquement réservée aux histoires parent comportant au moins une sous-tâche représentée sur le storyboard. Les histoires parent elles-mêmes ne passent pas d’un statut à l’autre dans le storyboard.
+* **Colonne de l’histoire parente** : contrairement aux autres colonnes du storyboard, la colonne [!UICONTROL Histoire parente] n’est pas un statut de tâche, mais existe pour héberger toutes les histoires contenant des sous-tâches dans l’itération ou le projet. Cette colonne est uniquement réservée aux histoires parent comportant au moins une sous-tâche représentée sur le storyboard. Les histoires parent elles-mêmes ne passent pas d’un statut à l’autre dans le storyboard.
 
   Cette colonne est visible sur le storyboard durant une itération uniquement si une ou plusieurs histoires intègrent au moins une sous-tâche qui répond aux exigences suivantes :
 
-   * Elle est affectée à la même équipe Agile que la tâche parent.
-   * Elle appartient à l’itération.
+   * Affecté à la même équipe Agile que la tâche parent.
+   * Appartient à l’itération.
 
      Cette colonne est affichée dans un projet chaque fois qu’une tâche contient une ou plusieurs sous-tâches.
 
      ![Colonne d’histoire parent](assets/agile-parentstory-swimlane.png)
 
-* **Statuts des tâches :** indiquent comment une histoire progresse dans l’itération ou le projet en fonction de la colonne de statut dans laquelle se trouve l’histoire.
+* **Statuts des tâches** : indiquez la progression d’une histoire tout au long de l’itération ou du projet en fonction de la colonne de statut dans laquelle se trouve l’histoire.
 
-  Les statuts des tâches peuvent être personnalisés pour le projet en modifiant la vue Agile, comme décrit dans la section [Créer ou personnaliser une vue Agile](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) dans [Vues d’ensemble des vues dans [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  Les statuts des tâches peuvent être personnalisés pour le projet en modifiant la vue agile.
 
-* **Couloir (swim lane) :** lorsqu’une histoire parent et ses sous-tâches apparaissent sur le storyboard, un couloir (swim lane) est créé spécifiquement pour l’histoire et ses sous-tâches. Cette méthode permet de distinguer visuellement et de suivre plus aisément la progression des sous-tâches à travers le contenu global du storyboard.
+* **Piste de navigation** : lorsqu’une histoire parent et ses sous-tâches apparaissent sur le storyboard, une piste de navigation est créée spécifiquement pour l’histoire et ses sous-tâches. Cette méthode permet de distinguer visuellement et de suivre plus aisément la progression des sous-tâches à travers le contenu global du storyboard.
 
   Au cours d’une itération, les couloirs (swim lanes) sur le storyboard apparaissent seulement si une histoire contient au moins une sous-tâche qui satisfait aux exigences suivantes :
 
-   * Elle est affectée à la même équipe Agile que la tâche parent.
-   * Elle appartient à l’itération.
+   * Affecté à la même équipe Agile que la tâche parent.
+   * Appartient à l’itération.
 
   Dans un projet, les couloirs apparaissent chaque fois qu’une tâche comporte au moins une sous-tâche ou une tâche parent.
 
-* **Histoires individuelles :** les histoires individuelles et les problèmes sont affichés sous tous les couloirs sur le storyboard. Il est ainsi facile de distinguer visuellement les histoires qui font partie d’un couloir.
+* **Histoires individuelles** : les histoires et les événements individuels s’affichent sous les couloirs de navigation du storyboard. Il est ainsi facile de distinguer visuellement les histoires qui font partie d’un couloir.
 
 ## Relation entre les sous-tâches et les histoires
 
-Si une histoire contient des sous-tâches, vous ne pouvez mettre à jour aucune information sur l’histoire parent (comme les points/heures ou le pourcentage terminé). De plus, vous ne pouvez pas déplacer l’histoire sur le storyboard pour mettre à jour son statut. Au contraire, tout changement que vous apportez aux sous-tâches de l’histoire est reflété dans l’histoire. Les points ou les heures de l’histoire combinés pour toutes les sous-tâches déterminent les points ou les heures de l’histoire parent.
+Si une histoire contient des sous-tâches, vous ne pouvez mettre à jour aucune information sur l&#39;histoire parent elle-même (comme les points/heures ou le pourcentage d&#39;achèvement). De plus, vous ne pouvez pas déplacer l’histoire sur le storyboard pour mettre à jour son statut. Au contraire, tout changement que vous apportez aux sous-tâches de l’histoire est reflété dans l’histoire. Les points ou les heures de l’histoire combinés pour toutes les sous-tâches déterminent les points ou les heures de l’histoire parent.
 
 Par exemple, si une histoire ne comporte qu’une seule sous-tâche évaluée à 4 points, l’histoire elle-même comporte également 4 points. Si vous remplacez la valeur du point de sous-tâche sur 3, la valeur du point de l’histoire parent est aussi remplacée par 3. Si vous créez une autre sous-tâche sur la même histoire et que vous définissez la valeur du point de cette sous-tâche sur 4, la valeur du point de l’histoire est remplacée par 7 afin de refléter la valeur de point combinée pour les deux sous-tâches.
 
 Cette même logique s’applique aux sous-tâches de deuxième niveau (sous-tâches de sous-tâches). Si une sous-tâche comporte une ou plusieurs sous-tâches de deuxième niveau, elle est calculée en fonction des sous-tâches de deuxième niveau.
 
 ## Relation entre le storyboard et la liste d’attente
-
->[!NOTE]
->
->Les informations de cette section s’appliquent uniquement aux vues Agile sur une itération ; les vues Agile sur un projet n’utilisent pas de liste d’attente. (Pour plus d’informations sur les différences entre les vues Agile d’une itération et d’un projet, consultez la section « Différences lors de l’utilisation de la vue [!UICONTROL Agile] sur un projet plutôt que sur une itération » dans [Gérer un projet en vue Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)).
 
 La liste d’attente des itérations affiche uniquement les histoires ou les sous-tâches pour lesquelles vous pouvez définir une estimation. Si une histoire parent a des sous-tâches qui sont affichées sur le storyboard (parce qu’elles sont affectées à la même équipe Agile et appartiennent à l’itération), la tâche parent n’est pas affichée dans la liste d’attente. Dans ce cas, seules les sous-tâches sont affichées dans la liste d’attente, tandis que les sous-tâches et l’histoire parent sont affichées sur le storyboard.
 

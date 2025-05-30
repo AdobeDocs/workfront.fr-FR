@@ -7,7 +7,7 @@ description: Le résumé permet d’interagir avec des informations importantes,
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 63%
@@ -110,7 +110,7 @@ Les approbations d’épreuves doivent être ajoutées dans le workflow des épr
 
 ## Versions
 
-Utilisez la section Versions pour afficher le nombre de versions créées pour un document spécifique. Cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png) pour effectuer les opérations suivantes :
+Utilisez la section Versions pour afficher le nombre de versions créées pour un document spécifique. Cliquez sur l’icône Plus ![icône Plus](assets/more-icon.png) pour effectuer les opérations suivantes :
 
 * Ouvrez un BAT.
 * Téléchargez une épreuve ou un document.

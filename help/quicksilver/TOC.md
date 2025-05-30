@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: 4189ea6b6c61a97eaf15c92724ef1dbfeb8b8b82
 workflow-type: tm+mt
-source-wordcount: '13220'
+source-wordcount: '13222'
 ht-degree: 87%
 
 ---
@@ -1013,7 +1013,7 @@ ht-degree: 87%
       * [Ajouter des balises](agile/get-started-with-boards/add-tags.md)
       * [Notifications par e-mail et préférences des panoramas](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
    * Utiliser des outils de planification Agile dans les panoramas {#agile-planning-boards}
-      * [Vue d’ensemble des outils de planification Agile](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
+      * [Présentation des outils de planification Agile : index des articles](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Gérer la limite de travail en cours (WIP) sur un panorama](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [Ajouter une colonne d’entrée à un panorama](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Utiliser des groupes sur un panorama](agile/use-boards-agile-planning-tools/group-cards-on-board.md)

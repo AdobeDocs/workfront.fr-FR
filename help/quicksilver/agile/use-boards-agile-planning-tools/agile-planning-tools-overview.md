@@ -2,21 +2,23 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Présentation des outils de planification agile
-description: Lorsque vous créez un panorama à l’aide de cartes ad hoc et connectées, vous pouvez utiliser d’autres outils de planification Agile sur les panoramas.
+title: 'Présentation des outils de planification Agile : index des articles'
+description: Lorsque vous créez un panorama à l’aide de cartes ad hoc et connectées, vous pouvez tirer parti d’outils de planification agiles supplémentaires sur les panoramas.
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 97%
+ht-degree: 72%
 
 ---
 
-# Vue d’ensemble des outils de planification Agile
+# Présentation des outils de planification Agile : index des articles
 
-Lorsque vous créez un panorama à l’aide de cartes ad hoc et connectées, vous pouvez utiliser d’autres outils de planification Agile.
+<!-- Audited: 5/2025 -->
+
+Lorsque vous créez un panorama à l’aide de cartes ad hoc et connectées, vous pouvez tirer parti d’outils de planification agiles supplémentaires.
 
 Les outils utiles pour Kanban sont les suivants :
 

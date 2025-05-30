@@ -1,22 +1,22 @@
 ---
 title: 'Conseils, astuces et dépannage pour  [!DNL Adobe Workfront] : index des articles'
-description: Découvrez des conseils de dépannage ou trouvez des réponses à certaines questions fréquentes en consultant les articles de cette section.
-author: Nolan
+description: Découvrez des conseils de dépannage et trouvez des réponses aux questions les plus fréquemment posées en consultant les articles de cette section.
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 41%
+source-wordcount: '107'
+ht-degree: 43%
 
 ---
 
 # Conseils, astuces et dépannage pour [!DNL Adobe Workfront] : index des articles
 
-<!--Audited: 12/2024-->
+<!--Audited: 5/2025-->
 
-Découvrez des conseils de dépannage ou trouvez des réponses à certaines questions fréquentes, mais en parcourant les articles suivants :
+Découvrez des conseils de dépannage et des réponses aux questions les plus fréquemment posées en consultant les articles suivants :
 
 * [Votre guide rapide pour trouver de l’aide dans  [!DNL Adobe Workfront]](../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
 * [Contacter l’assistance clientèle](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
