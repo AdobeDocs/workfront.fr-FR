@@ -6,10 +6,10 @@ description: Vous pouvez accéder à  [!DNL Adobe Workfront]  à partir de  [!DN
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
+source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 85%
 
 ---
 
@@ -17,13 +17,11 @@ ht-degree: 100%
 
 <!--Audited: 01/2024-->
 
-<!--
-
->[!NOTE]
+>[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>Alors que Microsoft passe au client Nouvelles équipes, le client Équipes classiques ne sera plus disponible après le 1er juillet 2025. En préparation, nous développons une nouvelle version de l’intégration Microsoft Teams qui sera entièrement compatible avec le nouveau client Teams et disponible avant le 1er juillet pour assurer une transition en douceur.
+>
+>Les instructions sur le téléchargement et l’installation de l’intégration dans le nouveau client Teams s’affichent ici une fois l’intégration disponible.
 
 Vous pouvez accéder à [!DNL Adobe Workfront] à partir de [!DNL Microsoft Teams] et effectuer plusieurs actions dans [!DNL Workfront] en saisissant des commandes dans le canal du robot [!DNL Workfront] ou dans n’importe quel autre canal d’équipe.
 

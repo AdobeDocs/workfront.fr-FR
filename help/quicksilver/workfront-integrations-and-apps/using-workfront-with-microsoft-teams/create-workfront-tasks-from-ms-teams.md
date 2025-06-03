@@ -6,22 +6,20 @@ description: Si une personne responsable d’une équipe a installé et configur
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
+source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 82%
 
 ---
 
 # Créer des tâches [!DNL Adobe Workfront] à partir de [!DNL Microsoft Teams]
 
-<!--
-
->[!NOTE]
+>[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>Alors que Microsoft passe au client Nouvelles équipes, le client Équipes classiques ne sera plus disponible après le 1er juillet 2025. En préparation, nous développons une nouvelle version de l’intégration Microsoft Teams qui sera entièrement compatible avec le nouveau client Teams et disponible avant le 1er juillet pour assurer une transition en douceur.
+>
+>Les instructions sur le téléchargement et l’installation de l’intégration dans le nouveau client Teams s’affichent ici une fois l’intégration disponible.
 
 ## Conditions d’accès
 
