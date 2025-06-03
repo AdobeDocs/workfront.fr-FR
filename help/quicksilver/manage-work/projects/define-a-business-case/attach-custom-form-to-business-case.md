@@ -5,10 +5,10 @@ description: Les formulaires personnalisés sont utilisés pour collecter des in
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 94%
+source-wordcount: '390'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ Pour plus d’informations sur la création d’un Forms personnalisé, consulte
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,11 +28,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Pro ou niveau supérieur</p> </td> 
+   <td> <p>Current : Prime ou version ultérieure</p>
+   <p>Hérité : Pro ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+   <p>Actuel : Standard </p> 
+   <p>Hérité : plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès*</td> 
@@ -45,7 +48,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Joindre des formulaires personnalisés aux projets
 

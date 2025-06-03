@@ -5,10 +5,10 @@ description: Dans le cadre de la création d’un business case, vous pouvez cr�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 61%
+source-wordcount: '495'
+ht-degree: 58%
 
 ---
 
@@ -43,8 +43,6 @@ Tenez compte des éléments suivants lorsque vous définissez les objectifs de b
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -53,14 +51,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Pro ou niveau supérieur</p> </td> 
+   <td> <p>Current : Prime ou version ultérieure</p>
+   <p>Hérité : Pro ou supérieur</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td>
    <td> 
-   <p>Nouveau : Standard</p> 
-   <p>Ou</p>
-   <p>Actuel : formule </p> 
+   <p>Actuel : Standard</p> 
+   <p>Hérité : plan </p> 
    </td> 
   </tr> 
   <tr> 

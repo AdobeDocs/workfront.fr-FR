@@ -6,10 +6,10 @@ description: Vous pouvez exporter le business case vers un fichier PDF, au cas o
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ Vous pouvez exporter le business case vers un fichier PDF, au cas où vous aurie
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,11 +27,13 @@ Vous devez disposer des éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Current : Prime ou version ultérieure </p> <p>Hérité : Pro ou supérieur </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou supérieur</p> </td> 
+   <td> 
+   <p>Courant : Léger ou supérieur</p>
+   <p>Hérité : révision ou version supérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès*</td> 
@@ -44,7 +46,9 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exporter le business case
 

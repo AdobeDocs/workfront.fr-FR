@@ -5,10 +5,10 @@ description: Après avoir complété et soumis le business case d’une demande 
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 93%
+source-wordcount: '741'
+ht-degree: 92%
 
 ---
 
@@ -20,19 +20,24 @@ Pour plus d’informations sur la façon de remplir et de soumettre un business 
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Pro ou niveau supérieur</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> 
+   <p>Current : Prime ou version ultérieure</p> 
+   <p>Hérité : Pro ou supérieur</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+   <p>Actuel : Standard </p> 
+   <p>Hérité : plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès*</td> 
@@ -45,7 +50,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vue d’ensemble de l’approbation d’un business case
 

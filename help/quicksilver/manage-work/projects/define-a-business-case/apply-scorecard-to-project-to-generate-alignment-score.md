@@ -5,10 +5,10 @@ description: Tirez parti des cartes de performance pour mesurer l’alignement d
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 100%
+source-wordcount: '1227'
+ht-degree: 99%
 
 ---
 
@@ -24,8 +24,6 @@ Pour plus d’informations sur les cartes de performance et sur leur mode de cr�
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -33,16 +31,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Prime ou supérieur</p>
+   <p>Current : Prime ou version ultérieure</p>
    <p>ou</p>
-   <p>Actuel : Entreprises ou supérieur</p> </td>
+   <p>Hérité : Professionnel ou supérieur</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
+   <p>Actuel : Standard</p>
    <p>ou</p>
-   <p>Actuel : formule</p></td>  
+   <p>Hérité : plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 

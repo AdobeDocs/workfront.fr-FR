@@ -5,10 +5,10 @@ description: Dans le cadre de la planification des ressources, vous pouvez utili
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 96%
+source-wordcount: '1240'
+ht-degree: 95%
 
 ---
 
@@ -28,8 +28,6 @@ Vous pouvez également budgétiser les ressources dans l’analyse de rentabilit
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
-
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
@@ -38,12 +36,14 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Prime ou version ultérieure</p> </td> 
+   <td> <p>Current : Prime ou version ultérieure</p>
+   <p>Hérité : Pro ou supérieur</p> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Léger ou supérieur</p>
-   <p>Actuel : révision ou supérieur</p>
+   <td> <p>Courant : Léger ou supérieur</p>
+   <p>Hérité : révision ou version supérieure</p>
 
 <p><b>IMPORTANT :</b></p> 
    <p>Nouveau : vous devez disposer d'une licence Standard pour modifier les informations de budgétisation des ressources. </p> 
@@ -66,7 +66,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
