@@ -6,14 +6,16 @@ description: Vous pouvez joindre un modèle à un projet pendant la phase de cr�
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 91%
+source-wordcount: '1151'
+ht-degree: 51%
 
 ---
 
 # Joindre un modèle à un projet
+
+<!-- Audited: 5/2025 -->
 
 Vous pouvez joindre un modèle à un projet pendant la phase de création initiale du projet ou après sa création.
 
@@ -21,32 +23,37 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouveau : Standard</p>
+   <p>Ou</p>
+   <p>Actuel : formule</p>
+    </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès en modification aux projets </p> <p>Pour plus d’informations sur l’accès au projet, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Accorder l’accès aux projets</a>.</p> <p>Accès Afficher aux modèles</p> <p>Pour plus d’informations sur les autorisations relatives aux modèles, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Partager un modèle</a>. </p> <p>Pour plus d’informations sur l’accès aux modèles, consultez <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Accorder l’accès aux modèles</a>.</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux projets </p> <p>Pour plus d’informations sur l’accès au projet, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Accorder l’accès aux projets</a>.</p> <p>Accès Afficher aux modèles</p> <p>Pour plus d’informations sur les autorisations relatives aux modèles, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Partager un modèle</a>. </p> <p>Pour plus d’informations sur l’accès aux modèles, consultez <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Accorder l’accès aux modèles</a>.</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la manière dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création et modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion pour le projet</p> <p>Pour plus d’informations sur les autorisations de projet, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>. </p> <p>Autorisations Afficher ou supérieures pour le modèle</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander un accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations de gestion pour le projet</p> <p>Pour plus d’informations sur les autorisations de projet, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>. </p> <p>Autorisations Afficher ou supérieures pour le modèle</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,24 +82,26 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 ## Joindre un modèle à un projet existant {#attach-a-template-to-an-existing-project}
 
-Vous pouvez joindre un modèle à un projet dans Workfront à partir de la page du projet ou d’une liste de projets ou d’un rapport.
+Vous pouvez joindre un modèle à un projet à partir de la page du projet, d’une liste de projets ou d’un rapport.
 
-1. Accédez au projet auquel vous souhaitez joindre un modèle, puis cliquez sur l’icône **Plus** ![Icône Plus](assets/qs-more-icon-on-an-object.png) à droite du nom du projet
+{{step1-to-projects}}
 
-   ![Liste déroulante supplémentaire](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. Sur la page **Projets**, sélectionnez le projet auquel vous souhaitez joindre un modèle.
+
+1. Cliquez sur l’icône **Plus** ![Icône Plus](assets/qs-more-icon-on-an-object.png) à droite du nom du projet.
+
+   ![Liste déroulante supplémentaire](assets/more-dropdown.png)
 
    Ou
 
    Accédez à une liste ou à un rapport de projet et sélectionnez un projet, puis cliquez sur l’icône **Plus** ![Icône Plus](assets/qs-more-icon-on-an-object.png) en haut de la liste.
 
-   ![Menu Plus développé](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Menu Plus développé](assets/more-menu-expanded.png)
 
 
-1. Cliquez sur **Joindre modèle**.
+1. Cliquez sur **Joindre un modèle**. La zone **Joindre le modèle** s’affiche.
 
-   La zone Joindre un modèle s’affiche.
-
-1. Commencez à saisir le nom du modèle que vous souhaitez joindre dans le champ **Rechercher modèles** puis cliquez dessus lorsqu’il s’affiche dans la liste.
+1. Commencez à saisir le nom du modèle à joindre dans le champ **Modèles de recherche**, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    Ou
 
@@ -102,22 +111,18 @@ Vous pouvez joindre un modèle à un projet dans Workfront à partir de la page 
 
    * Durée
    * Propriétaire
-   * Nombre de tâches de niveau supérieur (y compris une liste des trois premières tâches de niveau supérieur)
+   * Le nombre de tâches de niveau supérieur (comprend une liste des 3 premières tâches de niveau supérieur)
    * Nombre total de tâches
    * Noms des formulaires personnalisés joints
 
    ![Joindre une zone de modèle](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Facultatif) Cliquez sur l’icône **Favoris** ![Icône Favoris](assets/favorites-icon-small.png) à gauche du nom du modèle pour le marquer comme favori. Le modèle est ainsi déplacé dans la liste Favoris.
+1. (Facultatif) Cliquez sur l’icône **Favoris** ![icône Favoris](assets/favorites-icon-small.png) à droite du nom du modèle pour le marquer comme favori et le déplacer vers la liste **Favoris**.
 
-   ![Icône Favoris dans la liste des modèles](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+1. (Facultatif) Cliquez de nouveau sur l’icône **Favoris** ![Icône Favoris](assets/favorites-icon-selected.png) pour la supprimer de la liste **Favoris**.
+1. Cliquez sur **Personnaliser et joindre**. Le panneau latéral **Joindre un modèle** s’ouvre.
 
-1. (Facultatif) Cliquez de nouveau sur l’icône **Favoris** ![Icône Favoris](assets/favorites-icon-selected.png) pour la supprimer de la liste des favoris.
-1. Cliquez sur **Personnaliser et joindre**.
-
-   ![Joindre un modèle](assets/attach-template-large-box-nwe-350x262.png)
-
-1. Mettez à jour les informations dans les sections suivantes avant de joindre le modèle (ou cliquez sur **Joindre modèle** à tout moment) :
+1. (Facultatif) Mettez à jour les informations dans les sections suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,18 +137,18 @@ Vous pouvez joindre un modèle à un projet dans Workfront à partir de la page 
      </tr> 
      <tr> 
       <td role="rowheader">Sélectionnez la tâche de projet que vous souhaitez désigner comme tâche antérieure pour ce modèle.</td> 
-      <td> <p>Cliquez sur le champ pour afficher la liste des tâches du projet. Sélectionnez la tâche de projet qui doit être terminée avant que les tâches du modèle puissent commencer. Vous pouvez également ignorer cette étape et configurer des relations au sein du projet une fois le modèle joint. </p> <p> Sélectionnez le <strong>Type de dépendance</strong>, les informations de <strong>Décalage</strong> et si vous souhaitez que la tâche antérieure ait l’option <strong>Forcé</strong> ou non. </p> </td> 
+      <td> <p>Cliquez sur le champ pour afficher la liste des tâches du projet, puis sélectionnez la tâche qui doit se terminer avant que les tâches du modèle puissent commencer. Vous pouvez également ignorer cette étape et configurer des relations au sein du projet une fois le modèle joint. </p> <p> Sélectionnez les informations <strong>Type de dépendance</strong>, <strong>Délai</strong> et si vous souhaitez que le prédécesseur soit appliqué en cochant la case <strong>Appliquer le prédécesseur</strong>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Sélectionnez la tâche du projet que vous souhaitez comme parent dans ce modèle.</td> 
-      <td> Sélectionnez la tâche de projet que vous souhaitez désigner comme tâche parent pour toutes les tâches du modèle. Si vous n’effectuez pas de sélection, toutes les tâches du modèle s’affichent à la fin des tâches du projet en cours. Vous pouvez ignorer cette étape et déplacer les tâches dans le projet une fois le modèle joint.</td> 
+      <td> Sélectionnez la tâche de projet que vous souhaitez désigner comme tâche parent pour toutes les tâches du modèle. Si vous ne faites pas de sélection, toutes les tâches de modèles apparaissent à la fin de vos tâches de projet actuelles. Vous pouvez ignorer cette étape et déplacer les tâches dans le projet une fois le modèle joint.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Section Options</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Les éléments sélectionnés ci-dessous sont transférés vers le projet. Désélectionnez ceux que vous souhaitez exclure.</td> 
-      <td> <p>Décochez les cases en regard des informations que vous souhaitez effacer du modèle avant de l’associer au projet. Ces informations ne sont pas transférées du modèle au projet. Pour plus d’informations sur chaque champ, consultez <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Vue d’ensemble de l’ajout d’un modèle à un projet</a>. </p> <p>Important : si vous cochez la case <strong>Configuration des propriétés et des problèmes de file d’attente</strong>, les détails de la file d’attente du modèle remplacent ceux du projet. Dans ce cas, les règles de routage, les rubriques de file d’attente et les groupes de rubriques de file d’attente du modèle sont ajoutés à ceux du projet. <br>Si le projet est configuré en tant que file d’attente des demandes et que le modèle que vous joignez au projet n’est pas configuré en tant que file d’attente des demandes, les informations de la file d’attente du projet sont supprimées si vous laissez la case <strong>Propriétés de file d’attente et la configuration des problèmes</strong> cochée. <br>Si vous décochez la case <strong>Propriétés de file d’attente et configuration des problèmes</strong>, tous les paramètres de configuration de la file d’attente du projet sont conservés et aucun paramètre de configuration de la file d’attente du modèle n’est joint. </p> </td> 
+      <td> <p>Décochez les cases correspondant aux informations que vous souhaitez exclure du modèle avant de les joindre au projet. Pour plus d’informations sur chaque champ, consultez <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Vue d’ensemble de l’ajout d’un modèle à un projet</a>. </p> <p>Important : si vous cochez la case <strong>Configuration des propriétés et des problèmes de file d’attente</strong>, les détails de la file d’attente du modèle remplacent ceux du projet. Dans ce cas, les règles de routage, les rubriques de file d’attente et les groupes de rubriques de file d’attente du modèle sont ajoutés à ceux du projet. <br>Si le projet est configuré comme une file d'attente des demandes et que le modèle que vous joignez au projet n'est pas configuré comme une file d'attente des demandes, les informations sur la file d'attente du projet sont supprimées si vous laissez la case <strong>Propriétés de la file d'attente et configuration des événements</strong> cochée. <br>Si vous désélectionnez la case <strong>Propriétés de la file d'attente et Configuration de l'événement</strong>, tous les paramètres de configuration de la file d'attente du projet sont conservés et aucun paramètre de configuration de la file d'attente du modèle n'est joint. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Section de formulaires personnalisés</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-custom-forms-section-nwe-350x274.png" style="width: 350;height: 274;"> </p> </td> 
@@ -160,7 +165,7 @@ Vous pouvez joindre un modèle à un projet dans Workfront à partir de la page 
    >[!TIP]
    >
    >* Cette étape est obligatoire lorsque les formulaires personnalisés du modèle contiennent des champs obligatoires vides.
-   >* Si les champs du modèle de formulaires personnalisés existent déjà sur le projet et contiennent des informations, ils conservent les informations déjà présentes sur le projet. Vous ne pouvez pas les modifier lors de l’ajout du modèle.
+   >* Si les champs du modèle de formulaires personnalisés existent déjà sur le projet et contiennent des informations, ils conservent les informations déjà présentes sur le projet. Vous ne pouvez pas les modifier lorsque vous joignez le modèle.
 
 1. Cliquez sur **Joindre un modèle.**
 1. Cliquez sur **Annuler la pièce jointe** pour arrêter l’ajout du modèle.
@@ -171,28 +176,32 @@ Vous pouvez joindre un modèle à un projet dans Workfront à partir de la page 
 
    Après avoir joint le modèle, vous pouvez modifier le projet et ajuster les tâches, informations ou paramètres, le cas échéant.
 
-1. (Facultatif) Cliquez sur **Détails du projet**, puis sur **Vue d’ensemble** pour afficher le nom du modèle que vous avez joint dans la zone **Relations du projet**.
+1. (Facultatif) Dans le panneau de gauche, cliquez sur **Détails du projet**, puis **Aperçu** pour afficher le nom du modèle associé dans la zone **Relations du projet**.
 
    >[!TIP]
    >
-   >Si vous joignez plusieurs modèles au projet, seul le modèle que vous avez joint s’affiche en premier dans ce champ. Pour plus d’informations, consultez la section [Joindre plusieurs modèles à un projet existant et afficher les informations relatives aux modèles](#attach-multiple-templates-to-an-existing-project-and-view-template-information) dans cet article.
+   >Si vous joignez plusieurs modèles au projet, seul le modèle que vous avez joint en premier s’affichera dans ce champ. Pour plus d’informations, consultez la section [Joindre plusieurs modèles à un projet existant et afficher les informations relatives aux modèles](#attach-multiple-templates-to-an-existing-project-and-view-template-information) dans cet article.
 
 1. (Facultatif) Supprimez les informations de modèle du projet auquel vous avez joint le modèle. Pour plus d’informations, consultez [Supprimer les informations sur les modèles d’un projet](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md).
 
 ## Joindre plusieurs modèles à un projet existant et afficher les informations relatives aux modèles {#attach-multiple-templates-to-an-existing-project-and-view-template-information}
 
-Vous pouvez joindre plusieurs modèles (un par un) au même projet, en suivant les étapes décrites dans la section [Joindre un modèle à un projet existant](#attach-a-template-to-an-existing-project) dans cet article. Les tâches et autres informations de chaque modèle sont ainsi ajoutées au projet.
+Vous pouvez joindre plusieurs modèles (un à la fois) au même projet en suivant les étapes décrites dans la section [Joindre un modèle à un projet existant](#attach-a-template-to-an-existing-project) dans cet article. Les tâches et autres informations de chaque modèle sont ainsi ajoutées au projet.
 
 >[!TIP]
 >
->Lorsque vous joignez plusieurs modèles à un projet, seul celui que vous avez joint en premier s’affiche dans la zone Détails du projet.
+>Lorsque vous joignez plusieurs modèles à un projet, seul le modèle que vous avez joint en premier s’affiche dans la zone Détails du projet .
 
-Pour comprendre quel modèle est appliqué à un projet, procédez comme suit :
+Pour afficher le modèle appliqué à un projet :
 
-1. Accédez à un projet auquel est associé un modèle.
+{{step1-to-projects}}
+
+1. Sur la page **Projets**, sélectionnez le projet auquel est associé un modèle.
+
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Recherchez le nom du modèle associé au projet dans la section **Modèle** au bas de la section **Vue d’ensemble** sous **Relations du projet**.
 
-   ![Informations sur le modèle de projet](assets/nwe-template-info-on-project-350x356.png)
+1. Recherchez le nom du modèle associé au projet dans le champ **Modèle** au bas de la section **Présentation** sous **Relations du projet**.
+
+   ![Informations de modèle sur un projet](assets/nwe-template-info-on-project-350x356.png)
 
 

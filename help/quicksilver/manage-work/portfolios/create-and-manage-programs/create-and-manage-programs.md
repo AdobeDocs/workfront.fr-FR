@@ -2,23 +2,24 @@
 content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
-title: Création et gestion des programmes
-description: Les programmes représentent une collection de projets partageant une stratégie commune ou un objectif commun qui transcende les limites du projet. Les programmes sont une subdivisions de portefeuilles, et ils ne peuvent exister en dehors d'un portefeuille.
+title: 'Créer et gérer des programmes : index d’article'
+description: Les programmes sont un ensemble de projets qui contribuent à une stratégie, un objectif ou un but commun. Les programmes sont une subdivision des portefeuilles, et ils ne peuvent pas exister en dehors d'un portefeuille.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 49%
+source-wordcount: '103'
+ht-degree: 29%
 
 ---
 
-# Créer et gérer des programmes
+# Créer et gérer des programmes : index d’article
 
-Les programmes représentent un ensemble de projets partageant une stratégie, un objectif ou un objectif commun qui transcende les limites du projet.
-Les programmes sont une subdivisions de portefeuilles, et ils ne peuvent exister en dehors d&#39;un portefeuille.
+Les programmes sont un ensemble de projets qui contribuent à une stratégie, un objectif ou un but commun.
+
+Les programmes sont une subdivision des portefeuilles, et ils ne peuvent pas exister en dehors d&#39;un portefeuille.
 
 Cette section contient les articles suivants :
 

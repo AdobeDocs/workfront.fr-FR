@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '« Vue d’ensemble du type de durée : calcul d’affectation »'
+title: 'Vue d’ensemble du type de durée : calcul d’affectation'
 description: Le calcul d’affectation est un type de durée que vous pouvez définir pour une tâche dans Adobe Workfront. Pour des informations générales sur les types de durée dans Workfront, voir Vue d’ensemble de la durée de la tâche et du type de durée.
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 90%
 
 ---
 
 # Vue d’ensemble du type de durée : calcul d’affectation
+
+<!-- Audited: 5/2025 -->
 
 Le calcul d’affectation est un type de durée que vous pouvez définir pour une tâche dans Adobe Workfront. Pour des informations générales sur les types de durée dans Workfront, voir [Vue d’ensemble de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -24,14 +26,14 @@ Le calcul d’affectation est un type de durée que vous pouvez définir pour un
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This Hub issue has a powerpoint that highlights information that is useful to users when using Calculated Assignment duration type. I don't think we can use the powerpoint, because it's old. I also don't know if the things they discuss are still relevant, since the PP is from 2015. I've closed the issue, but I'm putting a link here just in case the info is useful. https://hub.workfront.com/issue/5a9dd7d5007d02a8966014557c23cc89/updates)</p>
 -->
 
-* Lorsque vous utilisez un type de durée Calcul d’affectation, vous devez spécifier à la fois une durée et un nombre d’heures prévues pour la tâche. Workfront divise ensuite le nombre d’heures prévues par le nombre d’heures de la durée, puis par le nombre de ressources affectées à la tâche pour calculer le pourcentage d’affectation (l’allocation) pour chaque ressource. Chaque ressource aura la même valeur pour son pourcentage d’affectation. Dans ce cas, vous ne pouvez pas modifier les valeurs d’affectation pour chaque ressource.
+* Lorsque vous utilisez un type de durée Calcul d’affectation, vous devez spécifier à la fois une durée et un nombre d’heures prévues pour la tâche. Workfront divise ensuite le nombre d’heures prévues par le nombre d’heures de la durée, puis par le nombre de ressources affectées à la tâche pour calculer le pourcentage d’affectation (l’allocation) pour chaque ressource. Chaque ressource aura la même valeur pour son pourcentage d’affectation. Dans ce cas, vous ne pouvez pas modifier les valeurs d’affectation de chaque ressource.
 * Votre équipe d’administration Workfront ou de groupes peut définir le type de durée par défaut de votre système ou de votre groupe sur Calcul d’affectation.Dans ce cas, toutes les nouvelles tâches seront créées avec ce type de durée. Pour plus d’informations sur la modification de votre tâche et les préférences de problème dans le cadre de vos préférences de projet à l’échelle du système ou du groupe, voir [Configurer les préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   Dans ce cas, la tâche affiche une durée par défaut d’une journée et un nombre d’heures prévues par défaut de 0. Si la personne responsable du projet ne fixe pas de durée plus précise et ne remplit pas le champ Nombre d’heures prévues avec une estimation réaliste, les ressources apparaissent sous-affectées.
 
 Le calcul d’affectation correspond au type de durée préféré dans les situations suivantes :
 
-* Lorsque les affectations ont une fenêtre d’activité mais ne nécessitent pas d’utiliser la totalité de la durée attribuée pour réaliser le travail. Par exemple, vous devez remettre un rapport à la personne chargée de votre supervision avant la fin de la semaine. Vous disposez d’une durée de cinq jours, mais il ne vous faudra que dix heures pour rédiger le document.
+* Lorsque les affectations ont une fenêtre d&#39;activité mais ne prennent pas toute la durée allouée pour terminer leur travail. Par exemple, vous devez remettre un rapport à la personne chargée de votre supervision avant la fin de la semaine. Vous avez une durée de cinq jours, mais il ne vous faudra que 10 heures pour rédiger le document.
 * Lorsqu’une seule ressource est affectée à une tâche parce que la personne responsable du projet peut estimer la durée prévue et le volume d’effort prévu, indépendamment l’un de l’autre.
 
   Vous pouvez utiliser le type de durée Calcul de travail pour le même résultat, mais la personne responsable du projet doit saisir un pourcentage d’allocation de la ressource afin d’affecter la valeur calculée pour le nombre d’heures prévues. Cela rend la planification des projets plus difficile et plus longue.

@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 52ba2457ac2870d23e325f64163b683756f88ad4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 93%
+source-wordcount: '823'
+ht-degree: 65%
 
 ---
 
 # Configurer les mises à jour du système
+
+<!-- Audited: 5/2025 -->
 
 [!DNL Adobe Workfront] génère des mises à jour système automatiques dans la zone [!UICONTROL Mises à jour] d’un objet pour enregistrer les événements suivants :
 
@@ -37,8 +39,6 @@ Par exemple, vous pouvez avoir [!DNL Workfront] qui suit toutes les modification
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,14 +72,14 @@ Vous pouvez déterminer les informations suivies par [!DNL Workfront] lorsque le
 
 >[!NOTE]
 >
->* [!DNL Workfront] ne peut pas effectuer de suivi et enregistrer des mises à jour sur les champs personnalisés calculés.
->* Vous pouvez personnaliser la mise à jour du système pour les projets, tâches, problèmes, portfolios, programmes, utilisateurs et utilisatrices. Vous ne pouvez pas personnaliser la mise à jour du système pour les modèles, documents ou feuilles de temps, mais [!DNL Workfront] effectue des mises à jour du système d’enregistrement pour ces objets.
+>* [!DNL Workfront] ne pouvez pas suivre et enregistrer les mises à jour des champs personnalisés calculés.
+>* Vous pouvez personnaliser la mise à jour du système pour les projets, tâches, problèmes, portfolios, programmes, utilisateurs et utilisatrices. Vous ne pouvez pas personnaliser la mise à jour du système pour les modèles, les documents ou les feuilles de temps, mais [!DNL Workfront] enregistre les mises à jour du système pour ces objets.
 >
 
 
 
 * [Ajouter les champs que vous souhaitez faire suivre par  [!DNL Workfront] ](#add-fields-you-want-workfront-to-track)
-* [Supprimer les champs que vous ne souhaitez pas suivre](#remove-fields-that-you-don-t-want-tracked)
+* [Supprimer les champs dont vous ne souhaitez pas le suivi](#remove-fields-you-don-t-want-tracked)
 
 ### Ajouter les champs que vous souhaitez faire suivre par [!DNL Workfront] {#add-fields-you-want-workfront-to-track}
 
@@ -87,37 +87,33 @@ Vous pouvez ajouter les champs que vous souhaitez faire suivre par [!DNL Workfro
 
 >[!NOTE]
 >
->Vous pouvez effectuer le suivi de jusqu’à 300 champs intégrés et personnalisés dans les flux de mise à jour. Si vous effectuez le suivi du nombre maximal de champs et souhaitez effectuer le suivi de champs supplémentaires qui ne sont pas affichés dans le sous-onglet [!UICONTROL Tous les champs], vous devez d&#39;abord supprimer certains des champs suivis pour effectuer le suivi des nouveaux champs. Pour plus d’informations sur la suppression de champs des champs de mise à jour, voir [Supprimer les champs que vous ne souhaitez pas suivre](#remove-fields-that-you-don-t-want-tracked).
+>Vous pouvez effectuer le suivi de jusqu’à 300 champs intégrés et personnalisés dans les flux de mise à jour. Si vous suivez le nombre maximal de champs et que vous souhaitez suivre des champs supplémentaires qui ne sont pas affichés dans le sous-onglet [!UICONTROL Tous les champs], vous devez d’abord supprimer certains des champs suivis afin de suivre les nouveaux champs. Pour plus d’informations sur la suppression de champs des champs de mise à jour, voir [Supprimer les champs dont vous ne souhaitez pas le suivi](#remove-fields-you-don-t-want-tracked).
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Flux de mises à jour]**.
+1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Interface]**, puis **[!UICONTROL Mettre à jour les flux]**.
 
-1. Cliquez sur **[!UICONTROL Ajouter des champs]**, puis cliquez sur l’objet dont vous souhaitez effectuer le suivi.
+1. &#x200B;Cliquez sur **[!UICONTROL Ajouter des champs]**, puis sélectionnez l’objet dont vous souhaitez effectuer le suivi dans la liste déroulante.
 
-1. Dans la boîte **[!UICONTROL Flux de mises à jour]** qui s’affiche, commencez à saisir un champ intégré (standard) ou personnalisé pour l’objet, puis cliquez pour le sélectionner lorsqu’il apparaît dans la liste.
+1. Dans la zone qui s’affiche, commencez à saisir un champ intégré (standard) ou un champ personnalisé pour l’objet, puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
-   Si [!DNL Workfront] effectue déjà le suivi du champ, vous ne pouvez pas l’ajouter une seconde fois à partir de la liste.
+   >[!NOTE]
+   >
+   >Si [!DNL Workfront] effectue déjà le suivi du champ, vous ne pouvez pas l’ajouter une deuxième fois à partir de la liste.
 
-1. Après avoir ajouté tous les champs que vous souhaitez faire suivre par [!DNL Workfront], cliquez sur **[!UICONTROL Ajouter des champs]**.
+1. Après avoir ajouté tous les champs [!DNL Workfront] suivre, cliquez sur **[!UICONTROL Ajouter des champs]**. Les champs intégrés que vous avez ajoutés s’affichent sous le sous-onglet **[!UICONTROL Champs intégrés]** et les champs personnalisés s’affichent sous le sous-onglet **[!UICONTROL Champs personnalisés]**.
 
-   Les champs intégrés que vous avez ajoutés s’affichent dans le sous-onglet **[!UICONTROL Champs intégrés]**.
+   Le sous-onglet **[!UICONTROL Tous les champs]** affiche les champs intégrés et les champs personnalisés qui font l’objet d’un suivi.
 
-   Les champs personnalisés que vous avez ajoutés s’affichent dans le sous-onglet **[!UICONTROL Champs personnalisés]**.
+### Supprimer les champs dont vous ne souhaitez pas le suivi {#remove-fields-you-don-t-want-tracked}
 
-   Le sous-onglet **[!UICONTROL Tous les champs]** affiche à la fois les champs intégrés et personnalisés qui font l’objet d’un suivi.
+Vous pouvez supprimer des champs dont vous ne souhaitez pas que le système effectue le suivi pour un type d’objet particulier dans l’interface [!DNL Workfront].
 
-### Supprimer les champs que vous ne souhaitez pas suivre {#remove-fields-that-you-don-t-want-tracked}
+{{step-1-to-setup}}
 
-Vous pouvez supprimer les champs que vous ne voulez pas faire suivre par le système pour un type particulier d’objet grâce à l’interface de [!DNL Workfront].
+1. Cliquez sur **[!UICONTROL Interface]**, puis sur **[!UICONTROL Mettre à jour les flux]**.
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
-
-1. Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Mettre à jour les flux]**.
-
-1. Sur l’onglet **[!UICONTROL Champs suivis]**, sélectionnez le sous-onglet **[!UICONTROL Tous les champs]**.
-
-   Vous affichez ainsi les champs intégrés et personnalisés actuellement suivis.
+1. Sous l’onglet **[!UICONTROL Champs suivis]**, sélectionnez le sous-onglet **[!UICONTROL Tous les champs]**. Les champs intégrés et personnalisés en cours de suivi s’affichent.
 
 1. Sélectionnez le champ dont vous souhaitez arrêter le suivi, puis cliquez sur **[!UICONTROL Supprimer]**.
 
@@ -198,13 +194,13 @@ Par exemple, vous pouvez demander à [!DNL Workfront] d’enregistrer une mise �
 
 Pour configurer les actions que vous souhaitez que [!DNL Workfront] suive, procédez comme suit :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Mettre à jour les flux]**.
+1. Cliquez sur **[!UICONTROL Interface]**, puis sur **[!UICONTROL Mettre à jour les flux]**.
 
 1. Cliquez sur l’onglet **[!UICONTROL Actions]**.
 
-1. Sélectionnez une action pour l’activer ou désélectionnez une action pour la désactiver.
+1. Cochez la case d’une action pour l’activer ou désélectionnez-la pour la désactiver.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
 Lorsque vous désactivez une action, toute mise à jour précédemment enregistrée relative à cette action est conservée dans la zone [!UICONTROL Mises à jour] ou elle a été enregistrée.
