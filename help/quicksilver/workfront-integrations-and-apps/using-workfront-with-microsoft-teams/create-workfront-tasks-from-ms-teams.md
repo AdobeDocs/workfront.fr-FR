@@ -6,7 +6,7 @@ description: Si une personne responsable d’une équipe a installé et configur
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 82%
@@ -19,7 +19,7 @@ ht-degree: 82%
 >
 >Alors que Microsoft passe au client Nouvelles équipes, le client Équipes classiques ne sera plus disponible après le 1er juillet 2025. En préparation, nous développons une nouvelle version de l’intégration Microsoft Teams qui sera entièrement compatible avec le nouveau client Teams et disponible avant le 1er juillet pour assurer une transition en douceur.
 >
->Les instructions sur le téléchargement et l’installation de l’intégration dans le nouveau client Teams s’affichent ici une fois l’intégration disponible.
+>Les instructions sur le téléchargement et l’installation de l’intégration dans le nouveau client Teams seront disponibles après la publication de l’intégration.
 
 ## Conditions d’accès
 

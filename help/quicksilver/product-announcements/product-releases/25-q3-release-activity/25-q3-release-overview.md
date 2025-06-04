@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: b3a441f7bde5532bae4a3dcfd052752931c0fdf9
+source-git-commit: 9b06b297549fbf4b4493471e7335c5c11351ee86
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 28%
+source-wordcount: '1171'
+ht-degree: 26%
 
 ---
 
@@ -74,9 +74,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             pour les applications tierces accédant à Google Drive, en exigeant que les applications adoptent un modèle de consentement par utilisateur. Par conséquent, les ressources individuelles doivent être liées une par une pour être visibles dans Workfront. Voir <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">Configuration des intégrations de documents</a>
              pour plus d’informations. </p>
         </td>
-        <td>22 mai 2025</td>
-        <td>22 mai 2025</td>
-        <td>22 mai 2025</td>
+        <td>23 mai 2025</td>
+        <td>23 mai 2025</td>
+        <td>23 mai 2025</td>
     </tr>  
     <tr>
         <td>
@@ -261,7 +261,7 @@ Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’
 
 ### Améliorations de Workfront Fusion
 
-De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations apportées à Workfront Planning
 
@@ -273,6 +273,14 @@ Il n’existe aucune mise à jour pour les éléments suivants à ce stade de la
 * Épreuve
 * Objectifs
 
+## Annonces
+
+### Nouvelle version de Workfront pour Microsoft Teams
+
+Alors que Microsoft passe au client Nouvelles équipes, le client Équipes classiques ne sera plus disponible après le 1er juillet 2025. En préparation, nous développons une nouvelle version de l’intégration Microsoft Teams qui sera entièrement compatible avec le nouveau client Teams et disponible avant le 1er juillet pour assurer une transition en douceur.
+
+Les instructions sur le téléchargement et l’installation de l’intégration dans le nouveau client Teams seront disponibles après la publication de l’intégration.
+
 ### Version 20 de l’API
 
 L’API Workfront version 20 a été publiée le 4 mai 2024. Pour la version 20 de l’API, nous avons modifié certaines ressources et certains points d’entrée. Certains des changements prennent en charge de nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
@@ -283,7 +291,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
