@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '2894'
-ht-degree: 91%
+source-wordcount: '2851'
+ht-degree: 92%
 
 ---
 
 # Importer des données dans Workfront à l’aide d’un modèle Kickstart
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -492,15 +490,7 @@ Pour importer les données de feuille de calcul du modèle dans Workfront, proc�
 
 1. Dans la section **Charger des données avec feuille de calcul Kickstart**, cliquez sur **Choisir un fichier**, puis recherchez et sélectionnez la feuille de calcul renseignée.
 
-   <div class="preview">
-
-   Dans l’environnement de Prévisualisation, le fichier se charge automatiquement et une notification indiquant que l’importation a réussi s’affiche.
-
-   Si le chargement du fichier Excel prend plus de 5 minutes vers Workfront, l’application expire et Workfront ne peut pas charger le fichier. Essayez d’importer vos données en lots d’objets plus petits.
-
-   </div>
-
-1. (Dans l’environnement de production uniquement) Cliquez sur **Charger**.
+   Le fichier se charge automatiquement et une notification indiquant que l’importation a réussi s’affiche.
 
    Si le chargement du fichier Excel prend plus de 5 minutes vers Workfront, l’application expire et Workfront ne peut pas charger le fichier. Essayez d’importer vos données en lots d’objets plus petits.
 
