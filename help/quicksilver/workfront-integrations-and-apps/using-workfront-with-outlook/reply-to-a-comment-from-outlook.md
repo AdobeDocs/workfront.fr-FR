@@ -6,16 +6,25 @@ description: Lorsque vous recevez une notification  [!DNL Adobe Workfront]  par 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '353'
+ht-degree: 68%
 
 ---
 
 # Répondre à un commentaire à partir d’[!DNL Outlook]
 
+>[!IMPORTANT]
+>
+>[Microsoft est en train de désactiver la prise en charge des jetons Exchange Online hérités](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) actuellement utilisés par le complément Workfront Outlook pour l&#39;authentification. Cette modification apportée par Microsoft a déjà commencé à affecter les clients et continuera à être déployée par phases jusqu’en octobre 2025.
+>
+>* **Une fois que Microsoft a complètement désactivé ces jetons, l’intégration de Workfront pour Microsoft Outlook ne fonctionne plus.**
+>
+>Dans le cadre de cette modification, Microsoft a pris la décision de modifier la manière dont les jetons sont réactivés. Après le **30 juin 2025**, les administrateurs ne pourront plus réactiver les jetons eux-mêmes. Seule la prise en charge de Microsoft peut accorder des exceptions. **Le 1er octobre 2025, les jetons hérités seront désactivés pour tous les clients. Les exceptions ne seront pas accordées.**
+
 Lorsque vous recevez une notification [!DNL Adobe Workfront] par e-mail dans votre boîte de réception [!DNL Outlook], vous pouvez rapidement publier un commentaire sur [!DNL Workfront] en répondant simplement à la notification dans Outlook.
+
 
 ## Conditions d’accès
 

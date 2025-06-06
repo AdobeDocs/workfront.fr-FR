@@ -6,14 +6,23 @@ description: Vous pouvez afficher les détails de la version du module compléme
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f2200d71-c81e-4b15-b631-07e08562609b
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 64%
 
 ---
 
 # Afficher des informations supplémentaires sur [!DNL Adobe Workfront for Outlook] et se déconnecter
+
+>[!IMPORTANT]
+>
+>[Microsoft est en train de désactiver la prise en charge des jetons Exchange Online hérités](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) actuellement utilisés par le complément Workfront Outlook pour l&#39;authentification. Cette modification apportée par Microsoft a déjà commencé à affecter les clients et continuera à être déployée par phases jusqu’en octobre 2025.
+>
+>* **Une fois que Microsoft a complètement désactivé ces jetons, l’intégration de Workfront pour Microsoft Outlook ne fonctionne plus.**
+>
+>Dans le cadre de cette modification, Microsoft a pris la décision de modifier la manière dont les jetons sont réactivés. Après le **30 juin 2025**, les administrateurs ne pourront plus réactiver les jetons eux-mêmes. Seule la prise en charge de Microsoft peut accorder des exceptions. **Le 1er octobre 2025, les jetons hérités seront désactivés pour tous les clients. Les exceptions ne seront pas accordées.**
+
 
 Vous pouvez afficher les détails de la version du module complémentaire [!DNL Adobe Workfront] pour [!DNL Outlook], accéder directement à la version web, envoyer des commentaires ou vous déconnecter.
 

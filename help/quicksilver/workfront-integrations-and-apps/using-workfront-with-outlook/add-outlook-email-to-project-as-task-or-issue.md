@@ -6,14 +6,23 @@ description: Vous pouvez convertir des e-mails en tâches ou problèmes  [!DNL A
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 100%
+source-wordcount: '628'
+ht-degree: 82%
 
 ---
 
 # Ajouter un e-mail [!DNL Outlook] à un projet en tant que tâche ou problème
+
+>[!IMPORTANT]
+>
+>[Microsoft est en train de désactiver la prise en charge des jetons Exchange Online hérités](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) actuellement utilisés par le complément Workfront Outlook pour l&#39;authentification. Cette modification apportée par Microsoft a déjà commencé à affecter les clients et continuera à être déployée par phases jusqu’en octobre 2025.
+>
+>* **Une fois que Microsoft a complètement désactivé ces jetons, l’intégration de Workfront pour Microsoft Outlook ne fonctionne plus.**
+>
+>Dans le cadre de cette modification, Microsoft a pris la décision de modifier la manière dont les jetons sont réactivés. Après le **30 juin 2025**, les administrateurs ne pourront plus réactiver les jetons eux-mêmes. Seule la prise en charge de Microsoft peut accorder des exceptions. **Le 1er octobre 2025, les jetons hérités seront désactivés pour tous les clients. Les exceptions ne seront pas accordées.**
+
 
 Vous pouvez convertir des e-mails en tâches ou problèmes [!DNL Adobe Workfront]. Après la conversion d’un e-mail, la tâche ou le problème apparaît dans le projet sélectionné au moment de la conversion.
 

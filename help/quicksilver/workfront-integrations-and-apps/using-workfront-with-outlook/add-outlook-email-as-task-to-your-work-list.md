@@ -6,14 +6,24 @@ description: Vous pouvez convertir les e-mails  [!DNL Outlook]  en tâches  [!DN
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 76%
 
 ---
 
 # Ajouter un e-mail [!DNL Outlook] en tant que tâche à votre liste de travaux
+
+>[!IMPORTANT]
+>
+>[Microsoft est en train de désactiver la prise en charge des jetons Exchange Online hérités](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) actuellement utilisés par le complément Workfront Outlook pour l&#39;authentification. Cette modification apportée par Microsoft a déjà commencé à affecter les clients et continuera à être déployée par phases jusqu’en octobre 2025.
+>
+>* **Une fois que Microsoft a complètement désactivé ces jetons, l’intégration de Workfront pour Microsoft Outlook ne fonctionne plus.**
+>
+>Dans le cadre de cette modification, Microsoft a pris la décision de modifier la manière dont les jetons sont réactivés. Après le **30 juin 2025**, les administrateurs ne pourront plus réactiver les jetons eux-mêmes. Seule la prise en charge de Microsoft peut accorder des exceptions. **Le 1er octobre 2025, les jetons hérités seront désactivés pour tous les clients. Les exceptions ne seront pas accordées.**
+
+
 
 Vous pouvez convertir les e-mails [!DNL Outlook] en tâches [!DNL Adobe Workfront]. Une fois qu’un e-mail a été converti, la tâche est disponible dans votre liste de [!UICONTROL travaux] dans la zone [!UICONTROL Accueil].
 
