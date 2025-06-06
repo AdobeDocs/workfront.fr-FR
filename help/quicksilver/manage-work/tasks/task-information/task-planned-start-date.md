@@ -7,29 +7,31 @@ description: La date de début prévue d’une tâche est la date à laquelle vo
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 100%
+source-wordcount: '617'
+ht-degree: 63%
 
 ---
 
 # Vue d’ensemble de la Date de début prévue de la tâche
 
+<!-- Audited: 6/2025 -->
+
 La date de début prévue d’une tâche est la date à laquelle vous, en tant que personne à l’origine de la tâche, décidez que le travail sur la tâche doit commencer. Les dates des tâches prévues influencent les dates et la chronologie du projet. Pour plus d’informations sur la date de début prévue du projet, consultez la section [« Vue d’ensemble de la date de début prévue du projet »](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
 ## Date de début prévue d’une tâche
 
-Vous pouvez spécifier la date de début prévue d’une tâche ou laisser Adobe Workfront la calculer en fonction de certains critères. 
+Vous pouvez indiquer la Date de début prévue de la tâche ou laisser à Adobe Workfront le soin de la calculer en fonction de certains critères. 
 
 * [Définir manuellement la date de début prévue d’une tâche](#manually-set-the-planned-start-date-of-a-task)
 * [Calcul de la date de début prévue pour une tâche](#how-the-planned-start-date-is-calculated-for-a-task)
 
 ### Définir manuellement la date de début prévue d’une tâche {#manually-set-the-planned-start-date-of-a-task}
 
-La définition de la date de début prévue d’une tâche dépend du type de contrainte de tâche que vous affectez à la tâche. 
+La définition de la date de début prévue d&#39;une tâche dépend du type de contrainte de tâche que vous affectez à la tâche. 
 
-Vous pouvez définir manuellement la date de début prévue lors de la création d’une tâche, comme décrit dans l’article [Créer des tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+Vous pouvez définir manuellement la Date de début prévue lors de la création d’une tâche. Pour plus d’informations, voir [Créer des tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 Vous pouvez spécifier manuellement la date de début prévue lorsque vous sélectionnez l’une des contraintes de tâche suivantes :
 
@@ -66,20 +68,20 @@ Lorsqu’elle est calculée automatiquement par le système, les éléments suiv
 
 * Contrainte de tâche
 
-  Pour plus d’informations sur les contraintes de tâches, consultez l’article [Vue d’ensemble des contraintes de tâches.](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
+  Pour plus d&#39;informations sur les contraintes de tâche, voir [présentation des contraintes de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Relation des tâches antérieures
 
-  Pour plus d’informations sur les tâches antérieures, consultez l’article [Vue d’ensemble des tâches antérieures](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Pour plus d’informations sur les tâches antérieures, voir [Vue d’ensemble des tâches antérieures](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 * Date de début du projet, lorsque le projet est prévu à partir de la date de début.
-* Les congés planifiés de la personne cessionnaire principale de la tâche.
+* Planning des congés du cessionnaire de Principal de la tâche.
 
-  Lorsque la personne cessionnaire principale prend des congés pendant la durée de la tâche, les dates prévues de la tâche sont ajustées en conséquence lorsque le paramètre **Prendre en compte les congés de l’utilisateur ou de l’utilisatrice dans la durée des tâches** est sélectionné pour le champ **Congés de l’utilisateur ou de l’utilisatrice**. Les nouveaux projets héritent de ce paramètre depuis la zone Préférences du projet, mais vous pouvez modifier ce paramètre au niveau du projet.
+  Lorsque la personne désignée par Principal dispose de congés planifiés pendant la durée de la tâche, les dates planifiées de la tâche s’ajustent en conséquence lorsque le paramètre Prendre en compte les congés de l’utilisateur dans les durées de la tâche est sélectionné pour le champ Congés de l’utilisateur . Les nouveaux projets héritent de ce paramètre depuis la zone Préférences du projet, mais vous pouvez modifier ce paramètre au niveau du projet.
 
-  Par exemple, si une tâche avec une contrainte « Aussi Tôt Que Possible » est programmée pour commencer le 1er juin et se terminer le 3 juin, et que la personne cessionnaire principale a marqué le 1er juin comme date de congé, la date de début prévue de la tâche devient le 2 juin.
+  Par exemple, si une tâche assortie d&#39;une contrainte Dès Que Possible est planifiée pour commencer le 1er juin et se terminer le 3 juin et que le cessionnaire du Principal a marqué le 1er juin comme étant pour les congés, la date de début prévue de la tâche devient le 2 juin.
 
-  Pour plus d’informations sur la préférence **Congés des utilisateurs et des utilisatrices**, consultez les articles [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) ou [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Pour plus d’informations sur la préférence de Congés de l’utilisateur, voir [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) ou [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 Lorsqu’elle est définie automatiquement, la date de début prévue est déterminée selon le calcul suivant :
 
@@ -91,5 +93,5 @@ Par exemple, si votre tâche a une date d’achèvement fixée au 16 septembre 
 
 >[!NOTE]
 >
->Le type de mise à jour du projet doit également être défini sur « Automatique et En cas de modification » ou « Automatiquement » pour que le nombre d’heures prévues et la durée soient automatiquement ajustés.\
->Pour plus d’informations sur le type de mise à jour, consultez l’article [Sélectionner le type de mise à jour du projet.](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+> Le type de mise à jour du projet doit également être défini sur Automatique et En cas de modification ou Automatiquement pour que les heures et la durée prévues soient automatiquement ajustées.\
+>Pour plus d’informations sur le type de mise à jour, voir [Sélectionner le type de mise à jour du projet](../../../manage-work/projects/manage-projects/select-project-update-type.md).

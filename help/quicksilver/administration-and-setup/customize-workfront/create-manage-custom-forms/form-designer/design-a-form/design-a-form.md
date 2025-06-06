@@ -8,15 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '6555'
-ht-degree: 76%
+source-wordcount: '6494'
+ht-degree: 54%
 
 ---
 
 # Créer un formulaire personnalisé
 
+<!-- Audited: 6/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -60,35 +61,35 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Formulaires personnalisés** dans le panneau de gauche.
+1. Dans le volet de gauche, cliquez sur **Forms personnalisé**, puis sélectionnez **Forms**.
 
 1. Cliquez sur **Nouveau formulaire personnalisé**.
 1. Sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 
    ![Choisir le type d’objet](assets/choose-object-type.jpg)
 
-1. Dans la zone **Titre obligatoire**, saisissez le titre du formulaire personnalisé.
-1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin qu’il puisse être joint à d’autres objets, cliquez sur l’icône **Ajouter** ![icône Ajouter des objets](assets/add-objects-icon.png) après **Types d’objets**, puis sélectionnez le type de votre choix dans le menu qui s’affiche. Vous pouvez répéter cette opération pour ajouter autant de types d’objet que vous le souhaitez.
+1. Dans la zone **Ajouter un nom de formulaire**, saisissez le titre du formulaire personnalisé.
+1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin qu’il puisse être joint à d’autres objets, cliquez sur l’icône **Ajouter** ![icône Ajouter des objets](assets/add-objects-icon.png) en regard de **Types d’objets**, puis sélectionnez le type de votre choix dans le menu qui s’affiche. Vous pouvez répéter cette opération pour ajouter autant de types d’objet que vous le souhaitez.
 
-   Vous pouvez également cliquer sur le X d’un type d’objet pour le supprimer du formulaire.
+   Une fois que plusieurs objets ont été ajoutés au formulaire, vous pouvez cliquer sur le X d’un type d’objet pour le supprimer du formulaire.
 
    >[!CAUTION]
    >
-   >La suppression d’un formulaire personnalisé supprime également toutes les données personnalisées sur les objets associés au formulaire. Les données supprimées ne peuvent pas être récupérées. Envisagez plutôt de désactiver un formulaire personnalisé : lorsque vous désactivez un formulaire personnalisé que vous n’utilisez plus, vous conservez toutes les données historiques associées.
+   >La suppression d’un formulaire personnalisé supprime également toutes les données personnalisées sur les objets associés au formulaire. Les données supprimées ne peuvent pas être récupérées. Vous pouvez également désactiver un formulaire personnalisé que vous n’utilisez plus, ce qui conservera toutes les données historiques associées.
    >
    >Pour plus d’informations, voir [Ajouter ou supprimer des types d’objet d’un formulaire personnalisé existant](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) et [Désactiver ou réactiver un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md).
 
 
-1. Ensuite, vous pouvez commencer à ajouter des champs à votre formulaire personnalisé. Voir les sections suivantes :
+1. Ensuite, vous pouvez commencer à ajouter des champs à votre formulaire personnalisé. Pour plus d’informations, consultez les sections suivantes :
    * [Réutiliser un champ ou un widget existant déjà utilisé dans un autre formulaire personnalisé](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [Remarques sur les noms et les libellés des champs](#notes-on-field-names-and-labels)
    * [Ajouter des champs de texte](#add-text-fields)
    * [Ajouter des champs calculés](#add-calculated-fields)
-   * [Ajout de boutons radio, de groupes de cases à cocher et de listes déroulantes](#add-radio-buttons-checkboxes-and-dropdowns)
+   * [Ajout de boutons radio, de groupes de cases à cocher et de listes déroulantes](#add-radio-buttons-checkbox-groups-and-drop-downs)
    * [Ajouter des champs de frappe continue et des champs de date](#add-typeahead-and-date-fields)
    * [Ajouter des champs de recherche externes](#add-external-lookup-fields)
-   * [&#128279;](#add-images-pdfs-and-videos)Ajouter des images, des fichiers PDF et des vidéos
-
+   * [Ajouter des images, des fichiers PDF et des vidéos
+](#add-images-pdfs-and-videos)
    * [Ajouter des champs natifs Workfront](#add-workfront-native-fields)
    * [Ajouter des fichiers Adobe XD](#add-adobe-xd-files)
    * [Ajouter des champs de connexion Planning](#add-planning-connection-fields)
@@ -101,10 +102,9 @@ Les formulaires personnalisés sont limités à 500 champs. Un compteur en bas �
 
 ### Réutiliser un champ ou un widget existant déjà utilisé dans un autre formulaire personnalisé
 
-1. En haut à gauche de l’écran, cliquez sur **Bibliothèque de champs**.
+1. Dans le coin supérieur gauche de l’écran, cliquez sur **Bibliothèque de champs**.
 
-1. Faites glisser le champ ou le widget où vous le souhaitez dans le formulaire personnalisé.
-1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs ou widgets.
+1. Faites glisser et déposez le champ ou le widget de votre choix sur la zone de travail. Répétez cette étape pour ajouter d’autres champs ou widgets.
 
    >[!NOTE]
    >
@@ -115,30 +115,30 @@ Les formulaires personnalisés sont limités à 500 champs. Un compteur en bas �
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
-   ou
+   Ou
 
    Cliquez sur **Enregistrer et fermer**.
 
 ### Remarques sur les noms et les libellés des champs {#notes-on-field-names-and-labels}
 
-Le **libellé** est disponible pour la plupart des champs. Il s’agit d’un libellé descriptif qui s’affiche au-dessus du champ ou du widget sur le formulaire personnalisé. Vous pouvez modifier le libellé à tout moment.
+Le libellé est disponible pour la plupart des champs. Il s’agit d’un libellé descriptif qui s’affiche au-dessus du champ ou du widget sur le formulaire personnalisé. Vous pouvez modifier le libellé à tout moment.
 
 >[!NOTE]
 >
->Évitez d’utiliser des caractères spéciaux dans ce libellé. Ils ne s’affichent pas correctement dans les rapports.
+>Évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports.
 
-Un **nom** est requis pour chaque champ. Ce nom est la manière dont le système identifie le champ personnalisé lorsque vous l’ajoutez à diverses zones de Workfront, telles que les rapports, l’Accueil et les interactions d’API. Lorsque vous configurez le champ ou le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour le faire correspondre. Les champs Libellé et Nom ne sont toutefois pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.
+Un nom est requis pour chaque champ. Ce nom est la manière dont le système identifie le champ personnalisé lorsque vous l’ajoutez à diverses zones de Workfront, telles que les rapports, l’Accueil et les interactions d’API. Lorsque vous configurez le champ ou le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour le faire correspondre. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.
 
 Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Ainsi, vous pouvez réutiliser un nom de champ déjà créé pour un autre formulaire personnalisé.
 
 >[!NOTE]
 >
->Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs ou utilisatrices aurez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé là où il peut être référencé actuellement dans d’autres zones de Workfront.
->Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ensuite son nom, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement, à moins que vous ne le rajoutiez au rapport en utilisant le nouveau nom.
+>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom après que vous ou d’autres utilisateurs avez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé là où il peut être référencé actuellement dans d’autres zones de Workfront.
+>>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ensuite son nom, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement, à moins que vous ne le rajoutiez au rapport en utilisant le nouveau nom.
 >
 >Nous vous recommandons de ne pas saisir un nom déjà utilisé pour les champs Workfront intégrés.
 >
->Nous vous recommandons de ne pas utiliser le caractère point dans le nom du champ personnalisé afin d’éviter toute erreur lors de l’utilisation du champ dans différentes zones de Workfront.
+>Nous vous recommandons de ne pas utiliser le point dans le nom du champ personnalisé afin d’éviter les erreurs lors de l’utilisation du champ dans différentes zones de Workfront.
 
 Les caractères spéciaux suivants ne sont pas pris en charge dans les libellés et noms de champs personnalisés.
 
@@ -158,7 +158,7 @@ Les caractères spéciaux suivants ne sont pas pris en charge dans les libellés
 
 Vous pouvez ajouter plusieurs champs de texte différents à un formulaire personnalisé.
 
-+++ **Développer pour voir les descriptions des champs de texte disponibles**
++++ Développez pour afficher les descriptions des champs de texte disponibles.
 
 * **Champ de texte monoligne** : permet aux utilisateurs de saisir une seule ligne de texte dans le champ.
 * **Champ de paragraphe** : permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ.
@@ -178,7 +178,7 @@ Vous pouvez ajouter plusieurs champs de texte différents à un formulaire perso
 
 Pour ajouter un champ de texte, procédez comme suit :
 
-1. Dans la partie gauche de l’écran, recherchez l’un des champs de texte suivants et faites-le glisser vers une section de la zone de travail :
+1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez l’un des champs de texte suivants et faites-le glisser vers une section de la zone de travail :
 
    * Texte sur une seule ligne
    * Paragraphe
@@ -197,7 +197,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     </tr>
     <tr>
     <td>Taille</td>
-    <td><p>Modifiez la taille des champs de texte du formulaire.<p>
+    <td><p>(Facultatif) Modifiez la taille des champs de texte du formulaire.<p>
    </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
@@ -209,7 +209,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     <tr>
     <td>Étiquette</td>
     <td><p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.<p>
-    <p>IMPORTANT : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p></td>
+    <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p></td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
@@ -218,7 +218,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     </tr>
     <tr>
      <td>Nom</td>
-    <td><p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont toutefois pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p>
+    <td><p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p>
     <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p>
     </td>
     <td><ul>
@@ -230,8 +230,8 @@ Pour ajouter un champ de texte, procédez comme suit :
     </tr>
     <tr>
     <td>Instructions</td>
-    <td>Saisissez toute information supplémentaire concernant le champ. En remplissant le formulaire personnalisé, les utilisateurs et les utilisatrices peuvent pointer sur l’icône du point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.
-<img src="assets/instructions-form-designer.png">
+    <td>Saisissez toute information supplémentaire concernant le champ. Lorsque les utilisateurs remplissent le formulaire personnalisé, ils peuvent placer le pointeur de la souris sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.
+    <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
@@ -241,9 +241,9 @@ Pour ajouter un champ de texte, procédez comme suit :
     </tr>
     <tr>
     <td>Format</td>
-    <td><p>Sélectionnez le type de données qui seront capturées dans le champ personnalisé.</p> <p><b>NOTE</b> :   
+    <td><p>Sélectionnez le type de données qui seront capturées dans le champ personnalisé.</p> <p><b>Remarque </b> :   
     <ul> 
-    <li>Ce champ ne peut pas être modifié après l’enregistrement du formulaire. Pour utiliser votre champ dans des calculs mathématiques, assurez-vous de sélectionner le format « Nombre » ou « Devise ».</li> 
+    <li>Ce champ ne peut pas être modifié une fois le formulaire enregistré. Pour utiliser votre champ dans des calculs mathématiques, assurez-vous de sélectionner le format « Nombre » ou « Devise ».</li> 
     <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li>
     <li>Les champs au format « Nombre » sont limités à 16 caractères. Vous pouvez également utiliser un champ Texte pour saisir des nombres et éviter la limite.</li>
      </ul></p></td> </td>
@@ -268,12 +268,17 @@ Pour ajouter un champ de texte, procédez comme suit :
     <tr> 
       <td role="rowheader">Créer un champ obligatoire</td>
       <td><p>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur ou l’utilisatrice puisse remplir le formulaire personnalisé.</p></td>
+    <td><ul>
+    <li>Texte sur une seule ligne</li>
+    <li>Paragraphe</li>
+    <li>Texte avec formatage</li>
+    </ul></td> 
     </tr> 
    </table>
 
 1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs ou widgets.
 
-   ou
+   Ou
 
    Pour copier un champ, pointez dessus et cliquez sur l’icône de copie.
 
@@ -281,7 +286,7 @@ Pour ajouter un champ de texte, procédez comme suit :
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
-   ou
+   Ou
 
    Cliquez sur **Enregistrer et fermer**.
 
@@ -295,22 +300,22 @@ Pour ajouter un champ calculé, consultez la section [Ajouter des champs calcul�
 
 Vous pouvez ajouter des boutons radio, des groupes de cases à cocher, des listes déroulantes et des listes déroulantes à sélection multiple à un formulaire personnalisé.
 
-+++ **Développer pour voir les descriptions des champs disponibles**
++++ Développez pour afficher les descriptions des champs disponibles.
 
 * **Cases d’option** : demande aux utilisateurs et aux utilisatrices de ne sélectionner qu’un seul choix.
 * **Groupe de cases à cocher** : permet aux utilisateurs de sélectionner plusieurs choix.
-* **Liste déroulante à sélection unique** : fournit une liste de choix de liste déroulante.
+* **Liste déroulante à sélection unique** : fournit une liste de choix déroulants.
 * **Liste déroulante à sélection multiple** : permet aux utilisateurs et aux utilisatrices de sélectionner plusieurs choix dans une liste déroulante.
 
 +++
 
 >[!NOTE]
 >
->Les champs qui autorisent plusieurs sélections, tels que Groupe Case à cocher et Menu déroulant multi-sélection, sont difficiles à représenter sous forme de graphiques et à regrouper dans les rapports. Pour simplifier la création de graphiques et de regroupements dans les rapports, vous pouvez créer des champs distincts pour chaque choix (par exemple, un champ de texte d’une seule ligne).
+>Les champs qui autorisent plusieurs sélections, tels que Groupe Case à cocher et Menu déroulant multi-sélection, sont difficiles à représenter sous forme de graphiques et à regrouper dans les rapports. Pour faciliter la création de graphiques et le regroupement dans les rapports, vous pouvez créer des champs distincts pour chaque choix (par exemple un champ de texte d’une seule ligne).
 
 Pour ajouter des boutons radio, des groupes de cases à cocher et des listes déroulantes :
 
-1. Dans la partie gauche de l’écran, recherchez l’un des champs suivants et faites-le glisser vers une section de la zone de travail.
+1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez l’un des champs suivants et faites-le glisser vers une section de la zone de travail :
 
    * Cases d’option
    * Groupe Case à cocher
@@ -330,7 +335,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </tr>
     <tr> 
      <td role="rowheader">Étiquette</td> 
-     <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : </p> <p>Évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
+     <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
      <td><ul>
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
@@ -340,7 +345,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
      </tr> 
      <tr> 
     <td role="rowheader">Nom</td> 
-     <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont toutefois pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> 
+     <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p> 
     <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td>
      <td><ul>
     <li>Cases d’option</li>
@@ -351,7 +356,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </tr> 
     <tr> 
     <td role="rowheader">Instructions</td> 
-    <td> <p>Saisissez des informations supplémentaires sur le champ personnalisé. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations saisies ici.</p> 
+    <td> <p>Saisissez des informations supplémentaires sur le champ personnalisé. Lorsque les utilisateurs remplissent le formulaire personnalisé, ils peuvent placer le pointeur de la souris sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.</p> 
     <p>  <img src="assets/instructions-form-designer.png"> </p>
     </td> 
     <td><ul>
@@ -363,9 +368,9 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </tr> 
     <tr> 
     <td role="rowheader">Format</td> 
-    <td> <p>Sélectionnez le type de données qui seront capturées dans le champ personnalisé.</p> <p><b>NOTE</b> :   
+    <td> <p>Sélectionnez le type de données qui seront capturées dans le champ personnalisé.</p> <p><b>Remarque </b> :   
      <ul> 
-    <li>Ce champ ne peut pas être modifié après l’enregistrement du formulaire. Pour utiliser votre champ dans des calculs mathématiques, assurez-vous de sélectionner le format « Nombre » ou « Devise ».<br></li> 
+    <li>Ce champ ne peut pas être modifié une fois le formulaire enregistré. Pour utiliser votre champ dans des calculs mathématiques, assurez-vous de sélectionner le format « Nombre » ou « Devise ».<br></li> 
     <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li>
     <li>Les champs au format « Nombre » sont limités à 16 caractères. Vous pouvez également utiliser un champ Texte pour saisir des nombres et éviter la limite.</li>
      </ul></p></td> 
@@ -386,7 +391,30 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     <li>Menu déroulant multi-sélection</li>
     </ul></td>
     </tr> 
-     <tr> 
+    <td role="rowheader">Choix </td> 
+    <td> 
+    <p>Sélectionnez l’une des options suivantes :</p> 
+    <ul> 
+    <li><strong>Afficher les valeurs</strong> : affiche les valeurs de chaque choix dans le champ. Le libellé de chaque choix s’affiche par défaut.</li>
+   <li><strong>Trier les choix dans l’ordre alphabétique</strong> : trie par ordre alphabétique les choix que vous ajoutez dans le champ.</li>
+    </ul>
+     <p>Pour chaque choix que vous ajoutez à l’utilisateur ou à l’utilisatrice, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-settings.png">, puis sélectionnez l’une des options suivantes :</p> 
+    <ul> 
+    <li><strong>Sélectioner par défaut</strong> : sélectionnez le choix par défaut dans le champ.</li> 
+    <li> <p><strong>Masquer le choix</strong> : masquez le choix dans le champ. Les choix masqués restent accessibles dans les rapports.</p> </li> 
+    <li> <p><strong>Supprimer le choix</strong> : supprimez le choix du champ.</p> <p><b>Avertissement </b> : si des objets actifs utilisent ce choix, ne le supprimez pas du champ. Sa suppression entraînera la perte de données historiques. Sélectionnez plutôt l’option pour le masquer, ce qui empêchera les utilisateurs et utilisatrices de le sélectionner à l’avenir.</p> </li> 
+    </ul>   
+    <p><b>Remarque :</b> il n’existe aucune limite au nombre de choix que vous pouvez sélectionner. </p>    
+    </td> 
+    <td><ul>
+    <li>Cases d’option</li>
+    <li>Groupe Case à cocher</li>
+    <li>Liste déroulante à sélection unique</li>
+    <li>Menu déroulant multi-sélection</li>
+    </ul>
+    </td>
+     </tr> 
+          <tr> 
     <td role="rowheader">Créer un champ obligatoire</td> 
     <td>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur ou l’utilisatrice puisse remplir le formulaire personnalisé. </td> 
     <td><ul>
@@ -397,49 +425,20 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </ul></td>
      </tr> 
     <tr> 
-    <td role="rowheader">Choix </td> 
-    <td> 
-    <ol> 
-    <li> <p>Cliquez sur <b>Options</b>, puis activez l’une des options suivantes :</p> 
-    <ul> 
-    <li><strong>Afficher les valeurs</strong> : affiche les valeurs de chaque choix dans le champ. Le libellé de chaque choix s’affiche par défaut.</li> 
-     <li><strong>Trier les choix dans l’ordre alphabétique</strong> : trie par ordre alphabétique les choix que vous ajoutez dans le champ.</li> 
-    </ul> 
-    </li> 
-    <li> <p>Pour chaque choix que vous ajoutez à l’utilisateur ou à l’utilisatrice, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-settings.png">, puis sélectionnez l’une des options suivantes :</p> 
-    <ul> 
-    <li><strong>Sélectioner par défaut</strong> : sélectionnez le choix par défaut dans le champ.</li> 
-    <li> <p><strong>Masquer le choix</strong> : masquez le choix dans le champ. Les choix masqués restent accessibles dans les rapports.</p> </li> 
-    <li> <p><strong>Supprimer le choix</strong> : supprimez le choix du champ.</p> <p><b>AVERTISSEMENT</b> : si ce choix est utilisé pour les objets actuels, ne le supprimez pas du champ. Sa suppression entraînera la perte de données historiques. Sélectionnez plutôt l’option pour le masquer, ce qui empêchera les utilisateurs et utilisatrices de le sélectionner à l’avenir.</p> </li> 
-    </ul> 
-     </li> 
-    </ol>
-
-   <p><b>NOTE :</b></p>
-    <p>Il n’existe aucune limite au nombre de choix que vous pouvez sélectionner. </p>    
-    </td> 
-    <td><ul>
-    <li>Cases d’option</li>
-    <li>Groupe Case à cocher</li>
-    <li>Liste déroulante à sélection unique</li>
-    <li>Menu déroulant multi-sélection</li>
-    </ul>
-    </td>
-     </tr> 
     </tbody> 
     </table>
 
 1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs ou widgets.
 
-   ou
+   Ou
 
    Pour copier un champ, pointez dessus et cliquez sur l’icône de copie.
 
-   ![icône de copie](assets/copy-field.png)
+   ![ Icône Copier ](assets/copy-field.png)
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
-   ou
+   Ou
 
    Cliquez sur **Enregistrer et fermer**.
 
@@ -447,7 +446,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
 
 Vous pouvez ajouter des champs de saisie semi-automatique et de date à un formulaire personnalisé.
 
-+++ **Développer pour afficher les descriptions des champs disponibles**
++++ Développez pour afficher les descriptions des champs disponibles.
 
 * **Saisie semi-automatique** : permet aux utilisateurs et utilisatrices de saisir le nom d’un objet qui existe dans Workfront. Une liste de suggestions s’affiche lorsque l’utilisateur ou l’utilisatrice commence à saisir du texte. Ce type de champ prend en charge les objets suivants :
    * l’utilisateur ou de l’utilisatrice
@@ -465,7 +464,7 @@ Vous pouvez ajouter des champs de saisie semi-automatique et de date à un formu
 
 Pour ajouter des champs de saisie semi-automatique et de date :
 
-1. Dans la partie gauche de l’écran, recherchez l’un des champs suivants et faites-le glisser vers une section de la zone de travail.
+1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez l’un des champs suivants et faites-le glisser vers une section de la zone de travail.
 
    * Frappe continue
    * Date
@@ -483,7 +482,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
     </tr>
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
        <td><ul>
     <li>Frappe continue</li>
     <li>Date</li>
@@ -491,7 +490,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont toutefois pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> 
+      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p> 
       <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td>
     <td><ul>
     <li>Frappe continue</li>
@@ -500,7 +499,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Saisissez des informations supplémentaires sur le champ personnalisé. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations saisies ici.</p> 
+      <td> <p>Saisissez des informations supplémentaires sur le champ personnalisé. Lorsque les utilisateurs remplissent le formulaire personnalisé, ils peuvent placer le pointeur de la souris sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.</p> 
       <p> <img src="assets/instructions-form-designer.png"> </p>
       </td> 
          <td><ul>
@@ -517,9 +516,9 @@ Pour ajouter des champs de saisie semi-automatique et de date :
      </tr> 
      <tr> 
       <td role="rowheader">Type d'objet référencé</td> 
-      <td> <p>Sélectionnez le type d’objet à associer au champ.</p> <p>Une fois que vous avez cliqué sur « Appliquer » ou sur « Enregistrer + Fermer », vous ne pouvez pas modifier le type d’objet du champ.</p> <p><b>NOTE</b> :   
+      <td> <p>Sélectionnez le type d’objet à associer au champ.</p> <p>Une fois que vous avez cliqué sur <b>Appliquer</b> ou <b>Enregistrer et fermer</b>, vous ne pouvez plus modifier le type d’objet du champ.</p> <p><b>Remarque </b> :   
         <ul> 
-         <li>Si votre administrateur ou administratrice Workfront a personnalisé le nom des Portfolios, Programmes ou Projets dans l’interface utilisateur Workfront, le nom Workfront par défaut de l’objet apparaît dans cette liste déroulante, et non le nom personnalisé. Contactez l’administration Workfront si vous avez besoin d’aide.<br></li> 
+         <li>Si votre administrateur ou administratrice Workfront a personnalisé le nom des portfolios, programmes ou projets dans l’interface d’utilisation de Workfront, le nom par défaut de l’objet s’affiche dans cette liste déroulante et non dans le nom personnalisé. Contactez l’administration Workfront si vous avez besoin d’aide.<br></li> 
          <li>Les types d’objets suivants sont pris en charge dans les applications mobiles iOS et Android Workfront : « Utilisateur ou utilisatrice », « Société », « Groupe », « Fonction », « Portfolio », « Programme », « Projet » et « Modèle ».</li> 
         </ul> </p> </td> 
          <td><ul>
@@ -528,13 +527,13 @@ Pour ajouter des champs de saisie semi-automatique et de date :
      </tr>
      <tr>
       <td role="rowheader">Ajouter filtre</td>
-      <td><p>Ajoutez un filtre pour un type d’objet afin de limiter les objets que les personnes peuvent sélectionner lorsqu’elles utilisent le champ. </p> <p>Par exemple, vous pouvez limiter un champ afin que les noms d’utilisateur et d’utilisatrice ne puissent être sélectionnés que s’ils répondent aux critères suivants :</p> 
+      <td><p>Ajoutez un filtre pour un type d’objet afin de limiter les objets que les personnes peuvent sélectionner lorsqu’elles utilisent le champ. </p> <p>Par exemple, vous pouvez limiter un champ afin que les noms d’utilisateur ne puissent être sélectionnés que s’ils répondent aux critères suivants :</p> 
        <ul> 
-        <li>Ils appartiennent à un ou à des groupes que vous spécifiez.</li> 
-        <li>Ils sont associés à un rôle ou à une fonction que vous spécifiez.</li> 
-        <li>Ils appartiennent au même groupe que la personne qui utilise le champ.</li> 
+        <li>Ils appartiennent à un ou plusieurs groupes que vous spécifiez.</li> 
+        <li>Ils sont associés à un rôle ou un titre de poste que vous spécifiez.</li> 
+        <li>Ils appartiennent au même groupe que la personne qui utilise le champ .</li> 
        </ul> <p>Vous devez définir le filtre correspondant au type d’objet sélectionné à l’aide de la syntaxe mode texte. Pour plus d’informations sur la création d’un filtre à l’aide du mode texte, consultez la section <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modifier un filtre à l’aide du mode texte</a>.</p>
-       <p><b>NOTE</b> :
+       <p><b>Remarque </b> :
        <ul> 
         <li>L’ajout d’un filtre à un champ de saisie automatique lors de la modification d’un formulaire personnalisé ne supprime aucun objet (hors portée du filtre) déjà ajouté par les utilisateurs ou les utilisatrices à l’aide du champ.</li> 
         <li>Ce filtre n’est pas disponible sur les appareils mobiles. Si vous utilisez le filtre pour un champ de frappe continue, il apparaîtra sur les appareils mobiles des personnes qui ne sont pas affectées par le filtre.</li> 
@@ -558,7 +557,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
 
 1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs ou widgets.
 
-   ou
+   Ou
 
    Pour copier un champ, pointez dessus et cliquez sur l’icône de copie.
 
@@ -566,13 +565,13 @@ Pour ajouter des champs de saisie semi-automatique et de date :
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
-   ou
+   Ou
 
    Cliquez sur **Enregistrer et fermer**.
 
 ### Ajouter des champs de recherche externe
 
-Un champ de recherche externe fait appel à une API externe et renvoie des valeurs sous forme d’options dans un champ déroulant. Les personnes qui travaillent avec l’objet auquel le formulaire personnalisé est attaché peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante. Le champ de recherche externe est également disponible dans les listes et les rapports.
+Un champ de recherche externe appelle une API externe et renvoie des valeurs sous forme d’options dans un champ déroulant. Les utilisateurs qui travaillent avec l’objet auquel le formulaire personnalisé est joint peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante. Le champ de recherche externe est également disponible dans les listes et les rapports.
 
 Pour obtenir des exemples d’utilisation du champ de recherche externe pour appeler la même instance de Workfront ou une API publique, voir [Exemples du champ de recherche externe dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
@@ -583,7 +582,7 @@ Pour obtenir des exemples d’utilisation du champ de recherche externe pour app
 
 Pour ajouter une recherche externe, procédez comme suit :
 
-1. Dans la partie gauche de l’écran, recherchez le champ **Recherche externe** et faites-le glisser vers une section de la zone de travail.
+1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez **Recherche externe** et faites-la glisser vers une section de la zone de travail.
 1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
 
    <table style="table-layout:auto"> 
@@ -592,20 +591,20 @@ Pour ajouter une recherche externe, procédez comme suit :
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont toutefois pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p>
+      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Toutefois, les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la possibilité de modifier le libellé visible par vos utilisateurs sans avoir à modifier le nom visible par le système.</p>
       <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Saisissez des informations supplémentaires sur le champ personnalisé. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations saisies ici.</p> </td> 
+      <td> <p>Saisissez des informations supplémentaires sur le champ personnalisé. Lorsque les utilisateurs remplissent le formulaire personnalisé, ils peuvent placer le pointeur de la souris sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Format</td>
       <td><p>Sélectionnez le type de données qui seront capturées dans le champ personnalisé.</p>
-      <p><strong>NOTE :</strong></p>
+      <p><strong>Note :</strong></p>
       <ul><li>Il est possible de modifier le type de format une fois le formulaire enregistré, mais toutes les valeurs existantes sur les objets doivent être convertibles au nouveau type de format. (Par exemple, si le type de format est Texte et qu’un objet stocke la valeur « abc », vous ne pouvez pas convertir le champ et une erreur s’affichera, indiquant que le système ne peut pas convertir « abc » en nombre/devise.) Si vous envisagez d’utiliser votre champ dans des calculs mathématiques, veillez à sélectionner un format numérique ou monétaire.</li>
       <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li>
       <li>Les champs au format « Nombre » sont limités à 16 caractères. Vous pouvez également utiliser un champ Texte pour saisir des nombres et éviter la limite.</li>
@@ -613,16 +612,16 @@ Pour ajouter une recherche externe, procédez comme suit :
      </tr> 
      <tr> 
       <td role="rowheader">URL API de base</td> 
-      <td><p>Saisissez ou collez l’URL de l’API.</p><p>L’URL de l’API doit renvoyer un contenu JSON des options que vous souhaitez afficher dans la liste déroulante. Vous pouvez utiliser le champ Chemin JSON pour sélectionner les valeurs spécifiques du JSON renvoyées en tant qu’options dans la liste déroulante.</p><p>Lors de la saisie de l’URL de l’API, vous pouvez éventuellement transmettre les valeurs suivantes dans l’URL :</p>
+      <td><p>Saisissez ou collez l’URL de l’API.</p><p>L’URL de l’API doit renvoyer un contenu JSON des options que vous souhaitez afficher dans la liste déroulante. Vous pouvez utiliser le champ Chemin d’accès JSON pour sélectionner les valeurs spécifiques du fichier JSON renvoyé en tant qu’options de liste déroulante.</p><p>Lors de la saisie de l’URL de l’API, vous pouvez éventuellement transmettre les valeurs suivantes dans l’URL :</p>
       <ul>
-      <li>$$HOST : cette valeur représente l’hôte Workfront actuel et peut être utilisée pour effectuer des appels /search à l’API Workfront. Lorsque ce caractère générique est utilisé, l’authentification est prise en charge et les utilisateurs et les utilisatrices n’ont pas besoin d’envoyer des en-têtes d’authentification. (Par exemple, les utilisateurs et les utilisatrices peuvent rechercher des tâches à l’aide de l’URL de base <code>$$HOST/attask/api/task/search</code>, qui permet de rechercher des tâches et de sélectionner des valeurs dans une liste de tâches renvoyée.)</li>
-      <li><p>$$QUERY : cette valeur représente le texte de recherche que les utilisateurs et utilisatrices finaux saisissent dans le champ et vous permet d’implémenter le filtrage des requêtes pour ces personnes. (L’utilisateur ou l’utilisatrice recherchera la valeur dans la liste déroulante.)</p>
+      <li>$$HOST : il représente l’hôte Workfront actuel et peut être utilisé pour effectuer des appels d’API vers l’API Workfront. Lorsque ce caractère générique est utilisé, l’authentification est prise en charge et les utilisateurs et les utilisatrices n’ont pas besoin d’envoyer des en-têtes d’authentification. (Par exemple, les utilisateurs et les utilisatrices peuvent rechercher des tâches à l’aide de l’URL de base <code>$$HOST/attask/api/task/search</code>, qui permet de rechercher des tâches et de sélectionner des valeurs dans une liste de tâches renvoyée.)</li>
+      <li><p>$$QUERY : cette valeur représente le texte de recherche que les utilisateurs et utilisatrices finaux saisissent dans le champ et vous permet d’implémenter le filtrage des requêtes pour ces personnes. (L’utilisateur recherche la valeur dans la liste déroulante.)</p>
       <p>Si l’API à laquelle vous faites référence le permet, vous pouvez également inclure des modificateurs dans votre requête de recherche afin d’identifier comment la recherche doit s’effectuer. Par exemple, vous pouvez utiliser l’URL d’API de base suivante pour permettre aux gens de rechercher tous les projets Workfront qui contiennent un texte spécifique : <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Pour en savoir plus sur les modificateurs de recherche Workfront, consultez <a href="/help/quicksilver/wf-api/general/api-basics.md">Concepts de base de l’API</a>.</p>
-      <p><strong>NOTE :</strong> Si vous n’utilisez pas $$QUERY et que l’utilisateur ou l’utilisatrice saisit du texte dans le champ de recherche, les choix déjà disponibles seront réduits. Toutefois, si vous utilisez $$QUERY et que l’utilisateur ou l’utilisatrice saisit quelque chose, un nouvel appel réseau à votre API est effectué. Par conséquent, si vous avez plus de 2 000 valeurs dans votre API et que l’API prend en charge l’interrogation, vous pouvez utiliser $$QUERY pour effectuer une recherche non seulement à partir des 2 000 valeurs existantes, mais aussi à partir de l’API d’origine avec les options réduites.</p></li>
+      <p><strong>Remarque :</strong> si vous n’utilisez pas $$QUERY et que l’utilisateur saisit du texte dans la zone de recherche, les choix dont vous disposez déjà seront réduits. Toutefois, si vous utilisez $$QUERY et que l’utilisateur ou l’utilisatrice saisit quelque chose, un nouvel appel réseau à votre API est effectué. Par conséquent, si vous avez plus de 2 000 valeurs dans votre API et que l’API prend en charge l’interrogation, vous pouvez utiliser $$QUERY pour effectuer une recherche non seulement à partir des 2 000 valeurs existantes, mais aussi à partir de l’API d’origine avec les options réduites.</p></li>
       <li><p>{fieldName} - Lorsque fieldName est n’importe quel champ personnalisé ou natif dans Workfront. Vous pouvez ainsi implémenter des filtres d’options de liste déroulante en cascade, lorsque vous transmettez la valeur d’un champ déjà sélectionné au champ Recherche externe pour filtrer les options vers le bas. (Par exemple, le champ Zone géographique existe déjà dans le formulaire et vous réduisez une liste de pays de l’API à ceux qui se trouvent dans une zone géographique spécifique.)</p>
       <p>Pour un champ de recherche externe dépendant d’autres champs (à l’aide de la syntaxe {fieldName}), les options renvoyées par l’API sont limitées à celles qui correspondent aux chaînes ou aux valeurs saisies dans les autres champs. (Cette fonctionnalité n’est pas prise en charge dans les listes et les rapports.)</p></li>
       <li>{referenceObject}.{fieldName} - Lorsque le champ fait partie d’un objet. Cette syntaxe est similaire à celle des expressions personnalisées. (Par exemple, portfolioID={project}.{portfolioID})</li></ul>
-      <p><strong>NOTE :</strong> consultez la documentation de l’API avec laquelle vous travaillez pour connaître les requêtes spécifiques que vous pouvez définir.</p></td>
+      <p><strong>Conseil :</strong> consultez la documentation de l’API que vous utilisez pour les requêtes spécifiques que vous pouvez définir.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Méthode HTTP</td> 
@@ -630,25 +629,25 @@ Pour ajouter une recherche externe, procédez comme suit :
      </tr>
      <tr> 
       <td role="rowheader">Chemin JSON</td>
-      <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs du JSON qui apparaîtront dans les options de la liste déroulante.</p><p>Par exemple, si l’URL de votre API renvoie du JSON dans ce format :</br>
+      <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Cela permet de sélectionner les valeurs à l’intérieur du fichier JSON qui apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si votre URL d’API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner États-Unis et Canada comme options de liste déroulante : </br>
       <pre>
-      &lbrace;
-data: &lbrace;
+      {
+data: {
 { name: "USA"},
 { name: "Canada"}
-&rbrace;
-&rbrace;
+}
+}
       </pre>
       </p>
-      <p>vous pouvez alors utiliser « $.data[*].name » pour sélectionner USA et Canada en tant qu’options de la liste déroulante.</p> <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">En-têtes</td>
-      <td><p>Cliquez sur <strong>Ajouter un en-tête</strong>, et saisissez ou collez la paire clé-valeur requise pour l’authentification avec l’API.</p><p><strong>NOTE :</strong> les champs de l’en-tête ne sont pas un endroit sûr pour stocker des informations d’identification, et vous devez faire attention à ce que vous saisissez et enregistrez.</p></td>
+      <td><p>Cliquez sur <strong>Ajouter un en-tête</strong>, puis saisissez ou collez la paire clé-valeur requise pour l’authentification avec l’API.</p><p><strong>Remarque :</strong> les champs d’en-tête ne sont pas un emplacement sécurisé pour stocker les informations d’identification. Vous devez faire attention à ce que vous saisissez et enregistrez.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Menu déroulant multi-sélection</td>
-      <td><p>Sélectionnez cette option pour permettre à la personne de sélectionner plusieurs valeurs dans la liste déroulante.</p></td>
+      <td><p>Sélectionnez cette option pour permettre à l’utilisateur de sélectionner plusieurs valeurs dans la liste déroulante.</p></td>
      </tr>
      </tr>
      <tr> 
@@ -660,7 +659,7 @@ data: &lbrace;
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
-   ou
+   Ou
 
    Cliquez sur **Enregistrer et fermer**.
 
@@ -679,8 +678,8 @@ data: &lbrace;
 
 Vous pouvez ajouter des images, des PDF et des vidéos à un formulaire personnalisé. Les personnes qui travaillent avec l’objet auquel le formulaire personnalisé est attaché ne peuvent voir l’image, le PDF ou la vidéo que dans les zones suivantes :
 
-* Zone Détails de l’objet (par exemple, pour un projet, la zone Détails du projet)
-* La zone Modifier de l’objet, si l’aspect de l’expérience Adobe Workfront est nouveau (par exemple, les zones Modifier le projet et Modifier la tâche).
+* la zone Détails de l’objet (par exemple, pour un projet, la zone Détails du projet ).
+* La zone d’édition de l’objet, s’il a la nouvelle apparence d’expérience Adobe Workfront (par exemple, les zones Modifier le projet et Modifier la tâche).
 
 <!-- Do we need to tell them where they can't see it if we tell them where they can see it?
 Currently, users cannot see the widget in the following areas:​
@@ -689,7 +688,7 @@ Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
 The Workfront Mobile app -->
 
-+++ **Développer pour voir les descriptions des champs disponibles**
++++ Développez pour afficher les descriptions des champs disponibles.
 
 * **Image** : permet aux utilisateurs et utilisatrices d’ajouter des fichiers image.
 * **PDF** : permet aux utilisateurs et utilisatrices d’ajouter des fichiers PDF.
@@ -699,7 +698,7 @@ The Workfront Mobile app -->
 
 Pour ajouter des images, des PDF ou des vidéos, procédez comme suit :
 
-1. Dans la partie gauche de l’écran, recherchez l’un des champs suivants et faites-le glisser vers une section de la zone de travail.
+1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez l’un des champs suivants et faites-le glisser vers une section de la zone de travail.
 
    * Image
    * PDF
@@ -713,13 +712,17 @@ Pour ajouter des images, des PDF ou des vidéos, procédez comme suit :
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">Taille</td> 
+      <td>(Facultatif) Modifiez la taille d’affichage du widget selon vos besoins.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont toutefois pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
+      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p> <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -735,18 +738,14 @@ Pour ajouter des images, des PDF ou des vidéos, procédez comme suit :
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Saisissez des informations supplémentaires sur le widget. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations saisies ici.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Taille</td> 
-      <td>Modifiez la taille d’affichage du widget selon vos besoins.</td> 
+      <td> <p>Saisissez des informations supplémentaires sur le widget. Lorsque les utilisateurs remplissent le formulaire personnalisé, ils peuvent placer le pointeur de la souris sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs ou widgets.
 
-   ou
+   Ou
 
    Pour copier un champ, pointez dessus et cliquez sur l’icône de copie.
 
@@ -754,7 +753,7 @@ Pour ajouter des images, des PDF ou des vidéos, procédez comme suit :
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
-   ou
+   Ou
 
    Cliquez sur **Enregistrer et fermer**.
 
@@ -770,7 +769,7 @@ Pour ajouter des images, des PDF ou des vidéos, procédez comme suit :
 1. Dans le formulaire personnalisé où vous ajoutez le widget vidéo, collez l’adresse copiée dans la zone **URL**.
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
-   ou
+   Ou
 
    Cliquez sur **Enregistrer et fermer**.
 
@@ -778,7 +777,7 @@ Pour ajouter des images, des PDF ou des vidéos, procédez comme suit :
 
 Vous pouvez ajouter des champs natifs Workfront à vos formulaires personnalisés. Lorsque le formulaire personnalisé est joint à un objet, le champ est renseigné à partir des données de l’objet. Par exemple, le champ Description d’un formulaire personnalisé joint à un projet extrait la description du projet. (Le champ peut afficher « S.O. » si aucune donnée n’est disponible.)
 
-+++ **Développez pour afficher la liste des champs natifs pris en charge.**
++++ Développez pour afficher la liste des champs natifs pris en charge.
 
 Ce tableau répertorie les champs natifs disponibles pour des objets Workfront spécifiques dans un formulaire personnalisé.
 
@@ -825,25 +824,29 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
 
 +++
 
-1. Sur le côté gauche de l’écran, recherchez **Référence de champ native** et faites-la glisser vers une section de la zone de travail.
+1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez **Référence de champ native** et faites-la glisser vers une section de la zone de travail.
 1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">Taille</td> 
+      <td>(Facultatif) Modifiez la taille d’affichage du champ selon vos besoins.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td>
-      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p>
+      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p>
       <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Saisissez toute information supplémentaire concernant le champ. Lorsque les personnes remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône en forme de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.</td> 
+      <td> <p>Saisissez toute information supplémentaire concernant le champ. Lorsque les utilisateurs remplissent le formulaire personnalisé, ils peuvent placer le pointeur de la souris sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Champ de référence</td> 
@@ -851,14 +854,14 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
      </tr>
      <tr>
       <td role="rowheader">Ajouter filtre</td>
-      <td><p>Ajoutez un filtre pour le champ de référence afin de limiter la liste d’éléments que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ. </p> <p>Par exemple, vous pouvez limiter un champ afin que les noms d’utilisateurs ou d’utilisatrices ne puissent être sélectionnés que s’ils répondent aux critères suivants :</p> 
+      <td><p>Ajoutez un filtre pour le champ de référence afin de limiter la liste d’éléments que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ. </p> <p>Par exemple, vous pouvez limiter un champ afin que les noms d’utilisateur ne puissent être sélectionnés que s’ils répondent aux critères suivants :</p> 
        <ul>
-        <li>Ils appartiennent à un ou à des groupes que vous spécifiez.</li> 
-        <li>Ils sont associés à un rôle ou à une fonction que vous spécifiez.</li> 
-        <li>Ils appartiennent au même groupe que la personne qui utilise le champ.</li> 
+        <li>Ils appartiennent à un ou plusieurs groupes que vous spécifiez.</li> 
+        <li>Ils sont associés à un rôle ou un titre de poste que vous spécifiez.</li> 
+        <li>Ils appartiennent au même groupe que la personne qui utilise le champ .</li> 
        </ul>
-       <p>Vous devez définir le filtre pour le champ de référence que vous avez sélectionné en utilisant la syntaxe du mode texte. Pour plus d’informations sur la création d’un filtre à l’aide du mode texte, consultez la section <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modifier un filtre à l’aide du mode texte</a>.</p>
-       <p><b>NOTE</b> :
+       <p>Vous devez définir le filtre pour le champ de référence que vous avez sélectionné en utilisant la syntaxe du mode texte. Pour plus d’informations, voir <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modification d’un filtre en mode texte</a>.</p>
+       <p><b>Remarque </b> :
        <ul> 
         <li>L’option de filtre n’est disponible que lorsque vous référencez un champ de saisie semi-automatique natif, tel que Portfolio, Société ou Propriétaire.</li>
         <li>Si vous modifiez un formulaire personnalisé existant, l’ajout d’un filtre à un champ natif ne supprime aucun objet (hors de portée du filtre) que les utilisateurs ont déjà ajouté à l’aide du champ.</li> 
@@ -870,16 +873,12 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
       <td role="rowheader">Créer un champ obligatoire</td>
       <td><p>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur ou l’utilisatrice puisse remplir le formulaire personnalisé.</p></td>
      </tr> 
-     <tr> 
-      <td role="rowheader">Taille</td> 
-      <td>(Facultatif) Modifiez la taille d’affichage du champ selon vos besoins.</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire
+1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
-   ou
+   Ou
 
    Cliquez sur **Enregistrer et fermer**.
 
@@ -892,43 +891,43 @@ Vous pouvez ajouter un prototype Adobe XD directement à un formulaire personnal
 
 Pour ajouter un fichier Adobe XD :
 
-1. Sur le côté gauche de l’écran, recherchez **Adobe XD** et faites-le glisser vers une section de la zone de travail.
+1. Dans l’onglet **Nouveau champ** sur la gauche de l’écran, recherchez **Adobe XD** et faites-le glisser vers une section de la zone de travail.
 1. Saisissez ou modifiez l’une des propriétés suivantes du widget :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">Taille</td> 
+      <td>(Facultatif) Modifiez la taille d’affichage du widget selon vos besoins.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont toutefois pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p>
+      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p>
     <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et étiquettes des champs</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatoire) Saisissez ou collez un lien de prototype XD valide.</p> 
-      <p>Remarque : le paramètre Accès au lien de l’onglet Partager d’Adobe XD doit être défini sur Toute personne disposant du lien. Sinon, les utilisateurs et utilisatrices ne pourront pas afficher le prototype. 
+      <p><b>Remarque </b> : le paramètre Accès aux liens de l’onglet Partager dans Adobe XD doit être défini sur Toute personne disposant du lien. Sinon, les utilisateurs et utilisatrices ne pourront pas afficher le prototype. 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Saisissez des informations supplémentaires sur le widget. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations saisies ici.
+      <td> <p>Saisissez des informations supplémentaires sur le widget. Lorsque les utilisateurs remplissent le formulaire personnalisé, ils peuvent placer le pointeur de la souris sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.
     <img src="assets/instructions-form-designer.png"></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Taille</td> 
-      <td>(Facultatif) Modifiez la taille d’affichage du widget selon vos besoins.</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs ou widgets.
 
-   ou
+   Ou
 
    Pour copier un champ, pointez dessus et cliquez sur l’icône de copie.
 
@@ -936,7 +935,7 @@ Pour ajouter un fichier Adobe XD :
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
-   ou
+   Ou
 
    Cliquez sur **Enregistrer et fermer**.
 
@@ -966,26 +965,30 @@ Vous pouvez ajouter le champ de connexion Planning aux formulaires personnalisé
 
 Pour ajouter un champ de connexion Planning :
 
-1. Sur le côté gauche de l’écran, recherchez **Connexion Planning** et faites-la glisser vers une section de la zone de travail.
+1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez **Connexion Planning** et faites-la glisser vers une section de la zone de travail.
 1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+    <tr> 
+      <td role="rowheader">Taille</td> 
+      <td>(Facultatif) Modifiez la taille d’affichage du widget selon vos besoins.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> :</p> <p>Évitez d’utiliser des caractères spéciaux dans ce libellé.</p> 
-      <p>Nous vous recommandons de choisir un libellé qui vous permet d'identifier facilement la provenance de l'enregistrement Planning. Ajoutez des informations telles que le nom de l’espace de travail ou le nom du type d’enregistrement. </p>   </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé.</p> 
+      <p>Nous vous recommandons de choisir un libellé qui vous aide à identifier facilement la provenance de l'enregistrement Planning. Ajoutez des informations telles que le nom de l’espace de travail ou le nom du type d’enregistrement. </p>   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td>
-      <td> <p>(Obligatoire) Le nom correspond à la manière dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p></td> 
+      <td> <p>(Obligatoire) Le nom correspond à la manière dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>(Recommandé) Saisissez des informations supplémentaires sur le champ. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations saisies ici.</p>
-      <p>Ici, vous pouvez ajouter des informations explicites sur l’enregistrement et les objets que vous connectez. </p>
+      <td> <p>(Recommandé) Saisissez des informations supplémentaires sur le champ. Lorsque les utilisateurs remplissent le formulaire personnalisé, ils peuvent placer le pointeur de la souris sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.</p>
+      <p>Ici, vous pouvez ajouter des informations détaillées sur l’enregistrement et les objets que vous connectez. </p>
       </td> 
      </tr> 
      <tr> 
@@ -994,7 +997,7 @@ Pour ajouter un champ de connexion Planning :
       Vous pouvez effectuer une sélection parmi les types d’objets suivants :
       <ul><li> Projet</li>
       <li> Portfolio</li><li> Programme</li><li> Entreprise</li><li> Groupe</li></ul>
-       <p>Seuls les types d’objet Workfront pour les types d’objet de formulaire sont disponibles.</p> <p> Par exemple, si la liste Types d’objet en haut du concepteur de formulaire affiche Projet, vous ne pouvez sélectionner Projet que dans ce champ et vous ne pouvez pas sélectionner Portfolios, bien que les portfolios puissent également être connectés à des types d’enregistrement.</p>
+       <p>Seuls les types d’objet Workfront pour les types d’objet de formulaire sont disponibles.</p> <p> Par exemple, si la liste Types d’objet en haut du concepteur de formulaire affiche Projet, vous pouvez uniquement sélectionner Projet dans ce champ et non Portfolios, bien que les portfolios puissent également être connectés à des types d’enregistrement.</p>
       </td>
      </tr>
      <tr> 
@@ -1002,12 +1005,12 @@ Pour ajouter un champ de connexion Planning :
       <td> <p>(Obligatoire) Sélectionnez l’espace de travail Planning d’où proviennent les enregistrements à afficher dans Workfront.</p> <p> Seuls les espaces de travail connectés aux types d'objet que vous avez sélectionnés dans le champ Type d'objet s'affichent. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Type d’enregistrement</td> 
+      <td role="rowheader">Type d'enregistrement</td> 
       <td><p>(Obligatoire) Sélectionnez le type d’enregistrement Workfront Planning ayant une connexion avec le type d’objet Workfront.</p><p>Seuls les types d’enregistrement ayant des connexions avec le type d’objet que vous avez sélectionné dans le champ Type d’objet s’affichent. </p></td> 
      </tr>
      <tr> 
       <td role="rowheader">Champ de connexion</td> 
-      <td><p>(Obligatoire) Sélectionnez le champ de connexion entre le type d'enregistrement Planning sélectionné que vous souhaitez afficher dans les objets Workfront et le type d'objet Workfront. </p> <p> <b>NOTE</b></p><p>Vous pouvez avoir plusieurs champs de connexion entre le même objet et les mêmes types d’enregistrement, mais vous ne pouvez sélectionner qu’un seul champ.</p>  </td> 
+      <td><p>(Obligatoire) Sélectionnez le champ de connexion entre le type d'enregistrement Planning sélectionné que vous souhaitez afficher dans les objets Workfront et le type d'objet Workfront. </p> <p> <b>Remarque </b> : vous pouvez avoir plusieurs champs de connexion entre le même objet et les mêmes types d’enregistrement, mais vous ne pouvez sélectionner qu’un seul champ.</p>  </td> 
      </tr>
 
 <tr> 
@@ -1020,7 +1023,7 @@ Pour ajouter un champ de connexion Planning :
 
 1. (Facultatif) Répétez les étapes précédentes pour ajouter d’autres champs.
 
-   ou
+   Ou
 
    Pour copier un champ, pointez dessus et cliquez sur l’icône de copie.
 
@@ -1028,7 +1031,7 @@ Pour ajouter un champ de connexion Planning :
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
-   ou
+   Ou
 
    Cliquez sur **Enregistrer et fermer**.
 

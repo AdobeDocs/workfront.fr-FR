@@ -2,39 +2,43 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Modifier les tâches dans une liste
-description: Vous pouvez modifier les informations des tâches dans une liste de tâches en modifiant les champs affichés dans la liste. Pour obtenir des informations sur d’autres façons de modifier des tâches, voir la section Modifier les tâches.
+description: Vous pouvez modifier les informations d’une tâche dans une liste de tâches en modifiant les champs affichés dans la liste.
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
 workflow-type: tm+mt
-source-wordcount: '2848'
-ht-degree: 100%
+source-wordcount: '2756'
+ht-degree: 75%
 
 ---
 
 # Modifier les tâches dans une liste {#edit-tasks-in-a-list}
 
+<!-- Audited: 5/2025 -->
+
 Vous pouvez modifier les informations des tâches dans une liste de tâches en modifiant les champs affichés dans la liste. Pour obtenir des informations sur d’autres façons de modifier des tâches, voir la section [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Travail ou supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouveau : Standard<p>
+   <p>Actuellement : Travail ou licence supérieure</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux tâches et aux projets</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -44,11 +48,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Remarques concernant la modification des tâches dans une liste {#considerations-about-editing-tasks-in-a-list}
 
-La modification de tâches dans une liste permet d’apporter rapidement des modifications à plusieurs tâches simultanément, avec une vue claire de la manière dont vos modifications peuvent affecter la chronologie du projet.
+La modification de tâches dans une liste est un moyen rapide d’apporter des modifications à plusieurs tâches simultanément, avec une vue claire de la manière dont vos modifications peuvent affecter la chronologie du projet.
 
 Tenez compte des points suivants lorsque vous modifiez des tâches dans une liste :
 
@@ -86,11 +92,11 @@ Tenez compte des points suivants lorsque vous modifiez des tâches dans une list
 
 ## Sélectionner une option d’enregistrement lors de la modification de tâches dans une liste {#select-a-save-option-when-editing-tasks-in-a-list}
 
-Vous pouvez décider si les modifications que vous apportez aux tâches d’une liste sont enregistrées automatiquement, au fur et à mesure, ou si vous souhaitez enregistrer manuellement chaque modification.
+Vous pouvez décider si les modifications apportées aux tâches d&#39;une liste sont enregistrées automatiquement au fur et à mesure ou si vous souhaitez enregistrer manuellement chaque modification.
 
 >[!IMPORTANT]
 >
->Selon que vous enregistrez les tâches automatiquement ou manuellement, sachez que vous risquez de remplacer les informations d’une autre personne lorsque vous modifiez des tâches dans une liste. Pour plus d’informations sur la façon dont Workfront enregistre les modifications apportées aux tâches que vous effectuez en même temps que d’autres personnes, voir la section [Vue d’ensemble de l’enregistrement de modifications simultanées dans une liste de tâches](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md).
+>Selon que vous enregistrez les tâches automatiquement ou manuellement, sachez que vous risquez de remplacer les informations d’une autre personne lorsque vous modifiez des tâches dans une liste. Pour plus d’informations, voir [Présentation de l’enregistrement des modifications simultanées dans une liste de tâches](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md).
 
 Lorsque vous enregistrez vos modifications dans une liste pour un projet pour lequel les options Automatique ou Automatique et En cas de modification sont sélectionnées comme Type de mise à jour, Workfront met à jour la chronologie du projet, ainsi que toutes les dépendances internes au projet et interprojets. Les calculs de chronologie peuvent prendre beaucoup de temps si le projet est volumineux ou s’il existe de nombreuses dépendances. Certaines méthodes de modification d’une liste de tâches peuvent être plus rapides que d’autres, selon la méthode que vous choisissez pour enregistrer vos modifications.
 
@@ -114,22 +120,24 @@ Tenez compte de ce qui suit lorsque vous enregistrez automatiquement les modific
 
 * Vous pouvez appliquer une vue personnalisée à la liste des tâches et modifier les champs associés aux tâches auxquelles vous avez accès pour la mise à jour.
 * Vous ne pouvez pas annuler les modifications enregistrées automatiquement. Il s’agit du paramètre par défaut.
-* Workfront recalcule automatiquement la chronologie du projet et toutes les dépendances internes et interprojets à chaque modification, lorsque le type de mise à jour du projet est Automatique ou Automatique et En cas de modification. Pour plus d’informations sur le type de mise à jour du projet, voir [Sélectionner le type de mise à jour du projet.](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Lorsque le type de mise à jour du projet est Automatique ou Automatique et en cas de modification, Workfront recalcule automatiquement la chronologie du projet et toutes les dépendances internes au projet et interprojets après chaque modification. Pour plus d’informations sur le type de mise à jour du projet, voir [Sélectionner le type de mise à jour du projet.](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 Pour modifier les tâches dans une liste et enregistrer automatiquement les modifications :
 
-1. Accédez au projet, puis cliquez sur la section **Tâches**.
-1. Cliquez sur le **menu du mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) en haut de la liste et assurez-vous que l’option **Enregistrement automatique** est sélectionnée.
+{{step1-to-projects}}
 
-   ![](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+1. Sélectionnez un projet sur la page **Projets**.
+1. Dans le panneau de gauche, cliquez sur la section **Tâches**.
+
+1. Cliquez sur l’icône **Mode Plan** ![Icône Mode Plan](assets/plan-mode-icon.png) en haut de la liste et assurez-vous que l’option **Enregistrement automatique** est sélectionnée.
+
+   ![Activer le paramètre d’enregistrement automatique](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
 1. Modifiez les champs pour lesquels vous avez les autorisations de mise à jour manuelle.
 
-   ![](assets/inline-editing-a-task-350x26.png)
-
 1. (Facultatif) Appuyez sur **Échap** pour annuler vos modifications.
-1. Appuyez sur Entrée pour enregistrer les modifications apportées aux tâches et à la chronologie du projet.
-1. (Facultatif) Cliquez avec le bouton droit sur une tâche à modifier.
+1. Appuyez sur la touche **Entrée** (Windows) ou **Retour** (Mac) du clavier pour enregistrer les modifications apportées aux tâches et à la chronologie du projet.
+1. (Facultatif) Cliquez avec le bouton droit de la souris sur une tâche à modifier.
 
    Ou
 
@@ -142,12 +150,20 @@ Pour modifier les tâches dans une liste et enregistrer automatiquement les modi
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Ouvrir dans un nouvel onglet</strong></td> 
+      <td role="rowheader">Ouvrir dans un nouvel onglet</td> 
       <td>Ouvre la tâche dans un nouvel onglet du navigateur. </td> 
      </tr> 
+          <tr> 
+      <td role="rowheader">Insérer une tâche ci-dessus</td> 
+      <td>Insère une tâche au-dessus de la tâche sélectionnée.</td> 
+     </tr> 
      <tr> 
-      <td role="rowheader"><strong>Modifier</strong></td> 
-      <td><p>Ouvre la zone <strong>Modifier la tâche</strong> dans laquelle vous pouvez modifier la tâche.</p><p>Pour plus d’informations sur la modification d’une tâche, voir <a href="#edit-tasks-in-a-list" class="MCXref xref">Modifier les tâches dans une liste</a>.</p></td> 
+      <td role="rowheader">Insérer la tâche ci-dessous</td> 
+      <td>Insère une tâche sous la tâche sélectionnée.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Modifier</td> 
+      <td><p>Ouvre la boîte de dialogue Modifier la tâche, dans laquelle vous pouvez modifier la tâche.</p><p>Pour plus d’informations sur la modification d’une tâche, voir <a href="#edit-tasks-in-a-list" class="MCXref xref">Modifier les tâches dans une liste</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Supprimer</td> 
@@ -160,31 +176,21 @@ Pour modifier les tâches dans une liste et enregistrer automatiquement les modi
      <tr> 
       <td role="rowheader">Supprimer un alinéa</td> 
       <td><p>Met la tâche en retrait d’un niveau. </p><p>Cette option s’affiche uniquement pour les tâches enfant. </p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Insérer une tâche ci-dessus</td> 
-      <td>Insère une tâche au-dessus de la tâche sélectionnée.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Insérer la tâche ci-dessous</td> 
-      <td>Insère une tâche sous la tâche sélectionnée.</td> 
-     </tr> 
+     </tr>  
      <tr> 
       <td role="rowheader">Dupliquer</td> 
       <td><p>Crée une version en double de la tâche au sein du même projet. </p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Copier sur</td> 
+      <td role="rowheader">Copier vers...</td> 
       <td><p>Copie la tâche vers un autre projet.</p><p>Pour plus d’informations sur la copie et la duplication de tâches, voir <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">Copier et dupliquer des tâches</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Déplacer vers</td> 
+      <td role="rowheader">Déplacer vers...</td> 
       <td><p>Déplace la tâche vers un autre projet.</p><p>Pour plus d’informations sur le déplacement de tâches, voir <a href="../../../manage-work/tasks/manage-tasks/move-tasks.md" class="MCXref xref">Déplacer des tâches</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>
-
-   Les modifications sont enregistrées automatiquement et vous ne pouvez pas revenir en arrière.
 
 ### Modifier les tâches dans une liste et enregistrer manuellement les modifications {#edit-tasks-in-a-list-and-manually-save-changes}
 
@@ -193,7 +199,7 @@ Vous pouvez enregistrer manuellement les modifications que vous apportez aux tâ
 >[!TIP]
 >
 >* Vous ne pouvez pas inverser les modifications que vous apportez aux tâches d’une liste lorsque vous les modifiez dans la section Sous-tâches ou dans un rapport de tâches.
->* Le nombre de modifications que vous pouvez inverser est illimité. Vous pouvez les inverser une par une jusqu’à revenir à l’état d’origine des tâches.
+>* Le nombre de modifications que vous pouvez inverser est illimité. Vous pouvez tous les inverser un par un jusqu’à ce que vous atteigniez le statut d’origine des tâches.
 >
 
 Tenez compte de ce qui suit lorsque vous enregistrez manuellement les modifications dans une liste de tâches :
@@ -204,12 +210,12 @@ Tenez compte de ce qui suit lorsque vous enregistrez manuellement les modificati
 
    * Vous abonner au projet.
    * Ajouter le projet à votre liste de favoris.
-   * Ouvrir une tâche en cliquant sur son nom dans la liste.
+   * Ouvrez une tâche en cliquant sur son nom dans la liste.
 
-* Modifier les tâches en bloc. L’icône Modifier est désactivée lors de la sélection de plusieurs tâches.
+* Modifiez les tâches en bloc. L’icône Modifier est désactivée lors de la sélection de plusieurs tâches.
 * Workfront déclenche des notifications sur les modifications que vous apportez aux tâches uniquement après avoir enregistré vos modifications.
 
-Il existe deux manières d’enregistrer manuellement les modifications apportées aux tâches d’une liste. Ces deux méthodes sont décrites ci-dessous.
+Il existe deux manières d’enregistrer manuellement les modifications apportées à des tâches dans une liste :
 
 * [Enregistrer manuellement les modifications apportées à une liste de tâches en sélectionnant l’option standard Enregistrement manuel](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option)
 * [Enregistrer manuellement les modifications apportées à une liste de tâches en sélectionnant l’option de planification chronologique Enregistrement manuel](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option)
@@ -218,31 +224,38 @@ Il existe deux manières d’enregistrer manuellement les modifications apporté
 
 >[!TIP]
 >
->Si votre projet contient plus de 2 000 tâches ou s’il comporte de nombreuses dépendances, il peut s’écouler un certain temps avant de visualiser les modifications de tâches ainsi que leurs effets sur toutes les dépendances du projet. Dans ce cas, l’enregistrement de vos modifications peut prendre plus de temps si votre projet contient plus de 2 000 tâches ou s’il comporte de nombreuses dépendances.
+>Si votre projet contient plus de 2 000 tâches ou s’il comporte de nombreuses dépendances, il peut s’écouler un certain temps avant de visualiser les modifications de tâches ainsi que leurs effets sur toutes les dépendances du projet. Dans ce cas, l’enregistrement de vos modifications peut prendre plus de temps que prévu.
 
 Tenez compte des points suivants si vous mettez à jour des tâches dans une liste après avoir sélectionné l’option standard Enregistrement manuel :
 
 * Vous pouvez appliquer une vue personnalisée à la liste des tâches et modifier les champs associés aux tâches pour lesquelles vous disposez de l’autorisation de gérer dans cette vue.
-* Workfront calcule la chronologie du projet et toutes les dépendances internes et inter-projets après avoir cliqué sur Enregistrer, lorsque le type de mise à jour du projet est Automatique ou Automatique et En cas de modification. Pour plus d’informations sur le type de mise à jour du projet, voir [Sélectionner le type de mise à jour du projet](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Lorsque le type de mise à jour du projet est Automatique ou Automatique et En cas de modification, Workfront calcule la chronologie du projet et toutes les dépendances internes au projet et interprojets après avoir cliqué sur Enregistrer. Pour plus d’informations sur le type de mise à jour du projet, voir [Sélectionner le type de mise à jour du projet](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 Pour modifier les tâches d’une liste en sélectionnant l’option standard Enregistrement manuel :
 
-1. Accédez à un projet, puis cliquez sur la section **Tâches**.
-1. Cliquez sur le menu **Mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) en haut de la liste et sélectionnez **Enregistrement manuel**, puis cliquez sur **Standard** > **Appliquer**.
+{{step1-to-projects}}
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+1. Sélectionnez un projet sur la page **Projets**.
 
-   Un paramètre de barre d’outils s’affiche avec des options permettant d’annuler, de rétablir et d’enregistrer vos modifications.
+1. Dans le panneau de gauche, cliquez sur la section **Tâches**.
 
-   ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+1. Cliquez sur l’icône **Mode Plan** ![Icône Mode Plan](assets/plan-mode-icon.png) en haut de la liste.
+
+1. Dans la boîte de dialogue **Mode Plan**, sélectionnez **Enregistrement manuel**, puis cliquez sur **Standard**.
+
+   ![Activer le paramètre d’enregistrement manuel](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+
+1. Cliquez sur **Appliquer**. Un paramètre de barre d’outils s’affiche avec des options permettant d’annuler, de rétablir et d’enregistrer vos modifications.
+
+   ![Barre d’outils Enregistrement manuel](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. Cliquez à l’intérieur d’un champ pour lequel vous disposez de l’autorisation de mettre à jour manuellement. Le champ devient modifiable et vous pouvez apporter vos modifications.
 
-   ![](assets/inline-editing-a-task-350x26.png)
+1. Appuyez sur **Entrée** (Windows) ou **Retour** (Mac) sur votre clavier pour enregistrer temporairement les modifications que vous avez apportées.
 
-1. Appuyez sur Entrée pour enregistrer temporairement vos modifications.
-1. (Facultatif) Cliquez sur l’**icône Annuler** ![](assets/undo-icon-on-task-list.png) pour annuler une modification et revenir à l’état d’origine d’un champ.
-1. (Facultatif et le cas échéant) Cliquez sur l’**icône Rétablir** ![](assets/redo-icon-on-task-list.png) pour restaurer la modification annulée.
+1. (Facultatif) Cliquez sur l’icône **Annuler** ![Icône Annuler](assets/undo-icon-on-task-list.png) pour annuler une modification et rétablir un champ à son état d’origine.
+
+1. (Facultatif et conditionnel) Cliquez sur l’icône **Rétablir** ![Icône Rétablir](assets/redo-icon-on-task-list.png) pour restaurer la modification que vous avez annulée.
 
 1. (Facultatif) Cliquez avec le bouton droit de la souris sur une tâche à modifier.
 
@@ -257,8 +270,16 @@ Pour modifier les tâches d’une liste en sélectionnant l’option standard En
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Ouvrir dans un nouvel onglet</strong> </td> 
+      <td role="rowheader">Ouvrir dans un nouvel onglet</td> 
       <td>Ouvre la tâche dans un nouvel onglet du navigateur. </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">Insérer une tâche ci-dessus</td> 
+      <td>Insère une tâche au-dessus de la tâche sélectionnée.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Insérer la tâche ci-dessous</td> 
+      <td>Insère une tâche sous la tâche sélectionnée.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Supprimer</td> 
@@ -271,14 +292,6 @@ Pour modifier les tâches d’une liste en sélectionnant l’option standard En
      <tr> 
       <td role="rowheader">Supprimer un alinéa</td> 
       <td> <p>Met la tâche en retrait d’un niveau. </p> <p>Cette option s’affiche uniquement pour les tâches enfant. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Insérer une tâche ci-dessus</td> 
-      <td>Insère une tâche au-dessus de la tâche sélectionnée.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Insérer la tâche ci-dessous</td> 
-      <td>Insère une tâche sous la tâche sélectionnée.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dupliquer</td> 
@@ -303,22 +316,30 @@ Tenez compte des points suivants lorsque vous utilisez l’option d’enregistre
 * Vous ne pouvez pas appliquer l’option d’enregistrement manuel de la planification de la chronologie aux projets comportant plus de 2 000 tâches.
 * Vous ne pouvez pas appliquer une vue personnalisée, un filtre personnalisé ou un regroupement personnalisé à la liste des tâches. Les menus déroulants Vue, Filtre et Regroupement, ainsi que l’icône de la vue Agile, sont désactivés. La vue appliquée par défaut contient un nombre limité de champs.
 * La chronologie du projet et toutes les dépendances internes au projet sont calculées automatiquement après chaque modification lorsque le type de mise à jour du projet est Automatique ou Automatique et En cas de modification.
-* Les dépendances inter-projets sont calculées après avoir cliqué sur Enregistrer, lorsque le type de mise à jour du projet est Automatique ou Automatique et En cas de modification. Pour plus d’informations sur le type de mise à jour du projet, voir [Sélectionner le type de mise à jour du projet](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Lorsque le type de mise à jour du projet est Automatique ou Automatique et En cas de modification, les dépendances entre projets sont calculées après que vous avez cliqué sur Enregistrer. Pour plus d’informations sur le type de mise à jour du projet, voir [Sélectionner le type de mise à jour du projet](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 Pour modifier des tâches dans une liste lors de l’utilisation de l’option d’enregistrement manuel de la planification de la chronologie :
 
-1. Accédez à un projet, puis cliquez sur la section **Tâche**.
-1. Cliquez sur le menu **Mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) en haut de la liste et sélectionnez **Enregistrement manuel**, puis cliquez sur **Planification chronologique** > **Appliquer**.
 
-   Cette option est grisée pour les projets comportant plus de 2 000 tâches.
+{{step1-to-projects}}
 
-   ![](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png)
+1. Sélectionnez un projet sur la page **Projets**.
+
+1. Dans le panneau de gauche, cliquez sur la section **Tâches**.
+
+1. Cliquez sur l’icône **Mode Plan** ![Icône Mode Plan](assets/plan-mode-icon.png) en haut de la liste.
+
+1. Dans la boîte de dialogue **Mode Plan**, sélectionnez **Enregistrement manuel**, puis cliquez sur **Planification de la chronologie**.
+
+   ![Appliquer le paramètre Planification chronologique](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png)
 
    >[!TIP]
    >
-   >Lorsque vous quittez cette page, Workfront réactive l’option d’enregistrement automatique.
+   >L’option **Planification temporelle** est grisée pour les projets comportant plus de 2 000 tâches.
 
-   Notez les modifications suivantes dans la liste :
+1. Cliquez sur **Appliquer**.
+
+   Les modifications suivantes sont apportées à la liste :
 
    * Les menus déroulants Vue, Regroupement et Filtre sont supprimés et la vue est remplacée par les champs suivants :
 
@@ -336,17 +357,15 @@ Pour modifier des tâches dans une liste lors de l’utilisation de l’option d
    * L’icône de la vue Agile est supprimée.
    * Un paramètre de barre d’outils s’affiche avec des options permettant d’annuler, de rétablir et d’enregistrer vos modifications.
 
-     ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![Barre d’outils Enregistrement manuel](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. Modifiez les champs pour lesquels vous avez les autorisations de mise à jour manuelle.
 
-   ![](assets/inline-editing-a-task-350x26.png)
+1. Appuyez sur **Entrée** (Windows) ou **Retour** (Mac) sur votre clavier pour enregistrer temporairement les modifications que vous avez apportées.
+1. (Facultatif) Cliquez sur l’icône **Annuler** ![Icône Annuler](assets/undo-icon-on-task-list.png) pour annuler une modification et rétablir un champ à son état d’origine.
+1. (Facultatif et conditionnel) Cliquez sur l’icône **Rétablir** ![Icône Rétablir](assets/redo-icon-on-task-list.png) pour rétablir la modification que vous avez annulée.
 
-1. Appuyez sur Entrée pour enregistrer temporairement vos modifications.
-1. (Facultatif) Cliquez sur l’**icône Annuler** ![](assets/undo-icon-on-task-list.png) pour annuler une modification et rétablir l’état d’origine d’un champ.
-1. (Facultatif et le cas échéant) Cliquez sur l’**icône Rétablir** ![](assets/redo-icon-on-task-list.png) pour rétablir la modification que vous avez annulée.
-
-1. (Facultatif) Cliquez avec le bouton droit sur une tâche à modifier.
+1. (Facultatif) Cliquez avec le bouton droit de la souris sur une tâche à modifier.
 
    Ou
 
@@ -359,8 +378,16 @@ Pour modifier des tâches dans une liste lors de l’utilisation de l’option d
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Ouvrir dans un nouvel onglet</strong> </td> 
+      <td role="rowheader">Ouvrir dans un nouvel onglet</td> 
       <td>Ouvre la tâche dans un nouvel onglet du navigateur. </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">Insérer une tâche ci-dessus</td> 
+      <td>Insère une tâche au-dessus de la tâche sélectionnée.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Insérer la tâche ci-dessous</td> 
+      <td>Insère une tâche sous la tâche sélectionnée.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Supprimer</td> 
@@ -375,14 +402,6 @@ Pour modifier des tâches dans une liste lors de l’utilisation de l’option d
       <td> <p>Met la tâche en retrait d’un niveau. </p> <p>Cette option s’affiche uniquement pour les tâches enfant. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Insérer une tâche ci-dessus</td> 
-      <td>Insère une tâche au-dessus de la tâche sélectionnée.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Insérer la tâche ci-dessous</td> 
-      <td>Insère une tâche sous la tâche sélectionnée.</td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">Dupliquer</td> 
       <td> <p>Crée une version en double de la tâche au sein du même projet. </p> <p>Pour plus d’informations sur la copie et la duplication de tâches, voir <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">Copier et dupliquer des tâches</a>.</p> </td> 
      </tr> 
@@ -394,55 +413,62 @@ Pour modifier des tâches dans une liste lors de l’utilisation de l’option d
 
 ## Modifier une tâche dans une liste à l’aide du résumé
 
-1. Accédez au projet contenant les tâches à modifier.
-1. Cliquez sur **Tâches** dans le panneau de gauche.
+{{step1-to-projects}}
 
-   La liste des tâches du projet s’affiche.
+1. Sélectionnez un projet sur la page **Projets**.
 
-1. Cliquez sur le menu Plus ![](assets/more-icon-task-list.png) après le nom de la tâche, puis cliquez sur **Ouvrir le résumé**. Sélectionnez la tâche à modifier, puis cliquez sur l’**icône Ouvrir le résumé** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) dans le coin supérieur droit de la liste.
+1. Dans le panneau de gauche, cliquez sur la section **Tâches**. La liste des tâches du projet s’affiche.
 
-   Le **Résumé** s’ouvre.
-
-   ![](assets/qs-task-right-panel-in-a-task-list-350x328.png)
-
-1. (Facultatif) Cliquez sur l’**icône X** dans le coin supérieur droit du résumé pour fermer le panneau et modifier les tâches en ligne.
-
-   Suivez les étapes de modification d’une tâche dans une liste pour la modifier en ligne.
-
-   Pour plus d’informations sur la modification de la tâche dans une liste, voir [Remarques relatives à la modification des tâches dans une liste](#considerations-about-editing-tasks-in-a-list) dans cet article.
+1. Sélectionnez la tâche à modifier, puis cliquez sur l’icône **Ouvrir le résumé** ![Ouvrir le résumé](assets/task-summary-icon.png) dans le coin supérieur droit de la liste. Le panneau **Résumé de la tâche** s’ouvre.
 
 1. (Facultatif) Saisissez une mise à jour pour la tâche dans la zone **Mises à jour**.
 1. Cliquez sur l’une des icônes ou zones suivantes pour accéder à la tâche et modifier les informations à l’échelle de la tâche :
 
-   | Documents | Cliquez sur **Cliquez ici pour ajouter** pour ajouter des documents à la tâche. |
-   |---|---|
-   | Détails | Cliquez pour mettre à jour les informations sur la tâche. |
-   | Formulaires personnalisés | Cliquez pour ajouter ou supprimer des formulaires personnalisés ou mettre à jour les informations sur les formulaires. |
-   | Heures | Cliquez pour consigner des heures. |
-   | Approbations | Cliquez pour ajouter des approbations de tâches. |
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Documents</td> 
+      <td>Ajoutez des documents à la tâche. </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">Formulaires personnalisés</td> 
+      <td>Ajouter ou supprimer des formulaires personnalisés ou mettre à jour les informations des formulaires.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Heures</td> 
+      <td>Consigner les heures.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Approbations</td> 
+      <td>Ajoutez les validations de tâche.</td> 
+     </tr> 
+     <tr> 
+    </tbody> 
+   </table>
 
-   {style="table-layout:auto"}
-
-1. Cliquez sur le bouton Retour de votre navigateur pour revenir à la liste des tâches lorsque vous avez terminé la mise à jour de la tâche.
+1. Cliquez sur le **X** dans le coin supérieur droit du panneau pour le fermer.
 
 ## Modifier les tâches en bloc
 
 Vous pouvez modifier plusieurs tâches à la fois. Assurez-vous que vous disposez des autorisations de gestion pour les tâches afin de pouvoir les modifier.
 
-1. Accédez à un projet contenant les tâches que vous souhaitez modifier en bloc.
-1. Cliquez sur **Tâches** dans le panneau de gauche.
-1. Assurez-vous que l’option **Enregistrement automatique** est sélectionnée.
+{{step1-to-projects}}
+
+1. Sélectionnez un projet sur la page **Projets**.
+1. Dans le panneau de gauche, cliquez sur la section **Tâches**.
+
+1. Cliquez sur l’icône **Mode Plan** ![Icône Mode Plan](assets/plan-mode-icon.png) en haut de la liste et assurez-vous que l’option **Enregistrement automatique** est sélectionnée.
+
+   ![Activer le paramètre d’enregistrement automatique](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez pas modifier les tâches en bloc en utilisant l’enregistrement manuel des tâches.
-
-   Pour plus d’informations sur les façons d’enregistrer les modifications apportées aux tâches d’une liste, voir la section [Remarques sur la modification des tâches d’une liste](#considerations-about-editing-tasks-in-a-list) dans cet article.
+   >Vous ne pouvez pas modifier des tâches en bloc lors de l’enregistrement manuel de tâches.
 
 1. Sélectionnez plusieurs tâches dans la liste des tâches.
-1. Cliquez sur l’**icône Modifier** ![](assets/qs-edit-icon.png).
-
-   La boîte de dialogue **Modifier les tâches** s’ouvre.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/qs-edit-icon.png). La boîte de dialogue **Modifier les tâches** s’ouvre.
 
 1. Indiquez les informations à modifier pour toutes les tâches sélectionnées.
 
@@ -461,8 +487,6 @@ Vous pouvez modifier plusieurs tâches à la fois. Assurez-vous que vous dispose
    Vous ne pouvez modifier que les champs des formulaires associés à toutes les tâches sélectionnées et que vous avez l’autorisation de modifier.
 
 1. (Facultatif) Dans la section Formulaires personnalisés, sélectionnez l’option **Recalculer les expressions personnalisées** pour vous assurer que tous les champs personnalisés calculés qui se trouvent sur les formulaires personnalisés joints aux tâches sélectionnées sont à jour.
-1. Cliquez sur **Enregistrer les modifications**.
+1. Cliquez sur Enregistrer les modifications. **** Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
 
-   Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
-
-Pour plus d’informations sur la modification en masse de formulaires personnalisés, reportez-vous à la section « Modifier plusieurs formulaires personnalisés lors de la modification en masse d’objets » dans [Gestion des formulaires personnalisés associés à des objets](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+Pour plus d’informations sur la modification en bloc de formulaires personnalisés, voir [Gérer les formulaires personnalisés joints à des objets](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).

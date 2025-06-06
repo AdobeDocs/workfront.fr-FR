@@ -7,10 +7,10 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 68%
+source-wordcount: '1033'
+ht-degree: 69%
 
 ---
 
@@ -84,16 +84,10 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
 1. Sélectionnez la section **Panorama**. De nouveaux champs s’affichent.
 1. Activez **Ajout dynamique d’éléments au panorama**. La colonne d’entrée vide s’affiche sur le côté gauche du panorama.
 
-   ![Options de filtrage simple des colonnes d’entrée](assets/intake-column-simple-filters.png)
+   ![Options de filtrage simple des colonnes d’entrée](assets/board-section.png)
 
 1. (Facultatif) Recherchez et sélectionnez [!UICONTROL **Projets**] [!DNL Workfront].
 1. (Facultatif) Recherchez et sélectionnez des [!UICONTROL **Affectations**] de personne ou d’équipe.
-1. Sélectionnez [!UICONTROL **Inclure le travail terminé**] pour afficher les tâches et les problèmes dont le statut est Terminé dans la colonne d’entrée.
-
-   >[!NOTE]
-   >
-   >Si cette option n’est pas sélectionnée, lorsque des cartes avec d’autres statuts sont marquées comme terminées, elles ne s’affichent pas sur le panorama.
-
 1. Cliquez sur **Appliquer**. Les objets apparaissent dans la colonne d’entrée du panorama sous la forme de cartes connectées.
 
    ![Colonne d’entrée](assets/intake-column-added3.png)
@@ -125,7 +119,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
 
    ![Créateur de filtres](assets/intake-filter-dialog6.png)
 
-   L’exemple ci-dessus montre un filtre pour les tâches d’un projet spécifique dont le statut est [!UICONTROL &#x200B; Nouveau &#x200B;] ou [!UICONTROL &#x200B; En cours &#x200B;].
+   L’exemple ci-dessus montre un filtre pour les tâches d’un projet spécifique dont le statut est [!UICONTROL  Nouveau ] ou [!UICONTROL  En cours ].
 
    >[!NOTE]
    >
