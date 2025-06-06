@@ -6,7 +6,7 @@ description: Le module complémentaire  [!DNL Adobe Workfront] [!DNL Outlook] vo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 75%
@@ -24,7 +24,6 @@ ht-degree: 75%
 >* **Une fois que Microsoft a complètement désactivé ces jetons, l’intégration de Workfront pour Microsoft Outlook ne fonctionne plus.**
 >
 >Dans le cadre de cette modification, Microsoft a pris la décision de modifier la manière dont les jetons sont réactivés. Après le **30 juin 2025**, les administrateurs ne pourront plus réactiver les jetons eux-mêmes. Seule la prise en charge de Microsoft peut accorder des exceptions. **Le 1er octobre 2025, les jetons hérités seront désactivés pour tous les clients. Les exceptions ne seront pas accordées.**
-
 
 Le module complémentaire [!DNL Adobe Workfront] [!DNL Outlook] vous permet d’effectuer les tâches clés [!DNL Workfront] suivantes directement à partir d’Outlook :
 

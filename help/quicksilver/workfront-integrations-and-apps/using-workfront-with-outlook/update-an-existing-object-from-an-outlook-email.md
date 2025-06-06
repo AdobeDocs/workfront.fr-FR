@@ -6,7 +6,7 @@ description: Vous pouvez mettre à jour un projet, une tâche ou un problème ex
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 80%
@@ -24,7 +24,6 @@ ht-degree: 80%
 >Dans le cadre de cette modification, Microsoft a pris la décision de modifier la manière dont les jetons sont réactivés. Après le **30 juin 2025**, les administrateurs ne pourront plus réactiver les jetons eux-mêmes. Seule la prise en charge de Microsoft peut accorder des exceptions. **Le 1er octobre 2025, les jetons hérités seront désactivés pour tous les clients. Les exceptions ne seront pas accordées.**
 
 Vous pouvez mettre à jour un projet, une tâche ou un problème existant à l’aide des informations d’un e-mail [!DNL Outlook].
-
 
 ## Conditions d’accès
 

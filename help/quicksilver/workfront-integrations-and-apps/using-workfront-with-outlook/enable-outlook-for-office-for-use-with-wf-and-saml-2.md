@@ -6,7 +6,7 @@ description: Si votre système  [!DNL Adobe Workfront]  est intégré à SAML 2
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 72ffceb3-50f0-486e-92b5-0bea4c9a99c8
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 52%
@@ -22,7 +22,6 @@ ht-degree: 52%
 >* **Une fois que Microsoft a complètement désactivé ces jetons, l’intégration de Workfront pour Microsoft Outlook ne fonctionne plus.**
 >
 >Dans le cadre de cette modification, Microsoft a pris la décision de modifier la manière dont les jetons sont réactivés. Après le **30 juin 2025**, les administrateurs ne pourront plus réactiver les jetons eux-mêmes. Seule la prise en charge de Microsoft peut accorder des exceptions. **Le 1er octobre 2025, les jetons hérités seront désactivés pour tous les clients. Les exceptions ne seront pas accordées.**
-
 
 Si votre système [!DNL Adobe Workfront] est intégré à SAML 2.0, vous devez activer l’authentification SAML 2.0 pour les modules complémentaires [!DNL Office], pour permettre aux utilisateurs et utilisatrices de s’authentifier à l’aide de leurs informations d’identification SAML 2.0.
 

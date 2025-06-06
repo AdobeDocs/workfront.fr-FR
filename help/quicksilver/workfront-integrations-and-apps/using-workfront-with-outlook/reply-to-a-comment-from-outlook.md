@@ -6,7 +6,7 @@ description: Lorsque vous recevez une notification  [!DNL Adobe Workfront]  par 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 68%
@@ -24,7 +24,6 @@ ht-degree: 68%
 >Dans le cadre de cette modification, Microsoft a pris la décision de modifier la manière dont les jetons sont réactivés. Après le **30 juin 2025**, les administrateurs ne pourront plus réactiver les jetons eux-mêmes. Seule la prise en charge de Microsoft peut accorder des exceptions. **Le 1er octobre 2025, les jetons hérités seront désactivés pour tous les clients. Les exceptions ne seront pas accordées.**
 
 Lorsque vous recevez une notification [!DNL Adobe Workfront] par e-mail dans votre boîte de réception [!DNL Outlook], vous pouvez rapidement publier un commentaire sur [!DNL Workfront] en répondant simplement à la notification dans Outlook.
-
 
 ## Conditions d’accès
 

@@ -6,7 +6,7 @@ description: Vous pouvez convertir les e-mails  [!DNL Outlook]  en tâches  [!DN
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 76%
@@ -22,7 +22,6 @@ ht-degree: 76%
 >* **Une fois que Microsoft a complètement désactivé ces jetons, l’intégration de Workfront pour Microsoft Outlook ne fonctionne plus.**
 >
 >Dans le cadre de cette modification, Microsoft a pris la décision de modifier la manière dont les jetons sont réactivés. Après le **30 juin 2025**, les administrateurs ne pourront plus réactiver les jetons eux-mêmes. Seule la prise en charge de Microsoft peut accorder des exceptions. **Le 1er octobre 2025, les jetons hérités seront désactivés pour tous les clients. Les exceptions ne seront pas accordées.**
-
 
 
 Vous pouvez convertir les e-mails [!DNL Outlook] en tâches [!DNL Adobe Workfront]. Une fois qu’un e-mail a été converti, la tâche est disponible dans votre liste de [!UICONTROL travaux] dans la zone [!UICONTROL Accueil].

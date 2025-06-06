@@ -6,7 +6,7 @@ description: Vous pouvez convertir des e-mails en tâches ou problèmes  [!DNL A
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 82%
@@ -22,7 +22,6 @@ ht-degree: 82%
 >* **Une fois que Microsoft a complètement désactivé ces jetons, l’intégration de Workfront pour Microsoft Outlook ne fonctionne plus.**
 >
 >Dans le cadre de cette modification, Microsoft a pris la décision de modifier la manière dont les jetons sont réactivés. Après le **30 juin 2025**, les administrateurs ne pourront plus réactiver les jetons eux-mêmes. Seule la prise en charge de Microsoft peut accorder des exceptions. **Le 1er octobre 2025, les jetons hérités seront désactivés pour tous les clients. Les exceptions ne seront pas accordées.**
-
 
 Vous pouvez convertir des e-mails en tâches ou problèmes [!DNL Adobe Workfront]. Après la conversion d’un e-mail, la tâche ou le problème apparaît dans le projet sélectionné au moment de la conversion.
 
