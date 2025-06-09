@@ -6,10 +6,10 @@ description: Si on vous affecte en tant que personne approbatrice à un document
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
+source-git-commit: 1f7a17206ca77442b501f121f3333d4b60aa85f1
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 77%
+source-wordcount: '1247'
+ht-degree: 75%
 
 ---
 
@@ -74,7 +74,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    >[!NOTE]
    >
-   >Les approbations affectées à des fonctions ou à des groupes ne sont pas répertoriées dans l’accueil. Les approbations affectées aux équipes s’affichent dans le regroupement Demande de l’équipe de la liste des tâches.
+   >* Les approbations affectées à des fonctions ou à des groupes de fonctions ne sont pas répertoriées dans l&#39;Accueil.
+   >* Les approbations affectées aux équipes s’affichent dans le widget Mes approbations de chaque membre de l’équipe sur l’Accueil.
 
 1. Cliquez sur l’approbation de document dans la liste pour laquelle vous souhaitez prendre une décision d’approbation. Les informations concernant l’approbation s’affichent sur le côté droit de la page.
 
