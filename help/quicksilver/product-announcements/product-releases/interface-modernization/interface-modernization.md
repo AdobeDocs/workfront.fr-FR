@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
+source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
 workflow-type: tm+mt
 source-wordcount: '4126'
 ht-degree: 2%
@@ -239,7 +239,9 @@ Nous avons mis à jour l’aspect des éléments récemment restaurés dans la z
 
 Pour afficher cette modification, accédez à Configuration > Corbeille > Récemment restauré.
 
-Pour plus d’informations, voir [Afficher les éléments restaurés](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).### Mises à jour de l&#39;interface pour la zone Gestion des ressources dans la configuration
+Pour plus d’informations, voir [Afficher les éléments restaurés](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+### Mises à jour de l’interface de la zone Gestion des ressources dans la configuration
 
 **Version préliminaire : 17 avril 2025 ; à partir de la semaine du 17 avril 2025**
 
