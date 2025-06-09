@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 83d236a4d50c0eef7062f161757d2f9fe6bc4e06
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 99%
+source-wordcount: '829'
+ht-degree: 97%
 
 ---
 
@@ -80,9 +80,14 @@ Pour accéder à la page Infos client :
 
      Pour plus d’informations sur l’ajout des adresses IP à votre liste autorisée pour l’emplacement où vos utilisateurs et utilisatrices peuvent accéder à Workfront, voir [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-   * **Licence**
+   * placer sur la liste autorisée **E-mail**
 
-     Pour plus d’informations sur les licences, consultez la section [Gérer les licences disponibles dans votre système](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     Pour plus d’informations sur l’ajout d’e-mails à votre placer sur la liste autorisée place sur la liste autorisée, voir [Configurer votre e-mail](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+
+   <!--
+   * **License**
+
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
 
 ## Configurer les informations de base {#configure-basic-info}
 
@@ -125,7 +130,7 @@ Pour configurer votre section Informations de base dans votre zone Infos client�
        </ul> <p>Les utilisateurs et utilisatrices peuvent modifier le fuseau horaire de leur instance Workfront dans leur profil. Lorsque les utilisateurs et les utilisatrices modifient leur fuseau horaire, la date et l’heure de leurs e-mails envoyés à partir de Workfront correspondent à leurs préférences de profil. Pour plus d’informations sur la modification des préférences de profil des utilisateurs et utilisatrices, voir <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurer mes paramètres</a>. Ce fuseau horaire est sélectionné comme fuseau horaire par défaut lorsque vous créez un nouveau planning. Pour plus d’informations sur la création de plannings, voir <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Créer un planning</a>.</p> <p>Pour plus d’informations sur l’utilisation des plannings pour aider les utilisateurs et les utilisatrices à collaborer avec des fuseaux horaires différents dans Workfront, voir <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Travailler avec des fuseaux horaires différents</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Paramètre local</td> 
+      <td role="rowheader">Paramètres régionaux d’e-mail par défaut</td> 
       <td>Contrôle les formats de langue, de date et de nombres utilisés dans les e-mails sortants. Le paramètre régional sélectionné ici est le paramètre régional par défaut lors de la création de nouveaux utilisateurs et de nouvelles utilisatrices. Les utilisateurs et les utilisatrices peuvent modifier leurs paramètres régionaux dans leur profil d’utilisateur ou d’utilisatrice. Lorsque les utilisateurs et les utilisatrices modifient leurs paramètres régionaux, les formats de langue, de date et de nombres dans leurs e-mails envoyés à partir de Workfront correspondent à leurs préférences de profil. Pour plus d’informations sur la modification de vos préférences de profil, voir <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurer mes paramètres</a>.</td> 
      </tr> 
      <tr> 
@@ -135,11 +140,7 @@ Pour configurer votre section Informations de base dans votre zone Infos client�
         <li>Les documents que vous liez à Workfront à partir de tout autre fournisseur de services tiers (SharePoint, Google Drive, WebDam, Box, Dropbox, ou tout autre fournisseur de gestion des ressources numériques).</li> 
         <li>Vos données Workfront (projets, tâches, problèmes, utilisateurs et utilisatrices, etc.).</li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Version du produit</td> 
-      <td>Il s’agit du type d’instance Workfront qui vous est affectée. La version du produit de la plupart des clientes et clients Workfront est <strong>Entreprise</strong>.</td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
