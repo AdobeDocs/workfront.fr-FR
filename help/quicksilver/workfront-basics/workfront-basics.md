@@ -3,7 +3,7 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: 'Concepts de base d’Adobe Workfront : index des articles'
 description: Consultez ces zones pour mieux comprendre les principes de base d’Adobe Workfront et apprendre à effectuer des fonctions de base, comme utiliser la zone Accueil ou Priorités, gérer votre profil de compte, utiliser l’Assistant IA ou comprendre les exigences en matière de navigateur et les langues prises en charge. Reportez-vous au glossaire Workfront pour apprendre la terminologie courante du programme.
-short-description: Maîtrisez les principes de base d’Adobe Workfront et apprenez à exécuter des fonctions de base.
+short-description: Maîtrisez les principes de base d’Adobe Workfront et apprenez à exécuter les fonctions de base.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -11,7 +11,7 @@ exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
 source-git-commit: 0c76cf9ebadaeabee55939969d59ea16d69ed328
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 85%
+ht-degree: 91%
 
 ---
 
