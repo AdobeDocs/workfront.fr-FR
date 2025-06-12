@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 83%
+source-wordcount: '110'
+ht-degree: 80%
 
 ---
 
@@ -32,7 +32,7 @@ Cette section contient les articles suivants :
 * [Créer des types de dépenses personnalisés](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [Créer une carte de performance](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
 * [Configurer les recalculs de chronologies pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-* [Activer les trimestres personnalisés pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+* [Activer les trimestres personnalisés](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
 * [Activer ou désactiver les versions rapides pour votre entreprise](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
 * [Configurer les emplacements](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
 * [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 54%
+source-wordcount: '1057'
+ht-degree: 52%
 
 ---
 
@@ -66,7 +66,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -160,8 +160,8 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
    >Si vous quittez la section Commentaires avant d’avoir terminé la saisie et l’envoi d’un commentaire, le commentaire reste sur la page en mode brouillon même après la déconnexion et la reconnexion. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. (Facultatif) Pour annuler ou rétablir une modification, utilisez les raccourcis clavier suivants :
-   * Ctrl+Z (⌘+z pour Mac) pour annuler une modification
-   * Ctrl+Y (⌘+y pour Mac) pour rétablir la modification
+   * Ctrl + Z (⌘ + z pour Mac) pour annuler une modification
+   * Ctrl + Y (⌘ + y pour Mac) pour rétablir une modification
 1. (Facultatif et conditionnel) Si votre instance Workfront fait partie de l’expérience unifiée Adobe, ajoutez **@** suivi du nom d’un utilisateur pour baliser une personne dans la mise à jour. Pour plus d’informations, consultez la section [Considérations relatives aux commentaires sur un enregistrement](#considerations-about-commenting-on-a-record) dans cet article.
 
 1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes ou des liens vers votre mise à jour afin d’améliorer votre contenu.

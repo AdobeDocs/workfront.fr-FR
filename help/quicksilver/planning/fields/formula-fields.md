@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 45%
+source-wordcount: '755'
+ht-degree: 43%
 
 ---
 
@@ -67,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -118,6 +118,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * Date
 
   Pour plus d’informations, consultez la section « Formule » de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
+* Vous pouvez référencer des champs de formule dans de nouvelles formules. Une fois que la valeur est mise à jour dans un champ référencé dans un champ de formule, tous les champs suivants référençant ce champ ou les champs de formule qui contiennent ce champ sont automatiquement mis à jour.
 
 ## Formules prises en charge
 
@@ -127,12 +128,13 @@ Les champs de formule Adobe Workfront Planning prennent en charge la plupart des
 >
 >Les expressions Workfront ci-dessous ne sont pas prises en charge pour les champs de formule Workfront Planning :
 >
->* SORTASCARRAY
->* SORTDESCARRAY
+><!--* SORTASCARRAY-->
+><!--* SORTDESCARRAY-->
 >* ADDHOUR
 >* SWITCH
 >* FORMAT
 
+<!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
 Pour obtenir une liste complète des expressions Workfront, voir [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2695'
-ht-degree: 91%
+source-wordcount: '2693'
+ht-degree: 90%
 
 ---
 
@@ -143,7 +143,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>Contrôle les données que [!DNL Workfront] utilise pour calculer l’[!UICONTROL Estimate at Completion] (EAC), qui correspond au coût total planifié de votre projet.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong> : l’EAC de la tâche parent et du projet parent est déterminé en saisissant les [!UICONTROL Actual Hours] ou le [!UICONTROL Actual Labor Cost] dans les formules EAC. Le calcul inclut les [!UICONTROL Actual Hours] ou [!UICONTROL Costs and Expenses] ajoutés directement à la tâche parent ou au projet parent.</li> 
@@ -241,7 +241,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
-   <td> <p>Configurez des trimestres annuels personnalisés pour les personnes qui vont travailler sur des projets. Les trimestres personnalisés sont généralement des trimestres qui ne correspondent pas à la répartition traditionnelle des trimestres au cours d’une année civile. Vous pouvez ajouter plusieurs trimestres personnalisés. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Activer des trimestres personnalisés pour les projets</a>.</p>  <p><b>REMARQUE</b> : </p><p>[!DNL Workfront] Les administrateurs et administratrices ne peuvent pas déverrouiller les préférences [!UICONTROL Custom Quarters].</p> </td> 
+   <td> <p>Configurez des trimestres annuels personnalisés pour les personnes qui vont travailler sur des projets. Les trimestres personnalisés sont généralement des trimestres qui ne correspondent pas à la répartition traditionnelle des trimestres au cours d’une année civile. Vous pouvez ajouter plusieurs trimestres personnalisés. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Activer les trimestres personnalisés</a>.</p>  <p><b>REMARQUE</b> : </p><p>[!DNL Workfront] Les administrateurs et administratrices ne peuvent pas déverrouiller les préférences [!UICONTROL Custom Quarters].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -252,7 +252,7 @@ Vous pouvez créer une analyse de rentabilité pour les projets nouvellement cr�
 
 Une fois que l’équipe d’administration [!DNL Workfront] a activé les sections sur l’[!UICONTROL analyse de rentabilité], le ou la propriétaire du projet peut créer une analyse de rentabilité au niveau du projet. Pour plus d’informations sur la création d’une analyse de rentabilité, voir [Créer une analyse de rentabilité pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-### [!UICONTROL Reprise après une période d’inactivité] {#life-after-death}
+### [!UICONTROL Reprise après une période d’inactivité]  {#life-after-death}
 
 Configurez l’une des préférences suivantes pour les projets nouvellement créés dans tout le système :
 

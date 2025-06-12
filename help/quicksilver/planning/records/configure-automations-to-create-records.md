@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1796'
 ht-degree: 7%
 
 ---
-
 
 # Configuration des automatisations d’Adobe Workfront Planning
 
@@ -64,18 +64,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
-<p>La planification de front de travail n’est pas disponible pour les plans de front hérités</p> 
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
-<p>Pour plus d’informations sur ce qui est inclus dans chaque plan Workfront Planning, contactez votre responsable de compte Workfront. </p> 
+<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Plateforme Workfront</p></td> 
+   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -94,8 +94,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td> <p>Manage permissions to the workspace <span class="preview">and to the record type</span> where you want to create automations. </p>
-   <p>System Administrators have Manage permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Gérez les autorisations sur l’espace de travail <span class="preview">et sur le type d’enregistrement</span> où vous souhaitez créer des automatisations. </p>
+   <p>Les administrateurs système disposent des autorisations de niveau Gérer pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés</p>
    </td> 
   </tr> 
 <tr> 
@@ -145,7 +145,7 @@ Sélectionnez l’une des actions suivantes :
       * Créer un enregistrement
       * Créer un programme
       * Créer un portfolio
-      * Créer un groupe
+      * Créer le groupe
 
      >[!TIP]
      >
@@ -170,14 +170,14 @@ Sélectionnez l’une des actions suivantes :
       * **Modèle de projet** : si vous avez sélectionné l’option **Utiliser le même modèle**, sélectionnez un modèle de projet que Workfront utilisera pour créer les projets.
 
    * **Créer un portefeuille** :
-      * **Champ connecté où le portefeuille est créé** : il s’agit du champ connecté où le nouveau portefeuille s’affichera. Champ obligatoire.
-      * **Formulaire personnalisé à joindre au nouveau porte-documents** : Sélectionnez un formulaire personnalisé à joindre au nouveau porte-documents. Vous devez créer un formulaire personnalisé de porte-documents avant de pouvoir le sélectionner.
-   * **Créer le programme** :
-      * **Champ connecté où le programme est créé :** Il s’agit du champ connecté où le nouveau programme s’affichera. Champ obligatoire.
-      * **Portefeuille** de programmes : Sélectionnez un portefeuille où le nouveau programme sera ajouté. Champ obligatoire.
-      * **Formulaire personnalisé à joindre au nouveau programme** : Sélectionnez un formulaire personnalisé à joindre au nouveau programme. Vous devez créer un formulaire personnalisé de programme avant de pouvoir le sélectionner.
+      * **Champ connecté où le portfolio est créé** : il s’agit du champ connecté où le nouveau portfolio s’affichera. Champ obligatoire.
+      * **Formulaire personnalisé à joindre au nouveau portefeuille** : sélectionnez un formulaire personnalisé à joindre au nouveau portefeuille. Vous devez créer un formulaire personnalisé de portfolio avant de pouvoir le sélectionner.
+   * **Créer un programme** :
+      * **Champ connecté où le programme est créé** : il s’agit du champ connecté où le nouveau programme s’affichera. Champ obligatoire.
+      * **Portefeuille de programmes** : sélectionnez le portefeuille dans lequel le nouveau programme sera ajouté. Champ obligatoire.
+      * **Formulaire personnalisé à joindre au nouveau programme** : sélectionnez un formulaire personnalisé à joindre au nouveau programme. Vous devez créer un formulaire personnalisé de programme avant de pouvoir le sélectionner.
    * **Créer un groupe** :
-      * **Champ connecté où le groupe est créé** : Il s’agit du champ connecté où le nouveau groupe s’affichera. Champ obligatoire.
+      * **Champ connecté où est créé le groupe** : il s’agit du champ connecté où s’affichera le nouveau groupe. Champ obligatoire.
       * **Formulaire personnalisé à joindre au nouveau groupe** : sélectionnez un formulaire personnalisé à joindre au nouveau programme. Vous devez créer un formulaire personnalisé de programme avant de pouvoir le sélectionner.
    * **Créer un enregistrement** :
       * **Type d’enregistrement** : sélectionnez le type d’enregistrement à créer.
@@ -186,23 +186,23 @@ Sélectionnez l’une des actions suivantes :
 
          * **Champ sur le type d’enregistrement connecté où l’enregistrement actif s’affichera** : il s’agit du champ connecté sur le type d’enregistrement sélectionné pour l’action où l’enregistrement actif s’affichera.
 
-        Par exemple, si vous créez une automatisation à partir de laquelle les campagnes peuvent connecter des enregistrements de produit, il s’agit du champ connecté sur le type d’enregistrement de produit où les campagnes s’afficheront, une fois les produits créés à l’aide de l’automatisation.
+        Par exemple, si vous créez une automatisation pour que les campagnes connectent les enregistrements de produit à partir de , il s’agit du champ connecté sur le type d’enregistrement de produit à partir duquel les campagnes s’afficheront, une fois les produits créés à l’aide de l’automatisation.
 
         Champ obligatoire.
 
         <!--submitted a change in functionality and UI text for this - revise??-->
-Dans la **zone Champs** de carte, mettez à jour les informations suivantes :
+Dans la zone **Champs de carte**, mettez à jour les informations suivantes :
 
-         * **Transférer de** : sélectionnez des champs dans le type d’enregistrement pour lequel l’automatisation est créée pour les mapper aux champs du type d’enregistrement connecté.
-         * **Transférer vers** : sélectionnez des champs de l’enregistrement nouvellement créé qui seront remplis avec les informations de l’enregistrement à partir duquel vous exécutez l’automatisation.
+         * **Transférer depuis** : sélectionnez les champs à partir du type d’enregistrement pour lequel l’automatisation est créée afin de les mapper aux champs du type d’enregistrement connecté.
+         * **Transférer vers** : sélectionnez des champs du nouvel enregistrement qui seront renseignés avec les informations de l’enregistrement à partir duquel vous exécutez l’automatisation.
 
         >[!TIP]
         >
         >* Les types de champ du type d’enregistrement d’origine doivent correspondre aux types de champ du type d’enregistrement nouvellement créé.
-        >* Si vous choisissez Aucun champ, les noms des nouveaux enregistrements seront **Enregistrement** sans titre.
+        >* Si vous choisissez aucun champ, les noms des nouveaux enregistrements seront **Enregistrement sans titre**.
 
 1. (Facultatif et conditionnel) Si vous avez choisi de créer un enregistrement, cliquez sur **Ajouter des champs** pour mapper des champs de recherche supplémentaires d’un enregistrement à un autre.
-1. (Conditionnel) S’il n’existe aucun champ de connexion entre le type d’enregistrement d’origine et le type d’enregistrement sélectionné dans le champ Type d’enregistrement **&#x200B;**, cliquez sur **Ajouter un champ** connecté.
+1. (Conditionnel) S’il n’existe aucun champ de connexion entre le type d’enregistrement d’origine et le type d’enregistrement sélectionné dans le champ **Type d’enregistrement**, cliquez sur **Ajouter un champ connecté**.
 
    ![Configuration de l’automatisation pour créer un enregistrement](assets/automation-setup-create-record.png)
 

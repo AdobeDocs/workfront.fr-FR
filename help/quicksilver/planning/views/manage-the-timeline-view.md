@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: dae692617f447c446a421207143225b33b51debe
 workflow-type: tm+mt
-source-wordcount: '3152'
-ht-degree: 46%
+source-wordcount: '3512'
+ht-degree: 41%
 
 ---
 
@@ -63,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -128,17 +128,51 @@ Pour gérer une vue chronologique :
    >
    >    Le tri des enregistrements dans la chronologie n’est pas visible dans la vue compacte.
 
+1. <span class="preview"> (Conditionnel) Si votre administrateur a activé les trimestres personnalisés et que Workfront détecte des problèmes liés à la configuration des trimestres personnalisés, il se peut que vous receviez un avertissement lors de l’ouverture de la vue chronologique. </span>
+
+   <div class="preview">
+
+   Les scénarios suivants sont possibles :
+
+   * Si des écarts ou des chevauchements ont été détectés entre les dates des trimestres, vous pouvez recevoir une notification indiquant que les trimestres personnalisés peuvent désormais être configurés et qu’ils doivent être modifiés.
+
+     ![Notification des trimestres personnalisés manquante ou lacune entre les trimestres](assets/custom-quarter-notification-missing-or-gaps.png)
+
+     >[!TIP]
+     >
+     >Ce message ne doit s&#39;afficher qu&#39;immédiatement après l&#39;activation des trimestres Planning et personnalisés par votre organisation avant l&#39;achat. Les chevauchements et les écarts entre les trimestres ne sont pas autorisés après l’activation de Workfront Planning pour votre organisation.
+
+   * Si des trimestres ont été partiellement configurés et qu&#39;il manque certains mois de la même année, vous pouvez recevoir une notification lorsque vous faites défiler l&#39;écran pour afficher les trimestres manquants. Ainsi, le reste de l&#39;année doit être configuré avec les trimestres manquants.
+
+   ![Message d’origine des trimestres personnalisés manquant dans la vue chronologique](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+
+   Ces messages d’avertissement s’affichent une fois par utilisateur.
+
+   >[!NOTE]
+   >
+   >Si le trimestre personnalisé n’est pas correctement enregistré, la vue chronologique affiche les trimestres classiques.
+   >Après avoir configuré les trimestres personnalisés dans la zone Configuration , la vue chronologique affiche les trimestres personnalisés au lieu des trimestres classiques.
+   >Pour plus d’informations, voir [Activer les trimestres personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+   </div>
+
+1. <span class="preview">(Conditionnel) Si vous êtes un administrateur Workfront, cliquez sur **Accéder à la configuration** pour configurer vos trimestres. Si ce n’est pas le cas, cliquez sur **OK** et demandez à votre administrateur Workfront de configurer les trimestres personnalisés.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Le bouton Accéder à la configuration s’affiche uniquement pour l’administrateur Workfront.</span>
+
 1. (Facultatif et conditionnel) Lorsque le nom d’enregistrement est tronqué, passez la souris sur une barre d’enregistrement pour afficher le nom complet de l’enregistrement et des informations supplémentaires.
 
 1. Effectuez l’une des opérations suivantes pour naviguer dans la chronologie :
 
    * Cliquez sur les icônes de gauche et de droite ou utilisez le défilement horizontal pour vous déplacer vers l’arrière et vers l’avant dans la chronologie. L’actualisation de la page conserve la période sélectionnée.
-   * Cliquez sur **Aujourd’hui** pour centrer la chronologie sur la date d’aujourd’hui.
-   * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
+   * Cliquez sur **Aujourd’hui** pour centrer la chronologie sur la date du jour.
+   * Sélectionnez l’une des options suivantes dans le menu déroulant Période pour mettre à jour les incréments de temps et mettre à jour la vue :
 
-      * Année
-      * Trimestre
-      * Mois
+      * **Année** : affiche les trimestres et les mois avec l’indication de l’année.
+      * **Trimestre** : affiche les mois et les semaines avec l’indication du trimestre.
+      * **Mois** : affiche les semaines et les jours.
 1. (Facultatif) Cliquez sur **Basculer vers la vue compacte** pour afficher les enregistrements dont les dates ne se coupent pas sur la même ligne. <!--check to see if they updated the name of the setting here-->
 1. (Conditionnel) Si vous avez modifié votre mode en **Compact**, cliquez sur **Passer à la vue Standard** pour afficher les enregistrements sur des lignes distinctes. <span class="preview">L’option **Standard** est la valeur par défaut.</span>  <!--check to see if they updated the name of the setting here-->
 
@@ -268,6 +302,16 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
    >* Les enregistrements qui n’ont pas de valeurs pour les dates de début ou de fin ou dont la date de début est postérieure à la date de fin ne s’affichent pas dans la vue chronologique.
    >
    >* Si vous affichez des enregistrements supplémentaires à l&#39;aide de l&#39;option Répartition , les dates de Début et de Fin sont celles de l&#39;enregistrement principal. Vous ne pouvez pas choisir les dates de début et de fin pour les enregistrements connectés dans cette zone.
+
+1. <span class="preview">(Conditionnel et facultatif) Si vous êtes un administrateur Workfront, cliquez sur **Accéder à la configuration** dans la zone **Utiliser des trimestres personnalisés** pour accéder à la zone Configuration et configurer des trimestres personnalisés. Après avoir configuré les trimestres personnalisés, vous pouvez les afficher dans la vue chronologique au lieu des trimestres classiques. Si vous n’êtes pas administrateur Workfront, vous pouvez demander à un administrateur d’activer les trimestres personnalisés pour votre organisation. </span>
+
+   Pour plus d’informations, voir [Activer les trimestres personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+   ![Utiliser l’avertissement des trimestres personnalisés dans les paramètres de la vue chronologique](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+
+   >[!TIP]
+   >
+   ><span class="preview">Le bouton Accéder à la configuration s’affiche uniquement pour l’administrateur Workfront.</span>
 
 1. Cliquez sur **Style de barre** dans le panneau de gauche pour indiquer les informations à afficher sur les barres d’enregistrement.
 

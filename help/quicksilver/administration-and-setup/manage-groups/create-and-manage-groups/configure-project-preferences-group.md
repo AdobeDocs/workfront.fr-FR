@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2765'
 ht-degree: 95%
 
 ---
@@ -239,7 +239,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Trimestres personnalisés</strong> </p> </td> 
-   <td> <p>Configurez des trimestres annuels personnalisés pour les personnes qui vont travailler sur des projets. Les trimestres personnalisés sont généralement des trimestres qui ne correspondent pas à la répartition traditionnelle des trimestres au cours d’une année civile. Vous pouvez ajouter plusieurs trimestres personnalisés. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Activer des trimestres personnalisés pour les projets</a>.</p> <p><b>NOTE</b> : les administrateurs et administratrices Workfront ne peuvent pas déverrouiller les préférences des trimestres personnalisés.</p> </td> 
+   <td> <p>Configurez des trimestres annuels personnalisés pour les personnes qui vont travailler sur des projets. Les trimestres personnalisés sont généralement des trimestres qui ne correspondent pas à la répartition traditionnelle des trimestres au cours d’une année civile. Vous pouvez ajouter plusieurs trimestres personnalisés. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Activer les trimestres personnalisés</a>.</p> <p><b>NOTE</b> : les administrateurs et administratrices Workfront ne peuvent pas déverrouiller les préférences des trimestres personnalisés.</p> </td> 
   </tr> 
  </tbody> 
 </table>

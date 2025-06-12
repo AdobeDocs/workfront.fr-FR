@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2263'
-ht-degree: 45%
+source-wordcount: '2255'
+ht-degree: 44%
 
 ---
 
@@ -70,7 +70,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -200,8 +200,8 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
    >Tenez compte des points suivants :
    >
    >* Utilisez les raccourcis clavier suivants pour copier et coller des informations :
-   >   * Copier : Ctrl+C (⌘+C pour Mac)
-   >   * Coller : Ctrl+V (⌘+V pour Mac)
+   >   * Copier : Ctrl + C (⌘ + C pour Mac)
+   >   * Coller : Ctrl + V (⌘ + V pour Mac)
    >
    >* Vous ne pouvez pas copier et coller des valeurs de champ dans la page d’enregistrement. Cette fonctionnalité n’est prise en charge que dans la vue de tableau d’un type d’enregistrement.
    >* Vous ne pouvez pas copier et coller les valeurs des champs suivants :
@@ -211,8 +211,8 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
 1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir la modification ou la copie et le collage des informations d’enregistrement :
 
-   * CTRL + Z (⌘ + Z pour Mac) pour annuler une modification
-   * CTRL + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir une modification
+   * Ctrl + Z (⌘ + Z pour Mac) pour annuler une modification
+   * Ctrl+Maj+Z (⌘+Maj+Z pour Mac) pour rétablir une modification
 
    >[!TIP]
    >
@@ -242,7 +242,7 @@ Pour plus d’informations, consultez la section [Gérer les vues des enregistre
 
 1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
 
-   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Commencez à modifier les informations du champ dans l’aperçu de l’enregistrement.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1505'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,7 @@ Vous pouvez partager un type d’enregistrement avec d’autres utilisateurs pou
 >[!IMPORTANT]
 >
 >Les utilisateurs ayant accès à un espace de travail obtiennent automatiquement au moins des autorisations d’affichage pour tous les types d’enregistrements de l’espace de travail.
->Le partage de vues ne donne pas aux utilisateurs les autorisations pour les types d’enregistrements. Seuls les espaces de travail de partage peuvent accorder aux utilisateurs des autorisations pour les types d’enregistrements.
+>>Le partage de vues ne donne pas aux utilisateurs les autorisations pour les types d’enregistrements. Seuls les espaces de travail de partage peuvent accorder aux utilisateurs des autorisations pour les types d’enregistrements.
 >
 >* Pour obtenir des informations générales sur le partage d’objets dans Workfront Planning, consultez également la section [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Pour plus d’informations, consultez la section [Considérations lors du partage de types d’enregistrements](#considerations-when-sharing-record-types) de cet article.
@@ -74,7 +74,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
 <p>Les utilisateurs doivent être ajoutés au Adobe Admin Console afin d’obtenir des autorisations pour les vues Workfront Planning.</p>
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 

@@ -6,9 +6,9 @@ description: Vous pouvez supprimer des problèmes ou des requêtes dans Adobe W
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 79%
 
 ---
@@ -132,10 +132,12 @@ Selon la manière dont votre équipe d’administration Workfront ou de groupes 
    ![Menu Autres événements](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Cliquez sur **Supprimer le problème**.
-1. Si la suppression est autorisée, cliquez sur **Supprimer**.
+1. Cliquez sur **Supprimer** pour.
 
-   Il se peut que votre administrateur ou administratrice Workfront n’autorise pas la suppression des problèmes dans lesquels des heures sont consignées.\
-   Pour plus d’informations sur l’accès et les autorisations nécessaires à la suppression d’un problème, consultez la section [Considérations relatives à la suppression des problèmes](#considerations-for-deleting-issues) dans cet article.
+   >[!NOTE]
+   >
+   >  Il se peut que votre administrateur ou administratrice Workfront n’autorise pas la suppression des problèmes dans lesquels des heures sont consignées.\
+   >  Pour plus d’informations sur l’accès et les autorisations nécessaires à la suppression d’un problème, consultez la section [Considérations relatives à la suppression des problèmes](#considerations-for-deleting-issues) dans cet article.
 
 ## Restaurer des problèmes supprimés
 

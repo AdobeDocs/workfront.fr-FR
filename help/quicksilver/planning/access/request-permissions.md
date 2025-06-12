@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '739'
 ht-degree: 14%
 
 ---
@@ -76,7 +76,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de Workfront Planning.</p> 
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
 <p><b>IMPORTANT</b></p>
 <p>Les utilisateurs de votre organisation peuvent demander des autorisations pour les vues et les espaces de travail uniquement lorsque votre organisation a intégré l’expérience unifiée Adobe. </p>
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
@@ -140,10 +140,8 @@ Lorsqu&#39;une personne partage avec vous un lien vers un espace de travail ou u
 
    Tous les utilisateurs disposant d’autorisations de niveau Gérer pour l’affichage ou l’espace de travail reçoivent les notifications suivantes pour la demande d’accès :
    * Une notification in-app
-
      ![Notification in-app pour la demande d’accès](assets/in-app-notification-for-access-request.png)
    * Notification par e-mail
-
      ![Notification électronique pour la demande d’accès](assets/email-notification-for-access-request.png)
 
 1. (Conditionnel) Lorsque le gestionnaire de l’affichage ou de l’espace de travail vous accorde des autorisations pour l’affichage ou l’espace de travail, vous recevez une notification par e-mail et une notification in-app avec une confirmation que l’autorisation a été accordée. <!--check this - I was not able to test this, but Isk confirmed.-->

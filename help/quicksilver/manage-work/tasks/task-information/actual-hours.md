@@ -7,10 +7,10 @@ description: Les heures que vous consignez pour vos éléments de travail dans A
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 51%
+source-wordcount: '845'
+ht-degree: 49%
 
 ---
 
@@ -144,7 +144,7 @@ Vous devez tenir compte de la conversion de minutes en heures lors de l’accès
 
 Selon la manière dont vous accédez aux heures réelles, elles peuvent être stockées dans les champs et unités suivants de la base de données :
 
-* Dans l’API : la `valuefield` des heures effectives est `actualWorkRequiredDouble` et stockée en heures.
+* Dans l’API : la version ci-dessous de l’API Workfront, dont la publication est prévue pour fin 2025, `valuefield` les heures effectives est `actualWorkRequiredDouble` et stockée en heures. La version actuelle a stocké les heures effectives sous la forme `actualWorkRequired`, qui sont stockées en minutes.
 * Dans l’interface Workfront (champ personnalisé calculé et colonnes) : la `valuefield` des heures effectives est `actualWorkRequired` et stockée en minutes.
 
 <!--Change the above with this when we fix this for the Workfront UI: 

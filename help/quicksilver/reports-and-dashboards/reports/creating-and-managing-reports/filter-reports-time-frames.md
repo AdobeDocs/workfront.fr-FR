@@ -6,10 +6,10 @@ description: Vous pouvez filtrer un rapport selon la période d’une date qui e
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 71%
+source-wordcount: '963'
+ht-degree: 69%
 
 ---
 
@@ -186,7 +186,7 @@ Par exemple, si vous créez un rapport d’heures et que vous souhaitez afficher
   </tr> 
   <tr> 
    <td role="rowheader">Trimestre dernier</td> 
-   <td> <p>Affiche les heures pour lesquelles la date de saisie est une date du trimestre précédant le trimestre en cours, les trimestres ayant été définis ci-dessus.</p> <p>Remarque : si votre administrateur ou administratrice Workfront a activé et défini des trimestres personnalisés pour votre système, les filtres intégrés pour les trimestres sont remplacés par vos informations personnalisées sur les trimestres. Pour plus d’informations sur l’activation des trimestres personnalisés, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Activer les trimestres personnalisés pour les projets</a>.</p> </td> 
+   <td> <p>Affiche les heures pour lesquelles la date de saisie est une date du trimestre précédant le trimestre en cours, les trimestres ayant été définis ci-dessus.</p> <p>Remarque : si votre administrateur ou administratrice Workfront a activé et défini des trimestres personnalisés pour votre système, les filtres intégrés pour les trimestres sont remplacés par vos informations personnalisées sur les trimestres. Pour plus d'informations sur l'activation des trimestres personnalisés, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Activer les trimestres personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Cette année</td> 
