@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
+source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 91%
+source-wordcount: '1616'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 91%
 >
 >La procédure décrite sur cette page ne s’applique qu’aux entreprise qui n’ont pas encore été intégrées à l’Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
 >
->Pour configurer votre liste autorisée si votre organisation a été intégrée à Adobe Admin Console, consultez la section [Domaines autorisés pour les applications et services d’Adobe](https://helpx.adobe.com/fr/enterprise/kb/network-endpoints.html).
+>Pour configurer votre liste autorisée si votre organisation a été intégrée à Adobe Admin Console, consultez la section [Domaines autorisés pour les applications et services d’Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Pour obtenir une liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à Adobe Admin Console, consultez la section [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -164,7 +164,7 @@ Si votre environnement de production se trouve sur le cluster 4, ajoutez les ad
 * 46.51.194.192/32
 * 54.229.129.66/32
 
-Pour plus d’informations sur les adresses IP suivantes, voir [Nouvelles adresses IP pour les e-mails Adobe Workfront avec la version 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
+Pour plus d’informations sur les adresses IP suivantes, voir [Nouvelles adresses IP pour les e-mails Adobe Workfront avec la version 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md).
 
 * 23.251.239.98
 * 23.251.239.99
@@ -423,6 +423,7 @@ Si votre entreprise utilise le filtrage de réseau sortant, ajoutez les domaines
 * fonts.gstatic.com
 * dpm.demdex.net
 * storage.googleapis.com
+* snippet.maze.co
 * *.aptrinsic.com
 * *.static.workfront.com
 
@@ -435,7 +436,7 @@ Si votre entreprise utilise le filtrage de réseau sortant, ajoutez les domaines
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-Si votre organisation se trouve sur l’Adobe Expérience unifiée , elle utilise les domaines suivants. Ces domaines sont couverts sous `*.adobe.com`, mais peuvent être ajoutés si vous le souhaitez.
+Si votre organisation utilise l’expérience unifiée Adobe, elle utilise les domaines suivants. Ces domaines sont couverts sous `*.adobe.com`, mais peuvent être ajoutés si vous le souhaitez.
 
 * &lt;votre domaine>.my.workfront.adobe.com
 * &lt;votre domaine>.preview.workfront.adobe.com
@@ -445,12 +446,12 @@ Si votre organisation se trouve sur l’Adobe Expérience unifiée , elle utilis
 
 Pour Workfront Fusion, ajoutez les domaines suivants :
 
-* Pour les organisations qui ne disposent pas de l’expérience unifiée Adobe :
+* Pour les organisations qui ne disposent pas d’une expérience unifiée Adobe :
    * app.workfrontfusion.com (US AWS)
    * app-eu.workfrontfusion.com (EU AWS)
    * app-az.workfrontfusion.com (US Azure)
 
-* Pour une organisation sur l’Adobe Expérience unifiée
+* Pour l’organisation sur l’expérience unifiée Adobe
 (Ces domaines sont couverts sous `*.adobe.com`, mais peuvent être ajoutés si vous le souhaitez.)
 
    * fusion.adobe.com
