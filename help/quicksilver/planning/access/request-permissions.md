@@ -140,8 +140,10 @@ Lorsqu&#39;une personne partage avec vous un lien vers un espace de travail ou u
 
    Tous les utilisateurs disposant d’autorisations de niveau Gérer pour l’affichage ou l’espace de travail reçoivent les notifications suivantes pour la demande d’accès :
    * Une notification in-app
+
      ![Notification in-app pour la demande d’accès](assets/in-app-notification-for-access-request.png)
    * Notification par e-mail
+
      ![Notification électronique pour la demande d’accès](assets/email-notification-for-access-request.png)
 
 1. (Conditionnel) Lorsque le gestionnaire de l’affichage ou de l’espace de travail vous accorde des autorisations pour l’affichage ou l’espace de travail, vous recevez une notification par e-mail et une notification in-app avec une confirmation que l’autorisation a été accordée. <!--check this - I was not able to test this, but Isk confirmed.-->
