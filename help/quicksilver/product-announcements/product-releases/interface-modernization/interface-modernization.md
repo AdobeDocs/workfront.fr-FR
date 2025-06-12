@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
+source-git-commit: 6fa00a88f6620936ed9af00faf60f61d48c2f825
 workflow-type: tm+mt
-source-wordcount: '4126'
+source-wordcount: '4390'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,16 @@ Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versio
 
 
 ## Administration et configuration
+
+### Mises à jour de l’interface pour la page Informations de clients
+
+**Version préliminaire : 12 juin 2025 ; Version de production : 19 juin 2025**
+
+Nous avons mis à jour la page Informations sur les clients avec un design plus moderne et cohérent avec les autres zones de Workfront.
+
+Pour afficher cette modification, accédez à Configuration > Système > Informations sur le client.
+
+Pour plus d’informations, voir [Configurer les informations de base de votre système](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Mises à jour de l’interface pour la page Importer des données (Kick-Starts)
 
@@ -108,6 +118,22 @@ Nous avons mis à jour la page que vous utilisez pour accorder l’accès à l�
 
 ## Projets
 
+### Mises à jour de l’interface pour la section Projets associés d’un projet (disponible uniquement pour des clients spécifiques)
+
+**Version préliminaire : 12 juin 2025 ; Version de production : 19 juin 2025**
+
+Nous avons mis à jour la section Projets associés d’un projet avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Des clients spécifiques peuvent afficher cette modification en accédant à la section Projets associés d’un projet dans le panneau de gauche.
+
+### Nouvelle apparence de la zone « Enregistrer en tant que modèle »
+
+**Version préliminaire : 12 juin 2025 ; Version de production : 19 juin 2025**
+
+Nous avons mis à jour l’aspect de la zone « Enregistrer en tant que modèle » qui s’affiche lors de l’enregistrement d’un projet en tant que modèle. La nouvelle conception comprend une interface rationalisée, où toutes les sections s’affichent dans un formulaire cohérent que vous pouvez parcourir à l’aide de liens dans le panneau de gauche. La nouvelle conception correspond à d’autres zones et d’autres objets de l’application.
+
+Pour plus d’informations, voir [Enregistrer un projet en tant que modèle](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
+
 ### Mises à jour de l’apparence pour la zone Supprimer l’événement
 
 **Version préliminaire : 29 mai 2025 ; Version de production : 5 juin 2025**
@@ -150,6 +176,21 @@ Pour plus d’informations, voir les articles suivants :
 
 
 ## Rapports et tableaux de bord
+
+### Rapports mis à jour avec un nouveau style
+
+**Version préliminaire : 12 juin 2025 ; Version de production : 19 juin 2025**
+
+Nous avons mis à jour l’aspect de plusieurs rapports afin qu’ils correspondent à la conception d’autres zones de Workfront. Aucune fonctionnalité n’a été modifiée.
+
+Cette mise à jour inclut des modifications visuelles des listes et des barres d’outils des rapports pour les types d’objet suivants :
+
+* Risques
+* Niveaux de référence
+* Taux
+* Modèle de mise en page
+
+Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Les URL avec /tile ou /qstile ne sont plus prises en charge dans les tableaux de bord Workfront
 

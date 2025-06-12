@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: a5a61045bad5a97fb1413fac4a5a2666b753fa83
+source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 11%
+source-wordcount: '515'
+ht-degree: 10%
 
 ---
 
@@ -24,9 +24,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->* Prévisualisation : mercredi 27 mai 2025
->* Version rapide de production : 27 mai 2025
->* Production pour tous les clients : 27 mai 2025
+>* Aperçu : avec la prochaine version de l’API, prévue pour plus tard en 2025
+>* Mise à jour rapide de la production : avec la prochaine version de l’API, prévue pour plus tard en 2025
+>* Production pour tous les clients : avec la prochaine version de l’API, prévue pour plus tard en 2025
 
 Cette mise à jour apporte une modification à la façon dont les heures réelles des projets, tâches et événements sont stockées dans la base de données. À compter de cette mise à jour, les heures effectives utiliseront un champ de valeur de `actualWorkRequiredDouble` (avec une valeur en heures).
 
