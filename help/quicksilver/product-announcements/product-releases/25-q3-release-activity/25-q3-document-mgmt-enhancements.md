@@ -1,22 +1,42 @@
 ---
-title: Améliorations de la gestion des documents pour le troisième trimestre de 2025
-description: Améliorations de la gestion des documents pour le troisième trimestre de 2025
+title: Améliorations apportées à la gestion des relectures et des documents pour le troisième trimestre 2025
+description: Améliorations apportées à la gestion des relectures et des documents pour le troisième trimestre 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
+source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 11%
+source-wordcount: '496'
+ht-degree: 8%
 
 ---
 
-# Améliorations de la gestion des documents pour le troisième trimestre de 2025
+# Améliorations apportées à la gestion des relectures et des documents pour le troisième trimestre 2025
 
 Cette page décrit toutes les améliorations apportées à la gestion des documents avec la version du troisième trimestre 2025 dans l’environnement de Prévisualisation. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du troisième trimestre 2025, consultez la [Vue d’ensemble de la version du troisième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Nouvelle intégration de la relecture et de GenStudio for Performance Marketing
+
+>[!NOTE]
+>
+>* Version de production pour tous les clients : 12 juin 2025
+
+Nous sommes ravis d’introduire une nouvelle intégration entre la relecture et GenStudio for Performance Marketing. Grâce à cette intégration, vous pouvez :
+
+* Utiliser les modèles de validation Workfront pour définir les workflows de validation
+
+* Vérifier le contenu du brouillon dans le lecteur de vérification Workfront
+
+* Voir la section Révision des décisions pour approbation finale et publication dans GenStudio for Performance Marketing
+
+### Exigences d’intégration
+
+Workfront et GenStudio for Performance Marketing doivent être déployés dans la même organisation IMS.
+
+Pour plus d’informations, voir [Prise en main de l’intégration de GenStudio for Performance Marketing avec Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md).
 
 ## Mise à jour du lecteur de vérification pour bureau
 

@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 23%
+source-wordcount: '1371'
+ht-degree: 22%
 
 ---
 
@@ -45,9 +45,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Améliorations apportées aux projets](#project-enhancements)
 * [Amélioration des rapports](#reporting-enhancements)
 * [Améliorations des mises à jour et des notifications](#update-and-notification-enhancements)
+* [Améliorations apportées à l’intégration]
 * [Autres améliorations](#other-enhancements)
 
-### Améliorations de la gestion des documents
+### Améliorations de la relecture et de la gestion des documents
 
 <table style="table-layout:auto">
   <tbody>
@@ -58,6 +59,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle relecture et intégration de GenStudio for Performance Marketing</a>
+            <p>Nous sommes ravis d’introduire une nouvelle intégration entre la relecture et GenStudio for Performance Marketing. Grâce à cette intégration, vous pouvez : 
+            <ul>
+            <li>Utiliser les modèles de validation Workfront pour définir les workflows de validation
+            </li>
+             <li>Vérifier le contenu du brouillon GenStudio dans le lecteur de vérification
+            </li>
+             <li>Voir la section Révision des décisions pour approbation finale et publication dans GenStudio 
+            </li>
+            </ul>
+            </p>
+        </td>
+        <td>vendredi 12 juin 2025</td>
+        <td>vendredi 12 juin 2025</td>
+        <td>vendredi 12 juin 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Mise à jour du lecteur de vérification pour bureau </a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -251,7 +270,7 @@ Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’
 
 ### Améliorations de Workfront Fusion
 
-De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations apportées à Workfront Planning
 
@@ -289,7 +308,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
