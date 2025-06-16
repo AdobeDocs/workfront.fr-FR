@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 11fb8416c4432708b4847486d345ab7a9489f6fb
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '531'
 ht-degree: 8%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 8%
 Cette page décrit toutes les améliorations apportées à la gestion des documents avec la version du troisième trimestre 2025 dans l’environnement de Prévisualisation. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du troisième trimestre 2025, consultez la [Vue d’ensemble de la version du troisième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Mise à jour du lecteur de vérification pour bureau
+
+Le lecteur de vérification pour bureau a été mis à jour vers la version 2.1.50.
+
+Cette mise à jour inclut des mises à jour d’outils internes et n’a aucune incidence sur les fonctionnalités de l’utilisateur final.
+
+Cette mise à jour concerne Mac et Windows.
 
 ## Nouvelle intégration de la relecture et de GenStudio for Performance Marketing
 
