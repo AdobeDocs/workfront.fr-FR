@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: ec018b8987a45cbf29c8a908f3adbdb8aade9d90
+source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
 workflow-type: tm+mt
-source-wordcount: '2407'
-ht-degree: 83%
+source-wordcount: '2479'
+ht-degree: 81%
 
 ---
 
@@ -707,6 +707,33 @@ Ce filtre permet aux messages de passer si la modification apportée contient `f
 }
 ```
 
+#### containsOnly
+
+Ce filtre permet aux messages de passer uniquement lorsque l’ensemble complet des valeurs sélectionnées correspond exactement à la valeur fieldValue du filtre, quel que soit l’ordre. Il ne doit pas y avoir de valeurs supplémentaires ou manquantes.
+
+Remarque : il est utilisé pour les champs de type tableau (à sélection multiple). Cet exemple d’abonnement ci-dessous permet aux messages de passer uniquement lorsque le champ `groups` contient exactement « Choix 3 » et « Choix 4 », sans valeurs supplémentaires ou manquantes, et quel que soit l’ordre.
+
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": [
+                "Choice 3",
+                "Choice 4"
+            ],
+            "state": "newState",
+            "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
 #### modifier
 
 Ce filtre permet aux messages de passer uniquement si le champ spécifié (`fieldName`) a une valeur différente dans oldstate et newstate. Mettre à jour les autres champs en plus de celui spécifié (`fieldName`) ne renverra pas cette modification.
@@ -739,7 +766,7 @@ Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l�
 >[!NOTE]
 >
 >L’abonnement ci-dessous avec le filtre donné ne renverra que les messages dont le nom de la tâche contient `again` sur `oldState`, ce qu’il était avant qu’une mise à jour ne soit effectuée sur la tâche.
->Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
+>>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
 
 ```
 {
