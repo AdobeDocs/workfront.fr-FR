@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
 workflow-type: tm+mt
-source-wordcount: '1330'
-ht-degree: 88%
+source-wordcount: '1341'
+ht-degree: 87%
 
 ---
 
@@ -173,4 +173,9 @@ Dans un formulaire personnalisé avec un saut de section configuré et l’autor
 1. Commencez à créer ou modifier un formulaire personnalisé et à ajouter des champs, comme décrit dans la section [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Prévisualiser** dans le coin supérieur droit pour avoir un aperçu du formulaire lors de son utilisation, puis cliquez sur **Fermer la prévisualisation** pour revenir à la modification du formulaire.
+
+   >[!NOTE]
+   >
+   >La logique avancée n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
+
 
