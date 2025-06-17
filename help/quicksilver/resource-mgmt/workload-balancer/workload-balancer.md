@@ -2,26 +2,26 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: "L’équilibreur de charge de travail : index de l’article"
+title: 'L’équilibreur de charge de travail : index d’article'
 description: L’équilibreur de charge de travail est un outil de planification des ressources d’Adobe Workfront qui vous permet d’affecter des tâches et des problèmes à vos ressources humaines.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 97%
+source-wordcount: '151'
+ht-degree: 96%
 
 ---
 
 # Équilibreur de charge de travail : index des articles
 
-<!--Audited: 12/2023-->
+<!--Audited: 6/2025-->
 
 L’équilibreur de charge de travail est un outil de planification des ressources d’Adobe Workfront qui vous permet d’affecter des tâches et des problèmes à vos ressources humaines.
 
-Pour plus d’informations sur l’équilibreur de charge de travail, comment le parcourir et comment s’en servir pour attribuer du travail, consultez les articles suivants :
+Cette section contient les articles suivants :
 
 * [Vue d’ensemble de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 * [Accès requis pour gérer les ressources dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
