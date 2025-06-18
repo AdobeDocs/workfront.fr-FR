@@ -6,14 +6,16 @@ description: Recalculer les chronologies permet aux personnes chargées de la ge
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 87%
+source-wordcount: '1017'
+ht-degree: 82%
 
 ---
 
 # Recalculer les chronologies des projets
+
+<!--Audited: 06/2025-->
 
 Recalculer les chronologies permet aux personnes chargées de la gestion de déterminer l’impact de différents facteurs liés au projet sur la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévisionnelles.
 
@@ -21,68 +23,41 @@ Les modifications apportées aux plannings, aux congés du personnel et à d’a
 
 Cet article décrit comment le recalcul de la chronologie se produit.
 
+Le recalcul automatique de la chronologie se produit sans accès spécial pour les utilisateurs impliqués dans le projet. En outre, vous pouvez recalculer manuellement la chronologie.
+
 ## Conditions d’accès
 
-<!--drafted for P&P: 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>System administrator to recalculate timeline for all projects in the system</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-Le recalcul automatique de la chronologie se produit sans accès spécial pour les personnes impliquées dans le projet.
-
-Cependant, vous devez disposer des droits d’accès suivants pour recalculer manuellement la chronologie d’un projet :
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nouvelle licence : Standard </p> 
+   Ou
+   <p>Licence actuelle : plan </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès en modification aux projets</p> <p>Administrateur ou administratrice système pour recalculer la chronologie de tous les projets du système.</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux projets</p> <p>Administrateur ou administratrice système pour recalculer la chronologie de tous les projets du système.</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion d’un projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations de gestion d’un projet</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Recalcul automatique
 
@@ -109,7 +84,7 @@ Adobe Workfront recalcule les chronologies tous les jours uniquement pour les p
 
   Pour plus d’informations sur le type de mise à jour des projets, voir [Vue d’ensemble des types de mise à jour des projets](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
-* La dernière mise à jour a été faite au cours des trois derniers mois.\
+* Disposer d’une date de dernière mise à jour au cours des trois derniers mois\
   L’administrateur ou administratice de Workfront peut modifier cette fonctionnalité par défaut, comme décrit dans [Configurer des nouveaux calculs de chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 * La date du dernier calcul de la chronologie du projet ne figure pas dans la journée civile en cours. Cela signifie que la date du dernier calcul de la chronologie du projet est antérieure à 00:00 du jour en cours.

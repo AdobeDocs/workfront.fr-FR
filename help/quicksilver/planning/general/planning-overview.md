@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 42%
+source-wordcount: '2061'
+ht-degree: 39%
 
 ---
 
@@ -183,7 +183,7 @@ Bien que Workfront Planning fasse partie de Workfront, il s’accompagne de conc
 
 Le cadre de Workfront Planning est entièrement personnalisable. Vous pouvez créer tous les types d’enregistrements, leurs attributs et tous les champs qui leur sont associés en fonction des besoins exacts de votre organisation.
 
-Le nombre d’objets Workfront Planning que vous pouvez créer est limité. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [&#128279;](/help/quicksilver/planning/general/limitations-overview.md).
+Le nombre d’objets Workfront Planning que vous pouvez créer est limité. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [](/help/quicksilver/planning/general/limitations-overview.md).
 
 Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning :
 
@@ -277,12 +277,14 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
    * Un type d’enregistrement et un type d’objet de projet, de programme, de portfolio, d’entreprise ou de groupe Workfront.
    * Un type d’enregistrement et une ressource ou un dossier Adobe Experience Manager.
 
-     Vous devez disposer d’une licence Adobe Experience Manager pour lier les types d’enregistrement aux objets Experience Manager.
+     Vous devez disposer d’une licence Adobe Experience Manager pour connecter des types d’enregistrements à des objets Experience Manager.
 
      ![Nouvel onglet de connexion avec les options de Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   Après avoir établi une connexion entre les types d&#39;enregistrements, vous pouvez connecter des enregistrements individuels ou des objets de ces types les uns aux autres. La connexion entre les enregistrements s’affiche sous la forme d’un champ d’enregistrement connecté ou d’une connexion.
+
+  La connexion de types d’enregistrements s’avère utile lorsque plusieurs types d’objets de travail se touchent. Par exemple, vous pouvez utiliser des campagnes, chacune d’elles pouvant correspondre à plusieurs marques. Pour indiquer cette relation, vous pouvez connecter des campagnes à des marques. De plus, le travail de chaque campagne peut être planifié dans plusieurs projets dans Workfront. Pour indiquer cela, vous pouvez connecter les campagnes aux projets appropriés. La connexion de types d’enregistrements et, par la suite, de différents enregistrements permet d’établir cette relation dans Workfront Planning.
 
 * **Champs de recherche** (ou champs liés) : après avoir établi la connexion entre deux types d’enregistrements et connecté des enregistrements individuels, vous pouvez référencer les champs des enregistrements connectés à partir de l’enregistrement à partir duquel vous vous connectez.
 
@@ -299,7 +301,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
   >* Dernière modification par
   >* Champs de saisie semi-automatique Workfront (y compris les champs tels que le propriétaire ou le sponsor du projet)
 
-  Pour plus d’informations sur la création de liens entre les types d’enregistrements et les enregistrements, ainsi que sur la création de champs liés, consultez les articles suivants :
+  Pour plus d’informations sur la connexion des types d’enregistrements et la création de champs liés, consultez les articles suivants :
 
    * [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Connect records](/help/quicksilver/planning/records/connect-records.md)
@@ -323,7 +325,6 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
      ![Regroupement appliqué en mode Chronologie](assets/grouping-applied-in-timeline-view.png)
 
    * **Vue Calendrier** : affiche les enregistrements comportant au moins deux champs de type Date au format d’un calendrier.
-
      ![Exemple de vue Calendrier](assets/calendar-view-example.png)
 
 
@@ -395,7 +396,7 @@ Pour obtenir une liste à jour des fonctionnalités publiées, voir [Activité d
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Modules Adobe Workfront Planning pour Workfront Fusion ](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements ou effectuer un appel API personnalisé vers votre compte Adobe Workfront Planning.
+* [Modules Adobe Workfront Planning pour Workfront Fusion ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements ou effectuer un appel API personnalisé vers votre compte Adobe Workfront Planning.
 
 * [Principes de base de l’API Adobe Workfront Planning ](/help/quicksilver/planning/general/planning-api-basics.md) : l’objectif de l’API Adobe Workfront Planning est de simplifier la création d’intégrations avec Planning en introduisant une architecture REST-ful qui fonctionne via HTTP.
 

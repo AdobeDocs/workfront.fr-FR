@@ -7,7 +7,7 @@ description: Vous pouvez utiliser des expressions de données pour définir des 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
 source-wordcount: '2463'
 ht-degree: 90%
@@ -396,7 +396,7 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
    <td><strong>ARRAYCONTAINS</strong> </td> 
    <td> <p>Recherche une valeur spécifique dans une liste ou un tableau. Si la valeur est trouvée, la fonction renvoie True, sinon elle renvoie False. </p> 
    <p>L’expression est formatée comme suit :</p>
-   <p><code>ARRAY(value 1, value 2)</code></p> 
+   <p><code>ARRAYCONTAINS(array, value)</code></p> 
    </td> 
   </tr>
 
