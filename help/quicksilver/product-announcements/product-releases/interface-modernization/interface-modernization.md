@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f7e8dd73dc50d5e8a600abe42868a6c7096d8ed6
+source-git-commit: 4c09cbe74e8f277cd6a9a7732aa1a93e17f7dfeb
 workflow-type: tm+mt
-source-wordcount: '4583'
+source-wordcount: '4622'
 ht-degree: 2%
 
 ---
@@ -248,15 +248,13 @@ Pour plus d’informations, voir les articles suivants :
 
 ## Rapports et tableaux de bord
 
-<!--
-### Interface updates for the Expense report
+### Mises à jour de l&#39;interface pour l&#39;état de dépenses
 
-Preview release: June 19, 2025; Production release: June 26, 2025
+Version préliminaire : 19 juin 2025 ; Version de production : 26 juin 2025
 
-We have updated the look and feel of the Expense report to match the design of other areas of Workfront.
+Nous avons mis à jour l&#39;aspect de l&#39;état de dépenses pour qu&#39;il corresponde à la conception d&#39;autres zones de Workfront.
 
-For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
--->
+Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Rapports mis à jour avec un nouveau style
 
