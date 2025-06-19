@@ -8,16 +8,24 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 52ba2457ac2870d23e325f64163b683756f88ad4
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 65%
+source-wordcount: '931'
+ht-degree: 50%
 
 ---
 
 # Configurer les mises à jour du système
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 6/2025 -->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 [!DNL Adobe Workfront] génère des mises à jour système automatiques dans la zone [!UICONTROL Mises à jour] d’un objet pour enregistrer les événements suivants :
 
@@ -49,7 +57,7 @@ Par exemple, vous pouvez avoir [!DNL Workfront] qui suit toutes les modification
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td><p>Nouvelle : [!UICONTROL Standard]</p>
    Ou
    <p>Actuelle : [!UICONTROL Plan]</p>
@@ -62,7 +70,7 @@ Par exemple, vous pouvez avoir [!DNL Workfront] qui suit toutes les modification
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,10 +85,6 @@ Vous pouvez déterminer les informations suivies par [!DNL Workfront] lorsque le
 >
 
 
-
-* [Ajouter les champs que vous souhaitez faire suivre par  [!DNL Workfront] ](#add-fields-you-want-workfront-to-track)
-* [Supprimer les champs dont vous ne souhaitez pas le suivi](#remove-fields-you-don-t-want-tracked)
-
 ### Ajouter les champs que vous souhaitez faire suivre par [!DNL Workfront] {#add-fields-you-want-workfront-to-track}
 
 Vous pouvez ajouter les champs que vous souhaitez faire suivre par [!DNL Workfront] pour un type particulier d’objet grâce à l’interface de [!DNL Workfront]. Lorsque les utilisateurs changent d’informations dans ce champ, [!DNL Workfront] enregistre des informations sur la modification en tant que mise à jour du système dans la zone [!UICONTROL Mises à jour] de l’objet.
@@ -92,18 +96,70 @@ Vous pouvez ajouter les champs que vous souhaitez faire suivre par [!DNL Workfro
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Interface]**, puis **[!UICONTROL Mettre à jour les flux]**.
+1. (Facultatif) Dans l’onglet **Champs suivis**, cliquez sur l’un des sous-onglets suivants, selon les types de champs que vous souhaitez suivre dans le flux de mise à jour :
 
-1. &#x200B;Cliquez sur **[!UICONTROL Ajouter des champs]**, puis sélectionnez l’objet dont vous souhaitez effectuer le suivi dans la liste déroulante.
+   * **Champs intégrés** : affiche une liste de champs intégrés.
+   * **Champs personnalisés** : affiche une liste de champs personnalisés. Vous devez créer les champs personnalisés avant qu’ils ne soient disponibles dans la liste.
+   * **Tous les champs** : affiche une liste de champs intégrés et personnalisés.
 
-1. Dans la zone qui s’affiche, commencez à saisir un champ intégré (standard) ou un champ personnalisé pour l’objet, puis sélectionnez-le lorsqu’il apparaît dans la liste.
+1. Cliquez sur **[!UICONTROL Ajouter des champs]**, puis sélectionnez l’objet dont vous souhaitez effectuer le suivi dans la liste déroulante.
+
+   La sélection manuelle des champs n’est pas disponible pour tous les objets qui possèdent une zone Mises à jour.
+
+   Faites votre choix dans les champs des objets suivants :
+
+   * Projet
+   * Tâche
+   * Problème
+   * Portfolio
+   * Programme
+   * l’utilisateur ou de l’utilisatrice
+
+   La zone **Ajouter des champs** s’ouvre pour chaque objet sélectionné.
+1. Dans la zone **Ajouter des champs**, commencez à saisir un champ intégré (standard) ou un champ personnalisé pour l’objet, puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
    >[!NOTE]
    >
    >Si [!DNL Workfront] effectue déjà le suivi du champ, vous ne pouvez pas l’ajouter une deuxième fois à partir de la liste.
 
-1. Après avoir ajouté tous les champs [!DNL Workfront] suivre, cliquez sur **[!UICONTROL Ajouter des champs]**. Les champs intégrés que vous avez ajoutés s’affichent sous le sous-onglet **[!UICONTROL Champs intégrés]** et les champs personnalisés s’affichent sous le sous-onglet **[!UICONTROL Champs personnalisés]**.
+1. Après avoir ajouté tous les champs [!DNL Workfront] suivre, cliquez sur **[!UICONTROL Ajouter des champs]**.
+Les champs intégrés que vous avez ajoutés s’affichent sous le sous-onglet **[!UICONTROL Champs intégrés]** et les champs personnalisés s’affichent sous le sous-onglet **[!UICONTROL Champs personnalisés]**.
+Le sous-onglet **[!UICONTROL Tous les champs]** affiche les champs intégrés et les champs personnalisés suivis par [!DNL Workfront].
 
-   Le sous-onglet **[!UICONTROL Tous les champs]** affiche les champs intégrés et les champs personnalisés qui font l’objet d’un suivi.
+<!-- replace the above when releasing to Preview: 
+
+1. In the panel on the left, click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
+1. (Optional) In the <span class="preview">**Tracked fields** tab</span>, click one of the following subtabs, depending on which types of fields you want to track in the update feed:
+
+   * <span class="preview">**Built-in fields**</span>: Displays a list of built-in fields.
+   * <span class="preview">**Custom fields**</span>: Displays a list of custom fields. You must create the custom fields before they are available in the list. 
+   * <span class="preview">**All fields**</span>: Displays a list of both built-in and custom fields. 
+
+1. Click <span class="preview">**[!UICONTROL Add fields]**,</span> then select the object that you want to be tracked from the drop-down. 
+
+   Manually selecting fields is not available for all the objects that have an Updates area.
+
+   Select from fields for the following objects:
+
+      * Project
+      * Task
+      * Issue
+      * Portfolio
+      * Program
+      * User
+
+   The <span class="preview">**Add fields** </span> box opens, for each object selected.
+1. In the <span class="preview">**Add fields** </span> box, start typing either a built-in (standard) field or a custom field for the object, then select it when it appears in the list.
+
+   >[!NOTE]
+   >
+   >If [!DNL Workfront] is already tracking the field, you can't add it a second time from the list.
+
+1. After adding all the fields you want [!DNL Workfront] to track, <span class="preview"> click **[!UICONTROL Add]**.
+   The built-in fields that you added show under the **[!UICONTROL Built-in fields]** subtab, and the custom fields show under the **[!UICONTROL Custom fields]** subtab.
+   The **[!UICONTROL All fields]** subtab shows both the built-in and the custom fields that [!DNL Workfront] tracks.</span>
+
+-->
 
 ### Supprimer les champs dont vous ne souhaitez pas le suivi {#remove-fields-you-don-t-want-tracked}
 
@@ -115,17 +171,30 @@ Vous pouvez supprimer des champs dont vous ne souhaitez pas que le système effe
 
 1. Sous l’onglet **[!UICONTROL Champs suivis]**, sélectionnez le sous-onglet **[!UICONTROL Tous les champs]**. Les champs intégrés et personnalisés en cours de suivi s’affichent.
 
-1. Sélectionnez le champ dont vous souhaitez arrêter le suivi, puis cliquez sur **[!UICONTROL Supprimer]**.
+1. Sélectionnez le champ dont vous souhaitez arrêter le suivi, puis cliquez sur le bouton **[!UICONTROL Supprimer]**.
+
+
+<!--replace above at Preview release with this:
+
+1. On the <span class="preview">**[!UICONTROL Tracked fields]** tab</span>, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
+
+1. Select the field you want to stop tracking, then click the <span class="preview">**[!UICONTROL Remove]** icon ![Remove icon](assets/remove-icon.png).</span>
+
+-->
 
 1. Dans la case **[!UICONTROL Supprimer le champ]** qui s’affiche, cliquez sur **[!UICONTROL Oui, supprimer]** pour confirmer.
 
-Toutes les mises à jour des champs précédemment suivis sont conservées dans la zone [!UICONTROL Mises à jour] où elles ont été enregistrées.
+   Toutes les mises à jour des champs précédemment suivis sont conservées dans la zone [!UICONTROL Mises à jour] où elles ont été enregistrées.
 
 ## Déterminer les actions suivies par [!DNL Workfront] pour un type d’objet
 
-Vous pouvez demander à [!DNL Workfront] de suivre les actions suivantes que les personnes peuvent effectuer sur les objets dans l’ensemble de l’interface [!DNL Workfront].
+Vous pouvez demander [!DNL Workfront] suivi des actions que les utilisateurs effectuent sur les objets dans l’interface [!DNL Workfront].
 
-Par exemple, vous pouvez demander à [!DNL Workfront] d’enregistrer une mise à jour chaque fois qu’une personne modifie une affectation sur une tâche ou un problème. La modification s’affiche alors sous la forme d’une mise à jour du système dans la zone [!UICONTROL Mises à jour] de la tâche ou du problème.
+Par exemple, vous pouvez demander [!DNL Workfront] enregistrer une mise à jour chaque fois qu’un utilisateur modifie une affectation en tâche ou en événement.
+
+La modification s’affiche alors sous la forme d’une mise à jour du système dans la zone [!UICONTROL Mises à jour] de la tâche ou du problème.
+
+Le tableau suivant décrit les actions que vous pouvez suivre sur les objets dans [!DNL Workfront] :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -203,4 +272,4 @@ Pour configurer les actions que vous souhaitez que [!DNL Workfront] suive, proc�
 1. Cochez la case d’une action pour l’activer ou désélectionnez-la pour la désactiver.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
-Lorsque vous désactivez une action, toute mise à jour précédemment enregistrée relative à cette action est conservée dans la zone [!UICONTROL Mises à jour] ou elle a été enregistrée.
+   Lorsque vous désactivez une action, toute mise à jour précédemment enregistrée la concernant est conservée dans la zone [!UICONTROL Mises à jour] où elle a été enregistrée. [!DNL Workfront] arrête d’enregistrer les nouvelles mises à jour de l’action désactivée.

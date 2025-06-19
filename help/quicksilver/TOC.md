@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 5413ab5cfbb06a7e047a4ccab87e82af7c859cab
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '13262'
+source-wordcount: '13266'
 ht-degree: 87%
 
 ---
@@ -446,8 +446,8 @@ ht-degree: 87%
          * [Désactiver des fonctions](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [Remplacer les taux de facturation des fonctions](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
       * Flux de mise à jour suivis par le système {#system-tracked-updates}
-         * [Mises à jour suivies par le système](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
-         * [Mises à jour suivies par le système](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
+         * [Flux de mises à jour suivies par le système : index des articles](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+         * [Présentation des mises à jour suivies par le système](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
          * [Configurer les mises à jour du système](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
          * [Configurer les préférences pour les mises à jour des utilisateurs et utilisatrices](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
       * Environnements de test Adobe Workfront {#testing-environments}

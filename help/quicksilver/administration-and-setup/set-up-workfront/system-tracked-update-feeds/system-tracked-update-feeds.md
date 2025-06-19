@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: Mises À Jour Suivies Par Le Système
+title: Présentation Des Mises À Jour Suivies Par Le Système
 description: Adobe Workfront capture l’activité qui se produit sur certains objets en consignant les informations de statut dans la zone [!UICONTROL Mises à jour] de l’objet.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 98%
+source-wordcount: '386'
+ht-degree: 95%
 
 ---
 
-# Mises à jour suivies par le système
+# Présentation des mises à jour suivies par le système
 
-<!-- Audited: April, 2024-->
+<!-- Audited: 06/2025-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -73,9 +73,9 @@ Les mises à jour suivies par le système ne sont pas disponibles pour tous les 
 
      Dans [!DNL Workfront], une histoire est une tâche.
    * [!UICONTROL Itération]
-   * [!UICONTROL But]
+   * [!UICONTROL Objectif]
 
-     Vous devez disposer d’une licence supplémentaire pour avoir accès à la zone [!UICONTROL Objectifs]. Pour plus d’informations, voir la section [Conditions requises pour utiliser Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+     Tous les packages Workfront n’incluent pas d’objectifs Workfront. Pour plus d’informations, voir la section [Conditions requises pour utiliser Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Carte] sur un panorama
 
      Pour plus d’informations sur les mises à jour des cartes, voir la section [Utiliser des cartes connectées sur les panoramas](../../../agile/get-started-with-boards/connected-cards.md).

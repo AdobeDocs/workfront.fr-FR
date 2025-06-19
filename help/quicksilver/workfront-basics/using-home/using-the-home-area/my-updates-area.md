@@ -6,9 +6,9 @@ description: Vous pouvez utiliser la zone [!UICONTROL Mes mises à jour] pour co
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '811'
 ht-degree: 88%
 
 ---
@@ -74,15 +74,13 @@ Vous devez disposer des éléments suivants avant de commencer :
 
 ## Accéder à la zone [!UICONTROL Mes mises à jour]
 
-1. Cliquez sur **[!UICONTROL Mes mises à jour]** dans le **[!UICONTROL Menu principal]**.
+{{step1-to-my-updates}}
 
-   ![Mes mises à jour dans le menu principal](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+La zone [!UICONTROL Mes mises à jour] s’affiche.
 
-   La zone [!UICONTROL Mes mises à jour] s’affiche.
+Les approbations et demandes d’accès qui vous sont affectées sont répertoriées dans la première moitié de la page, sous **Mes mises à jour**.
 
-   Les approbations et demandes d’accès qui vous sont affectées sont répertoriées dans la première moitié de la page, sous **Mes mises à jour**.
-
-   ![mentions Mes mises à jour pour les réviseurs](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![mentions Mes mises à jour pour les réviseurs](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Facultatif) Descendez au bas de la zone [!UICONTROL **Mes mises à jour**] et cliquez sur la flèche pointant vers la droite pour afficher d’autres approbations qui s’affichent sur des pages supplémentaires.
 
