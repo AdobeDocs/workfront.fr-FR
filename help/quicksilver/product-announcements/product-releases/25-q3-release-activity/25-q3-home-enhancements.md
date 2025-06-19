@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
+source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 28%
+source-wordcount: '211'
+ht-degree: 17%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 28%
 Cette page décrit toutes les améliorations de l’accueil apportées à l’environnement de Prévisualisation avec la version du troisième trimestre de 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du troisième trimestre 2025, consultez la [Vue d’ensemble de la version du troisième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Mise à jour de l’expérience de commentaire dans la section Mentions de la zone Mes mises à jour
+
+>[!NOTE]
+>
+>* Aperçu : 19 décembre 2024
+>* Version rapide de production : 19 juin 2025
+>* Production pour tous les clients : 19 juin 2025
+
+Nous mettons à jour l’expérience de commentaires dans la section Mentions de la zone Mes mises à jour . Désormais, la même expérience dans la zone Mises à jour de la plupart des objets Workfront est également disponible dans la section Mentions de Mes mises à jour.
+
+Avant cette amélioration, l’expérience de commentaires héritée était disponible dans ce domaine.
+
+Pour plus d’informations, voir [Utiliser la zone Mes mises à jour](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 ## Le widget Mes approbations trie désormais automatiquement par échéance.
 
