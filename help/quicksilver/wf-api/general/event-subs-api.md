@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
+source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
 workflow-type: tm+mt
-source-wordcount: '2479'
-ht-degree: 81%
+source-wordcount: '2632'
+ht-degree: 76%
 
 ---
 
@@ -711,7 +711,9 @@ Ce filtre permet aux messages de passer si la modification apportée contient `f
 
 Ce filtre permet aux messages de passer uniquement lorsque l’ensemble complet des valeurs sélectionnées correspond exactement à la valeur fieldValue du filtre, quel que soit l’ordre. Il ne doit pas y avoir de valeurs supplémentaires ou manquantes.
 
-Remarque : il est utilisé pour les champs de type tableau (à sélection multiple). Cet exemple d’abonnement ci-dessous permet aux messages de passer uniquement lorsque le champ `groups` contient exactement « Choix 3 » et « Choix 4 », sans valeurs supplémentaires ou manquantes, et quel que soit l’ordre.
+>[!NOTE]
+>
+>Il est utilisé pour les champs de type tableau (à sélection multiple). Cet exemple d’abonnement ci-dessous permet aux messages de passer uniquement lorsque le champ `groups` contient exactement « Choix 3 » et « Choix 4 », sans valeurs supplémentaires ou manquantes, et quel que soit l’ordre. Si une chaîne ou un entier est spécifié dans `fieldValue` plutôt qu’un tableau, l’abonnement permet aux messages de passer uniquement lorsque le champ `groups` contient exactement une option et que cette option correspond exactement à la chaîne ou à l’entier spécifié dans `fieldValue` »
 
 
 ```
@@ -729,6 +731,31 @@ Remarque : il est utilisé pour les champs de type tableau (à sélection multip
             ],
             "state": "newState",
             "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
+#### notContains
+
+Ce filtre permet aux messages de passer uniquement lorsque le champ spécifié (`fieldName`) ne contient pas la valeur spécifiée (`fieldValue`) .
+
+>[!NOTE]
+>
+>Il est utilisé pour les champs de type tableau (sélection multiple) ou chaîne. Si le champ est une chaîne, nous vérifierons si la valeur spécifiée n’est pas contenue dans la chaîne (par exemple, « Nouveau » n’est pas dans la chaîne « Projet - Mis à jour »). Si le champ est un tableau et que la valeur de champ spécifiée est une chaîne ou un entier, nous vérifierons si le tableau ne contient pas la valeur spécifiée (par exemple, « Choix 1 » ne se trouve pas dans [ « Choix 2 », « Choix 3 »]). L’exemple d’abonnement ci-dessous permet aux messages de passer uniquement lorsque les champs `groups` ne contiennent pas la chaîne « Groupe 2 ».
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": "Group 2",
+            "state": "newState",
+            "comparison": "notContains"
         }
     ]
 }
@@ -766,7 +793,7 @@ Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l�
 >[!NOTE]
 >
 >L’abonnement ci-dessous avec le filtre donné ne renverra que les messages dont le nom de la tâche contient `again` sur `oldState`, ce qu’il était avant qu’une mise à jour ne soit effectuée sur la tâche.
->&#x200B;>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
+>>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
 
 ```
 {
