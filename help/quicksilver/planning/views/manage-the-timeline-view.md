@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: dae692617f447c446a421207143225b33b51debe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3512'
-ht-degree: 41%
+source-wordcount: '3788'
+ht-degree: 39%
 
 ---
 
@@ -28,8 +28,6 @@ Pour plus d’informations sur les vues d’enregistrement, consultez la section
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -146,7 +144,7 @@ Pour gérer une vue chronologique :
 
    ![Message d’origine des trimestres personnalisés manquant dans la vue chronologique](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
-   Ces messages d’avertissement s’affichent une fois par utilisateur.
+   Les messages d’avertissement relatifs aux trimestres personnalisés s’affichent une fois par utilisateur.
 
    >[!NOTE]
    >
@@ -162,12 +160,12 @@ Pour gérer une vue chronologique :
    >
    ><span class="preview">Le bouton Accéder à la configuration s’affiche uniquement pour l’administrateur Workfront.</span>
 
-1. (Facultatif et conditionnel) Lorsque le nom d’enregistrement est tronqué, passez la souris sur une barre d’enregistrement pour afficher le nom complet de l’enregistrement et des informations supplémentaires.
+1. (Facultatif et conditionnel) Lorsque le nom d’enregistrement est tronqué, passez la souris sur une barre d’enregistrement pour afficher le nom complet de l’enregistrement et des informations supplémentaires. Pour plus d’informations sur la configuration de la troncature de la barre d’enregistrement dans la chronologie, consultez la section [Modifier les paramètres d’affichage de la chronologie](#edit-the-timeline-view-settings) dans cet article.
 
 1. Effectuez l’une des opérations suivantes pour naviguer dans la chronologie :
 
-   * Cliquez sur les icônes de gauche et de droite ou utilisez le défilement horizontal pour vous déplacer vers l’arrière et vers l’avant dans la chronologie. L’actualisation de la page conserve la période sélectionnée.
-   * Cliquez sur **Aujourd’hui** pour centrer la chronologie sur la date du jour.
+   * Cliquez sur les icônes gauche et droite dans le coin supérieur gauche ou utilisez le défilement horizontal pour vous déplacer vers l’arrière et l’avant dans le montage. L’actualisation de la page conserve la période sélectionnée.
+   * Cliquez sur **Aujourd’hui** dans le coin supérieur droit pour centrer la chronologie sur la date d’aujourd’hui.
    * Sélectionnez l’une des options suivantes dans le menu déroulant Période pour mettre à jour les incréments de temps et mettre à jour la vue :
 
       * **Année** : affiche les trimestres et les mois avec l’indication de l’année.
@@ -218,12 +216,105 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue c
 
 * En supprimant les filtres, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
 
-* L’ajout de filtres dans la vue chronologique est identique à l’ajout de filtres dans la vue tableau.
-
-  Pour plus d’informations, consultez la section « Ajout de filtres » dans l’article [Gestion de la vue tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
-
 * Vous pouvez filtrer par champs d’enregistrement connectés ou champs de recherche.
 * Vous pouvez filtrer par champs de recherche qui affichent plusieurs valeurs.
+
+Pour ajouter un filtre à une vue chronologique :
+
+1. Créez une vue chronologique pour une page de type enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Sélectionnez une vue chronologique, puis cliquez sur **Filtres** dans le coin supérieur droit du tableau.
+1. Cliquez sur **Ajouter une condition** et ajoutez les informations suivantes :
+
+   * **Sélectionnez un champ** que vous souhaitez filtrer par <!-- the tip below might change-->
+
+   * **Sélectionnez une option** (ou un modificateur de filtre) pour définir le type de condition auquel le champ doit répondre
+
+     Le tableau ci-dessous présente les modificateurs disponibles pour chaque type de champ.
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>Type de champ</b></th>
+            <th><b>Modificateurs</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Ligne unique, paragraphe, formule </td>
+            <td><p>Contient</p>
+            <p>Ne contient pas</p>
+            <p>Est</p>
+            <p>N’est pas</p>
+            <p>Est vide</p>
+            <p>N’est pas vide</p></td>
+        </tr>
+        <tr><td>Sélection unique</td>
+            <td><p>Est</p>
+            <p>N’est pas</p>
+            <p>Est l’un des</p>
+            <p>N’est aucun de</p>
+            <p>Est vide</p>
+            <p>N’est pas vide</p></td>
+        </tr>
+        <tr>
+            <td>Multi-sélection, personnes</td>
+            <td><p>A l’un des</p>
+            <p>Dispose de tous les</p>
+            <p>Est exactement</p>
+            <p>N’a aucun(e) des</p>
+            <p>Est vide</p>
+            <p>N’est pas vide</p></td>
+        </tr>
+        <tr>
+            <td>Nombre, pourcentage, devise</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Est vide</p>
+            <p>N’est pas vide</p></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td><p>Est</p>
+            <p>N’est pas</p>
+            <p>Est après</p>
+            <p>Est avant</p>
+            <p>Est compris entre</p><p>N’est pas compris entre</p>
+            <p>Est vide</p><p>N’est pas vide</p></td>
+        </tr>
+
+     <tr>
+            <td>Case à cocher</td>
+            <td><p>Est</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * Choisissez une valeur pour le champ sélectionné.
+
+   ![Affichage du tableau de l’interface utilisateur des filtres](assets/filter-ui-table-view.png)
+
+   Il n’y a pas de limite au nombre de conditions de filtrage que vous pouvez ajouter.
+
+1. (Facultatif) Cliquez sur **Ajouter une condition** pour ajouter une autre option de filtrage et répétez les étapes ci-dessus. Le nombre de filtres appliqués s’affiche à gauche de l’icône **Filtres**.
+1. Cliquez sur les opérateurs ci-dessous à gauche pour indiquer comment les conditions de filtrage sont liées et doivent être appliquées :
+
+   * **AND** : toutes les conditions spécifiées doivent être remplies.
+   * **OR** : l’une des conditions spécifiées doit être remplie.
+Il s’agit de l’option par défaut.
+
+   1. (Facultatif) Ajoutez des regroupements de filtres supplémentaires et joignez-les par des opérateurs **AND** ou **OR**.
+
+      ![Filtres à plusieurs niveaux dans les vues](assets/multi-tiered-filters-in-views.png)
+
+   La liste des enregistrements est filtrée automatiquement en fonction de vos critères de filtrage.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (Facultatif) Cliquez sur l’icône **x** pour supprimer une condition de filtre.
+1. (Facultatif) Cliquez sur **Filtres** ou n’importe où sur la page pour fermer la zone des filtres. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
 ### Ajouter un regroupement
@@ -231,8 +322,6 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue c
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 Vous pouvez regrouper des enregistrements par des informations similaires lorsque vous appliquez un regroupement à une vue.
-
-L’ajout de regroupements dans la vue chronologique est identique à l’ajout de regroupements dans la vue tableau.
 
 Tenez compte des points suivants lorsque vous utilisez des regroupements dans la vue chronologique :
 
@@ -320,7 +409,7 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
    Le champ principal (ou titre) de l&#39;enregistrement, tel que défini dans la vue Tableau de l&#39;enregistrement, est sélectionné par défaut.
    <!--adjust this when the primary field is released??-->
 
-1. (Facultatif et le cas échéant) Si vous avez ajouté des miniatures aux enregistrements, sélectionnez l’option Miniature pour afficher l’image associée aux enregistrements dans leur barre d’enregistrement.
+1. (Facultatif et conditionnel) Si vous avez ajouté des miniatures aux enregistrements, sélectionnez l’option **Miniature** pour afficher l’image associée aux enregistrements dans leur barre d’enregistrement.
 
    >[!NOTE]
    >
@@ -340,13 +429,13 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    ![Enregistrement des paramètres de chronologie du panneau des détails avec aperçu](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">(Facultatif et conditionnel) Si vous affichez la frise chronologique en mode Standard, activez le paramètre **Tronquer les détails de la barre**. Lorsqu’elle est activée, les informations des barres d’enregistrement sont tronquées et ne s’affichent entièrement que lorsque vous passez la souris sur les barres. Ce paramètre est désactivé par défaut et les informations sont entièrement affichées sur les barres. </span>
+1. <span class="preview">(facultatif et conditionnel) Si vous affichez la frise chronologique en mode Standard, sélectionnez le paramètre **Tronquer les détails de la barre**. Lorsque cette option est sélectionnée, les informations des barres d’enregistrement sont tronquées et ne s’affichent entièrement que lorsque vous pointez sur les barres. Ce paramètre est désélectionné par défaut et les informations d’enregistrement sont entièrement affichées sur les barres. </span>
 
    ![Paramètre Tronquer activé dans la zone des paramètres de la chronologie mise en surbrillance](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">Le paramètre Tronquer les détails de la barre n’est pas disponible lors de l’affichage de la vue chronologique en mode Compact, et il n’est pas disponible dans la vue Calendrier</span>.
+   ><span class="preview">Le paramètre Tronquer les détails de la barre n’est pas disponible lors de l’affichage de la chronologie en mode Compact.</span>
    >
 
 1. Cliquez sur **Couleur** dans le panneau de gauche pour personnaliser les couleurs des enregistrements et des regroupements dans la chronologie.
@@ -392,13 +481,11 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    Si vous n’avez pas de champ avec des options codées par couleur pour le type d’enregistrement sélectionné, cette option est grisée.
 
-1. <span class="preview">(Facultatif) Si vous utilisez l’option Répartition , répétez les étapes en commençant par l’étape 4 pour chaque enregistrement connecté affiché dans le journal. </span>
+1. <span class="preview">(Facultatif) Si vous utilisez l’option **Répartition**, répétez les étapes commençant par l’étape 4 pour chaque enregistrement connecté affiché dans le journal. </span>
 
 1. Cliquer sur **Enregistrer**.
 
    Les enregistrements s’affichent dans la vue chronologique avec les spécifications que vous avez sélectionnées.
-
-
 
 ### Répartir les enregistrements connectés dans la vue chronologique
 

@@ -5,16 +5,16 @@ description: Tirez parti des cartes de performance pour mesurer l’alignement d
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 99%
+source-wordcount: '1220'
+ht-degree: 98%
 
 ---
 
 # Appliquer une carte de performance à un projet et générer un score d’alignement
 
-<!-- Audited: 02/2024 -->
+<!-- Audited: 06/2025 -->
 
 Tirez parti des cartes de performance pour mesurer l’alignement d’un projet avec les critères précédemment définis d’un portfolio. Une carte de performance reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation.
 
@@ -29,14 +29,14 @@ Pour plus d’informations sur les cartes de performance et sur leur mode de cr�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
    <td>
    <p>Current : Prime ou version ultérieure</p>
    <p>ou</p>
    <p>Hérité : Professionnel ou supérieur</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td>
    <p>Actuel : Standard</p>
    <p>ou</p>
@@ -53,7 +53,7 @@ Pour plus d’informations sur les cartes de performance et sur leur mode de cr�
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

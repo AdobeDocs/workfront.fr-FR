@@ -5,14 +5,16 @@ description: Dans le cadre de la planification des ressources, vous pouvez utili
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 98%
+source-wordcount: '972'
+ht-degree: 87%
 
 ---
 
 # Budgétiser les ressources dans l’analyse de rentabilité à l’aide du planificateur de scénarios
+
+<!--Audited: 06/2025-->
 
 Dans le cadre de la planification des ressources, vous pouvez utiliser le planificateur de scénarios Adobe Workfront pour budgéter les fonctions nécessaires à l’exécution du travail dans un projet lorsque vous créez le business case.
 
@@ -29,11 +31,11 @@ Vous pouvez également budgéter des ressources dans le business case à l’aid
 
 >[!NOTE]
 >
->Nous vous recommandons d’utiliser le planificateur de ressources ou le planificateur de scénarios lorsque vous commencez à travailler sur un projet. Le fait de passer souvent de l’un à l’autre au cours de la vie du projet peut donner lieu à des incohérences dans la manière dont vous budgétez les ressources du projet.
+>Nous vous recommandons de prendre la décision d’utiliser le planificateur de ressources ou le planificateur de scénarios lorsque vous commencez à travailler sur un projet. Le fait de passer souvent de l’un à l’autre au cours de la vie du projet peut donner lieu à des incohérences dans la manière dont vous budgétez les ressources du projet.
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,34 +44,39 @@ Vous devez disposer des éléments suivants :
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Entreprises ou niveau supérieur</p> </td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
+   <td><p>Actuel : Ultimate</p> 
+   <p>Hérité : Professionnel ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou supérieur</p> </td> 
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+   <td><p>Courant : Léger ou supérieur 
+   <p>Hérité : révision ou version supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produit</td> 
-   <td> <p>Vous devez acheter une licence supplémentaire pour le planificateur de scénarios Adobe Workfront pour accéder aux fonctionnalités décrites dans cet article.</p> <p>Pour plus d’informations sur l’obtention du planificateur de scénarios Workfront, voir <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le planificateur de scénarios</a>. </p> </td> 
+   <td role="rowheader"><p>Produit</p></td> 
+   <td><p>Le planificateur de scénarios est inclus dans le plan Ultimate Workfront actuel.</p> 
+   <p>Pour les plans Workfront hérités, vous devez acheter une licence pour Adobe Workfront Scenario Planner, en plus de la licence Workfront, pour accéder à la fonctionnalité décrite dans cet article.</p> <p>Pour plus d’informations sur l’obtention du planificateur de scénarios Workfront, voir <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le planificateur de scénarios</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader"><p>Configurations des niveaux d’accès</p></td> 
    <td> <p>Modifiez l’accès aux éléments suivants : </p> 
     <ul> 
      <li> <p>Projets</p> </li> 
      <li> <p>Données financières</p> </li> 
      <li> <p>Planificateur de scénarios </p> </li> 
-    </ul> <p>Pour plus d’informations sur l’accès nécessaire pour budgéter les ressources, voir également la section <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Accès nécessaire pour budgéter des ressources dans Adobe Workfront</a>.</p> <p>Note : si vous n’avez toujours pas l’accès nécessaire, demandez à votre équipe d’administration Adobe Workfront si elle a défini des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+    </ul> <p>Pour plus d’informations sur l’accès nécessaire pour budgéter les ressources, voir également <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Accès nécessaire pour budgéter les ressources dans Adobe Workfront</a>.</p> <p>Note : si vous n’avez toujours pas l’accès nécessaire, demandez à votre équipe d’administration Adobe Workfront si elle a défini des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td> <p>Gérer les autorisations sur le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander un accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 

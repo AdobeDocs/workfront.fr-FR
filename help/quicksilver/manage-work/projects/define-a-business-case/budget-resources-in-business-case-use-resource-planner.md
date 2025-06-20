@@ -5,7 +5,7 @@ description: Dans le cadre de la planification des ressources, vous pouvez utili
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 95%
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 # Budgétiser les ressources dans l’analyse de rentabilité à l’aide du planificateur de ressources
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 Dans le cadre de la planification des ressources, vous pouvez utiliser le planificateur de ressources au niveau du projet pour budgétiser les fonctions nécessaires à la réalisation des travaux d’un projet lors de l’élaboration de l’analyse de rentabilité.
 
@@ -35,23 +35,23 @@ Vous pouvez également budgétiser les ressources dans l’analyse de rentabilit
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> <p>Current : Prime ou version ultérieure</p>
    <p>Hérité : Pro ou supérieur</p> 
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td> <p>Courant : Léger ou supérieur</p>
    <p>Hérité : révision ou version supérieure</p>
 
 <p><b>IMPORTANT :</b></p> 
-   <p>Nouveau : vous devez disposer d'une licence Standard pour modifier les informations de budgétisation des ressources. </p> 
-   <p>Actuel : Vous devez disposer d'une licence de plan pour modifier les informations de budgétisation des ressources. </p>
+   <p>Actuel : Vous devez disposer d'une licence Standard pour modifier les informations de budget des ressources. </p> 
+   <p>Hérité : Vous devez disposer d'une licence de plan pour modifier les informations de budget des ressources. </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td role="rowheader"><p>Configurations des niveaux d’accès</p></td> 
    <td> <p>Modifiez l’accès aux éléments suivants : </p> 
     <ul> 
      <li> <p>Projets</p> </li> 
@@ -60,13 +60,13 @@ Vous pouvez également budgétiser les ressources dans l’analyse de rentabilit
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td> <p>Gérer les autorisations sur le projet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -5,16 +5,16 @@ description: Dans le cadre de la création d’un business case, vous pouvez cr�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 58%
+source-wordcount: '445'
+ht-degree: 53%
 
 ---
 
 # Créer des objectifs d’analyse de rentabilité
 
-<!-- Audited: 4/2025 -->
+<!-- Audited: 6/2025 -->
 
 Dans le cadre de la création d’un business case, vous pouvez créer une série d’objectifs pour définir les objectifs d’un projet. Ces objectifs sont utilisés pour communiquer l’objectif de la réalisation d’un projet au responsable Portfolio ou au sponsor du projet.
 
@@ -50,12 +50,12 @@ Tenez compte des éléments suivants lorsque vous définissez les objectifs de b
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> <p>Current : Prime ou version ultérieure</p>
    <p>Hérité : Pro ou supérieur</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td>
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td> 
    <p>Actuel : Standard</p> 
    <p>Hérité : plan </p> 
@@ -63,16 +63,16 @@ Tenez compte des éléments suivants lorsque vous définissez les objectifs de b
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux projets</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Accès en modification aux projets</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion ou supérieures du projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td role="rowheader"><p>Autorisations d’objet</p></td> 
+   <td> <p>Autorisations de gestion ou supérieures du projet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

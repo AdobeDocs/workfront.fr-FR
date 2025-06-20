@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 22%
+source-wordcount: '1594'
+ht-degree: 30%
 
 ---
 
@@ -118,16 +118,15 @@ Pour gérer une vue Calendrier :
 
    ![Exemple de vue Calendrier](assets/calendar-view-example.png)
 
-   Les enregistrements associés au type d&#39;enregistrement que vous avez sélectionné s&#39;affichent sous forme de barres dans un calendrier. La couleur des barres correspond à celle de l’icône d’enregistrement.
+   Les enregistrements associés au type d&#39;enregistrement que vous avez sélectionné s&#39;affichent sous forme de barres dans un calendrier. Par défaut, la couleur des barres correspond à celle de l’icône d’enregistrement.
 
 1. Effectuez l’une des opérations suivantes pour parcourir le calendrier :
 
-   * Cliquez sur les icônes de gauche et de droite ou utilisez le défilement horizontal pour vous déplacer dans le calendrier.
-   * Cliquez sur **Aujourd&#39;hui** pour centrer le calendrier sur la date d&#39;aujourd&#39;hui.
+   * Cliquez sur les icônes de gauche et de droite dans le coin supérieur gauche du calendrier ou utilisez le défilement horizontal pour vous déplacer vers l’arrière et l’avant dans le calendrier.
+   * Cliquez sur **Aujourd’hui** dans le coin supérieur droit pour centrer le calendrier sur la date d’aujourd’hui.
    * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
 
       * **Mois** : les enregistrements s’affichent dans un calendrier mensuel.
-
 
       * **Semaine** : les enregistrements s’affichent dans les zones suivantes :
 
@@ -159,16 +158,168 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue C
 
 * En supprimant les filtres, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
 
-* L’ajout de filtres dans la vue Calendrier est identique à l’ajout de filtres dans la vue Tableau.
-
-  Pour plus d’informations, consultez la section « Ajout de filtres » dans l’article [Gestion de la vue tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
-
 * Vous pouvez filtrer par champs d’enregistrement connectés ou champs de recherche.
 
 * Vous pouvez filtrer par champs de recherche qui affichent plusieurs valeurs.
 
+Pour ajouter un filtre à une vue Calendrier :
+
+1. Créez une vue Calendrier pour une page de type enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Sélectionnez une vue de calendrier, puis cliquez sur **Filtres** dans le coin supérieur droit du tableau.
+1. Cliquez sur **Ajouter une condition** et ajoutez les informations suivantes :
+
+   * **Sélectionnez un champ** que vous souhaitez filtrer par <!-- the tip below might change-->
+
+   * **Sélectionnez une option** (ou un modificateur de filtre) pour définir le type de condition auquel le champ doit répondre
+
+     Le tableau ci-dessous présente les modificateurs disponibles pour chaque type de champ.
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>Type de champ</b></th>
+            <th><b>Modificateurs</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Ligne unique, paragraphe, formule </td>
+            <td><p>Contient</p>
+            <p>Ne contient pas</p>
+            <p>Est</p>
+            <p>N’est pas</p>
+            <p>Est vide</p>
+            <p>N’est pas vide</p></td>
+        </tr>
+        <tr><td>Sélection unique</td>
+            <td><p>Est</p>
+            <p>N’est pas</p>
+            <p>Est l’un des</p>
+            <p>N’est aucun de</p>
+            <p>Est vide</p>
+            <p>N’est pas vide</p></td>
+        </tr>
+        <tr>
+            <td>Multi-sélection, personnes</td>
+            <td><p>A l’un des</p>
+            <p>Dispose de tous les</p>
+            <p>Est exactement</p>
+            <p>N’a aucun(e) des</p>
+            <p>Est vide</p>
+            <p>N’est pas vide</p></td>
+        </tr>
+        <tr>
+            <td>Nombre, pourcentage, devise</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Est vide</p>
+            <p>N’est pas vide</p></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td><p>Est</p>
+            <p>N’est pas</p>
+            <p>Est après</p>
+            <p>Est avant</p>
+            <p>Est compris entre</p><p>N’est pas compris entre</p>
+            <p>Est vide</p><p>N’est pas vide</p></td>
+        </tr>
+
+     <tr>
+            <td>Case à cocher</td>
+            <td><p>Est</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * Choisissez une valeur pour le champ sélectionné.
+
+   ![Affichage du tableau de l’interface utilisateur des filtres](assets/filter-ui-table-view.png)
+
+   Il n’y a pas de limite au nombre de conditions de filtrage que vous pouvez ajouter.
+
+1. (Facultatif) Cliquez sur **Ajouter une condition** pour ajouter une autre option de filtrage et répétez les étapes ci-dessus. Le nombre de filtres appliqués s’affiche à gauche de l’icône Filtres.
+1. Cliquez sur les opérateurs suivants pour indiquer comment les conditions de filtrage sont liées et doivent être appliquées :
+
+   * **AND** : toutes les conditions spécifiées doivent être remplies.
+   * **OR** : l’une des conditions spécifiées doit être remplie. Il s’agit de l’option par défaut.
+
+   1. (Facultatif) Ajoutez des opérateurs **AND** ou **OR** supplémentaires entre plusieurs regroupements de conditions.
+
+      ![Filtres à plusieurs niveaux dans les vues](assets/multi-tiered-filters-in-views.png)
+
+   La liste des enregistrements est filtrée automatiquement. <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (Facultatif) Cliquez sur l’icône **x** pour supprimer une condition de filtre.
+1. (Facultatif) Cliquez sur **Filtres** pour fermer la zone des filtres. <!--right now you cannot "clear all" for filters, but this might come later-->
+
 ### Modifier les paramètres de la vue Calendrier
 
-La modification des paramètres de la vue Calendrier est similaire à la modification des paramètres d’une vue Chronologie.
+Mettez à jour les paramètres de la vue Calendrier pour indiquer les informations qui s’affichent dans la vue, ainsi que leur mode d’affichage.
 
-Pour plus d’informations, consultez la section « Modifier les paramètres de la vue chronologique » de l’article [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+1. Créez une vue Calendrier pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Cliquez sur **Paramètres**.
+1. Cliquez sur **Date et heure** dans le panneau de gauche, puis sélectionnez une **Date de début** et une **Date de fin** à afficher dans le calendrier. Vous pouvez choisir les dates de début et de fin par défaut, ou tout champ de date disponible.
+
+   Les barres représentant les enregistrements commencent à la date que vous indiquez pour la date de début et se terminent à la date correspondant à la date de fin.
+
+   >[!NOTE]
+   >
+   >* Les enregistrements sans valeur pour les dates de début et de fin ou dont la date de début est postérieure à la date de fin ne s&#39;affichent pas dans la vue Calendrier.
+   >
+   >* Si vous affichez des enregistrements supplémentaires à l&#39;aide de l&#39;option Répartition , les dates de Début et de Fin sont celles de l&#39;enregistrement principal. Vous ne pouvez pas choisir les dates de début et de fin pour les enregistrements connectés dans cette zone.
+
+1. Cliquez sur **Style de barre** dans le panneau de gauche pour indiquer les informations à afficher sur les barres d’enregistrement.
+
+   Le champ principal (ou titre) de l&#39;enregistrement, tel que défini dans la vue Tableau de l&#39;enregistrement, est sélectionné par défaut.
+   <!--adjust this when the primary field is released??-->
+
+1. (Facultatif et conditionnel) Si vous avez ajouté des miniatures aux enregistrements, sélectionnez l’option **Miniature** pour afficher l’image associée aux enregistrements dans leur barre d’enregistrement.
+
+   >[!NOTE]
+   >
+   >    Vous devez d’abord ajouter des miniatures en mode Tableau avant de pouvoir les afficher en mode Calendrier. Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+1. Cliquez sur **Ajouter un champ**, puis dans la zone **Rechercher des champs**, et cliquez sur le champ à ajouter.
+
+   >[!TIP]
+   >
+   >   * Vous devez créer les champs avant de les ajouter aux barres d’enregistrement.
+   > 
+   >   * Vous devez disposer d’au moins un champ sélectionné. Le **nom** est sélectionné par défaut.
+   >
+   >   * Vous pouvez ajouter jusqu’à 5 champs.
+
+   Un aperçu de l’apparence des barres sur le calendrier s’affiche à droite.
+
+   ![Section Style de barre dans les paramètres d’affichage du calendrier](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
+
+1. Cliquez sur **Couleur** dans le panneau de gauche pour personnaliser les couleurs des enregistrements du calendrier.
+
+   ![Panneau de couleurs dans les paramètres d’affichage du calendrier](assets/color-panel-on-calendar-view-settings.png)
+
+1. Dans la section **Définir la couleur de l’enregistrement sur**, sélectionnez l’une des options suivantes pour définir une couleur pour les enregistrements :
+
+   * **Type d’enregistrement** : la couleur des barres d’enregistrement du calendrier correspond à la couleur du type d’enregistrement que vous avez sélectionné. Il s’agit de l’option par défaut.
+   * **Valeurs de champ** : la couleur des enregistrements correspond à la couleur d’un champ que vous spécifiez.
+   * **Aucune** : les enregistrements s’affichent dans une barre blanche.
+
+1. (Le cas échéant) Si vous avez sélectionné **Valeurs de champ** pour les couleurs des enregistrements, sélectionnez un champ dans le menu déroulant **Faire correspondre la couleur de l’enregistrement à**.
+
+   ![Menu déroulant du sélecteur de champ pour la vue Calendrier](assets/field-selector-drop-down-menu-calendar-view.png)
+
+   Seuls les champs dont les options sont codées en couleur s’affichent dans le menu déroulant.
+
+   Par exemple, les champs à sélection multiple ou unique peuvent avoir des options codées par couleur.
+
+   Si vous n’avez pas de champ avec des options codées par couleur pour le type d’enregistrement sélectionné, cette option est grisée.
+
+
+1. Cliquer sur **Enregistrer**.
+
+   Les enregistrements s’affichent dans la vue Calendrier avec les spécifications que vous avez sélectionnées.

@@ -8,10 +8,10 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 73%
+source-wordcount: '718'
+ht-degree: 72%
 
 ---
 
@@ -42,15 +42,13 @@ Vous pouvez créer une carte de performance de la manière suivante :
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des droits d&#39;accès suivants :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>Nouveau : [!UICONTROL Prime] ou supérieur</p>
+   <td> <p>Nouveau : Ultimate</p>
    <p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p> 
    </td> 
   </tr> 
@@ -60,10 +58,15 @@ Vous devez disposer des droits d&#39;accès suivants :
    <p>Actuelle : [!UICONTROL Plan]</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Niveau d’accès</p></td> 
+   <td><p>Administrateur ou administratrice système</p>
+   </td> 
+  </tr>
  </tbody> 
 </table>
 
-* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

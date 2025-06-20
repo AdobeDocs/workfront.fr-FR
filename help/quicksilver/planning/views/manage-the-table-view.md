@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3676'
-ht-degree: 51%
+source-wordcount: '3633'
+ht-degree: 50%
 
 ---
 
@@ -34,8 +34,6 @@ Cet article décrit les informations suivantes :
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -180,7 +178,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -259,8 +257,6 @@ Tenez compte des points suivants lorsque vous utilisez des filtres en mode Table
 * Vous ne pouvez pas nommer les filtres que vous créez et appliquez à une vue en tableau.
 
 * Supprimer des filtres les rend inaccessibles à toute personne accédant au même type d’enregistrement que vous et utilisant la même vue que vous.
-
-* Ajouter des filtres à la vue en tableau est identique à l’ajout de filtres à la vue chronologique.
 
 * Vous pouvez filtrer par champs d’enregistrement connectés ou champs de recherche.
 
@@ -432,8 +428,6 @@ Pour trier les enregistrements <!--ungrouped (add this when sorting for grouping
 
 Vous pouvez regrouper des enregistrements par des informations similaires lorsque vous appliquez un regroupement à une vue.
 
-L’ajout de regroupements dans la vue de tableau est similaire à l’ajout de regroupements dans la vue chronologique.
-
 Tenez compte des points suivants :
 
 * Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
@@ -464,6 +458,8 @@ Pour ajouter un regroupement :
 
    Le nombre de champs sélectionnés pour le regroupement s’affiche à côté de l’icône de regroupement.
 
+   <!--replace screen shot for Expand all-->
+
    ![Regroupement appliqué en mode Tableau](assets/grouping-applied-in-table-view.png)
 
 1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement pour le supprimer.
@@ -475,6 +471,26 @@ Pour ajouter un regroupement :
 1. Cliquez en dehors de la zone **Regrouper les enregistrements par** pour la fermer.
 1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** à la fin de tout regroupement pour ajouter de nouveaux enregistrements, puis actualisez votre page pour ajouter le nouvel enregistrement au regroupement approprié. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
+<!--
+
+1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+
+    <div class="preview">
+
+    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+
+        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+
+    1. Right-click any of the grouping headers in the table view, then click one of the following options:
+        * **Expand group**
+        * **Collapse group**
+        * **Expand all**
+        * **Collapse all**
+        * **Expand subgroups**
+        * **Collapse subgroups**
+
+        Depending on the number of groupings you apply to the view, some options might not be available.</div>
+-->
 
 <!-- this is not available yet: 
 

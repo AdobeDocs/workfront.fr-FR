@@ -6,16 +6,16 @@ description: Les risques sont des événements ou des facteurs possibles qui emp
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 64%
+source-wordcount: '1108'
+ht-degree: 62%
 
 ---
 
 # Créer et modifier des risques sur les projets
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -44,27 +44,30 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> 
-   <p>Tous</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
+   <td> <p>Plans actuels :</p>
+   <ul><li>Tout plan permettant d’ajouter des risques dans la zone Risques du projet.</p></li>
+   <li><p>Prime ou version ultérieure, pour ajouter des risques dans l’analyse de rentabilité du projet</p></li></ul>
+   <p>Plans hérités : tous les plans</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard </p>
-   <p>Actuel : formule </p> </td> 
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+   <td> <p>Actuel : Standard </p>
+   <p>Hérité : plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td role="rowheader"><p>Configurations des niveaux d’accès</p></td> 
    <td> <p>Modifier l’accès aux projets et aux données financières</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td> <p> Autorisations de gestion qui incluent la gestion des finances sur le projet pour lequel vous souhaitez créer ou modifier des risques. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
