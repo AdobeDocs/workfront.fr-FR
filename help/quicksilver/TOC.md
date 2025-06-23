@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: d5b0043ed251bfdb6501d091cf10d77685bc497b
 workflow-type: tm+mt
-source-wordcount: '13266'
+source-wordcount: '13201'
 ht-degree: 87%
 
 ---
@@ -1699,17 +1699,6 @@ ht-degree: 87%
          * [Partager un tableau de bord](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [Supprimer une page externe d’un tableau de bord](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [Vue d’ensemble des tableaux de bord de zone de travail](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * Analytique améliorée {#enhanced-analytics}
-      * [Analytique améliorée](enhanced-analytics/enhanced-analytics.md)
-      * [Vue d’ensemble d’Analytique améliorée](enhanced-analytics/enhanced-analytics-overview.md)
-      * [Appliquer des filtres dans Analytique améliorée](enhanced-analytics/use-enhanced-analytics-filters.md)
-      * [Comprendre les KPI d’Analytique améliorée](enhanced-analytics/understand-enhanced-analytics-kpis.md)
-      * [Afficher la visualisation de la feuille de route dans Analytique améliorée](enhanced-analytics/flight-plan-overview.md)
-      * [Afficher la visualisation de l’avancement dans Analytique améliorée](enhanced-analytics/burndown-overview.md)
-      * [Afficher la visualisation des tâches en cours dans Analytique améliorée](enhanced-analytics/tasks-in-flight-overview.md)
-      * [Afficher la visualisation de l’activité de projet dans Analytique améliorée](enhanced-analytics/project-activity-overview.md)
-      * [Afficher la visualisation d’arborescence du projet dans Analytique améliorée](enhanced-analytics/project-treemap-overview.md)
-      * [Afficher la visualisation Activité par équipe dans l’analytique améliorée](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Présentation de Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Créer un compte de lecteur ou une connexion pour Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
