@@ -7,14 +7,16 @@ description: L’Indice Coûts Horaire Performances (CSI) est un calcul automati
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 99%
+source-wordcount: '331'
+ht-degree: 65%
 
 ---
 
 # Calculer l’Indice Coûts Horaire Performances (CSI)
+
+<!-- Audited: 6/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.) </p>
@@ -22,19 +24,16 @@ ht-degree: 99%
 
 ## Vue d’ensemble de l’Indice Coûts Horaire Performances (CSI)
 
-L’Indice Coûts Horaire Performances (CSI) est un calcul automatique qui combine l’Indice Coûts Performance (ICP) et l’Indice Horaire Perdormances (SPI) en une mesure générale qui équilibre les coûts et le planning. Si vous multipliez ces valeurs, une seule mesure peut expliquer un planning prolongé à un budget réduit ou vice versa. Les personnes gestionnaires de projet peuvent l’utiliser pour déterminer l’intégrité générale du projet ou de la tâche lorsque le coût est sacrifié pour respecter le planning à mi-projet.
+L’Indice Coûts Horaire Performances (CSI) est un calcul automatique qui combine l’Indice Coûts Performance (ICP) et l’Indice Horaire Perdormances (SPI) en une mesure générale qui équilibre les coûts et le planning. Si vous multipliez ces valeurs, une seule mesure peut expliquer un planning prolongé à un budget réduit ou vice versa. Les chefs de projet peuvent l’utiliser pour déterminer l’intégrité générale d’un projet ou d’une tâche lorsque le coût est sacrifié pour établir un calendrier à mi-parcours d’un projet.
 
 >[!TIP]
 >
->Adobe Workfront calcule le CSI pour les tâches et les projets. Workfront ne calcule pas le CSI des problèmes.
+>Adobe Workfront calcule l’ICH pour les tâches et les projets, mais pas pour les événements.
 
-Vous ne pouvez bénéficier des informations fournies par cette mesure que si les conditions suivantes sont remplies :
+Vous ne pouvez bénéficier des informations fournies par cette mesure que si les scénarios suivants existent au sein de votre organisation :
 
-* Vos utilisateurs et utilisatrices consignent les heures pour le travail effectué.\
-  Le CSI sera calculé en fonction des heures.
-* Des taux de coût par heure sont associés à vos utilisateurs et utilisatrices ou fonctions. 
-
-  Le CSI sera calculé en fonction des coûts.
+* Vos utilisateurs consignent le temps nécessaire au travail qu’ils ont terminé. Le CSI sera calculé en fonction des heures.
+* Vos utilisateurs ou fonctions sont associés à des taux de coût par heure. Le CSI sera calculé en fonction des coûts.
 
 ## Calcul de l’Indice Coûts Horaire Performances (CSI) par Workfront
 
@@ -58,11 +57,11 @@ Le CSI a les trois valeurs possibles suivantes :
 
 >[!CAUTION]
 >
->Vous devez avoir un accès en affichage aux données financières de votre niveau d’accès et des autorisations d’affichage sur le projet ou la tâche pour voir la valeur du CSI d’un projet ou d’une tâche.
+>Vous devez avoir accès à Afficher les données financières dans votre niveau d&#39;accès et disposer des autorisations pour Afficher le projet ou la tâche afin d&#39;afficher la valeur CSI d&#39;un projet ou d&#39;une tâche.
 
 Vous trouverez le CSI dans les zones suivantes de Workfront :
 
 * Zone Finance dans la section Détails du projet.
 * Zone Finance dans la section Détails de la tâche.
 * Vue de projet ou de tâche.
-* Rapport de projet ou de tâche.
+* Rapport sur les projets ou les tâches.

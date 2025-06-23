@@ -6,24 +6,22 @@ description: Vous pouvez organiser le type de problèmes ou de demandes consign�
 author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 87%
+source-wordcount: '363'
+ht-degree: 60%
 
 ---
 
 # Définir les types de demandes pour un projet
 
-Vous pouvez organiser le type de problèmes ou de demandes consignés dans Adobe Workfront par types de demandes.
+<!-- Audited: 6/2025 -->
 
-Cette organisation est utile pour des raisons de reporting et pour aider les utilisateurs et utilisatrices à comprendre le type de travail inattendu qui peut survenir pendant la durée de vie d’un projet.
+Vous pouvez organiser le type de problèmes ou de demandes consignés dans Adobe Workfront par types de demandes. Cela s’avère utile pour signaler des raisons et aider les utilisateurs et les utilisatrices à comprendre le type de travail inattendu qui peut se produire au cours du cycle de vie d’un projet.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +35,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
     <p>Nouveau : Standard</p>
-    <p>ou</p>
     <p>Actuel : formule</p></td>  
   </tr> 
   <tr> 
@@ -59,13 +56,13 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 Avant de commencer, vous devez effectuer les opérations suivantes :
 
-* Avoir ou créer un projet
+* posséder ou créer un projet ;
 
   Pour plus d’informations sur la création de projets, voir [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Considérations relatives aux types de demandes
 
-* Vous pouvez spécifier le type de problèmes ou de demandes pouvant être consignés dans un projet lorsque vous configurez la zone **Détails de la file d’attente** du projet.
+* Vous pouvez spécifier le type d’événements ou de demandes qui peuvent être consignés dans un projet lorsque vous configurez la zone Détails de la file d’attente pour le projet.
 * Vous n’avez pas besoin d’activer le projet pour qu’il devienne une file d’attente de demandes pour pouvoir définir des types de demandes pour un projet. Les problèmes consignés pour un projet peuvent être étiquetés avec un type de demande différent.
 * Si vous ajoutez des rubriques de file d’attente à votre projet, vous devez définir des types de demandes sur chaque rubrique de file d’attente pour l’afficher lors de l’ajout d’un nouveau problème ou d’une nouvelle demande. Pour plus d’informations, voir [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
@@ -73,25 +70,17 @@ Avant de commencer, vous devez effectuer les opérations suivantes :
 
 {{step1-to-projects}}
 
-1. Cliquez sur le nom du projet pour l’ouvrir.
+1. Sélectionnez un projet sur la page **Projets**.
 1. Dans le panneau de gauche, cliquez sur **Détails de la file d’attente**.
-1. Dans la section **Propriétés de file d’attente**, sélectionnez les **Types de demande** que vous voulez pour le projet.
-
-   >[!NOTE]
-   >
-   >Vous devez disposer d’au moins un type de demande sélectionné. Vous pouvez sélectionner plusieurs types de demandes.
-
-   Choisissez parmi les types suivants :
-
+1. Dans la section **Propriétés de la file d’attente**, sélectionnez les **Types de demande** souhaités pour le projet :
    * Rapport sur les bogues
    * Modifier l&#39;ordre
    * Problème
    * Demande
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >Votre équipe d’administration Workfront a peut-être renommé certaines de ces options. Pour plus d’informations, voir [Configurer les types de demande](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
+   >* Vous devez disposer d’au moins un type de demande sélectionné. Vous pouvez sélectionner plusieurs types.
+   >* Votre équipe d’administration Workfront a peut-être renommé certaines de ces options. Pour plus d’informations, voir [Configurer les types de demande](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
-1. Cliquer sur **Enregistrer**.
-
-   Les types de demandes que vous avez spécifiés pourront être sélectionnés lorsque vous conclurez un nouveau problème sur une tâche ou un projet, ou lorsque vous soumettrez une nouvelle demande au projet, si le projet est activé comme une file d&#39;attente de demandes.
+1. Cliquer sur **Enregistrer**. Les types de demande que vous avez spécifiés seront disponibles pour sélection lorsque vous entrez un nouveau problème sur une tâche ou un projet, ou lorsque vous soumettez une nouvelle demande au projet (si le projet est activé comme une file d&#39;attente de demandes).
