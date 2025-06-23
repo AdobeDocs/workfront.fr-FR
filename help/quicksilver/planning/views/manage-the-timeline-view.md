@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3804'
 ht-degree: 39%
 
 ---
@@ -106,7 +106,7 @@ Tenez compte des points suivants :
 
    * Dates d’enregistrement
    * Enregistrer les champs générés par le système : date de création, date de dernière modification
-   * Dates de recherche à partir d&#39;enregistrements ou de types d&#39;objets connectés.
+   * Dates de recherche des types d&#39;objet ou d&#39;enregistrement connectés (uniquement lorsque vous avez ajouté un agrégateur pour eux lorsque vous avez connecté les types d&#39;objet ou d&#39;enregistrement)
 * En fonction des dates associées aux enregistrements, certains enregistrements peuvent ne pas s’afficher dans la vue chronologique dans les scénarios suivants :
 
    * Lorsque les dates de début et de fin n’ont pas de valeur.
