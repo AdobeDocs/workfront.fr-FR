@@ -5,9 +5,9 @@ description: Présentation de l’assistant AI
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
+source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '825'
 ht-degree: 6%
 
 ---
@@ -138,7 +138,7 @@ Pour demander le contrat Adobe Gen AI :
 1. Lorsque le message du contrat Adobe Gen AI s’affiche, cliquez sur **Vérifier le contrat**.
 1. Saisissez le nom et l’adresse e-mail de la personne de votre entreprise qui signera le contrat Adobe Gen AI.
 
-   L&#39;accord sera envoyé à cette personne pour signature. Une fois signé et renvoyé, l’assistant AI est activé pour votre organisation.
+   L&#39;accord sera envoyé à cette personne pour signature. Une fois signé et renvoyé, le contrat est examiné par Adobe, puis l’assistant AI est activé pour votre organisation.
 
 ## Conseils pour la création d’invites dans l’assistant AI
 
@@ -146,7 +146,7 @@ Utilisez les mots-clés suivants dans vos invites pour fournir du contexte et ai
 
 Lorsque vous saisissez votre invite, incluez l’expression `using (keyword)`.
 
-| Mot de passe | Effet |
+| Mot-clé | Effet |
 |---|---|
 | `workfront` | Interagit avec Workfront. |
 | `planning ` | Interagit avec Workfront Planning. |
