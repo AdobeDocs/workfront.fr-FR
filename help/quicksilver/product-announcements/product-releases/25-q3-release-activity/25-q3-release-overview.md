@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '1482'
-ht-degree: 21%
+source-wordcount: '1497'
+ht-degree: 20%
 
 ---
 
@@ -61,8 +61,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Mise à jour du lecteur de vérification pour bureau </a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>Le lecteur de vérification pour bureau a été mis à jour vers la version 2.1.50.
-Cette mise à jour inclut des mises à jour d’outils internes et n’a aucune incidence sur les fonctionnalités de l’utilisateur final. </p>
+            <p>Le lecteur de vérification pour bureau a été mis à jour vers la version 2.1.50. Cette mise à jour inclut des mises à jour d’outils internes et n’a aucune incidence sur les fonctionnalités de l’utilisateur final.</p>
         </td>
         <td>samedi 13 juin 2025</td>
         <td>samedi 13 juin 2025</td>
@@ -141,7 +140,7 @@ Cette mise à jour inclut des mises à jour d’outils internes et n’a aucune 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Le widget Mes approbations trie désormais automatiquement par date limite </a><p></p>
-            <p>Nous avons mis à jour le widget Mes approbations dans l’accueil pour trier par échéance (décroissant) par défaut. Cela permet aux approbations les plus urgentes d’apparaître en haut de la liste. </p>
+            <p>Nous avons mis à jour le widget Mes approbations dans l’accueil pour trier par échéance (décroissant) par défaut. Cela permet aux approbations les plus urgentes d’apparaître en haut de la liste. </p><p><b>Remarque :</b> actuellement, seules les approbations d’épreuve peuvent être triées par échéance dans le widget Mes approbations.</p>
         </td>
         <td>29 mai 2025</td>
         <td>vendredi 12 juin 2025</td>
@@ -288,7 +287,7 @@ Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’
 
 ### Améliorations de Workfront Fusion
 
-De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations apportées à Workfront Planning
 
@@ -326,7 +325,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
