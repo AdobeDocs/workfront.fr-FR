@@ -6,10 +6,10 @@ description: Planifier la remise automatique d’un rapport
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 70%
+source-wordcount: '1309'
+ht-degree: 66%
 
 ---
 
@@ -98,7 +98,7 @@ Pour planifier la diffusion automatique d&#39;un rapport, procédez comme suit &
       <td role="rowheader"> <p>Envoyer à</p> </td> 
       <td> <p>Commencez à saisir le nom de l’utilisateur, de l’utilisatrice, du groupe, de l’équipe ou du rôle à qui vous souhaitez envoyer le rapport, puis cliquez sur le nom quand il s’affiche dans la liste déroulante.</p> <p>Ou</p> <p>Saisissez l’adresse e-mail d’une personne externe au système Workfront à laquelle vous souhaitez accorder l’accès au rapport.</p> <p>Répétez cette procédure pour envoyer le rapport à plusieurs utilisateurs, utilisatrices, groupes, équipes ou rôles.</p> <p>Note :  <p>Tenez compte des points suivants lors de l’ajout de personnes destinataires de remises de rapports :</p> 
         <ul> 
-         <li>Si votre entreprise limite les notifications Workfront à des domaines d’adresses e-mail spécifiques, vous pouvez uniquement envoyer des rapports aux adresses e-mail répertoriées dans la liste autorisée des adresses e-mails.<p>Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront met à jour la liste autorisée des adresses e-mails, voir la section <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configurer votre liste autorisée d’adresses e-mail</a>.</p></li> 
+         <li><p>Si votre entreprise limite les notifications Workfront à des domaines d’e-mail spécifiques, vous ne pourrez peut-être envoyer des rapports qu’aux adresses e-mail répertoriées dans la place sur la liste autorisée e-mail.</p> <p>Par exemple, lorsque l’utilisateur est défini comme destinataire de rapport et possède une adresse e-mail qui était précédemment autorisée, et que la place sur la liste autorisée est mise à jour pour ne plus diffuser d’e-mails vers ce domaine, l’utilisateur ne recevra plus les rapports diffusés.</p><p>Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront met à jour la liste autorisée des adresses e-mails, voir la section <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configurer votre liste autorisée d’adresses e-mail</a>.</p></li> 
          <li> <p>L’ajout d’un grand nombre d’utilisateurs et d’utilisatrices en tant que destinataires peut entraîner un échec de la remise. Si vous rencontrez des échecs de remise, vous pouvez planifier plusieurs remises de rapports avec des groupes d’utilisateurs et d’utilisatrices plus petits.</p> </li> 
         </ul> </td> 
      </tr> 
