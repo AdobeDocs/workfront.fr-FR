@@ -7,10 +7,10 @@ description: Les rôles d’épreuve vous permettent d’accorder des autorisati
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
+source-git-commit: 93452926a27026f2b0e8a7a807381d562d7cbb01
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '382'
+ht-degree: 90%
 
 ---
 
@@ -21,10 +21,6 @@ Les rôles d’épreuve vous permettent d’accorder des autorisations pour des 
 ## Rôles d’épreuve
 
 Les rôles d’épreuve sont attribués aux utilisateurs et utilisatrices pour une épreuve particulière au moment où ils sont invités à évaluer l’épreuve. Si vous disposez d’un plan Workfront Pro+, vous pouvez accorder des rôles de relecture aux utilisateurs et utilisatrices disposant d’une licence de travail ou de plan. Si vous disposez d’un plan hérité Workfront Premium, vous pouvez accorder des rôles de relecture aux utilisateurs et utilisatrices disposant d’une licence de relecture désignée. Pour plus d’informations, voir [Accéder aux fonctionnalités de relecture dans Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-
->[!NOTE]
->
->Les personnes disposant des nouveaux plans Workfront peuvent accorder des rôles de création ou de modération à n’importe quelle personne du système. Les personnes utilisant les plans hérités peuvent accorder des rôles de création ou de modération aux utilisateurs et utilisatrices disposant d’une licence de relecture dans le système.
 
 Le rôle d’épreuve définit les actions qu’un réviseur ou une réviseuse peut effectuer sur cette épreuve.
 
@@ -131,7 +127,7 @@ Certains rôles d’épreuve donnent aux réviseurs et réviseuses des droits de
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Auteur et autrice</strong> </p> </td> 
+   <td> <p><strong>Auteur*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -147,7 +143,7 @@ Certains rôles d’épreuve donnent aux réviseurs et réviseuses des droits de
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Modérateur</strong> </p> </td> 
+   <td> <p><strong>Modérateur*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p><strong>✓</strong> </p> </td> 
@@ -164,3 +160,7 @@ Certains rôles d’épreuve donnent aux réviseurs et réviseuses des droits de
   </tr> 
  </tbody> 
 </table>
+
+<p>* Les utilisateurs disposant de nouveaux plans Workfront peuvent accorder des rôles d’auteur ou de modérateur à n’importe quel utilisateur du système, mais seuls les utilisateurs disposant d’une licence Standard peuvent utiliser toutes les fonctionnalités associées à ces rôles.
+
+Les personnes utilisant les plans hérités peuvent accorder des rôles de création ou de modération aux utilisateurs et utilisatrices disposant d’une licence de relecture dans le système.</p>
