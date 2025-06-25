@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2647'
 ht-degree: 76%
 
 ---
@@ -51,6 +51,9 @@ Les rubriques suivantes prennent en charge l’API d’abonnement aux événemen
 
 Les objets Workfront suivants sont pris en charge par les abonnements aux événements.
 
+* Approbation
+* Étape d’approbation
+* Personnes de l’étape Approbation
 * Affectation
 * Entreprise
 * Tableau de bord
@@ -105,6 +108,18 @@ La ressource d&#39;abonnement contient les champs suivants.
        </tr> 
       </thead> 
       <tbody> 
+       <tr> 
+        <td scope="col">Approbation</td> 
+        <td scope="col"><p>approbation</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Étape d’approbation</td> 
+        <td scope="col"><p>approval_stage</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Personnes de l’étape Approbation</td> 
+        <td scope="col"><p>approval_stage_participant</p></td> 
+       </tr> 
        <tr> 
         <td scope="col">Affectation</td> 
         <td scope="col"><p>ASSGN</p></td> 
@@ -793,7 +808,7 @@ Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l�
 >[!NOTE]
 >
 >L’abonnement ci-dessous avec le filtre donné ne renverra que les messages dont le nom de la tâche contient `again` sur `oldState`, ce qu’il était avant qu’une mise à jour ne soit effectuée sur la tâche.
->&#x200B;>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
+>>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
 
 ```
 {
