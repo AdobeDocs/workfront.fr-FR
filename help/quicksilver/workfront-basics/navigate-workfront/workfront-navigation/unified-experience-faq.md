@@ -6,10 +6,10 @@ description: Certaines fonctionnalités diffèrent entre  [!DNL Workfront]  et A
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f59643eb3722c72fc8cbb5009223af143ac240d8
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 92%
+source-wordcount: '1397'
+ht-degree: 89%
 
 ---
 
@@ -61,13 +61,13 @@ Pour plus d’informations sur l’[!DNL Admin Console], passez en revue ces art
 
 Les clients et clientes existants seront contactés pour planifier les migrations. Les collègues de l’équipe d’assistance à la migration vont guider les clients et clientes tout au long du processus, les conseiller sur la configuration d’[!DNL Admin Console] et fournir des liens vers la documentation nécessaire pour que la migration soit aussi simple et facile que possible.
 
-* Vue d’ensemble de l’assistance [[!DNL Adobe Workfront] ](https://experienceleague.adobe.com/fr/docs/customer-one/using/workfront/overview)
-* Informations sur [[!DNL Workfront Admin Console] ](https://experienceleague.adobe.com/fr/docs/customer-one/using/workfront/landing)
-* Questions fréquentes sur [[!DNL Adobe Business Platform]  et l’ [!DNL Admin Console] ](https://experienceleague.adobe.com/fr/docs/customer-one/using/workfront/faq)
+* Vue d’ensemble de l’assistance [[!DNL Adobe Workfront] ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* Informations sur [[!DNL Workfront Admin Console] ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* Questions fréquentes sur [[!DNL Adobe Business Platform]  et l’ [!DNL Admin Console] ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### Comment gérez-vous [!DNL Adobe Admin Console] pour les entreprises qui l’ont déjà activé pour les ID fédérés différemment de la configuration SSO [!DNL Workfront] ?
 
-[!DNL Adobe Admin Console] offre la possibilité d’inclure , en remplaçant SSO par IMS. [!DNL Workfront] L’approvisionnement des utilisateurs et utilisatrices s’effectue dans [!DNL Admin Console]. Les utilisateurs et utilisatrices verront l’écran de connexion [!DNL Adobe] pour accéder à [!DNL Experience Cloud] où [!DNL Workfront] apparaît comme option (si l’accès leur est accordé).
+[!DNL Adobe Admin Console] a la possibilité d’inclure des [!DNL Workfront], en remplaçant l’authentification unique par le système Identity Management (IMS) d’Adobe. L’approvisionnement des utilisateurs et utilisatrices s’effectue dans [!DNL Admin Console]. Les utilisateurs et utilisatrices verront l’écran de connexion [!DNL Adobe] pour accéder à [!DNL Experience Cloud] où [!DNL Workfront] apparaît comme option (si l’accès leur est accordé).
 
 ### Comment cela affecte-t-il les clients et clientes qui disposent déjà du panneau d’administration AEM pour , mais dont SSO est configuré différemment de  ? [!DNL Adobe Assets][!DNL Workfront?]
 
@@ -77,7 +77,7 @@ Une fois [!DNL Workfront] ajouté en tant qu’application [!DNL Admin Console],
 
 SSO est configuré dans [!DNL Admin Console] et hérité par l’application [!DNL Workfront].
 
-### SSO avec notre [!DNL Active Directory] interne sera-t-il toujours une option avec IMS ?
+### L’authentification unique avec notre [!DNL Active Directory] interne sera-t-elle toujours possible avec Adobe Identity Management System (IMS) ?
 
 IMS remplace SSO et fonctionne pratiquement de la même manière. Toutes les autorisations sont accordées et configurées dans [!DNL Adobe Admin Console]. Les utilisateurs et utilisatrices verront l’écran de connexion [!DNL Adobe] et pourront choisir [!UICONTROL Compte personnel] ou [!UICONTROL Compte d’entreprise] pour se connecter (si vous avez [!DNL Active Directory], la plupart se connecteront avec un compte d’entreprise).
 
@@ -103,7 +103,7 @@ L’ensemble du compte  du client ou de la cliente sera migré. [!DNL Workfront]
 
 ### Est-ce que les [!DNL Workfront]utilisateurs et utilisatrices  doivent se connecter via [!DNL Experience Cloud] ? Ou seulement les administrateurs et les administratrices ?
 
-Oui, tous les utilisateurs et toutes les utilisatrices se connecteront via [!DNL Experience Cloud]. La connexion IMS remplacera l’authentification unique. L’expérience est très similaire, seul l’écran de connexion est différent.
+Oui, tous les utilisateurs et toutes les utilisatrices se connecteront via [!DNL Experience Cloud]. La connexion à Adobe Identity Management System (IMS) remplacera SSO. L’expérience est très similaire, seul l’écran de connexion est différent.
 
 ### Les comptes [!DNL Adobe] des utilisateurs et des utilisatrices devront-ils être liés à leurs comptes [!DNL Workfront] si les deux leur appartiennent déjà ?
 
