@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 482067778b6a5b7291eb25d00245a394bc72ccf0
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1799'
 ht-degree: 4%
 
 ---
@@ -21,6 +21,39 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Développer et réduire tous les regroupements dans la vue Tableau
+
+>[!NOTE]
+>
+>* Prévisualisation : vendredi 26 juin 2025
+>* Production pour tous : 17 juillet 2025
+
+Vous pouvez désormais réduire et développer les regroupements dans une vue Tableau à l’aide des zones suivantes :
+
+* Zone Regroupement, accessible à partir de la barre d’outils de la vue Tableau
+
+* En-tête d’un regroupement, en cliquant dessus avec le bouton droit
+
+Vous pouvez réduire ou développer simultanément un ou tous les regroupements.
+
+Avant cette amélioration, vous ne pouviez réduire ou développer qu’un seul regroupement à la fois, à partir de chaque en-tête de regroupement.
+
+Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Nouvelle fonctionnalité d’agrégation pour les champs de formule
+
+>[!NOTE]
+>
+>* Prévisualisation : vendredi 26 juin 2025
+>* Production pour tous : 26 juin 2025
+
+Désormais, lorsque vous connectez des types d’enregistrements et importez un champ de formule en tant que recherche, vous pouvez appliquer les fonctions d’agrégat (SOMME, MOYENNE, MIN, MAX, etc.) en fonction du format du champ de formule. Par exemple, si le champ de formule est numérique, vous pouvez utiliser des fonctions telles que SUM ou AVG ; si le champ de formule est formaté en tant que texte, les fonctions d&#39;agrégat telles que SUM ne s&#39;appliqueront pas.
+
+Auparavant, lorsque vous connectiez des types d’enregistrement et importiez des champs de recherche à partir des enregistrements connectés, vous pouviez appliquer des fonctions d’agrégation uniquement aux champs standard, mais pas aux champs de formule.
+
+Pour plus d&#39;informations, voir [Présentation des champs de formule](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## Disponibilité des trimestres personnalisés pour la vue chronologique de Workfront Planning
 
@@ -206,7 +239,7 @@ Avant cette amélioration, les utilisateurs de tous les niveaux de licence devai
 >[!NOTE]
 >
 >Cette modification sera visible pour tous les utilisateurs nouveaux et existants disposant d’une licence d’administrateur système et standard.
->&#x200B;>Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
+>>Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
 
 Pour plus d’informations, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 

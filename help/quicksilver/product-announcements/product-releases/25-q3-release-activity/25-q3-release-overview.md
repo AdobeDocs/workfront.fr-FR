@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
+source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 20%
+source-wordcount: '1627'
+ht-degree: 19%
 
 ---
 
@@ -128,6 +128,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
+       <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">All Approvals widget renamed to Document approval metrics</a><p></p>
+            <p>We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.</p>
+        </td>
+        <td>TBD</td>
+        <td>TBD</td>
+        <td>TBD</td>
+    </tr> -->   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Mise à jour de l’expérience de commentaire dans la section Mentions de la zone Mes mises à jour</a><p></p>
@@ -160,6 +169,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Le champ Heures effectives existant a été remplacé par le champ Heures effectives héritées et un nouveau champ Heures réelles a été créé</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Le champ existant des heures effectives a été renommé en heures effectives héritées. Ce champ stocke le temps enregistré pour les projets, les tâches et les événements en minutes. Le champ est stocké dans la base de données Workfront en tant que realWorkRequired. </p>
+            <p>Nous avons ajouté un nouveau champ Heures réelles qui stocke les heures enregistrées pour les projets, tâches et événements dans des heures, avec une précision décimale. Le champ est stocké dans la base de données Workfront sous le nom actuelWorkRequiredDouble.</p>
+        </td>
+        <td>mercredi 24 juin 2025</td>
+        <td>mercredi 24 juin 2025</td>
+        <td>mercredi 24 juin 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Modification de la manière dont les heures réelles sont stockées dans la base de données pour les appels API</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -203,6 +222,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
+      <tr>
+        <td>
+            </a> de sécurité <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">amélioration de la diffusion des rapports)<p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Nous avons amélioré la diffusion de rapports planifiés pour nous assurer que les notifications Workfront sont envoyées uniquement aux domaines d’e-mail approuvés dans la place sur la liste autorisée.</p>
+            <p></p>
+        </td>
+        <td>vendredi 26 juin 2025</td>
+        <td>(Déploiement échelonné) : du 26 juin au 9 juillet 2025</td>
+        <td>(Déploiement échelonné) : du 26 juin au 9 juillet 2025</td>
+    </tr>   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Les caractères génériques utilisateur ne renvoient plus de résultats avec une valeur nulle lors du filtrage des </a><p></p>
@@ -287,7 +316,7 @@ Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’
 
 ### Améliorations de Workfront Fusion
 
-De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations apportées à Workfront Planning
 
@@ -325,7 +354,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

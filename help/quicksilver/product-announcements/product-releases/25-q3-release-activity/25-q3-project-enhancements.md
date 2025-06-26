@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
+source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 10%
+source-wordcount: '712'
+ht-degree: 7%
 
 ---
 
@@ -19,6 +19,31 @@ ht-degree: 10%
 Cette page décrit les améliorations apportées par Project à l’environnement de Prévisualisation avec la version du troisième trimestre de 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du troisième trimestre 2025, consultez la [Vue d’ensemble de la version du troisième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Le champ Heures réelles existant a été remplacé par les anciens et un nouveau champ Heures réelles a été créé
+
+>[!NOTE]
+>
+> Prévisualisation et production : 24 juin 2025 
+
+Le champ existant des heures effectives a été renommé en heures effectives héritées. Ce champ stocke le temps enregistré pour les projets, les tâches et les événements en minutes. Le champ est stocké dans la base de données Workfront en tant que realWorkRequired.
+
+Nous avons ajouté un nouveau champ Heures réelles qui stocke les heures enregistrées pour les projets, tâches et événements dans des heures, avec une précision décimale. Le champ est stocké dans la base de données Workfront sous le nom actuelWorkRequiredDouble.
+
+Les champs Heures réelles et Héritage d&#39;heures réelles sont visibles dans les vues et les rapports Projet, Tâche et Événements.
+
+Le champ Heures réelles visible dans la section Détails du projet, des tâches et des événements représente les heures réelles héritées.
+
+
+>[!IMPORTANT]
+>
+>Les heures consignées avant mai 2021 sont stockées dans le champ Heures effectives héritées.  
+>>La valeur du champ Heures réelles pour les projets, tâches et événements pour lesquels des heures ont été enregistrées avant mai 2021 est zéro. 
+>>Les heures consignées après mai 2021 sont stockées dans les champs Heures réelles et Heures réelles héritées .
+>> Vous devrez peut-être mettre à jour vos rapports pour refléter les nouveaux champs.
+
+Pour plus d&#39;informations, voir [Afficher les heures réelles](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
+
 
 ## Modification de la manière dont les heures réelles sont stockées dans la base de données pour les appels API
 

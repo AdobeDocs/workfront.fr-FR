@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d5b0043ed251bfdb6501d091cf10d77685bc497b
+source-git-commit: 2c1102e3496d4d8bc7bc07e7c41d1d2455c8637e
 workflow-type: tm+mt
 source-wordcount: '13201'
 ht-degree: 87%
@@ -22,8 +22,8 @@ ht-degree: 87%
       * Version Du T3 2025 {#release-25-q3}
          * [Vue d’ensemble de la version du 3e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
          * [Améliorations de la relecture et de la gestion des documents](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
-         * [Amélioration de l’accueil](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-home-enhancements.md)
          * [Améliorations apportées aux projets](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)
+         * [Amélioration de l’accueil](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-home-enhancements.md)
          * [Amélioration des rapports](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
          * [Améliorations des mises à jour et des notifications](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
          * [Mises à jour de l’apparence et de la convivialité au cours de la période de la version du 3e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
