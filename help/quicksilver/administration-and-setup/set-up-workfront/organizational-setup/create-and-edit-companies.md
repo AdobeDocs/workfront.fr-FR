@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
-title: Création et modification d’entreprises
+title: Créer et modifier des sociétés
 description: Vous pouvez ajouter des entreprises à  [!DNL Adobe Workfront]  et les utiliser à des fins de planification financière, de création de rapports, pour définir des autorisations liées à des objets et pour préserver la confidentialité des informations.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: b89715649473ba13e1b6b7a250dfed7a468bb4b4
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 94%
+source-wordcount: '1420'
+ht-degree: 92%
 
 ---
 
@@ -48,8 +48,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader">Configuration du niveau d’accès</td> 
    <td> <p>Utilisez l’une des configurations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès [!UICONTROL Administrateur système] qui permet de modifier n’importe quelle entreprise du système.</p> </li> 
-     <li> <p>Accès administratif pour la gestion des entreprises, ce qui vous permet de modifier n’importe quelle entreprise du système.</p> </li> 
+     <li> <p>Le niveau d'accès [!UICONTROL System Administrator], qui permet de modifier n'importe quelle société du système.</p> </li> 
+     <li> <p>Accès administratif pour gérer les sociétés, ce qui vous permet de modifier n’importe quelle société du système.</p> </li> 
     </ul> <p><b>NOTE</b> :  
      <ul> 
       <li> <p>Vous pouvez également gérer les entreprises associées à un groupe pour lequel vous faites partie de l’équipe d’administration.</p> </li> 
@@ -102,7 +102,7 @@ Pour ajouter ou modifier une entreprise, procédez comme suit :
 
    Ou
 
-   Si vous souhaitez modifier une entreprise existante, sélectionnez-la, puis cliquez sur **[!UICONTROL Modifier]** en haut de la liste des entreprises.
+   Si vous modifiez une société existante, sélectionnez-la, puis cliquez sur l’icône **[!UICONTROL Modifier]** ![Modifier](assets/edit-icon.png) en haut de la liste des sociétés.
 
 1. Mettez à jour les informations suivantes :
 
@@ -123,7 +123,7 @@ Pour ajouter ou modifier une entreprise, procédez comme suit :
      </tr>
      <tr> 
       <td role="rowheader">Section [!UICONTROL Custom Forms]</td> 
-      <td> <p>Si des champs que vous souhaitez ajouter à votre entreprise ne sont pas disponibles dans [!DNL Workfront], vous pouvez créer un formulaire personnalisé et l’associer à votre entreprise. </p> <p>Vous pouvez joindre ce formulaire à votre entreprise en le sélectionnant dans le menu déroulant. Seuls les formulaires personnalisés actifs sont répertoriés dans le menu.</p> <p><strong>Remarque :</strong> Les fonctionnalités de formulaire personnalisées avancées telles que les champs de recherche externes et les champs natifs de Workfront ne sont disponibles que lorsque vous ouvrez l’enregistrement de la société sur la page de détails, et non dans la boîte de dialogue Modifier la société. (Dans la liste des entreprises, cliquez sur le nom de l’entreprise pour ouvrir les détails.)</p> <p> Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Création d’un formulaire personnalisé</a>. </p> </td>
+      <td> <p>Si des champs que vous souhaitez ajouter à votre entreprise ne sont pas disponibles dans [!DNL Workfront], vous pouvez créer un formulaire personnalisé et l’associer à votre entreprise. </p> <p>Vous pouvez joindre ce formulaire à votre entreprise en le sélectionnant dans le menu déroulant. Seuls les formulaires personnalisés actifs sont répertoriés dans le menu.</p> <p><strong>Remarque :</strong> les fonctions avancées de formulaires personnalisés telles que les champs de recherche externe et les champs natifs de Workfront ne sont disponibles que lorsque vous ouvrez l’enregistrement de la société sur la page de détails, et non dans la boîte de dialogue Modifier la société . (Dans la liste des entreprises, cliquez sur le nom de l’entreprise pour ouvrir les détails.)</p> <p> Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Créer un formulaire personnalisé</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>
