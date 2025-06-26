@@ -38,9 +38,9 @@ Le champ Heures réelles visible dans la section Détails du projet, des tâches
 >[!IMPORTANT]
 >
 >Les heures consignées avant mai 2021 sont stockées dans le champ Heures effectives héritées.  
->>La valeur du champ Heures réelles pour les projets, tâches et événements pour lesquels des heures ont été enregistrées avant mai 2021 est zéro. 
->>Les heures consignées après mai 2021 sont stockées dans les champs Heures réelles et Heures réelles héritées .
->> Vous devrez peut-être mettre à jour vos rapports pour refléter les nouveaux champs.
+>&#x200B;>La valeur du champ Heures réelles pour les projets, tâches et événements pour lesquels des heures ont été enregistrées avant mai 2021 est zéro. 
+>&#x200B;>Les heures consignées après mai 2021 sont stockées dans les champs Heures réelles et Heures réelles héritées .
+>&#x200B;> Vous devrez peut-être mettre à jour vos rapports pour refléter les nouveaux champs.
 
 Pour plus d&#39;informations, voir [Afficher les heures réelles](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
