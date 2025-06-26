@@ -7,10 +7,10 @@ description: Vous pouvez utiliser des opérateurs ou des modificateurs de condit
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e10fd7a3237d38ece8a5213990306ce511bd2412
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 100%
+source-wordcount: '731'
+ht-degree: 98%
 
 ---
 
@@ -29,12 +29,15 @@ Vous pouvez créer des instructions « IF » pour les éléments Workfront sui
 * Vues
 * Regroupements
 * Champs personnalisés calculés
+* Règles métier
 
 Pour plus d’informations sur la création d’instructions « IF », voir [Vue d’ensemble des instructions « IF »](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Les exemples de ce guide illustrent l’utilisation des opérateurs de condition dans les champs personnalisés calculés. Vous pouvez également les utiliser dans des colonnes ou des regroupements personnalisés calculés en respectant la syntaxe correcte des champs personnalisés calculés dans les rapports.
 
 Pour plus d’informations sur la différence de syntaxe entre les champs personnalisés calculés et les données personnalisées calculées dans les rapports, voir [Champs personnalisés calculés par rapport aux colonnes calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+
+Pour plus d’informations sur les règles métier, voir [Créer et modifier des règles métier](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 Reportez-vous à l’explorateur d’API pour trouver les champs que vous souhaitez référencer dans vos expressions personnalisées calculées. Pour plus d’informations sur l’explorateur d’API, voir [Explorateur d’API](../../../wf-api/general/api-explorer.md).
 
