@@ -87,7 +87,7 @@ Le calcul correct est le suivant :
 >Si vous utilisez des heures réelles dans votre calcul, utilisez `actualWorkRequiredDouble` pour le champ de valeur. Les heures réelles sont stockées en heures. Les heures planifiées sont stockées en minutes.
 >
 >Le calcul correct pour les heures réelles est le suivant :
->>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 
 ## Pourquoi la valeur de chacun de mes éléments de graphique dans un rapport ne s’affiche-t-elle pas sur le graphique ?
