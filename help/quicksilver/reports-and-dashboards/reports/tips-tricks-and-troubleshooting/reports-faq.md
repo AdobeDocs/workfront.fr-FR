@@ -7,10 +7,10 @@ description: Questions fréquentes sur les rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 88%
+source-wordcount: '1510'
+ht-degree: 87%
 
 ---
 
@@ -64,7 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-Dans un rapport de projet, j&#39;ai un calcul qui soustrait les heures effectives héritées des heures prévues.
+Dans un rapport de projet, j&#39;ai un calcul qui soustrait les heures réelles des heures prévues.
 
 Le résultat que j&#39;obtiens est erroné.
 
@@ -78,17 +78,19 @@ Mon calcul est le suivant :
 
 La plupart des champs utilisant des heures dans Workfront sont stockés en minutes. Lorsque vous utilisez ces champs dans un calcul, le résultat est le plus souvent exprimé en minutes. Pour obtenir le résultat en heures, vous devez diviser le résultat du calcul ou le champ que vous référencez par 60.
 
-Le calcul correct est le suivant :
+Les heures planifiées sont stockées en minutes.
 
-`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+Selon le champ Heures réelles que vous souhaitez utiliser pour votre calcul, les formules correctes sont les suivantes :
 
->[!NOTE]
->
->Si vous utilisez des heures réelles dans votre calcul, utilisez `actualWorkRequiredDouble` pour le champ de valeur. Les heures réelles sont stockées en heures. Les heures planifiées sont stockées en minutes.
->
->Le calcul correct pour les heures réelles est le suivant :
->&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+* Pour les heures effectives héritées stockées en minutes :
 
+  `valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+* Pour les heures réelles stockées en heures :
+
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+Pour plus d&#39;informations, voir [Afficher les heures réelles](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## Pourquoi la valeur de chacun de mes éléments de graphique dans un rapport ne s’affiche-t-elle pas sur le graphique ?
 

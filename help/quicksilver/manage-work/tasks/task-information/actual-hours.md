@@ -7,10 +7,10 @@ description: Les heures que vous enregistrez pour vos tâches dans Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 40%
+source-wordcount: '1010'
+ht-degree: 41%
 
 ---
 
@@ -73,7 +73,7 @@ En fonction de la zone du Workfront à partir de laquelle vous accédez aux heur
 
 * Dans la zone Détails du projet, de la tâche ou de l’événement :
 
-   * **Heures réelles** : heures enregistrées pour des projets, des tâches ou des événements, à tout moment, y compris avant mai 2021. Elles correspondent aux heures effectives héritées dans les rapports et les listes. Elles sont stockées dans la base de données Workfront en minutes et leur champ de valeur est `actualWorkRequired`.
+   * **Heures réelles** : heures enregistrées pour des projets, des tâches ou des événements antérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
 
 ## Heures effectives sur les tâches et les problèmes ou heures effectives sur les projets
 
@@ -157,11 +157,10 @@ Vous devez tenir compte de la conversion de minutes en heures lors de l’accès
 
 Les heures réelles consignées pour les projets, tâches ou événements sont actuellement stockées dans la base de données Workfront sous la forme de minutes et leur champ de valeur est `actualWorkRequired`.
 
-La version suivante de l’API Workfront, dont la publication est prévue pour fin 2025, selon la manière dont vous accédez aux heures réelles, peut être stockée dans les champs et unités suivants de la base de données :
+La publication de la version suivante de l’API Workfront est prévue pour fin 2025. Les heures réelles sont stockées dans les champs et unités suivants de la base de données :
 
 * **Heures réelles** : heures enregistrées pour un projet, des tâches ou des événements postérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
-
-* **Heures réelles héritées** : heures enregistrées pour des projets, des tâches ou des événements, à tout moment, y compris avant mai 2021. Elles sont stockées dans la base de données Workfront en minutes et leur champ de valeur est `actualWorkRequired`.
+   * **Heures réelles héritées** : heures enregistrées pour des projets, des tâches ou des événements, à tout moment, y compris avant mai 2021. Elles sont stockées dans la base de données Workfront en minutes et leur champ de valeur est `actualWorkRequired`.
 
 Pour plus d&#39;informations sur l&#39;utilisation des heures réelles dans les colonnes ou champs calculés, voir [FAQ sur les rapports](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
