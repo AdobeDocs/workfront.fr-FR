@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2556'
 ht-degree: 37%
 
 ---
@@ -199,14 +199,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    * **Sélectionner les champs de recherche** : sélectionnez cette option pour ajouter les champs du type d’enregistrement sélectionné. Les champs de recherche sont des champs associés au type d’enregistrement ou d’objet vers lequel vous établissez un lien. Les lier affiche les informations de l&#39;enregistrement ou de l&#39;objet à partir duquel vous établissez la liaison. Cette option est sélectionnée par défaut.
 
-     >[!TIP]
-     >
-     > Vous ne pouvez pas ajouter les types de champs suivants en tant que champs de recherche :
-     >
-     >    * Personnes
-     >    * Créé par
-     >    * Dernière modification par
-     >    * Champs de saisie semi-automatique Workfront (y compris les champs tels que le propriétaire ou le sponsor du projet)
+   >[!TIP]
+   >
+   >Vous ne pouvez pas ajouter de champs de saisie semi-automatique Workfront (y compris des champs tels que Propriétaire du projet ou Sponsor du projet) en tant que champs de recherche.
 
 1. (Le cas échéant et facultatif) Si vous avez choisi de connecter un objet Workfront, sélectionnez un **Formulaire personnalisé** dans la section **Lier uniquement les objets correspondant à ces critères**. Seuls les objets auxquels sont attachés les formulaires personnalisés sélectionnés peuvent être liés au type d’enregistrement sélectionné. Vous pouvez sélectionner plusieurs formulaires.
 
@@ -218,7 +213,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    >[!NOTE]
    >
-   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 1. (Conditionnel) Si vous avez choisi de vous connecter à Experience Manager Assets ou à un type d’enregistrement Workfront Planning, sélectionnez l’une des options suivantes dans la zone **Apparence des enregistrements** :
 
@@ -232,7 +227,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >
    >* Lorsque vous autorisez la liaison de plusieurs enregistrements, l’affichage de la miniature seule peut permettre de gagner de l’espace dans des zones plus petites, comme les vues d’enregistrement.
    >
-   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >* La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objets Workfront.
    >
@@ -256,10 +251,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >
    >    Toute personne disposant d’autorisations Afficher ou d’autorisations supérieures dans l’espace de travail peut consulter les informations contenues dans les champs liés, quels que soient ses autorisations ou son niveau d’accès dans l’application des types d’objets liés.
 
-
 1. (Facultatif) Cliquez sur **Ignorer** pour ignorer l’ajout de champs à partir de l’enregistrement ou du type d’objet lié. Le nom ou le champ de Principal de l&#39;enregistrement lié est le seul champ visible dans la vue Tableau du type d&#39;enregistrement auquel vous vous connectez.
 
-1. (Facultatif et conditionnel) Si vous choisissez de lier un champ de type nombre, devise, pourcentage ou date, sélectionnez également une valeur d’agrégateur pour résumer plusieurs valeurs. Les valeurs des champs liés s’affichent soit séparées par des virgules, soit sous la forme d’une valeur résumée selon l’agrégateur que vous choisissez, lorsque les utilisateurs sélectionnent plusieurs enregistrements liés dans le champ d’enregistrement lié.
+1. Choisissez un agrégateur pour les champs de recherche que vous ajoutez.
+
+   >[!NOTE]
+   >
+   >Vous ne pouvez pas ajouter d’agrégateurs pour les types de champs suivants :
+   >
+   >    * Paragraphe
+   >    * Case à cocher
+
+   Les valeurs des champs liés s’affichent soit séparées par des virgules, soit sous la forme d’une valeur résumée selon l’agrégateur que vous choisissez, lorsque les utilisateurs sélectionnent plusieurs enregistrements liés dans le champ d’enregistrement lié.
 
    Si le champ de recherche contient plusieurs valeurs qui ne sont pas résumées, tenez compte des points suivants lors de l’utilisation du champ dans un tri ou un regroupement dans une vue :
 
@@ -271,7 +274,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    >[!IMPORTANT]
    >
-   >    Vous devez sélectionner une valeur d’agrégateur lors de l’ajout de champs de date de recherche, si vous souhaitez que les champs soient disponibles pour être ajoutés en tant que dates de début et de fin pour les vues chronologique et Calendrier. Par exemple, vous pouvez sélectionner le MAX ou l’agrégateur MIN pour un champ de date de recherche.
+   > Vous devez sélectionner une valeur d’agrégateur lors de l’ajout de champs de date de recherche, si vous souhaitez que les champs soient disponibles pour être ajoutés en tant que dates de début et de fin pour les vues chronologique et Calendrier. Par exemple, vous pouvez sélectionner le MAX ou l’agrégateur MIN pour un champ de date de recherche.
 
    ![Liste déroulante d’agrégation pour le champ de numéro lié](assets/aggregator-drop-down-for-number-linked-field.png)
 

@@ -1,23 +1,27 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Création d’une feuille de calcul à usage unique
+title: Créer une feuille de temps à usage unique
 description: Vous pouvez créer manuellement une feuille de temps à usage unique si vous souhaitez qu’elle ne soit pas récurrente. Lorsque la date de fin de la feuille de temps est atteinte et que vous avez besoin d’autres feuilles de temps, vous devez en créer de nouvelles.
 author: Alina
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 98%
+source-wordcount: '1078'
+ht-degree: 90%
 
 ---
 
 # Créer une feuille de temps à usage unique
 
+<!--Audited: 6/2025-->
+
 Vous pouvez créer manuellement une feuille de temps à usage unique si vous souhaitez qu’elle ne soit pas récurrente. Lorsque la date de fin de la feuille de temps est atteinte et que vous avez besoin d’autres feuilles de temps, vous devez en créer de nouvelles.
 
 Pour plus d’informations sur la création d’un profil de feuille de temps qui génère des feuilles de temps récurrentes pour vos utilisateurs et utilisatrices sans intervention de votre part (recommandé), voir [Créer, modifier et affecter des profils de feuille de temps](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+Pour plus d&#39;informations sur la génération manuelle de feuilles de temps pour tous les utilisateurs du système associés à un profil de feuille de temps, voir [Génération manuelle de feuilles de temps](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 >[!NOTE]
 >
@@ -50,23 +54,23 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    <p>Actuel : formule </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez disposer d’un accès administratif aux feuilles de temps. </p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones</a>.</p> </td> 
+   <td role="rowheader">Niveau d’accès</td> 
+   <td> <p>Vous devez disposer d’un accès administratif aux feuilles de temps. </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Créer une feuille de temps à usage unique
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Cliquez sur **Feuilles de temps**. Le filtre **Tous** est sélectionné par défaut. Cela permet d’afficher toutes les feuilles de temps auxquelles vous avez accès.
+Le filtre **Tous** est sélectionné par défaut. Cela permet d’afficher toutes les feuilles de temps auxquelles vous avez accès.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Liste des feuilles de temps avec une feuille de temps sélectionnée](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Facultatif) Pour mettre à jour le filtre dans la liste des feuilles de temps, effectuez l’une des opérations suivantes :
 
@@ -78,9 +82,9 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
      Cela applique les filtres Mes approbations de feuille de temps ou Mes feuilles de temps à la liste des feuilles de temps.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Boutons de filtrage Mes feuilles de temps dans la page Liste des feuilles de temps](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Cliquez sur l’icône Filtrer ![](assets/filter-nwepng.png) pour appliquer un autre filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-nwepng.png) pour appliquer un autre filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -89,9 +93,9 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    >   * [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. (Facultatif) Cliquez sur l’icône **Rechercher** ![](assets/search-icon.png) pour saisir un mot-clé et rechercher une feuille de temps spécifique. Par exemple, vous pouvez rechercher une période de feuille de temps avec le nom du ou de la propriétaire.
+1. (Facultatif) Cliquez sur l’icône **Rechercher** ![Icône Rechercher](assets/search-icon.png) pour saisir un mot-clé et rechercher une feuille de temps spécifique. Par exemple, vous pouvez rechercher une période de feuille de temps avec le nom du ou de la propriétaire.
 
-1. (Facultatif) Cliquez sur les icônes **Vue** ![](assets/view-icon.png) ou **Regroupement** ![](assets/grouping.png) pour appliquer une autre vue ou un autre regroupement ou en créer de nouveaux.
+1. (Facultatif) Cliquez sur les icônes **Affichage** ![Icône Affichage](assets/view-icon.png) ou **Regroupement** ![Icône Regroupement](assets/grouping.png) pour appliquer une autre vue ou un autre regroupement ou en créer un nouveau.
 
    Pour plus d’informations sur la création de filtres, de vues ou de regroupements, voir les articles suivants :
 

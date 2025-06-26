@@ -6,9 +6,9 @@ description: Un type d’heure est une étiquette qui vous permet de classer les
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 28%
 
 ---
@@ -22,7 +22,7 @@ Un type d’heure est une étiquette qui vous permet de classer les heures saisi
 Il existe 2 ensembles de types d’heures dans Adobe Workfront :
 
 * **Heures générales** : heures qui ne sont pas associées à un projet, comme les congés maladie ou l’administration. Vous pouvez uniquement consigner des heures générales sur la feuille de temps.
-* **Heures spécifiques au projet** : heures enregistrées sur les projets, tâches et événements. Vous pouvez consigner les heures spécifiques à un projet à partir de n’importe quel emplacement où vous pouvez consigner les heures.
+* **Heures spécifiques au projet** : heures enregistrées dans les projets, tâches et événements. Vous pouvez consigner les heures spécifiques à un projet à partir de n’importe quel emplacement où vous pouvez consigner les heures.
 
 Lors de la consignation des heures dans Workfront, les types d’heures spécifiques au projet qui sont disponibles dépendent des options de configuration définies au niveau du système, du projet et de l’utilisateur ou de l’utilisatrice. (Les types d’heures suivants, spécifiques au projet, sont toujours disponibles par défaut : Heures du projet, Heures de la tâche et Heures du problème.)
 
@@ -45,7 +45,7 @@ Une fois les types d’heures appropriés configurés, vous pouvez consigner le 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Nouveau : Standard</p> 
    <p>Actuel : formule</p>
    </td> 
@@ -61,7 +61,7 @@ Une fois les types d’heures appropriés configurés, vous pouvez consigner le 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -131,7 +131,7 @@ Pour définir les types d’heure disponibles pour un utilisateur ou une utilisa
 
 1. (Facultatif) Dans le menu déroulant **Type d’heure par défaut**, sélectionnez un type d’heure. Lorsque le type d’heure par défaut de l’utilisateur et un type d’heure filtré de projet correspondent, ce type d’heure est sélectionné par défaut lors de la journalisation de l’heure.
 
-1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;Désormais, lorsque vous consignez des heures pour un projet, une tâche ou un événement, les types d’heures que vous sélectionnez sont disponibles si ces mêmes types d’heures ont été rendus disponibles au niveau du projet.
+1. Cliquez sur Enregistrer les modifications. **** Désormais, lorsque vous consignez des heures pour un projet, une tâche ou un événement, les types d’heures que vous sélectionnez sont disponibles si ces mêmes types d’heures ont été rendus disponibles au niveau du projet.
 
 ## Fonctionnement des types d’heures au niveau de l’utilisateur ou de l’utilisatrice et au niveau du projet
 

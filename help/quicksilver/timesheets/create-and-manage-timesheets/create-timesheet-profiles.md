@@ -6,14 +6,24 @@ description: Vous pouvez créer, modifier et attribuer des profils de feuilles d
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 100%
+source-wordcount: '1540'
+ht-degree: 90%
 
 ---
 
 # Créer, modifier et attribuer des profils de feuilles de temps
+
+<!--Audited: 06/2025-->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 Vous pouvez créer, modifier et attribuer des profils de feuilles de temps qui génèrent des feuilles de temps récurrentes pour les utilisateurs et utilisatrices sans autre intervention de votre part. Vous gagnez ainsi du temps et vous vous assurez que les éléments suivants sont cohérents entre les utilisateurs et utilisatrices :
 
@@ -38,20 +48,20 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    <td> <p>Tous</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Nouveau : Standard </p>
  <p>ou</p> 
 <p>Actuel : formule </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer d’un accès administratif aux feuilles de temps. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,18 +76,18 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 >[!IMPORTANT]
 >
->Pour permettre les changements de profil de feuille de temps dans les feuilles de temps actuelles, vous devez supprimer les feuilles de temps existantes et en générer de nouvelles. Pour plus d’informations, consultez les articles [Supprimer des feuilles de temps dans Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) et [Générer manuellement des feuilles de temps](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+>Pour activer les modifications du profil de feuille de temps dans les feuilles de temps actuelles, vous devez supprimer les feuilles de temps existantes avant d&#39;apporter les modifications aux profils des feuilles de temps, puis générer de nouvelles feuilles de temps. Pour plus d’informations, consultez les articles [Supprimer des feuilles de temps dans Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) et [Générer manuellement des feuilles de temps](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 {{step-1-to-setup}}
 
-1. Si vous créez ou modifiez un profil de feuille de temps qui sera utilisé dans l’ensemble du système, cliquez sur **Feuille de temps et heures**.
+1. Si vous créez ou modifiez un profil de feuille de temps à utiliser dans tout le système, cliquez sur **Feuille de temps et heures**.
 
    Ou
 
    Si vous créez ou modifiez un profil de feuille de temps pour un groupe, cliquez sur **Groupes**, puis sur le nom du groupe.
 
 1. Cliquez sur **Profils de feuilles de temps**.
-1. Pour créer un nouveau profil de feuille de temps, cliquez sur **Nouveau profil**.
+1. Pour créer un profil de feuille de temps, cliquez sur **Nouveau profil**.
 
    Ou
 
@@ -86,13 +96,26 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
    Le nouveau profil de feuille de temps ou le profil existant s’affiche.
 
 
-1. Dans l’onglet **Définir les détails**, saisissez **Nom** et **Description** pour le profil de feuille de temps et fournissez les informations suivantes :
+1. Cliquez sur l&#39;onglet **Définir les détails**, puis mettez à jour les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
+      <td role="rowheader"><strong>Nom</strong> </td> 
+      <td> <p> Ajoutez un nom pour le profil de feuille de temps. Il peut s’agir du nom d’une équipe ou d’un groupe dont les personnes partagent le même délai pour leurs feuilles de temps. </p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>Description</strong> </td> 
+      <td> <p> Ajoutez plus d’informations sur le profil de feuille de temps.     
+      </p> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader"><strong>Groupe disposant d’un accès administrateur</strong> </td> 
       <td> <p> 
       <ul> 
@@ -147,8 +170,14 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
       <td role="rowheader"><strong>Types d’heures disponibles</strong> </td> 
       <td><p>Ce paramètre ne concerne que les types d’heures généraux, et non les types d’heures spécifiques à un projet. </p>
       <p>Par défaut, les utilisateurs et utilisatrices voient toutes les heures générales d’une feuille de temps. Toutefois, si votre organisation souhaite que seules des heures générales spécifiques s’affichent pour un groupe particulier d’utilisateurs et utilisatrices, vous pouvez choisir les heures générales qu’ils doivent voir sur leurs feuilles de temps en les sélectionnant dans leur profil de feuille de temps dans ce champ. Si vous souhaitez désactiver toutes les heures générales, désélectionnez tous les types d’heures pour générer la feuille de temps sans section pour les heures générales.</p></td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong> Notifications de rappel </strong> </td> 
+      <td> <p> Ajoutez une notification de rappel. Workfront enverra des rappels aux utilisateurs pour leur demander de remplir ou d’approuver leurs feuilles de temps. Vous devez créer des notifications de rappel avant de pouvoir les associer à un profil de feuille de temps.  </p> </td> 
+     </tr>
+
+   <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">Heures supplémentaires</span> </td> 
       <td>Vous pouvez masquer la case Heures supplémentaires dans les feuilles de temps. Cette option est désactivée par défaut.</td> 
      </tr> 

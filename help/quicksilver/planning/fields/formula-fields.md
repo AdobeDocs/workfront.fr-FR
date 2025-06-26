@@ -6,16 +6,14 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 43%
+source-wordcount: '795'
+ht-degree: 40%
 
 ---
 
 # Vue d’ensemble des champs de formule
-
-<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -104,6 +102,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 * Les champs de formule font référence à des champs appartenant au même type d&#39;enregistrement.
 * Vous ne pouvez référencer des champs d&#39;autres types d&#39;enregistrements que lorsque vous connectez un autre type d&#39;enregistrement à celui pour lequel vous créez un champ de formule.
+* &lt;span class-« preview »>Le référencement de types d’enregistrements connectés ou de leurs champs de recherche dans une formule dépend de vos autorisations sur les types d’enregistrements connectés. Si vous ne disposez pas des autorisations nécessaires pour afficher le type d’enregistrement, vous ne pouvez pas référencer leurs champs dans une formule. </span>
 * Vous ne pouvez pas modifier le type de champ d&#39;un champ de formule après l&#39;avoir enregistré.
 * Vous pouvez mettre à jour le calcul d’un champ de formule après l’avoir enregistré, et les résultats du calcul sont automatiquement mis à jour pour tous les enregistrements du même type.
 * Vous devez ajouter les champs que vous référencez dans les formules tel qu’ils s’affichent dans l’interface de Workfront Planning.

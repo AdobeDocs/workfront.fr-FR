@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Afficher les heures effectives
-description: Les heures que vous consignez pour vos éléments de travail dans Adobe Workfront sont considérées comme des heures effectives.
+description: Les heures que vous enregistrez pour vos tâches dans Adobe Workfront sont considérées comme des heures réelles. Les heures effectives représentent le temps réel nécessaire à la réalisation d’une tâche, d’un problème ou d’un projet.
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 49%
+source-wordcount: '1032'
+ht-degree: 40%
 
 ---
 
@@ -61,6 +61,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Heures réelles par rapport aux heures réelles héritées
+
+En fonction de la zone du Workfront à partir de laquelle vous accédez aux heures réelles, elles peuvent se référer à l’une des heures consignées suivantes :
+
+* Dans les rapports et listes de projets, de tâches et d’événements :
+
+   * **Heures réelles** : heures enregistrées pour un projet, des tâches ou des événements postérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
+   * **Heures réelles héritées** : heures enregistrées pour des projets, des tâches ou des événements, à tout moment, y compris avant mai 2021. Elles sont stockées dans la base de données Workfront en minutes et leur champ de valeur est `actualWorkRequired`. <!--check below and see if you need to add this to the API section - asked on the tech doc task -->
+
+* Dans la zone Détails du projet, de la tâche ou de l’événement :
+
+   * **Heures réelles** : heures enregistrées pour des projets, des tâches ou des événements, à tout moment, y compris avant mai 2021. Elles correspondent aux heures effectives héritées dans les rapports et les listes. Elles sont stockées dans la base de données Workfront en minutes et leur champ de valeur est `actualWorkRequired`.
 
 ## Heures effectives sur les tâches et les problèmes ou heures effectives sur les projets
 
@@ -134,7 +147,7 @@ Si vous souhaitez voir la progression du travail de vos utilisateurs et utilisat
   Pour plus d&#39;informations, voir [Afficher les heures disponibles, prévues et réelles ou l&#39;équivalent temps complet dans le planificateur de ressources lorsque vous utilisez la vue Utilisateur](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
-### Heures réelles dans le <!--, and custom data--> de l’API <!--database and the--> Workfront
+### Heures réelles dans l’API Workfront
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,14 +155,13 @@ La plupart des champs Workfront qui stockent des heures sont enregistrés dans l
 
 Vous devez tenir compte de la conversion de minutes en heures lors de l’accès à ces champs dans les appels API ou dans les champs ou colonnes calculés personnalisés.
 
-Selon la manière dont vous accédez aux heures réelles, elles peuvent être stockées dans les champs et unités suivants de la base de données :
+Les heures réelles consignées pour les projets, tâches ou événements sont actuellement stockées dans la base de données Workfront sous la forme de minutes et leur champ de valeur est `actualWorkRequired`.
 
-* Dans l’API : la version ci-dessous de l’API Workfront, dont la publication est prévue pour fin 2025, `valuefield` les heures effectives est `actualWorkRequiredDouble` et stockée en heures. La version actuelle a stocké les heures effectives sous la forme `actualWorkRequired`, qui sont stockées en minutes.
-* Dans l’interface Workfront (champ personnalisé calculé et colonnes) : la `valuefield` des heures effectives est `actualWorkRequired` et stockée en minutes.
+La version suivante de l’API Workfront, dont la publication est prévue pour fin 2025, selon la manière dont vous accédez aux heures réelles, peut être stockée dans les champs et unités suivants de la base de données :
 
-<!--Change the above with this when we fix this for the Workfront UI: 
+* **Heures réelles** : heures enregistrées pour un projet, des tâches ou des événements postérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
 
-You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
+* **Heures réelles héritées** : heures enregistrées pour des projets, des tâches ou des événements, à tout moment, y compris avant mai 2021. Elles sont stockées dans la base de données Workfront en minutes et leur champ de valeur est `actualWorkRequired`.
 
 Pour plus d&#39;informations sur l&#39;utilisation des heures réelles dans les colonnes ou champs calculés, voir [FAQ sur les rapports](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 

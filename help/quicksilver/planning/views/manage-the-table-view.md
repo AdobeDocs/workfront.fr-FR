@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '3633'
-ht-degree: 50%
+source-wordcount: '3720'
+ht-degree: 49%
 
 ---
 
@@ -178,7 +178,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -458,9 +458,7 @@ Pour ajouter un regroupement :
 
    Le nombre de champs sélectionnés pour le regroupement s’affiche à côté de l’icône de regroupement.
 
-   <!--replace screen shot for Expand all-->
-
-   ![Regroupement appliqué en mode Tableau](assets/grouping-applied-in-table-view.png)
+   <span class="preview">![Regroupement appliqué en mode Tableau](assets/grouping-applied-in-table-view.png)</span>
 
 1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement pour le supprimer.
 
@@ -471,26 +469,23 @@ Pour ajouter un regroupement :
 1. Cliquez en dehors de la zone **Regrouper les enregistrements par** pour la fermer.
 1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** à la fin de tout regroupement pour ajouter de nouveaux enregistrements, puis actualisez votre page pour ajouter le nouvel enregistrement au regroupement approprié. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-<!--
+1. <span class="preview">Pour développer ou réduire des regroupements, effectuez l’une des opérations suivantes :</span>
 
-1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+   <div class="preview">
 
-    <div class="preview">
+   1. Cliquez sur l’icône **Regroupement**, puis sur **Tout développer** ou **Tout réduire**. Cette action développe tous les regroupements et sous-regroupements dans la vue Tableau.
 
-    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+      ![Développer et réduire tous les boutons en mode Tableau de zone de regroupement](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
-        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+   1. Cliquez avec le bouton droit sur l&#39;un des en-têtes de regroupement dans la vue Tableau, puis cliquez sur l&#39;une des options suivantes :
+      * **Développer le groupe**
+      * **Réduire le groupe**
+      * **Tout développer**
+      * **Tout réduire**
+      * **Développer les sous-groupes**
+      * **Réduire les sous-groupes**
 
-    1. Right-click any of the grouping headers in the table view, then click one of the following options:
-        * **Expand group**
-        * **Collapse group**
-        * **Expand all**
-        * **Collapse all**
-        * **Expand subgroups**
-        * **Collapse subgroups**
-
-        Depending on the number of groupings you apply to the view, some options might not be available.</div>
--->
+      Selon le nombre de regroupements que vous appliquez à la vue, certaines options peuvent ne pas être disponibles.</div>
 
 <!-- this is not available yet: 
 

@@ -6,9 +6,9 @@ description: Le glossaire  [!DNL Adobe Workfront]  répertorie les termes couram
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '21072'
+source-wordcount: '21141'
 ht-degree: 94%
 
 ---
@@ -63,12 +63,13 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Hours]</td> 
-   <td> <p>Dans un rapport de projet, de tâche ou de problème, les [!UICONTROL Actual Hours] sont la somme de toutes les heures consignées sur le projet, la tâche ou le problème.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>si, dans l’onglet [!UICONTROL Updates] de la tâche 1, vous cliquez sur « Consigner des heures » et que vous saisissez 25 heures, les heures effectives de la tâche 1 = 25 heures. </p> <p>[!DNL Workfront] calcule les [!UICONTROL Actual Hours] pour les tâches ou les projets parents à l’aide des formules suivantes :</p> 
+   <td> <p>Dans un rapport de projet, de tâche ou d’événement, les [!UICONTROL Actual Hours] correspondent à la somme de toutes les heures consignées dans le projet, la tâche ou l’événement après mai 2021.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>si, dans l’onglet [!UICONTROL Updates] de la tâche 1, vous cliquez sur « Consigner des heures » et que vous saisissez 25 heures, les heures effectives de la tâche 1 = 25 heures. </p> <p>[!DNL Workfront] calcule les [!UICONTROL Actual Hours] pour les tâches ou les projets parents à l’aide des formules suivantes :</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
-     <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project</code> </p> </li> 
+     <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
     </ul> 
-    <p>Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Heures réelles</a>.</p>
+   <p>Voir aussi <strong>Heures effectives héritées</strong>.
+    <p>Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Afficher les heures réelles</a>.</p>
     </td> 
   </tr> 
   <tr> 
@@ -1276,9 +1277,15 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL - Heures effectives héritées]</td> 
+   <td> <p>Dans un rapport de projet, de tâche ou d'événement, les [!UICONTROL Legacy Actual Hours] représentent la somme de toutes les heures enregistrées dans le projet, la tâche ou l'événement, y compris avant mai 2021.</p>  
+   <p>Les heures réelles héritées s'affichent sous la forme d'heures réelles dans une zone de détails de projet, de tâche ou d'événement. </p>
+   <p>Voir aussi <strong>Heures réelles</strong>.
+    <p>Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Afficher les heures réelles</a>.</p>
+    </td> 
+  </tr>  <tr> 
    <td>[!UICONTROL License Type]</td> 
    <td>Type de licence attribué à un [!UICONTROL Access Level]. Le type peut être [!UICONTROL Full User], [!UICONTROL Limited User] ou [!UICONTROL Requester].</td> 
   </tr> 
@@ -1457,7 +1464,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
-   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[!UICONTROL User] qui affiche et permet de définir les relations de l’[!UICONTROL Company] et du [!UICONTROL Reporting] de l’[!UICONTROL User].</td> 
+   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[UICONTROL User] qui affiche et permet de définir les relations de l’[UICONTROL Company] et du [UICONTROL Reporting] de l’[UICONTROL User].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Organizational Setup]</td> 
@@ -2060,7 +2067,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (dans [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
+   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (dans le [!DNL Workfront Scenario Planner]) </td> 
@@ -2177,7 +2184,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
       <li>[!UICONTROL Inactive]</li> 
       <li>[!UICONTROL Closed]</li> 
      </ul> 
-     <p>Pour plus d’informations sur les objectifs stratégiques, voir aussi « &lbrack;!UI[!UICONTROL Goal] » or « [!UICONTROL Goals] » dans cet article. </p> 
+     <p>Pour plus d’informations sur les objectifs stratégiques, voir aussi « [!UI[!UICONTROL Goal] » or « [!UICONTROL Goals] » dans cet article. </p> 
      <p>Pour les objectifs stratégiques, ce champ n’est visible que si votre entreprise a acheté [!DNL Workfront Goals]. Pour plus d’informations sur la gestion des objectifs stratégiques à l’aide de [!DNL Workfront Goals], voir Vue d’ensemble de <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals]</a>. </p>
     </td> 
   </tr> 

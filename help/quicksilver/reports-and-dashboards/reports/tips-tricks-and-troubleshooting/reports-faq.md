@@ -7,9 +7,9 @@ description: Questions fréquentes sur les rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1500'
 ht-degree: 88%
 
 ---
@@ -64,10 +64,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-Dans un rapport de projet, j&#39;ai un calcul qui soustrait les heures effectives des heures prévues. Le résultat obtenu est incorrect.
+Dans un rapport de projet, j&#39;ai un calcul qui soustrait les heures effectives héritées des heures prévues.
+
+Le résultat que j&#39;obtiens est erroné.
 
 <!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
-
 
 Mon calcul est le suivant :
 
@@ -77,21 +78,17 @@ Mon calcul est le suivant :
 
 La plupart des champs utilisant des heures dans Workfront sont stockés en minutes. Lorsque vous utilisez ces champs dans un calcul, le résultat est le plus souvent exprimé en minutes. Pour obtenir le résultat en heures, vous devez diviser le résultat du calcul ou le champ que vous référencez par 60.
 
-<!--For example, Planned Hours are stored in minutes, while Actual Hours are stored in hours. As a result, you must convert Planned Hours from minutes to hours. -->
-
 Le calcul correct est le suivant :
 
 `valueexpression=SUB(workRequired,actualWorkRequired)/60`
 
 >[!NOTE]
 >
->Si vous faites référence aux heures réelles dans les appels API, utilisez `actualWorkRequiredDouble` pour le champ de valeur . Les heures réelles dans l’API sont stockées en heures. Les heures planifiées sont stockées en minutes.
+>Si vous utilisez des heures réelles dans votre calcul, utilisez `actualWorkRequiredDouble` pour le champ de valeur. Les heures réelles sont stockées en heures. Les heures planifiées sont stockées en minutes.
 >
->Le calcul correct dans un appel API est :
->&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>Le calcul correct pour les heures réelles est le suivant :
+>>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
-
-<!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
 
 ## Pourquoi la valeur de chacun de mes éléments de graphique dans un rapport ne s’affiche-t-elle pas sur le graphique ?
 

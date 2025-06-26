@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Configurer des préférences pour les mises à jour utilisateur
 description: Vous pouvez configurer des préférences qui permettent d’accéder à certaines fonctionnalités lorsque les utilisateurs et les utilisatrices ajoutent des commentaires dans la zone [!UICONTROL Mises à jour] d’un objet.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 91%
@@ -16,6 +16,8 @@ ht-degree: 91%
 ---
 
 # Configurer les préférences pour les mises à jour des utilisateurs et utilisatrices
+
+<!--Audited: 06/2025-->
 
 Vous pouvez configurer des préférences permettant aux utilisateurs et aux utilisatrices d’accéder à certaines fonctionnalités lorsqu’ils ajoutent des commentaires dans la zone [!UICONTROL Mises à jour] d’un objet.
 
@@ -34,7 +36,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td><p>Nouvelle : [!UICONTROL Standard]</p>
    Ou
    <p>Actuelle : [!UICONTROL Plan]</p>
@@ -47,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
