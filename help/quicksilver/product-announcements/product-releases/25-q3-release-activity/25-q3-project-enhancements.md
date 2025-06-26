@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
+source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '745'
 ht-degree: 7%
 
 ---
@@ -32,15 +32,19 @@ Nous avons ajouté un nouveau champ Heures réelles qui stocke les heures enregi
 
 Les champs Heures réelles et Héritage d&#39;heures réelles sont visibles dans les vues et les rapports Projet, Tâche et Événements.
 
-Le champ Heures réelles visible dans la section Détails du projet, des tâches et des événements représente les heures réelles héritées.
+Le champ Heures réelles visible dans la section Détails du projet, des tâches et des événements représente les nouvelles heures réelles.
+
 
 
 >[!IMPORTANT]
 >
->Les heures consignées avant mai 2021 sont stockées dans le champ Heures effectives héritées.  
->&#x200B;>La valeur du champ Heures réelles pour les projets, tâches et événements pour lesquels des heures ont été enregistrées avant mai 2021 est zéro. 
->&#x200B;>Les heures consignées après mai 2021 sont stockées dans les champs Heures réelles et Heures réelles héritées .
->&#x200B;> Vous devrez peut-être mettre à jour vos rapports pour refléter les nouveaux champs.
+>Selon le moment où les heures ont été consignées, il peut y avoir une incohérence entre les heures réelles et les heures réelles héritées pour un projet, une tâche ou un événement.<br>
+>>Les scénarios suivants sont possibles :
+>
+>* Les heures réelles qui représentent les heures enregistrées pour les projets, les tâches et les événements depuis mai 2021 ont été déplacées du champ Heures réelles héritées vers le nouveau champ Heures réelles.
+>* Les heures réelles qui représentent les heures consignées pour les projets, les tâches et les événements avant mai 2021 ne sont prises en compte que dans le champ Heures réelles héritées.
+>  ><br>Vous devrez peut-être mettre à jour vos rapports pour refléter le nouveau champ et ses valeurs.
+
 
 Pour plus d&#39;informations, voir [Afficher les heures réelles](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
