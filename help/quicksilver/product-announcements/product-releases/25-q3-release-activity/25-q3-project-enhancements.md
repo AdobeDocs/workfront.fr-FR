@@ -39,11 +39,11 @@ Le champ Heures réelles visible dans la section Détails du projet, des tâches
 >[!IMPORTANT]
 >
 >Selon le moment où les heures ont été consignées, il peut y avoir une incohérence entre les heures réelles et les heures réelles héritées pour un projet, une tâche ou un événement.<br>
->>Les scénarios suivants sont possibles :
+>&#x200B;>Les scénarios suivants sont possibles :
 >
 >* Les heures réelles qui représentent les heures enregistrées pour les projets, les tâches et les événements depuis mai 2021 ont été déplacées du champ Heures réelles héritées vers le nouveau champ Heures réelles.
 >* Les heures réelles qui représentent les heures consignées pour les projets, les tâches et les événements avant mai 2021 ne sont prises en compte que dans le champ Heures réelles héritées.
->  ><br>Vous devrez peut-être mettre à jour vos rapports pour refléter le nouveau champ et ses valeurs.
+>  &#x200B;><br>Vous devrez peut-être mettre à jour vos rapports pour refléter le nouveau champ et ses valeurs.
 
 
 Pour plus d&#39;informations, voir [Afficher les heures réelles](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
