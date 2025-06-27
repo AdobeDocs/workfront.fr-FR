@@ -57,8 +57,8 @@ Avant de commencer, vous devez configurer des directives de marque dans GenStudi
 
 Pour en savoir plus sur les directives de la marque, voir
 
-* [Marques GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Ajouter des directives](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [Marques GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Ajouter des directives](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 ## Ajouter un réviseur d’IA
 
