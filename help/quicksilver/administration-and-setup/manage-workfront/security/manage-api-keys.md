@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
 workflow-type: tm+mt
-source-wordcount: '1330'
-ht-degree: 98%
+source-wordcount: '1336'
+ht-degree: 92%
 
 ---
 
@@ -107,14 +107,13 @@ Vous pouvez générer et gérer des clés API pour les personnes ayant un rôle
    1. Développez **Système**, puis cliquez sur **Authentification unique (SSO)**.
    1. Dans le champ **Type**, sélectionnez le type de SSO utilisé par votre entreprise.
    1. Avec le type sélectionné, faites défiler l’écran vers le bas et décochez la case **Activer**.
-
       ![Activer SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Cliquer sur **Enregistrer**.
 
 
 1. Dans la barre d’adresse d’un navigateur, saisissez l’appel API suivant :
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;username&#x200B;**&amp;password=**&#x200B;password**&amp;method=PUT
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**username**&amp;password=**password**&amp;method=PUT
 
    Remplacez `<domain>` par votre nom de domaine Workfront, et le nom d’utilisateur ou d’utilisatrice et le mot de passe par les informations d’identification Workfront de la personne.
 
@@ -140,9 +139,9 @@ Vous pouvez configurer l’expiration des clés API pour toutes les personnes de
 
    Par défaut, les clés API expirent chaque mois.
 
-1. Pour configurer les clés API de manière à ce qu’elles expirent en même temps que les mots de passe des personnes, sélectionnez **Supprimer la clé API lorsque le mot de passe d’une personne expire**.
+1. Pour configurer les clés d’API qui expirent au moment où les mots de passe des utilisateurs expirent, activez **Supprimer la clé d’API à l’expiration d’un mot de passe utilisateur**.
 
-   Par défaut, cette option n’est pas sélectionnée.
+   Par défaut, cette option n’est pas activée.
 
    Pour plus d’informations sur la configuration de l’expiration des mots de passe des personnes, voir [Configurer les préférences de sécurité du système](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
@@ -170,11 +169,11 @@ Si une faille de sécurité particulière vous préoccupe concernant votre syst�
 >
 >Pour obtenir une liste de procédures qui diffèrent selon que votre entreprise a été intégrée ou non à Adobe Business Platform, voir [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Les applications tierces peuvent communiquer avec Workfront par le biais de l’API. Pour renforcer la sécurité de votre site Workfront, vous pouvez configurer Workfront pour restreindre les demandes de connexion à l’API en chargeant un certificat X.509 dans Workfront. Une fois cette option activée, toutes les demandes de connexion via l’API doivent inclure un certificat client en plus du nom d’utilisateur ou d’utilisatrice et du mot de passe.
-
 >[!NOTE]
 >
 >Cette option n’est pas disponible si l’instance Workfront de votre organisation repose sur Adobe IMS. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
+
+Les applications tierces peuvent communiquer avec Workfront par le biais de l’API. Pour renforcer la sécurité de votre site Workfront, vous pouvez configurer Workfront pour restreindre les demandes de connexion à l’API en chargeant un certificat X.509 dans Workfront. Une fois cette option activée, toutes les demandes de connexion via l’API doivent inclure un certificat client en plus du nom d’utilisateur ou d’utilisatrice et du mot de passe.
 
 * [Obtenir le certificat X.509](#obtain-the-x-509-certificate)
 * [Charger le certificat dans Workfront](#upload-the-certificate-to-workfront)
@@ -182,7 +181,7 @@ Les applications tierces peuvent communiquer avec Workfront par le biais de l’
 
 ### Obtenir le certificat X.509 {#obtain-the-x-509-certificate}
 
-Obtenez un certificat X.509 valide auprès d’une autorité de certification approuvée (telle que Verisign) et placez-le dans un emplacement temporaire sur votre poste de travail.
+Obtenez un certificat X.509 valide d’une autorité de certification approuvée (telle que Verisign) et enregistrez-le à un emplacement temporaire sur votre station de travail.
 
 ### Charger le certificat dans Workfront {#upload-the-certificate-to-workfront}
 
@@ -192,7 +191,8 @@ Après avoir obtenu le certificat X.509 auprès de votre autorité de certifica
 
 1. Développez **Système**, puis cliquez sur **Infos client**.
 
-1. Dans la zone **Paramètres de la clé API**, sélectionnez **Activer le certificat X.509**.
+1. Dans la zone **Paramètres de clé API**, sélectionnez **Exiger un certificat X.509 pour les connexions API**.
+1. Cliquez sur **Modifier le certificat**.
 1. Sur votre poste de travail, recherchez et sélectionnez le certificat X.509 que vous avez téléchargé précédemment.
 1. (Facultatif) Cliquez sur **Afficher les détails** en regard du nom du certificat pour afficher les détails suivants sur le certificat :
 
