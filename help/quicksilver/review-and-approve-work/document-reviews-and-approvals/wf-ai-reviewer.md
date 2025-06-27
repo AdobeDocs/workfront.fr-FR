@@ -55,8 +55,8 @@ Le réviseur de l’IA pour Workfront utilise les directives de marque configur�
 
 Pour en savoir plus sur les directives de la marque, voir
 
-* [Marques GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Ajouter des directives](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [Marques GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Ajouter des directives](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## Créer des réviseurs d’IA
