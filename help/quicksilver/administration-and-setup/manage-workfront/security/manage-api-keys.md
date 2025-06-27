@@ -107,6 +107,7 @@ Vous pouvez générer et gérer des clés API pour les personnes ayant un rôle
    1. Développez **Système**, puis cliquez sur **Authentification unique (SSO)**.
    1. Dans le champ **Type**, sélectionnez le type de SSO utilisé par votre entreprise.
    1. Avec le type sélectionné, faites défiler l’écran vers le bas et décochez la case **Activer**.
+
       ![Activer SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Cliquer sur **Enregistrer**.
 
