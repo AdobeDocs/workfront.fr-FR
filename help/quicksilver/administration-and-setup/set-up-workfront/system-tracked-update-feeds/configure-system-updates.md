@@ -102,7 +102,7 @@ Vous pouvez ajouter les champs que vous souhaitez faire suivre par [!DNL Workfro
    * <span class="preview">**Champs personnalisés**</span> : affiche une liste de champs personnalisés. Vous devez créer les champs personnalisés avant qu’ils ne soient disponibles dans la liste.
    * <span class="preview">**Tous les champs**</span> : affiche une liste de champs intégrés et personnalisés.
 
-1. Cliquez sur <span class="preview">**[!UICONTROL Ajouter des champs ]**,</span> puis sélectionnez dans la liste déroulante l’objet dont vous souhaitez effectuer le suivi.
+1. Cliquez sur <span class="preview">**[!UICONTROL Ajouter des champs &#x200B;]**,</span> puis sélectionnez dans la liste déroulante l’objet dont vous souhaitez effectuer le suivi.
 
    La sélection manuelle des champs n’est pas disponible pour tous les objets qui possèdent une zone Mises à jour.
 

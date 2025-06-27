@@ -154,7 +154,7 @@ Le taux horaire de la formule tient compte de toute modification du taux à comp
 >[!NOTE]
 >
 >Le coût réel des dépenses du projet est calculé comme suit :
->>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>&#x200B;>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Ces coûts ne sont pas dupliqués dans le calcul du coût réel. Par exemple, si un coût fixe fait partie du coût réel du projet, il n’est pas ajouté séparément au coût réel.
 
