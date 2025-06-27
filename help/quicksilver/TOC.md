@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a6d0cf24d560a64f4e1f0bae7f8655ebc2d44a9b
+source-git-commit: 8d37762a2f6b01ff25845639c6436b2a39aa5449
 workflow-type: tm+mt
-source-wordcount: '13211'
+source-wordcount: '13224'
 ht-degree: 87%
 
 ---
@@ -1095,7 +1095,6 @@ ht-degree: 87%
       * [La zone Documents](documents/managing-documents/documents-area.md)
       * [Vue d’ensemble des détails du document](documents/managing-documents/document-details-overview.md)
       * [Vue d’ensemble du résumé des documents](documents/managing-documents/summary-for-documents.md)
-      * [Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [Prévisualiser les documents](documents/managing-documents/preview-documents.md)
       * [Approbations et relecture de documents](documents/managing-documents/document-approvals-and-proofing.md)
       * [Ajouter une mise à jour à un document](documents/managing-documents/add-update-documents.md)
@@ -1792,8 +1791,10 @@ ht-degree: 87%
       * [Fonctionnalités disponibles pour la révision et l’approbation des ressources et des documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Aperçu des validations unifiées](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Aperçu du statut de décision du document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+      * [Prise en main du réviseur de l’IA dédiée à Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * Configurer et gérer les approbations de ressources et de documents {#manage-asset-review-and-approval}
          * [Configurer et gérer les approbations de ressources et de documents : index des articles](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+         * [Créer des réviseurs d’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
          * [Créer une demande de révision ou d’approbation de document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Ajouter d’autres réviseurs ou approbateurs à une ressource ou un document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Supprimer des approbateurs ou des réviseurs d’une ressource ou d’un document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
@@ -1803,6 +1804,7 @@ ht-degree: 87%
          * [Créer un tableau de bord de rapports à réviser et à approuver](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Examen et approbation des ressources et des documents {#review-and-approve-documents}
          * [Examen et approbation des documents : index des articles](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [Afficher le score et le retour d’informations du réviseur de l’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [Réviser un document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Approuver un document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Relecture {#proofing}
