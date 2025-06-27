@@ -2,14 +2,14 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Suivi des coûts
+title: Suivre les coûts
 description: Vous pouvez suivre les coûts des projets, des tâches et des problèmes dans Adobe Workfront.
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2499'
 ht-degree: 99%
 
 ---
@@ -77,7 +77,11 @@ Vous pouvez suivre plusieurs types de coûts pour les tâches et les projets dan
     </tr> 
     <tr> 
      <td>Coûts réels de la main-d’œuvre</td> 
-     <td> <p>Ils sont calculés à l’aide de la formule suivante :</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
+     <td> <p>Ils sont calculés à l’aide de la formule suivante :</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> 
+     <p><strong>NOTE</strong>
+     <p>Workfront calcule le coût réel de la main-d’œuvre à l’aide des anciennes heures réelles. Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Afficher les heures réelles</a>. </p>
+
+  </td> 
     </tr> 
    </tbody> 
   </table>
@@ -150,7 +154,7 @@ Le taux horaire de la formule tient compte de toute modification du taux à comp
 >[!NOTE]
 >
 >Le coût réel des dépenses du projet est calculé comme suit :
->`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Ces coûts ne sont pas dupliqués dans le calcul du coût réel. Par exemple, si un coût fixe fait partie du coût réel du projet, il n’est pas ajouté séparément au coût réel.
 
