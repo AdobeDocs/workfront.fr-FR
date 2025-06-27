@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
+source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1625'
 ht-degree: 19%
 
 ---
@@ -172,8 +172,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Le champ Heures effectives existant a été remplacé par le champ Heures effectives héritées et un nouveau champ Heures réelles a été créé</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>Le champ existant des heures effectives a été renommé en heures effectives héritées. Ce champ stocke le temps enregistré pour les projets, les tâches et les événements en minutes. Le champ est stocké dans la base de données Workfront en tant que realWorkRequired. </p>
-            <p>Nous avons ajouté un nouveau champ Heures réelles qui stocke les heures enregistrées pour les projets, tâches et événements dans des heures, avec une précision décimale. Le champ est stocké dans la base de données Workfront sous le nom actuelWorkRequiredDouble.</p>
+            <p>Le champ existant des heures effectives a été renommé en heures effectives héritées. Ce champ stocke le temps enregistré pour les projets, les tâches et les événements en minutes. Le champ est stocké dans la base de données Workfront sous la forme <code>actualWorkRequired</code>. </p>
+            <p>Nous avons ajouté un nouveau champ Heures réelles qui stocke les heures enregistrées pour les projets, tâches et événements dans des heures, avec une précision décimale. Le champ est stocké dans la base de données Workfront sous la forme <code>actualWorkRequiredDouble</code>.</p>
         </td>
         <td>mercredi 24 juin 2025</td>
         <td>mercredi 24 juin 2025</td>
@@ -316,7 +316,7 @@ Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’
 
 ### Améliorations de Workfront Fusion
 
-De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations apportées à Workfront Planning
 
@@ -354,7 +354,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

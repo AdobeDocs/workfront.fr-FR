@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
+source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '741'
 ht-degree: 7%
 
 ---
@@ -26,25 +26,23 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >
 > Prévisualisation et production : 24 juin 2025 
 
-Le champ existant des heures effectives a été renommé en heures effectives héritées. Ce champ stocke le temps enregistré pour les projets, les tâches et les événements en minutes. Le champ est stocké dans la base de données Workfront en tant que realWorkRequired.
+Nous avons ajouté un nouveau champ Heures réelles qui stocke les heures enregistrées pour les projets, tâches et événements dans des heures, avec une précision décimale. Le champ est stocké dans la base de données Workfront sous la forme `actualWorkRequiredDouble`.
 
-Nous avons ajouté un nouveau champ Heures réelles qui stocke les heures enregistrées pour les projets, tâches et événements dans des heures, avec une précision décimale. Le champ est stocké dans la base de données Workfront sous le nom actuelWorkRequiredDouble.
+Le champ existant des heures effectives a été renommé en heures effectives héritées. Le champ stocke le temps enregistré pour les projets, les tâches et les événements en minutes et est stocké dans la base de données Workfront en tant que `actualWorkRequired`.
 
 Les champs Heures réelles et Héritage d&#39;heures réelles sont visibles dans les vues et les rapports Projet, Tâche et Événements.
 
 Le champ Heures réelles visible dans la section Détails du projet, des tâches et des événements représente les nouvelles heures réelles.
 
-
-
 >[!IMPORTANT]
 >
 >Selon le moment où les heures ont été consignées, il peut y avoir une incohérence entre les heures réelles et les heures réelles héritées pour un projet, une tâche ou un événement.<br>
->&#x200B;>Les scénarios suivants sont possibles :
+>>Les scénarios suivants sont possibles :
 >
->* Les heures réelles qui représentent les heures enregistrées pour les projets, les tâches et les événements depuis mai 2021 ont été déplacées du champ Heures réelles héritées vers le nouveau champ Heures réelles.
->* Les heures réelles qui représentent les heures consignées pour les projets, les tâches et les événements avant mai 2021 ne sont prises en compte que dans le champ Heures réelles héritées.
->  &#x200B;><br>Vous devrez peut-être mettre à jour vos rapports pour refléter le nouveau champ et ses valeurs.
-
+>* Les heures réelles représentent les heures enregistrées pour les projets, tâches et événements depuis mai 2021.
+>* Les heures effectives héritées représentent les heures enregistrées pour les projets, les tâches et les événements pendant la durée de vie du projet, de la tâche ou de l&#39;événement. Cela inclut les heures enregistrées avant mai 2021 jusqu’à l’heure actuelle.
+>  ><br>Vous devrez peut-être mettre à jour vos rapports pour refléter le nouveau champ et ses valeurs.
+>  ><br>Workfront utilise les heures réelles héritées pour calculer les coûts réels de main-d&#39;œuvre.
 
 Pour plus d&#39;informations, voir [Afficher les heures réelles](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
