@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
+source-git-commit: 9808596e561ef30cc0edf5006f5ac2f190ed64f5
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 16%
+source-wordcount: '277'
+ht-degree: 13%
 
 ---
 
@@ -18,11 +18,11 @@ Cette page décrit toutes les améliorations de l’accueil apportées à l’en
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du troisième trimestre 2025, consultez la [Vue d’ensemble de la version du troisième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
-<!--## All Approvals widget renamed to Document approval metrics
+## Widget Toutes les approbations renommé Mesures d’approbation de document
 
-We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.
+Le widget Toutes les approbations a été renommé Mesures d’approbation des documents afin de refléter plus précisément les informations qu’il affiche. Le widget Mesures d’approbation des documents fournit des informations de haut niveau sur les approbations de documents pour les projets que vous possédez.
 
-This widget does not contain any information about proof approvals. -->
+Ce widget ne contient aucune information sur les validations de BAT.
 
 ## Mise à jour de l’expérience de commentaire dans la section Mentions de la zone Mes mises à jour
 

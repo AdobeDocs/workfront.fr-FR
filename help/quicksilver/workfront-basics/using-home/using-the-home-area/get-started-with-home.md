@@ -6,10 +6,10 @@ description: La page d’accueil vous aide à gérer votre travail. Vous pouvez 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 80%
+source-wordcount: '1011'
+ht-degree: 78%
 
 ---
 
@@ -61,8 +61,8 @@ Vous trouverez ci-dessous les 11 widgets actuellement disponibles, ainsi qu’un
 * **Mon approbation**\
     Affiche toutes vos approbations en attente, affectées, déléguées et envoyées ; un bouton pour déléguer les approbations ; et des boutons pour prendre des décisions d’approbation directement dans le widget.
 
-* **Toutes les approbations**\
-        Affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des vues de liste des approbations en attente et en retard. <span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version progressive et n’est actuellement disponible que pour certains clientes et clients.</span>
+* **Mesures d’approbation des documents**\
+        Affiche 2 graphiques avec des informations sur le temps moyen d&#39;approbation des documents et les décisions, ainsi que des vues de listes des approbations en attente et en retard. Les approbations unifiées doivent être activées pour utiliser ce widget.
 
 * **Mentions**\
     Affiche les threads de commentaires récents de Workfront, comme la page Mes mises à jour . Vous pouvez utiliser le bouton de réponse pour rédiger une réponse dans le widget. Ce widget affiche également les commentaires sur les tâches et les problèmes qui vous sont affectés, que vous avez affectés à un autre utilisateur ou une autre utilisatrice, qui vous appartiennent, dont vous êtes le contact principal ou que vous avez créés, à condition que l’élément ait été mis à jour au cours des 30 derniers jours.

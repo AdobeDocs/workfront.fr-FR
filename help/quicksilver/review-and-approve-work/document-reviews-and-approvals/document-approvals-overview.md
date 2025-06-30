@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des réviseurs et réviseuses ou des approbateu
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '569'
 ht-degree: 38%
 
 ---
@@ -28,7 +28,7 @@ Les approbations unifiées sont une refonte complète du processus d’approbati
 * Les participants à l&#39;approbation du document s&#39;affichent dans l&#39;onglet Résumé du document, et non dans le workflow de relecture.
 * Les approbations unifiées ne sont pas prises en charge dans l’outil de création de rapports actuel.
 
-  Vous pouvez rejoindre la version Beta des nouveaux tableaux de bord de la zone de travail pour [Créer un tableau de bord de rapport à des fins de révision et d’approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) ou vous pouvez utiliser le widget Toutes les approbations disponible dans les nouveaux tableaux de bord de l’accueil et de la zone de travail pour obtenir les détails suivants sur les approbations unifiées :
+  Vous pouvez rejoindre la version Beta des nouveaux tableaux de bord de la zone de travail pour [Créer un tableau de bord de rapport à des fins de révision et d’approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) ou vous pouvez utiliser le widget Mesures d’approbation des documents disponible dans les nouveaux tableaux de bord de l’accueil et de la zone de travail pour obtenir les détails suivants sur les approbations unifiées :
 
    * Approbations par décision
    * Temps moyen d’approbation
