@@ -12,7 +12,7 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ Pour plus d’informations sur la signature du contrat, voir [Signature du contr
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Type de fichier non pris en charge"
->abstract="Ce réviseur d’IA ne prend pas en charge le type de fichier sélectionné.Chargez un type de fichier pris en charge ou supprimez l’outil de révision IA pour envoyer la demande."
+>abstract="Cet outil de révision IA ne prend pas en charge le type de fichier sélectionné.Chargez un type de fichier pris en charge ou supprimez l’outil de révision IA pour envoyer la demande."
 
 Le réviseur de l’IA peut examiner les types de fichiers suivants :
 
@@ -55,8 +55,8 @@ Le réviseur de l’IA pour Workfront utilise les directives de marque configur�
 
 Pour en savoir plus sur les directives de la marque, voir
 
-* [Marques GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Ajouter des directives](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [Marques GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Ajouter des directives](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## Créer des réviseurs d’IA
