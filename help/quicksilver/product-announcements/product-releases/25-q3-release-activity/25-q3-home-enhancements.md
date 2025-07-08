@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 9808596e561ef30cc0edf5006f5ac2f190ed64f5
+source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '288'
 ht-degree: 13%
 
 ---
@@ -19,6 +19,12 @@ Cette page décrit toutes les améliorations de l’accueil apportées à l’en
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du troisième trimestre 2025, consultez la [Vue d’ensemble de la version du troisième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 ## Widget Toutes les approbations renommé Mesures d’approbation de document
+
+>[!NOTE]
+>
+>* Prévisualisation : mardi 30 juin 2025
+>* Version rapide de production : 30 juin 2025
+>* Production pour tous les clients : 30 juin 2025
 
 Le widget Toutes les approbations a été renommé Mesures d’approbation des documents afin de refléter plus précisément les informations qu’il affiche. Le widget Mesures d’approbation des documents fournit des informations de haut niveau sur les approbations de documents pour les projets que vous possédez.
 
