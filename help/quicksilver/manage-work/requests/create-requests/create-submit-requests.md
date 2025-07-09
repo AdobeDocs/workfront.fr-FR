@@ -6,10 +6,10 @@ description: Le travail prévu est représenté dans Adobe Workfront par des pr
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
 workflow-type: tm+mt
-source-wordcount: '2680'
-ht-degree: 82%
+source-wordcount: '2863'
+ht-degree: 77%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 82%
 </div>
 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Le travail prévu est représenté dans Adobe Workfront par des projets et des tâches. Cependant, il se peut que vous travailliez dans un environnement où du travail non prévu, sous forme de demandes, peut arriver à tout moment. Workfront fournit un workflow permettant de répondre à ce type d’environnement grâce à l’utilisation de files d’attente des demandes.
 
@@ -142,7 +142,7 @@ Pour créer une demande dans l’application web Workfront :
 
    La boîte de dialogue **Nouvelle demande** s’ouvre.
 
-1. (Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning, la zone **Nouvelle demande** affiche les informations suivantes :</span>
+1. (Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning et que vous vous trouvez dans l’environnement de production, la zone **Nouvelle demande** affiche les informations suivantes </span>
 
    * Les 6 dernières files d’attente de demandes Workfront consultées et les formulaires de demandes Planning s’affichent dans la section Récent .
    * 50 files d’attente de demandes Workfront supplémentaires et les formulaires de demandes Planning s’affichent par ordre alphabétique dans la section **Tous les formulaires de demandes**. Vous pouvez rechercher une file d’attente de demandes qui ne s’affiche pas par défaut.
@@ -150,6 +150,13 @@ Pour créer une demande dans l’application web Workfront :
    ![Nouvelle zone de demande avec workflow unifié pour la planification des demandes](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
    Cliquez sur l’une des cartes de file d’attente des demandes de Workfront ou recherchez-en une, puis cliquez dessus lorsqu’elle s’affiche dans la liste.
+1. <span class="preview">(Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning et que vous vous trouvez dans l’environnement de prévisualisation, la zone **Nouvelle demande** affiche les informations suivantes :</span>
+
+   <ul><span class="preview"><li>Les 6 dernières files d’attente de demandes Workfront consultées et les formulaires de demandes Planning s’affichent dans la section Récent . </li></span>
+    <span class="preview"><li>Section Tous les formulaires de demande Workfront et Planning supplémentaires <b>Tous les formulaires de demande</b>. Vous pouvez rechercher des formulaires de demande qui ne s’affichent pas par défaut. </li></span>
+    <span class="preview"><li>Tous les chemins supplémentaires des files d'attente des demandes de Workfront et Planning s'affichent dans la section <b>Tous les chemins des demandes</b>. Vous pouvez rechercher une file d’attente de demandes qui ne s’affiche pas par défaut.</li></span></ul>
+    <span class="preview">Cliquez sur l’un des chemins ou formulaires de file d’attente des demandes de Workfront, ou recherchez-en un, puis cliquez dessus lorsqu’il s’affiche dans la liste. </span>
+
 1. (Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning, sélectionnez vos groupes de rubriques et rubriques de file d’attente et continuez à mettre à jour le formulaire.
 
    Sinon, cliquez dans le champ **Type de requête** et effectuez l’une des opérations suivantes :
@@ -221,7 +228,7 @@ Pour créer une demande dans l’application web Workfront :
    >Lorsque vous pointez sur un groupe de rubriques ou une rubrique de file d’attente, le champ Description s’affiche à droite. Il contient des informations supplémentaires sur le groupe de rubriques ou la rubrique de file d’attente.
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)  >
+   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    Vous pouvez intégrer jusqu’à 10 niveaux de groupes de rubriques dans votre file d’attente des demandes.\
@@ -323,7 +330,7 @@ Pour créer une demande dans l’application web Workfront :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur **Soumettre** si vous voulez soumettre la demande. La demande est enregistrée dans la section Envoyées. En fonction de la règle de transmission de la file d’attente des demandes, cette demande peut être transmise vers un projet différent de celui désigné comme file d’attente des demandes. Pour plus d’informations sur les règles de transmission, voir la section [Créer des règles de transmission](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Cliquez sur **Soumettre** si vous voulez soumettre la demande. La demande est enregistrée dans la section Envoyé . En fonction de la règle de transmission de la file d’attente des demandes, cette demande peut être transmise vers un projet différent de celui désigné comme file d’attente des demandes. Pour plus d’informations sur les règles de transmission, voir la section [Créer des règles de transmission](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      Ou
 

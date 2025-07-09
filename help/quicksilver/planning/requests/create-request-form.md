@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
 workflow-type: tm+mt
-source-wordcount: '2087'
-ht-degree: 8%
+source-wordcount: '2166'
+ht-degree: 7%
 
 ---
 
@@ -240,7 +240,7 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
    ![Zone de partage pour le formulaire de demande](assets/share-box-for-request-form.png)
 
-1. Sélectionnez l’une des options suivantes pour indiquer quels types d’utilisateurs peuvent accéder à ce formulaire :
+1. (Conditionnel) Dans l’environnement de production, sélectionnez l’une des options suivantes pour indiquer quels types d’utilisateurs peuvent accéder à ce formulaire :
 
    * Toute personne disposant d’un accès en affichage ou supérieur à l’espace de travail
    * Toute personne disposant d’un accès en contribution ou supérieur à l’espace de travail
@@ -256,7 +256,7 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
    >     * Personnes
    >
 
-1. (Conditionnel) Si vous avez sélectionné **Personne disposant du lien** à l’étape précédente, sélectionnez la **Date d’expiration du lien** dans le calendrier disponible.
+1. (Conditionnel) Dans l’environnement de production, si vous avez sélectionné **Personne disposant du lien** à l’étape précédente, sélectionnez la **Date d’expiration du lien** dans le calendrier disponible.
 
    Les personnes recevront une erreur après l’expiration du lien et vous devez mettre à jour la date du lien et générer un nouveau lien à partager avant que les personnes puissent à nouveau accéder au formulaire.
 
@@ -266,13 +266,14 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
    >
    >Une fois la date de partage expirée, le formulaire de demande n’est plus disponible dans la zone des Demandes de Workfront et les liens partagés avec d’autres utilisateurs ne sont plus accessibles.
 
-
-1. (Facultatif) Cliquez sur **Enregistrer et copier le lien** pour enregistrer les détails de partage du formulaire. Si le formulaire a été précédemment enregistré, cliquez sur **Copier le lien**.
+1. (Facultatif et conditionnel) Dans l’environnement de production, cliquez sur **Enregistrer et copier le lien** pour enregistrer les détails de partage du formulaire. Si le formulaire a été précédemment enregistré, cliquez sur **Copier le lien**.
 
    Les options de partage de formulaire sont enregistrées et le lien est copié dans le presse-papiers. Vous pouvez maintenant le partager avec d’autres personnes.
 
    Pour plus d&#39;informations sur la création d&#39;enregistrements à l&#39;aide d&#39;un lien vers un formulaire de demande, voir [Soumettre des demandes Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
 
+1. <span class="preview">(Conditionnel) Dans l’environnement de prévisualisation, pour partager avec les utilisateurs, sélectionnez l’onglet Partage interne , recherchez le nom de l’utilisateur, puis sélectionnez-le lorsqu’il apparaît dans la liste.</span>
+1. <span class="preview">(Conditionnel) Dans l’environnement de prévisualisation, pour créer un lien public, sélectionnez l’onglet Partage public , puis activez l’option Créer un lien public . Vous pouvez ensuite copier le lien ici ou définir une date d’expiration du lien.</span>
 1. Cliquez sur **Enregistrer** dans le coin inférieur droit de l’onglet **Formulaire** pour enregistrer le formulaire.
 
 1. Cliquez sur la flèche pointant vers la gauche du nom du formulaire dans l’en-tête pour fermer le formulaire.
