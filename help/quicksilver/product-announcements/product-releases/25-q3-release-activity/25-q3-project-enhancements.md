@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
+source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 7%
+source-wordcount: '881'
+ht-degree: 6%
 
 ---
 
@@ -19,6 +19,23 @@ ht-degree: 7%
 Cette page décrit les améliorations apportées par Project à l’environnement de Prévisualisation avec la version du troisième trimestre de 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du troisième trimestre 2025, consultez la [Vue d’ensemble de la version du troisième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Mises à jour de l’expérience lors d’une requête
+
+>[!NOTE]
+>
+>* Aperçu : 9 juillet 2025
+>* Version rapide de production : 17 juillet 2025
+>* Production pour tous les clients : 17 juillet 2025
+
+Nous avons mis à jour l’expérience lors de l’exécution d’une demande dans la nouvelle expérience de demande.
+
+* Les formulaires de demande et les chemins d’accès disponibles apparaissent dans une liste, et non sur des cartes. Les plus récentes apparaissent dans une section près du haut.
+* Tous les formulaires de demande, y compris les formulaires de demande Workfront et Workfront Planning, apparaissent dans la liste. Auparavant, seules les 50 premières sont apparues.
+* Les chemins d’accès aux demandes et les formulaires de demande sont répertoriés dans des sections distinctes, dans la zone Récent et dans la liste plus large ci-dessous.
+* Lorsque vous recherchez une file d’attente de demandes, la liste filtre pour afficher uniquement les formulaires et les chemins d’accès qui incluent le terme de recherche. Le terme de recherche est mis en surbrillance dans chaque formulaire de requête ou chemin affiché.
+
+Pour plus d’informations sur l’exécution d’une requête, voir [Création et envoi de requêtes](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Le champ Heures réelles existant a été remplacé par les anciens et un nouveau champ Heures réelles a été créé
 
@@ -37,12 +54,12 @@ Le champ Heures réelles visible dans la section Détails du projet, des tâches
 >[!IMPORTANT]
 >
 >Selon le moment où les heures ont été consignées, il peut y avoir une incohérence entre les heures réelles et les heures réelles héritées pour un projet, une tâche ou un événement.<br>
->&#x200B;>Les scénarios suivants sont possibles :
+>>Les scénarios suivants sont possibles :
 >
 >* Les heures réelles représentent les heures enregistrées pour les projets, tâches et événements depuis mai 2021.
 >* Les heures effectives héritées représentent les heures enregistrées pour les projets, les tâches et les événements pendant la durée de vie du projet, de la tâche ou de l&#39;événement. Cela inclut les heures enregistrées avant mai 2021 jusqu’à l’heure actuelle.
->  &#x200B;><br>Vous devrez peut-être mettre à jour vos rapports pour refléter le nouveau champ et ses valeurs.
->  &#x200B;><br>Workfront utilise les heures réelles héritées pour calculer les coûts réels de main-d&#39;œuvre.
+>  ><br>Vous devrez peut-être mettre à jour vos rapports pour refléter le nouveau champ et ses valeurs.
+>  ><br>Workfront utilise les heures réelles héritées pour calculer les coûts réels de main-d&#39;œuvre.
 
 Pour plus d&#39;informations, voir [Afficher les heures réelles](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
@@ -96,3 +113,5 @@ Pour clarifier la manière dont l’assistant AI localise les réponses aux ques
 Auparavant, ces informations n’étaient pas disponibles dans la réponse de l’assistant d’IA.
 
 Pour plus d’informations sur l’utilisation de l’assistant AI afin d’obtenir des informations sur les éléments de Workfront, voir [ Utiliser l’assistant AI pour travailler sur des projets, des tâches et des événements](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+
+

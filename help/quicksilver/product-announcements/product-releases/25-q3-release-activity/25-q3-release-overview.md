@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
+source-git-commit: 7ef39340d19f2eadf3c2c8f66c9981c28308795a
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 19%
+source-wordcount: '1791'
+ht-degree: 17%
 
 ---
 
@@ -171,6 +171,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’expérience lors de l’exécution d’une requête</a>
+            <p>La nouvelle expérience de demande comprend les améliorations suivantes :
+              <ul>
+                <li>Les formulaires de demande et les chemins d’accès disponibles apparaissent dans une liste, et non sur des cartes. Les plus récentes apparaissent dans une section près du haut.</li>
+                <li>Tous les formulaires de demande, y compris les formulaires de demande Workfront et Workfront Planning, apparaissent dans la liste. Auparavant, seules les 50 premières sont apparues.</li>
+                <li>Les chemins d’accès aux demandes et les formulaires de demande sont répertoriés dans des sections distinctes, dans la zone Récent et dans la liste plus large ci-dessous.</li>
+                <li>Lorsque vous recherchez une file d’attente de demandes, la liste filtre pour afficher uniquement les formulaires et les chemins d’accès qui incluent le terme de recherche. Le terme de recherche est mis en surbrillance dans chaque formulaire de requête ou chemin affiché.</li>
+              </ul>
+            </p>
+        </td>
+        <td>jeudi 9 juillet 2025</td>
+        <td>À déterminer</td>
+        <td>À déterminer</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Le champ Heures effectives existant a été remplacé par le champ Heures effectives héritées et un nouveau champ Heures réelles a été créé</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Le champ existant des heures effectives a été renommé en heures effectives héritées. Ce champ stocke le temps enregistré pour les projets, les tâches et les événements en minutes. Le champ est stocké dans la base de données Workfront sous la forme <code>actualWorkRequired</code>. </p>
             <p>Nous avons ajouté un nouveau champ Heures réelles qui stocke les heures enregistrées pour les projets, tâches et événements dans des heures, avec une précision décimale. Le champ est stocké dans la base de données Workfront sous la forme <code>actualWorkRequiredDouble</code>.</p>
@@ -316,7 +332,7 @@ Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’
 
 ### Améliorations de Workfront Fusion
 
-De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations apportées à Workfront Planning
 
@@ -354,7 +370,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
