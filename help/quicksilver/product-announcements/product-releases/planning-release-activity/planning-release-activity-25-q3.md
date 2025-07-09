@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 6f79c2973324d7de34736810dafcbd08714b4738
+source-git-commit: eaba54ebfef15c5f823c7086b809165b5cfb181b
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1908'
 ht-degree: 4%
 
 ---
@@ -36,21 +36,21 @@ Prior to this enhancement, you had to manually update the fields associated with
 
 For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
 
-## Bouton de partage commun pour les affichages et les types d’enregistrements
+<!--## Common sharing button for views and record types
 
 >[!NOTE]
 >
->* Aperçu : 9 juillet 2025
->* Production pour tous : 17 juillet 2025
+>* Preview: July 9, 2025 
+>* Production for everyone: July 17, 2025 
 
-Vous pouvez désormais partager une vue ainsi qu’un type d’enregistrement à partir du même bouton sur la page du type d’enregistrement. Avant cette amélioration, vous pouviez uniquement partager le type d’enregistrement à partir du bouton Partager sur la page du type d’enregistrement et une vue à partir de l’onglet de la vue.
+You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
 
-Pour plus d’informations, consultez les articles suivants :
+For more information, see the following articles: 
 
-* [Partager des vues](/help/quicksilver/planning/access/share-views.md)
+* [Share views](/help/quicksilver/planning/access/share-views.md)  
 
-* [Partage des types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md)
-
+* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
+-->
 
 <!--## Add teams as approvers on Planning request forms
 
@@ -78,7 +78,7 @@ Pour rendre plus sûr et plus simple le partage d’un formulaire de demande dan
 * Nous avons supprimé les options de gestion et de contribution pour les utilisateurs avec lesquels vous partagez le formulaire de demande. Désormais, les utilisateurs ajoutés peuvent uniquement envoyer le formulaire.
 * L’onglet Partage public affiche désormais le lien et le champ de date d’expiration uniquement une fois que l’option Créer un lien public a été activée.
 
-Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Développer et réduire tous les regroupements dans la vue Tableau
 
@@ -296,7 +296,7 @@ Avant cette amélioration, les utilisateurs de tous les niveaux de licence devai
 >[!NOTE]
 >
 >Cette modification sera visible pour tous les utilisateurs nouveaux et existants disposant d’une licence d’administrateur système et standard.
->&#x200B;>Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
+>>Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
 
 Pour plus d’informations, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
