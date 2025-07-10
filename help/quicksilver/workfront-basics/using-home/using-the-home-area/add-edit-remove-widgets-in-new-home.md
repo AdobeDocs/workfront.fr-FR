@@ -6,10 +6,10 @@ description: Vous pouvez choisir parmi plusieurs widgets pour personnaliser le c
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: c1f5e11c6327ef86bd3f89eb383b3bf06bd4981f
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 52%
+source-wordcount: '1098'
+ht-degree: 51%
 
 ---
 
@@ -121,8 +121,8 @@ Pour ajouter un widget :
    * **Mes approbations**\
        Affiche toutes les approbations affectées ou déléguées en attente, un bouton pour déléguer des approbations et des boutons pour prendre des décisions d’approbation directement dans le widget.
 
-   * **Toutes les approbations**\
-           Affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des vues de liste des approbations en attente et en retard. <span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version progressive et n’est actuellement disponible que pour certains clientes et clients.</span>
+   * **Mesures d’approbation des documents**\
+           Affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des vues de liste des approbations en attente et en retard. Pour utiliser ce widget, vous devez avoir activé [Approbations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
    * **Mentions**\
        Affiche les threads de commentaires récents de Workfront, comme la page Mes mises à jour . Vous pouvez utiliser le bouton de réponse pour rédiger une réponse dans le widget. Ce widget affiche également les commentaires sur les tâches et les problèmes qui vous sont affectés, que vous avez affectés à un autre utilisateur ou une autre utilisatrice, qui vous appartiennent, dont vous êtes le contact principal ou que vous avez créés, à condition que l’élément ait été mis à jour au cours des 30 derniers jours.
