@@ -77,7 +77,7 @@ Pour rendre plus sûr et plus simple le partage d’un formulaire de demande dan
 * Nous avons supprimé les options de gestion et de contribution pour les utilisateurs avec lesquels vous partagez le formulaire de demande. Désormais, les utilisateurs ajoutés peuvent uniquement envoyer le formulaire.
 * L’onglet Partage public affiche désormais le lien et le champ de date d’expiration uniquement une fois que l’option Créer un lien public a été activée.
 
-Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Développer et réduire tous les regroupements dans la vue Tableau
 
