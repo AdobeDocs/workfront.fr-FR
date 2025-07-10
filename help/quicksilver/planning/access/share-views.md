@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: e8e8e12bef55303c65894aa495f7554a9f1a811c
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 20%
+source-wordcount: '1950'
+ht-degree: 17%
 
 ---
 
@@ -32,11 +32,6 @@ Vous pouvez partager une vue avec d’autres personnes pour travailler en collab
 >
 >* Lorsque vous partagez une vue, vous autorisez d’autres utilisateurs à accéder à tous les éléments de la vue. Par exemple, lorsque vous leur donnez des autorisations de niveau Gérer pour une vue, ils peuvent modifier l’aspect du regroupement, du filtre, du tri ou de la barre.
 
-
-Vous pouvez partager une vue avec les entités suivantes :
-
-* En interne, avec les utilisateurs, les groupes, les équipes, les entreprises et les fonctions de Workfront
-* Publiquement, avec des utilisateurs en dehors de Workfront
 
 <!--
 This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
@@ -118,6 +113,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Remarques concernant le partage de vues
 
+* Vous pouvez partager une vue des manières suivantes :
+
+   * En interne, avec les utilisateurs, les groupes, les équipes, les entreprises et les fonctions de Workfront
+   * Publiquement, avec des utilisateurs en dehors de Workfront
+   * En copiant puis en partageant un lien vers une vue
+   * En l’exportant vers un fichier Excel ou CSV. Vous ne pouvez exporter que la vue Tableau vers un fichier. Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+
 * Pour obtenir des informations générales sur le partage d’objets dans Workfront Planning, consultez également la section [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * Vous pouvez accorder des autorisations d’affichage ou de gestion pour un affichage aux utilisateurs Workfront internes.
 
@@ -145,11 +147,17 @@ Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous dis
 
    La page du type d’enregistrement s’affiche.
 
-1. <span class="preview">Dans l&#39;onglet Affichage, passez la souris sur l&#39;affichage que vous souhaitez partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l&#39;affichage, puis cliquez sur **Partager**. </span>
+1. Dans l’onglet Affichage , <span class="preview">effectuez l’une des opérations suivantes :</span>
 
-   <span class="preview">![Menu Plus d’une vue](assets/more-menu-for-views-expanded-with-share-option.png) </span>
+   * Pointez sur le nom de l’onglet de la vue à partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager**.
 
-   L&#39;onglet **Partage interne** doit être sélectionné par défaut.
+     ![Menu Plus d’une vue](assets/more-menu-for-views-expanded-with-share-option.png)
+
+   * <span class="preview">Cliquez sur **Partager** > **Partager la vue actuelle**</span>
+
+     <span class="preview">![Bouton Partager avec type d’enregistrement et options de partage d’affichage](assets/share-button-with-record-type-and-view-sharing-options.png)</span>
+
+   La boîte de dialogue **Partager la vue** s’ouvre et l’onglet **Partage interne** doit être sélectionné par défaut.
 
 1. (Facultatif) Dans la zone **Qui a accès**, sélectionnez l’une des options suivantes :
 
@@ -174,7 +182,6 @@ Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous dis
 
      Les administrateurs système reçoivent toujours des autorisations de niveau Gérer pour les vues partagées avec eux.
 
-1. Cliquez sur **Copier le lien** pour copier un lien vers la vue dans votre presse-papiers.
 1. Cliquer sur **Enregistrer**.
 
    L’affichage est mis à jour avec une icône de personnes ![Affichage partagé avec d’autres](assets/view-shared-with-others-people-icon.png) pour indiquer que l’affichage est désormais partagé avec d’autres utilisateurs.
@@ -202,9 +209,14 @@ Pour partager une vue publiquement dans Workfront Planning :
 
    La page du type d’enregistrement s’affiche.
 
-1. <span class="preview">Dans l&#39;onglet Affichage, passez la souris sur l&#39;affichage que vous souhaitez partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l&#39;affichage, puis cliquez sur **Partager**. </span>
+1. Dans l’onglet Affichage , effectuez l’une des opérations suivantes :
 
-   <span class="preview">![Menu Plus pour les vues développées avec l’option de partage](assets/more-menu-for-views-expanded-with-share-option.png)</span>
+   * Pointez sur le nom de l’onglet de la vue à partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager**.
+
+   ![Menu Plus pour les vues développées avec l’option de partage](assets/more-menu-for-views-expanded-with-share-option.png)
+   * <span class="preview">Cliquez sur **Partager** > **Partager la vue actuelle**</span>
+
+   La boîte de dialogue **Partager la vue** s’ouvre.
 
 1. Cliquez sur **Partage public**.
 
@@ -229,6 +241,34 @@ Pour partager une vue publiquement dans Workfront Planning :
 
 1. (Facultatif) Collez le lien que vous avez copié dans un e-mail, un message de conversation, un document ou un commentaire Workfront pour le partager avec d’autres personnes.
 
+## Copier un lien vers une vue
+
+Vous pouvez copier un lien vers une vue dans le presse-papiers et l’inclure dans une autre application ou le partager avec d’autres utilisateurs.
+
+Pour copier un lien vers une vue partagée publiquement, reportez-vous à la section [Partager les autorisations d&#39;une vue partagée publiquement](#share-permissions-to-a-view-publicly) dans cet article.
+
+Cette section décrit comment partager une vue en interne.
+
+>[!IMPORTANT]
+>
+>Tout d’abord, vous devez partager la vue avec les utilisateurs et utilisatrices avant de partager le lien vers la vue pour qu’ils ou elles puissent l’afficher.
+
+
+{{step1-to-planning}}
+
+1. Ouvrez l’espace de travail dont vous souhaitez copier la vue et partager le lien vers, puis cliquez sur une carte de type d’enregistrement.
+
+   Cela ouvre la page du type d’enregistrement.
+
+1. Dans l’onglet d’une vue, effectuez l’une des opérations suivantes :
+
+   * Pointez sur l’onglet de la vue à partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager** > **Copier le lien** dans la zone **Partager la vue**.
+   * <span class="preview">Cliquez sur **Partager** > **Copier le lien d’affichage**</span> > **Copier le lien** dans la zone **Partager l’affichage**.
+
+   Un lien vers la vue est copié dans le presse-papiers et vous recevez une confirmation en bas de l’écran.
+
+   Vous pouvez maintenant coller le lien vers une autre application ou l&#39;envoyer à d&#39;autres.
+
 ## Octroi d’autorisations pour une vue à partir d’une demande d’autorisation
 
 Les utilisateurs et utilisatrices qui accèdent à un lien vers une vue pour laquelle ils ne disposent pas d’autorisations peuvent demander des autorisations pour la vue. Tous les utilisateurs disposant d’autorisations de niveau Gérer pour l’affichage reçoivent la demande d’autorisation et peuvent accorder ou refuser les autorisations.
@@ -236,10 +276,8 @@ Les utilisateurs et utilisatrices qui accèdent à un lien vers une vue pour laq
 1. (Conditionnel) Si vous êtes le responsable d&#39;une vue, il se peut que vous receviez une demande d&#39;un autre utilisateur pour accéder à la vue dans les domaines suivants :
 
    * Une notification in-app
-
      ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
    * Notification par e-mail
-
      ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app
 Ou
@@ -261,7 +299,13 @@ Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications
 {{step1-to-planning}}
 
 1. Ouvrez l’espace de travail dont vous souhaitez arrêter le partage de la vue, puis cliquez sur une carte de type d’enregistrement. Cela ouvre la page du type d’enregistrement.
-1. Pointez sur le nom de l’onglet de la vue dont vous souhaitez supprimer le partage et cliquez sur le menu **Plus** ![Menu Plus](assets/more-menu.png), puis cliquez sur **Partager**.
+1. Dans l’onglet Affichage , <span class="preview"> effectuez l’une des opérations suivantes </span>
+
+   * Pointez sur le nom de l’onglet de la vue à partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager**.
+
+   * <span class="preview">Cliquez sur **Partager** > **Partager la vue actuelle**</span>
+
+   La boîte de dialogue **Partager la vue** s’ouvre.
 1. Pour supprimer le partage interne d’une vue, procédez comme suit :
 
    1. Assurez-vous que l’onglet **Partage interne** est sélectionné.

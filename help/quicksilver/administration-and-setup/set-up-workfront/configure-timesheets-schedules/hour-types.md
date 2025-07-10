@@ -9,10 +9,10 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: f35da9077b0422ba939ed9f6285835897f28874c
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 30%
+source-wordcount: '843'
+ht-degree: 32%
 
 ---
 
@@ -23,13 +23,14 @@ ht-degree: 30%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<div class="preview">
+<!--<div class="preview">
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 Les types d’heures sont des libellés que vous utilisez pour définir vos entrées d’heures. Vous pouvez associer des types d&#39;heures à vos entrées d&#39;heures.
 
@@ -165,11 +166,11 @@ Pour désactiver un type d’heure :
 1. Sélectionnez le type d’heure à désactiver.
 
 
-1. <span class="preview">Cliquez sur **Plus**, puis sur **Désactiver**.</span>
+1. Cliquez sur **Plus**, puis sur **Désactiver**.
 
-   <span class="preview">![Activer et désactiver les liens de type heures](assets/activate-and-deactivate-hour-type-links.png)</span>
+   ![Activer et désactiver les liens de type heures](assets/activate-and-deactivate-hour-type-links.png)
 
-   <span class="preview">Le type d’heure est désactivé et les utilisateurs ne le trouvent plus lors de la journalisation des heures.</span>
+   Le type d’heure est désactivé et les utilisateurs ne le trouvent plus lors de la journalisation des heures.
 
-1. <span class="preview">(Facultatif) Pour réactiver un type d&#39;heure, sélectionnez-le dans la liste **Types d&#39;heures**, puis cliquez sur **Plus** > **Activer**. </span>
+1. (Facultatif) Pour réactiver un type d’heure, sélectionnez-le dans la liste **Types d’heures**, puis cliquez sur **Plus** > **Activer**.
 

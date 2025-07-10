@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '3720'
-ht-degree: 49%
+source-wordcount: '3758'
+ht-degree: 48%
 
 ---
 
@@ -178,7 +178,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -573,13 +573,20 @@ Tenez compte des points suivants lors de l’exportation de la vue Tableau :
 Pour exporter des informations à partir de la vue Table ou d&#39;un type d&#39;enregistrement :
 
 1. Accédez à une page de type enregistrement et cliquez sur un onglet de vue Tableau.
-1. Pointez sur le nom de l’onglet Vue du tableau, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png).
+1. Utilisez l’une des méthodes suivantes :
+
+   * Pointez sur le nom de l’onglet d’affichage du tableau, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’affichage, puis cliquez sur **Exporter**.
 
    ![Menu Plus sur une vue](assets/view-more-menu-with-duplicate-option.png)
-1. Cliquez sur **Exporter**, puis sélectionnez l’un des formats suivants :
 
-   * Excel
-   * CSV
+   * Cliquez sur **Partager** > **Exporter la vue actuelle**. Cette option n’est disponible que lorsque vous affichez la vue Tableau.
+
+   ![Bouton Partager avec type d’enregistrement et options de partage d’affichage](assets/share-button-with-record-type-and-view-sharing-options.png)
+
+1. Sélectionnez l’un des formats suivants :
+
+   * **Excel**
+   * **CSV**
 
    >[!IMPORTANT]
    >

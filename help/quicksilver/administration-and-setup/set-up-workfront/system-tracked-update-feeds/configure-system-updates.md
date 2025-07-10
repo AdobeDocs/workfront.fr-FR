@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 47%
+source-wordcount: '933'
+ht-degree: 50%
 
 ---
 
@@ -19,13 +19,15 @@ ht-degree: 47%
 
 <!-- Audited: 6/2025 -->
 
+<!--
+
 <div class="preview">
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
+</div> -->
 
 [!DNL Adobe Workfront] génère des mises à jour système automatiques dans la zone [!UICONTROL Mises à jour] d’un objet pour enregistrer les événements suivants :
 
@@ -96,13 +98,13 @@ Vous pouvez ajouter les champs que vous souhaitez faire suivre par [!DNL Workfro
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Interface]**, puis **[!UICONTROL Mettre à jour les flux]**.
-1. (Facultatif) Dans l’onglet <span class="preview">**Champs suivis**</span> cliquez sur l’un des sous-onglets suivants, en fonction des types de champs que vous souhaitez suivre dans le flux de mise à jour :
+1. (Facultatif) Dans l’onglet **Champs suivis**, cliquez sur l’un des sous-onglets suivants, selon les types de champs que vous souhaitez suivre dans le flux de mise à jour :
 
-   * <span class="preview">**Champs intégrés**</span> : affiche une liste de champs intégrés.
-   * <span class="preview">**Champs personnalisés**</span> : affiche une liste de champs personnalisés. Vous devez créer les champs personnalisés avant qu’ils ne soient disponibles dans la liste.
-   * <span class="preview">**Tous les champs**</span> : affiche une liste de champs intégrés et personnalisés.
+   * **Champs intégrés** : affiche une liste de champs intégrés.
+   * **Champs personnalisés** : affiche une liste de champs personnalisés. Vous devez créer les champs personnalisés avant qu’ils ne soient disponibles dans la liste.
+   * **Tous les champs** : affiche une liste de champs intégrés et personnalisés.
 
-1. Cliquez sur <span class="preview">**[!UICONTROL Ajouter des champs &#x200B;]**,</span> puis sélectionnez dans la liste déroulante l’objet dont vous souhaitez effectuer le suivi.
+1. Cliquez sur **[!UICONTROL Ajouter des champs]**, puis sélectionnez dans la liste déroulante l’objet dont vous souhaitez effectuer le suivi.
 
    La sélection manuelle des champs n’est pas disponible pour tous les objets qui possèdent une zone Mises à jour.
 
@@ -115,16 +117,16 @@ Vous pouvez ajouter les champs que vous souhaitez faire suivre par [!DNL Workfro
    * Programme
    * l’utilisateur ou de l’utilisatrice
 
-   La boîte de </span> <span class="preview">**Ajouter des champs** s’ouvre pour chaque objet sélectionné.
-1. Dans la zone de </span> <span class="preview">**Ajouter des champs**, commencez à saisir un champ intégré (standard) ou un champ personnalisé pour l’objet, puis sélectionnez-le lorsqu’il apparaît dans la liste.
+   La zone **Ajouter des champs** s’ouvre pour chaque objet sélectionné.
+1. Dans la zone **Ajouter des champs**, commencez à saisir un champ intégré (standard) ou un champ personnalisé pour l’objet, puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
    >[!NOTE]
    >
    >Si [!DNL Workfront] effectue déjà le suivi du champ, vous ne pouvez pas l’ajouter une deuxième fois à partir de la liste.
 
-1. Après avoir ajouté tous les champs [!DNL Workfront] suivre, <span class="preview"> cliquez sur **[!UICONTROL Ajouter]**.
+1. Après avoir ajouté tous les champs [!DNL Workfront] suivre, cliquez sur **[!UICONTROL Ajouter]**.
 Les champs intégrés que vous avez ajoutés s’affichent sous le sous-onglet **[!UICONTROL Champs intégrés]** et les champs personnalisés s’affichent sous le sous-onglet **[!UICONTROL Champs personnalisés]**.
-Le sous-onglet **[!UICONTROL Tous les champs]** affiche les champs intégrés et les champs personnalisés que [!DNL Workfront] suivez.</span>
+Le sous-onglet **[!UICONTROL Tous les champs]** affiche les champs intégrés et les champs personnalisés suivis par [!DNL Workfront].
 
 ### Supprimer les champs dont vous ne souhaitez pas le suivi {#remove-fields-you-don-t-want-tracked}
 
@@ -136,16 +138,7 @@ Vous pouvez supprimer des champs dont vous ne souhaitez pas que le système effe
 
 1. Sous l’onglet **[!UICONTROL Champs suivis]**, sélectionnez le sous-onglet **[!UICONTROL Tous les champs]**. Les champs intégrés et personnalisés en cours de suivi s’affichent.
 
-1. Sélectionnez le champ dont vous souhaitez arrêter le suivi, puis cliquez sur le bouton **[!UICONTROL Supprimer]**.
-
-
-<!--replace above at Preview release with this:
-
-1. On the <span class="preview">**[!UICONTROL Tracked fields]** tab</span>, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
-
-1. Select the field you want to stop tracking, then click the <span class="preview">**[!UICONTROL Remove]** icon ![Remove icon](assets/remove-icon.png).</span>
-
--->
+1. Sélectionnez le champ dont vous souhaitez arrêter le suivi, puis cliquez sur l’icône **[!UICONTROL Supprimer]** ![Icône Supprimer](assets/remove-icon.png).
 
 1. Dans la case **[!UICONTROL Supprimer le champ]** qui s’affiche, cliquez sur **[!UICONTROL Oui, supprimer]** pour confirmer.
 
