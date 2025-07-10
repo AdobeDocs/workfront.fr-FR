@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
+source-git-commit: a1295e5dfa3c608c5f1eca9cabb67bd402617db5
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 13%
+source-wordcount: '306'
+ht-degree: 12%
 
 ---
 
@@ -26,9 +26,11 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >* Version rapide de production : 30 juin 2025
 >* Production pour tous les clients : 30 juin 2025
 
-Le widget Toutes les approbations a été renommé Mesures d’approbation des documents afin de refléter plus précisément les informations qu’il affiche. Le widget Mesures d’approbation des documents fournit des informations de haut niveau sur les approbations de documents pour les projets que vous possédez.
+Le widget Toutes les approbations a été renommé Mesures d’approbation des documents afin de refléter plus précisément les informations qu’il affiche. Le widget Mesures d’approbation des documents fournit des informations de haut niveau sur les approbations de documents pour les projets que vous possédez. Pour utiliser ce widget, vous devez avoir activé [Approbations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 Ce widget ne contient aucune information sur les validations de BAT.
+
+Pour plus d’informations, voir [Prise en main de l’Accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Mise à jour de l’expérience de commentaire dans la section Mentions de la zone Mes mises à jour
 
