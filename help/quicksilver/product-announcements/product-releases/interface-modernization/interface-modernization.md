@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
+source-git-commit: 0e519e9d5cb5bbc5052448d399b9cf54e4ed2766
 workflow-type: tm+mt
-source-wordcount: '5088'
+source-wordcount: '5164'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,16 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
+### Mises à jour de l’interface des boîtes de dialogue de sous-groupe
+
+**Version préliminaire : 10 juillet 2025 ; Version de production : 17 juillet 2025**
+
+Nous avons mis à jour les boîtes de dialogue pour l’ajout d’un sous-groupe, la modification d’un sous-groupe et la copie d’un sous-groupe, afin de correspondre aux autres zones de l’application.
+
+Pour afficher ces modifications, accédez à Configuration > Groupes > sélectionner un groupe > Sous-groupes. (Les boîtes de dialogue permettant d’ajouter, de modifier et de copier un sous-groupe de la liste principale des groupes ont déjà été mises à jour.)
+
+Pour plus d’informations, consultez [Création d’un sous-groupe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) et [Gestion d’un sous-groupe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 ### Mises à jour de l’apparence pour la section Mettre à jour les flux de la configuration
 
