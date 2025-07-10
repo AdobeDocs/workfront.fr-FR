@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
-title: Création d’un sous-groupe
+title: Créer un sous-groupe
 description: Vous pouvez créer un sous-groupe en dessous d’un groupe que vous gérez afin d’organiser les utilisateurs et utilisatrices et les projets et pour attribuer des droits d’accès dans Adobe Workfront. En règle générale, les administrateurs et administratrices de groupes gèrent les groupes et les sous-groupes. Ceux-ci peuvent utiliser la page Groupes pour gérer leurs groupes et leurs sous-groupes au même endroit.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 98%
+source-wordcount: '659'
+ht-degree: 62%
 
 ---
 
@@ -66,54 +66,35 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Sélectionnez le groupe ou le sous-groupe existant auquel vous souhaitez ajouter un nouveau sous-groupe.
 1. Cliquez sur **Nouveau sous-groupe**.
-1. Dans la zone **Nouveau sous-groupe** qui s’affiche, saisissez un **Nom de groupe** pour le sous-groupe.
-1. (Facultatif) Indiquez l’une des informations suivantes :
+1. Dans la zone **Nouveau sous-groupe** qui s’affiche, saisissez un **nom du groupe** pour le sous-groupe.
+1. (Facultatif) Saisissez l’une des informations suivantes :
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Nom du groupe</td> 
-      <td>Modifiez le nom du groupe.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Description</td> 
-      <td>Saisissez une description pour le sous-groupe. Vous pouvez saisir jusqu’à 512 caractères.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Est active</td> 
-      <td> <p>(Activé par défaut) Active le groupe dans votre instance Workfront.</p> <p>Dans les champs à remplissage automatique comme celui illustré ci-dessous, lorsque des utilisateurs et utilisatrices ordinaires recherchent un groupe pour le joindre à un objet ou pour partager un objet avec celui-ci, seuls les groupes actifs s’affichent dans la liste.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Pour simplifier cette opération pour vos utilisateurs et utilisatrices, vous pouvez désactiver l’option Est actif pour les groupes qui ne sont pas actuellement utilisés.</p> <p>Vous pouvez facilement afficher, filtrer et regrouper la liste des groupes en fonction de l’état actif ou inactif à l’aide de ce champ. Pour plus d’informations sur l’utilisation des vues, des filtres et des regroupements dans les listes, consultez <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Éléments de création de rapports : filtres, vues et regroupements</a>.</p>  </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Rendre ce groupe et ses sous-groupes publics</td> 
-      <td> <p>(Disponible uniquement si vous consultez les détails d’un groupe de niveau supérieur et non d’un sous-groupe.) Activez cette option pour permettre aux utilisateurs et aux utilisatrices du sous-groupe disposant d’un accès d’édition (et qui ne sont pas administrateurs ou administratrices du groupe) d’ajouter ce groupe et ses sous-groupes au profil utilisateur des autres utilisateurs et utilisatrices.</p> <p>Pour un groupe public, toute personne (faisant partie ou non du groupe) disposant d’un accès d’édition peut ajouter le groupe au profil d’autres utilisateurs et utilisatrices. Cette personne ne peut pas effectuer cette action pour un groupe privé.</p> <p>Vous ne pouvez modifier cette option que pour le groupe parent situé au niveau le plus haut d’une hiérarchie de groupes à plusieurs niveaux. Tous les sous-groupes du groupe parent héritent de ce paramètre.</p> <p><b>REMARQUE</b> :  
-        <ul> 
-         <li>Vous ne pouvez pas rendre public un sous-groupe seul, mais vous pouvez rendre public son groupe parent de niveau supérieur, ce qui a pour effet de rendre également publics tous les sous-groupes du groupe parent.</li> 
-         <li>Un sous-groupe appartenant à un groupe public est public par défaut. Par conséquent, toute personne disposant d’un accès d’édition peut également ajouter le sous-groupe à d’autres utilisateurs et utilisatrices.</li> 
-        </ul> </p> <p>Si vous avez besoin d’informations sur l’accès nécessaire pour modifier les personnes, reportez-vous à la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Accorder l’accès aux personnes</a>. Pour plus d’informations sur la modification des personnes, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Modifier le profil d’une personne</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Chef d’entreprise </td> 
-      <td> <p>Vous pouvez attribuer une personne le rôle de chef d’entreprise à un sous-groupe que vous gérez. La personne disposant du rôle de chef d’entreprise prend des décisions commerciales pour le sous-groupe. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Vue d’ensemble du rôle de chef d’entreprise</a><span>.</span></p> <p>Si la personne n’est pas déjà membre du sous-groupe, l’ajout de son nom à ce champ l’ajoute également au groupe.</p> <p><b>REMARQUE</b> :  
-        <ul> 
-         <li>Avant de pouvoir supprimer la personne disposant du rôle de chef d’entreprise d’un sous-groupe, vous devez supprimer son nom du champ Chef d’entreprise.</li> 
-         <li>Si vous supprimez le nom du champ Chef d’entreprise, cette personne reste membre du sous-groupe, sauf si vous la supprimez du sous-groupe. Pour obtenir des instructions sur la suppression d’une personne d’un groupe, reportez-vous à la section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Gérer les adhésions à un groupe</a> dans l’article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Gérer un groupe</a>.</li> 
-        </ul> </p> <p>Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Vue d‘ensemble du rôle de chef d’entreprise</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Membres du groupe et administrateurs de groupe</td> 
-      <td> 
-       <ul> 
-        <li> <p>Personnes membres du groupe : pour ajouter des personnes et des groupes au sous-groupe, commencez à saisir le nom d’une personne ou d’un groupe existant à ajouter, puis sélectionnez le nom qui s’affiche.</p> <p>Les personnes et les groupes que vous ajoutez ont accès à tous les objets partagés avec le groupe.</p> </li> 
-        <li> <p data-mc-conditions="SnippetConditions-wf-groups.subgroups">Équipe d’administration de groupes : un sous-groupe hérite de l’équipe d’administration de groupes du groupe située au-dessus. Il est donc facultatif de spécifier les personnes faisant partie de l’équipe d’administration de groupes pour un sous-groupe. Vous pouvez attribuer à une personne du groupe les droits d’administration de groupes à l’aide du menu déroulant situé à droite du nom de la personne.</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Rechercher des personnes et des groupes dans la liste</td> 
-      <td> Si vous devez trouver une personne ou un groupe déjà affecté(e) à ce sous-groupe, vous pouvez saisir son nom ici et la ou le sélectionner lorsqu’elle ou il apparaîtra.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Description** : saisissez une description pour le sous-groupe. Vous pouvez saisir jusqu’à 512 caractères.
+   * **Est actif** : cette option est activée par défaut et rend le groupe actif dans votre instance Workfront.
 
-1. Cliquez sur **Enregistrer**.
+     Dans les champs de saisie semi-automatique comme celui illustré ci-dessous, lorsque les utilisateurs réguliers recherchent un groupe pour le joindre à un objet ou partager un objet avec celui-ci, seuls les groupes actifs s’affichent dans la liste.
+
+     ![Champ de saisie semi-automatique pour un groupe](assets/typeahead-for-group.png)
+
+     Pour simplifier cette opération pour vos utilisateurs, vous pouvez désactiver l’option **Est actif** pour les groupes qui ne sont pas utilisés actuellement.
+
+     Vous pouvez facilement afficher, filtrer et regrouper la liste des groupes en fonction de l’état actif ou inactif à l’aide de ce champ. Pour plus d’informations sur l’utilisation des vues, des filtres et des regroupements dans les listes, consultez [Éléments de création de rapports : filtres, vues et regroupements](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+
+   * **Chef d’entreprise** : vous pouvez affecter un utilisateur en tant que chef d’entreprise à un sous-groupe que vous gérez. La personne disposant du rôle de chef d’entreprise prend des décisions commerciales pour le sous-groupe. Pour plus d’informations, voir [Vue d‘ensemble du rôle de chef ou cheffe d’entreprise](/help/quicksilver/administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
+
+     Si la personne n’est pas déjà membre du sous-groupe, l’ajout de son nom à ce champ l’ajoute également au groupe.
+
+     >[!NOTE]
+     >
+     >* Avant de pouvoir supprimer la personne disposant du rôle de chef d’entreprise d’un sous-groupe, vous devez supprimer son nom du champ Chef d’entreprise.
+     >* Si vous supprimez le nom du champ Chef d’entreprise, cette personne reste membre du sous-groupe, sauf si vous la supprimez du sous-groupe. Pour obtenir des instructions sur la suppression d’une personne d’un groupe, voir [Afficher et gérer les appartenances à un groupe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+
+   * **Membres du groupe et administrateurs de groupe**: pour ajouter des utilisateurs et des groupes en tant que membres du sous-groupe, commencez à saisir le nom d’un utilisateur ou d’un groupe existant que vous souhaitez ajouter, puis sélectionnez le nom lorsqu’il apparaît.
+
+     Les personnes et les groupes que vous ajoutez ont accès à tous les objets partagés avec le groupe.
+
+     Un sous-groupe hérite des administrateurs de groupe du groupe situé au-dessus. Par conséquent, la spécification d’un utilisateur en tant qu’administrateur de groupe pour un sous-groupe est facultative. Vous pouvez attribuer à une personne du groupe les droits d’administration de groupes à l’aide du menu déroulant situé à droite du nom de la personne.
+
+   * **Rechercher des personnes et des groupes dans la liste** : si vous devez trouver un utilisateur ou un groupe déjà affecté à ce sous-groupe, vous pouvez saisir son nom ici et le sélectionner lorsqu&#39;il apparaît.
+
+1. Cliquer sur **Enregistrer**.

@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, vous pouvez utiliser un modèle de disposition pour configurer les options que les personnes voient lorsqu’elles ouvrent le menu principal dans Workfront.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
+source-git-commit: 00ec13dfb082ecd9b087d79b385a4eea677cf55d
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 67%
@@ -118,13 +118,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
      >[!NOTE]
      >
-     >Planning requiert une licence supplémentaire. Pour plus d’informations sur Workfront Planning, consultez la [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-     > * Application personnalisée
+     >Planning requiert une licence supplémentaire. Pour plus d’informations sur Workfront Planning, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+   * Application personnalisée
 
      >[!NOTE]
      >
      > Les applications personnalisées doivent être créées séparément avant d&#39;être disponibles en tant qu&#39;options du menu principal. Pour plus d’informations, voir [Création d’une application personnalisée pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
-
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -140,10 +140,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Ou
 
-   Si vous avez terminé de personnaliser, cliquez sur **Enregistrer**.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
 
    >[!TIP]
    >
-   >Vous pouvez cliquer à tout moment sur Enregistrer pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.
+   >Vous pouvez cliquer sur **Enregistrer** à tout moment pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.
 
-Pour plus d’informations sur les modèles de disposition, voir [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Pour plus d’informations sur les modèles de disposition, consultez [Création et gestion des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
