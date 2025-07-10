@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: cd5dcbd0f39754fb9ab1605c1eb65af37aa21996
+source-git-commit: 2768cb277a45493dc8eb9ffeca2c05b14d772382
 workflow-type: tm+mt
-source-wordcount: '13227'
+source-wordcount: '13231'
 ht-degree: 87%
 
 ---
@@ -903,6 +903,7 @@ ht-degree: 87%
       * [Activer l’envoi d’e-mails à partir de l’environnement Sandbox de prévisualisation](workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)
       * [Notifications d’événements](workfront-basics/using-notifications/event-notifications.md)
       * [Joindre une notification de rappel à un objet](workfront-basics/using-notifications/attach-reminder-notification-object.md)
+      * [Notification d’événement : index des articles](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
       * [Notifications : action nécessaire](workfront-basics/using-notifications/notifications-action-needed.md)
       * [Notifications : informations d’approbation](workfront-basics/using-notifications/notifications-approval-information.md)
       * [Notifications : communication](workfront-basics/using-notifications/notifications-communication.md)
