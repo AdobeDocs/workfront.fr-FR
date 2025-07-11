@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '446'
 ht-degree: 25%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 25%
 
 Vous pouvez recevoir des notifications in-app de Workfront Planning lorsque les scénarios suivants existent :
 
-* Quelqu’un vous identifie dans un commentaire d’enregistrement
+* Quelqu’un vous identifie ou identifie vos équipes dans un commentaire d’enregistrement.
 
   Pour plus d’informations sur le balisage d’autres utilisateurs dans un commentaire d’enregistrement, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
 * Quelqu&#39;un vous demande votre autorisation pour accéder à une vue ou à un espace de travail
@@ -160,7 +160,7 @@ OLD:
 
 ## Gérer les notifications in-app lorsqu’une personne vous identifie dans un commentaire
 
-1. (Conditionnel) Lorsqu’un utilisateur vous identifie dans un commentaire d’enregistrement, accédez à l’icône in-app **Notifications** ![icône de notifications Experience Cloud](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
+1. (Conditionnel) Lorsqu’un utilisateur vous a identifié ou identifié vos équipes dans un commentaire sur un enregistrement, accédez à l’icône in-app **Notifications** ![icône de notifications Experience Cloud](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
 
    ![ Exemple de notification in-app ](assets/in-app-notification-example.png)
 

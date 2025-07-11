@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '668'
 ht-degree: 15%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 15%
 
 Vous pouvez recevoir des notifications par e-mail de Workfront Planning lorsque les scénarios suivants existent :
 
-* Quelqu’un vous identifie dans un commentaire d’enregistrement
+* Quelqu’un vous identifie ou identifie vos équipes dans un commentaire d’enregistrement.
 
   Pour plus d’informations sur le balisage d’autres utilisateurs dans un commentaire d’enregistrement, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
 * Quelqu&#39;un vous demande votre autorisation pour accéder à une vue ou à un espace de travail
@@ -161,7 +161,7 @@ OLD:
 
 ## Gérer les notifications par e-mail lorsqu’une personne vous identifie dans un commentaire
 
-1. (Conditionnel et facultatif) Une fois que quelqu’un vous a identifié dans un commentaire sur un enregistrement, accédez à la notification par e-mail qui vous informe de la balise et du commentaire. L’expéditeur de l’e-mail est Adobe Experience Cloud.
+1. (Conditionnel et facultatif) Une fois qu’une personne vous a identifié, vous ou votre équipe, dans un commentaire sur un enregistrement, accédez à l’e-mail de notification qui vous informe de la balise et du commentaire. L’expéditeur de l’e-mail est Adobe Experience Cloud.
 
    ![Exemple de notifications par e-mail](assets/email-notification-example.png)
 
