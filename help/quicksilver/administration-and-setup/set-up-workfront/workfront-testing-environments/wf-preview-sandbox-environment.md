@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 94%
+source-wordcount: '1302'
+ht-degree: 93%
 
 ---
 
@@ -179,12 +179,15 @@ Pour plus d’informations, voir [Configuration des recalculs de chronologie pou
 
 Pour l’environnement de Prévisualisation, le recalcul nocturne est désactivé et les chronologies de projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour l’environnement de prévisualisation. Pour plus d’informations, voir [Recalculer la chronologie du projet](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
+
 ## Performances et disponibilité de l’environnement de prévisualisation
 
-Les environnements de prévisualisation [!DNL Workfront] ne sont pas destinés à des tests de performance ou de charge. Utilisez-les plutôt pour valider l’efficacité des fonctionnalités avec les workflows existants de votre entreprise.
+* Les environnements de prévisualisation [!DNL Workfront] ne sont pas destinés à des tests de performance ou de charge. Utilisez-les plutôt pour valider l’efficacité des fonctionnalités avec les workflows existants de votre entreprise.
 
-Les environnements de prévisualisation [!DNL Workfront] sont censés être toujours disponibles.
+* Les workflows impliquant des documents doivent se concentrer sur les processus et non sur les tests de chargement. Les fichiers volumineux ne sont pas pris en charge dans les environnements Sandbox.
 
-Toute interruption d’un environnement de prévisualisation [!DNL Workfront] pendant les heures de bureau sera traitée en priorité, immédiatement après que les problèmes de production auront été résolus, le cas échéant.
+* Les environnements de prévisualisation [!DNL Workfront] sont censés être toujours disponibles.
 
-Toute interruption de l’environnement de prévisualisation [!DNL Workfront] pendant les week-ends (samedi et dimanche) sera résolue de manière à ce que l’environnement soit opérationnel pendant les heures de bureau le lundi.
+* Toute interruption d’un environnement de prévisualisation [!DNL Workfront] pendant les heures de bureau sera traitée en priorité, immédiatement après que les problèmes de production auront été résolus, le cas échéant.
+
+* Toute interruption de l’environnement de prévisualisation [!DNL Workfront] pendant les week-ends (samedi et dimanche) sera résolue de manière à ce que l’environnement soit opérationnel pendant les heures de bureau le lundi.

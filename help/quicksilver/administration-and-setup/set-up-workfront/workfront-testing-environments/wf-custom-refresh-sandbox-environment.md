@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1745'
-ht-degree: 94%
+source-wordcount: '1763'
+ht-degree: 93%
 
 ---
 
@@ -210,9 +210,12 @@ Pour plus d’informations, voir [Configuration des recalculs de chronologie pou
 
 Pour l’environnement de sandbox d’actualisation personnalisée, le recalcul nocturne est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour l’environnement de sandbox d’actualisation personnalisée. Pour plus d’informations, voir [Recalculer la chronologie du projet](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
+
 ## Utilisation prévue et disponibilité
 
 * Les environnements de sandbox à actualisation personnalisée [!DNL Workfront] ne sont pas destinés aux tests de performance ou de charge. Utilisez-les plutôt pour valider l’efficacité des fonctionnalités avec les workflows existants de votre entreprise.
+
+* Les workflows impliquant des documents doivent se concentrer sur les processus et non sur les tests de chargement. Les fichiers volumineux ne sont pas pris en charge dans les environnements Sandbox.
 
 * Les environnements de sandbox à actualisation personnalisée [!DNL Workfront] sont conçus pour être toujours disponibles. Toute interruption d’un environnement de sandbox à actualisation personnalisée Workfront pendant les heures de bureau sera traitée en priorité, immédiatement après la résolution des problèmes de production, le cas échéant. Toute panne d’un sandbox à actualisation personnalisée Workfront le week-end (le samedi et le dimanche) sera résolue afin d’assurer son fonctionnement pendant les heures de travail le lundi.
 
