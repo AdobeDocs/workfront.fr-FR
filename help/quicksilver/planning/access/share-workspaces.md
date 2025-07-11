@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '969'
 ht-degree: 35%
 
 ---
@@ -147,6 +147,8 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 1. Partagez le lien copié avec d’autres personnes. Les personnes qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à l’espace de travail.
 1. Cliquer sur **Enregistrer**.
 
+   Les utilisateurs avec lesquels vous avez partagé l’espace de travail reçoivent une notification in-app et par e-mail concernant leurs autorisations.
+
 ## Octroyer des autorisations à un espace de travail à partir d’une demande d’autorisation
 
 Les utilisateurs et utilisatrices qui accèdent à un lien vers un espace de travail pour lequel ils ne disposent pas d’autorisations peuvent demander des autorisations pour l’espace de travail . Tous les utilisateurs disposant d’autorisations de niveau Gérer pour l’espace de travail reçoivent la demande d’autorisation et peuvent accorder ou refuser les autorisations.
@@ -154,10 +156,8 @@ Les utilisateurs et utilisatrices qui accèdent à un lien vers un espace de tra
 1. (Conditionnel) Si vous êtes le responsable d&#39;un espace de travail, il se peut que vous receviez une demande d&#39;un autre utilisateur pour accéder à la vue dans les zones suivantes :
 
    * Une notification in-app
-
      ![Notification in-app pour la demande d’accès](assets/in-app-notification-for-access-request.png)
    * Notification par e-mail
-
      ![Notification électronique pour la demande d’accès](assets/email-notification-for-access-request.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app
 Ou

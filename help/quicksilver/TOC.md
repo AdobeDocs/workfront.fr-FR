@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2768cb277a45493dc8eb9ffeca2c05b14d772382
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
 source-wordcount: '13231'
 ht-degree: 87%
@@ -2106,7 +2106,7 @@ ht-degree: 87%
       * [Supprimer les vues d’enregistrement](planning/views/delete-record-views.md)
       * [Dupliquer les vues d’enregistrement](planning/views/duplicate-record-views.md)
    * Notifications Adobe Workfront Planning {#adobe-workfront-planning-notifications}
-      * [Notifications d’Adobe Workfront Planning : index des articles](planning/notifications/notifications-information.md)
+      * [Notifications Adobe Workfront Planning : index des articles](planning/notifications/notifications-information.md)
       * [Gérer les préférences de notification d’Adobe Workfront Planning](planning/notifications/manage-notification-preferences.md)
       * [Gérer les notifications par e-mail d’Adobe Workfront Planning](planning/notifications/manage-planning-email-notifications.md)
       * [Gérer les notifications in-app d’Adobe Workfront Planning](planning/notifications/manage-planning-in-app-notifications.md)

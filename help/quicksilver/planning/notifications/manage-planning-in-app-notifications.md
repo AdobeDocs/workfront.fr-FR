@@ -1,14 +1,14 @@
 ---
 title: Gérer les notifications in-app d’Adobe Workfront Planning
-description: Lorsqu’une personne vous identifie dans un commentaire d’enregistrement, vous recevez une notification par e-mail pour cette balise.
+description: Lorsqu’une personne vous identifie ou identifie vos équipes dans un commentaire d’enregistrement, vous recevez une notification par e-mail concernant cette balise.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '449'
 ht-degree: 25%
 
 ---
