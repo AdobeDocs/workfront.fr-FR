@@ -7,23 +7,58 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 72%
+source-wordcount: '346'
+ht-degree: 51%
 
 ---
 
 # Informations sur la version bêta des tableaux de bord Zone de travail
 
-La nouvelle fonctionnalité Tableaux de bord Zone de travail, actuellement en développement, vous permet de visualiser facilement vos données Adobe Workfront en ajoutant différents types de rapports dans une zone de travail personnalisable. Veuillez noter que même si nous éprouvons la plus grande gratitude à pouvoir compter sur votre participation durant notre phase de test bêta, il se peut que la fonctionnalité, en tout ou en partie, ne fonctionne pas comme prévu. Veuillez envoyer vos commentaires concernant votre expérience en suivant les instructions de la section [Fournir des commentaires](#provide-feedback) ci-dessous.
-
-Pour obtenir des informations de base sur l’utilisation des tableaux de bord Zone de travail, voir Commencer avec les tableaux de bord Zone de travail. [&#128279;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
-Pour obtenir la liste de tous les tableaux de bord Zone de travail, voir [Vue d’ensemble des tableaux de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
-
 >[!NOTE]
 >
 >Les tableaux de bord de la zone de travail sont actuellement en phase de test bêta fermée et sont donc fréquemment modifiés.
+
+Les tableaux de bord de la zone de travail sont une fonctionnalité en cours de développement. Ils vous permettent de visualiser facilement vos données Adobe Workfront en ajoutant divers types de rapports à une zone de travail personnalisable.
+
+Veuillez noter que même si nous éprouvons la plus grande gratitude à pouvoir compter sur votre participation durant notre phase de test bêta, il se peut que la fonctionnalité, en tout ou en partie, ne fonctionne pas comme prévu. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](#provide-feedback) ci-dessous.
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Formule Adobe Workfront</p></td> 
+   <td> 
+<p>Tous </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td> 
+<p>Actuelle : formule </p> 
+<p>Nouveau : Standard</p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurations des niveaux d’accès</p></td> 
+   <td><p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p>
+  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
+
 
 ## S’inscrire à la version bêta
 
@@ -49,29 +84,3 @@ Vos commentaires sont appréciés et nous permettent d’apporter des améliorat
 
 1. Cliquez sur **Soumettre**.
 
-## Fonctionnalités prévues
-
-Vous trouverez ci-dessous une liste des types de rapports actuellement pris en charge dans la version bêta, ainsi qu’une liste des autres fonctionnalités que nous prévoyons d’ajouter aux tableaux de bord Zone de travail au cours des versions bêta et publique.
-
-### Types de rapports pris en charge
-
-* Rapports existants (rapports créés à l’aide de l’outil de reporting actuel)
-* Rapports sur les graphiques
-* Rapports sur les indicateurs clés de performance
-* Rapports sur les tableaux
-* Rapports sur les approbations en attente
-
-### Fonctionnalités en développement
-
-* Caractères génériques basés sur les dates et les personnes pour les filtres
-* Rapports de planification Workfront
-* Types d’objet Workfront supplémentaires
-* Rapports sur les panoramas
-* Autres améliorations apportées à la convivialité
-* Feuilles de calcul
-* Contenu web intégré
-
-### Fonctionnalités futures incluses dans la feuille de route
-
-* Invites au niveau du tableau de bord
-* Prise en charge des devises

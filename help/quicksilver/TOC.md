@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 979d0919605564107e58032b80cfd259bd6edffa
 workflow-type: tm+mt
-source-wordcount: '13231'
+source-wordcount: '13221'
 ht-degree: 87%
 
 ---
@@ -1496,17 +1496,16 @@ ht-degree: 87%
    * [Rapports et tableaux de bord : index des articles](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Tableaux de bord Zone de travail. {#canvas-dashboards}
       * [Tableaux de bord Zone de travail.](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
-      * Gérer les tableaux de bord de zones de travail {#manage-canvas-dashboards}
-         * [Gérer les tableaux de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
-         * [Commencer avec les tableaux de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
-         * [Ajouter, supprimer ou organiser des rapports dans un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
-         * [Partager un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
       * Ajout de rapports {#add-reports}
+         * [Ajout de rapports : index des articles](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-reports-toc.md)
          * [Vue d’ensemble des types de rapports du tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
          * [Créer un rapport sur les indicateurs de performance clés](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
          * [Créer un rapport de graphique](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
          * [Création d’un rapport tabulaire](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
          * [Ajouter un rapport existant à un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+      * Gérer les tableaux de bord de zones de travail {#manage-canvas-dashboards}
+         * [Gérer les tableaux de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Partager un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
    * Rapports {#reports}
       * [Rapports](reports-and-dashboards/reports/reports-overview.md)
       * Concepts de base de la création de rapports {#report-basics}
