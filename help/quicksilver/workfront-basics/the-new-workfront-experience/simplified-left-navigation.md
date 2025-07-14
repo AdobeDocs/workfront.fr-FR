@@ -6,10 +6,10 @@ description: Le panneau de navigation de gauche dans  [!DNL Workfront]  facilite
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 100%
+source-wordcount: '1385'
+ht-degree: 98%
 
 ---
 
@@ -265,9 +265,7 @@ Pour savoir quelles sections sont disponibles pour des zones spécifiques, voir 
       >
       >Vous devez créer le tableau de bord pour qu’il apparaisse dans la liste.
 
-   1. Cliquez sur **[!UICONTROL Ajouter]**.
-
-      Le lien vers le tableau de bord apparaît en bas du panneau de gauche.
+1. (Facultatif) Pour supprimer un lien rapide de tableau de bord, passez la souris sur le tableau de bord dans le volet de navigation de gauche, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/remove-dashboard-from-left.png) lorsqu’elle s’affiche.
 
 1. (Facultatif) Pour modifier l’ordre d’une section dans le panneau de gauche, cliquez sur l’icône **[!UICONTROL Faire glisser]** ![](assets/drag-icon.png) à droite d’une section et faites-la glisser vers le haut ou vers le bas.
 
