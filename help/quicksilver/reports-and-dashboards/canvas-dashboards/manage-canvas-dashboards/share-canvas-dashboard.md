@@ -2,14 +2,14 @@
 product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: Partager un tableau de bord de zones de travail
-description: Vous pouvez partager un tableau de bord de la zone de travail avec d’autres utilisateurs d’Adobe Workfront afin qu’ils puissent l’afficher ou le modifier.
+description: Vous pouvez partager un tableau de bord de zone de travail avec d’autres utilisateurs d’Adobe Workfront afin qu’ils puissent l’afficher ou le modifier.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 25%
+source-wordcount: '310'
+ht-degree: 26%
 
 ---
 
@@ -17,36 +17,45 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->Cette page décrit les fonctionnalités disponibles dans le cadre de la version bêta des tableaux de bord du canevas . Pour en savoir plus, consultez la section [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
+>Cette page décrit les fonctionnalités disponibles dans le cadre de la version Beta des tableaux de bord de la zone de travail. Voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) pour en savoir plus.
 
-Vous pouvez partager un tableau de bord de la zone de travail avec d’autres utilisateurs d’Adobe Workfront afin qu’ils puissent l’afficher ou le modifier.
+Vous pouvez partager un tableau de bord de zone de travail avec d’autres utilisateurs d’Adobe Workfront afin qu’ils puissent l’afficher ou le modifier.
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès.
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Formule Adobe Workfront</p></td> 
+   <td> 
+<p>Tous </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td> 
+<p>Actuelle : formule </p> 
+<p>Nouveau : Standard</p> 
+   </td> 
+   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Nouveau : Standard
-   <p>ou</p>
-   <p>Actuel : formule</p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez disposer de l’accès Modifier pour les tableaux de bord.</p></td> 
-  </tr> 
- </tbody> 
+   <td role="rowheader"><p>Configurations des niveaux d’accès</p></td> 
+   <td><p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p>
+  </td> 
+  </tr>  
+</tbody> 
 </table>
 
 Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
+
 
 ## Partager un tableau de bord de zones de travail
 
@@ -56,8 +65,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur le bouton **Partager** dans le coin supérieur droit de la page.
 
-1. Dans le champ **Accédez à :** de la fenêtre **Partage de tableau de bord** qui s’affiche, commencez à saisir les noms d’utilisateurs, d’équipes, de rôles, de groupes ou d’entreprises spécifiques dans votre instance Workfront avec laquelle vous souhaitez partager le tableau de bord du canevas. Lorsque le nom que vous recherchez apparaît dans la liste à saisie automatique située sous le champ, cliquez dessus pour l’ajouter à la liste des destinataires prévus.
+1. Dans le champ **Accorder l’accès à :** de la zone **Partage de tableau de bord** qui s’affiche, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager le tableau de bord de la zone de travail, puis sélectionnez-le lorsqu’il apparaît dans la liste ci-dessous.
 
-1. (Facultatif) Après avoir ajouté une entité à la liste des destinataires prévus, vous pouvez modifier le type d’accès qu’ils recevront pour ce tableau de bord de la zone de travail. Par défaut, ils ne reçoivent que l’accès **Affichage**, mais vous pouvez leur donner l’accès Gérer en cliquant sur **Affichage >** en regard de l’entité, puis en sélectionnant **Gérer** dans la liste déroulante. Notez que le niveau d’accès de certaines entités ne peut pas être modifié, comme les administrateurs.
+1. (Facultatif) Après avoir ajouté une entité à la liste des destinataires prévus, vous pouvez modifier le type d’accès qu’ils recevront pour ce tableau de bord de la zone de travail. Par défaut, ils ne bénéficient que d’un accès **Affichage**, mais vous pouvez leur accorder un accès de niveau Gérer en cliquant sur **Affichage >** en regard de l’entité, puis en sélectionnant **Gérer** dans la liste déroulante. Notez que le niveau d’accès de certaines entités ne peut pas être modifié, comme les administrateurs.
 
-1. Une fois que vous avez ajouté toutes les personnes avec lesquelles vous souhaitez partager le tableau de bord de la zone de travail, cliquez sur le bouton **Partager** .
+1. Une fois que vous avez ajouté toutes les personnes avec lesquelles vous souhaitez partager le tableau de bord de la zone de travail, cliquez sur le bouton **Partager**.

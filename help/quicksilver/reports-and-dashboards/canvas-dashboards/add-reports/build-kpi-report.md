@@ -6,7 +6,7 @@ description: Un rapport sur les indicateurs de performance clés qui affiche de 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 9%
@@ -86,8 +86,8 @@ De nombreuses options de configuration sont disponibles pour créer un rapport s
    1. Saisissez un état **Description**.
 
       >[!NOTE]
-      > 
-      > La description sera utilisée comme légende sous la valeur de l’indicateur de performance clé. Si vous ne saisissez pas de description, une légende est générée pour vous en fonction de l’agrégateur et du type d’agrégation que vous sélectionnez dans les étapes suivantes.
+      >
+      >La description sera utilisée comme légende sous la valeur de l’indicateur de performance clé. Si vous ne saisissez pas de description, une légende est générée pour vous en fonction de l’agrégateur et du type d’agrégation que vous sélectionnez dans les étapes suivantes.
 
 1. Suivez les étapes ci-dessous pour configurer la section **Créer un KPI** :
 

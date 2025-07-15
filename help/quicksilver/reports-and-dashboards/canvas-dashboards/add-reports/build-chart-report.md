@@ -6,7 +6,7 @@ description: Vous pouvez ajouter à un tableau de bord de la zone de travail un 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 6%
@@ -139,7 +139,6 @@ De nombreuses options de configuration sont disponibles pour créer un rapport d
 ## Création d’un exemple de rapport de graphique
 
 Dans cette section, nous allons passer en revue les étapes pour créer un graphique à colonnes qui affiche les tâches en retard par propriétaire de projet.
-
 
 {{step1-to-dashboards}}
 

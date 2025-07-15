@@ -6,10 +6,10 @@ description: Les rapports créés à l’aide de l’outil Rapports Adobe Workfr
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 30%
+source-wordcount: '232'
+ht-degree: 29%
 
 ---
 
@@ -55,6 +55,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 {{step1-to-dashboards}}
 
 1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
+
+1. Cliquez sur **Nouveau tableau de bord** dans le coin supérieur droit.
 
 1. Dans la zone **Créer un tableau de bord**, saisissez les **Nom** et **Description** du tableau de bord.
 
