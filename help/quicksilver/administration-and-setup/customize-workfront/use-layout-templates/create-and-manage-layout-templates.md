@@ -1,15 +1,15 @@
 ---
-title: Création et gestion des modèles de mise en page
+title: Créer et gérer des modèles de mise en page
 user-type: administrator
 content-type: overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: En tant qu’administrateur ou administratrice Workfront ou administrateur ou administratrice de groupes, vous pouvez créer et modifier des modèles de mise en page pour personnaliser les éléments de mise en page dans Workfront pour vos utilisateurs et utilisatrices.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 95%
@@ -102,15 +102,15 @@ Pour plus d’informations sur les modèles de mise en page, voir [Modèles de m
    * [Personnaliser le panneau de gauche à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
    * [Personnaliser des pages épinglées à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
    * [Personnaliser la vue Détails à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [Personnaliser le panneau Résumé à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-   * [Personnalisation de l’accueil à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
+   * [Personnalisation du panneau Résumé à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [Personnaliser l’accueil à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    * [Personnaliser la page de destination à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Personnaliser la terminologie de l’interface d’utilisation à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
 1. Continuez à tester votre modèle de mise en page et mettez-le à la disposition des personnes, comme décrit dans les articles ci-dessous :
 
-   * [ Tester un nouveau modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+   * [Tester un nouveau modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
    * [Accorder un accès administratif pour un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [Affecter des utilisateurs et utilisatrices à un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 

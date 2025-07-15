@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: En tant que membre de l’administration d’Adobe Workfront, vous pouvez accorder un accès administratif pour un modèle de mise en page aux administrateurs et aux administratrices de groupes d’un groupe particulier afin que le modèle puisse être modifié. Cette opération n’affecte pas le modèle aux utilisateurs et utilisatrices du groupe.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 98%

@@ -1,14 +1,14 @@
 ---
-title: Test d’un nouveau modèle de mise en page
+title: Tester un nouveau modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: Il est important de tester un nouveau modèle de disposition avant de l’affecter aux utilisateurs et utilisatrices.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8786648a-3630-4aa9-8e85-9df47a9e4609
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 81%
@@ -17,7 +17,7 @@ ht-degree: 81%
 
 # Tester un nouveau modèle de disposition
 
-Il est important de tester le modèle de mise en page nouvellement créé avant de l’affecter aux utilisateurs.
+Il est important de tester le modèle de mise en page que vous venez de créer avant de l’affecter aux utilisateurs.
 
 Pour plus d’informations sur les modèles de disposition, consultez [Création et gestion des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
