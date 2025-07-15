@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 979d0919605564107e58032b80cfd259bd6edffa
+source-git-commit: b4e2f9b6cad03062b4edb2858f2a59847b47d622
 workflow-type: tm+mt
-source-wordcount: '13221'
+source-wordcount: '13233'
 ht-degree: 87%
 
 ---
@@ -2041,7 +2041,8 @@ ht-degree: 87%
       * [Vue d’ensemble des types d’enregistrement](planning/architecture/overview-of-record-types.md)
       * [Créer des types d’enregistrements](planning/architecture/create-record-types.md)
       * [Créer des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel](planning/architecture/import-file-to-create-record-types.md)
-      * [Créer globalement des types d’enregistrements](planning/architecture/create-record-types-globally.md)
+      * [Configurer les fonctionnalités de l’espace de travail croisé pour les types d’enregistrements](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+      * [Ajouter des types d’enregistrements entre les espaces de travail](planning/architecture/add-cross-workspace-record-types.md)
       * [Présentation des types d’enregistrements Connect](planning/architecture/connect-record-types-overview.md)
       * [Connecter les types d’enregistrements](planning/architecture/connect-record-types.md)
       * [Modifier des types d’enregistrements](planning/architecture/edit-record-types.md)
@@ -2086,6 +2087,7 @@ ht-degree: 87%
       * [Gérer la mise en page de la page d’enregistrement](planning/records/manage-the-record-page.md)
       * [Gérer les connexions d’enregistrement à partir d’objets Workfront](planning/records/manage-records-in-planning-section.md)
       * [Exporter les détails d’un enregistrement](planning/records/export-the-record-page.md)
+      * [Exporter les enregistrements de la vue Tableau](planning/records/export-records-from-the-table-view.md)
       * [Créer des objets Workfront à partir de Workfront Planning en les connectant à des enregistrements](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Configuration des automatisations d’Adobe Workfront Planning](planning/records/configure-automations-to-create-records.md)
       * [Création d’objets à l’aide de l’automatisation des enregistrements Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)

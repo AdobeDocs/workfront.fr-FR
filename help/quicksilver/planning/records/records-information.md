@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 67%
+source-wordcount: '164'
+ht-degree: 65%
 
 ---
 
@@ -44,3 +44,4 @@ Les articles suivants décrivent comment créer et gérer des enregistrements et
 * [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [Gérer la mise en page de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md)
 * [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md)
+* [Exporter les enregistrements de la vue Tableau](/help/quicksilver/planning/records/export-records-from-the-table-view.md)

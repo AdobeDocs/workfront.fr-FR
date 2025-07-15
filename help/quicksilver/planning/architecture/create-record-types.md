@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 54%
+source-wordcount: '1183'
+ht-degree: 53%
 
 ---
 
@@ -110,6 +110,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
       * Lorsque vous les importez à l’aide d’un fichier CSV ou Excel.
 
+        Pour plus d’informations, voir [Création de types d’enregistrements à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
+
      >[!TIP]
      >
      >Lorsque vous importez un type d’enregistrement à partir d’un fichier CSV ou Excel, vous pouvez également importer des enregistrements et des champs.
@@ -119,6 +121,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
       * À partir de zéro.
 
         Cet article décrit comment créer des types d’enregistrements à partir de zéro.
+
+     <!--
+        * <span class="preview">By importing then from another workspace or adding cross-workspace record types</span>
+            <span class="preview">For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
+
 
 * Vous pouvez déplacer des types d’enregistrements dans une section et d’une section d’un espace de travail vers une autre. Vous ne pouvez pas déplacer des types d’enregistrements d’un espace de travail vers un autre.
 
@@ -171,6 +178,18 @@ Pour plus d’informations sur les types d’enregistrements inclus dans chaque 
       * **Espaces de travail spécifiques** : ajoutez les noms des espaces de travail auxquels les responsables d’espace de travail peuvent se connecter à ce type d’enregistrement.
 
    ![Boîte Créer un type d’enregistrement dans l’onglet Paramètres avancés](assets/create-record-type-box-advanced-settings-tab.png)
+
+   <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
+    <div class="preview">
+    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
+        * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
+            You can designate specific users who can add this record type to other workspaces. 
+        * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
+            You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
+        For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
+        ******** replace screen shot below **********
+        ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
+    -->
 
 1. Cliquez sur **Créer**.
 
@@ -228,4 +247,16 @@ Vous pouvez importer les éléments suivants lors de l’importation d’informa
 
 Pour plus d’informations, voir [Création de types d’enregistrements à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
+<!--
 
+<div class="preview">
+
+## Create record types by importing them from another workspace 
+
+You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as cross-workspace record types. 
+
+For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+
+</div>
+
+-->

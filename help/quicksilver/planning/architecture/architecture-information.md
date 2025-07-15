@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
+source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 89%
@@ -40,5 +40,8 @@ Les articles présentés dans les sections suivantes décrivent comment configur
 * [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Supprimer des types d’enregistrements](/help/quicksilver/planning/architecture/delete-record-types.md)
 
-<!--* [Create record types globally](/help/quicksilver/planning/architecture/create-record-types-globally.md)-->
+<!--* <span class="preview">[Configure cross-workspace capabilities for record types](help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)</span>
+
+* <span class="preview">[Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md)</span>
+-->
 

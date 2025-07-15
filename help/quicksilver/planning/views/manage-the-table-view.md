@@ -1,15 +1,15 @@
 ---
 title: Gestion de la vue Tableau
-description: Vous pouvez afficher les enregistrements et leurs champs dans une vue Tableau lors de l'accès à la page de type d'enregistrement dans Adobe Workfront Planning. Cet article décrit comment créer ou modifier une vue de tableau et comment activer les indicateurs de présence en temps réel pour la vue ou comment l'exporter dans un fichier CSV ou Excel.
+description: Vous pouvez afficher les enregistrements et leurs champs dans une vue Tableau lors de l'accès à la page de type d'enregistrement dans Adobe Workfront Planning. Cet article décrit comment créer ou modifier une vue de tableau et comment activer les indicateurs de présence en temps réel pour la vue.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
 workflow-type: tm+mt
-source-wordcount: '3758'
-ht-degree: 48%
+source-wordcount: '3446'
+ht-degree: 53%
 
 ---
 
@@ -29,7 +29,8 @@ Cet article décrit les informations suivantes :
 
 * [Créer ou modifier des colonnes et des lignes dans une vue Tableau](#manage-a-table-view)
 * [Activer les indicateurs de présence en temps réel pour la vue Tableau](#enable-the-real-time-presence-indicator)
-* <span class="preview">[Exporter une vue Tableau vers un fichier CSV ou Excel](#export-the-table-view)</span>
+
+Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [ Exporter des enregistrements de la vue Tableau ](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Conditions d’accès
 
@@ -178,7 +179,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -558,57 +559,5 @@ Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un 
 
 <div class="preview">
 
-## Exporter la vue du tableau
 
-Vous pouvez exporter des informations dans la vue Tableau au format CSV ou Excel.
-
-Tenez compte des points suivants lors de l’exportation de la vue Tableau :
-
-* Les informations exportées vers un fichier Excel conservent les filtres, les regroupements et les tris appliqués à la vue Tableau dans Workfront Planning. Les regroupements ne sont pas visibles dans le fichier CSV.
-
-* Les miniatures et les couleurs de ligne personnalisées ne sont pas prises en charge dans les fichiers exportés.
-
-* Seuls les champs rendus visibles dans l’interface de Workfront sont exportés. Les champs masqués ne sont pas exportés.
-
-Pour exporter des informations à partir de la vue Table ou d&#39;un type d&#39;enregistrement :
-
-1. Accédez à une page de type enregistrement et cliquez sur un onglet de vue Tableau.
-1. Utilisez l’une des méthodes suivantes :
-
-   * Pointez sur le nom de l’onglet d’affichage du tableau, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’affichage, puis cliquez sur **Exporter**.
-
-   ![Menu Plus sur une vue](assets/view-more-menu-with-duplicate-option.png)
-
-   * Cliquez sur **Partager** > **Exporter la vue actuelle**. Cette option n’est disponible que lorsque vous affichez la vue Tableau.
-
-   ![Bouton Partager avec type d’enregistrement et options de partage d’affichage](assets/share-button-with-record-type-and-view-sharing-options.png)
-
-1. Sélectionnez l’un des formats suivants :
-
-   * **Excel**
-   * **CSV**
-
-   >[!IMPORTANT]
-   >
-   >Vous ne pouvez pas exporter des informations de la vue Tableau lorsque vous affichez une vue différente à l’écran. Vous devez afficher la vue du tableau que vous souhaitez exporter afin d’accéder à l’option Exporter du menu Plus .
-
-   Le fichier est téléchargé sur votre ordinateur.
-
-1. (Facultatif) Accédez au dossier des téléchargements sur votre ordinateur et recherchez le fichier téléchargé.
-
-   Le nom du fichier exporté suit le format suivant :
-
-   `Name of the view - name of the record type`
-
-   Par exemple, une vue Tableau pour le type d’enregistrement Campagnes génère un fichier nommé `Table view - Campaigns`.
-
-   Le fichier affiche les informations suivantes :
-
-   * Les en-têtes des colonnes sont surlignés en noir dans le fichier Excel
-   * Tous les champs visibles dans l’interface de Workfront, triés et filtrés selon les mêmes critères
-   * Les regroupements sont conservés dans le fichier Excel
-
-   Vous pouvez désormais partager les fichiers exportés avec d’autres personnes ou les joindre à une communication.
-
-</div>
 
