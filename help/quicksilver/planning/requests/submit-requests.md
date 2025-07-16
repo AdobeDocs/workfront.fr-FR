@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '2091'
 ht-degree: 5%
@@ -239,7 +239,7 @@ Toutes les demandes que vous êtes autorisé à consulter et qui ont été soumi
       * **Date d’entrée** : date à laquelle la demande a été soumise.
       * **Formulaire de demande** : nom du formulaire de demande utilisé pour soumettre la demande.
       * **Statut** : statut de la demande.
-      * **Saisi par** : nom de l’utilisateur qui a ajouté la demande. Si la demande a été ajoutée avec une personne extérieure à Workfront, le champ **Saisi par** affiche `N/A`.
+      * **Saisi par** : nom de l’utilisateur qui a ajouté la demande. Si la demande a été ajoutée par une personne extérieure à Workfront, le champ **Saisi par** affiche `N/A`.
 
         Plusieurs filtres peuvent être joints par **Et** ou **Ou**.
 La liste des demandes est automatiquement filtrée à mesure que vous ajoutez les conditions de filtrage.
@@ -312,6 +312,8 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
      >[!NOTE]
      >
      >Les notifications par e-mail et in-app ne sont visibles que lorsque l’instance de Workfront de votre organisation est intégrée à l’expérience unifiée Adobe.
+
+   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
 1. (Facultatif) Cliquez sur **Afficher votre demande** pour ouvrir la demande dans Workfront.
 

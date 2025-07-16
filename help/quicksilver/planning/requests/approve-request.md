@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '970'
 ht-degree: 11%
 
 ---
@@ -35,15 +35,17 @@ Nous vous recommandons de consulter également les articles suivants :
 * [Envoi de requêtes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
 * [Ajouter une approbation à un formulaire de demande](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
-## Considérations relatives à l’approbation des demandes et des statuts des demandes
+## Considérations relatives à l’approbation des demandes
 
-Les demandes envoyées s’affichent dans l’onglet Planification de la section Soumises de la zone des Demandes de Workfront avec l’un des statuts de demande suivants :
+* Les demandes envoyées s’affichent dans l’onglet Planification de la section Soumises de la zone des Demandes de Workfront avec l’un des statuts de demande suivants :
 
-* **Révision en attente** : ce statut s&#39;affiche lorsqu&#39;aucun approbateur n&#39;a ouvert l&#39;objet de la demande.
-* **En révision** : le statut **En attente de révision** passe à **En révision** lorsqu’au moins un approbateur ouvre l’objet de la demande. Le statut de la demande reste **En révision** jusqu&#39;à ce que tous les approbateurs aient approuvé la demande.
-* **Approuvé** : lorsqu&#39;un approbateur approuve l&#39;objet de la demande, son statut individuel devient **Approuvé**, mais le statut global de l&#39;objet de la demande reste **En révision** jusqu&#39;à ce que tous les approbateurs aient pris leurs décisions. Lorsque tous les approbateurs approuvent une demande, le statut de la demande devient **Approuvé**.
-* **Terminé** : si tous les approbateurs approuvent l&#39;objet de la demande, son statut passe à **Terminé** ou si la demande n&#39;avait pas besoin d&#39;approbation.
-* **Rejeté** : si un approbateur rejette l&#39;objet de la demande, le statut devient **Rejeté**. Aucun enregistrement n&#39;est créé et une nouvelle demande doit être soumise pour créer l&#39;enregistrement.
+   * **Révision en attente** : ce statut s&#39;affiche lorsqu&#39;aucun approbateur n&#39;a ouvert l&#39;objet de la demande.
+   * **En révision** : le statut **En attente de révision** passe à **En révision** lorsqu’au moins un approbateur ouvre l’objet de la demande. Le statut de la demande reste **En révision** jusqu&#39;à ce que tous les approbateurs aient approuvé la demande.
+   * **Approuvé** : lorsqu&#39;un approbateur approuve l&#39;objet de la demande, son statut individuel devient **Approuvé**, mais le statut global de l&#39;objet de la demande reste **En révision** jusqu&#39;à ce que tous les approbateurs aient pris leurs décisions. Lorsque tous les approbateurs approuvent une demande, le statut de la demande devient **Approuvé**.
+   * **Terminé** : si tous les approbateurs approuvent l&#39;objet de la demande, son statut passe à **Terminé** ou si la demande n&#39;avait pas besoin d&#39;approbation.
+   * **Rejeté** : si un approbateur rejette l&#39;objet de la demande, le statut devient **Rejeté**. Aucun enregistrement n&#39;est créé et une nouvelle demande doit être soumise pour créer l&#39;enregistrement.
+
+<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
 
 ## Conditions d’accès
 
@@ -142,7 +144,7 @@ Pour approuver une demande :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision **&#x200B;**.
+   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision ****.
 
      >[!TIP]
      >

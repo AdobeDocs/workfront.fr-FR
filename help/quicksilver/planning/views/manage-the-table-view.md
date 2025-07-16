@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3446'
-ht-degree: 53%
+source-wordcount: '3346'
+ht-degree: 55%
 
 ---
 
 # Gérer la vue de tableau
 
-<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -87,12 +87,7 @@ Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
-   <p>Autorisations d'affichage sur une vue pour modifier temporairement les paramètres d'affichage, la dupliquer <span class="preview">ou l'exporter</span></p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut les zones Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, la zone Planning est activée par défaut pour les utilisateurs et utilisatrices standard et les administrateurs et administratrices système.</span></p></td> 
+   <p>Autorisations d'affichage sur une vue pour modifier temporairement les paramètres d'affichage, la dupliquer ou l'exporter</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,11 +108,9 @@ Lors de la création d’une vue tableau, tous les enregistrements du type séle
 
 Pour gérer une vue tableau :
 
-1. <span class="preview">Créez une vue de tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md). </span>
+1. Créez une vue tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <span class="preview">![Exemple de vue Tableau](assets/table-view-example.png)
-
-   </span>
+   ![Exemple de vue Tableau](assets/table-view-example.png)
 
 1. (Facultatif) Cliquez sur **Hauteur de ligne**, puis sélectionnez l’une des options suivantes pour modifier la hauteur des lignes du tableau :
    * Court
@@ -130,7 +123,7 @@ Pour gérer une vue tableau :
    * [Filtres](#add-filters)
    * [Trier](#add-a-sort)
    * [Regroupement ](#add-groupings)
-   * <span class="preview">[Couleurs de ligne](#add-row-colors)</span>
+   * [Couleurs de ligne](#add-row-colors)
    * [Indicateur de présence en temps réel](#enable-the-real-time-presence-indicator)
 
 
@@ -179,7 +172,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -459,7 +452,7 @@ Pour ajouter un regroupement :
 
    Le nombre de champs sélectionnés pour le regroupement s’affiche à côté de l’icône de regroupement.
 
-   <span class="preview">![Regroupement appliqué en mode Tableau](assets/grouping-applied-in-table-view.png)</span>
+   ![Regroupement appliqué en mode Tableau](assets/grouping-applied-in-table-view.png)
 
 1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement pour le supprimer.
 
@@ -470,9 +463,7 @@ Pour ajouter un regroupement :
 1. Cliquez en dehors de la zone **Regrouper les enregistrements par** pour la fermer.
 1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** à la fin de tout regroupement pour ajouter de nouveaux enregistrements, puis actualisez votre page pour ajouter le nouvel enregistrement au regroupement approprié. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-1. <span class="preview">Pour développer ou réduire des regroupements, effectuez l’une des opérations suivantes :</span>
-
-   <div class="preview">
+1. Pour développer ou réduire des regroupements, effectuez l’une des opérations suivantes :
 
    1. Cliquez sur l’icône **Regroupement**, puis sur **Tout développer** ou **Tout réduire**. Cette action développe tous les regroupements et sous-regroupements dans la vue Tableau.
 
@@ -486,7 +477,7 @@ Pour ajouter un regroupement :
       * **Développer les sous-groupes**
       * **Réduire les sous-groupes**
 
-      Selon le nombre de regroupements que vous appliquez à la vue, certaines options peuvent ne pas être disponibles.</div>
+      Selon le nombre de regroupements que vous appliquez à la vue, certaines options peuvent ne pas être disponibles.
 
 <!-- this is not available yet: 
 
@@ -496,8 +487,6 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
-
-<div class="preview">
 
 ### Ajouter des couleurs de ligne
 
@@ -533,8 +522,6 @@ To sort grouped records:
 
 1. Cliquez en dehors de la zone **Couleurs des lignes** pour la fermer. Les couleurs sont appliquées automatiquement.
 
-</div>
-
 ### Activer l’indicateur de présence en temps réel
 
 Par défaut, les avatars d’autres utilisateurs qui modifient les informations d’enregistrement en même temps que vous s’affichent dans le coin supérieur droit de toutes les vues d’enregistrement.
@@ -557,7 +544,7 @@ Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un 
    >
    >Vous pouvez sélectionner le bouton bascule **Afficher les collaborateurs** dans n’importe quel mode. Le champ actuellement modifié par d’autres utilisateurs est uniquement indiqué dans la vue Tableau.
 
-<div class="preview">
+
 
 
 

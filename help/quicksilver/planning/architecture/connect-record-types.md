@@ -6,19 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '2602'
-ht-degree: 36%
+source-wordcount: '2511'
+ht-degree: 37%
 
 ---
 
 
 # Connecter des types d’enregistrements
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -105,12 +105,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Autorisations de gestion pour un espace de travail</a> </p>  
    <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p></td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -150,7 +146,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
      >[!TIP]
      >
-     >Le paramètre **Se connecter à partir d’autres espaces de travail** doit être activé pour un type d’enregistrement dans l’onglet **Paramètres avancés** de la zone **Modifier le type d’enregistrement**, pour qu’un type d’enregistrement soit accessible à partir d’autres espaces de travail. Si aucun type d’enregistrement n’est configuré pour se connecter à partir d’autres espaces de travail, la section espace de travail ne s’affiche pas.
+     >Le paramètre **Autoriser la connexion à ce type d&#39;enregistrement dans d&#39;autres espaces de travail** doit être activé pour un type d&#39;enregistrement dans l&#39;onglet **Paramètres avancés** de la zone **Modifier le type d&#39;enregistrement**, pour qu&#39;un type d&#39;enregistrement soit accessible à partir d&#39;autres espaces de travail. Si aucun type d’enregistrement n’est configuré pour se connecter à partir d’autres espaces de travail, la section espace de travail ne s’affiche pas.
      > ![Onglet Paramètres avancés de la zone Modifier le type d’enregistrement](assets/edit-record-type-box-advanced-settings-tab.png)
 
      Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
@@ -217,7 +213,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    >[!NOTE]
    >
-   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 1. (Conditionnel) Si vous avez choisi de vous connecter à Experience Manager Assets ou à un type d’enregistrement Workfront Planning, sélectionnez l’une des options suivantes dans la zone **Apparence des enregistrements** :
 
@@ -231,7 +227,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >
    >* Lorsque vous autorisez la liaison de plusieurs enregistrements, l’affichage de la miniature seule peut permettre de gagner de l’espace dans des zones plus petites, comme les vues d’enregistrement.
    >
-   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >* La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objets Workfront.
    >

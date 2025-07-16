@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '2468'
-ht-degree: 21%
+source-wordcount: '2388'
+ht-degree: 20%
 
 ---
 
 
 # Créer des enregistrements
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -43,8 +43,6 @@ Pour plus d’informations sur la gestion des enregistrements dans les vues « 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -97,16 +95,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td> <p>Autorisations de niveau Contribution ou supérieur à l’espace de travail <span class="preview">et au type d’enregistrement</span> dans lequel vous souhaitez ajouter des enregistrements. </p>
-   <p>Autorisations d’affichage ou supérieures pour l’espace de travail <span class="preview">et le type d’enregistrement</span> afin de créer des enregistrements à l’aide du bouton Demander un enregistrement sur la page d’enregistrement</p>
+   <td> <p>Autorisations de niveau Contribution ou supérieur à l’espace de travail et au type d’enregistrement dans lesquels vous souhaitez ajouter des enregistrements. </p>
+   <p>Autorisations d’affichage ou supérieures pour l’espace de travail et le type d’enregistrement pour créer des enregistrements à l’aide du bouton Demander un enregistrement sur la page d’enregistrement</p>
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
    <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (projets).</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Un modèle de mise en page comprenant la zone Planning du menu principal doit être affecté à tous les utilisateurs, y compris les administrateurs Workfront </p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -137,7 +132,7 @@ Les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
      >[!TIP]
      >
-     ><span class="preview">Lorsque vous ajoutez un nouvel enregistrement après le dernier enregistrement d&#39;un regroupement ou d&#39;un sous-regroupement, Workfront renseigne automatiquement les champs inclus dans les regroupements. Si nécessaire, vous pouvez modifier manuellement ces champs, afin que les enregistrements puissent être supprimés du regroupement. </span>
+     >Lorsque vous ajoutez un nouvel enregistrement après le dernier enregistrement d&#39;un regroupement ou d&#39;un sous-regroupement, Workfront renseigne automatiquement les champs inclus dans les regroupements. Si nécessaire, vous pouvez modifier manuellement ces champs, afin que les enregistrements puissent être supprimés du regroupement.
 
    * Cliquez sur **Maj + Entrée** sur votre clavier à partir de n’importe quelle colonne ou ligne du tableau. Cela ajoute une ligne vide sous l’enregistrement à partir duquel vous commencez.
    * Pointez sur le champ principal d’un enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du champ, puis cliquez sur **Insérer un enregistrement au-dessus** ou **Insérer un enregistrement au-dessous**.
@@ -160,7 +155,7 @@ Les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    >[!NOTE]
    >
-   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Les champs qui renvoient à d’autres types d’enregistrements ou à des champs calculés sont en lecture seule.
 
@@ -187,10 +182,10 @@ Les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
 ## Créez des enregistrements à l’aide du bouton Nouvel enregistrement ou Demander un enregistrement depuis n’importe quelle vue de type d’enregistrement
 
-Les utilisateurs disposant d’autorisations en lecture seule sur l’espace de travail <!--<span class="preview">and record type</span>--> peuvent créer des enregistrements uniquement à l’aide du bouton Demander un enregistrement sur la page du type d’enregistrement.
+Les utilisateurs disposant d’autorisations en lecture seule sur l’espace de travail et du type d’enregistrement peuvent créer des enregistrements uniquement à l’aide du bouton Demander l’enregistrement sur la page du type d’enregistrement.
 
-Les utilisateurs disposant d’autorisations de niveau Contribuer et Gérer sur l’espace de travail <!--<span class="preview">and record type</span>--> peuvent créer des enregistrements à l’aide du bouton Nouvel enregistrement de la page Type d’enregistrement.
-<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+Les utilisateurs disposant d’autorisations de niveau Contribuer et Gérer sur l’espace de travail et le type d’enregistrement peuvent créer des enregistrements à l’aide du bouton Nouvel enregistrement de la page du type d’enregistrement.
+
 
 >[!IMPORTANT]
 >
@@ -207,13 +202,13 @@ Les utilisateurs disposant d’autorisations de niveau Contribuer et Gérer sur 
    La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre sous la forme d’un tableau.
 Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
-1. (Conditionnel) Dans n’importe quel mode, cliquez sur l’un des éléments suivants dans le coin supérieur droit de l’écran, selon les autorisations de l’espace de travail <!--<span class="preview">and record type</span>--> :
+1. (Conditionnel) Dans n’importe quel mode, cliquez sur l’un des éléments suivants dans le coin supérieur droit de l’écran, en fonction des autorisations de l’espace de travail et du type d’enregistrement :
 
-   * Cliquez sur **Nouvel enregistrement** si vous disposez des autorisations de niveau Contribute ou supérieur sur l’espace de travail <!--<span class="preview">and record type</span>-->
+   * Cliquez sur **Nouvel enregistrement** si vous disposez des autorisations de niveau Contribute ou supérieur sur l’espace de travail et le type d’enregistrement
 
      Ou
 
-   * Cliquez sur **Demander un enregistrement** si vous disposez des autorisations d&#39;affichage sur l&#39;espace de travail <!--<span class="preview">and record type</span>-->.
+   * Cliquez sur **Demander un enregistrement** si vous disposez des autorisations en lecture seule sur l&#39;espace de travail et le type d&#39;enregistrement.
 
 1. (Conditionnel) Si vous avez cliqué sur **Nouvel enregistrement**, procédez comme suit :
 

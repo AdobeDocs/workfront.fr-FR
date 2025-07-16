@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 7%
+source-wordcount: '1461'
+ht-degree: 6%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 7%
 
 # Partage des types d’enregistrements
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ Vous pouvez partager un type d’enregistrement avec d’autres utilisateurs pou
 >[!IMPORTANT]
 >
 >Les utilisateurs ayant accès à un espace de travail obtiennent automatiquement au moins des autorisations d’affichage pour tous les types d’enregistrements de l’espace de travail.
->&#x200B;>Le partage de vues ne donne pas aux utilisateurs les autorisations pour les types d’enregistrements. Seuls les espaces de travail de partage peuvent accorder aux utilisateurs des autorisations pour les types d’enregistrements.
+>>Le partage de vues ne donne pas aux utilisateurs les autorisations pour les types d’enregistrements. Seuls les espaces de travail de partage peuvent accorder aux utilisateurs des autorisations pour les types d’enregistrements.
 >
 >* Pour obtenir des informations générales sur le partage d’objets dans Workfront Planning, consultez également la section [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Pour plus d’informations, consultez la section [Considérations lors du partage de types d’enregistrements](#considerations-when-sharing-record-types) de cet article.
@@ -95,12 +95,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>  <p>Gestion des autorisations relatives à un type d’enregistrement</p>  
    <p>Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour un espace de travail peuvent partager ces autorisations avec un type d’enregistrement</p></td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut les zones Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, la zone Planning est activée par défaut pour les utilisateurs et utilisatrices standard et les administrateurs et administratrices système.</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -151,7 +147,7 @@ Vous pouvez ajuster les autorisations aux types d’enregistrements individuels 
    Cela ouvre la page du type d’enregistrement.
 
 1. Dans l’onglet d’un affichage, cliquez sur **Partager** dans le coin supérieur droit du type d’enregistrement.
-1. <span class="preview">Cliquez sur **Partager le type d’enregistrement**.</span>
+1. Cliquez sur **Partager le type d’enregistrement**.
 
    La boîte **Partager** s’ouvre.
 
@@ -211,7 +207,7 @@ Vous pouvez supprimer les autorisations des utilisateurs d’un type d’enregis
 1. Ouvrez l’espace de travail dont vous souhaitez arrêter le partage des types d’enregistrements, puis cliquez sur une carte de type d’enregistrement. Cela ouvre la page du type d’enregistrement.
 
 1. Dans l’onglet d’un affichage, cliquez sur **Partager** dans le coin supérieur droit du type d’enregistrement.
-1. <span class="preview">Cliquez sur **Partager le type d’enregistrement**.</span>
+1. Cliquez sur **Partager le type d’enregistrement**.
 
    La boîte **Partager** s’ouvre.
 1. Recherchez l’utilisateur, le groupe, l’équipe, la société ou la fonction dont vous souhaitez supprimer les autorisations, développez le menu déroulant des autorisations à droite de leur nom, puis cliquez sur **Supprimer**. <!--check the screen shot below - the UI text for View might not be accurate-->

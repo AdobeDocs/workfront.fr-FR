@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 53%
+source-wordcount: '1203'
+ht-degree: 52%
 
 ---
 
@@ -169,34 +169,45 @@ Pour plus d’informations sur les types d’enregistrements inclus dans chaque 
       * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. Le gris est sélectionné par défaut.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
-1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur **Paramètres avancés** et mettez à jour les informations suivantes dans la section **Portée de la connectivité** : <!--the info here is duplicated in the Edit record types article-->
 
-   * Activez le paramètre **Se connecter à partir d’un autre espace de travail**. Lorsqu’il est activé, le type d’enregistrement est accessible et peut être connecté à partir d’autres espaces de travail.
-   * Choisissez parmi les espaces de travail accessibles pour le type d’enregistrement. Choisissez l’une des options suivantes :
+   <!--old setting:
+    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Connectivity scope** section: 
+        * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
+        * Choose from which workspaces the record type can be accessed. Choose from the following options:
+            * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
+            * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type. 
+    -->
 
-      * **À l’échelle du système** : les utilisateurs peuvent se connecter à ce type d’enregistrement à partir de tous les espaces de travail pour lesquels ils disposent des autorisations de gestion.
-      * **Espaces de travail spécifiques** : ajoutez les noms des espaces de travail auxquels les responsables d’espace de travail peuvent se connecter à ce type d’enregistrement.
+1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur **Paramètres avancés** et mettez à jour les informations suivantes dans la section **Fonctionnalité interespace de travail** : <!--the info here is duplicated in the Edit record types article-->
+   * Activez le paramètre **Autoriser la connexion à ce type d’enregistrement dans d’autres espaces de travail** : permet aux gestionnaires d’espace de travail de se connecter à ce type d’enregistrement à partir d’autres espaces de travail.\
+     Vous pouvez désigner les espaces de travail auxquels ce type d’enregistrement peut être connecté. Vous pouvez le rendre disponible pour tous les espaces de travail ou désigner des espaces de travail spécifiques où vous pouvez l’importer.
+Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+
 
    ![Boîte Créer un type d’enregistrement dans l’onglet Paramètres avancés](assets/create-record-type-box-advanced-settings-tab.png)
 
    <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
-    <div class="preview">
-    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
-        * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
-            You can designate specific users who can add this record type to other workspaces. 
-        * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
-            You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-        For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
-        ******** replace screen shot below **********
-        ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
-    -->
+        <div class="preview">
+        1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
+            * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
+                You can designate specific users who can add this record type to other workspaces. 
+            * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
+                You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
+            For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
+            ******** replace screen shot below **********
+            ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
+        -->
 
-1. Cliquez sur **Créer**.
+1. Cliquer sur **Enregistrer**.
 
    La carte du type d’enregistrement est ajoutée à la section et à l’espace de travail que vous avez sélectionné.
 La Description du type d’enregistrement s’affiche sur la carte.
 
    ![Carte de type enregistrement avec description](assets/record-type-card-with-description.png)
+
+   Si vous avez choisi de connecter cet enregistrement à partir d&#39;autres espaces de travail, l&#39;icône **se connecter à partir d&#39;autres espaces** ![se connecter à partir d&#39;autres espaces](assets/connect-from-other-workspaces-icon.png) s&#39;affiche sur la carte d&#39;enregistrement.
+
+   <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connect from other spaces** icon ![Connect record type from other spaces icon](assets/connect-from-other-workspaces-icon.png) and the **add to other workspaces** icon ![Add record type to other workspaces](assets/global-icon.png) also display on the card. </span>-->
 
 1. (Facultatif) Pointez sur la carte de type d’enregistrement, cliquez sur l’icône **Plus** ![Menu Plus](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Modifier** pour modifier les informations sur le type d’enregistrement.
 1. (Facultatif) Cliquez sur la carte du type d’enregistrement pour ouvrir la page du type d’enregistrement.

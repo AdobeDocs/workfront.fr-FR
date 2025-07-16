@@ -8,7 +8,7 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 81%
@@ -204,9 +204,9 @@ Pour localiser les demandes que vous ou d’autres utilisateurs et utilisatrices
 
 1. (Facultatif et conditionnel) Si votre entreprise a acheté un package Workfront Planning, cliquez sur l’onglet **Planning**, puis sur **Soumis** dans le panneau de gauche pour afficher les demandes Workfront Planning.
 
-   <span class="preview">Utilisez **Filtres** et **Colonnes** pour mettre à jour les informations de la liste des demandes Planning. </span>
+   Utilisez **Filtres** et **Colonnes** pour mettre à jour les informations de la liste des demandes Planning.
 
-   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 

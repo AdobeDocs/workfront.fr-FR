@@ -6,19 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 29%
+source-wordcount: '646'
+ht-degree: 30%
 
 ---
 
 
 # Modifier des types d’enregistrements
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -80,15 +81,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Gérer les autorisations pour un espace de travail <span class="preview">et le type d’enregistrement</span> </p>  
+   <td>   <p>Gestion des autorisations relatives à un espace de travail et à un type d’enregistrement </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
    <p>Seuls les administrateurs système peuvent activer les types d’enregistrements pour se connecter à partir d’autres espaces de travail</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -123,17 +120,22 @@ Ou
       * Sélectionnez une couleur pour identifier le type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
-1. (Conditionnel) Si vous êtes un administrateur système, cliquez sur l’onglet **Paramètres avancés** dans la zone **Modifier le type d’enregistrement**. <!--the info here is duplicated in the Create record types article-->
+   <!--old info: 
+   1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. 
+      ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+   1. (Conditional) Update the following information in the **Advanced settings** tab: 
+      * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
+      * Choose from which workspaces the record type can be accessed. Choose from the following options:
+         * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
+         * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
+
+
+1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur **Paramètres avancés** et mettez à jour les informations suivantes dans la section **Fonctionnalité interespace de travail** : <!--the info here is duplicated in the Create record types article-->
+   * Activez le paramètre **Autoriser la connexion à ce type d’enregistrement dans d’autres espaces de travail** : permet aux gestionnaires d’espace de travail de se connecter à ce type d’enregistrement à partir d’autres espaces de travail.\
+     Vous pouvez désigner les espaces de travail auxquels ce type d’enregistrement peut être connecté. Vous pouvez le rendre disponible pour tous les espaces de travail ou désigner des espaces de travail spécifiques où vous pouvez l’importer.
+Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
    ![Onglet Paramètres avancés de la zone Modifier le type d’enregistrement](assets/edit-record-type-box-advanced-settings-tab.png)
-
-1. (Conditionnel) Mettez à jour les informations suivantes dans l’onglet **Paramètres avancés** :
-
-   * Activez le paramètre **Se connecter à partir d’un autre espace de travail**. Lorsqu’il est activé, le type d’enregistrement est accessible et peut être connecté à partir d’autres espaces de travail.
-   * Choisissez parmi les espaces de travail accessibles pour le type d’enregistrement. Choisissez l’une des options suivantes :
-
-      * **À l’échelle du système** : les utilisateurs peuvent se connecter à ce type d’enregistrement à partir de tous les espaces de travail pour lesquels ils disposent des autorisations de gestion.
-      * **Espaces de travail spécifiques** : ajoutez les noms des espaces de travail auxquels les responsables d’espace de travail peuvent se connecter à ce type d’enregistrement.
 
    <!--replace last point with this when we release dynamic record types:
       1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***

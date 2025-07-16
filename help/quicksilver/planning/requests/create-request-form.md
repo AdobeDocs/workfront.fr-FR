@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 7%
@@ -123,8 +123,8 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
    * Vous ne pouvez pas ajouter de champs des types suivants à un formulaire de demande :
 
-      * Créé par et Dernière modification par
-      * Date de création et date de dernière modification
+      * Créé par et Dernière modification par <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
+      * Date de création et <!--Created date, Last modified date, <span class="preview">Approved date</span>--> de la date de dernière modification
       * Formule
       * Champs de recherche d’objets Workfront
       * Champs de recherche des enregistrements connectés de Workfront Planning

@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 33%
+source-wordcount: '855'
+ht-degree: 35%
 
 ---
 
 # Créer des types d’enregistrements en important des informations depuis un fichier CSV ou Excel
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -26,8 +26,6 @@ Les types d’enregistrements sont les types d’objets d’Adobe Workfront Pl
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -81,12 +79,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -109,16 +103,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Les feuilles vides ne sont pas prises en charge.
 * Les champs des types suivants ne sont pas pris en charge et ne peuvent pas être mappés aux champs de la feuille d’importation :
 
-   * Champs de connexion, selon l’environnement utilisé :
-
-      * Dans l’environnement de production, les champs de connexion aux enregistrements Planning ou aux objets Workfront et AEM Assets ne peuvent pas être mappés
-
-      * <span class="preview">Dans l&#39;environnement Aperçu, vous pouvez mapper et importer des champs de connexion vers des enregistrements Planning. Vous ne pouvez pas mapper des champs à Workfront et AEM Assets.</span>
-
+   * Champs de connexion aux types d’objet Workfront et AEM Assets.
    * Champs de recherche des enregistrements Planning connectés ou des objets Workfront et AEM Assets
    * Champs de formule
    * Date de création, Créé par
    * Date de dernière modification, Dernière modification par
+     <!--* <span class="preview">Approved date, Approved by</span>-->
    * Personnes
 
 Pour importer des types d&#39;enregistrements à l&#39;aide d&#39;un fichier Excel ou CSV :
@@ -155,21 +145,21 @@ Pour importer des types d&#39;enregistrements à l&#39;aide d&#39;un fichier Exc
 
    Les feuilles que vous avez désélectionnées s’affichent sur fond gris.
 
-1. (Facultatif) Cliquez sur la flèche pointant vers le bas à droite d’un en-tête de colonne pour effectuer l’une des opérations suivantes, <span class="preview">dans l’onglet **Champ** </span> :
+1. (Facultatif) Cliquez sur la flèche pointant vers le bas à droite d’un en-tête de colonne pour effectuer l’une des opérations suivantes, dans l’onglet **Champ** :
 
-   <span class="preview">![Onglet Champ de la zone d’importation de mappage de type d’enregistrement](assets/field-tab-on-record-type-import-mapping-box.png)</span>
+   ![Onglet Champ de la zone d’importation de mappage de type d’enregistrement](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * Renommer l’un des champs
    * Modifiez le **Type de champ**
    * Mettez à jour le champ **Description**
 
-1. <span class="preview">(Facultatif) Cliquez sur l’onglet **Connexion** pour mapper les informations de la colonne à un champ connecté à partir d’autres types d’enregistrements.</span>
+1. (Facultatif) Cliquez sur l’onglet **Connexion** pour mapper les informations de la colonne à un champ connecté à partir d’autres types d’enregistrements.
 
-   <span class="preview">![Onglet Connexion de la zone de mappage d’importation des types d’enregistrements](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+   ![Onglet Connexion de la zone de mappage d’importation des types d’enregistrements](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >
-   ><span class="preview">Vous ne pouvez mapper qu’aux champs des enregistrements connectés Workfront Planning. Vous ne pouvez pas mapper aux champs des connexions Workfront ou AEM Assets. Pour plus d’informations, consultez la section [Considérations relatives à l’importation de types d’enregistrements à l’aide d’un fichier Excel ou CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file) dans cet article.</span>
+   >Vous ne pouvez mapper qu’aux champs des enregistrements connectés de Workfront Planning. Vous ne pouvez pas mapper aux champs des connexions Workfront ou AEM Assets. Pour plus d’informations, consultez la section [Considérations relatives à l’importation de types d’enregistrements à l’aide d’un fichier Excel ou CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file) dans cet article.
 
 1. (Conditionnel) Après avoir mis à jour les informations sur le champ, cliquez sur **Enregistrer**.
 

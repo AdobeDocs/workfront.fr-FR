@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3804'
-ht-degree: 39%
+source-wordcount: '3708'
+ht-degree: 40%
 
 ---
 
 # Gérer la vue chronologique
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -81,12 +81,7 @@ Pour plus d’informations sur les vues d’enregistrement, consultez la section
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
    <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage ou la dupliquer</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p> </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -126,9 +121,7 @@ Pour gérer une vue chronologique :
    >
    >    Le tri des enregistrements dans la chronologie n’est pas visible dans la vue compacte.
 
-1. <span class="preview"> (Conditionnel) Si votre administrateur a activé les trimestres personnalisés et que Workfront détecte des problèmes liés à la configuration des trimestres personnalisés, il se peut que vous receviez un avertissement lors de l’ouverture de la vue chronologique. </span>
-
-   <div class="preview">
+1. (Sous condition) Si votre administrateur a activé les trimestres personnalisés et que Workfront détecte des problèmes liés à la configuration des trimestres personnalisés, il se peut que vous receviez un avertissement lors de l’ouverture de la vue chronologique.
 
    Les scénarios suivants sont possibles :
 
@@ -152,13 +145,11 @@ Pour gérer une vue chronologique :
    >Après avoir configuré les trimestres personnalisés dans la zone Configuration , la vue chronologique affiche les trimestres personnalisés au lieu des trimestres classiques.
    >Pour plus d’informations, voir [Activer les trimestres personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-   </div>
-
-1. <span class="preview">(Conditionnel) Si vous êtes un administrateur Workfront, cliquez sur **Accéder à la configuration** pour configurer vos trimestres. Si ce n’est pas le cas, cliquez sur **OK** et demandez à votre administrateur Workfront de configurer les trimestres personnalisés.</span>
+1. (Conditionnel) Si vous êtes un administrateur Workfront, cliquez sur **Accéder à la configuration** pour configurer vos trimestres. Si ce n’est pas le cas, cliquez sur **OK** et demandez à votre administrateur Workfront de configurer les trimestres personnalisés.
 
    >[!TIP]
    >
-   ><span class="preview">Le bouton Accéder à la configuration s’affiche uniquement pour l’administrateur Workfront.</span>
+   >Le bouton Accéder à la configuration s’affiche uniquement pour l’administrateur Workfront.
 
 1. (Facultatif et conditionnel) Lorsque le nom d’enregistrement est tronqué, passez la souris sur une barre d’enregistrement pour afficher le nom complet de l’enregistrement et des informations supplémentaires. Pour plus d’informations sur la configuration de la troncature de la barre d’enregistrement dans la chronologie, consultez la section [Modifier les paramètres d’affichage de la chronologie](#edit-the-timeline-view-settings) dans cet article.
 
@@ -172,7 +163,7 @@ Pour gérer une vue chronologique :
       * **Trimestre** : affiche les mois et les semaines avec l’indication du trimestre.
       * **Mois** : affiche les semaines et les jours.
 1. (Facultatif) Cliquez sur **Basculer vers la vue compacte** pour afficher les enregistrements dont les dates ne se coupent pas sur la même ligne. <!--check to see if they updated the name of the setting here-->
-1. (Conditionnel) Si vous avez modifié votre mode en **Compact**, cliquez sur **Passer à la vue Standard** pour afficher les enregistrements sur des lignes distinctes. <span class="preview">L’option **Standard** est la valeur par défaut.</span>  <!--check to see if they updated the name of the setting here-->
+1. (Conditionnel) Si vous avez modifié votre mode en **Compact**, cliquez sur **Passer à la vue Standard** pour afficher les enregistrements sur des lignes distinctes. L’option **Standard** est la valeur par défaut.  <!--check to see if they updated the name of the setting here-->
 
 1. Procédez comme suit pour trouver rapidement les enregistrements correspondant à un mot-clé :
 
@@ -392,7 +383,7 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
    >
    >* Si vous affichez des enregistrements supplémentaires à l&#39;aide de l&#39;option Répartition , les dates de Début et de Fin sont celles de l&#39;enregistrement principal. Vous ne pouvez pas choisir les dates de début et de fin pour les enregistrements connectés dans cette zone.
 
-1. <span class="preview">(Conditionnel et facultatif) Si vous êtes un administrateur Workfront, cliquez sur **Accéder à la configuration** dans la zone **Utiliser des trimestres personnalisés** pour accéder à la zone Configuration et configurer des trimestres personnalisés. Après avoir configuré les trimestres personnalisés, vous pouvez les afficher dans la vue chronologique au lieu des trimestres classiques. Si vous n’êtes pas administrateur Workfront, vous pouvez demander à un administrateur d’activer les trimestres personnalisés pour votre organisation. </span>
+1. (Conditionnel et facultatif) Si vous êtes un administrateur Workfront, cliquez sur **Accéder à la configuration** dans la zone **Utiliser des trimestres personnalisés** pour accéder à la zone Configuration et configurer des trimestres personnalisés. Après avoir configuré les trimestres personnalisés, vous pouvez les afficher dans la vue chronologique au lieu des trimestres classiques. Si vous n’êtes pas administrateur Workfront, vous pouvez demander à un administrateur d’activer les trimestres personnalisés pour votre organisation.
 
    Pour plus d’informations, voir [Activer les trimestres personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
@@ -400,11 +391,11 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    >[!TIP]
    >
-   ><span class="preview">Le bouton Accéder à la configuration s’affiche uniquement pour l’administrateur Workfront.</span>
+   >Le bouton Accéder à la configuration s’affiche uniquement pour l’administrateur Workfront.
 
 1. Cliquez sur **Style de barre** dans le panneau de gauche pour indiquer les informations à afficher sur les barres d’enregistrement.
 
-   Vous pouvez définir le style de barre de l&#39;enregistrement principal <span class="preview">ainsi que des enregistrements connectés</span>, lors de l&#39;utilisation de l&#39;option Répartition dans la vue Standard.
+   Vous pouvez définir le style de barre de l&#39;enregistrement principal ainsi que des enregistrements connectés, lors de l&#39;utilisation de l&#39;option Répartition dans la vue Standard.
 
    Le champ principal (ou titre) de l&#39;enregistrement, tel que défini dans la vue Tableau de l&#39;enregistrement, est sélectionné par défaut.
    <!--adjust this when the primary field is released??-->
@@ -429,20 +420,20 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    ![Enregistrement des paramètres de chronologie du panneau des détails avec aperçu](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">(facultatif et conditionnel) Si vous affichez la frise chronologique en mode Standard, sélectionnez le paramètre **Tronquer les détails de la barre**. Lorsque cette option est sélectionnée, les informations des barres d’enregistrement sont tronquées et ne s’affichent entièrement que lorsque vous pointez sur les barres. Ce paramètre est désélectionné par défaut et les informations d’enregistrement sont entièrement affichées sur les barres. </span>
+1. (Facultatif et conditionnel) Si vous affichez la frise chronologique en mode Standard, sélectionnez le paramètre **Tronquer les détails de la barre**. Lorsque cette option est sélectionnée, les informations des barres d’enregistrement sont tronquées et ne s’affichent entièrement que lorsque vous pointez sur les barres. Ce paramètre est désélectionné par défaut et les informations d’enregistrement sont entièrement affichées sur les barres.
 
    ![Paramètre Tronquer activé dans la zone des paramètres de la chronologie mise en surbrillance](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">Le paramètre Tronquer les détails de la barre n’est pas disponible lors de l’affichage de la chronologie en mode Compact.</span>
+   >Le paramètre Tronquer les détails de la barre n’est pas disponible lors de l’affichage de la chronologie en mode Compact.
    >
 
 1. Cliquez sur **Couleur** dans le panneau de gauche pour personnaliser les couleurs des enregistrements et des regroupements dans la chronologie.
 
    ![Vue chronologique de l’onglet Couleur](assets/color-tab-timeline-view.png)
 
-   Vous pouvez définir la couleur de l&#39;enregistrement principal <span class="preview">ainsi que des enregistrements connectés</span>, lors de l&#39;utilisation de l&#39;option Répartition dans la vue Standard.
+   Vous pouvez définir la couleur de l&#39;enregistrement principal ainsi que des enregistrements connectés, lors de l&#39;utilisation de l&#39;option Répartition dans la vue Standard.
 
 1. (Le cas échéant et facultatif) Si vous avez ajouté un regroupement à la vue chronologique, sélectionnez l’une des options suivantes pour définir une couleur pour le regroupement dans la section **Définir la couleur du regroupement** :
 
@@ -481,7 +472,7 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    Si vous n’avez pas de champ avec des options codées par couleur pour le type d’enregistrement sélectionné, cette option est grisée.
 
-1. <span class="preview">(Facultatif) Si vous utilisez l’option **Répartition**, répétez les étapes commençant par l’étape 4 pour chaque enregistrement connecté affiché dans le journal. </span>
+1. (Facultatif) Si vous utilisez l’option **Répartition**, répétez les étapes commençant par l’étape 4 pour chaque enregistrement connecté affiché dans le journal.
 
 1. Cliquer sur **Enregistrer**.
 
@@ -515,7 +506,7 @@ Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&
 #### Répartir les enregistrements connectés
 
 1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
-1. En mode **Standard** ou <span class="preview">**Compact**, cliquez sur **Répartition**</span> dans le coin supérieur droit de la vue chronologique.
+1. En mode **Standard** ou **Compact**, cliquez sur **Répartition** dans le coin supérieur droit de la vue chronologique.
 1. Développez la zone **Sélectionner un type d’enregistrement lié** et sélectionnez un type d’enregistrement connecté. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Sélecteur de répartition et bouton en mode Chronologie](assets/breakdown-picker-and-button-on-timeline.png)
@@ -543,13 +534,13 @@ Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&
    >
    >Les produits et programmes doivent être connectés aux campagnes pour s’afficher en tant que choix pour l’option de répartition et vous pouvez les ajouter à la répartition dans n’importe quel ordre.
 
-1. <span class="preview">(Conditionnel) Si vous affichez la frise chronologique en mode Compact, cliquez sur **Basculer sur la vue**. La répartition n’est pas visible en mode **Compact**. </span>
+1. (Conditionnel) Si vous affichez la frise chronologique en mode Compact, cliquez sur **Basculer**. La répartition n’est pas visible en mode **Compact**.
 
    >[!TIP]
    >
-   ><span class="preview">Sélectionnez **Ne plus afficher ce message** dans le **Passer à la vue standard ?**, avant de changer de vue. </span>
+   >Sélectionnez **Ne plus afficher ce message** dans le **Passer à la vue standard ?**, avant de changer de vue.
    >
-   ><span class="preview">Cette préférence est mémorisée uniquement pour le navigateur actuel. Si vous changez de navigateur ou d&#39;ordinateur, vous devrez sélectionner à nouveau cette préférence.</span>
+   >Cette préférence est mémorisée uniquement pour le navigateur actuel. Si vous changez de navigateur ou d&#39;ordinateur, vous devrez sélectionner à nouveau cette préférence.
    >
    >Vous ne pouvez pas revenir au mode Compact après avoir basculé la vue vers le mode Standard et avoir affiché les enregistrements connectés dans la vue.
 1. (Facultatif) Répétez les étapes ci-dessus pour ajouter d’autres enregistrements connectés.
