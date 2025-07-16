@@ -8,14 +8,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: afef6ee186340ff65ed9838b60b5a7b02b22d61f
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 98%
+source-wordcount: '477'
+ht-degree: 92%
 
 ---
 
 # Limiter l’accès à Adobe Workfront en fonction de l’adresse IP
+
+>[!IMPORTANT]
+>
+>Cette fonctionnalité n’est actuellement pas disponible pour les organisations qui ont été intégrées à Adobe Admin Console. Il sera disponible dans Adobe Admin Console dans une version ultérieure.
 
 Vous pouvez configurer une liste autorisée d’adresses IP d’Adobe Workfront qui limite l’accès à Workfront à 75 adresses IP ou plages d’adresses IP que vous spécifiez. Cela fournit une couche supplémentaire de sécurité pour l’application Workfront.
 
