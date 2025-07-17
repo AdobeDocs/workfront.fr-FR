@@ -27,8 +27,8 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >[!NOTE]
 >
 >Aperçu : 17 juillet 2025
->>Production pour la version rapide : vendredi 14 août 2025
->>Production pour tous : 16 octobre 2025
+>&#x200B;>Production pour la version rapide : vendredi 14 août 2025
+>&#x200B;>Production pour tous : 16 octobre 2025
 
 
 Les champs suivants sont introduits afin de capturer les informations d&#39;approbation des enregistrements créés lors de l&#39;envoi d&#39;une demande avec approbation :
@@ -44,8 +44,8 @@ Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/plan
 >[!NOTE]
 >
 >Aperçu : 10 juillet 2025
->>Version rapide de production : 14 août 2025
->>Production pour tous : 16 octobre 2025
+>&#x200B;>Version rapide de production : 14 août 2025
+>&#x200B;>Production pour tous : 16 octobre 2025
 
 
 Désormais, lorsque des regroupements sont appliqués à une vue Tableau, l’ajout d’un enregistrement au tableau renseigne automatiquement les champs associés aux regroupements auxquels vous ajoutez l’enregistrement.
