@@ -6,10 +6,11 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c61d147d3f3a9851645f21ec1ee1d5ab9b445d8
+exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
+source-git-commit: 8300595f63fab4f4ef6f00c7b8ff8b06120db2cc
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -23,9 +24,12 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 ## Nouveaux champs pour afficher les informations de validation des enregistrements
 
-Aperçu : 17 juillet 2025
-Production pour une version rapide : 14 août 2025
-Production pour tous : 16 octobre 2025
+>[!NOTE]
+>
+>Aperçu : 17 juillet 2025
+>>Production pour la version rapide : vendredi 14 août 2025
+>>Production pour tous : 16 octobre 2025
+
 
 Les champs suivants sont introduits afin de capturer les informations d&#39;approbation des enregistrements créés lors de l&#39;envoi d&#39;une demande avec approbation :
 
@@ -37,9 +41,12 @@ Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/plan
 
 ## Renseigner automatiquement les champs en fonction des regroupements appliqués
 
-Aperçu : 10 juillet 2025
-Version rapide de production : 14 août 2025
-Production pour tous : 16 octobre 2025
+>[!NOTE]
+>
+>Aperçu : 10 juillet 2025
+>>Version rapide de production : 14 août 2025
+>>Production pour tous : 16 octobre 2025
+
 
 Désormais, lorsque des regroupements sont appliqués à une vue Tableau, l’ajout d’un enregistrement au tableau renseigne automatiquement les champs associés aux regroupements auxquels vous ajoutez l’enregistrement.
 
@@ -61,4 +68,3 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
-

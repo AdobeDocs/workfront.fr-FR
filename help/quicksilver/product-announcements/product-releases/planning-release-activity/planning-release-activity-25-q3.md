@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: eb3bace0298ea67deb3d4515da23b9301625bec7
+source-git-commit: 8dd86b364e23089f3ff02c7817807e5219a3ebb4
 workflow-type: tm+mt
-source-wordcount: '2273'
+source-wordcount: '2275'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,11 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 ## Mise à jour des paramètres avancés lors de la création et de la modification des types d’enregistrements
 
-Prévisualisation et production : vendredi 10 juillet 2025
+>[!NOTE]
+>
+>Aperçu : 10 juillet 2025
+>>Production pour tous : 10 juillet 2025
+
 
 Nous avons mis à jour l’onglet Paramètres avancés lors de la création ou de la modification d’un type d’enregistrement.
 
@@ -37,8 +41,10 @@ Pour plus d’informations, voir la section [Créer des types d’enregistrement
 
 ## Ajout de notifications pour les utilisateurs de l’équipe lorsque l’équipe est ajoutée à un commentaire d’enregistrement
 
-Aperçu : 10 juillet 2025
-Production pour tous : 10 juillet 2025
+>[!NOTE]
+>
+>Aperçu : 10 juillet 2025
+>>Production pour tous : 10 juillet 2025
 
 Désormais, lorsque vous ajoutez une équipe à un commentaire d’enregistrement dans Workfront Planning, tous les membres de l’équipe reçoivent une notification in-app et par e-mail concernant le commentaire. Avant cette amélioration, seuls les utilisateurs ajoutés individuellement aux commentaires étaient avertis .
 
@@ -46,9 +52,12 @@ Pour plus d’informations, voir Gérer les commentaires d’enregistrement [Gé
 
 ## Renseigner automatiquement les champs en fonction des regroupements appliqués
 
-Aperçu : 10 juillet 2025
-Version rapide de production : 14 août 2025
-Production pour tous : 16 octobre 2025
+>[!NOTE]
+>
+>Aperçu : 10 juillet 2025
+>>Version rapide de production : 14 août 2025
+>>Production pour tous : 16 octobre 2025
+
 
 Désormais, lorsque des regroupements sont appliqués à une vue Tableau, l’ajout d’un enregistrement au tableau renseigne automatiquement les champs associés aux regroupements auxquels vous ajoutez l’enregistrement.
 
@@ -62,8 +71,8 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 >[!NOTE]
 >
->* Aperçu : 9 juillet 2025
->* Production pour tous : 17 juillet 2025
+>Aperçu : 9 juillet 2025
+>>Production pour tous : 17 juillet 2025
 
 Vous pouvez désormais partager une vue ainsi qu’un type d’enregistrement à partir du même bouton sur la page du type d’enregistrement. Avant cette amélioration, vous pouviez uniquement partager le type d’enregistrement à partir du bouton Partager sur la page du type d’enregistrement et une vue à partir de l’onglet de la vue.
 
@@ -109,7 +118,7 @@ Pour rendre plus sûr et plus simple le partage d’un formulaire de demande dan
 * Nous avons supprimé les options de gestion et de contribution pour les utilisateurs avec lesquels vous partagez le formulaire de demande. Désormais, les utilisateurs ajoutés peuvent uniquement envoyer le formulaire.
 * L’onglet Partage public affiche désormais le lien et le champ de date d’expiration une fois que l’option Créer un lien public a été activée.
 
-Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Développer et réduire tous les regroupements dans la vue Tableau
 
@@ -327,7 +336,7 @@ Avant cette amélioration, les utilisateurs de tous les niveaux de licence devai
 >[!NOTE]
 >
 >Cette modification sera visible pour tous les utilisateurs nouveaux et existants disposant d’une licence d’administrateur système et standard.
->&#x200B;>Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
+>>Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
 
 Pour plus d’informations, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 

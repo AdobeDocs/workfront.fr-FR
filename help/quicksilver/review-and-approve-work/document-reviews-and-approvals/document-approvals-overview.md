@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des réviseurs et réviseuses ou des approbateu
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '575'
 ht-degree: 37%
 
 ---
@@ -43,7 +43,7 @@ Avec les approbations unifiées, vous pouvez :
 * Désigner une équipe Workfront entière comme réviseurs ou approbateurs
 * Définir une date limite pour la révision ou l’approbation
 * Créer et réutiliser des modèles d&#39;approbation
-* Utiliser de nouvelles versions pour
+* Utiliser les nouvelles versions
 * Affichage de plusieurs indicateurs clés de performances pour vos approbations dans les widgets de l’accueil de Workfront
 * Utiliser les tableaux de bord de la zone de travail pour afficher les détails de rapports sur les approbations unifiées
 

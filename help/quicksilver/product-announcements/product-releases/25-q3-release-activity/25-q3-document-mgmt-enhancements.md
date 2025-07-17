@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 53c5c970f2bfd0191c053baec25bd29f11b6272d
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 8%
+source-wordcount: '650'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,31 @@ Note: The integration must be enabled for your accounts by the Adobe Product Tea
 For more information, see [Get started with the Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 -->
 
+## Déploiement échelonné des approbations unifiées
+
+>[!NOTE]
+>
+>Version de production pour les clients : déploiement échelonné à partir du 17 juillet 2025
+
+
+Nous activons les approbations unifiées, précédemment appelées nouvelles approbations de document, dans un déploiement échelonné. Cette fonctionnalité sera automatiquement activée dans votre instance Workfront au cours des six prochains mois.
+
+Les approbations unifiées remplacent les approbations de documents héritées et fournissent les fonctionnalités suivantes directement sur un document :
+
+* Désigner une équipe Workfront entière comme réviseurs ou approbateurs
+* Définir une date limite pour la révision ou l’approbation
+* Créer et réutiliser des modèles d&#39;approbation
+* Utiliser les nouvelles versions
+* Affichage de plusieurs indicateurs clés de performances pour vos approbations dans les widgets de l’accueil de Workfront
+* Utiliser les tableaux de bord de la zone de travail pour afficher les détails de rapports sur les approbations unifiées
+
+Pour plus d&#39;informations, voir [Aperçu des approbations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+
 ## Mise à jour du lecteur de vérification pour bureau
+
+>[!NOTE]
+>
+>* Version de production pour tous les clients : 16 juin 2025
 
 Le lecteur de vérification pour bureau a été mis à jour vers la version 2.1.50.
 
