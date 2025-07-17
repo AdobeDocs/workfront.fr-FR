@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 2847adb34fc8f433392c82dbcab9bf48f0fc8aa0
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 96%
+source-wordcount: '320'
+ht-degree: 94%
 
 ---
 
@@ -62,7 +62,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 1. Dans le panneau de gauche, cliquez sur **Interface** > **Modèles de disposition**.
 
 1. Cliquez sur le nom du modèle de disposition que vous souhaitez modifier.
-1. Cliquez sur **Copier**.
+1. Cliquez sur l’icône **Copier** ![Copier](assets/copy-icon.png).
 
    Tous les paramètres, à l’exception du nom, de la description et des affectations d’utilisateurs et utilisatrices du modèle de disposition existant, sont copiés dans le nouveau modèle.
 
