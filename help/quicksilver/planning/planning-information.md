@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 6705e9437d8e562dd43b8f530be90ee401042c80
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '608'
 ht-degree: 28%
 
 ---
 
 # Adobe Workfront Planning : index des articles
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -51,12 +51,7 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
    * Autorisations de partage Planning
    * Partager des affichages
    * Partage des espaces de travail (enregistrements et champs)
-
-  <div class="preview">
-
-   * Partage des types d’enregistrements
-
-  </div>
+   * Partage des types d’enregistrements (enregistrements et champs)
 
 * [Architecture : index d’article](/help/quicksilver/planning/architecture/architecture-information.md) contient les informations suivantes :
 
@@ -101,13 +96,17 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
 
 * [Principes de base de l’API Adobe Workfront Planning ](/help/quicksilver/planning/general/planning-api-basics.md) : l’objectif de l’API Adobe Workfront Planning est de simplifier la création d’intégrations avec Planning en introduisant une architecture REST-ful qui fonctionne via HTTP.
 
-* [Modules Adobe Workfront Planning pour Workfront Fusion ](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements ou effectuer un appel API personnalisé vers votre compte Adobe Workfront Planning.
+* [Modules Adobe Workfront Planning pour Workfront Fusion ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements ou effectuer un appel API personnalisé vers votre compte Adobe Workfront Planning.
 
 * [Aperçu de l&#39;assistant IA Planning d&#39;Adobe Workfront ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l&#39;assistant AI Workfront pour Planning, vous pouvez rechercher des enregistrements ou créer, mettre à jour et supprimer des enregistrements à l&#39;aide de commandes et laisser l&#39;assistant faire le travail à votre place.
 
-  >[!NOTE]
-  >
-  >    L’assistant Workfront AI a été temporairement supprimé et sera disponible à une date ultérieure.
+<!--
+    >[!NOTE]
+    >
+    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
+    -->
+
+* [Configurer les automatisations d’Adobe Workfront Planning ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) : vous pouvez configurer des automatisations dans Adobe Workfront Planning qui, lorsqu’elles sont activées, créent des objets dans Workfront ou des enregistrements dans Workfront Planning lorsqu’ils sont déclenchés à partir d’un enregistrement Planning.
 
 * **Fonctionnalités de création de rapports de Workfront Planning** : vous pouvez désormais afficher les informations de Workfront Planning dans un rapport à l’aide du tableau de bord de la zone de travail Workfront. Pour plus d’informations, voir [ Présentation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 

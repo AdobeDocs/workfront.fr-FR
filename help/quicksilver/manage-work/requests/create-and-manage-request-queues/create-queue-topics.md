@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 96%
@@ -154,18 +154,16 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Types de demandes</strong> </td> 
-      <td> <p>Sélectionnez le type des demandes conservées dans cette rubrique de file d’attente. Les options visibles sont définies dans l’onglet <strong>Détails de la file d’attente</strong> du projet. Champ obligatoire. </p>
-
-   <p><b>NOTE</b> :
-
-   Les types s’affichent sous forme de sélection dans la zone Demandes uniquement si le type de demande est sélectionné dans les pages Détails de la file d’attente et Rubrique de file d’attente. Pour plus d’informations sur la configuration de la zone Détails de la file d’attente d’un projet, voir la section <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente de demandes</a>. </p> <p>Choisissez parmi les types suivants :</p>
-   <ul>
-   <li>Rapport sur les bogues</li>
-   <li>Modifier l&#39;ordre</li>
-   <li>Problème</li>
-   <li>Demande</li>
-   </ul> <p>Votre équipe d’administration Workfront a peut-être renommé certaines de ces options. </p> </td>
-   </tr> 
+      <td> <p>Sélectionnez le type des demandes conservées dans cette rubrique de file d’attente. Les options visibles sont définies dans l’onglet <strong>Détails de la file d’attente</strong> du projet. Champ obligatoire. </p> 
+       <p><b>NOTE</b> :</p>
+      <p>Les types s’affichent sous forme de sélection dans la zone Demandes uniquement si le type de demande est sélectionné dans les pages Détails de la file d’attente et Rubrique de file d’attente. Pour plus d’informations sur la configuration de la zone Détails de la file d’attente d’un projet, voir la section <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente de demandes</a>. </p> <p>Choisissez parmi les types suivants :</p> 
+       <ul> 
+        <li>Rapport sur les bogues</li> 
+        <li>Modifier l'ordre</li> 
+        <li>Problème</li> 
+        <li>Demande</li> 
+       </ul> <p>Votre équipe d’administration Workfront a peut-être renommé certaines de ces options. </p> </td> 
+     </tr> 
     </tbody> 
    </table>
 
