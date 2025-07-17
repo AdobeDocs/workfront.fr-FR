@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 2572093857bb1ad27f869e1d7244549e531ba421
+source-git-commit: eb3bace0298ea67deb3d4515da23b9301625bec7
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2273'
 ht-degree: 4%
 
 ---
@@ -21,6 +21,19 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Mise à jour des paramètres avancés lors de la création et de la modification des types d’enregistrements
+
+Prévisualisation et production : vendredi 10 juillet 2025
+
+Nous avons mis à jour l’onglet Paramètres avancés lors de la création ou de la modification d’un type d’enregistrement.
+
+Les modifications suivantes ont été introduites dans le cadre de cette mise à jour :
+
+* La zone « Étendue de la connectivité » a été renommée « Fonctionnalités de l’ensemble des espaces de travail »
+* Le paramètre « Se connecter à partir d’autres espaces de travail » a été renommé en « Autoriser la connexion à ce type d’enregistrement dans d’autres espaces de travail »
+
+Pour plus d’informations, voir la section [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Ajout de notifications pour les utilisateurs de l’équipe lorsque l’équipe est ajoutée à un commentaire d’enregistrement
 
@@ -96,7 +109,7 @@ Pour rendre plus sûr et plus simple le partage d’un formulaire de demande dan
 * Nous avons supprimé les options de gestion et de contribution pour les utilisateurs avec lesquels vous partagez le formulaire de demande. Désormais, les utilisateurs ajoutés peuvent uniquement envoyer le formulaire.
 * L’onglet Partage public affiche désormais le lien et le champ de date d’expiration une fois que l’option Créer un lien public a été activée.
 
-Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Développer et réduire tous les regroupements dans la vue Tableau
 
@@ -314,7 +327,7 @@ Avant cette amélioration, les utilisateurs de tous les niveaux de licence devai
 >[!NOTE]
 >
 >Cette modification sera visible pour tous les utilisateurs nouveaux et existants disposant d’une licence d’administrateur système et standard.
->&#x200B;>Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
+>>Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
 
 Pour plus d’informations, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
